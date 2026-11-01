@@ -32,7 +32,7 @@
     "making do quest",
     "auberdine stormwind quest"
    ],
-   "answer": "Making Do sends a traveler across the sea with Baros Alexston's reply from Stormwind to Elder Thundris Windweaver in Auberdine. The letter says Stormwind cannot afford to send aid to Darkshore.",
+   "answer": "You carry Baros Alexston's reply from Stormwind across the sea to Elder Thundris Windweaver in Auberdine. Stormwind cannot afford to send aid to Darkshore.",
    "q": "What is the quest Making Do?"
   },
   {
@@ -73,7 +73,7 @@
     "where does this quest end",
     "making do turn in location"
    ],
-   "answer": "Alexston's Reply is delivered to Thundris Windweaver in the port town of Auberdine, on the coast of Darkshore.",
+   "answer": "Alexston's Reply is delivered to Thundris Windweaver in Auberdine, the port town on Darkshore's coast.",
    "q": "Where is Alexston's Reply delivered?"
   }
  ],
@@ -96,19 +96,19 @@
  ],
  "sections": [
   {
-   "body": "A traveler carries Alexston's Reply across the sea to Elder Thundris Windweaver in Auberdine. The letter offers no relief or troops. Stormwind's representative explains that the kingdom's treasury is running low, and the little wealth left is stretched thin across its own struggling territories.",
+   "body": "You carry Alexston's Reply across the sea to Elder Thundris Windweaver in Auberdine. The letter brings no troops or relief. Stormwind's representative explains that the kingdom's treasury is nearly empty. What wealth remains must stretch across its own struggling territories.",
    "spoiler": 0,
    "title": "A Courier Across the Sea"
   },
   {
-   "body": "Thundris Windweaver receives the reply with regret and thanks the traveler for the long journey. Stormwind cannot help, and Darnassus has offered no aid either. Thundris accepts that Auberdine and its people must rely on themselves, with their fate resting in their own hands.",
+   "body": "Thundris Windweaver receives the reply with regret and thanks you for the long journey. Stormwind cannot help, and Darnassus has offered no aid either. Auberdine and its people must rely on themselves. Their fate rests in their own hands.",
    "spoiler": 1,
    "title": "Left to Their Own Fate"
   }
  ],
- "summary": "Auberdine waits for word from Stormwind, and the answer brings no aid. Making Do sends Alexston's Reply across the sea to Elder Thundris Windweaver, carrying a refusal from a kingdom whose coffers are nearly empty.",
+ "summary": "Auberdine waits for word from Stormwind, but no aid is coming. Making Do carries Alexston's Reply across the sea to Elder Thundris Windweaver.",
  "attribution": [
   "In-game quest text: Making Do"
  ],
- "style": 1
+ "style": 2
 }

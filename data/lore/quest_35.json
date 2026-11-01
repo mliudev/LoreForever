@@ -17,16 +17,16 @@
   "wiki": "Further Concerns",
   "chain": []
  },
- "summary": "Marshal Dughan sends an Alliance courier east from Goldshire to check reports of danger. You cross Elwynn Forest to speak with Guard Thomas, who watches the river crossing toward Redridge.",
+ "summary": "East of Goldshire, Marshal Dughan sends you to check reports of danger. You cross Elwynn Forest to speak with Guard Thomas at the river crossing toward Redridge.",
  "sections": [
   {
    "title": "Eyes on the Eastern Crossing",
-   "body": "Rumors tell of hostile aquatic creatures creeping along Elwynn's riverbanks. Marshal Dughan commands the Goldshire garrison, where banditry and vermin already trouble the center of the forest. He will not dismiss the reports, but he cannot spare guards from town. Instead, he sends you east to consult Guard Thomas, the sentry at the bridge over the river toward Redridge.",
+   "body": "Marshal Dughan commands Goldshire's garrison and takes reports of hostile creatures along Elwynn's riverbanks seriously. Bandits and vermin already trouble the forest's center, so he cannot spare guards from town. He sends you east to consult Guard Thomas, the sentry at the bridge toward Redridge.",
    "spoiler": 0
   },
   {
    "title": "A Frontier Stretched Thin",
-   "body": "Guard Thomas has held the bridge outpost for more than a week and has seen what Goldshire's leaders only feared. Hostile, semi-intelligent murlocs have made camps along the waterways of eastern Elwynn. Stormwind's army is absent, while local garrisons protect town walls and supply lines. That leaves rural bridge posts like Thomas's isolated before the growing danger.",
+   "body": "Guard Thomas has held the bridge outpost for more than a week and has seen the danger for himself. Hostile, semi-intelligent murlocs have made camps along eastern Elwynn's waterways. Stormwind's army is absent, and local garrisons guard town walls and supply lines. Rural bridge posts like Thomas's are left isolated as the danger grows.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "dughan purpose",
     "talk to thomas"
    ],
-   "answer": "Marshal Dughan sends you to Guard Thomas because reports tell of murlocs creeping into the eastern waterways. Thomas has been stationed at the eastern Elwynn bridge for a week, so Dughan trusts him to confirm the threat."
+   "answer": "Marshal Dughan sends you to Guard Thomas because reports speak of murlocs creeping into the eastern waterways. Thomas has been stationed at the eastern Elwynn bridge for a week, so Dughan trusts him to confirm the threat."
   },
   {
    "q": "Where is Guard Thomas stationed?",
@@ -56,7 +56,7 @@
     "what did thomas find",
     "eastern river threat"
    ],
-   "answer": "Guard Thomas confirms that hostile, semi-intelligent murlocs have settled along eastern Elwynn's streams and waterways, threatening travelers and nearby farmsteads."
+   "answer": "Guard Thomas confirms that hostile, semi-intelligent murlocs have settled along eastern Elwynn's streams and waterways. They threaten travelers and nearby farmsteads."
   },
   {
    "q": "How do you reach Guard Thomas?",
@@ -74,7 +74,7 @@
     "why is elwynn undefended",
     "stormwind military help"
    ],
-   "answer": "Stormwind's forces are stretched thin with King Varian Wrynn missing and resources diverted from the countryside. Sentries such as Guard Thomas are left largely to rely on passing adventurers."
+   "answer": "Stormwind's forces are stretched thin with King Varian Wrynn missing and resources diverted from the countryside. Sentries such as Guard Thomas are left to rely largely on passing adventurers."
   },
   {
    "q": "What happens after reporting to Guard Thomas?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, the thin defenses near the capital reveal growing operational cracks in the Kingdom of Stormwind."
+   "text": "For the Alliance, thin defenses near the capital reveal growing cracks in the Kingdom of Stormwind's strength."
   },
   {
    "target": "race:Human",
-   "text": "As a human of Elwynn, you face murlocs whose spread threatens the breadbasket farms and the trade routes connecting Goldshire to Lakeshire."
+   "text": "As a human of Elwynn, you face murlocs whose spread threatens the breadbasket farms and trade routes connecting Goldshire to Lakeshire."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Further Concerns"
  ],
- "style": 1
+ "style": 2
 }

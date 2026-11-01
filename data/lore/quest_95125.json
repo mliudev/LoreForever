@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Ott is ready to forge a blade for you from fine materials. You are invited to watch his work.",
+ "summary": "Ott is ready to forge a blade for you from fine materials. You may watch him at work.",
  "sections": [
   {
    "title": "At the Forge",
-   "body": "Ott treats the materials as fine and hopes his work meets your expectations. He forges the blade for you, then offers it for your travels.",
+   "body": "Ott values the fine materials and hopes his work will meet your expectations. He forges a blade for you, then offers it for your travels.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "see blade made",
     "forge process"
    ],
-   "answer": "Ott asks you to stand back while he begins forging, and the requested step is to watch him work."
+   "answer": "Ott asks you to stand back as he begins forging. You are asked to watch him work."
   },
   {
    "q": "What does Ott say when the blade is finished?",
@@ -58,7 +58,7 @@
   "ott"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Ott's Masterwork"
  ]

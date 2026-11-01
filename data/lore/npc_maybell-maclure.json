@@ -8,16 +8,16 @@
   "wiki": "Maybell Maclure",
   "refs": 1
  },
- "summary": "At the Maclure Vineyards in Elwynn Forest, Maybell Maclure loves a Stonefield in secret. Her family’s bitter feud with the neighboring Stonefields keeps her apart from Tommy Joe Stonefield.",
+ "summary": "At the Maclure Vineyards, Maybell Maclure loves a Stonefield, though the families’ feud keeps her apart from Tommy Joe Stonefield.",
  "sections": [
   {
    "title": "Star-Crossed in the Vineyards",
-   "body": "Maybell Maclure works the family vineyards under the shadow of a long feud with the Stonefields next door. She has fallen in love with Tommy Joe Stonefield, heir to the rival farm. Their relatives keep them apart, and Maybell searches for a way to speak with him beyond her family’s watchful eyes.",
+   "body": "Maybell Maclure tends her family’s vineyards beside the Stonefield farm. She loves Tommy Joe Stonefield, heir to the neighboring farm. Their families’ long feud keeps them apart, and Maybell seeks a way to speak with him beyond her family’s watchful eyes.",
    "spoiler": 0
   },
   {
    "title": "A Concoction for True Love",
-   "body": "Unable to cross between the farms openly, Maybell turns to sympathetic travelers and Gramma Stonefield for help. William Pestle, Goldshire’s alchemist, brews an invisibility liquor. Maybell drinks it to slip away from the Maclure homestead unseen and meet Tommy Joe by the riverbank.",
+   "body": "Unable to cross between the farms openly, Maybell asks sympathetic travelers and Gramma Stonefield for help. William Pestle, the alchemist in Goldshire, brews an invisibility liquor. Maybell drinks it and slips away from the Maclure homestead unseen to meet Tommy Joe by the riverbank.",
    "spoiler": 1
   }
  ],
@@ -55,13 +55,13 @@
     "who helps maybell",
     "stonefield helpers"
    ],
-   "answer": "Gramma Stonefield sympathizes with the lovers and directs willing travelers to William Pestle, the alchemist in Goldshire, who provides what they need for a secret meeting."
+   "answer": "Gramma Stonefield sympathizes with the lovers and sends willing travelers to William Pestle, the alchemist in Goldshire. He provides what they need for a secret meeting."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers crossing Elwynn Forest, Maybell’s romance shows how personal troubles and old grudges persist in the kingdom’s heartlands."
+   "text": "For Alliance travelers crossing Elwynn Forest, Maybell’s romance shows how personal troubles and old grudges endure in the kingdom’s heartlands."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Maybell Maclure"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "A Bundle of Trouble",
   "chain": []
  },
- "summary": "At Eastvale Logging Camp, A Bundle of Trouble begins with timber left in the woods and a deadline near. Supervisor Raelen needs the cut wood brought back before the shipment falls behind.",
+ "summary": "At Eastvale Logging Camp, Supervisor Raelen races to meet a timber shipment deadline for Stormwind. Wolves and bears have driven her woodcutters from the northern woods, leaving the cut bundles behind.",
  "sections": [
   {
    "title": "A Looming Deadline",
-   "body": "Supervisor Raelen has a shipment of timber due soon. Eastvale Logging Camp cuts wood for Stormwind, and her crew has fallen behind schedule. With the deadline close, Raelen needs the timber sent on its way.",
+   "body": "Eastvale's timber rebuilds towns and strengthens bridges across the kingdom, yet this vital shipment has fallen behind. The delivery deadline is drawing near, and Supervisor Raelen has little time to spare.",
    "spoiler": 0
   },
   {
    "title": "Predators in the Timber",
-   "body": "Wolves and bears north of the camp have driven the woodcutters away from bundles of cut timber. The workers left the wood where it lay. Raelen cannot wait for guards to clear the area, so she asks you to bring the bundles back to camp.",
+   "body": "North of the camp, wolves and bears drove the woodcutters from the bundles they cut and tied. Raelen cannot wait for guards to clear the woods, so she asks you to bring the timber back before the contract is lost.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "raelen",
     "eastvale supervisor"
    ],
-   "answer": "Supervisor Raelen manages the Eastvale Logging Camp in eastern Elwynn Forest. She oversees the woodcutters and the timber shipments bound for Stormwind and nearby settlements."
+   "answer": "Supervisor Raelen manages Eastvale Logging Camp in eastern Elwynn Forest. She oversees the woodcutters and timber shipments bound for Stormwind and nearby settlements."
   },
   {
    "q": "Why is the wood abandoned in the woods?",
@@ -56,7 +56,7 @@
     "why deputy rainer",
     "rainer connection"
    ],
-   "answer": "Raelen says she contacted Deputy Rainer about the predators. He is stationed at Westbrook Garrison, far across Elwynn Forest, so the message may have traveled through the guards, or local authority may be stretched thin."
+   "answer": "Raelen says she contacted Deputy Rainer about the predators. He is stationed at Westbrook Garrison, far across Elwynn Forest. The message may have passed through the guards, or local authority may be stretched thin."
   },
   {
    "q": "Where is the lumber needed?",
@@ -65,7 +65,7 @@
     "lumber delivery",
     "timber purpose"
    ],
-   "answer": "Eastvale Logging Camp sends timber throughout the kingdom for rebuilding towns and strengthening palisades and bridges. A missed deadline can hurt Elwynn's economy and delay construction."
+   "answer": "Eastvale Logging Camp sends timber throughout the kingdom to rebuild towns and strengthen palisades and bridges. A missed deadline can hurt Elwynn's economy and delay construction."
   },
   {
    "q": "Why can't the loggers collect the wood themselves?",
@@ -74,7 +74,7 @@
     "why not loggers",
     "loggers wolves"
    ],
-   "answer": "The woodcutters are laborers who fell trees, not fighters trained to face predators. Wolves and bears drove them off, and they will not return to the thicket unarmed."
+   "answer": "The woodcutters are laborers who fell trees, not fighters trained to face predators. Wolves and bears drove them away, and they will not return to the thicket unarmed."
   },
   {
    "q": "Where can the bundles of wood be found?",
@@ -117,5 +117,5 @@
  "attribution": [
   "A Bundle of Trouble"
  ],
- "style": 1
+ "style": 2
 }

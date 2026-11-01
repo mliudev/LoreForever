@@ -32,6 +32,7 @@
   <Script file="Sky.lua"/>
   <Script file="Options.lua"/>
   <Script file="Voice.lua"/>
+  <Script file="Moments.lua"/>
   <Script file="Hooks.lua"/>
   <Script file="Storyline.lua"/>
   <Script file="Notes.lua"/>

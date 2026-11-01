@@ -8,16 +8,16 @@
   "wiki": "Morgan the Collector",
   "refs": 0
  },
- "summary": "At the Brackwell Pumpkin Patch, Morgan the Collector directs Defias extortion and gathering across Elwynn Forest. A high-ranking operative, he coordinates local theft from the farmhouse while Goldshire's guard keeps watch nearby.",
+ "summary": "At the Brackwell Pumpkin Patch, Morgan the Collector directs Defias extortion and gathers stolen goods across Elwynn Forest. From the farmhouse, he coordinates the theft while Goldshire's guard watches nearby.",
  "sections": [
   {
    "title": "The Tithe of Elwynn",
-   "body": "Morgan the Collector skims gold from Elwynn Forest's mines for the Defias Brotherhood. While common bandits harass travelers on the roads, he directs organized shakedowns and gathers stolen coin and supplies for the Brotherhood's wider network. His headquarters is the farmhouse at the Brackwell Pumpkin Patch, where loyal enforcers including Surena Caledon and Erlan Drudgemoor surround him.",
+   "body": "Morgan the Collector takes gold from Elwynn Forest's mines for the Defias Brotherhood. Common bandits harass travelers on the roads, but Morgan directs organized shakedowns. He gathers stolen coin and supplies for the Brotherhood's wider network. His headquarters is the farmhouse at the Brackwell Pumpkin Patch, where loyal enforcers including Surena Caledon and Erlan Drudgemoor surround him.",
    "spoiler": 0
   },
   {
    "title": "A Signet of the Past",
-   "body": "Morgan carries a distinctive signet ring that marks his authority. Investigators in Goldshire see the ring as evidence connecting the masked thieves terrorizing the heartland to the disgraced Stonemasons Guild, which rebuilt Stormwind City after the Second War. Recovering the ring reveals who directs the bandits in the woods.",
+   "body": "Morgan carries a distinctive signet ring that marks his authority. In Goldshire, investigators see the ring as evidence linking the masked thieves terrorizing the heartland to the disgraced Stonemasons Guild. That guild rebuilt Stormwind City after the Second War. Recovering the ring reveals who directs the bandits in the woods.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "morgan lore",
     "collector in elwynn"
    ],
-   "answer": "Morgan is a high-ranking officer in the Defias Brotherhood who collects gold taken from Elwynn Forest's mines and coordinates bandit activity in the region."
+   "answer": "Morgan is a high-ranking officer in the Defias Brotherhood. He collects gold taken from Elwynn Forest's mines and coordinates bandit activity in the region."
   },
   {
    "q": "Where is Morgan found?",
@@ -92,5 +92,5 @@
  "attribution": [
   "Morgan the Collector"
  ],
- "style": 1
+ "style": 2
 }

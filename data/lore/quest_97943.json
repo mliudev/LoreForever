@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Astaia resides in Darnassus, making the night elf capital a primary destination for Alliance anglers looking to expand their campsite craft."
+   "text": "As an Alliance angler, you can visit Astaia in Darnassus to learn campsite craft."
   },
   {
    "target": "profession:Cooking",
-   "text": "Camps require a proper campfire to establish, making basic culinary training an essential partner to an angler's outdoor shelter."
+   "text": "As a cook, your basic training helps you make the campfire every camp needs."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "where is astaia",
     "fish bowl trainer"
    ],
-   "answer": "Astaia is located in Darnassus. Once an angler has demonstrated adequate proficiency in fishing, Astaia teaches them how to craft a decorative Fish Bowl for their campsite.",
+   "answer": "Astaia in Darnassus teaches experienced fishermen to craft a decorative Fish Bowl for camp once they show proficiency in fishing.",
    "q": "Who teaches you how to craft camping items for fishing?"
   },
   {
@@ -37,7 +37,7 @@
     "camp fish bowl use",
     "fish bowl camp fixture"
    ],
-   "answer": "The Fish Bowl serves as a campsite fixture meant to bring comfort and joy to resting adventurers. A happy, well-rested camper fights with renewed vigor, directly benefiting outdoor expeditions.",
+   "answer": "A Fish Bowl brings comfort and joy to resting adventurers. A happy, well-rested camper fights with renewed vigor on outdoor journeys.",
    "q": "What purpose does a Fish Bowl serve at camp?"
   },
   {
@@ -46,7 +46,7 @@
     "where to make camp",
     "camp in cities"
    ],
-   "answer": "Camps cannot be pitched in the heart of settlements or town centers. To set up camp and place fixtures like a Fish Bowl, travelers must head out into the wilderness.",
+   "answer": "You cannot pitch a camp in the heart of a settlement or town center. Head into the wilderness to set up camp and place fixtures such as a Fish Bowl.",
    "q": "Can you set up a camp inside Darnassus or other cities?"
   },
   {
@@ -55,7 +55,7 @@
     "how to start camp",
     "campfire required"
    ],
-   "answer": "No campsite is complete without a basic campfire. Travelers are advised to seek out a cooking trainer to learn how to kindle a fire before establishing their wilderness camp.",
+   "answer": "A basic campfire is required for a campsite. Visit a cooking trainer to learn how to kindle one before establishing a wilderness camp.",
    "q": "What is required before setting up a camp?"
   },
   {
@@ -63,7 +63,7 @@
     "fishing proficiency camping",
     "when can i learn fish bowl"
    ],
-   "answer": "To learn the craft from Astaia, an adventurer must first demonstrate proficiency in the fishing profession.",
+   "answer": "Yes. An adventurer must first demonstrate proficiency in fishing to learn the craft from Astaia.",
    "q": "Do you need fishing skill to learn how to craft a Fish Bowl?"
   },
   {
@@ -71,7 +71,7 @@
     "why make camp wow forever",
     "camping benefits"
    ],
-   "answer": "Setting up a camp offers outdoor travelers a place of rest and morale-boosting amenities, such as a crafted Fish Bowl, ensuring adventurers stay rested and capable during wilderness ventures.",
+   "answer": "A camp gives outdoor travelers a place to rest and find morale-boosting comforts such as a Fish Bowl, helping them stay rested and capable in the wilderness.",
    "q": "Why do adventurers set up camps in the wild?"
   }
  ],
@@ -90,18 +90,19 @@
  ],
  "sections": [
   {
-   "body": "Anglers traveling through Kalimdor often find that their quiet hours at the water's edge can serve a greater purpose. In Darnassus, the craftswoman Astaia shows experienced fishermen how to turn their catches and skills into campsite fixtures, notably by fashioning a Fish Bowl to display at camp. This decorative piece provides a welcome touch of comfort and cheer for road-weary travelers.",
+   "body": "Anglers crossing Kalimdor can put quiet hours by the water to use. In Darnassus, Astaia teaches experienced fishermen to turn their catches and skill into campsite comforts. One of these is a Fish Bowl, made to display at camp and bring cheer to weary travelers.",
    "spoiler": 0,
    "title": "Comfort at the Campsite"
   },
   {
-   "body": "Establishing a proper wilderness refuge requires more than just fishing gear. Camps cannot be placed inside crowded city centers or urban districts, requiring adventurers to venture out under open skies. Furthermore, every camp requires a warm campfire at its foundation, prompting adventurers to visit local culinary trainers to master basic fire-making before settling down for the night.",
+   "body": "A wilderness camp needs more than fishing gear. You cannot pitch one in a crowded city center or urban district, so you must find open ground. Every camp also needs a warm fire. Visit a local cooking trainer to learn basic fire-making before settling down for the night.",
    "spoiler": 0,
    "title": "Wilderness Necessities"
   }
  ],
- "summary": "Camping 101: Fishing introduces anglers to the art of wilderness comfort by teaching them to craft a decorative Fish Bowl for their campsite. Directed to Astaia in Darnassus, skilled fishermen learn that small touches of joy can bolster an adventurer's spirit and combat prowess out in the wilds.",
+ "summary": "In Darnassus, anglers are directed to Astaia to learn how a Fish Bowl can brighten a wilderness camp. The craft rewards skilled fishermen with a touch of comfort for life outdoors.",
  "attribution": [
   "In-game quest text: Camping 101: Fishing"
- ]
+ ],
+ "style": 2
 }

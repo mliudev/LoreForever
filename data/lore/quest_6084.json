@@ -23,16 +23,16 @@
    "Training the Beast (Dwarf)"
   ]
  },
- "summary": "In Kharanos, Grif Wildheart sends a young dwarf hunter to face a snow leopard. This second trial follows the crag boar and tests a different kind of skill.",
+ "summary": "Grif Wildheart sends you to face a snow leopard in the second taming trial. The test reaches beyond the crag boar.",
  "sections": [
   {
    "title": "A Lesson in Finesse",
-   "body": "Grif Wildheart points his students southeast of Kharanos, where snow leopards prowl Dun Morogh. The crag boar teaches a hunter to endure hard blows and raw force. The leopard demands another skill: meeting a swift, graceful predator on its own terms. Beneath its white coat lies dangerous strength, and Grif expects his students to learn how that strength strikes.",
+   "body": "Snow leopards prowl southeast of Kharanos. The crag boar tested your strength against hard blows. Now Grif expects you to face a swift, graceful predator on its own terms. Beneath its white coat lies dangerous strength, ready to strike.",
    "spoiler": 0
   },
   {
    "title": "Mastering the Taming Rod",
-   "body": "With an enchanted taming rod, you face a wild snow leopard and seek to turn its hunting instincts toward partnership. Its speed, agility, and sharp reflexes test you in ways the crag boar does not. A hunter who can work alongside a predator that strikes swiftly from the snowy crags is closer to mastering the beasts of the wild.",
+   "body": "With an enchanted taming rod, you face a wild snow leopard and seek to turn its hunting instincts toward partnership. Its speed, agility, and sharp reflexes test you in ways the crag boar did not. Learn to work alongside a predator that strikes swiftly from the snowy crags, and you draw closer to mastering the beasts of the wild.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "snow leopard quest dwarf",
     "taming the beast 2"
    ],
-   "answer": "This is the second trial in the dwarf hunter rite of passage. Grif Wildheart asks you to test your skills against different beasts before he teaches you to form lasting bonds with animal companions."
+   "answer": "This is the second trial in the dwarf hunter rite of passage. Grif Wildheart tests your skill against different beasts before teaching you to form lasting bonds with animal companions."
   },
   {
    "q": "Where do I find the snow leopards?",
@@ -61,7 +61,7 @@
     "why snow leopard",
     "grif wildheart leopard reasoning"
    ],
-   "answer": "Grif Wildheart wants you to learn both brute strength and finesse. The crag boar relies on resilience, while the snow leopard teaches you to fight alongside a swift, agile, and deadly companion."
+   "answer": "Grif Wildheart wants you to learn both strength and finesse. The crag boar relies on resilience, while the snow leopard teaches you to fight alongside a swift, agile, deadly companion."
   },
   {
    "q": "Do I get to keep this snow leopard permanently?",
@@ -86,7 +86,7 @@
     "next quest",
     "what after snow leopard"
    ],
-   "answer": "After you master the snow leopard, Grif sends you to face an Ice Claw Bear in a third and final taming trial. Then he teaches you to tame and train wild beasts on your own."
+   "answer": "After you master the snow leopard, Grif sends you to face an Ice Claw Bear in the third and final taming trial. Then he teaches you to tame and train wild beasts on your own."
   }
  ],
  "angles": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Taming the Beast (Dwarf 2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Jasper Fel",
   "refs": 2
  },
- "summary": "In Stormwind's Old Town, Jasper Fel supplies daggers and vials from SI:7 headquarters. He keeps watch on visitors and warns them to mind their speech.",
+ "summary": "At SI:7 headquarters in Old Town, Jasper Fel keeps watch on visitors and warns them to mind their speech.",
  "sections": [
   {
    "title": "Supplies for the Shadows",
-   "body": "Inside SI:7 headquarters in Old Town, Jasper Fel supplies the agents who work there. He offers simple daggers and empty vials for brewing and applying poisons. Jasper works under Mathias Shaw's intelligence division and warns visitors to mind their speech. In a place built for espionage, careless words can put people in danger.",
+   "body": "Jasper Fel supplies the agents inside SI:7 headquarters in Old Town. His wares include simple daggers and empty vials for brewing and applying poisons. He serves Mathias Shaw's intelligence division and warns visitors to mind their speech. Here, careless words can put people in danger.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is jasper fel",
     "jasper fel stormwind"
    ],
-   "answer": "Jasper Fel can be found inside SI:7 headquarters in the eastern part of Old Town, Stormwind City."
+   "answer": "Jasper Fel is inside SI:7 headquarters in eastern Old Town, Stormwind City."
   },
   {
    "q": "What does Jasper Fel sell?",
@@ -33,7 +33,7 @@
     "what does fel sell",
     "jasper fel wares"
    ],
-   "answer": "Jasper Fel supplies simple daggers and various grades of empty vials for operatives."
+   "answer": "Jasper Fel supplies simple daggers and empty vials in various grades for operatives."
   },
   {
    "q": "Is Jasper Fel related to Morbent Fel?",
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can find vials and spare blades from Jasper Fel for your covert work in Stormwind."
+   "text": "As a rogue, you can find vials and spare blades from Jasper Fel for covert work in Stormwind."
   },
   {
    "target": "faction:Alliance",
@@ -85,5 +85,5 @@
  "attribution": [
   "Jasper Fel"
  ],
- "style": 1
+ "style": 2
 }

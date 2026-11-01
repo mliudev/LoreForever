@@ -10,11 +10,11 @@
    "quest:138"
   ]
  },
- "summary": "In Westfall, a weathered parchment carries the trail of notorious pirate Captain Sanders. It marks the second step in a treasure hunt across the bluffs and coastlines.",
+ "summary": "In Westfall, A Clue to Sanders' Treasure leads seekers farther along Captain Sanders' trail. It marks the second step in a hunt across the bluffs and coastlines.",
  "sections": [
   {
    "title": "A Pirate's Riddle",
-   "body": "After you follow Captain Sanders' first treasure map, you find a parchment that points farther inland into Westfall. The scrawled note sends you east from the coast, up the bluffs toward the main road. Near crumbling stone ruins and an abandoned chimney, an old barrel marks the next place Sanders hid a clue, drawing seekers deeper into the troubled farmlands.",
+   "body": "After following Captain Sanders' first treasure map, you find a parchment pointing farther inland into Westfall. Its scrawled note sends you east from the coast and up the bluffs toward the main road.\n\nNear crumbling stone ruins and an abandoned chimney, an old barrel marks where Sanders hid the next clue. The trail leads deeper into the troubled farmlands.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "clue to sanders treasure",
     "what is a clue to sanders treasure"
    ],
-   "answer": "Captain Sanders left a handwritten note to guide anyone clever enough to follow his trail toward another hidden container in Westfall."
+   "answer": "Captain Sanders left a handwritten note to guide anyone clever enough to follow his trail to another hidden container in Westfall."
   },
   {
    "q": "Where does this clue lead?",
@@ -44,7 +44,7 @@
     "sanders lore",
     "captain sanders"
    ],
-   "answer": "Captain Sanders was a pirate. His legacy survives in the treasure caches and riddles he hid across Westfall's shores and countryside."
+   "answer": "Captain Sanders was a pirate. His legacy lives on in the treasure caches and riddles he hid across Westfall's shores and countryside."
   }
  ],
  "angles": [],
@@ -65,5 +65,5 @@
   "A Clue to Sanders' Treasure",
   "Captain Sanders' Hidden Treasure (Classic 2)"
  ],
- "style": 1
+ "style": 2
 }

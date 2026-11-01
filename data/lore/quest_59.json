@@ -17,16 +17,16 @@
   "wiki": "Cloth and Leather Armor",
   "chain": []
  },
- "summary": "In Goldshire, Cloth and Leather Armor sends a trusted traveler east for gear. Marshal Dughan issues an armor marker redeemable with Sara Timberlain at Eastvale Logging Camp. The trip carries recruits beyond Guard Thomas's bridge to obtain armor for the realm's defense.",
+ "summary": "In Goldshire, Cloth and Leather Armor sends a trusted traveler east for gear. Marshal Dughan issues an armor marker for Sara Timberlain at Eastvale Logging Camp. Beyond Guard Thomas's bridge, recruits seek armor for the realm's defense.",
  "sections": [
   {
    "title": "The Marshal's Token",
-   "body": "Guard Thomas watches Elwynn's eastern river crossing, where murlocs and gnolls threaten the border. After you carry his report to Goldshire, Marshal Dughan recognizes your service with an official Stormwind Armor Marker. Goldshire's garrison has meager stores, so Dughan gives you a marker instead of drawing equipment from them. The marker is a military voucher that records your service to the crown.",
+   "body": "Guard Thomas watches Elwynn's eastern river crossing, where murlocs and gnolls threaten the border. You carry his report to Goldshire, and Marshal Dughan marks your service with an official Stormwind Armor Marker. Goldshire's garrison has few stores, so Dughan gives you a marker instead of equipment. It is a military voucher recording your service to the crown.",
    "spoiler": 0
   },
   {
    "title": "The Weaver of Eastvale",
-   "body": "East of Guard Thomas's bridge lies Eastvale Logging Camp, Elwynn's main timber operation. Sara Timberlain works there under an official commission from the Stormwind Army to make cloth and leather gear. The kingdom's central armories are strained, leaving local artisans like Sara to outfit troops and auxiliary scouts on the frontier.",
+   "body": "East of Guard Thomas's bridge lies Eastvale Logging Camp, Elwynn's main timber operation. Sara Timberlain works there under commission from the Stormwind Army, making cloth and leather gear. The kingdom's central armories are strained, so local artisans like Sara outfit troops and auxiliary scouts on the frontier.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "stormwind voucher",
     "what is the marker"
    ],
-   "answer": "A Stormwind Armor Marker is an official military requisition slip issued by officers such as Marshal Dughan. Trusted recruits can use it to claim custom-fitted armor from civilian artisans commissioned by the army, instead of officers keeping bulky armor sets at their posts."
+   "answer": "A Stormwind Armor Marker is an official military requisition slip issued by officers such as Marshal Dughan. Trusted recruits can claim custom-fitted armor from civilian artisans commissioned by the army, rather than having officers keep bulky armor sets at their posts."
   },
   {
    "q": "Who is Sara Timberlain?",
@@ -65,7 +65,7 @@
     "dughan purpose",
     "why eastvale"
    ],
-   "answer": "Marshal Dughan directs recruits to Sara Timberlain at Eastvale because he does not hand out finished gear from his Goldshire post. He sends travelers east after brave deeds so they can obtain proper protection for Elwynn's defense."
+   "answer": "Marshal Dughan directs recruits to Sara Timberlain at Eastvale because he does not hand out finished gear from his Goldshire post. After brave deeds, he sends travelers east to obtain proper protection for Elwynn's defense."
   },
   {
    "q": "Why is the army relying on local tailors for supplies?",
@@ -74,7 +74,7 @@
     "why local artisan",
     "army logistics"
    ],
-   "answer": "King Varian Wrynn is missing, and Stormwind's military is spread thin responding to Defias activity and wild beasts. Local defense posts rely heavily on contracted regional workers to keep their supply lines going."
+   "answer": "King Varian Wrynn is missing, and Stormwind's military is spread thin responding to Defias activity and wild beasts. Local defense posts depend on contracted regional workers to keep supplies moving."
   },
   {
    "q": "Who is Guard Thomas defending against?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Cloth and Leather Armor"
  ],
- "style": 1
+ "style": 2
 }

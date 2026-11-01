@@ -17,16 +17,16 @@
   "wiki": "Winterhoof Cleansing (Classic)",
   "chain": []
  },
- "summary": "Winterhoof Cleansing is a rite entrusted to Horde adventurers by Mull Thunderhorn in Bloodhoof Village. After goblin operations fouled the local springs, a consecrated totem must be carried into the Venture Company's territory to purify the Winterhoof Water Well. Restoring this spring is a vital first step in healing the poisoned waters of central Mulgore.",
+ "summary": "The Winterhoof Water Well in Mulgore has been fouled. Mull Thunderhorn gives you a consecrated totem in Bloodhoof Village to cleanse it. Goblin operations have tainted the nearby springs, and clearing this well is the first step toward healing central Mulgore’s waters.",
  "sections": [
   {
    "title": "A Land Despoiled",
-   "body": "The grassy plains of Mulgore rely on a delicate network of ancestral water wells to sustain both wild game and the scattered tauren tribes. Recently, ruthless industrial mercenaries of the Venture Company moved into the rolling hills southeast of Bloodhoof Village. Their operations have contaminated the local aquifers, leaving the Winterhoof Water Well rank and toxic. Wild beasts shun the tainted water, and the nearby camps face an impending crisis if the corruption spreads further through the earth.",
+   "body": "Mulgore’s grassy plains rely on ancestral wells to sustain wild game and scattered tauren tribes. The Venture Company has recently brought its industrial mercenaries into the hills southeast of Bloodhoof Village. Their work has contaminated local aquifers and left the Winterhoof Water Well toxic. Wild beasts avoid its water, and nearby camps face danger if the corruption spreads through the earth.",
    "spoiler": 0
   },
   {
    "title": "The Ritual of Purifying Waters",
-   "body": "To counter the industrial filth, Mull Thunderhorn carves and enchants a ritual cleansing totem infused with the blessings of the Earth Mother. However, delivering this remedy requires braving armed Venture Company goons who have staked their claim over the spring. By placing the totem directly at the wellhead, an adventurer dispels the foul runoff, allowing clean, life-giving water to rise once more from the depths of the earth.",
+   "body": "Mull Thunderhorn carves a cleansing totem and blesses it in the name of the Earth Mother. Armed Venture Company goons have claimed the spring, so you must brave them to reach the well. Set the totem at its head, and it will drive out the foul runoff. Then clean water can rise from deep within the earth.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is winterhoof well",
     "how to find winterhoof well"
    ],
-   "answer": "The Winterhoof Water Well is located in the hills to the southeast of Bloodhoof Village in Mulgore. It is heavily patrolled by goblin laborers and mercenaries working for the Venture Company."
+   "answer": "The Winterhoof Water Well lies in the hills southeast of Bloodhoof Village in Mulgore. Goblin laborers and Venture Company mercenaries patrol nearby."
   },
   {
    "q": "Why was the water well poisoned?",
@@ -47,7 +47,7 @@
     "why is the well dirty",
     "venture company well"
    ],
-   "answer": "The Venture Company established mining and excavation operations nearby, allowing toxic industrial runoff and refuse to seep directly into the aquifer, rendering the natural spring undrinkable for local wildlife and the tauren."
+   "answer": "The Venture Company began mining and excavation nearby. Toxic runoff and refuse seeped into the aquifer, making the spring unsafe for local wildlife and tauren to drink."
   },
   {
    "q": "Who is Mull Thunderhorn?",
@@ -55,7 +55,7 @@
     "who is mull",
     "mull thunderhorn role"
    ],
-   "answer": "Mull Thunderhorn is a spiritual elder stationed in Bloodhoof Village. Deeply tuned to the health of the earth, he crafts ceremonial totems to undo the environmental devastation wrought by outside invaders."
+   "answer": "Mull Thunderhorn is a spiritual elder in Bloodhoof Village who is deeply attuned to the earth’s health. He crafts ceremonial totems to undo the harm wrought by outside invaders."
   },
   {
    "q": "What happens after the well is cleansed?",
@@ -64,7 +64,7 @@
     "after winterhoof cleansing",
     "what does mull do next"
    ],
-   "answer": "Once the Winterhoof Water Well runs clear and wildlife begins drinking from it safely again, Mull Thunderhorn directs your attention toward other compromised wells in Mulgore, starting with the Thunderhorn Totem."
+   "answer": "After the Winterhoof Water Well runs clear and wildlife can drink safely, Mull Thunderhorn sends you to other troubled wells in Mulgore, beginning with the Thunderhorn Totem."
   },
   {
    "q": "Who are the guards at the well?",
@@ -72,7 +72,7 @@
     "who guards winterhoof well",
     "what enemies are at the well"
    ],
-   "answer": "The well is occupied by laborers and hirelings employed by the Venture Company, an unscrupulous goblin-led syndicate that strips lands of natural resources with no regard for the local ecosystem."
+   "answer": "The well is held by laborers and hirelings employed by the Venture Company. This goblin-led syndicate strips natural resources from the land without regard for the local ecosystem."
   },
   {
    "q": "How does the cleansing totem work?",
@@ -80,25 +80,25 @@
     "cleansing totem lore",
     "how does mull totem work"
    ],
-   "answer": "Carved with sacred tauren rites and warding rituals, the totem draws upon natural spirits and the blessings of the Earth Mother to purge unnatural chemical pollutants from the spring's source."
+   "answer": "Carved with sacred tauren rites and wards, the totem draws on natural spirits and the Earth Mother’s blessings to purge unnatural chemical pollutants from the spring’s source."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The wells of Mulgore are sacred life-givers gifted by the Earth Mother; defending them against goblin greed is both a civic duty and a holy obligation for every tauren."
+   "text": "As a tauren, you know Mulgore’s wells as sacred gifts from the Earth Mother that give life. Protecting them from goblin greed is both a duty to your people and a holy obligation."
   },
   {
    "target": "class:Shaman",
-   "text": "Channeling spirits through totems to reverse unnatural industrial defilement represents the core purpose of a shaman's bond with the elemental waters."
+   "text": "As a shaman, you channel spirits through totems to cleanse industrial corruption and honor your bond with the elemental waters."
   },
   {
    "target": "class:Druid",
-   "text": "Seeing the immediate return of thirsty wildlife to the purified spring proves the vital necessity of healing nature wherever civilization threatens to despoil it."
+   "text": "As a druid, you see thirsty wildlife return to the cleansed spring. Their return shows why nature needs healing wherever civilization threatens it."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing Mulgore's fresh water supply stabilizes the heartlands of the newly settled tauren, strengthening the southern pillar of the young Horde."
+   "text": "As a member of the Horde, you help secure fresh water for the tauren heartland, a southern pillar of the young Horde."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Winterhoof Cleansing (Classic)"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Treats for Greatfather Winter",
   "chain": []
  },
- "summary": "During Winter Veil in Ironforge, the performer portraying Greatfather Winter asks passersby for a treat. Bring him freshly baked gingerbread cookies and ice cold milk, and he offers a festive gift with warm thanks.",
+ "summary": "In Ironforge, the dwarf playing Greatfather Winter asks you for a holiday treat. Bring five freshly baked gingerbread cookies and ice cold milk, and he thanks you with a festive gift.",
  "sections": [
   {
    "title": "A Long Day in the Seat",
-   "body": "In the Commons of Ironforge, a dwarf sits by the holiday tree dressed as Greatfather Winter. The figure’s roots lie in ancient titan lore and dwarven myths of an immortal being cloaked in winter’s chill, but modern festivities rely on Smokywood Pastures. For hours, the performer hears holiday wishes from citizens and eager children.",
+   "body": "Smokywood Pastures sponsors the Winter Veil festivities in Ironforge. By the holiday tree in the Commons, a performer sits dressed as Greatfather Winter. For hours, he hears holiday wishes from citizens and eager children. He wears the guise of an immortal figure from ancient titan lore and dwarven myth.",
    "spoiler": 0
   },
   {
    "title": "Baking Holiday Cheer",
-   "body": "After hearing requests for gifts all day, the performer grows hungry. He asks for five freshly baked gingerbread cookies and ice cold milk. The simple meal gives an exhausted festival worker a moment of relief and spreads goodwill through Ironforge.",
+   "body": "After hearing requests for gifts all day, the performer grows hungry. He asks for five freshly baked gingerbread cookies and ice cold milk. The simple meal gives the exhausted festival worker a moment of relief. Your kindness spreads goodwill through Ironforge.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "greatfather winter location ironforge",
     "ironforge santa location"
    ],
-   "answer": "In the Commons of Ironforge, Greatfather Winter sits beside the large holiday tree and the Smokywood Pastures display, amid festive decorations."
+   "answer": "Greatfather Winter sits beside the large holiday tree and the Smokywood Pastures display in the Commons of Ironforge, amid festive decorations."
   },
   {
    "q": "How do you make Gingerbread Cookies?",
@@ -47,7 +47,7 @@
     "gingerbread recipe",
     "how to bake cookies"
    ],
-   "answer": "Smokywood Pastures vendors near Greatfather Winter sell the recipe. Baking the cookies takes Cooking skill, holiday spices from the festival merchant, and small eggs gathered from wild birds."
+   "answer": "Smokywood Pastures vendors near Greatfather Winter sell the recipe. You need Cooking skill, holiday spices from the festival merchant, and small eggs gathered from wild birds to bake the cookies."
   },
   {
    "q": "Where do I get Ice Cold Milk?",
@@ -56,7 +56,7 @@
     "where to buy milk",
     "milk ironforge"
    ],
-   "answer": "Innkeepers, food vendors, and drink sellers in major Alliance cities sell Ice Cold Milk, including the taverns across Ironforge."
+   "answer": "Innkeepers, food vendors, and drink sellers in major Alliance cities sell Ice Cold Milk. You can find it in the taverns across Ironforge."
   },
   {
    "q": "Is this Greatfather Winter the real mythic figure?",
@@ -65,7 +65,7 @@
     "who is the guy in ironforge",
     "is he really greatfather winter"
    ],
-   "answer": "No. A dwarf hired by Smokywood Pastures portrays the legendary titan-associated figure during Winter Veil celebrations."
+   "answer": "No. During Winter Veil, Smokywood Pastures hires a dwarf to portray the legendary figure associated with the titans."
   },
   {
    "q": "What does Greatfather Winter send you after finishing the quest?",
@@ -74,7 +74,7 @@
     "mail from greatfather winter",
     "smokywood pastures sampler"
    ],
-   "answer": "After receiving the cookies and milk, Greatfather Winter gives you a Smokywood Pastures Gift Pack in thanks for your effort."
+   "answer": "After receiving the cookies and milk, Greatfather Winter thanks you with a Smokywood Pastures Gift Pack."
   },
   {
    "q": "Can Horde players complete this specific quest?",
@@ -82,21 +82,21 @@
     "can horde do this quest",
     "horde treats for greatfather winter"
    ],
-   "answer": "This offering in Ironforge is for Alliance players. Horde members have an equivalent offering that sends them to Greatfather Winter in Orgrimmar."
+   "answer": "This Ironforge offering is for Alliance travelers. Horde members have an equivalent offering that sends them to Greatfather Winter in Orgrimmar."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you use small eggs and holiday spices to bake gingerbread cookies."
+   "text": "As a cook, you bake gingerbread cookies with small eggs and holiday spices."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know Greatfather Winter as an ancient legend tied to the titans and winter’s bounty. Seeing the figure snack on cookies in the Commons brings the myth down to earth."
+   "text": "As a dwarf, you know Greatfather Winter as an ancient legend tied to the titans and winter’s bounty. In the Commons, the figure enjoys cookies, bringing the myth down to earth."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you find Winter Veil festivities in Ironforge, where visitors from across the Eastern Kingdoms gather by the holiday tree in the Commons."
+   "text": "As an Alliance traveler, you find Winter Veil festivities in Ironforge. Visitors from across the Eastern Kingdoms gather by the holiday tree in the Commons."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Treats for Greatfather Winter"
  ],
- "style": 1
+ "style": 2
 }

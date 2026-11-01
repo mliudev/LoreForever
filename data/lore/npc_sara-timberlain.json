@@ -8,11 +8,11 @@
   "wiki": "Sara Timberlain",
   "refs": 2
  },
- "summary": "At Eastvale Logging Camp, Sara Timberlain stitches gear for the Stormwind Army. She makes useful armaments from salvaged cloth and leather.",
+ "summary": "At Eastvale Logging Camp, Sara Timberlain sews gear for Stormwind's soldiers. She makes useful armaments from salvaged cloth and leather.",
  "sections": [
   {
    "title": "Needlework on the Frontier",
-   "body": "Sara Timberlain works with needle and thread outside a small cottage on the western edge of Eastvale Logging Camp. Axes sound through the camp as workers fell trees. Though Eastvale lies far from settled lands, wolves and murlocs prowl nearby, and Sara still offers travelers hospitality. She turns scraps of linen and salvaged bandanas into sturdy gear. Her skill has earned official recognition and commissions to supply cloth and leather armaments to Stormwind's military forces.",
+   "body": "On the western edge of Eastvale Logging Camp, Sara Timberlain sews outside a small cottage. Axes ring through the camp as workers fell trees. Though the settlement lies far from other settled lands, wolves and murlocs prowl nearby. Sara still welcomes travelers.\n\nShe turns scraps of linen and salvaged bandanas into sturdy gear. Her skill has earned official recognition. Stormwind's military forces commission her to supply armaments made of cloth and leather.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is sara timberlain",
     "timberlain house"
    ],
-   "answer": "Sara Timberlain sits outside a house on the western side of Eastvale Logging Camp, in eastern Elwynn Forest along the road to Redridge."
+   "answer": "Sara Timberlain sits outside a house on the western side of Eastvale Logging Camp. The camp lies in eastern Elwynn Forest along the road to Redridge."
   },
   {
    "q": "Why is Sara gathering cloth for the army?",
@@ -42,17 +42,17 @@
     "stormwind army armor",
     "cloth and leather armor quest"
    ],
-   "answer": "The Stormwind Army depends on local crafters to maintain its equipment stores. Sara uses salvaged cloth, including linen gathered by adventurers, to make sturdy garments and armor linings for the kingdom's soldiers."
+   "answer": "The Stormwind Army relies on local crafters to maintain its equipment stores. Sara uses salvaged cloth, including linen gathered by travelers, to make sturdy garments and armor linings for the kingdom's soldiers."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "Sara shows how frontier tailors make useful garments from scraps of rough linen and bandit cloth for military commissions."
+   "text": "Sara shows how frontier tailors turn scraps of rough linen and bandit cloth into useful garments for military commissions."
   },
   {
    "target": "faction:Alliance",
-   "text": "Outlying settlements such as Eastvale help defend the kingdom, as local craftspeople supply basic armor to the under-resourced Stormwind Army."
+   "text": "Outlying settlements such as Eastvale help defend the kingdom. Local craftspeople supply basic armor to the under-resourced Stormwind Army."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Sara Timberlain"
  ],
- "style": 1
+ "style": 2
 }

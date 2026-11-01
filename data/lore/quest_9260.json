@@ -17,7 +17,7 @@
   "wiki": "Investigate the Scourge of Stormwind",
   "chain": []
  },
- "summary": "Scourge forces press against Stormwind, with necropolises looming beyond its walls. Lieutenant Orrin calls defenders to strike their camps, gather Necrotic Stones, and study the runes there.",
+ "summary": "Lieutenant Orrin calls Stormwind's defenders to drive back Scourge forces pressing against the city. Necropolises loom beyond its walls, and he asks them to gather Necrotic Stones and study the runes around enemy camps.",
  "sections": [
   {
    "title": "Undead at the Capital's Threshold",
@@ -26,7 +26,7 @@
   },
   {
    "title": "The Whispering Runes",
-   "body": "Glowing runes mark the dirt around Scourge camps, and their purpose remains unclear. The circles crackle with magic like that of the necropolises and carry eerie whispers. Lieutenant Orrin can only guess who, if anyone, hears those unnatural voices.",
+   "body": "Glowing runes mark the dirt around Scourge camps, but their purpose remains unclear. The circles crackle with magic like that of the necropolises and carry eerie whispers. Lieutenant Orrin can only guess who, if anyone, hears those unnatural voices.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "scourge invasion stormwind",
     "why attack stormwind"
    ],
-   "answer": "The Lich King has sent necropolises and invasion forces across Azeroth to spread terror and swell the ranks of the undead. Stormwind is a major stronghold of the living, making it a target for the Scourge."
+   "answer": "The Lich King has sent necropolises and invasion forces across Azeroth to spread terror and swell the ranks of the undead. Stormwind is a major stronghold of the living, so the Scourge has made it a target."
   },
   {
    "q": "What are the glowing runic circles?",
@@ -56,7 +56,7 @@
     "glowing runes",
     "what do circles do"
    ],
-   "answer": "The Scourge has placed glowing runic circles near its camps. They pulse with dark magic and carry unnatural whispers, though their purpose is not known."
+   "answer": "The Scourge has placed glowing runic circles near its camps. They pulse with dark magic and carry unnatural whispers, though their purpose remains unknown."
   },
   {
    "q": "What are Dim Necrotic Stones?",
@@ -91,7 +91,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a Paladin, you face the Scourge outside Stormwind and can bring holy wrath against its runes while protecting the kingdom’s people."
+   "text": "As a Paladin, you face the Scourge outside Stormwind. You can bring holy wrath against its runes and protect the kingdom’s people."
   },
   {
    "target": "class:Priest",
@@ -119,5 +119,5 @@
  "attribution": [
   "Investigate the Scourge of Stormwind"
  ],
- "style": 1
+ "style": 2
 }

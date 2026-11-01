@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "The quest marks a turning point for the Skyborne of Zephras Isle, weighing the loss of protective wards and the threat of Al'Akir against their new mission beyond their floating home."
+   "text": "As a Skyborne of Zephras Isle, you face the loss of the wards and the threat of Al'Akir. Your people now look beyond their floating home for a way to protect it."
   },
   {
    "target": "class:Shaman",
-   "text": "Shamans recognize the grave threat posed by the Windlord Al'Akir, whose elemental dominion directly surrounds Zephras once ancient wards fall."
+   "text": "As a shaman, you know the Windlord Al'Akir's elemental domain surrounds Zephras. With the ancient wards gone, the island lies exposed."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is the fate of zephras",
     "what happens in the fate of zephras"
    ],
-   "answer": "The Fate of Zephras is a pivotal quest following the defeat of Lorthuna at the Shrine of Akir. With the protective wards masking Zephras Isle shattered, the player carries word of the looming elemental threat and Ayessa's proposed expedition to Azeroth directly to High Elder Talaanis Shadowsong in Valanaar.",
+   "answer": "Lorthuna has fallen at the Shrine of Akir, and word of the danger goes to Valanaar. The island's protective wards have failed, and Ayessa proposes an expedition to Azeroth. High Elder Talaanis Shadowsong receives the news.",
    "q": "What is the quest The Fate of Zephras about?"
   },
   {
@@ -37,7 +37,7 @@
     "why attack zephras",
     "zephras elemental threat"
    ],
-   "answer": "Zephras Isle exists within the elemental domain of the Windlord Al'Akir. Ancient protective wards previously cloaked the sanctuary from his sight, but with those defenses fallen, the island stands exposed and vulnerable should the elemental lord direct his wrath toward it.",
+   "answer": "Zephras Isle lies within the elemental domain of Al'Akir, the Windlord. Ancient wards once hid the sanctuary from his sight. Now they are gone, leaving the island exposed should Al'Akir turn his wrath upon it.",
    "q": "Why is Zephras Isle in danger from Al'Akir?"
   },
   {
@@ -46,7 +46,7 @@
     "high elder shadowsong",
     "where is talaanis shadowsong"
    ],
-   "answer": "Talaanis Shadowsong is the High Elder of the Skyborne community on Zephras Isle, stationed in the settlement of Valanaar. He oversees the governance and survival of his people, receiving reports regarding elemental threats and crucial decisions facing their home.",
+   "answer": "Talaanis Shadowsong is the High Elder of the Skyborne in Valanaar on Zephras Isle. He oversees his people's rule and survival, and receives reports of threats and choices facing their home.",
    "q": "Who is Talaanis Shadowsong?"
   },
   {
@@ -55,7 +55,7 @@
     "ayessa plan",
     "what is ayessa doing"
    ],
-   "answer": "Ayessa is a key figure on Zephras Isle who formulates an expedition to Azeroth. Recognizing that the island cannot withstand an assault by Al'Akir without defense, she seeks solutions and allies outside their domain to ensure their people's long-term survival.",
+   "answer": "Ayessa plans to lead an expedition from Zephras Isle to Azeroth. She seeks answers and allies beyond their domain to help protect her people from Al'Akir.",
    "q": "What is Ayessa's plan?"
   },
   {
@@ -64,7 +64,7 @@
     "cult leader lorthuna",
     "what happened to lorthuna"
    ],
-   "answer": "Lorthuna was the leader of the cult operating on Zephras Isle. Prior to this quest, she was slain above the Shrine of Akir, breaking her organization's leadership even as the conflict brought down the magical wards shielding the isle.",
+   "answer": "Lorthuna led the cult on Zephras Isle. She was slain above the Shrine of Akir, breaking the cult's leadership as the island's protective wards fell.",
    "q": "Who was Lorthuna and what happened to her?"
   },
   {
@@ -72,7 +72,7 @@
     "who is muln",
     "muln lore"
    ],
-   "answer": "Muln is an advisor or scholar knowledgeable about the elemental lords who cautioned the defenders of Zephras about the immense power and peril of Al'Akir, confirming their vulnerability without magical concealment.",
+   "answer": "Muln is an advisor or scholar who knows about the elemental lords. He warned Zephras's defenders of Al'Akir's great power and danger, and confirmed their vulnerability without magical concealment.",
    "q": "Who is Muln?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "The Fate of Zephras marks a critical reckoning for the inhabitants of Zephras Isle. Following the climactic confrontation above the Shrine of Akir, the cult leader Lorthuna has been eliminated, yet the victory comes at a severe price. The ancient wards that cloaked the island from Al'Akir's gaze have collapsed, leaving the floating sanctuary defenseless in the heart of the Windlord's domain. In response, a messenger is dispatched across the isle to bring word to Valanaar.",
+   "body": "Lorthuna has fallen after the battle above the Shrine of Akir. Yet Zephras Isle has paid dearly for the victory. Its ancient wards, which hid it from Al'Akir, have collapsed. The floating sanctuary now lies exposed in the Windlord's domain. A messenger crosses the isle with word for Valanaar.",
    "spoiler": 0,
    "title": "A Precarious Victory"
   },
   {
-   "body": "The quest requires speaking directly with High Elder Talaanis Shadowsong in Valanaar. The elder is informed not only of Lorthuna's demise and the broken wards, but also of Ayessa's bold determination to lead an expedition to Azeroth. With their magical veil lost, the islanders resolve to venture outward to find the means to safeguard their home. Shadowsong contemplates the balance of dread and triumph, noting that while Al'Akir is a terrifying menace, elemental gods operate on vast timescales that may grant them precious time to act.",
+   "body": "High Elder Talaanis Shadowsong hears that Lorthuna is dead and the wards have broken. He also learns that Ayessa means to lead an expedition to Azeroth. With their magical veil gone, the islanders look beyond their home for a way to protect it. Shadowsong weighs fear against hope. Al'Akir is a terrible menace, yet elemental gods move across vast stretches of time. That may leave the islanders precious time to act.",
    "spoiler": 1,
    "title": "The Word to Valanaar"
   }
  ],
- "summary": "The Fate of Zephras is a pivotal quest following the defeat of the cult leader Lorthuna on Zephras Isle. With the island's protective cloaking wards fallen, the player carries word of the looming elemental threat of Al'Akir and Ayessa's proposed mission to Azeroth to High Elder Talaanis Shadowsong in Valanaar.",
+ "summary": "After Lorthuna falls, word of danger reaches Valanaar. Zephras Isle's wards have failed, and Ayessa proposes a journey to Azeroth. High Elder Talaanis Shadowsong must hear what has happened.",
  "attribution": [
   "In-game quest text: The Fate of Zephras"
- ]
+ ],
+ "style": 2
 }

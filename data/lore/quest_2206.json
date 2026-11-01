@@ -20,21 +20,21 @@
    "Snatch and Grab"
   ]
  },
- "summary": "Master Mathias Shaw sends agents to Jerod's Landing for shipping intelligence. The Defias Brotherhood uses the river dock to move supplies in secret.",
+ "summary": "At Jerod's Landing, Master Mathias Shaw sends agents to learn how the Defias move their supplies. The Brotherhood uses the river dock to ship goods in secret.",
  "sections": [
   {
    "title": "A Test of Tradecraft",
-   "body": "Master Mathias Shaw tests aspiring operatives who seek a place in Stormwind's covert intelligence wing. He asks for finesse and stealth, not brute force. SI:7 agents take down key figures quietly and recover important papers without drawing the realm into open scandal. Each new operative must prove they can work unseen.",
+   "body": "Master Mathias Shaw tests those who seek a place among Stormwind's covert agents. He asks for finesse and stealth, not brute force. SI:7 agents quietly take down key figures and recover important papers. They do this without drawing the realm into open scandal. Each new operative must prove they can work unseen.",
    "spoiler": 0
   },
   {
    "title": "Smugglers on the River",
-   "body": "Jerod's Landing lies on the river in southern Elwynn, south of Goldshire and just east of the Maclure Vineyards. The Defias Brotherhood seized the once-quiet dock and made it an illicit route. Smuggled arms, supplies, and contraband cross the water from Redridge toward Westfall, beyond the reach of royal road patrols.",
+   "body": "Jerod's Landing sits on the river in southern Elwynn, south of Goldshire and just east of the Maclure Vineyards. The Defias Brotherhood seized the once-quiet dock and turned it into an illicit route. Arms, supplies, and contraband cross the water from Redridge toward Westfall. Royal road patrols cannot reach them there.",
    "spoiler": 0
   },
   {
    "title": "Plausible Deniability",
-   "body": "Master Mathias Shaw warns agents that capture, compromise, or death leaves them without the Crown's support. Stormwind and its spymasters will deny knowing they ever existed. Recovering the Defias Dockmaster's schedule gives SI:7 proof of the Brotherhood's supply lines while keeping Stormwind's official involvement hidden.",
+   "body": "Master Mathias Shaw warns agents that capture, compromise, or death leaves them without the Crown's support. Stormwind and its spymasters will deny they ever existed. The Defias Dockmaster's schedule gives SI:7 proof of the Brotherhood's supply lines. Recovering it keeps Stormwind's official involvement hidden.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
     "where is jerod's landing",
     "dockmaster location"
    ],
-   "answer": "Jerod's Landing is a river dock in southern Elwynn Forest, south of Goldshire and just east of the Maclure Vineyards. The Defias Brotherhood has taken control of the docks and dock house."
+   "answer": "Jerod's Landing is a river dock in southern Elwynn Forest, south of Goldshire and just east of the Maclure Vineyards. The Defias Brotherhood controls the docks and dock house."
   },
   {
    "q": "What are the Defias smuggling through Jerod's Landing?",
@@ -93,11 +93,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you are introduced to SI:7 and tested in stealth and cutpurse instincts. Earn Mathias Shaw's recognition and a signature blade."
+   "text": "As a rogue, you meet SI:7 and prove your stealth and cutpurse instincts. Earn Mathias Shaw's recognition and a signature blade."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help intercept Defias supply lines at Jerod's Landing, protecting Elwynn Forest and weakening the criminal syndicate that threatens Stormwind's surrounding territories."
+   "text": "As an Alliance member, you help intercept Defias supplies at Jerod's Landing. That protects Elwynn Forest and weakens the criminal syndicate threatening Stormwind's surrounding territories."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Snatch and Grab"
  ],
- "style": 1
+ "style": 2
 }

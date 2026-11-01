@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This expedition establishes direct travel to Mulgore to connect with the Earthen Ring, the revered shamanic organization dedicated to soothing the elemental spirits of Azeroth."
+   "text": "As a shaman, you travel to Mulgore to meet the Earthen Ring, a revered shamanic organization devoted to soothing Azeroth's elemental spirits."
   },
   {
    "target": "race:Tauren",
-   "text": "The destination across the skies is Mulgore, the ancestral homeland of the tauren people where the Earthen Ring maintains their operations."
+   "text": "As a tauren, you travel to Mulgore, your people's ancestral homeland. The Earthen Ring keeps its operations there."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what comes next quest",
     "what is this quest"
    ],
-   "answer": "What Comes Next is a transition quest marking the departure from Zephras Isle. After earning the blessing of High Elder Shadowsong and ensuring the cult has been handled, travelers prepare to embark via skycutter to mainland Kalimdor.",
+   "answer": "The expedition is preparing to leave Zephras Isle after earning High Elder Shadowsong's blessing and defeating the local cult. Travelers are ready to cross the skies by skycutter to Kalimdor.",
    "q": "What is the quest What Comes Next?"
   },
   {
@@ -37,7 +37,7 @@
     "skycutter destination",
     "where does the skycutter fly"
    ],
-   "answer": "The skycutter voyage connects Zephras Isle with Mulgore, a grassy mesa region in central Kalimdor where the Earthen Ring makes their home and where advance members of the expedition are already waiting.",
+   "answer": "Skycutters connect Zephras Isle with Mulgore, a grassy mesa region in central Kalimdor. The Earthen Ring makes its home there, and advance members of the expedition are already waiting.",
    "q": "Where does the expedition travel?"
   },
   {
@@ -46,7 +46,7 @@
     "ayessa dawnsinger",
     "ayessa"
    ],
-   "answer": "Ayessa Dawnsinger is the coordinator overseeing the departure from Zephras Isle. She confirms that preparations are in place, test flights have succeeded, and the expedition has High Elder Shadowsong's blessing to set out.",
+   "answer": "Ayessa Dawnsinger coordinates the departure from Zephras Isle. Preparations are in place, test flights have succeeded, and High Elder Shadowsong has blessed the expedition's departure.",
    "q": "Who is Ayessa Dawnsinger?"
   },
   {
@@ -55,7 +55,7 @@
     "muln skycutter",
     "muln zephras"
    ],
-   "answer": "Muln is an ally who worked diligently to establish stable skycutter transport between Zephras Isle and Mulgore, conducting test voyages to ensure safe passage across the skies.",
+   "answer": "Muln worked to establish steady skycutter travel between Zephras Isle and Mulgore. He conducted test voyages to ensure safe passage across the skies.",
    "q": "Who is Muln?"
   },
   {
@@ -64,7 +64,7 @@
     "earthen ring mulgore",
     "who are the earthen ring"
    ],
-   "answer": "The Earthen Ring is an organization of shaman dedicated to maintaining harmony among the elemental spirits. In this expedition, they serve as the contact and hosts welcoming travelers arriving in Mulgore.",
+   "answer": "The Earthen Ring is an organization of shamans devoted to keeping harmony among the elemental spirits. Its members are the expedition's contacts and hosts in Mulgore.",
    "q": "What is the Earthen Ring?"
   },
   {
@@ -73,7 +73,7 @@
     "is zephras finished",
     "why go to mulgore"
    ],
-   "answer": "With the local cult defeated and High Elder Shadowsong's blessing secured, the purpose of remaining isolated on Zephras Isle is fulfilled, allowing the expedition to expand onward to the mainland.",
+   "answer": "The local cult is defeated, and High Elder Shadowsong has blessed the expedition. With those tasks complete, the expedition can leave Zephras Isle and continue to the mainland.",
    "q": "Why is the expedition leaving Zephras Isle?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "With the local cult defeated and safety restored to Zephras Isle, High Elder Shadowsong has granted blessing for an onward journey. The island's expedition now looks beyond its shores, turning its focus across the open skies toward the continent of Kalimdor. Ayessa Dawnsinger coordinates the final departure for those ready to leave the island behind.",
+   "body": "High Elder Shadowsong has blessed the expedition's onward journey from Zephras Isle, where the local cult has been defeated and safety restored. The expedition now looks beyond the island, with its focus set on travel across the open skies toward Kalimdor. Ayessa Dawnsinger coordinates the final departure for those ready to leave.",
    "spoiler": 0,
    "title": "Departure from Zephras Isle"
   },
   {
-   "body": "Establishing transport off the island required steady preparation. Muln worked diligently to secure stable skycutter travel between Zephras Isle and Mulgore. Following successful test voyages, an advance party has already crossed over to wait on the other side, preparing to make contact with the shaman of the Earthen Ring.",
+   "body": "Muln worked to secure steady skycutter travel between Zephras Isle and Mulgore. Test voyages succeeded, and an advance party has already crossed over. They wait on the other side to make contact with the shaman of the Earthen Ring.",
    "spoiler": 0,
    "title": "Skycutters to Mulgore"
   }
  ],
- "summary": "What Comes Next marks the culmination of affairs on Zephras Isle as travelers prepare to depart across the skies. With the local cult threat quelled and High Elder Shadowsong's blessing secured, skycutter transport is opened between the island and the plains of Mulgore.",
+ "summary": "On Zephras Isle, the expedition prepares to cross the skies for Kalimdor. The local cult is defeated, and High Elder Shadowsong has given his blessing. Skycutters now carry travelers between the island and Mulgore.",
  "attribution": [
   "In-game quest text: What Comes Next"
- ]
+ ],
+ "style": 2
 }

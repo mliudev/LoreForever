@@ -8,21 +8,21 @@
   "wiki": "Gakin the Darkbinder",
   "refs": 9
  },
- "summary": "Beneath The Slaughtered Lamb in Stormwind, Gakin the Darkbinder teaches the warlock arts in secret. He tests aspiring Alliance warlocks before they attempt to summon and bind demons.",
+ "summary": "Beneath The Slaughtered Lamb in Stormwind, Gakin the Darkbinder tests those who seek the warlock arts. He teaches aspiring Alliance warlocks to summon and bind demons.",
  "sections": [
   {
    "title": "A Secret Gathering Place",
-   "body": "Below The Slaughtered Lamb's taproom, a cellar shelters those who study shadow and fel. The crypt-like room holds summoning circles and grim tomes, hidden from the eyes that watch Stormwind's open mage sanctuaries. Gakin guides young warlocks there, teaching discipline and restraint before they summon forces they cannot control.",
+   "body": "Below The Slaughtered Lamb's taproom, a cellar gathers those who study shadow and fel. Summoning circles and grim tomes fill the crypt-like room, kept from the eyes that watch Stormwind's open mage sanctuaries. There, Gakin teaches young warlocks discipline and restraint before they call forces they may not control.",
    "spoiler": 0
   },
   {
    "title": "Master of Demons",
-   "body": "Gakin teaches demonology and the rites used to bind demons. Those who earn his notice travel across the kingdom to gather rare things, including stolen bloodstone talismans and corrupt wood from dark forests. When the materials are ready, Gakin oversees their work in the crypt's summoning circle. Novices must master voidwalkers and succubi in trials that test their will and put their lives at risk.",
+   "body": "Gakin teaches demonology and the rites for binding demons. Those who earn his notice travel across the kingdom for rare things, among them stolen bloodstone talismans and corrupt wood from dark forests. When all is gathered, Gakin watches over their work in the crypt's summoning circle. There, novices face voidwalkers and succubi in trials that test their will and risk their lives.",
    "spoiler": 0
   },
   {
    "title": "Betrayals and Loose Ends",
-   "body": "Surena Caledon, a former apprentice of Gakin, fled into the wilds with a valuable Bloodstone Choker. Her betrayal could expose the warlock circle to Stormwind's guards. Gakin sends loyal followers to recover lost artifacts and silence loose ends before the authorities take notice.",
+   "body": "Surena Caledon, once Gakin's apprentice, fled into the wilds with a valuable Bloodstone Choker. Her betrayal could reveal the warlock circle to Stormwind's guards. So Gakin sends loyal followers to recover lost artifacts and silence loose ends before the authorities take notice.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "are warlocks legal in stormwind",
     "slaughtered lamb lore"
    ],
-   "answer": "Stormwind forbids demonic magic and deeply mistrusts it. The warlocks beneath The Slaughtered Lamb work in secrecy, hidden from guards and citizens and tolerated as a dangerous covert asset."
+   "answer": "Stormwind forbids demonic magic and deeply mistrusts it. Beneath The Slaughtered Lamb, warlocks work in secrecy, hidden from guards and citizens. Stormwind tolerates them as a dangerous covert asset."
   },
   {
    "q": "Who is Surena Caledon?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a human or gnome warlock, you can learn the rites to summon and bind a voidwalker and succubus from Gakin in Stormwind's crypts."
+   "text": "As a human or gnome warlock, you can learn from Gakin in Stormwind's crypts to summon and bind a voidwalker and succubus."
   },
   {
    "target": "faction:Alliance",
@@ -115,5 +115,5 @@
  "attribution": [
   "Gakin the Darkbinder"
  ],
- "style": 1
+ "style": 2
 }

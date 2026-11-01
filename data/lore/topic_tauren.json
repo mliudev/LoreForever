@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Tauren"
  },
- "summary": "The tauren, or shu'halo in their native tongue, are a noble race of nomadic bovine humanoids native to central Kalimdor. Deeply devoted to the Earth Mother, shamanism, and the natural world, they were driven near extinction by ruthless centaur clans before forging a bond with Thrall's New Horde. Today, united under High Chieftain Cairne Bloodhoof, they have established a permanent home across the verdant plains of Mulgore and the high rises of Thunder Bluff.",
+ "summary": "Across central Kalimdor, the tauren are building a home in Mulgore while keeping their old ways. They call themselves shu'halo and honor the Earth Mother, shamanism, and the natural world. Centaur clans nearly destroyed them before they joined Thrall's New Horde. High Chieftain Cairne Bloodhoof now leads them from Mulgore and Thunder Bluff.",
  "sections": [
   {
    "title": "Nomads of the Barrens",
-   "body": "For countless generations, the tauren lived as seasonal nomads wandering the arid plains of the Barrens, hunting the great kodo and listening for the voice of the Earth Mother. However, their peaceful wanderings were plagued by centuries of brutal bloodshed. The ferocious centaur tribes, born from the tragic union of Zaetar and Princess Theradras, waged an unrelenting war of extermination against them. Lacking a fortified homeland and reluctant to wage endless war, the tauren tribes were pushed to the brink of annihilation, their very survival hanging by a thread.",
+   "body": "For countless generations, the tauren roamed the arid Barrens with the seasons. They hunted the great kodo and listened for the Earth Mother's voice. Then the centaur tribes brought their peaceful wanderings to an end. Born from the tragic union of Zaetar and Princess Theradras, the fierce centaur waged a relentless war against them. Without a fortified homeland, and unwilling to fight without end, the tauren were driven near annihilation.",
    "spoiler": 0
   },
   {
    "title": "The New Horde and Thunder Bluff",
-   "body": "Survival came from an unexpected alliance across the sea. During the Third War, Chieftain Cairne Bloodhoof encountered Warchief Thrall and his newly arrived orcs. Recognizing a shared spirit of honor and a longing for shamanic heritage, the two leaders joined forces. With the Horde's assistance, the tauren crushed the marauding centaur and claimed the lush, sheltered grasslands of Mulgore. Upon its windswept mesas, Cairne raised the city of Thunder Bluff. Indebted by this salvation, the tauren marched alongside the Horde to Mount Hyjal to turn back the Burning Legion.",
+   "body": "An alliance from across the sea gave the tauren a chance to survive. During the Third War, Cairne Bloodhoof met Warchief Thrall and the orcs who had newly arrived. The leaders recognized a shared honor and longing for their shamanic heritage, and joined forces.\n\nWith the Horde's help, the tauren defeated the marauding centaur and claimed Mulgore's sheltered grasslands. Cairne founded Thunder Bluff on Mulgore's windswept mesas. In gratitude, the tauren marched with the Horde to Mount Hyjal and helped turn back the Burning Legion.",
    "spoiler": 0
   },
   {
    "title": "Spiritual Guardians and Internal Tensions",
-   "body": "Within the Horde, the tauren act as a steadying, peaceful conscience. Their mastery of nature and the elements helped revitalize orcish shamanism, while Archdruid Hamuul Runetotem fosters rare diplomatic and spiritual ties with night elf druids to investigate the growing corruption within the Emerald Dream. Yet unity remains fragile. While most tribes revere Cairne's wisdom, the xenophobic and ruthless Grimtotem clan, headed by the scheming elder crone Magatha, resides within Thunder Bluff while secretly plotting to usurp leadership and steer the shu'halo toward supremacy.",
+   "body": "The tauren bring a peaceful, steadying voice to the Horde. Their mastery of nature and the elements helped revive orcish shamanism. Archdruid Hamuul Runetotem also keeps rare diplomatic and spiritual ties with night elf druids as they investigate growing corruption within the Emerald Dream.\n\nYet unity among the tribes remains fragile. Most revere Cairne's wisdom, but the xenophobic and ruthless Grimtotem clan lives within Thunder Bluff. Its leader, the scheming elder crone Magatha, secretly plots to seize leadership and steer the shu'halo toward supremacy.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "tauren horde alliance",
     "why are tauren in horde"
    ],
-   "answer": "The tauren were on the verge of being wiped out by the ruthless centaur of the Barrens. Warchief Thrall and his orcs arrived and fought alongside Cairne Bloodhoof, driving the centaur back and helping the tauren secure Mulgore. Bound by deep honor and shared spiritual values, Cairne pledged his people's loyalty to the New Horde in gratitude."
+   "answer": "Ruthless centaur clans nearly wiped out the tauren in the Barrens. During the Third War, Warchief Thrall and his orcs fought beside Cairne Bloodhoof, drove the centaur back, and helped secure Mulgore. Bound by honor and shared spiritual values, Cairne pledged his people's loyalty to the New Horde in gratitude."
   },
   {
    "q": "Who leads the tauren?",
@@ -42,7 +42,7 @@
     "tauren chieftain",
     "who rules thunder bluff"
    ],
-   "answer": "The tauren are led by High Chieftain Cairne Bloodhoof, the wise, venerable leader of the Bloodhoof tribe. Respected for his strength and measured judgment, he unites the disparate tribes from his seat atop Thunder Bluff, assisted by Archdruid Hamuul Runetotem and Elder Crone Magatha Grimtotem."
+   "answer": "High Chieftain Cairne Bloodhoof leads the tauren and heads the Bloodhoof tribe. Respected for his strength and measured judgment, he unites the tribes from Thunder Bluff, with Archdruid Hamuul Runetotem and Elder Crone Magatha Grimtotem assisting him."
   },
   {
    "q": "What is the Earth Mother?",
@@ -51,7 +51,7 @@
     "who is the earth mother",
     "tauren religion"
    ],
-   "answer": "The Earth Mother is the central deity of tauren belief. The shu'halo believe she created the world, the sun, and the moon, and they revere her through a lifestyle deeply attuned to the natural balance, seasonal migration, hunting, and elemental respect."
+   "answer": "The Earth Mother is the central deity of tauren belief. The shu'halo believe she created the world, the sun, and the moon. They honor her through a life attuned to nature's balance, seasonal migration, hunting, and respect for the elements."
   },
   {
    "q": "Why do the tauren hate the centaur?",
@@ -59,7 +59,7 @@
     "tauren centaur war",
     "centaur feud"
    ],
-   "answer": "Centaur hunted the tauren for sport and warred with them for centuries across central Kalimdor. Viewing the tauren's peaceful spirituality as weakness, the centaur chased them from place to place and nearly brought about the total extinction of the shu'halo before the orcs intervened."
+   "answer": "Centaur hunted the tauren for sport and warred with them for centuries across central Kalimdor. They saw the tauren's peaceful spirituality as weakness, drove them from place to place, and nearly wiped out the shu'halo before the orcs intervened."
   },
   {
    "q": "Can tauren be druids?",
@@ -67,7 +67,7 @@
     "tauren druid lore",
     "how did tauren become druids"
    ],
-   "answer": "Yes. Archdruid Hamuul Runetotem leads the tauren druids, who learn the ways of the wild alongside the night elves, making tauren druids a cornerstone of the Cenarion Circle."
+   "answer": "Yes. Archdruid Hamuul Runetotem leads the tauren druids, who learn the ways of the wild alongside night elves. Tauren druids are a cornerstone of the Cenarion Circle."
   },
   {
    "q": "Are all tauren loyal to Cairne Bloodhoof?",
@@ -75,7 +75,7 @@
     "grimtotem loyalty",
     "tauren civil war"
    ],
-   "answer": "Most tribes revere Cairne, but the Grimtotem tribe remains a bitter exception. Led by Magatha Grimtotem, they believe the tauren are superior to all other races and despise Cairne's alliance with the Horde, quietly working to undermine his peaceful reign."
+   "answer": "Most tauren tribes revere Cairne, but the Grimtotem are a bitter exception. Led by Magatha Grimtotem, they believe tauren are superior to all other races and despise Cairne's alliance with the Horde. They quietly work to undermine his peaceful reign."
   },
   {
    "q": "Which classes can tauren be?",
@@ -89,19 +89,19 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As shu'halo, your people's ancient nomadic wandering has given way to a prosperous homeland in Mulgore, secured through the unbreakable brotherhood between Cairne and Thrall."
+   "text": "As shu'halo, your people's ancient nomadic wanderings have given way to a homeland in Mulgore, secured through the brotherhood between Cairne and Thrall."
   },
   {
    "target": "faction:Horde",
-   "text": "The tauren provide the Horde with its moral compass and deep spiritual roots, tempering the aggressive instincts of the orcs and trolls with ancient wisdom and honor."
+   "text": "The tauren give the Horde moral guidance and deep spiritual roots, tempering the aggressive instincts of orcs and trolls with ancient wisdom and honor."
   },
   {
    "target": "class:Druid",
-   "text": "Through Archdruid Hamuul Runetotem, tauren druids work side by side with the night elves of the Cenarion Circle, putting factional rivalries aside to heal the land and protect the Emerald Dream."
+   "text": "Through Archdruid Hamuul Runetotem, tauren druids work alongside the night elves of the Cenarion Circle to heal the land and protect the Emerald Dream."
   },
   {
    "target": "class:Shaman",
-   "text": "Tauren shamanic traditions are among the oldest in Azeroth, and their teachings were essential in helping the orcs rediscover their sacred elemental bonds after the demonic taint of the past wars."
+   "text": "Tauren shamanic traditions are among Azeroth's oldest. Their teachings helped the orcs rediscover their sacred elemental bonds after the demonic taint of past wars."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "Tauren"
- ]
+ ],
+ "style": 2
 }

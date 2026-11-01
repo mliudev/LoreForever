@@ -10,11 +10,11 @@
    "quest:6543"
   ]
  },
- "summary": "Along Ashenvale’s eastern border, a Warsong Outrider prepares a dispatch for the Horde. Stationed there, the outrider records frontline intelligence for couriers serving the Horde to carry, helping secure the crossing toward Azshara and strengthen the orcish foothold against night elf resistance.",
+ "summary": "Along Ashenvale’s eastern border, a Warsong Outrider prepares the Warsong Outrider Update. Stationed there, the outrider records frontline intelligence for Horde couriers to carry. The reports help secure the crossing toward Azshara and strengthen the orcish foothold against night elf resistance.",
  "sections": [
   {
    "title": "Frontier Intelligence",
-   "body": "Beyond Splintertree Post, the eastern road runs toward the ancient ruins of Azshara through Ashenvale’s volatile borderlands. Mounted orcish vanguards patrol this frontier and record tactical sightings, patrol movements, and resource evaluations. They send their field notes to Kadrak at the northern watchtower, which guards the Barrens border. The reports give Horde commanders a clear view of enemy troop concentrations and territorial threats beneath the forest canopy.",
+   "body": "Beyond Splintertree Post, the eastern road crosses Ashenvale’s volatile borderlands toward the ancient ruins of Azshara. Mounted orcish vanguards patrol this frontier and record tactical sightings, patrol movements, and resource evaluations.\n\nThey send their field notes to Kadrak at the northern watchtower, which guards the Barrens border. The reports give Horde commanders a clear view of enemy troop concentrations and territorial threats beneath the forest canopy.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "where do i take outrider update",
     "who wants outrider update"
    ],
-   "answer": "Bring the update directly to Kadrak at the northern watchtower, which guards the Barrens border and the southern entrance to Ashenvale."
+   "answer": "Bring the update directly to Kadrak at the northern watchtower. The tower guards the Barrens border and the southern entrance to Ashenvale."
   },
   {
    "q": "Why are the Warsong so invested in Ashenvale?",
@@ -50,7 +50,7 @@
     "why are orcs in ashenvale",
     "warsong interest ashenvale"
    ],
-   "answer": "The Warsong Clan logs Ashenvale’s ancient forests for lumber and construction materials needed in Orgrimmar. Their resource gathering brings them into conflict with the defending night elves and Silverwing Sentinels."
+   "answer": "The Warsong Clan logs Ashenvale’s ancient forests for lumber and construction materials needed in Orgrimmar. Their gathering brings them into conflict with the defending night elves and Silverwing Sentinels."
   }
  ],
  "angles": [
@@ -60,7 +60,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you rely on vigilant scouts and swift couriers to hold Warsong honor and territory against the night elf sentinels disputing your clan’s forestry claims."
+   "text": "As an orc, you rely on vigilant scouts and swift couriers to uphold Warsong honor and hold territory against the night elf sentinels disputing your clan’s forestry claims."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Warsong Outrider Update",
   "The Warsong Reports"
  ],
- "style": 1
+ "style": 2
 }

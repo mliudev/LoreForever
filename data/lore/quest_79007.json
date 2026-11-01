@@ -19,7 +19,7 @@
     "note text",
     "blistered note"
    ],
-   "answer": "The charred, blistered note contains a cryptic message: 'Not all that burns is lost. Find the twin land, find the place.' It serves as the only clue left behind at the abandoned campsite.",
+   "answer": "The charred, blistered note reads: “Not all that burns is lost. Find the twin land, find the place.” It is the only clue left at the abandoned campsite.",
    "q": "What does the note found at the campsite say?"
   },
   {
@@ -28,7 +28,7 @@
     "who wrote the note",
     "who made the fire"
    ],
-   "answer": "The author remains unknown. It was discovered among scattered provisions beside the dying embers of a recent campfire, suggesting whoever penned or held the note recently departed or was forced to leave in haste.",
+   "answer": "The note's author is unknown. It was found among scattered provisions beside the dying embers of a recent campfire, suggesting whoever wrote or carried it left recently or was forced to depart in haste.",
    "q": "Who left the note behind?"
   },
   {
@@ -36,7 +36,7 @@
     "what is twin land",
     "twin land clue"
    ],
-   "answer": "The note speaks cryptically of a 'twin land,' directing the reader to seek out a matching or mirrored place. The charred fragment offers no further explanation, leaving its meaning an open riddle for travelers to unravel.",
+   "answer": "The note's “twin land” means a matching or mirrored place. The charred fragment gives no further explanation, leaving its meaning for travelers to unravel.",
    "q": "What does 'the twin land' refer to?"
   },
   {
@@ -44,7 +44,7 @@
     "what to do with the note",
     "where does this quest go"
    ],
-   "answer": "With no clear destination marked on a map, the charred remnants of the note are your only guide. Following its riddle requires searching for a land or place echoing the note's cryptic description.",
+   "answer": "The charred note is your only guide, with no destination marked on a map. Its riddle points you to seek a land or place that echoes its description.",
    "q": "How do you follow the clues on the note?"
   },
   {
@@ -52,7 +52,7 @@
     "who abandoned the provisions",
     "scattered provisions campsite"
    ],
-   "answer": "The site shows signs of sudden departure or disturbance, with scattered provisions left behind beside fading embers. Beyond the surviving blistered scrap of paper, no other identifying gear or signs remain.",
+   "answer": "The campsite shows signs of a sudden departure or disturbance. Scattered provisions lie beside fading embers, and no other identifying gear or signs remain beyond the blistered scrap.",
    "q": "Why was the campsite abandoned?"
   },
   {
@@ -60,7 +60,7 @@
     "does the fire reveal anything else",
     "campsite clues"
    ],
-   "answer": "No further writings or markers remain intact at the campfire. The flames destroyed almost everything, leaving only the blistered paper fragment as surviving evidence of whoever rested there.",
+   "answer": "No other writings or markers remain intact at the campfire. The flames destroyed almost everything, leaving only the blistered paper as evidence of whoever rested there.",
    "q": "Are there any other clues at the fire?"
   }
  ],
@@ -76,18 +76,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Beside the dying glow of a recent campfire and scattered provisions lies a damaged, blistered piece of paper. Whoever stopped here departed recently, leaving behind only cooling embers and a fragment of parchment that narrowly escaped the flames. The scene suggests haste or sudden interruption, with supplies left exposed to the elements.",
+   "body": "A recent campfire is dying beside scattered provisions and a blistered piece of paper. Whoever stayed here left recently, and the parchment narrowly escaped the flames. The supplies remain exposed, as though the traveler departed in haste or was interrupted.",
    "spoiler": 0,
    "title": "Embers in the Wild"
   },
   {
-   "body": "The surviving scrap of parchment bears a single enigmatic instruction: 'Not all that burns is lost. Find the twin land, find the place.' With no signature, coordinates, or further context surviving the fire, the charred scrap serves as the sole trail marker for whoever stumbles across it.",
+   "body": "The surviving scrap bears one instruction: “Not all that burns is lost. Find the twin land, find the place.” No signature, coordinates, or further context survived the fire. The riddle is the only trail left for whoever finds it.",
    "spoiler": 0,
    "title": "A Cryptic Riddle"
   }
  ],
- "summary": "'... and that note you found' begins at the cooling embers of a recently abandoned campsite scattered with supplies. Amid the ashes lies a scorched, blistered parchment bearing a riddle about finding a 'twin land.' With no other guides remaining, the charred scrap offers the only clue toward whatever was left behind.",
+ "summary": "At a recent campsite, cooling embers and scattered supplies are all that remain. A scorched parchment bears a riddle about finding a twin land, the only clue left behind.",
  "attribution": [
   "In-game quest text: ... and that note you found"
- ]
+ ],
+ "style": 2
 }

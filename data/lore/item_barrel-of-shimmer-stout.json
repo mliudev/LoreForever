@@ -10,16 +10,16 @@
    "quest:413"
   ]
  },
- "summary": "In Dun Morogh, Rejold Barleybrew sends a barrel of Shimmer Stout to the mountain watch. The experimental ale is meant for guards on the high passes, and drinkers say it brightens their vision.",
+ "summary": "In Dun Morogh, a barrel of Shimmer Stout is bound for the mountain watch. Rejold Barleybrew sends his experimental ale to the high passes, where drinkers say it brightens their vision.",
  "sections": [
   {
    "title": "A Brewer's Pride",
-   "body": "Rejold Barleybrew brewed Shimmer Stout after gathering ingredients across Dun Morogh. The recipe is the latest work of the Barleybrew family, whose dwarven brewers compete to make hearty ales against the mountain cold. Rejold made this stout to warm the gut and sharpen the senses of those posted in the wind.",
+   "body": "Rejold Barleybrew made Shimmer Stout from ingredients gathered across Dun Morogh. The recipe is the newest work of the Barleybrew family. Its dwarven brewers vie to make ales hearty enough for the mountain cold. Rejold brewed this stout to warm the gut and sharpen the senses of those posted in the wind.",
    "spoiler": 0
   },
   {
    "title": "Supplies for the Watch",
-   "body": "This barrel is bound for Mountaineer Wellart Barleybrew at the southern tower on the pass into Loch Modan. Mountaineers there endure cold and long watches between skirmishes with troggs and wildlife. A cask of family ale brings a taste of home, and its kick can leave a tired sentry feeling able to see clearly in the dark.",
+   "body": "The barrel is bound for Mountaineer Wellart Barleybrew at the southern tower on the pass into Loch Modan. Mountaineers there endure cold and long watches between skirmishes with troggs and wildlife. A cask of family ale brings a taste of home. Its kick can leave a tired sentry feeling able to see clearly in the dark.",
    "spoiler": 0
   }
  ],
@@ -58,7 +58,7 @@
     "does it make you see in dark",
     "what does shimmer stout do"
    ],
-   "answer": "Shimmer Stout delivers a potent buzz and makes drinkers feel as if they can see in pitch darkness. Its kick makes it popular among vigilant mountaineers."
+   "answer": "Shimmer Stout gives drinkers a potent buzz and makes them feel as if they can see in pitch darkness. Its kick makes it popular among vigilant mountaineers."
   }
  ],
  "angles": [
@@ -68,7 +68,7 @@
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you know dwarven brewers experiment with hardy mountain ingredients and potent fermentation to make ales for biting weather."
+   "text": "As a cook, you know dwarven brewers experiment with hardy mountain ingredients and potent fermentation. They make ales for biting weather."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Barrel of Shimmer Stout",
   "Shimmer Stout (quest)"
  ],
- "style": 1
+ "style": 2
 }

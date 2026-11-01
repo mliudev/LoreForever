@@ -8,16 +8,16 @@
   "wiki": "Brandur Ironhammer",
   "refs": 2
  },
- "summary": "In Ironforge, Brandur Ironhammer guides young paladins in the Holy Light and sends them across the Alliance.",
+ "summary": "In Ironforge, Brandur Ironhammer trains young paladins in the Holy Light and sends them across the Alliance.",
  "sections": [
   {
    "title": "A Guide in the Mystic Ward",
-   "body": "In the Hall of Mysteries, Brandur Ironhammer trains novice paladins in the ways of the Holy Light. He and Tiza Battleforge watch over young dwarven champions as they face the trials of the Tome of Divinity. Tiza has spoken frankly about Brandur’s personal flaws. He works to master his envy and keep the inner purity expected of a warrior of the Light.",
+   "body": "In the Hall of Mysteries, Brandur Ironhammer teaches novice paladins the ways of the Holy Light. He and Tiza Battleforge guide young dwarven champions through the trials of the Tome of Divinity. Tiza has spoken plainly of Brandur’s flaws. He works to master his envy and keep the inner purity expected of a warrior of the Light.",
    "spoiler": 0
   },
   {
    "title": "Connecting the Silver Hand",
-   "body": "Brandur connects Ironforge to the wider Alliance brotherhood. Human initiates who come to the dwarven mountain are sent south to Duthorian Rall in the Cathedral of Light. Seasoned paladins are directed to battlegrounds such as Chillwind Camp in the Western Plaguelands. Veteran crusaders are sent to Lord Grayson Shadowbreaker for the demanding trials of the war charger.",
+   "body": "Brandur links Ironforge to the wider Alliance brotherhood. Human initiates who come to the mountain are sent south to Duthorian Rall in the Cathedral of Light. Seasoned paladins go to battlegrounds such as Chillwind Camp in the Western Plaguelands. Veteran crusaders are directed to Lord Grayson Shadowbreaker for the demanding trials of the war charger.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does brandur do",
     "brandur purpose"
    ],
-   "answer": "Brandur Ironhammer trains new paladins, guides initiates through the Tome of Divinity, and directs seasoned paladins toward advanced trials across the Alliance."
+   "answer": "Brandur Ironhammer trains new paladins, guides initiates through the Tome of Divinity, and directs seasoned paladins to advanced trials across the Alliance."
   },
   {
    "q": "Who is Brandur's peer in the Hall of Mysteries?",
@@ -65,17 +65,17 @@
     "chillwind camp brandur",
     "ashlam valorfist brandur"
    ],
-   "answer": "Yes. Brandur passes on urgent calls from Commander Ashlam Valorfist and sends paladins proven in purity and valor to aid the Alliance crusade at Chillwind Camp on the border of the Western Plaguelands."
+   "answer": "Yes. Brandur passes along urgent calls from Commander Ashlam Valorfist and sends paladins proven in purity and valor to aid the Alliance crusade at Chillwind Camp on the border of the Western Plaguelands."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a dwarven or Alliance paladin, you can learn martial skills and sacred seals from Brandur in Ironforge, then follow his directions toward advanced holy trials."
+   "text": "As a dwarven or Alliance paladin, you can learn martial skills and sacred seals from Brandur in Ironforge, then follow his directions to advanced holy trials."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you share the Khaz Modan tradition of paladins who join martial steel with reverence for the Holy Light in Ironforge."
+   "text": "As a dwarf, you share Khaz Modan’s tradition of paladins who join martial steel with reverence for the Holy Light in Ironforge."
   }
  ],
  "keywords": [
@@ -102,5 +102,5 @@
  "attribution": [
   "Brandur Ironhammer"
  ],
- "style": 1
+ "style": 2
 }

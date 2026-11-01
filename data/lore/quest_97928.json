@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "You learn to craft a Sharpening Wheel for use in the wilderness. A campfire is needed before you can set up camp.",
+ "summary": "You’re ready to make a Sharpening Wheel and try it in the wilderness. First, you’ll need a campfire to set up camp.",
  "sections": [
   {
    "title": "Ready to Camp",
-   "body": "You can now craft a Sharpening Wheel. To try it out, head into the wilderness, where camps can be set up away from the center of town. Bring a campfire too; cooks can teach you how to make one.",
+   "body": "You can now craft a Sharpening Wheel. Take it into the wilderness to try it out, where you can set up camp away from the center of town. Bring a campfire along. A cook can teach you how to make one.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "blacksmithing craft",
     "what do i make"
    ],
-   "answer": "You can craft your own Sharpening Wheel."
+   "answer": "You can now craft your own Sharpening Wheel."
   },
   {
    "q": "Where can I try the Sharpening Wheel?",
@@ -36,7 +36,7 @@
     "sharpening wheel location",
     "camping where"
    ],
-   "answer": "You can test it in the wilderness, where camps can be set up away from the center of town."
+   "answer": "You can try it in the wilderness, where camps can be set up away from the center of town."
   },
   {
    "q": "What do I need before setting up camp?",
@@ -45,7 +45,7 @@
     "how to start a camp",
     "camping basics"
    ],
-   "answer": "You need a campfire before you start your camp."
+   "answer": "You need a campfire before you can set up camp."
   },
   {
    "q": "Who can teach me to make a campfire?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "You can now craft a Sharpening Wheel for use in the wilderness."
+   "text": "You can now craft a Sharpening Wheel to use in the wilderness."
   },
   {
    "target": "profession:Cooking",
-   "text": "You can learn to make a campfire from a cook."
+   "text": "A cook can teach you how to make a campfire."
   }
  ],
  "keywords": [
@@ -76,7 +76,7 @@
   "wilderness"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Camping 101: Blacksmithing"
  ]

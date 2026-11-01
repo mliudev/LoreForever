@@ -17,16 +17,16 @@
   "wiki": "Tome of Divinity (Brandur Ironhammer)",
   "chain": []
  },
- "summary": "In Ironforge, young dwarven paladins begin a rite of passage beyond basic martial training. Brandur Ironhammer sends them upstairs in the Hall of Mysteries to seek Tiza Battleforge and take up the deeper duties and sacred vows of the Holy Light.",
+ "summary": "In Ironforge, young dwarven paladins are sent to Tiza Battleforge to learn the Holy Light's deeper duties. Their rite of passage reaches beyond martial training and toward sacred vows.",
  "sections": [
   {
    "title": "The Call to the High Seat",
-   "body": "Young paladins first defend Anvilmar and Kharanos from troggs and frost trolls. When their martial discipline is proven, Brandur Ironhammer, their paladin trainer in Ironforge's Hall of Mysteries, sends them upstairs for guidance. Senior paladins there prepare initiates for the order's spiritual duties.",
+   "body": "You have defended Anvilmar and Kharanos from troggs and frost trolls, proving your discipline in battle. Now Brandur Ironhammer, your trainer, sends you upstairs in the Hall of Mysteries. Senior paladins there prepare initiates for the order's spiritual duties.",
    "spoiler": 0
   },
   {
    "title": "Guidance from Tiza Battleforge",
-   "body": "Tiza Battleforge is a revered paladin among Ironforge's dwarves. She teaches initiates the burdens of the Light beyond swordplay and hammer blows: compassion, justice, and self-sacrifice. Seeking her begins formal study of the Tome of Divinity, a sacred path toward the power to resurrect the fallen.",
+   "body": "Tiza Battleforge teaches that the Light asks more than swordplay and hammer blows. It asks for compassion, justice, and self-sacrifice. Seeking her begins your formal study of the Tome of Divinity, a sacred path toward the power to resurrect the fallen.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tome of divinity start",
     "why do this quest"
    ],
-   "answer": "Brandur Ironhammer directs young dwarven paladins from their trainer to senior paladin Tiza Battleforge in Ironforge. This begins the trials required to study the Tome of Divinity and gain the power of spiritual resurrection."
+   "answer": "Brandur Ironhammer sends young dwarven paladins from their trainer to senior paladin Tiza Battleforge in Ironforge. This begins the trials for studying the Tome of Divinity and gaining the power of spiritual resurrection."
   },
   {
    "q": "Who is Brandur Ironhammer?",
@@ -47,7 +47,7 @@
     "brandur role",
     "brandur ironhammer lore"
    ],
-   "answer": "Brandur Ironhammer trains dwarven paladins in the Hall of Mysteries in Ironforge's Mystic Ward. He oversees young paladins and sends promising initiates upstairs to Tiza Battleforge when they are ready for greater sacred duties."
+   "answer": "Brandur Ironhammer trains dwarven paladins in the Hall of Mysteries, in Ironforge's Mystic Ward. He watches over young paladins and sends promising initiates upstairs to Tiza Battleforge when they are ready for greater sacred duties."
   },
   {
    "q": "Who is Tiza Battleforge?",
@@ -74,7 +74,7 @@
     "paladin res quest lore",
     "redemption dwarf"
    ],
-   "answer": "A paladin must understand selflessness and spiritual duty to return a fallen ally to life. The Tome of Divinity guides initiates through formal lessons and tests of faith needed to channel such potent holy power."
+   "answer": "A paladin must learn selflessness and spiritual duty to return a fallen ally to life. The Tome of Divinity guides initiates through formal lessons and tests of faith needed to channel such potent holy power."
   },
   {
    "q": "Do humans receive this same instruction in Ironforge?",
@@ -83,7 +83,7 @@
     "is this dwarf only",
     "human tome of divinity"
    ],
-   "answer": "Human paladins follow a parallel path through the Cathedral of Light in Stormwind. Brandur Ironhammer's specific summons to Tiza Battleforge is for dwarves training in Ironforge."
+   "answer": "Human paladins follow a parallel path through the Cathedral of Light in Stormwind. Brandur Ironhammer's summons to Tiza Battleforge is for dwarves training in Ironforge."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you join the Holy Light's devotion with Khaz Modan's traditions of duty and brotherhood. You answer the call in Ironforge's mountain halls."
+   "text": "As a dwarf, you join devotion to the Holy Light with Khaz Modan's traditions of duty and brotherhood. You answer the call in Ironforge's mountain halls."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Tome of Divinity (Brandur Ironhammer)"
  ],
- "style": 1
+ "style": 2
 }

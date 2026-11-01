@@ -19,7 +19,7 @@
     "what is scramble",
     "scramble stash"
    ],
-   "answer": "Scramble is a scavenged trail quest guiding an adventurer to a hidden survival cache. A written note directs anyone who finds it to march north down a treacherous cliff to recover buried supplies.",
+   "answer": "Scramble sends travelers along a scavenged trail to a hidden cache. A note directs them one hundred paces north down a treacherous cliff to buried supplies.",
    "q": "What is the quest Scramble?"
   },
   {
@@ -28,7 +28,7 @@
     "how to find stash",
     "stash location"
    ],
-   "answer": "According to the instructions, the cache is buried approximately one hundred paces due north, situated down a steep cliffside. It requires careful footing to reach without tumbling down the rock face.",
+   "answer": "The note places the cache about one hundred paces due north, down a steep cliffside. Careful footing is needed on the way down.",
    "q": "Where is the hidden stash located?"
   },
   {
@@ -37,7 +37,7 @@
     "who left stash",
     "scramble author"
    ],
-   "answer": "The exact identity of the author remains unstated. The writer left informal, practical notes intended for an explorer to locate their emergency provisions, confirming the stash remained intact.",
+   "answer": "The note does not name its author. Its informal, practical directions help an explorer find emergency provisions, and the stash remains intact.",
    "q": "Who left the note and the cache?"
   },
   {
@@ -46,7 +46,7 @@
     "what is in scramble cache",
     "bag contents"
    ],
-   "answer": "Unearthing the cache reveals a buried messenger bag containing survival supplies and a dirty parchment tucked among the gear.",
+   "answer": "The buried messenger bag holds survival supplies and a dirty parchment tucked among them.",
    "q": "What is inside the buried stash?"
   },
   {
@@ -55,7 +55,7 @@
     "what does parchment say",
     "scramble note"
    ],
-   "answer": "The dirty parchment is stuffed inside the buried messenger bag alongside the provisions, discovered when the bag is pulled from the ground.",
+   "answer": "The dirty parchment is inside the buried messenger bag, alongside the provisions. It is found when the bag is pulled from the ground.",
    "q": "What is the dirty parchment found with the supplies?"
   },
   {
@@ -64,7 +64,7 @@
     "cliff scramble",
     "scramble cliffside"
    ],
-   "answer": "The primary hazard is navigating the steep descent down the cliffside to the north, where a misstep can lead to broken ankles or serious falls.",
+   "answer": "The steep northern descent is the chief hazard. A misstep can mean broken ankles or a serious fall.",
    "q": "What hazards are involved in reaching the cache?"
   }
  ],
@@ -80,18 +80,19 @@
  "related": [],
  "sections": [
   {
-   "body": "A cryptic message directs any traveler clever enough to find it toward a hidden supply cache. The writer leaves informal encouragement alongside precise directions: march one hundred paces due north down a treacherous cliffside to uncover provisions left behind to keep a traveler going.",
+   "body": "A note points the way to a hidden supply cache. Its writer offers a few informal words of encouragement, then gives precise directions: go one hundred paces due north down the treacherous cliffside. Provisions wait there to keep a traveler going.",
    "spoiler": 0,
    "title": "The Northward Trail"
   },
   {
-   "body": "Following the instructions down the steep cliff face reveals a buried messenger bag. Dug out of the dirt, the bag contains practical survival supplies alongside another dirty parchment tucked inside, suggesting this brief scramble is part of a larger trail.",
+   "body": "Following the directions down the steep cliff face leads to a buried messenger bag. Inside are practical survival supplies and another dirty parchment. The note points onward along a larger trail.",
    "spoiler": 1,
    "title": "Unearthing the Messenger Bag"
   }
  ],
- "summary": "Scramble is a hidden treasure hunt that directs adventurers to follow coordinates down a steep cliffside. Guided by a scavenger's note, travelers unearth a buried messenger bag containing survival provisions and a dirty parchment.",
+ "summary": "A scavenger's note sends travelers down a steep cliff in search of Scramble's hidden supplies. One hundred paces north, they find provisions and a dirty parchment.",
  "attribution": [
   "In-game quest text: Scramble"
- ]
+ ],
+ "style": 2
 }

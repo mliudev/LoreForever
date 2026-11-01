@@ -10,16 +10,16 @@
    "quest:1598"
   ]
  },
- "summary": "A stolen tome draws Drusilla La Salle's attention in Northshire. Powers of the Void was kept in a restricted wing of Northshire Abbey's library until a novice took it while defecting to the Defias Brotherhood. Drusilla seeks its recovery for her own study of dark magic.",
+ "summary": "In Northshire, a stolen tome draws Drusilla La Salle's attention. A novice took Powers of the Void from a guarded wing of Northshire Abbey's library while leaving to join the Defias Brotherhood. Drusilla seeks the book for her own study of dark magic.",
  "sections": [
   {
    "title": "A Restricted Northshire Text",
-   "body": "Powers of the Void was kept behind guarded shelves in Northshire Abbey's library. The abbey archives hold holy scripture and clerical records, along with scholarly works on shadow and nether energies. The tome was presumably penned by the archmage Khadgar. Because its subject was dangerous, abbey authorities kept the book under guard and away from casual visitors. That barred Northshire's warlock mentor, Drusilla La Salle, from browsing it without drawing the priesthood's suspicion.",
+   "body": "Powers of the Void was kept behind guarded shelves in Northshire Abbey's library. The abbey archives hold holy scripture and clerical records, as well as scholarly works on shadow and nether energies. The archmage Khadgar is believed to have penned the tome. Its subject was dangerous, so abbey authorities kept it under guard and away from casual visitors. That kept Drusilla La Salle, Northshire's warlock mentor, from browsing it without drawing the priesthood's suspicion.",
    "spoiler": 0
   },
   {
    "title": "Defias Theft and Recovery",
-   "body": "A Northshire novice carried the tome away while abandoning his vows to join the Defias Brotherhood. As he fled into the neighboring vineyards, he took several valuable volumes from the abbey. Drusilla sends promising warlock initiates into the Defias bandit camp to recover the book from their tents. She wants the dark knowledge for her own study, and the effort tests whether an initiate has the nerve to bind otherworldly demons.",
+   "body": "A Northshire novice carried the tome away when he abandoned his vows to join the Defias Brotherhood. As he fled into the neighboring vineyards, he took several valuable volumes from the abbey. Drusilla sends promising warlock initiates to the Defias bandit camp to recover the book from their tents. She wants its dark knowledge for her own study. The effort tests whether an initiate has the nerve to bind otherworldly demons.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "powers of the void book",
     "what is the stolen tome"
    ],
-   "answer": "Powers of the Void is a rare occult book about shadow and nether energies, believed to have been penned by the archmage Khadgar. It was kept in a restricted wing of Northshire Abbey's library before it was stolen."
+   "answer": "Powers of the Void is a rare occult book about shadow and nether energies, believed to have been penned by the archmage Khadgar. Before it was stolen, the tome was kept in a guarded wing of Northshire Abbey's library."
   },
   {
    "q": "Why was the book locked up in Northshire Abbey?",
@@ -40,7 +40,7 @@
     "why did the priests have it",
     "northshire library wing"
    ],
-   "answer": "Northshire Abbey keeps historic archives, including dangerous texts on illicit magic. Books about Void energies and demonology are locked away to keep novices and wayward practitioners from abusing them."
+   "answer": "Northshire Abbey keeps historic archives, including dangerous texts on illicit magic. Books about Void energies and demonology are locked away so novices and wayward practitioners cannot abuse them."
   },
   {
    "q": "How did the Defias Brotherhood get the book?",
@@ -58,7 +58,7 @@
     "who wants the book",
     "drusilla la salle stolen tome"
    ],
-   "answer": "Drusilla La Salle is Northshire's warlock mentor and wants the tome's knowledge for her own dark craft. She could not enter the abbey's secure library without raising suspicion."
+   "answer": "Drusilla La Salle wants the tome's knowledge for her own dark craft. As Northshire's warlock mentor, she could not enter the abbey's guarded library without raising suspicion."
   },
   {
    "q": "What does retrieving the tome prove to Drusilla?",
@@ -104,5 +104,5 @@
   "Powers of the Void",
   "The Stolen Tome"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Baine Bloodhoof asks you to drive the Galak centaurs from the village\u2019s path. Their defeat promises the children a measure of safety.",
+ "summary": "Baine Bloodhoof asks you to clear the Galak centaurs from the village’s path. Their defeat could give the children a measure of safety.",
  "sections": [
   {
    "title": "The Galak",
-   "body": "Baine asks you to kill six Galak centaurs and four Galak scouts, then bring him Herak the Plunderer\u2019s head. The village\u2019s safety is at stake.",
+   "body": "Baine asks you to kill six Galak centaurs and four Galak scouts. Then bring him Herak the Plunderer’s head. The village’s safety is at stake.",
    "spoiler": 0
   },
   {
-   "title": "A Village\u2019s Relief",
-   "body": "Baine hears the last centaur fall and the stampede cease. He calls the day a great victory for the village and says its children need the feeling of safety more than ever.",
+   "title": "A Village’s Relief",
+   "body": "Baine hears the last centaur fall and the stampede cease. He calls it a great victory for the village. Its children need that feeling of safety more than ever.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who gave this",
     "Baine task"
    ],
-   "answer": "Baine Bloodhoof asks you to confront the Galak centaurs and scouts and bring him Herak the Plunderer\u2019s head."
+   "answer": "Baine Bloodhoof asks you to confront the Galak centaurs and scouts. He also asks you to bring him Herak the Plunderer’s head."
   },
   {
    "q": "What does Baine want from me?",
@@ -39,7 +39,7 @@
     "what do I do",
     "Galak job"
    ],
-   "answer": "Baine asks you to kill six Galak centaurs and four Galak scouts, then bring him Herak the Plunderer\u2019s head."
+   "answer": "Kill six Galak centaurs and four Galak scouts for Baine, then bring him Herak the Plunderer’s head."
   },
   {
    "q": "Who is Herak the Plunderer?",
@@ -47,7 +47,7 @@
     "Herak who",
     "plunderer head"
    ],
-   "answer": "Herak the Plunderer is the Galak whose head Baine asks you to bring."
+   "answer": "Herak the Plunderer is a Galak whose head Baine asks you to bring."
   },
   {
    "q": "Why does this matter to the village?",
@@ -55,7 +55,7 @@
     "why help village",
     "kids safe"
    ],
-   "answer": "Baine says victory brings the village\u2019s children a feeling of safety they need more than ever."
+   "answer": "Baine says victory gives the village’s children a feeling of safety they need more than ever."
   }
  ],
  "angles": [
@@ -76,7 +76,7 @@
  "related": [
   "npc:baine-bloodhoof"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Vertreibt sie"
  ]

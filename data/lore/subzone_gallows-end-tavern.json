@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gallows' End Tavern"
  },
- "summary": "Gallows' End Tavern is the principal inn of Brill and the heart of Forsaken hospitality in Tirisfal Glades. Beyond offering shelter and spirits to weary travelers, it serves as an essential hub for class mentors, trade instructors, and covert interrogations.",
+ "summary": "In Brill, Forsaken gather at Gallows' End Tavern for hospitality and fellowship. The town's principal inn offers shelter and spirits, with class mentors and trade instructors in its halls and covert interrogations below.",
  "sections": [
   {
    "title": "A Gathering Place for the Dead",
-   "body": "Standing prominently along the road in Brill, Gallows' End Tavern serves as the primary gathering place for newly awakened Forsaken leaving Deathknell and journeying south toward the Undercity. Despite their undead condition, Forsaken still frequent its halls for fellowship, trade, and refuge. The inn houses various class instructors\u2014guiding young warriors, priests, mages, rogues, and warlocks\u2014as well as vendors and medical practitioners.",
+   "body": "Along Brill's road, Gallows' End Tavern gathers newly awakened Forsaken leaving Deathknell and traveling south toward the Undercity. Though undead, they come for fellowship, trade, and refuge. Class instructors guide young warriors, priests, mages, rogues, and warlocks. Vendors and medical practitioners are here as well.",
    "spoiler": 0
   },
   {
    "title": "Secrets in the Cellar",
-   "body": "Beneath the creaking floorboards and tavern laughter lies a far grimmer purpose. Down in the cellars, the Forsaken keep prisoners of war bound and guarded away from public view. Among them are a captured Scarlet Zealot and a Dwarven Mountaineer, held beneath the tavern for interrogation and experimentation as the Forsaken fight to secure their borders against both zealous crusaders and Alliance scouts.",
+   "body": "Beneath the tavern's floorboards, prisoners of war are bound and guarded out of public view. Among them are a captured Scarlet Zealot and a Dwarven Mountaineer. The Forsaken hold them for interrogation and experimentation as they fight to secure their borders against zealous crusaders and Alliance scouts.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is gallows end tavern",
     "brill inn location"
    ],
-   "answer": "It is located in the center of Brill, the main Forsaken settlement just north of the Undercity in Tirisfal Glades."
+   "answer": "Gallows' End Tavern stands in the center of Brill, the main Forsaken settlement in Tirisfal Glades, just north of the Undercity."
   },
   {
    "q": "Why do the undead need an inn or tavern?",
@@ -37,7 +37,7 @@
     "why do forsaken need taverns",
     "undead inn lore"
    ],
-   "answer": "While the Forsaken do not require sleep or mortal sustenance to survive, taverns like Gallows' End maintain social bonds and cultural habits from their past lives. It also acts as a secure civic center for training, commerce, and official business."
+   "answer": "The Forsaken need no sleep or mortal sustenance to survive, yet taverns preserve social bonds and habits from their past lives. Gallows' End also provides a secure civic center for training, commerce, and official business."
   },
   {
    "q": "Who is imprisoned in the basement?",
@@ -46,7 +46,7 @@
     "who is in the cellar",
     "brill tavern dungeon"
    ],
-   "answer": "In the cellars beneath the tavern, the Forsaken hold captive enemies including a Scarlet Zealot from the hostile Scarlet Crusade and an Alliance Dwarven Mountaineer."
+   "answer": "In the cellars beneath Gallows' End Tavern, the Forsaken hold a Scarlet Zealot from the hostile Scarlet Crusade and an Alliance Dwarven Mountaineer."
   },
   {
    "q": "What services and trainers can be found here?",
@@ -55,17 +55,17 @@
     "who trains in brill inn",
     "tavern vendors"
    ],
-   "answer": "The tavern features instructors for warriors, priests, mages, rogues, and warlocks, along with first aid and enchanting trainers, general trade vendors, and an innkeeper."
+   "answer": "The tavern has instructors for warriors, priests, mages, rogues, and warlocks, as well as first aid and enchanting trainers, general trade vendors, and an innkeeper."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As the first major inn encountered outside Deathknell, Gallows' End Tavern serves as the cultural and functional crossroads for newly awakened Forsaken entering the wider world."
+   "text": "As a newly awakened Forsaken, you find your first major inn beyond Deathknell at Gallows' End Tavern. It is a crossroads for entering the wider world."
   },
   {
    "target": "faction:Alliance",
-   "text": "Beneath the taproom floors, the Forsaken keep captured Alliance scouts and Scarlet Crusade zealots detained for intelligence and interrogation."
+   "text": "Beneath the taproom, the Forsaken hold captured Alliance scouts and Scarlet Crusade zealots for intelligence and interrogation."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Gallows' End Tavern"
- ]
+ ],
+ "style": 2
 }

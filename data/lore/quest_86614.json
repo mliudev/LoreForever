@@ -19,7 +19,7 @@
     "what is silver of the waves",
     "hair clip quest"
    ],
-   "answer": "Silver of the Waves is a task that begins when an adventurer sifts through discarded fishing knickknacks and flotsam. Amid the rusty hooks and tangled wires lies a tarnished silver hair clip engraved with initials, prompting a search to return the personal keepsake to its rightful owner.",
+   "answer": "You find the tarnished silver hair clip among discarded fishing debris, then seek its owner. The piece bears the initials K.D.",
    "q": "What is Silver of the Waves?"
   },
   {
@@ -28,7 +28,7 @@
     "whose hair clip is it",
     "who is kd"
    ],
-   "answer": "The clip is engraved with the initials 'K.D.' While the debris gives no immediate hint of the owner's full name, someone busy with daily chores recognizes the piece immediately upon its return, grateful to recover a lost accessory they assumed was gone forever.",
+   "answer": "The hair clip bears the initials K.D. Its owner recognizes it when you return it, and is grateful to recover a keepsake thought gone forever.",
    "q": "Whose hair clip is found in the debris?"
   },
   {
@@ -36,7 +36,7 @@
     "where was the hair clip found",
     "hair clip location"
    ],
-   "answer": "The hair clip was discovered among miscellaneous debris alongside ordinary fishing tackle, including broken spools of wire and rusty hooks. It seems to have been lost near the water or swept up with fishing refuse before being salvaged.",
+   "answer": "The hair clip lies among discarded fishing debris, near broken wire spools and rusty hooks. The entry does not say exactly where it was lost.",
    "q": "Where was the hair clip lost?"
   },
   {
@@ -44,7 +44,7 @@
     "silver clip condition",
     "is the hair clip broken"
    ],
-   "answer": "Although slightly corroded from exposure to water and the elements, the silver hair clip remains ornate and structurally intact. Its owner remarks that with just a little effort and polish, the silver piece will easily shine right back up.",
+   "answer": "The ornate silver hair clip is tarnished by moisture and weather, but its craftsmanship remains visible. A little polishing will restore its shine.",
    "q": "What condition is the hair clip in?"
   },
   {
@@ -52,7 +52,7 @@
     "who gives the quest",
     "how do you start silver of the waves"
    ],
-   "answer": "The task begins upon inspecting a pile of discarded fishing refuse and debris. Finding the monogrammed hair clip nestled among ruined spools and hooks gives you the objective to seek out who might have misplaced it.",
+   "answer": "You find the monogrammed hair clip among discarded fishing refuse, broken wire spools, and rusty hooks. Then you seek its owner.",
    "q": "How does this quest begin?"
   },
   {
@@ -60,7 +60,7 @@
     "hair clip reward",
     "why return the hair clip"
    ],
-   "answer": "Returning a personal keepsake lost to the tides or shoreline is a simple act of goodwill. Relieved to recover an accessory thought lost for good, the owner gladly sets aside their busy chores to reward the finder for their trouble.",
+   "answer": "The owner had thought the keepsake lost to the water for good. Its return brings relief, and the grateful owner welcomes the recovery of a treasured possession.",
    "q": "Why is returning the hair clip significant?"
   }
  ],
@@ -76,18 +76,19 @@
  "related": [],
  "sections": [
   {
-   "body": "While rummaging through discarded debris and fishing castoffs\u2014amid rusted hooks and broken wire spools\u2014an observant traveler might uncover something far more delicate: an ornate silver hair clip bearing the monogram 'K.D.' Though slightly tarnished by moisture and weather, the craftsmanship remains evident beneath the corrosion.",
+   "body": "Among discarded fishing debris, you find an ornate silver hair clip marked with the initials K.D. Rusted hooks and broken wire spools lie nearby. Moisture has tarnished the clip, but its fine work still shows beneath the corrosion.",
    "spoiler": 0,
    "title": "A Keepsake in the Flotsam"
   },
   {
-   "body": "Tracking down the owner leads to a hardworking local caught up in the rush of daily chores. The relief is immediate upon seeing the heirloom returned; though presumed lost for good to the waters, the silver piece requires only a bit of polishing to regain its original luster, earning the finder heartfelt gratitude.",
+   "body": "The clip belongs to a hardworking local, busy with daily chores. You return the keepsake, which its owner had thought lost to the water for good. A little polishing will restore its shine, and the grateful owner welcomes its return.",
    "spoiler": 0,
    "title": "Restoring the Shine"
   }
  ],
- "summary": "Silver of the Waves involves recovering a tarnished, monogrammed silver hair clip found abandoned among discarded fishing debris. Returning the lost keepsake to its owner brings a welcome reprieve from their daily chores and restores a treasured possession once thought lost to the tide.",
+ "summary": "A lost silver hair clip waits among fishing debris, and its owner is caught up in daily chores. Its return brings relief and restores a keepsake thought lost to the water.",
  "attribution": [
   "In-game quest text: Silver of the Waves"
- ]
+ ],
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Muren Stormpike directs developing warriors to Tormus Deepforge in Ironforge to prove their mettle and acquire a custom-forged weapon suited to their brutal calling."
+   "text": "Muren Stormpike sends promising warriors to Tormus Deepforge in Ironforge. There, they prove their mettle and seek a weapon forged for their calling."
   },
   {
    "target": "faction:Alliance",
-   "text": "Ironforge's master smiths frequently test promising Alliance fighters with hazardous tasks before crafting fine armaments for them."
+   "text": "Ironforge's master smiths test promising Alliance fighters with dangerous undertakings before they forge fine weapons for them."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "tormus deepforge ironforge",
     "who is tormus deepforge"
    ],
-   "answer": "Tormus Deepforge is an accomplished dwarven weaponsmith stationed at the Great Forge in Ironforge. He is capable of forging exceptional weaponry for warriors who prove themselves capable and courageous enough to handle dangerous undertakings.",
+   "answer": "Tormus Deepforge is an accomplished weaponsmith in Ironforge. He can forge exceptional weapons for warriors who prove their courage and ability through dangerous deeds.",
    "q": "Who is Tormus Deepforge?"
   },
   {
@@ -37,7 +37,7 @@
     "why talk to tormus",
     "muren stormpike referral"
    ],
-   "answer": "Muren Stormpike, the veteran warrior trainer in Ironforge, sends promising fighters to seek out Tormus Deepforge when they are ready to craft a weapon suited to their advancing martial skills.",
+   "answer": "Muren Stormpike sends promising fighters to Tormus Deepforge when they are ready for a weapon suited to their growing martial skill.",
    "q": "Who sends you to speak with Tormus Deepforge?"
   },
   {
@@ -46,7 +46,7 @@
     "what weapon will tormus make",
     "what does tormus want"
    ],
-   "answer": "Tormus agrees to forge a fine weapon, but requires a favor first. He insists on a perilous task that could well mean death, claiming it is precisely the kind of challenge an aspiring warrior seeks.",
+   "answer": "Tormus agrees to forge a fine weapon after the adventurer does him a favor. He asks for a perilous undertaking that could mean death, the kind of challenge he believes an aspiring warrior seeks.",
    "q": "What does Tormus Deepforge ask in return for making a weapon?"
   },
   {
@@ -55,7 +55,7 @@
     "what is tormus task",
     "ironforge warrior quest tormus"
    ],
-   "answer": "The task Tormus has in mind involves significant peril. Rather than deterring fighters, he considers deadly assignments the only proper test for someone worthy of wielding his forged craft.",
+   "answer": "Tormus warns that the undertaking is perilous because it could cost a life. He believes danger is the proper test for anyone worthy of his craft.",
    "q": "Why does Tormus emphasize that the job is dangerous?"
   },
   {
@@ -63,7 +63,7 @@
     "where is tormus",
     "tormus deepforge location"
    ],
-   "answer": "Tormus Deepforge works near the Great Forge in the dwarven capital of Ironforge, surrounded by fellow smiths, anvils, and roaring smelters.",
+   "answer": "Tormus Deepforge works near the Great Forge in Ironforge. Fellow smiths, anvils, and roaring smelters surround him.",
    "q": "Where can Tormus Deepforge be found?"
   },
   {
@@ -71,7 +71,7 @@
     "which class gets tormus quest",
     "is tormus warrior only"
    ],
-   "answer": "Tormus deals specifically with warriors sent by their trainers, looking for individuals with the martial grit and resolve to undertake life-threatening errands.",
+   "answer": "Tormus works with warriors sent by their trainers. He seeks fighters with the grit and resolve to face life-threatening dangers.",
    "q": "Which adventurers does Tormus Deepforge work with?"
   }
  ],
@@ -87,18 +87,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Tormus Deepforge is a master dwarven weaponsmith stationed in Ironforge. When warriors demonstrate their growing prowess to Muren Stormpike, they are sent across the city to consult Tormus. Renowned for crafting sturdy, potent armaments, Tormus does not simply hand out fine blades and bludgeons to anyone who wanders up to his anvil\u2014he demands that warriors earn his craftsmanship through action.",
+   "body": "Tormus Deepforge is a master dwarven weaponsmith in Ironforge. Warriors who show their growing skill to Muren Stormpike are sent across the city to consult him. Tormus is known for sturdy, potent arms, but he does not give fine blades or bludgeons to every passerby. A warrior must earn his work through action.",
    "spoiler": 0,
    "title": "The Blacksmith's Anvil"
   },
   {
-   "body": "Before Tormus agrees to strike hot metal for an adventurer, he extracts a promise for a favor. In typical dwarven fashion, he minces no words about the hazards ahead, warning that the chore carries genuine mortal danger. To Tormus, a task fraught with peril and the possibility of death is not a discouragement, but the ideal test of a warrior's mettle.",
+   "body": "Before Tormus agrees to forge a weapon, he asks the adventurer to promise him a favor. He speaks plainly about the danger ahead and warns that it could cost a life. To him, peril is no reason to turn back. It is the proper test of a warrior's mettle.",
    "spoiler": 0,
    "title": "A Perilous Trial"
   }
  ],
- "summary": "Tormus Deepforge is an Ironforge weaponsmith tasked with providing martial armaments to promising fighters sent by Muren Stormpike. Before crafting any custom weapon, Tormus demands the adventurer undertake a perilous trial to prove their strength.",
+ "summary": "In Ironforge, Tormus Deepforge waits for fighters sent by Muren Stormpike. Before he forges a weapon for them, he asks them to face a perilous trial.",
  "attribution": [
   "In-game quest text: Tormus Deepforge"
- ]
+ ],
+ "style": 2
 }

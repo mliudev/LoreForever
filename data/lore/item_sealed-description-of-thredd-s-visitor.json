@@ -11,16 +11,16 @@
    "quest:393"
   ]
  },
- "summary": "Warden Thelwater seals a report about a visitor to Bazil Thredd in the Stormwind Stockade. The confidential account helps track a covert operative moving through Stormwind's political and criminal spheres.",
+ "summary": "Warden Thelwater seals a report on the man visiting Bazil Thredd in the Stormwind Stockade. The confidential account may help investigators follow someone moving through Stormwind’s political and criminal circles.",
  "sections": [
   {
    "title": "A Mysterious Patron",
-   "body": "Prisoner Bazil Thredd spent years in the Stockade without a visitor. Then a quiet man began coming once or twice each week, carrying valid identification papers under the name Maelik. Warden Thelwater took note of the unusual visits and wrote down the man's appearance. He sealed the description so no meddling eyes could read it before proper investigators acted.",
+   "body": "For years, prisoner Bazil Thredd received no visitors in the Stockade. Then a quiet man began coming once or twice each week with valid papers under the name Maelik. Warden Thelwater took note and recorded the man’s appearance. He sealed the description so meddling eyes could not read it before proper investigators acted.",
    "spoiler": 0
   },
   {
    "title": "From Stonemasons to Spies",
-   "body": "City architect Baros Alexston found no clear match in the description, though he suspected the visitor might be tied to the Defias rebellion. Alexston sent the sealed envelope to Master Mathias Shaw, who leads Stormwind's intelligence service, SI:7. Shaw recognized the man as a lethal mercenary who uses names including Marzon and now does dirty work for Lord Gregor Lescovar.",
+   "body": "City architect Baros Alexston found no clear match in the description. He suspected the visitor might be tied to the Defias rebellion, so he sent the sealed envelope to Master Mathias Shaw, leader of Stormwind’s intelligence service, SI:7. Shaw recognized the man as a lethal mercenary who uses names including Marzon. Now the mercenary does dirty work for Lord Gregor Lescovar.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who is maelik",
     "visitor identity"
    ],
-   "answer": "The visitor used papers bearing the name Maelik. Warden Thelwater recorded his appearance so investigators could identify him."
+   "answer": "The visitor carried papers under the name Maelik. Warden Thelwater recorded his appearance so investigators could identify him."
   },
   {
    "q": "Why was the visitor meeting with Bazil Thredd?",
@@ -49,7 +49,7 @@
     "why visit thredd",
     "thredd visitor purpose"
    ],
-   "answer": "Thelwater grew suspicious when Thredd began receiving regular visits after years without any. The sealed description is being investigated to learn the visitor's purpose."
+   "answer": "After years without visitors, Bazil Thredd began receiving them regularly. The sealed description is being investigated to learn the visitor’s purpose."
   },
   {
    "q": "Where does this sealed document need to be taken?",
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can see how false names, forged papers, and visits to a prison cell drew Mathias Shaw's attention when he compared the man's appearance with SI:7 intelligence."
+   "text": "As a rogue, you can see how false names, forged papers, and prison visits drew Mathias Shaw’s attention when he compared the man’s appearance with SI:7 intelligence."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see the weakness in Stormwind's security: conspirators can pass through the Stockade's gates with falsified credentials."
+   "text": "As an Alliance member, you can see the weakness in Stormwind’s security: conspirators can pass through the Stockade gates with falsified credentials."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "The Curious Visitor",
   "Shadow of the Past (quest)"
  ],
- "style": 1
+ "style": 2
 }

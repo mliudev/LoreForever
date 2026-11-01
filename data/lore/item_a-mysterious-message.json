@@ -10,16 +10,16 @@
    "quest:142"
   ]
  },
- "summary": "A courier's intercepted message gives the People's Militia proof of who directs the Defias Brotherhood in Westfall.",
+ "summary": "In Westfall, a courier's intercepted message gives the People's Militia proof of who directs the Defias Brotherhood.",
  "sections": [
   {
    "title": "Whispers of Blacknails",
-   "body": "The dispatch names VanCleef as the brotherhood's authority and mentions an associate called 'Blacknails'. Its wider network remains hidden. Decoding the document gives the People's Militia leverage to turn captured cutpurses and locate the brotherhood's true stronghold.",
+   "body": "The dispatch names VanCleef as the brotherhood's authority and mentions an associate called Blacknails. Its wider network remains hidden. By decoding the document, the People's Militia gains leverage over captured cutpurses and a way to find the brotherhood's true stronghold.",
    "spoiler": 1
   },
   {
    "title": "Intercepted Orders",
-   "body": "A courier journeying between Defias operations at Moonbrook, the Gold Coast Quarry, and the Jangolode Mine carries the message. Its interception marks a break in Gryan Stoutmantle's investigation. For weeks, the People's Militia suspected someone was directing the bandit uprising, but had no sure proof. The missive confirms that Edwin VanCleef commands the brotherhood's efforts across Westfall through coded ranks and intermediaries.",
+   "body": "A Defias Messenger carries the message between Defias operations at Moonbrook, the Gold Coast Quarry, and the Jangolode Mine. Its interception marks a break in Gryan Stoutmantle's investigation. For weeks, the People's Militia suspected someone directed the bandit uprising, but had no sure proof.\n\nThe missive confirms Edwin VanCleef commands the brotherhood's efforts across Westfall. He does so through coded ranks and intermediaries.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "mysterious message lore",
     "what is in the message"
    ],
-   "answer": "The message gives Gryan Stoutmantle definitive proof that Edwin VanCleef directs the Defias Brotherhood's operations across Westfall, confirming the militia's suspicions about who commands the outlaws."
+   "answer": "The message gives Gryan Stoutmantle proof that Edwin VanCleef directs the Defias Brotherhood's operations across Westfall. It confirms the militia's suspicions about who commands the outlaws."
   },
   {
    "q": "Who is Blacknails?",
@@ -49,7 +49,7 @@
     "who drops mysterious message",
     "defias courier"
    ],
-   "answer": "A Defias Messenger carries the message while traveling Westfall's roads between Moonbrook, the Gold Coast Quarry, and the Jangolode Mine to coordinate bandit operations."
+   "answer": "A Defias Messenger carries the message along Westfall's roads between Moonbrook, the Gold Coast Quarry, and the Jangolode Mine to coordinate bandit operations."
   },
   {
    "q": "What happens after Gryan Stoutmantle reads it?",
@@ -58,7 +58,7 @@
     "stoutmantle reaction",
     "after mysterious message"
    ],
-   "answer": "With VanCleef's role confirmed, the militia turns to locating the Defias headquarters. A captured thief agrees to lead scouts to the secret hideout in exchange for his life."
+   "answer": "With VanCleef's role confirmed, the militia turns to finding the Defias headquarters. A captured thief agrees to lead scouts to the secret hideout in exchange for his life."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
   "A Mysterious Message",
   "The Defias Brotherhood (5)"
  ],
- "style": 1
+ "style": 2
 }

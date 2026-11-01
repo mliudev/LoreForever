@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Someone in Brill believes your fishing skill can help make camp more cheerful. Clyde Kellen can teach you to craft a fishbowl for the camp.",
+ "summary": "In Brill, someone hopes your fishing skill will bring cheer to camp. Clyde Kellen can teach you to make a fishbowl for it.",
  "sections": [
   {
    "title": "A Camp Keepsake",
-   "body": "Your fishing skill may serve the camp. After proving your skill, you are asked to speak with Clyde Kellen in Brill and learn how to make a fishbowl for the camp. The giver believes that cheerful adventurers fight more strongly, and hopes the fishbowl can bring some joy to you and others.",
+   "body": "Your fishing may brighten the camp. Once you've proved your skill, speak with Clyde Kellen in Brill. He can teach you to make a fishbowl for the camp.\n\nThe giver believes cheerful adventurers fight more strongly. They hope the fishbowl will bring joy to you and the others.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what do i do",
     "fishing camp task"
    ],
-   "answer": "Prove your fishing skill, then speak with Clyde Kellen in Brill to learn how to make a fishbowl for your camp."
+   "answer": "Prove your fishing skill, then speak with Clyde Kellen in Brill. He can teach you to make a fishbowl for your camp."
   },
   {
    "q": "Who is Clyde Kellen?",
@@ -34,7 +34,7 @@
     "who's clyde",
     "clyde kellen"
    ],
-   "answer": "Clyde Kellen is the person in Brill who can teach you to make a fishbowl for your camp."
+   "answer": "Clyde Kellen is in Brill and can teach you to make a fishbowl for your camp."
   },
   {
    "q": "What is the fishbowl for?",
@@ -42,7 +42,7 @@
     "fishbowl purpose",
     "camp fish glass"
    ],
-   "answer": "The fishbowl is a camp item meant to bring joy to you and other adventurers."
+   "answer": "The fishbowl is meant to bring joy to you and the other adventurers at camp."
   },
   {
    "q": "Why would fishing help the camp?",
@@ -50,7 +50,7 @@
     "fishing useful how",
     "why fishing camp"
    ],
-   "answer": "Your fishing skill can help you make a fishbowl, which the giver hopes will cheer adventurers."
+   "answer": "Your fishing skill can help you make a fishbowl. The giver hopes it will cheer the adventurers."
   }
  ],
  "angles": [
@@ -70,7 +70,7 @@
  "related": [
   "subzone:brill"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Grundlagen des Zeltens: Angeln"
  ]

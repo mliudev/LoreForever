@@ -10,16 +10,16 @@
    "quest:335"
   ]
  },
- "summary": "In Duskwood, the Tear of Tilloa grows on the Mistmantle estate near Darkshire. Its alchemical use draws interest from those seeking rare reagents.",
+ "summary": "Near Darkshire, the Tear of Tilloa draws those seeking rare alchemical reagents. The flower grows on the Mistmantle estate in Duskwood.",
  "sections": [
   {
    "title": "A Garden in the Gloom",
-   "body": "The Tear of Tilloa grows on the grounds of Stalvan Mistmantle’s estate outside Darkshire. Duskwood’s soil has turned hostile to wholesome vegetation, yet the small white flower persists among the shadowed plots. It grows rarely and in a secluded place, drawing those who seek uncommon reagents beyond lawful markets.",
+   "body": "Outside Darkshire, the Tear of Tilloa grows on Stalvan Mistmantle’s estate. Duskwood’s soil has turned hostile to wholesome vegetation, yet the small white flower persists among the shadowed plots. Rare and secluded, it draws those seeking uncommon reagents beyond lawful markets.",
    "spoiler": 0
   },
   {
    "title": "A Concoction for the Nobles",
-   "body": "Beneath Stormwind’s streets, Zardeth of the Black Claw seeks the Tear of Tilloa to brew a draught for Lord Wishock. A member of the House of Nobles, Wishock threatens to investigate shadowy operations beneath the capital. Zardeth combines the flower with Musquash Root from beneath the Stonewrought Dam to make a brew meant to distract and incapacitate Wishock before an official probe can begin.",
+   "body": "Beneath Stormwind’s streets, Zardeth of the Black Claw seeks the Tear of Tilloa for a draught meant for Lord Wishock. A member of the House of Nobles, Wishock threatens to investigate shadowy operations beneath the capital. Zardeth combines the flower with Musquash Root from beneath the Stonewrought Dam. The brew is meant to distract and incapacitate Wishock before an official probe can begin.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where is tear of tilloa",
     "tilloa spot"
    ],
-   "answer": "The flower grows on the outskirts of Darkshire in Duskwood, in the overgrown garden of the Mistmantle family estate."
+   "answer": "The flower grows in the overgrown garden of the Mistmantle family estate on the outskirts of Darkshire in Duskwood."
   },
   {
    "q": "Who wants the Tear of Tilloa?",
@@ -40,7 +40,7 @@
     "tear of tilloa quest giver",
     "who wants it"
    ],
-   "answer": "Zardeth of the Black Claw seeks the flower while operating covertly beneath Stormwind City, where he needs it for a special draught."
+   "answer": "Zardeth of the Black Claw seeks the flower while working covertly beneath Stormwind City. He needs it for a special draught."
   },
   {
    "q": "What is the flower used for?",
@@ -49,7 +49,7 @@
     "what does tear of tilloa do",
     "noble brew flower"
    ],
-   "answer": "The flower is combined with Musquash Root to make a brew intended to incapacitate Lord Wishock and silence his calls to investigate dark dealings beneath the capital."
+   "answer": "The flower combines with Musquash Root in a brew meant to incapacitate Lord Wishock and silence his calls to investigate dark dealings beneath the capital."
   },
   {
    "q": "Who is Lord Wishock?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "As a herbalist, you may find the Tear of Tilloa growing in Duskwood’s blighted ground, far from the usual lush fields."
+   "text": "As a herbalist, you may find the Tear of Tilloa in Duskwood’s blighted ground, far from the usual lush fields."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you may know the Tear of Tilloa as a reagent sought by occult operatives beneath the capital for brews meant to silence probing nobles."
+   "text": "As a warlock, you may know the Tear of Tilloa as a reagent sought by occult operatives beneath the capital. They use it in brews meant to silence probing nobles."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Tear of Tilloa",
   "A Noble Brew"
  ],
- "style": 1
+ "style": 2
 }

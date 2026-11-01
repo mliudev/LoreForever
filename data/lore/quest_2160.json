@@ -17,21 +17,21 @@
   "wiki": "Supplies to Tannok",
   "chain": []
  },
- "summary": "A crate bound for Tannok Frosthammer waits at the mouth of Coldridge Pass. Hands Springsprocket asks travelers to carry the inn supplies from Coldridge Valley to the Thunderbrew Distillery in Kharanos, since troggs have cut off the usual trade routes.",
+ "summary": "Hands Springsprocket has inn supplies for Tannok Frosthammer, but troggs have made the pass unsafe. He asks you to carry the crate from Coldridge Valley to the Thunderbrew Distillery in Kharanos.",
  "sections": [
   {
    "title": "A Blockaded Valley",
-   "body": "Troggs have overrun Coldridge Pass, straining Coldridge Valley’s ties to the rest of Dun Morogh. The valley has long sheltered young Ironforge dwarves and Gnomeregan survivors in exile. Now the mountain pass is perilous to cross. Mountaineers are spread thin guarding settlements and defensive perimeters, so scheduled supply escorts can be delayed for days.",
+   "body": "Troggs have overrun Coldridge Pass, making the route out of Coldridge Valley dangerous. Mountaineers are stretched thin guarding settlements and defenses, so supply escorts can be delayed for days. The inn's crate has no safe way through.",
    "spoiler": 0
   },
   {
    "title": "Hands and the Innkeeper's Assistant",
-   "body": "At the mouth of Coldridge Pass, the gnome tinkerer Hands Springsprocket waits with a crate of supplies for the inn in Kharanos. He cannot safely carry it there himself. Travelers preparing to cross the pass can take the cargo to Tannok Frosthammer, the assistant at the Thunderbrew inn.",
+   "body": "Hands Springsprocket is a gnome tinkerer waiting at the pass, but he cannot carry the crate safely himself. You can take the supplies to Tannok Frosthammer, the assistant at the Thunderbrew inn in Kharanos.",
    "spoiler": 0
   },
   {
    "title": "A Welcoming Hearth in Kharanos",
-   "body": "Kharanos marks your arrival in the wider lands of Dun Morogh. Tannok Frosthammer receives the supplies and says word from Anvilmar has been scarce since troggs disrupted travel through the pass. The delivery restores a fragile link of communication and trade between the two isolated dwarf communities.",
+   "body": "Tannok Frosthammer receives the supplies in Kharanos. He says word from Anvilmar has been scarce since troggs disrupted travel. Without the delivery, communication and trade between the two isolated dwarf communities remain fragile.",
    "spoiler": 0
   }
  ],
@@ -124,5 +124,5 @@
  "attribution": [
   "Supplies to Tannok"
  ],
- "style": 1
+ "style": 2
 }

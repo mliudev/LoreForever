@@ -18,16 +18,16 @@
   "wiki": "Winter's Presents (Alliance)",
   "chain": []
  },
- "summary": "In Ironforge, revelers are gathering for the Feast of Winter Veil. They point travelers toward Greatfather Winter beside the Smokywood Pastures stalls, where gifts wait beneath the holiday tree.",
+ "summary": "In Ironforge, revelers gather for the Feast of Winter Veil. They direct travelers to Greatfather Winter beside the Smokywood Pastures stalls, where gifts wait beneath the holiday tree.",
  "sections": [
   {
    "title": "A Season of Cheer",
-   "body": "Ironforge fills with Feast of Winter Veil cheer as winter settles over Khaz Modan. Revelers and holiday enthusiasts send passersby toward the decorated tree near the Smokywood Pastures vendors.",
+   "body": "Winter settles over Khaz Modan, and Ironforge fills with cheer for the Feast of Winter Veil. Revelers and holiday enthusiasts point passersby toward the decorated tree near the Smokywood Pastures vendors.",
    "spoiler": 0
   },
   {
    "title": "Smokywood Pastures and Greatfather Winter",
-   "body": "Smokywood Pastures, a goblin enterprise, shares the season with Greatfather Winter. He greets visitors while goblin merchants remind gift recipients that their festive treats and seasonal wares make gifts for friends and family.",
+   "body": "Smokywood Pastures, a goblin enterprise, shares the season with Greatfather Winter. He greets visitors as goblin merchants remind gift recipients that festive treats and seasonal wares make gifts for friends and family.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "greatfather winter location ironforge",
     "find greatfather winter"
    ],
-   "answer": "Greatfather Winter sits beside the festive tree and Smokywood Pastures vendor stalls in Ironforge, welcoming visitors of every Alliance race."
+   "answer": "In Ironforge, Greatfather Winter sits beside the festive tree and Smokywood Pastures vendor stalls. He welcomes visitors of every Alliance race."
   },
   {
    "q": "What is the PX-238 Winter Wondervolt mentioned by the operator?",
@@ -66,7 +66,7 @@
     "why goblins winter veil",
     "goblin holiday"
    ],
-   "answer": "Smokywood Pastures is a goblin merchant organization that sponsors seasonal treats, holiday novelties, and feasts across Azeroth, joining festive spirit with seasonal commerce."
+   "answer": "Smokywood Pastures is a goblin merchant organization that sponsors seasonal treats, holiday novelties, and feasts across Azeroth. It joins festive spirit with seasonal commerce."
   },
   {
    "q": "Can Horde players do this quest?",
@@ -84,21 +84,21 @@
     "opening presents",
     "after quest turn in"
    ],
-   "answer": "Greatfather Winter welcomes you, says he has not forgotten you, and encourages you to look at the colorful packages beneath the holiday tree."
+   "answer": "Greatfather Winter welcomes you and says he has not forgotten you. He encourages you to look at the colorful packages beneath the holiday tree."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Ironforge gathers Alliance races for the winter season, bringing elves, humans, and gnomes together to share festive cheer."
+   "text": "Ironforge gathers Alliance races for the winter season. Elves, humans, and gnomes come together to share festive cheer."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, welcoming travelers to the Feast of Winter Veil in the Great Forge brings lively song, warm hearth fires, and cold ale to their mountain home."
+   "text": "As a dwarf, you welcome travelers to the Feast of Winter Veil in the Great Forge. Lively song, warm hearth fires, and cold ale fill your mountain home."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can marvel at the holiday contraptions brought in for the season, including PX-238 Winter Wondervolts operated across town."
+   "text": "As a gnome, you can marvel at the holiday contraptions brought in for the season. PX-238 Winter Wondervolts are operated across town."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Winter's Presents (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

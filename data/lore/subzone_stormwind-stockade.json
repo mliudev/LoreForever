@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stormwind Stockade"
  },
- "summary": "Stormwind Stockade holds the city’s most dangerous prisoners beneath the canals near the Mage Quarter. A coordinated revolt has driven the guards from the lower cells, leaving the prison in chaos.",
+ "summary": "Stormwind Stockade has fallen into chaos beneath the canals near the Mage Quarter. A coordinated revolt has driven the guards from the lower cells, and the prison's most dangerous prisoners roam free.",
  "sections": [
   {
    "title": "A Prison Under Siege",
-   "body": "Warden Thelwater oversees the Stockade, where Stormwind keeps cutthroats, Defias operatives, captured Blackrock orcs, and Dark Iron dwarves. Now a violent uprising led by the Defias conspirator Bazil Thredd has forced the guards from the lower cells. The prisoners roam freely through the corridors. Thelwater has managed to secure the entrance, but the revolt still threatens to reach the canals. He depends on adventurers to enter the prison and put down the uprising.",
+   "body": "Warden Thelwater oversees the Stockade, where Stormwind holds cutthroats, Defias operatives, captured Blackrock orcs, and Dark Iron dwarves. The Defias conspirator Bazil Thredd led the uprising, and now prisoners roam the corridors. Thelwater has secured the entrance, but the revolt still threatens to spill into the canals. He needs adventurers to enter the prison and put it down.",
    "spoiler": 0
   },
   {
    "title": "Bureaucracy and Backroom Schemes",
-   "body": "The House of Nobles has used the Stockade to hold prisoners whose fates serve its political aims. Murderers and other high-value prisoners sentenced to death elsewhere have had their executions delayed by aristocratic interference. Among them are Dextren Ward, a graverobber from Duskwood, and Targorr the Dread, a Blackrock executioner from Redridge. Ironforge has also taken notice. When human bureaucracy delays justice, it secretly hires mercenaries to execute dangerous prisoners such as Kam Deepfury.",
+   "body": "The House of Nobles has held prisoners in the Stockade when their fates served its political aims. Aristocrats have delayed the executions of murderers and other high-value prisoners sentenced to die elsewhere. Among them are Dextren Ward, a graverobber from Duskwood, and Targorr the Dread, a Blackrock executioner from Redridge.\n\nIronforge has taken notice. When human bureaucracy delays justice, it secretly hires mercenaries to execute dangerous prisoners such as Kam Deepfury.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "how to get to stockades",
     "stockade location"
    ],
-   "answer": "The entrance is in Stormwind City's canal district, on the northern bend beside the bridge into the Mage Quarter. A guarded doorway leads down a stone stairwell to the underground cells."
+   "answer": "The entrance lies in Stormwind City's canal district, on the northern bend beside the bridge into the Mage Quarter. A guarded doorway leads down a stone stairwell to the underground cells."
   },
   {
    "q": "Who started the riot inside the prison?",
@@ -45,7 +45,7 @@
     "why are there orcs in stockades",
     "dark iron prisoners stockade"
    ],
-   "answer": "Stormwind holds hostile prisoners captured across its contested territories. Targorr the Dread was taken from the Redridge Mountains, while Kam Deepfury represents the Dark Iron threat. Some are kept as military prisoners; others remain alive by noble decree, held for political leverage instead of being executed swiftly."
+   "answer": "Stormwind holds hostile prisoners captured across its contested territories. Targorr the Dread was taken from the Redridge Mountains, while Kam Deepfury represents the Dark Iron threat. Some are military prisoners; others remain alive by noble decree, held for political leverage instead of swift execution."
   },
   {
    "q": "Why are Duskwood and Redridge asking people to kill prisoners here?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance hero, you can see why keeping the Stockade secure matters to Stormwind's defense. Its halls reveal how far the Defias Brotherhood has reached into the capital."
+   "text": "As an Alliance hero, you can see why Stormwind needs the Stockade kept secure. Its halls show how far the Defias Brotherhood has reached into the capital."
   },
   {
    "target": "class:Rogue",
@@ -93,5 +93,5 @@
  "attribution": [
   "Stormwind Stockade"
  ],
- "style": 1
+ "style": 2
 }

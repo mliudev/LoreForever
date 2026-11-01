@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Bringing proof of a mighty beast's defeat to Orgrimmar honors Horde traditions of strength and hunting prowess."
+   "text": "Carrying proof of a mighty beast's defeat to Orgrimmar honors Horde traditions of strength and hunting prowess."
   },
   {
    "target": "class:Hunter",
-   "text": "Taking down an enormous, formidable beast like Halikor exemplifies the tracker's craft and the thrill of the hunt."
+   "text": "As a hunter, bringing down the enormous Halikor shows the skill of the tracker and the thrill of the hunt."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "who is halikor",
     "halikor lizard"
    ],
-   "answer": "Halikor is a formidable and mighty lizard creature. Its immense size is demonstrated by the sheer scale of its severed hoof, which hunters claim as undeniable proof of its downfall.",
+   "answer": "Halikor is a formidable lizard of immense size. Hunters claim its severed hoof as proof that the beast was slain.",
    "q": "What is Halikor?"
   },
   {
@@ -37,7 +37,7 @@
     "halikor hoof deliver",
     "where does the hoof go"
    ],
-   "answer": "The hoof is taken to the Horde capital of Orgrimmar to serve as physical proof of the beast's defeat, showcasing the hunter's triumph to the city.",
+   "answer": "The hoof is carried to Orgrimmar as proof of the beast's defeat and the hunter's triumph.",
    "q": "Why must the hoof be delivered to Orgrimmar?"
   },
   {
@@ -45,7 +45,7 @@
     "how to get halikors hoof",
     "halikor drop"
    ],
-   "answer": "Halikor's Hoof is claimed directly from the body of Halikor after tracking down and slaying the massive lizard in combat.",
+   "answer": "You claim Halikor's Hoof from the lizard's body after tracking down and slaying it in combat.",
    "q": "How is Halikor's Hoof obtained?"
   },
   {
@@ -53,7 +53,7 @@
     "does halikor have hooves",
     "why does a lizard have hooves"
    ],
-   "answer": "Halikor is no ordinary lizard but a mighty beast of the wilds, and its enormous hoof is the trophy that proves you brought it down. Why it bears a hoof at all, no one has said.",
+   "answer": "Halikor is a mighty beast of the wilds, and its enormous hoof proves you brought it down. No one has said why it bears a hoof.",
    "q": "Why does a lizard have a hoof?"
   },
   {
@@ -61,7 +61,7 @@
     "who accepts halikors hoof in orgrimmar",
     "turn in halikor hoof orgrimmar"
    ],
-   "answer": "You carry the hoof back to Orgrimmar as proof of your victory; no single hunter or official is named to receive it.",
+   "answer": "You carry the hoof to Orgrimmar as proof of your victory. No particular hunter or official is named to receive it.",
    "q": "Who in Orgrimmar wants Halikor's Hoof?"
   },
   {
@@ -69,7 +69,7 @@
     "what is halikors hoof quest",
     "halikors hoof story"
    ],
-   "answer": "Halikor's Hoof is a quest centering on the defeat of the colossal lizard Halikor. Carrying its massive severed hoof to Orgrimmar demonstrates the hunter's martial prowess and brings word of the beast's demise to the Horde.",
+   "answer": "The mighty lizard Halikor is slain, and its enormous severed hoof is carried to Orgrimmar. The trophy shows the hunter's prowess and brings the Horde word of the beast's death.",
    "q": "What is the story behind the quest Halikor's Hoof?"
   }
  ],
@@ -87,18 +87,19 @@
  ],
  "sections": [
   {
-   "body": "Halikor's Hoof is a tangible trophy taken from the remains of Halikor, an extraordinarily massive lizard. Among hunters and warriors traversing wild frontiers, claiming a physical token from such a formidable creature is an ancient custom to verify the kill. The sheer size of the hoof leaves no doubt about the immense scale and power of the beast in life.",
+   "body": "Halikor's vast size is plain in the hoof taken from its remains. Hunters and warriors in the wilds have long claimed a piece of a formidable beast to prove the kill. The hoof leaves no doubt of the lizard's great size and strength.",
    "spoiler": 0,
    "title": "Trophy of a Mighty Beast"
   },
   {
-   "body": "Carrying the heavy hoof back to the fortified gates of Orgrimmar serves to announce the beast's defeat to the Horde. In a warrior society that values raw strength and survival against the harsh predators of the land, presenting such a trophy brings honor to the hunter and reassures the capital that a dangerous creature has been felled.",
+   "body": "The heavy hoof is carried to Orgrimmar to announce the beast's defeat to the Horde. Strength and survival against the land's harsh predators matter in this warrior society. Presenting the trophy honors the hunter and assures the capital that a dangerous creature has been slain.",
    "spoiler": 0,
    "title": "Proof for the Capital"
   }
  ],
- "summary": "Halikor's Hoof is a quest centered on claiming physical proof after slaying the mighty lizard Halikor. Carrying the enormous severed hoof to the Horde capital of Orgrimmar honors the hunter's triumph over a formidable wilderness beast.",
+ "summary": "In the wilds, Halikor's Hoof is carried to Orgrimmar as proof of a hunter's triumph. The enormous severed hoof honors the hunter's victory over the formidable lizard.",
  "attribution": [
   "In-game quest text: Halikor's Hoof"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "A King's Tribute",
   "chain": []
  },
- "summary": "In Ironforge, King Magni Bronzebeard answers Sara Balloo's plea with a lasting tribute to Sully, her fallen husband. He sends you to relay his royal commission to Grand Mason Marblesten.",
+ "summary": "King Magni Bronzebeard answers Sara Balloo with a lasting tribute to her fallen husband, Sully. He sends you across Ironforge with a royal commission for Grand Mason Marblesten.",
  "sections": [
   {
    "title": "A Sovereign's Burden",
-   "body": "King Magni Bronzebeard hears Sara Balloo's plea and gives the grieving widow his attention. He knows common folk may struggle to understand the harsh needs of war, yet every soldier who fights beneath the Alliance banner weighs on his conscience. Magni cannot undo a death on the front lines. He can make sure Sully Balloo's sacrifice is remembered.",
+   "body": "Sara Balloo's plea weighs on King Magni Bronzebeard. War's harsh needs can be hard for common folk to understand, yet every soldier beneath the Alliance banner weighs on his conscience. He cannot undo a death on the front lines. He can see that Sully Balloo's sacrifice is remembered.",
    "spoiler": 0
   },
   {
    "title": "The Mason's Chisel",
-   "body": "King Magni chooses a stone memorial for Sully instead of empty words. He appoints you custodian of his royal will and sends you across Ironforge to Grand Mason Marblesten. The master stonemason receives the King's personal commission and prepares to carve the memory of a fallen defender into stone.",
+   "body": "King Magni chooses a stone memorial for Sully, not empty words. He entrusts you with his royal commission and sends you across Ironforge to Grand Mason Marblesten. The master stonemason receives the king's personal charge and prepares to carve the fallen defender's memory into stone.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "sully balloo lore",
     "who died"
    ],
-   "answer": "Sully Balloo was a dwarven soldier who died fighting for the Alliance in the defense of the Thandol Span. After learning of his death, his widow, Sara Balloo, petitioned King Magni Bronzebeard."
+   "answer": "Sully Balloo was a dwarven soldier who died defending the Thandol Span for the Alliance. After learning of his death, his widow, Sara Balloo, petitioned King Magni Bronzebeard."
   },
   {
    "q": "Why does King Magni commission a memorial?",
@@ -47,7 +47,7 @@
     "magni motive",
     "kings tribute purpose"
    ],
-   "answer": "King Magni carries the weight of every dwarven life lost in the Alliance's ongoing struggles. He cannot restore Sully to his widow, so he commissions an enduring monument to honor the soldier's courage."
+   "answer": "King Magni bears the weight of every dwarven life lost in the Alliance's struggles. He cannot restore Sully to his widow, so he commissions a lasting monument to honor the soldier's courage."
   },
   {
    "q": "Who is Grand Mason Marblesten?",
@@ -55,7 +55,7 @@
     "who is marblesten",
     "grand mason role"
    ],
-   "answer": "Grand Mason Marblesten is Ironforge's master stoneworker, entrusted with major civic and royal building projects throughout the city. King Magni relies on him to sculpt Sully Balloo's memorial."
+   "answer": "Grand Mason Marblesten is Ironforge's master stoneworker. He is entrusted with major civic and royal building projects throughout the city, and King Magni relies on him to sculpt Sully Balloo's memorial."
   },
   {
    "q": "Where does this quest take place?",
@@ -63,7 +63,7 @@
     "where is this quest",
     "quest location"
    ],
-   "answer": "You travel within Ironforge, beginning at the High Seat with King Magni Bronzebeard and going on to Grand Mason Marblesten elsewhere in the capital."
+   "answer": "You travel within Ironforge, starting at the High Seat with King Magni Bronzebeard and then going to Grand Mason Marblesten elsewhere in the capital."
   },
   {
    "q": "What comes before this quest?",
@@ -71,7 +71,7 @@
     "prerequisites",
     "previous quest"
    ],
-   "answer": "Before this, you complete 'Sara Balloo's Plea' by delivering the widow's heartfelt letter directly to King Magni Bronzebeard."
+   "answer": "Before this, you deliver Sara Balloo's heartfelt letter directly to King Magni Bronzebeard."
   },
   {
    "q": "Is this memorial only for Sully Balloo?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see King Magni's devotion to his people: even the lowliest dwarven foot soldier is remembered by the throne."
+   "text": "As a dwarf, you see King Magni's devotion to his people. Even the lowliest dwarven foot soldier is remembered by the throne."
   },
   {
    "target": "faction:Alliance",
@@ -110,5 +110,5 @@
  "attribution": [
   "A King's Tribute"
  ],
- "style": 1
+ "style": 2
 }

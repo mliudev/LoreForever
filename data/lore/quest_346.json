@@ -17,16 +17,16 @@
   "wiki": "Return to Kristoff",
   "chain": []
  },
- "summary": "Brother Kristoff is waiting in Stormwind for a borrowed book to return. After a long search and a delay in Northshire, you bring The Stresses of Iron back to the Cathedral of Light.",
+ "summary": "In Cathedral Square, Brother Kristoff waits for the return of The Stresses of Iron. After a long search in Northshire, you bring the borrowed book back to the Cathedral of Light.",
  "sections": [
   {
    "title": "A Long-Delayed Return",
-   "body": "Brother Kristoff is waiting in Cathedral Square for The Stresses of Iron, a book on metallurgy. Its trail led from Stormwind Keep's Royal Library to Northshire Abbey, where Brother Paxton was copying the text by hand. Paxton ran short of Rethban ore for the scribe's ink, so the work stalled. With the ore retrieved and the copy complete, you bring the original book back to Stormwind.",
+   "body": "Brother Kristoff waits in Cathedral Square for The Stresses of Iron, a book on metallurgy. Its path led from Stormwind Keep's Royal Library to Northshire Abbey, where Brother Paxton copied it by hand. The work stalled when Paxton ran short of Rethban ore for his ink. Now the ore has been found and the copy is complete. You bring the original book back to Stormwind.",
    "spoiler": 0
   },
   {
    "title": "The Labor of Scribes",
-   "body": "Northshire's copyists preserve civic and spiritual lore through patient work. Brother Paxton asks you to apologize to Librarian Milton Sheaf, a sign of how thin the abbey's resources have worn. Scribes must copy valuable books stroke by stroke with mineral-rich ink before returning them to Stormwind's care, making a book request a long undertaking.",
+   "body": "Brother Paxton asks you to apologize to Librarian Milton Sheaf for the delay. Northshire's copyists preserve civic and spiritual lore, though their supplies are scarce. Valuable books must be copied stroke by stroke with mineral-rich ink. Only then can they leave the abbey and return to Stormwind's care.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "stresses of iron book",
     "what book is kristoff looking for"
    ],
-   "answer": "The Stresses of Iron is a treatise on metallurgy and metalworking. Brother Kristoff sought it for study in Cathedral Square, and the Northshire Abbey scribes needed a copy to preserve its knowledge."
+   "answer": "The Stresses of Iron is a treatise on metallurgy and metalworking. Brother Kristoff sought it for study in Cathedral Square, and Northshire Abbey's scribes needed a copy to preserve its knowledge."
   },
   {
    "q": "Why was the book at Northshire Abbey?",
@@ -54,7 +54,7 @@
     "who is kristoff",
     "kristoff stormwind"
    ],
-   "answer": "Brother Kristoff belongs to the Clergy of the Holy Light and is stationed in Cathedral Square outside the Cathedral of Light in Stormwind. He requested the book and offers spiritual blessings in gratitude."
+   "answer": "Brother Kristoff belongs to the Clergy of the Holy Light and serves in Cathedral Square outside Stormwind's Cathedral of Light. He requested the book and offers spiritual blessings in gratitude."
   },
   {
    "q": "Who is Milton?",
@@ -62,7 +62,7 @@
     "who is librarian milton",
     "milton sheaf"
    ],
-   "answer": "Milton Sheaf is the head librarian in Stormwind Keep's Royal Library. He permitted the loan of The Stresses of Iron and grew impatient over the long delay in its return."
+   "answer": "Milton Sheaf is the head librarian in Stormwind Keep's Royal Library. He permitted the loan of The Stresses of Iron and grew impatient over its long delay."
   },
   {
    "q": "Where does this quest chain begin?",
@@ -111,5 +111,5 @@
  "attribution": [
   "Return to Kristoff"
  ],
- "style": 1
+ "style": 2
 }

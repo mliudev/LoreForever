@@ -23,16 +23,16 @@
    "More Sparklematic Action"
   ]
  },
- "summary": "In Gnomeregan, soiled salvaged objects go into the Sparklematic 5200! for cleaning. Its cycles scour toxic grime away and package whatever remains in a gift box.",
+ "summary": "In Gnomeregan, the Sparklematic 5200! takes in soiled salvaged objects and cleans them. Its cycles scour away toxic grime, then wrap whatever remains in a gift box.",
  "sections": [
   {
    "title": "Automated Cleansing",
-   "body": "You feed toxic and contaminated refuse into the Sparklematic 5200!, and its automated cycles scour away grime and caustic residue. Once loaded and paid, the machine rattles through its routine, then gives a cheerful ding and wraps whatever remains in a present tied with a bow.",
+   "body": "Feed toxic and contaminated refuse into the Sparklematic 5200!, and its cycles scour away grime and caustic residue. Once loaded and paid, the machine rattles through its routine. A cheerful ding follows, then a bow-tied present holds whatever remains.",
    "spoiler": 0
   },
   {
    "title": "Treasure in the Sludge",
-   "body": "Radiation and industrial mire buried personal effects and scraps of technology when Gnomeregan fell to the troggs. Feed grime-encrusted objects into the machine, and gemstones, raw ores and other valuables swallowed when the city was vented may be reclaimed.",
+   "body": "When Gnomeregan fell to the troggs, radiation and industrial mire buried personal effects and scraps of technology. Feed grime-encrusted objects into the machine, and it may recover gemstones, raw ores and other valuables swallowed when the city was vented.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "how sparklematic works",
     "sparklematic function"
    ],
-   "answer": "The Sparklematic 5200! cleans objects inside Gnomeregan. Supply a grime-encrusted object and a coin fee, and it scours away sludge, grime and radioactive muck before returning the contents in a small gift box."
+   "answer": "The Sparklematic 5200! cleans objects inside Gnomeregan. Supply a grime-encrusted object and a coin fee, and it scours away sludge, grime and radioactive muck. What remains comes back in a small gift box."
   },
   {
    "q": "Where is the Sparklematic 5200 located?",
@@ -71,7 +71,7 @@
     "can horde clean grime",
     "is sparklematic neutral"
    ],
-   "answer": "Yes. The Sparklematic 5200! is automated and does not heed faction allegiance. Insert coins and soiled items, and it runs its cycle."
+   "answer": "Yes. The Sparklematic 5200! is automated and pays no heed to faction allegiance. Insert coins and soiled items, and it runs its cycle."
   },
   {
    "q": "Can I use the Sparklematic multiple times?",
@@ -80,7 +80,7 @@
     "more sparklematic action",
     "farm grime encrusted objects"
    ],
-   "answer": "Yes. After its first operation, the Sparklematic 5200! can be used for repeat cleaning. Bring grime-encrusted items found throughout the dungeon to process them again."
+   "answer": "Yes. After its first operation, the Sparklematic 5200! can clean items again. Bring grime-encrusted objects found throughout the dungeon to put them through another cycle."
   },
   {
    "q": "What happens after this quest?",
@@ -88,7 +88,7 @@
     "next quest after sparklematic",
     "what follows sparklematic 5200"
    ],
-   "answer": "After the first cleaning, you can use the repeatable cycle called More Sparklematic Action to clean any additional grime-encrusted finds you carry."
+   "answer": "After the first cleaning, you can use the repeatable More Sparklematic Action cycle to clean any additional grime-encrusted finds you carry."
   }
  ],
  "angles": [
@@ -118,5 +118,5 @@
  "attribution": [
   "The Sparklematic 5200! (2)"
  ],
- "style": 1
+ "style": 2
 }

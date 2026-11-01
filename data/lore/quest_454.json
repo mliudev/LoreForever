@@ -17,16 +17,16 @@
   "wiki": "After the Ambush",
   "chain": []
  },
- "summary": "Dark Iron dwarves have broken the powder run to Loch Modan’s southern excavation site. Huldar stays behind with the remaining barrels while Miran prepares to carry the next load forward with an escort.",
+ "summary": "Miran needs an escort to carry blasting powder to Loch Modan’s southern excavation site. Dark Iron dwarves ambushed the supply run, and the road is still dangerous.",
  "sections": [
   {
    "title": "A Fractured Supply Line",
-   "body": "Huldar and Miran’s powder run through Loch Modan has turned dangerous. After Saean and his conspirators led an ambush, barrels lay scattered and the road became perilous. The two haulers divide their duties: Huldar guards what remains, while Miran prepares to move ahead with the next load.",
+   "body": "Saean and his conspirators attacked the supply run. Barrels were scattered, and the road became perilous. Huldar remains behind to guard the powder left there. Miran prepares to move ahead with the next load, so the supply line is split.",
    "spoiler": 0
   },
   {
    "title": "The Road to the Dig",
-   "body": "Loch Modan’s excavation sites need blasting powder to break stone and uncover titan relics. Miran fears another ambush from the ridges along the path. Before loading his cargo, he seeks a companion to travel with him past any traps the Dark Irons may have prepared.",
+   "body": "The southern excavation site needs blasting powder to break stone and uncover titan relics. Miran fears another ambush from the ridges. He seeks a companion before loading his cargo and setting out past any traps the Dark Irons may have prepared.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why split up",
     "why split powder"
    ],
-   "answer": "After an ambush left the shipment vulnerable, Huldar stayed behind to guard the remaining barrels while Miran moved ahead with the first batch."
+   "answer": "Huldar and Miran cannot travel together because the ambush left the shipment vulnerable. Huldar stayed behind to guard the remaining barrels while Miran moved ahead with the first batch."
   },
   {
    "q": "Who attacked the shipment?",
@@ -54,7 +54,7 @@
     "who ambushed them",
     "who is saean"
    ],
-   "answer": "Hostile Dark Iron dwarves led by Saean ambushed the haulers, seeking to disrupt Alliance operations and seize or destroy their mining explosives."
+   "answer": "Hostile Dark Iron dwarves led by Saean ambushed the haulers. They seek to disrupt Alliance operations and seize or destroy the mining explosives."
   },
   {
    "q": "Where is Miran taking the powder?",
@@ -62,7 +62,7 @@
     "where is powder going",
     "miran destination"
    ],
-   "answer": "Miran is taking the barrels to Loch Modan’s southern excavation site, where Prospector Ironband’s team needs blasting powder to clear rock and uncover buried ruins."
+   "answer": "Miran is taking the barrels to Loch Modan’s southern excavation site. Prospector Ironband’s team needs blasting powder there to clear rock and uncover buried ruins."
   },
   {
    "q": "Why is blasting powder so heavily guarded in Loch Modan?",
@@ -112,5 +112,5 @@
  "attribution": [
   "After the Ambush"
  ],
- "style": 1
+ "style": 2
 }

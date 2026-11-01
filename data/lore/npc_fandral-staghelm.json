@@ -8,21 +8,21 @@
   "wiki": "Fandral Staghelm",
   "refs": 3
  },
- "summary": "Archdruid Fandral Staghelm leads the druids of the Cenarion Circle from the Cenarion Enclave in Darnassus. Stepping into power after Malfurion Stormrage vanished into the Emerald Dream, he championed the planting of the new World Tree, Teldrassil. Proud, abrasive, and relentlessly ambitious, Fandral advocates for an aggressive Kaldorei resurgence that frequently pits him against High Priestess Tyrande Whisperwind.",
+ "summary": "From the Cenarion Enclave in Darnassus, Fandral Staghelm leads the druids of the Cenarion Circle. With Malfurion Stormrage gone into the Emerald Dream, Fandral championed Teldrassil and a forceful Kaldorei resurgence, often clashing with High Priestess Tyrande Whisperwind.",
  "sections": [
   {
    "title": "Architect of Teldrassil",
-   "body": "Following the Third War and the sacrifice of Nordrassil atop Mount Hyjal, the night elves lost their immortality and their sacred sanctuary. When Malfurion Stormrage vanished, Fandral took up leadership of the druids and convinced the Circle of Ancients that it was time for their people to rebuild and regain their immortality. With the Circle's approval, he led the druids in raising Teldrassil off the coast of Kalimdor. He envisioned the colossal bough as a monument to Kaldorei endurance and a vessel to restore their lost supremacy, even though the Dragon Aspects pointedly withheld their blessings from the unapproved endeavor.",
+   "body": "After the Third War, the night elves lost their immortality and sacred sanctuary when Nordrassil was sacrificed atop Mount Hyjal. When Malfurion Stormrage vanished, Fandral took up leadership of the druids. He persuaded the Circle of Ancients that their people must rebuild and regain their immortality.\n\nWith the Circle's approval, Fandral led the druids in raising Teldrassil off the coast of Kalimdor. He meant its great bough to honor Kaldorei endurance and restore their lost supremacy. The Dragon Aspects withheld their blessings from the endeavor.",
    "spoiler": 0
   },
   {
    "title": "Tragedy in the Shifting Sands",
-   "body": "A millennium before the First War, Fandral served as the Kaldorei field commander in Silithus during the War of the Shifting Sands. Renowned among the insectoid qiraji as 'Kar'sis'\u2014the Hand of Earth\u2014he held the front lines alongside his beloved only son, Valstann. Exploiting Fandral's devotion, the qiraji General Rajaxx engineered a feint against Southwind Village and captured Valstann, ruthlessly executing him directly in front of the horrified Archdruid. The loss shattered Fandral's spirit, precipitating a devastating retreat and cementing an abiding, bitter hatred for the swarm that remains etched into his haughty demeanor.",
+   "body": "A millennium before the First War, Fandral served as the Kaldorei field commander in Silithus during the War of the Shifting Sands. The qiraji knew him as Kar'sis, the Hand of Earth. His beloved only son, Valstann, fought beside him on the front lines.\n\nThe qiraji General Rajaxx exploited Fandral's devotion with a feint against Southwind Village. Valstann was captured and executed before the horrified Archdruid. Grief broke Fandral's spirit and drove a devastating retreat. His bitter hatred of the swarm endures.",
    "spoiler": 0
   },
   {
    "title": "Rivalry and Hubris",
-   "body": "Within the marble boughs of Darnassus, Fandral governs Kaldorei affairs with a haughty, unyielding hand. Unlike High Priestess Tyrande Whisperwind, who favors spiritual preservation and cautious diplomacy, Fandral views military expansion and decisive strength as paramount to the survival of their people.",
+   "body": "In Darnassus, Fandral governs Kaldorei affairs with a haughty, unyielding hand. High Priestess Tyrande Whisperwind is a spiritual leader who favors preservation and cautious diplomacy. Fandral instead sees military expansion and decisive strength as vital to his people's survival.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is the archdruid",
     "archdruid of darnassus"
    ],
-   "answer": "Fandral Staghelm is the acting Archdruid of the Cenarion Circle in Darnassus, presiding over Kaldorei druids in Malfurion Stormrage's absence. Known for his fiery temperament and imperial ambitions, he is the primary visionary behind the creation of Teldrassil."
+   "answer": "Fandral is the acting Archdruid of the Cenarion Circle in Darnassus, leading Kaldorei druids while Malfurion Stormrage is absent. His fiery temper and imperial ambitions drive his vision for Teldrassil."
   },
   {
    "q": "Why doesn't Fandral get along with Tyrande?",
@@ -43,7 +43,7 @@
     "why do druids and priestesses disagree",
     "staghelm vs whisperwind"
    ],
-   "answer": "Fandral advocates for Kaldorei military resurgence, aggressive expansion, and reclaiming lost immortality. Tyrande Whisperwind pursues cautious spiritual guidance through Elune. Their competing visions for the night elves' post-Hyjal future spark fierce political friction within Darnassus."
+   "answer": "Fandral favors Kaldorei military resurgence, aggressive expansion, and the return of their lost immortality. Tyrande Whisperwind guides her people through spiritual devotion to Elune and caution. Their opposing visions for the night elves after Hyjal fuel fierce political friction in Darnassus."
   },
   {
    "q": "Why was Teldrassil planted?",
@@ -52,7 +52,7 @@
     "why did fandral plant teldrassil",
     "origin of teldrassil"
    ],
-   "answer": "After the Battle of Mount Hyjal, Nordrassil was scarred and the night elves had lost their immortality. With Malfurion missing, Fandral convinced the Circle of Ancients that it was time for their people to rebuild and regain their immortality, and with the Circle's approval he and the most powerful druids grew Teldrassil."
+   "answer": "After the Battle of Mount Hyjal, Nordrassil was scarred and the night elves lost their immortality. With Malfurion missing, Fandral persuaded the Circle of Ancients that their people must rebuild and regain it. With the Circle's approval, Fandral and the most powerful druids grew Teldrassil."
   },
   {
    "q": "What happened to Fandral's son?",
@@ -61,7 +61,7 @@
     "who was valstann",
     "valstann staghelm"
    ],
-   "answer": "During the War of the Shifting Sands in Silithus, Fandral's son Valstann was lured into an ambush at Southwind Village. The qiraji General Rajaxx captured Valstann and slaughtered him in front of Fandral, leaving the Archdruid grief-stricken and permanently embittered."
+   "answer": "During the War of the Shifting Sands in Silithus, Fandral's son Valstann was lured into an ambush at Southwind Village. The qiraji general Rajaxx captured and killed him before Fandral. The loss left the Archdruid grief-stricken and bitter."
   },
   {
    "q": "Where can Fandral Staghelm be found?",
@@ -70,21 +70,21 @@
     "fandral location",
     "cenarion enclave leader"
    ],
-   "answer": "Fandral stands atop the Cenarion Enclave in Darnassus, surrounded by his loyal druids and overseeable business of the Kaldorei capital."
+   "answer": "Fandral can be found atop the Cenarion Enclave in Darnassus, surrounded by his loyal druids as he oversees the Kaldorei capital."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Staghelm commands the Darnassian druids, pushing the Cenarion Circle toward direct worldly authority while clashing with the traditional teachings of the sleeping Malfurion Stormrage."
+   "text": "As a Druid, you see Staghelm command the Darnassian druids and press the Cenarion Circle toward direct worldly authority. He clashes with the traditional teachings of the sleeping Malfurion Stormrage."
   },
   {
    "target": "race:NightElf",
-   "text": "As one of Darnassus's primary leaders, Fandral embodies Kaldorei pride and fury, driving the settlement of Teldrassil even as ordinary citizens feel the rift between his enclave and the Temple of the Moon."
+   "text": "As a Night Elf, you see Fandral embody Kaldorei pride and fury. He drives the settlement of Teldrassil, while ordinary citizens feel the rift between his enclave and the Temple of the Moon."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though Teldrassil serves as an Alliance bastion in northern Kalimdor, Staghelm views the younger races with thinly veiled disdain, tolerating their presence only as political expediency demands."
+   "text": "As an Alliance member, you find Teldrassil a bastion in northern Kalimdor. Staghelm views the younger races with thinly veiled disdain and tolerates their presence only when political expediency demands it."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Fandral Staghelm"
- ]
+ ],
+ "style": 2
 }

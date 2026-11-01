@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Prospector Whelgar sees a chance to learn more from the Goaz Stone. Four larger golems bear inscriptions that match its missing pieces.",
+ "summary": "Prospector Whelgar sees a way to learn more from the Goaz Stone. Four larger golems bear names that match its missing pieces.",
  "sections": [
   {
    "title": "Four Inscriptions",
-   "body": "You've found missing pieces of the Goaz Stone. Whelgar points to four larger golems bearing the names Ados, Modr, Golm, and Neru. He asks you to use the stone near each one and bring their hearts back to him, hoping they will reveal more of its markings.",
+   "body": "You've found missing pieces of the Goaz Stone. Prospector Whelgar points to four larger golems named Ados, Modr, Golm, and Neru. He asks you to use the stone near each one, then bring their hearts back. He hopes they will reveal more of its markings.",
    "spoiler": 0
   },
   {
    "title": "Faint Words",
-   "body": "When Whelgar brings the hearts close to the Goaz Stone, new writing appears in a faint shimmer: \u201cCurse of Flesh... they will fail.\u201d He cannot make out what the words mean and wants to take the stone somewhere safe for further study.",
+   "body": "When Prospector Whelgar brings the hearts close to the Goaz Stone, new writing shimmers into view: “Curse of Flesh... they will fail.” He cannot make out what the words mean. He wants to take the stone somewhere safe for further study.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "golem hearts",
     "bring back hearts"
    ],
-   "answer": "Whelgar asks you to bring back the hearts of Ados, Modr, Golm, and Neru after using the Goaz Stone near each golem."
+   "answer": "Prospector Whelgar asks you to use the Goaz Stone near Ados, Modr, Golm, and Neru, then bring back their hearts."
   },
   {
    "q": "Where are the four golems?",
@@ -50,7 +50,7 @@
     "what are hearts for",
     "goaz stone pieces"
    ],
-   "answer": "The golems bear inscriptions matching missing pieces of the Goaz Stone, and Whelgar hopes their hearts will reveal more of the stone."
+   "answer": "The golems bear inscriptions that match missing pieces of the Goaz Stone. Whelgar hopes their hearts will reveal more of its markings."
   },
   {
    "q": "What does Whelgar think of the golems?",
@@ -84,7 +84,7 @@
   "subzone:dun-algaz",
   "subzone:direforge-hill"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Gleaning Our Future"
  ]

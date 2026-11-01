@@ -8,11 +8,11 @@
   "wiki": "Hegnar Rumbleshot",
   "refs": 1
  },
- "summary": "On the snowy road from Coldridge Pass to Kharanos, Hegnar Rumbleshot keeps a gunsmith's camp. He supplies local hunters and mountaineers with firearms and ammunition.",
+ "summary": "On the snowy road from Coldridge Pass to Kharanos, Hegnar Rumbleshot supplies hunters and mountaineers with firearms and ammunition.",
  "sections": [
   {
    "title": "A Gunsmith on the Road",
-   "body": "Hegnar Rumbleshot keeps a small camp between Coldridge Pass and Kharanos, where he serves dwarven marksmen, travelers, and the local militia. At the camp, mountain folk use a popular range to hone their aim against the wild beasts prowling Dun Morogh. The steady stream of shooters leaves Hegnar in need of fresh ammunition from his supplier, the dwarf engineer Loslor Rudge.",
+   "body": "Between Coldridge Pass and Kharanos, Hegnar's small camp serves dwarven marksmen, travelers, and the local militia. Mountain folk use its popular range to practice against Dun Morogh's wild beasts. The steady stream of shooters keeps Hegnar reliant on fresh ammunition from Loslor Rudge, a dwarf engineer.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "hegnar rumbleshot npc",
     "gunsmith in dun morogh"
    ],
-   "answer": "Hegnar Rumbleshot keeps a gunsmith's camp and outdoor shooting range along the road between Coldridge Pass and Kharanos."
+   "answer": "Hegnar Rumbleshot keeps a gunsmith's camp and outdoor shooting range on the road between Coldridge Pass and Kharanos."
   },
   {
    "q": "Where does Hegnar get his ammunition?",
@@ -42,17 +42,17 @@
     "hegnar shooting range",
     "rumbleshot role"
    ],
-   "answer": "Hegnar outfits local hunters and militia members with firearms and shot, and offers a practice range for marksmen traveling through Dun Morogh."
+   "answer": "Hegnar supplies local hunters and militia members with firearms and shot. He also offers a practice range for marksmen traveling through Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter heading from Coldridge Valley into Dun Morogh's snowy peaks, you can get shot, ammunition pouches, and spare firearms from Hegnar."
+   "text": "As a hunter traveling from Coldridge Valley into Dun Morogh's snowy peaks, you can get shot, ammunition pouches, and spare firearms from Hegnar."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can join travelers at Hegnar's roadside range to practice your marksmanship."
+   "text": "As a dwarf, you can practice your marksmanship alongside travelers at Hegnar's roadside range."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Hegnar Rumbleshot"
  ],
- "style": 1
+ "style": 2
 }

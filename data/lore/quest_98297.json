@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Howin Kindfeather returns from a test flight with troubling news: Dragonmaw warlocks are enslaving a red dragonspawn. The Wildhammer will not let that happen again.",
+ "summary": "At the Dragonmaw Gates, warlocks are trying to enslave a red dragonspawn. Howin Kindfeather returns from a test flight with troubling news, and the Wildhammer will not let it happen again.",
  "sections": [
   {
    "title": "At the Gates",
-   "body": "Howin asks you to face the subdued dragonspawn at the Dragonmaw Gates. He says the warlocks holding it down must be killed first, which should free it. Then you are to put the dragonspawn out of its misery. Howin expects you to bring friends; the Wildhammer will not let the Dragonmaw stand in their way.",
+   "body": "Howin Kindfeather asks you to face the subdued dragonspawn at the Dragonmaw Gates. First, kill the warlocks holding it down. That should free it. Then put the dragonspawn out of its misery. Howin expects you to bring friends, for the Wildhammer will not let the Dragonmaw stand in their way.",
    "spoiler": 0
   }
  ],
@@ -58,7 +58,7 @@
     "why not again",
     "wildhammer reason"
    ],
-   "answer": "Howin says the Dragonmaw are enslaving a red dragonspawn, and insists the Wildhammer will not let them stand in the way."
+   "answer": "Howin says the Dragonmaw are enslaving a red dragonspawn, and insists the Wildhammer will not let them stand in their way."
   }
  ],
  "angles": [],
@@ -76,7 +76,7 @@
   "subzone:dragonmaw-gates",
   "topic:warlock"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Stopping the Cycle"
  ]

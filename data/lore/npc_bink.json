@@ -8,11 +8,11 @@
   "wiki": "Bink",
   "refs": 1
  },
- "summary": "Bink is a gnome mage trainer who resides within the Hall of Mysteries in Ironforge's Mystic Ward. Quick-witted and enthusiastic, she guides aspiring spellcasters through the intricacies of the arcane arts and connects them with prominent wizards across the Alliance.",
+ "summary": "In Ironforge's Hall of Mysteries, Bink teaches aspiring mages the arcane arts. Her quick mind helps promising students find wizards across the Alliance.",
  "sections": [
   {
    "title": "A Beacon in the Hall of Mysteries",
-   "body": "Located in the Mystic Ward of Ironforge, Bink stands among the gathered scholars, priests, and arcanists in the Hall of Mysteries. Like many gnomes driven from Gnomeregan, she has adapted to life within the dwarven mountain stronghold, offering her keen intellect and knowledge of arcane craft to those learning the path of the mage. She is well connected to wizards across the Eastern Kingdoms and Kalimdor, regularly pointing promising apprentices toward greater mentors such as High Sorcerer Andromath in Stormwind or Tabetha in Dustwallow Marsh.",
+   "body": "In Ironforge's Hall of Mysteries, Bink teaches the path of the mage. She works among the scholars, priests, and arcanists gathered in the Mystic Ward. Like many gnomes driven from Gnomeregan, she has made her home in the dwarven mountain stronghold. Her keen mind and skill in arcane craft guide those learning magic.\n\nBink knows wizards across the Eastern Kingdoms and Kalimdor. She points promising apprentices toward mentors such as High Sorcerer Andromath in Stormwind and Tabetha in Dustwallow Marsh.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is bink",
     "bink ironforge"
    ],
-   "answer": "Bink is an Alliance gnome mage trainer stationed inside the Hall of Mysteries within the Mystic Ward of Ironforge. She teaches arcane spellcraft and serves as a mentor and contact for developing mages."
+   "answer": "Bink trains Alliance gnome mages in Ironforge's Hall of Mysteries. She teaches arcane spellcraft and guides mages as they develop."
   },
   {
    "q": "Where can I find Bink?",
@@ -33,7 +33,7 @@
     "where is bink",
     "find bink"
    ],
-   "answer": "She can be found inside the Hall of Mysteries, which sits in the western wing of the Mystic Ward in the city of Ironforge."
+   "answer": "You can find Bink in the Hall of Mysteries, in the western wing of Ironforge's Mystic Ward."
   },
   {
    "q": "What quests involve Bink?",
@@ -41,7 +41,7 @@
     "bink quests",
     "speak with bink quest"
    ],
-   "answer": "Developing mages are directed to her via quests like Speak with Bink. In turn, she directs mages toward further studies, sending them to authorities such as High Sorcerer Andromath in Stormwind's Wizard's Sanctum or the hermit mage Tabetha in Dustwallow Marsh."
+   "answer": "Developing mages are directed to Bink by Speak with Bink. She sends them to study with authorities such as High Sorcerer Andromath in Stormwind's Wizard's Sanctum or the hermit mage Tabetha in Dustwallow Marsh."
   },
   {
    "q": "What does Bink say to non-mages?",
@@ -49,17 +49,17 @@
     "bink gossip",
     "bink dialogue"
    ],
-   "answer": "If approached by someone who does not practice the arcane, she cheerfully offers some practical advice: 'Befriend a mage! We have a trick or two up our sleeves, we do...'"
+   "answer": "If you do not practice the arcane, Bink cheerfully advises, 'Befriend a mage! We have a trick or two up our sleeves, we do...'"
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For Alliance mages visiting or based in Ironforge, Bink serves as a vital trainer and quest contact, dispatching students to study under powerful mentors across Azeroth."
+   "text": "As an Alliance mage in Ironforge, you can learn from Bink and follow her guidance to powerful mentors across Azeroth."
   },
   {
    "target": "race:Gnome",
-   "text": "Bink represents the continued pursuit of arcane mastery among exiled gnomes sheltering in the great halls of their dwarven allies."
+   "text": "As a gnome, you share Bink's pursuit of arcane mastery among exiles sheltered in the halls of their dwarven allies."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Bink"
- ]
+ ],
+ "style": 2
 }

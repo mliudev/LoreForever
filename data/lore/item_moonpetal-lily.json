@@ -10,16 +10,16 @@
    "quest:3521"
   ]
  },
- "summary": "Moonpetal Lilies are large, luminous flora native to Teldrassil that flourish around freshwater pools. Renowned for their potent restorative qualities, their petals are prized as key ingredients in natural remedies and healing draughts.",
+ "summary": "Around Teldrassil’s freshwater pools, Moonpetal Lilies offer petals prized for their restorative power. Healers use them in remedies and healing draughts.",
  "sections": [
   {
    "title": "Flora of the Pools",
-   "body": "Moonpetal Lilies grow exclusively along the moist banks of freshwater pools and ponds, particularly favored along the northwestern side of Aldrassil in Shadowglen. Like much of the plant life flourishing atop the newly grown World Tree, they absorb the unique essence of Teldrassil's sheltered groves. Their broad petals are gentle and radiant, easily spotted hugging the tranquil water's edge where natural moisture allows them to thrive.",
+   "body": "Moonpetal Lilies grow along the moist banks of freshwater pools and ponds. They are common northwest of Aldrassil in Shadowglen. Like other plants atop the young World Tree, they draw on the essence of Teldrassil’s sheltered groves. Their broad petals shine beside the water, where the moisture lets them thrive.",
    "spoiler": 0
   },
   {
    "title": "Natural Antidotes",
-   "body": "Night elf healers and herbalists value the Moonpetal Lily for its extraordinary healing properties. When combined with other forest flora, such as Hyacinth Mushrooms, the lily acts as a powerful soothing and stabilizing agent. This restorative quality makes it an essential component when brewing antidotes to counteract lethal toxins, notably the virulent venom produced by the Webwood spiders lurking within Shadowthread Cave.",
+   "body": "Night elf healers and herbalists prize Moonpetal Lilies for their healing properties. Mixed with forest plants such as Hyacinth Mushrooms, the lilies help soothe and stabilize. Healers brew antidotes from them for deadly toxins, including the venom of Webwood spiders in Shadowthread Cave.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "moonpetal lily location",
     "lily spots"
    ],
-   "answer": "They grow along the banks of the two freshwater ponds situated on the northwestern side of Aldrassil within Shadowglen on Teldrassil."
+   "answer": "Moonpetal Lilies grow along the banks of two freshwater ponds northwest of Aldrassil in Shadowglen, on Teldrassil."
   },
   {
    "q": "What are Moonpetal Lilies used for?",
@@ -39,7 +39,7 @@
     "moonpetal lily uses",
     "what does moonpetal lily do"
    ],
-   "answer": "The lilies possess notable restorative and healing properties. In Shadowglen, Dirania Silvershine uses them alongside Hyacinth Mushrooms and Webwood Ichor to brew a potent antidote for spider venom."
+   "answer": "Moonpetal Lilies have restorative and healing properties. In Shadowglen, Dirania Silvershine combines them with Hyacinth Mushrooms and Webwood Ichor to brew an antidote for spider venom."
   },
   {
    "q": "Who needs an antidote made from these lilies?",
@@ -47,7 +47,7 @@
     "who is the antidote for",
     "iverron poison"
    ],
-   "answer": "A night elf named Iverron, who fell victim to the poisonous bite of the Webwood spiders near Shadowthread Cave, requires an antidote concocted from Moonpetal Lilies to survive."
+   "answer": "Iverron is a night elf bitten by Webwood spiders near Shadowthread Cave. He needs an antidote made with Moonpetal Lilies to survive."
   },
   {
    "q": "Can Moonpetal Lilies be gathered outside of Teldrassil?",
@@ -55,17 +55,17 @@
     "do lilies grow elsewhere",
     "moonpetal lily other zones"
    ],
-   "answer": "They are tied directly to the secluded pools of Teldrassil and are known locally within the sheltered boughs of Shadowglen."
+   "answer": "Moonpetal Lilies grow around Teldrassil’s secluded pools. They are known in Shadowglen’s sheltered boughs."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Though collected directly by hand during urgent crises, Moonpetal Lilies serve as a clear demonstration of Teldrassil's rich, restorative botanical potential."
+   "text": "In urgent crises, healers gather Moonpetal Lilies by hand. The flowers show the restorative power of Teldrassil’s plants."
   },
   {
    "target": "race:NightElf",
-   "text": "For young kaldorei training in Shadowglen, learning the restorative properties of native plants like the Moonpetal Lily is a vital early lesson in living harmoniously with nature."
+   "text": "As a young kaldorei training in Shadowglen, you learn how native plants like Moonpetal Lily can heal. It is an early lesson in living with nature."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Moonpetal Lily",
   "Iverron's Antidote (Classic)"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Camp Narache"
  },
- "summary": "Young tauren begin their training at Camp Narache, high on Red Cloud Mesa in southern Mulgore. The camp is the Hawkwind tribe’s ancestral home, where elders preserve old ways as quilboar press close and centaur scouts linger.",
+ "summary": "Camp Narache is where young tauren begin their training, high on Red Cloud Mesa in southern Mulgore. It is the ancestral home of the Hawkwind tribe. Up here, above the plains, the old traditions are kept. But the camp must always stand guard, against the quilboar and the centaur.",
  "sections": [
   {
    "title": "Heart of the Hawkwind Tribe",
-   "body": "Camp Narache sits at the northern edge of Red Cloud Mesa, the main settlement of the Hawkwind tribe. Hide lodges and pavilions house the wounded, store weapons, bake bread, and offer a place for meditation and communion with ancestors. At the camp’s heart, elders and path trainers gather in a circle. Greatmother Hawkwind guides the newly initiated as they take up their roles as defenders of the Earth Mother.",
+   "body": "The camp stands at the northern edge of the mesa, a village of great hide lodges and pavilions. There is a tent for wounded braves, and a lodge for speaking with the ancestors. At its center, the tribal elders and trainers stand in a circle. Among them is the venerable Greatmother Hawkwind. She still guides the young, as they take up their place as defenders of the Earth Mother.",
    "spoiler": 0
   },
   {
    "title": "A Proving Ground Under Threat",
-   "body": "Steep cliffs shield Camp Narache, but threats reach the mesa all the same. Bristleback quilboar from Brambleblade Ravine press into Hawkwind lands, while centaur scouts remain in the distance. Young hunters, shamans, druids, and warriors prove their mettle by thinning aggressive wildlife, guarding the village well, and driving back quilboar raiders. Then they descend the grand path into Mulgore’s wider valleys.",
+   "body": "The sheer cliffs of the mesa make a natural fortress, yet the camp knows little peace. Bristleback quilboar press in from Brambleblade Ravine, and centaur scouts linger in the distance. Here young hunters, shaman, druids and warriors prove their mettle. They cull the angry wildlife, guard the village well and turn back the quilboar raiders. Then they walk the great path down, into the wider valleys of Mulgore.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "narache lore",
     "tauren starting town"
    ],
-   "answer": "Young tauren begin their training at Camp Narache, atop Red Cloud Mesa in southern Mulgore. The camp is the Hawkwind tribe’s main settlement, where hunters, warriors, druids, and shamans learn their crafts before traveling to Bloodhoof Village and Thunder Bluff."
+   "answer": "Young tauren begin their training at Camp Narache, atop Red Cloud Mesa in southern Mulgore. The camp is the Hawkwind tribe’s main settlement, where hunters, warriors, druids, and shamans learn their crafts before traveling to Bloodhoof Village and Thunder Bluff. The lodges store weapons and bake bread."
   },
   {
    "q": "Who leads the village?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Camp Narache"
  ],
- "style": 1
+ "style": 2
 }

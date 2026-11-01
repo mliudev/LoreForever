@@ -19,7 +19,7 @@
     "who died here",
     "who is the dead night watchman"
    ],
-   "answer": "The fallen body belongs to a member of the Night Watch, the town guard tasked with patrolling the dark roads and borders of Duskwood. He met a violent demise alone in the shadows.",
+   "answer": "The fallen body belongs to a Night Watch guard, who patrols Duskwood's dark roads and borders. He died alone in the shadows.",
    "q": "Whose body is this?"
   },
   {
@@ -28,7 +28,7 @@
     "how did the watchman die",
     "what attacked him"
    ],
-   "answer": "He was mauled by a large beast, leaving his corpse marked by profound gashes and savage cuts. The creature responsible overtook him before he could defend himself or light his way.",
+   "answer": "A large beast mauled the watchman, leaving deep gashes and savage cuts. It caught him before he could defend himself or light his way.",
    "q": "What killed the watchman?"
   },
   {
@@ -37,7 +37,7 @@
     "what do i do with the torch",
     "torch uses duskwood"
    ],
-   "answer": "The unlit torch taken from the guard's grip can illuminate the surrounding gloom, helping wanderers expose things veiled by the heavy darkness of Duskwood and lands beyond.",
+   "answer": "The unlit torch from the guard's hand can light the gloom. Its glow may reveal what the darkness hides in Duskwood and beyond.",
    "q": "Why is the torch important?"
   }
  ],
@@ -54,18 +54,19 @@
  ],
  "sections": [
   {
-   "body": "A fallen member of the Night Watch lies quiet upon the dark soil of Duskwood, his body marked by severe gashes and cuts from a savage encounter. The ferocious wounds suggest that a massive beast ambushed the patrolman before he had any chance to escape.",
+   "body": "A Night Watch patrolman lies dead on Duskwood's dark soil. Deep gashes and cuts mark his body. A great beast caught him before he could escape.",
    "spoiler": 0,
    "title": "A Grim Discovery"
   },
   {
-   "body": "Clutched within the fallen guard's rigid fingers rests an unlit torch. Taking the brand from his grasp provides a valuable tool against the encroaching shadows, capable of exposing things that remain concealed within the deep gloom of Duskwood and other darkened paths.",
+   "body": "An unlit torch remains in the fallen guard's rigid hand. Take it, and its light can reveal what hides in Duskwood's gloom and along other dark paths.",
    "spoiler": 0,
    "title": "Light in the Darkness"
   }
  ],
- "summary": "A fallen Night Watchman lies in the gloom of Duskwood, brutally mauled by an unknown predator. Recovering the unlit brand from his cold fingers offers a way to penetrate the surrounding darkness and reveal whatever stays hidden within the shadows.",
+ "summary": "In Duskwood, a Night Watchman lies dead in the gloom. A beast mauled him, and the unlit brand in his hand may help you see what the darkness hides.",
  "attribution": [
   "In-game quest text: An Unfortunate End"
- ]
+ ],
+ "style": 2
 }

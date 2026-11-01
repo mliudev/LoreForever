@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Forsaken hold the Undercity directly beneath the ruined capital, making any surging Scourge presence in the courtyards and graveyards overhead an immediate threat to their doorstep."
+   "text": "As Forsaken, you live in the Undercity beneath the ruined capital. Scourge forces in the courtyards and graveyards above threaten your doorstep."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing the surrounding territories of Lordaeron preserves the Horde's foothold in the Eastern Kingdoms against relentless undead abominations."
+   "text": "As a member of the Horde, you have a foothold in the Eastern Kingdoms. Securing Lordaeron's surrounding lands helps preserve it against the relentless undead."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "who is rath'mael",
     "rathmael lore"
    ],
-   "answer": "Rath'mael is a Scourge necromancer who has recently risen to prominence among the undead forces lurking in the Ruins of Lordaeron. Using dark sorcery, he conjures an unholy fog that conceals Scourge movements throughout the streets and graveyard near Lordamere Overlook.",
+   "answer": "Rath'mael is a Scourge necromancer who has risen among the undead in the Ruins of Lordaeron. His dark sorcery conjures an unholy fog that conceals Scourge movements in the streets and graveyard near Lordamere Overlook.",
    "q": "Who is Rath'mael?"
   },
   {
@@ -37,7 +37,7 @@
     "why is there fog in ruins of lordaeron",
     "unholy fog ruins"
    ],
-   "answer": "The supernatural mist hanging over the ruined capital's streets and graveyard is an unholy fog conjured by the necromancer Rath'mael. It blankets the area in gloom, granting the lingering Scourge stealth and tactical concealment from Forsaken patrols.",
+   "answer": "The unholy fog over the ruined capital's streets and graveyard is conjured by Rath'mael. It conceals lingering Scourge forces from Forsaken patrols.",
    "q": "What is the unholy fog in the Ruins of Lordaeron?"
   },
   {
@@ -46,7 +46,7 @@
     "where is deathguard kristof",
     "kristof brill"
    ],
-   "answer": "Deathguard Kristof is a Forsaken soldier stationed in the town of Brill in Tirisfal Glades. Keeping watch over the approaches to the Capital City ruins, he issues the urgent call for champions to eliminate Rath'mael before the Scourge threat grows unmanageable.",
+   "answer": "Deathguard Kristof, a Forsaken soldier, offers the call from Brill in Tirisfal Glades. He watches the approaches to the Capital City ruins and calls for Rath'mael's death before the Scourge threat grows too great.",
    "q": "Who offers this mission?"
   },
   {
@@ -55,7 +55,7 @@
     "where to find rath'mael",
     "rathmael location"
    ],
-   "answer": "Rath'mael operates deep within the Ruins of Lordaeron, particularly around the streets, graveyard, and the vicinity of Lordamere Overlook overlooking the lake.",
+   "answer": "Rath'mael operates in the Ruins of Lordaeron, around its streets and graveyard and near Lordamere Overlook above the lake.",
    "q": "Where is Rath'mael located?"
   },
   {
@@ -63,7 +63,7 @@
     "why kill rathmael",
     "why fight rathmael"
    ],
-   "answer": "The Forsaken cannot allow the Scourge to amass forces or obscure their positions right above the Undercity. Rath'mael's necromantic shroud presents an immediate tactical danger to Forsaken defense lines and traveler safety throughout Tirisfal.",
+   "answer": "The Forsaken fear the Scourge gathering forces and hiding their movements above the Undercity. Rath'mael's fog threatens Forsaken defenses and travelers throughout Tirisfal.",
    "q": "Why do the Forsaken want Rath'mael destroyed?"
   },
   {
@@ -71,7 +71,7 @@
     "does killing rathmael end the scourge",
     "will scourge be gone after rathmael"
    ],
-   "answer": "No. As Deathguard Kristof observes, the Scourge will inevitably replace fallen lieutenants with another dark spellcaster. Slaying Rath'mael simply blunts their immediate momentum, thins their numbers, and lifts the obscuring fog for a time.",
+   "answer": "No. The Scourge will replace fallen lieutenants with another dark spellcaster. Rath'mael's death slows their immediate advance, thins their numbers, and lifts the fog for a time.",
    "q": "Does Rath'mael's death permanently secure the ruins?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "Scout reports from the Lordamere Overlook indicate that a sinister presence has tightened its grip on the Ruins of Lordaeron. A thick, unholy fog has blanketed the ruined streets and nearby graveyard, masking the movements of lingering Scourge forces. This supernatural shroud is the work of Rath'mael, an ascendant necromancer whose spells grant his undead minions stealth and cover right above the heart of Forsaken territory.",
+   "body": "Scout reports from Lordamere Overlook tell of a sinister presence in the Ruins of Lordaeron. An unholy fog now covers the ruined streets and nearby graveyard, hiding lingering Scourge forces. Rath'mael cast the shroud. His spells conceal the undead above the heart of Forsaken territory.",
    "spoiler": 0,
    "title": "A Shroud Over the Ruins"
   },
   {
-   "body": "Recognizing that the Forsaken cannot afford to let such a menace take root unhindered, Deathguard Kristof in Brill directs adventurers to rally their allies and strike Rath'mael down. While Kristof knows the Scourge hierarchy will eventually replace such a sorcerer, eliminating Rath'mael disrupts their coordination, disperses the magical shroud, and buys critical breathing room for Tirisfal Glades.",
+   "body": "Deathguard Kristof in Brill sends you to rally your allies and strike Rath'mael down. The Forsaken cannot let this menace take root unchecked. The Scourge may replace him, but his fall will disrupt their coordination, disperse the fog, and give Tirisfal Glades room to breathe.",
    "spoiler": 0,
    "title": "The Defense of Tirisfal"
   }
  ],
- "summary": "The Wrath of Rath'mael is a Forsaken quest issued by Deathguard Kristof in Brill. Adventurers are tasked with entering the fog-shrouded Ruins of Lordaeron to eliminate Rath'mael, a Scourge necromancer concealing undead movements above the Undercity.",
+ "summary": "In the Ruins of Lordaeron, a fog hides Scourge movements above the Undercity. Rath'mael, a Scourge necromancer, has shrouded the ruined streets and graveyard. Deathguard Kristof in Brill calls for you to strike him down.",
  "attribution": [
   "In-game quest text: The Wrath of Rath'mael"
- ]
+ ],
+ "style": 2
 }

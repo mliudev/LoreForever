@@ -19,7 +19,7 @@
     "note author",
     "who left the message"
    ],
-   "answer": "The identity of the author is not stated in the note. The writer only explains that they have decided to take their work underground to prevent it from falling into the wrong hands, leaving behind an abandoned campsite and equipment.",
+   "answer": "The note does not name its author. The writer says only that they have taken their work underground to keep it from the wrong hands, leaving the campsite and equipment behind.",
    "q": "Who wrote the torn note?"
   },
   {
@@ -28,7 +28,7 @@
     "why take work underground",
     "what work"
    ],
-   "answer": "The exact nature of the author's work remains unrevealed. They mention going back underground solely to keep their research or creations safe from unspecified adversaries who might misuse them.",
+   "answer": "The note does not reveal what work the author is taking underground. The writer says they want to keep it safe from unspecified adversaries.",
    "q": "What work is being taken underground?"
   },
   {
@@ -37,7 +37,7 @@
     "where did they go",
     "where is the author"
    ],
-   "answer": "Whoever occupied the site packed up in haste and slipped away just moments before anyone arrived. Their destination is unknown, though their note hints they may have relocated to another secluded hideout.",
+   "answer": "The occupant left moments before anyone arrived, and their destination is unknown. The note hints they may have gone to another hidden shelter.",
    "q": "Where did the campsite's occupant go?"
   },
   {
@@ -46,7 +46,7 @@
     "supplies at camp",
     "what was in the pack"
    ],
-   "answer": "The traveler left behind an inadequately secured sleeping bag that unravels on the ground, heavy canvas rolled over assorted equipment, and a discarded pack containing miscellaneous gear.",
+   "answer": "The traveler left an inadequately secured sleeping bag that unrolls on the ground, heavy canvas bundled over assorted gear, and a discarded pack containing miscellaneous gear.",
    "q": "What was left behind at the campsite?"
   },
   {
@@ -55,7 +55,7 @@
     "next camp",
     "more clues"
    ],
-   "answer": "The torn scrap of paper leaves it ambiguous whether these are parting words or an intentional breadcrumb leading toward the author's next subterranean haven.",
+   "answer": "The note could be a farewell or a clue to the author's next underground shelter. It does not settle which.",
    "q": "Is this a clue leading to another hideout?"
   },
   {
@@ -64,7 +64,7 @@
     "wrong hands meaning",
     "who is chasing the author"
    ],
-   "answer": "The note does not specify who the 'wrong hands' are. The author clearly feared pursuit or theft, prompting a hasty withdrawal before their efforts could be compromised.",
+   "answer": "The note does not identify the wrong hands. The author feared pursuit or theft and left before their work could be compromised.",
    "q": "Who are the 'wrong hands' mentioned in the note?"
   }
  ],
@@ -80,18 +80,19 @@
  "related": [],
  "sections": [
   {
-   "body": "A hasty departure has unfolded at this secluded spot, where an unknown traveler recently broke camp. All that remains is an inadequately secured sleeping bag unrolling underfoot, heavy canvas bundled over assorted gear, and a small scrap of paper torn just large enough to fit a hurried parting message. Whoever was camping here vanished moments before anyone could catch up with them.",
+   "body": "Someone broke camp at this secluded spot only moments ago. An inadequately secured sleeping bag unrolls underfoot, while heavy canvas lies bundled over assorted gear. A small scrap of paper holds a hurried parting message, but whoever camped here has vanished before anyone could catch up.",
    "spoiler": 0,
    "title": "A Hasty Departure"
   },
   {
-   "body": "The message left behind reveals that the author decided to take their work back underground to ensure it does not fall into the wrong hands. It remains an open question whether the note represents a final farewell or a subtle clue pointing toward the researcher's next covert sanctuary, leaving their abandoned equipment behind for whoever stumbled upon the site.",
+   "body": "The torn note says its author has taken their work underground to keep it from the wrong hands. Whether these are final words or a clue to the researcher's next hidden shelter remains unknown. The equipment lies abandoned for whoever found the campsite.",
    "spoiler": 1,
    "title": "Into the Underground"
   }
  ],
- "summary": "This Must Be The Place marks the site of a recently abandoned campsite whose occupant vanished just moments prior. A torn note left behind reveals that the mysterious author has taken their work underground to keep it out of the wrong hands.",
+ "summary": "At This Must Be The Place, a camper has vanished moments before anyone could catch up. A torn note says the writer has taken their work underground to keep it from the wrong hands.",
  "attribution": [
   "In-game quest text: This Must Be The Place"
- ]
+ ],
+ "style": 2
 }

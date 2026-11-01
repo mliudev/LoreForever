@@ -8,16 +8,16 @@
   "wiki": "Nikova Raskol",
   "refs": 1
  },
- "summary": "In Old Town, Nikova Raskol grieves for her murdered grandson. The elderly Stormwind townswoman seeks justice against the Defias Brotherhood rioters held in the Stockade.",
+ "summary": "In Old Town, Nikova Raskol seeks justice for her murdered grandson. The elderly Stormwind townswoman turns to adventurers as the Defias Brotherhood rioters remain locked in the Stockade.",
  "sections": [
   {
    "title": "A Grandmother's Grief",
-   "body": "Nikova Raskol wanders Old Town, carrying the grief of a recent loss. Her beloved grandson, Mac, was slain by Defias Brotherhood brigands. While the kingdom faces treason on a grand scale, Nikova bears the private cost of the Brotherhood's lawless rampage.",
+   "body": "Nikova Raskol walks Old Town with grief for her beloved grandson, Mac. Defias Brotherhood brigands slew him. The kingdom faces treason on a grand scale, yet Nikova bears the private cost of the Brotherhood's lawless rampage.",
    "spoiler": 0
   },
   {
    "title": "Vengeance in the Stockade",
-   "body": "Many criminals who wrecked havoc were captured and locked in the Stockade, but a violent inmate rebellion has seized the prison. The guards have failed to restore order, and Nikova turns to adventurers heading inside. She asks them to bring back red Defias bandanas as proof that her grandson's killers have faced retribution.",
+   "body": "Many criminals who wreaked havoc were captured and locked in the Stockade. Now a violent inmate rebellion has seized the prison, and the guards have failed to restore order. Nikova turns to adventurers heading inside. She asks them to bring back red Defias bandanas as proof that her grandson's killers have faced retribution.",
    "spoiler": 0
   }
  ],
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions in Stormwind, helping Nikova is a reminder that defending the kingdom means protecting ordinary townsfolk whose families have been torn apart by civil unrest."
+   "text": "For Alliance champions in Stormwind, helping Nikova reminds you that defending the kingdom means protecting ordinary townsfolk whose families have been torn apart by civil unrest."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Nikova Raskol"
  ],
- "style": 1
+ "style": 2
 }

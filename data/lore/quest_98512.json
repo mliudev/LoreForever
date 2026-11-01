@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Facing lethal killers like the Al'Aketh requires matching their deadly focus and ruthless precision."
+   "text": "As a Rogue, you know the focus and precision it takes to face lethal killers like the Al'Aketh."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "what is this quest",
     "alaketh assassins quest"
    ],
-   "answer": "Al'Aketh Assassins is a mission tasking adventurers with eliminating a lethal contingent of Al'Aketh operatives. The threat they pose is severe enough to demand immediate intervention and an official report.",
+   "answer": "You are asked to eliminate a lethal force of Al'Aketh operatives. A scout will record your aid in a report for Valanaar.",
    "q": "What is Al'Aketh Assassins?"
   },
   {
@@ -33,7 +33,7 @@
     "who are the alaketh assassins",
     "alaketh killers"
    ],
-   "answer": "The Al'Aketh assassins are described as stone-cold killers operating as a coordinated and dangerous strike force. Their lethal demeanor makes them a serious menace in the field.",
+   "answer": "Scouts call the Al'Aketh assassins stone-cold killers. They work together as a dangerous strike force.",
    "q": "Who are the Al'Aketh assassins?"
   },
   {
@@ -42,7 +42,7 @@
     "what is valanaar",
     "reporting to valanaar"
    ],
-   "answer": "Valanaar is the settlement at the southeastern edge of the island, a base for its peacekeepers. The scout plans to include your assistance in a report when returning to Valanaar.",
+   "answer": "Valanaar is a settlement at the island's southeastern edge and a base for its peacekeepers. The scout plans to report your aid there.",
    "q": "Who is Valanaar?"
   },
   {
@@ -51,7 +51,7 @@
     "why kill alaketh assassins",
     "alaketh threat"
    ],
-   "answer": "The Al'Aketh assassins present a lethal and immediate danger to operatives and travelers in the area. Neutralizing them is necessary to protect allied forces and ensure survival.",
+   "answer": "The Al'Aketh assassins threaten scouts and travelers in the area. Defeating them protects allied forces from their lethal attacks.",
    "q": "Why must the Al'Aketh assassins be dealt with?"
   },
   {
@@ -60,7 +60,7 @@
     "next quest alaketh",
     "report to valanaar quest"
    ],
-   "answer": "Following the confrontation with the assassins, the scout makes preparations to report back to Valanaar, acknowledging your crucial assistance during the operation.",
+   "answer": "After the fight, the scout prepares to report to Valanaar and record your aid.",
    "q": "What happens after dealing with the assassins?"
   },
   {
@@ -69,7 +69,7 @@
     "who is the scout",
     "scout report valanaar"
    ],
-   "answer": "The quest involves an allied operative stationed in the field monitoring hostile movements. Grateful for your intervention against the lethal assassins, this scout notes your contribution for command.",
+   "answer": "A scout in the field acknowledges your help against the Al'Aketh assassins and notes your contribution for command.",
    "q": "Who acknowledges your aid in defeating the assassins?"
   }
  ],
@@ -87,18 +87,19 @@
  ],
  "sections": [
   {
-   "body": "The Al'Aketh assassins represent a lethal threat in the field, described by scouts on the ground as stone-cold killers. Their ruthless efficiency and coordinated presence make any confrontation with them exceptionally perilous for local scouts and travelers alike. Dealing with their presence requires swift and decisive action before they can strike down their targets.",
+   "body": "Scouts in the field call the Al'Aketh assassins stone-cold killers. They move together with ruthless purpose, putting nearby scouts and travelers in grave danger. You face a perilous fight before they can strike their targets.",
    "spoiler": 0,
    "title": "A Deadly Threat"
   },
   {
-   "body": "Upon neutralizing the hostile Al'Aketh force, an allied operative expresses profound relief at your survival against such dangerous adversaries. Grateful for the timely intervention, the scout pledges to formally document your heroic assistance in an official report destined for Valanaar.",
+   "body": "After the Al'Aketh force is defeated, the scout is relieved to find you alive. Your timely aid will go into an official report for Valanaar.",
    "spoiler": 0,
    "title": "Reporting to Valanaar"
   }
  ],
- "summary": "Al'Aketh Assassins is a quest involving the elimination of a dangerous group of lethal killers. Adventurers aid a scout in neutralizing the threat, earning formal recognition that will be included in a report to Valanaar.",
+ "summary": "A scout asks you to end the Al'Aketh Assassins' deadly threat. Your survival and aid will be recorded for Valanaar.",
  "attribution": [
   "In-game quest text: Al'Aketh Assassins"
- ]
+ ],
+ "style": 2
 }

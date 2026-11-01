@@ -21,16 +21,16 @@
    "You Have Served Us Well"
   ]
  },
- "summary": "Zardeth of the Black Claw schemes against Stormwind's nobles from beneath the Slaughtered Lamb. Lord Wishock's call for an investigation puts the hidden warlock coven at risk.",
+ "summary": "Beneath Stormwind, Zardeth of the Black Claw schemes against the city's nobles. Lord Wishock's call for an investigation threatens the hidden warlock coven.",
  "sections": [
   {
    "title": "Threat from the Nobility",
-   "body": "Beneath the Mage Quarter streets, warlocks gather in the Slaughtered Lamb and keep their coven hidden. Lord Wishock, a member of the House of Nobles, has heard of the dark magic below the city. He is urging his peers to launch a full investigation, which could bring the city guard and royal scrutiny down on the coven.",
+   "body": "Warlocks gather beneath the Mage Quarter in the Slaughtered Lamb, keeping their coven hidden. Lord Wishock, a member of the House of Nobles, has heard of the dark magic below the city. Now he urges his peers to begin a full investigation. The city guard and royal scrutiny could soon fall upon the coven.",
    "spoiler": 0
   },
   {
    "title": "A Concoction in the Shadows",
-   "body": "To avoid an open clash with Stormwind's ruling class, Zardeth of the Black Claw seeks a quiet remedy to keep Lord Wishock occupied. The brew calls for rare plants from distant parts of the Eastern Kingdoms: the pale Tear of Tilloa from Duskwood, and a Musquash Root gathered underwater beneath the Stonewrought Dam.",
+   "body": "Zardeth of the Black Claw seeks a quiet remedy to keep Lord Wishock occupied and avoid an open clash with Stormwind's ruling class. The brew needs rare plants from distant parts of the Eastern Kingdoms: the pale Tear of Tilloa from Duskwood, and a Musquash Root gathered underwater beneath the Stonewrought Dam.",
    "spoiler": 1
   }
  ],
@@ -69,7 +69,7 @@
     "musquash root",
     "where to get musquash root"
    ],
-   "answer": "The Musquash Root grows only in the wetlands at the very base of the massive waterfalls beneath the Stonewrought Dam in the Wetlands."
+   "answer": "The Musquash Root grows only in the wetlands at the base of the massive waterfalls beneath the Stonewrought Dam in the Wetlands."
   },
   {
    "q": "Why doesn't Stormwind's government already know about the warlocks?",
@@ -126,5 +126,5 @@
  "attribution": [
   "A Noble Brew"
  ],
- "style": 1
+ "style": 2
 }

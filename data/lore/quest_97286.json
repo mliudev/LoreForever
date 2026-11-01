@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The library opens its doors to you for study. Your actions have shown respect for knowledge.",
+ "summary": "Your actions have earned you a place in the library. Its doors are open for your study.",
  "sections": [
   {
    "title": "Library Access",
@@ -27,7 +27,7 @@
     "why library open",
     "study library"
    ],
-   "answer": "Your actions have shown respect for knowledge, and the library is open to you for study."
+   "answer": "Your actions showed respect for knowledge, so the library is open to you for study."
   },
   {
    "q": "What does the library offer me?",
@@ -58,7 +58,7 @@
   "study"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Research Access"
  ]

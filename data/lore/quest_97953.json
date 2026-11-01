@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Enchanters can learn to craft an Enchanted Lute for a camp. Speak with Vance Undergloom in Brill after showing proficiency in your skill.",
+ "summary": "At Brill, Vance Undergloom teaches enchanters to make an Enchanted Lute for camp. First, show proficiency in your skill.",
  "sections": [
   {
    "title": "A Camp Companion",
-   "body": "Enchanters are welcome at camps in the wilds. You can learn to craft an Enchanted Lute to bring entertainment during time away from the trail.",
+   "body": "At a camp in the wilds, enchanters can learn to make an Enchanted Lute. Bring it along to lend some entertainment to your time away from the trail.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "vance undergloom",
     "lute teacher"
    ],
-   "answer": "Vance Undergloom in Brill can teach you to craft the Enchanted Lute."
+   "answer": "Vance Undergloom in Brill can teach you to craft an Enchanted Lute."
   },
   {
    "q": "Where do I find Vance Undergloom?",
@@ -54,7 +54,7 @@
     "show proficiency",
     "enchanting requirement"
    ],
-   "answer": "You need to show proficiency in your skill before learning to craft the camping item."
+   "answer": "Show proficiency in your skill before you learn to craft the camping item."
   },
   {
    "q": "Why bring an Enchanted Lute to camp?",
@@ -63,13 +63,13 @@
     "camp entertainment",
     "why enchanted lute"
    ],
-   "answer": "The Enchanted Lute provides entertainment during your downtime at camp."
+   "answer": "The Enchanted Lute brings entertainment to your time at camp."
   }
  ],
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "As an enchanter, you can learn to craft an Enchanted Lute for your camp after showing proficiency in your skill."
+   "text": "As an enchanter, you can learn to craft an Enchanted Lute for camp after showing proficiency in your skill."
   }
  ],
  "keywords": [
@@ -84,7 +84,7 @@
  "related": [
   "subzone:brill"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Camping 101: Enchanting"
  ]

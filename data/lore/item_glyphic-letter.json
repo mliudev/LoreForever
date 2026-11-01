@@ -10,11 +10,11 @@
    "quest:3104"
   ]
  },
- "summary": "At Northshire Abbey, Glyphic Letter calls promising novitiates to arcane study. After early service to the garrison, they are summoned upstairs to Khelden Bremen, the resident mage trainer.",
+ "summary": "At Northshire Abbey, Glyphic Letter calls promising novitiates to arcane study. After serving the garrison, they are summoned upstairs to Khelden Bremen, the resident mage trainer.",
  "sections": [
   {
    "title": "A Summons to the Arcane",
-   "body": "Khelden Bremen seals the Glyphic Letter with his personal insignia. Apprentice spellcasters receive it after proving their discipline in Northshire Valley. The summons calls them away from basic field duties and into dedicated magical instruction within the abbey. Bremen tests each student's resolve before they take up the arcane, with its dangerous forces, unyielding scrutiny, and burdens.",
+   "body": "Khelden Bremen seals Glyphic Letter with his own insignia. Apprentice spellcasters receive it after proving their discipline in Northshire Valley. The summons draws them from basic field duties into dedicated magical instruction within the abbey.\n\nBefore they take up the arcane, Bremen tests each student's resolve. Its forces are dangerous, its scrutiny unyielding, and its burdens heavy.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "glyphic letter item",
     "khelden letter"
    ],
-   "answer": "Khelden Bremen writes and seals the Glyphic Letter as a summons to instruction. It directs aspiring human mages to find him in Northshire Abbey's upper chambers for formal arcane schooling."
+   "answer": "Khelden Bremen writes and seals Glyphic Letter as a summons to instruction. It directs aspiring human mages to find him in the upper chambers of Northshire Abbey for formal arcane schooling."
   },
   {
    "q": "Who sends the Glyphic Letter?",
@@ -53,7 +53,7 @@
     "mage trainer reason",
     "what does khelden want"
    ],
-   "answer": "Khelden wants to test your determination. He warns that pursuing the arcane invites both fear and respect, and means challenging potent forces. He needs to know you have the will to endure that fate."
+   "answer": "Khelden wants to test your determination. He warns that pursuing the arcane brings fear and respect, and means challenging potent forces. He needs to know you have the will to endure that fate."
   }
  ],
  "angles": [
@@ -63,7 +63,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, you begin your service to Stormwind's magical disciplines with this summons. Northshire Abbey has sheltered students of the arcane throughout the kingdom's history."
+   "text": "As a human, you begin your service to Stormwind's magical disciplines with this summons. Northshire Abbey has sheltered arcane students throughout the kingdom's history."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Glyphic Letter",
   "Glyphic Letter (quest)"
  ],
- "style": 1
+ "style": 2
 }

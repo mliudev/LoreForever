@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This quest marks a critical spiritual trial for the shaman, transitioning from the endurance of stone to the fierce, destructive power of fire."
+   "text": "As a shaman, you face a spiritual trial that carries you from stone’s endurance to fire’s fierce, destructive power."
   },
   {
    "target": "faction:Alliance",
-   "text": "With the trial set in the mountains of Dun Morogh, Alliance shamans follow the guidance of their elders to awaken communion with the elements of fire."
+   "text": "As an Alliance shaman, you follow your elders’ guidance in the mountains of Dun Morogh to awaken communion with the elements of fire."
   },
   {
    "target": "race:Dwarf",
-   "text": "Taking place high above South Gate Outpost in Dun Morogh, this rite tests whether a dwarf has the discipline to temper the burning hunger of flame."
+   "text": "As a dwarf, you face this trial high above South Gate Outpost in Dun Morogh, where your discipline is tested against flame’s burning hunger."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "bruegs kindleborn lore",
     "where is bruegs"
    ],
-   "answer": "Bruegs Kindleborn is a mentor dwelling in a mountain cave high above South Gate Outpost in Dun Morogh. He assesses shamans sent by elders to determine if they possess the maturity and discipline to receive the fire sapta.",
+   "answer": "Bruegs Kindleborn mentors shamans in a mountain cave high above South Gate Outpost in Dun Morogh. Elders send initiates to him, and he judges whether they have the maturity and discipline to receive the fire sapta.",
    "q": "Who is Bruegs Kindleborn?"
   },
   {
@@ -41,7 +41,7 @@
     "fire sapta",
     "sapta meaning"
    ],
-   "answer": "A sapta is an elemental draught or preparation that allows a shaman to commune with spirits of that element. The sapta of fire grants communion with flame and its raw power, requiring mental focus and prior grounding in stone.",
+   "answer": "A sapta is an elemental draught or preparation that lets a shaman commune with spirits of that element. The sapta of fire grants communion with flame and its raw power, and calls for mental focus and prior grounding in stone.",
    "q": "What is the sapta of fire?"
   },
   {
@@ -50,7 +50,7 @@
     "south gate outpost cave",
     "where is call of fire turn in"
    ],
-   "answer": "Bruegs Kindleborn can be found far east in the snowy mountains of Dun Morogh, sheltered in a cave overlooking South Gate Outpost.",
+   "answer": "Bruegs Kindleborn lives far east in the snowy mountains of Dun Morogh, sheltered in a cave overlooking South Gate Outpost.",
    "q": "Where is Bruegs Kindleborn located?"
   },
   {
@@ -58,7 +58,7 @@
     "what is call of fire",
     "fire totem quest dun morogh"
    ],
-   "answer": "Call of Fire is a rite of passage for shamans who have demonstrated patience and mastered earth. It calls them to confront the chaotic power of destruction under the watchful eye of Bruegs Kindleborn.",
+   "answer": "Call of Fire brings shamans who have shown patience and mastered earth before the chaotic power of destruction. Bruegs Kindleborn watches over their trial.",
    "q": "What is the purpose of the Call of Fire?"
   },
   {
@@ -66,7 +66,7 @@
     "why stone first",
     "remember what stone taught you"
    ],
-   "answer": "Earth represents steadfast patience, stability, and control. Without the grounding foundation taught by stone, a shaman risks being overwhelmed by the volatile hunger and destructive passions of fire.",
+   "answer": "Earth teaches steadfast patience, stability, and control. Without stone’s grounding, a shaman risks being overwhelmed by fire’s volatile hunger and destructive passions.",
    "q": "Why must a shaman learn the lessons of stone before fire?"
   },
   {
@@ -74,7 +74,7 @@
     "call of fire prereq",
     "patience quest connection"
    ],
-   "answer": "The quest builds on previous trials where the initiate demonstrated patience and grounded themselves in earth. The elder only sends a student to Bruegs Kindleborn once their discipline is proven solid.",
+   "answer": "Before this rite, an initiate has shown patience and grounding in earth through earlier trials. The elder sends a student to Bruegs Kindleborn only when their discipline is proven solid.",
    "q": "What prerequisites are required before undertaking the Call of Fire?"
   }
  ],
@@ -94,18 +94,19 @@
  ],
  "sections": [
   {
-   "body": "After proving patience and grounding through the element of earth, shamans are directed to confront a far more volatile force: the fire elemental spirit. Unlike the steady, unyielding stone, fire calls with promises of chaos, ruin, and ferocious energy. An elder dispatches the initiate across the snow-laden peaks of Dun Morogh to seek guidance before attempting to harness this wild heat.",
+   "body": "After proving patience and grounding through earth, shamans face a more volatile force: the fire elemental spirit. Stone holds steady, but fire promises chaos, ruin, and fierce energy. So an elder sends the initiate across Dun Morogh’s snow-laden peaks to seek guidance before trying to harness its wild heat.",
    "spoiler": 0,
    "title": "The Burning Trial"
   },
   {
-   "body": "High in the mountains above South Gate Outpost, the mentor Bruegs Kindleborn keeps watch from a secluded cave. When an initiate arrives bearing an elder's recommendation, Bruegs prepares them for the sapta of fire. Yet he issues a stern warning: the hunger to burn and consume is easily stirred, but mastering flame demands knowing precisely when to hold back.",
+   "body": "Bruegs Kindleborn keeps watch in a secluded cave high in the mountains above South Gate Outpost. When an initiate arrives with an elder’s recommendation, Bruegs prepares them for the sapta of fire. He warns that flame’s hunger to burn and consume is easily stirred. To master it, a shaman must know when to hold back.",
    "spoiler": 0,
    "title": "The Recluse of the Peaks"
   }
  ],
- "summary": "Call of Fire is a shamanic quest guiding initiates into the dangerous, chaotic realm of flame in the heights of Dun Morogh. Having mastered the patient lessons of earth, the practitioner is directed to Bruegs Kindleborn to test their readiness for the fire sapta.",
+ "summary": "In Dun Morogh, an elder sends shaman initiates to Bruegs Kindleborn to test their readiness for the fire sapta. They have already learned patience and grounding through earth.",
  "attribution": [
   "In-game quest text: Call of Fire"
- ]
+ ],
+ "style": 2
 }

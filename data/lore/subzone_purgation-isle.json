@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Purgation Isle"
  },
- "summary": "Purgation Isle is a spiraling, rocky island lying off the southern coast of the Hillsbrad Foothills. Crowned with a cemetery and a ruined scout tower, the desolate rock is cursed and swarming with the restless, condemned spirits of fallen humans and dwarves.",
+ "summary": "Condemned spirits haunt Purgation Isle, off Hillsbrad’s southern coast. Tombstones and a ruined watchtower mark its winding paths, where fallen humans and dwarves wander without peace.",
  "sections": [
   {
    "title": "A Haunted Sanctuary",
-   "body": "Rising abruptly from the sea south of Hillsbrad, Purgation Isle is a grim sight marked by winding paths that lead past tombstones to an abandoned watchtower. No living nation claims it today. Instead, the isle is plagued by condemned souls\u2014former paladins, priests, mages, and judges who wander among the graves, unable to find peace in death.",
+   "body": "Purgation Isle rises from the sea south of Hillsbrad, its winding paths passing tombstones and an abandoned watchtower. No living nation claims the isle. Condemned souls roam among the graves. They were paladins, priests, mages, and judges, and death has brought them no peace.",
    "spoiler": 0
   },
   {
    "title": "Dark Associations",
-   "body": "The lingering souls trapped upon the island have made it a site of sinister interest. Dark spellcasters, such as the ogre necromancer Kormok, are said to have delighted in drawing upon the island's anguished dead, summoning forth its spirits to do their bidding.",
+   "body": "Dark spellcasters have taken an interest in the condemned souls of Purgation Isle. The ogre necromancer Kormok and others are said to delight in calling upon the anguished dead. They summon the spirits to do their bidding.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is purgation isle",
     "how to find purgation isle"
    ],
-   "answer": "Purgation Isle is an isolated island off the southern coast of the Hillsbrad Foothills, sitting out in the bay south of the mainland."
+   "answer": "Purgation Isle lies in the bay off Hillsbrad Foothills’ southern coast, south of the mainland."
   },
   {
    "q": "What haunts the island?",
@@ -37,7 +37,7 @@
     "mobs on purgation isle",
     "purgation isle ghosts"
    ],
-   "answer": "The island is overrun by powerful condemned spirits, including cursed paladins, justiciars, clerics, acolytes, and writhing mages of human and dwarven descent."
+   "answer": "Powerful condemned spirits haunt Purgation Isle. They include cursed paladins, justiciars, clerics, acolytes, and writhing mages of human and dwarven descent."
   },
   {
    "q": "Who is Kormok and why does he care about this island?",
@@ -45,17 +45,17 @@
     "kormok connection",
     "brazier of invocation ghosts"
    ],
-   "answer": "Kormok is a notorious ogre necromancer who mastered summoning forth the condemned spirits of Purgation Isle to perform his bidding using specialized dark artifacts."
+   "answer": "Kormok is an ogre necromancer who mastered the summoning of Purgation Isle’s condemned spirits. Specialized dark artifacts helped him command them."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The tragic sight of cursed paladins and justiciars wandering Purgation Isle serves as a somber reminder of what happens when holy defenders fall to dark curses and are denied eternal rest."
+   "text": "As a paladin, you see cursed paladins and justiciars wandering Purgation Isle. Their plight is a somber reminder of holy defenders who fall to dark curses and are denied eternal rest."
   },
   {
    "target": "race:Dwarf",
-   "text": "Among the cursed specters haunting the cemetery are dwarven spirits, binding your kin to this lonely, windswept rock far from the mountains of Khaz Modan."
+   "text": "As a dwarf, you know dwarven spirits haunt the cemetery. Your kin are bound to this lonely rock, far from the mountains of Khaz Modan."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Purgation Isle"
- ]
+ ],
+ "style": 2
 }

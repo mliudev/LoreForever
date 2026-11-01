@@ -20,21 +20,21 @@
    "Data Rescue"
   ]
  },
- "summary": "In Gnomeregan, the fallen city's records lie beyond troggs and radiation. Master Mechanic Castpipe in Ironforge sends you to recover a Prismatic Punch Card through the terminals' layers of clearance.",
+ "summary": "Master Mechanic Castpipe sends you into Gnomeregan to recover its records. Troggs and radiation drove the gnomes from the city, but the punchograph terminals still guard its archives behind layers of clearance.",
  "sections": [
   {
    "title": "Lost Archives of the Underground",
-   "body": "Gnomeregan's fall to troggs and radiation drove its people from the city, leaving centuries of research, schematics, and civic records behind. Matrix Punchograph terminals still line its technological corridors, managing security clearance and storing files. Master Mechanic Castpipe in Ironforge's Tinker Town wants those punch-encoded archives recovered from the city's depths.",
+   "body": "Troggs and radiation drove Gnomeregan's people from the city, leaving centuries of research, schematics, and civic records behind. Matrix Punchograph terminals still line its technological corridors. They manage security clearance and store files. Master Mechanic Castpipe in Ironforge's Tinker Town wants you to recover those punch-encoded archives from the city's depths.",
    "spoiler": 0
   },
   {
    "title": "A Hierarchy of Perforations",
-   "body": "Gnomish mainframes demand clearance in stages. Begin with a White Punch Card among the wreckage outside the inner gates. Insert it into the Matrix Punchograph 3005-A in the Train Depot to make a Yellow card, then take that to the 3005-B terminal in the Dormitory for a Blue card. Model 3005-C advances it to Red. The final terminal, 3005-D, waits in the Engineering Labs, where the Red card becomes a Prismatic Punch Card.",
+   "body": "Gnomish mainframes demand clearance in stages. First, find a White Punch Card among the wreckage outside the inner gates. Insert it into the Matrix Punchograph 3005-A in the Train Depot to make a Yellow card. Then take that to the 3005-B terminal in the Dormitory for a Blue card. Model 3005-C advances it to Red. The final terminal, 3005-D, waits in the Engineering Labs, where the Red card becomes a Prismatic Punch Card.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Levity in Binary",
-   "body": "Gnomeregan's punch cards carry more than technical records. Their binary patterns also hold humorous quips, workplace complaints, and off-color jokes about High Tinker Gelbin Mekkatorque wearing night elven undergarments. Even the city's computing guilds could not resist a practical joke.",
+   "body": "Gnomeregan's punch cards carry technical records and more. Their binary patterns also hold humorous quips, workplace complaints, and off-color jokes about High Tinker Gelbin Mekkatorque wearing night elven undergarments. Even the city's computing guilds could not resist a practical joke.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "what is punch card",
     "gnomeregan punch card"
    ],
-   "answer": "The Prismatic Punch Card is the highest security tier recognized by Gnomeregan's automated mainframes. The Matrix Punchograph 3005-D in the Engineering Labs creates it from a Red Punch Card."
+   "answer": "The Prismatic Punch Card is the highest security tier recognized by Gnomeregan's automated mainframes. Matrix Punchograph 3005-D in the Engineering Labs creates it from a Red Punch Card."
   },
   {
    "q": "Where does the sequence of punch cards begin?",
@@ -64,7 +64,7 @@
     "where are punchographs",
     "punch card machines"
    ],
-   "answer": "The Matrix Punchograph 3005-A is in the Train Depot outside the entrance. Model 3005-B is inside the Dormitory past the Clean Zone, and 3005-C is on the catwalk platforms beyond. Model 3005-D is on the lower level of the Engineering Labs."
+   "answer": "Matrix Punchograph 3005-A is in the Train Depot outside the entrance. Model 3005-B is inside the Dormitory past the Clean Zone, and 3005-C is on the catwalk platforms beyond. Model 3005-D is on the lower level of the Engineering Labs."
   },
   {
    "q": "Who is Master Mechanic Castpipe?",
@@ -82,7 +82,7 @@
     "binary translation",
     "what does the binary say"
    ],
-   "answer": "The cards contain critical computational data alongside gnomish engineering banter, lighthearted jokes about regional leaders like Thrall and Mekkatorque, and eccentric notes."
+   "answer": "The cards hold critical computational data, gnomish engineering banter, lighthearted jokes about regional leaders like Thrall and Mekkatorque, and eccentric notes."
   },
   {
    "q": "Can Horde players access these terminals?",
@@ -91,13 +91,13 @@
     "horde punch cards",
     "can horde use terminals"
    ],
-   "answer": "Master Mechanic Castpipe offers this work only to the Alliance in Ironforge. The punchograph terminals inside the dungeon can be used by anyone carrying the required cards."
+   "answer": "Master Mechanic Castpipe offers this work only to the Alliance in Ironforge. Anyone carrying the required cards can use the punchograph terminals inside the dungeon."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, recovering Gnomeregan's data helps reclaim your people's heritage. Each salvaged punch card preserves your city's ingenuity from troggs and radiation."
+   "text": "As a gnome, you help reclaim your people's heritage by recovering Gnomeregan's data. Each salvaged punch card preserves your city's ingenuity from troggs and radiation."
   },
   {
    "target": "profession:Engineering",
@@ -105,7 +105,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, helping Castpipe supports the displaced gnomish government in Ironforge and strengthens unity and technological capabilities among the Grand Alliance."
+   "text": "As an Alliance member, you support the displaced gnomish government in Ironforge by helping Castpipe. Your aid strengthens unity and technological capabilities among the Grand Alliance."
   }
  ],
  "keywords": [
@@ -132,5 +132,5 @@
  "attribution": [
   "Data Rescue"
  ],
- "style": 1
+ "style": 2
 }

@@ -551,6 +551,24 @@ local function identityFromWillo()
   return type(data) == "table" and data.skyIdentity == true
 end
 
+-- Whether the Willo on this PC cheers big moments (LoreForeverJourneyData.chimeIns, "big" or "small", LOR-967): its
+-- value, or nil. Only a Willo that reads moment pages writes it (an older one takes an unknown page as the answer
+-- gone). Ignored once Data.lua is CHIME_FRESH old: it outlives an uninstalled Willo, whose sky would twinkle for no one.
+local CHIME_FRESH = 14 * 86400
+function Strip.ChimeFromWillo()
+  local data = _G.LoreForeverJourneyData
+  if type(data) ~= "table" or (data.chimeIns ~= "big" and data.chimeIns ~= "small") then return nil end
+  local made = tonumber(data.generated)
+  if not made or time() - made > CHIME_FRESH then return nil end
+  return data.chimeIns
+end
+
+-- A big moment for Willo (Moments.lua, LOR-967): its page (kind 3, low bits 5) rides the outer ring for FLASH seconds,
+-- over anything but a question going round. Willo finds the sky at 2 a second when it wasn't up (the Architect: 3 s,
+-- one length), so it shows for it, faded in and out (a half-faded read fails its checks, never reads wrong).
+local FLASH, FADE = 3, 0.2
+local moment
+
 function Strip.Purse()
   local c = tonumber((try(GetMoney)))
   if not c or c < 0 then return nil end
@@ -572,6 +590,7 @@ local function ringFor(payload)
   -- Idle: first repaint and at least every eight seconds, also where Journey.Here has no map spot. Over an answer,
   -- require its own capability: older spot readers treat any unknown page as the answer gone. Questions stay intact.
   local kind = ring and math.floor(ring[1] / 64)
+  if moment and kind ~= 2 then return moment.page end
   if identityFromWillo() and (ring == nil or kind == 1) then
     identityTurn = (identityTurn + 1) % 8
     local identity = Strip.Identity()
@@ -611,6 +630,42 @@ function Strip.SetRing(bytes)
   stale = true
 end
 
+-- A quest page is going round for Willo to read (Companion.ReadQuestPage): a big moment waits for it.
+function Strip.QuestPageUp() return ring ~= nil and ring[1] == 0xC4 end
+
+local function endMoment(m, cut)
+  if moment ~= m then return end
+  moment, identityTurn = nil, 7
+  ns.Sky.SetFade(1)
+  if cut and m.aborted then pcall(m.aborted) end
+  Strip.Update()
+end
+
+-- Send Willo a big moment's page (Moments.lua). held() says why it must stop now (a fight, a cutscene: nil while it
+-- may go on), checked every frame; stopped, aborted() is called so it can go again later. False when it can't go now.
+function Strip.Moment(page, held, aborted)
+  if moment or not Strip.On() then return false end
+  local t, own = now(), not Strip.Showing()
+  local m = { page = page, from = t, till = t + FLASH, own = own, held = held, aborted = aborted }
+  moment = m
+  if own then ns.Sky.SetFade(0) end
+  Strip.Update()
+  if C_Timer and C_Timer.After then C_Timer.After(FLASH + 0.05, function() endMoment(m) end) end
+  return true
+end
+
+-- Every frame of a twinkle: stop it if something came up, else fade it (only one the sky showed for). True when it
+-- ended (the sky may be gone: nothing more to paint this frame).
+local function momentFrame(t)
+  local m = moment
+  if not m then return false end
+  local ok, why = pcall(m.held or function() end)
+  if not ok or why then endMoment(m, true); return true end
+  if t >= m.till then endMoment(m); return true end
+  if m.own then ns.Sky.SetFade(math.min(1, (t - m.from) / FADE, (m.till - t) / FADE)) end
+  return false
+end
+
 local function onEvent(_, event, unit)
   if event == "PLAYER_MONEY" then purseDue = true end
   if (event == "UNIT_HEALTH" or event == "UNIT_MAXHEALTH") and unit ~= "player" and unit ~= "target" then return end
@@ -634,7 +689,7 @@ local function create()
   frame:SetScript("OnEvent", onEvent)
   frame:SetScript("OnUpdate", function()
     local t = now()
-    if hiddenForShot or t - lastPaint < MIN_GAP then return end
+    if momentFrame(t) or hiddenForShot or t - lastPaint < MIN_GAP then return end
     if stale or t - lastPaint >= HEARTBEAT then
       if t - lastPaint >= HEARTBEAT then ns.Sky.Relayout() end   -- a resized window or a moved minimap, no event
       paint()
@@ -694,6 +749,7 @@ local function asking()
   local t = now()
   return (askDown ~= nil and t - askDown < ASK_MAX) or t < askUntil
 end
+Strip.Asking = asking   -- (a big moment waits while the player asks Willo, Moments.lua)
 
 -- Whether Willo asked for the sky all the time: the player said yes to "Let Willo see the game all the time" in her
 -- hints over the game (LoreForeverJourneyData.skyAlways, written by Willo, LOR-536).
@@ -735,7 +791,7 @@ end
 function Strip.Showing()
   if ns.Sky.Moving() then return true end   -- the player is dragging it somewhere (Sky.Move), until they click Done
   if not Strip.On() then return false end
-  if Strip.Always() or asking() then return true end
+  if Strip.Always() or asking() or moment then return true end
   local UI = ns.UI
   return UI and UI.frame and yes(try(UI.frame.IsShown, UI.frame)) or false
 end

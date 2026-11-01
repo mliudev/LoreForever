@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mage Quarter"
  },
- "summary": "The Mage Quarter forms the arcane heart of Stormwind City, resting across the canals in the capital's southwestern corner. Towering over its cobblestone streets and esoteric specialty shops stands the Wizard's Sanctum, where the kingdom's conjurers hone their craft. Beneath the district's scholarly surface also lie shadowy recesses, harboring practitioners of far darker arts.",
+ "summary": "Across the canals in southwestern Stormwind, Mage Quarter draws the kingdom's spellcasters. The Wizard's Sanctum rises above its streets, while shops supply their craft. The quarter also holds sorcery the kingdom's high conjurers forbid.",
  "sections": [
   {
    "title": "Sanctum of the Arcane",
-   "body": "Reachable by bridges crossing the canals from Cathedral Square or the Trade District, the Mage Quarter caters entirely to the mystical needs of the Alliance. Centered around the spire of the Wizard's Sanctum, human and allied spellcasters gather to study the weave of arcane magic and train apprentices. The surrounding streets are crowded with purveyors of tailoring cloth, reagents, alchemical supplies, and enchanted staves, creating an insular district dedicated to research and the defense of the kingdom.",
+   "body": "Bridges from Cathedral Square and the Trade District lead into Mage Quarter, where the Alliance's mystic needs are met. Human and allied spellcasters gather around the Wizard's Sanctum to study arcane magic and train apprentices. Nearby shops sell tailoring cloth, reagents, alchemical supplies, and enchanted staves. This close-knit district serves research and the kingdom's defense.",
    "spoiler": 0
   },
   {
    "title": "Secrets Beneath the Surface",
-   "body": "Not all sorcery practiced in the quarter is approved by the kingdom's high conjurers. While establishments like The Blue Recluse offer quiet refuge for scholars, the infamous Slaughtered Lamb tavern conceals a covert coven of warlocks in its subterranean crypts. There, out of sight of the city guard and the holy eyes of Cathedral Square, demonologists study forbidden fel rites and bind otherworldly entities while masquerading beneath the district's general tolerance of mystic anomalies.",
+   "body": "Some magic in Mage Quarter falls beyond the approval of the kingdom's high conjurers. The Blue Recluse gives scholars a quiet refuge, while The Slaughtered Lamb hides a coven of warlocks in its underground crypts. There, unseen by the city guard and Cathedral Square, demonologists study forbidden fel rites and bind otherworldly beings. They keep to these hidden rooms beneath a quarter that tolerates strange magic.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "wizards sanctum",
     "mage sanctum stormwind"
    ],
-   "answer": "The Wizard's Sanctum is the prominent tower dominating the Mage Quarter. It serves as the primary academy, library, and training grounds for Stormwind's mages, housing scholars, mystic trainers, and defensive spellcasters tasked with protecting the capital."
+   "answer": "The Wizard's Sanctum is the tower that dominates Mage Quarter. It houses Stormwind's academy, library, and training grounds, along with scholars, mystic trainers, and defensive spellcasters charged with protecting the capital."
   },
   {
    "q": "Where can warlocks train in the Mage Quarter?",
@@ -37,7 +37,7 @@
     "slaughtered lamb basement",
     "stormwind warlock trainers"
    ],
-   "answer": "Warlocks gather secretly beneath The Slaughtered Lamb, an unassuming tavern in the quarter. Down in its crypts and hidden cellars, practitioners of fel magic can study dark rituals, summon demons, and train outside the scrutiny of the city guard."
+   "answer": "Warlocks train in secret beneath The Slaughtered Lamb, a tavern in Mage Quarter. In its crypts and hidden cellars, they study fel rituals, summon demons, and train beyond the city guard's scrutiny."
   },
   {
    "q": "What kind of shops are in the Mage Quarter?",
@@ -46,7 +46,7 @@
     "what shops are here",
     "stores in mage quarter"
    ],
-   "answer": "The district is filled with specialty trades catering to casters and crafters. Visitors can find tailoring shops like Duncan's Textiles and Larson Clothiers, alchemy and herbalism merchants, enchanting vendors, pyrotechnic suppliers, and staff merchants."
+   "answer": "Mage Quarter has specialty shops for casters and crafters. You can find tailoring shops such as Duncan's Textiles and Larson Clothiers, alchemy and herbalism merchants, enchanting vendors, pyrotechnic suppliers, and staff merchants."
   },
   {
    "q": "How do you reach the Mage Quarter?",
@@ -55,17 +55,17 @@
     "how to get to mage quarter",
     "directions to mage quarter"
    ],
-   "answer": "The Mage Quarter occupies the southwestern corner of Stormwind City. It can be accessed directly by crossing the bridges that span the Canals from either the Trade District or Cathedral Square."
+   "answer": "Cross a bridge over the Canals from the Trade District or Cathedral Square to reach Mage Quarter, in Stormwind City's southwestern corner."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The district serves as your central home in Stormwind, offering master trainers and spell reagents inside the Wizard's Sanctum."
+   "text": "As a Mage, you find your central home in Stormwind here. The Wizard's Sanctum has master trainers and spell reagents."
   },
   {
    "target": "class:Warlock",
-   "text": "Beneath the public guise of The Slaughtered Lamb tavern lies the hidden coven where practitioners of the dark arts convene to train and summon minions in secret."
+   "text": "Beneath The Slaughtered Lamb, warlocks gather in a hidden coven. There, you can train in the dark arts and summon minions in secret."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Mage Quarter"
- ]
+ ],
+ "style": 2
 }

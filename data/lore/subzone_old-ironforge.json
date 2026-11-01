@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Old Ironforge"
  },
- "summary": "Old Ironforge, also called the Assembly of Thanes, is an ancient subterranean chamber lying directly beneath the High Seat of Ironforge. Carved deep into the mountain's roots above glowing magma veins, it represents the ancestral heart of the dwarven capital. In the present day, its heavy access gates in the royal throne room remain sealed and vigilantly guarded.",
+ "summary": "Beneath the High Seat, Old Ironforge remains sealed behind guarded gates. Known as the Assembly of Thanes, this ancient chamber lies deep below the royal throne room.",
  "sections": [
   {
    "title": "The Assembly of Thanes",
-   "body": "Beneath King Magni Bronzebeard's throne in the High Seat rests the cavernous hall known as Old Ironforge or the Assembly of Thanes. Deep inside these fiery subterranean foundations, winding stone bridges cross pools of subterranean lava. Long before the bustling halls of the Great Forge and the Commons echoed with modern dwarven commerce, early thanes gathered in these cavernous depths to deliberate and govern the mountain kingdom.",
+   "body": "Old Ironforge lies beneath King Magni Bronzebeard's throne in the High Seat. Its cavernous halls sit deep in the mountain, where winding stone bridges cross pools of lava. Long before the Great Forge and the Commons filled with dwarven commerce, early thanes gathered here to govern the mountain kingdom.",
    "spoiler": 0
   },
   {
    "title": "A Sealed Chamber",
-   "body": "Currently, entrance to Old Ironforge from the throne room is securely barred. The Ironforge royal guard keeps strict watch over the thresholds leading down into the old vaults.",
+   "body": "The entrance from the throne room remains barred. Ironforge's royal guard watches the thresholds leading down into the old vaults.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is old ironforge",
     "subterranean ironforge"
    ],
-   "answer": "Old Ironforge, historically known as the Assembly of Thanes, is the ancient lower district carved directly beneath the modern city of Ironforge. It consists of cavernous halls and lava conduits."
+   "answer": "Old Ironforge, also called the Assembly of Thanes, is an ancient district beneath Ironforge. Its cavernous halls and lava conduits lie below the modern city."
   },
   {
    "q": "Can players enter Old Ironforge?",
@@ -37,7 +37,7 @@
     "is old ironforge open",
     "old ironforge door locked"
    ],
-   "answer": "Not through the throne room. The gates in the High Seat are sealed shut and guarded by the dwarven royal guard, and the chambers below are closed to ordinary citizens. The depths are not entirely quiet, though: Dark Iron maps show tunnels converging on a point beneath Ironforge itself."
+   "answer": "The gates in the High Seat are sealed and guarded by the dwarven royal guard, so ordinary citizens cannot enter through the throne room. Dark Iron maps show tunnels converging at a point beneath Ironforge itself."
   },
   {
    "q": "Where is the entrance located?",
@@ -45,7 +45,7 @@
     "where is old ironforge entrance",
     "old ironforge location"
    ],
-   "answer": "The entrance is located directly inside the High Seat, the royal audience chamber where King Magni Bronzebeard sits in the city of Ironforge."
+   "answer": "The entrance lies inside the High Seat, the royal audience chamber where King Magni Bronzebeard sits in Ironforge."
   },
   {
    "q": "Why is Old Ironforge significant to dwarven history?",
@@ -53,17 +53,17 @@
     "history of old ironforge",
     "why is it called assembly of thanes"
    ],
-   "answer": "Known as the Assembly of Thanes, it served as an ancient meeting ground for dwarven leaders and mountain kings in early eras before the upper rings of the modern mountain capital were fully established."
+   "answer": "The Assembly of Thanes was an ancient meeting ground for dwarven leaders and mountain kings, before the upper rings of the modern mountain capital were fully established."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Old Ironforge and the Assembly of Thanes are sacred connections to their ancestral roots, preserving the deepest stone foundations carved out during the dawn of their mountain realm."
+   "text": "For dwarves, Old Ironforge and the Assembly of Thanes preserve a sacred link to their ancestral roots, in the deepest stone foundations of their mountain realm."
   },
   {
    "target": "class:Rogue",
-   "text": "The sealed gates of the High Seat are watched closely by King Magni's guards, and anyone caught meddling with the old halls below would face stern dwarven justice."
+   "text": "King Magni's guards watch the sealed gates of the High Seat. Anyone caught meddling with the old halls below would face stern dwarven justice."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Old Ironforge"
- ]
+ ],
+ "style": 2
 }

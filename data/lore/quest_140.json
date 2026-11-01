@@ -22,16 +22,16 @@
    "Captain Sanders' Hidden Treasure (Classic 4)"
   ]
  },
- "summary": "A whiskey-soaked clue sends Captain Sanders' Hidden Treasure hunt west from Westfall's shore. The trail leads out across the Great Sea, away from the mainland's troubles, to a remote islet.",
+ "summary": "A whiskey-soaked clue sends you west from Westfall's shore and out across the Great Sea. Captain Sanders' trail ends at a remote islet, where his hidden prize waits.",
  "sections": [
   {
    "title": "A Sailor's Trail",
-   "body": "Captain Sanders scattered clues along Westfall's coast for any adventurer bold enough to follow them. The last parchment came from the dregs of his favorite whiskey jug and gives the final bearing. The captain's words are clear: head west to the water's edge, then swim out into the waves.",
+   "body": "Captain Sanders left clues along Westfall's coast for you to piece together. The last parchment came from the dregs of his favorite whiskey jug. It gives the final bearing: head west to the water's edge, then swim into the waves.",
    "spoiler": 0
   },
   {
    "title": "The Lonely Islet",
-   "body": "Small rocky outcroppings rise from the Great Sea off Westfall. Swimming due west brings you to the isolated isle where Captain Sanders hid his prize. A locked chest waits there, its hinges rusted by years of salty surf. Those persistent enough can force it open and finish the buccaneer's trail.",
+   "body": "Small rocky outcroppings rise from the Great Sea off Westfall. Swim due west to reach the isolated isle where Captain Sanders hid his prize. A locked chest waits there, its hinges rusted by years of salty surf. Force it open, and the buccaneer's trail ends.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "sanders lore",
     "captain sanders background"
    ],
-   "answer": "Captain Sanders was a buccaneer who sailed along Westfall. He left a riddle-filled trail of clues along the shoreline, leading to a chest on a remote island rather than storing his spoils in a bank or stronghold."
+   "answer": "Captain Sanders was a buccaneer who sailed along Westfall. He left a riddle-filled trail of clues along the shoreline, leading to a chest on a remote island instead of a bank or stronghold."
   },
   {
    "q": "Why is the final clue smelling like whiskey?",
@@ -60,7 +60,7 @@
     "whiskey note",
     "old jug clue"
    ],
-   "answer": "The final instructions were tucked inside Captain Sanders' discarded whiskey jug near the coast. Dampness and spirits made the ink run over time, but the directions remain legible."
+   "answer": "Captain Sanders tucked the final instructions inside his discarded whiskey jug near the coast. Dampness and spirits made the ink run over time, but the directions remain legible."
   },
   {
    "q": "How many steps are in this treasure hunt?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human defending Westfall from Defias brigands and gnolls, you may welcome a break from farm patrol while tracking down a forgotten local pirate's stash."
+   "text": "As a human defending Westfall from Defias brigands and gnolls, you may welcome a break from farm patrol as you track down a forgotten local pirate's stash."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Captain Sanders' Hidden Treasure (Classic 4)"
  ],
- "style": 1
+ "style": 2
 }

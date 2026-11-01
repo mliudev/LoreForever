@@ -21,16 +21,16 @@
    "The Fragments Within"
   ]
  },
- "summary": "At the eastern cliffs, the red crystal holds something that moonwell water can reveal. You return to examine it and report to Sentinel Glynda Nal'Shea in Auberdine.",
+ "summary": "At the eastern cliffs, you return to the red crystal with water from a moonwell. It may reveal what lies within, and you carry the finding back to Sentinel Glynda Nal'Shea in Auberdine.",
  "sections": [
   {
    "title": "A Grim Revelation",
-   "body": "Blessed moonwell water clears the crimson crystal's cloudy surface. Several small bone fragments and half a humanoid jawbone lie trapped inside the dense mineral. The crystal is so tough that even powerful spells would struggle to break it. Whatever entity or artifact left these remains, they have been preserved in isolation above the Darkshore coast.",
+   "body": "Blessed moonwell water clears the cloudy face of the crimson crystal. Within its dense mineral lie several small bone fragments and half a humanoid jawbone. The crystal is so hard that even powerful spells would struggle to break it. Whatever entity or artifact left these remains, they have been preserved alone above the Darkshore coast.",
    "spoiler": 1
   },
   {
    "title": "Reporting to Auberdine",
-   "body": "Back in Auberdine, Sentinel Glynda Nal'Shea hears what you found. The discovery gives the local night elf leaders more cause for concern, but no clear answers. Glynda will present the findings to the town council. She takes some comfort in the crystal's position high on the eastern cliffs, far enough from town to pose no immediate danger.",
+   "body": "Back in Auberdine, you tell Sentinel Glynda Nal'Shea what you found. The discovery gives the local night elf leaders more cause for concern, but no clear answers. Glynda will present the findings to the town council. The crystal rests high on the eastern cliffs, far enough from town to bring her some comfort; it poses no immediate danger.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what are the fragments",
     "what bones are inside"
    ],
-   "answer": "Blessed moonwell water makes the red crystal clear enough to reveal several bone fragments and half a humanoid jawbone embedded inside."
+   "answer": "Blessed moonwell water clears the red crystal enough to reveal several bone fragments and half a humanoid jawbone trapped inside."
   },
   {
    "q": "Can the crystal be broken open to inspect the bones?",
@@ -77,7 +77,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you see a curious anomaly in a mineral that resists natural wear and powerful magic alike, beyond the usual balance of the wild."
+   "text": "As a druid, you see a curious anomaly in a mineral that resists natural wear and powerful magic alike. It lies beyond the usual balance of the wild."
   }
  ],
  "keywords": [
@@ -99,5 +99,5 @@
  "attribution": [
   "The Fragments Within"
  ],
- "style": 1
+ "style": 2
 }

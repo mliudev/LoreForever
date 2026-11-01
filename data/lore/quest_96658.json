@@ -17,16 +17,16 @@
   "wiki": "Camping 101: Cooking",
   "chain": []
  },
- "summary": "At nearby settlements, new adventurers learn to cook and kindle a Basic Campfire for life in the wild. The lesson is offered across Alliance and Horde lands.",
+ "summary": "As you learn to cook, a basic campfire gives you a hearth for camping beyond fortified walls. Across Alliance and Horde lands, cooking trainers show new adventurers how to kindle one and prepare for life in the wild.",
  "sections": [
   {
    "title": "The Hearth of the Wilderness",
-   "body": "Every traveler needs to know how to build a fire beyond the safety of fortified walls. A campfire can boil water and roast meat, and it anchors a campsite in unfamiliar country.",
+   "body": "Beyond fortified walls, a campfire boils water and roasts meat. Its flames give you a hearth when you travel through unfamiliar country and make camp.",
    "spoiler": 0
   },
   {
    "title": "From Embers to Encampments",
-   "body": "Apprentice cooks can kindle only modest fires with few surroundings. Greater skill in cooking lets them light larger fires that support more elaborate campsites. Other practical trades also teach ways to make useful furnishings for a camp.",
+   "body": "Apprentice cooks kindle small fires with few surroundings. As your cooking grows, you can light larger fires for more elaborate campsites. Other practical trades teach you to make useful furnishings.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "camping 101 cooking purpose",
     "what does this quest do"
    ],
-   "answer": "New adventurers visit a cooking trainer in a nearby settlement to learn basic cooking and light a campfire that anchors an outdoor campsite."
+   "answer": "New adventurers visit a cooking trainer in a nearby settlement to learn basic cooking and light a basic campfire for an outdoor campsite."
   },
   {
    "q": "Who offers this quest to travelers?",
@@ -46,7 +46,7 @@
     "who gives camping 101",
     "camping quest giver"
    ],
-   "answer": "Experienced wilderness guides and adventurers offer this training across both factions, including Eleanor Shackleton, Eric Brighthammer, Lyreena Duskblade, Sam Sarsaparilla, Brakk, Kaga Wildhoof, and Raan Wildwind."
+   "answer": "Experienced wilderness guides and adventurers offer this training across both factions. They include Eleanor Shackleton, Eric Brighthammer, Lyreena Duskblade, Sam Sarsaparilla, Brakk, Kaga Wildhoof, and Raan Wildwind."
   },
   {
    "q": "Where do Alliance players turn this in?",
@@ -78,17 +78,17 @@
     "camping professions",
     "campsite furnishings"
    ],
-   "answer": "Yes. Cooking provides the campfire, while other tradeskill trainers offer ways to craft practical furnishings if you have practiced their crafts."
+   "answer": "Yes. Cooking provides the basic campfire, while other trades teach you to craft practical furnishings if you have practiced them."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Cooking provides food to restore strength and the campfire at the heart of an outdoor camp."
+   "text": "Cooking provides food to restore your strength and a basic campfire for the heart of an outdoor camp."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer leaving Northshire, Dun Morogh, or Teldrassil, you are guided toward towns like Goldshire, Kharanos, and Dolanaar to learn self-reliance before braving the wilds."
+   "text": "As an Alliance adventurer leaving Northshire, Dun Morogh, or Teldrassil, you are guided toward towns like Goldshire, Kharanos, and Dolanaar. There you learn self-reliance before braving the wilds."
   },
   {
    "target": "faction:Horde",
@@ -118,5 +118,5 @@
  "attribution": [
   "Camping 101: Cooking"
  ],
- "style": 1
+ "style": 2
 }

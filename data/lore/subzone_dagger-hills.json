@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dagger Hills"
  },
- "summary": "Bandits hold the Dagger Hills, the rocky heights behind Moonbrook in southern Westfall. With royal patrols gone, the ridge threatens travelers and the plains below.",
+ "summary": "Bandits hold Dagger Hills, the rocky heights behind Moonbrook in southern Westfall. With royal patrols gone, the ridge threatens travelers and the plains below.",
  "sections": [
   {
    "title": "A Bandit Haven",
-   "body": "The Dagger Hills rise above Moonbrook in southern Westfall, where Defias outlaws watch the rocky ridges. Stormwind's royal patrols are gone, leaving the dry highland as a natural stronghold for the Defias Brotherhood. Knuckledusters, pathstalkers, and highwaymen hide among the crests and scrub. They ambush travelers and watch the approaches to their strongholds below.",
+   "body": "The Defias Brotherhood uses this dry highland as a stronghold. Knuckledusters, pathstalkers and highwaymen hide among the crests and scrub. They ambush unwary travelers and watch the approaches to their strongholds below, keeping the surrounding plains under threat.",
    "spoiler": 0
   },
   {
    "title": "Shadows on the Ridge",
-   "body": "Darkness brings its own danger to the Dagger Hills. Leprithus, a wandering ghoul, has been seen stalking the desolate heights after sunset. Outlaws and lingering undead roam the ridge, while Grimbooze Thunderbrew, a dwarven brewer, sets up his distilling equipment in the rugged wilderness despite the dangers nearby.",
+   "body": "Darkness brings danger to Dagger Hills. After sunset, Leprithus, a wandering ghoul, has been seen stalking the desolate heights. Outlaws and lingering undead roam the ridge. Nearby, Grimbooze Thunderbrew, a dwarven brewer, sets up his distilling equipment despite the dangers.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is dagger hills",
     "how to get to dagger hills"
    ],
-   "answer": "The Dagger Hills form the rocky southern border of Westfall, directly behind Moonbrook."
+   "answer": "Dagger Hills forms Westfall’s rocky southern border, directly behind Moonbrook."
   },
   {
    "q": "Who controls the Dagger Hills?",
@@ -37,7 +37,7 @@
     "who lives in dagger hills",
     "enemies in dagger hills"
    ],
-   "answer": "The Defias Brotherhood holds much of the ridge, with highwaymen, pathstalkers, and knuckledusters guarding the southern hills."
+   "answer": "The Defias Brotherhood holds much of the ridge. Highwaymen, pathstalkers and knuckledusters guard the southern hills."
   },
   {
    "q": "Why is a dwarf brewing ale out here?",
@@ -46,7 +46,7 @@
     "dwarf in dagger hills",
     "grimbooze thunderbrew lore"
    ],
-   "answer": "Grimbooze Thunderbrew distills his potent dwarven brews in the lonely heights, braving bandits and beasts for the sake of good drink."
+   "answer": "Grimbooze Thunderbrew distills potent dwarven brews in the lonely heights, braving bandits and beasts for good drink."
   },
   {
    "q": "What is Leprithus?",
@@ -55,17 +55,17 @@
     "ghoul in dagger hills",
     "dagger hills undead"
    ],
-   "answer": "Leprithus is an infamous ghoul that roams the Dagger Hills crags, frightening travelers and bandits who meet it in the dark."
+   "answer": "Leprithus is an infamous ghoul roaming the Dagger Hills crags. It frightens travelers and bandits who meet it in the dark."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The hills show how law has broken down in southern Westfall. Gryan Stoutmantle's People's Militia must fight to reclaim ground left behind by Stormwind."
+   "text": "The hills show how law has broken down in southern Westfall. Gryan Stoutmantle’s People’s Militia must fight to reclaim ground Stormwind left behind."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see Grimbooze Thunderbrew's solitary presence on this exposed ridge as a sign of how stubbornly brewers seek undisturbed space for their craft."
+   "text": "As a dwarf, you can see Grimbooze Thunderbrew’s solitary presence on this exposed ridge. Brewers seek undisturbed space for their craft with stubborn resolve."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Dagger Hills"
  ],
- "style": 1
+ "style": 2
 }

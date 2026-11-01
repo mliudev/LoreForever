@@ -8,16 +8,16 @@
   "wiki": "Gelbin Mekkatorque",
   "refs": 2
  },
- "summary": "Gelbin Mekkatorque is the High Tinker of the gnomes, currently residing in exile in Tinker Town within Ironforge. Renowned as a visionary engineer whose inventions include the mechanostrider and the Deeprun Tram, he now carries the heavy burden of Gnomeregan's fall and oversees efforts to reclaim his people's ancestral home.",
+ "summary": "In Tinker Town, Gelbin Mekkatorque leads the gnomes who live in exile in Ironforge. His inventions include the mechanostrider and the Deeprun Tram, and he guides the effort to reclaim Gnomeregan.",
  "sections": [
   {
    "title": "The High Tinker and Master Inventor",
-   "body": "Gnomish leadership is earned through intellect and merit rather than bloodlines, and Gelbin Mekkatorque's rise to High Tinker was propelled by pure inventive genius. Mekkatorque revolutionized personal transportation with the creation of the first functioning mechanostrider. He also assisted the Bronzebeard dwarves in developing their formidable siege engines, and he was instrumental in the creation of the subterranean Deeprun Tram linking Ironforge to Stormwind.",
+   "body": "Gelbin Mekkatorque earned the title of High Tinker through inventive skill. Among the gnomes, leadership rests on intellect and merit, not bloodlines. He built the first working mechanostrider, changing how gnomes travel. He also helped the Bronzebeard dwarves develop siege engines and played a key part in building the Deeprun Tram between Ironforge and Stormwind.",
    "spoiler": 0
   },
   {
    "title": "Betrayal and Exile in Ironforge",
-   "body": "Mekkatorque's greatest tragedy struck when troggs invaded Gnomeregan from deep below. Urged by his trusted friend and chief advisor, Mekgineer Thermaplugg, Mekkatorque ordered the venting of radioactive waste into the lower corridors to exterminate the attackers. Instead, the toxic gas slaughtered thousands of innocent gnomes and mutated the survivors, while Thermaplugg seized the ruined city. Crushed by guilt yet determined to fix his mistake, Mekkatorque led the surviving refugees across Dun Morogh to Ironforge. Operating out of Tinker Town under King Magni's hospitality, the High Tinker directs gnomekind's military and scientific energies toward a single unwavering objective: liberating Gnomeregan.",
+   "body": "Troggs rose from deep below and invaded Gnomeregan. At the urging of his trusted friend and chief advisor, Mekgineer Thermaplugg, Gelbin Mekkatorque ordered radioactive waste released into the lower corridors to kill the attackers. Instead, the gas killed thousands of innocent gnomes and mutated the survivors. Thermaplugg took the ruined city.\n\nMekkatorque led the surviving refugees across Dun Morogh to Ironforge, burdened by guilt and determined to set things right. King Magni welcomed them in Tinker Town. There, Mekkatorque directs gnomekind’s military and scientific efforts toward reclaiming Gnomeregan.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "gnome leader",
     "who is the gnome king"
    ],
-   "answer": "Gelbin Mekkatorque is the elected High Tinker and leader of the gnomes. He is a master engineer who designed pivotal gnomish technologies, including the mechanostrider and the Deeprun Tram."
+   "answer": "Gelbin Mekkatorque leads the gnomes as their elected High Tinker. A master engineer, he designed important inventions, including the mechanostrider and the Deeprun Tram."
   },
   {
    "q": "Why is Mekkatorque in Ironforge instead of Gnomeregan?",
@@ -38,7 +38,7 @@
     "why are gnomes in ironforge",
     "gnomeregan fall"
    ],
-   "answer": "Gnomeregan was overrun by a savage trogg invasion followed by a catastrophic radioactive fallout. Mekkatorque led the evacuation of his people across Dun Morogh to Ironforge, where King Magni Bronzebeard granted them refuge in Tinker Town while plans are made to take the city back."
+   "answer": "Troggs overran Gnomeregan, and radioactive fallout devastated the city. Mekkatorque led his people across Dun Morogh to Ironforge, where King Magni Bronzebeard gave them refuge in Tinker Town as they plan to reclaim their home."
   },
   {
    "q": "What caused the catastrophe in Gnomeregan?",
@@ -47,7 +47,7 @@
     "why is gnomeregan irradiated",
     "thermaplugg betrayal"
    ],
-   "answer": "Facing endless waves of troggs, Mekkatorque was persuaded by a trusted advisor to vent toxic radioactive coolant into the lower chambers to halt the beasts. Tragically, the gas failed to stop the troggs and instead irradiated the city, killing thousands of gnomes."
+   "answer": "Mekkatorque’s trusted advisor persuaded him to release toxic radioactive coolant into Gnomeregan’s lower chambers to stop the troggs. The gas failed to halt them and instead irradiated the city, killing thousands of gnomes."
   },
   {
    "q": "What did Mekkatorque invent before becoming High Tinker?",
@@ -55,7 +55,7 @@
     "mekkatorque inventions",
     "what did gelbin build"
    ],
-   "answer": "Mekkatorque invented the mechanostrider, giving gnomes their own agile mount. He also helped develop the dwarven siege engine and was instrumental in creating the Deeprun Tram between Ironforge and Stormwind."
+   "answer": "Before becoming High Tinker, Mekkatorque invented the mechanostrider. He also helped develop the dwarven siege engine and played a key part in creating the Deeprun Tram between Ironforge and Stormwind."
   },
   {
    "q": "Is Mekkatorque an actual king?",
@@ -63,17 +63,17 @@
     "is mekkatorque a king",
     "king of gnomes"
    ],
-   "answer": "Gnomes do not have a hereditary monarchy; their leader is an elected High Tinker chosen on merit and intellectual achievement. His title and authority derive from his election as High Tinker."
+   "answer": "Gnomes have no hereditary monarchy. They elect a High Tinker based on merit and intellect, and Mekkatorque’s authority comes from that election."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Mekkatorque is the heart of your people in exile. Though the guilt of Gnomeregan's poisoning weighs on him, his brilliance and devotion to liberating your ancestral home command absolute loyalty in Tinker Town."
+   "text": "As a gnome, you look to Mekkatorque as your people’s leader in exile. His guilt over Gnomeregan’s poisoning weighs on him, while his brilliance and devotion to reclaiming your ancestral home command loyalty in Tinker Town."
   },
   {
    "target": "profession:Engineering",
-   "text": "Standing before the High Tinker is standing before the author of the mechanostrider and a driving mind behind the Deeprun Tram. His workshop in Tinker Town represents the cutting edge of technological innovation."
+   "text": "Before you stands the High Tinker, inventor of the mechanostrider and a driving mind behind the Deeprun Tram. His Tinker Town workshop carries forward gnomish engineering."
   }
  ],
  "keywords": [
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Gelbin Mekkatorque"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:1688"
   ]
  },
- "summary": "In Stormwind, Gakin the Darkbinder seeks the choker he gave his former apprentice, Surena Caledon. After Surena fled to join the Defias Brotherhood, Gakin sent aspiring acolytes to take it back by force.",
+ "summary": "In Stormwind, Gakin the Darkbinder seeks the bloodstone choker he gave his former apprentice, Surena Caledon. She fled with Erlan Drudgemoor to join the Defias Brotherhood, and Gakin now sends aspiring acolytes to take it back by force.",
  "sections": [
   {
    "title": "A Master's Lost Investment",
-   "body": "Gakin the Darkbinder works quietly beneath the Slaughtered Lamb in Stormwind, where he took Surena Caledon on as a promising student of the dark arts. Drawn to her youthful charm and magical aptitude, he gave her a valuable bloodstone choker to aid her studies. Surena abandoned her training and fled with Erlan Drudgemoor, a rogue aligned with the Defias Brotherhood. Gakin will not leave a potent artifact in a traitor’s hands. He sends initiates seeking mastery over the void to find Surena at the Brackwell Pumpkin Patch and reclaim the necklace by force. Their deed will show where true loyalty lies.",
+   "body": "Beneath the Slaughtered Lamb in Stormwind, Gakin the Darkbinder once trained Surena Caledon in the dark arts. He saw promise in her youthful charm and magical talent, and gave her a valuable bloodstone choker to aid her studies. But Surena left her training and fled with Erlan Drudgemoor, a rogue aligned with the Defias Brotherhood.\n\nGakin will not let a traitor keep such a potent artifact. Now he sends initiates seeking mastery over the void to find her at the Brackwell Pumpkin Patch and reclaim the choker by force. Their deed will prove where their loyalty lies.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "gakin surena necklace",
     "why steal the choker back"
    ],
-   "answer": "Gakin gave the bloodstone choker to Surena when she was his apprentice. She abandoned her studies and fled with a member of the Defias Brotherhood, but Gakin will not let a traitor keep a prized artifact of dark magic."
+   "answer": "Gakin gave Surena the bloodstone choker while she was his apprentice. She abandoned her studies and fled with a member of the Defias Brotherhood. Gakin will not let a traitor keep a prized artifact of dark magic."
   },
   {
    "q": "Who is Surena Caledon?",
@@ -35,7 +35,7 @@
     "surena caledon lore",
     "who has the choker"
    ],
-   "answer": "Surena Caledon is a former apprentice warlock in Stormwind, where she showed natural talent under Gakin the Darkbinder. She turned from her tutor and fled with Erlan Drudgemoor, hiding among the Defias outlaws in Elwynn Forest."
+   "answer": "Surena Caledon is a former apprentice warlock who showed natural talent under Gakin the Darkbinder in Stormwind. She turned from her tutor and fled with Erlan Drudgemoor, hiding among the Defias outlaws in Elwynn Forest."
   },
   {
    "q": "Where can the choker be found?",
@@ -53,13 +53,13 @@
     "choker purpose",
     "why do warlocks need the choker"
    ],
-   "answer": "Taking back the choker proves an acolyte’s ruthlessness and loyalty to Gakin the Darkbinder. He does not say what he will do with it; he laments Surena’s wasted talent and hopes his investment in the new student brings different results."
+   "answer": "Taking back the choker proves an acolyte's ruthlessness and loyalty to Gakin the Darkbinder. He has not said what he will do with it. He laments Surena's wasted talent and hopes his investment in a new student brings different results."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a Human or Gnome warlock, retrieving Surena Caledon’s choker is a foundational trial. It shows that sentimentality has no place in the pursuit of demonic power."
+   "text": "As a Human or Gnome warlock, retrieving Surena Caledon’s choker is a first trial. It shows that sentiment has no place in the pursuit of demonic power."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Surena's Choker",
   "Surena Caledon (quest)"
  ],
- "style": 1
+ "style": 2
 }

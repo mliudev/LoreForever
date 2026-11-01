@@ -8,11 +8,11 @@
   "wiki": "Thorgas Grimson",
   "refs": 1
  },
- "summary": "Inside Anvilmar in Coldridge Valley, Thorgas Grimson trains new hunters. A seasoned outdoorsman of Dun Morogh, he believes the frozen wilds teach survival best.",
+ "summary": "Inside Anvilmar in Coldridge Valley, Thorgas Grimson teaches new hunters to face Dun Morogh's frozen wilds. The seasoned outdoorsman trusts experience in the cold to teach survival.",
  "sections": [
   {
    "title": "A Guide in the Cold",
-   "body": "Thorgas Grimson welcomes new mountaineers and scouts inside Anvilmar. He teaches young hunters to leave dry lectures behind and learn in the freezing winds. With bow or gun in hand, they track Dun Morogh's rugged beasts firsthand.",
+   "body": "Inside Anvilmar, Thorgas Grimson guides new mountaineers and scouts. He leaves dry lessons behind and sends young hunters into the freezing winds. With bow or gun in hand, they track Dun Morogh's rugged beasts firsthand.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is thorgas",
     "anvilmar hunter trainer"
    ],
-   "answer": "Thorgas Grimson trains hunters inside Anvilmar, the central outpost of Coldridge Valley in Dun Morogh. He offers new Alliance hunters their first guidance and basic field skills."
+   "answer": "Thorgas Grimson trains hunters inside Anvilmar, Coldridge Valley's central outpost in Dun Morogh. He gives new Alliance hunters their first guidance and teaches basic field skills."
   },
   {
    "q": "What training does Thorgas offer?",
@@ -32,7 +32,7 @@
     "what does thorgas teach",
     "hunter skills anvilmar"
    ],
-   "answer": "Thorgas teaches new hunters wilderness skills, including tracking beasts across snowy terrain and improving their ranged marksmanship. He sets them on the path to becoming mountaineers."
+   "answer": "Thorgas teaches new hunters wilderness skills, from tracking beasts across snowy ground to improving their ranged marksmanship. He sets them on the path to becoming mountaineers."
   },
   {
    "q": "What is his training philosophy?",
@@ -40,7 +40,7 @@
     "thorgas personality",
     "how does thorgas train"
    ],
-   "answer": "Thorgas believes experience in the wild teaches more than theory. He says hunters must enter the freezing drifts and face Dun Morogh's beasts to master the wild."
+   "answer": "Thorgas believes the wild teaches more than theory. Hunters must enter the freezing drifts and face Dun Morogh's beasts to master the wild."
   },
   {
    "q": "Will Thorgas Grimson speak with non-hunters?",
@@ -78,5 +78,5 @@
  "attribution": [
   "Thorgas Grimson"
  ],
- "style": 1
+ "style": 2
 }

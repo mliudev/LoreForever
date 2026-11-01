@@ -17,21 +17,21 @@
   "wiki": "Klaven's Tower (quest)",
   "chain": []
  },
- "summary": "Agent Kearnen watches Klaven's Tower from a camp in Westfall. Strange shipments and altered guards point to a threat inside the Defias Brotherhood.",
+ "summary": "From a camp in Westfall, Agent Kearnen watches Klaven's Tower. Strange shipments and altered guards point to danger within the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Stakeout in Westfall",
-   "body": "Near the river at Westfall's southeastern edge, Klaven's Tower rises north of the Dagger Hills. The Defias Brotherhood claims the stone spire, though its human thieves and brigands are common across the plains. Agent Kearnen has watched it alone for weeks and noticed strange developments. A bizarre shipment recently came straight from Duskwood's shadowed woods. Monstrous, deformed sentries escorted it, unlike any ordinary highwaymen.",
+   "body": "At Westfall's southeastern edge, the river runs below Klaven's Tower, north of the Dagger Hills. The Defias Brotherhood holds the stone spire, though its human thieves and brigands are common across the plains. Agent Kearnen has watched the tower alone for weeks. Lately, she has seen strange things: a bizarre shipment came straight from Duskwood's shadowed woods, escorted by monstrous, deformed sentries unlike ordinary highwaymen.",
    "spoiler": 0
   },
   {
    "title": "The Spire and the Spiked Guard",
-   "body": "Klaven Mortwake commands the tower, where oddly altered sentries breathe in harsh, labored gasps. A hulking zombie among the shambling guards carries the Defias Tower Key, and taking it calls for silence and finesse. With the key, an operative can bypass the ground defenses, reach the stronghold's upper levels, and open the padlocked Duskwood Chest.",
+   "body": "Klaven Mortwake commands the tower, where altered sentries breathe in harsh, labored gasps. Among the shambling guards, a hulking zombie carries the Defias Tower Key. Taking it calls for silence and finesse. With the key, an operative can bypass the ground defenses, reach the stronghold's upper levels, and open the padlocked Duskwood Chest.",
    "spoiler": 1
   },
   {
    "title": "Zanzil's Concoction",
-   "body": "Klaven Mortwake's personal journal links the Defias, the Venture Company, and the jungle trolls of Stranglethorn. The writings say the witch doctor Zanzil discovered an alchemical poison that can raise unthinking, obedient undead drones. For Master Mathias Shaw and SI:7, the discovery reveals the Defias's widening ambitions. Its agents need a firm understanding of poisons.",
+   "body": "Klaven Mortwake's personal journal links the Defias, the Venture Company, and the jungle trolls of Stranglethorn. It says the witch doctor Zanzil discovered an alchemical poison that raises unthinking, obedient undead drones. For Master Mathias Shaw and SI:7, this discovery reveals the Defias's widening ambitions. Their agents need a firm understanding of poisons.",
    "spoiler": 2
   }
  ],
@@ -43,7 +43,7 @@
     "where is klavens tower",
     "defias tower location westfall"
    ],
-   "answer": "Klaven's Tower stands at Westfall's southeastern edge, near the river and north of the Dagger Hills. The Defias Brotherhood holds the fortified spire."
+   "answer": "Klaven's Tower rises near the river at Westfall's southeastern edge, north of the Dagger Hills. The Defias Brotherhood holds the fortified spire."
   },
   {
    "q": "Who is Agent Kearnen?",
@@ -52,7 +52,7 @@
     "who gives klaven's tower quest",
     "who is the rogue in westfall"
    ],
-   "answer": "Agent Kearnen works for Stormwind's intelligence service, SI:7. She has watched Klaven's Tower in secret for weeks from a nearby camp, tracking strange shipments and planning an infiltration."
+   "answer": "Agent Kearnen serves Stormwind's intelligence service, SI:7. For weeks, she has watched Klaven's Tower in secret from a nearby camp, tracking strange shipments and planning an infiltration."
   },
   {
    "q": "What makes the guards at Klaven's Tower unusual?",
@@ -88,7 +88,7 @@
     "si7 zanzil poison",
     "mathias shaw klaven"
    ],
-   "answer": "Master Mathias Shaw needs useful intelligence on Defias alliances and dangerous foreign agents. Word that Zanzil's trolls can create undead through poison warns SI:7 of a grave threat to Stormwind, so the agency must train its operatives in venomcraft."
+   "answer": "Master Mathias Shaw needs useful intelligence on Defias alliances and dangerous foreign agents. Word that Zanzil's trolls can create undead through poison warns SI:7 of a grave threat to Stormwind. So the agency must train its operatives in venomcraft."
   }
  ],
  "angles": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Klaven's Tower (quest)"
  ],
- "style": 1
+ "style": 2
 }

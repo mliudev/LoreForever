@@ -8,21 +8,21 @@
   "wiki": "Collin Mauren",
   "refs": 4
  },
- "summary": "In Stormwind's Mage Quarter, Collin Mauren studies practical magic and crafts useful spells from natural reagents. He also makes arcane scrolls for his friend Gaxim Rustfizzle, a gnome engineer and explorer.",
+ "summary": "In Stormwind's Mage Quarter, Collin Mauren studies practical magic and shapes useful spells from natural reagents. He also makes arcane scrolls for Gaxim Rustfizzle, his gnome friend and fellow explorer.",
  "sections": [
   {
    "title": "Scholar of the Arcane",
-   "body": "In Stormwind's Mage Quarter, Collin Mauren studies magic's practical uses. He crafts arcane formulas to solve specific problems, drawing on natural anomalies and raw components gathered across Azeroth. Their properties help him make functional scrolls and reagents for friends and travelers.",
+   "body": "In Stormwind's Mage Quarter, Collin Mauren studies how magic can solve practical problems. He shapes arcane formulas with natural anomalies and raw components gathered across Azeroth. Their properties help him make useful scrolls and reagents for friends and travelers.",
    "spoiler": 0
   },
   {
    "title": "Aiding Gaxim Rustfizzle",
-   "body": "Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from a distance. Gaxim, a gnome tinkerer, needed a way to trigger them remotely, so Collin devised a messaging spell for a scroll. To impress the spell on it, Collin uses debris from Westfall's erratic Dust Devils. He awaits word on how Gaxim's scheme fares.",
+   "body": "Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from afar. Gaxim, a gnome tinkerer, needed a remote trigger, so Collin devised a messaging spell for a scroll. To impress the spell upon it, Collin uses debris from Westfall's erratic Dust Devils. Now he awaits word on how Gaxim's scheme fares.",
    "spoiler": 0
   },
   {
    "title": "Exotic Studies in Stonetalon",
-   "body": "Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks the scales of the region's basilisks, whose resilient hides interest him as materials for synthesizing new spells. Travelers heading into Kalimdor often receive his requests for these rare hides. The scales fuel his study of how primal creature anatomy can steady complex enchantments.",
+   "body": "Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks scales from the region's basilisks, whose resilient hides interest him as materials for new spells. Travelers bound for Kalimdor often receive his requests for these rare hides. The scales help him study how primal creature anatomy can steady complex enchantments.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what does collin mauren do",
     "collin mauren magic"
    ],
-   "answer": "Collin specializes in applied enchantments and utility spells. He experiments with natural components such as elemental debris and beast scales to craft scrolls, including a messaging spell for Gaxim's remote explosives, as well as other unique dweomers."
+   "answer": "Collin specializes in applied enchantments and utility spells. He experiments with natural components such as elemental debris and beast scales to craft scrolls, including a messaging spell for Gaxim's remote explosives. He also makes other unique dweomers."
   },
   {
    "q": "Who is Gaxim Rustfizzle and how is Collin connected to him?",
@@ -61,7 +61,7 @@
     "why dust devils",
     "westfall dust devils quest"
    ],
-   "answer": "Collin needs debris from one of Westfall's Dust Devils to impress a messaging spell onto a scroll. Gaxim Rustfizzle needs the spell to set off his NG-5 explosives from a distance."
+   "answer": "Collin needs debris from one of Westfall's Dust Devils to impress a messaging spell onto a scroll. Gaxim Rustfizzle needs that spell to set off his NG-5 explosives from a distance."
   },
   {
    "q": "Why is Collin interested in the Stonetalon Mountains?",
@@ -70,7 +70,7 @@
     "retrieval for mauren",
     "stonetalon scales collin"
    ],
-   "answer": "Collin studies basilisk scales from the Stonetalon Mountains in Kalimdor for their magical properties. He uses their sturdy, naturally resistant hides as bases for synthesizing new incantations."
+   "answer": "Collin studies basilisk scales from the Stonetalon Mountains in Kalimdor for their magical properties. He uses their sturdy, naturally resistant hides as bases for new incantations."
   },
   {
    "q": "Is Collin aligned with the Kirin Tor?",
@@ -85,15 +85,15 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a Mage, you can see Collin's experimental approach to spellcraft: he uses reagents such as elemental debris and basilisk scales to weave utility magic."
+   "text": "As a Mage, you can see Collin's experimental approach to spellcraft. He uses reagents such as elemental debris and basilisk scales to weave useful magic."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you share a city with Collin, whose quiet studies in Stormwind's Mage Quarter reflect the scholarly pursuits of human wizards."
+   "text": "As a human, you share a city with Collin. His quiet studies in Stormwind's Mage Quarter reflect the scholarly pursuits of human wizards."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how Collin supplies adventurers with utility magic for communication and trade across the faction, from Westfall to Kalimdor."
+   "text": "As an Alliance member, you can see how Collin supplies adventurers with useful magic for communication and trade across the faction, from Westfall to Kalimdor."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Collin Mauren"
  ],
- "style": 1
+ "style": 2
 }

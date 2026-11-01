@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A faded writ requests a Heavy Quiver and gives details for delivery and payment. It can be transferred, but you need to carry it to complete the exchange.",
+ "summary": "A faded Craftsman's Writ: Heavy Quiver asks you to bring one Heavy Quiver to a marked location and gives payment details.",
  "sections": [
   {
    "title": "The Writ",
-   "body": "The note asks you to acquire the requested item and bring it to the location marked on your map. The writ must be with you for the transaction.",
+   "body": "The note asks you to acquire one Heavy Quiver and bring it to the place marked on your map. Keep the writ with you to complete the exchange.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "delivery location",
     "where to take quiver"
    ],
-   "answer": "The delivery location is marked on your map."
+   "answer": "The delivery place is marked on your map."
   },
   {
    "q": "Do I need to carry the writ?",
@@ -42,7 +42,7 @@
     "need the writ",
     "writ required"
    ],
-   "answer": "Yes. You must have the writ with you to complete the transaction."
+   "answer": "Yes. Carry the writ with you to complete the exchange."
   },
   {
    "q": "Can I give this writ to someone else?",
@@ -50,7 +50,7 @@
     "transfer writ",
     "can someone else use it"
    ],
-   "answer": "Yes. The note says the writ is transferable."
+   "answer": "Yes. The writ can be transferred to someone else."
   },
   {
    "q": "Does the writ mention payment?",
@@ -58,7 +58,7 @@
     "how much payment",
     "quiver payment"
    ],
-   "answer": "The note includes information about payment, but gives no amount in the text."
+   "answer": "The writ gives payment details, but no amount is stated."
   }
  ],
  "angles": [],
@@ -71,7 +71,7 @@
   "transferable"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Craftsman's Writ: Heavy Quiver"
  ]

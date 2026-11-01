@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Echo Ridge Mine"
  },
- "summary": "In Northshire Valley's northwestern cliffs, Echo Ridge Mine lies rich in stone and ore, but kobolds have seized it.",
+ "summary": "Kobolds hold Echo Ridge Mine in the northwestern cliffs of Northshire Valley, where stone and ore once fed the valley.",
  "sections": [
   {
    "title": "A Foothold for Vermin",
-   "body": "Echo Ridge Mine was cut into the hills above Northshire Abbey to supply the valley with stone and metal. Kobolds poured through its tunnels and drove out the workers. Marshal McBride sees them as a danger to Northshire's safety and its recruits. He sends new recruits into the mine to thin their numbers and take the site back.",
+   "body": "Echo Ridge Mine was cut into the hills above Northshire Abbey to supply the valley with stone and metal. Kobolds poured through its tunnels and drove out the workers. Marshal McBride fears they endanger Northshire's safety and its recruits. So he sends new recruits into the mine to thin their numbers and take it back.",
    "spoiler": 0
   },
   {
    "title": "The Threat Beneath Northshire",
-   "body": "Kobolds have been pushing into Elwynn Forest beyond Echo Ridge Mine. From the northwestern ridge, they threaten Northshire's training grounds and the flow of resources to the abbey.",
+   "body": "Kobolds have pushed beyond Echo Ridge Mine into Elwynn Forest. From the northwestern ridge, they threaten Northshire's training grounds and the flow of resources to the abbey.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "echo ridge kobolds",
     "who took the mine"
    ],
-   "answer": "Kobolds burrow into dark tunnels rich in minerals. They found Echo Ridge Mine's defenses weak, overran it, and now dig for treasure while claiming the tunnels as their own."
+   "answer": "Kobolds burrow into dark tunnels rich in minerals. Echo Ridge Mine's defenses were weak, so they overran it and now dig for treasure while claiming the tunnels as their own."
   },
   {
    "q": "Who is trying to reclaim Echo Ridge Mine?",
@@ -46,7 +46,7 @@
     "where is echo ridge",
     "find echo ridge mine"
    ],
-   "answer": "Echo Ridge Mine's entrance is in Northshire Valley's northwestern corner, cut into the rocky hillside just north of the abbey vineyards."
+   "answer": "Echo Ridge Mine's entrance lies in Northshire Valley's northwestern corner, cut into the rocky hillside just north of the abbey vineyards."
   }
  ],
  "angles": [
@@ -79,5 +79,5 @@
  "attribution": [
   "Echo Ridge Mine"
  ],
- "style": 1
+ "style": 2
 }

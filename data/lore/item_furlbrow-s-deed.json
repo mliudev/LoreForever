@@ -10,11 +10,11 @@
    "quest:184"
   ]
  },
- "summary": "The Furlbrows are stranded near Westfall's border, and their land deed is in Defias hands. The paper bears Theodore and Verna Furlbrow's claim to their family farm, while the couple waits by their broken wagon.",
+ "summary": "Beside their broken wagon near Westfall's border, Theodore and Verna Furlbrow have lost their farm to the Defias Brotherhood. Their land deed is in bandit hands, and with it went their home and livelihood.",
  "sections": [
   {
    "title": "Stolen Land and Forged Claims",
-   "body": "The deed bears Theodore Furlbrow's signature and Verna's as well, securing their family farm in Westfall. When the Defias Brotherhood overran the region, bandits drove the couple from their home and carried the paper into Elwynn Forest. Notes on its back show they meant to copy it when forging claims to other properties. The Furlbrows lost their home and livelihood, then took to the road. Their wagon broke near the border, leaving them stranded.",
+   "body": "Theodore Furlbrow and Verna signed the deed to secure their family farm in Westfall. After the Defias Brotherhood overran the region, bandits drove them from home and carried the deed into Elwynn Forest. Notes on its back show the thieves planned to copy it and forge claims to other properties. The Furlbrows lost their livelihood and took to the road, with no home to return to.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why did bandits want the deed",
     "defias deed purpose"
    ],
-   "answer": "Notes on the parchment show the Defias meant to study its seal and signatures, then forge deeds to claim seized homesteads across Westfall."
+   "answer": "Notes on the deed show the Defias meant to study its seal and signatures, then forge claims to seized homesteads across Westfall."
   },
   {
    "q": "Who does this deed belong to?",
@@ -35,7 +35,7 @@
     "who is furlbrow",
     "whose deed is this"
    ],
-   "answer": "The deed belongs to Farmer Theodore Furlbrow and his wife Verna, Westfall homesteaders driven from their farm by outlaws."
+   "answer": "The deed belongs to Farmer Theodore Furlbrow and his wife Verna. Outlaws drove the Westfall homesteaders from their farm."
   },
   {
    "q": "Where can the Furlbrows be found?",
@@ -44,7 +44,7 @@
     "farmer furlbrow location",
     "where to return deed"
    ],
-   "answer": "You can find the couple just inside Westfall, beside their broken wagon on the main road from Elwynn Forest."
+   "answer": "You can find Theodore and Verna just inside Westfall, beside their broken wagon on the main road from Elwynn Forest."
   },
   {
    "q": "Why do the Furlbrows still care about the deed if they fled?",
@@ -52,17 +52,17 @@
     "why do they want deed back",
     "will furlbrows return"
    ],
-   "answer": "The Furlbrows know Westfall is too dangerous for honest folk now, but keeping proof of ownership gives them hope of reclaiming their land if peace returns."
+   "answer": "The Furlbrows know Westfall is too dangerous for honest folk now. Still, proof of ownership gives them hope of reclaiming their land if peace returns."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, you can see how the Defias have damaged civil order in the territories beside Stormwind, even by stealing simple property titles."
+   "text": "As a human, you can see how the Defias have damaged civil order in the lands beside Stormwind, even by stealing simple property titles."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can bring a little comfort to subjects displaced by the kingdom's shortage of soldiers."
+   "text": "As an Alliance member, you can bring a little comfort to people driven from their homes while the kingdom has too few soldiers."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Furlbrow's Deed",
   "Furlbrow's Deed (Classic)"
  ],
- "style": 1
+ "style": 2
 }

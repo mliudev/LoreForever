@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Sheldras Moontree in Stormwind can teach you how to reach Moonglade, stronghold of the Cenarion Circle. The ancient order\u2019s druids have wisdom to share with a child of nature.",
+ "summary": "In Stormwind, Sheldras Moontree can show you the way to Moonglade. There, the Cenarion Circle’s druids have wisdom to share with a child of nature.",
  "sections": [
   {
    "title": "A Far Stronghold",
-   "body": "You are directed to Sheldras Moontree, a night elf in Stormwind. He can teach you how to reach Moonglade on Kalimdor, where the Cenarion Circle has its stronghold. The Circle is an ancient order of naturalists and practitioners of the druidic arts, with much to teach you.",
+   "body": "Sheldras Moontree, a night elf in Stormwind, can show you how to reach Moonglade on Kalimdor. The Cenarion Circle keeps its stronghold there. It is an ancient order of naturalists and druids, with much to teach you.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "night elf in stormwind",
     "who teaches me moonglade"
    ],
-   "answer": "Sheldras Moontree is a night elf in Stormwind who can teach you how to reach Moonglade."
+   "answer": "Sheldras Moontree is a night elf in Stormwind who can show you how to reach Moonglade."
   },
   {
    "q": "What is the Cenarion Circle?",
@@ -45,7 +45,7 @@
     "where is moonglade",
     "moonglade"
    ],
-   "answer": "The Cenarion Circle's stronghold is Moonglade on Kalimdor."
+   "answer": "The Cenarion Circle keeps its stronghold in Moonglade on Kalimdor."
   },
   {
    "q": "What can I learn from the Cenarion Circle?",
@@ -54,13 +54,13 @@
     "what can they teach",
     "druid wisdom"
    ],
-   "answer": "The Cenarion Circle's druids have much wisdom to impart to you."
+   "answer": "The Cenarion Circle’s druids have much wisdom to share with you."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "As a Skyborne, you are welcomed among the first of your people to arrive in Azeroth."
+   "text": "As a Skyborne, you are among the first of your people to arrive in Azeroth, and you are welcomed."
   },
   {
    "target": "class:Druid",
@@ -82,7 +82,7 @@
   "topic:cenarion-circle",
   "quest:94911"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Child of Nature"
  ]

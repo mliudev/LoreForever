@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "High Seat"
  },
- "summary": "King Magni Bronzebeard holds court in High Seat, between the Commons and the Great Forge. His royal advisors and historians gather in the chamber, where a sealed passage leads down to Old Ironforge.",
+ "summary": "King Magni Bronzebeard holds court in High Seat, between the Commons and the Great Forge. His advisors and historians gather there, and a sealed passage leads down to Old Ironforge.",
  "sections": [
   {
    "title": "Heart of Dwarven Rule",
-   "body": "King Magni Bronzebeard hears petitioners and meets with his advisors in High Seat. Royal Historian Archesonus and Senator Barin Redstone stand among those at his side as he directs the defense of the Alliance's northern bastions. The chamber is the seat of power for the kingdom of Khaz Modan, and Magni leads from here amid troubling times across Azeroth.",
+   "body": "King Magni Bronzebeard hears petitioners and meets with his advisors in High Seat. Royal Historian Archesonus and Senator Barin Redstone stand at his side. From here, Magni directs the defense of the Alliance's northern bastions. High Seat is the seat of power for Khaz Modan, and he leads the kingdom through troubling times across Azeroth.",
    "spoiler": 0
   },
   {
    "title": "Gateway to Old Ironforge",
-   "body": "A heavy doorway at the back of the throne room leads down into Old Ironforge. The lower ruins are the ancestral halls the dwarves carved before the city was reconfigured around the Great Forge. The passage is sealed and guarded, keeping general traffic from the ancient halls beneath the capital.",
+   "body": "A heavy doorway at the back of the throne room leads down into Old Ironforge. The lower ruins are ancestral halls the dwarves carved before the city was reconfigured around the Great Forge. The passage is sealed and guarded, keeping general traffic from the ancient halls beneath the capital.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "ironforge king",
     "magni throne room"
    ],
-   "answer": "King Magni Bronzebeard rules Ironforge from the throne in High Seat. He hears his subjects and directs the affairs of the Bronzebeard clan, while coordinating military and diplomatic matters with the Grand Alliance."
+   "answer": "King Magni Bronzebeard rules Ironforge from the throne in High Seat. He hears his subjects and directs the affairs of the Bronzebeard clan. He also coordinates military and diplomatic matters with the Grand Alliance."
   },
   {
    "q": "Where is the High Seat located in Ironforge?",
@@ -87,5 +87,5 @@
  "attribution": [
   "High Seat"
  ],
- "style": 1
+ "style": 2
 }

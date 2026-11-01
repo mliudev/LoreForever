@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Moonwell (Ashenvale)"
  },
- "summary": "This secluded shrine, known to the night elves as the Moonwell of Purity, rests in central Ashenvale east of Iris Lake and west of Raynewood Retreat. Its blessed waters channel the grace of Elune to nourish the ancient forest and cleanse creeping foulness from the land. Alliance travelers following Raene Wolfrunner's research often seek out Shael'dryn, who keeps watch beside its tranquil basin.",
+ "summary": "In central Ashenvale, the Moonwell of Purity rests east of Iris Lake and west of Raynewood Retreat. Its waters carry Elune's grace to nourish the forest and cleanse foulness from the land. Alliance travelers following Raene Wolfrunner's research seek Shael'dryn beside its basin.",
  "sections": [
   {
    "title": "Sanctuary of Purity",
-   "body": "Tucked away beneath the canopy of central Ashenvale, this moonwell serves as a spiritual anchor for the kaldorei. Its luminescent waters tap into nature's latent magic and the light of the Moon Goddess. As the surrounding forest suffers from satyr corruption, fel taint, and logging incursions, pure shrines like this one become vital lifelines for those trying to heal the woods.",
+   "body": "Beneath central Ashenvale's canopy, this moonwell is a sacred place for the kaldorei. Its shining waters draw on nature's magic and the light of Elune. Satyr corruption, fel taint, and logging harm the surrounding forest. Shrines of pure water are vital to those working to heal the woods.",
    "spoiler": 0
   },
   {
    "title": "Healing the Wood",
-   "body": "Adventurers aiding Raene Wolfrunner come here to find Shael'dryn, who knows of the rod Dartol once created. She points them toward its scattered pieces and, once they are recovered, reconstructs the rod at the moonwell.",
+   "body": "Alliance travelers following Raene Wolfrunner's research come here to find Shael'dryn. She knows of the rod Dartol once made and points them toward its scattered pieces. Once the pieces are recovered, she reconstructs the rod at the moonwell.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "moonwell name",
     "moonwell of purity"
    ],
-   "answer": "This site is known as the Moonwell of Purity. It is one of several moonwells across Ashenvale, located east of Iris Lake and west of Raynewood Retreat."
+   "answer": "This site is called the Moonwell of Purity. It lies east of Iris Lake and west of Raynewood Retreat, one of several moonwells across Ashenvale."
   },
   {
    "q": "What are moonwells used for?",
@@ -37,7 +37,7 @@
     "moonwell purpose",
     "why moonwells exist"
    ],
-   "answer": "Moonwells are sacred basins consecrated to Elune that blend lunar power with natural magic. Night elves use them to sustain the land, replenish their spiritual strength, and purify items tainted by dark or demonic influences."
+   "answer": "Moonwells are sacred basins consecrated to Elune, where lunar power mingles with natural magic. Night elves use them to sustain the land, renew their spiritual strength, and purify items tainted by dark or demonic influences."
   },
   {
    "q": "Why do Alliance adventurers visit this moonwell?",
@@ -46,17 +46,17 @@
     "why come here",
     "cleanse rod here"
    ],
-   "answer": "Alliance heroes following Raene Wolfrunner's research out of Astranaar come here to seek Shael'dryn, who helps them recover the scattered pieces of Dartol's rod."
+   "answer": "Alliance travelers following Raene Wolfrunner's research from Astranaar come here to seek Shael'dryn. She helps them recover the scattered pieces of Dartol's rod."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Every moonwell is a sacred home away from home for the kaldorei, serving as both a spiritual font of Elune's grace and a frontline bulwark against the demonic taint threatening Ashenvale."
+   "text": "As a night elf, you know each moonwell as a sacred home away from home. It holds Elune's grace and helps guard Ashenvale from demonic taint."
   },
   {
    "target": "profession:Tailoring",
-   "text": "Tailors can harness the dense lunar energies pooling within the waters to weave pure Mooncloth from felcloth."
+   "text": "As a tailor, you can use the moonwell's lunar power to weave pure Mooncloth from felcloth."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Moonwell (Ashenvale)"
- ]
+ ],
+ "style": 2
 }

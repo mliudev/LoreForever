@@ -21,16 +21,16 @@
    "The Binding (Voidwalker, Stormwind)"
   ]
  },
- "summary": "Beneath the Slaughtered Lamb in Stormwind, Gakin seeks his former pupil and a bloodstone choker. He sends an aspiring warlock after Surena Caledon, who betrayed him to join the Defias Brotherhood.",
+ "summary": "Beneath the Slaughtered Lamb in Stormwind, Gakin seeks his former pupil and the bloodstone choker she carries. He sends a new apprentice after Surena Caledon, who betrayed him and joined the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Bitter Master",
-   "body": "Beneath the Slaughtered Lamb in Stormwind's Mage Quarter, Gakin the Darkbinder teaches novices the forbidden arts of fel summoning. He once took a young woman named Surena Caledon as his pupil. He admired her natural magical talent and her beauty. Surena left her studies and Gakin's favor, then fled Stormwind with her lover, Erlan Drudgemoor, to join the Defias Brotherhood.",
+   "body": "Beneath the Slaughtered Lamb in Stormwind's Mage Quarter, Gakin the Darkbinder teaches novices the forbidden arts of fel summoning. Once, he took Surena Caledon as his pupil. He admired her natural magical talent and her beauty. But Surena left her studies and Gakin's favor, then fled Stormwind with her lover, Erlan Drudgemoor, to join the Defias Brotherhood.",
    "spoiler": 0
   },
   {
    "title": "The Stolen Bloodstone",
-   "body": "Gakin has no concern for Surena's survival, but he wants the bloodstone choker he gave her during her apprenticeship. He sends his newest apprentice southeast to Brackwell Pumpkin Patch in Elwynn Forest, a farmstead overrun by Defias bandits. The apprentice is to take the jewel from Surena by any means necessary. The bloodstone will provide the magical catalyst for the next trial: summoning and binding a Voidwalker.",
+   "body": "Gakin cares nothing for Surena's survival. He wants the bloodstone choker he gave her during her apprenticeship. So he sends his newest apprentice southeast to Brackwell Pumpkin Patch in Elwynn Forest, a farmstead overrun by Defias bandits. The apprentice is to take the jewel from Surena by any means necessary. The bloodstone will serve as the magical catalyst for the next trial: summoning and binding a Voidwalker.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "why get the choker",
     "bloodstone choker importance"
    ],
-   "answer": "Gakin gave Surena the choker during her apprenticeship, and it holds a valuable bloodstone. He resents her betrayal and needs the stone as a ritual reagent to help his new apprentice bind a Voidwalker."
+   "answer": "Gakin gave Surena the choker during her apprenticeship, and he wants its valuable bloodstone. He resents her betrayal and needs the stone as a ritual reagent to help his new apprentice bind a Voidwalker."
   },
   {
    "q": "Where can Surena Caledon be found?",
@@ -59,7 +59,7 @@
     "where is surena",
     "where is the pumpkin patch"
    ],
-   "answer": "Surena can be found with her Defias companions at Brackwell Pumpkin Patch, an abandoned farmstead in southeastern Elwynn Forest."
+   "answer": "You can find Surena with her Defias companions at Brackwell Pumpkin Patch, an abandoned farmstead in southeastern Elwynn Forest."
   },
   {
    "q": "What happens after recovering the choker?",
@@ -67,7 +67,7 @@
     "what comes next",
     "next quest after surena"
    ],
-   "answer": "Returning the bloodstone choker to Gakin completes the trial. The next step is to enter the summoning circle in the crypts beneath the Slaughtered Lamb and bind a Voidwalker from the Twisting Nether."
+   "answer": "When you return the bloodstone choker to Gakin, the trial is complete. Next, you enter the summoning circle in the crypts beneath the Slaughtered Lamb and bind a Voidwalker from the Twisting Nether."
   },
   {
    "q": "Who is Erlan Drudgemoor?",
@@ -83,7 +83,7 @@
     "does gakin care",
     "gakin reaction to surena"
    ],
-   "answer": "Gakin shows no remorse over Surena's fate. He says her life means nothing to him, and that wasting her magical talent is a shame, but her betrayal makes her elimination necessary."
+   "answer": "Gakin shows no remorse over Surena's fate. He says her life means nothing to him and that wasting her magical talent is a shame, but her betrayal makes her elimination necessary."
   }
  ],
  "angles": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Surena Caledon (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -22,16 +22,16 @@
    "Return to Milton"
   ]
  },
- "summary": "In Stormwind, a lost chronicle returns to the Royal Library. Titled The History of Stormwind, the battered book bears the library’s seal and vanished before the kingdom was rebuilt after the First War. Its return gives Head Librarian Milton Sheaf a chance to preserve the history of southern human lands.",
+ "summary": "Milton Sheaf awaits a lost Stormwind chronicle at the Royal Library. The book, The History of Stormwind, bears the library’s seal and vanished before the kingdom rose again after the First War. Its return may help preserve the history of the southern human lands.",
  "sections": [
   {
    "title": "A Relic of the First War",
-   "body": "Duskwood’s undead and ogres roam among the ruins where this mud-caked volume was found. The book is a rare relic from before Stormwind’s destruction. Its opening page bears the kingdom’s formal library seal. Someone checked it out decades ago, before the Horde razed the capital, and the book was presumed lost in the fall of the south.",
+   "body": "You find the mud-caked book among the ruins of Duskwood, where undead and ogres roam. Its first page bears Stormwind’s formal library seal, marking it as a rare relic from before the city’s destruction. It was checked out decades ago, before the Horde razed the capital, and was thought lost when the south fell.",
    "spoiler": 0
   },
   {
    "title": "Restoring Forgotten Annals",
-   "body": "Milton Sheaf recognizes the book when it reaches him in the Royal Library of Stormwind Keep. The head librarian means to place it in the rare books archive, though years in the haunted wilderness have badly damaged its pages. The discovery spurs Sheaf to seek more lost knowledge. He looks north to Southshore, the town nearest the ruined kingdom of Alterac and its abandoned libraries.",
+   "body": "Milton Sheaf recognizes the book when you bring it to the Royal Library in Stormwind Keep. He plans to place it in the rare books archive, though years in the haunted wilds have badly damaged its pages. The discovery sends Sheaf seeking more lost knowledge in Southshore, the nearest town to Alterac’s ruined kingdom and abandoned libraries.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "book drop location",
     "duskwood history book"
    ],
-   "answer": "You find the book among the hostile creatures roaming Duskwood, most often among undead in the cemeteries and fields or ogres in the southern hills."
+   "answer": "You find the book among the hostile creatures of Duskwood, often among undead in cemeteries and fields or ogres in the southern hills."
   },
   {
    "q": "Who do I bring the book to?",
@@ -77,7 +77,7 @@
     "why is the book important",
     "importance of history of stormwind"
    ],
-   "answer": "Few original records survived when the kingdom was leveled and Stormwind burned during the First War. Genuine pre-war texts help scholars piece together the kingdom’s past."
+   "answer": "Few original records survived the kingdom’s fall and Stormwind’s burning during the First War. Genuine pre-war texts help scholars piece together the kingdom’s past."
   },
   {
    "q": "Can Horde players complete this quest?",
@@ -91,11 +91,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you help restore fragments of Stormwind’s heritage that survived the First War’s devastation."
+   "text": "As an Alliance traveler, you help restore fragments of Stormwind’s heritage that survived the First War’s ruin."
   },
   {
    "target": "race:Human",
-   "text": "As a human of the south, you help reclaim written records from the wilderness and rebuild a culture shattered by the Old Horde."
+   "text": "As a human of the south, you help reclaim written records from the wilds and rebuild a culture shattered by the Old Horde."
   },
   {
    "target": "class:Mage",
@@ -124,5 +124,5 @@
  "attribution": [
   "An Old History Book (quest)"
  ],
- "style": 1
+ "style": 2
 }

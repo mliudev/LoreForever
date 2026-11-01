@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dust Plains"
  },
- "summary": "Gnoll packs hold the Dust Plains, Westfall’s dry southern frontier. The plains stretch toward the coast and eastern hills, where Klaven’s Tower overlooks the wastes.",
+ "summary": "Gnoll packs prowl the Dust Plains, Westfall’s dry southern frontier. The wastes stretch toward the coast and eastern hills, where Klaven’s Tower overlooks the plain.",
  "sections": [
   {
    "title": "A Barren Frontier",
-   "body": "Across southern Westfall, the Dust Plains run from troubled farmland toward desolate wilderness. Feral gnolls have long claimed this arid ground, ambushing travelers and challenging anyone bound for the coast or nearby hills. Klaven’s Tower stands on the eastern boundary. The old mage tower is held by Klaven Mortwake, a Defias rogue, and offers no shelter from the gnolls prowling the surrounding wastes.",
+   "body": "Across southern Westfall, the Dust Plains lead from troubled farmland toward desolate wilderness. Feral gnolls have long claimed this dry ground. They ambush travelers and challenge anyone bound for the coast or nearby hills.\n\nKlaven’s Tower marks the eastern boundary. Klaven Mortwake, a Defias rogue, holds the old mage tower. Gnolls prowl the surrounding wastes, leaving travelers no shelter there.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is dust plains",
     "where dust plains"
    ],
-   "answer": "The Dust Plains lie in southern Westfall, south of the abandoned farmsteads and stretching toward the cliffs and Klaven’s Tower to the east."
+   "answer": "The Dust Plains lie in southern Westfall, south of the abandoned farmsteads. They stretch toward the cliffs and Klaven’s Tower to the east."
   },
   {
    "q": "What threats can travelers find in the Dust Plains?",
@@ -32,7 +32,7 @@
     "dust plains enemies",
     "mobs in dust plains"
    ],
-   "answer": "Savage gnolls keep crude camps across the dusty plains and attack anyone who wanders near."
+   "answer": "Savage gnolls keep crude camps across the dusty plains. They attack anyone who wanders near."
   },
   {
    "q": "What is the tower on the eastern edge of the plains?",
@@ -49,13 +49,13 @@
     "militia dust plains",
     "is westfall guard here"
    ],
-   "answer": "No. The People’s Militia is stretched thin defending Sentinel Hill and the northern farms from the Defias Brotherhood, leaving the Dust Plains to prowling gnolls."
+   "answer": "No. The People’s Militia is stretched thin defending Sentinel Hill and the northern farms from the Defias Brotherhood. Prowling gnolls hold the Dust Plains beyond their reach."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Dust Plains are another lawless frontier where Stormwind’s neglect is plain. Travelers and local defenders must face relentless gnoll packs without official reinforcement."
+   "text": "The Dust Plains are another lawless frontier where Stormwind’s neglect is plain. Travelers and local defenders face relentless gnoll packs without official reinforcement."
   }
  ],
  "keywords": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Dust Plains"
  ],
- "style": 1
+ "style": 2
 }

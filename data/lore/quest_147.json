@@ -20,7 +20,7 @@
    "Manhunt (Classic)"
   ]
  },
- "summary": "Marshal Dughan sends you after a Defias bagman called the Collector in Elwynn Forest. The Collector works from the overrun Brackwell Pumpkin Patch and sends stolen gold from the forest's mines into the Brotherhood's coffers.",
+ "summary": "In Elwynn Forest, Marshal Dughan sends you to find the Collector, a Defias bagman. He works from the overrun Brackwell Pumpkin Patch and sends stolen gold from the forest's mines to the Brotherhood.",
  "sections": [
   {
    "title": "Justice in the Pumpkin Patch",
@@ -29,7 +29,7 @@
   },
   {
    "title": "An Artisan's Seal",
-   "body": "After the Collector is slain, you recover his ring and deliver it to Marshal Dughan. The marshal is bewildered: its band bears the mark of Stormwind's old Stonemasons Guild, not a common criminal crest. The ring suggests the highwaymen choking Elwynn Forest are more than opportunists. Some were craftsmen who turned bitter and became outlaws after Stormwind was rebuilt.",
+   "body": "After you slay the Collector, you recover his ring and deliver it to Marshal Dughan. The marshal is bewildered: its band bears the mark of Stormwind's old Stonemasons Guild, not a common criminal crest. The ring suggests the highwaymen choking Elwynn Forest are more than opportunists. Some were craftsmen who turned bitter and became outlaws after Stormwind was rebuilt.",
    "spoiler": 1
   }
  ],
@@ -123,5 +123,5 @@
  "attribution": [
   "Manhunt (Classic)"
  ],
- "style": 1
+ "style": 2
 }

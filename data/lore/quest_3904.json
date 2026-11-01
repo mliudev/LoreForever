@@ -17,16 +17,16 @@
   "wiki": "Milly's Harvest (quest)",
   "chain": []
  },
- "summary": "Defias brigands have driven Milly Osworth from the Northshire vineyards. Her harvest lies scattered in buckets and crates among the occupied rows, where it may be stolen or crushed.",
+ "summary": "Defias brigands have driven Milly Osworth from the Northshire vineyards. Her gathered grapes remain in buckets and crates among the occupied rows, at risk of theft or ruin.",
  "sections": [
   {
    "title": "A Crop Left Behind",
-   "body": "Milly Osworth fled the southeastern fields of Northshire Valley when Defias brigands swarmed the vines. She left her gathered grapes behind in buckets and crates among the occupied rows. Northshire's garrison is stretched thin, and Milly fears that boots and fighting will crush any fruit the bandits leave behind.",
+   "body": "Milly Osworth fled the southeastern fields of Northshire Valley when Defias brigands swarmed the vines. The grapes she had gathered remain in buckets and crates among the occupied rows. Northshire's garrison is stretched thin, and Milly fears boots and fighting will crush any fruit the bandits leave behind.",
    "spoiler": 0
   },
   {
    "title": "Northshire Under Pressure",
-   "body": "Defias bandits now occupy working vineyards, a sign of how little safety Northshire can offer. Stormwind's attention is elsewhere, and the valley has too few guards. Farmers like Milly must depend on recruits and wanderers to protect their property and secure the food and wine that supply the abbey.",
+   "body": "Defias bandits now occupy working vineyards, a sign of how little safety Northshire can offer. Stormwind's attention lies elsewhere, and the valley has too few guards. So farmers like Milly depend on recruits and wanderers to protect their property and secure the food and wine that supply the abbey.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "northshire guards",
     "lazy guards"
    ],
-   "answer": "Northshire Valley's guards are too few and occupied with the widespread bandit threat and kobold infestations. Milly also fears that a military sweep could trample her grapes into the mud."
+   "answer": "Northshire Valley's guards are too few and occupied with the widespread bandit threat and kobold infestations. Milly also fears a military sweep could trample her grapes into the mud."
   },
   {
    "q": "What are the Defias doing in the vineyards?",
@@ -56,7 +56,7 @@
     "defias grapes",
     "defias northshire"
    ],
-   "answer": "The Defias Brotherhood has entered Northshire Valley to disrupt regional production, harass the local people, and seize resources under Stormwind's guards' noses."
+   "answer": "The Defias Brotherhood entered Northshire Valley to disrupt regional production, harass local people, and seize resources under Stormwind's guards' noses."
   },
   {
    "q": "Where are the crates located?",
@@ -65,7 +65,7 @@
     "where to find grapes",
     "where is harvest"
    ],
-   "answer": "The harvest buckets and crates are scattered across the ground in the Northshire Vineyards, just southeast of Northshire Abbey, among Defias brigands patrolling the rows."
+   "answer": "The harvest buckets and crates lie scattered across the ground in the Northshire Vineyards, just southeast of Northshire Abbey, among Defias brigands patrolling the rows."
   },
   {
    "q": "What happens after Milly gets her grapes back?",
@@ -74,7 +74,7 @@
     "after milly's harvest",
     "what next"
    ],
-   "answer": "After her harvest is safe, Milly asks you to bring her Grape Manifest to Brother Neals inside Northshire Abbey, so the yield can be accounted for and processed into wine."
+   "answer": "Once her harvest is safe, Milly asks you to bring her Grape Manifest to Brother Neals inside Northshire Abbey. The yield can then be accounted for and processed into wine."
   },
   {
    "q": "Why are grapes important to Northshire Abbey?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Milly's Harvest (quest)"
  ],
- "style": 1
+ "style": 2
 }

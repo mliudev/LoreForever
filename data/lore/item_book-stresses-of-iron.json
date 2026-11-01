@@ -10,11 +10,11 @@
    "quest:346"
   ]
  },
- "summary": "In Stormwind Keep, Margulf Blaggon’s book on metallurgy has been lent to Northshire Abbey for copying.",
+ "summary": "In Stormwind Keep, Margulf Blaggon’s book on metallurgy is away at Northshire Abbey for copying.",
  "sections": [
   {
    "title": "A Borrowed Volume",
-   "body": "Margulf Blaggon wrote about the practical and theoretical sides of metallurgy. Milton Sheaf cared for the volume in the Royal Library of Stormwind Keep. The library lent it to Northshire Abbey, where Brother Paxton copied it by hand for his own collection. Paxton’s work took far longer than expected, and Brother Kristoff waited anxiously in Cathedral Square for the book to return to the city.",
+   "body": "Margulf Blaggon wrote about metallurgy in practice and in theory. Milton Sheaf cared for the volume in the Royal Library of Stormwind Keep. The library lent it to Northshire Abbey, where Brother Paxton copied it by hand for his own collection. The work took far longer than expected. So Brother Kristoff waited anxiously in Cathedral Square for the book to return to the city.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "stresses of iron topic",
     "book contents"
    ],
-   "answer": "Margulf Blaggon’s book covers metallurgy and metalworking, in both theory and practice."
+   "answer": "Margulf Blaggon’s book covers metallurgy and metalworking in theory and practice."
   },
   {
    "q": "Why was the book at Northshire Abbey?",
@@ -34,7 +34,7 @@
     "why did paxton have it",
     "why in northshire"
    ],
-   "answer": "Brother Paxton borrowed the book from Stormwind’s Royal Library to copy it by hand for his own collection before returning the original."
+   "answer": "Brother Paxton borrowed the book from Stormwind’s Royal Library to copy by hand for his own collection. He was to return the original afterward."
   },
   {
    "q": "Who wanted the book returned?",
@@ -42,7 +42,7 @@
     "who needs the book",
     "who is waiting for it"
    ],
-   "answer": "Brother Kristoff wanted the book returned. Waiting in Cathedral Square, he urgently asked for it, and an adventurer traced its whereabouts between the Royal Library and Northshire."
+   "answer": "Brother Kristoff wanted the book returned. He waited in Cathedral Square and asked urgently for it. An adventurer traced its whereabouts between the Royal Library and Northshire."
   }
  ],
  "angles": [
@@ -75,5 +75,5 @@
   "Book: Stresses of Iron",
   "Return to Kristoff"
  ],
- "style": 1
+ "style": 2
 }

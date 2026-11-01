@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "For Skyborne adventurers departing Valanaar, this journey marks their historic arrival into Azeroth as an advance vanguard. Leaving behind the cult troubles of their homeland, they take their first steps onto the rolling plains of Mulgore."
+   "text": "As a Skyborne adventurer leaving Valanaar, you make the historic journey to Azeroth as part of its advance vanguard. You leave the cult troubles behind and set foot on Mulgore’s plains."
   },
   {
    "target": "race:Tauren",
-   "text": "As the native caretakers of Mulgore, Tauren witness the arrival of new travelers from Zephras descending upon their ancestral plains. Welcoming these skybound visitors provides an early connection to allies establishing a foothold in their lands."
+   "text": "As a Tauren native to Mulgore, you witness travelers from Zephras descending upon your ancestral plains. Welcoming these visitors offers an early connection to allies seeking a foothold in your lands."
   },
   {
    "target": "class:Shaman",
-   "text": "Windshapers and Shaman share a deep reverence for the elements, relying on the favor of the winds to guide their aerial crossing. Arriving under the banner of the Earthen Ring connects them directly to elemental traditions taking root in Mulgore."
+   "text": "As a Shaman, you share the Windshapers’ reverence for the elements and their reliance on the winds to guide their crossing. Arriving under The Earthen Ring connects you to elemental traditions taking root in Mulgore."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "windshaper mission",
     "why are windshapers in mulgore"
    ],
-   "answer": "A vanguard of Windshapers is sent ahead to establish a presence on Azeroth while their leaders remain behind in Valanaar. Recent troubles involving a local cult disrupted the original travel plans, delaying the rest of the group. As a result, this advance party journeys forward alone to make landfall and secure a foothold until reinforcements can follow.",
+   "answer": "The Windshapers send a vanguard ahead to establish a presence on Azeroth while their leaders remain in Valanaar. Cult activity there disrupted the original plans and delayed the rest of the group, so the advance party travels alone until reinforcements can follow.",
    "q": "Why are the Windshapers traveling to Azeroth?"
   },
   {
@@ -41,7 +41,7 @@
     "alaana stormwalker role",
     "where is alaana stormwalker"
    ],
-   "answer": "Alaana Stormwalker is the contact waiting to receive arriving Windshapers upon their touchdown in Mulgore. She welcomes travelers arriving from Zephras, observing that establishing a secure presence in these new lands will require time. While preparations get underway, she advises newly arrived adventurers to explore the surrounding region and prepare for the dangers of Azeroth.",
+   "answer": "Alaana Stormwalker welcomes Windshapers arriving from Zephras in Mulgore. She says establishing a secure presence in these new lands will take time and advises newcomers to explore the surrounding region and prepare for Azeroth’s dangers.",
    "q": "Who is Alaana Stormwalker?"
   },
   {
@@ -50,7 +50,7 @@
     "what cult delayed travel",
     "why stay in valanaar"
    ],
-   "answer": "The main voyage from Valanaar was postponed due to recent troubling events involving a local cult. Dealing with these cultist complications forced expedition leaders to remain behind at the lodge to finish their business. Rather than halting the mission entirely, they dispatched a small vanguard of Windshapers aboard a skycutter to lead the way to Azeroth.",
+   "answer": "Cult activity in Valanaar delayed the main departure. Expedition leaders stay behind at the lodge to settle the trouble, while a small vanguard boards a skycutter and travels ahead to Azeroth.",
    "q": "Why was the main departure delayed?"
   },
   {
@@ -59,7 +59,7 @@
     "where is the ship",
     "how do you travel to azeroth"
    ],
-   "answer": "Travelers make the journey by boarding a skycutter ship docked just outside the lodge in Valanaar. This vessel carries the vanguard across the sky to the plains of Mulgore, serving as the primary transport connecting Zephras with the lands of Azeroth during the initial expedition.",
+   "answer": "Travelers board a skycutter at the docks just outside the lodge in Valanaar. It carries the vanguard across the sky to Mulgore, connecting Zephras with Azeroth during the initial expedition.",
    "q": "How do travelers journey from Valanaar to Mulgore?"
   },
   {
@@ -68,7 +68,7 @@
     "what is zephras",
     "zephras lore"
    ],
-   "answer": "Zephras is the home or origin of the incoming adventurers arriving aboard the skycutter. When travelers reach Mulgore, Alaana Stormwalker identifies them as newcomers hailing from Zephras, noting that favorable winds have guided their crossing into the unfamiliar and dangerous territory of Azeroth.",
+   "answer": "Zephras is the home of the adventurers arriving aboard the skycutter. In Mulgore, Alaana Stormwalker welcomes newcomers from Zephras and says favorable winds guided their crossing into unfamiliar, dangerous Azeroth.",
    "q": "What is Zephras?"
   },
   {
@@ -77,7 +77,7 @@
     "next steps after arriving",
     "what to do next"
    ],
-   "answer": "Newly arrived adventurers are encouraged to scout and explore the surrounding lands of Mulgore. Because establishing a settled presence takes time, familiarizing oneself with the nearby terrain, creatures, and local threats is essential preparation for navigating this exciting yet hazardous new world.",
+   "answer": "New arrivals are encouraged to scout the surrounding lands of Mulgore. Learning the nearby terrain, creatures, and local threats will help them as they establish a presence in this unfamiliar, hazardous world.",
    "q": "What should adventurers do upon arriving in Mulgore?"
   }
  ],
@@ -97,18 +97,19 @@
  ],
  "sections": [
   {
-   "body": "Travelers departing for Azeroth must adjust their plans due to recent disruptions caused by cult activity in Valanaar. While senior leaders remain behind at the lodge to conclude urgent business and quell the cultist threat, a small vanguard of Windshapers is dispatched ahead. Journeying to the docks just outside the lodge, these pioneers board a skycutter vessel bound across the skies. Though their commanders promise to join them soon, the initial expedition rests entirely on the shoulders of this advance group, sent forward to establish a presence before the rest can follow.",
+   "body": "Cult activity in Valanaar has disrupted the Windshapers’ plans to travel to Azeroth. Their senior leaders stay behind at the lodge to finish urgent business and quell the threat, while a small vanguard sets out ahead. At the docks just outside the lodge, the pioneers board a skycutter bound across the skies.\n\nTheir commanders promise to join them soon. Until then, the advance group must establish a presence before the rest can follow.",
    "spoiler": 0,
    "title": "Departure from Valanaar"
   },
   {
-   "body": "Upon landing in the rolling plains of Mulgore, arriving adventurers from Zephras are welcomed by Alaana Stormwalker. Establishing a foothold in Azeroth will take time and careful effort, leaving newcomers encouraged to scout the surrounding territory and acclimatize to their new surroundings. While the winds favor the incoming expedition, Azeroth remains an unfamiliar and perilous realm. Familiarizing oneself with the local terrain, wildlife, and neighboring inhabitants is an essential first step before the remaining travelers from Valanaar arrive to join the effort.",
+   "body": "In Mulgore, Alaana Stormwalker welcomes the arriving adventurers from Zephras. Establishing a foothold in Azeroth will take time, so newcomers are encouraged to scout the surrounding territory and grow accustomed to it.\n\nThe winds favor the expedition, but Azeroth is unfamiliar and perilous. Travelers should learn the local terrain, wildlife, and neighboring inhabitants before those still in Valanaar arrive to join them.",
    "spoiler": 0,
    "title": "Arrival in Mulgore"
   }
  ],
- "summary": "This journey marks the arrival of the Windshapers from Zephras to Azeroth as an advance vanguard following delays caused by cultist activity in Valanaar. Boarding a skycutter ship outside the lodge, travelers make landfall in Mulgore to meet Alaana Stormwalker and begin acclimating to a vast and dangerous new world.",
+ "summary": "From Zephras, the Windshapers of The Earthen Ring reach Azeroth as an advance vanguard. After cult activity delays the rest in Valanaar, they board a skycutter outside the lodge and make landfall in Mulgore to meet Alaana Stormwalker and adjust to a vast, dangerous world.",
  "attribution": [
   "In-game quest text: The Earthen Ring"
- ]
+ ],
+ "style": 2
 }

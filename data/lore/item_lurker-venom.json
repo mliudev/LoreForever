@@ -10,11 +10,11 @@
    "quest:278"
   ]
  },
- "summary": "Around Loch Modan, dwarven defenders need Lurker Venom to counter Dark Iron sabotage. The toxin comes from predatory spiders in the rocky hills and woods.",
+ "summary": "In Loch Modan, dwarven defenders need Lurker Venom to counter Dark Iron sabotage. Predatory spiders in the rocky hills and woods provide the toxin.",
  "sections": [
   {
    "title": "A Volatile Reagent",
-   "body": "Lurker Venom helps dwarves disarm Dark Iron explosives. Ashlan Stonesmirk, an explosives expert, named the spiders’ poison as an ingredient for the mixture Chief Engineer Hinderweir prepares. The solvent combines the venom with rare minerals and tears from the loch’s crocolisks, forming a reactive compound that can disarm complex explosives. Lurker spiders range from common wood lurkers to the matriarch Shanda the Spinner, and their bites threaten travelers and mountaineers across the hills and crags.",
+   "body": "Lurker Venom helps dwarves disarm explosives planted by the Dark Iron. Ashlan Stonesmirk, an explosives expert, named spider poison as an ingredient in the mixture Chief Engineer Hinderweir prepares. The solvent joins the venom with rare minerals and tears from the loch’s crocolisks. Together, they form a reactive compound that can disarm complex explosives.\n\nLurker spiders range from common wood lurkers to the matriarch Shanda the Spinner. Their bites threaten travelers and mountaineers across Loch Modan’s hills and crags.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops lurker venom",
     "where find lurker venom"
    ],
-   "answer": "Loch Modan’s lurker spiders provide the venom, including Cliff Lurkers, Forest Lurkers, Wood Lurkers, and their matriarch Shanda the Spinner."
+   "answer": "Loch Modan’s lurker spiders provide the venom. They include Cliff Lurkers, Forest Lurkers, Wood Lurkers, and their matriarch, Shanda the Spinner."
   },
   {
    "q": "What is Lurker Venom used for?",
@@ -51,7 +51,7 @@
     "do i have to kill shanda",
     "shanda lurker venom"
    ],
-   "answer": "No. Shanda carries the venom, but common wild lurker spiders in Loch Modan’s woodlands and rocky cliffs can provide it too."
+   "answer": "Shanda the Spinner carries the venom, but common wild lurker spiders in Loch Modan’s woodlands and rocky cliffs can provide it too."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
   "Lurker Venom",
   "A Dark Threat Looms (5)"
  ],
- "style": 1
+ "style": 2
 }

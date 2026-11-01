@@ -10,16 +10,16 @@
    "quest:102"
   ]
  },
- "summary": "Gnoll Paws reach Sentinel Hill as proof of a patrol against Westfall’s Riverpaw packs. The People's Militia offers bounties to help protect local farmsteads.",
+ "summary": "At Sentinel Hill, Gnoll Paw bounties help defend Westfall’s farmsteads from Riverpaw packs. The People's Militia pays for proof that patrols have slain gnolls.",
  "sections": [
   {
    "title": "Bounty of the Militia",
-   "body": "The People's Militia defends Westfall from Sentinel Hill. With the royal army absent and the crown seemingly blind to rural troubles, ordinary citizens and volunteers face outlaws, rogue mechanoids, and Riverpaw gnolls. Captain Danuvin offers bounties for proof that gnolls have been slain. Bringing back their paws shows that patrols have searched the scrublands instead of resting beneath the watchtower.",
+   "body": "The People's Militia defends Westfall from Sentinel Hill. The royal army is absent, and the crown seems blind to troubles in the countryside. So ordinary citizens and volunteers face outlaws, rogue mechanoids, and Riverpaw gnolls.\n\nCaptain Danuvin offers bounties for proof that gnolls have been slain. Their paws show that patrols have searched the scrublands instead of resting beneath the watchtower.",
    "spoiler": 0
   },
   {
    "title": "A Coordinated Menace",
-   "body": "Riverpaw gnolls in Westfall forage across the plains, but militia observers have noticed signs of close coordination with Defias thieves based around the Deadmines. The packs terrorize farmsteads and prey on supply wagons, helping shield the bandits from local resistance. Bringing in gnoll paws helps keep the overland routes between Sentinel Hill and Elwynn Forest open.",
+   "body": "Riverpaw gnolls forage across Westfall’s plains. Militia observers have noticed signs that the packs coordinate closely with Defias thieves based around the Deadmines. The gnolls terrorize farmsteads and prey on supply wagons, helping shield the bandits from local resistance.\n\nBringing in gnoll paws helps keep the overland routes between Sentinel Hill and Elwynn Forest open.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "danuvin gnoll paws",
     "what are gnoll paws for"
    ],
-   "answer": "Captain Danuvin asks for Gnoll Paws as proof of a successful patrol across the Westfall plains. With few resources and no aid from the crown, the militia pays bounties when recruits bring evidence of slain gnolls."
+   "answer": "Captain Danuvin asks for Gnoll Paws as proof that a patrol has crossed the Westfall plains and slain gnolls. With few resources and no aid from the crown, the militia pays bounties for that evidence."
   },
   {
    "q": "Which gnolls drop these paws?",
@@ -49,7 +49,7 @@
     "gnoll deadmines connection",
     "who commands the gnolls"
    ],
-   "answer": "No. Captain Danuvin and the militia suspect Riverpaw gnolls work with bandits and thieves based around the Deadmines, threatening local farmsteads."
+   "answer": "No. Captain Danuvin and the militia suspect Riverpaw gnolls work with bandits and thieves based around the Deadmines. Together, they threaten local farmsteads."
   },
   {
    "q": "Why isn't Stormwind dealing with the gnoll threat?",
@@ -94,5 +94,5 @@
   "Gnoll Paw",
   "Patrolling Westfall"
  ],
- "style": 1
+ "style": 2
 }

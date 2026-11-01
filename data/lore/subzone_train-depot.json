@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Train Depot"
  },
- "summary": "Beneath Gnomeregan's surface entrances in Dun Morogh, the Train Depot lies overrun by leper gnomes and troggs. Once a center of gnomish rail travel, it now stands in ruin.",
+ "summary": "Beneath Gnomeregan's entrance in Dun Morogh, the Train Depot lies overrun by leper gnomes and troggs. Once, its rails carried gnomes through the city. Now the depot is in ruin.",
  "sections": [
   {
    "title": "A Ruined Transit Hub",
-   "body": "The Train Depot lies below the grand elevator from Dun Morogh, where rail lines once carried gnomes through Gnomeregan. Its platforms and tracks now lie in ruin. The radiation that swept through the city changed the workers who remained into crazed leper gnomes, and troggs from below have overrun the rails. You must cross the depot to reach deeper parts of the city, including Clockwerk Run, the Loading Room, and the inner engineering facilities.",
+   "body": "Beneath the grand elevator from Dun Morogh, the Train Depot's platforms and tracks lie in ruin. Once, rail lines carried gnomes through Gnomeregan. Radiation swept through the city and changed the workers who remained into crazed leper gnomes. Troggs from below have overrun the rails. You must cross the depot to reach deeper parts of the city, including Clockwerk Run, the Loading Room, and the inner engineering facilities.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to get to train depot",
     "train depot entrance"
    ],
-   "answer": "The Train Depot lies beneath the surface entrance elevator in Dun Morogh, before the inner parts of Gnomeregan."
+   "answer": "The Train Depot lies beneath the surface entrance elevator in Dun Morogh, before Gnomeregan's inner parts."
   },
   {
    "q": "What creatures inhabit the Train Depot now?",
@@ -32,7 +32,7 @@
     "mobs in train depot",
     "who is in train depot"
    ],
-   "answer": "Feral troggs from the deep earth and leper gnomes driven mad by the radioactive disaster overrun the depot."
+   "answer": "Feral troggs from deep underground and leper gnomes driven mad by the radioactive disaster overrun the depot."
   },
   {
    "q": "Where do the paths from the Train Depot lead?",
@@ -41,7 +41,7 @@
     "where does train depot go",
     "train depot connections"
    ],
-   "answer": "Passages lead west into Clockwerk Run and toward the Loading Room. A northern workshop has a back door leading down to the upper Engineering Labs."
+   "answer": "Passages lead west into Clockwerk Run and toward the Loading Room. A northern workshop's back door leads down to the upper Engineering Labs."
   },
   {
    "q": "Who is hiding in the Train Depot?",
@@ -86,5 +86,5 @@
  "attribution": [
   "Train Depot"
  ],
- "style": 1
+ "style": 2
 }

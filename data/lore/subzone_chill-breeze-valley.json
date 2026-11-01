@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Chill Breeze Valley"
  },
- "summary": "In western Dun Morogh, travelers cross Chill Breeze Valley between Kharanos and Gnomeregan. Refugees and young travelers follow its main trail, while dangerous beasts haunt its secluded reaches.",
+ "summary": "In western Dun Morogh, travelers cross Chill Breeze Valley between Kharanos and Gnomeregan. Refugees and young travelers follow the main trail, while dangerous beasts haunt the secluded reaches.",
  "sections": [
   {
    "title": "A Crossroads of Snow and Claws",
-   "body": "Chill Breeze Valley cuts through the mountains of western Dun Morogh. The main trail runs east to west, carrying young dwarves and gnomes between Kharanos and the outskirts of Gnomeregan. A north-south branch leads into more dangerous ground. Blood stains the snow among mangled carcasses, and savage wendigos make their dens in deep ice caves. They prey on anyone who wanders into their hunting grounds.",
+   "body": "A T-shaped trench cuts through the mountains, its main trail running east to west. Young dwarves and gnomes travel between Kharanos and the outskirts of Gnomeregan. The north-south branch leads into dangerous ground. Blood stains the snow, and mangled carcasses lie nearby.\n\nSavage wendigos make dens in deep ice caves. They prey on anyone who wanders into their hunting grounds.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "dangers in chill breeze valley",
     "why are there bones here"
    ],
-   "answer": "The main trail between Kharanos and Gnomeregan sees heavy foot traffic and is relatively safe. Predatory beasts hunt in the valley’s northern and southern branches, where blood stains the snow and torn carcasses mark the caves where wendigos dwell."
+   "answer": "The main trail between Kharanos and Gnomeregan sees heavy foot traffic and is relatively safe. Predatory beasts hunt in the northern and southern branches, where blood stains the snow and torn carcasses mark the caves where wendigos dwell."
   },
   {
    "q": "What kinds of beasts make their dens here?",
@@ -40,13 +40,13 @@
     "wendigo in chill breeze valley",
     "what lives in chill breeze valley"
    ],
-   "answer": "Ferocious wendigos make their dens in the valley’s deeper recesses. One especially large and powerful wendigo has claimed a cave as its lair."
+   "answer": "Ferocious wendigos make dens in the valley’s deeper recesses. One especially large and powerful wendigo has claimed a cave as its lair."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome fleeing Gnomeregan for the safety of Kharanos or Ironforge, you must make it past the predators around Chill Breeze Valley."
+   "text": "As a gnome fleeing Gnomeregan for the safety of Kharanos or Ironforge, you must pass the predators around Chill Breeze Valley."
   },
   {
    "target": "race:Dwarf",
@@ -71,5 +71,5 @@
  "attribution": [
   "Chill Breeze Valley"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "Ur's Treatise on Shadow Magic (quest)",
   "chain": []
  },
- "summary": "In Stormwind, High Sorcerer Andromath seeks the forbidden tome Morganth stole and carried to the Tower of Ilgalar in the Redridge Mountains.",
+ "summary": "High Sorcerer Andromath seeks Ur's Treatise on Shadow Magic in Stormwind. Morganth stole the forbidden tome and carried it to the Tower of Ilgalar in the Redridge Mountains.",
  "sections": [
   {
    "title": "A Schism in the Tower",
-   "body": "Three promising mages once studied together in Stormwind's Wizard's Sanctum. Morganth turned to dark arts and shadow magic, despite his peers' desperate warnings to abandon those corrupting powers. The city's magical order formally banished him. Before leaving, he stole a dangerous work by Ur, an infamous archmage whose studies reached beyond orthodox arcana.",
+   "body": "Three promising mages studied together in Stormwind's Wizard's Sanctum. Morganth turned to dark arts and shadow magic despite their desperate warnings. The city's magical order banished him. Before he left, he stole a dangerous work by Ur, an infamous archmage whose studies reached beyond orthodox arcana.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Mage's Lair",
-   "body": "Morganth seized the Tower of Ilgalar in the heights of the Redridge Mountains, far from Stormwind's scrutiny. High Sorcerer Andromath considers the tome's knowledge hazardous in the hands of an outcast practicing forbidden sorcery. He sends Alliance adventurers to breach the tower and recover it before its wards fall.",
+   "body": "Morganth seized the Tower of Ilgalar in the heights of the Redridge Mountains, beyond Stormwind's scrutiny. High Sorcerer Andromath fears the tome's knowledge in the hands of an outcast practicing forbidden sorcery. So he sends Alliance adventurers into the tower to recover it before its wards fall.",
    "spoiler": 0
   },
   {
    "title": "Intact Wards",
-   "body": "After the treatise is recovered from Ilgalar's library and returned to the Wizard's Sanctum, High Sorcerer Andromath is greatly relieved. He feared Morganth had already unraveled its protective enchantments or hidden the book beyond reach. The magical seals on Ur's treatise held firm, keeping the catastrophic secrets in its pages from the rogue sorcerer.",
+   "body": "Ur's treatise returned to the Wizard's Sanctum with its protective enchantments intact. High Sorcerer Andromath is greatly relieved. He feared Morganth had unraveled the wards or hidden the book beyond reach. The seals held firm, keeping the catastrophic secrets in its pages from the rogue sorcerer.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "who took the treatise",
     "morganth book"
    ],
-   "answer": "Morganth stole Ur's Treatise on Shadow Magic. He was a Stormwind mage who fell to dark magic and was banished from the Wizard's Sanctum."
+   "answer": "Morganth stole Ur's Treatise on Shadow Magic. He was a Stormwind mage who turned to dark magic and was banished from the Wizard's Sanctum."
   },
   {
    "q": "Where is the book kept?",
@@ -79,7 +79,7 @@
     "why is the treatise dangerous",
     "andromath goal"
    ],
-   "answer": "The tome holds profound secrets of shadow magic that can bring ruin to the untrained. Stormwind's mages consider it too perilous to leave with Morganth, an outcast practicing forbidden sorcery."
+   "answer": "Stormwind's mages want the book back because its profound secrets of shadow magic can bring ruin to the untrained. They fear leaving it with Morganth, an outcast practicing forbidden sorcery."
   },
   {
    "q": "Who gives this quest?",
@@ -88,17 +88,17 @@
     "where to get urs treatise quest",
     "andromath quest"
    ],
-   "answer": "High Sorcerer Andromath offers it from the Wizard's Sanctum in Stormwind's Mage Quarter."
+   "answer": "High Sorcerer Andromath gives it from the Wizard's Sanctum in Stormwind's Mage Quarter."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you see Stormwind's mages take internal discipline seriously. They entrust practitioners with containing the danger left by a peer who turned to forbidden shadow magic."
+   "text": "As a mage, you see how seriously Stormwind's mages take discipline within their order. They entrust you with containing the danger left by a peer who turned to forbidden shadow magic."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you may covet the powers of extra-planar summoning and dark casting sealed in Ur's treatises, though the Kirin Tor and Stormwind's mages fear them."
+   "text": "As a warlock, you may covet the powers of extra-planar summoning and dark casting sealed in Ur's treatises. The Kirin Tor and Stormwind's mages fear those powers."
   },
   {
    "target": "faction:Alliance",
@@ -126,5 +126,5 @@
  "attribution": [
   "Ur's Treatise on Shadow Magic (quest)"
  ],
- "style": 1
+ "style": 2
 }

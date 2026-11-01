@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A mooncloth maker asks you to search Fallen Sky Lake in Ashenvale for Krilge. Those who served with him call him a deserter, but the maker believes he did not abandon his post.",
+ "summary": "A mooncloth maker in Ashenvale asks you to find Krilge, who vanished while guarding civilians. His comrades call him a deserter, but the maker believes he held his post.",
  "sections": [
   {
    "title": "A Missing Friend",
-   "body": "The maker met Krilge while making mooncloth in Ashenvale. Krilge had been stationed there to protect civilians, then disappeared. They often met at Fallen Sky Lake before aggressive bog beasts overran it. The maker still hopes to learn what became of him.",
+   "body": "A mooncloth maker met Krilge while making mooncloth in Ashenvale. Krilge was stationed there to protect civilians, then disappeared. They often met at Fallen Sky Lake, until aggressive bog beasts overran it. The maker still hopes to learn what became of him.",
    "spoiler": 0
   },
   {
    "title": "At the Lake",
-   "body": "You are asked to investigate Fallen Sky Lake and report what you find to Gan'rul Bloodeye in Orgrimmar. The search may offer a sign of Krilge, whose comrades have stopped looking for him.",
+   "body": "You are asked to search Fallen Sky Lake and report your findings to Gan'rul Bloodeye in Orgrimmar. Krilge's comrades have stopped looking for him. Perhaps the lake still holds a sign of what became of him.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "krilge deserter",
     "why they stopped looking"
    ],
-   "answer": "Krilge disappeared from his post, and those who served with him stopped searching and consider him a deserter."
+   "answer": "Krilge vanished from his post. Those who served with him stopped searching and call him a deserter."
   },
   {
    "q": "Who asks you to look for Krilge?",
@@ -55,7 +55,7 @@
     "krilge meeting place",
     "where is fallen lake"
    ],
-   "answer": "They often met at Fallen Sky Lake in Ashenvale, before aggressive bog beasts overran the area."
+   "answer": "Krilge and the maker often met at Fallen Sky Lake in Ashenvale, before aggressive bog beasts overran the area."
   },
   {
    "q": "Where should you report your findings?",
@@ -82,7 +82,7 @@
   "zone:orgrimmar",
   "npc:gan-rul-bloodeye"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Wish You Were Here"
  ]

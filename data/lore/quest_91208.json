@@ -17,16 +17,16 @@
   "wiki": "Coming to Terms (quest)",
   "chain": []
  },
- "summary": "Offered by Aramis Hammerhand in Deathknell, this quest tasks newly risen paladins with reaching out to a fellow knight struggling to accept undeath. Fleeing into the hills in terror, the newly returned warrior faces the agonizing realization of becoming what she once fought against.",
+ "summary": "A frightened former paladin has fled into the hills west of the chapel. Aramis Hammerhand asks a newly risen knight to reach her with compassion.",
  "sections": [
   {
    "title": "A Bitter Resurrection",
-   "body": "Awakening from death into the ranks of the Forsaken is jarring for anyone, but for former paladins of the Silver Hand, the shock is visceral. Having dedicated their mortal lives to destroying the undead in service to the Holy Light, these individuals suddenly find their souls tethered back to decomposing flesh. While some adapt under the guidance of Aramis Hammerhand, others are overwhelmed by horror and confusion, fleeing into the Tirisfal wilderness rather than confronting their grim new existence.",
+   "body": "The Silver Hand's former paladins wake among the Forsaken in shock. In life, they served the Holy Light and fought the undead. Now their souls are bound to decomposing flesh. Aramis Hammerhand guides some through this change, while others flee into the Tirisfal wilderness, unable to face their new existence.",
    "spoiler": 0
   },
   {
    "title": "A Merciful Release",
-   "body": "Aramis Hammerhand hopes that a fellow knight can reach the panicked paladin who hid in the hills west of the chapel with compassion and understanding. Tragically, the weight of the transformation drives her into complete madness. When approached, she lashes out blindly in fear and fury, leaving no choice but to strike her down. For those Forsaken whose minds shatter upon the grave, a swift end is the only remaining mercy.",
+   "body": "A panicked paladin hides in the hills west of the chapel. Aramis Hammerhand hopes a fellow knight can reach her with compassion. The weight of her transformation overwhelms her. When approached, she strikes in fear and fury, leaving no choice but to strike her down. For a Forsaken whose mind shatters upon the grave, a swift end is the only mercy left.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is the paladin in the hills",
     "who do i find in coming to terms"
    ],
-   "answer": "She is a recently risen Forsaken who practiced as a paladin in life. Overcome with dread upon waking as an undead creature, she fled Deathknell into the nearby western hills in total panic."
+   "answer": "She is a recently risen Forsaken who served as a paladin in life. Horrified to wake undead, she fled Deathknell into the nearby western hills."
   },
   {
    "q": "Why does the frightened paladin attack?",
@@ -47,7 +47,7 @@
     "why attack",
     "can you save the frightened paladin"
    ],
-   "answer": "Awakening as the very kind of creature she once fought has left her terrified and unable to accept her new existence. Aramis warns that some newly risen paladins become violent, and asks you to approach her with compassion."
+   "answer": "She fears becoming the kind of creature she once fought and cannot accept her new existence. Aramis warns that some newly risen paladins become violent and asks you to approach her with compassion."
   },
   {
    "q": "Who gives the quest Coming to Terms?",
@@ -56,7 +56,7 @@
     "aramis hammerhand quest",
     "where to start coming to terms"
    ],
-   "answer": "Aramis Hammerhand, a paladin mentor situated at the church in Deathknell, offers the task to newly risen knights who need to understand the fragile mental state of their resurrected peers."
+   "answer": "Aramis Hammerhand, a paladin mentor at the church in Deathknell, offers this guidance to newly risen knights so they can understand the fragile state of their peers."
   },
   {
    "q": "Can Forsaken still wield the Light?",
@@ -65,7 +65,7 @@
     "do forsaken paladins use the light",
     "undead use light"
    ],
-   "answer": "Yes. Risen paladins like Aramis Hammerhand still serve the Light, and he hopes to lead newly risen paladins back into it as well."
+   "answer": "Yes. Risen paladins like Aramis Hammerhand still serve the Light, and he hopes to guide newly risen paladins back to it."
   },
   {
    "q": "Where is the frightened paladin located?",
@@ -74,7 +74,7 @@
     "where is she",
     "where in deathknell"
    ],
-   "answer": "She fled directly west from the church in Deathknell, hiding among the wooded hills overlooking the settlement."
+   "answer": "She fled west from the church in Deathknell and hid among the wooded hills overlooking the settlement."
   },
   {
    "q": "What happens after completing Coming to Terms?",
@@ -82,17 +82,17 @@
     "next quest coming to terms",
     "after coming to terms"
    ],
-   "answer": "You return to Aramis Hammerhand to report on your attempt to help the frightened paladin. He then directs you toward further training to hone your discipline as a Forsaken paladin."
+   "answer": "You return to Aramis Hammerhand to report on your attempt to help the frightened paladin. He then sends you to further training to hone your discipline as a Forsaken paladin."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This task strikes at the heart of the paladin's dilemma in undeath: confronting the horror of having become what you were sworn to purge."
+   "text": "As a paladin, you face the horror of undeath and the struggle to accept what you have become."
   },
   {
    "target": "race:Undead",
-   "text": "The psychological toll of awakening in Tirisfal breaks many minds; dealing with those lost to panic is a tragic reality of early Forsaken life."
+   "text": "As an Undead, you see how the shock of awakening in Tirisfal can overwhelm the newly risen. Helping those in panic is part of early Forsaken life."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Coming to Terms (quest)"
- ]
+ ],
+ "style": 2
 }

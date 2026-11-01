@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A librarian asks you to add magical works to the collection. Each book brings more knowledge to the library.",
+ "summary": "The librarian asks you to bring magical works for the collection. Each book adds knowledge to the library.",
  "sections": [
   {
    "title": "The Collection",
-   "body": "The librarian welcomes magical works that may benefit the library. You bring one to add to the collection, and your efforts help its knowledge grow.",
+   "body": "The librarian welcomes magical works that may benefit the library. You bring a book to join the collection, helping its knowledge grow.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "library book",
     "magical works"
    ],
-   "answer": "The librarian asks you to bring magical works that might benefit the collection."
+   "answer": "The librarian asks you to bring magical works that may benefit the collection."
   },
   {
    "q": "Where do I bring the book?",
@@ -35,7 +35,7 @@
     "where is the librarian",
     "library location"
    ],
-   "answer": "Bring it to the librarian who asks you to add to the collection."
+   "answer": "Bring the book to the librarian who asked you to add it to the collection."
   },
   {
    "q": "Why is the librarian collecting magical works?",
@@ -43,7 +43,7 @@
     "why collect books",
     "library purpose"
    ],
-   "answer": "The collection grows in knowledge through your contribution."
+   "answer": "Your contribution brings more knowledge to the collection."
   }
  ],
  "angles": [],
@@ -56,7 +56,7 @@
   "magical works"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Dalaran Digest"
  ]

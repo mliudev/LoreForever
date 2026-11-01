@@ -10,16 +10,16 @@
    "quest:315"
   ]
  },
- "summary": "On Shimmer Ridge, Frostmane trolls gather shimmerweed for their rituals. Dwarven brewmaster Rejold Barleybrew wants to test its sharp flavor in his stout.",
+ "summary": "On Shimmer Ridge, Frostmane trolls gather shimmerweed for their rituals. Rejold Barleybrew of Brewnall Village wants to test its sharp flavor in his stout.",
  "sections": [
   {
    "title": "A Trollish Crop",
-   "body": "The Frostmane trolls tend shimmerweed on the icy crags of Shimmer Ridge, high above Dun Morogh's lowlands. They harvest the plant and store it in woven baskets throughout their camps, where it fuels their sacred rituals. Few mountaineers beyond troll society pay the herb much mind, though inventive outsiders have taken an interest.",
+   "body": "High above Dun Morogh's lowlands, Frostmane trolls tend shimmerweed on Shimmer Ridge's icy crags. They harvest the plant and keep it in woven baskets throughout their camps. There, it fuels their sacred rituals. Few mountaineers beyond troll society pay the herb much mind, though inventive outsiders have taken an interest.",
    "spoiler": 0
   },
   {
    "title": "A Secret Ingredient",
-   "body": "In Brewnall Village, brewmaster Rejold Barleybrew suspects shimmerweed may be the missing piece in his attempt to brew the ultimate dwarven stout. He has detected the herb's pungent, unmistakable flavor and wants to see what it brings to his fermenting vats. Rejold hires travelers to slip into Frostmane camps, evade the hostile trolls, and bring back bushels.",
+   "body": "In Brewnall Village, brewmaster Rejold Barleybrew suspects shimmerweed may be the missing piece in his attempt to brew the ultimate dwarven stout. He has detected the herb's pungent, unmistakable flavor and wants to test it in his fermenting vats. So Rejold hires travelers to slip into Frostmane camps, evade the hostile trolls and bring back bushels.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to find shimmerweed",
     "shimmer ridge plant"
    ],
-   "answer": "Shimmerweed grows on Shimmer Ridge, an icy rise northwest of Brewnall Village in Dun Morogh. The Frostmane trolls tend it and store what they gather in baskets around their camps."
+   "answer": "Shimmerweed grows on Shimmer Ridge, an icy rise northwest of Brewnall Village in Dun Morogh. Frostmane trolls tend it and store what they gather in baskets around their camps."
   },
   {
    "q": "What do the Frostmane trolls use shimmerweed for?",
@@ -39,7 +39,7 @@
     "troll shimmerweed use",
     "why do trolls want shimmerweed"
    ],
-   "answer": "The Frostmane trolls use shimmerweed in their mysterious tribal rites and ceremonies. Outsiders do not know the precise details, but the herb has a place in their cultural and spiritual practices on Shimmer Ridge."
+   "answer": "Frostmane trolls use shimmerweed in their mysterious tribal rites and ceremonies. Outsiders do not know the precise details, but the herb has a place in their cultural and spiritual practices on Shimmer Ridge."
   },
   {
    "q": "Why does Rejold Barleybrew want shimmerweed?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarven ingenuity can turn a strange plant from a nearby cliffside into an experiment in brewing."
+   "text": "As a dwarf, you can see how ingenuity turns a strange plant from a nearby cliffside into a brewing experiment."
   },
   {
    "target": "profession:Herbalism",
-   "text": "For herbalists, shimmerweed shows how regional plants find uses in local brewing traditions and ritual alchemy."
+   "text": "As an herbalist, you can see how regional plants find uses in local brewing traditions and ritual alchemy."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Shimmerweed",
   "The Perfect Stout"
  ],
- "style": 1
+ "style": 2
 }

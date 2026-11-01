@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Quinn Yorick's fear of deteriorating into a mindless ghoul underscores the delicate balance Forsaken endure to preserve their free will and physical faculties."
+   "text": "Quinn Yorick fears becoming a mindless ghoul. His plight shows how the Forsaken struggle to preserve their free will and physical faculties."
   },
   {
    "target": "faction:Horde",
-   "text": "Aiding distressed travelers and outcasts in Silverpine Forest secures Horde influence throughout the plagued lands north of the Sepulcher."
+   "text": "Helping distressed travelers and outcasts in Silverpine Forest strengthens Horde influence in the plagued lands north of the Sepulcher."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "quinn yorick lore",
     "who is quinn yorick"
    ],
-   "answer": "Quinn Yorick is an afflicted traveler located at the Ivar Patch, just north of the Sepulcher in Silverpine Forest. He requires special alchemical concoctions to stave off severe physical degeneration and recover enough strength to travel.",
+   "answer": "Quinn Yorick is an afflicted traveler at the Ivar Patch, north of the Sepulcher in Silverpine Forest. He needs special alchemical mixtures to stave off physical decline and regain enough strength to travel.",
    "q": "Who is Quinn Yorick?"
   },
   {
@@ -37,7 +37,7 @@
     "quinns potion purpose",
     "why does quinn need a potion"
    ],
-   "answer": "The potion is brewed specifically to aid Quinn Yorick's recovery and prevent his condition from worsening. Without it, Quinn feared he would succumb to deterioration and degenerate into a mindless ghoul.",
+   "answer": "Quinn's Potion is a special mixture made to aid his recovery and keep his condition from worsening. Without it, he feared he would deteriorate into a mindless ghoul.",
    "q": "What is Quinn's Potion and why does he need it?"
   },
   {
@@ -45,7 +45,7 @@
     "where is ivar patch",
     "ivar patch location"
    ],
-   "answer": "The Ivar Patch is a designated plot located directly north of the Sepulcher in Silverpine Forest, serving as Quinn Yorick's temporary shelter while he recovers.",
+   "answer": "The Ivar Patch lies directly north of the Sepulcher in Silverpine Forest. It is Quinn Yorick's temporary shelter while he recovers.",
    "q": "Where is the Ivar Patch located?"
   },
   {
@@ -54,7 +54,7 @@
     "what is quinn potion made of",
     "hearts potion"
    ],
-   "answer": "The remedy delivered to Quinn is an alchemical concoction brewed with extracts drawn from six whole hearts, prepared to halt his bodily decay.",
+   "answer": "Quinn's remedy is an alchemical mixture brewed from extracts of six whole hearts. It is meant to halt his bodily decay.",
    "q": "What are the ingredients in Quinn's potion?"
   },
   {
@@ -63,7 +63,7 @@
     "does quinn turn into a ghoul",
     "quinn recovery"
    ],
-   "answer": "Upon drinking the freshly delivered potion, Quinn feels its restorative effects take hold immediately, reporting that he will soon be fit to resume his travels rather than devolving into a ghoul.",
+   "answer": "The potion takes effect as soon as Quinn drinks it. He says he will soon be strong enough to travel again instead of becoming a ghoul.",
    "q": "Does the potion successfully cure Quinn Yorick?"
   },
   {
@@ -71,7 +71,7 @@
     "who makes quinn potion",
     "apothecary quinn"
    ],
-   "answer": "Apothecary Renferrel at the Sepulcher brews the potion, using the extract of six whole hearts. He hands it over with characteristic bureaucratic impatience, eager to dismiss the courier before more paperwork is created.",
+   "answer": "Apothecary Renferrel at the Sepulcher brews Quinn's potion from the extract of six whole hearts. Impatient with paperwork, he hands it over and is eager to dismiss the courier.",
    "q": "Who brews the potion for Quinn?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "North of the Sepulcher in Silverpine Forest, Quinn Yorick rests at the Ivar Patch while suffering from an affliction that threatens his very mind and body. To halt his condition, a specialized alchemical mixture brewed from six hearts is dispatched to his encampment. For the Forsaken and their allies, delivering such remedies is a vital step in aiding wandering kin before rot and madness take hold.",
+   "body": "North of the Sepulcher, Quinn Yorick rests at the Ivar Patch in Silverpine Forest. His affliction threatens both mind and body, so a special alchemical mixture brewed from six hearts is sent to his camp. For the Forsaken and their allies, bringing remedies to wandering kin can hold back rot and madness.",
    "spoiler": 0,
    "title": "A Desperate Remedy"
   },
   {
-   "body": "Quinn was on the verge of accepting a grim fate: devolving into a mindless ghoul. Upon receiving and consuming the freshly brewed potion, the remedy takes effect immediately, restoring his vitality and allowing him to prepare for upcoming travels across the plagued landscape.",
+   "body": "Quinn Yorick feared he was nearing a grim end, becoming a mindless ghoul. He drinks the freshly brewed potion, and its effects come at once. His strength returns, and he can prepare to travel across the plagued land.",
    "spoiler": 1,
    "title": "Averting Degeneration"
   }
  ],
- "summary": "Return to Quinn (Again) is a delivery quest in Silverpine Forest where a courier brings a restorative alchemical mixture to Quinn Yorick at the Ivar Patch. The specialized concoction prevents Quinn from deteriorating into a mindless ghoul, restoring his strength so he may resume traveling.",
+ "summary": "At the Ivar Patch, Quinn Yorick needs a remedy before his affliction claims his mind and body. A courier brings him a mixture brewed from six hearts, restoring his strength for the travels ahead.",
  "attribution": [
   "In-game quest text: Return to Quinn (Again)"
- ]
+ ],
+ "style": 2
 }

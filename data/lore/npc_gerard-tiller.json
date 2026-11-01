@@ -8,11 +8,11 @@
   "wiki": "Gerard Tiller",
   "refs": 2
  },
- "summary": "At the Maclure Vineyards, Gerard Tiller works under the warm sun and longs for spring water. He offers a shiny red apple to any traveler who brings him a skin of it.",
+ "summary": "At the Maclure Vineyards, Gerard Tiller tends the grounds and longs for spring water. Bring him a skin of it, and he offers shiny red apples.",
  "sections": [
   {
    "title": "A Thirsty Farmhand",
-   "body": "Gerard Tiller works the grounds outside the barn at the Maclure Vineyards, south of Goldshire. The vineyard is known for its grapes, and keeping the harvest going takes hard labor. The chores leave Gerard thirsty, so he welcomes travelers who bring him a skin of fresh spring water. In return, he gives them shiny red apples gathered from local orchards.",
+   "body": "Gerard Tiller works outside the barn at the Maclure Vineyards, south of Goldshire. The vineyard is known for its grapes, and keeping the harvest going takes hard labor. His chores leave him thirsty, so he welcomes travelers who bring a skin of fresh spring water. In return, he gives them shiny red apples gathered from local orchards.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is gerard",
     "tiller elwynn"
    ],
-   "answer": "Gerard Tiller works as a human farmhand outside the barn at the Maclure Vineyards in southern Elwynn Forest."
+   "answer": "Gerard Tiller is a human farmhand who works outside the barn at the Maclure Vineyards in southern Elwynn Forest."
   },
   {
    "q": "Where can I find Gerard Tiller?",
@@ -50,13 +50,13 @@
     "gerard tiller feud",
     "maclure feud gerard"
    ],
-   "answer": "No. Gerard works at the Maclure Vineyards and focuses on his chores and getting water, rather than the rivalry between the Maclures and Stonefields."
+   "answer": "No. Gerard works at the Maclure Vineyards and tends to his chores and thirst, apart from the rivalry between the Maclures and Stonefields."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Gerard trades fresh apples for plain spring water, making him a source of fruit for travelers who want simple ingredients."
+   "text": "Gerard trades fresh apples for plain spring water, giving travelers who want simple ingredients a source of fruit."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Gerard Tiller"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "The Battleboars"
   ]
  },
- "summary": "The Battleboars is a rite-of-passage hunting quest given by Grull Hawkwind in Camp Narache. Young tauren are tasked with culling the vicious war-trained boars of Brambleblade Ravine to defend tribal lands and feed the settlement's youth.",
+ "summary": "At Camp Narache, young tauren hunt battleboars to guard their lands and feed the tribe's youth.",
  "sections": [
   {
    "title": "A Threat on the Border",
-   "body": "To the east of Red Cloud Mesa lies Brambleblade Ravine, a thorn-choked scar held by the Bristleback quilboar. As tensions between the Shu'halo and the quilboar escalate into open war, the Bristlebacks have trained vicious battleboars to probe tauren boundaries and terrorize their traditional hunting grounds. Left unchecked, these aggressive beasts threaten not only game trails but the safety of Camp Narache itself.",
+   "body": "East of Red Cloud Mesa, Brambleblade Ravine lies in Bristleback quilboar hands. Tensions between the Shu'halo and the quilboar have grown into open war. The Bristlebacks train vicious battleboars to test tauren borders and trouble their old hunting grounds. Left unchecked, the beasts endanger game trails and Camp Narache alike.",
    "spoiler": 0
   },
   {
    "title": "Feeding the Tribe",
-   "body": "For the tauren, hunting serves both defensive necessity and communal sustenance. Grull Hawkwind instructs initiates to bring back the snouts and flanks of the slain battleboars. Even beasts trained by quilboar hands are not wasted; their meat and gristle are harvested to prepare hearty stew for the tribe's youth, turning a quilboar weapon into nourishment for the next generation of tauren defenders.",
+   "body": "Hunting keeps the tauren safe and feeds the tribe. Grull Hawkwind asks the young hunters to bring back the battleboars' snouts and flanks. Even these beasts, trained by quilboar hands, are put to use. Their meat and gristle go into stew for the tribe's youth, turning a quilboar weapon into food for the next generation of tauren defenders.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "why battleboars hostile",
     "battleboars attacking"
    ],
-   "answer": "The battleboars have been deliberately bred and trained by the Bristleback quilboar inhabiting Brambleblade Ravine. The quilboar use them as shock animals to harass the tauren and encroach upon Red Cloud Mesa's tribal hunting grounds."
+   "answer": "The Bristleback quilboar of Brambleblade Ravine have bred and trained the battleboars. They use the beasts to harass the tauren and push into Red Cloud Mesa's tribal hunting grounds."
   },
   {
    "q": "Who sends players on this hunt?",
@@ -50,7 +50,7 @@
     "who gives the battleboars quest",
     "grull hawkwind role"
    ],
-   "answer": "Grull Hawkwind, a prominent hunter and elder stationed at Camp Narache, directs young tauren through the concluding trials of their early training."
+   "answer": "Grull Hawkwind, a hunter and elder at Camp Narache, directs young tauren in the final trials of their early training."
   },
   {
    "q": "Where are the battleboars found?",
@@ -59,7 +59,7 @@
     "where are battleboars",
     "brambleblade ravine boars"
    ],
-   "answer": "They wander near and within Brambleblade Ravine, a rugged canyon located just east of Camp Narache on the eastern edge of Red Cloud Mesa."
+   "answer": "Battleboars roam near and within Brambleblade Ravine, east of Camp Narache on the eastern edge of Red Cloud Mesa."
   },
   {
    "q": "What happens to the meat collected from the boars?",
@@ -68,7 +68,7 @@
     "what is boar meat for",
     "boar stew"
    ],
-   "answer": "The battleboar flanks and snouts are brought back to Camp Narache to be simmered into stew for the settlement's children and elders, honoring the tauren tradition of utilizing what they hunt."
+   "answer": "The battleboars' flanks and snouts go back to Camp Narache for stew for the settlement's children and elders. The tauren use what they hunt."
   },
   {
    "q": "How does this quest fit into the local quilboar conflict?",
@@ -77,7 +77,7 @@
     "bristleback conflict",
     "quilboar lore"
    ],
-   "answer": "It serves as an early introduction to the open war between the tauren and the Bristleback tribe. Culling their war animals thins the beasts harassing tauren hunting grounds and sends a clear message to the Bristlebacks of Brambleblade Ravine."
+   "answer": "The hunt introduces the open war between the tauren and the Bristleback tribe. Culling their war animals thins the beasts harassing tauren hunting grounds and sends a clear message to the Bristlebacks of Brambleblade Ravine."
   },
   {
    "q": "What quest precedes The Battleboars?",
@@ -86,21 +86,21 @@
     "previous quest battleboars",
     "hunt continues chain"
    ],
-   "answer": "It is preceded by The Hunt Continues, an earlier task from Grull Hawkwind focused on learning the hunting grounds of Red Cloud Mesa."
+   "answer": "The Hunt Continues comes first. Grull Hawkwind sends young hunters to learn the hunting grounds of Red Cloud Mesa."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "This task embodies the tauren balance of defending the Earth Mother's territories while ensuring nothing taken in battle is wasted, turning enemies' war beasts into sustenance for the camp's calves."
+   "text": "As a tauren, you defend the Earth Mother's territories and waste nothing taken in battle. The Bristlebacks' war beasts become food for the camp's calves."
   },
   {
    "target": "class:Hunter",
-   "text": "Facing beasts trained for malice by the Bristlebacks teaches young hunters the sharp contrast between natural wildlife and animals twisted into weapons of war."
+   "text": "As a hunter, you learn the difference between natural wildlife and beasts the Bristlebacks have twisted into weapons of war."
   },
   {
    "target": "profession:Cooking",
-   "text": "The request for flanks and snouts highlights the fundamental tauren culinary ethos: coarse, tough meats can always be rendered down into hearty, sustaining stews."
+   "text": "As a cook, you know even coarse, tough meat can become a hearty stew that sustains the tribe."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "The Battleboars"
- ]
+ ],
+ "style": 2
 }

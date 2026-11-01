@@ -17,16 +17,16 @@
   "wiki": "A Fine Mess",
   "chain": []
  },
- "summary": "In Gnomeregan, Kernobee lies battered among the troggs after an ambush by Dark Iron dwarves. His rescue brings word of their work on a subterranean drilling rig, bound for Booty Bay.",
+ "summary": "In Gnomeregan, you find Kernobee battered among the troggs after a Dark Iron ambush. His rescue brings word of a drilling rig beneath Dun Morogh, bound for Booty Bay.",
  "sections": [
   {
    "title": "A Battered Survivor",
-   "body": "You find Kernobee in Gnomeregan’s dormitory, beaten and groggy. Dark Iron dwarves ambushed the goblin and left him among the feral troggs. He needs a friendly face to survive the return through the contaminated corridors.",
+   "body": "You find Kernobee in Gnomeregan’s dormitory, beaten and groggy. Dark Iron dwarves ambushed the goblin and left him among the feral troggs. You guide him through the contaminated corridors toward safety.",
    "spoiler": 0
   },
   {
    "title": "Subterranean Schemes",
-   "body": "Kernobee carries word of the Dark Iron clan’s work on a massive super rig beneath Dun Morogh. He escapes across the sea to Ratchet to warn the goblin engineer Tinkerwiz, and sends you south to Booty Bay with news for the goblin engineer Scooty.",
+   "body": "Kernobee carries word of the Dark Iron clan’s work on a massive super rig beneath Dun Morogh. He escapes across the sea to Ratchet to warn the goblin engineer Tinkerwiz. Then he sends you south to Booty Bay with news for the goblin engineer Scooty.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "kernobee",
     "who is kernobee"
    ],
-   "answer": "Kernobee is a goblin found beaten nearly to death in Gnomeregan. Dark Iron dwarves ambushed him and left him among the troggs before he was rescued."
+   "answer": "Kernobee is a goblin you find beaten nearly to death in Gnomeregan. Dark Iron dwarves ambushed him and left him among the troggs before his rescue."
   },
   {
    "q": "Where must Kernobee be escorted?",
@@ -46,7 +46,7 @@
     "escort destination",
     "clockwerk run exit"
    ],
-   "answer": "You need to guide Kernobee through Gnomeregan’s hostile halls toward the Clockwerk Run exit and the upper entrance corridors."
+   "answer": "You guide Kernobee through Gnomeregan’s hostile halls toward the Clockwerk Run exit and the upper entrance corridors."
   },
   {
    "q": "Why were the Dark Iron dwarves involved?",
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, rescuing a survivor from Gnomeregan’s contaminated depths is a duty of honor, especially with Dark Iron infiltrators and feral troggs threatening him."
+   "text": "As a gnome, you have a duty of honor to rescue a survivor from Gnomeregan’s contaminated depths. Dark Iron infiltrators and feral troggs threaten him."
   },
   {
    "target": "faction:Alliance",
@@ -121,5 +121,5 @@
  "attribution": [
   "A Fine Mess"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:313"
   ]
  },
- "summary": "Across Dun Morogh, wendigo manes are gathered from the beasts roaming its frozen crags. Their thick coats offer warmth against the mountain cold, and Pilot Stonegear has a use for them.",
+ "summary": "Across Dun Morogh, wendigos roam the frozen crags, and their manes keep the mountain cold at bay. Pilot Stonegear has a use for them.",
  "sections": [
   {
    "title": "Warmth for the Ironworks",
-   "body": "Dun Morogh’s wendigos roam the snowdrifts, and their coarse fur shields against bitter drafts. Pilot Stonegear, stationed outside Kharanos, sends adventurers to Grizzled Den for their heavy manes. He plans to weave them into an insulating floor rug for the interior deck of his prized dwarven siege engine, Trollplow.",
+   "body": "Wendigos roam the snowdrifts of Dun Morogh, their coarse fur guarding them from bitter drafts. Outside Kharanos, Pilot Stonegear sends adventurers to Grizzled Den for their heavy manes. He means to weave them into an insulating rug for the interior deck of Trollplow, his prized dwarven siege engine.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops wendigo mane",
     "wendigo mane sources"
    ],
-   "answer": "Wendigo manes come from wendigos in the snows of Dun Morogh, including Young Wendigos, adult Wendigos, and alpha beasts such as Vagash, Edan the Howler, and Old Icebeard."
+   "answer": "Wendigo manes come from wendigos in Dun Morogh’s snows. They include Young Wendigos, adult Wendigos, and alpha beasts such as Vagash, Edan the Howler, and Old Icebeard."
   },
   {
    "q": "Why does Pilot Stonegear want these manes?",
@@ -35,7 +35,7 @@
     "pilot stonegear rug",
     "what are manes used for"
    ],
-   "answer": "Pilot Stonegear wants the manes to make an insulating rug for the interior deck of his siege engine, Trollplow. The thick fur will help keep his station warm as the machine travels through frozen terrain."
+   "answer": "Pilot Stonegear wants the manes for an insulating rug on the interior deck of Trollplow, his siege engine. The thick fur will help keep his station warm as the machine travels through frozen terrain."
   },
   {
    "q": "Where is the best place to find wendigos for their manes?",
@@ -44,7 +44,7 @@
     "where to hunt wendigos",
     "wendigo cave dun morogh"
    ],
-   "answer": "Pilot Stonegear recommends Grizzled Den, a cave system cut into the mountains directly west of Kharanos. Wendigos fill the cavern and its surrounding slopes."
+   "answer": "Pilot Stonegear recommends Grizzled Den, a cave system in the mountains directly west of Kharanos. Wendigos fill the cavern and its surrounding slopes."
   },
   {
    "q": "Are wendigos dangerous to hunt?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Dwarven machinery in Dun Morogh has freezing metal cockpits, so wendigo pelts make practical insulating linings."
+   "text": "Dwarven machinery in Dun Morogh has freezing metal cockpits. Wendigo pelts make practical insulating linings."
   },
   {
    "target": "race:Dwarf",
@@ -87,5 +87,5 @@
   "Wendigo Mane",
   "The Grizzled Den (quest)"
  ],
- "style": 1
+ "style": 2
 }

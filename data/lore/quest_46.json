@@ -17,16 +17,16 @@
   "wiki": "Bounty on Murlocs",
   "chain": []
  },
- "summary": "Murlocs are spreading through eastern Elwynn, and the Stormwind Army has put a bounty on them. With the garrison stretched thin, Guard Thomas turns to travelers to clear the shoreline camps around Stone Cairn Lake and the southern waterways before the murlocs overrun nearby farms and roads.",
+ "summary": "In eastern Elwynn, murlocs are spreading, and the Stormwind Army has set a bounty on them. With the garrison stretched thin, Guard Thomas turns to travelers to clear camps around Stone Cairn Lake and the southern waterways before murlocs overrun nearby farms and roads.",
  "sections": [
   {
    "title": "A Threat on the Waterways",
-   "body": "Murlocs have made shoreline camps around Stone Cairn Lake and along the fork of the southern streams. Lurkers and foragers now attack travelers and press toward human settlements. What began as a minor nuisance has grown into a threat across eastern Elwynn, while the western roads remain comparatively secure.",
+   "body": "Murlocs have made camps around Stone Cairn Lake and along the fork of the southern streams. Lurkers and foragers attack travelers and press toward human settlements. What began as a small nuisance now threatens eastern Elwynn, though the western roads remain comparatively secure.",
    "spoiler": 0
   },
   {
    "title": "Stretched Defenses",
-   "body": "Guard Thomas is stationed at the eastern bridge beside the Redridge Mountains, where dangers beyond the bridge and disorder at home compete for his attention. King Varian Wrynn is missing, and Stormwind's military command is mired in bureaucracy. Town garrisons rarely get the reinforcements they request. Marshal Dughan and local officers have turned to public bounties, offering coin for murloc fins to slow the attacks along the waterways.",
+   "body": "Guard Thomas is stationed at the eastern bridge beside the Redridge Mountains. Dangers beyond the bridge and disorder at home both call for his attention. King Varian Wrynn is missing, and bureaucracy weighs on Stormwind's military command. Town garrisons rarely receive the reinforcements they request. So Marshal Dughan and local officers offer public bounties, paying coin for murloc fins to slow the attacks along the waterways.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "murloc bounty reason",
     "why bounty on murlocs"
    ],
-   "answer": "Murlocs have established growing camps around Stone Cairn Lake and the southern streams of eastern Elwynn. Their foraging parties threaten nearby farms, roads, and travelers, so the Stormwind Army pays travelers to cull their numbers."
+   "answer": "Murlocs have growing camps around Stone Cairn Lake and the southern streams of eastern Elwynn. Their foraging parties threaten nearby farms, roads, and travelers, so the Stormwind Army pays travelers to cull their numbers."
   },
   {
    "q": "Who is paying for the bounty?",
@@ -47,7 +47,7 @@
     "who pays the bounty",
     "stormwind army bounty"
    ],
-   "answer": "The Stormwind Army funds the bounty through Goldshire's command under Marshal Dughan. Guard Thomas is the field contact at the eastern river crossing who pays travelers."
+   "answer": "The Stormwind Army funds the bounty through Goldshire's command under Marshal Dughan. Guard Thomas is the field contact at the eastern river crossing and pays travelers."
   },
   {
    "q": "Where are the murloc settlements located?",
@@ -56,7 +56,7 @@
     "where are elwynn murlocs",
     "stone cairn lake murlocs"
    ],
-   "answer": "Murloc camps line the shores and islands of Stone Cairn Lake to the north, and the riverbanks to the south where the eastern stream forks."
+   "answer": "Murloc camps line the shores and islands of Stone Cairn Lake to the north. To the south, they follow the riverbanks where the eastern stream forks."
   },
   {
    "q": "Why can't the Stormwind guards handle this themselves?",
@@ -65,7 +65,7 @@
     "why aren't guards fighting murlocs",
     "guard shortage elwynn"
    ],
-   "answer": "Stormwind's military is stretched thin across the kingdom by political strife, missing leadership, and banditry. Outposts like Guard Thomas's bridge have only a handful of men, too few to sustain attacks on the shoreline tribes."
+   "answer": "Stormwind's military is stretched thin across the kingdom by political strife, missing leadership, and banditry. Outposts like Guard Thomas's bridge have only a handful of men, too few to keep up attacks on the shoreline tribes."
   },
   {
    "q": "What proof of the cull does Guard Thomas require?",
@@ -83,7 +83,7 @@
     "is goldshire aware",
     "dughan reaction"
    ],
-   "answer": "Yes. Guard Thomas says Marshal Dughan is anxious about the murloc threat across eastern Elwynn, so reports of cleared camps matter to local morale."
+   "answer": "Yes. Guard Thomas says Marshal Dughan is anxious about the murloc threat across eastern Elwynn. Reports of cleared camps matter to local morale."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, you see how thin Stormwind's protection has grown just beyond the capital's heartland."
+   "text": "As a human, you see how thin Stormwind's protection has grown beyond the capital's heartland."
   },
   {
    "target": "class:Hunter",
@@ -123,5 +123,5 @@
  "attribution": [
   "Bounty on Murlocs"
  ],
- "style": 1
+ "style": 2
 }

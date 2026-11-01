@@ -17,16 +17,16 @@
   "wiki": "Eagan Peltskinner (quest)",
   "chain": []
  },
- "summary": "Outside Northshire Abbey, Eagan Peltskinner has work for recruits as timber wolves threaten the valley. The local furrier needs hunters to thin the packs and bring back pelts.",
+ "summary": "Timber wolves threaten Northshire Valley, and Eagan Peltskinner has work for recruits outside the abbey. The local furrier needs hunters to thin the packs and bring back pelts.",
  "sections": [
   {
    "title": "A Word with the Furrier",
-   "body": "Deputy Willem often sends recruits from the abbey to find Eagan Peltskinner, who works nearby on its grounds. Northshire Valley's orchards and fields lie beside wild woods where timber wolves prowl. Eagan wants newcomers to hunt the aggressive packs and gather pelts for his craft.",
+   "body": "Deputy Willem often sends abbey recruits to find Eagan Peltskinner on the nearby grounds. Northshire Valley's orchards and fields meet wild woods where timber wolves prowl. Eagan asks newcomers to hunt the aggressive packs and gather pelts for his craft.",
    "spoiler": 0
   },
   {
    "title": "Trouble on the Perimeter",
-   "body": "Timber wolves threaten workers, acolytes, and supplies moving in and out of Northshire. Sending young champions to Eagan helps keep nearby paths safe while sparing Stormwind's few remaining guards. They are already occupied by rising tensions across Elwynn Forest.",
+   "body": "Timber wolves threaten workers, acolytes, and supplies traveling to and from Northshire. Sending young champions to Eagan helps keep nearby paths safe and leaves Stormwind's few remaining guards free for other duties. Those guards are already occupied by rising tensions across Elwynn Forest.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who gives this quest",
     "who starts eagan peltskinner quest"
    ],
-   "answer": "Deputy Willem, outside Northshire Abbey's entrance, directs promising recruits to Eagan after introducing the valley's security concerns."
+   "answer": "Deputy Willem sends promising recruits to Eagan after telling them about the valley's security concerns. He waits outside Northshire Abbey's entrance."
   },
   {
    "q": "Where is Eagan Peltskinner located?",
@@ -55,7 +55,7 @@
     "why hunt wolves",
     "eagan purpose"
    ],
-   "answer": "Eagan needs a hunter to kill the aggressive timber wolves in the surrounding woods and bring back their pelts, clearing Northshire's perimeter."
+   "answer": "Eagan needs a hunter to kill aggressive timber wolves in the surrounding woods and bring back their pelts. This helps clear Northshire's perimeter."
   },
   {
    "q": "Can you skip this quest and talk to Eagan directly?",
@@ -63,7 +63,7 @@
     "can i skip eagan quest",
     "wolves across the border directly"
    ],
-   "answer": "Yes. Eagan offers his hunting work directly to anyone who approaches him. Speaking with him first simply means you miss Deputy Willem's introduction."
+   "answer": "Yes. Eagan offers hunting work to anyone who approaches him. Speaking with him first means you miss Deputy Willem's introduction."
   },
   {
    "q": "Why are there so many wolves in Northshire Valley?",
@@ -79,7 +79,7 @@
     "next quest after eagan",
     "what does eagan offer next"
    ],
-   "answer": "After you speak with Eagan, he asks you to hunt timber wolves beyond the abbey grounds and collect their tough pelts."
+   "answer": "After speaking with Eagan, you are asked to hunt timber wolves beyond the abbey grounds and collect their tough pelts."
   }
  ],
  "angles": [
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a young human leaving Northshire Abbey, helping local tradesfolk like Eagan is your first lesson in defending your homeland."
+   "text": "As a young human leaving Northshire Abbey, you first learn to defend your homeland by helping local tradesfolk like Eagan."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Eagan Peltskinner (quest)"
  ],
- "style": 1
+ "style": 2
 }

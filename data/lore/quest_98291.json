@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Howin Kindfeather asks you to thin the Dragonmaw ranks in Dragonmaw Retreat. He hopes to get close to Grim Batol and reclaim it for the Wildhammers, or learn more about it.",
+ "summary": "At Dragonmaw Retreat, Howin Kindfeather asks you to thin the Dragonmaw ranks. He hopes to reach Grim Batol and reclaim it for the Wildhammers, or learn more about it.",
  "sections": [
   {
    "title": "Dragonmaw Retreat",
-   "body": "The Dragonmaw orcs have gathered along the retreat, where red dragons routed them before. Howin needs their numbers reduced before he can approach Grim Batol. He points you east along the road to find them.",
+   "body": "Dragonmaw orcs have gathered along the retreat, where red dragons routed them before. Howin needs their numbers reduced before he can approach Grim Batol. He points you east along the road to find them.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who's Howin",
     "Howin guy"
    ],
-   "answer": "Howin Kindfeather wants to get back into Grim Batol and reclaim it for the Wildhammers, or at least learn more about it."
+   "answer": "Howin Kindfeather hopes to get back into Grim Batol and reclaim it for the Wildhammers, or at least learn more about it."
   },
   {
    "q": "Why does Howin want help?",
@@ -34,7 +34,7 @@
     "why help Howin",
     "what does Howin need"
    ],
-   "answer": "Howin says the Dragonmaw orcs are marching through Dragonmaw Retreat, and he needs their numbers thinned before he can approach Grim Batol."
+   "answer": "Howin says Dragonmaw orcs are marching through Dragonmaw Retreat. He needs their numbers thinned before he can approach Grim Batol."
   },
   {
    "q": "Where are the Dragonmaw orcs?",
@@ -42,7 +42,7 @@
     "where dragonmaw",
     "Dragonmaw location"
    ],
-   "answer": "The Dragonmaw orcs are along Dragonmaw Retreat. Howin says to follow the road east to find them."
+   "answer": "The Dragonmaw orcs are along Dragonmaw Retreat. Howin points you east along the road to find them."
   },
   {
    "q": "Who should I look for?",
@@ -76,7 +76,7 @@
   "subzone:grim-batol",
   "zone:wetlands"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Death to the Dragonmaw"
  ]

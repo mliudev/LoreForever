@@ -22,16 +22,16 @@
    "Vyrin's Revenge (2)"
   ]
  },
- "summary": "At Farstrider Lodge, A Hunter's Boast puts your skill to a timed test. Daryl the Youngling challenges you to slay six mountain buzzards in Loch Modan before fifteen minutes pass.",
+ "summary": "At Farstrider Lodge, Daryl the Youngling sets you a timed hunt in Loch Modan: bring down six mountain buzzards within fifteen minutes.",
  "sections": [
   {
    "title": "A Young Marksman's Arrogance",
-   "body": "Daryl the Youngling boasts of his skill at Farstrider Lodge. He calls himself Daryl the Bold and dismisses travelers as greenhorns who cannot match his hunting prowess. To prove it, he wagers that you cannot kill six local mountain buzzards within fifteen minutes.",
+   "body": "Daryl calls himself Daryl the Bold and dismisses travelers as greenhorns who cannot match his hunting skill. Then he points you toward the mountain buzzards scavenging around the lodge's nearby crags and hillsides.",
    "spoiler": 0
   },
   {
    "title": "Thinning the Scavengers",
-   "body": "Mountain buzzards scavenge and prey on smaller wildlife around Loch Modan's crags and hillsides. Daryl's timed hunt tests your speed, patience, and aim. If you bring down six before time runs out, his pride takes a blow. He reluctantly gives up one of his ranged weapons, then sets further hunting dares.",
+   "body": "The hunt tests your speed, patience, and aim against the buzzards' quick flight. Bring down all six before time runs out, and Daryl grudgingly gives up one of his ranged weapons. He offers you further hunting dares, too.",
    "spoiler": 0
   }
  ],
@@ -124,5 +124,5 @@
  "attribution": [
   "A Hunter's Boast"
  ],
- "style": 1
+ "style": 2
 }

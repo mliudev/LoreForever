@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Thousand Needles"
  },
- "summary": "Zamek can create the diversion that Keeping Pace calls for. It comes while you are in the middle of that step, and Keeping Pace cannot be finished without it.",
+ "summary": "In Thousand Needles, Zamek's Distraction can draw Rizzle away while you work through Keeping Pace. You cannot finish Keeping Pace without it.",
  "sections": [
   {
    "title": "A Timely Diversion",
-   "body": "While you are working through Keeping Pace, Zamek can create a diversion. When it happens, Rizzle leaves his hut, and the Indurium plans are left behind.",
+   "body": "While you work through Keeping Pace, Zamek draws Rizzle from his hut. The Indurium plans remain behind.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "zamek quest giver",
     "where do i get zameks distraction"
    ],
-   "answer": "Zamek, in Thousand Needles."
+   "answer": "Zamek gives it in Thousand Needles."
   },
   {
    "q": "How does this relate to Keeping Pace?",
@@ -43,7 +43,7 @@
     "keeping pace zamek",
     "connection to keeping pace"
    ],
-   "answer": "It comes while you are in the middle of Keeping Pace, and that step cannot be finished without it."
+   "answer": "It comes while you are in the middle of Keeping Pace, and you cannot finish that step without it."
   },
   {
    "q": "What does the diversion do?",
@@ -60,7 +60,7 @@
     "alliance or horde zamek",
     "who can do zameks distraction"
    ],
-   "answer": "Yes. It is neutral, open to either faction."
+   "answer": "Yes. Zamek is neutral and works with either faction."
   }
  ],
  "angles": [],
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Zamek's Distraction"
- ]
+ ],
+ "style": 2
 }

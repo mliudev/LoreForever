@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Trevan Rol asks you to bring him Ott's Masterwork in Silverpine Forest. The blade is the last part of his work before he faces a beast.",
+ "summary": "In Silverpine Forest, Trevan Rol awaits the blade that will complete his work before he faces a beast.",
  "sections": [
   {
    "title": "The Blade",
-   "body": "Ott thanks you for the opportunity and asks you to pass his gratitude to Trevan. You carry Ott's Masterwork back to Trevan Rol in Silverpine Forest.",
+   "body": "Ott thanks you for the chance to help and asks you to carry his gratitude to Trevan. You bring Ott's Masterwork back to Trevan Rol in Silverpine Forest.",
    "spoiler": 0
   },
   {
    "title": "Trevan's Approval",
-   "body": "Trevan inspects the blade and approves of Ott's work. He says the only thing left is to kill the beast, and directs you to speak with Lumina when you are ready.",
+   "body": "Trevan Rol examines the blade and approves of Ott's work. Only the beast remains. When you are ready, he directs you to speak with Lumina.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "ott blade",
     "masterwork maker"
    ],
-   "answer": "Ott made the blade and sent it with you to Trevan Rol."
+   "answer": "Ott made Ott's Masterwork and sent it with you to Trevan Rol."
   },
   {
    "q": "Who is Trevan Rol?",
@@ -41,7 +41,7 @@
     "trevan blade",
     "trevan rol"
    ],
-   "answer": "Trevan Rol is the one who receives and inspects Ott's Masterwork in Silverpine Forest."
+   "answer": "Trevan Rol receives and inspects Ott's Masterwork in Silverpine Forest."
   },
   {
    "q": "Where do I bring the blade?",
@@ -59,7 +59,7 @@
     "is ott's blade good",
     "trevan approval"
    ],
-   "answer": "Trevan inspects the blade and says it will do nicely."
+   "answer": "Trevan Rol inspects the blade and says it will do nicely."
   },
   {
    "q": "Who should I speak with after Trevan?",
@@ -68,7 +68,7 @@
     "who is lumina",
     "speak to lumina"
    ],
-   "answer": "Trevan directs you to speak with Lumina when you are ready."
+   "answer": "When you are ready, Trevan Rol directs you to speak with Lumina."
   }
  ],
  "angles": [],
@@ -85,7 +85,7 @@
   "quest:95125",
   "zone:silverpine"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Moonsilver Blade"
  ]

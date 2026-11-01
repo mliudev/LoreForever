@@ -17,11 +17,11 @@
   "wiki": "The Missing Diplomat (8)",
   "chain": []
  },
- "summary": "In Stormwind, the search for the missing diplomat brings you face to face with Dashel Stonefist in Old Town. You need answers from a man who would rather keep them to himself.",
+ "summary": "In Stormwind, you seek the missing diplomat and find Dashel Stonefist in Old Town. You need answers from a man who would rather keep them to himself.",
  "sections": [
   {
    "title": "A Friendly Chat in Old Town",
-   "body": "In Old Town, your search for the missing diplomat leads among cutpurses and shady brokers, beyond the Cathedral's watchful eye. Dashel Stonefist is a local contact with ties to Stormwind's criminal factions, and he knows about the abduction. He has no wish to share what he knows with investigators asking sensitive questions.",
+   "body": "In Old Town, your search leads through cutpurses and shady brokers, beyond the Cathedral’s watchful eye. Dashel Stonefist is a local contact with ties to Stormwind’s criminal factions. He knows about the abduction, but has no wish to share what he knows with investigators asking sensitive questions.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who is stonefist",
     "dashel"
    ],
-   "answer": "Dashel Stonefist is a shady local contact in Old Town with ties to Stormwind's criminal underworld. He knows more than he lets on about illicit movements through the city."
+   "answer": "Dashel Stonefist is a shady local contact in Old Town with ties to Stormwind’s criminal underworld. He knows more than he lets on about illicit movements through the city."
   },
   {
    "q": "Why do I have to fight Dashel instead of just talking to him?",
@@ -83,7 +83,7 @@
     "who is the diplomat",
     "missing king"
    ],
-   "answer": "The search for a lost ambassador uncovers a web of deceit around the diplomat's abduction and the shadowy figures behind it."
+   "answer": "The search for a lost ambassador uncovers a web of deceit around the diplomat’s abduction and the shadowy figures behind it."
   }
  ],
  "angles": [
@@ -93,11 +93,11 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, you see Stormwind thugs hindering the search for the missing diplomat, a threat to the kingdom's security."
+   "text": "As a human, you see Stormwind thugs hindering the search for the missing diplomat, a threat to the kingdom’s security."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, every lead on the diplomat's disappearance may expose the treachery threatening the leadership's stability."
+   "text": "As an Alliance member, every lead on the diplomat’s disappearance may expose the treachery threatening the leadership’s stability."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "The Missing Diplomat (8)"
  ],
- "style": 1
+ "style": 2
 }

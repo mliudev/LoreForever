@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Valley of Heroes"
  },
- "summary": "Stone statues watch over the Valley of Heroes, where Stormwind's southern road crosses the moat into the city. They honor the leaders of the Alliance Expedition to Draenor, and guards hold this fortified entrance.",
+ "summary": "In the Valley of Heroes, stone commanders watch the southern road into Stormwind. Guards hold this fortified crossing over the moat, where the city honors the leaders of the Alliance Expedition to Draenor.",
  "sections": [
   {
    "title": "A Monument to the Lost",
-   "body": "You cross the moat beneath statues honoring the commanders of the Alliance Expedition. Stormwind's rebuilding after the Second War raised these monuments along the causeway. The champions marched through the Dark Portal into Draenor to seal the rift forever, giving their lives so Azeroth might survive. As you head north toward the Trade District, you pass Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon.",
+   "body": "You cross the moat beneath statues honoring the Alliance Expedition’s commanders. Stormwind raised the monuments along this causeway as the city was rebuilt after the Second War. The champions marched through the Dark Portal into Draenor to seal the rift forever. They gave their lives so Azeroth might survive.\n\nAs you head north toward the Trade District, you pass Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon.",
    "spoiler": 0
   },
   {
    "title": "The City Bastion",
-   "body": "General Marcus Jonathan watches Stormwind's gates from horseback, overseeing the guards and the traffic in and out. The valley is the city's main defense against an overland invasion. Major Mattingly, Field Marshal Stonebridge, and rows of seasoned guards keep watch beside him, guarding the capital from threats beyond its walls.",
+   "body": "General Marcus Jonathan watches Stormwind's gates from horseback. He oversees the guards and the traffic passing in and out. The valley is the city's main defense against an overland invasion.\n\nMajor Mattingly, Field Marshal Stonebridge, and rows of seasoned guards keep watch beside him. Together, they guard the capital from threats beyond its walls.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "valley statues",
     "names on statues"
    ],
-   "answer": "The five statues honor the commanders of the Sons of Lothar who led the Alliance Expedition to Draenor: High General Turalyon, Ranger-Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Force Commander Danath Trollbane."
+   "answer": "The five statues honor the commanders of the Sons of Lothar who led the Alliance Expedition to Draenor. They are High General Turalyon, Ranger-Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Force Commander Danath Trollbane."
   },
   {
    "q": "Why were these monuments placed at the city gate?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Valley of Heroes"
  ],
- "style": 1
+ "style": 2
 }

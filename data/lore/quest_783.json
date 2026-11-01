@@ -19,16 +19,16 @@
    "A Threat Within"
   ]
  },
- "summary": "Volunteers are answering Stormwind's call in Northshire Valley, where local defenses need help. At Northshire Abbey, Marshal McBride explains that the kingdom's forces are spread thin abroad, leaving garrisons short-handed against trouble at home.",
+ "summary": "In Northshire Valley, volunteers answer Stormwind's call as local defenses falter. At Northshire Abbey, Marshal McBride directs the response, and you begin serving on the threatened grounds.",
  "sections": [
   {
    "title": "A Kingdom Stretched Thin",
-   "body": "Northshire Valley once offered quiet for prayer, farming, and monastic study. Now it is Elwynn Forest's first line of defense against unrest at home. Stormwind's regular forces serve on distant fronts, leaving the heartlands short of soldiers. With few guards nearby, the Stormwind Guard must call on every willing volunteer who reaches the abbey.",
+   "body": "Northshire Valley once gave people quiet for prayer, farming, and monastic study. Now it is Elwynn Forest's first defense against unrest at home. Few guards remain nearby, so the Stormwind Guard calls on each willing volunteer who reaches the abbey. Trouble spreads across the surrounding countryside.",
    "spoiler": 0
   },
   {
    "title": "The Marshal's Call",
-   "body": "Marshal McBride directs Northshire Valley's defenses from Northshire Abbey as pressures grow. Distant dangers threaten the Alliance, while bandits, vermin, and pests from below ground take advantage of the shortage of soldiers close to home. You answer the call to serve in the valley, starting with the ground around the abbey as threats spread across Elwynn.",
+   "body": "From Northshire Abbey, Marshal McBride directs the valley's defenses as danger grows. Bandits, vermin, and pests from below ground threaten the people nearby. You begin by clearing the ground around the abbey, where these threats press close to the valley's defenders and the place they protect.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "what is this quest",
     "northshire intro quest"
    ],
-   "answer": "Marshal McBride is calling new arrivals to Northshire Valley to join its defense. You go inside Northshire Abbey and report to him."
+   "answer": "Marshal McBride is calling new arrivals to Northshire Valley to help defend it. You go inside Northshire Abbey and report to him."
   },
   {
    "q": "Who is Marshal McBride?",
@@ -49,7 +49,7 @@
     "who is mcbride",
     "abbey commander"
    ],
-   "answer": "Marshal McBride is the senior Stormwind Guard officer at Northshire Abbey. He directs the valley's defense and assigns recruits to address threats in the nearby countryside."
+   "answer": "Marshal McBride is the senior Stormwind Guard officer at Northshire Abbey. He directs the valley's defense and assigns recruits to face threats in the nearby countryside."
   },
   {
    "q": "Why is Stormwind recruiting volunteers instead of sending regular soldiers?",
@@ -58,7 +58,7 @@
     "where are the guards",
     "why is stormwind understaffed"
    ],
-   "answer": "Stormwind's regular forces are serving abroad to protect the Alliance. With heartland garrisons short of soldiers, local commanders rely on volunteers to defend their homes."
+   "answer": "Stormwind's regular forces serve abroad to protect the Alliance. With heartland garrisons short of soldiers, local commanders rely on volunteers to defend their homes."
   },
   {
    "q": "What threats are currently plaguing Northshire Valley?",
@@ -85,7 +85,7 @@
     "northshire church military",
     "holy abbey soldiers"
    ],
-   "answer": "Northshire Abbey is a holy place of study and faith, but its stone walls and central position make it the valley's practical base. With local authority under strain, the Stormwind Guard has set up its command within the abbey."
+   "answer": "Northshire Abbey is a holy place of study and faith, but its stone walls and central position make it a practical base for the valley. With local authority under strain, the Stormwind Guard has set up its command within the abbey."
   }
  ],
  "angles": [
@@ -95,7 +95,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see how commitments across distant lands leave even its heartlands exposed to trouble within."
+   "text": "As an Alliance member, you see how duties across distant lands leave even its heartlands exposed to trouble within."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "A Threat Within"
  ],
- "style": 1
+ "style": 2
 }

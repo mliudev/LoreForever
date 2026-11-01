@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This quest forms a crucial step in a dwarven paladin's early trials with the Tome of Divinity, teaching selfless devotion to the Light through protecting the kingdom and rescuing comrades in need."
+   "text": "As a paladin, you face an early trial in the Tome of Divinity. Protecting the kingdom and rescuing comrades in need show your devotion to the Light."
   },
   {
    "target": "race:Dwarf",
-   "text": "Uncovering Dark Iron infiltration right on the doorstep of Ironforge is vital for dwarven defense, proving to stubborn councilors that the ancestral enemy has breached Dun Morogh."
+   "text": "For dwarves, uncovering Dark Iron spies near Ironforge is vital to the kingdom's defense. It proves to skeptical councilors that an old enemy has entered Dun Morogh."
   },
   {
    "target": "faction:Alliance",
-   "text": "Exposing Dark Iron sabotage around Ironforge protects the dwarf capital and shores up the northern security of the Alliance against covert threats."
+   "text": "For the Alliance, exposing Dark Iron sabotage near Ironforge protects the dwarf capital and strengthens northern defenses against covert threats."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "tome of divinity questgiver",
     "who is narm"
    ],
-   "answer": "The quest is given by Narm Faulk, an injured dwarf who fell in battle against Dark Iron spies near Helm's Bed Lake. He sends you to retrieve enemy scripts and report back to his companion Muiredon Battleforge in Ironforge.",
+   "answer": "Narm Faulk gives you the charge to retrieve enemy scripts and report to his companion Muiredon Battleforge in Ironforge. He is an injured dwarf, wounded fighting Dark Iron spies near Helm's Bed Lake.",
    "q": "Who gives The Tome of Divinity quest?"
   },
   {
@@ -41,7 +41,7 @@
     "where is muiredon",
     "muiredon battleforge location"
    ],
-   "answer": "Muiredon Battleforge is a dwarf based in Ironforge. He scouted the Dark Iron spies alongside Narm Faulk near Helm's Bed Lake before returning to the city to recover from his wounds.",
+   "answer": "Muiredon Battleforge is a dwarf in Ironforge. He scouted the Dark Iron spies near Helm's Bed Lake with Narm Faulk, then returned to the city to recover from his wounds.",
    "q": "Who is Muiredon Battleforge?"
   },
   {
@@ -50,7 +50,7 @@
     "why get dark iron script",
     "dark iron script purpose"
    ],
-   "answer": "The Dark Iron Script contains written orders passed between Dark Iron spies and their captain near Helm's Bed Lake. It provides concrete evidence of hostile infiltration to show the skeptical Ironforge council.",
+   "answer": "The Dark Iron Script contains written orders passed between Dark Iron spies and their captain near Helm's Bed Lake. It offers evidence of hostile infiltration for Ironforge's skeptical council.",
    "q": "What is the Dark Iron Script?"
   },
   {
@@ -58,7 +58,7 @@
     "why council deny dark irons",
     "ironforge council dark iron proof"
    ],
-   "answer": "Certain council members in Ironforge remain skeptical that Dark Iron dwarves have managed to infiltrate Dun Morogh. The recovered scripts prove their active movements and expose their clandestine plans.",
+   "answer": "Some members of Ironforge's council doubt Dark Iron dwarves have entered Dun Morogh. The recovered scripts prove their movements and reveal their secret plans.",
    "q": "Why does the council in Ironforge need proof of the Dark Irons?"
   },
   {
@@ -67,7 +67,7 @@
     "helms bed dark irons",
     "dark iron location dun morogh"
    ],
-   "answer": "Helm's Bed Lake is located in eastern Dun Morogh, east of Kharanos. Dark Iron spies operate near a small house in the area, attempting to pass covert battle orders.",
+   "answer": "The Dark Iron spies operate near Helm's Bed Lake in eastern Dun Morogh, east of Kharanos. They work near a small house, passing covert battle orders.",
    "q": "Where are the Dark Iron spies located?"
   },
   {
@@ -75,7 +75,7 @@
     "what does the tome of divinity teach",
     "paladin tome of divinity lore"
    ],
-   "answer": "The Tome of Divinity series tests an aspiring paladin's dedication to service, compassion, and courage. By aiding fallen comrades like Narm and defending Dun Morogh from insidious foes, the paladin proves worthy of wielding the Light.",
+   "answer": "The Tome of Divinity trials test an aspiring paladin's service, compassion, and courage. By helping fallen comrades such as Narm and defending Dun Morogh, you prove your devotion to the Light.",
    "q": "What role does this quest play for paladins?"
   }
  ],
@@ -97,23 +97,24 @@
  ],
  "sections": [
   {
-   "body": "The Tome of Divinity guides young dwarven paladins along their spiritual calling. In this trial, aspiring champions are drawn into Dun Morogh's defense when an expedition against covert Dark Iron operatives goes awry near Helm's Bed Lake. Narm Faulk and Muiredon Battleforge attempted to ambush enemy scouts, but Narm fell wounded in the skirmish while Muiredon retreated to Ironforge to recover.",
+   "body": "Young dwarven paladins answer the call to defend Dun Morogh when an expedition near Helm's Bed Lake goes wrong. Narm Faulk and Muiredon Battleforge set out to ambush Dark Iron scouts. Narm fell wounded, while Muiredon returned to Ironforge to recover.",
    "spoiler": 0,
    "title": "A Trial of Service"
   },
   {
-   "body": "Despite growing rumors, several members of the ruling council in Ironforge refuse to acknowledge that Dark Iron infiltrators have penetrated Dun Morogh. By tracking down the spies near Helm's Bed and recovering a Dark Iron Script passed by their captain, the paladin secures undeniable proof of enemy movements and uncovers their brewing plots right outside the capital's gates.",
+   "body": "Rumors of Dark Iron infiltrators have reached Ironforge, yet some council members refuse to believe they have entered Dun Morogh. Near Helm's Bed, the paladin can track down the spies and recover a Dark Iron Script from their captain. The orders offer proof of enemy movements and plots near the capital's gates.",
    "spoiler": 0,
    "title": "Proof for the Council"
   },
   {
-   "body": "Returning the intercepted orders to Muiredon Battleforge in Ironforge brings great relief. With Narm rescued and the recovered documents handed over for Muiredon's wife to present before the council, the paladin demonstrates both selfless bravery and devotion to the Light, protecting the dwarven realm from hidden treachery.",
+   "body": "Bringing the intercepted orders to Muiredon Battleforge in Ironforge brings relief. Narm has been rescued, and the documents go to Muiredon's wife to present before the council. The paladin's bravery and devotion to the Light help guard the dwarven realm from hidden treachery.",
    "spoiler": 1,
    "title": "Securing the Hearth"
   }
  ],
- "summary": "The Tome of Divinity is a pivotal paladin trial centered on uncovering a covert Dark Iron infiltration in Dun Morogh. Aspiring paladins come to the aid of injured scouts Narm Faulk and Muiredon Battleforge, securing vital enemy orders to convince the skeptical council in Ironforge of the danger looming nearby.",
+ "summary": "In Dun Morogh, injured scouts need help exposing Dark Iron spies near Helm's Bed Lake. Their orders may persuade Ironforge's skeptical council to heed the danger.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

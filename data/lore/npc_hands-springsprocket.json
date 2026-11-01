@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Bottleneck in the Pass",
-   "body": "Hands Springsprocket waits at the mouth of Coldridge Pass, where Rockjaw troggs have stopped his supply runs. He usually carries provisions to the Thunderbrew distillery and the inn in Kharanos. The troggs have overrun the underground tunnel out of Coldridge Valley, halting trade and foot traffic. Hands now depends on travelers able to carry essential crates through the dangerous mountain passage.",
+   "body": "At the mouth of Coldridge Pass, Hands Springsprocket finds his supply runs stopped by Rockjaw troggs. He usually carries provisions to the Thunderbrew distillery and the inn in Kharanos. The troggs have overrun the underground tunnel out of Coldridge Valley, halting trade and foot traffic. Now Hands depends on travelers who can carry essential crates through the dangerous mountain passage.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "coldridge pass supplies",
     "why are supplies stuck"
    ],
-   "answer": "Rockjaw troggs have infested the pass between Coldridge Valley and the rest of Dun Morogh, making routine transport too dangerous without armed escorts or capable travelers."
+   "answer": "Rockjaw troggs have infested the pass between Coldridge Valley and the rest of Dun Morogh. Routine transport is too dangerous without armed escorts or capable travelers."
   },
   {
    "q": "Where are his supplies destined?",
@@ -77,5 +77,5 @@
  "attribution": [
   "Hands Springsprocket"
  ],
- "style": 1
+ "style": 2
 }

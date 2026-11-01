@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "For the Skyborne, this audience formally opens the gates of Stormwind and Alliance territory to high elven travelers arriving through the portal."
+   "text": "As a Skyborne, you are welcomed into Stormwind and granted passage across Alliance territory when you arrive through the portal."
   },
   {
    "target": "faction:Alliance",
@@ -27,7 +27,7 @@
     "what is welcome to azeroth",
     "welcome to azeroth quest"
    ],
-   "answer": "'Welcome to Azeroth' is an introductory quest where a traveler steps through the Skyborne Portal into Stormwind and presents themselves before Highlord Bolvar Fordragon in Stormwind Keep.",
+   "answer": "You arrive in Stormwind through the Skyborne Portal and present yourself to Highlord Bolvar Fordragon at Stormwind Keep.",
    "q": "What is this quest about?"
   },
   {
@@ -35,7 +35,7 @@
     "who is bolvar fordragon",
     "regent of stormwind"
    ],
-   "answer": "Highlord Bolvar Fordragon serves as the regent to the throne of Stormwind, governing the realm in Stormwind Keep on behalf of the young King Anduin Wrynn while King Varian remains missing.",
+   "answer": "Highlord Bolvar Fordragon governs Stormwind as regent from Stormwind Keep. He rules on behalf of the young King Anduin Wrynn while King Varian remains missing.",
    "q": "Who is Bolvar Fordragon?"
   },
   {
@@ -43,7 +43,7 @@
     "why are skyborne in stormwind",
     "high elves stormwind"
    ],
-   "answer": "A messenger from the Kirin Tor alerted Bolvar Fordragon that members of the High Order would be arriving. Bolvar accepts them as guests of the crown, granting them permission to explore and travel freely across Alliance lands.",
+   "answer": "A Kirin Tor messenger told Bolvar Fordragon that members of the High Order would arrive. He welcomes them as guests of the crown and grants them leave to travel freely across Alliance lands.",
    "q": "Why is Bolvar receiving the Skyborne?"
   },
   {
@@ -51,7 +51,7 @@
     "who is high order",
     "high order lore"
    ],
-   "answer": "The High Order represents the faction or group associated with the Skyborne high elves whose arrival was announced to Stormwind's leadership by the Kirin Tor.",
+   "answer": "The High Order is the group associated with the Skyborne high elves. The Kirin Tor announced their arrival to Stormwind's leaders.",
    "q": "What is the High Order?"
   },
   {
@@ -59,7 +59,7 @@
     "skyborne portal destination",
     "where does portal go"
    ],
-   "answer": "The Skyborne Portal brings travelers directly into the human capital city of Stormwind, allowing new arrivals to proceed straight to Stormwind Keep to seek audience with the crown.",
+   "answer": "The Skyborne Portal brings travelers directly into Stormwind, the human capital. From there, newcomers can go to Stormwind Keep to seek an audience with the crown.",
    "q": "Where does the Skyborne Portal lead?"
   },
   {
@@ -67,7 +67,7 @@
     "are skyborne alliance",
     "skyborne welcome alliance"
    ],
-   "answer": "Bolvar Fordragon formally welcomes the Skyborne as guests on behalf of the King and explicitly grants them leave to travel unhindered throughout the lands of the Alliance.",
+   "answer": "Bolvar Fordragon welcomes the Skyborne as the King's guests and grants them leave to travel unhindered throughout Alliance lands.",
    "q": "Are the Skyborne allowed throughout Alliance territory?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Arriving through the mystical Skyborne Portal, travelers step directly into the bustling capital of Stormwind. Tasked with reporting to the seat of human leadership, newcomers make their way up through the city's grand thoroughfares to Stormwind Keep to present themselves before the regency.",
+   "body": "You step through the Skyborne Portal into Stormwind, the human capital. From there, you make your way along the city's grand thoroughfares to Stormwind Keep, where the regency awaits your arrival.",
    "spoiler": 0,
    "title": "Arrival in the Capital"
   },
   {
-   "body": "Standing in the grand throne room, Highlord Bolvar Fordragon greets arriving members of the High Order after prior notice from a Kirin Tor courier. Noting that it has been quite some time since high elves walked the halls of Stormwind Keep, the Regent graciously accepts them as guests and grants them free passage across all Alliance territories on behalf of the King.",
+   "body": "Highlord Bolvar Fordragon receives the arriving members of the High Order in the throne room. A Kirin Tor courier had warned him they were coming. It has been some time since high elves walked the halls of Stormwind Keep, yet Bolvar welcomes them as guests and grants them free passage across Alliance territories on behalf of the King.",
    "spoiler": 0,
    "title": "An Audience with the Regent"
   }
  ],
- "summary": "'Welcome to Azeroth' marks the arrival of Skyborne travelers into the human capital of Stormwind via the Skyborne Portal. Reporting to Stormwind Keep, newcomers receive formal recognition and leave from Highlord Bolvar Fordragon to travel freely throughout Alliance lands.",
+ "summary": "You arrive in Stormwind through the Skyborne Portal and are welcomed by its regent. Highlord Bolvar Fordragon grants you leave to travel across Alliance lands.",
  "attribution": [
   "In-game quest text: Welcome to Azeroth"
- ]
+ ],
+ "style": 2
 }

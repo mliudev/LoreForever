@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A messenger leaves a marked parchment while you are away, and your teacher Nartok wants to speak with you. Its words challenge Thrall\u2019s rule and warn of the danger faced by those who wield warlock power.",
+ "summary": "A marked parchment waits for you after your absence, and your teacher Nartok asks to speak with you. Its words challenge Thrall’s rule and warn of the dangers warlocks face.",
  "sections": [
   {
    "title": "A message waits",
-   "body": "The parchment is said to come from Nartok, your new teacher. You are asked to read it and speak with him in the Den in the Valley of Trials. Nartok speaks of orcs as a proud people and argues that Thrall turns away from power that could make the land theirs.",
+   "body": "The marked parchment is believed to come from Nartok, your new teacher. Read it, then speak with him in the Den in the Valley of Trials. He calls the orcs a proud people and says Thrall turns away from power that could make the land theirs.",
    "spoiler": 0
   },
   {
    "title": "A place among them",
-   "body": "Nartok says you have joined their ranks, but warns that access to warlock power will not make you welcome. Thrall allows warlocks into Orgrimmar because they remain orcs; Nartok cautions you that recklessness can be fatal. He remains available if you need instruction in spellcasting.",
+   "body": "Nartok says you have joined their ranks, yet warlock power will not make you welcome. Thrall allows warlocks into Orgrimmar because they remain orcs. Nartok warns that recklessness can be fatal. He remains ready to teach you spellcasting if you need instruction.",
    "spoiler": 1
   }
  ],
@@ -63,7 +63,7 @@
     "nartok warning",
     "warlock danger"
    ],
-   "answer": "Nartok warns that access to warlock power does not ensure acceptance, and that recklessness can be fatal."
+   "answer": "Nartok warns that warlock power does not ensure acceptance, and recklessness can be fatal."
   },
   {
    "q": "Can Nartok teach me spells?",
@@ -71,13 +71,13 @@
     "spell lessons",
     "warlock training"
    ],
-   "answer": "Nartok says you can seek him again if you need instruction in spellcasting."
+   "answer": "Nartok remains available if you need instruction in spellcasting."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, Nartok\u2019s warning concerns the power you wield and the danger of acting recklessly."
+   "text": "As a warlock, you face the danger Nartok warns of: wielding your power recklessly may prove fatal."
   }
  ],
  "keywords": [
@@ -94,7 +94,7 @@
   "npc:thrall",
   "zone:orgrimmar"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Besudeltes Pergament"
  ]

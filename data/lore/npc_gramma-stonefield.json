@@ -8,11 +8,11 @@
   "wiki": "Gramma Stonefield",
   "refs": 1
  },
- "summary": "At the Stonefield farm in Elwynn, Gramma Stonefield quietly works to ease a family feud.",
+ "summary": "At the Stonefield farm in Elwynn, Gramma Stonefield works quietly to ease a family feud.",
  "sections": [
   {
    "title": "A Secret Peacemaker",
-   "body": "Gramma Stonefield has watched the Stonefields and the Maclures bicker for decades across the road. The oldest living member of the Stonefield clan, she sees their rivalry as senseless and harmful. When her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, Gramma chooses compassion over clan loyalty. She turns to her old friend William Pestle in Goldshire and quietly plans ways for the sweethearts to meet in secret, despite the hostility between their farms.",
+   "body": "For decades, the Stonefields and Maclures have bickered across the road. Gramma Stonefield, the oldest living member of her clan, sees their rivalry as senseless and harmful. So when her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, she chooses compassion over clan loyalty. She turns to her old friend William Pestle in Goldshire and quietly plans ways for the sweethearts to meet in secret despite the hostility between their farms.",
    "spoiler": 0
   }
  ],
@@ -49,13 +49,13 @@
     "william pestle connection",
     "william pestle gramma"
    ],
-   "answer": "William Pestle is an old, trusted friend of Gramma Stonefield. He lives at the Lion's Pride Inn in Goldshire, where he works as an alchemist, and she sends trusted couriers to ask him for remedies and other help for Tommy Joe."
+   "answer": "William Pestle is an old, trusted friend of Gramma Stonefield. He lives at the Lion's Pride Inn in Goldshire, where he works as an alchemist. She sends trusted couriers to ask him for remedies and other help for Tommy Joe."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, Gramma Stonefield shows how local conflicts in the heartland can call for quiet diplomacy and empathy."
+   "text": "As an Alliance traveler, you can see how local conflicts in the heartland call for quiet diplomacy and empathy."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
  "attribution": [
   "Gramma Stonefield"
  ],
- "style": 1
+ "style": 2
 }

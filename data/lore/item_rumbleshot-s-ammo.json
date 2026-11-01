@@ -10,11 +10,11 @@
    "quest:5541"
   ]
  },
- "summary": "Near the Grizzled Den, Rumbleshot's Ammo lies abandoned in the snow. The crate was bound for gunsmith Hegnar Rumbleshot in Dun Morogh, but a frightened courier fled from hungry wendigos and left it behind.",
+ "summary": "Near the Grizzled Den, Rumbleshot's Ammo lies abandoned in the snow. Its courier fled from hungry wendigos before the crate could reach gunsmith Hegnar Rumbleshot in Dun Morogh.",
  "sections": [
   {
    "title": "A Stranded Shipment",
-   "body": "Hegnar Rumbleshot keeps a roadside arms shop on the mountain path from Coldridge Pass toward Anvilmar. Ironforge riflemen, mountaineers, and dwarven mortar teams drill in the snowy heights, and his supplies run low as quickly as powder burns. Loslor sent this shipment of shot from Kharanos, but it never reached the shelves. Its courier camped too close to the Grizzled Den's wendigos. When they attacked, the courier panicked and fled, leaving the heavy crate in the beasts' hunting grounds.",
+   "body": "Hegnar Rumbleshot keeps a roadside arms shop on the mountain path from Coldridge Pass toward Anvilmar. Ironforge riflemen, mountaineers, and dwarven mortar teams drill in the snowy heights, so his supplies run low as quickly as powder burns.\n\nLoslor sent the shot from Kharanos, but the shipment never reached the shelves. Its courier camped too close to the Grizzled Den. When the wendigos attacked, the courier fled in panic and left the heavy crate in their hunting grounds.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is hegnar",
     "gun vendor"
    ],
-   "answer": "Hegnar Rumbleshot is a dwarven gunsmith with a shop off the road toward Anvilmar. He supplies local marksmen, hunters, and military gunners, who use munitions while practicing in Dun Morogh's crags."
+   "answer": "Hegnar Rumbleshot is a dwarven gunsmith with a shop off the road toward Anvilmar. He supplies local marksmen, hunters, and military gunners who practice in Dun Morogh's crags."
   },
   {
    "q": "How did the ammo crate get lost?",
@@ -43,13 +43,13 @@
     "grizzled den location",
     "where is wendigo cave"
    ],
-   "answer": "The Grizzled Den is a cavern system in the mountains southwest of Kharanos. Dun Morogh's wendigos make their lair there, putting solitary travelers on the surrounding slopes in danger."
+   "answer": "The Grizzled Den is a cavern system in the mountains southwest of Kharanos. Wendigos make their lair there, putting solitary travelers on the surrounding slopes in danger."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter in Dun Morogh, keep Hegnar's powder dry and shot stocked for a steady supply of ammunition for dwarven firearms."
+   "text": "As a hunter in Dun Morogh, keep Hegnar's powder dry and his shot stocked. Dwarven firearms need a steady supply of ammunition."
   },
   {
    "target": "profession:Engineering",
@@ -79,5 +79,5 @@
   "Rumbleshot's Ammo",
   "Ammo for Rumbleshot"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Brill"
  },
- "summary": "Brill is the primary Forsaken settlement in the heart of Tirisfal Glades, situated just north of the Ruins of Lordaeron. Once a prosperous human town, it now serves as the administrative and military hub for newly awakened undead stepping beyond the confines of Deathknell.",
+ "summary": "In Brill, Forsaken gather north of the Ruins of Lordaeron. Newly awakened undead travel here from Deathknell, joining a rebuilt human town that now anchors Forsaken rule and arms in tirisfal glades.",
  "sections": [
   {
    "title": "From Plague Ground to Bastion",
-   "body": "Before the Third War, Brill was a lively village under the sway of regional nobles such as the Barov and Agamand families. That prosperity ended when Kel'Thuzad chose the area for the Cult of the Damned's earliest experiments with the Plague of Undeath. The devastating blight swept through the population so quickly that local militia were driven out, leaving a sprawling mass graveyard in its wake.\n\nNow rebuilt by the Forsaken under the leadership of Magistrate Sevren, the town retains its weathered Lordaeron architecture beneath an atmosphere of grim purpose. Brill functions as the regional command center, coordinating defenses against Scarlet Crusade incursions, roaming Scourge remnants, and native beasts warped by necromantic decay.",
+   "body": "Before the Third War, Brill grew under nobles such as the Barov and Agamand families. Then Kel'Thuzad chose the region for the Cult of the Damned's first experiments with the Plague of Undeath. The blight swept through the people so swiftly that the local militia fled. A vast graveyard remained for the dead.\n\nNow Magistrate Sevren leads the Forsaken who have rebuilt Brill. Weathered Lordaeron buildings line its streets. The town coordinates defenses against Scarlet Crusade attacks, Scourge remnants, and native beasts changed by necromantic decay.",
    "spoiler": 0
   },
   {
    "title": "Crossroads of Northern Lordaeron",
-   "body": "Beyond local defense, Brill is an essential crossroads linking Tirisfal Glades to the wider Horde. Overhead, the goblin-operated zeppelin tower provides transit south toward Durotar and deep into Stranglethorn Vale. Within the settlement, Gallows' End Tavern serves not only as a dark shelter for travelers, but also as a makeshift laboratory where captured Scarlet zealots are interrogated and subjected to apothecarial testing.",
+   "body": "Brill links Tirisfal Glades to the wider Horde. Goblins operate the zeppelin tower, carrying travelers south toward Durotar and deep into Stranglethorn Vale. Gallows' End Tavern offers shelter. Its cellar also holds captured Scarlet zealots for interrogation and apothecarial testing.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is in charge of brill",
     "magistrate of brill"
    ],
-   "answer": "Magistrate Sevren oversees the civil administration and local defenses of Brill on behalf of Lady Sylvanas Windrunner and the Forsaken."
+   "answer": "Magistrate Sevren oversees Brill's civil administration and local defenses for Lady Sylvanas Windrunner and the Forsaken."
   },
   {
    "q": "Why is there such a massive graveyard outside Brill?",
@@ -37,7 +37,7 @@
     "cemetery near brill",
     "why so many graves"
    ],
-   "answer": "Kel'Thuzad conducted some of his very first live experiments with the Plague of Undeath in Brill. The contagion wiped out the local human population with horrifying speed, necessitating a mass graveyard to inter the victims before they rose as Scourge."
+   "answer": "Kel'Thuzad carried out some of his first live experiments with the Plague of Undeath in Brill. The contagion killed the local human population so quickly that a mass graveyard was needed to bury the victims before they rose as Scourge."
   },
   {
    "q": "What is Gallows' End Tavern used for?",
@@ -46,7 +46,7 @@
     "brill inn",
     "what is happening in the brill tavern"
    ],
-   "answer": "Aside from lodging weary travelers, the tavern's cellar serves as a base for apothecaries conducting chemical and toxicological experiments on captured Scarlet Crusade zealots."
+   "answer": "Gallows' End Tavern shelters weary travelers. In its cellar, apothecaries test chemicals and poisons on captured Scarlet Crusade zealots."
   },
   {
    "q": "Where does the zeppelin tower outside Brill travel to?",
@@ -55,17 +55,17 @@
     "where do blimps go brill",
     "brill flight paths"
    ],
-   "answer": "The zeppelin tower operated by goblin crews connects Lordaeron directly to Kalimdor outside Orgrimmar, as well as south to Grom'gol Base Camp in Stranglethorn Vale."
+   "answer": "Goblin crews fly from Brill's zeppelin tower to Kalimdor outside orgrimmar, and south to grom'gol base camp in stranglethorn vale."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For Forsaken venturing out from Deathknell, Brill is the first glimpse of civilization and the starting ground for proving loyalty to the Dark Lady."
+   "text": "For Forsaken leaving Deathknell, Brill offers the first glimpse of civilization and a place to prove loyalty to the Dark Lady."
   },
   {
    "target": "faction:Horde",
-   "text": "The zeppelin dock outside town serves as the northern Horde's primary link between Lordaeron and allied strongholds in Kalimdor and the Eastern Kingdoms."
+   "text": "Brill's zeppelin dock links the northern Horde with allied strongholds in Kalimdor and the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Brill"
- ]
+ ],
+ "style": 2
 }

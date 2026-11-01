@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This quest offers a glimpse into everyday domestic life within Orgrimmar, showing how local tradesfolk and families ensure the capital's children are fed and looked after."
+   "text": "This shows everyday life in Orgrimmar, where tradesfolk and families look after the capital's children and make sure they are fed."
   },
   {
    "target": "profession:Cooking",
-   "text": "The assignment illustrates practical culinary craftsmanship in the Horde capital, repurposing crispy smoked hog belly cracklings into a flavorful seasoning for daily meals."
+   "text": "In Orgrimmar, Borstan turns crispy smoked hog belly cracklings into a flavorful seasoning for daily meals."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "who is the kid behind grommash hold",
     "migi lunch"
    ],
-   "answer": "Migi is a young resident of Orgrimmar who spends his days playing games with friends behind Grommash Hold. Because he gets deeply absorbed in his games, his parents worry that he neglects to eat enough to fill his belly, leading them to arrange daily lunch deliveries from Borstan's Meats.",
+   "answer": "Migi is a young resident of Orgrimmar who plays with friends behind Grommash Hold. His parents worry that he gets so caught up in play that he does not eat enough, so they arrange daily lunches from Borstan's Meats.",
    "q": "Who is Migi?"
   },
   {
@@ -37,7 +37,7 @@
     "who starts favorite food",
     "borstan favorite food"
    ],
-   "answer": "The quest is given by Borstan of Borstan's Meats in Orgrimmar. Having learned of the parents' concerns regarding Migi's nutrition and eating habits, Borstan prepares a special meal designed to broaden the youngster's palate.",
+   "answer": "Borstan of Borstan's Meats gives it in Orgrimmar. He prepares a varied meal after learning that Migi's parents worry about the boy's eating habits.",
    "q": "Who gives the quest Favorite Food?"
   },
   {
@@ -47,7 +47,7 @@
     "where to deliver migis lunch",
     "find migi orgrimmar"
    ],
-   "answer": "Migi is located behind Grommash Hold in Orgrimmar, where he gathers with other local children to play games. The youngsters frequently pass along the road to the stronghold, recognizing Borstan's daily culinary specials by their scent alone.",
+   "answer": "Migi can be found behind Grommash Hold in Orgrimmar, playing with other local children. They often pass along the road to the stronghold and recognize Borstan's daily meals by their scent.",
    "q": "Where can Migi be found?"
   },
   {
@@ -56,7 +56,7 @@
     "migis favorite meal",
     "sweetglazed hog belly migi"
    ],
-   "answer": "Migi's favorite food is the sweetglazed hog belly sandwich made in the smoker at Borstan's Meats. Whenever the smoker is running, Migi can be counted on to show up promptly for lunch, drawn by the distinctive aroma drifting toward Grommash Hold.",
+   "answer": "Migi loves the sweetglazed hog belly sandwich made in the smoker at Borstan's Meats. When the smoker is running, its aroma draws him toward lunch behind Grommash Hold.",
    "q": "What is Migi's favorite food?"
   },
   {
@@ -65,7 +65,7 @@
     "migis parents request",
     "why not sweetglazed sandwiches every day"
    ],
-   "answer": "Migi's parents asked Borstan not to pack the exact same meal every day so that their son would develop a taste for more than one dish. While eager for him to eat enough, they want him to build a well-rounded appetite rather than subsisting purely on sweetglazed pork.",
+   "answer": "Migi's parents ask Borstan to vary his meals so their son will learn to enjoy more than one dish. They want him to eat enough without relying only on sweetglazed pork.",
    "q": "Why do Migi's parents request different meals?"
   },
   {
@@ -74,7 +74,7 @@
     "how does borstan get migi to eat",
     "sweetglaze crumbs"
    ],
-   "answer": "Borstan crumbles the leftover crispy glazed bits from the smoked hog belly into a topping that can be sprinkled over different dishes. This strong, familiar sweetglaze flavor allows Borstan to serve varied meals that Migi will still happily eat down to the last bite.",
+   "answer": "Borstan crumbles leftover crispy glazed cracklings into a topping for different dishes. Its familiar sweetglaze flavor helps Migi enjoy the varied meals.",
    "q": "How does Borstan get Migi to eat different foods?"
   },
   {
@@ -83,7 +83,7 @@
     "where is borstans meats",
     "what is borstan"
    ],
-   "answer": "Borstan's Meats is a smokehouse and butchery located in Orgrimmar known for smoking hog belly sandwiches and preparing packed meals for city residents. Borstan uses his culinary talents to keep neighborhood youths well-nourished.",
+   "answer": "Borstan's Meats is a smokehouse and butchery in Orgrimmar. Borstan smokes hog belly sandwiches and prepares packed meals for city residents, including neighborhood youths.",
    "q": "What is Borstan's Meats?"
   }
  ],
@@ -103,18 +103,19 @@
  ],
  "sections": [
   {
-   "body": "Behind the seat of Horde power at Grommash Hold, young Migi and his friends spend their afternoons playing games along the dusty paths of Orgrimmar. Migi's parents, however, worry that the boy often neglects his meals while playing and fails to fill his belly. To ensure he receives regular nourishment, they turned to Borstan's Meats to prepare daily packed lunches. Yet his parents attached a strict condition: Borstan must not serve the exact same meal every day, insisting that Migi develop an appreciation for varied foods rather than relying on a single favorite dish.",
+   "body": "Behind Grommash Hold, young Migi and his friends spend their afternoons playing along Orgrimmar's dusty paths. His parents worry that he often neglects his meals and does not eat enough. So they ask Borstan's Meats to prepare daily packed lunches. They insist that Borstan vary the meals, hoping Migi will learn to enjoy more than one favorite dish.",
    "spoiler": 0,
    "title": "An Appetite for Play"
   },
   {
-   "body": "Borstan faced a culinary challenge, as Migi was notoriously devoted to sweetglazed hog belly sandwiches and reliably appeared for lunch only when the smokehouse was filled with their sweet aroma. To honor the parents' demand for variety while keeping the boy well-fed, the butcher devised an inventive solution. When sweetglazed pork is prepared, the leftover crispy glazed cracklings are crumbled into a savory seasoning that can be sprinkled over any dish. Delivered behind Grommash Hold, the fragrant topping successfully convinced Migi and his companions to pause their play and share lunch together.",
+   "body": "Migi loves sweetglazed hog belly sandwiches and comes for lunch when the smokehouse fills with their sweet aroma. Borstan finds a way to honor his parents' request while keeping Migi fed. He crumbles the leftover crispy glazed cracklings into a savory seasoning that can be sprinkled over any dish. Behind Grommash Hold, the topping persuades Migi and his companions to pause their play and share lunch.",
    "spoiler": 0,
    "title": "The Sweetglaze Compromise"
   }
  ],
- "summary": "Favorite Food is an Orgrimmar quest centered around Migi, a playful youth behind Grommash Hold whose parents worry he is not eating enough. To expand his palate without leaving him hungry, Borstan of Borstan's Meats prepares a varied lunch seasoned with Migi's beloved sweetglaze cracklings. The delivery ensures the boy and his friends pause their games to enjoy a wholesome meal.",
+ "summary": "In Orgrimmar, Migi's parents worry that play keeps him from eating enough. Borstan of Borstan's Meats prepares varied lunches with a taste Migi loves, so he and his friends stop to eat.",
  "attribution": [
   "In-game quest text: Favorite Food"
- ]
+ ],
+ "style": 2
 }

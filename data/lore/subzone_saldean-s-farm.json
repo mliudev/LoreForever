@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Saldean's Farm"
  },
- "summary": "At Saldean's Farm, the Saldeans hold Westfall's only homestead not completely overrun and abandoned to the Defias Brotherhood. Farmer Saldean and his wife Salma keep the farmhouse as a rare safe haven amid the region's turmoil.",
+ "summary": "In Westfall, Saldean's Farm remains the one homestead not wholly overrun and abandoned to the Defias Brotherhood. Farmer Saldean and his wife Salma keep the farmhouse as a rare safe haven amid the region's troubles.",
  "sections": [
   {
    "title": "A Beacon in the Dust",
-   "body": "The Saldean family stayed on their soil as neighboring lands fell to banditry and mechanical sabotage. Farmer Saldean and his wife Salma still offer hot food and a kind word to travelers. Rogue harvest golems deployed across the plains plague their fields, so the family keeps close to the farmhouse walls.",
+   "body": "The Saldean family held to their land as neighboring farms fell to banditry and mechanical sabotage. Farmer Saldean and his wife Salma still offer travelers hot food and a kind word. Harvest golems deployed across the plains now plague their fields, so the family stays close to the farmhouse walls.",
    "spoiler": 0
   },
   {
    "title": "Holding the Line",
-   "body": "Stormwind's crown has largely neglected Westfall, leaving law enforcement thin. A handful of Sentinel Hill and Stormwind guards patrol the periphery, but the Saldeans rely chiefly on their own grit and help from passing travelers. Salma's famous Westfall stew and goretusk liver pie, and the shelter of the farmhouse, offer small comforts against the Defias threat.",
+   "body": "Stormwind's crown has largely neglected Westfall, and few guards are left to keep order. A handful of Sentinel Hill and Stormwind guards patrol the edges, but the Saldeans rely chiefly on their own grit and help from passing travelers. Salma's famous Westfall stew and goretusk liver pie bring small comforts, as does the farmhouse shelter, against the Defias threat.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "saldean farm survival",
     "how is the farm alive"
    ],
-   "answer": "Farmer Saldean and his wife refused to pack up and flee when the Defias Brotherhood swept through Westfall. Hostile harvest golems prowl their crops, but the family stubbornly defends the immediate perimeter with help from passing militia and adventurers."
+   "answer": "Farmer Saldean and his wife refused to flee when the Defias Brotherhood swept through Westfall. Hostile harvest golems prowl their crops, but the family defends the ground around the farmhouse with help from passing militia and adventurers."
   },
   {
    "q": "Who are all the people gathered around the house?",
@@ -37,7 +37,7 @@
     "homeless westfall",
     "orphans at farm"
    ],
-   "answer": "The farm's residents are Farmer Saldean and his wife Salma. Anyone else there is likely a passing traveler; the couple welcome visitors and adventurers willing to help with the dangers in their fields."
+   "answer": "Farmer Saldean and his wife Salma live at the farm. Anyone else there is likely a passing traveler; the couple welcome visitors and adventurers willing to help with the dangers in their fields."
   },
   {
    "q": "Why are mechanical golems attacking the fields?",
@@ -46,7 +46,7 @@
     "why are robots in crops",
     "mechanical scarecrows"
    ],
-   "answer": "The Defias Brotherhood repurposed the region's mechanical harvest reapers and golems as deadly sentries. They roam the fields and attack anyone trying to cultivate or clear the land."
+   "answer": "The Defias Brotherhood turned the region's mechanical harvest reapers and golems into deadly sentries. They roam the fields and attack anyone trying to cultivate or clear the land."
   },
   {
    "q": "Is the Stormwind Army protecting the farm?",
@@ -55,17 +55,17 @@
     "sentinel hill guards here",
     "guard support"
    ],
-   "answer": "Official military presence is practically nonexistent. A few scattered guards from Sentinel Hill and Stormwind keep watch, but the crown has largely left Westfall's defense to local initiative."
+   "answer": "Stormwind's military presence is nearly gone. A few scattered guards from Sentinel Hill and Stormwind keep watch, but the crown has largely left Westfall's defense to local initiative."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Saldean's Farm shows the failing edge of the kingdom's frontier and how deeply ordinary citizens suffer when Stormwind's leaders are distracted."
+   "text": "For the Alliance, Saldean's Farm shows the failing edge of the kingdom's frontier and the hardship ordinary citizens face while Stormwind's leaders are distracted."
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you may know Salma Saldean's reputation among travelers. She turns scavenged Westfall ingredients into hearty, lifesaving dishes such as Goretusk Liver Pie."
+   "text": "As a cook, you may know Salma Saldean's name among travelers. She makes hearty, lifesaving dishes such as Goretusk Liver Pie from ingredients scavenged in Westfall."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Saldean's Farm"
  ],
- "style": 1
+ "style": 2
 }

@@ -19,26 +19,26 @@
    "Mekgineer Thermaplugg"
   ]
  },
- "summary": "In Dun Morogh, Gnomeregan lies ruined and quarantined after a desperate defense against troggs. Once the greatest technological wonder of the gnomish race, it was their underground capital. Its surviving people live as refugees in nearby Ironforge, while irradiated halls hold mutated troggs, deranged leper gnomes, and rogue mechanical sentries.",
+ "summary": "In Dun Morogh, Gnomeregan lies ruined and quarantined after the gnomes' desperate defense against troggs. Once their underground capital and greatest technological wonder, it now holds irradiated halls, mutated troggs, deranged leper gnomes, and rogue mechanical sentries. Its surviving people live as refugees in nearby Ironforge.",
  "sections": [
   {
    "title": "A Marvel of Iron and Steam",
-   "body": "Gnomeregan once gathered gnomish invention, competitive craft, and politics beneath Dun Morogh. With help from the nearby dwarves of Ironforge, its people built a vast mechanical complex powered by grinding engines and whirring gears. An intricate ventilation network needed fifteen technicians working around the clock to keep fresh air moving. At Tinkers' Court, gnomes debated and competed as their capital grew into a marvel of industry. During the Second War, they sent the Alliance of Lordaeron siege engines, flying machines, and armaments.",
+   "body": "Beneath Dun Morogh, Gnomeregan gathered gnomish invention, competitive craft, and politics under one roof. With help from the nearby dwarves of Ironforge, its people built a vast mechanical complex, powered by grinding engines and whirring gears.\n\nIts intricate ventilation network took fifteen technicians working around the clock to keep fresh air moving. At Tinkers' Court, gnomes debated and competed as their capital grew into a marvel of industry. During the Second War, they sent the Alliance of Lordaeron siege engines, flying machines, and armaments.",
    "spoiler": 0
   },
   {
    "title": "The Trogg Invasion and the Poisoning",
-   "body": "During the Third War, as the Scourge tore through Lordaeron, dwarven excavations at the ancient titan vault of Uldaman awakened primitive troggs beneath Dun Morogh. The creatures burrowed into Gnomeregan's lower foundations, and High Tinker Gelbin Mekkatorque led his forces in a desperate defense. When the city's defenses began to fail, Mekkatorque followed the counsel of his chief advisor, Mekgineer Thermaplugg. He ordered the radioactive waste tanks vented into the lower levels to eradicate the invaders. The toxic gas spread beyond control, and nearly eighty percent of the gnomish population died within days.",
+   "body": "During the Third War, as the Scourge tore through Lordaeron, dwarven excavations at the ancient titan vault of Uldaman awakened primitive troggs beneath Dun Morogh. The creatures burrowed into Gnomeregan's lower foundations, and High Tinker Gelbin Mekkatorque led the defense.\n\nAs the city's defenses began to fail, Mekkatorque followed the counsel of his chief advisor, Mekgineer Thermaplugg. He ordered radioactive waste tanks vented into the lower levels to eradicate the invaders. The toxic gas spread beyond control. Nearly eighty percent of the gnomish population died within days.",
    "spoiler": 0
   },
   {
    "title": "The Mad Mekgineer's Treason",
-   "body": "Mekgineer Thermaplugg had secretly coveted High Tinker Mekkatorque's office, and rumors say he knew of the trogg invasion before it began and helped set the disaster in motion. No one verified those rumors, though Mekkatorque believes they could be true. Whatever Thermaplugg intended, events escaped his control. Radiation failed to kill the troggs and drove them into a violent frenzy, while Thermaplugg was trapped in the contaminated lower tiers. Radioactive sickness twisted him into an insane leper gnome. From his throne in Tinkers' Court, he crowned himself techno-overlord of Gnomeregan and commands mindless leper survivors and erratic machinery.",
+   "body": "Mekgineer Thermaplugg had secretly coveted High Tinker Mekkatorque's office. Rumors say he knew of the trogg invasion before it began and helped set the disaster in motion. No one verified those rumors, though Mekkatorque believes they could be true. Whatever Thermaplugg intended, events escaped his control.\n\nRadiation failed to kill the troggs and drove them into a violent frenzy, while Thermaplugg was trapped in the contaminated lower tiers. Radioactive sickness twisted him into an insane leper gnome. From his throne in Tinkers' Court, he crowned himself techno-overlord of Gnomeregan and commands mindless leper survivors and erratic machinery.",
    "spoiler": 1
   },
   {
    "title": "A Fragile Victory",
-   "body": "From Tinkertown in Ironforge, High Tinker Mekkatorque coordinates the effort to reclaim Gnomeregan and sends Alliance adventurers into its toxic depths to break Thermaplugg's rule. Slaying the Mekgineer at the heart of Tinkers' Court ends his command over the rogue defenses and leper cohorts, bringing long-sought vengeance for his monumental betrayal. Yet a permanent reconquest remains elusive. Irradiated sludge, mutated beasts, and troggs still choke the deeper tunnels. Mekkatorque is assembling gyrodrillmatic excavationators and broader military plans to reclaim his people's ancestral home.",
+   "body": "From Tinkertown in Ironforge, High Tinker Mekkatorque coordinates the effort to reclaim Gnomeregan. He sends Alliance adventurers into its toxic depths to break Thermaplugg's rule. Slaying the Mekgineer at the heart of Tinkers' Court ends his command over the rogue defenses and leper cohorts.\n\nAt last, the gnomes can avenge his monumental betrayal. Yet a permanent reconquest remains elusive. Irradiated sludge, mutated beasts, and troggs still choke the deeper tunnels. Mekkatorque is assembling gyrodrillmatic excavationators and broader military plans to reclaim his people's ancestral home.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "why is gnomeregan green",
     "radiation in gnomeregan"
    ],
-   "answer": "Troggs invaded from below, and High Tinker Gelbin Mekkatorque tried to destroy them by opening the city's radioactive waste tanks on Mekgineer Thermaplugg's advice. The plan was meant to flood only the lower sectors, but deadly radiation seeped throughout Gnomeregan, killing eighty percent of the gnomish population and mutating survivors."
+   "answer": "Troggs invaded from below, and High Tinker Gelbin Mekkatorque tried to destroy them by opening Gnomeregan's radioactive waste tanks on Mekgineer Thermaplugg's advice. The plan was meant to flood only the lower sectors, but deadly radiation seeped throughout the city, killing eighty percent of the gnomish population and mutating survivors."
   },
   {
    "q": "Where did all the troggs come from?",
@@ -67,7 +67,7 @@
     "why didn't alliance help gnomeregan",
     "did alliance abandon gnomes"
    ],
-   "answer": "The trogg invasion struck during the Third War, as the Scourge brought down the Kingdom of Lordaeron, and the gnomes fought with their own technology and soldiers. No record explains why High Tinker Mekkatorque never called for outside aid; he turned instead to venting the city's radioactive waste tanks."
+   "answer": "The trogg invasion struck during the Third War, as the Scourge brought down the Kingdom of Lordaeron. The gnomes fought with their own technology and soldiers. No record explains why High Tinker Mekkatorque never called for outside aid; he turned instead to venting the city's radioactive waste tanks."
   },
   {
    "q": "What are leper gnomes?",
@@ -158,5 +158,5 @@
  "attribution": [
   "Gnomeregan"
  ],
- "style": 1
+ "style": 2
 }

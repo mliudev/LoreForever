@@ -11,16 +11,16 @@
    "quest:5727"
   ]
  },
- "summary": "Within Durotar, Lieutenant's Insignia carries the Burning Blade's mark. Horde adventurers recover it from cultists near Orgrimmar.",
+ "summary": "Near Orgrimmar, cultists bear Lieutenant's Insignia and the Burning Blade's mark. Horde adventurers recover it from them.",
  "sections": [
   {
    "title": "A Mark of the Cult",
-   "body": "Cultists at Skull Rock on Durotar's eastern shore carry Lieutenant's Insignia. The emblem marks its bearer as an officer of the Burning Blade. Warchief Thrall will not tolerate traitors in his new nation, but a purge could scatter the cult before its masters are exposed. He gives the badge to a trusted champion to test suspected infiltrators beneath Orgrimmar.",
+   "body": "Cultists at Skull Rock on Durotar's eastern shore carry Lieutenant's Insignia. The mark names its bearer an officer of the Burning Blade. Warchief Thrall will not suffer traitors in his new nation. Yet a purge might scatter the cult before its masters are exposed. So he entrusts the badge to a champion, to test those suspected of infiltrating beneath Orgrimmar.",
    "spoiler": 0
   },
   {
    "title": "The Cleft of Shadow",
-   "body": "Warchief Thrall sends his agent to the Cleft of Shadow with Lieutenant's Insignia, to present it to Neeru Fireblade. Neeru mistakes the agent for a newly promoted subordinate. Confident in his standing, the warlock boasts that the Burning Blade serves the Shadow Council and the Burning Legion. His words give Thrall a way to expose the corruption beneath the city.",
+   "body": "Warchief Thrall sends his agent to the Cleft of Shadow with Lieutenant's Insignia, to show it to Neeru Fireblade. Neeru mistakes the agent for a newly promoted subordinate. Sure of his standing, the warlock boasts that the Burning Blade serves the Shadow Council and the Burning Legion. Those words give Thrall a way to expose the corruption beneath the city.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "who drops lieutenants insignia",
     "lieutenant insignia source"
    ],
-   "answer": "Burning Blade fanatics and apprentices in Skull Rock carry the Lieutenant's Insignia. The cavern lies on the coast east of Orgrimmar, in Durotar."
+   "answer": "Burning Blade fanatics and apprentices in Skull Rock carry Lieutenant's Insignia. The cavern lies on Durotar's coast east of Orgrimmar."
   },
   {
    "q": "What is the insignia used for?",
@@ -41,7 +41,7 @@
     "lieutenants insignia quest use",
     "what to do with insignia"
    ],
-   "answer": "Warchief Thrall gives the insignia to his agent as a disguise. A young adventurer bearing it can pass as a Burning Blade officer and reach places Thrall's own agents cannot, to learn who leads the cult."
+   "answer": "Warchief Thrall gives Lieutenant's Insignia to his agent as a disguise. A young adventurer bearing it can pass as a Burning Blade officer and reach places Thrall's agents cannot, to learn who leads the cult."
   },
   {
    "q": "Who is Neeru Fireblade?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the young Horde, the insignia marks the danger of demonic corruption trying to undermine Thrall's new nation from within."
+   "text": "For the young Horde, Lieutenant's Insignia marks the danger of demonic corruption trying to undermine Thrall's new nation from within."
   },
   {
    "target": "class:Warlock",
-   "text": "For a warlock, the badge shows the Burning Blade turning fel magic to the Burning Legion's service, straining Thrall's tolerance of lawful Horde warlocks."
+   "text": "For a warlock, Lieutenant's Insignia shows the Burning Blade turning fel magic to the Burning Legion's service. That strains Thrall's tolerance of lawful Horde warlocks."
   }
  ],
  "keywords": [
@@ -97,5 +97,5 @@
   "Hidden Enemies",
   "Hidden Enemies (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:6"
   ]
  },
- "summary": "At Northshire's vineyards, Garrick Padfoot's severed head proves the cutthroat is dead. The authorities at Northshire Abbey require it to pay the bounty.",
+ "summary": "At Northshire's vineyards, Garrick Padfoot's severed head proves the cutthroat is dead. The authorities at Northshire Abbey require it before they pay the bounty.",
  "sections": [
   {
    "title": "A Bandit's End",
-   "body": "Garrick Padfoot and his gang harassed Northshire Valley's farmers and merchants for weeks. With Stormwind's defenses stretched thin, Garrick made his hideout in a shack near the vineyards and raided passing trade. Local guards were occupied by kobolds and Defias bandits, so Deputy Willem offered a bounty for the outlaw's death. He sought someone willing to kill Garrick and bring back proof.",
+   "body": "For weeks, Garrick Padfoot and his gang harassed Northshire Valley's farmers and merchants. Stormwind's defenses were stretched thin, and local guards were busy with kobolds and Defias bandits. So Garrick hid in a shack near the vineyards and raided passing trade. Deputy Willem offered a bounty for the outlaw's death, seeking someone to kill him and bring back proof.",
    "spoiler": 0
   }
  ],
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, taking Padfoot's head is an early blow against the lawlessness spreading through Elwynn Forest."
+   "text": "As a human, taking Padfoot's head strikes an early blow against the lawlessness spreading through Elwynn Forest."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, eliminating Padfoot shows local ruffians that banditry will meet deadly, professional blades."
+   "text": "As a rogue, eliminating Padfoot shows local ruffians that banditry meets deadly, professional blades."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Garrick's Head",
   "Bounty on Garrick Padfoot"
  ],
- "style": 1
+ "style": 2
 }

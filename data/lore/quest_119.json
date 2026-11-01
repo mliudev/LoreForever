@@ -23,16 +23,16 @@
    "Howling in the Hills"
   ]
  },
- "summary": "You carry fifty freshly forged horseshoes from Goldshire back to Lakeshire. Smith Argus has finished the order, and Verner Osgood is waiting across the border in Redridge.",
+ "summary": "Smith Argus has finished fifty horseshoes, and you carry them from Goldshire to Verner Osgood in Lakeshire. Redridge needs them for its hard-pressed mounts.",
  "sections": [
   {
    "title": "A Courier Across the Border",
-   "body": "Smith Argus has forged fifty horseshoes for Lakeshire, and you carry them east from Goldshire. Redridge faces supply shortages and gnoll attacks. The iron shoes help keep horses and draft animals working on its rugged mountain roads.",
+   "body": "You carry the crate east across the border into Redridge. There, supply shortages and gnoll attacks threaten the town. The fifty iron shoes keep horses and draft animals working on rugged mountain roads, which Redridge needs to face those dangers.",
    "spoiler": 0
   },
   {
    "title": "The Note on the Crate",
-   "body": "Verner Osgood is relieved when the horseshoes arrive, but Smith Argus has attached a bill to the crate. Verner is annoyed that the Goldshire smith expects payment. Redridge faces pressing dangers, leaving little time to argue over the charge.",
+   "body": "Verner Osgood is relieved when the horseshoes arrive. Then he finds the bill Smith Argus attached to the crate. Verner is annoyed that the Goldshire smith expects payment. With dangers pressing around Redridge, there is little time to argue over the charge.",
    "spoiler": 0
   }
  ],
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you know frontier mounts need steady supplies of horseshoes when local forges are overwhelmed by war."
+   "text": "As a blacksmith, you know frontier mounts need a steady supply of horseshoes when local forges are overwhelmed by war."
   },
   {
    "target": "faction:Alliance",
@@ -124,5 +124,5 @@
  "attribution": [
   "Return to Verner"
  ],
- "style": 1
+ "style": 2
 }

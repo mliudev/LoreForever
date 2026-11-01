@@ -10,16 +10,16 @@
    "quest:4512"
   ]
  },
- "summary": "In Felwood, a Filled Cursed Ooze Jar holds a sample for Laris Geardawdle in Ironforge. The gnome scholar seeks the ancient origins of slimes across Azeroth.",
+ "summary": "In Felwood, a Filled Cursed Ooze Jar carries a sample for Laris Geardawdle in Ironforge. The gnome scholar seeks the ancient origins of slimes across Azeroth.",
  "sections": [
   {
    "title": "A Curious Specimen",
-   "body": "Laris Geardawdle, a gnome researcher, sees mystery where most adventurers see vile puddles and caustic slimes. Slimes thrive in many places, and Forsaken apothecaries gather them with care. Those sights led Geardawdle to a bold theory: oozes may be primordial secretions bound to Azeroth's creation. To gather a sample, brave Felwood's blighted woods, defeat a cursed ooze, and scoop its acidic remains into an empty jar before they dissolve.",
+   "body": "Laris Geardawdle, a gnome researcher, sees mystery in the vile puddles and caustic slimes others pass by. Slimes thrive across Azeroth, and Forsaken apothecaries gather them with care. These sights led Geardawdle to a bold theory: oozes may be primordial secretions bound to Azeroth's creation. To gather a sample, brave Felwood's blighted woods and defeat a cursed ooze. Scoop its acidic remains into an empty jar before they dissolve.",
    "spoiler": 0
   },
   {
    "title": "Academic Ambition",
-   "body": "Laris Geardawdle hopes his ooze samples will bring both knowledge and a lasting name. A major discovery could secure his reputation in the dwarven-led Explorers' League. Since Gnomeregan fell, many gnome refugees in Ironforge feel pressed to prove their worth to their dwarven hosts. Geardawdle believes that uncovering the ancient secrets of ooze will show them that welcoming gnomes was no mistake.",
+   "body": "Laris Geardawdle hopes his ooze samples will bring knowledge and a lasting name. A major discovery could secure his reputation in the dwarven-led Explorers' League. Since Gnomeregan fell, many gnome refugees in Ironforge have felt pressed to prove their worth to their dwarven hosts. Geardawdle believes that uncovering ooze's ancient secrets will show them that welcoming gnomes was no mistake.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "geardawdle ooze theory",
     "why ooze"
    ],
-   "answer": "Laris Geardawdle studies oozes because he sees nature and the Royal Apothecary Society taking interest in them. He suspects slimes may be ancient secretions tied to life's creation and development on Azeroth, and needs samples to test his theory."
+   "answer": "Laris Geardawdle studies oozes because he sees nature and the Royal Apothecary Society taking an interest in them. He suspects slimes may be ancient secretions tied to life's creation and development on Azeroth, and needs samples to test his theory."
   },
   {
    "q": "Why does a gnome care about the Explorers' League?",
@@ -57,7 +57,7 @@
     "why explorers league",
     "gnomes in ironforge"
    ],
-   "answer": "After Gnomeregan fell, gnome refugees found shelter among the dwarves in Ironforge. Laris Geardawdle hopes a major discovery through the Explorers' League will prove that sheltering them was the right choice."
+   "answer": "After Gnomeregan fell, gnome refugees found shelter among the dwarves in Ironforge. Laris Geardawdle hopes a major discovery through the Explorers' League will prove sheltering them was the right choice."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
   "Filled Cursed Ooze Jar",
   "A Little Slime Goes a Long Way"
  ],
- "style": 1
+ "style": 2
 }

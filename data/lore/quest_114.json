@@ -17,16 +17,16 @@
   "wiki": "The Escape (Alliance)",
   "chain": []
  },
- "summary": "Maybell Maclure waits for a way to slip away from her family and meet Tommy Joe Stonefield. You bring her William Pestle's Invisibility Liquor, brewed from crystal kelp gathered across the region.",
+ "summary": "Maybell Maclure seeks a way to leave her family and meet Tommy Joe Stonefield. You bring her William Pestle's Invisibility Liquor, brewed with crystal kelp gathered across the region.",
  "sections": [
   {
    "title": "A Concoction for True Love",
-   "body": "The Maclures and Stonefields have feuded for generations, leaving no room for courtship. Gramma Stonefield turns to William Pestle, an alchemist in the Lion's Pride Inn in Goldshire. With crystal kelp from nearby lakes, Pestle brews Invisibility Liquor strong enough to hide Maybell's escape from the Maclure homestead.",
+   "body": "The Maclures and Stonefields have feuded for generations, leaving no room for courtship. Gramma Stonefield asks William Pestle, an alchemist at the Lion's Pride Inn in Goldshire, for help. Crystal kelp from nearby lakes gives Pestle what he needs to brew Invisibility Liquor. The brew can hide Maybell's escape from the Maclure homestead.",
    "spoiler": 0
   },
   {
    "title": "Vanishing into the Woods",
-   "body": "Maybell Maclure takes the flask and slips into the trees toward Tommy Joe. Guilt over deceiving her kin troubles her, but her devotion outweighs her fear of discovery. She drinks the liquor and vanishes before your eyes, gaining a few moments with Tommy Joe beyond the watchful eyes of their feuding elders.",
+   "body": "Maybell Maclure takes the flask and slips into the trees toward Tommy Joe. Guilt at deceiving her kin troubles her, but devotion outweighs her fear of discovery. She drinks the liquor and vanishes before your eyes. Now she has a few moments with Tommy Joe beyond the watchful eyes of their feuding elders.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who starts the escape",
     "where to pick up the escape"
    ],
-   "answer": "William Pestle, the apothecary and alchemical assistant in Goldshire's Lion's Pride Inn, gives you the Invisibility Liquor after you bring him crystal kelp."
+   "answer": "William Pestle, an apothecary and alchemical assistant at Goldshire's Lion's Pride Inn, gives you Invisibility Liquor after you bring him crystal kelp."
   },
   {
    "q": "What is the Invisibility Liquor used for?",
@@ -65,7 +65,7 @@
     "does maybell vanish",
     "the escape quest completion"
    ],
-   "answer": "Maybell thanks you, torn between guilt and excitement, then drinks the brew. She vanishes before your eyes to slip away toward Tommy Joe."
+   "answer": "Maybell thanks you, torn between guilt and excitement, then drinks the brew. She vanishes before your eyes and slips away toward Tommy Joe."
   },
   {
    "q": "What quest leads directly into The Escape?",
@@ -74,7 +74,7 @@
     "quest before the escape",
     "what leads to the escape"
    ],
-   "answer": "The Escape follows Collecting Kelp, where you gather crystal kelp from murlocs at Crystal Lake for William Pestle to brew the invisibility potion."
+   "answer": "The Escape follows Collecting Kelp. There, you gather crystal kelp from murlocs at Crystal Lake for William Pestle to brew the invisibility potion."
   },
   {
    "q": "Does this quest resolve the feud between the families?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human in Elwynn, you know stubborn family grudges run deep, and small acts of secret aid between neighbors can help keep the peace."
+   "text": "As a human in Elwynn, you know stubborn family grudges run deep. Small acts of secret aid between neighbors can help keep the peace."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "The Escape (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

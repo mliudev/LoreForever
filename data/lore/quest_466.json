@@ -17,16 +17,16 @@
   "wiki": "Search for Incendicite",
   "chain": []
  },
- "summary": "At Steelgrill's Depot, Pilot Stonegear seeks samples of volatile incendicite ore from the Wetlands. He believes its explosive force could change dwarven artillery, and needs miners to reach a secluded cave and bring back the dangerous mineral.",
+ "summary": "At Steelgrill's Depot, Pilot Stonegear seeks samples of volatile incendicite ore from the Wetlands. He believes its explosive force could change dwarven artillery, and needs you to reach a secluded cave and bring back the dangerous mineral.",
  "sections": [
   {
    "title": "A Volatile Discovery",
-   "body": "Incendicite, a rare and unstable mineral, has drawn the attention of siege engine pilots and mechanics at Steelgrill's Depot. Rich veins are rumored to lie in a cavern northwest of Algaz Gate, in the Wetlands. The ore is highly reactive and dangerous to handle. Careless miners have found it detonating in their faces.",
+   "body": "Siege engine pilots and mechanics at Steelgrill's Depot have heard of rare, unstable ore. Rich veins are rumored in a cavern northwest of Algaz Gate, in the Wetlands. Careless miners there risk having the reactive mineral detonate in their faces.",
    "spoiler": 0
   },
   {
    "title": "Munitions of Tomorrow",
-   "body": "Pilot Stonegear sees military promise in the dangerous ore. Refined correctly, incendicite could power dwarven artillery or serve as its payload, giving cannon shells force enough to break fortified defenses. Stonegear wants raw samples so researchers can test ways to smelt it without blowing up the depot.",
+   "body": "Pilot Stonegear sees military promise in the ore. Refined correctly, it could power dwarven artillery or serve as its payload. Cannon shells might gain enough force to break fortified defenses. He wants raw samples so researchers can test smelting methods without blowing up the depot.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "incendicite uses",
     "what does incendicite do"
    ],
-   "answer": "Incendicite is an intensely volatile, explosive mineral. Pilot Stonegear wants to test smelting methods that could turn it into powerful artillery ammunition and cannon shells."
+   "answer": "Incendicite is an intensely volatile, explosive mineral. Pilot Stonegear wants to test smelting methods that could make it powerful artillery ammunition for cannon shells."
   },
   {
    "q": "Where is incendicite found?",
@@ -61,7 +61,7 @@
     "do i need mining",
     "mining skill needed"
    ],
-   "answer": "Incendicite lies in raw mineral veins, not loose on the surface. Miners need skill with a pick to chip the brittle, explosive ore from the rock without setting it off."
+   "answer": "Incendicite lies in raw mineral veins, not loose on the surface. Miners need a practiced hand with a pick to chip the brittle, explosive ore from rock without setting it off."
   },
   {
    "q": "Is incendicite safe to handle?",
@@ -77,7 +77,7 @@
     "stonegear search followup",
     "quest chain"
    ],
-   "answer": "This follows 'Stonegear's Search'. Pilot Longbeard or Mountaineer Kadrell sends you to Steelgrill's Depot after Stonegear hears rumors of rare ore and wants someone to find it."
+   "answer": "Pilot Longbeard or Mountaineer Kadrell sends you to Steelgrill's Depot after Pilot Stonegear hears rumors of rare ore and wants someone to find it. This follows 'Stonegear's Search'."
   }
  ],
  "angles": [
@@ -91,7 +91,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you know the risk of explosive compounds is part of seeking the next great blast."
+   "text": "As an engineer, you know the risk of explosive compounds comes with seeking the next great blast."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Search for Incendicite"
  ],
- "style": 1
+ "style": 2
 }

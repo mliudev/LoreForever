@@ -10,16 +10,16 @@
    "quest:11"
   ]
  },
- "summary": "At Westbrook Garrison, Painted Gnoll Armbands prove that Riverpaw gnolls have been slain. The marked bands come from packs pressing against Elwynn Forest's western border.",
+ "summary": "At Westbrook Garrison, Painted Gnoll Armbands prove Riverpaw gnolls have been slain. Their packs press against Elwynn Forest's western border.",
  "sections": [
   {
    "title": "Tokens of the Riverpaw",
-   "body": "Riverpaw warriors and scavengers wear rough armbands painted with crude tribal patterns. The bands come from gnolls along Elwynn Forest's wilderness borders. For Stormwind's defenders, the packs pose a growing threat near Stone Cairn Lake and in the woods south of Westbrook Garrison.",
+   "body": "Riverpaw warriors and scavengers wear rough bands marked with crude tribal patterns. These armbands come from Riverpaw gnolls along Elwynn Forest's wilderness borders. Stormwind's defenders face a growing threat near Stone Cairn Lake and in the woods south of Westbrook Garrison.",
    "spoiler": 0
   },
   {
    "title": "Bounty for Westbrook Garrison",
-   "body": "Stormwind's Army is stretched thin across the kingdom, leaving Westbrook Garrison hard pressed to secure the western border. Deputy Rainer offers a standing bounty for slaying Riverpaw outrunners and runts. Their painted armbands prove the kills, helping the deputies count the bounties and thin the packs near nearby farmlands.",
+   "body": "Stormwind's Army is stretched thin across the kingdom, leaving Westbrook Garrison hard pressed to guard the western border. Deputy Rainer offers a standing bounty for slaying Riverpaw Outrunners and Riverpaw Runts. The painted bands let the deputies tally bounties and thin the packs near nearby farmlands.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who wants painted gnoll armbands",
     "deputy rainer bounty"
    ],
-   "answer": "Deputy Rainer at Westbrook Garrison collects the armbands as proof that Riverpaw gnolls have been slain. Garrison troops cannot manage the encroaching packs alone, so Stormwind pays bounties to adventurers who bring back the tokens."
+   "answer": "Deputy Rainer at Westbrook Garrison collects the armbands as proof that Riverpaw gnolls have been slain. Garrison troops cannot manage the encroaching packs alone, so Stormwind pays bounties to those who bring back the tokens."
   },
   {
    "q": "Which gnolls wear these painted armbands?",
@@ -90,5 +90,5 @@
   "Painted Gnoll Armband",
   "Riverpaw Gnoll Bounty"
  ],
- "style": 1
+ "style": 2
 }

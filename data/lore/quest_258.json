@@ -22,16 +22,16 @@
    "Vyrin's Revenge (2)"
   ]
  },
- "summary": "At Farstrider Lodge, A Hunter's Challenge tests your speed across Loch Modan's rugged highlands. Daryl the Youngling, a brash human, wagers his shirt that you cannot track and kill five elder mountain boars within twelve minutes, against rough ground and dangerous wildlife.",
+ "summary": "At Farstrider Lodge, Daryl the Youngling dares you to kill five elder mountain boars within twelve minutes. He expects Loch Modan's rough highlands and dangerous wildlife to make you fail.",
  "sections": [
   {
    "title": "A Youth's Boast",
-   "body": "Daryl the Youngling lives among the seasoned huntsmen of Farstrider Lodge, but he has none of their quiet patience. He makes up for his youth with bluster and tall hunting tales, including rambling stories of how he earned his “famous” scar. Unwilling to admit anyone else is skilled, he continually gets his fellow hunters’ names wrong. He also devises strict trials to humble newcomers and restore his inflated standing among the lodge’s residents.",
+   "body": "Daryl the Youngling lives among Farstrider Lodge's seasoned huntsmen, but he lacks their quiet patience. He covers his youth with bluster and long hunting tales, including rambling accounts of how he earned his “famous” scar. He refuses to admit that anyone else is skilled. He also keeps getting his fellow hunters' names wrong and sets strict trials for newcomers, hoping to humble them and restore his standing among the lodge's residents.",
    "spoiler": 0
   },
   {
    "title": "The Highland Hunt",
-   "body": "The elder mountain boars that roam Loch Modan’s crags and hillsides are massive, thick-skinned, and dangerous when provoked. Daryl gives you twelve minutes to find five, kill them, and confirm each kill. Finish in time, and the loudmouthed youngster retreats awkwardly, pretending he knows nothing of the extravagant wager he made so casually.",
+   "body": "Elder mountain boars roam Loch Modan's crags and hillsides. They are massive and thick-skinned, and grow dangerous when provoked. Daryl gives you twelve minutes to find and kill five. If you finish in time, the loudmouthed youngster retreats awkwardly and pretends he knows nothing of the extravagant wager he made so casually.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "daryl youngling lore",
     "farstrider lodge daryl"
    ],
-   "answer": "Daryl is a young, boastful human huntsman at Farstrider Lodge in southeastern Loch Modan. Desperate to seem as formidable as the older veterans around him, he talks up his prowess, invents grand tales, and challenges passing adventurers to difficult hunts."
+   "answer": "Daryl is a young, boastful human huntsman at Farstrider Lodge in southeastern Loch Modan. Desperate to seem as formidable as the older veterans around him, he boasts of his skill, invents grand tales, and challenges passing adventurers to difficult hunts."
   },
   {
    "q": "Where are the elder mountain boars located?",
@@ -61,7 +61,7 @@
     "why is it timed",
     "hunter challenge timer"
    ],
-   "answer": "Daryl gives you only twelve minutes because he expects you to fail. He hopes the tight deadline will embarrass you and prove your earlier hunting successes were beginner’s luck."
+   "answer": "Daryl gives you only twelve minutes because he expects you to fail. The deadline is tight, and he hopes it will embarrass you and prove your earlier hunting successes were beginner's luck."
   },
   {
    "q": "What bet did Daryl make?",
@@ -87,7 +87,7 @@
     "after a hunters challenge",
     "hunting questline"
    ],
-   "answer": "After you finish Daryl’s challenge and silence his boasting, attention at the lodge turns to more serious business: a confrontation with the dangerous elder bear Ol' Sooty in Vyrin's Revenge."
+   "answer": "After you finish Daryl's challenge and silence his boasting, attention at the lodge turns to more serious business: a confrontation with the dangerous elder bear Ol' Sooty in Vyrin's Revenge."
   }
  ],
  "angles": [
@@ -97,11 +97,11 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf who came up through Coldridge Valley, you will recognize Daryl’s comparison, though his patronizing manner may be harder to stomach."
+   "text": "As a dwarf who came up through Coldridge Valley, you will recognize Daryl's comparison, though his patronizing manner may be harder to stomach."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can look to Farstrider Lodge as a staging ground for woodsmen guarding Loch Modan’s eastern border from wild beasts and highland threats."
+   "text": "As an Alliance member, you can look to Farstrider Lodge as a staging ground for woodsmen guarding Loch Modan's eastern border from wild beasts and highland threats."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "A Hunter's Challenge"
  ],
- "style": 1
+ "style": 2
 }

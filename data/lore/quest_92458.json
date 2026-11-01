@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The Image of Archmage Modera asks you to help contain an arcane disruption in Dalaran. The Violet Citadel\u2019s wards are under strain, and the Kirin Tor need time to bring the crisis under control.",
+ "summary": "The Image of Archmage Modera needs help containing an arcane disruption in Dalaran. The Violet Citadel’s wards are under strain, and the Kirin Tor need time to bring the crisis under control.",
  "sections": [
   {
    "title": "A Way Inside",
-   "body": "The Image of Archmage Modera says the disturbance began at the top of the Violet Citadel, where a thunderous crash sounded from the parlors. Rampant arcane power now threatens the wards, and the Kirin Tor are occupied inside. You receive a key and are asked to find a less public way into the city before the disruption worsens.",
+   "body": "At the top of the Violet Citadel, a thunderous crash sounded from the parlors. The disturbance began there, and rampant arcane power now threatens the wards. The Kirin Tor are occupied inside, so you receive a key and are asked to find a less public way into the city before the disruption worsens.",
    "spoiler": 0
   },
   {
    "title": "The Mote",
-   "body": "Modera asks you to collect an Arcane Mote. She does not ask what you saw in the citadel; her concern is containing the mote and ending the disruption. The Kirin Tor must now take up that work while the wards hold.",
+   "body": "Modera asks you to collect an Arcane Mote. She does not ask what you saw in the citadel. Her concern is containing the mote and ending the disruption. The Kirin Tor must now take up that work while the wards hold.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "modera help",
     "who gave this"
    ],
-   "answer": "The Image of Archmage Modera asks you to help with the arcane disruption in Dalaran."
+   "answer": "The Image of Archmage Modera asks you to help contain the arcane disruption in Dalaran."
   },
   {
    "q": "What caused the disruption?",
@@ -59,7 +59,7 @@
     "arcane mote",
     "mote task"
    ],
-   "answer": "Modera asks you to collect an Arcane Mote."
+   "answer": "Modera wants you to gather an Arcane Mote."
   },
   {
    "q": "Why do I need a key?",
@@ -94,7 +94,7 @@
  "related": [
   "subzone:dalaran"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Heart of Disruption"
  ]

@@ -11,21 +11,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Darnassus shelters the night elves high among Teldrassil’s branches. Tyrande Whisperwind and the druids guide the city, where an ancient people face life without immortality and seek ties with the Alliance.",
+ "summary": "High among the branches of Teldrassil lies Darnassus, the city of the night elves. Tyrande Whisperwind and the druids guide it. Its people are ancient, but they are mortal now. They must learn to live without their undying life, and they seek new ties with the Alliance.",
  "sections": [
   {
    "title": "A Crown High in the Branches",
-   "body": "Darnassus spreads across Teldrassil’s upper canopy, off northern Kalimdor’s coast. Wooden buildings and winding paths circle a quiet central lake. Bridges join terraces for tradesmen, craftsmen, Sentinels, and druids, leaving the wilderness close to the city’s daily life.",
+   "body": "Darnassus spreads across the upper canopy of the World Tree, off the coast of northern Kalimdor. Its wooden halls and winding paths circle a quiet lake. Bridges join the terraces of tradesmen and craftsmen, of Sentinels and druids. The wild is never far from the city's daily life.",
    "spoiler": 0
   },
   {
    "title": "Refuge of a Mortal People",
-   "body": "Darnassus is young beside the civilization of the kaldorei. After the Third War and the sacrifice of Nordrassil at Mount Hyjal, the night elves faced aging and sickness. With Archdruid Malfurion Stormrage lost in the Emerald Dream, Archdruid Fandral Staghelm and his followers planted Teldrassil in hope of renewing their lost vitality. The city grew among its boughs as refuge and monument to their survival, though malaise already stirs among the tree’s roots.",
+   "body": "Beside the long history of the kaldorei, Darnassus is young. In the Third War, Nordrassil was sacrificed, and the night elves came to know age and sickness. So Archdruid Fandral Staghelm and his followers planted Teldrassil, hoping to restore their lost vitality. The city grew up among its boughs, a refuge and a monument to their survival. Yet already a malaise stirs among the roots.",
    "spoiler": 0
   },
   {
    "title": "A Divided Hearth",
-   "body": "Darnassus holds two centers of authority. High Priestess Tyrande Whisperwind guides the spiritual life and defense of her people from the Temple of the Moon, with the Sentinels at her command. Across the waterways, Archdruid Fandral Staghelm leads the druids in Malfurion’s absence. Both leaders present a united face to their new Alliance partners, yet friction between the priestesses and the druidic circle lingers.",
+   "body": "Two powers hold sway in Darnassus. From the Temple of the Moon, High Priestess Tyrande Whisperwind commands the Sentinels and guides her people's faith. Across the waterways, Fandral leads the druids, for Malfurion Stormrage is lost in the Emerald Dream. To their new Alliance partners, the two leaders show a united face. But between priestesses and druids, the friction lingers.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "when was darnassus built",
     "darnassus history"
    ],
-   "answer": "Darnassus was founded shortly after the Third War. The night elves sacrificed their immortality to defeat Archimonde at Mount Hyjal, and Fandral Staghelm urged them to grow Teldrassil in hope of reclaiming their former state. They made Darnassus among the tree’s boughs as a new refuge."
+   "answer": "Darnassus was founded shortly after the Third War. The night elves sacrificed their immortality to defeat Archimonde at Mount Hyjal, and Fandral Staghelm urged them to grow Teldrassil in hope of reclaiming their former state while Malfurion Stormrage was lost in the Emerald Dream. They made Darnassus among the tree’s boughs as a new refuge."
   },
   {
    "q": "Where is Archdruid Malfurion Stormrage?",
@@ -128,5 +128,5 @@
  "attribution": [
   "Darnassus"
  ],
- "style": 1
+ "style": 2
 }

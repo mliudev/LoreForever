@@ -8,11 +8,11 @@
   "wiki": "Elder Bronzebeard",
   "refs": 1
  },
- "summary": "During the Lunar Festival, Elder Bronzebeard appears in Ironforge's Mystic Ward. His name belongs to the clan that rules the city, and his earthen form recalls the dwarves' stone-born ancestors.",
+ "summary": "During the Lunar Festival, Elder Bronzebeard appears in Ironforge's Mystic Ward. His name is the name of the clan that rules the city, and his earthen form recalls the dwarves' stone-born ancestors.",
  "sections": [
   {
    "title": "A Progenitor in the Mystic Ward",
-   "body": "Near the pool in Ironforge's Mystic Ward, Elder Bronzebeard appears in the shape of an earthen. The Titans forged the ancient earthen from living stone, before they became creatures of flesh. Dwarven scholars and explorers are only beginning to uncover their origins through excavations across Khaz Modan and beyond. Elder Bronzebeard's name is that of the ruling clan, and his form suggests he is a direct ancestor of the Bronzebeards. His spirit bears witness to how far his stone-born descendants have changed.",
+   "body": "Near the pool in Ironforge's Mystic Ward, Elder Bronzebeard appears in the shape of an earthen. The Titans forged the ancient earthen from living stone before they became creatures of flesh. Dwarven scholars and explorers are only beginning to uncover their origins through excavations across Khaz Modan and beyond.\n\nElder Bronzebeard bears the name of the ruling clan, and his form suggests he is a direct ancestor of the Bronzebeards. His spirit shows how far his stone-born descendants have changed.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "is elder bronzebeard earthen",
     "elder bronzebeard race"
    ],
-   "answer": "Dwarves descend from the earthen, ancient beings the Titans crafted from stone. Over time, the earthen became creatures of flesh, but Elder Bronzebeard lived in the distant past, before that change took hold. His spirit keeps the stony shape of his earthen days."
+   "answer": "Dwarves descend from the earthen, ancient beings the Titans crafted from stone. Over time, the earthen became creatures of flesh. Elder Bronzebeard lived in the distant past, before that change took hold, and his spirit keeps the stony shape of his earthen days."
   },
   {
    "q": "Is he related to King Magni Bronzebeard?",
@@ -42,13 +42,13 @@
     "where is elder bronzebeard",
     "mystic ward ghost"
    ],
-   "answer": "During the Lunar Festival, elder spirits appear throughout Azeroth to share wisdom and blessings with travelers. Elder Bronzebeard appears in Ironforge's Mystic Ward, near the tranquil pool where dwarven mages and scholars gather."
+   "answer": "During the Lunar Festival, elder spirits appear throughout Azeroth to share wisdom and blessings with travelers. Elder Bronzebeard appears near the tranquil pool in Ironforge's Mystic Ward, where dwarven mages and scholars gather."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, meeting Elder Bronzebeard offers a rare glimpse of your earthen ancestry and confirms what the Explorers' League is uncovering through its research."
+   "text": "As a dwarf, meeting Elder Bronzebeard offers a rare glimpse of your earthen ancestry. The Explorers' League is uncovering more through its research."
   },
   {
    "target": "faction:Alliance",
@@ -73,5 +73,5 @@
  "attribution": [
   "Elder Bronzebeard"
  ],
- "style": 1
+ "style": 2
 }

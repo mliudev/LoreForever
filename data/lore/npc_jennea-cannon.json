@@ -8,21 +8,21 @@
   "wiki": "Jennea Cannon",
   "refs": 3
  },
- "summary": "In Stormwind, Jennea Cannon guides new mages through their first studies. From the Wizard's Sanctum in the Mage Quarter, she teaches caution and self-control, and investigates disturbances in local arcane energies.",
+ "summary": "In Stormwind's Mage Quarter, Jennea Cannon teaches new mages from the Wizard's Sanctum. She urges caution and self-control, investigates disturbances in local arcane energies, and sends promising apprentices beyond the city to test their studies.",
  "sections": [
   {
    "title": "A Guide in the Sanctum",
-   "body": "At the top of the Wizard's Sanctum's spiral walkway, Jennea Cannon guides those who come to Stormwind to study the arcane. She teaches more than spells, insisting that students learn caution and self-control. Even those who do not study magic hear her warning: without training, magic can burn its wielder.",
+   "body": "At the top of the Wizard's Sanctum's spiral walkway, Jennea Cannon teaches those who come to Stormwind to study the arcane. She teaches more than spells. Caution and self-control matter just as much. Even those who do not study magic hear her warning: without training, magic can burn its wielder.",
    "spoiler": 0
   },
   {
    "title": "Fieldwork and Foundation",
-   "body": "Jennea sends promising apprentices beyond the city walls to test what they have learned. At Mirror Lake in Elwynn Forest, they study how natural water sources meet arcane resonance. As they advance, she sends them to investigate disturbances at the Blue Recluse or gather volatile reagents for their first true wizard's implements.",
+   "body": "Jennea sends promising apprentices beyond the city walls to test what they have learned. At Mirror Lake in Elwynn Forest, they study how natural water sources meet arcane resonance. As their studies advance, she sends them to investigate disturbances at the Blue Recluse or gather volatile reagents for their first true wizard's implements.",
    "spoiler": 0
   },
   {
    "title": "Ties to Greater Masters",
-   "body": "When an apprentice outgrows Jennea's lessons, she points the way to greater masters. Those who show true potential may continue up the Sanctum's hierarchy with High Sorcerer Andromath, or travel beyond the kingdom to practitioners such as Tabetha, deep in the Dustwallow Marsh.",
+   "body": "When an apprentice has outgrown Jennea's lessons, she points the way to greater masters. Those who show true potential may continue up the Sanctum's hierarchy with High Sorcerer Andromath. Others may travel beyond the kingdom to practitioners such as Tabetha, deep in the Dustwallow Marsh.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "jennea quests",
     "jennea cannon questline"
    ],
-   "answer": "Jennea offers Alliance mages early studies that include examining Mirror Lake in Elwynn Forest, investigating strange happenings at the Blue Recluse, and gathering materials for novice mage gear."
+   "answer": "Jennea offers Alliance mages early studies: examining Mirror Lake in Elwynn Forest, investigating strange happenings at the Blue Recluse, and gathering materials for novice mage gear."
   },
   {
    "q": "Why does she send mages to Mirror Lake?",
@@ -67,7 +67,7 @@
     "can non mages talk to jennea",
     "jennea for other classes"
    ],
-   "answer": "Non-mages can speak with Jennea, who warns them to be cautious around magic because it burns those without proper training."
+   "answer": "Non-mages can speak with Jennea. She warns them to be cautious around magic, for it burns those without proper training."
   },
   {
    "q": "Who does Jennea Cannon report to?",
@@ -85,7 +85,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can find Jennea in Stormwind's Mage Quarter, where she trains new sorcerers to serve the Alliance safely."
+   "text": "As an Alliance member, you can find Jennea in Stormwind's Mage Quarter. There she trains new sorcerers to serve the Alliance safely."
   }
  ],
  "keywords": [
@@ -111,5 +111,5 @@
  "attribution": [
   "Jennea Cannon"
  ],
- "style": 1
+ "style": 2
 }

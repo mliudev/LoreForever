@@ -27,16 +27,16 @@
    "The Missing Courier"
   ]
  },
- "summary": "Quintis Jonespyre, still wobbly after reading the knife, passes on visions of Raschal and the Woodpaw gnolls and asks you to take them to Ginro Hearthkindle in Feathermoon Stronghold.",
+ "summary": "After Psychometric Reading, Quintis Jonespyre is still unsteady. His vision shows Raschal and the Woodpaw gnolls, and Quintis asks you to carry word to Ginro Hearthkindle in Feathermoon Stronghold.",
  "sections": [
   {
    "title": "What Quintis Saw",
-   "body": "Quintis Jonespyre is still unsteady but has seen something useful. In the vision Raschal pulls two big leather backpacks off the boat, heads inland, and then goes back to the boat. Gnoll scalps appear, and Quintis thinks Raschal met Woodpaw gnolls. Raschal is very worried, almost terrified, and does not notice water elementals forming behind. There the images stop. Quintis must rest and asks you to tell Ginro, who needs to know.",
+   "body": "Quintis Jonespyre is unsteady, but his vision may help. Raschal pulls two large leather backpacks from the boat, heads inland, then returns to the boat. Gnoll scalps appear, and Quintis believes Raschal met Woodpaw gnolls. Raschal is very worried, almost terrified, and does not notice water elementals forming behind him. Then the images end. Quintis needs rest, so he asks you to tell Ginro, who needs to know.",
    "spoiler": 0
   },
   {
    "title": "Ginro's Answer",
-   "body": "Ginro thanks you for carrying Quintis's visions. Raschal can handle a fight, and gnolls would not worry Raschal, let alone terrify. Even so, Ginro hopes you and your companions can act on this and make the breakthrough that is badly needed.",
+   "body": "Ginro Hearthkindle thanks you for bringing Quintis's visions. Raschal can handle a fight, and gnolls would not worry him, let alone terrify him. Even so, Ginro hopes you and your companions can act on this and make the breakthrough they badly need.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who gives psychometric reading",
     "quest giver psychometric reading"
    ],
-   "answer": "Quintis Jonespyre, who is still wobbly after reading the knife and asks you to carry word of it to Ginro."
+   "answer": "Quintis Jonespyre has the vision to share. Still wobbly after reading the knife, he asks you to carry word of it to Ginro."
   },
   {
    "q": "What did Quintis see in his vision?",
@@ -55,7 +55,7 @@
     "what was quintis's vision",
     "what happened to raschal vision"
    ],
-   "answer": "Raschal took two large leather backpacks from the boat inland and then returned to it. Quintis also saw gnoll scalps, took the gnolls to be Woodpaw, saw Raschal very worried, almost terrified, and saw water elementals forming behind him."
+   "answer": "Raschal took two large leather backpacks from the boat inland, then returned to it. Quintis saw gnoll scalps and believed the gnolls were Woodpaw. He also saw Raschal very worried, almost terrified, while water elementals formed behind him."
   },
   {
    "q": "Where does this report need to go?",
@@ -63,7 +63,7 @@
     "where do i deliver the vision",
     "who do i talk to psychometric reading"
    ],
-   "answer": "To Ginro Hearthkindle in Feathermoon Stronghold."
+   "answer": "Take the report to Ginro Hearthkindle in Feathermoon Stronghold."
   }
  ],
  "angles": [],
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Psychometric Reading"
- ]
+ ],
+ "style": 2
 }

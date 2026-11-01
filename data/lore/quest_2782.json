@@ -28,16 +28,16 @@
   ],
   "category": "Hinterlands"
  },
- "summary": "After helping Rin'ji, you carry a tablet etched with Witherbark troll markings that nobody has yet read. Oran Snakewrithe, who studies the Witherbark, might decipher it, and lives in the Magic Quarter of the Undercity.",
+ "summary": "After helping Rin'ji, you carry Rin'ji's Secret, a tablet marked in Witherbark script that no one has read. Oran Snakewrithe studies the Witherbark and may decipher it. He is known to live in the Magic Quarter of the Undercity.",
  "sections": [
   {
    "title": "A Tablet Nobody Can Read",
-   "body": "Witherbark troll markings cover the tablet, and what Rin'ji's secret really is remains a mystery. It might be worth a great deal, or it might be worth nothing, because a Witherbark troll in trouble would probably do anything to get out of it.",
+   "body": "Witherbark troll markings cover the tablet, but what Rin'ji's secret is remains a mystery. It may be worth a great deal or nothing at all. A Witherbark troll in trouble might try anything to escape it.",
    "spoiler": 0
   },
   {
    "title": "A Scholar in the Undercity",
-   "body": "Oran Snakewrithe is a well-known scholar of the Witherbark trolls, known to live in the Magic Quarter of the Undercity. Oran might be able to read the tablet.",
+   "body": "Oran Snakewrithe is a well-known scholar of the Witherbark trolls. He is known to live in the Magic Quarter of the Undercity and may be able to read the tablet.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "rinji tablet source",
     "how do i get the tablet"
    ],
-   "answer": "It is the secret Rin'ji hid at the Overlook Cliffs, found after helping Rin'ji escape from Quel'Danil Lodge."
+   "answer": "The tablet is the secret Rin'ji hid at the Overlook Cliffs. You found it after helping Rin'ji escape from Quel'Danil Lodge."
   },
   {
    "q": "Who can read the markings on the tablet?",
@@ -56,7 +56,7 @@
     "who can decipher the tablet",
     "who reads witherbark markings"
    ],
-   "answer": "Oran Snakewrithe, a scholar who knows the Witherbark trolls well, may be able to decipher it."
+   "answer": "Oran Snakewrithe knows the Witherbark trolls well and may be able to decipher the markings."
   },
   {
    "q": "Where is Oran Snakewrithe located?",
@@ -64,7 +64,7 @@
     "oran snakewrithe location",
     "where is oran"
    ],
-   "answer": "Oran is known to live in the Magic Quarter of the Undercity."
+   "answer": "Oran Snakewrithe is known to live in the Magic Quarter of the Undercity."
   },
   {
    "q": "Is the tablet valuable?",
@@ -72,7 +72,7 @@
     "what is rinji's secret",
     "tablet meaning"
    ],
-   "answer": "Nobody can say. It may be worth a lot or nothing, since a Witherbark troll in distress might try anything to escape trouble."
+   "answer": "Nobody can say. The tablet may be worth a great deal or nothing at all, since a Witherbark troll in distress might try anything to escape trouble."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Rin'ji's Secret (quest)"
- ]
+ ],
+ "style": 2
 }

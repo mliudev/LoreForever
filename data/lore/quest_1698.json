@@ -17,11 +17,11 @@
   "wiki": "Yorus Barleybrew (quest)",
   "chain": []
  },
- "summary": "At the Lakeshire Inn, Yorus Barleybrew awaits Alliance warriors bold enough to answer his challenge. Trainers across Alliance capitals send seasoned fighters from Stormwind toward the Redridge borderlands to meet the eccentric dwarf and face his test of arms.",
+ "summary": "At the Lakeshire Inn, Yorus Barleybrew awaits bold Alliance warriors with an eccentric challenge. Trainers across Alliance capitals send seasoned fighters from Stormwind toward the Redridge borderlands to meet the dwarf and face his test of arms.",
  "sections": [
   {
    "title": "A Call to the Strong",
-   "body": "Across Alliance capitals, warrior trainers watch fighters who have outgrown their first drills. When an apprentice proves their mettle around their twentieth season, trainers such as Kelv Sternhammer, Wu Shen, and Darnath Bladesinger pass along word of Yorus Barleybrew. The dwarf offers no standard military order. Instead, he has issued an open wager and a test of arms to any Alliance warrior bold enough to answer.",
+   "body": "Across Alliance capitals, warrior trainers watch fighters outgrow their first drills. When an apprentice proves their mettle around their twentieth season, Kelv Sternhammer, Wu Shen, and Darnath Bladesinger pass along word of Yorus Barleybrew. The dwarf offers no standard military order. Instead, he has issued an open wager and a test of arms to any Alliance warrior bold enough to answer.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who is barleybrew",
     "dwarf in lakeshire inn"
    ],
-   "answer": "Yorus Barleybrew is a dwarf of the famous Barleybrew brewing clan who has issued an open martial challenge to Alliance warriors. He waits at the Lakeshire Inn, where he tests fighters who believe they are ready for the brutal frontier of Redridge Mountains."
+   "answer": "Yorus Barleybrew belongs to the famous Barleybrew brewing clan and has issued an open martial challenge to Alliance warriors. He waits at the Lakeshire Inn, testing fighters who believe they are ready for the brutal frontier of Redridge Mountains."
   },
   {
    "q": "Why do the trainers send warriors to Redridge?",
@@ -47,7 +47,7 @@
     "warrior trainer quest redridge",
     "why go to yorus"
    ],
-   "answer": "When a warrior has gained sufficient skill in Stormwind, local weapon masters send them toward practical, high-stakes combat. Yorus Barleybrew's trial takes trainees beyond the city walls, where they prove their endurance against real wilderness threats."
+   "answer": "Once a warrior has gained sufficient skill in Stormwind, local weapon masters send them toward practical, high-stakes combat. Yorus Barleybrew's trial takes trainees beyond the city walls, where they prove their endurance against real wilderness threats."
   },
   {
    "q": "Where can I find Yorus Barleybrew?",
@@ -65,7 +65,7 @@
     "barleybrew trial",
     "next quest"
    ],
-   "answer": "Speaking with Yorus begins his martial trial: the Rethban Gauntlet, a perilous test against the vicious beasts and gnolls in the surrounding hills."
+   "answer": "Speaking with Yorus begins his martial trial, the Rethban Gauntlet. It is a perilous test against the vicious beasts and gnolls in the surrounding hills."
   },
   {
    "q": "Who offers the quest to find him?",
@@ -74,7 +74,7 @@
     "quest starter",
     "trainers for yorus"
    ],
-   "answer": "Warrior trainers in the Alliance capitals, including Kelv Sternhammer, Wu Shen, and Darnath Bladesinger, send warriors to find Yorus once they have proven basic competence."
+   "answer": "Alliance warrior trainers, including Kelv Sternhammer, Wu Shen, and Darnath Bladesinger, send warriors to find Yorus once they have proven basic competence."
   },
   {
    "q": "Is this trial open to classes other than warriors?",
@@ -83,7 +83,7 @@
     "is this warrior only",
     "class restrictions"
    ],
-   "answer": "No. Yorus Barleybrew offers this challenge only to warriors, martial combatants who rely on physical endurance and arms."
+   "answer": "No. Yorus Barleybrew offers this challenge only to warriors, who rely on physical endurance and arms."
   }
  ],
  "angles": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Yorus Barleybrew (quest)"
  ],
- "style": 1
+ "style": 2
 }

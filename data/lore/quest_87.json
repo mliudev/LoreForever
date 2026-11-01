@@ -17,16 +17,16 @@
   "wiki": "Goldtooth (quest)",
   "chain": []
  },
- "summary": "Near Fargodeep Mine, Auntie Bernice Stonefield's necklace is missing, and the Stonefield and Maclure families blame each other. Billy Maclure admits he lost it while playing nearby, and you follow the trail to the kobold Goldtooth.",
+ "summary": "Near Fargodeep Mine, Billy Maclure's careless play has set the Stonefield and Maclure families against each other. His trail leads you to the kobold Goldtooth.",
  "sections": [
   {
    "title": "A Boy's Mischief",
-   "body": "Auntie Bernice Stonefield's missing necklace has stirred up trouble between the Stonefield and Maclure families. Bernice suspects her rivals, but Billy Maclure lost the trinket while playing near Fargodeep Mine. He tries to hide his guilt, saying he only found the necklace before a creature snatched it away.",
+   "body": "Auntie Bernice Stonefield's missing necklace has stirred trouble between the Stonefield and Maclure families. Bernice suspects her rivals, but Billy Maclure lost the trinket while playing near Fargodeep Mine. He tries to hide his guilt. He says he found the necklace before a creature snatched it away.",
    "spoiler": 0
   },
   {
    "title": "The Den Above the Mine",
-   "body": "Billy says a large kobold with gleaming fangs took the shiny necklace and ran to a den above Fargodeep Mine. Goldtooth actually lurks on the mine's lower level. Slaying the kobold brings Bernice's necklace back, settles the families' dispute, and earns you an old campaign keepsake left by Bernice's late husband.",
+   "body": "Billy says a large kobold with gleaming fangs took the shiny necklace and fled to a den above Fargodeep Mine. Yet Goldtooth lurks on the mine's lower level. Slaying the kobold returns Bernice's necklace and settles the families' dispute. Bernice also gives you an old campaign keepsake left by her late husband.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who took the necklace",
     "did maclures steal necklace"
    ],
-   "answer": "Billy Maclure most likely took Auntie Bernice's necklace. He lets slip that he lost it while playing near Fargodeep Mine, then says he only found it there. Before he could retrieve it, Goldtooth the kobold grabbed the shiny trinket."
+   "answer": "Billy Maclure most likely took Auntie Bernice's necklace. He lets slip that he lost it while playing near Fargodeep Mine, then claims he only found it there. Before he could retrieve it, Goldtooth the kobold grabbed the shiny trinket."
   },
   {
    "q": "Where can Goldtooth be found?",
@@ -63,7 +63,7 @@
     "stonefield maclure drama",
     "why does bernice blame billy"
    ],
-   "answer": "The Stonefields and Maclures are bitter rivals who blame each other for petty thefts and misfortunes. Auntie Bernice suspects the Maclures took her necklace out of spite, but the search reveals Billy lost it through carelessness."
+   "answer": "The Stonefields and Maclures are bitter rivals who blame each other for petty thefts and misfortunes. Auntie Bernice suspects the Maclures took her necklace out of spite, but Billy lost it through carelessness."
   },
   {
    "q": "What is the reward from Auntie Bernice?",
@@ -79,7 +79,7 @@
     "goldtooth prereq",
     "quest before goldtooth"
    ],
-   "answer": "Back to Billy leads directly into Goldtooth. You bribe Billy Maclure with pork, and he finally confesses what happened to the necklace."
+   "answer": "Back to Billy leads directly to Goldtooth. You bribe Billy Maclure with pork, and he finally confesses what happened to the necklace."
   }
  ],
  "angles": [
@@ -111,5 +111,5 @@
  "attribution": [
   "Goldtooth (quest)"
  ],
- "style": 1
+ "style": 2
 }

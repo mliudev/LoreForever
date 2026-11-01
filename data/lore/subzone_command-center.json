@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Command Center"
  },
- "summary": "In Stormwind's Old Town, the Command Center trains recruits while most of the army serves abroad. Also called the Stormwind Barracks, it houses the city's military officers and a seasoned skeleton crew focused on drilling recruits and local militia.",
+ "summary": "Stormwind's army is thinned by campaigns abroad, and recruits drill in the Command Center. Also called the Stormwind Barracks, it houses the city's officers and a seasoned crew focused on training recruits and local militia.",
  "sections": [
   {
    "title": "A Thin Line of Defense",
-   "body": "In Old Town, Stormwind's Command Center is a garrison and training ground for the kingdom's soldiers. Its halls are quieter than usual, with much of the royal army committed to campaigns abroad. Veteran instructors, including Ander Germaine and martial artist Wu Shen, train fresh warriors to strengthen the city's defenses.",
+   "body": "In Old Town, Stormwind's Command Center trains the kingdom's soldiers. Much of the royal army serves abroad, leaving its halls quieter than usual. Veteran instructors Ander Germaine and martial artist Wu Shen drill fresh warriors to strengthen the city's defenses.",
    "spoiler": 0
   },
   {
    "title": "Old Town's Martial Hub",
-   "body": "When you ask for instruction in heavy arms or tactical combat, Stormwind's guards may point you to the Barracks. The building sits near the Pig and Whistle Tavern and the shadowy operations elsewhere in Old Town. It helps keep order in a district known for tavern brawls and roguish activity.",
+   "body": "When you seek instruction in heavy arms or tactical combat, Stormwind's guards may direct you to the Barracks. It stands near the Pig and Whistle Tavern and Old Town's shadowy operations. The training ground helps keep order in a district known for tavern brawls and roguish activity.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is stormwind army",
     "barracks empty"
    ],
-   "answer": "Most of Stormwind's standing army has been sent to distant outposts and foreign battlefields across the world. A seasoned skeleton crew remains to instruct recruits and organize local defense."
+   "answer": "Most of Stormwind's standing army serves at distant outposts and on foreign battlefields across the world. A seasoned crew remains to instruct recruits and organize local defense."
   },
   {
    "q": "Is the Command Center the same as the Stormwind Barracks?",
@@ -37,7 +37,7 @@
     "are command center and barracks the same",
     "barracks location"
    ],
-   "answer": "Yes. The building is officially called the Command Center, though city guards and local residents often call it the Stormwind Barracks when giving directions."
+   "answer": "Yes. The building's official name is the Command Center, though guards and residents often call it the Stormwind Barracks when giving directions."
   },
   {
    "q": "Who leads the training here?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can train at Stormwind's Command Center, where veterans such as Ander Germaine and Wu Shen teach recruits to fight as disciplined frontline soldiers."
+   "text": "As a warrior, you can train at Stormwind's Command Center. Veterans such as Ander Germaine and Wu Shen teach recruits to fight as disciplined frontline soldiers."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Command Center"
  ],
- "style": 1
+ "style": 2
 }

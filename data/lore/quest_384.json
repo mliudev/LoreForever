@@ -17,16 +17,16 @@
   "wiki": "Beer Basted Boar Ribs (quest)",
   "chain": []
  },
- "summary": "At the Thunderbrew Distillery in Kharanos, hungry patrons wait for Ragnar Thunderbrew's famed ribs. His regular meat supplier is away with the King's Army, so Ragnar needs fresh crag boar ribs and Rhapsody Malt to keep them on the menu.",
+ "summary": "At the Thunderbrew Distillery in Kharanos, patrons hunger for Ragnar Thunderbrew's famed ribs. His regular supplier has joined the King's Army, so Ragnar needs fresh crag boar ribs and Rhapsody Malt to keep them on the menu.",
  "sections": [
   {
    "title": "A Tavern in Need",
-   "body": "The Thunderbrew Distillery in Kharanos is known for hearty dwarven ale and hearty tavern fare. Its famed Beer Basted Boar Ribs are among the favorites. But tavern keeper Ragnar Thunderbrew has a bare pantry: the local hunter who supplied fresh meat enlisted in the King's Army to reinforce the Alliance front. Eager customers still fill the tavern, and Ragnar needs passing travelers to help keep the ribs on the menu.",
+   "body": "Tavern keeper Ragnar Thunderbrew has eager customers, but his pantry is bare. The local hunter who supplied fresh meat enlisted in the King's Army to reinforce the Alliance front. Now Ragnar has no fresh ribs for the patrons who favor them.",
    "spoiler": 0
   },
   {
    "title": "The Secret Ingredient",
-   "body": "Fresh crag boar meat comes from the tough animals roaming the snowy foothills around Kharanos. Ragnar's recipe also calls for fresh Rhapsody Malt, drawn straight from the distillery's taps. The malt softens the tough game meat and turns it into a savory feast fit for a dwarf's praise.",
+   "body": "Crag boars roam the snowy foothills around Kharanos, and their meat is tough. Ragnar's recipe also calls for fresh Rhapsody Malt, drawn straight from the distillery's taps. The malt softens the game meat and makes a savory feast fit for a dwarf's praise.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what happened to ragnar meat supplier",
     "who supplies the ribs"
    ],
-   "answer": "Ragnar's regular meat supplier, a local mountain trapper, left Kharanos to enlist in the King's Army and support Alliance operations abroad. The tavern has no steady supply of game while the trapper is away."
+   "answer": "Ragnar's regular meat supplier was a local mountain trapper who left Kharanos to enlist in the King's Army. The trapper went to support Alliance operations abroad, leaving the tavern without a steady supply of game."
   },
   {
    "q": "Where does Rhapsody Malt come from?",
@@ -47,7 +47,7 @@
     "how to get malt for ragnar",
     "who sells rhapsody malt"
    ],
-   "answer": "Rhapsody Malt is brewed and served at the Thunderbrew Distillery in Kharanos. Ragnar serves it straight from the tavern bar."
+   "answer": "Rhapsody Malt is brewed and served at the Thunderbrew Distillery in Kharanos. Ragnar draws it straight from the tavern bar."
   },
   {
    "q": "What kind of boars provide the ribs?",
@@ -64,7 +64,7 @@
     "secret to beer basted ribs",
     "beer basted boar ribs secret"
    ],
-   "answer": "Ragnar bastes the tough boar ribs in Rhapsody Malt. The malt tenderizes the cold-weather game and gives it the rich flavor of dwarven brewing."
+   "answer": "Ragnar bastes tough boar ribs in Rhapsody Malt. The malt tenderizes the cold-weather game and gives it the rich flavor of dwarven brewing."
   },
   {
    "q": "Who is fighting on the front lines for the King's Army?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how the war effort reaches even Kharanos's taverns: local mountain folk leave their trades to answer the call to arms."
+   "text": "As an Alliance member, you can see the war effort reach even Kharanos's taverns. Local mountain folk leave their trades to answer the call to arms."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Beer Basted Boar Ribs (quest)"
  ],
- "style": 1
+ "style": 2
 }

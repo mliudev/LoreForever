@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Deathguard Billmuth asks you to recover Scarlet Crusade attack plans from Venomweb Vale. The plans could help the Deathguard prepare for an expected assault.",
+ "summary": "Deathguard Billmuth needs you to recover Scarlet Crusade attack plans from Venomweb Vale. The Deathguard expects an assault and hopes the plans will help prepare an ambush.",
  "sections": [
   {
    "title": "Orders for the Keep",
-   "body": "Scarlet Crusaders carry deployment orders in their satchels, and the Deathguard expects an attack. You are asked to bring a copy of the plans back to Deathguard Billmuth at Bandarion Keep so the Deathguard can prepare an ambush.",
+   "body": "Scarlet Crusaders carry deployment orders in their satchels, and the Deathguard expects an attack. Bring a copy of the plans to Deathguard Billmuth at Bandarion Keep. Then the Deathguard can prepare an ambush.",
    "spoiler": 0
   },
   {
    "title": "A Friend Saved",
-   "body": "Billmuth thanks you for saving his friend and says he will take the plans to his commander. He also says your actions have shown him that you are Forsaken through and through, despite the mistrust some of his people hold toward your class.",
+   "body": "Billmuth thanks you for saving his friend and says he will take the plans to his commander. Your actions have shown him you are Forsaken through and through, despite the mistrust some of his people hold toward your class.",
    "spoiler": 1
   }
  ],
@@ -79,7 +79,7 @@
   "topic:forsaken",
   "topic:scarlet-crusade"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Lesson in Divinity"
  ]

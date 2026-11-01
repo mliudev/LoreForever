@@ -22,16 +22,16 @@
    "Senir's Observations (2)"
   ]
  },
- "summary": "In Coldridge Valley, young Frostmane trolls gather in caves along the southern ridge. Grelin Whitebeard sends willing recruits to thin their numbers while Ironforge faces a trogg invasion.",
+ "summary": "In southern Coldridge Valley, Grelin Whitebeard sends you against Frostmane whelps settling in a cave. Their growing camp threatens nearby dwarven homesteads.",
  "sections": [
   {
    "title": "Eyes in the Cold",
-   "body": "Grelin Whitebeard watches the frozen valley from a bluff as Ironforge's soldiers fight troggs across the snowfields. The southern approaches still need watching. Grelin and his brother Senir came at the mountain authorities' command to learn whether the native ice trolls threatened the heartland. Grelin keeps watch alone and tracks their movements.",
+   "body": "Grelin watches the frozen valley from a bluff as Ironforge's soldiers fight troggs across the snowfields. He and his brother Senir came on the mountain authorities' orders to learn whether the native ice trolls threatened the heartland. Now Grelin keeps watch alone, tracking their movements along the southern approaches.",
    "spoiler": 0
   },
   {
    "title": "A Preemptive Strike",
-   "body": "Grelin found that the local Frostmane clan had begun settling in a deep cave along Coldridge Valley's southern ridge. He believes a full military mobilization would waste dwarven manpower, so he hires capable local volunteers to cull the aggressive whelps. Thinning their young fighters could disrupt the camp before the Frostmane launch coordinated raids against nearby dwarven homesteads.",
+   "body": "Grelin found the local Frostmane clan settling in a deep cave along Coldridge Valley's southern ridge. He judges a full mobilization a waste of dwarven manpower, so he hires capable local volunteers to cull the aggressive whelps. Thinning the young fighters could disrupt the camp before the Frostmane launch coordinated raids against nearby dwarven homesteads.",
    "spoiler": 0
   }
  ],
@@ -78,7 +78,7 @@
     "why whelps",
     "why target young trolls"
    ],
-   "answer": "Grelin targets the Frostmane whelps because the settlement in southern Coldridge Valley is growing, with juvenile warriors among its members. Killing those young fighters may keep the band from growing strong enough to threaten dwarven supply lines."
+   "answer": "Grelin targets the Frostmane whelps because their settlement in southern Coldridge Valley is growing, with juvenile warriors among its members. Killing those young fighters may keep the band from growing strong enough to threaten dwarven supply lines."
   },
   {
    "q": "What happens after culling the cave?",
@@ -86,13 +86,13 @@
     "what next",
     "troll cave follow up"
    ],
-   "answer": "After you cull the cave, the trolls retaliate at night, raiding Grelin's campsite and stealing his personal field journal. You must recover it from deeper in their dens."
+   "answer": "After you cull the cave, the trolls retaliate at night. They raid Grelin's campsite and steal his personal field journal, which you must recover from deeper in their dens."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a Bronzebeard dwarf, you face both a threat to the frontier and an ancient mountain feud when you take up arms against Frostmane warbands."
+   "text": "As a Bronzebeard dwarf, you face a threat to the frontier and an ancient mountain feud when you take up arms against Frostmane warbands."
   },
   {
    "target": "race:Gnome",
@@ -124,5 +124,5 @@
  "attribution": [
   "The Troll Cave"
  ],
- "style": 1
+ "style": 2
 }

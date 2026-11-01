@@ -10,11 +10,11 @@
    "quest:8311"
   ]
  },
- "summary": "At Hallow's End, Darnassus innkeepers hand out festive marzipan to visitors who dance for it. Crafted in the night elven capital for the autumn celebration, this sweet is one of four treats Jesper needs.",
+ "summary": "At Hallow's End, Darnassus innkeepers offer visitors marzipan after a dance. Made in the night elven capital for the autumn celebration, it is one of four treats Jesper needs.",
  "sections": [
   {
    "title": "A Taste of the World Tree",
-   "body": "During Hallow's End, Alliance capitals share a tradition of lighthearted trick-or-treating. Dwarves offer sharp mints, Stormwind makes chewy nougat, and Darnassus innkeepers prepare delicate marzipan for visitors. To receive a piece, you must show some festive spirit and dance when the innkeeper asks. The sweet is one of four regional treats sought by Jesper, a sick orphan in Stormwind's Cathedral Square who cannot go out to collect sweets himself.",
+   "body": "At Hallow's End, Alliance capitals share a lighthearted trick-or-treating custom. Dwarves offer sharp mints, Stormwind makes chewy nougat, and Darnassus innkeepers prepare delicate marzipan. Dance when an innkeeper asks, and you receive a piece.\n\nJesper needs the sweet as one of four regional treats. He is a sick orphan in Stormwind's Cathedral Square and cannot go out to collect them himself.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you can share the lighter customs of autumn. Darnassus innkeepers offer sugary marzipan to travelers who honor their hospitality with a lively dance."
+   "text": "As a kaldorei, you can share autumn's lighter customs. Darnassus innkeepers offer sugary marzipan to travelers who honor their hospitality with a lively dance."
   },
   {
    "target": "faction:Alliance",
@@ -75,5 +75,5 @@
   "Darnassus Marzipan",
   "Hallow's End Treats for Jesper!"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gryphon Roost"
  },
- "summary": "Gryphons take travelers from Stormwind’s eastern ramparts across the Eastern Kingdoms. Dungar Longdrink, a human gryphon master, manages the roost beside the Trade District.",
+ "summary": "Gryphons carry travelers from Stormwind’s eastern ramparts across the Eastern Kingdoms. Human gryphon master Dungar Longdrink tends the roost beside the Trade District.",
  "sections": [
   {
    "title": "Gateway to the Skies",
-   "body": "From the eastern ramparts, gryphons carry travelers from Stormwind to Alliance garrisons and settlements across the Eastern Kingdoms. Dungar Longdrink, the seasoned gryphon master, coordinates flights to Ironforge, Lakeshire, Sentinel Hill, and other destinations.",
+   "body": "Dungar Longdrink arranges flights to Ironforge, Lakeshire, Sentinel Hill, and other Alliance garrisons and settlements. The roost joins Stormwind to these outlying holds. Its trained gryphons wait ready for the journeys ahead.",
    "spoiler": 0
   },
   {
    "title": "A Touch of the Aerie",
-   "body": "Gryphons and their handlers bring a trace of Hinterlands tradition within Stormwind’s walls. The Wildhammer clan has long revered gryphons as partners and introduced aerial warfare and transport to the broader Alliance during the Second War. Leather, feed, and fresh winds mark the roost amid the city’s stonework.",
+   "body": "Gryphons and their handlers bring a trace of Hinterlands tradition into Stormwind. The Wildhammer clan has long honored gryphons as partners. During the Second War, they brought aerial warfare and transport to the wider Alliance. Leather, feed, and fresh winds lend the roost a frontier air amid the city’s stonework.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "stormwind flight master location",
     "find gryphon roost"
    ],
-   "answer": "The Gryphon Roost sits on Stormwind’s eastern ramparts, reached by a stairway from the Trade District. It overlooks the canals between the Trade District and Old Town."
+   "answer": "The Gryphon Roost sits on Stormwind’s eastern ramparts, reached by a stairway from the Trade District. From there, it overlooks the canals between the Trade District and Old Town."
   },
   {
    "q": "Who manages the roost's flights?",
@@ -46,7 +46,7 @@
     "wildhammer in stormwind",
     "dwarven gryphons"
    ],
-   "answer": "Stormwind’s flight master, Dungar Longdrink, is human. The Wildhammer dwarves have a long tradition of gryphon riding, while Dungar manages the roost’s flights."
+   "answer": "Dungar Longdrink, Stormwind’s flight master, is human. The Wildhammer dwarves have a long tradition of gryphon riding, while Dungar manages the roost’s flights."
   },
   {
    "q": "Where can the gryphons fly from here?",
@@ -55,17 +55,17 @@
     "where do gryphons go",
     "roost flight connections"
    ],
-   "answer": "The roost connects Stormwind with Alliance destinations including Sentinel Hill, Lakeshire, Darkshire, and Ironforge. Other routes reach settlements across the Eastern Kingdoms."
+   "answer": "The roost links Stormwind with Alliance destinations such as Sentinel Hill, Lakeshire, Darkshire, and Ironforge. Other routes reach settlements across the Eastern Kingdoms."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see your people’s long tradition of gryphon riding carried into Stormwind. Trained gryphons connect the human capital with Khaz Modan."
+   "text": "As a dwarf, you see your people’s long tradition of gryphon riding carried into Stormwind. Trained gryphons link the human capital with Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can carry messages by air from Stormwind to territories such as Westfall and Redridge, helping coordinate responses there."
+   "text": "As an Alliance traveler, you can carry messages by air from Stormwind to territories such as Westfall and Redridge. Those flights help coordinate responses there."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Gryphon Roost"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Jandia in Freewind Post needs stolen supplies recovered from the harpies. Without another shipment, the post will soon run short.",
+ "summary": "At Freewind Post, Jandia needs the harpies' stolen supplies back. The post has enough for now, but it will soon run short without another shipment.",
  "sections": [
   {
    "title": "The Missing Shipment",
-   "body": "The harpies attacked the last caravan scheduled to bring supplies to Freewind Post. Jandia says the post has enough for now, but that will not last without more. Their lair lies west of here, along the cliff base and in a cave above.",
+   "body": "The harpies struck the last caravan bound for Freewind Post. Jandia says the post can manage for now, though its stores will not last without more supplies. The harpies' lair lies west of the post, along the cliff base and in a cave above.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "harpy supplies",
     "harpies stole what"
    ],
-   "answer": "Harpies attacked the last caravan scheduled to deliver supplies to Freewind Post."
+   "answer": "Harpies attacked the last caravan carrying supplies to Freewind Post."
   },
   {
    "q": "Where is the harpy lair?",
@@ -45,7 +45,7 @@
     "harpy cave",
     "harpies west"
    ],
-   "answer": "The harpies make their lair west of Freewind Post, at the base of the cliff and inside a cave at the top."
+   "answer": "The harpies' lair lies west of Freewind Post, along the cliff base and in a cave above."
   },
   {
    "q": "Why does Jandia need them back?",
@@ -54,7 +54,7 @@
     "freewind running short",
     "why supplies matter"
    ],
-   "answer": "Freewind Post has enough supplies for the moment, but will run short soon without another shipment."
+   "answer": "Freewind Post has enough supplies for now, but it will soon run short without another shipment."
   },
   {
    "q": "What does Jandia ask you to recover?",
@@ -81,7 +81,7 @@
   "subzone:freewind-post",
   "topic:harpy"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Stolen Freewind Supplies"
  ]

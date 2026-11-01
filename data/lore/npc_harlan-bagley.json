@@ -8,11 +8,11 @@
   "wiki": "Harlan Bagley",
   "refs": 1
  },
- "summary": "At the Lionheart Armory in Stormwind City, Harlan Bagley tends to the arms and equipment his customers need. He is a human merchant in the Trade District, serving citizens and visiting adventurers from his shop on the district's northern side.",
+ "summary": "In Stormwind's Trade District, Harlan Bagley keeps the Lionheart Armory stocked for customers. His shop stands on the district's northern side, serving citizens and visiting adventurers.",
  "sections": [
   {
    "title": "The Lionheart Armory",
-   "body": "Harlan Bagley keeps the Lionheart Armory on the northern side of Stormwind's Trade District. He tends its stock and sells defensive gear from behind the counter. Trade and regional couriers bring supplies to the shop as the capital faces distant border conflicts and shortages.",
+   "body": "Harlan Bagley keeps the Lionheart Armory on the northern side of Stormwind's Trade District. He tends the stock and sells defensive gear from behind the counter. Trade and regional couriers bring supplies to the shop. The capital faces distant border conflicts and shortages.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "harlan bagley lore",
     "lionheart armory vendor"
    ],
-   "answer": "Harlan Bagley is a human shopkeeper and tradesman who runs the Lionheart Armory, an equipment shop in Stormwind City's Trade District."
+   "answer": "Harlan Bagley runs the Lionheart Armory, an equipment shop in Stormwind City's Trade District. He is a human shopkeeper and tradesman."
   },
   {
    "q": "Where can I find Harlan Bagley?",
@@ -33,7 +33,7 @@
     "where is harlan",
     "lionheart armory location"
    ],
-   "answer": "You can find Harlan Bagley inside the Lionheart Armory, on the northern side of the central square in Stormwind City's Trade District."
+   "answer": "You can find Harlan Bagley inside the Lionheart Armory, north of the central square in Stormwind City's Trade District."
   },
   {
    "q": "What role does he play in Stormwind's commerce?",
@@ -41,13 +41,13 @@
     "what does harlan sell",
     "harlan bagley business"
    ],
-   "answer": "As a merchant in the kingdom's capital, Harlan Bagley supplies armor and gear. He sometimes hires adventurers to carry deliveries and secure supply shipments that keep his armory open."
+   "answer": "Harlan Bagley supplies armor and gear in the kingdom's capital. He sometimes hires adventurers to carry deliveries and secure supply shipments for his armory."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance merchant, Harlan Bagley helps supply the kingdom's capital with gear and goods while threats across the surrounding territories put regular supply lines at risk."
+   "text": "As an Alliance merchant, Harlan Bagley helps supply the kingdom's capital with gear and goods. Threats across the surrounding territories put regular supply lines at risk."
   }
  ],
  "keywords": [
@@ -67,5 +67,5 @@
  "attribution": [
   "Harlan Bagley"
  ],
- "style": 1
+ "style": 2
 }

@@ -19,7 +19,7 @@
     "what happens in service of zephras",
     "in service of zephras quest"
    ],
-   "answer": "In Service of Zephras tasks the player with reporting to Valennia Stormfist on behalf of the High Order. The High Order previously attempted to steer clear of direct violence with the Al'Aketh cult, but mounting hostilities and reports of large-scale cult troop maneuvers around the island forced their hand. The quest establishes formal High Order support for Valanaar's defense, while also delivering solemn tidings concerning the fate of Belathaan.",
+   "answer": "The High Order sends an emissary to Valennia Stormfist to pledge support for Valanaar. It had tried to avoid direct violence with the Al'Aketh, but hostility and reports of large troop movements across the island forced a change. The offer brings the High Order into Valanaar's defense and carries news of Belathaan's death.",
    "q": "What is the quest In Service of Zephras about?"
   },
   {
@@ -28,7 +28,7 @@
     "who is valennia",
     "valennia stormfist"
    ],
-   "answer": "Valennia Stormfist is a leader coordinating defensive efforts against the Al'Aketh in Valanaar. When the High Order sends an emissary to pledge their allegiance, Valennia receives the offer of mutual aid. She is also the cousin of Belathaan, a fallen servant of Zephras whose death is reported during this exchange, prompting her to swear vengeance against the cultists threatening their people.",
+   "answer": "Valennia Stormfist leads defensive efforts against the Al'Aketh in Valanaar. She receives the High Order's offer of mutual aid. Belathaan, her cousin and a servant of Zephras, has died, and Valennia vows vengeance against those threatening her people.",
    "q": "Who is Valennia Stormfist?"
   },
   {
@@ -37,7 +37,7 @@
     "belathaan lore",
     "what happened to belathaan"
    ],
-   "answer": "Belathaan was a cousin of Valennia Stormfist and a dedicated servant of Zephras who perished prior to the events of this mission. Valennia remembers him as an honorable servant and defender of their cause. The news of his death is formally confirmed when the adventurer reports to Valennia, deepening the personal stakes of the conflict and reinforcing the vow to avenge him.",
+   "answer": "Belathaan was Valennia Stormfist's cousin and a devoted servant of Zephras. His death came before the emissary brought word of it to Valennia. The news deepens the conflict's personal cost and strengthens her vow to avenge him.",
    "q": "Who was Belathaan?"
   },
   {
@@ -46,7 +46,7 @@
     "al'aketh cult",
     "what is alaketh"
    ],
-   "answer": "The Al'Aketh is a hostile cult active on the island whose aggressive maneuvers threaten the people of Zephras. Although the High Order initially attempted to avoid provoking direct confrontations with them, recent hostile displays and ominous reports of widespread cult movements have made war unavoidable. Their expansion has forced local forces and the High Order into an armed alliance to repel them.",
+   "answer": "The Al'Aketh is a hostile cult active on the island. Its hostile acts and troop movements threaten the people of Zephras. The High Order's effort to avoid direct conflict has given way to an armed alliance against the cult.",
    "q": "What is the Al'Aketh?"
   },
   {
@@ -55,7 +55,7 @@
     "why is the high order fighting",
     "high order zephras"
    ],
-   "answer": "The High Order initially attempted to avoid direct warfare with the Al'Aketh cult, preferring a restrained approach. However, aggressive actions and rumors of large-scale cult mobilizations convinced their leadership that neutrality was no longer sustainable. By dispatching a courier to Valennia Stormfist, the High Order officially commits its full strength to support Valanaar's military resistance against the cult.",
+   "answer": "The High Order first sought to avoid direct war with the Al'Aketh. Their hostile actions and reports of large troop movements convinced its leaders to act. The High Order now sends a courier to Valennia Stormfist, pledging its full strength to Valanaar's resistance.",
    "q": "What is the High Order's role in this conflict?"
   },
   {
@@ -64,7 +64,7 @@
     "who is zephras",
     "zephras lore"
    ],
-   "answer": "Zephras is the island, Zephras Isle, that the High Order, Valanaar and its defenders all fight to protect. The High Order explicitly warns that the rising cult movements bode ill for the people of Zephras, and fallen champions like Belathaan are remembered as faithful servants of Zephras. Protecting its populace serves as the primary justification for the alliance against the Al'Aketh.",
+   "answer": "Zephras is the island, also called Zephras Isle, that the High Order, Valanaar, and its defenders seek to protect. The Al'Aketh's growing movements threaten its people, and Belathaan is remembered as a faithful servant of Zephras. Their safety is why the High Order joins the defense.",
    "q": "What is Zephras?"
   }
  ],
@@ -84,18 +84,19 @@
  ],
  "sections": [
   {
-   "body": "For a time, the High Order sought to minimize open hostility with the secretive Al'Aketh cult, attempting to prevent outright warfare across the island. That fragile stance collapsed as the cult demonstrated unmistakable hostility, backed by alarming reports of large-scale troop movements. Recognizing that the cultists are mobilizing for an operation that threatens the peace and safety of every settlement, the High Order has shifted toward decisive action. Rather than remaining passive observers, they have resolved to commit their strength to an active alliance, sending an emissary to coordinate with local defenders before the Al'Aketh strike.",
+   "body": "The High Order once tried to avoid open conflict with the secretive Al'Aketh cult. Reports of large troop movements and clear hostility have ended that effort. The cultists are mobilizing, and every settlement on the island faces a threat to its peace and safety. So the High Order has chosen to act. It sends an emissary to join with local defenders before the Al'Aketh strike.",
    "spoiler": 0,
    "title": "The Gathering Threat"
   },
   {
-   "body": "To meet the rising cultist threat, the emissary is dispatched to Valennia Stormfist to officially offer the High Order's unconditional assistance in Valanaar's resistance against the Al'Aketh. The communication establishes a united defensive front between the two factions, paving the way for joint military efforts across the region. However, the mission carries a heavy personal cost: upon arrival, the traveler must deliver news concerning the demise of Belathaan, Valennia's cousin and a devoted servant of Zephras. While mourning his loss, Valennia vows vengeance, turning shared grief into immediate preparation for the upcoming campaign.",
+   "body": "Valennia Stormfist receives the High Order's offer of unconditional aid for Valanaar's resistance against the Al'Aketh. Together, the two sides can form a united defense and prepare joint military efforts across the region. The emissary also brings word of Belathaan's death. Valennia's cousin was a devoted servant of Zephras. She mourns him and vows vengeance, then turns to preparations for the campaign ahead.",
    "spoiler": 1,
    "title": "Alliance with Valanaar"
   }
  ],
- "summary": "In Service of Zephras is a quest in which an adventurer carries word from the High Order pledging their full military and diplomatic support to Valanaar against the Al'Aketh cult. Escalating hostile movements across the island have forced the High Order to abandon their policy of avoiding direct confrontation with the cultists. Upon delivering the message to Valennia Stormfist, the envoy also brings grim news regarding the death of her cousin Belathaan, solidifying a joint resolve to protect the people of Zephras.",
+ "summary": "The High Order now offers Valanaar its full military and diplomatic support against the Al'Aketh cult. Hostile movements across the island have ended its policy of avoiding direct confrontation.",
  "attribution": [
   "In-game quest text: In Service of Zephras"
- ]
+ ],
+ "style": 2
 }

@@ -11,16 +11,16 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Orgrimmar rises from the red canyons of northern Durotar as the orcs’ fortified capital and the New Horde’s heart. Trolls, tauren, and Forsaken allies also find shelter within its walls.",
+ "summary": "Out of the red canyons of northern Durotar rises Orgrimmar, stronghold of the orcs. It is the heart of the New Horde. Trolls, tauren and Forsaken allies have found shelter within its walls.",
  "sections": [
   {
    "title": "A Home Chiseled from Stone",
-   "body": "Orgrimmar grew from the orcs’ search for a homeland after the Third War. Warchief Thrall led them to Kalimdor’s arid coasts, seeking freedom from demonic corruption and human bondage. He named the harsh land Durotar for his father and the city for his fallen mentor, Orgrim Doomhammer. Building the stronghold cost blood and sweat. With help from the tauren, Darkspear trolls, goblin engineers, and the Champion Rexxar, the Horde drove back centaur, harpies, and ferocious thunder lizards that threatened the canyons.",
+   "body": "The orcs came here looking for a home. After the Third War, Warchief Thrall led them to the dry coasts of Kalimdor. There they would be free at last, of demon taint and of human chains. He named the land Durotar, after his father. And he named the city for Orgrim Doomhammer, the mentor he had lost.\n\nThe stronghold was raised with blood and sweat. Tauren stood with the orcs, and Darkspear trolls, and goblin engineers. The Champion Rexxar stood with them too. Together they drove back the centaurs, the harpies and the fierce thunder lizards of the canyons.",
    "spoiler": 0
   },
   {
    "title": "Valleys of the Horde",
-   "body": "Rugged mountains shield Orgrimmar from foreign invaders and Durotar’s violent razor-winds. The city’s natural hollows give each valley its own place in Horde life. The Valley of Strength holds the civic gatehouse, with a route deeper into the trade bazaar of The Drag. Tauren druids and shaman gather by the pools in the Valley of Wisdom. Darkspear shadow hunters and witch doctors live among the stilted pavilions of the Valley of Spirits.",
+   "body": "Rugged mountains ring the city. They keep out both foreign foes and the razor-winds of Durotar. Within, the rock opens into hollows, and each valley has its own part in the life of the Horde.\n\nIn the Valley of Strength stands the gatehouse. From it a road runs deeper in, to the market of the Drag. Tauren druids and shaman gather by the pools in the Valley of Wisdom. And in the Valley of Spirits, the shadow hunters and witch doctors of the Darkspear dwell among their pavilions on stilts.",
    "spoiler": 0
   },
   {
@@ -133,5 +133,5 @@
  "attribution": [
   "Orgrimmar"
  ],
- "style": 1
+ "style": 2
 }

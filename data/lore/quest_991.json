@@ -17,21 +17,21 @@
   "wiki": "Raene's Cleansing",
   "chain": []
  },
- "summary": "Raene's Cleansing begins when Raene Wolfrunner asks an adventurer to track down her missing friend, Teronis. Seeking a way to halt the rampant furbolg aggression across Ashenvale, Teronis set off toward Lake Falathim to recover a magic gemstone.",
+ "summary": "In Ashenvale, Raene Wolfrunner asks you to find Teronis in Raene's Cleansing. He set out toward Lake Falathim to recover a magic gemstone and find a way to halt the furbolgs' growing aggression.",
  "sections": [
   {
    "title": "A Friend's Concern",
-   "body": "Raene Wolfrunner serves alongside the Sentinels in Astranaar, defending Ashenvale against mounting threats. Among her closest companions was Teronis, who took it upon himself to find a potent defense against the increasingly violent furbolg tribes. When days passed without his return, Raene grew deeply worried, unable to abandon her post while fearing the worst.",
+   "body": "Raene Wolfrunner serves with the Sentinels in Astranaar, defending Ashenvale from mounting threats. Teronis was among her closest companions. He set out to find a strong defense against the furbolg tribes as they grew more violent. Days passed without his return, and Raene feared the worst while duty kept her at her post.",
    "spoiler": 0
   },
   {
-   "title": "The Quest for the Rod",
-   "body": "Teronis pursued rumors of a powerful rod forged by a deceased, wicked wizard, believing its magic could quell the furbolg fury. To restore the artifact, he required an enchanted gem hidden within an elven shrine at Lake Falathim, located near the mountains to the west. Unfortunately, the tranquil waters had recently fallen to aggressive murloc tribes.",
+   "title": "The Search for the Rod",
+   "body": "Teronis followed rumors of a powerful rod forged by a wicked wizard who had died. He believed its magic could calm the furbolg fury. To restore the rod, he needed an enchanted gem hidden in an elven shrine at Lake Falathim, near the mountains to the west. Yet aggressive murloc tribes had recently taken the lake's once-tranquil waters.",
    "spoiler": 0
   },
   {
    "title": "Tragedy at Lake Falathim",
-   "body": "Following Teronis's trail to the island within Lake Falathim reveals a grim sight. Teronis never made it out of the waters alive; his body lies slain upon the shrine, covered in deep slashes delivered by murloc weapons and claws, marking an untimely end to his search.",
+   "body": "Teronis's trail leads to the island in Lake Falathim, where a grim sight waits. Teronis never left the waters alive. His body lies slain upon the shrine, marked by deep slashes from murloc weapons and claws. There his search came to an untimely end.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is raene",
     "quest giver"
    ],
-   "answer": "Raene Wolfrunner is a night elf allied with the Sentinels of Ashenvale, stationed in Astranaar. She oversees various defensive efforts to protect the forest from encroaching enemies."
+   "answer": "Raene Wolfrunner is a night elf allied with the Sentinels of Ashenvale and stationed in Astranaar. She oversees the forest's defenses against encroaching enemies."
   },
   {
    "q": "Who was Teronis?",
@@ -52,7 +52,7 @@
     "teronis background",
     "missing friend"
    ],
-   "answer": "Teronis was a close friend of Raene Wolfrunner who sought ancient magical solutions to save the forest. Believing an enchanted rod could calm the corrupted furbolgs, he journeyed alone to secure its components."
+   "answer": "Teronis was a close friend of Raene Wolfrunner who sought ancient magic to save the forest. Believing an enchanted rod could calm the corrupted furbolgs, he traveled alone to find its components."
   },
   {
    "q": "Where did Teronis go missing?",
@@ -61,7 +61,7 @@
     "teronis location",
     "lake falathim"
    ],
-   "answer": "Teronis vanished at Lake Falathim, a body of water situated at the foot of the western mountains in Ashenvale, which had become overrun by hostile murlocs."
+   "answer": "Teronis went missing at Lake Falathim, at the foot of Ashenvale's western mountains. The lake had fallen to hostile murlocs."
   },
   {
    "q": "Why was Teronis looking for a gem?",
@@ -70,7 +70,7 @@
     "why gem",
     "teronis gem"
    ],
-   "answer": "The gem was a vital component needed to empower a magic rod crafted by a deceased evil wizard. Teronis hoped the rod's power could be repurposed to stem the attacks of enraged furbolgs."
+   "answer": "The gem was needed to restore a magic rod forged by a deceased evil wizard. Teronis hoped to use the rod's power to stem the enraged furbolgs' attacks."
   },
   {
    "q": "What happened to Teronis?",
@@ -79,7 +79,7 @@
     "teronis killer",
     "who killed teronis"
    ],
-   "answer": "Raene has not heard from him since he went to Lake Falathim. Following his trail reveals his fate."
+   "answer": "Raene has not heard from Teronis since he went to Lake Falathim."
   },
   {
    "q": "Why are the furbolgs attacking Ashenvale?",
@@ -88,17 +88,17 @@
     "why furbolgs aggressive",
     "furbolg madness"
    ],
-   "answer": "The furbolgs of Ashenvale have succumbed to demonic corruption and madness in the wake of the Third War, driving once-peaceful tribes into relentless, violent hostility against their old allies."
+   "answer": "After the Third War, demonic corruption and madness overcame Ashenvale's furbolgs. Once peaceful, the tribes turned violently against their old allies."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The disappearance of Teronis is another bitter blow to the night elves, who are already stretched thin trying to heal Ashenvale and protect their shrines from corruption."
+   "text": "Teronis's disappearance is another bitter blow to the night elves, already stretched thin as they heal Ashenvale and protect its shrines from corruption."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance recruits arriving in Astranaar quickly learn that Ashenvale's sacred groves are under siege by hostile wild beasts, furbolgs, and invasive murlocs."
+   "text": "Alliance recruits arriving in Astranaar quickly learn that hostile wild beasts, furbolgs, and invasive murlocs threaten Ashenvale's sacred groves."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Raene's Cleansing"
- ]
+ ],
+ "style": 2
 }

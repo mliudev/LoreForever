@@ -8,11 +8,11 @@
   "wiki": "Felix Whindlebolt",
   "refs": 1
  },
- "summary": "At Anvilmar in Coldridge Valley, Felix Whindlebolt seeks shelter after fleeing Gnomeregan. He lost his belongings in the rush, and Frostmane trolls carried them away.",
+ "summary": "At Anvilmar in Coldridge Valley, Felix Whindlebolt seeks shelter after fleeing Gnomeregan's radiation. Frostmane trolls have taken his belongings.",
  "sections": [
   {
    "title": "A Displaced Traveler",
-   "body": "Felix Whindlebolt fled Gnomeregan when radiation flooded the city. In his haste, he lost his personal belongings and tools. Frostmane ice trolls carried his chest, box and bucket of bolts to their camps southwest of Anvilmar. Now stranded without his gear, Felix relies on travelers to retrieve it.",
+   "body": "Felix Whindlebolt fled Gnomeregan when radiation flooded the city. In the rush, he left his belongings and tools behind.\n\nFrostmane ice trolls carried his chest, box and bucket of bolts to their camps southwest of Anvilmar. Without his gear, Felix depends on travelers to retrieve it.",
    "spoiler": 0
   }
  ],
@@ -57,11 +57,11 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, Felix reflects the plight of your kin, driven into the cold of Dun Morogh after Gnomeregan's fall."
+   "text": "As a gnome, you share the plight of your kin, driven into the cold of Dun Morogh after Gnomeregan's fall."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see how Frostmane trolls strike at gnome refugees near Anvilmar, growing bolder across Coldridge Valley."
+   "text": "As a dwarf, you can see Frostmane trolls striking at gnome refugees near Anvilmar. Their attacks grow bolder across Coldridge Valley."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Felix Whindlebolt"
  ],
- "style": 1
+ "style": 2
 }

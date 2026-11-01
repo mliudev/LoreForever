@@ -13,21 +13,21 @@
    "Stormwind"
   ]
  },
- "summary": "In Stormwind City, the crown rests on a young prince while King Varian is missing. Rebuilt after the First War, the city is now the heart of the Grand Alliance, though debt and political turmoil trouble its white stone districts.",
+ "summary": "White-walled Stormwind is the greatest haven of men, and the heart of the Alliance. Yet its king is lost. The crown now rests on a boy of ten.",
  "sections": [
   {
    "title": "Rise from the Ashes",
-   "body": "Stormwind was founded over a thousand years ago by descendants of the Arathi. For generations, it was a flourishing, self-sufficient realm. The Orcish Horde crossed the Dark Portal and laid waste to the southern continent, razing the capital during the First War. Survivors followed Sir Anduin Lothar north across the Great Sea to Lordaeron. After the Horde fell in the Second War, King Terenas Menethil II and the Alliance paid to rebuild the city. The Stonemasons Guild raised New Stormwind from polished white stone, with canals running through its boroughs.",
+   "body": "Stormwind is old. More than a thousand years ago, the descendants of the Arathi founded it. For long generations it flourished, a realm that needed no one's help. Then the Horde came through the Dark Portal. The southern continent was laid waste, and in the First War the city was razed.\n\nIts survivors followed Sir Anduin Lothar north, across the Great Sea to Lordaeron. When the Horde fell in the Second War, King Terenas Menethil II and the Alliance paid for Stormwind to rise again. The Stonemasons Guild raised it anew in polished white stone, with canals running through its boroughs.",
    "spoiler": 0
   },
   {
    "title": "A Divided Court",
-   "body": "Stormwind’s grand appearance hides a kingdom in debt and a court divided. The House of Nobles and the Stonemasons Guild fought over wages, and the dispute left the kingdom paralyzed by debt. The guild’s workers rioted and were driven from the city they had built. King Varian Wrynn has vanished on his way to a diplomatic summit. To keep panic at bay, the crown went to his ten-year-old son, Prince Anduin Wrynn. Highlord Bolvar Fordragon now rules as Regent and military commander, with royal advisor Lady Katrana Prestor at his side.",
+   "body": "But the white stone hides a troubled house. The House of Nobles quarreled with the Stonemasons Guild over wages, and the quarrel left the kingdom crippled by debt. The guild's workers rose in riot. They were driven from the very city they had built.\n\nThen King Varian Wrynn vanished on his way to a summit. Lest panic spread, the crown passed to his son Prince Anduin Wrynn. He is ten years old. Highlord Bolvar Fordragon rules now as Regent and commander of the army. And at his side stands the royal advisor, Lady Katrana Prestor.",
    "spoiler": 0
   },
   {
    "title": "Heart of the Grand Alliance",
-   "body": "With Lordaeron overrun by the Scourge, Stormwind has become humanity’s greatest haven and the Alliance’s center. High Tinker Mekkatorque’s underground Deeprun Tram links the city directly to Ironforge, the dwarven kingdom. Across the Valley of Heroes, towering statues honor the Sons of Lothar, who vanished beyond the Dark Portal. The Cathedral of Light draws the faithful, while the Wizard’s Sanctum houses arcane study. Trade, culture, and defense across the southern seas all meet in Stormwind.",
+   "body": "With Lordaeron overrun by the Scourge, men look to Stormwind above every other city. The faithful gather at the Cathedral of Light. And in the Valley of Heroes, tall statues honor the Sons of Lothar. They passed beyond the Dark Portal, and were seen no more.",
    "spoiler": 0
   },
   {
@@ -93,7 +93,7 @@
     "valley of heroes statues",
     "sons of lothar statues"
    ],
-   "answer": "The Valley of Heroes honors the Sons of Lothar: General Turalyon, Ranger Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Danath Trollbane. The statues commemorate the heroes who entered the Dark Portal to draenor to seal the rift and protect Azeroth."
+   "answer": "The Valley of Heroes honors the Sons of Lothar: General Turalyon, Ranger Captain Alleria Windrunner, Archmage Khadgar, Kurdran Wildhammer, and Danath Trollbane. The statues commemorate the heroes who entered the Dark Portal to Draenor to seal the rift and protect Azeroth."
   },
   {
    "q": "How does Stormwind connect to Ironforge?",
@@ -160,5 +160,5 @@
  "attribution": [
   "Stormwind City"
  ],
- "style": 1
+ "style": 2
 }

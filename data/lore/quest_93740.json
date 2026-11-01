@@ -19,7 +19,7 @@
     "alaketh cultists",
     "who are we fighting"
    ],
-   "answer": "The Al'Aketh are cultists viewed as bloody zealots by the Windshapers. Suspicion falls upon them for the slaying of Windshaper novices discovered in the Highlands.",
+   "answer": "The Al'Aketh are cultists whom the Windshapers regard as bloody zealots. The Windshapers suspect them of slaying novices in the Highlands.",
    "q": "Who are the Al'Aketh?"
   },
   {
@@ -28,7 +28,7 @@
     "windshaper novices dead",
     "why revenge"
    ],
-   "answer": "Several novice Windshapers were found dead in the Highlands, and the Windshapers strongly suspect the Al'Aketh cultists carried out the attack. In accordance with their creed, the Windshapers demand vengeance in return.",
+   "answer": "Several Windshaper novices were found dead in the Highlands, and the Windshapers suspect the Al'Aketh. Their creed calls for vengeance in return.",
    "q": "Why are the Windshapers seeking retribution?"
   },
   {
@@ -37,7 +37,7 @@
     "quest giver",
     "ayessa windshaper"
    ],
-   "answer": "Ayessa is a representative of the Windshapers who directs retribution against the Al'Aketh and collects the prayer charms recovered from the fallen cultists.",
+   "answer": "Ayessa represents the Windshapers. She directs their retribution against the Al'Aketh and collects the prayer charms taken from fallen cultists.",
    "q": "Who is Ayessa?"
   },
   {
@@ -46,7 +46,7 @@
     "prayer charms",
     "proof of the deed"
    ],
-   "answer": "These windstone prayer charms are personal items carried by Al'Aketh cultists. Ayessa requires them as concrete proof that the cultists responsible for the bloodshed have been slain.",
+   "answer": "Al'Aketh cultists carry windstone prayer charms. Ayessa asks for them as proof that the cultists responsible for the killings have been slain.",
    "q": "What are the windstone prayer charms?"
   },
   {
@@ -55,7 +55,7 @@
     "where are cultists",
     "gustberry lowlands location"
    ],
-   "answer": "The Al'Aketh cultists operate to the north, within the Gustberry Lowlands, where they carry out their practices.",
+   "answer": "The Al'Aketh are to the north in the Gustberry Lowlands, where they carry out their practices.",
    "q": "Where can the Al'Aketh be found?"
   }
  ],
@@ -74,18 +74,19 @@
  ],
  "sections": [
   {
-   "body": "The morning began with grim news for the Windshapers when several of their novices were discovered slain in the Highlands. Though definitive proof remains scarce, suspicion immediately turns toward the Al'Aketh cultists, whose persistent zealotry makes them the prime suspects. Driven by a code that demands an eye for an eye, the Windshapers refuse to let the bloodshed go unanswered.",
+   "body": "Several Windshaper novices have been found slain in the Highlands. Proof is scarce, yet the Windshapers suspect the Al'Aketh cultists. Their zealotry makes them the chief suspects. The Windshapers' creed demands an eye for an eye, so they will not let the killings go unanswered.",
    "spoiler": 0,
    "title": "A Grim Discovery"
   },
   {
-   "body": "Ayessa calls for direct retribution against any Al'Aketh encountered to the north in the Gustberry Lowlands. To ensure the reckoning is carried out, she asks for the windstone prayer charms taken from the fallen cultists as proof of their demise. The strike is intended as an initial answer to what the Windshapers view as prolonged fanaticism.",
+   "body": "Ayessa calls for you to strike at any Al'Aketh you find north in the Gustberry Lowlands. She asks you to bring back the windstone prayer charms carried by the fallen cultists, as proof of their deaths. The Windshapers see this strike as an answer to the cultists' long fanaticism.",
    "spoiler": 0,
    "title": "Demands of Retribution"
   }
  ],
- "summary": "Several Windshaper novices have been discovered dead in the Highlands, and suspicion immediately falls upon the zealots of the Al'Aketh. Driven by an uncompromising creed of retribution, Ayessa sends adventurers north to the Gustberry Lowlands to strike down the cultists and return with their windstone prayer charms.",
+ "summary": "Several Windshaper novices lie dead in the Highlands, and the Windshapers suspect the Al'Aketh. Ayessa sends you north to the Gustberry Lowlands to answer the killings and bring back the fallen cultists' windstone prayer charms.",
  "attribution": [
   "In-game quest text: Blood for Blood"
- ]
+ ],
+ "style": 2
 }

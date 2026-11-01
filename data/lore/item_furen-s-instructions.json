@@ -10,16 +10,16 @@
    "quest:1701"
   ]
  },
- "summary": "In Stormwind, Furen's Instructions name the materials needed for fire-hardened mail. Furen Longbeard gives the parchment to Alliance warriors he has tested.",
+ "summary": "In Stormwind, Furen Longbeard gives tested Alliance warriors the list of materials for fire-hardened mail.",
  "sections": [
   {
    "title": "A Master Smith's Demands",
-   "body": "Furen Longbeard offers to forge a resilient suit of mail for a warrior who has proved himself through simpler smithing work. The dwarven armorer asks the warrior to fetch the rare components himself. His parchment records what is needed and sends the warrior across continents to gather it.",
+   "body": "Furen Longbeard offers a resilient suit of mail to a warrior who has proved himself at simpler smithing work. The dwarven armorer requires the warrior to fetch the rare components himself. His parchment records what is needed and sends the warrior across continents to gather it.",
    "spoiler": 0
   },
   {
    "title": "Exotic Components",
-   "body": "The parchment calls for a dangerous journey through the Eastern Kingdoms and Kalimdor. The hardened links need dozens of scorched spider fangs from damp caves in the Wetlands, along with horns from fire-breathing chimaeras in the crags of Stonetalon Mountains. The list also calls for a galvanized horn from the chimaera matriarch and a vial of volatile phlogiston held deep within Razorfen Kraul, a quilboar bastion.",
+   "body": "The parchment calls for a dangerous journey through the Eastern Kingdoms and Kalimdor. Dozens of scorched spider fangs come from damp caves in the Wetlands. The hardened links also need horns from fire-breathing chimaeras in the crags of Stonetalon Mountains. The list asks for a galvanized horn from the chimaera matriarch and a vial of volatile phlogiston held deep within Razorfen Kraul, a quilboar bastion.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what are furens instructions",
     "furen list"
    ],
-   "answer": "Furen's Instructions are a written list Furen Longbeard gives Alliance warriors in Stormwind. It names the exotic materials needed to craft fire-hardened mail."
+   "answer": "Furen's Instructions are the written list Furen Longbeard gives Alliance warriors in Stormwind. It names the exotic materials needed to craft fire-hardened mail."
   },
   {
    "q": "Who is Furen Longbeard?",
@@ -97,5 +97,5 @@
   "Furen's Instructions",
   "Fire Hardened Mail"
  ],
- "style": 1
+ "style": 2
 }

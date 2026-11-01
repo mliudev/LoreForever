@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Melor Stonehoof sends you to the Alterac Mountains to hunt Frostmaw, a rarely seen yeti. A scroll explains how to lure him, and Melor awaits Frostmaw\u2019s mane in Thunder Bluff.",
+ "summary": "In the Alterac Mountains, a rare yeti hunt calls you far from home. Melor Stonehoof sends you after Frostmaw and awaits his mane in Thunder Bluff.",
  "sections": [
   {
    "title": "A Distant Hunt",
-   "body": "Melor Stonehoof says you are ready to travel far from home and hunt Frostmaw in the Alterac Mountains. The yeti\u2019s white coat blends with the mountain snow, and he rarely shows himself. Melor gives you a scroll explaining how to lure Frostmaw. Bring his mane back to Melor in Thunder Bluff; until then, your journey remains unfinished.",
+   "body": "Melor Stonehoof sends you far from home to hunt Frostmaw in the Alterac Mountains. The yeti’s white coat blends with the mountain snow, and he rarely shows himself. Melor gives you a scroll explaining how to lure him. Bring Frostmaw’s mane back to Melor in Thunder Bluff, and your journey will be complete.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "frostmaw who",
     "what is frostmaw"
    ],
-   "answer": "Frostmaw is a yeti in the Alterac Mountains. His white coat blends into the snow, and he rarely appears."
+   "answer": "Frostmaw is a yeti in the Alterac Mountains. His white coat blends with the snow, and he rarely appears."
   },
   {
    "q": "Where can I find Frostmaw?",
@@ -34,7 +34,7 @@
     "frostmaw location",
     "where is frostmaw"
    ],
-   "answer": "Frostmaw lives in the Alterac Mountains, where his white coat blends into the snow."
+   "answer": "You can find Frostmaw in the Alterac Mountains, where his white coat blends with the snow."
   },
   {
    "q": "How do I lure Frostmaw?",
@@ -50,7 +50,7 @@
     "melor frostmaw",
     "frostmaw mane"
    ],
-   "answer": "Melor Stonehoof asks you to bring Frostmaw\u2019s mane to him in Thunder Bluff."
+   "answer": "Melor Stonehoof asks you to bring Frostmaw’s mane to him in Thunder Bluff."
   }
  ],
  "angles": [],
@@ -68,7 +68,7 @@
   "zone:alterac",
   "zone:thunderbluff"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Frostmaw"
  ]

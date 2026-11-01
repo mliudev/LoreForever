@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Mages investigating the natural anomalies of Zephras share Flamebreeze's curiosity regarding the windborne arcane currents gathering in the highlands."
+   "text": "As a Mage, you share Flamebreeze's curiosity about the windborne arcane currents gathering in Zephras's highlands."
   },
   {
    "target": "race:Skyborne",
-   "text": "The winds and atmospheric magic of Zephras are of paramount interest to the Skyborne, though the terrain's hidden dangers prove perilous even for scholars."
+   "text": "As a Skyborne, you know Zephras's winds and atmospheric magic hold great interest. Hidden dangers make the terrain perilous even for scholars."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "fillion flamebreeze lore",
     "who is the missing scholar"
    ],
-   "answer": "Fillion Flamebreeze is a scholar affiliated with the High Order on Zephras. He was dispatched to survey the mysterious windborne magic congregating in the Shen'dar Highlands before mysteriously disappearing along the roadway.",
+   "answer": "Fillion Flamebreeze is a scholar of the High Order on Zephras. He set out to study windborne magic in the Shen'dar Highlands, then disappeared along the road.",
    "q": "Who is Fillion Flamebreeze?"
   },
   {
@@ -37,7 +37,7 @@
     "did fillion die",
     "fillion flamebreeze fate"
    ],
-   "answer": "Fillion never reached his destination. Along the western road heading toward the Shen'dar Highlands, only his discarded satchel remains, bearing an embroidered name and ominous specks of dried blood that indicate he was ambushed or attacked.",
+   "answer": "Fillion Flamebreeze never reached his destination. His discarded satchel lies along the western road toward the Shen'dar Highlands, marked with his embroidered name and specks of dried blood that suggest an attack.",
    "q": "What happened to Fillion Flamebreeze?"
   },
   {
@@ -46,7 +46,7 @@
     "what does high order do",
     "high order zephras"
    ],
-   "answer": "The High Order is dedicated to the gathering and preservation of knowledge across Zephras. Despite their academic mandate, operating across the island has become increasingly perilous due to wild magical phenomena and roadside threats.",
+   "answer": "The High Order gathers and preserves knowledge across Zephras. Its work has grown more perilous amid wild magical phenomena and threats along the roads.",
    "q": "What is the High Order?"
   },
   {
@@ -55,7 +55,7 @@
     "wind magic shendar",
     "why did he go to the highlands"
    ],
-   "answer": "Flamebreeze was travelling to the Shen'dar Highlands to record and collect data on unusual windborne magic that pools and flows across certain parts of the elevated territory.",
+   "answer": "Fillion Flamebreeze traveled to the Shen'dar Highlands to record unusual windborne magic pooling and flowing across parts of the highlands.",
    "q": "Why was Fillion travelling to the Shen'dar Highlands?"
   },
   {
@@ -64,7 +64,7 @@
     "fillion satchel location",
     "road from valanaar"
    ],
-   "answer": "The scholar's bloodstained satchel is located along the westward road departing from Valanaar as it ascends toward the Shen'dar Highlands.",
+   "answer": "Fillion Flamebreeze's bloodstained satchel lies along the westward road from Valanaar as it climbs toward the Shen'dar Highlands.",
    "q": "Where was Fillion Flamebreeze last seen?"
   },
   {
@@ -72,7 +72,7 @@
     "what is windborne magic zephras",
     "wind magic highlands"
    ],
-   "answer": "Windborne magic refers to atmospheric arcane currents that naturally congregate in specific high-elevation areas of Zephras, particularly within the Shen'dar Highlands, making them a primary subject of arcane research.",
+   "answer": "Windborne magic is made up of atmospheric arcane currents that gather naturally in certain high places on Zephras. The Shen'dar Highlands are a chief subject of arcane research.",
    "q": "What is the windborne magic of the Shen'dar Highlands?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "Seeking knowledge is the central mandate of the scholarly High Order, but conducting academic field research across Zephras has grown fraught with peril. When scholar Fillion Flamebreeze set out toward the Shen'dar Highlands to study atmospheric arcane phenomena, he failed to report back, sparking concern from his peers that regional dangers had claimed him along the frontier roads.",
+   "body": "The High Order gathers and preserves knowledge across Zephras. Yet field research on the island has grown perilous. Fillion Flamebreeze set out for the Shen'dar Highlands to study atmospheric arcane phenomena, but never reported back. His peers now fear the dangers along the frontier roads have claimed him.",
    "spoiler": 0,
    "title": "The High Order's Mission"
   },
   {
-   "body": "Flamebreeze departed westward from the settlement of Valanaar, venturing toward the craggy reaches of the Shen'dar Highlands to gather empirical data on windborne magic pooling within the peaks. He vanished without completing his journey. A search along the travel route uncovers only his personal satchel left behind in the dirt, stained with flecks of dried blood and leaving his ultimate survival in grave doubt.",
+   "body": "Fillion Flamebreeze left Valanaar and traveled west toward the Shen'dar Highlands. There, he meant to study windborne magic pooling among the peaks. He vanished before completing the journey. Along the route, a search finds only his personal satchel in the dirt. Dried blood stains it, and his survival is in grave doubt.",
    "spoiler": 1,
    "title": "Traces on the Western Road"
   }
  ],
- "summary": "The Missing Scholar concerns the disappearance of Fillion Flamebreeze, an academic from the High Order sent to research atmospheric magic on Zephras. Tracing his steps along the road between Valanaar and the Shen'dar Highlands reveals the dangerous nature of scholarly expedition across the island.",
+ "summary": "Fillion Flamebreeze is missing after setting out to study atmospheric magic on Zephras. The High Order sent the scholar toward the Shen'dar Highlands, and concern grows as the road from Valanaar yields no word of his return.",
  "attribution": [
   "In-game quest text: The Missing Scholar"
- ]
+ ],
+ "style": 2
 }

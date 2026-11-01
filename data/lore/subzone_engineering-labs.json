@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Engineering Labs"
  },
- "summary": "Deep within Gnomeregan, the Engineering Labs lie in ruin, their tiers linked to the Workshop Entrance and Launch Bay. Once a busy center of gnome innovation, they were overrun in the city's radioactive cataclysm. Crazed leper gnomes and rogue mechanical contraptions now fill the chambers.",
+ "summary": "In Gnomeregan, the Engineering Labs lie in ruin across tiers linked to the Workshop Entrance and Launch Bay. Once a center of gnome invention, they fell in the city's radioactive catastrophe. Crazed leper gnomes and rogue machines now fill the chambers.",
  "sections": [
   {
    "title": "A Fallen Center of Innovation",
-   "body": "The Engineering Labs were once a busy center of gnome innovation. Built around a central mechanical structure, they span two main tiers joined by a central cargo lift. At Gnomeregan's height, tinkerers developed schematics and refined clockwork inventions here. Radiation drove the remaining researchers mad, turning them into deranged leper gnomes who mindlessly guard malfunctioning machinery alongside rogue constructs.",
+   "body": "The Engineering Labs once held Gnomeregan's work in invention. A central mechanical structure rises through two tiers, joined by a cargo lift. At the city's height, tinkerers made schematics and refined clockwork devices here. Radiation drove the remaining researchers mad. Now deranged leper gnomes guard the malfunctioning machinery beside rogue constructs.",
    "spoiler": 0
   },
   {
    "title": "Crucial Junction",
-   "body": "The Engineering Labs also link routes through the lower reaches of the ruined city. Passages lead toward the Launch Bay, Tinkers' Court, and the Workshop Entrance back door. On the lower floor, Matrix Punchograph 3005-D terminals process coded punch cards carried by gnome engineers.",
+   "body": "The Engineering Labs connect routes through Gnomeregan's lower reaches. Passages lead toward the Launch Bay, Tinkers' Court and the Workshop Entrance back door. On the lower floor, Matrix Punchograph 3005-D terminals process coded punch cards carried by gnome engineers.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what was made here",
     "engineering labs lore"
    ],
-   "answer": "Before the city fell, the Engineering Labs were used to research, assemble, and test complex gnome contraptions and automated devices. Engineers and technicians used the vast two-level chamber to blueprint new technology."
+   "answer": "Before Gnomeregan fell, engineers researched, assembled and tested complex contraptions and automated devices in the Engineering Labs. Technicians used the vast two-level chamber to blueprint new technology."
   },
   {
    "q": "What threats roam the Engineering Labs now?",
@@ -37,7 +37,7 @@
     "enemies in engineering labs",
     "monsters here"
    ],
-   "answer": "Irradiated leper gnomes and haywire mechanical automatons roam both tiers. Irradiated gas released during the city's fall drove these lingering residents completely mad, and they attack any non-irradiated intruders on sight."
+   "answer": "Irradiated leper gnomes and haywire mechanical automatons roam both tiers. Gas released during the city's fall drove the lingering residents mad, and they attack any non-irradiated intruders on sight."
   },
   {
    "q": "What are the Matrix Punchograph 3005-D machines?",
@@ -46,7 +46,7 @@
     "matrix punchograph 3005-d",
     "yellow card machine"
    ],
-   "answer": "Matrix Punchograph 3005-D machines are automated gnomish data terminals on the lower level of the Engineering Labs. Engineers and adventurers use them to punch encoded data cards, advance their security clearance, and decipher technical archives preserved within the city."
+   "answer": "Matrix Punchograph 3005-D machines are automated data terminals on the Engineering Labs' lower level. Engineers and adventurers use them to punch encoded data cards, advance their security clearance and decipher technical archives preserved within the city."
   },
   {
    "q": "How does this area connect to the rest of Gnomeregan?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The Engineering Labs hold the pinnacle of fallen gnomish automation, with functional automated punchograph terminals and discarded schematics amid the wreckage."
+   "text": "In the Engineering Labs, functional punchograph terminals and discarded schematics reveal the height of gnomish automation before the city's fall."
   },
   {
    "target": "race:Gnome",
-   "text": "As an exiled gnome, you see a tragic ruin: these laboratories were once the heart of your people's technological triumphs, but now irradiated ruins are overrun by your corrupted kin."
+   "text": "As an exiled gnome, you see a tragic ruin. These laboratories once held the heart of your people's technological triumphs. Now irradiated ruins are overrun by your corrupted kin."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Engineering Labs"
  ],
- "style": 1
+ "style": 2
 }

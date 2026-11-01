@@ -8,16 +8,16 @@
   "wiki": "Field Marshal Snowfall",
   "refs": 1
  },
- "summary": "In Ironforge's Military Ward, Field Marshal Snowfall directs the Alliance's preparations for war. The dwarven military officer tracks the supplies gathered to face the silithid threat in Silithus and rewards those who aid the realm's preparations.",
+ "summary": "In Ironforge's Military Ward, Field Marshal Snowfall directs the Alliance's preparations against the silithid threat in Silithus. The dwarven officer oversees the supplies gathered for the coming war and rewards those who aid the realm.",
  "sections": [
   {
    "title": "Quartermaster of the Ahn'Qiraj Effort",
-   "body": "Field Marshal Snowfall directs the Alliance's war preparations from Ironforge's Military Ward. He sees the coming conflict as more than a border skirmish: it is a fight against an ancient enemy hostile to all creations of the Titans. Adventurers gather bandages, metal bars, leathers, herbs, and rations in great numbers. Snowfall oversees these stores so Alliance forces can be armed, armored, and fed when the march south to Silithus begins.",
+   "body": "From Ironforge's Military Ward, Field Marshal Snowfall directs the Alliance's war preparations. He sees the coming conflict as more than a border skirmish. It is a fight against an ancient enemy hostile to all creations of the Titans. Volunteers gather bandages, metal bars, leathers, herbs, and rations in great numbers. Snowfall oversees these stores so Alliance forces can be armed, armored, and fed when the march south to Silithus begins.",
    "spoiler": 0
   },
   {
    "title": "The Road to Silithus",
-   "body": "Blacksmiths, gatherers, cooks, and soldiers across Alliance lands all have a part in preparing for war. Snowfall tracks the effort, accepts commendation signets, and offers supply requisitions to volunteers. Once both factions have gathered the required supplies, the stores are packed and hauled south to Cenarion Hold. From there, the grand assault will target the qiraji swarms and the Old God behind the Scarab Wall.",
+   "body": "Blacksmiths, gatherers, cooks, and soldiers across Alliance lands all have a part in preparing for war. Snowfall tracks their effort, accepts commendation signets, and offers supply requisitions to volunteers. Once both factions have gathered the required supplies, the stores are packed and hauled south to Cenarion Hold. From there, the grand assault will target the qiraji swarms and the Old God behind the Scarab Wall.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is snowfall",
     "field marshal snowfall lore"
    ],
-   "answer": "Field Marshal Snowfall is a high-ranking dwarven commander in Ironforge's Military Ward. He oversees and tallies the Alliance's extensive supply collection for the coming war against the qiraji in Silithus."
+   "answer": "Field Marshal Snowfall is a high-ranking dwarven military officer in Ironforge's Military Ward. He oversees and tallies the Alliance's extensive supplies for the coming war against the qiraji in Silithus."
   },
   {
    "q": "Why is the Alliance collecting so many supplies?",
@@ -38,7 +38,7 @@
     "war effort purpose",
     "why war supplies"
    ],
-   "answer": "An ancient power threatens Kalimdor from beyond Ahn'Qiraj's gates. Before the armies can march across Silithus's harsh deserts, the Alliance must amass enormous reserves of armor, metal ingots, medical bandages, food, and herbs."
+   "answer": "An ancient power threatens Kalimdor from beyond Ahn'Qiraj's gates. Before the armies can march across Silithus's harsh deserts, the Alliance must amass great reserves of armor, metal ingots, medical bandages, food, and herbs."
   },
   {
    "q": "Where do the gathered materials go once finished?",
@@ -46,7 +46,7 @@
     "where do supplies go",
     "what happens to the supplies"
    ],
-   "answer": "When the Alliance and the Horde have both met their gathering quotas, caravans and supply ships carry the stockpiles to Cenarion Hold in Silithus, where the combined forces establish their forward staging grounds."
+   "answer": "When the Alliance and the Horde have both gathered the required supplies, caravans and supply ships carry the stockpiles to Cenarion Hold in Silithus. There, the combined forces establish their forward staging grounds."
   },
   {
    "q": "What are the Signets for War Supplies used for?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Field Marshal Snowfall"
  ],
- "style": 1
+ "style": 2
 }

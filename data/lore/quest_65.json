@@ -17,16 +17,16 @@
   "wiki": "The Defias Brotherhood (quest)",
   "chain": []
  },
- "summary": "In Westfall, the Defias Brotherhood's thieves threaten the farms and roads. Gryan Stoutmantle sends you from Sentinel Hill east into Redridge to seek a contact who may know where they hide.",
+ "summary": "From Sentinel Hill, Gryan Stoutmantle sends you east to Lakeshire, where a contact may know where the Defias Brotherhood hides.",
  "sections": [
   {
    "title": "The Threat in the Dust",
-   "body": "Westfall's harvests are gone, and bandits in red bandanas roam the land. Gryan Stoutmantle and the People's Militia hold Sentinel Hill under near-constant attack, but they do not know who directs their enemies. Stoutmantle knows that fighting stray looters will not save the region. He needs to find the cartel's inner circle and learn who commands it.",
+   "body": "The People's Militia cannot find who directs the bandits. Gryan Stoutmantle needs the cartel's inner circle and its commander exposed before the thieves can be stopped.",
    "spoiler": 0
   },
   {
    "title": "An Out-of-Town Contact",
-   "body": "Gryan Stoutmantle sets aside military channels and Stormwind's absent nobles, and calls on someone he knows. He sends trusted adventurers east, past Elwynn and into the Redridge Mountains. In Lakeshire, a quiet village by the lake, Wiley the Black waits on the upper floor of the local inn. The rogue knows the underworld better than any militia captain, and may offer the first lead to the Brotherhood's hideouts.",
+   "body": "Wiley the Black waits upstairs at the Lakeshire inn. Stoutmantle trusts the rogue's underworld ties to reveal the Brotherhood's hideouts. Whether Wiley can offer a lead is still uncertain.",
    "spoiler": 0
   }
  ],
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know that soldiering alone cannot uncover a criminal syndicate. Stoutmantle turns to someone who understands shadows and street favors: Wiley the Black."
+   "text": "As a rogue, you know soldiering alone cannot uncover a criminal syndicate. Stoutmantle turns to someone who understands shadows and street favors: Wiley the Black."
   },
   {
    "target": "faction:Alliance",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Defias Brotherhood (quest)"
  ],
- "style": 1
+ "style": 2
 }

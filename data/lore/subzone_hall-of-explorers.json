@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Hall of Explorers"
  },
- "summary": "Explorers gather relics and records in Ironforge's Hall of Explorers. The dwarven Explorers' League studies Azeroth's past here, seeking the origins of the dwarven race.",
+ "summary": "In Ironforge, the Hall of Explorers draws the dwarves who seek their people's origins. The Explorers' League studies Azeroth's past here.",
  "sections": [
   {
    "title": "Headquarters of the League",
-   "body": "The Hall of Explorers fills a cavern in northeastern Ironforge. High Explorer Muninn Magellas directs scholars and field agents as they coordinate digs across distant lands. Relics, ancient titan machinery, and prehistoric bones return from those expeditions. At the hall's center, the Library holds historical lore, with displays open to visitors and other records kept under restriction.",
+   "body": "In northeastern Ironforge, the Hall of Explorers fills a cavern with scholars and field agents. High Explorer Muninn Magellas directs their work as they arrange digs in distant lands. Those expeditions bring back relics, ancient titan machinery, and prehistoric bones. At the hall's center, the Library keeps historical lore. Visitors may see its displays, while other records remain restricted.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what happens here",
     "explorers league base"
    ],
-   "answer": "The Hall of Explorers is the Explorers' League headquarters and museum. Scholars study reports, catalog relics from excavations, and organize digs to learn about the dwarves' origins and ancient Azeroth."
+   "answer": "The Hall of Explorers is the Explorers' League headquarters and museum. Scholars study reports, catalog excavation relics, and arrange digs to learn about the dwarves' origins and ancient Azeroth."
   },
   {
    "q": "Who leads the operations here?",
@@ -41,13 +41,13 @@
     "hall of explorers exits",
     "where is hall of explorers"
    ],
-   "answer": "The Hall of Explorers lies in northeastern Ironforge. Archways link it to the Great Forge to the southwest, the Forlorn Cavern to the west, and Tinker Town to the south."
+   "answer": "The Hall of Explorers lies in northeastern Ironforge. Archways connect it to the Great Forge to the southwest, the Forlorn Cavern to the west, and Tinker Town to the south."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarven adventurer, you can explore relics gathered here in the search for your people's ancient origins and their connection to the Titans."
+   "text": "As a dwarven adventurer, you can explore relics gathered here as the League seeks your people's ancient origins and their connection to the Titans."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Hall of Explorers"
  ],
- "style": 1
+ "style": 2
 }

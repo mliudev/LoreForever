@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Lumina Windsinger asks you to hunt Old Fire-Eye in Silverpine Forest with the Moonsilver Blade. The Windshapers await his death, and Lumina hopes the blade will serve you well.",
+ "summary": "Lumina Windsinger sends you after Old Fire-Eye in Silverpine Forest with the Moonsilver Blade. The Windshapers await his death, and Lumina hopes the blade will guide you well.",
  "sections": [
   {
    "title": "A Blade's Purpose",
-   "body": "You've received the Moonsilver Blade from the Windshapers. Locals say Old Fire-Eye hunts across a wide stretch south of here, usually near the gates to Gilneas. Lumina asks you to find him and use the blade to end him. The Windshapers' gratitude depends on it.",
+   "body": "The Windshapers have given you the Moonsilver Blade. Locals say Old Fire-Eye hunts across a wide stretch south of here, usually near the gates to Gilneas. Lumina asks you to find him and use the blade to end him. The Windshapers' gratitude depends on his death.",
    "spoiler": 0
   },
   {
    "title": "After the Hunt",
-   "body": "When you return, Lumina thanks you and says Banon may rest in peace. She then lays a small measure of her people's magic upon the bloodstained blade, hoping the winds will guide it well.",
+   "body": "When you return, Lumina thanks you and says Banon may rest in peace. Then she lays a small measure of her people's magic upon the bloodstained blade, hoping the winds will guide it well.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "where is old fire-eye",
     "gilneas gates"
    ],
-   "answer": "Locals say Old Fire-Eye hunts over a large area south of Lumina and is generally near the gates to Gilneas."
+   "answer": "Locals say Old Fire-Eye hunts across a wide area south of Lumina, usually near the gates to Gilneas."
   },
   {
    "q": "What should I use against Old Fire-Eye?",
@@ -77,7 +77,7 @@
     "lumina enchants blade",
     "wind magic"
    ],
-   "answer": "Lumina places a small measure of her people's magic upon the bloodstained Moonsilver Blade."
+   "answer": "Lumina lays a small measure of her people's magic upon the bloodstained Moonsilver Blade."
   }
  ],
  "angles": [],
@@ -95,7 +95,7 @@
   "quest:92595",
   "zone:silverpine"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Old Fire-Eye"
  ]

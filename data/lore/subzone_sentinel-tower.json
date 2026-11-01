@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sentinel Tower"
  },
- "summary": "Defenders watch Westfall from Sentinel Tower atop Sentinel Hill. Gryan Stoutmantle and the People's Militia organize resistance against bandits, gnolls, and the Defias Brotherhood.",
+ "summary": "At Sentinel Tower, defenders watch Westfall and organize resistance against bandits, gnolls, and the Defias Brotherhood. Gryan Stoutmantle and the People's Militia hold the line.",
  "sections": [
   {
    "title": "Watch over the Wild West",
-   "body": "Sentinel Tower rises above the unsettled plains of Westfall. With Stormwind's official army largely absent and aid withheld, local volunteers and veterans joined together around this central stronghold. From its stone heights, lookouts can see across the dusty plains, from abandoned pumpkin patches to the misty shores. They watch for highwaymen and gnoll raiding parties moving through the region.",
+   "body": "Sentinel Tower watches over Westfall's unsettled plains. With Stormwind's army largely absent and aid withheld, local volunteers and veterans have gathered around this stronghold. From its stone heights, lookouts see across dusty plains, past abandoned pumpkin patches to the misty shores. They watch for highwaymen and gnoll raiding parties moving through the region.",
    "spoiler": 0
   },
   {
    "title": "Headquarters of the Militia",
-   "body": "Gryan Stoutmantle and the local leadership direct the militia from Sentinel Tower. Makeshift defenses surround the stronghold, where wounded refugees and weary soldiers gather, and homesteaders driven from their lands find emergency shelter. Militia members piece together reports about the Defias Brotherhood and organize volunteers into strikes against the syndicate that has brought Westfall to ruin.",
+   "body": "Gryan Stoutmantle and local leaders direct the militia from Sentinel Tower. Makeshift defenses ring the stronghold, where wounded refugees and weary soldiers gather. Homesteaders driven from their lands find emergency shelter there. Militia members piece together reports about the Defias Brotherhood and organize volunteers for strikes against the syndicate that has brought Westfall to ruin.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "why sentinel tower matters",
     "purpose of sentinel tower"
    ],
-   "answer": "Sentinel Tower is the only fortified garrison and lookout post left in the central plains. With Stormwind leaving Westfall largely undefended, it is the last organized bastion of order and safety for refugees in the region."
+   "answer": "Sentinel Tower is the only fortified garrison and lookout post left in the central plains. Stormwind has left Westfall largely undefended, making the tower the region's last organized bastion of order and safety for refugees."
   },
   {
    "q": "Who stays in and around the tower?",
@@ -44,7 +44,7 @@
     "who is at sentinel tower",
     "sentinel tower occupants"
    ],
-   "answer": "Militia officers, sentinels on watch, quartermasters, and farmsteader families stay in and around Sentinel Tower. The families have left their ruined lands to seek shelter near its stone walls."
+   "answer": "Militia officers, sentinels on watch, quartermasters, and farmsteader families stay in and around Sentinel Tower. The families left their ruined lands to seek shelter near its stone walls."
   },
   {
    "q": "What threats are watched from the tower?",
@@ -58,11 +58,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Sentinel Tower speaks to the grit of ordinary Alliance subjects fighting for their homeland while Stormwind's high lords turn a blind eye."
+   "text": "Sentinel Tower shows the grit of ordinary Alliance subjects fighting for their homeland while Stormwind's high lords turn a blind eye."
   },
   {
    "target": "race:Human",
-   "text": "As a human of the kingdom, you see how Stormwind's agrarian breadbasket is barely holding together against rebellion from within."
+   "text": "As a human of the kingdom, you see Stormwind's agrarian breadbasket barely holding together against rebellion from within."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Sentinel Tower"
  ],
- "style": 1
+ "style": 2
 }

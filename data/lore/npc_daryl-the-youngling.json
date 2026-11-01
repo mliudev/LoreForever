@@ -8,11 +8,11 @@
   "wiki": "Daryl the Youngling",
   "refs": 2
  },
- "summary": "At Farstrider Lodge, Daryl the Youngling tests his hunting skill among veteran dwarven trackers. He challenges travelers to prove their marksmanship against Loch Modan's beasts.",
+ "summary": "At Farstrider Lodge, Daryl the Youngling tests travelers' marksmanship against Loch Modan's beasts. The young human hunter hopes to earn his place among veteran dwarven trackers.",
  "sections": [
   {
    "title": "A Human Among Mountaineers",
-   "body": "Farstrider Lodge shelters dwarven mountaineers, trackers, and seasoned outdoorsmen who watch over Loch Modan's wilderness. Daryl is a young human trying to earn a place among them. He measures his hunting instincts against other travelers, challenging them to hunt the tough wild boars and beasts that roam the crags and lakeshore.",
+   "body": "Dwarven mountaineers, trackers, and seasoned outdoorsmen watch Loch Modan's wilderness from Farstrider Lodge. Daryl tests his hunting instincts against travelers there. He challenges them to hunt the tough wild boars and other beasts roaming the crags and lakeshore.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "daryl lore",
     "who is daryl the youngling"
    ],
-   "answer": "Daryl is a young human hunter at Farstrider Lodge in Loch Modan. Among the lodge's seasoned dwarven marksmen, he challenges newcomers to test their skill at hunting beasts and tracking."
+   "answer": "Daryl is a young human hunter at Farstrider Lodge in Loch Modan. Among the lodge's seasoned dwarven marksmen, he challenges newcomers to test their hunting and tracking skills."
   },
   {
    "q": "Where can Daryl be found?",
@@ -41,17 +41,17 @@
     "why youngling",
     "daryl nickname"
    ],
-   "answer": "The lodge's dwarven marksmen and regulars have spent decades patrolling Khaz Modan's rugged backcountry. Daryl is young and untested by comparison, still working to earn a lasting reputation as a hunter."
+   "answer": "The lodge's dwarven marksmen and regulars have spent decades patrolling Khaz Modan's rugged backcountry. Daryl is young and untested beside them, still earning a lasting reputation as a hunter."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Daryl's contests test the tracking, knowledge of beast behaviour, and hunting skill that wandering hunters bring to Farstrider Lodge."
+   "text": "Daryl's contests test the tracking, knowledge of beast behavior, and hunting skill that wandering hunters bring to Farstrider Lodge."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you can find a young person learning wilderness craft deep in dwarven territory, where practical camaraderie joins Ironforge and the human kingdoms."
+   "text": "As a human, you can find a young person learning wilderness craft deep in dwarven territory. Practical camaraderie joins Ironforge and the human kingdoms."
   }
  ],
  "keywords": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Daryl the Youngling"
  ],
- "style": 1
+ "style": 2
 }

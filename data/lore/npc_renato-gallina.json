@@ -8,11 +8,11 @@
   "wiki": "Renato Gallina",
   "refs": 1
  },
- "summary": "In Stormwind's Trade District, Renato Gallina calls travelers toward his family's winery.",
+ "summary": "In Stormwind's Trade District, Renato Gallina calls travelers to his family's winery.",
  "sections": [
   {
    "title": "Voice of the Gallina Winery",
-   "body": "Renato Gallina calls to passers-by among the Trade District stalls, proclaiming his family's vintages the finest in Stormwind. The Gallina family runs a winery along the Canals, and Renato promotes it with pamphlets. Travelers can bring one to his sister Suzetta at the shop for a free bottle of wine.",
+   "body": "Renato Gallina calls to passers-by among the Trade District stalls. He proclaims his family's vintages the finest in Stormwind. The Gallina family runs a winery along the Canals, and Renato promotes it with pamphlets. Bring one to his sister Suzetta at the shop, and she gives you a free bottle of wine.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is renato",
     "wine barker stormwind"
    ],
-   "answer": "Renato Gallina is a human barker in Stormwind City's Trade District. He belongs to the Gallina family and promotes their winery to locals and visiting travelers."
+   "answer": "Renato Gallina calls out to locals and visiting travelers in Stormwind City's Trade District. He promotes his family's winery."
   },
   {
    "q": "Where is the Gallina Winery located?",
@@ -33,7 +33,7 @@
     "stormwind wine shop location",
     "gallina winery"
    ],
-   "answer": "The Gallina Winery is along the Canals of Stormwind City, just off the main commercial quarters."
+   "answer": "The Gallina Winery lies along Stormwind City's Canals, just off the main commercial quarters."
   },
   {
    "q": "What does Renato ask adventurers to do?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler arriving in the capital, you can see Renato at work promoting Stormwind's local commerce and domestic trades."
+   "text": "As an Alliance traveler arriving in the capital, you can see Renato promoting Stormwind's local commerce and domestic trades."
   }
  ],
  "keywords": [
@@ -69,5 +69,5 @@
  "attribution": [
   "Renato Gallina"
  ],
- "style": 1
+ "style": 2
 }

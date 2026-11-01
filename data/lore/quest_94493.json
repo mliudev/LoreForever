@@ -1,0 +1,75 @@
+{
+ "key": "quest:94493",
+ "type": "quest",
+ "name": "A Sacrifice in Vain",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94493
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Elegael Thornpaw fears the Al'Aketh Cultists will overwhelm the wounded in her den. A message meant for Valanaar has not reached them, leaving her to ask for help.",
+ "sections": [
+  {
+   "title": "A Plea for Aid",
+   "body": "The Al'Aketh Cultists fell upon Elegael Thornpaw's fellows with almost no warning. Many in her den are wounded or dying, and she does not know how long they can survive the attack. She had tried to send word to Valanaar, but the message did not get through. With no reinforcements in sight, Elegael asks you to help.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who needs help",
+    "Elegael Thornpaw",
+    "Elegael"
+   ],
+   "answer": "Elegael Thornpaw asks for help as the Al'Aketh Cultists attack her fellows."
+  },
+  {
+   "q": "What happened to the people in the den?",
+   "aliases": [
+    "den wounded",
+    "what happened here",
+    "cultist attack"
+   ],
+   "answer": "The Al'Aketh Cultists ambushed them with little warning. Many are wounded or dying."
+  },
+  {
+   "q": "Why did Valanaar not send reinforcements?",
+   "aliases": [
+    "where are reinforcements",
+    "Valanaar message",
+    "message to Valanaar"
+   ],
+   "answer": "Elegael's message did not reach Valanaar, so reinforcements have not arrived."
+  },
+  {
+   "q": "What does Elegael need?",
+   "aliases": [
+    "how can I help",
+    "help Elegael",
+    "what does she ask"
+   ],
+   "answer": "Elegael asks you to help her wounded fellows survive the Al'Aketh Cultists' attack."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a sacrifice in vain",
+  "al'aketh cultists",
+  "den",
+  "elegael thornpaw",
+  "reinforcements",
+  "valanaar",
+  "wounded"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Sacrifice in Vain"
+ ]
+}

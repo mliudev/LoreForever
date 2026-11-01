@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "17"
  },
- "summary": "Thundris Windweaver sends word from Auberdine across the Great Sea to Stormwind. The letter asks City Architect Baros Alexston to recognize Auberdine's work and its home.",
+ "summary": "Thundris Windweaver sends word from Auberdine to Stormwind. He wants the settlement's work and its home known beyond Darkshore.",
  "sections": [
   {
    "title": "Bridging Two Hemispheres",
-   "body": "Auberdine now links Darkshore to Stormwind by sea. Night elves once kept to Kalimdor's forests, apart from the Eastern Kingdoms, but after the Third War they joined the Grand Alliance. The new passage gives the northern port a direct tie to the human kingdom. Local leaders want the shipping route secured and Auberdine connected to the wider Alliance. Ameth'Aran and Bashal'Aran, ruined cities nearby, have long drawn more notice than the living coastal settlement.",
+   "body": "Auberdine's sea passage now joins Darkshore directly to Stormwind. Its leaders want the shipping route kept safe and the coastal settlement linked to the wider Alliance. Nearby, the ruined cities of Ameth'Aran and Bashal'Aran have long drawn more notice than Auberdine and its living people.",
    "spoiler": 0
   },
   {
    "title": "A Missive to the City Architect",
-   "body": "The letter crossing the Great Sea is addressed to Baros Alexston, Stormwind's City Architect. He oversees construction and infrastructure in the human capital, including public works and logistics. Thundris Windweaver wants Auberdine's work recognized and its home made known.",
+   "body": "Baros Alexston oversees Stormwind's construction and infrastructure. His duties include public works and logistics. Thundris Windweaver's letter crosses the Great Sea to the official charged with the human capital's building needs.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who gives expanding horizons",
     "thundris quest"
    ],
-   "answer": "Thundris Windweaver, an influential night elf in Auberdine, asks you to carry the letter. He feels the settlement is overlooked by Darnassus and by allies across the ocean, and seeks a formal link with the human kingdom."
+   "answer": "Thundris Windweaver, an influential night elf in Auberdine, asks you to carry his letter. He feels Darnassus and allies across the ocean overlook the settlement, and seeks a formal link with the human kingdom."
   },
   {
    "q": "Who is Baros Alexston?",
@@ -42,7 +42,7 @@
     "who is baros",
     "city architect stormwind"
    ],
-   "answer": "Baros Alexston is Stormwind's City Architect. He is a respected civic planner who knew Edwin VanCleef when they were younger, and oversees construction and structural administration throughout the capital."
+   "answer": "Baros Alexston is Stormwind's City Architect. A respected civic planner, he knew Edwin VanCleef when they were younger. He oversees construction and structural administration throughout the capital."
   },
   {
    "q": "Why is Auberdine reaching out to Stormwind?",
@@ -51,7 +51,7 @@
     "auberdine stormwind connection",
     "why contact humans"
    ],
-   "answer": "Auberdine wants its harbor recognized as a gateway for supplies, commerce, and Alliance travel. Local leaders hope the new sea routes between Darkshore and the Eastern Kingdoms will strengthen economic and logistical ties with the human kingdom."
+   "answer": "Auberdine wants its harbor known as a gateway for supplies, commerce, and Alliance travel. Its leaders hope the new sea routes between Darkshore and the Eastern Kingdoms will strengthen economic and logistical ties with the human kingdom."
   },
   {
    "q": "How does travel work between Auberdine and Stormwind?",
@@ -59,7 +59,7 @@
     "boat to stormwind",
     "how to get to stormwind from auberdine"
    ],
-   "answer": "A vessel now sails from Auberdine across the Great Sea to Stormwind Harbor, bringing supplies and life to Auberdine's shores."
+   "answer": "A vessel now sails from Auberdine across the Great Sea to Stormwind Harbor. It brings supplies and life to Auberdine's shores."
   },
   {
    "q": "What are Ameth'Aran and Bashal'Aran?",
@@ -68,7 +68,7 @@
     "bashal aran",
     "ancient darkshore cities"
    ],
-   "answer": "Ameth'Aran and Bashal'Aran were prosperous highborne cities in ancient Darkshore. The Great Sundering shattered the continent ten thousand years ago, and the cities now lie in haunted ruins, more prominent in kaldorei history than living villages like Auberdine."
+   "answer": "Ameth'Aran and Bashal'Aran were prosperous highborne cities in ancient Darkshore. The Great Sundering shattered the continent ten thousand years ago. Now the cities lie in haunted ruins, more prominent in kaldorei history than living villages like Auberdine."
   },
   {
    "q": "Why deliver this to an architect instead of King Anduin or Bolvar?",
@@ -83,15 +83,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, opening sea routes to the Eastern Kingdoms breaks with ten thousand years of seclusion and binds your people to human civilization."
+   "text": "For the kaldorei, opening sea routes to the Eastern Kingdoms ends ten thousand years of seclusion and binds your people to human civilization."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you see the reach of the rebuilt kingdom grow when you return to Stormwind carrying a kaldorei settlement's seal."
+   "text": "As a human, you see the rebuilt kingdom's reach grow when you return to Stormwind carrying a kaldorei settlement's seal."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see the work needed to unite peoples across two continents into one faction."
+   "text": "As an Alliance member, you see the work needed to unite peoples across two continents in one faction."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "In-game quest text: Expanding Horizons"
  ],
- "style": 1
+ "style": 2
 }

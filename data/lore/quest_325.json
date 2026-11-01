@@ -17,16 +17,16 @@
   "wiki": "Armed and Ready (Classic)",
   "chain": []
  },
- "summary": "You carry Morbent's Bane back to Sven Yorgen, the weapon forged to strip away Morbent Fel's unholy defenses.",
+ "summary": "You carry Morbent's Bane back to Sven Yorgen, a weapon made to break Morbent Fel's unholy defenses.",
  "sections": [
   {
    "title": "A Weapon Forged",
-   "body": "Morbent Fel's hold over Raven Hill cemetery resists ordinary steel. Blades shatter or glance off the dark wards around the necromancer. A weapon made to break those wards is now ready. Grimand Elmore shaped the metal in Stormwind's Dwarven District, and sacred power consecrated it. Morbent's Bane can now sever Fel's tie to unlife.",
+   "body": "Ordinary steel cannot break Morbent Fel's hold over Raven Hill cemetery. Blades shatter or glance from the dark wards around him. Grimand Elmore shaped the metal in Stormwind's Dwarven District, and sacred power consecrated it. Now Morbent's Bane can sever Fel's tie to unlife.",
    "spoiler": 0
   },
   {
    "title": "Return to the Hermit",
-   "body": "Sven Yorgen waits at his lonely camp near Duskwood's western border, after the encroaching darkness brought ruin to his family, farm, and companions. You bring him Morbent's Bane, forged to break Morbent Fel's wards. Sven recognizes the weapon's divine craftsmanship and the fire in your eyes. With the weapon delivered, you can strike at the master of Raven Hill.",
+   "body": "At his lonely camp near Duskwood's western border, Sven Yorgen has watched the darkness ruin his family, farm, and companions. You bring him Morbent's Bane, and he recognizes its divine craftsmanship and the fire in your eyes. With the weapon in his hands, Sven can strike at the master of Raven Hill.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what is the weapon",
     "morbent bane sword"
    ],
-   "answer": "Morbent's Bane is a weapon forged and consecrated to break the magical wards surrounding Morbent Fel at Raven Hill."
+   "answer": "Morbent's Bane is a weapon forged and consecrated to break the magical wards around Morbent Fel at Raven Hill."
   },
   {
    "q": "Who crafted the weapon?",
@@ -79,13 +79,13 @@
     "fastest way to sven",
     "how to get to sven quickly"
    ],
-   "answer": "From Sentinel Hill in Westfall, travel east across the river to reach Sven's camp, a shorter and safer route than going west through Darkshire's dangers."
+   "answer": "From Sentinel Hill in Westfall, travel east across the river to reach Sven's camp. This is shorter and safer than going west through Darkshire's dangers."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you know how holy power joined with dwarven steel can break wards protecting the undead."
+   "text": "As a paladin, you know holy power joined with dwarven steel can break wards that protect the undead."
   },
   {
    "target": "profession:Blacksmithing",
@@ -93,7 +93,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see Stormwind artisans supply the expertise survivors in Duskwood need to confront the spreading blight."
+   "text": "As an Alliance member, you see Stormwind artisans give survivors in Duskwood the skill they need to confront the spreading blight."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Armed and Ready (Classic)"
  ],
- "style": 1
+ "style": 2
 }

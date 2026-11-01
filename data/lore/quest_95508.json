@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Someone thanks you for helping them survive an encounter with unwelcome guests. Their gratitude is clear, though the trouble that brought you together is not described.",
+ "summary": "You helped someone survive an encounter with unwelcome guests, and they are grateful. What brought you together remains unclear.",
  "sections": [],
  "faq": [
   {
@@ -21,7 +21,7 @@
     "unwelcome guests",
     "guest trouble"
    ],
-   "answer": "The speaker says you helped them survive, but gives no details about the encounter."
+   "answer": "You helped the speaker survive an encounter, though they give no details about it."
   },
   {
    "q": "Who is thanking me?",
@@ -30,7 +30,7 @@
     "who thanked me",
     "quest giver"
    ],
-   "answer": "The completion text does not name the speaker."
+   "answer": "The speaker who thanks you is not named."
   },
   {
    "q": "Why are they in my debt?",
@@ -39,7 +39,7 @@
     "why do they owe me",
     "helped them"
    ],
-   "answer": "They say you helped them survive, but do not explain what happened."
+   "answer": "The speaker says you helped them survive, but does not explain what happened."
   }
  ],
  "angles": [],
@@ -51,7 +51,7 @@
   "unwelcome guests"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Unwelcome Guests"
  ]

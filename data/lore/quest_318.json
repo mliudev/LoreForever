@@ -22,16 +22,16 @@
    "Return to Bellowfiz"
   ]
  },
- "summary": "At Steelgrill's Depot near Kharanos, Pilot Bellowfiz needs a potent brew from Brewnall Village. Rejold Barleybrew's Evershine can warm a traveler or fuel Bellowfiz's siege engine.",
+ "summary": "At Steelgrill's Depot near Kharanos, Pilot Bellowfiz needs Evershine from Rejold Barleybrew in Brewnall Village. The strong brew warms him and can fuel his siege engine, Jetsteam.",
  "sections": [
   {
    "title": "A Potent Concoction",
-   "body": "Rejold Barleybrew brews Evershine in Brewnall Village, where his experiments push past ordinary dwarven brewing. The drink is strong enough to knock all but the hardiest dwarves flat. In Dun Morogh's bitter cold, its heat makes it prized despite its force.",
+   "body": "Rejold Barleybrew's brewing experiments go beyond ordinary dwarven ales. Evershine can knock all but the hardiest dwarves flat, yet its heat is prized in Dun Morogh's bitter cold.",
    "spoiler": 0
   },
   {
    "title": "Fuel for Pilot Bellowfiz",
-   "body": "Pilot Bellowfiz works from Steelgrill's Depot outside Kharanos, where Evershine serves two purposes. A nip helps him endure the freezing winds, and the volatile alcohol can fuel his siege engine, Jetsteam. Poured into its furnace, the brew gives the engine an explosive surge of emergency power when Bellowfiz is in a tight spot.",
+   "body": "At Steelgrill's Depot outside Kharanos, Pilot Bellowfiz takes a warming sip of Evershine against the freezing winds. The volatile brew can also feed Jetsteam's furnace. When Bellowfiz is in a tight spot, it gives his siege engine an explosive burst of emergency power.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "evershine brew",
     "what kind of drink is evershine"
    ],
-   "answer": "Evershine is an exceptionally strong experimental brew made by the dwarven brewer Rejold Barleybrew in Brewnall Village. Its fiery kick can fell even hardy dwarven drinkers."
+   "answer": "Evershine is an exceptionally strong experimental brew made by the dwarven brewer Rejold Barleybrew in Brewnall Village. Its fiery strength can fell even hardy dwarven drinkers."
   },
   {
    "q": "Why does Pilot Bellowfiz want Evershine?",
@@ -61,7 +61,7 @@
     "brewnall village location",
     "find brewnall"
    ],
-   "answer": "Brewnall Village lies in western Dun Morogh, along the road west of Kharanos. Local brewers such as Rejold Barleybrew live there, near the snowy hills."
+   "answer": "Brewnall Village lies in western Dun Morogh, along the road west of Kharanos. Brewers such as Rejold Barleybrew live there near the snowy hills."
   },
   {
    "q": "Who is Rejold Barleybrew?",
@@ -79,7 +79,7 @@
     "what after evershine",
     "rejold quest followup"
    ],
-   "answer": "Rejold needs help before he will hand over his liquor. Reaching Brewnall Village brings you to A Favor for Evershine, where you help the brewer before he gives you a cask for Pilot Bellowfiz."
+   "answer": "Rejold needs help before he will hand over his liquor. At Brewnall Village, you find A Favor for Evershine, where you help the brewer before he gives you a cask for Pilot Bellowfiz."
   },
   {
    "q": "Is Evershine truly safe to drink?",
@@ -127,5 +127,5 @@
  "attribution": [
   "Evershine"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Ragnar Thunderbrew",
   "refs": 2
  },
- "summary": "At the Thunderbrew Distillery in Kharanos, Ragnar Thunderbrew keeps the family tavern supplied and its patrons fed. The dwarven brewer is known across Dun Morogh for the family's Beer Basted Boar Ribs.",
+ "summary": "At the Thunderbrew Distillery in Kharanos, Ragnar Thunderbrew keeps the family tavern supplied and its patrons fed. Across Dun Morogh, the dwarven brewer is known for the family's Beer Basted Boar Ribs.",
  "sections": [
   {
    "title": "A Pillar of Kharanos Hospitality",
-   "body": "Ragnar Thunderbrew tends the kitchen and brewing work at the Thunderbrew Distillery in Kharanos. Mountaineers, travelers, and gnome refugees fleeing Gnomeregan gather there. His Beer Basted Boar Ribs, made with dwarven ale, are a Dun Morogh specialty. Supplies have grown hard to find since his usual meat provider enlisted in the King's Army. Ragnar now relies on wandering mountaineers and hunters to bring fresh crag boar flanks to the kitchen.",
+   "body": "Ragnar Thunderbrew tends the kitchen and brewing work at the Thunderbrew Distillery in Kharanos. Mountaineers, travelers, and gnome refugees fleeing Gnomeregan gather there. His Beer Basted Boar Ribs, made with dwarven ale, are a Dun Morogh specialty.\n\nSupplies have grown hard to find since his usual meat provider enlisted in the King's Army. Ragnar now depends on wandering mountaineers and hunters to bring fresh crag boar flanks to the kitchen.",
    "spoiler": 0
   },
   {
    "title": "The Thunderbrew Legacy",
-   "body": "Across Ironforge territory, the Thunderbrew name is known for dwarven drink and tavern life. Ragnar has kept the distillery running since his older brother, Grimbooze Thunderbrew, disappeared in a drunken haze a few harvests ago. He guards the family's brewing heritage against thieves such as the Dark Iron dwarves, who stole the recipe for Thunderbrew Lager. With patrons restless, supplies scarce, and disputes breaking out in the tavern, Ragnar keeps the taps flowing and travelers fed in Kharanos.",
+   "body": "Across Ironforge territory, the Thunderbrew name is known for dwarven drink and tavern life. Ragnar has kept the distillery running since his older brother, Grimbooze Thunderbrew, disappeared in a drunken haze a few harvests ago.\n\nHe guards the family's brewing heritage against thieves such as the Dark Iron dwarves, who stole the recipe for Thunderbrew Lager. With patrons restless, supplies scarce, and disputes breaking out in the tavern, Ragnar keeps the taps flowing and travelers fed in Kharanos.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "ragnar and grimbooze",
     "grimbooze thunderbrew relation"
    ],
-   "answer": "Grimbooze is Ragnar's older brother. Their father, Arkilus, founded the Thunderbrew Distillery, and Ragnar has kept it running since Grimbooze disappeared in a drunken haze a few harvests ago."
+   "answer": "Grimbooze is Ragnar's older brother. Their father, Arkilus, founded the Thunderbrew Distillery. Ragnar has kept it running since Grimbooze disappeared in a drunken haze a few harvests ago."
   },
   {
    "q": "Where is Ragnar Thunderbrew located?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Ragnar Thunderbrew"
  ],
- "style": 1
+ "style": 2
 }

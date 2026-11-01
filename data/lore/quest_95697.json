@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Borstan aims to elevate traditional rustic meals into something grand enough for the Horde capital, highlighting how culinary tastes and tavern menus evolve beyond village staples."
+   "text": "Borstan hopes to raise rustic meals to a grander height for the Horde capital, as tastes and tavern menus evolve beyond village staples."
   },
   {
    "target": "faction:Horde",
-   "text": "Supplying Borstan's Firepit means venturing deep into contested lands across the sea to bring back exotic meats to Orgrimmar."
+   "text": "Supplying Borstan's Firepit means crossing the sea into contested Wetlands to bring exotic meat back to Orgrimmar."
   }
  ],
  "faq": [
@@ -27,7 +27,7 @@
     "what is changing tastes",
     "changing tastes quest"
    ],
-   "answer": "Changing Tastes is a culinary task given in Orgrimmar. Borstan, owner of Borstan's Firepit, seeks thicket raptor meat from the distant Wetlands to elevate his tavern's menu above basic village cooking.",
+   "answer": "Changing Tastes is a culinary task in Orgrimmar. Borstan, owner of Borstan's Firepit, seeks thicket raptor meat from the distant Wetlands to raise his menu above basic village cooking.",
    "q": "What is the quest Changing Tastes?"
   },
   {
@@ -35,7 +35,7 @@
     "who is zamja",
     "zamja cooking"
    ],
-   "answer": "Zamja is an associate or fellow culinary worker in Orgrimmar who suggested adding homestyle raptor dishes to Borstan's Firepit to attract customers who do not usually visit.",
+   "answer": "Zamja is an associate and fellow culinary worker who suggests homestyle raptor dishes for Borstan's Firepit, hoping to attract customers who do not usually visit.",
    "q": "Who is Zamja?"
   },
   {
@@ -43,7 +43,7 @@
     "borstans firepit",
     "where is borstan"
    ],
-   "answer": "Borstan's Firepit is an eatery located in the Horde capital of Orgrimmar, known for serving hearty cooked meats to travelers and locals alike.",
+   "answer": "Borstan's Firepit is an eatery in Orgrimmar, the Horde capital. It serves hearty cooked meats to locals and travelers alike.",
    "q": "What is Borstan's Firepit?"
   },
   {
@@ -51,7 +51,7 @@
     "why raptor meat",
     "why thicket raptor"
    ],
-   "answer": "While Zamja proposed ordinary homestyle raptor cooking to lure in diners, Borstan wants a grander take on familiar flavors. Inspired by a hunter's tale of giant talons, he chose the thicket raptors found in the Wetlands.",
+   "answer": "Borstan wants a grander take on familiar flavors than Zamja's homestyle raptor cooking. A hunter's tale of giant talons inspires him to seek thicket raptor meat from the Wetlands.",
    "q": "Why does Borstan want thicket raptor meat?"
   },
   {
@@ -59,7 +59,7 @@
     "where do i find thicket raptors",
     "wetlands excavation sites raptor"
    ],
-   "answer": "Thicket raptors inhabit the excavation sites situated in the Wetlands, an Alliance-leaning region across the Great Sea in the Eastern Kingdoms.",
+   "answer": "Thicket raptors live at excavation sites in the Wetlands, an Alliance-leaning region across the Great Sea in the Eastern Kingdoms.",
    "q": "Where are the thicket raptors located?"
   },
   {
@@ -67,7 +67,7 @@
     "who gives changing tastes",
     "borstan questgiver"
    ],
-   "answer": "Borstan, the proprietor of Borstan's Firepit in Orgrimmar, offers the quest after being inspired by advice from Zamja and a trophy brought back by an adventurous hunter.",
+   "answer": "Borstan, proprietor of Borstan's Firepit in Orgrimmar, offers Changing Tastes after Zamja's advice and a trophy brought back by an adventurous hunter inspire him.",
    "q": "Who gives the quest Changing Tastes?"
   }
  ],
@@ -90,18 +90,19 @@
  ],
  "sections": [
   {
-   "body": "In the heart of Orgrimmar, Borstan's Firepit is looking to expand its culinary offerings. Zamja suggested introducing homestyle raptor cooking to appeal to travelers missing the comforting, familiar meals of their birth villages. Borstan liked the notion of serving raptor to draw in new patrons, but felt that simply reproducing rural village dishes was unfitting for the great capital of the Horde. Instead, he envisioned a grander, bolder version of the classic staple.",
+   "body": "Borstan's Firepit in Orgrimmar hopes to widen its menu. Zamja suggests homestyle raptor cooking for travelers who miss the familiar meals of their birth villages. Borstan likes the thought of drawing new patrons with raptor, but simple village fare seems too modest for the Horde's great capital. He wants a bolder version of the old staple.",
    "spoiler": 0,
    "title": "Elevating Capital Cuisine"
   },
   {
-   "body": "Inspiration arrived when a hunter returned to Orgrimmar bearing a massive talon taken from the thicket raptors prowling the excavation sites of the Wetlands. Intrigued by the quality and stature of these beasts, Borstan arranges for adventurers to cross the sea into the Eastern Kingdoms, brave the excavation grounds, and secure prime thicket raptor meat for his roaring fires.",
+   "body": "A hunter returns to Orgrimmar with a massive talon from a thicket raptor of the Wetlands excavation sites. The beast's size and quality catch Borstan's interest. He arranges for adventurers to cross the sea to the Eastern Kingdoms, brave the excavation grounds, and bring back prime thicket raptor meat for his fires.",
    "spoiler": 0,
    "title": "The Hunt in the Wetlands"
   }
  ],
- "summary": "Changing Tastes is an Orgrimmar quest concerning culinary ambition at Borstan's Firepit. Propelled by advice from Zamja and tales of giant raptor talons, Borstan commissions adventurers to travel across the sea to the Wetlands to secure exotic thicket raptor meat.",
+ "summary": "At Borstan's Firepit, a new dish may bring travelers to Orgrimmar. Zamja's advice and tales of giant raptor talons lead Borstan to seek thicket raptor meat from the Wetlands across the sea.",
  "attribution": [
   "In-game quest text: Changing Tastes"
- ]
+ ],
+ "style": 2
 }

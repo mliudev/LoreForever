@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Historian Karnik is waiting in Ironforge for a package tied to something epic. What has been seen so far makes further study seem worthwhile.",
+ "summary": "Historian Karnik awaits a package in Ironforge, tied to something epic. What has been seen so far makes further study worthwhile.",
  "sections": [
   {
    "title": "Karnik's Library",
-   "body": "You are asked to take the Whelgar Relic Package to Historian Karnik in the Hall of Explorers. He is usually in the library, reading at the back.",
+   "body": "You are carrying the Whelgar Relic Package to Historian Karnik in the Hall of Explorers. He is usually in the library, reading at the back.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who gets it",
     "package for who"
    ],
-   "answer": "Historian Karnik is waiting for the Whelgar Relic Package in Ironforge's Hall of Explorers."
+   "answer": "Historian Karnik awaits the Whelgar Relic Package in Ironforge's Hall of Explorers."
   },
   {
    "q": "Where can I find Karnik?",
@@ -34,7 +34,7 @@
     "where's karnik",
     "karnik location"
    ],
-   "answer": "Historian Karnik is usually in the back of the library in the Hall of Explorers in Ironforge."
+   "answer": "Historian Karnik is usually reading at the back of the library in Ironforge's Hall of Explorers."
   },
   {
    "q": "What package am I carrying?",
@@ -50,7 +50,7 @@
     "why study it",
     "what's the big deal"
    ],
-   "answer": "The text calls the matter epic and says what has been seen so far makes it seem worthwhile, but gives no further details."
+   "answer": "The matter is called epic, and what has been seen so far makes further study seem worthwhile. No further details are given."
   }
  ],
  "angles": [],
@@ -67,7 +67,7 @@
   "subzone:library-ironforge",
   "zone:ironforge"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: For Further Study"
  ]

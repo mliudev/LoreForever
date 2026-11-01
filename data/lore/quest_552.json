@@ -24,16 +24,16 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "Novice Thaivand in Tarren Mill means to avenge Master Helcular, a great wizard on the brink of becoming a lich, who was killed by a human lynch mob after it found his ritual lair. Before vengeance can fall on Southshore, Thaivand needs Helcular's Rod, which one of the yeti there must hold.",
+ "summary": "In Tarren Mill, Helcular's Revenge turns on Thaivand's vow of vengeance. Master Helcular, a great wizard near becoming a lich, was killed by a human lynching crowd after it found his ritual lair in the hills. Before vengeance falls on Southshore, Thaivand needs Helcular's Rod, which he believes one of the yeti holds.",
  "sections": [
   {
    "title": "A Master Interrupted",
-   "body": "Master Helcular was on the brink of becoming a lich when he was found and killed by a human lynch mob, who had discovered the ritual lair he kept in the hills. They then buried the body in the Southshore cemetery. His apprentice, Thaivand, finds this disregard for a great wizard unacceptable and vows that the rains of vengeance will fall upon the town of Southshore.",
+   "body": "Master Helcular was near becoming a lich when a human lynching crowd found his ritual lair in the hills and killed him. They buried his body in the Southshore cemetery. Thaivand, his apprentice, finds this treatment of a great wizard unacceptable. He vows that Southshore will face vengeance.",
    "spoiler": 0
   },
   {
    "title": "The Missing Rod",
-   "body": "Thaivand says Helcular's Rod is needed first. Yeti have overtaken the ritual lair, and Thaivand is sure one of the beasts has the rod. There are so many yeti in the region that finding it will be difficult. Growless Cave and Darrow Hill are among the places they can be found.",
+   "body": "Thaivand says Helcular's Rod must be found first. Yeti have taken over the ritual lair, and Thaivand is sure one of them has the rod. So many yeti roam the region that the search will be difficult. You can find them at Growless Cave and Darrow Hill.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "helcular lore",
     "helcular backstory"
    ],
-   "answer": "A great wizard on the brink of becoming a lich, killed by a human lynch mob that found his ritual lair in the hills. His body was buried in the Southshore cemetery."
+   "answer": "Master Helcular was a great wizard near becoming a lich. A human lynching crowd found his ritual lair in the hills, killed him, and buried his body in the Southshore cemetery."
   },
   {
    "q": "Why does Novice Thaivand want Helcular's Rod?",
@@ -54,7 +54,7 @@
     "helculars rod purpose",
     "thaivand goal"
    ],
-   "answer": "Thaivand, Helcular's apprentice, plans vengeance upon the town of Southshore and says the rod is needed first."
+   "answer": "Thaivand, Helcular's apprentice, plans vengeance upon Southshore. He says the rod must be found first."
   },
   {
    "q": "Where did the rod go?",
@@ -63,7 +63,7 @@
     "how did yeti get rod",
     "rod location"
    ],
-   "answer": "Yeti have overtaken Helcular's ritual lair, and Thaivand is sure one of them has the rod. Yeti can be found in places such as Growless Cave and Darrow Hill."
+   "answer": "Yeti have taken over Helcular's ritual lair, and Thaivand is sure one of them has the rod. You can find yeti at Growless Cave and Darrow Hill."
   },
   {
    "q": "Where is Novice Thaivand located?",
@@ -72,13 +72,13 @@
     "where to turn in helculars revenge",
     "novice thaivand"
    ],
-   "answer": "In Tarren Mill, in the Hillsbrad Foothills."
+   "answer": "Novice Thaivand is in Tarren Mill, in the Hillsbrad Foothills."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This is for Horde adventurers; Thaivand in Tarren Mill is the one who calls on you."
+   "text": "As a Horde adventurer, you hear from Thaivand in Tarren Mill."
   }
  ],
  "keywords": [
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Helcular's Revenge"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Glowing Fruit",
   "chain": []
  },
- "summary": "The Glowing Fruit is a quest in Teldrassil initiated by discovering a strange fruited plant growing wild in the forest. Suspecting something unnatural, young adventurers deliver the luminescent specimen to the herbalist Denalan at Lake Al'Ameth for study.",
+ "summary": "A strange fruit shines among Teldrassil's trees, and its growth troubles those who find it. You carry it to Denalan at Lake Al'Ameth, where the herbalist can study the unfamiliar plant.",
  "sections": [
   {
    "title": "An Unnatural Harvest",
-   "body": "While traversing the misty boughs of Teldrassil, explorers occasionally stumble across curious, luminous flora bearing large, round fruit. Given the delicate balance of the World Tree and the recent strange behaviors among the island's wildlife, unusual botanical specimens demand careful investigation. Convinced that the strange growth should not be ignored, adventurers pluck the radiant harvest to bring to someone versed in the flora of the wild.",
+   "body": "In Teldrassil's misty boughs, you may find plants bearing large, round fruit that shine with their own light. The World Tree's balance is delicate, and its wildlife has behaved strangely of late. So unusual plants call for care. You gather the glowing fruit to bring it to someone who knows the wild flora.",
    "spoiler": 0
   },
   {
    "title": "Denalan's Investigation",
-   "body": "At Lake Al'Ameth, the knowledgeable gardener and herbalist Denalan receives the glowing fruit with both fascination and concern. He notes that the specimen appears exotic, speculating that its seeds might have arrived from distant lands across the sea, perhaps even the Eastern Kingdoms. More troubling to Denalan is how the foreign seed reacted with the soil of Teldrassil itself\u2014and when he plants its seeds in his prepared soil, hostile boglings rise from the earth.",
+   "body": "At Lake Al'Ameth, Denalan receives the glowing fruit with fascination and concern. The gardener and herbalist thinks its seeds may have come from distant lands across the sea, perhaps even the Eastern Kingdoms. Yet he worries more about how the foreign seed has reacted with Teldrassil's soil. When Denalan plants the seeds in prepared earth, hostile boglings rise from it.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "strange fruited plant location",
     "how to start the glowing fruit"
    ],
-   "answer": "The Strange Fruited Plant grows wild out in the wilds of Teldrassil, tucked among the undergrowth away from the major settlements. Interacting with the plant yields the Glowing Fruit and begins the quest."
+   "answer": "The Strange Fruited Plant grows wild in Teldrassil's forest, among the undergrowth and away from the major settlements. Gathering it yields the Glowing Fruit."
   },
   {
    "q": "Who is Denalan?",
@@ -47,7 +47,7 @@
     "denalan npc",
     "who turns in glowing fruit"
    ],
-   "answer": "Denalan is a night elf herbalist and botanist stationed along the shores of Lake Al'Ameth. He spends his days tending the soil, studying regional flora, and monitoring the strange environmental disturbances affecting Teldrassil."
+   "answer": "Denalan is a night elf herbalist and botanist who lives along the shores of Lake Al'Ameth. He tends the soil, studies local plants, and watches the strange disturbances affecting Teldrassil."
   },
   {
    "q": "Why does the fruit glow?",
@@ -55,7 +55,7 @@
     "why is the fruit glowing",
     "what is wrong with the fruit"
    ],
-   "answer": "The cause of the fruit's glow is not established. Denalan considers it an unusual specimen and plans to study it."
+   "answer": "No one knows why the fruit glows. Denalan considers it unusual and plans to study it."
   },
   {
    "q": "What happens when you hand the fruit to Denalan?",
@@ -63,7 +63,7 @@
     "what spawns after quest",
     "bogling ambush"
    ],
-   "answer": "Bring the glowing fruit to Denalan at Lake Al'Ameth for examination. His findings and the result of the delivery are revealed when you return."
+   "answer": "You bring the glowing fruit to Denalan at Lake Al'Ameth for examination. His findings and the result of your delivery become clear when you return."
   },
   {
    "q": "Where does Denalan think this plant came from?",
@@ -71,7 +71,7 @@
     "where did seeds come from",
     "fruit origin"
    ],
-   "answer": "Denalan suspects the plant's seeds may have originated far away across the Great Sea, carried to Kalimdor from the distant eastern continent of Azeroth."
+   "answer": "Denalan suspects the plant's seeds came from far across the Great Sea, carried to Kalimdor from the distant eastern continent of Azeroth."
   },
   {
    "q": "Does this quest connect to other ecological problems on Teldrassil?",
@@ -79,21 +79,21 @@
     "teldrassil corruption",
     "lake al'ameth problems"
    ],
-   "answer": "Yes. It ties into Denalan's broader research into why the boughs of Teldrassil and its local woodland creatures, like the timberlings, are becoming increasingly agitated and unnatural."
+   "answer": "Yes. The plant is part of Denalan's wider study of why Teldrassil's boughs and woodland creatures such as the timberlings have grown more agitated and unnatural."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids dedicated to preserving nature's balance, discovering foreign, volatile flora thriving unnaturally in Teldrassil's sacred boughs is an immediate red flag."
+   "text": "As a druid who guards nature's balance, you know foreign, volatile plants growing in Teldrassil's sacred boughs are cause for concern."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists will appreciate Denalan's botanical insight into how foreign seeds can cross continents and mutate when exposed to enchanted soils."
+   "text": "As an herbalist, you can see how foreign seeds may cross continents and change in enchanted soil."
   },
   {
    "target": "race:NightElf",
-   "text": "Kaldorei youth learn through Denalan that even the young soil of their new home, Teldrassil, is susceptible to unpredictable foreign blights."
+   "text": "As a night elf, you learn from Denalan that the young soil of your new home, Teldrassil, can suffer unpredictable foreign blights."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "The Glowing Fruit"
- ]
+ ],
+ "style": 2
 }

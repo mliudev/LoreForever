@@ -20,16 +20,16 @@
    "Return to Marleth"
   ]
  },
- "summary": "In Dun Morogh, the Barleybrews and Thunderbrews compete for renown. Marleth Barleybrew sends you to the Thunderbrew Distillery in Kharanos to replace a cask of Thunder Ale with her family's brew.",
+ "summary": "Marleth Barleybrew asks you to replace a cask of Thunder Ale at the Thunderbrew Distillery in Kharanos with her family's brew.",
  "sections": [
   {
    "title": "A Taste of Competition",
-   "body": "Ale stirs fierce pride in Khaz Modan. The Barleybrews have long resented the fame of the Thunderbrew Distillery in Kharanos. Marleth Barleybrew admits that Thunderbrew makes a respectable ale, but she cannot accept that it alone is renowned in Dun Morogh. She plans to shake up the local palate by replacing a cask of Thunder Ale with her own fiery Barleybrew Scalder.",
+   "body": "The Barleybrews have long begrudged the Thunderbrews the fame of their distillery. Marleth respects its ale, but she cannot abide Dun Morogh knowing only Thunderbrew. She means to change local tastes with her family's fiery Barleybrew Scalder.",
    "spoiler": 0
   },
   {
    "title": "Cellar Subterfuge",
-   "body": "The plan takes you into the distillery cellar, beneath the kitchen in Kharanos. Aging casks wait in the basement storeroom, and a guard watches near the Thunderbrews' most prized reserve. You need to draw him away before secretly switching the barrels.",
+   "body": "Beneath the Thunderbrew Distillery in Kharanos, aging casks fill a basement storeroom. A guard watches near the Thunderbrews' prized reserve. Draw him away, then secretly switch the barrels.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who starts bitter rivals",
     "marleth quest starter"
    ],
-   "answer": "Marleth Barleybrew gives the work. She wants her family's brewing craft to rival the renowned ale of the Thunderbrew Distillery."
+   "answer": "Marleth Barleybrew gives you the work. She wants her family's brewing craft to rival the famed ale of the Thunderbrew Distillery."
   },
   {
    "q": "Where is the Thunderbrew cellar located?",
@@ -48,7 +48,7 @@
     "where is thunderbrew basement",
     "how to get to distillery cellar"
    ],
-   "answer": "The cellar lies beneath the Thunderbrew Distillery in Kharanos. Its stairs are tucked behind a table in the kitchen."
+   "answer": "The cellar lies beneath the Thunderbrew Distillery in Kharanos. Its stairs are behind a table in the kitchen."
   },
   {
    "q": "What is Barleybrew Scalder?",
@@ -56,7 +56,7 @@
     "barleybrew scalder",
     "what brew do i swap"
    ],
-   "answer": "Barleybrew Scalder is Marleth Barleybrew's potent house ale. She hopes that tasting it in place of Thunder Ale will make Kharanos patrons recognize her brewing skill."
+   "answer": "Barleybrew Scalder is Marleth Barleybrew's potent house ale. She hopes Kharanos patrons will recognize her skill when they taste it in place of Thunder Ale."
   },
   {
    "q": "How do you bypass the guard watching the barrels?",
@@ -65,7 +65,7 @@
     "unguarded thunder ale barrel",
     "guard barrel"
    ],
-   "answer": "The Thunderbrew guard in the basement hints at what might draw his attention away. Distract him, then you have time to switch the barrels."
+   "answer": "The Thunderbrew guard in the basement hints at what might draw his attention. Distract him, then use the chance to switch the barrels."
   },
   {
    "q": "Why are the Barleybrews and Thunderbrews feuding?",
@@ -73,7 +73,7 @@
     "brewer feud",
     "why barleybrew hate thunderbrew"
    ],
-   "answer": "The feud comes from dwarven pride in their craft. The Thunderbrews dominate Kharanos taverns, and the Barleybrews want to prove their recipes just as good, or better."
+   "answer": "The feud springs from dwarven pride in their craft. The Thunderbrews dominate Kharanos taverns, and the Barleybrews want to prove their recipes are just as good, or better."
   },
   {
    "q": "What quest follows Bitter Rivals?",
@@ -81,13 +81,13 @@
     "next quest after bitter rivals",
     "what comes after bitter rivals"
    ],
-   "answer": "After placing the cask of Barleybrew Scalder, you return to Marleth to report your success."
+   "answer": "After you place the cask of Barleybrew Scalder, you return to Marleth and report your success."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know brewing is serious business, with prestige rivaling blacksmithing. A feud over rival ales feels at home in the snows of Dun Morogh."
+   "text": "As a dwarf, you know brewing carries prestige to rival blacksmithing. A feud over rival ales suits the snows of Dun Morogh."
   },
   {
    "target": "class:Rogue",
@@ -95,7 +95,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you pass through Kharanos, Dun Morogh's cultural and logistical hub, where local inn disputes often draw in recruits."
+   "text": "As an Alliance traveler, you pass through Kharanos, Dun Morogh's cultural and logistical hub. Local disputes at the inn often draw recruits in."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Bitter Rivals"
  ],
- "style": 1
+ "style": 2
 }

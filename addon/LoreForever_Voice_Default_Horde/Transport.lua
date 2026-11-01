@@ -3,10 +3,10 @@ P.transportVersion = 1
 P.transport = {}
 P.transport["npc:anastasia-hartwell"] = {
   hash = "b4d21f",
-  fullHash = "920d02",
-  text = "Anastasia Hartwell. Anastasia Hartwell is a prominent Forsaken mage trainer residing in the Magic Quarter of the Undercity. She guides fledgling and developing spellcasters in mastering the arcane arts and oversees vital magical research and field missions across Lordaeron and beyond. Standing within the dark, echoing chambers of the Undercity's Magic Quarter, Anastasia Hartwell instructs Forsaken and Horde mages in channeling arcane energies. Though the kingdom of Lordaeron fell to ruin, former human practitioners like Anastasia have preserved their scholarly traditions in undeath. She maintains that magic demands strict discipline, warning any traveler she meets that careless incantations will quickly consume the untrained. Beyond fundamental spell instruction, Anastasia directs promising students toward vital field investigations. She sends mages to the Balnir Farmstead in eastern Tirisfal Glades to gather snapdragons that show how far the plague has spread, and into Algernon's alchemist shop in the Apothecarium to capture the invisible creatures of pure magic behind a strange disturbance. Through her tasks, practitioners learn that mastering magic means confronting its dangers directly, even within their own city. Anastasia's connections reach well beyond the borders of Tirisfal. As Horde spellcasters grow in proficiency, she coordinates with fellow trainers in distant lands, such as Deino in Orgrimmar, and directs advanced students toward solitary masters like Tabetha in the swamplands of Dustwallow Marsh. Her guidance ensures that Forsaken mages remain woven into the wider tapestry of the Horde's magical pursuits.",
+  fullHash = "1efddd",
+  text = "Anastasia Hartwell. In the Undercity's Magic Quarter, Anastasia Hartwell trains Forsaken and Horde mages in the arcane arts. She guides spellcasters in their studies and directs magical research and field work across Lordaeron and beyond. In the Undercity's Magic Quarter, Anastasia Hartwell teaches Forsaken and Horde mages to channel arcane energies. Though Lordaeron has fallen to ruin, former human practitioners such as Anastasia preserve their scholarly traditions in undeath. She demands discipline in the practice of magic. Careless incantations can consume the untrained. Anastasia sends promising students into the field as well as teaching them spells. At Balnir Farmstead in eastern Tirisfal Glades, mages gather snapdragons to learn how far the plague has spread. In the Apothecarium, they visit Algernon's alchemist shop to capture invisible creatures of pure magic behind a strange disturbance. Her assignments bring them face to face with magic's dangers, even within their own city. Anastasia's connections reach beyond Tirisfal. As Horde spellcasters grow more skilled, she coordinates with trainers in distant lands, including Deino in Orgrimmar. She also directs advanced students to solitary masters such as Tabetha in the swamplands of Dustwallow Marsh. Her guidance keeps Forsaken mages connected to the Horde's wider magical pursuits.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_anastasia-hartwell-626df899b278aba8eba1/1-0000.mp3", duration = 92.1338776, start = 0},
+    {file = "Audio/Transport/full_npc_anastasia-hartwell-67ebd9aa0b881d2cb261/1-0000.mp3", duration = 83.6440816, start = 0},
   },
 }
 P.transport["npc:apothecary-johaan"] = {
@@ -139,10 +139,10 @@ P.transport["npc:deathguard-dillinger"] = {
 }
 P.transport["npc:dendrite-starblaze"] = {
   hash = "e0e709",
-  fullHash = "fe9e35",
-  text = "Dendrite Starblaze. Dendrite Starblaze is a night elf druid residing in the sacred village of Nighthaven within Moonglade. Serving the Cenarion Circle, he acts as a vital mentor and guide for budding druids of both night elf and tauren descent. Through him, practitioners are summoned to the holy grove to master essential rites such as cleansing toxins and communing with nature's forms. Perched within Nighthaven, Dendrite Starblaze represents the nonpartisan, enduring spirit of the Cenarion Circle. When novice druids learn to attune their spirits to Teleport: Moonglade, Dendrite is among the first to welcome them upon arrival. He bridges the gap between ancient Kaldorei tradition and the emerging path of the tauren, treating all who heed the call of the wild as kin beneath the boughs of the sacred haven. Dendrite's primary duty involves initiating druidic apprentices into the deeper mysteries of nature. He directs novices through the trials required to understand poison and pestilence, sending them to examine tainted waters and discover herbal curatives. He also oversees the steps that lead druids to the water trials, testing their patience and endurance beneath the surface before granting communion with aquatic forms.",
+  fullHash = "2fb6f5",
+  text = "Dendrite Starblaze. In Nighthaven, Dendrite Starblaze guides druids who come to Moonglade. As a Cenarion Circle mentor, he welcomes night elf and tauren apprentices. Through him they are summoned to the holy grove to master its rites, from cleansing toxins to communing with nature's forms. When novice druids learn Teleport: Moonglade, Dendrite is among the first to greet them in Nighthaven. He follows the Cenarion Circle's calling beyond the Alliance and Horde. Night elf and tauren druids alike find kinship beneath the haven's boughs, where Kaldorei tradition meets the tauren path. Dendrite guides apprentices into nature's deeper ways. He sends them to examine tainted waters and seek herbs that can cure poison and pestilence. Then he oversees the water trials, testing their patience and endurance beneath the surface before he grants them communion with aquatic forms.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dendrite-starblaze-2971284127651b4f15cb/1-0000.mp3", duration = 68.8065306, start = 0},
+    {file = "Audio/Transport/full_npc_dendrite-starblaze-dc1574f853bb377c7e07/1-0000.mp3", duration = 51.0171429, start = 0},
   },
 }
 P.transport["npc:devrak"] = {
@@ -283,10 +283,10 @@ P.transport["npc:master-gadrin"] = {
 }
 P.transport["npc:mebok-mizzyrix"] = {
   hash = "b2c0d1",
-  fullHash = "dd42bd",
-  text = "Mebok Mizzyrix. Mebok Mizzyrix is an enterprising goblin entrepreneur residing in the port town of Ratchet. Ever eager to turn bizarre wilderness reagents into profit, he hires passing adventurers to gather unusual flora and fauna from across the Barrens and beyond. His most notorious project involves concocting a commercial intellect-enhancing beverage out of raptor horns. Operating out of the bustling, neutral port of Ratchet, Mebok Mizzyrix embodies the classic Steamwheedle spirit of relentless opportunism. While Ratchet caters to sailors, pirates, and merchants of all stripes, Mebok focuses his keen eye on Kalimdor's wilderness. Rather than mining standard ore or trading mundane cloth, he seeks out rare biological curiosities that he believes can be refined into highly lucrative concoctions and commodities. Mebok's premier commercial endeavor is a proprietary 'smart drink' intended to artificially boost the intellect of whoever consumes it. Convinced that the natural cunning and ferocity of local raptors stems from the horns crowning their snouts, Mebok commissions hunters to harvest intact horns across the Barrens. To him, ethics and taste take a backseat to raw market potential, so long as paying customers believe the brew delivers results. Beyond raptor-derived elixirs, Mebok maintains a constant demand for other bizarre specimens. From collecting volatile Deepmoss spider eggs to commissioning the retrieval of rare Blueleaf tubers buried deep within the brambles of Razorfen Kraul, his pursuits consistently push intrepid mercenaries into perilous territory. If an organism possesses strange properties, Mebok is certain there is a way to bottle and sell it.",
+  fullHash = "294492",
+  text = "Mebok Mizzyrix. In Ratchet, Mebok Mizzyrix hires travelers to gather strange finds across the Barrens and beyond. This goblin entrepreneur hopes to turn unusual plants and creatures into profit. His best-known venture is a drink made with raptor horns, meant to sharpen the mind. Mebok Mizzyrix works from Ratchet, a neutral port where sailors, pirates and merchants meet. He carries the Steamwheedle spirit of seizing every chance for profit. Rather than deal in ore or cloth, he seeks rare creatures and plants from Kalimdor’s wilds. He believes they can be made into valuable brews and goods. Mebok’s chief venture is a drink he hopes will boost the drinker’s intellect. He believes the cunning and ferocity of local raptors come from the horns on their snouts. So he hires hunters to bring him whole horns from across the Barrens. Ethics and taste matter less to him than the chance to sell a brew customers believe works. Mebok also seeks strange specimens beyond raptor horns. He wants volatile Deepmoss spider eggs and rare Blueleaf tubers buried in the brambles of Razorfen Kraul. These commissions send mercenaries into dangerous country. Mebok believes any creature or plant with strange properties can be bottled and sold.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mebok-mizzyrix-07486e6af37ab2641f54/1-0000.mp3", duration = 97.1232653, start = 0},
+    {file = "Audio/Transport/full_npc_mebok-mizzyrix-49d0d90a9f919c844419/1-0000.mp3", duration = 70.1387755, start = 0},
   },
 }
 P.transport["npc:melor-stonehoof"] = {
@@ -427,10 +427,10 @@ P.transport["npc:tonga-runetotem"] = {
 }
 P.transport["npc:turak-runetotem"] = {
   hash = "80cfa9",
-  fullHash = "d9c4a7",
-  text = "Turak Runetotem. Turak Runetotem is a revered tauren druid trainer residing in the Hall of Elders atop Thunder Bluff's Elder Rise. Serving as a trusted assistant to Archdruid Hamuul Runetotem, he guides novice tauren along the sacred paths of nature and balance. Through Turak, young druids undertake foundational trials to commune with spirits and master animal aspects. Within the serene confines of the Hall of Elders, Turak Runetotem stands as one of the Horde's foremost druidic mentors. Renowned for his deep patience and balanced demeanor, he assists Archdruid Hamuul Runetotem in reviving the ancient druidic arts among the tauren people. Turak ensures that every aspiring druid honors the will of the Earthmother, teaching that physical power must always be grounded in spiritual respect and harmony with nature. When a fledgling druid is prepared to embrace animal forms, Turak directs them into the wider world. He initiates their communion with the Cenarion Circle, teaching the art of teleporting across Kalimdor to the sacred haven of Moonglade. Recalling the bewilderment and intensity of his own youthful audience with the Great Bear Spirit, Turak tests his students' courage by sending them to face Lunaclaw and obtain the strength of body and heart needed to walk the Path of the Claw. Turak's guidance expands beyond primal combat forms to environmental stewardship. He sends his disciples back to Dendrite Starblaze to learn about poison, and Dendrite dispatches them to a rash of animal poisonings near the Crossroads, a situation that surprises even Turak. Through these trials, along with the arduous rituals beneath the tides to awaken the aquatic form, Turak shapes novices into enduring protectors capable of healing Azeroth's deepest wounds.",
+  fullHash = "4972f2",
+  text = "Turak Runetotem. In Thunder Bluff, Turak Runetotem guides young tauren toward nature and balance. From the Hall of Elders on Elder Rise, he assists Archdruid Hamuul Runetotem and leads novices through trials to commune with spirits and master animal forms. In the Hall of Elders atop Thunder Bluff’s Elder Rise, Turak Runetotem guides those who seek the druid’s path. He assists Archdruid Hamuul Runetotem in bringing the ancient druidic arts back among the tauren. Turak teaches that a druid honors the Earthmother’s will. Strength of body must rest upon spiritual respect and harmony with nature. When fledgling druids are ready for animal forms, Turak sends them into the wider world. He teaches them to join the Cenarion Circle and travel by teleportation across Kalimdor to Moonglade. Turak remembers his own first communion with the Great Bear Spirit as bewildering and intense. To test his students’ courage, he sends them to face Lunaclaw and win the strength of body and heart required for the Path of the Claw. Turak teaches more than the primal forms of combat. He sends his disciples to Dendrite Starblaze to study poison, and Dendrite sends them to help animals poisoned near the Crossroads. Even Turak is surprised by the rash of poisonings.\n\nTurak also guides novices through arduous rites beneath the tides, where they awaken their aquatic form. These trials shape them into protectors able to heal Azeroth’s deepest wounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_turak-runetotem-849a2c466647cc70861e/1-0000.mp3", duration = 98.0636735, start = 0},
+    {file = "Audio/Transport/full_npc_turak-runetotem-a8bb6a2760d409276902/1-0000.mp3", duration = 89.4432653, start = 0},
   },
 }
 P.transport["npc:varimathras"] = {
@@ -594,19 +594,19 @@ P.transport["subzone:bramblescar"] = {
   },
 }
 P.transport["subzone:brightwater-lake"] = {
-  hash = "81d5fb",
-  fullHash = "81d5fb",
-  text = "Brightwater Lake. Brightwater Lake is the largest body of water in Tirisfal Glades, stretching across the mist-shrouded lowlands northeast of Brill. Once a tranquil retreat for the kingdom of Lordaeron, its waters now lie cold and dark, surrounding a central isle where an outcast necromancer conducts his forbidden research. Spanning the northern plains between the town of Brill and the Scarlet Watch Post, Brightwater Lake is a quiet and eerie landmark in the heart of Tirisfal. In the peaceful centuries under the Kingdom of Lordaeron, the lake served as a scenic country haven. Today, like the rest of the glades, its pristine character is long gone. The Plaguelands lie not far to the east, and the murky, chilled waters reflect only grey skies, withered trees, and the constant threat of roving murlocs and hostile undead.",
+  hash = "4648d2",
+  fullHash = "4648d2",
+  text = "Brightwater Lake. Across Tirisfal's lowlands, Brightwater Lake lies cold and dark northeast of Brill. Once a retreat for Lordaeron, it now surrounds an island where a lone necromancer conducts forbidden research. Brightwater Lake spreads across northern Tirisfal between Brill and the Scarlet Watch Post. Under the Kingdom of Lordaeron, its shores offered a quiet country haven. That peace is gone. The Plaguelands lie to the east, and grey skies hang over the lake's murky, chilled waters. Withered trees line the shore, where murlocs and hostile undead roam.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brightwater-lake-f98264812d26e4ca0d9e/1-0000.mp3", duration = 48.7967347, start = 0},
+    {file = "Audio/Transport/full_subzone_brightwater-lake-c11855c6cd28b3df0510/1-0000.mp3", duration = 33.6457143, start = 0},
   },
 }
 P.transport["subzone:brill"] = {
   hash = "7657f6",
-  fullHash = "9c997a",
-  text = "Brill. Brill is the primary Forsaken settlement in the heart of Tirisfal Glades, situated just north of the Ruins of Lordaeron. Once a prosperous human town, it now serves as the administrative and military hub for newly awakened undead stepping beyond the confines of Deathknell. Before the Third War, Brill was a lively village under the sway of regional nobles such as the Barov and Agamand families. That prosperity ended when Kel'Thuzad chose the area for the Cult of the Damned's earliest experiments with the Plague of Undeath. The devastating blight swept through the population so quickly that local militia were driven out, leaving a sprawling mass graveyard in its wake.\n\nNow rebuilt by the Forsaken under the leadership of Magistrate Sevren, the town retains its weathered Lordaeron architecture beneath an atmosphere of grim purpose. Brill functions as the regional command center, coordinating defenses against Scarlet Crusade incursions, roaming Scourge remnants, and native beasts warped by necromantic decay. Beyond local defense, Brill is an essential crossroads linking Tirisfal Glades to the wider Horde. Overhead, the goblin-operated zeppelin tower provides transit south toward Durotar and deep into Stranglethorn Vale. Within the settlement, Gallows' End Tavern serves not only as a dark shelter for travelers, but also as a makeshift laboratory where captured Scarlet zealots are interrogated and subjected to apothecarial testing.",
+  fullHash = "8b8a35",
+  text = "Brill. In Brill, Forsaken gather north of the Ruins of Lordaeron. Newly awakened undead travel here from Deathknell, joining a rebuilt human town that now anchors Forsaken rule and arms in tirisfal glades. Before the Third War, Brill grew under nobles such as the Barov and Agamand families. Then Kel'Thuzad chose the region for the Cult of the Damned's first experiments with the Plague of Undeath. The blight swept through the people so swiftly that the local militia fled. A vast graveyard remained for the dead.\n\nNow Magistrate Sevren leads the Forsaken who have rebuilt Brill. Weathered Lordaeron buildings line its streets. The town coordinates defenses against Scarlet Crusade attacks, Scourge remnants, and native beasts changed by necromantic decay. Brill links Tirisfal Glades to the wider Horde. Goblins operate the zeppelin tower, carrying travelers south toward Durotar and deep into Stranglethorn Vale. Gallows' End Tavern offers shelter. Its cellar also holds captured Scarlet zealots for interrogation and apothecarial testing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brill-fa7ad7f30f8d6a127dae/1-0000.mp3", duration = 83.3306122, start = 0},
+    {file = "Audio/Transport/full_subzone_brill-252e3416b13dc8924d57/1-0000.mp3", duration = 65.6979592, start = 0},
   },
 }
 P.transport["subzone:brill-town-hall"] = {
@@ -634,11 +634,11 @@ P.transport["subzone:camp-taurajo"] = {
   },
 }
 P.transport["subzone:canals-undercity"] = {
-  hash = "8e5c0e",
-  fullHash = "8e5c0e",
-  text = "Canals (Undercity). The Canals form a murky, circular moat winding between the distinct quarters of the Undercity. Filled with an unnatural, noxious green slime rather than fresh water, they serve as both a sewage system and a grim symbol of the Forsaken's subterranean stronghold. Carved into the subterranean depths beneath the ruins of Lordaeron, the Canals encircle the heart of the Undercity, dividing its quarters with wide channels of sluggish green sludge. While mortal cities channel flowing river water to clean their avenues, the Forsaken have filled these stone conduits with industrial refuse, chemical runoff, and alchemical waste. The liquid emits a faint, sickly glow and foul vapors, making it impossible to traverse by ordinary magical means like water walking. Despite the lethality of the slurry, desperate anglers occasionally haul bizarre, tainted curiosities from the muck.",
+  hash = "6dbc62",
+  fullHash = "6dbc62",
+  text = "Canals (Undercity). In the Undercity, green slime fills the Canals between its quarters. The murky channels carry waste and mark the Forsaken's underground stronghold. Beneath Lordaeron's ruins, green sludge fills the Canals. The stone channels circle the Undercity and divide its quarters. They carry industrial refuse, chemical runoff, and alchemical waste instead of flowing water. Faint light shines through the liquid, and foul vapors rise from it. Water Walking cannot carry anyone across. Still, desperate anglers sometimes pull strange, tainted curiosities from the muck.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_canals-undercity-696909f8b9887d645ad5/1-0000.mp3", duration = 50.677551, start = 0},
+    {file = "Audio/Transport/full_subzone_canals-undercity-04ff44f39f45a37584a8/1-0000.mp3", duration = 35.4742857, start = 0},
   },
 }
 P.transport["subzone:cavern-of-mists"] = {
@@ -850,11 +850,11 @@ P.transport["subzone:fenris-isle"] = {
   },
 }
 P.transport["subzone:fenris-keep"] = {
-  hash = "075952",
-  fullHash = "075952",
-  text = "Fenris Keep. Fenris Keep is an isolated stone fortress situated atop Fenris Isle in the heart of Lordamere Lake. Once a strategic stronghold housing Lordaeron troops, it has fallen into the hands of the Scourge under the rogue mage Thule Ravenclaw. Before the Third War, Fenris Keep held strategic importance for the Kingdom of Lordaeron, stationing a sizable contingent of troops to safeguard Lordamere Lake. When the undead Scourge swept across the land, the island fortress was overwhelmed along with the rest of the realm. Rather than crumbling into forgotten ruin, it was seized by Thule Ravenclaw, a traitorous former wizard of the Kirin Tor. Ravenclaw allied himself with the Scourge, subjugated the resident gnolls with foul necromancy to create the ravenous Rot Hide pack, and entrenched himself deep inside the keep's stone halls.",
+  hash = "ed44e9",
+  fullHash = "ed44e9",
+  text = "Fenris Keep. On Fenris Isle, isolated in the heart of Lordamere Lake, Fenris Keep now belongs to the Scourge. Thule Ravenclaw holds the stone fortress that once sheltered Lordaeron troops.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fenris-keep-0e468d73c52b9c68d8cd/1-0000.mp3", duration = 48.7444898, start = 0},
+    {file = "Audio/Transport/full_subzone_fenris-keep-ad655105f36fc180b126/1-0000.mp3", duration = 11.1804082, start = 0},
   },
 }
 P.transport["subzone:field-of-giants"] = {
@@ -883,10 +883,10 @@ P.transport["subzone:fray-island"] = {
 }
 P.transport["subzone:gallows-end-tavern"] = {
   hash = "40c938",
-  fullHash = "3fae5b",
-  text = "Gallows' End Tavern. Gallows' End Tavern is the principal inn of Brill and the heart of Forsaken hospitality in Tirisfal Glades. Beyond offering shelter and spirits to weary travelers, it serves as an essential hub for class mentors, trade instructors, and covert interrogations. Standing prominently along the road in Brill, Gallows' End Tavern serves as the primary gathering place for newly awakened Forsaken leaving Deathknell and journeying south toward the Undercity. Despite their undead condition, Forsaken still frequent its halls for fellowship, trade, and refuge. The inn houses various class instructors—guiding young warriors, priests, mages, rogues, and warlocks—as well as vendors and medical practitioners. Beneath the creaking floorboards and tavern laughter lies a far grimmer purpose. Down in the cellars, the Forsaken keep prisoners of war bound and guarded away from public view. Among them are a captured Scarlet Zealot and a Dwarven Mountaineer, held beneath the tavern for interrogation and experimentation as the Forsaken fight to secure their borders against both zealous crusaders and Alliance scouts.",
+  fullHash = "d96eac",
+  text = "Gallows' End Tavern. In Brill, Forsaken gather at Gallows' End Tavern for hospitality and fellowship. The town's principal inn offers shelter and spirits, with class mentors and trade instructors in its halls and covert interrogations below. Along Brill's road, Gallows' End Tavern gathers newly awakened Forsaken leaving Deathknell and traveling south toward the Undercity. Though undead, they come for fellowship, trade, and refuge. Class instructors guide young warriors, priests, mages, rogues, and warlocks. Vendors and medical practitioners are here as well. Beneath the tavern's floorboards, prisoners of war are bound and guarded out of public view. Among them are a captured Scarlet Zealot and a Dwarven Mountaineer. The Forsaken hold them for interrogation and experimentation as they fight to secure their borders against zealous crusaders and Alliance scouts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gallows-end-tavern-3e893ad6154ce802f088/1-0000.mp3", duration = 65.1232653, start = 0},
+    {file = "Audio/Transport/full_subzone_gallows-end-tavern-85e77caf99cab05a4012/1-0000.mp3", duration = 52.1404082, start = 0},
   },
 }
 P.transport["subzone:garren-s-haunt"] = {
@@ -914,11 +914,11 @@ P.transport["subzone:gold-road"] = {
   },
 }
 P.transport["subzone:golden-plains"] = {
-  hash = "b5de2d",
-  fullHash = "b5de2d",
-  text = "Golden Plains. The Golden Plains form a vast, sun-drenched basin stretching southeast of Thunder Bluff in central Mulgore. Cherished by the tauren, these sweeping grasslands serve as prime hunting territory and a vital grazing habitat for wandering herds of kodo. Spreading out beneath the towering mesas of Thunder Bluff, the Golden Plains represent the untamed heart of Mulgore. The shifting sea of golden and green grass offers an abundant sanctuary for local wildlife, making it one of the most treasured traditional hunting grounds of the nomadic tauren. Broad kodo herds roam across the rolling basin, while hunters share stories of legendary quarry, most notably the great kodo Arra'chea, who wanders quietly through the tall stalks.",
+  hash = "511ff1",
+  fullHash = "511ff1",
+  text = "Golden Plains. Across central Mulgore, the Golden Plains lie southeast of Thunder Bluff. Tauren hunt in this sunlit basin as wandering kodo herds graze. Below Thunder Bluff’s towering mesas, golden and green grasses spread across Mulgore’s wild heart. Nomadic tauren cherish these traditional hunting grounds, where wildlife thrives. Broad kodo herds roam the basin, and hunters tell stories of legendary quarry. One is the great kodo Arra'chea, wandering through the tall grass.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_golden-plains-badeed2deba76a7782e7/1-0000.mp3", duration = 41.195102, start = 0},
+    {file = "Audio/Transport/full_subzone_golden-plains-dde8844fa8082677ec02/1-0000.mp3", duration = 29.5706122, start = 0},
   },
 }
 P.transport["subzone:greymane-wall"] = {
@@ -1194,11 +1194,11 @@ P.transport["subzone:razorfen-downs-classic"] = {
   },
 }
 P.transport["subzone:razorfen-kraul-classic"] = {
-  hash = "b177b8",
-  fullHash = "b177b8",
-  text = "Razorfen Kraul (Classic). Razorfen Kraul is the ancestral heartland of the quilboar, carved deep into the colossal thorns that sprang from the blood of the fallen boar demigod Agamaggan. Ruled by the ruthless crone Charlga Razorflank, this fortified labyrinth serves as a staging ground for bloody raids across the southern Barrens. Ten thousand years ago during the War of the Ancients, the colossal boar demigod Agamaggan perished battling the Burning Legion to save Azeroth. Wherever his sacred blood seeped into the soil of southern Kalimdor, massive, impenetrable thorn vines erupted from the earth. The quilboar, believing themselves the mortal progeny of the Great Boar, gathered within these dense briars to dwell and venerate his sacrifice. The dense mass known as Razorfen Kraul stands as their most revered redoubt, thick with quilboar warriors, beast trainers, and earth-shaping shamans.",
+  hash = "010480",
+  fullHash = "010480",
+  text = "Razorfen Kraul (Classic). In the southern Barrens, Razorfen Kraul is the quilboar's ancestral heartland. The crone Charlga Razorflank rules its thorn-walled maze, from which her warriors strike across the region. Ten thousand years ago, Agamaggan gave his life against the Burning Legion to save Azeroth. The colossal boar demigod's blood fell across southern Kalimdor. From each place it touched the soil, colossal thorn vines rose, thick and impenetrable.\n\nThe quilboar believe they are the Great Boar's mortal descendants. They gathered among the briars to dwell and honor his sacrifice. Razorfen Kraul is their most revered stronghold, home to warriors, beast trainers, and shamans who shape the earth.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_razorfen-kraul-classic-4e2ac22dab640fbfd26d/1-0000.mp3", duration = 50.0244898, start = 0},
+    {file = "Audio/Transport/full_subzone_razorfen-kraul-classic-7d2addfd4872d0b1c5b0/1-0000.mp3", duration = 43.6767347, start = 0},
   },
 }
 P.transport["subzone:razormane-grounds"] = {
@@ -1219,10 +1219,10 @@ P.transport["subzone:razorwind-canyon"] = {
 }
 P.transport["subzone:red-rocks"] = {
   hash = "09bd48",
-  fullHash = "3b205e",
-  text = "Red Rocks. Red Rocks is a towering sandstone bluff in northeastern Mulgore that serves as a sacred ancestral burial ground for the tauren. Here, the most valiant fallen champions are laid to rest, and young braves travel to its quiet heights to seek the wisdom of their forebears. Rising high above the plains of northeastern Mulgore, the crimson formations of Red Rocks mark a sacred threshold between the living world and the next. Tauren tradition reserves this solemn ground for their most valiant heroes—chieftains, defenders, and champions who gave their lives founding and protecting Thunder Bluff. They are laid to rest here in honor, among the graves of their forebears. It is equally a place of spiritual beginning, where young tauren complete their rites of passage by honoring the ancestral graves and communing with the wind. The enduring peace of Red Rocks has been shattered by the Bristleback quilboar. Creeping out from their dens, these aggressive scavengers have infested the sandstone ledges and desecrated the ancestral graves with filth. This violation deeply affronts the spiritual traditions of Thunder Bluff. Shaman and lorekeepers now summon aid to cleanse the crags, driving out the Bristlebacks and reclaiming the sanctity of their resting dead.",
+  fullHash = "db05ff",
+  text = "Red Rocks. In northeastern Mulgore, the honored dead rest at Red Rocks. Young braves climb there to honor their ancestors and seek their wisdom. Red Rocks rises over northeastern Mulgore, its red stone marking sacred ground for the tauren. The most valiant dead lie here beside their forebears. Among them are chieftains, defenders, and champions who gave their lives to found and protect Thunder Bluff.\n\nYoung tauren come to these graves as part of their rites of passage. They honor the dead and listen for wisdom on the wind. Bristleback quilboar have broken the peace at Red Rocks. They came from their dens and now infest the sandstone ledges, defiling ancestral graves with filth. For the tauren of Thunder Bluff, this desecration wounds their spiritual traditions.\n\nShaman and lorekeepers call for aid to cleanse the crags, drive out the Bristlebacks, and restore the resting place of their dead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_red-rocks-759a16ed28ebddd03253/1-0000.mp3", duration = 71.9934694, start = 0},
+    {file = "Audio/Transport/full_subzone_red-rocks-168af489f7ca5e2bec71/1-0000.mp3", duration = 53.1330612, start = 0},
   },
 }
 P.transport["subzone:rocktusk-farm"] = {
@@ -1243,10 +1243,10 @@ P.transport["subzone:rogues-quarter"] = {
 }
 P.transport["subzone:rolling-plains"] = {
   hash = "e7ba6f",
-  fullHash = "f0b9a3",
-  text = "Rolling Plains. The Rolling Plains span the southern expanse of Mulgore, stretching between Bloodhoof Village and the border of the Barrens. These windswept grasslands are home to thriving herds of wildlife, but they are also a point of perpetual vigilance due to prowling centaur raiders and aggressive harpies. Spanning south from Bloodhoof Village toward the natural earthen gates leading into the Barrens, the Rolling Plains embody the vast open ranges of the tauren homeland. The area teems with wild game essential to the tribes, including prairie wolves, kodo herds, flatland cougars, and swift tallstriders. For young hunters proving their worth to the elders, these sweeping savannahs serve as an indispensable proving ground where tracking, patience, and reverence for nature are put to the test. Despite Mulgore's naturally fortified ring of bluffs, the Rolling Plains remain uniquely exposed to outside threats. It is the only frontier where aggressive centaur outriders have managed to push past defensive perimeters to harass passing travelers and hunting parties. Adding to the peril, a nest of predatory Windfury harpies roosts in the eastern crags, swooping down upon stray game and vulnerable nomadic camps.",
+  fullHash = "861b5f",
+  text = "Rolling Plains. In southern Mulgore, herds graze the Rolling Plains while centaur raiders and harpies threaten travelers. From Bloodhoof Village, the Rolling Plains run south to the earthen gates of the Barrens. Prairie wolves, kodo herds, flatland cougars, and swift tallstriders roam these open ranges of the tauren homeland. Young hunters come here to prove their worth to the elders. They learn to track, wait patiently, and respect the land. Mulgore’s ring of bluffs shields much of the region, but the Rolling Plains lie open to threats from beyond it. Centaur outriders have crossed the defenses here, the only frontier where they have managed to do so. They harass travelers and hunting parties. Windfury harpies roost in the eastern crags, swooping on stray game and vulnerable nomadic camps.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_rolling-plains-165412745b539b4e2dfd/1-0000.mp3", duration = 69.9559184, start = 0},
+    {file = "Audio/Transport/full_subzone_rolling-plains-d4099ab22c1878b67c00/1-0000.mp3", duration = 47.1510204, start = 0},
   },
 }
 P.transport["subzone:royal-quarter"] = {
@@ -1323,10 +1323,10 @@ P.transport["subzone:shrine-of-the-dormant-flame"] = {
 }
 P.transport["subzone:shrine-of-the-fallen-warrior"] = {
   hash = "4cd835",
-  fullHash = "014327",
-  text = "Shrine of the Fallen Warrior. Perched upon a secluded ridge west of the Crossroads lies the Shrine of the Fallen Warrior, a quiet memorial overlooking the sweeping red savannahs of the Barrens. Marked by a stone plinth bearing the initials 'MK' and the body of a fallen orc warrior, it is watched over by the gentle presence of a Spirit Healer named Koiter. Tucked away high upon the hills northwest of the Crossroads, the Shrine of the Fallen Warrior stands as an unusually solemn haven amidst the dust and peril of the Barrens. To find it, travelers must scale a winding ridge pathway southwest of the summit until they reach a gentle mound. Upon the summit rests a carved stone monument, its plinth carved with the initials 'MK'. Before it lies the armored form of an orc warrior at rest, watched over day and night by a named Spirit Healer known as Koiter. There are no battle horns here, only quiet contemplation honoring a champion who walked Kalimdor's lands. Within the world, the shrine stands as an enduring tribute to a departed champion of the Horde whose soul lingers in the care of the spirits. Outside the realm, the monument serves as a heartfelt tribute created by the game's artists to honor Michel Koiter, a beloved illustrator who passed away during the development of the world. The resting warrior is modeled precisely after Koiter's own beta character, Twincruiser, immortalizing his presence forever beneath Kalimdor's open skies.",
+  fullHash = "d12b36",
+  text = "Shrine of the Fallen Warrior. At the Shrine of the Fallen Warrior, Koiter watches over an orc laid to rest on a ridge west of the Crossroads. A stone plinth marked 'MK' keeps the warrior's memory beneath the Barrens sky. High on the hills northwest of the Crossroads, the shrine offers a quiet place amid the Barrens' dust and peril. Find the ridge southwest of the summit and follow its winding path to a gentle mound. A carved stone monument rests at the top, its plinth marked with the initials 'MK'.\n\nAn armored orc warrior lies before it, watched day and night by Koiter, a Spirit Healer. No battle horns sound here. The shrine honors a champion who walked Kalimdor's lands. The shrine honors a departed champion of the Horde. The warrior's soul lingers in the spirits' care, beneath the watch of Koiter.\n\nThe monument also remembers Michel Koiter, an illustrator who died while the world was being made. The resting warrior was modeled on Koiter's own early character, Twincruiser, and his memory remains beneath Kalimdor's open skies.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_shrine-of-the-fallen-warrior-a766bae9c82b545d41ab/1-0000.mp3", duration = 84.5583673, start = 0},
+    {file = "Audio/Transport/full_subzone_shrine-of-the-fallen-warrior-b33800b986dae250d784/1-0000.mp3", duration = 65.0187755, start = 0},
   },
 }
 P.transport["subzone:skittering-dark"] = {
@@ -1419,10 +1419,10 @@ P.transport["subzone:stonebull-lake"] = {
 }
 P.transport["subzone:the-den"] = {
   hash = "0e9c7b",
-  fullHash = "d65ce3",
-  text = "The Den. The Den is the sheltered cave at the heart of the Valley of Trials in southwestern Durotar. Serving as the primary base of operations for young orc and troll adventurers, it provides martial and magical training before they set out into the wider world. Tucked into the red canyon walls of the Valley of Trials, the Den serves as an austere proving ground. Within its carved, shadowy interior, novice fighters, spellcasters, and hunters report to veterans like Gornek and Zureetha Fargaze. It is here that fledglings receive their foundational combat instruction, supplies, and initial rites of passage, hardening them for the harsh realities of Durotar and the greater struggles facing the new Horde. Beyond housing class trainers and provisions, the Den functions as an active field redoubt. Between dispatching new recruits to cull the local beasts and aggressive quilboars, the overseers maintain a strict, vigilant watch over the valley.",
+  fullHash = "587bad",
+  text = "The Den. In southwestern Durotar, young orcs and trolls gather at the sheltered Den in the heart of the Valley of Trials. It is their main base, where they train in arms and magic before setting out into the wider world. The Den is an austere proving ground, carved into the red canyon walls of the Valley of Trials. Inside its shadowed halls, novice fighters, spellcasters, and hunters answer to veterans such as Gornek and Zureetha Fargaze. They receive their first combat lessons, supplies, and rites of passage, preparing for Durotar's harshness and the struggles facing the new Horde. The Den houses class trainers and merchants who provide provisions. From this field outpost, overseers send recruits to cull local beasts and aggressive quilboars. They keep a strict watch over the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_the-den-816f8ea04b542bd50482/1-0000.mp3", duration = 54.3869388, start = 0},
+    {file = "Audio/Transport/full_subzone_the-den-9b69e536e8d384a55ad8/1-0000.mp3", duration = 46.7069388, start = 0},
   },
 }
 P.transport["subzone:thorn-hill"] = {
@@ -1474,11 +1474,11 @@ P.transport["subzone:tor-kren-farm"] = {
   },
 }
 P.transport["subzone:trade-quarter"] = {
-  hash = "98a689",
-  fullHash = "98a689",
-  text = "Trade Quarter. The Trade Quarter forms the central core of the Undercity, resting directly beneath the lifts from the Ruins of Lordaeron. It functions as the beating economic heart of the Forsaken, housing their primary bank vaults, auction market, and essential civic services. From this concentric hub, vaulted corridors branch outward into the surrounding districts. Descending from the shattered surface of Lordaeron, travelers step off the lifts into the echoing stone expanse of the Trade Quarter. Designed around a tiered, circular layout, its central platform holds the city coffers and central bank, framed by bridges spanning noxious runoff canals. Surrounding terraces buzz with vendors, guild registries, and auctioneers bargaining amidst the eerie gloom. Even basic accommodations reflect Forsaken pragmatism: the local inn offers unlined wooden caskets rather than soft beds. From this central nexus, stone archways lead outward into the city's specialized quarters, making it the unavoidable crossroads for any business conducted within the capital.",
+  hash = "b0b4d5",
+  fullHash = "b0b4d5",
+  text = "Trade Quarter. Trade Quarter draws the Undercity’s commerce and civic life beneath the Ruins of Lordaeron. Its bank, auction house, and other services serve the Forsaken capital, while corridors link it to the surrounding districts. You step from the lifts beneath the Ruins of Lordaeron into the Trade Quarter’s broad, circular halls. Canals of noxious runoff circle the central platform, crossed by bridges. The city’s coffers and bank rest there, while vendors, guild registrars, and auctioneers work along the terraces. At the inn, wooden caskets replace soft beds. Stone archways lead into the other districts, drawing the Undercity’s business through its center.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_trade-quarter-6f72f0b8650d113513aa/1-0000.mp3", duration = 60.16, start = 0},
+    {file = "Audio/Transport/full_subzone_trade-quarter-bdd84257e3a3df039dc0/1-0000.mp3", duration = 39.444898, start = 0},
   },
 }
 P.transport["subzone:valgan-s-field"] = {
@@ -1507,10 +1507,10 @@ P.transport["subzone:valley-of-spirits"] = {
 }
 P.transport["subzone:valley-of-strength"] = {
   hash = "9cdf88",
-  fullHash = "1d5c21",
-  text = "Valley of Strength. The Valley of Strength is the bustling central commons of Orgrimmar, greeting all who pass through the city's towering front gates. Housing the city bank, the central auction house, and the Broken Tusk inn, it serves as the beating commercial and administrative heart of the Horde capital. Step past the fortified timber gates of Orgrimmar and you enter the Valley of Strength. Carved deep into the red canyon rock of Durotar, this valley serves as the Horde's front square. Adventurers, merchants, and warriors from all allied nations mingle across its dusty plazas, swapping war stories over flagons from the Broken Tusk inn or attending to vital trade at the central bank and auction house. It is a bustling testament to the strength and unity the orcs fought to establish in their new homeland. Beyond its defensive significance, the valley functions as the capital's foremost marketplace. Shops such as Soran's Leather and Steel Armory sell armor, while various vendors supply provisions for long treks across the Barrens. Grunts stand vigilant watch at every corner, directing newcomers and ensuring order among the diverse peoples who have taken refuge beneath Thrall's banner.",
+  fullHash = "11e14d",
+  text = "Valley of Strength. Trade and daily business fill Orgrimmar's Valley of Strength. The bank, central auction house, and Broken Tusk inn draw travelers through the Horde capital. Beyond Orgrimmar's timber gates, the Valley of Strength opens among Durotar's red canyon walls. Adventurers, merchants, and warriors from allied nations fill the Horde's front square. At the Broken Tusk inn, some trade war stories over flagons. Others turn to business at the central bank and auction house. The orcs fought for strength and unity in their new homeland, and both shape the city's heart. The Valley of Strength is Orgrimmar's foremost marketplace. Soran's Leather and Steel Armory sells armor, while vendors stock provisions for long treks across the Barrens. Grunts watch every corner. They guide newcomers and keep order among the diverse peoples who have taken refuge beneath Thrall's banner.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valley-of-strength-55284b2327a9dab88b9b/1-0000.mp3", duration = 67.4220408, start = 0},
+    {file = "Audio/Transport/full_subzone_valley-of-strength-593a3cfd09975ebb6dff/1-0000.mp3", duration = 54.2563265, start = 0},
   },
 }
 P.transport["subzone:venomweb-vale"] = {
@@ -1531,10 +1531,10 @@ P.transport["subzone:venture-co-mine"] = {
 }
 P.transport["subzone:war-quarter"] = {
   hash = "87fe29",
-  fullHash = "815c7e",
-  text = "War Quarter. The War Quarter is the northwestern district of the Undercity, serving as the command post and martial training ground for the Forsaken. Within its echoing stone chambers, the soldiers, priests, and crafters of Lordaeron hone their weapons and shadow magic in defense of their fledgling kingdom. It houses training halls for warriors and priests alongside weapon masters and heavy industry. Occupying the northwest sector of the subterranean metropolis, the War Quarter stands as the bastion of martial strength for the Forsaken. Beneath its gloomy stone arches, rank-and-file guards and elite champions assemble to drill in armed combat. Unlike traditional barracks of living kingdoms, this military center combines ruthless iron warfare with the chilling rites of shadow, housing an ominous Altar of Darkness where spiritual discipline merges with military ambition. Beyond housing warrior and priest guilds, the quarter functions as the heart of Undercity's wartime production. The clatter of blades and armor echoes continually against the stone, supported by the district's blacksmiths, smelters, and weapon masters. Here, iron forged deep in the earth is shaped to outfit the forces defending the ruins of Lordaeron from the Scourge and Scarlet Crusade.",
+  fullHash = "6cc0c6",
+  text = "War Quarter. In the War Quarter, Lordaeron's Forsaken hone weapons and shadow magic for their fledgling kingdom. Training halls, weapon masters, and heavy industry fill the Undercity's northwest. Rank-and-file guards and elite champions drill beneath the War Quarter's gloomy stone arches. There, ruthless iron warfare meets the chilling rites of shadow. The Altar of Darkness stands at its heart. Warrior and priest guilds make the War Quarter the heart of Undercity's wartime production. Blacksmiths and smelters ring the stone with their labor as weapon masters prepare blades and armor. Iron forged deep underground arms the forces defending Lordaeron's ruins from the Scourge and Scarlet Crusade.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_war-quarter-f37101d3e1ac3fc1f914/1-0000.mp3", duration = 71.0791837, start = 0},
+    {file = "Audio/Transport/full_subzone_war-quarter-f40b63f07c76f56b0063/1-0000.mp3", duration = 44.4081633, start = 0},
   },
 }
 P.transport["subzone:whispering-forest"] = {

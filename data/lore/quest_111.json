@@ -17,16 +17,16 @@
   "wiki": "Speak with Gramma",
   "chain": []
  },
- "summary": "Tommy Joe Stonefield seeks Gramma Stonefield's help to meet Maybell Maclure. Their families' bitter feud keeps the young lovers apart, and Tommy Joe hopes his grandmother can find a way for them to see each other.",
+ "summary": "Tommy Joe Stonefield asks Gramma Stonefield for a way to reach Maybell Maclure. Their families keep them apart, and he hopes to meet her without drawing their kin into conflict.",
  "sections": [
   {
    "title": "A Feud and Forbidden Love",
-   "body": "Tommy Joe Stonefield and Maybell Maclure keep their romance secret from their feuding families. The Stonefields and Maclures have fought over their farms for years, making their neighboring homesteads hostile ground. Tommy Joe wants to meet Maybell without provoking violence between their kin, so he turns to his grandmother for help.",
+   "body": "Tommy Joe and Maybell hide their love from their families. He turns to Gramma Stonefield, hoping she can find them a chance to meet in secret. Their kin must not discover the romance and turn old hostility into violence.",
    "spoiler": 0
   },
   {
    "title": "Gramma's Cunning",
-   "body": "Gramma Stonefield stays indoors, but she knows the feud well. She understands that the families cannot truly unite while their bad blood remains. Still, she will not let their grudge crush young love. Rather than urge caution, Gramma begins looking for small chances to bring Tommy Joe and Maybell together.",
+   "body": "Gramma Stonefield knows the families cannot truly unite while their bad blood remains. Still, she will not let that end the young couple's hopes. She begins seeking small chances to bring Tommy Joe and Maybell together.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tommy joe gramma",
     "speak with gramma purpose"
    ],
-   "answer": "Tommy Joe loves Maybell Maclure, but their families' feud keeps them from meeting. He hopes his grandmother can help arrange secret meetings without stirring an uproar."
+   "answer": "Tommy Joe loves Maybell Maclure, but their families' feud keeps them apart. He hopes his grandmother can arrange secret meetings without stirring an uproar."
   },
   {
    "q": "Where can Gramma Stonefield be found?",
@@ -56,7 +56,7 @@
     "why are they fighting",
     "family feud elwynn"
    ],
-   "answer": "The neighboring farming families have a long personal and territorial grudge. They accuse each other of theft and compete over crops, while distrust keeps both households near violence. Their children must keep any contact secret."
+   "answer": "The neighboring farming families carry a long personal and territorial grudge. They accuse each other of theft and compete over crops, while distrust keeps both households near violence. Their children must keep any contact secret."
   },
   {
    "q": "Does Gramma Stonefield oppose Tommy Joe's relationship?",
@@ -64,7 +64,7 @@
     "is gramma against maybell",
     "does gramma support lovers"
    ],
-   "answer": "No. Gramma knows the feud makes a lasting future difficult, but she cares for the young lovers and is willing to devise ways for them to meet."
+   "answer": "No. Gramma knows the feud makes a lasting future difficult, but she cares for the young lovers and will devise ways for them to meet."
   },
   {
    "q": "What happens after speaking to Gramma?",
@@ -72,7 +72,7 @@
     "what next speak with gramma",
     "gramma quest follow up"
    ],
-   "answer": "Gramma begins making a plan to bring Tommy Joe and Maybell together in secret. She sends you to gather what she needs for an invisibility liquor to get past their watchful families."
+   "answer": "Gramma begins planning to bring Tommy Joe and Maybell together in secret. She sends you to gather what she needs for an invisibility liquor to get past their watchful families."
   },
   {
    "q": "Who is Maybell Maclure?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human in Elwynn, you see how deeply local grudges run in Stormwind's heartlands, even amid wider troubles across the realm."
+   "text": "As a human in Elwynn, you see how deeply local grudges run in Stormwind's heartlands, even amid troubles across the realm."
   },
   {
    "target": "faction:Alliance",
@@ -111,5 +111,5 @@
  "attribution": [
   "Speak with Gramma"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Word for the Watch",
-   "body": "Elling Trias agrees to use his contacts to help search for the missing diplomat. He seals a note for Watcher Backus, a Night Watch guard stationed in Duskwood. Trias sends a traveler south through the forest to deliver it by hand. He hopes Backus will report any Defias seen near Darkshire.",
+   "body": "Elling Trias agrees to use his contacts to help find the missing diplomat. He seals a note for Watcher Backus, a Night Watch guard stationed in Duskwood.\n\nTrias sends a traveler south through the forest to deliver it by hand. He hopes Backus will report any Defias seen near Darkshire.",
    "spoiler": 0
   },
   {
    "title": "Trias's Far-Reaching Eyes",
-   "body": "Elling Trias sells cheese in Stormwind's Trade District and keeps contacts beyond the city. His note reaches Watcher Backus, a guard of Darkshire's wary Night Watch. The town faces threats from undead and savage beasts, yet Backus receives Trias's message warmly. Their bond shows that Trias has earned respect beyond Stormwind.",
+   "body": "Elling Trias sells cheese in Stormwind's Trade District and keeps contacts beyond the city. His note reaches Watcher Backus, a guard in Darkshire's wary Night Watch.\n\nDarkshire faces threats from undead and savage beasts. Backus welcomes Trias's message, a sign that Trias has earned respect beyond Stormwind.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "watcher backus location",
     "find watcher backus"
    ],
-   "answer": "Watcher Backus patrols the road just north of Darkshire in Duskwood, watching the forest approaches to town."
+   "answer": "Watcher Backus patrols the road just north of Darkshire in Duskwood. He watches the forest approaches to town."
   },
   {
    "q": "What happens after the note is delivered?",
@@ -57,17 +57,17 @@
     "what does backus say",
     "after delivering note"
    ],
-   "answer": "Backus recognizes Trias's name and trusts his request. He sets aside his usual caution toward travelers and agrees to help investigate suspicious activity in the woods."
+   "answer": "Backus recognizes Trias's name and trusts his request. He sets aside his usual caution toward travelers and agrees to investigate suspicious activity in the woods."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The note shows how personal ties and informal intelligence help hold the Alliance's frayed territories together when official channels fail."
+   "text": "As an Alliance member, you can see how personal ties and informal intelligence help hold the faction's frayed territories together when official channels fail."
   },
   {
    "target": "class:Rogue",
-   "text": "Trias relies on an ordinary guard for local information, a way to gather intelligence far beyond city walls."
+   "text": "As a rogue, you can see Trias relying on an ordinary guard for local information. This lets him gather intelligence far beyond city walls."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Sealed Note to Watcher Backus",
   "The Missing Diplomat (4)"
  ],
- "style": 1
+ "style": 2
 }

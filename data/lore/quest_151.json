@@ -17,16 +17,16 @@
   "wiki": "Poor Old Blanchy",
   "chain": []
  },
- "summary": "Verna Furlbrow waits beside the road in Westfall with her stranded family and starving mare. Their wagon broke during an attempt to escape, leaving Old Blanchy exhausted. Verna asks you to gather oats from nearby abandoned farmsteads and feed the old horse.",
+ "summary": "On Westfall's road, Poor Old Blanchy waits with the stranded Furlbrows, worn out and hungry. Their wagon broke as they fled, and Verna asks you to find oats at nearby abandoned farms to feed the mare.",
  "sections": [
   {
    "title": "A Stranded Household",
-   "body": "Verna and Farmer Furlbrow are stranded beside Westfall's main road. Bandits and rogue mechanical harvest golems have driven families like theirs from their homes. As the Furlbrows tried to haul their belongings to safety, their wagon broke down, leaving them marooned in open country.",
+   "body": "Verna and Farmer Furlbrow are stranded beside Westfall's main road. Bandits and rogue mechanical harvest golems have driven families like theirs from their homes. The Furlbrows tried to carry their belongings to safety, but their wagon broke down, leaving them marooned in open country.",
    "spoiler": 0
   },
   {
    "title": "Comfort for a Faithful Mare",
-   "body": "Old Blanchy has plowed and hauled for the Furlbrow family across many seasons. Now exhausted from pulling their overloaded cart and starved by the delay, the gentle mare is fading fast. Verna asks you to search nearby overrun farmsteads for sacks of oats, where hostile threshers and gnoll scavengers threaten. The grain could give the faithful animal a decent meal.",
+   "body": "Old Blanchy has plowed and hauled for the Furlbrow family through many seasons. Now the delay has left the gentle mare exhausted and starving. Verna asks you to search nearby overrun farmsteads for sacks of oats. Hostile threshers and gnoll scavengers threaten there, but the grain could give the faithful mare a decent meal.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is old blanchy",
     "blanchy lore"
    ],
-   "answer": "Old Blanchy is the Furlbrow family's beloved, aging workhorse. She has pulled their plows and carts across Westfall for years, and now she is exhausted and stranded beside the road after their wagon axle broke."
+   "answer": "Old Blanchy is the Furlbrow family's beloved, aging workhorse. For years she has pulled their plows and carts across Westfall. Now she is exhausted and stranded beside the road after their wagon axle broke."
   },
   {
    "q": "Why is the Furlbrow wagon broken down?",
@@ -47,7 +47,7 @@
     "furlbrow wagon",
     "broken wagon road"
    ],
-   "answer": "The Furlbrows tried to flee their farm with all their belongings, but their wagon gave out under the strain. They are stranded along the highway, exposed to bandits and prowling beasts."
+   "answer": "The Furlbrows tried to flee their farm with all their belongings, but the wagon gave out under the strain. They are stranded along the highway, exposed to bandits and prowling beasts."
   },
   {
    "q": "Where do the oats come from?",
@@ -56,7 +56,7 @@
     "find oats",
     "sacks of oats"
    ],
-   "answer": "Sacks of oats lie scattered across the fields and outbuildings of Westfall's overrun farmsteads, left behind when homesteaders fled rogue harvest machines and bandits."
+   "answer": "Sacks of oats lie scattered across the fields and outbuildings of Westfall's overrun farms. Homesteaders left them behind when they fled rogue harvest machines and bandits."
   },
   {
    "q": "What threats guard the grain in the fields?",
@@ -65,7 +65,7 @@
     "farm dangers",
     "harvest golems oats"
    ],
-   "answer": "The fields southwest of the road are troubled by rogue mechanical harvest watchers and bands of Riverpaw gnolls scavenging in deserted barns."
+   "answer": "Southwest of the road, rogue mechanical harvest watchers and bands of Riverpaw gnolls scavenge in deserted barns."
   },
   {
    "q": "Why hasn't the family moved Old Blanchy to safety?",
@@ -74,7 +74,7 @@
     "can horse walk",
     "why not go sentinel hill"
    ],
-   "answer": "Old Blanchy is spent and starving, unable to pull or travel far without sustenance. The Furlbrows refuse to leave behind their loyal mare or their belongings."
+   "answer": "Old Blanchy is spent and starving, unable to pull or travel far without food. The Furlbrows refuse to leave their loyal mare or their belongings behind."
   },
   {
    "q": "Does Stormwind send aid to farmers like the Furlbrows?",
@@ -83,7 +83,7 @@
     "where are guards",
     "alliance aid westfall"
    ],
-   "answer": "Stormwind's royal court offers Westfall's homesteaders almost no protection or aid. Rural folk are largely left to fend for themselves or rely on the struggling People's Militia."
+   "answer": "Stormwind's royal court offers Westfall's homesteaders almost no protection or aid. Rural folk are largely left to fend for themselves or depend on the struggling People's Militia."
   }
  ],
  "angles": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Poor Old Blanchy"
  ],
- "style": 1
+ "style": 2
 }

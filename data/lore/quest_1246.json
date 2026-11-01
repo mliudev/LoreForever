@@ -17,16 +17,16 @@
   "wiki": "The Missing Diplomat (7)",
   "chain": []
  },
- "summary": "In Old Town, a lead in the missing diplomat's case points to a street fighter. Elling Trias sends you to find Dashel Stonefist and get answers about the suspicious papers. The investigation reaches Stormwind's rough streets.",
+ "summary": "In Old Town, Elling Trias sends you after a name tied to the missing diplomat’s case. Dashel Stonefist may know more about suspicious papers, and the search leads into Stormwind’s rough streets.",
  "sections": [
   {
    "title": "A Lead in Old Town",
-   "body": "Elling Trias recalls a name tied to the coded notes and leads: Dashel Stonefist, known as Fist. He is a rough street fighter, far from the nobility around Cathedral Square. Stonefist keeps to Old Town's cramped alleys. Finding him draws the search out of Stormwind Keep's grand halls and into the city's criminal circles.",
+   "body": "Elling Trias recalls Dashel Stonefist, known as Fist, among the names tied to the coded notes and leads. A rough street fighter, Stonefist keeps to the cramped alleys of Old Town. Finding him takes the search from Stormwind Keep’s grand halls into the city’s criminal circles.",
    "spoiler": 0
   },
   {
    "title": "Persuasion by the Fist",
-   "body": "Elling Trias warns that Dashel Stonefist will not speak freely to curious strangers, especially when treason and kidnappings are involved. If questions fail, Trias says force will have to speak. Stonefist treats the alleyways as his domain and resents outsiders probing matters that could cost him his livelihood or his neck.",
+   "body": "Elling Trias warns that Dashel Stonefist will not speak freely to curious strangers, especially when treason and kidnappings are involved. If questions fail, Trias says force will have to speak. Stonefist treats the alleyways as his domain. He resents outsiders probing matters that could cost him his livelihood or his neck.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is fist",
     "dashel"
    ],
-   "answer": "Dashel Stonefist is a notorious brawler who frequents the central alleys of Stormwind's Old Town. Trias links him to incriminating papers found during the search for the missing diplomat."
+   "answer": "Dashel Stonefist is a notorious brawler who frequents the central alleys of Stormwind’s Old Town. Trias links him to incriminating papers found during the search for the missing diplomat."
   },
   {
    "q": "Where can I find Dashel Stonefist?",
@@ -55,7 +55,7 @@
     "why fight dashel",
     "trias reason"
    ],
-   "answer": "Trias links Dashel's name to papers about the King's envoy's disappearance. Dashel may know names, places, or orders tied to whoever organized the abduction."
+   "answer": "Trias links Dashel’s name to papers about the King’s envoy’s disappearance. Dashel may know names, places, or orders tied to whoever organized the abduction."
   },
   {
    "q": "Will Dashel cooperate willingly?",
@@ -71,7 +71,7 @@
     "missing diplomat next step",
     "what after dashel"
    ],
-   "answer": "Confronting Dashel leads to a brawl. Once subdued, he gives you leads on the network behind the diplomat's abduction and points toward other conspirators within the kingdom."
+   "answer": "Confronting Dashel leads to a brawl. Once subdued, he gives you leads on the network behind the diplomat’s abduction and points toward other conspirators within the kingdom."
   },
   {
    "q": "Who is the missing diplomat mentioned in the quest?",
@@ -79,7 +79,7 @@
     "who is missing diplomat",
     "which diplomat"
    ],
-   "answer": "Stormwind authorities speak only of an unnamed diplomat who vanished while traveling to Theramore to meet Jaina Proudmoore. The envoy's identity remains a closely guarded secret at this stage of the investigation."
+   "answer": "Stormwind authorities speak only of an unnamed diplomat who vanished while traveling to Theramore to meet Jaina Proudmoore. The envoy’s identity remains a closely guarded secret at this stage of the investigation."
   }
  ],
  "angles": [
@@ -89,11 +89,11 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human of Stormwind, you see troubling proof that local street scum are aiding high treason against the kingdom's leadership."
+   "text": "As a human of Stormwind, you see troubling proof that local street scum are aiding high treason against the kingdom’s leadership."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you know that unraveling the conspiracy behind the missing diplomat matters to the Alliance's stability and to the kingdom at its heart."
+   "text": "As an Alliance member, you know that unraveling the conspiracy behind the missing diplomat matters to the Alliance’s stability and to the kingdom at its heart."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "The Missing Diplomat (7)"
  ],
- "style": 1
+ "style": 2
 }

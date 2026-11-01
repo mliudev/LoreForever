@@ -12,21 +12,21 @@
   "levels": "1-10",
   "aliases": []
  },
- "summary": "In Durotar's red canyons, young orcs and Darkspear trolls prove themselves to the New Horde. Warchief Thrall founded this arid homeland after the Third War and named it for his father, Durotan. The Southfury River and the Great Sea hem it in. Razor Hill and the warrior city of Orgrimmar rise from its rock, while quilboar tribes and stranded Alliance troops still hold out.",
+ "summary": "Durotar is red canyon country, where young orcs and Darkspear trolls prove themselves to the New Horde. Warchief Thrall founded this dry homeland after the Third War, and named it for his father, Durotan. The Southfury River and the Great Sea hem it in. Razor Hill and the warrior city of Orgrimmar rise from its rock. But quilboar tribes still hold out here, and so do stranded Alliance troops.",
  "sections": [
   {
    "title": "A Harsh New Home",
-   "body": "When Thrall led his people across the Great Sea to Kalimdor, he chose an untamed frontier on purpose. Here the orcs would earn an honest living through labor and grit, not conquest. The cracked red soil, baked gullies and towering spires remind them of Draenor before its destruction. Water is scarce and little of the land can be farmed, but the Horde embraced its natural defenses and stark grandeur. Across the Southfury to the west lie the open Barrens, and to the north the ruined wilds of Azshara. Durotar is proof that the orcs have forged their own destiny.",
+   "body": "Thrall chose this hard frontier on purpose. Here the orcs would earn an honest living by labor and grit, and not by conquest. The cracked red soil and the towering spires remind them of Draenor, before its ruin. Water is scarce and little of the land can be farmed, yet the Horde has embraced its stark grandeur. Durotar is proof that the orcs have forged their own destiny.",
    "spoiler": 0
   },
   {
    "title": "Enemies on the Frontier",
-   "body": "The Horde holds Durotar, but keeping it is still a war. Razormane quilboar, pushed out when the nation was founded, raid farms and settlements from the western crags. In the south, what is left of Grand Admiral Daelin Proudmoore's Kul Tiras fleet still holds the crumbling garrison of Tiragarde Keep under Lieutenant Benedict, and refuses to surrender. Worse, the demonic Burning Blade coven lurks in hidden ravines and deep sea caves, tempting young orcs back to fel power.",
+   "body": "The Horde holds Durotar, but keeping it is still a war. The Razormane quilboar, pushed out when the nation was founded, raid its farms from the western crags. In the south, what is left of Grand Admiral Daelin Proudmoore's fleet still holds Tiragarde Keep, and refuses to surrender. Worse still, the demon cult of the Burning Blade lurks in hidden ravines and deep sea caves. It tempts young orcs back to fel power.",
    "spoiler": 0
   },
   {
    "title": "The Trials of the Darkspear",
-   "body": "On the southern coast, Sen'jin Village is the staging ground of the exiled Darkspear trolls, led by Master Gadrin. They lost their home on the nearby Echo Isles when the witch doctor Zalazane lost his mind and used dark voodoo to enslave his own kin. Unable to take the islands back alone, the Darkspear count on new orc and troll warriors from the Valley of Trials to break Zalazane's hold and secure the coast.",
+   "body": "On the southern coast lies Sen'jin Village, where the exiled Darkspear trolls gather under Master Gadrin. Their home was on the nearby Echo Isles. But the witch doctor Zalazane went mad, and with dark voodoo he enslaved his own kin. The Darkspear cannot take the islands back alone. They are counting on new warriors from the Valley of Trials, to break Zalazane's hold.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why durotar",
     "why durotar barren"
    ],
-   "answer": "Thrall chose this unforgiving territory intentionally. The red earth and rugged mesas reminded the orcs of their ancestral world of Draenor, while its harsh conditions served as penance and a forge for discipline. Thrall believed his people needed to earn their survival through honest hardship rather than claiming fertile lands by conquest, ensuring they would not slide back into bloodthirsty complacency."
+   "answer": "Thrall chose this unforgiving territory intentionally. After leading the orcs across the Great Sea to Kalimdor, he settled them here. The red earth and rugged mesas reminded the orcs of their ancestral world of Draenor, while its harsh conditions served as penance and a forge for discipline. They embraced the land’s natural defenses. Thrall believed his people needed to earn their survival through honest hardship rather than claiming fertile lands by conquest, ensuring they would not slide back into bloodthirsty complacency. The Barrens lay across the Southfury to the west, and the ruined wilds of Azshara lay to the north."
   },
   {
    "q": "Who was Durotar named after?",
@@ -56,7 +56,7 @@
     "tiragarde keep humans",
     "proudmoore troops durotar"
    ],
-   "answer": "The soldiers at Tiragarde Keep are surviving Kul Tiran marines under Lieutenant Benedict, left over from Grand Admiral Daelin Proudmoore's invasion fleet. Even after Proudmoore was slain, these troops refused to surrender or withdraw, maintaining an entrenched hostile outpost right on Durotar's southern coast."
+   "answer": "The soldiers at Tiragarde Keep are surviving Kul Tiran marines under Lieutenant Benedict, left over from Grand Admiral Daelin Proudmoore's invasion fleet. They hold the crumbling garrison. Even after Proudmoore was slain, these troops refused to surrender or withdraw, maintaining an entrenched hostile outpost right on Durotar's southern coast."
   },
   {
    "q": "What is the conflict on the Echo Isles?",
@@ -65,7 +65,7 @@
     "why sen'jin village",
     "zalazane lore"
    ],
-   "answer": "The Darkspear trolls originally established their Kalimdor home on the Echo Isles. However, a powerful witch doctor named Zalazane succumbed to madness and turned his dark magic against his brethren, enslaving their minds. The survivors fled to the mainland to establish Sen'jin Village, from which they launch raids to break his hold."
+   "answer": "The Darkspear trolls originally established their Kalimdor home on the Echo Isles. However, a powerful witch doctor named Zalazane succumbed to madness and turned his dark magic against his brethren, enslaving their minds. The Darkspear lost their home as a result. The survivors fled to the mainland to establish Sen'jin Village, from which they launch raids to break his hold."
   },
   {
    "q": "What is the Burning Blade doing in Durotar?",
@@ -83,7 +83,7 @@
     "durotar travel",
     "durotar exits"
    ],
-   "answer": "A bridge over the Southfury River leads west into the Barrens. Outside Orgrimmar, a zeppelin tower provides transcontinental air travel directly to Tirisfal Glades and Grom'gol Base Camp in Stranglethorn Vale."
+   "answer": "A bridge over the Southfury River leads west into the Barrens, while the ruined wilds of Azshara lie to the north. Outside Orgrimmar, a zeppelin tower provides transcontinental air travel directly to Tirisfal Glades and Grom'gol Base Camp in Stranglethorn Vale."
   }
  ],
  "angles": [
@@ -136,5 +136,5 @@
   "Durotar (Classic)",
   "Durotar"
  ],
- "style": 1
+ "style": 2
 }

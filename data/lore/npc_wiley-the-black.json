@@ -8,11 +8,11 @@
   "wiki": "Wiley the Black",
   "refs": 2
  },
- "summary": "At the Lakeshire Inn, Wiley the Black keeps out of sight. He owes his life to Gryan Stoutmantle and shares what he knows of the Defias Brotherhood.",
+ "summary": "At the Lakeshire Inn, Wiley the Black stays clear of trouble. He owes his life to Gryan Stoutmantle and shares what he knows of the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Scoundrel's Debt",
-   "body": "Wiley the Black keeps to the Lakeshire Inn, away from Westfall's turmoil and Redridge's gnoll-infested borders. He owes his life to Gryan Stoutmantle, commander of the People's Militia, who once saved him. Stoutmantle grumbles that he should have let Wiley rot. When the militia needs insight into the Defias conspiracy, it turns to Wiley. He reluctantly shares covert intelligence to repay his debt.",
+   "body": "Wiley the Black keeps to the Lakeshire Inn, far from Westfall's turmoil and Redridge's gnoll-infested borders. Gryan Stoutmantle, commander of the People's Militia, once saved his life. Stoutmantle grumbles that he should have let Wiley rot. So when the militia needs insight into the Defias conspiracy, it turns to Wiley. Reluctantly, he shares covert intelligence to repay his debt.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "wiley redridge",
     "lakeshire inn wiley"
    ],
-   "answer": "Wiley the Black is inside the Lakeshire Inn in the town of Lakeshire, in the Redridge Mountains."
+   "answer": "Wiley the Black is inside the Lakeshire Inn in Lakeshire, a town in the Redridge Mountains."
   },
   {
    "q": "Why is Wiley helping Gryan Stoutmantle?",
@@ -34,7 +34,7 @@
     "wiley gryan relationship",
     "wiley stoutmantle debt"
    ],
-   "answer": "Gryan Stoutmantle once saved Wiley's life. Wiley repays that debt by sharing information about the Defias Brotherhood, though he is reluctant to stick his neck out."
+   "answer": "Gryan Stoutmantle once saved Wiley's life. Wiley repays that debt with information about the Defias Brotherhood, though he is reluctant to risk himself."
   },
   {
    "q": "How does Wiley know about the Defias Brotherhood?",
@@ -43,7 +43,7 @@
     "how does wiley know defias",
     "wiley defias connection"
    ],
-   "answer": "Wiley knows the underworld and Defias operations well. He shares what he knows to repay Gryan Stoutmantle, but whether he once belonged to the Brotherhood is unconfirmed."
+   "answer": "Wiley knows the underworld and Defias operations well. He shares what he knows to repay Gryan Stoutmantle, though whether he once belonged to the Brotherhood is unconfirmed."
   },
   {
    "q": "What role does he play in the Defias investigation?",
@@ -86,5 +86,5 @@
  "attribution": [
   "Wiley the Black"
  ],
- "style": 1
+ "style": 2
 }

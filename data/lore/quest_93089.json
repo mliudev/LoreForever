@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The High Order seeks your blessing before leaving Zephras Isle with its Kirin Tor allies. Its expedition depends on finding an arcane answer to the island\u2019s instability.",
+ "summary": "On Zephras Isle, the High Order seeks your blessing before departing with its Kirin Tor allies. Their expedition depends on finding an arcane answer to the island’s instability.",
  "sections": [
   {
    "title": "The Departure",
-   "body": "High Elder Shadowsong has blessed the expedition, and preparations are ready. Ansirem has worked to establish skycutter travel between Dalaran and Zephras Isle. The vanguard is preparing to depart, and you can speak with Elaadrin Evengale when you are ready to leave the island.",
+   "body": "High Elder Shadowsong has blessed the expedition, and its preparations are ready. Ansirem has worked to establish skycutter travel between Dalaran and Zephras Isle. Now the vanguard is preparing to depart. Speak with Elaadrin Evengale when you are ready to leave the island.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "kirin tor help",
     "high order friends"
    ],
-   "answer": "The Kirin Tor are helping the High Order, and Ansirem has worked on skycutter transport between Dalaran and Zephras Isle."
+   "answer": "The Kirin Tor are helping the High Order. Ansirem has worked on skycutter transport between Dalaran and Zephras Isle."
   },
   {
    "q": "What is the expedition seeking?",
@@ -54,7 +54,7 @@
     "arcane solution",
     "why leave the island"
    ],
-   "answer": "The expedition hopes to find an arcane solution that can bring stability to Zephras Isle."
+   "answer": "The expedition hopes to find an arcane solution to bring stability to Zephras Isle."
   },
   {
    "q": "What happened to the cult?",
@@ -82,7 +82,7 @@
   "subzone:dalaran",
   "quest:92596"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: What Comes Next"
  ]

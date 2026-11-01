@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonefire Tavern"
  },
- "summary": "Travelers gather at Stonefire Tavern in Ironforge’s Commons, just north of the city gates. The inn offers a hearth, dwarven ale, and a place to rest for those arriving from across Khaz Modan.",
+ "summary": "In Ironforge’s Commons, travelers find the Stonefire Tavern just north of the city gates. Its hearth, dwarven ale, and rooms offer rest to those arriving from across Khaz Modan.",
  "sections": [
   {
    "title": "Heart of the Commons",
-   "body": "Stonefire Tavern welcomes travelers in Ironforge’s Commons, just north of the fortress gates. Innkeeper Firebrew runs the inn with his daughter Gwenna. Weary wayfarers can find meals, local brews, and lodging beneath the mountain. Travelers come in from across the Alliance to rest from Dun Morogh’s mountain snows, trade tales, or gather supplies before exploring the city. Its hearth draws them together at the heart of the Commons.",
+   "body": "In Ironforge’s Commons, just north of the fortress gates, Innkeeper Firebrew runs Stonefire Tavern with his daughter Gwenna. Weary wayfarers can find meals, local brews, and lodging beneath the mountain.\n\nTravelers come from across the Alliance to rest from Dun Morogh’s mountain snows, trade tales, or gather supplies before exploring the city. The hearth draws them together at the heart of the Commons.",
    "spoiler": 0
   }
  ],
@@ -79,5 +79,5 @@
  "attribution": [
   "Stonefire Tavern"
  ],
- "style": 1
+ "style": 2
 }

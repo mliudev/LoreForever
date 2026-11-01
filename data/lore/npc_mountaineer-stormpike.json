@@ -8,16 +8,16 @@
   "wiki": "Mountaineer Stormpike",
   "refs": 3
  },
- "summary": "At Algaz Station in northern Loch Modan, Mountaineer Stormpike watches the road into the Wetlands. A proud member of the Stormpike clan, he guards Ironforge’s supply routes from troggs and kobolds.",
+ "summary": "At Algaz Station, Mountaineer Stormpike keeps watch over Loch Modan's northern road into the Wetlands. A proud member of Ironforge's Stormpike clan, he guards its supply routes from troggs and kobolds.",
  "sections": [
   {
    "title": "Guardian of Algaz Station",
-   "body": "At Algaz Station, Mountaineer Stormpike guards the northern road out of Loch Modan. The station stands before the descent through Dun Algaz into the Wetlands, where rocky crags and threats from the wilderness surround it. Stormpike keeps communication open and the road clear for travelers and supply convoys crossing the pass.",
+   "body": "Mountaineer Stormpike guards the northern road from Algaz Station, where Loch Modan gives way to Dun Algaz. The road descends through the pass into the Wetlands, amid rocky crags and wilderness threats. Stormpike keeps communication open and the way clear for travelers and supply convoys crossing the pass.",
    "spoiler": 0
   },
   {
    "title": "Contending with Local Menaces",
-   "body": "Kobolds in nearby digs and troggs from beneath the ground trouble northern Loch Modan. Stormpike asks passing adventurers to disrupt these threats. Kobolds have moved into Silver Stream Mine and taken the Miners' League's stored dwarven tools.",
+   "body": "Kobolds from nearby digs and troggs from beneath the ground trouble northern Loch Modan. Stormpike calls on passing adventurers to disrupt these threats. Kobolds have entered Silver Stream Mine and taken the Miners' League's stored dwarven tools.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is stormpike",
     "mountaineer stormpike loc"
    ],
-   "answer": "Mountaineer Stormpike is at Algaz Station in northern Loch Modan, along the mountain road north through Dun Algaz toward the Wetlands."
+   "answer": "Find Mountaineer Stormpike at Algaz Station in northern Loch Modan. He watches the mountain road north through Dun Algaz toward the Wetlands."
   },
   {
    "q": "Who is Mountaineer Stormpike?",
@@ -38,7 +38,7 @@
     "mountaineer stormpike lore",
     "who is mountaineer stormpike"
    ],
-   "answer": "Mountaineer Stormpike belongs to the Stormpike clan of Ironforge. He stands sentry and scouts the northern pass of Loch Modan against dangers from the wilderness."
+   "answer": "Mountaineer Stormpike belongs to Ironforge's Stormpike clan. He stands sentry and scouts Loch Modan's northern pass against wilderness dangers."
   },
   {
    "q": "What threats does he deal with at Algaz Station?",
@@ -74,7 +74,7 @@
     "mountaineer stormpike tasks",
     "filthy paws quest"
    ],
-   "answer": "Mountaineer Stormpike sends adventurers to recover the Miners' League's gear from Silver Stream Mine and carry his order for a new shield to Furen Longbeard, the dwarven armorsmith in Stormwind."
+   "answer": "Mountaineer Stormpike sends adventurers to recover the Miners' League's gear from Silver Stream Mine. He also asks them to carry his order for a new shield to Furen Longbeard, the dwarven armorsmith in Stormwind."
   }
  ],
  "angles": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Mountaineer Stormpike"
  ],
- "style": 1
+ "style": 2
 }

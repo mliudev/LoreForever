@@ -20,16 +20,16 @@
    "Riverpaw Gnoll Bounty"
   ]
  },
- "summary": "Marshal Dughan sends available adventurers west to Westbrook Garrison, the outpost at Elwynn Forest's border with Westfall. Stormwind's army is stretched thin across the kingdom, while Deputy Rainer and his guards face growing pressure from Riverpaw gnolls and wandering thieves without regular reinforcements.",
+ "summary": "At Westbrook Garrison, Deputy Rainer and his guards face growing pressure with few soldiers to spare. Marshal Dughan sends available adventurers west to the outpost on Elwynn Forest's border with Westfall. Stormwind's army is stretched thin across the kingdom, leaving the garrison to contend with Riverpaw gnolls and wandering thieves without regular reinforcements.",
  "sections": [
   {
    "title": "A Frontier Stretched Thin",
-   "body": "Westbrook Garrison guards the western edge of Elwynn Forest, where settled woodland meets Westfall's troubled plains. Gnoll warbands and bandits grow bolder along the waterways and western roads, and the small garrison has asked for more men. Marshal Dughan and Goldshire's administration have no Stormwind soldiers to spare. Local commanders must hire traveling mercenaries and wandering adventurers.",
+   "body": "Westbrook Garrison guards Elwynn Forest's western edge, where settled woodland meets Westfall's troubled plains. Gnoll warbands and bandits grow bolder along the waterways and western roads, so the small garrison has asked for more men. Marshal Dughan and Goldshire's administration have no Stormwind soldiers to spare. Local commanders must hire traveling mercenaries and wandering adventurers.",
    "spoiler": 0
   },
   {
    "title": "The Threat Across the Brook",
-   "body": "Deputy Rainer and his men face the Riverpaw gnolls, whose raiding parties harass travelers and nearby homesteads. The pack operates in the borderlands between Elwynn and Westfall. With Stormwind distracted by political and military troubles, the gnolls press deeper into inhabited territory. Westbrook Garrison guards against their unchecked advance into the heart of the forest.",
+   "body": "Deputy Rainer and his men face Riverpaw gnolls who harass travelers and nearby homesteads. The pack ranges through the borderlands between Elwynn and Westfall. Stormwind is distracted by political and military troubles, and the gnolls press deeper into inhabited lands. Westbrook Garrison guards against their unchecked advance into the heart of the forest.",
    "spoiler": 0
   }
  ],
@@ -96,7 +96,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance volunteer, you take up the work of regular soldiers and help keep core territories from descending into complete chaos."
+   "text": "As an Alliance volunteer, you take up the work of regular soldiers and help keep core territories from falling into complete chaos."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Westbrook Garrison Needs Help!"
  ],
- "style": 1
+ "style": 2
 }

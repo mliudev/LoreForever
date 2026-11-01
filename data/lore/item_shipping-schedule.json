@@ -10,16 +10,16 @@
    "quest:2206"
   ]
  },
- "summary": "At Jerod's Landing, the Defias Brotherhood moves contraband along Elwynn's waterways. Its dockmaster guards a schedule that maps shipments between Redridge and Westfall, and SI:7 wants it.",
+ "summary": "At Jerod's Landing, the Defias Brotherhood sends contraband along Elwynn's waterways. Its dockmaster guards a schedule of shipments between Redridge and Westfall, and SI:7 wants it.",
  "sections": [
   {
    "title": "Smuggling at Jerod's Landing",
-   "body": "South of Goldshire, Jerod's Landing sits on the Elwynn bank of the Nazferiti River. The Defias Brotherhood seized the landing as a hub for river traffic. From there, they move contraband between Redridge and Westfall along waterways beyond the Stormwind Guard's notice. Their dockmaster keeps the Shipping Schedule close, recording these shipments.",
+   "body": "South of Goldshire, Jerod's Landing lies on the Elwynn bank of the Nazferiti River. The Defias Brotherhood seized it as a hub for river traffic. From there, they carry contraband between Redridge and Westfall by waterways beyond the Stormwind Guard's notice. Their dockmaster keeps the Shipping Schedule close, recording each shipment.",
    "spoiler": 0
   },
   {
    "title": "In the Crosshairs of SI:7",
-   "body": "Master Mathias Shaw leads SI:7, Stormwind's intelligence agency, and ordered the schedule stolen. It can map Defias supply lines, while taking it tests new operatives. The theft must be made inside the dock house, from the dockmaster's pockets. If the operative is caught, SI:7 denies any connection, leaving no trail to its barracks in Stormwind.",
+   "body": "Master Mathias Shaw leads SI:7, Stormwind's intelligence agency, and ordered the schedule stolen. It can reveal Defias supply lines, and taking it tests new operatives. The theft must happen inside the dock house, from the dockmaster's pockets. If the operative is caught, SI:7 denies any connection. No trail leads back to its barracks in Stormwind.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is this document",
     "dockmaster schedule"
    ],
-   "answer": "The Shipping Schedule records contraband shipments handled by the Defias Brotherhood dockmaster at Jerod's Landing. It tracks cargo ferried between Redridge and Westfall through Elwynn Forest's inland waters."
+   "answer": "The Shipping Schedule records contraband shipments handled by the Defias Brotherhood dockmaster at Jerod's Landing. It tracks cargo carried between Redridge and Westfall through Elwynn Forest's inland waters."
   },
   {
    "q": "Who wants this schedule recovered?",
@@ -49,7 +49,7 @@
     "where is the dockmaster",
     "how to get the schedule"
    ],
-   "answer": "The Defias Dockmaster carries the schedule inside the dock house at Jerod's Landing. The landing is on the Nazferiti River south of Goldshire in Elwynn Forest; the document must be taken from him there."
+   "answer": "The Defias Dockmaster carries the schedule inside the dock house at Jerod's Landing. The landing lies on the Nazferiti River south of Goldshire in Elwynn Forest, and the document must be taken from him there."
   },
   {
    "q": "What is Jerod's Landing used for?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, taking the schedule from the dockmaster's pockets tests the stealth and pickpocketing SI:7 expects of operatives seeking to join its ranks."
+   "text": "As a rogue, you can test the stealth and pickpocketing SI:7 expects of operatives seeking to join its ranks by taking the schedule from the dockmaster's pockets."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Shipping Schedule",
   "Snatch and Grab"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "Morhan Coppertongue relies on smiths and metalworkers to keep Thelsamar supplied with everyday hardware, from kettles and cooking pots to field tools."
+   "text": "Morhan Coppertongue depends on smiths and metalworkers to supply Thelsamar with everyday goods, from kettles and cooking pots to field tools."
   },
   {
    "target": "profession:Mining",
-   "text": "Miners who can smelt copper and tin into bronze bars provide the raw materials needed to keep rural Loch Modan workshops operational."
+   "text": "Miners who smelt copper and tin into bronze bars provide the materials that keep Loch Modan's rural workshops working."
   },
   {
    "target": "race:Dwarf",
-   "text": "Even small dwarven settlements like Thelsamar depend deeply on an active forge, making metal supply shortages a constant community concern."
+   "text": "Even a small dwarven settlement like Thelsamar depends on its forge, so a shortage of metal concerns the whole community."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "morhan coppertongue quest",
     "thelsamar blacksmith quest"
    ],
-   "answer": "The quest is offered by Morhan Coppertongue, a dwarven craftsman working at the forge in the town of Thelsamar in Loch Modan.",
+   "answer": "Morhan Coppertongue, a dwarven craftsman, offers it at the forge in Thelsamar, in Loch Modan.",
    "q": "Who offers Ingredients for the Forge?"
   },
   {
@@ -41,7 +41,7 @@
     "materials for ingredients for the forge",
     "what bars for thelsamar forge"
    ],
-   "answer": "Morhan Coppertongue needs bronze bars to keep his workshop running so he can craft essential everyday items like pots, kettles, and tools for the local residents.",
+   "answer": "Morhan needs bronze bars for his workshop. He uses them to make everyday goods such as pots, kettles, and tools for local residents.",
    "q": "What materials does Morhan Coppertongue need?"
   },
   {
@@ -49,7 +49,7 @@
     "why does thelsamar lack bronze",
     "why doesn't thelsamar have metal"
    ],
-   "answer": "While Thelsamar is a comfortable settlement, it lacks the vast industrial facilities and steady trade flow of Ironforge, leaving local craftsmen vulnerable to raw material shortages.",
+   "answer": "Thelsamar lacks Ironforge's great workshops and steady trade. Its craftspeople can run short of raw metal.",
    "q": "Why is Thelsamar running out of metal?"
   },
   {
@@ -57,7 +57,7 @@
     "what is bronze used for in thelsamar",
     "what does morhan make"
    ],
-   "answer": "Morhan uses bronze primarily to craft practical domestic and working goods, including cookware, kettles, pots, and various work tools for the townsfolk.",
+   "answer": "Morhan uses bronze to make useful goods for the home and workplace, including cookware, kettles, pots, and tools for the townsfolk.",
    "q": "What does Morhan forge with the bronze?"
   },
   {
@@ -65,7 +65,7 @@
     "what fuel does morhan need",
     "thelsamar coal problem"
    ],
-   "answer": "Beyond metal ingots, Morhan mentions needing a regular trader to bring coal into town, as fuel is crucial to keeping the forge fires burning steadily.",
+   "answer": "Morhan also needs a regular trader to bring coal into town. The forge depends on fuel to keep its fires burning.",
    "q": "What other supplies does the forge struggle to get?"
   },
   {
@@ -73,7 +73,7 @@
     "where does ingredients for the forge take place",
     "ingredients for the forge location"
    ],
-   "answer": "The quest takes place in Thelsamar, the primary dwarven settlement nestled in the hills of Loch Modan, just east of Dun Morogh.",
+   "answer": "It takes place in Thelsamar, Loch Modan's chief dwarven settlement in the hills east of Dun Morogh.",
    "q": "Where is this quest completed?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Life in Thelsamar moves at a quieter pace than in the Great Forge of Ironforge, but distance from the capital comes with logistical challenges. Local blacksmith Morhan Coppertongue works hard to provide the township with vital hardware, pots, and tools, yet he frequently contends with shortages of raw metal like bronze. Without regular shipments from the city, local craftspeople depend on passing travelers and prospectors to keep the anvils ringing.",
+   "body": "Thelsamar keeps a quieter pace than Ironforge's Great Forge. Far from the capital, supplies can be hard to come by. Morhan Coppertongue, the local blacksmith, makes the hardware, pots, and tools the township needs. Yet bronze and other raw metals often run short. Without regular shipments from the city, passing travelers and prospectors help keep the local anvils at work.",
    "spoiler": 0,
    "title": "Supply Strains in Thelsamar"
   },
   {
-   "body": "Procuring smelted bronze solves Morhan's immediate crafting dilemma, allowing him to restock the town's domestic and practical goods. Even so, the rural forge faces ongoing supply hurdles, notably the lack of a reliable merchant trade route bringing regular fuel supplies like coal into Loch Modan.",
+   "body": "Bronze bars let Morhan resume making goods for daily use. But the forge still faces shortages, and Loch Modan has no reliable merchant route bringing coal to town.",
    "spoiler": 0,
    "title": "Keeping the Fires Burning"
   }
  ],
- "summary": "Ingredients for the Forge is a local task in Thelsamar where the dwarven craftsman Morhan Coppertongue requests bronze bars to replenish his depleted workshop supplies. Lacking the easy access to trade enjoyed by Ironforge, the rural settlement relies on travelers to keep its forge supplied with essential metals for tools and everyday wares.",
+ "summary": "In Thelsamar, Morhan Coppertongue needs bronze bars to fill his dwindling workshop stores. Far from Ironforge's steady trade, the settlement depends on travelers to bring the metals its forge needs.",
  "attribution": [
   "In-game quest text: Ingredients for the Forge"
- ]
+ ],
+ "style": 2
 }

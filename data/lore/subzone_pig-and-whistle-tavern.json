@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Pig and Whistle Tavern"
  },
- "summary": "In Stormwind City's Old Town, the Pig and Whistle Tavern welcomes travelers and local laborers. Veterans gather there to remember the kingdom's past conflicts.",
+ "summary": "In Stormwind City's Old Town, the Pig and Whistle Tavern draws travelers and local laborers. Veterans gather there to recall the kingdom's past conflicts.",
  "sections": [
   {
    "title": "A Refuge in Old Town",
-   "body": "In Old Town's winding alleys, the Pig and Whistle Tavern offers warmth, ale, and lodging. Common citizens, working folk, and travelers fresh from the road gather there. Merchants such as recipe vendor Kendor Kabonka share the room with grizzled veterans, who trade memories of the First and Second Wars over their tankards.",
+   "body": "In Old Town's winding alleys, the Pig and Whistle Tavern gives citizens, workers, and road-weary travelers a place to find warmth, ale, and lodging. Recipe vendor Kendor Kabonka shares the room with grizzled veterans. Over their tankards, they remember the First and Second Wars.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who is in pig and whistle",
     "pig and whistle patrons"
    ],
-   "answer": "Travelers, guards off duty, and veteran soldiers who swap stories of the First and Second Wars frequent the tavern. Merchant Kendor Kabonka, who sells cooking recipes, is there as well."
+   "answer": "Travelers, off-duty guards, and veteran soldiers frequent the tavern. The veterans trade stories of the First and Second Wars, and merchant Kendor Kabonka sells cooking recipes there."
   },
   {
    "q": "What services does the tavern provide?",
@@ -39,17 +39,17 @@
     "is pig and whistle an inn",
     "pig and whistle services"
    ],
-   "answer": "The Pig and Whistle Tavern offers weary travelers a place to rest and buy food, drink, and specialized cooking recipes."
+   "answer": "Weary travelers can rest at the Pig and Whistle Tavern and buy food, drink, and specialized cooking recipes."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Cooks come to the tavern to find Kendor Kabonka, who sells a collection of rare cooking recipes from across Azeroth."
+   "text": "Cooks can find Kendor Kabonka at the tavern. He sells rare cooking recipes from across Azeroth."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance soldiers and travelers passing through the capital, the tavern offers a welcoming hearth and company with veterans of the realm's earlier wars."
+   "text": "For Alliance soldiers and travelers passing through the capital, the tavern offers a welcoming hearth and the company of veterans from the realm's earlier wars."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Pig and Whistle Tavern"
  ],
- "style": 1
+ "style": 2
 }

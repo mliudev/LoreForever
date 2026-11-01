@@ -20,16 +20,16 @@
    "Mirror Lake (quest)"
   ]
  },
- "summary": "Novice Alliance mages in Stormwind's Mage Quarter are sent to sample Mirror Lake's waters for magical contamination. Jennea Cannon sends them southwest of the city gates to test the waterfall spray.",
+ "summary": "In Stormwind's Mage Quarter, novice Alliance mages are sent to test Mirror Lake for magical contamination. Jennea Cannon sends them southwest of the city gates to sample the waterfall spray.",
  "sections": [
   {
    "title": "Ley Lines and Shifting Currents",
-   "body": "Azeroth's arcane currents were shaken by conflicts from the opening of the Dark Portal through the Third War and the battle at Mount Hyjal. Those shocks tore ancient currents from their stable channels. In Stormwind's Wizard's Sanctum, magi like Jennea Cannon watch the changes closely. They fear that displaced arcane power could reach the wilderness and corrupt local ecosystems.",
+   "body": "Azeroth's arcane currents were shaken by conflicts that began with the opening of the Dark Portal and continued through the Third War and the battle at Mount Hyjal. Those shocks tore ancient currents from their stable channels.\n\nIn Stormwind's Wizard's Sanctum, magi like Jennea Cannon watch the changes closely. They fear displaced arcane power could reach the wilderness and corrupt local ecosystems.",
    "spoiler": 0
   },
   {
    "title": "Testing the Waters",
-   "body": "Mirror Lake lies beneath the cliffs southwest of the Stormwind gates and is a primary natural reservoir fed by mountain falls. The surrounding countryside depends on its waters. Jennea sends novice mages with a glass flask to the waterfall's base, where they collect fresh spray. The Sanctum can then use scrying and reagent tests to learn whether wild magic is seeping into the public water supply.",
+   "body": "Beneath the cliffs southwest of Stormwind's gates, Mirror Lake is a natural reservoir fed by mountain falls. The surrounding countryside depends on its waters.\n\nJennea sends novice mages with a glass flask to the waterfall's base, where they collect fresh spray. The Sanctum can then use scrying and reagent tests to learn whether wild magic is seeping into the public water supply.",
    "spoiler": 0
   }
  ],
@@ -120,5 +120,5 @@
  "attribution": [
   "Mirror Lake (quest)"
  ],
- "style": 1
+ "style": 2
 }

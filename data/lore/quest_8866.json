@@ -17,16 +17,16 @@
   "wiki": "Bronzebeard the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, travelers honor Bronzebeard the Elder in Ironforge. His greeting offers wisdom and a token of esteem. The people of Khaz Modan revere their forebears and their long-lived heritage.",
+ "summary": "During the Lunar Festival, travelers honor Bronzebeard the Elder beneath Ironforge. His greeting offers wisdom and a token of esteem. Across Khaz Modan, people revere their forebears and their long-lived heritage.",
  "sections": [
   {
    "title": "Homage to the Mountain Clan",
-   "body": "During the Lunar Festival, spirits and venerable elders appear across Azeroth to share wisdom with travelers who honor the past. In Ironforge, Elder Bronzebeard embodies the Bronzebeard clan’s stalwart resilience. When travelers come to pay their respects, he is quietly pleased that the people still honor the lineage of the old races.",
+   "body": "During the Lunar Festival, spirits and venerable elders appear across Azeroth to share wisdom with travelers who honor the past. In Ironforge, Elder Bronzebeard carries the Bronzebeard clan’s stalwart resilience. He is quietly pleased when travelers come to pay their respects and the people honor the lineage of the old races.",
    "spoiler": 0
   },
   {
    "title": "Tokens of Ancestral Esteem",
-   "body": "No great trial or perilous journey is needed. Travelers pause, acknowledge Elder Bronzebeard, and offer a greeting. He returns their good wishes and gives them a Coin of Ancestry, a festival token that recalls the living bond between the present and the generations who forged Khaz Modan from stone and fire.",
+   "body": "No great trial or perilous journey is needed. Travelers pause to greet Elder Bronzebeard and offer their good wishes. He returns the greeting with a Coin of Ancestry, a festival token recalling the living bond between the present and the generations who forged Khaz Modan from stone and fire.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the elder",
     "ironforge elder"
    ],
-   "answer": "Elder Bronzebeard is an ancestral dwarf honored during the Lunar Festival. He rests in Ironforge’s subterranean stronghold, where he greets visitors and celebrates their heritage."
+   "answer": "Elder Bronzebeard is an ancestral dwarf honored during the Lunar Festival. In Ironforge’s subterranean stronghold, he greets visitors and celebrates their heritage."
   },
   {
    "q": "What does honoring Elder Bronzebeard signify?",
@@ -46,7 +46,7 @@
     "why honor bronzebeard",
     "bronzebeard elder purpose"
    ],
-   "answer": "Greeting Elder Bronzebeard honors the ancestors during the Lunar Festival. He commends travelers for remembering the roots and ancient sacrifices of Azeroth’s early races."
+   "answer": "Greeting Elder Bronzebeard honors the ancestors during the Lunar Festival. He commends travelers who remember the roots and ancient sacrifices of Azeroth’s early races."
   },
   {
    "q": "Where in Ironforge is Elder Bronzebeard found?",
@@ -55,7 +55,7 @@
     "where is bronzebeard the elder",
     "ironforge elder spot"
    ],
-   "answer": "Elder Bronzebeard stands within Ironforge’s subterranean stronghold, accessible to adventurers exploring the mountain city."
+   "answer": "Elder Bronzebeard is found within Ironforge’s subterranean stronghold. Adventurers exploring the mountain city can reach him there."
   },
   {
    "q": "Can Horde players speak with Elder Bronzebeard?",
@@ -71,7 +71,7 @@
     "elder bronzebeard reward",
     "what token does he give"
    ],
-   "answer": "Elder Bronzebeard offers an ancestral blessing and a festival coin as tokens of goodwill and respect for the ancient generations."
+   "answer": "Elder Bronzebeard offers an ancestral blessing and a festival coin. Both are tokens of goodwill and respect for the ancient generations."
   },
   {
    "q": "Does this quest involve any combat?",
@@ -89,11 +89,11 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Elder Bronzebeard resides peacefully in Ironforge, welcoming Alliance members who come to honor ancient traditions beneath the mountain."
+   "text": "Elder Bronzebeard lives peacefully in Ironforge and welcomes Alliance members who come to honor ancient traditions beneath the mountain."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, reaching Elder Bronzebeard means entering Ironforge’s fortified core, where stealth or daring can carry you to offer a greeting."
+   "text": "As a member of the Horde, reaching Elder Bronzebeard means entering Ironforge’s fortified core. Stealth or daring can carry you there to offer a greeting."
   }
  ],
  "keywords": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Bronzebeard the Elder"
  ],
- "style": 1
+ "style": 2
 }

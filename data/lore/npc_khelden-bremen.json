@@ -8,11 +8,11 @@
   "wiki": "Khelden Bremen",
   "refs": 1
  },
- "summary": "On the upper floor of Northshire Abbey, Khelden Bremen teaches human mages their first spells. He prepares novices to serve Stormwind through the arcane arts.",
+ "summary": "On Northshire Abbey's upper floor, Khelden Bremen teaches human mages their first spells. He prepares novices to serve Stormwind through the arcane arts.",
  "sections": [
   {
    "title": "Tutor of the Arcane",
-   "body": "Khelden Bremen teaches new human mages in a study on the upper floor of Northshire Abbey. While clergy and defenders pursue their work below, he shows novices how to focus and shape magical energy safely. His lessons prepare them for the road through Elwynn Forest and for further study in Stormwind's Mage Quarter.",
+   "body": "In his study, Khelden Bremen teaches novices the discipline and focus to shape raw magical energy safely. Below, clergy and defenders carry on their work. His pupils prepare to travel through Elwynn Forest and continue their studies in Stormwind's Mage Quarter.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a human mage, Khelden Bremen offers your first formal arcane instruction before you continue your studies in the towers of Stormwind City."
+   "text": "As a human mage, you receive your first formal arcane instruction from Khelden Bremen before continuing your studies in the towers of Stormwind City."
   }
  ],
  "keywords": [
@@ -67,5 +67,5 @@
  "attribution": [
   "Khelden Bremen"
  ],
- "style": 1
+ "style": 2
 }

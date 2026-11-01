@@ -10,16 +10,16 @@
    "quest:2930"
   ]
  },
- "summary": "In Gnomeregan, the Prismatic Punch Card carries the highest security clearance. Gnome refugees in Ironforge seek the records it unlocks.",
+ "summary": "In Gnomeregan, the Prismatic Punch Card bears the highest security clearance. Gnome refugees in Ironforge seek the records it unlocks.",
  "sections": [
   {
    "title": "A Matter of Security",
-   "body": "When the gnomes fled Gnomeregan, troggs and toxic irradiation drove them from their city. Vast stores of research and civic records remained in its depths. The gnomes guarded high-level systems with rising levels of clearance. To reach the Matrix Punchograph 3005-D in the lower Engineering Labs, a card must pass through a series of terminals. It starts white, then advances through yellow, blue, and red before the final terminal stamps it Prismatic. The card's encoded clearance is listed as awaiting the invention of an entirely new number.",
+   "body": "When the gnomes fled Gnomeregan, troggs and toxic irradiation drove them from the city. Vast stores of research and civic records remained in its depths. The gnomes guarded high-level systems behind tiers of clearance. To reach the Matrix Punchograph 3005-D in the lower Engineering Labs, a card must pass through a series of terminals.\n\nThe card begins white, then advances through yellow, blue, and red. At the final terminal, it is stamped Prismatic. Its encoded clearance is listed as awaiting the invention of an entirely new number.",
    "spoiler": 0
   },
   {
    "title": "The Vital Transmission",
-   "body": "Master Mechanic Castpipe sends adventurers from Ironforge's refugee enclaves into Gnomeregan's contaminated halls to recover data he calls vital and impossible to live without. The binary message on the Prismatic Punch Card reveals what the transmission says: Castpipe is being notified that his laundry is ready for pickup.",
+   "body": "Master Mechanic Castpipe sends adventurers from Ironforge's refugee enclaves into Gnomeregan's contaminated halls to recover data he calls vital and impossible to live without. The binary message on the Prismatic Punch Card reveals the transmission's contents: Castpipe is being told his laundry is ready for pickup.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "castpipe quest",
     "who needs the card"
    ],
-   "answer": "Master Mechanic Castpipe, an exiled gnome engineer in Ironforge, requests the card during Data Rescue. He says its contents are urgent, invaluable information left behind when the gnomes evacuated Gnomeregan."
+   "answer": "Master Mechanic Castpipe, an exiled gnome engineer in Ironforge, requests the card during Data Rescue. He says it holds urgent, invaluable information left behind when the gnomes evacuated Gnomeregan."
   },
   {
    "q": "Where are the Matrix Punchograph terminals located?",
@@ -58,7 +58,7 @@
     "where are the punchographs",
     "where to punch cards"
    ],
-   "answer": "The terminals are spread across Gnomeregan by clearance tier. Punchograph 3005-A is near the surface Train Depot and Workshop entrance, model B is in the Dormitory beyond the Clean Zone, model C lies deeper in the complex, and model D is in the lower Engineering Labs."
+   "answer": "The terminals are spread across Gnomeregan by clearance tier. Punchograph 3005-A is near the surface Train Depot and Workshop entrance. Model B is in the Dormitory beyond the Clean Zone, model C lies deeper in the complex, and model D is in the lower Engineering Labs."
   }
  ],
  "angles": [
@@ -68,7 +68,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see the sequential punch-card programming and automated terminal network as examples of the high standard of computing machinery built by Gnomeregan's tinkerers."
+   "text": "As an engineer, you can see sequential punch-card programming and an automated terminal network as examples of the high standard of computing machinery built by Gnomeregan's tinkerers."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Prismatic Punch Card",
   "Data Rescue"
  ],
- "style": 1
+ "style": 2
 }

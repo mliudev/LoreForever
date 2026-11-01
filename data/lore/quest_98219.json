@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "A Check-In",
-   "body": "You've safely delivered the statuette. Now your contact asks you to speak with Lieutenant Farren Orinelle, a city guard reassigned to Southshore in Hillsbrad Foothills. The lieutenant's father was a friend of the guard, who believes he could benefit from help. Menethil Harbor has a boat bound that way if you are passing through.",
+   "body": "You've safely delivered the statuette. Now your contact asks you to speak with Lieutenant Farren Orinelle, a city guard sent to Southshore in Hillsbrad Foothills. Farren's father was a friend of the guard, who believes he could benefit from help. If you are passing through, a boat bound for Southshore leaves from Menethil Harbor.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "lieutenant farren",
     "farren orinelle"
    ],
-   "answer": "You are being asked to speak with Lieutenant Farren Orinelle, a city guard reassigned to Southshore."
+   "answer": "You are being asked to speak with Lieutenant Farren Orinelle, a city guard sent to Southshore."
   },
   {
    "q": "Where is Lieutenant Farren?",
@@ -63,7 +63,7 @@
     "menethil route",
     "how get there"
    ],
-   "answer": "A boat from Menethil Harbor can take you that way."
+   "answer": "A boat from Menethil Harbor can take you to Southshore."
   },
   {
    "q": "Has anyone checked on Farren before?",
@@ -97,7 +97,7 @@
   "subzone:menethil-harbor",
   "topic:stormwind-kingdom"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Shamed Lieutenant"
  ]

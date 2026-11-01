@@ -10,11 +10,11 @@
    "quest:2160"
   ]
  },
- "summary": "In Coldridge Valley, the Crate of Inn Supplies waits for a journey to Kharanos. Troggs have cut off the mountain pass, so the Thunderbrew Distillery depends on travelers to carry its goods.",
+ "summary": "In Coldridge Valley, travelers are needed to carry the Crate of Inn Supplies to Kharanos. Troggs have closed the mountain pass, leaving the Thunderbrew Distillery dependent on their help.",
  "sections": [
   {
    "title": "Through the Trogg Pass",
-   "body": "The Crate of Inn Supplies is waiting near Anvilmar for a safe way through Coldridge Pass. Troggs have cut off the route, stopping civilian couriers until Mountaineers can clear the road. Hands Springsprocket packed the crate with tavern provisions for Tannok Frosthammer in Kharanos, where the supplies are needed.",
+   "body": "Near Anvilmar, the Crate of Inn Supplies waits for a safe passage through Coldridge Pass. Troggs have cut off the route, keeping civilian couriers from carrying goods until the Mountaineers clear the road. Hands Springsprocket packed tavern provisions for Tannok Frosthammer in Kharanos, where the supplies are needed.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "inn supplies contents",
     "what is in the box"
    ],
-   "answer": "The crate holds general tavern supplies sent from Coldridge Valley to keep the inn in Kharanos stocked for travelers and locals seeking warmth."
+   "answer": "The crate holds general tavern supplies for the inn in Kharanos, where travelers and locals seek warmth."
   },
   {
    "q": "Who sends the crate to Kharanos?",
@@ -35,7 +35,7 @@
     "hands springsprocket",
     "sender"
    ],
-   "answer": "Hands Springsprocket packages the crate near Anvilmar and asks travelers leaving Coldridge Valley to carry it through the mountain pass."
+   "answer": "Hands Springsprocket packs the crate near Anvilmar and asks travelers leaving Coldridge Valley to carry it through the mountain pass."
   },
   {
    "q": "Why couldn't the normal courier deliver it?",
@@ -44,7 +44,7 @@
     "pass blocked",
     "why use an adventurer"
    ],
-   "answer": "Troggs have overrun Coldridge Pass, making it too dangerous for ordinary couriers without Mountaineer escorts. Travelers able to fight through are the inn's immediate hope of receiving the supplies."
+   "answer": "Troggs have overrun Coldridge Pass, making it too dangerous for ordinary couriers without Mountaineer escorts. Travelers who can fight through are the inn's immediate hope of receiving the supplies."
   },
   {
    "q": "Who receives the supplies?",
@@ -90,5 +90,5 @@
   "Crate of Inn Supplies",
   "Supplies to Tannok"
  ],
- "style": 1
+ "style": 2
 }

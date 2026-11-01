@@ -8,16 +8,16 @@
   "wiki": "Verna Furlbrow",
   "refs": 2
  },
- "summary": "Verna Furlbrow waits beside her broken wagon near Westfall’s northern border. Bandits drove her from her family’s pumpkin patch, and the road to Elwynn Forest has left her stranded.",
+ "summary": "Near Westfall’s northern border, Verna Furlbrow waits beside her broken wagon. Outlaws drove her from the family pumpkin patch, and the road toward Elwynn Forest left her stranded.",
  "sections": [
   {
    "title": "A String of Misfortunes",
-   "body": "Verna and her husband farmed pumpkins in northern Westfall until lawlessness drove them from their land. After outlaws took the farm, they loaded what they could onto their cart and set out for Elwynn Forest with their horse, Old Blanchy. Their wagon broke down just down the road from the abandoned Jansen Stead. Unable to repair the axle or continue, Verna now faces the elements, bandit raids, and scavengers. She depends on travelers to keep her household fed and guarded.",
+   "body": "Verna and her husband farmed pumpkins in northern Westfall until lawlessness drove them away. Outlaws took the farm, so they loaded what they could onto their cart and set out for Elwynn Forest with their horse, Old Blanchy. Their wagon broke down just down the road from the abandoned Jansen Stead.\n\nThe broken axle keeps them from going on. Verna faces the elements, bandit raids, and scavengers, and depends on travelers to keep her household fed and guarded.",
    "spoiler": 0
   },
   {
    "title": "Heart of the Hearth",
-   "body": "Verna still welcomes those who have been driven to the roadside. Known for creating Westfall Stew, she shares meals and warm fires with wandering transients and refugees who have suffered similar fates. To fill her cooking pot, she needs ingredients gathered from the fields, including boar snouts, murloc eyes, okra, and stringy vulture meat. She makes hearty meals for the destitute from what the harsh frontier provides.",
+   "body": "Verna still welcomes those forced to the roadside. Known across the region for creating Westfall Stew, she shares meals and warm fires with wandering transients and refugees who have suffered similar fates.\n\nHer cooking pot needs ingredients from the fields: boar snouts, murloc eyes, okra, and stringy vulture meat. From what the harsh frontier provides, Verna makes hearty meals for the destitute.",
    "spoiler": 0
   }
  ],
@@ -54,17 +54,17 @@
     "furlbrow pumpkin farm",
     "furlbrows farm what happened"
    ],
-   "answer": "The Furlbrows' pumpkin farm in northern Westfall was taken by organized bandits during the kingdom's recent security breakdown. They had to leave their home and fields."
+   "answer": "Organized bandits took the Furlbrows' pumpkin farm in northern Westfall during the kingdom's recent breakdown in security. The Furlbrows had to leave their home and fields."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Verna created Westfall Stew and teaches frontier cooks to turn scavenged meats and wild crops into a hearty meal."
+   "text": "Verna created Westfall Stew and teaches frontier cooks to make a hearty meal from scavenged meats and wild crops."
   },
   {
    "target": "faction:Alliance",
-   "text": "The stranded Furlbrows show the human cost of Stormwind's neglected borders, where ordinary people are driven from their homes without royal soldiers sent to defend them."
+   "text": "The stranded Furlbrows show the human cost of Stormwind's neglected borders. Ordinary people are driven from their homes without royal soldiers sent to defend them."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Verna Furlbrow"
  ],
- "style": 1
+ "style": 2
 }

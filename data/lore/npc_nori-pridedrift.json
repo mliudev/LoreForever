@@ -8,11 +8,11 @@
   "wiki": "Nori Pridedrift",
   "refs": 2
  },
- "summary": "In Coldridge Valley, Nori Pridedrift carries steaming Mornbrew to those facing the cold. He makes his living brewing and selling the hot drink, and hires swift couriers to deliver it while it is still warm.",
+ "summary": "In Coldridge Valley, Nori Pridedrift sends warm Mornbrew out to those who face the cold. He brews and sells the drink, hiring swift couriers to carry it while it is still hot.",
  "sections": [
   {
    "title": "A Steaming Cup in the Snow",
-   "body": "Nori Pridedrift sends hot Mornbrew across the frozen reaches of Coldridge Valley. The valley's cold bites hard, and a draught of Scalding Mornbrew offers welcome warmth. Nori brews the coffee-like drink and sends it to mountaineers and freezing sentries. It must reach them while still scalding, so his couriers race against the mountain air. Nori also has only a limited supply of sturdy mugs, and expects runners to bring them back promptly.",
+   "body": "Nori Pridedrift sends Scalding Mornbrew across the frozen reaches of Coldridge Valley. The cold bites hard, and a cup brings welcome warmth to mountaineers and freezing sentries. Nori brews the coffee-like drink, then sends it out with couriers who must race the mountain air to keep it scalding. His supply of sturdy mugs is limited, so he expects runners to bring them back promptly.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what drink does nori sell",
     "mornbrew"
    ],
-   "answer": "Scalding Mornbrew is a hot drink brewed by Nori Pridedrift. Valley folk favor it for warming them against the bitter cold of Dun Morogh."
+   "answer": "Scalding Mornbrew is a hot drink brewed by Nori Pridedrift. Valley folk favor it for warmth against the bitter cold of Dun Morogh."
   },
   {
    "q": "Why are deliveries so urgent?",
@@ -42,7 +42,7 @@
     "mornbrew delivery rush",
     "why does the drink go cold"
    ],
-   "answer": "Deliveries are urgent because Scalding Mornbrew is prized while piping hot. Coldridge Valley's mountain winds cool each cup quickly, so Nori's couriers must hurry to their customers."
+   "answer": "Scalding Mornbrew is prized while piping hot. The mountain winds in Coldridge Valley cool each cup quickly, so Nori's couriers must hurry to their customers."
   },
   {
    "q": "Why does Nori care so much about returning mugs?",
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know the comfort of a strong drink in freezing weather. Nori's hot Mornbrew is welcome on mountain watch posts."
+   "text": "As a dwarf, you know the comfort of a strong drink in freezing weather. Nori's hot Mornbrew is welcome at mountain watch posts."
   },
   {
    "target": "profession:Cooking",
@@ -83,5 +83,5 @@
  "attribution": [
   "Nori Pridedrift"
  ],
- "style": 1
+ "style": 2
 }

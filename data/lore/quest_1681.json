@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "11"
  },
- "summary": "At Ironband's Compound, Tormus Deepforge seeks vengeance for his slain mentor. Sturgy Ironband's teaching outpost in eastern Dun Morogh fell after a shipment of rare umbral ore drew the Dark Iron dwarves.",
+ "summary": "At Ironband's Compound, Tormus Deepforge seeks vengeance for his slain mentor, Sturgy Ironband. Rare umbral ore drew the Dark Iron dwarves to the outpost and brought it down.",
  "sections": [
   {
    "title": "A Master's Fall",
-   "body": "Sturgy Ironband taught smithing at a secluded compound south of Helm's Bed Lake. Across Ironforge, he was revered as an unmatched instructor. He trained promising pupils far from the crowded anvils of the Great Forge. That peaceful work ended when one student acquired an unfamiliar mineral called umbral ore. Intrigued by its properties, Ironband chose to experiment with the sample. He did not know that possessing the ore had marked his school for ruin.",
+   "body": "South of Helm's Bed Lake, Sturgy Ironband taught smithing at a compound away from the Great Forge's crowded anvils. Promising pupils came there to train under a master revered across Ironforge as an unmatched instructor. Then one student acquired an unfamiliar mineral called umbral ore, and Sturgy chose to experiment with it. He did not know that its presence had marked his school for ruin.",
    "spoiler": 0
   },
   {
    "title": "The Dark Iron Raid",
-   "body": "Dark Iron dwarves attacked the compound soon after the umbral ore arrived. The assault was sudden and ruthless. They killed Sturgy Ironband and every apprentice in his care, then took over the grounds. Tormus Deepforge, one of Ironband's surviving protégés in the capital, refuses to let the massacre go unanswered. He sends Alliance travelers to avenge his teacher and recover the ore that brought destruction to the outpost.",
+   "body": "Soon after the umbral ore arrived, Dark Iron dwarves attacked the compound. They killed Sturgy Ironband and every apprentice in his care, then took over the grounds. Tormus Deepforge, one of Ironband's surviving protégés in the capital, refuses to let the massacre go unanswered. He sends Alliance travelers to avenge his teacher and recover the ore that brought destruction to the outpost.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "sturgy ironband lore",
     "who was sturgy"
    ],
-   "answer": "Sturgy Ironband was a renowned dwarven master blacksmith who trained students in advanced metalworking at a compound outside Ironforge. Dark Iron dwarves killed him in a raid."
+   "answer": "Sturgy Ironband was a renowned dwarven master blacksmith who taught advanced metalworking at a compound outside Ironforge. Dark Iron dwarves killed him in a raid."
   },
   {
    "q": "Why did the Dark Iron dwarves attack the compound?",
@@ -51,7 +51,7 @@
     "why dark iron raid",
     "dark iron motive"
    ],
-   "answer": "A shipment of umbral ore brought by one of Ironband's students drew the Dark Iron dwarves to the compound. They attacked soon after it arrived, killed everyone present, and took control of the site."
+   "answer": "One of Ironband's students brought umbral ore to the compound, drawing the Dark Iron dwarves there. They attacked soon after it arrived, killed everyone present, and took control of the site."
   },
   {
    "q": "What is umbral ore?",
@@ -78,13 +78,13 @@
     "compound objective",
     "quest turn in"
    ],
-   "answer": "Tormus wants travelers to avenge Ironband by driving out the Dark Iron raiders and recover the shipment of umbral ore that brought the disaster."
+   "answer": "Tormus wants travelers to avenge Ironband by driving out the Dark Iron raiders and recovering the shipment of umbral ore that brought the disaster."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "Sturgy Ironband's fate shows the danger that untested ores can bring to a forge."
+   "text": "Sturgy Ironband's fate shows the danger untested ores can bring to a forge."
   },
   {
    "target": "race:Dwarf",
@@ -111,5 +111,5 @@
  "attribution": [
   "In-game quest text: Ironband's Compound"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The harpies of Screeching Canyon have ambushed supply caravans bound for Freewind Post. Their attacks threaten to end those journeys.",
+ "summary": "In Screeching Canyon, harpies ambush supply caravans bound for Freewind Post. Their attacks may keep those caravans from traveling there.",
  "sections": [
   {
    "title": "Caravans at Risk",
-   "body": "A supplier fears that caravans will stop traveling to Freewind Post if the harpy attacks continue. You are asked to slay Screeching Harpies, Screeching Roguefeather Harpies, and Screeching Windcallers. The caravans that brave the canyon remain at risk.",
+   "body": "A supplier fears the harpy attacks will stop caravans from traveling to Freewind Post. You are asked to slay Screeching Harpies, Screeching Roguefeather Harpies, and Screeching Windcallers. Until then, caravans that brave the canyon remain in danger.",
    "spoiler": 0
   },
   {
    "title": "Word to Suppliers",
-   "body": "After the harpies are dealt with, the supplier will notify those who provide goods to Freewind Post. The caravans will have one less threat to face on their journeys.",
+   "body": "After the harpies are dealt with, the supplier will notify those who provide goods to Freewind Post. Then the caravans will face one less threat on their journeys.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "why harpies attack",
     "caravan trouble"
    ],
-   "answer": "Harpies in Screeching Canyon have ambushed the last few supply caravans that traveled through."
+   "answer": "Harpies in Screeching Canyon ambushed the last few supply caravans that traveled through."
   },
   {
    "q": "What is at risk if the attacks continue?",
@@ -41,7 +41,7 @@
     "freewind post supplies",
     "caravans stop"
    ],
-   "answer": "The supplier fears that no caravans will dare travel to Freewind Post if the attacks continue."
+   "answer": "The supplier fears no caravans will dare travel to Freewind Post if the attacks continue."
   },
   {
    "q": "Which harpies are involved?",
@@ -50,7 +50,7 @@
     "screeching harpies",
     "roguefeather windcaller"
    ],
-   "answer": "The harpies named are Screeching Harpies, Screeching Roguefeather Harpies, and Screeching Windcallers."
+   "answer": "The harpies are Screeching Harpies, Screeching Roguefeather Harpies, and Screeching Windcallers."
   },
   {
    "q": "Where are the harpies?",
@@ -78,7 +78,7 @@
   "subzone:freewind-post",
   "topic:harpy"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Stop the Screeching"
  ]

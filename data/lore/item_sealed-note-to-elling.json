@@ -10,11 +10,11 @@
    "quest:1242"
   ]
  },
- "summary": "Jorgen sends a sealed dispatch through Stormwind to Elling Trias, the proprietor of Trias' Cheese. The fisherman’s message draws Trias into a quiet inquiry about a vanished diplomat.",
+ "summary": "In Stormwind, Jorgen sends a sealed dispatch to Elling Trias, proprietor of Trias' Cheese. The fisherman’s message draws Trias into a quiet inquiry about a vanished diplomat.",
  "sections": [
   {
    "title": "A Quiet Hand-Off",
-   "body": "Jorgen gives a strict charge for the sealed note in Stormwind: place it in Elling Trias's hands and keep silent. The stakes leave no room for careless talk. Trias runs a cheese shop in the Trade District, where Jorgen's message brings the inquiry into the diplomat's disappearance to his counter.",
+   "body": "Jorgen gives a strict charge for the sealed note in Stormwind: place it in Elling Trias's hands and keep silent. The stakes leave no room for careless talk. Trias runs a cheese shop in the Trade District. There, Jorgen's message brings the inquiry into the diplomat's disappearance to his counter.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "why cheese shop",
     "is trias a spy"
    ],
-   "answer": "Elling Trias runs an unassuming cheese shop in the Trade District as a public front. Beneath that appearance, he has an extensive underground network of ears and eyes across the city, making him valuable in delicate investigations."
+   "answer": "Elling Trias runs an unassuming cheese shop in the Trade District as a public front. Beneath that appearance, he has an extensive underground network of ears and eyes across the city. That makes him valuable in delicate investigations."
   },
   {
    "q": "Who is Jorgen?",
@@ -63,7 +63,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you carry Jorgen's message in service to the Crown, helping advance an investigation vital to Stormwind's political stability."
+   "text": "As an Alliance member, you carry Jorgen's message in service to the Crown. In this way, you help advance an investigation vital to Stormwind's political stability."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Sealed Note to Elling",
   "The Missing Diplomat (3)"
  ],
- "style": 1
+ "style": 2
 }

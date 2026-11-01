@@ -17,16 +17,16 @@
   "wiki": "Tome of Divinity (Brother Wilhelm)",
   "chain": []
  },
- "summary": "A summons bearing the Tome of Divinity calls promising paladins from Elwynn to Stormwind. Answering Brother Wilhelm's call begins the sacred trials needed to master resurrection through the Holy Light.",
+ "summary": "A summons now calls promising paladins from Elwynn to Stormwind. Brother Wilhelm sends for them, and the Tome of Divinity begins the sacred trials that teach mastery of resurrection through the Holy Light.",
  "sections": [
   {
    "title": "A Summons to the Capital",
-   "body": "Novice paladins in Elwynn Forest spend their early days helping locals and testing their strength against wolves, Defias bandits, and kobolds. When an initiate shows martial discipline and devotion to the Holy Light, mentors such as Brother Wilhelm send a personal summons. Leaders of the paladins take note of promising students and direct them to leave the local chapels behind and report straight to the kingdom's spiritual heart.",
+   "body": "In Elwynn Forest, novice paladins spend their early days helping locals and testing their strength against wolves, Defias bandits, and kobolds. When an initiate shows discipline in battle and devotion to the Holy Light, mentors such as Brother Wilhelm send a personal summons. The paladin leaders mark promising students and direct them to leave the local chapels behind. Their report is due at the kingdom's spiritual heart.",
    "spoiler": 0
   },
   {
    "title": "The Cathedral of Light",
-   "body": "In Cathedral Square, Stormwind's Cathedral of Light is the supreme sanctuary of the kingdom's priesthood and the Knights of the Silver Hand. Duthorian Rall resides there and oversees those sworn to the Order. Beneath its soaring vaulted ceilings, high-ranking paladins set formal trials from the Tome of Divinity before each initiate. The challenges test compassion, fortitude, and a willingness to sacrifice.",
+   "body": "In Cathedral Square, Stormwind's Cathedral of Light is the kingdom's foremost sanctuary for its priesthood and the Knights of the Silver Hand. Duthorian Rall lives there and oversees those sworn to the Order. Beneath its vaulted ceilings, high-ranking paladins set the formal trials of the Tome of Divinity before each initiate. The trials test compassion, fortitude, and willingness to sacrifice.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives quest",
     "brother wilhelm"
    ],
-   "answer": "Brother Wilhelm, the paladin trainer near the Lion's Pride Inn in Goldshire, sends you to Stormwind when you have shown promise and strength in the field."
+   "answer": "Brother Wilhelm, the paladin trainer near the Lion's Pride Inn in Goldshire, sends you to Stormwind after you have shown promise and strength in the field."
   },
   {
    "q": "Where can I find Duthorian Rall?",
@@ -47,7 +47,7 @@
     "where is duthorian rall",
     "paladin master location"
    ],
-   "answer": "Duthorian Rall resides inside the Cathedral of Light in Cathedral Square, in northwestern Stormwind City. He spends most of his days training paladins beneath its grand halls."
+   "answer": "Duthorian Rall resides inside the Cathedral of Light in Cathedral Square, in northwestern Stormwind City. He spends most days training paladins beneath its grand halls."
   },
   {
    "q": "Why is this summons so important for paladins?",
@@ -56,7 +56,7 @@
     "quest importance",
     "paladin trial"
    ],
-   "answer": "Reporting to Duthorian Rall marks a passage from basic martial training into deep holy communion. The Tome of Divinity's trials begin there and ultimately grant the sacred power to call fallen allies back from death through the Light."
+   "answer": "Reporting to Duthorian Rall marks the passage from basic martial training into deep communion with the Holy Light. The Tome of Divinity's trials begin there and ultimately grant the sacred power to call fallen allies back from death through the Light."
   },
   {
    "q": "Do non-human paladins receive this exact quest?",
@@ -65,7 +65,7 @@
     "can dwarves do this",
     "is this quest human only"
    ],
-   "answer": "Brother Wilhelm's summons from Elwynn Forest is meant for human paladins. Dwarven paladins receive a parallel calling from their own trainers in Dun Morogh to visit Ironforge."
+   "answer": "Brother Wilhelm's summons from Elwynn Forest is meant for human paladins. Dwarven paladins receive a parallel calling from their trainers in Dun Morogh to visit Ironforge."
   },
   {
    "q": "What happens after reporting to Duthorian Rall?",
@@ -74,7 +74,7 @@
     "what happens next",
     "tome of divinity next step"
    ],
-   "answer": "When you greet Duthorian Rall, he welcomes you to Stormwind and immediately presents the Tome of Divinity's trials, which challenge your compassion and dedication to defending the weak."
+   "answer": "When you greet Duthorian Rall, he welcomes you to Stormwind and presents the Tome of Divinity's trials. They challenge your compassion and your dedication to defending the weak."
   },
   {
    "q": "Who is Duthorian Rall?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Your mentors formally recognize your deeds and send you before the high commanders of the Silver Hand, marking a rite of passage for paladins."
+   "text": "As a paladin, your mentors recognize your deeds and send you before the Silver Hand's high commanders. This marks a rite of passage for paladins."
   },
   {
    "target": "race:Human",
-   "text": "Your journey from rural Elwynn Forest to the grand Cathedral of Light anchors you to the kingdom's deepest spiritual and martial institutions."
+   "text": "As a human, your journey from rural Elwynn Forest to the grand Cathedral of Light binds you to the kingdom's deepest spiritual and martial institutions."
   },
   {
    "target": "faction:Alliance",
@@ -119,5 +119,5 @@
  "attribution": [
   "Tome of Divinity (Brother Wilhelm)"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "The Binding (Voidwalker, Orgrimmar)"
   ]
  },
- "summary": "The Binding is the final initiation ritual in Orgrimmar for young Horde warlocks seeking command over a voidwalker. Under the direction of Gan'rul Bloodeye, the petitioner inscribes glyphs from the Tablet of Verga within Neeru Fireblade's summoning circle to call forth, subdue, and perpetually enslave a creature of the Void.",
+ "summary": "In Orgrimmar, The Binding marks young Horde warlocks' final initiation ritual. Gan'rul Bloodeye directs each petitioner to use glyphs from the Tablet of Verga in Neeru Fireblade's summoning circle.",
  "sections": [
   {
    "title": "Subjugation of the Void",
-   "body": "For an initiate warlock lurking in the dark tunnels of the Cleft of Shadow, summoning an imp is merely child's play. Subduing a voidwalker is the first true test of willpower and arcane dominance. Warlocks do not form polite pacts or commune with these otherworldly horrors; they wrest them across dimensions through raw force and bind them in eternal servitude. Gan'rul Bloodeye demands that the initiate draw upon the glyphs transcribed from the Tablet of Verga, calling the monstrosity directly into Neeru Fireblade's ritual circle to break it in single combat.",
+   "body": "You face your first true test of will when you summon a voidwalker. An imp is child's play by comparison. Warlocks do not make pacts with these creatures or commune with them. You pull them across dimensions by force and bind them to serve. Gan'rul Bloodeye directs you to use glyphs from the Tablet of Verga and call the voidwalker into Neeru Fireblade's ritual circle, to break it there in single combat.",
    "spoiler": 0
   },
   {
    "title": "An Unending Vigil",
-   "body": "Overcoming the entity in physical and magical combat is only half the battle. As Gan'rul Bloodeye warns, a bound voidwalker never truly accepts its enslavement. Though it serves its master as a durable, shadowy bulwark in battle, it perpetually searches for lapses in concentration. A warlock must maintain an unwavering mental grip over their servant, for the moment discipline falters, the voidwalker will happily consume the soul of the one who bound it.",
+   "body": "Defeating the voidwalker in physical and magical combat is only half the struggle. Gan'rul Bloodeye warns that a bound voidwalker never truly accepts its enslavement. Even while it guards its master in battle as a durable, shadowy bulwark, it waits for a lapse in your concentration. If your hold over your servant ever falters, it will consume the soul of the one who bound it.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what demon",
     "voidwalker lore"
    ],
-   "answer": "The initiate summons a voidwalker, a towering being forged of pure cosmic shadow and void energies. Unlike imps, which are mischievous demons, voidwalkers are brutish entities ripped from the Twisting Nether and the Void, utilized by warlocks primarily to absorb devastating physical blows."
+   "answer": "You summon a voidwalker, a towering being forged of cosmic shadow and void energies. Unlike mischievous imps, voidwalkers are brutish entities ripped from the Twisting Nether and the Void. Warlocks use them chiefly to absorb devastating physical blows."
   },
   {
    "q": "Where does this summoning ritual take place?",
@@ -51,7 +51,7 @@
     "summoning circle location",
     "ritual site"
    ],
-   "answer": "The ritual is carried out inside the tent of Neeru Fireblade, located within the Cleft of Shadow beneath Orgrimmar. A designated summoning circle inscribed on the ground focuses the dimensional energies needed to tear the voidwalker from the Nether."
+   "answer": "The ritual takes place inside Neeru Fireblade's tent in the Cleft of Shadow beneath Orgrimmar. A summoning circle inscribed on the ground focuses the dimensional energies needed to tear a voidwalker from the Nether."
   },
   {
    "q": "What is the Tablet of Verga used for?",
@@ -59,7 +59,7 @@
     "tablet of verga",
     "glyphs of summoning"
    ],
-   "answer": "The Tablet of Verga holds the ancient, specialized glyphs required to manifest and tear a voidwalker through the fabric of reality. The initiate studies its inscriptions to craft the Glyphs of Summoning needed to establish the summoning circle."
+   "answer": "The Tablet of Verga holds ancient, specialized glyphs used to manifest a voidwalker and tear it through the fabric of reality. You study its inscriptions to craft the Glyphs of Summoning needed to make the summoning circle."
   },
   {
    "q": "Why must the warlock defeat the voidwalker?",
@@ -68,7 +68,7 @@
     "why fight it",
     "binding process"
    ],
-   "answer": "Warlocks control extraplanar creatures through sheer dominance. Before a voidwalker will yield its essence and obey commands, the summoner must prove their mastery by physically and magically beating the entity into submission."
+   "answer": "Warlocks control extraplanar creatures through sheer dominance. The voidwalker yields its essence and obeys commands only after you prove your mastery by defeating it in physical and magical combat."
   },
   {
    "q": "Who is Gan'rul Bloodeye?",
@@ -76,7 +76,7 @@
     "who is ganrul",
     "gan'rul bloodeye"
    ],
-   "answer": "Gan'rul Bloodeye is a senior warlock trainer of the Horde stationed in the shadowy caverns of Orgrimmar's Cleft of Shadow. He oversees the dark education of young Horde practitioners, teaching them how to enslave more potent demonic entities."
+   "answer": "Gan'rul Bloodeye is a senior Horde warlock trainer in Orgrimmar's Cleft of Shadow. He oversees the dark education of young Horde practitioners and teaches them to enslave more potent demonic entities."
   },
   {
    "q": "Can a bound voidwalker ever be fully trusted?",
@@ -85,21 +85,21 @@
     "is voidwalker loyal",
     "can demons rebel"
    ],
-   "answer": "Never. As Gan'rul notes, even a voidwalker that has served for years without resistance is merely waiting for its master to let their guard down. The bond demands constant vigilance, as the creature harbors eternal resentment toward its captor."
+   "answer": "Never. A voidwalker may serve for years without resistance while waiting for its master to let their guard down. The bond demands constant vigilance, for the creature harbors eternal resentment toward its captor."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This rite marks a warlock's ascension from dabbling with petty imps to commanding frontline terrors of shadow, cementing the ruthless philosophy that power must be conquered and enslaved."
+   "text": "As a warlock, you move from dabbling with imps to commanding frontline terrors of shadow. The rite teaches that power must be conquered and enslaved."
   },
   {
    "target": "race:Orc",
-   "text": "Orcish warlocks operate in hidden corners like the Cleft of Shadow, practicing their dark arts far from the disapproving gaze of Warchief Thrall and the shamanic revival."
+   "text": "As an orc, you practice the dark arts in hidden corners like the Cleft of Shadow, far from Warchief Thrall's disapproving gaze and the shamanic revival."
   },
   {
    "target": "faction:Horde",
-   "text": "While Thrall's Horde officially turns away from the demonic corruption of the past, the pragmatic necessity of warlock magic is tolerated beneath Orgrimmar under watchful eyes."
+   "text": "The Horde officially turns away from the demonic corruption of the past, yet tolerates warlock magic beneath Orgrimmar as a pragmatic necessity, under watchful eyes."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "The Binding (Voidwalker, Orgrimmar)"
- ]
+ ],
+ "style": 2
 }

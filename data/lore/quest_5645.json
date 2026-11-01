@@ -18,16 +18,16 @@
   "wiki": "A Lack of Fear",
   "chain": []
  },
- "summary": "High Priest Rohan awaits in Ironforge to test the resilience of promising dwarven disciples. In the Mystic Ward, he offers teachings shaped for their growing strength of spirit.",
+ "summary": "In Ironforge, High Priest Rohan tests promising dwarven disciples. In the Mystic Ward, he teaches them as their strength of spirit grows.",
  "sections": [
   {
    "title": "A Summons to Ironforge",
-   "body": "Priests serving the Alliance abroad are sent by local mentors to report to senior clergy of their order. Dwarven disciples answer that summons in Ironforge's Mystic Ward, where High Priest Rohan awaits. There, basic spiritual practice gives way to deeper uses of holy magic, tested through trials.",
+   "body": "Local mentors send priests serving the Alliance abroad to senior clergy of their order. For dwarven disciples, that summons brings you to High Priest Rohan in Ironforge's Mystic Ward. There, basic spiritual practice gives way to deeper uses of holy magic, tested through trials.",
    "spoiler": 0
   },
   {
    "title": "The Trials of Fortitude",
-   "body": "Dwarven tradition teaches that the Light is both a shield and a strong defense in physical conflict. Reporting to High Priest Rohan shows that an initiate has endured the wider world's trials and has the mettle to master fear on the front lines.",
+   "body": "Dwarven tradition teaches that the Light is a shield in physical conflict. When you report to High Priest Rohan, you show that you have endured trials in the wider world. Now you must prove your mettle and master fear on the front lines.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who is rohan",
     "high priest rohan lore"
    ],
-   "answer": "High Priest Rohan leads the dwarven priesthood in Ironforge. He trains disciples in the Hall of Mysteries in the Mystic Ward, teaching steadfast devotion and martial resilience."
+   "answer": "High Priest Rohan leads the dwarven priesthood in Ironforge. In the Hall of Mysteries in the Mystic Ward, he teaches disciples steadfast devotion and martial resilience."
   },
   {
    "q": "Where can High Priest Rohan be found?",
@@ -64,7 +64,7 @@
     "meaning of lack of fear",
     "fear ward quest"
    ],
-   "answer": "The name points to Fear Ward, the Holy Light's protection against panic and supernatural terror. Every priest, of any race, learns it from a priest trainer at level twenty."
+   "answer": "The name points to Fear Ward, the Holy Light's protection against panic and supernatural terror. Every priest, of any race, learns it from a priest trainer at level 20."
   },
   {
    "q": "Who sends the priest to Ironforge?",
@@ -72,7 +72,7 @@
     "who starts a lack of fear",
     "quest givers for lack of fear"
    ],
-   "answer": "Local trainers send initiates to Ironforge. These include High Priestess Laurena in Stormwind and Priestess Alathea in Darnassus, who direct students to honor their heritage or study with Rohan."
+   "answer": "Local trainers send initiates to Ironforge. High Priestess Laurena in Stormwind and Priestess Alathea in Darnassus direct students to honor their heritage or study with Rohan."
   },
   {
    "q": "Does this quest involve combat?",
@@ -116,5 +116,5 @@
  "attribution": [
   "A Lack of Fear"
  ],
- "style": 1
+ "style": 2
 }

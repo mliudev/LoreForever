@@ -8,11 +8,11 @@
   "wiki": "Osric Strang",
   "refs": 2
  },
- "summary": "In Stormwind's Old Town, veteran armor merchant Osric Strang supplies weary travelers and Alliance defenders with sturdy gear. His shop, Limited Immunity, specializes in heavy mail and plate armor, along with shields.",
+ "summary": "In Stormwind's Old Town, veteran armor merchant Osric Strang supplies weary travelers and Alliance defenders with sturdy gear. His shop, Limited Immunity, offers heavy mail and plate armor, along with shields.",
  "sections": [
   {
    "title": "Shopkeeper of Limited Immunity",
-   "body": "Osric Strang runs Limited Immunity, where fighters find heavy armor and shields. He also helps arriving couriers who need a point of contact in the capital, including those coming from nearby settlements such as Sentinel Hill in Westfall.",
+   "body": "Osric Strang runs Limited Immunity, where fighters can find heavy armor and shields. He also helps couriers arriving from nearby settlements, including Sentinel Hill in Westfall, by giving them a point of contact in the capital.",
    "spoiler": 0
   }
  ],
@@ -42,13 +42,13 @@
     "osric strang quest",
     "delivery to osric"
    ],
-   "answer": "Couriers carrying goods across the kingdom, including shipments arriving by gryphon master from Westfall, are directed to Osric's shop in Old Town to deliver them and receive return messages."
+   "answer": "Couriers carrying goods across the kingdom, including shipments arriving by gryphon master from Westfall, deliver them to Osric's shop in Old Town and receive return messages."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior visiting Old Town, you can find reliable chain, scale, plate, and shields from Osric, offering dependable bulk protection."
+   "text": "As a warrior visiting Old Town, you can find reliable chain, scale, plate, and shields from Osric for dependable bulk protection."
   },
   {
    "target": "faction:Alliance",
@@ -73,5 +73,5 @@
  "attribution": [
   "Osric Strang"
  ],
- "style": 1
+ "style": 2
 }

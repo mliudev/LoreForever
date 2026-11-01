@@ -8,16 +8,16 @@
   "wiki": "Guard Thomas",
   "refs": 9
  },
- "summary": "At the bridge west of Eastvale Logging Camp, Guard Thomas watches Elwynn’s eastern frontier. The Stormwind soldier guards local workers from wild predators and murlocs.",
+ "summary": "At the bridge west of Eastvale Logging Camp, Guard Thomas watches Elwynn’s eastern frontier. He guards local workers from wild predators and murlocs for the Stormwind Army.",
  "sections": [
   {
    "title": "On the Eastern Border",
-   "body": "At the stone bridge over the river toward Eastvale Logging Camp, Guard Thomas holds a quiet but exposed post. The woods around him shelter aggressive creatures, and the logging workers depend on the Stormwind guard for protection. With the army stretched thin, Thomas must rely on travelers to help keep order and carry messages to central command.",
+   "body": "Guard Thomas holds a quiet but exposed post at the stone bridge over the river toward Eastvale Logging Camp. Aggressive creatures shelter in the woods nearby, and the logging workers depend on Stormwind’s guard for protection. With the army stretched thin, Thomas relies on travelers to help keep order and carry messages to central command.",
    "spoiler": 0
   },
   {
    "title": "Frontier Troubles",
-   "body": "Aggressive bears and prowlers threaten lumberjacks and travelers along Elwynn’s eastern treeline. Murloc tribes have made camps by the waterways, and Guard Thomas tracks them and offers bounties to reduce their numbers. Patrols sent along the river sometimes vanish, leaving Thomas to work out what became of his fellow guards as troubles mount in the region.",
+   "body": "Bears and prowlers threaten lumberjacks and travelers along Elwynn’s eastern treeline. Murloc tribes have made camps by the waterways, so Guard Thomas tracks them and offers bounties to reduce their numbers. Patrols sent along the river sometimes vanish. Thomas must discover what became of his fellow guards as troubles mount in the region.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "guard thomas missing scouts",
     "what happened to the guards"
    ],
-   "answer": "Patrols sent into the river basins have failed to return. Unable to leave his post without enough guards to replace him, Thomas asks travelers to search the waterways for his missing comrades."
+   "answer": "Patrols sent into the river basins have failed to return. Thomas cannot leave his post without enough guards to replace him, so he asks travelers to search the waterways for his missing comrades."
   },
   {
    "q": "Why are murlocs a problem for Guard Thomas?",
@@ -80,7 +80,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see how thinly the Stormwind Army is stretched: Guard Thomas holds a vital frontier post with little support from the crown."
+   "text": "As an Alliance member, you see how thinly the Stormwind Army is stretched. Guard Thomas holds a vital frontier post with little support from the crown."
   },
   {
    "target": "class:Warrior",
@@ -110,5 +110,5 @@
  "attribution": [
   "Guard Thomas"
  ],
- "style": 1
+ "style": 2
 }

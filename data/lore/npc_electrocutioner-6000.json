@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Thermaplugg's Shocking Machine",
-   "body": "Mekgineer Thermaplugg and the irradiated leper gnomes who follow him took control of Gnomeregan's war machines after the city fell. Electrocutioner 6000 guards the upper platform of the Launch Bay, striking intruders with high-voltage current.",
+   "body": "After Gnomeregan fell, Mekgineer Thermaplugg and the irradiated leper gnomes who follow him took control of the city's war machines. Electrocutioner 6000 guards the Launch Bay's upper platform. It strikes intruders with high-voltage current.",
    "spoiler": 0
   },
   {
    "title": "The Workshop Key",
-   "body": "Electrocutioner 6000 guards the Workshop Key, which opens Gnomeregan's back door into its workshops. Bring down the machine, and the key offers a quicker route into the city's depths.",
+   "body": "Electrocutioner 6000 guards the Workshop Key, which opens Gnomeregan's back door into its workshops. Bring down the machine, and the key gives you a quicker route into the city's depths.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is electrocutioner",
     "find electrocutioner 6000"
    ],
-   "answer": "Electrocutioner 6000 stands on an elevated catwalk platform overlooking the Launch Bay in Gnomeregan."
+   "answer": "Electrocutioner 6000 stands on an elevated catwalk platform overlooking Gnomeregan's Launch Bay."
   },
   {
    "q": "Who pilots the Electrocutioner 6000?",
@@ -46,7 +46,7 @@
     "electrocutioner prototype",
     "thermaplugg design"
    ],
-   "answer": "Its armored chassis channels high-voltage current and unleashes it on anyone who comes near. That power makes it a dangerous guardian of the Launch Bay."
+   "answer": "Its armored chassis channels high-voltage current and unleashes it on anyone who comes near. That makes Electrocutioner 6000 a dangerous guardian of the Launch Bay."
   },
   {
    "q": "Why is defeating the Electrocutioner 6000 important for explorers?",
@@ -55,7 +55,7 @@
     "why kill electrocutioner",
     "electrocutioner 6000 loot"
    ],
-   "answer": "Electrocutioner 6000 guards the Workshop Key, which unlocks Gnomeregan's back door into its deeper engineering sectors and gives explorers a faster route through the facilities."
+   "answer": "Electrocutioner 6000 guards the Workshop Key, which opens Gnomeregan's back door into its deeper engineering sectors. The key gives you a faster route through the facilities."
   },
   {
    "q": "Is the Electrocutioner an automaton or a vehicle?",
@@ -63,21 +63,21 @@
     "is electrocutioner a robot",
     "electrocutioner spider tank type"
    ],
-   "answer": "Electrocutioner 6000 is a mechano-tank, an armored, spider-legged war machine of gnomish make, now turned against those seeking to free Gnomeregan."
+   "answer": "Electrocutioner 6000 is a mechano-tank, an armored, spider-legged war machine of gnomish make. It now fights those seeking to free Gnomeregan."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "For exiled gnomes of Ironforge, Electrocutioner 6000 is an insult to their craft: a gnomish war machine turned against its own people under Thermaplugg's rule."
+   "text": "As an exiled gnome of Ironforge, you may see Electrocutioner 6000 as an insult to your craft: a gnomish war machine turned against its own people under Thermaplugg's rule."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers marvel at the high-voltage output harnessed within Electrocutioner 6000's chassis, even as it is turned against them."
+   "text": "As an engineer, you can marvel at the high-voltage output harnessed within Electrocutioner 6000's chassis, even as it is turned against you."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, breaching the Launch Bay and destroying Electrocutioner 6000 is vital to securing the Workshop Key and bypassing hazardous front corridors during efforts to free Gnomeregan."
+   "text": "As an ally, you know breaching the Launch Bay and destroying Electrocutioner 6000 is vital to securing the Workshop Key. It lets you bypass hazardous front corridors while seeking to free Gnomeregan."
   }
  ],
  "keywords": [
@@ -98,5 +98,5 @@
  "attribution": [
   "Electrocutioner 6000"
  ],
- "style": 1
+ "style": 2
 }

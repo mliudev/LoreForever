@@ -20,16 +20,16 @@
    "Garments of the Light (Elwynn Forest)"
   ]
  },
- "summary": "Priestess Anetta sends you south from Northshire Abbey to continue your training in Goldshire. Priestess Josetta is waiting at the Lion's Pride Inn to guide your next steps in the Holy Light.",
+ "summary": "At Northshire Abbey, Priestess Anetta sends you south to continue your training in Goldshire. Priestess Josetta waits at the Lion's Pride Inn to guide your next steps in the Holy Light.",
  "sections": [
   {
    "title": "Stepping Beyond Northshire",
-   "body": "Northshire Abbey gives you shelter and your first lessons in the Holy Light. After you learn prayer and divine healing, Priestess Anetta sends you south along the road to Goldshire. There, you leave the abbey's sheltered study for service among the people of Elwynn.",
+   "body": "Your training carries you beyond Northshire Abbey's cloistered halls and into the lives of Elwynn's people. You leave secluded study for active ministry, where the Holy Light must answer everyday needs beyond the abbey's walls.",
    "spoiler": 0
   },
   {
    "title": "Tutelage in Goldshire",
-   "body": "Priestess Josetta tends to Goldshire's spiritual needs from the Lion's Pride Inn and guides rising acolytes. She builds on the lessons you learned at the abbey, teaching you to offer comfort, protect the faithful, and heal the injured. Under her guidance, you begin learning the duties of the Church's servants across the kingdom.",
+   "body": "At the Lion's Pride Inn, Priestess Josetta tends to Goldshire's spiritual needs and guides rising acolytes. She builds on your lessons and teaches you to offer comfort, protect the faithful, and heal the injured. Under her guidance, you learn the duties of the Church's servants across the kingdom, including caring for a wounded guard and receiving ceremonial clerical vestments.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest turn in",
     "where to turn in in favor of the light"
    ],
-   "answer": "Priestess Anetta gives you your instructions inside Northshire Abbey and sends you down the road to meet Priestess Josetta in Goldshire."
+   "answer": "Priestess Anetta gives you instructions inside Northshire Abbey and sends you down the road to meet Priestess Josetta in Goldshire."
   },
   {
    "q": "Why is a priest sent away from Northshire so early?",
@@ -49,7 +49,7 @@
     "why go to goldshire",
     "why leave northshire abbey"
    ],
-   "answer": "Northshire teaches you the foundations of the Holy Light, and Goldshire gives you a chance to serve a real community. Under Josetta's direction, you can help townspeople and town guards."
+   "answer": "Northshire teaches you the foundations of the Holy Light, while Goldshire lets you serve a real community. Under Josetta's direction, you can help townspeople and town guards."
   },
   {
    "q": "Where can Priestess Josetta be found in Goldshire?",
@@ -74,7 +74,7 @@
     "can any class do in favor of the light",
     "is this priest only"
    ],
-   "answer": "Yes. This instruction is for priest initiates learning to serve the Church of the Holy Light."
+   "answer": "Yes. These teachings are for priest initiates learning to serve the Church of the Holy Light."
   },
   {
    "q": "What role does the Church of the Holy Light play in Elwynn?",
@@ -120,5 +120,5 @@
  "attribution": [
   "In Favor of the Light (Elwynn Forest)"
  ],
- "style": 1
+ "style": 2
 }

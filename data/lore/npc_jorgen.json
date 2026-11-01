@@ -8,16 +8,16 @@
   "wiki": "Jorgen",
   "refs": 2
  },
- "summary": "Jorgen keeps watch beside the water at Stormwind's Valley of Heroes entrance. His quiet perch draws people with matters they cannot discuss openly.",
+ "summary": "At Stormwind’s Valley of Heroes entrance, Jorgen keeps watch beside the water. His quiet perch draws people with matters they cannot discuss openly.",
  "sections": [
   {
    "title": "Eyes by the Water",
-   "body": "Jorgen keeps to the water just right of Stormwind's great entrance. Above him, statues of heroes look over the bridge, while he watches those who come and go below. People seeking information they want kept off the record can find a quiet contact there.",
+   "body": "Jorgen keeps to the water just right of Stormwind’s great entrance. Above him, statues of heroes look over the bridge as he watches those who pass below. People seeking information they want kept off the record can find a quiet contact there.",
    "spoiler": 0
   },
   {
    "title": "A Tangled History",
-   "body": "Jorgen's past ties him to Elling Trias, a master cheese merchant who gathers intelligence, and Bishop DeLavey of the Cathedral of Light. When investigators seek a diplomat who disappeared after being sent to Theramore, Jorgen can point them in the right direction. Few local contacts know the way through such delicate inquiries, and Jorgen helps only when approached with care.",
+   "body": "Jorgen’s past ties him to Elling Trias, a master cheese merchant who gathers intelligence, and Bishop DeLavey of the Cathedral of Light. When investigators seek a diplomat who disappeared after being sent to Theramore, Jorgen can point them in the right direction. Few local contacts know the way through such delicate inquiries. Jorgen helps only when approached with care.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is jorgen",
     "find jorgen"
    ],
-   "answer": "Jorgen waits beside the water in Stormwind's Valley of Heroes. Enter through the gates from Elwynn Forest, then head down to the water on the right side of the main bridge."
+   "answer": "Jorgen waits beside the water in Stormwind’s Valley of Heroes. Enter through the gates from Elwynn Forest, then head down to the water on the right side of the main bridge."
   },
   {
    "q": "Who is Jorgen connected to in Stormwind?",
@@ -46,7 +46,7 @@
     "jorgen missing diplomat",
     "jorgen quest"
    ],
-   "answer": "Bishop DeLavey sends investigators to his old friend Jorgen with a letter during the search for the missing envoy. Jorgen grudgingly agrees to help, makes them swear to secrecy, and sends them to Elling Trias at Trias' Cheese with a sealed note."
+   "answer": "During the search for the missing envoy, Bishop DeLavey sends investigators to his old friend Jorgen with a letter. Jorgen grudgingly agrees to help, makes them swear to secrecy, and sends them to Elling Trias at Trias’ Cheese with a sealed note."
   },
   {
    "q": "Is Jorgen affiliated with the Stormwind City Guard?",
@@ -54,17 +54,17 @@
     "is jorgen a guard",
     "jorgen faction"
    ],
-   "answer": "No. Jorgen works independently, away from the Stormwind City Guard's patrols along the canal banks, where people can speak out of earshot."
+   "answer": "No. Jorgen works independently, away from the Stormwind City Guard’s patrols along the canal banks. There, people can speak out of earshot."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Jorgen shows how whispers travel through Stormwind beneath its marble streets, with close ties to the covert work run through Trias' Cheese."
+   "text": "As a Rogue, you can see how whispers travel through Stormwind beneath its marble streets. Jorgen has close ties to the covert work run through Trias’ Cheese."
   },
   {
    "target": "faction:Alliance",
-   "text": "When official channels in Stormwind meet bureaucratic walls, street informants like Jorgen help track threats to the kingdom."
+   "text": "As an Alliance member, you know official channels in Stormwind can meet bureaucratic walls. Street informants like Jorgen help track threats to the kingdom."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Jorgen"
  ],
- "style": 1
+ "style": 2
 }

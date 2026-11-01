@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Anvilmar"
  },
- "summary": "In Anvilmar, young Bronzebeard dwarves and displaced gnomes gather to train and prepare for the road ahead. The fortified outpost stands in snowy Coldridge Valley, in Dun Morogh, around a great stone forge.",
+ "summary": "In Coldridge Valley, Anvilmar gathers young Bronzebeard dwarves and displaced gnomes to train for the road ahead. Snowy Dun Morogh surrounds the fortified outpost and its great stone forge.",
  "sections": [
   {
    "title": "The Hearth of Coldridge",
-   "body": "At Anvilmar, a central forge burns within sturdy stone walls in the northern crags of Coldridge Valley. Class mentors and supply vendors are here, alongside veteran mountain mountaineers who drill recruits before they set out into the wider kingdom. Snowdrifts shelter the outpost, but Frostmane trolls and wild beasts prowl the frozen valley, keeping its defenders on guard.",
+   "body": "A great forge burns inside Anvilmar's sturdy stone walls in the northern crags of Coldridge Valley. Class mentors and supply vendors serve the outpost, while veteran mountain mountaineers drill recruits before they set out across the kingdom. Snowdrifts shelter the walls, but Frostmane trolls and wild beasts prowl the frozen valley, keeping the defenders alert.",
    "spoiler": 0
   },
   {
    "title": "A Legacy of Iron and Trolls",
-   "body": "Anvilmar may take its name from High King Modimus Anvilmar, who ruled the dwarven clans before the War of the Three Hammers. The garrison keeps watch today, tending the forge fires as trolls and beasts roam the valley.",
+   "body": "Anvilmar may take its name from High King Modimus Anvilmar. He ruled the dwarven clans before the War of the Three Hammers. Today, the garrison keeps watch and tends the forge fires as trolls and beasts roam the valley.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "anvilmar location",
     "anvilmar overview"
    ],
-   "answer": "Anvilmar is a dwarven outpost in northern Coldridge Valley, in Dun Morogh. Newly recruited dwarves and gnomes gather there to train and prepare for the road ahead."
+   "answer": "Anvilmar is a dwarven outpost in northern Coldridge Valley, in Dun Morogh. Newly recruited dwarves and gnomes gather there to train for the road ahead."
   },
   {
    "q": "Why is it named Anvilmar?",
@@ -37,7 +37,7 @@
     "anvilmar name origin",
     "name meaning"
    ],
-   "answer": "Anvilmar may be named for High King Modimus Anvilmar or his bloodline. Modimus ruled the dwarven clans before the War of the Three Hammers, but the outpost’s name has no confirmed origin."
+   "answer": "Anvilmar may take its name from High King Modimus Anvilmar or his bloodline. He ruled the dwarven clans before the War of the Three Hammers, but the name's origin is unconfirmed."
   },
   {
    "q": "What threats does Anvilmar face?",
@@ -55,17 +55,17 @@
     "anvilmar forge",
     "blacksmithing anvilmar"
    ],
-   "answer": "Anvilmar has a forge, but no professional tradeskill trainers. To learn a craft, young recruits must travel farther into Dun Morogh, to places such as Kharanos or Ironforge."
+   "answer": "Anvilmar has a forge, but no professional tradeskill trainers. Young recruits travel farther into Dun Morogh to learn a craft, at places such as Kharanos or Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you begin your journey at Anvilmar, an outpost that may bear the name of the ancient High King who once ruled the dwarven clans."
+   "text": "As a dwarf, you begin your journey at Anvilmar. Its name may honor the ancient High King who once ruled the dwarven clans."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome taking shelter at Anvilmar, you find dwarven allies, warm hearths, and instructors who can help you adapt to the frozen wilderness."
+   "text": "As a gnome taking shelter at Anvilmar, you find dwarven allies, warm hearths, and instructors who help you adapt to the frozen wilderness."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Anvilmar"
  ],
- "style": 1
+ "style": 2
 }

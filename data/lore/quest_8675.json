@@ -17,16 +17,16 @@
   "wiki": "Skychaser the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, Skychaser the Elder appears atop Sentinel Tower in Westfall. Travelers climb to honor her and receive her blessing in return.",
+ "summary": "During the Lunar Festival, Skychaser the Elder watches over Westfall from Sentinel Tower. Travelers climb to honor her as an ancestral spirit, and she recognizes the living with a blessing.",
  "sections": [
   {
    "title": "A Beacon in the Dust",
-   "body": "Sentinel Hill holds against Defias raiders and roving scavengers in Westfall's troubled scrublands. During the Lunar Festival, an ancestral spirit named Elder Skychaser appears on the open platform atop Sentinel Tower. From above the dust and wind, she watches over the weary soldiers and beleaguered settlers below. Anyone may climb the tower and pay her respect.",
+   "body": "Sentinel Hill is Westfall's lone fortified redoubt. Below, weary soldiers and settlers face threats from Defias raiders and roving scavengers across the scrublands. During the Lunar Festival, Elder Skychaser appears on the open platform atop Sentinel Tower, watching from above the dust and wind. Anyone may climb and pay her respect.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Ancestors",
-   "body": "Across Azeroth, the Lunar Festival honors wisdom, heritage, and the deeds of ancient spirits who walked the earth before today's struggles. When you approach, Elder Skychaser recognizes the living spark within you. She accepts your homage and gives you a token of her favor, a bond between the living and the honored dead.",
+   "body": "Across Azeroth, the Lunar Festival honors wisdom, heritage, and the deeds of ancient spirits. When you approach, Elder Skychaser recognizes the living spark within you and accepts your homage. She gives you a token of her favor, binding the living to the honored dead.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is elder skychaser",
     "skychaser westfall"
    ],
-   "answer": "Elder Skychaser waits atop Sentinel Tower at Sentinel Hill in Westfall. Climb the tower's spiral stairs to the upper lookout ramparts."
+   "answer": "Elder Skychaser waits atop Sentinel Tower at Sentinel Hill in Westfall. Climb the spiral stairs to the upper lookout ramparts."
   },
   {
    "q": "Why is Elder Skychaser standing on top of Sentinel Tower?",
@@ -46,7 +46,7 @@
     "why is he in sentinel tower",
     "skychaser tower"
    ],
-   "answer": "During the Lunar Festival, ancestral spirits appear at prominent, symbolic places across Azeroth. Sentinel Tower's heights overlook the Westfall basin, where the elder can watch travelers brave the frontier."
+   "answer": "During the Lunar Festival, ancestral spirits appear at prominent, symbolic places across Azeroth. From Sentinel Tower's heights, Elder Skychaser watches travelers brave the Westfall basin frontier."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -78,7 +78,7 @@
     "skychaser dialogue",
     "what does the elder say"
    ],
-   "answer": "Elder Skychaser says your spirit burns brightly with life. She accepts your homage and offers an ancestral token in return."
+   "answer": "Elder Skychaser tells you that your spirit burns brightly with life. She accepts your homage and offers an ancestral token in return."
   }
  ],
  "angles": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Skychaser the Elder"
  ],
- "style": 1
+ "style": 2
 }

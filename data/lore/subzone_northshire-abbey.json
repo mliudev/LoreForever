@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Northshire Abbey"
  },
- "summary": "Northshire Abbey trains new defenders in Northshire Valley, among Elwynn Forest's northern foothills. Rebuilt after the First War, it is the spiritual heart of the Brotherhood of Northshire and a leading school for those answering Stormwind's call.",
+ "summary": "Northshire Abbey trains the kingdom's newest defenders, in the foothills of Northshire Valley. It is the spiritual heart of the Brotherhood of Northshire. And for those who answer Stormwind's call, few schools in the land are finer. It has been built twice.",
  "sections": [
   {
    "title": "A Legacy of Faith and Ruin",
-   "body": "Clerics from Lordaeron came south centuries ago to spread the Holy Light and founded the Holy Order of Northshire Clerics and their abbey. The monastery soon became part of kingdom life, caring for the sick and tending to the young Guardian Medivh during his years in a coma. In the First War, brigands and the Orcish Horde attacked it repeatedly, and the abbey was destroyed. After the Alliance of Lordaeron liberated the region in the Second War, Archbishop Alonsus Faol helped rebuild the sanctuary and refounded its protectors as the Brotherhood of Northshire.",
+   "body": "Centuries ago, clerics came south from Lordaeron to spread the Holy Light. They founded the Holy Order of Northshire Clerics, and they built its abbey. It soon became part of the life of the kingdom, caring for its sick. For years it tended the young Guardian Medivh, while he lay in his long coma.\n\nThen the First War came. Brigands and the Horde struck at the abbey again and again, until it lay in ruins. In the Second War, the Alliance of Lordaeron freed the region. Afterward, Archbishop Alonsus Faol helped to raise the abbey anew. And he refounded its protectors as the Brotherhood of Northshire.",
    "spoiler": 0
   },
   {
    "title": "The Training Grounds",
-   "body": "Northshire Abbey trains volunteers, militia recruits, and novices who hope to defend Stormwind. Its Main Hall, Hall of Arms, and Library Wing house instructors in martial, arcane, and holy arts, while scouts and rogues train in the outer yards. The Knights of the Silver Hand keep watch, but peace remains fragile. Kobolds overrun nearby mines, aggressive wolves prowl the orchards, and Defias Brotherhood agents stalk the valley roads. They steal ancient scrolls and sacred librams from the abbey's archives.",
+   "body": "Today the abbey takes in volunteers, militia recruits and novices, all of them hoping to defend Stormwind. In its halls, instructors teach the martial, arcane and holy arts. Scouts and rogues train out in the yards. And the Knights of the Silver Hand keep watch over it all.\n\nBut the peace here is fragile. Kobolds have overrun the nearby mines, and wolves prowl the orchards. Agents of the Defias Brotherhood stalk the valley roads. Not even the abbey's archives are safe from them. They steal its ancient scrolls and sacred librams.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "northshire clerics",
     "brotherhood of northshire lore"
    ],
-   "answer": "The Brotherhood of Northshire is a religious order of clerics, priests, and paladins based at Northshire Abbey. Clerics from Lordaeron founded it centuries ago, and Archbishop Alonsus Faol re-established it after the First War to train faithful defenders and preserve sacred scripture."
+   "answer": "The Brotherhood of Northshire is a religious order of clerics, priests, and paladins based at Northshire Abbey. Clerics from Lordaeron founded it centuries ago, and Archbishop Alonsus Faol re-established it after the First War to train faithful defenders and preserve sacred scripture. Northshire Abbey stands in Elwynn Forest’s northern foothills."
   },
   {
    "q": "Why was Northshire Abbey destroyed in the First War?",
@@ -46,7 +46,7 @@
     "kobolds in northshire",
     "defias outside northshire"
    ],
-   "answer": "Stormwind's military is stretched thin protecting distant borders, leaving outlying regions poorly guarded. Kobolds have infested the local gold mines, while the Defias Brotherhood takes advantage of the gaps to rob travelers, harass local vineyards, and raid the abbey's library for arcane tomes and holy relics."
+   "answer": "Stormwind's military is stretched thin protecting distant borders, leaving outlying regions poorly guarded. Kobolds have infested the local gold mines, while the Defias Brotherhood takes advantage of the gaps to rob travelers, harass local vineyards, and raid the abbey's library for arcane tomes and holy relics. Their agents steal ancient scrolls and sacred librams from the abbey’s archives."
   },
   {
    "q": "What is the connection between Northshire Abbey and the Deadmines?",
@@ -91,5 +91,5 @@
  "attribution": [
   "Northshire Abbey"
  ],
- "style": 1
+ "style": 2
 }

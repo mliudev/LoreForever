@@ -10,16 +10,16 @@
    "quest:1738"
   ]
  },
- "summary": "Heartswood is timber harvested from a sacred tree rooted within the Ruins of Ordil'Aran in northwestern Ashenvale. Born from the final resting place of two ancient lovers, its resonance with undying devotion makes it an essential lure for summoning a succubus.",
+ "summary": "In northwestern Ashenvale, Heartswood is cut from a tree rooted among the Ruins of Ordil'Aran. The tree grew where two ancient lovers died, and its wood draws succubi when warlocks seek to summon them.",
  "sections": [
   {
    "title": "A Monument to Devotion",
-   "body": "The Heartswood grows among the elven stones of the Ruins of Ordil'Aran in northwestern Ashenvale. According to legend, two lovers named Anathera and Latherion fell side by side during the catastrophic War of the Ancients thousands of years ago. On the very earth where they breathed their last, a peculiar tree took root, blossoming as an eternal testament to their devotion. Even millennia later, the wood cut from this tree hums with the memory of undying passion, making it an object of great curiosity for those who study emotional and spiritual bonds.",
+   "body": "Among the elven stones of the Ruins of Ordil'Aran in northwestern Ashenvale, a peculiar tree took root. Legend says Anathera and Latherion, two lovers, fell side by side there during the War of the Ancients thousands of years ago. The Heartswood tree grew from the earth where they died. Even now, wood cut from it carries the memory of their devotion. Those who study emotional and spiritual bonds are curious about it.",
    "spoiler": 0
   },
   {
    "title": "A Tool of Subjugation",
-   "body": "While born of pure sentiment, Heartswood attracts darker attention. Succubi\u2014demons that thrive on passion, longing, and emotional exploitation\u2014are intensely drawn to artifacts imbued with genuine, undying love. Human and gnome warlocks under the instruction of Gakin the Darkbinder in Stormwind seek out this rare timber specifically to construct a ritual lure. By using the innate resonance of the lovers' sacrifice, a practitioner can bait a succubus across the Nether, draw her into a summoning circle, and bind her to their will.",
+   "body": "Heartswood draws the attention of succubi, demons drawn to passion, longing, and emotional exploitation. Human and gnome warlocks learning from Gakin the Darkbinder in Stormwind seek the rare timber to make a ritual lure. Its resonance with the lovers' sacrifice can bait a succubus across the Nether and draw her into a summoning circle. There, the practitioner can bind her to their will.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is heartswood",
     "heartswood lore"
    ],
-   "answer": "Heartswood is the wood taken from a tree that sprouted in Ashenvale's Ruins of Ordil'Aran, marking the spot where two ancient night elf lovers perished together during the War of the Ancients."
+   "answer": "Heartswood is wood from a tree that grew in Ashenvale's Ruins of Ordil'Aran, where two ancient night elf lovers died together during the War of the Ancients."
   },
   {
    "q": "Who were Anathera and Latherion?",
@@ -40,7 +40,7 @@
     "lovers of heartswood",
     "who died at heartswood"
    ],
-   "answer": "Anathera and Latherion were lovers who fought side by side during the War of the Ancients. When they both fell in battle, their final embrace nourished the earth, giving rise to the Heartswood tree as an enduring symbol of their devotion."
+   "answer": "Anathera and Latherion were lovers who fought side by side during the War of the Ancients. They fell in battle, and their final embrace nourished the earth where the Heartswood tree grew as a lasting sign of their devotion."
   },
   {
    "q": "Why do warlocks need Heartswood?",
@@ -49,7 +49,7 @@
     "heartswood succubus",
     "heartswood purpose"
    ],
-   "answer": "Succubi are demonic creatures of desire and emotional manipulation. Because the Heartswood resonates powerfully with the essence of unyielding, eternal love, warlocks use it as a potent psychic bait to tempt and summon a succubus into the physical world."
+   "answer": "Succubi are demons drawn to desire and emotional manipulation. Warlocks use Heartswood's resonance with undying love as bait to tempt a succubus into the physical world and summon her."
   },
   {
    "q": "Where can Heartswood be found?",
@@ -58,17 +58,17 @@
     "where is heartswood",
     "ruins of ordil'aran heartswood"
    ],
-   "answer": "Heartswood is found within the Ruins of Ordil'Aran, located in the northwestern reaches of the Ashenvale forest near the border of Darkshore."
+   "answer": "Heartswood comes from the Ruins of Ordil'Aran in the northwestern Ashenvale forest, near the border of Darkshore."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "For Alliance warlocks, securing Heartswood is a critical rite of passage directed by Gakin the Darkbinder, providing the emotional bait required to compel and bind a succubus minion."
+   "text": "For Alliance warlocks, securing Heartswood is a rite of passage directed by Gakin the Darkbinder. Its resonance provides the emotional bait needed to compel and bind a succubus minion."
   },
   {
    "target": "race:NightElf",
-   "text": "The tree represents a tragic, sacred memorial from the War of the Ancients, making its desecration by warlocks and cultists a bitter offense against the memory of fallen ancestors."
+   "text": "As a night elf, you may see the tree as a sacred memorial to those who fell in the War of the Ancients. Warlocks and cultists who cut its wood offend the memory of fallen ancestors."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  "attribution": [
   "Heartswood",
   "Heartswood (quest)"
- ]
+ ],
+ "style": 2
 }

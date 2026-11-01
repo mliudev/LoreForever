@@ -10,11 +10,11 @@
    "quest:84"
   ]
  },
- "summary": "In Elwynn Forest, Billy Maclure wants a pie from the Stonefield farm before he speaks about a missing necklace. Auntie Bernice Stonefield bakes it despite the feud between their families.",
+ "summary": "In Elwynn Forest, Billy Maclure waits for a pie from Stonefield Farm before he speaks of a missing necklace. Auntie Bernice bakes it despite the families’ long feud.",
  "sections": [
   {
    "title": "A Bribe Between Feuding Farms",
-   "body": "The Stonefield and Maclure families have quarreled over land and pride for years in Elwynn Forest. Young Billy Maclure has a weakness for Auntie Bernice's pork belly pie. When a valuable Stonefield family necklace goes missing, Billy refuses to share what he knows until an adventurer brings him a warm slice. Bernice bakes the pie reluctantly, wishing the greedy boy would choke on it.",
+   "body": "The Stonefield and Maclure families have quarreled over land and pride for years. Young Billy Maclure has a weakness for Auntie Bernice’s pork belly pie. When a valuable Stonefield family necklace goes missing, Billy refuses to share what he knows until an adventurer brings him a warm slice. Bernice bakes it reluctantly, wishing the greedy boy would choke on it.",
    "spoiler": 0
   }
  ],
@@ -57,11 +57,11 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Auntie Bernice's home-cooked pie has sway even in the families' feud, though her recipe remains a secret."
+   "text": "Auntie Bernice's home-cooked pie holds sway even amid the families' feud, though her recipe remains a secret."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers helping in rural Elwynn, delivering pies reveals the deep-rooted quarrels in Stormwind's agrarian heartland."
+   "text": "For Alliance travelers helping in rural Elwynn, delivering pies reveals the deep-rooted quarrels in Stormwind's farming heartland."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
   "Pork Belly Pie",
   "Back to Billy"
  ],
- "style": 1
+ "style": 2
 }

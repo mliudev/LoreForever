@@ -17,21 +17,21 @@
   "wiki": "Sully Balloo's Letter (quest)",
   "chain": []
  },
- "summary": "At the Thandol Span, Sully Balloo's Letter carries a dwarf's final words from the icy waters below. Recovered from a drowned skeleton, it was written by a soldier lost in the battles for the bridge and addressed to his wife Sara in Ironforge.",
+ "summary": "At the Thandol Span, Sully Balloo's Letter carries a dwarf's last words to his wife in Ironforge. Found beneath the bridge, it tells where he died.",
  "sections": [
   {
    "title": "A Voice from the Riverbed",
-   "body": "Beneath the stone pilings of the Thandol Span, the land bridge between the Wetlands and the Arathi Highlands, a drowned dwarf's skeleton rests in the riverbed. An envelope remains clutched in his bones, its paper damaged by water. Amid the fires of battle, the soldier wrote with painstaking care. His words begin, “My dear Sara,” and carry his voice beyond the river that claimed him.",
+   "body": "Beneath the stone pilings of the Thandol Span, the land bridge between the Wetlands and the Arathi Highlands, a drowned skeleton still clutches an envelope. Its water-damaged pages begin, “My dear Sara,” and preserve the tenderness of Sully Balloo's careful writing.",
    "spoiler": 0
   },
   {
    "title": "The Price of the Span",
-   "body": "Alliance forces and their enemies have fought fiercely over the Thandol Span, from Dark Iron saboteurs to warbands contesting the borderlands. Sully Balloo was among the dwarven soldiers sent north to defend the crossing. He perished beneath the waves, and his family in the mountains did not know his fate until a diver retrieved his farewell letter.",
+   "body": "Alliance forces and their enemies have fought fiercely for the Thandol Span. Dark Iron saboteurs and warbands contesting the borderlands have threatened the crossing. Sully Balloo was among the dwarven soldiers sent north to defend it. His family in the mountains knew nothing of his fate until a diver brought his farewell letter up from beneath the waves.",
    "spoiler": 0
   },
   {
    "title": "A Widow in Ironforge",
-   "body": "In Ironforge, Sully's widow Sara Balloo receives the letter and learns where her husband died. She lives amid the halls of the dwarven capital, where grief and lingering hope had left her unsure whether he was missing or lost forever. His handwritten words force her at last to face the bitter reality of his death.",
+   "body": "In Ironforge, Sully's widow Sara Balloo receives the letter and learns where her husband died. Grief and lingering hope had left her unsure whether he was missing or lost forever. His handwritten words force her at last to face the bitter truth of his death.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "sully balloo lore",
     "who was sully balloo"
    ],
-   "answer": "Sully Balloo was an Alliance dwarven soldier who fell defending the Thandol Span. Before taking watch over the span, he wrote a farewell letter to his wife Sara; his remains and the letter were found beneath the icy waters."
+   "answer": "Sully Balloo was an Alliance dwarven soldier who fell defending the Thandol Span. Before taking watch over the span, he wrote a farewell letter to his wife Sara. His remains and the letter were found beneath the icy waters."
   },
   {
    "q": "Who is Sara Balloo?",
@@ -70,7 +70,7 @@
     "sully quest chain",
     "after delivering letter"
    ],
-   "answer": "After Sara learns of Sully's death, sorrow overtakes her and she asks that he be memorialized, leading to a further request in Ironforge."
+   "answer": "After Sara learns of Sully's death, sorrow overtakes her. She asks that he be memorialized, bringing a further request in Ironforge."
   },
   {
    "q": "Why was the letter still intact underwater?",
@@ -78,7 +78,7 @@
     "why is letter readable",
     "how did envelope survive"
    ],
-   "answer": "The envelope clutched in the soldier's remains protected the letter. By the time it was retrieved, the pages were waterlogged and partly dissolved, but enough of Sully's careful writing remained legible to read."
+   "answer": "The envelope clutched in the soldier's remains protected the letter. By the time it was retrieved, the pages were waterlogged and partly dissolved. Enough of Sully's careful writing remained legible to read."
   },
   {
    "q": "What real-world inspiration is behind this quest?",
@@ -87,17 +87,17 @@
     "sullivan ballou",
     "civil war reference"
    ],
-   "answer": "The story honors Major Sullivan Ballou of the 2nd Rhode Island Infantry, who wrote an iconic, poetic farewell letter to his wife shortly before he died at the First Battle of Bull Run during the American Civil War."
+   "answer": "The story honors Major Sullivan Ballou of the 2nd Rhode Island Infantry. Shortly before his death at the First Battle of Bull Run during the American Civil War, he wrote an iconic, poetic farewell letter to his wife."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf of Ironforge, you honor Sully's final words and a brother-in-arms who gave his life defending the great works of dwarven stonework against northern threats."
+   "text": "As a dwarf of Ironforge, you honor Sully's final words and a brother-in-arms who died defending the great works of dwarven stonework against northern threats."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance soldier, you are reminded of the sacrifices frontline fighters make to protect the fragile overland links between the southern and northern Alliance territories."
+   "text": "As an Alliance soldier, you remember the sacrifices frontline fighters make to protect the fragile overland links between the southern and northern Alliance territories."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Sully Balloo's Letter (quest)"
  ],
- "style": 1
+ "style": 2
 }

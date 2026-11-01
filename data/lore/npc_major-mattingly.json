@@ -8,11 +8,11 @@
   "wiki": "Major Mattingly",
   "refs": 1
  },
- "summary": "At Stormwind’s main gates, Major Mattingly helps guard the capital and advises crafters on protection from dragons.",
+ "summary": "At Stormwind's main gates, Major Mattingly helps guard the capital and advises crafters on protection from dragons.",
  "sections": [
   {
    "title": "Sentinel of the Capital Gates",
-   "body": "Major Mattingly is a high-ranking officer responsible for Stormwind City's landward defense. He stands watch in the Valley of Heroes under General Marcus Jonathan, alongside the city's garrison. His duties include overseeing gate patrols and travelers entering the city. Mattingly also knows the lethal nature of dragons and guides skilled crafters who seek to make protective dragonscale gear for facing dangerous lairs.",
+   "body": "Major Mattingly oversees Stormwind City's landward defense. In the Valley of Heroes, he stands watch under General Marcus Jonathan with the city's garrison. He oversees the gate patrols and the travelers entering the city. Dragons are deadly, and Mattingly guides skilled crafters who seek to make dragonscale gear for dangerous lairs.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "mattingly quest",
     "the journey has just begun mattingly"
    ],
-   "answer": "Leatherworkers seek Major Mattingly for instructions on treating black dragonhide and crafting scale cloaks that protect allies from dragonfire."
+   "answer": "Leatherworkers seek Major Mattingly's instructions on treating black dragonhide and crafting scale cloaks that protect allies from dragonfire."
   },
   {
    "q": "Is Major Mattingly involved in any broader conflicts?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions challenging great dragons like Onyxia, Major Mattingly offers guidance on crafting protective cloaks from dragon scales."
+   "text": "For Alliance champions challenging great dragons like Onyxia, Major Mattingly gives guidance on crafting protective cloaks from dragon scales."
   },
   {
    "target": "class:Warrior",
@@ -82,5 +82,5 @@
  "attribution": [
   "Major Mattingly"
  ],
- "style": 1
+ "style": 2
 }

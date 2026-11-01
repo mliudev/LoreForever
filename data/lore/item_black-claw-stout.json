@@ -10,16 +10,16 @@
    "quest:336"
   ]
  },
- "summary": "Beneath Stormwind, Zardeth of the Black Claw prepares a drink for Lord Wishock. The stout is delivered as an ordinary tavern beverage.",
+ "summary": "Beneath Stormwind, Zardeth of the Black Claw prepares a drink for Lord Wishock. The stout reaches him as an ordinary tavern beverage.",
  "sections": [
   {
    "title": "A Toxic Draught",
-   "body": "Zardeth of the Black Claw works beneath the notice of Stormwind's city guard, in the operation below the Slaughtered Lamb's taprooms. Lord Wishock repeatedly threatens to shut it down, though he runs up unpaid bar tabs upstairs. Zardeth decides to settle the score with the noble's weakness for strong drink. He disguises a lethal dose in a common tavern refreshment.",
+   "body": "Below the Slaughtered Lamb's taprooms, Zardeth of the Black Claw works beyond the city guard's notice. Lord Wishock threatens again and again to shut the operation down, though his bar tabs upstairs go unpaid. So Zardeth turns the noble's weakness for strong drink against him. He hides a lethal dose in a common tavern refreshment.",
    "spoiler": 1
   },
   {
    "title": "Quiet Assassination",
-   "body": "Lord Wishock receives the stout in Stormwind Keep's Hall of Petitioners. His pompous arrogance and thirst leave him eager to accept what he mistakes for a servant's attentive offering. The noble downs the brew on the spot. Its poison acts almost instantly, silencing one of the cult's most persistent political critics under the Royal Court's very noses.",
+   "body": "In Stormwind Keep's Hall of Petitioners, Lord Wishock receives the stout. His pompous pride and thirst make him eager to accept what he mistakes for a servant's attentive offering. He drinks it on the spot. The poison acts almost at once, silencing one of the cult's most persistent political critics beneath the Royal Court's very noses.",
    "spoiler": 1
   }
  ],
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "For Stormwind's hidden warlock coven, the brew is an errand. A meddling noble wants its haven beneath the Slaughtered Lamb shut down."
+   "text": "For Stormwind's hidden warlock coven, carrying the brew is an errand. A meddling noble wants its haven beneath the Slaughtered Lamb shut down."
   },
   {
    "target": "faction:Alliance",
-   "text": "Carrying the brew into Stormwind Keep brings the warlocks operating beneath the Slaughtered Lamb close to the capital's nobles."
+   "text": "Carrying the brew into Stormwind Keep brings the warlocks beneath the Slaughtered Lamb close to the capital's nobles."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Black Claw Stout",
   "A Noble Brew (2)"
  ],
- "style": 1
+ "style": 2
 }

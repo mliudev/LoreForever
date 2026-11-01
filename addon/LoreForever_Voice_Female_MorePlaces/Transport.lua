@@ -290,11 +290,11 @@ P.transport["subzone:browman-mill"] = {
   },
 }
 P.transport["subzone:bulwark"] = {
-  hash = "ce9e4c",
-  fullHash = "ce9e4c",
-  text = "Bulwark. The Bulwark is a fortified outpost straddling the border between Tirisfal Glades and the Western Plaguelands. Maintained jointly by the Forsaken and the neutral Argent Dawn, it serves as the Horde's front line against the Scourge and the primary launching point for expeditions into the tainted east. Positioned squarely on the eastern border of Tirisfal Glades, the Bulwark is the final barrier protecting the Forsaken heartland from the blighted horrors of the Western Plaguelands. Today, rough wooden palisades and heavily armed guards defend the pass against roaming undead. It represents an uneasy but necessary collaboration, where Forsaken forces coordinate alongside the Argent Dawn to recruit seasoned champions of the Horde, turning back the minions of the Lich King before they spill into Tirisfal.",
+  hash = "21e490",
+  fullHash = "21e490",
+  text = "Bulwark. At Tirisfal's edge, Bulwark keeps watch over the Western Plaguelands. Forsaken and Argent Dawn forces hold the outpost together, and Horde expeditions set out from there into the tainted east. Forsaken guards hold Bulwark's palisade where Tirisfal Glades meets the Western Plaguelands. The outpost bars the road from blighted lands where the undead roam. Here, Forsaken forces work with the neutral Argent Dawn. Together, they call on seasoned Horde champions to strike at the Scourge and keep the Lich King's minions from reaching Tirisfal.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bulwark-04e207bb82a91c13ce1c/1-0000.mp3", duration = 47.6995918, start = 0},
+    {file = "Audio/Transport/full_subzone_bulwark-dbf59f0d34816020ece5/1-0000.mp3", duration = 35.1085714, start = 0},
   },
 }
 P.transport["subzone:caer-darrow"] = {
@@ -434,11 +434,11 @@ P.transport["subzone:circle-of-west-binding"] = {
   },
 }
 P.transport["subzone:clockwerk-run"] = {
-  hash = "f2ca20",
-  fullHash = "f2ca20",
-  text = "Clockwerk Run. In Gnomeregan, Clockwerk Run lies between the Train Depot and the Hall of Gears. Toxic fallout and irradiated troggs fill the route into the fallen city. Clockwerk Run runs from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies moved through this corridor. High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion, turning the passage into a deadly trap. The blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears.",
+  hash = "aa818f",
+  fullHash = "aa818f",
+  text = "Clockwerk Run. In Gnomeregan, toxic fumes and irradiated troggs choke Clockwerk Run between the Train Depot and the Hall of Gears. Clockwerk Run carries you from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies passed through this corridor. Then High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion. The waste turned the passage into a deadly trap.\n\nThe blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_clockwerk-run-025efd224df8e48517ca/1-0000.mp3", duration = 35.1346939, start = 0},
+    {file = "Audio/Transport/full_subzone_clockwerk-run-0fc32dd344be5bc70d56/1-0000.mp3", duration = 35.8661224, start = 0},
   },
 }
 P.transport["subzone:corin-s-crossing"] = {
@@ -594,11 +594,11 @@ P.transport["subzone:darrowmere-lake"] = {
   },
 }
 P.transport["subzone:darrowshire"] = {
-  hash = "a11d24",
-  fullHash = "a11d24",
-  text = "Darrowshire. Darrowshire is a ruined village in the southern hills of the Eastern Plaguelands, once a peaceful hamlet of Lordaeron. During the Third War, its residents mounted a desperate, tragic stand against an overwhelming Scourge force. Today, only shattered timbers, restless spirits, and bitter memories linger amid the silence. Before the plague consumed northern Lordaeron, Darrowshire was a humble rural settlement nestled beneath the southern cliffs. When the Scourge marched south during the Third War, a force led by the death knight Marduk Blackpool and the ghoul lord Horgus the Ravager besieged the town. The villagers and local defenders fought valiantly, momentarily holding the line against impossible odds. Ultimately, the defense collapsed, and the town was slaughtered down to the last soul. Rather than finding peace in death, many of Darrowshire's fallen defenders were reanimated as ghouls to bolster the Scourge's ranks, leaving the village an eerie, empty memorial of lost valor. Though long abandoned by the living, Darrowshire is far from completely empty. The psychic weight of the slaughter clings heavily to the valley, trapping spectral remnants of the townspeople within the ruins. Travelers passing through report strange phenomena, including chilling reenactments where the tragic battle unfolds again in ghostly silence. The ground remains saturated with sorrow, serving as a bleak reminder of what the Scourge tore away from the kingdom.",
+  hash = "7bc6fa",
+  fullHash = "7bc6fa",
+  text = "Darrowshire. Darrowshire lies in ruins in the southern hills of the Eastern Plaguelands. Once a peaceful hamlet of Lordaeron, it made a desperate stand against the Scourge during the Third War. Shattered timbers, restless spirits, and bitter memories remain. Darrowshire's villagers fought the Scourge during the Third War. Before plague consumed northern Lordaeron, the humble settlement stood beneath the southern cliffs. Marduk Blackpool, a death knight, and Horgus the Ravager, a ghoul lord, led the besieging force.\n\nThe villagers and local defenders held the line for a time, though the odds were impossible. Then their defense broke, and the Scourge slaughtered the town down to the last soul. Many fallen defenders were raised as ghouls to swell the Scourge's ranks. Darrowshire remains an empty memorial to those who died there. Darrowshire's ruins still bear the weight of the slaughter. The living abandoned the village long ago, but spectral remnants of its townspeople remain trapped there. Travelers report strange sights, including ghostly reenactments of the battle unfolding in silence. Sorrow still clings to the ground, a reminder of what the Scourge took from the kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_darrowshire-befbce841012c1e4fd9e/1-0000.mp3", duration = 89.1036735, start = 0},
+    {file = "Audio/Transport/full_subzone_darrowshire-fa7a3c7e7bf9c4f6425a/1-0000.mp3", duration = 74.8930612, start = 0},
   },
 }
 P.transport["subzone:deadman-s-crossing"] = {
@@ -610,11 +610,11 @@ P.transport["subzone:deadman-s-crossing"] = {
   },
 }
 P.transport["subzone:deadmines"] = {
-  hash = "050b2c",
-  fullHash = "050b2c",
-  text = "Deadmines. Beneath Moonbrook, the Deadmines lie silent under a ruined town in Westfall. Once the greatest gold producer in human lands, the mines were abandoned during the First War. Now rumors speak of sinister forces in the forgotten shafts, though their danger remains unknown. The Deadmines once led all human mines in gold, with Whitestone oak for timber and supports. When the orcish Horde pushed north, miners fled in haste. Sir Anduin Lothar entered the treacherous depths to recover the sacred Tome of Divinity. Subterranean ogres held him captive for twenty months before rescuers freed him. After the kingdom fell, the shafts went quiet, and people came to say they were cursed.",
+  hash = "410d61",
+  fullHash = "410d61",
+  text = "Deadmines. Beneath ruined Moonbrook, the Deadmines lie quiet, though rumors speak of danger in their forgotten shafts. Once the greatest gold producer in human lands, the mines fell silent during the First War. Gold once poured from the Deadmines, the richest mines in human lands. Whitestone oak supplied their timber and supports. When the orcish Horde pushed north, the miners fled in haste.\n\nDuring the First War, Sir Anduin Lothar entered the treacherous depths to recover the sacred Tome of Divinity. Subterranean ogres held him captive for twenty months before rescuers freed him. After the kingdom fell, the shafts went quiet, and people came to say they were cursed.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_deadmines-24ef2b4266fe91b472a0/1-0000.mp3", duration = 44.2514286, start = 0},
+    {file = "Audio/Transport/full_subzone_deadmines-295f0b731fae54195843/1-0000.mp3", duration = 44.1469388, start = 0},
   },
 }
 P.transport["subzone:deadwood-village"] = {
@@ -898,19 +898,19 @@ P.transport["subzone:firewatch-ridge"] = {
   },
 }
 P.transport["subzone:flame-crest"] = {
-  hash = "521b67",
-  fullHash = "521b67",
-  text = "Flame Crest. Flame Crest is a rugged neutral outpost perched atop a rocky ledge overlooking the volcanic wastes of the Burning Steppes. Accessed only across a crude span, this precarious encampment serves as a forward staging ground against the Dark Horde entrenched in Blackrock Mountain. It provides essential aerial connections and a haven for scouts, beast collectors, and strategists. Situated high on an isolated stone outcropping, Flame Crest commands a watchful view over the scorched ash and lava plains of the Burning Steppes. Reached only by crossing a narrow, rickety wooden bridge, the outpost is naturally defensible against the prowling beasts and roaming orc warbands of the wastes. Wind riders roost along the heights, connecting the camp back across the Redridge range to Kargath, Stonard, Thorium Point, and Rog'mar in the Riverglades. Flame Crest is more than just a wind rider roost; it is a critical forward watchpoint over the Blackrock clan entrenched within Blackrock Spire. Here, deep in hostile territory, scouts gather intelligence, lay plans to break the renegade Dark Horde, and trade with eccentric loners like the pet master Kibler in his nearby cave.",
+  hash = "b53782",
+  fullHash = "b53782",
+  text = "Flame Crest. Flame Crest watches the volcanic wastes from a rocky ledge in the Burning Steppes. The neutral camp shelters scouts, beast collectors, and strategists, while wind riders carry travelers across the Redridge range and beyond. Flame Crest clings to a stone ledge above the ash and lava plains. You cross a narrow wooden bridge to reach the camp. Its height helps keep prowling beasts and roaming orc warbands at bay. Wind riders carry travelers across the Redridge range to Kargath, Stonard, Thorium Point, and Rog'mar in the Riverglades. Scouts at Flame Crest watch the Blackrock clan entrenched in Blackrock Spire. They gather intelligence and plan how to break the renegade Dark Horde. The camp also trades with eccentric loners, including Kibler, a pet master who lives in a nearby cave.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_flame-crest-d3ab411d9da3a4c1e03f/1-0000.mp3", duration = 71.3665306, start = 0},
+    {file = "Audio/Transport/full_subzone_flame-crest-c7a03d39dc7de659ed74/1-0000.mp3", duration = 50.4163265, start = 0},
   },
 }
 P.transport["subzone:foothold-citadel"] = {
-  hash = "b780d7",
-  fullHash = "b780d7",
-  text = "Foothold Citadel. Foothold Citadel serves as the central military barracks and command post within Theramore Isle. Overlooking the fortified settlement, it houses the officers and guards who protect the Alliance's primary bastion on southern Kalimdor. Rising within the fortified stone walls of Theramore Isle, Foothold Citadel is the nerve center of local Alliance defense. The citadel houses the high command of the Theramore Guard, including Captain Garran Vimes and Commander Samaul, along with field medics, logistics officers, and quartermasters. Its utilitarian stone halls bustle with regular patrols and drills, keeping Lady Jaina Proudmoore's forces prepared against threats creeping out of the surrounding swamplands. The citadel bears a grim history tied to the founding days of Theramore. When Grand Admiral Daelin Proudmoore seized control of the city to wage his personal crusade against the Horde, this very fortress became the battleground of his final stand. Thrall's allied strike force, spearheaded by the half-ogre warrior Rexxar, breached the citadel and struck the Admiral down. Today, the fortress stands repaired and steadfast, though the memory of that bloody conflict still hangs over its stone ramparts.",
+  hash = "8d628c",
+  fullHash = "8d628c",
+  text = "Foothold Citadel. At Foothold Citadel, Theramore's guards prepare to defend the island. The fortress holds the Alliance command and barracks on Theramore Isle, overlooking the settlement. Foothold Citadel holds the Alliance defense within Theramore Isle's stone walls. Captain Garran Vimes and Commander Samaul lead the Theramore Guard from its halls. Field medics, logistics officers and quartermasters work beside them. Guards patrol and drill, preparing Lady Jaina Proudmoore's forces for threats from the surrounding swamplands. Foothold Citadel recalls the early days of Theramore. Grand Admiral Daelin Proudmoore seized the city to wage his personal crusade against the Horde, and the fortress became the place of his final stand. Thrall's allied force broke through the citadel under Rexxar, a half-ogre warrior, and struck down the Admiral. The fortress has been repaired, though the bloody conflict is remembered.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_foothold-citadel-7919aabc9843b7c846b3/1-0000.mp3", duration = 73.4040816, start = 0},
+    {file = "Audio/Transport/full_subzone_foothold-citadel-4384918dbbcce657e1d5/1-0000.mp3", duration = 56.8685714, start = 0},
   },
 }
 P.transport["subzone:forgotten-coast"] = {
@@ -1050,11 +1050,11 @@ P.transport["subzone:ghost-walker-post"] = {
   },
 }
 P.transport["subzone:gnomeregan"] = {
-  hash = "f71771",
-  fullHash = "f71771",
-  text = "Gnomeregan. In the poisoned halls of Gnomeregan, troggs and leper gnomes roam among broken defenses. Once the gnomes’ subterranean capital, it fell after a desperate defense turned to catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Built with aid from the Ironforge dwarves centuries ago, the city was carved into the snowy crags of western Dun Morogh. Steam-driven gears, copper piping, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex armaments supplied the Alliance. The city held firm even as Orgrim Doomhammer’s Horde laid siege. During the Third War, troggs surged from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron. On the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many of them and killed nearly eighty percent of the gnomish people. Those exposed who survived became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins.",
+  hash = "ce40b5",
+  fullHash = "ce40b5",
+  text = "Gnomeregan. Troggs and leper gnomes roam Gnomeregan’s poisoned halls among the broken defenses. The city was once the gnomes’ underground capital, until a desperate defense ended in catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Ironforge dwarves helped build the city centuries ago, carving it into the snowy crags of western Dun Morogh. Steam-driven gears, copper pipes, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex weapons supplied the Alliance. Even Orgrim Doomhammer’s Horde could not break the city during its siege. During the Third War, troggs surged up from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron.\n\nOn the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many troggs and killed nearly eighty percent of the gnomish people. Survivors exposed to it became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gnomeregan-57c917530007cdb23cb9/1-0000.mp3", duration = 76.564898, start = 0},
+    {file = "Audio/Transport/full_subzone_gnomeregan-e745b6cb070be5dc04b9/1-0000.mp3", duration = 78.5240816, start = 0},
   },
 }
 P.transport["subzone:go-shek-farm"] = {
@@ -1266,11 +1266,11 @@ P.transport["subzone:infectis-scar"] = {
   },
 }
 P.transport["subzone:ironforge"] = {
-  hash = "ee2d26",
-  fullHash = "ee2d26",
-  text = "Ironforge. Ironforge's Great Forge burns beneath the mountain, at the heart of dwarven rule and Alliance trade. Deep inside Ironforge Mountain in Dun Morogh, the city is the political and mercantile anchor of Khaz Modan and a bulwark of the Alliance. Ironforge fills the deep halls of Ironforge Mountain, its stone rings circling the Great Forge. The dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has weathered ages of history, including the ancient War of the Three Hammers, which left the Bronzebeard clan in sole control. Natural magma pours through the mountain to power the city, while massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who came after the recent fall of Gnomeregan. Ironforge is perhaps the Alliance's busiest center of commerce and industry. King Magni Bronzebeard rules Khaz Modan from the High Seat, while dwarven prospectors, miners, and engineers work alongside gnome refugees in Tinker Town. The Deeprun Tram runs beneath the mountains to Stormwind City, carrying trade and troops at high speed and keeping the capitals linked in mutual defense.",
+  hash = "5f0d74",
+  fullHash = "5f0d74",
+  text = "Ironforge. Beneath Dun Morogh, Ironforge’s Great Forge still burns at the heart of dwarven rule and Alliance trade. Deep within Ironforge Mountain, the city anchors Khaz Modan and guards the Alliance. Ironforge fills the deep halls of Ironforge Mountain, with stone rings circling the Great Forge. Dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has endured ages of history, including the War of the Three Hammers, which left the Bronzebeard clan in sole control.\n\nNatural magma pours through the mountain and powers the city. Massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who arrived after Gnomeregan fell recently. Ironforge is one of the Alliance’s busiest centers of commerce and industry. From the High Seat, King Magni Bronzebeard rules Khaz Modan. Dwarven prospectors, miners, and engineers work beside gnome refugees in Tinker Town.\n\nBeneath the mountains, the Deeprun Tram runs to Stormwind City. It carries trade and troops at high speed, keeping the capitals linked in mutual defense.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-52688f3438463e36547d/1-0000.mp3", duration = 74.3444898, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-ad7392ba11b316cde16b/1-0000.mp3", duration = 75.284898, start = 0},
   },
 }
 P.transport["subzone:ironstone-camp"] = {
@@ -1314,11 +1314,11 @@ P.transport["subzone:jadefire-run"] = {
   },
 }
 P.transport["subzone:jaedenar"] = {
-  hash = "6ef9f4",
-  fullHash = "6ef9f4",
-  text = "Jaedenar. Jaedenar is a blighted hollow in central Felwood built over ancient night elf ruins and druidic barrow dens. Named in foul homage to the demon lord Kil'jaeden, it serves as the primary base of operations for the Shadow Council in northern Kalimdor. Cultists, warlocks, and summoned demons scour the corrupt hollow, guarding the subterranean descent into the Shadow Hold. Long ago, these hollows sheltered night elf sacred grounds and slumbering druids connected to the Emerald Dream. After the devastation of the Third War, the vile remnant of the Shadow Council laid claim to the valley, christening it Jaedenar to honor the demon lord Kil'jaeden. Warlocks—predominantly renegade orcs and Forsaken—have gathered here alongside satyrs, succubi, and felguards. They occupy both the surface ruins and the deeper barrow dens, twisting what was once holy woodland into a grim center of demonic invocation. Above ground, the cultists gather at profane sites like the Shrine of the Deceiver, burning braziers of fell flame and conducting rituals to further corrupt the timberland. Beneath the surface lies the entrance to the Shadow Hold, the subterranean stronghold where the council's true masters direct their operations across Felwood. The Emerald Sanctuary watches the festering enclave with profound concern, regularly enlisting daring wanderers to disrupt their summoning circles and douse the dark flames that seal their tunnels.",
+  hash = "498ab9",
+  fullHash = "498ab9",
+  text = "Jaedenar. Cultists and demons now hold Jaedenar, the Shadow Council’s chief base in northern Kalimdor. Blighted woodland covers ancient night elf ruins and druidic barrow dens, with the Shadow Hold below. Night elf sacred grounds and barrow dens once filled these hollows. Druids slept in the dens while connected to the Emerald Dream. After the Third War, the Shadow Council claimed the valley and named it for the demon lord Kil'jaeden. Renegade orc and Forsaken warlocks gathered there with satyrs, succubi, and felguards. They hold the surface ruins and deeper barrow dens, turning sacred woodland into a center for demonic rites. Cultists gather at profane sites above ground, including the Shrine of the Deceiver. Braziers burn with fel flame, and rituals further corrupt the timberland. Below lies the entrance to the Shadow Hold, where the council's true masters direct their work across Felwood. The Emerald Sanctuary watches Jaedenar with concern. It regularly calls on daring wanderers to disrupt summoning circles and douse the dark flames sealing the tunnels.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jaedenar-18e6aa0cb8c8b350d670/1-0000.mp3", duration = 89.1820408, start = 0},
+    {file = "Audio/Transport/full_subzone_jaedenar-801ccca2c5ae78da6a21/1-0000.mp3", duration = 69.355102, start = 0},
   },
 }
 P.transport["subzone:jagged-reef"] = {
@@ -1450,11 +1450,11 @@ P.transport["subzone:lariss-pavilion"] = {
   },
 }
 P.transport["subzone:launch-bay"] = {
-  hash = "f64f3d",
-  fullHash = "f64f3d",
-  text = "Launch Bay. Hostile leper gnomes and corrupted machines hold Launch Bay, deep in Gnomeregan beyond the Hall of Gears. The underground airfield once served gnomish flying machines and bombers; now the city’s former hangar is under enemy control. Launch Bay’s two tiers once housed Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform where flying machines and heavy bombers remain parked, left behind before the city was evacuated. Crazed leper gnomes now roam the flight decks, maintaining and guarding the idle war machines in place of skilled pilots. Launch Bay also joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs. On the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city.",
+  hash = "38dde1",
+  fullHash = "38dde1",
+  text = "Launch Bay. Hostile leper gnomes and corrupted machines hold Launch Bay beyond the Hall of Gears. Once Gnomeregan’s airfield for flying machines and bombers, this hangar lies deep beneath the city. Two tiers once held Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform, where flying machines and heavy bombers remain parked. They were left behind before the city was evacuated.\n\nCrazed leper gnomes now roam the flight decks. They maintain and guard the idle war machines where skilled pilots once served. Launch Bay joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs.\n\nOn the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_launch-bay-9569bae2753a10b5481b/1-0000.mp3", duration = 52.0881633, start = 0},
+    {file = "Audio/Transport/full_subzone_launch-bay-d01b7dc1e297a7e1ee11/1-0000.mp3", duration = 53.76, start = 0},
   },
 }
 P.transport["subzone:lethlor-ravine"] = {
@@ -1482,11 +1482,11 @@ P.transport["subzone:light-s-hope-chapel"] = {
   },
 }
 P.transport["subzone:loading-room"] = {
-  hash = "33a42e",
-  fullHash = "33a42e",
-  text = "Loading Room. In Gnomeregan's depths, the Loading Room is a dangerous place to pass through. The ruined chamber once staged cargo for the city's transit networks, but radioactive fallout and rogue machinery now threaten anyone who enters. The Loading Room once handled cargo for Gnomeregan's underground transit network. Before the city fell, goods passed through its staging bay on their way across the tinker capital. Now the room is caught in the ruin that has overtaken Gnomeregan. Radioactive fallout, invading troggs, and failing machinery make the area perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger.",
+  hash = "529929",
+  fullHash = "529929",
+  text = "Loading Room. In Gnomeregan's depths, the Loading Room lies amid danger. It once staged cargo for the city's transit networks. Now radioactive fallout and rogue machinery threaten all who enter. Cargo once passed through the Loading Room on its way across Gnomeregan's underground transit network. Goods gathered in its staging bay before the trains carried them through the tinker capital.\n\nNow ruin has overtaken the chamber. Radioactive fallout, invading troggs, and failing machinery make it perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_loading-room-fcbb4a4a1ba6ec17a598/1-0000.mp3", duration = 42.7363265, start = 0},
+    {file = "Audio/Transport/full_subzone_loading-room-0c7da9176f4db562f288/1-0000.mp3", duration = 43.1804082, start = 0},
   },
 }
 P.transport["subzone:lordamere-internment-camp"] = {
@@ -1922,11 +1922,11 @@ P.transport["subzone:pool-of-tears"] = {
   },
 }
 P.transport["subzone:purgation-isle"] = {
-  hash = "d2c903",
-  fullHash = "d2c903",
-  text = "Purgation Isle. Purgation Isle is a spiraling, rocky island lying off the southern coast of the Hillsbrad Foothills. Crowned with a cemetery and a ruined scout tower, the desolate rock is cursed and swarming with the restless, condemned spirits of fallen humans and dwarves. Rising abruptly from the sea south of Hillsbrad, Purgation Isle is a grim sight marked by winding paths that lead past tombstones to an abandoned watchtower. No living nation claims it today. Instead, the isle is plagued by condemned souls—former paladins, priests, mages, and judges who wander among the graves, unable to find peace in death. The lingering souls trapped upon the island have made it a site of sinister interest. Dark spellcasters, such as the ogre necromancer Kormok, are said to have delighted in drawing upon the island's anguished dead, summoning forth its spirits to do their bidding.",
+  hash = "0aa811",
+  fullHash = "0aa811",
+  text = "Purgation Isle. Condemned spirits haunt Purgation Isle, off Hillsbrad’s southern coast. Tombstones and a ruined watchtower mark its winding paths, where fallen humans and dwarves wander without peace. Purgation Isle rises from the sea south of Hillsbrad, its winding paths passing tombstones and an abandoned watchtower. No living nation claims the isle. Condemned souls roam among the graves. They were paladins, priests, mages, and judges, and death has brought them no peace. Dark spellcasters have taken an interest in the condemned souls of Purgation Isle. The ogre necromancer Kormok and others are said to delight in calling upon the anguished dead. They summon the spirits to do their bidding.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_purgation-isle-8a15e3a4ef8ac4574c31/1-0000.mp3", duration = 57.0514286, start = 0},
+    {file = "Audio/Transport/full_subzone_purgation-isle-b3667e86a9cdfd87e661/1-0000.mp3", duration = 45.1395918, start = 0},
   },
 }
 P.transport["subzone:quagmire"] = {
@@ -2082,11 +2082,11 @@ P.transport["subzone:ruins-of-kel-theril"] = {
   },
 }
 P.transport["subzone:ruins-of-lordaeron"] = {
-  hash = "17c1ee",
-  fullHash = "17c1ee",
-  text = "Ruins of Lordaeron. The Ruins of Lordaeron are the hollowed-out surface remnants of Capital City, the once-glorious heart of humanity's northern empire. Destroyed when Prince Arthas murdered his father and unleashed the Scourge, the blasted courtyards and throne room now serve as the fortified gateway to the Undercity below. Capital City was once the radiant summit of human civilization, uniting the northern realms under King Terenas Menethil II. When Prince Arthas returned from Northrend carrying the cursed runeblade Frostmourne, the celebrations turned into a slaughterhouse. Arthas slew his father on the throne, leaving the metropolis to rot under Scourge rule. Following the civil war that tore the Scourge apart, Lady Sylvanas Windrunner claimed the devastated palace, securing the surface while expanding the crypts and dungeons beneath into the Undercity. The palace ruins remain psychically scarred by their violent fall. Travelers walking through the entryway and courtyards often hear the ghostly chime of celebration bells, hushed murmurs of adoring crowds, and the chilling dialogue between Arthas and his father just before the regicide. Blood still stains the floor of the grand throne room, and those possessing magical detection can glimpse spectral citizens eternally reliving the afternoon their prince doomed them all.",
+  hash = "7d1a0f",
+  fullHash = "7d1a0f",
+  text = "Ruins of Lordaeron. At the Ruins of Lordaeron, the hollowed surface of Capital City guards the way into the Undercity. Once the heart of humanity’s northern empire, the city fell when Prince Arthas murdered his father and unleashed the Scourge. Capital City once united the northern realms under King Terenas Menethil II. Its splendor ended when Prince Arthas returned from Northrend with Frostmourne, the cursed runeblade. Celebration gave way to slaughter. Arthas slew his father on the throne, and the Scourge ruled the city as it rotted.\n\nAfter civil war tore the Scourge apart, Lady Sylvanas Windrunner claimed the devastated palace. She secured the surface and expanded the crypts and dungeons below into the Undercity. The palace still bears the psychic wound of its violent fall. In the entryway and courtyards, travelers hear celebration bells, the murmurs of adoring crowds, and the chilling exchange between Arthas and his father before the regicide.\n\nBlood still stains the grand throne room floor. Those with magical detection can glimpse spectral citizens reliving the afternoon their prince doomed them all.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-lordaeron-0fdbe6cc7c3c7a011f79/1-0000.mp3", duration = 79.9085714, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-lordaeron-bcc6081cd0645d286b16/1-0000.mp3", duration = 71.0008163, start = 0},
   },
 }
 P.transport["subzone:ruins-of-ravenwind"] = {
@@ -2586,11 +2586,11 @@ P.transport["subzone:stormrage-barrow-dens"] = {
   },
 }
 P.transport["subzone:stormwind-city"] = {
-  hash = "a28f8f",
-  fullHash = "a28f8f",
-  text = "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance as their capital and seat of power. Rebuilt after the First War, it is the greatest remaining human stronghold in Azeroth since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. The coastal capital flourished behind stone ramparts, with swift rivermills powering the city. In the First War, the Orcish Horde laid siege, broke through its defenses, and burned Stormwind to the ground. Sir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals, and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City has become mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms. Beneath the orderly districts and ceremonial gates, political troubles linger. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor.",
+  hash = "e8e13b",
+  fullHash = "e8e13b",
+  text = "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance from its seat of power. Rebuilt after the First War, it is Azeroth's greatest remaining human stronghold since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. Its coastal ramparts sheltered a flourishing capital, where swift rivermills powered the city. In the First War, the Orcish Horde broke through its defenses and burned Stormwind to the ground.\n\nSir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City is mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms.\n\nYet political troubles linger beneath the orderly districts and ceremonial gates. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne. Highlord Bolvar Fordragon governs as regent, with the whispered counsel of royal advisor Lady Katrana Prestor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-city-1740ad1e2c701909b7de/1-0000.mp3", duration = 87.4057143, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-city-ead6f779c76c24e3bac6/1-0000.mp3", duration = 85.0808163, start = 0},
   },
 }
 P.transport["subzone:stratholme"] = {
@@ -2794,11 +2794,11 @@ P.transport["subzone:thelgen-rock"] = {
   },
 }
 P.transport["subzone:theramore-isle"] = {
-  hash = "b16215",
-  fullHash = "b16215",
-  text = "Theramore Isle. Theramore Isle is a heavily fortified human port citadel off the eastern coast of Dustwallow Marsh. Founded by Lady Jaina Proudmoore for refugees escaping the fall of Lordaeron, it stands as the Alliance's primary bastion in southern Kalimdor. Following the devastation of Dalaran and Lordaeron by the Scourge during the Third War, Lady Jaina Proudmoore guided a fleet of survivors across the Great Sea to the shores of Kalimdor. After fighting alongside orcs and night elves to defeat the Burning Legion atop Mount Hyjal, her coalition of humans, dwarves, and high elves retreated to the misty fringes of Dustwallow Marsh. On a jagged island just off the coast, they built Theramore Isle—a thriving harbor city anchored by towering stone ramparts and Jaina's personal citadel, created to safeguard what remained of the northern kingdoms.",
+  hash = "af084a",
+  fullHash = "af084a",
+  text = "Theramore Isle. Theramore Isle shelters refugees from Lordaeron behind the eastern coast of Dustwallow Marsh. Lady Jaina Proudmoore founded the fortified port, now the Alliance's chief stronghold in southern Kalimdor. After the Scourge ravaged Dalaran and Lordaeron in the Third War, Lady Jaina Proudmoore led survivors across the Great Sea to Kalimdor. There, humans, dwarves, and high elves fought beside orcs and night elves to defeat the Burning Legion atop Mount Hyjal.\n\nAfter the victory, Jaina's coalition withdrew to the misty edge of Dustwallow Marsh. On an island just off the coast, they raised a harbor city with stone ramparts and Jaina's citadel, sheltering what remained of the northern kingdoms.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_theramore-isle-0276edf1a1463e0f89cb/1-0000.mp3", duration = 50.8342857, start = 0},
+    {file = "Audio/Transport/full_subzone_theramore-isle-d82570410698fcd5505e/1-0000.mp3", duration = 45.6620408, start = 0},
   },
 }
 P.transport["subzone:thistleshrub-valley"] = {
@@ -2970,11 +2970,11 @@ P.transport["subzone:uldum"] = {
   },
 }
 P.transport["subzone:undercity"] = {
-  hash = "fa20a2",
-  fullHash = "fa20a2",
-  text = "Undercity. Carved beneath the shattered palace of Capital City, the Undercity serves as the sprawling subterranean stronghold of the Forsaken. Originally a tangle of royal crypts, dungeons, and sewers expanded by the Scourge, it was seized by Sylvanas Windrunner and forged into a heavily fortified capital for her free-willed undead. Before the Third War, the depths beneath Capital City held a vast network of sewers, royal catacombs, and dungeons. During the fall of Lordaeron, Prince Arthas Menethil ordered his Scourge to begin expanding these depths into a subterranean seat of power. When the Lich King summoned Arthas away to Northrend, the death knight left the construction unfinished. Amid the civil war in the Plaguelands, Sylvanas Windrunner rallied those undead whose minds had broken free from the Lich King's grip. After overthrowing the dreadlords and driving out rival forces, the newly christened Forsaken claimed the subterranean complex. They completed the twisted maze of catacombs the Scourge had started, fortifying it into an impenetrable stronghold beneath the silent ruins of their former kingdom. Today, the Dark Lady rules her people from within its poisoned halls.",
+  hash = "801dfe",
+  fullHash = "801dfe",
+  text = "Undercity. Beneath Capital City, the Forsaken hold their underground stronghold, ruled by Sylvanas Windrunner. Its halls began as Scourge work and now shelter the free-willed undead. Before the Third War, sewers, royal catacombs, and dungeons lay beneath Capital City. As Lordaeron fell, Prince Arthas Menethil ordered the Scourge to enlarge them into an underground seat of power. The Lich King summoned Arthas to Northrend before the work was finished. During the civil war in the Plaguelands, Sylvanas Windrunner rallied undead who had escaped the Lich King's grip. She overthrew the dreadlords and drove out rival forces, and the Forsaken claimed the underground complex. They finished the maze of catacombs the Scourge had begun and fortified it beneath the silent ruins of their former kingdom. Now the Dark Lady rules her people from its poisoned halls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_undercity-31f4e7913fd71c16c247/1-0000.mp3", duration = 73.6130612, start = 0},
+    {file = "Audio/Transport/full_subzone_undercity-9b3d7afcf818f936ec3f/1-0000.mp3", duration = 54.1518367, start = 0},
   },
 }
 P.transport["subzone:undercroft"] = {
@@ -3050,11 +3050,11 @@ P.transport["subzone:valor-s-rest"] = {
   },
 }
 P.transport["subzone:valormok"] = {
-  hash = "ee037d",
-  fullHash = "ee037d",
-  text = "Valormok. Valormok is a remote Horde outpost established in the rugged northwest reaches of Azshara. Positioned north of the Haldarr Encampment, this windswept settlement serves as a staging ground for scouts and adventurers braving the cursed, ancient ruins of the coast. Perched among the autumn-colored trees of Azshara, Valormok represents the Horde's tentative interest in a hostile and largely forsaken territory. Life here is bleak and fraught with peril; the camp is lightly fortified and constantly exposed to nearby satyrs, nagas, and prowling beasts. Despite these hardships, its stationed warriors hold the ground, acting as a crucial flight hub and forward bastion connecting Orgrimmar with the wilder stretches of northern Kalimdor.",
+  hash = "c2b28c",
+  fullHash = "c2b28c",
+  text = "Valormok. Valormok keeps a Horde foothold in northwest Azshara. North of the Haldarr Encampment, the outpost sends scouts and travelers toward the cursed ancient ruins along the coast. Autumn-colored trees ring Valormok, where the Horde holds a foothold in a hostile and largely forsaken land. Nearby satyrs, nagas, and prowling beasts threaten the lightly fortified camp. Its warriors hold their ground despite the danger. Wind riders connect Valormok with Orgrimmar and the wilder reaches of northern Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valormok-35b750494917498398a4/1-0000.mp3", duration = 49.0579592, start = 0},
+    {file = "Audio/Transport/full_subzone_valormok-2175bfa5699cbbb59273/1-0000.mp3", duration = 32.3918367, start = 0},
   },
 }
 P.transport["subzone:venture-co-base-camp"] = {
@@ -3194,11 +3194,11 @@ P.transport["subzone:woodpaw-hills"] = {
   },
 }
 P.transport["subzone:workshop-entrance"] = {
-  hash = "2bfbe8",
-  fullHash = "2bfbe8",
-  text = "Workshop Entrance. Beyond the Train Depot, Workshop Entrance gives a backdoor into Gnomeregan. The route opens near the Engineering Labs and bypasses the front gates, offering another way into the irradiated city. Past the Train Depot, Workshop Entrance crosses the cavernous workshop floor toward the industrial heart of Gnomeregan. The opening to the Loading Room lies on one side. This passage runs straight to the Engineering Labs, avoiding the fortified entry gates near the surface, where leper gnomes and troggs contest the way. For those trying to reclaim the underground capital, this side door bypasses the first perimeter.",
+  hash = "9f0056",
+  fullHash = "9f0056",
+  text = "Workshop Entrance. Past the Train Depot, Workshop Entrance offers another way into Gnomeregan. The passage skirts the front gates and reaches the Engineering Labs in the irradiated city. Past the Train Depot, Workshop Entrance crosses the cavernous workshop floor toward Gnomeregan’s industrial heart. The opening to the Loading Room lies on one side. The passage runs straight to the Engineering Labs, away from the fortified gates near the surface. There, leper gnomes and troggs contest the way. Those seeking to reclaim the underground capital can use this side door to bypass the first perimeter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_workshop-entrance-4c8aeaa08990cc925177/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_subzone_workshop-entrance-d24babc4437cc0564c2f/1-0000.mp3", duration = 36.7020408, start = 0},
   },
 }
 P.transport["subzone:writhing-deep"] = {
@@ -3263,5 +3263,45 @@ P.transport["subzone:zul-mashar"] = {
   text = "Zul'Mashar. Zul'Mashar is an ancient forest troll settlement tucked into the northeastern corner of the Eastern Plaguelands. Formerly the proud capital of the Mossflayer tribe, it has deteriorated into a desolate ruin following continuous wars with human kingdoms and the devastation of the Plague of Undeath. Today, its remaining defenders face an insidious collapse as the Scourge works from within to turn them into undead thralls. Long before the Scourge swept across northern Lordaeron, Zul'Mashar served as the seat of power for the Mossflayer forest trolls. Constant border skirmishes against the humans of Lordaeron chipped away at their dominance, leaving their territories fractured. When the Plague of Undeath blanketed the region, it struck the Mossflayers just as mercilessly as it did their mortal enemies. While the great stepped ziggurat of Mazra'Alor still stands, Zul'Mashar is a hollow shell of its former glory. Commanded by Warlord Thresh'jin and Zul'Brin Warpbranch, the remaining trolls cling stubbornly to their ancient home, largely blind to the reality that Scourge influence is already seeping into their ranks and quietly transforming their kin into rotting monstrosities.",
   ["1"] = {
     {file = "Audio/Transport/full_subzone_zul-mashar-ee3616b6eef346fe06ea/1-0000.mp3", duration = 70.7134694, start = 0},
+  },
+}
+P.transport["zone:alteracvalley"] = {
+  hash = "4db24f",
+  fullHash = "4db24f",
+  text = "Alterac Valley. In Alterac Valley, the Frostwolves and Stormpike dwarves fight for control of the snow. The dwarves seek riches and relics they believe link them to their ancestors, while the Frostwolves fight to drive them out. Each side presses through towers and graveyards toward the other's general: Vanndar Stormpike in Dun Baldar or Drek'Thar in Frostwolf Keep. Gul'dan exiled Durotan's Frostwolf clan for defying him, and the orcs found refuge in this cold valley. They made it their home. Long afterward, young Thrall found his father's people here and learned shaman ways from Drek'Thar, the elder.\n\nThrall now leads the Horde in Kalimdor. Many Frostwolves remain in the valley under Drek'Thar's guidance, guarding their homeland fiercely. Led by Vanndar Stormpike, the Stormpike Guard is an expedition of Ironforge dwarves based at the northern fortress of Dun Baldar. They came for the valley's mines and for relics they believe link them to their ancestors.\n\nThey have dug in with bunkers and towers, holding fast with stubborn pride. The Frostwolves call them invaders; the dwarves claim the valley's secrets by right of discovery. The battle for Alterac Valley pits one army against another. Fighters storm towers and bunkers, seize graveyards, and claim the valley's mines for their side.\n\nEach side must break through to the enemy general and bring them down. The Horde faces Vanndar Stormpike in Dun Baldar; the Alliance faces Drek'Thar in Frostwolf Keep.",
+  ["1"] = {
+    {file = "Audio/Transport/full_zone_alteracvalley-a451a3faed4c6a82562d/1-0000.mp3", duration = 96.6269388, start = 0},
+  },
+}
+P.transport["zone:arathibasin"] = {
+  hash = "36e29b",
+  fullHash = "36e29b",
+  text = "Arathi Basin. In Arathi Basin, the League of Arathor and the Defilers fight over the valley's wealth. The League seeks to reclaim Arathor's lost lands for Stormwind, while the Forsaken aim to cut the humans off from their dwarven allies to the south. Its farm, stables, lumber mill, blacksmith and gold mine feed the war. Long before the Third War, Arathi Basin's fields, mills and mines fed Stromgarde, heir to ancient Arathor. When Lordaeron fell and Stromgarde crumbled, the valley was left almost undefended, though its farmsteads and workshops still stood.\n\nWhoever holds them now commands grain, timber, iron and gold. Those stores keep an army in the field, and make this quiet valley one of the most fought-over places in the highlands. The League of Arathor is an Alliance company formed from Stromgarde's survivors and their friends. Backed by Stormwind, they work from Refuge Pointe and have sworn to reclaim the lands their forebears built.\n\nThe Defilers are the Forsaken's answer: hardened troops of the Undercity under Varimathras's watchful eye. They fight alongside the Horde at Hammerfall. Their aim is to take the basin's riches and sever the road joining the northern humans to the dwarves of the south. Five strongpoints decide the battle: the farm, the stables, the lumber mill, the blacksmith and the gold mine. Each side races to raise its banner over them and defend what it claims. Every strongpoint held adds to its store of resources.\n\nRaiders slip between the points to seize one while the enemy is busy elsewhere. The side that gathers enough resources first wins the basin, for a time.",
+  ["1"] = {
+    {file = "Audio/Transport/full_zone_arathibasin-bdd59ab0e1b9c269804d/1-0000.mp3", duration = 103.601633, start = 0},
+  },
+}
+P.transport["zone:darkspearislands"] = {
+  hash = "f5cb71",
+  fullHash = "f5cb71",
+  text = "Darkspear Islands. The Horde and Alliance fight across the Darkspear Islands off Kalimdor's coast. The ceremonial isles are sacred to Vol'jin's trolls, while the Alliance seeks a foothold on the shore and a chance to strike at the Horde's pride. Victory goes to the side that holds the strongpoints, seizes the Darkspear Islands flag and gathers 2000 resources first. The Darkspear are an island people. Driven from Stranglethorn Vale by larger, crueler rivals, they made their lives among the islands of the southern seas. They keep these isles off Kalimdor's coast for their rites and the loa they honor.\n\nOn islands like these, Thrall's storm-wrecked fleet found Sen'jin's people beset by Kul Tiran sailors, murlocs and a sea witch. There, the trolls first swore themselves to the Horde. To a Darkspear, an enemy banner over the ceremonial grounds means desecration as well as defeat. For the Horde, holding the isles is a debt of honor. The Darkspear stood with Thrall when the Horde had little else, so orcs, tauren and Forsaken fight beside them to keep the trolls' holy ground. For the Alliance, these islands are a foothold off Kalimdor's coast and a way to strike where Horde pride runs deepest. Neither side speaks of peace. Every landing is answered, and every fallen camp is fought over again. Numbers alone cannot hold the islands. The fighting runs from the Camp and the old Ruins to the Abandoned Tower and Shipwreck Cove. Each side builds up its store of resources by capturing and holding the strongpoints. Seizing the Darkspear Islands flag can turn the tide. The first side to gather 2000 resources wins the day and drives its enemies back to their ships, until the next landing.",
+  ["1"] = {
+    {file = "Audio/Transport/full_zone_darkspearislands-0947800875c4392a15c5/1-0000.mp3", duration = 110.001633, start = 0},
+  },
+}
+P.transport["zone:hyjal"] = {
+  hash = "3f6289",
+  fullHash = "3f6289",
+  text = "Mount Hyjal. On Mount Hyjal, Nordrassil still crowns the sacred mountain above the second Well of Eternity. In the last battle of the Third War, night elves, humans and orcs held the slopes against the Burning Legion until Archimonde fell at the World Tree's roots. The battle scarred the mountain, and the wounded tree still stands over the Well. Ten thousand years ago, after the Great Sundering, Illidan Stormrage poured stolen waters from the first Well of Eternity into a lake atop Mount Hyjal. There he made a second Well. The Dragon Aspects raised the World Tree Nordrassil over its waters to guard it. Their blessings gave the night elves immortality and bound them deeply to the Emerald Dream. For millennia, the kaldorei watched over the mountain while their druids slept in the barrow deeps beneath it. During the Third War, Archimonde led the Scourge and the Burning Legion up Mount Hyjal to drain the Well and destroy the World Tree. Jaina Proudmoore's humans and Thrall's Horde set aside old hatreds to stand with Tyrande Whisperwind and Malfurion Stormrage.\n\nThey held the slopes while Malfurion prepared a trap. When Archimonde reached Nordrassil, Malfurion sounded the Horn of Cenarius. Thousands of wisps swarmed the demon, and the tree's stored power tore him apart. The night elves lost their immortality, and Nordrassil was scorched. Beneath Mount Hyjal lie the barrow deeps, where the Druids of the Claw slept in bear form for thousands of years. Malfurion woke them with the Horn of Cenarius to fight the Legion. Today, the barrow deeps and hyjal summit, high on the mountain, rank among Kalimdor's most perilous places. Only great war bands of seasoned heroes can face them.",
+  ["1"] = {
+    {file = "Audio/Transport/full_zone_hyjal-2e4bb9d3d6967b384e3a/1-0000.mp3", duration = 110.236735, start = 0},
+  },
+}
+P.transport["zone:warsonggulch"] = {
+  hash = "d86642",
+  fullHash = "d86642",
+  text = "Warsong Gulch. At the border of Ashenvale and the Barrens, Warsong Gulch is where the Horde and Alliance fight without pause. Warsong orcs cut timber for the Horde, while the night elves of Silverwing Hold defend their sacred forest. Fighters of many races raid the opposing stronghold to seize its banner. The Horde builds its home in Kalimdor with wood, much of it cut in Ashenvale. The Warsong clan, Grom Hellscream's warriors, have felled trees here since the Horde first landed. Their Warsong Mill at the gulch's end supplies the Horde's camps and walls. The night elves see each fallen tree as a wound to a forest they have guarded for ten thousand years. They also remember that Grom's warriors slew Cenarius in these woods. The Horde's fighters are the Warsong Outriders, supplied from Mor'shan Base Camp on the northern edge of the Barrens. There, Kelm Hargunth keeps them armed and fed. The Silverwing Sentinels of Silverwing Hold stand against them.\n\nThese night elf warriors are sworn to drive every invader from Ashenvale, and Illiyana Moonblaze supplies them at Silverwing Grove. Allies also flock to the gulch: dwarves and humans beside the Sentinels, and tauren, trolls and Forsaken beside the Outriders. The Warsong Mill stands at one end of the gulch, and Silverwing Hold at the other. Each stronghold keeps its side's banner. Fighters raid the enemy's hold, seize its flag and race back as defenders hunt them down. Every banner carried home strikes at the enemy's pride. The side that captures the most wins the day.",
+  ["1"] = {
+    {file = "Audio/Transport/full_zone_warsonggulch-8fc77e15fbd449bbaced/1-0000.mp3", duration = 95.9477551, start = 0},
   },
 }

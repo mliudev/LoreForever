@@ -17,16 +17,16 @@
   "wiki": "Blood Feeders",
   "chain": []
  },
- "summary": "In Malaka'jin, the scent of butchered game draws Deepmoss spiders into the trolls' camps. Xen'Zilla asks the Horde to drive the predators back from the settlement.",
+ "summary": "In Malaka'jin, Blood Feeders begin with butchered game drawing Deepmoss spiders toward the trolls' camps. Xen'Zilla asks the Horde to drive the predators back from the settlement.",
  "sections": [
   {
    "title": "Unwanted Dinner Guests",
-   "body": "The trolls founded Malaka'jin as a frontier outpost in southeastern Stonetalon Mountains, where they could hunt. The craggy slopes yield plenty of game, but its meat draws nocturnal predators into camp. Deepmoss spiders are aggressive arachnids native to the crags and canyons to the north. Under cover of darkness, they slip in to scavenge the trolls' stores or hunt the hunters themselves.",
+   "body": "The trolls founded Malaka'jin as a frontier outpost in southeastern Stonetalon Mountains, where they could hunt. The craggy slopes offer plenty of game, but its meat draws nocturnal predators into camp. Deepmoss spiders are aggressive arachnids native to the crags and canyons to the north. Under cover of darkness, they slip in to scavenge the trolls' stores or hunt the hunters themselves.",
    "spoiler": 0
   },
   {
    "title": "Clearing the Crags",
-   "body": "Xen'Zilla asks you to track the predators north into the mountain passes, keeping Malaka'jin safe and protecting its supplies. Deepmoss Creepers and Venomspitters gather thickest around the rocky ravines and webs of Sishir Canyon. Thinning their numbers pushes the brood back from the settlement, so the hunters can rest without fearing an ambush from the shadows.",
+   "body": "Xen'Zilla asks you to track the predators north into the mountain passes. That will help keep Malaka'jin safe and protect its supplies. Deepmoss Creepers and Venomspitters gather thickest around the rocky ravines and webs of Sishir Canyon. Thin their numbers, and the brood will retreat from the settlement. Then the hunters can rest without fearing an ambush from the shadows.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "spider attacks malakajin",
     "why are spiders invading"
    ],
-   "answer": "The scent of fresh kills and drying meat draws Deepmoss spiders down from the mountain passes at night. The trolls of Malaka'jin hunt the local game, and the spiders come to steal provisions and hunt the villagers."
+   "answer": "The scent of fresh kills and drying meat draws Deepmoss spiders down from the mountain passes at night. The trolls of Malaka'jin hunt local game, and the spiders come to steal provisions and hunt the villagers."
   },
   {
    "q": "Where are the Deepmoss spiders located?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a troll, you share kinship with the hunters of Malaka'jin, who strive to carve out self-sufficient territory in Kalimdor's rugged highlands without succumbing to the wilderness."
+   "text": "As a troll, you share kinship with Malaka'jin's hunters. They strive to carve out self-sufficient territory in Kalimdor's rugged highlands without succumbing to the wilderness."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help safeguard Malaka'jin, which anchors the Horde's access route into Stonetalon Mountains from the northern Barrens. The village protects the entire southern pass."
+   "text": "As a member of the Horde, you help safeguard Malaka'jin. The village anchors the Horde's access route into Stonetalon Mountains from the northern Barrens and protects the entire southern pass."
   },
   {
    "target": "class:Hunter",
@@ -119,5 +119,5 @@
  "attribution": [
   "Blood Feeders"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ironband's Excavation Site"
  },
- "summary": "Prospector Ironband’s dig lies south of the Loch, where troggs have driven the miners from their trenches. The excavation in southeastern Loch Modan, southwest of Farstrider Lodge, has been halted.",
+ "summary": "In southeastern Loch Modan, troggs have driven the miners from Ironband's Excavation Site. The dig lies south of the Loch and southwest of Farstrider Lodge.",
  "sections": [
   {
    "title": "Unearthing the Past",
-   "body": "Prospector Ironband’s dig in southeastern Loch Modan began with a search into the dwarves’ ancient Titan origins. The work ended in disaster when the miners disturbed an unusually fierce, large breed of subterranean troggs. The creatures surged from the earth, drove the miners back, and made camp among scattered tools, broken carts, and half-excavated relics.",
+   "body": "Prospector Ironband began the dig to seek the dwarves’ ancient Titan origins. Then the miners disturbed an unusually fierce and large breed of subterranean troggs. The creatures surged from the earth and drove the miners back. Now they camp among scattered tools, broken carts, and half-excavated relics.",
    "spoiler": 0
   },
   {
    "title": "Ruins in the Red Earth",
-   "body": "The troggs hold the site, while surviving prospectors wait at the edge of the perimeter. Like efforts in the Badlands, Wetlands, and Uldaman, this dig is caught in danger. The prospectors hope to reclaim their stolen gear and guard exposed artifacts, including strange ancient statues left by long-forgotten builders, from the ravenous troggs.",
+   "body": "Troggs hold the site while surviving prospectors wait at its perimeter. Like archaeological efforts in the Badlands, Wetlands, and Uldaman, this dig is caught in danger. The prospectors hope to reclaim their stolen gear and guard exposed artifacts from the ravenous troggs. Strange ancient statues remain among those artifacts, left by long-forgotten builders.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is ironbands digsite",
     "ironband map"
    ],
-   "answer": "Ironband's Excavation Site lies in southeastern Loch Modan, directly south of the Loch and southwest of Farstrider Lodge."
+   "answer": "Ironband's Excavation Site lies in southeastern Loch Modan, south of the Loch and southwest of Farstrider Lodge."
   },
   {
    "q": "Who is Prospector Ironband?",
@@ -36,7 +36,7 @@
     "who is ironband",
     "prospector ironband lore"
    ],
-   "answer": "Prospector Ironband is an archaeologist and explorer leading the excavation for the dwarven Explorers' League. He is trying to salvage artifacts and drive back the local troggs."
+   "answer": "Prospector Ironband is an archaeologist and explorer leading the Explorers' League excavation. He is trying to salvage artifacts and drive back the local troggs."
   },
   {
    "q": "Why is the excavation site overrun with troggs?",
@@ -45,7 +45,7 @@
     "who attacked the digsite",
     "ironband troggs"
    ],
-   "answer": "The miners dug deeper into Loch Modan and broke into underground pockets inhabited by a large, aggressive breed of troggs. The troggs overwhelmed the workers and seized the site."
+   "answer": "Miners dug deeper into Loch Modan and broke into underground pockets inhabited by a large, aggressive breed of troggs. The troggs overwhelmed the workers and seized the site."
   },
   {
    "q": "What were the dwarves hoping to find here?",
@@ -54,17 +54,17 @@
     "ironband artifacts",
     "why dig here"
    ],
-   "answer": "The dwarves hoped to find ancient Titan relics and stone ruins that could shed light on the ancestral origins of their race."
+   "answer": "The dwarves hoped to find ancient Titan relics and stone ruins that could shed light on their race's ancestral origins."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For the Explorers' League, losing the dig is a stinging setback. Recovering ancient relics here matters to understanding dwarven heritage."
+   "text": "As a dwarf, you know that losing this dig is a stinging setback for the Explorers' League. Recovering ancient relics here matters to understanding dwarven heritage."
   },
   {
    "target": "profession:Mining",
-   "text": "The quarry and open pits show how dwarves use heavy extraction techniques. Trogg hostility makes prospecting hazardous."
+   "text": "As a miner, you can see how dwarves use heavy extraction techniques in the quarry and open pits. Trogg hostility makes prospecting hazardous."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Ironband's Excavation Site"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Elaadrin notes a vibrant arcane aura around practitioners of magic, valuing the rare aptitude and will required to master the arcane and preserve their homeland."
+   "text": "As a mage, you carry an arcane aura that Elaadrin recognizes. He values the rare aptitude and resolve needed to master the arcane and preserve your homeland."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "elaadrin evengale",
     "who is the supreme magister"
    ],
-   "answer": "Elaadrin Evengale is the current Supreme Magister of the High Order. He oversees their operations from a lodge situated in the southeastern corner of Valanaar, searching for individuals with the arcane aptitude and resolve to protect their home.",
+   "answer": "Elaadrin Evengale leads the High Order as its Supreme Magister. From a lodge in Valanaar’s southeast, he seeks people with the arcane aptitude and resolve to defend their home.",
    "q": "Who is Elaadrin Evengale?"
   },
   {
@@ -33,7 +33,7 @@
     "where to find elaadrin evengale",
     "valanaar lodge location"
    ],
-   "answer": "Elaadrin Evengale and his followers operate out of a lodge located in the far southeastern area of Valanaar.",
+   "answer": "Elaadrin Evengale and his followers work from a lodge in Valanaar’s far southeast.",
    "q": "Where can Elaadrin Evengale be found?"
   },
   {
@@ -41,7 +41,7 @@
     "what is high order",
     "high order lore"
    ],
-   "answer": "The High Order is an arcane organization operating within Valanaar under Supreme Magister Elaadrin Evengale. They focus on wielding arcane power to defend their home, despite dwindling numbers and rising local tensions.",
+   "answer": "The High Order is an arcane organization in Valanaar, led by Supreme Magister Elaadrin Evengale. Its members wield arcane power to defend their home, though their numbers are dwindling and tensions in the settlement are rising.",
    "q": "What is the High Order?"
   },
   {
@@ -50,7 +50,7 @@
     "windshapers conflict",
     "valanaar tensions"
    ],
-   "answer": "The High Order and the Windshapers harbor an intense rivalry in Valanaar. Local leadership insists on keeping a wide berth between them to prevent open faction violence in the streets, especially with cult activity threatening the settlement.",
+   "answer": "The High Order and the Windshapers are bitter rivals in Valanaar. Local leaders urge them to keep apart and prevent violence in the streets, especially with cult activity threatening the settlement.",
    "q": "Why is there conflict between the High Order and the Windshapers?"
   },
   {
@@ -58,7 +58,7 @@
     "who is rathiril",
     "rathiril missive"
    ],
-   "answer": "Rathiril is an associate or member who directs promising adventurers to the High Order in Valanaar via magical missives, alerting Elaadrin Evengale to individuals with notable potential.",
+   "answer": "Rathiril directs promising newcomers to the High Order in Valanaar through magical missives. These messages alert Elaadrin Evengale to people of notable potential.",
    "q": "Who is Rathiril?"
   },
   {
@@ -66,7 +66,7 @@
     "what cult in valanaar",
     "cult threat valanaar"
    ],
-   "answer": "A mysterious cult is active around Valanaar, presenting enough of a danger that local authorities actively suppress infighting between groups like the High Order and the Windshapers to keep the settlement secure.",
+   "answer": "A mysterious cult active around Valanaar threatens the settlement. Local authorities work to quell conflict between groups such as the High Order and the Windshapers to keep Valanaar secure.",
    "q": "What cult threatens Valanaar?"
   }
  ],
@@ -86,18 +86,19 @@
  ],
  "sections": [
   {
-   "body": "Upon arriving in Valanaar, newcomers of notable promise are directed toward the High Order. Led by Supreme Magister Elaadrin Evengale, the organization operates from a lodge in the far southeastern reaches of the settlement. Elaadrin monitors new arrivals closely, seeking those possessing the strength, resolve, and arcane aura necessary to confront the perils surrounding their endangered home.",
+   "body": "New arrivals of promise in Valanaar are directed to the High Order. Supreme Magister Elaadrin Evengale leads it from a lodge in the settlement’s far southeast. He watches newcomers closely, seeking the strength, resolve, and arcane aura to face the dangers threatening their home.",
    "spoiler": 0,
    "title": "The High Order of Valanaar"
   },
   {
-   "body": "Valanaar suffers from fragile internal peace. The High Order and the Windshapers share deep hostility, prompting warnings for newcomers to give the Windshapers a wide berth to prevent violence erupting in the streets. With a dangerous cult lurking nearby, local leaders cannot afford internal bloodshed while external threats loom over the town.",
+   "body": "Peace in Valanaar is fragile. The High Order and the Windshapers are bitter enemies, so newcomers are warned to keep their distance from the Windshapers lest violence break out in the streets. A dangerous cult lurks nearby. With threats outside the town, its leaders cannot afford bloodshed within.",
    "spoiler": 0,
    "title": "Rival Factions and Looming Cults"
   }
  ],
- "summary": "The Supreme Magister directs newly arrived adventurers in Valanaar to Elaadrin Evengale, leader of the High Order. Operating from a lodge in the southeastern part of the settlement, the order seeks capable allies while navigating bitter friction with the Windshapers and the looming menace of a local cult.",
+ "summary": "In Valanaar, Elaadrin Evengale draws new arrivals toward the High Order. From a lodge in the settlement’s southeast, the order seeks allies as it faces hostile Windshapers and a nearby cult.",
  "attribution": [
   "In-game quest text: The Supreme Magister"
- ]
+ ],
+ "style": 2
 }

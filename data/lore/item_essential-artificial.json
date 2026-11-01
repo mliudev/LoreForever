@@ -10,16 +10,16 @@
    "quest:2924"
   ]
  },
- "summary": "In Ironforge, Essential Artificial parts remain vital to gnomish tinkers and engineers rebuilding from exile. Stockpiles were left behind when the gnomes fled Gnomeregan.",
+ "summary": "In Ironforge, Essential Artificial parts help gnomish tinkers and engineers rebuild after exile. The gnomes left stockpiles behind when they fled Gnomeregan.",
  "sections": [
   {
    "title": "Standard Issue Ingenuity",
-   "body": "Before Gnomeregan fell, tinkers called the Essential Artificial a nigh-universal component. Gnomish engineers fitted it into countless contraptions, clockwork wonders, and heavy machinery throughout the subterranean halls. Its standardized design gave smiths and machinists reliable parts they could interchange.",
+   "body": "Before Gnomeregan fell, tinkers relied on the Essential Artificial as a component for many uses. Gnomish engineers fitted it into contraptions, clockwork wonders and heavy machinery throughout the subterranean halls. Its standard design let smiths and machinists exchange parts with confidence.",
    "spoiler": 0
   },
   {
    "title": "Salvage from the Depths",
-   "body": "The trogg invasion and radiation disaster drove the gnomes from Gnomeregan in a desperate rush. Large reserves of Essential Artificial parts stayed behind in heavy, steam-powered dispensers called artificial extrapolators, scattered through the deeper passages. In Tinker Town, master craftsman Klockmort Spannerspan actively recruits daring adventurers to return to the contaminated ruins and salvage the parts, so research and invention can continue.",
+   "body": "The trogg invasion and radiation disaster drove the gnomes from Gnomeregan in a desperate rush. Large stores of Essential Artificial parts remained in heavy, steam-powered dispensers called artificial extrapolators, scattered through the deeper passages.\n\nIn Tinker Town, master craftsman Klockmort Spannerspan seeks daring adventurers to return to the contaminated ruins and recover the parts. He needs them so research and invention can continue.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "essential artificial item",
     "what is this component"
    ],
-   "answer": "An Essential Artificial is a standardized, versatile mechanical component that gnomish smiths and tinkers use in experiments, machines, and contraptions."
+   "answer": "The Essential Artificial is a standardized mechanical component. Gnomish smiths and tinkers use it in experiments, machines and contraptions."
   },
   {
    "q": "Why were they left behind in Gnomeregan?",
@@ -39,7 +39,7 @@
     "why are they in gnomeregan",
     "why abandoned"
    ],
-   "answer": "The trogg invasion and deadly radiation forced the gnomes to flee in a rush, leaving stockpiles of everyday components in storage devices."
+   "answer": "The trogg invasion and deadly radiation forced the gnomes to flee in a rush. Stockpiles of everyday components remained in storage devices."
   },
   {
    "q": "Who wants these components recovered?",
@@ -48,7 +48,7 @@
     "who takes these",
     "klockmort spannerspan quest"
    ],
-   "answer": "Ambitious inventor Klockmort Spannerspan, based in Tinker Town within Ironforge, seeks the parts for his ongoing experiments and technological research in exile."
+   "answer": "Klockmort Spannerspan, an ambitious inventor in Tinker Town within Ironforge, seeks the parts for his experiments and technological research in exile."
   },
   {
    "q": "Where are they found inside the ruins?",
@@ -56,17 +56,17 @@
     "where do i find essential artificials",
     "artificial extrapolator location"
    ],
-   "answer": "Essential Artificial parts are stored in large, steam-powered containers called artificial extrapolators throughout the deeper levels of contaminated Gnomeregan."
+   "answer": "Large, steam-powered containers called artificial extrapolators hold Essential Artificial parts throughout the deeper levels of contaminated Gnomeregan."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, recovering each component from Gnomeregan's irradiated corridors helps your people rebuild their technological superiority while taking refuge in Ironforge."
+   "text": "As a gnome, recovering components from Gnomeregan's irradiated corridors helps your people rebuild their technological superiority while taking refuge in Ironforge."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can appreciate how these nigh-universal parts fit seamlessly into varied machinery and experimental designs."
+   "text": "As an engineer, you can see how these widely used parts fit varied machinery and experimental designs."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Essential Artificial",
   "Essential Artificials"
  ],
- "style": 1
+ "style": 2
 }

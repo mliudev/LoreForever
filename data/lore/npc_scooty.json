@@ -8,16 +8,16 @@
   "wiki": "Scooty",
   "refs": 1
  },
- "summary": "In Booty Bay, Scooty runs a teleport link to Gnomeregan from the busy pirate port. The goblin engineer calls himself a master of his craft and keeps transponders tied to an experimental pad in the fallen gnome city. His device gives Horde forces a perilous route into Dun Morogh.",
+ "summary": "From Booty Bay’s busy pirate port, Scooty keeps a teleport link to Gnomeregan. The goblin engineer trusts his craft and his transponders, though the experimental pad lies in the fallen gnome city. For the Horde, his device opens a perilous route into Dun Morogh.",
  "sections": [
   {
    "title": "Booty Bay's Teleportation Expert",
-   "body": "Scooty holds court among Booty Bay’s wharves and workshops as one of the Steamwheedle Cartel’s most ambitious tinkerers. While many goblins favor gunpowder and explosives, he has turned to moving matter across great distances. He calibrates transponders to keep a working link with a teleportation pad inside Gnomeregan. Horde forces rely heavily on his craft to reach the subterranean gnome stronghold without crossing dangerous Alliance territory.",
+   "body": "Among Booty Bay’s wharves and workshops, Scooty pursues ambitious tinkering for the Steamwheedle Cartel. While many goblins favor gunpowder and explosives, he works to move matter across great distances. His transponders keep a working link to a teleportation pad inside Gnomeregan. Horde forces rely on his craft to reach the subterranean gnome stronghold without crossing dangerous Alliance territory.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Gadgets and Goblin Risk",
-   "body": "Keeping experimental goblin teleporters running is rarely dull. After hearing of a new gnomish rig in Gnomeregan, Scooty and his partner Sovik built the Transpolyporter 6000. Scooty cheerfully admits it has exploded a dozen or so times. Crossing continents as scattered matter carries clear physical dangers, yet Scooty remains sure of his genius. He treats every mechanical failure as a small obstacle on the road to innovation.",
+   "body": "Experimental goblin teleporters rarely run without a hitch. After hearing of a new gnomish rig in Gnomeregan, Scooty and his partner Sovik built the Transpolyporter 6000. Scooty cheerfully admits it has exploded a dozen or so times. Crossing continents as scattered matter carries clear physical dangers, yet Scooty remains sure of his genius. To him, every mechanical failure is a small obstacle on the road to innovation.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "scooty npc",
     "booty bay scooty"
    ],
-   "answer": "Scooty is a goblin engineer in Booty Bay who claims to be a master engineer. He maintains and calibrates the Goblin Transponder network, which links the port to an experimental teleportation pad deep inside Gnomeregan."
+   "answer": "Scooty works as a goblin engineer in Booty Bay and claims to be a master engineer. He maintains and calibrates the Goblin Transponder network, which links the port to an experimental teleportation pad deep inside Gnomeregan."
   },
   {
    "q": "Why does Scooty have a teleporter to Gnomeregan?",
@@ -39,7 +39,7 @@
     "how does scooty teleporter work",
     "scooty port to gnomer"
    ],
-   "answer": "Scooty linked Booty Bay to an experimental teleportation pad inside Gnomeregan to allow direct travel into the gnome city. For the Horde, the device offers a vital route into Dun Morogh without crossing the heavily fortified Alliance homelands."
+   "answer": "Scooty linked Booty Bay to an experimental teleportation pad inside Gnomeregan to allow direct travel into the gnome city. For the Horde, it offers an indispensable route into Dun Morogh without crossing the heavily fortified Alliance homelands."
   },
   {
    "q": "Where is Scooty located?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Scooty"
  ],
- "style": 1
+ "style": 2
 }

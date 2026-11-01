@@ -17,16 +17,16 @@
   "wiki": "The Adventurer (Elwynn Forest)",
   "chain": []
  },
- "summary": "In Northshire Valley, Marshal McBride sends The Adventurer toward Goldshire to find Sam Sarsaparilla. You have shown your skill defending the abbey, and McBride wants you to look into the newcomer.",
+ "summary": "From Northshire Valley, Marshal McBride sends you toward Goldshire to find Sam Sarsaparilla. You have proved your skill defending the abbey, and now he wants you to look into a newcomer.",
  "sections": [
   {
    "title": "Leaving the Valley",
-   "body": "As threats from the local Defias and vermin ease, Marshal McBride turns his attention to the road beyond Northshire Valley. Stormwind's regular forces are stretched thin across the kingdom, so the local garrison relies on promising fighters to watch travelers and wanderers in the surrounding woods.",
+   "body": "With the Defias and vermin threats easing, McBride turns his attention to the road beyond the valley. His garrison needs promising fighters to watch travelers and wanderers in the surrounding woods.",
    "spoiler": 0
   },
   {
    "title": "A Curious Newcomer",
-   "body": "Marshal McBride asks you to check on Sam Sarsaparilla, a newcomer spotted near Goldshire. It is an unusual request, not a military order or a bounty hunt, and it leads you from Northshire's secluded valley into the wider wilds of Elwynn Forest.",
+   "body": "Marshal McBride asks you to check on Sam Sarsaparilla, who was spotted near Goldshire. This is neither a military order nor a hunt for a bounty. The newcomer draws you from Northshire’s secluded valley into Elwynn’s wider wilds.",
    "spoiler": 0
   }
  ],
@@ -74,7 +74,7 @@
     "does this leave northshire",
     "go to goldshire"
    ],
-   "answer": "Yes. You leave Northshire Valley through its southern gates and follow the forest road toward Goldshire."
+   "answer": "Yes. Leave Northshire Valley through its southern gates and follow the forest road toward Goldshire."
   },
   {
    "q": "Is this part of the normal Stormwind military chain of command?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For new Alliance recruits finishing their service in Northshire, this is the first official step into the wider realm of Elwynn Forest."
+   "text": "For new Alliance recruits finishing their service in Northshire, this is your first official step into the wider realm of Elwynn Forest."
   },
   {
    "target": "race:Human",
@@ -112,5 +112,5 @@
  "attribution": [
   "The Adventurer (Elwynn Forest)"
  ],
- "style": 1
+ "style": 2
 }

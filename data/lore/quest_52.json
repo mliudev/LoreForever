@@ -17,16 +17,16 @@
   "wiki": "Protect the Frontier",
   "chain": []
  },
- "summary": "Guard Thomas watches Elwynn's eastern bridge as predators threaten the frontier. Stormwind's forces are thin here, and wolves and bears have grown bold near the Eastvale Logging Camp. He asks capable adventurers to cull the beasts threatening travelers and workers.",
+ "summary": "At Elwynn's eastern bridge, Guard Thomas asks you to thin the wolves and bears threatening travelers and workers near Eastvale Logging Camp. The beasts have grown bold, putting roads and logging crews at risk.",
  "sections": [
   {
    "title": "A Thinning Defense",
-   "body": "Guard Thomas watches the bridge over the river at Elwynn Forest's eastern edge. Goldshire and the Northshire Valley have a visible Stormwind garrison, but this frontier receives far less protection. With Stormwind's forces stretched across the realm, Thomas is one of few sentries between the settled heartlands and the wilderness. Travelers help keep vital supply roads open.",
+   "body": "Goldshire and Northshire Valley have visible Stormwind garrisons. The eastern frontier has far fewer guards. Guard Thomas watches the river crossing, one of the few sentries between the settled heartlands and the wilderness. Travelers help keep the supply roads open.",
    "spoiler": 0
   },
   {
    "title": "The Predatory Threat",
-   "body": "Eastvale Logging Camp supplies timber to Stormwind City, but woodsmen felling trees at the forest's edge meet dangerous wildlife. Prowlers, gray forest wolves, and young forest bears now roam near roads and lumber yards. Culling them eases the danger to local workers for a time. Thomas suspects a disturbance deeper in the woods is driving the beasts toward settlements.",
+   "body": "Eastvale Logging Camp sends timber to Stormwind City. Woodsmen cutting trees at the forest's edge face prowlers, gray forest wolves, and young forest bears near the roads and lumber yards. Culling the beasts eases the danger to local workers for a time. Thomas suspects something deeper in the woods is driving them toward settlements.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why are wolves attacking eastvale",
     "animal attacks elwynn"
    ],
-   "answer": "Wolves and bears are pressing near roads and work sites around Eastvale Logging Camp. Thomas suspects something deeper in the wilderness is agitating them and driving them toward settled ground."
+   "answer": "Wolves and bears press near roads and work sites around Eastvale Logging Camp. Thomas suspects something deeper in the wilderness is agitating them and driving them toward settled ground."
   },
   {
    "q": "Where is the Eastvale Logging Camp?",
@@ -82,7 +82,7 @@
     "protect the frontier follow up",
     "turn in protect the frontier"
    ],
-   "answer": "When you report back, Guard Thomas thanks you, and logging caravans can travel more safely. He remains wary that the dark influence that stirred the beasts may bring further trouble to the forest."
+   "answer": "When you report back, Guard Thomas thanks you, and logging caravans can travel more safely. He remains wary that the dark influence stirring the beasts may bring further trouble to the forest."
   }
  ],
  "angles": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Protect the Frontier"
  ],
- "style": 1
+ "style": 2
 }

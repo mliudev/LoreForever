@@ -17,21 +17,21 @@
   "wiki": "Messenger to Westfall (2)",
   "chain": []
  },
- "summary": "A letter from Westfall brings Magistrate Solomon a hard answer in Lakeshire. He asked Gryan Stoutmantle for soldiers to defend Redridge, but Westfall has been left to face its own troubles.",
+ "summary": "In Lakeshire, Magistrate Solomon receives a hard answer from Westfall. He asked Gryan Stoutmantle for soldiers to defend Redridge, but Westfall faces troubles of its own.",
  "sections": [
   {
    "title": "A Plea Across Shifting Frontiers",
-   "body": "Magistrate Solomon faces growing troubles in the Redridge Mountains without Stormwind's royal garrison. He looks to the southern frontier for help and writes to Gryan Stoutmantle, commander of the People's Militia in Westfall. Solomon hopes the volunteers at Sentinel Hill can spare fighters to strengthen Lakeshire's defenses. He does not know how hard pressed the western plains are.",
+   "body": "Magistrate Solomon faces growing troubles in the Redridge Mountains without Stormwind's royal garrison. So he writes to Gryan Stoutmantle, commander of the People's Militia in Westfall, and asks the southern frontier for help. Solomon hopes the volunteers at Sentinel Hill can spare fighters to strengthen Lakeshire's defenses. He does not know how hard pressed the western plains are.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Refusal",
-   "body": "Gryan Stoutmantle refuses, though the answer weighs heavily on him. Westfall is fighting the Defias Brotherhood and marauding gnolls because the House of Nobles and the crown have abandoned the kingdom's breadbasket. The People's Militia formed so the people could survive. Its ranks lose good men each day, and Stoutmantle cannot spare a single fighter for Redridge.",
+   "body": "Gryan Stoutmantle refuses, though the answer weighs heavily on him. Westfall fights the Defias Brotherhood and marauding gnolls because the House of Nobles and the crown have abandoned the kingdom's breadbasket. The People's Militia formed to help the people survive. Its ranks lose good men each day, and Stoutmantle cannot spare a single fighter for Redridge.",
    "spoiler": 0
   },
   {
    "title": "The Kingdom's Fracturing Realm",
-   "body": "When you carry Stoutmantle's reply back to Lakeshire, Solomon sees that the frontier territories share the same neglect. Local magistrates and citizen militias are left to defend themselves while the Stormwind Army remains withheld. Solomon turns his attention south, toward Darkshire in Duskwood, hoping to find aid there.",
+   "body": "When you carry Stoutmantle's reply back to Lakeshire, Solomon sees the frontier territories share the same neglect. Local magistrates and citizen militias must defend themselves while the Stormwind Army remains withheld. Solomon turns south toward Darkshire in Duskwood, hoping to find aid there.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "militia refuse lakeshire",
     "stoutmantle response"
    ],
-   "answer": "Westfall is already fighting the Defias Brotherhood and defending itself from marauding gnolls. Stoutmantle says the Militia exists because Stormwind abandoned Westfall, and it has no fighters to spare."
+   "answer": "Westfall is already fighting the Defias Brotherhood and marauding gnolls. Stoutmantle says the Militia exists because Stormwind abandoned Westfall, and it has no fighters to spare."
   },
   {
    "q": "Where is the Stormwind Army during these crises?",
@@ -61,7 +61,7 @@
     "where is the army",
     "stormwind desertion"
    ],
-   "answer": "No one in the letters knows why the Stormwind Army is away. Solomon and Stoutmantle can only wonder what keeps it from defending the outer provinces."
+   "answer": "The letters do not say why the Stormwind Army is away. Solomon and Stoutmantle can only wonder what keeps it from defending the outer provinces."
   },
   {
    "q": "What happens after returning Stoutmantle's letter to Solomon?",
@@ -69,7 +69,7 @@
     "next quest after messenger to westfall",
     "what does solomon do next"
    ],
-   "answer": "After learning Westfall cannot help, Magistrate Solomon turns to Duskwood. He sends you on to Darkshire, hoping Mayor Ello Ebonlocke's Night Watch can offer aid."
+   "answer": "After learning Westfall cannot help, Magistrate Solomon turns to Duskwood. He sends you to Darkshire, hoping Mayor Ello Ebonlocke's Night Watch can offer aid."
   },
   {
    "q": "What is the People's Militia?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Messenger to Westfall (2)"
  ],
- "style": 1
+ "style": 2
 }

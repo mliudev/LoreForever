@@ -17,16 +17,16 @@
   "wiki": "Glyphic Memorandum (quest)",
   "chain": []
  },
- "summary": "In Coldridge Valley, a memorandum calls novice mages to Anvilmar. Mountaineer Sten Stoutarm passes it to new arrivals, who are invited to meet its author, Marryk Nurribit, and begin their spellcraft studies.",
+ "summary": "In Anvilmar, Mountaineer Sten Stoutarm gives you a memorandum from mage trainer Marryk Nurribit, who invites you to meet him.",
  "sections": [
   {
    "title": "A Missive for Novice Mages",
-   "body": "Mountaineer Sten Stoutarm has a memorandum for the new mages he assists in Coldridge Valley. He hands it to you and advises you to read it, then go inside Anvilmar to meet the gnome who wrote it.",
+   "body": "The summons is for you, a novice mage Sten assists in Coldridge Valley. Read it, then go inside Anvilmar to meet the gnome who wrote it. Your spellcraft studies begin there.",
    "spoiler": 0
   },
   {
    "title": "Training with Marryk Nurribit",
-   "body": "Inside Anvilmar, gnome mage trainer Marryk Nurribit gives newcomers plain advice before teaching them. Stay out of serious trouble, save coin for training and tavern drinks, and keep clear of fallen Gnomeregan and its radioactive danger. Marryk is ready to teach you the arcane arts.",
+   "body": "Inside Anvilmar, gnome mage trainer Marryk Nurribit offers plain advice before your lessons. Keep out of serious trouble and save coin for training and tavern drinks. Stay clear of fallen Gnomeregan and its radioactive danger. Marryk is ready to teach you the arcane arts.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who gives glyphic memorandum",
     "sten stoutarm quest"
    ],
-   "answer": "After you help mountaineer Sten Stoutarm with his early duties in Coldridge Valley, he hands you the memorandum."
+   "answer": "After you help mountaineer Sten Stoutarm with his early duties in Coldridge Valley, he gives you the memorandum."
   },
   {
    "q": "Who is Marryk Nurribit?",
@@ -45,7 +45,7 @@
     "who is marryk",
     "anvilmar mage trainer"
    ],
-   "answer": "Marryk Nurribit is a gnome mage trainer inside Anvilmar in Coldridge Valley. He teaches new mages their early spells and how to practice arcane arts safely."
+   "answer": "Marryk Nurribit is a gnome mage trainer inside Anvilmar in Coldridge Valley. He teaches new mages their early spells and how to practice the arcane arts safely."
   },
   {
    "q": "Where can I find Marryk Nurribit?",
@@ -61,7 +61,7 @@
     "marryk gnomeregan warning",
     "why stay away from gnomeregan"
    ],
-   "answer": "Troggs overran Gnomeregan, and a catastrophic release of radioactive gas contaminated it. The city is perilous for a novice wandering Dun Morogh."
+   "answer": "Troggs overran Gnomeregan, and a catastrophic release of radioactive gas contaminated the city. It is perilous for a novice wandering Dun Morogh."
   },
   {
    "q": "What classes receive this task?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Glyphic Memorandum (quest)"
  ],
- "style": 1
+ "style": 2
 }

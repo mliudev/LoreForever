@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Elaadrin channels crackling arcane power when provoked, underscoring that the High Order's dedication to logic is backed by formidable magical force."
+   "text": "As a mage, you can see Elaadrin channel crackling arcane power when provoked. The High Order's devotion to logic rests alongside formidable magical force."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "quest giver avenged tenfold",
     "who gives this quest"
    ],
-   "answer": "Elaadrin is a representative of the High Order who initially sought a peaceful diplomatic resolution with the Al'Aketh cult. After his envoy and close friend Belathaan Brightwish was murdered, Elaadrin abandoned diplomacy and ordered the cultists destroyed.",
+   "answer": "Elaadrin represents the High Order and first sought peace with the Al'Aketh cult. After they murdered his envoy and close friend Belathaan Brightwish, he abandoned diplomacy and ordered the cultists destroyed.",
    "q": "Who is Elaadrin?"
   },
   {
@@ -33,7 +33,7 @@
     "who is belathaan brightwish",
     "why did belathaan die"
    ],
-   "answer": "Belathaan Brightwish was a close friend of Elaadrin who was dispatched as an envoy to the Shrine of Akir to open peaceful dialogue with the Al'Aketh cult. The cult brutally murdered him and returned a box containing his severed tongue, painted in silver pigment, back to Elaadrin.",
+   "answer": "Belathaan Brightwish was Elaadrin's close friend and envoy to the Shrine of Akir, sent to open peaceful dialogue with the Al'Aketh cult. The cult murdered him and returned a box to Elaadrin containing his severed tongue, painted with silver pigment.",
    "q": "What happened to Belathaan Brightwish?"
   },
   {
@@ -42,7 +42,7 @@
     "who are the cultists",
     "al'aketh cult"
    ],
-   "answer": "The Al'Aketh are a violent cult operating north of Valanaar, active around the Gustberry Fields and the Shrine of Akir. They carry prayer charms known as Al'Aketh Windstone Charms and violently reject peaceful overtures from outsiders.",
+   "answer": "The Al'Aketh are a violent cult active north of Valanaar, around the Gustberry Fields and Shrine of Akir. They carry prayer charms called Al'Aketh Windstone Charms and reject peaceful overtures from outsiders with violence.",
    "q": "Who are the Al'Aketh cultists?"
   },
   {
@@ -50,7 +50,7 @@
     "what is the high order",
     "high order beliefs"
    ],
-   "answer": "The High Order is an organization that prides itself on pragmatism, intellect, and logic. They generally consider conflict avoidance and the preservation of life to be the most prudent path, though they are capable of fierce magical retribution when crossed.",
+   "answer": "The High Order prizes pragmatism, intellect, and logic. Its members generally favor avoiding conflict and preserving life, but can answer a grave offense with fierce magical retribution.",
    "q": "What is the High Order?"
   },
   {
@@ -58,7 +58,7 @@
     "who are the windshapers",
     "windshapers peacekeepers"
    ],
-   "answer": "The Windshapers and Peacekeepers are factions that initially reacted to the Al'Aketh cult's violence with displays of force and posturing. While Elaadrin originally criticized their response as reckless escalation, he ultimately conceded that they were right to dismiss diplomatic appeals.",
+   "answer": "The Windshapers and Peacekeepers are factions that first answered the Al'Aketh cult's violence with forceful displays and posturing. Elaadrin called their response reckless, but later conceded they were right to dismiss diplomatic appeals.",
    "q": "Who are the Windshapers?"
   },
   {
@@ -67,7 +67,7 @@
     "where are gustberry fields",
     "where are the cultists"
    ],
-   "answer": "The Al'Aketh cultists congregate north of Valanaar, specifically in the Gustberry Fields and around the Shrine of Akir, where Belathaan Brightwish was sent before his death.",
+   "answer": "The Al'Aketh cultists gather north of Valanaar, in the Gustberry Fields and around the Shrine of Akir. Belathaan Brightwish was sent to the Shrine before his death.",
    "q": "Where are the Al'Aketh cultists found?"
   }
  ],
@@ -88,23 +88,24 @@
  ],
  "sections": [
   {
-   "body": "When the Al'Aketh cult launched their violent campaign, factions like the Peacekeepers and Windshapers responded with armed posturing. Elaadrin, representing the High Order, viewed such aggressive displays as a foolish escalation. Committed to the High Order's principles of pragmatism and conflict avoidance, Elaadrin believed reasoned dialogue was still possible and dispatched his close friend, Belathaan Brightwish, to the Shrine of Akir to negotiate peace.",
+   "body": "The Al'Aketh cult's violence brought armed posturing from factions like the Peacekeepers and Windshapers. Elaadrin spoke for the High Order and saw such displays as a foolish escalation. His order prizes pragmatism and avoids conflict, so he still believed reasoned dialogue could work. He sent his close friend, Belathaan Brightwish, to the Shrine of Akir to negotiate peace.",
    "spoiler": 0,
    "title": "The Diplomatic Overture"
   },
   {
-   "body": "The cult answered Elaadrin's diplomatic overture with horrific brutality. A package arrived containing Belathaan's severed tongue, coated in silver pigment. Horrified and burdened by guilt, Elaadrin recognized that taking the high road had cost his dear friend's life. Admitting the Windshapers were correct in rejecting negotiations, he abandoned diplomacy entirely and commanded travelers to hunt the cultists across the Gustberry Fields and the Shrine of Akir, collecting their Al'Aketh Windstone Charms.",
+   "body": "The Al'Aketh cult answered with a package bearing Belathaan's severed tongue, coated in silver pigment. Elaadrin was horrified and burdened by guilt. He saw that taking the high road had cost his dear friend's life, and admitted the Windshapers were right to reject negotiations. He abandoned diplomacy and called on travelers to hunt the cultists across the Gustberry Fields and the Shrine of Akir, collecting their Al'Aketh Windstone Charms.",
    "spoiler": 1,
    "title": "A Ghoulish Rejection"
   },
   {
-   "body": "The High Order upholds logic above sentiment, reasoning that avoiding bloodshed is almost always the prudent path. However, Elaadrin demonstrates that cold logic cuts both ways when adversaries mistake restraint for helplessness. Bristling with crackling arcane energy, he makes clear that while the High Order prefers peace, those who butcher their emissaries will face overwhelming retribution.",
+   "body": "The High Order puts logic before sentiment and holds that avoiding bloodshed is usually the prudent path. Yet Elaadrin shows how cold logic cuts both ways when foes mistake restraint for helplessness. Crackling arcane energy gathers around him. The High Order favors peace, but those who butcher its emissaries face overwhelming retribution.",
    "spoiler": 0,
    "title": "Prudence and Arcane Wrath"
   }
  ],
- "summary": "Avenged Tenfold centers on Elaadrin, a scholar of the High Order who attempted to resolve an outbreak of cult violence through peaceful negotiation. After his emissary and dear friend Belathaan Brightwish is gruesomely butchered by the Al'Aketh cult, Elaadrin abandons diplomacy in favor of swift, magical retribution against the cultists north of Valanaar.",
+ "summary": "Elaadrin turns from diplomacy to retribution after the Al'Aketh cult answers his appeal with violence. The High Order scholar had sent his dear friend Belathaan Brightwish to seek peace at the Shrine of Akir, north of Valanaar.",
  "attribution": [
   "In-game quest text: Avenged Tenfold"
- ]
+ ],
+ "style": 2
 }

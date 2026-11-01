@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Gathers who hone their floral craft can create Incense Candles, turning harvested wilderness herbs into aromatic camp aids for spellcasting allies."
+   "text": "As an herbalist, you can make Incense Candles from gathered wild herbs to aid spellcasters at camp."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance herbalists are directed to the dwarven city of Ironforge to seek out Reyna Stonebranch for instruction in specialized fieldcraft."
+   "text": "As an Alliance herbalist, you can seek Reyna Stonebranch in Ironforge for instruction in fieldcraft."
   },
   {
    "target": "race:Dwarf",
-   "text": "The knowledge for crafting these herbal camping aids is held in Ironforge by the herbalism instructor Reyna Stonebranch."
+   "text": "As a dwarf, you can find herbalism instructor Reyna Stonebranch in Ironforge, where she teaches how to make Incense Candles."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "herbalism camping quest",
     "herbalism camp guide"
    ],
-   "answer": "Camping 101: Herbalism is an instructional directive directing skilled gatherers to learn how to apply their botanical craft toward outdoor survival and wilderness camping.",
+   "answer": "Herbalists learn to put wild plants to practical use in camp. Reyna Stonebranch teaches the craft in Ironforge.",
    "q": "What is Camping 101: Herbalism?"
   },
   {
@@ -41,7 +41,7 @@
     "where is reyna stonebranch",
     "reyna stonebranch location"
    ],
-   "answer": "Reyna Stonebranch is an herbalism trainer stationed within the great dwarven city of Ironforge who teaches proficient herbalists how to craft campsite items.",
+   "answer": "Reyna Stonebranch teaches proficient herbalists in Ironforge how to make Incense Candles for camp.",
    "q": "Who is Reyna Stonebranch?"
   },
   {
@@ -50,7 +50,7 @@
     "incense candle camping",
     "incense candle purpose"
    ],
-   "answer": "An Incense Candle is an aromatic camping item crafted by herbalists that uplifts spirits at camp, offering a refreshing boost especially favored by healers and spellcasters.",
+   "answer": "An Incense Candle brings a soothing aroma to camp and lifts the spirits of travelers.",
    "q": "What does an Incense Candle do?"
   },
   {
@@ -58,7 +58,7 @@
     "who benefits from incense candle",
     "is incense candle for casters"
    ],
-   "answer": "High spirits help maintain endurance, making the soothing aroma of an Incense Candle particularly beneficial to healers and magic users recuperating between journeys.",
+   "answer": "Its soothing aroma helps spellcasters and healers find a calmer place during long expeditions.",
    "q": "Why are Incense Candles useful to spellcasters?"
   },
   {
@@ -66,7 +66,7 @@
     "where do i go for camping herbalism",
     "which city for camping 101 herbalism"
    ],
-   "answer": "The quest directs herbalists to travel to Ironforge in Khaz Modan to meet with Reyna Stonebranch once they have demonstrated proper proficiency in harvesting.",
+   "answer": "Herbalists travel to Ironforge to meet Reyna Stonebranch after proving their skill in gathering herbs.",
    "q": "Where must herbalists travel for this instruction?"
   },
   {
@@ -74,7 +74,7 @@
     "when can i learn incense candle",
     "herbalism camping requirement"
    ],
-   "answer": "Herbalists must show sufficient proficiency and practical skill in gathering herbs before Reyna Stonebranch will impart the techniques for crafting camp incense.",
+   "answer": "Herbalists must prove their skill in gathering herbs before Reyna Stonebranch teaches them to make Incense Candles.",
    "q": "What is required before learning to craft the candle?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Gathering herbs across the wilds is far more than simple flower picking. Skilled botanists discover that harvested flora can be turned toward practical outdoor survival, supplying traveling parties with valuable camp craft. For gatherers looking to expand their utility beyond basic reagent harvesting, learning specialized wilderness techniques turns wild plants into essential support items.",
+   "body": "Gathering wild herbs can serve a camp as well as a traveling party. With skill, herbalists turn what they gather into useful aids for life outdoors.",
    "spoiler": 0,
    "title": "Practical Field Botany"
   },
   {
-   "body": "Proficient herbalists are directed to seek out Reyna Stonebranch in the mountain city of Ironforge. Upon proving their capability in the craft, herbalists can learn to fashion an Incense Candle. These aromatic candles bring welcome relief to campsites, raising the spirits of traveling companions and providing a calming environment that spellcasters and healers particularly appreciate during long expeditions.",
+   "body": "In Ironforge, proficient herbalists can seek instruction from Reyna Stonebranch. Once they prove their skill, she teaches them to make an Incense Candle. Its soothing aroma lifts the spirits at camp and brings calm to spellcasters and healers on long expeditions.",
    "spoiler": 0,
    "title": "Aromatics for the Hearth"
   }
  ],
- "summary": "Camping 101: Herbalism directs promising herbalists to Reyna Stonebranch in Ironforge to expand their practical craft. Gatherers learn to combine wild herbs into soothing Incense Candles for camp life. These aromatic field creations raise spirits and assist spellcasters during demanding wilderness expeditions.",
+ "summary": "In Ironforge, herbalists can learn to make Incense Candles for life in camp. Reyna Stonebranch teaches the craft to gatherers ready to put wild herbs to practical use.",
  "attribution": [
   "In-game quest text: Camping 101: Herbalism"
- ]
+ ],
+ "style": 2
 }

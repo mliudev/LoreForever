@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Library (Ironforge)"
  },
- "summary": "In Ironforge's Library, the Explorers' League keeps its histories and recovered relics. The eastern wing of the Hall of Explorers holds books and artifacts gathered from across Azeroth.",
+ "summary": "In Ironforge, the Explorers' League keeps its histories and recovered relics in the Library. The eastern wing of the Hall of Explorers holds books and artifacts gathered across Azeroth.",
  "sections": [
   {
    "title": "Heart of the Explorers' League",
-   "body": "Dwarven scholars study relics and field reports from across the world in a great chamber of the Hall of Explorers. The Explorers' League keeps the Library, where shelves hold chronicles of the War of the Three Hammers, the ancient Troll Wars, and the origins of the dwarven race. Librarian Mae Paledust helps visitors find rare books and records.",
+   "body": "In the Hall of Explorers, dwarven scholars study relics and field reports in a great chamber. The Explorers' League keeps the Library, where shelves hold chronicles of the War of the Three Hammers, the ancient Troll Wars, and the origins of the dwarven race. Librarian Mae Paledust helps visitors find rare books and records.",
    "spoiler": 0
   },
   {
    "title": "The Museum Displays",
-   "body": "Curator Thorius oversees the Library's displays of physical finds from deep excavations, abandoned ruins, and distant shorelines. League members study, preserve, and display these objects. The collection ranges from crude murloc idols and carved knives to relics recovered frozen in northern ice. Curators record each find as they piece together the history of the Titans and early Azeroth.",
+   "body": "Curator Thorius oversees displays of finds from deep excavations, abandoned ruins, and distant shorelines. League members study, preserve, and display these objects. The collection ranges from crude murloc idols and carved knives to relics recovered frozen in northern ice. Curators record each find as they piece together the history of the Titans and early Azeroth.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "ironforge librarian",
     "museum curator"
    ],
-   "answer": "Librarian Mae Paledust helps with written collections and archival searches, while Curator Thorius oversees the museum wing and its physical historical artifacts."
+   "answer": "Librarian Mae Paledust helps visitors with written collections and archival searches. Curator Thorius oversees the museum wing and its physical historical artifacts."
   },
   {
    "q": "What kind of books can be read here?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can find accounts here of the Awakening and the War of the Three Hammers, kept in the hall King Magni Bronzebeard devoted to uncovering your Titan origins."
+   "text": "As a dwarf, you can find accounts here of the Awakening and the War of the Three Hammers. These records are kept in the hall King Magni Bronzebeard devoted to uncovering your Titan origins."
   },
   {
    "target": "faction:Alliance",
@@ -90,5 +90,5 @@
  "attribution": [
   "Library (Ironforge)"
  ],
- "style": 1
+ "style": 2
 }

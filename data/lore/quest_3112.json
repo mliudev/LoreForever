@@ -17,16 +17,16 @@
   "wiki": "Simple Memorandum (quest)",
   "chain": []
  },
- "summary": "In Coldridge Valley, a message calls new gnome warriors to Anvilmar. Sten Stoutarm passes along Thran Khorman’s summons, inviting trained fighters to learn the arts of war and prepare to reclaim Gnomeregan.",
+ "summary": "In Coldridge Valley, gnome warriors receive a call to Anvilmar. Sten Stoutarm carries Thran Khorman’s summons to trained fighters, who are invited to learn the arts of war and prepare to reclaim Gnomeregan.",
  "sections": [
   {
    "title": "A Summons to Anvilmar",
-   "body": "As you help Sten Stoutarm drive off troggs and boars in Coldridge Valley, he receives a short message for a young gnome warrior. Thran Khorman, a veteran trainer in Anvilmar, sees promise in the refugee fighter. He calls the newcomer to the central hall to begin martial instruction.",
+   "body": "You help Sten Stoutarm drive off troggs and boars in Coldridge Valley. Thran Khorman, a veteran trainer in Anvilmar, sees promise in the refugee recruit. He calls the recruit to the central hall for martial instruction.",
    "spoiler": 0
   },
   {
    "title": "A Pledge of Solidarity",
-   "body": "Dwarven trainers may tease gnome warriors about their size, but Thran Khorman takes their loss seriously. He asks them to imagine how dwarves would feel if Ironforge fell to the Dark Irons. Thran has pledged to help the exiled gnomes, and he will teach them the arts of war until they are ready to reclaim their home.",
+   "body": "Dwarven trainers may tease gnome warriors about their size, but Thran Khorman takes their loss seriously. He asks them to imagine how dwarves would feel if Ironforge fell to the Dark Irons. Thran has pledged to help the exiled gnomes. He teaches them the arts of war until they are ready to reclaim their home.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this note",
     "memorandum quest"
    ],
-   "answer": "Sten Stoutarm hands gnome warriors a note in Coldridge Valley, directing them to Thran Khorman, the warrior trainer in Anvilmar’s great hall."
+   "answer": "In Coldridge Valley, Sten Stoutarm gives gnome warriors a note directing them to Thran Khorman, the warrior trainer in Anvilmar’s great hall."
   },
   {
    "q": "Who sends the memorandum?",
@@ -54,7 +54,7 @@
     "why thran trains gnomes",
     "gnome warrior lore"
    ],
-   "answer": "Thran Khorman pledged to help the exiled gnomes. He respects their resolve and understands their loss, comparing Gnomeregan’s fall to Ironforge being conquered by the Dark Irons."
+   "answer": "Thran Khorman pledged to help the exiled gnomes. He respects their resolve and understands their loss. He compares Gnomeregan’s fall to Ironforge being conquered by the Dark Irons."
   },
   {
    "q": "Where do I find Thran Khorman?",
@@ -116,5 +116,5 @@
  "attribution": [
   "Simple Memorandum (quest)"
  ],
- "style": 1
+ "style": 2
 }

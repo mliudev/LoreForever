@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This task represents an essential milestone for young paladins, proving their faith and connection to the Light by wielding the Symbol of Life to resurrect a fallen ally."
+   "text": "As a paladin, you prove your faith and bond with the Light by wielding the Symbol of Life to restore a fallen ally."
   },
   {
    "target": "faction:Alliance",
-   "text": "Defias spellcasters operating in northeastern Elwynn threaten the security of Stormwind's heartland, making intelligence gathering at Heroes' Vigil vital to the Alliance."
+   "text": "Defias spellcasters in northeastern Elwynn threaten Stormwind's heartland. Gathering intelligence at Heroes' Vigil matters to the Alliance."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "henze faulk",
     "where is henze"
    ],
-   "answer": "Henze Faulk is a brave defender who ventured with Gazin to Heroes' Vigil on Stone Cairn Lake to secure evidence of Defias infiltration. He held off Defias mages so his companion could escape, ultimately falling to their arcane attacks before being resurrected through the Symbol of Life.",
+   "answer": "Henze Faulk is a defender who went with Gazin to Heroes' Vigil on Stone Cairn Lake to find proof of Defias infiltration. He held off the mages so Gazin could escape, and fell to their spells. The Symbol of Life later restored him to life.",
    "q": "Who is Henze Faulk?"
   },
   {
@@ -37,7 +37,7 @@
     "heroes vigil location",
     "heroes vigil island"
    ],
-   "answer": "Heroes' Vigil is an island situated in the middle of Stone Cairn Lake in northeastern Elwynn Forest. Defias mages and rogues have established an outpost there, poring over secretive plans.",
+   "answer": "Heroes' Vigil is an island in the middle of Stone Cairn Lake in northeastern Elwynn Forest. Defias mages and rogues have made an outpost there, where they pore over plans.",
    "q": "Where is Heroes' Vigil?"
   },
   {
@@ -46,7 +46,7 @@
     "how to rez henze",
     "symbol of life use"
    ],
-   "answer": "The Symbol of Life is a holy item used to channel a paladin's faith and resurrect the fallen. It requires true spiritual conviction to empower, making its successful use on Henze Faulk a test of a paladin's calling.",
+   "answer": "The Symbol of Life is a holy item that channels a paladin's faith to restore the fallen. It needs true spiritual conviction, making its use on Henze Faulk a test of a paladin's calling.",
    "q": "What is the Symbol of Life?"
   },
   {
@@ -55,7 +55,7 @@
     "duthroian or gazin",
     "quest giver tome of divinity"
    ],
-   "answer": "Gazin Tenorm, who escaped the Defias on the island and now lies wounded near the altar in Stormwind's Cathedral of Light, asks for help. He is a friend of Duthorian Rall, the paladin leader who sent the initiate to him.",
+   "answer": "Gazin Tenorm asks for help after escaping the Defias on the island. Wounded, he lies near the altar in Stormwind's Cathedral of Light. He is a friend of Duthorian Rall, the paladin leader who sent the initiate to him.",
    "q": "Who directs the rescue of Henze Faulk?"
   },
   {
@@ -64,7 +64,7 @@
     "what are defias doing stone cairn lake",
     "defias plans elwynn"
    ],
-   "answer": "Defias operatives infiltrated northeastern Elwynn and gathered at Heroes' Vigil to review documents and coordinate their operations. Henze and Gazin sought to recover these documents as proof for the king's advisors.",
+   "answer": "Defias operatives have crossed into northeastern Elwynn and gathered at Heroes' Vigil to study documents and coordinate their operations. Henze and Gazin sought those documents as proof for the king's advisors.",
    "q": "What are the Defias doing at Heroes' Vigil?"
   },
   {
@@ -72,7 +72,7 @@
     "why were henze and gazin there",
     "henze and gazin mission"
    ],
-   "answer": "Henze Faulk and Gazin journeyed to Stone Cairn Lake after hearing reports of Defias infiltrators. Their goal was to ambush the conspirators and recover written proof of their plans to present to King Anduin's advisors in Stormwind.",
+   "answer": "Henze Faulk and Gazin went to Stone Cairn Lake after hearing reports of Defias infiltrators. They meant to ambush the conspirators and recover written proof of their plans for King Anduin's advisors in Stormwind.",
    "q": "Why did Henze and Gazin go to Stone Cairn Lake?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "Henze Faulk and his partner Gazin traveled to Heroes' Vigil, an island in the middle of Stone Cairn Lake in northeastern Elwynn Forest, after hearing reports that Defias Brotherhood agents had infiltrated the borders. Seeking undeniable proof to present to the king's royal advisors, the two scouts attempted to ambush a pair of conspirators reviewing plans. However, they were swiftly overwhelmed when Defias spellcasters joined the fray. Henze sacrificed himself by standing his ground against the hostile mages, buying Gazin enough time to escape with his life.",
+   "body": "Henze Faulk and Gazin traveled to Heroes' Vigil after hearing that Defias Brotherhood agents had crossed into northeastern Elwynn Forest. The island lies in the middle of Stone Cairn Lake. The scouts sought proof to present to the king's royal advisors, so they tried to ambush two conspirators reviewing plans.\n\nDefias spellcasters soon joined the fight, and the scouts were overwhelmed. Henze stood his ground against the mages, sacrificing himself to give Gazin time to escape with his life.",
    "spoiler": 0,
    "title": "Ambush at Heroes' Vigil"
   },
   {
-   "body": "Recovering from the ambush requires more than ordinary medicine; it demands the power of the Holy Light. Armed with the Symbol of Life, an aspiring paladin is dispatched to Stone Cairn Lake to locate Henze's fallen body on the island. Channeling personal faith through the sacred artifact restores Henze to life, marking a pivotal test of a holy warrior's spiritual bond and readiness to serve the Light in Stormwind's defense.",
+   "body": "Ordinary medicine cannot restore Henze; only the Holy Light can. With the Symbol of Life, you are sent to find his fallen body on the island in Stone Cairn Lake.\n\nYour faith, channeled through the sacred artifact, brings Henze back to life. This test shows a paladin's spiritual bond and readiness to serve the Light in Stormwind's defense.",
    "spoiler": 1,
    "title": "The Gift of Resurrection"
   }
  ],
- "summary": "The Tome of Divinity is a sacred trial of faith and sacrifice for paladins in Elwynn Forest. After an ambush by Defias mages leaves the scout Henze Faulk dead at Heroes' Vigil, an aspiring holy warrior must wield the Symbol of Life to resurrect him and thwart the brotherhood's encroaching schemes.",
+ "summary": "In Elwynn, faith and sacrifice are tested when a Defias ambush leaves Henze Faulk dead at Heroes' Vigil. With the Symbol of Life, you are sent to restore him and hinder the brotherhood's schemes.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

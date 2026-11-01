@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The herbal remedies of Teldrassil reflect the kaldorei belief that their world tree sustains and protects them, offering living medicine against sudden afflictions."
+   "text": "Teldrassil's herbal remedies reflect the kaldorei belief that their world tree sustains and protects them. Its living plants can help against sudden afflictions."
   },
   {
    "target": "class:Druid",
-   "text": "Druids appreciate the natural restorative properties found within Teldrassil's flora, relying on native plants like lasher fronds rather than artificial concoctions."
+   "text": "Druids value the restorative properties of Teldrassil's plants. They use native growth such as lasher fronds rather than artificial concoctions."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Gathering native plant materials like dewy lasher fronds to brew potent healing salves is second nature to practiced herbalists."
+   "text": "Practiced herbalists know how to gather native plants like dewy lasher fronds and brew them into healing salves."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "great tree provides quest",
     "byancie quest"
    ],
-   "answer": "The Great Tree Provides is an urgent task in Dolanaar given by Byancie, who seeks to concoct a restorative salve to halt an affliction threatening Eralya until further treatment is possible.",
+   "answer": "Byancie asks for help in Dolanaar because Eralya suffers from an affliction. A restorative salve can keep it at bay until further treatment is possible.",
    "q": "What is The Great Tree Provides?"
   },
   {
@@ -41,7 +41,7 @@
     "byancie dolanaar",
     "quest giver byancie"
    ],
-   "answer": "Byancie is a night elf healer or apothecary residing in the village of Dolanaar on Teldrassil, dedicated to tending to the sick and preparing natural remedies from the local flora.",
+   "answer": "Byancie is a night elf healer or apothecary in Dolanaar on Teldrassil. She tends the sick and prepares natural remedies from local plants.",
    "q": "Who is Byancie?"
   },
   {
@@ -50,7 +50,7 @@
     "what happened to eralya",
     "eralya affliction"
    ],
-   "answer": "Eralya is an afflicted individual currently outside Dolanaar whose condition is rapidly deteriorating. Byancie needs an emergency salve to stabilize her long enough to bring her safely into town for full treatment.",
+   "answer": "Eralya is afflicted and outside Dolanaar. Her condition is worsening, so Byancie needs a salve to stabilize her for the journey into town and full treatment.",
    "q": "Who is Eralya and what happened to her?"
   },
   {
@@ -59,7 +59,7 @@
     "dewy lasher fronds location",
     "lasher fronds teldrassil"
    ],
-   "answer": "Dewy lasher fronds grow on plant lashers surrounding Lake Al'Ameth directly south of Dolanaar, as well as along Wellspring Lake and its river to the northwest.",
+   "answer": "Dewy lasher fronds grow on plant lashers around Lake Al'Ameth, south of Dolanaar, and along Wellspring Lake and its river to the northwest.",
    "q": "Where are dewy lasher fronds found?"
   },
   {
@@ -68,7 +68,7 @@
     "salve ingredients dolanaar",
     "great tree provides items"
    ],
-   "answer": "Byancie requires six dewy lasher fronds harvested from native lashers, an empty vial, and refreshing spring water to mix the emergency healing salve.",
+   "answer": "Byancie needs six dewy lasher fronds, an empty vial, and refreshing spring water to prepare the salve.",
    "q": "What ingredients are required to prepare the salve?"
   },
   {
@@ -77,7 +77,7 @@
     "empty vial dolanaar",
     "refreshing spring water dolanaar"
    ],
-   "answer": "Both empty vials and refreshing spring water can be purchased directly from general or trade supplies vendors stationed in the settlement of Dolanaar.",
+   "answer": "General or trade supplies vendors in Dolanaar sell empty vials and refreshing spring water.",
    "q": "Where can you obtain an empty vial and refreshing spring water?"
   }
  ],
@@ -100,18 +100,19 @@
  ],
  "sections": [
   {
-   "body": "In the forested village of Dolanaar, Byancie tends to the well-being of the local night elves. When news arrives that Eralya has fallen victim to a dangerous affliction out in the wilds of Teldrassil, Byancie immediately sets to work preparing an emergency treatment. Without a quick-acting salve to halt the progression of the ailment, Eralya will not survive the journey back to the village for formal care.",
+   "body": "Byancie tends to the night elves of Dolanaar. When she learns that Eralya has fallen ill in the wilds of Teldrassil, she begins preparing an urgent treatment. Without a salve to slow the affliction, Eralya may not survive the journey back to Dolanaar for proper care.",
    "spoiler": 0,
    "title": "A Race Against Time"
   },
   {
-   "body": "Even in moments of crisis, the kaldorei put their trust in the bounty of Teldrassil. Byancie turns to the living world tree for the cure, seeking dewy lasher fronds known to flourish near Lake Al'Ameth to the south and Wellspring Lake to the northwest. Blended with clean spring water in a simple glass vial, these potent leaves provide the vital medicine needed to hold the affliction at bay.",
+   "body": "Byancie seeks a remedy in Teldrassil's living bounty. Dewy lasher fronds grow near Lake Al'Ameth to the south and Wellspring Lake to the northwest. Blended with clean spring water in a glass vial, the leaves make medicine that can hold the affliction at bay.",
    "spoiler": 0,
    "title": "The Bountiful World Tree"
   }
  ],
- "summary": "The Great Tree Provides is a quest in Dolanaar where Byancie enlists aid to halt a dangerous affliction threatening Eralya. By harvesting dewy lasher fronds from Teldrassil's lakes and gathering basic supplies, players help prepare an urgent restorative salve.",
+ "summary": "Byancie works in Dolanaar to save Eralya from a dangerous affliction. Dewy lasher fronds from Teldrassil's lakes and a few simple supplies can make a salve to keep the illness at bay.",
  "attribution": [
   "In-game quest text: The Great Tree Provides"
- ]
+ ],
+ "style": 2
 }

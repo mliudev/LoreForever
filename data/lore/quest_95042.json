@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Ulric Frostveil, a Forsaken in Ashenvale, sees your search for a Kor Gem as familiar work for Alliance spellcasters. He points you toward Blackfathom Deeps, where naga still use the gems.",
+ "summary": "In Ashenvale, Ulric Frostveil sees your search for a Kor Gem as familiar work for Alliance spellcasters. He points you north to Blackfathom Deeps, where naga still use the gems.",
  "sections": [
   {
    "title": "A Gem in Ashenvale",
-   "body": "Ulric asks you to bring him a Kor Gem from the ruins of Blackfathom Deeps, north of Ashenvale. He says the naga below still use the gems, which can empower magical weapons and implements. He warns you not to go alone.",
+   "body": "Ulric asks you to bring him a Kor Gem from the ruins of Blackfathom Deeps, north of Ashenvale. The naga below still use the gems. They can empower magical weapons and implements, but Ulric warns you not to go alone.",
    "spoiler": 0
   },
   {
    "title": "Ulric's Interest",
-   "body": "Ulric recognizes corruption in the gem and says he can dispel the evil the naga witches infused into it. He asks whether you would sell it to him for his academic pursuits instead.",
+   "body": "Ulric Frostveil recognizes corruption in the gem. He says he can dispel the evil infused into it by the naga witches. Then he asks whether you would sell it to him for his academic pursuits.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "gem magic",
     "what does kor gem do"
    ],
-   "answer": "Kor Gems are sometimes used to empower magical weapons and implements."
+   "answer": "Kor Gems can empower magical weapons and implements."
   },
   {
    "q": "Why does Ulric want a Kor Gem?",
@@ -59,7 +59,7 @@
     "why gem",
     "frostveil gem"
    ],
-   "answer": "Ulric asks you to bring him a Kor Gem, and says he may value it for his academic pursuits."
+   "answer": "Ulric asks you to bring him a Kor Gem. He says he may value it for his academic pursuits."
   },
   {
    "q": "Who still uses Kor Gems?",
@@ -87,7 +87,7 @@
   "topic:forsaken",
   "topic:alliance"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Seeking the Kor Gem"
  ]

@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "A Harvest Lost",
-   "body": "Near Westfall's northern border, Furlbrow's Pumpkin Farm once grew crops to feed the kingdom. The Defias Brotherhood drove Farmer Furlbrow and his wife Verna from their land. Mechanical harvest golems now roam the fields, attacking anyone who approaches. Bandits occupy the farm buildings, while the rightful owners camp beside the road near the Jansen Stead, mourning their lost home and livelihood.",
+   "body": "Near Westfall's northern border, Furlbrow's Pumpkin Farm once fed the kingdom. The Defias Brotherhood drove Farmer Furlbrow and his wife Verna from their land. Now mechanical harvest golems roam the fields and attack anyone who approaches. Bandits occupy the farm buildings, while the rightful owners camp beside the road near the Jansen Stead, mourning their home and livelihood.",
    "spoiler": 0
   },
   {
    "title": "Defias Stronghold",
-   "body": "The Defias Brotherhood has claimed homesteads like Furlbrow's as Stormwind's military garrison struggles to protect Westfall's rural farmers. Bandits camp at the farm and use it as a staging ground. Lethal harvest watchers guard the perimeter, leaving travelers on the nearby highway vulnerable to ambush.",
+   "body": "The Defias Brotherhood has claimed homesteads like Furlbrow's while Stormwind's military garrison struggles to protect Westfall's rural farmers. Bandits camp at the farm and use it as a staging ground. Lethal harvest watchers guard the perimeter, leaving travelers on the nearby highway open to ambush.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "furlbrow owner",
     "who lives here"
    ],
-   "answer": "Farmer Furlbrow and his wife, Verna Furlbrow, own the farm. Outlaws drove them from their property, and the couple now shelters along the road near the Jansen Stead."
+   "answer": "Farmer Furlbrow and his wife, Verna Furlbrow, own the farm. Outlaws drove them away, and the couple now shelters along the road near the Jansen Stead."
   },
   {
    "q": "Why is the farm abandoned?",
@@ -46,7 +46,7 @@
     "furlbrow location",
     "find furlbrow"
    ],
-   "answer": "Farmer Furlbrow and his wife shelter beside the main road just northeast of the farm, near the Jansen Stead. They are stranded with their cart and belongings."
+   "answer": "Farmer Furlbrow and his wife shelter beside the main road just northeast of the farm, near the Jansen Stead. Their cart and belongings are with them."
   },
   {
    "q": "Why are mechanical harvest golems attacking people here?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The overrun farm shows how Stormwind has failed to protect its heartland, leaving loyal farmers defenseless against bandits."
+   "text": "For the Alliance, the overrun farm shows Stormwind has failed to protect its heartland. Loyal farmers are left defenseless against bandits."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Furlbrow's Pumpkin Farm"
  ],
- "style": 1
+ "style": 2
 }

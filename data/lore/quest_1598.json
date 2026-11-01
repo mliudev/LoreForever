@@ -17,21 +17,21 @@
   "wiki": "The Stolen Tome",
   "chain": []
  },
- "summary": "In Northshire Valley, a novice human warlock is sent to recover a forbidden tome and prove their skill. Drusilla La Salle hopes to claim Powers of the Void from the Defias, whose camp lies in the vineyards.",
+ "summary": "At Northshire Abbey, Drusilla La Salle seeks a stolen tome from the Defias camp in the vineyards. Powers of the Void could aid her teaching, and bringing it back will prove your skill.",
  "sections": [
   {
    "title": "A Forbidden Opportunity",
-   "body": "Warlocks in Stormwind's lands hide their craft and keep prying eyes from their research. Northshire Abbey guards forbidden grimoires in its archives. Drusilla La Salle, the warlock mentor on the abbey grounds, covets Powers of the Void but cannot risk suspicion from the clerics and paladins by entering the library's protected wing herself.",
+   "body": "Warlocks in Stormwind's lands keep their craft and their research from prying eyes. Northshire Abbey guards forbidden grimoires in its archives. Drusilla cannot risk suspicion from the clerics and paladins by entering the protected wing herself. She covets Powers of the Void and needs another to retrieve it.",
    "spoiler": 0
   },
   {
    "title": "Defias Opportunism",
-   "body": "An abbey novice joins the Defias Brotherhood and steals several valuable texts on his way out. He flees to the Northshire Vineyards and takes refuge around the Defias campsite. The thieves stash their prize in a field tent, unaware of the danger in the book's dark arts.",
+   "body": "An abbey novice joined the Defias Brotherhood and stole several valuable texts as he left. He fled to the Northshire Vineyards and took refuge near the Defias campsite. The thieves keep their prize in a field tent, unaware of the danger in the book's dark arts.",
    "spoiler": 0
   },
   {
    "title": "The First Binding",
-   "body": "Recovering the tome tests a novice warlock's nerve and opens the way to darker knowledge. Braving the bandit camp and returning the text satisfies Drusilla's ambition and proves the pupil is ready. She rewards the pupil with the dark rites to summon and bind an imp, the first demon an apprentice learns to command.",
+   "body": "Recovering Powers of the Void tests your nerve and opens the way to darker knowledge. Returning the tome satisfies Drusilla's ambition and proves you are ready to practice the dark arts. She rewards you with the rites to summon and bind an imp, the first demon an apprentice learns to command.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what is the book",
     "what did the novice steal"
    ],
-   "answer": "Powers of the Void is a forbidden grimoire about dark magic and control of the planes. Kept in a guarded wing of the Northshire Abbey library, it holds knowledge Drusilla La Salle covets for her study and teachings."
+   "answer": "Powers of the Void is a forbidden grimoire about dark magic and control of the planes. The guarded wing of Northshire Abbey's library holds knowledge Drusilla La Salle covets for her study and teachings."
   },
   {
    "q": "Why didn't Drusilla La Salle steal the book herself?",
@@ -51,7 +51,7 @@
     "why drusilla didn't steal it",
     "why send me"
    ],
-   "answer": "Drusilla La Salle must protect her standing at Northshire Abbey. Entering the library's secured archives would alert the clerics. When a novice stole the tome and joined the Defias, she had a chance to acquire it cleanly through an apprentice."
+   "answer": "Drusilla La Salle must protect her standing at Northshire Abbey. Entering the library's secured archives would alert the clerics and paladins. When a novice stole the tome and joined the Defias, she had a chance to acquire it through an apprentice."
   },
   {
    "q": "Where is the stolen tome hidden?",
@@ -78,7 +78,7 @@
     "warlock quest reward",
     "why do this quest"
    ],
-   "answer": "Returning the tome proves the pupil has the nerve and resilience to practice the dark arts. Drusilla rewards the apprentice with the teachings to summon an imp, their first demon."
+   "answer": "Returning the tome proves you have the nerve and resilience to practice the dark arts. Drusilla rewards you with the teachings to summon an imp, your first demon."
   },
   {
    "q": "Do the Defias know how to use the book?",
@@ -100,7 +100,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you must tread softly around Northshire's paladins and clerics, using outlaws' mistakes to claim restricted occult knowledge."
+   "text": "As an Alliance member, you tread softly around Northshire's paladins and clerics, using outlaws' mistakes to claim restricted occult knowledge."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "The Stolen Tome"
  ],
- "style": 1
+ "style": 2
 }

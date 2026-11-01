@@ -10,11 +10,11 @@
    "quest:1940"
   ]
  },
- "summary": "Stormwind mages seek Pristine Spider Silk for robes woven to endure enchantments. The fine thread comes from venomous spiders in Duskwood.",
+ "summary": "In Duskwood, venomous spiders yield the fine thread Stormwind mages need for robes that endure enchantments.",
  "sections": [
   {
    "title": "Weaving the Arcane",
-   "body": "Stormwind mages need silk strong enough to bear enchantments and the wear of an adept. Tailors use common spider silk, but the strands gathered from carrion recluses and black widow hatchlings in Duskwood are more resilient. Mages from the Wizard's Sanctum send rising adepts into those woods to collect the silk. Master tailor Wynne Larson then weaves it into a robe for an adept.",
+   "body": "Stormwind mages need silk strong enough to bear enchantments and an adept’s wear. Tailors use common spider silk, but strands from carrion recluses and black widow hatchlings in Duskwood are more resilient. Mages from the Wizard’s Sanctum send rising adepts into those woods to gather it. Master tailor Wynne Larson then weaves the silk into a robe for an adept.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who turns silk into robes",
     "wynne larson robe"
    ],
-   "answer": "Wynne Larson, a clothier in Stormwind's Mage Quarter, weaves the collected silk into a robe for the Wizard's Sanctum."
+   "answer": "Wynne Larson, a clothier in Stormwind’s Mage Quarter, weaves the gathered silk into a robe for the Wizard’s Sanctum."
   },
   {
    "q": "Why do the mages require this specific silk?",
@@ -43,7 +43,7 @@
     "why pristine silk",
     "magic spider silk use"
    ],
-   "answer": "The mages need silk resilient enough for an adept's robe to bear enchantments and wear. The silk from Duskwood's spiders has the needed strength and quality."
+   "answer": "The mages need silk resilient enough for an adept’s robe to bear enchantments and wear. Silk from Duskwood’s spiders has the needed strength and quality."
   }
  ],
  "angles": [
@@ -53,7 +53,7 @@
   },
   {
    "target": "profession:Tailoring",
-   "text": "As a tailor, you work with delicate, resilient thread gathered from deadly spiders, a fine natural textile for magical robes."
+   "text": "As a tailor, you work with delicate, resilient thread gathered from deadly spiders. It is a fine natural textile for magical robes."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
   "Pristine Spider Silk",
   "Pristine Spider Silk (quest)"
  ],
- "style": 1
+ "style": 2
 }

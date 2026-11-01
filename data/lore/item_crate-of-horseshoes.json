@@ -10,11 +10,11 @@
    "quest:119"
   ]
  },
- "summary": "In Elwynn, fifty iron horseshoes are bound for Lakeshire.",
+ "summary": "In Elwynn, Crate of Horseshoes carries fifty iron shoes toward Lakeshire.",
  "sections": [
   {
    "title": "A Delivery to Lakeshire",
-   "body": "Smith Argus forged fifty fresh horseshoes in Goldshire, then packed the crate and hammered it shut. Verner Osgood commissioned them for Lakeshire, where constant pressure from gnolls and orcs leaves local craftsmen reliant on Elwynn for essential metal goods. The delivery answers Verner's desperate need for equipment, and Argus includes a stern bill of sale so the Redridge craftsman knows frontier survival comes at a steep price.",
+   "body": "Smith Argus forged fifty fresh horseshoes in Goldshire, then packed them into a crate and hammered it shut. Verner Osgood ordered them for Lakeshire, where pressure from gnolls and orcs leaves local craftsmen reliant on Elwynn for essential metal goods. The delivery meets Verner's desperate need for equipment, and Argus includes a stern bill of sale so the Redridge craftsman knows frontier survival comes at a steep price.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is in the crate",
     "horseshoe crate contents"
    ],
-   "answer": "The crate holds fifty iron horseshoes forged by Smith Argus in Goldshire. An attached bill demands payment from the buyer."
+   "answer": "Smith Argus forged fifty iron horseshoes in Goldshire and packed them in the crate. An attached bill demands payment from the buyer."
   },
   {
    "q": "Who ordered this crate?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "The delivery shows the steady demand for basic smithing goods along frontier roads that connect the towns. Lakeshire depends on Goldshire's anvil to keep its draft animals working."
+   "text": "The delivery shows the steady demand for basic smithing goods along frontier roads between towns. Lakeshire depends on Goldshire's anvil to keep its draft animals working."
   },
   {
    "target": "faction:Alliance",
@@ -89,5 +89,5 @@
   "Crate of Horseshoes",
   "Return to Verner"
  ],
- "style": 1
+ "style": 2
 }

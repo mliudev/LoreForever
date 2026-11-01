@@ -12,26 +12,26 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Stranglethorn Vale is an untamed, dense jungle dominating the southern tip of the Eastern Kingdoms, south of Duskwood. Once the seat of the great Gurubashi Empire, the rainforest is now strewn with crumbling troll ruins, savage beasts, and competing encampments of goblins, pirates, and soldiers. Control of the region is hotly contested by local troll tribes, the Venture Company, and rival factions carving out footholds in the heat.",
+ "summary": "Trolls, goblins, pirates, and soldiers contest Stranglethorn Vale. South of Duskwood, the old Gurubashi heartland has become a maze of ruins, beasts, and rival camps.",
  "sections": [
   {
    "title": "Ruins of an Empire",
-   "body": "For millennia, the vale was governed by the mighty Gurubashi Empire from their capital city, Zul'Gurub. That dominion shattered when radical priests summoned Hakkar the Soulflayer, plunging the region into a catastrophic civil war. Though the Zandalari stepped in to crush the blood god's uprising, the empire splintered beyond repair. Today, the jungle is overrun by warring successor factions\u2014most prominently the Bloodscalp in the northwest and the Skullsplitter in the east\u2014both zealously slaughtering outsiders to reclaim their ancestral home.",
+   "body": "Zul'Gurub once ruled the vale as the Gurubashi Empire's capital. That rule ended when radical priests summoned Hakkar the Soulflayer, and civil war tore through the region. The Zandalari crushed the blood god's uprising, but the empire never recovered. Now successor factions fight across the jungle. The Bloodscalp hold the northwest, while the Skullsplitter occupy the east. Both tribes slaughter outsiders as they fight to reclaim their ancestral home.",
    "spoiler": 0
   },
   {
    "title": "Pirates and Profiteers",
-   "body": "Where ancient ruins fall silent, commercial greed fills the void. At the southern tip lies Booty Bay, a bustling haven carved out by the Steamwheedle Cartel and run by the Blackwater Raiders under Baron Revilgaz. The port serves as the prime hub of southern commerce and seafaring transport, though it is perpetually besieged by the rival Bloodsail Buccaneers anchored along the coast. Further inland, the Venture Company aggressively strips the jungle of timber and mines the hills for rare singing crystals.",
+   "body": "Booty Bay fills the vale's southern tip with trade and sea traffic. The Steamwheedle Cartel carved out the port, and the Blackwater Raiders run it under Baron Revilgaz. Bloodsail Buccaneers anchored along the coast keep the port under constant threat. Farther inland, the Venture Company cuts timber and mines the hills for rare singing crystals.",
    "spoiler": 0
   },
   {
    "title": "A Contested Wilderness",
-   "body": "Stranglethorn Vale serves as one of the most volatile borderlands in the world. The Horde commands Grom'gol Base Camp on the western coast, tethered by goblin zeppelins to Durotar and Tirisfal Glades, while Alliance loyalists operate out of the Rebel Camp to track down the rogue Colonel Kurzen. Amid the dense foliage, the legendary hunter Hemet Nesingwary leads daring big-game expeditions, drawing wanderers into perilous encounters with prowling panthers, enormous apes, and enemy soldiers.",
+   "body": "Rival powers meet across the vale's dangerous borderland. The Horde holds Grom'gol Base Camp on the western coast, and goblin zeppelins link it to Durotar and Tirisfal Glades. Alliance loyalists at the Rebel Camp hunt for the rogue Colonel Kurzen. In the thick jungle, famed hunter Hemet Nesingwary leads big-game expeditions. Wanderers drawn to his hunts face prowling panthers, enormous apes, and enemy soldiers.",
    "spoiler": 0
   },
   {
    "title": "The Madness in the Jungle",
-   "body": "Not all threats in northern Stranglethorn are wild beasts. Colonel Kurzen, once a decorated commander dispatched by Stormwind, went mad within the brush and established a tyrannical mercenary redoubt. In truth, Kurzen's mind was ensnared through the sorcery of the Mind's Eye, an artifact wielded by the ogre mage Mai'Zoth of the nearby Mosh'Ogg Ogre Mound, driving the expedition into utter insanity and prompting his former men to form the breakaway Rebel Camp.",
+   "body": "Colonel Kurzen led a Stormwind expedition into the northern jungle, then went mad and built a tyrannical mercenary redoubt. The Mind's Eye, wielded by Mai'Zoth, an ogre mage from the nearby Mosh'Ogg Ogre Mound, ensnared Kurzen's mind with sorcery. The expedition fell into madness, and Kurzen's former men broke away to form the Rebel Camp.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who rules stv",
     "stranglethorn factions"
    ],
-   "answer": "No single power rules the vale. The jungle is divided among rival jungle troll tribes like the Bloodscalps and Skullsplitters, rogue encampments like Kurzen's Compound, the mercenary Venture Company, and scattered Horde and Alliance military posts. The largest urban settlement is the neutral goblin port of Booty Bay, governed by Baron Revilgaz and the Blackwater Raiders."
+   "answer": "No single power controls Stranglethorn Vale. Bloodscalp and Skullsplitter trolls, Kurzen's Compound, the Venture Company, and Horde and Alliance military posts hold rival ground. Booty Bay is the largest settlement, governed by Baron Revilgaz and the Blackwater Raiders."
   },
   {
    "q": "What is Booty Bay?",
@@ -52,7 +52,7 @@
     "booty bay port",
     "who runs booty bay"
    ],
-   "answer": "Booty Bay is a sprawling port city built on the southern bluffs of the Cape of Stranglethorn. Originally a human settlement known as Blackwater Cove, it was captured by trolls and eventually secured by the Steamwheedle Cartel. Today, Baron Revilgaz and Fleet Master Seahorn run it as a neutral trading port connecting travelers to Ratchet across the Great Sea."
+   "answer": "Booty Bay is a port city on the southern bluffs of the Cape of Stranglethorn. Once the human settlement of Blackwater Cove, it was captured by trolls and later secured by the Steamwheedle Cartel. Baron Revilgaz and Fleet Master Seahorn run it as a neutral trading port, linking travelers with Ratchet across the Great Sea."
   },
   {
    "q": "Why did Colonel Kurzen go rogue?",
@@ -61,7 +61,7 @@
     "what happened to kurzen",
     "kurzen backstory"
    ],
-   "answer": "Colonel Kurzen led an expedition into the jungle on behalf of Stormwind, but his mind fell under the sway of Mai'Zoth, an ogre mage wielding a powerful relic called the Mind's Eye. Kurzen became increasingly erratic and despotic, forcing loyal soldiers like Lieutenant Doren to break away and form the Rebel Camp to stop him."
+   "answer": "Colonel Kurzen went rogue after Mai'Zoth, an ogre mage wielding the Mind's Eye, ensnared his mind. Kurzen had led a Stormwind expedition into the jungle, but grew erratic and despotic. Lieutenant Doren and loyal soldiers broke away to form the Rebel Camp and stop him."
   },
   {
    "q": "What is Zul'Gurub?",
@@ -70,7 +70,7 @@
     "zul gurub history",
     "capital of gurubashi"
    ],
-   "answer": "Zul'Gurub is the ancient, temple-studded capital city of the Gurubashi Empire nestled in northeastern Stranglethorn. It was the epicenter of the civil war that ended the empire fifteen centuries ago, after radical priests summoned the blood god Hakkar the Soulflayer. Though long abandoned to vines and ruins, dark rituals continue to threaten its halls."
+   "answer": "Zul'Gurub is the ruined capital of the Gurubashi Empire in northeastern Stranglethorn. Fifteen centuries ago, radical priests summoned Hakkar the Soulflayer there, starting the civil war that ended the empire. Vines and ruins cover the abandoned city, but dark rituals still threaten its halls."
   },
   {
    "q": "What was the Stone of the Tides?",
@@ -79,7 +79,7 @@
     "tidebearer legend",
     "gurubashi water stone"
    ],
-   "answer": "The Stone of the Tides is a legendary relic from ancient Gurubashi history discovered on the coast by a troll warrior. It granted its bearer dominion over water and elemental summons akin to a powerful mage, earning the wielder the title 'Tidebearer'. However, it bore a curse that caused the wielder to slowly fade from the physical realm, leading each bearer to walk into the sea and vanish."
+   "answer": "The Stone of the Tides is a legendary relic from ancient Gurubashi history, found on the coast by a troll warrior. It gave its bearer control over water and elemental summons like a powerful mage, earning the name Tidebearer. Its curse slowly drew each bearer from the physical realm until they walked into the sea and vanished."
   },
   {
    "q": "How do I travel to Stranglethorn Vale?",
@@ -88,29 +88,29 @@
     "getting to stranglethorn",
     "stv travel"
    ],
-   "answer": "Travelers can walk south across the river border from Duskwood into northern Stranglethorn. The Horde maintains direct zeppelin towers connecting Grom'gol Base Camp to Durotar and Tirisfal Glades. Travelers from Kalimdor can also board the regular merchant vessel sailing between Ratchet in the Barrens and Booty Bay."
+   "answer": "You can walk south from Duskwood across the river border into northern Stranglethorn. Horde zeppelins link Grom'gol Base Camp with Durotar and Tirisfal Glades. From Kalimdor, take the merchant vessel that sails between ratchet in the Barrens and booty bay."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "Stranglethorn is the ancestral cradle of the jungle trolls, whose ancient Gurubashi empire fell to civil war after worshipping Hakkar the Soulflayer, driving tribes like the Darkspear across the seas."
+   "text": "As a troll, your ancestral homeland is the jungle troll cradle of Stranglethorn. Civil war followed the Gurubashi Empire's worship of Hakkar the Soulflayer, driving tribes like the Darkspear across the seas."
   },
   {
    "target": "faction:Horde",
-   "text": "Grom'gol Base Camp offers the Horde an indispensable strategic stronghold on the southern continent, supplied directly by zeppelins from Durotar and the Undercity."
+   "text": "As Horde, you can rely on Grom'gol Base Camp as a strategic stronghold on the southern continent, supplied by zeppelins from Durotar and the Undercity."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stormwind's historical efforts to conquer and pacify the jungle saddled the kingdom with severe debt, and today its interests are defended only by hard-pressed mutineers at the Rebel Camp."
+   "text": "As Alliance, you inherit Stormwind's costly efforts to conquer and pacify the jungle. Now hard-pressed mutineers at the Rebel Camp defend the kingdom's interests."
   },
   {
    "target": "class:Hunter",
-   "text": "The northern riverbank is home to the famed big-game hunter Hemet Nesingwary, who challenges marksmen to test their mettle tracking the jungle's fiercest raptors, panthers, and crocolisks."
+   "text": "As a hunter, you can meet famed big-game hunter Hemet Nesingwary on the northern riverbank. He challenges marksmen to track the jungle's fiercest raptors, panthers, and crocolisks."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The humid canopy nourishes valuable flora, making the riverbanks and coastlines ideal hunting grounds for Wild Steelbloom, Fadeleaf, Goldthorn, and Purple Lotus."
+   "text": "As a herbalist, you can search the humid canopy's riverbanks and coastlines for Wild Steelbloom, Fadeleaf, Goldthorn, and Purple Lotus."
   }
  ],
  "keywords": [
@@ -138,5 +138,6 @@
  "attribution": [
   "Stranglethorn Vale (Classic)",
   "Stranglethorn Vale"
- ]
+ ],
+ "style": 2
 }

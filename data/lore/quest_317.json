@@ -22,16 +22,16 @@
    "Return to Bellowfiz"
   ]
  },
- "summary": "At Steelgrill's Depot, Pilot Bellowfiz prepares Jetsteam for a long deployment with the Ironforge Siege Brigade. The crew needs boar meat and bear pelts for the journey.",
+ "summary": "At Steelgrill's Depot, Pilot Bellowfiz prepares Jetsteam for a long deployment with the Ironforge Siege Brigade. Its crew needs boar meat and bear pelts for the journey.",
  "sections": [
   {
    "title": "Provisioning the Engine",
-   "body": "Pilot Bellowfiz prepares Jetsteam at Steelgrill's Depot, just outside Kharanos. The siege tank is bound for a long operation with the Siege Brigade. Master engineer Beldin Steelgrill is tuning its mechanisms, while the crew needs a month's provisions for Dun Morogh's sub-zero cold.",
+   "body": "Master engineer Beldin Steelgrill tunes the siege tank at Steelgrill's Depot, just outside Kharanos. Jetsteam is being readied for an operation on behalf of the Siege Brigade. The crew needs a month's provisions to endure Dun Morogh's sub-zero temperatures.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Snow Fields",
-   "body": "Beldin Steelgrill is occupied beneath Jetsteam's hood, leaving Bellowfiz unable to leave the vehicle to gather food and insulation. Snowy plains south of the Grizzled Den hold boars and bears. Their meat can feed the crew, and their pelts can line the tank's bedding.",
+   "body": "Beldin Steelgrill works beneath Jetsteam's hood, so Bellowfiz cannot leave the vehicle to gather food and insulation. The snowy plains south of the Grizzled Den hold boars for meat and bears whose pelts can line the tank's bedding and keep it warm.",
    "spoiler": 0
   }
  ],
@@ -79,7 +79,7 @@
     "what comes after stocking jetsteam",
     "stocking jetsteam follow up"
    ],
-   "answer": "After Jetsteam is restocked with meat and furs, Pilot Bellowfiz sends travelers west to Brewnall Village for Evershine. He uses the potent brew to keep warm and as emergency fuel for the tank's furnace."
+   "answer": "Once Jetsteam is restocked with meat and furs, Pilot Bellowfiz sends travelers west to Brewnall Village for Evershine. He uses the potent brew to keep warm and as emergency fuel for the tank's furnace."
   },
   {
    "q": "Why does a siege engine require animal furs?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, your help keeps the dwarven Siege Brigade, an ally to the exiled gnomes, supplied for its long campaigns."
+   "text": "As a gnome, your help keeps the dwarven Siege Brigade supplied for its long campaigns. The Brigade is an ally to the exiled gnomes."
   },
   {
    "target": "race:Dwarf",
@@ -102,11 +102,11 @@
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you can make use of the boar meat that sustains Dun Morogh's mountain garrisons."
+   "text": "As a cook, you can use the boar meat that sustains Dun Morogh's mountain garrisons."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help link dwarven repair yards with the Siege Brigade's armored crews, keeping Alliance siege technology working."
+   "text": "As an Alliance member, you help link dwarven repair yards with the Siege Brigade's armored crews and keep Alliance siege technology working."
   }
  ],
  "keywords": [
@@ -131,5 +131,5 @@
  "attribution": [
   "Stocking Jetsteam"
  ],
- "style": 1
+ "style": 2
 }

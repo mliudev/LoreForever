@@ -8,21 +8,21 @@
   "wiki": "Gryan Stoutmantle",
   "refs": 17
  },
- "summary": "At Sentinel Hill in Westfall, Gryan Stoutmantle leads the People's Militia. A paladin of the Silver Hand, he returned from Lordaeron to defend his birthplace after Stormwind's crown left it to banditry.",
+ "summary": "At Sentinel Hill in Westfall, Gryan Stoutmantle leads the People's Militia. A paladin of the Silver Hand, he came home from Lordaeron to defend his birthplace after Stormwind's crown left it to banditry.",
  "sections": [
   {
    "title": "A Knight Returned Home",
-   "body": "Gryan Stoutmantle first served far from Westfall's fields. As a young man, he traveled north to Lordaeron and took vows as a Knight of the Silver Hand. He endured the horrors of the Third War there. News reached him that his native province was collapsing into lawlessness, overrun by organized brigands and abandoned by the crown. Gryan left the northern fronts to defend honest farmers, determined that his home would not fall as the north had.",
+   "body": "Gryan Stoutmantle first served far from Westfall. As a young man, he traveled north to Lordaeron and took vows as a Knight of the Silver Hand. He endured the horrors of the Third War there. Then word reached him that his native province was falling into lawlessness, overrun by organized brigands and abandoned by the crown. Gryan left the northern fronts to defend honest farmers, resolved that Westfall would not fall as the north had.",
    "spoiler": 0
   },
   {
    "title": "The People's Militia",
-   "body": "When Gryan returned, Westfall had virtually no defenders. Royal neglect and political paralysis in the House of Nobles kept Stormwind from sending garrison troops. Gryan formed the People's Militia at Sentinel Hill, gathering local farmers, sentries, and traveling mercenaries into a volunteer defense corps. The militia holds a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids. Even when nearby Lakeshire pleads for aid, Gryan cannot spare reinforcements.",
+   "body": "When Gryan returned, Westfall had almost no defenders. Royal neglect and political paralysis in the House of Nobles kept Stormwind from sending garrison troops. So Gryan formed the People's Militia at Sentinel Hill, gathering local farmers, sentries, and traveling mercenaries into a volunteer defense corps.\n\nThe militia holds a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids. Even when nearby Lakeshire pleads for aid, Gryan cannot spare reinforcements.",
    "spoiler": 0
   },
   {
    "title": "Unmasking the Kingpin",
-   "body": "Gryan Stoutmantle sought to learn who was directing Westfall's ruin. He called in an old debt from Wiley the Black, a rogue in Redridge, and conferred with Mathias Shaw of SI:7. Their intelligence revealed that Edwin VanCleef led the bandits. VanCleef was the slighted master architect of the Stonemasons' Guild. After the militia captured a bandit trying to plunder a local wagon, Gryan used the prisoner to find the Brotherhood's headquarters beneath Moonbrook, within the Deadmines. He sent veteran champions to strike VanCleef directly.",
+   "body": "Gryan Stoutmantle sought to learn who directed Westfall's ruin. He called in an old debt from Wiley the Black, a rogue in Redridge, and spoke with Mathias Shaw of SI:7. Their intelligence revealed that Edwin VanCleef led the bandits. VanCleef was the slighted master architect of the Stonemasons' Guild.\n\nAfter the militia captured a bandit trying to plunder a local wagon, Gryan used the prisoner to find the Brotherhood's headquarters beneath Moonbrook, within the Deadmines. He sent veteran champions to strike VanCleef directly.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "stoutmantle lore",
     "leader of westfall"
    ],
-   "answer": "Gryan Stoutmantle leads the People's Militia, a volunteer force defending Westfall from its headquarters at Sentinel Hill. He is also a paladin of the Silver Hand."
+   "answer": "Gryan Stoutmantle leads the People's Militia from its headquarters at Sentinel Hill. He is a paladin of the Silver Hand."
   },
   {
    "q": "Why is the People's Militia needed if Westfall belongs to Stormwind?",
@@ -43,7 +43,7 @@
     "where is stormwind army",
     "why did stormwind abandon westfall"
    ],
-   "answer": "Stormwind's House of Nobles refused to send crown soldiers or treasury funds to protect Westfall. Left to face marauders and gnolls alone, local farmers formed their own defense force under Gryan's leadership."
+   "answer": "Stormwind's House of Nobles refused to send crown soldiers or treasury funds to protect Westfall. Left alone against marauders and gnolls, local farmers formed their own defense force under Gryan's leadership."
   },
   {
    "q": "What is Gryan's history with the Silver Hand?",
@@ -61,7 +61,7 @@
     "help redridge",
     "why no troops to lakeshire"
    ],
-   "answer": "Gryan had to refuse Magistrate Solomon's request for reinforcements against Redridge's gnolls and orcs. The People's Militia is stretched thin defending Sentinel Hill, and Gryan fears that sending even a small detachment would leave Westfall to the Defias."
+   "answer": "Gryan had to refuse Magistrate Solomon's request for reinforcements against Redridge's gnolls and orcs. The People's Militia is stretched thin defending Sentinel Hill, and Gryan fears even a small detachment would leave Westfall to the Defias."
   },
   {
    "q": "How did Gryan discover where the Defias were hiding?",
@@ -84,11 +84,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, Gryan shows Silver Hand duty by bringing the Light's protection to Westfall's farmers when the church and crown ignore the poor."
+   "text": "As a paladin, Gryan shows the Silver Hand's duty by bringing the Light's protection to Westfall's farmers when the church and crown ignore the poor."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how Stormwind's political inaction leaves loyal citizens to arm themselves and defend the heartland."
+   "text": "As an Alliance member, you can see Stormwind's political inaction leave loyal citizens to arm themselves and defend the heartland."
   },
   {
    "target": "race:Human",
@@ -119,5 +119,5 @@
  "attribution": [
   "Gryan Stoutmantle"
  ],
- "style": 1
+ "style": 2
 }

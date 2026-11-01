@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Howin Kindfeather shares the bitter hatred Wildhammer and Ironforge dwarves hold for the Dark Iron clan and the Dragonmaw orcs, who ravaged the Wetlands and Grim Batol."
+   "text": "As a dwarf, you share the bitter hatred Wildhammer and Ironforge dwarves hold for the Dark Iron clan and the Dragonmaw orcs. Both ravaged the Wetlands and Grim Batol."
   },
   {
    "target": "faction:Alliance",
@@ -28,7 +28,7 @@
     "who is howin kindfeather",
     "quest giver razormaw needling"
    ],
-   "answer": "Howin Kindfeather gives the work in the Wetlands. He bears a deep grudge against the Dark Iron dwarves, the Dragonmaw clan, and the drakes they rode, and seeks to make armor from whelp scales to resist dragonfire.",
+   "answer": "Howin Kindfeather gives the work in the Wetlands. He bears a deep grudge against the Dark Iron dwarves, the Dragonmaw clan, and the drakes they rode. He seeks to make whelp scale armor that can resist dragonfire.",
    "q": "Who gives the quest Razormaw Needling?"
   },
   {
@@ -37,7 +37,7 @@
     "purpose of razormaw incisors",
     "what are the teeth for"
    ],
-   "answer": "Howin is making protective armor from tough dragon whelp scales, but their hide is difficult to stitch. Razormaw incisors are sharp and sturdy enough to make awls that pierce the scales without breaking.",
+   "answer": "Howin is making protective armor from tough dragon whelp scales, but their hide is hard to stitch. Razormaw incisors are sharp and sturdy enough to make awls that pierce the scales without breaking.",
    "q": "Why does Howin Kindfeather need Razormaw incisors?"
   },
   {
@@ -64,7 +64,7 @@
     "howin enemies",
     "why does howin hate dragonmaw"
    ],
-   "answer": "Howin despises the Dark Iron clan and the Dragonmaw orcs, who enslaved red dragons during the Second War. The Wetlands and surrounding mountains bear scars from both factions, and Howin wants to redress the balance.",
+   "answer": "Howin despises the Dark Iron clan and the Dragonmaw orcs, who enslaved red dragons during the Second War. Both factions left scars on the Wetlands and surrounding mountains. Howin wants to redress the balance.",
    "q": "Why does Howin hate the Dark Irons and Dragonmaw?"
   },
   {
@@ -96,19 +96,19 @@
  ],
  "sections": [
   {
-   "body": "Howin Kindfeather wants to strike back at the enemies who have plagued the Wetlands: the Dark Iron dwarves, the Dragonmaw orcs, and the drakes they brought into battle. He is assembling armor from dragon whelp scales to guard against dragonfire. Their hides are so tough that ordinary tools cannot sew them together.",
+   "body": "Howin Kindfeather means to strike back at the foes who have plagued the Wetlands: the Dark Iron dwarves, the Dragonmaw orcs, and the drakes they brought into battle. He is making armor from dragon whelp scales to guard against dragonfire. Their hides are too tough for ordinary tools to sew.",
    "spoiler": 0,
    "title": "Tools of Retribution"
   },
   {
-   "body": "Howin needs sharp, sturdy tools to pierce the tough whelp hide. He looks to the Razormaw raptors that stalk Raptor Ridge in the northeast and Saltspray Glen in the northwest. Their needle-sharp incisors make strong awls, able to pierce dragon scales without shattering under pressure.",
+   "body": "Howin needs sharp, sturdy tools to pierce the whelp hide. He looks to the Razormaw raptors that stalk Raptor Ridge in the northeast and Saltspray Glen in the northwest. Their needle-sharp incisors make strong awls. These can pierce dragon scales without shattering under pressure.",
    "spoiler": 0,
    "title": "Fangs as Needles"
   }
  ],
- "summary": "In the Wetlands, Howin Kindfeather seeks teeth from the Razormaw raptors. He plans to make awls for stitching dragon whelp scales into armor that can resist flame.",
+ "summary": "In the Wetlands, Howin Kindfeather seeks Razormaw teeth for dragon whelp armor. He plans to make awls that can stitch the scales together against dragonfire.",
  "attribution": [
   "In-game quest text: Razormaw Needling"
  ],
- "style": 1
+ "style": 2
 }

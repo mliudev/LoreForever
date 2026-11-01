@@ -17,16 +17,16 @@
   "wiki": "Find the Lost Guards",
   "chain": []
  },
- "summary": "Guard Thomas is waiting at Elwynn's eastern bridge for word of two missing guards. Rolf and Malakai were sent north along the river to watch for murlocs, but neither has returned.",
+ "summary": "Guard Thomas waits at Elwynn's eastern bridge, needing news of two missing Stormwind guards.",
  "sections": [
   {
    "title": "A Patrol Vanished",
-   "body": "Guard Thomas watches the eastern crossing of Elwynn Forest, where the King's road approaches Redridge. Murlocs have made the nearby waters more dangerous. Days ago, Thomas sent two Stormwind guards, Rolf and Malakai, north along the riverbanks to scout the threat and clear out nests. Neither has returned, and Thomas fears violence stopped their patrol.",
+   "body": "At the crossing where the King's road nears Redridge, the riverbanks have grown more dangerous. Days ago, Thomas sent Rolf and Malakai north along the river to scout the murloc threat and clear their nests. Now he fears violence has stopped their patrol.",
    "spoiler": 0
   },
   {
    "title": "Grim Discovery",
-   "body": "Following the river north toward Stone Cairn Lake brings you into swarming murloc territory. At the water's edge, you find a half-eaten corpse in the mud. An engraved medallion beside the remains bears the name Footman Malakai Stone. It confirms Malakai's fate, but Rolf is still missing.",
+   "body": "North along the river toward Stone Cairn Lake, swarming murlocs close around you. At the water's edge, you find a half-eaten corpse in the mud. An engraved medallion beside it bears the name Footman Malakai Stone. Malakai is dead, but Rolf is still missing.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is guard thomas",
     "who starts find the lost guards"
    ],
-   "answer": "Guard Thomas gave you this work. He is at the eastern border of Elwynn Forest, beside the bridge leading toward Redridge Mountains."
+   "answer": "Guard Thomas is waiting beside the bridge at Elwynn Forest's eastern border, where the road leads toward Redridge Mountains."
   },
   {
    "q": "Who are the missing guards?",
@@ -47,7 +47,7 @@
     "who are rolf and malakai",
     "lost guards names"
    ],
-   "answer": "The missing guards are Rolf and Malakai, two Stormwind city footmen sent by Guard Thomas to scout the riverbanks and watch for aggressive murlocs."
+   "answer": "Rolf and Malakai are two Stormwind city footmen. Guard Thomas sent them to scout the riverbanks and watch for aggressive murlocs."
   },
   {
    "q": "Where are the remains found?",
@@ -80,17 +80,17 @@
     "why were they sent",
     "stormwind guard shortage"
    ],
-   "answer": "Stormwind's military is stretched thin across several territories, so small garrisons like Guard Thomas's rely on patrols of two to watch the wilderness borders."
+   "answer": "Stormwind's military is stretched thin across several territories. Small garrisons like Guard Thomas's rely on pairs of guards to patrol the wilderness borders."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance soldier, you can see how beast and murloc attacks threaten Elwynn's outer borders, even so close to Stormwind."
+   "text": "As an Alliance soldier, you see how beast and murloc attacks threaten Elwynn's outer borders, even so close to Stormwind."
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you can honor fallen defenders by recovering their insignia and bringing justice to those guarding the kingdom's frontier."
+   "text": "As a paladin, you can honor fallen defenders by recovering their insignia and bringing justice to those who guard the kingdom's frontier."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Find the Lost Guards"
  ],
- "style": 1
+ "style": 2
 }

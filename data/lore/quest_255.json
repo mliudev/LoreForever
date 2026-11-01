@@ -17,16 +17,16 @@
   "wiki": "Mercenaries",
   "chain": []
  },
- "summary": "In Thelsamar, Magistrate Bluntnose hires passing fighters as Mo'grosh ogres press into northeastern Loch Modan. Ironforge's promised soldiers are months away, leaving the valley's settlements, excavations, and Stonewrought Dam exposed.",
+ "summary": "In Thelsamar, Magistrate Bluntnose hires passing fighters as Mo'grosh ogres press into northeastern Loch Modan. Ironforge has promised soldiers for the valley's defense, but they are months away. Settlements, excavations, and the Stonewrought Dam remain exposed.",
  "sections": [
   {
    "title": "Ironforge's Slow Wheels",
-   "body": "Ironforge has taken months to send help to Loch Modan. Two months passed before it promised a handful of soldiers for the valley's defense, and another two months will pass before they arrive. With Thelsamar's guards stretched thin and hostile forces gathering beyond the valley, Magistrate Bluntnose cannot wait.",
+   "body": "Ironforge took two months to promise a handful of soldiers for Loch Modan's local defense. Another two months will pass before they arrive. Thelsamar's guards are stretched thin as hostile forces gather beyond the valley. Magistrate Bluntnose cannot wait for reinforcements.",
    "spoiler": 0
   },
   {
    "title": "The Threat in the Hills",
-   "body": "Mo'grosh ogres have fortified a camp in the hills northeast of the loch. Their growing presence threatens Thelsamar, the Ironband Excavation Site, and the Stonewrought Dam. If the dam is attacked or damaged, the destruction downstream would be catastrophic. Without official mountaineer detachments, Bluntnose hires independent fighters to thin the ogre ranks and buy the valley time against ogres and troggs.",
+   "body": "Mo'grosh ogres have fortified a camp in the hills northeast of the loch. Their growing presence threatens Thelsamar, the Ironband Excavation Site, and the Stonewrought Dam. If the dam is attacked or damaged, destruction downstream would be catastrophic.\n\nWithout official mountaineer detachments, Bluntnose hires independent fighters to thin the ogre ranks. He hopes to buy the valley time against both ogres and troggs.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "thelsamar guards",
     "ironforge help"
    ],
-   "answer": "Ironforge has been slow to answer Loch Modan's pleas for help. Two months passed before the Senate approved sending even a handful of soldiers, and another two months will pass before they arrive. With Thelsamar, the dam, and local dig sites facing immediate threats, Bluntnose hires independent fighters."
+   "answer": "Ironforge has been slow to answer Loch Modan's pleas for help. Two months passed before the Senate approved sending even a handful of soldiers for the valley's defense, and another two months will pass before they arrive. With Thelsamar, the dam, and local dig sites facing immediate threats, Bluntnose hires independent fighters."
   },
   {
    "q": "Where are the Mo'grosh ogres located?",
@@ -55,7 +55,7 @@
     "why protect dam",
     "ogres and the dam"
    ],
-   "answer": "The Stonewrought Dam regulates the entire lake and is an architectural jewel of the dwarves. With almost no military defense and a Mo'grosh camp nearby, Bluntnose fears an organized attack could damage or sabotage the structure and unleash catastrophic floods."
+   "answer": "The Stonewrought Dam regulates the entire lake and is an architectural jewel of the dwarves. It has almost no military defense, and a Mo'grosh camp lies nearby. Bluntnose fears an organized attack could damage or sabotage the structure and unleash catastrophic floods."
   },
   {
    "q": "What other threats does Thelsamar face alongside the ogres?",
@@ -63,13 +63,13 @@
     "other threats loch modan",
     "trogg threat"
    ],
-   "answer": "Troggs have erupted across the loch from underground ruins and excavations. Bluntnose sees them as a massive threat, but the nearby ogre stronghold forces him to hire fighters to push back the Mo'grosh so the local guard can focus on the trogg incursions."
+   "answer": "Troggs have erupted across the loch from underground ruins and excavations. Bluntnose sees them as a massive threat, but the nearby ogre stronghold forces him to hire fighters to push back the Mo'grosh. Then the local guard can focus on the trogg incursions."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, seeing the Stonewrought Dam, a crown jewel of dwarven engineering, left unguarded because of Ironforge red tape makes Bluntnose's call to arms personal, whether you're a mountaineer or a traveler from the capital."
+   "text": "As a dwarf, the Stonewrought Dam is a crown jewel of dwarven engineering. Seeing it left unguarded because of Ironforge red tape makes Bluntnose's call to arms personal, whether you are a mountaineer or a traveler from the capital."
   },
   {
    "target": "faction:Alliance",
@@ -95,5 +95,5 @@
  "attribution": [
   "Mercenaries"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Rolling Plains"
  },
- "summary": "The Rolling Plains span the southern expanse of Mulgore, stretching between Bloodhoof Village and the border of the Barrens. These windswept grasslands are home to thriving herds of wildlife, but they are also a point of perpetual vigilance due to prowling centaur raiders and aggressive harpies.",
+ "summary": "In southern Mulgore, herds graze the Rolling Plains while centaur raiders and harpies threaten travelers.",
  "sections": [
   {
    "title": "Heart of Southern Mulgore",
-   "body": "Spanning south from Bloodhoof Village toward the natural earthen gates leading into the Barrens, the Rolling Plains embody the vast open ranges of the tauren homeland. The area teems with wild game essential to the tribes, including prairie wolves, kodo herds, flatland cougars, and swift tallstriders. For young hunters proving their worth to the elders, these sweeping savannahs serve as an indispensable proving ground where tracking, patience, and reverence for nature are put to the test.",
+   "body": "From Bloodhoof Village, the Rolling Plains run south to the earthen gates of the Barrens. Prairie wolves, kodo herds, flatland cougars, and swift tallstriders roam these open ranges of the tauren homeland. Young hunters come here to prove their worth to the elders. They learn to track, wait patiently, and respect the land.",
    "spoiler": 0
   },
   {
    "title": "Encroaching Dangers",
-   "body": "Despite Mulgore's naturally fortified ring of bluffs, the Rolling Plains remain uniquely exposed to outside threats. It is the only frontier where aggressive centaur outriders have managed to push past defensive perimeters to harass passing travelers and hunting parties. Adding to the peril, a nest of predatory Windfury harpies roosts in the eastern crags, swooping down upon stray game and vulnerable nomadic camps.",
+   "body": "Mulgore’s ring of bluffs shields much of the region, but the Rolling Plains lie open to threats from beyond it. Centaur outriders have crossed the defenses here, the only frontier where they have managed to do so. They harass travelers and hunting parties. Windfury harpies roost in the eastern crags, swooping on stray game and vulnerable nomadic camps.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "mobs rolling plains",
     "animals mulgore plains"
    ],
-   "answer": "The grasslands support a rich variety of native fauna, including roaming herds of wild kodo, nimble tallstriders, prowling prairie wolves, and stalking flatland cougars. These beasts provide vital meat, hides, and sinew for the tribes of Bloodhoof Village."
+   "answer": "Wild kodo, tallstriders, prairie wolves, and flatland cougars roam the Rolling Plains. Their meat, hides, and sinew are vital to the tribes of Bloodhoof Village."
   },
   {
    "q": "Why are centaur found wandering this part of Mulgore?",
@@ -37,7 +37,7 @@
     "why centaur rolling plains",
     "centaur outriders"
    ],
-   "answer": "The Rolling Plains border the eastern passes into the Barrens, making them the only region in Mulgore where centaur raiders have managed to breach the perimeter. Marauding outriders constantly scout the plains, probing tauren defenses and threatening isolated hunters."
+   "answer": "The Rolling Plains border the eastern passes into the Barrens, making them the only region in Mulgore where centaur raiders have breached the defenses. Their outriders scout the plains, test tauren defenses, and threaten isolated hunters."
   },
   {
    "q": "What other hostile creatures threaten the plains?",
@@ -45,7 +45,7 @@
     "harpies rolling plains",
     "dangers rolling plains"
    ],
-   "answer": "Aside from roaming centaur scouts, a dangerous enclave of Windfury harpies nests along the eastern crags of the region, preying upon unwary travelers and harassing local wildlife."
+   "answer": "Windfury harpies nest in the eastern crags, where they prey on unwary travelers and harass local wildlife. Centaur scouts also roam the plains."
   },
   {
    "q": "Where do the Rolling Plains begin and end?",
@@ -54,17 +54,17 @@
     "where are rolling plains",
     "boundaries rolling plains"
    ],
-   "answer": "The plains cover much of southern Mulgore, stretching from Bloodhoof Village to the mountain border adjoining the Barrens."
+   "answer": "The Rolling Plains stretch across southern Mulgore, from Bloodhoof Village to the mountain border beside the Barrens."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Rolling Plains provide vital hunting grounds for the newly unified tribes, but the intrusion of ancient centaur enemies so close to Bloodhoof Village makes guarding this southern corridor a matter of tribal survival."
+   "text": "For the newly unified tauren tribes, the Rolling Plains are vital hunting grounds. Ancient centaur enemies have come close to Bloodhoof Village, so the tribes must guard this southern corridor to survive."
   },
   {
    "target": "class:Hunter",
-   "text": "With ample herds of kodo, tallstriders, wolves, and cougars, the Rolling Plains offer an ideal wilderness for honing tracking skills, gathering provisions, and taming first animal companions."
+   "text": "As a hunter, you can track kodo, tallstriders, wolves, and cougars across the Rolling Plains. Gather provisions and tame your first animal companion here."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Rolling Plains"
- ]
+ ],
+ "style": 2
 }

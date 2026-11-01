@@ -17,16 +17,16 @@
   "wiki": "Milly Osworth (quest)",
   "chain": []
  },
- "summary": "At Northshire Abbey, Deputy Willem sends you to help Milly Osworth. Her wagon and livelihood are in jeopardy, and she needs help across the abbey grounds. The work takes you from defending the abbey to aiding Elwynn Forest's civilians.",
+ "summary": "Deputy Willem sends you across Northshire Abbey to help his friend Milly Osworth. Her wagon and livelihood are in danger, and Willem's guards cannot leave the abbey grounds to help.",
  "sections": [
   {
    "title": "A Dependable Pair of Hands",
-   "body": "After you prove your mettle against the Defias thieves encroaching on Northshire Valley, Deputy Willem recognizes you as capable and willing to help. He sends you to assist his friend Milly Osworth. This favor is personal, outside the abbey's official guard duties, and Milly is a civilian caught in the valley's growing unrest.",
+   "body": "After you drive back the Defias thieves pressing into Northshire Valley, Deputy Willem trusts you with a personal favor. His friend Milly Osworth is a civilian caught in the valley's unrest, and helping her falls beyond his guard duties.",
    "spoiler": 0
   },
   {
    "title": "Trouble by the Stables",
-   "body": "Milly waits beside her wagon on the far side of Northshire Abbey, near the stables. Deputy Willem must stay at his post to defend the abbey. Milly's troubles lie out in the valley, where the stretched guard garrison has too few hands to help her.",
+   "body": "Milly waits beside her wagon near the stables on the far side of Northshire Abbey. Deputy Willem stays at his post to defend the abbey. With the guard garrison stretched thin, Milly's troubles in the valley go without help.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver milly osworth",
     "where to get milly osworth quest"
    ],
-   "answer": "Deputy Willem sends you to speak with Milly after you prove reliable by dealing with the Defias bandits."
+   "answer": "Deputy Willem sends you to Milly after you prove reliable against the Defias bandits."
   },
   {
    "q": "Where can Milly Osworth be found?",
@@ -56,7 +56,7 @@
     "willem duties",
     "why help milly"
    ],
-   "answer": "Willem's guard duties keep him at Northshire Abbey. With bandits and vermin pressing the valley, the garrison has too few hands for private civilian troubles."
+   "answer": "Willem's guard duties keep him at Northshire Abbey. Bandits and vermin press the valley, leaving the garrison too few hands for private civilian troubles."
   },
   {
    "q": "What prerequisites are needed for this quest?",
@@ -74,7 +74,7 @@
     "milly problem",
     "milly harvest troubles"
    ],
-   "answer": "Milly is struggling with her crop and wagon amid the local turmoil. Her harvest needs securing from the surrounding valley."
+   "answer": "Milly is struggling with her crop and wagon amid the local turmoil. Her harvest needs protection from the surrounding valley."
   },
   {
    "q": "Who is Milly Osworth to Deputy Willem?",
@@ -83,13 +83,13 @@
     "is milly related to willem",
     "how does willem know milly"
    ],
-   "answer": "Willem calls Milly a friend in need from the Northshire community, someone he looks out for while bound to his post."
+   "answer": "Willem calls Milly a friend in need from the Northshire community. He looks out for her while bound to his post."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "In Northshire, you see how stretched Alliance guards rely on passing adventurers to protect local townspeople from emerging threats."
+   "text": "In Northshire, you see Alliance guards stretched thin and relying on passing adventurers to protect townspeople from emerging threats."
   },
   {
    "target": "race:Human",
@@ -114,5 +114,5 @@
  "attribution": [
   "Milly Osworth (quest)"
  ],
- "style": 1
+ "style": 2
 }

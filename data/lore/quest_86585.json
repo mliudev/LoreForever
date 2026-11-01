@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Mountaineer Ylva died defending the honor of Ironforge and searching for missing kin. Recovering her trampled banner and avenging her death strikes at the heart of dwarven pride and duty."
+   "text": "Mountaineer Ylva died defending Ironforge’s honor while searching for missing kin. Recovering her trampled banner and avenging her death strikes at the heart of dwarven pride and duty."
   },
   {
    "target": "faction:Alliance",
-   "text": "The standard of Ironforge represents dwarven allegiance and defiance in trogg territory. Securing it honors the fallen soldiers who hold the line for the Alliance."
+   "text": "The Ironforge standard represents dwarven allegiance and defiance in trogg territory. Securing it honors the fallen soldiers who hold the line for the Alliance."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "ylva lore",
     "who died with the banner"
    ],
-   "answer": "The fallen dwarf is Mountaineer Ylva, an independent-minded soldier who ventured into trogg country to search for fellow mountaineers who never returned from patrol. Armed with an Ironforge standard, she sought to prove dwarven resolve against the troggs before being struck down.",
+   "answer": "Mountaineer Ylva was an independent-minded dwarf who entered trogg country to search for mountaineers who never returned from patrol. She carried an Ironforge standard and sought to show dwarven resolve against the troggs before they struck her down.",
    "q": "Who was the fallen mountaineer?"
   },
   {
@@ -37,7 +37,7 @@
     "what happens in banner of the fallen",
     "ironforge banner quest"
    ],
-   "answer": "Banner of the Fallen involves discovering the body of Mountaineer Ylva and the trampled standard of Ironforge she carried. By raising the standard once more, an adventurer lures out her killer, the trogg Headsplitter, to avenge her death before returning the banner to Captain Rugelfuss.",
+   "answer": "You find Mountaineer Ylva’s body and the trampled Ironforge standard she carried. Raising the banner draws out her killer, the trogg Headsplitter, so you can avenge her and return the standard to Captain Rugelfuss.",
    "q": "What is the quest Banner of the Fallen about?"
   },
   {
@@ -46,7 +46,7 @@
     "which trogg killed the mountaineer",
     "headsplitter trogg"
    ],
-   "answer": "Ylva was killed by a trogg known as Headsplitter, likely using a heavy spiked club that delivered a fatal blow to her skull and knocked off her helm. Raising the Ironforge standard provokes the creature to return.",
+   "answer": "A trogg known as Headsplitter killed Ylva. It may have used a heavy spiked club to deliver the fatal blow to her skull and knock off her helm. Raising the Ironforge standard provokes the creature to return.",
    "q": "Who killed Mountaineer Ylva?"
   },
   {
@@ -55,7 +55,7 @@
     "where do i turn in the banner",
     "captain rugelfuss banner"
    ],
-   "answer": "Captain Rugelfuss is the dwarven officer overseeing mountaineer operations who receives the recovered banner. He recognizes Ylva's bravery and fierce independence, promising to clean and display the standard in her honor.",
+   "answer": "Captain Rugelfuss is the dwarven officer overseeing mountaineer operations, and he receives Ylva’s recovered banner. He recognizes her bravery and fierce independence, and promises to clean and display the standard in her honor.",
    "q": "Who is Captain Rugelfuss?"
   },
   {
@@ -64,7 +64,7 @@
     "why was ylva alone",
     "ylva missing patrol"
    ],
-   "answer": "Ylva set out on her own to investigate the disappearance of several mountaineers who had failed to return from a patrol through trogg country. Known for being fiercely independent, she carried the banner to demonstrate that Ironforge would never bow to troggs.",
+   "answer": "Ylva went alone to investigate the disappearance of mountaineers who had not returned from a patrol through trogg country. Fiercely independent, she carried the banner to show that Ironforge would never bow to troggs.",
    "q": "Why did Mountaineer Ylva go into trogg territory alone?"
   },
   {
@@ -73,7 +73,7 @@
     "call out headsplitter",
     "raising the standard"
    ],
-   "answer": "Headsplitter remembers the Ironforge standard from striking down Mountaineer Ylva. Planting and raising the trampled banner once again provokes the trogg into returning to finish what it started.",
+   "answer": "Headsplitter remembers the Ironforge standard from striking down Mountaineer Ylva. Planting and raising the trampled banner again provokes the trogg to return and finish what it started.",
    "q": "How is the trogg Headsplitter lured out?"
   }
  ],
@@ -94,18 +94,19 @@
  ],
  "sections": [
   {
-   "body": "A trampled standard of Ironforge marks the site where an Alliance scout met a brutal end. Mountaineer Ylva ventured into trogg-infested territory determined to locate comrades who had vanished on patrol, carrying the city's banner as a statement of defiance. Her resolve was cut short when a powerful trogg struck her with enough force to shatter her defenses, leaving the proud standard cast down in the dirt.",
+   "body": "Mountaineer Ylva’s trampled Ironforge standard marks where the Alliance scout met her end. She entered trogg territory to find comrades who had vanished on patrol, carrying the city’s banner as a sign of defiance. A powerful trogg struck with enough force to shatter her defenses. The standard was left in the dirt.",
    "spoiler": 0,
    "title": "The Trampled Standard"
   },
   {
-   "body": "The trogg responsible, a brute known as Headsplitter, recognized the standard and the threat it posed. Raising the fallen banner acts as an open challenge, drawing the monster back into the open to defend its kill. Putting down Headsplitter allows the battered standard to be returned to Captain Rugelfuss, who sees to it that Ylva's weapon is passed on and the banner cleaned and preserved as a monument to dwarven tenacity.",
+   "body": "Headsplitter, the brute responsible for Ylva’s death, recognized the Ironforge standard and the threat it posed. Raising the fallen banner openly challenges the trogg and draws it back to defend its kill. Once Headsplitter is slain, the battered standard can be returned to Captain Rugelfuss. He arranges for Ylva’s weapon to be passed on and the banner to be cleaned and preserved in her honor.",
    "spoiler": 1,
    "title": "Vengeance for Ylva"
   }
  ],
- "summary": "Banner of the Fallen tells the grim story of Mountaineer Ylva, a brave dwarf who ventured into trogg territory to track down missing comrades. After falling in battle and having her Ironforge standard trampled, raising the banner once more draws out her killer to face justice.",
+ "summary": "In trogg territory, Mountaineer Ylva’s search for missing comrades ended beneath the trampled standard of Ironforge. Raising it again draws out the trogg that struck her down.",
  "attribution": [
   "In-game quest text: Banner of the Fallen"
- ]
+ ],
+ "style": 2
 }

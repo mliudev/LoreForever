@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Canals (Undercity)"
  },
- "summary": "The Canals form a murky, circular moat winding between the distinct quarters of the Undercity. Filled with an unnatural, noxious green slime rather than fresh water, they serve as both a sewage system and a grim symbol of the Forsaken's subterranean stronghold.",
+ "summary": "In the Undercity, green slime fills the Canals between its quarters. The murky channels carry waste and mark the Forsaken's underground stronghold.",
  "sections": [
   {
    "title": "A Toxic Moat",
-   "body": "Carved into the subterranean depths beneath the ruins of Lordaeron, the Canals encircle the heart of the Undercity, dividing its quarters with wide channels of sluggish green sludge. While mortal cities channel flowing river water to clean their avenues, the Forsaken have filled these stone conduits with industrial refuse, chemical runoff, and alchemical waste. The liquid emits a faint, sickly glow and foul vapors, making it impossible to traverse by ordinary magical means like water walking. Despite the lethality of the slurry, desperate anglers occasionally haul bizarre, tainted curiosities from the muck.",
+   "body": "Beneath Lordaeron's ruins, green sludge fills the Canals. The stone channels circle the Undercity and divide its quarters. They carry industrial refuse, chemical runoff, and alchemical waste instead of flowing water. Faint light shines through the liquid, and foul vapors rise from it. Water Walking cannot carry anyone across. Still, desperate anglers sometimes pull strange, tainted curiosities from the muck.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is the slime in undercity",
     "green slime river"
    ],
-   "answer": "It is an alchemical sludge composed of toxic runoff, plague byproducts, and industrial waste that collects within the Undercity's drainage system. Unlike clean water, it is visibly tainted and noxious."
+   "answer": "The green liquid is alchemical sludge made from toxic runoff, plague byproducts, and industrial waste gathered in the Undercity's drains. It is tainted and noxious, unlike clean water."
   },
   {
    "q": "Can you fish in the Undercity canals?",
@@ -32,7 +32,7 @@
     "can you fish here",
     "fishing in green slime"
    ],
-   "answer": "Yes, patient anglers can cast a line into the sludge. Along with sickly, contaminated fish, people occasionally haul up discarded junk, including old human skulls from Lordaeron's fallen past."
+   "answer": "Yes. Patient anglers can cast into the sludge and sometimes pull up sickly, contaminated fish or discarded junk. Among it are old human skulls from Lordaeron's fallen past."
   },
   {
    "q": "Why doesn't Water Walking work on the canals?",
@@ -41,17 +41,17 @@
     "shaman water walking bug",
     "why cant i walk on water undercity"
    ],
-   "answer": "The thick, chemical slurry does not behave like natural water. Its foul viscosity and unnatural composition prevent shamans and other spellcasters from holding surface tension through conventional water-walking magic."
+   "answer": "The thick chemical slurry does not behave like natural water. Its foul, viscous makeup keeps shamans and other spellcasters from using ordinary Water Walking magic on it."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the foul canals are entirely harmless to their unliving physiology, serving as a functional moat and chemical runoff channel suited to their subterranean realm."
+   "text": "For the Forsaken, the foul canals do no harm to their unliving bodies. They carry chemical runoff through the underground realm and serve as a moat."
   },
   {
    "target": "class:Shaman",
-   "text": "The elements hold little sway over the polluted muck filling the Undercity's waterways, causing conventional spells like Water Walking to fail entirely."
+   "text": "As a shaman, you find the elements have little sway over the polluted muck in the Undercity's waterways. Ordinary spells like Water Walking fail there."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Canals (Undercity)"
- ]
+ ],
+ "style": 2
 }

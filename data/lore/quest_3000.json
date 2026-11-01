@@ -17,16 +17,16 @@
   "wiki": "Tome of Divinity (Lord Grayson Shadowbreaker)",
   "chain": []
  },
- "summary": "In Stormwind, Lord Grayson Shadowbreaker sends dwarf paladins back to Ironforge. There, Tiza Battleforge guides them toward the sacred trials of the Tome of Divinity.",
+ "summary": "In Ironforge, dwarf paladins return for deeper training in the Holy Light. Lord Grayson Shadowbreaker sends them home, and Tiza Battleforge guides them toward the sacred trials of the Tome of Divinity.",
  "sections": [
   {
    "title": "A Summons Home",
-   "body": "Dwarf paladins often aid Stormwind and travel through human lands, but their spiritual and martial roots lie in Khaz Modan. When Lord Grayson Shadowbreaker judges that a dwarf has gained enough field training, he sends them to Ironforge. Their own people there guide the spiritual duties expected of a full Knight of the Silver Hand.",
+   "body": "Dwarf paladins keep their spiritual and martial roots in Khaz Modan, even when they serve Stormwind or travel through human lands. When Lord Grayson Shadowbreaker judges that a dwarf has gained enough field training, he sends them home. There they learn the duties expected of a full Knight of the Silver Hand.",
    "spoiler": 0
   },
   {
    "title": "The Hall of Mysteries",
-   "body": "In Ironforge, you are directed to the Mystic Ward and the Hall of Mysteries. Tiza Battleforge waits on its upper level, where she mentors young dwarven paladins. She prepares them to bear the burden of the Holy Light through sacred trials recorded in the Tome of Divinity.",
+   "body": "In Ironforge, you are directed to the Mystic Ward and the Hall of Mysteries. Tiza Battleforge waits upstairs, where she mentors young dwarven paladins. She prepares them to bear the burden of the Holy Light through sacred trials recorded in the Tome of Divinity.",
    "spoiler": 0
   }
  ],
@@ -92,7 +92,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you begin a major rite of passage: studying the Tome of Divinity and mastering the gift of resurrection."
+   "text": "As a paladin, you begin a major rite of passage by studying the Tome of Divinity and mastering the gift of resurrection."
   },
   {
    "target": "faction:Alliance",
@@ -120,5 +120,5 @@
  "attribution": [
   "Tome of Divinity (Lord Grayson Shadowbreaker)"
  ],
- "style": 1
+ "style": 2
 }

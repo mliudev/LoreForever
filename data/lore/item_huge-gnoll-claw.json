@@ -10,11 +10,11 @@
    "quest:176"
   ]
  },
- "summary": "In southwestern Elwynn, Hogger’s huge claw is sought as proof of his death. Stormwind’s authorities in Goldshire require it for the bounty.",
+ "summary": "In southwestern Elwynn, Hogger's death is proven by his huge claw. Stormwind's authorities in Goldshire require it before paying the bounty.",
  "sections": [
   {
    "title": "Bounty Hunter's Proof",
-   "body": "Hogger has terrorized the southern woodlands of Forest's Edge for months. Patrols have failed to stop the brute, and the local garrison cannot corral or subdue him. The Stormwind Army, stretched thin across Elwynn, posted an open bounty on his head. Marshal Dughan in Goldshire requires clear proof before paying it. Hogger's oversized claw leaves no doubt that the notorious marauder has fallen.",
+   "body": "For months, Hogger has terrorized the southern woodlands of Forest's Edge. Patrols have failed to stop him, and the local garrison cannot corral or subdue the brute. The Stormwind Army is stretched thin across Elwynn, so it has posted an open bounty on his head. Marshal Dughan in Goldshire requires clear proof before paying. Hogger's oversized claw leaves no doubt that the notorious marauder has fallen.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "huge gnoll claw use",
     "who wants the claw"
    ],
-   "answer": "Bring Hogger's claw to Marshal Dughan in Goldshire as proof of his death, and you can collect the posted bounty."
+   "answer": "Bring Hogger's claw to Marshal Dughan in Goldshire as proof of his death, and collect the posted bounty."
   },
   {
    "q": "Where does this claw come from?",
@@ -35,7 +35,7 @@
     "how to get huge gnoll claw",
     "where to find huge gnoll claw"
    ],
-   "answer": "The claw comes from Hogger, an elite gnoll who wanders near the Riverpaw camps along the southwestern borders of Forest's Edge in Elwynn Forest."
+   "answer": "Hogger carries the claw. The elite gnoll wanders near the Riverpaw camps along the southwestern borders of Forest's Edge in Elwynn Forest."
   },
   {
    "q": "Why does Marshal Dughan want a claw instead of the head?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, claiming Hogger's claw rids the kingdom's heartland of its most infamous woodland terror. The claw proves your valor to Marshal Dughan and the beleaguered garrison at Goldshire."
+   "text": "For the Alliance, claiming Hogger's claw rids the kingdom's heartland of its most infamous woodland terror. It proves your valor to Marshal Dughan and the beleaguered garrison at Goldshire."
   },
   {
    "target": "class:Hunter",
@@ -89,5 +89,5 @@
   "Huge Gnoll Claw",
   "Wanted: \"Hogger\""
  ],
- "style": 1
+ "style": 2
 }

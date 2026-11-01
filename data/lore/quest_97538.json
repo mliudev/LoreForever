@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Tah Winterhoof represents the artisans of Thunder Bluff who rely on natural flora across Kalimdor to produce traditional pigments and dyes."
+   "text": "As a tauren, you can see how Thunder Bluff artisans use natural plants to make traditional pigments and dyes."
   },
   {
    "target": "profession:Herbalism",
-   "text": "While Mirkfallon Lake holds dangerous waters, its native mirkweed illustrates how regional aquatic plants provide useful materials and pigments beyond standard medicinal herbs."
+   "text": "As a herbalist, you know that aquatic plants such as mirkweed can provide useful pigments beyond medicinal herbs. Mirkfallon Lake's waters are dangerous."
   },
   {
    "target": "faction:Horde",
-   "text": "The request demonstrates the everyday ties between the tauren capital of Thunder Bluff and the nearby rugged passes of the Stonetalon Mountains."
+   "text": "As a member of the Horde, you know the ties between Thunder Bluff and the rugged passes of the Stonetalon Mountains."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "pigments quest giver",
     "tah winterhoof location"
    ],
-   "answer": "Tah Winterhoof offers this task in Thunder Bluff. As an elder tauren artisan whose traveling days are behind him, he seeks someone with younger hooves to gather raw materials on his behalf.",
+   "answer": "Tah Winterhoof asks for help in Thunder Bluff. His traveling days are behind him, so he needs someone younger to gather materials for his craft.",
    "q": "Who gives the quest Pigments for Paints?"
   },
   {
@@ -41,7 +41,7 @@
     "mirkweed location",
     "where is mirkfallon lake"
    ],
-   "answer": "Mirkweed grows in the waters of Mirkfallon Lake, a large circular lake situated in the middle of the mountain pass in the Stonetalon Mountains.",
+   "answer": "Mirkweed grows in the waters of Mirkfallon Lake, a large, round lake in a mountain pass in the Stonetalon Mountains.",
    "q": "Where are Mirkweed Pods found?"
   },
   {
@@ -50,7 +50,7 @@
     "what is mirkweed used for",
     "why red pigment"
    ],
-   "answer": "Tah Winterhoof has run out of red pigment for his artwork. The pods of the mirkweed plant turn a vibrant red once they are dried, making them an ideal natural dye for his paints.",
+   "answer": "Tah Winterhoof has run out of red pigment for his artwork. Dried mirkweed pods turn red and provide dye for his paints.",
    "q": "Why does Tah Winterhoof need mirkweed?"
   },
   {
@@ -58,7 +58,7 @@
     "how many pods needed",
     "mirkweed count"
    ],
-   "answer": "Tah Winterhoof requires 30 Mirkweed Pods collected directly from the waters of Mirkfallon Lake to restock his supply of red pigment.",
+   "answer": "Tah Winterhoof needs thirty Mirkweed Pods from Mirkfallon Lake to replenish his red pigment.",
    "q": "How many Mirkweed Pods are needed?"
   },
   {
@@ -66,7 +66,7 @@
     "what kind of plant is mirkweed",
     "mirkweed details"
    ],
-   "answer": "Mirkweed is a unique aquatic plant native to Mirkfallon Lake in the Stonetalon Mountains. Its defining trait is that its pods dry into an intense red pigment.",
+   "answer": "Mirkweed is an aquatic plant that grows in Mirkfallon Lake in the Stonetalon Mountains. Its pods dry into red pigment.",
    "q": "What is mirkweed?"
   },
   {
@@ -74,7 +74,7 @@
     "where is tah winterhoof",
     "tah winterhoof thunder bluff"
    ],
-   "answer": "Tah Winterhoof resides atop the mesa city of Thunder Bluff in Mulgore, where he practices his craft and prepares traditional paints.",
+   "answer": "Tah Winterhoof lives atop the mesa city of Thunder Bluff in Mulgore, where he practices his craft and prepares traditional paints.",
    "q": "Where is Tah Winterhoof located?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "Tah Winterhoof, an elder tauren artisan residing in the high mesa city of Thunder Bluff, finds his craft brought to a halt after running out of red pigment. With his traveling years behind him, the painter relies on hearty travelers with younger hooves to make the arduous trek north into the Stonetalon Mountains to replenish his store of coloring.",
+   "body": "Tah Winterhoof has run out of red pigment and cannot continue his work. He lives in Thunder Bluff, and his traveling days are behind him. So he asks you to make the long journey north into the Stonetalon Mountains and gather more coloring.",
    "spoiler": 0,
    "title": "An Artisan's Need"
   },
   {
-   "body": "The secret to Tah's brilliant crimson hue lies within the depths of Mirkfallon Lake, a prominent circular body of water nestled in the mountain pass of Stonetalon. Submerged in these waters grows mirkweed, a distinctive aquatic flora whose seed pods turn a vibrant, striking red once harvested and properly dried. By retrieving thirty of these pods, travelers supply the master artisan with the raw material needed to resume his work.",
+   "body": "Mirkfallon Lake lies in a mountain pass in the Stonetalon Mountains. Mirkweed grows beneath its waters, and its seed pods turn red when harvested and dried. Gather thirty pods, and Tah will have the raw material he needs to return to his work.",
    "spoiler": 0,
    "title": "The Waters of Mirkfallon"
   }
  ],
- "summary": "Tah Winterhoof of Thunder Bluff needs a traveler to journey into the Stonetalon Mountains to replenish his supply of red paint pigment. The requested material comes from mirkweed, a unique aquatic plant growing in Mirkfallon Lake whose dried pods yield a vibrant crimson dye.",
+ "summary": "Tah Winterhoof needs red pigment for his paints, and you can help him replenish it. The color comes from mirkweed pods gathered in Mirkfallon Lake in the Stonetalon Mountains.",
  "attribution": [
   "In-game quest text: Pigments for Paints"
- ]
+ ],
+ "style": 2
 }

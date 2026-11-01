@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A shaman sees your strength in earth and sends you to Kranal Fiss in the Barrens. He can teach you the ways of fire.",
+ "summary": "A shaman sees your strength in earth and sends you north to Kranal Fiss. There, you can learn the ways of fire.",
  "sections": [
   {
    "title": "Kranal Fiss",
-   "body": "Kranal lives north of the Crossroads. The shaman says he is easy to find, but warns you not to go too far or you will reach the elves' lands.",
+   "body": "Kranal Fiss lives north of the Crossroads. The shaman says he is easy to find, but warns you not to go too far, lest you reach the elves' lands.",
    "spoiler": 0
   }
  ],
@@ -64,7 +64,7 @@
   "zone:barrens",
   "subzone:crossroads"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Call of Fire"
  ]

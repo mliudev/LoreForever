@@ -10,16 +10,16 @@
    "quest:310"
   ]
  },
- "summary": "Marleth Barleybrew sends a cask of Scalder toward the Thunderbrew Distillery in Kharanos. The ale is meant to prove his brewing against the Thunderbrews, his chief competitors.",
+ "summary": "At Kharanos, Marleth Barleybrew sends a cask of Scalder toward the Thunderbrew Distillery. He means to prove his brewing can rival the Thunderbrews, his chief competitors.",
  "sections": [
   {
    "title": "A Bitter Feud in Dun Morogh",
-   "body": "The Thunderbrews and Barleybrews compete fiercely over brewing in Dun Morogh. The Thunderbrews are renowned, with their busy distillery in Kharanos. Marleth Barleybrew refuses to live in their shadow. He brews the fiery Scalder to show his recipes can rival theirs, hoping those who taste it will see the Thunderbrews do not own the art of fine dwarven drink.",
+   "body": "The Thunderbrews and Barleybrews contend fiercely over brewing in Dun Morogh. The Thunderbrews are renowned for their busy distillery in Kharanos. Marleth Barleybrew will not live in their shadow. So he brews fiery Scalder to show his recipes can rival theirs. He hopes those who taste it will see the Thunderbrews do not own the art of fine dwarven drink.",
    "spoiler": 0
   },
   {
    "title": "Subterfuge in the Cellar",
-   "body": "The barrel is meant to be carried into the cellars beneath the Thunderbrew Distillery. There, it will take the place of a cask of Thunder Ale, a local favorite. The plan is a prank born of wounded pride, not poison or ruin: the next batch served upstairs will secretly be Barleybrew's potent Scalder.",
+   "body": "The barrel is bound for the cellars beneath the Thunderbrew Distillery. There it will take the place of a cask of Thunder Ale, a local favorite. Wounded pride has given rise to a prank, not poison or ruin. The next batch served upstairs will secretly be Barleybrew's potent Scalder.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "bitter rivals reason",
     "why marleth sneak brew"
    ],
-   "answer": "Marleth admits the Thunderbrews make good drinks, but wants them to learn humility. He hopes cellar patrons will taste his brew without knowing it and find Barleybrew craftsmanship just as good, if not better."
+   "answer": "Marleth admits the Thunderbrews make good drinks, but he wants them to learn humility. He hopes cellar patrons will taste his brew without knowing it and find Barleybrew craftsmanship just as good, if not better."
   },
   {
    "q": "Where does this barrel go?",
@@ -49,7 +49,7 @@
     "scalder barrel location",
     "distillery cellar"
    ],
-   "answer": "The barrel goes into the cellar beneath the Thunderbrew Distillery in Kharanos. It is swapped onto the racks where a cask of Thunder Ale is due to be tapped."
+   "answer": "The barrel goes into the cellar beneath the Thunderbrew Distillery in Kharanos. It takes the place on the racks of a cask of Thunder Ale due to be tapped."
   },
   {
    "q": "Is the brew meant to harm anyone?",
@@ -58,17 +58,17 @@
     "is it poison",
     "will it hurt anyone"
    ],
-   "answer": "No. The brew is a strong, competing dwarven ale. The families' rivalry is intense, but it comes from professional pride, not malice."
+   "answer": "No. The brew is a strong dwarven ale meant to rival the Thunderbrews'. The families' rivalry is fierce, but it comes from professional pride, not malice."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know ale crafting as an art and a bloodsport. Dun Morogh takes its recipe rivalries all the way into the cellar."
+   "text": "As a dwarf, you know ale crafting as both an art and a bloodsport. Dun Morogh's recipe rivalries reach all the way into the cellar."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can distract a cellar guard and slip heavy contraband into a guarded stash. It's a low-stakes taste of dwarven subterfuge."
+   "text": "As a rogue, you can distract a cellar guard and slip heavy contraband into a guarded stash. Here, you get a taste of dwarven subterfuge with little at stake."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Barrel of Barleybrew Scalder",
   "Bitter Rivals"
  ],
- "style": 1
+ "style": 2
 }

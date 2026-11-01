@@ -8,21 +8,21 @@
   "wiki": "Priestess Josetta",
   "refs": 4
  },
- "summary": "In Goldshire, Priestess Josetta guides young priests beyond their first trials in Northshire. She teaches faith, devotion, and the work of serving others.",
+ "summary": "In Goldshire, Priestess Josetta guides young priests beyond their first trials at Northshire. She teaches them faith, devotion, and service to others.",
  "sections": [
   {
    "title": "A Beacon in Goldshire",
-   "body": "Priestess Josetta tends to the people of Elwynn Forest from an upstairs room in the Lion's Pride Inn. Travelers, guards, and local workers come within her reach there. She offers spiritual care among ordinary folk, showing that service to the Holy Light can be given wherever people need comfort.",
+   "body": "From an upstairs room in the Lion's Pride Inn, Priestess Josetta tends to the people of Elwynn Forest. Travelers, guards, and local workers come within her reach there. She gives spiritual care among ordinary folk, serving the Holy Light wherever people need comfort.",
    "spoiler": 0
   },
   {
    "title": "Guiding Young Acolytes",
-   "body": "Priestess Josetta guides young priests who have finished their first studies at Northshire Abbey. She sends them into the countryside to help wounded guards and comfort those who suffer. Their work teaches them that priesthood asks more than prayers learned by heart. They must put the Light to work and help mend a broken world.",
+   "body": "After their first studies at Northshire Abbey, young priests come to Priestess Josetta for guidance. She sends them into the countryside to aid wounded guards and comfort those who suffer. Their work teaches them that priesthood asks for more than prayers learned by heart. They must put the Light to work and help mend a broken world.",
    "spoiler": 0
   },
   {
    "title": "A Quiet Regret",
-   "body": "Priestess Josetta regrets that she did not travel farther when she was young. She chose familiar ground over the wider roads of Azeroth. Though she is content with her sacred service in Goldshire, she urges the young disciples who visit her to be bolder and carry their faith to distant frontiers.",
+   "body": "Priestess Josetta regrets that she did not travel farther when she was young. She chose familiar ground over the wider roads of Azeroth. Though content with her sacred service in Goldshire, she urges young disciples to be bolder and carry their faith to distant frontiers.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "where is priestess josetta",
     "goldshire priest trainer location"
    ],
-   "answer": "Priestess Josetta lives in the second-floor room beside Michelle Belle at the Lion's Pride Inn in Goldshire."
+   "answer": "Priestess Josetta lives in a second-floor room beside Michelle Belle at the Lion's Pride Inn in Goldshire."
   },
   {
    "q": "What role does Priestess Josetta serve?",
@@ -42,7 +42,7 @@
     "what does josetta do",
     "priestess josetta role"
    ],
-   "answer": "Priestess Josetta trains Alliance priests in holy spells, discipline, and the duties of their calling after Northshire."
+   "answer": "After Northshire, Priestess Josetta trains Alliance priests in holy spells, discipline, and the duties of their calling."
   },
   {
    "q": "Why does Josetta operate out of an inn instead of a church?",
@@ -50,7 +50,7 @@
     "why in an inn",
     "why lions pride inn"
    ],
-   "answer": "Goldshire has no separate chapel, and the Lion's Pride Inn is the town center. From her room upstairs, Josetta can care for weary travelers, injured guards, and local residents."
+   "answer": "Goldshire has no separate chapel, and the Lion's Pride Inn is the town center. From her upstairs room, Josetta cares for weary travelers, injured guards, and local residents."
   },
   {
    "q": "What personal regret does Josetta share with disciples?",
@@ -80,11 +80,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest leaving Northshire, you can learn core spells from Josetta and how to put your healing vows into practice."
+   "text": "As a priest leaving Northshire, you can learn core spells from Josetta and put your healing vows into practice."
   },
   {
    "target": "race:Human",
-   "text": "As a human priest, you will hear the Church of the Light's teachings in Josetta's counsel and learn prayers from your people's traditions."
+   "text": "As a human priest, you hear the Church of the Light's teachings in Josetta's counsel and learn prayers from your people's traditions."
   },
   {
    "target": "faction:Alliance",
@@ -114,5 +114,5 @@
  "attribution": [
   "Priestess Josetta"
  ],
- "style": 1
+ "style": 2
 }

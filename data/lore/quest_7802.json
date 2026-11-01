@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Ironforge is accepting wool cloth donations to support its stores. Sixty pieces earn full recognition for your generosity.",
+ "summary": "At Ironforge, wool donations help support its stores. Sixty pieces bring full recognition for your generosity.",
  "sections": [
   {
    "title": "Wool Stores",
-   "body": "Ironforge needs sixty pieces of wool cloth from you. Its stores need only that amount from you, while others are expected to contribute enough to support the drive.",
+   "body": "Ironforge asks you for sixty pieces of wool cloth. Its stores need only that much from you. Others are expected to give enough to support the drive.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "how many wool",
     "sixty wool"
    ],
-   "answer": "Ironforge asks you for sixty pieces of wool cloth."
+   "answer": "Sixty pieces of wool cloth, for Ironforge."
   },
   {
    "q": "What do I get for donating wool?",
@@ -36,7 +36,7 @@
     "what for wool",
     "ironforge recognition"
    ],
-   "answer": "Donating sixty pieces of wool cloth earns you full recognition from Ironforge for your generosity."
+   "answer": "Give Ironforge sixty pieces of wool cloth, and you earn full recognition for your generosity."
   },
   {
    "q": "Why is Ironforge collecting wool?",
@@ -45,7 +45,7 @@
     "why wool donation",
     "ironforge wool"
    ],
-   "answer": "Ironforge is gathering wool cloth to support its stores."
+   "answer": "Ironforge gathers wool cloth to support its stores."
   }
  ],
  "angles": [
@@ -66,7 +66,7 @@
  "related": [
   "zone:ironforge"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Donation of Wool"
  ]

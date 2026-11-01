@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Forest's Edge"
  },
- "summary": "Riverpaw gnolls under Hogger threaten travelers at Forest's Edge, along Elwynn's southwestern frontier.",
+ "summary": "At Forest's Edge, Riverpaw gnolls under Hogger threaten travelers on Elwynn's southwestern frontier.",
  "sections": [
   {
    "title": "A Contested Frontier",
-   "body": "At Forest's Edge, woodland runs southwest from Stormwind City between Mirror Lake Orchard and the rivers that border Westfall. Westbrook Garrison lies nearby, but Stormwind's thin ranks leave the woods open to wild beasts and raiding parties. Boars roam among the trees and along the banks. Riverpaw gnolls gather here in force, using the woods as a staging ground.",
+   "body": "At Forest's Edge, the woods run southwest from Stormwind City, between Mirror Lake Orchard and the rivers that border Westfall. Westbrook Garrison is nearby, yet Stormwind has too few soldiers to keep the woods clear of wild beasts and raiding parties. Boars roam among the trees and along the banks. Riverpaw gnolls gather in force, using the woods as a staging ground.",
    "spoiler": 0
   },
   {
    "title": "Hogger's Stronghold",
-   "body": "Hogger and his pack hunt through the woods of Forest's Edge. A massive, brutal gnoll chieftain, he leads raids on nearby farms and harasses travelers. The Stormwind Army has placed a bounty on his head. His pack makes the timberland dangerous for anyone who crosses it.",
+   "body": "Hogger and his pack hunt through the woods of Forest's Edge. He is a massive, brutal gnoll chieftain who leads raids on nearby farms and harasses travelers. The Stormwind Army has placed a bounty on his head. His pack makes the timberland dangerous for anyone crossing it.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who is hogger",
     "hogger info"
    ],
-   "answer": "Hogger is a powerful gnoll leader who directs violent attacks along Elwynn's borders. The Stormwind Army has offered a bounty for proof of his death and warns adventurers not to face him alone."
+   "answer": "Hogger is a powerful gnoll leader who directs violent attacks along Elwynn's borders. The Stormwind Army offers a bounty for proof of his death and warns against facing him alone."
   },
   {
    "q": "Why hasn't Westbrook Garrison cleared the area?",
@@ -55,7 +55,7 @@
     "why stormwind guards not help",
     "westbrook guards"
    ],
-   "answer": "Stormwind's military is stretched thin across the kingdom. Unrest in Westfall and threats on all sides leave Westbrook Garrison without enough soldiers to clear the gnoll camps, so volunteers are left to confront them."
+   "answer": "Stormwind's military is stretched thin across the kingdom. Unrest in Westfall and threats on all sides leave Westbrook Garrison without enough soldiers to clear the gnoll camps, so volunteers must confront them."
   }
  ],
  "angles": [
@@ -65,7 +65,7 @@
   },
   {
    "target": "profession:Herbalism",
-   "text": "Forest's Edge has common woodland herbs along its riverbanks and in its shaded groves. You may have to avoid aggressive gnoll patrols while gathering them."
+   "text": "Forest's Edge has common woodland herbs along its riverbanks and in its shaded groves. Watch for aggressive gnoll patrols while gathering them."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Forest's Edge"
  ],
- "style": 1
+ "style": 2
 }

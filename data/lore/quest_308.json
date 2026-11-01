@@ -17,16 +17,16 @@
   "wiki": "Distracting Jarven",
   "chain": []
  },
- "summary": "Jarven Thunderbrew watches the cellar stores at Thunderbrew Distillery in Kharanos. Forbidden to touch the barrels, he asks a passing traveler to bring him a mug of Thunder Ale from upstairs, hoping it will sharpen his wits on duty.",
+ "summary": "At Thunderbrew Distillery in Kharanos, Jarven Thunderbrew watches the cellar stores. His family forbids him to drink from the barrels while on duty, so he asks you to bring him Thunder Ale from upstairs. He hopes a mug will sharpen his wits.",
  "sections": [
   {
    "title": "A Thirsty Guard on Duty",
-   "body": "In Kharanos, Jarven Thunderbrew keeps watch over the deep stores of Thunderbrew Distillery. His family forbids him to drink from the stock while on guard, though the finest stout in Dun Morogh surrounds him. The temptation wins out, and he asks passing travelers to fetch a pint of potent Thunder Ale from the taps upstairs.",
+   "body": "Jarven watches the deep stores, with Dun Morogh’s finest stout all around him. His family forbids him to drink from the stock while he is on guard. Yet temptation gets the better of him, and he asks you to fetch a pint of potent Thunder Ale from the taps upstairs.",
    "spoiler": 0
   },
   {
    "title": "A Dubious Sharpener",
-   "body": "Jarven says a good drink will hone his senses and strengthen his watch. Whether a guard should drink on duty remains an open question. Few hardy dwarves in Dun Morogh can fault a Thunderbrew for wanting a taste of the brew made by his own kin.",
+   "body": "Jarven says a good drink will sharpen his senses and strengthen his watch. Whether a guard ought to drink on duty is another matter. Still, few hardy dwarves can fault a Thunderbrew for wanting a taste of the ale his own kin make.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "jarven lore",
     "guard in cellar"
    ],
-   "answer": "Jarven Thunderbrew belongs to the renowned Thunderbrew family and watches the stored casks in the cellar of Thunderbrew Distillery in Kharanos."
+   "answer": "Jarven Thunderbrew belongs to the renowned Thunderbrew family. He watches the stored casks in the cellar of Thunderbrew Distillery in Kharanos."
   },
   {
    "q": "Why does Jarven need someone to bring him ale?",
@@ -47,7 +47,7 @@
     "jarven ale quest",
     "why fetch booze"
    ],
-   "answer": "Jarven's family forbids him to drink from the cellar stock while he is on watch. He asks an outsider to bring him a fresh mug from upstairs, avoiding the sealed casks."
+   "answer": "Jarven's family forbids him to drink from the cellar stock while he is on watch. So he asks an outsider to bring him a fresh mug from upstairs, leaving the sealed casks untouched."
   },
   {
    "q": "Where is Thunder Ale found?",
@@ -65,7 +65,7 @@
     "thunderbrew cellar location",
     "where is jarven"
    ],
-   "answer": "In Kharanos, Thunderbrew Distillery is the central inn, in the snowy heart of Dun Morogh just down the mountain from Ironforge."
+   "answer": "Thunderbrew Distillery is the central inn in Kharanos, in the snowy heart of Dun Morogh. It lies just down the mountain from Ironforge."
   },
   {
    "q": "Why is Thunderbrew ale so famous?",
@@ -73,7 +73,7 @@
     "thunderbrew reputation",
     "what is thunder ale"
    ],
-   "answer": "The Thunderbrew clan's stout and ales are famous across Khaz Modan and beyond for their strong punch, flavor, and dwarven kick."
+   "answer": "The Thunderbrew clan's stout and ales are famous across Khaz Modan and beyond. Their strong punch, flavor, and dwarven kick are known far and wide."
   },
   {
    "q": "Does getting Jarven drunk cause any trouble?",
@@ -81,7 +81,7 @@
     "jarven drunk consequences",
     "what happens after distracting jarven"
    ],
-   "answer": "Jarven says the ale sharpens his wits instead of dulling them, though it keeps his attention from anyone poking around the lower storage."
+   "answer": "Jarven says the ale sharpens his wits instead of dulling them. But it keeps his attention from anyone poking around the lower storage."
   }
  ],
  "angles": [
@@ -91,7 +91,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know strong liquor can distract a watchman, though Jarven asks for the distraction himself."
+   "text": "As a rogue, you know strong liquor can distract a watchman. Jarven asks for that distraction himself."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Distracting Jarven"
  ],
- "style": 1
+ "style": 2
 }

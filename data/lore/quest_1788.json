@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This trial marks a paladin's passage into true service to the Light, mastering the sacred power to return fallen companions to life."
+   "text": "As a paladin, this trial marks your passage into true service to the Light. You master the sacred power to return fallen companions to life."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stormwind's paladins train under the Cathedral of Light, strengthening the kingdom's defenses by preserving the lives of Alliance defenders."
+   "text": "As an Alliance defender, you train among Stormwind's paladins at the Cathedral of Light. Their work preserves the lives of Alliance defenders and strengthens the kingdom's defenses."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is this quest",
     "tome of divinity paladin"
    ],
-   "answer": "The Tome of Divinity represents a culminating trial for paladins learning to wield the Holy Light. In this stage, an initiate reports back to Duthorian Rall after proving capable of channeling the Light to bring back the fallen.",
+   "answer": "The Tome of Divinity is a culminating trial for paladins learning to wield the Holy Light. Here, an initiate reports to Duthorian Rall after proving capable of channeling the Light to restore the fallen.",
    "q": "What is The Tome of Divinity?"
   },
   {
@@ -37,7 +37,7 @@
     "duthorian rall role",
     "where is duthorian"
    ],
-   "answer": "Duthorian Rall is a high-ranking paladin trainer stationed in Stormwind's Cathedral of Light who oversees the development of paladin initiates and judges their readiness to wield sacred rites.",
+   "answer": "Duthorian Rall is a high-ranking paladin trainer at Stormwind's Cathedral of Light. He oversees paladin initiates and judges their readiness to wield sacred rites.",
    "q": "Who is Duthorian Rall?"
   },
   {
@@ -45,7 +45,7 @@
     "symbol of life purpose",
     "what did symbol of life do"
    ],
-   "answer": "The Symbol of Life is a sacred focus used to call upon the Light to restore life to the deceased. Proving the ability to channel its power shows an initiate is ready to command the paladin's power of resurrection.",
+   "answer": "The Symbol of Life is a sacred focus for calling on the Light to restore the dead. Mastering its power proves an initiate is ready to wield the paladin's power of resurrection.",
    "q": "What is the Symbol of Life?"
   },
   {
@@ -54,7 +54,7 @@
     "henze lore",
     "henze paladin quest"
    ],
-   "answer": "Henze is an ally who fell in the field and was restored to life using the Symbol of Life during the initiate's trials, demonstrating that the paladin possessed the resolve and faith needed to reverse death.",
+   "answer": "Henze is an ally who fell in the field and was restored with the Symbol of Life during an initiate's trials. The deed showed the paladin's resolve and faith to reverse death.",
    "q": "Who was Henze?"
   },
   {
@@ -62,7 +62,7 @@
     "paladin resurrection lore",
     "how do paladins revive"
    ],
-   "answer": "Resurrection is considered one of a paladin's highest honors. By attuning directly to the Holy Light and demonstrating deep faith, a paladin learns to call fallen companions back from the threshold of death.",
+   "answer": "Resurrection is one of a paladin's highest honors. Through deep faith and attunement to the Holy Light, a paladin learns to call fallen companions back from death's threshold.",
    "q": "How does a paladin earn the power of resurrection?"
   },
   {
@@ -70,7 +70,7 @@
     "kings advisors script",
     "what script goes to stormwind"
    ],
-   "answer": "The script is the Defias papers taken from the island. Gazin Tenorm will carry them to the King's advisors once Duthorian Rall has looked them over, as proof that the Defias have infiltrated Elwynn.",
+   "answer": "The script is the Defias papers taken from the island. Once Duthorian Rall has looked them over, Gazin Tenorm will carry them to the King's advisors as proof that the Defias have infiltrated Elwynn.",
    "q": "Why is the script being taken to the King's advisors?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "After completing a trial in the field and using the Symbol of Life to restore the fallen Henze, an aspiring paladin returns to the Cathedral of Light in Stormwind. The Defias papers recovered from the island are slated to go to the King's advisors through Gazin Tenorm, but first Duthorian Rall awaits word of the initiate's success.",
+   "body": "After restoring the fallen Henze with the Symbol of Life in the field, an aspiring paladin returns to the Cathedral of Light in Stormwind. The Defias papers recovered from the island are to go to the King's advisors through Gazin Tenorm. First, Duthorian Rall awaits word of the initiate's success.",
    "spoiler": 0,
    "title": "Return to the Cathedral"
   },
   {
-   "body": "Calling upon the Light to bring back the dead is not a skill granted lightly. In Duthorian Rall's eyes, successfully channeling the Symbol of Life proves an initiate possesses the faith and spiritual strength necessary for one of the paladin order's greatest callings: the power of resurrection. By mastering this rite, the paladin stands ready to safeguard allies on future battlefields across the kingdom.",
+   "body": "Calling on the Light to restore the dead is no small gift. Duthorian Rall sees mastery of the Symbol of Life as proof that an initiate has the faith and spiritual strength for one of the paladin order's highest callings: resurrection. With this rite mastered, the paladin can safeguard allies on battlefields across the kingdom.",
    "spoiler": 0,
    "title": "The Gift of Resurrection"
   }
  ],
- "summary": "The Tome of Divinity is a pivotal trial of faith and devotion for paladins in Stormwind. By proving mastery over the sacred Symbol of Life and restoring a fallen ally, an initiate earns the solemn blessing of resurrection from Duthorian Rall.",
+ "summary": "In Stormwind, paladins face a trial of faith in The Tome of Divinity. An initiate proves mastery of the Symbol of Life by restoring a fallen ally, then earns Duthorian Rall's blessing to wield resurrection.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

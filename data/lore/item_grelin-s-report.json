@@ -11,16 +11,16 @@
    "quest:420"
   ]
  },
- "summary": "Grelin's Report is a dispatch written by Grelin Whitebeard detailing the Frostmane troll situation in Coldridge Valley. Entrusted to an adventurer rather than a novice apprentice, it serves as the official link between the scouts guarding Anvilmar and Senir Whitebeard stationed in Kharanos.",
+ "summary": "In Coldridge Valley, Grelin's Report carries word of the Frostmane trolls to Kharanos. It joins the scouts at Anvilmar with Senir Whitebeard and Ironforge.",
  "sections": [
   {
    "title": "A Dispatch Past the Troggs",
-   "body": "Written after observing the Frostmane trolls in Coldridge Valley, Grelin's Report concludes that they pose no large threat and can be dealt with by the Mountaineers already stationed there and mercenaries paid from Senate funds. Rather than trusting his fumbling apprentice with such vital intelligence, Grelin enlists a capable traveler to carry the document through the trogg-infested Coldridge Pass. The paper acts as an official pass through Mountaineer Thalos's blockade, proving the bearer travels on urgent business to the wider snowy expanse of Dun Morogh.",
+   "body": "Grelin Whitebeard has watched the Frostmane trolls in Coldridge Valley and judges them no great threat. Mountaineers already stationed there can handle them, with mercenaries paid from Senate funds. So Grelin entrusts his report to a capable traveler instead of his fumbling apprentice. The journey leads through trogg-infested Coldridge Pass.\n\nThe paper shows Mountaineer Thalos that you travel on urgent business. With it, you may pass his blockade and enter the snowy reaches of Dun Morogh.",
    "spoiler": 0
   },
   {
    "title": "Ruffling Feathers in Kharanos",
-   "body": "When delivered to Senir Whitebeard at the Thunderbrew Distillery in Kharanos, the report provides critical field updates intended for Ironforge. Senir notes with amused resignation that his brother invoked King Magni Bronzebeard's name liberally throughout the text. Grelin claims the King's sanction for the action, and Senir expects that appeal to royal authority to ruffle some feathers in the Ironforge Senate.",
+   "body": "At the Thunderbrew Distillery in Kharanos, Senir Whitebeard receives Grelin's field report for Ironforge. His brother has invoked King Magni Bronzebeard's name throughout the document, and Senir takes note with amused resignation. Grelin claims the King's sanction for his actions. Senir expects that appeal to royal authority to ruffle feathers in the Ironforge Senate.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "why send the report",
     "grelin report purpose"
    ],
-   "answer": "The report carries Grelin Whitebeard's assessment of the Frostmane trolls from Coldridge Valley to his brother Senir in Kharanos. It assures leadership outside the valley that the trolls pose no large threat and can be handled by local Mountaineers and Senate-funded mercenaries."
+   "answer": "Grelin's Report carries Grelin Whitebeard's assessment of the Frostmane trolls from Coldridge Valley to Senir in Kharanos. It says they pose no great threat and can be handled by local Mountaineers and mercenaries paid by the Senate."
   },
   {
    "q": "Why can't Grelin deliver it himself?",
@@ -40,7 +40,7 @@
     "why not deliver it",
     "why entrust it to an adventurer"
    ],
-   "answer": "Grelin remains stationed in Coldridge Valley monitoring the trolls. While he initially considered sending his apprentice, the perilous journey through the trogg-infested tunnel prompted him to hand the vital papers to a battle-tested adventurer instead."
+   "answer": "Grelin remains in Coldridge Valley to watch the trolls. He first considered sending his apprentice, but the dangerous passage through the trogg-infested tunnel led him to entrust the papers to a battle-tested traveler."
   },
   {
    "q": "Why does Mountaineer Thalos let you pass with the report?",
@@ -49,7 +49,7 @@
     "tunnel blockade",
     "coldridge pass troggs"
    ],
-   "answer": "Mountaineer Thalos guards the tunnel out of Coldridge Valley to keep civilians safe from vicious troggs. Possessing Grelin's Report proves you are traveling on pressing dwarven defense business, convincing Thalos to grant passage."
+   "answer": "Mountaineer Thalos guards the tunnel from Coldridge Valley to protect civilians from vicious troggs. Grelin's Report proves you travel on urgent dwarven defense business, so Thalos lets you pass."
   },
   {
    "q": "Why is the Ironforge Senate annoyed by the report?",
@@ -58,17 +58,17 @@
     "ruffle feathers",
     "senir reaction"
    ],
-   "answer": "Senir Whitebeard notes that Grelin invoked King Magni's name liberally throughout the document. Bypassing standard diplomatic subtleties to demand royal attention often angers the bureaucrats in the Ironforge Senate, even if the brothers agree the politicians need a wake-up call."
+   "answer": "Senir Whitebeard says Grelin invoked King Magni's name throughout the report. Though the brothers agree that Ironforge's politicians need a wake-up call, Senir expects Grelin's appeal to royal authority to ruffle feathers in the Senate."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Carrying this report is a dwarf's passage from the safe training grounds of Coldridge into the broader defense of the Dun Morogh heartland and the service of Ironforge."
+   "text": "As a dwarf, carrying this report takes you from Coldridge's safe training grounds into Dun Morogh's heartland and the service of Ironforge."
   },
   {
    "target": "race:Gnome",
-   "text": "Delivering Grelin's message allows gnomish refugees to prove their mettle to dwarven mountaineers while traversing the shared mountain passes of Dun Morogh."
+   "text": "As a gnome refugee, delivering Grelin's message lets you prove your mettle to dwarven mountaineers as you cross Dun Morogh's shared mountain passes."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
   "Grelin's Report",
   "Senir's Observations",
   "Senir's Observations (2)"
- ]
+ ],
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This summons marks an essential rite of passage for druids expanding their mastery over the aspects of the wild beyond the bear."
+   "text": "As a druid, you take this rite of passage to extend your mastery of the wild beyond the bear."
   },
   {
    "target": "race:NightElf",
-   "text": "Moonglade serves as ancestral ground for kaldorei druids answering the ancient teachings passed down by Cenarius."
+   "text": "As a night elf, you answer Cenarius's ancient teachings on Moonglade, ancestral ground for kaldorei druids."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren druids travel freely to Nighthaven alongside their night elf brethren under the common guidance of the Cenarion Circle."
+   "text": "As a tauren, you travel freely to Nighthaven with your night elf brethren under the Cenarion Circle's shared guidance."
   }
  ],
  "faq": [
@@ -31,7 +31,7 @@
     "who gives the great cat spirit quest",
     "dendrite starblaze summons"
    ],
-   "answer": "Your druid trainers summon you on behalf of Dendrite Starblaze, an elder mentor stationed in Nighthaven within the secluded haven of Moonglade.",
+   "answer": "Your druid trainers send you on behalf of Dendrite Starblaze, an elder mentor in Nighthaven, Moonglade's secluded haven.",
    "q": "Who sends for you in The Great Cat Spirit?"
   },
   {
@@ -39,7 +39,7 @@
     "where is dendrite starblaze",
     "dendrite starblaze location"
    ],
-   "answer": "Dendrite Starblaze resides in the village of Nighthaven, the central settlement of Moonglade, accessible via druidic teleportation magic.",
+   "answer": "Dendrite Starblaze lives in Nighthaven, Moonglade's central settlement. Druids can reach it by teleportation.",
    "q": "Where can Dendrite Starblaze be found?"
   },
   {
@@ -47,7 +47,7 @@
     "what does dendrite teach",
     "cat form training quest"
    ],
-   "answer": "Dendrite prepares you to commune with and understand the feline aspect of nature, continuing your spiritual progression after learning the ways of the bear.",
+   "answer": "Dendrite prepares you to understand and commune with nature's feline aspect, after you have learned the bear's ways.",
    "q": "What is the purpose of meeting Dendrite Starblaze?"
   },
   {
@@ -55,7 +55,7 @@
     "why father cenarius",
     "cenarius mention dendrite"
    ],
-   "answer": "Dendrite invokes Father Cenarius upon greeting you, honoring the demigod and patron of druidism who originally taught mortals the secrets of nature and shapeshifting.",
+   "answer": "Dendrite invokes Father Cenarius to honor the demigod and patron of druidism, who taught mortals the secrets of nature and shapeshifting.",
    "q": "Why does Dendrite invoke Father Cenarius?"
   },
   {
@@ -63,7 +63,7 @@
     "how to get to moonglade",
     "teleport to moonglade druid"
    ],
-   "answer": "Druids utilize their innate spiritual ability to commune with nature and teleport directly to Moonglade whenever their mentors beckon.",
+   "answer": "Druids use their spiritual bond with nature to teleport to Moonglade when their mentors call.",
    "q": "How do druids travel to Moonglade for this summons?"
   },
   {
@@ -71,7 +71,7 @@
     "cat form vs bear form lore",
     "bear form first"
    ],
-   "answer": "Druidic doctrine approaches nature through diverse perspectives. Novices begin by mastering the enduring strength of the bear before advancing to the swift predator mindset of the cat.",
+   "answer": "Druidic teaching approaches nature through different aspects. You first master the bear's enduring strength, then advance to the cat's swift predator's instincts.",
    "q": "How does this aspect relate to the bear aspect?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "Having already proven mastery over the enduring aspect of the bear, aspiring druids find themselves summoned once more to the sacred forest of Moonglade. Elder Dendrite Starblaze reaches out across the land, calling disciples to the serene haven of Nighthaven to embark upon the next tier of their natural communion. Druids invoke their unique spiritual magic to journey across distances, gathering at the tranquil heart of Cenarion wisdom.",
+   "body": "Druids who have mastered the enduring bear are summoned to Moonglade again. Elder Dendrite Starblaze calls them to Nighthaven, where they can deepen their communion with nature. Their spiritual gifts carry them across the distance to this haven of Cenarion wisdom.",
    "spoiler": 0,
    "title": "The Summons to Moonglade"
   },
   {
-   "body": "Upon your arrival in Nighthaven, Dendrite Starblaze invokes Father Cenarius, calling down a faint aura of power as he welcomes the growing disciple. He reveals that the time has come to embrace the perspective of the cat, a predatory and agile aspect of the wild. As with previous rites of passage, Dendrite will open the path of understanding, yet the journey to embody and propagate this feline spirit rests entirely upon the practitioner.",
+   "body": "When you reach Nighthaven, Dendrite Starblaze invokes Father Cenarius and greets you with a faint aura of power. He says it is time to embrace the cat's perspective: swift, agile, and predatory. As before, Dendrite opens the path to understanding, while the work of embodying and spreading the feline spirit rests with you.",
    "spoiler": 0,
    "title": "The Perspective of the Cat"
   }
  ],
- "summary": "The Great Cat Spirit is a sacred druidic quest summoning practitioners to Nighthaven in Moonglade to meet Dendrite Starblaze. Having already mastered the aspect of the bear, druids are called upon to begin their journey into the feline perspective of the wild under the blessings of Father Cenarius.",
+ "summary": "In Nighthaven, druids gather at Dendrite Starblaze's call to learn the cat's ways. They have mastered the bear and now turn to another aspect of the wild under Father Cenarius's blessing.",
  "attribution": [
   "In-game quest text: The Great Cat Spirit"
- ]
+ ],
+ "style": 2
 }

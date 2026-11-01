@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Gol'Bolar Quarry"
  },
- "summary": "At Gol'Bolar Quarry, troggs have driven the miners from their work in the snowy hills of southeastern Dun Morogh. The Ironforge dwarves came for stone and ore, but the excavation has fallen silent.",
+ "summary": "At Gol'Bolar Quarry, troggs have driven the miners from the snowy hills of southeastern Dun Morogh. The Ironforge dwarves came for stone and ore, but now the dig lies quiet.",
  "sections": [
   {
    "title": "A Quarry Under Siege",
-   "body": "Gol'Bolar Quarry lies southeast of Kharanos, where Ironforge dwarves came to draw stone and minerals from the mountains. Deep digging opened underground warrens, and hostile troggs drove the miners out. Now the upper camp is a staging ground under siege. Overseers, tradesfolk, and Prospector Gehn gather dwarven and gnomish recruits there to drive back the beasts and reclaim the pit.",
+   "body": "Ironforge dwarves opened Gol'Bolar Quarry southeast of Kharanos to draw stone and mineral wealth from the mountains. Their digging broke into underground warrens and brought a horde of hostile troggs into the open. The creatures soon drove out the miners.\n\nThe upper camp is now an embattled staging ground. Overseers, tradesfolk, and Prospector Gehn gather dwarven and gnomish recruits there to drive the troggs back and reclaim the pit.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "quarry info"
    ],
-   "answer": "Gol'Bolar Quarry is an open-pit mine in southeastern Dun Morogh. Ironforge dwarves maintain it as an excavation site and a small outpost with supplies and work for local adventurers."
+   "answer": "Gol'Bolar Quarry is an open-pit mine in southeastern Dun Morogh. Ironforge dwarves keep it as a dig site and a small outpost with supplies and work for local adventurers."
   },
   {
    "q": "Why are there so many troggs here?",
@@ -40,17 +40,17 @@
     "who is gehn",
     "prospector gehn"
    ],
-   "answer": "Prospector Gehn is a dwarven supervisor at the quarry camp. He oversees efforts to secure the dig site and issues bounties and tasks to adventurers willing to cull the troggs."
+   "answer": "Prospector Gehn is a dwarven supervisor at the quarry camp. He oversees efforts to secure the dig site and offers bounties and tasks to adventurers willing to cull the troggs."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Exposed rock tiers and nearby tunnels hold plentiful mineral veins, but entrenched troggs stand between you and the ore."
+   "text": "Exposed rock tiers and nearby tunnels hold plentiful mineral veins. Entrenched troggs stand between you and the ore."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, clearing Gol'Bolar Quarry means protecting Ironforge's mountain resources and upholding clan pride. The dwarves cannot afford to let the troggs seize them."
+   "text": "As a dwarf, clearing Gol'Bolar Quarry protects Ironforge's mountain resources and upholds clan pride. The dwarves cannot afford to let the troggs seize them."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Gol'Bolar Quarry"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "A Little Slime Goes a Long Way (2)",
   "chain": []
  },
- "summary": "Laris Geardawdle seeks pure oozes across Kalimdor after learning they absorb the corruption of places like Felwood. He needs clean samples to study how these creatures adapt to their surroundings.",
+ "summary": "Laris Geardawdle seeks pure oozes across Kalimdor. His Felwood-tainted samples showed that oozes absorb and reflect their surroundings. Clean specimens may show him how they adapt to the places they inhabit.",
  "sections": [
   {
    "title": "A Matter of Purity",
-   "body": "Laris Geardawdle's early experiments in Ironforge ran into a problem: the oozes he examined carried the dark taint of Felwood. Their corruption showed him that oozes absorb and reflect the traits of the places they inhabit, but left him without a clean comparison. He needs specimens untouched by demonic taint or urban filth to learn what ooze life is like on its own.",
+   "body": "Laris Geardawdle needs clean samples for his study. The tainted ones showed how oozes take on the traits of their surroundings, but left him without a clear comparison. He seeks samples untouched by demonic taint or urban filth, so he can study ooze life on its own.",
    "spoiler": 0
   },
   {
    "title": "Tracking the Primal Slime",
-   "body": "Pure slimes are hard to find on an Azeroth scarred by corruption and war. Far to the south, Glutinous Oozes thrive in the isolated, primordial wilderness of prehistoric Un'Goro Crater. Samples from these wild creatures give Laris the pure material he needs to study how oozes interact with Azeroth's living biomes.",
+   "body": "In Un'Goro Crater, Glutinous Oozes thrive in an isolated, primordial wilderness. Their samples give Laris the pure material he needs to study how oozes interact with Azeroth's living biomes.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "laris pure slime",
     "what is pure ooze"
    ],
-   "answer": "Laris's earlier specimens carried Felwood's corruption. To test his belief that slimes adapt to and reflect their surroundings, he needs pure specimens from an unpolluted habitat as a clean baseline."
+   "answer": "Laris's earlier specimens carried Felwood's corruption. To test his belief that slimes adapt to and reflect their surroundings, he needs pure samples from an unpolluted habitat for comparison."
   },
   {
    "q": "Where are the pure oozes located?",
@@ -55,7 +55,7 @@
     "who is laris",
     "laris geardawdle lore"
    ],
-   "answer": "Laris Geardawdle is a gnomish researcher in Ironforge, devoted to uncovering the nature of Azeroth's slimes and oozes."
+   "answer": "Laris Geardawdle is a gnomish researcher in Ironforge. He is devoted to uncovering the nature of Azeroth's slimes and oozes."
   },
   {
    "q": "What makes oozes so interesting to researchers?",
@@ -79,13 +79,13 @@
     "laris ooze research",
     "what is slime used for"
    ],
-   "answer": "Laris plans to compare pure samples with corrupted ones and learn how changes in an environment affect living creatures and the wider population of Azeroth."
+   "answer": "Laris plans to compare pure samples with corrupted ones. He hopes to learn how changes in an environment affect living creatures and Azeroth's wider population."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can appreciate Laris's careful method: he isolates variables and seeks an uncontaminated control group before drawing broad conclusions."
+   "text": "As a gnome, you can appreciate Laris's careful method. He isolates variables and seeks an uncontaminated control group before drawing broad conclusions."
   },
   {
    "target": "faction:Alliance",
@@ -111,5 +111,5 @@
  "attribution": [
   "A Little Slime Goes a Long Way (2)"
  ],
- "style": 1
+ "style": 2
 }

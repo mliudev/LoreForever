@@ -20,16 +20,16 @@
    "A Rogue's Deal (2)"
   ]
  },
- "summary": "A seemingly casual favor for Calvin Montague in Deathknell sends a traveler on the road to the Gallows' End Tavern in Brill. The errand involves ferrying a mysterious, unaddressed message to Innkeeper Renee under the guise of an ordinary courier run.",
+ "summary": "In Deathknell, Calvin Montague asks you to carry an unmarked message to Brill. He calls it a simple delivery and promises generous coin.",
  "sections": [
   {
    "title": "A Friendly Courier",
-   "body": "Lounging amidst the solemn graves and ruined chapels of Deathknell, Calvin Montague presents himself as an exhausted fighter burdened by too many Scourge zombies and creeping spiders. Claiming he simply needs a hand delivering a message to Brill, he entrusts passing adventurers with an unmarked letter. His breezy demeanor and promise of generous coin make the task appear as nothing more than a harmless favor meant to point freshly awakened Forsaken toward the region's main town.",
+   "body": "Calvin Montague lounges among Deathknell's graves and ruined chapels. He says Scourge zombies and creeping spiders have worn him down, then asks you to carry an unmarked letter to Brill. He promises generous coin. For a newly awakened Forsaken, it seems a simple way to reach the region's main town.",
    "spoiler": 0
   },
   {
    "title": "The Gallows' End Tavern",
-   "body": "The road leads eastward through the blighted trees of Tirisfal Glades, passing Cold Hearth Manor to reach the settlement of Brill. Behind the counter of the local tavern, Innkeeper Renee initially greets newcomers with an unnervingly sunny disposition, doting on the comfort of her patrons. However, upon receiving Montague's correspondence, her hospitality immediately fractures. Dropping her forced pleasantries, she feigns receiving word from a beloved mother before scolding the courier for prying and demanding they buy something or leave. Returning to Calvin afterward leads to another surprise: instead of settling the promised payment peacefully, he challenges the courier to a duel.",
+   "body": "The road east crosses Tirisfal Glades and passes Cold Hearth Manor before reaching Brill. At the Gallows' End Tavern, Innkeeper Renee greets newcomers warmly and fusses over their comfort. But when she receives Montague's letter, her manner breaks. She pretends it brings news from a beloved mother, then scolds you for prying and demands you buy something or leave.\n\nWhen you return to Calvin, he challenges you to a duel instead of peacefully paying what he promised.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives a rogues deal",
     "quest giver"
    ],
-   "answer": "Calvin Montague is a rogue in Deathknell who asks newly awakened travelers to carry a letter to Innkeeper Renee in Brill. He presents it as a simple favor and promises to pay well."
+   "answer": "Calvin Montague is a rogue in Deathknell who asks newly awakened travelers to carry a letter to Innkeeper Renee in Brill. He calls it a simple favor and promises generous pay."
   },
   {
    "q": "What is inside the Nondescript Letter?",
@@ -50,7 +50,7 @@
     "what is in the letter",
     "calvins letter"
    ],
-   "answer": "The letter's exact contents are not recorded. Calvin gives the courier an unmarked message to deliver to Innkeeper Renee in Brill."
+   "answer": "The letter's exact contents are not recorded. Calvin gives you an unmarked message for Innkeeper Renee in Brill."
   },
   {
    "q": "Why does Innkeeper Renee act so strange?",
@@ -59,7 +59,7 @@
     "why is renee fake",
     "renee mother excuse"
    ],
-   "answer": "Renee runs the tavern in Brill and insists that her correspondence is private. Her response to the delivery can be discovered by bringing her Montague's letter."
+   "answer": "Innkeeper Renee runs the tavern in Brill and insists that her correspondence is private. You see her response when you bring her Montague's letter."
   },
   {
    "q": "Does Calvin Montague actually pay for the delivery?",
@@ -68,7 +68,7 @@
     "where is my money",
     "montague reward"
    ],
-   "answer": "Montague promises to pay well for the delivery. Renee offers food or water when the letter reaches her; return to Calvin afterward to continue the dealings over his promised payment."
+   "answer": "Calvin Montague promises generous pay for the delivery. Renee offers food or water when the letter reaches her. Return to Calvin afterward to continue dealing with him over the promised payment."
   },
   {
    "q": "Where is Brill located?",
@@ -77,7 +77,7 @@
     "road to brill",
     "brill directions"
    ],
-   "answer": "Brill sits northeast of Deathknell. Travelers follow the main road east out of the starter valley, veer right past Cold Hearth Manor, and cross a covered bridge into the settlement."
+   "answer": "Brill lies northeast of Deathknell. Follow the main road east out of the starter valley, veer right past Cold Hearth Manor, and cross a covered bridge into town."
   },
   {
    "q": "What happens after giving the letter to Renee?",
@@ -86,21 +86,21 @@
     "a rogues deal follow up",
     "what to do after renee"
    ],
-   "answer": "The follow-up is another quest named 'A Rogue's Deal'. Return to Calvin Montague in Deathknell to continue your dealings with him."
+   "answer": "After giving Renee the letter, return to Calvin Montague in Deathknell to continue dealing with him."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For recently risen Forsaken, this errand marks their very first journey away from the safety of Deathknell's graveyard toward the bustling hub of Brill."
+   "text": "As a newly risen Forsaken, you make your first journey away from Deathknell's graveyard and head for Brill, the region's busy hub."
   },
   {
    "target": "class:Rogue",
-   "text": "Calvin Montague's private courier errand offers a glimpse of the informal dealings carried on around Deathknell and Brill."
+   "text": "As a rogue, you glimpse the informal dealings around Deathknell and Brill through Calvin Montague's private courier errand."
   },
   {
    "target": "faction:Horde",
-   "text": "The delivery leads straightforwardly to Brill, introducing newly arrived allies to the regional heart of Forsaken administration and respite in Tirisfal."
+   "text": "As a member of the Horde, you travel to Brill, a regional center of Forsaken administration and a place of respite in Tirisfal."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "A Rogue's Deal"
- ]
+ ],
+ "style": 2
 }

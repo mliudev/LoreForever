@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Shadowglen"
  },
- "summary": "Young night elves begin their training in Shadowglen, beneath the boughs of Teldrassil. The vale gathers around Aldrassil, where elders, priestesses, and mentors guide them before they travel farther into the world.",
+ "summary": "Shadowglen is where young night elves begin their training, beneath the boughs of Teldrassil. The whole vale gathers around Aldrassil, a great hollow tree. Inside it, elders, priestesses and mentors guide the young. Only then do they travel farther into the world.",
  "sections": [
   {
    "title": "A Sheltered Cradle",
-   "body": "Shadowglen lies beneath the northeastern boughs of Teldrassil, ringed by high ridges that shelter it from the rest of the world. Eternal dusk falls over the vale, where Aldrassil rises as a massive barrow-tree. Its hollowed trunk houses elders, priestesses, and mentors who guide young night elves beginning their training. A narrow mountain pass leads south toward Starbreeze Village and Dolanaar. This single route out leaves the sanctuary sheltered and peaceful.",
+   "body": "Aldrassil is a vast barrow-tree, and it rises in a vale of eternal dusk. The glen lies under the northeastern boughs of the World Tree, and high ridges ring it round. A single narrow pass leads south, toward Starbreeze Village and Dolanaar. With only one way out, the glen stays sheltered and at peace.",
    "spoiler": 0
   },
   {
    "title": "Creeping Shadows",
-   "body": "Danger reaches even this sheltered vale. Shadowthread Cave lies in the extreme northwest, where venomous spiders threaten the glade. Young defenders drive back the encroaching vermin and untamed wildlife before venturing farther among Teldrassil's boughs.",
+   "body": "Yet danger reaches even here. In the far northwest lies Shadowthread Cave, and its venomous spiders threaten the glade. So the young defenders drive them back, along with the vermin and the wild beasts. Then they venture on, deeper among Teldrassil's boughs.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "where does the path lead",
     "way out of shadowglen"
    ],
-   "answer": "A narrow mountain pass leads south out of Shadowglen toward Starbreeze Village and Dolanaar."
+   "answer": "A narrow mountain pass leads south out of Shadowglen toward Starbreeze Village and Dolanaar. With only one way out, the glen stays sheltered from the rest of the world."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Shadowglen"
  ],
- "style": 1
+ "style": 2
 }

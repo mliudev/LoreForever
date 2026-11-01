@@ -17,16 +17,16 @@
   "wiki": "Essential Artificials",
   "chain": []
  },
- "summary": "In Ironforge, Klockmort Spannerspan needs components left behind in Gnomeregan. The exiled gnomes fled their city during the trogg invasion and radiation disaster, leaving supplies of essential artificials in its lower halls.",
+ "summary": "In Ironforge, Klockmort Spannerspan lacks the components his experiments need. Exiled gnomes fled Gnomeregan during the trogg invasion and radiation disaster, leaving essential artificials in the city's lower halls.",
  "sections": [
   {
    "title": "Forgotten in the Exodus",
-   "body": "When troggs overran Gnomeregan and radiation filled its corridors, fleeing gnomes carried only what they could reach. Supplies of essential artificials remained behind. These specialized mechanical parts work in nearly any device, and tinkers and crafters prize them. Now based in Ironforge's Tinker Town, master tinker Klockmort Spannerspan cannot continue his new experiments without them.",
+   "body": "When troggs overran Gnomeregan and radiation filled its corridors, the gnomes fled with only what they could reach. Essential artificials remained behind. These specialized mechanical parts work in nearly any device, and tinkers and crafters prize them. Now in Ironforge's Tinker Town, master tinker Klockmort Spannerspan cannot continue his new experiments without a supply.",
    "spoiler": 0
   },
   {
    "title": "Delving the Extrapolators",
-   "body": "The components are kept in heavy, steam-powered containers called artificial extrapolators, deep inside Gnomeregan. Reaching them means crossing irradiated halls where mutated leper gnomes, malfunctioning defense automatons, and feral troggs roam. Klockmort needs twelve components to continue his work and keep gnomish invention moving despite the exile.",
+   "body": "Deep inside Gnomeregan, the components rest in heavy, steam-powered containers called artificial extrapolators. To reach them, you cross irradiated halls where mutated leper gnomes, malfunctioning defense automatons, and feral troggs roam. Klockmort needs twelve components to continue his work, keeping gnomish invention moving through exile.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who starts this",
     "where do i get essential artificials"
    ],
-   "answer": "Klockmort Spannerspan, a gnomish engineer in Ironforge's Tinker Town, gives this assignment."
+   "answer": "Klockmort Spannerspan, a gnomish engineer in Ironforge's Tinker Town, asks for the components."
   },
   {
    "q": "Where are the essential artificials found in Gnomeregan?",
@@ -56,7 +56,7 @@
     "extrapolator location",
     "how to find artificials"
    ],
-   "answer": "The essential artificials are kept deep in Gnomeregan in artificial extrapolators, tall, steam-powered storage cabinets scattered through the lower halls."
+   "answer": "The essential artificials are kept deep in Gnomeregan, inside artificial extrapolators scattered through the lower halls. These are tall, steam-powered storage cabinets."
   },
   {
    "q": "Why were they left behind in Gnomeregan?",
@@ -65,7 +65,7 @@
     "why are they in gnomeregan",
     "lore of the artificials"
    ],
-   "answer": "Troggs invaded Gnomeregan, and radiation flooded the city. In the sudden evacuation, the gnomes left stocks of essential artificials in the lower workshops."
+   "answer": "Troggs invaded Gnomeregan, and radiation flooded the city. During the sudden evacuation, the gnomes left stocks of essential artificials in the lower workshops."
   },
   {
    "q": "What does Klockmort need them for?",
@@ -73,7 +73,7 @@
     "why does klockmort want them",
     "klockmort's plan"
    ],
-   "answer": "Klockmort Spannerspan needs a supply of the components for complex experiments he is preparing in his Ironforge workshop."
+   "answer": "Klockmort Spannerspan needs the components for complex experiments he is preparing in his Ironforge workshop."
   },
   {
    "q": "Is Klockmort's Essentials required before taking this quest?",
@@ -82,7 +82,7 @@
     "prereq",
     "klockmorts essentials required"
    ],
-   "answer": "Klockmort's Essentials introduces you to Klockmort and points you to his workshop, but you can accept this assignment without completing it."
+   "answer": "Klockmort's Essentials introduces you to Klockmort and points you to his workshop. You can accept this assignment without completing it."
   }
  ],
  "angles": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Essential Artificials"
  ],
- "style": 1
+ "style": 2
 }

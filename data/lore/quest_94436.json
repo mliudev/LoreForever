@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Danitha Morr asks you to show what a priest can do with the Symbol of Life. Deathguard Billmuth at Bandarion Keep has come seeking aid for a friend.",
+ "summary": "In A Lesson in Divinity, Danitha Morr asks you to show what a priest can do with the Symbol of Life. Deathguard Billmuth at Bandarion Keep has come seeking aid for a friend.",
  "sections": [
   {
    "title": "A Plea for Aid",
-   "body": "Billmuth says the priests turned him away, and his friend may have no one else to help. He is not proud to ask you, but he needs aid for the Forsaken. The Symbol of Life is meant to help you demonstrate your ability to channel the Light, though handling it may cause discomfort. Its power is an ally and guide, even to the Forsaken, whose creation is tied to a force opposed to it.",
+   "body": "Billmuth says the priests turned him away, and his friend may have no one else to turn to. He is not proud to ask you, but he needs aid for the Forsaken. The Symbol of Life is meant to show your ability to channel the Light. Handling it may cause discomfort. Its power can still be your ally and guide, even to the Forsaken, whose creation is tied to a force opposed to the Light.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "symbol of life",
     "light talisman"
    ],
-   "answer": "It is a talisman of the Light that Danitha Morr gives you to demonstrate your ability to channel the Light."
+   "answer": "The Symbol of Life is a talisman of the Light that Danitha Morr gives you to show your ability to channel the Light."
   },
   {
    "q": "Why might the Symbol of Life hurt to handle?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, Danitha asks you to demonstrate your ability to channel the Light with the Symbol of Life."
+   "text": "As a priest, Danitha asks you to show your ability to channel the Light with the Symbol of Life."
   }
  ],
  "keywords": [
@@ -83,7 +83,7 @@
   "topic:forsaken",
   "topic:priest"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Lesson in Divinity"
  ]

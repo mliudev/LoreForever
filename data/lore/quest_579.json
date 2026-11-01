@@ -17,16 +17,16 @@
   "wiki": "Stormwind Library",
   "chain": []
  },
- "summary": "In Stormwind Keep, Donyal Tovald copies the kingdom’s histories for those with library scrips. Young King Anduin Wrynn has set aside royal funds for the work, opening these accounts of Azeroth to citizens and scholars.",
+ "summary": "In Stormwind Keep, Donyal Tovald copies the kingdom’s histories for those bearing library scrips. Young King Anduin Wrynn funds the work, opening accounts of Azeroth to citizens and scholars.",
  "sections": [
   {
    "title": "A Royal Mandate for Knowledge",
-   "body": "While Highlord Bolvar Fordragon and Lady Katrana Prestor guide Stormwind’s defenses and court in King Varian’s absence, young King Anduin turns royal support toward learning. He funds copies of ancient manuscripts and historical journals, so the kingdom’s past can be preserved and studied. Within Stormwind Keep, the Royal Library keeps these written accounts and copies them for those in royal service.",
+   "body": "Young King Anduin directs royal funds toward learning. They pay for copies of ancient manuscripts and historical journals. In Stormwind Keep, the Royal Library preserves these accounts and copies them for those in royal service.",
    "spoiler": 0
   },
   {
    "title": "The Scrip Exchange",
-   "body": "Hand copying delicate parchment takes time, ink, and royal sanction. Librarian Donyal Tovald accepts official library scrips issued to adventurers and scholars across Alliance territories. In return, he provides copies of historical works, from the ancient histories of the Eastern Kingdoms to accounts of distant lands, offering knowledge of conflicts beyond the capital.",
+   "body": "Hand copying delicate parchment takes time, ink, and royal sanction. Donyal Tovald accepts official library scrips issued to adventurers and scholars across Alliance territories. In return, he provides copies of historical works, from ancient Eastern Kingdoms histories to accounts of distant lands. These books tell of conflicts beyond the capital.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "stormwind library quest purpose",
     "why do this quest"
    ],
-   "answer": "You can exchange a Library Scrip with librarian Donyal Tovald for a readable book. These books share histories of Alliance people, places, and events across Azeroth."
+   "answer": "You can exchange a Library Scrip with librarian Donyal Tovald for a readable book. The books recount Alliance people, places, and events across Azeroth."
   },
   {
    "q": "Who is Donyal Tovald?",
@@ -47,7 +47,7 @@
     "librarian stormwind",
     "who gives the books"
    ],
-   "answer": "Donyal Tovald oversees the Royal Library in Stormwind Keep. He manages the kingdom’s written histories and distributes copies under King Anduin’s order."
+   "answer": "Donyal Tovald oversees the Royal Library in Stormwind Keep. He manages the kingdom’s written histories and distributes copies by King Anduin’s order."
   },
   {
    "q": "Where do you obtain a Library Scrip?",
@@ -56,7 +56,7 @@
     "how to get library scrip",
     "library scrip source"
    ],
-   "answer": "Library Scrips are given across Alliance territories by scholars, magistrates, and officials who value learning about the wider world."
+   "answer": "Scholars, magistrates, and officials across Alliance territories give out Library Scrips to those who value learning about the wider world."
   },
   {
    "q": "Why is young King Anduin funding the library?",
@@ -65,7 +65,7 @@
     "anduin library funding",
     "king anduin books"
    ],
-   "answer": "King Anduin Wrynn funds copies of historical works because he values learning and education. While still a child, he set aside royal funds to make the kingdom’s histories available to the public under Regent Bolvar Fordragon’s guidance."
+   "answer": "King Anduin Wrynn funds copies of historical works because he values learning and education. Still a child, he set aside royal funds to make the kingdom’s histories available to the public, guided by Regent Bolvar Fordragon."
   },
   {
    "q": "Where is the library located in Stormwind?",
@@ -74,7 +74,7 @@
     "royal library location",
     "where is donyal tovald located"
    ],
-   "answer": "The Royal Library is inside Stormwind Keep, the great fortress in the eastern part of the city. Donyal Tovald can be found among its shelves and reading tables."
+   "answer": "The Royal Library lies inside Stormwind Keep, the great fortress in the eastern part of the city. Donyal Tovald can be found among its shelves and reading tables."
   },
   {
    "q": "Can I read the books I receive?",
@@ -83,21 +83,21 @@
     "can you open the books",
     "do books do anything"
    ],
-   "answer": "Yes. Each book from the library can be read and offers background on legends and historical events across Azeroth."
+   "answer": "Yes. Each book from the library can be read, with background on legends and historical events across Azeroth."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you can turn to the Royal Library for the kingdom’s histories, alongside your arcane studies in the Mage Quarter."
+   "text": "As a mage, you can turn to the Royal Library for the kingdom’s histories alongside your arcane studies in the Mage Quarter."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance citizen, you can find records of the triumphs and tragedies of the Alliance of Lordaeron, and the bonds between humans, dwarves, gnomes, and high elves."
+   "text": "As an Alliance citizen, you can find records of the Alliance of Lordaeron’s triumphs and tragedies, and the bonds between humans, dwarves, gnomes, and high elves."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you know the value of preserving history. Old Stormwind lost countless archives when it was sacked during the First War, and scholars now protect and copy the histories that survived the kingdom’s rebuilding."
+   "text": "As a human, you know the value of preserving history. Old Stormwind lost countless archives when it was sacked during the First War. Now scholars protect and copy the histories that survived the kingdom’s rebuilding."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Stormwind Library"
  ],
- "style": 1
+ "style": 2
 }

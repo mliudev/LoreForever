@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "A Healer Above the Anvils",
-   "body": "Nissa Firestone tends patients on the upper floor of the Ironforge Physician shop. The Great Forge’s clang and heat rise around her, but the work is keeping wounds bound. Dwarven warriors can endure much, yet blades and claws still break their skin. Before travelers and soldiers head into the snows of Dun Morogh or farther afield, Nissa teaches them basic bandaging and field dressings to help keep themselves and their allies alive.",
+   "body": "Nissa Firestone tends patients upstairs in the Ironforge Physician shop. The Great Forge’s clang and heat reach her there, while she binds their wounds. Dwarven warriors can endure much, yet blades and claws still break their skin. Before travelers and soldiers set out into Dun Morogh’s snows or farther afield, Nissa teaches basic bandaging and field dressings. These skills can help keep them and their allies alive.",
    "spoiler": 0
   },
   {
    "title": "Triage and Advanced Trauma",
-   "body": "Nissa Firestone teaches field medics the basics of cloth and lint. When a practitioner has learned all she can teach, she points them toward specialized triage officers in far-flung outposts. Skilled healers go where the Alliance’s casualties are heaviest.",
+   "body": "Nissa Firestone teaches field medics how to use cloth and lint. When she has taught all she can, she directs them to specialized triage officers in distant outposts. Skilled healers go where Alliance casualties are heaviest.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is nissa",
     "ironforge physician location"
    ],
-   "answer": "Nissa Firestone works on the upper floor of the Ironforge Physician shop, on the southern edge of the Great Forge ring in Ironforge."
+   "answer": "Nissa Firestone works upstairs in the Ironforge Physician shop, on the southern edge of the Great Forge ring in Ironforge."
   },
   {
    "q": "What does Nissa Firestone teach?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Nissa Firestone"
  ],
- "style": 1
+ "style": 2
 }

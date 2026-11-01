@@ -20,16 +20,16 @@
    "Snatch and Grab"
   ]
  },
- "summary": "In Goldshire, Keryn Sylvius sends new rogues toward SI: 7. A sealed package carried to Stormwind City brings them before Master Mathias Shaw, who leads the crown's covert intelligence network.",
+ "summary": "From Goldshire, Keryn Sylvius sends new rogues with a sealed package to Stormwind City. The delivery brings them before Master Mathias Shaw, who leads the crown's covert intelligence network.",
  "sections": [
   {
    "title": "A Courier's Test",
-   "body": "At the Lion's Pride Inn in Goldshire, rogue trainer Keryn Sylvius wastes no time praising newcomers. She thinks fresh initiates look more like cheese delivery hands than covert agents, yet gives them a sealed delivery for the capital. The trip tests their reliability as couriers and quietly vets scouts for wider service to the realm.",
+   "body": "Rogue trainer Keryn Sylvius doubts that fresh initiates look like covert agents. She gives them a sealed delivery for the capital, testing their reliability as couriers. In doing so, she quietly judges whether they might serve the realm as scouts.",
    "spoiler": 0
   },
   {
    "title": "Behind Closed Doors in Old Town",
-   "body": "SI: 7 works from the southeastern corner of Old Town in Stormwind City. The worn district holds the command center of Stormwind Intelligence, Section 7, where Master Mathias Shaw oversees the kingdom's covert operations. Shaw receives the package with dry skepticism and judges whether the traveler has the grit for real espionage.",
+   "body": "SI: 7, or Stormwind Intelligence, Section 7, works from southeastern Old Town in Stormwind City. In this worn district, Master Mathias Shaw oversees the kingdom's covert operations. He receives the package with dry skepticism, then judges whether you have the grit for real espionage.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "what is si7",
     "si:7 lore"
    ],
-   "answer": "SI: 7 means Stormwind Intelligence, Section 7. Led by Master Mathias Shaw from its Old Town headquarters, it handles the Kingdom of Stormwind's secret intelligence and covert operations."
+   "answer": "SI: 7 means Stormwind Intelligence, Section 7. From its Old Town headquarters, Master Mathias Shaw leads its secret intelligence and covert operations for the Kingdom of Stormwind."
   },
   {
    "q": "Who is Keryn Sylvius?",
@@ -49,7 +49,7 @@
     "keryn sylvius",
     "goldshire rogue trainer"
    ],
-   "answer": "Keryn Sylvius trains rogues at the Lion's Pride Inn in Goldshire. She works with SI: 7, evaluates local recruits, and directs promising scouts to Master Mathias Shaw in Stormwind City."
+   "answer": "Keryn Sylvius trains rogues at the Lion's Pride Inn in Goldshire. She works with SI: 7, evaluates local recruits and sends promising scouts to Master Mathias Shaw in Stormwind City."
   },
   {
    "q": "Where is Mathias Shaw located in Stormwind?",
@@ -58,7 +58,7 @@
     "find mathias shaw",
     "mathias shaw location"
    ],
-   "answer": "Master Mathias Shaw is on the upper floor of SI: 7 headquarters, in the southeastern corner of Old Town in Stormwind City, past the city's rogue trainers."
+   "answer": "Master Mathias Shaw is on the upper floor of SI: 7 headquarters, in southeastern Old Town in Stormwind City, past the city's rogue trainers."
   },
   {
    "q": "What happens after delivering the package to Shaw?",
@@ -66,7 +66,7 @@
     "next quest after seek out si 7",
     "what does shaw want"
    ],
-   "answer": "After you report to Mathias Shaw, he tests your rogue skills by sending you to Jerod's Landing to steal a shipping schedule from a Defias dockmaster."
+   "answer": "After you report to Mathias Shaw, he tests your rogue skills. He sends you to Jerod's Landing to steal a shipping schedule from a Defias dockmaster."
   },
   {
    "q": "Why does Keryn mock the player before handing over the delivery?",
@@ -109,5 +109,5 @@
  "attribution": [
   "Seek out SI: 7"
  ],
- "style": 1
+ "style": 2
 }

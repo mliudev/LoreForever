@@ -11,16 +11,16 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Across the plains of Mulgore, Thunder Bluff shelters the tauren above the grasslands. High Chieftain Cairne Bloodhoof founded the city after uniting the nomadic tribes with the New Horde. Rope bridges and wooden lifts link its mesas, while its heights offer safety from centaur marauders and shelter travelers crossing Kalimdor.",
+ "summary": "High above the grasslands of Mulgore, Thunder Bluff rises on windswept red mesas. It is the capital of the tauren, and the heart of their spirit, their culture and their trade. Swaying rope bridges and wooden lifts join its heights. Safe from the centaur marauders, it is a place of peace for travelers from all over Kalimdor.",
  "sections": [
   {
    "title": "A Permanent Haven",
-   "body": "For generations, the tauren wandered across Kalimdor, struggling to survive centaur attacks. During the Third War, Cairne Bloodhoof joined Warchief Thrall, and together the orcs and tauren drove back the centaur and secured Mulgore’s pastures. Cairne led the allied tribes to these natural stone heights to guard their future. Thunder Bluff became their first unified, permanent home in centuries.",
+   "body": "For countless generations, the tauren wandered Kalimdor, fighting the centaur for their very survival. That age ended in the Third War, when High Chieftain Cairne Bloodhoof joined forces with Warchief Thrall. Together the orcs and tauren broke the centaur's assaults, and won the pastures of Mulgore. Then Cairne led the allied tribes up onto these bastions of stone, and founded Thunder Bluff. It was the first lasting home the united tribes had known in centuries.",
    "spoiler": 0
   },
   {
    "title": "A City in the Clouds",
-   "body": "Thunder Bluff stretches across high mesas, joined by rope bridges. The central bluffs hold the markets, bank, inn, and Wind Rider roost. Three more mesas rise beyond them. Hunter Rise serves scouts and trackers. Elder Rise is home to lorekeepers and the Cenarion Circle, led by Archdruid Hamuul Runetotem. Spirit Rise is devoted to spiritual communion, with shelter for shamans and priests and the underground Pools of Vision.",
+   "body": "The central bluffs hold the markets, the bank and the inn, and a towering roost for the wind riders. Three more mesas branch out across the abyss, each with its own calling. Scouts and trackers live on Hunter Rise. The lorekeepers live on Elder Rise, with the Cenarion Circle under Archdruid Hamuul Runetotem.\n\nAnd Spirit Rise is given to the spirits. There dwell the shaman and the priests. Deep beneath them lie the caverns called the Pools of Vision.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "thunder bluff chieftain",
     "cairne"
    ],
-   "answer": "High Chieftain Cairne Bloodhoof rules Thunder Bluff and leads the united tauren tribes. His wisdom, patience, and strength are revered. He founded the city after allying with Thrall’s Horde and driving the centaur from Mulgore."
+   "answer": "High Chieftain Cairne Bloodhoof rules Thunder Bluff and leads the united tauren tribes. His wisdom, patience, and strength are revered. He founded the city after allying with Thrall’s Horde and driving the centaur from Mulgore, uniting the nomadic tribes under the New Horde."
   },
   {
    "q": "How do you get up to Thunder Bluff?",
@@ -67,7 +67,7 @@
     "what are the rises",
     "districts of thunder bluff"
    ],
-   "answer": "The central mesa has lower, middle, and high tiers, with three outer mesas around it. Hunter Rise holds warriors, hunters, and tracking lodges. Druids, wisemen, and the Grimtotem tribe dwell on Elder Rise. Spirit Rise has shrines to the Earth Mother, trainers of shamans, priests, and mages, and the Pools of Vision below."
+   "answer": "The central mesa has lower, middle, and high tiers, with three outer mesas around it. Hunter Rise holds warriors, hunters, and tracking lodges. Druids, wisemen, and the Grimtotem tribe dwell on Elder Rise. Spirit Rise has shrines to the Earth Mother, trainers of shamans, priests, and mages, and the Pools of Vision below, offering shelter for shamans and priests devoted to spiritual communion."
   },
   {
    "q": "What are the Pools of Vision?",
@@ -130,5 +130,5 @@
  "attribution": [
   "Thunder Bluff"
  ],
- "style": 1
+ "style": 2
 }

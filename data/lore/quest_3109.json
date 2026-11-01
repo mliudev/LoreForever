@@ -17,16 +17,16 @@
   "wiki": "Encrypted Rune (Classic)",
   "chain": []
  },
- "summary": "At Anvilmar, Solm Hargrin sends a coded message to young rogues in Coldridge Valley. Sten Stoutarm passes it to them, and the rune directs them indoors to meet their trainer.",
+ "summary": "In Coldridge Valley, Sten Stoutarm gives young rogues a coded rune and calls them into Anvilmar to meet Solm Hargrin.",
  "sections": [
   {
    "title": "A Message in Code",
-   "body": "Sten Stoutarm gives the etched stone to rogues who help him in Coldridge Valley's snowy passes. He says someone slipped it to him for delivery and suspects Solm Hargrin sent it. The rune tests a novice's discretion and calls them inside, where Solm can meet them without announcing his need for scouts and scoundrels across the courtyard.",
+   "body": "Sten says someone slipped him the etched stone to deliver. He suspects Solm Hargrin sent it. The rune tests whether a novice can keep a confidence, calling them inside without Solm announcing his need for scouts and scoundrels across the courtyard.",
    "spoiler": 0
   },
   {
    "title": "Under Anvilmar's Rafters",
-   "body": "Inside Anvilmar, Solm Hargrin welcomes the new rogues and offers to teach them the maneuvers, strikes, and subtle arts that keep them alive and earn them coin. He also reminds dwarf rogues to look after their displaced gnomish allies, who are still recovering from Gnomeregan's catastrophic fall.",
+   "body": "Inside Anvilmar, Solm Hargrin welcomes the new rogues to their craft. He offers to teach the maneuvers, strikes, and subtle arts that keep them alive and earn them coin. He also reminds dwarf rogues to look after their displaced gnomish allies, still recovering from Gnomeregan's catastrophic fall.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "encrypted rune purpose",
     "why encrypted rune"
    ],
-   "answer": "The rune summons novice rogues to decode its message and report to their trainer, who offers to teach them combat techniques and survival maneuvers."
+   "answer": "The rune summons novice rogues to decode its message and report to their trainer. He offers to teach them combat techniques and survival maneuvers."
   },
   {
    "q": "Why does Solm mention the gnomes?",
@@ -64,7 +64,7 @@
     "why help gnomes",
     "solm gnomeregan comment"
    ],
-   "answer": "Gnomeregan has recently fallen to disaster, and gnomish refugees share Coldridge Valley and Anvilmar with the dwarves. Solm reminds his students that they need support as they settle into their temporary home."
+   "answer": "Gnomeregan has recently fallen to disaster, and gnomish refugees share Coldridge Valley and Anvilmar with the dwarves. Solm reminds his students to support them as they settle into their temporary home."
   },
   {
    "q": "Who gives the rune to the player?",
@@ -86,11 +86,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, this rune brings you to Solm Hargrin, where he offers to teach you stealth, martial tricks, and survival skills in Dun Morogh."
+   "text": "As a rogue, the rune brings you to Solm Hargrin. He offers to teach you stealth, martial tricks, and survival skills in Dun Morogh."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf of the Ironforge clan, you are welcomed by Solm into the shadows, where a cold blade and darkness help keep you alive in Dun Morogh."
+   "text": "As a dwarf of the Ironforge clan, Solm welcomes you into the shadows. A cold blade and darkness help keep you alive in Dun Morogh."
   },
   {
    "target": "race:Gnome",
@@ -119,5 +119,5 @@
  "attribution": [
   "Encrypted Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

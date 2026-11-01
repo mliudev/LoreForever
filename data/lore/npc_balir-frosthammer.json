@@ -8,16 +8,16 @@
   "wiki": "Balir Frosthammer",
   "refs": 1
  },
- "summary": "In Coldridge Valley, Balir Frosthammer rallies recruits against the Rockjaw troggs. The dwarf guards Dun Morogh as the troggs press into dwarven lands.",
+ "summary": "In Coldridge Valley, Balir Frosthammer rallies recruits as Rockjaw troggs press into dwarven lands.",
  "sections": [
   {
    "title": "Holding Coldridge Valley",
-   "body": "Balir Frosthammer calls new recruits to defend Coldridge Valley. Dwarven and gnomish novices have long found safety and training there, but trouble underground has driven violent Rockjaw troggs to the surface. Balir is among the first to raise the alarm. He urges recruits to thin their numbers before they push farther into Dun Morogh.",
+   "body": "Balir Frosthammer calls new recruits to defend Coldridge Valley. Dwarven and gnomish novices have long found safety and training there. But trouble underground has driven violent Rockjaw troggs to the surface. Balir is among the first to raise the alarm, urging recruits to thin their numbers before they push farther into Dun Morogh.",
    "spoiler": 0
   },
   {
    "title": "Kin of the Frosthammers",
-   "body": "Balir Frosthammer bears a name shared with Tannok Frosthammer of Kharanos. The two may belong to the same family, whose members stand by Ironforge. They help keep the cold mountain passes safe for travelers, miners, and mountaineers as threats grow across the region.",
+   "body": "Balir Frosthammer shares his name with Tannok Frosthammer of Kharanos. The two may belong to the same family, whose members stand by Ironforge. They help keep the cold mountain passes safe for travelers, miners, and mountaineers as threats grow across the region.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance recruit, you train in Khaz Modan, and Balir works to keep Coldridge Valley secure as a staging ground."
+   "text": "As an Alliance recruit, you train in Khaz Modan, while Balir works to keep Coldridge Valley secure as a staging ground."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
  "attribution": [
   "Balir Frosthammer"
  ],
- "style": 1
+ "style": 2
 }

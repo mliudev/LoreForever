@@ -17,16 +17,16 @@
   "wiki": "Manaweave Robe (quest)",
   "chain": []
  },
- "summary": "In Stormwind, Wynne Larson presents the Manaweave Robe as a proud showcase for her family’s shop. She has woven the enchanted garment from fine materials for a commission that is now complete.",
+ "summary": "In Stormwind, Wynne Larson presents her finished Manaweave Robe with pride as a showcase for her family’s shop. She wove it from fine materials for a commission now complete.",
  "sections": [
   {
    "title": "Larson Clothiers",
-   "body": "Larson Clothiers serves spellcasters in Stormwind’s Mage Quarter with garments made to channel volatile energies. Fine magical robes call for rare materials, careful needlework, and threadwork that holds through mystic resonance. Wynne Larson takes pride in each piece that leaves her shop, where every robe worn into the field carries the Larson name.",
+   "body": "In Stormwind’s Mage Quarter, Larson Clothiers makes garments for spellcasters facing volatile energies. Fine magical robes need rare materials, careful needlework, and thread that holds through mystic resonance. Wynne Larson takes pride in every piece from her shop. Each robe worn into the field carries the Larson name.",
    "spoiler": 0
   },
   {
    "title": "Woven Sorcery",
-   "body": "The manaweave robe offers comfort, mobility, and practical resilience for travel through contested lands. Once the needed components are delivered, Wynne Larson weaves the final stitch herself and presents the finished garment as a fine example of Larson tailoring, meant to draw admiration and spread the shop’s name across the kingdom.",
+   "body": "The manaweave robe offers comfort, freedom of movement, and practical resilience for travel through contested lands. Once you deliver the needed components, Wynne Larson weaves the final stitch herself and presents the finished garment. It is a fine example of Larson tailoring, meant to draw admiration and spread the shop’s name across the kingdom.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "larson advertising",
     "wynne dialogue"
    ],
-   "answer": "Wynne considers the robe one of her finest creations and asks adventurers to spread the word about Larson Clothiers when others admire its craftsmanship. Their praise brings living promotion to her shop."
+   "answer": "Wynne considers the robe one of her finest creations. She asks adventurers to spread the word about Larson Clothiers when others admire its craftsmanship, bringing living promotion to her shop."
   },
   {
    "q": "Where is Larson Clothiers located?",
@@ -65,7 +65,7 @@
     "what is manaweave robe",
     "what does the robe do"
    ],
-   "answer": "The Manaweave Robe is an enchanted cloth garment for practitioners of magic, tailored to channel mystic energies and remain practical on dangerous journeys."
+   "answer": "The Manaweave Robe is an enchanted cloth garment for practitioners of magic. It is tailored to channel mystic energies and remain practical on dangerous journeys."
   },
   {
    "q": "Is this part of a longer questline?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "profession:Tailoring",
-   "text": "Wynne Larson’s work shows the high standard of human tailoring, weaving worldly materials to harness and temper volatile arcane power."
+   "text": "Wynne Larson’s work shows the high standard of human tailoring. It weaves worldly materials to harness and temper volatile arcane power."
   },
   {
    "target": "faction:Alliance",
@@ -116,5 +116,5 @@
  "attribution": [
   "Manaweave Robe (quest)"
  ],
- "style": 1
+ "style": 2
 }

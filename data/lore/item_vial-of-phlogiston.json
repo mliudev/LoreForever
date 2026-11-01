@@ -11,16 +11,16 @@
    "quest:1838"
   ]
  },
- "summary": "A Vial of Phlogiston is an alchemical substance used by master armorers to temper extraordinarily resilient mail. Guarded within the quilboar stronghold of Razorfen Kraul, it is coveted by both Alliance and Horde smiths forging specialized battle armor for promising warriors.",
+ "summary": "At Razorfen Kraul, phlogiston draws smiths from the Alliance and Horde. Master armorers use it to temper mail for promising warriors, while quilboar guard it in their stronghold.",
  "sections": [
   {
    "title": "Essence of the Forge",
-   "body": "Phlogiston is an intensely volatile, fire-bearing substance prized in esoteric metallurgy. Both the dwarven smith Furen Longbeard in Stormwind and the near-blind orc armorer Thun'grim Firegaze in the Barrens consider it an indispensable component for hardening warrior armor beyond ordinary physical limits. Without this alchemical agent, the specialized forging techniques required for Fire Hardened Mail or the Horde's Brutal Armor cannot be completed.",
+   "body": "Phlogiston bears volatile fire and has a place in esoteric metalwork. Furen Longbeard, a dwarven smith in Stormwind, needs it, as does Thun'grim Firegaze, a near-blind orc armorer in the Barrens. Both use it to harden warrior armor beyond ordinary physical limits. Without this alchemical agent, neither can complete the specialized forging of Fire Hardened Mail or the Horde's Brutal Armor.",
    "spoiler": 0
   },
   {
    "title": "Retrieved from the Brambles",
-   "body": "Obtaining a Vial of Phlogiston requires venturing into the tangled thickets of Razorfen Kraul, located at the southern tip of the Barrens. The phlogiston is held deep within the bristling redoubt by the geomancer Roogug. Whether recovered for Furen in Stormwind or carried across the dust to Thun'grim's anvil, the substance demands a perilous descent into hostile quilboar territory.",
+   "body": "A vial of phlogiston lies deep in Razorfen Kraul, amid the tangled thickets at the southern tip of the Barrens. The geomancer Roogug holds it in the bristling redoubt. Whether it is bound for Furen in Stormwind or for Thun'grim's anvil across the dust, reaching it means a perilous descent into hostile quilboar territory.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what does phlogiston do",
     "why do i need phlogiston"
    ],
-   "answer": "Master smiths use phlogiston as an alchemical tempering catalyst. It provides the extreme, concentrated heat needed to harden raw mail and iron into extraordinarily durable warrior armor."
+   "answer": "Master smiths use phlogiston as an alchemical tempering catalyst. Its concentrated heat hardens raw mail and iron into exceptionally durable warrior armor."
   },
   {
    "q": "Who carries the Vial of Phlogiston?",
@@ -41,7 +41,7 @@
     "vial of phlogiston drop",
     "where to get vial of phlogiston"
    ],
-   "answer": "The vial is carried by Roogug, a quilboar geomancer dwelling deep within the thorned tunnels of Razorfen Kraul in the southern Barrens."
+   "answer": "Roogug, a quilboar geomancer, carries the vial deep within the thorned tunnels of Razorfen Kraul in the southern Barrens."
   },
   {
    "q": "Which smiths require this material?",
@@ -50,17 +50,17 @@
     "phlogiston quest",
     "what quests need phlogiston"
    ],
-   "answer": "Both Furen Longbeard in Stormwind and Thun'grim Firegaze in the Barrens require a Vial of Phlogiston to forge unique, hardened armor suits for seasoned warriors."
+   "answer": "Furen Longbeard in Stormwind and Thun'grim Firegaze in the Barrens both need phlogiston to forge unique, hardened armor suits for seasoned warriors."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Acquiring a Vial of Phlogiston is an essential milestone in earning iconic tempered armor, proving a warrior's ability to breach Razorfen Kraul."
+   "text": "As a warrior, retrieving phlogiston is an essential step toward earning iconic tempered armor. It proves you can breach Razorfen Kraul."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Phlogiston represents high-level specialized metallurgy, functioning as a vital flux for tempering legendary mail plate."
+   "text": "As a blacksmith, you know phlogiston as a vital flux for specialized metallurgy, used to temper legendary mail plate."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
   "Vial of Phlogiston",
   "Fire Hardened Mail",
   "Brutal Armor"
- ]
+ ],
+ "style": 2
 }

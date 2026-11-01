@@ -10,16 +10,16 @@
    "quest:1689"
   ]
  },
- "summary": "In Stormwind, the Bloodstone Choker binds a warlock’s ritual to the void. Gakin the Darkbinder once held the bloodstone talisman, until an apprentice stole it and fled to the Defias Brotherhood.",
+ "summary": "In Stormwind, Gakin the Darkbinder’s Bloodstone Choker binds a warlock’s rite to the void. His apprentice stole the talisman and fled to the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Stolen Conduit",
-   "body": "The Bloodstone Choker once belonged to Gakin the Darkbinder, a warlock mentor in the chambers beneath Stormwind’s Slaughtered Lamb. His apprentice, Surena Caledon, betrayed him and stole the choker. She fled into Elwynn’s forests and joined the Defias Brotherhood, carrying the enchanted talisman with her. She is at the Brackwell Pumpkin Patch, where the choker must be reclaimed before the bandits can use its power.",
+   "body": "Gakin the Darkbinder, a warlock mentor beneath Stormwind’s Slaughtered Lamb, once held the Bloodstone Choker. His apprentice Surena Caledon betrayed him and stole it. She fled into Elwynn’s forests and joined the Defias Brotherhood, taking the enchanted talisman with her. Now she is at the Brackwell Pumpkin Patch. The choker must be reclaimed before the bandits use its power.",
    "spoiler": 1
   },
   {
    "title": "Taming the Void",
-   "body": "Carved from bloodstone, the choker can bridge the mortal world and the twisting shadows of the Twisting Nether. Gakin puts it to use in the crypts beneath the tavern, channeling its magic at the summoning circle to draw a hostile Voidwalker from the void. A warlock must subdue the furious creature in direct combat while wielding the talisman to prove the will to command such a guardian.",
+   "body": "Carved from bloodstone, the choker bridges the mortal world and the twisting shadows of the Twisting Nether. In the crypts beneath the tavern, Gakin channels its magic at the summoning circle. A hostile Voidwalker answers from the void. A warlock must face the furious creature in direct combat and subdue it while wielding the talisman. Only then is the will to command such a guardian proved.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is the choker",
     "what does the choker do"
    ],
-   "answer": "The Bloodstone Choker is an enchanted bloodstone necklace that warlocks use as a ritual conduit. Its magic can tear through reality and summon an unruly Voidwalker from the Nether."
+   "answer": "Warlocks use the Bloodstone Choker, an enchanted bloodstone necklace, as a ritual conduit. Its magic can tear through reality and summon an unruly Voidwalker from the Nether."
   },
   {
    "q": "Who originally owned the choker?",
@@ -40,7 +40,7 @@
     "gakin choker",
     "where did the choker come from"
    ],
-   "answer": "Gakin the Darkbinder originally owned the choker. He trains warlocks in the covert basement beneath The Slaughtered Lamb in Stormwind’s Mage Quarter."
+   "answer": "Gakin the Darkbinder first owned the choker. He trains warlocks in a covert basement beneath The Slaughtered Lamb in Stormwind’s Mage Quarter."
   },
   {
    "q": "Why was the choker stolen?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As an Alliance warlock, recovering the Bloodstone Choker marks a rite of passage from basic spellcraft to command of formidable demonic minions."
+   "text": "As an Alliance warlock, recovering the Bloodstone Choker marks a passage from basic spellcraft to command of formidable demonic minions."
   },
   {
    "target": "faction:Alliance",
@@ -95,5 +95,5 @@
   "Bloodstone Choker",
   "The Binding (Voidwalker, Stormwind)"
  ],
- "style": 1
+ "style": 2
 }

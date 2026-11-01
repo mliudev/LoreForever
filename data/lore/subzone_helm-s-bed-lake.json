@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Helm's Bed Lake"
  },
- "summary": "In southeastern Dun Morogh, Helm's Bed Lake lies frozen beneath the hills. Dwarves keep a hole open in its ice for fresh water, while beasts, troggs, and hostile Dark Iron dwarves threaten the shore.",
+ "summary": "In southeastern Dun Morogh, dwarves keep a hole open in Helm's Bed Lake for fresh water. But beasts, troggs, and hostile Dark Iron dwarves make the shore dangerous.",
  "sections": [
   {
    "title": "A Treacherous Shoreline",
-   "body": "Helm's Bed Lake lies beneath winter ice in southeastern Dun Morogh. Local dwarves keep an opening chopped through the frost so they can draw clean, fresh water. The frozen surface is stable enough to cross, but the banks are dangerous. Wild beasts roam the edges, displaced troggs scavenge along the ridges, and hostile Dark Iron dwarves have taken an abandoned lodge just south of the water. They ambush travelers who pass through.",
+   "body": "The ice is firm enough to cross, but the banks are dangerous. Displaced troggs scavenge along the ridges, and wild beasts prowl the edges. South of the water, hostile Dark Iron dwarves have taken an abandoned lodge. They ambush travelers who pass nearby.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "water access",
     "why is the ice broken"
    ],
-   "answer": "Local dwarves keep a hole open in the thick ice so they can reach fresh, unfrozen water throughout Dun Morogh's sub-zero climate."
+   "answer": "Local dwarves keep a hole open in the thick ice to reach fresh water through Dun Morogh's freezing cold."
   },
   {
    "q": "What dangers lurk around Helm's Bed Lake?",
@@ -32,7 +32,7 @@
     "who is attacking here",
     "enemies nearby"
    ],
-   "answer": "The solid lake surface is safe to cross, but predatory beasts and stray troggs prowl its perimeter. South of the water, hostile Dark Iron dwarves occupy an old building and violently repel anyone who draws near."
+   "answer": "The solid ice is safe to cross, but wild beasts and displaced troggs prowl the shore. Hostile Dark Iron dwarves occupy an old building south of the water and drive away anyone who comes near."
   },
   {
    "q": "Who is Narm Faulk?",
@@ -41,7 +41,7 @@
     "dead dwarf near lake",
     "dead body at helms bed lake"
    ],
-   "answer": "Narm Faulk is an unfortunate dwarf whose body lies along Helm's Bed Lake's shoreline. He is a grim casualty of the sudden surge of hostile threats and Dark Iron infiltrators in the area."
+   "answer": "Narm Faulk is a dwarf whose body lies along Helm's Bed Lake's shore. He fell amid the sudden rise of threats and Dark Iron infiltrators in the area."
   },
   {
    "q": "Are the Dark Iron dwarves officially occupying the lake?",
@@ -49,17 +49,17 @@
     "dark irons at the lake",
     "dark iron dwarf lodge"
    ],
-   "answer": "The Dark Iron dwarves have not seized the lake, but an armed squad has claimed an abandoned structure just south of it. They use the building as a forward position to stage skirmishes into central Dun Morogh."
+   "answer": "The Dark Iron dwarves have not seized the lake, but an armed squad has taken an abandoned structure just south of it. They use it as a forward position for skirmishes into central Dun Morogh."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf of Ironforge, you know Helm's Bed Lake as a vital source of fresh water and a security failure. Dark Iron saboteurs and troggs are pushing deeper into Dun Morogh's heartland."
+   "text": "As a dwarf of Ironforge, you know Helm's Bed Lake as a vital source of fresh water, and its shores have grown less secure. Dark Iron saboteurs and troggs are pushing deeper into Dun Morogh's heartland."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler heading east toward Loch Modan, stay alert. The southward trail skirts close to aggressive Dark Iron ambushes."
+   "text": "As an Alliance traveler heading east toward Loch Modan, stay alert. The trail south passes close to Dark Iron ambushes."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Helm's Bed Lake"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Hammershout the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, Hammershout the Elder appears in Stormwind's Park. Travelers honor the old races and receive a ceremonial token from him.",
+ "summary": "During the Lunar Festival, you meet Hammershout the Elder in Stormwind's Park and honor the old races with a ceremonial token.",
  "sections": [
   {
    "title": "Honoring Ancient Blood",
-   "body": "During the Lunar Festival, revered ancestor spirits appear across Azeroth with wisdom and blessings for travelers who pay their respects. Hammershout the Elder appears in Stormwind's Park district. His presence near the heart of human civilization recalls the ancient races who walked the land before today's kingdoms rose.",
+   "body": "Ancestor spirits walk Azeroth for the festival, offering wisdom and blessings to travelers who pay their respects. In Stormwind's Park, Hammershout the Elder recalls the ancient races who walked the land before today's kingdoms rose.",
    "spoiler": 0
   },
   {
    "title": "Tokens of Ancestral Reverence",
-   "body": "Hammershout the Elder asks for no trial or oath, only acknowledgment of the past. He is relieved and grateful when people still honor the old races. In return, he gives travelers a ceremonial token, a sign of the bond between the living and the spirits who came before.",
+   "body": "Hammershout the Elder asks only that you acknowledge the past. He is relieved and grateful when people still honor the old races. In return, he gives you a ceremonial token, binding the living to the spirits who came before.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is hammershout",
     "elder hammershout identity"
    ],
-   "answer": "Hammershout the Elder is an ancestral spirit who appears during the Lunar Festival. He represents Azeroth's ancient lineages and offers blessings and tokens in Stormwind to those who honor him."
+   "answer": "Hammershout the Elder is an ancestral spirit who appears during the Lunar Festival. In Stormwind, he honors Azeroth's ancient lineages and offers blessings and tokens to those who pay their respects."
   },
   {
    "q": "Where can Elder Hammershout be found?",
@@ -47,7 +47,7 @@
     "where is hammershout",
     "hammershout elwynn"
    ],
-   "answer": "Hammershout the Elder appears in Stormwind's Park district during the Lunar Festival."
+   "answer": "During the Lunar Festival, you can find Hammershout the Elder in Stormwind's Park district."
   },
   {
    "q": "Why does Elder Hammershout mention the 'olden races'?",
@@ -55,7 +55,7 @@
     "olden races meaning",
     "what does hammershout mean"
    ],
-   "answer": "His words reflect the Lunar Festival's celebration of antiquity and ancestor worship. The festival honors the ancient peoples and traditions that shaped Azeroth before modern settlements rose."
+   "answer": "Hammershout the Elder speaks of the olden races because the Lunar Festival honors ancient peoples and traditions. They shaped Azeroth before modern settlements rose."
   },
   {
    "q": "What token does Elder Hammershout offer?",
@@ -64,7 +64,7 @@
     "hammershout token",
     "what does he give"
    ],
-   "answer": "Hammershout the Elder offers a Coin of Ancestry, a ceremonial token given by the Lunar Festival spirits to travelers who seek out elders and pay their respects."
+   "answer": "Hammershout the Elder offers a Coin of Ancestry, a ceremonial token from the Lunar Festival spirits to travelers who seek out elders and pay their respects."
   },
   {
    "q": "Can Horde adventurers speak with Elder Hammershout?",
@@ -72,7 +72,7 @@
     "can horde talk to hammershout",
     "hammershout horde"
    ],
-   "answer": "Yes. Horde travelers can speak with Hammershout the Elder, though they must tread carefully in Stormwind, the Alliance capital."
+   "answer": "Yes. Horde travelers can speak with Hammershout the Elder, though Stormwind is the Alliance capital."
   },
   {
    "q": "Is this encounter tied to an active holiday?",
@@ -80,13 +80,13 @@
     "is hammershout always there",
     "lunar festival elder"
    ],
-   "answer": "Hammershout the Elder appears during the annual Lunar Festival, granting blessings before fading back to the spirit realm."
+   "answer": "Hammershout the Elder appears during the annual Lunar Festival and grants blessings before returning to the spirit realm."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "In Stormwind's Park, Hammershout the Elder reminds you to respect Azeroth's history, which reaches back before the modern human kingdom."
+   "text": "In Stormwind's Park, Hammershout the Elder reminds you that Azeroth's history reaches back before the human kingdom."
   },
   {
    "target": "faction:Alliance",
@@ -94,7 +94,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "To reach Hammershout the Elder, you must enter Stormwind and make your way to the Park, a daring journey for a Horde pilgrim."
+   "text": "To reach Hammershout the Elder, you enter Stormwind and make your way to the Park, a daring journey for a Horde pilgrim."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Hammershout the Elder"
  ],
- "style": 1
+ "style": 2
 }

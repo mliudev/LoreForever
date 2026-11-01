@@ -8,16 +8,16 @@
   "wiki": "Farmer Saldean",
   "refs": 1
  },
- "summary": "At Saldean's Farm in central Westfall, Farmer Saldean keeps working the troubled fields beside his wife, Salma. While other farmers flee or give up, the veteran homesteader faces rogue harvest golems and growing banditry.",
+ "summary": "At Saldean's Farm in central Westfall, Farmer Saldean and his wife, Salma, keep working troubled fields. Other farmers flee or give up, but he faces rogue harvest golems and growing banditry.",
  "sections": [
   {
    "title": "Holding the Plow",
-   "body": "Farmer Saldean remembers when Westfall prospered, before those years crumbled away. Overgrown fields, rampaging mechanical harvest watchers, and predatory bandits now surround his farm, but he refuses to yield his land. Other homesteaders have abandoned their acres or turned to thievery. Saldean and his wife, Salma, stay and work to harvest what little grain they can. He asks wandering adventurers to destroy the rogue Harvest Watchers that have taken over his fields and his neighbors' fields, so he can clear the soil for planting.",
+   "body": "Farmer Saldean remembers Westfall before its prosperity crumbled. Overgrown fields, rampaging mechanical harvest watchers, and predatory bandits now surround his farm. Yet he refuses to yield his land.\n\nOther homesteaders have abandoned their acres or turned to thievery. Saldean and his wife, Salma, stay to harvest what little grain they can. He asks wandering adventurers to destroy the rogue Harvest Watchers in his fields and his neighbors' fields, so he can clear the soil for planting.",
    "spoiler": 0
   },
   {
    "title": "The Scythe of Westfall",
-   "body": "Between Sentinel Hill and the northern bridge, Saldean's defense of his homestead helps keep civilian life going. He remains tied to the People's Militia despite the hard times, and sends able-bodied travelers to Gryan Stoutmantle once his immediate troubles are settled. Clearing the wild harvest reapers can only give his farm a temporary reprieve. The lawlessness strangling the countryside still has to be dealt with.",
+   "body": "Between Sentinel Hill and the northern bridge, Saldean's defense of his homestead helps keep civilian life going. He remains tied to the People's Militia despite the hard times. Once his immediate troubles are settled, he sends able-bodied travelers to Gryan Stoutmantle.\n\nClearing the wild harvest reapers can give his farm only a temporary reprieve. The lawlessness strangling the countryside still has to be dealt with.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is saldean",
     "saldean npc"
    ],
-   "answer": "Farmer Saldean is a veteran human farmer who lives at Saldean's Farm in Westfall with his wife, Salma. He is one of the few local homesteaders who refuses to abandon his soil despite famine, rogue harvest golems, and the region's growing banditry."
+   "answer": "Farmer Saldean is a veteran human farmer at Saldean's Farm in Westfall, where he lives with his wife, Salma. Though famine, rogue harvest golems, and growing banditry threaten his land, he refuses to abandon it."
   },
   {
    "q": "Why is Farmer Saldean's farm in trouble?",
@@ -37,7 +37,7 @@
     "why are harvest golems attacking",
     "saldean farm problem"
    ],
-   "answer": "Westfall's automated harvest golems have malfunctioned and gone wild, prowling cropland and attacking anyone in sight. Saldean needs adventurers to destroy the mechanical watchers in his fields and neighboring fields so he can reclaim his land."
+   "answer": "Westfall's automated harvest golems have malfunctioned and gone wild. They prowl cropland and attack anyone in sight, so Saldean needs adventurers to destroy the mechanical watchers in his fields and neighboring fields and reclaim his land."
   },
   {
    "q": "Where can Farmer Saldean be found?",
@@ -62,13 +62,13 @@
     "saldean vendor",
     "special chicken feed vendor"
    ],
-   "answer": "Saldean sells staple bread and is the primary purveyor of Special Chicken Feed, a curious grain sought by travelers hoping to befriend the local fowl wandering Westfall."
+   "answer": "Saldean sells staple bread and Special Chicken Feed, a curious grain sought by travelers hoping to befriend the local fowl wandering Westfall."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you see Saldean's stubborn resolve among Westfall's remaining loyalists, who cling to Kingdom soil even when the crown's soldiers are nowhere to be seen."
+   "text": "As an Alliance traveler, you see Saldean's stubborn resolve among Westfall's remaining loyalists. They cling to Kingdom soil even when the crown's soldiers are nowhere to be seen."
   },
   {
    "target": "profession:Cooking",
@@ -97,5 +97,5 @@
  "attribution": [
   "Farmer Saldean"
  ],
- "style": 1
+ "style": 2
 }

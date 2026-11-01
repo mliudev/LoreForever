@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "6"
  },
- "summary": "In Kharanos, Thamner Pol teaches aspiring medics to prepare First Aid Kits for camps in Dun Morogh. The lesson extends their skills beyond simple bandages and helps keep travelers alive in the field.",
+ "summary": "In Kharanos, Thamner Pol teaches you to prepare First Aid Kits for camps in Dun Morogh. With these supplies, travelers can stay alive in the field.",
  "sections": [
   {
    "title": "Tending Wounds in the Wild",
-   "body": "In Dun Morogh, basic bandages are only the start of wilderness medicine. Survival at a resting site also depends on having supplies ready. Those who show skill in basic treatment can seek out a local instructor in Kharanos, where raw medical supplies become complete kits for camp use.",
+   "body": "You can build on your basic bandaging skills by learning to prepare supplies for a resting site. Thamner Pol shows you how raw medical supplies become complete kits, ready for use at camp when travelers need care far from shelter.",
    "spoiler": 0
   },
   {
    "title": "The Lessons of Kharanos",
-   "body": "At Kharanos, Thamner Pol teaches practical ways to outfit expedition sites with emergency supplies. A proper field kit lets a group bind wounds and regain strength together by the hearth before heading back into the cold.",
+   "body": "Thamner Pol teaches you practical ways to outfit expedition sites with emergency supplies. A proper field kit lets a group bind wounds and regain strength together by the hearth before heading back into the cold.",
    "spoiler": 0
   }
  ],
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you rely on sturdy, practical gear when patrolling Dun Morogh's high snowy passes, and a camp First Aid Kit is a useful part of your supplies."
+   "text": "As a dwarf, you rely on sturdy, practical gear while patrolling Dun Morogh's high snowy passes. A camp First Aid Kit is a useful part of your supplies."
   },
   {
    "target": "race:Gnome",
@@ -112,5 +112,5 @@
  "attribution": [
   "In-game quest text: Camping 101: First Aid"
  ],
- "style": 1
+ "style": 2
 }

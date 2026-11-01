@@ -20,16 +20,16 @@
    "The Lord of Blackrock (Alliance 2)"
   ]
  },
- "summary": "Nefarian's severed head is bound for Stormwind Keep after his defeat in Blackwing Lair. Highlord Bolvar Fordragon receives the trophy, a sign that the master of Blackrock Mountain has fallen. The victory is among the Alliance's greatest military triumphs in recent history.",
+ "summary": "Nefarian's severed head reaches Stormwind Keep after his defeat in Blackwing Lair. Highlord Bolvar Fordragon receives it as proof that the master of Blackrock Mountain has fallen. The victory ranks among the Alliance's greatest military triumphs in recent history.",
  "sections": [
   {
    "title": "A Monument to Victory",
-   "body": "Nefarian, brood-master of the Black Dragonflight and ruler of Upper Blackrock Spire, has long threatened the surrounding human kingdoms. His defeat ends his twisted experiments and schemes. Carrying his battle-scarred head back to Stormwind gives proof that the Lord of Blackrock has fallen to the Alliance's greatest heroes.",
+   "body": "Nefarian, brood-master of the Black Dragonflight and ruler of Upper Blackrock Spire, has long threatened the surrounding human kingdoms. His defeat ends his twisted experiments and schemes. His battle-scarred head is carried back to Stormwind, proof that the Alliance's greatest heroes have brought down the Lord of Blackrock.",
    "spoiler": 0
   },
   {
    "title": "Audience at Stormwind Keep",
-   "body": "Highlord Bolvar Fordragon governs the kingdom from the throne room of Stormwind Keep. The dragon's severed head shocks the royal court and commands reverence. With the kingdom strained by internal political strife and threats from beyond, the victory lifts morale and earns a place in Alliance history.",
+   "body": "Highlord Bolvar Fordragon governs the kingdom from Stormwind Keep's throne room. The dragon's severed head shocks the royal court and commands reverence. The kingdom faces internal political strife and threats from beyond. This victory lifts morale and earns a place in Alliance history.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "nefarian head quest alliance",
     "head of nefarian stormwind"
    ],
-   "answer": "You claim Nefarian's severed head in Blackwing Lair and carry the trophy to Stormwind City. There you present it to Highlord Bolvar Fordragon on behalf of the kingdom."
+   "answer": "You claim Nefarian's severed head in Blackwing Lair and carry it to Stormwind City. There, you present the trophy to Highlord Bolvar Fordragon on behalf of the kingdom."
   },
   {
    "q": "Who is Nefarian?",
@@ -68,7 +68,7 @@
     "why bring head to keep",
     "why bolvar"
    ],
-   "answer": "Nefarian's rule in Blackrock Mountain threatens the kingdom of Stormwind and the entire southern continent. Bringing his head to the kingdom's military leadership confirms the dragon's defeat and gives the realm a victory to rally around."
+   "answer": "Nefarian's rule in Blackrock Mountain threatens Stormwind and the entire southern continent. Bringing his head to the kingdom's military leadership confirms his defeat and gives the realm a victory to rally around."
   },
   {
    "q": "What happens after giving the head to Bolvar?",
@@ -77,7 +77,7 @@
     "lord of blackrock part 2",
     "nefarian head turn in"
    ],
-   "answer": "Highlord Bolvar Fordragon is astounded and declares the triumph will be recorded in history. The next stage of the event has the head mounted publicly for all Stormwind to see."
+   "answer": "Highlord Bolvar Fordragon is astounded and declares the triumph will be recorded in history. The head is then mounted publicly for all Stormwind to see."
   },
   {
    "q": "Does turning in this head affect the whole city?",
@@ -86,7 +86,7 @@
     "rallying cry",
     "head of nefarian buff"
    ],
-   "answer": "Yes. Nefarian's head is delivered to the capital and raised above the city gates, announcing the dragon's death to citizens and soldiers and strengthening Stormwind's defenders with resolve."
+   "answer": "Yes. Nefarian's head is delivered to the capital and raised above the city gates. It announces the dragon's death to citizens and soldiers and strengthens Stormwind's defenders with resolve."
   }
  ],
  "angles": [
@@ -116,5 +116,5 @@
  "attribution": [
   "The Lord of Blackrock (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

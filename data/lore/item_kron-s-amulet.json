@@ -10,11 +10,11 @@
    "quest:816"
   ]
  },
- "summary": "Along the Southfury River, Kron’s keepsake carries the memory of a young orc hunter who went missing.",
+ "summary": "Along the Southfury River, Kron’s amulet recalls a young orc hunter who went missing.",
  "sections": [
   {
    "title": "Tragedy on the Southfury",
-   "body": "Kron was a headstrong young orc from a farmstead northwest of Razor Hill. Eager to prove himself, he went to hunt the vicious Dreadmaw crocolisks along the Southfury River, on the border with the Barrens. His mother, Misha Tor'kren, warned him of the danger, but pride carried him onward. Kron never returned from the river. His amulet was found inside one of its predators, confirming that he had been slain and devoured.",
+   "body": "Kron was a headstrong young orc from a farmstead northwest of Razor Hill. He went to hunt the vicious Dreadmaw crocolisks along the Southfury River, on the border with the Barrens. His mother, Misha Tor'kren, warned him of the danger, but pride carried him onward. Kron never returned. His amulet was found inside one of the river’s predators, confirming he had been slain and devoured. It gives Misha painful confirmation of her son’s fate.",
    "spoiler": 1
   }
  ],
@@ -35,7 +35,7 @@
     "kron's amulet location",
     "who drops kron's amulet"
    ],
-   "answer": "Dreadmaw Crocolisks and Corrupted Dreadmaw Crocolisks along the banks of the Southfury River in Durotar carry the amulet in their bellies."
+   "answer": "Dreadmaw Crocolisks and Corrupted Dreadmaw Crocolisks along the banks of the Southfury River in Durotar carry Kron's Amulet in their bellies."
   },
   {
    "q": "Who wants Kron's Amulet returned?",
@@ -50,11 +50,11 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Kron's fate shows how pride and the pursuit of martial glory can lead an orc to ignore the wisdom of elders, with deadly consequences."
+   "text": "As an orc, Kron's fate shows how pride and the pursuit of martial glory can lead one to ignore the wisdom of elders, with deadly consequences."
   },
   {
    "target": "class:Hunter",
-   "text": "For a hunter, Kron's fate is a stark lesson in the danger of underestimating vicious beasts in unfamiliar river territory."
+   "text": "As a hunter, Kron's fate is a stark lesson in the danger of underestimating vicious beasts in unfamiliar river territory."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
   "Kron's Amulet",
   "Lost But Not Forgotten (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:88"
   ]
  },
- "summary": "At the Brackwell pumpkin patch, Princess wears a brass collar that Ma Stonefield wants as proof the sow is gone.",
+ "summary": "At the Brackwell Pumpkin Patch, Princess wears the collar Ma Stonefield wants as proof the sow is gone.",
  "sections": [
   {
    "title": "A Trophy of Farmyard Rivalry",
-   "body": "Princess is a huge, prize-winning sow owned by the Brackwell family. She roams their pumpkin patch east of the Maclure homestead, and her appetite leads her into the Stonefield Farm’s crops. After losing valuable vegetables to the sow, Ma Stonefield seeks someone willing to slay her. Princess wears a brass band around her neck, and the collar proves she will not raid the Stonefield fields again.",
+   "body": "Princess is the Brackwell family’s huge, prize-winning sow. She roams east of the Maclure homestead, and her hunger often carries her into Stonefield Farm’s crops. After losing valuable vegetables to Princess, Ma Stonefield seeks someone willing to slay her. The collar proves the sow has been put down, so she can no longer raid Stonefield’s fields.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "why stonefield wants collar",
     "ma stonefield collar purpose"
    ],
-   "answer": "Princess eats Ma Stonefield’s prize vegetables. The collar proves to Ma Stonefield that the sow has been put down before ruining more of her harvest."
+   "answer": "Princess eats Ma Stonefield’s prize vegetables. The collar proves she has been put down before she can ruin more of Ma Stonefield’s harvest."
   },
   {
    "q": "Who owns Princess?",
@@ -79,5 +79,5 @@
   "Brass Collar",
   "Princess Must Die! (Classic)"
  ],
- "style": 1
+ "style": 2
 }

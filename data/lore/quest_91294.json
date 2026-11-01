@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Breton asks you to walk the grounds of Bandarion Keep after the murloc attacks come under control. Meeting the keep\u2019s leader, Danitha Morr, is your first step toward settling among its residents.",
+ "summary": "Breton asks you to walk Bandarion Keep after the murloc attacks come under control. Meeting Danitha Morr is your first step toward settling among the residents.",
  "sections": [
   {
    "title": "At the Keep",
-   "body": "Breton asks you to meet the residents of Bandarion Keep and look around the stronghold. Once you have finished, Danitha Morr can help you settle in. The keep is still small, but its people call it home.",
+   "body": "Breton asks you to meet Bandarion Keep’s residents and look around the stronghold. Once you have finished, Danitha Morr can help you settle in. The keep is still small, but its people call it home.",
    "spoiler": 0
   },
   {
    "title": "A Commander",
-   "body": "Danitha Morr introduces herself as the closest thing the keep has to a commander. She welcomes those who seek fellowship with people still loyal to the Light, and says the keep needs help before it can be fully established.",
+   "body": "Danitha Morr introduces herself as the closest thing Bandarion Keep has to a commander. She welcomes those seeking fellowship with people still loyal to the Light. The keep needs help before it can be fully established.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "where do i go after touring",
     "talk to danitha"
    ],
-   "answer": "Danitha Morr can help you get settled in among the keep\u2019s residents."
+   "answer": "Danitha Morr can help you settle in among the keep’s residents."
   },
   {
    "q": "What is Bandarion Keep like?",
@@ -55,7 +55,7 @@
     "what's the keep like",
     "bandarion keep"
    ],
-   "answer": "It is a small stronghold whose residents call it home."
+   "answer": "Bandarion Keep is a small stronghold whose residents call it home."
   },
   {
    "q": "Who is welcome at the keep?",
@@ -81,7 +81,7 @@
   "topic:light",
   "topic:murloc"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Touring the Grounds"
  ]

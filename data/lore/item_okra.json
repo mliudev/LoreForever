@@ -10,11 +10,11 @@
    "quest:38"
   ]
  },
- "summary": "In Westfall, Okra grows in the plots at Saldean's Farm. Homesteaders prize the crop, and it thickens the stews that feed them.",
+ "summary": "At Saldean's Farm, Okra helps feed Westfall's homesteaders. The crop grows in the farm's plots and thickens the stews that sustain them.",
  "sections": [
   {
    "title": "A Staple of Saldean's Farm",
-   "body": "Saldean's Farm still yields vegetables while much of Westfall lies fallow under threat from Defias outlaws and rogue harvest golem attacks. Okra grows in the tilled plots around the farm. The crop persists through the harsh conditions, nourishing local homesteaders when trade and supplies from Stormwind run dry.",
+   "body": "Saldean's Farm still yields vegetables while much of Westfall lies fallow, threatened by Defias outlaws and rogue harvest golem attacks. Okra grows in the tilled plots around the farm and persists through the harsh conditions. It nourishes local homesteaders when trade and supplies from Stormwind run dry.",
    "spoiler": 0
   },
   {
@@ -81,5 +81,5 @@
   "Okra",
   "Westfall Stew (Classic 2)"
  ],
- "style": 1
+ "style": 2
 }

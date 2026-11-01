@@ -17,16 +17,16 @@
   "wiki": "Red Linen Goods",
   "chain": []
  },
- "summary": "At Eastvale Logging Camp, Sara Timberlain needs cloth for her tailoring. She asks passing adventurers to hunt Defias bandits and take their linen bandanas, then uses the cloth to make goods for travelers.",
+ "summary": "At Eastvale Logging Camp, Sara Timberlain needs linen for her tailoring. She asks you to recover bandanas from Defias bandits so she can keep making goods for travelers.",
  "sections": [
   {
    "title": "Bandits and Burlap",
-   "body": "Defias bandits across Elwynn wear red linen bandanas. Their less organized kin in Northshire Valley make do with cheap burlap masks. For local craftsmen short on materials, the bandanas offer cloth they can use.",
+   "body": "Across Elwynn, Defias bandits wear red linen bandanas. Their less organized kin in Northshire make do with cheap burlap masks. The linen gives Sara workable cloth for her tailoring.",
    "spoiler": 0
   },
   {
    "title": "Salvage at the Camp",
-   "body": "Sara Timberlain works as a seamstress at Eastvale Logging Camp, near Elwynn's eastern border. She needs workable textiles for her trade, so she asks adventurers to thin the Defias camps scattered through the woods. The cloth keeps her tailoring supplied while the bandits' encroachment on the area is checked.",
+   "body": "At Eastvale Logging Camp, Sara Timberlain needs textiles for her trade. Taking bandanas from Defias camps scattered through the woods supplies her with cloth and helps check the bandits' encroachment.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "red linen goods questgiver",
     "sara timberlain quest"
    ],
-   "answer": "Sara Timberlain, a seamstress at Eastvale Logging Camp in eastern Elwynn Forest, offers the work."
+   "answer": "Sara Timberlain, a seamstress at Eastvale Logging Camp in eastern Elwynn Forest, asks you to bring her cloth."
   },
   {
    "q": "What items are needed for Red Linen Goods?",
@@ -65,7 +65,7 @@
     "burlap vs linen defias",
     "defias mask material"
    ],
-   "answer": "Low-ranking Defias in Northshire wear burlap masks, while better-equipped members across Elwynn wear red linen. The bandanas mark the Brotherhood's higher level of organization and supply."
+   "answer": "Low-ranking Defias in Northshire wear burlap masks, while better-equipped members across Elwynn wear red linen. The bandanas mark the Brotherhood's greater organization and supply."
   },
   {
    "q": "Why does Sara Timberlain want bandit bandanas?",
@@ -73,7 +73,7 @@
     "why collect bandanas",
     "what does sara do with masks"
    ],
-   "answer": "Sara Timberlain needs fabric for her tailoring. She reuses linen from the Defias masks to sew practical goods for woodsmen and travelers at the logging camp."
+   "answer": "Sara Timberlain needs fabric for her tailoring. She reuses linen from Defias masks to sew practical goods for woodsmen and travelers at the logging camp."
   },
   {
    "q": "Where is the Eastvale Logging Camp located?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "As a tailor, you see how scarce fabric can lead a seamstress to salvage cloth from bandits' clothing."
+   "text": "As a tailor, you know how scarce fabric can lead a seamstress to salvage cloth from bandits' clothing."
   },
   {
    "target": "faction:Alliance",
@@ -114,5 +114,5 @@
  "attribution": [
   "Red Linen Goods"
  ],
- "style": 1
+ "style": 2
 }

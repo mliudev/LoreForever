@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Headdresses crafted from natural materials are deeply tied to tauren honor and rites of passage before the high chieftain. Helping fashion such regalia reflects the communal spirit and pride of the tribes of Mulgore."
+   "text": "As a tauren, you know that natural headdresses are bound to honor and rites of passage before the high chieftain. Helping make such regalia shows the tribes’ shared pride and spirit."
   },
   {
    "target": "faction:Horde",
-   "text": "Aiding a fellow member of the Horde in their traditional ceremonial duties honors the customs of the tauren allies atop the mesas of Thunder Bluff."
+   "text": "As a member of the Horde, you honor the customs of your tauren allies atop Thunder Bluff’s mesas when you help with their ceremonial duties."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is the ceremony",
     "who stands before bloodhoof"
    ],
-   "answer": "The ceremony marks a tauren presenting himself before Chief Cairne Bloodhoof. To mark this honorable occasion, his sibling is crafting a special ceremonial headdress fashioned from tanned leather and vibrant feathers.",
+   "answer": "The ceremony marks a tauren appearing before Chief Cairne Bloodhoof. His sibling is making a headdress from tanned leather and vibrant feathers for the occasion.",
    "q": "What ceremony is being prepared for?"
   },
   {
@@ -37,7 +37,7 @@
     "cairne bloodhoof",
     "who is bloodhoof"
    ],
-   "answer": "Chief Cairne Bloodhoof is the venerable high chieftain and leader of the united tauren tribes, ruling from the high mesas of Thunder Bluff. Standing before him is a distinct honor for any tauren.",
+   "answer": "Chief Cairne Bloodhoof leads the united tauren tribes from Thunder Bluff. Standing before him is an honor for any tauren.",
    "q": "Who is Chief Bloodhoof?"
   },
   {
@@ -46,7 +46,7 @@
     "why harpy feathers",
     "why feathers"
    ],
-   "answer": "The ceremonial headdress requires feathers of a specific size and striking plumage\u2014specifically azure and bronze\u2014to complete the traditional design while the leather straps are being tanned.",
+   "answer": "The headdress needs feathers of a particular size and color. Its design calls for azure and bronze plumage while the leather straps are tanned.",
    "q": "Why are harpy feathers needed for the headdress?"
   },
   {
@@ -55,7 +55,7 @@
     "where to find harpies",
     "where are azure and bronze feathers"
    ],
-   "answer": "The harpies that yield these plumage feathers dwell in the rugged lands far to the north and northwest of Thunder Bluff in Mulgore.",
+   "answer": "The harpies live in rugged lands north and northwest of Thunder Bluff, in Mulgore.",
    "q": "Where are the harpies located?"
   },
   {
@@ -63,7 +63,7 @@
     "why are harpies hunted",
     "what are harpies"
    ],
-   "answer": "Harpies are vicious, avian-humanoid creatures nesting in the rocky crags around Mulgore. Aside from posing a threat to travelers and the tribes, their large, colorful plumage makes them a prime source for ceremonial ornaments.",
+   "answer": "Harpies are vicious, avian-humanoid creatures that nest in Mulgore’s rocky crags. They threaten travelers and the tribes, while their large, colorful plumage provides material for ceremonial ornaments.",
    "q": "What role do harpies play in Mulgore?"
   },
   {
@@ -71,7 +71,7 @@
     "who makes the headdress",
     "who crafts the headdress"
    ],
-   "answer": "Eyahn Eagletalon tans the leather straps and constructs the headdress to honor his brother as he prepares to make his appearance before the chieftain.",
+   "answer": "Eyahn Eagletalon tans the leather straps and makes the headdress for his brother, who is preparing to appear before the chieftain.",
    "q": "Who is crafting the ceremonial headdress?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "In tauren culture, standing before Chief Cairne Bloodhoof is an occasion of great pride and reverence. Such milestones demand proper ceremonial attire, particularly a traditional headdress carefully fashioned from treated leather and symbolic plumage. Crafting this regalia is considered an honor by family members, who take great care to ensure every component reflects dignity and respect before the leader of the united tribes.",
+   "body": "Among the tauren, standing before Chief Cairne Bloodhoof brings pride and reverence. Families honor the occasion by preparing proper attire. The traditional headdress is made from treated leather and symbolic plumage, with each part chosen to show dignity and respect before the leader of the united tribes.",
    "spoiler": 0,
    "title": "Honoring the Chieftain"
   },
   {
-   "body": "Constructing a ceremonial headdress requires both skill and specific materials. While supple leather straps are tanned to form the base band, long and pristine feathers must be sourced to adorn the crown. The avian harpies roosting across the craggy hills to the north and northwest of Thunder Bluff provide feathers of the exact size and coloration required, calling upon travelers to venture into hostile nests to retrieve them.",
+   "body": "A ceremonial headdress needs a leather band and feathers for its crown. While the leather straps are tanned, long, pristine feathers must be gathered. Harpies roost in the craggy hills north and northwest of Thunder Bluff, so you must venture into their hostile nests to find feathers of the needed size and color.",
    "spoiler": 0,
    "title": "Feathers of the Crags"
   }
  ],
- "summary": "Preparation for Ceremony is a tauren tradition focused on crafting a ceremonial headdress for one preparing to appear before Chief Cairne Bloodhoof. To finish the traditional attire, vibrant feathers must be collected from dangerous harpies nesting beyond Thunder Bluff while the leather bands are prepared.",
+ "summary": "Eyahn Eagletalon is making a headdress for his brother, who soon stands before Chief Cairne Bloodhoof. He asks you to gather the vibrant feathers from harpies beyond Thunder Bluff while he tans the leather bands.",
  "attribution": [
   "In-game quest text: Preparation for Ceremony"
- ]
+ ],
+ "style": 2
 }

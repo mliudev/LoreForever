@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Mages have an innate interest in arcane research, making contributions to scholarly libraries and the recovery of magical treatises directly relevant to their craft."
+   "text": "As a mage, you have a natural interest in arcane study. Recovering magical treatises and contributing to scholarly libraries suit your craft."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven scholars and the Explorers' League place great value on accumulating written records, artifacts, and esoteric lore."
+   "text": "As a dwarf, you know the value of written records, artifacts, and obscure lore. Dwarven scholars and the Explorers' League prize them."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "ataeric quest",
     "arcane curiosities turn in"
    ],
-   "answer": "Ataeric: On Arcane Curiosities represents the delivery of a scholarly or magical text to a collector seeking to expand a library's repository of esoteric knowledge.",
+   "answer": "Ataeric seeks magical writings to add to a library's collection of arcane lore.",
    "q": "What is the purpose of this quest?"
   },
   {
@@ -37,7 +37,7 @@
     "who gets the book",
     "who is ataeric"
    ],
-   "answer": "Ataeric is the author of the treatise. It is turned in to a researcher or curator gathering magical works and rare volumes to enrich a library's archives.",
+   "answer": "Ataeric wrote the treatise. A researcher or curator gathers magical works and rare volumes for a library's archives.",
    "q": "Who collects these arcane writings?"
   },
   {
@@ -45,7 +45,7 @@
     "what library is this",
     "where do these books go"
    ],
-   "answer": "The text is sought to enhance an academic collection, benefiting the scholarly library that takes the work in.",
+   "answer": "The curiosities are sought for an academic collection at a scholarly library.",
    "q": "Which library benefits from these curiosities?"
   },
   {
@@ -54,7 +54,7 @@
     "repeatable magical works",
     "more books for library"
    ],
-   "answer": "The scholar specifically encourages adventurers to bring forward any additional magical works discovered during their travels to continually broaden their store of lore.",
+   "answer": "Yes. The scholar welcomes any further magical works found during your travels to broaden the library's lore.",
    "q": "Are there more magical works to collect?"
   },
   {
@@ -62,7 +62,7 @@
     "what does the library study",
     "why collect arcane books"
    ],
-   "answer": "Scholars continually look for rare treatises to better understand the nuances of the arcane and preserve historical, mystical knowledge.",
+   "answer": "The library seeks rare treatises to deepen the study of the arcane and preserve mystical knowledge.",
    "q": "Why does the library seek arcane curiosities?"
   },
   {
@@ -70,7 +70,7 @@
     "is this dangerous",
     "arcane magic risk"
    ],
-   "answer": "Arcane texts often contain volatile or obscure knowledge, making their safekeeping and study within a dedicated library preferable to leaving them lost in the field.",
+   "answer": "Recovering arcane works brings obscure knowledge into a library where it can be kept and studied instead of remaining lost in the field.",
    "q": "Why is recovering arcane works important?"
   }
  ],
@@ -85,18 +85,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Scholars and archivists across Azeroth rely on wandering adventurers to recover rare tomes and forgotten treatises from dangerous ground. In this task, an inquirer seeks magical writings specifically to broaden an institution's understanding of the arcane arts. Every volume recovered helps piece together mystical practices that might otherwise remain scattered or lost.",
+   "body": "Across Azeroth, scholars rely on travelers to recover rare tomes and treatises from dangerous ground. Ataeric seeks magical writings to broaden an institution's study of the arcane. Each volume can help scholars piece together practices that might otherwise be scattered or lost.",
    "spoiler": 0,
    "title": "Preserving Arcane Knowledge"
   },
   {
-   "body": "Upon receiving the curiosities, the curator incorporates them directly into the archive's repository. Rather than viewing the acquisition as complete, the library maintains an open call for any further magical writings uncovered across the world, ensuring their collection continues to grow alongside ongoing scholarship.",
+   "body": "The curator adds each curiosity to the archive. The library remains eager for further magical writings found across the world, so its collection can grow with ongoing scholarship.",
    "spoiler": 0,
    "title": "An Expanding Archive"
   }
  ],
- "summary": "Ataeric: On Arcane Curiosities involves delivering recovered magical writings to expand a scholarly archive's collection. By gathering obscure texts and treatises from the field, researchers seek to deepen their understanding of arcane studies and preserve mystical lore.",
+ "summary": "Ataeric seeks rare magical writings to enlarge a library's collection. Scholars hope these works will deepen their study of the arcane and keep its lore safe.",
  "attribution": [
   "In-game quest text: Ataeric: On Arcane Curiosities"
- ]
+ ],
+ "style": 2
 }

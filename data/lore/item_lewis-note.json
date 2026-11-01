@@ -11,11 +11,11 @@
    "quest:6281"
   ]
  },
- "summary": "At Sentinel Hill, Quartermaster Lewis sends an urgent supply requisition to a private armorer in Stormwind. A courier carries it by gryphon, asking for protective gear for the Westfall garrison.",
+ "summary": "At Sentinel Hill, Quartermaster Lewis sends a courier by gryphon to seek armor for Westfall's garrison. The order goes to a private armorer in Stormwind.",
  "sections": [
   {
    "title": "A Plea for Steel",
-   "body": "The People's Militia at Sentinel Hill gets little support from Stormwind's House of Nobles. Skirmishes with the Defias Brotherhood keep draining its meager stocks of gear. To keep the defenders outfitted, Quartermaster Lewis turns to private business instead of crown supplies. His requisition bypasses official military channels entirely. An Alliance courier must fly by gryphon to Old Town and present the order to Osric Strang, proprietor of Limited Immunity.",
+   "body": "The People's Militia at Sentinel Hill receives little support from Stormwind's House of Nobles. Skirmishes with the Defias Brotherhood keep wearing down its small supply of gear. So Quartermaster Lewis turns to private trade to keep the defenders equipped. His order goes outside the kingdom's military channels. An Alliance courier must fly by gryphon to Old Town and present it to Osric Strang, who owns Limited Immunity.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "lewis note purpose",
     "what does the note do"
    ],
-   "answer": "Lewis' Note is Quartermaster Lewis's written order asking Osric Strang, an armorer in Stormwind, to send protective equipment to the struggling Westfall garrison."
+   "answer": "Lewis' Note is Quartermaster Lewis's written order to Osric Strang, an armorer in Stormwind, asking him to send protective gear to the Westfall garrison."
   },
   {
    "q": "Who wrote this note?",
@@ -44,7 +44,7 @@
     "who gets lewis note",
     "osric strang note"
    ],
-   "answer": "The note goes first to Thor, the gryphon master at Sentinel Hill. From there, it is delivered directly to Osric Strang inside his armor shop, Limited Immunity, in Stormwind's Old Town."
+   "answer": "The note first goes to Thor, the gryphon master at Sentinel Hill. From there, it travels to Osric Strang at his armor shop, Limited Immunity, in Stormwind's Old Town."
   },
   {
    "q": "Why doesn't the garrison just get armor from the kingdom?",
@@ -53,13 +53,13 @@
     "why no stormwind help",
     "stormwind aid westfall"
    ],
-   "answer": "Stormwind's government has largely neglected Westfall, leaving its defenders without direct military funding or crown-supplied armor. Lewis relies on trade contacts such as Osric Strang to keep the militia equipped."
+   "answer": "Stormwind's government has largely neglected Westfall. Its defenders receive neither direct military funding nor armor from the crown, so Lewis relies on traders such as Osric Strang to equip the militia."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Delivering the requisition teaches young human adventurers how to use the kingdom's gryphon network and shows how little Stormwind's rulers do to equip Westfall's defenders."
+   "text": "As a human adventurer, carrying the order shows you how to use the kingdom's gryphon routes. It also shows how little Stormwind's rulers do to equip Westfall's defenders."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "A Swift Message (Classic)",
   "Continue to Stormwind (Classic)"
  ],
- "style": 1
+ "style": 2
 }

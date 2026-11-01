@@ -10,11 +10,11 @@
    "quest:140"
   ]
  },
- "summary": "Along Westfall's coast, Captain Sanders' last directions point out to sea. A note in an old jug sends scavengers west toward his buried treasure.",
+ "summary": "Along Westfall’s coast, Captain Sanders’ final directions send scavengers out to sea. A note in an old jug points west toward his buried treasure.",
  "sections": [
   {
    "title": "A Sailor's Parting Words",
-   "body": "Captain Sanders left his final directions in an old whiskey jug on the Westfall coast. The pirate had scattered cryptic notes along the shoreline, and this one completes the trail. From the jug, the directions lead due west into the ocean. Follow them through the surf to a lonely offshore rock, where his ironbound sea chest lies.",
+   "body": "Captain Sanders left his final directions in an old whiskey jug on the Westfall coast. The pirate had scattered cryptic notes along the shoreline, and this one completes the trail. From the jug, the directions point due west into the ocean. Follow them through the surf to a lonely offshore rock, where his ironbound sea chest lies.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is written on clue",
     "sanders directions"
    ],
-   "answer": "The note directs you west from the whiskey jug and out into the sea, where a small offshore island holds the treasure chest."
+   "answer": "The note points west from the whiskey jug and out into the sea. A small offshore island holds the treasure chest."
   },
   {
    "q": "Where was this clue found?",
@@ -35,7 +35,7 @@
     "old jug location",
     "clue location"
    ],
-   "answer": "The clue was inside an old whiskey jug on the Westfall coast. It was the third step in Captain Sanders' trail of hints."
+   "answer": "The clue was inside an old whiskey jug on the Westfall coast. It was the third step in Captain Sanders’ trail of hints."
   },
   {
    "q": "Who was Captain Sanders?",
@@ -44,7 +44,7 @@
     "sanders pirate lore",
     "who hid the treasure"
    ],
-   "answer": "Captain Sanders was a pirate whose belongings and treasure maps washed up along Westfall's coast. Before his death, he left hidden notes and markers across the countryside that lead to his hoard."
+   "answer": "Captain Sanders was a pirate whose belongings and treasure maps washed up along Westfall’s coast. Before his death, he left hidden notes and markers across the countryside that lead to his hoard."
   },
   {
    "q": "Where does this clue ultimately lead?",
@@ -53,13 +53,13 @@
     "sanders island",
     "island location"
    ],
-   "answer": "The note leads you west from Westfall's coast to a solitary island, where Captain Sanders' sea chest rests."
+   "answer": "The note leads west from Westfall’s coast to a solitary island. Captain Sanders’ sea chest rests there."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can follow Captain Sanders' directions out to sea and search Westfall's shores for treasure beyond Defias pockets."
+   "text": "As a rogue, you can follow Captain Sanders’ directions out to sea and search Westfall’s shores for treasure beyond Defias pockets."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
   "Final Clue to Sanders' Treasure",
   "Captain Sanders' Hidden Treasure (Classic 4)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Blessed Arm",
   "chain": []
  },
- "summary": "In Stormwind, Blessed Arm carries lightforge iron toward a weapon against Morbent Fel. After salvaging the ingots from the wreck of the Flying Osprey in the Wetlands, you bring the precious metal to master dwarven smith Grimand Elmore, who can shape it to face the necromancer.",
+ "summary": "In Stormwind, Glorin Steelbrow sends lightforge iron toward a weapon against Morbent Fel. You bring the rare metal from the wreck of the Flying Osprey in the Wetlands to master weaponsmith Grimand Elmore, who can forge it for the fight.",
  "sections": [
   {
    "title": "A Rare Metal Returns",
-   "body": "Glorin Steelbrow packs the recovered lightforge iron for Stormwind. The metal is rare, and its power against foul and unholy beings demands a smith who knows how to work it. After the shipment came from the wreck of the Flying Osprey off the Wetlands coast, Glorin knew of only one artisan in the southern kingdoms suited to the task: master weaponsmith Grimand Elmore.",
+   "body": "Glorin Steelbrow packs the recovered lightforge iron for Stormwind. Rare and powerful against foul and unholy beings, the metal needs a smith who knows how to work it. The shipment came from the wreck of the Flying Osprey off the Wetlands coast. Glorin knows only one artisan in the southern kingdoms suited to the task: master weaponsmith Grimand Elmore.",
    "spoiler": 0
   },
   {
    "title": "The Dwarven District's Forge",
-   "body": "In Stormwind's Dwarven District, Grimand Elmore keeps one of the city's finest anvils. Years have passed since he last hammered lightforge iron, he says, when you bring him the recovered shipment. The veteran artisan is intrigued by the chance to strike at the necromancer Morbent Fel, and agrees to put his hammer to work.",
+   "body": "In Stormwind's Dwarven District, Grimand Elmore keeps one of the city's finest anvils. Years have passed since he last hammered lightforge iron, he says, when you bring him the recovered shipment. The veteran artisan welcomes the chance to strike at the necromancer Morbent Fel. He agrees to put his hammer to work.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "blessed arm purpose",
     "what is crate of lightforge ingots for"
    ],
-   "answer": "The crate holds lightforge iron salvaged from the Flying Osprey wreck in the Wetlands. Glorin Steelbrow sends it to Grimand Elmore, who can shape the consecrated metal into a weapon against the necromancer Morbent Fel."
+   "answer": "The crate holds lightforge iron salvaged from the Flying Osprey wreck in the Wetlands. Glorin Steelbrow sends it to Grimand Elmore, who can forge the consecrated metal into a weapon against Morbent Fel."
   },
   {
    "q": "Who is Grimand Elmore?",
@@ -46,7 +46,7 @@
     "grimand elmore lore",
     "who is the smith in dwarven district"
    ],
-   "answer": "Grimand Elmore is a respected dwarven weaponsmith who works in Stormwind's Dwarven District. Few craftsmen have the training to forge specialized metals like lightforge iron."
+   "answer": "Grimand Elmore is a respected dwarven weaponsmith in Stormwind's Dwarven District. Few craftsmen have the training to forge specialized metals such as lightforge iron."
   },
   {
    "q": "Why is lightforge iron so important against Morbent Fel?",
@@ -54,7 +54,7 @@
     "why lightforge iron",
     "how does lightforge iron hurt morbent fel"
    ],
-   "answer": "Lightforge iron is renowned for its power against foul and unholy beings. Grimand Elmore can shape the consecrated metal into a weapon to confront the necromancer Morbent Fel."
+   "answer": "Lightforge iron has power against foul and unholy beings. Grimand Elmore can forge the consecrated metal into a weapon against the necromancer Morbent Fel."
   },
   {
    "q": "Where does Glorin Steelbrow send you?",
@@ -70,7 +70,7 @@
     "did grimand forge lightforge before",
     "elmore smithing experience"
    ],
-   "answer": "Yes. Grimand says years have passed since he last worked with lightforge iron, and welcomes the chance to shape the storied metal again."
+   "answer": "Yes. Grimand says years have passed since he last worked with lightforge iron. He welcomes the chance to shape the storied metal again."
   },
   {
    "q": "What must happen before the weapon can be finished?",
@@ -88,11 +88,11 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, carrying consecrated iron to shape a weapon against a Duskwood necromancer follows the Silver Hand's calling: meet dark sorcery with holy vigilance."
+   "text": "As a paladin, you carry consecrated iron to forge a weapon against a Duskwood necromancer. That follows the Silver Hand's calling: meet dark sorcery with holy vigilance."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you carry aid between kingdoms, from a dwarven priest in Menethil Harbor to Stormwind's Dwarven District, for the beleaguered people of Duskwood."
+   "text": "As an Alliance member, you carry aid between kingdoms, from a dwarven priest in Menethil Harbor to Stormwind's Dwarven District. The people of Duskwood are beleaguered."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Blessed Arm"
  ],
- "style": 1
+ "style": 2
 }

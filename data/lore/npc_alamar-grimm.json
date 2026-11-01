@@ -8,16 +8,16 @@
   "wiki": "Alamar Grimm",
   "refs": 1
  },
- "summary": "At Anvilmar in Coldridge Valley, Alamar Grimm trains young gnome warlocks. The fall of Gnomeregan has left him bitter, wary of outsiders, and intent on teaching them to wield fel magic and summon an imp.",
+ "summary": "At Anvilmar in Coldridge Valley, Alamar Grimm teaches young gnomes to wield fel magic. Since Gnomeregan fell, he has grown bitter toward outsiders and means to teach his students to summon an imp.",
  "sections": [
   {
    "title": "A Bitter Exile",
-   "body": "At Anvilmar, Alamar Grimm carries a deep resentment over Gnomeregan's fall. While other gnomes in Coldridge Valley focus on recovery and tinkering, he distrusts ordinary adventurers and even the Ironforge dwarves who shelter his people. He grumbles that their allies care more about diplomacy with humans than reclaiming the fallen city. Alamar seeks others who share his belief that his people may need ruthless power.",
+   "body": "At Anvilmar, Alamar Grimm still resents the fall of Gnomeregan. While other gnomes in Coldridge Valley work to recover and tinker, he distrusts ordinary adventurers and even the Ironforge dwarves sheltering his people. He grumbles that their allies care more for diplomacy with humans than for reclaiming the fallen city. Alamar seeks those who share his belief that his people may need ruthless power.",
    "spoiler": 0
   },
   {
    "title": "Master of the Dark Arts",
-   "body": "Alamar Grimm guides young gnomes who take up fel magic. A tainted memorandum earns a rare warm welcome, and he begins teaching them basic spells. Before he shares the dangerous knowledge needed to bind a demonic imp, he demands proof of their magical and physical endurance. He sends each novice to retrieve strange feather charms carried by local Frostmane troll novices.",
+   "body": "Alamar Grimm guides young gnomes who take up fel magic. A tainted memorandum earns a rare warm welcome, and he begins teaching basic spells. Before sharing the dangerous knowledge needed to bind a demonic imp, he demands proof of each novice's magical and physical endurance. He sends them to retrieve strange feather charms carried by local Frostmane troll novices.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is alamar",
     "gnome warlock trainer anvilmar"
    ],
-   "answer": "Alamar Grimm trains gnome warlocks inside Anvilmar in Coldridge Valley. He teaches new students basic fel magic and how to summon their first imp."
+   "answer": "Alamar Grimm trains gnome warlocks at Anvilmar in Coldridge Valley. He teaches new students basic fel magic and how to summon their first imp."
   },
   {
    "q": "Why is Alamar Grimm angry at the dwarves?",
@@ -53,7 +53,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a gnome warlock starting in Coldridge Valley, you learn your first spells from Alamar Grimm and must prove your worth to earn your first imp."
+   "text": "As a gnome warlock starting in Coldridge Valley, you learn your first spells from Alamar Grimm. You must prove your worth to earn your first imp."
   },
   {
    "target": "race:Gnome",
@@ -81,5 +81,5 @@
  "attribution": [
   "Alamar Grimm"
  ],
- "style": 1
+ "style": 2
 }

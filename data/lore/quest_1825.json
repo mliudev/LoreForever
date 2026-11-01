@@ -17,16 +17,16 @@
   "wiki": "Speak with Thun'grim",
   "chain": []
  },
- "summary": "This errand directs rising Horde warriors to Thun'grim Firegaze, an acclaimed orc blacksmith camping in the Barrens. Having proved themselves through demanding physical trials, warriors are invited to have custom armor forged in recognition of their valor. The quest serves as the crucial bridge connecting general warrior testing with the crafting of Brutal Armor.",
+ "summary": "After the Trial at the Field of Giants, Thun'grim Firegaze calls warriors to his camp in the Barrens. The orc smith offers custom armor to those who have proved their valor, and sends them to gather materials for Brutal Armor.",
  "sections": [
   {
    "title": "The Call of the Smith",
-   "body": "After proving their mettle against the silithid hives during the Trial at the Field of Giants, Horde warriors earn more than simple praise from Ruga Ragetotem. Word of their endurance and martial prowess quickly reaches Thun'grim Firegaze, a renowned orc smith who maintains a camp perched on a ridge east of the Crossroads. Recognizing a warrior worthy of his craft, Thun'grim sends word that he wishes to fashion them an exceptional suit of battle mail.",
+   "body": "Word of the warriors’ trial reaches Thun'grim Firegaze after they prove their endurance and fighting skill to Ruga Ragetotem. His camp stands on a ridge east of the Crossroads. Thun'grim wants to forge them an exceptional suit of battle mail.",
    "spoiler": 0
   },
   {
    "title": "A Master's Standard",
-   "body": "Thun'grim Firegaze does not forge for ordinary soldiers. For an armorsmith of his reputation, steel must match the spirit of the one who carries it into battle. Reaching his camp signifies that a warrior has advanced past simple militia drills and is ready to undertake the grueling, specialized tasks required to gather rare crafting reagents across Kalimdor.",
+   "body": "Thun'grim Firegaze reserves his forge for warriors who meet his high standard. He expects steel to match the spirit of the one who bears it. Reaching his camp means a warrior has moved beyond basic militia drills and can take on the hard work of gathering rare materials across Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "thungrim lore",
     "thungrim firegaze"
    ],
-   "answer": "Thun'grim Firegaze is an esteemed orc blacksmith camped atop a rocky ridge just east of the Crossroads in the Barrens. He crafts custom, formidable armor for Horde warriors who have proven their valor through dangerous trials."
+   "answer": "Thun'grim Firegaze is a renowned orc blacksmith with a camp on a rocky ridge east of the Crossroads in the Barrens. He makes custom armor for Horde warriors who prove their valor through dangerous trials."
   },
   {
    "q": "Why does Ruga Ragetotem send me to him?",
@@ -46,7 +46,7 @@
     "why speak with thungrim",
     "ruga sending me"
    ],
-   "answer": "Ruga Ragetotem recognizes that you have outgrown basic trials after surviving the silithid in the southern Barrens. He directs you to Thun'grim so the master smith can reward your service to the Horde by forging a specialized set of armor."
+   "answer": "Ruga Ragetotem sends you to Thun'grim because you survived the silithid in the southern Barrens and have outgrown basic trials. The smith offers specialized armor in recognition of your service to the Horde."
   },
   {
    "q": "Where can I find Thun'grim's camp?",
@@ -55,7 +55,7 @@
     "thungrim location",
     "find thungrim firegaze"
    ],
-   "answer": "Thun'grim makes his camp on the high bluffs east of the Crossroads in the Barrens, looking out over the dry savanna."
+   "answer": "Thun'grim's camp is on the high bluffs east of the Crossroads in the Barrens."
   },
   {
    "q": "What happens after speaking with Thun'grim?",
@@ -63,7 +63,7 @@
     "next quest after thungrim",
     "what does thungrim want"
    ],
-   "answer": "Meeting Thun'grim begins the Brutal Armor questline, sending warriors across distant lands to collect tough materials such as smoky iron ingots and iron bars to fashion a bespoke mail harness."
+   "answer": "Speaking with Thun'grim begins the work of making Brutal Armor. You travel across distant lands to gather materials, including smoky iron ingots and iron bars, for a custom mail harness."
   },
   {
    "q": "Is this quest available to all classes?",
@@ -71,7 +71,7 @@
     "can non warriors do this",
     "is this warrior only"
    ],
-   "answer": "No. This quest and its associated armor chain are strictly part of the martial training regimen reserved for Horde warriors."
+   "answer": "No. Only Horde warriors may undertake this armor work."
   },
   {
    "q": "What trial was required before this meeting?",
@@ -79,21 +79,21 @@
     "prerequisite quest",
     "what did i do before this"
    ],
-   "answer": "Prior to this errand, warriors had to travel to the southern Barrens to complete the Trial at the Field of Giants, gathering twitching silithid antennae to demonstrate their combat stamina."
+   "answer": "Before meeting Thun'grim, you travel to the southern Barrens and complete the Trial at the Field of Giants. Gathering twitching silithid antennae proves your combat stamina."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest marks an important rite of passage, elevating you from a novice fighter to a recognized champion deserving of custom-forged armor."
+   "text": "As a warrior, you have passed from novice fighter to recognized champion and earned custom-forged armor."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde armorsmiths take pride in arming their fiercest defenders, ensuring that those fighting on the frontier wear gear that matches their battlefield deeds."
+   "text": "As a member of the Horde, you can count on its armorsmiths to equip its fiercest defenders for their deeds on the frontier."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Thun'grim Firegaze represents traditional orcish smithing philosophy, where mastercrafted armor must be earned through martial trials rather than mere coin."
+   "text": "As a blacksmith, you see Thun'grim Firegaze's traditional orcish belief that mastercrafted armor must be earned through martial trials, not bought with coin."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Speak with Thun'grim"
- ]
+ ],
+ "style": 2
 }

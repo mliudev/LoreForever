@@ -20,16 +20,16 @@
    "Save Techbot's Brain!"
   ]
  },
- "summary": "In Stormwind, Brother Sarno hears that Tinkmaster Overspark is grieving in Ironforge over Techbot's malfunction. He sends Alliance adventurers to Tinker Town, where Overspark mourns the failure of his creation. His plea begins the effort to recover Techbot's memory core from Gnomeregan.",
+ "summary": "In Stormwind, Brother Sarno hears that Techbot has failed and that Tinkmaster Overspark grieves in Ironforge. He sends Alliance adventurers to Tinker Town, where Overspark asks for help recovering Techbot's memory core from Gnomeregan.",
  "sections": [
   {
    "title": "A Plea from the Cathedral",
-   "body": "Brother Sarno tends to travelers in Stormwind City and tells them of trouble among the gnomish refugees. Tinkmaster Overspark, one of the minds behind Gnomeregan's wonders, grieves over Techbot's corruption. The mechanical servant once helped the tinkerers faithfully, before the city fell into ruin.",
+   "body": "Brother Sarno tends to travelers in Stormwind City and speaks of trouble among the gnomish refugees. Tinkmaster Overspark, one of the minds behind Gnomeregan's wonders, grieves over Techbot's corruption. The mechanical servant once aided the tinkerers faithfully. Then the city fell into ruin.",
    "spoiler": 0
   },
   {
    "title": "To Tinker Town",
-   "body": "The Deeprun Tram carries you from Stormwind to Ironforge's Tinker Town. There, Overspark seeks help from adventurers willing to enter Gnomeregan's irradiated halls and salvage what remains of Techbot's faculties before the construct causes irreparable harm.",
+   "body": "You take the Deeprun Tram from Stormwind to Ironforge's Tinker Town. There, Overspark seeks adventurers willing to help in Gnomeregan's irradiated halls. He asks them to salvage what remains of Techbot's faculties before the construct causes irreparable harm.",
    "spoiler": 0
   }
  ],
@@ -118,5 +118,5 @@
  "attribution": [
   "Tinkmaster Overspark (quest)"
  ],
- "style": 1
+ "style": 2
 }

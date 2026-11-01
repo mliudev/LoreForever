@@ -8,16 +8,16 @@
   "wiki": "Houndmaster Loksey",
   "refs": 5
  },
- "summary": "Houndmaster Loksey is the officer charged with breeding and training the fearsome war dogs of the Scarlet Crusade. Stationed in the Scarlet Monastery's Library wing, he directs packs of hounds to hunt down undead, intruders, and perceived heretics. His merciless discipline has made the Monastery's beasts infamous throughout Tirisfal Glades.",
+ "summary": "In the Scarlet Monastery's Library wing, Houndmaster Loksey keeps the Crusade's war dogs ready. He breeds and trains them to hunt undead, intruders, and those the Crusade judges heretics. His harsh discipline has made the Monastery's beasts feared across Tirisfal Glades.",
  "sections": [
   {
    "title": "Master of the Kennels",
-   "body": "Within the heavily fortified walls of the Scarlet Monastery, Houndmaster Loksey commands the training of vicious tracking and attack dogs. The Scarlet Crusade relies on these trained hounds to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down any survivors fleeing the zealots' wrath. Loksey holds absolute authority over the hounds guarding the Library wing, ensuring his charges are primed to tear intruders apart limb by limb.",
+   "body": "Houndmaster Loksey trains vicious dogs to track and attack. The Scarlet Crusade sends them to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down survivors fleeing the zealots' wrath. Loksey commands the hounds guarding the Library wing. They stand ready to tear intruders limb from limb.",
    "spoiler": 0
   },
   {
    "title": "Family Rivalry",
-   "body": "Loksey is not the only beast handler in his family serving the cause. His brother, Huntsman Leopold, serves as the Scarlet Crusade's envoy to the Argent Dawn at Light's Hope Chapel. Leopold holds a low opinion of his brother, privately asserting that Loksey can barely manage his own hounds, let alone represent the order in high-stakes diplomacy. Despite Leopold's scorn, Loksey remains a key officer within the Monastery's inner hierarchy.",
+   "body": "Loksey's brother, Huntsman Leopold, serves the Scarlet Crusade as its envoy to the Argent Dawn at Light's Hope Chapel. In private, Leopold thinks Loksey can barely manage his hounds, let alone handle high-stakes diplomacy. Yet Loksey remains a key officer in the Monastery's inner hierarchy.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is loksey",
     "houndmaster loksey location"
    ],
-   "answer": "Houndmaster Loksey is located inside the Library wing of the Scarlet Monastery in northeastern Tirisfal Glades, surrounded by his attack dogs."
+   "answer": "Houndmaster Loksey can be found in the Library wing of the Scarlet Monastery in northeastern Tirisfal Glades, surrounded by his attack dogs."
   },
   {
    "q": "What role does Loksey serve in the Scarlet Crusade?",
@@ -38,7 +38,7 @@
     "loksey job",
     "houndmaster duty"
    ],
-   "answer": "He is the chief animal handler and houndmaster for the Scarlet Crusade at the Monastery, responsible for breeding, conditioning, and directing the war dogs used to sniff out undead and hunt down intruders."
+   "answer": "Loksey is the Scarlet Crusade's chief animal handler and houndmaster at the Monastery. He breeds, trains, and directs war dogs that sniff out undead and hunt intruders."
   },
   {
    "q": "Who is Huntsman Leopold to Loksey?",
@@ -47,7 +47,7 @@
     "who is leopold",
     "loksey brother"
    ],
-   "answer": "Huntsman Leopold is Loksey's brother. Leopold represents the Scarlet Crusade at Light's Hope Chapel and looks down on Loksey, claiming Loksey cannot properly manage his hounds or handle diplomatic responsibilities."
+   "answer": "Huntsman Leopold is Loksey's brother. He represents the Scarlet Crusade at Light's Hope Chapel and looks down on Loksey, believing he cannot manage his hounds or handle diplomacy."
   },
   {
    "q": "Why does the Scarlet Crusade use hounds?",
@@ -56,7 +56,7 @@
     "scarlet hounds purpose",
     "crusade dogs"
    ],
-   "answer": "The Crusade trains vicious hounds to track down the Scourge and Forsaken through scent, as well as to guard the Monastery's grounds and tear fleeing enemies to pieces."
+   "answer": "The Scarlet Crusade trains vicious hounds to track the Scourge and Forsaken by scent, guard the Monastery's grounds, and tear fleeing enemies to pieces."
   },
   {
    "q": "Is Loksey considered a leader of the Scarlet Monastery?",
@@ -65,7 +65,7 @@
     "loksey rank",
     "how important is loksey"
    ],
-   "answer": "Yes, Loksey is recognized as one of the key commanding figures in the Scarlet Monastery's military structure, overseeing the Crusade's war hounds within the Library wing."
+   "answer": "Yes. Loksey is a key commanding figure in the Scarlet Monastery's military structure. He oversees the Crusade's war hounds in the Library wing."
   },
   {
    "q": "Are the hounds dangerous on their own?",
@@ -74,17 +74,17 @@
     "scarlet hounds danger",
     "loksey pets"
    ],
-   "answer": "Yes. Bred for aggression and conditioned by Loksey, the Monastery's war hounds are fierce predators capable of ripping an armored intruder limb from limb in moments."
+   "answer": "Yes. Bred for aggression and trained by Loksey, the Monastery's war hounds can rip an armored intruder limb from limb in moments."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Loksey exemplifies a brutal, aggressive approach to beast training, bending fierce hounds to obey zealotry rather than forging a bond of mutual respect."
+   "text": "Loksey trains beasts with brutal force. His fierce hounds obey zealotry, not mutual respect."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken intruders must beware Loksey's hounds, which are trained specifically to catch the scent of dead flesh and alert the Crusade's garrisons."
+   "text": "As a Forsaken, beware Loksey's hounds. They are trained to catch the scent of dead flesh and alert the Crusade's garrisons."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Houndmaster Loksey"
- ]
+ ],
+ "style": 2
 }

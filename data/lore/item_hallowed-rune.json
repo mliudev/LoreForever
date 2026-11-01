@@ -10,11 +10,11 @@
    "quest:3110"
   ]
  },
- "summary": "In Coldridge Valley, the Hallowed Rune calls novice priests to Anvilmar for training. Branstock Khalder sends the inscribed stone to aspiring wielders of the Holy Light.",
+ "summary": "In Coldridge Valley, Branstock Khalder sends novice priests the Hallowed Rune to begin their training at Anvilmar.",
  "sections": [
   {
    "title": "A Calling to the Light",
-   "body": "Branstock Khalder sends the Hallowed Rune when a young priest proves their resolve by aiding Coldridge Valley’s mountaineers and defenders. The stone bears teachings of the Holy Light and invites them to Anvilmar. There, Branstock prepares them to mend wounds and wield holy power against the troggs threatening Dun Morogh.",
+   "body": "The Hallowed Rune bears teachings of the Holy Light. A young priest proves their resolve by aiding the valley’s mountaineers and defenders. Then Branstock sends them to Anvilmar, where he teaches them to mend wounds and wield holy power against the troggs threatening Dun Morogh.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hallowed rune item",
     "rune purpose"
    ],
-   "answer": "The Hallowed Rune is a sacred stone inscribed with guidance for novice priests. Branstock Khalder sends it as a summons to begin formal spiritual and magical instruction inside Anvilmar."
+   "answer": "The Hallowed Rune is a sacred stone inscribed with guidance for novice priests. Branstock Khalder sends it to call them to begin their spiritual and magical instruction inside Anvilmar."
   },
   {
    "q": "Who sends the Hallowed Rune to you?",
@@ -51,7 +51,7 @@
     "why need priests",
     "trogg problem priests"
    ],
-   "answer": "Branstock wants novice priests trained because troggs keep invading Coldridge Valley, and the mountaineers need healing and holy power to defend Dun Morogh."
+   "answer": "Branstock wants novice priests trained because troggs keep invading Coldridge Valley. The mountaineers need healing and holy power to defend Dun Morogh."
   }
  ],
  "angles": [
@@ -87,5 +87,5 @@
   "Hallowed Rune",
   "Hallowed Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

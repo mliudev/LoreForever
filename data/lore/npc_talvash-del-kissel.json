@@ -8,16 +8,16 @@
   "wiki": "Talvash del Kissel",
   "refs": 3
  },
- "summary": "Talvash del Kissel is a down-on-his-luck gnome jeweler who fled the fall of Gnomeregan and now resides in Ironforge's Mystic Ward. Plagued by debt and persistent rumors following the loss of his home, he seeks capable adventurers to help recover lost treasures and restore shattered relics. His keen eye for precious gems and ancient baubles makes him a valuable contact for those plumbing the depths of Uldaman.",
+ "summary": "In Ironforge's Mystic Ward, the gnome jeweler Talvash del Kissel is down on his luck. He fled Gnomeregan when the troggs overran it, then fell into debt amid rumors of questionable dealings. Now he turns to adventurers to recover lost treasures and restore shattered relics. His eye for gems and ancient baubles makes him a valued contact for those exploring Uldaman.",
  "sections": [
   {
    "title": "From Artisan to Exiled Debtor",
-   "body": "Once a respected jeweler in the technological heart of Gnomeregan, Talvash saw his livelihood obliterated alongside his home when the troggs overran the underground city. Escaping with the surviving refugees to the dwarven capital of Ironforge, he set up camp in the Mystic Ward. Unfortunately, relocation did not treat him kindly. Rumors of questionable dealings and unpaid obligations quickly piled up, sinking the craftsman into deep financial distress. Unable to rebuild his trade through conventional means, Talvash relies on freelance adventurers to retrieve lost assets and salvage his ruined reputation.",
+   "body": "Talvash once earned respect as a jeweler in Gnomeregan, until the troggs overran the city and destroyed his livelihood along with his home. He escaped with the surviving refugees to Ironforge and set up camp in the Mystic Ward. Yet relocation brought little relief.\n\nRumors of questionable dealings and unpaid obligations gathered around him, leaving the craftsman in deep financial distress. Unable to rebuild his trade through conventional means, he now relies on freelance adventurers to recover lost assets and salvage his reputation.",
    "spoiler": 0
   },
   {
    "title": "Relics of Uldaman and Gnomish Craft",
-   "body": "Despite his misfortunes, Talvash has lost none of his gem-cutting precision or appraisal acumen. When explorers in the Badlands uncover an ancient, shattered necklace deep within the Titan vault of Uldaman, Talvash proves to be one of the few craftsmen in the Eastern Kingdoms capable of understanding its intricate enchantments. Restoring such power requires rare components and painstaking labor, but Talvash is eager to ply his trade\u2014both to clear his debts and to prove his enduring skill.",
+   "body": "Talvash has kept his precision with gems and his skill at judging their worth. When explorers in the Badlands uncover an ancient, shattered necklace deep in Uldaman's Titan vault, few craftsmen in the Eastern Kingdoms can make sense of its intricate enchantments. Restoring its power takes rare components and painstaking work. Talvash is eager to do it, both to clear his debts and prove his skill endures.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "talvash del kissel",
     "talvash"
    ],
-   "answer": "Talvash is an exiled gnome jeweler living in the Mystic Ward of Ironforge. Displaced after the fall of Gnomeregan, he now struggles with crushing debt and lingering rumors, hiring adventurers to help repair artifacts and settle his accounts."
+   "answer": "Talvash is a gnome jeweler exiled from Gnomeregan who now lives in Ironforge's Mystic Ward. Burdened by debt and rumors, he hires adventurers to repair artifacts and settle his accounts."
   },
   {
    "q": "Where can I find Talvash?",
@@ -38,7 +38,7 @@
     "where is talvash",
     "find talvash del kissel"
    ],
-   "answer": "Talvash is located in the Mystic Ward of Ironforge, standing near the pond and magic-oriented shops in the dwarven capital."
+   "answer": "Talvash lives in Ironforge's Mystic Ward, near the pond and the magic-oriented shops."
   },
   {
    "q": "What happened to his business in Gnomeregan?",
@@ -47,7 +47,7 @@
     "talvash debt",
     "what happened to talvash"
    ],
-   "answer": "Talvash ran a jewelry trade in Gnomeregan prior to its downfall. When troggs invaded and the city fell, he lost everything, and subsequent rumors and sour fortunes left him deeply indebted in Ironforge."
+   "answer": "Talvash ran a jewelry trade in Gnomeregan before the troggs invaded and the city fell. He lost everything, and rumors and poor fortunes left him deeply indebted in Ironforge."
   },
   {
    "q": "What is Talvash's connection to Uldaman?",
@@ -56,7 +56,7 @@
     "uldaman necklace",
     "shattered necklace quest"
    ],
-   "answer": "Explorers who find a shattered power source within the ancient dig site of Uldaman are directed to Talvash. His expertise in gems and enchanting allows him to reconstruct the shattered necklace for adventurers capable of gathering the missing pieces."
+   "answer": "Explorers who find a shattered power source in Uldaman's ancient dig site are directed to Talvash. His skill with gems and enchanting lets him reconstruct the shattered necklace for adventurers who gather its missing pieces."
   },
   {
    "q": "Does Talvash have anything to do with Gnomeregan quests?",
@@ -64,26 +64,17 @@
     "talvash gnomeregan",
     "return of the ring quest"
    ],
-   "answer": "Yes. He is involved in recovering lost personal items from the ruined city, including lost rings and devices left behind during the evacuation of Gnomeregan."
-  },
-  {
-   "q": "What is the origin of his name?",
-   "aliases": [
-    "talvash trivia",
-    "talvash name origin",
-    "shawn carnes"
-   ],
-   "answer": "Talvash del Kissel was the character name of a gnome mage played by Shawn Carnes, a Blizzard quest lead, during his days playing EverQuest before working on World of Warcraft."
+   "answer": "Yes. Talvash helps recover personal items left behind during Gnomeregan's evacuation, including lost rings and devices."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Talvash is a stark reminder of how the loss of Gnomeregan shattered ordinary civilian lives, reducing master craftsmen to broke exiles scraping by in Ironforge."
+   "text": "Talvash shows how Gnomeregan's fall shattered ordinary civilian lives, leaving master craftsmen as broke exiles scraping by in Ironforge."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance adventurers delving into Uldaman or the ruins of Gnomeregan will find Talvash an essential contact for restoring ancient jewelry and recovering lost gnomish heirlooms."
+   "text": "Alliance adventurers exploring Uldaman or Gnomeregan's ruins can turn to Talvash to restore ancient jewelry and recover lost gnomish heirlooms."
   }
  ],
  "keywords": [
@@ -103,10 +94,10 @@
   "subzone:uldaman",
   "quest:2947",
   "quest:2948",
-  "quest:8355",
-  "npc:shawn"
+  "quest:8355"
  ],
  "attribution": [
   "Talvash del Kissel"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Westbrook Garrison"
  },
- "summary": "At Westbrook Garrison, Deputy Rainer's few guards hold Elwynn's western road against gnolls and bandits. The outpost is short on soldiers and supplies, with danger rising near the Westfall border.",
+ "summary": "At Westbrook Garrison, Deputy Rainer's few guards watch Elwynn's western road. Gnolls and bandits threaten the border, and the outpost lacks the men and supplies to hold it alone.",
  "sections": [
   {
    "title": "A Beleaguered Border Post",
-   "body": "Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads with too few soldiers to cover them. Much of the Stormwind Army serves abroad, while political indecision in the capital leaves the outpost without needed support. Thieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has not sent formal reinforcements, so the guards depend on travelers to help secure the highway.",
+   "body": "Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads, too few to cover them. Much of the Stormwind Army serves abroad, and indecision in the capital leaves the outpost without needed support.\n\nThieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has sent no formal reinforcements, so the guards depend on travelers to help secure the highway.",
    "spoiler": 0
   },
   {
    "title": "The Menace of Forest's Edge",
-   "body": "Riverpaw gnolls gather south of Forest's Edge, where their raids threaten supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength. A high bounty is posted across the outpost, seeking fighters willing to enter the hills and bring down Hogger before the gnolls press farther east.",
+   "body": "Riverpaw gnolls gather south of Forest's Edge, raiding supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength.\n\nA high bounty is posted across the outpost. It seeks fighters willing to enter the hills and bring down Hogger before the gnolls press farther east.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "westbrook reinforcements",
     "deputy rainer lacking troops"
    ],
-   "answer": "Most of the Stormwind Army serves abroad, while indecision among the House of Nobles in the capital has left regional garrisons short of soldiers and supplies. Westbrook's commanders depend on wandering adventurers to help fill the gap."
+   "answer": "Most of the Stormwind Army serves abroad, while indecision among the House of Nobles in the capital leaves regional garrisons short of soldiers and supplies. Westbrook's commanders rely on wandering adventurers to help fill the gap."
   },
   {
    "q": "Who is in command at the garrison?",
@@ -37,7 +37,7 @@
     "deputy rainer role",
     "westbrook commander"
    ],
-   "answer": "Deputy Rainer oversees Westbrook Garrison and answers to Marshal Dughan in Goldshire. His requests for more soldiers have largely gone unanswered."
+   "answer": "Deputy Rainer commands Westbrook Garrison and answers to Marshal Dughan in Goldshire. His requests for more soldiers have largely gone unanswered."
   },
   {
    "q": "What threats does the garrison face?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Westbrook Garrison"
  ],
- "style": 1
+ "style": 2
 }

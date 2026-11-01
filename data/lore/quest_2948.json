@@ -21,16 +21,16 @@
    "Gnome Improvement"
   ]
  },
- "summary": "In Ironforge, Talvash del Kissel hopes to restore his craft with a ring from Gnomeregan. He offers to improve the old band for an adventurer who brings silver and moss agate.",
+ "summary": "In Ironforge, Talvash del Kissel offers to improve a ring he made in Gnomeregan. He needs silver and moss agate for a delicate lattice over its old band.",
  "sections": [
   {
    "title": "A Gnomish Artisan in Exile",
-   "body": "Talvash del Kissel fled Gnomeregan after troggs brought the city down and radiation followed. He now lives in Ironforge's Mystic Ward, short on coin and materials. The gnome jeweler and tinkerer is determined to prove his skills remain sharp, even in exile.",
+   "body": "Talvash del Kissel fled Gnomeregan after the trogg invasion and radiation brought the city down. Now the gnome refugee lives in Ironforge's Mystic Ward. The jeweler and tinkerer is short on coin and out of stock, but determined to prove his skills remain sharp in exile.",
    "spoiler": 0
   },
   {
    "title": "Upgrading the Old Band",
-   "body": "Talvash recognizes the ring he once made in Gnomeregan, now cleaned by the Sparklematic 5200. Rather than send the adventurer away with a plain band, he offers to improve it. Silver and moss agate, worked into a delicate lattice, turn the old ring into a finer piece.",
+   "body": "Talvash is glad to see his simple ring design again, cleaned by the Sparklematic 5200. Yet he considers the old band dated. He offers to improve it with silver and moss agate lattice work, showing his skill with metal and gemstones.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "where does the ring come from",
     "grime encrusted ring origin"
    ],
-   "answer": "The ring began as one of several plain bands Talvash made in his Gnomeregan shop. A Dark Iron dwarf carried one into the ruins, where adventurers can retrieve it and clean it in the Sparklematic 5200. Talvash offers to add silver and moss agate lattice work to improve it."
+   "answer": "Talvash made the ring as one of several plain bands in his Gnomeregan shop. A Dark Iron dwarf carried one into the ruins, where adventurers can retrieve it and clean it in the Sparklematic 5200. Talvash offers to add silver and moss agate lattice work to improve it."
   },
   {
    "q": "Why does Talvash ask the player to provide the reagents?",
@@ -58,7 +58,7 @@
     "why do i need silver and moss agate",
     "why does talvash have no materials"
    ],
-   "answer": "Talvash has run out of materials and is short on money after fleeing Gnomeregan. He asks for silver and moss agate so he can make the lattice work."
+   "answer": "Talvash ran out of materials and is short on money after fleeing Gnomeregan. He asks for silver and moss agate to make the lattice work."
   },
   {
    "q": "Where does this quest chain begin?",
@@ -74,7 +74,7 @@
     "talvash backstory",
     "talvash personality"
    ],
-   "answer": "Talvash laments his unjust financial hole, but keeps his spirits and professional pride. He believes that once he is back on his feet, he will be renowned across Azeroth for crafting the finest trinkets."
+   "answer": "Talvash laments his unjust financial hole, but keeps his spirits and professional pride. He believes that once back on his feet, he will be renowned across Azeroth for crafting the finest trinkets."
   },
   {
    "q": "Does the Horde have access to this quest?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Gnome Improvement"
  ],
- "style": 1
+ "style": 2
 }

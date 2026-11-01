@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "12"
  },
- "summary": "At Stormwind harbor, Gilbert Gray's bait runs low as the fish begin to bite. He asks passersby to fetch supplies from a shop along the city's canals.",
+ "summary": "At Stormwind harbor, Gilbert Gray keeps to his fishing line while the fish are biting. His supplies run low, so he asks passersby to fetch nightcrawlers and a shiny bauble from a shop along the city canals.",
  "sections": [
   {
    "title": "A Day by the Water",
-   "body": "Gilbert Gray spends quiet days fishing at the edge of Stormwind harbor. He watches his bobber on the water, but a good run of biting fish can empty his bait tin. With his supplies gone and the fish still biting, the elderly angler asks passersby to bring him more.",
+   "body": "Gilbert Gray watches his bobber dance on the water. The elderly angler will not leave his prized perch while the fish are biting. His supplies have run out, and he needs help so he can stay at his line instead of returning to the city.",
    "spoiler": 0
   },
   {
    "title": "Supplies Along the Canals",
-   "body": "Catherine Leland runs a tackle shop along the stone canals, just west of the Trade District. She supplies fishermen across Stormwind with lures and bait, including regulars like Gilbert Gray.",
+   "body": "Catherine Leland runs a tackle shop beside Stormwind's stone canals, just west of the Trade District. Fishermen across the city come to her for lures and bait. Her shop can replenish what Gilbert Gray needs to keep fishing.",
    "spoiler": 0
   }
  ],
@@ -107,5 +107,5 @@
  "attribution": [
   "In-game quest text: Fishin' Time"
  ],
- "style": 1
+ "style": 2
 }

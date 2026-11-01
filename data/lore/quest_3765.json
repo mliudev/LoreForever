@@ -20,16 +20,16 @@
    "Researching the Corruption (Classic)"
   ]
  },
- "summary": "Argos Nightwhisper, a night elf envoy visiting Stormwind, seeks capable adventurers to cross the Great Sea and aid his brother in northern Kalimdor. His brother Gershala studies spreading ecological decay in Darkshore, where fresh hands are desperately needed.",
+ "summary": "In Stormwind, Argos Nightwhisper seeks adventurers to aid his brother in northern Kalimdor. Gershala studies a spreading decay in Darkshore, where he needs fresh hands.",
  "sections": [
   {
    "title": "An Envoy in the Human Capital",
-   "body": "While Stormwind contends with internal turmoil and regional unrest, representatives from the distant kaldorei lands can be found wandering its stone streets. Argos Nightwhisper came seeking seasoned champions willing to look beyond human borders. The kaldorei are relatively new allies to the Eastern Kingdoms, and formal military aid is scarce, leaving family members and researchers to recruit whatever independent champions answer the call.",
+   "body": "Stormwind faces internal turmoil and unrest in its surrounding regions. Even so, envoys from distant kaldorei lands walk its stone streets. Argos Nightwhisper seeks seasoned champions willing to look beyond human borders. The kaldorei are relatively new allies to the Eastern Kingdoms, and formal military aid is scarce. So families and researchers recruit independent champions who will answer the call.",
    "spoiler": 0
   },
   {
    "title": "The Call of Darkshore",
-   "body": "The destination Argos points toward is Auberdine, a misty port town resting on the fog-shrouded coast of Darkshore. There, his brother Gershala conducts vital research into an ominous malaise afflicting the local wildlife and flora. Answering the summons means a long voyage from Stormwind Harbor across the Great Sea, marking a traveler's first real foray into the ancient wilderness of Kalimdor.",
+   "body": "Argos points you toward auberdine, a misty port on Darkshore’s fog-shrouded coast. His brother Gershala studies an ominous malaise afflicting the local wildlife and flora. Reaching him means a long voyage from stormwind harbor across the Great Sea. It is a traveler’s first true passage into Kalimdor’s ancient wilderness.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "argos nightwhisper",
     "who gives the corruption abroad"
    ],
-   "answer": "Argos Nightwhisper is a night elf visitor staying in Stormwind. He serves as an emissary of sorts for his family, specifically recruiting experienced Alliance adventurers to travel across the sea and assist his brother Gershala in Darkshore."
+   "answer": "Argos Nightwhisper is a night elf visitor staying in Stormwind. As an emissary for his family, he recruits experienced Alliance adventurers to cross the sea and aid his brother Gershala in Darkshore."
   },
   {
    "q": "Where is Gershala Nightwhisper located?",
@@ -50,7 +50,7 @@
     "where is gershala",
     "turn in corruption abroad"
    ],
-   "answer": "Gershala Nightwhisper is stationed in Auberdine, a coastal night elf settlement situated along the western shores of Darkshore in northern Kalimdor."
+   "answer": "Gershala Nightwhisper is in auberdine, a coastal night elf settlement on the western shore of Darkshore in northern Kalimdor."
   },
   {
    "q": "Why does Gershala need help?",
@@ -58,7 +58,7 @@
     "why help gershala",
     "what is wrong in darkshore"
    ],
-   "answer": "Gershala is investigating an unnatural corruption spreading across Darkshore's wilderness, infecting the local wildlife, water sources, and vegetation. He requires seasoned champions to help gather samples and investigate the root cause."
+   "answer": "Gershala investigates an unnatural corruption spreading through Darkshore’s wilderness. It afflicts local wildlife, water sources, and vegetation, and he needs seasoned champions to gather samples and investigate its cause."
   },
   {
    "q": "How do I get to Auberdine from Stormwind?",
@@ -66,7 +66,7 @@
     "how to reach auberdine",
     "travel to darkshore from stormwind"
    ],
-   "answer": "Board the ship at the southern-most dock of Stormwind Harbor, which sails straight across the Great Sea to Auberdine in Darkshore."
+   "answer": "Board the ship at the southern-most dock of stormwind harbor. It sails across the Great Sea to auberdine in Darkshore."
   },
   {
    "q": "Can I do this quest if I already went to Darkshore?",
@@ -74,7 +74,7 @@
     "missed the corruption abroad",
     "can i still do corruption abroad"
    ],
-   "answer": "If you already visited Auberdine and began Gershala's task, 'Researching the Corruption', directly from him, you can no longer pick up or complete this introductory summons from Argos."
+   "answer": "If you have already visited auberdine and begun Gershala’s ‘Researching the Corruption’ directly from him, you can no longer take or complete Argos’s introductory summons."
   },
   {
    "q": "What is the relationship between Argos and Gershala?",
@@ -82,21 +82,21 @@
     "argos and gershala",
     "are argos and gershala related"
    ],
-   "answer": "Argos and Gershala Nightwhisper are brothers. While Gershala remains on the front lines studying the blight in Darkshore, Argos traveled across the sea to seek out capable allies in Stormwind."
+   "answer": "Argos and Gershala Nightwhisper are brothers. Gershala remains on the front lines studying the blight in Darkshore, while Argos crosses the sea to seek capable allies in Stormwind."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This mission demonstrates the fledgling bonds tying the night elves of Kalimdor to the human kingdom of Stormwind across the sea."
+   "text": "This summons shows the fledgling bonds between the night elves of Kalimdor and Stormwind’s human kingdom across the sea."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves far from home, Argos provides a reminder of the troubles plaguing the ancestral forests of northern Kalimdor."
+   "text": "For you, Argos is a reminder of the troubles facing the ancestral forests of northern Kalimdor while you are far from home."
   },
   {
    "target": "race:Human",
-   "text": "Venturing to Darkshore offers human adventurers their first glimpse of ancient kaldorei culture, far removed from the stone castles of Elwynn."
+   "text": "Your journey to Darkshore offers a first glimpse of ancient kaldorei culture, far from Elwynn’s stone castles."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "The Corruption Abroad"
- ]
+ ],
+ "style": 2
 }

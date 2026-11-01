@@ -8,11 +8,11 @@
   "wiki": "Vidra Hearthstove",
   "refs": 1
  },
- "summary": "In Thelsamar, Vidra Hearthstove cooks local specialties at the Stoutlager Inn. She often relies on traveling adventurers to gather ingredients for her famous blood sausages.",
+ "summary": "At Thelsamar’s Stoutlager Inn, Vidra Hearthstove cooks blood sausages with game from the surrounding wilderness.",
  "sections": [
   {
    "title": "Kitchen of the Stoutlager",
-   "body": "Vidra Hearthstove cooks for locals and travelers at the Stoutlager Inn in Loch Modan. Sharing a surname with the innkeeper, she helps keep Thelsamar well provisioned. Her signature dish, Thelsamar blood sausages, calls for fresh game from the surrounding wilderness: boar entrails, spider ichor, and bear meat.",
+   "body": "Vidra keeps the inn supplied for locals and travelers. Like the innkeeper, she bears the Hearthstove name. Her blood sausages call for fresh game: boar entrails, spider ichor, and bear meat.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is vidra",
     "stoutlager cook"
    ],
-   "answer": "Vidra Hearthstove is a dwarf who lives and cooks at the Stoutlager Inn in Thelsamar. Her renowned Thelsamar blood sausages are served to patrons and Mountaineers defending Loch Modan."
+   "answer": "Vidra Hearthstove cooks at the Stoutlager Inn, where she lives. Patrons and Mountaineers defending Loch Modan are served her renowned Thelsamar blood sausages."
   },
   {
    "q": "Where can Vidra Hearthstove be found?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, Vidra turns harsh local ingredients into sustaining meals for hungry adventurers and mountain patrols, in the hearty, rustic tradition of Khaz Modan."
+   "text": "As a cook, Vidra turns harsh local ingredients into sustaining meals for hungry adventurers and mountain patrols. Her cooking follows the hearty, rustic tradition of Khaz Modan."
   },
   {
    "target": "race:Dwarf",
@@ -74,5 +74,5 @@
  "attribution": [
   "Vidra Hearthstove"
  ],
- "style": 1
+ "style": 2
 }

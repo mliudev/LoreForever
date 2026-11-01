@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Defias Hideout"
  },
- "summary": "Defias thugs and vagrants linger in a ruined house on Moonbrook’s southern edge. Its upper floor hides a route into the chambers beneath the town.",
+ "summary": "Vagrants and Defias thugs linger in the ruined house on Moonbrook’s southern edge. Its upper floor conceals a route into chambers beneath the town.",
  "sections": [
   {
    "title": "A Gateway in Ruin",
-   "body": "The Defias Hideout hides Edwin VanCleef’s southern operations beneath a ruined house in Moonbrook. Vagrants and Defias thugs move through its ransacked rooms, much like those of any other manor or farmhouse in the settlement. On the upper floor, an opening leads down into the winding passages of the Deadmines. The Brotherhood keeps most of its strength around Moonbrook’s perimeter and at work underground, so few guards remain inside. They watch the hideout as a narrow passage into the mines, not as a stronghold of its own.",
+   "body": "Edwin VanCleef’s southern operations lie beneath a ruined house in Moonbrook. Vagrants and Defias thugs move through its ransacked rooms, much like those in other manors and farmhouses in the settlement. On the upper floor, an opening descends into the winding passages of the Deadmines.\n\nThe Brotherhood keeps most of its strength around Moonbrook’s perimeter and at work underground, leaving few guards inside. They watch the hideout as a narrow passage into the mines, not as a stronghold of its own.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "where are the defias",
     "why so few guards"
    ],
-   "answer": "The Defias Brotherhood keeps its fighters in Moonbrook’s streets to intercept intruders, while its laborers and enforcers work deep in the mines."
+   "answer": "The Defias Brotherhood keeps its fighters in Moonbrook’s streets to intercept intruders. Its laborers and enforcers work deep in the mines."
   },
   {
    "q": "Where in Moonbrook is this building located?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can see how the Defias hide the gateway to a vast underground fortress inside a plain ruined manor, keeping its scale from casual Stormwind patrols."
+   "text": "As a rogue, you can see how the Defias conceal a gateway to a vast underground fortress inside a plain ruined manor. Its scale stays hidden from casual Stormwind patrols."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer, you can trace Edwin VanCleef’s conspiracy to this crumbling estate, a key staging ground in the effort to end the Defias rebellion."
+   "text": "As an Alliance adventurer, you can trace Edwin VanCleef’s conspiracy to this crumbling estate. It is a key staging ground in the effort to end the Defias rebellion."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Defias Hideout"
  ],
- "style": 1
+ "style": 2
 }

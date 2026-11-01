@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "22"
  },
- "summary": "In Westfall, a scorched note survives beside a dying campfire. Its brief message points toward a place called the twin land.",
+ "summary": "A scorched note lies beside a dying campfire in Westfall. Its brief message points to a place called the twin land.",
  "sections": [
   {
    "title": "A Dying Fire",
-   "body": "Across Westfall's abandoned fields and wind-scoured plains, travelers find camps left by vagrants, outlaws, and desperate wanderers. This small camp may have been left in haste or secrecy; its provisions lie abandoned, and embers still glow. A scorched slip of parchment rests among the scattered debris.",
+   "body": "Travelers crossing Westfall’s abandoned fields and wind-scoured plains find camps left by vagrants, outlaws, or desperate wanderers. This small camp was left in haste or secrecy. Its provisions lie abandoned, embers still glow, and a scorched slip of parchment rests among the scattered debris.",
    "spoiler": 0
   },
   {
    "title": "The Cryptic Message",
-   "body": "The blistered note bears two short sentences: “Not all that burns is lost. Find the twin land, find the place.” The words point away from Westfall, but give no clear direction. What place shares a name, geography, or fate with this land?",
+   "body": "The blistered note bears two short sentences: “Not all that burns is lost. Find the twin land, find the place.” Its words point away from Westfall but give no clear direction. What place shares a name, geography, or fate with this land?",
    "spoiler": 0
   }
  ],
@@ -84,11 +84,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know how to decipher cryptic clues left in hidden campsites; such work comes naturally to those who live by whispers, secrets, and concealed messages."
+   "text": "As a rogue, you know how to decipher cryptic clues left in hidden campsites. Such work comes naturally to those who live by whispers, secrets, and concealed messages."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer trying to restore order to Westfall, you face another mystery on the kingdom's frontier: an unidentified camp and an enigmatic cipher."
+   "text": "As an Alliance adventurer trying to restore order to Westfall, you face another mystery on the kingdom’s frontier: an unidentified camp and an enigmatic cipher."
   }
  ],
  "keywords": [
@@ -106,5 +106,5 @@
  "attribution": [
   "In-game quest text: ... and that note you found"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "The Binding (Voidwalker, Orgrimmar)"
   ]
  },
- "summary": "Gan'rul's Summons is an urgent call delivered to young Horde warlocks by Ophek in Razor Hill. Senior warlock Gan'rul Bloodeye requires their immediate presence in the Cleft of Shadow to advance their training. It marks the first step toward mastering the dark art of summoning a voidwalker.",
+ "summary": "Ophek brings Gan'rul's Summons to young Horde warlocks in Razor Hill. Gan'rul Bloodeye calls them to the Cleft of Shadow to advance their training. There, they take the first step toward summoning a voidwalker.",
  "sections": [
   {
    "title": "A Summons to the Shadows",
-   "body": "Novice warlocks operating in Durotar do not remain unnoticed for long. Once a practitioner demonstrates sufficient mastery over their initial imp, word reaches the deeper subterranean recesses of Orgrimmar. Ophek, stationed out in Durotar, acts as a messenger for the senior dark casters, intercepting warlocks with an urgent demand to drop whatever they are doing and report to the Cleft of Shadow.",
+   "body": "In Durotar, novice warlocks do not go unnoticed for long. When a practitioner shows enough mastery over an initial imp, word reaches the deep caverns beneath Orgrimmar. Ophek carries messages for the senior dark casters from his post in Durotar. He finds warlocks with an urgent demand to leave their work and report to the Cleft of Shadow.",
    "spoiler": 0
   },
   {
    "title": "The Senior Warlock",
-   "body": "Gan'rul Bloodeye oversees the training of nascent orc warlocks within the Horde. Operating out of the hidden caverns beneath Orgrimmar, he maintains a delicate balance between honing lethal fel power and keeping such dangerous arts shielded from the disapproving gaze of the Warchief. When Bloodeye calls an apprentice to his circle, it signals that simple fire spells and imps are no longer enough; it is time to bind a creature from the Twisting Nether.",
+   "body": "Gan'rul Bloodeye oversees the training of young orc warlocks within the Horde. From the hidden caverns beneath Orgrimmar, he hones their lethal fel power while keeping these dangerous arts from the Warchief's disapproving gaze. A call to his circle means simple fire spells and imps are no longer enough. The apprentice is ready to bind a creature from the Twisting Nether.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who gives this quest",
     "quest starter"
    ],
-   "answer": "Ophek is an associate of the warlocks stationed out in Durotar. He tracks rising practitioners and delivers orders from senior mentors like Gan'rul Bloodeye."
+   "answer": "Ophek is an associate of the warlocks stationed in Durotar. He watches for rising practitioners and carries orders from senior mentors such as Gan'rul Bloodeye."
   },
   {
    "q": "Where is Gan'rul Bloodeye located?",
@@ -51,7 +51,7 @@
     "gan'rul location",
     "find gan'rul bloodeye"
    ],
-   "answer": "Gan'rul Bloodeye resides in the Cleft of Shadow, the dark subterranean cavern system hidden beneath the rocky plateaus of Orgrimmar."
+   "answer": "Gan'rul Bloodeye is in the Cleft of Shadow, a dark cavern system beneath Orgrimmar's rocky plateaus."
   },
   {
    "q": "Why does Gan'rul Bloodeye want to see me?",
@@ -60,7 +60,7 @@
     "what does ganrul want",
     "quest reason"
    ],
-   "answer": "Gan'rul has deemed you experienced enough to advance your warlock studies and begin the dangerous rituals required to summon and bind a voidwalker."
+   "answer": "Gan'rul considers you ready to advance your warlock studies and begin the dangerous rites to summon and bind a voidwalker."
   },
   {
    "q": "What happens after reporting to Gan'rul?",
@@ -68,7 +68,7 @@
     "next quest",
     "what comes after gan'rul's summons"
    ],
-   "answer": "Reporting to Gan'rul begins the task 'Creature of the Void', which sends you to retrieve the necessary components and knowledge to pull a void entity into Azeroth."
+   "answer": "Reporting to Gan'rul begins Creature of the Void. You are sent to find the components and knowledge needed to draw a void entity into Azeroth."
   },
   {
    "q": "Why do the warlocks stay in the Cleft of Shadow?",
@@ -77,7 +77,7 @@
     "why are warlocks hiding",
     "warlock cave orgrimmar"
    ],
-   "answer": "Warlocks practice volatile fel magic, which Thrall and the traditional shamanic Horde view with deep suspicion. The Cleft of Shadow allows them to conduct rituals out of public view."
+   "answer": "Warlocks practice volatile fel magic, which Thrall and the traditional shamanic Horde regard with deep suspicion. The Cleft of Shadow lets them perform rituals out of public view."
   },
   {
    "q": "Can any class take this quest?",
@@ -85,17 +85,17 @@
     "is this warlock only",
     "who gets this quest"
    ],
-   "answer": "No. This quest is exclusively offered to Horde warlocks who have reached the tenth circle of their training."
+   "answer": "No. Only Horde warlocks who have reached the tenth circle of their training can receive the summons."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "This summons marks your progression past basic imp conjuration, opening the path to commanding the sturdy protection of a voidwalker."
+   "text": "As a warlock, this summons marks your path beyond basic imp conjuration. It opens the way to command a voidwalker's sturdy protection."
   },
   {
    "target": "faction:Horde",
-   "text": "Warlocks hold an uneasy place within Thrall's new Horde, tolerated for their pragmatic power but sequestered deep beneath Orgrimmar."
+   "text": "As a member of the Horde, you know warlocks hold an uneasy place in Thrall's new Horde. Their pragmatic power is tolerated, while they remain secluded beneath Orgrimmar."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Gan'rul's Summons"
- ]
+ ],
+ "style": 2
 }

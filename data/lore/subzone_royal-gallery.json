@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Royal Gallery"
  },
- "summary": "Stormwind Keep's Royal Gallery honors figures from the kingdom's history and the Grand Alliance. Past the courtyard garden, its statues and works of art fill a quiet hall of remembrance.",
+ "summary": "In Stormwind Keep, the Royal Gallery honors the kingdom’s history and the Grand Alliance. Beyond the courtyard garden, a quiet hall holds statues and works of art.",
  "sections": [
   {
    "title": "A Hall of Heroes",
-   "body": "The Royal Gallery lies beyond Stormwind Keep's interior garden, beside the Royal Library. Its statues honor King Llane Wrynn, the fallen ruler of Stormwind; Grand Admiral Daelin Proudmoore of Kul Tiras; and Lady Mara Fordragon, patron of the refugees who fled to Lordaeron after the First War. Courtly visitors such as Lady Dena Kennedy come to this quiet hall, where the kingdom's noble heritage is remembered.",
+   "body": "Beyond the interior garden and beside the Royal Library, the Royal Gallery holds statues of King Llane Wrynn, Stormwind’s fallen ruler, and Grand Admiral Daelin Proudmoore of Kul Tiras. Lady Mara Fordragon is honored here too, for her patronage of the refugees who fled to Lordaeron after the First War. Courtly visitors such as Lady Dena Kennedy come to see these figures and the works of art around them.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "who are the statues of",
     "who is honored here"
    ],
-   "answer": "The gallery commemorates King Llane Wrynn, Grand Admiral Daelin Proudmoore, and Mara Fordragon with grand statues honoring the kingdom and its closest allies."
+   "answer": "King Llane Wrynn, Grand Admiral Daelin Proudmoore, and Lady Mara Fordragon are commemorated with statues honoring the kingdom and its closest allies."
   },
   {
    "q": "Who can be found visiting the gallery?",
@@ -49,7 +49,7 @@
     "royal gallery vs library",
     "is it part of the library"
    ],
-   "answer": "The Royal Gallery and the Royal Library are separate chambers beside each other in Stormwind Keep's royal wing. The library holds royal archives and scholars, while the gallery displays fine art and memorial sculpture."
+   "answer": "The Royal Gallery and the Royal Library are separate chambers beside each other in Stormwind Keep’s royal wing. The library holds royal archives and scholars, while the gallery displays fine art and memorial sculpture."
   }
  ],
  "angles": [
@@ -59,7 +59,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human of Stormwind, you can see House Wrynn and House Fordragon's heritage honored within the keep."
+   "text": "As a human of Stormwind, you can see House Wrynn and House Fordragon’s heritage honored within the keep."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
  "attribution": [
   "Royal Gallery"
  ],
- "style": 1
+ "style": 2
 }

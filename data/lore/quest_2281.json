@@ -21,16 +21,16 @@
    "Alther's Mill (quest)"
   ]
  },
- "summary": "Promising Alliance rogues are sent east from Stormwind’s intelligence headquarters to train in Lakeshire. SI:7 wants them ready for dangerous field work under seasoned operatives.",
+ "summary": "In Lakeshire, promising Alliance rogues train for dangerous work under seasoned operatives. SI:7 sends them east from Stormwind’s intelligence headquarters to prepare for the field.",
  "sections": [
   {
    "title": "A Measure of Survival",
-   "body": "Renzik 'The Shiv', SI:7’s second-in-command in Stormwind, warns that untrained rogues rarely survive dangerous operations. Sending raw recruits into hostile territory brings casualties instead of intelligence. SI:7 sends promising agents east to the Redridge Mountains, where they train under Lucius, stationed among Lakeshire’s docks.",
+   "body": "Renzik 'The Shiv', SI:7’s second-in-command in Stormwind, knows that untrained rogues rarely survive dangerous operations. Sending raw recruits into hostile territory brings casualties instead of intelligence. So SI:7 sends promising agents east to the Redridge Mountains. There, Lucius trains them among Lakeshire’s docks.",
    "spoiler": 0
   },
   {
    "title": "Eyes in Lakeshire",
-   "body": "Lakeshire offers an ideal ground for clandestine training. Gnolls and Blackrock orcs threaten the frontier town, while its piers give Lucius cover to test a rogue’s stealth, reflexes, and lockpicking without attracting townspeople or guards.",
+   "body": "Lakeshire gives Lucius good ground for clandestine training. Gnolls and Blackrock orcs threaten the frontier town. Its piers let him test a rogue’s stealth, reflexes, and lockpicking without drawing the notice of townspeople or guards.",
    "spoiler": 0
   }
  ],
@@ -60,7 +60,7 @@
     "purpose of redridge rendezvous",
     "why redridge"
    ],
-   "answer": "Renzik considers inexperienced rogues unfit for dangerous intelligence work. Lucius sharpens their rough edges and tests skills such as pickpocketing and lockpicking under frontier conditions."
+   "answer": "Renzik considers inexperienced rogues unfit for dangerous intelligence work. In Lakeshire, Lucius sharpens their rough edges and tests skills such as pickpocketing and lockpicking under frontier conditions."
   },
   {
    "q": "What comes after completing Redridge Rendezvous?",
@@ -69,7 +69,7 @@
     "redridge rendezvous followup",
     "after redridge rendezvous"
    ],
-   "answer": "Reporting to Lucius leads to training exercises that begin at Alther's Mill, where the agent tests stealth and manual dexterity."
+   "answer": "Reporting to Lucius leads to training exercises at Alther's Mill, where the agent tests stealth and manual dexterity."
   },
   {
    "q": "Is this quest available to classes other than rogues?",
@@ -93,11 +93,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you begin formal SI:7 field work here, moving from backstreet thievery to calculated state espionage."
+   "text": "As a rogue, you begin formal SI:7 field work here. You move from backstreet thievery to calculated state espionage."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see Stormwind’s clandestine arm reaching outer settlements such as Lakeshire, where quiet operatives are stationed."
+   "text": "As an Alliance member, you see Stormwind’s clandestine arm reach outer settlements such as Lakeshire, where quiet operatives are stationed."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Redridge Rendezvous"
  ],
- "style": 1
+ "style": 2
 }

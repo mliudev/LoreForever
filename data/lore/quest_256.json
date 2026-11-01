@@ -17,16 +17,16 @@
   "wiki": "WANTED: Chok'sul",
   "chain": []
  },
- "summary": "Thelsamar's leaders seek Chok'sul's death to protect northeastern Loch Modan. Magistrate Bluntnose believes the ogre warlord directs attacks on local settlements and vital works, and offers a handsome reward for his head.",
+ "summary": "In northeastern Loch Modan, Chok'sul's ogres threaten the settlements and the works that sustain the valley. Magistrate Bluntnose wants the warlord dead before more lives are lost.",
  "sections": [
   {
    "title": "A Threat to the Loch",
-   "body": "Organized ogres now threaten northeastern Loch Modan. Troggs and wild beasts have long tested the valley's borders, but these raiders bring a new danger the dwarven mountaineers cannot ignore. They have made camps in the rugged hills and moved beyond simple scavenging. Local scouts and town authorities report raids that are focused, persistent, and dangerous.",
+   "body": "Ogres now threaten northeastern Loch Modan, where troggs and wild beasts have long tested the valley's borders. They have made camps in the rugged hills and moved beyond simple scavenging. Local scouts and town authorities report raids that are focused, persistent, and dangerous.",
    "spoiler": 0
   },
   {
    "title": "The Price on Chok'sul's Head",
-   "body": "Magistrate Bluntnose believes Chok'sul directs attacks on Thelsamar, a nearby dwarven excavation site, and the Stonewrought Dam. The magistrate fears for civilian lives and the valley's great engineering work, so a bounty calls for the ogre chieftain's death by any means. His severed head is required as proof.",
+   "body": "Magistrate Bluntnose believes Chok'sul directs attacks on Thelsamar, a nearby dwarven excavation site, and the Stonewrought Dam. Fearing for civilian lives and the valley's great engineering work, he offers a bounty for the ogre chieftain's death by any means. Chok'sul's severed head is required as proof.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "where is choksul",
     "ogre camp loch modan"
    ],
-   "answer": "Chok'sul is in an ogre encampment among the rugged hills in Loch Modan's northeastern corner."
+   "answer": "Chok'sul can be found in an ogre encampment among the rugged hills in Loch Modan's northeastern corner."
   },
   {
    "q": "What proof does Magistrate Bluntnose require?",
@@ -65,7 +65,7 @@
     "bounty proof",
     "turn in choksul"
    ],
-   "answer": "Magistrate Bluntnose requires Chok'sul's severed head, brought directly to him in Thelsamar, as proof for the bounty and Ironforge's gratitude."
+   "answer": "Magistrate Bluntnose requires Chok'sul's severed head as proof for the bounty and Ironforge's gratitude. Bring it directly to him in Thelsamar."
   },
   {
    "q": "Why would ogres attack the Stonewrought Dam?",
@@ -82,7 +82,7 @@
     "loch modan ogres",
     "choksul followers"
    ],
-   "answer": "Yes. Chok'sul commands an encampment of ogres in the northeastern hills, directing raids across the surrounding territory."
+   "answer": "Yes. Chok'sul commands an encampment of ogres in the northeastern hills and directs raids across the surrounding territory."
   }
  ],
  "angles": [
@@ -118,5 +118,5 @@
  "attribution": [
   "WANTED: Chok'sul"
  ],
- "style": 1
+ "style": 2
 }

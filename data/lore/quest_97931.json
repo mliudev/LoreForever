@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "You can now make your own bandage pouch. To try it, you need to camp in the wilderness, where a campfire is also needed.",
+ "summary": "You are ready to make a bandage pouch, and now you need a place to try it.",
  "sections": [
   {
    "title": "A Place to Camp",
-   "body": "The pouch is ready to make, but most people dislike camps in the middle of town. You need to try it in the wilderness. A campfire is required before you can set up camp, and most cooks can teach you how to make one.",
+   "body": "You can make the pouch, but most people would rather not camp in the middle of town. So take it out into the wilderness. Before you set up camp, you need a campfire. Most cooks can teach you how to make one.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where try pouch",
     "bandage pouch place"
    ],
-   "answer": "You need to try it in the wilderness, since most people dislike camps in the middle of town."
+   "answer": "Try the bandage pouch in the wilderness, where people are less likely to object to a camp."
   },
   {
    "q": "What do I need before setting up camp?",
@@ -55,7 +55,7 @@
   "wilderness"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Camping 101: First Aid"
  ]

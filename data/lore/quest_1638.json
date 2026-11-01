@@ -22,16 +22,16 @@
    "Bartleby's Mug (quest)"
   ]
  },
- "summary": "In Goldshire, A Warrior's Training sends young warriors to Stormwind for lessons in battlefield endurance. Lyria Du Lac directs them to the Pig and Whistle Tavern in Old Town, where veteran Harry Burlguard offers seasoned instruction.",
+ "summary": "Lyria Du Lac sends young warriors from Goldshire to Stormwind for lessons in battlefield endurance. At the Pig and Whistle Tavern in Old Town, veteran Harry Burlguard puts them through seasoned instruction.",
  "sections": [
   {
    "title": "From Elwynn to Old Town",
-   "body": "After aspiring fighters show reliable command of the fundamentals against threats across Elwynn Forest, their trainers see little more for Goldshire drillmasters to teach. Lyria Du Lac sends recruits into Stormwind, toward the gritty district of Old Town. Veteran fighters gather there to share combat experience far from the royal garrison’s rigid ways.",
+   "body": "When you have shown your skill against threats across Elwynn Forest, Goldshire's trainers have little more to teach. So Lyria Du Lac sends you to Stormwind and the rough district of Old Town. Veteran fighters gather there to share what combat has taught them, far from the royal garrison's rigid ways.",
    "spoiler": 0
   },
   {
    "title": "Lessons of the Veteran",
-   "body": "Harry Burlguard, an aged battle veteran, keeps his quarters at the Pig and Whistle Tavern. He tests a warrior’s mettle with tavern grit and practical stamina instead of parade-ground drills. Before teaching defensive maneuvers that help soldiers survive dangerous campaigns, Harry expects new arrivals to match his appetite for drink and face local brawlers in the tavern.",
+   "body": "Harry Burlguard is an aged battle veteran who keeps his quarters at the Pig and Whistle Tavern. He tests your mettle with drink and practical trials of stamina, not parade-ground drills. Before teaching defensive moves for dangerous campaigns, Harry expects you to match his appetite for drink and face the tavern's local brawlers.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who starts a warriors training",
     "lyria du lac quest"
    ],
-   "answer": "Lyria Du Lac, the warrior trainer behind the blacksmith in Goldshire, offers this training after a fighter proves their early combat skill."
+   "answer": "Lyria Du Lac, the warrior trainer behind the blacksmith in Goldshire, offers this training after you prove your early combat skill."
   },
   {
    "q": "Where can Harry Burlguard be found?",
@@ -52,7 +52,7 @@
     "harry burlguard location",
     "pig and whistle tavern"
    ],
-   "answer": "Harry Burlguard can be found inside the Pig and Whistle Tavern in Stormwind City’s Old Town district."
+   "answer": "Harry Burlguard can be found inside the Pig and Whistle Tavern in Stormwind City's Old Town district."
   },
   {
    "q": "What does Harry Burlguard teach?",
@@ -61,7 +61,7 @@
     "warrior quest reward level 10",
     "harry burlguard lesson"
    ],
-   "answer": "Harry teaches practical moves and stances that help warriors endure longer in the field, beginning with tests of stamina."
+   "answer": "Harry teaches practical moves and stances to help warriors endure longer in the field. His lessons begin with tests of stamina."
   },
   {
    "q": "Why is training held in a tavern instead of the barracks?",
@@ -70,7 +70,7 @@
     "why train in tavern",
     "stormwind barracks"
    ],
-   "answer": "Old Town is Stormwind’s traditional, rough heart, where retired soldiers and hardened veterans gather. Harry teaches over ale and with bare-knuckle discipline instead of the barracks’ formal military ways."
+   "answer": "Old Town is Stormwind's traditional, rough heart, where retired soldiers and hardened veterans gather. Harry teaches over ale and with bare-knuckle discipline, away from the barracks' formal military ways."
   },
   {
    "q": "What comes after speaking to Harry?",
@@ -79,7 +79,7 @@
     "after a warriors training",
     "next step"
    ],
-   "answer": "After speaking with Harry, the recruit faces a challenge involving Bartleby the Drunk, a local brawler, to test their physical resilience before training is complete."
+   "answer": "After speaking with Harry, you face Bartleby the Drunk, a local brawler. The challenge tests your physical resilience before your training is complete."
   },
   {
    "q": "Can non-warriors receive this quest?",
@@ -98,7 +98,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human fighter, your path leads from Elwynn’s pastoral defenses into Old Town, the ancestral, working-class cradle of Stormwind’s martial heritage."
+   "text": "As a human fighter, your path leads from Elwynn's pastoral defenses into Old Town, the ancestral, working-class cradle of Stormwind's martial heritage."
   },
   {
    "target": "faction:Alliance",
@@ -129,5 +129,5 @@
  "attribution": [
   "A Warrior's Training"
  ],
- "style": 1
+ "style": 2
 }

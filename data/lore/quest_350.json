@@ -17,16 +17,16 @@
   "wiki": "Look to an Old Friend",
   "chain": []
  },
- "summary": "Master Mathias Shaw sends you to seek an unusual contact in Stormwind's Trade District. Noble corruption shields traitors from ordinary justice, so Shaw turns to the city's finest cheesemonger and his intelligence network.",
+ "summary": "Master Mathias Shaw sends you to find an unusual ally in Stormwind's Trade District. Noble corruption shields traitors from ordinary justice, so Shaw turns to the city's finest cheesemonger and his intelligence network.",
  "sections": [
   {
    "title": "Above the Law",
-   "body": "Lord Gregor Lescovar and Marzon the Silent Blade have direct ties to the Defias Brotherhood, but Master Mathias Shaw has reached an intelligence dead end. Edwin VanCleef is dead in the Deadmines, and Bazil Thredd has been eliminated in the Stockade. No living bandit leaders remain to testify. Lescovar's noble rank and political ties also leave him beyond the reach of ordinary Royal Guard justice and formal SI:7 warrants.",
+   "body": "Lord Gregor Lescovar and Marzon the Silent Blade have ties to the Defias Brotherhood, but Master Mathias Shaw has reached a dead end. Edwin VanCleef lies dead in the Deadmines, and Bazil Thredd has been eliminated in the Stockade. No living bandit leaders remain to testify.\n\nLescovar's noble rank and political ties keep him beyond ordinary Royal Guard justice and formal SI:7 warrants.",
    "spoiler": 1
   },
   {
    "title": "The Cheesemonger's Ear",
-   "body": "Master Mathias Shaw sends you to Elling Trias, who owns Trias' Cheese in the Trade District. Across Stormwind, Trias is known as a temperamental merchant selling imported wedges and wheels. He also runs an independent network of eyes and ears that rivals SI:7. Shaw hates turning to his former colleague, but exposing treason inside Stormwind Keep calls for methods beyond official royal channels.",
+   "body": "Master Mathias Shaw sends you to Elling Trias, owner of Trias' Cheese in the Trade District. Across Stormwind, Trias is known as a temperamental merchant who sells imported wedges and wheels. He also commands an independent network of eyes and ears that rivals SI:7.\n\nShaw hates turning to his former colleague. Yet exposing treason inside Stormwind Keep calls for methods beyond official royal channels.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why talk to trias",
     "why cheese shop"
    ],
-   "answer": "Elling Trias is more than a cheesemonger. He runs Trias' Cheese near the Trade District entrance and maintains an independent, far-reaching intelligence network. Shaw hates asking him for help, but SI:7 needs unusual means to act against a nobleman beyond the reach of ordinary law enforcement."
+   "answer": "Elling Trias is more than a cheesemonger. He runs Trias' Cheese near the Trade District entrance and keeps a far-reaching intelligence network. Shaw hates asking for his help, but SI:7 needs unusual means to act against a nobleman beyond ordinary law enforcement."
   },
   {
    "q": "Why can't Mathias Shaw simply arrest Lord Lescovar?",
@@ -47,7 +47,7 @@
     "why cant shaw arrest lescovar",
     "why lescovar untouchable"
    ],
-   "answer": "Lord Lescovar is a high-ranking Stormwind noble with deep ties across the House of Nobles. Shaw lacks the testimony needed to make the evidence hold against an aristocrat."
+   "answer": "Lord Lescovar is a high-ranking Stormwind noble with deep ties across the House of Nobles. Shaw lacks the testimony to make the evidence hold against an aristocrat."
   },
   {
    "q": "Who is Marzon the Silent Blade?",
@@ -72,7 +72,7 @@
     "next quest after trias",
     "where to after look to an old friend"
    ],
-   "answer": "After hearing the full account of the conspiracy, Trias begins planning a quiet infiltration of Stormwind Keep to corner Lord Lescovar without alerting the rest of the noble court."
+   "answer": "After hearing the full account of the conspiracy, Trias begins planning a quiet infiltration of Stormwind Keep. He means to corner Lord Lescovar without alerting the rest of the noble court."
   },
   {
    "q": "Where is Elling Trias located?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Look to an Old Friend"
  ],
- "style": 1
+ "style": 2
 }

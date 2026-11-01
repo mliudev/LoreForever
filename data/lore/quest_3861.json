@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Strange Communion",
-   "body": "Ordinary chickens wander the farmsteads of Azeroth, and most travelers pass them by. Mimic a chicken's gestures and clucking, and it may stop pecking to regard you with interest. In that brief moment, the bird scratches letters in the dirt. The message points to the farmer who can provide the food it wants.",
+   "body": "Across Azeroth, ordinary chickens wander farmsteads, though most travelers pass them by. Mimic a chicken's gestures and cluck, and one may stop pecking to regard you. In that brief moment, it scratches letters in the dirt, pointing you toward the farmer who can provide the food it wants.",
    "spoiler": 0
   },
   {
    "title": "The Farmer's Feed",
-   "body": "The bird's request calls for Special Chicken Feed. In Westfall, the Saldean family keeps this grain for their flock. Offer the feed and cheer the chicken on as it eats. In return, it lays a warm egg that can be nurtured into a feathered companion.",
+   "body": "The bird asks for Special Chicken Feed, which the Saldean family keeps for its flock in Westfall. Offer the grain and cheer the chicken on as it eats. In return, it lays a warm egg, ready to be nurtured into a feathered companion.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how to talk to chicken",
     "cluck quest unlock"
    ],
-   "answer": "Mimic the chicken with repeated chicken calls or flapping gestures. Eventually, it pauses to inspect you and scratches a message in the dirt about its hunger."
+   "answer": "Mimic a chicken with repeated calls or flapping gestures. At last, it pauses to inspect you and scratches a message in the dirt about its hunger."
   },
   {
    "q": "What does the chicken spell out in the dirt?",
@@ -47,7 +47,7 @@
     "what does the chicken write",
     "saldean chicken"
    ],
-   "answer": "The chicken scratches out S-A-L-D-E-A-N in the soil. The name points you to Farmer Saldean and his wife at the Saldean Farm in central Westfall, where they sell the grain the bird wants."
+   "answer": "The chicken scratches out S-A-L-D-E-A-N in the soil. The name points to Farmer Saldean and his wife at the Saldean Farm in central Westfall, where they sell the grain it wants."
   },
   {
    "q": "Where do you get the Special Chicken Feed?",
@@ -56,7 +56,7 @@
     "where to buy chicken feed",
     "saldean feed"
    ],
-   "answer": "Farmer Saldean stocks Special Chicken Feed at the Saldean Farm in Westfall."
+   "answer": "Farmer Saldean keeps Special Chicken Feed at the Saldean Farm in Westfall."
   },
   {
    "q": "Can you do this with any chicken in the world?",
@@ -65,7 +65,7 @@
     "does any chicken work",
     "where to find chicken"
    ],
-   "answer": "Any ordinary barnyard chicken in settled lands can answer the gesture, though they are most often found around human farms such as those in Westfall."
+   "answer": "Ordinary barnyard chickens in settled lands can answer the gesture. They are most often found around human farms, such as those in Westfall."
   },
   {
    "q": "How do you complete the quest once you have the feed?",
@@ -74,7 +74,7 @@
     "feed chicken egg",
     "cluck quest hand in"
    ],
-   "answer": "Carry Special Chicken Feed, find a chicken, and cheer it on. It accepts the feed and lays an egg beneath itself for you to collect."
+   "answer": "Carry Special Chicken Feed and find a chicken. Cheer it on as it eats, and it lays an egg beneath itself for you to collect."
   },
   {
    "q": "What do you get for finishing the quest?",
@@ -83,13 +83,13 @@
     "chicken egg pet",
     "westfall chicken reward"
    ],
-   "answer": "The fed chicken lays a Farm Chicken Egg at its feet. Collecting it gives you a Chicken Egg that lets you summon a loyal Westfall chicken to follow you on your travels."
+   "answer": "The fed chicken lays a Farm Chicken Egg at its feet. Collect it to receive a Chicken Egg that lets you summon a loyal Westfall chicken to follow you on your travels."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Saldean Farmstead in Westfall is where this odd chicken ritual takes place, making it a familiar tale among young Alliance adventurers exploring the battered rural kingdom."
+   "text": "At the Saldean Farmstead in Westfall, this odd chicken ritual has become a familiar tale among young Alliance adventurers exploring the battered rural kingdom."
   },
   {
    "target": "profession:Cooking",
@@ -115,5 +115,5 @@
  "attribution": [
   "CLUCK!"
  ],
- "style": 1
+ "style": 2
 }

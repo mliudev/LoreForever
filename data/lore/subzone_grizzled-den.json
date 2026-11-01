@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Grizzled Den"
  },
- "summary": "Wendigo packs make their lair in Grizzled Den, southwest of Kharanos in Dun Morogh.",
+ "summary": "In Dun Morogh, wendigo packs make their lair in Grizzled Den, southwest of Kharanos.",
  "sections": [
   {
    "title": "A Frost-Chilled Lair",
-   "body": "Grizzled Den cuts into the crags southwest of Kharanos, where Dun Morogh’s wendigo packs make their home. These aggressive, ape-like beasts breathe frost at intruders and band together to defend their hollows. Hunters brave the cavern for the thick wendigo manes, which craftsmen use to line cold chairs and carriage seats with insulated fur.",
+   "body": "Southwest of Kharanos, Grizzled Den cuts into Dun Morogh’s crags. Wendigo packs make their home in its hollows. These aggressive, ape-like beasts breathe frost at intruders and band together to defend their lair. Hunters brave the cavern for thick wendigo manes, used by craftsmen to line cold chairs and carriage seats with insulating fur.",
    "spoiler": 0
   },
   {
    "title": "Hidden Treasures",
-   "body": "Prospectors enter Grizzled Den to work copper veins in its frozen stone walls, and scouts search its darker corners for discarded footlockers. The deeper tunnels hold the den’s largest and most vicious predators, waiting in the shadows.",
+   "body": "Prospectors work copper veins in Grizzled Den’s frozen stone walls. Scouts search its darker corners for discarded footlockers. Deeper in the tunnels, the den’s largest and most vicious predators wait in the shadows.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is grizzled den",
     "how to get to grizzled den"
    ],
-   "answer": "Grizzled Den lies in Dun Morogh, southwest of Kharanos, among the snow-covered mountain ridges."
+   "answer": "Grizzled Den lies among Dun Morogh’s snow-covered mountain ridges, southwest of Kharanos."
   },
   {
    "q": "What creatures live in the Grizzled Den?",
@@ -37,7 +37,7 @@
     "grizzled den mobs",
     "creatures inside grizzled den"
    ],
-   "answer": "Packs of ferocious wendigos live in Grizzled Den. The white-furred beasts breathe freezing frost and swarm intruders."
+   "answer": "Ferocious wendigo packs live in Grizzled Den. The white-furred beasts breathe freezing frost and swarm intruders."
   },
   {
    "q": "Why do people venture into the Grizzled Den?",
@@ -46,7 +46,7 @@
     "grizzled den quests",
     "wendigo manes"
    ],
-   "answer": "Hunters seek wendigo manes for warm seat covers, while others venture into the tunnels to mine copper from the walls."
+   "answer": "Hunters seek wendigo manes for warm seat covers, while others enter the tunnels to mine copper from the walls."
   }
  ],
  "angles": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Grizzled Den"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "A Pilot's Revenge (Classic)"
   ]
  },
- "summary": "Searchers find Hildelve frozen in the wilds of Dun Morogh. His journal records the struggle that ended his life and his final wish for vengeance.",
+ "summary": "Hildelve’s search ends in the crags of Dun Morogh, where Pilot Hammerfoot’s searchers find him frozen beside his journal. His last words call for vengeance.",
  "sections": [
   {
    "title": "A Final Entry",
-   "body": "Pilot Hildelve lies dead among Dun Morogh's snowy crags, with his journal beside him. In its final entry, he describes a savage fight with a huge Ice Claw bear he named Mangeclaw. Hildelve drove the beast off at first, but his wounds were severe. Mangeclaw returned and killed the weakened pilot.",
+   "body": "Hildelve’s journal tells of his savage fight with Mangeclaw, the huge Ice Claw bear. He drove the beast away at first, but his wounds were grave. Mangeclaw returned and killed him.",
    "spoiler": 0
   },
   {
    "title": "A Pilot's Dying Wish",
-   "body": "Hildelve's journal carries one last plea: avenge his death at the hands of the beast. Bringing the journal and a claw torn from Mangeclaw to Pilot Hammerfoot gives the Ironforge Siege Brigade grim closure and honors its lost comrade.",
+   "body": "Hildelve’s final plea calls for vengeance against Mangeclaw. Bring his journal and a claw torn from the beast to Pilot Hammerfoot. The grim news gives the Ironforge Siege Brigade closure and honors its lost comrade.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is the dead dwarf",
     "lost pilot"
    ],
-   "answer": "Pilot Hildelve was a dwarven siege engine pilot in the Ironforge Siege Brigade. When his engine broke down, he set out on foot into the mountains of Dun Morogh. His friend Pilot Hammerfoot sent searchers, who found Hildelve's remains in the snow."
+   "answer": "Pilot Hildelve was a dwarven siege engine pilot in the Ironforge Siege Brigade. When his engine broke down, he set out on foot into the mountains of Dun Morogh. His friend Pilot Hammerfoot sent searchers, who found Hildelve’s remains in the snow."
   },
   {
    "q": "What is Mangeclaw?",
@@ -50,7 +50,7 @@
     "ice claw bear",
     "who killed hildelve"
    ],
-   "answer": "Mangeclaw is an exceptionally large and ferocious Ice Claw bear roaming Dun Morogh's slopes. It ambushed Pilot Hildelve, wounded him mortally, then returned and killed him."
+   "answer": "Mangeclaw is an exceptionally large and ferocious Ice Claw bear roaming the slopes of Dun Morogh. The bear ambushed Pilot Hildelve and wounded him mortally. Then Mangeclaw returned and killed him."
   },
   {
    "q": "Who is Pilot Hammerfoot?",
@@ -66,7 +66,7 @@
     "why care about hildelve",
     "siege brigade importance"
    ],
-   "answer": "The Ironforge Siege Brigade relies on trained pilots and machinery to scout and defend the mountainous territory around the capital. Hildelve's death is a harsh blow to its ranks."
+   "answer": "The Ironforge Siege Brigade relies on trained pilots and machinery to scout and defend the mountainous territory around the capital. Hildelve’s death is a harsh blow to its ranks."
   },
   {
    "q": "Where does this quest chain begin?",
@@ -74,7 +74,7 @@
     "how to start a pilot's revenge",
     "lost pilot quest chain"
    ],
-   "answer": "Pilot Hammerfoot begins the journey by asking you to find his missing friend in “The Lost Pilot.” Finding Hildelve's corpse starts “A Pilot's Revenge.”"
+   "answer": "Pilot Hammerfoot begins the journey by asking you to find his missing friend in “The Lost Pilot.” Finding Hildelve’s corpse begins “A Pilot’s Revenge.”"
   },
   {
    "q": "What proof do you need to bring to Hammerfoot?",
@@ -82,21 +82,21 @@
     "mangeclaw proof",
     "what items needed"
    ],
-   "answer": "Bring Hildelve's Journal from the pilot's corpse and a Mangy Claw taken from Mangeclaw's carcass to prove the beast was slain."
+   "answer": "Bring Hildelve’s Journal from the pilot’s corpse and a Mangy Claw taken from Mangeclaw’s carcass. Together, they prove the beast was slain."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, avenging a fallen Ironforge Siege Brigade comrade honors Hildelve's memory and punishes his killer."
+   "text": "As a dwarf, you honor Hildelve’s memory by avenging your fallen Ironforge Siege Brigade comrade and punishing his killer."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you know the Ironforge pilots are a vital part of dwarven and Alliance defenses. Recovering lost pilots is an essential duty."
+   "text": "As an Alliance member, you know the Ironforge pilots are vital to dwarven and Alliance defenses. Recovering lost pilots is an essential duty."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking an unusually vicious alpha beast like Mangeclaw through Dun Morogh's freezing winds tests your mountain survival skills."
+   "text": "As a hunter, you test your mountain survival skills by tracking an unusually vicious alpha beast like Mangeclaw through Dun Morogh’s freezing winds."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "A Pilot's Revenge (Classic)"
  ],
- "style": 1
+ "style": 2
 }

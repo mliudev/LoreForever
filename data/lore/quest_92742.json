@@ -17,16 +17,16 @@
   "wiki": "Testing the Wells",
   "chain": []
  },
- "summary": "Alba Fairmoon sends you across Westfall to test the farm wells. The samples may reveal what is poisoning the soil and groundwater.",
+ "summary": "Across Westfall, Alba Fairmoon sends you to test the farm wells. Their samples may show what is poisoning the soil and groundwater.",
  "sections": [
   {
    "title": "Blight in the Aquifer",
-   "body": "Alba Fairmoon asks you to test Westfall's groundwater. Neglect and banditry have already hurt the open plains, and poison beneath the earth threatens the farmland that remains. You collect samples from farm wells so Alba can learn what is tainting the soil and water.",
+   "body": "Alba Fairmoon asks you to test the water beneath Westfall. Neglect and banditry have already harmed the open plains. Now poison below the earth threatens the farmland that remains. You gather samples from farm wells so Alba can learn what is tainting the soil and water.",
    "spoiler": 0
   },
   {
    "title": "Farms of the Frontier",
-   "body": "You take samples from the wells at Jansen Stead and Molsen Farm. These homesteads lie among scattered farms exposed to Defias outlaws and feral wildlife. Their well water can show whether the blight is rising from the ground, caused by magic, or deliberately put into the water that feeds the region.",
+   "body": "You gather samples from the wells at Jansen Stead and Molsen Farm. These homesteads lie among scattered farms, exposed to Defias outlaws and feral wildlife. Their water may show whether the blight rises from the ground, comes from magic, or was put there deliberately.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "testing the wells goal",
     "what is this quest for"
    ],
-   "answer": "Alba Fairmoon wants to learn the source and nature of the poison afflicting Westfall. Fresh groundwater samples from farm wells will let her examine the contamination."
+   "answer": "Alba Fairmoon wants to learn the source and nature of the poison afflicting Westfall. Fresh samples from farm wells will let her examine the contamination."
   },
   {
    "q": "Who assigns this task?",
@@ -47,7 +47,7 @@
     "alba fairmoon quest",
     "quest giver"
    ],
-   "answer": "Alba Fairmoon assigns the work as she investigates the spreading corruption and unnatural poisons in Westfall."
+   "answer": "Alba Fairmoon asks you to help as she investigates the spreading corruption and unnatural poisons in Westfall."
   },
   {
    "q": "Which locations need to be sampled?",
@@ -65,7 +65,7 @@
     "what is poisoning the land",
     "poison source"
    ],
-   "answer": "An unknown blight or poison is corrupting Westfall's land. Testing well water is the first step toward learning whether the aquifer beneath the homesteads is tainted."
+   "answer": "An unknown blight or poison is corrupting Westfall's land. Testing well water is the first step toward learning whether the water beneath the homesteads is tainted."
   },
   {
    "q": "Is the contamination natural or artificial?",
@@ -73,7 +73,7 @@
     "is the water poisoned on purpose",
     "who poisoned the wells"
    ],
-   "answer": "The cause is not yet known. Samples from Jansen Stead and Molsen Farm may show whether the rot comes from natural groundwater corruption or deliberate sabotage."
+   "answer": "The cause is not yet known. Samples from Jansen Stead and Molsen Farm may show whether the rot comes from natural corruption in the groundwater or deliberate sabotage."
   },
   {
    "q": "Why focus on Jansen Stead and Molsen Farm?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you know Westfall's farms must produce food for the Kingdom of Stormwind to survive. The health of their wells concerns the whole kingdom."
+   "text": "As an Alliance member, you know Westfall's farms must feed the Kingdom of Stormwind. The health of their wells concerns the whole kingdom."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you recognize that unnatural toxins in soil and fresh groundwater wound the land's balance and call for healing."
+   "text": "As a druid, you know unnatural toxins in soil and fresh groundwater wound the land's balance and call for healing."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Testing the Wells"
  ],
- "style": 1
+ "style": 2
 }

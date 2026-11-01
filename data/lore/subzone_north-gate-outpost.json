@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "North Gate Outpost"
  },
- "summary": "Mountaineers guard the road through North Gate Outpost, where Dun Morogh meets Loch Modan. Their patrols keep travelers safe from the beasts in the crags.",
+ "summary": "At North Gate Outpost, mountaineers guard the road where Dun Morogh meets Loch Modan. Their patrols shield travelers from beasts in the crags.",
  "sections": [
   {
    "title": "Guards of the Pass",
-   "body": "Dwarven mountaineers guard the road through North Gate Pass. From North Gate Outpost, they keep the route clear of prowling beasts and watch travelers heading through the mountain tunnels into Loch Modan. The pass is Dun Morogh’s northeastern threshold, but its harsh weather and steep ravines make patrols dangerous. When a patrol goes missing or a predator threatens the road, the garrison calls on travelers to scout the surrounding ridges.",
+   "body": "Dwarven mountaineers watch North Gate Pass from the outpost. They guard travelers heading through the mountain tunnels into Loch Modan. The pass marks Dun Morogh’s northeastern edge, where harsh weather and steep ravines make patrols perilous. When patrols go missing or predators threaten the road, the garrison calls on travelers to scout the ridges.",
    "spoiler": 0
   }
  ],
@@ -22,7 +22,7 @@
     "north gate outpost purpose",
     "why is north gate outpost here"
    ],
-   "answer": "North Gate Outpost gives the mountaineers a post from which to guard North Gate Pass, the northern road between Dun Morogh and Loch Modan. They keep the route open to trade and travel by driving back wild beasts."
+   "answer": "North Gate Outpost gives the mountaineers a post from which to guard North Gate Pass, the northern road between Dun Morogh and Loch Modan. They drive back wild beasts to keep the route open to trade and travel."
   },
   {
    "q": "Where does the road through the pass lead?",
@@ -30,7 +30,7 @@
     "where does north gate pass go",
     "road past north gate outpost"
    ],
-   "answer": "The road leads east through mountain tunnels into Loch Modan, or west toward Kharanos and Ironforge."
+   "answer": "The road runs east through mountain tunnels into Loch Modan, or west toward Kharanos and Ironforge."
   },
   {
    "q": "Why do the mountaineers need help from travelers?",
@@ -44,11 +44,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see the Mountaineers’ duty in the work of keeping the highland passes open through freezing weather and prowling predators."
+   "text": "As a dwarf, you know the mountaineers’ duty: keeping the highland passes open through freezing weather and prowling predators."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can lend your wits and marksmanship to help the dwarven garrison track down lost patrols."
+   "text": "As a gnome, you can use your wits and marksmanship to help the dwarven garrison track down lost patrols."
   }
  ],
  "keywords": [
@@ -68,5 +68,5 @@
  "attribution": [
   "North Gate Outpost"
  ],
- "style": 1
+ "style": 2
 }

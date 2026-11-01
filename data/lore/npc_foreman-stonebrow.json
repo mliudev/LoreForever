@@ -8,11 +8,11 @@
   "wiki": "Foreman Stonebrow",
   "refs": 1
  },
- "summary": "At Gol'Bolar Quarry, Foreman Stonebrow faces a trogg attack that has driven miners from the pits. He speaks for the Miners' League and now needs help defending the excavation.",
+ "summary": "At Gol'Bolar Quarry, Foreman Stonebrow faces a trogg attack that has driven miners from the pits. He speaks for the Miners' League and needs help defending the excavation.",
  "sections": [
   {
    "title": "The Crisis at Gol'Bolar",
-   "body": "Foreman Stonebrow directs the Miners' League's work at Gol'Bolar Quarry, east of Kharanos. Deep digging broke into trogg burrows beneath the quarry, and the creatures swarmed the pits, driving miners from their tools. Stonebrow remains at the quarry rim, seeking travelers willing to push the troggs back.",
+   "body": "Foreman Stonebrow directs the Miners' League's work at Gol'Bolar Quarry, east of Kharanos. Deep digging broke into trogg burrows beneath the quarry. The creatures swarmed the pits and drove miners from their tools. Stonebrow remains at the quarry rim, seeking travelers willing to push the troggs back.",
    "spoiler": 0
   }
  ],
@@ -81,5 +81,5 @@
  "attribution": [
   "Foreman Stonebrow"
  ],
- "style": 1
+ "style": 2
 }

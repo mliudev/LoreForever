@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The Tome of Divinity is a core trial of devotion and courage for young paladins, testing their resolve to protect the innocent and uphold the Light against threats like the Defias Brotherhood."
+   "text": "As a paladin, you face a trial of devotion and courage. It tests your resolve to protect the innocent and uphold the Light against threats such as the Defias Brotherhood."
   },
   {
    "target": "faction:Alliance",
-   "text": "Uncovering Defias movements and documents within Elwynn Forest provides vital intelligence directly to Stormwind's defenders."
+   "text": "As an Alliance member, you help uncover Defias movements and documents in Elwynn Forest. This intelligence goes to Stormwind's defenders."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "who gives tome of divinity",
     "where do i get tome of divinity"
    ],
-   "answer": "This stage of the quest line is initiated after locating Henze Faulk, who is injured on an island in Elwynn Forest, and concludes by reporting back to Gazin Tenorm in the Cathedral of Light in Stormwind.",
+   "answer": "You meet Henze Faulk, who lies injured on an island in Elwynn Forest. Afterward, report to Gazin Tenorm in the Cathedral of Light in Stormwind.",
    "q": "Who is involved in this quest?"
   },
   {
@@ -37,7 +37,7 @@
     "henze faulk lore",
     "who is the injured guy"
    ],
-   "answer": "Henze is an ally associated with the paladin trials who was injured while observing Defias activity. Though unfit for battle himself, he directs adventurers to secure proof of the brotherhood's infiltration.",
+   "answer": "Henze is an ally in the paladin trials who was injured while watching Defias activity. Unable to fight, he sends you to secure proof of the brotherhood's infiltration.",
    "q": "Who is Henze?"
   },
   {
@@ -46,7 +46,7 @@
     "where is gazin tenorm",
     "gazin stormwind"
    ],
-   "answer": "Gazin Tenorm is Henze's friend and a friend of Duthorian Rall, found near the altar of Stormwind's Cathedral of Light. He barely escaped the Defias at Heroes' Vigil and wants word that Henze is safe.",
+   "answer": "Gazin Tenorm is Henze's friend and a friend of Duthorian Rall. He can be found near the altar in Stormwind's Cathedral of Light. He barely escaped the Defias at Heroes' Vigil and wants to know Henze is safe.",
    "q": "Who is Gazin Tenorm?"
   },
   {
@@ -55,7 +55,7 @@
     "defias rogue wizards",
     "defias script"
    ],
-   "answer": "The Defias Brotherhood has established positions throughout Elwynn Forest, using rogue wizards to study plans and coordinate operations. The documents they carry contain direct evidence of their designs in the region.",
+   "answer": "The Defias Brotherhood has positions throughout Elwynn Forest. Its rogue wizards study plans and coordinate operations, and their documents show what they intend in the region.",
    "q": "Why are Defias Rogue Wizards operating on the island?"
   },
   {
@@ -64,7 +64,7 @@
     "heroes vigil elwynn",
     "is heroes vigil safe"
    ],
-   "answer": "Heroes' Vigil is a location in Elwynn Forest threatened by Defias operations. Gazin Tenorm hopes that neutralizing nearby rogue wizards and securing their papers will safeguard the site from further harm.",
+   "answer": "Heroes' Vigil is a place in Elwynn Forest threatened by Defias operations. Gazin Tenorm hopes that stopping nearby rogue wizards and taking their papers will protect it from further harm.",
    "q": "What is Heroes' Vigil?"
   },
   {
@@ -73,7 +73,7 @@
     "what are the papers",
     "defias papers elwynn"
    ],
-   "answer": "The Defias Script consists of written orders or correspondence carried by Defias Rogue Wizards, proving their infiltration and detailing their immediate schemes within Elwynn Forest.",
+   "answer": "The Defias Script is written orders or correspondence carried by Defias Rogue Wizards. It proves their infiltration and details their immediate schemes in Elwynn Forest.",
    "q": "What is the Defias Script?"
   }
  ],
@@ -95,23 +95,24 @@
  ],
  "sections": [
   {
-   "body": "The Tome of Divinity represents a pivotal rite of passage for paladins in training. In this trial, an initiate must track down Henze, an ally injured while monitoring illicit activity on an island in Elwynn Forest, and help uncover the extent of the local Defias infiltration.",
+   "body": "As a paladin in training, you are being tested in Elwynn Forest. Henze was injured while watching illicit activity on an island. Help him learn how far the Defias have spread there.",
    "spoiler": 0,
    "title": "A Paladin's Trial"
   },
   {
-   "body": "Henze discovers Defias Rogue Wizards reviewing secretive papers on the island but is too battered to fight them himself. He charges the initiate with defeating these rogue spellcasters and retrieving their script to expose their schemes before delivering the intelligence safely back to Gazin Tenorm in Stormwind.",
+   "body": "Henze found Defias Rogue Wizards studying secret papers on the island, but his injuries leave him unable to fight. You are sent to defeat the rogue spellcasters and recover their script. Then bring the intelligence safely to Gazin Tenorm in Stormwind.",
    "spoiler": 1,
    "title": "Infiltrators in Elwynn"
   },
   {
-   "body": "Securing the Defias Script confirms that the brotherhood poses an active threat to nearby lands like Heroes' Vigil. Returning the stolen intelligence to the Cathedral of Light proves both the initiate's dedication to the Light and Henze's survival.",
+   "body": "The Defias Script confirms the brotherhood threatens nearby lands, including Heroes' Vigil. Bring the stolen intelligence to the Cathedral of Light. Your return proves your devotion to the Light and that Henze survived.",
    "spoiler": 1,
    "title": "Defending the Kingdom"
   }
  ],
- "summary": "The Tome of Divinity is a key quest in the training of Alliance paladins seeking to prove their devotion to the Light. After aiding an injured scout named Henze in Elwynn Forest, the initiate must confront Defias Rogue Wizards to recover sensitive papers threatening the safety of the realm.",
+ "summary": "You are proving your devotion to the Light through a trial for Alliance paladins. After helping an injured scout in Elwynn Forest, you face Defias Rogue Wizards and seek papers that threaten the realm.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

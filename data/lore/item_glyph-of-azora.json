@@ -11,16 +11,16 @@
    "quest:248"
   ]
  },
- "summary": "From the Tower of Azora, Theocritus uses Glyphs of Azora to watch distant threats. The inscribed stones extend the Eye of Azora's reach, letting him read enemies' thoughts and plans.",
+ "summary": "From the Tower of Azora, Theocritus watches threats beyond Elwynn. His glyphs carry the Eye of Azora's power farther, so he can read enemies' thoughts and plans.",
  "sections": [
   {
    "title": "Eyes Across the Border",
-   "body": "Theocritus watches hostile powers from his tower in Elwynn Forest. His crystal relic, the Eye of Azora, lets him see across great distances, but cannot reach into the minds or plans of his adversaries. He places small focuses called Glyphs of Azora on surfaces far away to carry his magic farther. Each glyph anchors his power, letting him read enemy intentions and project his voice across miles to speak with field agents.",
+   "body": "From his tower in Elwynn Forest, Theocritus watches hostile powers. The Eye of Azora lets him see far away, but it cannot reach the minds or plans of his adversaries. So he places small focuses called Glyphs of Azora on distant surfaces. Each one anchors his magic, letting him read enemy intentions and project his voice across miles to speak with field agents.",
    "spoiler": 0
   },
   {
    "title": "Espionage in Redridge",
-   "body": "In the Redridge Mountains, Theocritus places glyphs in hostile territory. He fixes the first to an ancient lion statue overlooking the Tower of Ilgalar, where his rogue rival, the dark wizard Morganth, holds his stronghold. Through the glyph, Theocritus enters Morganth's mind and finds a dispute between the renegade mage and the Blackrock orcs at nearby Stonewatch Keep. To learn the cause, he sends a second glyph into the heights of the keep's intact watchtower, concealed in a discarded liquor jar.",
+   "body": "In the Redridge Mountains, Theocritus places glyphs in hostile territory. He fixes the first to an ancient lion statue overlooking the Tower of Ilgalar. His rival, the dark wizard Morganth, holds that stronghold. Through the glyph, Theocritus enters Morganth's mind and finds a dispute with the Blackrock orcs at nearby Stonewatch Keep. To learn the cause, he sends a second glyph into the heights of the keep's intact watchtower, hidden inside a discarded liquor jar.",
    "spoiler": 1
   }
  ],
@@ -68,7 +68,7 @@
     "theocritus voice in glyph",
     "can the glyph talk"
    ],
-   "answer": "Once fixed to a distant surface, the glyph anchors Theocritus's magic and lets him project his voice across miles to speak with field agents."
+   "answer": "Fixed to a distant surface, the glyph anchors Theocritus's magic. It lets him project his voice across miles to speak with field agents."
   }
  ],
  "angles": [
@@ -106,5 +106,5 @@
   "A Watchful Eye",
   "Looking Further"
  ],
- "style": 1
+ "style": 2
 }

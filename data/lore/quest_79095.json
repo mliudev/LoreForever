@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Horde scholars and adventurers assist Owen Thadd in Undercity by recovering rare treatises to bolster the library's arcane repositories."
+   "text": "As a member of the Horde, you can help Owen Thadd in Undercity recover rare treatises for the library's arcane collections."
   },
   {
    "target": "class:Mage",
-   "text": "Practitioners of the arcane value metaphysical primers for their deep insights into magical theory, alchemical interactions, and the foundational laws of spellcraft."
+   "text": "As a mage, you value metaphysical primers for their insights into magical theory, alchemical interactions, and the foundations of spellcraft."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "metaphysical primer quest",
     "what is this book"
    ],
-   "answer": "The Apothecary's Metaphysical Primer is a rare scholarly text sought by curators to enrich their collection of magical literature and expand their understanding of metaphysical sciences.",
+   "answer": "Curators seek The Apothecary's Metaphysical Primer as a rare scholarly text for their collection of magical literature and study of metaphysical sciences.",
    "q": "What is The Apothecary's Metaphysical Primer?"
   },
   {
@@ -37,7 +37,7 @@
     "where do i turn in the primer",
     "who takes the primer"
    ],
-   "answer": "The volume is brought to Owen Thadd in Undercity, who seeks out magical works and arcane treatises to preserve knowledge for researchers and spellcasters.",
+   "answer": "Owen Thadd in Undercity wants the primer delivered to him. He seeks magical works and arcane treatises to preserve knowledge for researchers and spellcasters.",
    "q": "Who wants this primer delivered to them?"
   },
   {
@@ -46,7 +46,7 @@
     "purpose of collecting primer",
     "why collect magical books"
    ],
-   "answer": "Libraries and archives gather metaphysical and magical works to systematically expand their repository of lore, aiding scholars, alchemists, and arcanists in studying arcane principles.",
+   "answer": "Libraries and archives gather metaphysical and magical works to expand their lore. These works help scholars, alchemists, and arcanists study arcane principles.",
    "q": "Why does the library collect works like this?"
   },
   {
@@ -55,7 +55,7 @@
     "can i bring other books",
     "more library books"
    ],
-   "answer": "Scholars tasked with cataloging magical literature welcome any further arcane and scholarly discoveries you uncover that can contribute to their archives.",
+   "answer": "Scholars who catalog magical literature welcome further arcane and scholarly discoveries you find for their archives.",
    "q": "Can you bring more magical works to the library?"
   },
   {
@@ -64,7 +64,7 @@
     "metaphysics lore wow",
     "what is apothecary metaphysics"
    ],
-   "answer": "In magical scholarship, metaphysics deals with the fundamental nature of magical energies, the unseen forces governing reality, and how physical reagents interact with arcane forces.",
+   "answer": "In magical scholarship, metaphysics concerns the nature of magical energies, the unseen forces governing reality, and how physical reagents interact with arcane forces.",
    "q": "What kind of lore is contained in a metaphysical primer?"
   },
   {
@@ -73,7 +73,7 @@
     "apothecary primer author",
     "who is the apothecary"
    ],
-   "answer": "The specific apothecary who penned the work remains unnamed in the records, but apothecaries and scholars often compile primers summarizing practical alchemy, herbal mixtures, and mystical formulas.",
+   "answer": "The records do not name the apothecary who wrote the primer. Apothecaries and scholars often compile primers on practical alchemy, herbal mixtures, and mystical formulas.",
    "q": "Who wrote The Apothecary's Metaphysical Primer?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "The Apothecary's Metaphysical Primer is a scholarly text covering esoteric and magical principles. Curators seeking to broaden their archives welcome the delivery of such treatises, adding the primer directly to their working collection of magical reference materials.",
+   "body": "Curators welcome The Apothecary's Metaphysical Primer for its study of esoteric and magical principles. Owen Thadd adds the text directly to his working collection of magical references.",
    "spoiler": 0,
    "title": "A Scholar's Acquisition"
   },
   {
-   "body": "Preserving specialized treatises is essential for libraries such as Owen Thadd's collection in Undercity. By turning over rare primers on arcane and alchemical theory, explorers help ensure that rare metaphysical insights are safely archived and accessible to researchers rather than lost to the wilderness.",
+   "body": "Owen Thadd's collection in Undercity preserves specialized treatises. By bringing him rare primers on arcane and alchemical theory, you help keep metaphysical insights safe in the archives and accessible to researchers instead of leaving them lost in the wilderness.",
    "spoiler": 0,
    "title": "Expanding the Archives"
   }
  ],
- "summary": "The Apothecary's Metaphysical Primer is a specialized magical text sought by curators to enrich scholarly archives. Turning it in helps preserve rare alchemical and arcane theory for researchers and spellcasters.",
+ "summary": "Curators seek The Apothecary's Metaphysical Primer to enrich their archives. Its delivery helps preserve rare alchemical and arcane theory for researchers and spellcasters.",
  "attribution": [
   "In-game quest text: The Apothecary's Metaphysical Primer"
- ]
+ ],
+ "style": 2
 }

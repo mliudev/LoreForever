@@ -35,7 +35,7 @@
     "randal emerson",
     "who gives directions"
    ],
-   "answer": "Randal Emerson is an attendant in Stormwind Keep’s southern antechamber. He gives travelers directions for reaching the other capital cities.",
+   "answer": "Randal Emerson is an attendant in Stormwind Keep’s southern antechamber. He gives travelers directions to the other capital cities.",
    "q": "Who is Randal Emerson?"
   },
   {
@@ -43,7 +43,7 @@
     "leaders visited",
     "who do i talk to"
    ],
-   "answer": "You visit King Magni Bronzebeard in Ironforge, High Tinker Gelbin Mekkatorque, and High Priestess Tyrande Whisperwind in Darnassus. Each leads a core race and seat of authority within the Alliance.",
+   "answer": "You visit King Magni Bronzebeard in Ironforge, High Tinker Gelbin Mekkatorque, and High Priestess Tyrande Whisperwind in Darnassus. Each leads a core race and holds authority within the Alliance.",
    "q": "Which leaders must be visited during this journey?"
   },
   {
@@ -67,7 +67,7 @@
     "guest of the alliance",
     "why guest"
    ],
-   "answer": "You are treated as an outsider newly arrived on Azeroth, and you are expected to understand the wider world so you can protect and aid your own people. The journey introduces you to the Alliance’s varied cultures.",
+   "answer": "You are treated as an outsider newly arrived on Azeroth, and are expected to understand the wider world so you can protect and aid your own people. The journey introduces you to the Alliance’s varied cultures.",
    "q": "Why is the adventurer treated as a guest of the Alliance?"
   }
  ],
@@ -95,24 +95,24 @@
  ],
  "sections": [
   {
-   "body": "Randal Emerson, an attendant in Stormwind Keep’s southern antechamber, sends you beyond the human capital. You are newly arrived on Azeroth, and the Alliance invites you to see its allied peoples firsthand. The journey takes you beyond the keep to learn the distinct cultures, traditions, and strength of those who stand with Stormwind.",
+   "body": "Randal Emerson, an attendant in Stormwind Keep’s southern antechamber, sends you beyond the human capital. Newly arrived on Azeroth, you are invited to see the Alliance’s allied peoples firsthand. The journey takes you beyond the keep to learn the distinct cultures, traditions, and strength of those who stand with Stormwind.",
    "spoiler": 0,
    "title": "A Tour of Allied Lands"
   },
   {
-   "body": "Your travels cross land and sea to the leaders of the Alliance. In Ironforge, you meet King Magni Bronzebeard in the mountain halls, and High Tinker Gelbin Mekkatorque, leader of the displaced gnomes. In Darnassus, atop Teldrassil, you meet High Priestess Tyrande Whisperwind. Their cities and peoples reveal the ties among humans, dwarves, gnomes, and night elves.",
+   "body": "Your travels cross land and sea to the leaders of the Alliance. In Ironforge, you meet King Magni Bronzebeard in the mountain halls and High Tinker Gelbin Mekkatorque, leader of the displaced gnomes. In Darnassus atop Teldrassil, you meet High Priestess Tyrande Whisperwind. Their cities and peoples reveal the ties among humans, dwarves, gnomes, and night elves.",
    "spoiler": 0,
    "title": "Audiences with the High Seats"
   },
   {
-   "body": "After the long journey, you return to Stormwind. Understanding Azeroth helps you aid your own people, while your order prepares to establish itself in Dalaran. For now, the troubled territories near the capital need help, beginning with Westfall’s struggling farmlands.",
+   "body": "After the long journey, you return to Stormwind. Knowing more of Azeroth helps you aid your own people, while your order prepares to establish itself in Dalaran. For now, the troubled territories near the capital need help, beginning with Westfall’s struggling farmlands.",
    "spoiler": 0,
    "title": "A World in Need of Aid"
   }
  ],
- "summary": "You begin Exploring the Alliance in Stormwind Keep, then travel to meet the rulers of Ironforge and Darnassus. Their lands show the breadth of the Alliance before you turn toward Westfall.",
+ "summary": "In Stormwind Keep, you begin a journey to meet the rulers of Ironforge and Darnassus. Their lands show you the breadth of the Alliance before you turn toward Westfall.",
  "attribution": [
   "In-game quest text: Exploring the Alliance"
  ],
- "style": 1
+ "style": 2
 }

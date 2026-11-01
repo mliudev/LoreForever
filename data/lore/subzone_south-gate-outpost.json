@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "South Gate Outpost"
  },
- "summary": "Travelers stream through South Gate Outpost, a fortified post on the pass between Dun Morogh and Loch Modan. Its mountaineers guard the southern road between Ironforge's frigid heights and the Loch's temperate valley.",
+ "summary": "At South Gate Outpost, mountaineers guard the pass between Dun Morogh and Loch Modan. Their fortified post watches the southern road from Ironforge's frigid heights to the Loch's temperate valley.",
  "sections": [
   {
    "title": "Watchers of the Southern Road",
-   "body": "South Gate Outpost marks the frontier between Dun Morogh's snowy slopes and Loch Modan's basin. Ironforge mountaineers patrol the rocky switchbacks and keep dangerous wildlife off the main highway. Unlike their hard-pressed kin at North Gate Outpost, these defenders have largely secured their stretch of road. Travelers, pilgrims, and trade wagons can journey toward Thelsamar in relative safety.",
+   "body": "At South Gate Outpost, snowy slopes give way to Loch Modan's basin. Ironforge mountaineers patrol the rocky switchbacks and keep dangerous wildlife off the main highway. Their kin at North Gate Outpost face a harder fight, but the southern road is largely secure. Travelers, pilgrims, and trade wagons can reach Thelsamar in relative safety.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "is south gate safe",
     "south gate vs north gate"
    ],
-   "answer": "The South Gate garrison has culled aggressive wildlife immediately bordering the road. North Gate Outpost faces heavier incursions and wilder mountain terrain, leaving the southern pass comparatively calm."
+   "answer": "South Gate's garrison has culled aggressive wildlife beside the road. North Gate Outpost faces heavier incursions and wilder mountain terrain, leaving the southern pass comparatively calm."
   },
   {
    "q": "Where does the road through South Gate Outpost lead?",
@@ -41,7 +41,7 @@
     "south gate road destination",
     "south gate pass path"
    ],
-   "answer": "Travel west up the pass into Dun Morogh's snowy highlands, toward Ironforge. Eastward, the road leads directly downhill into Loch Modan's temperate valley, then winds toward Thelsamar."
+   "answer": "Westward, the road climbs through the pass into Dun Morogh's snowy highlands toward Ironforge. Eastward, it descends into Loch Modan's temperate valley, then winds toward Thelsamar."
   }
  ],
  "angles": [
@@ -51,7 +51,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, South Gate Outpost offers a dependable military shelter along one of Khaz Modan's primary domestic supply lines, keeping the passage between the capital and eastern settlements open."
+   "text": "For the Alliance, South Gate Outpost offers dependable military shelter along one of Khaz Modan's primary domestic supply lines. It keeps the passage between the capital and eastern settlements open."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "South Gate Outpost"
  ],
- "style": 1
+ "style": 2
 }

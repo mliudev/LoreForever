@@ -8,11 +8,11 @@
   "wiki": "Major Samuelson",
   "refs": 1
  },
- "summary": "In Stormwind Keep, Major Samuelson commands the city guard and its personnel. The high-ranking veteran officer serves in the throne room and once mentored Lieutenant Farren Orinelle.",
+ "summary": "In Stormwind Keep, Major Samuelson directs the city guard and its officers. He serves in the throne room and once mentored Lieutenant Farren Orinelle.",
  "sections": [
   {
    "title": "A Pillar of Stormwind's Guard",
-   "body": "Before Stormwind's royal court, Major Samuelson leads the Stormwind City Guard. He oversees officer postings and military orders across the realm. He mentored Lieutenant Farren Orinelle, who serves at Southshore in the Hillsbrad Foothills. When junior commanders struggle or seek transfer from distant frontier garrisons, their requests and official reports travel across the kingdom to Samuelson's desk in the capital.",
+   "body": "Major Samuelson leads the Stormwind City Guard before the royal court. From the capital, he oversees officer postings and military orders across the realm. He once mentored Lieutenant Farren Orinelle, now stationed at Southshore in the Hillsbrad Foothills.\n\nJunior commanders at distant frontier garrisons send their reports and requests for transfer to Samuelson. When they struggle, their appeals reach his desk in Stormwind.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "major samuelson identity",
     "who is the major in keep"
    ],
-   "answer": "Major Samuelson is a Stormwind City Guard officer stationed in the throne room of Stormwind Keep. As an administrative commander, he oversees officer deployments and personnel."
+   "answer": "Major Samuelson commands the Stormwind City Guard from Stormwind Keep's throne room. He oversees officer postings and personnel."
   },
   {
    "q": "Where can Major Samuelson be found?",
@@ -33,7 +33,7 @@
     "where is major samuelson",
     "find samuelson"
    ],
-   "answer": "Major Samuelson stands in the throne room of Stormwind Keep, inside Stormwind City, near the boy-king Anduin Wrynn and Highlord Bolvar Fordragon."
+   "answer": "Major Samuelson stands in Stormwind Keep's throne room, near the boy-king Anduin Wrynn and Highlord Bolvar Fordragon."
   },
   {
    "q": "What is his connection to Southshore?",
@@ -42,7 +42,7 @@
     "lieutenant farren orinelle mentor",
     "samuelson hillsbrad"
    ],
-   "answer": "Major Samuelson mentored Lieutenant Farren Orinelle, stationed at Southshore in the Hillsbrad Foothills. Orinelle seeks reassignment from his stressful northern post through Samuelson."
+   "answer": "Major Samuelson mentored Lieutenant Farren Orinelle, who is stationed at Southshore in the Hillsbrad Foothills. Orinelle seeks reassignment from his stressful northern post through Samuelson."
   },
   {
    "q": "Why do adventurers seek him out?",
@@ -51,13 +51,13 @@
     "reassignment quest",
     "why talk to samuelson"
    ],
-   "answer": "Adventurers traveling from the northern front in Hillsbrad bring Lieutenant Farren Orinelle's official reassignment request to Major Samuelson in Stormwind Keep."
+   "answer": "Travelers from the northern front in Hillsbrad bring Lieutenant Farren Orinelle's official reassignment request to Major Samuelson in Stormwind Keep."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Major Samuelson serves in the royal throne room and directs Stormwind's military personnel across contested lands such as Hillsbrad."
+   "text": "As an Alliance officer, Major Samuelson directs Stormwind's military personnel from the royal throne room, including those serving in contested lands such as Hillsbrad."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Major Samuelson"
  ],
- "style": 1
+ "style": 2
 }

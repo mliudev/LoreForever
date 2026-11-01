@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Northshire Valley"
  },
- "summary": "Northshire Valley shelters Stormwind's newest defenders in northern Elwynn Forest. Natural barriers guard the peaceful valley, where ancient Northshire Abbey, fertile vineyards, and the rich Echo Ridge Mine sustain a pocket of the kingdom. Bandits, kobolds, and displaced predators now trouble its quiet pastures.",
+ "summary": "Northshire Valley, in the hills of northern Elwynn, is where Stormwind's newest defenders begin. Mountain ridges guard it on every side but one. At its heart stands the ancient abbey, with fertile vineyards and a rich mine close by. But bandits and kobolds trouble the valley now, and wolves prowl its quiet pastures.",
  "sections": [
   {
    "title": "A Secluded Sanctuary",
-   "body": "Northshire Valley lies behind mountain ridges, with one road south through a fortified gatehouse toward Goldshire and the rest of Elwynn Forest. A clear river crosses the pastures and flows into Crystal Lake. At the valley's heart, ancient Northshire Abbey teaches the Holy Light and trains recruits under the Knights of the Silver Hand and seasoned veterans. Beyond its walls, the fertile Northshire Vineyards and Echo Ridge Mine make this a self-sustaining pocket of Stormwind territory, far from the wars beyond its ridges.",
+   "body": "The only way out is the road south. It runs through a fortified gatehouse, on toward Goldshire and the rest of the forest. A clear river crosses the pastures and flows into Crystal Lake. In the abbey, recruits train under seasoned veterans and the Knights of the Silver Hand. With its vineyards and its mine, the valley has all it needs, far from the wars beyond its ridges.",
    "spoiler": 0
   },
   {
    "title": "Encroaching Troubles",
-   "body": "Stormwind's overextended defenses have strained even this sheltered valley. Marshal McBride and his detachment of the Stormwind Guard struggle to maintain order across it. Wolves driven north from blighted Duskwood prowl the woods, while kobolds have overrun Echo Ridge Mine's tunnels. Masked thugs aligned with the Defias Brotherhood harass the vineyards and threaten the abbey grounds, so local commanders recruit every able-bodied civilian who arrives at the gates.",
+   "body": "But even here, Stormwind's defenses are stretched thin. In the valley, Marshal McBride and his detachment of the Guard struggle to keep order. So the commanders here take on every able-bodied soul who reaches the gates. They need every one of them.\n\nWolves have come north out of darkened Duskwood. Kobolds have overrun the tunnels of Echo Ridge Mine. And masked thugs of the Defias Brotherhood harass the vineyards. They threaten even the abbey grounds.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "gate in northshire",
     "who protects northshire"
    ],
-   "answer": "Northshire Valley guards Northshire Abbey, a spiritual center and training ground for Stormwind's forces, as well as the vineyards and Echo Ridge Mine. With Stormwind's forces stretched thin, Marshal McBride holds the southern pass behind a guarded gate to keep threats from passing between the valley and greater Elwynn Forest."
+   "answer": "Northshire Valley guards Northshire Abbey, a spiritual center and training ground for Stormwind's forces, where recruits learn the Holy Light, as well as the vineyards and Echo Ridge Mine. With Stormwind's forces stretched thin, Marshal McBride holds the southern pass behind a guarded gate to keep threats from passing between the valley and greater Elwynn Forest."
   },
   {
    "q": "Where did all the wolves in the valley come from?",
@@ -110,5 +110,5 @@
  "attribution": [
   "Northshire Valley"
  ],
- "style": 1
+ "style": 2
 }

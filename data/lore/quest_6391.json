@@ -17,16 +17,16 @@
   "wiki": "Ride to Ironforge (Classic)",
   "chain": []
  },
- "summary": "You carry Brock Stoneseeker's list from Thelsamar to Golnir Bouldertoe at Ironforge's Great Forge. The names belong to Brock's top mining students.",
+ "summary": "Brock Stoneseeker sends you from Thelsamar to Ironforge with the names of his finest mining students. You carry his list to Golnir Bouldertoe at the Great Forge.",
  "sections": [
   {
    "title": "Taking to the Skies",
-   "body": "Young mountaineers and travelers often make their first gryphon flight between Thelsamar and Ironforge. Gryphon Master Thorgrum Borrelson handles the trip, carrying travelers over Dun Morogh's snowy ridges and into the mountain fortress.",
+   "body": "Thorgrum Borrelson carries you from Thelsamar over Dun Morogh's snowy ridges to the mountain fortress. For many young mountaineers and travelers, this is their first flight on a gryphon.",
    "spoiler": 0
   },
   {
    "title": "Honors of the Deep Mountain Guild",
-   "body": "Brock Stoneseeker sends word from Thelsamar about his most promising mining pupils. At the Great Forge, Golnir Bouldertoe inscribes their names on ceremonial honorary picks, recognizing their hard work in Loch Modan's quarries and mines.",
+   "body": "At the Great Forge, Golnir Bouldertoe carves the students' names into ceremonial honorary picks. These honors recognize their hard work in Loch Modan's quarries and mines.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where do i fly",
     "ride destination"
    ],
-   "answer": "The flight begins with Thorgrum Borrelson in Thelsamar, Loch Modan, and ends at the flight roost by the Great Forge in Ironforge."
+   "answer": "Thorgrum Borrelson carries you from Thelsamar in Loch Modan to the flight roost by Ironforge's Great Forge."
   },
   {
    "q": "What is Brock's List?",
@@ -47,7 +47,7 @@
     "who is brock",
     "what is the paper"
    ],
-   "answer": "Brock Stoneseeker's list names his finest mining students in Thelsamar so the guild in Ironforge can recognize their diligence."
+   "answer": "Brock Stoneseeker's list names his finest mining students in Thelsamar, so the guild in Ironforge can honor their diligence."
   },
   {
    "q": "Who is Golnir Bouldertoe?",
@@ -56,7 +56,7 @@
     "where is golnir",
     "who is golnir bouldertoe"
    ],
-   "answer": "Golnir Bouldertoe represents the Deep Mountain Mining Guild at Ironforge's Great Forge. He receives rosters from local trainers and chisels the students' names into honorary picks."
+   "answer": "Golnir Bouldertoe represents the Deep Mountain Mining Guild at Ironforge's Great Forge. He receives rosters from local trainers and carves the students' names into honorary picks."
   },
   {
    "q": "What happens after you deliver the list?",
@@ -65,7 +65,7 @@
     "what to do after",
     "follow up"
    ],
-   "answer": "After Golnir receives the roster, he sends you to Gryth Thurden, Ironforge's master gryphon handler, to learn about the kingdom's aerial routes."
+   "answer": "Once Golnir receives the roster, he sends you to Gryth Thurden, Ironforge's master gryphon handler, to learn about the kingdom's aerial routes."
   },
   {
    "q": "Why use a gryphon instead of walking?",
@@ -74,7 +74,7 @@
     "can i walk to ironforge",
     "why gryphon"
    ],
-   "answer": "The mountain road and tunnels reach Ironforge's Gates, but the gryphon flight teaches you how quickly Alliance travelers can move between settlements."
+   "answer": "The mountain road and tunnels reach Ironforge's Gates, but flying by gryphon shows how quickly Alliance travelers can move between settlements."
   },
   {
    "q": "What is an honorary pick?",
@@ -83,13 +83,13 @@
     "pick reward",
     "mining pick ceremony"
    ],
-   "answer": "An honorary pick is a ceremonial tool the Deep Mountain Mining Guild gives to outstanding mining students who have learned basic excavation and geology from regional instructors."
+   "answer": "An honorary pick is a ceremonial tool the Deep Mountain Mining Guild gives to outstanding students of mining. Regional instructors teach them the basics of excavation and geology."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "As a miner, you see how the Deep Mountain Mining Guild recognizes promising miners from Loch Modan's pits by engraving their names."
+   "text": "As a miner, you see how the Deep Mountain Mining Guild honors promising miners from Loch Modan's pits by carving their names into picks."
   },
   {
    "target": "race:Dwarf",
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can rely on gryphon routes to connect Khaz Modan's frontline garrisons with its capital."
+   "text": "As an Alliance traveler, you can rely on gryphon routes to link Khaz Modan's frontline garrisons with its capital."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Ride to Ironforge (Classic)"
  ],
- "style": 1
+ "style": 2
 }

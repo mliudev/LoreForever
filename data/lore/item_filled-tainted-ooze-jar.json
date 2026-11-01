@@ -10,16 +10,16 @@
    "quest:4512"
   ]
  },
- "summary": "In Felwood, tainted ooze is gathered from the remains of corrupted oozes. The samples travel in containment jars to Ironforge, where they support bold theories about life’s origins on Azeroth.",
+ "summary": "In Felwood, a Filled Tainted Ooze Jar carries samples of corruption to Ironforge. The samples may help explain how life began on Azeroth.",
  "sections": [
   {
    "title": "Slime of the Corrupted Wood",
-   "body": "Across northern Kalimdor, tainted oozes carry Felwood’s lingering corruption. Gnomish researchers provide jars to contain them safely. Most travelers keep clear of the noxious creatures, but their remains yield samples for natural philosophy and biological study far from the blighted woods.",
+   "body": "Across northern Kalimdor, tainted oozes bear Felwood’s lingering corruption. Gnomish researchers provide jars to hold them safely. Most travelers keep clear of these noxious creatures, yet their remains yield samples for natural philosophy and biological study far from the blighted woods.",
    "spoiler": 0
   },
   {
    "title": "Geardawdle's Grand Theory",
-   "body": "Laris Geardawdle, a gnome scholar with the Explorers' League in Ironforge, gathers the samples. He is fascinated by how common slimes are, and has noticed the Forsaken's Royal Apothecary Society taking an interest in them as well. Many scholars dismiss his theory, but Geardawdle believes slimes and oozes may be primal secretions tied to Azeroth's creation. He seeks proof and a place among dwarven scholars after Gnomeregan's tragic fall.",
+   "body": "Laris Geardawdle, a gnome scholar with the Explorers' League in Ironforge, gathers the samples. The commonness of slimes fascinates him, and he has seen the Forsaken's Royal Apothecary Society take an interest in them too.\n\nMany scholars dismiss Geardawdle's theory. He believes slimes and oozes may be primal secretions tied to Azeroth's creation. He seeks proof, and a place among dwarven scholars after Gnomeregan's tragic fall.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "laris geardawdle quest",
     "who wants tainted ooze"
    ],
-   "answer": "Laris Geardawdle, a gnome researcher working with the Explorers' League in Ironforge's Hall of Explorers, wants the samples for his natural history studies."
+   "answer": "Laris Geardawdle, a gnome researcher with the Explorers' League in Ironforge's Hall of Explorers, wants the samples for his natural history studies."
   },
   {
    "q": "Why is Laris Geardawdle studying oozes?",
@@ -49,7 +49,7 @@
     "geardawdle slime theory",
     "why does the gnome want ooze"
    ],
-   "answer": "Geardawdle saw the Royal Apothecary Society gathering slime samples and set out to understand their nature. He believes oozes are primordial secretions tied to Azeroth's creation, and hopes to earn a name for himself as a scientist in Ironforge."
+   "answer": "Geardawdle saw the Royal Apothecary Society gathering slime samples and set out to understand their nature. He believes oozes are primordial secretions tied to Azeroth's creation, and hopes to earn a name as a scientist in Ironforge."
   },
   {
    "q": "Where are these samples collected?",
@@ -58,17 +58,17 @@
     "tainted ooze jar location",
     "where do i fill the jar"
    ],
-   "answer": "You gather the samples in Felwood by defeating Tainted Oozes and using an empty containment jar on their remains."
+   "answer": "You gather the samples in Felwood by defeating Tainted Oozes, then using an empty containment jar on their remains."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome refugee in Ironforge, your scientific work with the Explorers' League can help prove your worth and repay dwarven hospitality after Gnomeregan's tragedy."
+   "text": "As a gnome refugee in Ironforge, your scientific work with the Explorers' League can prove your worth and repay dwarven hospitality after Gnomeregan's tragedy."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance scout, you keep close watch on the Forsaken's Royal Apothecary Society. Learning why the Undercity gathers slime across the continents is a key intelligence priority."
+   "text": "As an Alliance scout, you watch the Forsaken's Royal Apothecary Society closely. Learning why the Undercity gathers slime across the continents is a key intelligence priority."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Filled Tainted Ooze Jar",
   "A Little Slime Goes a Long Way"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "A Dynamite Plan",
   "chain": []
  },
- "summary": "Sprite Jumpsprocket is eager to put dynamite to work in Stormwind. The inventive tinkerer in the Dwarven District has heard talk of industrial sabotage and wants a supply of coarse dynamite to begin her plan.",
+ "summary": "In Stormwind's Dwarven District, Sprite Jumpsprocket is eager to begin a plan sparked by talk of industrial sabotage. She wants ten sticks of coarse dynamite.",
  "sections": [
   {
    "title": "Sparks in the Dwarven District",
-   "body": "Sprite Jumpsprocket, a gnome engineer in Stormwind's Dwarven District, welcomes talk of industrial sabotage. Rather than urge caution, she asks passing mercenaries to bring her a bundle of coarse dynamite.",
+   "body": "Sprite Jumpsprocket is a gnome engineer in Stormwind's Dwarven District. She welcomes talk of industrial sabotage and asks passing mercenaries to bring her a bundle of coarse dynamite.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Ambitions",
-   "body": "You can make coarse dynamite at an engineering workbench or trade with the city's craftsmen. Sprite asks for ten sticks, enough to disrupt the industrial schemes unfolding in the surrounding territories. Her plan shows the practical, perilous methods gnomes favor when facing mechanical and political disruptions.",
+   "body": "You can make coarse dynamite at an engineering workbench or trade with the city's craftsmen. Sprite asks for ten sticks, enough to disrupt industrial schemes unfolding in the surrounding territories. Her plan shows the practical, perilous methods gnomes favor when facing mechanical and political disruptions.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is sprite",
     "quest giver"
    ],
-   "answer": "Sprite Jumpsprocket is an engineer in the Dwarven District of Stormwind City, among its smithies and workshops. She pursues bold, volatile engineering projects."
+   "answer": "Sprite Jumpsprocket is an engineer in Stormwind City's Dwarven District, among its smithies and workshops. She pursues bold, volatile engineering projects."
   },
   {
    "q": "What does Sprite need for this task?",
@@ -118,5 +118,5 @@
  "attribution": [
   "A Dynamite Plan"
  ],
- "style": 1
+ "style": 2
 }

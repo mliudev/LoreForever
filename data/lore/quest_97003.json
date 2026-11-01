@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The orc Gur'ak issues this call to arms under the traditional Horde battle cry 'Blood and thunder,' tasking adventurers with cutting down a dangerous menace lurking in the Barrens."
+   "text": "Gur'ak, an orc, calls Horde travelers to hunt a dangerous menace in the Barrens with the battle cry Blood and thunder."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking down a monstrous beast rumored to be five times larger than normal quilboar demands a hunter's keen instincts and preparation for formidable prey."
+   "text": "As a Hunter, tracking a beast said to be five times larger than an ordinary quilboar calls for keen instincts and preparation for formidable prey."
   },
   {
    "target": "class:Warrior",
-   "text": "Facing a brutal creature known for an insatiable bloodthirst requires frontline warriors ready to brace against overwhelming physical fury."
+   "text": "As a Warrior, you face a brutal creature with an unquenchable bloodlust. Be ready to brace against its overwhelming physical fury."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "what is cholaruk",
     "the ravener"
    ],
-   "answer": "Chol'aruk, also called The Ravener by the Razormane tribe, is a legendary and monstrous quilboar. Rumored to be five times the size of standard quilboar, it possesses an insatiable thirst for blood and lairs within a deep cave in the Barrens.",
+   "answer": "The Razormane call Chol'aruk an enormous quilboar known as The Ravener. They say it is roughly five times the size of an ordinary quilboar, thirsts endlessly for blood, and lairs in a deep cave in the Barrens.",
    "q": "Who is Chol'aruk the Ravener?"
   },
   {
@@ -41,7 +41,7 @@
     "cholaruk location",
     "where is thorn hill cave"
    ],
-   "answer": "Chol'aruk dwells deep within a cave at Thorn Hill, situated northeast of Gur'ak's encampment in the Barrens. Adventurers must venture into Thorn Hill's caverns to find its lair.",
+   "answer": "Chol'aruk lairs deep in a cave at Thorn Hill, northeast of Gur'ak's encampment in the Barrens. Travelers must enter Thorn Hill's caverns to reach it.",
    "q": "Where can Chol'aruk be found?"
   },
   {
@@ -50,7 +50,7 @@
     "who is gurak",
     "gurak barrens"
    ],
-   "answer": "Gur'ak, an orc stationed in the Barrens, offers the task. Unlike others who dismiss stories of the giant beast as mere tavern talk, Gur'ak believes the rumors because he has faced similar monstrosities before.",
+   "answer": "Gur'ak, an orc in the Barrens, sends travelers after Chol'aruk. He believes the rumors because he has faced similar beasts before.",
    "q": "Who offers the hunt for Chol'aruk?"
   },
   {
@@ -58,7 +58,7 @@
     "why kill cholaruk",
     "cholaruk bounty reason"
    ],
-   "answer": "Gur'ak wants Chol'aruk destroyed to eliminate a savage threat terrorizing the region and demands the beast's severed head as proof that the Ravener has fallen.",
+   "answer": "Gur'ak wants Chol'aruk destroyed because it terrorizes the region. He asks for the beast's severed head as proof that the Ravener has fallen.",
    "q": "Why is Gur'ak hunting Chol'aruk?"
   },
   {
@@ -67,7 +67,7 @@
     "is cholaruk hard",
     "bring group for cholaruk"
    ],
-   "answer": "Gur'ak explicitly warns travelers not to seek out Chol'aruk alone. Given its reported enormous size and ferocious bloodlust, taking down the Ravener is intended as a formidable challenge requiring a prepared hunting party.",
+   "answer": "Gur'ak warns travelers not to face Chol'aruk alone. Its reported size and bloodlust make it a formidable foe, so he calls for a prepared hunting party.",
    "q": "Should I fight Chol'aruk alone?"
   },
   {
@@ -76,7 +76,7 @@
     "razormane cholaruk",
     "why razormane fear him"
    ],
-   "answer": "Quilboar are boar-like humanoids native to the plains of central Kalimdor, with the Razormane tribe inhabiting parts of the Barrens. The Razormane themselves speak of Chol'aruk with dread, giving the beast the title 'The Ravener'.",
+   "answer": "The Razormane quilboar speak of Chol'aruk with dread and call it The Ravener. The Razormane are a quilboar tribe living in parts of the Barrens, and quilboar are boar-like humanoids native to central Kalimdor.",
    "q": "What is the connection between Chol'aruk and the Razormane quilboar?"
   }
  ],
@@ -98,18 +98,19 @@
  ],
  "sections": [
   {
-   "body": "In the arid expanse of the Barrens, whispers among the Razormane quilboar tell of Chol'aruk, an enormous terror dubbed 'The Ravener'. According to regional rumors, this nightmarish brute makes its lair deep in a cavern at Thorn Hill, northeast of the local trails. The quilboar claim it stands roughly five times the size of an ordinary quilboar, driven by a violent, unquenchable thirst for blood. While many dismiss such tales as exaggerated campfire stories, Gur'ak knows better from past battles with similar monstrosities.",
+   "body": "Razormane quilboar whisper of Chol'aruk, an enormous terror they call The Ravener. They say it lairs deep in a cavern at Thorn Hill, northeast of the local trails. By their account, it is roughly five times the size of an ordinary quilboar and driven by an unquenchable thirst for blood. Many dismiss the tales as campfire exaggeration. Gur'ak knows better from past battles with similar beasts.",
    "spoiler": 0,
    "title": "The Legend of the Ravener"
   },
   {
-   "body": "Recognizing the genuine danger posed by a beast of such magnitude, Gur'ak directs capable travelers to track the creature to its subterranean lair in Thorn Hill. His instructions are direct: put an end to the monstrous brute and return with its head as undisputed proof. Given Chol'aruk's rumored ferocity and colossal scale, Gur'ak issues a stern caution that only well-prepared groups should dare enter the cave to confront the Ravener.",
+   "body": "Gur'ak knows a beast of such size poses a real danger. He directs capable travelers to track Chol'aruk to its lair in Thorn Hill, end its threat, and bring back its head as proof. The Ravener is said to be ferocious and colossal. Gur'ak warns that only well-prepared groups should enter the cave to face it.",
    "spoiler": 0,
    "title": "Gur'ak's Warning"
   }
  ],
- "summary": "Chol'aruk the Ravener is a hunt in the Barrens targeting a colossal quilboar rumored to dwell in a cavern at Thorn Hill. Believing the dire tales after past encounters with similar beasts, the orc Gur'ak tasks adventurers with braving its lair and bringing back its head.",
+ "summary": "In the Barrens, Gur'ak sends travelers after a colossal quilboar called Chol'aruk the Ravener. He believes the tales and asks them to return with its head.",
  "attribution": [
   "In-game quest text: Chol'aruk the Ravener"
- ]
+ ],
+ "style": 2
 }

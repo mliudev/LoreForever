@@ -10,16 +10,16 @@
    "quest:3905"
   ]
  },
- "summary": "At Northshire Abbey, the Grape Manifest records grapes recovered from Milly Osworth's vineyard after brigands seized the harvest. The fruit is bound for the abbey's cellars.",
+ "summary": "At Northshire Abbey, Milly Osworth's recovered harvest is bound for the stores after brigands seized it.",
  "sections": [
   {
    "title": "A Record of the Harvest",
-   "body": "Milly Osworth tends a vineyard in Northshire Valley, where local farms help feed Northshire Abbey. Defias bandits seized the harvest, putting the abbey's supply of fresh fruit and fermentable grapes at risk. The Grape Manifest records the grapes reclaimed from the fields and their quantity, so the abbey's quartermasters can account for their stores and prepare barrels for fermentation.",
+   "body": "Northshire Abbey depends on nearby farms for its food and drink. The lost harvest put its stores in danger. Now the crates are reclaimed, and the quartermasters can balance supplies and ready barrels for fermentation. Milly Osworth's manifest records the quantity they need to plan.",
    "spoiler": 0
   },
   {
    "title": "The Abbey's Cellarer",
-   "body": "Brother Neals oversees Northshire Abbey's food and drink, and he enjoys sampling its wine in the quiet of the bell tower. The manifest tells him the grapes are coming, helping ensure monks and visiting recruits have drink. For the abbey's brothers, each saved bushel is a victory for their stores and a blessing from the Holy Light.",
+   "body": "Brother Neals oversees Northshire Abbey's food and drink. He enjoys sampling its wine in the quiet of the bell tower. Knowing the grapes are coming helps keep the monks and visiting recruits supplied with drink. Each saved bushel strengthens the abbey's stores and brings a blessing from the Holy Light.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "what is grape manifest",
     "grape manifest item"
    ],
-   "answer": "The Grape Manifest is an inventory written by Milly Osworth that records the harvest recovered from her overrun vineyard. It tracks the fresh grapes being delivered to Northshire Abbey."
+   "answer": "Milly Osworth's Grape Manifest records the harvest recovered from her overrun vineyard. It tracks the fresh grapes bound for Northshire Abbey."
   },
   {
    "q": "Who receives the manifest?",
@@ -39,7 +39,7 @@
     "who do i give grape manifest to",
     "where does grape manifest go"
    ],
-   "answer": "Brother Neals receives the manifest. He oversees the abbey's food and wine stores and often samples vintages in Northshire Abbey's bell tower."
+   "answer": "Brother Neals receives Milly Osworth's manifest. He oversees the abbey's food and wine stores and often samples vintages in Northshire Abbey's bell tower."
   },
   {
    "q": "Why were the grapes in danger?",
@@ -48,7 +48,7 @@
     "vineyard brigands",
     "what happened to milly harvest"
    ],
-   "answer": "Defias brigands descended on Northshire Valley and drove Milly Osworth from her vineyard, putting the harvest at risk and cutting off the abbey's fresh fruit until recruits intervened."
+   "answer": "Defias brigands drove Milly Osworth from her vineyard in Northshire Valley. The harvest was at risk, and the abbey lost its fresh fruit until recruits intervened."
   },
   {
    "q": "What does Brother Neals do with the grapes?",
@@ -56,17 +56,17 @@
     "what is grape used for",
     "abbey wine"
    ],
-   "answer": "Brother Neals uses the grapes to replenish the abbey's food stores and ferment fresh Northshire wine for the resident brotherhood and visiting defenders."
+   "answer": "Brother Neals uses the grapes to replenish the abbey's food stores and ferment fresh Northshire wine. The wine supplies the resident brotherhood and visiting defenders."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For cooks, the manifest shows how field harvests supply the abbey's stores and help feed its monastic community."
+   "text": "As a cook, you can see how field harvests supply the abbey's stores and help feed its monastic community."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you can see the early struggles of Stormwind's heartland: even monastic life and simple harvests need armed defense against roaming outlaws."
+   "text": "As a human, you see the early struggles of Stormwind's heartland. Even monastic life and simple harvests need armed defense against roaming outlaws."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Grape Manifest",
   "Grape Manifest (quest)"
  ],
- "style": 1
+ "style": 2
 }

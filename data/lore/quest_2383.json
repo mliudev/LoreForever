@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A parchment arrives while you are away, and the sender may be Frang, your class trainer. He is waiting outside the Den in the Valley of Trials.",
+ "summary": "A message waits for you in the Valley of Trials, sent while you were away. Frang, your class trainer, is outside the Den.",
  "sections": [
   {
    "title": "A Message from Frang",
-   "body": "The parchment asks you to read it and speak with Frang, who waits outside the Den in the Valley of Trials.",
+   "body": "The parchment asks you to read its words and speak with Frang. Your class trainer waits outside the Den in the Valley of Trials.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "parchment sender",
     "who wrote it"
    ],
-   "answer": "It appears to have come from Frang, your class trainer."
+   "answer": "The parchment appears to have come from Frang, your class trainer."
   },
   {
    "q": "Where can I find Frang?",
@@ -34,7 +34,7 @@
     "where's Frang",
     "Frang location"
    ],
-   "answer": "Frang is outside the Den in the Valley of Trials."
+   "answer": "Frang waits outside the Den in the Valley of Trials."
   },
   {
    "q": "What does Frang want?",
@@ -42,7 +42,7 @@
     "why Frang wants me",
     "parchment message"
    ],
-   "answer": "The parchment says Frang has words for you when you are ready."
+   "answer": "Frang has words for you when you are ready."
   },
   {
    "q": "What should I do with the parchment?",
@@ -63,10 +63,9 @@
   "valley of trials"
  ],
  "related": [
-  "quest:1089",
   "subzone:valley-of-trials"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Simple Parchment"
  ]

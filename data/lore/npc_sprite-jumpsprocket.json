@@ -8,16 +8,16 @@
   "wiki": "Sprite Jumpsprocket",
   "refs": 5
  },
- "summary": "In Stormwind's Dwarven District, Sprite Jumpsprocket works among gnomish and dwarven artisans. Like many gnomes who sought refuge after Gnomeregan fell, she pursues engineering alongside fellow tinkers.",
+ "summary": "In Stormwind's Dwarven District, Sprite Jumpsprocket works beside gnomish and dwarven artisans. Like many gnomes who sought refuge after Gnomeregan fell, she learns engineering among fellow tinkers.",
  "sections": [
   {
    "title": "A Tinker in Stormwind",
-   "body": "Sprite Jumpsprocket works as an apprentice engineer in Stormwind's Dwarven District, where gnomes and dwarves forge metal and design intricate devices side by side. She has made her place in the kingdom's capital, where apprentice tinkers hone their craft under experienced masters. Their inventive minds help maintain the Alliance's everyday mechanisms and marvels.",
+   "body": "In Stormwind's Dwarven District, Sprite Jumpsprocket trains as an apprentice engineer. Gnomes and dwarves work side by side there, forging metal and shaping intricate devices. The capital gives apprentice tinkers room to learn from experienced masters. Their work keeps the Alliance's everyday mechanisms and marvels in good order.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Ingenuity in Exile",
-   "body": "After Gnomeregan fell, displaced gnomes spread across Alliance lands, bringing their skill in tinkering, chemistry, and mechanics. In Stormwind, they found a welcoming sanctuary in the Dwarven District, with its blast furnaces and workbenches. Sprite Jumpsprocket reflects their resolve to master engineering despite the hardships her kin have faced.",
+   "body": "After Gnomeregan fell, displaced gnomes carried their skills in tinkering, chemistry, and mechanics across Alliance lands. In Stormwind, the Dwarven District offered them a welcome refuge, with blast furnaces and workbenches at hand. Sprite Jumpsprocket shares their resolve to master engineering despite the hardships her kin have faced.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is sprite",
     "sprite jumpsprocket lore"
    ],
-   "answer": "Sprite Jumpsprocket is a female gnome apprentice engineer living and working in Stormwind City's Dwarven District."
+   "answer": "Sprite Jumpsprocket is a female gnome apprentice engineer who lives and works in Stormwind City's Dwarven District."
   },
   {
    "q": "Where can I find Sprite Jumpsprocket?",
@@ -38,7 +38,7 @@
     "where is sprite",
     "find sprite jumpsprocket"
    ],
-   "answer": "You can find Sprite Jumpsprocket in Stormwind City's Dwarven District, among its workshops, anvils, and fellow engineering enthusiasts."
+   "answer": "You can find Sprite Jumpsprocket in Stormwind City's Dwarven District, among the workshops, anvils, and fellow engineering enthusiasts."
   },
   {
    "q": "What role does she serve in Stormwind?",
@@ -47,7 +47,7 @@
     "what does she do",
     "sprite jumpsprocket purpose"
    ],
-   "answer": "Sprite Jumpsprocket is an apprentice engineer. She represents gnomish tinkerers honing their inventive crafts in the Alliance capital."
+   "answer": "Sprite Jumpsprocket trains as an apprentice engineer in Stormwind. She is one of the gnomish tinkerers honing their craft in the Alliance capital."
   },
   {
    "q": "Why are gnomes like Sprite living in Stormwind?",
@@ -56,7 +56,7 @@
     "gnomes dwarven district",
     "gnome refugees"
    ],
-   "answer": "After Gnomeregan fell, many gnomes sought refuge among their dwarven cousins in Ironforge and throughout human lands, especially Stormwind City, where their industrial ingenuity is in high demand."
+   "answer": "After Gnomeregan fell, many gnomes sought refuge with their dwarven cousins in Ironforge and across human lands. Many settled in Stormwind City, where their industrial skill is in high demand."
   },
   {
    "q": "Is Sprite Jumpsprocket tied to any notable quests?",
@@ -64,7 +64,7 @@
     "sprite jumpsprocket quest",
     "quests for sprite"
    ],
-   "answer": "Sprite Jumpsprocket plays a minor role in the Dwarven District's local neighborhood as part of its engineering community."
+   "answer": "Sprite Jumpsprocket is part of the Dwarven District's engineering community."
   },
   {
    "q": "Is she associated with Westfall?",
@@ -72,21 +72,21 @@
     "sprite jumpsprocket westfall",
     "westfall engineer"
    ],
-   "answer": "Sprite Jumpsprocket is sometimes indexed near records for the surrounding southern kingdoms, but she is stationed in Stormwind City's Dwarven District. Engineering creations throughout the region often share gnomish designs."
+   "answer": "Sprite Jumpsprocket is stationed in Stormwind City's Dwarven District. Engineering creations across the region often share gnomish designs."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For an engineer, Sprite Jumpsprocket is a fellow student of sprockets, copper tubing, and volatile concoctions in Stormwind's most industrial enclave."
+   "text": "As an engineer, you can learn alongside Sprite Jumpsprocket among the sprockets, copper tubing, and volatile concoctions of Stormwind's most industrial district."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see in Sprite the perseverance of Gnomeregan's exiles, who continue their love of craft and mechanical mastery far from their lost homeland."
+   "text": "As a gnome, you share the perseverance of Gnomeregan's exiles. Far from their lost homeland, they keep their love of craft and mechanical mastery."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see in Sprite's work in the Dwarven District the everyday cooperation of humans, dwarves, and gnomes that supports the capital's infrastructure."
+   "text": "As an Alliance member, you can see how humans, dwarves, and gnomes work together in the Dwarven District. Their work helps keep the capital running."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Sprite Jumpsprocket"
  ],
- "style": 1
+ "style": 2
 }

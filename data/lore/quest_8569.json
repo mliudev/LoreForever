@@ -18,16 +18,16 @@
   "wiki": "Past Efforts in Warsong Gulch",
   "chain": []
  },
- "summary": "In Warsong Gulch, soldiers fight for Ashenvale while commanders honor their sacrifices. Capital officers accept the Ribbon of Sacrifice as a sign of steadfast service, even when battles bring no clear victory.",
+ "summary": "In Warsong Gulch, soldiers hold Ashenvale’s southern border while commanders honor their sacrifices. The Ribbon of Sacrifice marks steadfast service, even when battle brings no clear victory.",
  "sections": [
   {
    "title": "Honoring the Fallen and the Valiant",
-   "body": "The Silverwing Sentinels and Warsong Outriders fight brutal skirmishes along Ashenvale’s southern border. Many battles end without a clear victory. Stormwind, Orgrimmar, and other capitals honor those who hold their ground despite the odds. The Ribbon of Sacrifice marks fighters who gave themselves to the struggle.",
+   "body": "Along Ashenvale’s southern border, the Silverwing Sentinels and Warsong Outriders fight brutal skirmishes. Many battles end without a clear victory. Stormwind, Orgrimmar and other capitals honor those who hold their ground against the odds. The Ribbon of Sacrifice marks fighters who gave themselves to the struggle.",
    "spoiler": 0
   },
   {
    "title": "The War Effort at Home",
-   "body": "Far from the front, Alliance Brigadier Generals and Horde Warbringers oversee their forces. Recruiters send new fighters to Warsong Gulch, while quartermasters and tacticians account for veterans returning from hard campaigns. By honoring courage in stalemate or defeat, their leaders help keep soldiers committed to holding Ashenvale.",
+   "body": "Far from the front, Alliance Brigadier Generals and Horde Warbringers oversee their forces. Recruiters send new fighters to Warsong Gulch, while quartermasters and tacticians account for veterans returning from hard campaigns. By honoring courage in stalemate or defeat, leaders help keep soldiers committed to holding Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "past efforts purpose",
     "what does past efforts mean"
    ],
-   "answer": "The commendation honors fighters who gave everything in Warsong Gulch. Capital commanders accept the Ribbon of Sacrifice to recognize their perseverance and sustain morale."
+   "answer": "The Ribbon of Sacrifice honors fighters who gave everything in Warsong Gulch. Capital commanders accept it to recognize their perseverance and sustain morale."
   },
   {
    "q": "Who accepts these tokens of sacrifice?",
@@ -57,7 +57,7 @@
     "why reward loss",
     "heroic effort meaning"
    ],
-   "answer": "Commanders know the fighting in Ashenvale’s forests takes a heavy toll. Honoring soldiers’ dedication shows that their sacrifice matters even when they do not win."
+   "answer": "The fighting in Ashenvale’s forests takes a heavy toll. Honoring soldiers’ dedication shows their sacrifice matters, even when they do not win."
   },
   {
    "q": "Where does the conflict of Warsong Gulch take place?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Past Efforts in Warsong Gulch"
  ],
- "style": 1
+ "style": 2
 }

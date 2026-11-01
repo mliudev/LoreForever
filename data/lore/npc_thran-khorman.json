@@ -8,11 +8,11 @@
   "wiki": "Thran Khorman",
   "refs": 2
  },
- "summary": "At Anvilmar, Thran Khorman trains new warriors for the dangers of Coldridge Valley.",
+ "summary": "At Anvilmar, Thran Khorman readies new warriors for the dangers of Coldridge Valley.",
  "sections": [
   {
    "title": "Drillmaster of Coldridge Valley",
-   "body": "Thran Khorman drills dwarven recruits and visiting gnomes on the grounds of Anvilmar. Gruff and demanding, he has little patience for anyone who lacks the grit for front-line fighting. Though the Third War has ended, troggs press into Coldridge Pass, and danger still fills the mountains. Thran insists on relentless practice with axe, mace, and shield so Ironforge’s defenders stay ready.",
+   "body": "Thran Khorman drills dwarven recruits and visiting gnomes on Anvilmar’s grounds. Gruff and demanding, he has little patience for anyone without the grit for front-line fighting. The Third War has ended, yet troggs still press into Coldridge Pass. So Thran demands relentless practice with axe, mace, and shield, keeping Ironforge’s defenders ready.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is thran",
     "anvilmar warrior trainer"
    ],
-   "answer": "Thran Khorman trains warriors at Anvilmar in Dun Morogh. He gives novice warriors their first combat instruction in Coldridge Valley."
+   "answer": "At Anvilmar in Dun Morogh, Thran Khorman trains warriors. He gives novice warriors their first combat instruction in Coldridge Valley."
   },
   {
    "q": "What training does he offer?",
@@ -32,7 +32,7 @@
     "what does thran teach",
     "warrior skills thran"
    ],
-   "answer": "Thran teaches novice warriors the fundamentals of martial combat, including stances and melee techniques. He prepares them to face the troggs and wild beasts of the pass."
+   "answer": "Thran teaches novice warriors stances and melee techniques. He prepares them to face troggs and wild beasts in the pass."
   },
   {
    "q": "Why is he dismissed or curt with certain travelers?",
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a dwarven or gnomish warrior awakening in Coldridge Pass, Thran is the first master to test your mettle, give you your starter runes or orders, and teach you the basics of martial survival."
+   "text": "As a dwarven or gnomish warrior awakening in Coldridge Pass, Thran is the first master to test your mettle. He gives you your starter runes or orders and teaches you the basics of martial survival."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see in Thran the stubborn resolve of Ironforge’s defenders. He keeps them ready even in peacetime, so the kingdom is never caught unprepared."
+   "text": "As a dwarf, you can see the stubborn resolve of Ironforge’s defenders in Thran. He keeps them ready even in peacetime, so the kingdom is never caught unprepared."
   }
  ],
  "keywords": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Thran Khorman"
  ],
- "style": 1
+ "style": 2
 }

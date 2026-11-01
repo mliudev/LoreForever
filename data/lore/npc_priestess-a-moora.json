@@ -8,16 +8,16 @@
   "wiki": "Priestess A'moora",
   "refs": 3
  },
- "summary": "Priestess A'moora is a devout night elf servant of the Moon Goddess residing within the Temple of the Moon in Darnassus. Working closely under the guidance of High Priestess Tyrande Whisperwind's priesthood, she attends to rituals of spiritual purification and communion with Elune. Travelers exploring Teldrassil are often directed to her when matters involve sacred offerings and the mystical wildlife of the boughs.",
+ "summary": "Within Darnassus, Priestess A'moora serves Elune in the Temple of the Moon. She tends its rites and sacred offerings, including one tied to the fate of Lady Sathrah.",
  "sections": [
   {
    "title": "A Servant of Elune",
-   "body": "Within the serene marble halls of the Temple of the Moon, Priestess A'moora spends her days in contemplation and service. As an ordained priestess of Elune, she assists in tending the spiritual needs of Darnassus and preserving the delicate rituals passed down through millennia. While much of the Sisterhood oversees military defenses or diplomacy, A'moora focuses on traditional devotions and sacred matters concerning the natural spirits of Teldrassil.",
+   "body": "Priestess A'moora tends the rites of Elune in Darnassus. Within the Temple of the Moon, she serves the spiritual needs of the city and keeps the old devotions alive. While other members of the Sisterhood oversee defenses or diplomacy, A'moora attends to sacred matters concerning Teldrassil's natural spirits.",
    "spoiler": 0
   },
   {
    "title": "Tears of the Moon",
-   "body": "A'moora is tied to the sad fate of Lady Sathrah, a great spider once beloved of Elune whose silvery dew was kept in the temple for its healing powers. When Sathrah descended into madness, A'moora sent young adventurers to the northern borders of Teldrassil near Wellspring Lake to end her suffering and bring back her silvery spinnerets. Offered at the temple's fountain, the spinnerets become a sacrifice to Elune so that Sathrah might be reborn at peace.",
+   "body": "Lady Sathrah was a great spider beloved of Elune, and the temple kept her silvery dew for its healing powers. When Sathrah fell into madness, A'moora sent young adventurers to the northern borders of Teldrassil near Wellspring Lake to end her suffering and bring back her silvery spinnerets. At the temple's fountain, the spinnerets are offered to Elune so Sathrah may be reborn at peace.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is priestess amoora",
     "amoora darnassus"
    ],
-   "answer": "Priestess A'moora is located inside the Temple of the Moon in Darnassus, the capital city resting in the canopy of Teldrassil. She stands among the priestesses serving the altar of Elune."
+   "answer": "Priestess A'moora is inside the Temple of the Moon in Darnassus, the capital city in Teldrassil's canopy. She stands among the priestesses who serve Elune's altar."
   },
   {
    "q": "What is Priestess A'moora's role in Darnassus?",
@@ -37,7 +37,7 @@
     "what does amoora do",
     "priestess amoora purpose"
    ],
-   "answer": "She is a member of the Sisterhood of Elune who oversees specific religious ceremonies and sacred offerings. She acts as a quest giver and guide for travelers seeking to perform ancient rites of cleansing and sacrifice on Teldrassil."
+   "answer": "Priestess A'moora belongs to the Sisterhood of Elune and oversees religious ceremonies and sacred offerings. She guides travelers through rites of cleansing and sacrifice on Teldrassil."
   },
   {
    "q": "What quests does Priestess A'moora offer?",
@@ -45,7 +45,7 @@
     "amoora quests",
     "priestess amoora questline"
    ],
-   "answer": "She gives the Tears of the Moon quest chain, sending adventurers to slay the maddened spider Lady Sathrah near Wellspring Lake and then offer her silvery spinnerets as a sacrifice at the temple's fountain."
+   "answer": "Priestess A'moora sends adventurers to end the suffering of the maddened spider Lady Sathrah near Wellspring Lake. Then they offer Sathrah's silvery spinnerets to Elune at the temple's fountain."
   },
   {
    "q": "How is Priestess A'moora related to the Temple of the Moon?",
@@ -53,7 +53,7 @@
     "is amoora a temple priestess",
     "sisterhood of elune amoora"
    ],
-   "answer": "She is an active attendant in the Temple of the Moon, the spiritual heart of night elf culture ruled by High Priestess Tyrande Whisperwind. A'moora facilitates the spiritual instruction and ritual duties conducted under the temple's roof."
+   "answer": "Priestess A'moora attends the Temple of the Moon, the spiritual heart of night elf culture, ruled by High Priestess Tyrande Whisperwind. She helps with spiritual instruction and the temple's rites."
   },
   {
    "q": "Who is Sathrah, and why does A'moora speak of her?",
@@ -61,7 +61,7 @@
     "sathrah sacrifice",
     "who is sathrah"
    ],
-   "answer": "Lady Sathrah is a great spider once beloved of Elune, who dwells along Teldrassil's northern borders near Wellspring Lake. She has descended into madness, so A'moora asks adventurers to end her suffering and offer her spinnerets to Elune so she may be reborn at peace."
+   "answer": "Lady Sathrah is a great spider once beloved of Elune, dwelling near Wellspring Lake on Teldrassil's northern borders. Since Sathrah fell into madness, A'moora asks adventurers to end her suffering and offer her spinnerets to Elune so she may be reborn at peace."
   },
   {
    "q": "Does A'moora belong to the Alliance?",
@@ -69,21 +69,21 @@
     "is amoora alliance",
     "can horde talk to amoora"
    ],
-   "answer": "Yes. As a night elf priestess stationed within the capital city of Darnassus, she is fully aligned with the Alliance and will not offer assistance or quests to members of the Horde."
+   "answer": "Yes. Priestess A'moora is a night elf priestess in Darnassus and is aligned with the Alliance. She will not aid members of the Horde."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Priestess A'moora represents the timeless traditions of Elune worship, anchoring the young boughs of Teldrassil to the ancient spiritual heritage of their people."
+   "text": "For night elves, Priestess A'moora keeps Elune's old traditions alive, linking Teldrassil's young boughs to their people's ancient spiritual heritage."
   },
   {
    "target": "class:Priest",
-   "text": "Priests walking the halls of the Temple of the Moon can see in A'moora an example of dedicated devotion, bridging the gap between temple ritual and the natural world outside the city gates."
+   "text": "Priests in the Temple of the Moon can look to A'moora as an example of devotion, joining temple rites with the natural world beyond the city gates."
   },
   {
    "target": "faction:Alliance",
-   "text": "Priestess A'moora assists Alliance travelers exploring the holy heart of Darnassus, introducing them to the Sisterhood of Elune's sacred customs."
+   "text": "Priestess A'moora helps Alliance travelers explore Darnassus and learn the sacred customs of the Sisterhood of Elune."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Priestess A'moora"
- ]
+ ],
+ "style": 2
 }

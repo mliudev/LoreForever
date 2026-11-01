@@ -10,16 +10,16 @@
    "quest:322"
   ]
  },
- "summary": "In Duskwood, the Crate of Lightforge Ingots carries hope against Morbent Fel. The rare consecrated metal is bound for the Dwarven District in Stormwind.",
+ "summary": "In Stormwind, the Crate of Lightforge Ingots carries Duskwood's hope against Morbent Fel.",
  "sections": [
   {
    "title": "A Sacred Delivery",
-   "body": "Duskwood's hope rests in this crate of lightforge iron. The rare metal can channel holy power against dark entities, while Morbent Fel's protections turn aside ordinary steel. Only an artisan who knows its temper and honors its sacred nature can work it.",
+   "body": "Lightforge iron is rare, and its consecrated metal channels holy power against dark entities. Morbent Fel's protections turn aside ordinary steel, so Duskwood looks to these ingots against the necromancer. Only an artisan who knows the metal's temper and honors its sacred nature can work it.",
    "spoiler": 0
   },
   {
    "title": "The Weaponsmith of Stormwind",
-   "body": "Grimand Elmore is to receive the crate in Stormwind's Dwarven District. The skilled dwarven weaponsmith has not worked with lightforge iron in years, but agrees to forge it into a sanctified weapon. Its power is meant to break Morbent Fel's defenses and strike him down.",
+   "body": "The crate is bound for Grimand Elmore, a skilled dwarven weaponsmith in Stormwind's Dwarven District. He has not worked with lightforge iron in years, yet agrees to forge it into a sanctified weapon. The weapon is meant to break Morbent Fel's defenses and strike him down.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is lightforge iron",
     "what is in the box"
    ],
-   "answer": "The crate holds consecrated lightforge iron, gathered for a weapon meant to pierce the necromancer Morbent Fel's magical defenses."
+   "answer": "The crate holds consecrated lightforge iron for a weapon meant to pierce Morbent Fel's magical defenses."
   },
   {
    "q": "Who is supposed to receive this crate?",
@@ -49,7 +49,7 @@
     "why not normal iron",
     "morbent fel weakness"
    ],
-   "answer": "Morbent Fel's protections turn aside ordinary steel. Lightforge iron can channel holy power against dark entities."
+   "answer": "Morbent Fel's protections turn aside ordinary steel. Lightforge iron channels holy power against dark entities."
   },
   {
    "q": "Who crafted the crate?",
@@ -67,7 +67,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "These ingots answer the Holy Light, making weapons forged from them a natural bane to necromancers and their undead minions."
+   "text": "These ingots answer the Holy Light. Weapons forged from them are a natural bane to necromancers and their undead minions."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Crate of Lightforge Ingots",
   "Blessed Arm"
  ],
- "style": 1
+ "style": 2
 }

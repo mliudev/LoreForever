@@ -22,21 +22,21 @@
    "Counterattack! (Classic)"
   ]
  },
- "summary": "Kolkar Leaders begins a campaign led by the orc Regthar Deathgate to crush rising centaur warlords in the Barrens. The nomadic Kolkar have plagued the tauren for generations, but newly emerged chieftains are organizing their disorganized bands into a genuine military threat. Regthar tasks champions of the Horde with cutting down Barak Kodobane at the Forgotten Pools before his influence can spread.",
+ "summary": "Regthar Deathgate moves against Kolkar leaders gathering strength in the Barrens. The nomadic centaur have plagued the tauren for generations. Now new chieftains are uniting scattered bands into a military threat, and Regthar sends Horde champions against Barak Kodobane at the Forgotten Pools before his influence spreads.",
  "sections": [
   {
    "title": "A Rising Menace in the Drylands",
-   "body": "For countless years, the horse-bodied centaur have terrorized Kalimdor, driving the nomadic tauren nearly to extinction before Thrall's Horde arrived to turn the tide. In the Barrens, the dominant Kolkar tribe generally roams in scattered, fractured marauding parties. Recently, however, aggressive chieftains have begun uniting the disparate bands, turning simple raiding parties into a cohesive military threat capable of contesting the Horde's fortified outposts.",
+   "body": "Centaur have terrorized Kalimdor for countless years. Before Thrall's Horde arrived and turned the tide, they drove the nomadic tauren nearly to extinction. In the Barrens, the dominant Kolkar tribe usually roams in scattered marauding bands. Now aggressive chieftains are joining those bands together, making raiders strong enough to challenge the Horde's fortified outposts.",
    "spoiler": 0
   },
   {
    "title": "Decapitating the Beast",
-   "body": "Stationed in an encampment west of the Crossroads, the orc warrior Regthar Deathgate recognized that the Kolkar rely heavily on sheer bravado and brute force to maintain cohesion. Without strong commanders, their raiders degenerate into infighting. To blunt their advance, Regthar directs Horde adventurers to cut off the head of the snake, starting with Barak Kodobane, an ambitious leader camping near the verdant waters of the Forgotten Pools.",
+   "body": "Regthar Deathgate, an orc warrior, is stationed in an encampment west of the Crossroads. He knows boldness and brute force hold the Kolkar together. Without strong commanders, their raiders fall to infighting. So Regthar sends Horde champions against the leaders to blunt their advance. Barak Kodobane, an ambitious chieftain, is the first target. He is camped near the waters of the Forgotten Pools.",
    "spoiler": 0
   },
   {
    "title": "The First of Many",
-   "body": "Slaying Barak Kodobane deals a significant blow to the northern Kolkar encampments, yet Regthar knows Barak is merely the vanguard of a broader movement. His elimination marks the opening salvo of a concerted campaign to dismantle the Kolkar high command, paving the way to hunt down fellow chieftains Verog the Dervish and Hezrul Bloodmark across the Barrens.",
+   "body": "Barak Kodobane's death weakens the northern Kolkar encampments. Regthar knows Barak is only the first in a broader movement. His death opens a campaign against the Kolkar high command. Next come fellow chieftains Verog the Dervish and Hezrul Bloodmark, scattered across the Barrens.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who is barak",
     "barak kodobane lore"
    ],
-   "answer": "Barak Kodobane is a fierce Kolkar centaur leader who rallied marauders around the Forgotten Pools north of the Crossroads. Known for his wit and cruelty, he proved far more dangerous than ordinary nomadic raiders by organizing disparate clans into an offensive threat against the Horde."
+   "answer": "Barak Kodobane is a fierce Kolkar centaur leader who rallied marauders around the Forgotten Pools north of the Crossroads. His wit and cruelty made him more dangerous than ordinary nomadic raiders. He organized scattered clans into an offensive threat against the Horde."
   },
   {
    "q": "Where can I find Barak Kodobane?",
@@ -57,7 +57,7 @@
     "where is barak",
     "forgotten pools barak"
    ],
-   "answer": "Barak Kodobane maintains a camp at the Forgotten Pools, a lush oasis situated north of the Crossroads in the central Barrens. He is typically surrounded by loyal Kolkar guards."
+   "answer": "Barak Kodobane camps at the Forgotten Pools, an oasis north of the Crossroads in the central Barrens. Loyal Kolkar guards usually surround him."
   },
   {
    "q": "Who is Regthar Deathgate?",
@@ -66,7 +66,7 @@
     "who gives kolkar leaders",
     "regthar deathgate lore"
    ],
-   "answer": "Regthar Deathgate is an orc veteran situated at a small bunker camp just west of the Crossroads. He monitors centaur movements in the Barrens and orchestrates pre-emptive strikes to safeguard Horde settlements from organized raids."
+   "answer": "Regthar Deathgate is an orc veteran at a small bunker camp just west of the Crossroads. He watches centaur movements in the Barrens and plans pre-emptive strikes to protect Horde settlements from organized raids."
   },
   {
    "q": "Why are the Kolkar such a problem for the Horde?",
@@ -75,7 +75,7 @@
     "kolkar threat",
     "centaur horde rivalry"
    ],
-   "answer": "The centaur have waged a ruthless, near-genocidal war against the tauren for generations. As full members of the Horde, the tauren rely on their allies to help secure their ancestral hunting grounds and trade routes across the Barrens from continued centaur expansion."
+   "answer": "The centaur have waged a ruthless war against the tauren for generations, bringing them near to extinction. As members of the Horde, the tauren rely on their allies to protect ancestral hunting grounds and trade routes across the Barrens from continued centaur expansion."
   },
   {
    "q": "What happens after Barak is killed?",
@@ -84,7 +84,7 @@
     "kolkar leaders follow up",
     "what comes next"
    ],
-   "answer": "Defeating Barak Kodobane reveals that other chieftains are marshaling forces elsewhere in the Barrens. Regthar immediately sends you to assassinate Verog the Dervish at the Stagnant Oasis, followed by Hezrul Bloodmark at the Lushwater Oasis, culminating in a defense against a direct Kolkar assault."
+   "answer": "Barak Kodobane's defeat reveals that other chieftains are gathering forces elsewhere in the Barrens. Regthar sends you after Verog the Dervish at the Stagnant Oasis, then Hezrul Bloodmark at the Lushwater Oasis. A direct Kolkar assault must then be met."
   },
   {
    "q": "Why do the Kolkar gather around the oases?",
@@ -93,21 +93,21 @@
     "kolkar water",
     "forgotten pools centaur"
    ],
-   "answer": "Water and fertile ground are precious treasures in the arid climate of the Barrens. By seizing natural springs like the Forgotten Pools, the Kolkar secure essential water supplies while denying strategic resting spots to travelers and tauren hunters."
+   "answer": "The Kolkar gather around oases because water and fertile ground are precious in the Barrens' dry climate. By taking springs such as the Forgotten Pools, they secure water and deny travelers and tauren hunters places to rest."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren, striking down Kolkar commanders is a matter of survival and vengeance. Centaur clans slaughtered tribes and drove the shu'halo from their ancestral pastures for decades before the Horde established a foothold in Kalimdor."
+   "text": "As a tauren, striking down Kolkar commanders means survival and vengeance. Centaur clans slaughtered tribes and drove the shu'halo from their ancestral pastures for decades before the Horde gained a foothold in Kalimdor."
   },
   {
    "target": "race:Orc",
-   "text": "Thrall pledged the Horde to defend the tauren, and seasoned veterans like Regthar Deathgate take that blood-oath seriously, treating centaur warmongers as immediate strategic threats to orcish sovereignty in the Barrens."
+   "text": "As an orc, you know Thrall pledged the Horde to defend the tauren. Veterans such as Regthar Deathgate honor that blood-oath and treat centaur warmongers as immediate threats to orcish sovereignty in the Barrens."
   },
   {
    "target": "faction:Horde",
-   "text": "The crossroads of the Barrens serve as the vital artery connecting Mulgore, Durotar, and Horde outposts farther afield. Neutralizing Kolkar leadership protects fragile supply caravans from devastating ambushes."
+   "text": "As a member of the Horde, you depend on the Barrens crossroads, which connect Mulgore, Durotar, and distant Horde outposts. Breaking Kolkar leadership protects fragile supply caravans from devastating ambushes."
   }
  ],
  "keywords": [
@@ -133,5 +133,6 @@
  ],
  "attribution": [
   "Kolkar Leaders (Classic)"
- ]
+ ],
+ "style": 2
 }

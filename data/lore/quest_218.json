@@ -22,16 +22,16 @@
    "Senir's Observations (2)"
   ]
  },
- "summary": "In Coldridge Valley, Grelin Whitebeard needs his stolen journal back. The Frostmane troll leader Grik'nir the Cold took it into the troll cave, and Grelin cannot finish his appraisal of the troll threat without his notes.",
+ "summary": "Grelin Whitebeard needs his stolen journal to finish judging the troll threat in Coldridge Valley. Grik'nir the Cold, leader of the Frostmane, carried it into the troll cave, leaving Grelin without most of his reconnaissance.",
  "sections": [
   {
    "title": "A Scholar's Lost Notes",
-   "body": "Grelin Whitebeard has watched the Frostmane trolls press into Coldridge Valley and recorded their habits and sudden aggression. In the unrest, an imposing troll stole his personal journal and fled into the depths of the trolls' den. The loss matters beyond sentiment: the notebook holds most of Grelin's reconnaissance. Until it is recovered from the cavern, his assessment of the threat remains unfinished.",
+   "body": "The Frostmane trolls have pressed into Coldridge Valley, and Grelin Whitebeard's notes track them. They record the trolls' habits and their sudden aggression. During the unrest, an imposing troll stole Grelin's personal journal and fled into the depths of the den. The journal holds most of his reconnaissance, so Grelin cannot finish his assessment until it is recovered.",
    "spoiler": 0
   },
   {
    "title": "Confronting Grik'nir the Cold",
-   "body": "Grik'nir the Cold took Grelin's journal. The powerful Frostmane troll, marked with distinctive paint on his body and face, holds court in the heart of the valley's troll cave. Defeating Grik'nir breaks the cave trolls' immediate leadership and secures the journal. With it back, Grelin can finish his findings and judge the troll situation in Coldridge Valley manageable. He sends the completed report to his brother Senir.",
+   "body": "Grik'nir the Cold holds court in the heart of the valley's troll cave. Distinctive paint marks his body and face. Defeating this powerful Frostmane troll breaks the cave trolls' immediate leadership and secures Grelin's journal. With it returned, Grelin can finish his findings, judge the local troll situation manageable, and send his report to his brother Senir.",
    "spoiler": 0
   }
  ],
@@ -68,7 +68,7 @@
     "what is next after the stolen journal",
     "stolen journal next quest"
    ],
-   "answer": "After you recover the journal, Grelin finishes his report on the troll situation in Coldridge Valley and asks you to carry his findings to his brother Senir Whitebeard at Kharanos."
+   "answer": "After you recover the journal, Grelin finishes his report on the troll situation in Coldridge Valley. He asks you to carry his findings to his brother Senir Whitebeard at Kharanos."
   },
   {
    "q": "Are the Frostmane trolls driven out of Coldridge Valley after this?",
@@ -90,15 +90,15 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you help protect young recruits taking their first steps beyond Anvilmar by breaking Frostmane leadership in Coldridge Valley."
+   "text": "As a dwarf, you help protect young recruits taking their first steps beyond Anvilmar. You break Frostmane leadership in Coldridge Valley."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you rely on the safety of Coldridge Valley's passes while gnomish refugees shelter in Anvilmar and regroup in dwarven territory."
+   "text": "As a gnome, you rely on the safety of Coldridge Valley's passes. Gnomish refugees shelter in Anvilmar and regroup in dwarven territory."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help keep Dun Morogh's starting valleys secure from disruption by suppressing the aggressive Frostmane tribe."
+   "text": "As an Alliance member, you help keep Dun Morogh's starting valleys secure from disruption. You do so by suppressing the aggressive Frostmane tribe."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "The Stolen Journal"
  ],
- "style": 1
+ "style": 2
 }

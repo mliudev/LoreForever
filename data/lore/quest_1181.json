@@ -27,16 +27,16 @@
    "Goblin Sponsorship"
   ]
  },
- "summary": "Wharfmaster Lozgil cannot help any further with the missing fuel regulator, and suggests you ask Baron Revilgaz himself. You will find the Baron at the tavern across the harbor in Booty Bay, on the top floor.",
+ "summary": "At the Mirage Raceway, the goblin racers still need their missing fuel regulator. Wharfmaster Lozgil sends you to Baron Revilgaz in Booty Bay for help.",
  "sections": [
   {
    "title": "Asking the Baron",
-   "body": "Wharfmaster Lozgil tells you he cannot be of much more help in tracing the missing shipment bound for Ratchet. If you want to follow it up, he suggests you go to the Baron himself, since if anyone knows Revilgaz's business, it is Revilgaz. He waits in the tavern across the harbor, on the top floor.",
+   "body": "Wharfmaster Lozgil can do little more to trace the missing shipment bound for Ratchet. He sends you to Baron Revilgaz, since the Baron knows his own business best. You will find him on the top floor of the tavern across the harbor in Booty Bay.",
    "spoiler": 0
   },
   {
    "title": "The Baron's Answer",
-   "body": "Baron Revilgaz knows what you are talking about but cannot help. Some of his men were sent to find the fuel regulator's blueprints, and they returned empty-handed.",
+   "body": "Baron Revilgaz knows about the missing fuel regulator but cannot help. Some of his men went to find its blueprints and returned empty-handed.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "where is revilgaz",
     "find revilgaz booty bay"
    ],
-   "answer": "At the tavern across the harbor in Booty Bay, on the top floor."
+   "answer": "Baron Revilgaz is on the top floor of the tavern across the harbor in Booty Bay."
   },
   {
    "q": "Why does Wharfmaster Lozgil send you to Revilgaz?",
@@ -57,7 +57,7 @@
     "lozgil sends to baron",
     "why see baron revilgaz"
    ],
-   "answer": "Lozgil cannot be of much more help, and says that if anyone knows Revilgaz's business, it is Revilgaz himself."
+   "answer": "Wharfmaster Lozgil can do little more to help, and says the Baron knows his own business best."
   },
   {
    "q": "What shipment is being tracked down?",
@@ -66,7 +66,7 @@
     "what are we looking for",
     "missing ratchet cargo"
    ],
-   "answer": "A new fuel regulator that was supposed to reach Ratchet, for the goblin racers of the Mirage Raceway."
+   "answer": "The shipment is a new fuel regulator bound for Ratchet, for the goblin racers of the Mirage Raceway."
   },
   {
    "q": "Where does this step fit in the chain?",
@@ -74,7 +74,7 @@
     "what came before goblin sponsorship 3",
     "chain progress goblin sponsorship"
    ],
-   "answer": "It follows Goblin Sponsorship (2), your talk with Wharfmaster Lozgil, and the next step is Goblin Sponsorship (4)."
+   "answer": "This follows your talk with Wharfmaster Lozgil in Goblin Sponsorship two. The next step is Goblin Sponsorship four."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Goblin Sponsorship (3)"
- ]
+ ],
+ "style": 2
 }

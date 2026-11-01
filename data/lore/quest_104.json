@@ -17,16 +17,16 @@
   "wiki": "The Coastal Menace (Classic)",
   "chain": []
  },
- "summary": "Captain Grayson's ghost watches Westfall's rocky coast, where his ship broke on the rocks. He blames Old Murk-Eye for driving the lighthouse keeper's family from their post, then killing them in a later attack. Now he calls on travelers to hunt the murloc chieftain and bring justice to the shore.",
+ "summary": "On Westfall's rocky shore, Captain Grayson's ghost calls travelers to face The Coastal Menace. His ship broke on the rocks after murlocs drove the lighthouse keeper's family from their post. The family returned, but Old Murk-Eye led another attack and killed them. Now Grayson seeks the chieftain's death and justice for the shore.",
  "sections": [
   {
    "title": "A Beacon in the Dark",
-   "body": "The Westfall Lighthouse once guided ships through the southern coast's jagged shallows. Captain Grayson's vessel struck the rocks in the dark after murlocs frightened the lighthouse keeper's family into leaving their post. The family returned and lit the flame again, but safety did not last. A cunning, ruthless predator still stalked the shore.",
+   "body": "The Westfall Lighthouse once guided ships through the jagged shallows along the southern coast. After murlocs frightened the lighthouse keeper's family from their post, Captain Grayson's ship struck the rocks in the dark. The family returned and lit the flame again, but danger still stalked the shore.",
    "spoiler": 0
   },
   {
    "title": "The Scourge of the Coast",
-   "body": "Old Murk-Eye rallied the weaker-minded murlocs along the coast and led them against the lighthouse. The second attack killed the keeper's family while Captain Grayson watched, helpless. Now the ghostly captain calls for Murk-Eye's death and a scale as proof, hoping to bring peace to the dead and protect sailors on the Great Sea.",
+   "body": "Old Murk-Eye rallied the weaker-minded murlocs along the coast and led them against the lighthouse. In that second attack, the keeper's family died while Captain Grayson watched, helpless. Now the ghostly captain calls for Murk-Eye's death and asks for a scale as proof. He hopes to bring peace to the dead and protect sailors on the Great Sea.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who is murk eye",
     "who is the coastal menace"
    ],
-   "answer": "Old Murk-Eye is a cunning murloc chieftain who prowls Westfall's southern coast. He rallies other murlocs and leads them in attacks on human settlements along the shore."
+   "answer": "Old Murk-Eye is a cunning murloc chieftain who prowls Westfall's southern coast. He rallies other murlocs and leads attacks on human settlements along the shore."
   },
   {
    "q": "Why does Captain Grayson want Old Murk-Eye dead?",
@@ -48,7 +48,7 @@
     "why kill murk eye",
     "grayson backstory"
    ],
-   "answer": "Captain Grayson wants Old Murk-Eye dead because murlocs frightened the lighthouse keeper's family from their post, leaving the shore dark when Grayson's ship struck the rocks. Later, Grayson watched Murk-Eye lead a second attack that killed the returned keeper and his family."
+   "answer": "Captain Grayson wants Old Murk-Eye dead because murlocs drove the lighthouse keeper's family from their post. With the shore dark, Grayson's ship struck the rocks. Later, Grayson watched Murk-Eye lead a second attack that killed the returned keeper and his family."
   },
   {
    "q": "Where can Old Murk-Eye be found?",
@@ -57,7 +57,7 @@
     "where is murk eye",
     "find murk eye"
    ],
-   "answer": "Old Murk-Eye prowls Westfall's open beaches and shallows, near the Westfall Lighthouse and nearby murloc encampments."
+   "answer": "Old Murk-Eye prowls Westfall's open beaches and shallows near the Westfall Lighthouse and nearby murloc encampments."
   },
   {
    "q": "What proof does Grayson ask for?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, the lighthouse keeper's family's murder is a grim chapter in Westfall's loss of safety. Their deaths give you another reason to avenge your fellow citizens."
+   "text": "As a human, you know the lighthouse keeper's family's murder as a grim chapter in Westfall's loss of safety. Their deaths give you another reason to avenge your fellow citizens."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "The Coastal Menace (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Theramore Isle"
  },
- "summary": "Theramore Isle is a heavily fortified human port citadel off the eastern coast of Dustwallow Marsh. Founded by Lady Jaina Proudmoore for refugees escaping the fall of Lordaeron, it stands as the Alliance's primary bastion in southern Kalimdor.",
+ "summary": "Theramore Isle shelters refugees from Lordaeron behind the eastern coast of Dustwallow Marsh. Lady Jaina Proudmoore founded the fortified port, now the Alliance's chief stronghold in southern Kalimdor.",
  "sections": [
   {
    "title": "Refuge of the West",
-   "body": "Following the devastation of Dalaran and Lordaeron by the Scourge during the Third War, Lady Jaina Proudmoore guided a fleet of survivors across the Great Sea to the shores of Kalimdor. After fighting alongside orcs and night elves to defeat the Burning Legion atop Mount Hyjal, her coalition of humans, dwarves, and high elves retreated to the misty fringes of Dustwallow Marsh. On a jagged island just off the coast, they built Theramore Isle\u2014a thriving harbor city anchored by towering stone ramparts and Jaina's personal citadel, created to safeguard what remained of the northern kingdoms.",
+   "body": "After the Scourge ravaged Dalaran and Lordaeron in the Third War, Lady Jaina Proudmoore led survivors across the Great Sea to Kalimdor. There, humans, dwarves, and high elves fought beside orcs and night elves to defeat the Burning Legion atop Mount Hyjal.\n\nAfter the victory, Jaina's coalition withdrew to the misty edge of Dustwallow Marsh. On an island just off the coast, they raised a harbor city with stone ramparts and Jaina's citadel, sheltering what remained of the northern kingdoms.",
    "spoiler": 0
   },
   {
    "title": "An Uneasy Peace",
-   "body": "Theramore's history has been steeped in tension with Thrall's neighboring Horde in Durotar. When Grand Admiral Daelin Proudmoore arrived with the Kul Tiras fleet, he commandeered the isle and waged an unprovoked campaign to eradicate the orcs. Refusing to let hatred undo Kalimdor's hard-won survival, Jaina stood aside, allowing the Horde to strike down her father within Theramore's walls to preserve the peace. Today, the city maintains a fragile truce with Durotar, though simmering resentment among veteran sailors threatens to tear that delicate pact apart.",
+   "body": "Theramore's peace with Thrall's Horde in neighboring Durotar has long been uneasy. When Grand Admiral Daelin Proudmoore arrived with the Kul Tiras fleet, he took command of the isle and began a campaign against the orcs.\n\nJaina would not let hatred undo Kalimdor's hard-won survival. She allowed the Horde to kill her father within Theramore's walls to preserve the peace. The city now holds a fragile truce with Durotar, though veteran sailors' resentment threatens to break it.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "theramore ruler",
     "jaina theramore"
    ],
-   "answer": "Lady Jaina Proudmoore governs Theramore Isle. A master sorceress originally from Dalaran and Kul Tiras, she led the survivors of Lordaeron to Kalimdor during the Third War and oversees both the city's military defense and its diplomatic relations."
+   "answer": "Lady Jaina Proudmoore governs Theramore Isle. A master sorceress from Dalaran and Kul Tiras, she led Lordaeron's survivors to Kalimdor during the Third War. She oversees the city's defenses and diplomacy."
   },
   {
    "q": "Why did humans build a city in a swamp?",
@@ -37,7 +37,7 @@
     "why is theramore in a marsh",
     "why build here"
    ],
-   "answer": "Following the Battle of Mount Hyjal, the surviving human expedition needed a defensible coastal position to shelter their people and maintain a navy. The rocky island off Dustwallow Marsh offered deep-water anchorage and natural isolation from mainland threats, making it an ideal stronghold despite the miserable surrounding bog."
+   "answer": "After the Battle of Mount Hyjal, the surviving human expedition needed a defensible coast to shelter its people and keep a navy. The rocky island off Dustwallow Marsh offered deep-water anchorage and separation from mainland threats, despite the bog surrounding it."
   },
   {
    "q": "Is Theramore hostile to the Horde?",
@@ -46,7 +46,7 @@
     "theramore horde relations",
     "are theramore humans at war"
    ],
-   "answer": "Theramore is an Alliance stronghold, making its guards hostile to Horde travelers on sight. However, officially Lady Jaina Proudmoore and Warchief Thrall maintain an uneasy diplomatic peace, respecting each other's territorial boundaries despite lingering hatred among their citizens."
+   "answer": "Theramore is an Alliance stronghold, and its guards meet Horde travelers with hostility. Yet Lady Jaina Proudmoore and Warchief Thrall keep an uneasy peace and respect each other's borders, despite lingering hatred among their people."
   },
   {
    "q": "What happened to Grand Admiral Daelin Proudmoore here?",
@@ -55,17 +55,17 @@
     "what happened to jaina's father",
     "daelin proudmoore theramore"
    ],
-   "answer": "Admiral Daelin Proudmoore seized Theramore from his daughter Jaina to wage war against the nascent Horde. Recognizing his campaign would destroy them all, Jaina stepped aside, allowing Thrall and Rexxar to storm the island citadel and slay the Admiral in battle."
+   "answer": "Grand Admiral Daelin Proudmoore took Theramore from his daughter Jaina to make war on the young Horde. Seeing that his campaign would destroy them all, Jaina stepped aside as Thrall and Rexxar stormed the citadel and killed the Admiral in battle."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Theramore Isle serves as the primary seat of Alliance power in central Kalimdor, offering safety, vital ferry connections, and a well-defended harbor surrounded by hostile wilderness."
+   "text": "Theramore Isle is the Alliance's chief seat of power in central Kalimdor. It offers safety, ferry connections, and a defended harbor amid hostile wilderness."
   },
   {
    "target": "class:Mage",
-   "text": "As the personal domain of Archmage Jaina Proudmoore, Theramore holds powerful arcane conduits, serving as a vital nexus for Kirin Tor tradition and teleportation in the western hemisphere."
+   "text": "As Archmage Jaina Proudmoore's home, Theramore holds powerful arcane conduits. It is a vital center of Kirin Tor tradition and teleportation in the western hemisphere."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Theramore Isle"
- ]
+ ],
+ "style": 2
 }

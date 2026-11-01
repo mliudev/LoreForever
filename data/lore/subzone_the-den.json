@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "The Den"
  },
- "summary": "The Den is the sheltered cave at the heart of the Valley of Trials in southwestern Durotar. Serving as the primary base of operations for young orc and troll adventurers, it provides martial and magical training before they set out into the wider world.",
+ "summary": "In southwestern Durotar, young orcs and trolls gather at the sheltered Den in the heart of the Valley of Trials. It is their main base, where they train in arms and magic before setting out into the wider world.",
  "sections": [
   {
    "title": "Cradle of the Horde",
-   "body": "Tucked into the red canyon walls of the Valley of Trials, the Den serves as an austere proving ground. Within its carved, shadowy interior, novice fighters, spellcasters, and hunters report to veterans like Gornek and Zureetha Fargaze. It is here that fledglings receive their foundational combat instruction, supplies, and initial rites of passage, hardening them for the harsh realities of Durotar and the greater struggles facing the new Horde.",
+   "body": "The Den is an austere proving ground, carved into the red canyon walls of the Valley of Trials. Inside its shadowed halls, novice fighters, spellcasters, and hunters answer to veterans such as Gornek and Zureetha Fargaze. They receive their first combat lessons, supplies, and rites of passage, preparing for Durotar's harshness and the struggles facing the new Horde.",
    "spoiler": 0
   },
   {
    "title": "A Watchful Outpost",
-   "body": "Beyond housing class trainers and provisions, the Den functions as an active field redoubt. Between dispatching new recruits to cull the local beasts and aggressive quilboars, the overseers maintain a strict, vigilant watch over the valley.",
+   "body": "The Den houses class trainers and merchants who provide provisions. From this field outpost, overseers send recruits to cull local beasts and aggressive quilboars. They keep a strict watch over the valley.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is the den here",
     "purpose of the den"
    ],
-   "answer": "The Den serves as the central command post and training sanctuary within the Valley of Trials. Here, novice orcs and Darkspear trolls gather to learn basic class techniques, purchase provisions, and receive assignments that prove their loyalty and combat readiness to the Horde."
+   "answer": "The Den is the central base and training ground in the Valley of Trials. Novice orcs and Darkspear trolls learn basic class techniques, buy provisions, and receive assignments meant to prove their loyalty and readiness to fight for the Horde."
   },
   {
    "q": "Who runs things inside the Den?",
@@ -37,7 +37,7 @@
     "who is in charge",
     "den overseer"
    ],
-   "answer": "The encampment is supervised by veteran overseers such as Gornek and Foreman Thazz'ril, along with spiritual and magical mentors like Zureetha Fargaze and Canaga Earthcaller, all working together to instruct the newest generation of warriors and mystics."
+   "answer": "Veteran overseers such as Gornek and Foreman Thazz'ril supervise the Den. Spiritual and magical mentors, including Zureetha Fargaze and Canaga Earthcaller, instruct the newest warriors and mystics."
   },
   {
    "q": "Can you learn primary professions here?",
@@ -46,17 +46,17 @@
     "can i learn blacksmithing here",
     "train mining in den"
    ],
-   "answer": "No. The Den only hosts basic class trainers and general equipment merchants. New adventurers must travel north to Razor Hill or on to Orgrimmar to study primary trade skills such as Blacksmithing, Leatherworking, or Mining."
+   "answer": "No. The Den has basic class trainers and general equipment merchants. To study primary trades such as Blacksmithing, Leatherworking, or Mining, travel north to Razor Hill or continue to Orgrimmar."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Every young orc begins their journey at the Den, shedding the complacency of internment camps and blood haze to earn their place through discipline and labor."
+   "text": "Every young orc begins at the Den, leaving behind the complacency of the internment camps and blood haze. Discipline and labor are how you earn your place."
   },
   {
    "target": "race:Troll",
-   "text": "Following the devastation of the Darkspear Isles, young Darkspear trolls train in the Den alongside their orc allies, proving their mettle under the Horde's banner."
+   "text": "After the Darkspear Isles were devastated, young Darkspear trolls began training in the Den beside their orc allies. Under the Horde's banner, you must prove your mettle."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "The Den"
- ]
+ ],
+ "style": 2
 }

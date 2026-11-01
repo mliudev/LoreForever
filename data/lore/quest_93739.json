@@ -14,23 +14,23 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This journey introduces adventurers to the diverse leadership guiding the newly forged Horde across Kalimdor and the Eastern Kingdoms."
+   "text": "You meet the leaders guiding the Horde across Kalimdor and the Eastern Kingdoms."
   },
   {
    "target": "race:Orc",
-   "text": "Nazgrel serves as a direct advisor to Warchief Thrall in Orgrimmar, acting as a key military liaison for young orc warriors making their mark."
+   "text": "Nazgrel advises Warchief Thrall in Orgrimmar and guides young orc warriors making their mark."
   },
   {
    "target": "race:Troll",
-   "text": "Speaking with Shadow Hunter Vol'jin reinforces the bond between the Darkspear tribe and their orc allies within the Valley of Spirits."
+   "text": "Speaking with Shadow Hunter Vol'jin strengthens the bond between the Darkspear tribe and their orc allies in the Valley of Spirits."
   },
   {
    "target": "race:Tauren",
-   "text": "Seeking audience with High Chieftain Cairne Bloodhoof in Thunder Bluff connects travelers to the spiritual heart and strength of the tauren."
+   "text": "Meeting High Chieftain Cairne Bloodhoof in Thunder Bluff brings you to the spiritual heart and strength of the tauren."
   },
   {
    "target": "race:Undead",
-   "text": "Traveling to the Undercity to meet the Dark Lady Sylvanas Windrunner underscores the Forsaken's strategic, albeit tense, alliance with Kalimdor's Horde."
+   "text": "Traveling to the Undercity to meet the Dark Lady Sylvanas Windrunner shows the Forsaken's strategic, if tense, alliance with Kalimdor's Horde."
   }
  ],
  "faq": [
@@ -40,7 +40,7 @@
     "exploring the horde quest",
     "what do you do in this quest"
    ],
-   "answer": "Exploring the Horde is an introductory journey that tasks an adventurer with reporting to Nazgrel in Grommash Hold. From there, instructions guide the traveler across Horde territories to seek out and speak directly with key racial leaders: Vol'jin, Cairne Bloodhoof, and Lady Sylvanas Windrunner.",
+   "answer": "You report to Nazgrel in Grommash Hold, then travel across Horde lands to meet Vol'jin, Cairne Bloodhoof and Lady Sylvanas Windrunner.",
    "q": "What is the quest Exploring the Horde?"
   },
   {
@@ -49,7 +49,7 @@
     "where is nazgrel",
     "nazgrel role"
    ],
-   "answer": "Nazgrel is a prominent orc warrior and trusted lieutenant stationed in Grommash Hold within Orgrimmar. He acts as an advisor in the Horde seat of power, coordinating missions and directing aspiring champions to key commanders and regional allies.",
+   "answer": "Nazgrel is an orc warrior and trusted lieutenant in Grommash Hold, within Orgrimmar. He advises the Horde and directs aspiring champions to commanders and allies across its lands.",
    "q": "Who is Nazgrel and where is he located?"
   },
   {
@@ -58,7 +58,7 @@
     "leaders to visit",
     "who to speak with"
    ],
-   "answer": "The quest directs you to meet the foremost leaders of the Horde: Shadow Hunter Vol'jin of the Darkspear trolls, High Chieftain Cairne Bloodhoof of the tauren in Mulgore, and Lady Sylvanas Windrunner, the Banshee Queen who rules the Forsaken in the Undercity.",
+   "answer": "You meet Shadow Hunter Vol'jin of the Darkspear trolls, High Chieftain Cairne Bloodhoof of the tauren in Mulgore, and Lady Sylvanas Windrunner, the Banshee Queen of the Forsaken in the Undercity.",
    "q": "Which leaders are you sent to meet?"
   },
   {
@@ -67,7 +67,7 @@
     "purpose of visiting horde leaders",
     "diplomacy reason"
    ],
-   "answer": "The modern Horde is a coalition of distinct peoples brought together by shared survival and pacts of brotherhood. Visiting Vol'jin, Cairne, and Sylvanas demonstrates the reach of the alliance and familiarizes adventurers with the different seats of power across Durotar, Mulgore, and Lordaeron.",
+   "answer": "The Horde's peoples are bound by shared survival and pacts of brotherhood. Meeting Vol'jin, Cairne and Sylvanas shows you the alliance's reach, from Durotar and Mulgore to Lordaeron.",
    "q": "Why are adventurers instructed to visit each leader?"
   },
   {
@@ -76,7 +76,7 @@
     "leader locations",
     "how to find voljin cairne sylvanas"
    ],
-   "answer": "Vol'jin can be found among the Darkspear trolls in Orgrimmar's Valley of Spirits. Cairne Bloodhoof holds court high atop the mesas of Thunder Bluff in Mulgore. Lady Sylvanas Windrunner resides deep within the Royal Quarter of the Undercity beneath the ruins of Lordaeron.",
+   "answer": "Vol'jin is among the Darkspear trolls in Orgrimmar's Valley of Spirits. Cairne Bloodhoof holds court atop the mesas of Thunder Bluff in Mulgore. Lady Sylvanas Windrunner resides in the Undercity's Royal Quarter beneath the ruins of Lordaeron.",
    "q": "Where can each of the leaders be found?"
   },
   {
@@ -85,7 +85,7 @@
     "where is grommash hold",
     "orgrimmar hold"
    ],
-   "answer": "Grommash Hold is the central fortress in the Valley of Strength in Orgrimmar. Named in honor of the legendary Grom Hellscream, it serves as the command center where Warchief Thrall and his primary advisors, including Nazgrel, oversee the affairs of the Horde.",
+   "answer": "Grommash Hold is the central fortress in Orgrimmar's Valley of Strength. Named for Grom Hellscream, it is where Warchief Thrall and his advisors, including Nazgrel, oversee Horde affairs.",
    "q": "What is Grommash Hold?"
   }
  ],
@@ -111,18 +111,19 @@
  ],
  "sections": [
   {
-   "body": "Exploring the Horde begins at Grommash Hold, the fortress at the heart of Orgrimmar where Nazgrel and the Warchief's council oversee military operations. Adventurers are directed to Nazgrel to receive orders sending them outward into the wider territories held by the coalition. Rather than remaining confined to the red canyons of Durotar, the task requires traveling far to learn the true breadth of the peoples united under the red banner.",
+   "body": "Nazgrel sends you from Grommash Hold into the wider Horde lands. The fortress stands at the heart of Orgrimmar, where Nazgrel and the Warchief's council oversee military affairs. You leave Durotar's red canyons behind to learn how far the peoples beneath the red banner are joined.",
    "spoiler": 0,
    "title": "Orders from Grommash Hold"
   },
   {
-   "body": "The quest sends travelers to speak with the primary voices governing the allied races: Shadow Hunter Vol'jin of the Darkspear trolls, High Chieftain Cairne Bloodhoof of the tauren, and Lady Sylvanas Windrunner, queen of the Forsaken. By meeting these figures face-to-face, an adventurer gains firsthand understanding of the bonds tying Kalimdor to the plague-scarred lands of Lordaeron across the Great Sea.",
+   "body": "You meet the leaders of the Horde's allied peoples: Shadow Hunter Vol'jin of the Darkspear trolls, High Chieftain Cairne Bloodhoof of the tauren, and Lady Sylvanas Windrunner, queen of the Forsaken. Speaking with each in person lets you see the ties between Kalimdor and Lordaeron, across the Great Sea, where plague has scarred the land.",
    "spoiler": 0,
    "title": "An Alliance of Survival"
   }
  ],
- "summary": "Exploring the Horde is an introductory quest that sends adventurers on an expansive tour of Horde leadership. Initiated by reporting to Nazgrel in Grommash Hold, the journey tasks travelers with seeking audiences with Vol'jin, Cairne Bloodhoof, and Lady Sylvanas Windrunner. It establishes the diplomatic and military ties that unite the orcs, trolls, tauren, and Forsaken.",
+ "summary": "From Grommash Hold, you travel to meet the leaders who guide the Horde. The journey carries you from Orgrimmar to the Darkspear trolls, the tauren and the Forsaken.",
  "attribution": [
   "In-game quest text: Exploring the Horde"
- ]
+ ],
+ "style": 2
 }

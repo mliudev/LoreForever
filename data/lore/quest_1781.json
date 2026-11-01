@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "This task marks a crucial milestone in a paladin's training in Stormwind, testing whether an initiate possesses the spiritual strength to wield the Symbol of Life."
+   "text": "As a paladin, you face a milestone in your training at Stormwind. The trial tests whether you have the spiritual strength to wield the Symbol of Life."
   },
   {
    "target": "faction:Alliance",
-   "text": "Defias activity near Heroes' Vigil poses a continuous threat to travelers and citizens within Elwynn Forest, requiring the church's intervention."
+   "text": "As an Alliance member, you know Defias attacks near Heroes' Vigil threaten travelers and citizens across Elwynn Forest. The church must intervene."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "gazin elwynn defias",
     "wounded man stormwind altar"
    ],
-   "answer": "Gazin Tenorm is an associate of Duthorian Rall who barely escaped an ambush by Defias bandits near Heroes' Vigil in Elwynn Forest. Severely injured during the encounter, he was brought into the Cathedral of Light in Stormwind to be treated by local priests.",
+   "answer": "Gazin Tenorm is an associate of Duthorian Rall. He barely escaped a Defias ambush near Heroes' Vigil in Elwynn Forest and was brought to Stormwind's Cathedral of Light with severe wounds. Local priests are treating him.",
    "q": "Who is Gazin Tenorm?"
   },
   {
@@ -37,7 +37,7 @@
     "symbol of life paladin",
     "paladin resurrection artifact"
    ],
-   "answer": "The Symbol of Life is a holy relic entrusted to paladin initiates deemed charitable and patient. It serves to test whether a rising champion has the spiritual focus and fortitude required to channel one of the Holy Light's greatest gifts\u2014the restoration of life.",
+   "answer": "The Symbol of Life is a holy relic entrusted to patient and charitable paladin initiates. It tests whether a rising champion has the spiritual focus and fortitude to channel one of the Holy Light's greatest gifts: the restoration of life.",
    "q": "What is the Symbol of Life?"
   },
   {
@@ -46,7 +46,7 @@
     "heroes vigil elwynn defias",
     "gazin ambush location"
    ],
-   "answer": "Heroes' Vigil is an area in Elwynn Forest where Gazin Tenorm and his companion Henze were ambushed by Defias outlaws. While Gazin managed to flee back to Stormwind with grievous wounds, the fate of his friend Henze demands aid.",
+   "answer": "At Heroes' Vigil in Elwynn Forest, Defias outlaws ambushed Gazin Tenorm and his companion Henze. Gazin fled to Stormwind with grievous wounds, while Henze remains in danger.",
    "q": "What happened at Heroes' Vigil?"
   },
   {
@@ -55,7 +55,7 @@
     "henze faulk",
     "gazin friend defias"
    ],
-   "answer": "Henze is Gazin Tenorm's companion who was present when Defias bandits attacked them in Elwynn Forest near Heroes' Vigil. While Gazin made it back to Stormwind alive, Henze was left behind in the field.",
+   "answer": "Henze is Gazin Tenorm's companion. Defias bandits attacked them near Heroes' Vigil in Elwynn Forest, and Henze was left behind while Gazin reached Stormwind alive.",
    "q": "Who is Henze?"
   },
   {
@@ -64,7 +64,7 @@
     "duthorian rall tome of divinity",
     "stormwind paladin trainer quest"
    ],
-   "answer": "The quest giver is Duthorian Rall, a leader among the paladins in the Cathedral of Light in Stormwind. After confirming an initiate has proven their patience and charity, he directs them to speak with Gazin Tenorm at the altar.",
+   "answer": "Duthorian Rall sends you to speak with Gazin Tenorm. A leader among Stormwind's Cathedral of Light paladins, he first confirms that an initiate has shown patience and charity, then directs them to Gazin at the altar.",
    "q": "Who sends you to speak with Gazin Tenorm?"
   },
   {
@@ -73,7 +73,7 @@
     "why are defias near heroes vigil",
     "defias brotherhood stormwind"
    ],
-   "answer": "The Defias Brotherhood has spread outlaws and highwaymen across Elwynn Forest, ambushing travelers even within striking distance of the capital. Gazin Tenorm's harrowing encounter demonstrates how brazen and lethal Defias operations have become.",
+   "answer": "Defias outlaws and highwaymen ambush travelers across Elwynn Forest, even within striking distance of the capital. Gazin Tenorm's attack shows how brazen and deadly their operations have become.",
    "q": "Why are Defias bandits attacking travelers near Heroes' Vigil?"
   }
  ],
@@ -98,18 +98,19 @@
  ],
  "sections": [
   {
-   "body": "In the Cathedral of Light, paladin initiates who have shown patience and charity receive the Symbol of Life. Entrusted by Duthorian Rall, this holy vessel serves as a test to determine whether an aspiring champion possesses sufficient spiritual devotion to focus one of the Light's greatest gifts: the power to restore life to the fallen.",
+   "body": "In Stormwind's Cathedral of Light, patient and charitable paladin initiates receive the Symbol of Life. Duthorian Rall entrusts them with this holy vessel to test their devotion to the Light. Only a worthy champion can focus one of the Light's greatest gifts, the power to restore life to the fallen.",
    "spoiler": 0,
    "title": "A Test of Devotion"
   },
   {
-   "body": "The urgent need for the Symbol is made clear by Gazin Tenorm, who recently crawled back to Stormwind after a vicious assault by Defias bandits near Heroes' Vigil in Elwynn Forest. While priests at the cathedral altar tend to Gazin's severe wounds, his companion Henze remains in peril where the outlaws struck.",
+   "body": "Gazin Tenorm shows why the Symbol is needed. He crawled back to Stormwind after Defias bandits attacked him near Heroes' Vigil in Elwynn Forest. Priests tend his severe wounds at the cathedral altar. His companion Henze remains in danger where the outlaws struck.",
    "spoiler": 0,
    "title": "Ambush at Heroes' Vigil"
   }
  ],
- "summary": "The Tome of Divinity represents an essential trial for paladin initiates within Stormwind's Cathedral of Light, charging them with focusing the holy Symbol of Life. After proving their virtue, aspirants are directed to assist Gazin Tenorm, who barely escaped a deadly Defias ambush near Heroes' Vigil in Elwynn Forest.",
+ "summary": "At Stormwind's Cathedral of Light, a trial awaits paladin initiates: they must focus the holy Symbol of Life. Those who prove their virtue are sent to aid Gazin Tenorm, who barely escaped a Defias ambush near Heroes' Vigil in Elwynn Forest.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

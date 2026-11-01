@@ -11,16 +11,16 @@
    "quest:1803"
   ]
  },
- "summary": "A half of the Tome of the Cabal lies ruined on the Hillsbrad coast. Salvaged from a shipwreck, the Moldy Tome holds dark rituals sought by warlocks who study demonic summoning.",
+ "summary": "Along the Hillsbrad coast, the Moldy Tome lies ruined after a shipwreck. Once part of the Tome of the Cabal, it still draws warlocks seeking its lore on demonic summoning.",
  "sections": [
   {
    "title": "Lost to the Waves",
-   "body": "The Tome of the Cabal was a rare work of dark arts held in Lordaeron. At some point, it was vandalized and torn in two. One half, now called the Moldy Tome, traveled by ship south toward Menethil Harbor and Ironforge. The vessel never arrived. It sank in the dangerous waters west of Southshore, and the surviving half washed ashore south of Azurelode Mine. Damp and surf ruined its pages, while murlocs scavenged along the Hillsbrad coast.",
+   "body": "The Tome of the Cabal was a rare work of dark arts held in Lordaeron. Someone vandalized it and tore it in two. One half, now called the Moldy Tome, sailed south toward Menethil Harbor and Ironforge. The ship never arrived. It sank in the dangerous waters west of Southshore, and the half that survived washed ashore south of Azurelode Mine. Damp and surf ruined its pages as murlocs scavenged along the Hillsbrad coast.",
    "spoiler": 0
   },
   {
    "title": "Reclaiming the Dark Work",
-   "body": "The Moldy Tome still holds powerful lore about demons, though its vellum is mildewed and rotting. Warlocks seeking it brave the coastal camps. In Ironforge, Krom Stoutarm guides some of them; in the Undercity, Jorah Annison guides others. Joined with its counterpart, the Tattered Manuscript from the caves of Thousand Needles, the restored book gives the precise words needed to summon and bind a felhunter.",
+   "body": "Though its vellum is mildewed and rotting, the Moldy Tome still holds powerful lore about demons. Warlocks seeking it brave the coastal camps. Krom Stoutarm guides some of them in Ironforge, while Jorah Annison guides others in the Undercity. Joined with its counterpart, the Tattered Manuscript from the caves of Thousand Needles, the restored book gives the precise words needed to summon and bind a felhunter.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "shipwreck tome",
     "tome transit"
    ],
-   "answer": "The Moldy Tome was carried by ship from Lordaeron toward Menethil Harbor, bound for Ironforge scholars. The ship sank off the Hillsbrad coast before completing the voyage."
+   "answer": "A ship carried the Moldy Tome from Lordaeron toward Menethil Harbor, bound for Ironforge scholars. The ship sank off the Hillsbrad coast before completing its voyage."
   },
   {
    "q": "What is needed to complete the Tome of the Cabal?",
@@ -93,5 +93,5 @@
   "Tome of the Cabal (Alliance, 2)",
   "Tome of the Cabal (Horde, 2)"
  ],
- "style": 1
+ "style": 2
 }

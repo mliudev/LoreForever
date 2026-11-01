@@ -8,21 +8,21 @@
   "wiki": "Mebok Mizzyrix",
   "refs": 3
  },
- "summary": "Mebok Mizzyrix is an enterprising goblin entrepreneur residing in the port town of Ratchet. Ever eager to turn bizarre wilderness reagents into profit, he hires passing adventurers to gather unusual flora and fauna from across the Barrens and beyond. His most notorious project involves concocting a commercial intellect-enhancing beverage out of raptor horns.",
+ "summary": "In Ratchet, Mebok Mizzyrix hires travelers to gather strange finds across the Barrens and beyond. This goblin entrepreneur hopes to turn unusual plants and creatures into profit. His best-known venture is a drink made with raptor horns, meant to sharpen the mind.",
  "sections": [
   {
    "title": "An Enterprising Alchemist",
-   "body": "Operating out of the bustling, neutral port of Ratchet, Mebok Mizzyrix embodies the classic Steamwheedle spirit of relentless opportunism. While Ratchet caters to sailors, pirates, and merchants of all stripes, Mebok focuses his keen eye on Kalimdor's wilderness. Rather than mining standard ore or trading mundane cloth, he seeks out rare biological curiosities that he believes can be refined into highly lucrative concoctions and commodities.",
+   "body": "Mebok Mizzyrix works from Ratchet, a neutral port where sailors, pirates and merchants meet. He carries the Steamwheedle spirit of seizing every chance for profit. Rather than deal in ore or cloth, he seeks rare creatures and plants from Kalimdor’s wilds. He believes they can be made into valuable brews and goods.",
    "spoiler": 0
   },
   {
-   "title": "The Quest for Smart Drinks",
-   "body": "Mebok's premier commercial endeavor is a proprietary 'smart drink' intended to artificially boost the intellect of whoever consumes it. Convinced that the natural cunning and ferocity of local raptors stems from the horns crowning their snouts, Mebok commissions hunters to harvest intact horns across the Barrens. To him, ethics and taste take a backseat to raw market potential, so long as paying customers believe the brew delivers results.",
+   "title": "The Smart Drink Venture",
+   "body": "Mebok’s chief venture is a drink he hopes will boost the drinker’s intellect. He believes the cunning and ferocity of local raptors come from the horns on their snouts. So he hires hunters to bring him whole horns from across the Barrens. Ethics and taste matter less to him than the chance to sell a brew customers believe works.",
    "spoiler": 0
   },
   {
    "title": "Exotic Reagents and Flora",
-   "body": "Beyond raptor-derived elixirs, Mebok maintains a constant demand for other bizarre specimens. From collecting volatile Deepmoss spider eggs to commissioning the retrieval of rare Blueleaf tubers buried deep within the brambles of Razorfen Kraul, his pursuits consistently push intrepid mercenaries into perilous territory. If an organism possesses strange properties, Mebok is certain there is a way to bottle and sell it.",
+   "body": "Mebok also seeks strange specimens beyond raptor horns. He wants volatile Deepmoss spider eggs and rare Blueleaf tubers buried in the brambles of Razorfen Kraul. These commissions send mercenaries into dangerous country. Mebok believes any creature or plant with strange properties can be bottled and sold.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "mebok mizzyrix lore",
     "ratchet goblin mebok"
    ],
-   "answer": "Mebok Mizzyrix is a goblin merchant and alchemical schemer located in the neutral port town of Ratchet in the Barrens. He contracts adventurers to gather strange wildlife and plant parts to fuel his commercial projects."
+   "answer": "Mebok Mizzyrix is a goblin merchant in Ratchet, the neutral port town in the Barrens. He hires travelers to gather strange plants and creatures for his commercial ventures."
   },
   {
    "q": "What are Smart Drinks?",
@@ -43,7 +43,7 @@
     "smart drinks quest",
     "raptor horn potion"
    ],
-   "answer": "Smart Drinks are experimental intellect-boosting tonics Mebok Mizzyrix hopes to brew and sell. He believes grinding down the horns of clever Barrens raptors will impart their sharp instincts and cunning to the drinker."
+   "answer": "Smart Drinks are experimental tonics Mebok Mizzyrix hopes to brew and sell to boost the drinker’s intellect. He believes the horns of clever Barrens raptors will lend the drinker their sharp instincts and cunning."
   },
   {
    "q": "Where can Mebok Mizzyrix be found?",
@@ -52,7 +52,7 @@
     "where is mebok",
     "find mebok mizzyrix"
    ],
-   "answer": "He can be found standing among the buildings in the port city of Ratchet, on the eastern coast of the Barrens, accessible to both Horde and Alliance travelers."
+   "answer": "Mebok Mizzyrix can be found among the buildings in Ratchet, on the eastern coast of the Barrens. The port is open to Horde and Alliance travelers."
   },
   {
    "q": "Why does Mebok want raptor horns?",
@@ -61,7 +61,7 @@
     "raptor horn purpose",
     "what does mebok do with horns"
    ],
-   "answer": "Mebok hypothesizes that the cunning intelligence of the raptors roaming the Barrens is concentrated within their horns. He plans to pulverize them as the primary active ingredient in his intellect-enhancing beverages."
+   "answer": "Mebok believes the cunning of Barrens raptors lies in their horns. He plans to grind the horns into the primary ingredient for his intellect-enhancing drinks."
   },
   {
    "q": "Why does Mebok send people to Razorfen Kraul?",
@@ -70,7 +70,7 @@
     "mebok rfk quest",
     "blueleaf tubers rfk"
    ],
-   "answer": "He enlists adventurers to delve into Razorfen Kraul to dig up Blueleaf tubers using a trained sniffer, seeking the rare plant for its valuable and unusual botanical properties."
+   "answer": "Mebok sends travelers into Razorfen Kraul to dig up Blueleaf tubers with a trained sniffer. He seeks the rare plant for its valuable and unusual properties."
   },
   {
    "q": "Does Mebok work for the Horde or the Alliance?",
@@ -79,25 +79,25 @@
     "is mebok alliance",
     "mebok faction"
    ],
-   "answer": "Mebok is an independent member of the Steamwheedle Cartel in neutral Ratchet. He is loyal to coin and will happily trade and contract with members of either faction."
+   "answer": "Mebok belongs to the Steamwheedle Cartel and is independent in neutral Ratchet. He trades and makes contracts with both Horde and Alliance travelers, in pursuit of coin."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Mebok's fascination with odd specimens like Blueleaf tubers showcases the wilder, commercial side of gathering Kalimdor's unique flora."
+   "text": "Mebok’s interest in Blueleaf tubers shows the commercial side of gathering Kalimdor’s unusual plants."
   },
   {
    "target": "profession:Cooking",
-   "text": "Culinary adventurers will find Mebok's culinary and beverage recipes questionable at best, given his insistence on brewing ground raptor horn."
+   "text": "Mebok’s drink recipes may trouble cooks: he insists on brewing with ground raptor horn."
   },
   {
    "target": "faction:Horde",
-   "text": "Passing through Ratchet on the way across the Barrens offers Horde travelers an easy source of coin clearing out dangerous beasts nearby."
+   "text": "Horde travelers passing through Ratchet on their way across the Barrens can earn coin by clearing out dangerous beasts nearby."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stepping off the boat from Booty Bay into neutral Ratchet gives Alliance explorers access to Mebok's tasks without fear of hostile guards."
+   "text": "Alliance travelers arriving by boat from Booty Bay can reach Mebok in neutral Ratchet without fear of hostile guards."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Mebok Mizzyrix"
- ]
+ ],
+ "style": 2
 }

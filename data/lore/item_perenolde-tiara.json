@@ -10,16 +10,16 @@
    "quest:543"
   ]
  },
- "summary": "In the ruins of Alterac, an emerald-studded heirloom of the Perenolde family has turned up again. Dwarven craftsmen of Ironforge made it, and collectors in Stormwind now seek it.",
+ "summary": "In the ruins of Alterac, the Perenolde Tiara has surfaced again. Dwarven craftsmen of Ironforge made the emerald-studded heirloom, and collectors in Stormwind seek it.",
  "sections": [
   {
    "title": "A Relic of a Ruined Kingdom",
-   "body": "The Perenolde family ruled Alterac before the kingdom fell during the Second War. Their treasures included a delicate tiara, made by master jewelers in Ironforge and set with brilliant emeralds. After King Aiden Perenolde’s treachery brought Alterac to ruin, the tiara vanished amid the devastation of the high crags.",
+   "body": "The Perenolde family ruled Alterac until the kingdom fell during the Second War. Among their treasures was a delicate tiara, made by master jewelers in Ironforge and set with brilliant emeralds. After King Aiden Perenolde’s treachery brought Alterac to ruin, the tiara vanished amid the devastation of the high crags.",
    "spoiler": 0
   },
   {
    "title": "The Miser's Prize",
-   "body": "Grel'borg the Miser, an ogre mage, unearthed the tiara while searching Alterac’s ruins for abandoned wealth. Word of the surviving relic reached Count Remington Ridgewell, a wealthy noble in Stormwind who collects famous relics for his family museum. Now the count seeks to take the tiara from the ogre.",
+   "body": "Grel'borg the Miser, an ogre mage, unearthed the tiara while searching Alterac’s ruins for abandoned wealth. Word of the relic reached Count Remington Ridgewell, a wealthy noble in Stormwind who collects famous relics for his family museum. Now the count seeks to take the tiara from the ogre.",
    "spoiler": 0
   }
  ],
@@ -95,5 +95,5 @@
   "Perenolde Tiara",
   "The Perenolde Tiara"
  ],
- "style": 1
+ "style": 2
 }

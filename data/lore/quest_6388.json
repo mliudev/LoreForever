@@ -17,16 +17,16 @@
   "wiki": "Gryth Thurden (Classic)",
   "chain": []
  },
- "summary": "In Ironforge, Gryth Thurden is preparing to send a parcel back to Loch Modan. Golnir Bouldertoe has entrusted you with the Honorary Picks for Brock Stoneseeker's mining apprentices, and the city's gryphon roost offers a way across the mountain roads.",
+ "summary": "In Ironforge, Gryth Thurden can send you back toward Loch Modan with a parcel. You carry the Honorary Picks from Golnir Bouldertoe for Brock Stoneseeker's mining apprentices, and the city's gryphon roost offers a way over the mountain roads.",
  "sections": [
   {
    "title": "A Courier for the Miners",
-   "body": "After traveling from Loch Modan to the Great Forge, you receive Honorary Picks from Golnir Bouldertoe for Brock Stoneseeker's mining apprentices. Golnir points you toward Ironforge's gryphon network instead of the mountain passes on foot. Carry the bundle across the city to its master handler, who can arrange the flight back.",
+   "body": "You have traveled from Loch Modan to the Great Forge, where Golnir Bouldertoe gives you Honorary Picks for Brock Stoneseeker's mining apprentices. He points you to Ironforge's gryphon network instead of the mountain passes on foot. Carry the bundle across the city to the master handler, who can arrange your flight back.",
    "spoiler": 0
   },
   {
    "title": "Taking Wing to Thelsamar",
-   "body": "Gryth Thurden oversees the flight roosts in Ironforge's great mountain hall. The gryphon routes link the city with dwarven settlements across Khaz Modan. After you have scouted the route and spoken with the local handler, Gryth can arrange transport back to Thorgrum Borrelson in Thelsamar. The picks are bound for Brock Stoneseeker's apprentices, and the route joins the mountain settlements by air.",
+   "body": "Gryth Thurden oversees Ironforge's flight roosts in the great mountain hall. Gryphon routes link the city with dwarven settlements across Khaz Modan. After scouting the route and speaking with the local handler, you can ask Gryth to arrange transport back to Thorgrum Borrelson in Thelsamar. The picks are bound for Brock Stoneseeker's apprentices, and the route joins mountain settlements by air.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "ironforge gryphon master",
     "gryth thurden lore"
    ],
-   "answer": "Gryth Thurden is Ironforge's master gryphon handler. He oversees flight routes from the dwarven capital to settlements across Khaz Modan and beyond."
+   "answer": "Gryth Thurden oversees Ironforge's flight routes from the dwarven capital to settlements across Khaz Modan and beyond."
   },
   {
    "q": "Where is Gryth Thurden located in Ironforge?",
@@ -65,7 +65,7 @@
     "why need thelsamar flight path",
     "cant fly to thelsamar"
    ],
-   "answer": "Gryth Thurden can send a rider to Thelsamar only after you have spoken with Thorgrum Borrelson, the handler stationed in Loch Modan. The handlers dispatch riders along charted routes."
+   "answer": "Gryth Thurden can send a rider to Thelsamar only after you have spoken with Thorgrum Borrelson, the handler stationed in Loch Modan. Handlers dispatch riders along charted routes."
   },
   {
    "q": "What happens after giving the picks to Gryth Thurden?",
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you rely on gryphons to cross treacherous peaks, a practical necessity and a point of ancestral pride that links the mountain halls."
+   "text": "As a dwarf, you rely on gryphons to cross treacherous peaks. They are a practical necessity and a point of ancestral pride linking the mountain halls."
   },
   {
    "target": "profession:Mining",
@@ -118,5 +118,5 @@
  "attribution": [
   "Gryth Thurden (Classic)"
  ],
- "style": 1
+ "style": 2
 }

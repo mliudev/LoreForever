@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Gathering flora across the wilderness provides the raw aromatic herbs needed to craft camp incense, making herbalist forage practical for survival as well as alchemy."
+   "text": "Gathering plants in the wilderness provides the aromatic herbs needed for camp incense. That makes the work useful for survival as well as alchemy."
   },
   {
    "target": "class:Priest",
-   "text": "Incense candles lit at a campsite elevate the spirits and replenish the mental reserves of holy healers between skirmishes."
+   "text": "Incense Candles lit at camp lift the spirits and replenish the mental reserves of holy healers between skirmishes."
   },
   {
    "target": "class:Mage",
-   "text": "Spellcasters who exhaust their focus in battle greatly appreciate camp incense candles designed to soothe the mind and support arcane recovery."
+   "text": "Spellcasters who spend their focus in battle value camp incense, whose soothing scent helps restore their minds and support arcane recovery."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "camping 101 herbalism quest",
     "herbalism camping quest"
    ],
-   "answer": "Camping 101: Herbalism is a quest directed at adventurers who have practiced gathering herbs. It introduces the herbalist to specialized craftspeople capable of teaching how to create incense candles for wilderness camps.",
+   "answer": "Camping 101: Herbalism connects skilled herb gatherers with instructors who teach them to make Incense Candles for wilderness camps.",
    "q": "What is Camping 101: Herbalism?"
   },
   {
@@ -41,7 +41,7 @@
     "incense candle camp effect",
     "why make incense candle"
    ],
-   "answer": "An Incense Candle is a camp accessory crafted using herbal materials. Burning one at a campsite bolsters the morale and spirit of resting adventurers, specifically providing a beneficial boost for healers and spellcasters.",
+   "answer": "An Incense Candle is made from gathered plants and burned at a campsite. Its soothing, revitalizing scent lifts resting companions’ spirits and gives healers and spellcasters a beneficial boost.",
    "q": "What is an Incense Candle used for?"
   },
   {
@@ -50,7 +50,7 @@
     "incense candle trainer",
     "where to learn incense candle"
    ],
-   "answer": "The trainer depends on where you begin: Reyna Stonebranch in Ironforge, Malorne Bladeleaf in Dolanaar, Herbalist Pomeroy in Elwynn Forest, Jandi in Orgrimmar, Faruza in Brill, Komin Winterhoof in Thunder Bluff, or Syriel Nightrain in Valanaar.",
+   "answer": "Your instructor depends on where you begin: Reyna Stonebranch in Ironforge, Malorne Bladeleaf in Dolanaar, Herbalist Pomeroy in Elwynn Forest, Jandi in Orgrimmar, Faruza in Brill, Komin Winterhoof in Thunder Bluff, or Syriel Nightrain in Valanaar.",
    "q": "Who teaches how to make an Incense Candle?"
   },
   {
@@ -59,7 +59,7 @@
     "incense candle healers",
     "incense candle magic users"
    ],
-   "answer": "Channeling magic and tending wounds in combat drains both physical energy and mental focus. High spirits are essential to keeping casters ready for battle, and the soothing smoke of an incense candle aids that replenishment.",
+   "answer": "Casting spells and tending wounds drain physical energy and mental focus. The soothing smoke of an Incense Candle helps replenish both, keeping spirits high and casters ready for battle.",
    "q": "Why are Incense Candles especially useful for magic users?"
   },
   {
@@ -68,7 +68,7 @@
     "do i need herbalism for camping 101 herbalism",
     "herbalism requirement camping candle"
    ],
-   "answer": "This instruction is aimed directly at those who possess skill in gathering plants and herbs, as the techniques involve identifying and utilizing aromatic wild flora.",
+   "answer": "This instruction is for those skilled in gathering plants and herbs. It teaches how to find and use aromatic wild plants.",
    "q": "Do you need to be an herbalist to take this quest?"
   },
   {
@@ -77,7 +77,7 @@
     "uses for herbs camping",
     "herbalism camp items"
    ],
-   "answer": "Beyond brewing concoctions and salves, harvested wilderness plants have practical and aromatic applications around camp, such as producing incense to refresh weary companions.",
+   "answer": "Gathered plants have uses around camp beyond brewing concoctions and salves. They can be made into incense that refreshes weary companions.",
    "q": "How does Herbalism tie into camping?"
   }
  ],
@@ -94,18 +94,19 @@
  "related": [],
  "sections": [
   {
-   "body": "For travelers who spend their days trekking through the wilds, gathering roots and petals is far more than idle foraging. Camping 101: Herbalism introduces skilled gatherers to practical fieldcraft, connecting them with mentors who know how to turn wild aromatic flora into camp-ready Incense Candles. Rather than solely selling fresh stems or brewing draughts, a gatherer can use harvested botany to support a party on the trail.",
+   "body": "Travelers can put roots and petals to use beyond selling fresh stems or brewing draughts. Gatherers meet instructors who teach them to make Incense Candles from wild aromatic plants. These candles support companions on the trail.",
    "spoiler": 0,
    "title": "Wild Flora on the Trail"
   },
   {
-   "body": "Long journeys through hostile territory tax healers and spellcasters, whose mental reserves and morale are critical in battle. An Incense Candle burned at an active campsite fills the air with soothing, revitalizing scents that keep spirits high. Magic users and healers especially value the aromatic boost, ensuring companions recover their clarity and strength before venturing back into danger.",
+   "body": "Long journeys through hostile country wear down healers and spellcasters. At an active campsite, an Incense Candle gives off a soothing, revitalizing scent that lifts their spirits and helps them recover clarity and strength before danger calls again. Those who wield magic or tend the wounded value that comfort most.",
    "spoiler": 0,
    "title": "Soothing the Mind"
   }
  ],
- "summary": "Camping 101: Herbalism directs gatherers toward instructors who can teach them to craft Incense Candles for wilderness campsites. By utilizing harvested botanical ingredients, herbalists can provide aromatic comforts that sustain the spirits of spellcasters and healers during long journeys.",
+ "summary": "At camps along the trail, Camping 101: Herbalism points gatherers toward instructors who teach them to make Incense Candles. Herbalists use gathered plants to bring comfort to spellcasters and healers on long journeys.",
  "attribution": [
   "In-game quest text: Camping 101: Herbalism"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Grimand's Armor",
   "chain": []
  },
- "summary": "In Stormwind, Grimand's Armor takes shape through a test of Furen Longbeard's methods. Grimand Elmore crafts a helm from rare materials, meant to endure punishing blows in battle. For an Alliance warrior, it marks a step toward mastery.",
+ "summary": "Grimand Elmore now offers you a coif made from rare materials. It tests Furen Longbeard's smithing methods and is built to endure crushing blows, a hard-won step in your training as an Alliance warrior.",
  "sections": [
   {
    "title": "A Master's Innovation Proven",
-   "body": "Grimand Elmore tests Furen Longbeard's daring smithing methods at his forge in Stormwind's Dwarven District. Grimand had doubted the dwarven master armorer's theories. To put them to the test, a warrior gathers rare elemental and beast components in hostile territory and brings them to Grimand. He uses the materials to forge a reinforced helm built to endure crushing impacts.",
+   "body": "The coif shows that Furen Longbeard's daring methods can strengthen armor against crushing impacts. Grimand Elmore forged it from rare elemental and beast components you gathered in hostile territory, putting the dwarven master armorer's theories to the test.",
    "spoiler": 0
   },
   {
    "title": "Forging the Aegis",
-   "body": "Grimand's finished coif shows that Furen's metallurgic insights were sound. He treats the metal to withstand pressure and physical blows that would warp ordinary steel. Grimand gives the coif to the warrior who helped him, honoring Furen's craft and the warrior's resolve. The armor can help them hold the frontline against Azeroth's greatest threats.",
+   "body": "Grimand Elmore treats the metal to bear pressure and blows that would warp ordinary steel. Then he gives you the finished coif. Its strength honors Furen Longbeard's craft and your resolve, and may help you hold the frontline against Azeroth's greatest threats.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why do grimands armor",
     "what does grimand give me"
    ],
-   "answer": "Grimand Elmore finishes a specially treated coif with the rare materials you gathered, testing Furen Longbeard's experimental smithing methods. This is the final handoff in a major warrior training line."
+   "answer": "Grimand Elmore finishes a specially treated coif from the rare materials you gathered, testing Furen Longbeard's experimental smithing methods. It is the final handoff in a major warrior training line."
   },
   {
    "q": "Who is Grimand Elmore?",
@@ -65,7 +65,7 @@
     "burning blood quest",
     "what quest comes before this"
    ],
-   "answer": "This follows 'Burning Blood'. There, the warrior brings Grimand the final rare reagent, Burning Blood from the Nightbane worgen of Roland's Doom in Duskwood, so he can quench and temper the metal."
+   "answer": "This follows 'Burning Blood'. There, you bring Grimand the final rare reagent, Burning Blood from the Nightbane worgen of Roland's Doom in Duskwood, so he can quench and temper the metal."
   },
   {
    "q": "Can any class complete this quest?",
@@ -73,7 +73,7 @@
     "is grimand's armor warrior only",
     "who can do grimand armor"
    ],
-   "answer": "No. This chain is for Alliance warriors around their thirtieth season, and marks a rite of passage toward durable mail armor."
+   "answer": "No. This chain is for Alliance warriors around their thirtieth season and marks a rite of passage toward durable mail armor."
   },
   {
    "q": "Where does this turn-in take place?",
@@ -95,7 +95,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Grimand Elmore draws on Furen Longbeard's designs, as the dwarven smiths of Stormwind's Dwarven District pool discoveries to arm Alliance warriors."
+   "text": "Grimand Elmore draws on Furen Longbeard's designs as the dwarven smiths of Stormwind's Dwarven District pool discoveries to arm Alliance warriors."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Grimand's Armor"
  ],
- "style": 1
+ "style": 2
 }

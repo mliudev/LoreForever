@@ -20,16 +20,16 @@
    "The Jasperlode Mine"
   ]
  },
- "summary": "Kobolds have overrun the Jasperlode Mine in eastern Elwynn. Marshal Dughan sends scouts to learn how far the infestation has spread.",
+ "summary": "Scouts are bound for The Jasperlode Mine in eastern Elwynn, where kobolds may have spread. Marshal Dughan needs to know how far they have reached.",
  "sections": [
   {
    "title": "A Second Incursion",
-   "body": "After kobolds swarmed the Fargodeep tunnels south of Goldshire, Marshal Dughan feared they had reached other mines. Jasperlode lies in the rocky foothills northeast of the Tower of Azora and supplies raw stone and metal to the kingdom. Dughan cannot spare Stormwind guards from their town patrols, so he sends independent adventurers east to see whether kobolds have taken this mine too.",
+   "body": "After kobolds swarmed the Fargodeep tunnels south of Goldshire, Marshal Dughan feared they had reached other mines. Jasperlode lies in the rocky foothills northeast of the Tower of Azora. Its stone and metal supply the kingdom. With Stormwind guards needed on town patrols, Dughan sends independent adventurers east to learn whether kobolds have taken this mine too.",
    "spoiler": 0
   },
   {
    "title": "Overextended Defenses",
-   "body": "Scouts who reach Jasperlode's chambers find kobolds have driven out the human miners and fortified the dark passages. Marshal Dughan faces another blow as the crisis grows. King Varian Wrynn is missing, and royal troops are withheld from outlying territories. The local garrison has too few soldiers to clear the mines, leaving the kingdom's heart short of minerals and hemmed in by threats.",
+   "body": "Scouts reaching Jasperlode's chambers find kobolds have driven out the human miners and fortified the dark passages. Marshal Dughan faces another blow as the crisis grows. King Varian Wrynn is missing, and royal troops remain withheld from outlying lands. The local garrison has too few soldiers to clear the mine. The kingdom's heart is left short of minerals and hemmed in by threats.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "why no stormwind guard",
     "where are the guards"
    ],
-   "answer": "Marshal Dughan has too few guards to spare. King Varian Wrynn is missing, and political gridlock in the capital has left local forces stretched thin protecting farms and towns from bandits and gnolls, so Dughan relies on civilian scouts."
+   "answer": "Marshal Dughan has too few guards to spare. King Varian Wrynn is missing, and political gridlock in the capital has left local forces stretched thin protecting farms and towns from bandits and gnolls. So Dughan relies on civilian scouts."
   },
   {
    "q": "Why are kobolds taking over Elwynn's mines?",
@@ -124,5 +124,5 @@
  "attribution": [
   "The Jasperlode Mine"
  ],
- "style": 1
+ "style": 2
 }

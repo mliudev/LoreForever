@@ -14,19 +14,19 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Mankrik's desperate plea showcases the perils facing Horde settlers and patrols traveling through the contested Barrens against Bristleback quilboar."
+   "text": "Mankrik's plea shows the danger Horde settlers and patrols face from Bristleback quilboar while traveling through the Barrens."
   },
   {
    "target": "race:Orc",
-   "text": "Mankrik fought fiercely in traditional orcish battle-rage to defend his mate, only to be overwhelmed by the quilboar swarm."
+   "text": "Mankrik fought fiercely in an orcish battle-rage to defend his mate, but the quilboar swarm overwhelmed him."
   },
   {
    "target": "race:Tauren",
-   "text": "The ambush took place at a small tauren camp, and it was a wandering tauren druid who tended Mankrik's wounds along the Gold Road and saved his life."
+   "text": "The ambush happened at a small tauren camp. A wandering tauren druid tended Mankrik's wounds along the Gold Road and saved his life."
   },
   {
    "target": "class:Druid",
-   "text": "A tauren druid passing along the Gold Road came across Mankrik just as he collapsed, tending his severe wounds and keeping him alive."
+   "text": "A tauren druid passing along the Gold Road found Mankrik as he collapsed. The druid tended his severe wounds and kept him alive."
   }
  ],
  "faq": [
@@ -36,7 +36,7 @@
     "who gives this quest",
     "mankrik backstory"
    ],
-   "answer": "Mankrik is an orc warrior currently recovering at the Crossroads in the Barrens. After suffering a brutal attack by quilboar that separated him from his wife, he relies on travelers to search the scrublands for any sign of her.",
+   "answer": "Mankrik is an orc warrior recovering at the Crossroads in the Barrens. Quilboar separated him from his wife, and he asks travelers to search the scrublands for any sign of her.",
    "q": "Who is Mankrik?"
   },
   {
@@ -45,7 +45,7 @@
     "where is his wife",
     "mankrik wife attack"
    ],
-   "answer": "While Mankrik and his wife were fighting together at a small tauren camp, they were ambushed by Bristleback quilboar. His wife held off three attackers single-handedly before fresh reinforcements overwhelmed her, and Mankrik was separated from her in the chaos.",
+   "answer": "Mankrik and his wife were fighting together at a small tauren camp when Bristleback quilboar ambushed them. She held off three attackers alone before fresh reinforcements overwhelmed her and separated her from Mankrik.",
    "q": "What happened to Mankrik's wife during the battle?"
   },
   {
@@ -54,7 +54,7 @@
     "how did mankrik survive",
     "druid on gold road"
    ],
-   "answer": "After Mankrik was overwhelmed and collapsed in battle, a wandering tauren druid discovered him on the Gold Road and tended his life-threatening wounds before he could succumb to them.",
+   "answer": "A wandering tauren druid found Mankrik on the Gold Road after the quilboar overwhelmed him. The druid tended his life-threatening wounds and saved him.",
    "q": "How did Mankrik survive the quilboar ambush?"
   },
   {
@@ -63,7 +63,7 @@
     "quilboar in the barrens",
     "bristleback attackers"
    ],
-   "answer": "The attackers were Bristleback quilboar who swarmed a small tauren settlement. Their sheer numbers overpowered both Mankrik and his wife despite their fierce resistance.",
+   "answer": "Bristleback quilboar swarmed a small tauren camp and attacked Mankrik and his wife. Their numbers overcame them despite their fierce resistance.",
    "q": "Who attacked Mankrik and his wife?"
   },
   {
@@ -71,7 +71,7 @@
     "where do i look for her",
     "where to search for mankriks wife"
    ],
-   "answer": "Mankrik was found along the Gold Road after falling near a small tauren camp overrun by Bristlebacks. Travelers searching for her begin by scouting the quilboar-infested areas across the Barrens.",
+   "answer": "Mankrik was found on the Gold Road after falling near a small tauren camp overrun by Bristlebacks. Travelers can search the quilboar-infested areas across the Barrens for his wife.",
    "q": "Where should travelers look for Mankrik's wife?"
   },
   {
@@ -79,7 +79,7 @@
     "why crossroads",
     "where is mankrik now"
    ],
-   "answer": "Mankrik is currently resting at the Crossroads, the central Horde outpost in the Barrens, waiting anxiously for any news or sign of his missing wife.",
+   "answer": "Mankrik is recovering at the Crossroads in the Barrens. He waits for news or any sign of his missing wife.",
    "q": "Where can Mankrik be found now?"
   }
  ],
@@ -102,18 +102,19 @@
  ],
  "sections": [
   {
-   "body": "The quest begins with Mankrik, an orc warrior stationed at the Crossroads in the Barrens. While fighting alongside his wife at a small tauren camp, the pair were suddenly ambushed and overwhelmed by a swarm of Bristleback quilboar. During the desperate skirmish, his wife held off three Bristlebacks on her own before being cut off by fresh enemy reinforcements, separating the two in the heat of combat.",
+   "body": "Mankrik, an orc warrior at the Crossroads, fought beside his wife at a small tauren camp. Bristleback quilboar suddenly swarmed them. His wife held off three attackers alone, but fresh reinforcements cut her off from Mankrik in the fight.",
    "spoiler": 0,
    "title": "Ambush at the Camp"
   },
   {
-   "body": "In a blind rage, Mankrik turned to confront the advancing quilboar, but their sheer numbers brought him down easily. Near death, he was discovered on the Gold Road by a passing tauren druid who tended his wounds and saved his life. Unable to search for her himself due to his injuries, Mankrik begs travelers passing through the Crossroads to search the Barrens and bring back any sign of his beloved wife.",
+   "body": "Mankrik faced the advancing quilboar in a blind rage, but their numbers soon brought him down. A passing tauren druid found him near death on the Gold Road and tended his wounds. Still too injured to search for his wife, Mankrik asks travelers passing through the Crossroads to look across the Barrens and bring back any sign of her.",
    "spoiler": 0,
    "title": "A Desperate Search"
   }
  ],
- "summary": "\"Lost in Battle\" is a poignant quest offered by the wounded orc Mankrik at the Crossroads in the Barrens. After a devastating Bristleback quilboar ambush separates him from his wife at a nearby tauren camp, Mankrik asks passing adventurers to search the dangerous scrublands for any sign of her fate.",
+ "summary": "At the Crossroads, Mankrik searches for his wife, lost in a Bristleback ambush at a tauren camp. Wounded and unable to look for her himself, he asks travelers to search the Barrens for any sign of her.",
  "attribution": [
   "In-game quest text: Lost in Battle"
- ]
+ ],
+ "style": 2
 }

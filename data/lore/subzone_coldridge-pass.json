@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Gateway Out of the Valley",
-   "body": "Coldridge Pass carries recruits from Coldridge Valley toward Kharanos. The tunnel cuts through Dun Morogh’s southern mountain ridge, linking the sheltered training grounds to the wider kingdom. Troggs have overrun the passage and threaten anyone crossing between the valley and the rest of Dun Morogh.",
+   "body": "Recruits leave Coldridge Valley through Coldridge Pass and travel toward Kharanos. The tunnel cuts through Dun Morogh’s southern mountain ridge, carrying them from sheltered training grounds into the wider kingdom. Troggs have overrun the passage, threatening anyone who crosses between the valley and the rest of Dun Morogh.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "coldridge pass destination",
     "how to leave coldridge valley"
    ],
-   "answer": "Coldridge Pass connects Coldridge Valley in the southwest to the rest of Dun Morogh, emerging in snowy hills just west of Kharanos."
+   "answer": "Coldridge Pass leads from Coldridge Valley in the southwest to the rest of Dun Morogh. It opens among snowy hills just west of Kharanos."
   },
   {
    "q": "Why are there troggs in Coldridge Pass?",
@@ -48,7 +48,7 @@
     "dwarf guards at coldridge pass",
     "who controls the pass"
    ],
-   "answer": "Mountaineers watch the valley and road exits, but the tunnel remains contested and uncleared. Travelers must defend themselves during the crossing."
+   "answer": "Mountaineers watch the valley and road exits, but the tunnel remains contested and uncleared. Travelers must defend themselves as they cross."
   }
  ],
  "angles": [
@@ -58,7 +58,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you must cross the trogg-held pass to reach Kharanos and the higher road toward Ironforge, where you can aid the Alliance."
+   "text": "As a gnome, you must cross the trogg-held pass to reach Kharanos and the higher road toward Ironforge. There, you can aid the Alliance."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Coldridge Pass"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Brother Paxton (quest)",
   "chain": []
  },
- "summary": "At Stormwind's royal archives, Milton Sheaf sends you to Northshire Abbey for a missing dwarven treatise. The book was loaned months ago for copying, but has not returned to the city shelves.",
+ "summary": "At Stormwind's royal archives, Milton Sheaf sends you to Northshire Abbey for a missing dwarven treatise. The book went there months ago for copying, but it has not returned to the city's shelves.",
  "sections": [
   {
    "title": "A Borrowed Volume",
-   "body": "Stormwind's head librarian, Milton Sheaf, has a missing book on his hands. 'The Stresses of Iron,' a treatise on metallurgical techniques by dwarven prospector Margulf Blaggon, is gone from the capital's shelves. The book was loaned months ago to the clerics of Northshire Abbey so they could copy it. It was not misplaced in Stormwind.",
+   "body": "Stormwind's head librarian, Milton Sheaf, is searching for a book missing from the capital's shelves. 'The Stresses of Iron,' a treatise on metallurgical techniques by dwarven prospector Margulf Blaggon, was loaned months ago to the clerics of Northshire Abbey for copying. It was not misplaced in Stormwind.",
    "spoiler": 0
   },
   {
    "title": "Northshire's Scribe",
-   "body": "At Northshire Abbey, Brother Paxton cares for the library and its books. The Holy Order of Northshire Clerics values knowledge, but copying a long technical manuscript by hand takes time. Paxton admits he has not finished duplicating Blaggon's work, so the original has yet to return to Stormwind.",
+   "body": "At Northshire Abbey, Brother Paxton tends the library and its books. The Holy Order of Northshire Clerics values knowledge, but copying a long technical manuscript by hand takes time. Paxton admits he has not finished duplicating Blaggon's work. So the original has not yet returned to Stormwind.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is the book",
     "milton sheaf errand"
    ],
-   "answer": "Milton Sheaf loaned Stormwind's copy of 'The Stresses of Iron' to Brother Paxton months ago so the abbey could make a duplicate. With no word and no book returned, Sheaf sends you to ask how the copying is going."
+   "answer": "Months ago, Milton Sheaf loaned Stormwind's copy of 'The Stresses of Iron' to Brother Paxton so the abbey could make a duplicate. With no word and no book returned, Sheaf sends you to ask how the copying goes."
   },
   {
    "q": "Who is Brother Paxton?",
@@ -47,7 +47,7 @@
     "brother paxton lore",
     "paxton northshire"
    ],
-   "answer": "Brother Paxton is a cleric who cares for the library at Northshire Abbey. He catalogs and copies valuable books by hand for the abbey's collection."
+   "answer": "Brother Paxton is a cleric who tends the library at Northshire Abbey. He catalogs and copies valuable books by hand for the abbey's collection."
   },
   {
    "q": "What is 'The Stresses of Iron'?",
@@ -91,11 +91,11 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "The book sought after is dwarven craft by fellow miner Margulf Blaggon, and Stormwind's scribes value it enough to seek copies."
+   "text": "The book sought after is dwarven craft by fellow miner Margulf Blaggon. Stormwind's scribes value it enough to seek copies."
   },
   {
    "target": "class:Priest",
-   "text": "At Northshire Abbey, you can see the clerics' scholarly work: copying books by hand to preserve knowledge for the order."
+   "text": "At Northshire Abbey, you can see the clerics' scholarly work. They copy books by hand to preserve knowledge for the order."
   },
   {
    "target": "faction:Alliance",
@@ -121,5 +121,5 @@
  "attribution": [
   "Brother Paxton (quest)"
  ],
- "style": 1
+ "style": 2
 }

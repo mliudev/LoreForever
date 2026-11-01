@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ironforge"
  },
- "summary": "Ironforge's Great Forge burns beneath the mountain, at the heart of dwarven rule and Alliance trade. Deep inside Ironforge Mountain in Dun Morogh, the city is the political and mercantile anchor of Khaz Modan and a bulwark of the Alliance.",
+ "summary": "Beneath Dun Morogh, Ironforge’s Great Forge still burns at the heart of dwarven rule and Alliance trade. Deep within Ironforge Mountain, the city anchors Khaz Modan and guards the Alliance.",
  "sections": [
   {
    "title": "The Mountain Fortress",
-   "body": "Ironforge fills the deep halls of Ironforge Mountain, its stone rings circling the Great Forge. The dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has weathered ages of history, including the ancient War of the Three Hammers, which left the Bronzebeard clan in sole control. Natural magma pours through the mountain to power the city, while massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who came after the recent fall of Gnomeregan.",
+   "body": "Ironforge fills the deep halls of Ironforge Mountain, with stone rings circling the Great Forge. Dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has endured ages of history, including the War of the Three Hammers, which left the Bronzebeard clan in sole control.\n\nNatural magma pours through the mountain and powers the city. Massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who arrived after Gnomeregan fell recently.",
    "spoiler": 0
   },
   {
    "title": "Heart of Alliance Trade",
-   "body": "Ironforge is perhaps the Alliance's busiest center of commerce and industry. King Magni Bronzebeard rules Khaz Modan from the High Seat, while dwarven prospectors, miners, and engineers work alongside gnome refugees in Tinker Town. The Deeprun Tram runs beneath the mountains to Stormwind City, carrying trade and troops at high speed and keeping the capitals linked in mutual defense.",
+   "body": "Ironforge is one of the Alliance’s busiest centers of commerce and industry. From the High Seat, King Magni Bronzebeard rules Khaz Modan. Dwarven prospectors, miners, and engineers work beside gnome refugees in Tinker Town.\n\nBeneath the mountains, the Deeprun Tram runs to Stormwind City. It carries trade and troops at high speed, keeping the capitals linked in mutual defense.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "ironforge leader",
     "who leads ironforge"
    ],
-   "answer": "King Magni Bronzebeard rules Ironforge and holds court from the High Seat. The city is the seat of Khaz Modan, under the sole leadership of the Bronzebeard clan."
+   "answer": "King Magni Bronzebeard rules Ironforge from the High Seat. The city is Khaz Modan’s seat, under the sole leadership of the Bronzebeard clan."
   },
   {
    "q": "Why are there so many gnomes living in Ironforge?",
@@ -37,7 +37,7 @@
     "gnomes tinker town",
     "where did gnomes come from"
    ],
-   "answer": "After the fall of their nearby capital, Gnomeregan, the surviving gnomes fled to Ironforge. The Bronzebeards welcomed their longtime allies and gave them sanctuary in Tinker Town."
+   "answer": "After Gnomeregan fell, the surviving gnomes fled to Ironforge. The Bronzebeards welcomed their longtime allies and gave them sanctuary in Tinker Town."
   },
   {
    "q": "How does Ironforge connect to Stormwind City?",
@@ -46,7 +46,7 @@
     "how to get to stormwind",
     "subway to stormwind"
    ],
-   "answer": "The Deeprun Tram connects Ironforge directly to Stormwind. Built by gnomes, this engineering marvel runs underground from Tinker Town to Stormwind's Dwarven District."
+   "answer": "The Deeprun Tram connects Ironforge directly to Stormwind. Built by gnomes, it runs underground from Tinker Town to Stormwind’s Dwarven District."
   },
   {
    "q": "What is the Great Forge in the center of the city?",
@@ -55,7 +55,7 @@
     "what is the great forge",
     "lava in ironforge center"
    ],
-   "answer": "The Great Forge is an immense furnace fueled by natural rivers of magma, channeled through the heart of the mountain. It is Khaz Modan's primary center for smithing and smelting."
+   "answer": "The Great Forge is an immense furnace fueled by natural rivers of magma channeled through the heart of the mountain. It is Khaz Modan’s main center for smithing and smelting."
   }
  ],
  "angles": [
@@ -65,7 +65,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you have lost Gnomeregan to troggs and radiation. You and your people have made Tinker Town a temporary refuge and a staging ground for reclaiming your home."
+   "text": "As a gnome, you have lost Gnomeregan to troggs and radiation. Your people have made Tinker Town a temporary refuge and a staging ground for reclaiming your home."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
  "attribution": [
   "Ironforge"
  ],
- "style": 1
+ "style": 2
 }

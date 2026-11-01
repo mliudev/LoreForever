@@ -20,16 +20,16 @@
    "Garments of the Light (Dun Morogh)"
   ]
  },
- "summary": "A young priest leaves Coldridge Valley for further study in Kharanos during In Favor of the Light. Branstock Khalder sends novitiates through the mountain tunnel to Priest Trainer Maxan Anvol, where they take on greater responsibilities and can earn their first formal vestments.",
+ "summary": "Branstock Khalder sends a young priest from Coldridge Valley through the mountain pass to Kharanos for further study. There, Priest Trainer Maxan Anvol prepares the novice for greater duties and a chance to earn their first formal vestments.",
  "sections": [
   {
    "title": "Leaving the Anvil",
-   "body": "Dwarven priests begin their studies in Coldridge Valley under instructors such as Branstock Khalder. When a novice shows dedication and understanding of Holy magic, Khalder sends them beyond the mountains to Kharanos. There, priests face the needs of Dun Morogh's people, including their daily struggles and defense.",
+   "body": "You leave Anvilmar after showing dedication and understanding of Holy magic. Branstock Khalder sends promising novices beyond the mountains, where priests meet Dun Morogh’s needs and help defend its people.",
    "spoiler": 0
   },
   {
    "title": "A Step Toward Kharanos",
-   "body": "You reach Kharanos by traveling through the Coldridge Pass tunnel into central Dun Morogh. Priest Trainer Maxan Anvol guides students beyond basic prayers. He teaches that service to the Holy Light calls for moral character, physical hardiness, and an unyielding will. Students who prove their resolve under his guidance may receive their first formal garments of office.",
+   "body": "The Coldridge Pass tunnel opens into central Dun Morogh, where Priest Trainer Maxan Anvol guides you beyond basic prayers. He teaches that service to the Holy Light calls for moral character, physical hardiness, and an unyielding will. Prove your resolve under his guidance, and you may receive your first formal garments of office.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver",
     "branstock khalder"
    ],
-   "answer": "Branstock Khalder, the priest trainer at Anvilmar in Coldridge Valley, sends you to Kharanos after you show enough aptitude with the Holy Light for further study."
+   "answer": "Branstock Khalder, the priest trainer at Anvilmar in Coldridge Valley, sends you to Kharanos for further study after you show aptitude with the Holy Light."
   },
   {
    "q": "Who is Maxan Anvol?",
@@ -50,7 +50,7 @@
     "who is maxan anvol",
     "kharanos priest trainer"
    ],
-   "answer": "Maxan Anvol is the priest trainer in the mountain village of Kharanos. He guides developing priests and teaches them to join devotion with physical endurance and mental fortitude."
+   "answer": "Maxan Anvol is the priest trainer in the mountain village of Kharanos. He guides developing priests and teaches them to unite devotion with physical endurance and mental fortitude."
   },
   {
    "q": "What happens after reaching Maxan Anvol?",
@@ -68,7 +68,7 @@
     "leaving anvilmar",
     "why go to kharanos"
    ],
-   "answer": "Coldridge Valley teaches the basics of combat and spellcraft. In Kharanos, priests meet the immediate needs and dangers facing a wider community, and learn to serve their people there."
+   "answer": "Coldridge Valley teaches the basics of combat and spellcraft. In Kharanos, priests meet the needs and dangers of a wider community and learn to serve its people."
   },
   {
    "q": "Do human priests receive this same quest?",
@@ -90,11 +90,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you reach a milestone when you leave basic training for active service and receive your first vestments."
+   "text": "As a priest, you leave basic training for active service and receive your first vestments."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you join spiritual devotion with practical resilience as you leave Coldridge for Dun Morogh's freezing winds."
+   "text": "As a dwarf, you join spiritual devotion with practical resilience as you leave Coldridge for Dun Morogh’s freezing winds."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "In Favor of the Light (Dun Morogh)"
  ],
- "style": 1
+ "style": 2
 }

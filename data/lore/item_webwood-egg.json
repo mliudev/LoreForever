@@ -10,11 +10,11 @@
    "quest:917"
   ]
  },
- "summary": "In Shadowthread Cave, Webwood Eggs lie in brooding nests in Shadowglen. Naturalists seek viable eggs to study the young spiders in secure laboratory conditions.",
+ "summary": "In Shadowthread Cave, Webwood Eggs lie in nests in Shadowglen. Naturalists seek viable eggs so they can study the young spiders in secure laboratories.",
  "sections": [
   {
    "title": "A Contained Specimen",
-   "body": "Researchers cannot safely tame or subdue a fully grown, venomous Webwood spider alone. Scholars like Gilshalan Windwalker instead collect unhatched eggs from clutches hidden in Shadowthread Cave. An egg can be carried safely, and the spiderlings contained when they hatch, giving naturalists live subjects to study without facing adult spiders’ deadly fangs.",
+   "body": "A grown Webwood spider is venomous and too dangerous for one researcher to tame or subdue. So scholars like Gilshalan Windwalker collect unhatched eggs from clutches hidden in Shadowthread Cave. The eggs can be carried safely, and the spiderlings kept contained when they hatch. Naturalists can study them without facing the deadly fangs of adult spiders.",
    "spoiler": 0
   },
   {
@@ -40,7 +40,7 @@
     "egg turn in",
     "gilshalan egg"
    ],
-   "answer": "Gilshalan Windwalker, a researcher at Aldrassil, wants the egg for his study of the aggressive arachnids troubling Shadowglen."
+   "answer": "Gilshalan Windwalker, a researcher at Aldrassil, wants the egg to study the aggressive arachnids troubling Shadowglen."
   },
   {
    "q": "Why collect an egg instead of capturing a spider?",
@@ -56,17 +56,17 @@
     "where does the egg go",
     "egg destination"
    ],
-   "answer": "Gilshalan arranges for the egg and extracted spider venoms to be delivered to Darnassus, where scholars can study the creatures away from the dangers of the wild."
+   "answer": "Gilshalan arranges for the egg and extracted spider venoms to be delivered to Darnassus. There, scholars can study the creatures away from the dangers of the wild."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young kaldorei defending Teldrassil’s sacred boughs, securing these eggs helps scholars investigate the unnatural taint spreading through the World Tree’s native wildlife."
+   "text": "As a young kaldorei defending Teldrassil’s sacred boughs, you help scholars investigate the unnatural taint spreading through the World Tree’s native wildlife by securing these eggs."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, understanding how tainted Webwood spiders reproduce and behave offers clues to healing Teldrassil’s disrupted natural balance."
+   "text": "As a druid, you can learn how tainted Webwood spiders reproduce and behave. That offers clues to healing Teldrassil’s disrupted natural balance."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Webwood Egg",
   "Webwood Egg (quest)"
  ],
- "style": 1
+ "style": 2
 }

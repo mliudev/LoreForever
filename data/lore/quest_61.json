@@ -20,16 +20,16 @@
    "Shipment to Stormwind"
   ]
  },
- "summary": "William Pestle sends a parcel from Goldshire to his brother Morgan in Stormwind. Its candles carry wax supplies from Elwynn Forest to Pestle's Apothecary in the Trade District.",
+ "summary": "William Pestle sends a parcel from Goldshire to his brother in Stormwind. Its candles carry wax gathered from kobolds in Elwynn Forest to Morgan at Pestle's Apothecary.",
  "sections": [
   {
    "title": "A Family Trade",
-   "body": "William gathers herbs, reagents, and raw goods in Goldshire, while his brother Morgan runs Pestle's Apothecary in Stormwind's Trade District. William cannot easily leave his post at the Lion's Pride Inn, so he depends on travelers heading into the city to carry goods for him.",
+   "body": "William Pestle gathers herbs, reagents, and raw goods in Goldshire. His brother Morgan runs Pestle's Apothecary in Stormwind's Trade District. William cannot easily leave the Lion's Pride Inn, so he trusts travelers bound for the city to carry his goods.",
    "spoiler": 0
   },
   {
    "title": "From Kobold Wax to Capital Potions",
-   "body": "William's parcel holds large candles gathered from kobolds in Elwynn's mines. He says he collects them for their wax. Delivering the shipment brings those supplies to Morgan at Pestle's Apothecary in the Trade District.",
+   "body": "William's parcel holds large candles gathered from kobolds in Elwynn's mines. He collects them for their wax, but does not say how the brothers use it. You carry the shipment to Morgan at Pestle's Apothecary in the Trade District.",
    "spoiler": 0
   }
  ],
@@ -58,7 +58,7 @@
     "pestle brothers",
     "who is william pestle brother"
    ],
-   "answer": "William and Morgan Pestle are brothers who run an alchemical enterprise together. William procures materials in Elwynn Forest, while Morgan operates their shop in Stormwind."
+   "answer": "William and Morgan Pestle are brothers who run an alchemical enterprise together. William gathers materials in Elwynn Forest, while Morgan runs their shop in Stormwind."
   },
   {
    "q": "Why doesn't William deliver the package himself?",
@@ -66,7 +66,7 @@
     "why doesn't william go to stormwind",
     "why hire a courier"
    ],
-   "answer": "William is occupied with his trade and collecting alchemical ingredients in Goldshire. He relies on travelers already heading toward the capital to carry the package."
+   "answer": "William is occupied with his trade and gathering alchemical ingredients in Goldshire. He relies on travelers already heading toward the capital to carry the package."
   },
   {
    "q": "Do kobold candles have an actual alchemical use?",
@@ -74,7 +74,7 @@
     "why kobold candles",
     "kobold wax alchemy"
    ],
-   "answer": "William says he and his brother need the candles for their wax. He does not describe how they use it at the apothecary."
+   "answer": "William says he and his brother need the candles for their wax. He does not explain how they use it at the apothecary."
   },
   {
    "q": "What comes after delivering the shipment?",
@@ -82,7 +82,7 @@
     "what next after shipment to stormwind",
     "follow up quest shipment to stormwind"
    ],
-   "answer": "Delivering the shipment concludes the short chain that began with gathering kobold candles in Elwynn Forest. Morgan pays you for carrying the parcel and welcomes your business in his shop."
+   "answer": "Delivering the shipment ends the short chain that began with gathering kobold candles in Elwynn Forest. Morgan pays you for carrying the parcel and welcomes your business in his shop."
   }
  ],
  "angles": [
@@ -92,7 +92,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you carry supplies along the king's road into Stormwind, moving from countryside skirmishes toward the capital."
+   "text": "As an Alliance champion, you carry supplies along the king's road into Stormwind, traveling from countryside skirmishes toward the capital."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Shipment to Stormwind"
  ],
- "style": 1
+ "style": 2
 }

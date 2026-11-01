@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Molsen Farm"
  },
- "summary": "Molsen Farm is an abandoned homestead located in the breadbasket region of Westfall. Once a fertile piece of farmland feeding Stormwind, it has fallen into ruin following the rise of the Defias Brotherhood and the prowling mechanical harvest golems left in their wake.",
+ "summary": "In Westfall, Molsen Farm lies empty, its fields gone untended. Once fertile land that fed Stormwind, it fell into ruin after the Defias Brotherhood rose and mechanical harvest golems were left prowling there.",
  "sections": [
   {
    "title": "A Ruined Homestead",
-   "body": "Like many homesteads across Westfall, Molsen Farm stands as a casualty of the kingdom's neglect and criminal uprising. When the Defias Brotherhood took control of the countryside, the resident farmers were driven out or worse, abandoning their crops and buildings. Now, instead of laborers gathering grain, hostile mechanical Harvest Watchers and wandering outlaws scour the untended fields, making the farm a hazard to anyone traveling through the province.",
+   "body": "Molsen Farm is one of Westfall's ruined homesteads, exposed by the kingdom's neglect and the criminal uprising. When the Defias Brotherhood took control of the countryside, farmers here were driven out or worse. They left their crops and buildings behind. Now hostile mechanical Harvest Watchers and wandering outlaws scour the fields, where laborers once gathered grain. The farm is dangerous for anyone traveling through the province.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who lived here",
     "what happened to molsen farm"
    ],
-   "answer": "The farm was abandoned when the Defias Brotherhood swept across Westfall. Left without military protection from Stormwind, the homesteaders could not defend their land against bandits and rogue harvest golems, forcing them to flee their homes."
+   "answer": "The Defias Brotherhood swept across Westfall, and Stormwind left Molsen Farm without military protection. Unable to defend their land against bandits and rogue harvest golems, the homesteaders fled their homes."
   },
   {
    "q": "Who controls the farm now?",
@@ -31,7 +31,7 @@
     "molsen farm enemies",
     "who is at molsen farm"
    ],
-   "answer": "The fields are overrun by malfunctioning Harvest Watchers and outlaws aligned with the Defias Brotherhood. No lawful citizens currently occupy or work the property."
+   "answer": "Malfunctioning Harvest Watchers and outlaws aligned with the Defias Brotherhood overrun the fields. No lawful citizens live on or work the property."
   },
   {
    "q": "Who was Molsen?",
@@ -39,13 +39,13 @@
     "who is molsen",
     "molsen family"
    ],
-   "answer": "The farm takes its name from the local family that originally settled and tilled the land before the recent unrest drove Westfall's agrarian population into exile or poverty."
+   "answer": "Molsen Farm takes its name from the local family that first settled and tilled the land. Recent unrest drove Westfall's farming people into exile or poverty."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The overgrown fields of Molsen Farm are a grim reminder of Stormwind's failing grasp on its rural territories and the pressing threat of the Defias Brotherhood."
+   "text": "For the Alliance, Molsen Farm's overgrown fields recall Stormwind's failing hold on its rural lands and the pressing threat of the Defias Brotherhood."
   }
  ],
  "keywords": [
@@ -63,5 +63,6 @@
  ],
  "attribution": [
   "Molsen Farm"
- ]
+ ],
+ "style": 2
 }

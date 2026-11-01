@@ -17,16 +17,16 @@
   "wiki": "A Scroll from Mauren",
   "chain": []
  },
- "summary": "Gaxim Rustfizzle needs arcane help to trigger his NG-5 explosives from afar. He sends you to Collin Mauren in Stormwind, where gnomish ingenuity meets human arcane craft.",
+ "summary": "Gaxim Rustfizzle seeks a spell from Collin Mauren in Stormwind's Mage Quarter. He needs arcane help to trigger his NG-5 explosives from afar.",
  "sections": [
   {
    "title": "A Spark Across Distances",
-   "body": "Gaxim Rustfizzle seeks a safer way to set off his NG-5 explosives. Mechanical fuses cannot give him the remote trigger he wants: one button should ignite the charges while he stays at a safe distance. He turns to arcane magic to bridge that gap.",
+   "body": "Mechanical fuses cannot give Gaxim the control he needs. He wants to ignite the charges with one button while he stays beyond the blast. Arcane magic may carry a command from his hand to the explosives.",
    "spoiler": 0
   },
   {
    "title": "The Mage Quarter Connection",
-   "body": "Gaxim sends you to Collin Mauren in Stormwind's Mage Quarter for the needed spellwork. Mauren is a human spellcaster whose practical knowledge of the arcane may help bind an explosive ignition to a distant command. His work begins the incantation Gaxim needs for his dangerous project.",
+   "body": "Collin Mauren is a human spellcaster with practical knowledge of the arcane. He considers how to bind an explosive ignition to a distant command. Then he begins the incantation Gaxim needs for his dangerous project.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "remote detonation lore",
     "why see a mage"
    ],
-   "answer": "Gaxim wants to set off his NG-5 explosives with one button from a safe distance. He seeks Mauren's arcane knowledge for an instant remote trigger because mechanical means can be cumbersome or unreliable over long ranges."
+   "answer": "Gaxim wants to set off his NG-5 explosives with one button from a safe distance. He seeks Mauren's arcane knowledge for an instant remote trigger, since mechanical means can be cumbersome or unreliable over long ranges."
   },
   {
    "q": "What is the NG-5?",
@@ -83,13 +83,13 @@
     "what race is mauren",
     "is mauren a human"
    ],
-   "answer": "Collin Mauren is a human mage. Gaxim notes that Mauren should be easy to spot among the crowds in Stormwind because he is human."
+   "answer": "Collin Mauren is a human mage. Gaxim says Mauren should be easy to spot in Stormwind's crowds because he is human."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you know that the Kirin Tor and Stormwind's arcane practitioners work with engineers. They apply evocation and transmutation to mechanical problems."
+   "text": "As a mage, you know the Kirin Tor and Stormwind's arcane practitioners work with engineers. They apply evocation and transmutation to mechanical problems."
   },
   {
    "target": "race:Gnome",
@@ -97,7 +97,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you know that volatile black powder and arcane catalysts can solve problems such as remote ignition."
+   "text": "As an engineer, you know volatile black powder and arcane catalysts can solve problems such as remote ignition."
   },
   {
    "target": "faction:Alliance",
@@ -124,5 +124,5 @@
  "attribution": [
   "A Scroll from Mauren"
  ],
- "style": 1
+ "style": 2
 }

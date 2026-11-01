@@ -8,21 +8,21 @@
   "wiki": "Duthorian Rall",
   "refs": 7
  },
- "summary": "In Stormwind's Cathedral of Light, Duthorian Rall guides new holy warriors through their trials. The respected human knight of the Silver Hand is one of the Alliance's most influential paladins, overseeing their training and spiritual tests. He teaches charity, valor, and devotion as they prepare to defend Azeroth from the Scourge and threats within the kingdom.",
+ "summary": "In Stormwind's Cathedral of Light, Duthorian Rall guides new holy warriors through their trials. A respected human knight of the Silver Hand, he is one of the Alliance's most influential paladins. He oversees their training and spiritual tests, teaching charity, valor, and devotion as they prepare to defend Azeroth from the Scourge and threats within the kingdom.",
  "sections": [
   {
    "title": "A Pillar of the Silver Hand",
-   "body": "In the Cathedral of Light, Duthorian Rall upholds the traditions of the Knights of the Silver Hand. The kingdom is unsettled by internal strife, and King Varian Wrynn is missing. Duthorian carries the duty of teaching discipline to new initiates. Respected paladins in the field send promising recruits to him: Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, so they can begin their sacred trials.",
+   "body": "In the Cathedral of Light, Duthorian Rall upholds the traditions of the Knights of the Silver Hand. The kingdom is unsettled by strife within its borders, and King Varian Wrynn is missing. Duthorian bears the duty of teaching discipline to new initiates. Respected paladins in the field send promising recruits to him: Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge. There, the recruits begin their sacred trials.",
    "spoiler": 0
   },
   {
    "title": "Trials of Compassion and Life",
-   "body": "Duthorian teaches that martial power without a moral foundation is hollow. In the Tome of Divinity trials, he tests an initiate's empathy through acts of mercy and selfless service across Stormwind. Only after these tests does he entrust candidates with deeper mysteries. Near Heroes' Vigil, he tests them with the Symbol of Life, then sends them to aid wounded allies and learn to channel the Light's power to restore fallen comrades from death.",
+   "body": "Duthorian teaches that martial power without a moral foundation is hollow. In the Tome of Divinity trials, he tests an initiate's empathy through acts of mercy and selfless service across Stormwind. Only then does he entrust candidates with deeper mysteries.\n\nNear Heroes' Vigil, he tests them with the Symbol of Life. Then he sends them to aid wounded allies and learn to channel the Light's power, restoring fallen comrades from death.",
    "spoiler": 0
   },
   {
    "title": "The Price of Valor",
-   "body": "Duthorian's trials of valor demand courage in the face of peril. He warns aspirants that their vows may cost them their lives. To test their resolve, he sends initiates into danger, including to defend Daphne Stilwell from Defias renegades in Westfall. He then directs them to master smith Jordan Stilwell outside Ironforge and grants them holy steeds worthy of their station.",
+   "body": "Duthorian's trials of valor demand courage in the face of peril. He warns aspirants that their vows may cost them their lives. To test their resolve, he sends initiates into danger, including to defend Daphne Stilwell from Defias renegades in Westfall. Then he directs them to master smith Jordan Stilwell outside Ironforge and grants them holy steeds worthy of their station.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is duthorian",
     "cathedral paladin duthorian"
    ],
-   "answer": "Duthorian Rall is a prominent knight of the Silver Hand who resides in Stormwind City's Cathedral of Light. He instructs and guides new paladins, testing their devotion and courage in service to the Church of the Holy Light."
+   "answer": "Duthorian Rall is a prominent knight of the Silver Hand who resides in Stormwind City's Cathedral of Light. He instructs new paladins and tests their devotion and courage in service to the Church of the Holy Light."
   },
   {
    "q": "Where can Duthorian Rall be found?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Duthorian Rall"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Missing Diplomat (2)",
   "chain": []
  },
- "summary": "In Stormwind, an urgent inquiry begins after a diplomat fails to reach Theramore Isle. Bishop DeLavey suspects Defias foul play and sends trusted operatives to Jorgen, a discreet contact in the Valley of Heroes.",
+ "summary": "In Stormwind, the inquiry begins urgently when a diplomat fails to reach Theramore Isle. Bishop DeLavey suspects Defias foul play and sends trusted operatives to Jorgen, a discreet contact in the Valley of Heroes.",
  "sections": [
   {
    "title": "A Vanishing in the Shadows",
-   "body": "A high-ranking diplomat sailed from the Eastern Kingdoms to meet Lady Jaina Proudmoore in Theramore Isle for sensitive talks, but never arrived. Royal investigators search Stormwind for clues. The disappearance remains secret to prevent panic and keep conspirators from learning that the crown is watching.",
+   "body": "A high-ranking diplomat sailed from the Eastern Kingdoms to meet Lady Jaina Proudmoore in Theramore Isle for sensitive talks. The diplomat never arrived. Royal investigators search Stormwind for clues. The disappearance remains secret to prevent panic and keep conspirators from learning the crown is watching.",
    "spoiler": 0
   },
   {
    "title": "Private Inquiries",
-   "body": "Bishop DeLavey believes the Defias Brotherhood abducted the diplomat, but does not rely only on the king’s guard. He turns to discreet contacts and seeks out Jorgen, an old acquaintance who keeps a low profile fishing in the Valley of Heroes, just inside the city gates.",
+   "body": "Bishop DeLavey believes the Defias Brotherhood abducted the diplomat, but he does not rely only on the king’s guard. He turns to discreet contacts and seeks out Jorgen, an old acquaintance who keeps a low profile fishing in the Valley of Heroes. Jorgen is just inside the city gates.",
    "spoiler": 0
   },
   {
@@ -44,7 +44,7 @@
     "who vanished",
     "diplomat identity"
    ],
-   "answer": "The Church of the Light and the Stormwind throne guard the diplomat’s identity, referring to them only as a key diplomat sent across the Great Sea to Theramore."
+   "answer": "The Church of the Light and the Stormwind throne guard the diplomat’s identity. They refer to them only as a key diplomat sent across the Great Sea to Theramore."
   },
   {
    "q": "Why was the diplomat traveling to Theramore?",
@@ -62,7 +62,7 @@
     "delavey suspect",
     "who kidnapped the diplomat"
    ],
-   "answer": "Bishop DeLavey suspects the Defias Brotherhood abducted the diplomat, though their methods and accomplices in the city remain unknown."
+   "answer": "Bishop DeLavey suspects the Defias Brotherhood abducted the diplomat. Their methods and accomplices in the city remain unknown."
   },
   {
    "q": "Who is Jorgen?",
@@ -71,7 +71,7 @@
     "jorgen identity",
     "who is the fisherman"
    ],
-   "answer": "Jorgen is an operative and longtime personal contact of Bishop DeLavey who fishes in Stormwind’s Valley of Heroes, just inside the city gates."
+   "answer": "Jorgen is an operative and longtime personal contact of Bishop DeLavey. He fishes in Stormwind’s Valley of Heroes, just inside the city gates."
   },
   {
    "q": "Why is the matter kept secret from the public?",
@@ -80,7 +80,7 @@
     "why keep it secret",
     "why not tell the city"
    ],
-   "answer": "The authorities keep the matter quiet because revealing that a vital envoy was abducted under the throne’s nose could cause chaos and alert the conspirators that royal agents are hunting them."
+   "answer": "The authorities keep the matter quiet because revealing that a vital envoy was abducted under the throne’s nose could cause chaos. It could also alert the conspirators that royal agents are hunting them."
   },
   {
    "q": "Where does this investigation lead?",
@@ -130,5 +130,5 @@
  "attribution": [
   "The Missing Diplomat (2)"
  ],
- "style": 1
+ "style": 2
 }

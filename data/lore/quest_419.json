@@ -20,21 +20,21 @@
    "A Pilot's Revenge (Classic)"
   ]
  },
- "summary": "Pilot Hammerfoot waits at the wrecked siege engine, fearing for Mori Hildelve in Dun Morogh's crags. Hildelve went on foot to find rare ore for potent blastpowder, but days have passed, and roars echo through the peaks.",
+ "summary": "At the wreck, Pilot Hammerfoot fears for Mori Hildelve in Dun Morogh's crags. Hildelve went on foot to seek rare ore for potent blastpowder, but days have passed and roars echo through the peaks.",
  "sections": [
   {
    "title": "A Search Cut Short",
-   "body": "Pilot Mori Hildelve drove his siege engine up Dun Morogh's steep, jagged ridges while searching for rare ore needed to make high-grade blastpowder. The machine broke on the slope. Hildelve left Pilot Hammerfoot at the camp to guard the wreckage, then continued higher into the frozen wilderness on foot.",
+   "body": "Pilot Mori Hildelve drove his siege engine up Dun Morogh's steep ridges in search of rare ore for high-grade blastpowder. The machine broke on the slope. He left Pilot Hammerfoot at the camp to guard the wreck, then climbed higher into the frozen wilderness on foot.",
    "spoiler": 0
   },
   {
    "title": "Echoes in the Snow",
-   "body": "Days passed without Hildelve returning to camp. At night, vicious growls echoed from the rocky crags, and Hammerfoot's impatience turned to dread. Hildelve was known for his toughness, but the frigid heights offered little protection from prowling predators without his engine or heavy support.",
+   "body": "Days passed, and Hildelve did not return to camp. At night, vicious growls echoed from the rocky crags. Hammerfoot's impatience gave way to dread. Hildelve was tough, but the frigid heights offered little shelter from prowling predators without his engine or heavy support.",
    "spoiler": 0
   },
   {
    "title": "A Grim Discovery",
-   "body": "Mori Hildelve's trail ends in the crags, where his remains lie exposed to the elements, mauled and stripped by mountain scavengers. His roughly scribbled notes are clutched in his lifeless hand. A Brigadier's Vest still drapes his ruined frame, marking the violent end of the siege engineer.",
+   "body": "Mori Hildelve's trail ends in the crags. His remains lie exposed to the elements, mauled and stripped by mountain scavengers. Roughly scribbled notes are clutched in his lifeless hand. A Brigadier's Vest still drapes his ruined frame, marking the violent end of the siege engineer.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "what was hildelve doing",
     "pilot hildelve mission"
    ],
-   "answer": "Hildelve went into the wilderness to search for rare ore needed to make high-grade dwarven blastpowder. When his siege engine broke on a steep slope, he continued into the crags on foot rather than abandon the search."
+   "answer": "Hildelve went into the wilderness to seek rare ore for high-grade dwarven blastpowder. When his siege engine broke on a steep slope, he continued into the crags on foot rather than abandon the search."
   },
   {
    "q": "Who sends you to look for Hildelve?",
@@ -54,7 +54,7 @@
     "who gives quest",
     "lost pilot quest giver"
    ],
-   "answer": "Pilot Hammerfoot, Hildelve's friend and fellow siege engine operator, asks you to investigate. Hildelve had left Hammerfoot behind to guard their damaged machinery while he scouted ahead."
+   "answer": "Pilot Hammerfoot, Hildelve's friend and fellow siege engine operator, asks you to investigate. Hildelve left Hammerfoot behind to guard their damaged machinery while he scouted ahead."
   },
   {
    "q": "What happened to Hildelve's siege engine?",
@@ -62,7 +62,7 @@
     "broken siege engine",
     "why engine broke"
    ],
-   "answer": "Hildelve wrecked the siege engine's mechanics while trying to drive it up a steep, icy hillside in search of ore. The machine was left stranded in the snow."
+   "answer": "Hildelve damaged the siege engine's mechanics while driving it up a steep, icy hillside in search of ore. The machine was left stranded in the snow."
   },
   {
    "q": "What killed Pilot Hildelve?",
@@ -80,7 +80,7 @@
     "hildelve corpse items",
     "proof of death"
    ],
-   "answer": "Hildelve's roughly scribbled notes are clutched in his hand, and a Brigadier's Vest in fine condition remains around his frame."
+   "answer": "Roughly scribbled notes are clutched in Hildelve's hand, and a Brigadier's Vest in fine condition remains around his frame."
   },
   {
    "q": "What happens after Hildelve's body is discovered?",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Lost Pilot (Classic)"
  ],
- "style": 1
+ "style": 2
 }

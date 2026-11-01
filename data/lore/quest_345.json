@@ -17,16 +17,16 @@
   "wiki": "Ink Supplies",
   "chain": []
  },
- "summary": "In Northshire Abbey, Brother Paxton needs fresh ink for his work as a monastic scribe. He sends you east to Lakeshire for Rethban ore, the mineral his fast-drying ink requires.",
+ "summary": "Brother Paxton at Northshire Abbey has run short of the ink his writings need. He sends you east to Lakeshire for Rethban ore.",
  "sections": [
   {
    "title": "A Scribe's Formula",
-   "body": "Brother Paxton takes pride in his craft and uses a special ink for important writings such as The Stresses of Iron. His recipe dries quickly and resists smearing, but the ink can dry in its pot if left too long. To make more, he needs raw Rethban iron ore, mined in the rocky Redridge Mountains.",
+   "body": "Brother Paxton uses his special ink for important writings, including The Stresses of Iron. The ink dries quickly and resists smearing. Yet its recipe has a flaw: left too long, it hardens in the pot. To make a fresh batch, Paxton needs raw Rethban iron ore from the rocky Redridge Mountains.",
    "spoiler": 0
   },
   {
    "title": "A Town Under Siege",
-   "body": "Lakeshire has little room for a distant scribe’s request. Foreman Oslow oversees laborers busy strengthening barricades, rebuilding ruined structures, and defending the town from ongoing Blackrock orc raids. With no workers to spare for mining, travelers must seek the ore in the perilous Rethban Caverns themselves.",
+   "body": "Foreman Oslow has no workers to spare for mining. His laborers are strengthening Lakeshire’s barricades, rebuilding ruined structures, and defending the town from Blackrock orc raids. So you must brave the perilous Rethban Caverns yourself to find the ore Paxton needs.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "paxton ore ink",
     "brother paxton ink recipe"
    ],
-   "answer": "Brother Paxton needs Rethban iron ore to make his special ink. Ground ore supplies the mineral pigment and setting qualities that give the ink its quick-drying, smear-proof script."
+   "answer": "Brother Paxton needs Rethban iron ore to make his special ink. Ground ore gives the ink its mineral pigment and setting qualities, so it dries quickly and resists smearing."
   },
   {
    "q": "Who is Foreman Oslow?",
@@ -56,7 +56,7 @@
     "where is oslow",
     "where do i go for ink supplies"
    ],
-   "answer": "Paxton sends you east from Elwynn Forest to Lakeshire, in the Redridge Mountains, to find Foreman Oslow."
+   "answer": "Paxton sends you east from Elwynn Forest to Lakeshire in the Redridge Mountains. There, you are to find Foreman Oslow."
   },
   {
    "q": "Why won't Foreman Oslow just give you the ore?",
@@ -65,7 +65,7 @@
     "oslow refuses ore",
     "why oslow mad"
    ],
-   "answer": "Blackrock orc attacks keep Lakeshire under pressure. Oslow’s workers are occupied repairing damaged buildings and fortifying the town, with no hands free to mine."
+   "answer": "Blackrock orc attacks keep Lakeshire under pressure. Oslow’s workers are busy repairing damaged buildings and strengthening the town, leaving no hands free to mine."
   },
   {
    "q": "What book is Brother Paxton attempting to copy?",
@@ -74,7 +74,7 @@
     "what is paxton copying",
     "the stresses of iron"
    ],
-   "answer": "Brother Paxton is copying The Stresses of Iron. His work stopped when his previous batch of quick-drying ink solidified in its container."
+   "answer": "Brother Paxton is copying The Stresses of Iron. His work stopped when his previous batch of quick-drying ink hardened in its container."
   },
   {
    "q": "What happens after speaking with Foreman Oslow?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you can help the clergy with their scholarly work. Brother Paxton’s errand follows Brother Kristoff’s sermon on the Fortitude of the Spirit."
+   "text": "As a priest, you can help the clergy with scholarly work. Brother Paxton’s errand follows Brother Kristoff’s sermon on the Fortitude of the Spirit."
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can seek Rethban iron ore, found high in the crags of Redridge."
+   "text": "As a miner, you can seek Rethban iron ore high in the crags of Redridge."
   },
   {
    "target": "faction:Alliance",
@@ -120,5 +120,5 @@
  "attribution": [
   "Ink Supplies"
  ],
- "style": 1
+ "style": 2
 }

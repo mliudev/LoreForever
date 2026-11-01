@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Facing Cyclonian and taking the Whirlwind Heart is a defining proving ground for aspiring warriors, yielding a weapon infused with the raw power of the tempest."
+   "text": "As a warrior, facing Cyclonian and claiming the Whirlwind Heart is a proving ground. It yields a weapon infused with the raw power of the tempest."
   },
   {
    "target": "race:Troll",
-   "text": "Bath'rah Windwatcher channels ancient primal arts far removed from civilization to command wind elementals, reflecting the deep mystical traditions of troll shamans and witch doctors."
+   "text": "As a troll, you know Bath'rah Windwatcher's primal arts reach far beyond civilization. His command of wind elementals reflects the deep mystical traditions of troll shamans and witch doctors."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is cyclonian",
     "cyclonian lore"
    ],
-   "answer": "Cyclonian is a powerful elemental known as the wind lord. When summoned through Bath'rah Windwatcher's ritual, he manifests as a ferocious tempest that must be vanquished to obtain the essence sealed within his core.",
+   "answer": "Cyclonian is a powerful elemental known as the wind lord. Bath'rah Windwatcher's ritual calls him forth as a fierce tempest, and he must be defeated to claim the essence sealed in his core.",
    "q": "Who is Cyclonian?"
   },
   {
@@ -37,7 +37,7 @@
     "why need whirlwind heart",
     "whirlwind heart use"
    ],
-   "answer": "The Whirlwind Heart is the elemental core of Cyclonian. Bath'rah Windwatcher requires it to bind the wind lord's swirling, destructive energies directly into a formidable weapon.",
+   "answer": "The Whirlwind Heart is Cyclonian's elemental core. Bath'rah Windwatcher needs it to bind the wind lord's swirling, destructive power into a weapon.",
    "q": "What is the Whirlwind Heart?"
   },
   {
@@ -46,7 +46,7 @@
     "bathrah windwatcher",
     "quest giver the summoning"
    ],
-   "answer": "Bath'rah Windwatcher is a troll mystic residing in the wilderness who possesses the knowledge to summon Cyclonian. He guides warriors through the ritual and uses the fallen elemental's heart to forge mighty armaments.",
+   "answer": "Bath'rah Windwatcher is a troll mystic who lives in the wilderness and knows how to summon Cyclonian. He guides warriors through the ritual, then uses the fallen elemental's heart to forge mighty weapons.",
    "q": "Who is Bath'rah Windwatcher?"
   },
   {
@@ -55,7 +55,7 @@
     "purpose of the summoning",
     "reason to summon"
    ],
-   "answer": "The purpose of summoning Cyclonian is to confront the wind lord in combat, slay him, and harvest his elemental heart. That essence is then used to instill a weapon with the enduring fury of the whirlwind.",
+   "answer": "Cyclonian is summoned so a warrior can face and slay the wind lord, then claim his elemental heart. Its power can be bound into a weapon.",
    "q": "Why is Cyclonian being summoned?"
   },
   {
@@ -64,7 +64,7 @@
     "cyclonian reward lore",
     "after the summoning"
    ],
-   "answer": "Once Cyclonian is defeated and his Whirlwind Heart delivered to Bath'rah, the mystic can harness the captured elemental energies to empower a weapon infused with Cyclonian's stormcraft.",
+   "answer": "After Cyclonian falls, Bath'rah can harness the elemental power in his Whirlwind Heart to empower a weapon with Cyclonian's stormcraft.",
    "q": "What happens after Cyclonian is defeated?"
   },
   {
@@ -72,7 +72,7 @@
     "where does the ritual happen",
     "the summoning location"
    ],
-   "answer": "The ritual takes place at Bath'rah Windwatcher's camp, where the mystic gathers the necessary primal focus to draw Cyclonian forth from the elemental realm into the physical world.",
+   "answer": "The ritual takes place at Bath'rah Windwatcher's camp. There, the mystic gathers the primal focus needed to draw Cyclonian from the elemental realm into the physical world.",
    "q": "Where does the summoning take place?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "The Summoning represents the culmination of Bath'rah Windwatcher's preparations. The hermit mystic prepares an ancient ritual to call forth Cyclonian, a fearsome elemental known as the wind lord, into the mortal realm. Rather than bargaining with the tempest, the summoner aims to subdue it, charging an able champion with striking the creature down the moment it coalesces.",
+   "body": "Bath'rah Windwatcher has prepared an ancient ritual to summon Cyclonian into the mortal realm. The fearsome elemental is known as the wind lord. There will be no bargain with the tempest. An able champion must strike it down as soon as it takes form.",
    "spoiler": 0,
    "title": "Calling the Tempest"
   },
   {
-   "body": "At the center of the confrontation lies the Whirlwind Heart, the vortex of power sustaining Cyclonian's physical form. Once the wind lord is brought low and his heart wrenched free, Bath'rah harnesses the raging gale trapped within it. This volatile elemental core serves as the catalyst to imbue a weapon with the unfettered force of the storm.",
+   "body": "Cyclonian's Whirlwind Heart sustains his physical form. When the wind lord falls, Bath'rah wrenches the heart free and harnesses the gale within. Its volatile power can imbue a weapon with the force of the storm.",
    "spoiler": 0,
    "title": "The Heart of the Storm"
   }
  ],
- "summary": "The Summoning is a warrior trial conducted by the mystic Bath'rah Windwatcher to call forth Cyclonian, the wind lord. By invoking and slaying the tempestuous elemental, a warrior claims the Whirlwind Heart to instill a weapon with the force of the storm.",
+ "summary": "At Bath'rah Windwatcher's camp, a warrior faces a trial against Cyclonian, the wind lord. Slay the elemental and claim the Whirlwind Heart, whose storm force can be bound into a weapon.",
  "attribution": [
   "In-game quest text: The Summoning"
- ]
+ ],
+ "style": 2
 }

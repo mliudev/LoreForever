@@ -8,16 +8,16 @@
   "wiki": "Elanaria",
   "refs": 3
  },
- "summary": "Elanaria is a night elf warrior mentor and coordinator stationed on the Warrior's Terrace in Darnassus. She directs developing fighters across Kalimdor, testing their mettle against dangerous threats such as the satyr Vorlus Vilehoof and spiritual entities like the Shade of Elura. Her guidance serves as a crucial bridge for Alliance soldiers honing their martial prowess in the night elven capital.",
+ "summary": "On the Warrior's Terrace in Darnassus, Elanaria prepares fighters for danger across Kalimdor. She tests their strength against foes such as Vorlus Vilehoof and the Shade of Elura.",
  "sections": [
   {
    "title": "A Sentinel of the Terrace",
-   "body": "Standing proudly on the Warrior's Terrace within the boughs of Darnassus, Elanaria serves as an instructor and point of contact for martial champions. In an era where the night elves have formally aligned with the Grand Alliance, her role extends beyond mentoring local Sentinels to preparing warriors of all backgrounds for the harsh challenges facing their lands.",
+   "body": "Elanaria trains warriors on Darnassus's Warrior's Terrace. Since the night elves joined the Grand Alliance, she has guided Sentinels and fighters from other peoples through the dangers facing their lands.",
    "spoiler": 0
   },
   {
    "title": "Trials of Iron and Spirit",
-   "body": "Elanaria does not offer easy praise; she expects discipline, resilience, and proven strength. She assigns seasoned adventurers to strike down formidable adversaries plaguing Teldrassil and Darkshore, including the corrupt satyr Vorlus Vilehoof and troubled spirits like the Shade of Elura. She also liaises with skilled craftsmen like Smith Mathiel to ensure that deserving warriors are properly armed for war.",
+   "body": "Elanaria demands discipline, endurance, and strength proven in battle. She sends seasoned fighters after threats in Teldrassil and Darkshore, including the satyr Vorlus Vilehoof and the Shade of Elura. She also works with Smith Mathiel so proven warriors can be armed for war.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is elanaria",
     "elanaria npc"
    ],
-   "answer": "Elanaria is a night elf located on the Warrior's Terrace in Darnassus. She serves as a martial quest giver who tasks rising warriors with combat trials throughout northern Kalimdor."
+   "answer": "Elanaria is a night elf warrior mentor on the Warrior's Terrace in Darnassus. She sends fighters on trials across northern Kalimdor."
   },
   {
    "q": "Where can I find Elanaria?",
@@ -38,7 +38,7 @@
     "where is elanaria",
     "elanaria spot"
    ],
-   "answer": "She is located on the Warrior's Terrace, the elevated northern district of Darnassus dedicated to the city's military training grounds and defenses."
+   "answer": "You can find Elanaria on the Warrior's Terrace, Darnassus's northern district for military training and defense."
   },
   {
    "q": "What quests does Elanaria offer?",
@@ -47,7 +47,7 @@
     "quests from elanaria",
     "elanaria warrior quest"
    ],
-   "answer": "Elanaria is a key figure in intermediate warrior progression, offering assignments such as hunting down the satyr Vorlus Vilehoof, confronting the Shade of Elura, and coordinating with local armorers like Smith Mathiel."
+   "answer": "Elanaria sends fighters after Vorlus Vilehoof and the Shade of Elura, and directs them to Smith Mathiel for arms."
   },
   {
    "q": "Why does Elanaria send fighters against Vorlus Vilehoof?",
@@ -56,7 +56,7 @@
     "vorlus vilehoof quest",
     "why kill vorlus vilehoof"
    ],
-   "answer": "Vorlus Vilehoof is a dangerous satyr whose demonic corruption threatens the northern wilds. Elanaria tasks capable warriors with slaying him to both safeguard the forests and prove their battlefield prowess."
+   "answer": "Vorlus Vilehoof is a dangerous satyr whose corruption threatens the northern wilds. Elanaria sends capable fighters to kill him, protecting the forests and testing their strength in battle."
   },
   {
    "q": "Who is Smith Mathiel?",
@@ -65,7 +65,7 @@
     "smith mathiel warrior",
     "elanaria and mathiel"
    ],
-   "answer": "Smith Mathiel is a master armorer stationed in Darnassus. Elanaria directs warriors to Mathiel so they may craft or receive specialized martial equipment suitable for frontline combat."
+   "answer": "Smith Mathiel is an armorer in Darnassus. Elanaria directs warriors to Mathiel for equipment suited to frontline combat."
   },
   {
    "q": "Does Elanaria interact with non-night elves?",
@@ -73,21 +73,21 @@
     "can humans talk to elanaria",
     "alliance warrior elanaria"
    ],
-   "answer": "Yes. As part of the Alliance, Elanaria assists all eligible Alliance warriors who arrive on the Warrior's Terrace seeking guidance and specialized training."
+   "answer": "Yes. Elanaria guides Alliance warriors who come to the Warrior's Terrace for training."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Elanaria is an essential contact on the Warrior's Terrace, assigning level-appropriate martial trials that reward sturdy equipment and refine tactical combat skills."
+   "text": "As a warrior, you can seek Elanaria's guidance on the Warrior's Terrace and prove your strength in battle."
   },
   {
    "target": "race:NightElf",
-   "text": "Representing the martial traditions of Darnassus, Elanaria works to purge corrupted entities like satyrs and restless shades from the ancestral lands of the kaldorei."
+   "text": "As a night elf, you can help Elanaria drive satyrs and restless shades from your ancestral lands."
   },
   {
    "target": "faction:Alliance",
-   "text": "From the capital of Teldrassil, Elanaria helps maintain military readiness and arms soldiers who defend Alliance interests across northern Kalimdor."
+   "text": "As an Alliance soldier, you can look to Elanaria in Darnassus for guidance and arms as you defend Alliance interests across northern Kalimdor."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Elanaria"
- ]
+ ],
+ "style": 2
 }

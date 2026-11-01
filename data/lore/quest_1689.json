@@ -21,16 +21,16 @@
    "The Binding (Voidwalker, Stormwind)"
   ]
  },
- "summary": "In Stormwind, Gakin the Darkbinder puts a novice warlock through a final trial. With his recovered Bloodstone Choker, you draw a voidwalker into a hidden circle and force it to submit.",
+ "summary": "Beneath Stormwind, Gakin the Darkbinder sets you a final trial. With his recovered Bloodstone Choker, you draw a voidwalker into a hidden circle and force it to submit.",
  "sections": [
   {
    "title": "Subjugation in the Crypts",
-   "body": "Beneath the Slaughtered Lamb in Stormwind's Mage Quarter, forgotten catacombs run beyond the watchful gaze of the Silver Hand and Kirin Tor magistrates. Gakin the Darkbinder teaches novice warlocks that dark magic demands more than channeling power; they must also dominate otherworldly beings. You have recovered Gakin's stolen Bloodstone Choker from Surena Caledon. Now he asks you to call a voidwalker into the summoning circle beneath the tavern.",
+   "body": "Below the Slaughtered Lamb in Stormwind's Mage Quarter lie catacombs beyond the watch of the Silver Hand and Kirin Tor magistrates. Gakin teaches that dark magic takes more than power. It demands mastery over beings from beyond this world. You recovered his stolen Bloodstone Choker from Surena Caledon. Now he asks you to summon a voidwalker beneath the tavern.",
    "spoiler": 0
   },
   {
    "title": "Asserting Will over the Void",
-   "body": "A voidwalker will not bargain with you. The power in the Bloodstone Choker opens a rift and draws the shadow creature into the mortal world. You must batter it with magic and force until its will breaks, proving you can command it. Once defeated, the voidwalker's essence binds to you, giving you a durable, shadowy protector that can endure punishment in the battles ahead.",
+   "body": "A voidwalker will not bargain with you. The Bloodstone Choker opens a rift and draws the shadow creature into the mortal world. You batter it with magic and force until its will breaks. Then its essence binds to you, giving you a durable shadowy protector that can endure punishment in the battles ahead.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "where do i summon the voidwalker",
     "where is the circle"
    ],
-   "answer": "The summoning circle lies deep in the basement catacombs beneath The Slaughtered Lamb in Stormwind's Mage Quarter. Follow the stairs from Gakin the Darkbinder into the underground passages, down to the lowest chamber, where a glowing purple ritual rune marks the stone floor."
+   "answer": "The summoning circle lies deep in the catacombs beneath The Slaughtered Lamb in Stormwind's Mage Quarter. Follow the stairs from Gakin the Darkbinder into the underground passages, then descend to the lowest chamber. A glowing purple ritual rune marks the stone floor."
   },
   {
    "q": "Who is Gakin the Darkbinder?",
@@ -51,7 +51,7 @@
     "gakin the darkbinder lore",
     "gakin"
    ],
-   "answer": "Gakin the Darkbinder is a warlock trainer who works beneath The Slaughtered Lamb in Stormwind. He secretly teaches promising human and gnome practitioners to summon and control demonic and void-touched beings, away from the city guard and church authorities."
+   "answer": "Gakin the Darkbinder is a warlock trainer beneath The Slaughtered Lamb in Stormwind. He secretly teaches promising human and gnome practitioners to summon and control demonic and void-touched beings, away from the city guard and church authorities."
   },
   {
    "q": "What is the Bloodstone Choker used for?",
@@ -60,7 +60,7 @@
     "why do i need the choker",
     "choker"
    ],
-   "answer": "Surena Caledon stole the Bloodstone Choker before you recovered it for Gakin. Its focused magic helps a novice warlock breach the veil and draw a voidwalker into the summoning circle."
+   "answer": "Surena Caledon stole the Bloodstone Choker, and you recovered it for Gakin. Its focused magic helps a novice warlock breach the veil and draw a voidwalker into the summoning circle."
   },
   {
    "q": "Why do warlocks have to fight their demons to bind them?",
@@ -69,7 +69,7 @@
     "why subdue demons",
     "demon subjugation"
    ],
-   "answer": "Demons and void creatures do not willingly serve mortal masters. A warlock must break one in combat with strength and will before binding it to serve."
+   "answer": "Demons and void creatures do not willingly serve mortal masters. A warlock must break one in combat through strength and will before binding it to serve."
   },
   {
    "q": "What happens after completing the ritual?",
@@ -78,7 +78,7 @@
     "voidwalker spell",
     "after the binding"
    ],
-   "answer": "After you defeat the creature and return the choker to Gakin, you gain the knowledge and technique to summon and command a loyal voidwalker to shield you on your travels."
+   "answer": "After you defeat the creature and return the choker to Gakin, you gain the knowledge and technique to summon and command a loyal voidwalker. It can shield you on your travels."
   },
   {
    "q": "Why is this ritual performed in secret beneath a tavern?",
@@ -87,13 +87,13 @@
     "is fel magic illegal",
     "slaughtered lamb basement"
    ],
-   "answer": "Demonology and void magic are taboo, and the Church of the Holy Light and the Alliance's magi view them with hostility. Warlocks in Stormwind practice in concealed basements and catacombs, away from the authorities."
+   "answer": "Demonology and void magic are taboo. The Church of the Holy Light and the Alliance's magi view them with hostility. Warlocks in Stormwind practice in concealed basements and catacombs, away from the authorities."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you gain a voidwalker to defend you. The rite marks your passage from novice summoner to commander of otherworldly forces."
+   "text": "As a warlock, you gain a voidwalker to defend you. This rite marks your passage from novice summoner to commander of beings from beyond this world."
   },
   {
    "target": "faction:Alliance",
@@ -130,5 +130,5 @@
  "attribution": [
   "The Binding (Voidwalker, Stormwind)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Loslor Rudge",
   "refs": 1
  },
- "summary": "At Steelgrill's Depot, Loslor Rudge keeps Dun Morogh's tinkerers supplied. His tools, parts, and munitions reach craftsmen across the snowy ridges, including gunsmith Hegnar Rumbleshot.",
+ "summary": "At Steelgrill's Depot, Loslor Rudge keeps Dun Morogh's tinkerers supplied. His goods travel across the snowy ridges to craftsmen such as gunsmith Hegnar Rumbleshot.",
  "sections": [
   {
    "title": "A Supplier in the Snow",
-   "body": "Loslor Rudge supplies engineering goods from Steelgrill's Depot, just down the road from Kharanos. His stock includes copper modulators, bronze tubing, blasting powder, and spanners. Harsh weather and scattered tinker operations keep practical parts in demand, and Loslor works to keep local gearheads supplied. The wilderness between outposts makes deliveries perilous. A courier taking a shortcut near the Grizzled Den was driven off by wendigos, leaving behind an ammunition shipment meant for Loslor's valued client, gunsmith Hegnar Rumbleshot.",
+   "body": "Loslor Rudge supplies engineering goods from Steelgrill's Depot, just down the road from Kharanos. His stock holds copper modulators, bronze tubing, blasting powder, and spanners. Harsh weather and scattered tinker operations keep these parts in demand, so Loslor works to supply local gearheads.\n\nDeliveries through the wilderness between outposts can be perilous. Near the Grizzled Den, wendigos drove off a courier taking a shortcut. The courier left behind an ammunition shipment meant for Loslor's valued client, gunsmith Hegnar Rumbleshot.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what does rudge want",
     "rudge courier"
    ],
-   "answer": "Loslor needs someone to recover an ammunition shipment left in the snow. A courier bound for gunsmith Hegnar Rumbleshot took a shortcut near the Grizzled Den, was chased away by wendigos, and abandoned the crate."
+   "answer": "Loslor needs someone to recover an ammunition shipment left in the snow. Wendigos chased away a courier bound for gunsmith Hegnar Rumbleshot near the Grizzled Den, and the courier abandoned the crate."
   },
   {
    "q": "Where is Steelgrill's Depot?",
@@ -41,7 +41,7 @@
     "where is steelgrills depot",
     "steelgrill location"
    ],
-   "answer": "Steelgrill's Depot is just east of Kharanos, along the main road toward Loch Modan. It is a dwarven staging ground and machine workshop."
+   "answer": "Steelgrill's Depot lies just east of Kharanos, along the main road toward Loch Modan. It is a dwarven staging ground and machine workshop."
   },
   {
    "q": "Who is Hegnar Rumbleshot?",
@@ -49,17 +49,17 @@
     "who is hegnar",
     "rumbleshot"
    ],
-   "answer": "Hegnar Rumbleshot is a dwarven gunsmith based at a camp in Dun Morogh. He relies on Loslor Rudge for fresh ammunition and mechanical components."
+   "answer": "Hegnar Rumbleshot is a dwarven gunsmith at a camp in Dun Morogh. He relies on Loslor Rudge for fresh ammunition and mechanical components."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Loslor stocks useful engineering supplies, including fluxes, blasting powders, tubes, and tinker's kits. His depot is a convenient stop for engineers traveling through Dun Morogh."
+   "text": "Loslor stocks useful engineering supplies, including fluxes, blasting powders, tubes, and tinker's kits. His depot is a handy stop for engineers traveling through Dun Morogh."
   },
   {
    "target": "race:Dwarf",
-   "text": "Like many Dun Morogh artisans, Loslor depends on reliable pack routes between scattered dwarf camps. Wendigos can disrupt the mountain trade."
+   "text": "Like many artisans in Dun Morogh, Loslor depends on reliable pack routes between scattered dwarf camps. Wendigos can disrupt mountain trade."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Loslor Rudge"
  ],
- "style": 1
+ "style": 2
 }

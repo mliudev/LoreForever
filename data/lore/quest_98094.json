@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "High Executor Darthalia sends you with updated orders for Deathstalker Masoj, south of Tarren Mill. Your delivery supports the Forsaken effort to take control of these lands.",
+ "summary": "South of Tarren Mill, you carry new orders from High Executor Darthalia to Deathstalker Masoj. The Forsaken press on with their plan to take control of these lands.",
  "sections": [
   {
    "title": "Orders for Masoj",
-   "body": "Darthalia says you can be trusted with information for the forward spies. She gives you updated orders for Masoj, who is posted on high ground north of Nethander Stead, outside Dun Garok. The Forsaken plan to take control of these lands continues, and Masoj is waiting for the orders.",
+   "body": "High Executor Darthalia trusts you with word for the forward spies. She gives you updated orders for Deathstalker Masoj, who waits on high ground north of Nethander Stead and outside Dun Garok. The Forsaken plan to take control of these lands continues, and Masoj is waiting for your delivery.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "where is Masoj",
     "south of Tarren Mill"
    ],
-   "answer": "Masoj is south of Tarren Mill, on elevated ground north of Nethander Stead and outside Dun Garok."
+   "answer": "Masoj waits south of Tarren Mill, on high ground north of Nethander Stead and outside Dun Garok."
   },
   {
    "q": "What am I carrying to Masoj?",
@@ -54,7 +54,7 @@
     "orders for Masoj",
     "the package"
    ],
-   "answer": "You are carrying updated orders for Deathstalker Masoj."
+   "answer": "You carry updated orders for Deathstalker Masoj."
   },
   {
    "q": "Why am I delivering orders?",
@@ -63,7 +63,7 @@
     "what is the plan",
     "Forsaken plan"
    ],
-   "answer": "The delivery supports the Forsaken plan to take control of these lands."
+   "answer": "Your delivery supports the Forsaken plan to take control of these lands."
   }
  ],
  "angles": [],
@@ -84,7 +84,7 @@
   "subzone:nethander-stead",
   "subzone:dun-garok"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Scout Support"
  ]

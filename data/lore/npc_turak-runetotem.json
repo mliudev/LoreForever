@@ -8,21 +8,21 @@
   "wiki": "Turak Runetotem",
   "refs": 8
  },
- "summary": "Turak Runetotem is a revered tauren druid trainer residing in the Hall of Elders atop Thunder Bluff's Elder Rise. Serving as a trusted assistant to Archdruid Hamuul Runetotem, he guides novice tauren along the sacred paths of nature and balance. Through Turak, young druids undertake foundational trials to commune with spirits and master animal aspects.",
+ "summary": "In Thunder Bluff, Turak Runetotem guides young tauren toward nature and balance. From the Hall of Elders on Elder Rise, he assists Archdruid Hamuul Runetotem and leads novices through trials to commune with spirits and master animal forms.",
  "sections": [
   {
    "title": "Voice of the Earthmother",
-   "body": "Within the serene confines of the Hall of Elders, Turak Runetotem stands as one of the Horde's foremost druidic mentors. Renowned for his deep patience and balanced demeanor, he assists Archdruid Hamuul Runetotem in reviving the ancient druidic arts among the tauren people. Turak ensures that every aspiring druid honors the will of the Earthmother, teaching that physical power must always be grounded in spiritual respect and harmony with nature.",
+   "body": "In the Hall of Elders atop Thunder Bluff’s Elder Rise, Turak Runetotem guides those who seek the druid’s path. He assists Archdruid Hamuul Runetotem in bringing the ancient druidic arts back among the tauren. Turak teaches that a druid honors the Earthmother’s will. Strength of body must rest upon spiritual respect and harmony with nature.",
    "spoiler": 0
   },
   {
    "title": "The Path of the Claw",
-   "body": "When a fledgling druid is prepared to embrace animal forms, Turak directs them into the wider world. He initiates their communion with the Cenarion Circle, teaching the art of teleporting across Kalimdor to the sacred haven of Moonglade. Recalling the bewilderment and intensity of his own youthful audience with the Great Bear Spirit, Turak tests his students' courage by sending them to face Lunaclaw and obtain the strength of body and heart needed to walk the Path of the Claw.",
+   "body": "When fledgling druids are ready for animal forms, Turak sends them into the wider world. He teaches them to join the Cenarion Circle and travel by teleportation across Kalimdor to Moonglade. Turak remembers his own first communion with the Great Bear Spirit as bewildering and intense. To test his students’ courage, he sends them to face Lunaclaw and win the strength of body and heart required for the Path of the Claw.",
    "spoiler": 0
   },
   {
    "title": "Guardians of Balance",
-   "body": "Turak's guidance expands beyond primal combat forms to environmental stewardship. He sends his disciples back to Dendrite Starblaze to learn about poison, and Dendrite dispatches them to a rash of animal poisonings near the Crossroads, a situation that surprises even Turak. Through these trials, along with the arduous rituals beneath the tides to awaken the aquatic form, Turak shapes novices into enduring protectors capable of healing Azeroth's deepest wounds.",
+   "body": "Turak teaches more than the primal forms of combat. He sends his disciples to Dendrite Starblaze to study poison, and Dendrite sends them to help animals poisoned near the Crossroads. Even Turak is surprised by the rash of poisonings.\n\nTurak also guides novices through arduous rites beneath the tides, where they awaken their aquatic form. These trials shape them into protectors able to heal Azeroth’s deepest wounds.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "where is turak runetotem",
     "turak runetotem thunder bluff"
    ],
-   "answer": "Turak Runetotem is located on Elder Rise in Thunder Bluff, stationed inside the tent of the Hall of Elders alongside Archdruid Hamuul Runetotem."
+   "answer": "Find Turak Runetotem in the Hall of Elders on Elder Rise in Thunder Bluff, alongside Archdruid Hamuul Runetotem."
   },
   {
    "q": "What role does Turak play for new druids?",
@@ -43,7 +43,7 @@
     "turak druid trainer",
     "turak role"
    ],
-   "answer": "He serves as the primary quest giver and instructor for young tauren druids. He teaches them to commune with Moonglade, unlocks their Bear and Aquatic forms through sacred trials, and instructs them in curing natural poisons."
+   "answer": "Turak teaches young tauren druids to reach Moonglade and guides them through trials for their Bear and Aquatic forms. He also teaches them to cure natural poisons."
   },
   {
    "q": "What is Turak's connection to Moonglade?",
@@ -52,7 +52,7 @@
     "how does turak know dendrite",
     "teleport moonglade turak"
    ],
-   "answer": "Turak teaches novice druids the spell to teleport directly to the sacred grove of Moonglade, directing them to the Cenarion Circle's representative, Dendrite Starblaze, for advanced spiritual guidance."
+   "answer": "Turak teaches novice druids to teleport to Moonglade. There, Dendrite Starblaze offers advanced spiritual guidance through the Cenarion Circle."
   },
   {
    "q": "How is Turak related to Archdruid Hamuul Runetotem?",
@@ -60,7 +60,7 @@
     "is turak related to hamuul",
     "hamuul and turak"
    ],
-   "answer": "Both belong to the venerable Runetotem tribe. Turak serves directly under Archdruid Hamuul as one of his most trusted assistants and teachers in the Hall of Elders."
+   "answer": "Turak belongs to the Runetotem tribe and serves Archdruid Hamuul Runetotem as a trusted assistant and teacher in the Hall of Elders."
   },
   {
    "q": "Why does Turak send druids to the Crossroads?",
@@ -69,7 +69,7 @@
     "turak poison quest",
     "power over poison"
    ],
-   "answer": "Turak sends students to Dendrite Starblaze in Moonglade to learn about poison, and Dendrite dispatches them to help with a rash of animal poisonings around the Crossroads. When they return, Turak rewards them with the power to cure poison permanently."
+   "answer": "Turak sends students to Dendrite Starblaze in Moonglade to study poison. Dendrite sends them to help with animal poisonings near the Crossroads. When they return, Turak grants them the power to cure poison permanently."
   },
   {
    "q": "What was Turak's personal experience with the Great Bear Spirit?",
@@ -77,21 +77,21 @@
     "turak bear spirit",
     "turak path of the claw"
    ],
-   "answer": "Turak openly shares that when he first walked the path to become a Druid of the Claw, his communion with the Great Bear Spirit was bewildering yet profoundly intense, an experience that deepened his reverence for the form."
+   "answer": "Turak recalls that his first communion with the Great Bear Spirit, on the path to becoming a Druid of the Claw, was bewildering and profoundly intense. The experience deepened his reverence for the form."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For tauren druids, Turak Runetotem is the pillar of early training, granting the ability to teleport to Moonglade and testing aspirants until they earn their Bear and Aquatic forms."
+   "text": "As a tauren druid, you can learn from Turak Runetotem. He teaches the path to Moonglade and tests aspirants for their Bear and Aquatic forms."
   },
   {
    "target": "race:Tauren",
-   "text": "As a member of the Runetotem tribe, Turak embodies the revival of druidic customs among the tauren following the Third War, helping his people reclaim their ancient harmony with the Earthmother."
+   "text": "As a tauren, you share in the revival of druidic customs after the Third War. Turak Runetotem helps your people reclaim their ancient harmony with the Earthmother."
   },
   {
    "target": "faction:Horde",
-   "text": "Turak plays a vital part in anchoring nature magic within the Horde, training guardians capable of combating blights, environmental corruption, and the lingering scars across Kalimdor."
+   "text": "As a member of the Horde, you can look to Turak Runetotem, who trains nature’s guardians to face blights, environmental corruption, and the lingering scars across Kalimdor."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Turak Runetotem"
- ]
+ ],
+ "style": 2
 }

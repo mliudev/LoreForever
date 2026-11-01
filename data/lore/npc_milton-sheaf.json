@@ -8,16 +8,16 @@
   "wiki": "Milton Sheaf",
   "refs": 3
  },
- "summary": "In Stormwind Keep, Milton Sheaf guards the kingdom's written history. He tends the Royal Library and calls on Alliance travelers to recover lost books and records.",
+ "summary": "In Stormwind Keep, Milton Sheaf tends the Royal Library and calls on Alliance travelers to recover lost books and records.",
  "sections": [
   {
    "title": "The Caretaker of Stormwind's History",
-   "body": "Milton Sheaf tends the Royal Library inside Stormwind Keep. While the court handles politics, noble disputes, and military concerns, he preserves the written record. He sees accurate histories of the Alliance and the Eastern Kingdoms as a duty, especially amid war, loss, and instability.",
+   "body": "Milton Sheaf tends the Royal Library inside Stormwind Keep. While the court weighs politics, noble disputes, and military concerns, he preserves the written record. To him, accurate histories of the Alliance and the Eastern Kingdoms are a duty, especially amid war, loss, and instability.",
    "spoiler": 0
   },
   {
    "title": "Recovering Lost Tomes",
-   "body": "Milton Sheaf sends travelers to recover books scattered across the realm. Volumes wear with use, while records lie in monastic archives, distant outposts, and forgotten ruins. He sends Alliance adventurers from Northshire Abbey to Southshore in the north to retrieve misplaced books, examine ancient texts, and return rare manuscripts safely to the keep.",
+   "body": "Milton Sheaf sends travelers across the realm to recover scattered books. Volumes wear with use, while records rest in monastic archives, distant outposts, and forgotten ruins. From Northshire Abbey to Southshore in the north, he sends Alliance adventurers to retrieve misplaced books, examine ancient texts, and return rare manuscripts safely to the keep.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "milton sheaf role",
     "stormwind librarian"
    ],
-   "answer": "Milton Sheaf is a human scholar who cares for the Royal Library inside Stormwind Keep in Stormwind City. He manages the kingdom's books and chronicles."
+   "answer": "Milton Sheaf is a human scholar who tends the Royal Library inside Stormwind Keep in Stormwind City. He manages the kingdom's books and chronicles."
   },
   {
    "q": "Where can I find Milton Sheaf?",
@@ -38,7 +38,7 @@
     "where is milton sheaf",
     "stormwind library location"
    ],
-   "answer": "You can find Milton Sheaf in the Royal Library wing of Stormwind Keep, just off the main palace corridors."
+   "answer": "Milton Sheaf can be found in the Royal Library wing of Stormwind Keep, just off the main palace corridors."
   },
   {
    "q": "Why does Milton Sheaf need adventurers?",
@@ -56,7 +56,7 @@
     "milton brother paxton",
     "milton connections"
    ],
-   "answer": "Yes. Milton Sheaf keeps ties with monastic archivists and religious scholars, including Brother Paxton in Northshire Valley, to preserve sacred teachings and historical records."
+   "answer": "Milton Sheaf keeps ties with monastic archivists and religious scholars, including Brother Paxton in Northshire Valley. Together, they preserve sacred teachings and historical records."
   }
  ],
  "angles": [
@@ -66,7 +66,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, you share a history Milton Sheaf safeguards, preserving chronicles that survived Stormwind's fall and rebuilding."
+   "text": "As a human, you share the history Milton Sheaf safeguards. He preserves chronicles that survived Stormwind's fall and rebuilding."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Milton Sheaf"
  ],
- "style": 1
+ "style": 2
 }

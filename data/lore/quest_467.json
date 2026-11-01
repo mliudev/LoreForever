@@ -17,16 +17,16 @@
   "wiki": "Stonegear's Search",
   "chain": []
  },
- "summary": "At Steelgrill's Depot, Pilot Stonegear seeks a rare ore for his tank. He asks a daring traveler to find fresh fuel for its weapons.",
+ "summary": "At Steelgrill's Depot, Pilot Stonegear seeks rare ore to strengthen his tank's weapons. He asks you to find fresh fuel for its firepower.",
  "sections": [
   {
    "title": "A Tinkerer's Ambition",
-   "body": "Pilot Stonegear, stationed just outside Ironforge, wants to make his siege engine more powerful. Word of his plans spreads through Ironforge and Loch Modan. Pilot Longbeard or Mountaineer Kadrell may send you to meet the ambitious pilot and hear his proposal.",
+   "body": "Pilot Longbeard or Mountaineer Kadrell may send you to hear Stonegear's proposal. The ambitious pilot wants his siege engine to hit harder, and word of his plans has spread through Ironforge and Loch Modan.",
    "spoiler": 0
   },
   {
    "title": "Heading to Steelgrill's Depot",
-   "body": "Pilot Stonegear works at Steelgrill's Depot, a proving ground and staging yard along the road just east of Kharanos. He seeks prospectors willing to search for a rare, volatile ore. He believes it can greatly increase his tank's firepower.",
+   "body": "At the proving ground and staging yard just east of Kharanos, Stonegear seeks prospectors to search for rare, volatile ore. He believes it can greatly increase his tank's firepower.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "why does stonegear want me",
     "what does stonegear want"
    ],
-   "answer": "Pilot Stonegear enjoys modifying his siege engine and seeks rare mineral deposits to increase the firepower of his tank's munitions."
+   "answer": "Pilot Stonegear enjoys modifying his siege engine. He seeks rare mineral deposits to increase the firepower of his tank's munitions."
   },
   {
    "q": "What quest follows this one?",
@@ -81,7 +81,7 @@
     "why siege engine ore",
     "dwarf tank gunpowder"
    ],
-   "answer": "Dwarven engineers and tank pilots experiment with incendiary compounds, pyrotechnics, and volatile elements to give their war machines an edge against troggs, dark irons, and wild beasts."
+   "answer": "Dwarven engineers and tank pilots experiment with incendiary compounds, pyrotechnics, and volatile elements. They seek an edge for their war machines against troggs, dark irons, and wild beasts."
   }
  ],
  "angles": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Stonegear's Search"
  ],
- "style": 1
+ "style": 2
 }

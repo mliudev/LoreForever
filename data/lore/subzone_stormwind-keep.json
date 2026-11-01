@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stormwind Keep"
  },
- "summary": "Stormwind Keep stands high above the capital as the stone fortress and seat of power for the Kingdom of Stormwind. Rebuilt after its ruin in the First War, it currently houses the royal court of the young boy-king Anduin Wrynn and his regent, Highlord Bolvar Fordragon.",
+ "summary": "Stormwind Keep holds the royal court above the capital. Rebuilt after its ruin in the First War, it is now home to the young boy-king Anduin Wrynn and his regent, Highlord Bolvar Fordragon.",
  "sections": [
   {
    "title": "The Rebuilt Citadel",
-   "body": "Perched upon a plateau overlooking the entire city, Stormwind Keep serves as both a palace and a military bastion. The original stronghold was burned to the ground by the Old Horde when King Llane was assassinated near the end of the First War. Raised anew upon the old foundations after the Alliance reclaimed the kingdom, the reconstructed keep houses not only the grand throne room and the War Room, but peaceful garden courtyards and the expansive Royal Library.",
+   "body": "Stormwind Keep crowns a plateau above the city, with halls for the crown and the kingdom’s defense. The Old Horde burned the first stronghold after King Llane was assassinated near the end of the First War. After the Alliance reclaimed the kingdom, builders raised the keep again on its old foundations. Its halls include the grand throne room and the War Room, while garden courtyards and the Royal Library offer quieter spaces.",
    "spoiler": 0
   },
   {
    "title": "A Divided Court",
-   "body": "Behind the keep's banners and polished stone lies an uneasy peace. With King Varian Wrynn mysteriously missing en route to a diplomatic summit at Theramore, governance rests on ten-year-old King Anduin Wrynn. Effective rule falls to Highlord Bolvar Fordragon and the noble Lady Katrana Prestor. While Bolvar handles defense and military affairs, court politics remain paralyzed by aristocratic infighting, leaving the outlying territories vulnerable and the crown deeply distracted.",
+   "body": "With King Varian Wrynn mysteriously missing on the way to a diplomatic summit at Theramore, the ten-year-old King Anduin Wrynn holds the crown. Highlord Bolvar Fordragon and Lady Katrana Prestor share the work of rule. Bolvar oversees defense and military affairs, while aristocratic feuding stalls the court. The outlying territories are left vulnerable, and the crown is deeply distracted.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who leads stormwind",
     "who is the king"
    ],
-   "answer": "King Anduin Wrynn technically holds the throne, but because he is only ten years old, Highlord Bolvar Fordragon governs as regent alongside Lady Katrana Prestor as royal advisor."
+   "answer": "King Anduin Wrynn holds the throne, but at ten years old he cannot govern alone. Highlord Bolvar Fordragon rules as regent alongside Lady Katrana Prestor, the royal advisor."
   },
   {
    "q": "What happened to King Varian Wrynn?",
@@ -37,7 +37,7 @@
     "varian missing",
     "what happened to the king"
    ],
-   "answer": "King Varian vanished under mysterious circumstances while traveling across the sea to a peace conference in Theramore. His sudden disappearance left the throne vacant, forcing Bolvar and the court to crown young Anduin to ensure political stability."
+   "answer": "King Varian vanished under mysterious circumstances. His disappearance left the throne vacant, so Bolvar and the court crowned young Anduin to preserve political stability."
   },
   {
    "q": "Was the keep destroyed in the First War?",
@@ -45,7 +45,7 @@
     "did the orcs destroy the keep",
     "first war castle destruction"
    ],
-   "answer": "Yes. Following the murder of King Llane Wrynn by Garona, the Old Horde overwhelmed the city and completely razed the keep. The current fortress was rebuilt upon the ancient foundations after the Alliance prevailed in the Second War."
+   "answer": "Yes. After Garona murdered King Llane Wrynn, the Old Horde overwhelmed the city and razed the keep. The Alliance prevailed in the Second War, and the current fortress was rebuilt on the ancient foundations."
   },
   {
    "q": "What major wings can be visited inside the keep?",
@@ -54,17 +54,17 @@
     "what is inside the keep",
     "wings of stormwind keep"
    ],
-   "answer": "The complex contains the main throne room, the War Room directly behind it, the Petitioner's Chamber for visiting supplicants, an open garden courtyard, the Royal Gallery, and the Royal Library."
+   "answer": "The keep holds the main throne room and the War Room directly behind it. Visitors can also find the Petitioner's Chamber, an open garden courtyard, the Royal Gallery, and the Royal Library."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The keep is the heart of the Alliance's eastern military command, where Bolvar Fordragon and the marshals direct defenses against rising threats across Elwynn, Westfall, and beyond."
+   "text": "Stormwind Keep is the heart of the Alliance's eastern military command. Bolvar Fordragon and the marshals direct defenses there against rising threats across Elwynn, Westfall, and beyond."
   },
   {
    "target": "race:Human",
-   "text": "Rebuilt from ashes after the devastation of the First War, the fortress stands as a testament to the resilience and pride of Stormwind's people."
+   "text": "Rebuilt from the ashes of the First War, Stormwind Keep recalls the resilience and pride of Stormwind's people."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Stormwind Keep"
- ]
+ ],
+ "style": 2
 }

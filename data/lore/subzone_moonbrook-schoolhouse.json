@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Moonbrook Schoolhouse"
  },
- "summary": "In Moonbrook's northwestern corner, the schoolhouse stands abandoned under Defias occupation. A small graveyard lies behind the hall where Stalvan Mistmantle once taught local children.",
+ "summary": "In Moonbrook's northwestern corner, Defias outlaws occupy the schoolhouse, with a small graveyard behind it. Stalvan Mistmantle once taught local children there.",
  "sections": [
   {
    "title": "A Beacon Fallen into Shadow",
-   "body": "Moonbrook's schoolhouse once welcomed children before ruin and bandits overtook the town. After Stalvan Mistmantle began tutoring local children, the mayor commissioned him to run a school. Students filled the hall in Moonbrook's brighter days, when the town prospered. Now outlaws occupy the abandoned building, and weathered headstones in its rear cemetery look out over Westfall's decline.",
+   "body": "The mayor commissioned Stalvan Mistmantle to run a school after he began tutoring local children. In Moonbrook's brighter days, the town prospered and students filled the hall. Now outlaws occupy the building, while weathered headstones in the rear cemetery look out over Westfall's decline.",
    "spoiler": 0
   },
   {
    "title": "Secrets in the Floorboards",
-   "body": "An old footlocker on the schoolhouse's main floor holds an unsent letter about Stalvan Mistmantle's arrival in Moonbrook. The letter recounts how he tutored local children before the mayor commissioned him to build a new schoolhouse. A separate letter, found later in Goldshire, says regional troubles forced Stalvan to leave his post and seek work as a private tutor.",
+   "body": "An old footlocker on the schoolhouse's main floor holds an unsent letter about Stalvan Mistmantle's arrival in Moonbrook. It tells how he tutored local children, then received the mayor's commission to build a new schoolhouse. A separate letter found later in Goldshire says regional troubles forced him to leave his post and seek work as a private tutor.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "moonbrook school purpose",
     "what is this place"
    ],
-   "answer": "Moonbrook's schoolhouse was built to give local children a formal education. Its broad hall resembles a town hall, reflecting the ambition and pride the township held before its fall."
+   "answer": "Moonbrook's schoolhouse gave local children a formal education. Its broad hall resembles a town hall, reflecting the township's ambition and pride before its fall."
   },
   {
    "q": "Who was Stalvan Mistmantle?",
@@ -37,7 +37,7 @@
     "stalvan mistmantle lore",
     "school headmaster"
    ],
-   "answer": "Stalvan Mistmantle was a learned scholar who became the schoolhouse's headmaster. Letters he left behind tell more about his career."
+   "answer": "Stalvan Mistmantle was a learned scholar who became the schoolhouse's headmaster. Letters he left behind tell more of his career."
   },
   {
    "q": "Why is the schoolhouse abandoned now?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The abandoned schoolhouse reminds you how far Westfall has fallen from the Crown's protection. A center of learning now shelters outlaws."
+   "text": "As an Alliance traveler, the abandoned schoolhouse shows how far Westfall has fallen from the Crown's protection. A center of learning now shelters outlaws."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Moonbrook Schoolhouse"
  ],
- "style": 1
+ "style": 2
 }

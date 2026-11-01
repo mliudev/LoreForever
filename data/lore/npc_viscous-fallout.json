@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "A Polluted Spirit",
-   "body": "Radiation flooded Gnomeregan on Mekgineer Thermaplugg's treacherous advice, meant to wipe out the invading troggs. The fallout filled the city's lower levels with toxic slime and contamination. Viscous Fallout is a water elemental of those poisoned depths, its substance thick with the city's toxic waste. Its origins before the fall are unknown.",
+   "body": "Radiation flooded Gnomeregan after Mekgineer Thermaplugg advised a treacherous plan to wipe out the invading troggs. The fallout filled the city's lower levels with toxic slime and contamination. Viscous Fallout is a water elemental, its substance thick with the city's toxic waste. Its origins before the fall are unknown.",
    "spoiler": 0
   },
   {
    "title": "Agony in the Runoff",
-   "body": "Viscous Fallout drifts through the irradiated lower passages as a living pool of toxic sludge. It spews volleys of toxin and lashes out at anything in its path. Those who enter Gnomeregan to cleanse its tainted depths must destroy the creature.",
+   "body": "Viscous Fallout drifts through Gnomeregan's irradiated lower passages as a living pool of toxic sludge. It spews volleys of toxin, then lashes out at anything in its path. Those who enter the city to cleanse its tainted depths must destroy the creature.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "viscous fallout lore",
     "what kind of mob is viscous fallout"
    ],
-   "answer": "Viscous Fallout is a water elemental mini-boss inside Gnomeregan's ruined city, tainted by toxic sludge and radioactive fallout."
+   "answer": "Viscous Fallout is a water elemental mini-boss in Gnomeregan's ruined city, tainted by toxic sludge and radioactive fallout."
   },
   {
    "q": "How did it become corrupted?",
@@ -38,7 +38,7 @@
     "why is the elemental toxic",
     "how was viscous fallout created"
    ],
-   "answer": "Radiation flooded Gnomeregan on Mekgineer Thermaplugg's treacherous advice to repel the trogg invasion, leaving the lower passages awash in toxic waste. No one knows exactly how the elemental came to be poisoned; it is part of the irradiated ruin the city has become."
+   "answer": "Radiation flooded Gnomeregan after Mekgineer Thermaplugg treacherously advised using it to repel the trogg invasion. Toxic waste filled the lower passages. No one knows exactly how the elemental became poisoned; it is part of the irradiated ruin the city has become."
   },
   {
    "q": "Where in Gnomeregan does it wander?",
@@ -107,5 +107,5 @@
  "attribution": [
   "Viscous Fallout"
  ],
- "style": 1
+ "style": 2
 }

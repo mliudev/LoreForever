@@ -8,11 +8,11 @@
   "wiki": "Grimbooze Thunderbrew",
   "refs": 1
  },
- "summary": "In Westfall's Dagger Hills, Grimbooze Thunderbrew brews potent spirits and speaks in verse. The eccentric dwarf belongs to the Thunderbrew clan.",
+ "summary": "In Westfall's Dagger Hills, Grimbooze Thunderbrew keeps his casks and brews potent spirits. The eccentric dwarf speaks in verse and belongs to the Thunderbrew clan.",
  "sections": [
   {
    "title": "A Brewer in Exile",
-   "body": "Grimbooze Thunderbrew camps in the Dagger Hills, where he tends his private casks. He comes from the Thunderbrew brewing family of Kharanos and left the snowy peaks of Dun Morogh for Westfall's windswept hills. Jovial and devoted to potent spirits, he speaks only in rhymes. A traveler must complete a simple task before he answers any questions, and he is always ready to test a thirsty palate.",
+   "body": "Grimbooze Thunderbrew keeps camp in the Dagger Hills, where he tends his private casks. He left the snowy peaks of Dun Morogh, home of the Thunderbrew brewing family in Kharanos, for Westfall's windswept hills. Jovial and devoted to potent spirits, he speaks only in rhymes. A traveler must complete a simple task before he answers questions, and he is ready to test a thirsty palate.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is grimbooze",
     "where to find grimbooze thunderbrew"
    ],
-   "answer": "Find Grimbooze Thunderbrew in the Dagger Hills of southern Westfall, where he keeps camp with his brewing equipment."
+   "answer": "Find Grimbooze Thunderbrew in the Dagger Hills of southern Westfall. He keeps camp there with his brewing equipment."
   },
   {
    "q": "Why is Grimbooze speaking in rhymes?",
@@ -33,7 +33,7 @@
     "grimbooze rhyming",
     "why is he talking in verse"
    ],
-   "answer": "No one can say for certain why Grimbooze speaks in rhymes. He delights in verse and requires anyone with a question to complete a simple task first."
+   "answer": "No one can say for certain why Grimbooze speaks in rhymes. He delights in verse and asks anyone with a question to complete a simple task first."
   },
   {
    "q": "What is his connection to the Thunderbrew Distillery?",
@@ -42,7 +42,7 @@
     "is grimbooze related to ragnar",
     "thunderbrew family"
    ],
-   "answer": "Grimbooze belongs to the Thunderbrew clan of Kharanos in Dun Morogh. While his kin, including Ragnar Thunderbrew, tend the family distillery at home, Grimbooze brews on his own in the Westfall hills."
+   "answer": "Grimbooze belongs to the Thunderbrew clan of Kharanos in Dun Morogh. His kin, including Ragnar Thunderbrew, tend the family distillery at home, while Grimbooze brews on his own in the Westfall hills."
   }
  ],
  "angles": [
@@ -78,5 +78,5 @@
  "attribution": [
   "Grimbooze Thunderbrew"
  ],
- "style": 1
+ "style": 2
 }

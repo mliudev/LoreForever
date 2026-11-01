@@ -17,16 +17,16 @@
   "wiki": "The Ravaged Caravan (Horde) (2)",
   "chain": []
  },
- "summary": "Investigating a broken transport in Mulgore reveals that goblin industrialists have established an illegal foothold in tauren territory. By recovering documents from a sealed crate, scouts confirm the Venture Company is systematically stripping the land's mineral wealth. This discovery rallies the Bloodhoof Outrunners to mount an active defense of their ancestral plains.",
+ "summary": "In Mulgore, The Ravaged Caravan leaves the Bloodhoof Outrunners with proof of an illegal foothold in tauren territory. The Venture Company is stripping the land's mineral wealth, and the Outrunners prepare to defend their ancestral plains.",
  "sections": [
   {
    "title": "Evidence of Exploitation",
-   "body": "The wreckage of a ravaged caravan east of Bloodhoof Village tells an unsettling story. Within a sealed supply crate lies a dense cache of mined ore and minerals alongside a bound sheaf of Venture Company documents. This paperwork provides irrefutable proof that the greedy Venture Company has begun an unpermitted mining operation deep in the tranquil valleys of Mulgore.",
+   "body": "East of Bloodhoof Village, a ravaged caravan lies beside the road. Inside a sealed supply crate are mined ore and minerals, along with a bound sheaf of Venture Company documents. The papers prove the company has begun mining deep in Mulgore's tranquil valleys without permission.",
    "spoiler": 0
   },
   {
    "title": "The Outrunners' Vigil",
-   "body": "Morin Cloudstalker and his fellow Outrunners have maintained a cautious watch over Mulgore's borders, mindful of outside factions looking to exploit their peaceful homeland. Delivering the retrieved documents confirms Morin's worst fears: smoke rising over the eastern foothills signals an escalating commercial invasion. The tauren are left with no choice but to push back against the defilers before their hills are gutted entirely.",
+   "body": "Morin Cloudstalker and his fellow Outrunners watch Mulgore's borders with care. They fear outside factions will exploit their peaceful homeland. When Morin receives the recovered documents, they confirm his worst fears. Smoke rising over the eastern foothills signals an escalating commercial invasion. The tauren must push back against the defilers before their hills are gutted entirely.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is in the crate",
     "crate contents"
    ],
-   "answer": "Prying open the crate reveals a packed assortment of mined ore, raw minerals, and a sheaf of Venture Company documents outlining their operations."
+   "answer": "The sealed supply crate holds mined ore and raw minerals beside a bound sheaf of Venture Company documents outlining its operations."
   },
   {
    "q": "Who is Morin Cloudstalker?",
@@ -47,7 +47,7 @@
     "morin cloudstalker role",
     "outrunner morin"
    ],
-   "answer": "Morin Cloudstalker is a tauren Outrunner stationed on the road east of Bloodhoof Village toward the Barrens border, tasked with patrolling Mulgore and tracking foreign threats."
+   "answer": "Morin Cloudstalker is a tauren Outrunner stationed on the road east of Bloodhoof Village toward the Barrens border. He patrols Mulgore and tracks foreign threats."
   },
   {
    "q": "Why is the Venture Company in Mulgore?",
@@ -56,7 +56,7 @@
     "venture co goal mulgore",
     "what do goblins want"
    ],
-   "answer": "The Venture Company seeks to ruthlessly exploit Mulgore's rich natural resources and veins of mineral ore, carving into the hills without regard for the earth or its native people."
+   "answer": "The Venture Company seeks to exploit Mulgore's natural resources and mineral veins, cutting into the hills without regard for the earth or its people."
   },
   {
    "q": "Where did the caravan come from?",
@@ -65,7 +65,7 @@
     "caravan origin",
     "who attacked the caravan"
    ],
-   "answer": "The caravan belonged to the Venture Company, transporting mined ore and operational paperwork out from their foothill operations before it was destroyed along the trail."
+   "answer": "The caravan belonged to the Venture Company. It carried mined ore and operational paperwork out from the company's foothill operations before it was destroyed along the trail."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -74,7 +74,7 @@
     "next quest after ravaged caravan",
     "following up on the caravan"
    ],
-   "answer": "Armed with the documents, Morin Cloudstalker directs warriors to directly confront the Venture Company's leadership and dismantle their mining operation in the eastern foothills."
+   "answer": "With the documents in hand, Morin Cloudstalker directs warriors to confront the Venture Company's leadership and dismantle its mining operation in the eastern foothills."
   },
   {
    "q": "Why does this threaten the tauren?",
@@ -83,25 +83,25 @@
     "venture co threat",
     "threat to mulgore"
    ],
-   "answer": "The tauren view the land as sacred and revere the Earth Mother. The Venture Company's reckless strip mining and industrial pollution actively defile Mulgore's pristine landscape."
+   "answer": "The tauren consider the land sacred and revere the Earth Mother. The Venture Company's reckless strip mining and industrial pollution defile Mulgore's pristine landscape."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, seeing crude industrial machinery tear into the ancestral plains of Mulgore is an affront to the Earth Mother and an act of war against their newfound peace."
+   "text": "As a tauren, you may see crude machinery tearing into Mulgore's ancestral plains as an affront to the Earth Mother and an act of war against your newfound peace."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde relies on the loyalty and stability of Mulgore; leaving foreign merchant cartels to despoil its hills would threaten the safety of Thunder Bluff itself."
+   "text": "As a member of the Horde, you know its safety depends on Mulgore's loyalty and stability. Foreign merchant cartels despoiling its hills threaten Thunder Bluff itself."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold the balance of the land sacred, making the destructive, smoke-choked strip mining of the Venture Company a desecration that must be cleansed."
+   "text": "As a druid, you hold the balance of the land sacred. The Venture Company's destructive, smoke-choked strip mining is a desecration that must be cleansed."
   },
   {
    "target": "profession:Mining",
-   "text": "The high-grade ores packed within the crate prove the eastern hills of Mulgore conceal rich subterranean veins that outsiders are racing to exploit."
+   "text": "As a miner, you can see that the high-grade ores packed in the crate prove rich subterranean veins lie beneath Mulgore's eastern hills, drawing outsiders eager to exploit them."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "The Ravaged Caravan (Horde) (2)"
- ]
+ ],
+ "style": 2
 }

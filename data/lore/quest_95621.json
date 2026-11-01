@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "Seeing soldiers bearing the sea green and anchor colors of the island realm of Kul Tiras operating in the valley marks a rare and unexpected encounter with this reclusive human seafaring nation."
+   "text": "As a human, you may recognize the sea green and anchor colors of Kul Tiras. Soldiers from this reclusive seafaring nation are a rare and unexpected sight in the valley."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "kul tiras soldiers in valley",
     "what are kul tirans doing"
    ],
-   "answer": "A sharpshooter spotted a detachment of Kul Tiran soldiers searching for something in the valley below. They established an encampment near a wrecked caravan to the south, prompting local scouts to investigate their unusual motives.",
+   "answer": "A sharpshooter spotted Kul Tiran soldiers searching the valley below. They camped near a wrecked caravan to the south, and local scouts are sent to investigate their purpose.",
    "q": "What are Kul Tiran soldiers doing in the valley?"
   },
   {
@@ -33,7 +33,7 @@
     "where is kul tiras camp",
     "caravan site"
    ],
-   "answer": "The soldiers have established their encampment near a ruined caravan located to the south of the scouting vantage point overlooking the valley.",
+   "answer": "The Kul Tiran soldiers camp near a ruined caravan south of the vantage point overlooking the valley.",
    "q": "Where is the Kul Tiran camp located?"
   },
   {
@@ -41,7 +41,7 @@
     "how were they identified",
     "kul tiras livery"
    ],
-   "answer": "A scout watching over the valley used a rifle scope to inspect the mysterious human group from afar, easily recognizing the distinctive uniform and insignia of Kul Tiras.",
+   "answer": "A scout watching the valley inspected the human group through a rifle scope and recognized Kul Tiras by its uniforms and insignia.",
    "q": "How was the Kul Tiran presence discovered?"
   },
   {
@@ -49,7 +49,7 @@
     "what is the goal",
     "trouble in the valley objectives"
    ],
-   "answer": "The task requires traveling south toward the wrecked caravan, confronting the Kul Tiran soldiers positioned there, and discovering what drew them to search the area.",
+   "answer": "You are sent south to the wrecked caravan to confront the Kul Tiran soldiers and discover what brought them to search the area.",
    "q": "What is the objective of investigating the camp?"
   },
   {
@@ -57,7 +57,7 @@
     "why fight kul tiras",
     "are kul tirans hostile"
    ],
-   "answer": "Because an armed contingent of foreign soldiers is actively scouring the territory around a destroyed caravan without explanation, scouts consider them a threat that must be subdued to uncover their intentions.",
+   "answer": "The soldiers are armed foreigners searching the land around a destroyed caravan without explanation. Scouts see them as a threat to be subdued so their intentions can be uncovered.",
    "q": "Why are the Kul Tiran soldiers treated as enemies?"
   },
   {
@@ -65,7 +65,7 @@
     "who spotted soldiers",
     "who gave quest"
    ],
-   "answer": "Walton, the hermit tanner watching over the valley, first identified the soldiers through his rifle scope and hired an adventurer to eliminate them and learn why they were there.",
+   "answer": "Walton, the hermit tanner watching the valley, spotted the soldiers through his rifle scope. He hired an adventurer to eliminate them and learn why they were there.",
    "q": "Who detected the soldiers in the valley?"
   }
  ],
@@ -83,18 +83,19 @@
  ],
  "sections": [
   {
-   "body": "A vigilant rifleman scanning the lowlands spotted a squad of human soldiers scouring the valley floor. Using a rifle scope to peer closely, the scout clearly identified the heraldry and livery of the maritime nation of Kul Tiras. Their unexpected presence in the valley immediately raised alarm, as armed foreigners rarely operate so brazenly without drawing attention.",
+   "body": "A rifleman watching the lowlands spotted human soldiers searching the valley floor. Through his scope, he recognized the heraldry and livery of Kul Tiras. Armed foreigners rarely work so openly here, and their presence has raised alarm.",
    "spoiler": 0,
    "title": "Suspicious Activity in the Valley"
   },
   {
-   "body": "The soldiers took up position near a ruined caravan situated to the south. Whatever drew them to the wrecked wagon remains an urgent mystery. Local observers have deemed the intrusive armed presence an immediate concern, sending investigators to eliminate the soldiers and uncover the true purpose of their expedition.",
+   "body": "The soldiers have camped near a ruined caravan to the south. What they seek among the wreckage remains unknown. Local observers consider their armed presence an immediate concern, so investigators are sent to eliminate them and uncover the purpose of their search.",
    "spoiler": 0,
    "title": "The Wrecked Caravan"
   }
  ],
- "summary": "Trouble in the Valley centers on a mysterious squad of Kul Tiran soldiers discovered scouring the valley floor. Armed troops have set up camp near a wrecked caravan to the south, prompting local scouts to seek their elimination and uncover the purpose behind their unexpected search.",
+ "summary": "A squad of Kul Tiran soldiers is searching the valley, and their purpose is unknown. They have camped near a wrecked caravan to the south, drawing the attention of local scouts.",
  "attribution": [
   "In-game quest text: Trouble in the Valley"
- ]
+ ],
+ "style": 2
 }

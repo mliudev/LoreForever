@@ -10,16 +10,16 @@
    "quest:47"
   ]
  },
- "summary": "In Elwynn Forest, kobolds gather and hoard flecks of gold in the mines. Local buyers pay for the dust, while miners seek whole veins of ore.",
+ "summary": "In Elwynn Forest, Gold Dust passes from kobold hands to local buyers. Miners still seek whole veins of ore.",
  "sections": [
   {
    "title": "A Pouch Full of Scraps",
-   "body": "Kobolds dig through the Fargodeep and Jasperlode mines beneath Elwynn Forest. They keep the gold dust they find in pockets and pouches instead of refining it. Local peddlers and fences want these scraps, hoping to profit without paying official smelting tariffs.",
+   "body": "Kobolds dig through the Fargodeep and Jasperlode mines beneath Elwynn Forest. Rather than refine the gold dust they find, they keep it in pockets and pouches. Local peddlers and fences want those scraps, hoping to profit without paying official smelting tariffs.",
    "spoiler": 0
   },
   {
    "title": "Goldshire's Black Market",
-   "body": "In Goldshire, Remy \"Two Times\" asks travelers to bring him recovered gold dust. He says he offers the best price in town, trading coin and suspicious tokens for raw dust on behalf of unnamed associates. Travelers retrieve the gold from kobolds, while the brokers secure wealth beneath the noses of the Stormwind guards.",
+   "body": "In Goldshire, Remy \"Two Times\" asks travelers to bring him recovered gold dust. He says he offers the best price in town, trading coin and suspicious tokens for raw dust on behalf of unnamed associates. Travelers retrieve the gold from kobolds, while the brokers build wealth beneath the noses of the Stormwind guards.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "best mine for gold dust",
     "mine locations"
    ],
-   "answer": "Kobolds carrying dust overrun both Fargodeep Mine, south of Goldshire, and Jasperlode Mine, to the northeast."
+   "answer": "Kobolds carrying dust overrun Fargodeep Mine south of Goldshire and Jasperlode Mine to the northeast."
   },
   {
    "q": "Who buys Gold Dust in Elwynn Forest?",
@@ -57,13 +57,13 @@
     "why do kobolds have dust",
     "kobold gold"
    ],
-   "answer": "Kobolds lack the discipline and infrastructure to smelt ore properly. As they dig through the rock with crude pickaxes, loose gold dust gathers on their belongings and in small pouches they carry as shiny trinkets."
+   "answer": "Kobolds lack the discipline and means to smelt ore properly. As they dig through rock with crude pickaxes, loose gold dust gathers on their belongings and in small pouches they carry as shiny trinkets."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners seek solid veins of copper and tin with pick and pan. Kobold dust suggests Elwynn's underground passages hold richer lodes than standard surveys reveal."
+   "text": "As a miner, you seek solid veins of copper and tin with pick and pan. Kobold dust suggests Elwynn's underground passages hold richer lodes than standard surveys reveal."
   },
   {
    "target": "class:Rogue",
@@ -94,5 +94,5 @@
   "Gold Dust",
   "Gold Dust Exchange"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:46"
   ]
  },
- "summary": "In eastern Elwynn, Torn Murloc Fins show the Stormwind Army's bounty is being answered. Taken from foragers and lurkers along the riverbanks, they show that local waterways are being systematically cleared.",
+ "summary": "Along eastern Elwynn's waterways, murlocs crowd the banks and the Stormwind Army's bounty is being answered.",
  "sections": [
   {
    "title": "A Bountied Threat",
-   "body": "Murlocs have grown numerous along eastern Elwynn's streams and lakes, and the Stormwind Army offers a bounty to reduce their numbers. Guard Thomas, who watches the bridge over the eastern river, collects the severed fins as proof of kills. Stormwind's soldiers are stretched thin by unrest at home and threats nearby, so local authorities depend on travelers to bring proof that murloc camps have been cleared.",
+   "body": "Murlocs have grown numerous along eastern Elwynn's streams and lakes. So the Stormwind Army offers a bounty to thin their numbers. Guard Thomas watches the bridge over the eastern river and gathers severed fins as proof. With soldiers stretched thin by unrest at home and nearby threats, local authorities rely on travelers to show that murloc camps have been cleared.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "fin turn in",
     "guard thomas fins"
    ],
-   "answer": "Guard Thomas collects Torn Murloc Fins at Elwynn Forest's eastern bridge for Marshal Dughan and the Stormwind Army."
+   "answer": "At Elwynn Forest's eastern bridge, Guard Thomas collects Torn Murloc Fins for Marshal Dughan and the Stormwind Army."
   },
   {
    "q": "Where are the murlocs carrying these fins located?",
@@ -44,7 +44,7 @@
     "proof of kill murlocs",
     "bounty proof"
    ],
-   "answer": "Fins are unmistakable and easy to carry, giving the Stormwind Army physical proof of slain murlocs before it pays the bounty hunters."
+   "answer": "Fins are unmistakable and easy to carry. They give the Stormwind Army proof of slain murlocs before it pays the bounty hunters."
   },
   {
    "q": "Why is the Stormwind Army paying for dead murlocs?",
@@ -52,13 +52,13 @@
     "why murloc bounty",
     "murloc problem elwynn"
    ],
-   "answer": "Murloc villages have spread quickly along the waterways, threatening travelers, fishermen, and local infrastructure while the Stormwind Army's forces are occupied elsewhere."
+   "answer": "Murloc villages have spread quickly along the waterways, threatening travelers, fishermen, and local infrastructure. The Stormwind Army's forces are occupied elsewhere."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, clearing eastern Elwynn's waterways protects vital routes between Goldshire, Lakeshire, and Stormwind City."
+   "text": "For the Alliance, clearing eastern Elwynn's waterways protects the vital routes between Goldshire, Lakeshire, and Stormwind City."
   },
   {
    "target": "race:Human",
@@ -89,5 +89,5 @@
   "Torn Murloc Fin",
   "Bounty on Murlocs"
  ],
- "style": 1
+ "style": 2
 }

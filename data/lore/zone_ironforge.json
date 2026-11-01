@@ -11,26 +11,26 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Carved into the heart of Ironforge Mountain in snowy Dun Morogh, Ironforge is the ancestral capital of the Bronzebeard dwarves and an unassailable bastion of the Alliance. Centered on the molten heat of the Great Forge, this sprawling underground city serves as a bustling hub of commerce, industry, and ancient dwarven lore. Under the steadfast rule of King Magni Bronzebeard, it now also shelters the displaced gnomes of nearby Gnomeregan.",
+ "summary": "Ironforge is carved into the heart of a mountain, in the snows of Dun Morogh. It is the ancient capital of the Bronzebeard dwarves, and one of the Alliance's strongest bulwarks. At its center burns the Great Forge. Here King Magni Bronzebeard rules, and now his halls also shelter the gnomes who lost Gnomeregan.",
  "sections": [
   {
    "title": "A City of Stone and Fire",
-   "body": "Ironforge was founded twenty-five hundred years ago when the first generation of dwarves awakened in Uldaman and journeyed west into Dun Morogh's jagged peaks. Delving into the tallest mountain, they built a massive shrine to their titan progenitor Khaz'goroth alongside the colossal Great Forge. Ever since, the city has expanded in concentric rings around that fiery hearth. Unlike surface capitals, Ironforge is entirely enclosed beneath stone ceilings, warmed by roaring hearths and subterranean rivers of molten magma. Its fortified gates and cavernous depths have proven near-impregnable throughout centuries of war.",
+   "body": "Twenty-five centuries ago, the first dwarves awoke in Uldaman. Westward they journeyed, into the jagged peaks of Dun Morogh, and delved into the tallest mountain. There they raised a shrine to their maker, the titan Khaz'goroth, and beside it the Great Forge. And ever since, the city has grown outward in rings around that fiery hearth.\n\nNo city above the ground is like it. Ironforge lies wholly beneath stone, warmed by roaring hearths and by rivers of molten rock. Its fortified gates and deep halls have held through centuries of war.",
    "spoiler": 0
   },
   {
    "title": "The War of the Three Hammers",
-   "body": "For generations, three dwarven clans coexisted within Ironforge: the Bronzebeards, the Wildhammers, and the Dark Irons. When High King Modimus Anvilmar died in 230 BDP, a bitter civil war erupted for dominion over the mountain. The Bronzebeard clan prevailed and expelled their rivals. Later, Sorcerer-Thane Thaurissan led a vengeful Dark Iron siege that penetrated to the heart of Ironforge before being repulsed by Bronzebeard forces. Thaurissan accidentally summoned Ragnaros the Firelord to the south, shattering the Redridge Mountains and dooming his own host. The Bronzebeards have held undisputed control of Ironforge ever since.",
+   "body": "For generations, three dwarven clans shared the mountain. The Bronzebeards lived beside the Wildhammers and the Dark Irons. When High King Modimus Anvilmar died, a bitter civil war broke out for rule of Ironforge. The Bronzebeards won it, and drove their rivals out.\n\nThen Sorcerer-Thane Thaurissan led the Dark Irons back for vengeance. His siege reached the very heart of Ironforge, before the Bronzebeards threw it back. In the south, by mischance, Thaurissan then summoned Ragnaros the Firelord. The Firelord's coming shattered the Redridge Mountains, and doomed Thaurissan's own host. Ever since, the Bronzebeards have held Ironforge unchallenged.",
    "spoiler": 0
   },
   {
    "title": "Honor to the Alliance",
-   "body": "During the Second War, the Bleeding Hollow orc clan overran much of Khaz Modan, but Ironforge held firm behind its sealed gates until the Alliance of Lordaeron lifted the siege. Bound by this debt of honor, King Magni Bronzebeard pledged Ironforge's eternal loyalty to the Alliance, standing firm even when kingdoms like Gilneas and Quel'Thalas abandoned it. In the Third War, Magni mourned the loss of his brother Muradin in Northrend. Today, Ironforge remains one of the Alliance's fiercest bulwarks.",
+   "body": "In the Second War, the Bleeding Hollow clan overran much of Khaz Modan. But Ironforge held firm behind its sealed gates, until the Alliance of Lordaeron broke the siege. For that debt of honor, King Magni Bronzebeard pledged Ironforge to the Alliance forever. He stood by it even when Gilneas and Quel'Thalas walked away.",
    "spoiler": 0
   },
   {
    "title": "A Haven for Exiles",
-   "body": "Following the tragic fall of Gnomeregan to trogg invaders and irradiation, King Magni opened Ironforge's gates to thousands of gnome refugees. Under High Tinker Gelbin Mekkatorque, the exiles established Tinker Town, carving out a buzzing technological haven within the stone city. Coupled with the subterranean Deeprun Tram connecting Ironforge directly to Stormwind City, the dwarven stronghold has transformed into a lively crossroads of dwarven steelcraft and gnomish ingenuity.",
+   "body": "In the Third War, Magni mourned his brother Muradin, lost in Northrend. When Gnomeregan fell, the king opened his gates to thousands of gnome refugees. Under High Tinker Gelbin Mekkatorque, they carved out Tinker Town within the stone city. And the Deeprun Tram now runs beneath the earth, straight to Stormwind. So Ironforge has become a crossroads of dwarven steel and gnomish invention.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "ruler of ironforge",
     "who is the dwarf king"
    ],
-   "answer": "King Magni Bronzebeard rules Ironforge and the kingdom of Khaz Modan from the High Seat. A skilled warrior and master blacksmith, he has governed his people through the Second and Third Wars and remains a deeply loyal pillar of the Alliance."
+   "answer": "King Magni Bronzebeard rules Ironforge and the kingdom of Khaz Modan from the High Seat. A skilled warrior and master blacksmith, he has governed his people through the Second and Third Wars and remains a deeply loyal pillar of the Alliance. Ironforge remains one of the Alliance's fiercest bulwarks."
   },
   {
    "q": "Why are there so many gnomes in Ironforge?",
@@ -93,7 +93,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Ironforge is the ancestral home of your kin, standing as a proud testament to your resilience, your mastery of stone, and the sacred lineage tracing back to the titans."
+   "text": "Ironforge is the ancestral home of your kin. Its halls honor your people's resilience, their mastery of stone and the sacred lineage that traces back to the titans."
   },
   {
    "target": "race:Gnome",
@@ -105,7 +105,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Connected seamlessly to Stormwind via the Deeprun Tram, Ironforge stands as the Alliance's northern anchor and one of its most reliable military fortresses."
+   "text": "Linked to Stormwind by the Deeprun Tram, Ironforge is the Alliance's northern anchor and one of its most reliable military fortresses."
   }
  ],
  "keywords": [
@@ -131,5 +131,6 @@
  ],
  "attribution": [
   "Ironforge"
- ]
+ ],
+ "style": 2
 }

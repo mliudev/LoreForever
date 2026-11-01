@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Hall of Mysteries"
  },
- "summary": "In Ironforge’s Mystic Ward, the Hall of Mysteries brings faith and arcane study together. Dwarven and gnomish practitioners read ancient texts, learn the Holy Light, and weave enchantments within its blue-lit halls.",
+ "summary": "In Ironforge’s Mystic Ward, the Hall of Mysteries gathers dwarven and gnomish practitioners for faith and arcane study. They read ancient texts, learn the Holy Light, and weave enchantments within its blue-lit halls.",
  "sections": [
   {
    "title": "A Temple of Magic and Faith",
-   "body": "Blue and purple light marks the Hall of Mysteries amid Ironforge’s stone, iron, and heavy plate. Five soaring pillars shelter scholars in flowing robes. The hall is headquarters for the dwarven priesthood and the Order of the Silver Hand within Khaz Modan, joining arcane study with devotion to the Holy Light. Young clerics and knights study texts such as the Tome of Divinity here. They receive guidance before traveling onward to Stormwind’s Cathedral of Light.",
+   "body": "Blue and purple light marks the Hall of Mysteries among Ironforge’s stone, iron, and heavy plate. Five soaring pillars shelter scholars in flowing robes. Here, the dwarven priesthood and the Order of the Silver Hand hold their headquarters within Khaz Modan. They join arcane study with devotion to the Holy Light.\n\nYoung clerics and knights study texts such as the Tome of Divinity here. They receive guidance before traveling onward to Stormwind’s Cathedral of Light.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "cathedral of light vs hall of mysteries",
     "is it like stormwind cathedral"
    ],
-   "answer": "Stormwind’s Cathedral of Light is devoted to holy faith and ceremonial worship, while the Hall of Mysteries joins holy study with arcane scholarship. Its atmosphere is scholarly and quiet."
+   "answer": "Stormwind’s Cathedral of Light is devoted to holy faith and ceremonial worship. The Hall of Mysteries joins holy study with arcane scholarship, and its atmosphere is scholarly and quiet."
   },
   {
    "q": "Can paladins complete their training trials here?",
@@ -86,5 +86,5 @@
  "attribution": [
   "Hall of Mysteries"
  ],
- "style": 1
+ "style": 2
 }

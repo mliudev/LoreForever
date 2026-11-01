@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A mage in Valanaar sends you from Zephras Isle to Dalaran City, where mages await your people's arrival. The city is a place to begin exploring Azeroth, though the lands beyond it are dangerous without preparation and experience.",
+ "summary": "A mage in Valanaar sends you from Zephras Isle to Dalaran City, where several mages await your people's arrival. The city offers a place to begin exploring Azeroth, but the lands beyond can be dangerous without preparation and experience.",
  "sections": [
   {
    "title": "Arrival in Dalaran",
-   "body": "Recent events with the cult have kept the speaker in Valanaar, while several mages wait in Dalaran for your people. You are sent to the dock outside the lodge to board a skycutter for Dalaran City. Once there, speak with Danaaris Stargale. Your people are still getting established in the city, and the country beyond its safety can be dangerous.",
+   "body": "Recent events with the cult keep the speaker in Valanaar for now. Several mages wait in Dalaran for your people, so you are sent to the dock outside the lodge. There, you board a skycutter bound for Dalaran City.\n\nWhen you arrive, speak with Danaaris Stargale. Your people are still making their home in the city, and the country beyond its safety can prove dangerous.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "who's in dalaran",
     "dalaran mages"
    ],
-   "answer": "Several mages await your people's arrival in Dalaran. Danaaris Stargale is the person you are asked to speak with when you arrive."
+   "answer": "Several mages await your people's arrival in Dalaran. When you reach the city, you are asked to speak with Danaaris Stargale."
   },
   {
    "q": "Where do I travel from?",
@@ -36,7 +36,7 @@
     "from zephras",
     "skycutter"
    ],
-   "answer": "You travel from Zephras Isle to Dalaran City aboard the skycutter ship at the dock outside the lodge."
+   "answer": "You travel from Zephras Isle to Dalaran City aboard the skycutter at the dock outside the lodge."
   },
   {
    "q": "Why is the speaker staying in Valanaar?",
@@ -54,13 +54,13 @@
     "danger near dalaran",
     "dalaran outskirts"
    ],
-   "answer": "The land beyond Dalaran can be dangerous without appropriate preparation and experience."
+   "answer": "The land beyond Dalaran can be dangerous without proper preparation and experience."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "As a Skyborne, you are traveling from Zephras Isle to join the mages awaiting your people's arrival in Dalaran."
+   "text": "As a Skyborne, you travel from Zephras Isle to join the mages awaiting your people's arrival in Dalaran."
   }
  ],
  "keywords": [
@@ -77,7 +77,7 @@
   "zone:zephras",
   "subzone:dalaran"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: The Magical City of Dalaran"
  ]

@@ -8,16 +8,16 @@
   "wiki": "Chief Engineer Hinderweir VII",
   "refs": 11
  },
- "summary": "Atop the Stonewrought Dam, Chief Engineer Hinderweir VII keeps watch over its workings and defenses. The veteran dwarf maintains its great structure and machinery as grave dangers threaten the dam.",
+ "summary": "Atop the Stonewrought Dam, Chief Engineer Hinderweir VII watches over its workings and defenses. The veteran dwarf keeps the great structure and its machinery sound as grave dangers threaten it.",
  "sections": [
   {
    "title": "Master of the Dam",
-   "body": "Chief Engineer Hinderweir VII tends the Stonewrought Dam, where dwarven stonecraft holds back the waters of the Loch. Along its crest, he watches the waterways and sluice gates, and checks the structure for strain from the elements and local hazards. Its workings demand constant care.",
+   "body": "Chief Engineer Hinderweir VII tends the Stonewrought Dam, whose stonework holds back Loch Modan's waters. Along the crest, he watches the waterways and sluice gates. He also checks for strain from the elements and local hazards. The dam's workings need constant care.",
    "spoiler": 0
   },
   {
    "title": "Sabotage and Subversion",
-   "body": "Chief Engineer Hinderweir VII finds signs of planned sabotage at the dam. A breach could flood the lowlands and devastate Khaz Modan's delicate infrastructure. He calls on reliable Alliance adventurers to trace the plot, disarm hidden explosives, and stop the threat before the stone gives way.",
+   "body": "Chief Engineer Hinderweir VII finds signs of planned sabotage at the dam. A breach could flood the lowlands and ruin Khaz Modan's delicate infrastructure. So he calls on reliable Alliance adventurers to trace the plot, disarm hidden explosives, and stop the threat before the stone gives way.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "chief engineer",
     "dam engineer"
    ],
-   "answer": "Chief Engineer Hinderweir VII is the dwarf who maintains and defends the Stonewrought Dam in northern Loch Modan."
+   "answer": "Chief Engineer Hinderweir VII tends and defends the Stonewrought Dam in northern Loch Modan."
   },
   {
    "q": "Where can I find Chief Engineer Hinderweir VII?",
@@ -38,7 +38,7 @@
     "where is hinderweir",
     "find hinderweir"
    ],
-   "answer": "You can find Chief Engineer Hinderweir VII on the top walkway of the Stonewrought Dam, which crosses the northern edge of Loch Modan near the Wetlands border."
+   "answer": "You can find Chief Engineer Hinderweir VII on the Stonewrought Dam's top walkway. The dam crosses Loch Modan's northern edge near the Wetlands border."
   },
   {
    "q": "What is the Stonewrought Dam?",
@@ -47,7 +47,7 @@
     "stonewrought dam purpose",
     "why is the dam important"
    ],
-   "answer": "The Stonewrought Dam is a great dwarven structure that holds back Loch Modan's waters and keeps them from spilling violently into the lower wetlands to the north."
+   "answer": "The Stonewrought Dam is a great dwarven structure that holds back Loch Modan's waters. It keeps them from spilling violently into the lower wetlands to the north."
   },
   {
    "q": "What threats is Hinderweir worried about?",
@@ -56,7 +56,7 @@
     "a dark threat looms",
     "who wants to destroy the dam"
    ],
-   "answer": "Chief Engineer Hinderweir VII investigates sabotage at the dam, where he has found signs of dark plots and explosive devices planted to crack its foundations."
+   "answer": "Chief Engineer Hinderweir VII investigates sabotage at the dam. He has found signs of dark plots and explosive devices planted to crack its foundations."
   },
   {
    "q": "Why does his name include 'VII'?",
@@ -74,7 +74,7 @@
     "quests at the dam",
     "a dark threat looms quest"
    ],
-   "answer": "Chief Engineer Hinderweir VII offers the chain called 'A Dark Threat Looms', sending adventurers to investigate tampering and protect the Stonewrought Dam from destruction."
+   "answer": "Chief Engineer Hinderweir VII offers the chain called 'A Dark Threat Looms'. It sends adventurers to investigate tampering and protect the Stonewrought Dam from destruction."
   }
  ],
  "angles": [
@@ -84,7 +84,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can appreciate the dam's vast machinery, joining civil architecture with mechanical control."
+   "text": "As an engineer, you can appreciate the dam's vast machinery, where civil architecture meets mechanical control."
   },
   {
    "target": "faction:Alliance",
@@ -109,5 +109,5 @@
  "attribution": [
   "Chief Engineer Hinderweir VII"
  ],
- "style": 1
+ "style": 2
 }

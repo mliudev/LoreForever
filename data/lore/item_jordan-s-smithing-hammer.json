@@ -10,11 +10,11 @@
    "quest:1654"
   ]
  },
- "summary": "At Jordan Stilwell’s forge, Jordan's Smithing Hammer carries a family legacy into his work. His father passed it down to him, and its recovery from Shadowfang Keep is needed for a weapon consecrated to the Light.",
+ "summary": "Jordan Stilwell waits outside Ironforge for his father's hammer, lost within Shadowfang Keep.",
  "sections": [
   {
    "title": "A Craftsman's Legacy",
-   "body": "Jordan Stilwell keeps his father’s hammer close, for it carries his family’s craft and his hopes for a masterwork. The human blacksmith works outside Ironforge, but the heirloom has somehow ended up in Shadowfang Keep, within the stone walls of Silverpine Forest. Jordan needs it back before he can forge a sacred weapon fit for a holy champion.",
+   "body": "Jordan Stilwell is a human blacksmith who works outside Ironforge. His father’s hammer lies within Shadowfang Keep in Silverpine Forest. Without it, Jordan cannot forge a sacred weapon fit for a holy champion, the masterwork he hopes to make.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is jordan's hammer",
     "where to find jordan's smithing hammer"
    ],
-   "answer": "Jordan's Smithing Hammer lies inside Shadowfang Keep in the forests of Silverpine. Paladins undertaking the Test of Righteousness must enter the occupied fortress to recover it."
+   "answer": "Jordan's Smithing Hammer lies inside Shadowfang Keep in the forests of Silverpine. Paladins taking the Test of Righteousness must enter the occupied fortress to recover it."
   },
   {
    "q": "Why is this hammer so important to Jordan Stilwell?",
@@ -34,7 +34,7 @@
     "why does jordan want the hammer",
     "jordan stilwell hammer lore"
    ],
-   "answer": "Jordan inherited the hammer from his father, and it means much to him. He needs it to forge his finest work, a holy weapon of the Light."
+   "answer": "Jordan inherited the hammer from his father, and it means much to him. He needs it to forge his finest work, a holy weapon consecrated to the Light."
   },
   {
    "q": "What is the hammer used for once recovered?",
@@ -42,13 +42,13 @@
     "what does the hammer make",
     "test of righteousness hammer use"
    ],
-   "answer": "Bring the hammer to Jordan outside the gates of Ironforge with lumber, ore, and a gem. He will use them to forge a sacred armament for the paladin who helped him."
+   "answer": "Bring the hammer to Jordan outside the gates of Ironforge with lumber, ore, and a gem. He will forge a sacred armament for the paladin who helped him."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you must venture into perilous lands to retrieve the heirloom hammer, proving your resolve in the trials of righteousness."
+   "text": "As a paladin, you must venture into perilous lands to retrieve the heirloom hammer and prove your resolve in the trials of righteousness."
   },
   {
    "target": "profession:Blacksmithing",
@@ -78,5 +78,5 @@
   "Jordan's Smithing Hammer",
   "The Test of Righteousness (2)"
  ],
- "style": 1
+ "style": 2
 }

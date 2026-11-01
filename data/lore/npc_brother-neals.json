@@ -8,11 +8,11 @@
   "wiki": "Brother Neals",
   "refs": 1
  },
- "summary": "At Northshire Abbey, Brother Neals keeps watch over the food and drink stores. He oversees shipments and samples wine from the local vineyard.",
+ "summary": "At Northshire Abbey, Brother Neals keeps the food and drink stores supplied. He oversees shipments and samples wine from the local vineyard.",
  "sections": [
   {
    "title": "Keeper of the Cellar",
-   "body": "Brother Neals keeps Northshire Abbey supplied with food and drink from his rooms in the upper belfry. He follows the grape manifests from the Northshire vineyards and tastes the wine to check its quality. He also watches the shipments arriving from the fields around the valley.",
+   "body": "From his rooms in the upper belfry, Brother Neals follows grape manifests from the Northshire vineyards. Frequent tastings let him check each vintage. He also tracks deliveries from the valley’s fields, keeping the abbey’s stores supplied.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "neals",
     "who is neals"
    ],
-   "answer": "Brother Neals belongs to Northshire Abbey and manages its stores of food, drink, and wine for the clergy and recruits in the valley."
+   "answer": "Brother Neals manages Northshire Abbey’s stores of food, drink, and wine for the clergy and recruits in the valley."
   },
   {
    "q": "Where can Brother Neals be found?",
@@ -33,7 +33,7 @@
     "brother neals location",
     "find neals"
    ],
-   "answer": "Brother Neals stays in the uppermost room of Northshire Abbey. Climb the stone staircases inside the main hall to reach the quiet chamber near the top of the tower."
+   "answer": "Brother Neals stays in Northshire Abbey’s uppermost room. Climb the stone staircases inside the main hall to reach his quiet chamber near the top of the tower."
   },
   {
    "q": "What is his role regarding the vineyard?",
@@ -42,13 +42,13 @@
     "neals wine",
     "what does neals do"
    ],
-   "answer": "Brother Neals tracks grape harvests and wine shipments from the nearby Northshire Vineyard. He spends time sampling the vintage as well as keeping the ledgers."
+   "answer": "Brother Neals tracks grape harvests and wine shipments from the nearby Northshire Vineyard. He samples the vintage and keeps the ledgers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As someone who manages the monastery's provisions and spirits, Brother Neals has a role tied to the culinary arts."
+   "text": "As someone who manages the monastery’s provisions and spirits, Brother Neals has a role tied to the culinary arts."
   }
  ],
  "keywords": [
@@ -69,5 +69,5 @@
  "attribution": [
   "Brother Neals"
  ],
- "style": 1
+ "style": 2
 }

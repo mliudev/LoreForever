@@ -17,16 +17,16 @@
   "wiki": "Collecting Kelp",
   "chain": []
  },
- "summary": "In Goldshire, Maybell Maclure seeks a way to visit Tommy Joe Stonefield unseen. William Pestle needs rare crystal kelp to brew an invisibility liquor for her.",
+ "summary": "In Goldshire, Maybell Maclure seeks to visit Tommy Joe Stonefield unseen. William Pestle needs rare crystal kelp to brew her an invisibility liquor.",
  "sections": [
   {
    "title": "A Remedy for Forbidden Love",
-   "body": "The feud between the Stonefield and Maclure families keeps Maybell Maclure and Tommy Joe Stonefield from meeting openly. Maybell wants to see her beloved without provoking an armed clash between their kin, so she seeks a way to cross the valley unseen. William Pestle, an herbalist and apothecary at the Lion's Pride Inn in Goldshire, plans to brew an invisibility liquor. The rare ingredients he needs are not in the inn's cupboards.",
+   "body": "The feud between the Stonefield and Maclure families keeps Maybell Maclure and Tommy Joe Stonefield from meeting openly. Maybell wants to see the one she loves without bringing their kin into an armed clash. So she seeks a way to cross the valley unseen. William Pestle, an herbalist and apothecary at the Lion's Pride Inn in Goldshire, plans to brew an invisibility liquor, but its rare ingredients are not in the inn's cupboards.",
    "spoiler": 0
   },
   {
    "title": "The Scavengers of Crystal Lake",
-   "body": "Crystal kelp is the catalyst William Pestle needs for his brew. The fronds usually grow far out in saltwater oceans, but tribal murlocs have carried stashes inland to their crude camps along Crystal Lake, just east of Goldshire. Their peculiar instincts have led them to haul the marine plants to the freshwater shore. You need to recover enough fronds from the murlocs before returning to Goldshire with them.",
+   "body": "William Pestle needs crystal kelp as the catalyst for his brew. Its fronds usually grow far out in saltwater oceans, but tribal murlocs have carried stashes inland to their crude camps along Crystal Lake, just east of Goldshire. Their peculiar instincts draw them to haul the marine plants to the freshwater shore. You need to recover enough fronds from the murlocs before returning to Goldshire with them.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "kelp in fresh water",
     "murloc kelp lore"
    ],
-   "answer": "Crystal kelp grows in the ocean, but tribal murlocs around Crystal Lake scavenge the fronds and carry them inland. They hoard the kelp in lakeside camps, making those camps the only local source near Goldshire."
+   "answer": "Crystal kelp grows in the ocean, but tribal murlocs around Crystal Lake scavenge the fronds and carry them inland. They hoard the kelp in lakeside camps, the only local source near Goldshire."
   },
   {
    "q": "Who are Maybell Maclure and Tommy Joe Stonefield?",
@@ -56,7 +56,7 @@
     "who is tommy joe",
     "maclure stonefield feud"
    ],
-   "answer": "Maybell Maclure and Tommy Joe Stonefield are young lovers from rival farming families in southern Elwynn Forest. Their families despise each other, so the pair must rely on secrecy and alchemical tricks to meet."
+   "answer": "Maybell Maclure and Tommy Joe Stonefield are young lovers from rival farming families in southern Elwynn Forest. Their families despise each other, so the pair rely on secrecy and alchemical tricks to meet."
   },
   {
    "q": "Where is Crystal Lake located?",
@@ -73,7 +73,7 @@
     "next quest after kelp",
     "what does pestle make"
    ],
-   "answer": "After you deliver four crystal kelp fronds, William Pestle distills them into an Invisibility Liquor. He then asks you to bring it to Maybell Maclure so she can slip away unseen."
+   "answer": "After you deliver four crystal kelp fronds, William Pestle distills them into an Invisibility Liquor. Then he asks you to bring it to Maybell Maclure so she can slip away unseen."
   },
   {
    "q": "Who is William Pestle?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Collecting Kelp"
  ],
- "style": 1
+ "style": 2
 }

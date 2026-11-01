@@ -17,16 +17,16 @@
   "wiki": "A Student of Nature",
   "chain": []
  },
- "summary": "A Student of Nature marks a fledgling druid's introduction to formal training on Zephras Isle. After helping restore local harmony, novice druids are summoned by Xyton Silverwind beneath the boughs of Thendal Grove. It serves as the opening gateway into understanding the deeper balance between flora and fauna on the isle.",
+ "summary": "On Zephras Isle, A Student of Nature begins with a summons to novice druids. After they help restore local harmony, Xyton Silverwind calls them beneath the boughs of Thendal Grove to learn the isle's natural balance.",
  "sections": [
   {
    "title": "A Summons from the Grove",
-   "body": "Following the resolution of local disturbances caused by overzealous wildlife, Rorian the Dayseeker delivers a personal summons to young initiates. Left behind by the local mentor Xyton Silverwind, the folded parchment invites aspiring druids to step forward and dedicate themselves to the deeper mysteries of the wild. It signals that an initiate's natural talents have caught the eye of the grove's elders.",
+   "body": "After local disturbances caused by overzealous wildlife are resolved, Rorian the Dayseeker brings a personal summons to young initiates. The folded parchment was left by Xyton Silverwind. It invites aspiring druids to step forward and study the deeper mysteries of the wild, for their natural talents have caught the grove elders' attention.",
    "spoiler": 0
   },
   {
-   "title": "Keepers of the Tapestry",
-   "body": "Meeting Xyton Silverwind on the lower level of the great tree in Thendal Grove anchors a novice to their calling. Silverwind regards the vibrant flora and fauna of Zephras Isle as an intricate living tapestry, one that demands constant preservation and vigilant balance. To walk the path of the fang, claw, feather, and branch requires enduring mentorship, and this meeting marks the true beginning of that lifelong stewardship.",
+   "title": "Keepers of the Balance",
+   "body": "Meeting Xyton Silverwind on the lower level of the great tree in Thendal Grove marks a novice's first step in their calling. To Silverwind, Zephras Isle's plants and animals form an intricate living whole that needs constant care and watchful balance. The path of fang, claw, feather, and branch calls for lasting mentorship, and this meeting begins a lifetime of stewardship.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "rorian"
    ],
-   "answer": "Rorian the Dayseeker hands over the folded parchment that directs you to Xyton Silverwind after you help address the vuldren issues around the grove."
+   "answer": "After you help address the unruly vuldren around the grove, Rorian the Dayseeker hands you a folded parchment directing you to Xyton Silverwind."
   },
   {
    "q": "Where is Xyton Silverwind located?",
@@ -47,7 +47,7 @@
     "where is xyton",
     "druid trainer location"
    ],
-   "answer": "Xyton Silverwind resides on the ground floor of the great tree in Thendal Grove, situated just behind Rorian the Dayseeker on Zephras Isle."
+   "answer": "Xyton Silverwind is on the ground floor of the great tree in Thendal Grove, just behind Rorian the Dayseeker on Zephras Isle."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -56,7 +56,7 @@
     "quest goal",
     "druid training start"
    ],
-   "answer": "This quest introduces novice druids to their class trainer, Xyton Silverwind, who serves as their primary teacher and guide in maintaining the natural balance of Zephras Isle."
+   "answer": "A Student of Nature introduces novice druids to Xyton Silverwind, their primary teacher and guide in keeping Zephras Isle's natural balance."
   },
   {
    "q": "What does Xyton Silverwind teach novice druids about Zephras Isle?",
@@ -65,7 +65,7 @@
     "zephras nature balance",
     "druid role zephras"
    ],
-   "answer": "Silverwind teaches that the island's plant and animal life form a delicate, interconnected tapestry that requires active care and balance through the discipline of fang, claw, feather, and branch."
+   "answer": "Silverwind teaches that the island's plants and animals are interconnected and need active care and balance through the disciplines of fang, claw, feather, and branch."
   },
   {
    "q": "What prerequisite must be completed before receiving this summons?",
@@ -74,7 +74,7 @@
     "prior quest",
     "before student of nature"
    ],
-   "answer": "Initiates must first complete Harmony in Balance for Rorian the Dayseeker, dealing with the unruly vuldren population before receiving Silverwind's note."
+   "answer": "Initiates first complete Harmony in Balance for Rorian the Dayseeker, addressing the unruly vuldren population before receiving Silverwind's note."
   },
   {
    "q": "What is contained within the Folded Parchment?",
@@ -83,13 +83,13 @@
     "silverwind note",
     "what is on parchment"
    ],
-   "answer": "The folded parchment is a direct note left by Xyton Silverwind instructing the promising young druid to seek him out for further training beneath the canopy of the great tree."
+   "answer": "The folded parchment is a note left by Xyton Silverwind. It directs the promising young druid to seek him beneath the canopy of the great tree for further training."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This rite of passage connects you directly to Xyton Silverwind, initiating your lifelong training in the arts of the wild, the fang, and the branch."
+   "text": "As a druid, you begin lifelong training with Xyton Silverwind in the arts of the wild, the fang, and the branch."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "A Student of Nature"
- ]
+ ],
+ "style": 2
 }

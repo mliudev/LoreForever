@@ -17,16 +17,16 @@
   "wiki": "Princess Must Die! (Classic)",
   "chain": []
  },
- "summary": "At Stonefield Farm, Ma Stonefield wants Princess Must Die! before Princess ruins the harvest. The enormous prize-winning sow from Brackwell Pumpkin Patch keeps raiding the Stonefields’ vegetables, and Ma wants the family to gather their crops in peace.",
+ "summary": "At Stonefield Farm, Ma Stonefield asks you to kill Princess before the sow ruins the harvest. The enormous prize-winning pig from Brackwell Pumpkin Patch keeps raiding the Stonefields’ vegetables, putting the family’s crops at risk.",
  "sections": [
   {
    "title": "A Menace to the Harvest",
-   "body": "Princess has put the Stonefield harvest at risk. The prize-winning sow belongs to the Brackwells, but she has grown enormous by crossing onto the Stonefield plots and devouring their vegetables. Ma Stonefield has had enough of the sow eating the crops she worked to grow. She wants Princess put down before the pig ruins the season’s yield.",
+   "body": "The sow belongs to the Brackwells. She grew enormous by crossing onto the Stonefield plots. Ma has had enough of Princess eating the crops she worked to grow. She wants the pig put down before the season’s yield is lost.",
    "spoiler": 0
   },
   {
    "title": "The Porcine Entourage",
-   "body": "Princess does not roam alone. At Brackwell Pumpkin Patch, east beyond the Maclure homestead, protective boars surround her. To prove the sow will trouble the Stonefield fields no more, you need to get past her guards and bring back the distinctive brass collar from her neck.",
+   "body": "Princess stays at Brackwell Pumpkin Patch, east beyond the Maclure homestead. Protective boars surround her. Get past her guards and bring Ma the distinctive brass collar from Princess’s neck. It will prove the sow can trouble the Stonefield fields no more.",
    "spoiler": 0
   }
  ],
@@ -74,7 +74,7 @@
     "what item for princess",
     "brass collar"
    ],
-   "answer": "To prove Princess is dead, bring the Brass Collar from around her neck to Ma Stonefield at Stonefield Farm."
+   "answer": "Bring the Brass Collar from around Princess’s neck to Ma Stonefield at Stonefield Farm to prove she is dead."
   },
   {
    "q": "Does Princess fight alone?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Princess Must Die! (Classic)"
  ],
- "style": 1
+ "style": 2
 }

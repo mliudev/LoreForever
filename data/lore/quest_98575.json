@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The Tainted Tablet marks the formal introduction of fledgling warlocks in Durotar to their trainer, Nartok, urging them to master the Nether rather than fear it."
+   "text": "As a warlock, you receive your first call to Nartok, your trainer in Durotar. He urges you to master the Nether instead of fearing it."
   },
   {
    "target": "race:Orc",
-   "text": "Given the catastrophic legacy of demonic pacts on Draenor, practicing fel magic remains controversial among orcs, forcing Durotar's warlocks to counsel secrecy and boldness."
+   "text": "As an orc, you know demonic pacts brought catastrophe to Draenor. Fel magic remains controversial, so Durotar's warlocks counsel both secrecy and boldness."
   },
   {
    "target": "faction:Horde",
-   "text": "While Thrall's new Horde is wary of demonic corruption, practitioners lurking in places like the Den claim they can safely command Nether powers to secure a future for their people."
+   "text": "As a member of the Horde, you know Thrall's new people are wary of demonic corruption. Warlocks in places like the Den say they can command Nether powers safely and secure their people's future."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "tainted tablet quest",
     "tablet purpose"
    ],
-   "answer": "The Tainted Tablet is a written summons delivered to an aspiring practitioner in the Valley of Trials. It instructs them to seek out Nartok, their class trainer, who awaits inside the Den.",
+   "answer": "Tainted Tablet is a written summons for an aspiring practitioner in the Valley of Trials. It directs you to Nartok, your trainer inside the Den.",
    "q": "What is the Tainted Tablet?"
   },
   {
@@ -41,7 +41,7 @@
     "who is nartok",
     "who sent the tablet"
    ],
-   "answer": "The tablet was sent by Nartok, an orc warlock trainer stationed inside the Den in the Valley of Trials. He uses it to introduce himself to newly arrived practitioners and invite them for instruction.",
+   "answer": "Nartok sent Tainted Tablet. He is an orc warlock trainer inside the Den in the Valley of Trials, and calls newly arrived practitioners to instruction.",
    "q": "Who sent the Tainted Tablet?"
   },
   {
@@ -50,7 +50,7 @@
     "where is the den",
     "how to find nartok"
    ],
-   "answer": "Nartok resides inside the Den, a cavern tucked away in the Valley of Trials where darker arts and specialized training are practiced out of sight.",
+   "answer": "Nartok lives inside the Den, a cavern in the Valley of Trials where darker arts and specialized training take place out of sight.",
    "q": "Where can Nartok be found?"
   },
   {
@@ -59,7 +59,7 @@
     "why guard powers",
     "why secrecy warlocks"
    ],
-   "answer": "Nartok cautions that ordinary folk fear powers they do not understand, often lashing out in panic. Because the orcs suffered deeply under demonic corruption in their past, warlocks keep their arts guarded and tread cautiously.",
+   "answer": "Nartok warns you to guard your powers because ordinary folk may lash out in fear at what they do not understand. Orcs also remember the deep harm demonic corruption caused in their past, so warlocks keep their arts guarded and tread carefully.",
    "q": "Why does Nartok warn to guard your powers closely?"
   },
   {
@@ -68,7 +68,7 @@
     "nartok philosophy",
     "why use nether powers"
    ],
-   "answer": "Nartok believes that where conventional leaders falter, those who master the entities of the Nether can forge their own path and seize power to shape their people's destiny rather than be enslaved by it.",
+   "answer": "Nartok believes those who master Nether entities can forge their own path and shape their people's fate. Where conventional leaders falter, warlocks can seize power instead of being enslaved by it.",
    "q": "What is Nartok's view on practicing fel magic?"
   },
   {
@@ -76,7 +76,7 @@
     "who delivered the tablet",
     "who handed me the tablet"
    ],
-   "answer": "A local questgiver in the Valley of Trials passes the tablet along, openly admitting discomfort with fel spellcasters but acknowledging the necessity of delivering Nartok's summons.",
+   "answer": "A local in the Valley of Trials passes you the tablet. They admit unease with fel spellcasters, but know Nartok's summons must be delivered.",
    "q": "Who gives you the Tainted Tablet?"
   }
  ],
@@ -94,18 +94,19 @@
  ],
  "sections": [
   {
-   "body": "The Tainted Tablet is an inscribed message delivered to newly arrived practitioners beginning their journey in the Valley of Trials. Passing through the hands of uneasy camp caretakers, the stone bears a summons from Nartok, a warlock trainer making his home within the shadowed recesses of the Den. The missive invites the reader to step away from ordinary tribal duties and explore the deeper, forbidden currents of magic.",
+   "body": "A stone message passes through uneasy camp caretakers to newly arrived practitioners in the Valley of Trials. Nartok, a warlock trainer who makes his home inside the Den, calls them to him. He invites you to leave ordinary tribal duties and study deeper, forbidden magic.",
    "spoiler": 0,
    "title": "A Dark Summons"
   },
   {
-   "body": "Upon answering the summons, Nartok speaks frankly about the turbulent history between orcs and the Nether. Rather than renouncing these volatile energies out of shame or fear, he argues that the strong must seize command of their own destiny. In his eyes, where conventional chieftains falter, practitioners who harness Nether entities with cunning will rise to prominence. However, because fearful minds readily strike out at what they do not comprehend, he warns that such powers must always be guarded closely.",
+   "body": "Nartok speaks plainly about the troubled history between orcs and the Nether. He says the strong should command these volatile powers instead of rejecting them from shame or fear. Where ordinary chieftains falter, he believes those who cunningly master Nether entities can rise to prominence. Yet fearful minds strike at what they cannot understand, so these powers must be guarded closely.",
    "spoiler": 0,
    "title": "Commanding the Nether"
   }
  ],
- "summary": "The Tainted Tablet is a starter quest in the Valley of Trials that directs aspiring spellcasters to Nartok inside the Den. It introduces the pragmatic yet cautious mindset of Durotar's warlocks, who seek to harness the Nether to forge their own destiny despite the lingering stigma of their past.",
+ "summary": "In the Valley of Trials, Tainted Tablet calls new practitioners to Nartok inside the Den. He teaches warlocks to command the Nether and shape their own fate, though its powers must be kept guarded.",
  "attribution": [
   "In-game quest text: Tainted Tablet"
- ]
+ ],
+ "style": 2
 }

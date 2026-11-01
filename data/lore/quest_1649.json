@@ -17,16 +17,16 @@
   "wiki": "The Tome of Valor (2)",
   "chain": []
  },
- "summary": "Duthorian Rall awaits paladins seeking trials of faith and courage in Stormwind. The Tome of Valor guides their first steps toward proving their devotion to the Church.",
+ "summary": "In Stormwind, The Tome of Valor calls paladins to prove their faith and courage. Duthorian Rall awaits those ready to petition the Church.",
  "sections": [
   {
    "title": "Tempering the Spirit",
-   "body": "The Tome of Valor teaches that valor must be forged through hardship. Its sacred text compares virtues to precious ores, valuable when found but needing refinement to endure. Through hard trials and true commitment, a paladin binds faith, compassion, and courage into a strength that can resist the evils threatening Azeroth.",
+   "body": "The Tome teaches that valor is forged through hardship. Its sacred text likens virtues to precious ores, valuable when found but refined to endure. Through hard trials and true commitment, a paladin binds faith, compassion, and courage into strength against the evils threatening Azeroth.",
    "spoiler": 0
   },
   {
    "title": "Petitioning the Church",
-   "body": "After reading the Tome of Valor, you are directed to Duthorian Rall, a respected leader among the paladins in Stormwind's Cathedral of Light. He hears petitions from those seeking the trials of valor. The tests are no mere ritual: defending the innocent and upholding the Church may demand your life, and only the steadfast earn recognition in the order.",
+   "body": "After reading the Tome, you are directed to Duthorian Rall, a respected paladin leader in Stormwind's Cathedral of Light. He hears petitions from those seeking the trials of valor. The tests are no mere ritual. Defending the innocent and upholding the Church may cost your life, and only the steadfast earn recognition in the order.",
    "spoiler": 0
   }
  ],
@@ -73,7 +73,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As a member of the Alliance, you share in the strength these Stormwind trials preserve, both in defense and in spirit during turbulent times."
+   "text": "As a member of the Alliance, you share in the strength these Stormwind trials preserve, in defense and in spirit during turbulent times."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
  "attribution": [
   "The Tome of Valor (2)"
  ],
- "style": 1
+ "style": 2
 }

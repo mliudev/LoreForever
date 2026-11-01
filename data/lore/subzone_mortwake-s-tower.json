@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mortwake's Tower"
  },
- "summary": "Klaven's Tower, also called the Defias Tower, is a fortified watchtower standing near the river in southeastern Westfall. Commanded by the rogue Klaven Mortwake, it serves as a critical waypoint for smuggling stolen goods across kingdom borders.",
+ "summary": "In southeastern Westfall, Klaven's Tower guards a river crossing near the kingdom's borders. Klaven Mortwake commands the tower, where stolen goods pass along Defias routes.",
  "sections": [
   {
    "title": "A Smuggler's Stronghold",
-   "body": "Perched on the borderlands north of the Dagger Hills, Klaven's Tower is a vital hub for Defias Brotherhood operations in southern Westfall. Together with Jerod's Landing across the river in Elwynn Forest, the site acts as a receiving post and staging ground for contraband plundered from the Redridge Mountains. Its commanding vantage over the waterways allows the Brotherhood to slip supplies past Kingdom patrols, shielding their logistical network from the crown's eyes.",
+   "body": "North of the Dagger Hills, Klaven's Tower anchors the Defias Brotherhood's work in southern Westfall. Across the river in Elwynn Forest, Jerod's Landing receives and stages goods plundered from the Redridge Mountains. Together, the two sites move contraband toward Westfall.\n\nFrom the tower, the Brotherhood watches the waterways and slips supplies past Kingdom patrols. This helps shield its supply routes from the crown's eyes.",
    "spoiler": 0
   },
   {
    "title": "Fumes and Shadows",
-   "body": "The tower is controlled by Klaven Mortwake, an alchemist and rogue obsessed with lethal concoctions. Mortwake spends his hours brewing exotic troll poisons within the tower's confines, churning thick, noxious fumes that permeate the upper chambers. While deadly to intruders, the vapors also dull the senses of Mortwake's own guards, providing an exploitable blind spot for stealth operatives sent by Stormwind's intelligence service, SI:7, who monitor the structure from nearby hills.",
+   "body": "Klaven Mortwake controls the tower. An alchemist and rogue, he spends his hours brewing exotic troll poisons within its walls. Thick, noxious fumes fill the upper chambers.\n\nThe vapors are deadly to intruders, but they also dull the senses of Mortwake's own guards. That weakness gives Stormwind's intelligence service, SI:7, a blind spot to exploit as its agents monitor the tower from nearby hills.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who is klaven",
     "who lives in the tower"
    ],
-   "answer": "The tower is held by Klaven Mortwake, a Defias rogue who oversees smuggling operations and conducts experiments with volatile poisons. A contingent of Defias sentries and patrollers guards the grounds under his command."
+   "answer": "Klaven Mortwake, a Defias rogue, controls the tower. He oversees smuggling and experiments with volatile poisons. Defias sentries and patrollers guard the grounds under his command."
   },
   {
    "q": "Why is the tower important to the Defias Brotherhood?",
@@ -37,7 +37,7 @@
     "what is this tower used for",
     "why is the tower here"
    ],
-   "answer": "It serves as a primary logistical relay for stolen goods moving into Westfall. Smuggled cargo from the Redridge Mountains is transported across Elwynn Forest, routed past Jerod's Landing, and funneled through this tower to supply the Brotherhood's wider rebellion."
+   "answer": "The tower relays stolen goods moving into Westfall. Cargo from the Redridge Mountains crosses Elwynn Forest, passes Jerod's Landing, then reaches the tower to supply the Brotherhood's wider rebellion."
   },
   {
    "q": "Why is SI:7 watching this place?",
@@ -46,7 +46,7 @@
     "amber kearnen tower",
     "why is stormwind watching"
    ],
-   "answer": "Stormwind intelligence, led by Master Mathias Shaw, keeps the site under close surveillance due to Mortwake's lethal poison-crafting and the tower's central role in Defias supply routes. Operatives like Amber Kearnen scout the perimeter to assess Brotherhood movements and seize valuable intelligence."
+   "answer": "Stormwind intelligence watches the tower because of Mortwake's poison-making and its central place in Defias supply routes. Master Mathias Shaw leads the service, and operatives like Amber Kearnen scout the perimeter to assess Brotherhood movements and seize valuable intelligence."
   },
   {
    "q": "What are the fumes lingering inside the tower?",
@@ -55,17 +55,17 @@
     "tower fumes",
     "klaven poison"
    ],
-   "answer": "The haze comes from Klaven Mortwake's experiments with troll poisons. Their effects on the tower's guards are described in the protected section."
+   "answer": "The haze comes from Klaven Mortwake's experiments with troll poisons. The protected section describes their effects on the tower's guards."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For rising rogues trained in Stormwind, Klaven's Tower is a rite of passage: SI:7 directs operatives here to infiltrate Mortwake's stronghold, test their lockpicking and stealth skills, and master the dangerous craft of virulent poisons."
+   "text": "As a rogue trained in Stormwind, you come to Klaven's Tower at SI:7's direction. You infiltrate Mortwake's stronghold, test your lockpicking and stealth, and learn the dangerous craft of virulent poisons."
   },
   {
    "target": "faction:Alliance",
-   "text": "Nestled near the borders of Elwynn, Westfall, and Redridge, this Defias stronghold demonstrates how deeply the brotherhood has compromised the kingdom's interior riverways and trade routes."
+   "text": "Near the borders of Elwynn, Westfall, and Redridge, this Defias stronghold shows how deeply the Brotherhood has compromised the kingdom's interior riverways and trade routes."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Mortwake's Tower"
- ]
+ ],
+ "style": 2
 }

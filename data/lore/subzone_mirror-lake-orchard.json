@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mirror Lake Orchard"
  },
- "summary": "Defias bandits now hold Mirror Lake Orchard, on Mirror Lake's southern shore in western Elwynn Forest. The quiet homestead near Thunder Falls has fallen to outlaws while Stormwind's guards are stretched thin.",
+ "summary": "Defias bandits now hold Mirror Lake Orchard on Mirror Lake’s southern shore in western Elwynn Forest. With Stormwind’s guards stretched thin, the grove near Thunder Falls lies exposed.",
  "sections": [
   {
    "title": "A Grove Under Seizure",
-   "body": "Mirror Lake Orchard once fed a peaceful farmstead with the clean waters of Mirror Lake. Now Defias Brotherhood bandits have seized the cottage and grounds near Thunder Falls. With Stormwind's military stretched thin and King Varian Wrynn missing, rural homes across Elwynn are easy targets for outlaws seeking shelter.",
+   "body": "Mirror Lake’s clean waters once sustained the farmstead. Now outlaws across Elwynn seek shelter in rural homes. The orchard’s cottage and grounds give the Defias Brotherhood a place to hide near Thunder Falls.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who lives here",
     "orchard enemies"
    ],
-   "answer": "Defias bandits occupy Mirror Lake Orchard and its cottage. The honest folk who once tended the trees have been driven away, and the secluded grounds now give the outlaws a base in western Elwynn."
+   "answer": "Defias bandits occupy Mirror Lake Orchard and its cottage. They drove away the honest folk who tended the trees, and now use the secluded grounds as a base in western Elwynn."
   },
   {
    "q": "Where is Mirror Lake Orchard located?",
@@ -32,7 +32,7 @@
     "where is the orchard",
     "find orchard elwynn"
    ],
-   "answer": "Mirror Lake Orchard lies on the southern shore of Mirror Lake in western Elwynn Forest, just east of Thunder Falls and north of the main road toward Westfall."
+   "answer": "Mirror Lake Orchard lies on Mirror Lake’s southern shore in western Elwynn Forest, just east of Thunder Falls and north of the main road toward Westfall."
   },
   {
    "q": "Why hasn't Stormwind reclaimed the orchard?",
@@ -40,7 +40,7 @@
     "why are defias here",
     "where are the guards"
    ],
-   "answer": "Stormwind's standing army is largely absent from rural Elwynn amid political deadlock and the mysterious disappearance of King Varian Wrynn. With local garrisons short-handed, distant farms and orchards are often left to face the Defias Brotherhood alone."
+   "answer": "Stormwind’s standing army is largely absent from rural Elwynn amid political deadlock and the mysterious disappearance of King Varian Wrynn. Local garrisons are short-handed, so distant farms and orchards are often left to face the Defias Brotherhood alone."
   },
   {
    "q": "What is the connection between the orchard and Thunder Falls?",
@@ -48,17 +48,17 @@
     "thunder falls connection",
     "orchard and waterfall"
    ],
-   "answer": "Mirror Lake drains into Thunder Falls, and the orchard sits just above the cascade. Its secluded place near the cliffs gives bandits a defensible position."
+   "answer": "Mirror Lake drains into Thunder Falls, and the orchard sits just above the cascade. Its secluded position near the cliffs gives bandits a defensible place."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers, the occupied orchard is another sign of the Defias Brotherhood's bold advance across the kingdom's heartland."
+   "text": "For Alliance travelers, the occupied orchard is another sign of the Defias Brotherhood’s bold advance across the kingdom’s heartland."
   },
   {
    "target": "class:Rogue",
-   "text": "As a Rogue, you can see the Defias strategy in the orchard: seize overlooked, defensible ground near water and cliffs to watch the roads and evade city patrols."
+   "text": "As a Rogue, you can see the Defias strategy at the orchard: seize overlooked, defensible ground near water and cliffs to watch the roads and evade city patrols."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
  "attribution": [
   "Mirror Lake Orchard"
  ],
- "style": 1
+ "style": 2
 }

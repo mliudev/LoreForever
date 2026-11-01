@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The Tome of Divinity trials teach aspiring paladins that wielding the Holy Light demands selflessness, charity, and enduring duty toward ordinary citizens before martial glory."
+   "text": "As a paladin, you learn that the Holy Light calls for selflessness, charity, and lasting duty to ordinary citizens before martial glory."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven paladins undertaking their trials in Dun Morogh report to Tiza Battleforge within the halls of Ironforge to account for their deeds in the wider world."
+   "text": "As a dwarf paladin, you report to Tiza Battleforge in Ironforge after your trials in Dun Morogh. You account for your deeds in the wider world."
   },
   {
    "target": "faction:Alliance",
-   "text": "Ties between Ironforge and the kingdom of Stormwind remain close, reflected in how paladin mentors and travelers pass between the great Alliance cities."
+   "text": "As an Alliance member, you see close ties between Ironforge and Stormwind in the mentors and travelers who pass between these great cities."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "tome of divinity trial",
     "what does this quest do"
    ],
-   "answer": "The Tome of Divinity represents the core sacred trials undergone by novice paladins. Through various tasks, initiates are tested on virtues such as compassion, charity, and self-sacrifice rather than merely battlefield strength.",
+   "answer": "The Tome of Divinity tests novice paladins in compassion, charity, and self-sacrifice. Its trials ask more of them than strength in battle.",
    "q": "What is the Tome of Divinity?"
   },
   {
@@ -41,7 +41,7 @@
     "where is tiza battleforge",
     "ironforge paladin trainer"
    ],
-   "answer": "Tiza Battleforge is a dwarven paladin mentor stationed in Ironforge. She oversees the spiritual and moral progress of initiates, evaluating whether their deeds reflect the true teachings of the Holy Light.",
+   "answer": "Tiza Battleforge is a paladin mentor in Ironforge. She guides initiates and judges whether their deeds follow the Holy Light.",
    "q": "Who is Tiza Battleforge?"
   },
   {
@@ -49,7 +49,7 @@
     "who is stephanie",
     "stephanie stormwind"
    ],
-   "answer": "Stephanie Turner is John Turner's wife in Stormwind, where they run an orphanage together. John hopes to return to her after gathering supplies in Ironforge.",
+   "answer": "Stephanie Turner is John Turner's wife in Stormwind. They run an orphanage together, and John hopes to return to her after gathering supplies in Ironforge.",
    "q": "Who is Stephanie?"
   },
   {
@@ -58,7 +58,7 @@
     "what does tiza want",
     "paladin charity test"
    ],
-   "answer": "Tiza tests whether the paladin has learned the true weight of charity and service to others. She listens to how the initiate helped a noble cause and aided ordinary citizens before granting her blessing.",
+   "answer": "Tiza Battleforge listens to how a returning initiate served others. She asks how they helped a noble cause and aided ordinary citizens before granting her blessing.",
    "q": "What does Tiza Battleforge ask of returning initiates?"
   },
   {
@@ -66,7 +66,7 @@
     "why speak to tiza in ironforge",
     "ironforge tome of divinity"
    ],
-   "answer": "Initiates are sent back to Ironforge to report their deeds to Tiza Battleforge, proving that they have acted with compassion and selflessness by helping John Turner in the city.",
+   "answer": "Initiates return to Ironforge to tell Tiza Battleforge what they did. By helping John Turner in the city, they show compassion and selflessness.",
    "q": "Why must initiates report to Ironforge?"
   },
   {
@@ -74,7 +74,7 @@
     "how does the light reward sacrifice",
     "paladin sacrifice"
    ],
-   "answer": "According to paladin teachings, placing the welfare of others above oneself is fundamental to walking the path of the Holy Light. Tiza reminds students that such selfless sacrifice will always be rewarded in time.",
+   "answer": "Paladin teachings place the welfare of others above one's own. Tiza teaches that selfless sacrifice will be rewarded in time.",
    "q": "Why is self-sacrifice central to this trial?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "The Tome of Divinity forms the bedrock of an initiate's induction into the ranks of paladins. Rather than demanding feats of combat prowess, the teachings emphasize humility, civic duty, and charity toward those in distress. A true servant of the Holy Light must first understand the suffering of everyday mortals and be prepared to offer aid without expecting personal gain or fanfare.",
+   "body": "Paladins begin their trials by learning humility, duty, and charity. Tiza Battleforge does not ask for feats of arms. A servant of the Holy Light must understand the troubles ordinary people face and offer help without seeking praise or gain.",
    "spoiler": 0,
    "title": "Lessons of the Holy Light"
   },
   {
-   "body": "Upon completing a task of assistance in Ironforge, an aspiring paladin returns to Tiza Battleforge. Standing before their mentor, the initiate accounts for how they spent their time away and whose burdens they helped shoulder. Satisfied that genuine charity and duty were upheld, Tiza commends the initiate, confirming that such selfless sacrifice is precisely what it means to follow the Light.",
+   "body": "After helping someone in Ironforge, an aspiring paladin returns to Tiza Battleforge. The initiate tells her how they spent their time away and whose burdens they helped bear. When she is satisfied that they acted with charity and duty, Tiza commends them. Such selfless service is what it means to follow the Light.",
    "spoiler": 0,
    "title": "Accounting Before Ironforge"
   }
  ],
- "summary": "The Tome of Divinity is a foundational trial for aspiring paladins learning the fundamental virtues of the Holy Light. After aiding someone in need, initiates return to Ironforge to report their selfless service to the mentor Tiza Battleforge.",
+ "summary": "In Ironforge, Tiza Battleforge teaches initiates what service to the Holy Light demands. They aid someone in need, then return to tell her how they served.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

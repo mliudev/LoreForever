@@ -8,11 +8,11 @@
   "wiki": "Beldin Steelgrill",
   "refs": 2
  },
- "summary": "At Steelgrill's Depot in Dun Morogh, Beldin Steelgrill keeps dwarven war machines running. He is its master technician, renowned in Khaz Modan for repairing siege engines and armored wagons. His work depends on a steady supply of specialized tools.",
+ "summary": "At Steelgrill's Depot in Dun Morogh, Beldin Steelgrill keeps dwarven war machines running. Across Khaz Modan, he is renowned as a master technician, repairing siege engines and armored wagons with a steady supply of specialized tools.",
  "sections": [
   {
    "title": "Master of the Treaded Beast",
-   "body": "Just down the road from Kharanos, Steelgrill's Depot is where dwarven steam tanks and siege engines are tested and serviced. Beldin Steelgrill runs the work as its chief technician, known across Khaz Modan for repairing and tuning armored war wagons. The work is hard on heavy wrenches, cutters, and precision instruments. Beldin needs them constantly, keeping local ironworkers busy supplying his bench.",
+   "body": "Just down the road from Kharanos, Steelgrill's Depot tests and services steam tanks and siege engines. The work strains heavy wrenches, cutters, and precision instruments against metal and rumbling boilers. Beldin needs replacements constantly, keeping local ironworkers busy at his bench.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what is steelgrill depot",
     "depot purpose"
    ],
-   "answer": "Just northeast of Kharanos, Steelgrill's Depot is a maintenance and testing yard for the Alliance's steam tanks and heavy mechanized machines."
+   "answer": "Just northeast of Kharanos, Steelgrill's Depot is a yard where the Alliance tests and maintains steam tanks and heavy mechanized machines."
   },
   {
    "q": "Why does Beldin go through so many tools?",
@@ -42,7 +42,7 @@
     "steelgrill tools",
     "tools for steelgrill"
    ],
-   "answer": "Beldin's work on heavy armor, complex gears, and steam boilers wears through specialized tools quickly. He places demanding orders with nearby smiths to keep his bench supplied."
+   "answer": "Beldin's work on heavy armor, complex gears, and steam boilers wears through specialized tools quickly. Nearby smiths fill his demanding orders and keep his bench supplied."
   }
  ],
  "angles": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Beldin Steelgrill"
  ],
- "style": 1
+ "style": 2
 }

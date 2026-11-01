@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Goldshire"
  },
- "summary": "Goldshire sits where Elwynn’s roads meet, linking Stormwind City with Westfall, Redridge, and the southern frontier. Rebuilt after the First War, the town now offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends it.",
+ "summary": "Goldshire stands where Elwynn’s roads meet, between Stormwind City, Westfall, Redridge, and the southern frontier. Rebuilt after the First War, it offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends the town.",
  "sections": [
   {
    "title": "A Crossroads Under Strain",
-   "body": "Goldshire stands where the king’s highways meet, the civic and commercial heart of rural Elwynn. Threats press closer as Stormwind’s forces stretch thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan relies on passing adventurers instead of regular troops to hold the surrounding borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to the town center.",
+   "body": "Goldshire holds the crossroads in rural Elwynn, where the king’s highways meet. Threats press closer as Stormwind’s forces thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan must rely on passing adventurers instead of regular troops to guard the borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to town.",
    "spoiler": 0
   },
   {
    "title": "Scars of the Great Wars",
-   "body": "Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until its rebuilding after the Second War.",
+   "body": "Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until it was rebuilt after the Second War.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "why is goldshire in danger",
     "enemies near goldshire"
    ],
-   "answer": "Riverpaw gnolls are raiding east toward Westbrook Garrison, while hostile murlocs infest Stone Cairn Lake and Crystal Lake. Local scouts warn that the skirmishes could reach Goldshire’s streets without intervention."
+   "answer": "Riverpaw gnolls raid east toward Westbrook Garrison, while hostile murlocs infest Stone Cairn Lake and Crystal Lake. Local scouts warn that the skirmishes could reach Goldshire’s streets without intervention."
   },
   {
    "q": "What happened to Goldshire during the First War?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human fresh from Northshire Abbey, you find in Goldshire your first real taste of the kingdom beyond the monastery walls, and a sobering view of Stormwind’s strained borders."
+   "text": "As a human fresh from Northshire Abbey, you find Goldshire offers your first real taste of the kingdom beyond the monastery walls and a sobering view of Stormwind’s strained borders."
   },
   {
    "target": "faction:Alliance",
@@ -91,5 +91,5 @@
  "attribution": [
   "Goldshire"
  ],
- "style": 1
+ "style": 2
 }

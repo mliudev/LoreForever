@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Archmage Modera asks you to clear rogue elementals from the City of Dalaran. The breach has disrupted the city\u2019s enchantments and defenses, and the Kirin Tor needs room to tend its wards.",
+ "summary": "Archmage Modera asks you to clear rogue elementals from the City of Dalaran. A breach has unsettled the city's enchantments and defenses, and the Kirin Tor needs room to tend its wards.",
  "sections": [
   {
    "title": "Arcane Fragments",
-   "body": "The breach has disturbed factotums and enchantments across Dalaran, including those tied to the city\u2019s defenses. Fragmented arcane energy has drawn Seeking Remnants, Saturated Remnants, and Mana Echoes, which seek to fill themselves with its free-flowing magic. Archmage Modera asks you to thin their numbers while the Kirin Tor tends the wards and other incidents.",
+   "body": "The breach has disturbed factotums and enchantments across Dalaran. Some of those enchantments protect the city's defenses. Fragmented arcane energy has drawn Seeking Remnants, Saturated Remnants, and Mana Echoes. They gather to fill themselves with its free-flowing magic. Archmage Modera asks you to thin their numbers while the Kirin Tor tends the wards and other incidents.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "dalaran elementals",
     "arcane elementals"
    ],
-   "answer": "Fragmented arcane energy from the breach has drawn rogue elementals seeking to saturate themselves in the free-flowing magic."
+   "answer": "Fragmented arcane energy from the breach has drawn rogue elementals seeking to fill themselves with its free-flowing magic."
   },
   {
    "q": "Who asks me to clear the elementals?",
@@ -36,7 +36,7 @@
     "Modera task",
     "archmage Modera"
    ],
-   "answer": "Archmage Modera, who is outside Dalaran, asks you to thin the elemental throng inside the city."
+   "answer": "Archmage Modera asks you to thin the elementals inside the city. She is outside Dalaran."
   },
   {
    "q": "What did the breach affect?",
@@ -45,7 +45,7 @@
     "what broke",
     "dalaran wards"
    ],
-   "answer": "The breach affected factotums and enchantments throughout Dalaran, including some connected to the city\u2019s defenses."
+   "answer": "The breach disturbed factotums and enchantments throughout Dalaran, including some tied to the city's defenses."
   },
   {
    "q": "Which elementals are involved?",
@@ -54,7 +54,7 @@
     "elemental types",
     "what am I clearing"
    ],
-   "answer": "The elemental throng includes Seeking Remnants, Saturated Remnants, and Mana Echoes."
+   "answer": "Seeking Remnants, Saturated Remnants, and Mana Echoes make up the elemental throng."
   }
  ],
  "angles": [],
@@ -73,7 +73,7 @@
  "related": [
   "subzone:dalaran"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Starving Arcane"
  ]

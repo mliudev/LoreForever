@@ -8,11 +8,11 @@
   "wiki": "Henze Faulk",
   "refs": 0
  },
- "summary": "Near Heroes' Vigil in Elwynn Forest, Henze Faulk lies gravely wounded. He shielded his companion Gazin Tenorm from the Defias Brotherhood, and now awaits a paladin's aid.",
+ "summary": "Near Heroes' Vigil in Elwynn Forest, Henze Faulk lies gravely wounded. He shielded Gazin Tenorm from the Defias Brotherhood and now waits for a paladin's aid.",
  "sections": [
   {
    "title": "A Sacrifice at Heroes' Vigil",
-   "body": "Henze Faulk lies near the stone ring east of Stormwind, at Heroes' Vigil. Defias marauders ambushed him and his friend Gazin Tenorm there. Henze took the attack so Gazin could survive, and fell to the bandits' blades. Gazin reached the Cathedral of Light to seek help. Henze remains between life and death, awaiting the aid of a paladin carrying a Symbol of Life.",
+   "body": "At Heroes' Vigil, east of Stormwind, Henze Faulk lies near the stone ring. Defias marauders ambushed him and his friend Gazin Tenorm there. Henze took the attack so Gazin could survive, then fell to the bandits' blades. Gazin reached the Cathedral of Light to seek help. Henze remains between life and death, awaiting a paladin carrying a Symbol of Life.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "dwarf at heroes vigil",
     "dying dwarf elwynn"
    ],
-   "answer": "Henze Faulk is an Ironforge dwarf lying gravely wounded near the stone circle at Heroes' Vigil in Elwynn Forest. Defias bandits struck him down while he protected his friend Gazin Tenorm."
+   "answer": "Henze Faulk, an Ironforge dwarf, lies gravely wounded near the stone circle at Heroes' Vigil in Elwynn Forest. Defias bandits struck him down while he protected his friend Gazin Tenorm."
   },
   {
    "q": "Why is Henze Faulk lying on the ground?",
@@ -33,7 +33,7 @@
     "is henze dead",
     "henze faulk dead"
    ],
-   "answer": "Henze Faulk lies wounded because the Defias Brotherhood ambushed him and Gazin Tenorm as they traveled. Henze took the brunt of the attack so Gazin could escape, and now awaits the aid of an initiate of the Holy Light."
+   "answer": "The Defias Brotherhood ambushed Henze Faulk and Gazin Tenorm as they traveled. Henze took the brunt of the attack so Gazin could escape, and now waits for an initiate of the Holy Light to help him."
   },
   {
    "q": "What is Henze's connection to paladins?",
@@ -41,7 +41,7 @@
     "henze paladin quest",
     "tome of divinity dwarf"
    ],
-   "answer": "Henze Faulk is the subject of a rite of passage for young paladins undertaking the trials of the Tome of Divinity. Paladin initiates carry a Symbol of Life to Elwynn and use it to restore Henze, showing their mastery of the Light's blessing of redemption."
+   "answer": "Henze Faulk is the subject of a rite of passage for young paladins undertaking the trials of the Tome of Divinity. Paladin initiates carry a Symbol of Life to Elwynn and use it to restore Henze, proving their mastery of the Light's blessing of redemption."
   },
   {
    "q": "Who is Gazin Tenorm?",
@@ -55,7 +55,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you face a test of mercy when you bring Henze Faulk back from the brink with a Symbol of Life. The Light can do more than aid you in battle; it can defy death."
+   "text": "As a paladin, you face a test of mercy when you bring Henze Faulk back from the brink with a Symbol of Life. The Light can aid you in battle and defy death."
   },
   {
    "target": "race:Dwarf",
@@ -83,5 +83,5 @@
  "attribution": [
   "Henze Faulk"
  ],
- "style": 1
+ "style": 2
 }

@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "10"
  },
- "summary": "Jemma Quikswitch needs her lost punch cards found in the snow outside Gnomeregan. The exiled gnome in Ironforge copied her family's archives onto cards during the flight from the city. Now several are missing, along with records of submarine designs and family recipes.",
+ "summary": "Outside Gnomeregan, Jemma Quikswitch searches the snow for lost punch cards. The exiled gnome lives in Ironforge, and the cards hold her family's archives, from submarine designs to family recipes. Without them, the records she still has remain unreadable.",
  "sections": [
   {
    "title": "A Scramble in the Snow",
-   "body": "When troggs invaded Gnomeregan and radiation struck, thousands of gnomes fled with what they could carry. Jemma Quikswitch had copied generations of family knowledge onto punch cards. A damaged satchel spilled several cards into the snow around the fallen city. Without them, the surviving records read as gibberish, and her family's knowledge is at risk of being lost.",
+   "body": "When troggs invaded Gnomeregan and radiation struck, thousands of gnomes fled with what they could carry. A damaged satchel spilled several of Jemma's cards into the snow around the fallen city. Without them, her surviving records read as gibberish, and her family's knowledge risks being lost.",
    "spoiler": 0
   },
   {
    "title": "Equations and Chili",
-   "body": "The Quikswitch archives range from arcanotechnical field equations to submarine hull blueprints from the Second War. They also hold Grandma Quikswitch's secret chili recipe. For the refugees in Ironforge, household comforts matter as much as engineering marvels.",
+   "body": "The Quikswitch archives hold arcanotechnical field equations and submarine hull blueprints from the Second War. They also preserve Grandma Quikswitch's secret chili recipe. For refugees in Ironforge, the comforts of home matter as much as engineering marvels.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who gives data hoarders",
     "quest giver data hoarders"
    ],
-   "answer": "Jemma Quikswitch is a gnomish refugee who escaped the fall of Gnomeregan and now lives in Ironforge."
+   "answer": "Jemma Quikswitch is a gnomish refugee who escaped Gnomeregan's fall and now lives in Ironforge."
   },
   {
    "q": "What data is stored on the lost cards?",
@@ -51,7 +51,7 @@
     "data card location",
     "where did she drop them"
    ],
-   "answer": "The cards slipped from Jemma's pack as she fled Gnomeregan and lie in the snow just outside the city's gates in Dun Morogh."
+   "answer": "The cards slipped from Jemma's pack as she fled Gnomeregan. They lie in the snow just outside the city's gates in Dun Morogh."
   },
   {
    "q": "Why can't Jemma read the surviving cards without the missing ones?",
@@ -86,7 +86,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see the value in the Second War submarine blueprints and arcanotechnical equations on these cards."
+   "text": "As an engineer, you can see the value of the Second War submarine blueprints and arcanotechnical equations on these cards."
   },
   {
    "target": "profession:Cooking",
@@ -116,5 +116,5 @@
  "attribution": [
   "In-game quest text: Data Hoarders"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The lookout's note highlights the spot as an ideal launch point for a parachute glider, catching the attention of engineers who appreciate aerial recon and mechanical flight."
+   "text": "The lookout's note calls the spot an ideal place to launch a parachute glider. Engineers may appreciate the chance for aerial reconnaissance and mechanical flight."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "eagles fist quest",
     "what is this quest"
    ],
-   "answer": "Eagle's Fist is an encounter centered around a hidden toolbox containing a carefully folded letter at a scenic, misty vantage point overlooking an old barricade. It marks the campsite of a mysterious scout who recently fled.",
+   "answer": "Eagle's Fist is a lonely lookout over a weathered barricade, where a toolbox holds a folded letter. Its writer has left in haste.",
    "q": "What is Eagle's Fist?"
   },
   {
@@ -33,7 +33,7 @@
     "who left the letter",
     "toolbox letter author"
    ],
-   "answer": "The author is an unidentified scout or sentry devoted to the Old Kingdoms and an entity or allegiance known as the Eagle and Fist. They maintain a lonely vigil at the dilapidated barricade.",
+   "answer": "An unidentified scout or sentry wrote the letter. The writer serves the Old Kingdoms and the Eagle and Fist, keeping watch at a lonely barricade.",
    "q": "Who wrote the letter found in the toolbox?"
   },
   {
@@ -42,7 +42,7 @@
     "eagle and fist meaning",
     "who is eagle and fist"
    ],
-   "answer": "The letter refers to loyalty to 'the Eagle and Fist,' which requires distance to serve best. While the exact organization remains cryptic, it is tied to defending the remnants of the Old Kingdoms.",
+   "answer": "The Eagle and Fist is an allegiance named in the letter. It calls for keeping a measured distance in service, and is tied to guarding what remains of the Old Kingdoms.",
    "q": "What does 'the Eagle and Fist' refer to?"
   },
   {
@@ -51,7 +51,7 @@
     "why did they leave",
     "who fed the campfire"
    ],
-   "answer": "The scout made a quick departure, leaving behind a campfire newly fed with fresh wood. Their whereabouts remain unknown, though the site was praised as a prime spot to deploy a parachute glider.",
+   "answer": "The scout left in haste, though the campfire had only recently been fed with fresh wood. The writer praised the overlook as a place to launch a parachute glider.",
    "q": "Why is the campsite abandoned?"
   },
   {
@@ -60,7 +60,7 @@
     "which old kingdoms",
     "barricade lore"
    ],
-   "answer": "The author laments that the barricade has seen better days, comparing its worn condition to the fallen Old Kingdoms of humanity it once defended, yet swears never to abandon guarding it.",
+   "answer": "The letter's writer says the barricade is worn, like the fallen Old Kingdoms of humanity it once defended. Still, the watcher vows never to abandon it.",
    "q": "What barricade is being defended?"
   },
   {
@@ -69,7 +69,7 @@
     "why is there water spray",
     "eagles fist location"
    ],
-   "answer": "The perch features incredible panoramic views and air dampened by water spray, suggesting a high cliff or overlook near a massive waterfall or cascading river.",
+   "answer": "The perch offers an incredible view, and water spray dampens the air. It may be a high cliff or overlook near a great waterfall or cascading river.",
    "q": "What kind of lookout post is this?"
   }
  ],
@@ -86,23 +86,24 @@
  "related": [],
  "sections": [
   {
-   "body": "Tucked away inside an unassuming toolbox at a scenic vantage point lies a carefully folded letter. The author reflects on the commanding position of the high overlook, remarking on how the location allows one to call the shots or launch a parachute glider across the landscape. Dampened by misty water spray, the lonely post offers an incredible view across historic lands.",
+   "body": "A folded letter lies inside a toolbox at a high overlook. From here, its writer says, one can call the shots or launch a parachute glider across the land. Misty spray dampens this lonely post, but the view reaches across historic lands.",
    "spoiler": 0,
    "title": "A Hidden Perch"
   },
   {
-   "body": "The writer of the note professes a deep, enduring loyalty to 'the Eagle and Fist,' noting that proper service to this cause demands keeping a measured distance. Though acknowledging that the local barricade has fallen into disrepair\u2014much like the Old Kingdoms it once shielded from peril\u2014the steadfast watcher vows never to truly abandon the post.",
+   "body": "The letter's writer pledges lasting loyalty to the Eagle and Fist. To serve that cause well, the writer says, one must keep a measured distance. The nearby barricade has fallen into disrepair, like the Old Kingdoms it once shielded from danger. Still, the watcher vows never to abandon the post.",
    "spoiler": 0,
    "title": "Loyalty to the Old Kingdoms"
   },
   {
-   "body": "Whoever manned this overlook left in a hurry. Visitors discovering the post will find a campfire that was only recently fed with fresh wood, yet the sentry has vanished without a trace, leaving behind only the tools, the burning embers, and the cryptic letter.",
+   "body": "The sentry left the overlook in a hurry. The campfire was fed with fresh wood only recently, yet the watcher is gone. Tools, burning embers and a cryptic letter remain behind.",
    "spoiler": 1,
    "title": "A Hasty Departure"
   }
  ],
- "summary": "Eagle's Fist centers on a cryptic letter discovered inside a toolbox at a misty, high-altitude vantage point. The note reveals a solitary sentry watching over a weathered barricade out of allegiance to the Old Kingdoms and the Eagle and Fist. Though the campfire was recently stoked, the watcher departed in haste.",
+ "summary": "At a misty overlook, Eagle's Fist keeps a lonely watch over a weathered barricade. A letter speaks of loyalty to the Old Kingdoms and the Eagle and Fist, though its writer has left in haste.",
  "attribution": [
   "In-game quest text: Eagle's Fist"
- ]
+ ],
+ "style": 2
 }

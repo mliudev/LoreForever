@@ -21,21 +21,21 @@
    "The Only Cure is More Green Glow"
   ]
  },
- "summary": "In Kharanos, Ozzie Togglevolt sends adventurers toward Gnomeregan for radioactive fallout. He hopes to make a cure for the leper gnomes, or perhaps a potent drink.",
+ "summary": "In Kharanos, Ozzie Togglevolt sends adventurers toward Gnomeregan to gather radioactive fallout. He hopes to make a cure for the leper gnomes, though the brew may become potent drink.",
  "sections": [
   {
    "title": "A Cure or a Cocktail",
-   "body": "Since Gnomeregan fell, refugees such as Gnoarn have focused on killing the trogg invaders and reversing the radioactive sickness that changed their kin. Ozzie Togglevolt and his partner Razzle Sprysprocket take another path from their workshop in Kharanos. Ozzie says they are trying to make a cure for the leper gnomes, though their formula might instead become very strong rum.",
+   "body": "Since Gnomeregan fell, refugees such as Gnoarn have sought to kill the trogg invaders and reverse the sickness that changed their kin. Ozzie Togglevolt and his partner Razzle Sprysprocket have taken another path from their workshop in Kharanos. Ozzie says they are trying to make a cure for the leper gnomes. Their formula might instead become very strong rum.",
    "spoiler": 0
   },
   {
    "title": "Harvesting the Glow",
-   "body": "Ozzie and Razzle need toxic residue from the heart of the disaster. Ozzie gives adventurers a leaden collection phial and sends them toward Gnomeregan's breached tunnels. Irradiated Invaders and Irradiated Pillagers roam there, troggs saturated with leaking waste. Their green glow is what the phial needs.",
+   "body": "Ozzie and Razzle need toxic residue from the heart of the disaster. Ozzie gives adventurers a leaden collection phial and sends them toward Gnomeregan's breached tunnels. Irradiated Invaders and Irradiated Pillagers roam there, troggs saturated with leaking waste. The phial needs their green glow.",
    "spoiler": 0
   },
   {
    "title": "Hair and High Hopes",
-   "body": "With a full phial of green glow, Ozzie prepares a live trial. He hopes the brew will restore the health and sanity of a captured leper gnome. Ozzie also hopes the fallout mixture might cure his baldness.",
+   "body": "With a full phial of green glow, Ozzie prepares a live trial. He hopes the brew will restore the health and sanity of a captured leper gnome. He also hopes the fallout mixture might cure his baldness.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "gnogaine quest giver",
     "ozzie togglevolt quest"
    ],
-   "answer": "Ozzie Togglevolt, a gnome tinkerer in Kharanos, offers Gnogaine."
+   "answer": "Ozzie Togglevolt, a gnome tinkerer in Kharanos, offers this work."
   },
   {
    "q": "What do I need to collect for this quest?",
@@ -56,7 +56,7 @@
     "what do i collect gnogaine",
     "full leaden collection phial"
    ],
-   "answer": "Use an Empty Leaden Collection Phial on glowing Irradiated Invaders or Irradiated Pillagers to collect radioactive fallout until the phial is full."
+   "answer": "Use an Empty Leaden Collection Phial on glowing Irradiated Invaders or Irradiated Pillagers to gather radioactive fallout until the phial is full."
   },
   {
    "q": "Where can I find the irradiated troggs?",
@@ -73,7 +73,7 @@
     "is the day after required",
     "gnogaine prerequisite"
    ],
-   "answer": "No. Ozzie offers Gnogaine independently of The Day After, though that story is tied to the situation in Kharanos and leads up to it."
+   "answer": "No. Ozzie offers this independently of The Day After, though that story is tied to the situation in Kharanos and leads up to it."
   },
   {
    "q": "What is Ozzie trying to accomplish with the radioactive fallout?",
@@ -131,5 +131,5 @@
  "attribution": [
   "Gnogaine"
  ],
- "style": 1
+ "style": 2
 }

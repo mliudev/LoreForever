@@ -17,16 +17,16 @@
   "wiki": "Back to Billy",
   "chain": []
  },
- "summary": "You carry Bernice Stonefield's freshly baked pie across the road to Billy Maclure, who has information about her missing necklace. The delivery continues the feud between the Stonefield and Maclure families in central Elwynn Forest.",
+ "summary": "Bernice Stonefield sends you across the road with a pork belly pie for Billy Maclure. He has information about her missing necklace, and the delivery carries on the feud between their families in central Elwynn Forest.",
  "sections": [
   {
    "title": "A Bitter Pie",
-   "body": "The old feud between the Stonefields and Maclures leaves little room for kindness. Auntie Bernice Stonefield baked a pork belly pie because Billy Maclure would not share what he knew about her family heirloom without it. She hands you the pie with plain irritation and hopes Billy chokes on every bite.",
+   "body": "The feud between the Stonefields and Maclures leaves little room for kindness. Auntie Bernice Stonefield baked a pork belly pie because Billy Maclure would not share what he knew about her family heirloom without one. She hands you the pie with plain irritation. Bernice hopes Billy chokes on every bite.",
    "spoiler": 0
   },
   {
    "title": "A Boy's Bribe",
-   "body": "At the Maclure Vineyards, across the road, Billy Maclure waits hungry and unable to remember what happened to the necklace. The rivalry between the two homesteads reaches even their children, who barter gossip and stolen trinkets for farm treats. With the pie delivered, Billy's memory returns, and the search for the necklace's true location can begin.",
+   "body": "At the Maclure Vineyards, across the road, Billy Maclure waits hungry and cannot remember what happened to the necklace. The rivalry between the two homesteads reaches their children too. They barter gossip and stolen trinkets for farm treats. With the pie delivered, Billy remembers, and the search for the necklace's true location can begin.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what does billy want",
     "back to billy goal"
    ],
-   "answer": "Billy Maclure says he knows where Auntie Bernice Stonefield's lost necklace is, but he will not talk until you bring him a home-cooked pork belly pie. Delivering the pie meets his demand so he will reveal where the heirloom went."
+   "answer": "Billy Maclure says he knows where Auntie Bernice Stonefield's lost necklace is, but he will not talk until you bring him a home-cooked pork belly pie. The delivery meets his demand, so he will reveal where the heirloom went."
   },
   {
    "q": "Why is Auntie Bernice so upset with Billy?",
@@ -56,7 +56,7 @@
     "who took the necklace",
     "goldtooth connection"
    ],
-   "answer": "After eating the pie, Billy reveals that he did not keep the necklace. It fell into the hands of Goldtooth, a notorious kobold in the Fargodeep Mine."
+   "answer": "After eating the pie, Billy reveals that he did not keep the necklace. Goldtooth, a notorious kobold in the Fargodeep Mine, got it."
   },
   {
    "q": "Where is Billy Maclure located?",
@@ -65,7 +65,7 @@
     "where is billy",
     "find billy"
    ],
-   "answer": "Billy Maclure is at the Maclure Vineyards, just south of the road in central Elwynn Forest, opposite the Stonefield Farm."
+   "answer": "Billy Maclure is at the Maclure Vineyards, just south of the road in central Elwynn Forest and opposite the Stonefield Farm."
   },
   {
    "q": "Who baked the Pork Belly Pie?",
@@ -81,13 +81,13 @@
     "does the feud end",
     "stonefield maclure peace"
    ],
-   "answer": "No. Delivering the pie satisfies Billy's personal bribe, while the deep animosity between the adult Stonefields and Maclures remains."
+   "answer": "No. The pie satisfies Billy's personal bribe, while the deep animosity between the adult Stonefields and Maclures remains."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you find that even peaceful Elwynn Forest has disputes between human farmsteads. Helping local folk often means dealing with these quarrels."
+   "text": "As an Alliance traveler, you find disputes between human farmsteads even in peaceful Elwynn Forest. Helping local folk often means dealing with these quarrels."
   },
   {
    "target": "profession:Cooking",
@@ -114,5 +114,5 @@
  "attribution": [
   "Back to Billy"
  ],
- "style": 1
+ "style": 2
 }

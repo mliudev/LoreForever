@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stendel's Pond"
  },
- "summary": "Gnolls prowl Stendel's Pond southwest of Sentinel Hill, where anglers still seek fresh fish.",
+ "summary": "At Stendel's Pond, anglers still come for fresh fish despite the gnolls along its banks.",
  "sections": [
   {
    "title": "A Dangerous Watering Hole",
-   "body": "Southwest of Sentinel Hill, Stendel's Pond draws anglers despite the danger along its muddy banks. Gnolls roam nearby, and scattered skeletons with two lone graves show that the shore is perilous. The water may be foul, or the beasts may be to blame, but the cause is unknown. Schools of sagefish still bring anglers to the pond.",
+   "body": "Southwest of Sentinel Hill, Stendel's Pond still draws anglers. Gnolls roam the muddy banks, where scattered skeletons and two lone graves mark a perilous shore. No one knows whether foul water or the beasts caused the deaths. Yet schools of sagefish still bring anglers to the pond.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "monsters at stendel's pond",
     "stendel pond gnolls"
    ],
-   "answer": "Territorial Riverpaw gnolls prowl the pond's muddy shore and attack wanderers who approach the water."
+   "answer": "Riverpaw gnolls prowl the pond's muddy shore and attack wanderers who approach the water."
   },
   {
    "q": "Why are there skeletons and graves by the shore?",
@@ -47,7 +47,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Cooks value the sagefish from these murky waters for their fish dishes."
+   "text": "Cooks value sagefish from these murky waters for their fish dishes."
   },
   {
    "target": "faction:Alliance",
@@ -71,5 +71,5 @@
  "attribution": [
   "Stendel's Pond"
  ],
- "style": 1
+ "style": 2
 }

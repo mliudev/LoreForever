@@ -22,16 +22,16 @@
    "Bartleby's Mug (quest)"
   ]
  },
- "summary": "In the Pig and Whistle Tavern, Bartleby the Drunk faces a test set by Harry Burlguard. An aspiring Alliance warrior must take Bartleby's prized mug before Harry will teach deeper combat skills.",
+ "summary": "In the Pig and Whistle Tavern, Bartleby the Drunk faces Harry Burlguard’s test. An aspiring Alliance warrior must take Bartleby’s prized mug before Harry teaches deeper combat skills.",
  "sections": [
   {
    "title": "A Tavernhouse Test",
-   "body": "Harry Burlguard asks for proof of a novice's backbone before teaching deeper combat skills in the Pig and Whistle Tavern. Across the room, Bartleby nurses his drinks at the far end of the counter. Harry wants you to take the man's mug, knowing Bartleby would rather fight than surrender his ale. The challenge puts a warrior's resolve to the test.",
+   "body": "Harry Burlguard asks you to prove your backbone before he teaches deeper combat skills in the Pig and Whistle Tavern. Across the room, Bartleby nurses his drinks at the far end of the counter. Harry wants you to take the man’s mug, knowing Bartleby would rather fight than surrender his ale. The challenge tests your resolve.",
    "spoiler": 0
   },
   {
    "title": "Old Town Etiquette",
-   "body": "Soldiers, laborers, and rough locals fill the Pig and Whistle, where polished manners count for little. Bartleby mocks newcomers as too prissy for a tavern scuffle instead of answering politely. The exchange leads to a brawl on the floorboards, where a warrior's training in Stormwind begins with a test of basic barroom fighting.",
+   "body": "Soldiers, laborers, and rough locals fill the Pig and Whistle, where polished manners count for little. Bartleby mocks newcomers as too prissy for a tavern scuffle instead of answering politely. The exchange leads to a brawl on the floorboards. In Stormwind, a warrior’s training begins with a test of basic barroom fighting.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "bartleby npc",
     "bartleby the drunk"
    ],
-   "answer": "Bartleby is an obstinate, heavy-drinking patron at the bar in the Pig and Whistle Tavern in Stormwind's Old Town."
+   "answer": "Bartleby is an obstinate, heavy-drinking patron at the bar in the Pig and Whistle Tavern, in Stormwind’s Old Town."
   },
   {
    "q": "Why does Harry Burlguard send me to Bartleby?",
@@ -52,7 +52,7 @@
     "harry burlguard test",
     "why get the mug"
    ],
-   "answer": "Harry Burlguard wants to see what moves you have before teaching advanced warrior techniques. Taking Bartleby's mug guarantees a fight and tests whether you can take a punch and hold your ground."
+   "answer": "Harry Burlguard wants to see what moves you have before teaching advanced warrior techniques. Taking Bartleby’s mug guarantees a fight and tests whether you can take a punch and hold your ground."
   },
   {
    "q": "Where does this encounter take place?",
@@ -84,17 +84,17 @@
     "can anyone do bartleby",
     "warrior only"
    ],
-   "answer": "No. This class training is for Alliance warriors who have reached level ten."
+   "answer": "No. This class training is for Alliance warriors who have reached the tenth level."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you face a practical test from Stormwind's trainers before they teach defensive tactics and stance mastery."
+   "text": "As a warrior, you face a practical test from Stormwind’s trainers before they teach defensive tactics and stance mastery."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you see the rough, unglamorous side of Stormwind's Old Town, far from the royal court of the Keep."
+   "text": "As an Alliance traveler, you see the rough, unglamorous side of Stormwind’s Old Town, far from the royal court of the Keep."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Bartleby the Drunk"
  ],
- "style": 1
+ "style": 2
 }

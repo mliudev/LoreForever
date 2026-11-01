@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Volatile Delivery",
-   "body": "Sprite Jumpsprocket has finished a bundle of Extra-Destructive Explosives for Alba Fairmoon. Carrying a live charge through wartime Westfall adds danger to a road already threatened by Defias bandits and feral beasts.",
+   "body": "Sprite Jumpsprocket has finished a bundle of Extra-Destructive Explosives for Alba Fairmoon. In wartime Westfall, the road is already threatened by Defias bandits and feral beasts. Carrying a live charge makes the journey more dangerous.",
    "spoiler": 0
   },
   {
    "title": "Handling with Care",
-   "body": "Sprite Jumpsprocket warns you to mind the detonator. The cargo is meant to destroy the hidden industrial operation in the Deadmines, which is poisoning Westfall's farmland. Alba Fairmoon needs the explosives intact before she can use them.",
+   "body": "Sprite Jumpsprocket warns you to guard the detonator. The explosives are meant to destroy the hidden industrial operation in the Deadmines, which is poisoning Westfall's farmland. Alba Fairmoon needs the explosives intact before she can use them.",
    "spoiler": 0
   }
  ],
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you know the risks of gnomish ordnance: high yield and a hair-trigger detonator."
+   "text": "As an engineer, you know gnomish ordnance brings high yield and a hair-trigger detonator."
   },
   {
    "target": "race:Gnome",
@@ -114,5 +114,5 @@
  "attribution": [
   "Explosive Consultation (2)"
  ],
- "style": 1
+ "style": 2
 }

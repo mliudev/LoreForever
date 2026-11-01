@@ -8,16 +8,16 @@
   "wiki": "Bartleby",
   "refs": 3
  },
- "summary": "Bartleby drinks and picks fights at the Pig and Whistle Tavern in Stormwind's Old Town. His stubborn hold on his ale makes him a test for aspiring warriors who must face him in a tavern brawl.",
+ "summary": "At the Pig and Whistle Tavern, Bartleby drinks and picks fights in Stormwind's Old Town. His stubborn grip on his ale makes him a test for aspiring warriors, who must face him in a tavern brawl.",
  "sections": [
   {
    "title": "A Fixture at the Pig and Whistle",
-   "body": "Bartleby spends his days at the Pig and Whistle Tavern in Stormwind's Old Town. The tavern draws a rougher crowd than the taprooms of Cathedral Square. He clings to his favorite mug, drinks cheap ale, nurses grievances, and picks fights with anyone who disturbs him.",
+   "body": "Bartleby spends his days at the Pig and Whistle Tavern in Stormwind's Old Town. Its crowd runs rougher than the taprooms of Cathedral Square. He clings to his favorite mug, drinks cheap ale, nurses grievances, and picks fights with anyone who disturbs him.",
    "spoiler": 0
   },
   {
    "title": "A Warrior's Rite of Passage",
-   "body": "Stormwind's warrior trainers see a practical test in Bartleby. Harry Burlguard sends fledgling fighters to find him and take his mug. They must trade bare-knuckle blows with the intoxicated brawler, proving they have the grit to face an unruly opponent at close quarters.",
+   "body": "Stormwind's warrior trainers make a practical test of Bartleby. Harry Burlguard sends fledgling fighters to find him and take his mug. They trade bare-knuckle blows with the intoxicated brawler, proving they have the grit to face an unruly opponent at close quarters.",
    "spoiler": 0
   }
  ],
@@ -80,7 +80,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a young warrior in Stormwind, you remember your duel with Bartleby. Taking the stubborn drunk's mug makes for a memorable test of hand-to-hand combat."
+   "text": "As a young warrior in Stormwind, you remember your duel with Bartleby. Taking the stubborn drunk's mug makes a memorable test of hand-to-hand combat."
   },
   {
    "target": "race:Human",
@@ -110,5 +110,5 @@
  "attribution": [
   "Bartleby"
  ],
- "style": 1
+ "style": 2
 }

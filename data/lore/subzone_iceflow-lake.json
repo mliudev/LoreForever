@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Iceflow Lake"
  },
- "summary": "At Iceflow Lake, dwarves keep fishing holes open through the ice. The lake lies in western Dun Morogh, directly north of Brewnall Village. Snow-covered islands rise from its center, where winter wolves and their alpha, Timber, prowl.",
+ "summary": "In western Dun Morogh, dwarves keep fishing holes open at Iceflow Lake, just north of Brewnall Village. Snow-covered islands rise from its center, where winter wolves prowl under their alpha, Timber.",
  "sections": [
   {
    "title": "Frozen Depths and Island Predators",
-   "body": "Iceflow Lake lies in western Dun Morogh, just north of Brewnall Village. Bitter cold keeps thick sheets of ice creeping across its surface, so local residents such as Paxton Ganter clear holes for fishing and drinking water. The shore offers sustenance, but the islands in the lake’s center are dangerous ground. A fierce pack of wild wolves prowls those icy mounds, led by Timber, a savage gray worg.",
+   "body": "Paxton Ganter and other local dwarves clear thick ice from the lake for drinking water and fish. Bitter cold sweeps the shore, yet it still sustains them.\n\nThe islands are dangerous ground. A fierce pack of wild wolves prowls the icy mounds, led by Timber, a savage gray worg.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why is the ice broken",
     "brewnall fishing hole"
    ],
-   "answer": "Dwarves from nearby Brewnall Village keep a section of Iceflow Lake clear because the cold freezes it solid. The open water gives them drinking water and a place to fish."
+   "answer": "Dwarves from nearby Brewnall Village keep part of Iceflow Lake clear because the cold freezes it solid. The open water gives them drinking water and a place to fish."
   },
   {
    "q": "Who is Paxton Ganter?",
@@ -41,17 +41,17 @@
     "wolves in the lake",
     "island wolves dun morogh"
    ],
-   "answer": "Hungry winter wolves prowl the central islands, led by Timber, a ferocious worg. Travelers crossing the ice may be ambushed by the pack."
+   "answer": "Hungry winter wolves prowl the central islands under Timber, a ferocious worg. Travelers crossing the ice may be ambushed by the pack."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For you, Iceflow Lake is a vital source of fresh water and a steady hazard. Predatory wolves may cross the ice, so stay alert."
+   "text": "As a dwarf, you rely on Iceflow Lake for fresh water, though danger crosses its ice. Predatory wolves may roam there, so stay alert."
   },
   {
    "target": "class:Hunter",
-   "text": "You can track hardy winter beasts along the snowy shores and central islands, including Timber, the fearsome worg alpha."
+   "text": "As a hunter, you can track hardy winter beasts along the snowy shores and central islands, including Timber, the fearsome worg alpha."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Iceflow Lake"
  ],
- "style": 1
+ "style": 2
 }

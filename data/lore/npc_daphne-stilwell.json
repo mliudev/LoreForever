@@ -8,21 +8,21 @@
   "wiki": "Daphne Stilwell",
   "refs": 3
  },
- "summary": "On Westfall's cliffs, Daphne Stilwell keeps an orchard above the Longshore. She and her husband Jordan fled the north and now aid the Church of the Holy Light while guarding their home from nearby outlaws.",
+ "summary": "On Westfall’s cliffs, Daphne Stilwell keeps watch over her orchard and home. She and her husband Jordan fled the north and now aid the Church of the Holy Light while guarding their land from nearby outlaws.",
  "sections": [
   {
    "title": "A Life on the Cliffs",
-   "body": "West of Moonbrook and the Deadmines exit, Daphne Stilwell tends a homestead and apple orchard on the bluffs. From the Longshore below or gryphon routes south to Stranglethorn Vale above, the farm looks quiet. But life there is not safe. Bandits and scavengers roam nearby, while Daphne works among the trees and watches over her isolated land.",
+   "body": "West of Moonbrook and the Deadmines exit, Daphne Stilwell tends a homestead and apple orchard on the bluffs. The Longshore lies below, while gryphon routes to Stranglethorn Vale pass high above. The farm may look quiet from either way, but bandits and scavengers roam nearby. Daphne works among the trees and keeps watch over her isolated land.",
    "spoiler": 0
   },
   {
    "title": "Refugees of the North",
-   "body": "Before coming to Westfall, Daphne and her husband Jordan lived in Lordaeron near Pyrewood Village, where they worked in what is now Shadowfang Keep. Darkness and disaster drove them south with thousands of other human refugees. Near Stormwind, Jordan's renowned skill as a craftsman and Daphne's steady presence brought them close to the Church of the Holy Light. They support the church and provide holy arms to paladins of the Silver Hand.",
+   "body": "Before they came to Westfall, Daphne and her husband Jordan lived near Pyrewood Village in Lordaeron. They worked in what is now Shadowfang Keep. Darkness and disaster drove them south with thousands of other human refugees. Near Stormwind, Jordan’s renowned skill as a craftsman and Daphne’s steady presence brought them close to the Church of the Holy Light. They support the church and provide holy arms to paladins of the Silver Hand.",
    "spoiler": 0
   },
   {
    "title": "Defending the Farm",
-   "body": "Daphne Stilwell faces danger from the Defias Brotherhood near the Deadmines. Jordan travels or works on holy weapons outside the capital, often leaving her to tend their coastal home alone. When brigands raided the farm for retribution or plunder, Daphne took up arms beside aspiring paladins sent by the Cathedral. She proved fierce and capable in battle.",
+   "body": "Daphne Stilwell faces danger from the Defias Brotherhood near the Deadmines. Jordan travels or works on holy weapons outside the capital, often leaving her alone to tend their coastal home. When brigands raided the farm for retribution or plunder, Daphne took up arms beside aspiring paladins sent by the Cathedral. She proved fierce and capable in battle.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "daphne stilwell info",
     "stilwell wife"
    ],
-   "answer": "Daphne Stilwell tends an isolated farmhouse above Westfall's Longshore. She is married to the famed blacksmith Jordan Stilwell, and they fled the devastated northern kingdoms together."
+   "answer": "Daphne Stilwell tends an isolated farmhouse above Westfall’s Longshore. She is married to the famed blacksmith Jordan Stilwell, and they fled the devastated northern kingdoms together."
   },
   {
    "q": "Where did Daphne come from?",
@@ -43,7 +43,7 @@
     "where is daphne from",
     "is daphne gilnean"
    ],
-   "answer": "Daphne lived in the north near Pyrewood Village and worked in what is now Shadowfang Keep. Calamity drove her and Jordan south to lands under Stormwind's influence."
+   "answer": "Daphne lived in the north near Pyrewood Village and worked in what is now Shadowfang Keep. Calamity drove her and Jordan south to lands under Stormwind’s influence."
   },
   {
    "q": "Why is her farm attacked by the Defias Brotherhood?",
@@ -52,7 +52,7 @@
     "defias farm attack",
     "stilwell farm bandits"
    ],
-   "answer": "Daphne's farm overlooks Westfall's southern waters from the cliffs above the Deadmines exit tunnels. Its closeness to the Defias stronghold makes it a target for outlaws seeking supplies or hoping to remove meddlers."
+   "answer": "Daphne’s farm overlooks Westfall’s southern waters from the cliffs above the Deadmines exit tunnels. Its closeness to the Defias stronghold makes it a target for outlaws seeking supplies or hoping to remove meddlers."
   },
   {
    "q": "What is Daphne's connection to paladins?",
@@ -78,7 +78,7 @@
     "how to get to stilwell farm",
     "daphne stilwell location"
    ],
-   "answer": "Daphne's farm sits on the clifftops of southwestern Westfall, southwest of Moonbrook near the Deadmines secret cove exit, overlooking the Longshore."
+   "answer": "Daphne’s farm sits on the clifftops of southwestern Westfall, southwest of Moonbrook near the Deadmines secret cove exit, overlooking the Longshore."
   }
  ],
  "angles": [
@@ -88,7 +88,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you share the burden of the Stilwells, northern refugees who still serve the Alliance and the Church of the Holy Light amid Westfall's dangers."
+   "text": "As an Alliance member, you share the burden of the Stilwells, northern refugees who still serve the Alliance and the Church of the Holy Light amid Westfall’s dangers."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Daphne Stilwell"
  ],
- "style": 1
+ "style": 2
 }

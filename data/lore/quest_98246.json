@@ -18,7 +18,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know an ill-tempered gryphon can be as dangerous as an enemy. Proper feeding and care come before flight."
+   "text": "As a dwarf, you know an ill-tempered gryphon can be as dangerous as an enemy. Feed and care for her before flight."
   },
   {
    "target": "race:Gnome",
@@ -32,7 +32,7 @@
     "howin kindfeather wetlands",
     "quest giver trying times"
    ],
-   "answer": "Howin Kindfeather is a dwarf who tends to Bassbeak, his gryphon in the Wetlands. He asks for fresh raptor eggs to feed her before he puts his plans into motion.",
+   "answer": "Howin Kindfeather is a dwarf who tends Bassbeak, his gryphon in the Wetlands. He asks for fresh raptor eggs to feed her before carrying out his plans.",
    "q": "Who is Howin Kindfeather?"
   },
   {
@@ -41,7 +41,7 @@
     "bassbeak the gryphon",
     "howins gryphon"
    ],
-   "answer": "Bassbeak is Howin Kindfeather's gryphon. When she is hungry, she grows irritable and dangerous, so riding her before she has eaten is unsafe.",
+   "answer": "Bassbeak is Howin Kindfeather's gryphon. When hungry, she grows irritable and dangerous, making it unsafe to ride her before she has eaten.",
    "q": "Who is Bassbeak?"
   },
   {
@@ -75,7 +75,7 @@
     "what is howins plan",
     "what are howin and bassbeak planning"
    ],
-   "answer": "Howin has a broader plan for Bassbeak, but keeps its details secondary until she is fed and calm enough to fly safely amid the dangers of the region.",
+   "answer": "Howin has a broader plan for Bassbeak, but its details wait until she is fed and calm enough to fly safely amid the region's dangers.",
    "q": "What is Howin planning to do with Bassbeak?"
   }
  ],
@@ -96,19 +96,19 @@
  ],
  "sections": [
   {
-   "body": "Howin Kindfeather works with Bassbeak in the Wetlands. The dwarf will not fly with his gryphon until her appetite is satisfied. A hungry gryphon is stubborn and unpredictable, and may lash out. A proper meal comes before any flight through the marshes.",
+   "body": "Howin Kindfeather tends Bassbeak in the Wetlands. The dwarf will not fly with his gryphon until her hunger is eased. A hungry gryphon can be stubborn and unpredictable. She may lash out, so a proper meal must come before any flight through the marshes.",
    "spoiler": 0,
    "title": "Appeasing a Hungry Gryphon"
   },
   {
-   "body": "Howin seeks food for Bassbeak from the Razormaw raptors. Their nests lie at Raptor Ridge to the northeast and Saltspray Glen to the northwest. Razormaw eggs have yolks as large as a gnome's head, giving Bassbeak the substantial meal Howin wants before facing the dangers of the Wetlands.",
+   "body": "Howin seeks food for Bassbeak among the Razormaw raptors. Their nests lie at Raptor Ridge to the northeast and Saltspray Glen to the northwest. Razormaw eggs have yolks as large as a gnome's head. Howin wants those substantial meals to satisfy Bassbeak before she faces the dangers of the Wetlands.",
    "spoiler": 0,
    "title": "The Razormaw Bounty"
   }
  ],
- "summary": "Howin Kindfeather needs help feeding Bassbeak before the gryphon can take flight. He seeks a dozen intact eggs from the fierce Razormaw raptors of the Wetlands.",
+ "summary": "Before Howin Kindfeather can fly through the Wetlands, Bassbeak needs a meal. He seeks a dozen intact eggs from the fierce Razormaw raptors.",
  "attribution": [
   "In-game quest text: Trying Times"
  ],
- "style": 1
+ "style": 2
 }

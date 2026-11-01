@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners learn how to apply their gathering craft directly to field survival by preparing a lodestone for expedition camps."
+   "text": "As a miner, you can put your gathering craft to work in the wild by preparing a lodestone for an expedition camp."
   },
   {
    "target": "race:Tauren",
-   "text": "The instruction takes miners to Brek Stonehoof atop the mesas of Thunder Bluff, drawing upon tauren knowledge of stone and earthcraft."
+   "text": "As a tauren, you can learn from Brek Stonehoof atop Thunder Bluff's mesas, drawing on tauren knowledge of stone and earthcraft."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde expeditioners resting around a miner's campfire benefit from the prepared lodestone, bolstering their frontline combatants for upcoming battles."
+   "text": "As a member of the Horde, you can give those resting by your campfire a lodestone's strength for battles ahead."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "lodestone bonus",
     "what does lodestone do"
    ],
-   "answer": "A crafted lodestone placed at a camp radiates subtle martial properties, offering extra combat prowess and vigor to warriors and adventurers gathering around the campfire.",
+   "answer": "A lodestone set beside a campfire lends vigor and combat strength to those gathered there.",
    "q": "What does the lodestone do for a campsite?"
   },
   {
@@ -41,7 +41,7 @@
     "where is brek stonehoof",
     "who teaches mining camp item"
    ],
-   "answer": "Brek Stonehoof is located in the tauren capital of Thunder Bluff. He instructs experienced miners on how to craft specialized camping utilities from extracted stone and ore.",
+   "answer": "Brek Stonehoof lives in Thunder Bluff, the tauren capital. He teaches skilled miners to make camping tools from stone and ore.",
    "q": "Who is Brek Stonehoof?"
   },
   {
@@ -49,7 +49,7 @@
     "when can i learn lodestone",
     "mining skill requirement lodestone"
    ],
-   "answer": "Miners must first demonstrate foundational proficiency in their mining craft before Brek Stonehoof will teach them the techniques needed to construct a lodestone.",
+   "answer": "A miner must first show skill in the trade before Brek Stonehoof teaches the craft of shaping a lodestone.",
    "q": "When can a miner learn how to craft a lodestone?"
   },
   {
@@ -57,7 +57,7 @@
     "who benefits lodestone",
     "is lodestone for melee"
    ],
-   "answer": "Anyone looking to swing a weapon benefits from a lodestone's presence, as its influence offers physical combatants extra martial strength when they rest beside it.",
+   "answer": "Anyone preparing to wield a weapon can benefit from the lodestone's strength while resting beside it.",
    "q": "Who benefits most from a miner's lodestone?"
   },
   {
@@ -65,7 +65,7 @@
     "why mine for camping",
     "how does mining help camp"
    ],
-   "answer": "Beyond supplying smelters and blacksmiths with raw metal, mining allows wilderness travelers to fashion sturdy stone utilities like lodestones that enhance survival camps in the wild.",
+   "answer": "Mining provides metal for smelters and blacksmiths, and lets travelers shape stone tools like lodestones to strengthen a wilderness camp.",
    "q": "How does mining tie into establishing a campsite?"
   },
   {
@@ -73,7 +73,7 @@
     "camping 101 mining overview",
     "what is camping 101 mining"
    ],
-   "answer": "Camping 101: Mining is an instructional directive directing aspiring miners to Thunder Bluff so they may learn to craft field utilities suitable for wilderness survival.",
+   "answer": "In Thunder Bluff, aspiring miners can learn from Brek Stonehoof to make field tools for survival in the wild.",
    "q": "What is the purpose of Camping 101: Mining?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "Mining may lack the flash and elegance of high arcana, but it remains foundational, honest labor across Azeroth. Practitioners pull useful minerals and dense stone from deep rock faces, providing essential materials for weapons, armor, and now practical field craft. Through the craft of camping, miners can shape extracted stone into rugged enhancements for their wilderness stops.",
+   "body": "Mining may lack the glamour of high arcana, but it is honest work found across Azeroth. Miners draw useful minerals and dense stone from deep rock faces. Those materials make weapons and armor, and now they serve a purpose in the field. A miner can shape stone into sturdy tools for a wilderness camp.",
    "spoiler": 0,
    "title": "Honest Labor in the Earth"
   },
   {
-   "body": "For prospectors seeking to turn their trade toward survival, Brek Stonehoof in Thunder Bluff offers specialized instruction. Once a miner exhibits proper proficiency with their pick, Brek shares the craft of shaping a camp lodestone. Positioned beside an open blaze, the stone offers martial vigor and vital edge to anyone preparing to swing a blade in battle.",
+   "body": "Brek Stonehoof in Thunder Bluff teaches miners to put their trade to use in the wild. Once they show skill with a pick, he teaches them to shape a camp lodestone. Set beside an open blaze, the stone lends vigor and an edge in battle to those preparing to wield a blade.",
    "spoiler": 0,
    "title": "The Lodestone of Thunder Bluff"
   }
  ],
- "summary": "Camping 101: Mining introduces miners to the craft of wilderness survival through their trade. By seeking out Brek Stonehoof in Thunder Bluff, miners learn how to fashion a specialized lodestone that bolsters the combat prowess of adventurers resting by the campfire.",
+ "summary": "In Thunder Bluff, miners can learn to carry their craft into the wild. Brek Stonehoof teaches them to shape a lodestone that gives strength to those resting by a campfire.",
  "attribution": [
   "In-game quest text: Camping 101: Mining"
- ]
+ ],
+ "style": 2
 }

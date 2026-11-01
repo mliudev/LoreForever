@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Your fishing skill can bring comfort to a camp. Someone near Sen'jin Village can teach you to craft a Fish Bowl for your fellow adventurers.",
+ "summary": "At your camp, fishing can bring comfort to you and your companions. Near Sen'jin Village, Lau'Tiki can teach you to make a Fish Bowl.",
  "sections": [
   {
    "title": "A Camp Comfort",
-   "body": "You can speak with Lau'Tiki near Sen'jin Village once you have shown proficiency in fishing. Lau'Tiki can teach you to craft a Fish Bowl, a camping fixture meant to bring joy to you and your fellow adventurers. A happier camp, the giver hopes, makes for stronger fighters.",
+   "body": "Once you have shown skill in fishing, speak with Lau'Tiki near Sen'jin Village. Lau'Tiki can teach you to make a Fish Bowl, a fixture for camp meant to bring joy to you and your fellow adventurers. A happier camp, the giver hopes, makes for stronger fighters.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "fishing camp item",
     "camping fishing"
    ],
-   "answer": "Your fishing skill can help you learn to craft a Fish Bowl for camp."
+   "answer": "Your fishing skill can help you learn to make a Fish Bowl for your camp."
   },
   {
    "q": "Who teaches me to make a Fish Bowl?",
@@ -34,7 +34,7 @@
     "fish bowl teacher",
     "Lau'Tiki fishing"
    ],
-   "answer": "Lau'Tiki near Sen'jin Village can teach you to craft a Fish Bowl once you have shown proficiency in fishing."
+   "answer": "Lau'Tiki near Sen'jin Village can teach you to make a Fish Bowl once you have shown skill in fishing."
   },
   {
    "q": "What is the Fish Bowl for?",
@@ -42,7 +42,7 @@
     "fish bowl use",
     "camp fish fixture"
    ],
-   "answer": "The Fish Bowl is a camping fixture intended to bring joy to you and your fellow adventurers."
+   "answer": "The Fish Bowl is a camping fixture meant to bring joy to you and your fellow adventurers."
   },
   {
    "q": "Where can I find Lau'Tiki?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a fisher, you can learn to craft a Fish Bowl for your camp once you have shown proficiency in your skill."
+   "text": "As a fisher, you can learn to make a Fish Bowl for your camp once you have shown skill in fishing."
   }
  ],
  "keywords": [
@@ -71,7 +71,7 @@
  "related": [
   "subzone:sen-jin-village"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Camping 101: Fishing"
  ]

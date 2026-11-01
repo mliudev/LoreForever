@@ -17,16 +17,16 @@
   "wiki": "The People's Militia (quest)",
   "chain": []
  },
- "summary": "At Sentinel Hill, Gryan Stoutmantle tests your mettle for the People's Militia. Stormwind's throne is distracted, and its army is absent, so local volunteers defend Westfall from the Defias Brotherhood. You begin by driving outlaws from the northern fields and mines.",
+ "summary": "At Sentinel Hill, Gryan Stoutmantle puts the People's Militia to the test against outlaws in Westfall's northern fields and mines. Local volunteers defend the region from the Defias Brotherhood while Stormwind's throne is distracted and its army absent.",
  "sections": [
   {
    "title": "The Price of Peace",
-   "body": "Westfall once fed Stormwind, but outlaws, vagrants, and thieves now overrun the region. With the capital sending no royal soldiers to patrol the countryside, Gryan Stoutmantle organized the People's Militia at Sentinel Hill as a local defense force. He calls for decisive action to reclaim Westfall. Anyone seeking the militia's badge must prove they can fight and will protect innocent settlers.",
+   "body": "Gryan Stoutmantle founded the People's Militia, and he does not take just anyone. Anyone seeking its badge must prove they can fight and protect innocent settlers. He calls for decisive action to reclaim Westfall from the outlaws, vagrants, and thieves overrunning the region.",
    "spoiler": 0
   },
   {
    "title": "Clearing the Breadbasket",
-   "body": "Before Stoutmantle trusts new recruits with deeper operations, he sends them against Defias forces near northern homesteads. Defias Trappers and Smugglers work openly near Jangolode Mine, Molsen Farm, and Furlbrow's Pumpkin Patch, pillaging stores and ambushing travelers. You can disrupt their foraging by driving them out, while showing Stoutmantle's scouts that you have the grit for a long fight against crime.",
+   "body": "Before Gryan Stoutmantle trusts new recruits with deeper operations, he sends them against Defias forces near the northern homesteads. Defias Trappers and Smugglers work openly near Jangolode Mine, Molsen Farm, and Furlbrow's Pumpkin Patch. They pillage stores and ambush travelers. Driving them out disrupts their foraging and shows Stoutmantle's scouts you have the grit for a long fight against crime.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who are the militia",
     "what is peoples militia"
    ],
-   "answer": "The People's Militia is a volunteer army organized by Gryan Stoutmantle and based at Sentinel Hill. Local farmers, veterans, and commoners formed its ranks to defend Westfall from the Defias Brotherhood, while Stormwind's royal army has refused or failed to garrison the region."
+   "answer": "The People's Militia is a volunteer army organized by Gryan Stoutmantle at Sentinel Hill. Local farmers, veterans, and commoners formed its ranks to defend Westfall from the Defias Brotherhood while Stormwind's royal army has refused or failed to garrison the region."
   },
   {
    "q": "Why isn't Stormwind sending its royal army?",
@@ -123,5 +123,5 @@
  "attribution": [
   "The People's Militia (quest)"
  ],
- "style": 1
+ "style": 2
 }

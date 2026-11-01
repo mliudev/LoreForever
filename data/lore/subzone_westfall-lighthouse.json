@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Westfall Lighthouse"
  },
- "summary": "Westfall Lighthouse watches over the rocky isle off Westfall's southwestern shore, its beacon dark and its keepers gone. Old Murk-Eye led the attack that killed them, and Captain Grayson's spirit remains by the tower.",
+ "summary": "Westfall Lighthouse stands dark on the rocky isle off Westfall's southwestern shore, and its keepers are gone. Old Murk-Eye led the attack that killed them. Captain Grayson's spirit remains by the tower.",
  "sections": [
   {
    "title": "A Beacon in the Mist",
-   "body": "Westfall Lighthouse once guided ships along Westfall's dangerous southwestern bluffs and the coast near Stormwind. As law and order failed across the region, royal patrols dwindled and coastal dangers grew unchecked. Murloc tribes drove the lighthouse keepers inland. The family returned to relight the beacon, but Old Murk-Eye rallied his kin for another attack. The murlocs killed the keepers and put out the light.",
+   "body": "Westfall Lighthouse once guided ships past Westfall's dangerous southwestern bluffs and along the coast near Stormwind. As law and order failed across the region, royal patrols dwindled and coastal dangers grew unchecked. Murloc tribes drove the keepers inland. The family returned to relight the beacon, but Old Murk-Eye rallied his kin to attack again. The murlocs killed the keepers and put out the light.",
    "spoiler": 0
   },
   {
    "title": "The Ghostly Watch",
-   "body": "Captain Grayson haunts the rocky outcrop beside Westfall Lighthouse. Bound to the place where he watched the keepers die, the ghost cannot rest while the beacon is dark and monsters crawl along the shore. Grayson asks passing adventurers to gather oil from the harvest golems to keep the flame burning, and to hunt Old Murk-Eye in revenge for the fallen keepers.",
+   "body": "Captain Grayson haunts the rocky outcrop beside Westfall Lighthouse. Bound to the place where he watched the keepers die, the ghost cannot rest while the beacon is dark and monsters crawl along the shore. Grayson asks passing adventurers to gather oil from the harvest golems to keep the flame burning. He also asks them to hunt Old Murk-Eye in revenge for the fallen keepers.",
    "spoiler": 1
   }
  ],
@@ -54,7 +54,7 @@
     "does the light turn on",
     "beacon working"
    ],
-   "answer": "The mechanical lantern still works, casting a beam across the ocean at night. Captain Grayson asks travelers for the oil needed to keep its flame burning."
+   "answer": "The mechanical lantern still works and casts a beam across the ocean at night. Captain Grayson asks travelers for the oil needed to keep its flame burning."
   }
  ],
  "angles": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Westfall Lighthouse"
  ],
- "style": 1
+ "style": 2
 }

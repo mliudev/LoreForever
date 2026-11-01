@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "James asks whether you have the scales, then praises your talent. He offers you work if you ever leave adventuring behind.",
+ "summary": "James asks if you have the scales, then praises your skill. He offers you work if you leave adventuring behind.",
  "sections": [
   {
    "title": "James's Offer",
-   "body": "James calls you a natural talent and invites you to return if you take a break from adventuring. He jokes that you may be older by then.",
+   "body": "James calls you a natural talent and invites you back if you take a break from adventuring. He jokes that you may be older by then.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "does james like me",
     "james opinion"
    ],
-   "answer": "James calls you a natural talent."
+   "answer": "James thinks you are a natural talent."
   },
   {
    "q": "What does James offer?",
@@ -42,7 +42,7 @@
     "james job",
     "work offer"
    ],
-   "answer": "James offers to put you to work if you take a break from adventuring."
+   "answer": "James offers you work if you take a break from adventuring."
   }
  ],
  "angles": [],
@@ -54,7 +54,7 @@
   "work"
  ],
  "related": [],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Crocs of the Sky"
  ]

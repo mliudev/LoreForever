@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Jasperlode Mine"
  },
- "summary": "In north-central Elwynn, Jasperlode Mine lies lost to kobolds and giant spiders. Its shafts once supplied Stormwind City with vital iron and minerals, but the resource-strapped kingdom cannot reclaim them.",
+ "summary": "In north-central Elwynn, kobolds and giant spiders hold Jasperlode Mine. Its shafts once sent iron and minerals to Stormwind City, but the kingdom lacks the strength to reclaim them.",
  "sections": [
   {
    "title": "A Lost Resource in Elwynn",
-   "body": "Jasperlode Mine once supplied Stormwind with a steady wealth of minerals, alongside nearby Fargodeep. With the kingdom's forces stretched thin by outside threats and unrest, local garrisons cannot protect the shafts. Kobolds seized their chance, drove out the human miners, and hoarded stolen gold and tallow candles.",
+   "body": "Jasperlode Mine once sent a steady supply of minerals to Stormwind, as did nearby Fargodeep. Now the kingdom's forces are stretched thin by threats beyond its borders and unrest at home. Local garrisons cannot guard the shafts. Kobolds drove out the human miners and seized the mine, hoarding stolen gold and tallow candles.",
    "spoiler": 0
   },
   {
    "title": "Dangers in the Deep",
-   "body": "Deep within Jasperlode Mine, mine spiders have taken hold beneath the timber supports. A massive matriarch called Mother Fang leads them. The spiders prey on trespassing kobolds and unwary prospectors, making any attempt to salvage the mine dangerous.",
+   "body": "Mine spiders have made their home beneath Jasperlode Mine's timber supports. A massive matriarch called Mother Fang leads them. They prey on kobolds who trespass and on unwary prospectors. Salvaging the mine means facing those dangers in its depths.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who controls jasperlode",
     "why abandoned"
    ],
-   "answer": "Stormwind's army is spread thin across the realm, leaving rural outposts like Goldshire short on manpower. Kobolds swarmed the dig sites once the human miners lost their guards."
+   "answer": "Stormwind's army is spread thin across the realm, leaving rural outposts like Goldshire short on manpower. Once the human miners lost their guards, kobolds swarmed the dig sites."
   },
   {
    "q": "What is the difference between Jasperlode and Fargodeep?",
@@ -36,7 +36,7 @@
     "jasperlode vs fargodeep",
     "other elwynn mine"
    ],
-   "answer": "Fargodeep Mine lies south near the Maclure and Stonefield farms. Jasperlode sits north in the foothills near the river. Both are major Elwynn mineral sites lost to kobolds."
+   "answer": "Fargodeep Mine lies south near the Maclure and Stonefield farms. Jasperlode sits north in the foothills near the river. Kobolds hold both major Elwynn mineral sites."
   },
   {
    "q": "What lurks in the back of the mine?",
@@ -53,7 +53,7 @@
     "why no stormwind guard",
     "dughan sending soldiers"
    ],
-   "answer": "Marshal Dughan lacks the troops for a prolonged clearing underground. With Defias river patrols, gnoll incursions, and garrison duties to cover, the local militia must rely on traveling adventurers to scout and cull the threats inside."
+   "answer": "Marshal Dughan lacks the troops for a prolonged clearing underground. He must cover Defias river patrols, gnoll incursions, and garrison duties, so the local militia relies on traveling adventurers to scout the mine and cull its threats."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Jasperlode Mine"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Spirited Delivery",
-   "body": "Rejold Barleybrew brews Shimmer Stout in Brewnall Village, where local patrons and mountaineers who brave Dun Morogh's biting frosts take to it quickly. Impressed by his brother's brew, Mountaineer Barleybrew commissions a cask to be hauled through the eastern pass into Loch Modan. Dwarves prize strong drink for company and for warmth in the mountain chill. Sharing a fresh brew with comrades on distant patrols is a military tradition.",
+   "body": "Rejold Barleybrew brews Shimmer Stout in Brewnall Village. Local patrons and mountaineers who brave Dun Morogh's biting frosts take to it quickly. Impressed by the brew, his brother Mountaineer Barleybrew commissions a cask for the journey through the eastern pass into Loch Modan. Dwarves prize strong drink for company and warmth in the mountain chill. Sharing fresh ale with comrades on distant patrols is a military tradition.",
    "spoiler": 0
   },
   {
    "title": "A Dwarven Pick-Me-Up",
-   "body": "During his watch in Thelsamar, Mountaineer Kadrell opens the cask and samples the brew. Shimmer Stout lives up to its reputation: one draught is said to lighten the limbs and make a soldier feel as though he could fly. It is the sort of invigorating drink a dwarven scout might welcome on a long, lonely patrol along the high roads.",
+   "body": "During his watch in Thelsamar, Mountaineer Kadrell opens the cask and samples the brew. Shimmer Stout lives up to its name: one draught is said to lighten the limbs and make a soldier feel as though he could fly. A dwarven scout on a long, lonely patrol along the high roads might welcome such an invigorating drink.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "shimmer stout lore",
     "who brewed shimmer stout"
    ],
-   "answer": "Shimmer Stout is a potent dwarven ale brewed by Rejold Barleybrew in Dun Morogh's cold heights. Its strong kick is renowned for invigorating the body and keeping the cold at bay."
+   "answer": "Rejold Barleybrew brews Shimmer Stout in Dun Morogh's cold heights. Its potent kick is renowned for invigorating the body and keeping the cold at bay."
   },
   {
    "q": "Who is the cask being sent to?",
@@ -40,7 +40,7 @@
     "where does cask go",
     "cask recipient"
    ],
-   "answer": "The cask is being sent to Mountaineer Kadrell, a guard stationed along the road through Thelsamar in Loch Modan."
+   "answer": "The cask is bound for Mountaineer Kadrell, a guard stationed along the road through Thelsamar in Loch Modan."
   },
   {
    "q": "Why send ale across the mountains?",
@@ -49,7 +49,7 @@
     "why deliver beer",
     "why send to kadrell"
    ],
-   "answer": "Dwarven mountaineers often share fine brews with comrades on distant patrols. After tasting Rejold Barleybrew's new creation, his brother wants Kadrell to sample it."
+   "answer": "Dwarven mountaineers often share fine brews with comrades on distant patrols. After tasting Rejold Barleybrew's new creation, his brother wants Kadrell to try it."
   },
   {
    "q": "What effect does Shimmer Stout have on the drinker?",
@@ -63,7 +63,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know fine ale shared between patrols is a respected tradition that binds the far-flung Mountaineers across the rugged peaks of Khaz Modan."
+   "text": "As a dwarf, you know that sharing fine ale between patrols is a respected tradition. It binds the far-flung Mountaineers across the rugged peaks of Khaz Modan."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Cask of Shimmer Stout",
   "Stout to Kadrell"
  ],
- "style": 1
+ "style": 2
 }

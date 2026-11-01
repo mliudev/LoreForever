@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Quel'ana Quickgale teaches you the bond between beast and master. Your first challenge is to tame a Windsong Crawler near the waters of Zephras.",
+ "summary": "Quel'ana Quickgale teaches you the bond between beast and master. You begin by taming a Windsong Crawler near the waters of Zephras.",
  "sections": [
   {
    "title": "First Bond",
-   "body": "You begin with the Taming Rod and a Windsong Crawler. Tame one near a body of water, practice your skills, then return the rod to Quel'ana Quickgale in Valanaar. For now, your path toward mastery starts with this creature.",
+   "body": "You have the Taming Rod and a Windsong Crawler to tame. Find one near a body of water and practice your skills. Then return the rod to Quel'ana Quickgale in Valanaar. This creature is your first step toward mastery.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "taming tool",
     "rod quest"
    ],
-   "answer": "The Taming Rod is used to tame a Windsong Crawler."
+   "answer": "You use the Taming Rod to tame a Windsong Crawler."
   },
   {
    "q": "Where do I find a Windsong Crawler?",
@@ -45,7 +45,7 @@
     "where crawler",
     "zephras beast"
    ],
-   "answer": "Windsong Crawlers are found near bodies of water on Zephras."
+   "answer": "Windsong Crawlers live near bodies of water on Zephras."
   },
   {
    "q": "Who gave me the Taming Rod?",
@@ -54,7 +54,7 @@
     "who is quelana",
     "quelana quickgale"
    ],
-   "answer": "Quel'ana Quickgale in Valanaar gives you the Taming Rod."
+   "answer": "Quel'ana Quickgale gives you the Taming Rod in Valanaar."
   },
   {
    "q": "Why am I learning to tame a beast?",
@@ -63,7 +63,7 @@
     "beast mastery",
     "first taming"
    ],
-   "answer": "Learning the bond between beast and master is the first step toward mastery for your class."
+   "answer": "Learning the bond between beast and master is the first step toward mastery of your class."
   }
  ],
  "angles": [],
@@ -79,7 +79,7 @@
  "related": [
   "item:taming-rod"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Taming the Beast"
  ]

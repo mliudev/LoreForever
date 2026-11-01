@@ -17,16 +17,16 @@
   "wiki": "Rite of Vision (2)",
   "chain": []
  },
- "summary": "The Rite of Vision is a foundational spiritual trial undergone by young tauren stepping beyond the Red Cloud Mesa into greater Mulgore. To pierce the veil and receive guidance from ancestral spirits, initiates must gather natural reagents to brew the Water of the Seers under the watchful eye of Zarlman Two-Moons in Bloodhoof Village.",
+ "summary": "Across Mulgore, young tauren gather offerings for the Rite of Vision. In Bloodhoof Village, Zarlman Two-Moons guides them as they brew the Water of the Seers and seek counsel from ancestral spirits.",
  "sections": [
   {
    "title": "The Reagents of the Land",
-   "body": "Before any vision can be granted, the initiate must demonstrate an intimate understanding of the natural gifts found across Mulgore. Zarlman Two-Moons instructs the seeker to collect well stones found near the sacred communal water wells and ambercorn fallen beneath the roots of Mulgore's ancient trees. These natural elements are not merely physical objects; to the tauren, they hold the latent magic and lifeblood of the Earth Mother, ready to be channeled into ritual use.",
+   "body": "Zarlman Two-Moons sends you across Mulgore for well stones and ambercorn. The stones rest near sacred communal wells, while ambercorn falls beneath the roots of ancient trees. To the tauren, these are more than gifts from the land. They carry the Earth Mother's latent magic and lifeblood, ready for the rite.",
    "spoiler": 0
   },
   {
    "title": "Brewing the Water of the Seers",
-   "body": "Once gathered, Zarlman combines the stones and ambercorn into the potent Water of the Seers. When consumed beside the village's tribal flame, this ceremonial draft clears the mind and summons an ethereal guide. Following this manifestation across the plains forms the true heart of the rite, testing the initiate's ability to walk between the physical world and the spiritual whispers of the land.",
+   "body": "Zarlman combines the well stones and ambercorn to brew the Water of the Seers. You drink it beside the village's tribal flame. The draught clears your mind and summons an ethereal guide. Then you follow the guide across the plains, testing whether you can walk between the physical world and the land's spiritual whispers.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why do rite of vision",
     "purpose of rite of vision"
    ],
-   "answer": "The Rite of Vision is a spiritual test for tauren coming of age and seeking their path. By preparing and drinking the Water of the Seers, the initiate learns to commune with spirits and follow ancestral omens across the plains of Mulgore."
+   "answer": "The Rite of Vision tests tauren coming of age as they seek their path. You prepare and drink the Water of the Seers, then learn to commune with spirits and follow ancestral omens across Mulgore's plains."
   },
   {
    "q": "Who is Zarlman Two-Moons?",
@@ -47,7 +47,7 @@
     "zarlman two moons role",
     "questgiver zarlman"
    ],
-   "answer": "Zarlman Two-Moons is a tauren shaman and seer stationed in Bloodhoof Village. He oversees spiritual trials for young adventurers, preparing ritual draughts such as the Water of the Seers and interpreting the signs of the Earth Mother."
+   "answer": "Zarlman Two-Moons is a tauren shaman and seer in Bloodhoof Village. He oversees spiritual trials for young adventurers, prepares ritual draughts such as the Water of the Seers, and interprets signs of the Earth Mother."
   },
   {
    "q": "Where are well stones and ambercorn found?",
@@ -56,7 +56,7 @@
     "well stones location",
     "reagents for rite of vision"
    ],
-   "answer": "Well stones are gathered from the ground near the freshwater wells scattered across Mulgore. Ambercorn can be found scattered at the bases of the large, sprawling trees dotting the surrounding grassy landscape."
+   "answer": "Well stones lie near freshwater wells scattered across Mulgore. Ambercorn falls at the bases of large trees across the surrounding grassy land."
   },
   {
    "q": "What happens after drinking the Water of the Seers?",
@@ -65,7 +65,7 @@
     "water of the seers effect",
     "vision quest follow-up"
    ],
-   "answer": "Drinking the draft near the tribal fire opens the imbiber's spiritual sight, revealing a ghostly animal guide. The seeker must follow this spirit across the plains to uncover the next stage of their sacred journey."
+   "answer": "Near the tribal fire, drinking the Water of the Seers opens your spiritual sight and reveals a ghostly animal guide. You follow the spirit across the plains to find the next stage of your sacred journey."
   },
   {
    "q": "Why do the tauren revere water wells so deeply?",
@@ -74,7 +74,7 @@
     "why are wells sacred",
     "mulgore water"
    ],
-   "answer": "Water is the lifeblood of Mulgore and a precious gift of the Earth Mother. The wells serve as sacred communal centers that nourish both the land and its herds, making the stones gathered beside them spiritually charged."
+   "answer": "Water is Mulgore's lifeblood and a precious gift of the Earth Mother. Tauren revere the wells as sacred communal centers that nourish the land and its herds. The stones gathered beside them carry spiritual power."
   },
   {
    "q": "Does this quest lead to further rites?",
@@ -83,21 +83,21 @@
     "is rite of vision a chain",
     "tauren rites chain"
    ],
-   "answer": "Yes. This task is part of a multi-stage ceremony. Once Zarlman prepares the Water of the Seers, initiates must drink it, track the vision that appears, and present themselves to elder leaders across Mulgore."
+   "answer": "Yes. The ceremony has several stages. After Zarlman prepares the Water of the Seers, you drink it, track the vision that appears, and present yourself to elder leaders across Mulgore."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren, the Rite of Vision is an essential cultural milestone, binding an emerging warrior, hunter, or mystic to the spiritual heritage of the Earth Mother and the ancestors."
+   "text": "As a tauren, you reach a cultural milestone that binds you to the spiritual heritage of the Earth Mother and the ancestors, whether you are a warrior, hunter, or mystic."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman will recognize the preparation of the Water of the Seers as a traditional grounding ritual, attuning the spirit to read unseen elements before conversing with spirits directly."
+   "text": "As a shaman, you recognize the Water of the Seers as a traditional grounding ritual. It attunes your spirit to read unseen elements before you speak directly with spirits."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold deep reverence for the ambercorn and well stones, seeing them as direct manifestations of the flora and life-giving waterways that sustain Mulgore's balance."
+   "text": "As a druid, you revere ambercorn and well stones as signs of the plants and life-giving waterways that sustain Mulgore's balance."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Rite of Vision (2)"
- ]
+ ],
+ "style": 2
 }

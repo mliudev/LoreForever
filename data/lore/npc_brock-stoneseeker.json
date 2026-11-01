@@ -8,11 +8,11 @@
   "wiki": "Brock Stoneseeker",
   "refs": 2
  },
- "summary": "Brock Stoneseeker teaches mining in Thelsamar, in Loch Modan. At Brock's School of Mining and Surveying, he trains novice prospectors to extract ores and minerals.",
+ "summary": "In Thelsamar, Brock Stoneseeker teaches mining to novice prospectors. At his School of Mining and Surveying, he trains them to find and extract ores and minerals.",
  "sections": [
   {
    "title": "Master of Mining and Surveying",
-   "body": "In Thelsamar, Brock Stoneseeker teaches miners at Brock's School of Mining and Surveying. Loch Modan's hills hold rich mineral veins, and miners need skill with a pickaxe and an eye for the rock. Brock teaches the basics of finding ore, extracting raw metals, and surveying underground deposits. His lessons help Alliance tradesfolk supply Ironforge's smithies.",
+   "body": "In Thelsamar, Brock Stoneseeker teaches miners at his School of Mining and Surveying. Loch Modan's hills hold rich mineral veins, and miners need a sure hand with a pickaxe and a keen eye for rock. Brock teaches them to find ore, extract raw metals, and survey underground deposits. His lessons help Alliance tradesfolk supply Ironforge's smithies.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is brock",
     "brock thelsamar"
    ],
-   "answer": "Brock Stoneseeker trains miners in Thelsamar, in Loch Modan. At Brock's School of Mining and Surveying, he teaches tradesfolk to extract ore and survey mineral deposits."
+   "answer": "Brock Stoneseeker trains miners in Thelsamar, in Loch Modan. At his School of Mining and Surveying, he teaches tradesfolk to extract ore and survey mineral deposits."
   },
   {
    "q": "Where can Brock Stoneseeker be found?",
@@ -33,7 +33,7 @@
     "brock stoneseeker location",
     "brock map"
    ],
-   "answer": "Brock Stoneseeker is in Thelsamar, the main dwarven town in Loch Modan. He runs his mining school near the local tradesmen."
+   "answer": "Brock Stoneseeker can be found in Thelsamar, the main dwarven town in Loch Modan. He runs his mining school near the local tradesmen."
   },
   {
    "q": "What profession does Brock teach?",
@@ -80,5 +80,5 @@
  "attribution": [
   "Brock Stoneseeker"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Marshal McBride",
   "refs": 5
  },
- "summary": "At Northshire Abbey, Marshal McBride commands Stormwind's garrison and defends the valley. Kobolds threaten its farms and mines, so he directs new recruits against them.",
+ "summary": "At Northshire Abbey, Marshal Douglas McBride turns to new recruits as kobolds threaten the valley's farms and mines. He commands Stormwind's garrison there, the army's authority in Northshire.",
  "sections": [
   {
    "title": "Commander of Northshire",
-   "body": "Marshal McBride commands Stormwind's garrison outside Northshire Abbey. The abbey is a place of faith and learning, while unrest across the kingdom has left military garrisons short of soldiers. With only a handful of sworn guards, McBride must keep the valley peaceful and protect its food and resources. Green recruits arrive seeking training from the abbey's masters, and he must put them to work.",
+   "body": "Marshal McBride has only a handful of sworn guards to keep the valley peaceful and protect its food and resources. Unrest across the kingdom has left military garrisons short of soldiers. Green recruits arrive seeking training under the abbey's masters, so McBride puts them to work defending the valley.",
    "spoiler": 0
   },
   {
    "title": "The Kobold Incursion",
-   "body": "Kobolds have grown more aggressive around Northshire. Once a nuisance, they have spread through the woods and seized Echo Ridge Mine, an important local resource. Short of regular soldiers, McBride calls on paladins, warriors, and other novices to drive back the tunneling kobolds and learn how far the infestation reaches before the valley is cut off.",
+   "body": "Kobolds grow more aggressive around Northshire. They spread through the woods and seize Echo Ridge Mine, an important local resource. With regular soldiers scarce, McBride calls on paladins, warriors, and other novices to drive back the tunneling kobolds. He needs them to learn how far the infestation reaches before the valley is cut off.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "after northshire",
     "next town"
    ],
-   "answer": "After a recruit has handled the threats in Northshire Valley, McBride sends them south along the road to Goldshire to help Marshal Dughan."
+   "answer": "After a recruit handles the threats in Northshire Valley, McBride sends them south along the road to Goldshire to help Marshal Dughan."
   },
   {
    "q": "What is Echo Ridge Mine?",
@@ -63,7 +63,7 @@
     "does mcbride lead northshire abbey",
     "who is in charge of the abbey"
    ],
-   "answer": "No. Northshire Abbey is maintained by the holy orders and priests of the Light. McBride commands the military garrison defending the abbey and the surrounding valley."
+   "answer": "No. Northshire Abbey is maintained by the holy orders and priests of the Light. McBride commands the military garrison that defends the abbey and the surrounding valley."
   },
   {
    "q": "Is McBride concerned about threats beyond kobolds?",
@@ -71,7 +71,7 @@
     "defias in northshire",
     "is northshire safe"
    ],
-   "answer": "Kobolds are McBride's most immediate concern, but bandits and outlaws linger at the valley's edges, signs of wider unrest across Elwynn Forest."
+   "answer": "Kobolds are McBride's most immediate concern, but bandits and outlaws linger at the valley's edges. They are signs of wider unrest across Elwynn Forest."
   }
  ],
  "angles": [
@@ -85,7 +85,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance recruit, you begin at the Grand Alliance's frontier in humanity's heartland, where McBride brings recruits into the Crown's service."
+   "text": "As an Alliance recruit, you begin at the Grand Alliance's frontier in humanity's heartland. There, McBride brings recruits into the Crown's service."
   }
  ],
  "keywords": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Marshal McBride"
  ],
- "style": 1
+ "style": 2
 }

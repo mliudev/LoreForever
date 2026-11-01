@@ -17,21 +17,21 @@
   "wiki": "A Dark Threat Looms",
   "chain": []
  },
- "summary": "Dark Iron attacks in the Wetlands have Chief Engineer Hinderweir VII fearing for the Stonewrought Dam. With much of its garrison sent to the Alliance Front, you investigate sappers near the eastern ramp.",
+ "summary": "Chief Engineer Hinderweir VII fears Dark Iron sappers near the eastern ramp threaten the Stonewrought Dam. With much of its garrison sent to the Alliance Front, you investigate the danger.",
  "sections": [
   {
    "title": "A Vulnerable Wonder",
-   "body": "The Stonewrought Dam holds back Loch Modan's waters, a great feat of Ironforge engineering. As conflicts spread across Khaz Modan and beyond, much of its security detail has been reassigned to the Alliance Front. Chief Engineer Hinderweir VII and his small remaining crew now face the threat of an attack with little protection.",
+   "body": "The Stonewrought Dam holds back Loch Modan's waters. Ironforge engineers raised it as a great work, yet much of its security detail has gone to the Alliance Front. Chief Engineer Hinderweir VII and his small crew now have little protection if an attack comes.",
    "spoiler": 0
   },
   {
    "title": "Echoes from the North",
-   "body": "Dark Iron attacks in the Wetlands have given Hinderweir reason to worry. The dwarves struck the Thandol Span and pillaged the fortress town of Dun Modr. Now known Dark Iron sappers lurk near the dam's eastern ramp. Hinderweir fears the clan has turned its attention to the lifeline of Loch Modan.",
+   "body": "Dark Iron dwarves struck the Thandol Span and pillaged Dun Modr in the Wetlands. Now known sappers lurk near the dam's eastern ramp. Hinderweir fears the clan has turned to Loch Modan's lifeline, and means to demolish it.",
    "spoiler": 0
   },
   {
    "title": "The Suspicious Cask",
-   "body": "A barrel lies among the rocks where the sappers gathered, packed with volatile powder that smells strange. Its presence points to preparations for demolitions against the Stonewrought Dam's foundation.",
+   "body": "A suspicious barrel lies among the rocks where the sappers gathered. Inside is volatile powder with a strange smell. The barrel points to preparations to blast the Stonewrought Dam's foundation.",
    "spoiler": 1
   }
  ],
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know the Stonewrought Dam as a masterwork of dwarven craft and pride. Dark Iron kin threaten it, making this defense of your homeland."
+   "text": "As a dwarf, you know the Stonewrought Dam as a masterwork of dwarven craft and pride. Dark Iron kin threaten it, and you defend your homeland."
   },
   {
    "target": "profession:Engineering",
@@ -126,5 +126,5 @@
  "attribution": [
   "A Dark Threat Looms"
  ],
- "style": 1
+ "style": 2
 }

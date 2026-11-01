@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sentinel Hill"
  },
- "summary": "In Westfall, Sentinel Hill remains the Alliance's main stronghold and the People's Militia's command post. Overgrown fields, scavenging gnolls, and hostile outlaws surround the rise, the only secure foothold for lawful citizens in the region.",
+ "summary": "At Sentinel Hill, the Alliance holds its main stronghold in Westfall, and the People's Militia keeps its command post there. Overgrown fields, scavenging gnolls, and hostile outlaws surround the rise, leaving it as the lawful citizens' only secure foothold in the region.",
  "sections": [
   {
    "title": "A Bastion in the Dust",
-   "body": "Sentinel Hill rises above central Westfall, with a barracks-style inn, a gryphon roost linking travelers to Stormwind and beyond, a forge, and a lumber mill around Sentinel Tower. Overgrown fields, scavenging gnolls, and outlaws crowd the surrounding land. The encampment keeps a fragile perimeter where travelers, beleaguered farmers, and recruits can regroup under the watchful eyes of veteran defenders.",
+   "body": "Sentinel Hill rises above central Westfall. Around Sentinel Tower stand a barracks-style inn, a gryphon roost with flights to Stormwind and beyond, a forge, and a lumber mill. Overgrown fields, scavenging gnolls, and outlaws crowd the surrounding land. Within the fragile perimeter, travelers, beleaguered farmers, and recruits can regroup under the eyes of veteran defenders.",
    "spoiler": 0
   },
   {
    "title": "Heart of the Militia",
-   "body": "With the royal army detained in Stormwind and unable to spare soldiers for outlying territories, Gryan Stoutmantle established the People's Militia on Sentinel Hill. Volunteer fighters organize scouts, coordinate strikes against the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. The camp is neither an opulent fort nor a comfortable refuge; it is a working frontline camp determined to reclaim the kingdom's former breadbasket.",
+   "body": "The royal army is detained in Stormwind and cannot spare soldiers for the outlying territories. So Gryan Stoutmantle established the People's Militia on Sentinel Hill. Volunteer fighters organize scouts, strike at the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. This is no opulent fort or comfortable refuge. It is a working frontline camp, determined to reclaim the kingdom's former breadbasket.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is stormwind army",
     "why militia here"
    ],
-   "answer": "With King Varian Wrynn missing and resources spread thin across the realm, Stormwind's regency has largely abandoned the western provinces to their own devices. Local citizens and veterans formed the People's Militia themselves to hold Sentinel Hill and protect what remains of Westfall."
+   "answer": "With King Varian Wrynn missing and resources spread thin across the realm, Stormwind's regency has largely left the western provinces to their own devices. Local citizens and veterans formed the People's Militia themselves to hold Sentinel Hill and protect what remains of Westfall."
   },
   {
    "q": "Who is in charge of Sentinel Hill?",
@@ -37,7 +37,7 @@
     "sentinel hill commander",
     "gryan stoutmantle"
    ],
-   "answer": "Gryan Stoutmantle commands the People's Militia from the base of Sentinel Tower. He coordinates local defense, gathers intelligence on surrounding threats, and directs visiting adventurers against the gnolls and highwaymen encroaching on the settlement."
+   "answer": "Gryan Stoutmantle commands the People's Militia from the base of Sentinel Tower. He coordinates local defense, gathers intelligence on nearby threats, and directs visiting adventurers against the gnolls and highwaymen pressing in on the settlement."
   },
   {
    "q": "What threats actively endanger the hill?",
@@ -46,7 +46,7 @@
     "sentinel hill enemies",
     "who is attacking"
    ],
-   "answer": "Aggressive Riverpaw gnolls roam the western plains, while the Defias Brotherhood carries out coordinated sabotage and lurks throughout the abandoned farms."
+   "answer": "Aggressive Riverpaw gnolls roam the western plains. The Defias Brotherhood carries out coordinated sabotage and lurks throughout the abandoned farms."
   },
   {
    "q": "What services are available here for travelers?",
@@ -55,17 +55,17 @@
     "sentinel hill flight path",
     "is there an inn here"
    ],
-   "answer": "Sentinel Hill offers travelers a gryphon master with travel to Stormwind City and other Alliance outposts, an innkeeper, a mailbox, trade supply vendors, and repair facilities around the local forge."
+   "answer": "Travelers can find a gryphon master with flights to Stormwind City and other Alliance outposts, an innkeeper, a mailbox, trade supply vendors, and repair facilities around the local forge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Sentinel Hill is your only fortified outpost and supply hub in Westfall, anchoring the Alliance's presence against outlaws and raiders."
+   "text": "For the Alliance, Sentinel Hill is your only fortified outpost and supply hub in Westfall. It anchors the Alliance's presence against outlaws and raiders."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you see Westfall's farmers forced to raise their own militia here, a sign of the kingdom's deepening crisis while the throne remains vacant."
+   "text": "As a human, you see Westfall's farmers forced to raise their own militia here. Their struggle shows the kingdom's deepening crisis while the throne remains vacant."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Sentinel Hill"
  ],
- "style": 1
+ "style": 2
 }

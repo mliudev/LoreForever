@@ -10,16 +10,16 @@
    "quest:2359"
   ]
  },
- "summary": "Inside a chest from Duskwood, Klaven Mortwake's Journal records the Defias Brotherhood's search for a way to raise the dead. SI:7 operatives recovered it from the Defias tower in northeastern Westfall.",
+ "summary": "SI:7 operatives recover Klaven Mortwake's Journal from the Defias tower. It records the Brotherhood's search for a way to raise the dead.",
  "sections": [
   {
    "title": "A Gruesome Formula",
-   "body": "The Defias tower rises along the ridges of northern Westfall, where strange shipments arrive from the shadowy borders of Duskwood. Twisted, non-human sentries guard the tower. SI:7 had watched the place for a long time, and a journal in the topmost chest revealed what the shipments carried. Klaven Mortwake recorded research into alchemical methods of raising mindless undead drones. Alchemists associated with the Zanzil trolls in Stranglethorn had found a way to do it with specialized poisons and brews. The Defias Brotherhood sought to duplicate their method for its own ranks.",
+   "body": "The Defias tower stands along the ridges of northern Westfall. Strange shipments arrive from the shadowy borders of Duskwood, and twisted, non-human sentries guard the tower. SI:7 watched the place for a long time. In the topmost chest, they found Klaven Mortwake's journal and learned what the shipments carried.\n\nKlaven Mortwake recorded research into alchemical ways to raise mindless undead drones. Alchemists associated with the Zanzil trolls in Stranglethorn had found a way with specialized poisons and brews. The Defias Brotherhood sought to copy their method for its own ranks.",
    "spoiler": 1
   },
   {
    "title": "Intelligence for SI:7",
-   "body": "Master Mathias Shaw leads Stormwind's intelligence service, SI:7, and sought Mortwake's journal to trace the Brotherhood's wider alliances. The notes confirm experiments in reanimation and illicit support linking Duskwood, the Venture Company, and the Defias. For rogues serving the crown, recovering the research marks a step toward mastering poisons.",
+   "body": "Master Mathias Shaw leads Stormwind's intelligence service, SI:7. He sought Mortwake's journal to trace the Brotherhood's wider alliances. The notes confirm experiments in reanimation and illicit support linking Duskwood, the Venture Company, and the Defias. For rogues serving the crown, recovering the research is a step toward mastering poisons.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "mortwake journal",
     "what is this item"
    ],
-   "answer": "Klaven Mortwake's Journal is a research notebook compiled by Klaven Mortwake, an operative in the Defias tower in northeastern Westfall. It contains notes on alchemical necromancy and illicit supply routes."
+   "answer": "Klaven Mortwake's Journal is a research notebook compiled by Klaven Mortwake, an operative in the Defias tower in northeastern Westfall. It holds notes on alchemical necromancy and illicit supply routes."
   },
   {
    "q": "Where is the journal found?",
@@ -49,7 +49,7 @@
     "journal secrets",
     "zanzil poison"
    ],
-   "answer": "The journal says that the Zanzil trolls of Stranglethorn Vale devised toxic potions that can raise and control the dead. The Defias Brotherhood was trying to acquire and use the recipe."
+   "answer": "The journal records that the Zanzil trolls of Stranglethorn Vale devised toxic potions that can raise and control the dead. The Defias Brotherhood was trying to acquire and use the recipe."
   },
   {
    "q": "Who wants this journal?",
@@ -58,7 +58,7 @@
     "who do i give the journal to",
     "mathias shaw journal"
    ],
-   "answer": "Master Mathias Shaw, leader of Stormwind's SI:7 intelligence agency, wants the journal to monitor Defias logistics and teach crown operatives about the dangers and uses of tactical poisons."
+   "answer": "Master Mathias Shaw, leader of Stormwind's SI:7 intelligence agency, wants the journal to monitor Defias logistics and teach crown operatives the dangers and uses of tactical poisons."
   }
  ],
  "angles": [
@@ -95,5 +95,5 @@
   "Klaven Mortwake's Journal",
   "Klaven's Tower (quest)"
  ],
- "style": 1
+ "style": 2
 }

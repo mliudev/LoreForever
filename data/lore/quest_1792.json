@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Securing a Whirlwind weapon is a legendary rite of passage for warriors, granting them an armament infused with the tempestuous force of Cyclonian."
+   "text": "As a warrior, you can claim a weapon infused with the tempestuous force of Cyclonian."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "whirlwind weapon lore",
     "what is this quest"
    ],
-   "answer": "Whirlwind Weapon represents the culmination of a warrior's trial against elemental forces. By capturing the whirlwind heart from Cyclonian, a warrior selects a weapon to be infused with the elemental's captured essence, creating an armament of tremendous primal power.",
+   "answer": "A warrior can bind Cyclonian's whirlwind heart into a chosen weapon, joining the elemental's power with the warrior's own strength.",
    "q": "What is the Whirlwind Weapon quest?"
   },
   {
@@ -33,7 +33,7 @@
     "cyclonian lore",
     "what is cyclonian"
    ],
-   "answer": "Cyclonian is a powerful elemental manifestation of wind and storm. Defeating this tempestuous entity yields the whirlwind heart, which serves as the magical power source binding primal wind energies directly into a physical weapon.",
+   "answer": "Cyclonian is an elemental manifestation of wind and storm. Its defeat yields the whirlwind heart, which can bind primal wind energy into a physical weapon.",
    "q": "Who is Cyclonian?"
   },
   {
@@ -42,7 +42,7 @@
     "cyclonian heart",
     "heart of cyclonian"
    ],
-   "answer": "The whirlwind heart is the core essence obtained from the defeated elemental Cyclonian. It contains the raw, stormy fury of the tempest, ready to be bound into a forged vessel of the warrior's choosing.",
+   "answer": "The whirlwind heart is Cyclonian's core, claimed when the elemental is defeated. It holds the tempest's fury and can be bound into a forged vessel chosen by the warrior.",
    "q": "What is the whirlwind heart?"
   },
   {
@@ -51,7 +51,7 @@
     "vessel of choice",
     "forging whirlwind weapon"
    ],
-   "answer": "A whirlwind weapon is crafted by taking a chosen weapon vessel and channeling the whirlwind heart into it. The process binds the elemental fury of Cyclonian directly into the steel, imbuing every strike with wind energy.",
+   "answer": "The warrior chooses a forged weapon and has Cyclonian's whirlwind heart bound into it. The elemental's fury then courses through the steel.",
    "q": "How is the weapon empowered?"
   },
   {
@@ -60,7 +60,7 @@
     "whirlwind choices",
     "what weapons are offered"
    ],
-   "answer": "A warrior can select their preferred martial vessel to receive Cyclonian's storm essence, tailoring the elemental empowerment to their favored combat style and weapon preference.",
+   "answer": "A warrior chooses the weapon that will receive Cyclonian's storm essence.",
    "q": "What choices are offered for the weapon?"
   },
   {
@@ -68,7 +68,7 @@
     "why does warrior want whirlwind weapon",
     "whirlwind weapon importance"
    ],
-   "answer": "Warriors seek this empowerment because weaponizing the core of Cyclonian commands the violent fury of a living gale, turning martial strikes into devastating forces of elemental destruction.",
+   "answer": "Warriors seek Cyclonian's power to command the fury of a living gale through their weapons.",
    "q": "Why is Cyclonian's power sought after?"
   }
  ],
@@ -86,18 +86,19 @@
  ],
  "sections": [
   {
-   "body": "The quest for a Whirlwind Weapon marks the completion of a formidable trial of strength and mastery. After subduing the elemental tempest Cyclonian and retrieving its volatile core, a warrior prepares a physical vessel to harbor the primal energies of the storm. The craftsperson stands ready to fuse the creature's raw, swirling heart into the chosen arm, transforming simple forged metal into a legendary conduit of elemental fury.",
+   "body": "After Cyclonian falls and the warrior claims its heart, a craftsperson prepares a weapon to hold the storm's power. The heart is fused into the chosen arm, turning forged metal into a channel for elemental fury.",
    "spoiler": 0,
    "title": "Infusing the Storm"
   },
   {
-   "body": "The heart of Cyclonian embodies the untamed violence of howling winds and tempestuous gales. By anchoring that core into a forged weapon, the wielder commands not just their own martial discipline, but the living might of the tempest itself. Each strike echoes with the resonant might of the defeated elemental, ensuring that Cyclonian's storm continues to rage in the hands of its vanquisher.",
+   "body": "Cyclonian's heart holds the violence of howling winds and tempestuous gales. Bound into a forged weapon, it lends the wielder the living might of the storm alongside their own martial skill. Each strike carries the force of the defeated elemental, whose storm now rages in the hands of its vanquisher.",
    "spoiler": 0,
    "title": "The Power of Cyclonian"
   }
  ],
- "summary": "The Whirlwind Weapon quest marks the final empowerment of a warrior's weapon using the whirlwind heart claimed from the elemental Cyclonian. By binding the beast's tempestuous core into a chosen vessel, the wielder claims the very essence and fury of the storm. It serves as an iconic milestone in martial mastery.",
+ "summary": "A warrior's chosen weapon awaits the storm Cyclonian left behind. The whirlwind heart can bind the elemental's fury into a forged vessel.",
  "attribution": [
   "In-game quest text: Whirlwind Weapon"
- ]
+ ],
+ "style": 2
 }

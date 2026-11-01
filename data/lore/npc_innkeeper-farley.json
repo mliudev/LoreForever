@@ -8,16 +8,16 @@
   "wiki": "Innkeeper Farley",
   "refs": 2
  },
- "summary": "At the Lion's Pride Inn in Goldshire, Innkeeper Farley welcomes travelers with food, beds, and hearthstones. Well-liked and observant, he keeps misplaced mail and hears the troubles of those on the road.",
+ "summary": "At the Lion's Pride Inn in Goldshire, Innkeeper Farley offers travelers meals, beds, and hearthstones. Well liked and watchful, he keeps misplaced mail and listens to the troubles of the road.",
  "sections": [
   {
    "title": "A Goldshire Fixture",
-   "body": "Travelers bound for Stormwind, Westfall, and Duskwood find Innkeeper Farley behind the Lion's Pride Inn counter in Goldshire. He offers meals, ale, cheese, and a bed, and sets hearthstones for those who need one. With a welcoming hand and a sharp eye, Farley serves all who pass through this busy waystation and keeps order at the inn.",
+   "body": "Travelers bound for Stormwind, Westfall, and Duskwood find Innkeeper Farley at the Lion's Pride Inn counter in Goldshire. He offers meals, ale, cheese, and a bed, and sets hearthstones for those who need one. Farley welcomes all who pass through this busy waystation and keeps order at the inn.",
    "spoiler": 0
   },
   {
    "title": "The Courier's Abandoned Chest",
-   "body": "At the crossroads of Stormwind, Westfall, and Duskwood, Innkeeper Farley hears rumors and deals with strange travelers. Once, a courier fled into the night in terror, leaving his satchel behind. Farley safely stowed the leftover missives in an upstairs chest. Among them lies an undelivered letter addressed to former schoolmaster Stalvan Mistmantle, a clue for investigators tracing the fallen tutor's movements.",
+   "body": "At the crossroads of Stormwind, Westfall, and Duskwood, Innkeeper Farley hears rumors and meets strange travelers. Once, a courier fled into the night in terror and left his satchel behind. Farley stored the leftover missives safely in an upstairs chest. Among them is an undelivered letter addressed to former schoolmaster Stalvan Mistmantle, a clue for investigators tracing the fallen tutor's movements.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "fredrik farley",
     "who is the goldshire innkeeper"
    ],
-   "answer": "Innkeeper Farley serves travelers at the Lion's Pride Inn in Goldshire, offering rest and supplies to those traversing Elwynn Forest."
+   "answer": "Innkeeper Farley serves travelers at the Lion's Pride Inn in Goldshire, offering rest and supplies to those crossing Elwynn Forest."
   },
   {
    "q": "What does Farley know about Stalvan Mistmantle?",
@@ -38,7 +38,7 @@
     "stalvan letter goldshire",
     "legend of stalvan farley"
    ],
-   "answer": "Farley recalls a terrified courier who fled the Lion's Pride Inn at night, leaving several deliveries behind. He safely stored the abandoned letters in an upstairs chest, including an undelivered letter addressed to Stalvan Mistmantle for investigators to retrieve."
+   "answer": "Farley recalls a terrified courier who fled the Lion's Pride Inn at night and left several deliveries behind. He stored the abandoned letters safely in an upstairs chest, including an undelivered letter addressed to Stalvan Mistmantle for investigators to retrieve."
   },
   {
    "q": "What services does Farley provide at the inn?",
@@ -47,7 +47,7 @@
     "farley food and drink",
     "goldshire hearthstone"
    ],
-   "answer": "Farley sets hearthstones, rents rooms, and sells a wide variety of drinks, juices, and cheeses from across the Alliance. The cheeses include Alterac Swiss, Dalaran Sharp, and local Stormwind Brie."
+   "answer": "Farley sets hearthstones, rents rooms, and sells drinks, juices, and cheeses from across the Alliance. The cheeses include Alterac Swiss, Dalaran Sharp, and local Stormwind Brie."
   }
  ],
  "angles": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Innkeeper Farley"
  ],
- "style": 1
+ "style": 2
 }

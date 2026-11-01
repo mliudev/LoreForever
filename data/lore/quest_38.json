@@ -20,16 +20,16 @@
    "Westfall Stew (Classic 2)"
   ]
  },
- "summary": "Salma Saldean cooks Westfall Stew on her farm, making a meal from what the frontier offers. Its ingredients reflect how Westfall homesteaders endure bandits, famine, and dangerous beasts.",
+ "summary": "On her farm in Westfall, Salma Saldean cooks Westfall Stew from what the frontier offers. Its ingredients reflect how homesteaders endure bandits, famine, and dangerous beasts.",
  "sections": [
   {
    "title": "A Homesteader's Necessity",
-   "body": "Westfall's settlers contend with bandits, famine, and rampaging beasts, far from Stormwind's lavish larders. Families like the Saldeans make do with what the land provides. Salma Saldean turns ingredients many city folk might call pests or scraps into a sustaining meal for working farmhands.",
+   "body": "Westfall's settlers face bandits, famine, and rampaging beasts, far from Stormwind's lavish larders. Families like the Saldeans make do with what the land provides. Salma Saldean turns ingredients many city folk might call pests or scraps into a meal that sustains her farmhands.",
    "spoiler": 0
   },
   {
    "title": "The Ingredients of Survival",
-   "body": "Salma's recipe brings together local okra, stringy meat from circling vultures, and snouts from wild goretusks roaming the plains. It also calls for fresh murloc eyes gathered from coastal raiders. The thought of river beasts and carrion birds may turn delicate stomachs in Elwynn, but Westfall cooks swear the blend makes a rich, fortifying meal.",
+   "body": "Salma's recipe brings together local okra, stringy meat from circling vultures, and snouts from wild goretusks roaming the plains. It also calls for fresh murloc eyes gathered from coastal raiders. Such fare may turn delicate stomachs in Elwynn, but Westfall cooks swear the blend makes a rich, fortifying meal.",
    "spoiler": 0
   }
  ],
@@ -59,7 +59,7 @@
     "saldean okra",
     "okra origin"
    ],
-   "answer": "Okra comes from the few hardy vegetable crops still harvested on Westfall's struggling farms. Boiled pods release juices that thicken frontier broths."
+   "answer": "The okra comes from the few hardy vegetable crops still harvested on Westfall's struggling farms. Boiled pods release juices that thicken frontier broths."
   },
   {
    "q": "Is Westfall Stew considered good food?",
@@ -83,7 +83,7 @@
     "what meat is in westfall stew",
     "westfall stew meat"
    ],
-   "answer": "The stew uses stringy vulture meat from the carrion birds soaring over Westfall, along with snouts from wild goretusks hunted across the plains."
+   "answer": "The stew uses stringy vulture meat from carrion birds soaring over Westfall, along with snouts from wild goretusks hunted across the plains."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Westfall Stew (Classic 2)"
  ],
- "style": 1
+ "style": 2
 }

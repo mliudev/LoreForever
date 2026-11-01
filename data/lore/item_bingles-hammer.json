@@ -10,11 +10,11 @@
    "quest:2038"
   ]
  },
- "summary": "Troggs have taken Bingles' Hammer from the crash site in Loch Modan. Bingles Blastenheimer, a stranded gnome aviator, needs his specialized gear to repair his flying machine and help free Gnomeregan.",
+ "summary": "At his crash site in Loch Modan, Bingles Blastenheimer needs Bingles' Hammer back from the troggs. With his gear restored, he can repair his flying machine and help free Gnomeregan.",
  "sections": [
   {
    "title": "A Stranded Aviator's Toolkit",
-   "body": "Bingles Blastenheimer survived his flying machine's plunge into the Loch, then lost his tools to troggs on the freshwater islands. They took his hammer and high-potency explosives from the crash site. He needs the hammer to repair the dented airframe and adjust the gyrocopter's mechanical parts. Without his equipment, Bingles cannot fly support runs for the gnome forces fighting to reclaim Gnomeregan.",
+   "body": "Troggs raided Bingles Blastenheimer's crash site on the freshwater islands. They took his hammer and high-potency explosives. The hammer is needed to repair the dented airframe and adjust the gyrocopter's mechanical parts. Without his equipment, Bingles cannot fly support runs for the gnome forces fighting to reclaim Gnomeregan.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is bingles hammer",
     "how to find hammer"
    ],
-   "answer": "Bingles' Hammer is inside one of Bingles's Toolbuckets scattered across the trogg-infested islands in the northern Loch."
+   "answer": "Bingles' Hammer lies inside one of Bingles's Toolbuckets scattered across the trogg-infested islands in the northern Loch."
   },
   {
    "q": "Who does this hammer belong to?",
@@ -34,7 +34,7 @@
     "who owns the hammer",
     "bingles hammer owner"
    ],
-   "answer": "The hammer belongs to Bingles Blastenheimer, a gnome engineer and pilot whose flying machine crashed along the shores of Loch Modan."
+   "answer": "The hammer belongs to Bingles Blastenheimer, a gnome engineer and pilot. His flying machine crashed along the shores of Loch Modan."
   },
   {
    "q": "Why is this tool so important to Bingles?",
@@ -42,7 +42,7 @@
     "why need hammer",
     "bingles hammer use"
    ],
-   "answer": "Bingles needs his full set of tools to rebuild his downed gyrocopter. He plans to fly it in battle against the troggs and leper gnomes occupying Gnomeregan."
+   "answer": "Bingles needs his full set of tools to rebuild his downed gyrocopter. He plans to fly it against the troggs and leper gnomes occupying Gnomeregan."
   },
   {
    "q": "Who stole Bingles' Hammer?",
@@ -50,17 +50,17 @@
     "who took the hammer",
     "trogg thieves"
    ],
-   "answer": "Troggs living on the lake islands raided the crash site and took Bingles' toolbuckets and custom blastencapper explosives."
+   "answer": "Troggs living on the lake islands raided the crash site. They took Bingles' toolbuckets and custom blastencapper explosives."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, each recovered tool brings the airborne assault to free your ancestral home closer."
+   "text": "As a gnome, each tool you recover brings the airborne assault to free your ancestral home closer."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you know a fine gnome-crafted hammer is hard to replace, especially when rebuilding an experimental gyrocopter in the wilderness."
+   "text": "As an engineer, you know a fine gnome-crafted hammer is hard to replace. Bingles needs one to rebuild his experimental gyrocopter in the wilderness."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Bingles' Hammer",
   "Bingles' Missing Supplies"
  ],
- "style": 1
+ "style": 2
 }

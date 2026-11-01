@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A librarian asks you to bring Goaz Scrolls to add to the collection. The library\u2019s knowledge grows through your contribution.",
+ "summary": "The librarian asks you to bring Goaz Scrolls for the collection. Your contribution adds to the library’s knowledge.",
  "sections": [
   {
    "title": "A Growing Collection",
-   "body": "The librarian thanks you for your contribution. More magical works may also benefit the library, and the librarian welcomes them.",
+   "body": "The librarian thanks you for contributing Goaz Scrolls. More magical works could help the library too, and the librarian welcomes them.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "why bring scrolls",
     "scrolls library"
    ],
-   "answer": "Goaz Scrolls add to the library\u2019s collection and knowledge."
+   "answer": "Goaz Scrolls add to the library’s collection and knowledge."
   },
   {
    "q": "Who asks for the Goaz Scrolls?",
@@ -45,7 +45,7 @@
     "goaz scrolls location",
     "library scrolls"
    ],
-   "answer": "The Goaz Scrolls are for the library\u2019s collection."
+   "answer": "The Goaz Scrolls are for the library’s collection."
   },
   {
    "q": "What else would benefit the library?",
@@ -69,7 +69,7 @@
  "related": [
   "subzone:library-ironforge"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Goaz Scrolls"
  ]

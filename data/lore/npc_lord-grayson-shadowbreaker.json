@@ -8,16 +8,16 @@
   "wiki": "Lord Grayson Shadowbreaker",
   "refs": 1
  },
- "summary": "At Stormwind's Cathedral of Light, Lord Grayson Shadowbreaker trains champions of the Light. A veteran paladin commander of the Knights of the Silver Hand, he guides promising knights and oversees the sacred trials senior paladins must complete to claim their holy chargers.",
+ "summary": "At Stormwind's Cathedral of Light, Lord Grayson Shadowbreaker trains champions of the Light and guides promising knights. A veteran paladin commander of the Knights of the Silver Hand, he also oversees the sacred trials senior paladins must complete to claim their holy chargers.",
  "sections": [
   {
    "title": "Master of the Silver Hand",
-   "body": "Lord Grayson Shadowbreaker leads the Silver Hand's work in Stormwind City and ranks among the Alliance's foremost defenders. A veteran of the order, he trains recruits in arms and tests their faith in the Light. When promising knights are ready, he sends them north to the contested front lines of the Western Plaguelands. There, they aid Commander Ashlam Valorfist at Chillwind Camp.",
+   "body": "In Stormwind City, Lord Grayson Shadowbreaker leads the Silver Hand's work and stands among the Alliance's foremost defenders. A veteran of the order, he trains recruits in arms and tests their faith in the Light. When promising knights are ready, he sends them north to the contested front lines of the Western Plaguelands. There, they aid Commander Ashlam Valorfist at Chillwind Camp.",
    "spoiler": 0
   },
   {
    "title": "The Trials of the Holy Charger",
-   "body": "For paladins seeking a sacred warhorse, Lord Grayson Shadowbreaker requires sacrifice and virtue. The trials include acts of charity, such as helping Ironforge's impoverished through High Priest Rohan, perilous journeys to exorcise Terrordale, and the cleansing of ancient spirits within Dire Maul. At Scholomance, an initiate must face the death knight Darkreaver and use the Light to free an unholy steed from servitude.",
+   "body": "Paladins seeking a sacred warhorse must prove their virtue and make sacrifices under Lord Grayson Shadowbreaker's guidance. The trials include acts of charity, such as helping Ironforge's impoverished through High Priest Rohan. They also demand perilous journeys to exorcise Terrordale and the cleansing of ancient spirits within Dire Maul. At Scholomance, an initiate must face the death knight Darkreaver and use the Light to free an unholy steed from servitude.",
    "spoiler": 1
   }
  ],
@@ -100,5 +100,5 @@
  "attribution": [
   "Lord Grayson Shadowbreaker"
  ],
- "style": 1
+ "style": 2
 }

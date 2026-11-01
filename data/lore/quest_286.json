@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Karl Boran in Menethil Harbor asks you to bring back the Menethil Statuette. The figurine was found inside the barrel pulled from the muck, and its recovery matters to the Blind Princess's captain.",
+ "summary": "Karl Boran in Menethil Harbor needs the Menethil Statuette brought back. It was found inside a barrel pulled from the muck, and its return will ease the Blind Princess's captain.",
  "sections": [
   {
    "title": "The Figurine",
-   "body": "You found the statuette packed in fine straw inside the barrel. It shows a young, long-haired Paladin raising a hammer. Karl Boran in Menethil Harbor is waiting for its return, and the Blind Princess's captain will be relieved to hear the cargo is safe.",
+   "body": "The statuette lay packed in fine straw inside the barrel. It shows a young, long-haired Paladin raising a hammer. Karl Boran in Menethil Harbor is waiting for it. The Blind Princess's captain will be relieved to know the cargo is safe.",
    "spoiler": 0
   }
  ],
@@ -63,7 +63,7 @@
     "Paladin figurine",
     "hammer statuette"
    ],
-   "answer": "It depicts a young, long-haired Paladin with a hammer raised."
+   "answer": "The statuette depicts a young, long-haired Paladin with a hammer raised."
   }
  ],
  "angles": [],
@@ -81,7 +81,7 @@
   "subzone:menethil-harbor",
   "topic:paladin"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Return the Statuette"
  ]

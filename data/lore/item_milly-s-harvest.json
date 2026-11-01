@@ -10,16 +10,16 @@
    "quest:3904"
   ]
  },
- "summary": "In the Northshire Vineyards, Milly's grapes lie abandoned after the Defias arrive. Crates and buckets of fruit remain at risk of theft or being crushed beneath the abbey guards' boots.",
+ "summary": "In the Northshire Vineyards, Milly's Harvest lies abandoned after the Defias arrive. Crates and buckets of grapes risk theft or being crushed beneath the abbey guards' boots.",
  "sections": [
   {
    "title": "A Fragile Yield",
-   "body": "Milly Osworth gathers grapes in the Northshire Vineyards, where the harvest matters to local vintners and the abbey community. When armed brigands in red masks push into the fields, Milly flees to the abbey grounds. Her fresh-picked grapes remain scattered between the rows.",
+   "body": "Milly Osworth gathers grapes in the Northshire Vineyards. The harvest matters to local vintners and the abbey community. When armed brigands in red masks enter the fields, Milly flees to the abbey grounds. Her fresh-picked grapes lie scattered between the rows.",
    "spoiler": 0
   },
   {
    "title": "Collateral Damage",
-   "body": "Stormwind guards watch the valley entrance, but too few soldiers leave Northshire vulnerable. The garrison promises to drive out the Defias, while Milly fears a drawn-out fight between guards and thieves will ruin her harvest. The crates may be trampled or carried off as provisions, costing Northshire one of its few peaceful harvests.",
+   "body": "Stormwind guards watch the valley entrance, but their small numbers leave Northshire vulnerable. The garrison promises to drive out the Defias. Milly fears a long fight between guards and thieves will ruin her harvest. The crates may be trampled or carried off as provisions, costing Northshire one of its few peaceful harvests.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "why did milly leave the grapes",
     "why leave harvest"
    ],
-   "answer": "Defias bandits raided the vineyards while Milly was harvesting, forcing her to leave the grapes behind and flee to Northshire Abbey."
+   "answer": "Defias bandits raided the vineyards while Milly was harvesting. She had to leave the grapes behind and flee to Northshire Abbey."
   },
   {
    "q": "Why couldn't the Northshire guards retrieve the harvest?",
@@ -49,7 +49,7 @@
     "why cant guards get it",
     "stormwind guards northshire"
    ],
-   "answer": "Northshire's guards are stretched thin by Defias incursions and local threats. Milly also fears their boots could crush the grapes if they drive off the bandits."
+   "answer": "Northshire's guards are stretched thin by Defias incursions and local threats. Milly also fears their boots could crush the grapes as they drive off the bandits."
   },
   {
    "q": "Who are the bandits threatening the harvest?",
@@ -91,5 +91,5 @@
   "Milly's Harvest",
   "Milly's Harvest (quest)"
  ],
- "style": 1
+ "style": 2
 }

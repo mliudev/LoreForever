@@ -18,21 +18,21 @@
   "chain": [],
   "category": "Stranglethorn Vale"
  },
- "summary": "Gelriz has been muscling out the moguls appointed by the trade princes and now makes a move on the most notorious pirate of all, and Baron Revilgaz will not stand for it. In response, Kebok in Booty Bay directs adventurers to steal strange blue crystals that Venture Company geologists have been finding near Lake Nazferiti.",
+ "summary": "In Booty Bay, Gelriz's latest move draws Baron Revilgaz's wrath in Hostile Takeover. Gelriz has pushed aside moguls appointed by the trade princes and now moves against the most notorious pirate of all. Kebok sends you to steal strange blue crystals Venture Company geologists have found near Lake Nazferiti.",
  "sections": [
   {
    "title": "A Matter of Business",
-   "body": "Gelriz has stepped over the line by shoving aside moguls chosen by the trade princes and making a move on the most notorious pirate of all. Baron Revilgaz refuses to permit such insolence, instructing Kebok to handle the intrusion however he sees fit. Kebok's chosen response is outright theft, targeting the strange blue stones that Venture Company mining crews have been unearthing.",
+   "body": "Baron Revilgaz gives Kebok leave to answer the insult as he sees fit. Kebok chooses theft, targeting the strange blue stones Venture Company mining crews have been unearthing.",
    "spoiler": 0
   },
   {
    "title": "The Geologists' Cache",
-   "body": "Venture Company geologists operating around Lake Nazferiti have taken a keen interest in these unusual crystals. Kebok wants eight samples brought back to Booty Bay, unconcerned with how they are acquired so long as they end up in his hands.",
+   "body": "Venture Company geologists working around Lake Nazferiti have taken a keen interest in the unusual crystals. Kebok wants you to bring eight samples back to Booty Bay. How you get them matters little to him, so long as they end up in his hands.",
    "spoiler": 0
   },
   {
    "title": "A Tumbling Discovery",
-   "body": "Examining the returned specimens reveals that they have undergone a tumbling process, suggesting the Venture Company intends to utilize them as fuel or an industrial catalyst. Kebok intends to dispatch samples to Head Chemist Gigglefont for more detailed study.",
+   "body": "The returned crystals have been tumbled, suggesting the Venture Company means to use them as fuel or an industrial catalyst. Kebok plans to send samples to Head Chemist Gigglefont for closer study.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who starts hostile takeover",
     "kebok quest"
    ],
-   "answer": "Kebok, operating out of the pirate haven of Booty Bay in Stranglethorn Vale, gives this assignment on behalf of Baron Revilgaz."
+   "answer": "Kebok, in Booty Bay in Stranglethorn Vale, gives you this assignment on Baron Revilgaz's behalf."
   },
   {
    "q": "Why is Baron Revilgaz angry with Gelriz?",
@@ -53,7 +53,7 @@
     "gelriz revilgaz conflict",
     "why does kebok want crystals"
    ],
-   "answer": "Gelriz pushed aside moguls who had been appointed by the trade princes and has now made a move on the most notorious pirate, which Revilgaz will not tolerate."
+   "answer": "Gelriz pushed aside moguls appointed by the trade princes and has now moved against the most notorious pirate. Baron Revilgaz will not tolerate it."
   },
   {
    "q": "Where are the crystals located?",
@@ -62,7 +62,7 @@
     "tumbled crystal location",
     "lake nazferiti crystals"
    ],
-   "answer": "The crystals are carried by Venture Company geologists working around Lake Nazferiti."
+   "answer": "Venture Company geologists working around Lake Nazferiti carry the crystals."
   }
  ],
  "angles": [],
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Hostile Takeover"
- ]
+ ],
+ "style": 2
 }

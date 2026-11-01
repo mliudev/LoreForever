@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Deathstalker Masoj needs you to restore three signaling marks around Hillsbrad Foothills. Bat riders rely on those points to guide strategic troops to their drop-off sites.",
+ "summary": "Around Hillsbrad Foothills, Deathstalker Masoj needs you to restore three signaling marks. Bat riders use those points to guide strategic troops to their drop-off sites.",
  "sections": [
   {
    "title": "Three Peaks",
-   "body": "You carry Apothecary Vials to the hills beside Dun Garok, the plateau above Dunholde Keep, and the Headland ridge above Hillsbrad. Their vapors draw bats back to the signaling points, helping Masoj's high command guide its troops through the foothills.",
+   "body": "You carry Apothecary Vials to three high places: the hills beside Dun Garok, the plateau above Dunholde Keep, and the Headland ridge above Hillsbrad. Their vapors draw bats back to the marks. Then Masoj's high command can guide its troops through the foothills.",
    "spoiler": 0
   },
   {
    "title": "Masoj's Orders",
-   "body": "Masoj asks you to look for crushed, empty vials and renew the marks at all three locations. He calls the work part of the plans advancing under the Deathstalkers' banner.",
+   "body": "Masoj asks you to search for crushed, empty vials and renew the marks at all three places. He says this work serves plans advancing under the Deathstalkers' banner.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "where are the peaks",
     "three vial spots"
    ],
-   "answer": "The three locations are the hills beside Dun Garok, the plateau above Dunholde Keep, and the Headland ridge above Hillsbrad."
+   "answer": "Place the vials on the hills beside Dun Garok, the plateau above Dunholde Keep, and the Headland ridge above Hillsbrad."
   },
   {
    "q": "What do the vial vapors do?",
@@ -59,7 +59,7 @@
     "bat scent",
     "vial purpose"
    ],
-   "answer": "The vapors act as a signal that draws bats back to the desired drop-off points."
+   "answer": "The vapors draw bats back to the desired drop-off points."
   }
  ],
  "angles": [],
@@ -78,7 +78,7 @@
   "zone:hillsbrad",
   "subzone:dun-garok"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Valuable Vantages"
  ]

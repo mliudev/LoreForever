@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The Tome of Divinity introduces young paladins to the foundational tenets of their calling, emphasizing that compassion and service are just as essential as martial skill."
+   "text": "As a paladin, you learn that compassion and service matter as much as martial skill."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven paladins in Ironforge receive this instruction through mentors like Tiza Battleforge to ensure their strength is guided by patience and virtue."
+   "text": "As a dwarf, you receive this instruction in Ironforge from mentors such as Tiza Battleforge, who teach you to guide strength with patience and virtue."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "tome of divinity paladin",
     "what does the tome teach"
    ],
-   "answer": "The Tome of Divinity is a core instructional text given to novice paladins. It teaches that being divine is not about seeking godhood, but striving to do good, aid the less fortunate, and embody compassion, patience, and bravery.",
+   "answer": "The Tome of Divinity teaches novice paladins that divinity means striving to do good, aid the less fortunate, and show compassion, patience, and bravery rather than seeking godhood.",
    "q": "What is the Tome of Divinity?"
   },
   {
@@ -37,7 +37,7 @@
     "tiza battleforge location",
     "where is tiza"
    ],
-   "answer": "Tiza Battleforge is a paladin mentor located in Ironforge who guides novices through their initial trials, ensuring they understand the balance between righteous combat and selfless service.",
+   "answer": "Tiza Battleforge is a paladin mentor in Ironforge. She guides novices through their first trials and teaches them to balance righteous combat with selfless service.",
    "q": "Who is Tiza Battleforge?"
   },
   {
@@ -46,7 +46,7 @@
     "paladin virtues",
     "why patience and compassion"
    ],
-   "answer": "A paladin's power comes from reflecting the Light, which requires sound character and moral discipline. Strength in battle alone is insufficient without the patience and compassion needed to defend and uplift others.",
+   "answer": "A paladin's power reflects the Light, so battle strength alone is not enough. Patience and compassion help paladins defend and uplift others.",
    "q": "Why must paladins study patience and compassion?"
   },
   {
@@ -55,7 +55,7 @@
     "tome of divinity trials",
     "next trial after reading"
    ],
-   "answer": "After reading the text, paladins must demonstrate their virtues through practical tests. Mentors assign them tasks across the city and surrounding lands to assist the needy and prove their dedication to the Light.",
+   "answer": "After reading the tome, paladins demonstrate their virtues through practical trials. Mentors send them across Ironforge and nearby lands to help the needy and prove their devotion to the Light.",
    "q": "What tests follow reading the book?"
   },
   {
@@ -63,7 +63,7 @@
     "where is this quest turned in",
     "ironforge paladin quest"
    ],
-   "answer": "The quest directs paladins to return to Tiza Battleforge in the dwarven capital of Ironforge once they have studied the teachings of the tome.",
+   "answer": "After studying the tome, paladins return to Tiza Battleforge in Ironforge, the dwarven capital.",
    "q": "Where does this trial take place?"
   },
   {
@@ -71,7 +71,7 @@
     "what does striving for divinity mean",
     "paladin godhood"
    ],
-   "answer": "According to the text, striving to be divine does not mean aspiring to godhood. Instead, it means actively choosing to be good in all actions and using the Light to support and protect the people of Azeroth.",
+   "answer": "Striving for divinity means choosing to do good in all things, not seeking godhood. Paladins use the Light to support and protect the people of Azeroth.",
    "q": "What does it mean to strive for divinity?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "The Tome of Divinity represents an essential milestone in the training of a paladin. Delivered through mentors such as Tiza Battleforge in Ironforge, the text grounds initiates in the spiritual purpose behind their martial prowess. Rather than glorifying dominion or godhood, the book teaches that true divinity lies in pursuing moral goodness and serving as a steady instrument of the Light.",
+   "body": "For a paladin, strength in battle must serve a higher purpose. Tiza Battleforge in Ironforge gives initiates the Tome of Divinity to teach them why they wield their arms. It turns their thoughts from dominion and godhood toward moral goodness. A paladin's calling is to serve as a steady instrument of the Light.",
    "spoiler": 0,
    "title": "The Measure of Divinity"
   },
   {
-   "body": "While warriors of the Light are regularly called upon to smite evil across Azeroth, the tome stresses that martial strength alone does not define a paladin. Compassion, patience, and humility set them apart from common combatants. After studying the text, initiates are directed to undertake trials across Ironforge and nearby lands, performing acts of charity and service to demonstrate their sound mind and unwavering devotion.",
+   "body": "The tome teaches that smiting evil is not enough to make a paladin. Compassion, patience, and humility set these warriors apart from common combatants. After studying its words, initiates undertake trials in Ironforge and nearby lands. Through charity and service, they show sound judgment and unwavering devotion.",
    "spoiler": 0,
    "title": "Trials of Service and Compassion"
   }
  ],
- "summary": "The Tome of Divinity is a foundational paladin quest centered on the spiritual virtues that guide holy warriors. Presented by mentors like Tiza Battleforge in Ironforge, it instructs initiates that genuine devotion to the Light requires patience, compassion, and humble service to the needy alongside martial strength.",
+ "summary": "In Ironforge, Tiza Battleforge teaches young paladins what the Light asks of them. The Tome of Divinity says devotion calls for patience, compassion, and humble service to the needy, alongside martial strength.",
  "attribution": [
   "In-game quest text: The Tome of Divinity"
- ]
+ ],
+ "style": 2
 }

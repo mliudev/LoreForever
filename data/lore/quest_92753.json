@@ -17,16 +17,16 @@
   "wiki": "Destruction in Deadmines",
   "chain": []
  },
- "summary": "Deep beneath Moonbrook, Defias industry is poisoning the land. Alba Fairmoon suspects their metallurgical forge is the source of the blight and sends you to destroy it with explosives.",
+ "summary": "In the Deadmines beneath Moonbrook, Defias industry blights the land. Alba Fairmoon suspects their metallurgical forge is the source and sends you to destroy it with explosives.",
  "sections": [
   {
    "title": "Sabotaging the Foundry",
-   "body": "Beneath Moonbrook, the Deadmines shelter a fortified complex that powers the Defias Brotherhood. Its heavy forge smelts metal and builds machinery. Alba Fairmoon believes this forge is the likely origin of the contamination blighting the area. Destroying it is her aim.",
+   "body": "Beneath Moonbrook, the Deadmines hold a fortified complex that powers the Defias Brotherhood. Its heavy forge smelts metal and builds machinery. Alba Fairmoon believes the forge is the likely origin of the contamination blighting the area. She wants it destroyed.",
    "spoiler": 0
   },
   {
    "title": "A Decisive Blast",
-   "body": "The forge lies beyond barricades, cutthroats, and goblin engineers. You carry Extra-Destructive Explosives and plant them beside the forge works. Then you escape to the hills above Moonbrook, where Alba Fairmoon waits to detonate the charge and hopes the land can begin to heal.",
+   "body": "Beyond barricades, cutthroats, and goblin engineers, the forge waits. You carry Extra-Destructive Explosives and plant them beside the forge works. Then you escape to the hills above Moonbrook. Alba Fairmoon waits there to detonate the charge, hoping the land can begin to heal.",
    "spoiler": 1
   }
  ],
@@ -119,5 +119,5 @@
  "attribution": [
   "Destruction in Deadmines"
  ],
- "style": 1
+ "style": 2
 }

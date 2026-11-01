@@ -8,11 +8,11 @@
   "wiki": "Granis Swiftaxe",
   "refs": 1
  },
- "summary": "Inside Kharanos, Granis Swiftaxe trains young Alliance fighters from Coldridge Pass. The dwarf warrior trainer waits in the Thunderbrew Distillery, then sends seasoned warriors to Ironforge.",
+ "summary": "At the Thunderbrew Distillery in Kharanos, Granis Swiftaxe trains young Alliance fighters from Coldridge Pass. He prepares them for the road across Dun Morogh, then sends seasoned warriors to Ironforge.",
  "sections": [
   {
    "title": "A Gruff Mentor in Kharanos",
-   "body": "Granis Swiftaxe warms himself among the casks of the Thunderbrew Distillery in Kharanos, where he trains young warriors crossing Dun Morogh. Proud of the warrior’s path, he openly amuses himself at those from other callings who try to win his attention. When a student proves their skill in combat, Granis sends them up the mountain path to Muren Stormpike, the master trainer in Ironforge’s Military Ward.",
+   "body": "Granis Swiftaxe trains young warriors in the Thunderbrew Distillery as they cross Dun Morogh seeking instruction. Proud of the warrior’s path, he takes amusement in those from other callings who try to win his attention. Once a student proves their skill in combat, Granis sends them up the mountain path to Muren Stormpike, master trainer in Ironforge’s Military Ward.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is granis",
     "kharanos warrior trainer"
    ],
-   "answer": "Granis Swiftaxe trains young dwarf and gnome warriors on the ground floor of the Thunderbrew Distillery in Kharanos. He teaches the first martial techniques they need while traveling across Dun Morogh."
+   "answer": "Granis Swiftaxe trains young dwarf and gnome warriors on the ground floor of the Thunderbrew Distillery in Kharanos. He teaches them the first martial techniques they need for travel across Dun Morogh."
   },
   {
    "q": "Why does Granis mock my character?",
@@ -82,5 +82,5 @@
  "attribution": [
   "Granis Swiftaxe"
  ],
- "style": 1
+ "style": 2
 }

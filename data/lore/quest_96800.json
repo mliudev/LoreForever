@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A scholar asks you to recover a missing tome from the Scarlet Monastery. The book is needed for research on the ancient Wildhammer runemasters of Grim Batol.",
+ "summary": "A scholar needs a missing tome from the Scarlet Monastery to study Grim Batol’s ancient Wildhammer runemasters.",
  "sections": [
   {
    "title": "An overdue book",
-   "body": "The scholar is writing a thesis on the ancient Wildhammer runemasters of Grim Batol. The old Dalaran library's ledgers say that Doan borrowed the tome before the Third War and never returned it. He is now in the Scarlet Monastery in Tirisfal Glades, and the book is there to be recovered.",
+   "body": "A scholar is writing a thesis on the ancient Wildhammer runemasters of Grim Batol. The old Dalaran library’s ledgers say Doan borrowed the tome before the Third War and never returned it. Now in the Scarlet Monastery in Tirisfal Glades, Doan still has the book, waiting to be recovered.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who wants the tome",
     "scholar research"
    ],
-   "answer": "A scholar writing a thesis on the ancient Wildhammer runemasters of Grim Batol needs it to complete the research."
+   "answer": "A scholar writing a thesis on the ancient Wildhammer runemasters of Grim Batol needs the book for that research."
   },
   {
    "q": "What book was borrowed?",
@@ -34,7 +34,7 @@
     "which tome",
     "lost runemasters book"
    ],
-   "answer": "The book is called The Lost Magic of the Runemasters."
+   "answer": "The borrowed book is called The Lost Magic of the Runemasters."
   },
   {
    "q": "Who borrowed the book?",
@@ -42,7 +42,7 @@
     "who checked it out",
     "Doan book"
    ],
-   "answer": "The old Dalaran library's ledgers say that a mage named Doan borrowed the book before the Third War."
+   "answer": "The old Dalaran library’s ledgers say a mage named Doan borrowed the book before the Third War."
   },
   {
    "q": "Where is the book?",
@@ -78,7 +78,7 @@
   "subzone:dalaran",
   "topic:mage"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Past Due"
  ]

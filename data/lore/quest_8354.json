@@ -17,16 +17,16 @@
   "wiki": "Chicken Clucking for a Mint (Horde)",
   "chain": []
  },
- "summary": "During the festive season of Hallow's End, Innkeeper Norman of the Undercity offers a piece of candy to travelers helping an ailing child. To earn the Undercity Mint, adventurers must cast aside their dignity and flap about like a chicken.",
+ "summary": "At Hallow's End, Innkeeper Norman of the Undercity offers a sweet to travelers helping an ailing child. Earn the Undercity Mint by setting dignity aside and flapping like a chicken.",
  "sections": [
   {
    "title": "A Rare Bit of Mirth",
-   "body": "The Undercity is rarely known for laughter or warmth, built as it is beneath the ruins of Lordaeron by the liberated Forsaken. Yet when Hallow's End arrives, even the grim denizens of the Trade Quarter join in seasonal revelry. Innkeeper Norman holds onto a stash of Undercity Mints, designated for those collecting treats on behalf of young Spoops, a sick orphan in need of holiday cheer.",
+   "body": "Laughter is scarce in the Undercity, built beneath Lordaeron's ruins by the liberated Forsaken. Yet when Hallow's End comes, even the grim folk of the Trade Quarter join the revelry. Innkeeper Norman keeps Undercity Mints for travelers gathering treats for Spoops, a sick orphan who needs holiday cheer.",
    "spoiler": 0
   },
   {
    "title": "Earning the Treat",
-   "body": "Rather than surrendering the treat outright to seasoned adventurers, Norman demands a bit of humiliating spectacle. Believing that grown warriors and spellcasters ought to earn their confections, he refuses to part with the mint until the petitioner mimics a barnyard chicken right before his counter.",
+   "body": "Innkeeper Norman will not hand a treat to seasoned adventurers without a show. He believes grown warriors and spellcasters should earn their sweets. So the petitioner must mimic a barnyard chicken right before his counter.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why cluck norman",
     "norman chicken dance"
    ],
-   "answer": "Innkeeper Norman believes grown champions are too old to go around trick-or-treating without putting on a show. To lighten the mood during Hallow's End, he demands a ridiculous performance\u2014flapping and clucking like a chicken\u2014before he will hand over his holiday treat."
+   "answer": "Innkeeper Norman thinks grown champions should put on a show before they go trick-or-treating. To lift the Hallow's End mood, he asks you to flap and cluck like a chicken before handing over the treat."
   },
   {
    "q": "Who is the treat intended for?",
@@ -47,7 +47,7 @@
     "what is the mint for",
     "why get undercity mint"
    ],
-   "answer": "The Undercity Mint is collected on behalf of Spoops, a sick orphan resting in Orgrimmar who is unable to go trick-or-treating himself during the Hallow's End festival."
+   "answer": "The Undercity Mint is for Spoops, a sick orphan resting in Orgrimmar who cannot go trick-or-treating during Hallow's End."
   },
   {
    "q": "Where is Innkeeper Norman located?",
@@ -55,7 +55,7 @@
     "norman location",
     "where is undercity innkeeper"
    ],
-   "answer": "Innkeeper Norman operates the central tavern within the Trade Quarter of the Undercity, serving Forsaken patrons and visiting Horde travelers."
+   "answer": "Innkeeper Norman keeps the central tavern in the Undercity's Trade Quarter, serving Forsaken patrons and visiting Horde travelers."
   },
   {
    "q": "Is this a seasonal festival quest?",
@@ -63,7 +63,7 @@
     "is this hallows end",
     "when is this quest available"
    ],
-   "answer": "Yes. This quest is part of the annual Hallow's End holiday celebrations celebrated across Azeroth by both Horde and Alliance."
+   "answer": "Yes. It is part of Hallow's End, the annual holiday celebrated across Azeroth by both Horde and Alliance."
   },
   {
    "q": "Do Forsaken normally celebrate Hallow's End?",
@@ -71,7 +71,7 @@
     "forsaken hallows end",
     "undead holiday"
    ],
-   "answer": "The Forsaken celebrate Hallow's End with great enthusiasm, burning a massive wicker man outside the ruins of Lordaeron to commemorate their liberation and break with their former mortal lives."
+   "answer": "The Forsaken celebrate Hallow's End with great enthusiasm. They burn a massive wicker man outside Lordaeron's ruins to honor their liberation and break with their former mortal lives."
   },
   {
    "q": "What happens after getting the Undercity Mint?",
@@ -79,17 +79,17 @@
     "next quest",
     "what do i do with the mint"
    ],
-   "answer": "The mint is combined with other signature treats gathered from the various Horde racial capitals to assemble a full holiday gift for young Spoops."
+   "answer": "The Undercity Mint joins signature treats gathered from the Horde's racial capitals to make a full holiday gift for young Spoops."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Finding silly humor among the rotting halls of the Undercity is rare, making Norman's seasonal demand a bizarre break from daily necromantic pragmatism."
+   "text": "Laughter in the Undercity's rotting halls is rare. Norman's seasonal demand brings a strange break from daily necromantic pragmatism."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers travel between every capital city during Hallow's End, braving foolish indignities in each to bring joy to an orphaned child."
+   "text": "During Hallow's End, Horde travelers visit every capital city and endure foolish indignities to bring joy to an orphaned child."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Chicken Clucking for a Mint (Horde)"
- ]
+ ],
+ "style": 2
 }

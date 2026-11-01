@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Crystal Lake"
  },
- "summary": "East of Goldshire, Crystal Lake draws travelers toward a shore claimed by murlocs. Their attacks make the water a danger to villagers and passersby.",
+ "summary": "At Crystal Lake, murlocs claim the shore east of Goldshire. Their attacks endanger villagers and travelers passing by.",
  "sections": [
   {
    "title": "A Troubled Shore",
-   "body": "Crystal Lake lies east of Goldshire, within walking distance of the Lion's Pride Inn. Freshwater murlocs now claim its shore and shallow shoals, attacking anyone who comes too close. William Pestle, an alchemist at the inn, hires travelers to drive them back and gather the crystal kelp they carry for his experiments.",
+   "body": "East of Goldshire, Crystal Lake lies within walking distance of the Lion's Pride Inn. Freshwater murlocs claim its shore and shallow shoals, attacking anyone who comes too close. William Pestle, an alchemist at the inn, hires travelers to drive them back and gather the crystal kelp they carry for his experiments.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "murloc problem goldshire",
     "crystal lake murlocs"
    ],
-   "answer": "Crystal Lake gives freshwater murlocs a place to nest and forage. Their numbers near Goldshire have grown as Stormwind's local guard struggles to protect the area."
+   "answer": "Freshwater murlocs nest and forage at Crystal Lake. Their numbers near Goldshire have grown as Stormwind's local guard struggles to protect the area."
   },
   {
    "q": "What do adventurers need from Crystal Lake?",
@@ -47,7 +47,7 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Crystal Kelp grows in the lake's freshwater shallows. Most of it is gathered from the resident murlocs, who harvest it from the lake bed."
+   "text": "Crystal Kelp grows in the lake's freshwater shallows. Most of it comes from resident murlocs, who gather it from the lake bed."
   },
   {
    "target": "faction:Alliance",
@@ -72,5 +72,5 @@
  "attribution": [
   "Crystal Lake"
  ],
- "style": 1
+ "style": 2
 }

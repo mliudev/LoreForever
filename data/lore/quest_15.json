@@ -17,16 +17,16 @@
   "wiki": "Investigate Echo Ridge",
   "chain": []
  },
- "summary": "Marshal McBride sends recruits north as kobolds gather at Echo Ridge Mine. The mine supplies ore and raw materials to Northshire Abbey and the Stormwind guard, and the growing threat puts both at risk.",
+ "summary": "Kobolds gather in force at Echo Ridge Mine, so Marshal McBride sends you north. The mine supplies ore and raw materials to Northshire Abbey and the Stormwind guard stationed there.",
  "sections": [
   {
    "title": "A Deepening Infestation",
-   "body": "After early skirmishes with scattered vermin around Northshire's forested edge, scouts report a more organized threat. Kobolds have gathered in force at Echo Ridge Mine. Marshal McBride sends you north to face the workers at the entrance and learn how deeply they have settled in.",
+   "body": "Scattered vermin have troubled the valley's forested edge near Northshire. Now the scouts report a more organized gathering. At the entrance, you face kobold workers and see how deeply they have settled into the mine.",
    "spoiler": 0
   },
   {
    "title": "Threat to the Abbey's Wealth",
-   "body": "Echo Ridge Mine supplies ore and raw materials to the Northshire brotherhood and the Stormwind guard stationed there. Kobolds have seized the tunnels, halting extraction and exposing the strain on local defenses. McBride asks you to cull ten workers, but the infestation runs deeper into the shafts than a surface patrol can reach.",
+   "body": "The kobolds have seized the tunnels and stopped the digging. Their presence strains the Northshire brotherhood's defenses. McBride asks you to cull ten workers, but the infestation reaches farther into the shafts than a surface patrol can reach.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives quest",
     "marshal mcbride"
    ],
-   "answer": "Marshal McBride, commander of the Stormwind guards at Northshire Abbey, sends you to investigate after scouts find kobolds gathering to the north."
+   "answer": "Marshal McBride, commander of the Stormwind guards at Northshire Abbey, sends you north after scouts report kobolds gathering there."
   },
   {
    "q": "Where is the Echo Ridge Mine located?",
@@ -56,7 +56,7 @@
     "what makes kobolds a threat",
     "kobold danger"
    ],
-   "answer": "Kobolds breed rapidly and swarm through underground tunnels in huge packs. Their hold on Echo Ridge Mine halts vital mining and threatens to overwhelm Northshire's undermanned valley."
+   "answer": "Kobolds breed rapidly and swarm through underground tunnels in huge packs. Their hold on Echo Ridge Mine stops vital mining and threatens to overwhelm Northshire's undermanned valley."
   },
   {
    "q": "What happens after I defeat the workers outside?",
@@ -65,7 +65,7 @@
     "follow up quest",
     "next quest"
    ],
-   "answer": "When you return, Marshal McBride's worst suspicions are confirmed: the mine is thoroughly infested. He immediately enlists your aid for a deeper push into the shafts in Skirmish at Echo Ridge."
+   "answer": "When you return, Marshal McBride's worst suspicions are confirmed: the mine is thoroughly infested. He enlists your aid for a deeper push into the shafts in Skirmish at Echo Ridge."
   },
   {
    "q": "Why doesn't the Stormwind army clear the mine themselves?",
@@ -83,21 +83,21 @@
     "what enemies to kill",
     "kobold worker"
    ],
-   "answer": "Kobold workers labor around the mine entrance and upper passages, digging tunnels and gathering candle wax for their underground colony."
+   "answer": "Kobold workers labor around the mine entrance and upper passages. They dig tunnels and gather candle wax for their underground colony."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Copper from Echo Ridge Mine is essential to Northshire's smiths, so clearing its underground tunnels matters to miners' livelihoods."
+   "text": "Copper from Echo Ridge Mine is essential to Northshire's smiths. Clearing its underground tunnels matters to miners' livelihoods."
   },
   {
    "target": "faction:Alliance",
-   "text": "Kobolds have reached close to Stormwind's spiritual heart in Northshire, a sign of the kingdom's vulnerability while its regular forces are stretched thin."
+   "text": "Kobolds have reached close to Stormwind's spiritual heart in Northshire. Their presence shows the kingdom's vulnerability while its regular forces are stretched thin."
   },
   {
    "target": "race:Human",
-   "text": "As a young human beginning service in Northshire Valley, defending Echo Ridge from underground pests is an early chance to prove your worth to the kingdom."
+   "text": "As a young human beginning service in Northshire Valley, defending Echo Ridge from underground pests gives you an early chance to prove your worth to the kingdom."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Investigate Echo Ridge"
  ],
- "style": 1
+ "style": 2
 }

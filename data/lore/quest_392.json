@@ -17,16 +17,16 @@
   "wiki": "The Curious Visitor",
   "chain": []
  },
- "summary": "After the Stockade uprising, Warden Thelwater has a troubling discovery about Bazil Thredd. For months before the riot, a man named Maelik visited Thredd with legitimate papers.",
+ "summary": "After the Stockade uprising, Warden Thelwater has found a troubling link to Bazil Thredd. For months before the riot, a man called Maelik visited Thredd with papers that passed inspection.",
  "sections": [
   {
    "title": "A Breach in Protocol",
-   "body": "Warden Thelwater learned that Bazil Thredd had not been abandoned by his former comrades, as the guards believed. Months before the riot, a quiet visitor began meeting with Thredd once or twice a week. He passed every inspection, carried authorized paperwork, and gave his name as Maelik. Thelwater suspects the visits helped coordinate the bloody uprising. He gathers a physical description and sends you to City Architect Baros Alexston to learn who the visitor was.",
+   "body": "After the riot, Warden Thelwater learned that Bazil Thredd’s former comrades had not abandoned him. For months, a quiet visitor met with Thredd once or twice a week. He passed every inspection, carried authorized papers, and gave his name as Maelik. Thelwater suspects those visits helped coordinate the bloody uprising. He sends you to City Architect Baros Alexston with a description, hoping to learn who the visitor was.",
    "spoiler": 0
   },
   {
    "title": "Ties to the Stonemasons",
-   "body": "Baros Alexston worked closely with Edwin VanCleef and the Stonemasons Guild before their rebellion. The name Maelik means nothing to him, and the description could fit countless former craftsmen. Yet the visitor had valid clearance to enter the Stockade. That points beyond common criminals slipping past the guards: Defias sympathizers and agents remain deeply embedded in Stormwind's civic offices.",
+   "body": "Before their rebellion, Baros Alexston worked closely with Edwin VanCleef and the Stonemasons Guild. Maelik’s name means nothing to him, and the description might fit countless former craftsmen. Yet the visitor had valid clearance to enter the Stockade. That points beyond criminals slipping past guards: Defias sympathizers and agents remain deeply rooted in Stormwind’s civic offices.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "thredd visitor",
     "curious visitor identity"
    ],
-   "answer": "The visitor gave his name as Maelik. For months before the Stockade riot, he visited Bazil Thredd once or twice a week and carried seemingly legitimate identification papers."
+   "answer": "The visitor gave his name as Maelik. For months before the Stockade riot, he visited Bazil Thredd once or twice a week with papers that appeared legitimate."
   },
   {
    "q": "Why does Warden Thelwater send you to Baros Alexston?",
@@ -47,7 +47,7 @@
     "who is baros",
     "turn in to baros"
    ],
-   "answer": "Warden Thelwater sends you to Baros Alexston because he is Stormwind's City Architect and once worked alongside Edwin VanCleef and the Stonemasons Guild. Since the Defias began among the Stonemasons, Thelwater hopes Alexston may recognize the visitor through his former guild contacts."
+   "answer": "Warden Thelwater sends you to Baros Alexston, Stormwind’s City Architect, who once worked alongside Edwin VanCleef and the Stonemasons Guild. Since the Defias began among the Stonemasons, Thelwater hopes Alexston’s former guild ties may help him recognize the visitor."
   },
   {
    "q": "How did Maelik enter the Stockade without being caught?",
@@ -56,7 +56,7 @@
     "maeliks papers",
     "stockade security failure"
    ],
-   "answer": "Maelik entered the Stockade with legitimate paperwork that cleared prison security checks. The guards had no legal cause to deny him entry, which suggests a bureaucratic error or corrupt officials inside the kingdom's administration."
+   "answer": "Maelik entered the Stockade with legitimate papers that cleared prison security checks. The guards had no legal cause to refuse him, suggesting either a bureaucratic error or corrupt officials within the kingdom’s administration."
   },
   {
    "q": "What role did Bazil Thredd play in the prison riots?",
@@ -64,7 +64,7 @@
     "who is bazil thredd",
     "what did thredd do"
    ],
-   "answer": "Bazil Thredd was an imprisoned leader of the Defias Brotherhood in the Stockade. He organized and led the inmates' violent uprising, likely coordinated through his visits with Maelik."
+   "answer": "Bazil Thredd was an imprisoned leader of the Defias Brotherhood in the Stockade. He organized and led the inmates’ violent uprising, likely coordinating it through his visits with Maelik."
   },
   {
    "q": "What happens after Baros Alexston reads the description?",
@@ -72,7 +72,7 @@
     "does baros recognize maelik",
     "what happens next"
    ],
-   "answer": "Baros Alexston recognizes neither the name Maelik nor Thelwater's description. He agrees to investigate further because the visitor must have connections in the city."
+   "answer": "Baros Alexston recognizes neither the name Maelik nor Thelwater’s description. He agrees to investigate further, since the visitor must have connections in the city."
   },
   {
    "q": "Why is the visitor important to the investigation of the Defias?",
@@ -80,21 +80,21 @@
     "defias conspiracy",
     "why does the visitor matter"
    ],
-   "answer": "The regular visits show that the Stockade riot was a planned Defias plot, not a spontaneous outburst of lawless rage. Someone with high-level access to Stormwind's official papers helped make it possible."
+   "answer": "The regular visits show that the Stockade riot was a planned Defias plot, not a spontaneous outburst of lawless rage. Someone with high-level access to Stormwind’s official papers helped make it possible."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, you can see how forged or sanctioned entry papers expose deep vulnerabilities and possible corruption within the Kingdom of Stormwind's government."
+   "text": "As a human, you can see how forged or sanctioned entry papers reveal deep weaknesses and possible corruption in the Kingdom of Stormwind’s government."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you know finding Bazil Thredd's mysterious contact matters to rooting out Defias sympathizers operating openly in the capital."
+   "text": "As an Alliance member, you know finding Bazil Thredd’s mysterious contact matters if Defias sympathizers are to be rooted out of the capital."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you recognize the craft behind passing every prison inspection with proper documentation."
+   "text": "As a rogue, you recognize the skill it takes to pass every prison inspection with proper papers."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "The Curious Visitor"
  ],
- "style": 1
+ "style": 2
 }

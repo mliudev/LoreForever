@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "High Priestess Lorthuna represents a corrupted spiritual leadership among the spires, making the battle against her especially resonant for priests defending against dark doctrine."
+   "text": "As a priest, you face High Priestess Lorthuna, a corrupted spiritual leader among the spires. The battle against her carries weight for those who defend against dark doctrine."
   },
   {
    "target": "class:Shaman",
-   "text": "With Muln and the Windshapers guiding elemental balance on Zephras, shaman have a strong spiritual stake in ensuring the island's elemental harmony survives Lorthuna's threat."
+   "text": "As a shaman, you share a spiritual stake in the Windshapers' work to guide elemental balance on Zephras. You can help ensure that harmony survives Lorthuna's threat."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is lorthuna",
     "high priestess lorthuna lore"
    ],
-   "answer": "High Priestess Lorthuna is a powerful adversary who retreated to the Rohashi Spires above Zephras using a portal. Her actions posed a dire enough threat that key defenders, including Ayessa Dawnsinger and Elaadrin Evengale, pursued her to bring her down.",
+   "answer": "High Priestess Lorthuna is a powerful adversary who flees through a portal to the Rohashi Spires above Zephras. Ayessa Dawnsinger and Elaadrin Evengale pursue her there.",
    "q": "Who is High Priestess Lorthuna?"
   },
   {
@@ -37,7 +37,7 @@
     "where is the portal going",
     "rohashi spires location"
    ],
-   "answer": "The Rohashi Spires are elevated heights looming overhead above the island of Zephras. Accessible via portal, they serve as the battleground where High Priestess Lorthuna fled to make her stand.",
+   "answer": "The Rohashi Spires are heights above the island of Zephras. High Priestess Lorthuna flees there through a portal, and her pursuers follow.",
    "q": "What are the Rohashi Spires?"
   },
   {
@@ -46,7 +46,7 @@
     "ayessa and elaadrin",
     "who enters the portal"
    ],
-   "answer": "Elaadrin Evengale and Ayessa Dawnsinger were the first to rush through the portal in immediate pursuit of High Priestess Lorthuna when she fled upward to the spires. They requested reinforcements, prompting the adventurer to follow.",
+   "answer": "Elaadrin Evengale and Ayessa Dawnsinger pursue High Priestess Lorthuna through the portal as she flees to the spires. They call for your aid.",
    "q": "Who pursued Lorthuna into the portal?"
   },
   {
@@ -55,7 +55,7 @@
     "what happened to valennia",
     "valennia forces"
    ],
-   "answer": "Valennia commanded forces during the confrontation and sustained heavy injuries in the fighting. Following the conflict, healers were dispatched to ensure her safe return, and she was brought to rest in the High Elder's residence.",
+   "answer": "Valennia and her surviving forces need immediate care after the fighting. Healers tend them, and they are escorted to recover in the High Elder's residence.",
    "q": "What happened to Valennia and her forces?"
   },
   {
@@ -64,7 +64,7 @@
     "muln leaving zephras",
     "where did muln go"
    ],
-   "answer": "Muln is an ally associated with the Windshapers who assisted on Zephras before departing back to mainland Azeroth. Before leaving, he discussed future plans for the Windshapers and their broader mission.",
+   "answer": "Muln is an ally associated with the Windshapers who departs for mainland Azeroth after discussing their future and continuing mission.",
    "q": "What is Muln's role in these events?"
   },
   {
@@ -73,7 +73,7 @@
     "is zephras safe now",
     "state of zephras island"
    ],
-   "answer": "Even after the confrontation with High Priestess Lorthuna, Zephras remains in a precarious state. The island has been left more vulnerable than ever, requiring the defenders to devise new plans to protect it from impending threats.",
+   "answer": "Zephras remains critically vulnerable after the confrontation. Its leaders must urgently plan defenses against the dangers threatening the island.",
    "q": "Is the island of Zephras safe after Lorthuna is confronted?"
   }
  ],
@@ -95,23 +95,24 @@
  ],
  "sections": [
   {
-   "body": "High Priestess Lorthuna retreats through a mystic gateway up into the Rohashi Spires overhead. With an injured ally left behind at the portal's threshold, Elaadrin Evengale and Ayessa Dawnsinger pursue her immediately into the heights, calling for any able champion to step through and aid them before Lorthuna can escape justice or consolidate her power.",
+   "body": "High Priestess Lorthuna flees through a mystic gateway into the Rohashi Spires above Zephras. An injured ally remains behind at the portal's threshold. Elaadrin Evengale and Ayessa Dawnsinger follow her into the heights and call for your help before she escapes justice or strengthens her power.",
    "spoiler": 0,
    "title": "Pursuit into the Spires"
   },
   {
-   "body": "Following the dangerous clash in the spires, the toll on the defenders is heavy. Valennia and her surviving forces require immediate tending by healers and are escorted back to recover within the High Elder's residence. While Lorthuna is met in combat, the effort leaves the coalition battered and their resources stretched thin.",
+   "body": "After the clash in the spires, Valennia and her surviving forces need a healer's care. They are escorted to recover within the High Elder's residence. Lorthuna has met them in combat, and the coalition is battered with its resources stretched thin.",
    "spoiler": 1,
    "title": "The Cost of the Battle"
   },
   {
-   "body": "With the immediate battle concluded, Muln departs back to the mainland of Azeroth after conferring on the future of the Windshapers and their ongoing mission. However, victory does not bring peace: the island of Zephras is left critically vulnerable in the wake of the conflict, compelling the remaining leadership to urgently plan defenses against whatever dangers threaten next.",
+   "body": "After the battle, Muln confers on the Windshapers and their continuing mission, then departs for mainland Azeroth. Zephras remains critically vulnerable. The leaders left behind must urgently plan defenses against the dangers that still threaten the island.",
    "spoiler": 1,
    "title": "An Island Left Vulnerable"
   }
  ],
- "summary": "Confront Lorthuna marks the critical pursuit of High Priestess Lorthuna as she flees through a portal to the Rohashi Spires above Zephras. Adventurers are tasked with reinforcing Elaadrin Evengale and Ayessa Dawnsinger in a desperate battle high above the island. The aftermath leaves key defenders wounded and the future safety of Zephras in question.",
+ "summary": "Elaadrin Evengale and Ayessa Dawnsinger pursue High Priestess Lorthuna through a portal into the Rohashi Spires above Zephras. They call for your aid before she can escape justice or strengthen her power.",
  "attribution": [
   "In-game quest text: Confront Lorthuna"
- ]
+ ],
+ "style": 2
 }

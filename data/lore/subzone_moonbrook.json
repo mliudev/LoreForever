@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Moonbrook"
  },
- "summary": "In southwestern Westfall, Moonbrook lies under Defias control, its streets emptied of peaceful residents. The Brotherhood uses the town as a guarded screen for its hidden headquarters in the Deadmines.",
+ "summary": "In southwestern Westfall, Moonbrook lies under Defias control, and its peaceful residents have fled. The Brotherhood guards the town above its hidden headquarters in the Deadmines.",
  "sections": [
   {
    "title": "A Fallen Town",
-   "body": "Before the First War, Moonbrook stood at the heart of Westfall’s breadbasket, supporting farming families and the gold shafts of the Deadmines. The Old Horde razed the town, but it was rebuilt after the Second War. Its peace did not last. The House of Nobles in Stormwind neglected the settlement, and its military protection was stripped away. Unable to resist the red-masked bandits, Moonbrook’s people were driven from their homes. Citizens and teachers fled toward Sentinel Hill and Elwynn Forest.",
+   "body": "Before the First War, Moonbrook stood at the heart of Westfall’s breadbasket. Farming families and the Deadmines gold shafts depended on the town. The Old Horde razed it, but Moonbrook rose again after the Second War.\n\nPeace did not last. The House of Nobles in Stormwind neglected the settlement and stripped away its military protection. Unable to resist the red-masked bandits, the people fled their homes for Sentinel Hill and Elwynn Forest. Citizens and teachers left alike.",
    "spoiler": 0
   },
   {
    "title": "Defias Stronghold",
-   "body": "Moonbrook’s streets and ransacked homes are patrolled by red-masked thugs and rogue wizards. Harvest golems roam the fields around town. At the edge of Moonbrook, an unassuming barn hides an entrance to the Deadmines beneath it. The Brotherhood guards the town above its tunnels, where rebellion against Stormwind is being prepared.",
+   "body": "Red-masked thugs and rogue wizards patrol Moonbrook’s streets and ransacked homes. Harvest golems roam the surrounding fields. At the town’s edge, an unassuming barn conceals an entrance beneath it. The Brotherhood guards Moonbrook above the Deadmines tunnels, where rebellion against Stormwind is being prepared.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why are there bandits in moonbrook",
     "who took over moonbrook"
    ],
-   "answer": "Moonbrook’s peaceful residents fled when the Defias Brotherhood seized control of Westfall. With no Stormwind Army garrison in the region, the townsfolk were forced out and the bandits took over the town."
+   "answer": "Moonbrook’s peaceful residents fled when the Defias Brotherhood seized control of Westfall. With no Stormwind Army garrison in the region, townsfolk were forced out and bandits took over."
   },
   {
    "q": "Where does the mine inside Moonbrook lead?",
@@ -37,7 +37,7 @@
     "what is under moonbrook",
     "moonbrook mine entrance"
    ],
-   "answer": "The mine entrance beneath the barn at Moonbrook’s edge leads into the Deadmines. Once a vast source of gold for Stormwind, its tunnels now shelter the Defias Brotherhood and serve as their staging ground."
+   "answer": "The entrance beneath the barn at Moonbrook’s edge leads into the Deadmines. Once a vast source of gold for Stormwind, its tunnels now shelter the Defias Brotherhood and serve as their staging ground."
   },
   {
    "q": "Who used to live here before the bandits?",
@@ -46,7 +46,7 @@
     "who lived in moonbrook",
     "stalvan mistmantle school"
    ],
-   "answer": "Miners, farmers, and tradespeople once lived in Moonbrook and supported Westfall’s agriculture. Stalvan Mistmantle briefly led the local Moonbrook Schoolhouse before the bandits overran the town."
+   "answer": "Miners, farmers, and tradespeople once lived in Moonbrook and supported Westfall’s agriculture. Stalvan Mistmantle briefly led the local Moonbrook Schoolhouse before bandits overran the town."
   },
   {
    "q": "Does Stormwind plan to reclaim the town?",
@@ -54,17 +54,17 @@
     "will stormwind save moonbrook",
     "why doesn't the army help moonbrook"
    ],
-   "answer": "Stormwind’s court has repeatedly refused to send royal troops to free Moonbrook and the surrounding farms, saying its resources are stretched thin. The volunteer People’s Militia at Sentinel Hill is left to defend the area."
+   "answer": "Stormwind’s court has repeatedly refused to send royal troops to free Moonbrook and the surrounding farms. It says its resources are stretched thin, leaving the volunteer People’s Militia at Sentinel Hill to defend the area."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Moonbrook is a bitter reminder of the kingdom’s neglect, where law-abiding subjects were left to face the Defias Brotherhood alone."
+   "text": "For the Alliance, Moonbrook is a bitter reminder of the kingdom’s neglect. Its law-abiding subjects were left to face the Defias Brotherhood alone."
   },
   {
    "target": "class:Rogue",
-   "text": "As a Rogue, you can see in Moonbrook’s alleys and ransacked homes an outlaw syndicate operating in broad daylight."
+   "text": "As a Rogue, you can see an outlaw syndicate operating in broad daylight among Moonbrook’s alleys and ransacked homes."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Moonbrook"
  ],
- "style": 1
+ "style": 2
 }

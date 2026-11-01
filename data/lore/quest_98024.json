@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This journey directs newly arrived champions to take up arms for the Horde, offering a trial by fire in Kalimdor's rugged frontier."
+   "text": "Your journey brings you to the Horde's rugged frontier in Kalimdor, where you are called to prove yourself in its service."
   },
   {
    "target": "race:Skyborne",
-   "text": "Having arrived in Azeroth from the elemental plane, travelers are urged not to underestimate mortal conflicts and to prove their mettle in service to the Horde."
+   "text": "You have arrived in Azeroth from the elemental plane. Mortal conflicts may seem small beside what you have known, but the Horde's dangers are real, and you are urged to prove your mettle in its service."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "crossroads leader",
     "where is thork"
    ],
-   "answer": "Thork is a prominent Horde authority stationed at the Crossroads in the Barrens. He oversees local defense and directs adventurers to assist with the numerous threats confronting the settlement and surrounding territories.",
+   "answer": "Thork is a Horde authority stationed at the Crossroads in the Barrens. He oversees the local defense and directs newcomers to help against threats to the settlement and nearby lands.",
    "q": "Who is Thork?"
   },
   {
@@ -37,7 +37,7 @@
     "crossroads barrens",
     "why go to crossroads"
    ],
-   "answer": "The Crossroads is a central Horde outpost and trading hub situated at the intersection of major trails in the Barrens. Surrounded by hostile wildlife, centaur tribes, and quilboar raiders, its defenders constantly require aid to keep vital supply lines secure.",
+   "answer": "The Crossroads is a Horde outpost and trading hub where major trails meet in the Barrens. Hostile wildlife, centaur tribes, and quilboar raiders threaten the settlement, so its defenders need help keeping supply lines secure.",
    "q": "What is the Crossroads?"
   },
   {
@@ -45,7 +45,7 @@
     "where are the barrens",
     "barrens location"
    ],
-   "answer": "The Barrens is a vast, arid savannah located in central Kalimdor, southwest of Durotar. It serves as a vital expanse connecting Horde territories across the continent.",
+   "answer": "The Barrens is a vast, arid savannah in central Kalimdor, southwest of Durotar. It connects Horde territories across the continent.",
    "q": "Where are the Barrens located?"
   },
   {
@@ -54,7 +54,7 @@
     "why elemental plane",
     "journey from elemental plane"
    ],
-   "answer": "The quest notes that the traveler has recently arrived from the elemental plane. Although otherworldly conflicts might seem vast, the perils threatening the mortal realm and the Horde are immediate and severe.",
+   "answer": "The traveler has recently arrived in Azeroth from the elemental plane. Conflicts there may seem vast, but dangers to the mortal realm and the Horde are immediate and severe.",
    "q": "Why does the quest mention the elemental plane?"
   },
   {
@@ -62,7 +62,7 @@
     "crossroads quest purpose",
     "why send to crossroads"
    ],
-   "answer": "The mission directs newcomers to report directly to Thork at the Crossroads, integrating them into the frontline efforts of the Horde and offering a path to grow formidable through honorable service.",
+   "answer": "You are sent to report to Thork at the Crossroads. There, you can join the Horde's frontline efforts and grow formidable through honorable service.",
    "q": "What is the purpose of Journey to the Crossroads?"
   },
   {
@@ -70,7 +70,7 @@
     "what dangers in barrens",
     "barrens threats"
    ],
-   "answer": "The Barrens faces continual aggression from native predators, roaming centaur, quilboar warbands, and Alliance encroachment, making every outpost a contested bastion in need of capable defenders.",
+   "answer": "The Barrens faces continual aggression from native predators, roaming centaur, quilboar warbands, and Alliance encroachment. Its outposts need capable defenders to hold their ground.",
    "q": "What dangers do the citizens of the Crossroads face?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Travelers arriving on Azeroth after journeying from the elemental plane are greeted with a sobering reality: mortal conflicts may seem modest by comparison, but the dangers facing the Horde are very real. Service on the front lines provides a vital proving ground for those seeking to grow formidable while aiding the realm.",
+   "body": "You have come to Azeroth from the elemental plane. Mortal conflicts may seem small beside what you have known, but the Horde faces dangers of its own. Service on the frontier gives you a chance to grow formidable while aiding the realm.",
    "spoiler": 0,
    "title": "A Call to the Frontier"
   },
   {
-   "body": "To begin their service, adventurers are directed southwest into the vast, sun-baked plains of the Barrens. There lies the Crossroads, a pivotal junction and vital Horde outpost whose proud defenders remain perpetually pressed by surrounding perils. Reporting directly to Thork integrates newcomers into the settlement's defense.",
+   "body": "The Barrens lie southwest, and the Crossroads stands among its broad, sun-baked plains. This Horde outpost is a vital junction, though dangers press its defenders from every side. Report to Thork and join the settlement's defense.",
    "spoiler": 0,
    "title": "The Crossroads of Kalimdor"
   }
  ],
- "summary": "Journey to the Crossroads directs newly arrived travelers from the elemental plane to the rugged savannah of the Barrens. Adventurers are tasked with reporting to Thork at the Crossroads to assist Horde forces contending with the harsh frontier. It serves as an essential introduction to the mortal perils facing the Horde in Kalimdor.",
+ "summary": "A newly arrived traveler from the elemental plane is sent to the Crossroads in the Barrens. There, Thork calls for aid as the Horde faces the dangers of Kalimdor's frontier.",
  "attribution": [
   "In-game quest text: Journey to the Crossroads"
- ]
+ ],
+ "style": 2
 }

@@ -8,21 +8,21 @@
   "wiki": "Magni Bronzebeard",
   "refs": 4
  },
- "summary": "In Ironforge, Magni Bronzebeard leads his people through grief and political strain. Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan, he is a veteran of the Second War who champions dwarven archaeology across Azeroth.",
+ "summary": "In Ironforge, Magni Bronzebeard bears his people's grief and political strain. Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan, he is a veteran of the Second War who champions dwarven archaeology across Azeroth.",
  "sections": [
   {
    "title": "Lord of the Mountain",
-   "body": "Magni Bronzebeard grew up as the eldest of three brothers, knowing the mountain's rule would one day fall to him. When the Horde invaded during the Second War, he held Ironforge behind its impenetrable gates. Once the siege broke, he pledged Khaz Modan to the Alliance of Lordaeron. In the peace that followed, Magni welcomed his gnomish allies after Gnomeregan fell, granting High Tinker Gelbin Mekkatorque and the refugees sanctuary beneath the mountain. Magni then sought to unite the fractured northern and southern kingdoms. He asked Mekkatorque to build the Deeprun Tram, an unprecedented route beneath the earth that connects Ironforge directly to Stormwind.",
+   "body": "Magni Bronzebeard grew up the eldest of three brothers, knowing the mountain would one day be his to rule. When the Horde invaded during the Second War, he held Ironforge behind its impenetrable gates. Once the siege broke, he pledged Khaz Modan to the Alliance of Lordaeron. In the peace that followed, Magni welcomed his gnomish allies after Gnomeregan fell. He gave High Tinker Gelbin Mekkatorque and the refugees sanctuary beneath the mountain.\n\nMagni then sought to unite the fractured northern and southern kingdoms. He asked Mekkatorque to build the Deeprun Tram, an unprecedented route beneath the earth that connects Ironforge directly to Stormwind.",
    "spoiler": 0
   },
   {
    "title": "A Brother Lost",
-   "body": "Magni carries a deep sorrow beneath his regal bearing. During the Third War, word came from Northrend that his beloved younger brother, Muradin, had perished on Prince Arthas Menethil's expedition. Grief overwhelmed Magni, but he and his youngest brother, Brann, remained steadfast in their duty to the dwarven people. Magni still rules wisely, with that loss weighing upon him.",
+   "body": "Magni carries deep sorrow beneath his regal bearing. During the Third War, word came from Northrend that his beloved younger brother, Muradin, had perished on Prince Arthas Menethil's expedition. Grief overwhelmed Magni, but he and his youngest brother, Brann, remained steadfast in their duty to the dwarven people. Magni still rules wisely, with that loss weighing upon him.",
    "spoiler": 0
   },
   {
    "title": "Excavating the Past",
-   "body": "Magni has turned dwarven society from traditional commercial mining toward the unearthing of ancient history. Strange titan relics found deep beneath the earth inspired him to co-found the Explorers' League with his surviving brother, Brann Bronzebeard. Dwarven dig sites now span the continents, from Dun Morogh to Kalimdor, as the League seeks the truth of the dwarves' fabled origins. Peace at home remains fragile. Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
+   "body": "Magni has turned dwarven society from commercial mining toward the unearthing of ancient history. Strange titan relics found deep beneath the earth inspired him to found the explorers' league with his surviving brother, Brann Bronzebeard. Dwarven dig sites now span the continents, from Dun Morogh to Kalimdor, as the League seeks the truth of the dwarves' fabled origins.\n\nPeace at home remains fragile. Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "magni brothers",
     "muradin bronzebeard fate"
    ],
-   "answer": "Magni is the eldest of three brothers. Muradin served as an Alliance ambassador to Lordaeron and was reported killed by Prince Arthas in Northrend. Brann, the youngest, is a renowned explorer who travels the far corners of the world leading the Explorers' League."
+   "answer": "Magni is the eldest of three brothers. Muradin served as an Alliance ambassador to Lordaeron and was reported killed by Prince Arthas in Northrend. Brann, the youngest, is a renowned explorer who travels the far corners of the world leading the explorers' league."
   },
   {
    "q": "Where is Princess Moira?",
@@ -79,7 +79,7 @@
     "dwarf archaeologists",
     "why are dwarves digging"
    ],
-   "answer": "The Explorers' League is an archaeological organization founded by King Magni and his brother Brann. After ancient titan ruins were discovered, Magni turned dwarven industries toward uncovering their race's origins and sent survey teams across Azeroth."
+   "answer": "The explorers' league is an archaeological organization founded by King Magni and his brother Brann. After ancient titan ruins were discovered, Magni turned dwarven industries toward uncovering their race's origins and sent survey teams across Azeroth."
   }
  ],
  "angles": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Magni Bronzebeard"
  ],
- "style": 1
+ "style": 2
 }

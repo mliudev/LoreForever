@@ -20,16 +20,16 @@
    "Dead-tooth Jack"
   ]
  },
- "summary": "A stolen badge puts Marshal Haggard's authority in Defias hands. The retired officer lives in eastern Elwynn Forest, where Dead-tooth Jack tricked him into surrendering his official insignia. Jack wore a Stormwind tabard in the dark and posed as Marshal Dughan. Haggard needs the badge back before the Defias Brotherhood can use it to impersonate Stormwind officials.",
+ "summary": "In eastern Elwynn Forest, retired Marshal Haggard needs your help: Dead-tooth Jack tricked him into giving up his badge. Jack wore a Stormwind tabard and pretended to be Marshal Dughan. Haggard fears the Defias Brotherhood will use the badge to impersonate Stormwind officials.",
  "sections": [
   {
    "title": "A Con in the Dark",
-   "body": "Marshal Haggard lives in an isolated cottage on Elwynn's eastern ridges. One night, a figure in a Stormwind tabard approached, claiming official business and asking for Haggard's old marshal's badge. Believing he was handing it to a fellow officer, Haggard complied. The stranger laughed in his face and vanished into the woods. The thief was a Defias rogue called Dead-tooth Jack.",
+   "body": "At night, a figure wearing a Stormwind tabard came to Haggard's isolated cottage on Elwynn's eastern ridges. The stranger claimed to have official business and asked for Haggard's old marshal's badge. Haggard believed he was handing it to a fellow officer, so he gave it over. The figure laughed and vanished into the woods. He was a Defias rogue called Dead-tooth Jack.",
    "spoiler": 0
   },
   {
    "title": "The Threat of False Authority",
-   "body": "Marshal Haggard has retired, but his old badge still carries the legal weight of Stormwind. Defias bandits are creeping across Elwynn, Westfall, and Redridge, and the badge could help them pass guard checkpoints, redirect patrols, or take command of supplies. Jack retreated to a camp to the south and left the badge locked in a strongbox. Haggard needs it recovered before the Defias can cause serious harm.",
+   "body": "Marshal Haggard has retired, but his badge still carries Stormwind's legal authority. Defias bandits are creeping across Elwynn, Westfall, and Redridge. With the badge, they could pass guard checkpoints, redirect patrols, or take command of supplies. Jack retreated to a camp to the south and locked the badge in a strongbox. Haggard needs it back before the Defias cause serious harm.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is dead tooth",
     "dead tooth jack lore"
    ],
-   "answer": "Dead-tooth Jack is a Defias operative in eastern Elwynn Forest. Under cover of darkness, he posed as Marshal Dughan and tricked retired Marshal Haggard into handing over his official Stormwind badge."
+   "answer": "Dead-tooth Jack is a Defias operative in eastern Elwynn Forest. At night, he posed as Marshal Dughan and tricked retired Marshal Haggard into handing over his official Stormwind badge."
   },
   {
    "q": "Why does Marshal Haggard need his badge back?",
@@ -50,7 +50,7 @@
     "haggards badge",
     "why does the badge matter"
    ],
-   "answer": "Marshal Haggard needs his badge back because it is an authentic symbol of Stormwind authority. He fears the Defias will use it to impersonate officials, bypass military patrols, and cause havoc across the realm."
+   "answer": "Marshal Haggard needs his badge back because it is an authentic sign of Stormwind authority. He fears the Defias will use it to impersonate officials, bypass military patrols, and cause havoc across the realm."
   },
   {
    "q": "How did Jack manage to fool Marshal Haggard?",
@@ -59,7 +59,7 @@
     "haggard tricked",
     "why did haggard give the badge"
    ],
-   "answer": "Jack approached Haggard's cottage at night wearing a Stormwind tabard. In the poor light, Haggard mistook him for Marshal Dughan of Goldshire and handed over the insignia, believing he was giving it to a fellow officer."
+   "answer": "Jack came to Haggard's cottage at night wearing a Stormwind tabard. In the poor light, Haggard mistook him for Marshal Dughan of Goldshire and gave him the badge, believing he was helping a fellow officer."
   },
   {
    "q": "Where does Jack keep the stolen badge?",
@@ -68,7 +68,7 @@
     "where is the badge",
     "dead tooth camp"
    ],
-   "answer": "Jack keeps the badge locked in a strongbox at his bandit camp south of Marshal Haggard's house. He carries the key to the chest on his person."
+   "answer": "Jack keeps the stolen badge locked in a strongbox at his bandit camp south of Marshal Haggard's house. He carries the key on his person."
   },
   {
    "q": "Who sent you to Marshal Haggard in the first place?",
@@ -77,7 +77,7 @@
     "burlguard",
     "questgiver start"
    ],
-   "answer": "Harry Burlguard, a veteran warrior who frequents the Pig and Whistle Tavern in Stormwind, sends adventurers to Marshal Haggard. He knows the retired marshal may part with spare weaponry in exchange for help."
+   "answer": "Harry Burlguard, a veteran warrior who frequents the Pig and Whistle Tavern in Stormwind, sends adventurers to Marshal Haggard. He knows the retired marshal may trade spare weaponry for help."
   },
   {
    "q": "What happens once the badge is returned?",
@@ -86,21 +86,21 @@
     "haggard reaction",
     "badge returned"
    ],
-   "answer": "Marshal Haggard is greatly relieved that the Defias cannot use his identity or rank against the kingdom. In gratitude, he salutes you and offers your choice of well-maintained military weapons from his years in service."
+   "answer": "Marshal Haggard is greatly relieved that the Defias cannot use his identity or rank against the kingdom. He salutes you in thanks and offers your choice of well-maintained military weapons from his years in service."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For you, a human of Stormwind, this theft shows how vulnerable the kingdom's rural borders are to Defias infiltrators. They will wear the crown's own colors to deceive retired veterans."
+   "text": "As a human of Stormwind, you can see how vulnerable the kingdom's rural borders are to Defias infiltrators. They wear the crown's own colors to deceive retired veterans."
   },
   {
    "target": "class:Warrior",
-   "text": "Marshal Haggard was once a veteran frontline fighter. As a warrior, you can earn his thanks and choose from spare arms kept from his years of service."
+   "text": "Marshal Haggard was once a veteran frontline fighter. As a warrior, you can earn his thanks and choose from the spare arms he kept from his years of service."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can see how Dead-tooth Jack's caper depends on disguise, deception, and impudence as much as crude highway robbery."
+   "text": "As a rogue, you can see that Dead-tooth Jack's caper depends on disguise, deception, and impudence as much as crude highway robbery."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Dead-tooth Jack"
  ],
- "style": 1
+ "style": 2
 }

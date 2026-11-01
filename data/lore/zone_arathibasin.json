@@ -12,21 +12,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Arathi Basin is a fertile valley in the Arathi Highlands and one of the main fronts in the war between the humans and the Forsaken. The League of Arathor fights to reclaim the lost lands of Arathor for its backers in Stormwind, while the Defilers, elite Forsaken troops under the dreadlord Varimathras, seek to cut the vital link between the humans and their dwarven allies to the south. Both sides battle for the basin's farm, stables, lumber mill, blacksmith and gold mine, whose resources feed the war.",
+ "summary": "In Arathi Basin, the League of Arathor and the Defilers fight over the valley's wealth. The League seeks to reclaim Arathor's lost lands for Stormwind, while the Forsaken aim to cut the humans off from their dwarven allies to the south. Its farm, stables, lumber mill, blacksmith and gold mine feed the war.",
  "sections": [
   {
    "title": "The Larder of Arathor",
-   "body": "Long before the Third War, the basin's fields, mills and mines fed the realm of Stromgarde, heir to ancient Arathor. When Lordaeron fell and Stromgarde crumbled, the valley was left almost undefended, its farmsteads and workshops still standing. Whoever holds them now holds grain, timber, iron and gold, the stuff that keeps an army in the field. That makes the quiet valley one of the most fought-over places in the highlands.",
+   "body": "Long before the Third War, Arathi Basin's fields, mills and mines fed Stromgarde, heir to ancient Arathor. When Lordaeron fell and Stromgarde crumbled, the valley was left almost undefended, though its farmsteads and workshops still stood.\n\nWhoever holds them now commands grain, timber, iron and gold. Those stores keep an army in the field, and make this quiet valley one of the most fought-over places in the highlands.",
    "spoiler": 0
   },
   {
    "title": "The League and the Defilers",
-   "body": "The League of Arathor is an Alliance company of Stromgarde's survivors and their friends, backed by Stormwind and working out of Refuge Pointe, sworn to reclaim the lands their forebears built. The Defilers are the Forsaken's answer: hardened troops of the Undercity under the watchful eye of Varimathras, operating alongside the Horde at Hammerfall. Their aim is to strip the basin of its riches and sever the road that ties the northern humans to the dwarves of the south.",
+   "body": "The League of Arathor is an Alliance company formed from Stromgarde's survivors and their friends. Backed by Stormwind, they work from Refuge Pointe and have sworn to reclaim the lands their forebears built.\n\nThe Defilers are the Forsaken's answer: hardened troops of the Undercity under Varimathras's watchful eye. They fight alongside the Horde at Hammerfall. Their aim is to take the basin's riches and sever the road joining the northern humans to the dwarves of the south.",
    "spoiler": 0
   },
   {
    "title": "Holding the Basin",
-   "body": "Five strongpoints decide the battle: the farm, the stables, the lumber mill, the blacksmith and the gold mine. Each side races to raise its banner over them and defend what it takes, because every strongpoint held adds to its store of resources. Raiders slip between them to steal a point while the enemy is busy elsewhere, and the side that gathers enough resources first wins the basin, for a time.",
+   "body": "Five strongpoints decide the battle: the farm, the stables, the lumber mill, the blacksmith and the gold mine. Each side races to raise its banner over them and defend what it claims. Every strongpoint held adds to its store of resources.\n\nRaiders slip between the points to seize one while the enemy is busy elsewhere. The side that gathers enough resources first wins the basin, for a time.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "arathi basin battleground",
     "ab"
    ],
-   "answer": "Arathi Basin is a battleground in a fertile valley of the Arathi Highlands. The Alliance's League of Arathor and the Forsaken Defilers fight there for control of its farm, stables, lumber mill, blacksmith and gold mine, whose resources feed their war."
+   "answer": "Arathi Basin is a valley in the Arathi Highlands where the League of Arathor and the Forsaken Defilers fight for control. Its farm, stables, lumber mill, blacksmith and gold mine provide resources for the war."
   },
   {
    "q": "Who are the League of Arathor?",
@@ -47,7 +47,7 @@
     "alliance in arathi basin",
     "arathor league"
    ],
-   "answer": "The League of Arathor is an Alliance company of Stromgarde's survivors and their allies, backed by Stormwind and based near Refuge Pointe. They fight to reclaim the lost lands of Arathor and the riches of the basin."
+   "answer": "The League of Arathor is an Alliance company of Stromgarde's survivors and their allies. Backed by Stormwind and based at Refuge Pointe, they fight to reclaim Arathor's lost lands and the basin's riches."
   },
   {
    "q": "Who are the Defilers?",
@@ -56,7 +56,7 @@
     "forsaken in arathi basin",
     "defilers varimathras"
    ],
-   "answer": "The Defilers are elite Forsaken troops serving under the dreadlord Varimathras, Lady Sylvanas's lieutenant. Working alongside the Horde at Hammerfall, they aim to seize the basin's resources and sever the link between the humans of the north and their dwarven allies."
+   "answer": "The Defilers are elite Forsaken troops serving under the dreadlord Varimathras, Lady Sylvanas's lieutenant. They fight alongside the Horde at Hammerfall, seeking the basin's resources and a severed link between northern humans and their dwarven allies."
   },
   {
    "q": "Why do the Alliance and the Forsaken fight over Arathi Basin?",
@@ -65,7 +65,7 @@
     "why fight for arathi basin",
     "arathi basin war"
    ],
-   "answer": "The basin's farms, mills and mines can feed and arm an army. For the League, winning it back is a step toward restoring Arathor; for the Defilers, taking it starves the humans and cuts them off from their dwarven allies to the south."
+   "answer": "The basin's farms, mills and mines can feed and arm an army. For the League, taking it back advances the recovery of Arathor's lands; for the Defilers, it means denying resources to the humans and cutting them off from their dwarven allies to the south."
   },
   {
    "q": "How is the battle in Arathi Basin won?",
@@ -74,25 +74,25 @@
     "arathi basin resources",
     "how to win arathi basin"
    ],
-   "answer": "Both sides fight to capture and hold the basin's five strongpoints: the farm, stables, lumber mill, blacksmith and gold mine. Each one held adds to its side's resources, and the side that gathers enough first wins."
+   "answer": "Both sides fight to capture and hold the basin's five strongpoints: the farm, stables, lumber mill, blacksmith and gold mine. Each adds resources to its side, and the first to gather enough wins."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Every strongpoint the League holds is a field of Arathor won back, and grain and iron on their way to Stormwind's soldiers."
+   "text": "Every strongpoint the League holds is a field of Arathor reclaimed, with grain and iron bound for Stormwind's soldiers."
   },
   {
    "target": "faction:Horde",
-   "text": "Fighting beside the Defilers, the Horde bleeds the humans of the resources they need and keeps them cut off from the dwarves to the south."
+   "text": "Fighting beside the Defilers, the Horde drains the humans of needed resources and keeps them cut off from the dwarves to the south."
   },
   {
    "target": "race:Human",
-   "text": "These farms fed Stromgarde for generations. For a human, the basin is not a prize but a home to be taken back."
+   "text": "These farms once fed Stromgarde for generations. As a human, you see the basin as a home to take back, not a prize."
   },
   {
    "target": "race:Undead",
-   "text": "The Forsaken remember the living kingdoms that cast them out. Taking the basin from Arathor's heirs is a cold and fitting revenge."
+   "text": "The Forsaken remember the living kingdoms that cast them out. As one of them, you may see taking the basin from Arathor's heirs as cold and fitting revenge."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  "attribution": [
   "Refuge Pointe",
   "Hammerfall"
- ]
+ ],
+ "style": 2
 }

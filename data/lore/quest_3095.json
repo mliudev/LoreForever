@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A sealed scroll bearing Dannal Stern\u2019s mark reaches you while you deal with the Scourge. It calls you to Deathknell, where Dannal speaks of your freedom and offers to teach you.",
+ "summary": "A sealed scroll bearing Dannal Stern’s mark finds you while you deal with the Scourge. It calls you to Deathknell, where Dannal speaks of your freedom and offers to teach you.",
  "sections": [
   {
    "title": "A Sealed Message",
-   "body": "While you were away dealing with the mindless Scourge, a scroll arrived for you. Its seal appears to be Dannal Stern\u2019s, the warrior trainer in Deathknell. You are asked to read it and speak with him before setting out again.",
+   "body": "While you were away dealing with the mindless Scourge, a scroll arrived for you. Its seal bears Dannal Stern’s mark. He is the warrior trainer in Deathknell, and the message asks you to read it and speak with him before setting out again.",
    "spoiler": 0
   },
   {
    "title": "Freedom and Training",
-   "body": "Dannal says others escaped death and fled to town, and he sees promise in their resilience. He credits Sylvanas with freeing you in body and spirit, though the plague still afflicts you. He offers to teach you as you gain experience, and says Sylvanas will need people of your class to help save the Forsaken.",
+   "body": "Dannal says others escaped death and fled to town. He sees promise in their resilience. He credits Sylvanas with freeing you in body and spirit, though the plague still afflicts you. He offers to teach you as you gain experience. Sylvanas will need people of your class to help save the Forsaken.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "who sent this",
     "Dannal scroll"
    ],
-   "answer": "The scroll bears the seal of Dannal Stern, the warrior trainer in Deathknell."
+   "answer": "The scroll bears Dannal Stern’s seal. He is the warrior trainer in Deathknell."
   },
   {
    "q": "Why did the scroll arrive?",
@@ -41,7 +41,7 @@
     "what's this scroll for",
     "simple scroll"
    ],
-   "answer": "It asks you to read it and speak with Dannal Stern in Deathknell."
+   "answer": "The scroll asks you to read it and speak with Dannal Stern in Deathknell."
   },
   {
    "q": "What does Dannal say about Sylvanas?",
@@ -50,7 +50,7 @@
     "what did Sylvanas do",
     "Sylvanas and me"
    ],
-   "answer": "Dannal credits Sylvanas with freeing you in body and spirit, though the plague still affects you."
+   "answer": "Dannal credits Sylvanas with freeing you in body and spirit, though the plague still afflicts you."
   },
   {
    "q": "What does Dannal offer?",
@@ -85,7 +85,7 @@
  "related": [
   "subzone:deathknell"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: Einfache Rolle"
  ]

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Deadmines"
  },
- "summary": "Beneath Moonbrook, the Deadmines lie silent under a ruined town in Westfall. Once the greatest gold producer in human lands, the mines were abandoned during the First War. Now rumors speak of sinister forces in the forgotten shafts, though their danger remains unknown.",
+ "summary": "Beneath ruined Moonbrook, the Deadmines lie quiet, though rumors speak of danger in their forgotten shafts. Once the greatest gold producer in human lands, the mines fell silent during the First War.",
  "sections": [
   {
    "title": "A Vein of Gold and Blood",
-   "body": "The Deadmines once led all human mines in gold, with Whitestone oak for timber and supports. When the orcish Horde pushed north, miners fled in haste. Sir Anduin Lothar entered the treacherous depths to recover the sacred Tome of Divinity. Subterranean ogres held him captive for twenty months before rescuers freed him. After the kingdom fell, the shafts went quiet, and people came to say they were cursed.",
+   "body": "Gold once poured from the Deadmines, the richest mines in human lands. Whitestone oak supplied their timber and supports. When the orcish Horde pushed north, the miners fled in haste.\n\nDuring the First War, Sir Anduin Lothar entered the treacherous depths to recover the sacred Tome of Divinity. Subterranean ogres held him captive for twenty months before rescuers freed him. After the kingdom fell, the shafts went quiet, and people came to say they were cursed.",
    "spoiler": 0
   },
   {
    "title": "VanCleef's Foundry",
-   "body": "After Stormwind's stonemasons rioted, the newly formed Defias Brotherhood took the Deadmines as its chief refuge. Stormwind's Miners' League tried to reopen the tunnels under Foreman Thistlenettle, but Defias brigands ambushed the workers and collapsed the shafts. The slain miners now wander as restless undead. Ogre enforcers and goblin tinkerers guard the deep tunnels, where the Defias have built an industrial war camp around a shipyard in Ironclad Cove.",
+   "body": "After Stormwind's stonemasons rioted, the newly formed Defias Brotherhood made the Deadmines its chief refuge. Stormwind's Miners' League tried to reopen the tunnels under Foreman Thistlenettle. Defias brigands ambushed the workers and collapsed the shafts, and the slain miners now wander as restless undead.\n\nOgre enforcers and goblin tinkerers guard the deep tunnels. There, around a shipyard in Ironclad Cove, the Defias have built an industrial war camp.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "how to enter deadmines",
     "deadmines location"
    ],
-   "answer": "Find the main entrance inside the Defias Hideout in ruined Moonbrook, in southwestern Westfall. Winding down through the basements leads into the mine shafts."
+   "answer": "The main entrance lies inside the Defias Hideout in ruined Moonbrook, in southwestern Westfall. Wind down through the basements to reach the mine shafts."
   },
   {
    "q": "Why were the mines abandoned in the first place?",
@@ -36,7 +36,7 @@
     "why did deadmines close",
     "why are deadmines abandoned"
    ],
-   "answer": "The mines were abandoned during the First War, when the Horde overran the kingdom's southern regions. War raged and ogres moved into the depths, ending the mining work. The empty tunnels soon gained a reputation for being haunted."
+   "answer": "The mines fell silent during the First War, when the Horde overran the kingdom's southern regions. War raged and ogres moved into the depths, ending the mining work. The empty tunnels soon gained a reputation for being haunted."
   },
   {
    "q": "What is the Defias Brotherhood building down here?",
@@ -62,17 +62,17 @@
     "lothar deadmines",
     "anduin lothar deadmines"
    ],
-   "answer": "Sir Anduin Lothar journeyed deep into the Deadmines during the First War to retrieve the sacred Tome of Divinity. Ogres dwelling in the caverns captured him and held him for nearly two years before he was rescued."
+   "answer": "During the First War, Sir Anduin Lothar journeyed deep into the Deadmines to retrieve the sacred Tome of Divinity. Ogres in the caverns captured him and held him for nearly two years before he was rescued."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you can trace a holy history to the Deadmines. Sir Anduin Lothar entered their darkest chambers during the First War to recover the sacred Tome of Divinity from savage ogres."
+   "text": "As a paladin, you share a holy history with the Deadmines. During the First War, Sir Anduin Lothar entered their darkest chambers to recover the sacred Tome of Divinity from savage ogres."
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you walk where human mining once reached its height. Before the First War, the Deadmines led all human lands in gold production, before goblin machinery and Defias outlaws took over."
+   "text": "As a miner, you walk where human mining once reached its height. Before the First War, the Deadmines led all human lands in gold production. Goblin machinery and Defias outlaws later took over."
   }
  ],
  "keywords": [
@@ -100,5 +100,5 @@
  "attribution": [
   "Deadmines"
  ],
- "style": 1
+ "style": 2
 }

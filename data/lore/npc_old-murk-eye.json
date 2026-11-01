@@ -8,11 +8,11 @@
   "wiki": "Old Murk-Eye",
   "refs": 0
  },
- "summary": "Near the Westfall Lighthouse, Old Murk-Eye prowls the southern coast. His kind revere him, and sailors fear the lethal menace he poses to anyone who wanders near the lighthouse.",
+ "summary": "Near the Westfall Lighthouse, Old Murk-Eye stalks the southern coast. His kind revere him, while sailors fear the deadly danger he brings to anyone who comes near the lighthouse.",
  "sections": [
   {
    "title": "Terror of the Coastline",
-   "body": "Old Murk-Eye prowls the surf around the Westfall Lighthouse, where he is far tougher and more aggressive than the murlocs common along Westfall’s shores. His attacks have brought enough grief to local mariners that the spectral Captain Grayson seeks his death. Grayson offers a bounty for Old Murk-Eye’s pristine scales, hoping to break his hold on the shallows.",
+   "body": "Old Murk-Eye hunts in the surf around the Westfall Lighthouse. He is far tougher and more aggressive than the murlocs common along Westfall’s shores. His attacks have brought grief to local mariners, so the spectral Captain Grayson seeks his death. Grayson offers a bounty for Old Murk-Eye’s pristine scales, hoping to break his hold on the shallows.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "grayson murk eye",
     "why kill old murk eye"
    ],
-   "answer": "Captain Grayson sees Old Murk-Eye as a persistent threat to the coastal waters. He offers a bounty for a scale as proof of the deed, hoping to curb the violence along the beach."
+   "answer": "Captain Grayson sees Old Murk-Eye as a continuing threat to the coastal waters. He offers a bounty for a scale as proof of the deed, hoping to curb the violence along the beach."
   },
   {
    "q": "Is Old Murk-Eye different from ordinary murlocs?",
@@ -68,5 +68,5 @@
  "attribution": [
   "Old Murk-Eye"
  ],
- "style": 1
+ "style": 2
 }

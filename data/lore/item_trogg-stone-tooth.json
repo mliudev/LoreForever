@@ -10,11 +10,11 @@
    "quest:267"
   ]
  },
- "summary": "In Loch Modan, Trogg Stone Tooth comes from the Stonesplinter troggs in the hills. Rugged and mineralized, each tooth gives dwarven defenders proof that the troggs are being hunted along the southern frontier.",
+ "summary": "In Loch Modan's hills, Stonesplinter troggs leave rugged, mineralized teeth behind. Dwarven defenders use each tooth as proof that the troggs are being hunted along the southern frontier.",
  "sections": [
   {
    "title": "Bounty of the Southern Gate",
-   "body": "Captain Rugelfuss calls for volunteers to hunt the Stonesplinter troggs near Loch Modan's southern gate. With the Ironforge Reserve committed to the Alliance Front, local dwarven garrisons are stretched thin across Khaz Modan. Rugelfuss cannot spare the soldiers at the southern gate guard tower for patrols in the nearby hills. His standing call asks volunteers to hunt the lurking troggs and bring back Trogg Stone Teeth as crude, undeniable proof of each beast slain.",
+   "body": "Captain Rugelfuss calls for volunteers to hunt Stonesplinter troggs near Loch Modan's southern gate. With the Ironforge Reserve committed to the Alliance Front, local dwarven garrisons are stretched thin across Khaz Modan. Rugelfuss cannot spare the soldiers at the southern gate guard tower to patrol the nearby hills. So volunteers hunt the lurking troggs and bring back Trogg Stone Teeth as crude, undeniable proof of each beast slain.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "rugelfuss teeth",
     "who needs stone teeth"
    ],
-   "answer": "Captain Rugelfuss at Loch Modan's southern guard tower collects the teeth as proof that travelers are hunting Stonesplinter troggs."
+   "answer": "At Loch Modan's southern guard tower, Captain Rugelfuss collects the teeth as proof that travelers are hunting Stonesplinter troggs."
   },
   {
    "q": "Why are the teeth made of stone?",
@@ -44,7 +44,7 @@
     "why are dwarves not fighting troggs",
     "ironforge reserve"
    ],
-   "answer": "The Ironforge Reserve has joined the broader Alliance war effort, leaving local outposts undermanned. Captain Rugelfuss's regiment must guard the southern gate and cannot risk leaving its fortification unmanned."
+   "answer": "The Ironforge Reserve has joined the wider Alliance war effort, leaving local outposts undermanned. Captain Rugelfuss's regiment must guard the southern gate and cannot leave its fortification unmanned."
   },
   {
    "q": "Which troggs carry these teeth?",
@@ -52,7 +52,7 @@
     "where to get trogg stone teeth",
     "who drops stone teeth"
    ],
-   "answer": "The teeth come from Stonesplinter troggs in Loch Modan's hills and excavations, including common diggers, scouts, bone-snapping warriors, and geomancers."
+   "answer": "The teeth come from Stonesplinter troggs in Loch Modan's hills and excavations. They include common diggers, scouts, bone-snapping warriors and geomancers."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
   "Trogg Stone Tooth",
   "The Trogg Threat (Classic)"
  ],
- "style": 1
+ "style": 2
 }

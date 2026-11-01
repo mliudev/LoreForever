@@ -17,21 +17,21 @@
   "wiki": "Old Ironforge Incursion",
   "chain": []
  },
- "summary": "Earthseer Farsen directs the final stage of an investigation into Dark Iron infiltrators beneath Ironforge. You enter the Hall of Thanes under Old Ironforge to confront the threat and report to King Magni Bronzebeard.",
+ "summary": "Beneath Ironforge, Earthseer Farsen sends you to the Hall of Thanes for the last part of the investigation. There, you face the Dark Iron threat and report to King Magni Bronzebeard.",
  "sections": [
   {
    "title": "Breaching the Vaults",
-   "body": "After an underground map reveals Dark Iron movements, Earthseer Farsen identifies the mastermind behind the intrusion. The entrance to the Hall of Thanes lies deep within Old Ironforge's ancient stone halls. While the upper city attends to matters above, forces have slipped into the dormant caverns beneath the kingdom.",
+   "body": "The underground map reveals Dark Iron movements, and Earthseer Farsen identifies the mastermind behind the intrusion. The entrance to the Hall of Thanes lies deep within Old Ironforge's ancient stone halls. While the upper city tends to matters on the surface, Dark Iron forces slip into caverns that lie dormant beneath the kingdom.",
    "spoiler": 0
   },
   {
    "title": "Durgen Dirgehammer",
-   "body": "Earthseer Farsen's translation of captured Dark Iron documents names the commander directing the operation: Durgen Dirgehammer. He is deep in the lower vaults, a threat to the heart of the Bronzebeard mountain kingdom. You must reach him, strike him down, and carry his severed head to King Magni Bronzebeard above.",
+   "body": "Earthseer Farsen translates captured Dark Iron documents and names the commander: Durgen Dirgehammer. Deep in the lower vaults, Durgen threatens the heart of the Bronzebeard mountain kingdom. Reach him, strike him down, and carry his severed head to King Magni Bronzebeard above.",
    "spoiler": 1
   },
   {
    "title": "Audience with the King",
-   "body": "Durgen Dirgehammer's head confirms to King Magni Bronzebeard the Dark Iron threat beneath the city's ancient roots. You bring proof of victory and a personal greeting from Farsen, his old friend. The investigation ends with Magni aware of what lurks below.",
+   "body": "Durgen Dirgehammer's head confirms to King Magni Bronzebeard the Dark Iron threat beneath the city's ancient roots. You bring proof of victory and a personal greeting from Farsen, Magni's old friend. The investigation ends with Magni aware of what lurks below.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "old ironforge incursion quest",
     "durgen dirgehammer quest"
    ],
-   "answer": "Old Ironforge Incursion is the final stage of an investigation into Dark Iron activity beneath Dun Morogh. Earthseer Farsen sends you into the Hall of Thanes beneath Old Ironforge to slay their commander, Durgen Dirgehammer."
+   "answer": "Earthseer Farsen sends you into the Hall of Thanes beneath Old Ironforge to face the Dark Iron commander, Durgen Dirgehammer. It is the last stage of an investigation into Dark Iron activity beneath Dun Morogh."
   },
   {
    "q": "Where does this quest take place?",
@@ -50,7 +50,7 @@
     "where is hall of thanes",
     "hall of thanes location"
    ],
-   "answer": "You enter the Hall of Thanes, an ancient chamber beneath Old Ironforge, deep in the bedrock under the mountain capital."
+   "answer": "You enter the Hall of Thanes, an ancient chamber deep in the bedrock beneath Old Ironforge and the mountain capital."
   },
   {
    "q": "Who is Durgen Dirgehammer?",
@@ -66,7 +66,7 @@
     "quest giver old ironforge incursion",
     "who turns in old ironforge incursion"
    ],
-   "answer": "Earthseer Farsen gives you the task after the Underground Map is recovered. You deliver it directly to King Magni Bronzebeard in Ironforge."
+   "answer": "After you recover the Underground Map, Earthseer Farsen sends you to King Magni Bronzebeard in Ironforge."
   },
   {
    "q": "How do I start the quest chain that leads to this?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know Dark Iron infiltrators in the forgotten vaults beneath the High Seat have violated your ancestral fortress."
+   "text": "As a dwarf, you know Dark Iron infiltrators have violated your ancestral fortress in the forgotten vaults beneath the High Seat."
   },
   {
    "target": "faction:Alliance",
@@ -118,5 +118,5 @@
  "attribution": [
   "Old Ironforge Incursion"
  ],
- "style": 1
+ "style": 2
 }

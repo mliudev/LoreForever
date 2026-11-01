@@ -20,16 +20,16 @@
    "Mage-tastic Gizmonitor"
   ]
  },
- "summary": "In Dun Morogh, Magis Sparkmantle sends novice mages to Ironforge at Bink's request. Bink needs an arcane specialist for her studies in the Hall of Mysteries.",
+ "summary": "Magis Sparkmantle sends you to Bink in Ironforge, where her studies need an arcane specialist.",
  "sections": [
   {
    "title": "A Colleague's Summons",
-   "body": "Magis Sparkmantle sends word from his colleague Bink to mages training near Kharanos. She asks for an arcane specialist and will trust the matter only to someone who can wield magic. When an apprentice has outgrown the early exercises, Sparkmantle directs them to answer her call.",
+   "body": "Bink seeks someone who can wield magic and aid her work. Near Kharanos, Magis Sparkmantle sends apprentices who have outgrown their early exercises to answer Bink's call.",
    "spoiler": 0
   },
   {
    "title": "The Hall of Mysteries",
-   "body": "You travel to Ironforge's Mystic Ward, where scholars, priests, and arcanists gather in the Hall of Mysteries. Bink studies there and watches each arriving apprentice closely. Raw potential is only a beginning; without discipline, a spellcaster can become a danger in arcane work.",
+   "body": "In Ironforge's Mystic Ward, Bink studies in the Hall of Mysteries. Scholars, priests, and arcanists gather there. She watches each arriving apprentice closely, for raw potential without discipline can make a spellcaster dangerous in arcane work.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where to start",
     "who starts speak with bink"
    ],
-   "answer": "Magis Sparkmantle sends novice Alliance mages who have advanced beyond their early training in Dun Morogh to Bink."
+   "answer": "Magis Sparkmantle sends novice Alliance mages from Dun Morogh to Bink once they have advanced beyond their early training."
   },
   {
    "q": "Where can I find Bink?",
@@ -59,7 +59,7 @@
     "mage requirement",
     "bink only wants mages"
    ],
-   "answer": "Bink's research concerns arcane energies and sensitive monitoring equipment. She believes non-mages cannot handle the magical details and dangers involved."
+   "answer": "Bink studies arcane energies and sensitive monitoring equipment. She believes non-mages cannot handle the magical details and dangers involved."
   },
   {
    "q": "What happens after meeting Bink?",
@@ -77,7 +77,7 @@
     "is this mage only",
     "mage specific"
    ],
-   "answer": "No. The call is for mages, bringing them from local novice training to specialized work in the capital."
+   "answer": "No. Bink's call is for mages, taking them from local novice training to specialized work in the capital."
   },
   {
    "q": "What is the Hall of Mysteries?",
@@ -95,7 +95,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you find Bink and Magis Sparkmantle carrying on gnomish arcane tradition in Ironforge's welcoming halls after the loss of Gnomeregan."
+   "text": "As a gnome, you find Bink and Magis Sparkmantle carrying on gnomish arcane tradition in Ironforge's welcoming halls after Gnomeregan's loss."
   },
   {
    "target": "faction:Alliance",
@@ -123,5 +123,5 @@
  "attribution": [
   "Speak with Bink"
  ],
- "style": 1
+ "style": 2
 }

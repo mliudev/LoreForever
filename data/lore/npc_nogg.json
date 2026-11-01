@@ -8,16 +8,16 @@
   "wiki": "Nogg",
   "refs": 2
  },
- "summary": "In Orgrimmar's Valley of Honor, Nogg puts his craft to work for the Horde. The goblin engineer studies strange mechanical salvage from deep within Gnomeregan.",
+ "summary": "In Orgrimmar's Valley of Honor, Nogg puts his craft to work for the Horde. He studies strange mechanical salvage from deep within Gnomeregan.",
  "sections": [
   {
    "title": "Nogg's Workshop",
-   "body": "Nogg runs an independent engineering workshop in Orgrimmar's Valley of Honor. Adventurers and craftsmen come to him for the mechanical skill only a goblin can offer in a city known for orcish steel and strength. He is eager to examine unusual devices and trinkets brought back from Alliance lands or underground ruins.",
+   "body": "Nogg keeps an independent engineering workshop in Orgrimmar's Valley of Honor. Adventurers and craftsmen seek the mechanical skill of a goblin in a city famed for orcish steel and strength. He eagerly examines unusual devices and trinkets brought from Alliance lands or underground ruins.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Gadgets and Salvage",
-   "body": "Salvage from Gnomeregan draws Nogg's special attention. When Horde operatives recover intricate rings and other remnants from the fallen gnomish capital, few minds in Durotar can take apart, decipher, and adapt those strange clockwork devices for Horde use.",
+   "body": "Salvage from Gnomeregan draws Nogg's special attention. Horde operatives recover intricate rings and other remnants from the fallen gnomish capital. Few minds in Durotar can take apart those strange clockwork devices, decipher them, and adapt them for Horde use.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is nogg",
     "nogg's machine shop"
    ],
-   "answer": "Nogg works from his engineering workshop in the Valley of Honor, inside Orgrimmar."
+   "answer": "Nogg works from his engineering workshop in Orgrimmar's Valley of Honor."
   },
   {
    "q": "What is Nogg's connection to Gnomeregan?",
@@ -38,7 +38,7 @@
     "nogg ring",
     "return of the ring"
    ],
-   "answer": "Horde adventurers salvage intricate devices from Gnomeregan's irradiated tunnels in Khaz Modan. Nogg, an expert in Orgrimmar, inspects and reconfigures the gnomish rings they bring back."
+   "answer": "Horde adventurers salvage intricate devices from Gnomeregan's irradiated tunnels in Khaz Modan. Nogg inspects and reconfigures the gnomish rings they bring back."
   },
   {
    "q": "Is Nogg part of the Horde?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers often visit Nogg's workshop in the Valley of Honor for parts and talk, and to watch him repurpose intricate gnomish devices with ease."
+   "text": "As an engineer, you can visit Nogg's workshop in the Valley of Honor for parts and talk. You can also watch him repurpose intricate gnomish devices with ease."
   },
   {
    "target": "faction:Horde",
-   "text": "For Horde warriors returning from dangerous operations in the Eastern Kingdoms, Nogg can turn crude salvage into finely calibrated battle gear."
+   "text": "As a Horde warrior returning from dangerous operations in the Eastern Kingdoms, you can bring Nogg crude salvage. He can turn it into finely calibrated battle gear."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Nogg"
  ],
- "style": 1
+ "style": 2
 }

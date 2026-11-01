@@ -17,16 +17,16 @@
   "wiki": "Reclaimers' Business in Desolace",
   "chain": []
  },
- "summary": "In Ironforge, Roetten Stonehammer sends recruits across the sea to meet the Reclaimers in Desolace. At Nijel's Point, Kreldig Ungor offers paid work recovering lost treasures and relics.",
+ "summary": "Roetten Stonehammer sends travelers from Ironforge across the sea to Desolace for paid work with the Reclaimers. At Nijel's Point, Kreldig Ungor needs help recovering lost treasures and relics.",
  "sections": [
   {
    "title": "A Call to the Wasteland",
-   "body": "Roetten Stonehammer recruits travelers in Ironforge for the Reclaimers. The group seeks profit in forgotten ruins and barren lands across Kalimdor. Desolace is a harsh stretch ruled by warring centaur clans, but the journey may pay well for those willing to make it.",
+   "body": "Beyond the sea, Desolace is a harsh stretch of Kalimdor ruled by warring centaur clans. The Reclaimers seek profit among its forgotten ruins and barren lands. For those willing to face the danger, the journey may pay well.",
    "spoiler": 0
   },
   {
    "title": "Nijel's Point and the Reclaimers",
-   "body": "The route runs west through the Stonetalon Mountains and into northern Desolace. Nijel's Point, an Alliance outpost, sits high among the cliffs. Kreldig Ungor welcomes new hands there. The Reclaimers recover heirlooms, magical artifacts, and family treasures lost across the war-torn world. For the right price, Kreldig and his associates retrieve those valuables from the wild.",
+   "body": "The route runs west through the Stonetalon Mountains and into northern Desolace. High among the cliffs, Nijel's Point is an Alliance outpost where Kreldig Ungor welcomes new hands. The Reclaimers recover heirlooms, magical artifacts, and family treasures lost across the war-torn world. For the right price, Kreldig and his associates retrieve those valuables from the wild.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "how to get to nijels point",
     "nijels point location"
    ],
-   "answer": "Nijel's Point lies in the northeastern crags of Desolace. From the Stonetalon Mountains, travel south into Desolace, then follow the cliffs east to the torchlit path that climbs to the Alliance outpost."
+   "answer": "Nijel's Point lies in Desolace's northeastern crags. From the Stonetalon Mountains, travel south into Desolace, then follow the cliffs east to the torchlit path climbing to the Alliance outpost."
   },
   {
    "q": "Who are the Reclaimers?",
@@ -56,7 +56,7 @@
     "reclaimers faction",
     "reclaimers lore"
    ],
-   "answer": "The Reclaimers are a venture led by dwarven operatives such as Kreldig Ungor. They recover lost heirlooms, antiquities, and magical relics from dangerous places for paying clients."
+   "answer": "The Reclaimers are a venture led by dwarven operatives such as Kreldig Ungor. For paying clients, they recover lost heirlooms, antiquities, and magical relics from dangerous places."
   },
   {
    "q": "What threats await in Desolace?",
@@ -72,7 +72,7 @@
     "kreldig ungor lore",
     "who is kreldig"
    ],
-   "answer": "Kreldig Ungor is a dwarf at Nijel's Point in Desolace. He organizes salvage work and relic hunts in the region, recruiting capable travelers to face its ruins and centaur camps."
+   "answer": "Kreldig Ungor is a dwarf at Nijel's Point in Desolace. He organizes salvage work and relic hunts across the region, recruiting capable travelers to face its ruins and centaur camps."
   },
   {
    "q": "Is this quest required to quest in Desolace?",
@@ -86,11 +86,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Nijel's Point is the main Alliance sanctuary in the western wastes of central Kalimdor, surrounded by hostile centaur clans."
+   "text": "Nijel's Point is the main Alliance sanctuary in the western wastes of central Kalimdor. Hostile centaur clans surround it."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can find dwarven enterprise in even Kalimdor's bleakest corners, from the Explorers' Guild to independent salvage groups like the Reclaimers."
+   "text": "As a dwarf, you can find dwarven enterprise even in Kalimdor's bleakest corners, from the Explorers' Guild to independent salvage groups like the Reclaimers."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Reclaimers' Business in Desolace"
  ],
- "style": 1
+ "style": 2
 }

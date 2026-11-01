@@ -20,16 +20,16 @@
    "The Lord of Blackrock (Alliance 2)"
   ]
  },
- "summary": "At Stormwind's gates, the Alliance gathers to mark a victory over Blackrock. After you report to Grand Admiral Jes-Tereth in Stormwind Keep, the heroes go to the Valley of Heroes, where Field Marshal Stonebridge prepares a public commemoration for the city.",
+ "summary": "At Stormwind's gates, the Alliance gathers to honor its victory over Blackrock. After you report to Grand Admiral Jes-Tereth in Stormwind Keep, the heroes make for the Valley of Heroes. Field Marshal Stonebridge is ready to lead the city's public commemoration.",
  "sections": [
   {
    "title": "A City's Triumph",
-   "body": "The Alliance's campaign against the Blackrock clan and the Black Dragonflight's brood reaches its public end. After Nefarian's severed head is presented inside Stormwind Keep, Highlord Bolvar Fordragon sends the champions across the city to the Valley of Heroes. Field Marshal Stonebridge waits there to receive the trophy and begin the celebrations.",
+   "body": "The campaign against the Blackrock clan and the Black Dragonflight's brood reaches its public end. Nefarian's severed head is presented inside Stormwind Keep. Then Highlord Bolvar Fordragon sends the champions across the city to the Valley of Heroes. Field Marshal Stonebridge waits there to receive the trophy and begin the celebrations.",
    "spoiler": 1
   },
   {
    "title": "Rallying the Alliance",
-   "body": "Field Marshal Stonebridge raises Nefarian's severed head above the great arches at Stormwind's main entrance. The sight reaches the whole city, and the Rallying Cry of the Dragonslayer inspires the defenders, visiting dignitaries, and citizens. They know Deathwing's brood has suffered a crushing blow.",
+   "body": "Field Marshal Stonebridge raises Nefarian's severed head above the great arches at Stormwind's main entrance. The sight carries across the city, and the Rallying Cry of the Dragonslayer inspires defenders, visiting dignitaries, and citizens. They know Deathwing's brood has suffered a crushing blow.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "what does stonebridge do",
     "rallying cry trigger"
    ],
-   "answer": "Field Marshal Stonebridge hangs Nefarian's severed head high on the stone gateway arch in the Valley of Heroes. The Rallying Cry of the Dragonslayer then strengthens friendly fighters and guards throughout Stormwind City."
+   "answer": "Field Marshal Stonebridge hangs Nefarian's severed head high on the stone gateway arch in the Valley of Heroes. Then the Rallying Cry of the Dragonslayer strengthens friendly fighters and guards throughout Stormwind City."
   },
   {
    "q": "Who is Field Marshal Stonebridge?",
@@ -65,7 +65,7 @@
     "world buff nefarian",
     "does stormwind get buff"
    ],
-   "answer": "Yes. When Stonebridge takes the trophy, a proclamation rings through Stormwind and the Rallying Cry of the Dragonslayer reaches everyone within the city borders."
+   "answer": "Yes. When Stonebridge takes the trophy, a proclamation rings through Stormwind, and the Rallying Cry of the Dragonslayer reaches everyone within the city borders."
   },
   {
    "q": "Where is the Valley of Heroes located?",
@@ -118,5 +118,5 @@
  "attribution": [
   "The Lord of Blackrock (Alliance 2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stormwind Stockade (Classic)"
  },
- "summary": "Prisoners now control the Stormwind Stockade beneath Stormwind City's canal district. A revolt has driven the guards from its halls.",
+ "summary": "A revolt has put the prisoners in control beneath Stormwind City's canal district. The Stockade lies beside the canals between Old Town and the Mage Quarter.",
  "sections": [
   {
    "title": "A Prison in Revolt",
-   "body": "The Stockade lies off the canals between Old Town and the Mage Quarter, holding Stormwind's most dangerous prisoners. Warden Thelwater oversees the underground prison. Its inmates include Defias Brotherhood cutthroats, a Blackrock orc, an ogre, and a Dark Iron dwarf. Bazil Thredd recently led a coordinated riot that overwhelmed the garrison. The surviving guards fled, leaving the prisoners in control of the halls.",
+   "body": "Warden Thelwater oversees the Stockade, where Stormwind holds its most dangerous prisoners. Among them are Defias Brotherhood cutthroats, a Blackrock orc, an ogre and a Dark Iron dwarf. Then Bazil Thredd led a coordinated riot that overwhelmed the garrison. The surviving guards fled, and prisoners now rule the halls.",
    "spoiler": 0
   },
   {
    "title": "Bureaucracy and Retribution",
-   "body": "The Stockade's disorder lays bare deep cracks in Stormwind's rule. Targorr the Dread, a feared Blackrock orc, and Dextren Ward, a grave robber who sold bodies, had both been sentenced to death. Influential nobles kept them alive through endless stays of execution. Fed up with aristocratic delays, Lakeshire, Darkshire, and the dwarven garrison at Dun Modr bypassed royal channels. They hired outsiders to enter the chaos and execute key ringleaders.",
+   "body": "Stormwind's rule has deep cracks. Targorr the Dread, a feared Blackrock orc, and Dextren Ward, a grave robber who sold bodies, were both sentenced to death. Yet influential nobles kept them alive through endless stays of execution. Fed up with the delays, Lakeshire, Darkshire and the dwarven garrison at Dun Modr bypassed royal channels. They hired outsiders to enter the chaos and execute key ringleaders.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "stockade boss",
     "bazil thredd"
    ],
-   "answer": "Warden Thelwater is the prison's official warden, but the rebellion drove him out. Bazil Thredd, who started the uprising, now controls the prison with allied Defias rioters."
+   "answer": "Warden Thelwater is the prison's official warden, but the rebellion drove him out. Bazil Thredd started the uprising and now controls the prison with allied Defias rioters."
   },
   {
    "q": "Why are there orcs and Dark Iron dwarves locked up in Stormwind?",
@@ -92,5 +92,5 @@
  "attribution": [
   "Stormwind Stockade (Classic)"
  ],
- "style": 1
+ "style": 2
 }

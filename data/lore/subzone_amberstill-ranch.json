@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Amberstill Ranch"
  },
- "summary": "At Amberstill Ranch, the family tends the mountain rams and guards them from hungry predators. The homestead lies north of Gol'Bolar Quarry, along the snowy road to Loch Modan.",
+ "summary": "North of Gol'Bolar Quarry, Amberstill Ranch stands along the snowy road to Loch Modan. The Amberstill family tends its mountain rams and guards them from hungry predators.",
  "sections": [
   {
    "title": "Home of the Mountain Rams",
-   "body": "Amberstill Ranch raises mountain rams prized across Khaz Modan for their strength. The Amberstill family tends the stables and paddocks, training the sure-footed beasts for snowy passes and steep cliffs. The ranch supplies riding mounts and livestock, while the family fends off wendigos drawn to the flock.",
+   "body": "Across Khaz Modan, Amberstill Ranch is known for its strong mountain rams. The Amberstill family tends the stables and paddocks, training the sure-footed beasts for snowy passes and steep cliffs. The ranch supplies riding mounts and livestock. Wendigos drawn to the flock threaten the herd, and the family must fend them off.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For a dwarf, Amberstill Ranch is a proud cultural cornerstone, where young heroes acquire their first Barak Tor'ol ram mount."
+   "text": "As a dwarf, you can acquire your first Barak Tor'ol ram mount at Amberstill Ranch."
   },
   {
    "target": "faction:Alliance",
@@ -84,5 +84,5 @@
  "attribution": [
   "Amberstill Ranch"
  ],
- "style": 1
+ "style": 2
 }

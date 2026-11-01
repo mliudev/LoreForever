@@ -14,19 +14,19 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "Frast Dokner serves as a field mentor for apprentice smiths, trading his hard-won forging techniques to anyone willing to supply the raw metal and leather required to keep his anvil hot."
+   "text": "As a blacksmith, you can learn from Frast Dokner, a field mentor for apprentice smiths. He trades his hard-won forging techniques to anyone who supplies the raw metal and leather that keep his anvil hot."
   },
   {
    "target": "profession:Mining",
-   "text": "Miners working the surrounding deposits will find an immediate local consumer for their smelted copper bars, turning raw ore into practical training and camp repairs."
+   "text": "As a miner working the surrounding deposits, you have a buyer close at hand for your smelted copper bars. They go toward practical training and camp repairs."
   },
   {
    "target": "race:Dwarf",
-   "text": "Gol'Bolar Quarry represents Bronzebeard enterprise and industry in Dun Morogh, where dwarven resolve keeps the forges burning even when supply caravans run late."
+   "text": "As a dwarf, you can see Bronzebeard industry at Gol'Bolar Quarry, where dwarven resolve keeps the forges burning when supply caravans run late."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting Dokner ensures the remote dwarven quarry remains operational, bolstering local infrastructure and equipment readiness in the snowy high country."
+   "text": "As an Alliance member, you can help keep the remote dwarven quarry running and its equipment ready in the snowy high country."
   }
  ],
  "faq": [
@@ -36,7 +36,7 @@
     "who is the quarry smith",
     "quarry blacksmith"
    ],
-   "answer": "Frast Dokner is an experienced blacksmith stationed at a quarry encampment, responsible for maintaining tools, structural fittings, and equipment for the workers on-site. When logistical delays cut off his regular supply line, he takes matters into his own hands by recruiting passing adventurers to secure the raw materials he desperately requires.",
+   "answer": "Frast Dokner is an experienced blacksmith at a quarry encampment. He maintains tools, structural fittings, and equipment for the workers there. When delays cut off his regular supply line, he asks passing travelers to gather the raw materials he needs.",
    "q": "Who is Frast Dokner?"
   },
   {
@@ -45,7 +45,7 @@
     "materials needed quarry smith",
     "quarry repair materials"
    ],
-   "answer": "Excavation and camp maintenance consume massive amounts of sturdy material. Copper provides an accessible, malleable metal suitable for forging replacement fittings, nails, fasteners, and reinforcing bands for broken tools. Toughened boar hides provide resilient leather necessary for bellows, tool wraps, straps, and protective aprons that withstand the harsh sparks and heavy grinding of daily quarry labor.",
+   "answer": "Quarry work and camp upkeep use great amounts of sturdy materials. Copper is an accessible, workable metal for replacement fittings, nails, fasteners, and bands that reinforce broken tools. Boar hides provide tough leather for bellows, tool wraps, straps, and protective aprons against sparks and the grinding work.",
    "q": "Why does the quarry need copper bars and boar hides?"
   },
   {
@@ -54,7 +54,7 @@
     "what happened to the supplies",
     "why are supplies delayed"
    ],
-   "answer": "While Frast Dokner does not elaborate on the specific cause of the delay, overland supply routes across the snowy crags and mountain passes are frequently plagued by harsh blizzards, roving wildlife, and hostile trogg or bandit ambushes. Remote mining camps and quarries are often the first settlements to feel the strain whenever transport wagons fall behind schedule.",
+   "answer": "Frast Dokner does not explain why the shipment is late. Overland routes across snowy crags and mountain passes often face blizzards, roaming wildlife, and hostile trogg or bandit ambushes. Remote mining camps and quarries feel the strain first when transport wagons fall behind.",
    "q": "Why is the supply shipment late?"
   },
   {
@@ -63,7 +63,7 @@
     "what does frast teach",
     "blacksmithing techniques frast"
    ],
-   "answer": "Rather than offering coin alone, Frast Dokner promises to share his personal blacksmithing techniques with whoever gathers his needed supplies. For an aspiring artisan, learning directly from a seasoned craftsman stationed in the field offers practical insights into metalworking and equipment maintenance that formal city guildhalls rarely teach to novices.",
+   "answer": "Frast Dokner offers more than coin: he promises to share his personal blacksmithing techniques with whoever gathers the needed supplies. An aspiring artisan can learn practical metalworking and equipment care from a seasoned field craftsman, lessons city guildhalls rarely teach novices.",
    "q": "What does Frast Dokner offer in exchange for the materials?"
   },
   {
@@ -72,7 +72,7 @@
     "where is frast dokner",
     "quarry smith location"
    ],
-   "answer": "Frast Dokner operates in Dun Morogh at Gol'Bolar Quarry, a dwarven excavation site nestled in the snowy foothills south of Kharanos. The quarry faces constant operational pressures from harsh winter weather and aggressive subterranean troggs that routinely harass the miners and disrupt trade convoys traveling from Ironforge.",
+   "answer": "Frast Dokner works at Gol'Bolar Quarry in Dun Morogh, south of Kharanos. The dwarven excavation lies in snowy foothills and faces harsh winter weather and aggressive subterranean troggs, who harass miners and disrupt trade convoys from Ironforge.",
    "q": "Where is this quarry located?"
   },
   {
@@ -81,7 +81,7 @@
     "is the quarry part of ironforge",
     "quarry dwarf allegiance"
    ],
-   "answer": "Yes, Frast Dokner and the quarry encampment operate under the domain of the Bronzebeard clan and the Kingdom of Ironforge. Quarrying stone and extracting ore from the mountains of Dun Morogh are vital to the dwarven kingdom's construction projects and defensive fortifications, making local blacksmiths like Dokner essential to Ironforge's industrial strength.",
+   "answer": "Frast Dokner and the quarry camp are under the Bronzebeard clan and the Kingdom of Ironforge. Quarrying stone and mining ore in Dun Morogh support the kingdom's construction projects and defenses. Blacksmiths such as Dokner help sustain Ironforge's industry.",
    "q": "Is Frast Dokner affiliated with Ironforge?"
   }
  ],
@@ -99,18 +99,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Life at an active excavation demands constant maintenance, from sharpening pickaxes and replacing worn brackets to reinforcing camp gear. When a vital supply shipment fails to arrive on schedule, daily work grinds toward a halt. Without fresh stock from the major trade routes, craftsmen on-site are forced to improvise and look to passing adventurers to keep the camp functional. Frast Dokner, working the forge amid these ongoing delays, relies on anyone willing to scrounge up basic metals and hides rather than waiting idly for transport wagons that may be hopelessly delayed.",
+   "body": "An excavation needs steady care. Pickaxes must be sharpened, worn brackets replaced, and camp gear reinforced. When a vital shipment misses its schedule, work begins to grind to a halt. Without fresh stock from the major trade routes, the craftsmen must improvise and look to passing travelers for help.\n\nFrast Dokner works the forge through these delays. He asks anyone willing to gather basic metals and hides to help keep the camp running, rather than wait for transport wagons that may be far behind.",
    "spoiler": 0,
    "title": "Shortages at the Quarry"
   },
   {
-   "body": "Traditional dwarven blacksmithing guilds prize discipline and closely guarded methods, rarely handing down trade secrets to casual wanderers. Dokner, however, balances local necessity against formal guild etiquette. Facing an immediate shortage of workable copper and durable leather needed for patching tools and camp gear, he offers a pragmatic trade: bring the raw materials directly to his anvil, and he will instruct you in his personal smithing techniques. It is a mutually beneficial bargain born of frontier necessity, trading valuable vocational knowledge for immediate survival and upkeep.",
+   "body": "Dwarven blacksmithing guilds prize discipline and guard their methods, rarely sharing trade secrets with casual wanderers. Dokner weighs that custom against the camp's immediate needs. He lacks workable copper and durable leather for patching tools and camp gear.\n\nBring the raw materials to his anvil, and he will teach you his personal smithing techniques. The bargain trades useful craft knowledge for materials the camp needs to endure and keep its gear in repair.",
    "spoiler": 0,
    "title": "An Apprentice's Bargain"
   }
  ],
- "summary": "The Quarry's Smith is an arrangement offered by Frast Dokner, a working craftsman stationed at a quarry camp. Stranded without an expected supply delivery, the smith turns to willing travelers to gather raw metal and sturdy leather for essential camp repairs. In exchange for the needed materials, Dokner shares practical smithing techniques with aspiring metalworkers.",
+ "summary": "At the quarry, The Quarry's Smith, Frast Dokner, needs metal and leather for camp repairs. With a supply shipment late, he asks travelers to bring the materials. In return, Dokner offers practical smithing techniques.",
  "attribution": [
   "In-game quest text: The Quarry's Smith"
- ]
+ ],
+ "style": 2
 }

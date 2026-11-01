@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Eastvale Logging Camp"
  },
- "summary": "At Eastvale Logging Camp, timber orders from Stormwind meet the dangers of Elwynn’s eastern woods. Wolves and bears drive lumberjacks from their work, while the camp keeps timber moving toward Stormwind and nearby settlements.",
+ "summary": "Timber orders from Stormwind reach Eastvale Logging Camp, where danger keeps the work from going smoothly. Wolves and bears drive lumberjacks from the eastern woods, but the camp still sends timber to Stormwind and nearby settlements.",
  "sections": [
   {
    "title": "A Vital Operation Under Siege",
-   "body": "Timber buyers across the Kingdom of Stormwind send orders to Eastvale Logging Camp, each with a strict deadline. Wolves and bears prowl the woods around the work sites, driving lumberjacks away and leaving cut timber behind. Supervisor Raelen directs the camp’s work, and travelers help drive off the beasts and recover the abandoned wood before deliveries fall behind schedule.",
+   "body": "Timber buyers across the Kingdom of Stormwind send Eastvale Logging Camp orders with strict deadlines. Wolves and bears prowl the woods around the work sites. They drive lumberjacks away and leave cut timber behind.\n\nSupervisor Raelen directs the camp’s work. Travelers help drive off the beasts and recover the abandoned wood before deliveries fall behind schedule.",
    "spoiler": 0
   },
   {
    "title": "Life on the Eastern Frontier",
-   "body": "Eastvale Logging Camp has homes and horse stables where travelers can buy fine mounts. On a nearby hill above the work site, retired Marshal Haggard lives in a quiet manor. He once led the Stormwind Guard and left its service to retire far from the politics of the capital.",
+   "body": "Eastvale Logging Camp has homes and horse stables where travelers can buy fine mounts. On a nearby hill above the work site, retired Marshal Haggard lives in a quiet manor.\n\nHe once led the Stormwind Guard. Then he left its service to retire far from the capital’s politics.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is eastvale",
     "eastvale lumber role"
    ],
-   "answer": "Eastvale Logging Camp is the primary timber source in eastern Elwynn Forest for the Kingdom of Stormwind. Its lumberjacks work long hours to meet strict deadlines and supply builders and nobles across the realm."
+   "answer": "Eastvale Logging Camp supplies timber to the Kingdom of Stormwind from eastern Elwynn Forest. Its lumberjacks work long hours to meet strict deadlines and supply builders and nobles across the realm."
   },
   {
    "q": "Why is the logging camp always hiring adventurers?",
@@ -37,7 +37,7 @@
     "why do loggers need help",
     "wolves at eastvale"
    ],
-   "answer": "Wolves and bears menace the workers in the dense woods around Eastvale Logging Camp. Their attacks drive lumberjacks away from cut timber and put orders at risk of missing shipment deadlines."
+   "answer": "Wolves and bears menace workers in the dense woods around Eastvale Logging Camp. Their attacks drive lumberjacks away from cut timber and put orders at risk of missing shipment deadlines."
   },
   {
    "q": "Who is Marshal Haggard?",
@@ -46,7 +46,7 @@
     "old man near eastvale",
     "marshal haggard elwynn"
    ],
-   "answer": "Marshal Haggard is the retired former leader of the Stormwind Guard. He stepped down from service a few years ago and now lives in a peaceful estate on the bluffs above Eastvale Logging Camp."
+   "answer": "Marshal Haggard is the retired former leader of the Stormwind Guard. He left the service a few years ago and now lives in a peaceful estate on the bluffs above Eastvale Logging Camp."
   },
   {
    "q": "Can you buy mounts at Eastvale Logging Camp?",
@@ -55,7 +55,7 @@
     "eastvale horses",
     "buy mount elwynn"
    ],
-   "answer": "Yes. Eastvale Logging Camp’s horse stable sells riding horses and offers riding training."
+   "answer": "Yes. The horse stable at Eastvale Logging Camp sells riding horses and offers riding training."
   }
  ],
  "angles": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Eastvale Logging Camp"
  ],
- "style": 1
+ "style": 2
 }

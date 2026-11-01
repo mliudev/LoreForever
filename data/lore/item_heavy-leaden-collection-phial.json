@@ -10,16 +10,16 @@
    "quest:2962"
   ]
  },
- "summary": "In Kharanos, Ozzie Togglevolt provides the Heavy Leaden Collection Phial for research into decontamination. It is meant to siphon and contain unstable irradiated discharge from mutants deep inside Gnomeregan.",
+ "summary": "In Kharanos, Ozzie Togglevolt offers the Heavy Leaden Collection Phial for decontamination research. It is meant to draw in unstable irradiated discharge from mutants deep inside Gnomeregan and keep it contained.",
  "sections": [
   {
    "title": "A Shielded Vessel",
-   "body": "The Heavy Leaden Collection Phial draws volatile residue from living, irradiated creatures in Gnomeregan. Keeping the fallout contained is difficult, and a suitable sample may take several attempts to collect.",
+   "body": "The Heavy Leaden Collection Phial draws volatile residue from living, irradiated creatures in Gnomeregan. Keeping the fallout inside is difficult. A suitable sample may take several attempts to collect.",
    "spoiler": 0
   },
   {
    "title": "Pursuit of a Cure",
-   "body": "Ozzie Togglevolt provides the phial to support his research into reversing the horrific mutations afflicting leper gnomes. Earlier samples from surface troggs lacked the potency needed for effective chemical analysis. With the leaden phial, researchers hope to gather samples from virulent beasts such as irradiated slimes and lurkers in the Hall of Gears. They seek the active elements in the city's toxic fallout, then hope to formulate an effective antidote.",
+   "body": "Ozzie Togglevolt provides the phial to help his research into reversing the terrible mutations afflicting leper gnomes. Earlier samples from surface troggs were too weak for useful chemical analysis.\n\nWith the leaden phial, researchers hope to gather samples from virulent beasts, including irradiated slimes and lurkers in the Hall of Gears. They seek the active elements in the city's toxic fallout, then hope to make an effective antidote.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "phial purpose",
     "what is leaden phial"
    ],
-   "answer": "The phial siphons concentrated radioactive discharge from living irradiated creatures inside Gnomeregan. Researchers in Kharanos use the samples for decontamination trials."
+   "answer": "The phial siphons concentrated radioactive discharge from living, irradiated creatures inside Gnomeregan. Researchers in Kharanos use the samples in decontamination trials."
   },
   {
    "q": "Who provides the Heavy Leaden Collection Phial?",
@@ -48,7 +48,7 @@
     "why lead phial",
     "why heavy lead"
    ],
-   "answer": "The phial is described as heavy and leaden, but its precise construction is not explained. Ozzie warns that containing the radioactive fallout is difficult and that the sample will collapse quickly."
+   "answer": "The phial is described as heavy and leaden, but its precise construction is not explained. Ozzie warns that containing the radioactive fallout is difficult and the sample will collapse quickly."
   },
   {
    "q": "Which creatures must be sampled with the phial?",
@@ -57,17 +57,17 @@
     "target creatures",
     "which monsters glow"
    ],
-   "answer": "The phial must be used on living, glowing horrors in the depths of Gnomeregan, including irradiated slimes, lurkers, and horrors prowling the lower levels of the Hall of Gears."
+   "answer": "The phial must be used on living, glowing horrors deep inside Gnomeregan. These include irradiated slimes, lurkers, and horrors prowling the lower levels of the Hall of Gears."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, every drop of volatile fallout secured in the phial is a desperate step toward reclaiming Gnomeregan and understanding the chemical madness that stole your home."
+   "text": "As a gnome, every bit of volatile fallout secured in the phial brings you closer to reclaiming Gnomeregan and understanding the chemical madness that stole your home."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can use the phial to collect volatile fallout. Even with a suitable vessel, the process may take several attempts."
+   "text": "As an engineer, you can use the phial to collect volatile fallout. Even with a suitable vessel, collecting a sample may take several attempts."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Heavy Leaden Collection Phial",
   "The Only Cure is More Green Glow"
  ],
- "style": 1
+ "style": 2
 }

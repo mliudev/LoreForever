@@ -17,16 +17,16 @@
   "wiki": "Wildmane Cleansing (Classic)",
   "chain": []
  },
- "summary": "Wildmane Cleansing marks the culmination of the tauren ritual efforts to purify the vital watering holes of Mulgore. Entrusted by Mull Thunderhorn in Bloodhoof Village, heroes take the completed Wildmane Totem north to cleanse the final poisoned well. Driving back goblin pollutants restores balance to the plains and secures the pastoral livelihood of the tauren tribes.",
+ "summary": "In Mulgore, the tauren's cleansing work reaches its final well. Mull Thunderhorn in Bloodhoof Village sends you north with the completed Wildmane Totem to cleanse the poisoned water and protect the tauren's way of life.",
  "sections": [
   {
    "title": "Purifying the Earth Mother's Gift",
-   "body": "Water is sacred lifeblood across the sun-drenched plains of Mulgore, sustaining the herds, the soil, and the nomadic tribes who have recently gathered around Thunder Bluff. When the Venture Company and encroaching goblins began contaminating these aquifers with toxic industrial runoff, the tauren elders recognized an existential threat. Following the purification of the Winterhoof and Thunderhorn wells, the Wildmane Water Well stands as the third and final corrupted site requiring spiritual intervention.",
+   "body": "Mulgore's wells sustain the herds, the soil, and the tauren tribes gathered around Thunder Bluff. The Venture Company and encroaching goblins have fouled them with toxic industrial runoff. The tauren elders see the danger to their people and their land.\n\nThe Winterhoof and Thunderhorn wells are purified. Now the Wildmane Water Well remains, the third and final corrupted site. Its waters still need spiritual cleansing.",
    "spoiler": 0
   },
   {
    "title": "The Wildmane Totem",
-   "body": "Crafted from specific elements gathered across the region, the Wildmane Cleansing Totem channels the restorative power of ancestral spirits and elemental earth. Planting the totem beside the foul waters north of Thunder Bluff disperses the foul chemicals, drawing out the toxins and reviving the natural flow. By completing the ritual, the tauren safeguard their people from disease and send an unmistakable message that the despoiling of their sacred ground will not be tolerated.",
+   "body": "The Wildmane Cleansing Totem is made from elements gathered across the region. It draws on the restoring power of ancestral spirits and elemental earth. Plant it beside the foul waters north of Thunder Bluff. The ritual disperses chemicals, draws out toxins, and revives the natural flow.\n\nThe cleansing guards the tauren against disease. It also makes clear they will not tolerate the despoiling of their sacred ground.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why is the well dirty",
     "goblin poison"
    ],
-   "answer": "Goblin operations, driven by industrial greed and logging enterprises, introduced foul poisons and chemical waste into Mulgore's subterranean waters, threatening local wildlife and tribal settlements alike."
+   "answer": "Goblin operations driven by industrial greed and logging enterprises poisoned Mulgore's underground waters with chemical waste. The waste threatens wildlife and tribal settlements."
   },
   {
    "q": "Where is the Wildmane Water Well located?",
@@ -47,7 +47,7 @@
     "where is wildmane well",
     "finding wildmane well"
    ],
-   "answer": "The Wildmane Water Well is situated on the plains directly north of the towering mesas of Thunder Bluff."
+   "answer": "The Wildmane Water Well lies on the plains directly north of Thunder Bluff's towering mesas."
   },
   {
    "q": "Who initiates this cleansing ritual?",
@@ -56,7 +56,7 @@
     "quest giver",
     "mull thunderhorn location"
    ],
-   "answer": "Mull Thunderhorn, an elder stationed in Bloodhoof Village, guides you through the creation of the totems and sends you to purify the wells."
+   "answer": "Mull Thunderhorn, an elder in Bloodhoof Village, guides you in making the totems and sends you to purify the wells."
   },
   {
    "q": "What other wells are part of this purification effort?",
@@ -65,7 +65,7 @@
     "mulgore wells",
     "winterhoof thunderhorn wells"
    ],
-   "answer": "The Wildmane Well is the third in a trio of vital water sources, preceded by the Winterhoof Water Well and the Thunderhorn Water Well, both to the south."
+   "answer": "The Wildmane Well is the third of three vital water sources. The Winterhoof Water Well and Thunderhorn Water Well, both to the south, came first."
   },
   {
    "q": "How does the cleansing totem work?",
@@ -73,7 +73,7 @@
     "cleansing totem mechanic",
     "how does totem clean water"
    ],
-   "answer": "The totem is infused with ancestral magic and purified natural elements, channeling restorative spiritual energy into the water table to neutralize goblin pollutants."
+   "answer": "Made with ancestral magic and purified natural elements, the totem channels restoring spiritual power into the water table to neutralize goblin pollutants."
   },
   {
    "q": "What does completing this ritual mean for Bloodhoof Village?",
@@ -82,21 +82,21 @@
     "why cleanse the wells",
     "tauren lore importance"
    ],
-   "answer": "Cleansing the three wells guarantees safe drinking water for all tribes in central Mulgore and honors the tauren sacred duty to heal the Earth Mother from industrial exploitation."
+   "answer": "Cleansing all three wells secures safe drinking water for the tribes of central Mulgore. It honors the tauren duty to heal the Earth Mother from industrial exploitation."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Restoring Mulgore's three ancestral wells is a foundational rite of passage that proves a young brave's devotion to preserving the Earth Mother's gifts."
+   "text": "As a tauren, restoring Mulgore's three ancestral wells is a rite of passage. It proves your devotion to preserving the Earth Mother's gifts."
   },
   {
    "target": "class:Shaman",
-   "text": "Employing ritual totems to undo mechanical pollution exemplifies the shamanic duty to maintain harmony between natural elements and living communities."
+   "text": "As a shaman, you use ritual totems to undo mechanical pollution and keep harmony between natural elements and living communities."
   },
   {
    "target": "class:Druid",
-   "text": "Reversing goblin environmental destruction directly reflects the Cenarion mandate to heal blighted ecosystems and protect verdant pastures."
+   "text": "As a druid, you help reverse goblin destruction by healing blighted ecosystems and protecting Mulgore's pastures."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Wildmane Cleansing (Classic)"
- ]
+ ],
+ "style": 2
 }

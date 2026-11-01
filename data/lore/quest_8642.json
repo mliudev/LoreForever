@@ -17,16 +17,16 @@
   "wiki": "Silvervein the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, Silvervein the Elder appears on the hills above Thelsamar in Loch Modan. Travelers honor him and the ancient ties among Azeroth’s elder peoples, and he grants an ancestral blessing in return.",
+ "summary": "During the Lunar Festival, travelers find Silvervein the Elder on the hills above Thelsamar in Loch Modan. They honor him and the ancient ties among Azeroth’s elder peoples, and he grants them an ancestral blessing.",
  "sections": [
   {
    "title": "A Vigil Over Thelsamar",
-   "body": "Above Thelsamar, Silvervein watches the ridges in silence. During the Lunar Festival, travelers honor him as a keeper of memories from ages past. Below, Loch Modan faces trogg invasions and local disputes, while the elder spirit remains peaceful on his overlook.",
+   "body": "Above Thelsamar, Silvervein keeps watch as travelers honor him. He holds memories from ages past. Though trogg invasions and local disputes trouble Loch Modan, the elder spirit remains peaceful on his overlook.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Olden Races",
-   "body": "Travelers who seek Silvervein find gratitude for their homage to Azeroth’s olden races. His greeting honors those who remember the ancient peoples, and he offers them a commemorative token.",
+   "body": "Silvervein welcomes travelers who honor Azeroth’s olden races. His greeting carries ancestral appreciation. To those who pay homage, he offers a commemorative token.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is silvervein",
     "elder silvervein loch modan"
    ],
-   "answer": "Elder Silvervein is an ancestral spirit who appears during the Lunar Festival. He spends the festival atop the high bluffs near Thelsamar in Loch Modan."
+   "answer": "Silvervein is an ancestral spirit who appears during the Lunar Festival. He spends the festival atop the high bluffs near Thelsamar in Loch Modan."
   },
   {
    "q": "Where can I find Elder Silvervein?",
@@ -47,7 +47,7 @@
     "where is elder silvervein",
     "find silvervein"
    ],
-   "answer": "Elder Silvervein is on a grassy hill overlooking Thelsamar in Loch Modan."
+   "answer": "Silvervein waits on a grassy hill overlooking Thelsamar in Loch Modan."
   },
   {
    "q": "What is the purpose of seeking out Elder Silvervein?",
@@ -56,7 +56,7 @@
     "what does silvervein do",
     "silvervein purpose"
    ],
-   "answer": "Travelers seek Elder Silvervein during the Lunar Festival to honor the ancestors and ancient races. He gives them a festive token and an ancestral blessing."
+   "answer": "During the Lunar Festival, travelers seek Silvervein to honor the ancestors and ancient races. He gives them a festive token and an ancestral blessing."
   },
   {
    "q": "What does he mean by 'the olden races'?",
@@ -64,7 +64,7 @@
     "olden races meaning",
     "why olden races"
    ],
-   "answer": "The olden races are the ancient peoples of Azeroth, who lived and shaped the world long before modern conflicts took center stage. Their heritage endures."
+   "answer": "The olden races are Azeroth’s ancient peoples, who lived and shaped the world long before modern conflicts took center stage. Their heritage endures."
   },
   {
    "q": "Is Elder Silvervein friendly to Horde travelers?",
@@ -72,7 +72,7 @@
     "can horde talk to silvervein",
     "horde silvervein"
    ],
-   "answer": "Yes. Elder Silvervein welcomes peaceful travelers of every background who come during the Lunar Festival to honor the ancestors."
+   "answer": "Yes. Silvervein welcomes peaceful travelers of every background who come during the Lunar Festival to honor the ancestors."
   },
   {
    "q": "Does Elder Silvervein have any connection to the trogg invasion?",
@@ -80,13 +80,13 @@
     "silvervein troggs",
     "is silvervein fighting troggs"
    ],
-   "answer": "No. Trogg incursions and excavator troubles trouble Loch Modan, but Elder Silvervein remains apart from local military conflicts and focused on honoring the ancestors."
+   "answer": "No. Trogg incursions and excavator troubles trouble Loch Modan, but Silvervein remains apart from local military conflicts and focused on honoring the ancestors."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can honor the ancient history you share with Elder Silvervein near Thelsamar."
+   "text": "As a dwarf, you can honor your shared ancient history with Silvervein near Thelsamar."
   },
   {
    "target": "faction:Alliance",
@@ -109,5 +109,5 @@
  "attribution": [
   "Silvervein the Elder"
  ],
- "style": 1
+ "style": 2
 }

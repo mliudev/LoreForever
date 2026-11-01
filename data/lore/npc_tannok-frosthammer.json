@@ -8,11 +8,11 @@
   "wiki": "Tannok Frosthammer",
   "refs": 1
  },
- "summary": "At Thunderbrew Distillery outside Kharanos, Tannok Frosthammer waits anxiously for supplies from Coldridge Valley. Trogg attacks have cut off the roads to Anvilmar.",
+ "summary": "At Thunderbrew Distillery near Kharanos, Tannok Frosthammer waits for supplies from Coldridge Valley. Trogg attacks have closed the roads to Anvilmar.",
  "sections": [
   {
    "title": "A Severed Supply Line",
-   "body": "Tannok Frosthammer watches deliveries and listens for news at Thunderbrew Distillery in Kharanos. Troggs have surged through Coldridge Pass, cutting off the usual route from Coldridge Valley and regular word from Anvilmar. Hands Springsprocket, a gnome tinkerer, carries supplies and news through the dangerous, snowy pass. Tannok shares the quiet worry of many Bronzebeards as subterranean troggs creep closer to their doorsteps.",
+   "body": "At Thunderbrew Distillery in Kharanos, Tannok Frosthammer watches for deliveries and listens for news. Troggs have poured through Coldridge Pass, closing the usual route from Coldridge Valley and cutting off regular word from Anvilmar. Hands Springsprocket, a gnome tinkerer, carries supplies and news through the dangerous, snowy pass. Tannok shares the worry of many Bronzebeards as subterranean troggs creep closer to their doorsteps.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is tannok",
     "find tannok frosthammer"
    ],
-   "answer": "Tannok Frosthammer is outside Thunderbrew Distillery, just east of Kharanos's main crossroads in Dun Morogh."
+   "answer": "Tannok Frosthammer waits outside Thunderbrew Distillery, just east of Kharanos's main crossroads in Dun Morogh."
   },
   {
    "q": "Why is Tannok worried about Coldridge Valley?",
@@ -42,7 +42,7 @@
     "hands springsprocket delivery",
     "who supplies tannok"
    ],
-   "answer": "Tannok receives deliveries from Hands Springsprocket, a gnomish supplier in Coldridge Valley who asks passing travelers to carry goods through the dangerous pass."
+   "answer": "Tannok receives deliveries from Hands Springsprocket, a gnomish supplier in Coldridge Valley. Hands asks passing travelers to carry goods through the dangerous pass."
   }
  ],
  "angles": [
@@ -78,5 +78,5 @@
  "attribution": [
   "Tannok Frosthammer"
  ],
- "style": 1
+ "style": 2
 }

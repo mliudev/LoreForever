@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druids from Zephras commune with the windborne cat spirit to master their feline form, completing a rite tailored to their unique heritage rather than the traditional Azerothian path."
+   "text": "As a druid from Zephras, you commune with the windborne cat spirit to master your feline form. The rite follows your heritage rather than Azeroth's traditional path."
   },
   {
    "target": "race:Skyborne",
-   "text": "Addressed as shen'dorei, Skyborne druids are guided by the spirits of their homeland of Zephras rather than adopting the indigenous forms of Azeroth."
+   "text": "As a Skyborne, you are called shen'dorei. The spirits of your homeland, Zephras, guide your druidic path."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is avatar of saeyleenan",
     "saeyleenan lore"
    ],
-   "answer": "The windborne cat spirit is manifest as the Avatar of Saeyleenan, a spirit hailing from the distant homeland of Zephras. It has traveled to Moonglade to mentor and test young shen'dorei druids seeking to adopt its feline shape.",
+   "answer": "The windborne cat spirit appears as the Avatar of Saeyleenan, from distant Zephras. It has come to Moonglade to mentor and test young shen'dorei druids seeking its feline shape.",
    "q": "Who is the Great Windborne Cat Spirit?"
   },
   {
@@ -37,7 +37,7 @@
     "avatar of saeyleenan location",
     "windborne cat location"
    ],
-   "answer": "The spirit's avatar appears in the southern reaches of Moonglade, situated just south of the twin bridges.",
+   "answer": "The Avatar of Saeyleenan appears in southern Moonglade, just south of the twin bridges.",
    "q": "Where can the Avatar of Saeyleenan be found?"
   },
   {
@@ -46,7 +46,7 @@
     "zephras cat form difference",
     "why not azeroth cat spirit"
    ],
-   "answer": "Because shen'dorei druids originate from Zephras, their feline shape reflects the windborne spirits of their homeland rather than the native big cats of Azeroth. The spirit personally oversees their trial to ensure they properly embody its essence.",
+   "answer": "Shen'dorei druids come from Zephras, so their feline shape reflects the windborne spirits of their homeland rather than Azeroth's native big cats. The spirit oversees their trial to ensure they embody its essence.",
    "q": "Why do Zephras druids commune with a different cat spirit?"
   },
   {
@@ -55,7 +55,7 @@
     "cat spirit trial zephras",
     "how to get windborne cat form"
    ],
-   "answer": "The Avatar of Saeyleenan has the initiate undertake the trial of Azeroth's Great Cat Spirit, while stepping in personally to supervise and confirm that the druid comprehends the windborne spirit's unique nature.",
+   "answer": "The Avatar of Saeyleenan has the initiate undertake the trial of Azeroth's Great Cat Spirit. The Avatar supervises and confirms that the druid understands the windborne spirit's unique nature.",
    "q": "What does the trial of the windborne cat entail?"
   },
   {
@@ -64,7 +64,7 @@
     "shen dorei druids",
     "what does shendorei mean"
    ],
-   "answer": "The Avatar of Saeyleenan addresses the initiate as shen'dorei, denoting their origin from Zephras and distinguishing their heritage and spiritual practices from the native peoples of Azeroth.",
+   "answer": "The Avatar of Saeyleenan calls the initiate shen'dorei, marking their origin in Zephras and distinguishing their heritage and spiritual practices from Azeroth's native peoples.",
    "q": "What does shen'dorei refer to?"
   },
   {
@@ -73,7 +73,7 @@
     "where is zephras located",
     "zephras homeland"
    ],
-   "answer": "Zephras is the distant homeland of the shen'dorei. Its native flora, fauna, and spirits differ noticeably from those of Azeroth, giving rise to unique shapeshifting forms among its druids.",
+   "answer": "Zephras is the distant homeland of the shen'dorei. Its native flora, fauna, and spirits differ from Azeroth's, giving rise to unique shapeshifting forms among its druids.",
    "q": "What is Zephras?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "In the sacred sanctuary of Moonglade, a spirit of the distant realm of Zephras has manifested south of the twin bridges. Calling itself the Avatar of Saeyleenan, this windborne cat spirit has crossed into Azeroth to guide and tutor young shen'dorei druids who are ready to unlock their feline shapeshifting form.",
+   "body": "South of Moonglade's twin bridges, a spirit from distant Zephras has appeared in the sacred sanctuary. Calling itself the Avatar of Saeyleenan, this windborne cat spirit has crossed into Azeroth to guide young shen'dorei druids ready to unlock their feline form.",
    "spoiler": 0,
    "title": "A Visitor from Zephras"
   },
   {
-   "body": "While all druids eventually seek the wisdom of the feline form, those from Zephras carry a tradition distinct from the native inhabitants of Azeroth. Rather than adopting the form of an Azerothian wildcat, the shen'dorei embody the windborne predator of their homeland. To ensure they grasp its spiritual nature, Saeyleenan oversees their trial in Moonglade firsthand.",
+   "body": "Druids seek wisdom in the feline form, but those from Zephras follow a different tradition from Azeroth's native peoples. The shen'dorei embody the windborne predator of their homeland instead of an Azerothian wildcat. So Saeyleenan oversees their trial in Moonglade, to teach them the spirit's nature.",
    "spoiler": 0,
    "title": "The Nature of the Windborne Form"
   }
  ],
- "summary": "The Great Windborne Cat Spirit is a sacred mentor from the realm of Zephras that appears as the Avatar of Saeyleenan in Moonglade. It guides young shen'dorei druids through their spiritual trial so they may embody the windborne feline form of their distant homeland.",
+ "summary": "In Moonglade, the Avatar of Saeyleenan guides young shen'dorei druids through a spiritual trial. The spirit comes from Zephras and helps them embody the windborne feline form of their homeland.",
  "attribution": [
   "In-game quest text: The Great Windborne Cat Spirit"
- ]
+ ],
+ "style": 2
 }

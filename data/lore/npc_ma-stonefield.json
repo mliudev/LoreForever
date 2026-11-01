@@ -8,11 +8,11 @@
   "wiki": "Ma Stonefield",
   "refs": 1
  },
- "summary": "At Stonefield Farm in western Elwynn, Ma Stonefield tends to hardships close to home. Beside Auntie Bernice, she faces farm troubles, neighboring rivalries, and pests.",
+ "summary": "At Stonefield Farm in western Elwynn, Ma Stonefield tends to troubles close to home. With Auntie Bernice beside her, she faces farm hardships, rivalries with neighbors, and pests.",
  "sections": [
   {
    "title": "Homestead Troubles",
-   "body": "Ma Stonefield watches over the farm beside her family cottage in southwestern Elwynn Forest, with Auntie Bernice Stonefield at her side. The neighboring Maclure homestead and nearby pumpkin patches bring little peace. Wild boars threaten the Stonefield crops, and Princess causes the greatest trouble. The enormous prize sow tramples fields and devours the harvest the family worked hard to grow.",
+   "body": "Ma Stonefield watches over the farm beside her family's cottage in southwestern Elwynn Forest. Auntie Bernice Stonefield stays at her side. The neighboring Maclure homestead and nearby pumpkin patches bring little peace. Wild boars threaten the Stonefield crops, and Princess causes the greatest trouble. The enormous prize sow tramples fields and devours the harvest the family worked hard to grow.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "ma stonefield",
     "stonefield mother"
    ],
-   "answer": "Ma Stonefield is an elder of the Stonefield family, living at their farmstead in southwestern Elwynn Forest with relatives such as Auntie Bernice."
+   "answer": "Ma Stonefield is an elder of the Stonefield family. She lives at their farmstead in southwestern Elwynn Forest with relatives such as Auntie Bernice."
   },
   {
    "q": "Where can I find Ma Stonefield?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer in Elwynn Forest, helping hardworking homesteaders like Ma Stonefield helps protect Stormwind's agricultural backbone."
+   "text": "As an Alliance adventurer in Elwynn Forest, you can help hardworking homesteaders like Ma Stonefield protect Stormwind's agricultural backbone."
   }
  ],
  "keywords": [
@@ -68,5 +68,5 @@
  "attribution": [
   "Ma Stonefield"
  ],
- "style": 1
+ "style": 2
 }

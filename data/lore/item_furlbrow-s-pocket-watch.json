@@ -10,11 +10,11 @@
    "quest:64"
   ]
  },
- "summary": "In Westfall, Farmer Furlbrow has lost a keepsake from his wedding day. His pocket watch came from Verna’s father, and it was left behind when Defias bandits seized the family’s pumpkin farm.",
+ "summary": "In Westfall, Farmer Furlbrow searches for the pocket watch he lost when Defias bandits drove him from home. Verna’s father gave it to him on their wedding day.",
  "sections": [
   {
    "title": "A Keepsake in the Ruins",
-   "body": "Farmer Furlbrow and Verna fled their home in the night when Defias bandits swarmed the Furlbrow Pumpkin Patch. In the rush, he left a pocket watch from Verna’s father behind. The watch remains in a wardrobe in the overrun farmhouse, where Benny Blaanco and his cutthroats keep watch. The displaced couple now camps along the road, and the watch is one of the few pieces of their former life the outlaws have not ruined.",
+   "body": "Defias bandits drove Farmer Furlbrow and Verna from their home at the Furlbrow Pumpkin Patch in the night. In their flight, he left the watch in a wardrobe in the overrun farmhouse. Benny Blaanco and his cutthroats keep watch nearby.\n\nThe couple now camps along the road. The watch is one of the few pieces of their former life the outlaws have not ruined.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "furlbrow watch importance",
     "who gave furlbrow the watch"
    ],
-   "answer": "Verna’s father gave the watch to Farmer Furlbrow on their wedding day. After the Defias Brotherhood took their land, home, and livelihood, it is the couple’s last deeply sentimental possession."
+   "answer": "Verna’s father gave the watch to Farmer Furlbrow on their wedding day. After the Defias Brotherhood took their land, home, and livelihood, it remains the couple’s last deeply sentimental possession."
   },
   {
    "q": "Where is the pocket watch kept?",
@@ -35,7 +35,7 @@
     "furlbrow wardrobe location",
     "how to find the watch"
    ],
-   "answer": "The watch is inside a wardrobe in the Furlbrow farmhouse, among the pumpkin fields west of the main road where the Furlbrows are stranded."
+   "answer": "The watch lies in a wardrobe in the Furlbrow farmhouse, among the pumpkin fields west of the main road where the Furlbrows are stranded."
   },
   {
    "q": "Who is guarding the watch?",
@@ -52,7 +52,7 @@
     "did defias loot the watch",
     "was the watch stolen"
    ],
-   "answer": "No. The Furlbrows fled in a panic when the bandits raided the pumpkin patch, and Farmer Furlbrow forgot to pack the watch. It remained in their bedroom wardrobe as the farm was overrun."
+   "answer": "The Defias did not steal the watch directly. The Furlbrows fled in a panic when the bandits raided the pumpkin patch, and Farmer Furlbrow forgot to pack it. It remained in their bedroom wardrobe as the farm was overrun."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
   "Furlbrow's Pocket Watch",
   "The Forgotten Heirloom"
  ],
- "style": 1
+ "style": 2
 }

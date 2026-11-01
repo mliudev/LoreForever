@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Silver Stream Mine"
  },
- "summary": "In northern Loch Modan, Silver Stream Mine lies between Algaz Station and the Stonewrought Dam, its silver veins exhausted. The Miners' League made the hollow a supply depot, but Tunnel Rat kobolds now occupy its tunnels and hoard stolen equipment and rare minerals.",
+ "summary": "In northern Loch Modan, Silver Stream Mine lies between Algaz Station and the Stonewrought Dam. Its silver veins are spent, and Tunnel Rat kobolds now hoard stolen equipment and rare minerals in the Miners' League depot.",
  "sections": [
   {
    "title": "From Rich Vein to Storage Depot",
-   "body": "Silver Stream Mine once yielded rich silver for Ironforge. Dwarf miners dug until the main veins ran dry, leaving broad underground chambers. The Miners' League kept the hard-won shafts in use as a guarded storehouse for tools, mining crates, and regional equipment. The mine is also the only known source of Charged Rift Gems, which draw arcanists seeking delicate tailoring reagents.",
+   "body": "Silver Stream Mine once sent rich silver to Ironforge. Dwarf miners worked its veins until they ran dry, leaving broad chambers beneath the earth. The Miners' League put those hard-won shafts to use as a guarded storehouse for tools, mining crates, and regional equipment. The mine also yields Charged Rift Gems, which draw arcanists seeking delicate tailoring reagents.",
    "spoiler": 0
   },
   {
    "title": "The Kobold Incursion",
-   "body": "Tunnel Rat kobolds came in large numbers and drove the Miners' League caretakers out into the cold of Loch Modan. Now the kobolds guard the stolen dwarf crates with manic fervor. Outside the rear entrances, shattered orcish catapults and wagons lie forgotten, reminders of older frontier skirmishes.",
+   "body": "Tunnel Rat kobolds came in great numbers and drove the Miners' League caretakers out into the cold of Loch Modan. Now they guard the stolen dwarf crates with manic fervor. Beyond the rear entrances, shattered orcish catapults and wagons lie forgotten, remnants of older frontier skirmishes.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "silver stream mobs",
     "what is inside silver stream mine"
    ],
-   "answer": "Tunnel Rat kobolds occupy Silver Stream Mine. They drove out the dwarf caretakers and now guard the abandoned League crates, hoarding supplies and digging for what remains."
+   "answer": "Tunnel Rat kobolds occupy Silver Stream Mine. They drove out the dwarf caretakers and now guard the League crates, hoarding supplies and digging for what remains."
   },
   {
    "q": "Why do mages travel to Silver Stream Mine?",
@@ -46,7 +46,7 @@
     "charged rift gems",
     "silver stream mage robes"
    ],
-   "answer": "Charged Rift Gems, sought by Alliance arcanists to weave enchanted robes, come only from Silver Stream Mine."
+   "answer": "Charged Rift Gems come only from Silver Stream Mine. Alliance arcanists seek them to weave enchanted robes."
   },
   {
    "q": "What are the ruined catapults behind the mine?",
@@ -55,13 +55,13 @@
     "broken catapults loch modan mine",
     "horde siege engines loch modan"
    ],
-   "answer": "Broken orcish wagons and ruined catapults lie behind Silver Stream Mine. They are remnants of earlier wartime conflicts that threatened the passages between Loch Modan and the northern mountain passes."
+   "answer": "Broken orcish wagons and ruined catapults lie behind Silver Stream Mine. They remain from earlier wartime conflicts that threatened the passages between Loch Modan and the northern mountain passes."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Silver Stream Mine is hard-won Ironforge infrastructure now lost to clumsy kobolds, who sully a respectable Miners' League depot."
+   "text": "For dwarves, Silver Stream Mine is Ironforge work now lost to clumsy kobolds, who sully a respectable Miners' League depot."
   },
   {
    "target": "class:Mage",
@@ -89,5 +89,5 @@
  "attribution": [
   "Silver Stream Mine"
  ],
- "style": 1
+ "style": 2
 }

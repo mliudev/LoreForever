@@ -10,11 +10,11 @@
    "quest:3112"
   ]
  },
- "summary": "In Coldridge Valley, the Simple Memorandum sends novice gnome warriors to Anvilmar. It directs them to train with Thran Khorman for the war to take back Gnomeregan.",
+ "summary": "In Coldridge Valley, novice gnome warriors are sent to train with Thran Khorman in Anvilmar. They prepare for the war to take back Gnomeregan.",
  "sections": [
   {
    "title": "A Summons to Anvilmar",
-   "body": "The Simple Memorandum sends young gnome fighters to train in Anvilmar. As they face local wildlife and troggs in Coldridge Valley, they receive letters of introduction. This one directs its bearer to Thran Khorman, the warrior trainer there. Gnomes bring intellect and contraptions to battle, but taking back Gnomeregan calls for strength and martial discipline. The memorandum tells its bearer to leave early training behind and learn the art of war from Thran.",
+   "body": "Young gnome fighters face wildlife and troggs in Coldridge Valley with letters of introduction in hand. The Simple Memorandum directs its bearer to Thran Khorman, the warrior trainer in Anvilmar.\n\nGnomes bring intellect and contraptions to battle, but taking back Gnomeregan calls for strength and martial discipline. The memorandum sends its bearer beyond early training to learn the art of war from Thran.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who sent note",
     "author of simple memorandum"
    ],
-   "answer": "The Simple Memorandum has no signature. Sten Stoutarm guesses Thran Khorman wrote it, but its words about taking back Gnomeregan mark it as a gnomish directive. It orders you to report to Thran, the dwarven warrior trainer in Anvilmar."
+   "answer": "The Simple Memorandum bears no signature. Sten Stoutarm guesses Thran Khorman wrote it, but its words about taking back Gnomeregan mark it as a gnomish directive. It orders you to report to Thran, the dwarven warrior trainer in Anvilmar."
   },
   {
    "q": "What happens after reading the Simple Memorandum?",
@@ -58,11 +58,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you begin formal combat training with Thran Khorman in Anvilmar, moving beyond rudimentary skirmishing."
+   "text": "As a warrior, you begin formal combat training with Thran Khorman in Anvilmar. You move beyond rudimentary skirmishing."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome exile, you share the aim of sharpening your battle skills beside your dwarven allies to prepare for Gnomeregan's liberation."
+   "text": "As a gnome exile, you share the aim of sharpening your battle skills beside your dwarven allies. You prepare for Gnomeregan's liberation."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Simple Memorandum",
   "Simple Memorandum (quest)"
  ],
- "style": 1
+ "style": 2
 }

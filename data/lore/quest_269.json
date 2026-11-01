@@ -17,16 +17,16 @@
   "wiki": "Seeking Wisdom",
   "chain": []
  },
- "summary": "In Stormwind, Sven Yorgen seeks holy counsel for Duskwood. He sends Jitters' Completed Journal to Bishop Farthing at the Cathedral of Light, hoping the bishop can reveal how to destroy Morbent Fel's shield.",
+ "summary": "In Stormwind, Sven Yorgen asks Bishop Farthing for holy counsel on Duskwood. He sends Jitters' Completed Journal, hoping the bishop can reveal how to break Morbent Fel's shield.",
  "sections": [
   {
    "title": "A Plea from the Shadows",
-   "body": "Duskwood suffers beneath lingering curses and ravenous undead, while Stormwind's royal court grows indifferent. Sven Yorgen, a broken-hearted survivor at a camp near the borders, knows ordinary strength cannot pierce Morbent Fel's dark wards. With Jitters' assembled journal, Sven asks you to seek the church's counsel. The road north leads to the Cathedral of Light.",
+   "body": "Duskwood suffers beneath old curses and ravenous undead. Stormwind's royal court has grown indifferent, and Sven Yorgen knows ordinary strength cannot pierce Morbent Fel's wards. Broken-hearted, he shelters at a camp near the borders and asks you to carry Jitters' assembled journal to the church. The road north leads to the Cathedral of Light.",
    "spoiler": 0
   },
   {
    "title": "Counsel in the Cathedral",
-   "body": "Bishop Farthing hears Duskwood's pleas at Stormwind's Cathedral. Jitters' account confirms Morbent Fel's dread power: vile sorcery shields the necromancer from ordinary blows. Courage alone cannot overcome those wards. To defeat him, an enchanted holy instrument must be found.",
+   "body": "At Stormwind's Cathedral of Light, Bishop Farthing hears Duskwood's pleas. Jitters' account confirms Morbent Fel's power: vile sorcery shields the necromancer from ordinary blows. Courage alone cannot overcome those wards. To defeat him, an enchanted holy instrument must be found.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "why jitters journal",
     "jitters completed journal"
    ],
-   "answer": "Jitters recorded what happened around the attack on Sven's farm. Sven sends the completed account to Bishop Farthing so he can advise the adventurer preparing to face Morbent Fel."
+   "answer": "Jitters recorded what happened around the attack on Sven's farm. Sven sends the completed account to Bishop Farthing so he can advise you as you prepare to face Morbent Fel."
   },
   {
    "q": "Who is Morbent Fel?",
@@ -82,7 +82,7 @@
     "sven yorgen location",
     "sven's camp"
    ],
-   "answer": "Sven Yorgen shelters at a small camp in northwestern Duskwood, near the river border, south of Elwynn Forest and west of the haunted Raven Hill Cemetery."
+   "answer": "Sven Yorgen shelters at a small camp in northwestern Duskwood, near the river border. It lies south of Elwynn Forest and west of the haunted Raven Hill Cemetery."
   }
  ],
  "angles": [
@@ -96,7 +96,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, the journey reveals the divide between Stormwind City's guarded marble halls and Duskwood's forsaken towns, which receive no garrison support."
+   "text": "As an Alliance traveler, the journey reveals the divide between Stormwind City's guarded marble halls and Duskwood's forsaken towns. Those towns receive no garrison support."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Seeking Wisdom"
  ],
- "style": 1
+ "style": 2
 }

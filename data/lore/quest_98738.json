@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "This quest marks a vital milestone in mastering feline predatory instinct, granting druids the stealth, speed, and ferocity required to commune with and assume the aspect of the cat."
+   "text": "For a druid, this rite marks a milestone in mastering feline predatory instinct. It grants the stealth, speed, and ferocity needed to commune with and assume the aspect of the cat."
   },
   {
    "target": "race:Skyborne",
-   "text": "The spirit specifically recognizes the initiate as young shen'dorei, offering the guidance of wind and shadow from Zephras as they learn to harness feral power."
+   "text": "As a Skyborne, the Great Cat Spirit recognizes you as young shen'dorei. Its guidance from Zephras teaches you to harness feral power through wind and shadow."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "blessings of the cat quest",
     "cat spirit quest"
    ],
-   "answer": "Blessings of the Great Windborne Cat Spirit is a rite of passage quest where an initiate who has sought out and received the blessing of the Great Cat Spirit returns to Dendrite to complete their spiritual communion.",
+   "answer": "An initiate who has received the Great Cat Spirit's blessing returns to Dendrite to continue their spiritual communion.",
    "q": "What is Blessings of the Great Windborne Cat Spirit?"
   },
   {
@@ -36,7 +36,7 @@
     "who is dendrite",
     "dendrite lore"
    ],
-   "answer": "Dendrite is a mentor figure who sends initiates to commune with the Great Cat Spirit. Upon their return, he channels ritual gestures to sense the transformation, confirming whether the initiate has absorbed the stealth, speed, and cunning required to channel feline nature.",
+   "answer": "Dendrite mentors initiates and sends them to commune with the Great Cat Spirit. When they return, his ritual gestures let him sense whether they have absorbed the stealth, speed, and cunning needed to channel feline nature.",
    "q": "Who is Dendrite?"
   },
   {
@@ -44,7 +44,7 @@
     "what is the cat spirit",
     "great windborne cat spirit"
    ],
-   "answer": "The Great Cat Spirit is an ancient patron spirit located in Zephras. It bestows spiritual favor, speed of the winds, and predatory stealth upon worthy initiates before sending them back to continue their instruction.",
+   "answer": "The Great Cat Spirit is an ancient patron in Zephras. It grants worthy initiates spiritual favor, the speed of the winds, and predatory stealth before they return to their instruction.",
    "q": "Who is the Great Cat Spirit?"
   },
   {
@@ -52,7 +52,7 @@
     "where is zephras",
     "cat spirit location"
    ],
-   "answer": "Zephras is the home of the Great Cat Spirit, where promising initiates journey to seek its counsel, receive its blessings of wind and shadow, and learn the foundations of the feline form.",
+   "answer": "Zephras is the Great Cat Spirit's home. Promising initiates travel there to seek its counsel, receive its blessings of wind and shadow, and learn the foundations of the feline form.",
    "q": "Where is Zephras located?"
   },
   {
@@ -60,7 +60,7 @@
     "who are shendorei",
     "young shendorei"
    ],
-   "answer": "The Great Cat Spirit directly addresses the initiate as young shen'dorei, pointing to the ancestral heritage of the practitioner seeking to commune with nature spirits and master feral shapeshifting.",
+   "answer": "The Great Cat Spirit addresses the initiate as young shen'dorei, recognizing the practitioner's ancestral heritage as they seek communion with nature spirits and mastery of feral shapeshifting.",
    "q": "Why does the spirit address the initiate as shen'dorei?"
   },
   {
@@ -68,7 +68,7 @@
     "what does the blessing give",
     "cat spirit blessing effect"
    ],
-   "answer": "The blessing imparts the cunning, speed, and stealth of the feline form. With the blessing received, the initiate gains Dendrite's recognition to focus their inner ferocity and call upon the true nature of the cat.",
+   "answer": "The blessing grants the cunning, speed, and stealth of the feline form. It also earns the initiate Dendrite's recognition, so they can focus their inner ferocity and call upon the true nature of the cat.",
    "q": "What does the blessing of the cat spirit grant?"
   }
  ],
@@ -87,18 +87,19 @@
  ],
  "sections": [
   {
-   "body": "Blessings of the Great Windborne Cat Spirit marks the culmination of a sacred communion with the Great Cat Spirit of Zephras. After seeking out this windborne patron and earning its favor, an initiate returns to Dendrite to demonstrate that they have internalized the cunning, predatory stealth, and ferocity of the wild cat.",
+   "body": "An initiate returns to Dendrite after seeking the Great Cat Spirit of Zephras and earning its favor. The communion has awakened the wild cat's cunning, predatory stealth, and ferocity within them.",
    "spoiler": 0,
    "title": "Communion with the Windborne Spirit"
   },
   {
-   "body": "Upon presenting oneself after receiving the blessing, Dendrite performs subtle somatic gestures to read the initiate's newly awakened aura. Sensing the feline instincts woven into their spirit, Dendrite acknowledges that the candidate is finally prepared to focus their mind and call upon the true aspect of the cat.",
+   "body": "Dendrite reads the initiate's newly awakened aura with subtle gestures. Sensing feline instincts woven into their spirit, he sees that the initiate is ready to focus their mind and call upon the true aspect of the cat.",
    "spoiler": 0,
    "title": "Dendrite's Instruction"
   }
  ],
- "summary": "Blessings of the Great Windborne Cat Spirit is a rite of passage quest marking an initiate's return from communing with the Great Cat Spirit of Zephras. Having absorbed the stealth, speed, and ferocity of the wild cat, the initiate presents their newly awakened aura to Dendrite for further spiritual instruction.",
+ "summary": "After meeting the Great Cat Spirit of Zephras, an initiate returns to Dendrite with a newly awakened aura. The blessing brings the wild cat's stealth, speed, and ferocity, and Dendrite prepares the initiate for further instruction.",
  "attribution": [
   "In-game quest text: Blessings of the Great Windborne Cat Spirit"
- ]
+ ],
+ "style": 2
 }

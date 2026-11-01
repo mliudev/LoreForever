@@ -17,21 +17,21 @@
   "wiki": "The Defias Brotherhood (4)",
   "chain": []
  },
- "summary": "Mathias Shaw sends a confidential report from Stormwind to Gryan Stoutmantle at Sentinel Hill. Shaw has investigated the former Stonemasons Guild to help Stoutmantle uncover the origins of the Defias Brotherhood.",
+ "summary": "From Stormwind, Mathias Shaw sends Gryan Stoutmantle a confidential report at Sentinel Hill. Shaw investigated the former Stonemasons Guild to help Stoutmantle uncover the Defias Brotherhood's origins.",
  "sections": [
   {
    "title": "A Builder Turned Bandit",
-   "body": "For months, Gryan Stoutmantle and the People's Militia have faced a seemingly faceless uprising across Westfall. Highwaymen, thieves, and cutthroats strike from the roads and countryside. Master Mathias Shaw of SI:7 studies Wiley's Note and pieces together the truth. The guild of architects and stonemasons who rebuilt Stormwind's white ramparts never disbanded. Their leader, Edwin VanCleef, took them underground.",
+   "body": "For months, Gryan Stoutmantle and the People's Militia have faced an uprising across Westfall with no clear face. Highwaymen, thieves, and cutthroats strike along roads and through the countryside. Master Mathias Shaw of SI:7 studies Wiley's Note and pieces together the truth. The guild of architects and stonemasons who rebuilt Stormwind's white ramparts never disbanded. Their leader, Edwin VanCleef, took them underground.",
    "spoiler": 1
   },
   {
    "title": "Bitterness and Betrayal",
-   "body": "After the First War left Stormwind in ashes, VanCleef's Stonemasons' Guild set to work restoring the kingdom's capital. Their labor raised Stormwind into a jewel of humanity once more. When the work ended, a bitter dispute over compensation broke out. VanCleef and his artisans were dissatisfied with their treatment by the crown and the House of Nobles. They took up daggers and red bandanas, abandoning civic craft for violent rebellion against the throne.",
+   "body": "After the First War left Stormwind in ashes, VanCleef's Stonemasons' Guild set to work restoring the kingdom's capital. Their labor raised Stormwind into a jewel of humanity once more. When the work ended, a bitter dispute over compensation broke out. VanCleef and his artisans were dissatisfied with their treatment by the crown and the House of Nobles. So they took up daggers and red bandanas, leaving civic craft for violent rebellion against the throne.",
    "spoiler": 1
   },
   {
    "title": "Stoutmantle's Disbelief",
-   "body": "Shaw's report reaches Sentinel Hill, and Gryan Stoutmantle struggles to accept its contents. He remembers VanCleef as an industrious, gifted artisan, not a cutthroat hiding in the countryside's shadows. VanCleef's work sheltered thousands of returning citizens. The militia commander demands concrete evidence before fully accepting the alarming accusation that Stormwind's chief architect is orchestrating Westfall's ruin.",
+   "body": "Shaw's report reaches Sentinel Hill, and Gryan Stoutmantle struggles to accept what it says. He remembers VanCleef as an industrious, gifted artisan, not a cutthroat hiding in the countryside's shadows. VanCleef's work sheltered thousands of returning citizens. The militia commander demands concrete evidence before fully accepting the alarming accusation that Stormwind's chief architect is orchestrating Westfall's ruin.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "mathias shaw document",
     "the report to stoutmantle"
    ],
-   "answer": "Mathias Shaw's confidential report contains his findings on the former Stonemasons Guild and the Defias. You deliver it to Gryan Stoutmantle."
+   "answer": "Mathias Shaw's confidential report contains his findings on the former Stonemasons Guild and the Defias. You carry it to Gryan Stoutmantle."
   },
   {
    "q": "Who is Edwin VanCleef?",
@@ -61,7 +61,7 @@
     "stoutmantle reaction",
     "why does gryan need proof"
    ],
-   "answer": "Gryan Stoutmantle finds Shaw's allegations difficult to stomach and demands concrete evidence before fully accepting them. The details emerge when he reads the report."
+   "answer": "Gryan Stoutmantle finds Shaw's allegations difficult to stomach. He demands concrete evidence before fully accepting them, and the details emerge when he reads the report."
   },
   {
    "q": "Why did the Stonemasons turn against Stormwind?",
@@ -126,5 +126,5 @@
  "attribution": [
   "The Defias Brotherhood (4)"
  ],
- "style": 1
+ "style": 2
 }

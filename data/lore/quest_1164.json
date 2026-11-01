@@ -1,0 +1,79 @@
+{
+ "key": "quest:1164",
+ "type": "quest",
+ "name": "To Steal From Thieves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1164
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Genavie Callow in Undercity asks you to confront the Dabyrie family at their farmstead in Arathi. Her grievance turns a dispute over stolen belongings into a demand for vengeance.",
+ "sections": [
+  {
+   "title": "A Bitter Grievance",
+   "body": "Genavie Callow says the plague took her family and the war left her estate looted and burned. She accuses Kenata and her children of taking the few belongings she still treasured. Now she asks you to bring her the heads of Kenata, Fardel, and Marcel Dabyrie from the Dabyrie Farmstead in Arathi.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who gave this",
+    "who wants this",
+    "genavie"
+   ],
+   "answer": "Genavie Callow in Undercity asks you to bring her the heads of Kenata, Fardel, and Marcel Dabyrie."
+  },
+  {
+   "q": "Why is Genavie angry at the Dabyries?",
+   "aliases": [
+    "why mad at them",
+    "genavie grievance",
+    "dabyrie trouble"
+   ],
+   "answer": "Genavie says the plague took her family, the war cost her estate, and the Dabyries stole the belongings she had left."
+  },
+  {
+   "q": "Where is the Dabyrie Farmstead?",
+   "aliases": [
+    "dabyrie farm location",
+    "where is the farm",
+    "farmstead"
+   ],
+   "answer": "The Dabyrie Farmstead is in Arathi, northeast of Refuge Point."
+  },
+  {
+   "q": "Who are Kenata, Fardel, and Marcel Dabyrie?",
+   "aliases": [
+    "who are dabyries",
+    "kenata family",
+    "dabyrie names"
+   ],
+   "answer": "They are the three people Genavie names in her demand: Kenata, Fardel, and Marcel Dabyrie."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi",
+  "dabyrie farmstead",
+  "fardel",
+  "genavie callow",
+  "kenata",
+  "marcel dabyrie",
+  "refuge point",
+  "to steal from thieves"
+ ],
+ "related": [
+  "zone:undercity",
+  "topic:forsaken"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: To Steal From Thieves"
+ ]
+}

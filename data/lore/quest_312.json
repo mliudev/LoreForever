@@ -17,16 +17,16 @@
   "wiki": "Tundra MacGrann's Stolen Stash",
   "chain": []
  },
- "summary": "In Dun Morogh, Tundra MacGrann needs his winter stores back from Old Icebeard. The injured hunter cannot reach the yeti's cave himself.",
+ "summary": "Tundra MacGrann needs his winter stores back from Old Icebeard. The yeti carried off the thorium-reinforced meat locker, and MacGrann's injured leg keeps him from reaching the cave.",
  "sections": [
   {
    "title": "Winter Stores and Stolen Lockers",
-   "body": "Tundra MacGrann had salted away a month's worth of dried meat for the cold season. He lives beyond the warmth of Kharanos and Ironforge, where surviving winter takes careful preparation. To keep hungry bears from his provisions, he locked them in a thorium-reinforced meat chest. Old Icebeard carried the whole chest away rather than trying to open it.",
+   "body": "For the cold season, MacGrann had salted away a month's worth of dried meat. He sealed it in a thorium-reinforced locker to keep hungry bears out. Old Icebeard carried off the whole chest instead of trying to open it.",
    "spoiler": 0
   },
   {
    "title": "Old Icebeard's Den",
-   "body": "Old Icebeard stole the chest while MacGrann was away hunting deer and dragged it to a cave in the jagged hills. MacGrann believes the yeti cannot break through solid thorium, but his injured leg keeps him from retrieving the stores. Anyone entering the cave must face the beast or slip inside while it prowls the snowdrifts.",
+   "body": "While MacGrann was away hunting deer, Old Icebeard dragged the chest to a cave in the jagged hills. MacGrann believes the yeti cannot break through solid thorium, but his injured leg keeps him from retrieving the stores. You can face the beast or slip inside while it prowls the snowdrifts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "macgrann",
     "who is macgrann"
    ],
-   "answer": "Tundra MacGrann is a dwarven hunter who lives in the snowy reaches of Dun Morogh. With an injured leg, he depends on his stored provisions to get through winter."
+   "answer": "Tundra MacGrann is a dwarven hunter who lives in the snowy reaches of Dun Morogh. His injured leg leaves him reliant on his stored provisions for winter."
   },
   {
    "q": "Who stole MacGrann's meat locker?",
@@ -47,7 +47,7 @@
     "who took the meats",
     "stolen stash thief"
    ],
-   "answer": "Old Icebeard, a local yeti, stole MacGrann's meat locker while the hunter was away hunting deer and dragged it into its mountain cave."
+   "answer": "Old Icebeard, a local yeti, stole MacGrann's meat locker while the hunter was away hunting deer. The beast dragged it into its mountain cave."
   },
   {
    "q": "Why can't MacGrann get his meats back himself?",
@@ -56,7 +56,7 @@
     "macgranns leg",
     "bum leg"
    ],
-   "answer": "An injured leg keeps MacGrann from moving quickly or quietly enough to enter Old Icebeard's cave and escape safely."
+   "answer": "MacGrann's injured leg keeps him from moving quickly or quietly enough to enter Old Icebeard's cave and escape safely."
   },
   {
    "q": "Did the yeti eat the food?",
@@ -64,7 +64,7 @@
     "is the food eaten",
     "can icebeard open the chest"
    ],
-   "answer": "No. The dried meat is locked inside a solid thorium chest. Old Icebeard carried it away but cannot break through the metal."
+   "answer": "No. The dried meat remains locked inside a solid thorium chest. Old Icebeard carried it away but cannot break through the metal."
   },
   {
    "q": "Do you have to fight Old Icebeard to get the meat locker?",
@@ -86,11 +86,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you know how much work goes into preserving meat. MacGrann lost his stores to a beast while he was out tracking deer."
+   "text": "As a hunter, you know how much work it takes to preserve meat. MacGrann lost his stores to a beast while he was out tracking deer."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know how hard a mountain winter can be. Without preserved meat or shelter, even a seasoned mountaineer may not withstand the cold."
+   "text": "As a dwarf, you know how harsh a mountain winter can be. Without preserved meat or shelter, even a seasoned mountaineer may not withstand the cold."
   },
   {
    "target": "class:Rogue",
@@ -113,5 +113,5 @@
  "attribution": [
   "Tundra MacGrann's Stolen Stash"
  ],
- "style": 1
+ "style": 2
 }

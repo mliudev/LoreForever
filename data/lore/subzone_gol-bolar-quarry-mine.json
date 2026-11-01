@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gol'Bolar Quarry Mine"
  },
- "summary": "Troggs hold Gol'Bolar Quarry Mine, deep beneath Gol'Bolar Quarry in eastern Dun Morogh. Ironforge dwarves once worked its tunnels for stone and rich ore, until they broke into trogg caverns and the creatures overran the site. Hammerspine leads the warband in the deepest shafts.",
+ "summary": "Troggs hold Gol'Bolar Quarry Mine beneath the quarry in eastern Dun Morogh. Dwarves of Ironforge mined its tunnels for stone and rich ore until their picks broke into trogg caverns. Now Hammerspine leads the warband in the deepest shafts.",
  "sections": [
   {
    "title": "A Breach in the Deep",
-   "body": "Ironforge dwarves once mined stone and rich ore beneath Dun Morogh's craggy peaks. Their work ended when pickaxes broke through a wall into caverns inhabited by troggs. The creatures poured from the darkness, overwhelmed the crews, and drove them from the mine. Troggs then spread across the surrounding quarry pit.",
+   "body": "The dwarves' pickaxes broke through a wall into caverns where troggs dwelled. Their mining ended there. Troggs poured from the darkness, overwhelmed the crews, and drove them from the mine. The abandoned shafts remain in trogg hands.",
    "spoiler": 0
   },
   {
    "title": "Lair of Hammerspine",
-   "body": "Younger, weaker troggs roam the quarry's sunlit terraces, while the mine shelters the warband's fiercest fighters. Hammerspine, their vicious chieftain, lurks deep in the cramped tunnels. Local mountaineers still need to reclaim the valuable quarry, but that means entering the mine's deepest reaches and cutting off the troggs at their source.",
+   "body": "Younger troggs roam the quarry's sunlit terraces, but the mine shelters the warband's fiercest fighters. Deep in its cramped tunnels lurks Hammerspine, their vicious chieftain. Local mountaineers still need to reclaim the valuable quarry. To do so, they must reach the mine's deepest shafts and cut off the troggs at their source.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how did troggs get here",
     "who took over the mine"
    ],
-   "answer": "Dwarven miners broke into a hidden cavern as they dug. Troggs swarmed through the breach, slaughtered or drove out the miners, and claimed the shafts."
+   "answer": "Dwarven miners broke into a hidden cavern as they dug. Troggs swarmed through the breach, slaughtered some miners and drove the rest out, then claimed the shafts."
   },
   {
    "q": "Who leads the troggs inside Gol'Bolar Quarry Mine?",
@@ -53,13 +53,13 @@
     "is the mine active",
     "are dwarves still mining"
    ],
-   "answer": "No. Mining has stopped, and the site is now a battleground where dwarven mountaineers and adventurers try to drive out the troggs instead of gathering stone."
+   "answer": "No. Mining has stopped. Dwarven mountaineers and adventurers now fight to drive out the troggs instead of gathering stone."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Each pick swing into the mountain risks waking what lies beneath. Reclaiming Gol'Bolar Mine means restoring both its value and dwarven pride."
+   "text": "Each swing of a pick into the mountain risks waking what lies beneath. Reclaiming Gol'Bolar Mine would restore its value and dwarven pride."
   },
   {
    "target": "profession:Mining",
@@ -83,5 +83,5 @@
  "attribution": [
   "Gol'Bolar Quarry Mine"
  ],
- "style": 1
+ "style": 2
 }

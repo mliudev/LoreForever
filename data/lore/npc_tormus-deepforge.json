@@ -8,11 +8,11 @@
   "wiki": "Tormus Deepforge",
   "refs": 2
  },
- "summary": "At Ironforge's Great Forge, Tormus Deepforge keeps weapons flowing to the Alliance. He coordinates iron deliveries and arms defenses across Khaz Modan and beyond.",
+ "summary": "At Ironforge’s Great Forge, Tormus Deepforge keeps weapons flowing to the Alliance. He coordinates iron deliveries and arms defenses across Khaz Modan and beyond.",
  "sections": [
   {
    "title": "Master of the Great Forge",
-   "body": "Tormus Deepforge oversees the Bronzebeard clan's metalwork beside the Great Forge fires. He still hammers steel himself, but he also mourns Sturgy Ironband, his mentor. Dark Iron dwarves overran Sturgy's smithing compound south of Helm's Bed Lake in eastern Dun Morogh after a load of strange umbral ore arrived there.",
+   "body": "Beside the Great Forge fires, Tormus Deepforge oversees the Bronzebeard clan’s metalwork. He still hammers steel himself, though he mourns Sturgy Ironband, his mentor. Dark Iron dwarves overran Sturgy’s smithing compound south of Helm’s Bed Lake in eastern Dun Morogh. A load of strange umbral ore had arrived there.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "tormus purpose",
     "why talk to tormus"
    ],
-   "answer": "Tormus forges weapons for young warriors who come to him at the Great Forge. He asks them to avenge his mentor, Sturgy Ironband, by entering Ironband's Compound in Dun Morogh and recovering the umbral ore the Dark Iron dwarves killed for. Tormus works the ore into new grey iron weapons."
+   "answer": "At the Great Forge, Tormus forges weapons for young warriors who come to him. He asks them to avenge his mentor, Sturgy Ironband, by entering Ironband’s Compound in Dun Morogh and recovering the umbral ore the Dark Iron dwarves killed for. Tormus works the ore into new grey iron weapons."
   },
   {
    "q": "Who are the other Deepforges?",
@@ -42,17 +42,17 @@
     "deepforge family",
     "is tormus related to murgot"
    ],
-   "answer": "Several dwarves share the Deepforge name, including Bengus, Murgot, and Kaita Deepforge, along with Tormus's colleague Thorvald in Loch Modan. Their relationships have never been confirmed."
+   "answer": "Several dwarves share the Deepforge name, including Bengus, Murgot, and Kaita Deepforge, as well as Tormus’s colleague Thorvald in Loch Modan. Their relationships have never been confirmed."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "For a smith working at the Great Forge, Tormus links raw bar stock to weapons for the front lines."
+   "text": "At the Great Forge, Tormus links raw bar stock to weapons for the front lines."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you see Tormus's work reflect Ironforge's readiness to smelt and deliver arms when allies in the Grand Alliance call for aid."
+   "text": "As a dwarf, you see Tormus’s work reflect Ironforge’s readiness to smelt and deliver arms when allies in the Grand Alliance call for aid."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
  "attribution": [
   "Tormus Deepforge"
  ],
- "style": 1
+ "style": 2
 }

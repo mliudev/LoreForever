@@ -8,16 +8,16 @@
   "wiki": "Furen Longbeard",
   "refs": 7
  },
- "summary": "In Stormwind's Dwarven District, warriors seek Furen Longbeard's skill to forge specialized, battle-ready armor. Apprenticed to Grimand Elmore, the master armorer is known for his metallurgical expertise and heavy protective gear.",
+ "summary": "In Stormwind’s Dwarven District, warriors seek Furen Longbeard’s skill with battle-ready armor. Apprenticed to Grimand Elmore, he is known for his skill with metal and heavy protective gear.",
  "sections": [
   {
    "title": "A Dwarven Smith in the Human Capital",
-   "body": "Furen Longbeard works far from Ironforge's great forges, among the cobblestones and soot of Stormwind's Dwarven District. Like many dwarves, he brought traditional metallurgy south to help rebuild and defend the kingdom. His work keeps him connected with artisans throughout the city and beyond.",
+   "body": "Furen Longbeard works far from Ironforge’s great forges, in Stormwind’s Dwarven District. Like many dwarves, he brought the old ways of working metal south to help rebuild and defend the kingdom. His craft connects him with artisans across the city and beyond.",
    "spoiler": 0
   },
   {
    "title": "Mastery of Fire-Hardened Mail",
-   "body": "Grimand Elmore taught Furen Longbeard his craft. Furen has perfected ways to treat heavy mail and plate so they can withstand the punishment of battle. Young warriors seeking durable protection turn to him, and he requires rare ores, specialized components, and exotic reagents from distant corners of the world to fashion his signature fire-hardened armor.",
+   "body": "Grimand Elmore taught Furen Longbeard his craft. Furen has perfected ways to treat heavy mail and plate so they can withstand the blows of battle. Young warriors turn to him for durable protection. To make his fire-hardened armor, he needs rare ores, special components and exotic reagents from distant corners of the world.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "furen longbeard lore",
     "dwarf armorer stormwind"
    ],
-   "answer": "Furen Longbeard is a dwarven armorer in Stormwind City's Dwarven District. Alliance warriors seek him as an essential contact and mentor when they need mastercrafted mail armor."
+   "answer": "Furen Longbeard is a dwarven armorer in Stormwind City’s Dwarven District. Alliance warriors turn to him for mastercrafted mail armor and guidance."
   },
   {
    "q": "Where can Furen Longbeard be found?",
@@ -38,7 +38,7 @@
     "furen longbeard location",
     "furen stormwind"
    ],
-   "answer": "Furen Longbeard can be found in Stormwind City's Dwarven District, near the neighborhood's forges and smithing workshops."
+   "answer": "You can find Furen Longbeard in Stormwind City’s Dwarven District, near its forges and smithing workshops."
   },
   {
    "q": "Who taught Furen his smithing craft?",
@@ -47,7 +47,7 @@
     "furen mentor",
     "who trained furen"
    ],
-   "answer": "Grimand Elmore, a respected veteran craftsman who also lives in the Dwarven District, taught Furen Longbeard armorcraft and metallurgy."
+   "answer": "Grimand Elmore taught Furen Longbeard armorcraft and metallurgy. He is a respected veteran craftsman who also lives in the Dwarven District."
   },
   {
    "q": "What armor is Furen famous for crafting?",
@@ -56,7 +56,7 @@
     "furen armor quest",
     "warrior mail quest stormwind"
    ],
-   "answer": "Furen Longbeard is known for crafting Fire Hardened Mail, resilient armor made through exacting metallurgical work with rare components gathered across the continent."
+   "answer": "Furen Longbeard is known for crafting Fire Hardened Mail. He makes this resilient armor through careful metalwork with rare components gathered across the continent."
   },
   {
    "q": "Is Furen Longbeard related to other Longbeards?",
@@ -65,7 +65,7 @@
     "longbeard clan",
     "pilot longbeard relative"
    ],
-   "answer": "Furen Longbeard shares his clan name with other prominent dwarves across the Eastern Kingdoms, including Pilot Longbeard, an Ironforge siege engine pilot. Furen focuses on smithing."
+   "answer": "Furen Longbeard shares his clan name with other prominent dwarves across the Eastern Kingdoms, including Pilot Longbeard, an Ironforge siege engine pilot. Furen’s craft is smithing."
   },
   {
    "q": "Why do warriors seek out Furen Longbeard?",
@@ -74,21 +74,21 @@
     "warrior quest dwarven district",
     "furen warrior trainer"
    ],
-   "answer": "Warriors who have proven their basic martial prowess are directed to Furen Longbeard for heavy, durable armor that can endure front-line combat against deadlier threats."
+   "answer": "Warriors who have proven their basic martial prowess are directed to Furen Longbeard for heavy, durable armor. It can endure front-line combat against deadlier threats."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As an Alliance warrior, you can turn to Furen Longbeard for fire-hardened armor made from gathered reagents and his smithing skill."
+   "text": "As an Alliance warrior, you can turn to Furen Longbeard for fire-hardened armor made with gathered reagents and his smithing skill."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you can see the high standards of dwarven smithing in Stormwind and the advanced techniques Grimand Elmore passed down to Furen Longbeard."
+   "text": "As a blacksmith, you can see the high standards of dwarven smithing in Stormwind. Grimand Elmore passed his advanced techniques down to Furen Longbeard."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see Furen Longbeard keeping dwarven metallurgical traditions alive in the heart of the human capital."
+   "text": "As a dwarf, you can see Furen Longbeard keeping dwarven metalworking traditions alive in the heart of the human capital."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Furen Longbeard"
  ],
- "style": 1
+ "style": 2
 }

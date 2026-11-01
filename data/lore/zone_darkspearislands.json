@@ -11,21 +11,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Off the coast of Kalimdor lie the ceremonial islands of the Darkspear trolls, now a battleground where the Horde and the Alliance fight for every camp, ruin and tower. For the Horde, and above all for Vol'jin's trolls, the isles are sacred ground that must never fall to outsiders; for the Alliance, they are a foothold off Kalimdor's shore and a chance to strike at one of the Horde's proudest peoples. Victory goes to the side that captures and holds the islands' strongpoints, seizes the Darkspear Islands flag and gathers 2000 resources first.",
+ "summary": "The Horde and Alliance fight across the Darkspear Islands off Kalimdor's coast. The ceremonial isles are sacred to Vol'jin's trolls, while the Alliance seeks a foothold on the shore and a chance to strike at the Horde's pride. Victory goes to the side that holds the strongpoints, seizes the Darkspear Islands flag and gathers 2000 resources first.",
  "sections": [
   {
    "title": "Sacred Isles of the Darkspear",
-   "body": "The Darkspear are an island people. Driven out of Stranglethorn Vale by their larger, crueler rivals, they made their lives among the islands of the southern seas, and they keep these isles off Kalimdor's coast for their rites and for the loa they honor. It was on islands like these that Thrall's storm-wrecked fleet found Sen'jin's people beset by Kul Tiran sailors, murlocs and a sea witch, and there that the trolls first swore themselves to the Horde. To a Darkspear, an enemy banner raised over the ceremonial grounds is a desecration as much as a defeat.",
+   "body": "The Darkspear are an island people. Driven from Stranglethorn Vale by larger, crueler rivals, they made their lives among the islands of the southern seas. They keep these isles off Kalimdor's coast for their rites and the loa they honor.\n\nOn islands like these, Thrall's storm-wrecked fleet found Sen'jin's people beset by Kul Tiran sailors, murlocs and a sea witch. There, the trolls first swore themselves to the Horde. To a Darkspear, an enemy banner over the ceremonial grounds means desecration as well as defeat.",
    "spoiler": 0
   },
   {
    "title": "Two Sides, Two Reasons",
-   "body": "For the Horde, holding the isles is a debt of honor. The Darkspear stood with Thrall when the Horde had little else, and orcs, tauren and Forsaken fight beside them so that the trolls' holy ground stays theirs. For the Alliance, the islands are a foothold off Kalimdor's coast and a way to strike at the Horde where its pride runs deepest. Neither side speaks of peace here: every landing is answered, and every camp that falls is fought for again.",
+   "body": "For the Horde, holding the isles is a debt of honor. The Darkspear stood with Thrall when the Horde had little else, so orcs, tauren and Forsaken fight beside them to keep the trolls' holy ground. For the Alliance, these islands are a foothold off Kalimdor's coast and a way to strike where Horde pride runs deepest. Neither side speaks of peace. Every landing is answered, and every fallen camp is fought over again.",
    "spoiler": 0
   },
   {
    "title": "The Shape of the Battle",
-   "body": "No army can hold the islands by numbers alone. The fighting ranges from the Camp and the old Ruins to the Abandoned Tower and Shipwreck Cove, and the side that captures and holds the islands' strongpoints builds up its store of resources. A single banner, the Darkspear Islands flag, can turn the tide for whoever seizes it. The first side to gather 2000 resources wins the day and drives its enemies back to their ships, until the next landing.",
+   "body": "Numbers alone cannot hold the islands. The fighting runs from the Camp and the old Ruins to the Abandoned Tower and Shipwreck Cove. Each side builds up its store of resources by capturing and holding the strongpoints. Seizing the Darkspear Islands flag can turn the tide. The first side to gather 2000 resources wins the day and drives its enemies back to their ships, until the next landing.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "darkspear islands battleground",
     "darkspear isles pvp"
    ],
-   "answer": "It is a battleground off the coast of Kalimdor, on the ceremonial islands of the Darkspear trolls. Horde and Alliance forces fight there to capture and hold the islands' strongpoints, seize the Darkspear Islands flag and be the first to gather 2000 resources."
+   "answer": "The Darkspear Islands are a battleground on the Darkspear trolls' ceremonial isles off Kalimdor's coast. Horde and Alliance forces fight to hold the strongpoints, seize the Darkspear Islands flag and be the first to gather 2000 resources."
   },
   {
    "q": "Why does the Horde fight for the Darkspear Islands?",
@@ -46,7 +46,7 @@
     "horde stakes darkspear islands",
     "why do the trolls fight there"
    ],
-   "answer": "The isles are sacred to the Darkspear trolls, Vol'jin's people, who joined the Horde when Thrall rescued them from Kul Tiran sailors, murlocs and a sea witch. Losing their ceremonial grounds to the Alliance would be a desecration, so the whole Horde fights to keep them."
+   "answer": "The isles are sacred to the Darkspear trolls, Vol'jin's people. They joined the Horde after Thrall's fleet found them beset by Kul Tiran sailors, murlocs and a sea witch. Losing their ceremonial grounds to the Alliance would desecrate them, so the Horde fights to keep them."
   },
   {
    "q": "Why does the Alliance fight at the Darkspear Islands?",
@@ -55,7 +55,7 @@
     "alliance stakes darkspear islands",
     "alliance reason darkspear"
    ],
-   "answer": "For the Alliance, the islands are a foothold off Kalimdor's coast and a chance to strike at the Horde through one of its proudest peoples. Every strongpoint taken there is ground the Horde must spend blood to win back."
+   "answer": "For the Alliance, the islands are a foothold off Kalimdor's coast and a chance to strike at one of the Horde's proudest peoples. Each strongpoint taken is ground the Horde must fight to win back."
   },
   {
    "q": "How is the battle for the Darkspear Islands won?",
@@ -64,7 +64,7 @@
     "how to win darkspear islands",
     "darkspear islands flag"
    ],
-   "answer": "Each side captures and holds the islands' strongpoints, which build up its resources, and tries to seize the Darkspear Islands flag. The first side to gather 2000 resources wins the battle."
+   "answer": "Each side captures and holds the islands' strongpoints, building up its store of resources, and tries to seize the Darkspear Islands flag. The first side to gather 2000 resources wins."
   },
   {
    "q": "Where does the fighting happen on the islands?",
@@ -73,7 +73,7 @@
     "shipwreck cove",
     "abandoned tower"
    ],
-   "answer": "The battle ranges across the isles, from the Camp and the old Ruins to the Abandoned Tower and Shipwreck Cove. The struggle for each place rarely ends with a single charge."
+   "answer": "The fighting ranges across the isles, from the Camp and the old Ruins to the Abandoned Tower and Shipwreck Cove. The struggle for each place rarely ends with a single charge."
   },
   {
    "q": "Who are the Darkspear trolls?",
@@ -82,21 +82,21 @@
     "who are the darkspear",
     "vol'jin's trolls"
    ],
-   "answer": "The Darkspear are a tribe of jungle trolls led by Vol'jin. Driven from Stranglethorn Vale, they lived among the islands of the southern seas until Thrall's fleet found them, and they have served the Horde loyally ever since, from Sen'jin Village in Durotar to every front of its wars."
+   "answer": "The Darkspear are a tribe of jungle trolls led by Vol'jin. Driven from Stranglethorn Vale, they made their lives among the islands of the southern seas until Thrall's fleet found them. They have served the Horde loyally ever since, from Sen'jin Village in Durotar to every front of its wars."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Every Horde fighter on these shores defends a promise: the Darkspear stood with Thrall when the Horde had little else, and their holy isles will not fall while the Horde can hold a blade."
+   "text": "Every Horde fighter on these shores defends a promise. The Darkspear stood with Thrall when the Horde had little else, and their holy isles will not fall while the Horde can hold a blade."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance soldiers, each strongpoint taken on the Darkspear Islands is a foothold off Kalimdor's coast and a blow struck at one of the Horde's proudest peoples."
+   "text": "For Alliance soldiers, each strongpoint taken on the Darkspear Islands is a foothold off Kalimdor's coast and a blow against one of the Horde's proudest peoples."
   },
   {
    "target": "race:Troll",
-   "text": "These are your people's ceremonial grounds. Every Alliance banner raised here is an insult to the loa and to Sen'jin's memory, and every one torn down is a prayer answered."
+   "text": "These are your people's ceremonial grounds. Every Alliance banner raised here insults the loa and Sen'jin's memory. Every banner torn down is a prayer answered."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  "attribution": [
   "World of Warcraft: Forever",
   "Darkspear tribe"
- ]
+ ],
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Brainwashed Noble",
   "refs": 0
  },
- "summary": "Deep in the caverns outside the Deadmines, Brainwashed Noble remains captive under Defias control. Magical manipulation has stripped him of his will, and he serves the Brotherhood alongside undead minions instead of walking Stormwind's grand halls.",
+ "summary": "Deep in the caverns outside the Deadmines, Brainwashed Noble remains in Defias hands. Enchantment has stripped him of his will, and he now guards their refuge beside undead minions instead of walking Stormwind's grand halls.",
  "sections": [
   {
    "title": "A Pawn of the Brotherhood",
-   "body": "Brainwashed Noble wanders the passages leading into the Deadmines, among bandits and rotting corpses. Remnants of highborn finery suggest he belonged to Stormwind's House of Nobles, perhaps as a sitting member or a scion. Edwin VanCleef took him captive, and the Defias chose enchantments over ransom, bending his mind into that of a spellcasting guard for their sanctuary. The Brotherhood's hatred of the peers who refused to pay after the city was rebuilt reaches even into the caverns beneath Westfall.",
+   "body": "Brainwashed Noble wanders the passages into the Deadmines among bandits and rotting corpses. His highborn finery points to Stormwind's House of Nobles, perhaps as a sitting member or a scion. Edwin VanCleef took him captive. The Defias chose enchantment over ransom and bent his mind into that of a spellcasting guard for their sanctuary. Their hatred for the peers who refused to pay after Stormwind was rebuilt reaches even into the caverns beneath Westfall.",
    "spoiler": 1
   }
  ],
@@ -24,7 +24,7 @@
     "what is brainwashed noble",
     "noble in deadmines"
    ],
-   "answer": "Brainwashed Noble is an aristocratic human presumed to come from Stormwind's House of Nobles. The Defias Brotherhood captured and magically subjugated him deep in the Deadmines caverns."
+   "answer": "Brainwashed Noble is an aristocratic human thought to belong to Stormwind's House of Nobles. The Defias Brotherhood captured and magically subdued him deep in the Deadmines caverns."
   },
   {
    "q": "Why is a Stormwind noble inside the Deadmines caves?",
@@ -32,7 +32,7 @@
     "why is he in deadmines",
     "why is noble in caves"
    ],
-   "answer": "The Defias Brotherhood holds a bitter vendetta against Stormwind's aristocracy over debts left unpaid after the city was rebuilt. A captured noble gives them magical labor and a means of personal vengeance."
+   "answer": "The Defias Brotherhood holds a bitter grudge against Stormwind's aristocracy over debts left unpaid after the city was rebuilt. A captured noble gives them magical labor and a means of personal vengeance."
   },
   {
    "q": "Where can the Brainwashed Noble be found?",
@@ -40,7 +40,7 @@
     "brainwashed noble location",
     "where does he spawn"
    ],
-   "answer": "Brainwashed Noble can be found in the cavern tunnels of Moonbrook that lead toward the Deadmines entrance, among passages inhabited by skeletal undead."
+   "answer": "Brainwashed Noble wanders the cavern tunnels of Moonbrook that lead toward the Deadmines entrance, among passages inhabited by skeletal undead."
   },
   {
    "q": "How was he brainwashed?",
@@ -48,17 +48,17 @@
     "who brainwashed him",
     "how is he controlled"
    ],
-   "answer": "The exact caster is unknown. Renegade spellcasters and enchanters among the Defias in Westfall are capable of bending a captive's mind through sorcery."
+   "answer": "No one knows which caster brainwashed him. Renegade spellcasters and enchanters among the Defias in Westfall can bend a captive's mind through sorcery."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, seeing a peer of the realm reduced to a mindless sentry beneath Westfall shows the depth of the Defias Brotherhood's grudge against Stormwind's ruling elite."
+   "text": "As a human, seeing a peer of the realm reduced to a mindless sentry beneath Westfall shows how deep the Defias Brotherhood's grudge runs against Stormwind's ruling elite."
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, Brainwashed Noble uses magical staves and arcane tricks such as Polymorph, suggesting he had formal magical education in the capital before his mind was shattered."
+   "text": "As a mage, you can recognize Brainwashed Noble's magical staves and arcane tricks, such as Polymorph. They suggest he received formal magical training in the capital before his mind was shattered."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Brainwashed Noble"
  ],
- "style": 1
+ "style": 2
 }

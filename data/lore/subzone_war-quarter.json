@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "War Quarter"
  },
- "summary": "The War Quarter is the northwestern district of the Undercity, serving as the command post and martial training ground for the Forsaken. Within its echoing stone chambers, the soldiers, priests, and crafters of Lordaeron hone their weapons and shadow magic in defense of their fledgling kingdom. It houses training halls for warriors and priests alongside weapon masters and heavy industry.",
+ "summary": "In the War Quarter, Lordaeron's Forsaken hone weapons and shadow magic for their fledgling kingdom. Training halls, weapon masters, and heavy industry fill the Undercity's northwest.",
  "sections": [
   {
    "title": "The Forsaken Garrison",
-   "body": "Occupying the northwest sector of the subterranean metropolis, the War Quarter stands as the bastion of martial strength for the Forsaken. Beneath its gloomy stone arches, rank-and-file guards and elite champions assemble to drill in armed combat. Unlike traditional barracks of living kingdoms, this military center combines ruthless iron warfare with the chilling rites of shadow, housing an ominous Altar of Darkness where spiritual discipline merges with military ambition.",
+   "body": "Rank-and-file guards and elite champions drill beneath the War Quarter's gloomy stone arches. There, ruthless iron warfare meets the chilling rites of shadow. The Altar of Darkness stands at its heart.",
    "spoiler": 0
   },
   {
    "title": "Forge and Steel",
-   "body": "Beyond housing warrior and priest guilds, the quarter functions as the heart of Undercity's wartime production. The clatter of blades and armor echoes continually against the stone, supported by the district's blacksmiths, smelters, and weapon masters. Here, iron forged deep in the earth is shaped to outfit the forces defending the ruins of Lordaeron from the Scourge and Scarlet Crusade.",
+   "body": "Warrior and priest guilds make the War Quarter the heart of Undercity's wartime production. Blacksmiths and smelters ring the stone with their labor as weapon masters prepare blades and armor. Iron forged deep underground arms the forces defending Lordaeron's ruins from the Scourge and Scarlet Crusade.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "war quarter purpose",
     "why visit war quarter"
    ],
-   "answer": "The War Quarter serves as the military headquarters of the Undercity. It hosts martial training grounds for warriors and priests, along with vital crafting centers for blacksmithing and mining to keep the Forsaken army armed and armored."
+   "answer": "The War Quarter is the Undercity's military headquarters. Its training grounds serve warriors and priests, while blacksmithing and mining centers keep the Forsaken army armed and armored."
   },
   {
    "q": "Why are priests located in the War Quarter?",
@@ -37,7 +37,7 @@
     "why are priests in war quarter",
     "priest trainers undercity"
    ],
-   "answer": "Forsaken priests largely focus on the discipline of the Shadow, using it as a potent weapon alongside their warriors rather than maintaining pastoral sanctuaries. Their presence near the martial forces and the Altar of Darkness reflects how deeply intertwined faith and warfare are in the defense of the Forsaken."
+   "answer": "Forsaken priests largely practice the discipline of the Shadow, wielding it beside warriors rather than tending pastoral sanctuaries. Their place near the martial forces and the Altar of Darkness binds faith closely to the Forsaken's defense."
   },
   {
    "q": "What is the Altar of Darkness?",
@@ -45,7 +45,7 @@
     "altar of darkness undercity",
     "altar in war quarter"
    ],
-   "answer": "The Altar of Darkness is a focal point of dark spiritual power located within the War Quarter. It is tied to the Forsaken's dark rites and training, anchoring the shadowy magic wielded by their priests and champions."
+   "answer": "The Altar of Darkness is a focal point of dark spiritual power in the War Quarter. It is tied to the Forsaken's dark rites and training, and anchors the shadow magic their priests and champions wield."
   },
   {
    "q": "Where is the War Quarter located in the Undercity?",
@@ -54,17 +54,17 @@
     "war quarter location",
     "war quarter directions"
    ],
-   "answer": "The War Quarter occupies the northwest quadrant of the Undercity's circular layout, northwest of the central Trade Quarter, between the Magic Quarter to the east and the Apothecarium to the south."
+   "answer": "The War Quarter occupies the northwest of the Undercity's circular layout, northwest of the central Trade Quarter. It lies between the Magic Quarter to the east and the Apothecarium to the south."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "The War Quarter is your primary haven in the Undercity, offering weapon masters, advanced combat instructors, and heavy armories to prepare you for the brutal frontline battles of Lordaeron."
+   "text": "As a warrior, the War Quarter is your primary haven in the Undercity. Weapon masters, advanced combat instructors, and heavy armories prepare you for Lordaeron's brutal frontline battles."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Housing both training masters and high-heat anvils, the War Quarter is the central hub for smiths hammering out munitions and plate for the Forsaken war effort."
+   "text": "As a blacksmith, you find training masters and high-heat anvils in the War Quarter. It is the central hub for smiths forging munitions and plate for the Forsaken war effort."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "War Quarter"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Valley of Strength"
  },
- "summary": "The Valley of Strength is the bustling central commons of Orgrimmar, greeting all who pass through the city's towering front gates. Housing the city bank, the central auction house, and the Broken Tusk inn, it serves as the beating commercial and administrative heart of the Horde capital.",
+ "summary": "Trade and daily business fill Orgrimmar's Valley of Strength. The bank, central auction house, and Broken Tusk inn draw travelers through the Horde capital.",
  "sections": [
   {
    "title": "The Gates of the City",
-   "body": "Step past the fortified timber gates of Orgrimmar and you enter the Valley of Strength. Carved deep into the red canyon rock of Durotar, this valley serves as the Horde's front square. Adventurers, merchants, and warriors from all allied nations mingle across its dusty plazas, swapping war stories over flagons from the Broken Tusk inn or attending to vital trade at the central bank and auction house. It is a bustling testament to the strength and unity the orcs fought to establish in their new homeland.",
+   "body": "Beyond Orgrimmar's timber gates, the Valley of Strength opens among Durotar's red canyon walls. Adventurers, merchants, and warriors from allied nations fill the Horde's front square. At the Broken Tusk inn, some trade war stories over flagons. Others turn to business at the central bank and auction house. The orcs fought for strength and unity in their new homeland, and both shape the city's heart.",
    "spoiler": 0
   },
   {
    "title": "Hub of Trade and Command",
-   "body": "Beyond its defensive significance, the valley functions as the capital's foremost marketplace. Shops such as Soran's Leather and Steel Armory sell armor, while various vendors supply provisions for long treks across the Barrens. Grunts stand vigilant watch at every corner, directing newcomers and ensuring order among the diverse peoples who have taken refuge beneath Thrall's banner.",
+   "body": "The Valley of Strength is Orgrimmar's foremost marketplace. Soran's Leather and Steel Armory sells armor, while vendors stock provisions for long treks across the Barrens. Grunts watch every corner. They guide newcomers and keep order among the diverse peoples who have taken refuge beneath Thrall's banner.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place",
     "orgrimmar entrance area"
    ],
-   "answer": "It is the primary entryway and central valley of Orgrimmar, located just inside the city's main gates. It contains essential urban services such as the bank, auction house, general goods merchants, and the Broken Tusk inn."
+   "answer": "Just inside Orgrimmar's main gates, the Valley of Strength holds the bank, auction house, general goods merchants, and Broken Tusk inn."
   },
   {
    "q": "Where is Grommash Hold located relative to this valley?",
@@ -37,7 +37,7 @@
     "grommash hold location",
     "warchief seat"
    ],
-   "answer": "Grommash Hold is not in the Valley of Strength; it stands to the north in the Valley of Wisdom, serving as the seat of Warchief Thrall and the Horde's high command."
+   "answer": "Grommash Hold lies north of the Valley of Strength, in the Valley of Wisdom. It is Warchief Thrall's seat and the Horde's high command."
   },
   {
    "q": "What services can I find here?",
@@ -46,7 +46,7 @@
     "vendors valley of strength",
     "what's here"
    ],
-   "answer": "The valley houses the city's primary bank, the auction house, trade supplies, armor merchants at Soran's Leather and Steel Armory, lodging at the Broken Tusk, and general trade goods."
+   "answer": "The valley has the city's main bank and auction house, trade supplies, armor at Soran's Leather and Steel Armory, lodging at the Broken Tusk, and general trade goods."
   },
   {
    "q": "Who guards the Valley of Strength?",
@@ -55,13 +55,13 @@
     "guards in valley of strength",
     "city defense"
    ],
-   "answer": "The valley is heavily patrolled by Orgrimmar Grunts, seasoned orc warriors who maintain peace, protect incoming caravans, and direct travelers through the labyrinthine canyon city."
+   "answer": "Orgrimmar Grunts patrol the Valley of Strength. These seasoned orc warriors keep the peace, protect incoming caravans, and guide travelers through the canyon city."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As the primary plaza inside Orgrimmar's gates, the Valley of Strength is the first place Horde travelers meet to trade, recruit for expeditions."
+   "text": "As a Horde traveler, you first meet others to trade and recruit for expeditions in the Valley of Strength, the plaza just inside Orgrimmar's gates."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Valley of Strength"
- ]
+ ],
+ "style": 2
 }

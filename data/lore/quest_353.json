@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "15"
  },
- "summary": "Grimand Elmore sends travelers north with an axe for Mountaineer Gringer Stormpike. The road leads from Stormwind's Dwarven District to an Ironforge outpost in Loch Modan.",
+ "summary": "Grimand Elmore sends travelers north with an axe for Mountaineer Gringer Stormpike. From Stormwind's Dwarven District, the road reaches an Ironforge outpost in Loch Modan.",
  "sections": [
   {
    "title": "A Weapon for the North",
-   "body": "Grimand Elmore has been asked to make a weapon for Mountaineer Gringer Stormpike. The Stormpike clan is respected in Ironforge for its discerning taste and martial pride. Elmore turns to trustworthy travelers to carry the axe north, across the distance between Stormwind and the dwarven borderlands.",
+   "body": "Grimand Elmore has been asked to make an axe for Mountaineer Gringer Stormpike. In Ironforge, the Stormpike clan is respected for its discerning taste and martial pride. Elmore entrusts travelers with carrying the weapon north, across the distance from Stormwind to the dwarven borderlands.",
    "spoiler": 0
   },
   {
    "title": "On Guard in Loch Modan",
-   "body": "At Loch Modan's northern guard tower, Mountaineer Stormpike watches over lands troubled by wandering troggs and burrowing kobolds. The southern human kingdoms face rumors of unrest and banditry, while the dwarven frontier has dangers of its own. Stormpike needs a new blade to help keep the mountain passes secure.",
+   "body": "At Loch Modan's northern guard tower, Mountaineer Stormpike watches over lands troubled by wandering troggs and burrowing kobolds. Rumors of unrest and banditry reach the southern human kingdoms, while the dwarven frontier has dangers of its own. Stormpike needs a new blade to help keep the mountain passes secure.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "stormpike parcel contents",
     "grimand elmore weapon"
    ],
-   "answer": "The package contains a custom dwarven axe forged by Grimand Elmore in Stormwind. Mountaineer Stormpike commissioned it for use against troggs and kobolds in Loch Modan."
+   "answer": "The package holds a custom dwarven axe forged by Grimand Elmore. Mountaineer Stormpike commissioned it for use against troggs and kobolds in Loch Modan."
   },
   {
    "q": "Where do I deliver the package?",
@@ -51,7 +51,7 @@
     "how to find mountaineer stormpike",
     "loch modan guard tower location"
    ],
-   "answer": "Deliver the package to Mountaineer Stormpike at the northern guard tower in Loch Modan, along the road through the hills toward the northern mountain borders."
+   "answer": "Carry the package to Mountaineer Stormpike at Loch Modan's northern guard tower, along the road through the hills toward the northern mountain borders."
   },
   {
    "q": "Why does a dwarf in Loch Modan buy weapons from Stormwind?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As a member of the Alliance, you help carry military goods between Stormwind and the mountain outposts, where humans and dwarves rely on one another."
+   "text": "As a member of the Alliance, you help carry military goods between Stormwind and the mountain outposts. Humans and dwarves rely on one another there."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
   "In-game quest text: Stormpike's Delivery",
   "Stormpike's Delivery"
  ],
- "style": 1
+ "style": 2
 }

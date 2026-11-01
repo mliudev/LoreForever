@@ -8,11 +8,11 @@
   "wiki": "Gazin Tenorm",
   "refs": 0
  },
- "summary": "In Stormwind's Cathedral of Light, Gazin Tenorm keeps watch near the altar after a dangerous scouting mission in Elwynn Forest.",
+ "summary": "Near the altar in Stormwind's Cathedral of Light, Gazin Tenorm has returned from a dangerous scouting mission in Elwynn Forest.",
  "sections": [
   {
    "title": "A Scout in the Cathedral",
-   "body": "Gazin Tenorm stays in the Cathedral of Light, though his thoughts remain in Elwynn Forest. He and his close friend Henze Faulk went into the woods to gather proof of the Defias Brotherhood's movements for the royal court. Defias forces ambushed them. Gazin escaped to Stormwind, but Henze was left in mortal danger. Now Gazin seeks a hero of the Light to help his companion.",
+   "body": "Gazin Tenorm remains in the Cathedral of Light, but his thoughts are in Elwynn Forest. He and his close friend Henze Faulk went into the woods to gather proof of the Defias Brotherhood's movements for the royal court. Defias forces ambushed them. Gazin escaped to Stormwind, while Henze was left in mortal danger. Now Gazin seeks a hero of the Light to help his companion.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what happened to gazin",
     "why is gazin hurt"
    ],
-   "answer": "Gazin and his companion Henze Faulk were ambushed by Defias forces while investigating the Brotherhood. Gazin escaped to Stormwind City, but Henze was stranded in the forest."
+   "answer": "Defias forces ambushed Gazin and his companion Henze Faulk while they investigated the Brotherhood. Gazin escaped to Stormwind City, but Henze was stranded in the forest."
   },
   {
    "q": "Why was Gazin investigating the Defias Brotherhood?",
@@ -85,5 +85,5 @@
  "attribution": [
   "Gazin Tenorm"
  ],
- "style": 1
+ "style": 2
 }

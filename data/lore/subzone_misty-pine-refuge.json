@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Misty Pine Refuge"
  },
- "summary": "At Misty Pine Refuge, the Argent Dawn keeps a small outpost in central Dun Morogh.",
+ "summary": "In central Dun Morogh, the Argent Dawn keeps a small outpost at Misty Pine Refuge.",
  "sections": [
   {
    "title": "Shelter in the Snow",
-   "body": "Misty Pine Refuge is an unassuming Argent Dawn outpost among Dun Morogh's windswept hills. Ironforge mountaineers patrol the surrounding crags, while Father Gavin, the order's lone agent here, keeps a quiet hearth amid the bitter cold and dangers of the mountain roads.",
+   "body": "Misty Pine Refuge is an unassuming Argent Dawn outpost among Dun Morogh's windswept hills. Ironforge mountaineers patrol the crags nearby. Father Gavin, the order's lone agent here, keeps a quiet hearth amid bitter cold and danger on the mountain roads.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "misty pine",
     "misty pine refuge overview"
    ],
-   "answer": "Misty Pine Refuge is a small Argent Dawn outpost in central Dun Morogh, kept by the order's single agent there, Father Gavin."
+   "answer": "The Argent Dawn keeps a small outpost at Misty Pine Refuge in central Dun Morogh. Father Gavin is the order's only agent there."
   },
   {
    "q": "Why is the Argent Dawn here in Dun Morogh?",
@@ -32,7 +32,7 @@
     "father gavin argent dawn",
     "argent dawn dwarf lands"
    ],
-   "answer": "Though the Argent Dawn focuses chiefly on the undead menace in the north, agents such as Father Gavin keep watch in quieter corners of Alliance lands."
+   "answer": "The Argent Dawn chiefly watches the undead menace in the north. Agents such as Father Gavin also keep watch in quieter corners of Alliance lands."
   },
   {
    "q": "Who stays at the refuge?",
@@ -40,7 +40,7 @@
     "who is at misty pine",
     "misty pine npcs"
    ],
-   "answer": "Father Gavin, an Argent Dawn agent, is the order's only member stationed at the refuge."
+   "answer": "Father Gavin, an Argent Dawn agent, is the order's only member stationed at Misty Pine Refuge."
   }
  ],
  "angles": [
@@ -63,5 +63,5 @@
  "attribution": [
   "Misty Pine Refuge"
  ],
- "style": 1
+ "style": 2
 }

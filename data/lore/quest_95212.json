@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Amberstill Ranch's ram-breeding efforts directly supply mount reinforcements to Alliance forces operating in the freezing heights of Alterac."
+   "text": "Amberstill Ranch breeds rams to reinforce Alliance forces in Alterac's freezing heights."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dun Morogh's hardy mountain rams are iconic dwarven mounts, and breeders at Amberstill Ranch refuse to equip them with substandard gear."
+   "text": "Dun Morogh's hardy mountain rams are iconic dwarven mounts. Their breeders at Amberstill Ranch refuse to equip them with substandard gear."
   },
   {
    "target": "class:Hunter",
-   "text": "The task calls on skilled trackers and hunters to seek out Dun Morogh's fiercest mountain leopards to secure pristine pelts."
+   "text": "Skilled trackers and hunters are needed to seek out Dun Morogh's fiercest mountain leopards and secure pristine pelts."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "never saddle on quality quest",
     "what is never saddle on quality"
    ],
-   "answer": "Never Saddle on Quality is a task based out of Amberstill Ranch in Dun Morogh. A breeder requires high-quality leopard pelts to craft sturdy, warm saddles for a team of rams being readied as reinforcements for the Alterac expedition.",
+   "answer": "At Amberstill Ranch in Dun Morogh, a breeder needs high-quality leopard pelts for warm, sturdy saddles. The saddles are for a team of rams being readied as reinforcements for the Alterac expedition.",
    "q": "What is Never Saddle on Quality?"
   },
   {
@@ -41,7 +41,7 @@
     "what are pelts for",
     "why pristine pelts"
    ],
-   "answer": "The pelts are needed to craft durable, warm saddles for expedition mounts. Dun Morogh's mountain leopards provide thick, insulating fur suited to protect riders and beasts against the biting mountain chill of Alterac.",
+   "answer": "Leopard pelts provide the thick fur needed to make durable, warm saddles for the expedition's mounts. The insulation protects riders and beasts from Alterac's biting mountain chill.",
    "q": "Why are leopard pelts needed?"
   },
   {
@@ -50,7 +50,7 @@
     "who gets the rams",
     "alterac reinforcements"
    ],
-   "answer": "The mounts are bound for Alliance forces engaged in the Alterac expedition. With harsh weather and ongoing operations in the high passes, well-equipped riding rams are essential support.",
+   "answer": "The mounts are bound for Alliance forces in the Alterac expedition. Well-equipped riding rams are vital support in the harsh weather and ongoing operations in the high passes.",
    "q": "Where are the rams being sent?"
   },
   {
@@ -58,7 +58,7 @@
     "where is amberstill ranch",
     "amberstill ranch location"
    ],
-   "answer": "Amberstill Ranch is located in the snowy hills of Dun Morogh, east of Kharanos. It serves as the primary breeding and training ground for dwarven mountain rams.",
+   "answer": "Amberstill Ranch lies in Dun Morogh, east of Kharanos. It is the main breeding and training ground for dwarven mountain rams.",
    "q": "What is Amberstill Ranch's role here?"
   },
   {
@@ -66,7 +66,7 @@
     "where find leopards",
     "where are leopards dun morogh"
    ],
-   "answer": "The fierce snow leopards roam the snowy ridges and crags to the east of Amberstill Ranch in Dun Morogh, where hunters must track the largest beasts to recover pristine hides.",
+   "answer": "The leopards roam the snowy ridges and eastern crags of Dun Morogh, east of Amberstill Ranch. Hunters seek the largest beasts there for their pristine hides.",
    "q": "Where do the leopards roam?"
   },
   {
@@ -74,7 +74,7 @@
     "is alterac cold",
     "why warm saddles"
    ],
-   "answer": "The kingdom and peaks of Alterac are notoriously freezing and windswept. Without thick, high-quality saddle material, mounts and riders risk frostbite and exhaustion in the mountainous terrain.",
+   "answer": "Alterac's kingdom and peaks are freezing and windswept. Without thick, high-quality saddle material, mounts and riders risk frostbite and exhaustion in the mountains.",
    "q": "Why is cold weather protection so important for the expedition?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "At Amberstill Ranch in Dun Morogh, handlers are preparing a fresh team of sturdy mountain rams to reinforce the Alliance expedition operating in Alterac. However, preparations have stalled due to a shortage of suitable material needed to craft durable, cold-weather saddles for the beasts.",
+   "body": "At Amberstill Ranch in Dun Morogh, handlers are preparing sturdy mountain rams to reinforce the Alliance expedition in Alterac. But the work has stalled: they lack the material needed to make durable, cold-weather saddles for the rams.",
    "spoiler": 0,
    "title": "Mounting the Expedition"
   },
   {
-   "body": "To withstand the punishing freeze of the Alterac mountains, the expedition mounts demand thick, high-grade insulation. Hunters are directed into the eastern crags to track down Dun Morogh's largest, fiercest mountain leopards and recover their pristine pelts, ensuring the Alliance forces receive gear built to survive the high passes.",
+   "body": "The expedition's mounts need thick insulation to endure the freeze of the Alterac mountains. Hunters are sent to the eastern crags to track the largest, fiercest mountain leopards in Dun Morogh and bring back pristine pelts. The Alliance forces need gear that can withstand the high passes.",
    "spoiler": 0,
    "title": "Warmth for the High Passes"
   }
  ],
- "summary": "Never Saddle on Quality is an Alliance task centered at Amberstill Ranch in Dun Morogh. Handlers require pristine mountain leopard pelts to craft warm saddles for riding rams destined to reinforce the Alterac expedition. The effort ensures mounts and riders can endure the biting frost of the northern mountains.",
+ "summary": "At Amberstill Ranch, handlers prepare rams for the Alliance expedition in Alterac. They need pristine mountain leopard pelts to make warm saddles for the beasts, so mounts and riders can face the northern mountains' biting frost.",
  "attribution": [
   "In-game quest text: Never Saddle on Quality"
- ]
+ ],
+ "style": 2
 }

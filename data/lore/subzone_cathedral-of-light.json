@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Cathedral of Light"
  },
- "summary": "The Cathedral of Light rises over Cathedral Square as Stormwind's chief sanctuary of the Church of the Holy Light. It is the spiritual heart of the city and the center of human priesthood and the Knights of the Silver Hand.",
+ "summary": "In Cathedral Square, the Cathedral of Light is the Church of the Holy Light’s chief sanctuary. It is Stormwind’s spiritual heart and the center of human priesthood and the Knights of the Silver Hand.",
  "sections": [
   {
    "title": "Sanctuary of the Faithful",
-   "body": "Archbishop Benedictus leads the faithful from the Cathedral of Light, rebuilt after the First War's devastation. Archbishop Alonsus Faol and Bishop Benedictus guided its restoration, and its towering form remains a beacon of resilience. After the Scourge took Lordaeron during the Third War, the Church moved its seat south to Stormwind. From this great hall, Benedictus gives spiritual guidance to the Alliance.",
+   "body": "Archbishop Benedictus leads the faithful from the Cathedral of Light, rebuilt after the First War’s devastation. Archbishop Alonsus Faol and Bishop Benedictus guided its restoration. Its towering form still recalls the city’s resilience.\n\nAfter the Scourge took Lordaeron during the Third War, the Church moved its seat south to Stormwind. From the great hall, Benedictus gives spiritual guidance to the Alliance.",
    "spoiler": 0
   },
   {
    "title": "Halls of Devotion and Arms",
-   "body": "The Cathedral of Light is both a place of prayer and healing and the main headquarters of the Knights of the Silver Hand in the southern kingdoms. Lord Grayson Shadowbreaker and Duthorian Rall train promising squires through the sacred trials of the Tome of Valor and the Tome of Divinity. High Priestess Laurena guides devout acolytes in the deepest tenets of the Light, preparing holy champions to defend the realm from the growing threats of the Defias Brotherhood and the Scourge.",
+   "body": "The Cathedral of Light is a place of prayer and healing. It is also the Knights of the Silver Hand’s main headquarters in the southern kingdoms.\n\nLord Grayson Shadowbreaker and Duthorian Rall train promising squires in the sacred trials of the Tome of Valor and the Tome of Divinity. High Priestess Laurena teaches acolytes the deepest tenets of the Light. She prepares holy champions to defend the realm from the growing threats of the Defias Brotherhood and the Scourge.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "paladin order stormwind",
     "why are paladins here"
    ],
-   "answer": "The Cathedral of Light is the Knights of the Silver Hand's headquarters in Stormwind. Lord Grayson Shadowbreaker and Duthorian Rall instruct new squires, give them sacred tomes, and direct crusaders against the realm's enemies."
+   "answer": "The Cathedral of Light is the Knights of the Silver Hand’s headquarters in Stormwind. Lord Grayson Shadowbreaker and Duthorian Rall instruct new squires through sacred trials and direct crusaders against the realm’s enemies."
   },
   {
    "q": "What lies beneath the cathedral floor?",
@@ -46,17 +46,17 @@
     "cathedral catacombs",
     "what is under the cathedral"
    ],
-   "answer": "The cathedral's catacombs lie beneath the main sanctuary. They hold the remains of honored heroes, priests, and paladins."
+   "answer": "The cathedral’s catacombs lie beneath the main sanctuary. They hold the remains of honored heroes, priests, and paladins."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you find your order's chief hall in Stormwind's Cathedral of Light, where Duthorian Rall and Lord Grayson Shadowbreaker guide you through the sacred trials of the Tomes of Valor and Divinity."
+   "text": "As a paladin, you find your order’s chief hall in Stormwind’s Cathedral of Light. Duthorian Rall and Lord Grayson Shadowbreaker guide you through the sacred trials of the Tomes of Valor and Divinity."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you find the Church of the Holy Light's chief seat in the southern kingdoms at the Cathedral of Light, where High Priestess Laurena and Archbishop Benedictus guide your devotion and sacred healing."
+   "text": "As a priest, you find the Church of the Holy Light’s chief seat in the southern kingdoms at the Cathedral of Light. High Priestess Laurena and Archbishop Benedictus guide your devotion and sacred healing."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Cathedral of Light"
  ],
- "style": 1
+ "style": 2
 }

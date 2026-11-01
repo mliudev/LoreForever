@@ -17,16 +17,16 @@
   "wiki": "Klockmort's Creation",
   "chain": []
  },
- "summary": "In Tinker Town, Klockmort's Creation takes shape through a new forging method. Gnome blacksmith Klockmort Spannerspan uses the rigorous technique devised by master armorsmith Furen Longbeard to make armor from raw materials.",
+ "summary": "In Tinker Town, Klockmort Spannerspan puts Furen Longbeard's forging method to work on rare materials. The result is armor made to endure.",
  "sections": [
   {
    "title": "A Fusion of Disciplines",
-   "body": "Klockmort Spannerspan works in Tinker Town, where dwarven armor is usually forged at the Great Forge. With Furen Longbeard's rigorous methods, the gnome blacksmith finishes a pair of armored gauntlets. Dwarven metalworking and gnomish mechanical skill meet in gauntlets made to endure punishment that would crush ordinary steel.",
+   "body": "Using Furen Longbeard's methods, Klockmort finishes a pair of armored gauntlets in Tinker Town. Dwarven metalworking and gnomish mechanical skill come together in gauntlets built to endure punishment that would crush ordinary steel.",
    "spoiler": 0
   },
   {
    "title": "Unrivaled Resilience",
-   "body": "Klockmort says the armor could be run over by a siege engine without lasting distortion. Its resilience comes from the peculiar treatment of rare components. Dwarven forging methods joined with gnomish ingenuity make armor fit to withstand the fiercest frontline battles.",
+   "body": "Klockmort says a siege engine could run over the armor without leaving lasting distortion. Peculiarly treated rare components give it resilience. Dwarven forging and gnomish ingenuity join in armor built to withstand the fiercest frontline battles.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is klockmort",
     "gnome in tinker town"
    ],
-   "answer": "Klockmort Spannerspan is a skilled gnome blacksmith in Tinker Town, Ironforge. He helps with intricate mechanical work and joins dwarven craftsmen such as Furen Longbeard to make unusual, durable gear."
+   "answer": "Klockmort Spannerspan is a skilled gnome blacksmith in Tinker Town, Ironforge. He lends his hand to intricate mechanical work and joins dwarven craftsmen such as Furen Longbeard to make unusual, durable gear."
   },
   {
    "q": "Who designed the process to make this armor?",
@@ -47,7 +47,7 @@
     "furen longbeard armor",
     "furen method"
    ],
-   "answer": "Furen Longbeard, an accomplished dwarven armorsmith, devised the forging process. Klockmort followed Furen's exact methodology to treat the materials and finish the armor."
+   "answer": "Furen Longbeard, an accomplished dwarven armorsmith, devised the forging process. Klockmort followed Furen's exact methods to treat the materials and finish the armor."
   },
   {
    "q": "Why did a gnome blacksmith make this armor?",
@@ -56,7 +56,7 @@
     "gnome blacksmithing",
     "engineering armor"
    ],
-   "answer": "Klockmort wanted to try Furen Longbeard's new technique on armor of his own. Because you had helped Furen, Klockmort offered you the finished armor in return for gathering the searing coral he needed."
+   "answer": "Klockmort wanted to try Furen Longbeard's new technique on armor of his own. Since you had helped Furen, Klockmort offered you the finished armor in return for gathering the searing coral he needed."
   },
   {
    "q": "What makes this armor special compared to standard plate?",
@@ -116,5 +116,5 @@
  "attribution": [
   "Klockmort's Creation"
  ],
- "style": 1
+ "style": 2
 }

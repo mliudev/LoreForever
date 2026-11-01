@@ -10,16 +10,16 @@
    "quest:61"
   ]
  },
- "summary": "In Goldshire, William Pestle packs candles from Elwynn's kobolds for his brother Morgan in Stormwind.",
+ "summary": "In Goldshire, William's Shipment is bound for his brother Morgan in Stormwind, carrying candles from Elwynn's kobolds.",
  "sections": [
   {
    "title": "A Familial Trade",
-   "body": "William Pestle keeps trade moving between Goldshire and the capital. He gathers materials in Elwynn Forest, while his brother Morgan runs Pestle's Apothecary in Stormwind's Trade District. William cannot leave his duties to travel north, so he depends on couriers to carry the parcel of wax and candles into the city.",
+   "body": "William Pestle keeps trade moving between Goldshire and the capital. He gathers goods in Elwynn Forest, while his brother Morgan runs Pestle's Apothecary in Stormwind's Trade District. William cannot leave his duties to travel north, so couriers carry the wax and candles into the city.",
    "spoiler": 0
   },
   {
    "title": "Kobold Wax",
-   "body": "Kobold candles from Elwynn's mines fill the shipment. William gathers the large candles for their wax and packs them for Morgan at Pestle's Apothecary. The wax joins the stock used in the capital's alchemical trade.",
+   "body": "Kobold candles from Elwynn's mines fill William's shipment. He gathers the large candles for their wax and packs them for Morgan at Pestle's Apothecary. That wax joins the stock used in the capital's alchemical trade.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is in the box",
     "what does william send"
    ],
-   "answer": "The shipment holds candles gathered from kobolds in Elwynn Forest's mines. William collects them from passing adventurers and packs them as raw ingredients for his family's alchemy shop."
+   "answer": "The shipment holds candles gathered from kobolds in Elwynn Forest's mines. William collects them from travelers passing through and packs them as raw ingredients for his family's alchemy shop."
   },
   {
    "q": "Who is William sending this package to?",
@@ -57,13 +57,13 @@
     "why can't william go",
     "why does william need a courier"
    ],
-   "answer": "William is busy managing his affairs and gathering goods in Goldshire, with no time for the overland trip to Stormwind. He hires travelers bound for the capital to carry the package."
+   "answer": "William is busy managing his affairs and gathering goods in Goldshire, leaving no time for the overland trip to Stormwind. He hires travelers bound for the capital to carry the package."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, you can see how Goldshire's trade connects rural hamlets to the capital, Stormwind."
+   "text": "As a human, you can see Goldshire's trade connecting rural hamlets to the capital, Stormwind."
   },
   {
    "target": "faction:Alliance",
@@ -94,5 +94,5 @@
   "William's Shipment",
   "Shipment to Stormwind"
  ],
- "style": 1
+ "style": 2
 }

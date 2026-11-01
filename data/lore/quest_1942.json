@@ -17,16 +17,16 @@
   "wiki": "Astral Knot Garment",
   "chain": []
  },
- "summary": "Wynne Larson works fine spider silk into a garment in Stormwind City. An adventurer brings her rare silk gathered from the wilds, and she tailors it into a magical weave for dangerous journeys and high-society gatherings.",
+ "summary": "In Stormwind City, Wynne Larson weaves pristine spider silk into a garment for dangerous journeys and high-society gatherings. An adventurer brings her rare silk from the wilds, and she shapes it into a magical weave.",
  "sections": [
   {
    "title": "A Weaver's Wit",
-   "body": "In Stormwind's Mage Quarter, tailors serve arcane elites and visiting nobles. Wynne Larson is known for weaving pristine spider silk into durable, enchanted garments. Her playful humor comes through when she jokes about saving a few precious scraps for her own wardrobe before handing over her finished work.",
+   "body": "In Stormwind's Mage Quarter, tailors serve arcane elites and visiting nobles. Wynne Larson weaves pristine spider silk into garments both durable and enchanted. Her playful humor shows when she jokes about saving a few precious scraps for her own wardrobe before handing over her finished work.",
    "spoiler": 0
   },
   {
    "title": "Versatile Elegance",
-   "body": "Spellcasters who wear cloth prize the Astral Knot Garment for its resilience and refinement. Its silk comes from dangerous spiders, and its weave is made to endure combat while keeping the polished look expected at formal banquets in Stormwind Keep.",
+   "body": "Spellcasters who wear cloth prize the Astral Knot Garment for its resilience and refinement. Its silk comes from dangerous spiders, and its weave is made to endure combat. It keeps the polished look expected at formal banquets in Stormwind Keep.",
    "spoiler": 0
   }
  ],
@@ -93,7 +93,7 @@
   },
   {
    "target": "profession:Tailoring",
-   "text": "Wynne Larson's work shows how pristine spider silk can be refined into grand fashion."
+   "text": "Wynne Larson's work refines pristine spider silk into grand fashion."
   },
   {
    "target": "faction:Alliance",
@@ -118,5 +118,5 @@
  "attribution": [
   "Astral Knot Garment"
  ],
- "style": 1
+ "style": 2
 }

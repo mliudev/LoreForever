@@ -11,28 +11,28 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Danitha asks you to carry Rudolph Gelhardt\u2019s head to Sylvanas Windrunner in the Undercity. The delivery is meant to show the Forsaken that your people are devoted to their prosperity.",
+ "summary": "Danitha sends you to carry Rudolph Gelhardt’s head to Sylvanas Windrunner in the Undercity. The delivery is meant to show the Forsaken that your people are devoted to their prosperity.",
  "sections": [
   {
    "title": "A Show of Loyalty",
-   "body": "Danitha says Sylvanas distrusts your people and openly disparages them. You are asked to bring her Rudolph Gelhardt\u2019s head as proof that you tend to your own house and stand with the Forsaken.",
+   "body": "Danitha says Sylvanas distrusts your people and openly disparages them. She asks you to bring Rudolph Gelhardt’s head as proof that you tend to your own house and stand with the Forsaken.",
    "spoiler": 0
   },
   {
-   "title": "The Dark Lady\u2019s Answer",
-   "body": "Sylvanas doubts that Danitha\u2019s order can prevent more of its members from turning the Light against their own people. She warns that she may no longer tolerate the order if it stops serving the Forsaken\u2019s interests, and says they will be watched.",
+   "title": "The Dark Lady’s Answer",
+   "body": "Sylvanas doubts Danitha’s order can stop more of its members from turning the Light against their own people. She warns that she may no longer tolerate the order if it stops serving the Forsaken’s interests. The order will be watched.",
    "spoiler": 1
   }
  ],
  "faq": [
   {
-   "q": "Who asks me to bring Rudolph Gelhardt\u2019s head to Sylvanas?",
+   "q": "Who asks me to bring Rudolph Gelhardt’s head to Sylvanas?",
    "aliases": [
     "who sent me to Sylvanas",
     "Danitha head delivery",
     "head to the Dark Lady"
    ],
-   "answer": "Danitha asks you to deliver Rudolph Gelhardt\u2019s head to Sylvanas Windrunner in the Undercity."
+   "answer": "Danitha asks you to carry Rudolph Gelhardt’s head to Sylvanas Windrunner in the Undercity."
   },
   {
    "q": "Why does Danitha want me to bring the head to Sylvanas?",
@@ -44,7 +44,7 @@
    "answer": "Danitha wants the delivery to show Sylvanas that your people tend to their own house and are devoted to the prosperity of the Forsaken."
   },
   {
-   "q": "Why does Sylvanas mistrust Danitha\u2019s people?",
+   "q": "Why does Sylvanas mistrust Danitha’s people?",
    "aliases": [
     "why Sylvanas distrusts us",
     "Dark Lady mistrust",
@@ -53,13 +53,13 @@
    "answer": "Danitha says Sylvanas greatly mistrusts your people and nearly openly disparages them."
   },
   {
-   "q": "Where do I take Rudolph Gelhardt\u2019s head?",
+   "q": "Where do I take Rudolph Gelhardt’s head?",
    "aliases": [
     "where is Sylvanas",
     "head delivery location",
     "take it to Undercity"
    ],
-   "answer": "You are asked to bring Rudolph Gelhardt\u2019s head to Sylvanas Windrunner in the Undercity."
+   "answer": "You are asked to bring Rudolph Gelhardt’s head to Sylvanas Windrunner in the Undercity."
   }
  ],
  "angles": [],
@@ -80,7 +80,7 @@
   "topic:forsaken",
   "topic:light"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Token of Good Faith"
  ]

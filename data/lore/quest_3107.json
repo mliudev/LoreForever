@@ -17,16 +17,16 @@
   "wiki": "Consecrated Rune (Classic)",
   "chain": []
  },
- "summary": "At Anvilmar, a summons reaches fledgling dwarven paladins through Sten Stoutarm. Bromos Grummner calls them to join the Knights of the Silver Hand.",
+ "summary": "At Anvilmar, Bromos Grummner calls fledgling dwarven paladins to join the Knights of the Silver Hand. Sten Stoutarm summons them there.",
  "sections": [
   {
    "title": "A Summons to Anvilmar",
-   "body": "Sten Stoutarm gives young paladins an inscribed rune and sends them to Bromos Grummner inside Anvilmar. Around Coldridge Valley, local leaders watch closely for those gifted in divine martial prowess. The summons marks a formal induction, where raw potential must meet discipline.",
+   "body": "Your rune marks the start of a formal induction, where raw potential must meet discipline. Around Coldridge Valley, local leaders watch for those gifted in divine martial prowess. Bromos Grummner awaits inside Anvilmar to guide new initiates.",
    "spoiler": 0
   },
   {
    "title": "Dwarves and the Holy Light",
-   "body": "The Knights of the Silver Hand began among the humans of Lordaeron, but Ironforge dwarves embraced the Holy Light with fierce devotion. Bromos Grummner welcomes new members and reminds them that dwarven paladins share the solemn duty of protecting Azeroth. The order is grounded in sacrifice, tradition, and martial virtue; recruits take up hammer and faith in equal measure.",
+   "body": "The Knights of the Silver Hand began among the humans of Lordaeron, yet Ironforge dwarves embraced the Holy Light with fierce devotion. Bromos welcomes you into the brotherhood and reminds you that dwarven paladins share the solemn duty of protecting Azeroth. The order is grounded in sacrifice, tradition, and martial virtue, and asks recruits to take up hammer and faith in equal measure.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does the rune do",
     "paladin rune coldridge"
    ],
-   "answer": "The Consecrated Rune is an inscribed token that Sten Stoutarm gives novice dwarven paladins in Coldridge Valley, directing them to Bromos Grummner inside Anvilmar for formal training."
+   "answer": "The Consecrated Rune is an inscribed token Sten Stoutarm gives novice dwarven paladins in Coldridge Valley. It directs you to Bromos Grummner inside Anvilmar for formal training."
   },
   {
    "q": "Who is Bromos Grummner?",
@@ -47,7 +47,7 @@
     "paladin trainer anvilmar",
     "bromos grummner lore"
    ],
-   "answer": "Bromos Grummner is the paladin trainer stationed inside Anvilmar. He instructs new dwarven members of the Knights of the Silver Hand and prepares them for dangers threatening Dun Morogh."
+   "answer": "Bromos Grummner is the paladin trainer inside Anvilmar. He instructs new dwarven members of the Knights of the Silver Hand and prepares them for dangers threatening Dun Morogh."
   },
   {
    "q": "Why are dwarves part of the Knights of the Silver Hand?",
@@ -56,7 +56,7 @@
     "why do dwarves have paladins",
     "silver hand dwarves"
    ],
-   "answer": "During the Second War and its aftermath, human priests and paladins brought the teachings of the Holy Light to Ironforge dwarves. Dwarves respect the order's martial discipline and its willingness to sacrifice for Azeroth's defense."
+   "answer": "During the Second War and its aftermath, human priests and paladins brought the teachings of the Holy Light to Ironforge dwarves. Dwarves respect the order's martial discipline and willingness to sacrifice for Azeroth's defense."
   },
   {
    "q": "Who gives you the Consecrated Rune?",
@@ -91,7 +91,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you bring traditional dwarven fortitude together with theology taught by humans. Dwarven paladins bring stalwart resolve to the teachings of the Holy Light."
+   "text": "As a dwarf, you bring traditional dwarven fortitude together with theology taught by humans. Dwarven paladins bring steadfast resolve to the teachings of the Holy Light."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Consecrated Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

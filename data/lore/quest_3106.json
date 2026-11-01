@@ -17,16 +17,16 @@
   "wiki": "Simple Rune (Classic)",
   "chain": []
  },
- "summary": "At Anvilmar, new dwarven warriors receive a call to begin their training. Sten Stoutarm carries it from Thran Khorman, the trainer inside the hall.",
+ "summary": "At Anvilmar, Sten Stoutarm brings new dwarven warriors a summons from Thran Khorman. The rune calls them from Coldridge Valley's snowy paths to begin training.",
  "sections": [
   {
    "title": "A Summons to the Anvil",
-   "body": "Young recruits prove their grit around Coldridge Valley as they clear pests, while veteran scouts watch for promising fighters. Sten Stoutarm brings them an inscribed stone from Thran Khorman. The simple rune summons them from the snowy valley paths into Anvilmar's warm forge-hall, where they can pledge themselves to the warrior's trade.",
+   "body": "Veteran scouts watch recruits clear pests around Coldridge Valley, seeking promising fighters. Sten brings an inscribed stone from Thran Khorman. Its simple rune calls them from the snowy paths into Anvilmar's warm forge-hall, where they can pledge themselves to the warrior's trade.",
    "spoiler": 0
   },
   {
    "title": "A Changing Dun Morogh",
-   "body": "Thran Khorman speaks plainly about the troubles reshaping Dun Morogh. Gnomes displaced after catastrophic explosions destroyed Gnomeregan seek refuge, while some dwarves take up foreign arcane arts or follow the human faith in the Holy Light. Troggs, disturbed deep underground, claw at the mountain borders. Thran believes firm martial discipline is the bedrock needed to withstand these threats.",
+   "body": "Thran speaks plainly about Dun Morogh's troubles. Gnomes displaced by the explosions that destroyed Gnomeregan seek refuge, while some dwarves take up foreign arcane arts or follow the human faith in the Holy Light. Troggs claw at the mountain borders after being disturbed deep underground. Thran believes firm martial discipline is needed to withstand these threats.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does the rune do",
     "simple rune lore"
    ],
-   "answer": "The Simple Rune is an inscribed slate that Sten Stoutarm carries on Thran Khorman's behalf. It invites new warriors and instructs them to report indoors for training."
+   "answer": "Sten Stoutarm carries an inscribed slate on Thran Khorman's behalf. It invites new warriors to report indoors for training."
   },
   {
    "q": "Who is Thran Khorman?",
@@ -65,7 +65,7 @@
     "why are troggs around",
     "coldridge troggs"
    ],
-   "answer": "Troggs are primitive, vicious creatures disturbed deep underground who have recently breached the surface caves in Coldridge Valley and Dun Morogh. They threaten settlements and trade routes, so Anvilmar's defenders must stay armed and watchful."
+   "answer": "Troggs are primitive, vicious creatures disturbed deep underground. They have recently breached the surface caves in Coldridge Valley and Dun Morogh, threatening settlements and trade routes. Anvilmar's defenders must stay armed and watchful."
   },
   {
    "q": "What does Thran mean about dwarves worshipping the Holy Light?",
@@ -74,7 +74,7 @@
     "dwarf paladins lore",
     "dwarf priests"
    ],
-   "answer": "Some dwarves have taken up the Holy Light through close ties with human kingdoms such as Lordaeron and Stormwind. They now train their own paladins and priests."
+   "answer": "Some dwarves took up the Holy Light through close ties with human kingdoms such as Lordaeron and Stormwind. They now train their own paladins and priests."
   },
   {
    "q": "Where do I take the Simple Rune?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can learn traditional grit from Thran Khorman, who teaches recruits to hold fast to their culture of steel and iron as the world changes."
+   "text": "As a dwarf, you can learn traditional grit from Thran Khorman. He teaches recruits to hold fast to their culture of steel and iron as the world changes."
   },
   {
    "target": "race:Gnome",
@@ -128,5 +128,5 @@
  "attribution": [
   "Simple Rune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

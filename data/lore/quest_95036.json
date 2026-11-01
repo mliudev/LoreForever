@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Trevan warns that the worgen threaten Silverpine Forest and names Old Fire-Eye as a foe who resists death through unknown magic. He asks you to learn what is needed for a special blade.",
+ "summary": "Trevan warns you that worgen threaten Silverpine Forest. Old Fire-Eye resists death through unknown magic, and Trevan asks you to learn what a special blade will require.",
  "sections": [
   {
    "title": "A smith's list",
-   "body": "Old Fire-Eye is the worgen who attacked Trevan and his companions. Trevan will give you a list of the materials needed to forge a weapon against him. The materials are gathered, and Trevan believes he knows a smith who can craft the blade.",
+   "body": "Old Fire-Eye is the worgen who attacked Trevan and his companions. Trevan will give you a list of materials for a weapon against him. The materials are gathered, and Trevan believes he knows a smith who can craft the blade.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "fire eye worgen",
     "big worgen"
    ],
-   "answer": "Old Fire-Eye is the largest and meanest of the worgen, and he attacked Trevan and his companions."
+   "answer": "Old Fire-Eye is the largest and meanest of the worgen. He attacked Trevan and his companions."
   },
   {
    "q": "Why does Old Fire-Eye keep coming back?",
@@ -54,7 +54,7 @@
     "weapon for Old Fire-Eye",
     "kill fire eye"
    ],
-   "answer": "Old Fire-Eye resists death through unknown magic, so Trevan says a special weapon is needed to put him down."
+   "answer": "Old Fire-Eye resists death through unknown magic. Trevan says a special weapon is needed to put him down."
   },
   {
    "q": "Who can craft the blade?",
@@ -63,7 +63,7 @@
     "who makes moon blade",
     "blade blacksmith"
    ],
-   "answer": "Trevan believes he knows a smith who can craft the blade."
+   "answer": "Trevan thinks he knows a smith able to craft the blade."
   }
  ],
  "angles": [],
@@ -82,7 +82,7 @@
   "quest:95140",
   "topic:light"
  ],
- "style": 1,
+ "style": 2,
  "attribution": [
   "In-game quest text: A Moon-Kissed Blade"
  ]

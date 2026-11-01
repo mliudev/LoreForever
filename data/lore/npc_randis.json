@@ -8,16 +8,16 @@
   "wiki": "Randis",
   "refs": 1
  },
- "summary": "In Cathedral Square, Randis waits for a chance to see the world beyond Stormwind. During Children's Week, he eagerly joins willing adventurers across Alliance lands.",
+ "summary": "In Cathedral Square, Randis longs to see the lands beyond Stormwind. During Children's Week, he eagerly travels with willing adventurers across Alliance lands.",
  "sections": [
   {
    "title": "A Ward of Stormwind",
-   "body": "Randis lives in the orphanage near Stormwind's Cathedral of Light, one of many children left without family by the realm's conflicts. When Children's Week comes each year, Orphan Matron Nightingale gives sympathetic heroes a whistle and entrusts them with his care. Curious and full of questions, Randis dreams of adventure, asks riddles, and declares that he wants to be king of Stormwind when he grows up.",
+   "body": "Randis lives in the orphanage near Stormwind's Cathedral of Light. The realm's conflicts have left many children without family. Each year during Children's Week, Orphan Matron Nightingale gives a whistle to sympathetic heroes and entrusts them with Randis's care. Curious and full of questions, he dreams of adventure and asks riddles. He says he wants to be king of Stormwind when he grows up.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the World",
-   "body": "For Randis, who spends most days in Cathedral Square, leaving the capital is a grand adventure. He remarks that places like Ironforge smell odd, and his wonder shows what Alliance heroes fight to protect.",
+   "body": "Most days, Randis stays in Cathedral Square, so leaving the capital feels like a grand adventure. He remarks that places like Ironforge smell odd. His wonder shows what Alliance heroes fight to protect.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is the human orphan",
     "human orphan stormwind"
    ],
-   "answer": "Randis is a human child living at the Stormwind Orphanage in Cathedral Square. During Children's Week, willing adventurers can look after him and take him across Alliance lands."
+   "answer": "Randis is a human child at the Stormwind Orphanage in Cathedral Square. During Children's Week, willing adventurers can look after him and take him across Alliance lands."
   },
   {
    "q": "How do you meet Randis?",
@@ -56,7 +56,7 @@
     "why is randis an orphan",
     "stormwind orphanage lore"
    ],
-   "answer": "Randis lost his parents to the constant wars, invasions, and hardships that have struck Stormwind and the wider lands of Azeroth. Many children under Matron Nightingale's care share that loss."
+   "answer": "Randis lives in an orphanage because constant wars, invasions, and hardships across Stormwind and Azeroth have taken his parents. Many children in Matron Nightingale's care share that loss."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Randis"
  ],
- "style": 1
+ "style": 2
 }

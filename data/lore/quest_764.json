@@ -17,16 +17,16 @@
   "wiki": "The Venture Co. (Classic)",
   "chain": []
  },
- "summary": "Investigating a ravaged Venture Company caravan in Mulgore uncovers an aggressive buildup of Venture Company goblins digging into the eastern hills. Having had their formal requests for mining permits flatly rejected, the company chose to quarry the Earth Mother's soil anyway, prompting Morin Cloudstalker to commission a lethal response.",
+ "summary": "In Mulgore's eastern hills, goblins dig despite the tauren's refusal. The Venture Co. brings them in force to quarry the Earth Mother's soil, and Morin Cloudstalker calls for a lethal answer.",
  "sections": [
   {
    "title": "Industrial Intrusion",
-   "body": "The tauren of Mulgore revere the land as an extension of the Earth Mother, cherishing its pristine plains and balanced wildlife. When the Venture Company approached the tribes seeking rights to blast and excavate the rolling hills for raw ore, their petitions were categorically denied. Undeterred by tribal decrees or territorial sovereignty, the relentless cartel sneaked heavy machinery, laborers, and overseers directly into Mulgore's eastern ridges to mine illicitly.",
+   "body": "The tauren honor Mulgore as part of the Earth Mother. They value its open plains and the balance of its wildlife. When the Venture Company asks to blast and excavate the hills for ore, the tribes refuse. The company ignores them and brings machinery, laborers, and overseers into the eastern ridges to mine without permission.",
    "spoiler": 0
   },
   {
    "title": "An Unmistakable Message",
-   "body": "Tauren scouts like Morin Cloudstalker recognize that corporate greed cannot be reasoned with through diplomatic appeals once picks hit the stone. With documents recovered from a ravaged Venture Co. caravan confirming the company's mining operation, Morin dispatches Horde champions to cut down both the taskmasters cracking the whips and the laborers driving the drills. The bloody reprisal is intended to ensure the Venture Company calculates the cost of trespassing as far too steep.",
+   "body": "Morin Cloudstalker and the other tauren scouts see no use in further appeals once the mining begins. Documents from a ravaged Venture Co. caravan confirm the operation. Morin sends you against the overseers who crack the whips and the laborers who drive the drills. He means for the company to pay dearly for trespassing.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "venture co mulgore motive",
     "what does venture co want"
    ],
-   "answer": "The Venture Company established an illegal outpost and mine along the eastern hills of Mulgore to extract minerals and natural resources. After the tauren formally denied them official mining rights, the cartel ignored tribal authority and set up operations regardless."
+   "answer": "The Venture Company digs in Mulgore's eastern hills for ore and other resources. The tauren refused its request for mining rights, but the company set up operations anyway."
   },
   {
    "q": "Who gave the order to attack the miners?",
@@ -47,7 +47,7 @@
     "morin cloudstalker role",
     "quest giver"
    ],
-   "answer": "Morin Cloudstalker, a tauren keeping watch near Bloodhoof Village, issues the order. He views the cartel's refusal to accept tribal refusal as a direct violation that demands physical force rather than further talk."
+   "answer": "Morin Cloudstalker gives the order. Keeping watch near Bloodhoof Village, he sees the company's refusal to accept the tauren's decision as a violation that calls for force."
   },
   {
    "q": "Where is the Venture Company mine located?",
@@ -56,7 +56,7 @@
     "where are the supervisors",
     "where to find venture co"
    ],
-   "answer": "The main Venture Company Mine sits in the foothills east of the Ravaged Caravan and Bloodhoof Village. A smaller gathering of company personnel can also be encountered at an outpost tucked into the bluffs northeast of Thunder Bluff's northern elevators."
+   "answer": "The main Venture Company Mine lies in the foothills east of the Ravaged Caravan and Bloodhoof Village. Company personnel also gather at a smaller outpost in the bluffs northeast of Thunder Bluff's northern elevators."
   },
   {
    "q": "Did the tauren ever try to negotiate with the goblins?",
@@ -65,7 +65,7 @@
     "mining rights mulgore",
     "did goblins ask permission"
    ],
-   "answer": "Yes. The Venture Company petitioned the tauren for formal mining rights in Mulgore. The tribal leaders refused to let them strip-mine their ancestral lands, but the goblins simply chose to dig without permission anyway."
+   "answer": "Yes. The Venture Company asked the tauren for mining rights in Mulgore, and the tribal leaders refused permission to strip-mine their ancestral lands. The goblins dug without permission anyway."
   },
   {
    "q": "Are these goblins part of the Steamwheedle Cartel?",
@@ -74,7 +74,7 @@
     "is venture co friendly",
     "venture company faction"
    ],
-   "answer": "No. The Venture Company is an independent, notoriously predatory industrial cartel distinct from neutral trading groups like the Steamwheedle Cartel. They maintain hostile relations with local populations wherever they exploit resources."
+   "answer": "No. The Venture Company is an independent, predatory industrial cartel, separate from neutral trading groups such as the Steamwheedle Cartel. It has hostile relations with local people wherever it exploits resources."
   },
   {
    "q": "How does this connect to the ravaged caravans?",
@@ -83,21 +83,21 @@
     "did venture co attack caravans",
     "the ravaged caravan connection"
    ],
-   "answer": "The ravaged caravan was a Venture Company convoy destroyed by the tauren. The mining-division crates and documents recovered from its wreckage revealed the company's operation in Mulgore, prompting this strike on their mine."
+   "answer": "The ravaged caravan was a Venture Company convoy the tauren destroyed. Crates and documents from its mining division revealed the company's operation in Mulgore, prompting the strike on its mine."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, the Earth Mother is sacred. The Venture Company's strip-mining is not just trespassing, but a violent desecration of their ancestral home that warrants an immediate, forceful eviction."
+   "text": "For the tauren, the Earth Mother is sacred. The Venture Company's mining desecrates their ancestral home, and they mean to drive the goblins out by force."
   },
   {
    "target": "faction:Horde",
-   "text": "Defending Mulgore against commercial exploitation cements your dedication to protecting Cairne Bloodhoof's people as they work to secure their new homeland."
+   "text": "As a member of the Horde, you help defend Mulgore from commercial exploitation and protect Cairne Bloodhoof's people as they secure their new homeland."
   },
   {
    "target": "profession:Mining",
-   "text": "The Venture Company operates purely through brute-force extraction, cutting corners and destabilizing the land with no regard for the natural balance or safe mining craft."
+   "text": "The Venture Company mines by brute force, cutting corners and destabilizing the land without regard for its natural balance or safe mining practice."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "The Venture Co. (Classic)"
- ]
+ ],
+ "style": 2
 }

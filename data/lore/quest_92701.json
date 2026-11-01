@@ -19,7 +19,7 @@
     "valennia",
     "leader of peacekeepers"
    ],
-   "answer": "Valennia Stormfist is the commander of the peacekeepers stationed on the island, operating out of the settlement of Valanaar. Responsible for safeguarding the local populace, she finds her small garrison stretched thin as cultist activity escalates across the region.",
+   "answer": "Valennia Stormfist commands the peacekeepers stationed at Valanaar. She is charged with protecting the island's people, while her small garrison faces growing cult activity.",
    "q": "Who is Valennia Stormfist?"
   },
   {
@@ -28,7 +28,7 @@
     "crafty highlander",
     "aonda"
    ],
-   "answer": "Aonda is a crafty highlander stationed in the village of Shen'dar. After successfully securing a local pylon and defending the settlement from cultist incursions, she entrusts travelers to deliver her written report across the island to Valennia.",
+   "answer": "Aonda is a highlander stationed in Shen'dar. After securing a pylon and defending the village from cultists, she entrusts a traveler with her written report for Valennia.",
    "q": "Who is Aonda?"
   },
   {
@@ -37,7 +37,7 @@
     "where is valanaar",
     "valanaar location"
    ],
-   "answer": "Valanaar is a settlement located at the southeastern edge of the island. It serves as the primary base for Valennia Stormfist and the local peacekeepers, acting as a defensive bastion for the island's townsfolk.",
+   "answer": "Valanaar lies at the southeastern edge of the island. It is the base of Valennia Stormfist and the peacekeepers who defend the island's people.",
    "q": "What is Valanaar?"
   },
   {
@@ -46,7 +46,7 @@
     "who is attacking",
     "cult expansion"
    ],
-   "answer": "The island faces a rapidly growing cult threat that has begun encroaching on local settlements and sacred pylons. While peacekeepers previously avoided direct clashes, the cult's expansion now forces Valanaar and its defenders to prepare for an inevitable fight.",
+   "answer": "A rapidly growing cult is spreading across the island and pressing into settlements and sacred pylons. The peacekeepers once avoided direct clashes, but now Valanaar's defenders must prepare to fight.",
    "q": "What is the cult threatening the island?"
   },
   {
@@ -55,7 +55,7 @@
     "shen'dar",
     "pylon village"
    ],
-   "answer": "Shen'dar is a village situated near a vital pylon on the island. Having recently repelled cultist aggression to keep the village and pylon secure, its leaders maintain close ties with the peacekeeper forces stationed in Valanaar.",
+   "answer": "Shen'dar is a village near a vital pylon on the island. Its people recently repelled cultists to protect the village and pylon, and its leaders keep close ties with the peacekeepers at Valanaar.",
    "q": "What is Shen'dar?"
   },
   {
@@ -64,7 +64,7 @@
     "written report contents",
     "what does letter say"
    ],
-   "answer": "The written report details the recent events surrounding the defense of Shen'dar and its pylon, warning Valennia that the cult's rapid territorial growth means direct conflict can no longer be avoided.",
+   "answer": "Aonda's written report tells of the defense of Shen'dar and its pylon. It warns Valennia that the cult is spreading too quickly for direct conflict to be avoided.",
    "q": "What is contained in Aonda's report?"
   }
  ],
@@ -81,18 +81,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Following the defense of the village of Shen'dar and its crucial pylon, the highlander Aonda dispatches a trusted messenger across the island. The destination is Valanaar, a settlement perched on the island's southeastern edge, where the commander of the local peacekeepers must be warned of the cult's rapid escalation.",
+   "body": "After Shen'dar and its pylon were defended, Aonda sends a trusted messenger across the island. The message is bound for Valanaar on the island's southeastern edge. There, the commander of the peacekeepers must hear how quickly the cult is advancing.",
    "spoiler": 0,
    "title": "Dispatch from Shen'dar"
   },
   {
-   "body": "For some time, the peacekeepers under Valennia Stormfist have sought to prevent an open clash with the enigmatic cult encroaching upon the island. However, the events at Shen'dar signal a turning point. With cultist influence surging, Valennia is forced to acknowledge that the era of avoidance is finished, leaving her dwindling contingent of peacekeepers to brace Valanaar for an imminent assault.",
+   "body": "Valennia Stormfist and her peacekeepers have long tried to avoid open conflict with the cult spreading across the island. Yet the events at Shen'dar mark a change. The cult's influence is growing, and Valennia can no longer hold back from a clash. Her dwindling force must ready Valanaar for an assault.",
    "spoiler": 0,
    "title": "The Gathering Storm"
   }
  ],
- "summary": "\"To Valanaar\" is a delivery quest carrying urgent news from the village of Shen'dar to the peacekeeper garrison at Valanaar. It marks a critical escalation on the island, alerting Commander Valennia Stormfist that peacekeepers can no longer avoid open conflict with the rapidly expanding cult.",
+ "summary": "At Valanaar, Valennia Stormfist must face the cult's growing threat. Aonda sends urgent news from Shen'dar, where the village and its pylon were defended.",
  "attribution": [
   "In-game quest text: To Valanaar"
- ]
+ ],
+ "style": 2
 }

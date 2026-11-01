@@ -17,16 +17,16 @@
   "wiki": "Fire Hardened Mail",
   "chain": []
  },
- "summary": "In Stormwind, Furen Longbeard has a new armor design for an Alliance warrior. The dwarf armorer offers to forge Fire Hardened Mail if the warrior brings him rare materials from both continents.",
+ "summary": "In Stormwind, Furen Longbeard offers an Alliance warrior a new design for Fire Hardened Mail. He will forge it if you bring rare materials from both continents.",
  "sections": [
   {
    "title": "A Master Armorer's Ambition",
-   "body": "Furen Longbeard has forged an exceptional buckler for the aspiring warrior and now proposes a greater work: mail made to withstand fierce blows. His craft calls for more than iron or steel. He needs rare materials touched by elemental heat and natural resilience. Furen cannot leave his Stormwind forge, so the warrior seeking the armor must gather these dangerous ingredients.",
+   "body": "Furen Longbeard has forged an exceptional buckler for you. Now the dwarf armorer proposes a greater work: mail made to withstand fierce blows. His craft calls for more than iron or steel. He needs rare materials touched by elemental heat and natural resilience. Furen cannot leave his Stormwind forge, so you must gather these dangerous ingredients.",
    "spoiler": 0
   },
   {
    "title": "A Cross-Continental Expedition",
-   "body": "Furen sends the warrior to distant wilds and dangerous depths for the parts he needs. The recipe calls for fangs from venomous spiders in the damp crevices of the Wetlands, along with scorched and galvanized horns from fierce chimaeras in the Stonetalon Mountains. To bind and temper those beast parts into mail, Furen also needs volatile phlogiston from Roogug, a geomancer deep within Razorfen Kraul's thorny maze in the Barrens.",
+   "body": "Furen sends you to distant wilds and dangerous depths for the materials. The recipe calls for fangs from venomous spiders in the Wetlands' damp crevices. It also needs scorched and galvanized horns from fierce chimaeras in the Stonetalon Mountains. To bind and temper these beast parts into mail, Furen needs volatile phlogiston from Roogug, a geomancer deep within Razorfen Kraul's thorny maze in the Barrens.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why horns",
     "what is phlogiston"
    ],
-   "answer": "Furen needs unusual ingredients to temper the metal beyond ordinary dwarven methods. His secret craft uses organic materials conditioned by natural venom, mountain winds, and breath weapons, together with volatile phlogiston."
+   "answer": "Furen needs unusual ingredients to temper metal beyond ordinary dwarven methods. His secret craft uses organic materials conditioned by natural venom, mountain winds, and breath weapons, together with volatile phlogiston."
   },
   {
    "q": "Where do the chimaera horns come from?",
@@ -83,7 +83,7 @@
     "fire hardened mail follow up",
     "reward"
    ],
-   "answer": "Once Furen receives the fangs, horns, and phlogiston, he begins forging a custom breastplate for the warrior. He makes it in his forge as part of Furen's Armor."
+   "answer": "Once Furen receives the fangs, horns, and phlogiston, he begins forging a custom breastplate for you. He makes it in his forge as part of Furen's Armor."
   }
  ],
  "angles": [
@@ -125,5 +125,5 @@
  "attribution": [
   "Fire Hardened Mail"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:311"
   ]
  },
- "summary": "In Kharanos, a barrel of Thunder Ale has been taken from the Thunderbrew Distillery. Its place was meant to be taken by Marleth's Barleybrew Scalder, proof of a brewing feud turned to foul play.",
+ "summary": "In Kharanos, the Thunderbrew Distillery has lost a barrel of Thunder Ale. Marleth's Barleybrew Scalder was meant to take its place, turning a brewing feud into foul play.",
  "sections": [
   {
    "title": "A Bitter Trade",
-   "body": "The Thunderbrews of Kharanos and the Barleybrews of Brewnall Village are bitter rivals. Marleth Barleybrew tried to slip a barrel of his Barleybrew Scalder into the Thunderbrews' cellar, hoping their patrons would choose his brew. The Thunder Ale barrel was seized in the exchange, evidence that the switch succeeded despite the local guards.",
+   "body": "The Thunderbrews of Kharanos and the Barleybrews of Brewnall Village are bitter rivals. Marleth Barleybrew tried to slip a barrel of his Barleybrew Scalder into the Thunderbrews' cellar. He hoped their patrons would choose his brew. The Thunder Ale barrel was seized in the exchange, proof that the switch succeeded despite the local guards.",
    "spoiler": 0
   }
  ],
@@ -55,11 +55,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know brewing is serious business and high politics. Swapping a rival clan's prized cask in its own cellar is an audacious insult."
+   "text": "As a dwarf, you know brewing carries serious weight in both business and politics. Swapping a rival clan's prized cask in its own cellar is an audacious insult."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can see the skill in slipping into a guarded cellar and switching heavy ale barrels without raising the alarm."
+   "text": "As a rogue, you can see the skill it takes to slip into a guarded cellar and switch heavy ale barrels without raising the alarm."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
   "Barrel of Thunder Ale",
   "Return to Marleth"
  ],
- "style": 1
+ "style": 2
 }

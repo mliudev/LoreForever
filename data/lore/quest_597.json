@@ -27,16 +27,16 @@
    "Bloodsail Buccaneers"
   ]
  },
- "summary": "Recovered correspondence from the Bloodsail Buccaneers carries a map of Booty Bay and written orders to secure a quiet camp at the marked spot and wait for a signal from their southern command post before attacking.",
+ "summary": "At Booty Bay, the Bloodsail Buccaneers’ plans now point to a camp and an attack signal.",
  "sections": [
   {
    "title": "A Plot Revealed",
-   "body": "Following your earlier investigation into the Bloodsail Buccaneers, an intercepted map and written orders uncover the pirates' immediate plans. A red X on a map of Booty Bay marks the exact spot where the pirates are to make camp. The orders command the crew to hold their ground quietly, eliminate anyone who approaches, and await an attack signal sent from the southern command post.",
+   "body": "A map marks the Bloodsail Buccaneers’ intended camp in Booty Bay with a red X. Their orders call for silence. The crew must kill anyone who approaches and wait for a signal from the southern command post before attacking.",
    "spoiler": 0
   },
   {
    "title": "Reporting to the Harbor",
-   "body": "Carrying these written findings back to Booty Bay brings the intelligence directly to First Mate Crazz, who originally sent you out to scout. The pirates are plainly waiting on a signal before they attack.",
+   "body": "You carry the findings back to First Mate Crazz in Booty Bay. He sent you to scout, and the pirates are still waiting for the signal before they attack.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "what does the note say",
     "bloodsail map details"
    ],
-   "answer": "The text directs pirate crewmen to secure a quiet camp at the marked location, slay anyone who nears them, and wait for a signal from their southern command post to launch their assault."
+   "answer": "The recovered Bloodsail Buccaneers correspondence orders the crew to camp quietly at the marked spot, kill anyone who approaches, and wait for a signal from their southern command post before attacking."
   },
   {
    "q": "Where does the map point?",
@@ -57,7 +57,7 @@
     "what does the red x mean",
     "where is the camp"
    ],
-   "answer": "The captured map of Booty Bay has a red X on it, and that is where the pirates mean to set up their camp."
+   "answer": "A red X on the map of Booty Bay marks the pirates’ intended camp."
   },
   {
    "q": "Who needs to hear about this discovery?",
@@ -66,7 +66,7 @@
     "who gets the bloodsail map",
     "first mate crazz report"
    ],
-   "answer": "The intelligence must be reported directly to First Mate Crazz in Booty Bay, who remembers sending you to scout the area."
+   "answer": "First Mate Crazz in Booty Bay needs to hear of the discovery. He sent you to scout the area."
   },
   {
    "q": "What came before finding this correspondence?",
@@ -75,7 +75,7 @@
     "previous quest bloodsail",
     "bloodsail chain start"
    ],
-   "answer": "This investigation directly follows the initial assignment regarding the Bloodsail Buccaneers given by First Mate Crazz in Booty Bay."
+   "answer": "First Mate Crazz first sent you from Booty Bay to investigate the Bloodsail Buccaneers."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "The Bloodsail Buccaneers (2)"
- ]
+ ],
+ "style": 2
 }
