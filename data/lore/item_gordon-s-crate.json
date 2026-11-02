@@ -11,16 +11,16 @@
    "quest:6324"
   ]
  },
- "summary": "Weapons are bound for the Forsaken forces in Silverpine Forest, packed in Gordon's Crate in the Undercity. The shipment is meant for the remote garrison at the Sepulcher.",
+ "summary": "In the Undercity, Gordon's Crate holds weapons for the remote garrison at the Sepulcher. The Forsaken forces in Silverpine Forest need the shipment.",
  "sections": [
   {
    "title": "Supplies for Silverpine",
-   "body": "The Forsaken keep a steady flow of supplies from the Undercity to hold Silverpine Forest. Gordon's Crate carries weapons for Deathguard Podrig's defenders at the Sepulcher. The outpost sentries face worgen, wild beasts, and human remnants in the woods.",
+   "body": "The Forsaken send supplies from the Undercity to hold Silverpine Forest. Gordon's Crate carries weapons for Deathguard Podrig's defenders at the Sepulcher. The sentries there face worgen, wild beasts, and human remnants in the woods.",
    "spoiler": 0
   },
   {
    "title": "The Bat Handler's Route",
-   "body": "Overland roads from the capital are dangerous and slow, so valuable shipments travel with the Undercity's bat handlers. Gordon's Crate is handed to Michael Garrett, the bat master above the city's trade quarter. He arranges passage on a trained flying bat to Karos Razok's roost back at the Sepulcher.",
+   "body": "Roads from the capital are dangerous and slow, so valuable shipments travel with the Undercity's bat handlers. Gordon's Crate goes to Michael Garrett, the bat master above the city's trade quarter. He arranges passage on a trained flying bat to Karos Razok's roost at the Sepulcher.",
    "spoiler": 0
   }
  ],
@@ -91,5 +91,5 @@
   "Michael Garrett (Classic)",
   "Return to Podrig"
  ],
- "style": 1
+ "style": 2
 }

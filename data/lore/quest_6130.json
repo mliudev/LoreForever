@@ -17,16 +17,16 @@
   "wiki": "Power over Poison (Horde)",
   "chain": []
  },
- "summary": "At Thunder Bluff, a young Horde druid returns to claim the gift of Cure Poison. After healing poisoned gazelles near the Crossroads with herbal mixtures, the initiate faces Turak Runetotem on the Elder Rise.",
+ "summary": "At Thunder Bluff, a young Horde druid returns to claim the gift of Cure Poison. The initiate has treated poisoned gazelles near the Crossroads with herbal mixtures and now faces Turak Runetotem on the Elder Rise.",
  "sections": [
   {
    "title": "A Lesson in Suffering",
-   "body": "Before granting a druid the power to cleanse venom, the Cenarion Circle asks them to learn what affliction feels like. Dendrite Starblaze sends the novice to the Crossroads, where Tonga Runetotem has them gather ingredients for a salve. The druid treats poisoned gazelles of the Barrens by hand, without spiritual aid, and sees the struggle ordinary creatures face against natural and unnatural toxins.",
+   "body": "The Cenarion Circle asks a druid to learn how affliction feels before granting the power to cleanse venom. Dendrite Starblaze sends the novice to the Crossroads, where Tonga Runetotem has them gather ingredients for a salve. By treating the Barrens' poisoned gazelles by hand, without spiritual aid, the druid sees how ordinary creatures struggle against natural and unnatural toxins.",
    "spoiler": 0
   },
   {
    "title": "Return to the Elder Rise",
-   "body": "After the trial, Dendrite sends the initiate to Turak Runetotem, the grand druid trainer on Thunder Bluff's Elder Rise. Turak warns that strange, virulent poisons near the Crossroads threaten the plains' natural balance. He commends the initiate's grace under pressure and grants the spiritual art of curing poisons, placing Kalimdor's living creatures in their care.",
+   "body": "After the trial, Dendrite sends the initiate to Turak Runetotem, the grand druid trainer on Thunder Bluff's Elder Rise. Turak warns that strange, virulent poisons near the Crossroads threaten the plains' natural balance. He commends the initiate's grace under pressure and grants the spiritual art of curing poisons. The living creatures of Kalimdor are now in the initiate's care.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
     "why use salves first",
     "druid poison lesson"
    ],
-   "answer": "Dendrite Starblaze teaches the druid to understand the labor and limits involved in curing venom before wielding spiritual magic. Seeing afflicted creatures struggle teaches empathy and respect for nature's balance."
+   "answer": "Dendrite Starblaze teaches the druid to understand the labor and limits of curing venom before wielding spiritual magic. Seeing afflicted creatures struggle teaches empathy and respect for nature's balance."
   },
   {
    "q": "What concerns Turak Runetotem about the Crossroads?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Power over Poison (Horde)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Winterhoof Water Well"
  },
- "summary": "At Winterhoof Water Well, the Venture Company threatens Mulgore's water supply. The well lies south of Bloodhoof Village, at the edge of the Rolling Plains, where tauren tribes and roaming herds depend on its fresh water.",
+ "summary": "Winterhoof Water Well faces a threat to Mulgore’s water supply from the Venture Company. South of Bloodhoof Village, it stands at the edge of the Rolling Plains, where tauren tribes and roaming herds depend on its fresh water.",
  "sections": [
   {
    "title": "A Threatened Lifeline",
-   "body": "Water from deep wells sustains Mulgore's herds and tauren encampments. Winterhoof Water Well draws from aquifers beneath the Rolling Plains and bears the name of one of the plains' respected tribes. Now the Venture Company has targeted this vital source. The goblin cartel has tried to poison the water and gain control over the surrounding territory.",
+   "body": "Deep wells sustain Mulgore’s herds and tauren encampments. Winterhoof Water Well draws from aquifers beneath the Rolling Plains and takes its name from one of the plains’ respected tribes. Now the Venture Company has targeted this vital source. The goblin cartel seeks control of the surrounding territory and has tried to poison the water.",
    "spoiler": 0
   },
   {
    "title": "Purification and Defense",
-   "body": "Mull Thunderhorn has made sacred totems to counter the Venture Company's toxins and restore the well's balance. The tauren's young braves must help cleanse it. For the tauren, protecting the well is both a matter of survival and a duty to keep the earth and its waters free from corruption.",
+   "body": "Mull Thunderhorn has made sacred totems to counter the Venture Company’s toxins and restore the well’s balance. The tauren’s young braves must help cleanse it. For the tauren, protecting the well means survival and the duty to keep the earth and its waters free from corruption.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "fix the well",
     "winterhoof cleansing"
    ],
-   "answer": "Mull Thunderhorn crafted an enchanted totem whose primal magic purges the Venture Company's toxins from the water."
+   "answer": "Mull Thunderhorn crafted an enchanted totem whose primal magic purges the Venture Company’s toxins from the water."
   },
   {
    "q": "Why are water wells so sacred to the tauren?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, defending and purifying ancestral water wells is among the first trials young braves face as they protect the land from outside exploitation."
+   "text": "As a tauren, you face an early trial in defending and purifying ancestral wells as you protect the land from outside exploitation."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, cleansing the well calls for elemental harmony and shows how totems can heal wounded water spirits."
+   "text": "As a shaman, you bring elemental harmony to the well’s cleansing and see how totems can heal wounded water spirits."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Winterhoof Water Well"
  ],
- "style": 1
+ "style": 2
 }

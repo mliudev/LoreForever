@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fenris Isle"
  },
- "summary": "Rot Hide gnolls and a rogue Scourge necromancer hold Fenris Isle in Lordamere Lake, off Silverpine Forest.",
+ "summary": "On Fenris Isle, Rot Hide gnolls and a rogue Scourge necromancer hold a fortress in Lordamere Lake, off Silverpine Forest.",
  "sections": [
   {
    "title": "A Fallen Stronghold on the Lake",
-   "body": "Fenris Keep once anchored Lordaeron’s military outpost on Fenris Isle. When the Scourge swept through northern Lordaeron, the garrison was slaughtered or fled into exile, leaving the island to the dead. Since then, Rot Hide gnolls have made it their stronghold, spreading a crude empire across the lake’s shores. The Forsaken of Silverpine Forest watch the island closely, fearing its entrenched inhabitants threaten their northern territories.",
+   "body": "Fenris Keep once guarded Lordaeron’s military outpost on Fenris Isle. When the Scourge swept across northern Lordaeron, the garrison was slaughtered or fled into exile. The dead claimed the island, and Rot Hide gnolls later made it their stronghold. Their crude empire now spreads across the lake’s shores. The Forsaken of Silverpine Forest watch closely, fearing the island’s entrenched inhabitants threaten their northern lands.",
    "spoiler": 0
   },
   {
    "title": "The Master of Fenris Keep",
-   "body": "Thule Ravenclaw commands Fenris Keep from its crumbling stone halls. Once aligned with the Kirin Tor, the necromancer turned to the Scourge’s dark arts and bent the native gnolls to his will. His sorcery raises their fallen kin and fortifies the island against intrusion. From this isolated sanctuary, Thule oversees the lake’s ferry crossings. Forsaken scouts and Horde forces strike ahead of any greater threat, seeking to break his hold on the archipelago.",
+   "body": "Thule Ravenclaw commands Fenris Keep from its crumbling stone halls. Once aligned with the Kirin Tor, the necromancer turned to the Scourge’s dark arts and bent the native gnolls to his will. His sorcery raises their fallen kin and strengthens the island against intruders.\n\nFrom this isolated refuge, Thule oversees the lake’s ferry crossings. Forsaken scouts and Horde forces strike before a greater threat can rise, seeking to break his hold on the archipelago.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "fenris isle lore",
     "what is this island"
    ],
-   "answer": "Fenris Isle lies in Lordamere Lake, off Silverpine Forest’s eastern coast. Before the Third War, it served as a fortress for the Kingdom of Lordaeron; now plague-ridden gnolls and Scourge servants infest it."
+   "answer": "Fenris Isle lies in Lordamere Lake, off Silverpine Forest’s eastern coast. Before the Third War, it was a fortress of the Kingdom of Lordaeron. Now plague-ridden gnolls and Scourge servants infest the island."
   },
   {
    "q": "Who controls Fenris Isle right now?",
@@ -37,7 +37,7 @@
     "fenris isle bosses",
     "who lives on fenris isle"
    ],
-   "answer": "Rot Hide gnolls occupy Fenris Isle and hold Fenris Keep as their stronghold. Forsaken investigators seek to uncover the source of the growing threat."
+   "answer": "Rot Hide gnolls occupy Fenris Isle and hold Fenris Keep as their stronghold. Forsaken investigators seek the source of the growing threat."
   },
   {
    "q": "What happened to the humans who used to live here?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Fenris Isle"
  ],
- "style": 1
+ "style": 2
 }

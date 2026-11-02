@@ -10,16 +10,16 @@
    "quest:1065"
   ]
  },
- "summary": "Zamah's Note carries an urgent plea from Thunder Bluff to Tarren Mill. Zamah asks Apothecary Lydon for an alchemical way to drive the Venture Company from Stonetalon without direct bloodshed.",
+ "summary": "In Thunder Bluff, Zamah sends an urgent plea to Tarren Mill. She asks Apothecary Lydon for an alchemical way to drive the Venture Company from Stonetalon without bloodshed.",
  "sections": [
   {
    "title": "A Plea Across the Great Sea",
-   "body": "The Venture Company has dug deep into the Stonetalon Mountains, felling trees and tearing up sacred land. Zamah wants a way to force the goblins out without slaughter. She turns to the Forsaken Royal Apothecary Society for help. Her note tells her colleague, Apothecary Lydon, about the danger in Stonetalon. Lydon is in Tarren Mill, far away in the Hillsbrad Foothills of Lordaeron.",
+   "body": "The Venture Company has dug deep into the Stonetalon Mountains. Its goblins fell trees and tear up sacred land, so Zamah seeks a way to drive them out without slaughter. She turns to the Forsaken Royal Apothecary Society for help. Her note warns her colleague Apothecary Lydon of the danger in Stonetalon. Lydon is far away in Tarren Mill, in the Hillsbrad Foothills of Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Connections",
-   "body": "The sealed note must cross continents to reach Lydon. Travelers from Kalimdor take a zeppelin to the Undercity, then travel south through Silverpine Forest into Hillsbrad. Lydon is intrigued by Zamah's specific request. Word has reached him from across the ocean, and he prepares an alchemical answer to the goblin problem.",
+   "body": "The sealed note must cross continents to reach Lydon. Travelers from Kalimdor take a zeppelin to the Undercity, then go south through Silverpine Forest into Hillsbrad. Word from across the ocean intrigues Lydon, and he prepares an alchemical answer to the goblin problem.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "zamah note",
     "letter to lydon"
    ],
-   "answer": "Zamah's Note is a sealed letter from Thunder Bluff to Apothecary Lydon in Tarren Mill. It asks for an alchemical formula to remove the Venture Company from Stonetalon."
+   "answer": "Zamah's Note is a sealed letter sent from Thunder Bluff to Apothecary Lydon in Tarren Mill. It asks for an alchemical formula to remove the Venture Company from Stonetalon."
   },
   {
    "q": "Why does Zamah need help from Tarren Mill?",
@@ -40,7 +40,7 @@
     "why contact lydon",
     "why tarren mill"
    ],
-   "answer": "Zamah wants to drive the goblins out of Stonetalon without bloodshed. She asks Apothecary Lydon because the Forsaken alchemists make specialized concoctions for subtle disruptions."
+   "answer": "Zamah wants to drive the goblins out of Stonetalon without bloodshed. She seeks Apothecary Lydon's help because the Forsaken alchemists make specialized concoctions for subtle disruptions."
   },
   {
    "q": "Where does the note need to be delivered?",
@@ -68,7 +68,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you belong to a people whose Royal Apothecary Society offers specialized chemical expertise to allies facing difficult crises."
+   "text": "As an undead, you belong to a people whose Royal Apothecary Society offers specialized chemical knowledge to allies facing difficult crises."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Zamah's Note",
   "Journey to Tarren Mill"
  ],
- "style": 1
+ "style": 2
 }

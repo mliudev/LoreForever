@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ravaged Caravan"
  },
- "summary": "Smoke still rises from the Ravaged Caravan on Stonebull Lake's northeastern shore in Mulgore. The Venture Company convoy was bound for Supervisor Fizsprocket's mining operation before tauren defenders destroyed it.",
+ "summary": "On Stonebull Lake's northeastern shore, smoke still rises from the Ravaged Caravan. The Venture Company convoy was bound for Supervisor Fizsprocket's mining operation, but tauren defenders destroyed it.",
  "sections": [
   {
    "title": "Smoke Over Stonebull Lake",
-   "body": "The ruined wagons sit on a rise above Stonebull Lake, where tauren from Bloodhoof Village stopped the Venture Company. The convoy carried mining supplies, blueprints, and equipment to Supervisor Fizsprocket's dig site, but tauren defenders wrecked it before it could arrive. Venture Co. survivors still cling to the wagons and smoldering crates, guarding what cargo remains.",
+   "body": "The wrecked wagons rest on a rise above Stonebull Lake, where tauren from Bloodhoof Village stopped the Venture Company. The convoy carried mining supplies, blueprints, and equipment to Supervisor Fizsprocket's dig site. Tauren defenders wrecked it before it could arrive. Venture Co. survivors still guard the wagons and smoldering crates, protecting what cargo remains.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what happened here",
     "ravaged caravan backstory"
    ],
-   "answer": "Local tauren intercepted and wrecked the Venture Company caravan as it moved deep into Mulgore. They sought to stop the goblins from stripping the land, and destroyed the convoy before its cargo reached the nearby mine."
+   "answer": "Tauren intercepted and wrecked the Venture Company caravan as it moved deep into Mulgore. They sought to stop the goblins from stripping the land, and destroyed the convoy before its cargo reached the nearby mine."
   },
   {
    "q": "Who owns the wrecked wagons?",
@@ -32,7 +32,7 @@
     "who owns the caravan",
     "venture company caravan"
    ],
-   "answer": "The Venture Company owns the wrecked wagons. The goblin mining consortium is trying to establish unpermitted operations in the hills of Mulgore."
+   "answer": "The Venture Company owns the wrecked wagons. The goblin mining consortium is trying to establish unpermitted operations in Mulgore's hills."
   },
   {
    "q": "Where was the caravan heading?",
@@ -41,7 +41,7 @@
     "where was it going",
     "fizsprocket supplies"
    ],
-   "answer": "The caravan was heading north with tools, machinery, and supplies for Supervisor Fizsprocket, who leads the Venture Company's strip-mining operation at the Venture Co. Mine."
+   "answer": "The caravan was heading north with tools, machinery, and supplies for Supervisor Fizsprocket. He leads the Venture Company's strip-mining operation at the Venture Co. Mine."
   },
   {
    "q": "Why are there still Venture Co. workers lingering at the wreck?",
@@ -50,7 +50,7 @@
     "venture co survivors",
     "who is guarding the wreck"
    ],
-   "answer": "The surviving Venture Co. workers fiercely guard company property. They remain around the charred wagons, trying to salvage what remains of their equipment."
+   "answer": "The surviving Venture Co. workers guard company property. They remain by the charred wagons, trying to salvage what remains of their equipment."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Ravaged Caravan"
  ],
- "style": 1
+ "style": 2
 }

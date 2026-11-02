@@ -22,21 +22,21 @@
    "A New Plague (4)"
   ]
  },
- "summary": "In Brill, Apothecary Johaan studies how an ancient plague survived in spider venom. He seeks a potent new biological agent for the Forsaken.",
+ "summary": "In Brill, Apothecary Johaan searches old records for a plague that endured in spider venom. He hopes to give the Forsaken a potent new biological agent.",
  "sections": [
   {
    "title": "Unearthing Ancient Contagions",
-   "body": "Apothecary Johaan studies old texts in Brill for the Royal Apothecary Society. He finds records of an ancient pestilence that killed thousands. The texts say the pathogen survived across generations in the venom of Tirisfal Glades' local spiders. Johaan needs that venom as a biological reagent.",
+   "body": "Apothecary Johaan studies old texts in Brill for the Royal Apothecary Society. There he finds records of an ancient pestilence that killed thousands. The writings say its pathogen endured across generations in the venom of spiders native to Tirisfal Glades. Johaan needs that venom as a biological reagent.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Venomweb Vale",
-   "body": "Apothecary Johaan sends agents to eastern Tirisfal Glades for a viable sample. Venomweb Vale lies south of the Scarlet Monastery, where vicious night web spiders infest the hollow. Harvesters must enter their dens and gather fresh venom glands for Johaan's experimental brew.",
+   "body": "Apothecary Johaan sends agents to eastern Tirisfal Glades in search of a living sample. Venomweb Vale lies south of the Scarlet Monastery, and vicious night web spiders fill its hollow. To gather fresh venom glands for Johaan's experimental brew, harvesters must enter the spiders' dens.",
    "spoiler": 0
   },
   {
    "title": "Brewing the Final Formulation",
-   "body": "Apothecary Johaan adds the harvested venom to a simmering cauldron with reagents gathered earlier. As the mixture boils down, the spiders' contagious element completes the compound. The Royal Apothecary Society moves closer to practical field trials.",
+   "body": "Apothecary Johaan pours the harvested venom into a simmering cauldron with reagents gathered earlier. As the mixture boils down, the spiders' contagious element completes the compound. The Royal Apothecary Society draws nearer to practical field trials.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "apothecary johaan spiders",
     "spider venom use"
    ],
-   "answer": "An ancient text Johaan found says a plague that killed thousands survived in the venom of Tirisfal's night web spiders. He means to use that contagious element in his concoction."
+   "answer": "An ancient text Apothecary Johaan found says a plague that killed thousands endured in the venom of Tirisfal's night web spiders. He means to use that contagious element in his concoction."
   },
   {
    "q": "Where do the vicious night web spiders live?",
@@ -57,7 +57,7 @@
     "night web spider location",
     "venomweb vale location"
    ],
-   "answer": "Vicious night web spiders live in Venomweb Vale in eastern Tirisfal Glades, south of the Scarlet Monastery."
+   "answer": "Vicious night web spiders live in Venomweb Vale, in eastern Tirisfal Glades south of the Scarlet Monastery."
   },
   {
    "q": "What is the goal of the Royal Apothecary Society's research here?",
@@ -66,7 +66,7 @@
     "forsaken plague goals",
     "royal apothecary society plague"
    ],
-   "answer": "The Royal Apothecary Society seeks to create a lethal new strain that can exterminate both the Scourge and the living, securing the Forsaken's survival and independence in Lordaeron."
+   "answer": "The Royal Apothecary Society seeks a lethal new strain to exterminate both the Scourge and the living. The Forsaken hope it will secure their survival and independence in Lordaeron."
   },
   {
    "q": "Who is Apothecary Johaan?",
@@ -74,7 +74,7 @@
     "who is johaan",
     "apothecary johaan lore"
    ],
-   "answer": "Apothecary Johaan is a Forsaken researcher in Brill who works for the Royal Apothecary Society. He oversees local chemical and biological experiments, combining dark alchemy with reagents gathered in Tirisfal."
+   "answer": "Apothecary Johaan is a Forsaken researcher in Brill who works for the Royal Apothecary Society. He oversees local chemical and biological experiments, mixing dark alchemy with reagents gathered in Tirisfal."
   },
   {
    "q": "What happens after this venom is gathered?",
@@ -83,7 +83,7 @@
     "new plague quest sequel",
     "after a new plague 3"
    ],
-   "answer": "After boiling the venom into his brew, Johaan prepares to test the compound and see if the resulting toxic agent has the lethality he wants."
+   "answer": "After boiling the venom into his brew, Johaan prepares to test the compound. He wants to learn whether the resulting toxic agent has the lethality he seeks."
   },
   {
    "q": "Is this the same plague that created the Scourge?",
@@ -91,17 +91,17 @@
     "is this scourge plague",
     "plague of undeath difference"
    ],
-   "answer": "No. The Scourge spread the Plague of Undeath, created by the Lich King. The Forsaken's apothecaries are making a distinct biological weapon of their own."
+   "answer": "No. The Scourge spread the Plague of Undeath, created by the Lich King. The Forsaken apothecaries are making a distinct biological weapon of their own."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you seek an original weapon for lasting security against Scourge remnants and Scarlet crusaders at your doorstep."
+   "text": "As Forsaken, you seek an original weapon to secure your people against Scourge remnants and Scarlet crusaders at your doorstep."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you may help Forsaken researchers as an orc or tauren ally. Their biological experiments often unsettle the wider Horde."
+   "text": "As a member of the Horde, you may aid Forsaken researchers as an orc or tauren ally. Their biological experiments often unsettle the wider Horde."
   }
  ],
  "keywords": [
@@ -125,5 +125,5 @@
  "attribution": [
   "A New Plague (3)"
  ],
- "style": 1
+ "style": 2
 }

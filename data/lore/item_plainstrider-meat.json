@@ -10,16 +10,16 @@
    "quest:747"
   ]
  },
- "summary": "Across Red Cloud Mesa, Plainstrider Meat helps feed Camp Narache. Young tauren hunt the birds for food and feathers, proving their skill and self-reliance.",
+ "summary": "Across Red Cloud Mesa, young tauren gather Plainstrider Meat to help feed Camp Narache. Hunting the birds for food and feathers proves their skill and self-reliance.",
  "sections": [
   {
    "title": "Sustenance for the Mesa",
-   "body": "Camp Narache on Red Cloud Mesa depends on game from the surrounding grasslands. Plainstrider meat helps feed the village when food stocks run low. The birds also provide feathers for clothing and ceremonial adornments. Tauren life depends on the land, and survival means taking what is needed while respecting nature.",
+   "body": "Camp Narache on Red Cloud Mesa relies on game from the surrounding grasslands. When food stocks run low, plainstrider meat helps feed the village. The birds also provide feathers for clothing and ceremonial adornments. Tauren depend on the land and take what they need while respecting nature.",
    "spoiler": 0
   },
   {
    "title": "A Young Hunter's Trial",
-   "body": "Grull Hawkwind sends young hunters across Red Cloud Mesa to track the swift plainstriders. They gather meat and feathers to prove their tracking skill and self-reliance. Then they appear before Grull's father, Chief Hawkwind.",
+   "body": "Grull Hawkwind sends young hunters across Red Cloud Mesa to track swift plainstriders. They gather meat and feathers to prove their tracking skill and self-reliance. Then they appear before Grull's father, Chief Hawkwind.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "plainstrider locations",
     "farm plainstrider meat"
    ],
-   "answer": "Plainstriders roam Mulgore's grasslands, including Red Cloud Mesa, where their meat is gathered."
+   "answer": "Plainstriders roam Mulgore's grasslands, including Red Cloud Mesa, where hunters gather their meat."
   },
   {
    "q": "Why is hunting plainstriders considered important to the tauren?",
@@ -93,5 +93,5 @@
   "Plainstrider Meat",
   "The Hunt Begins"
  ],
- "style": 1
+ "style": 2
 }

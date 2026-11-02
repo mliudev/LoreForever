@@ -10,16 +10,16 @@
    "quest:1473"
   ]
  },
- "summary": "In the Undercity, Egalin's Grimoire holds the rites for summoning and commanding a voidwalker. A master warlock wrote it as a teaching text for the Temple of the Damned.",
+ "summary": "In the Undercity, Egalin's Grimoire guides warlocks who seek to summon and command a voidwalker. A master warlock wrote it to teach at the Temple of the Damned.",
  "sections": [
   {
    "title": "A Master's Work",
-   "body": "Egalin's Grimoire records how to call a being of chaos from the Nether. Egalin was a master summoner, renowned for his effortless command of voidwalkers. He passed that skill to his students, including Carendin Halgar. Without the formulas and channeling methods in the book, an unprepared summoner risks being torn apart by the being they call forth.",
+   "body": "Egalin's Grimoire gives the means to call a being of chaos from the Nether. Egalin was a master summoner, famed for commanding voidwalkers with ease. He taught his skill to his students, among them Carendin Halgar. Without the book's formulas and methods of channeling, an unprepared summoner may be torn apart by the being called forth.",
    "spoiler": 0
   },
   {
    "title": "The Scarlet Theft",
-   "body": "A Scarlet Crusade operative named Perrine stole the grimoire from the Forsaken warlocks and hid it in a chest in a tower in western Tirisfal Glades. The Crusade hated dark magic, yet Perrine seemed to know little of the book's true significance. The tome was treated as seized heretical salvage until Forsaken initiates seeking to master the void retrieved it.",
+   "body": "Perrine, an operative of the Scarlet Crusade, stole Egalin's Grimoire from the Forsaken warlocks and hid it in a chest in a tower in western Tirisfal Glades. The Crusade hated dark magic, yet Perrine seemed to know little of the book's true significance. The tome was treated as seized heretical salvage until Forsaken initiates seeking to master the void retrieved it.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "voidwalker tome danger",
     "why dangerous"
    ],
-   "answer": "Egalin's Grimoire contains the incantations and channeling methods for summoning a voidwalker. A warlock who attempts the ritual without mastering these instructions risks being torn apart by the summoned void entity."
+   "answer": "Egalin's Grimoire contains the incantations and methods of channeling needed to summon a voidwalker. A warlock who attempts the rite without mastering these instructions risks being torn apart by the summoned void entity."
   },
   {
    "q": "How did the Scarlet Crusade get the book?",
@@ -49,7 +49,7 @@
     "perrine grimoire",
     "why do crusaders have it"
    ],
-   "answer": "A Scarlet Crusade agent named Perrine stole the tome from the Forsaken warlocks. He hid it in a chest at a Crusade watchtower in western Tirisfal Glades, seemingly unaware of its true magical worth."
+   "answer": "Perrine, an agent of the Scarlet Crusade, stole Egalin's Grimoire from the Forsaken warlocks. Perrine hid it in a chest at a Crusade watchtower in western Tirisfal Glades and seemed unaware of its true magical worth."
   },
   {
    "q": "Who needs this grimoire returned?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can use Egalin's Grimoire to learn the techniques for summoning a voidwalker from the Nether and binding it to your will, a rite of passage for practitioners."
+   "text": "As a warlock, you can learn from Egalin's Grimoire how to summon a voidwalker from the Nether and bind it to your will. This rite marks a passage for practitioners."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, recovering the book keeps the Scarlet Crusade from holding a powerful magical artifact stolen from the Undercity's practitioners."
+   "text": "As an undead, you help keep a powerful magical artifact from the Undercity's practitioners out of the Scarlet Crusade's hands when you recover the book."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Egalin's Grimoire",
   "Creature of the Void (Undercity)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:443"
   ]
  },
- "summary": "On Fenris Isle, Rot Hide Ichor draws the Royal Apothecary Society’s attention. Apothecary Renferrel gathers it at the Sepulcher to learn what corrupted the gnolls and how to oppose them.",
+ "summary": "At the Sepulcher, Apothecary Renferrel gathers Rot Hide Ichor for the Royal Apothecary Society. They hope it will show what corrupted the gnolls and how to oppose them.",
  "sections": [
   {
    "title": "A Plague in the Blood",
-   "body": "On Fenris Isle, Rot Hide gnolls are no ordinary beasts. Their bodies are decomposed and twisted by an unnatural blight, and a noxious ichor flows through their veins to sustain their animated flesh. The Royal Apothecary Society suspects the fluid may reveal how the pack was corrupted and who commands them from within the ruined keep.",
+   "body": "On Fenris Isle, the Rot Hide gnolls are twisted by an unnatural blight. Their bodies decay, yet a noxious ichor runs through their veins and sustains their animated flesh. The Royal Apothecary Society hopes the fluid will reveal what corrupted the pack and who commands them from within the ruined keep.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Research",
-   "body": "At the Sepulcher, Apothecary Renferrel gathers vials of the ichor for study. The Forsaken hope to isolate the chemical and magical forces that fuel the gnolls, then find their weaknesses before sending troops across Lordamere Lake in a full assault.",
+   "body": "At the Sepulcher, Apothecary Renferrel gathers vials of the ichor for study. The Forsaken hope to separate the chemical and magical forces that sustain the gnolls. Then they can find the pack's weaknesses before sending troops across Lordamere Lake in a full assault.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "how to find rot hide ichor",
     "gnoll ichor location"
    ],
-   "answer": "Rot Hide Ichor comes from the Rot Hide gnolls dwelling across Fenris Isle, in Lordamere Lake east of Silverpine Forest's mainland."
+   "answer": "Rot Hide Ichor comes from the Rot Hide gnolls on Fenris Isle, in Lordamere Lake east of Silverpine Forest's mainland."
   },
   {
    "q": "Why does Apothecary Renferrel want this ichor?",
@@ -57,13 +57,13 @@
     "do all gnolls drop ichor",
     "normal gnoll blood"
    ],
-   "answer": "No. The ichor belongs to the Rot Hide pack, whose flesh and blood are corrupted by foul necromantic blights."
+   "answer": "No. This ichor belongs to the Rot Hide pack, whose flesh and blood are corrupted by foul necromantic blights."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you can see why studying the ichor matters: it offers military intelligence to secure Silverpine's eastern flank and advance the Royal Apothecary Society's mastery of plague science."
+   "text": "As Forsaken, you can see why studying the ichor matters. It may offer military intelligence to secure Silverpine's eastern flank and advance the Royal Apothecary Society's mastery of plague science."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Rot Hide Ichor",
   "Rot Hide Ichor (quest)"
  ],
- "style": 1
+ "style": 2
 }

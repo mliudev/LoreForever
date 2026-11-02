@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Kodo Rock"
  },
- "summary": "Young tauren shamans are directed to Kodo Rock on Red Cloud Mesa, between Camp Narache and Brambleblade Ravine. The stone rises among Mulgore’s grasses, easy to miss against the rolling land.",
+ "summary": "Young tauren shamans are sent to Kodo Rock on Red Cloud Mesa, between Camp Narache and Brambleblade Ravine. The stone rises among Mulgore’s grasses and is easy to miss among the rolling hills.",
  "sections": [
   {
    "title": "A Waypoint on the Mesa",
-   "body": "Kodo Rock marks the straight path between Camp Narache and Brambleblade Ravine, where hostile quilboar hold territory. Worn earth circles its base. Its profile recalls the kodo beasts that wander the grasslands, though it is smaller than the bluffs around Red Cloud Mesa. For tribesfolk crossing Mulgore’s windswept plains, the stone offers a quiet landmark.",
+   "body": "Kodo Rock marks the straight path from Camp Narache to Brambleblade Ravine, where hostile quilboar hold territory. Worn earth circles its base. Its shape recalls the kodo beasts that wander the grasslands, though the stone is smaller than the bluffs around Red Cloud Mesa. For tribesfolk crossing Mulgore’s windswept plains, it is a quiet landmark.",
    "spoiler": 0
   },
   {
    "title": "Spiritual Significance",
-   "body": "Among the Shu'halo, natural formations carry spiritual weight. Young tauren shamans beginning their spiritual walk are directed to Kodo Rock for early rites of passage. There, at the solitary stone, novices commune with elemental forces and honor the natural world before they venture into more perilous reaches of the continent.",
+   "body": "Among the Shu'halo, natural formations carry spiritual weight. Young tauren shamans beginning their spiritual walk are sent to Kodo Rock for their early rites of passage. At the solitary stone, novices commune with elemental forces and honor the natural world. Then they venture into more perilous reaches of the continent.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is kodo rock",
     "find kodo rock"
    ],
-   "answer": "Kodo Rock stands on Red Cloud Mesa in Mulgore, roughly halfway along the straight path between Camp Narache and Brambleblade Ravine. A small clearing of bare dirt marks its base."
+   "answer": "Kodo Rock stands on Red Cloud Mesa in Mulgore, roughly halfway along the straight path between Camp Narache and Brambleblade Ravine. Bare dirt marks a small clearing at its base."
   },
   {
    "q": "Why is Kodo Rock hard to find?",
@@ -36,7 +36,7 @@
     "cant find kodo rock",
     "kodo rock hidden"
    ],
-   "answer": "Kodo Rock blends into the mesa’s rolling hills and grasses, and is clear only at close range. Watch the terrain for the patch of dirt beneath it."
+   "answer": "Kodo Rock blends into the mesa’s rolling hills and grasses, and becomes clear only at close range. Look for the patch of dirt beneath it."
   },
   {
    "q": "Why is Kodo Rock important to tauren shamans?",
@@ -44,7 +44,7 @@
     "shaman quest kodo rock",
     "why go to kodo rock"
    ],
-   "answer": "Tauren shamans visit Kodo Rock during their earliest trials out of Camp Narache. Novices are directed there to attune their spirits to Mulgore’s land and elemental forces."
+   "answer": "Tauren shamans visit Kodo Rock during their earliest trials out of Camp Narache. Novices are sent there to attune their spirits to Mulgore’s land and elemental forces."
   },
   {
    "q": "What dangers are near Kodo Rock?",
@@ -52,13 +52,13 @@
     "is kodo rock safe",
     "enemies near kodo rock"
    ],
-   "answer": "The area around Kodo Rock is generally peaceful. Farther northeast, Brambleblade Ravine holds aggressive Bristleback quilboar."
+   "answer": "The area around Kodo Rock is generally peaceful. Farther northeast, Brambleblade Ravine is held by aggressive Bristleback quilboar."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman beginning the spiritual path at Camp Narache, you are directed to Kodo Rock to attune with the elemental world."
+   "text": "As a shaman beginning the spiritual path at Camp Narache, you are sent to Kodo Rock to attune with the elemental world."
   },
   {
    "target": "race:Tauren",
@@ -84,5 +84,5 @@
  "attribution": [
   "Kodo Rock"
  ],
- "style": 1
+ "style": 2
 }

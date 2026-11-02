@@ -10,16 +10,16 @@
    "quest:771"
   ]
  },
- "summary": "Across Mulgore, Ambercorn falls beneath the ancient trees. Tauren gather it for the Water of the Seers, a brew used in the Rite of Vision.",
+ "summary": "Across Mulgore, tauren gather ambercorn beneath ancient trees for the Water of the Seers, a brew used in the Rite of Vision.",
  "sections": [
   {
    "title": "Gifts of the Canopy",
-   "body": "Ambercorn falls beneath Mulgore's great trees, where tauren gather it from the grass. To the tauren, these nuts carry the land's spiritual vitality and latent magic. Tauren mystics have understood and used that power for generations. Young hunters and wanderers learn to watch the ground beneath the canopy and honor the Earth Mother's gifts.",
+   "body": "Beneath Mulgore’s great trees, ambercorn falls onto the grass for tauren to gather. Tauren see these nuts as bearers of the land’s spiritual vitality and latent magic. Their mystics have understood and used that power for generations. Young hunters and wanderers learn to watch the ground beneath the canopy and honor the Earth Mother’s gifts.",
    "spoiler": 0
   },
   {
    "title": "The Seer's Brew",
-   "body": "In Bloodhoof Village, seer Zarlman Two-Moons prepares young tauren for the Rite of Vision with ambercorn. He combines it with stones gathered from the plains' water wells to make the Water of the Seers. Initiates drink the ceremonial brew before the ancestral flames. Their senses shift, revealing a guiding spirit animal meant to lead them to their next destination.",
+   "body": "In Bloodhoof Village, seer Zarlman Two-Moons prepares young tauren for the Rite of Vision with ambercorn. He combines it with stones gathered from the plains’ water wells to make the Water of the Seers. Initiates drink the ceremonial brew before the ancestral flames. Their senses shift, revealing a guiding spirit animal meant to lead them to their next destination.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "ambercorn",
     "what are ambercorns"
    ],
-   "answer": "Ambercorn is a nut that falls from the large, ancient trees of Mulgore. It carries natural magic tied to the spirits of the land."
+   "answer": "Ambercorn is a nut that falls from Mulgore’s large, ancient trees. It carries natural magic tied to the spirits of the land."
   },
   {
    "q": "Where can ambercorn be found?",
@@ -39,7 +39,7 @@
     "where to find ambercorn",
     "how to get ambercorn"
    ],
-   "answer": "Ambercorn lies on the ground beneath the canopies of Mulgore's mighty trees, especially around Bloodhoof Village."
+   "answer": "Ambercorn lies beneath the canopies of Mulgore’s mighty trees, especially around Bloodhoof Village."
   },
   {
    "q": "What is ambercorn used for?",
@@ -47,7 +47,7 @@
     "ambercorn purpose",
     "what does ambercorn do"
    ],
-   "answer": "Tauren seers combine ambercorn with well stones to brew the Water of the Seers. Initiates drink it during the Rite of Vision to reveal spiritual guides."
+   "answer": "Tauren seers combine ambercorn with well stones to brew the Water of the Seers. Initiates drink it during the Rite of Vision, which reveals spiritual guides."
   },
   {
    "q": "Who asks for ambercorn in Bloodhoof Village?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren, you learn to recognize ambercorn as an ingredient in the Rite of the Earth Mother. The brew helps reveal your spiritual path."
+   "text": "As a young tauren, you learn ambercorn is an ingredient in the Rite of the Earth Mother. The brew helps reveal your spiritual path."
   },
   {
    "target": "class:Shaman",
@@ -89,5 +89,5 @@
   "Ambercorn",
   "Rite of Vision (2)"
  ],
- "style": 1
+ "style": 2
 }

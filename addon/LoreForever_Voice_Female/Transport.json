@@ -4631,9 +4631,9 @@
     "zone:silverpine": {
       "1": [
         {
-          "duration": 50.49469387755102,
-          "file": "Audio/Transport/full_zone_silverpine-20a31c133d03b54a884b/1-0000.mp3",
-          "sha256": "08ae5ad37c8065bfeaa98964ed58357a4ab0eaa0d66bc269e36ce40a13ed761b",
+          "duration": 52.375510204081635,
+          "file": "Audio/Transport/full_zone_silverpine-b26428f31080ba3ce40c/1-0000.mp3",
+          "sha256": "daaf1a8c82818e5deb9f9f3501596f61ceb0523ddc503001b13f10ffd779daff",
           "start": 0
         }
       ],
@@ -4644,15 +4644,15 @@
           "1"
         ]
       },
-      "fullHash": "5b4e73",
-      "generation": "31e9942d8958d085feb6",
-      "hash": "5b4e73",
+      "fullHash": "0fe2eb",
+      "generation": "ef60361694bb39917146",
+      "hash": "0fe2eb",
       "source": {
-        "duration": 50.494694,
+        "duration": 52.401633,
         "file": null,
-        "sha256": "20a31c133d03b54a884b98b0dd2d4cab70bf4afb0226e7bcce64e01d83a5ab32"
+        "sha256": "b26428f31080ba3ce40c4c90029be354cd9eb9224bc5f47283215e2cad5e1548"
       },
-      "text": "Silverpine Forest. Silverpine Forest lies under Forsaken rule and threat from rival forces along Lordaeron's western coast. The Scourge's plague scars the woods, where worgen, diseased gnolls, and hostile human enclaves endanger travelers. Silverpine Forest lies between Tirisfal Glades and the sealed Greymane Wall. Once a lush wonder of Lordaeron, it has withered since the Third War. Ghostly fog moves among dying, silver-barked pines, and ruined farmsteads lie abandoned to the wilderness. Tirisfal Glades borders the forest to the north, and Lordamere Lake lies along its eastern shore. To the south, the Greymane Wall shuts Gilneas away from the chaos beyond. The Forsaken hold their central outpost at the Sepulcher and struggle to secure the woods from enemies on every side."
+      "text": "Silverpine Forest. Forsaken patrols hold Silverpine Forest, where rival forces threaten the woods along Lordaeron’s western coast. The Scourge’s plague scars the forest, and worgen, diseased gnolls, and hostile human enclaves endanger travelers. Silverpine Forest stretches between Tirisfal Glades and the sealed Greymane Wall. Once a lush wonder of Lordaeron, it has withered since the Third War. Ghostly fog drifts among dying, silver-barked pines, while ruined farmsteads lie abandoned to the wilderness.\n\nTirisfal Glades borders the forest to the north, and Lordamere Lake runs along its eastern shore. To the south, the Greymane Wall shuts Gilneas away from the chaos beyond. The Forsaken hold their central outpost at the Sepulcher, struggling to secure the woods from enemies on every side."
     },
     "zone:stockade": {
       "1": [
@@ -5232,13 +5232,6 @@
       3355,
       4074,
       4416
-    ],
-    "08ae5ad37c8065bfeaa98964ed58357a4ab0eaa0d66bc269e36ce40a13ed761b": [
-      588,
-      945,
-      1226,
-      1476,
-      1686
     ],
     "08eee74fcee93d31ddedbde467351d73fd4c8c3dfe4bf4db9d0ce6a2d04a8ad1": [
       1043,
@@ -6960,6 +6953,15 @@
       2262,
       2651
     ],
+    "daaf1a8c82818e5deb9f9f3501596f61ceb0523ddc503001b13f10ffd779daff": [
+      293,
+      614,
+      839,
+      1024,
+      1334,
+      1574,
+      1758
+    ],
     "dc03f3550232a52ecb42752bee266d5c27bb9945c4390c2c5c1646c1a74a1d53": [
       934,
       1782,
@@ -7425,6 +7427,9 @@
       "1886": 2,
       "3286": 3,
       "407": 1
+    },
+    "daaf1a8c82818e5deb9f9f3501596f61ceb0523ddc503001b13f10ffd779daff": {
+      "614": 1
     },
     "e61fa22dcfb2a39685bdadae9c4939f880e03894d79d90118088a573ac10d079": {
       "1589": 2,

@@ -2,11 +2,11 @@ local P = LoreForeverPacks.Begin("LoreForever_Voice_Female_MoreQuests2")
 P.transportVersion = 1
 P.transport = {}
 P.transport["quest:100"] = {
-  hash = "948cad",
-  fullHash = "948cad",
-  text = "Call of Water. At Silverpine's coast, the shaman completes the Call of Water at the Brazier of Everfount. The rite clears nearby corruption, and a spirit of pure water appears. At the Brazier of Everfount, your final words call forth a burst of light. It scatters the minor spirits that threaten the spring, and the shore falls quiet. A Minor Manifestation of Water appears beside the brazier after the spirits are gone. The spirit thanks you for the rite and says the taint here has ebbed. Yet life across Silverpine's decaying lands continues to wane, and the Horde's shamans must stay watchful to preserve it.",
+  hash = "328255",
+  fullHash = "328255",
+  text = "Call of Water. At Silverpine's coast, you finish the Call of Water at the Brazier of Everfount. The rite clears nearby corruption, and a spirit of pure water appears. At the Brazier of Everfount, your final words summon a burst of light. It scatters the minor spirits threatening the spring, and the shore falls quiet. Once the spirits are gone, a Minor Manifestation of Water appears beside the brazier. The spirit thanks you for the rite and says the taint here has ebbed. Yet life across Silverpine's decaying lands continues to wane, so the Horde's shamans must stay watchful to preserve it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_100-51c4f6ce1ecc0220cbd5/1-0000.mp3", duration = 37.3812245, start = 0},
+    {file = "Audio/Transport/full_quest_100-0a1e1341f75a9bd17493/1-0000.mp3", duration = 37.5902041, start = 0},
   },
 }
 P.transport["quest:1007"] = {
@@ -362,19 +362,19 @@ P.transport["quest:1060"] = {
   },
 }
 P.transport["quest:1066"] = {
-  hash = "3b4a8c",
-  fullHash = "3b4a8c",
-  text = "Blood of Innocents. Apothecary Lydon in Tarren Mill seeks blood for a plan against the Venture Company in Stonetalon Mountains. The Royal Apothecary Society uses dark ingredients gathered from local bandits to pacify the encroaching company. The Horde faces a steady struggle in the Stonetalon Mountains, where the Venture Company ravages the wilderness and its people. Apothecary Lydon proposes an alchemical remedy instead of sending armies to blunt their axes. He plans to brew an agent that paralyzes and pacifies the mercenaries, leaving them weak and docile. Apothecary Lydon needs a rare and troubling ingredient: the blood of innocents. He avoids sending Horde agents to kill innocents himself and instead turns to the crimes of the Syndicate. Fallen nobles and cutthroats occupy Durnholde Keep, where rogue shadow mages harvest innocent blood for profane rituals. Lydon makes those mages his target for alchemical supplies.",
+  hash = "eaebd8",
+  fullHash = "eaebd8",
+  text = "Blood of Innocents. In Tarren Mill, Apothecary Lydon prepares a remedy for the Venture Company in Stonetalon Mountains. The Royal Apothecary Society turns to blood taken by local bandits to pacify the company. The Horde struggles against the Venture Company in Stonetalon Mountains. The company ravages the wilderness and harms its people, so Apothecary Lydon proposes alchemy instead of sending armies to blunt their axes. He means to brew an agent that will paralyze and pacify the mercenaries, leaving them weak and docile. Apothecary Lydon needs a rare and troubling ingredient: innocent blood. He will not send Horde agents to kill innocents, so he turns to the Syndicate's crimes. Fallen nobles and cutthroats occupy Durnholde Keep, where rogue shadow mages harvest innocent blood for profane rituals. Lydon targets those mages for alchemical supplies.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1066-901b7754dba47c548d91/1-0000.mp3", duration = 56.32, start = 0},
+    {file = "Audio/Transport/full_quest_1066-c9496576aecd0807ac0b/1-0000.mp3", duration = 56.1632653, start = 0},
   },
 }
 P.transport["quest:1067"] = {
-  hash = "385f34",
-  fullHash = "385f34",
-  text = "Return to Thunder Bluff. Apothecary Lydon’s toxin is bound for Thunder Bluff, where Zamah awaits it. She needs the formula to make a device that can spread it against the Venture Company. Apothecary Lydon has made the toxin from the ingredients gathered in the Hillsbrad Foothills. He wants to see it tested on living subjects, but the liquid needs a way to spread it. You carry the vial across the Great Sea to Mulgore, where Apothecary Zamah waits for it.",
+  hash = "ed27ca",
+  fullHash = "ed27ca",
+  text = "Return to Thunder Bluff. In Thunder Bluff, Zamah awaits the toxin Lydon made. She needs its formula to build a device that can spread it against the Venture Company. Apothecary Lydon made the toxin from ingredients gathered in the Hillsbrad Foothills. He wants to test it on living subjects, but first it needs a way to spread. You carry the vial across the Great Sea to Mulgore, where Apothecary Zamah waits.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1067-39313b3a54677c35652d/1-0000.mp3", duration = 25.7044898, start = 0},
+    {file = "Audio/Transport/full_quest_1067-50ad9f1bf4777e6393d8/1-0000.mp3", duration = 24.2677551, start = 0},
   },
 }
 P.transport["quest:1068"] = {
@@ -642,11 +642,11 @@ P.transport["quest:1101"] = {
   },
 }
 P.transport["quest:1103"] = {
-  hash = "c675a4",
-  fullHash = "c675a4",
-  text = "Call of Water. Along Silverpine Forest's coast, shamans can renew their communion with water through Call of Water. Tiev Mordune offers another Water Sapta to those whose spirit-sight fades before they speak with the purified water spirit. Shamans drink a Water Sapta to see spirits near the elemental shrines. If its magic fades before they speak with the Minor Manifestation of Water, they can no longer enter the spirit realm to finish the trial. On Silverpine Forest's fog-shrouded shore, fellow shaman Tiev Mordune helps those whose visions end too soon. Tiev Mordune has already defeated the corrupt water spirit off the coast and waits with the ritual remnants he gathered. To show you are ready, bring a fresh Water Sapta from Islen Waterseer in the Barrens. Tiev casts his gathered bracers and droplets into the shrine's brazier, summoning the pure manifestation again so you can speak with it and seal your bond with the element.",
+  hash = "b62347",
+  fullHash = "b62347",
+  text = "Call of Water. Along Silverpine Forest's coast, Tiev Mordune waits to help shamans whose spirit-sight fades too soon. A fresh Water Sapta lets them return to the shrine and speak with the purified water spirit. Shamans drink a Water Sapta to see spirits near the elemental shrines. If its magic fades before they speak with the Minor Manifestation of Water, they can no longer enter the spirit realm to finish the trial. On Silverpine Forest's fog-shrouded shore, fellow shaman Tiev Mordune helps those whose visions end too soon. Tiev Mordune has defeated the corrupt water spirit off the coast and waits with the ritual remnants he gathered. To show you are ready, bring a fresh Water Sapta from Islen Waterseer in the Barrens. Tiev casts his gathered bracers and droplets into the shrine's brazier. The pure manifestation appears again, so you can speak with it and seal your bond with the element.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1103-ca842dfd6f920e16ae44/1-0000.mp3", duration = 54.4130612, start = 0},
+    {file = "Audio/Transport/full_quest_1103-ba23c35015b5c506abb0/1-0000.mp3", duration = 55.7191837, start = 0},
   },
 }
 P.transport["quest:1104"] = {
@@ -746,19 +746,19 @@ P.transport["quest:1117"] = {
   },
 }
 P.transport["quest:1130"] = {
-  hash = "580348",
-  fullHash = "580348",
-  text = "Melor Sends Word. Jorn Skyseer brings word from Melor Stonehoof to promising hunters in the Barrens. Those who have proved their grit across Kalimdor are called to Hunter's Rise in Thunder Bluff for a harder trial. Across the Barrens, Jorn Skyseer watches the crossings and encampments. He carries word from the elders of Hunter's Rise to hunters and warriors who have shown promise in the surrounding lands. Melor Stonehoof, a revered tauren mentor, has marked out a path for them. At Hunter's Rise in Thunder Bluff, you meet Melor Stonehoof. The elder hunter asks if you have the resolve to venture into distant, perilous wilderness. His summons opens trials far beyond the safety of Mulgore, where hunters face the continent's fiercest predators.",
+  hash = "05c228",
+  fullHash = "05c228",
+  text = "Melor Sends Word. In the Barrens, Jorn Skyseer carries Melor Stonehoof's summons to promising hunters. Hunters who have proved their grit across Kalimdor are called to Hunter's Rise in Thunder Bluff for a harder trial. Jorn Skyseer watches the crossings and encampments of the Barrens. He carries word from the elders of Hunter's Rise to hunters and warriors who have shown promise in the surrounding lands. Melor Stonehoof, a revered tauren mentor, has marked out a path for them. At Hunter's Rise in Thunder Bluff, you meet Melor Stonehoof. The elder hunter asks whether you have the resolve to enter distant and perilous wilderness. His summons leads to trials far beyond Mulgore's safety, where hunters face the continent's fiercest predators.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1130-4fad36a8d17bad9a56e0/1-0000.mp3", duration = 43.9379592, start = 0},
+    {file = "Audio/Transport/full_quest_1130-7b3b370755ba696cd2e6/1-0000.mp3", duration = 46.3934694, start = 0},
   },
 }
 P.transport["quest:1131"] = {
-  hash = "3b8637",
-  fullHash = "3b8637",
-  text = "Steelsnap. In Thousand Needles, Melor Stonehoof sends you after a hyena whose pack terrorizes the wildlife. Steelsnap's hunt breaks with the usual reasons tauren take a life. Tauren hunters take life for sustenance, honor, or wisdom from the Earthmother. Melor Stonehoof asks you to hunt Steelsnap for another reason. The hyena is seen as a threat to nature's balance, bringing senseless violence and fear instead of keeping the cycle of life. Steelsnap roams the canyons of northern Thousand Needles, south of the centaur enclave at Camp E'thok. Fierce hyenas follow him, and together they attack the gentler wildlife on the canyon floor. Slaying Steelsnap and bringing back his rib will end his hold over the needles.",
+  hash = "0ff8fa",
+  fullHash = "0ff8fa",
+  text = "Steelsnap. In Thousand Needles, Melor Stonehoof sends you after Steelsnap and his pack, which terrorize the wildlife. This hunt serves a different purpose from the usual reasons tauren take a life. Tauren hunters take life for food, honor, or wisdom from the Earthmother. Melor Stonehoof sends you after Steelsnap for another reason. The hyena threatens nature’s balance with senseless violence and fear, rather than keeping the cycle of life. Steelsnap roams the canyons of northern Thousand Needles, south of the centaur enclave at Camp E'thok. Fierce hyenas follow him, and together they attack the gentler wildlife on the canyon floor. Slay Steelsnap and bring back his rib to end his hold over the needles.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1131-6b290fd66b26ff2825f2/1-0000.mp3", duration = 44.3297959, start = 0},
+    {file = "Audio/Transport/full_quest_1131-b9ddb48be01e61fc2e6c/1-0000.mp3", duration = 44.3820408, start = 0},
   },
 }
 P.transport["quest:1132"] = {
@@ -994,27 +994,27 @@ P.transport["quest:1186"] = {
   },
 }
 P.transport["quest:1195"] = {
-  hash = "23ca34",
-  fullHash = "23ca34",
-  text = "The Sacred Flame. Zangen Stonehoof sends the Horde after a sacred flame and an ancient relic. To aid Rau Cliffrunner in Thousand Needles, you seek a moonwell phial in Ashenvale. The Galak centaur guard an ancient relic in Thousand Needles. Their artifact dates to the creation of their race, and they protect it with sacred flames. Zangen Stonehoof needs water touched by lunar divinity to extinguish those flames. He sends you north to Ashenvale, where the ancestral forests hold the moonwell water he seeks. Pure moonwell water needs a vessel that will not corrupt it. You seek an etched phial from the Laughing Sisters, dryads near Raynewood Retreat. Then you submerge the phial in a moonwell along the western banks of the Falfarren River and carry it back to Mulgore.",
+  hash = "59c909",
+  fullHash = "59c909",
+  text = "The Sacred Flame. Zangen Stonehoof sends you after a sacred flame and an ancient relic. To aid Rau Cliffrunner in Thousand Needles, you seek a moonwell phial in Ashenvale. The Galak centaur guard an ancient relic in Thousand Needles. The artifact dates to the beginning of their race, and sacred flames protect it. Zangen Stonehoof needs water blessed by the moon to quench those flames. He sends you north to Ashenvale, where the old forests hold the moonwell water he seeks. Pure moonwell water needs a vessel that will not taint it. You seek an etched phial carried by the Laughing Sisters, dryads near Raynewood Retreat. Submerge the phial in a moonwell along the western banks of the Falfarren River, then carry it back to Mulgore.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1195-e5ca4949813d39996629/1-0000.mp3", duration = 47.4383673, start = 0},
+    {file = "Audio/Transport/full_quest_1195-37c1b93ac18448b9a7e9/1-0000.mp3", duration = 45.7926531, start = 0},
   },
 }
 P.transport["quest:1196"] = {
-  hash = "7091aa",
-  fullHash = "7091aa",
-  text = "The Sacred Flame. From Ashenvale, a phial of moonwell water travels south to Freewind Post. Rau Cliffrunner needs it to break the eternal flame guarding an ancient centaur relic in Thousand Needles. Zangen Stonehoof sends you south across central Kalimdor with an etched phial filled with purified moonwell water. You cross the sun-baked expanse of the Barrens, descend the towering Great Lift, and make for Freewind Post. Rau Cliffrunner waits on the high mesa above the canyon floor, watching the centaur clans below.",
+  hash = "d1b0c3",
+  fullHash = "d1b0c3",
+  text = "The Sacred Flame. A phial of moonwell water travels south from Ashenvale to Freewind Post. Rau Cliffrunner needs it to break the eternal flame guarding an ancient centaur relic in Thousand Needles. Zangen Stonehoof sends you south across central Kalimdor with an etched phial of purified moonwell water. You cross the sun-baked Barrens, descend the Great Lift, and continue to Freewind Post. Rau Cliffrunner waits on the high mesa above the canyon floor. From there, he watches the centaur clans below.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1196-4118c61bd5518bd2044d/1-0000.mp3", duration = 29.9885714, start = 0},
+    {file = "Audio/Transport/full_quest_1196-28db49c20671d0c46f02/1-0000.mp3", duration = 29.8840816, start = 0},
   },
 }
 P.transport["quest:1197"] = {
-  hash = "6396de",
-  fullHash = "6396de",
-  text = "The Sacred Flame. At Splithoof Hold, Rau Cliffrunner seeks to silence the Galak centaur's sacred fire. With blessed water, you enter their stronghold, quench the brazier, and take the Cloven Hoof. North of Freewind Post, Splithoof Crag marks the heart of Galak territory in Thousand Needles. Deep in its cavern, Splithoof Hold, a fire burns that the centaur hold sacred. Rau Cliffrunner prepares an etched phial of purified water for his allies. You enter the hold, use the water to quench the flame for a moment, and take the Cloven Hoof relic guarded within.",
+  hash = "c34c44",
+  fullHash = "c34c44",
+  text = "The Sacred Flame. At Splithoof Hold, Rau Cliffrunner seeks to silence the Galak centaur's sacred fire. You carry blessed water into their stronghold, quench the brazier, and take the Cloven Hoof. North of Freewind Post, Splithoof Crag lies at the heart of Galak territory in Thousand Needles. Deep in its cavern, Splithoof Hold shelters a fire the centaur hold sacred. Rau Cliffrunner prepares an etched phial of purified water for his allies. You enter the hold and use the water to quench the flame for a moment. Then you take the Cloven Hoof relic guarded within.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1197-f7dc04751a457da5d484/1-0000.mp3", duration = 33.8546939, start = 0},
+    {file = "Audio/Transport/full_quest_1197-df435fa47ba6db1f5eee/1-0000.mp3", duration = 35.0563265, start = 0},
   },
 }
 P.transport["quest:1198"] = {
@@ -1506,27 +1506,27 @@ P.transport["quest:1465"] = {
   },
 }
 P.transport["quest:1472"] = {
-  hash = "123a1d",
-  fullHash = "123a1d",
-  text = "Devourer of Souls. In the Undercity's Temple of the Damned, Carendin Halgar guides Forsaken warlocks toward binding a succubus. Godrick Farsan knows how to lure one from the Twisting Nether with the hearts of pure, loving mortals. Carendin Halgar teaches that a succubus must be enticed across the threshold, not summoned by command. The demon hungers to ruin virtue and consume mortal essence. To draw it forth, you offer the hearts of genuinely virtuous, loving men as bait. Halgar sends you to Godrick Farsan, who knows where such rare quarry can be found. Deeper in the Temple of the Damned, Godrick Farsan helps Carendin prepare for demonic binding. Farsan has lost his physical eyesight, but says this grants him a deeper sight. He claims to perceive spiritual currents and distant souls with uncanny clarity, and can guide you to the pure hearts needed to draw out the demon.",
+  hash = "3a5fe1",
+  fullHash = "3a5fe1",
+  text = "Devourer of Souls. In the Temple of the Damned, Carendin Halgar teaches Forsaken warlocks to bind a succubus. Godrick Farsan knows how to draw one from the Twisting Nether with the hearts of pure, loving mortals. Carendin Halgar teaches that a succubus must be lured across the threshold, not called by command. The demon hungers to ruin virtue and consume mortal essence. Offer the hearts of genuinely virtuous, loving men as bait. Halgar sends you to Godrick Farsan, who knows where such rare quarry can be found. Deep in the Temple of the Damned, Godrick Farsan helps Carendin prepare for demonic binding. Farsan has lost his physical sight, but says this has given him a deeper one. He claims to perceive spiritual currents and distant souls with uncanny clarity. With that sight, he can guide you to the pure hearts needed to draw out the demon.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1472-e36b5d2ee37d4fed62e2/1-0000.mp3", duration = 53.9428571, start = 0},
+    {file = "Audio/Transport/full_quest_1472-adec26579edfd6c9e49b/1-0000.mp3", duration = 53.6293878, start = 0},
   },
 }
 P.transport["quest:1474"] = {
-  hash = "6fe272",
-  fullHash = "6fe272",
-  text = "The Binding. In the Undercity, an initiate faces the rite that grants command of a succubus. Carendin Halgar directs the warlock to use Pure Hearts to draw a demon from the Twisting Nether into a ritual circle, then master it through combat. In the Undercity's Magic Quarter, Forsaken warlocks hone their command of demons. Summoning a succubus marks a critical passage in their training. A voidwalker relies on brute force, and an imp on lesser malice, but a succubus can ensnare its summoner with seductive and mental enchantments. Carendin Halgar demands that each initiate prove mind and magic unshakable before he entrusts them with lasting dominion over such a demon.",
+  hash = "5de215",
+  fullHash = "5de215",
+  text = "The Binding. In the Undercity, Carendin Halgar puts an initiate's command of a succubus to the test. Pure Hearts draw the demon from the Twisting Nether into a ritual circle, where the warlock must master it through combat. In the Undercity's Magic Quarter, Forsaken warlocks learn to command demons. Summoning a succubus marks a hard passage in that training. A voidwalker depends on brute force, and an imp on lesser malice. A succubus can turn seductive and mental enchantments against its summoner. So Carendin Halgar requires each initiate to prove mind and magic unshakable before granting lasting dominion over such a demon.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1474-5322a352d8ab9fce71a8/1-0000.mp3", duration = 41.4563265, start = 0},
+    {file = "Audio/Transport/full_quest_1474-15592163b9ba34fa2949/1-0000.mp3", duration = 39.8889796, start = 0},
   },
 }
 P.transport["quest:1476"] = {
-  hash = "93dd3d",
-  fullHash = "93dd3d",
-  text = "Hearts of the Pure. In the Undercity, Godrick Farsan assigns a warlock trial on Carendin Halgar’s behalf. To prepare bait for a succubus, you hunt two righteous human men; their pure hearts are an irresistible temptation to the demon. Carendin Halgar, master summoner in the Temple of the Damned, assigns Godrick Farsan the groundwork for binding a succubus. Succubi prey on desire and ruin, yet untainted virtue draws them from the Twisting Nether, ripe for corruption. Godrick scours human lands for souls whose goodness remains pristine and unbroken. Godrick Farsan names two men whose virtue marks them for sacrifice. Dalin Forgewright cares for desperate Lordaeron refugees barred from sanctuary outside the sealed Greymane Wall in southern Silverpine. Comar Villard searches the perilous marshlands of the Wetlands tirelessly for any trace of his lost wife. Their devotion, empathy, and loyalty make them prime sacrifices to a Forsaken warlock.",
+  hash = "abe740",
+  fullHash = "abe740",
+  text = "Hearts of the Pure. In the Undercity, Godrick Farsan sets a trial for Carendin Halgar’s succubus binding. You seek two righteous human men whose pure hearts will tempt a demon. Carendin Halgar, master summoner in the Temple of the Damned, gives Godrick Farsan the groundwork for binding a succubus. Succubi prey on desire and ruin. Yet untainted virtue draws them from the Twisting Nether, where they are ripe for corruption. So Godrick searches human lands for souls whose goodness remains pristine and unbroken. Godrick Farsan names two men whose virtue marks them for sacrifice. Dalin Forgewright cares for desperate Lordaeron refugees barred from sanctuary outside the sealed Greymane Wall in southern Silverpine. Comar Villard tirelessly searches the perilous marshlands of the Wetlands for any trace of his lost wife. Their devotion, empathy and loyalty make them prime sacrifices to a Forsaken warlock.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1476-979f2f548a7b707be1b4/1-0000.mp3", duration = 61.8579592, start = 0},
+    {file = "Audio/Transport/full_quest_1476-347d6fdab6e41bcbe82e/1-0000.mp3", duration = 57.2342857, start = 0},
   },
 }
 P.transport["quest:148"] = {
@@ -1690,11 +1690,11 @@ P.transport["quest:1522"] = {
   },
 }
 P.transport["quest:1529"] = {
-  hash = "17360c",
-  fullHash = "17360c",
-  text = "Call of Water. Your path to the Call of Water begins in Thunder Bluff, where a shaman is ready to seek the element of water. To meet Islen Waterseer, you travel east across the Barrens to its eastern shore. The meeting begins a spiritual journey toward the Water Totem. You have mastered earth and fire, and now your trainers judge you ready to study water. In Thunder Bluff, Xanis Flameweaver recognizes when you have shown the discipline to approach this cleansing element. Your path leads away from Mulgore's mesas and east across the dry plains of the Barrens. You find Islen Waterseer in a fishing shack on the eastern coast, south of Ratchet and the mouth of the Southfury River. She lives apart from the settlements, beside the open ocean. Islen reads your readiness in the elements around you. Earth, wind, and fire already touch your spirit, and she prepares you for trials that will teach you the purity of water.",
+  hash = "ec2cf6",
+  fullHash = "ec2cf6",
+  text = "Call of Water. In Thunder Bluff, your training turns toward water and a journey to the Barrens shore. You travel east to meet Islen Waterseer and begin the path toward the Water Totem. You have mastered earth and fire, and your trainers now judge you ready to study water. In Thunder Bluff, Xanis Flameweaver sees that you have the discipline to approach this cleansing element. So you leave Mulgore's mesas and cross the dry plains of the Barrens to the east. Islen Waterseer lives in a fishing shack on the Barrens' eastern coast, south of Ratchet and the mouth of the Southfury River. She keeps apart from the settlements beside the open ocean. Islen reads your readiness in the elements around you. Earth, wind, and fire already touch your spirit, and she prepares trials to teach you the purity of water.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1529-7b1ce2cd9703a14d14d0/1-0000.mp3", duration = 54.4130612, start = 0},
+    {file = "Audio/Transport/full_quest_1529-b5c0cc4f855098bd4a5c/1-0000.mp3", duration = 50.2334694, start = 0},
   },
 }
 P.transport["quest:1530"] = {
@@ -1714,11 +1714,11 @@ P.transport["quest:1531"] = {
   },
 }
 P.transport["quest:1532"] = {
-  hash = "7a5d65",
-  fullHash = "7a5d65",
-  text = "Call of Air. Xanis Flameweaver sends seasoned Horde shamans from Thunder Bluff south to seek Prate Cloudseer in Thousand Needles. There they seek communion with the wind and the Air Totem, needed to channel its swift forces. A shaman who has attuned to earth, fire, and water now faces air, the final element. From Thunder Bluff, Xanis Flameweaver guides initiates through a trial of humility, focus, and respect for the sky. The winds are fickle and harder to control than the elements they have already learned. The path leads south, past the Barrens and into the canyons of Thousand Needles. Far to the east, Prate Cloudseer dwells in a secluded cave on the cliffs, where canyon drafts howl day and night. She tests each initiate's preparedness before giving them the Air Totem, which channels gusts, lightning, and swift wind spirits.",
+  hash = "54348c",
+  fullHash = "54348c",
+  text = "Call of Air. Xanis Flameweaver sends seasoned Horde shamans south from Thunder Bluff to seek Prate Cloudseer in Thousand Needles. There, they seek communion with the wind and the Air Totem, which channels its swift forces. You have attuned to earth, fire, and water. Now Xanis Flameweaver guides you from Thunder Bluff through a trial of humility, focus, and respect for the sky. Air is the final element, and its winds are fickle. They are harder to control than the elements you have already learned. Your path leads south, past the Barrens and into the canyons of Thousand Needles. Far to the east, Prate Cloudseer dwells in a secluded cave on the cliffs, where canyon drafts howl day and night. She tests your preparedness before giving you the Air Totem. It channels gusts, lightning, and swift wind spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1532-ff62a14257947bb71a65/1-0000.mp3", duration = 52.0097959, start = 0},
+    {file = "Audio/Transport/full_quest_1532-7be97e6db515784519ef/1-0000.mp3", duration = 52.8457143, start = 0},
   },
 }
 P.transport["quest:1534"] = {
@@ -2114,11 +2114,11 @@ P.transport["quest:1717"] = {
   },
 }
 P.transport["quest:1718"] = {
-  hash = "0cb102",
-  fullHash = "0cb102",
-  text = "The Islander. Warrior trainers across Azeroth send proven fighters to Fray Island for a test among their peers. The island lies off the Merchant Coast, where chief warrior Klannoc Macleod awaits those who seek the next step in their training. Warrior trainers in Alliance and Horde capitals send students who have outgrown basic drills to test themselves against their peers. A fighter's progress comes through combat, not rank or loyalty. The journey leads away from civilized sparring yards to a rugged isle in the Great Sea. Fray Island lies east of the Merchant Coast, just south of Ratchet in the Barrens. You can reach it by swimming across waters that pass over submerged sandbar shallows. Political ties matter little on the island, where fighters gather before Klannoc Macleod, its chief warrior, and await the trial he chooses.",
+  hash = "f3a3ec",
+  fullHash = "f3a3ec",
+  text = "The Islander. On Fray Island, warriors from across Azeroth face a trial among their peers. Their trainers send proven fighters there for the next step in their training. The island lies off the Merchant Coast, where chief warrior Klannoc Macleod awaits them. Warrior trainers in Alliance and Horde capitals send students who have outgrown basic drills to test themselves against their peers. Combat shows a fighter's progress, not rank or loyalty. So the journey leads beyond civilized sparring yards to a rugged isle in the Great Sea. Fray Island lies east of the Merchant Coast, just south of Ratchet in the Barrens. You can swim there across waters that pass over submerged sandbar shallows. Political ties matter little on the island. Fighters gather before Klannoc Macleod, its chief warrior, and await the trial he chooses.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1718-2e543f1798b779855554/1-0000.mp3", duration = 48.9795918, start = 0},
+    {file = "Audio/Transport/full_quest_1718-41d6bcfa3c4f23129942/1-0000.mp3", duration = 53.237551, start = 0},
   },
 }
 P.transport["quest:1719"] = {
@@ -2362,11 +2362,11 @@ P.transport["quest:1802"] = {
   },
 }
 P.transport["quest:1803"] = {
-  hash = "b82377",
-  fullHash = "b82377",
-  text = "Tome of the Cabal. Horde warlocks seek the Tome of the Cabal's severed halves for Jorah Annison in the Undercity. Once kept in Lordaeron, the grimoire was torn apart and scattered across the world. Its damp, tattered remnants lie along hostile Eastern Kingdoms waters and deep in Kalimdor's centaur territory. The Tome of the Cabal once rested in the library of Lordaeron. Someone deliberately defaced the sinister grimoire, stripping away nearly half its pages and splitting it in two. The surviving formal text was bound for the dwarven halls of Ironforge, but the transport wrecked along the rocky coast west of Southshore. Its pages now rot in the shallows beneath the watch of scavenging murlocs.",
+  hash = "b59da3",
+  fullHash = "b59da3",
+  text = "Tome of the Cabal. In the Undercity, Horde warlocks seek the Tome of the Cabal's scattered halves for Jorah Annison. Once kept in Lordaeron, the grimoire was torn apart, and its remnants lie along the hostile waters of the Eastern Kingdoms and deep in Kalimdor's centaur lands. The Tome of the Cabal once rested in Lordaeron's library. Someone defaced the sinister grimoire, tore away nearly half its pages, and split it in two. The surviving bound text was sent to the dwarven halls of Ironforge. But its transport wrecked along the rocky coast west of Southshore, and the pages now rot in the shallows beneath scavenging murlocs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1803-955b94b67cb7c28071c4/1-0000.mp3", duration = 42.8930612, start = 0},
+    {file = "Audio/Transport/full_quest_1803-24e76aa4d98b3af4d2b4/1-0000.mp3", duration = 39.8106122, start = 0},
   },
 }
 P.transport["quest:1804"] = {
@@ -2434,11 +2434,11 @@ P.transport["quest:1839"] = {
   },
 }
 P.transport["quest:1840"] = {
-  hash = "309959",
-  fullHash = "309959",
-  text = "Orm Stonehoof and the Brutal Helm. In Thunder Bluff, Orm Stonehoof has the skill to forge the Brutal Helm. Thun'grim Firegaze sends warriors to him for that work. Warriors who prove their mettle and assemble pieces of the Brutal Armor in the Barrens are sent up to Thunder Bluff. Thun'grim Firegaze is an accomplished armorsmith, but he knows the work has reached beyond his own skill. He refers the warriors to Orm Stonehoof, whose craft is renowned across Kalimdor. Orm can shape resilient battlefield helms from rare, savage trophies. Orm Stonehoof lives and works on the high bluffs of Mulgore, near the tranquil pool beneath Thunder Bluff's towering central totem. When a warrior arrives with Thun'grim Firegaze's word, Orm leaves his routine work to discuss the demanding components needed for a helm worthy of the Horde's front lines.",
+  hash = "06784e",
+  fullHash = "06784e",
+  text = "Orm Stonehoof and the Brutal Helm. In Thunder Bluff, Orm Stonehoof can forge the Brutal Helm. Thun'grim Firegaze sends warriors to him for the work. Warriors who prove their mettle and gather pieces of the Brutal Armor in the Barrens are sent to Thunder Bluff. Thun'grim Firegaze is a skilled armorsmith, but the work has grown beyond his craft. So he directs the warriors to Orm Stonehoof, whose skill is known across Kalimdor. Orm can shape sturdy helms from rare trophies taken from savage beasts. Orm Stonehoof lives and works on Mulgore's high bluffs, near the pool below Thunder Bluff's great central totem. When a warrior comes with Thun'grim Firegaze's word, Orm sets aside his usual work. He speaks with them about the demanding parts needed to forge a helm fit for the Horde's front lines.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1840-36b68253a41cf69ffdfa/1-0000.mp3", duration = 50.5730612, start = 0},
+    {file = "Audio/Transport/full_quest_1840-910fa8647a4c74a2f328/1-0000.mp3", duration = 49.3191837, start = 0},
   },
 }
 P.transport["quest:1841"] = {
@@ -2466,11 +2466,11 @@ P.transport["quest:1843"] = {
   },
 }
 P.transport["quest:1844"] = {
-  hash = "57fba4",
-  fullHash = "57fba4",
-  text = "Chimaeric Horn. Orm Stonehoof sends a Horde warrior into the Charred Vale to face a suffering chimaera matriarch. Her horn is needed for the Brutal Helm, and the hunt tests the warrior’s strength and mercy. Orm Stonehoof will forge the Brutal Helm for Horde warriors, but tradition calls for proof before he begins. He asks for more than metal or coin: the warrior must show martial skill and face the scars left by devastating conflict. In the southwestern Stonetalon Mountains, the Charred Vale lies in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still wander its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents. For the tauren smith, the chimaera matriarch’s horn is both a needed piece for the helm and proof of strength. The hunt also ends the matriarch’s torment. By felling her, the warrior brings mercy to a wild spirit driven mad by the destruction of its home.",
+  hash = "d1e7c9",
+  fullHash = "d1e7c9",
+  text = "Chimaeric Horn. In the Charred Vale, a suffering chimaera matriarch tests a Horde warrior’s strength and mercy. Orm Stonehoof needs her horn for the Brutal Helm, and the hunt will prove the warrior’s resolve. Orm Stonehoof will forge the Brutal Helm for Horde warriors, but custom asks for proof before he begins. Metal and coin are not enough. A warrior must show martial skill and face the scars left by devastating conflict. The Charred Vale lies in the southwestern Stonetalon Mountains, buried in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still roam its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents. To the tauren smith, the chimaera matriarch’s horn is needed for the helm and proves a warrior’s strength. Yet the hunt also ends her torment. By felling the matriarch, the warrior brings mercy to a wild spirit driven mad by the destruction of her home.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1844-1cab518e833be5caa9f6/1-0000.mp3", duration = 59.1412245, start = 0},
+    {file = "Audio/Transport/full_quest_1844-8e2c74eeb3aa03ce06c2/1-0000.mp3", duration = 63.4514286, start = 0},
   },
 }
 P.transport["quest:1845"] = {
@@ -2482,11 +2482,11 @@ P.transport["quest:1845"] = {
   },
 }
 P.transport["quest:1846"] = {
-  hash = "bec8f8",
-  fullHash = "bec8f8",
-  text = "Dragonmaw Shinbones. In the Undercity, Velora Nitely sends Horde warriors to gather Dragonmaw Shinbones for Brutal Legguards. The hunt leads to the southern Wetlands, where the hostile orcs carry bones thick enough to brace the armor. Velora Nitely, a Forsaken armorer in the Undercity, needs a strong brace for Brutal Legguards. She sends Horde warriors to the Wetlands for thick, resilient bone from the Dragonmaw orcs. Their dense frames can bear the heavy blows a seasoned warrior faces. Velora needs more than any bone taken from the Dragonmaw. Each one must withstand a hand test; a bone that snaps is too brittle for the forge. Warriors scour the renegade camps along the Wetlands' crags, breaking weak specimens until eight sturdy shinbones remain.",
+  hash = "0e39c2",
+  fullHash = "0e39c2",
+  text = "Dragonmaw Shinbones. Velora Nitely sends Horde warriors from the Undercity into the southern Wetlands for Dragonmaw Shinbones. The thick bones will brace Brutal Legguards against the blows a seasoned warrior faces. Velora Nitely, a Forsaken armorer in the Undercity, needs a sturdy brace for Brutal Legguards. She sends Horde warriors to the Wetlands to gather thick bone from the Dragonmaw orcs. Their dense frames can bear the heavy blows that seasoned warriors face. Velora needs bones that can hold firm. Each must pass a hand test; any that snap are too brittle for the forge. So warriors scour renegade camps along the Wetlands' crags, breaking weak specimens until eight sturdy shinbones remain.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1846-4f37633ef9c80cf495ca/1-0000.mp3", duration = 46.8897959, start = 0},
+    {file = "Audio/Transport/full_quest_1846-17e3759e5165f3c43b12/1-0000.mp3", duration = 45.7404082, start = 0},
   },
 }
 P.transport["quest:1848"] = {
@@ -2682,11 +2682,11 @@ P.transport["quest:198"] = {
   },
 }
 P.transport["quest:1999"] = {
-  hash = "9c9caf",
-  fullHash = "9c9caf",
-  text = "Tools of the Trade. Horde rogues are sent from the Undercity to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and recover Kirin Tor intelligence on Dalaran’s condition. A prisoner’s interrogation points the Deathstalkers toward intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Deathstalker handler Mennet Carkad to direct promising operatives around the Kirin Tor sentries and recover the Dalaran Status Report. Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives receive specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill proves an operative can move beyond street brutality and become an espionage asset for the Forsaken.",
+  hash = "3911c0",
+  fullHash = "3911c0",
+  text = "Tools of the Trade. In the Undercity, Horde rogues are sent to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and learn Dalaran’s condition from Kirin Tor intelligence. A prisoner’s interrogation leads the Deathstalkers to intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Mennet Carkad, a Deathstalker handler, to guide promising operatives past the Kirin Tor sentries and recover the Dalaran Status Report. Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives collect specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill shows an operative can move beyond street brutality and serve the Forsaken as an espionage asset.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1999-22a2cba002b3ff5a3b76/1-0000.mp3", duration = 54.9093878, start = 0},
+    {file = "Audio/Transport/full_quest_1999-fc66c112ff877f02d5b9/1-0000.mp3", duration = 53.8644898, start = 0},
   },
 }
 P.transport["quest:2"] = {
@@ -3578,11 +3578,11 @@ P.transport["quest:336"] = {
   },
 }
 P.transport["quest:3369"] = {
-  hash = "7f0581",
-  fullHash = "7f0581",
-  text = "In Nightmares. A shard from the Wailing Caverns brings a troubling vision to Thunder Bluff. Recovered as a glowing fragment, the Nightmare Shard is carried to Arch Druid Hamuul Runetotem on Elder Rise, where it reveals corruption within the Emerald Dream. Falla Sagewind sees the pure essence of the Emerald Dream in the strange crystal from the Wailing Caverns. A dark, chaotic vision dwells inside it, more waking nightmare than peaceful slumber. Unwilling to speak openly of such an omen, she entrusts the shard to you. She sends you to Arch Druid Hamuul Runetotem, Thunder Bluff's most venerated elder druid.",
+  hash = "bc9f13",
+  fullHash = "bc9f13",
+  text = "In Nightmares. A shard from the Wailing Caverns brings a troubling vision to Thunder Bluff. You carry the glowing Nightmare Shard to Arch Druid Hamuul Runetotem on Elder Rise, where it reveals corruption within the Emerald Dream. Falla Sagewind sees the Emerald Dream's pure essence in a strange crystal from the Wailing Caverns. Within it lies a dark, chaotic vision, more waking nightmare than peaceful slumber. Unwilling to speak openly of the omen, she entrusts the shard to you. Then she sends you to Arch Druid Hamuul Runetotem, Thunder Bluff's most venerated elder druid.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3369-9645330260be2299ae77/1-0000.mp3", duration = 38.164898, start = 0},
+    {file = "Audio/Transport/full_quest_3369-e03affb6cb09d9862edc/1-0000.mp3", duration = 34.8995918, start = 0},
   },
 }
 P.transport["quest:337"] = {
@@ -3842,11 +3842,11 @@ P.transport["quest:416"] = {
   },
 }
 P.transport["quest:442"] = {
-  hash = "840d10",
-  fullHash = "840d10",
-  text = "Assault on Fenris Isle. Forsaken agents move against the Scourge on Fenris Isle. High Executor Hadrec sends them to storm Fenris Keep and take the head of Thule Ravenclaw, the necromancer commanding the island stronghold in Lake Lordamere. The Forsaken hold the western roads and have established their presence at the Sepulcher, but the Scourge remain entrenched in Fenris Keep. The island lies in Lake Lordamere, east of Silverpine Forest, and its forces threaten the forest and the southern waterways leading toward the Undercity. High Executor Hadrec sees Thule Ravenclaw’s vile experiments as a danger to Forsaken control of Silverpine. Thule commands the Scourge from the keep, keeping their power close to the Forsaken shore.",
+  hash = "00b110",
+  fullHash = "00b110",
+  text = "Assault on Fenris Isle. High Executor Hadrec sends Forsaken agents to Fenris Isle. They are to storm Fenris Keep and take the head of Thule Ravenclaw, the necromancer commanding the island stronghold in Lake Lordamere. The Forsaken hold the western roads and have made their presence known at the Sepulcher. Yet the Scourge remain entrenched in Fenris Keep, on an island in Lake Lordamere east of Silverpine Forest. Their forces threaten the forest and the southern waterways that lead toward the Undercity. High Executor Hadrec sees Thule Ravenclaw’s experiments as a danger to Forsaken control of Silverpine. From the keep, Thule commands the Scourge close to the Forsaken shore.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_442-8e892c4659a11588af69/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_quest_442-56ead0288c4dfa9d5b2d/1-0000.mp3", duration = 40.1763265, start = 0},
   },
 }
 P.transport["quest:4542"] = {
@@ -4018,11 +4018,11 @@ P.transport["quest:4770"] = {
   },
 }
 P.transport["quest:480"] = {
-  hash = "1e6896",
-  fullHash = "1e6896",
-  text = "The Weaver. In Silverpine Forest, Ataeric works to awaken a dormant ley energy node for Dalaran. Shadow Priest Allister at the Sepulcher sends you to stop the archmage and take his staff, keeping Dalaran’s magic from threatening Forsaken control of the southern reaches of Lordaeron. After earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that the wizards are trying to awaken a dormant ley energy node in Silverpine Forest. If Dalaran gains its concentrated arcane power, it could strengthen its position and threaten the Undercity’s hold over southern Lordaeron.",
+  hash = "73a340",
+  fullHash = "73a340",
+  text = "The Weaver. In Silverpine Forest, Ataeric works to wake a dormant ley node for Dalaran. At the Sepulcher, Shadow Priest Allister sends you to stop the archmage and take his staff, lest Dalaran’s magic threaten Forsaken control of southern Lordaeron. After your earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that its wizards seek to wake a dormant ley energy node in Silverpine Forest. Dalaran could draw on that concentrated arcane power to strengthen its position and threaten the Undercity’s hold over southern Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_480-8e7441985396f5d16d40/1-0000.mp3", duration = 35.6832653, start = 0},
+    {file = "Audio/Transport/full_quest_480-061b84285c8a4a4b0694/1-0000.mp3", duration = 35.8138776, start = 0},
   },
 }
 P.transport["quest:4821"] = {
@@ -4226,11 +4226,11 @@ P.transport["quest:506"] = {
   },
 }
 P.transport["quest:5062"] = {
-  hash = "97aeb3",
-  fullHash = "97aeb3",
-  text = "Sacred Fire. Hunters seek Incendia Agave at the Boiling Pool to prepare a sacred fire that can call Arikara from the canyons of Thousand Needles. Motega Firemane instructs hunters to prepare the sacred fire of life, an ancient flame that calls the spirit beast Arikara. The monstrous wind serpent cannot simply be tracked across the canyon floor; she must be drawn to the fire. The flame needs more than ordinary kindling. Rare Incendia Agave, which grows around the scalding waters of Thousand Needles, feeds it. Incendia Agave grows near the Boiling Pool, below Darkcloud Pinnacle. To gather the spiky plants, you brave blistering waters and steam elementals drifting through the mists. Many bushels grow beneath the surface, where the hot lake water tests every hunter sent to collect them.",
+  hash = "2ec53c",
+  fullHash = "2ec53c",
+  text = "Sacred Fire. At the Boiling Pool, hunters seek Incendia Agave for a sacred flame meant to call Arikara from the canyons of Thousand Needles. Motega Firemane asks you to prepare the sacred fire of life, an ancient flame that calls Arikara. The monstrous wind serpent cannot be tracked across the canyon floor. You must draw her to the fire instead. Ordinary kindling will not feed the flame. It needs rare Incendia Agave, which grows around the scalding waters of Thousand Needles. Incendia Agave grows near the Boiling Pool, below Darkcloud Pinnacle. You brave blistering waters and steam elementals drifting through the mists to gather its spiky leaves. Many bushels lie beneath the surface. The hot lake water tests every hunter sent to collect them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5062-804232d7d7e2f5c0a92d/1-0000.mp3", duration = 49.9983673, start = 0},
+    {file = "Audio/Transport/full_quest_5062-a4c84c9849c6b99603fd/1-0000.mp3", duration = 50.4685714, start = 0},
   },
 }
 P.transport["quest:5064"] = {
@@ -4242,11 +4242,11 @@ P.transport["quest:5064"] = {
   },
 }
 P.transport["quest:5088"] = {
-  hash = "da2a81",
-  fullHash = "da2a81",
-  text = "Arikara. Magatha Grimtotem sends a warning from Thunder Bluff: Arikara may be hunting High Chieftain Cairne Bloodhoof. She sends Horde adventurers to summon and slay the ancient wind serpent on the burial spires of Thousand Needles. Magatha Grimtotem enchants the refined Incendia powder, a reagent, to call Arikara. She warns that ancient tauren traditions have changed too quickly under the new Horde alliance, stirring the vengeance of the ferocious wind serpent spirit. Magatha sends you south to the canyon of Thousand Needles. She tells you to cast the powder onto a ritual pyre among the elevated burial sites of Darkcloud Pinnacle.",
+  hash = "97b1bf",
+  fullHash = "97b1bf",
+  text = "Arikara. From Thunder Bluff, Magatha Grimtotem warns that Arikara may be hunting High Chieftain Cairne Bloodhoof. She sends Horde adventurers to summon and slay the ancient wind serpent at the burial spires of Thousand Needles. Magatha Grimtotem enchants refined Incendia powder to call Arikara. She warns that ancient tauren traditions have changed too quickly under the new Horde alliance. Those changes, she says, stirred the vengeance of the ferocious wind serpent spirit. So she sends you south to the canyon of Thousand Needles. There, among the elevated burial sites of Darkcloud Pinnacle, you are to cast the powder onto a ritual pyre.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5088-a14250532b75a1720db8/1-0000.mp3", duration = 38.8179592, start = 0},
+    {file = "Audio/Transport/full_quest_5088-32d0f0609146b3c7e0c8/1-0000.mp3", duration = 40.3853061, start = 0},
   },
 }
 P.transport["quest:509"] = {
@@ -4258,11 +4258,11 @@ P.transport["quest:509"] = {
   },
 }
 P.transport["quest:513"] = {
-  hash = "fa2ab7",
-  fullHash = "fa2ab7",
-  text = "Elixir of Agony. In the Undercity, Lydon's freshly mashed Mudsnout Composite awaits refinement. Apothecary Lydon sends it from Tarren Mill to Master Apothecary Faranell, who must treat it with a colloid of decay as the Royal Apothecary Society develops a new plague for the Forsaken. The Royal Apothecary Society sends raw discoveries from its regional researchers to the Undercity for specialized refinement. In Tarren Mill, Apothecary Lydon has mashed local Mudsnout Blossoms into a composite. Only the capital's laboratory holds the advanced reagents needed to bring his work to lethal fruition. Master Apothecary Faranell works under pressure in the Apothecarium. The Scourge threatens from the north, while aggressive human populations press from the south. Lady Sylvanas Windrunner has demanded a potent new plague to defend the Forsaken. Lydon's composite could give Faranell the toxic breakthrough the Dark Lady expects.",
+  hash = "3b99a6",
+  fullHash = "3b99a6",
+  text = "Elixir of Agony. In the Undercity, the Elixir of Agony awaits its final treatment. Apothecary Lydon sends his freshly mashed Mudsnout Composite from Tarren Mill to Master Apothecary Faranell, who must add a colloid of decay. The Royal Apothecary Society is developing a new plague for the Forsaken. The Royal Apothecary Society sends discoveries from regional researchers to the Undercity for refinement. In Tarren Mill, Apothecary Lydon has mashed local Mudsnout Blossoms into a composite. Only the capital's laboratory has the advanced reagents needed to make his work lethal. Master Apothecary Faranell works under pressure in the Apothecarium. The Scourge threatens from the north, while aggressive human populations press from the south. Lady Sylvanas Windrunner has demanded a potent new plague to defend the Forsaken. Lydon's composite may give Faranell the toxic breakthrough the Dark Lady expects.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_513-bee403bfed4dfbc7b2c3/1-0000.mp3", duration = 58.644898, start = 0},
+    {file = "Audio/Transport/full_quest_513-d846e456fd83a38acc1d/1-0000.mp3", duration = 58.6710204, start = 0},
   },
 }
 P.transport["quest:5147"] = {
@@ -4274,11 +4274,11 @@ P.transport["quest:5147"] = {
   },
 }
 P.transport["quest:515"] = {
-  hash = "e952cc",
-  fullHash = "e952cc",
-  text = "Elixir of Agony. In the Undercity, Faranell prepares Lydon's mixture for a deadly purpose. The Royal Apothecary Society's new plague needs coastal reagents and alchemical draughts before the brew can be used. Apothecary Lydon sent his Mudsnout Blossom mixture from gnoll-held Nethander Stead to the Apothecarium in the Undercity. Master Apothecary Faranell, head of the Royal Apothecary Society, saw its grim potential at once. Pleased by its toxic properties, he added his own colloid of decay. Then he named the catalysts needed to make the mixture a weapon. Lydon must gather precise reagents in Tarren Mill to activate the mixture's contaminating agents. Faranell calls for a restorative draught of Strong Troll's Blood to feed and steady the chemical reaction. He also needs organic parts from Hillsbrad's southern shore: scales from the serpentine Daggerspine naga and eyes from the coastal Torn Fin murlocs.",
+  hash = "2e4c79",
+  fullHash = "2e4c79",
+  text = "Elixir of Agony. In the Undercity, Faranell prepares Lydon's mixture for a deadly purpose. The Royal Apothecary Society needs reagents from the coast and alchemical draughts to make its new plague ready. Apothecary Lydon sent his Mudsnout Blossom mixture from gnoll-held Nethander Stead to the Apothecarium in the Undercity. Master Apothecary Faranell leads the Royal Apothecary Society, and he saw the mixture's grim potential at once. Its toxic properties pleased him, so he added his own colloid of decay. Then he named the catalysts that could turn it into a weapon. To activate the mixture's contaminating agents, Lydon needs exact reagents in Tarren Mill. Faranell calls for a restorative draught of Strong Troll's Blood to feed and steady the chemical reaction. He also needs organic parts from Hillsbrad's southern shore: scales from the serpentine Daggerspine naga and eyes from the coastal Torn Fin murlocs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_515-0629350ff90145a61901/1-0000.mp3", duration = 56.3983673, start = 0},
+    {file = "Audio/Transport/full_quest_515-57defd3a4a11a762f809/1-0000.mp3", duration = 60.0293878, start = 0},
   },
 }
 P.transport["quest:5151"] = {
@@ -4290,11 +4290,11 @@ P.transport["quest:5151"] = {
   },
 }
 P.transport["quest:516"] = {
-  hash = "885416",
-  fullHash = "885416",
-  text = "Beren's Peril. Scourge gather in a hidden cave in southern Silverpine Forest, and Shadow Priest Allister moves to stop them. The Forsaken hope to strike before the undead can begin their offensive. Shadow Priest Allister hears that servants of the Lich King are gathering deep in southern Silverpine Forest. Their growing numbers threaten Forsaken operations across the region. Allister sends scouts to strike first and destroy the Scourge in their secluded lair before they can mobilize. A hidden cave cuts into the hills south of Ambermill, the Dalaran-aligned settlement. The rough slopes make the cavern easy to miss, and the approach lies around the hills’ southern face. Ravenclaw drudgers and guardians dwell inside, remnants of the Scourge whose destruction helps the Forsaken hold their ground in the forest.",
+  hash = "0e0d5c",
+  fullHash = "0e0d5c",
+  text = "Beren's Peril. In southern Silverpine Forest, Shadow Priest Allister moves against Scourge gathering in a hidden cave. The Forsaken hope to strike before the undead begin their offensive. Shadow Priest Allister has heard that servants of the Lich King gather deep in southern Silverpine Forest. Their growing numbers threaten Forsaken operations across the region. So Allister sends scouts to strike first and destroy the Scourge in their secluded lair before they can mobilize. South of Ambermill, the Dalaran-aligned settlement, a hidden cave cuts into the hills. Its rough slopes make the cavern easy to miss, and the approach runs around the hills’ southern face. Ravenclaw drudgers and guardians dwell within. Destroying these Scourge remnants helps the Forsaken hold their ground in the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_516-f5b210b67146c87f2635/1-0000.mp3", duration = 46.2628571, start = 0},
+    {file = "Audio/Transport/full_quest_516-cbaba1290d4dc5a0b241/1-0000.mp3", duration = 48.4310204, start = 0},
   },
 }
 P.transport["quest:517"] = {
@@ -4338,11 +4338,11 @@ P.transport["quest:529"] = {
   },
 }
 P.transport["quest:530"] = {
-  hash = "0d7a72",
-  fullHash = "0d7a72",
-  text = "A Husband's Revenge. In the Undercity, Raleigh Andrean sends you after the friend who murdered his wife. An engraved ring from Silverpine Forest brings Raleigh Andrean's mortal memories back to him. He remembers his close friend Valdred Moray, who murdered Raleigh's wife, Deliah. The Scourge's chill and undeath have dulled Raleigh's grief and love, but his thirst for revenge remains. You are sent to find Valdred.",
+  hash = "fa24ff",
+  fullHash = "fa24ff",
+  text = "A Husband's Revenge. In the Undercity, Raleigh Andrean sends you to hunt the man who murdered his wife. An engraved ring from Silverpine Forest stirs Raleigh Andrean's mortal memories. He recalls his close friend Valdred Moray, who murdered Raleigh's wife, Deliah. The Scourge's chill and undeath have dulled his grief and love. Yet his thirst for revenge remains, and you are sent to find Valdred.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_530-2b63b64f9d8b3e8a38c8/1-0000.mp3", duration = 25.2342857, start = 0},
+    {file = "Audio/Transport/full_quest_530-781cc6d3104b332e0d7b/1-0000.mp3", duration = 24.4767347, start = 0},
   },
 }
 P.transport["quest:532"] = {
@@ -4490,11 +4490,11 @@ P.transport["quest:55"] = {
   },
 }
 P.transport["quest:550"] = {
-  hash = "5c7c15",
-  fullHash = "5c7c15",
-  text = "Battle of Hillsbrad. At Hillsbrad, the Forsaken campaign has broken the human township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity. The fighting in Hillsbrad Foothills has been a brutal struggle for southern Lordaeron. From Tarren Mill, Horde champions struck at the township's farmers, militia, blacksmiths, and civic leaders. With Alliance forces crippled and the territory secured for the Forsaken, High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command. Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat, while surviving human enclaves still endanger the Forsaken's southern borders.",
+  hash = "54034b",
+  fullHash = "54034b",
+  text = "Battle of Hillsbrad. At Hillsbrad, the Forsaken have broken the township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity. Fierce fighting in Hillsbrad Foothills has decided the struggle for southern Lordaeron. From Tarren Mill, Horde champions struck the township's farmers, militia, blacksmiths, and civic leaders. Alliance forces are crippled, and the territory is secured for the Forsaken. Now High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command. Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat. Yet surviving human enclaves still endanger the Forsaken's southern borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_550-ba2b5e3bb01075fee074/1-0000.mp3", duration = 54.7004082, start = 0},
+    {file = "Audio/Transport/full_quest_550-cdd06dd7825379a5327b/1-0000.mp3", duration = 58.1485714, start = 0},
   },
 }
 P.transport["quest:5501"] = {
@@ -4626,11 +4626,11 @@ P.transport["quest:5643"] = {
   },
 }
 P.transport["quest:5644"] = {
-  hash = "d52a50",
-  fullHash = "d52a50",
-  text = "Devouring Plague. Across the sea, Devouring Plague awaits Forsaken priests who travel far from Lordaeron. Miles Welsh in Thunder Bluff sends the adept to Aelthalyste in the Ruins of Lordaeron, where a signature form of Shadow magic awaits. In Thunder Bluff, Miles Welsh judges Forsaken priests who have honed their divine and shadowy disciplines. Posted among the tauren, he recognizes when an acolyte has grown strong enough for higher mysteries. Miles directs them back to the Ruins of Lordaeron rather than attempt to impart those teachings himself in Kalimdor. Beneath the city ruins, Aelthalyste waits in the Undercity's War Quarter. One of the foremost mentors of the Forsaken priesthood, she watches over acolytes who weave shadow. The Devouring Plague drains its victim and carries a corruptive force. Aelthalyste entrusts it only to those able to wield that force without succumbing to it.",
+  hash = "9236f1",
+  fullHash = "9236f1",
+  text = "Devouring Plague. Across the sea from Lordaeron, Devouring Plague awaits Forsaken priests ready to learn its dark art. Miles Welsh in Thunder Bluff sends the adept to Aelthalyste in the Ruins of Lordaeron for this signature Shadow magic. In Thunder Bluff, Miles Welsh trains Forsaken priests among the tauren. He watches their divine and shadowy studies, and knows when an acolyte is ready for higher mysteries. Rather than teach those secrets himself in Kalimdor, Miles sends the worthy back to the Ruins of Lordaeron. Aelthalyste waits beneath the city ruins in the Undercity's War Quarter. She is one of the foremost mentors of the Forsaken priesthood, guiding acolytes who weave shadow. Devouring Plague drains its victim and carries a corruptive force. Aelthalyste teaches it only to those able to wield that force without succumbing.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5644-1d893e4b68138f56f901/1-0000.mp3", duration = 54.0212245, start = 0},
+    {file = "Audio/Transport/full_quest_5644-2f008c19c689f5a612ba/1-0000.mp3", duration = 54.1518367, start = 0},
   },
 }
 P.transport["quest:5645"] = {
@@ -4706,11 +4706,11 @@ P.transport["quest:5678"] = {
   },
 }
 P.transport["quest:5679"] = {
-  hash = "fe1e73",
-  fullHash = "fe1e73",
-  text = "Devouring Plague. Forsaken priests in the Undercity learn Devouring Plague from Priestess Aelthalyste. The rite is for those who have proven their dedication to shadow magic, and teaches a feared curse of the undead priesthood. In the Undercity’s War Quarter, Priestess Aelthalyste teaches Forsaken priests the grim arts of the Shadow. Priests of other races draw power from the Holy Light or ancestral spirits, but the Forsaken have shaped their own spiritual doctrines. Devouring Plague gives form to that path: it torments foes and drains their stolen vitality to sustain the caster’s decaying body. Priestess Aelthalyste shares the plague’s power only with care. The spell is a weapon of potent malice, meant to turn the tide against the Scourge and the Scarlet Crusade. As she teaches it, she warns her disciples to practice until their command is sure. Greater trials await those who seek mastery of the dark arts.",
+  hash = "8fdaa4",
+  fullHash = "8fdaa4",
+  text = "Devouring Plague. In the Undercity, Devouring Plague marks the shadow path of Forsaken priests. Priestess Aelthalyste teaches the rite to those who have proven their dedication to shadow magic. In the Undercity’s War Quarter, Priestess Aelthalyste teaches Forsaken priests the grim arts of the Shadow. Priests of other races draw on the Holy Light or ancestral spirits, while the Forsaken have shaped their own spiritual doctrines. Devouring Plague gives that path a fearsome form. It torments foes and drains their stolen vitality to sustain the caster’s decaying body. Priestess Aelthalyste shares the plague’s power with care. This potent weapon is meant to turn the tide against the Scourge and the Scarlet Crusade. She warns her disciples to practice until their command is sure. Greater trials await those who seek mastery of the dark arts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5679-ef639c7d05dd092815c6/1-0000.mp3", duration = 58.0179592, start = 0},
+    {file = "Audio/Transport/full_quest_5679-a435a15c6bb909a73e94/1-0000.mp3", duration = 51.8008163, start = 0},
   },
 }
 P.transport["quest:568"] = {
@@ -5658,11 +5658,11 @@ P.transport["quest:741"] = {
   },
 }
 P.transport["quest:742"] = {
-  hash = "439b71",
-  fullHash = "439b71",
-  text = "The Ashenvale Hunt. In Thunder Bluff, the Ashenvale Hunt calls young Horde champions north to serve at the forest outposts. Heralds direct them to report to Senani Thunderheart at Splintertree Post for a proving hunt. Bluff Runner Windstrider carries an open invitation through Thunder Bluff for proven adventurers. The Horde has established footholds in the ancient forest north of the Barrens, and its outposts need young warriors. Those who answer will face a harsher land and test their survival skills beyond Mulgore. Ashenvale offers the Horde rich resources and severe peril. Splintertree Post stands along the main road, while a remote outpost lies on the western coast at Zoram Strand. At Splintertree Post, Senani Thunderheart, a veteran outdoorswoman, organizes a great hunt to tame the wilderness and win glory for the Horde.",
+  hash = "192eb3",
+  fullHash = "192eb3",
+  text = "The Ashenvale Hunt. In Thunder Bluff, The Ashenvale Hunt sends young Horde champions north to serve at the forest outposts. Heralds direct them to report to Senani Thunderheart at Splintertree Post for a proving hunt. Bluff Runner Windstrider carries an open invitation through Thunder Bluff for proven adventurers. North of the Barrens, the Horde has footholds in an ancient forest, and its outposts need young warriors. Those who answer will face harsher country and test their survival skills beyond Mulgore. Ashenvale offers the Horde rich resources and severe peril. Splintertree Post lies along the main road, while a remote outpost stands on the western coast at Zoram Strand. At Splintertree Post, Senani Thunderheart is a veteran outdoorswoman who organizes a great hunt. There, recruits tame the wilderness and win glory for the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_742-95c4dd494cd4a55ce9a1/1-0000.mp3", duration = 51.1216327, start = 0},
+    {file = "Audio/Transport/full_quest_742-125d729acfcd6f3371c5/1-0000.mp3", duration = 52.4016327, start = 0},
   },
 }
 P.transport["quest:744"] = {
@@ -6474,11 +6474,11 @@ P.transport["quest:91777"] = {
   },
 }
 P.transport["quest:91859"] = {
-  hash = "899e6e",
-  fullHash = "899e6e",
-  text = "A Curious Pair. In the Sepulcher, Trevan Rol spots an unusual pair passing through Silverpine Forest. The tauren and high elf travel under the Earthen Ring's banner, a rare sight in Horde territory that draws suspicion. Trevan Rol sees two travelers claiming to represent the Earthen Ring pass along the road by the Sepulcher. The outpost is a grim waystation where strangers, especially those on diplomatic business, draw close scrutiny. A tauren traveling under the shamanic order's banner raises little surprise. His cloaked companion is another matter: the scout recognizes an unmistakable high elf, a sight that strikes the Forsaken as exceedingly strange. A high elf traveling openly beside a member of the Horde's shamanic circles raises questions among the Forsaken sentries. The Earthen Ring concerns itself with the balance of the elements, and high elves are rarely seen in Lordaeron, much less as companions to tauren envoys. To learn where the pair went and what business brought them to the forest, you are directed to Deathguard Baldren at the edge of town.",
+  hash = "7595ff",
+  fullHash = "7595ff",
+  text = "A Curious Pair. In the Sepulcher, Trevan Rol watches a rare pair travel through Silverpine Forest. The tauren and high elf carry the Earthen Ring's banner, and their presence draws the Forsaken's suspicion. Trevan Rol sees two travelers claiming to represent the Earthen Ring on the road by the Sepulcher. The outpost is a grim waystation where strangers receive close scrutiny, especially when they come on diplomatic business. A tauren beneath the shamanic order's banner draws little surprise. His cloaked companion is another matter. The scout recognizes an unmistakable high elf, a sight the Forsaken find exceedingly strange. A high elf openly traveling beside a member of the Horde's shamanic circles raises questions among the Forsaken sentries. The Earthen Ring attends to the balance of the elements, and high elves are rarely seen in Lordaeron, much less beside tauren envoys. To learn where the pair went and what brought them to the forest, you are directed to Deathguard Baldren at the edge of town.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_91859-932fa5eeafc9da5345d1/1-0000.mp3", duration = 62.3804082, start = 0},
+    {file = "Audio/Transport/full_quest_91859-ad61177a3fe8ada46605/1-0000.mp3", duration = 62.6155102, start = 0},
   },
 }
 P.transport["quest:91899"] = {
@@ -9314,11 +9314,11 @@ P.transport["quest:98341"] = {
   },
 }
 P.transport["quest:98362"] = {
-  hash = "ae3abf",
-  fullHash = "ae3abf",
-  text = "To Thunder Bluff. After communion in Moonglade, a young tauren druid makes a triumphant return to Thunder Bluff. Having earned the Great Cat Spirit's favor, the initiate goes to Turak Runetotem on the Elder Rise to master feline shapeshifting. You return to Mulgore after meeting Dendrite Starblaze and the Great Cat Spirit in Moonglade's sacred groves. The communion joins ancient night elven teachings with the tauren's earthen heritage, marking a pivotal milestone in a druid's training. Turak Runetotem awaits you atop the Elder Rise in Thunder Bluff. Dendrite guided your communion with the Great Cat Spirit; Turak now teaches the physical change. With the spirit's blessing acknowledged, the elder trainer shares the knowledge to take the cat's swift, predatory shape.",
+  hash = "fbb518",
+  fullHash = "fbb518",
+  text = "To Thunder Bluff. Back in Thunder Bluff, a young tauren druid returns in triumph after communion in Moonglade. The Great Cat Spirit has favored the initiate, who now seeks Turak Runetotem on the Elder Rise to master feline shapeshifting. You return to Mulgore after meeting dendrite starblaze and the great cat spirit in Moonglade's sacred groves. The communion joins ancient night elven teachings with the tauren's earthen heritage. It marks a pivotal milestone in a druid's training. Turak Runetotem awaits you atop the Elder Rise in Thunder Bluff. dendrite starblaze guided your communion with the great cat spirit, and Turak now teaches the physical change. With the spirit's blessing acknowledged, the elder trainer shows you how to take the cat's swift, predatory shape.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98362-822f4d6a4c0984baf7b3/1-0000.mp3", duration = 47.9346939, start = 0},
+    {file = "Audio/Transport/full_quest_98362-26f5defa390b6f2950d5/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
 P.transport["quest:98372"] = {

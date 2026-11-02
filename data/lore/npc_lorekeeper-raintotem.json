@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Watcher of Red Rocks",
-   "body": "Lorekeeper Raintotem tends his people’s sacred burial grounds near Red Rocks in Mulgore. Bristleback Interlopers disturb the resting place, and he asks travelers to drive them away so the ancestors may rest in peace.",
+   "body": "Near Red Rocks in Mulgore, Lorekeeper Raintotem tends his people’s sacred burial grounds. Bristleback Interlopers disturb the resting place. He asks travelers to drive them away so the ancestors may rest in peace.",
    "spoiler": 0
   },
   {
    "title": "Defender of Ancestral Grounds",
-   "body": "Lorekeeper Raintotem watches over the burial sites at Red Rocks. Bristleback quilboar disturb the resting places of tauren chieftains and shamans. Raintotem calls on travelers to restore quiet and dignity to the grounds and their dead.",
+   "body": "At Red Rocks, Lorekeeper Raintotem watches over the burial sites. Bristleback quilboar disturb the resting places of tauren chieftains and shamans. Raintotem calls on travelers to restore quiet and dignity to the grounds and their dead.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, helping Raintotem guard Red Rocks serves your duty to the restless dead, ensuring ancestral spirits receive peace and reverence."
+   "text": "As a shaman, helping Raintotem guard Red Rocks serves your duty to the restless dead, so ancestral spirits receive peace and reverence."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Lorekeeper Raintotem"
  ],
- "style": 1
+ "style": 2
 }

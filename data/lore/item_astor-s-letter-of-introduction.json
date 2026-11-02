@@ -11,16 +11,16 @@
    "quest:1898"
   ]
  },
- "summary": "Astor Hadren carries a letter between Silverpine Forest and the Undercity. Deathstalkers use it to pose as the courier and investigate Andron Gant, a shopkeeper suspected of leaking Forsaken intelligence.",
+ "summary": "Astor Hadren carries a letter between Silverpine Forest and the Undercity. Deathstalkers use it to investigate Andron Gant, a shopkeeper Lord Varimathras suspects of leaking Forsaken intelligence.",
  "sections": [
   {
    "title": "A Courier's Credentials",
-   "body": "Astor Hadren carries messages between Silverpine Forest and the Undercity. His letter of introduction gives its bearer credentials with illicit contacts in the city. Mennet Carkad, a Deathstalker handler, needs to investigate suspicious leaks in the Undercity, and Astor's travels make him a target. An operative can eliminate Astor and take his papers, then assume his identity and intercept the covert messages meant for him.",
+   "body": "Astor Hadren carries messages between Silverpine Forest and the Undercity. His letter gives its bearer credentials with illicit contacts in the city. Mennet Carkad, a Deathstalker handler, needs to investigate suspicious leaks there. Astor's travels make him a target. An operative can kill him and take his papers, then assume his identity and intercept the covert messages meant for him.",
    "spoiler": 0
   },
   {
    "title": "The Sting at the Apothecarium",
-   "body": "Mennet Carkad uses the recovered letter to deceive Andron Gant, a shopkeeper near the Apothecarium. Lord Varimathras suspects Gant of leaking Forsaken intelligence to an unknown third party. An undercover operative presents the letter as the expected contact. Gant trusts the bearer, giving the operative a chance to learn who his conspirators are and find proof of his treason.",
+   "body": "Mennet Carkad uses the recovered letter to approach Andron Gant, a shopkeeper near the Apothecarium. Lord Varimathras suspects Gant of leaking Forsaken intelligence to an unknown third party. An undercover operative presents the letter as the expected contact. Gant trusts the bearer, giving the operative a chance to learn who his conspirators are and find proof of his treason.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "what does the letter do",
     "astors letter use"
    ],
-   "answer": "Mennet Carkad uses Astor's letter to fool the shopkeeper Andron Gant. The bearer poses as courier Astor Hadren to uncover Gant's secret dealings."
+   "answer": "Mennet Carkad uses Astor's letter to fool Andron Gant, a shopkeeper. The bearer poses as courier Astor Hadren to uncover Gant's secret dealings."
   },
   {
    "q": "Who was Astor Hadren?",
@@ -49,7 +49,7 @@
     "why does mennet need it",
     "carkad's plan"
    ],
-   "answer": "Mennet Carkad needs the letter to test recruits seeking to join the Deathstalkers and to run a sting against Andron Gant, whom Lord Varimathras suspects of treason."
+   "answer": "Mennet Carkad needs the letter to test recruits seeking to join the Deathstalkers and run a sting against Andron Gant. Lord Varimathras suspects Gant of treason."
   },
   {
    "q": "Does Andron Gant suspect the letter is stolen?",
@@ -57,7 +57,7 @@
     "does gant notice",
     "does andron get tricked"
    ],
-   "answer": "No. Mennet says Gant lacks the wit to suspect foul play, and Gant accepts the bearer as the regular messenger sent by his conspirators."
+   "answer": "No. Mennet says Gant lacks the wit to suspect foul play. Gant accepts the bearer as the regular messenger sent by his conspirators."
   }
  ],
  "angles": [
@@ -94,5 +94,5 @@
   "The Deathstalkers",
   "The Deathstalkers (2)"
  ],
- "style": 1
+ "style": 2
 }

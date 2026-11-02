@@ -33,7 +33,7 @@ FRAGMENTS = ROOT / "changelog.d"   # one PR's notes per file (changelog.d/README
 HEADING = re.compile(r"^## (Unreleased|\d+\.\d+\.\d+)\b.*$", re.M)
 BEGIN, END = "<!-- changelog:begin", "<!-- changelog:end -->"
 WN_BEGIN, WN_END = "<!-- whatsnew:begin", "<!-- whatsnew:end -->"   # whats-new.html
-NB_BEGIN, NB_END = "<!-- newbar:begin", "<!-- newbar:end -->"       # index.html, under the header
+NB_BEGIN, NB_END = "<!-- newbar:begin", "<!-- newbar:end -->"       # index.html, under the cover and the book
 LATEST = re.compile(r'(const LATEST = ")[^"]*(";\s*// changelog)')   # header.js
 DATED = re.compile(r"^## (\d+\.\d+\.\d+) \((\d{4})-(\d{2})-(\d{2})\)", re.M)
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",

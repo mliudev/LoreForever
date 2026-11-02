@@ -7,6 +7,24 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.36.0 (2026-11-02)
+
+- **Stories, retold and told once:** more rewritten places, people and quests are read aloud in both narrators' voices, and Listen starts where a story begins instead of repeating its summary first.
+
+- **The other narrator fills in:** a story your narrator hasn't recorded yet plays in the other narrator's voice instead of showing as text.
+
+- **Dwarf quest givers have a new voice:** a hearty mountaineer reads over 1,000 dwarf quest lines, and quest givers say your race and class again.
+
+- **Willo knows WoW Forever at launch:** its spells, talents, items, quests and racials, like Ruthless for humans.
+
+- **Willo's ways, free on every plan:** choose her manner, how vividly she tells things and how much she says, or just ask her to keep it short.
+
+- **Willo sounds better:** she reads every answer all the way through, her voice holds up when a voice service is slow, and on a Mac it no longer crackles.
+
+- **Translations stay whole:** no English mixed in, in German, French, Portuguese, Swedish, Italian, Russian, Ukrainian or Romanian. A Russian, Ukrainian or Romanian story shows once it's translated.
+
+- **Fixes:** 13 lore entries corrected, reports and shared text say which version of WoW they came from, and the website and lore page read better on phones.
+
 ## 0.35.0 (2026-11-01)
 
 - **The lore, retold:** the stories of the starting lands and the zones after them are rewritten and read anew in both narrators' voices, and a story no longer opens by repeating its summary. More zones follow.

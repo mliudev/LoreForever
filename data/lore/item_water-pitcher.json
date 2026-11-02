@@ -10,11 +10,11 @@
    "quest:753"
   ]
  },
- "summary": "At Red Cloud Mesa, Water Pitcher carries fresh spring water from the local well to Camp Narache. Greatmother Hawkwind asks young tauren to bring it back as a lesson in humility, service, and respect for tribal elders.",
+ "summary": "At Red Cloud Mesa, Water Pitcher carries fresh well water to Camp Narache. Greatmother Hawkwind asks young tauren to bring it back and learn humility, service, and respect for tribal elders.",
  "sections": [
   {
    "title": "A Lesson in Humility",
-   "body": "Water Pitcher rests beside the well southeast of Camp Narache. Greatmother Hawkwind asks a novice to fill it and carry it to Chief Hawkwind. The chore tests their character and teaches young braves that no duty is beneath a tribal protector. Caring for the everyday needs of their kin matters as much as wielding a weapon on the hunt.",
+   "body": "Water Pitcher rests beside the well southeast of Camp Narache. Greatmother Hawkwind asks a novice to fill it and carry it to Chief Hawkwind. The chore tests their character and teaches young braves that no duty is beneath a tribal protector. Tending to their kin’s everyday needs matters as much as bearing a weapon on the hunt.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why carry water pitcher",
     "humble task pitcher"
    ],
-   "answer": "Water Pitcher carries fresh well water back to Camp Narache. Hauling it across the plains tests a young adventurer’s willingness to do everyday labor for the good of the tribe."
+   "answer": "Water Pitcher carries fresh water from the well to Camp Narache. Carrying it across the plains tests a young traveler’s willingness to do everyday work for the tribe."
   },
   {
    "q": "Where do you find the water pitcher?",
@@ -35,7 +35,7 @@
     "where is water pitcher",
     "find pitcher mulgore"
    ],
-   "answer": "You find Water Pitcher beside the well southeast of Camp Narache on Red Cloud Mesa, near where Greatmother Hawkwind tends to her tasks."
+   "answer": "You find Water Pitcher beside the well southeast of Camp Narache on Red Cloud Mesa. Greatmother Hawkwind tends to her tasks nearby."
   },
   {
    "q": "Who asks you to fetch the water pitcher?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren coming of age on Red Cloud Mesa, carrying Water Pitcher is an early lesson: honoring elders and helping the community are foundations of strength."
+   "text": "As a young tauren coming of age on Red Cloud Mesa, carrying Water Pitcher teaches you to honor elders and help your community. Both are foundations of strength."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
   "Water Pitcher",
   "A Humble Task (2)"
  ],
- "style": 1
+ "style": 2
 }

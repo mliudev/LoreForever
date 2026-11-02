@@ -17,16 +17,16 @@
   "wiki": "Glyphic Scroll (quest)",
   "chain": []
  },
- "summary": "In Deathknell, Isabella summons newly awakened Forsaken mages to her in the ruined church. Her sealed scroll calls them to hone their volatile arcane powers.",
+ "summary": "In Deathknell, Isabella calls newly awakened Forsaken mages to the ruined church. Her sealed scroll bids them to hone their volatile arcane powers.",
  "sections": [
   {
    "title": "A Summons to the Arcane",
-   "body": "Isabella calls newly awakened Forsaken mages to the ruined church in Deathknell. After you show an affinity for arcane magic while fighting the mindless Scourge nearby, the scroll bearing her arcane sigil bids you to report to her. Isabella trains local mages, and she knows that untrained magic can endanger the Forsaken as much as their enemies.",
+   "body": "Isabella calls newly awakened Forsaken mages to the ruined church in Deathknell. Nearby, you show an affinity for arcane magic while fighting the mindless Scourge. Then a scroll bearing her arcane sigil bids you to report to her. Isabella trains local mages and knows untrained magic can endanger the Forsaken as much as their enemies.",
    "spoiler": 0
   },
   {
    "title": "Wielding Magic in Undeath",
-   "body": "In Deathknell’s ruined chapel, Isabella teaches new Forsaken mages that undeath has not ended the dangers of arcane magic. Their bodies have lost the frailties of life, but magic remains volatile and corrupting. For the Forsaken, mastering the arcane is more than study. It can help them survive, seek vengeance, reclaim their destiny, and destroy those who threaten their fragile return to Lordaeron.",
+   "body": "In Deathknell’s ruined chapel, Isabella teaches new Forsaken mages that undeath has not ended the dangers of arcane magic. Their bodies have lost life’s frailties, yet magic remains volatile and corrupting. Mastering the arcane takes more than study. It can help the Forsaken survive, seek vengeance, reclaim their destiny, and destroy those who threaten their fragile return to Lordaeron.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this scroll",
     "deathknell scroll"
    ],
-   "answer": "The Glyphic Scroll bears Isabella’s personal seal and calls newly awakened Forsaken mages to report to her in Deathknell’s ruined church to advance their arcane studies."
+   "answer": "The Glyphic Scroll bears Isabella’s personal seal and calls newly awakened Forsaken mages to report to her in Deathknell’s ruined church, where they can advance their arcane studies."
   },
   {
    "q": "Who sends the Glyphic Scroll to you?",
@@ -56,7 +56,7 @@
     "find isabella",
     "deathknell mage trainer location"
    ],
-   "answer": "Isabella is inside the ruined village church in the center of Deathknell, alongside other trainers who guide newly risen Forsaken."
+   "answer": "Isabella is inside the ruined village church at the center of Deathknell, alongside other trainers who guide newly risen Forsaken."
   },
   {
    "q": "Why does Isabella warn you about magical corruption?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a Mage, you receive this scroll as your summons to Isabella. Your magic serves the survival and resurgence of your newly freed people."
+   "text": "As a Mage, you receive this scroll as your summons to Isabella. Your magic helps your newly freed people survive and rise again."
   },
   {
    "target": "race:Undead",
@@ -112,5 +112,5 @@
  "attribution": [
   "Glyphic Scroll (quest)"
  ],
- "style": 1
+ "style": 2
 }

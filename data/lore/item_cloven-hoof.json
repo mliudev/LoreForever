@@ -10,11 +10,11 @@
    "quest:1197"
   ]
  },
- "summary": "Deep in Thousand Needles, the Galak centaur guard the Cloven Hoof within a sacred flame at Splithoof Hold. Tauren scholars seek to understand the strange energy rising from the relic.",
+ "summary": "Deep in Thousand Needles, the Galak centaur guard the Cloven Hoof at Splithoof Hold. Tauren scholars at Freewind Post seek to learn what its strange energy reveals.",
  "sections": [
   {
    "title": "A Sacred Centaur Relic",
-   "body": "At the heart of Splithoof Hold, the Galak centaur keep the Cloven Hoof in an ancient brazier. Magical fire surrounds the relic, and blessed water must quench the flame for a moment before anyone can handle it. The centaur clans are divided and violent, yet their care for the brazier points to a ritual bound to their origins. At Freewind Post, Rau Cliffrunner and other tauren observers hope the strange aura of the hoof will teach them about the centaur who have long troubled Kalimdor's plains.",
+   "body": "At Splithoof Hold, the Galak centaur keep the Cloven Hoof in an ancient brazier. Magical fire surrounds it, and blessed water must quench the flame briefly before anyone can handle the relic. The centaur clans are divided and violent, yet their care for the brazier points to a ritual bound to their origins.\n\nAt Freewind Post, Rau Cliffrunner and other tauren observers hope the hoof's strange aura will teach them about the centaur who have long troubled Kalimdor's plains.",
    "spoiler": 0
   }
  ],
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For generations, the nomadic tauren have endured relentless centaur aggression. Learning the origins and magic of relics like the Cloven Hoof could offer knowledge of their old adversaries."
+   "text": "For generations, the nomadic tauren have endured relentless centaur aggression. Learning the origins and magic of relics like the Cloven Hoof could teach you about their old adversaries."
   },
   {
    "target": "class:Shaman",
-   "text": "Ritual elements can briefly quench magical flames and let the Cloven Hoof be retrieved. Such work calls for careful spiritual study in Kalimdor."
+   "text": "Ritual elements can briefly quench magical flames and let you retrieve the Cloven Hoof. Such work calls for careful spiritual study in Kalimdor."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Cloven Hoof",
   "The Sacred Flame (3)"
  ],
- "style": 1
+ "style": 2
 }

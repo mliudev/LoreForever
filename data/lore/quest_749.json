@@ -17,16 +17,16 @@
   "wiki": "The Ravaged Caravan (Horde) (1)",
   "chain": []
  },
- "summary": "Near Stonebull Lake, The Ravaged Caravan still draws Venture Company salvagers. Morin Cloudstalker sends travelers to inspect the wreckage after tauren warriors burned the convoy in retribution for lost companions. Intact crates reveal the industrial scale of Venture Company operations in Mulgore.",
+ "summary": "Near Stonebull Lake, The Ravaged Caravan still draws Venture Company salvagers. Tauren warriors burned the convoy after losing companions in a skirmish. Intact crates show the scale of Venture Company operations in Mulgore.",
  "sections": [
   {
    "title": "Retribution by the Lake",
-   "body": "Tauren warriors burned a Venture Company convoy after an earlier skirmish cost them two companions. Morin Cloudstalker and his warriors struck swiftly, then torched the wagons to drive out the armed intruders. They left the smoking wreckage, believing the fire would consume whatever the goblins had come to haul.",
+   "body": "Tauren warriors burned a Venture Company convoy after an earlier skirmish cost them two companions. Morin Cloudstalker and his warriors struck swiftly, then set the wagons alight to drive out the armed intruders. They left the wreckage behind, believing the fire would consume whatever the goblins had come to haul.",
    "spoiler": 0
   },
   {
    "title": "Unfinished Business",
-   "body": "Venture Company salvagers returned to the blackened wreckage, suggesting the fire had failed to destroy the most crucial cargo. Morin now sends scouts to inspect the remains rather than risk more lives blindly. Intact crates among the soot-stained debris bear the Venture Company Mining Division insignia. They are packed for shipment to central processing facilities.",
+   "body": "Venture Company salvagers have returned to the blackened wreckage, suggesting the fire failed to destroy all the cargo. Morin sends scouts to inspect the remains rather than risk more lives blindly. Intact crates among the soot-stained debris bear the Venture Company Mining Division insignia. They are packed for shipment to central processing facilities.",
    "spoiler": 0
   }
  ],
@@ -117,5 +117,5 @@
  "attribution": [
   "The Ravaged Caravan (Horde) (1)"
  ],
- "style": 1
+ "style": 2
 }

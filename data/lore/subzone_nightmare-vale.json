@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Nightmare Vale"
  },
- "summary": "Twisted trees and hungry beasts crowd Nightmare Vale in southwestern Tirisfal Glades, west of the Crusader's Outpost. Once a forest haven, it now lies blighted and withered.",
+ "summary": "In southwestern Tirisfal Glades, Nightmare Vale lies west of the Crusader's Outpost beneath twisted trees and among hungry beasts. Once a forest haven, it now lies blighted and withered.",
  "sections": [
   {
    "title": "A Decayed Wilderness",
-   "body": "Before the Third War, songbirds and woodland game filled this valley in the Tirisfal countryside. After the Scourge's plague, its plants blackened and rotted. Ravenous darkhounds and massive vampire bats consumed the native wildlife, leaving the hollow to scavengers and beasts of prey.",
+   "body": "Before the Third War, songbirds and woodland game filled this valley in the Tirisfal countryside. Then the Scourge's plague blackened and rotted its plants. Ravenous darkhounds and massive vampire bats consumed the native wildlife, leaving the hollow to scavengers and beasts of prey.",
    "spoiler": 0
   },
   {
@@ -80,5 +80,5 @@
  "attribution": [
   "Nightmare Vale"
  ],
- "style": 1
+ "style": 2
 }

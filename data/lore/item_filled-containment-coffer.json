@@ -10,16 +10,16 @@
    "quest:1960"
   ]
  },
- "summary": "In the Undercity, Forsaken spellcasters use Filled Containment Coffers to capture erratic magical entities. A Cantation of Manifestation reveals and weakens rift spawn in the Apothecarium, so mages can seal them inside for examination.",
+ "summary": "In the Undercity, Forsaken spellcasters trap erratic magical entities for study. A Cantation of Manifestation reveals and weakens rift spawn in the Apothecarium, letting mages seal them inside coffers.",
  "sections": [
   {
    "title": "Trapping the Unseen",
-   "body": "Magical disturbances have appeared in Algernon's shop in the Apothecarium. The Forsaken mage Anastasia Hartwell has called on arcane practitioners to capture the entities behind them. Rift creatures are living magical energy and cannot be seen, so ordinary cages cannot hold them. Spellcasters reveal them with a Cantation of Manifestation, defeat them in combat, and snap prepared coffers shut around them. The sealed boxes protect their carriers from volatile magical backlashes and keep the creatures intact for magical dissection.",
+   "body": "Magical disturbances trouble Algernon's shop in the Apothecarium. Forsaken mage Anastasia Hartwell has called on arcane practitioners to capture the entities behind them. Rift creatures are living magical energy, invisible to the eye, and ordinary cages cannot hold them.\n\nSpellcasters reveal the creatures with a Cantation of Manifestation, defeat them in combat, then snap prepared coffers shut around them. The sealed boxes shield their carriers from volatile magical backlashes and keep the creatures intact for magical dissection.",
    "spoiler": 0
   },
   {
    "title": "Arcane Forensics",
-   "body": "Living mana creatures in the Undercity pose a serious threat. Once sealed inside containment coffers, the beasts are carried to Anastasia Hartwell and the city's scholars. Forsaken mages seek to learn whether the intrusions come from natural rifts in Azeroth's magical fabric or are preliminary probes in a calculated magical assault on the kingdom.",
+   "body": "Living mana creatures pose a serious threat in the Undercity. Once sealed inside containment coffers, the beasts are carried to Anastasia Hartwell and the city's scholars. Forsaken mages seek to learn whether the intrusions come from natural rifts in Azeroth's magical fabric or from preliminary probes in a calculated magical assault on the kingdom.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "how do i capture the rift spawn",
     "filling coffer"
    ],
-   "answer": "A mage reads the Cantation of Manifestation to reveal the hidden creatures, defeats them in combat, then uses an empty coffer to trap the remaining energy before it dissipates."
+   "answer": "A mage reads the Cantation of Manifestation to reveal the hidden creatures, then defeats them in combat. The mage traps the remaining energy in an empty coffer before it dissipates."
   },
   {
    "q": "Who wants these filled coffers in Undercity?",
@@ -57,7 +57,7 @@
     "why study rift spawn",
     "undercity rift reason"
    ],
-   "answer": "Undercity's scholars need to learn whether the anomaly came from a random tear in the local flow of magic or a deliberate, coordinated attack by a hostile magical force."
+   "answer": "Undercity's scholars seek to learn whether the anomaly came from a random tear in the local flow of magic or a deliberate, coordinated attack by a hostile magical force."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
   "Filled Containment Coffer",
   "Investigate the Alchemist Shop"
  ],
- "style": 1
+ "style": 2
 }

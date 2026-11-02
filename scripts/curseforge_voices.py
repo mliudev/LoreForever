@@ -622,8 +622,10 @@ def upload(project: dict, zip_path: Path, meta: dict, headers: Path) -> int:
 
 
 def newest_release() -> str | None:
-    rows = json.loads(run(["gh", "release", "list", "--limit", "100", "--json", "tagName,isDraft"]).stdout)
-    tags = [r["tagName"] for r in rows if not r["isDraft"] and RELEASE_TAG.match(r["tagName"])]
+    rows = json.loads(run(["gh", "release", "list", "--limit", "100", "--json", "tagName,name,isDraft"]).stdout)
+    # The add-on's releases only: a Willo-only one ("Willo X.Y.Z", v0.31.1-v0.34.0) has no packs to upload.
+    tags = [r["tagName"] for r in rows if not r["isDraft"] and RELEASE_TAG.match(r["tagName"])
+            and not str(r.get("name") or "").startswith("Willo")]
     return max(tags, key=lambda t: tuple(int(x) for x in RELEASE_TAG.match(t).groups()), default=None)
 
 

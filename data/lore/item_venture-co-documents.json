@@ -10,11 +10,11 @@
    "quest:751"
   ]
  },
- "summary": "In eastern Mulgore, Venture Co. Documents confirm illegal strip-mining in tauren lands. The papers were recovered from a crate amid a ruined caravan and detail the company's operations.",
+ "summary": "In eastern Mulgore, Venture Co. Documents expose the company's illegal mining in tauren lands. Recovered from a crate in a ruined caravan, the papers record its operations.",
  "sections": [
   {
    "title": "Evidence of Exploitation",
-   "body": "Venture Co. Documents were found atop mined ore in a ransacked wagon. The ledgers show the goblin-led cartel has quietly established drilling and mining outposts in Mulgore's eastern foothills. Across Kalimdor, the Venture Company is known for ruthless deforestation and uncontrolled excavation. Morin Cloudstalker and the tauren Outrunners use the seized records to judge the threat to their sacred ancestral plains and rally hunters to drive out the trespassers.",
+   "body": "Venture Co. Documents lay atop mined ore in a ransacked wagon. Their ledgers show that the goblin-led cartel has set up drilling and mining outposts in Mulgore's eastern foothills. Across Kalimdor, the Venture Company is known for ruthless deforestation and uncontrolled excavation. Morin Cloudstalker and the tauren Outrunners study the seized records to judge the threat to their sacred ancestral plains and rally hunters against the trespassers.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what are venture documents",
     "what is written in documents"
    ],
-   "answer": "The papers detail the Venture Company's mining and extraction in eastern Mulgore. They reveal the goblin enterprise is harvesting and carrying away the region's mineral wealth."
+   "answer": "The papers detail the Venture Company's mining and extraction in eastern Mulgore. They show the goblin enterprise harvesting and carrying away the region's mineral wealth."
   },
   {
    "q": "Where were these documents discovered?",
@@ -35,7 +35,7 @@
     "venture documents location",
     "ravaged caravan crate"
    ],
-   "answer": "The papers were found in a sealed Venture Company crate amid a ransacked wagon's wreckage at the Ravaged Caravan site, east of Bloodhoof Village."
+   "answer": "The papers were found in a sealed Venture Company crate among the wreckage of a ransacked wagon at the Ravaged Caravan site, east of Bloodhoof Village."
   },
   {
    "q": "Who needs to see these papers?",
@@ -53,17 +53,17 @@
     "venture co mulgore goal",
     "why venture co digging"
    ],
-   "answer": "The Venture Company mines for profit, seeking rich mineral veins and untamed territories to strip of valuable ores. It has zero regard for native treaties, spiritual customs, or the environment."
+   "answer": "The Venture Company mines for profit, seeking rich mineral veins and untamed territories to strip of valuable ore. It has no regard for native treaties, spiritual customs, or the environment."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you know goblin machinery defiles the Earth Mother's sacred earth. These papers help the elders confirm the desecration's extent and launch retaliatory strikes."
+   "text": "As a tauren, you know goblin machinery defiles the Earth Mother's sacred earth. These papers help the elders confirm the extent of the desecration and launch retaliatory strikes."
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can see why the raw mineral samples packed beside the papers matter: they show that the foothills hold rich, untapped veins ripe for excavation."
+   "text": "As a miner, you can see why the raw mineral samples packed beside the papers matter. They show that the foothills hold rich, untapped veins ripe for excavation."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Venture Co. Documents",
   "The Ravaged Caravan (Horde) (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -618,6 +618,20 @@ function Sub.Begin(target, clip)
     weight = weight, started = (clip and clip.started) or now(), handle = V.handle, pack = clip and clip.pack }
   if V.transport and V.transport.row and V.transport.row.key == target.key then
     story.transport, story.duration = true, V.transport.row.duration
+    -- A full listen from section 1 (UI.StoryFrom): the band starts at its first word, its bar from there.
+    local from, e = ns.UI.StoryFrom(target, V.transport.row), entries()[target.key]
+    local summary = from > 0 and e and Sub.Words(Sub.Spoken(trim(e.s or "")))
+    local k = summary and #summary or 0
+    if k > 0 and k < #words and words[k].text == summary[k].text then
+      local rest, total = {}, 0
+      for i = k + 1, #words do
+        local w = words[i]
+        rest[#rest + 1] = { text = w.text, stop = w.stop, phrase = w.phrase, weight = w.weight, t0 = total }
+        total = total + w.weight
+        rest[#rest].t1 = total
+      end
+      story.words, story.weight, story.from, story.duration = rest, total, from, story.duration - from
+    end
   elseif clip and tonumber(clip.duration) and clip.duration > 0 then
     story.duration = clip.duration
   elseif clip and tonumber(clip.length) and clip.length > 0 then
@@ -642,7 +656,7 @@ local function position(story)
   local V = ns.Voice
   if story.transport and V.transport then
     local offset = V.Position()
-    if offset then return offset end
+    if offset then return math.max(0, offset - (story.from or 0)) end
   end
   return math.max(0, now() - story.started)
 end

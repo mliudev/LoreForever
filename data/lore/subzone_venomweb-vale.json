@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Venomweb Vale"
  },
- "summary": "South of the Scarlet Monastery, Venomweb Vale lies blighted beneath a swarm of venomous spiders. The valley was once a lush woodland where hunters tracked deer and rabbits.",
+ "summary": "South of the Scarlet Monastery, Venomweb Vale lies under a swarm of venomous spiders. Once, hunters tracked deer and rabbits through its woodland.",
  "sections": [
   {
    "title": "A Blighted Refuge",
-   "body": "Venomweb Vale has fallen from a peaceful hunting ground to a blighted refuge. Before the plague consumed Lordaeron, local hunters followed deer and rabbits through its grass and trees. Now rot and gloom cover the valley, while giant venomous spiders swarm through the trees and hollows. The monstrous arachnid Sri'skulk leads them. To the north, the Scarlet Crusade holds the neighboring territory. Darkhounds prowl near the fortified Scarlet Encampment, where Lieutenant Sanders commands.",
+   "body": "Venomweb Vale has lost its peaceful hunting ground to rot and gloom. Before the plague consumed Lordaeron, hunters followed deer and rabbits through its grass and trees. Now giant venomous spiders swarm through the trees and hollows, led by the monstrous Sri'skulk.\n\nTo the north, the Scarlet Crusade holds the neighboring territory. Darkhounds prowl near the fortified Scarlet Encampment, where Lieutenant Sanders commands.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why so many spiders",
     "who made the spiders"
    ],
-   "answer": "Venomweb Vale was once a hunting ground for deer and rabbits, but the valley is now overrun by poisonous spiders led by Sri'skulk. Their deadly webs and venom gave the vale its name."
+   "answer": "Venomweb Vale was once a hunting ground for deer and rabbits. Now poisonous spiders led by Sri'skulk overrun it, and their deadly webs and venom gave the vale its name."
   },
   {
    "q": "Who rules the arachnids in the vale?",
@@ -56,5 +56,5 @@
  "attribution": [
   "Venomweb Vale"
  ],
- "style": 1
+ "style": 2
 }

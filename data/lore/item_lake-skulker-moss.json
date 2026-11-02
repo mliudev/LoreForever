@@ -10,11 +10,11 @@
    "quest:451"
   ]
  },
- "summary": "In northern Lake Lordamere, Lake Skulker Moss draws the Royal Apothecary Society's attention. Apothecary Berard identified it as an organic part of research into brewing a New Plague before Arugal's curse claimed his mind.",
+ "summary": "In northern Lake Lordamere, Lake Skulker Moss draws the Royal Apothecary Society's attention. Apothecary Berard found a use for it in brewing a New Plague before Arugal's curse claimed his mind.",
  "sections": [
   {
    "title": "A Plague Reagent",
-   "body": "Lake Skulker Moss is gathered from Lake Skulkers and Elder Lake Skulkers on the Dawning Isles. Before Arugal's curse claimed his mind, Apothecary Berard cataloged the plants and creatures of eastern Silverpine Forest. In his journal, he wrote that Lake Skulker and Lake Creeper mosses could stabilize or react with other ingredients. After Berard became Arugal's mindless servant, his journal was recovered from Pyrewood Village for Apothecary Renferrel. Renferrel sent Forsaken champions to gather moss and a rare tumor from local Vile Fin murlocs, then deliver both to Master Apothecary Faranell in the Undercity.",
+   "body": "Lake Skulker Moss comes from Lake Skulkers and Elder Lake Skulkers on the Dawning Isles. Before Arugal's curse claimed his mind, Apothecary Berard cataloged the plants and creatures of eastern Silverpine Forest. His journal says Lake Skulker and Lake Creeper mosses could stabilize or react with other ingredients.\n\nAfter the curse made Berard Arugal's mindless servant, his journal was recovered from Pyrewood Village for Apothecary Renferrel. Renferrel sent Forsaken champions to gather moss and a rare tumor from local Vile Fin murlocs. They were to deliver both to Master Apothecary Faranell in the Undercity.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why collect skulker moss",
     "what does skulker moss do"
    ],
-   "answer": "The Royal Apothecary Society in the Undercity uses Lake Skulker Moss as an organic base for brewing the New Plague, in pursuit of Lady Sylvanas Windrunner's goals for the Forsaken."
+   "answer": "The Royal Apothecary Society in the Undercity uses Lake Skulker Moss as an organic base for brewing the New Plague. This serves Lady Sylvanas Windrunner's goals for the Forsaken."
   },
   {
    "q": "Where does this moss come from?",
@@ -35,7 +35,7 @@
     "skulker moss location",
     "who drops lake skulker moss"
    ],
-   "answer": "Lake Skulker Moss is scraped from Lake Skulkers and Elder Lake Skulkers in the waters around the Dawning Isles, in northeastern Lake Lordamere off Silverpine Forest."
+   "answer": "Lake Skulker Moss is scraped from Lake Skulkers and Elder Lake Skulkers in the waters around the Dawning Isles. The isles lie in northeastern Lake Lordamere off Silverpine Forest."
   },
   {
    "q": "Who discovered the moss's usefulness?",
@@ -44,7 +44,7 @@
     "berard moss",
     "apothecary berard research"
    ],
-   "answer": "Apothecary Berard identified the moss's potential while studying Silverpine Forest. After Arugal's curse made him a mindless servant, his journal helped Apothecary Renferrel and Master Apothecary Faranell continue the experiments."
+   "answer": "Apothecary Berard found the moss's potential while studying Silverpine Forest. After Arugal's curse made him a mindless servant, his journal helped Apothecary Renferrel and Master Apothecary Faranell continue the experiments."
   },
   {
    "q": "Who requires this reagent?",
@@ -52,13 +52,13 @@
     "who wants skulker moss",
     "faranell skulker moss"
    ],
-   "answer": "Master Apothecary Faranell, leader of the Royal Apothecary Society in the Undercity's Apothecarium, needs the moss for his biological warfare projects."
+   "answer": "Master Apothecary Faranell leads the Royal Apothecary Society in the Undercity's Apothecarium. He needs the moss for his biological warfare projects."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you bring the Royal Apothecary Society closer to perfecting the New Plague, a weapon the Forsaken intend to use against the Scourge and the living."
+   "text": "As an Undead, you bring the Royal Apothecary Society closer to perfecting the New Plague. The Forsaken intend to use it against the Scourge and the living."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
   "Lake Skulker Moss",
   "A Recipe For Death (3)"
  ],
- "style": 1
+ "style": 2
 }

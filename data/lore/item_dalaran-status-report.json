@@ -10,16 +10,16 @@
    "quest:1999"
   ]
  },
- "summary": "At Ambermill, the Kirin Tor watch Dalaran as the city is rebuilt in the open. Their report carries intelligence the Deathstalkers seek.",
+ "summary": "At Ambermill, the Kirin Tor rebuild Dalaran in the open, while the Deathstalkers seek their report.",
  "sections": [
   {
    "title": "Eyes on the Rebuilding City",
-   "body": "The Scourge sacked Dalaran, and Archimonde brought down its towering spires during the Third War. Early in the rebuilding, the surviving magi removed the city's protective shield and began their work in the open. The Kirin Tor also keeps enclaves such as Ambermill in southeastern Silverpine Forest. Its wizards compile the Dalaran Status Report, which holds intelligence about the city's condition and draws the Deathstalkers' attention.",
+   "body": "During the Third War, the Scourge sacked Dalaran, and Archimonde brought down its towering spires. Early in the rebuilding, the surviving magi removed the city's protective shield and began their work in the open.\n\nThe Kirin Tor keeps enclaves such as Ambermill in southeastern Silverpine Forest. Its wizards compile the Dalaran Status Report, which records the city's condition. The Deathstalkers seek its intelligence.",
    "spoiler": 0
   },
   {
    "title": "A Deathstalker's Test",
-   "body": "Lord Varimathras watches for remnants of the Alliance and Kirin Tor, guarding Forsaken control of Lordaeron with constant vigilance. After Forsaken interrogators forced admissions from a captured Kirin Tor mage, the dreadlord ordered the Deathstalkers to secure the report. The document lies in a locked strongbox deep inside Ambermill. For newly initiated rogues, retrieving it is also a rite of passage: a chance to master lockpicking under Mennet Carkad in the Rogues' Quarter.",
+   "body": "Lord Varimathras watches for Alliance and Kirin Tor remnants, guarding Forsaken control of Lordaeron with constant vigilance. Forsaken interrogators forced admissions from a captured Kirin Tor mage, and the dreadlord ordered the Deathstalkers to secure the report.\n\nThe document lies in a locked strongbox deep inside Ambermill. Newly initiated rogues also retrieve it as a rite of passage, mastering lockpicking under Mennet Carkad in the Rogues' Quarter.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "dalaran report",
     "ambermill documents"
    ],
-   "answer": "The Dalaran Status Report is a set of confidential Kirin Tor documents about Dalaran's condition, recovery work, and current status. Mages at the Ambermill outpost compiled it."
+   "answer": "The Dalaran Status Report is a set of confidential Kirin Tor documents on Dalaran's condition, recovery work, and current status. Mages at the Ambermill outpost compiled it."
   },
   {
    "q": "Where is the report kept?",
@@ -40,7 +40,7 @@
     "ambermill strongbox location",
     "how to find the status report"
    ],
-   "answer": "The report is locked inside a strongbox in the Ambermill settlement in southeastern Silverpine Forest."
+   "answer": "The report is locked in a strongbox in Ambermill, in southeastern Silverpine Forest."
   },
   {
    "q": "Why does the Undercity want this report?",
@@ -57,13 +57,13 @@
     "how did undercity find out",
     "prisoner confession"
    ],
-   "answer": "The Deathstalkers learned of the document and its location from a captured Kirin Tor prisoner questioned in the Undercity."
+   "answer": "A captured Kirin Tor prisoner questioned in the Undercity told the Deathstalkers about the document and where it was kept."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you prove your skill at lockpicking and infiltration under Mennet Carkad by retrieving the report from vigilant mages."
+   "text": "As a rogue, you prove your lockpicking and infiltration skills under Mennet Carkad by retrieving the report from vigilant mages."
   },
   {
    "target": "race:Undead",
@@ -94,5 +94,5 @@
   "Dalaran Status Report",
   "Tools of the Trade (Classic)"
  ],
- "style": 1
+ "style": 2
 }

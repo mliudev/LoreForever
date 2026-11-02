@@ -10,11 +10,11 @@
    "quest:550"
   ]
  },
- "summary": "At Tarren Mill, Darthalia sends word of victories against Hillsbrad's humans to Undercity's high command.",
+ "summary": "At Tarren Mill, Darthalia sends word of victories against Hillsbrad's human defenders to Undercity's high command.",
  "sections": [
   {
    "title": "Report to High Command",
-   "body": "After the fighting across the Hillsbrad Foothills, High Executor Darthalia seals a dispatch recording victories against Hillsbrad's human defenders and the ruin of their positions. She addresses it to Varimathras, the dreadlord who advises Lady Sylvanas Windrunner. In the Royal Quarter, the report gives Forsaken leaders proof that Alliance enclaves south of Lordaeron can be broken, leaving northern garrisons free to face the Scourge.",
+   "body": "After the fighting in Hillsbrad Foothills, High Executor Darthalia seals a dispatch of victories against the human defenders and the ruin of their positions. She sends it to Varimathras, the dreadlord who advises Lady Sylvanas Windrunner. In Undercity's Royal Quarter, the report gives Forsaken leaders proof that Alliance enclaves south of Lordaeron can be broken. Then northern garrisons can turn to face the Scourge.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "darthalia letter",
     "hillsbrad report"
    ],
-   "answer": "High Executor Darthalia of Tarren Mill writes a sealed commendation for a fighter's performance against the Alliance in the Battle of Hillsbrad. It is meant for Undercity's high command."
+   "answer": "At Tarren Mill, High Executor Darthalia writes a sealed commendation for a fighter's performance against the Alliance in the Battle of Hillsbrad. She sends it to Undercity's high command."
   },
   {
    "q": "Who receives this commendation?",
@@ -35,7 +35,7 @@
     "commendation turn in",
     "who gets darthalia's commendation"
    ],
-   "answer": "The commendation is addressed to Varimathras, the dreadlord advisor to Lady Sylvanas Windrunner in Undercity's Royal Quarter."
+   "answer": "Varimathras receives the commendation. He is the dreadlord advisor to Lady Sylvanas Windrunner in Undercity's Royal Quarter."
   },
   {
    "q": "Why does Varimathras care about the fighting in Hillsbrad?",
@@ -44,17 +44,17 @@
     "hillsbrad dreadlord",
     "forsaken strategy hillsbrad"
    ],
-   "answer": "The Forsaken face the Lich King and his Scourge to the north, while humans in Hillsbrad disrupt their supply lines and southern border security. Varimathras values victories that remove that obstacle and let Undercity's forces focus on the greater war."
+   "answer": "The Forsaken face the Lich King and his Scourge to the north. Meanwhile, Hillsbrad's humans disrupt their supply lines and southern border security. Varimathras values victories that remove this obstacle and free Undercity's forces to focus on the greater war."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, the commendation records a strategic victory in Lordaeron and shows Undercity's leadership that Alliance strongholds in the southern foothills can be dismantled."
+   "text": "For the Horde, the commendation records a strategic victory in Lordaeron. It shows Undercity's leadership that Alliance strongholds in the southern foothills can be dismantled."
   },
   {
    "target": "race:Undead",
-   "text": "As an Undead, earning Darthalia's praise and bringing the commendation to the throne room raises your standing in the Dark Lady's growing military hierarchy."
+   "text": "As an Undead, you raise your standing in the Dark Lady's growing military hierarchy by earning Darthalia's praise and bringing the commendation to the throne room."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
   "Darthalia's Sealed Commendation",
   "Battle of Hillsbrad (7) (Classic)"
  ],
- "style": 1
+ "style": 2
 }

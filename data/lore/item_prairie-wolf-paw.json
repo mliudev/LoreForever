@@ -10,16 +10,16 @@
    "quest:748"
   ]
  },
- "summary": "Across Mulgore, Prairie Wolf Paws are gathered from the wolves that hunt the plains. Mull Thunderhorn in Bloodhoof Village uses them with plainstrider talons to make a cleansing totem.",
+ "summary": "Across Mulgore, prairie wolves hunt the plains, and their paws are gathered for a shaman's work. In Bloodhoof Village, Mull Thunderhorn joins them with plainstrider talons to make a cleansing totem.",
  "sections": [
   {
    "title": "Natural Reagents of the Plains",
-   "body": "Prairie wolves hunt in packs across Mulgore’s rolling grasses, alongside prairie stalkers and their pack alphas. They threaten young hunters and local livestock, and their place in the spiritual balance of the plains matters to tauren shamans. The shamans see the paws as more than trophies: they carry the land’s innate vitality.",
+   "body": "Prairie wolves hunt in packs across Mulgore’s grasses, alongside prairie stalkers and their pack alphas. They threaten young hunters and local livestock. Tauren shamans regard the paws as more than trophies, for they carry the land’s natural vitality and matter to the plains’ spiritual balance.",
    "spoiler": 0
   },
   {
    "title": "Cleansing the Wells",
-   "body": "When goblin ventures tainted Mulgore’s sacred water reserves, shaman Mull Thunderhorn needed the land’s physical aid against the pollution. Joined with plainstrider talons, wolf paws provide the spiritual resonance for cleansing totems. With one made, the work of purifying the Winterhoof Water Well can begin.",
+   "body": "When goblin ventures tainted Mulgore’s sacred water reserves, shaman Mull Thunderhorn needed the land’s aid against the pollution. Joined with plainstrider talons, wolf paws lend spiritual resonance to cleansing totems. Once the totem is made, the work of purifying the Winterhoof Water Well can begin.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to get prairie wolf paws",
     "prairie wolf paw source"
    ],
-   "answer": "Prairie wolves, prairie stalkers, and prairie wolf alphas hunt across Mulgore’s plains, primarily southwest of Bloodhoof Village, and provide Prairie Wolf Paws."
+   "answer": "Prairie wolves, prairie stalkers, and prairie wolf alphas hunt Mulgore’s plains, primarily southwest of Bloodhoof Village, and provide Prairie Wolf Paws."
   },
   {
    "q": "Who wants Prairie Wolf Paws?",
@@ -40,7 +40,7 @@
     "mull thunderhorn wolf paws",
     "prairie wolf paw turn in"
    ],
-   "answer": "Mull Thunderhorn, a tauren shaman in Bloodhoof Village, wants them to help make a cleansing totem for the tainted water wells."
+   "answer": "Mull Thunderhorn, a tauren shaman in Bloodhoof Village, wants the paws to help make a cleansing totem for the tainted water wells."
   },
   {
    "q": "Why are wolf paws needed to cleanse water?",
@@ -49,7 +49,7 @@
     "prairie wolf paw lore",
     "why does mull want paws"
    ],
-   "answer": "Tauren shamans channel the land’s natural vitality against corruption. Joined with bird talons, wolf paws help bind Mulgore’s living spirit into an elemental totem that can purge goblin poisons."
+   "answer": "Tauren shamans call on the land’s natural vitality against corruption. Joined with bird talons, wolf paws bind Mulgore’s living spirit into an elemental totem that can purge goblin poisons."
   },
   {
    "q": "Which water well do these paws help cleanse?",
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren, harvesting wolf paws is a solemn duty of stewardship: the land’s native beasts help heal ancestral water wells tainted by goblin greed."
+   "text": "As a tauren, you gather wolf paws in stewardship of the land. Its native beasts help heal ancestral water wells tainted by goblin greed."
   },
   {
    "target": "class:Shaman",
-   "text": "Cleansing totems made from local animal parts draw on the land’s living essence to purge unnatural corruption."
+   "text": "As a shaman, you use cleansing totems made from local animal parts to draw on the land’s living essence and purge unnatural corruption."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Prairie Wolf Paw",
   "Poison Water (Classic)"
  ],
- "style": 1
+ "style": 2
 }

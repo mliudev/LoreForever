@@ -8,16 +8,16 @@
   "wiki": "Executor Zygand",
   "refs": 11
  },
- "summary": "At Brill's town hall, Executor Zygand directs Forsaken defenses across central Tirisfal Glades. He reports to the Undercity's high command and coordinates the fight against Scarlet Crusade forces pressing into Forsaken lands.",
+ "summary": "In Brill, Executor Zygand directs the Forsaken defenses across central Tirisfal Glades. He reports to the Undercity's high command and coordinates the fight against Scarlet Crusade forces pressing into Forsaken lands.",
  "sections": [
   {
    "title": "Command in Brill",
-   "body": "Executor Zygand directs regional defenses from Brill after the Forsaken's awakening in Deathknell. Officers such as Executor Arren and field sentries such as Deathguard Linnea report to him. He gathers scouts' reports and sends able recruits to guard Lordaeron's borders against encroachment.",
+   "body": "After the Forsaken awakened in Deathknell, Executor Zygand took charge of regional defenses from Brill. Officers such as Executor Arren and field sentries such as Deathguard Linnea report to him. Zygand gathers scouts' reports and sends able recruits to guard Lordaeron's borders against encroachment.",
    "spoiler": 0
   },
   {
    "title": "The War on the Crusade",
-   "body": "The Scarlet Crusade's presence across Tirisfal Glades commands Executor Zygand's attention. He sends agents against Crusader scouts, encampments, and forward bases, keeping the zealots from gathering enough strength to threaten the approaches to the Undercity.",
+   "body": "The Scarlet Crusade's presence across Tirisfal Glades keeps Executor Zygand busy. He sends agents against Crusader scouts, encampments, and forward bases. That work keeps the zealots from gathering enough strength to threaten the approaches to the Undercity.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is zygand",
     "executor zygand map"
    ],
-   "answer": "Executor Zygand can be found inside or near Brill's main town hall. Brill is the central Forsaken settlement in Tirisfal Glades, just north of the Undercity."
+   "answer": "You can find Executor Zygand inside or near Brill's main town hall. Brill is the central Forsaken settlement in Tirisfal Glades, just north of the Undercity."
   },
   {
    "q": "What is Zygand's main goal in Tirisfal Glades?",
@@ -47,7 +47,7 @@
     "why fight crusade",
     "zygand purpose"
    ],
-   "answer": "Executor Zygand's main goal is to direct the regional war against the Scarlet Crusade. He tracks the zealots across Tirisfal and orders their encampments and leadership dismantled before they can march on the Undercity."
+   "answer": "Executor Zygand directs the regional war against the Scarlet Crusade. He tracks the zealots across Tirisfal and orders their encampments and leadership dismantled before they can march on the Undercity."
   },
   {
    "q": "Who reports to Executor Zygand?",
@@ -65,7 +65,7 @@
     "zygand bounties",
     "wanted quests"
    ],
-   "answer": "Yes. Executor Zygand also issues regional bounties against feral undead and dangerous rogue scavengers that endanger travel through the glades, including the corpse-stealing gnoll Maggot Eye."
+   "answer": "Yes. Executor Zygand also issues regional bounties against feral undead and dangerous rogue scavengers that endanger travel through the glades. They include the corpse-stealing gnoll Maggot Eye."
   },
   {
    "q": "What rank does an 'Executor' hold among the Forsaken?",
@@ -80,7 +80,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken venturing out of Deathknell, you meet Executor Zygand as a representative of the Undercity's wider military authority, bringing new citizens into active service against their bitterest enemies."
+   "text": "As a Forsaken venturing out of Deathknell, you meet Executor Zygand, who represents the Undercity's wider military authority. He brings new citizens into active service against their bitterest enemies."
   },
   {
    "target": "faction:Horde",
@@ -110,5 +110,5 @@
  "attribution": [
   "Executor Zygand"
  ],
- "style": 1
+ "style": 2
 }

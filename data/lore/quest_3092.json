@@ -17,16 +17,16 @@
   "wiki": "Etched Note (quest)",
   "chain": []
  },
- "summary": "At Camp Narache, a summons calls a young tauren hunter to train with Lanka Farshot. The message marks the start of study in the ways of the wild.",
+ "summary": "At Camp Narache, Etched Note calls a young tauren hunter to train with Lanka Farshot. The message begins their study of the wild.",
  "sections": [
   {
    "title": "A Summons to the Hunt",
-   "body": "Grull Hawkwind passes the etched message to a young tauren with a gift for marksmanship and tracking. The novice has been training among the bluffs of Red Cloud Mesa. Lanka Farshot has taken notice of the youth's bloodline and raw ability, and calls them to study under his watch.",
+   "body": "Grull Hawkwind gives the etched message to a young tauren skilled in marksmanship and tracking. The novice has trained among the bluffs of Red Cloud Mesa. Lanka Farshot has noticed the youth's bloodline and raw ability, and calls them to study under his watch.",
    "spoiler": 0
   },
   {
    "title": "Tradition of the Plains",
-   "body": "Among the Shu'halo, hunters do more than scout or fight. They feed the tribes with their quarry, guard nomadic camps, and keep close to the beasts of Kalimdor. Lanka's training begins with weapons and the creatures of Mulgore. In time, the novice may learn the ancient art of taming wild companions.",
+   "body": "Among the Shu'halo, hunters scout and fight, but they serve the tribes in other ways too. They provide food with their quarry, guard nomadic camps, and keep close to Kalimdor's beasts. Lanka begins with weapons and Mulgore's creatures. In time, the novice may learn the ancient art of taming wild companions.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "etched note purpose",
     "why did i get etched note"
    ],
-   "answer": "The Etched Note introduces a novice tauren hunter to Lanka Farshot, the trainer in Camp Narache."
+   "answer": "Etched Note calls a novice tauren hunter to train with Lanka Farshot at Camp Narache."
   },
   {
    "q": "Who delivers the note?",
@@ -47,7 +47,7 @@
     "etched note quest giver",
     "rohaku note"
    ],
-   "answer": "Grull Hawkwind passes the note along and says a messenger from the hunter trainer sought out the young hunter moments earlier."
+   "answer": "Grull Hawkwind passes along the note. He says a messenger from the hunter trainer sought out the young hunter moments earlier."
   },
   {
    "q": "Where is Lanka Farshot located?",
@@ -72,7 +72,7 @@
     "what does lanka teach",
     "hunter basics tauren"
    ],
-   "answer": "Lanka teaches basic hunting, ranged weapons, knowledge of wild beasts, and, in time, the rites for taming animal companions."
+   "answer": "Lanka teaches basic hunting, ranged weapons, and knowledge of wild beasts. In time, he may teach the rites for taming animal companions."
   },
   {
    "q": "What is the next step after reading the note?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you begin learning marksmanship, survival in the wild, and how to live with beast companions."
+   "text": "As a hunter, you begin learning marksmanship, survival in the wild, and life with beast companions."
   },
   {
    "target": "race:Tauren",
@@ -109,5 +109,5 @@
  "attribution": [
   "Etched Note (quest)"
  ],
- "style": 1
+ "style": 2
 }

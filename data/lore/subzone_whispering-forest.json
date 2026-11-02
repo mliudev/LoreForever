@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "The Hidden Glen",
-   "body": "Beyond Northface Rock and Bandarion Keep, the Whispering Forest feels far removed from plague-touched Tirisfal. Afflicted deer and roaming predators share its woods with a tranquil lake. Nearby, giant mushrooms form a ring beneath a hovering cloud of mist, glowing with uncanny energy. The ghostly Knight of Mourning wanders among them, bound by oath. Natural magic lingers here in a land scarred by the Scourge.",
+   "body": "Beyond Northface Rock and Bandarion Keep, the Whispering Forest feels far from plague-touched Tirisfal. Afflicted deer and roaming predators share its woods with a tranquil lake. Nearby, giant mushrooms form a ring beneath a hovering cloud of mist, glowing with uncanny energy. The ghostly Knight of Mourning wanders among them, bound by oath. Natural magic lingers here in land scarred by the Scourge.",
    "spoiler": 0
   },
   {
    "title": "The Shadow Beneath the Woods",
-   "body": "An ancient dread stains the woods beneath their wonder. Centuries ago, high elves tried to settle Tirisfal Glades, but many began to go mad. Some believed an evil slept beneath the land, though no one proved the rumors. Vile Fin murlocs and the undead threshadon Blightsculler prowl the lake, and necromantic remnants blight the ruined settlement of Shadowvale. Across Lordaeron, mad wanderers still mutter fearful warnings of a consuming darkness beneath Tirisfal’s roots.",
+   "body": "Beneath the woods’ wonders lies an ancient dread. Centuries ago, high elves tried to settle Tirisfal Glades, but many began to go mad. Some believed an evil slept beneath the land, though no one proved the rumors. Vile Fin murlocs and the undead threshadon Blightsculler prowl the lake, while necromantic remnants blight the ruined settlement of Shadowvale.\n\nAcross Lordaeron, mad wanderers still mutter fearful warnings of a consuming darkness beneath Tirisfal’s roots.",
    "spoiler": 1
   }
  ],
@@ -97,5 +97,5 @@
  "attribution": [
   "Whispering Forest"
  ],
- "style": 1
+ "style": 2
 }

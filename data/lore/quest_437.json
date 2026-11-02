@@ -17,16 +17,16 @@
   "wiki": "The Dead Fields (quest)",
   "chain": []
  },
- "summary": "At the Dead Fields, Forsaken forces face a Scourge threat in northern Silverpine. High Executor Hadrec sends champions from the Sepulcher against the Rot Hide gnolls and the banshee who shields them.",
+ "summary": "In northern Silverpine, Forsaken forces face a Scourge threat at the Dead Fields. High Executor Hadrec sends champions from the Sepulcher against the Rot Hide gnolls and the banshee who shields them.",
  "sections": [
   {
    "title": "A Plague upon the Fields",
-   "body": "North of the Sepulcher, an abandoned farmstead lies overrun by Rot Hide gnolls. The fields once held ordinary farms, but now these plague ridden scavengers infest the Silverpine countryside. High Executor Hadrec sent small raiding parties to drive them out. Each attack stalled under a strange magical resistance.",
+   "body": "North of the Sepulcher, Rot Hide gnolls overrun an abandoned farmstead. Ordinary farms once stood in these fields. Now plague-ridden scavengers infest the Silverpine countryside. High Executor Hadrec sent small raiding parties to drive them out, but each attack stalled against a strange magical resistance.",
    "spoiler": 0
   },
   {
    "title": "The Banshee's Grasp",
-   "body": "Nightlash, a Scourge banshee, directs the Rot Hide gnolls and scatters Forsaken skirmishers with dark sorcery when the gnolls face defeat. Hadrec sends Horde champions to cut down the gnolls and draw Nightlash into the open. He asks for her spectral essence as proof that she is destroyed.",
+   "body": "Nightlash, a Scourge banshee, directs the Rot Hide gnolls. When the gnolls face defeat, she scatters Forsaken skirmishers with dark sorcery. Hadrec sends Horde champions to cut down the gnolls and draw Nightlash into the open. He asks for her spectral essence as proof of her destruction.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "gnoll scourge connection",
     "rot hide gnolls lore"
    ],
-   "answer": "The Rot Hide gnolls of Silverpine Forest are tainted by the plague of undeath. The Scourge directs these rabid creatures as vanguard foot soldiers against the Forsaken through figures like Nightlash."
+   "answer": "The Rot Hide gnolls of Silverpine Forest are tainted by the plague of undeath. The Scourge sends these rabid creatures against the Forsaken as vanguard foot soldiers, directed by figures like Nightlash."
   },
   {
    "q": "How do you draw out Nightlash?",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Dead Fields (quest)"
  ],
- "style": 1
+ "style": 2
 }

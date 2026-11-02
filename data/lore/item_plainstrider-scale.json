@@ -10,11 +10,11 @@
    "quest:766"
   ]
  },
- "summary": "Across Mulgore, Plainstrider Scale is sought for a remedy Maur Raincaller prepares in Bloodhoof Village. The tough scale helps counter a spreading infection.",
+ "summary": "In Mulgore, Maur Raincaller needs a Plainstrider Scale for a remedy in Bloodhoof Village. The tough scale helps counter a spreading infection.",
  "sections": [
   {
    "title": "A Rare Ingredient",
-   "body": "Plainstriders roam Mulgore with tough scales covering their powerful legs. The scales protect them, though only some are firm enough to grind for folk remedies.",
+   "body": "Plainstriders roam Mulgore with tough scales over their powerful legs. The scales protect them, though only some are firm enough to grind for folk remedies.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "plainstrider scale use",
     "why need plainstrider scale"
    ],
-   "answer": "Maur Raincaller in Bloodhoof Village needs a Plainstrider Scale for a remedy. He combines it with parts from other Mulgore predators to treat the infected wound Mazzranache inflicted with its venomous bite."
+   "answer": "Maur Raincaller in Bloodhoof Village needs a Plainstrider Scale for a remedy. He combines it with parts from other Mulgore predators to treat the infected wound Mazzranache caused with its venomous bite."
   },
   {
    "q": "Where do you find a Plainstrider Scale?",
@@ -90,5 +90,5 @@
   "Plainstrider Scale",
   "Mazzranache (Classic)"
  ],
- "style": 1
+ "style": 2
 }

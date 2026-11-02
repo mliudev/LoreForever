@@ -114,11 +114,11 @@ P.transport["npc:captain-stoutfist"] = {
   },
 }
 P.transport["npc:chief-engineer-hinderweir-vii"] = {
-  hash = "66b8c2",
-  fullHash = "66b8c2",
-  text = "Chief Engineer Hinderweir VII. Atop the Stonewrought Dam, Chief Engineer Hinderweir VII watches over its workings and defenses. The veteran dwarf keeps the great structure and its machinery sound as grave dangers threaten it. Chief Engineer Hinderweir VII tends the Stonewrought Dam, whose stonework holds back Loch Modan's waters. Along the crest, he watches the waterways and sluice gates. He also checks for strain from the elements and local hazards. The dam's workings need constant care.",
+  hash = "d25286",
+  fullHash = "d25286",
+  text = "Chief Engineer Hinderweir VII. Atop the Stonewrought Dam, Chief Engineer Hinderweir the Seventh watches over its workings and defenses. The veteran dwarf keeps the great structure and its machinery sound as grave dangers threaten it. Chief Engineer Hinderweir the Seventh tends the Stonewrought Dam, whose stonework holds back Loch Modan's waters. Along the crest, he watches the waterways and sluice gates. He also checks for strain from the elements and local hazards. The dam's workings need constant care.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_chief-engineer-hinderweir-vii-9e35a47096e8ce350800/1-0000.mp3", duration = 31.2163265, start = 0},
+    {file = "Audio/Transport/full_npc_chief-engineer-hinderweir-vii-096908c7776c8f8b9851/1-0000.mp3", duration = 31.7126531, start = 0},
   },
 }
 P.transport["npc:clerk-daltry"] = {
@@ -2635,10 +2635,10 @@ P.transport["subzone:stonewatch-tower"] = {
 }
 P.transport["subzone:stonewrought-dam"] = {
   hash = "9c3d6c",
-  fullHash = "947989",
-  text = "Stonewrought Dam. Along Loch Modan’s northern rim, waters gather behind Stonewrought Dam. The dwarven barrier holds back the Loch and drains the Wetlands below into habitable marshes. East of Dun Algaz, Stonewrought Dam spans a canyon in one of the great works of dwarven craft. Dark Iron architect Franclorn Forgewright designed it and pioneered the stonewrought technique used to raise it. By holding water in the mountain basin, the dam doubled the Loch’s surface area and steadily lowered the waters to the north. The Wetlands formed from a valley once wholly flooded. Stonewrought Dam now serves Ironforge, but Dark Iron saboteurs from the southern mountains target it. After recent assaults and attempts to slip inside, Ironforge placed a garrison here under Chief Engineer Hinderweir VII. Guards and engineers patrol the masonry day and night. Should the dam be breached, the Loch could drain and send a devastating flood across the Wetlands below.",
+  fullHash = "c6144b",
+  text = "Stonewrought Dam. Along Loch Modan’s northern rim, waters gather behind Stonewrought Dam. The dwarven barrier holds back the Loch and drains the Wetlands below into habitable marshes. East of Dun Algaz, Stonewrought Dam spans a canyon in one of the great works of dwarven craft. Dark Iron architect Franclorn Forgewright designed it and pioneered the stonewrought technique used to raise it. By holding water in the mountain basin, the dam doubled the Loch’s surface area and steadily lowered the waters to the north. The Wetlands formed from a valley once wholly flooded. Stonewrought Dam now serves Ironforge, but Dark Iron saboteurs from the southern mountains target it. After recent assaults and attempts to slip inside, Ironforge placed a garrison here under Chief Engineer Hinderweir the Seventh. Guards and engineers patrol the masonry day and night. Should the dam be breached, the Loch could drain and send a devastating flood across the Wetlands below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonewrought-dam-5d7d912fdeaa73db3b0a/1-0000.mp3", duration = 60.0032653, start = 0},
+    {file = "Audio/Transport/full_subzone_stonewrought-dam-1c80cce8f499299f3965/1-0000.mp3", duration = 59.637551, start = 0},
   },
 }
 P.transport["subzone:stormwind-gate"] = {

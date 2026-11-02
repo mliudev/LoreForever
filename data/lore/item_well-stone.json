@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Vessel of Earthen Energies",
-   "body": "Well Stones rest in the soft earth beside Mulgore’s wells, where they absorb the spiritual resonance of the plains and the waters beneath them. Shaman and seers such as Zarlman Two-Moons know these stones as vessels of vital magic, not ordinary river pebbles. Combined with grounded Ambercorn beneath the plains’ mighty trees, their mineral properties temper the brew that awakens visionary trances in young tauren during the sacred Rite of Vision.",
+   "body": "Beside Mulgore’s wells, Well Stones rest in the soft earth. They take in the spiritual resonance of the plains and the waters beneath them. Shaman and seers such as Zarlman Two-Moons know they hold vital magic. They are more than ordinary river pebbles.\n\nWith Ambercorn gathered beneath the plains’ mighty trees, the stones’ minerals temper a brew. It awakens visionary trances in young tauren during the sacred Rite of Vision.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is well stone for",
     "why gather well stones"
    ],
-   "answer": "Well Stones are combined with Ambercorn to brew the Water of the Seers. Initiates drink it before the tribal fire, and it grants a guiding vision to those seeking to prove their spiritual maturity."
+   "answer": "Well Stones and Ambercorn are combined to brew the Water of the Seers. Initiates drink it before the tribal fire, and it grants a guiding vision to those seeking to prove their spiritual maturity."
   },
   {
    "q": "Where are Well Stones found?",
@@ -35,7 +35,7 @@
     "well stone locations",
     "well stone mulgore"
    ],
-   "answer": "Well Stones lie on the ground around the communal water wells scattered across Mulgore, where the plains’ life-giving moisture meets the soil."
+   "answer": "Well Stones lie on the ground around communal water wells scattered across Mulgore. There, the plains’ life-giving moisture meets the soil."
   },
   {
    "q": "Who asks for these stones?",
@@ -44,7 +44,7 @@
     "zarlman well stones",
     "rite of vision stones"
    ],
-   "answer": "Zarlman Two-Moons, a respected mystic in Bloodhoof Village, directs initiates to gather Well Stones as part of the Rite of Vision."
+   "answer": "Zarlman Two-Moons, a respected mystic in Bloodhoof Village, directs initiates to gather Well Stones for the Rite of Vision."
   }
  ],
  "angles": [
@@ -54,7 +54,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman know Well Stones as natural anchors of earth and water magic. Their latent spirits come together in a transformative ceremonial mixture."
+   "text": "Shaman know Well Stones as natural anchors of earth and water magic. Their latent spirits join in a transformative ceremonial mixture."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
   "Well Stone",
   "Rite of Vision (2)"
  ],
- "style": 1
+ "style": 2
 }

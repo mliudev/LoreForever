@@ -21,16 +21,16 @@
    "A Recipe For Death (3)"
   ]
  },
- "summary": "In Silverpine, A Recipe For Death gathers reagents for the Forsaken's New Plague. Apothecary Renferrel sends bear hearts and spider blood from the Sepulcher to Master Apothecary Faranell in the Undercity.",
+ "summary": "In Silverpine, A Recipe For Death gathers reagents for the Forsaken's New Plague. From the Sepulcher, Apothecary Renferrel sends bear hearts and spider blood to Master Apothecary Faranell in the Undercity.",
  "sections": [
   {
    "title": "A Weapon Against Two Foes",
-   "body": "In Silverpine Forest, Apothecary Renferrel sees the danger facing Sylvanas's people. Arthas's legions press them, and remnants of humanity remain their foes. Conventional warfare offers little hope. The Forsaken seek a New Plague that can rot living humans and undead Scourge alike. Renferrel's field research found that arachnid venom from the Skittering Dark, joined with toxins in the hearts of native bears, makes a virulent foundation.",
+   "body": "In Silverpine Forest, Apothecary Renferrel sees two foes closing on Sylvanas's people. Arthas's legions press them, while remnants of humanity remain enemies. The Forsaken have little hope in conventional warfare. They seek a New Plague that can rot living humans and undead Scourge alike.\n\nRenferrel's field research found a virulent foundation for the plague. Arachnid venom from the Skittering Dark, joined with toxins in the hearts of native bears, forms that base.",
    "spoiler": 0
   },
   {
    "title": "Dispatch to the Apothecarium",
-   "body": "The collected organs and blood from Silverpine's wilderness go beneath the ruins of Lordaeron, to the Apothecarium in the Undercity. Master Apothecary Faranell oversees the Royal Apothecary Society's design. He takes Renferrel's samples to test their contaminable properties and refine formulas that may secure Forsaken supremacy across the continent.",
+   "body": "Bear hearts and spider blood gathered in Silverpine's wilderness travel beneath Lordaeron's ruins to the Apothecarium in the Undercity. Master Apothecary Faranell oversees the Royal Apothecary Society's design.\n\nFaranell takes Renferrel's samples to test their contaminable properties and refine formulas. The work may secure Forsaken supremacy across the continent.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "why spider blood",
     "what is this recipe for"
    ],
-   "answer": "Renferrel found that spider blood from the Skittering Dark reacts lethally with toxins in grizzly bear hearts. Together, they give the Royal Apothecary Society raw materials to test and develop the New Plague."
+   "answer": "Renferrel found that arachnid venom from the Skittering Dark reacts lethally with toxins in grizzly bear hearts. Together, they give the Royal Apothecary Society materials to test and develop the New Plague."
   },
   {
    "q": "Who is Master Apothecary Faranell?",
@@ -51,7 +51,7 @@
     "who is faranell",
     "master apothecary"
    ],
-   "answer": "Master Apothecary Faranell heads the Royal Apothecary Society in the Apothecarium quarter of the Undercity. He oversees research into the New Plague on behalf of Lady Sylvanas Windrunner."
+   "answer": "Master Apothecary Faranell heads the Royal Apothecary Society in the Apothecarium quarter of the Undercity. He oversees New Plague research on behalf of Lady Sylvanas Windrunner."
   },
   {
    "q": "Why do the Forsaken want to create a New Plague?",
@@ -84,7 +84,7 @@
     "recipe for death follow up",
     "is there a part 2"
    ],
-   "answer": "Yes. Master Apothecary Faranell uses the reagents in further experiments, followed by work in the Apothecarium to refine and test the lethal mixture."
+   "answer": "Yes. Master Apothecary Faranell uses the reagents in further experiments. Then work in the Apothecarium continues to refine and test the lethal mixture."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "A Recipe For Death"
  ],
- "style": 1
+ "style": 2
 }

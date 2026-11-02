@@ -8,11 +8,11 @@
   "wiki": "Deathguard Bartholomew",
   "refs": 1
  },
- "summary": "In Brill, Deathguard Bartholomew keeps watch over the town and helps travelers find their way. He helps keep order among the Forsaken defenders of Tirisfal Glades.",
+ "summary": "In Brill, Deathguard Bartholomew watches over the town and helps travelers find their way. He helps keep order among the Forsaken defenders of Tirisfal Glades.",
  "sections": [
   {
    "title": "Sentinel of Brill",
-   "body": "Deathguard Bartholomew keeps watch in Brill, part of the Forsaken guard defending Tirisfal Glades. Like other Deathguards, he protects reclaimed land from the lingering Scourge, fanatical Scarlet Crusaders, and other threats to Lady Sylvanas's domain. He also guides travelers around the town and helps keep order among the newly risen.",
+   "body": "Deathguard Bartholomew stands watch in Brill among the Forsaken guards defending Tirisfal Glades. They protect reclaimed land from the lingering Scourge, fanatical Scarlet Crusaders, and other threats to Lady Sylvanas's domain. Bartholomew also guides travelers around town and helps keep order among the newly risen.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is bartholomew",
     "deathguard bartholomew lore"
    ],
-   "answer": "Deathguard Bartholomew guards Brill in Tirisfal Glades. He watches over the town and guides travelers to places they need to find."
+   "answer": "Deathguard Bartholomew guards Brill in Tirisfal Glades. He watches over the town and guides travelers to the places they need to find."
   },
   {
    "q": "What is the role of the Deathguard?",
@@ -42,7 +42,7 @@
     "brill directions",
     "guard directions brill"
    ],
-   "answer": "Yes. Deathguard Bartholomew can direct travelers to facilities in Brill, including trainers, the inn, and profession vendors."
+   "answer": "Yes. Deathguard Bartholomew directs travelers to places in Brill, including trainers, the inn, and profession vendors."
   }
  ],
  "angles": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Deathguard Bartholomew"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:1066"
   ]
  },
- "summary": "Syndicate shadow mages gather Vial of Innocent Blood in the ruins of Durnholde Keep. The Royal Apothecary Society in Tarren Mill seeks it as a catalyst for experimental toxins.",
+ "summary": "In the ruins of Durnholde Keep, Syndicate shadow mages gather Vial of Innocent Blood. The Royal Apothecary Society in Tarren Mill seeks it as a catalyst for experimental toxins.",
  "sections": [
   {
    "title": "A Gruesome Reagent",
-   "body": "Syndicate shadow mages gather innocent blood in the ruins of Durnholde Keep. The Syndicate's fallen human nobles practice dark arts within the crumbled walls. Apothecary Lydon in Tarren Mill wants untainted blood for an experimental pacifying agent. He means to use it against the Venture Company in Stonetalon Mountains, and sees the Syndicate's stores as a convenient source.",
+   "body": "Syndicate shadow mages gather innocent blood among the ruins of Durnholde Keep. The Syndicate's fallen human nobles practice dark arts within the crumbled walls. In Tarren Mill, Apothecary Lydon seeks untainted blood for an experimental pacifying agent. He plans to use it against the Venture Company in Stonetalon Mountains, and the Syndicate's stores offer a convenient source.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "where to get innocent blood",
     "syndicate shadow mages"
    ],
-   "answer": "Syndicate shadow mages carry the vials around the ruined fortress of Durnholde Keep in the southeastern Hillsbrad Foothills."
+   "answer": "Syndicate shadow mages carry the vials through the ruined fortress of Durnholde Keep in the southeastern Hillsbrad Foothills."
   },
   {
    "q": "Why do Syndicate shadow mages have innocent blood?",
@@ -51,13 +51,13 @@
     "why innocent blood",
     "apothecary lydon blood"
    ],
-   "answer": "Lydon says innocent blood has rare properties needed to make a concoction that bleeds violence from its victims and renders them docile."
+   "answer": "Lydon says innocent blood has rare properties needed to make a concoction that drains violence from its victims and leaves them docile."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you know the Royal Apothecary Society will use morally questionable ingredients, gathering from human outlaws to advance its alchemy."
+   "text": "As an undead, you know the Royal Apothecary Society uses morally questionable ingredients, gathering them from human outlaws to advance its alchemy."
   },
   {
    "target": "faction:Horde",
@@ -87,5 +87,5 @@
   "Vial of Innocent Blood",
   "Blood of Innocents (quest)"
  ],
- "style": 1
+ "style": 2
 }

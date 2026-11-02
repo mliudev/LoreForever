@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Sewers"
  },
- "summary": "Beneath the hills west of Lordaeron's ruined palace, the Sewers offer a second way into the Undercity. Their stone passage carries bat handlers and travelers past the elevators descending from the throne room.",
+ "summary": "In the hills west of Lordaeron's ruined palace, the Sewers open a second way into the Undercity. Bat handlers and travelers pass through the old stone channels to reach its inner rings.",
  "sections": [
   {
    "title": "A Backdoor into the Catacombs",
-   "body": "The Sewers once drained Lordaeron's royal capital. Now Sylvanas Windrunner's Forsaken fold those old stone channels into the Undercity's defenses. The passage opens west of the surface ruins, near a Scarlet Watchtower in Tirisfal Glades, then slopes directly inside. Forsaken bat handlers fly riders through the cavernous conduit into the Undercity's subterranean rings, avoiding the slow cage lifts. The route also skirts the fortified courtyards, leaving a dangerous weakness that hostile infiltrators seek to exploit.",
+   "body": "The Sewers once carried water away from Lordaeron's royal capital. Now Sylvanas Windrunner's Forsaken have folded those old channels into the Undercity's defenses. The passage opens west of the surface ruins near a Scarlet Watchtower in Tirisfal Glades, then slopes into the city.\n\nForsaken bat handlers carry riders through the cavernous passage to the Undercity's underground rings, clear of the slow cage lifts. Yet the route also skirts the fortified courtyards. Hostile infiltrators seek to exploit that weakness.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "sewers vs elevators",
     "undercity backdoor"
    ],
-   "answer": "The main entrance descends from the palace ruins by iron cage elevators, which can be slow and dangerous during an attack. The Sewers provide a direct, sloped route for Forsaken bat traffic and a quick way out without waiting for the lifts."
+   "answer": "The main entrance descends from the palace ruins by iron cage elevators, which can be slow and dangerous during an attack. The Sewers offer Forsaken bat traffic a direct, sloped route and a quick way out without waiting for the lifts."
   },
   {
    "q": "Is the sewer safe from Alliance raiders?",
@@ -41,17 +41,17 @@
     "is sewer guarded",
     "undercity sewer defense"
    ],
-   "answer": "No. The Sewers bypass Lordaeron's fortified gatehouse and throne room, making them a breach point for Alliance scouts and strike teams trying to enter the Forsaken capital unseen."
+   "answer": "No. The Sewers bypass Lordaeron's fortified gatehouse and throne room, leaving a breach point for Alliance scouts and strike teams seeking to enter the Forsaken capital unseen."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the Sewers are an essential lifeline and flight corridor, keeping the Undercity connected to the rest of Lordaeron without crowding the courtyard elevators."
+   "text": "For the Forsaken, the Sewers keep the Undercity connected to the rest of Lordaeron. They carry bat traffic and ease the crowds at the courtyard elevators."
   },
   {
    "target": "faction:Alliance",
-   "text": "If you assault the Forsaken capital, the Sewers offer a covert route past the heavily defended surface ruins."
+   "text": "If you assault the Forsaken capital, the Sewers offer a hidden route past the heavily defended surface ruins."
   }
  ],
  "keywords": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Sewers"
  ],
- "style": 1
+ "style": 2
 }

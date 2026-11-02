@@ -17,16 +17,16 @@
   "wiki": "Graveborn the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, Graveborn the Elder waits near Brill in Tirisfal Glades. Travelers seek him among the blighted groves to honor Azeroth’s ancient forebears, and receive his blessing and a holiday token.",
+ "summary": "During the Lunar Festival, Graveborn the Elder waits outside Brill in Tirisfal Glades. Travelers find him among its blighted groves to honor Azeroth’s ancient forebears and receive his blessing and a holiday token.",
  "sections": [
   {
    "title": "A Ghostly Vigil in Brill",
-   "body": "In Tirisfal Glades, the Forsaken live among ruined manors and grave sites. During the Lunar Festival, a spirit from ancient times appears just outside Brill. Elder Graveborn welcomes pilgrims who pause to honor the old ways, even in a land shattered by the Scourge and reclaimed by the undead.",
+   "body": "In Tirisfal Glades, the Forsaken make their homes among ruined manors and grave sites. During the Lunar Festival, an ancient spirit appears just outside Brill. Elder Graveborn welcomes pilgrims who pause to honor the old ways, even in a land shattered by the Scourge and reclaimed by the undead.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Olden Races",
-   "body": "During the Lunar Festival, spirits from long-past eras return with wisdom and gratitude. When you approach Elder Graveborn, he says it heartens him that Tirisfal’s people still honor their ancestors despite the land’s decay. He gives a Coin of Ancestry to those who greet him.",
+   "body": "During the Lunar Festival, spirits from long ago return with wisdom and gratitude. When you approach Elder Graveborn, he says it heartens him that Tirisfal’s people still honor their ancestors despite the land’s decay. He gives you a Coin of Ancestry when you greet him.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is graveborn",
     "graveborn coords"
    ],
-   "answer": "Elder Graveborn waits near the roadside outside Brill in Tirisfal Glades."
+   "answer": "Elder Graveborn waits beside the road outside Brill in Tirisfal Glades."
   },
   {
    "q": "What happens when you speak to Elder Graveborn?",
@@ -56,7 +56,7 @@
     "graveborn lore",
     "who is elder graveborn"
    ],
-   "answer": "During the Lunar Festival, ancient ancestral spirits appear across Azeroth, from kaldorei forests to lands scarred by war and plague. Elder Graveborn watches over northern Lordaeron, where death threatens to eclipse the region’s history."
+   "answer": "During the Lunar Festival, ancestral spirits appear across Azeroth, from kaldorei forests to lands scarred by war and plague. Elder Graveborn watches over northern Lordaeron, where death threatens to eclipse the region’s history."
   },
   {
    "q": "Can Alliance players visit Elder Graveborn?",
@@ -65,7 +65,7 @@
     "alliance graveborn the elder",
     "graveborn hostile"
    ],
-   "answer": "Elder Graveborn is a neutral spirit who speaks with both Alliance and Horde members. Since he waits just outside the Forsaken town of Brill, Alliance adventurers must beware the local guards."
+   "answer": "Elder Graveborn is a neutral spirit who speaks with Alliance and Horde members alike. Since he waits just outside the Forsaken town of Brill, Alliance adventurers must beware the local guards."
   },
   {
    "q": "What is the Coin of Ancestry used for?",
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken living in Brill, you see the ancient ancestral spirits arrive as a reminder of Azeroth’s deeper history beyond the Scourge’s recent tragedies."
+   "text": "As Forsaken living in Brill, you see ancient ancestral spirits arrive as a reminder of Azeroth’s deeper history beyond the Scourge’s recent tragedies."
   },
   {
    "target": "faction:Alliance",
@@ -114,5 +114,5 @@
  "attribution": [
   "Graveborn the Elder"
  ],
- "style": 1
+ "style": 2
 }

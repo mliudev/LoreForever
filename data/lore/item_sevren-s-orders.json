@@ -10,11 +10,11 @@
    "quest:405"
   ]
  },
- "summary": "In Brill, Magistrate Sevren sends a proven Forsaken agent to the Undercity. The orders direct the agent to Bethor Iceshard in the Magic Quarter.",
+ "summary": "In Brill, Magistrate Sevren sends a proven Forsaken agent south to the Undercity. The orders direct the agent to Bethor Iceshard in the Magic Quarter.",
  "sections": [
   {
    "title": "Summons to the Capital",
-   "body": "Skilled Forsaken agents who prove themselves against the Scourge in Tirisfal Glades are summoned south as their people strengthen their hold on Lordaeron. Magistrate Sevren writes the orders as an introduction and credentials for Bethor Iceshard, one of the Dark Lady's foremost arcane practitioners in the Magic Quarter. Sevren knows only that the assignment concerns reaching out to an errant lich. The Undercity's high mages give the summons their full authority.",
+   "body": "Forsaken agents who prove themselves against the Scourge in Tirisfal Glades are summoned south as their people strengthen their hold on Lordaeron. Magistrate Sevren writes these orders as an introduction and credentials for Bethor Iceshard, one of the Dark Lady's foremost arcane practitioners in the Magic Quarter. Sevren knows only that the assignment concerns reaching out to an errant lich. The Undercity's high mages give the summons their full authority.",
    "spoiler": 0
   }
  ],
@@ -87,5 +87,5 @@
   "Sevren's Orders",
   "The Prodigal Lich"
  ],
- "style": 1
+ "style": 2
 }

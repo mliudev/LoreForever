@@ -577,16 +577,18 @@ local function packOf(key)
   return Voice.InLanguage(key)
 end
 
--- Narrator families (voice pack layering, option A: Mike, 10/21). A man's and a woman's narrator don't fill in for each
--- other: the top narrator's gender is the family's, and a voice of the other gender plays nothing (its stories show as
--- text) unless the player allows it (voiceFillGender, Options > Narration voices). A voice whose gender we can't tell (a
--- community pack without ## X-LoreForever-Gender) belongs to every family, so a community narrator plays his stories
--- and the Chronicler fills the rest. Language is a wall by construction: only packs in the language shown are in the
--- chain, and English fills in only with voiceFillLanguage (englishFill).
-local function familyOf(lead, s)
+-- Narrator families (voice pack layering, option A: Mike, 10/21). The top narrator's gender is the family's. A man's
+-- and a woman's narrator fill in for each other (Mike, 11/1: hearing the story in the other narrator's voice beats
+-- silence), below the player's own narrator, unless the player turns that off (voiceFillGender, Options > Narration
+-- voices): then a voice of the other gender plays nothing and its stories show as text. `strict` asks about the
+-- family alone, whatever that setting (where a newly installed voice goes in the list). A voice whose gender we can't
+-- tell (a community pack without ## X-LoreForever-Gender) belongs to every family, so a community narrator plays his
+-- stories and the Chronicler fills the rest. Language is a wall by construction: only packs in the language shown are
+-- in the chain, and English fills in only with voiceFillLanguage (englishFill).
+local function familyOf(lead, s, strict)
   local want = lead and Voice.Gender(lead)
   return function(name)
-    if s.voiceFillGender or not want then return true end
+    if (s.voiceFillGender and not strict) or not want then return true end
     local g = Voice.Gender(name)
     return g == nil or g == want
   end
@@ -614,7 +616,9 @@ local function englishFill(s, ranked, fits)
   end
   local out = {}
   for id, h in pairs(english) do
-    if not ranked[id] then
+    -- Not under text a whole language pack shows in its own shape, or withholds (Lang.lua): it reads something else.
+    local e = ns.DB.entries[id:match("^(.-)#") or id]
+    if not ranked[id] and not (e and (e.hide or e.ownShape)) then
       for _, v in ipairs(voices) do
         for _, pack in ipairs(v[2]) do
           local data = ns.Packs.data[pack]
@@ -799,9 +803,22 @@ function Voice.Resolve(id)
   return Voice.servedBy[id] or Voice.questServed[id], paths and paths[1]
 end
 
+-- A narrator filling in (Mike, 11/1): when a story is told by a voice of the other gender than the player's top
+-- narrator, because theirs hasn't recorded it, that voice's title and the top one's; nil otherwise (and for quest
+-- dialogue, where a woman's lines in a woman's voice is the plan, not a stand-in). The player's title says it on
+-- hover (UI.lua), so the change of voice isn't a surprise and asks nothing of the player.
+function Voice.StandIn(id)
+  local voice = id and Voice.servedBy[id]
+  local top = Voice.Current()
+  local lead = top ~= "none" and packOf(top)
+  local want, g = lead and Voice.Gender(lead), voice and Voice.Gender(voice)
+  if not (want and g) or g == want then return nil end
+  return Voice.PackName(voice), Voice.PackName(lead)
+end
+
 -- Voices installed since the last login go to the bottom of the narrator list, ticked, with a line in chat that says
 -- where to move them up: installing a pack never changes what plays (a voice below the others only fills their gaps,
--- and one of the other gender plays nothing: familyOf). After moving from the one-voice setting they're added unticked
+-- and with the fill-in off one of the other gender plays nothing: familyOf). After moving from the one-voice setting they're added unticked
 -- at the bottom, so nothing changes for the player. A voice that can't be used
 -- (another language, disabled, too new) goes to the bottom without a word, to show greyed in the list. Lands packs
 -- aren't voices. A pack combat kept from loading waits for OnCombatEnded; returns true if one did.
@@ -852,12 +869,13 @@ local function adoptNew(quiet)
   -- Original put the old narrator first, and two men took turns in 42 of 62 zones.)
   -- One exception (the PM, 10/21): a narrator of the other family while the default voice still leads the list was
   -- chosen on purpose (the installer's "female narrator", or her pack downloaded: she never comes with the add-on), and
-  -- at the bottom she'd read nothing, so she goes on top. A list the player arranged keeps its top.
+  -- at the bottom she'd only fill his gaps (or read nothing, with the fill-in off), so she goes on top, and he fills
+  -- hers. A list the player arranged keeps its top.
   local top = Voice.Current()
-  local fits = familyOf(top ~= "none" and packOf(top) or nil, s)
+  local family = familyOf(top ~= "none" and packOf(top) or nil, s, true)
   local first
   for _, key in ipairs(new) do
-    if not first and top == AUTO and not fits(packOf(key)) then
+    if not first and top == AUTO and not family(packOf(key)) then
       first = key
       table.insert(s.voiceOrder, 1, key)
     else
@@ -869,9 +887,11 @@ local function adoptNew(quiet)
     local name = packOf(key)
     local have = Voice.Count(name)
     local title = string.format(have == 1 and L["%s (%d narration)"] or L["%s (%d narrations)"], Voice.PackName(name), have)
-    if key == first then
+    if key == first and s.voiceFillGender then
+      say(string.format(L["new voice: %s. It reads first now, and the default narrator reads the stories it hasn't recorded. To change the order, see Options > Narration voices."], title))
+    elseif key == first then
       say(string.format(L["new voice: %s. It reads first now. Stories it hasn't recorded show as text; to let the default narrator fill those in, or to change the order, see Options > Narration voices."], title))
-    elseif fits(name) then
+    elseif s.voiceFillGender or family(name) then
       say(string.format(L["new voice: %s. It's at the bottom of your narrator list, so it only reads stories the voices above it haven't recorded. To hear it first, move it up in Options > Narration voices."], title))
     else
       say(string.format(L["new voice: %s. It's at the bottom of your narrator list and won't read anything until you move it to the top in Options > Narration voices."], title))
@@ -1577,6 +1597,23 @@ function Voice.TransportFor(key, pack)
   end
 end
 
+-- Where section 1 starts in a complete story's pieces (the piece marked head = 1, scripts/transport_assets.py), in
+-- seconds, or nil where the recording has no such mark (one piece, an older pack, no cut there).
+function Voice.SectionOneAt(row)
+  for i, n in pairs(row and row.heads or {}) do
+    if n == 1 then return row.rates[1][i].start end
+  end
+end
+
+-- The pieces a play from the start would pick (the first voice's recording, Voice.Play), when it's a complete story
+-- in pieces; nil otherwise.
+function Voice.StoryPieces(key)
+  local paths = Voice.HasAudio(key) and (Voice.active[key] or Voice.questPaths[key])
+  local pack = paths and paths[1] and Voice.PackOf(paths[1])
+  local row = pack and Voice.Transport(key, pack, true)
+  return row and row.chain and row or nil
+end
+
 local function soundPlaying()
   if Voice.handle and _G.C_Sound and C_Sound.IsPlaying then
     local ok, playing = pcall(C_Sound.IsPlaying, Voice.handle)
@@ -1645,6 +1682,9 @@ local function beginTransport(row, options)
   if not offset or offset ~= offset or offset < 0 or offset == math.huge or offset >= row.duration then offset = 0 end
   local parts, index = withHeadings(row, row.rates[rate]), 1
   for i, part in ipairs(parts) do if part.start <= offset then index = i else break end end
+  -- A full listen from section 1 (UI) opens with that section's heading, where it has one.
+  local before = parts[index - 1]
+  if options and options.section and before and before.heading and before.start == offset then index = index - 1 end
   local t = { row = row, parts = parts, rate = rate, index = index, lastTick = (GetTime and GetTime()) or 0 }
   if not segment(t, index) then return false end
   Voice.transport, Voice.transportToken = t, {}
@@ -1723,6 +1763,8 @@ function Voice.Play(key, options)
   if not paths or not _G.PlaySoundFile then return false end
   Voice.Stop()
   local continuing = options and type(options.pack) == "string" and finite(options.offset)
+  -- A fresh start at section 1 (UI) that can't start there says nothing: UI plays it from its start instead.
+  local quiet = options and options.section
   for _, path in ipairs(paths) do
     local pack = Voice.PackOf(path)
     if not continuing or pack == options.pack then
@@ -1733,7 +1775,10 @@ function Voice.Play(key, options)
       if pieces then whole, row = nil, whole end   -- a complete story in pieces: play them in turn
       local resume = row and options and options.pack == pack and options.hash == row.hash
         and options.fullHash == row.fullHash
-      if continuing and not resume then warnCantPlay(path) return false end
+      if continuing and not resume then
+        if not quiet then warnCantPlay(path) end
+        return false
+      end
       local wanted = resume and options or { rate = Voice.PlaybackRate() }
       local started = row and beginTransport(row, wanted)
       local handle
@@ -1741,7 +1786,7 @@ function Voice.Play(key, options)
         Voice.brokenTransport[pack .. ":" .. key] = true
         if resume and (tonumber(options.offset) or 0) > 0 then
           -- A continuation must never quietly jump to the beginning of a whole-file recording.
-          warnCantPlay(path)
+          if not quiet then warnCantPlay(path) end
           return false
         end
       end
@@ -1788,7 +1833,7 @@ function Voice.Play(key, options)
       dbg("can't play", path)
     end
   end
-  if not (ns.lang and ns.lang.edition) then warnCantPlay(paths[1]) end
+  if not (ns.lang and ns.lang.edition or quiet) then warnCantPlay(paths[1]) end
   return false
 end
 

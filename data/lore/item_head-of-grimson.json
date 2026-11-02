@@ -10,16 +10,16 @@
    "quest:424"
   ]
  },
- "summary": "At the Deep Elem Mine, Grimson the Pale's severed head proves the Forsaken have secured its riches. Dalar Dawnweaver receives the trophy at the Sepulcher, and the mine's minerals can supply Varimathras's military campaigns.",
+ "summary": "At the Deep Elem Mine, Head of Grimson proves the Forsaken have secured its riches. Dalar Dawnweaver receives the trophy at the Sepulcher, and the mine's minerals can supply Varimathras's campaigns.",
  "sections": [
   {
    "title": "Securing the Deep Elem Mine",
-   "body": "Forsaken scouts called Darkstalkers found a strategic threat brewing in the southeastern hills. Archmage Arugal's shadowy enchantments had corrupted workers in the Deep Elem Mine and driven its overseer, Grimson the Pale, mad. From the Sepulcher, Dalar Dawnweaver sent champions to kill Grimson and bring back his severed head. The trophy confirms the mine is free of rogue magic, leaving its underground wealth for Varimathras's forces.",
+   "body": "Darkstalkers, Forsaken scouts, found a threat growing in the southeastern hills. Archmage Arugal's shadowy enchantments corrupted Deep Elem Mine's workers and drove its overseer, Grimson the Pale, mad. From the Sepulcher, Dalar Dawnweaver sent champions to kill Grimson and bring back his severed head. The trophy shows the mine is free of rogue magic, leaving its underground wealth for Varimathras's forces.",
    "spoiler": 0
   },
   {
    "title": "A Trophy for the Dreadlord",
-   "body": "The head of Grimson marks the end of his rule over the Deep Elem Mine. With the overseer gone, the Forsaken can work its rich mineral veins and turn the ore into weapons and armor. Those supplies sustain their advance across Silverpine Forest and the neighboring reaches of Lordaeron.",
+   "body": "Grimson's head marks the end of his rule over Deep Elem Mine. With the overseer gone, the Forsaken can work its rich mineral veins and make weapons and armor from the ore. Those supplies support their advance across Silverpine Forest and the neighboring reaches of Lordaeron.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "grimson the pale lore",
     "grimson background"
    ],
-   "answer": "Grimson the Pale was the overseer of the Deep Elem Mine in Silverpine Forest's southeastern hills. Arugal's spreading shadow magic corrupted him and the other miners, until the Forsaken intervened."
+   "answer": "Grimson the Pale oversaw the Deep Elem Mine in Silverpine Forest's southeastern hills. Arugal's spreading shadow magic corrupted him and the other miners until the Forsaken intervened."
   },
   {
    "q": "Why does Dalar Dawnweaver want Grimson's head?",
@@ -40,7 +40,7 @@
     "head of grimson purpose",
     "why take head"
    ],
-   "answer": "Dalar Dawnweaver wants Grimson's head as proof that the corrupted overseer has been eliminated. Varimathras wants the mine's mineral wealth for the Forsaken war effort, and Grimson's death breaks the corrupted miners' resistance in its tunnels."
+   "answer": "Dalar Dawnweaver wants Grimson's head as proof that the corrupted overseer is dead. Varimathras wants the mine's minerals for the Forsaken war effort, and Grimson's death breaks the corrupted miners' resistance in its tunnels."
   },
   {
    "q": "Where is the Deep Elem Mine located?",
@@ -49,7 +49,7 @@
     "grimson location",
     "mine location silverpine"
    ],
-   "answer": "The Deep Elem Mine lies in the hills southeast of the Sepulcher in Silverpine Forest. The Forsaken contest its minerals with remnants corrupted by Arugal's magic."
+   "answer": "Deep Elem Mine lies in the hills southeast of the Sepulcher in Silverpine Forest. The Forsaken contest its minerals with remnants corrupted by Arugal's magic."
   },
   {
    "q": "What role does Varimathras play in this task?",
@@ -58,13 +58,13 @@
     "why does varimathras want mine",
     "varimathras silverpine"
    ],
-   "answer": "Varimathras directs Forsaken expansion across Lordaeron from the Undercity. The mine's resources serve his strategic goals by providing raw materials for his war effort in Silverpine."
+   "answer": "Varimathras directs Forsaken expansion across Lordaeron from the Undercity. The mine's resources serve his plans by providing raw materials for his war effort in Silverpine."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, claiming the mine fulfills Undercity high command's plans and proves your resolve to reclaim Lordaeron's vital infrastructure from maddened remnants."
+   "text": "As Forsaken, claiming the mine fulfills Undercity high command's plans. It proves your resolve to reclaim Lordaeron's vital infrastructure from maddened remnants."
   },
   {
    "target": "profession:Mining",
@@ -95,5 +95,5 @@
   "Head of Grimson",
   "Arugal's Folly (3)"
  ],
- "style": 1
+ "style": 2
 }

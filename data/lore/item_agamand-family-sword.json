@@ -10,16 +10,16 @@
    "quest:1821"
   ]
  },
- "summary": "In northern Tirisfal, the Agamand Family Sword remains in the family crypt. The tarnished blade once marked the wealth and standing of the mill-owning dynasty, and Coleman Farthing now seeks it to erase their legacy.",
+ "summary": "In northern Tirisfal, the Agamand Family Sword remains in the family crypt. The tarnished blade once marked the wealth and standing of the mill-owning dynasty. Coleman Farthing now seeks it to erase their legacy.",
  "sections": [
   {
    "title": "A Legacy in the Tomb",
-   "body": "The Agamands once held great wealth and influence through their mills in northern Tirisfal Glades. When the Scourge swept through Lordaeron, the family met a gruesome end, and their bodies rose as mindless thralls of the Lich King. Their ancestral weapons, including the ceremonial sword, were sealed inside the Agamand Family Crypt at the northern edge of the mills. Taking these blades from their burial racks is an act meant to break the memory and noble standing of the fallen household.",
+   "body": "The Agamands once held wealth and influence through their mills in northern Tirisfal Glades. When the Scourge swept through Lordaeron, the family met a gruesome end. Their bodies rose as mindless thralls of the Lich King.\n\nTheir ancestral weapons, including the ceremonial sword, were sealed inside the Agamand Family Crypt at the northern edge of the mills. Taking the blades from their burial racks is meant to break the memory and noble standing of the fallen household.",
    "spoiler": 0
   },
   {
    "title": "Vengeance from Beyond the Grave",
-   "body": "Coleman Farthing, a Forsaken living in Brill, seeks the sword. He served the Agamands in life and blames his former masters for his death. Farthing sends adventurers to claim the sword along with the dynasty's ancestral axe, dagger, and mace. He aims to strip the shambling Agamands of their last shred of honor and extinguish their bloodline's dignity.",
+   "body": "Coleman Farthing lives in Brill and seeks the sword. He served the Agamands in life and blames his former masters for his death. Farthing sends adventurers to claim the sword and the dynasty's ancestral axe, dagger, and mace.\n\nHe aims to strip the shambling Agamands of their last shred of honor and extinguish their bloodline's dignity.",
    "spoiler": 1
   }
  ],
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, reclaiming artifacts from Tirisfal's former nobility means settling scores with a living past that failed to protect them."
+   "text": "As Forsaken, you reclaim artifacts from Tirisfal's former nobility to settle scores with a living past that failed to protect you."
   },
   {
    "target": "class:Warrior",
@@ -91,5 +91,5 @@
   "Agamand Family Sword",
   "Agamand Heirlooms"
  ],
- "style": 1
+ "style": 2
 }

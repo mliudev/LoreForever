@@ -22,16 +22,16 @@
    "A New Plague (4)"
   ]
  },
- "summary": "In Brill, A New Plague begins with blood taken from darkhounds. Apothecary Johaan gathers the samples for the Royal Apothecary Society, acting on Lady Sylvanas Windrunner’s command.",
+ "summary": "In Brill, Apothecary Johaan gathers blood from darkhounds for a new plague. The Royal Apothecary Society works at Lady Sylvanas Windrunner’s command.",
  "sections": [
   {
    "title": "A Royal Mandate",
-   "body": "Apothecary Johaan works in Brill for the Royal Apothecary Society, under orders from the Dark Lady. Sylvanas Windrunner has charged her alchemists with making a disease unlike any Azeroth has known. The original Plague of Undeath served the Lich King, slaughtering humanity and binding their souls. This new plague is meant to annihilate Arthas Menethil and lay waste to his Scourge legions.",
+   "body": "Apothecary Johaan serves the Royal Apothecary Society in Brill, under orders from the Dark Lady. Sylvanas Windrunner has charged her alchemists with making a disease unlike any Azeroth has known.\n\nThe Lich King's Plague of Undeath slaughtered humanity and bound their souls. This new plague is meant to annihilate Arthas Menethil and lay waste to his Scourge legions.",
    "spoiler": 0
   },
   {
    "title": "Raw Ingredients",
-   "body": "Johaan needs grim experiments to develop a weapon against the undead. He believes the blood of native beasts may hold useful chemical properties, beginning with darkhounds roaming Tirisfal Glades. You gather vials of their tainted blood so Johaan can isolate elements and test whether the beasts' resilience and predatory nature can help create a lethal contagion.",
+   "body": "Johaan seeks grim experiments for a weapon against the undead. He believes the blood of native beasts may hold useful chemical properties, and begins with darkhounds roaming Tirisfal Glades.\n\nYou gather vials of their tainted blood. Johaan can isolate its elements and test whether the beasts' resilience and predatory nature might help make a lethal contagion.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "purpose of new plague",
     "what does the plague do"
    ],
-   "answer": "Lady Sylvanas tasked the Royal Apothecary Society with brewing a disease deadlier than any other on Azeroth. Its aim is the destruction of Arthas and his Scourge army."
+   "answer": "Lady Sylvanas tasked the Royal Apothecary Society with brewing a disease deadlier than any other on Azeroth. It is meant to destroy Arthas and his Scourge army."
   },
   {
    "q": "Who is Apothecary Johaan?",
@@ -51,7 +51,7 @@
     "who is johaan",
     "apothecary johaan lore"
    ],
-   "answer": "Johaan is a member of the Royal Apothecary Society stationed in Brill. He conducts early field experiments, testing compounds gathered from Tirisfal's local beasts."
+   "answer": "Johaan serves the Royal Apothecary Society in Brill. He conducts early field experiments with compounds gathered from Tirisfal's local beasts."
   },
   {
    "q": "Why does Johaan need darkhound blood?",
@@ -67,7 +67,7 @@
     "difference between plagues",
     "scourge plague vs forsaken plague"
    ],
-   "answer": "The original Plague of Undeath was made by the Lich King to slaughter the living and bind their souls. Sylvanas's new plague is meant to bring ruin to Arthas's undead legions."
+   "answer": "The Lich King's Plague of Undeath was made to slaughter the living and bind their souls. Sylvanas's new plague is meant to bring ruin to Arthas's undead legions."
   },
   {
    "q": "Who ordered the creation of this plague?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you stand beside the Forsaken, whose alchemical work in Tirisfal focuses on a grim weapon aimed at Northrend."
+   "text": "As a member of the Horde, you stand beside the Forsaken. Their alchemical work in Tirisfal centers on a grim weapon aimed at Northrend."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "A New Plague"
  ],
- "style": 1
+ "style": 2
 }

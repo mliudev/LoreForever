@@ -21,16 +21,16 @@
    "The Sacred Flame (3)"
   ]
  },
- "summary": "Zangen Stonehoof sends the Horde after a sacred flame and an ancient relic. To aid Rau Cliffrunner in Thousand Needles, you seek a moonwell phial in Ashenvale.",
+ "summary": "Zangen Stonehoof sends you after a sacred flame and an ancient relic. To aid Rau Cliffrunner in Thousand Needles, you seek a moonwell phial in Ashenvale.",
  "sections": [
   {
    "title": "Centaur Relics and Elven Waters",
-   "body": "The Galak centaur guard an ancient relic in Thousand Needles. Their artifact dates to the creation of their race, and they protect it with sacred flames. Zangen Stonehoof needs water touched by lunar divinity to extinguish those flames. He sends you north to Ashenvale, where the ancestral forests hold the moonwell water he seeks.",
+   "body": "The Galak centaur guard an ancient relic in Thousand Needles. The artifact dates to the beginning of their race, and sacred flames protect it. Zangen Stonehoof needs water blessed by the moon to quench those flames. He sends you north to Ashenvale, where the old forests hold the moonwell water he seeks.",
    "spoiler": 0
   },
   {
    "title": "Trespassing in Ashenvale",
-   "body": "Pure moonwell water needs a vessel that will not corrupt it. You seek an etched phial from the Laughing Sisters, dryads near Raynewood Retreat. Then you submerge the phial in a moonwell along the western banks of the Falfarren River and carry it back to Mulgore.",
+   "body": "Pure moonwell water needs a vessel that will not taint it. You seek an etched phial carried by the Laughing Sisters, dryads near Raynewood Retreat. Submerge the phial in a moonwell along the western banks of the Falfarren River, then carry it back to Mulgore.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "purpose of moonwell water",
     "why get water from ashenvale"
    ],
-   "answer": "Zangen needs moonwell water for his associate Rau Cliffrunner in Thousand Needles. Rau plans to use its potent magic to extinguish the sacred flame guarded by the hostile Galak centaur, so the Horde can recover an ancient relic."
+   "answer": "Zangen needs moonwell water for Rau Cliffrunner, his associate in Thousand Needles. Rau means to use its magic to quench the sacred flame guarded by the hostile Galak centaur, clearing the way for the Horde to recover an ancient relic."
   },
   {
    "q": "Where can the etched phial be found?",
@@ -51,7 +51,7 @@
     "how to get etched phial",
     "phial location"
    ],
-   "answer": "The etched phial is carried by the Laughing Sisters, dryads who wander the woods around Raynewood Retreat in central Ashenvale, just off the northern road leading west from Splintertree Post."
+   "answer": "The Laughing Sisters carry the etched phial. These dryads wander the woods around Raynewood Retreat in central Ashenvale, just off the northern road leading west from Splintertree Post."
   },
   {
    "q": "Which moonwell should be used to fill the phial?",
@@ -60,7 +60,7 @@
     "moonwell location",
     "where to fill phial"
    ],
-   "answer": "The moonwell lies near the western bank of the Falfarren River, south of the main road across central Ashenvale."
+   "answer": "Use the moonwell near the western bank of the Falfarren River, south of the main road across central Ashenvale."
   },
   {
    "q": "Who are the Galak centaur?",
@@ -69,7 +69,7 @@
     "galak centaur",
     "who are galak"
    ],
-   "answer": "The Galak are an aggressive centaur clan in the dusty expanses of Thousand Needles. They guard an ancient relic from the founding era of their kind, ringed by a sacred bonfire that Zangen and Rau intend to douse."
+   "answer": "The Galak are an aggressive centaur clan in the dusty reaches of Thousand Needles. They guard an ancient relic from the founding of their kind, ringed by a sacred bonfire that Zangen and Rau mean to quench."
   },
   {
    "q": "Who receives the filled phial after Zangen?",
@@ -78,7 +78,7 @@
     "where does the water go next",
     "next step after zangen"
    ],
-   "answer": "After Zangen inspects the filled phial in Thunder Bluff, he sends you south to Thousand Needles to deliver it to Rau Cliffrunner, who requested it."
+   "answer": "After Zangen inspects the filled phial in Thunder Bluff, he sends you south to Thousand Needles. There you deliver it to Rau Cliffrunner, who requested it."
   },
   {
    "q": "Why kill dryads for their phials?",
@@ -87,21 +87,21 @@
     "why laughing sisters",
     "dryad vessels"
    ],
-   "answer": "Dryad vessels are specially made to hold pure, enchanted liquids without tainting them. Ordinary bottles cannot safely carry water imbued with the celestial energies of a night elf moonwell."
+   "answer": "Dryad vessels are made to hold pure, enchanted liquids without tainting them. Ordinary bottles cannot safely carry water imbued with the celestial power of a night elf moonwell."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Centaur hostility has plagued the tauren for generations. A relic from the centaur race's genesis can give Mulgore's tribes insight into their foes and leverage against them."
+   "text": "Centaur hostility has troubled the tauren for generations. A relic from the beginning of the centaur race may give Mulgore's tribes insight into their foes and an advantage against them."
   },
   {
    "target": "class:Druid",
-   "text": "Tauren druids face an uneasy choice: slay nature's daughters, the dryads, to gather sanctified waters for a strike against the centaur's sacred flames."
+   "text": "As a tauren druid, you face a hard choice: slay nature's daughters, the dryads, to gather sanctified waters for a strike against the centaur's sacred flames."
   },
   {
    "target": "faction:Horde",
-   "text": "Trouble around Raynewood Retreat risks inflaming night elf tensions in Ashenvale. Centaur relics in Thousand Needles bolster the Horde's southern frontiers."
+   "text": "Trouble around Raynewood Retreat risks worsening tensions with the night elves in Ashenvale. Centaur relics in Thousand Needles strengthen the Horde's southern frontiers."
   }
  ],
  "keywords": [
@@ -130,5 +130,5 @@
  "attribution": [
   "The Sacred Flame (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Innkeeper Pala",
   "refs": 1
  },
- "summary": "On Thunder Bluff’s lower rise, travelers find Innkeeper Pala tending the Cat and the Shaman. She offers a place to rest, cold drinks, and a hearthstone binding for journeys across Mulgore and beyond.",
+ "summary": "On Thunder Bluff’s lower rise, Innkeeper Pala welcomes travelers to the Cat and the Shaman. She offers a place to rest, cold drinks, and a hearthstone binding for journeys across Mulgore and beyond.",
  "sections": [
   {
    "title": "Hospitality on the Lower Rise",
-   "body": "Innkeeper Pala tends the hearth at the Cat and the Shaman on Thunder Bluff’s lower rise. Travelers arrive from the central lifts or the plains of Mulgore. In the common room, weary warriors, wandering druids, and the Horde’s visiting allies can find shelter, a warm drink, and a familiar place to rest.",
+   "body": "At the Cat and the Shaman on Thunder Bluff’s lower rise, Innkeeper Pala keeps the hearth. Travelers come from the central lifts or the plains of Mulgore. In the common room, weary warriors, wandering druids, and the Horde’s visiting allies find shelter, a warm drink, and a familiar place to rest.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "can i bind hearthstone thunder bluff",
     "what does pala sell"
    ],
-   "answer": "Pala can bind your hearthstone to the Cat and the Shaman, letting you return there instantly. She also sells simple food and drinks to restore health and mana."
+   "answer": "Pala can bind your hearthstone to the Cat and the Shaman, so you can return there at once. She also sells simple food and drinks to restore health and mana."
   },
   {
    "q": "What is the name of her tavern?",
@@ -75,5 +75,5 @@
  "attribution": [
   "Innkeeper Pala"
  ],
- "style": 1
+ "style": 2
 }

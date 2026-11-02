@@ -10,11 +10,11 @@
    "quest:376"
   ]
  },
- "summary": "In Deathknell, Scavenger Paw comes from the young, ragged wolves roaming the hills. Newly awakened Forsaken gather the severed paws for local caretakers to stitch into crude protective gear.",
+ "summary": "In Deathknell, Scavenger Paw comes from young, ragged wolves on the hills. Newly awakened Forsaken gather the paws so local caretakers can stitch them into crude protective gear.",
  "sections": [
   {
    "title": "Cobbled Armor in Deathknell",
-   "body": "Deathknell's newly returned Forsaken have little to spare. The Scourge and the Scarlet Crusade press against Tirisfal, so every scrap of hide and bone goes to practical use. Novice Elreth assists Shadow Priest Sarvis and gathers paws from scavenger wolves, along with bat wings. She uses them to make serviceable garments and armor for Forsaken who have just risen from their graves, still disoriented by their return.",
+   "body": "Newly returned Forsaken in Deathknell have little to spare. The Scourge and the Scarlet Crusade press against Tirisfal, so every scrap of hide and bone finds practical use. Novice Elreth assists Shadow Priest Sarvis by gathering paws from scavenger wolves, along with bat wings.\n\nShe makes serviceable garments and armor for Forsaken newly risen from their graves. They are still disoriented by their return.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "use for paws",
     "why collect paws"
    ],
-   "answer": "Novice Elreth collects Scavenger Paws in Deathknell and stitches raw animal parts into basic armor and garments for fresh Forsaken."
+   "answer": "Novice Elreth gathers Scavenger Paws in Deathknell and stitches animal parts into basic garments and armor for newly risen Forsaken."
   },
   {
    "q": "Where do you find them?",
@@ -50,11 +50,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a newly awakened Forsaken with decaying flesh and little gear, you can gather parts from local predators to assemble enough armor for Tirisfal's hazards."
+   "text": "As a newly awakened Forsaken with decaying flesh and little gear, you can gather parts from local predators to make enough armor for Tirisfal's dangers."
   },
   {
    "target": "profession:Tailoring",
-   "text": "As a tailor, you can see how Novice Elreth stitches wolf paws and bat wings into crude gear for the fledgling Forsaken settlements."
+   "text": "As a tailor, you can see how Novice Elreth stitches wolf paws and bat wings into crude gear for the young Forsaken settlements."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
   "Scavenger Paw",
   "The Damned (Classic)"
  ],
- "style": 1
+ "style": 2
 }

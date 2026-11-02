@@ -8,11 +8,11 @@
   "wiki": "Deathstalker Faerleia",
   "refs": 1
  },
- "summary": "Deep inside Pyrewood Village, Deathstalker Faerleia works against its leaders. From the town hall, she directs covert strikes against the Pyrewood Council, the puppets Arugal uses to rule the village.",
+ "summary": "In Pyrewood Village, Deathstalker Faerleia works against the leaders who rule it. From the town hall, she directs covert strikes against the Pyrewood Council, the puppets Arugal uses to govern the village.",
  "sections": [
   {
    "title": "Behind Enemy Lines",
-   "body": "Deathstalker Faerleia works from the upper levels of Pyrewood Village's town hall. As an agent of the Deathstalkers, the Undercity's covert intelligence and assassin branch, she has infiltrated the isolated human enclave in southern Silverpine Forest. The village holds dark secrets, including a curse that transforms its people beneath the night sky. From inside the settlement, Faerleia coordinates operations to disrupt it and calls on Horde operatives to eliminate influential members of the Pyrewood Council.",
+   "body": "Deathstalker Faerleia works from the upper levels of Pyrewood Village’s town hall. She serves the Deathstalkers, the Undercity’s covert intelligence and assassin branch, and has infiltrated the isolated human enclave in southern Silverpine Forest.\n\nThe village hides dark secrets, including a curse that transforms its people beneath the night sky. From inside the settlement, Faerleia coordinates operations to disrupt it and calls on Horde operatives to eliminate influential members of the Pyrewood Council.",
    "spoiler": 1
   }
  ],
@@ -24,7 +24,7 @@
     "who is faerleia",
     "deathstalker faerleia"
    ],
-   "answer": "Faerleia serves in the Deathstalkers, Queen Sylvanas Windrunner's stealth and intelligence division. She has slipped into Pyrewood Village to wage a covert war against its leadership."
+   "answer": "Faerleia serves in the Deathstalkers, Queen Sylvanas Windrunner’s stealth and intelligence division. She has slipped into Pyrewood Village to wage a covert war against its leadership."
   },
   {
    "q": "Where can Deathstalker Faerleia be found?",
@@ -33,7 +33,7 @@
     "faerleia location",
     "find faerleia"
    ],
-   "answer": "Faerleia can be found inside Pyrewood Village's town hall, in southern Silverpine Forest just north of the Greymane Wall."
+   "answer": "Faerleia can be found inside Pyrewood Village’s town hall, in southern Silverpine Forest just north of the Greymane Wall."
   },
   {
    "q": "What mission does she give?",
@@ -41,7 +41,7 @@
     "faerleia quest",
     "pyrewood ambush quest"
    ],
-   "answer": "Faerleia directs adventurers in the Pyrewood Ambush, an operation to assassinate the councilmen who govern Pyrewood Village and weaken the enclave's resistance to the Forsaken."
+   "answer": "Faerleia directs adventurers in the Pyrewood Ambush, an operation to assassinate the councilmen who govern Pyrewood Village and weaken the enclave’s resistance to the Forsaken."
   },
   {
    "q": "Why are the Deathstalkers targeting Pyrewood Village?",
@@ -59,7 +59,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a Rogue serving the Forsaken, you can look to Faerleia's field craft: she slips into the enemy's seat of power unnoticed and orchestrates ambushes."
+   "text": "As a Rogue serving the Forsaken, you can look to Faerleia’s field craft. She slips into the enemy’s seat of power unnoticed and orchestrates ambushes."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Deathstalker Faerleia"
  ],
- "style": 1
+ "style": 2
 }

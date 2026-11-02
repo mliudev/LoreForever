@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Venture Co. Mine"
  },
- "summary": "In Mulgore’s eastern cliffs, the Venture Co. Mine cuts into land the tauren refused to surrender. The goblin company digs for minerals without permission, threatening the plains’ natural balance.",
+ "summary": "In Mulgore’s eastern cliffs, Venture Co. Mine scars land the tauren hold sacred. The goblin company digs without permission, disturbing the plains’ natural balance.",
  "sections": [
   {
    "title": "Unwanted Industry",
-   "body": "The Venture Company tunnels through Mulgore’s eastern mountain wall despite the tauren’s refusal to grant mining rights. Supervisor Fizsprocket directs the work. Three entrances serve the complex: a ground tunnel guarded by hired muscle, a cliffside overlook, and an upper passage that leads to a small lumber camp. Machines, smoke, and slag heaps scar land the tauren hold sacred.",
+   "body": "The Venture Company tunnels through Mulgore’s eastern mountain wall, though the tauren refused it mining rights. Supervisor Fizsprocket directs the work. Three entrances lead inside: a ground tunnel guarded by hired muscle, a cliffside overlook, and an upper passage to a small lumber camp. Machines, smoke, and slag heaps scar land the tauren hold sacred.",
    "spoiler": 0
   },
   {
    "title": "Expanding Ambitions",
-   "body": "The Venture Company plans to extend its work beyond mining. Mogul Razdunk and the company’s board urged Fizsprocket to begin large-scale timber harvesting, promising advanced goblin shredders to clear the rolling hills. Tauren Outrunners attacked and burned a company supply caravan near Stonebull Lake’s northern shore to delay the expansion. Salvagers soon went to recover its cargo. The tribes now target the mine’s supervisors directly.",
+   "body": "The Venture Company means to expand beyond mining. Mogul Razdunk and the company’s board urged Fizsprocket to begin large-scale timber harvesting, promising advanced goblin shredders to clear the rolling hills.\n\nTauren Outrunners attacked and burned a company supply caravan near Stonebull Lake’s northern shore to delay the expansion. Salvagers soon went to recover its cargo. Now the tribes target the mine’s supervisors directly.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "venture co mulgore reason",
     "who runs the mine"
    ],
-   "answer": "The Venture Company wanted to extract minerals from Mulgore, but the tauren refused permission. The cartel disregarded their territorial claims and the land’s balance, sending workers and machines into the eastern cliffs to plunder the hills without authorization."
+   "answer": "The Venture Company wants minerals from Mulgore, but the tauren refused permission. The cartel ignores their territorial claims and the land’s balance, sending workers and machines into the eastern cliffs to plunder the hills."
   },
   {
    "q": "Who is in charge of this mining site?",
@@ -46,7 +46,7 @@
     "stonebull lake caravan",
     "who burned the caravan"
    ],
-   "answer": "Tauren Outrunners ambushed and burned a Venture Company supply caravan near Stonebull Lake’s northern shore to stop machinery from reaching the mine. Goblin salvage teams soon searched the wreckage for the company’s goods."
+   "answer": "Tauren Outrunners ambushed and burned a Venture Company supply caravan near Stonebull Lake’s northern shore to keep machinery from reaching the mine. Goblin salvage teams soon searched the wreckage for the company’s goods."
   },
   {
    "q": "What else do the goblins plan to build here?",
@@ -55,17 +55,17 @@
     "goblin shredders mulgore",
     "lumber camp plans"
    ],
-   "answer": "Beyond mining ore from the cliffs, the company plans to build a lumber mill and use shredders to clear Mulgore’s trees for profit."
+   "answer": "Beyond mining ore from the cliffs, the company plans a lumber mill and shredders to clear Mulgore’s trees for profit."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The mine insults the Earth Mother. Its soot, noise, and scars mark the ancestral valleys the tauren tribes have sworn to protect."
+   "text": "As a tauren, you know the mine insults the Earth Mother. Its soot, noise, and scars mark ancestral valleys your tribes have sworn to protect."
   },
   {
    "target": "profession:Engineering",
-   "text": "Past the mine tunnels and through the higher lumber clearing, Twizwick Sprocketgrind shares mechanical trade secrets away from corporate eyes."
+   "text": "As an engineer, you can find Twizwick Sprocketgrind beyond the mine tunnels and through the higher lumber clearing. He shares mechanical trade secrets away from corporate eyes."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Venture Co. Mine"
  ],
- "style": 1
+ "style": 2
 }

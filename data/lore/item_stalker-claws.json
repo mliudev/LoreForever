@@ -10,16 +10,16 @@
    "quest:756"
   ]
  },
- "summary": "Across Mulgore, Stalker Claws are taken from prairie stalkers for a cleansing rite. Tauren shamans bind them into totems used to purify tainted wells.",
+ "summary": "Across Mulgore, tauren shamans use Stalker Claws in a rite to cleanse tainted wells. They bind the claws into totems that purify the poisoned water.",
  "sections": [
   {
    "title": "Predators of the Plains",
-   "body": "Prairie stalkers hunt across Mulgore’s grassy steppes. Their stealth and lethal precision make them deadly predators, yet they keep an essential balance within the Earth Mother's design. Mull Thunderhorn needs their claws to help heal the blighted land. He seeks no harm to the beasts; the natural force of their hunt holds the spiritual strength needed to counter artificial corruption.",
+   "body": "Prairie stalkers hunt across Mulgore’s grassy steppes. Their stealth and precision make them deadly, yet they keep a necessary balance in the Earth Mother's design. Mull Thunderhorn needs their claws to help heal the blighted land. He seeks no harm to the beasts, for the natural force of their hunt holds the spiritual strength to counter artificial corruption.",
    "spoiler": 0
   },
   {
    "title": "Cleansing the Wells",
-   "body": "Goblin drilling and mining across central Kalimdor have sent chemical poisons into the underground waters that feed ancestral tauren wells. The Thunderhorn Water Well has been tainted by vile muck. Tribal shamans bind Stalker Claws and Cougar Claws into a Thunderhorn Cleansing Totem, a spiritual conduit that scours the unnatural sludge from the earth's springs.",
+   "body": "Goblin drilling and mining across central Kalimdor have sent chemical poisons into the underground waters that feed ancestral tauren wells. The Thunderhorn Water Well is tainted by vile muck. Tribal shamans bind Stalker Claws and Cougar Claws into a Thunderhorn Cleansing Totem. The totem scours unnatural sludge from the earth's springs.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who drops stalker claws",
     "stalker claws source"
    ],
-   "answer": "Prairie stalkers roam the grassy hills of Mulgore, especially east and west of Bloodhoof Village. Their claws are gathered by hunting them."
+   "answer": "Prairie stalkers roam Mulgore’s grassy hills, especially east and west of Bloodhoof Village. Their claws are gathered by hunting them."
   },
   {
    "q": "Why does Mull Thunderhorn need these claws?",
@@ -40,7 +40,7 @@
     "mull thunderhorn purpose",
     "use of stalker claws"
    ],
-   "answer": "Mull Thunderhorn needs the claws, along with flatland cougar claws, to make a Thunderhorn Cleansing Totem. The native hunters' purity and strength help purify the poisoned wells."
+   "answer": "Mull Thunderhorn needs Stalker Claws and flatland cougar claws to make a Thunderhorn Cleansing Totem. The native hunters' purity and strength help purify the poisoned wells."
   },
   {
    "q": "Why is the Thunderhorn Water Well tainted?",
@@ -58,7 +58,7 @@
     "next step after claws",
     "cleansing totem ritual"
    ],
-   "answer": "After the claws are gathered, Mull carves them into a cleansing totem. The totem must then be carried directly to the Thunderhorn Water Well to purge its lingering corruption."
+   "answer": "Mull carves the gathered claws into a cleansing totem. It must then be carried directly to the Thunderhorn Water Well to purge its lingering corruption."
   }
  ],
  "angles": [
@@ -68,7 +68,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you bind the fierce purity of wild plains predators into cleansing totems. Their claws are essential to empower the totems."
+   "text": "As a shaman, you bind the fierce purity of wild plains predators into cleansing totems. Their claws give the totems their power."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Stalker Claws",
   "Thunderhorn Totem (Classic)"
  ],
- "style": 1
+ "style": 2
 }

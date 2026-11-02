@@ -1,7 +1,7 @@
 {
  "key": "quest:99080",
  "type": "quest",
- "name": "Vertreibt sie",
+ "name": "Drive Them Out",
  "era": "forever",
  "zone": "general",
  "meta": {
@@ -78,6 +78,6 @@
  ],
  "style": 2,
  "attribution": [
-  "In-game quest text: Vertreibt sie"
+  "In-game quest text: Drive Them Out"
  ]
 }

@@ -17,16 +17,16 @@
   "wiki": "Devouring Plague (Undercity)",
   "chain": []
  },
- "summary": "Forsaken priests in the Undercity learn Devouring Plague from Priestess Aelthalyste. The rite is for those who have proven their dedication to shadow magic, and teaches a feared curse of the undead priesthood.",
+ "summary": "In the Undercity, Devouring Plague marks the shadow path of Forsaken priests. Priestess Aelthalyste teaches the rite to those who have proven their dedication to shadow magic.",
  "sections": [
   {
    "title": "A Curse of the Shadow",
-   "body": "In the Undercity’s War Quarter, Priestess Aelthalyste teaches Forsaken priests the grim arts of the Shadow. Priests of other races draw power from the Holy Light or ancestral spirits, but the Forsaken have shaped their own spiritual doctrines. Devouring Plague gives form to that path: it torments foes and drains their stolen vitality to sustain the caster’s decaying body.",
+   "body": "In the Undercity’s War Quarter, Priestess Aelthalyste teaches Forsaken priests the grim arts of the Shadow. Priests of other races draw on the Holy Light or ancestral spirits, while the Forsaken have shaped their own spiritual doctrines. Devouring Plague gives that path a fearsome form. It torments foes and drains their stolen vitality to sustain the caster’s decaying body.",
    "spoiler": 0
   },
   {
    "title": "A Test of Mastery",
-   "body": "Priestess Aelthalyste shares the plague’s power only with care. The spell is a weapon of potent malice, meant to turn the tide against the Scourge and the Scarlet Crusade. As she teaches it, she warns her disciples to practice until their command is sure. Greater trials await those who seek mastery of the dark arts.",
+   "body": "Priestess Aelthalyste shares the plague’s power with care. This potent weapon is meant to turn the tide against the Scourge and the Scarlet Crusade. She warns her disciples to practice until their command is sure. Greater trials await those who seek mastery of the dark arts.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "is devouring plague undead only",
     "other races devouring plague"
    ],
-   "answer": "Devouring Plague isn't hers alone to give: every priest, whatever their race, learns it from a priest trainer at level 20. The Forsaken's own racial teachings are Touch of Weakness and Dark Sacrifice."
+   "answer": "Devouring Plague is not hers alone to give. Every priest, whatever their race, learns it from a priest trainer at level 20. The Forsaken's own racial teachings are Touch of Weakness and Dark Sacrifice."
   },
   {
    "q": "Where do I turn in this quest?",
@@ -65,7 +65,7 @@
     "where is devouring plague quest",
     "undercity priest trainer location"
    ],
-   "answer": "Priestess Aelthalyste is in the War Quarter of the Undercity, among the Forsaken priest instructors and practitioners."
+   "answer": "Priestess Aelthalyste is among the Forsaken priest instructors and practitioners in the Undercity’s War Quarter."
   },
   {
    "q": "Why do Forsaken priests specialize in plague and shadow magic?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a Forsaken priest, you learn one of your most dreaded spells, tying your survival to the affliction you inflict on your enemies."
+   "text": "As a Forsaken priest, you learn one of your most dreaded spells. Your survival is bound to the affliction you inflict on your enemies."
   },
   {
    "target": "race:Undead",
-   "text": "As an Undead, you inherit a path of plague-like shadowcraft that reflects the Forsaken’s departure from traditional Lordaeron worship after the Third War."
+   "text": "As an Undead, you inherit a path of plague-like shadowcraft. It reflects the Forsaken’s departure from traditional Lordaeron worship after the Third War."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you bring ruthless, disease-like curses to its arsenal, while other allies rely on ancestral spirits or elemental balance."
+   "text": "As a member of the Horde, you bring ruthless, disease-like curses to its arsenal. Other allies rely on ancestral spirits or elemental balance."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Devouring Plague (Undercity)"
  ],
- "style": 1
+ "style": 2
 }

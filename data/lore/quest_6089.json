@@ -23,16 +23,16 @@
    "Training the Beast (Tauren)"
   ]
  },
- "summary": "In Mulgore, young tauren hunters learn to live and hunt beside a beast. After proving their patience and resolve by soothing the plains’ wild creatures, they travel to Thunder Bluff to learn the lasting bond of care and command.",
+ "summary": "In Mulgore, Training the Beast brings young tauren hunters to the next step in learning beside a beast. After soothing the plains’ wild creatures, they travel to Thunder Bluff to learn the lasting bond of care and command.",
  "sections": [
   {
    "title": "The Path to the Great Bluff",
-   "body": "After facing plainstriders, prairie stalkers, and swoops in Mulgore, tauren hunters are ready to take up the full mantle of the hunter. Yaw Sharpmane, their mentor in Bloodhoof Village, sends each novice to Hunter Rise in Thunder Bluff. There, Holt Thunderhorn teaches them. The shu'halo honor him for communing with the wilds, and his reverence for the Earthmother is greater still.",
+   "body": "Tauren hunters in Mulgore have faced plainstriders, prairie stalkers, and swoops. Now Yaw Sharpmane, their mentor in Bloodhoof Village, sends each novice to Hunter Rise in Thunder Bluff to take up the full mantle of the hunter. There, Holt Thunderhorn teaches them. The shu'halo honor him for communing with the wilds, and his reverence for the Earthmother is greater still.",
    "spoiler": 0
   },
   {
    "title": "A Sacred Bond",
-   "body": "To the tauren, a beast is a partner joined through harmony with the natural world, never a weapon or thrall. Holt Thunderhorn teaches hunters how to sustain that bond. They learn to guide a creature's combat instincts, feed it regularly, mend its injuries, and call its spirit back if it falls defending its companion on the plains.",
+   "body": "To the tauren, a beast is a partner joined through harmony with the natural world, never a weapon or thrall. Holt Thunderhorn teaches hunters how to keep that bond strong. They learn to guide a creature's combat instincts, feed it regularly, and mend its injuries. If it falls defending its companion on the plains, they can call its spirit back.",
    "spoiler": 0
   }
  ],
@@ -62,7 +62,7 @@
     "pet quest mulgore",
     "training the beast chain"
    ],
-   "answer": "This is the final step in the sequence. It follows The Hunter's Path and the three trials of Taming the Beast, where you temporarily pacify an adult plainstrider, a prairie stalker, and a swoop across the plains."
+   "answer": "Training the Beast is the final step in the sequence. It follows The Hunter's Path and the three trials of Taming the Beast, where you temporarily pacify an adult plainstrider, a prairie stalker, and a swoop across the plains."
   },
   {
    "q": "Why does Holt Thunderhorn hold such high standing among tauren hunters?",
@@ -123,5 +123,5 @@
  "attribution": [
   "Training the Beast (Tauren)"
  ],
- "style": 1
+ "style": 2
 }

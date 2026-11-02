@@ -310,14 +310,24 @@ local function dec(s, p, width)
   return n
 end
 
+-- The entry for key when it has lore to show in the reading language: nil when there's none, or when a whole language
+-- pack withholds it (hide: Lang.lua), so nothing offers, records or names a page that would open blank.
+function Engine.Readable(db, key)
+  local e = type(key) == "string" and db and db.entries and db.entries[key]
+  if e and not e.hide then return e end
+end
+
 -- The texts an entry is searched by: {kind, idx, head, body}. Heads (names, questions, aliases, titles) also get
--- joined bigrams; bodies only single words, since body bigrams are nearly all unique and would bloat the index.
+-- joined bigrams; bodies only single words, since body bigrams are nearly all unique and would bloat the index. An
+-- entry or FAQ with nothing to show in the reading language (hide, blank: Lang.lua) has none.
 function Engine.DocTexts(e)
-  local out = { { 0, 0, e.n .. " " .. e.n .. " " .. table.concat(e.kw or {}, " "), e.s } }
+  if e.hide then return {} end
+  local head = e.n .. " " .. e.n .. (e.enHead and " " .. e.en .. " " .. e.en or "")   -- (enHead: Lang.lua mergeWhole)
+  local out = { { 0, 0, head .. " " .. table.concat(e.kw or {}, " "), e.s } }
   for i, f in ipairs(e.faq or {}) do
     -- Question and aliases count double; the answer text adds vocabulary the question lacks.
     local qa = f.q .. " " .. table.concat(f.al or {}, " ")
-    out[#out + 1] = { 1, i, qa .. " " .. qa .. " " .. e.n, f.a }
+    if not f.blank then out[#out + 1] = { 1, i, qa .. " " .. qa .. " " .. e.n, f.a } end
   end
   for i, sec in ipairs(e.sec or {}) do
     out[#out + 1] = { 2, i, sec.t, sec.b }
@@ -408,12 +418,14 @@ function Engine.new(db, english)
     db.search = db.search or Engine.BuildSearch(db)
     self:UseSearch(db.search)
   end
-  for key, e in pairs(db.entries) do self:IndexNames(key, e) end
+  for key, e in pairs(db.entries) do
+    if not e.hide then self:IndexNames(key, e) end   -- (an entry withheld in the reading language: Lang.lua)
+  end
   -- Entries that share their name with one in another zone ("Canals (Stormwind City)", "Canals (Undercity)"), so Ask
   -- can tell them apart by zone. Zones themselves are left out: the city Undercity isn't a namesake of its entrance.
   local groups, groupOf = {}, {}
   for key, e in pairs(db.entries) do
-    if e.z and e.t ~= "zone" and e.t ~= "city" and e.t ~= "dungeon" then
+    if e.z and e.t ~= "zone" and e.t ~= "city" and e.t ~= "dungeon" and not e.hide then
       local name = Engine.lower((e.n:gsub("%b()", ""))):match("^%s*(.-)%s*$")
       local g = groups[name]
       if not g then g = { name = name, zones = {}, keys = {}, n = 0 }; groups[name] = g end
@@ -429,7 +441,7 @@ function Engine.new(db, english)
   -- Quests by giver, for "why does this guy want me to do this?" before the quest is in the log.
   self.giverQuests = {}
   for key, e in pairs(db.entries) do
-    if e.t == "quest" and e.m and e.m.start then
+    if e.t == "quest" and e.m and e.m.start and not e.hide then
       local g = Engine.lower(e.m.start)
       self.giverQuests[g] = self.giverQuests[g] or {}
       table.insert(self.giverQuests[g], key)
@@ -597,7 +609,7 @@ function Engine:KeyForName(name)
   if k and k:find("^npc:") then return k, "exact" end
   local words, best, width = unitWords(name), nil, 0
   for key, aliases in pairs(Engine.MOB_ALIASES) do
-    if self.db.entries[key] then
+    if self.db.entries[key] and not self.db.entries[key].hide then
       for _, alias in ipairs(aliases) do
         local phrase = unitWords(alias)
         if words:find(phrase, 1, true) and (#phrase > width or (#phrase == width and (not best or key < best))) then
@@ -655,7 +667,7 @@ end
 function Engine:ContextKeys(ctx)
   local db, keys, seen = self.db, {}, {}
   local function add(k, w)
-    if k and db.entries[k] and not seen[k] then
+    if k and db.entries[k] and not db.entries[k].hide and not seen[k] then
       seen[k] = w
       keys[#keys + 1] = k
     end
@@ -707,7 +719,7 @@ function Engine:ZoneQuests(zk)
   if not list then
     list = {}
     for key, e in pairs(self.db.entries) do
-      if e.t == "quest" and e.z == zk then list[#list + 1] = key end
+      if e.t == "quest" and e.z == zk and not e.hide then list[#list + 1] = key end
     end
     table.sort(list)
     self.zoneQuests[zk] = list
@@ -1430,10 +1442,10 @@ end
 -- keep this independent of installed voices so reading and submission agree even when audio is unavailable.
 function Engine:CanonicalStoryKey(key)
   local e = key and self.db.entries[key]
-  if not e then return nil end
+  if not e or e.hide then return nil end
   if e.t == "subzone" then
     local z = self:ZoneKey(storyName(e.n)) or (e.en and self:ZoneKey(storyName(e.en)))
-    if z and self.db.entries["zone:" .. z] then return "zone:" .. z end
+    if z and Engine.Readable(self.db, "zone:" .. z) then return "zone:" .. z end
   end
   return key
 end

@@ -10,11 +10,11 @@
    "quest:99"
   ]
  },
- "summary": "At Pyrewood Village, enchanted shackles bind its beleaguered inhabitants to Archmage Arugal's strange magic. The bands are tied to the dark fate that grips the townsfolk when night falls.",
+ "summary": "At Pyrewood Village, enchanted shackles bind its people to Archmage Arugal's strange magic. When night falls, the townsfolk face a dark fate.",
  "sections": [
   {
    "title": "Arugal's Binding Magic",
-   "body": "Pyrewood's residents live ordinary lives by day, appearing as humans, then become feral Moonrage worgen at sunset. Archmage Arugal bound the villagers in enchanted shackles as part of his experiments with worgen sorcery. At the Sepulcher, Forsaken arcane researcher Dalar Dawnweaver studies the bands to learn what their enchantments do. He gathers and examines the lingering energy on them, hoping to understand Arugal's magic and loosen the mad archmage's hold over the region.",
+   "body": "Pyrewood's residents live as humans by day, then become feral Moonrage worgen at sunset. Archmage Arugal bound them in enchanted shackles during his experiments with worgen sorcery. At the Sepulcher, Forsaken arcane researcher Dalar Dawnweaver studies the bands. He gathers their lingering energy to learn what the enchantments do, understand Arugal's magic, and loosen the mad archmage's hold over the region.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "why gather shackles",
     "dalar dawnweaver shackles"
    ],
-   "answer": "At the Sepulcher, Dalar Dawnweaver studies the shackles' enchantments. He hopes their magic will help him unravel Archmage Arugal's spells and dismantle the archmage's influence in Silverpine Forest."
+   "answer": "At the Sepulcher, Dalar Dawnweaver studies the shackles' enchantments. He hopes to unravel Archmage Arugal's spells and dismantle the archmage's influence in Silverpine Forest."
   },
   {
    "q": "Who carries these shackles?",
@@ -89,5 +89,5 @@
   "Pyrewood Shackle",
   "Arugal's Folly (4)"
  ],
- "style": 1
+ "style": 2
 }

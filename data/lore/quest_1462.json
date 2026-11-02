@@ -17,11 +17,11 @@
   "wiki": "Earth Sapta (Mulgore)",
   "chain": []
  },
- "summary": "At Camp Narache, Seer Ravenfeather prepares another Earth Sapta when a young shaman loses the brew before completing the rite. The draught opens a novice’s sight to the spirits of stone and lets the trial continue.",
+ "summary": "At Camp Narache, Seer Ravenfeather prepares another Earth Sapta for a young shaman whose brew was lost before the rite was complete. The draught opens a novice’s sight to the spirits of stone, so the trial can continue.",
  "sections": [
   {
    "title": "A Visionary Draught",
-   "body": "Young shaman begin by learning to sense forces beyond ordinary sight. To meet Mulgore’s earth elementals, an initiate drinks a sapta, a ritual brew made with natural essences of stone and soil. The Earth Sapta lifts the veil between the physical and spiritual realms, letting a novice see and commune with the spirits of the land.",
+   "body": "Young shaman begin by learning to sense forces beyond ordinary sight. To meet Mulgore’s earth elementals, an initiate drinks a sapta made from natural essences of stone and soil. The Earth Sapta lifts the veil between the physical and spiritual realms. Then a novice can see and commune with the spirits of the land.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "earth sapta lore",
     "what does the brew do"
    ],
-   "answer": "An Earth Sapta is a herbal preparation brewed by shamanic elders. When an initiate drinks it, the draught awakens inner senses and grants the spiritual sight needed to perceive and commune with earth elementals hidden from ordinary eyes."
+   "answer": "An Earth Sapta is a brew prepared by shamanic elders. When an initiate drinks it, the draught awakens inner senses and grants the spiritual sight needed to perceive and commune with earth elementals hidden from ordinary eyes."
   },
   {
    "q": "Why would an initiate need another Earth Sapta?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Earth Sapta (Mulgore)"
  ],
- "style": 1
+ "style": 2
 }

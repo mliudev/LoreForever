@@ -21,11 +21,11 @@
    "A Husband's Revenge"
   ]
  },
- "summary": "In the Undercity, Raleigh Andrean sends you after the friend who murdered his wife.",
+ "summary": "In the Undercity, Raleigh Andrean sends you to hunt the man who murdered his wife.",
  "sections": [
   {
    "title": "A Bitter Memory",
-   "body": "An engraved ring from Silverpine Forest brings Raleigh Andrean's mortal memories back to him. He remembers his close friend Valdred Moray, who murdered Raleigh's wife, Deliah. The Scourge's chill and undeath have dulled Raleigh's grief and love, but his thirst for revenge remains. You are sent to find Valdred.",
+   "body": "An engraved ring from Silverpine Forest stirs Raleigh Andrean's mortal memories. He recalls his close friend Valdred Moray, who murdered Raleigh's wife, Deliah. The Scourge's chill and undeath have dulled his grief and love. Yet his thirst for revenge remains, and you are sent to find Valdred.",
    "spoiler": 0
   },
   {
@@ -35,7 +35,7 @@
   },
   {
    "title": "Cold Keepsakes",
-   "body": "Raleigh receives his former friend's hands without warmth or relief. With the score settled, he returns Deliah's wedding band, calling it a useless bauble. Valdred Moray's severed hands remain in the Undercity as a lasting reminder of betrayal.",
+   "body": "Raleigh receives his former friend's hands without warmth or relief. With the score settled, he returns Deliah's wedding band and calls it a useless bauble. Valdred Moray's severed hands remain in the Undercity, a lasting reminder of betrayal.",
    "spoiler": 1
   }
  ],
@@ -73,7 +73,7 @@
     "greymane wall closed",
     "why is valdred outside wall"
    ],
-   "answer": "No. King Genn Greymane sealed Gilneas behind a wall after the Second War, and its gates remain closed. Valdred, like many desperate refugees, is stranded there."
+   "answer": "No. King Genn Greymane sealed Gilneas behind a wall after the Second War, and its gates remain closed. Like many desperate refugees, Valdred is stranded there."
   },
   {
    "q": "What quests lead up to this task?",
@@ -82,7 +82,7 @@
     "prerequisite quest",
     "previous quest"
    ],
-   "answer": "The chain begins with The Engraved Ring in Silverpine Forest. It sends you to the Undercity in Raleigh and the Undercity, which opens A Husband's Revenge."
+   "answer": "The chain begins with The Engraved Ring in Silverpine Forest. It sends you to Raleigh in the Undercity, where you receive A Husband's Revenge."
   }
  ],
  "angles": [
@@ -92,7 +92,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help secure the Undercity's borders by pursuing human outlaws through Silverpine Forest."
+   "text": "As a member of the Horde, you pursue human outlaws through Silverpine Forest to help secure the Undercity's borders."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "A Husband's Revenge"
  ],
- "style": 1
+ "style": 2
 }

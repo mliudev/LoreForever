@@ -20,16 +20,16 @@
    "Garments of Darkness"
   ]
  },
- "summary": "Dark Cleric Duesten sends you from Deathknell to Brill in In Favor of Darkness. There, you continue your training with Dark Cleric Beryl and study the Holy Light and Shadow.",
+ "summary": "Dark Cleric Duesten sends you from Deathknell to Brill for In Favor of Darkness. There, you continue training with Dark Cleric Beryl and study the Holy Light and Shadow.",
  "sections": [
   {
    "title": "A Path Carved in Rot",
-   "body": "Dark Cleric Duesten teaches that the Forsaken were forged in corruption and discarded like carrion. Their survival demands that they understand both Light and Shadow without sentimentality. In Tirisfal Glades, you leave Deathknell's graveyard and face the wider world beyond its walls.",
+   "body": "Dark Cleric Duesten teaches that corruption forged the Forsaken, then cast them aside like carrion. To survive, they must understand both Light and Shadow without sentiment. You leave Deathknell's graveyard and enter the wider world beyond its walls.",
    "spoiler": 0
   },
   {
    "title": "Instruction in Brill",
-   "body": "You follow the road northeast from Deathknell, cross a wooden covered bridge, and reach the ruined hamlet of Brill. Dark Cleric Beryl waits in the upper quarters of the local inn to test your resolve. He values ambition and cold practicality over blind devotion, and expects a Forsaken priest to wield divine power as a weapon and a tool, not a moral crutch.",
+   "body": "You follow the road northeast from Deathknell, cross a wooden covered bridge, and reach ruined Brill. Dark Cleric Beryl waits in the upper quarters of the local inn to test your resolve. He prizes ambition and cold practicality over blind devotion. A Forsaken priest must wield divine power as a weapon and a tool, never as a moral crutch.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "why in favor of darkness",
     "in favor of darkness purpose"
    ],
-   "answer": "This rite of passage sends Forsaken priests from Deathknell to continue their training. Dark Cleric Duesten sends you to Dark Cleric Beryl in Brill for your next priestly challenge."
+   "answer": "Dark Cleric Duesten sends you from Deathknell to Brill to continue your training as a Forsaken priest. Dark Cleric Beryl gives you your next priestly challenge."
   },
   {
    "q": "Why do Forsaken priests use the Light if they embrace darkness?",
@@ -50,7 +50,7 @@
     "forsaken priest lore",
     "light and shadow undead"
    ],
-   "answer": "Forsaken clerics study both Light and Shadow because they see the world as governed by their balance. The Holy Light causes excruciating pain to undead flesh, and Forsaken origins lie in rot and darkness, so they study both forces out of practicality and necessity."
+   "answer": "Forsaken clerics study both Light and Shadow because they believe the world is governed by their balance. The Holy Light brings excruciating pain to undead flesh, while Forsaken origins lie in rot and darkness. They study both forces out of necessity and practical need."
   },
   {
    "q": "Where do I find Dark Cleric Beryl?",
@@ -59,7 +59,7 @@
     "beryl location",
     "find beryl"
    ],
-   "answer": "Dark Cleric Beryl is in Brill, northeast of Deathknell. He resides on the second floor of the Gallows' End Tavern on the settlement's eastern side."
+   "answer": "Dark Cleric Beryl is in Brill, northeast of Deathknell. He lives on the second floor of the Gallows' End Tavern, on the settlement's eastern side."
   },
   {
    "q": "What does this quest lead into?",
@@ -68,7 +68,7 @@
     "next quest after in favor of darkness",
     "in favor of darkness followup"
    ],
-   "answer": "Speaking with Dark Cleric Beryl completes your training here and opens Garments of Darkness. There, he tests your ability to mend and sustain allies using your newfound disciplines."
+   "answer": "Speaking with Dark Cleric Beryl completes your training here and opens Garments of Darkness. He then tests your ability to mend and sustain allies with your new disciplines."
   },
   {
    "q": "Who is Dark Cleric Duesten?",
@@ -86,17 +86,17 @@
     "why ambition not faith",
     "forsaken faith"
    ],
-   "answer": "Forsaken priests view traditional pious faith as insufficient after the powers they worshipped in life abandoned them. Dark Cleric Beryl expects disciples to rely on personal ambition, urgency, and practical strength to survive."
+   "answer": "Forsaken priests consider traditional pious faith insufficient after the powers they worshipped in life abandoned them. Dark Cleric Beryl expects his disciples to rely on ambition, urgency, and practical strength to survive."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you learn the Forsaken way: wield both Holy Light and Shadow with cold discretion rather than religious reverence."
+   "text": "As a priest, you learn the Forsaken way: wield Holy Light and Shadow with cold discretion, not religious reverence."
   },
   {
    "target": "race:Undead",
-   "text": "As an Undead, you travel from Deathknell to Brill on a standard first excursion into the broader Forsaken realm. The journey shows initiates how their people rebuild in the ruins of Lordaeron."
+   "text": "As an Undead, you travel from Deathknell to Brill on a first journey into the wider Forsaken realm. The journey shows initiates how their people rebuild amid Lordaeron's ruins."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "In Favor of Darkness"
  ],
- "style": 1
+ "style": 2
 }

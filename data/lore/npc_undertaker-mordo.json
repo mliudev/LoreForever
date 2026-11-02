@@ -8,16 +8,16 @@
   "wiki": "Undertaker Mordo",
   "refs": 1
  },
- "summary": "At Deathknell's crypt, Undertaker Mordo greets newly awakened Forsaken. He tells them they are free of the Lich King's control and sends them toward Queen Sylvanas's cause. Bodies that never stir go to the fire.",
+ "summary": "At Deathknell's crypt, Undertaker Mordo greets Forsaken as they wake to a world changed. He tells them they are free of the Lich King's control and sends those with their wits toward Queen Sylvanas's cause. The bodies that never stir are cast into the fire.",
  "sections": [
   {
    "title": "The Awakening at Deathknell",
-   "body": "Undertaker Mordo tends the crypt in Tirisfal Glades as corpses break free of the Scourge. Newly awakened Forsaken find him in a world they no longer recognize. He tests their sanity, tells them what they have become, and directs them toward service under Queen Sylvanas Windrunner.",
+   "body": "In Tirisfal Glades, corpses break free of the Scourge at Deathknell's crypt. Newly awakened Forsaken find a world they no longer recognize. Undertaker Mordo tests their sanity and tells them what they have become. Then he directs them to serve Queen Sylvanas Windrunner.",
    "spoiler": 0
   },
   {
    "title": "Those Who Do Not Wake",
-   "body": "Some bodies brought to the crypt never wake. Mordo soon casts them into the fire. Those who stir meet his dry impatience and little ceremony. If they have kept their wits, he sends them up the steps and down the road to Shadow Priest Sarvis at the chapel, where Sarvis explains their new existence. The mindless zombies overrunning the north of the village are Sarvis's concern. He sends the newly risen to destroy them.",
+   "body": "Some bodies brought to the crypt never wake. Mordo soon casts them into the fire. Those who stir meet his dry impatience and little ceremony.\n\nIf the newly risen have kept their wits, Mordo sends them up the steps and down the road to the chapel. There, Shadow Priest Sarvis explains their new existence. The mindless zombies overrunning the village's north are Sarvis's concern, so he sends the newly risen to destroy them.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "undertaker mordo lore",
     "mordo deathknell"
    ],
-   "answer": "Undertaker Mordo tends the crypt of Deathknell in Tirisfal Glades. He greets newly risen Forsaken and directs them into service."
+   "answer": "Undertaker Mordo tends the crypt at Deathknell in Tirisfal Glades. He greets newly risen Forsaken and directs them into service."
   },
   {
    "q": "Why is he standing in a graveyard?",
@@ -38,7 +38,7 @@
     "what does mordo do",
     "mordo job"
    ],
-   "answer": "Undertaker Mordo keeps watch at Deathknell's crypt, where newly freed undead wake from the Lich King's control. He greets them as they stir."
+   "answer": "Undertaker Mordo keeps watch at Deathknell's crypt, where undead freed from the Lich King's control wake. He greets them as they stir."
   },
   {
    "q": "What happens to the undead who lose their minds upon waking?",
@@ -47,7 +47,7 @@
     "mad undead deathknell",
     "feral undead deathknell"
    ],
-   "answer": "Bodies that never wake are cast into the fire. Shadow Priest Sarvis sends the newly risen to destroy the mindless zombies overrunning the north of Deathknell, even when those zombies were once their brothers and sisters."
+   "answer": "Bodies that never wake are cast into the fire. Shadow Priest Sarvis sends the newly risen to destroy the mindless zombies overrunning Deathknell's north, even when those zombies were once their brothers and sisters."
   },
   {
    "q": "Where does Mordo send newly risen Forsaken?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, your first meeting is with Undertaker Mordo when you open your eyes in death. He guides your first steps in service to Queen Sylvanas."
+   "text": "As an Undead, you first meet Undertaker Mordo when you open your eyes in death. He guides your first steps in service to Queen Sylvanas."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Undertaker Mordo"
  ],
- "style": 1
+ "style": 2
 }

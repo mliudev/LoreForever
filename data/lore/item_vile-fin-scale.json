@@ -10,16 +10,16 @@
    "quest:368"
   ]
  },
- "summary": "Vile Fin Scale comes from murloc tribes prowling Tirisfal’s northern coasts and waterways. In Brill, the Royal Apothecary Society studies these samples as it works on a plague meant to strike the living and the Scourge.",
+ "summary": "Along Tirisfal’s northern coasts and waterways, Vile Fin Scale comes from the murloc tribes. In Brill, the Royal Apothecary Society studies these samples while seeking a plague to strike the living and the Scourge.",
  "sections": [
   {
    "title": "Apothecary Reagents",
-   "body": "The Royal Apothecary Society seeks a blight that can spread through the living and the Scourge. Simple toxins are easy to brew, but an infectious disease needs properties that help it pass from one population to another. In Brill, Apothecary Johaan studies Vile Fin scales for their natural resilience and mucous coatings. He hopes these traits can help stabilize his experimental contagions and carry them onward.",
+   "body": "The Royal Apothecary Society seeks a blight that can spread through the living and the Scourge. Simple toxins are easy to brew, but an infectious disease must pass from one population to another. In Brill, Apothecary Johaan studies Vile Fin scales for their natural resilience and mucous coatings. He hopes these traits will steady his experimental contagions and help them spread.",
    "spoiler": 0
   },
   {
    "title": "The Coastline Menace",
-   "body": "The Vile Fin tribe inhabits Tirisfal Glades’ northern shores and western shallows, where its members threaten travelers and press into Forsaken territory. Gathering their scales helps keep the feral murloc populations in check and supplies Johaan’s laboratory with fresh organic material for tests in biological warfare.",
+   "body": "The Vile Fin tribe lives along Tirisfal Glades’ northern shores and western shallows. Its members threaten travelers and press into Forsaken territory. Gathering their scales helps check the feral murloc population and gives Johaan’s laboratory fresh organic material for tests in biological warfare.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why vile fin scales",
     "johaan plague scale"
    ],
-   "answer": "Apothecary Johaan studies Vile Fin scales for the Royal Apothecary Society’s work on a new plague. Ordinary poisons lack the power to spread, so he examines the scales’ natural properties for help carrying his experiments from one population to another."
+   "answer": "Apothecary Johaan studies Vile Fin scales for the Royal Apothecary Society’s work on a new plague. Ordinary poisons do not spread, so he studies the scales’ natural properties for help carrying his experiments from one population to another."
   },
   {
    "q": "Where can Vile Fin murlocs be found?",
@@ -49,7 +49,7 @@
     "forsaken plague goal",
     "what is apothecary johaan researching"
    ],
-   "answer": "The Forsaken seek a weapon against their bitter rivals: the mindless Scourge and the living races who see them as monsters. Johaan’s work in Brill is an early effort toward that kingdom-wide aim."
+   "answer": "The Forsaken seek a weapon against their bitter rivals, the mindless Scourge and the living races who see them as monsters. Johaan’s work in Brill is an early effort toward that kingdom-wide aim."
   },
   {
    "q": "Which specific creatures carry these scales?",
@@ -63,7 +63,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, each Vile Fin scale you gather aids the Royal Apothecary Society’s duty to develop a weapon for Forsaken survival against the living and the Scourge."
+   "text": "As an undead, each Vile Fin scale you gather aids the Royal Apothecary Society in its duty to develop a weapon for Forsaken survival against the living and the Scourge."
   },
   {
    "target": "faction:Horde",
@@ -90,5 +90,5 @@
   "Vile Fin Scale",
   "A New Plague (2)"
  ],
- "style": 1
+ "style": 2
 }

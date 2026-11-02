@@ -17,16 +17,16 @@
   "wiki": "Piercing the Veil",
   "chain": []
  },
- "summary": "In Deathknell, Venya Marthand tests a novice warlock's resolve. The newly risen Forsaken must gather skulls from nearby mindless skeletons to earn the knowledge to summon and bind an imp.",
+ "summary": "In Deathknell, Venya Marthand tests a novice warlock's resolve. Newly risen Forsaken gather skulls from nearby mindless skeletons to earn the knowledge to summon and bind an imp.",
  "sections": [
   {
    "title": "A Novice's First Step",
-   "body": "In Deathknell, Venya Marthand teaches newly awakened Forsaken warlocks that strength comes from knowledge and mastery of chaotic powers. She sends novices to gather skulls from the Rattlecage Skeletons near Deathknell's abandoned smithy. The trial tests whether they have the focus to command powers beyond this world and subdue nether beings.",
+   "body": "Venya Marthand teaches newly awakened Forsaken warlocks in Deathknell that strength comes through knowledge and mastery of chaotic powers. She sends them to gather skulls from Rattlecage Skeletons near Deathknell's abandoned smithy. The trial tests whether they can focus enough to command powers beyond this world and subdue nether beings.",
    "spoiler": 0
   },
   {
    "title": "Subjugating the Nether",
-   "body": "Venya accepts the skulls as proof that a novice can overcome mindless undead and face the bleak truths of warlock craft. She then teaches the rituals to summon and bind an imp. Though small, the demon brings cunning and fire, making it a dangerous ally.",
+   "body": "Venya accepts the skulls as proof that a novice can overcome mindless undead and face the bleak truths of warlock craft. Then she teaches the rituals to summon and bind an imp. Small as it is, the demon brings cunning and fire, and makes a dangerous ally.",
    "spoiler": 0
   }
  ],
@@ -82,7 +82,7 @@
     "can other classes do this",
     "is this warlock only"
    ],
-   "answer": "Forsaken warlocks with introductory training in Deathknell can undertake this trial."
+   "answer": "Forsaken warlocks with introductory training in Deathknell can undertake the trial."
   }
  ],
  "angles": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Piercing the Veil"
  ],
- "style": 1
+ "style": 2
 }

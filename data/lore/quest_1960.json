@@ -17,21 +17,21 @@
   "wiki": "Investigate the Alchemist Shop",
   "chain": []
  },
- "summary": "An arcane disturbance has brought invisible creatures into Algernon's shop in the Undercity. Anastasia Hartwell sends Horde mages to reveal and contain them before they can cause harm.",
+ "summary": "In Algernon's shop, invisible creatures wander among the alchemy. Anastasia Hartwell sends Horde mages to reveal and contain them before they cause harm.",
  "sections": [
   {
    "title": "A Disturbance in the Apothecarium",
-   "body": "Anastasia Hartwell sends arcane initiates to investigate a disturbance in the Apothecarium. Invisible magical creatures have been wandering through Algernon's alchemy shop, among its cauldrons and reagents. The Undercity's mage instructor suspects a breach in the flow of magic. The creatures must be contained before they cause serious damage.",
+   "body": "Anastasia Hartwell sends arcane initiates to investigate a disturbance in the Apothecarium. Invisible magical creatures wander through Algernon's alchemy shop among its cauldrons and reagents. The Undercity's mage instructor suspects a breach in the flow of magic. The creatures must be contained before they cause serious damage.",
    "spoiler": 0
   },
   {
    "title": "Manifestation and Containment",
-   "body": "Anastasia gives her students a Cantation of Manifestation to reveal the invisible creatures, along with sturdy containment coffers. Ordinary tracking cannot find beings made entirely of raw arcane force. Once visible, the rift spawns must be weakened and sealed in the coffers before they can unravel further or harm the alchemists at work.",
+   "body": "Anastasia gives her students a Cantation of Manifestation to reveal the invisible creatures and sturdy containment coffers to hold them. Ordinary tracking cannot find beings made entirely of raw arcane force. Once visible, the rift spawns must be weakened and sealed in the coffers before they can unravel further or harm the alchemists at work.",
    "spoiler": 0
   },
   {
    "title": "Accident or Arcane Assault?",
-   "body": "Anastasia wants to learn where the creatures came from. A spontaneous rift in the flow of magic is troubling; an intentional breach could mean a coordinated magical assault on the Forsaken capital. The captured creatures go to Undercity scholars for study, who must determine whether the Apothecarium suffered an accident or faces a targeted threat.",
+   "body": "Anastasia wants to learn where the creatures came from. A spontaneous rift in the flow of magic is troubling, but an intentional breach could mean a coordinated magical assault on the Forsaken capital. Undercity scholars will study the captured creatures and determine whether the Apothecarium suffered an accident or faces a targeted threat.",
    "spoiler": 1
   }
  ],
@@ -93,7 +93,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you test your command of arcane forces with manifestation cantations and containment vessels, not destructive force alone."
+   "text": "As a mage, you test your command of arcane forces with manifestation cantations and containment vessels, using more than destructive force alone."
   },
   {
    "target": "race:Undead",
@@ -119,5 +119,5 @@
  "attribution": [
   "Investigate the Alchemist Shop"
  ],
- "style": 1
+ "style": 2
 }

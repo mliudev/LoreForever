@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Faol's Rest"
  },
- "summary": "In eastern Tirisfal, Faol's Rest lies neglected southwest of the Scarlet Monastery. The gravesite holds the tomb of Archbishop Alonsus Faol, founder of the Knights of the Silver Hand. Beneath the blighted canopy, it is now a resting place for spirits who perish near the monastery.",
+ "summary": "In eastern Tirisfal, Faol's Rest lies southwest of the Scarlet Monastery, neglected beneath a blighted canopy. The gravesite holds the tomb of Archbishop Alonsus Faol, founder of the Knights of the Silver Hand. Now spirits who perish near the monastery rest here.",
  "sections": [
   {
    "title": "Tomb of the Archbishop",
-   "body": "Before the Third War devastated Lordaeron, mourners traveled to Faol's Rest to honor Archbishop Alonsus Faol. He led the Church of the Holy Light through the dark days of the Second War and founded the paladins to protect humanity. Faol died peacefully before the Scourge arrived, spared the agony of seeing his kingdom fall. In those years, mourners journeyed up the road from Capital City to leave offerings and pay their respects to the beloved patriarch.",
+   "body": "Before the Third War brought ruin to Lordaeron, mourners came to Faol's Rest to honor Archbishop Alonsus Faol. He led the Church of the Holy Light through the dark days of the Second War and founded the paladins to defend humanity. Faol died peacefully before the Scourge arrived, spared the sight of his kingdom's fall. In those days, mourners traveled the road from Capital City to leave offerings and honor their beloved patriarch.",
    "spoiler": 0
   },
   {
    "title": "Desolation in the Shadow of the Monastery",
-   "body": "The Plague of Undeath withered Tirisfal, and the pilgrims stopped coming. Now the monument lies abandoned and cracked beneath the Scarlet Monastery's high bluffs. Wild brush has reclaimed the pathways, and the tomb rests amid damp mist. Those who fall near the monastery or elsewhere in Tirisfal find a quiet place here to gather their spirits before returning to the dangers around them.",
+   "body": "The Plague of Undeath withered Tirisfal, and the pilgrims ceased their journeys. Now the monument lies abandoned and cracked beneath the Scarlet Monastery's high bluffs. Wild brush has reclaimed the paths, and damp mist gathers around the tomb. Those who fall near the monastery or elsewhere in Tirisfal gather their spirits here before returning to the dangers around them.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "scarlet monastery connection",
     "location meaning"
    ],
-   "answer": "The Church of the Holy Light held religious grounds near the Scarlet Monastery in northern Lordaeron. Faol was laid to rest in this tranquil corner of Tirisfal Glades before the kingdom fell, long before scarlet-clad zealots fortified the nearby monastery."
+   "answer": "The Church of the Holy Light held religious grounds near the Scarlet Monastery in northern Lordaeron. Faol was laid to rest in this quiet corner of Tirisfal Glades before the kingdom fell, long before scarlet-clad zealots fortified the nearby monastery."
   },
   {
    "q": "Is anyone maintaining the tomb today?",
@@ -46,7 +46,7 @@
     "is it abandoned",
     "tomb upkeep"
    ],
-   "answer": "No one tends the tomb. Since the Scourge took Lordaeron, the site has been neglected. The Scarlet Crusade rarely descends into the hollow to care for it, and the Forsaken have little interest in honoring the old church's shrines, leaving the stone markers weathered and overgrown."
+   "answer": "No one tends the tomb. Since the Scourge took Lordaeron, the site has been neglected. The Scarlet Crusade rarely descends into the hollow to care for it, and the Forsaken have little interest in honoring the old church's shrines. The stone markers remain weathered and overgrown."
   },
   {
    "q": "What practical purpose does Faol's Rest serve for travelers?",
@@ -55,7 +55,7 @@
     "what is this place in game",
     "monastery graveyard"
    ],
-   "answer": "Faol's Rest is the local spirit graveyard for the surrounding wilderness and the Scarlet Monastery. Those who perish trying to enter the monastery or traveling through eastern Tirisfal find their spirits returning to the Archbishop's quiet monument."
+   "answer": "Faol's Rest is the local spirit graveyard for the surrounding wilderness and the Scarlet Monastery. Those who perish while trying to enter the monastery or traveling through eastern Tirisfal find their spirits returning to the Archbishop's quiet monument."
   }
  ],
  "angles": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Faol's Rest"
  ],
- "style": 1
+ "style": 2
 }

@@ -15,6 +15,8 @@
 --   P.stop = "der die das ..."             extra stop words for questions typed in the language
 --   P.search = {...}, P.dataVersion        search index prebuilt over the merged text, and the ns.DB.version it's for
 --                                          (a frozen pack's index carries its own: P.search.dataVersion)
+--   P.whole = true                         each entry is one unit (Mike, 11/1): its translation, current or last shipped,
+--                                          whole, or nothing; never English beside it (Lang.MergeEntries)
 --   P.frozen = true                        a community pack (UALL's Ukrainian, ruRU, itIT, esMX): it changes only when
 --                                          the community sends edits (every pack's translations stay when our English
 --                                          moves on: Lang.MergeEntries)
@@ -262,7 +264,7 @@ local function mergeFx(e, fx)
     local t = f.add and fx[f.add]
     if type(t) == "table" then
       f.q, f.a, f.al = t.q or f.q, t.a or f.a, t.al or f.al
-      if t.q then f.tr = true end
+      f.tr, f.ta = f.tr or t.q ~= nil, f.ta or t.a ~= nil
     end
   end
 end
@@ -312,16 +314,182 @@ local function translatedFlags(fp, t)
   return sec, faq
 end
 
+-- A FAQ that has nothing to show in the reading language, kept in its place so the ones after it keep their numbers
+-- (clip ids are "<key>#faqN"): no question, so nothing offers or finds it (Engine.HasQuestion, Engine.DocTexts).
+local function blankFaq(f)
+  f.q, f.a, f.al, f.it, f.nx, f.answerOnly, f.blank = "", "", {}, nil, nil, true, true
+end
+
+local function copy(t)
+  local out = {}
+  for k, v in pairs(t) do out[k] = v end
+  return out
+end
+
+-- An entry with no translation to show in a whole pack: it stays in the data, for the places, quests and links that
+-- name it, with no text, and nothing leads to it: no name, no search hit, no lore panel (hide; Engine and UI check it),
+-- the way the game's people without an entry show.
+local function withhold(e)
+  e.hide, e.s, e.h, e.sec, e.ang = true, "", nil, {}, nil
+  for _, f in ipairs(e.faq or {}) do blankFaq(f) end
+end
+
+-- Names, quests and links that lead to withheld entries lead nowhere.
+local function prune(db, hidden)
+  local idx = db.index or {}
+  for _, field in ipairs({ "name", "quest", "questTitle", "area", "mob" }) do
+    for k, v in pairs(idx[field] or {}) do
+      if hidden[v] then idx[field][k] = nil end
+    end
+  end
+  local function kept(list)
+    local out = {}
+    for _, k in ipairs(list) do if not hidden[k] then out[#out + 1] = k end end
+    return out
+  end
+  for _, e in pairs(db.entries) do
+    if e.rel then e.rel = kept(e.rel) end
+  end
+  for _, z in pairs(db.zones or {}) do
+    if z.b then z.b = kept(z.b) end
+  end
+end
+
+-- Name, summary, hook, keywords and angles from a translation, over the entry.
+local function mergeText(db, key, e, t)
+  mergeName(db, key, e, t.n)
+  e.s, e.h = t.s or e.s, t.h or e.h
+  if t.kw then
+    -- Keep the English keywords too, so English names still find the entry.
+    local seen, kw = {}, {}
+    for _, list in ipairs({ t.kw, e.kw or {} }) do
+      for _, k in ipairs(list) do
+        if not seen[k] then seen[k] = true; kw[#kw + 1] = k end
+      end
+    end
+    e.kw = kw
+  end
+  if t.ang and e.ang then
+    for target, text in pairs(t.ang) do
+      if e.ang[target] then e.ang[target] = text end
+    end
+  end
+end
+
+-- Whole units (P.whole; Mike, 11/1: "translated players shouldn't see english" and "we want to keep translations as
+-- their unit so there isn't mismatched complexity to have to think about"). Every entry reads in the language or not
+-- at all: its current translation; else the last one the pack shipped, whole, in its own shape (its sections and own
+-- FAQs, with the flag each was translated under or ours there, whichever guards more, so text translated from a
+-- spoiler never shows outside one); else nothing (withhold). Its appended FAQs show only translated
+-- (Lang.MarkUntranslated). keep: entries a translator's test pack edits, left English for it (Lang.ApplyOverlay).
+local function filled(v) return type(v) == "string" and v ~= "" end
+
+-- Whether a last shipped translation can show whole: its summary, and each of its sections and own FAQs in full (a
+-- community pack may have left a summary empty, which English used to fill).
+local function wholeText(t)
+  if not filled(t.s) then return false end
+  for _, s in ipairs(t.sec or {}) do
+    if not (filled(s.t) and filled(s.b)) then return false end
+  end
+  for _, f in ipairs(t.faq or {}) do
+    if not (filled(f.q) and filled(f.a)) then return false end
+  end
+  return true
+end
+
+local function mergeWhole(db, w, merged, touched, keep)
+  local older, hidden = 0, {}
+  for key, e in pairs(db.entries) do
+    local t = w.entries and w.entries[key]
+    t = type(t) == "table" and t or nil
+    if t and t.fx then mergeFx(e, t.fx) end   -- by id, whatever else changed
+    local current = t and t.fp ~= nil and t.fp == Lang.Fingerprint(e)
+    local secFlags, faqFlags
+    if t and t.fp ~= nil and not current then secFlags, faqFlags = translatedFlags(t.fp, t) end
+    if t and (current or secFlags) and touched then touched[key] = true end
+    if current then
+      merged[key] = true   -- (complete-story recordings need the current translation)
+      mergeText(db, key, e, t)
+      for i, s in ipairs(t.sec or {}) do
+        if e.sec and e.sec[i] then e.sec[i].t, e.sec[i].b = s.t, s.b end
+      end
+      local n = 0
+      for _, f in ipairs(e.faq or {}) do
+        if not f.add then
+          n = n + 1
+          local tf = t.faq and t.faq[n]
+          if tf then f.q, f.a, f.al = tf.q or f.q, tf.a or f.a, tf.al or f.al end
+        end
+      end
+    elseif keep[key] then
+      -- a test pack's edits apply over the English, as the translator made them
+    elseif secFlags and wholeText(t) then
+      older = older + 1
+      mergeText(db, key, e, t)
+      e.ang = t.ang and copy(t.ang) or nil
+      -- Our section's bt (what its spoiler gate says) fits only the same section: same count, same flag.
+      local sec, sameSec = {}, #(t.sec or {}) == #(e.sec or {})
+      for i, s in ipairs(t.sec or {}) do
+        local ours, flag = e.sec and e.sec[i], secFlags[i] or 0
+        local sp = ours and (ours.sp or 0) >= flag and ours.sp or flag
+        sec[i] = { t = s.t, b = s.b, sp = sp ~= 0 and sp or nil,
+          bt = sameSec and ours and ours.sp == sp and ours.bt or nil }
+      end
+      e.sec = sec
+      -- Own FAQs: the translation's, over ours one for one, keeping our marks (gp, rc, it, nx); with another count
+      -- they can't be matched to ours or their marks, so they're left off (blank, as an untranslated question is). Our
+      -- appended FAQs keep their places either way, so their "#faqN" ids never shift.
+      local n = 0
+      for _, f in ipairs(e.faq or {}) do
+        if not f.add then n = n + 1 end
+      end
+      local same = n == #(t.faq or {})
+      local faq, i = {}, 0
+      for j, ours in ipairs(e.faq or {}) do
+        local f = copy(ours)
+        if not ours.add then
+          i = i + 1
+          local tf = same and t.faq[i]
+          if tf then
+            local flag = faqFlags[i] or 0
+            local sp = (ours.sp or 0) >= flag and ours.sp or flag
+            f.q, f.a, f.al, f.sp = tf.q, tf.a, tf.al or {}, sp ~= 0 and sp or nil
+            if ours.sp ~= sp then f.bt = nil end
+          else
+            blankFaq(f)
+          end
+        end
+        faq[j] = f
+      end
+      e.faq = faq
+      e.ownShape = true   -- its own sections and FAQs: no English recording fits them (Voice englishFill)
+    else
+      hidden[key] = true
+      withhold(e)
+      if t and t.n then mergeName(db, key, e, t.n) end   -- the sourced name, for where the data names it
+    end
+    -- A name the translation left English takes the language's own client name for it, where there is one (P.shown).
+    if not hidden[key] and not e.en and w.shown and w.shown[key] then mergeName(db, key, e, w.shown[key]) end
+    -- No English questions are offered to carry its English name, so the name heads it in search (Engine.DocTexts):
+    -- "who is hogger" still finds him.
+    if not hidden[key] and e.en then e.enHead = true end
+  end
+  if next(hidden) then prune(db, hidden) end
+  return older
+end
+
 -- Translated text over the English entries, field by field; spoiler flags, links and metadata stay English. A
 -- translation whose English moved on keeps its name, summary, keywords and angles, and each section or own FAQ, by
 -- position, where our flag there is at least the one it was translated under (so text translated from a spoiler never
--- shows outside one; anything else there stays English). Returns how many translations are older than the English.
-function Lang.MergeEntries(db, w, merged, touched)
+-- shows outside one; anything else there stays English). A whole pack (P.whole) keeps each entry whole instead
+-- (mergeWhole). Returns how many translations are older than the English.
+function Lang.MergeEntries(db, w, merged, touched, keep)
   -- The word-piece vectors that re-rank answers by meaning (Engine:VecOf) are English; over translated text they
   -- mislead ("Was ist die Bruderschaft der Defias?" went to a quest), so a merged pack switches them off.
   if next(w.entries or {}) then db.vectors = nil end
-  local older = 0
   merged = merged or {}
+  if w.whole then return mergeWhole(db, w, merged, touched, keep or {}) end
+  local older = 0
   for key, t in pairs(w.entries or {}) do
     local e = db.entries[key]
     if e and touched then touched[key] = true end
@@ -340,23 +508,7 @@ function Lang.MergeEntries(db, w, merged, touched)
       if t.n then mergeName(db, key, e, t.n) end
     else
       if current then merged[key] = true end   -- (complete-story recordings need the current translation)
-      mergeName(db, key, e, t.n)
-      e.s, e.h = t.s or e.s, t.h or e.h
-      if t.kw then
-        -- Keep the English keywords too, so English names still find the entry.
-        local seen, kw = {}, {}
-        for _, list in ipairs({ t.kw, e.kw or {} }) do
-          for _, k in ipairs(list) do
-            if not seen[k] then seen[k] = true; kw[#kw + 1] = k end
-          end
-        end
-        e.kw = kw
-      end
-      if t.ang and e.ang then
-        for target, text in pairs(t.ang) do
-          if e.ang[target] then e.ang[target] = text end
-        end
-      end
+      mergeText(db, key, e, t)
       if current and t.sec and e.sec and #t.sec == #e.sec then
         for i, s in ipairs(t.sec) do
           e.sec[i].t, e.sec[i].b = s.t or e.sec[i].t, s.b or e.sec[i].b
@@ -427,7 +579,7 @@ function Lang.ApplyOverlay(db, ow, ok)
         stale = stale + 1
       elseif fg == "q" or fg == "a" then
         fq[fg] = text
-        if fg == "q" then fq.tr = true end
+        if fg == "q" then fq.tr = true else fq.ta = true end
         applied = applied + 1
       elseif fg == "al" then
         fq.al = splitList(text)
@@ -485,12 +637,20 @@ function Lang.ApplyOverlay(db, ow, ok)
 end
 
 -- After the merge, in a translated reading language: the appended FAQs whose question is still English get untr, so
--- the engine offers translated questions ahead of them (Engine.RankedFaq) until a translator gets to them.
-function Lang.MarkUntranslated(db)
+-- the engine offers translated questions ahead of them (Engine.RankedFaq) until a translator gets to them. In a whole
+-- pack (P.whole) one shows only with its question and answer translated: the others are blanked in place.
+function Lang.MarkUntranslated(db, whole)
   local n = 0
   for _, e in pairs(db.entries) do
     for _, f in ipairs(e.faq or {}) do
-      if f.add and not f.tr then f.untr, n = true, n + 1 end
+      if not f.add or f.blank then
+        -- nothing to mark
+      elseif whole and not (f.tr and f.ta) then
+        blankFaq(f)
+        n = n + 1
+      elseif not whole and not f.tr then
+        f.untr, n = true, n + 1
+      end
     end
   end
   return n
@@ -558,7 +718,7 @@ local function init(lang)
   lang.merging = touched   -- every entry the merge has changed so far, should it fail partway (Lang.Init)
   if tw then
     lang.shown = tw.shown   -- the reading language's own client names, for display (Lang.Shown)
-    local older = Lang.MergeEntries(db, tw, merged, touched)
+    local older = Lang.MergeEntries(db, tw, merged, touched, overlayOK)
     if ns.debug and older > 0 then note("%d translated entries are older than the English: kept where safe", older) end
     if tw.stop and ns.Engine then ns.Engine.AddStopWords(tw.stop) end
     -- A frozen pack's search index says itself which data it was built over (refreshed with our data while the
@@ -585,7 +745,7 @@ local function init(lang)
     note(L["Your test translations: %d lines in use, %d left out (the English changed)."], applied, stale)
     lang.overlay = orec.name
   end
-  Lang.MarkUntranslated(db)
+  Lang.MarkUntranslated(db, tw and tw.whole)
   -- Voice packs match recordings to the text by clipHash: the pack's hashes (for recordings in this language) replace
   -- the English ones, and Voice only picks packs in the reading language. Voice.Init runs after this. The answers
   -- packs' hashes (answerHash, LOR-227) too.

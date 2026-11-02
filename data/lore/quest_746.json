@@ -17,16 +17,16 @@
   "wiki": "Dwarven Digging",
   "chain": []
  },
- "summary": "At Bloodhoof Village, Baine Bloodhoof fears the dwarves' digging will anger Mulgore's beasts and scar its sacred earth. He asks young Horde defenders to break the prospectors' picks and halt their work.",
+ "summary": "At Bloodhoof Village, Baine Bloodhoof fears the prospectors will anger Mulgore's beasts and scar its sacred earth. He asks young Horde defenders to break their picks and halt the digging.",
  "sections": [
   {
    "title": "Trespassers in the Hills",
-   "body": "Northwest of Bloodhoof Village, dwarven prospectors have marked out a dig site in Mulgore's hills. The Explorer's League searches Kalimdor for titan relics and secrets of the earthen, often without regard for the lands or customs of those who live there. To the tauren, the earth is a living mother, worthy of reverence rather than excavation for stone and metal.",
+   "body": "Northwest of Bloodhoof Village, dwarven prospectors have marked a site in Mulgore's hills. The Explorer's League searches Kalimdor for titan relics and secrets of the earthen. Often, they give little thought to the lands or customs of those who live there. To the tauren, the earth is a living mother, worthy of reverence rather than excavation for stone and metal.",
    "spoiler": 0
   },
   {
    "title": "Defending the Sacred Earth",
-   "body": "Baine Bloodhoof sees the dwarves' machines and blasting as a threat to the plains' fragile balance. Their noise agitates the local wildlife and stirs the kodos into frenzy. The tauren mean to smash the prospectors' picks at the forges, sending a blunt warning and stopping the digging before it causes lasting harm.",
+   "body": "Baine Bloodhoof sees the dwarves' machines and blasting as a threat to the plains' fragile balance. Their noise agitates local wildlife and drives the kodos into frenzy. So the tauren mean to smash the prospectors' picks at the forges. The broken tools will warn the dwarves and halt the digging before lasting harm is done.",
    "spoiler": 0
   }
  ],
@@ -88,7 +88,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see Alliance dwarves crossing into Horde lands as a threat to the fragile peace since the Third War and a disregard for tribal borders."
+   "text": "As a member of the Horde, you see Alliance dwarves crossing into Horde lands as a threat to the fragile peace since the Third War. They disregard tribal borders."
   },
   {
    "target": "class:Shaman",
@@ -96,7 +96,7 @@
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you may value what lies in stone, but the dwarves' work in Mulgore ignores respect and harmony for reckless destruction."
+   "text": "As a miner, you may value what lies in stone, but the dwarves' work in Mulgore ignores respect and harmony in favor of reckless destruction."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Dwarven Digging"
  ],
- "style": 1
+ "style": 2
 }

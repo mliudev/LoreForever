@@ -10,11 +10,11 @@
    "quest:746"
   ]
  },
- "summary": "At the dig northwest of Bloodhoof Village, dwarven picks lie broken on the forge. Baine Bloodhoof wants proof that the excavation threatening Mulgore's land and wildlife has been stopped.",
+ "summary": "At the dig northwest of Bloodhoof Village, dwarven picks lie broken at the forge. Baine Bloodhoof seeks proof that the excavation threatening Mulgore's land and wildlife has stopped.",
  "sections": [
   {
    "title": "Sabotaging the Dig",
-   "body": "Northwest of Bloodhoof Village, dwarven excavators dig into Mulgore's hills in search of ancient history. The tauren see their work as a defilement of the Earth Mother. The digging's noise and destruction agitate the local wildlife, especially the roaming kodo herds. Young Baine Bloodhoof orders defenders to take the prospectors' iron picks and break them at a forge. With their picks ruined, the expedition cannot gouge further into the earth.",
+   "body": "Northwest of Bloodhoof Village, dwarven excavators search Mulgore's hills for traces of ancient history. The tauren see the digging as a defilement of the Earth Mother. Its noise and destruction unsettle the local wildlife, especially the roaming kodo herds. So young Baine Bloodhoof orders defenders to take the prospectors' iron picks and break them at a forge. With the picks ruined, the expedition cannot gouge farther into the earth.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what are broken tools",
     "shattered picks"
    ],
-   "answer": "Broken Tools are the ruined heads and splintered shafts of Prospector's Picks, taken from the dwarven excavators in Mulgore and crushed at a forge."
+   "answer": "Broken Tools are ruined Prospector's Picks taken from the dwarven excavators in Mulgore and crushed at a forge. Their heads are ruined and their shafts splintered."
   },
   {
    "q": "Why does Baine Bloodhoof want them destroyed?",
@@ -35,7 +35,7 @@
     "why baine want broken tools",
     "baine dwarven digging"
    ],
-   "answer": "Baine believes digging into the soil defiles the land and angers Mulgore's wildlife, especially the kodos. Breaking the picks stops the excavation and warns that the land will not yield its wisdom to reckless digging."
+   "answer": "Baine believes digging into the soil defiles the land and angers Mulgore's wildlife, especially the kodos. Breaking the picks stops the excavation and warns the dwarves that reckless digging will not reveal the land's wisdom."
   },
   {
    "q": "Where can these picks be broken?",
@@ -52,7 +52,7 @@
     "why dwarves in mulgore",
     "dwarf digsite mulgore"
    ],
-   "answer": "The dwarves believe Mulgore's soil holds deep secrets and relics of antiquity. Searching for their origins, they hollow out foreign lands without regard for the people who live there."
+   "answer": "The dwarves believe Mulgore's soil holds deep secrets and relics of antiquity. They search for their origins by hollowing out foreign lands, heedless of the people who live there."
   }
  ],
  "angles": [
@@ -85,5 +85,5 @@
   "Broken Tools",
   "Dwarven Digging"
  ],
- "style": 1
+ "style": 2
 }

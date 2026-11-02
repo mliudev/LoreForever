@@ -17,16 +17,16 @@
   "wiki": "The Adventurer (Mulgore)",
   "chain": []
  },
- "summary": "Chief Hawkwind sends young travelers from Red Cloud Mesa with supplies for Kaga Wildhoof near Bloodhoof Village. She once aided him, and he means to repay that favor.",
+ "summary": "From Red Cloud Mesa, Chief Hawkwind sends young travelers with supplies for Kaga Wildhoof near Bloodhoof Village. She aided him long ago, and he means to repay her kindness.",
  "sections": [
   {
    "title": "A Chieftain's Repayment",
-   "body": "Chief Hawkwind asks you to carry provisions to Kaga Wildhoof near Bloodhoof Village. Long ago, Wildhoof aided him when he needed help, and he remembers that kindness. Now she has made camp outside the village. As young travelers leave the mesa, Hawkwind entrusts them with supplies for his old benefactor.",
+   "body": "Chief Hawkwind asks you to carry provisions to Kaga Wildhoof near Bloodhoof Village. Long ago, she helped him when he was in need, and he remembers her kindness. Now she has made camp outside the village. So Hawkwind entrusts young travelers leaving the mesa with supplies for his old benefactor.",
    "spoiler": 0
   },
   {
    "title": "Leaving the Mesa",
-   "body": "The trail leads from Red Cloud Mesa toward Bloodhoof Village, across the plains of Mulgore. Carrying Hawkwind's bundle takes you beyond Camp Narache, where young tauren have trained, and into the wider lands of the United Tauren Tribes.",
+   "body": "The trail runs from Red Cloud Mesa toward Bloodhoof Village, across the plains of Mulgore. With Hawkwind's bundle, you travel beyond Camp Narache, where young tauren have trained. The path leads into the wider lands of the United Tauren Tribes.",
    "spoiler": 0
   }
  ],
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren, carrying Hawkwind's supplies to Kaga Wildhoof takes you beyond Camp Narache and into the plains of Mulgore."
+   "text": "As a young tauren, you carry Hawkwind's supplies to Kaga Wildhoof beyond Camp Narache and into the plains of Mulgore."
   },
   {
    "target": "faction:Horde",
@@ -112,5 +112,5 @@
  "attribution": [
   "The Adventurer (Mulgore)"
  ],
- "style": 1
+ "style": 2
 }

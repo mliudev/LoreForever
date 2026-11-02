@@ -12,11 +12,11 @@
    "quest:441"
   ]
  },
- "summary": "A grim trail begins with Deliah's Ring, found among the Rot Hide gnolls’ corpse piles in Silverpine Forest. Its inscription, “For Deliah,” points back to a plague victim taken from Tirisfal’s mass graves.",
+ "summary": "In Silverpine Forest, Deliah's Ring lies among the Rot Hide gnolls’ corpse piles. Its inscription points back to a plague victim taken from Tirisfal’s mass graves.",
  "sections": [
   {
    "title": "A Keepsake in the Mire",
-   "body": "Among the gnoll mounds in Silverpine Forest, a ring rests on the pockmarked hand of a relatively fresh corpse. The band bears a simple inscription: “For Deliah.” The Rot Hide gnolls are doing more than scavenging battlefields. They raid the mass graves of Tirisfal Glades and carry human and Forsaken corpses south to Fenris Isle for their own purposes.",
+   "body": "Among the Rot Hide gnoll mounds in Silverpine Forest, a ring rests on the hand of a fairly fresh corpse. The band bears a simple inscription: “For Deliah.” The gnolls do more than scavenge battlefields. They raid the mass graves of Tirisfal Glades and carry human and Forsaken corpses south to Fenris Isle for their own purposes.",
    "spoiler": 0
   },
   {
@@ -33,7 +33,7 @@
     "deliah ring location",
     "how do you get deliahs ring"
    ],
-   "answer": "The ring is found among the Rot Hide gnoll mounds in northern Silverpine Forest, on the hand of an unwrapped plague victim among the scavenged dead."
+   "answer": "Deliah's Ring lies on the hand of a plague victim among the Rot Hide gnoll mounds in northern Silverpine Forest. The dead there have been scavenged and left unwrapped."
   },
   {
    "q": "Who was Deliah?",
@@ -51,7 +51,7 @@
     "rot hide corpse stealing",
     "what are gnolls doing with corpses"
    ],
-   "answer": "The Rot Hide gnolls, aligned with the Scourge, pillage the communal graves in Tirisfal Glades. They stockpile corpses and carry them toward their stronghold on Fenris Isle."
+   "answer": "The Rot Hide gnolls are aligned with the Scourge and pillage the communal graves in Tirisfal Glades. They stockpile corpses and carry them toward their stronghold on Fenris Isle."
   },
   {
    "q": "What is the inscription on the ring?",
@@ -60,13 +60,13 @@
     "what does the ring say",
     "for deliah ring"
    ],
-   "answer": "The ring bears the words “For Deliah” inside its band. It was a personal gift from a lover or husband before her death."
+   "answer": "The ring bears the words “For Deliah” inside its band. A lover or husband gave it to her before she died."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you know that mortal attachments can fade alongside the flesh. A rare few still hold to the memory of those they loved in life."
+   "text": "As an undead, you know mortal attachments can fade alongside the flesh. A rare few still hold to the memory of those they loved in life."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Rot Hide Clues",
   "The Engraved Ring"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Bluff Runner Windstrider",
   "refs": 1
  },
- "summary": "On Thunder Bluff's mesas, Bluff Runner Windstrider carries urgent messages across the city. He directs Horde travelers toward distant frontiers, including Ashenvale, Feralas, and the Plaguelands.",
+ "summary": "On Thunder Bluff's mesas, Bluff Runner Windstrider carries urgent messages across the city. He points Horde travelers toward far-off frontiers, including Ashenvale, Feralas, and the Plaguelands.",
  "sections": [
   {
    "title": "A Messenger on the Mesas",
-   "body": "Bluff Runner Windstrider carries messages across Thunder Bluff's high plateaus. His swift runs keep the city's leaders and visitors informed. He jogs along the rope bridges and pathways, calling out news and carrying dispatches. When outposts across Kalimdor or the Eastern Kingdoms need reinforcements, Windstrider calls on passing champions to carry word and answer the call to arms.",
+   "body": "Bluff Runner Windstrider carries messages across Thunder Bluff's high plateaus. His swift runs keep the city's leaders and visitors informed. He jogs along rope bridges and pathways, calling out news and bearing dispatches. When distant outposts need reinforcements, Windstrider calls on passing champions to carry word and answer the call to arms.",
    "spoiler": 0
   },
   {
    "title": "Calls to the Frontier",
-   "body": "Bluff Runner Windstrider's messages reach far beyond Mulgore. He sends adventurers north to join Senani Thunderheart's great hunt at Splintertree Post in Ashenvale. He points seasoned scouts south toward Camp Mojache in Feralas and carries grave warnings about the ongoing undead menace in the Western Plaguelands. His dispatches connect Mulgore's tribal heart to the wider conflicts of the Horde.",
+   "body": "Bluff Runner Windstrider sends messages far beyond Mulgore. He directs travelers north to join Senani Thunderheart's great hunt at Splintertree Post in Ashenvale. He points seasoned scouts south toward Camp Mojache in Feralas and bears grave warnings of the ongoing undead menace in the Western Plaguelands. His dispatches bind Mulgore's tribal heart to the Horde's wider conflicts.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "bluff runner",
     "who is windstrider"
    ],
-   "answer": "Bluff Runner Windstrider carries messages across Thunder Bluff. He shares news and calls on capable Horde travelers to help with urgent campaigns across Azeroth."
+   "answer": "Bluff Runner Windstrider carries messages across Thunder Bluff. He shares news and calls on capable Horde travelers to aid urgent campaigns across Azeroth."
   },
   {
    "q": "Where can I find Bluff Runner Windstrider?",
@@ -47,7 +47,7 @@
     "what does he give",
     "bluff runner tasks"
    ],
-   "answer": "Bluff Runner Windstrider directs travelers toward distant regions. His calls include the Ashenvale hunt, the establishment of Camp Mojache in Feralas, and calls to arms in the Plaguelands."
+   "answer": "Bluff Runner Windstrider directs travelers toward distant regions. His calls include the Ashenvale hunt, the founding of Camp Mojache in Feralas, and calls to arms in the Plaguelands."
   },
   {
    "q": "Why is he called a 'Bluff Runner'?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you can follow the tradition of runners who keep the tribes and central elders connected without machinery or foreign post networks."
+   "text": "As a tauren, you can follow the runners' tradition of keeping the tribes and central elders connected without machinery or foreign post networks."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Bluff Runner Windstrider"
  ],
- "style": 1
+ "style": 2
 }

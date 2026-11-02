@@ -22,16 +22,16 @@
    "At War With The Scarlet Crusade (4)"
   ]
  },
- "summary": "Executor Zygand sends Forsaken fighters against the Scarlet Crusade near Balnir Farmstead. Their strike targets Captain Vachon and his friars in southeastern Tirisfal Glades, where Crusader raids threaten the Dark Lady's lands.",
+ "summary": "Near Balnir Farmstead, Executor Zygand sends Forsaken fighters against the Scarlet Crusade. They target Captain Vachon and his friars in southeastern Tirisfal Glades, where Crusader raids threaten the Dark Lady's lands.",
  "sections": [
   {
    "title": "A Looming Encroachment",
-   "body": "The Forsaken guard Brill and the Undercity while the Scarlet Crusade holds fortified sites across the countryside. Executor Arren reports active Crusader incursions from a crumbling guard tower in southeastern Tirisfal Glades. The tower stands close to the abandoned Balnir Farmstead.",
+   "body": "Brill and the Undercity are guarded by the Forsaken, while the Scarlet Crusade holds fortified sites across the countryside. From a crumbling guard tower in southeastern Tirisfal Glades, Executor Arren reports active Crusader incursions. The tower stands close to the abandoned Balnir Farmstead.",
    "spoiler": 0
   },
   {
    "title": "Severing the Chain of Command",
-   "body": "Executor Zygand targets the Crusade's field leaders, knowing coordinated squads pose a greater danger than scattered zealots. You strike at Captain Vachon and the Scarlet Friars who strengthen his men with holy magic. Without their leadership and support, the cell may lose its cohesion and its raids into Forsaken lands may falter.",
+   "body": "Executor Zygand strikes at the Crusade's field leaders, for coordinated squads are more dangerous than scattered zealots. You attack Captain Vachon and the Scarlet Friars who strengthen his men with holy magic. Without their leaders and support, the cell may lose its unity, and its raids into Forsaken lands may falter.",
    "spoiler": 0
   }
  ],
@@ -77,7 +77,7 @@
     "scarlet war chain",
     "war with the scarlet crusade lore"
    ],
-   "answer": "This strike is the third phase of Executor Zygand's campaign against Scarlet Crusade strongholds in Tirisfal Glades. He aims to drive the zealots back before they can lay siege to the Undercity."
+   "answer": "This is the third phase of Executor Zygand's campaign against Scarlet Crusade strongholds in Tirisfal Glades. He aims to drive the zealots back before they can lay siege to the Undercity."
   },
   {
    "q": "What happens after Captain Vachon is slain?",
@@ -127,5 +127,5 @@
  "attribution": [
   "At War With The Scarlet Crusade (3)"
  ],
- "style": 1
+ "style": 2
 }

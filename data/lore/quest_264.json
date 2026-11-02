@@ -17,16 +17,16 @@
   "wiki": "Until Death Do Us Part",
   "chain": []
  },
- "summary": "In Silverpine Forest, Until Death Do Us Part brings Clarice Foster’s old grief to Yuriv’s grave. From the Pools of Vision beneath Thunder Bluff, the Forsaken asks you to leave her keepsake pendant on the tomb of the husband who abandoned her and their children.",
+ "summary": "In Silverpine Forest, Clarice Foster sends her keepsake to Yuriv’s grave. From the Pools of Vision beneath Thunder Bluff, the Forsaken asks you to lay it on the tomb of the husband who abandoned her and their children.",
  "sections": [
   {
    "title": "A Bitter Keepsake",
-   "body": "Clarice Foster remembers her mortal marriage without fondness. As Lordaeron crumbled, Yuriv left her and their children to join a crusade against the rising undead, declaring service to the Holy Light paramount. His devotion saved neither his family nor himself. Clarice was raised into undeath, while Yuriv lies beneath a defaced stone. She wants the last tangible reminder of his broken promises cast away.",
+   "body": "Clarice Foster remembers her mortal marriage with bitterness. As Lordaeron crumbled, Yuriv left her and their children to join a crusade against the rising undead. He declared service to the Holy Light paramount. His devotion saved neither his family nor himself. Clarice was raised into undeath, while Yuriv lies beneath a defaced stone. She wants the last tangible reminder of his broken promises cast away.",
    "spoiler": 0
   },
   {
    "title": "The Neglected Grave",
-   "body": "Yuriv’s tomb lies in the graveyard around the Sepulcher, marked by gashes, rubbish, and weeds. Set Clarice’s pendant on the relief of his sculpted hands, and no grand magic or spiritual closure follows. The gem grows dull, and a cold, silent gust passes over the tombs, leaving the old resentments of Lordaeron’s fallen people.",
+   "body": "Yuriv’s tomb lies in the graveyard around the Sepulcher, marked by gashes, rubbish, and weeds. Set Clarice’s pendant on the relief of his sculpted hands. No grand magic or spiritual closure follows. The gem grows dull, and a cold, silent gust passes over the tombs. The old resentments of Lordaeron’s fallen people remain.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why is clarice mad",
     "clarice foster backstory"
    ],
-   "answer": "Clarice waited night after night while Yuriv put his religious duties first. His crusade failed to protect them; he died in a neglected grave, and she was raised as the undead kind he fought."
+   "answer": "Clarice waited night after night while Yuriv put his religious duties first. His crusade failed to protect them. He died in a neglected grave, and she was raised as the undead kind he fought."
   },
   {
    "q": "What happens when you return the pendant?",
@@ -54,7 +54,7 @@
     "pendant on grave",
     "ending of until death do us part"
    ],
-   "answer": "On the stone hands carved into Yuriv’s tomb, the pendant’s gem grows noticeably dull. A stiff, cool breeze sweeps over the Sepulcher, where the defaced grave lies in silence."
+   "answer": "When the pendant rests on the stone hands carved into Yuriv’s tomb, its gem grows dull. A stiff, cool breeze sweeps over the Sepulcher, where the defaced grave lies in silence."
   },
   {
    "q": "Where is Yuriv's tomb located?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you can see Clarice’s plight as the hypocrisy of the living: holy warriors left their families to perish in holy fervor, while their transformed survivors bear the burden of memory."
+   "text": "As Forsaken, you can see Clarice’s plight as the hypocrisy of the living. Holy warriors left their families to perish in holy fervor, while their transformed survivors bear the burden of memory."
   },
   {
    "target": "class:Priest",
@@ -114,5 +114,5 @@
  "attribution": [
   "Until Death Do Us Part"
  ],
- "style": 1
+ "style": 2
 }

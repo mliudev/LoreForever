@@ -8,11 +8,11 @@
   "wiki": "Ahanu",
   "refs": 2
  },
- "summary": "Couriers arriving in Thunder Bluff can find Ahanu in Hewa's Armory. He crafts and trades leather armor for travelers and young braves setting out across Mulgore and the wider plains, and helps new couriers find their way across the bluffs.",
+ "summary": "At Hewa's Armory, Ahanu helps couriers arriving in Thunder Bluff. He crafts and trades leather armor for travelers and young braves setting out across Mulgore and the wider plains, and shows new couriers the way across the bluffs.",
  "sections": [
   {
    "title": "Merchant of Hewa's Armory",
-   "body": "Ahanu works the hides his friend Jahan Hawkwing sends from the Crossroads. In Hewa's Armory on Thunder Bluff's lower rise, he crafts durable leather gear for those who travel Kalimdor's grasslands. Travelers arriving by wind rider from the Crossroads can find him among the city's tradesfolk. He receives their deliveries and directs messengers toward the local flight roosts.",
+   "body": "Ahanu crafts leather gear in Hewa's Armory on Thunder Bluff's lower rise. His friend Jahan Hawkwing sends him hides from the Crossroads, which he works into durable armor for travelers across Kalimdor's grasslands. Travelers arriving by wind rider from the Crossroads can find him among the city's tradesfolk. He receives their deliveries and points messengers toward the local flight roosts.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "ahanu wares",
     "ahanu vendor"
    ],
-   "answer": "Ahanu sells basic leather armor, including jerkins, belts, boots, and bracers. The gear is made for hunters, rogues, and young adventurers."
+   "answer": "Ahanu sells basic leather armor, including jerkins, belts, boots, and bracers. Hunters, rogues, and young adventurers can use the gear."
   },
   {
    "q": "Where in Thunder Bluff can I find him?",
@@ -42,7 +42,7 @@
     "where is ahanu",
     "ahanu map"
    ],
-   "answer": "Ahanu works inside Hewa's Armory on Thunder Bluff's lower rise, near other armorers, leatherworkers, and weapon smiths."
+   "answer": "Ahanu works inside Hewa's Armory on Thunder Bluff's lower rise. Other armorers, leatherworkers, and weapon smiths work nearby."
   },
   {
    "q": "What quests involve Ahanu?",
@@ -50,13 +50,13 @@
     "ahanu quests",
     "ride to thunder bluff ahanu"
    ],
-   "answer": "Young tauren adventurers bring goods to Ahanu by wind rider in 'Ride to Thunder Bluff'. Afterward, he sends them back to Tal, the city's wind rider master."
+   "answer": "In 'Ride to Thunder Bluff', young tauren adventurers bring goods to Ahanu by wind rider. Then he sends them back to Tal, the city's wind rider master."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren brave arriving from the Crossroads by wind rider, you can find familiar hospitality and essential hides for the road with Ahanu."
+   "text": "As a young tauren brave arriving from the Crossroads by wind rider, you can find a familiar welcome and hides for the road with Ahanu."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Ahanu"
  ],
- "style": 1
+ "style": 2
 }

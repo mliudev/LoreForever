@@ -8,16 +8,16 @@
   "wiki": "Eleanor Shackleton",
   "refs": 2
  },
- "summary": "Southwest of Brill, Eleanor Shackleton camps in the woods of Tirisfal Glades. This Forsaken outdoorswoman teaches travelers wilderness survival and field crafts instead of staying in town or the Undercity. Her surname is shared by other Forsaken in the region, a possible link to life before the plague.",
+ "summary": "In the woods southwest of Brill, Eleanor Shackleton teaches travelers to live off Tirisfal's blighted land. This Forsaken outdoorswoman camps away from town and the Undercity. Pierce Shackleton and Samantha Shackleton share her surname, though their kinship is unknown.",
  "sections": [
   {
    "title": "A Guide to the Glades",
-   "body": "Eleanor Shackleton camps in the haunted woods southwest of Brill, away from the Undercity. Newly awakened Forsaken often head for those settlements, but she teaches travelers how to live off Tirisfal's blighted land. Her lessons cover setting up campsites, gathering firewood, and keeping trade crafts while roaming far from civilization's fires and kitchens.",
+   "body": "Eleanor Shackleton camps in the haunted woods southwest of Brill, away from the Undercity. Newly awakened Forsaken often go to those settlements, but Eleanor teaches travelers to live off Tirisfal's blighted land. She shows them how to make camps, gather firewood, and keep up their trade crafts while roaming far from civilization's fires and kitchens.",
    "spoiler": 0
   },
   {
    "title": "Ties from a Past Life",
-   "body": "Eleanor Shackleton shares her surname with Pierce Shackleton and Samantha Shackleton, who live in the Undercity's Magic Quarter. Family names can be the only tether an undead person has to mortal life in the shattered remnants of Lordaeron. Whether Eleanor, Pierce, and Samantha are close kin or share only common ancestry, each serves the Forsaken in a distinct way across the blighted kingdom.",
+   "body": "Eleanor Shackleton shares her surname with Pierce Shackleton and Samantha Shackleton, who live in the Undercity's Magic Quarter. For an undead person, a family name may be the only tether to mortal life in the shattered remnants of Lordaeron. Whether the three are close kin or share only common ancestry, each serves the Forsaken in a different way across the blighted kingdom.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "samantha shackleton",
     "shackleton family lore"
    ],
-   "answer": "Eleanor Shackleton shares her family name with Pierce Shackleton and Samantha Shackleton of the Undercity, suggesting they may be kin from before the Scourge claimed the kingdom."
+   "answer": "Eleanor Shackleton shares her surname with Pierce Shackleton and Samantha Shackleton of the Undercity, though whether they are kin from before the Scourge claimed the kingdom is unknown."
   },
   {
    "q": "Why is she camping outside Brill instead of staying in town?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Eleanor Shackleton"
  ],
- "style": 1
+ "style": 2
 }

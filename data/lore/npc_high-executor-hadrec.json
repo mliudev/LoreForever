@@ -8,21 +8,21 @@
   "wiki": "High Executor Hadrec",
   "refs": 13
  },
- "summary": "At the Sepulcher, High Executor Hadrec directs the Forsaken garrison in Silverpine Forest. From this crypt, he oversees defense against threats such as the Rot Hide gnolls and investigates scouts who have gone missing across the zone.",
+ "summary": "At the Sepulcher, High Executor Hadrec directs the Forsaken garrison across Silverpine Forest. He oversees defense against threats such as the Rot Hide gnolls and investigates scouts missing across the zone.",
  "sections": [
   {
    "title": "Commander at the Sepulcher",
-   "body": "High Executor Hadrec directs Forsaken military operations from the Sepulcher in Silverpine Forest. Tirisfal Glades is secure under the Dark Lady’s forces, but Silverpine faces hostile Dalaran mages, feral worgen, and encroaching gnolls. Hadrec must strengthen Forsaken control and suppress threats to Undercity authority south of the capital.",
+   "body": "High Executor Hadrec directs Forsaken military operations from the Sepulcher in Silverpine Forest. The Dark Lady’s forces hold Tirisfal Glades, but Silverpine faces hostile Dalaran mages, feral worgen, and encroaching gnolls. Hadrec must strengthen Forsaken control and suppress threats to Undercity authority south of the capital.",
    "spoiler": 0
   },
   {
    "title": "The Rot Hide Scourge",
-   "body": "The Rot Hide gnolls and Fenris Isle occupy much of Hadrec’s attention. Tainted by undeath, the beasts have overrun the Dead Fields and Lake Lordamere’s shores, threatening Forsaken patrols. Hadrec sends agents to search the ruined ferries and farmsteads for clues, learn what empowers the gnolls, and prepare a strike against their island stronghold.",
+   "body": "The Rot Hide gnolls and Fenris Isle occupy much of Hadrec’s attention. Tainted by undeath, the beasts have overrun the Dead Fields and the shores of Lake Lordamere, threatening Forsaken patrols. Hadrec sends agents to search ruined ferries and farmsteads for clues, learn what empowers the gnolls, and prepare a strike against their island stronghold.",
    "spoiler": 0
   },
   {
    "title": "Eye on Shadowfang",
-   "body": "Hadrec also watches reports from the Deathstalkers, the Forsaken’s secretive intelligence arm. When covert operatives vanish near Shadowfang Keep, Hadrec sends agents to learn their fate and keep the Dark Lady informed about the archmage Arugal and his cursed worgen.",
+   "body": "Hadrec watches reports from the Deathstalkers, the Forsaken’s secretive intelligence arm. When covert operatives vanish near Shadowfang Keep, Hadrec sends agents to learn their fate and keep the Dark Lady informed about the archmage Arugal and his cursed worgen.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is hadrec",
     "sepulcher commander"
    ],
-   "answer": "Hadrec is a Forsaken military officer with the rank of High Executor. He commands the garrison at the Sepulcher and directs Forsaken operations across Silverpine Forest."
+   "answer": "Hadrec commands the Forsaken garrison at the Sepulcher and directs military operations across Silverpine Forest. His rank is High Executor."
   },
   {
    "q": "Where can High Executor Hadrec be found?",
@@ -43,7 +43,7 @@
     "where is hadrec",
     "find hadrec"
    ],
-   "answer": "You can find Hadrec inside the Sepulcher, the Forsaken settlement in central Silverpine Forest along the main north-south road."
+   "answer": "You can find Hadrec inside the Sepulcher, a Forsaken settlement in central Silverpine Forest along the main north-south road."
   },
   {
    "q": "What threats does Hadrec direct players against?",
@@ -52,7 +52,7 @@
     "what does hadrec do",
     "silverpine missions"
    ],
-   "answer": "Hadrec directs soldiers and adventurers against Rot Hide gnolls in the Dead Fields and on Fenris Isle. He also oversees efforts to find missing Deathstalker spies and learn what is happening inside Shadowfang Keep."
+   "answer": "Hadrec directs soldiers and adventurers against Rot Hide gnolls in the Dead Fields and on Fenris Isle. He also oversees the search for missing Deathstalker spies and efforts to learn what is happening inside Shadowfang Keep."
   },
   {
    "q": "What does a High Executor do in Forsaken military structure?",
@@ -61,7 +61,7 @@
     "high executor rank",
     "hadrec rank"
    ],
-   "answer": "A High Executor is a senior Forsaken field commander, responsible for strategic oversight of a regional outpost or front under Lady Sylvanas Windrunner."
+   "answer": "A High Executor is a senior Forsaken field commander. The rank carries strategic oversight of a regional outpost or front under Lady Sylvanas Windrunner."
   },
   {
    "q": "Why is Hadrec interested in Fenris Isle?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken traveling south from Deathknell, you find in Hadrec the voice of Undercity’s high command, organizing newly risen undead to defend Lordaeron."
+   "text": "As a Forsaken traveling south from Deathknell, you find Hadrec speaking for Undercity’s high command. He organizes newly risen undead to defend Lordaeron."
   },
   {
    "target": "faction:Horde",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you may work with the Deathstalkers under Hadrec’s command, recovering missing comrades and gathering enemy ichor and documents."
+   "text": "As a rogue, you may work with the Deathstalkers under Hadrec’s command. You can recover missing comrades and gather enemy ichor and documents."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "High Executor Hadrec"
  ],
- "style": 1
+ "style": 2
 }

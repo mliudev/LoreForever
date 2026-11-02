@@ -10,11 +10,11 @@
    "quest:1846"
   ]
  },
- "summary": "At the Angerfang Encampment, renegade Dragonmaw orcs provide sturdy shinbones for armor. In the Undercity, Velora Nitely needs them to frame leg guards for warriors.",
+ "summary": "At the Angerfang Encampment, renegade Dragonmaw orcs yield sturdy shinbones for armor. In the Undercity, Velora Nitely needs them to frame leg guards for warriors.",
  "sections": [
   {
    "title": "Bones for the Frame",
-   "body": "Velora Nitely needs bones that can bear the strain of brutal leg guards. The renegade Dragonmaw orcs at the Angerfang Encampment in the central Wetlands have thick, sturdy frames, and their shinbones can brace the armor. Each bone must be tested by hand. Warriors discard any that snap under pressure.",
+   "body": "Velora Nitely needs bones strong enough to bear the strain of brutal leg guards. Renegade Dragonmaw orcs at the Angerfang Encampment in the central Wetlands have thick frames, and their shinbones can brace the armor. Each bone is tested by hand. Warriors keep only those that resist breaking.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "dragonmaw bone strength",
     "testing shinbones"
    ],
-   "answer": "Dragonmaw orcs have thick skeletal frames, but fractures can make a bone too brittle for armor. A warrior bends each shinbone by hand and keeps only those that resist breaking."
+   "answer": "Dragonmaw orcs have thick skeletal frames, though fractures can leave a bone too brittle for armor. A warrior bends each shinbone by hand and keeps only those that resist breaking."
   },
   {
    "q": "Who wants Sturdy Dragonmaw Shinbones?",
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you test dense orc bones by hand and gather pieces to frame custom armor. This shows your physical might."
+   "text": "As a warrior, you test dense orc bones by hand and gather pieces to frame custom armor. The work shows your physical might."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you can see Forsaken pragmatism in Velora Nitely's use of enemy bones for equipment for the Dark Lady's champions."
+   "text": "As an undead, you see Forsaken pragmatism in Velora Nitely's use of enemy bones to equip the Dark Lady's champions."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Sturdy Dragonmaw Shinbone",
   "Dragonmaw Shinbones"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Agamand Heirlooms",
   "chain": []
  },
- "summary": "At Agamand Mills, Coleman Farthing seeks the family's heirlooms from their crypt. He blames the Agamands for his death and wants their ancestral weapons taken from them.",
+ "summary": "At Agamand Mills, Coleman Farthing sends you after heirlooms in the family crypt. He blames the Agamands for his death and seeks their ancestral weapons.",
  "sections": [
   {
    "title": "A Servant's Bitter Grudge",
-   "body": "Coleman Farthing served the wealthy Agamand family at their mills in Tirisfal Glades before the Third War devastated Lordaeron. Whatever happened as the estate fell, Farthing blames his former lords for his death. Raised into undeath among the Forsaken, he takes spiteful satisfaction in the Agamands' downfall. The once-proud family has become mindless minions enslaved to the Lich King.",
+   "body": "Before the Third War devastated Lordaeron, Coleman Farthing served the wealthy Agamand family at their mills in Tirisfal Glades. Farthing blames his former lords for his death. Now raised into undeath among the Forsaken, he takes spiteful satisfaction in the Agamands' downfall. The once-proud family has become mindless minions enslaved to the Lich King.",
    "spoiler": 0
   },
   {
    "title": "Desecrating the Crypt",
-   "body": "Farthing sends you into the Agamand Family Crypt beneath the northern bluffs of the mills. Restless dead and lingering Scourge wander its stone halls. He wants you to take four relics: the Agamand family sword, axe, dagger, and mace. Their loss would strip the bloodline of its remaining honor.",
+   "body": "Farthing sends you to the Agamand Family Crypt beneath the northern bluffs of the mills. Restless dead and lingering Scourge wander its stone halls. He wants you to take four relics: the Agamand family sword, axe, dagger, and mace. Their loss would strip the bloodline of its remaining honor.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "coleman backstory",
     "farthing history"
    ],
-   "answer": "Coleman Farthing served the wealthy Agamand family at Agamand Mills before the Scourge invasion of Lordaeron. He died during the calamity and blames his former masters, carrying that resentment into undeath."
+   "answer": "Before the Scourge invasion of Lordaeron, Coleman Farthing served the wealthy Agamand family at Agamand Mills. He died during the calamity and blames his former masters, carrying that resentment into undeath."
   },
   {
    "q": "Why does Coleman Farthing want the heirlooms?",
@@ -47,7 +47,7 @@
     "coleman motive",
     "why take weapons"
    ],
-   "answer": "Farthing wants vengeance on his former masters. He seeks their ancestral sword, axe, dagger, and mace to strip the fallen family of its last honor and memory."
+   "answer": "Farthing seeks vengeance on his former masters. He wants their ancestral sword, axe, dagger, and mace to strip the fallen family of its last honor and memory."
   },
   {
    "q": "What happened to the Agamand family?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Agamand Heirlooms"
  ],
- "style": 1
+ "style": 2
 }

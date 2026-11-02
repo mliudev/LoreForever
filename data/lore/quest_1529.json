@@ -17,16 +17,16 @@
   "wiki": "Call of Water (Thunder Bluff)",
   "chain": []
  },
- "summary": "Your path to the Call of Water begins in Thunder Bluff, where a shaman is ready to seek the element of water. To meet Islen Waterseer, you travel east across the Barrens to its eastern shore. The meeting begins a spiritual journey toward the Water Totem.",
+ "summary": "In Thunder Bluff, your training turns toward water and a journey to the Barrens shore. You travel east to meet Islen Waterseer and begin the path toward the Water Totem.",
  "sections": [
   {
    "title": "A Summons from the Bluff",
-   "body": "You have mastered earth and fire, and now your trainers judge you ready to study water. In Thunder Bluff, Xanis Flameweaver recognizes when you have shown the discipline to approach this cleansing element. Your path leads away from Mulgore's mesas and east across the dry plains of the Barrens.",
+   "body": "You have mastered earth and fire, and your trainers now judge you ready to study water. In Thunder Bluff, Xanis Flameweaver sees that you have the discipline to approach this cleansing element. So you leave Mulgore's mesas and cross the dry plains of the Barrens to the east.",
    "spoiler": 0
   },
   {
    "title": "The Hermit of the Coast",
-   "body": "You find Islen Waterseer in a fishing shack on the eastern coast, south of Ratchet and the mouth of the Southfury River. She lives apart from the settlements, beside the open ocean. Islen reads your readiness in the elements around you. Earth, wind, and fire already touch your spirit, and she prepares you for trials that will teach you the purity of water.",
+   "body": "Islen Waterseer lives in a fishing shack on the Barrens' eastern coast, south of Ratchet and the mouth of the Southfury River. She keeps apart from the settlements beside the open ocean. Islen reads your readiness in the elements around you. Earth, wind, and fire already touch your spirit, and she prepares trials to teach you the purity of water.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts call of water",
     "where to get call of water tb"
    ],
-   "answer": "A shaman trainer in Thunder Bluff, such as Xanis Flameweaver, sends you once your training has brought you to the rites of water."
+   "answer": "A shaman trainer in Thunder Bluff, such as Xanis Flameweaver, sends you when your training brings you to the rites of water."
   },
   {
    "q": "Where is Islen Waterseer located?",
@@ -47,7 +47,7 @@
     "islen location",
     "find islen"
    ],
-   "answer": "Islen Waterseer lives in a fishing hut on the eastern coast of the Barrens, south of Ratchet and the Southfury River's mouth."
+   "answer": "Islen Waterseer lives in a fishing hut on the Barrens' eastern coast, south of Ratchet and the Southfury River's mouth."
   },
   {
    "q": "What is the purpose of the Call of Water trial?",
@@ -56,7 +56,7 @@
     "call of water purpose",
     "shaman water totem quest"
    ],
-   "answer": "The trial begins a shaman's communion with water, testing your understanding of its purity and leading toward the Water Totem."
+   "answer": "The trial begins your communion with water. It tests your understanding of its purity and leads toward the Water Totem."
   },
   {
    "q": "Do other Horde races receive this same instruction?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Call of Water (Thunder Bluff)"
  ],
- "style": 1
+ "style": 2
 }

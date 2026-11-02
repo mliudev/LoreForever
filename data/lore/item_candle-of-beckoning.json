@@ -10,11 +10,11 @@
    "quest:410"
   ]
  },
- "summary": "On Brightwater Lake, Gunther Arcanus keeps an enchanted candle for a summons. Light it on a nearby islet, and the restless spirit Lillith Nefara answers.",
+ "summary": "On Brightwater Lake, Gunther Arcanus keeps an enchanted candle for a summons. Light it on a nearby islet, and Lillith Nefara's restless spirit answers.",
  "sections": [
   {
    "title": "A Test of Allegiance",
-   "body": "Gunther Arcanus keeps the Candle of Beckoning in a crate beside him on his island in Brightwater Lake. The candle is an instrument for a ritual of summoning. Gunther is a fiercely independent undead sorcerer who broke free of the Lich King's command on his own, and he remains wary of both the Scourge and the Forsaken. To show Gunther that you are not loyal to the Lich King, carry one of the candles southwest to a smaller islet. Set it on an old, bloodstained table and light it. The flame pierces the veil between worlds and beckons the dormant, restless shade of Lillith Nefara, a powerful Scourge agent, so she can be destroyed.",
+   "body": "Gunther Arcanus keeps the Candle of Beckoning in a crate beside him on his island in Brightwater Lake. He is a fiercely independent undead sorcerer who broke free of the Lich King's command on his own. Still wary of both the Scourge and the Forsaken, Gunther asks you to carry a candle southwest to a smaller islet. Set it on the old, bloodstained table and light it.\n\nThe flame pierces the veil between worlds and summons the dormant, restless shade of Lillith Nefara. She is a powerful Scourge agent, and Gunther means for her to be destroyed.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "use of candle of beckoning",
     "how to use candle of beckoning"
    ],
-   "answer": "Light the Candle of Beckoning on the old, bloodstained ritual table on the smaller islet southwest of Gunther Arcanus's camp to summon the shade Lillith Nefara. The candle draws her dormant spirit into the physical realm."
+   "answer": "Light the Candle of Beckoning on the old, bloodstained ritual table on the smaller islet southwest of Gunther Arcanus's camp. It summons the dormant spirit of Lillith Nefara into the physical realm."
   },
   {
    "q": "Where do you get the Candle of Beckoning?",
@@ -35,7 +35,7 @@
     "how to get candle of beckoning",
     "candle crate location"
    ],
-   "answer": "You can take a Candle of Beckoning from a crate beside Gunther Arcanus on his island in Brightwater Lake, in eastern Tirisfal Glades, while undertaking his test of allegiance."
+   "answer": "You can take a Candle of Beckoning from a crate beside Gunther Arcanus on his island in Brightwater Lake, in eastern Tirisfal Glades. He gives it to you as part of his test of allegiance."
   },
   {
    "q": "Who is summoned by the candle?",
@@ -58,11 +58,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For Forsaken emissaries sent by the Undercity, handling Gunther's ritual candle is a necessary step to convince the fiercely independent necromancer that you are not thralls of the Lich King."
+   "text": "As an emissary sent by the Undercity, you must handle Gunther's ritual candle to convince the fiercely independent necromancer that you are not a thrall of the Lich King."
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, you can see Gunther's mastery of necromantic and conjuration arts in the way he binds spirits to ritual implements like this candle, outside the Kirin Tor's sanctioned teachings."
+   "text": "As a mage, you can see Gunther's mastery of necromantic and conjuration arts in the way he binds spirits to ritual implements like this candle, beyond the Kirin Tor's sanctioned teachings."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Candle of Beckoning",
   "The Dormant Shade"
  ],
- "style": 1
+ "style": 2
 }

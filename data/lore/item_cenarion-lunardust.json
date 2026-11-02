@@ -10,11 +10,11 @@
    "quest:6002"
   ]
  },
- "summary": "Turak Runetotem gives Cenarion Lunardust to young tauren druids on Thunder Bluff. They use it to awaken Lunaclaw at an ancient Moonkin Stone between Mulgore and the Barrens.",
+ "summary": "Turak Runetotem gives young tauren druids Cenarion Lunardust on Thunder Bluff. At an ancient Moonkin Stone between Mulgore and the Barrens, they use it to awaken Lunaclaw.",
  "sections": [
   {
    "title": "A Rite of Body and Heart",
-   "body": "Cenarion Lunardust carries the Cenarion Circle’s blessing for druids ready to join the Druids of the Claw. At the Moonkin Stone west of Camp Taurajo, the dust calls Lunaclaw, a sacred beast bound to test each initiate. Defeating the guardian tests strength and resolve. The trial teaches the young druid the strength of body and heart needed to take the form of a bear.",
+   "body": "Cenarion Lunardust bears the Cenarion Circle’s blessing for druids ready to join the Druids of the Claw. At the Moonkin Stone west of Camp Taurajo, the dust calls Lunaclaw, a sacred beast bound to test each initiate. The trial measures strength and resolve. In facing it, a young druid learns the strength of body and heart needed to take the form of a bear.",
    "spoiler": 0
   }
  ],
@@ -88,5 +88,5 @@
   "Cenarion Lunardust",
   "Body and Heart (Horde)"
  ],
- "style": 1
+ "style": 2
 }

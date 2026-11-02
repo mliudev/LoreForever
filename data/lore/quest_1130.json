@@ -20,16 +20,16 @@
    "Steelsnap (quest)"
   ]
  },
- "summary": "Jorn Skyseer brings word from Melor Stonehoof to promising hunters in the Barrens. Those who have proved their grit across Kalimdor are called to Hunter's Rise in Thunder Bluff for a harder trial.",
+ "summary": "In the Barrens, Jorn Skyseer carries Melor Stonehoof's summons to promising hunters. Hunters who have proved their grit across Kalimdor are called to Hunter's Rise in Thunder Bluff for a harder trial.",
  "sections": [
   {
    "title": "A Summons to Thunder Bluff",
-   "body": "Across the Barrens, Jorn Skyseer watches the crossings and encampments. He carries word from the elders of Hunter's Rise to hunters and warriors who have shown promise in the surrounding lands. Melor Stonehoof, a revered tauren mentor, has marked out a path for them.",
+   "body": "Jorn Skyseer watches the crossings and encampments of the Barrens. He carries word from the elders of Hunter's Rise to hunters and warriors who have shown promise in the surrounding lands. Melor Stonehoof, a revered tauren mentor, has marked out a path for them.",
    "spoiler": 0
   },
   {
    "title": "The Road to the Hunt",
-   "body": "At Hunter's Rise in Thunder Bluff, you meet Melor Stonehoof. The elder hunter asks if you have the resolve to venture into distant, perilous wilderness. His summons opens trials far beyond the safety of Mulgore, where hunters face the continent's fiercest predators.",
+   "body": "At Hunter's Rise in Thunder Bluff, you meet Melor Stonehoof. The elder hunter asks whether you have the resolve to enter distant and perilous wilderness. His summons leads to trials far beyond Mulgore's safety, where hunters face the continent's fiercest predators.",
    "spoiler": 0
   }
  ],
@@ -68,7 +68,7 @@
     "next quest after melor sends word",
     "melor chain"
    ],
-   "answer": "Melor tests your endurance and hunting instincts with difficult tracking expeditions. The first sends you across Thousand Needles to hunt Steelsnap, a vicious hyena tyrant."
+   "answer": "Melor tests your endurance and hunting instincts with difficult tracking expeditions. The first takes you across Thousand Needles to hunt Steelsnap, a vicious hyena tyrant."
   },
   {
    "q": "Why does Melor recruit adventurers from the Barrens?",
@@ -76,7 +76,7 @@
     "why me",
     "why does melor care"
    ],
-   "answer": "Surviving the Barrens' harsh predators, quilboar, and centaur shows that you have the instincts for elite hunts. Melor seeks those who can track elusive, deadly prey in unfamiliar lands."
+   "answer": "Surviving the Barrens' harsh predators, quilboar, and centaur shows you have the instincts for elite hunts. Melor seeks those who can track elusive, deadly prey in unfamiliar lands."
   },
   {
    "q": "Is this trial restricted to hunters?",
@@ -84,7 +84,7 @@
     "is this a hunter quest",
     "can other classes do this"
    ],
-   "answer": "Melor's trial is open to any Horde adventurer who has proved strength and resourcefulness in the wild. It begins on Hunter's Rise and tests the virtues of a tracker."
+   "answer": "Melor's trial is open to any Horde adventurer who has proved strength and resourcefulness in the wild. It begins on Hunter's Rise and tests a tracker's virtues."
   }
  ],
  "angles": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Melor Sends Word"
  ],
- "style": 1
+ "style": 2
 }

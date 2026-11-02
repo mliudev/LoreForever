@@ -10,11 +10,11 @@
    "quest:1067"
   ]
  },
- "summary": "In Tarren Mill, Apothecary Lydon has made a toxin to disrupt the Venture Company's logging in the Stonetalon Mountains. Horde adventurers carry it to Apothecary Zamah in Thunder Bluff, who must devise a way to spread it.",
+ "summary": "In Tarren Mill, Apothecary Lydon has made a toxin to disrupt Venture Company logging in the Stonetalon Mountains. Horde adventurers carry it to Apothecary Zamah in Thunder Bluff, who must find a way to spread it.",
  "sections": [
   {
    "title": "A Royal Apothecary Solution",
-   "body": "Apothecary Lydon made the toxin in the Hillsbrad Foothills to fight the Venture Company loggers despoiling the Stonetalon Mountains. He says the compound is lethal on contact and may spread from one target to another. Before it can be used against the goblins near Windshear Crag, the mixture must cross continents to Thunder Bluff. Apothecary Zamah, the Royal Apothecary Society's representative there, needs the raw toxin to devise a wide-dispersal device called the Toxic Fogger.",
+   "body": "Apothecary Lydon made the toxin in the Hillsbrad Foothills to hinder Venture Company loggers in the Stonetalon Mountains. He says it kills on contact and may pass from one target to another.\n\nBefore it can reach the goblins near Windshear Crag, the mixture must cross continents to Thunder Bluff. There, Apothecary Zamah, the Royal Apothecary Society's representative, needs the raw toxin to devise a wide-dispersal device called the Toxic Fogger.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does the toxin do",
     "why make lydon's toxin"
    ],
-   "answer": "Apothecary Lydon made the toxin to disrupt the Venture Company's work around Windshear Crag. It is lethal on contact and may spread among the goblin laborers."
+   "answer": "Apothecary Lydon made the toxin to disrupt Venture Company work around Windshear Crag. It kills on contact and may spread among the goblin laborers."
   },
   {
    "q": "Who is Apothecary Lydon?",
@@ -44,7 +44,7 @@
     "why bring toxin to zamah",
     "apothecary zamah purpose"
    ],
-   "answer": "Apothecary Zamah in Thunder Bluff needs the toxin because it has no practical way to be spread widely. She studies regional flora and coordinates Society efforts in Kalimdor, and adapts the mixture into a portable fogging device."
+   "answer": "Apothecary Zamah in Thunder Bluff needs the toxin because it cannot yet be spread widely. She studies regional flora and coordinates Society efforts in Kalimdor. She adapts the mixture into a portable fogging device."
   },
   {
    "q": "What happens after Zamah receives the toxin?",
@@ -58,11 +58,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The transport of Lydon's Toxin shows how far the Royal Apothecary Society's network reaches. It coordinates field research between Lordaeron and Kalimdor to show the Forsaken's usefulness to their allies."
+   "text": "The transport of Lydon's Toxin shows how far the Royal Apothecary Society's network reaches. It coordinates field research between Lordaeron and Kalimdor, showing the Forsaken's usefulness to their allies."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren welcome help against the Venture Company's destruction of nature, but the Royal Apothecary Society's chemical methods test their shamanic sensibilities."
+   "text": "Tauren welcome help against the Venture Company's destruction of nature. Yet the Royal Apothecary Society's chemical methods test their shamanic sensibilities."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
   "Lydon's Toxin",
   "Return to Thunder Bluff (1)"
  ],
- "style": 1
+ "style": 2
 }

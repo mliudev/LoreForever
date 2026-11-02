@@ -17,16 +17,16 @@
   "wiki": "The Deathstalkers",
   "chain": []
  },
- "summary": "In the Undercity, Mennet Carkad tests hopeful Deathstalkers with a demand for ruthless initiative: intercept a traveling messenger. The trial opens the way into the covert order serving Lord Varimathras.",
+ "summary": "Mennet Carkad tests hopeful Deathstalkers in the Undercity by sending them after a traveling messenger. Only the ruthless will find a place in Lord Varimathras's covert order.",
  "sections": [
   {
    "title": "A Test in the Shadows",
-   "body": "The Deathstalkers serve Varimathras as the Forsaken's secret police and elite assassination corps. In the Rogues' Quarter, handler Mennet Carkad sets a trial for anyone seeking a place among them. A hopeful agent must show cunning, discretion, and the will to eliminate a target. Carkad's test is meant to turn away the weak and those troubled by too many scruples.",
+   "body": "In the Rogues' Quarter, Mennet Carkad sets a trial for anyone seeking a place among the Deathstalkers. They serve Varimathras as the Forsaken's secret police and elite assassins. A hopeful agent must show cunning and discretion, then prove the will to eliminate a target. Carkad means to turn away the weak and anyone troubled by too many scruples.",
    "spoiler": 0
   },
   {
    "title": "The Interception",
-   "body": "Astor Hadren carries a letter along the road between the Undercity and Silverpine Forest. Carkad leaves the approach to the recruit. To secure Hadren's personal introduction, the initiate must intercept him and seize his credentials, so the Deathstalkers can pass their recruit off in his place to Andron.",
+   "body": "Astor Hadren carries a letter along the road between the Undercity and Silverpine Forest. Carkad leaves the approach to you. To secure Hadren's personal introduction, you must intercept him and seize his credentials. Then the Deathstalkers can pass you off in his place to Andron.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what are deathstalkers",
     "undead rogues"
    ],
-   "answer": "The Deathstalkers are the Forsaken's covert order and elite stealth and assassination branch. From the Rogues' Quarter in the Undercity, they handle espionage, covert executions, and information gathering, reporting to Lord Varimathras."
+   "answer": "The Deathstalkers are the Forsaken's covert order and elite branch for stealth and assassination. From the Rogues' Quarter in the Undercity, they gather intelligence and carry out espionage and covert executions. They report to Lord Varimathras."
   },
   {
    "q": "Who is Mennet Carkad?",
@@ -86,11 +86,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a Forsaken rogue, joining the Deathstalkers means reaching the highest echelon of state service, where streetwise scoundrels become sworn instruments of Varimathras and the Dark Lady."
+   "text": "As a Forsaken rogue, joining the Deathstalkers brings you to the highest echelon of state service. There, streetwise scoundrels become sworn instruments of Varimathras and the Dark Lady."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you see the Deathstalkers enforce Lordaeron's internal security with an iron grip. They watch for external foes and keep a watchful, paranoid eye on potential traitors within the Forsaken."
+   "text": "As an undead, you see the Deathstalkers enforce Lordaeron's internal security with an iron grip. They watch for foes beyond the Forsaken and keep a wary eye on potential traitors within."
   },
   {
    "target": "faction:Horde",
@@ -115,5 +115,5 @@
  "attribution": [
   "The Deathstalkers"
  ],
- "style": 1
+ "style": 2
 }

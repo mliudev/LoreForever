@@ -8,11 +8,11 @@
   "wiki": "Ruul Eagletalon",
   "refs": 1
  },
- "summary": "At Bloodhoof Village, Ruul Eagletalon watches the settlement’s borders. He keeps an eye on Mulgore’s wildlife, especially the aggressive Windfury harpies pressing into tauren lands.",
+ "summary": "At Bloodhoof Village, Ruul Eagletalon keeps watch over the borders. He watches Mulgore’s wildlife, especially the aggressive Windfury harpies pressing into tauren lands.",
  "sections": [
   {
    "title": "Watcher of Bloodhoof",
-   "body": "Ruul Eagletalon tends to Bloodhoof Village’s security as young braves arrive from Camp Narache. Mulgore is a peaceful homeland beside the arid wastes of the Barrens, yet territorial predators and hostile creatures still press against its pastures. Ruul watches for dangers on the nearby plains and directs capable travelers against the savage Windfury harpies, which prey on unwary nomads and game.",
+   "body": "Ruul Eagletalon watches over Bloodhoof Village as young braves arrive from Camp Narache. Mulgore is a peaceful homeland beside the arid Barrens. Yet territorial predators and hostile creatures still press against its pastures. Ruul watches the nearby plains and directs capable travelers against the savage Windfury harpies, which prey on unwary nomads and game.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "dangers of the windfury",
     "harpies mulgore quest"
    ],
-   "answer": "Ruul warns travelers about aggressive Windfury harpies in Mulgore and asks capable braves to reduce their numbers before they harm the village."
+   "answer": "Ruul warns travelers of aggressive Windfury harpies in Mulgore. He asks capable braves to reduce their numbers before they harm the village."
   },
   {
    "q": "Where can Ruul Eagletalon be found?",
@@ -68,5 +68,5 @@
  "attribution": [
   "Ruul Eagletalon"
  ],
- "style": 1
+ "style": 2
 }

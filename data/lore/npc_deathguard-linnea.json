@@ -8,11 +8,11 @@
   "wiki": "Deathguard Linnea",
   "refs": 2
  },
- "summary": "At a roadside post in southeastern Tirisfal, Deathguard Linnea watches the roads between Brill and the eastern borders. Her unit guards against the Scarlet Crusade and the lingering Scourge, with passing travelers sometimes helping on patrol.",
+ "summary": "At a roadside post in southeastern Tirisfal, Deathguard Linnea watches the roads between Brill and the eastern borders. Her unit guards against the Scarlet Crusade and the Scourge still in the wilds. Travelers sometimes join them on patrol.",
  "sections": [
   {
    "title": "A Vigil on the Roadside",
-   "body": "Deathguard Linnea guards a fortified post southeast of Brill. The Forsaken defend their young realm against Scarlet Crusade infiltrators and Scourge still prowling the wilderness. Linnea and her fellow guards patrol the road and coordinate reports with Magistrate Sevren in Brill. Their watch keeps the eastern road toward the Bulwark secure.",
+   "body": "Southeast of Brill, Deathguard Linnea guards a fortified post. The Forsaken defend their young realm from Scarlet Crusade infiltrators and Scourge still prowling the wilderness. Linnea and her fellow guards patrol the road and share reports with Magistrate Sevren in Brill. Their watch keeps the eastern road toward the Bulwark secure.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "deathguard linnea lore",
     "who is linnea"
    ],
-   "answer": "Linnea serves in the Deathguard, the Forsaken force that defends their territory. She guards a waystation on the road southeast of Brill in Tirisfal Glades."
+   "answer": "Linnea serves in the Deathguard, the Forsaken force that defends their territory. She guards a waystation southeast of Brill in Tirisfal Glades."
   },
   {
    "q": "Why does she need help patrolling?",
@@ -32,13 +32,13 @@
     "rear guard patrol lore",
     "why help linnea"
    ],
-   "answer": "Forsaken forces are spread thin across Tirisfal Glades. Linnea depends on travelers and rising champions to clear nearby threats, so messengers and supply runners can travel safely to and from Brill."
+   "answer": "Forsaken forces are spread thin across Tirisfal Glades. Linnea relies on travelers and rising champions to clear nearby threats, keeping the way safe for messengers and supply runners traveling to and from Brill."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken newly risen from Deathknell, you can help Linnea guard the waystation and secure your kingdom's borders."
+   "text": "As a Forsaken newly risen from Deathknell, you can help Linnea guard the waystation and protect your kingdom's borders."
   },
   {
    "target": "faction:Horde",
@@ -63,5 +63,5 @@
  "attribution": [
   "Deathguard Linnea"
  ],
- "style": 1
+ "style": 2
 }

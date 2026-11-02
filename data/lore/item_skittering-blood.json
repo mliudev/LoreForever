@@ -10,16 +10,16 @@
    "quest:447"
   ]
  },
- "summary": "Skittering Blood feeds the Royal Apothecary Society's work on a New Plague. The reagent comes from arachnids in the Skittering Dark of Silverpine Forest, where Forsaken alchemists seek a weapon against the Scourge and humanity.",
+ "summary": "In Silverpine Forest, Skittering Blood gives the Royal Apothecary Society material for its New Plague. Forsaken alchemists draw it from arachnids in the Skittering Dark as they seek a weapon against the Scourge and humanity.",
  "sections": [
   {
    "title": "A Toxic Distillate",
-   "body": "Skitterweb lurkers, strikers, and their broodmother Krethis the Shadowspinner yield a venomous blood. Apothecary Renferrel found that, refined with toxins from grizzled bear hearts, it forms the base of an exceptionally lethal elixir. Its contaminating agents make it useful in the Apothecarium's chemical experiments.",
+   "body": "Skitterweb lurkers, strikers, and their broodmother Krethis the Shadowspinner yield venomous blood. Apothecary Renferrel found that refined with toxins from grizzled bear hearts, it forms the base of an exceptionally lethal elixir. Its contaminating agents also suit the Apothecarium's chemical experiments.",
    "spoiler": 0
   },
   {
    "title": "Fueling the New Plague",
-   "body": "In the Undercity, Master Apothecary Faranell directs the Royal Apothecary Society's search for a New Plague. The Forsaken face Scourge hordes and hostile human remnants, and turn to biological warfare to even the odds. Faranell studies the blood's toxic strength as he works toward a contagion that can destroy unlife and living flesh alike.",
+   "body": "In the Undercity, Master Apothecary Faranell directs the Royal Apothecary Society's search for a New Plague. The Forsaken face Scourge hordes and hostile human remnants, so they turn to biological warfare to even the odds. Faranell studies the blood's toxic strength as he works toward a contagion that can destroy unlife and living flesh alike.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "skittering blood location",
     "who drops skittering blood"
    ],
-   "answer": "Skittering Blood comes from Skitterweb lurkers, strikers, and Krethis the Shadowspinner in and around the Skittering Dark, a gloomy, web-choked wood in northwestern Silverpine Forest."
+   "answer": "Skitterweb lurkers, strikers, and Krethis the Shadowspinner yield Skittering Blood in and around the Skittering Dark. The gloomy, web-choked wood lies in northwestern Silverpine Forest."
   },
   {
    "q": "Who requests these samples?",
@@ -48,7 +48,7 @@
     "who wants skittering blood",
     "quest giver for skittering blood"
    ],
-   "answer": "Apothecary Renferrel at the Sepulcher in Silverpine Forest asks for the blood. The gathered fluid is delivered to Master Apothecary Faranell in the Undercity's Apothecarium."
+   "answer": "Apothecary Renferrel at the Sepulcher in Silverpine Forest asks for the blood. The samples go to Master Apothecary Faranell in the Undercity's Apothecarium."
   },
   {
    "q": "Why do the Forsaken need venom from local beasts?",
@@ -56,13 +56,13 @@
     "why spider venom",
     "apothecary beast research"
    ],
-   "answer": "The Royal Apothecary Society draws natural toxins from Lordaeron's corrupted fauna. Venom from Silverpine's giant arachnids provides raw biological pathogens that can be concentrated and weaponized into synthetic plagues."
+   "answer": "The Royal Apothecary Society draws natural toxins from Lordaeron's corrupted fauna. Venom from Silverpine's giant arachnids supplies raw biological pathogens that can be concentrated and weaponized into synthetic plagues."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, your contribution of Skittering Blood aids Queen Sylvanas and the Royal Apothecary Society as they develop a biological weapon against Arthas and living humanity."
+   "text": "As an Undead, you aid Queen Sylvanas and the Royal Apothecary Society as they develop a biological weapon against Arthas and living humanity."
   },
   {
    "target": "faction:Horde",
@@ -93,5 +93,5 @@
   "Skittering Blood",
   "A Recipe For Death"
  ],
- "style": 1
+ "style": 2
 }

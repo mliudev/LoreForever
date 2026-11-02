@@ -17,16 +17,16 @@
   "wiki": "Proving Allegiance",
   "chain": []
  },
- "summary": "Gunther Arcanus tests whether you serve the free-willed Forsaken or the Lich King. To earn his trust, you are sent to summon and destroy Lillith Nefara, a Scourge operative near his island.",
+ "summary": "Gunther Arcanus tests whether you serve the free-willed Forsaken or the Lich King. He sends you to summon and destroy Lillith Nefara, a Scourge operative near his island.",
  "sections": [
   {
    "title": "A Recluse's Suspicions",
-   "body": "Gunther Arcanus has kept to an island in Brightwater Lake since rising into undeath. He fiercely guards his freedom. Bethor Iceshard's enchantments on Gunther's spellbook showed that the emissary carries no Scourge taint. Still, words and charms cannot quiet the hermit's suspicions. An outsider must prove hostility toward the Lich King's minions through decisive violence before Gunther will trust them.",
+   "body": "Gunther Arcanus has lived on an island in Brightwater Lake since rising into undeath. He guards his freedom fiercely. Bethor Iceshard enchanted Gunther's spellbook and found no Scourge taint on the emissary. Yet neither words nor charms can quiet Gunther's suspicions. He needs an outsider to prove hostility toward the Lich King's minions through decisive violence before he will trust them.",
    "spoiler": 0
   },
   {
    "title": "The Slaying of Lillith Nefara",
-   "body": "South of Gunther's refuge, a bloodstained ritual altar marks the place where Lillith Nefara operates in the Tirisfal Glades. She is a formidable agent of the Scourge. A Candle of Beckoning awakens her from the shadows, bringing her into open combat. Her defeat breaks Gunther's long-held belief that he alone among the undead had escaped the Lich King's control.",
+   "body": "South of Gunther's refuge, a bloodstained ritual altar marks Lillith Nefara's place in the Tirisfal Glades. She is a formidable Scourge agent. A Candle of Beckoning draws her from the shadows and into open combat. Her defeat breaks Gunther's long-held belief that he alone among the undead escaped the Lich King's control.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "why does gunther doubt me",
     "gunther trust"
    ],
-   "answer": "Gunther has survived as an independent undead by trusting no one. With the Scourge, the Scarlet Crusade, and other threats around him in Tirisfal, he suspects any undead visitor may be the Lich King's agent until they shed Scourge blood."
+   "answer": "Gunther has survived as an independent undead by trusting no one. With the Scourge, the Scarlet Crusade, and other threats around him in Tirisfal, he suspects any undead visitor may serve the Lich King until they shed Scourge blood."
   },
   {
    "q": "Who is Lillith Nefara?",
@@ -77,13 +77,13 @@
     "what next after proving allegiance",
     "after lillith dies"
    ],
-   "answer": "Once Gunther's doubts are settled, he agrees to hear the Undercity's emissaries and reconsider his solitary exile, opening the way to his formal recruitment into Lady Sylvanas's Forsaken."
+   "answer": "Once Gunther's doubts are settled, he agrees to hear the Undercity's emissaries and reconsider his solitary exile. This opens the way to his formal recruitment into Lady Sylvanas's Forsaken."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For you as Forsaken, breaking Gunther's isolation is personal. It shows a brother in undeath that none of you need face the Scourge or the living alone."
+   "text": "As Forsaken, you have a personal stake in ending Gunther's isolation. It shows a brother in undeath that none of you need face the Scourge or the living alone."
   },
   {
    "target": "class:Mage",
@@ -112,5 +112,5 @@
  "attribution": [
   "Proving Allegiance"
  ],
- "style": 1
+ "style": 2
 }

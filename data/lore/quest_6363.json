@@ -17,16 +17,16 @@
   "wiki": "Tal the Wind Rider Master (Classic)",
   "chain": []
  },
- "summary": "In Thunder Bluff, Tal the Wind Rider Master awaits a parcel from Ahanu. It is bound for Jahan Hawkwing at the Crossroads, linking Mulgore’s leatherworkers with Barrens merchants.",
+ "summary": "In Thunder Bluff, Tal the Wind Rider Master waits for Ahanu’s parcel. It is bound for Jahan Hawkwing at the Crossroads, where Mulgore’s leatherworkers trade with Barrens merchants.",
  "sections": [
   {
    "title": "Supplies for the Crossroads",
-   "body": "Ahanu, a leatherworker on Thunder Bluff’s lower rise, sends finished hides to Jahan Hawkwing’s trade stall at the Crossroads. Trade between Mulgore and the Barrens matters to the young Horde, but the journey down the bluffs and across the plains takes hours on foot. Winged couriers carry parcels over the divide.",
+   "body": "From Thunder Bluff’s lower rise, Ahanu sends finished hides to Jahan Hawkwing’s trade stall at the Crossroads. Trade between Mulgore and the Barrens matters to the young Horde. The journey down the bluffs and across the plains takes hours on foot, so winged couriers carry parcels over the divide.",
    "spoiler": 0
   },
   {
    "title": "Master of the Mesa's Roost",
-   "body": "On Thunder Bluff’s highest central tier, Tal tends the city’s wind riders, also called wyverns. The winged beasts cross Kalimdor’s rugged peaks and shifting thermal drafts. Tal arranges flights to outposts such as the Crossroads, carrying messengers and cargo between the tauren capital and its orcish allies.",
+   "body": "On Thunder Bluff’s highest central tier, Tal tends the city’s wind riders, also called wyverns. They cross Kalimdor’s rugged peaks and shifting thermal drafts. Tal arranges flights to outposts such as the Crossroads, carrying messengers and cargo between the tauren capital and its orcish allies.",
    "spoiler": 0
   }
  ],
@@ -74,7 +74,7 @@
     "what is a wind rider",
     "tauren mounts"
    ],
-   "answer": "Wind riders, also called wyverns, are sentient, venomous winged predators native to Kalimdor’s crags. They allied with the Horde since the Third War and are its chief aerial mounts."
+   "answer": "Wind riders, also called wyverns, are sentient, venomous winged predators native to Kalimdor’s crags. They have been allied with the Horde since the Third War and are its chief aerial mounts."
   },
   {
    "q": "Where does this courier errand lead next?",
@@ -83,7 +83,7 @@
     "what after tal",
     "where do leather goods go"
    ],
-   "answer": "After you deliver the goods to Tal, he directs you to take Ahanu’s parcel across the plains to Jahan Hawkwing at the Crossroads."
+   "answer": "After you deliver the goods to Tal, he directs you to carry Ahanu’s parcel across the plains to Jahan Hawkwing at the Crossroads."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Tal the Wind Rider Master (Classic)"
  ],
- "style": 1
+ "style": 2
 }

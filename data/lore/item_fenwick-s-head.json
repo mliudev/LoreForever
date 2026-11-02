@@ -10,16 +10,16 @@
    "quest:1998"
   ]
  },
- "summary": "Forsaken rogues seek Fenwick Thatros along the shores of Lordamere Lake. His head is proof of his execution, claimed on orders passed down from Lord Varimathras.",
+ "summary": "Forsaken rogues now hunt Fenwick Thatros along the shores of Lordamere Lake. His head proves his execution, demanded by an order passed down from Lord Varimathras.",
  "sections": [
   {
    "title": "A Contract from the Shadows",
-   "body": "Mennet Carkad acts from the Rogues' Quarter of the Undercity on urgent intelligence from dreadlord Varimathras. Fenwick Thatros, a hostile undead leader, has established a foothold near the decaying docks along Lordamere Lake in Silverpine Forest. To keep him from rallying hostile undead against the Forsaken, Carkad sends promising Deathstalkers to find and kill him, then bring back his head as proof.",
+   "body": "From the Rogues' Quarter in the Undercity, Mennet Carkad acts on urgent intelligence from dreadlord Varimathras. Fenwick Thatros, a hostile undead leader, has made a foothold near the decaying docks of Lordamere Lake in Silverpine Forest. Carkad fears Fenwick may rally hostile undead against the Forsaken. So he sends promising Deathstalkers to find and kill him, then bring back his head as proof.",
    "spoiler": 0
   },
   {
    "title": "A Rite of Passage",
-   "body": "For Deathstalker operatives, bringing Fenwick's Head to Carkad is a trial beyond collecting a bounty. The severed head proves a rogue's skill in infiltration and assassination. Success opens the way to deeper, more specialized instruction in the shadow arts from Forsaken masters.",
+   "body": "For Deathstalker operatives, bringing Fenwick's Head to Carkad is a trial beyond claiming a bounty. The severed head proves a rogue can infiltrate and assassinate. Success opens the way to deeper and more specialized instruction in the shadow arts from Forsaken masters.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "fenwick thatros lore",
     "who was thatros"
    ],
-   "answer": "Lord Varimathras identified Fenwick Thatros as an undead leader entrenched in Silverpine Forest. Near the decrepit docks of Lordamere Lake, he posed an immediate danger to Forsaken interests in the region."
+   "answer": "Lord Varimathras identified Fenwick Thatros as an undead leader entrenched in Silverpine Forest. Near the decrepit docks of Lordamere Lake, Fenwick posed an immediate danger to Forsaken interests in the region."
   },
   {
    "q": "Who wants Fenwick's Head?",
@@ -94,5 +94,5 @@
   "Fenwick's Head",
   "Fenwick Thatros (quest)"
  ],
- "style": 1
+ "style": 2
 }

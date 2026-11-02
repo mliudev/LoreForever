@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Brill Town Hall"
  },
- "summary": "Brill Town Hall anchors Forsaken rule in the shattered heart of Lordaeron. From its doors, the undead govern Brill and coordinate the defense of Tirisfal Glades.",
+ "summary": "In Brill Town Hall, the Forsaken govern Brill and plan Tirisfal's defense. Its doors stand in Lordaeron's shattered heart.",
  "sections": [
   {
    "title": "Civic Seat of the Forsaken",
-   "body": "Brill Town Hall remains open under Forsaken rule while much of Lordaeron lies in ruins. Magistrate Sevren directs town affairs from his podium, issuing orders to Forsaken travelers. Beyond the Defiler's Den in the Arathi Highlands, few recognized town halls in the known world remain active under Forsaken control. Brill’s hall carries on Lordaeron’s old civic order beneath undead rule.",
+   "body": "Forsaken rule continues from Brill Town Hall while much of Lordaeron lies in ruins. Magistrate Sevren directs town affairs from his podium and gives orders to Forsaken travelers. Few known town halls remain active under Forsaken control. Beyond the Defiler's Den in the Arathi Highlands, Brill's hall is among them. It keeps Lordaeron's old civic order alive beneath undead rule.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this building",
     "why visit brill town hall"
    ],
-   "answer": "Brill Town Hall is the local seat of government for Brill. Magistrate Sevren and other Forsaken leaders use it to direct local defense, issue decrees, and assign work to travelers and newly awakened undead."
+   "answer": "Brill Town Hall is where Brill's Forsaken govern. Magistrate Sevren and other leaders direct local defense, issue decrees, and assign work to travelers and newly awakened undead."
   },
   {
    "q": "Who is in charge here?",
@@ -40,17 +40,17 @@
     "unique forsaken town hall",
     "are there other forsaken town halls"
    ],
-   "answer": "Brill Town Hall is one of the few active civic halls run by the Forsaken. The Defiler's Den in Arathi is another, while most town halls belong to living human kingdoms."
+   "answer": "Brill Town Hall is one of the few active civic halls run by the Forsaken. The Defiler's Den in Arathi is another; most town halls belong to living human kingdoms."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken setting out from Deathknell, you find your first taste of organized civic rule under Queen Sylvanas here. Local defense and efforts to reclaim the land are formally arranged within Brill Town Hall."
+   "text": "As a Forsaken setting out from Deathknell, you find your first taste of organized civic rule under Queen Sylvanas here. Brill Town Hall formally arranges local defense and efforts to reclaim the land."
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde ally arriving in Tirisfal, you can visit Brill Town Hall to see how the Forsaken maintain civil authority and military order in their darkened homeland."
+   "text": "As a Horde ally arriving in Tirisfal, you can visit Brill Town Hall and see how the Forsaken keep civil authority and military order in their darkened homeland."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Brill Town Hall"
  ],
- "style": 1
+ "style": 2
 }

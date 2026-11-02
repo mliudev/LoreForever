@@ -17,16 +17,16 @@
   "wiki": "Battle of Hillsbrad (7) (Classic)",
   "chain": []
  },
- "summary": "At Hillsbrad, the Forsaken campaign has broken the human township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity.",
+ "summary": "At Hillsbrad, the Forsaken have broken the township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity.",
  "sections": [
   {
    "title": "A Decisive Campaign",
-   "body": "The fighting in Hillsbrad Foothills has been a brutal struggle for southern Lordaeron. From Tarren Mill, Horde champions struck at the township's farmers, militia, blacksmiths, and civic leaders. With Alliance forces crippled and the territory secured for the Forsaken, High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command.",
+   "body": "Fierce fighting in Hillsbrad Foothills has decided the struggle for southern Lordaeron. From Tarren Mill, Horde champions struck the township's farmers, militia, blacksmiths, and civic leaders. Alliance forces are crippled, and the territory is secured for the Forsaken. Now High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command.",
    "spoiler": 0
   },
   {
    "title": "Audience with the Dreadlord",
-   "body": "Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat, while surviving human enclaves still endanger the Forsaken's southern borders.",
+   "body": "Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat. Yet surviving human enclaves still endanger the Forsaken's southern borders.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "hillsbrad final quest",
     "quest 550"
    ],
-   "answer": "High Executor Darthalia sends you to deliver her sealed commendation to Varimathras in the Undercity, after the Forsaken campaign against Hillsbrad has broken the township's defenses."
+   "answer": "High Executor Darthalia sends you to deliver her sealed commendation to Varimathras in the Undercity. The Forsaken campaign against Hillsbrad has broken the township's defenses."
   },
   {
    "q": "Where do I turn in Darthalia's Sealed Commendation?",
@@ -47,7 +47,7 @@
     "turn in commendation",
     "darthalia letter turn in"
    ],
-   "answer": "Take Darthalia's Sealed Commendation to Varimathras in the Royal Quarter of the Undercity, where he stands beside Lady Sylvanas Windrunner."
+   "answer": "Take Darthalia's Sealed Commendation to Varimathras in the Royal Quarter of the Undercity. He stands beside Lady Sylvanas Windrunner."
   },
   {
    "q": "Why does Varimathras care about Hillsbrad?",
@@ -55,7 +55,7 @@
     "why varimathras",
     "varimathras role in hillsbrad"
    ],
-   "answer": "Varimathras oversees military operations across Lordaeron. The Scourge in the north is the Undercity's greatest threat, but human settlements in the south harass Forsaken lines, so Hillsbrad's defeat protects the southern frontier."
+   "answer": "Varimathras oversees military operations across Lordaeron. The Scourge in the north is the Undercity's greatest threat, but human settlements in the south harass Forsaken lines. Hillsbrad's defeat protects the southern frontier."
   },
   {
    "q": "Who is High Executor Darthalia?",
@@ -85,11 +85,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you bring word of your victory over Hillsbrad's living to the Royal Quarter, earning praise and affirming your place in the Dark Lady's rising empire."
+   "text": "As an undead, you bring word of your victory over Hillsbrad's living to the Royal Quarter. There, you earn praise and affirm your place in the Dark Lady's rising empire."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you drive back Alliance forces in Lordaeron and secure vital ground for the Horde in the Eastern Kingdoms."
+   "text": "As a member of the Horde, you drive back Alliance forces in Lordaeron. You secure vital ground for the Horde in the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Battle of Hillsbrad (7) (Classic)"
  ],
- "style": 1
+ "style": 2
 }

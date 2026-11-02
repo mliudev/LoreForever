@@ -17,21 +17,21 @@
   "wiki": "The Hunter's Way (Classic)",
   "chain": []
  },
- "summary": "In Mulgore, Skorn Whitecloud guides aspiring trackers through the Hunter's Way. To prove their skill and respect for the wild, you hunt flatland prowlers and bring their claws to Melor Stonehoof on Thunder Bluff's Hunter Rise.",
+ "summary": "In Mulgore, young adventurers follow The Hunter's Way under Skorn Whitecloud's guidance. You hunt flatland prowlers and take their claws to Melor Stonehoof on Thunder Bluff's Hunter Rise, proving your skill and respect for the wild.",
  "sections": [
   {
    "title": "A Tradition of the Plains",
-   "body": "For the tauren, hunting is among the highest honors. It calls for patience, attention to the Earth Mother's balance, and respect for the beasts across the plains. Elder Skorn Whitecloud has spent decades tracking across Kalimdor and now rests in Mulgore. He sees young adventurers eager to roam and gives them a traditional trial to shape their ambition into discipline.",
+   "body": "Among the tauren, hunting is one of the highest honors. It asks for patience, care for the Earth Mother's balance, and respect for the beasts of the plains. Elder Skorn Whitecloud tracked across Kalimdor for decades before coming to rest in Mulgore. Seeing young adventurers eager to roam, he gives them a traditional trial to turn ambition into discipline.",
    "spoiler": 0
   },
   {
    "title": "The Stalkers of the Grasslands",
-   "body": "Flatland prowlers test a candidate's tracking skill. These great cats move swiftly and quietly, hiding in Mulgore's high grass before ambushing their prey. Bring four sets of claws to show you can spot a predator before it catches you, then turn its ferocity against it.",
+   "body": "Flatland prowlers test a candidate's tracking skill. Great cats, they move swiftly and quietly through Mulgore's high grass, then ambush their prey. Bring four sets of claws to show you can find a predator before it finds you. Then turn its own ferocity against it.",
    "spoiler": 0
   },
   {
    "title": "Reaching Hunter Rise",
-   "body": "After gathering the claws, you climb the wooden towers and bridges to Thunder Bluff's Hunter Rise. Melor Stonehoof receives the trophies there. A master tracker who values Skorn Whitecloud's ancient wisdom, Melor accepts them as proof that you have the spirit to learn more of Kalimdor's hunting ways.",
+   "body": "With the claws gathered, you climb the wooden towers and bridges to Hunter Rise in Thunder Bluff. Melor Stonehoof receives the trophies there. A master tracker, Melor values Skorn Whitecloud's ancient wisdom. He accepts the claws as proof that you have the spirit to learn more of Kalimdor's hunting ways.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "turn in location",
     "hunter rise"
    ],
-   "answer": "Bring the flatland prowler claws to Melor Stonehoof on the Hunter Rise in Thunder Bluff."
+   "answer": "Take the flatland prowler claws to Melor Stonehoof on the Hunter Rise in Thunder Bluff."
   },
   {
    "q": "Why are flatland prowler claws chosen as the tribute?",
@@ -61,7 +61,7 @@
     "prowler claws lore",
     "what are prowlers"
    ],
-   "answer": "Flatland prowlers are stealthy, dangerous hunters of Mulgore's grasslands. Tracking and defeating them tests the sharp eyes, patience, and discipline needed for advanced hunting."
+   "answer": "Flatland prowlers are stealthy and dangerous hunters of Mulgore's grasslands. Tracking and defeating them tests the sharp eyes, patience, and discipline needed for advanced hunting."
   },
   {
    "q": "Is this quest restricted only to the Hunter class?",
@@ -79,7 +79,7 @@
     "next quest",
     "where to go after melor"
    ],
-   "answer": "Melor Stonehoof recognizes your growing talent and directs you toward the harsher Barrens, where experienced trackers such as Sergra Darkthorn can guide you."
+   "answer": "Melor Stonehoof recognizes your growing talent and directs you toward the harsher Barrens. There, experienced trackers such as Sergra Darkthorn can guide you."
   },
   {
    "q": "What significance does hunting hold in tauren culture?",
@@ -94,11 +94,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren, bringing prowler claws to Hunter Rise marks a rite of passage tied to generations of ancestors who hunted these same plains."
+   "text": "As a young tauren, bringing prowler claws to Hunter Rise marks a rite of passage. Generations of ancestors hunted these same plains."
   },
   {
    "target": "class:Hunter",
-   "text": "As a Hunter, you are tested on the wild's core lessons: stalk an ambush predator before it strikes, and read the grasslands' subtle signs."
+   "text": "As a Hunter, you learn the wild's core lessons: stalk an ambush predator before it strikes, and read the grasslands' subtle signs."
   },
   {
    "target": "faction:Horde",
@@ -126,5 +126,5 @@
  "attribution": [
   "The Hunter's Way (Classic)"
  ],
- "style": 1
+ "style": 2
 }

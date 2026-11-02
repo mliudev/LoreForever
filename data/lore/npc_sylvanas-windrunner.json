@@ -8,16 +8,16 @@
   "wiki": "Sylvanas Windrunner",
   "refs": 2
  },
- "summary": "In the Undercity, Sylvanas Windrunner rules the Forsaken from beneath Lordaeron's ruins. Once Silvermoon's Ranger-General, she was slain and raised by Arthas Menethil, then broke free of the Lich King's control. She joined Thrall's Horde to help secure her people's future and seeks vengeance on the Scourge.",
+ "summary": "Beneath Lordaeron's ruins, Sylvanas Windrunner rules the Forsaken from the Undercity. Once Silvermoon's Ranger-General, she was slain and raised by Arthas Menethil, then broke free of the Lich King's control. She joined Thrall's Horde to secure her people's future and seeks vengeance on the Scourge.",
  "sections": [
   {
    "title": "Fall of the Ranger-General",
-   "body": "Sylvanas Windrunner once commanded Quel'Thalas's defense as Silvermoon's Ranger-General. When Prince Arthas Menethil led the Scourge into the high elven kingdom to reach the Sunwell, she fought to hold him back. Angered by her resistance, Arthas murdered her and denied her a clean death. He tore her soul from her body and made her a vengeful banshee, forcing her to serve the Scourge and help slaughter her own people.",
+   "body": "Sylvanas Windrunner commanded Quel'Thalas's defense as Silvermoon's Ranger-General. When Prince Arthas Menethil led the Scourge into the high elven kingdom for the Sunwell, she fought to stop him. Angered by her resistance, Arthas murdered her and denied her a clean death. He tore her soul from her body and made her a vengeful banshee, forcing her to serve the Scourge and help slaughter her own people.",
    "spoiler": 0
   },
   {
    "title": "Rise of the Forsaken",
-   "body": "After the Third War, the Lich King's weakening grip let Sylvanas break free and reclaim her preserved body. She gathered other undead who had regained their free will, then drove the dreadlords from Lordaeron's ruins. She named her people the Forsaken and made the Undercity their realm beneath the ruins. Isolated and threatened by Scourge remnants, zealous Scarlet crusaders, and wary human realms, the Forsaken needed allies. Sylvanas made an uneasy alliance with Warchief Thrall and the Horde.",
+   "body": "After the Third War, the Lich King's weakening grip freed Sylvanas, and she reclaimed her preserved body. She gathered other undead who had regained their free will, then drove the dreadlords from Lordaeron's ruins. She named her people the Forsaken and made the Undercity their realm beneath the ruins.\n\nThe Forsaken faced Scourge remnants, zealous Scarlet crusaders, and wary human realms. They needed allies, so Sylvanas made an uneasy alliance with Warchief Thrall and the Horde.",
    "spoiler": 0
   }
  ],
@@ -94,5 +94,5 @@
  "attribution": [
   "Sylvanas Windrunner"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:3098"
   ]
  },
- "summary": "In Deathknell, the Glyphic Scroll calls newly raised Forsaken magi to the church. Isabella’s seal marks the summons, which invites fledgling spellcasters to begin their arcane training in undeath.",
+ "summary": "In Deathknell, the Glyphic Scroll calls newly raised Forsaken magi to the church. Isabella’s seal invites fledgling spellcasters to begin arcane training in undeath.",
  "sections": [
   {
    "title": "A Summons from the Church",
-   "body": "Newly awakened Forsaken mages find a sealed scroll after culling mindless Scourge in Deathknell’s graveyard. Isabella, the settlement’s mage trainer, marks it with her seal and calls them to the ruined parish sanctuary. There, new magi begin learning the arcane under the Forsaken banner. Death has freed them from mortal weakness, but magic’s corrupting temptations remain.",
+   "body": "Newly awakened Forsaken mages find a sealed scroll after culling mindless Scourge in Deathknell’s graveyard. Isabella, the settlement’s mage trainer, summons them to the ruined parish sanctuary. There, new magi begin learning the arcane under the Forsaken banner. Death has freed them from mortal weakness, but magic’s corrupting temptations remain.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "glyphic scroll use",
     "what does scroll do"
    ],
-   "answer": "The Glyphic Scroll introduces newly raised Forsaken magi in Deathknell to their arcane training. Sealed by their trainer Isabella, it calls them to meet her inside the town church."
+   "answer": "The Glyphic Scroll calls newly raised Forsaken magi in Deathknell to begin arcane training. Their trainer Isabella seals it and summons them to meet her inside the town church."
   },
   {
    "q": "Who sends the Glyphic Scroll?",
@@ -35,7 +35,7 @@
     "who gave me this",
     "scroll sender"
    ],
-   "answer": "Isabella sends the Glyphic Scroll to newly raised undead with an aptitude for the arcane. She is the mage trainer in Deathknell’s ruined church."
+   "answer": "Isabella sends the Glyphic Scroll to newly raised undead with an aptitude for the arcane. She trains mages in Deathknell’s ruined church."
   },
   {
    "q": "Why does Isabella want to train new Forsaken mages?",
@@ -43,13 +43,13 @@
     "isabella motive",
     "why train mages"
    ],
-   "answer": "Isabella trains Forsaken magi who share the pain of dying and the wish to reclaim their homeland and destinies. She teaches them to build the arcane power to destroy those who oppose the Forsaken, while warning them against magical addiction and corruption."
+   "answer": "Isabella trains Forsaken magi who share the pain of dying and the wish to reclaim their homeland and destinies. She teaches them to build arcane power to destroy those who oppose the Forsaken, while warning them against magical addiction and corruption."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a Forsaken mage, you receive this first formal summons to training. Undeath does not spare you the corrupting pull of arcane magic."
+   "text": "As a Forsaken mage, you receive your first formal summons to training. Undeath does not spare you the corrupting pull of arcane magic."
   },
   {
    "target": "race:Undead",
@@ -76,5 +76,5 @@
   "Glyphic Scroll",
   "Glyphic Scroll (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "Proof of the Rite",
-   "body": "The Red Cloud tribe tests youths who seek respect in Thunder Bluff through the ancient Rites of the Earthmother. The first trial, the Rite of Strength, asks each initiate to protect the tribe from threats. Bristleback quilboar raid food supplies and ambush hunting parties outside Camp Narache. Chief Hawkwind demands their belts in return. Bringing him twelve proves an initiate can face danger and help defend the tribe.",
+   "body": "The Red Cloud tribe tests youths who seek respect in Thunder Bluff through the ancient Rites of the Earthmother. Their first trial is the Rite of Strength. Each initiate must protect the tribe from threats. Bristleback quilboar raid food supplies and ambush hunting parties outside Camp Narache, so Chief Hawkwind demands their belts. Bring him twelve to prove you can face danger and help defend the tribe.",
    "spoiler": 0
   },
   {
    "title": "Quilboar Craft",
-   "body": "Bristleback warriors and shamans in Brambleblade Ravine wear belts made from rough hide, twine, and scrap. A tauren warrior has little use for one as apparel, but its quilboar make marks it as evidence of a slain enemy. Bringing the belts back to the camp circle fulfills the rite's proof.",
+   "body": "Bristleback warriors and shamans in Brambleblade Ravine wear belts made from rough hide, twine and scrap. A tauren warrior has little use for one as apparel, but the quilboar make marks it as evidence of a slain enemy. Bring the belts back to the camp circle to fulfill the rite's proof.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who drops bristleback belts",
     "bristleback belt location"
    ],
-   "answer": "Bristleback quilboar and shamans in Brambleblade Ravine, just east of Camp Narache in the Red Cloud Mesa, wear the belts."
+   "answer": "Bristleback quilboar and shamans in Brambleblade Ravine wear the belts. The ravine lies just east of Camp Narache in the Red Cloud Mesa."
   },
   {
    "q": "Why does Chief Hawkwind want belts instead of heads or weapons?",
@@ -93,5 +93,5 @@
   "Bristleback Belt",
   "Rite of Strength (Classic)"
  ],
- "style": 1
+ "style": 2
 }

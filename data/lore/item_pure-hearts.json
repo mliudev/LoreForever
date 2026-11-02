@@ -10,11 +10,11 @@
    "quest:1474"
   ]
  },
- "summary": "In the Undercity, Pure Hearts draw a succubus from the Twisting Nether. Carendin Halgar gives these ritual reagents to Forsaken warlocks, who use them to manifest the demon and attempt to defeat and bind her.",
+ "summary": "In the Undercity, Pure Hearts draw a succubus from the Twisting Nether. Carendin Halgar gives these ritual reagents to Forsaken warlocks, who use them to call the demon forth and try to defeat and bind her.",
  "sections": [
   {
    "title": "Bait for the Nether",
-   "body": "Carendin Halgar gives Pure Hearts to warlocks who summon a succubus in the Undercity's Magic Quarter. Set on the summoning circle, these untainted spiritual essences lure the demon across the Twisting Nether and into the mortal realm. Once she appears, the warlock must resist her enthralling mind-charms and strike her down. Defeating the succubus asserts mystical dominance and sends her back to the Twisting Nether. Carendin then teaches the warlock the spell to summon her at will.",
+   "body": "Carendin Halgar gives Pure Hearts to warlocks who summon a succubus in the Undercity's Magic Quarter. They set the untainted spiritual essences on the summoning circle. The hearts lure the demon across the Twisting Nether and into the mortal realm.\n\nOnce she appears, the warlock must resist her enthralling mind-charms and strike her down. Defeating the succubus proves mystical dominance and sends her back to the Twisting Nether. Then Carendin teaches the warlock the spell to summon her at will.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why pure hearts",
     "what do pure hearts do"
    ],
-   "answer": "Pure Hearts lure a succubus across the Twisting Nether and manifest her in the mortal realm, at the summoning circle in the Undercity's Magic Quarter, where a warlock can fight and bind her."
+   "answer": "Pure Hearts lure a succubus across the Twisting Nether and bring her into the mortal realm. At the summoning circle in the Undercity's Magic Quarter, a warlock can fight and bind her."
   },
   {
    "q": "Who provides the Pure Hearts?",
@@ -42,7 +42,7 @@
     "why succubus wants pure hearts",
     "lore behind pure hearts"
    ],
-   "answer": "Succubi thrive on corruption and seduction, and the radiance of unblemished hearts is an irresistible lure across the Twisting Nether, drawing them to a warlock's summoning circle."
+   "answer": "Succubi thrive on corruption and seduction. The radiance of unblemished hearts lures them across the Twisting Nether to a warlock's summoning circle."
   },
   {
    "q": "Do you get to keep the Pure Hearts after the ritual?",
@@ -50,13 +50,13 @@
     "do i keep pure hearts",
     "what happens to pure hearts"
    ],
-   "answer": "No. After the succubus is summoned and subdued, the Pure Hearts' remnants go back to Carendin Halgar as proof that the binding trial is complete."
+   "answer": "No. After the succubus is summoned and subdued, the remnants of the Pure Hearts go back to Carendin Halgar as proof that the binding trial is complete."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, using Pure Hearts marks a turning point in demonology and proves your mental strength against the Twisting Nether's seductive lures."
+   "text": "As a warlock, using Pure Hearts marks a turning point in demonology. It proves your mental strength against the Twisting Nether's seductive lures."
   },
   {
    "target": "race:Undead",
@@ -82,5 +82,5 @@
   "Pure Hearts",
   "The Binding (Succubus, Undercity)"
  ],
- "style": 1
+ "style": 2
 }

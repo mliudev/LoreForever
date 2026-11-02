@@ -17,16 +17,16 @@
   "wiki": "Bloodhoof the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, travelers honor Bloodhoof the Elder just north of Bloodhoof Village. The ancestral spirit appears near the bridge and offers a Coin of Ancestry in return.",
+ "summary": "During the Lunar Festival, travelers honor Bloodhoof the Elder near the bridge north of Bloodhoof Village. The ancestral spirit offers them a Coin of Ancestry.",
  "sections": [
   {
    "title": "A Visit from the Ancestors",
-   "body": "During the Lunar Festival, spirits of heroes and elders from ages past return to Azeroth. Elder Bloodhoof appears just north of Bloodhoof Village, near the bridge. Travelers honor the sacrifices of the past by approaching the elder, who offers words of encouragement and a Coin of Ancestry.",
+   "body": "During the Lunar Festival, spirits of heroes and elders from ages past return to Azeroth. Elder Bloodhoof appears near the bridge north of Bloodhoof Village. Travelers honor the sacrifices of the past by approaching him. He offers words of encouragement and a Coin of Ancestry.",
    "spoiler": 0
   },
   {
    "title": "The Bloodhoof Legacy",
-   "body": "On Mulgore's ancestral lands, Elder Bloodhoof links the living tauren tribes with the memory of their forebears. Honoring the dead is central to tauren spiritual life. It keeps the Earth Mother, the ancestors, and those walking the plains in harmony.",
+   "body": "On Mulgore’s ancestral lands, Elder Bloodhoof joins the living tauren tribes to the memory of their forebears. Honoring the dead is central to tauren spiritual life. It keeps the Earth Mother, the ancestors, and those walking the plains in harmony.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is elder bloodhoof",
     "bloodhoof elder spot"
    ],
-   "answer": "Elder Bloodhoof appears just outside Bloodhoof Village in Mulgore, near the bridge, beneath a beam of celestial light."
+   "answer": "Elder Bloodhoof appears near the bridge just outside Bloodhoof Village in Mulgore, beneath a beam of celestial light."
   },
   {
    "q": "What is the purpose of seeking out Elder Bloodhoof?",
@@ -47,7 +47,7 @@
     "bloodhoof elder purpose",
     "what does elder bloodhoof give"
    ],
-   "answer": "Travelers seek Elder Bloodhoof during the Lunar Festival to honor the ancestors. In return, the spirit gives them a Coin of Ancestry and wisdom about neighboring spirits such as Elder Proudhorn."
+   "answer": "During the Lunar Festival, travelers seek Elder Bloodhoof to honor the ancestors. In return, the spirit offers a Coin of Ancestry and wisdom about neighboring spirits such as Elder Proudhorn."
   },
   {
    "q": "Why is there a beam of light shining down on him?",
@@ -63,7 +63,7 @@
     "can alliance do this quest",
     "is elder bloodhoof horde only"
    ],
-   "answer": "The Lunar Festival ancestors honor all mortals who show reverence, whatever their faction. Alliance travelers must tread carefully because Elder Bloodhoof is at the edge of Horde territory."
+   "answer": "The Lunar Festival ancestors honor all mortals who show reverence, whatever their faction. Alliance travelers must tread carefully because Elder Bloodhoof is near the edge of Horde territory."
   },
   {
    "q": "Who is Elder Proudhorn that this elder mentions?",
@@ -79,17 +79,17 @@
     "what are coins of ancestry",
     "lunar festival tokens"
    ],
-   "answer": "Coins of Ancestry are tokens of favor from Azeroth's honored spirits. They show that a traveler has honored the past, and festival celebrants trade them for festive attire, schematics, and celebratory wares."
+   "answer": "Coins of Ancestry are tokens of favor from Azeroth’s honored spirits. They show that a traveler has honored the past, and festival celebrants trade them for festive attire, schematics, and celebratory wares."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, greeting Elder Bloodhoof on your home soil honors the tribe's legacy and its part in leading your people to a peaceful haven in Mulgore."
+   "text": "As a tauren, greeting Elder Bloodhoof on your home soil honors your tribe’s legacy and its part in leading your people to a peaceful haven in Mulgore."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you honor the Lunar Festival spirits and commune with the elders, strengthening your bond with the earth and stars."
+   "text": "As a druid, you honor the Lunar Festival spirits and commune with the elders. This strengthens your bond with the earth and stars."
   },
   {
    "target": "class:Shaman",
@@ -117,5 +117,5 @@
  "attribution": [
   "Bloodhoof the Elder"
  ],
- "style": 1
+ "style": 2
 }

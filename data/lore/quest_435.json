@@ -17,16 +17,16 @@
   "wiki": "Escorting Erland",
   "chain": []
  },
- "summary": "In Silverpine, Deathstalker Erland needs help reaching his partner. Wolves have trapped him in a shelter, and he must cross their hunting ground to reach Rane Yorick.",
+ "summary": "In Silverpine, Deathstalker Erland is trying to reach his partner, Rane Yorick. Wolves have trapped him in a shelter, and the way to Rane crosses their hunting ground.",
  "sections": [
   {
    "title": "Cornered by Wolves",
-   "body": "Deathstalker Erland is trapped in a shelter by hungry wolves. Even seasoned Forsaken scouts can be outmatched by Silverpine's wilds. The wolves circle the ruined refuge, drawn to the little flesh left on Erland's withered frame. Alone, he cannot break through their pack.",
+   "body": "Deathstalker Erland is trapped in a shelter by hungry wolves. Even a seasoned Forsaken scout can be overcome by Silverpine's wilds. Wolves circle the ruined refuge, drawn to the little flesh left on Erland's withered frame. Alone, he cannot break through their pack.",
    "spoiler": 0
   },
   {
    "title": "A Treacherous Crossing",
-   "body": "Deathstalker Erland needs to reach his partner, Rane Yorick, near the Ivar Patch. The way crosses ground prowled by wolves. Once you guide him past them, Erland runs the last stretch to Rane Yorick's outpost. There, the scouts can bring their intelligence together for the Undercity.",
+   "body": "Deathstalker Erland needs to reach his partner, Rane Yorick, near the Ivar Patch. Wolves prowl the ground between them. Once you guide Erland past the pack, he runs the last stretch to Rane Yorick's outpost. There, the scouts can bring their intelligence together for the Undercity.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why eat undead",
     "erland wolves"
    ],
-   "answer": "The wolves may be so hungry that they see a desiccated Forsaken corpse as food. Silverpine's feral wildlife attacks anything that crosses its territory."
+   "answer": "The wolves may be so hungry they see a desiccated Forsaken corpse as food. Silverpine's feral wildlife attacks anything that crosses its territory."
   },
   {
    "q": "Who is Deathstalker Erland reporting to?",
@@ -47,7 +47,7 @@
     "who does erland report to",
     "erland partner"
    ],
-   "answer": "Deathstalker Erland reports to his scouting partner, Deathstalker Rane Yorick, who keeps watch at a nearby farmhouse near the Ivar Patch. Together, they monitor threats in the woods for the Forsaken."
+   "answer": "Deathstalker Erland reports to his scouting partner, Deathstalker Rane Yorick. Rane keeps watch at a nearby farmhouse near the Ivar Patch, where the two monitor threats in the woods for the Forsaken."
   },
   {
    "q": "Where does the escort lead?",
@@ -65,7 +65,7 @@
     "the deathstalkers report quest",
     "what follows erland escort"
    ],
-   "answer": "Once Erland is safely reunited with Rane Yorick, the two scouts prepare their findings. Rane then entrusts you with carrying their compiled dispatch back to the Sepulcher, as described in The Deathstalkers' Report."
+   "answer": "Once Erland is safely reunited with Rane Yorick, the two scouts prepare their findings. Rane entrusts you with carrying their compiled dispatch back to the Sepulcher, as described in The Deathstalkers' Report."
   },
   {
    "q": "Are there other threats encountered during the escort?",
@@ -113,5 +113,5 @@
  "attribution": [
   "Escorting Erland"
  ],
- "style": 1
+ "style": 2
 }

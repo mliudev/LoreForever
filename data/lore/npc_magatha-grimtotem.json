@@ -8,21 +8,21 @@
   "wiki": "Magatha Grimtotem",
   "refs": 4
  },
- "summary": "On Elder Rise, Magatha Grimtotem challenges Cairne Bloodhoof's vision for the tauren. The Grimtotem matriarch and Thunder Bluff's Elder Crone is a formidable shaman and political schemer.",
+ "summary": "On Elder Rise, Magatha Grimtotem presses her challenge to Cairne Bloodhoof's vision for the tauren. The Grimtotem matriarch and Thunder Bluff's Elder Crone is a formidable shaman and political schemer.",
  "sections": [
   {
    "title": "The Matriarch of Elder Rise",
-   "body": "Magatha Grimtotem leads the Grimtotem tribe from Elder Rise, with her own retinue and bodyguards. She gained authority through an arranged union, then her mate died suddenly in a climbing accident. Her reclusive tribe follows her as its political and spiritual leader. Magatha preaches tauren dominance, unlike Cairne Bloodhoof. She sees other mortal races as intruders on Kalimdor, to be eradicated or swept aside.",
+   "body": "Magatha Grimtotem leads the Grimtotem tribe from Elder Rise, with her own retinue and bodyguards. An arranged union brought her authority, then her mate died in a climbing accident. Her reclusive tribe follows her as its political and spiritual leader. Magatha preaches tauren dominance, against Cairne Bloodhoof's vision. She sees other mortal races as intruders on Kalimdor, to be eradicated or swept aside.",
    "spoiler": 0
   },
   {
    "title": "A Curious Alliance",
-   "body": "Though Magatha openly disdains other races, she was among the first to advocate admitting the Forsaken to the Horde. She says the tauren can teach the undead spiritual balance and help them reclaim their humanity. Magatha also works directly with the Royal Apothecary Society beneath Thunder Bluff, consulting figures such as Apothecary Zamah about practical alchemy and arcane relics.",
+   "body": "Though Magatha openly disdains other races, she was among the first to argue that the Forsaken should join the Horde. She says the tauren can teach the undead spiritual balance and help them reclaim their humanity. Beneath Thunder Bluff, she also works directly with the Royal Apothecary Society. There she consults figures such as Apothecary Zamah about practical alchemy and arcane relics.",
    "spoiler": 0
   },
   {
    "title": "Political Machinations",
-   "body": "Magatha Grimtotem counsels Cairne while working to weaken his authority and testing the defenses of potential threats. She sends adventurers into dangerous places, from Ragefire Chasm to face trogg forces to a hunt for the vengeful spirit Arikara. Each assignment builds Grimtotem influence or prepares her to supplant the Bloodhoof dynasty.",
+   "body": "Magatha Grimtotem counsels Cairne while seeking to weaken his authority and test the defenses of possible threats. She sends adventurers into dangerous places, from Ragefire Chasm to face trogg forces, and on a hunt for the vengeful spirit Arikara.\n\nEach assignment builds Grimtotem influence or prepares Magatha to supplant the Bloodhoof dynasty.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "why magatha likes forsaken",
     "magatha apothecary zamah"
    ],
-   "answer": "Magatha says tauren traditions and shamanic wisdom can guide the Forsaken back toward humanity. Many suspect her ties to the Royal Apothecary Society seek alchemical secrets and allies beyond Cairne's loyal inner circle."
+   "answer": "Magatha says tauren traditions and shamanic wisdom can guide the Forsaken back toward humanity. Many suspect her ties to the Royal Apothecary Society are a search for alchemical secrets and allies beyond Cairne's loyal inner circle."
   },
   {
    "q": "What is Magatha's relationship with Cairne Bloodhoof?",
@@ -52,7 +52,7 @@
     "does magatha hate cairne",
     "cairne and magatha"
    ],
-   "answer": "Magatha sees Cairne Bloodhoof as soft, naive, and unfit to lead the united tauren. Cairne favors coexistence in the Horde and peace across Kalimdor; Magatha believes the Grimtotem should reclaim ancestral lands by force and eliminate foreign intruders."
+   "answer": "Magatha sees Cairne Bloodhoof as soft, naive, and unfit to lead the united tauren. Cairne favors coexistence in the Horde and peace across Kalimdor. Magatha believes the Grimtotem should reclaim ancestral lands by force and eliminate foreign intruders."
   },
   {
    "q": "What was the mission in Ragefire Chasm?",
@@ -70,7 +70,7 @@
     "arikara quest",
     "magatha arikara"
    ],
-   "answer": "Arikara is a vengeful wind serpent spirit said to seek retribution against the tauren. Magatha says Arikara seeks vengeance against Cairne Bloodhoof and sends capable champions to summon and slay the beast with enchanted agave."
+   "answer": "Arikara is a vengeful wind serpent spirit said to seek retribution against the tauren. Magatha says Arikara seeks vengeance against Cairne Bloodhoof. She sends capable champions to summon and slay the beast with enchanted agave."
   },
   {
    "q": "Where can Magatha Grimtotem be found?",
@@ -79,7 +79,7 @@
     "where is magatha",
     "magatha elder rise"
    ],
-   "answer": "Magatha resides in the large main tent atop Elder Rise in Thunder Bluff, attended by her servant Rahauro and two stoic Grimtotem guards."
+   "answer": "Magatha resides in the large main tent atop Elder Rise in Thunder Bluff. Her servant Rahauro and two stoic Grimtotem guards attend her."
   }
  ],
  "angles": [
@@ -89,11 +89,11 @@
   },
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you find a surprisingly warm welcome from the Elder Crone, who consults the Royal Apothecary Society in the Pools of Vision."
+   "text": "As Forsaken, you find a surprisingly warm welcome from the Elder Crone. She consults the Royal Apothecary Society in the Pools of Vision."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you face one of Kalimdor's most powerful practitioners, whose command of the primal elements few living tauren can rival."
+   "text": "As a shaman, you face one of Kalimdor's most powerful practitioners. Few living tauren can rival her command of the primal elements."
   },
   {
    "target": "faction:Horde",
@@ -125,5 +125,5 @@
  "attribution": [
   "Magatha Grimtotem"
  ],
- "style": 1
+ "style": 2
 }

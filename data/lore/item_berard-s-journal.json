@@ -10,16 +10,16 @@
    "quest:450"
   ]
  },
- "summary": "In Pyrewood Village, Berard's Journal holds research the Royal Apothecary Society needs. Berard studied an ancient plague that wiped out the aquatic life of Lake Lordamere.",
+ "summary": "In Pyrewood Village, Berard's Journal holds research the Royal Apothecary Society seeks. Berard studied an ancient plague that wiped out Lake Lordamere's aquatic life.",
  "sections": [
   {
    "title": "Lost Research of Lake Lordamere",
-   "body": "Before Arugal's shadow magic spread across Silverpine Forest, Apothecary Berard was one of the Royal Apothecary Society's most promising minds. From Pyrewood Village, he studied an ancient blight that had wiped out all aquatic life in Lake Lordamere centuries earlier. When Arugal's curse gripped the settlement, Berard lost his mind and became a thrall. His detailed field notes remained on a bookshelf in his quarters at the Pyrewood Village Inn.",
+   "body": "Before Arugal's shadow magic reached Silverpine Forest, Apothecary Berard was one of the Royal Apothecary Society's brightest minds. From Pyrewood Village, he studied an ancient blight that had wiped out all aquatic life in Lake Lordamere centuries before. Arugal's curse took hold of the village, and Berard lost his mind and became a thrall. His field notes remained on a bookshelf in his quarters at the Pyrewood Village Inn.",
    "spoiler": 0
   },
   {
    "title": "Fuel for the New Plague",
-   "body": "Berard's research survived, though Berard himself was lost to the Society. At the Sepulcher, Apothecary Renferrel recognizes its value and sends Forsaken agents into the hostile village to recover the journal. The notes on the ancient lake toxin give Master Apothecary Faranell and the Society in the Apothecarium groundwork for concocting the Forsaken's own new plague.",
+   "body": "Berard's research survived, though Berard himself was lost to the Society. At the Sepulcher, Apothecary Renferrel sees its value and sends Forsaken agents into the hostile village to recover the journal. The notes on the ancient lake toxin give Master Apothecary Faranell and the Society in the Apothecarium groundwork for making the Forsaken's own new plague.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "journal location",
     "where is the book"
    ],
-   "answer": "Berard's Journal rests on a bookshelf in his old study, on the upper floor of the inn in Pyrewood Village, deep in southern Silverpine Forest."
+   "answer": "Berard's Journal rests on a bookshelf in Berard's old study, on the inn's upper floor in Pyrewood Village, deep in southern Silverpine Forest."
   },
   {
    "q": "What research is recorded in the journal?",
@@ -49,7 +49,7 @@
     "berards research",
     "journal contents"
    ],
-   "answer": "The journal records Berard's findings on an ancient contagion that wiped out all aquatic life in Lake Lordamere. The Royal Apothecary Society hopes to adapt its toxic properties for their own chemical weapons."
+   "answer": "The journal records Berard's findings on an ancient contagion that wiped out all aquatic life in Lake Lordamere. The Royal Apothecary Society hopes to adapt its toxic properties for its own chemical weapons."
   },
   {
    "q": "Why does Apothecary Renferrel want the journal?",
@@ -94,5 +94,5 @@
   "Berard's Journal",
   "A Recipe For Death (2)"
  ],
- "style": 1
+ "style": 2
 }

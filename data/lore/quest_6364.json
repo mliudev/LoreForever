@@ -17,16 +17,16 @@
   "wiki": "Return to Jahan",
   "chain": []
  },
- "summary": "You carry finished leather goods from Thunder Bluff back to Jahan Hawkwing at the Crossroads. The trip introduces travelers to the Horde’s wind rider routes between Mulgore and the Barrens, after they bring hides to Ahanu, the skinner in Thunder Bluff.",
+ "summary": "You return finished leather goods to Jahan Hawkwing at the Crossroads. The journey begins after you bring hides to Ahanu, Thunder Bluff’s skinner, and introduces you to the Horde’s wind rider routes between Mulgore and the Barrens.",
  "sections": [
   {
    "title": "Wings Over Kalimdor",
-   "body": "Tal, the wind rider master on Thunder Bluff’s central mesa, arranges flights across central Kalimdor. For many travelers, this is their first ride on a trained wind rider. A rider can take you to another settlement once you have met its wind rider master, such as Devrak at the Crossroads. The beasts cross leagues that would otherwise mean a dangerous journey overland through the Red Rocks and northern Barrens.",
+   "body": "Tal, Thunder Bluff’s wind rider master, arranges flights across central Kalimdor from the central mesa. For many travelers, this is their first ride on a trained wind rider. Once you have met another settlement’s wind rider master, such as Devrak at the Crossroads, a rider can carry you there. The beasts cross leagues that would otherwise make for a dangerous overland journey through the Red Rocks and northern Barrens.",
    "spoiler": 0
   },
   {
    "title": "Commerce of the Crossroads",
-   "body": "Jahan Hawkwing trades from the Crossroads, where hunters, scouts, and mercenaries gather each day. The flight also carries goods between the settlements. Hides sent to Ahanu on Thunder Bluff’s high rises are made into durable armor and equipment, then flown back to the Barrens crossroads to supply the Horde’s growing frontier efforts.",
+   "body": "Jahan Hawkwing trades from the Crossroads, where hunters, scouts, and mercenaries gather each day. The flights carry goods between settlements too. Hides sent to Ahanu on Thunder Bluff’s high rises become durable armor and equipment. Then they fly back to the Barrens crossroads to supply the Horde’s growing frontier efforts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "jahan hawkwing lore",
     "who is jahan"
    ],
-   "answer": "Jahan Hawkwing is a tauren merchant at the Crossroads in the Barrens. He buys and sells leather goods, including gear made by Thunder Bluff artisans from raw beast hides."
+   "answer": "Jahan Hawkwing is a tauren merchant at the Crossroads in the Barrens. He buys and sells leather goods, including gear Thunder Bluff artisans make from raw beast hides."
   },
   {
    "q": "Why do I need to take a wind rider back to the Crossroads?",
@@ -47,7 +47,7 @@
     "wind rider return",
     "how do flight paths work"
    ],
-   "answer": "The wind rider carries finished leather goods to Jahan and introduces travelers to the flight network. Tal in Thunder Bluff can send riders only to settlements already connected to the roost, such as Devrak’s at the Crossroads."
+   "answer": "The wind rider carries finished leather goods to Jahan and introduces you to the flight network. Tal in Thunder Bluff can send riders only to settlements already connected to the roost, such as Devrak’s at the Crossroads."
   },
   {
    "q": "Who is Ahanu?",
@@ -74,7 +74,7 @@
     "unlock flight master",
     "can I fly anywhere"
    ],
-   "answer": "No. A traveler can ride only to outposts where they have already met the local wind rider master and established a connection between the roosts."
+   "answer": "No. You can ride only to outposts where you have already met the local wind rider master and linked the roosts."
   },
   {
    "q": "What happens after returning the leather goods to Jahan?",
@@ -83,7 +83,7 @@
     "what next",
     "after return to jahan"
    ],
-   "answer": "Returning the leather goods to Jahan completes the courier chain between Mulgore and the Barrens. Travelers learn how air travel works and can continue helping the Crossroads garrison and merchants."
+   "answer": "Returning the leather goods to Jahan completes the courier chain between Mulgore and the Barrens. You learn how air travel works and can continue helping the Crossroads garrison and merchants."
   }
  ],
  "angles": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Return to Jahan"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "Call of Earth (Mulgore 3)"
   ]
  },
- "summary": "After the first communion with the land spirits in Mulgore, a young tauren shaman returns to Camp Narache with a gift from the earth. Drinking the Earth Sapta lets the initiate speak directly with a spirit manifestation and receive raw stone, binding them to the first of the four elements.",
+ "summary": "In Mulgore, a young tauren shaman returns to Camp Narache bearing a gift from the earth. The Earth Sapta lets the initiate speak with a spirit and receive raw stone, beginning the path through the four elements.",
  "sections": [
   {
    "title": "A Gift from the Mountain",
-   "body": "After drinking the Earth Sapta, you meet the Minor Manifestation of Earth atop the crags near Red Cloud Mesa. The spirit gives you a plain Rough Quartz. It represents your pact with the element and the endurance of stone. The spirit reminds you that patience and strength are the virtues the earth demands, and promises harmony with the land through mutual respect.",
+   "body": "After drinking the Earth Sapta, you meet the Minor Manifestation of Earth on the crags near Red Cloud Mesa. The spirit gives you Rough Quartz, a plain stone that marks your pact with the element and its endurance. Patience and strength are the virtues earth demands. Through mutual respect, the spirit promises harmony with the land.",
    "spoiler": 0
   },
   {
    "title": "The First Totem",
-   "body": "At Camp Narache, Seer Ravenfeather shapes the gifted quartz into your first Earth Totem. The totem is more than a mark of status: it is a lasting physical and spiritual anchor. Through this carved focus, you channel the earth’s grounding, protective magic and take your first true step along the fourfold elemental path.",
+   "body": "At Camp Narache, Seer Ravenfeather shapes the gifted quartz into your first Earth Totem. More than a mark of status, it is a lasting anchor for body and spirit. Through this carved focus, you channel the earth’s grounding and protective magic. It is your first true step along the fourfold elemental path.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what is the quartz for",
     "rough quartz use"
    ],
-   "answer": "The Rough Quartz is a token the Minor Manifestation of Earth gives you as proof of communion. Seer Ravenfeather uses it as the spiritual heart of your new Earth Totem."
+   "answer": "The Rough Quartz is a token the Minor Manifestation of Earth gives you as proof of communion. Seer Ravenfeather makes it the spiritual heart of your new Earth Totem."
   },
   {
    "q": "Why is an Earth Totem so important to a shaman?",
@@ -51,7 +51,7 @@
     "what does earth totem do",
     "earth totem lore"
    ],
-   "answer": "Totems let a shaman channel elemental power. Without an Earth Totem as a focus, a shaman cannot petition the land spirits to manifest spells and protective wards."
+   "answer": "Totems let a shaman channel elemental power. Without an Earth Totem as a focus, a shaman cannot call on the land spirits for spells and protective wards."
   },
   {
    "q": "Who is Seer Ravenfeather?",
@@ -69,7 +69,7 @@
     "four elements shaman",
     "what are the paths"
    ],
-   "answer": "Seer Ravenfeather means the four primal elements a shaman must master: Earth, Fire, Water, and Air. Earth is the foundation, representing endurance and steadfastness, and it is the initiate’s first trial."
+   "answer": "Seer Ravenfeather means the four primal elements a shaman must master: Earth, Fire, Water, and Air. Earth is the foundation, and its endurance and steadfastness make it the initiate’s first trial."
   },
   {
    "q": "Where does this communion take place?",
@@ -125,5 +125,5 @@
  "attribution": [
   "Call of Earth (Mulgore 3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ivar Patch"
  },
- "summary": "At Ivar Patch in northern Silverpine Forest, a ruined harvest hides the fate of its farmhands.",
+ "summary": "Ivar Patch lies in northern Silverpine, where a ruined harvest hides what befell its farmhands.",
  "sections": [
   {
    "title": "A Ruined Harvest",
-   "body": "Before the Third War, Ivar's pumpkin farm was a prosperous homestead in Lordaeron. Ivar employed lively farmhands and servants, but the Scourge spread the Plague of Undeath across the countryside and consumed the farm. Ivar, his family, and his laborers rose again as rotting, feral ghouls, bound to prowl the ruined soil without their minds. Unlike the Forsaken, they have no free will.",
+   "body": "Before the Third War, Ivar's pumpkin farm was a prosperous homestead in Lordaeron. He employed lively farmhands and servants. Then the Scourge spread the Plague of Undeath across the countryside, and the farm was consumed.\n\nIvar, his family, and the laborers rose again as rotting, feral ghouls. They prowl the ruined soil without their minds. Unlike the Forsaken, they have no free will.",
    "spoiler": 0
   },
   {
    "title": "The Deathstalker Ambush",
-   "body": "Three Deathstalkers—Rane Yorick, Quinn Yorick, and Erland McKree—scouted northern Silverpine for the Forsaken, seeking to judge the region's threats. As they passed through the Dead Field, the ghouls at Ivar Patch ambushed them. Ivar, now called Ivar the Foul, badly mauled Quinn. With Quinn gravely wounded, Rane and Quinn fortified themselves inside the farm's ruined house, while McKree continued alone toward Malden's Orchard.",
+   "body": "Three Deathstalkers scouted northern Silverpine for the Forsaken, seeking to judge the region's threats. Rane Yorick, Quinn Yorick, and Erland McKree passed through the Dead Field, where the ghouls at Ivar Patch ambushed them.\n\nIvar, now called Ivar the Foul, badly mauled Quinn. With Quinn gravely wounded, Rane and Quinn fortified themselves inside the farm's ruined house. McKree continued alone toward Malden's Orchard.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who was ivar",
     "what happened to ivar"
    ],
-   "answer": "The Plague of Undeath struck the farm during the Third War. Ivar, his family, and his workers succumbed and rose as rotting, feral ghouls under the Scourge's lingering sway."
+   "answer": "The Plague of Undeath struck Ivar's farm during the Third War. Ivar, his family, and his workers succumbed and rose as rotting, feral ghouls under the Scourge's lingering sway."
   },
   {
    "q": "Why are there Deathstalkers hiding inside the house?",
@@ -37,7 +37,7 @@
     "why are forsaken here",
     "quinn yorick farmhouse"
    ],
-   "answer": "Deathstalkers Rane and Quinn Yorick were scouting Silverpine Forest to gauge regional threats. Ghouls ambushed them as they passed through, and Ivar the Foul severely injured Quinn, forcing them to shelter inside the ruined farmhouse."
+   "answer": "Deathstalkers Rane and Quinn Yorick were scouting Silverpine Forest to gauge regional threats. Ghouls ambushed them as they passed through, and Ivar the Foul severely injured Quinn. So they took shelter inside the ruined farmhouse."
   },
   {
    "q": "Are the ghouls here part of the Forsaken?",
@@ -46,7 +46,7 @@
     "scourge in ivar patch",
     "why are ghouls hostile"
    ],
-   "answer": "No. The ghouls roaming the pumpkin fields are mindless Scourge remnants created by the Plague of Undeath. They lack free will and attack living travelers and Forsaken on sight."
+   "answer": "No. The ghouls roaming the pumpkin fields are mindless Scourge remnants, created by the Plague of Undeath. They lack free will and attack living travelers and Forsaken on sight."
   },
   {
    "q": "Where is the Ivar Patch located?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you see in the ruined farm a reminder of the Plague of Undeath that tore Lordaeron apart, and of the mindless fate the Forsaken narrowly escaped."
+   "text": "As an undead, you see the ruined farm as a reminder of the Plague of Undeath that tore Lordaeron apart. It recalls the mindless fate the Forsaken narrowly escaped."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help secure the northern roadway between Silverpine Forest and the safety of Undercity by culling the ravenous ghouls at the patch."
+   "text": "As a member of the Horde, you help secure the northern roadway between Silverpine Forest and the safety of Undercity. You do so by culling the ravenous ghouls at the patch."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Ivar Patch"
  ],
- "style": 1
+ "style": 2
 }

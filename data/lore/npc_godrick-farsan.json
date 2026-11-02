@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Eyes in the Dark",
-   "body": "Among the summoning circles in the Magic Quarter, Godrick Farsan aids Master Carendin Halgar as he guides aspiring Forsaken warlocks. Godrick is blind, yet says he sees in a different way and does not explain how. He tests those who seek to bind greater demons, sending them to gather pure hearts and essences for intricate summoning rites.",
+   "body": "In the Magic Quarter, Godrick Farsan helps Master Carendin Halgar guide aspiring Forsaken warlocks. Godrick is blind, yet says he sees in a different way. He does not explain how.\n\nThose seeking to bind greater demons face Godrick’s tests. He sends them to gather pure hearts and essences for intricate summoning rites.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "godrick farsan",
     "who is godrick"
    ],
-   "answer": "Godrick Farsan is a Forsaken warlock in the Undercity’s Magic Quarter. He assists Master Carendin Halgar in teaching fledgling warlocks and guiding their rituals."
+   "answer": "Godrick Farsan is a Forsaken warlock in the Undercity’s Magic Quarter. He helps Master Carendin Halgar teach fledgling warlocks and guide their rituals."
   },
   {
    "q": "How can Godrick see if he is blind?",
@@ -48,7 +48,7 @@
     "godrick warlock quests",
     "hearts of the pure quest"
    ],
-   "answer": "Godrick Farsan guides warlocks through binding rites, including acquiring pure hearts to lure and bind a succubus."
+   "answer": "Godrick Farsan guides warlocks through binding rites. These include acquiring pure hearts to lure and bind a succubus."
   }
  ],
  "angles": [
@@ -58,7 +58,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you can see Godrick embracing physical ruin and blindness while honing dark magical awareness to replace mortal frailties."
+   "text": "As an undead, you can see Godrick embrace physical ruin and blindness while honing dark magical awareness to replace mortal frailties."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Godrick Farsan"
  ],
- "style": 1
+ "style": 2
 }

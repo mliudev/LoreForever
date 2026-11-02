@@ -17,16 +17,16 @@
   "wiki": "Dalaran's Intentions",
   "chain": []
  },
- "summary": "Dalar Dawnweaver sends Shadow Priest Allister a warning from Silverpine Forest. A pendant bound for the Kirin Tor in Ambermill reveals their plan to awaken a dormant ley energy node beneath the town, and the Forsaken at the Sepulcher prepare to answer.",
+ "summary": "In Silverpine Forest, Dalar Dawnweaver sends Shadow Priest Allister a warning. A pendant bound for the Kirin Tor in Ambermill reveals their plan to awaken a dormant ley energy node beneath the town. At the Sepulcher, the Forsaken prepare to answer.",
  "sections": [
   {
    "title": "A Dormant Spark",
-   "body": "Dalar Dawnweaver studies a rune-inscribed pendant from a Dalaran supply crate and recalls an old Kirin Tor survey. Ambermill was chosen for a reason: the quiet village sits atop a dormant ley energy node. Dalar realizes the wizards intend to tap it. Awakening such a nexus takes immense magical reserves, and the enchanted pendants the wizards wear are key to channeling and catalyzing its power.",
+   "body": "Dalar Dawnweaver studies a rune-inscribed pendant from a Dalaran supply crate. It recalls an old Kirin Tor survey of Ambermill. The quiet village was chosen for a reason: it sits atop a dormant ley energy node. Dalar realizes the wizards intend to tap its power.\n\nAwakening such a nexus takes immense magical reserves. The enchanted pendants the wizards wear are key to channeling and catalyzing that power.",
    "spoiler": 0
   },
   {
    "title": "The Threat to Silverpine",
-   "body": "The Forsaken cannot tolerate a fortified, power-fueled Kirin Tor outpost threatening the southern approaches to the Sepulcher and Tirisfal Glades. Whatever ritual the magi prepare, raw ley energy would give Dalaran an enormous strategic advantage in Lordaeron. Dalar urgently sends word to Shadow Priest Allister, asking him to devise a way to stall the wizards before their ritual is complete.",
+   "body": "The Forsaken cannot abide a fortified Kirin Tor outpost fueled by ley energy. It would threaten the southern approaches to the Sepulcher and Tirisfal Glades. Whatever ritual the magi prepare, raw ley energy would give Dalaran an enormous strategic advantage in Lordaeron.\n\nSo Dalar urgently sends word to Shadow Priest Allister. He asks Allister to devise a way to stall the wizards before their ritual is complete.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "ambermill pendants",
     "why collect pendants"
    ],
-   "answer": "The dormant ley node demands immense reserves of power to awaken. The wizards' enchanted pendants act as conduits and reservoirs for that magic, so taking them away would hinder the node's activation."
+   "answer": "The dormant ley node demands immense reserves of power to awaken. The wizards' enchanted pendants act as conduits and reservoirs for that magic. Taking them away would hinder the node's activation."
   }
  ],
  "angles": [
@@ -95,5 +95,5 @@
  "attribution": [
   "Dalaran's Intentions"
  ],
- "style": 1
+ "style": 2
 }

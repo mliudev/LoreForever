@@ -10,16 +10,16 @@
    "quest:1961"
   ]
  },
- "summary": "Near Ambermill, Kirin Tor mages carry Dalaran Mana Gems to replenish their power. Forsaken tailors use the gems to weave enchanted robes.",
+ "summary": "Near Ambermill, Kirin Tor mages carry Dalaran Mana Gems to renew their arcane power. Forsaken tailors use the gems to weave enchanted robes.",
  "sections": [
   {
    "title": "Stolen Arcana",
-   "body": "Kirin Tor mages, conjurors, and guards around Ambermill carry mana gems to focus and replenish their arcane power. In the Undercity’s Magic Quarter, Forsaken practitioners prize the gems as a ready supply of concentrated magic. Some undead mages share an academic heritage with Dalaran, but survival comes first. To the Forsaken, the Kirin Tor are rivals whose magical stores can be taken.",
+   "body": "Around Ambermill, Kirin Tor mages, conjurors, and guards carry mana gems to focus and renew their arcane power. In the Undercity’s Magic Quarter, Forsaken practitioners prize the gems as a ready store of concentrated magic. Some undead mages share an academic heritage with Dalaran. Yet survival comes first, and the Forsaken see the Kirin Tor as rivals whose stores of magic can be taken.",
    "spoiler": 0
   },
   {
    "title": "Weaving the Spellfire",
-   "body": "Forsaken bring mana gems taken from fallen Kirin Tor operatives to tailors such as Josef Gregorian in the Undercity, along with simple linen. A tailor cannot channel arcane power directly, but can bind a gem into the cloth. The magic then strengthens the wearer’s connection to the arcane.",
+   "body": "Forsaken bring mana gems taken from fallen Kirin Tor operatives to tailors such as Josef Gregorian in the Undercity. They bring simple linen as well. A tailor cannot channel arcane power directly, but can bind a gem into cloth. The magic strengthens the wearer’s connection to the arcane.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "dalaran gem drop",
     "who drops mana gems"
    ],
-   "answer": "Kirin Tor forces carry Dalaran Mana Gems in Silverpine Forest, especially around their encampments and outposts near Ambermill, southeast of the Sepulcher."
+   "answer": "Kirin Tor forces carry Dalaran Mana Gems in Silverpine Forest, especially near their encampments and outposts around Ambermill, southeast of the Sepulcher."
   },
   {
    "q": "What are these gems used for?",
@@ -55,17 +55,17 @@
     "forsaken vs dalaran mages",
     "why kill dalaran for robes"
    ],
-   "answer": "Forsaken and Dalaran share an academic heritage, but the Forsaken see their living counterparts as rivals. Undercity mentors believe a mage who cannot defend their arcane wealth is too weak to survive, so they take the mage’s components."
+   "answer": "Forsaken and Dalaran share an academic heritage, but the Forsaken see their living counterparts as rivals. Undercity mentors believe a mage who cannot defend their arcane wealth is too weak to survive. So they take the mage’s components."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a Forsaken mage, you are sent to take these gems as a rite of passage, proving your martial skill and mastery of harvested arcane power."
+   "text": "As a Forsaken mage, you are sent to take these gems as a rite of passage. You prove your martial skill and mastery of harvested arcane power."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead traveler, you know the Forsaken set aside sentiment for former human colleagues in Dalaran to support their faction’s survival."
+   "text": "As an undead traveler, you know the Forsaken set aside sentiment for their former human colleagues in Dalaran to support their faction’s survival."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Dalaran Mana Gem",
   "Gathering Materials (Horde)"
  ],
- "style": 1
+ "style": 2
 }

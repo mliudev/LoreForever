@@ -10,11 +10,11 @@
    "quest:861"
   ]
  },
- "summary": "Across Mulgore's plains, Flatland Prowler Claws mark a young hunter's trial. Hunters gather them to prove their resolve and fieldcraft to the elders of Thunder Bluff.",
+ "summary": "Across Mulgore's plains, young hunters gather Flatland Prowler Claws to prove their resolve and fieldcraft to the elders of Thunder Bluff.",
  "sections": [
   {
    "title": "A Hunter's Proof",
-   "body": "Flatland prowlers stalk Mulgore's plains, quick to ambush prey in tall grass. Their cunning and territorial nature makes them dangerous to travelers and a hard test for young hunters. Gathering their claws is a recognized tradition. Skorn Whitecloud sends promising wanderers to bring the claws to Melor Stonehoof at Hunter Rise in Thunder Bluff, proof that they have the resolve and fieldcraft to follow the hunter's way.",
+   "body": "Flatland prowlers hunt across Mulgore's plains, springing on prey in tall grass. Their cunning and fierce defense of their territory make them dangerous to travelers. For young hunters, tracking them is a hard test.\n\nGathering their claws is a recognized tradition. Skorn Whitecloud sends promising wanderers to bring the claws to Melor Stonehoof at Hunter Rise in Thunder Bluff. The claws prove their resolve and fieldcraft as they follow the hunter's way.",
    "spoiler": 0
   }
  ],
@@ -78,5 +78,5 @@
   "Flatland Prowler Claw",
   "The Hunter's Way (Classic)"
  ],
- "style": 1
+ "style": 2
 }

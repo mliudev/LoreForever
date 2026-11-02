@@ -17,16 +17,16 @@
   "wiki": "Body and Heart (Horde)",
   "chain": []
  },
- "summary": "At the Moonkin Stone, you face a trial of body and heart to master Bear Form. Turak Runetotem sends young tauren druids from Thunder Bluff to summon and defeat Lunaclaw near the border of Mulgore and the Barrens.",
+ "summary": "At the Moonkin Stone, you face a trial of strength and heart to master Bear Form. Turak Runetotem sends young tauren druids from Thunder Bluff to summon and defeat Lunaclaw near the dry frontier where Mulgore meets the Barrens.",
  "sections": [
   {
    "title": "The Way of the Claw",
-   "body": "Turak Runetotem tests young tauren druids who seek the path of the Druid of the Claw. After you commune with the Great Bear Spirit in Moonglade, your training turns to a trial of strength. Turak, the elder druid trainer atop the Elder Rise in Thunder Bluff, gives worthy aspirants Cenarion Lunardust. He sends you to a sacred stone near the dry frontier where Mulgore meets the Barrens.",
+   "body": "Turak Runetotem tests young tauren druids who seek the path of the Druid of the Claw. You have communed with the Great Bear Spirit in Moonglade. Now your training turns to a trial of strength. Turak, the elder druid trainer atop Thunder Bluff's Elder Rise, gives worthy aspirants Cenarion Lunardust. He sends you to a sacred stone near the dry frontier where Mulgore meets the Barrens.",
    "spoiler": 0
   },
   {
    "title": "The Trial of Lunaclaw",
-   "body": "West of Camp Taurajo, the Moonkin Stone marks a rare Cenarion site in southern Kalimdor. Moonkin are not native to the sun-scorched plains of central Kalimdor, and Lunaclaw guards the stone. Scatter the lunardust across the ancient monument to call Lunaclaw into battle. Defeating the guardian proves your strength and clarity of heart, earning its blessing and awakening the bear's inner essence.",
+   "body": "West of Camp Taurajo, the Moonkin Stone marks a rare Cenarion site in southern Kalimdor. Moonkin are not native to the sun-scorched plains of central Kalimdor, and Lunaclaw guards the stone. Scatter the lunardust across the ancient monument to call Lunaclaw into battle. Defeating the guardian proves your strength and clarity of heart. Its blessing awakens the bear's inner essence.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does body and heart do",
     "what do i get from body and heart"
    ],
-   "answer": "The trial is the final step for Horde druids seeking Bear Form. By meeting its challenge, you prove yourself ready to follow the path of the Druid of the Claw under Turak Runetotem's guidance."
+   "answer": "This trial is the final step for Horde druids seeking Bear Form. Meeting its challenge proves you are ready to follow the path of the Druid of the Claw under Turak Runetotem's guidance."
   },
   {
    "q": "Where is the Moonkin Stone located?",
@@ -47,7 +47,7 @@
     "where is moonkin stone",
     "where to find moonkin stone"
    ],
-   "answer": "The Moonkin Stone lies in the Barrens, west of Camp Taurajo along the road toward the Mulgore gate. Just south of the road, behind a tree near a lone tent, you find the sacred stone."
+   "answer": "The Moonkin Stone lies in the Barrens, west of Camp Taurajo along the road toward the Mulgore gate. Just south of the road, behind a tree near a lone tent, lies the sacred stone."
   },
   {
    "q": "Who is Lunaclaw?",
@@ -64,7 +64,7 @@
     "lost lunardust",
     "died to lunaclaw"
    ],
-   "answer": "If Lunaclaw defeats you, your Cenarion Lunardust is spent. Return to Turak Runetotem atop the Elder Rise in Thunder Bluff for another pouch of dust before trying again."
+   "answer": "If Lunaclaw defeats you, your Cenarion Lunardust is spent. Return to Turak Runetotem atop the Elder Rise in Thunder Bluff for another pouch of dust before you try again."
   },
   {
    "q": "Are moonkin native to the Barrens?",
@@ -123,5 +123,5 @@
  "attribution": [
   "Body and Heart (Horde)"
  ],
- "style": 1
+ "style": 2
 }

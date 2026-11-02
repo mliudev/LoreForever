@@ -10,11 +10,11 @@
    "quest:1476"
   ]
  },
- "summary": "Near the Greymane Wall in Silverpine Forest, Dalin Forgewright patrols with an honorable heart.",
+ "summary": "Near the Greymane Wall in Silverpine Forest, Dalin Forgewright guards refugees with an honorable heart.",
  "sections": [
   {
    "title": "A Pure Heart for Dark Arts",
-   "body": "Undercity warlocks seek hearts from truly virtuous mortals to call and bind a succubus to their service. Dalin Forgewright spends his days defending desperate Lordaeron refugees kept from safety by the sealed Greymane Wall. His selfless devotion marks him as a rare offering of unblemished purity, and his heart is carved for the rites held in the Temple of the Damned.",
+   "body": "Undercity warlocks seek the hearts of truly virtuous mortals. They use them to call a succubus and bind her to their service. Dalin Forgewright spends his days defending desperate Lordaeron refugees kept from safety by the sealed Greymane Wall. His selfless devotion makes him a rare offering of unblemished purity, and his heart is carved for rites in the Temple of the Damned.",
    "spoiler": 0
   }
  ],
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a Forsaken warlock, you undergo this rite of passage to learn to ensnare a succubus, harvesting untainted virtue for demonic mastery."
+   "text": "As a Forsaken warlock, you undergo this rite to learn to ensnare a succubus, harvesting untainted virtue for demonic mastery."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you see the bitter reality of post-Scourge Lordaeron, where living human altruists outside the Greymane Wall become prey for the Forsaken."
+   "text": "As an undead, you see post-Scourge Lordaeron's bitter reality: living human altruists outside the Greymane Wall become prey for the Forsaken."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Dalin's Heart",
   "Hearts of the Pure"
  ],
- "style": 1
+ "style": 2
 }

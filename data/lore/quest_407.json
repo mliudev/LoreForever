@@ -20,16 +20,16 @@
    "Fields of Grief (2)"
   ]
  },
- "summary": "Apothecary Johaan tests his pumpkin weapon in Brill. He has laced pumpkins from Solliden Farmstead with his latest alchemical concoction and sends you to feed one to a captive Scarlet Crusader.",
+ "summary": "In Brill, Apothecary Johaan tests a weapon made from pumpkins. He laces them with his latest alchemical concoction and sends you to feed one to a captive Scarlet Crusader.",
  "sections": [
   {
    "title": "A Weapon of Ingenuity",
-   "body": "Apothecary Johaan believes the Forsaken must use every advantage against the Scourge to the north and human incursions to the south. The Royal Apothecary Society looks beyond blades and dark sorcery, seeking weapons in the ordinary produce of the land. Johaan has tainted pumpkins gathered from the mortal farmers at Solliden Farmstead. He means to prove common crops can be made deadly in service of the Dark Lady.",
+   "body": "The Forsaken face the Scourge to the north and human incursions to the south, so Apothecary Johaan believes they must use every advantage. The Royal Apothecary Society looks beyond blades and dark sorcery. It seeks weapons among the land’s ordinary produce. Johaan has tainted pumpkins gathered from the mortal farmers at Solliden Farmstead. He means to prove that common crops can be made deadly in service of the Dark Lady.",
    "spoiler": 0
   },
   {
    "title": "The Cellar Test",
-   "body": "Beneath the Gallows' End Tavern in Brill, a captive Scarlet Zealot waits in chains. Starvation has weakened the prisoner, but the zealot still defies the Forsaken and calls on the Holy Light to purge the undead. When offered a pumpkin, the captive mistakes it for food and devours it. Johaan's formula quickly warps the zealot into a rotting ghoul, who collapses lifeless in the dirt.",
+   "body": "Beneath the Gallows' End Tavern in Brill, a captive Scarlet Zealot waits in chains. Starvation has weakened the prisoner, yet the zealot still defies the Forsaken and calls on the Holy Light to purge the undead. Offered a pumpkin, the captive mistakes it for food and devours it. Johaan's formula soon warps the zealot into a rotting ghoul, who collapses lifeless in the dirt.",
    "spoiler": 1
   }
  ],
@@ -92,11 +92,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For you as Forsaken, this experiment shows the ruthless measures your people take to survive, with mortal zealots to the south and the Lich King's armies to the north."
+   "text": "As Forsaken, you see the ruthless measures your people take to survive, with mortal zealots to the south and the Lich King's armies to the north."
   },
   {
    "target": "faction:Horde",
-   "text": "For you in the Horde, the Royal Apothecary Society's biochemical research can unsettle the Forsaken's new allies, yet it remains central to securing Tirisfal Glades for the Horde."
+   "text": "As a member of the Horde, you may find the Royal Apothecary Society's biochemical research unsettling to the Forsaken's new allies. Yet it remains central to securing Tirisfal Glades for the Horde."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Fields of Grief (2)"
  ],
- "style": 1
+ "style": 2
 }

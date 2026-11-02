@@ -22,21 +22,21 @@
    "A New Plague (4)"
   ]
  },
- "summary": "In Brill, A New Plague reaches its first test on a captive dwarf. Apothecary Johaan sends you to Gallows' End Tavern cellar with the brew he has made from reagents gathered across Tirisfal Glades.",
+ "summary": "In Brill, A New Plague faces its first test on a captive dwarf. Apothecary Johaan sends you to the cellar of Gallows' End Tavern with the brew he made from reagents gathered across Tirisfal Glades.",
  "sections": [
   {
    "title": "A Deadly Concoction",
-   "body": "Apothecary Johaan has brought his research to a dangerous trial. The Royal Apothecary Society works for Lady Sylvanas Windrunner, seeking a plague that kills the living while bypassing undead bodies. Johaan has brewed what he calls a “special drink” and sends you to give it to an imprisoned enemy of the Forsaken.",
+   "body": "Apothecary Johaan has brought his research to a dangerous trial. The Royal Apothecary Society serves Lady Sylvanas Windrunner, seeking a plague that kills the living while leaving undead bodies unharmed. Johaan has brewed what he calls a “special drink.” He sends you to give it to an imprisoned enemy of the Forsaken.",
    "spoiler": 0
   },
   {
    "title": "The Gallows' End Cellar",
-   "body": "The Deathguard holds captives in a damp cellar beneath Gallows' End Tavern in Brill, where they await interrogation or disposal. One prisoner is a Dwarven Mountaineer, an Ironforge scout caught trespassing in Tirisfal Glades. Defiant and thirsty, he eagerly accepts the drink, unaware of what Johaan has mixed into it.",
+   "body": "In Brill, the Deathguard keeps captives in a damp cellar beneath Gallows' End Tavern. They await interrogation or disposal. One prisoner is a Dwarven Mountaineer, an Ironforge scout caught trespassing in Tirisfal Glades. Defiant and thirsty, he eagerly accepts the drink, unaware of what Johaan mixed into it.",
    "spoiler": 0
   },
   {
    "title": "A Chilling Demonstration",
-   "body": "The captured mountaineer drinks the flask and wistfully compares it to Rhapsody Malt. He boasts that dwarven steam tanks are coming to save him. The poison kills him almost at once. Johaan's final words make clear that this deadly brew is only a taste of what the Dark Lady envisions for the rest of Azeroth.",
+   "body": "The captured mountaineer drinks from the flask and wistfully compares it to Rhapsody Malt. He boasts that dwarven steam tanks are coming to save him. The poison kills him almost at once. Johaan's final words reveal that this deadly brew is only a taste of what the Dark Lady envisions for the rest of Azeroth.",
    "spoiler": 1
   }
  ],
@@ -134,5 +134,5 @@
  "attribution": [
   "A New Plague (4)"
  ],
- "style": 1
+ "style": 2
 }

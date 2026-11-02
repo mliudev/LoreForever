@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Beren's Peril"
  },
- "summary": "Scourge loyal to Thule Ravenclaw gather in the hills southwest of Ambermill, threatening the Forsaken.",
+ "summary": "At Beren's Peril, Scourge loyal to Thule Ravenclaw gather in the hills southwest of Ambermill and threaten the Forsaken.",
  "sections": [
   {
    "title": "A Hidden Threat in the Hills",
-   "body": "At Beren's Peril, a cave and mountain path lie high in the crags southwest of Ambermill, hidden from the main road. After the Third War, rogue Scourge undead fortified the refuge under the renegade necromancer Thule Ravenclaw. They refused to bow to the Dark Lady or flee north. Ravenclaw's regents, guardians, and drudgers gathered in secret to prepare an assault on the Forsaken base at the Sepulcher. Forsaken scouts uncovered them, and the quiet cliffs became a warzone. Horde fighters now move against the undead before they can attack.",
+   "body": "High in the crags southwest of Ambermill, a cave and mountain path lie hidden from the main road. Since the Third War, rogue Scourge have fortified the refuge under the renegade necromancer Thule Ravenclaw. They refused to serve the Dark Lady or flee north.\n\nRavenclaw's regents, guardians, and drudgers gathered in secret to prepare an assault on the Forsaken base at the Sepulcher. Forsaken scouts found them, and the quiet cliffs became a warzone. Now Horde fighters move against the undead before they can attack.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "enemies at berens peril",
     "ravenclaw undead"
    ],
-   "answer": "Scourge undead loyal to Thule Ravenclaw occupy the cave, including Ravenclaw guardians, drudgers, and regents."
+   "answer": "Scourge undead loyal to Thule Ravenclaw occupy the cave. Among them are Ravenclaw guardians, drudgers, and regents."
   },
   {
    "q": "Why do the Forsaken care about this location?",
@@ -86,5 +86,5 @@
  "attribution": [
   "Beren's Peril"
  ],
- "style": 1
+ "style": 2
 }

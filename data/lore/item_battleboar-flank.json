@@ -10,11 +10,11 @@
    "quest:780"
   ]
  },
- "summary": "In Mulgore, young hunters gather Battleboar Flanks from beasts threatening tauren hunting grounds. The meat feeds the tribe's youth.",
+ "summary": "In Mulgore, young hunters gather Battleboar Flanks from beasts invading tauren hunting grounds. The meat feeds the tribe's youth.",
  "sections": [
   {
    "title": "Sustenance from the Bristleback Threat",
-   "body": "Bristleback quilboar train battleboars in Brambleblade Ravine to enter tauren hunting grounds. Their attacks threaten the young tauren at Camp Narache. Grull Hawkwind sends novice hunters to take the flanks and snouts from the beasts they kill. The flank meat is cooked into stew for the tribe's youth, feeding them with what the quilboar sent against their people.",
+   "body": "Bristleback quilboar train battleboars in Brambleblade Ravine to enter tauren hunting grounds. Their attacks threaten young tauren at Camp Narache. Grull Hawkwind sends novice hunters to take the flanks and snouts from the beasts they kill. The flank meat becomes stew for the tribe's youth, turning the quilboar's weapon against them into food.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is battleboar flank",
     "why collect battleboar meat"
    ],
-   "answer": "Young hunters at Camp Narache gather Battleboar Flanks at Grull Hawkwind's direction. The meat is cooked into stew for the village's young tauren."
+   "answer": "At Grull Hawkwind's direction, young hunters at Camp Narache gather Battleboar Flanks. The meat is cooked into stew for the village's young tauren."
   },
   {
    "q": "Where are Battleboar Flanks found?",
@@ -50,11 +50,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, hunting battleboars threatening your homeland teaches you to defend it while respecting and using the Earth Mother's bounty."
+   "text": "As a tauren, hunting battleboars that threaten your homeland teaches you to defend it and use the Earth Mother's bounty with respect."
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you can boil the flank slowly into a filling communal camp stew."
+   "text": "As a cook, boil the flank slowly into a filling communal camp stew."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
   "Battleboar Flank",
   "The Battleboars"
  ],
- "style": 1
+ "style": 2
 }

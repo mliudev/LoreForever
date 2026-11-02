@@ -17,16 +17,16 @@
   "wiki": "Wanted: Maggot Eye",
   "chain": []
  },
- "summary": "In Brill, the Forsaken leadership has posted a death bounty for Maggot Eye. The notorious gnoll robs nearby graveyards and farms, supplying bodies to the Lich King's Scourge. Executor Zygand demands proof of the kill to secure the lands around Garren's Haunt.",
+ "summary": "In Brill, the Forsaken have set a death bounty on Maggot Eye. The notorious gnoll robs nearby graveyards and farms, supplying bodies to the Lich King's Scourge. Executor Zygand demands proof of the kill to secure the lands around Garren's Haunt.",
  "sections": [
   {
    "title": "A Grave Crime",
-   "body": "In Tirisfal Glades, the dead do not rest in peace. Maggot Eye faces a severe death sentence for aiding the Lich King. Gnolls are usually seen as savage brutes driven by hunger, but Maggot Eye digs up corpses and gathers remains to strengthen the Scourge army.",
+   "body": "In Tirisfal Glades, the dead do not rest in peace. Maggot Eye faces a severe sentence for aiding the Lich King. Gnolls are usually savage brutes driven by hunger. Yet Maggot Eye digs up corpses and gathers remains to strengthen the Scourge army.",
    "spoiler": 0
   },
   {
    "title": "Justice in Brill",
-   "body": "The Forsaken fight to break free of the Lich King's control, so feeding their dead kin to the Scourge is among the gravest offenses. Executor Zygand oversees local military enforcement in Brill and ordered the bounty to end the grave robberies near Garren's Haunt. To claim the prize, you need Maggot Eye's paw as proof that the beast can trouble Tirisfal no longer.",
+   "body": "The Forsaken fight to break free of the Lich King's control. Feeding their dead kin to the Scourge is among the gravest offenses. Executor Zygand oversees local military enforcement in Brill. He ordered the bounty to end grave robberies near Garren's Haunt. To claim the reward, bring Maggot Eye's paw as proof that the beast can trouble Tirisfal no longer.",
    "spoiler": 0
   }
  ],
@@ -83,7 +83,7 @@
     "do gnolls work for lich king",
     "scourge gnolls"
    ],
-   "answer": "Gnolls generally act on their own out of hunger and greed, but Maggot Eye supplies dead bodies to the Scourge, making him a dangerous collaborator."
+   "answer": "Gnolls generally act on their own out of hunger and greed. But Maggot Eye supplies dead bodies to the Scourge, making him a dangerous collaborator."
   }
  ],
  "angles": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Wanted: Maggot Eye"
  ],
- "style": 1
+ "style": 2
 }

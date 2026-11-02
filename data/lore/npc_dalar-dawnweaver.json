@@ -8,16 +8,16 @@
   "wiki": "Dalar Dawnweaver",
   "refs": 10
  },
- "summary": "At the Sepulcher, Dalar Dawnweaver turns his arcane learning toward the Forsaken’s enemies. Once an archmage of Dalaran, he died when the Scourge destroyed the city and later broke free of the Lich King’s control. Now he studies Dalaran’s lingering presence and seeks to end the madness of Archmage Arugal.",
+ "summary": "At the Sepulcher, Dalar Dawnweaver turns his arcane learning against the Forsaken’s enemies. He was an archmage of Dalaran, slain when the Scourge destroyed the city, then freed from the Lich King’s control. Now he studies Dalaran’s lingering presence and seeks to end Archmage Arugal’s madness.",
  "sections": [
   {
    "title": "A Fallen Archmage",
-   "body": "Dalar Dawnweaver once held high rank among the Kirin Tor, walking the Violet Citadel’s halls when Dalaran stood at the height of arcane mastery. His mortal life ended when the Scourge sacked the city to prepare for Archimonde’s summoning. Raised as a mindless thrall of the Lich King, Dalar broke free alongside Lady Sylvanas Windrunner when the Scourge’s grip faltered. Now at the Sepulcher, he keeps an archmage’s keen intellect and devotes it to protecting the Forsaken realm.",
+   "body": "Dalar Dawnweaver once held high rank among the Kirin Tor. He walked the Violet Citadel’s halls when Dalaran stood at the height of arcane mastery. The Scourge sacked the city to prepare for Archimonde’s summoning, and Dalar died there.\n\nRaised as a mindless thrall of the Lich King, Dalar broke free alongside Lady Sylvanas Windrunner when the Scourge’s grip faltered. Now he keeps an archmage’s keen intellect at the Sepulcher and devotes it to protecting the Forsaken realm.",
    "spoiler": 0
   },
   {
    "title": "Eyes on Ambermill and Shadowfang",
-   "body": "Silverpine Forest faces many dangers, and Dalar directs the Sepulcher’s arcane strategy. To the south, Dalaran wizards occupy Ambermill, where they pursue matters he aims to uncover and disrupt. Shadowfang Keep lies closer, its feral worgen prowling the woods. Dalar knows his former colleague, Archmage Arugal, well. He carefully directs efforts to stop Arugal’s beastly creations before they overrun the region.",
+   "body": "Dalar directs the Sepulcher’s arcane strategy against the many dangers facing Silverpine Forest. To the south, Dalaran wizards occupy Ambermill, pursuing matters he means to uncover and disrupt. Closer by, feral worgen prowl the woods around Shadowfang Keep.\n\nDalar knows his former colleague, Archmage Arugal, well. He carefully directs efforts to stop Arugal’s beastly creations before they overrun the region.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "dalar dawnweaver lore",
     "dalar background"
    ],
-   "answer": "Dalar Dawnweaver is a Forsaken mage at the Sepulcher in Silverpine Forest. He was once an archmage of the Kirin Tor in Dalaran. After dying during the Third War and being raised by the Scourge, he broke free of the Lich King’s control and joined the Dark Lady."
+   "answer": "Dalar Dawnweaver is a Forsaken mage at the Sepulcher in Silverpine Forest. Once an archmage of the Kirin Tor in Dalaran, he died during the Third War and was raised by the Scourge. He broke free of the Lich King’s control and joined the Dark Lady."
   },
   {
    "q": "What happened to him during the Third War?",
@@ -38,7 +38,7 @@
     "dalar death",
     "dalar third war"
    ],
-   "answer": "Dalar was in Dalaran when Arthas Menethil and the Scourge invaded to recover the Book of Medivh. He died in the assault as Kel’Thuzad summoned Archimonde into Azeroth, then was raised as a servant of the Scourge until Sylvanas freed him."
+   "answer": "During the Third War, Dalar was in Dalaran when Arthas Menethil and the Scourge invaded to recover the Book of Medivh. He died in the assault as Kel’Thuzad summoned Archimonde into Azeroth. The Scourge raised him as a servant until Sylvanas freed him."
   },
   {
    "q": "Why is Dalar stationed at the Sepulcher?",
@@ -46,7 +46,7 @@
     "why is dalar in sepulcher",
     "dalar role in silverpine"
    ],
-   "answer": "Dalar is the Forsaken’s local arcane authority in Silverpine Forest. He knows the Kirin Tor forces occupying Ambermill and his former peer, Archmage Arugal, making him well placed to counter both threats."
+   "answer": "Dalar is the Forsaken’s local arcane authority in Silverpine Forest. He knows the Kirin Tor forces occupying Ambermill and his former peer, Archmage Arugal, so he is well placed to counter both threats."
   },
   {
    "q": "What is Dalar's connection to Archmage Arugal?",
@@ -111,5 +111,5 @@
  "attribution": [
   "Dalar Dawnweaver"
  ],
- "style": 1
+ "style": 2
 }

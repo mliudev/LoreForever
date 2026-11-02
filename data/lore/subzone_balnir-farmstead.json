@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Balnir Farmstead"
  },
- "summary": "In eastern Tirisfal, Balnir Farmstead lies ruined just behind the Bulwark. Once worked by the Balnir family, the estate now draws Scourge that slip past the defenses.",
+ "summary": "In eastern Tirisfal, Balnir Farmstead lies ruined just behind the Bulwark. Once worked by the Balnir family, the estate now draws Scourge slipping past the defenses.",
  "sections": [
   {
    "title": "A Farm Before the Plague",
-   "body": "Snapdragons still bloom in the garden where the Balnir family worked their homestead for generations. When the Scourge swept through Lordaeron during the Third War, the farm was overrun and its people were lost. The buildings now rot among the hills of eastern Tirisfal.",
+   "body": "Snapdragons still bloom in the garden where the Balnir family worked their homestead for generations. During the Third War, the Scourge swept through Lordaeron and overran the farm. Its people were lost, and the buildings now rot among eastern Tirisfal’s hills.",
    "spoiler": 0
   },
   {
    "title": "Desolation and Scourge Infiltration",
-   "body": "Mindless Scourge slip past the Bulwark and gather among the farmstead's ruins. Forsaken deathguards watch the farm warily, while Undercity magi gather surviving snapdragons from its garden. They study the flowers to learn how deeply plague corruption has reached into the soil.",
+   "body": "Mindless Scourge slip past the Bulwark and gather among the farmstead’s ruins. Forsaken deathguards watch the grounds warily. Meanwhile, Undercity magi gather surviving snapdragons from the garden to learn how deeply plague corruption has reached into the soil.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "balnir farm importance",
     "why go to balnir farmstead"
    ],
-   "answer": "Balnir Farmstead lies just behind the Bulwark on Tirisfal's eastern approaches. Scourge that slip past the defenders gather there, and Forsaken mages study the garden's snapdragons to measure how far the plague has spread into Tirisfal."
+   "answer": "Balnir Farmstead lies just behind the Bulwark on Tirisfal’s eastern approaches. Scourge slipping past the defenders gather there, while Forsaken mages study the garden’s snapdragons to measure how far the plague has spread into Tirisfal."
   },
   {
    "q": "Who lived at the farmstead before the plague?",
@@ -35,7 +35,7 @@
     "who owned balnir farm",
     "balnir family"
    ],
-   "answer": "The Balnir family lived and worked at the farm, which bears their name. They were lost when the Scourge swept through Tirisfal during the Third War, and only the undead walk its fields now."
+   "answer": "The Balnir family lived and worked at the farm, which bears their name. They were lost when the Scourge swept through Tirisfal during the Third War. Now only the undead walk its fields."
   },
   {
    "q": "Why are the Forsaken monitoring the farm now?",
@@ -44,7 +44,7 @@
     "rear guard patrol lore",
     "balnir snapdragons"
    ],
-   "answer": "Mindless Scourge slip past the Bulwark from the Plaguelands and gather at the farmstead, threatening Tirisfal's eastern approaches. Undercity scholars also study the resilient snapdragons still growing in the gardens to measure how far plague contamination has spread."
+   "answer": "Mindless Scourge slip past the Bulwark from the Plaguelands and gather at the farmstead, threatening Tirisfal’s eastern approaches. Undercity scholars study the resilient snapdragons still growing in the gardens to measure how far plague contamination has spread."
   }
  ],
  "angles": [
@@ -54,7 +54,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "Forsaken magi gather surviving Balnir snapdragons from these blighted grounds and study them for the Scourge's lingering magical taint."
+   "text": "Forsaken magi gather surviving Balnir snapdragons from these blighted grounds. They study the flowers for the Scourge’s lingering magical taint."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Balnir Farmstead"
  ],
- "style": 1
+ "style": 2
 }

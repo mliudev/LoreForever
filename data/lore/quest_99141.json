@@ -17,16 +17,16 @@
   "wiki": "Patience (quest)",
   "chain": []
  },
- "summary": "In Tirisfal Glades, Executor Zygand waits for overdue field reports. He sends you to gather updates from Deathguards near Brill and a sentry by Stillwater Pond.",
+ "summary": "In Tirisfal Glades, Executor Zygand waits for field reports that have not arrived. He sends you to find Deathguards near Brill and a sentry by Stillwater Pond.",
  "sections": [
   {
    "title": "Enforcing the Dark Lady's Will",
-   "body": "Executor Zygand commands local security in Tirisfal Glades and allows no lapse in vigilance. Serving Lady Sylvanas, he expects every duty done without fail. When scheduled field reports do not reach his post, he treats the delay as a breach of duty. He stays at his post and sends Forsaken agents to find the tardy subordinates and keep the borders secure.",
+   "body": "Executor Zygand commands security in Tirisfal Glades and permits no lapse in vigilance. He serves Lady Sylvanas and expects every duty to be done. When scheduled field reports fail to reach his post, he counts the delay as a breach of duty. He holds his place and sends Forsaken agents to find the tardy subordinates and keep the borders secure.",
    "spoiler": 0
   },
   {
    "title": "Sentinels of the Glades",
-   "body": "Sentries at key points around Brill owe Zygand their reports. Deathguard Dillinger watches the graveyard west of town, where rogue undead and Scourge remnants stir. East of Brill, Deathguard Kristof guards a waystation on the approaches to the Capital City and the eastern roads. Gordo is the strangest sentry: a hulking abomination who wanders near Stillwater Pond, where military record-keeping seems a poor fit for his simple mind.",
+   "body": "Zygand's sentries around Brill owe him their reports. Deathguard Dillinger watches the graveyard west of town, where rogue undead and Scourge remnants stir. East of Brill, Deathguard Kristof guards a waystation on the approaches to the Capital City and the eastern roads. Gordo is the strangest sentry: a hulking abomination who wanders near Stillwater Pond, where military record-keeping seems beyond his simple mind.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is zygand",
     "executor zygand role"
    ],
-   "answer": "Executor Zygand commands security around Brill in Tirisfal Glades. He serves in the Forsaken command hierarchy under Lady Sylvanas and demands flawless work from the troops under his watch."
+   "answer": "Executor Zygand commands security around Brill in Tirisfal Glades. He serves Lady Sylvanas in the Forsaken command hierarchy and demands flawless work from the troops under his watch."
   },
   {
    "q": "Why does Zygand send an adventurer to collect reports?",
@@ -46,7 +46,7 @@
     "why do patience",
     "why fetch reports"
    ],
-   "answer": "Several field sentries have missed their scheduled reports. Zygand stays at his central post and sends newly proven Forsaken to collect the overdue dispatches across the countryside."
+   "answer": "Several field sentries have missed their scheduled reports. Zygand stays at his central post and sends newly proven Forsaken to gather the overdue dispatches across the countryside."
   },
   {
    "q": "Who is Gordo and why does he have a report?",
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a newly liberated Forsaken, carrying out Zygand's orders shows the harsh terms of survival in Lordaeron: devotion to the Dark Lady and no tolerance for failure."
+   "text": "As a newly liberated Forsaken, you see the harsh terms of survival in Lordaeron: devotion to the Dark Lady and no tolerance for failure."
   },
   {
    "target": "faction:Horde",
@@ -115,5 +115,5 @@
  "attribution": [
   "Patience (quest)"
  ],
- "style": 1
+ "style": 2
 }

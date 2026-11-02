@@ -17,16 +17,16 @@
   "wiki": "Maps and Runes",
   "chain": []
  },
- "summary": "In Silverpine Forest, maps and runes point to Dalaran's interest in Ambermill. A hidden crate holds regional charts and a rune-inscribed pendant, which adventurers recover for Shadow Priest Allister at the Sepulcher.",
+ "summary": "In Silverpine, maps and runes reveal Dalaran's interest in Ambermill. Horde agents recover a hidden crate for Shadow Priest Allister at the Sepulcher.",
  "sections": [
   {
    "title": "A Hidden Cargo",
-   "body": "Horde agents find a Dalaran crate hidden along the border routes near Ambermill. Inside are detailed regional charts and an enigmatic pendant inscribed with runes. With human sentries nearby, the scouts retrieve the artifact carefully, wary of Dalaran's arcane reach so close to their borders.",
+   "body": "Horde agents find a Dalaran crate hidden along the border routes near Ambermill. Detailed regional charts and a rune-inscribed pendant lie inside. Human sentries stand nearby, so the scouts retrieve the artifact carefully. Dalaran's arcane reach lies close to their borders.",
    "spoiler": 0
   },
   {
    "title": "Whispers at the Sepulcher",
-   "body": "At the Sepulcher, Shadow Priest Allister receives the recovered pendant. The Forsaken leadership sees that the Kirin Tor are working in Ambermill, though the purpose remains unclear. Allister cannot decipher the potent sorcery woven into the runes, so he seeks arcane experts among the undead to uncover Dalaran's plot.",
+   "body": "At the Sepulcher, Shadow Priest Allister receives the recovered pendant. The Forsaken leadership sees that the Kirin Tor are working in Ambermill, but their purpose remains unclear. Allister cannot decipher the potent sorcery woven into the runes. He seeks undead arcane experts to uncover Dalaran's plot.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "crate contents",
     "dalaran crate loot"
    ],
-   "answer": "The Dalaran crate contains detailed regional charts and a strange rune-inscribed pendant. The items suggest Dalaran is planning around Ambermill."
+   "answer": "The Dalaran crate holds detailed regional charts and a strange rune-inscribed pendant. Together, they suggest Dalaran is planning around Ambermill."
   },
   {
    "q": "Who is Shadow Priest Allister?",
@@ -54,7 +54,7 @@
     "why ambermill matters",
     "forsaken dalaran conflict"
    ],
-   "answer": "The Forsaken fear Dalaran's presence in Ambermill, on the border of Lordaeron lands they claim. Arcane relics or secretive troop movements could threaten the Undercity's hold over Silverpine."
+   "answer": "The Forsaken fear Dalaran's presence in Ambermill, on the border of lands in Lordaeron they claim. Arcane relics or secret troop movements could threaten the Undercity's hold over Silverpine."
   },
   {
    "q": "Can Shadow Priest Allister decipher the pendant?",
@@ -62,7 +62,7 @@
     "does allister know the runes",
     "can allister read the pendant"
    ],
-   "answer": "No. Allister recognizes the pendant as Dalaran sorcery, but its enchantments elude his priestly craft, so he seeks deeper arcane knowledge."
+   "answer": "No. Allister recognizes Dalaran sorcery on the pendant, but its enchantments elude his priestly craft. He seeks deeper arcane knowledge."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -70,7 +70,7 @@
     "what is the next quest",
     "after maps and runes"
    ],
-   "answer": "The investigation continues with Dalar's Analysis. The pendant goes to Dalar Dawnweaver, an arcane specialist at the Sepulcher capable of breaking down Kirin Tor magic."
+   "answer": "The investigation continues with Dalar's Analysis. The pendant goes to Dalar Dawnweaver, an arcane specialist at the Sepulcher who can break down Kirin Tor magic."
   },
   {
    "q": "What quest leads up to Maps and Runes?",
@@ -78,7 +78,7 @@
     "prerequisite quest",
     "maps and runes prereq"
    ],
-   "answer": "Border Crossings leads into Maps and Runes. In Border Crossings, the Forsaken assign an operative to inspect suspicious trade crates moving into Silverpine from the borders of Dalaran."
+   "answer": "Border Crossings leads into Maps and Runes. There, the Forsaken assign an operative to inspect suspicious trade crates moving into Silverpine from Dalaran's borders."
   }
  ],
  "angles": [
@@ -92,7 +92,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a Priest, you know that even Shadow Priest Allister's formidable shadow magic cannot unravel the intricate arcane formulas carved into the pendant."
+   "text": "As a Priest, you know even Shadow Priest Allister's formidable shadow magic cannot unravel the intricate arcane formulas carved into the pendant."
   },
   {
    "target": "faction:Horde",
@@ -121,5 +121,5 @@
  "attribution": [
   "Maps and Runes"
  ],
- "style": 1
+ "style": 2
 }

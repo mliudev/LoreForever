@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Solliden Farmstead"
  },
- "summary": "At Solliden Farmstead, human farmers still tend pumpkins in western Tirisfal Glades, just north of Deathknell. These native Lordaeronians survived the Plague of Undeath, a rare sight in northern Lordaeron, and hold fiercely to their soil beneath the Scarlet Crusade’s shadow.",
+ "summary": "In western Tirisfal Glades, Solliden Farmstead’s human farmers still tend pumpkins north of Deathknell. Native Lordaeronians who survived the Plague of Undeath are rare in northern Lordaeron, and they cling fiercely to their soil beneath the Scarlet Crusade’s shadow.",
  "sections": [
   {
    "title": "A Defiant Remnant",
-   "body": "Solliden Farmstead’s fields still yield healthy crops while much of Lordaeron lies in ruin and rot. The surviving human farmers are traumatized and insular, living beneath the watch of Scarlet Crusade patrols from a nearby tower. They defend their home with fierce hostility, striking at outsiders who come near, whether Horde or Alliance.",
+   "body": "Solliden Farmstead’s fields still yield healthy crops, though much of Lordaeron lies in ruin and rot. The surviving human farmers are traumatized and keep to themselves. Scarlet Crusade patrols watch them from a nearby tower. They defend their home fiercely, striking at outsiders who come near, Horde or Alliance alike.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Undercity",
-   "body": "Forsaken rising from Deathknell see Solliden Farmstead as both a threat and a resource. The Royal Apothecary Society wants its pristine pumpkins as prime organic material for testing and brewing the New Plague. Forsaken officers such as Deathguard Simmer send fledgling recruits to raid the fields, steal pumpkins for Apothecary Johaan in Brill, and teach the living a lesson.",
+   "body": "Forsaken rising from Deathknell see Solliden Farmstead as both threat and resource. The Royal Apothecary Society wants its pristine pumpkins for testing and brewing the New Plague. So Forsaken officers such as Deathguard Simmer send fledgling recruits to raid the fields and steal pumpkins for Apothecary Johaan in Brill. They are also sent to teach the living a lesson.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who are these farmers",
     "living humans in tirisfal"
    ],
-   "answer": "The Solliden farmers are native humans of Lordaeron who miraculously escaped infection during the Third War. Scarlet Crusade patrols from a nearby tower shield them, and they keep cultivating their land rather than flee their ancestral home."
+   "answer": "The Solliden farmers are native humans of Lordaeron who escaped infection during the Third War. Scarlet Crusade patrols from a nearby tower shield them, and they keep cultivating their land rather than flee their ancestral home."
   },
   {
    "q": "Why are the Solliden farmers hostile to Alliance players?",
@@ -37,7 +37,7 @@
     "are they alliance",
     "why red to alliance"
    ],
-   "answer": "The fall of Lordaeron left the farmers paranoid, bitter, and unwilling to trust anyone beyond their circle. Shielded by the fanatical Scarlet Crusade, they see trespassers as threats or infected scavengers and attack Alliance and Horde travelers alike."
+   "answer": "Lordaeron’s fall left the farmers paranoid and bitter, unwilling to trust anyone beyond their circle. Shielded by the fanatical Scarlet Crusade, they see trespassers as threats or infected scavengers. They attack Alliance and Horde travelers alike."
   },
   {
    "q": "Why do the Forsaken want pumpkins from Solliden Farmstead?",
@@ -46,7 +46,7 @@
     "fields of grief pumpkin quest",
     "royal apothecary society pumpkins"
    ],
-   "answer": "The Royal Apothecary Society needs fresh, uncorrupted organic matter to test and refine its New Plague. Pumpkins growing in Solliden’s soil are untainted hosts for developing toxic strains."
+   "answer": "The Royal Apothecary Society needs fresh, uncorrupted organic matter to test and refine its New Plague. The pumpkins growing in Solliden’s soil offer untainted hosts for developing toxic strains."
   },
   {
    "q": "Who is Deathguard Simmer, and why does he target the farm?",
@@ -55,17 +55,17 @@
     "deathguard simmer quest",
     "reaping the reapers"
    ],
-   "answer": "Deathguard Simmer is a Forsaken officer stationed near Deathknell. He sends fledgling Forsaken to raid the farm, steal ten pumpkins for Apothecary Johaan in Brill, and teach the humans and their Scarlet Crusade protectors a lesson."
+   "answer": "Deathguard Simmer is a Forsaken officer stationed near Deathknell. He sends fledgling Forsaken to raid the farm and steal ten pumpkins for Apothecary Johaan in Brill. He also wants them to teach the humans and their Scarlet Crusade protectors a lesson."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For a newly risen Forsaken, Solliden Farmstead is an immediate lesson in realpolitik: living Lordaeronians despise what you have become, while the farm offers raw material for Apothecary toxins and a possible southern beachhead."
+   "text": "As a newly risen Forsaken, Solliden Farmstead teaches you realpolitik at once. Living Lordaeronians despise what you have become, while the farm offers raw material for Apothecary toxins and a possible southern beachhead."
   },
   {
    "target": "faction:Alliance",
-   "text": "Seeing living humans till Lordaeron’s soil may bring you hope, but these isolated survivors hate Stormwind’s citizens as they hate the undead."
+   "text": "Seeing living humans till Lordaeron’s soil may bring you hope. These isolated survivors hate Stormwind’s citizens as they hate the undead."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Solliden Farmstead"
  ],
- "style": 1
+ "style": 2
 }

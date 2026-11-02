@@ -17,16 +17,16 @@
   "wiki": "Candles of Beckoning",
   "chain": []
  },
- "summary": "In Tirisfal Glades, candles from Gunther's island are bound for a grim test. A crate on Gunther's Retreat holds the ritual tapers Gunther Arcanus uses to test allegiance.",
+ "summary": "In Tirisfal Glades, candles from Gunther's island are bound for a grim test. Gunther Arcanus keeps them for a trial of allegiance.",
  "sections": [
   {
    "title": "Tallow and Dark Rites",
-   "body": "Gunther asks you to take a candle from the crate on Gunther's Retreat to the old, bloody altar off the island's southern coast. Light it there, and face Lillith Nefara, the Scourge agent.",
+   "body": "Gunther asks you to carry a candle from the crate on Gunther's Retreat to the old, bloody altar off the island's southern coast. Light it there, and Lillith Nefara, the Scourge agent, will face you.",
    "spoiler": 0
   },
   {
    "title": "A Reclaimed Relic",
-   "body": "A crate of candles rests on Gunther's Retreat, the island in Brightwater Lake where Gunther Arcanus dwells. For his test in Proving Allegiance, one candle is enough. Lit on the old, bloody altar off the island's southern coast, it awakens Lillith Nefara, the Scourge agent.",
+   "body": "On Gunther's Retreat, the island in Brightwater Lake where Gunther Arcanus dwells, a crate holds the candles. For his test in Proving Allegiance, one candle is enough. Lit on the old, bloody altar off the island's southern coast, it awakens Lillith Nefara, the Scourge agent.",
    "spoiler": 0
   }
  ],
@@ -115,5 +115,5 @@
  "attribution": [
   "Candles of Beckoning"
  ],
- "style": 1
+ "style": 2
 }

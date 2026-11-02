@@ -8,21 +8,21 @@
   "wiki": "Executor Arren",
   "refs": 5
  },
- "summary": "At Deathknell, Executor Arren directs the settlement's defense as new undead rise from their graves. He leads efforts against Scourge zombies, wild beasts, and threats to the Forsaken.",
+ "summary": "At Deathknell, Executor Arren rallies the settlement's defense as undead rise from their graves. He leads the fight against Scourge zombies, wild beasts, and threats to the Forsaken.",
  "sections": [
   {
    "title": "Commander of Deathknell",
-   "body": "Executor Arren directs Deathknell's defense from outside its chapel. While caretakers in the crypts guide newly risen undead through their confusion, Arren turns their attention to survival beyond the graves. Under Queen Sylvanas Windrunner's banner, he organizes efforts to clear mindless zombies from the village borders. The Forsaken secure ground here in the shadow of Lordaeron's fall.",
+   "body": "Executor Arren directs Deathknell's defense from outside the chapel. In the crypts, caretakers guide the newly risen through their confusion. Arren turns their thoughts to surviving beyond the graves. Under Queen Sylvanas Windrunner's banner, he organizes the effort to clear mindless zombies from the village borders. Here, in the shadow of Lordaeron's fall, the Forsaken hold their ground.",
    "spoiler": 0
   },
   {
    "title": "Securing the Borderlands",
-   "body": "Danger surrounds Deathknell beyond the confused newly risen. Under Arren's orders, scouts and initiates strike at the vicious spiders in Night Web's Hollow and hunt predators along the woodland edges. He calls on every capable hand to act, testing whether new arrivals can defend their second chance and serve the Dark Lady.",
+   "body": "Beyond the confused newly risen, danger surrounds Deathknell. Under Arren's orders, scouts and initiates strike at vicious spiders in Night Web's Hollow and hunt predators along the woodland edges. He calls every capable hand to act. Their work tests whether new arrivals can defend their second chance and serve the Dark Lady.",
    "spoiler": 0
   },
   {
    "title": "The Crimson Threat",
-   "body": "The Scarlet Crusade is Arren's greatest concern. Its zealots seek to destroy all undead and make no distinction between the Scourge and the free-willed Forsaken. Arren orders strikes against Scarlet patrols encamped in the Tirisfal wilderness. His forces intercept couriers and study stolen dispatches to protect Deathknell from a purge in holy fire.",
+   "body": "The Scarlet Crusade weighs most heavily on Executor Arren. Its zealots seek to destroy all undead, making no distinction between the Scourge and the free-willed Forsaken. Arren orders strikes against Scarlet patrols encamped in the Tirisfal wilderness. His forces intercept couriers and study stolen dispatches to shield Deathknell from a purge in holy fire.",
    "spoiler": 1
   }
  ],
@@ -70,7 +70,7 @@
     "night webs hollow",
     "arren spider quest"
    ],
-   "answer": "Night Web's Hollow is a gold mine northwest of Deathknell, overrun by spiders. The Forsaken need its gold, so Arren sends recruits to clear out the arachnids a little at a time."
+   "answer": "Night Web's Hollow is a gold mine northwest of Deathknell, overrun by spiders. The Forsaken need its gold, so Arren sends recruits to clear the arachnids a little at a time."
   },
   {
    "q": "Where does Arren send recruits once they finish his tasks?",
@@ -79,7 +79,7 @@
     "where to go after arren",
     "the executor in the field"
    ],
-   "answer": "After Deathknell's immediate threats are dealt with, Arren sends capable recruits to Brill to report to Executor Zygand and aid the wider Forsaken effort across Tirisfal Glades."
+   "answer": "After Deathknell's immediate threats are dealt with, Arren sends capable recruits to Brill. There, they report to Executor Zygand and aid the wider Forsaken effort across Tirisfal Glades."
   }
  ],
  "angles": [
@@ -89,7 +89,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see Arren's commands at Deathknell secure its first foothold in northern Lordaeron amid hostile surroundings."
+   "text": "As a member of the Horde, you see Arren's commands secure Deathknell's first foothold in northern Lordaeron, amid hostile surroundings."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Executor Arren"
  ],
- "style": 1
+ "style": 2
 }

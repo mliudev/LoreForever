@@ -10,16 +10,16 @@
    "quest:515"
   ]
  },
- "summary": "In the Undercity, Master Apothecary Faranell prepares a base for a deadly Forsaken poison. Mudsnout Mixture begins with mushrooms sent north from Tarren Mill.",
+ "summary": "In the Undercity, Master Apothecary Faranell prepares a base for a deadly Forsaken poison. Mushrooms sent north from Tarren Mill begin the mixture.",
  "sections": [
   {
    "title": "A Colloid of Decay",
-   "body": "Apothecary Lydon in Tarren Mill seeks to craft a virulent new biological weapon. He sends a composite made from Mudsnout Blossoms north to the Undercity. The toxic mushrooms grow at Nethander Stead, held by gnolls. Master Apothecary Faranell sees promise in the composite and adds his own colloid of decay. The resulting Mudsnout Mixture is volatile. It steadies the mushroom compound and prepares its virulent properties for further catalytic refinement in the foothills.",
+   "body": "Apothecary Lydon in Tarren Mill seeks to craft a virulent new biological weapon. He sends a composite of Mudsnout Blossoms north to the Undercity. The toxic mushrooms grow at Nethander Stead, held by gnolls.\n\nMaster Apothecary Faranell sees promise in the composite and adds his colloid of decay. The resulting Mudsnout Mixture is volatile. It steadies the mushroom compound and prepares its virulent properties for further catalytic refinement in the foothills.",
    "spoiler": 0
   },
   {
    "title": "Catalyzing the Agony",
-   "body": "Mudsnout Mixture needs key catalysts before its contaminating agents can take effect. Faranell sends couriers back to Tarren Mill with the vial, a Strong Troll's Blood Elixir, venomous Daggerspine naga scales, and Torn Fin murloc eyes. Apothecary Lydon catalyzes the mixture with these ingredients to make the lethal Elixir of Agony, a signature poison meant to spread ruin among the Forsaken's living enemies.",
+   "body": "Before the contaminating agents can take effect, Mudsnout Mixture needs key catalysts. Faranell sends couriers back to Tarren Mill with the vial, a Strong Troll's Blood Elixir, venomous Daggerspine naga scales, and Torn Fin murloc eyes.\n\nApothecary Lydon catalyzes the mixture with these ingredients to make the lethal Elixir of Agony. It is a signature poison meant to spread ruin among the Forsaken's living enemies.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does mudsnout mixture do",
     "mudsnout mixture use"
    ],
-   "answer": "Mudsnout Mixture provides the chemical base for the Elixir of Agony, an experimental poison Apothecary Lydon is perfecting in Tarren Mill to kill the Forsaken's enemies."
+   "answer": "Mudsnout Mixture provides the chemical base for the Elixir of Agony. Apothecary Lydon is perfecting the experimental poison in Tarren Mill to kill the Forsaken's enemies."
   },
   {
    "q": "Who creates the Mudsnout Mixture?",
@@ -39,7 +39,7 @@
     "who makes mudsnout mixture",
     "mudsnout mixture creator"
    ],
-   "answer": "Master Apothecary Faranell creates Mudsnout Mixture in the Undercity by adding his colloid of decay to a raw mudsnout composite."
+   "answer": "Master Apothecary Faranell creates Mudsnout Mixture in the Undercity. He adds his colloid of decay to a raw mudsnout composite."
   },
   {
    "q": "Why does it require gnoll components?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you can see the Royal Apothecary Society's ruthless ingenuity at work: wilderness ingredients refined into chemical weapons meant to kill the living."
+   "text": "As an undead, you can see the Royal Apothecary Society's ruthless ingenuity at work. They refine wilderness ingredients into chemical weapons meant to kill the living."
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde adventurer in Tarren Mill, you carry toxic concoctions across Lordaeron as a courier and field agent, helping secure the Forsaken foothold in Hillsbrad."
+   "text": "As a Horde adventurer in Tarren Mill, you carry toxic concoctions across Lordaeron as a courier and field agent. You help secure the Forsaken foothold in Hillsbrad."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Mudsnout Mixture",
   "Elixir of Agony (3)"
  ],
- "style": 1
+ "style": 2
 }

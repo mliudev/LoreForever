@@ -10,11 +10,11 @@
    "quest:430"
   ]
  },
- "summary": "At the Sepulcher, Apothecary Renferrel brews Quinn's Potion to help an injured scout recover. Quinn Yorick needs it after a disastrous patrol in Silverpine Forest.",
+ "summary": "At the Sepulcher, Apothecary Renferrel prepares Quinn's Potion for an injured scout. Quinn Yorick needs it after a disastrous patrol in Silverpine Forest.",
  "sections": [
   {
    "title": "Renferrel's Cure",
-   "body": "Apothecary Renferrel brews a remedy for Deathstalker Quinn Yorick. Word reached the Royal Apothecary Society at the Sepulcher after Quinn was badly hurt and left unable to move near the Ivar Patch. Renferrel made the draught to help him recover. Though minor field casualties rarely draw Renferrel from his darker research for Lady Sylvanas, he supplied the remedy so the scout could regain enough strength to travel.",
+   "body": "Apothecary Renferrel brews a remedy for Deathstalker Quinn Yorick. Word reached the Royal Apothecary Society at the Sepulcher after Quinn was badly hurt near the Ivar Patch and could no longer move. Renferrel made the draught to help him recover.\n\nMinor field casualties rarely draw Renferrel from his darker research for Lady Sylvanas. Still, he supplied the remedy so Quinn could regain enough strength to travel.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does quinn potion do",
     "why brew quinn potion"
    ],
-   "answer": "Quinn's Potion helps Deathstalker Quinn Yorick recover from his injuries in northern Silverpine Forest. It restores enough of his strength for him to travel again."
+   "answer": "Quinn's Potion helps Deathstalker Quinn Yorick recover from his injuries in northern Silverpine Forest. It restores enough strength for him to travel again."
   },
   {
    "q": "Who brewed this potion?",
@@ -44,7 +44,7 @@
     "quinn location",
     "quinn yorick spot"
    ],
-   "answer": "Carry the potion north of the Sepulcher to Quinn Yorick, who is sheltering near the farmstead called the Ivar Patch."
+   "answer": "Carry the potion north of the Sepulcher to Quinn Yorick, sheltering near the farmstead called the Ivar Patch."
   },
   {
    "q": "Why was Quinn Yorick in need of a potion?",
@@ -53,13 +53,13 @@
     "what happened to quinn yorick",
     "quinn injured"
    ],
-   "answer": "Quinn was scouting northern Silverpine with a Deathstalker patrol. At the Ivar Patch, the ghoul Ivar the Foul attacked the scouts and left Quinn badly hurt and stranded."
+   "answer": "Quinn was scouting northern Silverpine with a Deathstalker patrol. At the Ivar Patch, the ghoul Ivar the Foul attacked the scouts, leaving Quinn badly hurt and stranded."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you know the Royal Apothecary Society rarely spends effort on simple field remedies unless they help preserve scouts who guard Silverpine's borders."
+   "text": "As Forsaken, you know the Royal Apothecary Society rarely spends effort on simple field remedies unless they help preserve scouts guarding Silverpine's borders."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
   "Quinn's Potion",
   "Return to Quinn"
  ],
- "style": 1
+ "style": 2
 }

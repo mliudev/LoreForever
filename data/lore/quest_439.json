@@ -17,16 +17,16 @@
   "wiki": "Rot Hide Clues",
   "chain": []
  },
- "summary": "At Lordamere Lake, the Rot Hide Clues begin with an engraved ring on a recently deceased woman's hand. Reporting the grim find to High Executor Hadrec at the Sepulcher reveals that Rot Hide gnolls are taking bodies from Tirisfal's mass graves and carrying them to Fenris Isle.",
+ "summary": "At Lordamere Lake, Rot Hide Clues come to light with an engraved ring on a recently deceased woman's hand. When you report the grim find to High Executor Hadrec at the Sepulcher, he sees that Rot Hide gnolls are taking bodies from Tirisfal's mass graves and carrying them to Fenris Isle.",
  "sections": [
   {
    "title": "A Gruesome Cargo",
-   "body": "Forsaken scouts find a corpse-laden ferry on the shore of Lordamere Lake. Among the dead is the unwrapped, plague-marked hand of a recently slain woman, with a simple band engraved “For Deliah.” The ferry points to organized transport, not scavengers feeding at random.",
+   "body": "Forsaken scouts find a ferry laden with corpses on the shore of Lordamere Lake. Among the dead is the unwrapped, plague-marked hand of a recently slain woman. A plain band on it bears the words “For Deliah.” The ferry points to an organized effort to move the dead, not scavengers feeding at random.",
    "spoiler": 0
   },
   {
    "title": "Raiders of the Graves",
-   "body": "High Executor Hadrec fits the clues together when Deliah's ring reaches him at the Sepulcher. He concludes that a body so recently buried came from the mass graves across the border in Tirisfal Glades. Rot Hide gnolls in Silverpine are methodically exhuming human corpses and shipping them across the water to Fenris Isle for purposes no one knows.",
+   "body": "High Executor Hadrec fits the clues together when Deliah's ring reaches him at the Sepulcher. He concludes that a body so recently buried came from the mass graves across the border in Tirisfal Glades. Rot Hide gnolls in Silverpine are methodically digging up human corpses and shipping them across the water to Fenris Isle. No one knows why.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who is deliah",
     "for deliah ring"
    ],
-   "answer": "Deliah was a human plague victim recently buried in the mass graves of Tirisfal Glades. Rot Hide gnolls stole her body, leaving her engraved ring as a clue."
+   "answer": "Deliah was a human plague victim recently buried in the mass graves of Tirisfal Glades. Rot Hide gnolls stole her body, leaving her engraved ring behind as a clue."
   },
   {
    "q": "Why are gnolls gathering dead bodies?",
@@ -56,7 +56,7 @@
     "rot hide corpses",
     "fenris isle dead bodies"
    ],
-   "answer": "The Rot Hides are undead gnolls serving the Scourge. They rob Tirisfal's mass graves and ship the corpses to the Scourge stronghold on Fenris Isle instead of eating them."
+   "answer": "The Rot Hides are undead gnolls who serve the Scourge. They rob Tirisfal's mass graves and ship the corpses to the Scourge stronghold on Fenris Isle instead of eating them."
   },
   {
    "q": "Who is High Executor Hadrec?",
@@ -65,7 +65,7 @@
     "sepulcher commander",
     "executor hadrec"
    ],
-   "answer": "High Executor Hadrec is the military commander of the Forsaken stationed at the Sepulcher in Silverpine Forest. He oversees defense against regional threats, including feral Rot Hide gnolls, Dalaran wizards, and the Worgen."
+   "answer": "High Executor Hadrec commands the Forsaken forces stationed at the Sepulcher in Silverpine Forest. He oversees defenses against regional threats, including feral Rot Hide gnolls, Dalaran wizards, and the Worgen."
   },
   {
    "q": "Where did the corpses on the boat come from?",
@@ -73,7 +73,7 @@
     "boat corpses origin",
     "tirisfal graves boat"
    ],
-   "answer": "Hadrec concludes that the bodies were dug up from the mass graves in nearby Tirisfal Glades, where victims of the Scourge and plague were hastily buried."
+   "answer": "Hadrec concludes that the bodies were dug up from the mass graves in nearby Tirisfal Glades. Victims of the Scourge and plague were hastily buried there."
   },
   {
    "q": "What happens after reporting this clue to Hadrec?",
@@ -81,17 +81,17 @@
     "after rot hide clues",
     "deliah ring follow up"
    ],
-   "answer": "Hadrec dispatches agents to counter the Rot Hide threat directly on Fenris Isle and retrieve samples of the putrid ichor they are refining. His actions also prompt an investigation into Deliah's identity and the return of her ring."
+   "answer": "Hadrec sends agents to confront the Rot Hide threat on Fenris Isle and retrieve samples of the putrid ichor the gnolls are refining. His actions also prompt an investigation into Deliah's identity and the return of her ring."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The desecration of Tirisfal's mass graves strikes close to home for the Forsaken, whose fallen kin and unrisen brethren are being carried away as raw material for gnoll alchemical horrors."
+   "text": "For the Forsaken, the desecration of Tirisfal's mass graves strikes close to home. Their fallen kin and unrisen brethren are being carried away as raw material for gnoll alchemical horrors."
   },
   {
    "target": "faction:Horde",
-   "text": "Hadrec coordinates Horde operations from the Sepulcher to secure Silverpine against growing monster encampments, including the Rot Hide pack occupying Fenris Isle."
+   "text": "Hadrec coordinates Horde operations from the Sepulcher to secure Silverpine against growing monster encampments. The Rot Hide pack occupies Fenris Isle."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Rot Hide Clues"
  ],
- "style": 1
+ "style": 2
 }

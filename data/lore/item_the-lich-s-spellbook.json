@@ -10,16 +10,16 @@
    "quest:357"
   ]
  },
- "summary": "On Brightwater Lake's island, a spellbook draws Bethor Iceshard's attention. He hopes its pages will reveal the lich's skill and who he was in life.",
+ "summary": "On Brightwater Lake's island, Bethor Iceshard seeks a spellbook guarded by a free-willed lich. He hopes its pages reveal the lich's skill and who he was in life.",
  "sections": [
   {
    "title": "A Reclusive Master's Tomes",
-   "body": "A free-willed lich guards an island in Brightwater Lake with skeletal minions. He distrusts the outside world and mistakes other undead for Scourge thralls, ordering his guardians to kill anyone who approaches. Bethor Iceshard seeks skilled necromancers for the Forsaken beneath Queen Sylvanas Windrunner. He sends an emissary into the island camp to take the lich's spellbook. Bethor hopes its pages will reveal the master's power and identity before death took Lordaeron.",
+   "body": "A free-willed lich keeps watch over an island in Brightwater Lake with skeletal minions. He distrusts the outside world and mistakes other undead for Scourge thralls. So he orders his guardians to kill anyone who approaches.\n\nBethor Iceshard seeks skilled necromancers for the Forsaken beneath Queen Sylvanas Windrunner. He sends an emissary into the island camp to take the lich's spellbook. Bethor hopes its pages reveal the master's power and identity before death took Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "Unmasking Gunther Arcanus",
-   "body": "The recovered spellbook reveals that the reclusive lich is Gunther Arcanus, Bethor Iceshard's old friend and comrade-in-arms from before the Third War. Gunther was a necromantic prodigy in life, and his writings show that his power grew greater in undeath. Bethor knows Gunther could be a valued master of the dark arts for the Forsaken. Someone must first convince the suspicious lich that the Forsaken are free of the Lich King's grip.",
+   "body": "The recovered spellbook names the reclusive lich as Gunther Arcanus, Bethor Iceshard's old friend and comrade-in-arms from before the Third War. Gunther was a necromantic prodigy in life. His writings show that his power grew greater in undeath.\n\nBethor knows Gunther could become a valued master of the dark arts for the Forsaken. First, someone must convince the suspicious lich that the Forsaken are free of the Lich King's grip.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "bethor quest reason",
     "why does undercity want this"
    ],
-   "answer": "Bethor Iceshard wants to learn the lich's identity and measure his necromantic skill, hoping to recruit him for Lady Sylvanas and the Forsaken."
+   "answer": "Bethor Iceshard wants to learn the lich's identity and measure his necromantic skill. He hopes to recruit him for Lady Sylvanas and the Forsaken."
   },
   {
    "q": "Why does the lich attack visitors to his island?",
@@ -104,5 +104,5 @@
   "The Lich's Spellbook",
   "The Lich's Identity"
  ],
- "style": 1
+ "style": 2
 }

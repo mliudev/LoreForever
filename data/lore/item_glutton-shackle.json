@@ -10,16 +10,16 @@
    "quest:423"
   ]
  },
- "summary": "In Silverpine Forest, Glutton Shackles lend strength to Arugal’s flawed sorcery. The mad archmage crafted these enchanted restraints for Moonrage Glutton worgen.",
+ "summary": "In Silverpine Forest, Glutton Shackle bands lend strength to Arugal’s flawed sorcery. The mad archmage made them for Moonrage Glutton worgen.",
  "sections": [
   {
    "title": "A Crutch for Weak Sorcery",
-   "body": "Feral worgen infest Silverpine Forest, and the Forsaken’s trained mages see them as proof of poor arcane work. Dalar Dawnweaver, an accomplished arcanist stationed at the Sepulcher, holds Archmage Arugal in contempt and calls him an incompetent hack unworthy of the Kirin Tor. Dawnweaver found that Arugal relied on enchanted relics to shore up his fragile spells. The heavy Moonrage Gluttons that roam northern Silverpine wear Glutton Shackles, magical anchors that reinforce the curse binding the beasts.",
+   "body": "Feral worgen infest Silverpine Forest, and the Forsaken’s trained mages see them as proof of poor arcane work. Dalar Dawnweaver, an accomplished arcanist stationed at the Sepulcher, holds Archmage Arugal in contempt. He calls Arugal an incompetent hack, unworthy of the Kirin Tor.\n\nDawnweaver found that Arugal relied on enchanted relics to shore up his fragile spells. The heavy Moonrage Gluttons roaming northern Silverpine wear Glutton Shackles. These magical anchors reinforce the curse binding the beasts.",
    "spoiler": 0
   },
   {
    "title": "Fuel for Forsaken Countermeasures",
-   "body": "Arugal bound raw enchantments directly into heavy iron bands, leaving magical energy in the shackles even after their wearers are slain. Dawnweaver wants Forsaken agents to bring him the bands so he can study their construction and siphon their reserves. By examining the crude enchantments in the metal, the Forsaken hope to unravel the mysteries of the worgen curse and orchestrate the downfall of the beastmaster entrenched in Shadowfang Keep.",
+   "body": "Arugal bound raw enchantments directly into heavy iron bands. Even after their wearers are slain, magical energy remains in the shackles. Dawnweaver wants Forsaken agents to bring him the bands, so he can study their construction and siphon their reserves.\n\nBy examining the crude enchantments in the metal, the Forsaken hope to unravel the mysteries of the worgen curse. They aim to orchestrate the downfall of the beastmaster entrenched in Shadowfang Keep.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "glutton shackle lore",
     "worgen cuffs"
    ],
-   "answer": "A Glutton Shackle is an enchanted iron restraint worn by Moonrage Glutton worgen in Silverpine Forest. Archmage Arugal crafted these bands to reinforce their wearers with magic and shore up his flawed spells."
+   "answer": "Moonrage Glutton worgen in Silverpine Forest wear Glutton Shackles, enchanted iron restraints. Archmage Arugal crafted the bands to reinforce their wearers with magic and shore up his flawed spells."
   },
   {
    "q": "Why does Dalar Dawnweaver want Glutton Shackles?",
@@ -49,7 +49,7 @@
     "arugal shackles",
     "where did shackles come from"
    ],
-   "answer": "Archmage Arugal enchanted the shackles. He was a former wizard of Dalaran who summoned the worgen to fight the Scourge and eventually lost his mind, binding his creations to his will with magical trinkets."
+   "answer": "Archmage Arugal enchanted the shackles. A former wizard of Dalaran, he summoned the worgen to fight the Scourge, then lost his mind and bound his creations to his will with magical trinkets."
   },
   {
    "q": "Where are the creatures wearing these shackles found?",
@@ -58,17 +58,17 @@
     "moonrage glutton location",
     "silverpine worgen shackles"
    ],
-   "answer": "Moonrage Gluttons roam the woods and abandoned farmsteads of central and northern Silverpine Forest, often in packs alongside other corrupted Moonrage worgen."
+   "answer": "Moonrage Gluttons roam the woods and abandoned farmsteads of central and northern Silverpine Forest. They often travel in packs alongside other corrupted Moonrage worgen."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you may recognize Dalar Dawnweaver’s biting critique of Arugal’s shoddy technique. Using physical enchanted crutches to stabilize simple transmutation and summoning spells marks a wizard as mediocre."
+   "text": "As a mage, you may recognize Dalar Dawnweaver’s biting critique of Arugal’s shoddy technique. Physical enchanted crutches to stabilize simple transmutation and summoning spells mark a wizard as mediocre."
   },
   {
    "target": "race:Undead",
-   "text": "As a Forsaken, you know that gathering these shackles is essential to neutralizing the worgen threat pressing directly on the borders of the Sepulcher."
+   "text": "As a Forsaken, you know gathering these shackles is essential to neutralizing the worgen threat pressing directly on the Sepulcher’s borders."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Glutton Shackle",
   "Arugal's Folly (2)"
  ],
- "style": 1
+ "style": 2
 }

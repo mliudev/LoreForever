@@ -17,16 +17,16 @@
   "wiki": "Assault on Fenris Isle",
   "chain": []
  },
- "summary": "Forsaken agents move against the Scourge on Fenris Isle. High Executor Hadrec sends them to storm Fenris Keep and take the head of Thule Ravenclaw, the necromancer commanding the island stronghold in Lake Lordamere.",
+ "summary": "High Executor Hadrec sends Forsaken agents to Fenris Isle. They are to storm Fenris Keep and take the head of Thule Ravenclaw, the necromancer commanding the island stronghold in Lake Lordamere.",
  "sections": [
   {
    "title": "Purging Lake Lordamere",
-   "body": "The Forsaken hold the western roads and have established their presence at the Sepulcher, but the Scourge remain entrenched in Fenris Keep. The island lies in Lake Lordamere, east of Silverpine Forest, and its forces threaten the forest and the southern waterways leading toward the Undercity. High Executor Hadrec sees Thule Ravenclaw’s vile experiments as a danger to Forsaken control of Silverpine. Thule commands the Scourge from the keep, keeping their power close to the Forsaken shore.",
+   "body": "The Forsaken hold the western roads and have made their presence known at the Sepulcher. Yet the Scourge remain entrenched in Fenris Keep, on an island in Lake Lordamere east of Silverpine Forest. Their forces threaten the forest and the southern waterways that lead toward the Undercity. High Executor Hadrec sees Thule Ravenclaw’s experiments as a danger to Forsaken control of Silverpine. From the keep, Thule commands the Scourge close to the Forsaken shore.",
    "spoiler": 0
   },
   {
    "title": "The Fall of Thule Ravenclaw",
-   "body": "Rot hide gnolls and shambling undead guard the path through Fenris Keep to Thule Ravenclaw. The necromancer curses his attackers and leeches their vitality to strengthen his own strikes. When he falls, his severed head proves his death. The force of the magical shockwaves reaches the Sepulcher, where Apothecary Renferrel detects them.",
+   "body": "Rot hide gnolls and shambling undead guard the way through Fenris Keep to Thule Ravenclaw. The necromancer curses his attackers and leeches their vitality, strengthening his own strikes. When he falls, his severed head proves his death. Magical shockwaves reach the Sepulcher, where Apothecary Renferrel detects them.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "hadrec motives",
     "fenris isle threat"
    ],
-   "answer": "Thule Ravenclaw leads the Scourge on Fenris Isle. His entrenched force threatens the Forsaken stronghold at the Sepulcher and the waterways across Lake Lordamere, so Hadrec demands his head as proof that the Scourge’s regional command is broken."
+   "answer": "Thule Ravenclaw leads the Scourge on Fenris Isle. His forces threaten the Forsaken stronghold at the Sepulcher and the waterways across Lake Lordamere. Hadrec demands Thule’s head as proof that the Scourge’s regional command is broken."
   },
   {
    "q": "Where is Thule Ravenclaw located?",
@@ -55,7 +55,7 @@
     "thule death reaction",
     "what happens after thule dies"
    ],
-   "answer": "Thule’s death releases a great wave of dark necromantic energy across the region. At the Sepulcher, Apothecary Renferrel detects the unraveling magic, and High Executor Hadrec commends the strike as a strategic triumph for the Forsaken."
+   "answer": "Thule’s death sends a great wave of dark necromantic energy across the region. At the Sepulcher, Apothecary Renferrel detects the unraveling magic, and High Executor Hadrec commends the strike as a strategic triumph for the Forsaken."
   },
   {
    "q": "Who controls Fenris Isle before this assault?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For you as Forsaken, killing Thule Ravenclaw is personal retribution. Crushing Scourge outposts proves your people have broken free of the Lich King’s will."
+   "text": "As Forsaken, you have personal reason to seek retribution against Thule Ravenclaw. Crushing Scourge outposts proves your people have broken free of the Lich King’s will."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you rely on the Forsaken to stabilize Silverpine and Tirisfal against rival powers and the wandering Scourge."
+   "text": "As a member of the Horde, you rely on the Forsaken to steady Silverpine and Tirisfal against rival powers and the wandering Scourge."
   },
   {
    "target": "class:Mage",
@@ -120,5 +120,5 @@
  "attribution": [
   "Assault on Fenris Isle"
  ],
- "style": 1
+ "style": 2
 }

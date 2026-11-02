@@ -3,9 +3,9 @@
     "quest:100": {
       "1": [
         {
-          "duration": 37.38122448979592,
-          "file": "Audio/Transport/full_quest_100-51c4f6ce1ecc0220cbd5/1-0000.mp3",
-          "sha256": "6d42d3697ce2928236b7fbbce4f73a36cebd74825370bdb67859470ca3249c16",
+          "duration": 37.590204081632656,
+          "file": "Audio/Transport/full_quest_100-0a1e1341f75a9bd17493/1-0000.mp3",
+          "sha256": "d0d08710d222d43983e10edd7d7b82818117857339f6fb8fe151e82368b096ac",
           "start": 0
         }
       ],
@@ -16,15 +16,15 @@
           "1"
         ]
       },
-      "fullHash": "948cad",
-      "generation": "49e8f32657609c12ad12",
-      "hash": "948cad",
+      "fullHash": "328255",
+      "generation": "6ad88eabd68f41603d26",
+      "hash": "328255",
       "source": {
-        "duration": 37.381224,
+        "duration": 37.616327,
         "file": null,
-        "sha256": "51c4f6ce1ecc0220cbd541d95c35fd2a7a2f9aafde0b9111ef0796cd973ab14e"
+        "sha256": "0a1e1341f75a9bd174939309b7ae4840540e045411c8b5b0d700ec5073163b0b"
       },
-      "text": "Call of Water. At Silverpine's coast, the shaman completes the Call of Water at the Brazier of Everfount. The rite clears nearby corruption, and a spirit of pure water appears. At the Brazier of Everfount, your final words call forth a burst of light. It scatters the minor spirits that threaten the spring, and the shore falls quiet. A Minor Manifestation of Water appears beside the brazier after the spirits are gone. The spirit thanks you for the rite and says the taint here has ebbed. Yet life across Silverpine's decaying lands continues to wane, and the Horde's shamans must stay watchful to preserve it."
+      "text": "Call of Water. At Silverpine's coast, you finish the Call of Water at the Brazier of Everfount. The rite clears nearby corruption, and a spirit of pure water appears. At the Brazier of Everfount, your final words summon a burst of light. It scatters the minor spirits threatening the spring, and the shore falls quiet. Once the spirits are gone, a Minor Manifestation of Water appears beside the brazier. The spirit thanks you for the rite and says the taint here has ebbed. Yet life across Silverpine's decaying lands continues to wane, so the Horde's shamans must stay watchful to preserve it."
     },
     "quest:1007": {
       "1": [
@@ -1173,9 +1173,9 @@
     "quest:1066": {
       "1": [
         {
-          "duration": 56.32,
-          "file": "Audio/Transport/full_quest_1066-901b7754dba47c548d91/1-0000.mp3",
-          "sha256": "3e482b7ed8cd358c9c940938a40863638f73ffe96da5e00b031093bfb12d1d76",
+          "duration": 56.163265306122454,
+          "file": "Audio/Transport/full_quest_1066-c9496576aecd0807ac0b/1-0000.mp3",
+          "sha256": "400c6beb3924ee6dea252be94cef71fde73f2cc6d962c322ed721dbcf466b05d",
           "start": 0
         }
       ],
@@ -1186,22 +1186,22 @@
           "1"
         ]
       },
-      "fullHash": "3b4a8c",
-      "generation": "5c5dd4bbe1198527359a",
-      "hash": "3b4a8c",
+      "fullHash": "eaebd8",
+      "generation": "ac5a8597c023f61ccf7f",
+      "hash": "eaebd8",
       "source": {
-        "duration": 56.32,
+        "duration": 56.189388,
         "file": null,
-        "sha256": "901b7754dba47c548d91a0c15d6d311a9489485cc311873a751ed854ca3a54cb"
+        "sha256": "c9496576aecd0807ac0b2659f81fbc1215ee25cab427fd82cfecce1af896e40b"
       },
-      "text": "Blood of Innocents. Apothecary Lydon in Tarren Mill seeks blood for a plan against the Venture Company in Stonetalon Mountains. The Royal Apothecary Society uses dark ingredients gathered from local bandits to pacify the encroaching company. The Horde faces a steady struggle in the Stonetalon Mountains, where the Venture Company ravages the wilderness and its people. Apothecary Lydon proposes an alchemical remedy instead of sending armies to blunt their axes. He plans to brew an agent that paralyzes and pacifies the mercenaries, leaving them weak and docile. Apothecary Lydon needs a rare and troubling ingredient: the blood of innocents. He avoids sending Horde agents to kill innocents himself and instead turns to the crimes of the Syndicate. Fallen nobles and cutthroats occupy Durnholde Keep, where rogue shadow mages harvest innocent blood for profane rituals. Lydon makes those mages his target for alchemical supplies."
+      "text": "Blood of Innocents. In Tarren Mill, Apothecary Lydon prepares a remedy for the Venture Company in Stonetalon Mountains. The Royal Apothecary Society turns to blood taken by local bandits to pacify the company. The Horde struggles against the Venture Company in Stonetalon Mountains. The company ravages the wilderness and harms its people, so Apothecary Lydon proposes alchemy instead of sending armies to blunt their axes. He means to brew an agent that will paralyze and pacify the mercenaries, leaving them weak and docile. Apothecary Lydon needs a rare and troubling ingredient: innocent blood. He will not send Horde agents to kill innocents, so he turns to the Syndicate's crimes. Fallen nobles and cutthroats occupy Durnholde Keep, where rogue shadow mages harvest innocent blood for profane rituals. Lydon targets those mages for alchemical supplies."
     },
     "quest:1067": {
       "1": [
         {
-          "duration": 25.70448979591837,
-          "file": "Audio/Transport/full_quest_1067-39313b3a54677c35652d/1-0000.mp3",
-          "sha256": "e1e6fe61c7d4d4c5b8ab7502bdbeaba8f3672d470f545036fefc2d77773fb7b4",
+          "duration": 24.267755102040816,
+          "file": "Audio/Transport/full_quest_1067-50ad9f1bf4777e6393d8/1-0000.mp3",
+          "sha256": "771b5f6ad2df73d1abf52eaafd30f6f1f28292028f1f048e27f90e23301a855a",
           "start": 0
         }
       ],
@@ -1212,15 +1212,15 @@
           "1"
         ]
       },
-      "fullHash": "385f34",
-      "generation": "9a43c613e5c8fb24b62d",
-      "hash": "385f34",
+      "fullHash": "ed27ca",
+      "generation": "ff343a3fcfc3a3f2bae6",
+      "hash": "ed27ca",
       "source": {
-        "duration": 25.730612,
+        "duration": 24.293878,
         "file": null,
-        "sha256": "39313b3a54677c35652d11eb144cc49efd3441f3c5420d5fe0b7796bb48e609d"
+        "sha256": "50ad9f1bf4777e6393d8cf0f94b118c5267f1798b93c0c8ecae6c775fcff35dd"
       },
-      "text": "Return to Thunder Bluff. Apothecary Lydon’s toxin is bound for Thunder Bluff, where Zamah awaits it. She needs the formula to make a device that can spread it against the Venture Company. Apothecary Lydon has made the toxin from the ingredients gathered in the Hillsbrad Foothills. He wants to see it tested on living subjects, but the liquid needs a way to spread it. You carry the vial across the Great Sea to Mulgore, where Apothecary Zamah waits for it."
+      "text": "Return to Thunder Bluff. In Thunder Bluff, Zamah awaits the toxin Lydon made. She needs its formula to build a device that can spread it against the Venture Company. Apothecary Lydon made the toxin from ingredients gathered in the Hillsbrad Foothills. He wants to test it on living subjects, but first it needs a way to spread. You carry the vial across the Great Sea to Mulgore, where Apothecary Zamah waits."
     },
     "quest:1068": {
       "1": [
@@ -2083,9 +2083,9 @@
     "quest:1103": {
       "1": [
         {
-          "duration": 54.413061224489795,
-          "file": "Audio/Transport/full_quest_1103-ca842dfd6f920e16ae44/1-0000.mp3",
-          "sha256": "476ccc11fc5604ae21287dde697943c9f5c44c741859e55a52af8dd5252e17ec",
+          "duration": 55.71918367346939,
+          "file": "Audio/Transport/full_quest_1103-ba23c35015b5c506abb0/1-0000.mp3",
+          "sha256": "b1c67e256f679e6d96a5439386e5d8d89d4debb63a7afb678a3f6f922b5ba4e9",
           "start": 0
         }
       ],
@@ -2096,15 +2096,15 @@
           "1"
         ]
       },
-      "fullHash": "c675a4",
-      "generation": "405158da09a93f478984",
-      "hash": "c675a4",
+      "fullHash": "b62347",
+      "generation": "ec9e1dc98c31a7fc7f48",
+      "hash": "b62347",
       "source": {
-        "duration": 54.413061,
+        "duration": 55.745306,
         "file": null,
-        "sha256": "ca842dfd6f920e16ae44c5811d6c4ed03594a48c606af7a614ce23e6fda9909c"
+        "sha256": "ba23c35015b5c506abb0405ec9adc98318b8ef07deec4e0487af135288872ed8"
       },
-      "text": "Call of Water. Along Silverpine Forest's coast, shamans can renew their communion with water through Call of Water. Tiev Mordune offers another Water Sapta to those whose spirit-sight fades before they speak with the purified water spirit. Shamans drink a Water Sapta to see spirits near the elemental shrines. If its magic fades before they speak with the Minor Manifestation of Water, they can no longer enter the spirit realm to finish the trial. On Silverpine Forest's fog-shrouded shore, fellow shaman Tiev Mordune helps those whose visions end too soon. Tiev Mordune has already defeated the corrupt water spirit off the coast and waits with the ritual remnants he gathered. To show you are ready, bring a fresh Water Sapta from Islen Waterseer in the Barrens. Tiev casts his gathered bracers and droplets into the shrine's brazier, summoning the pure manifestation again so you can speak with it and seal your bond with the element."
+      "text": "Call of Water. Along Silverpine Forest's coast, Tiev Mordune waits to help shamans whose spirit-sight fades too soon. A fresh Water Sapta lets them return to the shrine and speak with the purified water spirit. Shamans drink a Water Sapta to see spirits near the elemental shrines. If its magic fades before they speak with the Minor Manifestation of Water, they can no longer enter the spirit realm to finish the trial. On Silverpine Forest's fog-shrouded shore, fellow shaman Tiev Mordune helps those whose visions end too soon. Tiev Mordune has defeated the corrupt water spirit off the coast and waits with the ritual remnants he gathered. To show you are ready, bring a fresh Water Sapta from Islen Waterseer in the Barrens. Tiev casts his gathered bracers and droplets into the shrine's brazier. The pure manifestation appears again, so you can speak with it and seal your bond with the element."
     },
     "quest:1104": {
       "1": [
@@ -2421,9 +2421,9 @@
     "quest:1130": {
       "1": [
         {
-          "duration": 43.93795918367347,
-          "file": "Audio/Transport/full_quest_1130-4fad36a8d17bad9a56e0/1-0000.mp3",
-          "sha256": "6e198183dbfba9d1033750f7e06f9d07397f56eb919119af0928b165eebe00ff",
+          "duration": 46.393469387755104,
+          "file": "Audio/Transport/full_quest_1130-7b3b370755ba696cd2e6/1-0000.mp3",
+          "sha256": "d5cc049abb44de7ee0320b270cd62ae0b26a78d5985290d18015da35b98429a5",
           "start": 0
         }
       ],
@@ -2434,22 +2434,22 @@
           "1"
         ]
       },
-      "fullHash": "580348",
-      "generation": "86dd7b97b6a3d1d5c718",
-      "hash": "580348",
+      "fullHash": "05c228",
+      "generation": "d5236c02b9904365261b",
+      "hash": "05c228",
       "source": {
-        "duration": 43.937959,
+        "duration": 46.419592,
         "file": null,
-        "sha256": "4fad36a8d17bad9a56e0963519baff254fa1c3272d60f5db7d735d855c846ec6"
+        "sha256": "7b3b370755ba696cd2e6b0162fd10c851055405a42d879b603ff20666cf7c6ed"
       },
-      "text": "Melor Sends Word. Jorn Skyseer brings word from Melor Stonehoof to promising hunters in the Barrens. Those who have proved their grit across Kalimdor are called to Hunter's Rise in Thunder Bluff for a harder trial. Across the Barrens, Jorn Skyseer watches the crossings and encampments. He carries word from the elders of Hunter's Rise to hunters and warriors who have shown promise in the surrounding lands. Melor Stonehoof, a revered tauren mentor, has marked out a path for them. At Hunter's Rise in Thunder Bluff, you meet Melor Stonehoof. The elder hunter asks if you have the resolve to venture into distant, perilous wilderness. His summons opens trials far beyond the safety of Mulgore, where hunters face the continent's fiercest predators."
+      "text": "Melor Sends Word. In the Barrens, Jorn Skyseer carries Melor Stonehoof's summons to promising hunters. Hunters who have proved their grit across Kalimdor are called to Hunter's Rise in Thunder Bluff for a harder trial. Jorn Skyseer watches the crossings and encampments of the Barrens. He carries word from the elders of Hunter's Rise to hunters and warriors who have shown promise in the surrounding lands. Melor Stonehoof, a revered tauren mentor, has marked out a path for them. At Hunter's Rise in Thunder Bluff, you meet Melor Stonehoof. The elder hunter asks whether you have the resolve to enter distant and perilous wilderness. His summons leads to trials far beyond Mulgore's safety, where hunters face the continent's fiercest predators."
     },
     "quest:1131": {
       "1": [
         {
-          "duration": 44.329795918367346,
-          "file": "Audio/Transport/full_quest_1131-6b290fd66b26ff2825f2/1-0000.mp3",
-          "sha256": "545099262b3d57705dbc1c638bfb1ff41be0cbd3fef8f0308dcdf297ec2171b2",
+          "duration": 44.38204081632653,
+          "file": "Audio/Transport/full_quest_1131-b9ddb48be01e61fc2e6c/1-0000.mp3",
+          "sha256": "1e0c6f49fcabf929baa9700b4b87bc9a8b578dcc55c1a0316be1b1820c684fed",
           "start": 0
         }
       ],
@@ -2460,15 +2460,15 @@
           "1"
         ]
       },
-      "fullHash": "3b8637",
-      "generation": "385023e2a90c6423473f",
-      "hash": "3b8637",
+      "fullHash": "0ff8fa",
+      "generation": "7cbd89c2d58b2689503b",
+      "hash": "0ff8fa",
       "source": {
-        "duration": 44.329796,
+        "duration": 44.408163,
         "file": null,
-        "sha256": "6b290fd66b26ff2825f258bab4a0bc25d2b87e99ab9c883e31f05cbc6df733a2"
+        "sha256": "b9ddb48be01e61fc2e6ca8fd1d052770294e584f59bb21fc66531ab3560cdde2"
       },
-      "text": "Steelsnap. In Thousand Needles, Melor Stonehoof sends you after a hyena whose pack terrorizes the wildlife. Steelsnap's hunt breaks with the usual reasons tauren take a life. Tauren hunters take life for sustenance, honor, or wisdom from the Earthmother. Melor Stonehoof asks you to hunt Steelsnap for another reason. The hyena is seen as a threat to nature's balance, bringing senseless violence and fear instead of keeping the cycle of life. Steelsnap roams the canyons of northern Thousand Needles, south of the centaur enclave at Camp E'thok. Fierce hyenas follow him, and together they attack the gentler wildlife on the canyon floor. Slaying Steelsnap and bringing back his rib will end his hold over the needles."
+      "text": "Steelsnap. In Thousand Needles, Melor Stonehoof sends you after Steelsnap and his pack, which terrorize the wildlife. This hunt serves a different purpose from the usual reasons tauren take a life. Tauren hunters take life for food, honor, or wisdom from the Earthmother. Melor Stonehoof sends you after Steelsnap for another reason. The hyena threatens nature’s balance with senseless violence and fear, rather than keeping the cycle of life. Steelsnap roams the canyons of northern Thousand Needles, south of the centaur enclave at Camp E'thok. Fierce hyenas follow him, and together they attack the gentler wildlife on the canyon floor. Slay Steelsnap and bring back his rib to end his hold over the needles."
     },
     "quest:1132": {
       "1": [
@@ -3227,9 +3227,9 @@
     "quest:1195": {
       "1": [
         {
-          "duration": 47.438367346938776,
-          "file": "Audio/Transport/full_quest_1195-e5ca4949813d39996629/1-0000.mp3",
-          "sha256": "70be8b67bc92d7009775b954185fe92ec2c4e73ee5cd2fe24711ac3b500fbdb7",
+          "duration": 45.79265306122449,
+          "file": "Audio/Transport/full_quest_1195-37c1b93ac18448b9a7e9/1-0000.mp3",
+          "sha256": "1ffda4ae05be8546f44bb339f6f5e25cf2fcc6ee5efd61c055ae213d998ae724",
           "start": 0
         }
       ],
@@ -3240,22 +3240,22 @@
           "1"
         ]
       },
-      "fullHash": "23ca34",
-      "generation": "44ff1942254f40afad7f",
-      "hash": "23ca34",
+      "fullHash": "59c909",
+      "generation": "3340d11d37e85d71cb9c",
+      "hash": "59c909",
       "source": {
-        "duration": 47.46449,
+        "duration": 45.818776,
         "file": null,
-        "sha256": "e5ca4949813d3999662927e080218ac885e7ef69c692eabaad58fba4566c0a1c"
+        "sha256": "37c1b93ac18448b9a7e993abd094a63905a63cbcd90ba9df10728b6597e6538e"
       },
-      "text": "The Sacred Flame. Zangen Stonehoof sends the Horde after a sacred flame and an ancient relic. To aid Rau Cliffrunner in Thousand Needles, you seek a moonwell phial in Ashenvale. The Galak centaur guard an ancient relic in Thousand Needles. Their artifact dates to the creation of their race, and they protect it with sacred flames. Zangen Stonehoof needs water touched by lunar divinity to extinguish those flames. He sends you north to Ashenvale, where the ancestral forests hold the moonwell water he seeks. Pure moonwell water needs a vessel that will not corrupt it. You seek an etched phial from the Laughing Sisters, dryads near Raynewood Retreat. Then you submerge the phial in a moonwell along the western banks of the Falfarren River and carry it back to Mulgore."
+      "text": "The Sacred Flame. Zangen Stonehoof sends you after a sacred flame and an ancient relic. To aid Rau Cliffrunner in Thousand Needles, you seek a moonwell phial in Ashenvale. The Galak centaur guard an ancient relic in Thousand Needles. The artifact dates to the beginning of their race, and sacred flames protect it. Zangen Stonehoof needs water blessed by the moon to quench those flames. He sends you north to Ashenvale, where the old forests hold the moonwell water he seeks. Pure moonwell water needs a vessel that will not taint it. You seek an etched phial carried by the Laughing Sisters, dryads near Raynewood Retreat. Submerge the phial in a moonwell along the western banks of the Falfarren River, then carry it back to Mulgore."
     },
     "quest:1196": {
       "1": [
         {
-          "duration": 29.98857142857143,
-          "file": "Audio/Transport/full_quest_1196-4118c61bd5518bd2044d/1-0000.mp3",
-          "sha256": "a59e5008252390b2b980cfbaa355eabe4a30354e36b9d2ef64e1b0b5b6ecb404",
+          "duration": 29.88408163265306,
+          "file": "Audio/Transport/full_quest_1196-28db49c20671d0c46f02/1-0000.mp3",
+          "sha256": "15d630774b600ebe21199c085f85b0ba89d987f6d56067ffe6b8d21e08126623",
           "start": 0
         }
       ],
@@ -3266,22 +3266,22 @@
           "1"
         ]
       },
-      "fullHash": "7091aa",
-      "generation": "3f40a5a66f909a484fd9",
-      "hash": "7091aa",
+      "fullHash": "d1b0c3",
+      "generation": "9b12eacc28750dbd3adc",
+      "hash": "d1b0c3",
       "source": {
-        "duration": 29.988571,
+        "duration": 29.910204,
         "file": null,
-        "sha256": "4118c61bd5518bd2044d6c81b4d7c4682eb9bed36a20e2aed22e47715dd3d93b"
+        "sha256": "28db49c20671d0c46f0277d61512c4a12a16b6d0bcf5d285df4e9a2f5defa9ca"
       },
-      "text": "The Sacred Flame. From Ashenvale, a phial of moonwell water travels south to Freewind Post. Rau Cliffrunner needs it to break the eternal flame guarding an ancient centaur relic in Thousand Needles. Zangen Stonehoof sends you south across central Kalimdor with an etched phial filled with purified moonwell water. You cross the sun-baked expanse of the Barrens, descend the towering Great Lift, and make for Freewind Post. Rau Cliffrunner waits on the high mesa above the canyon floor, watching the centaur clans below."
+      "text": "The Sacred Flame. A phial of moonwell water travels south from Ashenvale to Freewind Post. Rau Cliffrunner needs it to break the eternal flame guarding an ancient centaur relic in Thousand Needles. Zangen Stonehoof sends you south across central Kalimdor with an etched phial of purified moonwell water. You cross the sun-baked Barrens, descend the Great Lift, and continue to Freewind Post. Rau Cliffrunner waits on the high mesa above the canyon floor. From there, he watches the centaur clans below."
     },
     "quest:1197": {
       "1": [
         {
-          "duration": 33.85469387755102,
-          "file": "Audio/Transport/full_quest_1197-f7dc04751a457da5d484/1-0000.mp3",
-          "sha256": "dcd27cf9eaf03e83e1c3fc3ce03ce1c124caeb6c6c505b0d4ae2cc1522b5b37a",
+          "duration": 35.056326530612246,
+          "file": "Audio/Transport/full_quest_1197-df435fa47ba6db1f5eee/1-0000.mp3",
+          "sha256": "c968fc48db08a911ecb6615e7adfa5ba2bda945d42fa8a49e6feaafedc76f77a",
           "start": 0
         }
       ],
@@ -3292,15 +3292,15 @@
           "1"
         ]
       },
-      "fullHash": "6396de",
-      "generation": "b1029902ca27e86d1a99",
-      "hash": "6396de",
+      "fullHash": "c34c44",
+      "generation": "7875c903e329baacc231",
+      "hash": "c34c44",
       "source": {
-        "duration": 33.854694,
+        "duration": 35.056327,
         "file": null,
-        "sha256": "f7dc04751a457da5d4847dbc72a11507348173a49b7880e7b2392d655b0a251c"
+        "sha256": "df435fa47ba6db1f5eeef8d91d9bdc771e9e8f1832655d41d63c7fc36a418dc6"
       },
-      "text": "The Sacred Flame. At Splithoof Hold, Rau Cliffrunner seeks to silence the Galak centaur's sacred fire. With blessed water, you enter their stronghold, quench the brazier, and take the Cloven Hoof. North of Freewind Post, Splithoof Crag marks the heart of Galak territory in Thousand Needles. Deep in its cavern, Splithoof Hold, a fire burns that the centaur hold sacred. Rau Cliffrunner prepares an etched phial of purified water for his allies. You enter the hold, use the water to quench the flame for a moment, and take the Cloven Hoof relic guarded within."
+      "text": "The Sacred Flame. At Splithoof Hold, Rau Cliffrunner seeks to silence the Galak centaur's sacred fire. You carry blessed water into their stronghold, quench the brazier, and take the Cloven Hoof. North of Freewind Post, Splithoof Crag lies at the heart of Galak territory in Thousand Needles. Deep in its cavern, Splithoof Hold shelters a fire the centaur hold sacred. Rau Cliffrunner prepares an etched phial of purified water for his allies. You enter the hold and use the water to quench the flame for a moment. Then you take the Cloven Hoof relic guarded within."
     },
     "quest:1198": {
       "1": [
@@ -4891,9 +4891,9 @@
     "quest:1472": {
       "1": [
         {
-          "duration": 53.94285714285714,
-          "file": "Audio/Transport/full_quest_1472-e36b5d2ee37d4fed62e2/1-0000.mp3",
-          "sha256": "fd9881395eca9dbbed8c4bb2b4beb1bf5c1d194b37474df59216e171ae6b4261",
+          "duration": 53.629387755102044,
+          "file": "Audio/Transport/full_quest_1472-adec26579edfd6c9e49b/1-0000.mp3",
+          "sha256": "e843cf62ff3a6512fe52af481c99a8659ec6dc6a2984d877e3b15df6e4524b4e",
           "start": 0
         }
       ],
@@ -4904,22 +4904,22 @@
           "1"
         ]
       },
-      "fullHash": "123a1d",
-      "generation": "45cbbbb60ab4971ada7c",
-      "hash": "123a1d",
+      "fullHash": "3a5fe1",
+      "generation": "b16fd8d13402d5332b81",
+      "hash": "3a5fe1",
       "source": {
-        "duration": 53.942857,
+        "duration": 53.65551,
         "file": null,
-        "sha256": "e36b5d2ee37d4fed62e20d96dba711d28873a54c0c58af7b83a9cbd441232c29"
+        "sha256": "adec26579edfd6c9e49bf49f4f18f00f88fdb043e01ff6edee9b8410a921b0d2"
       },
-      "text": "Devourer of Souls. In the Undercity's Temple of the Damned, Carendin Halgar guides Forsaken warlocks toward binding a succubus. Godrick Farsan knows how to lure one from the Twisting Nether with the hearts of pure, loving mortals. Carendin Halgar teaches that a succubus must be enticed across the threshold, not summoned by command. The demon hungers to ruin virtue and consume mortal essence. To draw it forth, you offer the hearts of genuinely virtuous, loving men as bait. Halgar sends you to Godrick Farsan, who knows where such rare quarry can be found. Deeper in the Temple of the Damned, Godrick Farsan helps Carendin prepare for demonic binding. Farsan has lost his physical eyesight, but says this grants him a deeper sight. He claims to perceive spiritual currents and distant souls with uncanny clarity, and can guide you to the pure hearts needed to draw out the demon."
+      "text": "Devourer of Souls. In the Temple of the Damned, Carendin Halgar teaches Forsaken warlocks to bind a succubus. Godrick Farsan knows how to draw one from the Twisting Nether with the hearts of pure, loving mortals. Carendin Halgar teaches that a succubus must be lured across the threshold, not called by command. The demon hungers to ruin virtue and consume mortal essence. Offer the hearts of genuinely virtuous, loving men as bait. Halgar sends you to Godrick Farsan, who knows where such rare quarry can be found. Deep in the Temple of the Damned, Godrick Farsan helps Carendin prepare for demonic binding. Farsan has lost his physical sight, but says this has given him a deeper one. He claims to perceive spiritual currents and distant souls with uncanny clarity. With that sight, he can guide you to the pure hearts needed to draw out the demon."
     },
     "quest:1474": {
       "1": [
         {
-          "duration": 41.456326530612245,
-          "file": "Audio/Transport/full_quest_1474-5322a352d8ab9fce71a8/1-0000.mp3",
-          "sha256": "f8937a3f6e668acab940fdfc747659ec031bb5eca810dbc1d059bed3f34ea313",
+          "duration": 39.88897959183674,
+          "file": "Audio/Transport/full_quest_1474-15592163b9ba34fa2949/1-0000.mp3",
+          "sha256": "b1d95bd85d32ca8ae260dfd7568d376ef8aefbdaa7295834896c707230ac81ef",
           "start": 0
         }
       ],
@@ -4930,22 +4930,22 @@
           "1"
         ]
       },
-      "fullHash": "6fe272",
-      "generation": "4c73d50376cbdd553d4f",
-      "hash": "6fe272",
+      "fullHash": "5de215",
+      "generation": "c4b6261e0d444114255f",
+      "hash": "5de215",
       "source": {
-        "duration": 41.456327,
+        "duration": 39.88898,
         "file": null,
-        "sha256": "5322a352d8ab9fce71a8563ebe5e69c1726dee19efc7d987720f780926bf6e82"
+        "sha256": "15592163b9ba34fa2949ddde0eb56a4996588326952a1e8a6b58e7ea03ce2adf"
       },
-      "text": "The Binding. In the Undercity, an initiate faces the rite that grants command of a succubus. Carendin Halgar directs the warlock to use Pure Hearts to draw a demon from the Twisting Nether into a ritual circle, then master it through combat. In the Undercity's Magic Quarter, Forsaken warlocks hone their command of demons. Summoning a succubus marks a critical passage in their training. A voidwalker relies on brute force, and an imp on lesser malice, but a succubus can ensnare its summoner with seductive and mental enchantments. Carendin Halgar demands that each initiate prove mind and magic unshakable before he entrusts them with lasting dominion over such a demon."
+      "text": "The Binding. In the Undercity, Carendin Halgar puts an initiate's command of a succubus to the test. Pure Hearts draw the demon from the Twisting Nether into a ritual circle, where the warlock must master it through combat. In the Undercity's Magic Quarter, Forsaken warlocks learn to command demons. Summoning a succubus marks a hard passage in that training. A voidwalker depends on brute force, and an imp on lesser malice. A succubus can turn seductive and mental enchantments against its summoner. So Carendin Halgar requires each initiate to prove mind and magic unshakable before granting lasting dominion over such a demon."
     },
     "quest:1476": {
       "1": [
         {
-          "duration": 61.85795918367347,
-          "file": "Audio/Transport/full_quest_1476-979f2f548a7b707be1b4/1-0000.mp3",
-          "sha256": "6f21d94fe9d48e0c0ac7879c166ed7c296d183e342e647168e7d3779da20ff50",
+          "duration": 57.23428571428572,
+          "file": "Audio/Transport/full_quest_1476-347d6fdab6e41bcbe82e/1-0000.mp3",
+          "sha256": "7c956aff69f79013f4edf23a853048d9ec95076493d3a2f99b166753696be425",
           "start": 0
         }
       ],
@@ -4956,15 +4956,15 @@
           "1"
         ]
       },
-      "fullHash": "93dd3d",
-      "generation": "2080c5b11ee09fbeb865",
-      "hash": "93dd3d",
+      "fullHash": "abe740",
+      "generation": "decef8d9f3938fc23026",
+      "hash": "abe740",
       "source": {
-        "duration": 61.857959,
+        "duration": 57.260408,
         "file": null,
-        "sha256": "979f2f548a7b707be1b48b5e509f24959ba8babe05ad61c33f90b6039754ddf9"
+        "sha256": "347d6fdab6e41bcbe82e79c076fc7d0ebdadcf3c39dbd0e9b8a8f1748d236f07"
       },
-      "text": "Hearts of the Pure. In the Undercity, Godrick Farsan assigns a warlock trial on Carendin Halgar’s behalf. To prepare bait for a succubus, you hunt two righteous human men; their pure hearts are an irresistible temptation to the demon. Carendin Halgar, master summoner in the Temple of the Damned, assigns Godrick Farsan the groundwork for binding a succubus. Succubi prey on desire and ruin, yet untainted virtue draws them from the Twisting Nether, ripe for corruption. Godrick scours human lands for souls whose goodness remains pristine and unbroken. Godrick Farsan names two men whose virtue marks them for sacrifice. Dalin Forgewright cares for desperate Lordaeron refugees barred from sanctuary outside the sealed Greymane Wall in southern Silverpine. Comar Villard searches the perilous marshlands of the Wetlands tirelessly for any trace of his lost wife. Their devotion, empathy, and loyalty make them prime sacrifices to a Forsaken warlock."
+      "text": "Hearts of the Pure. In the Undercity, Godrick Farsan sets a trial for Carendin Halgar’s succubus binding. You seek two righteous human men whose pure hearts will tempt a demon. Carendin Halgar, master summoner in the Temple of the Damned, gives Godrick Farsan the groundwork for binding a succubus. Succubi prey on desire and ruin. Yet untainted virtue draws them from the Twisting Nether, where they are ripe for corruption. So Godrick searches human lands for souls whose goodness remains pristine and unbroken. Godrick Farsan names two men whose virtue marks them for sacrifice. Dalin Forgewright cares for desperate Lordaeron refugees barred from sanctuary outside the sealed Greymane Wall in southern Silverpine. Comar Villard tirelessly searches the perilous marshlands of the Wetlands for any trace of his lost wife. Their devotion, empathy and loyalty make them prime sacrifices to a Forsaken warlock."
     },
     "quest:148": {
       "1": [
@@ -5489,9 +5489,9 @@
     "quest:1529": {
       "1": [
         {
-          "duration": 54.413061224489795,
-          "file": "Audio/Transport/full_quest_1529-7b1ce2cd9703a14d14d0/1-0000.mp3",
-          "sha256": "c92fe72248a9b3ecabef00957133fe5e409d2f496f45a1c4ed86459d8b45ee04",
+          "duration": 50.2334693877551,
+          "file": "Audio/Transport/full_quest_1529-b5c0cc4f855098bd4a5c/1-0000.mp3",
+          "sha256": "478185a8d7772f23c873a2a3edd67010eb7935e60b71f08498528122ca5f0852",
           "start": 0
         }
       ],
@@ -5502,15 +5502,15 @@
           "1"
         ]
       },
-      "fullHash": "17360c",
-      "generation": "2452ef8f3bfd6ba01929",
-      "hash": "17360c",
+      "fullHash": "ec2cf6",
+      "generation": "0027232e958b76b564dd",
+      "hash": "ec2cf6",
       "source": {
-        "duration": 54.413061,
+        "duration": 50.259592,
         "file": null,
-        "sha256": "7b1ce2cd9703a14d14d0ad3a881437427c6954e1bdd5d89b9f5ec2a9e2dfd9bb"
+        "sha256": "b5c0cc4f855098bd4a5cb8784eb342b57747aafc9b0a116fb031a00822f1805f"
       },
-      "text": "Call of Water. Your path to the Call of Water begins in Thunder Bluff, where a shaman is ready to seek the element of water. To meet Islen Waterseer, you travel east across the Barrens to its eastern shore. The meeting begins a spiritual journey toward the Water Totem. You have mastered earth and fire, and now your trainers judge you ready to study water. In Thunder Bluff, Xanis Flameweaver recognizes when you have shown the discipline to approach this cleansing element. Your path leads away from Mulgore's mesas and east across the dry plains of the Barrens. You find Islen Waterseer in a fishing shack on the eastern coast, south of Ratchet and the mouth of the Southfury River. She lives apart from the settlements, beside the open ocean. Islen reads your readiness in the elements around you. Earth, wind, and fire already touch your spirit, and she prepares you for trials that will teach you the purity of water."
+      "text": "Call of Water. In Thunder Bluff, your training turns toward water and a journey to the Barrens shore. You travel east to meet Islen Waterseer and begin the path toward the Water Totem. You have mastered earth and fire, and your trainers now judge you ready to study water. In Thunder Bluff, Xanis Flameweaver sees that you have the discipline to approach this cleansing element. So you leave Mulgore's mesas and cross the dry plains of the Barrens to the east. Islen Waterseer lives in a fishing shack on the Barrens' eastern coast, south of Ratchet and the mouth of the Southfury River. She keeps apart from the settlements beside the open ocean. Islen reads your readiness in the elements around you. Earth, wind, and fire already touch your spirit, and she prepares trials to teach you the purity of water."
     },
     "quest:1530": {
       "1": [
@@ -5567,9 +5567,9 @@
     "quest:1532": {
       "1": [
         {
-          "duration": 52.00979591836735,
-          "file": "Audio/Transport/full_quest_1532-ff62a14257947bb71a65/1-0000.mp3",
-          "sha256": "82a45371c260e73ff9ac5e577390caf2bef5f09b236060862f1a391bf0657445",
+          "duration": 52.84571428571429,
+          "file": "Audio/Transport/full_quest_1532-7be97e6db515784519ef/1-0000.mp3",
+          "sha256": "ce269f5f5333dc922e9d78297f34c34e128955dac41b77ba0fa0721c5e98b855",
           "start": 0
         }
       ],
@@ -5580,15 +5580,15 @@
           "1"
         ]
       },
-      "fullHash": "7a5d65",
-      "generation": "7cc967adabf96db95106",
-      "hash": "7a5d65",
+      "fullHash": "54348c",
+      "generation": "6fb063a2d3663ebcd87f",
+      "hash": "54348c",
       "source": {
-        "duration": 52.009796,
+        "duration": 52.871837,
         "file": null,
-        "sha256": "ff62a14257947bb71a65f32c51557e4d1f573e37ebe07d390828e7ec0f4fb6b3"
+        "sha256": "7be97e6db515784519efabb5f15cd4a97a6b6d979ca8c800d065f20ab0b44308"
       },
-      "text": "Call of Air. Xanis Flameweaver sends seasoned Horde shamans from Thunder Bluff south to seek Prate Cloudseer in Thousand Needles. There they seek communion with the wind and the Air Totem, needed to channel its swift forces. A shaman who has attuned to earth, fire, and water now faces air, the final element. From Thunder Bluff, Xanis Flameweaver guides initiates through a trial of humility, focus, and respect for the sky. The winds are fickle and harder to control than the elements they have already learned. The path leads south, past the Barrens and into the canyons of Thousand Needles. Far to the east, Prate Cloudseer dwells in a secluded cave on the cliffs, where canyon drafts howl day and night. She tests each initiate's preparedness before giving them the Air Totem, which channels gusts, lightning, and swift wind spirits."
+      "text": "Call of Air. Xanis Flameweaver sends seasoned Horde shamans south from Thunder Bluff to seek Prate Cloudseer in Thousand Needles. There, they seek communion with the wind and the Air Totem, which channels its swift forces. You have attuned to earth, fire, and water. Now Xanis Flameweaver guides you from Thunder Bluff through a trial of humility, focus, and respect for the sky. Air is the final element, and its winds are fickle. They are harder to control than the elements you have already learned. Your path leads south, past the Barrens and into the canyons of Thousand Needles. Far to the east, Prate Cloudseer dwells in a secluded cave on the cliffs, where canyon drafts howl day and night. She tests your preparedness before giving you the Air Totem. It channels gusts, lightning, and swift wind spirits."
     },
     "quest:1534": {
       "1": [
@@ -6867,9 +6867,9 @@
     "quest:1718": {
       "1": [
         {
-          "duration": 48.9795918367347,
-          "file": "Audio/Transport/full_quest_1718-2e543f1798b779855554/1-0000.mp3",
-          "sha256": "fb59cb2e72ced976153258c4c8cab807dd904ae6841e3182f11573c95f3321bc",
+          "duration": 53.23755102040816,
+          "file": "Audio/Transport/full_quest_1718-41d6bcfa3c4f23129942/1-0000.mp3",
+          "sha256": "e8800d1203ee1c0c74eaed7a377e18433022866a37c42c24da64636faa050afb",
           "start": 0
         }
       ],
@@ -6880,15 +6880,15 @@
           "1"
         ]
       },
-      "fullHash": "0cb102",
-      "generation": "81219aa8f72e88a8ae08",
-      "hash": "0cb102",
+      "fullHash": "f3a3ec",
+      "generation": "f6e11ab30325da1b0494",
+      "hash": "f3a3ec",
       "source": {
-        "duration": 48.979592,
+        "duration": 53.237551,
         "file": null,
-        "sha256": "2e543f1798b7798555548420247b683b77593a4eb6078e932749559ed67d4249"
+        "sha256": "41d6bcfa3c4f231299425bfd56bb1605c4d64272022f9592faf029941c243422"
       },
-      "text": "The Islander. Warrior trainers across Azeroth send proven fighters to Fray Island for a test among their peers. The island lies off the Merchant Coast, where chief warrior Klannoc Macleod awaits those who seek the next step in their training. Warrior trainers in Alliance and Horde capitals send students who have outgrown basic drills to test themselves against their peers. A fighter's progress comes through combat, not rank or loyalty. The journey leads away from civilized sparring yards to a rugged isle in the Great Sea. Fray Island lies east of the Merchant Coast, just south of Ratchet in the Barrens. You can reach it by swimming across waters that pass over submerged sandbar shallows. Political ties matter little on the island, where fighters gather before Klannoc Macleod, its chief warrior, and await the trial he chooses."
+      "text": "The Islander. On Fray Island, warriors from across Azeroth face a trial among their peers. Their trainers send proven fighters there for the next step in their training. The island lies off the Merchant Coast, where chief warrior Klannoc Macleod awaits them. Warrior trainers in Alliance and Horde capitals send students who have outgrown basic drills to test themselves against their peers. Combat shows a fighter's progress, not rank or loyalty. So the journey leads beyond civilized sparring yards to a rugged isle in the Great Sea. Fray Island lies east of the Merchant Coast, just south of Ratchet in the Barrens. You can swim there across waters that pass over submerged sandbar shallows. Political ties matter little on the island. Fighters gather before Klannoc Macleod, its chief warrior, and await the trial he chooses."
     },
     "quest:1719": {
       "1": [
@@ -7673,9 +7673,9 @@
     "quest:1803": {
       "1": [
         {
-          "duration": 42.8930612244898,
-          "file": "Audio/Transport/full_quest_1803-955b94b67cb7c28071c4/1-0000.mp3",
-          "sha256": "0f35339049ddeb606cb03509b178c5031cf0063b03dde4793d336e35087aa470",
+          "duration": 39.81061224489796,
+          "file": "Audio/Transport/full_quest_1803-24e76aa4d98b3af4d2b4/1-0000.mp3",
+          "sha256": "96a85562cd467fd04ee4028bf91380894e5d96cdf4088af932270e4e5033e9ac",
           "start": 0
         }
       ],
@@ -7686,15 +7686,15 @@
           "1"
         ]
       },
-      "fullHash": "b82377",
-      "generation": "9f2ab957c00daab3bc7f",
-      "hash": "b82377",
+      "fullHash": "b59da3",
+      "generation": "d76ae064166ce8accb2a",
+      "hash": "b59da3",
       "source": {
-        "duration": 42.893061,
+        "duration": 39.836735,
         "file": null,
-        "sha256": "955b94b67cb7c28071c437e1b38a8772c2848f2445fdc53cd655fe46597c523d"
+        "sha256": "24e76aa4d98b3af4d2b4d2ac5ea4a7b582ac49ab7a3a2302a19febf2a0af0bbb"
       },
-      "text": "Tome of the Cabal. Horde warlocks seek the Tome of the Cabal's severed halves for Jorah Annison in the Undercity. Once kept in Lordaeron, the grimoire was torn apart and scattered across the world. Its damp, tattered remnants lie along hostile Eastern Kingdoms waters and deep in Kalimdor's centaur territory. The Tome of the Cabal once rested in the library of Lordaeron. Someone deliberately defaced the sinister grimoire, stripping away nearly half its pages and splitting it in two. The surviving formal text was bound for the dwarven halls of Ironforge, but the transport wrecked along the rocky coast west of Southshore. Its pages now rot in the shallows beneath the watch of scavenging murlocs."
+      "text": "Tome of the Cabal. In the Undercity, Horde warlocks seek the Tome of the Cabal's scattered halves for Jorah Annison. Once kept in Lordaeron, the grimoire was torn apart, and its remnants lie along the hostile waters of the Eastern Kingdoms and deep in Kalimdor's centaur lands. The Tome of the Cabal once rested in Lordaeron's library. Someone defaced the sinister grimoire, tore away nearly half its pages, and split it in two. The surviving bound text was sent to the dwarven halls of Ironforge. But its transport wrecked along the rocky coast west of Southshore, and the pages now rot in the shallows beneath scavenging murlocs."
     },
     "quest:1804": {
       "1": [
@@ -7907,9 +7907,9 @@
     "quest:1840": {
       "1": [
         {
-          "duration": 50.5730612244898,
-          "file": "Audio/Transport/full_quest_1840-36b68253a41cf69ffdfa/1-0000.mp3",
-          "sha256": "87b5afaa9460893db8c7ac210a3150ba85419568d8a7176f672182bd00a9770f",
+          "duration": 49.31918367346939,
+          "file": "Audio/Transport/full_quest_1840-910fa8647a4c74a2f328/1-0000.mp3",
+          "sha256": "5d1649dfc8fefe8f9d4b4661ecfa5675637636069247bb784d64483a8ffd4ec2",
           "start": 0
         }
       ],
@@ -7920,15 +7920,15 @@
           "1"
         ]
       },
-      "fullHash": "309959",
-      "generation": "72d4ba3e8ac500374ea5",
-      "hash": "309959",
+      "fullHash": "06784e",
+      "generation": "bbe8b18695dd16eb9888",
+      "hash": "06784e",
       "source": {
-        "duration": 50.573061,
+        "duration": 49.345306,
         "file": null,
-        "sha256": "36b68253a41cf69ffdfa8605ea36cb4e2bf16aad44880440cb980a113fb5fa7e"
+        "sha256": "910fa8647a4c74a2f3288ed9ce3ea5fb9ed1c7420b28b83585a6ae7c9ae15464"
       },
-      "text": "Orm Stonehoof and the Brutal Helm. In Thunder Bluff, Orm Stonehoof has the skill to forge the Brutal Helm. Thun'grim Firegaze sends warriors to him for that work. Warriors who prove their mettle and assemble pieces of the Brutal Armor in the Barrens are sent up to Thunder Bluff. Thun'grim Firegaze is an accomplished armorsmith, but he knows the work has reached beyond his own skill. He refers the warriors to Orm Stonehoof, whose craft is renowned across Kalimdor. Orm can shape resilient battlefield helms from rare, savage trophies. Orm Stonehoof lives and works on the high bluffs of Mulgore, near the tranquil pool beneath Thunder Bluff's towering central totem. When a warrior arrives with Thun'grim Firegaze's word, Orm leaves his routine work to discuss the demanding components needed for a helm worthy of the Horde's front lines."
+      "text": "Orm Stonehoof and the Brutal Helm. In Thunder Bluff, Orm Stonehoof can forge the Brutal Helm. Thun'grim Firegaze sends warriors to him for the work. Warriors who prove their mettle and gather pieces of the Brutal Armor in the Barrens are sent to Thunder Bluff. Thun'grim Firegaze is a skilled armorsmith, but the work has grown beyond his craft. So he directs the warriors to Orm Stonehoof, whose skill is known across Kalimdor. Orm can shape sturdy helms from rare trophies taken from savage beasts. Orm Stonehoof lives and works on Mulgore's high bluffs, near the pool below Thunder Bluff's great central totem. When a warrior comes with Thun'grim Firegaze's word, Orm sets aside his usual work. He speaks with them about the demanding parts needed to forge a helm fit for the Horde's front lines."
     },
     "quest:1841": {
       "1": [
@@ -8011,9 +8011,9 @@
     "quest:1844": {
       "1": [
         {
-          "duration": 59.141224489795924,
-          "file": "Audio/Transport/full_quest_1844-1cab518e833be5caa9f6/1-0000.mp3",
-          "sha256": "ed7589a99a11c8cd2f090a68cadc693b2153a3a63e600b022717e655518046bf",
+          "duration": 63.45142857142857,
+          "file": "Audio/Transport/full_quest_1844-8e2c74eeb3aa03ce06c2/1-0000.mp3",
+          "sha256": "6af4ea798cca5f8546b0e3c5f7484bfcfc0e4e0caa82c35710c882d5c85ca5b0",
           "start": 0
         }
       ],
@@ -8024,15 +8024,15 @@
           "1"
         ]
       },
-      "fullHash": "57fba4",
-      "generation": "3981e928f684bc677bf8",
-      "hash": "57fba4",
+      "fullHash": "d1e7c9",
+      "generation": "4880510d44c41da66df2",
+      "hash": "d1e7c9",
       "source": {
-        "duration": 59.141224,
+        "duration": 63.477551,
         "file": null,
-        "sha256": "1cab518e833be5caa9f65ca5328bbbdd26c1d3ab0f0b1a2e87d4d0f7aae7bc89"
+        "sha256": "8e2c74eeb3aa03ce06c2eb35dc9d1621a2276ee29ff552eaa21feb91380a7065"
       },
-      "text": "Chimaeric Horn. Orm Stonehoof sends a Horde warrior into the Charred Vale to face a suffering chimaera matriarch. Her horn is needed for the Brutal Helm, and the hunt tests the warrior’s strength and mercy. Orm Stonehoof will forge the Brutal Helm for Horde warriors, but tradition calls for proof before he begins. He asks for more than metal or coin: the warrior must show martial skill and face the scars left by devastating conflict. In the southwestern Stonetalon Mountains, the Charred Vale lies in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still wander its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents. For the tauren smith, the chimaera matriarch’s horn is both a needed piece for the helm and proof of strength. The hunt also ends the matriarch’s torment. By felling her, the warrior brings mercy to a wild spirit driven mad by the destruction of its home."
+      "text": "Chimaeric Horn. In the Charred Vale, a suffering chimaera matriarch tests a Horde warrior’s strength and mercy. Orm Stonehoof needs her horn for the Brutal Helm, and the hunt will prove the warrior’s resolve. Orm Stonehoof will forge the Brutal Helm for Horde warriors, but custom asks for proof before he begins. Metal and coin are not enough. A warrior must show martial skill and face the scars left by devastating conflict. The Charred Vale lies in the southwestern Stonetalon Mountains, buried in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still roam its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents. To the tauren smith, the chimaera matriarch’s horn is needed for the helm and proves a warrior’s strength. Yet the hunt also ends her torment. By felling the matriarch, the warrior brings mercy to a wild spirit driven mad by the destruction of her home."
     },
     "quest:1845": {
       "1": [
@@ -8063,9 +8063,9 @@
     "quest:1846": {
       "1": [
         {
-          "duration": 46.88979591836735,
-          "file": "Audio/Transport/full_quest_1846-4f37633ef9c80cf495ca/1-0000.mp3",
-          "sha256": "167f9388b7b2bdf81b5fa5748e7795643170277105d0db9330ac428d7b5accd2",
+          "duration": 45.74040816326531,
+          "file": "Audio/Transport/full_quest_1846-17e3759e5165f3c43b12/1-0000.mp3",
+          "sha256": "f1c277867befe9160ad9beb0e1c89518a144913c7c9fa33c7136943112c56957",
           "start": 0
         }
       ],
@@ -8076,15 +8076,15 @@
           "1"
         ]
       },
-      "fullHash": "bec8f8",
-      "generation": "e1f6fe38c88ec1d7bd0b",
-      "hash": "bec8f8",
+      "fullHash": "0e39c2",
+      "generation": "24ec906b6fce5fd8d7cf",
+      "hash": "0e39c2",
       "source": {
-        "duration": 46.889796,
+        "duration": 45.766531,
         "file": null,
-        "sha256": "4f37633ef9c80cf495ca4b3d1ce33fbd5166da16db9965a8b79c423965c8d919"
+        "sha256": "17e3759e5165f3c43b1215e6a03b0644f019bc2424e19869993142b709913c57"
       },
-      "text": "Dragonmaw Shinbones. In the Undercity, Velora Nitely sends Horde warriors to gather Dragonmaw Shinbones for Brutal Legguards. The hunt leads to the southern Wetlands, where the hostile orcs carry bones thick enough to brace the armor. Velora Nitely, a Forsaken armorer in the Undercity, needs a strong brace for Brutal Legguards. She sends Horde warriors to the Wetlands for thick, resilient bone from the Dragonmaw orcs. Their dense frames can bear the heavy blows a seasoned warrior faces. Velora needs more than any bone taken from the Dragonmaw. Each one must withstand a hand test; a bone that snaps is too brittle for the forge. Warriors scour the renegade camps along the Wetlands' crags, breaking weak specimens until eight sturdy shinbones remain."
+      "text": "Dragonmaw Shinbones. Velora Nitely sends Horde warriors from the Undercity into the southern Wetlands for Dragonmaw Shinbones. The thick bones will brace Brutal Legguards against the blows a seasoned warrior faces. Velora Nitely, a Forsaken armorer in the Undercity, needs a sturdy brace for Brutal Legguards. She sends Horde warriors to the Wetlands to gather thick bone from the Dragonmaw orcs. Their dense frames can bear the heavy blows that seasoned warriors face. Velora needs bones that can hold firm. Each must pass a hand test; any that snap are too brittle for the forge. So warriors scour renegade camps along the Wetlands' crags, breaking weak specimens until eight sturdy shinbones remain."
     },
     "quest:1848": {
       "1": [
@@ -8713,9 +8713,9 @@
     "quest:1999": {
       "1": [
         {
-          "duration": 54.909387755102046,
-          "file": "Audio/Transport/full_quest_1999-22a2cba002b3ff5a3b76/1-0000.mp3",
-          "sha256": "4406ea705f2c9ebb552eefb70a2b58e03158ae3174d437da2f45ce11250c6d8d",
+          "duration": 53.86448979591837,
+          "file": "Audio/Transport/full_quest_1999-fc66c112ff877f02d5b9/1-0000.mp3",
+          "sha256": "ddd03e483682b236a01cc7e764bdc50f6d9a417a796a8031cefe211e115bb956",
           "start": 0
         }
       ],
@@ -8726,15 +8726,15 @@
           "1"
         ]
       },
-      "fullHash": "9c9caf",
-      "generation": "aca8f1d0a6ed7e9edd73",
-      "hash": "9c9caf",
+      "fullHash": "3911c0",
+      "generation": "ab80d4639d3739b3b14c",
+      "hash": "3911c0",
       "source": {
-        "duration": 54.909388,
+        "duration": 53.890612,
         "file": null,
-        "sha256": "22a2cba002b3ff5a3b768a4cffd293760fb4778680bbf9e48c3cafe1c7a3f7a1"
+        "sha256": "fc66c112ff877f02d5b9b79dd3007ac44fb029e850571e3bccaf15df6fa158d5"
       },
-      "text": "Tools of the Trade. Horde rogues are sent from the Undercity to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and recover Kirin Tor intelligence on Dalaran’s condition. A prisoner’s interrogation points the Deathstalkers toward intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Deathstalker handler Mennet Carkad to direct promising operatives around the Kirin Tor sentries and recover the Dalaran Status Report. Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives receive specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill proves an operative can move beyond street brutality and become an espionage asset for the Forsaken."
+      "text": "Tools of the Trade. In the Undercity, Horde rogues are sent to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and learn Dalaran’s condition from Kirin Tor intelligence. A prisoner’s interrogation leads the Deathstalkers to intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Mennet Carkad, a Deathstalker handler, to guide promising operatives past the Kirin Tor sentries and recover the Dalaran Status Report. Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives collect specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill shows an operative can move beyond street brutality and serve the Forsaken as an espionage asset."
     },
     "quest:2": {
       "1": [
@@ -11625,9 +11625,9 @@
     "quest:3369": {
       "1": [
         {
-          "duration": 38.164897959183676,
-          "file": "Audio/Transport/full_quest_3369-9645330260be2299ae77/1-0000.mp3",
-          "sha256": "dbef807a0edaecbaf386e0cf419a5de491624582d6830afe96714ab37bd85eb1",
+          "duration": 34.89959183673469,
+          "file": "Audio/Transport/full_quest_3369-e03affb6cb09d9862edc/1-0000.mp3",
+          "sha256": "0942d151b43428dab0a11c4bd0b940ddb65348cc68e40fb8d51600817b78977a",
           "start": 0
         }
       ],
@@ -11638,15 +11638,15 @@
           "1"
         ]
       },
-      "fullHash": "7f0581",
-      "generation": "67dcabe2e30b7b79fefb",
-      "hash": "7f0581",
+      "fullHash": "bc9f13",
+      "generation": "6ad860d3b02c6fd4fc04",
+      "hash": "bc9f13",
       "source": {
-        "duration": 38.19102,
+        "duration": 34.925714,
         "file": null,
-        "sha256": "9645330260be2299ae775459061f3795696c24720dbf52d3e253dea58fab0ad8"
+        "sha256": "e03affb6cb09d9862edc0e1e76f337a269153805c837146ec71b11ae9a87cc34"
       },
-      "text": "In Nightmares. A shard from the Wailing Caverns brings a troubling vision to Thunder Bluff. Recovered as a glowing fragment, the Nightmare Shard is carried to Arch Druid Hamuul Runetotem on Elder Rise, where it reveals corruption within the Emerald Dream. Falla Sagewind sees the pure essence of the Emerald Dream in the strange crystal from the Wailing Caverns. A dark, chaotic vision dwells inside it, more waking nightmare than peaceful slumber. Unwilling to speak openly of such an omen, she entrusts the shard to you. She sends you to Arch Druid Hamuul Runetotem, Thunder Bluff's most venerated elder druid."
+      "text": "In Nightmares. A shard from the Wailing Caverns brings a troubling vision to Thunder Bluff. You carry the glowing Nightmare Shard to Arch Druid Hamuul Runetotem on Elder Rise, where it reveals corruption within the Emerald Dream. Falla Sagewind sees the Emerald Dream's pure essence in a strange crystal from the Wailing Caverns. Within it lies a dark, chaotic vision, more waking nightmare than peaceful slumber. Unwilling to speak openly of the omen, she entrusts the shard to you. Then she sends you to Arch Druid Hamuul Runetotem, Thunder Bluff's most venerated elder druid."
     },
     "quest:337": {
       "1": [
@@ -12483,9 +12483,9 @@
     "quest:442": {
       "1": [
         {
-          "duration": 43.284897959183674,
-          "file": "Audio/Transport/full_quest_442-8e892c4659a11588af69/1-0000.mp3",
-          "sha256": "9303f29b5d8da11d9be2409456f14d57a94700a82bc15e1adfe46168e645e704",
+          "duration": 40.17632653061224,
+          "file": "Audio/Transport/full_quest_442-56ead0288c4dfa9d5b2d/1-0000.mp3",
+          "sha256": "6509b11eeac3a5bd6c2f8bf50cb480d9652240696c0fb4bbe3b1c102d6555d55",
           "start": 0
         }
       ],
@@ -12496,15 +12496,15 @@
           "1"
         ]
       },
-      "fullHash": "840d10",
-      "generation": "fe06bcd1b72fbca095ea",
-      "hash": "840d10",
+      "fullHash": "00b110",
+      "generation": "6ba137babcf3dbde4b18",
+      "hash": "00b110",
       "source": {
-        "duration": 43.31102,
+        "duration": 40.202449,
         "file": null,
-        "sha256": "8e892c4659a11588af69da3f569c73bd48c4d46a0bfb8df3d518bf415ac0ab84"
+        "sha256": "56ead0288c4dfa9d5b2d4c900a096c0e04c6cc73fbbd6bf0b6bf8e341c0f46cd"
       },
-      "text": "Assault on Fenris Isle. Forsaken agents move against the Scourge on Fenris Isle. High Executor Hadrec sends them to storm Fenris Keep and take the head of Thule Ravenclaw, the necromancer commanding the island stronghold in Lake Lordamere. The Forsaken hold the western roads and have established their presence at the Sepulcher, but the Scourge remain entrenched in Fenris Keep. The island lies in Lake Lordamere, east of Silverpine Forest, and its forces threaten the forest and the southern waterways leading toward the Undercity. High Executor Hadrec sees Thule Ravenclaw’s vile experiments as a danger to Forsaken control of Silverpine. Thule commands the Scourge from the keep, keeping their power close to the Forsaken shore."
+      "text": "Assault on Fenris Isle. High Executor Hadrec sends Forsaken agents to Fenris Isle. They are to storm Fenris Keep and take the head of Thule Ravenclaw, the necromancer commanding the island stronghold in Lake Lordamere. The Forsaken hold the western roads and have made their presence known at the Sepulcher. Yet the Scourge remain entrenched in Fenris Keep, on an island in Lake Lordamere east of Silverpine Forest. Their forces threaten the forest and the southern waterways that lead toward the Undercity. High Executor Hadrec sees Thule Ravenclaw’s experiments as a danger to Forsaken control of Silverpine. From the keep, Thule commands the Scourge close to the Forsaken shore."
     },
     "quest:4542": {
       "1": [
@@ -13055,9 +13055,9 @@
     "quest:480": {
       "1": [
         {
-          "duration": 35.68326530612245,
-          "file": "Audio/Transport/full_quest_480-8e7441985396f5d16d40/1-0000.mp3",
-          "sha256": "c8989c580292ede0bbfa54ee04bd31b7a81c63244b200241c4c6552d41620666",
+          "duration": 35.81387755102041,
+          "file": "Audio/Transport/full_quest_480-061b84285c8a4a4b0694/1-0000.mp3",
+          "sha256": "3f1769bd629460218db8a7f415c132aaa800e33b3e7a6853e181d16bcfc5193f",
           "start": 0
         }
       ],
@@ -13068,15 +13068,15 @@
           "1"
         ]
       },
-      "fullHash": "1e6896",
-      "generation": "69a887f3f6a5490ff7ef",
-      "hash": "1e6896",
+      "fullHash": "73a340",
+      "generation": "b35002a8dda38ec7a3b8",
+      "hash": "73a340",
       "source": {
-        "duration": 35.709388,
+        "duration": 35.84,
         "file": null,
-        "sha256": "8e7441985396f5d16d40acfbfaa9320e8ce8ff0990bde6ff644b4c0e5919e805"
+        "sha256": "061b84285c8a4a4b06945308ef64a865e4d4ecaec4a57ce692705243c8dcde08"
       },
-      "text": "The Weaver. In Silverpine Forest, Ataeric works to awaken a dormant ley energy node for Dalaran. Shadow Priest Allister at the Sepulcher sends you to stop the archmage and take his staff, keeping Dalaran’s magic from threatening Forsaken control of the southern reaches of Lordaeron. After earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that the wizards are trying to awaken a dormant ley energy node in Silverpine Forest. If Dalaran gains its concentrated arcane power, it could strengthen its position and threaten the Undercity’s hold over southern Lordaeron."
+      "text": "The Weaver. In Silverpine Forest, Ataeric works to wake a dormant ley node for Dalaran. At the Sepulcher, Shadow Priest Allister sends you to stop the archmage and take his staff, lest Dalaran’s magic threaten Forsaken control of southern Lordaeron. After your earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that its wizards seek to wake a dormant ley energy node in Silverpine Forest. Dalaran could draw on that concentrated arcane power to strengthen its position and threaten the Undercity’s hold over southern Lordaeron."
     },
     "quest:4821": {
       "1": [
@@ -13731,9 +13731,9 @@
     "quest:5062": {
       "1": [
         {
-          "duration": 49.99836734693878,
-          "file": "Audio/Transport/full_quest_5062-804232d7d7e2f5c0a92d/1-0000.mp3",
-          "sha256": "8f99f09fa13a60377254c35ccf0190176462359c3e84bfac6c863e11569f546f",
+          "duration": 50.46857142857143,
+          "file": "Audio/Transport/full_quest_5062-a4c84c9849c6b99603fd/1-0000.mp3",
+          "sha256": "db95e881d2a102eddbf656a442f4a585e47cbf3837de4e925e215b5820f5dcc1",
           "start": 0
         }
       ],
@@ -13744,15 +13744,15 @@
           "1"
         ]
       },
-      "fullHash": "97aeb3",
-      "generation": "5b7547e5c8197e013e34",
-      "hash": "97aeb3",
+      "fullHash": "2ec53c",
+      "generation": "e6c1d720afddd9ae821f",
+      "hash": "2ec53c",
       "source": {
-        "duration": 50.02449,
+        "duration": 50.494694,
         "file": null,
-        "sha256": "804232d7d7e2f5c0a92deb0edcfa5305dcdd6602006748e487f78cd6664d9643"
+        "sha256": "a4c84c9849c6b99603fdc8cb842cd8de5cd0b3f4c13498c4c0ca0f5951fa7f1a"
       },
-      "text": "Sacred Fire. Hunters seek Incendia Agave at the Boiling Pool to prepare a sacred fire that can call Arikara from the canyons of Thousand Needles. Motega Firemane instructs hunters to prepare the sacred fire of life, an ancient flame that calls the spirit beast Arikara. The monstrous wind serpent cannot simply be tracked across the canyon floor; she must be drawn to the fire. The flame needs more than ordinary kindling. Rare Incendia Agave, which grows around the scalding waters of Thousand Needles, feeds it. Incendia Agave grows near the Boiling Pool, below Darkcloud Pinnacle. To gather the spiky plants, you brave blistering waters and steam elementals drifting through the mists. Many bushels grow beneath the surface, where the hot lake water tests every hunter sent to collect them."
+      "text": "Sacred Fire. At the Boiling Pool, hunters seek Incendia Agave for a sacred flame meant to call Arikara from the canyons of Thousand Needles. Motega Firemane asks you to prepare the sacred fire of life, an ancient flame that calls Arikara. The monstrous wind serpent cannot be tracked across the canyon floor. You must draw her to the fire instead. Ordinary kindling will not feed the flame. It needs rare Incendia Agave, which grows around the scalding waters of Thousand Needles. Incendia Agave grows near the Boiling Pool, below Darkcloud Pinnacle. You brave blistering waters and steam elementals drifting through the mists to gather its spiky leaves. Many bushels lie beneath the surface. The hot lake water tests every hunter sent to collect them."
     },
     "quest:5064": {
       "1": [
@@ -13783,9 +13783,9 @@
     "quest:5088": {
       "1": [
         {
-          "duration": 38.81795918367347,
-          "file": "Audio/Transport/full_quest_5088-a14250532b75a1720db8/1-0000.mp3",
-          "sha256": "24fc0360679c9b2859b21d9c521322b793b6bbac9d25e58e477e419e34a3ac55",
+          "duration": 40.38530612244898,
+          "file": "Audio/Transport/full_quest_5088-32d0f0609146b3c7e0c8/1-0000.mp3",
+          "sha256": "e87d457053329793865a996ffd529c24a9e6e001a4cd7a7e40850769e63407d0",
           "start": 0
         }
       ],
@@ -13796,15 +13796,15 @@
           "1"
         ]
       },
-      "fullHash": "da2a81",
-      "generation": "5cc68e29c8f93fe37d1e",
-      "hash": "da2a81",
+      "fullHash": "97b1bf",
+      "generation": "a9bed778f6cecfcc03de",
+      "hash": "97b1bf",
       "source": {
-        "duration": 38.817959,
+        "duration": 40.411429,
         "file": null,
-        "sha256": "a14250532b75a1720db836ae519bb2e0be05ad8161f094e246346b55fe522192"
+        "sha256": "32d0f0609146b3c7e0c8a406ffe20fd5f9c43ec35a4fa7a40c92ab87a3de412d"
       },
-      "text": "Arikara. Magatha Grimtotem sends a warning from Thunder Bluff: Arikara may be hunting High Chieftain Cairne Bloodhoof. She sends Horde adventurers to summon and slay the ancient wind serpent on the burial spires of Thousand Needles. Magatha Grimtotem enchants the refined Incendia powder, a reagent, to call Arikara. She warns that ancient tauren traditions have changed too quickly under the new Horde alliance, stirring the vengeance of the ferocious wind serpent spirit. Magatha sends you south to the canyon of Thousand Needles. She tells you to cast the powder onto a ritual pyre among the elevated burial sites of Darkcloud Pinnacle."
+      "text": "Arikara. From Thunder Bluff, Magatha Grimtotem warns that Arikara may be hunting High Chieftain Cairne Bloodhoof. She sends Horde adventurers to summon and slay the ancient wind serpent at the burial spires of Thousand Needles. Magatha Grimtotem enchants refined Incendia powder to call Arikara. She warns that ancient tauren traditions have changed too quickly under the new Horde alliance. Those changes, she says, stirred the vengeance of the ferocious wind serpent spirit. So she sends you south to the canyon of Thousand Needles. There, among the elevated burial sites of Darkcloud Pinnacle, you are to cast the powder onto a ritual pyre."
     },
     "quest:509": {
       "1": [
@@ -13835,9 +13835,9 @@
     "quest:513": {
       "1": [
         {
-          "duration": 58.64489795918367,
-          "file": "Audio/Transport/full_quest_513-bee403bfed4dfbc7b2c3/1-0000.mp3",
-          "sha256": "6539152d9398665c290cebde666d8a0aa1481f70676d00e597bc3ca905dab3e2",
+          "duration": 58.671020408163265,
+          "file": "Audio/Transport/full_quest_513-d846e456fd83a38acc1d/1-0000.mp3",
+          "sha256": "9d46c6b5a5ef2814e969b85885bc4d89fc5741b14bf9502fb83d73cc740ada20",
           "start": 0
         }
       ],
@@ -13848,15 +13848,15 @@
           "1"
         ]
       },
-      "fullHash": "fa2ab7",
-      "generation": "c0101913e95ddc289606",
-      "hash": "fa2ab7",
+      "fullHash": "3b99a6",
+      "generation": "32f2373761ecce062f78",
+      "hash": "3b99a6",
       "source": {
-        "duration": 58.67102,
+        "duration": 58.697143,
         "file": null,
-        "sha256": "bee403bfed4dfbc7b2c35a7b3b3b05f69f25d9c9e5afe2dfe34252615fd23271"
+        "sha256": "d846e456fd83a38acc1d8d4664ef4564ce83b986cc9b9602d1c9eb393d285a4e"
       },
-      "text": "Elixir of Agony. In the Undercity, Lydon's freshly mashed Mudsnout Composite awaits refinement. Apothecary Lydon sends it from Tarren Mill to Master Apothecary Faranell, who must treat it with a colloid of decay as the Royal Apothecary Society develops a new plague for the Forsaken. The Royal Apothecary Society sends raw discoveries from its regional researchers to the Undercity for specialized refinement. In Tarren Mill, Apothecary Lydon has mashed local Mudsnout Blossoms into a composite. Only the capital's laboratory holds the advanced reagents needed to bring his work to lethal fruition. Master Apothecary Faranell works under pressure in the Apothecarium. The Scourge threatens from the north, while aggressive human populations press from the south. Lady Sylvanas Windrunner has demanded a potent new plague to defend the Forsaken. Lydon's composite could give Faranell the toxic breakthrough the Dark Lady expects."
+      "text": "Elixir of Agony. In the Undercity, the Elixir of Agony awaits its final treatment. Apothecary Lydon sends his freshly mashed Mudsnout Composite from Tarren Mill to Master Apothecary Faranell, who must add a colloid of decay. The Royal Apothecary Society is developing a new plague for the Forsaken. The Royal Apothecary Society sends discoveries from regional researchers to the Undercity for refinement. In Tarren Mill, Apothecary Lydon has mashed local Mudsnout Blossoms into a composite. Only the capital's laboratory has the advanced reagents needed to make his work lethal. Master Apothecary Faranell works under pressure in the Apothecarium. The Scourge threatens from the north, while aggressive human populations press from the south. Lady Sylvanas Windrunner has demanded a potent new plague to defend the Forsaken. Lydon's composite may give Faranell the toxic breakthrough the Dark Lady expects."
     },
     "quest:5147": {
       "1": [
@@ -13887,9 +13887,9 @@
     "quest:515": {
       "1": [
         {
-          "duration": 56.39836734693878,
-          "file": "Audio/Transport/full_quest_515-0629350ff90145a61901/1-0000.mp3",
-          "sha256": "6a623b997cf732eba51900df345a58e682e9093a4a696566075d4ce7e607932d",
+          "duration": 60.02938775510204,
+          "file": "Audio/Transport/full_quest_515-57defd3a4a11a762f809/1-0000.mp3",
+          "sha256": "06d802798a8fcce092ef04151519aacde32f056f3ad4d7349320ac2adbdfc570",
           "start": 0
         }
       ],
@@ -13900,15 +13900,15 @@
           "1"
         ]
       },
-      "fullHash": "e952cc",
-      "generation": "d1b2c834b8cc32549a97",
-      "hash": "e952cc",
+      "fullHash": "2e4c79",
+      "generation": "7c2b449a45d862d623ce",
+      "hash": "2e4c79",
       "source": {
-        "duration": 56.42449,
+        "duration": 60.05551,
         "file": null,
-        "sha256": "0629350ff90145a6190181fd677c7cd07bc0990de6c9f70c5a1a41858fdeca42"
+        "sha256": "57defd3a4a11a762f8090c9a24e86c08ae7caf2ffa192e867633556230a09fde"
       },
-      "text": "Elixir of Agony. In the Undercity, Faranell prepares Lydon's mixture for a deadly purpose. The Royal Apothecary Society's new plague needs coastal reagents and alchemical draughts before the brew can be used. Apothecary Lydon sent his Mudsnout Blossom mixture from gnoll-held Nethander Stead to the Apothecarium in the Undercity. Master Apothecary Faranell, head of the Royal Apothecary Society, saw its grim potential at once. Pleased by its toxic properties, he added his own colloid of decay. Then he named the catalysts needed to make the mixture a weapon. Lydon must gather precise reagents in Tarren Mill to activate the mixture's contaminating agents. Faranell calls for a restorative draught of Strong Troll's Blood to feed and steady the chemical reaction. He also needs organic parts from Hillsbrad's southern shore: scales from the serpentine Daggerspine naga and eyes from the coastal Torn Fin murlocs."
+      "text": "Elixir of Agony. In the Undercity, Faranell prepares Lydon's mixture for a deadly purpose. The Royal Apothecary Society needs reagents from the coast and alchemical draughts to make its new plague ready. Apothecary Lydon sent his Mudsnout Blossom mixture from gnoll-held Nethander Stead to the Apothecarium in the Undercity. Master Apothecary Faranell leads the Royal Apothecary Society, and he saw the mixture's grim potential at once. Its toxic properties pleased him, so he added his own colloid of decay. Then he named the catalysts that could turn it into a weapon. To activate the mixture's contaminating agents, Lydon needs exact reagents in Tarren Mill. Faranell calls for a restorative draught of Strong Troll's Blood to feed and steady the chemical reaction. He also needs organic parts from Hillsbrad's southern shore: scales from the serpentine Daggerspine naga and eyes from the coastal Torn Fin murlocs."
     },
     "quest:5151": {
       "1": [
@@ -13939,9 +13939,9 @@
     "quest:516": {
       "1": [
         {
-          "duration": 46.26285714285714,
-          "file": "Audio/Transport/full_quest_516-f5b210b67146c87f2635/1-0000.mp3",
-          "sha256": "e9230587737d81b04141afd4016a1c2974af34ad1f47947979af552114822b80",
+          "duration": 48.43102040816327,
+          "file": "Audio/Transport/full_quest_516-cbaba1290d4dc5a0b241/1-0000.mp3",
+          "sha256": "5da300ba2495e051070dccbb6154f712b8b656d9dc1862ddb5988c7620fbafb0",
           "start": 0
         }
       ],
@@ -13952,15 +13952,15 @@
           "1"
         ]
       },
-      "fullHash": "885416",
-      "generation": "0f6e1b7959d448f7acff",
-      "hash": "885416",
+      "fullHash": "0e0d5c",
+      "generation": "6f37079efddf1e32af30",
+      "hash": "0e0d5c",
       "source": {
-        "duration": 46.262857,
+        "duration": 48.457143,
         "file": null,
-        "sha256": "f5b210b67146c87f26356c77a4db0e404a788eca7814302ac1c9a7dcdd1a9549"
+        "sha256": "cbaba1290d4dc5a0b241c383e05458e19936411cf64f031fc77760889981cdd3"
       },
-      "text": "Beren's Peril. Scourge gather in a hidden cave in southern Silverpine Forest, and Shadow Priest Allister moves to stop them. The Forsaken hope to strike before the undead can begin their offensive. Shadow Priest Allister hears that servants of the Lich King are gathering deep in southern Silverpine Forest. Their growing numbers threaten Forsaken operations across the region. Allister sends scouts to strike first and destroy the Scourge in their secluded lair before they can mobilize. A hidden cave cuts into the hills south of Ambermill, the Dalaran-aligned settlement. The rough slopes make the cavern easy to miss, and the approach lies around the hills’ southern face. Ravenclaw drudgers and guardians dwell inside, remnants of the Scourge whose destruction helps the Forsaken hold their ground in the forest."
+      "text": "Beren's Peril. In southern Silverpine Forest, Shadow Priest Allister moves against Scourge gathering in a hidden cave. The Forsaken hope to strike before the undead begin their offensive. Shadow Priest Allister has heard that servants of the Lich King gather deep in southern Silverpine Forest. Their growing numbers threaten Forsaken operations across the region. So Allister sends scouts to strike first and destroy the Scourge in their secluded lair before they can mobilize. South of Ambermill, the Dalaran-aligned settlement, a hidden cave cuts into the hills. Its rough slopes make the cavern easy to miss, and the approach runs around the hills’ southern face. Ravenclaw drudgers and guardians dwell within. Destroying these Scourge remnants helps the Forsaken hold their ground in the forest."
     },
     "quest:517": {
       "1": [
@@ -14095,9 +14095,9 @@
     "quest:530": {
       "1": [
         {
-          "duration": 25.234285714285715,
-          "file": "Audio/Transport/full_quest_530-2b63b64f9d8b3e8a38c8/1-0000.mp3",
-          "sha256": "997d65a2de870e83e45a8a3d1ae0776b6a0c6a860d8996485905d4a8cfb3e4f4",
+          "duration": 24.476734693877553,
+          "file": "Audio/Transport/full_quest_530-781cc6d3104b332e0d7b/1-0000.mp3",
+          "sha256": "b60ce22e708d9970c71123fd22c13b3c8954d40902eaa4c8b0121406f358dbca",
           "start": 0
         }
       ],
@@ -14108,15 +14108,15 @@
           "1"
         ]
       },
-      "fullHash": "0d7a72",
-      "generation": "e2dade8205b17b09c918",
-      "hash": "0d7a72",
+      "fullHash": "fa24ff",
+      "generation": "cc4c000886fb6c0361cf",
+      "hash": "fa24ff",
       "source": {
-        "duration": 25.234286,
+        "duration": 24.502857,
         "file": null,
-        "sha256": "2b63b64f9d8b3e8a38c802df269e188d0dc3c57c00138a08f493acffab873981"
+        "sha256": "781cc6d3104b332e0d7bcd81a8bbbcd3e05ab899536b9ea1a1788a305798b6f3"
       },
-      "text": "A Husband's Revenge. In the Undercity, Raleigh Andrean sends you after the friend who murdered his wife. An engraved ring from Silverpine Forest brings Raleigh Andrean's mortal memories back to him. He remembers his close friend Valdred Moray, who murdered Raleigh's wife, Deliah. The Scourge's chill and undeath have dulled Raleigh's grief and love, but his thirst for revenge remains. You are sent to find Valdred."
+      "text": "A Husband's Revenge. In the Undercity, Raleigh Andrean sends you to hunt the man who murdered his wife. An engraved ring from Silverpine Forest stirs Raleigh Andrean's mortal memories. He recalls his close friend Valdred Moray, who murdered Raleigh's wife, Deliah. The Scourge's chill and undeath have dulled his grief and love. Yet his thirst for revenge remains, and you are sent to find Valdred."
     },
     "quest:532": {
       "1": [
@@ -14589,9 +14589,9 @@
     "quest:550": {
       "1": [
         {
-          "duration": 54.70040816326531,
-          "file": "Audio/Transport/full_quest_550-ba2b5e3bb01075fee074/1-0000.mp3",
-          "sha256": "da19dfebfe639a62e83c0b43aaaaf603277bbbad9f72c9a77e9eb6359644e82c",
+          "duration": 58.14857142857143,
+          "file": "Audio/Transport/full_quest_550-cdd06dd7825379a5327b/1-0000.mp3",
+          "sha256": "41ffd043560c722953e7aad362e55633fefe3b1b275e8cb725154fd0bb7a77a4",
           "start": 0
         }
       ],
@@ -14602,15 +14602,15 @@
           "1"
         ]
       },
-      "fullHash": "5c7c15",
-      "generation": "1717247f4b840b0e4709",
-      "hash": "5c7c15",
+      "fullHash": "54034b",
+      "generation": "5be5dcac052e65c4c43b",
+      "hash": "54034b",
       "source": {
-        "duration": 54.726531,
+        "duration": 58.174694,
         "file": null,
-        "sha256": "ba2b5e3bb01075fee074576e37434c9c9ba119c02dc3b2e17134954237b8c79e"
+        "sha256": "cdd06dd7825379a5327bc000872b34c8788fb9966e8aa5663dbed5437c6b0f37"
       },
-      "text": "Battle of Hillsbrad. At Hillsbrad, the Forsaken campaign has broken the human township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity. The fighting in Hillsbrad Foothills has been a brutal struggle for southern Lordaeron. From Tarren Mill, Horde champions struck at the township's farmers, militia, blacksmiths, and civic leaders. With Alliance forces crippled and the territory secured for the Forsaken, High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command. Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat, while surviving human enclaves still endanger the Forsaken's southern borders."
+      "text": "Battle of Hillsbrad. At Hillsbrad, the Forsaken have broken the township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity. Fierce fighting in Hillsbrad Foothills has decided the struggle for southern Lordaeron. From Tarren Mill, Horde champions struck the township's farmers, militia, blacksmiths, and civic leaders. Alliance forces are crippled, and the territory is secured for the Forsaken. Now High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command. Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat. Yet surviving human enclaves still endanger the Forsaken's southern borders."
     },
     "quest:5501": {
       "1": [
@@ -15031,9 +15031,9 @@
     "quest:5644": {
       "1": [
         {
-          "duration": 54.02122448979592,
-          "file": "Audio/Transport/full_quest_5644-1d893e4b68138f56f901/1-0000.mp3",
-          "sha256": "5cb9866308213dc6a4025b0a20c8f1975de48e70ec3e3f8ee377a2b16c2bc4c3",
+          "duration": 54.15183673469388,
+          "file": "Audio/Transport/full_quest_5644-2f008c19c689f5a612ba/1-0000.mp3",
+          "sha256": "9cc6d218718cc372badab9418c3bf102583ddd796a20be763f3fe4f3d7d92613",
           "start": 0
         }
       ],
@@ -15044,15 +15044,15 @@
           "1"
         ]
       },
-      "fullHash": "d52a50",
-      "generation": "445faccd5243c05ace04",
-      "hash": "d52a50",
+      "fullHash": "9236f1",
+      "generation": "ed6c3d421ceb41c51a05",
+      "hash": "9236f1",
       "source": {
-        "duration": 54.021224,
+        "duration": 54.177959,
         "file": null,
-        "sha256": "1d893e4b68138f56f901f6aee550373a06da06706511fa3c6ce90f74c29125f5"
+        "sha256": "2f008c19c689f5a612baf04470cd3317cc79bb4b09f33adda18f8eb2201fceb7"
       },
-      "text": "Devouring Plague. Across the sea, Devouring Plague awaits Forsaken priests who travel far from Lordaeron. Miles Welsh in Thunder Bluff sends the adept to Aelthalyste in the Ruins of Lordaeron, where a signature form of Shadow magic awaits. In Thunder Bluff, Miles Welsh judges Forsaken priests who have honed their divine and shadowy disciplines. Posted among the tauren, he recognizes when an acolyte has grown strong enough for higher mysteries. Miles directs them back to the Ruins of Lordaeron rather than attempt to impart those teachings himself in Kalimdor. Beneath the city ruins, Aelthalyste waits in the Undercity's War Quarter. One of the foremost mentors of the Forsaken priesthood, she watches over acolytes who weave shadow. The Devouring Plague drains its victim and carries a corruptive force. Aelthalyste entrusts it only to those able to wield that force without succumbing to it."
+      "text": "Devouring Plague. Across the sea from Lordaeron, Devouring Plague awaits Forsaken priests ready to learn its dark art. Miles Welsh in Thunder Bluff sends the adept to Aelthalyste in the Ruins of Lordaeron for this signature Shadow magic. In Thunder Bluff, Miles Welsh trains Forsaken priests among the tauren. He watches their divine and shadowy studies, and knows when an acolyte is ready for higher mysteries. Rather than teach those secrets himself in Kalimdor, Miles sends the worthy back to the Ruins of Lordaeron. Aelthalyste waits beneath the city ruins in the Undercity's War Quarter. She is one of the foremost mentors of the Forsaken priesthood, guiding acolytes who weave shadow. Devouring Plague drains its victim and carries a corruptive force. Aelthalyste teaches it only to those able to wield that force without succumbing."
     },
     "quest:5645": {
       "1": [
@@ -15291,9 +15291,9 @@
     "quest:5679": {
       "1": [
         {
-          "duration": 58.01795918367347,
-          "file": "Audio/Transport/full_quest_5679-ef639c7d05dd092815c6/1-0000.mp3",
-          "sha256": "5d28fdcf3185489827f2216b40b3fb7541a5501d30efd29d97fc64f013ed4380",
+          "duration": 51.800816326530615,
+          "file": "Audio/Transport/full_quest_5679-a435a15c6bb909a73e94/1-0000.mp3",
+          "sha256": "9e8f7815be348bb3fd1e1e8ed27e506b27a4244eaa46adfcee4fc57da51329e0",
           "start": 0
         }
       ],
@@ -15304,15 +15304,15 @@
           "1"
         ]
       },
-      "fullHash": "fe1e73",
-      "generation": "9dc8b86ffad342d5d17f",
-      "hash": "fe1e73",
+      "fullHash": "8fdaa4",
+      "generation": "a49028acdf033da3d0b7",
+      "hash": "8fdaa4",
       "source": {
-        "duration": 58.017959,
+        "duration": 51.826939,
         "file": null,
-        "sha256": "ef639c7d05dd092815c63308d5ffd2c36975d896795f3fbbad369ea7ab44a107"
+        "sha256": "a435a15c6bb909a73e9457fe6fa8df4a38a677c57555da85ce839f6c26619ac3"
       },
-      "text": "Devouring Plague. Forsaken priests in the Undercity learn Devouring Plague from Priestess Aelthalyste. The rite is for those who have proven their dedication to shadow magic, and teaches a feared curse of the undead priesthood. In the Undercity’s War Quarter, Priestess Aelthalyste teaches Forsaken priests the grim arts of the Shadow. Priests of other races draw power from the Holy Light or ancestral spirits, but the Forsaken have shaped their own spiritual doctrines. Devouring Plague gives form to that path: it torments foes and drains their stolen vitality to sustain the caster’s decaying body. Priestess Aelthalyste shares the plague’s power only with care. The spell is a weapon of potent malice, meant to turn the tide against the Scourge and the Scarlet Crusade. As she teaches it, she warns her disciples to practice until their command is sure. Greater trials await those who seek mastery of the dark arts."
+      "text": "Devouring Plague. In the Undercity, Devouring Plague marks the shadow path of Forsaken priests. Priestess Aelthalyste teaches the rite to those who have proven their dedication to shadow magic. In the Undercity’s War Quarter, Priestess Aelthalyste teaches Forsaken priests the grim arts of the Shadow. Priests of other races draw on the Holy Light or ancestral spirits, while the Forsaken have shaped their own spiritual doctrines. Devouring Plague gives that path a fearsome form. It torments foes and drains their stolen vitality to sustain the caster’s decaying body. Priestess Aelthalyste shares the plague’s power with care. This potent weapon is meant to turn the tide against the Scourge and the Scarlet Crusade. She warns her disciples to practice until their command is sure. Greater trials await those who seek mastery of the dark arts."
     },
     "quest:568": {
       "1": [
@@ -18385,9 +18385,9 @@
     "quest:742": {
       "1": [
         {
-          "duration": 51.121632653061226,
-          "file": "Audio/Transport/full_quest_742-95c4dd494cd4a55ce9a1/1-0000.mp3",
-          "sha256": "b6c31924452f93b09d7fcad200ba78a05eaf702eeb4a5cb90db0045fe48478e3",
+          "duration": 52.40163265306123,
+          "file": "Audio/Transport/full_quest_742-125d729acfcd6f3371c5/1-0000.mp3",
+          "sha256": "1d7174f8afb4af44bf026a1ffcd64bb166de1daf44f28b657ee82ce437e8b1b7",
           "start": 0
         }
       ],
@@ -18398,15 +18398,15 @@
           "1"
         ]
       },
-      "fullHash": "439b71",
-      "generation": "4363fe773618b4da3a04",
-      "hash": "439b71",
+      "fullHash": "192eb3",
+      "generation": "3862626e2f39e156cba3",
+      "hash": "192eb3",
       "source": {
-        "duration": 51.147755,
+        "duration": 52.401633,
         "file": null,
-        "sha256": "95c4dd494cd4a55ce9a1f2cd01608c6f276dbede6700a26fef251d39dc48bfc7"
+        "sha256": "125d729acfcd6f3371c5d89b2ae8aeaca29e8cc738d9cd2342d18585a1e6f32b"
       },
-      "text": "The Ashenvale Hunt. In Thunder Bluff, the Ashenvale Hunt calls young Horde champions north to serve at the forest outposts. Heralds direct them to report to Senani Thunderheart at Splintertree Post for a proving hunt. Bluff Runner Windstrider carries an open invitation through Thunder Bluff for proven adventurers. The Horde has established footholds in the ancient forest north of the Barrens, and its outposts need young warriors. Those who answer will face a harsher land and test their survival skills beyond Mulgore. Ashenvale offers the Horde rich resources and severe peril. Splintertree Post stands along the main road, while a remote outpost lies on the western coast at Zoram Strand. At Splintertree Post, Senani Thunderheart, a veteran outdoorswoman, organizes a great hunt to tame the wilderness and win glory for the Horde."
+      "text": "The Ashenvale Hunt. In Thunder Bluff, The Ashenvale Hunt sends young Horde champions north to serve at the forest outposts. Heralds direct them to report to Senani Thunderheart at Splintertree Post for a proving hunt. Bluff Runner Windstrider carries an open invitation through Thunder Bluff for proven adventurers. North of the Barrens, the Horde has footholds in an ancient forest, and its outposts need young warriors. Those who answer will face harsher country and test their survival skills beyond Mulgore. Ashenvale offers the Horde rich resources and severe peril. Splintertree Post lies along the main road, while a remote outpost stands on the western coast at Zoram Strand. At Splintertree Post, Senani Thunderheart is a veteran outdoorswoman who organizes a great hunt. There, recruits tame the wilderness and win glory for the Horde."
     },
     "quest:744": {
       "1": [
@@ -21037,9 +21037,9 @@
     "quest:91859": {
       "1": [
         {
-          "duration": 62.38040816326531,
-          "file": "Audio/Transport/full_quest_91859-932fa5eeafc9da5345d1/1-0000.mp3",
-          "sha256": "55689ed919c9eaa1b0c3069b5876bd6c5d39c3ca6818cf1db9908352892ce61f",
+          "duration": 62.61551020408164,
+          "file": "Audio/Transport/full_quest_91859-ad61177a3fe8ada46605/1-0000.mp3",
+          "sha256": "2e58fe66cc66ef7cd2e4b00917525db349bfe680b88c1cb7471ee6c384894afe",
           "start": 0
         }
       ],
@@ -21050,15 +21050,15 @@
           "1"
         ]
       },
-      "fullHash": "899e6e",
-      "generation": "54812d4ce517746019a8",
-      "hash": "899e6e",
+      "fullHash": "7595ff",
+      "generation": "5ca2ed8af3ab0fb54f96",
+      "hash": "7595ff",
       "source": {
-        "duration": 62.406531,
+        "duration": 62.641633,
         "file": null,
-        "sha256": "932fa5eeafc9da5345d1993de5ed45b6bafe70d0e1bdf86c92b4bae08f33cc65"
+        "sha256": "ad61177a3fe8ada46605c26519caf7e2d993da8f7383b79a8771bfe156990a3d"
       },
-      "text": "A Curious Pair. In the Sepulcher, Trevan Rol spots an unusual pair passing through Silverpine Forest. The tauren and high elf travel under the Earthen Ring's banner, a rare sight in Horde territory that draws suspicion. Trevan Rol sees two travelers claiming to represent the Earthen Ring pass along the road by the Sepulcher. The outpost is a grim waystation where strangers, especially those on diplomatic business, draw close scrutiny. A tauren traveling under the shamanic order's banner raises little surprise. His cloaked companion is another matter: the scout recognizes an unmistakable high elf, a sight that strikes the Forsaken as exceedingly strange. A high elf traveling openly beside a member of the Horde's shamanic circles raises questions among the Forsaken sentries. The Earthen Ring concerns itself with the balance of the elements, and high elves are rarely seen in Lordaeron, much less as companions to tauren envoys. To learn where the pair went and what business brought them to the forest, you are directed to Deathguard Baldren at the edge of town."
+      "text": "A Curious Pair. In the Sepulcher, Trevan Rol watches a rare pair travel through Silverpine Forest. The tauren and high elf carry the Earthen Ring's banner, and their presence draws the Forsaken's suspicion. Trevan Rol sees two travelers claiming to represent the Earthen Ring on the road by the Sepulcher. The outpost is a grim waystation where strangers receive close scrutiny, especially when they come on diplomatic business. A tauren beneath the shamanic order's banner draws little surprise. His cloaked companion is another matter. The scout recognizes an unmistakable high elf, a sight the Forsaken find exceedingly strange. A high elf openly traveling beside a member of the Horde's shamanic circles raises questions among the Forsaken sentries. The Earthen Ring attends to the balance of the elements, and high elves are rarely seen in Lordaeron, much less beside tauren envoys. To learn where the pair went and what brought them to the forest, you are directed to Deathguard Baldren at the edge of town."
     },
     "quest:91899": {
       "1": [
@@ -30267,9 +30267,9 @@
     "quest:98362": {
       "1": [
         {
-          "duration": 47.93469387755102,
-          "file": "Audio/Transport/full_quest_98362-822f4d6a4c0984baf7b3/1-0000.mp3",
-          "sha256": "a57fe37b3812e4f2714439cf489320b16f2c9b4bb14caba0b43298c45b125408",
+          "duration": 50.25959183673469,
+          "file": "Audio/Transport/full_quest_98362-26f5defa390b6f2950d5/1-0000.mp3",
+          "sha256": "fbede41593ae59bf0ffb96a09d7970808d0dd9ec5733f8ab791a346edf6ec45c",
           "start": 0
         }
       ],
@@ -30280,15 +30280,15 @@
           "1"
         ]
       },
-      "fullHash": "ae3abf",
-      "generation": "c8a4d4b6eb69224805bf",
-      "hash": "ae3abf",
+      "fullHash": "fbb518",
+      "generation": "9e918163d76b80702093",
+      "hash": "fbb518",
       "source": {
-        "duration": 47.934694,
+        "duration": 50.285714,
         "file": null,
-        "sha256": "822f4d6a4c0984baf7b3b39ba266082f321d183a33acceb93b2115746882a568"
+        "sha256": "26f5defa390b6f2950d524e1bc50da276072c75db6dbed42257419fb88e0dc40"
       },
-      "text": "To Thunder Bluff. After communion in Moonglade, a young tauren druid makes a triumphant return to Thunder Bluff. Having earned the Great Cat Spirit's favor, the initiate goes to Turak Runetotem on the Elder Rise to master feline shapeshifting. You return to Mulgore after meeting Dendrite Starblaze and the Great Cat Spirit in Moonglade's sacred groves. The communion joins ancient night elven teachings with the tauren's earthen heritage, marking a pivotal milestone in a druid's training. Turak Runetotem awaits you atop the Elder Rise in Thunder Bluff. Dendrite guided your communion with the Great Cat Spirit; Turak now teaches the physical change. With the spirit's blessing acknowledged, the elder trainer shares the knowledge to take the cat's swift, predatory shape."
+      "text": "To Thunder Bluff. Back in Thunder Bluff, a young tauren druid returns in triumph after communion in Moonglade. The Great Cat Spirit has favored the initiate, who now seeks Turak Runetotem on the Elder Rise to master feline shapeshifting. You return to Mulgore after meeting dendrite starblaze and the great cat spirit in Moonglade's sacred groves. The communion joins ancient night elven teachings with the tauren's earthen heritage. It marks a pivotal milestone in a druid's training. Turak Runetotem awaits you atop the Elder Rise in Thunder Bluff. dendrite starblaze guided your communion with the great cat spirit, and Turak now teaches the physical change. With the spirit's blessing acknowledged, the elder trainer shows you how to take the cat's swift, predatory shape."
     },
     "quest:98372": {
       "1": [
@@ -32252,10 +32252,23 @@
       276,
       698
     ],
+    "06d802798a8fcce092ef04151519aacde32f056f3ad4d7349320ac2adbdfc570": [
+      209,
+      491,
+      811,
+      1096,
+      1283,
+      1434,
+      1688,
+      1928
+    ],
     "06e85a930fccd415d58094ebaf8e8de74ca4462ea1ed0f401284cc3adb5ab89e": [
       426,
       569,
       710
+    ],
+    "073398b478093e75cce962246e0a12ed377206c88d6cef7923e9881ace276224": [
+      537
     ],
     "074c74fa9bb67c7818efc872ffbc6c3d5e0d439321d21f4a95231efffcb80ef9": [
       278,
@@ -32334,6 +32347,13 @@
       724,
       1126,
       1636
+    ],
+    "0942d151b43428dab0a11c4bd0b940ddb65348cc68e40fb8d51600817b78977a": [
+      171,
+      494,
+      743,
+      945,
+      1112
     ],
     "099f7c1988a0073e44e08a2b9fccb3739501efb5d718f02a8b84733fd336cd96": [
       268,
@@ -32579,14 +32599,6 @@
       185,
       352,
       573
-    ],
-    "0f35339049ddeb606cb03509b178c5031cf0063b03dde4793d336e35087aa470": [
-      244,
-      458,
-      739,
-      881,
-      1122,
-      1460
     ],
     "0f5173e2aba3a614bb91505106236e1e20e7a87180a1e26dd2afd1137fecb19a": [
       149,
@@ -32868,6 +32880,12 @@
       1674,
       1959
     ],
+    "15d630774b600ebe21199c085f85b0ba89d987f6d56067ffe6b8d21e08126623": [
+      198,
+      446,
+      687,
+      898
+    ],
     "15f253c35b323e2728c0a8ff3d9250319a51678ca3ccb44fb5705317c69890f3": [
       208,
       561,
@@ -32890,15 +32908,6 @@
     "1668e39a5bf912b5fae5539d6395cf2e4a0a6a2779128591e2f3d5f96105b84d": [
       273,
       573
-    ],
-    "167f9388b7b2bdf81b5fa5748e7795643170277105d0db9330ac428d7b5accd2": [
-      273,
-      508,
-      745,
-      958,
-      1134,
-      1282,
-      1501
     ],
     "16df9c67c37ef9594b993a77d10c62547690620db9fde190ffffbd76154c7e90": [
       243,
@@ -33026,6 +33035,9 @@
       1775,
       2393
     ],
+    "1b288ca4d4f8ce3a837fe96e91085a5655e9749d0fdf62a3929645cd280ed992": [
+      421
+    ],
     "1b4d189cda5d2ade2eab47b293fc420ab3f9f46385fb54908c07e904d3f0b729": [
       278,
       640,
@@ -33109,6 +33121,16 @@
       1010,
       1310
     ],
+    "1d7174f8afb4af44bf026a1ffcd64bb166de1daf44f28b657ee82ce437e8b1b7": [
+      268,
+      495,
+      719,
+      963,
+      1173,
+      1345,
+      1619,
+      1851
+    ],
     "1dc82d713c01b751efd67a91a19bb1dd11c5458cb310d1b87dc806508ebe13de": [
       168,
       389,
@@ -33133,6 +33155,13 @@
       1534,
       1701,
       1971
+    ],
+    "1e0c6f49fcabf929baa9700b4b87bc9a8b578dcc55c1a0316be1b1820c684fed": [
+      443,
+      633,
+      785,
+      1042,
+      1514
     ],
     "1e40c7da0249d958beb6ca9c8a4fcf2a3b00a08e2ff60d0acc661ca0d85b0e4d": [
       210,
@@ -33235,6 +33264,16 @@
       1376,
       1569,
       1706
+    ],
+    "1ffda4ae05be8546f44bb339f6f5e25cf2fcc6ee5efd61c055ae213d998ae724": [
+      193,
+      430,
+      592,
+      769,
+      939,
+      1154,
+      1292,
+      1507
     ],
     "20248e55f563c5c236a979c8699d1657fa6819aa083c5c382e83492a9e4d036e": [
       566
@@ -33484,10 +33523,6 @@
       1864,
       2215,
       2550
-    ],
-    "24fc0360679c9b2859b21d9c521322b793b6bbac9d25e58e477e419e34a3ac55": [
-      785,
-      1117
     ],
     "25107e02c2067a7f1fe42ef2db09d0e6547b5da1c4022dbe74f103aa375ae7a1": [
       746,
@@ -33847,6 +33882,16 @@
       1190,
       1447,
       1770
+    ],
+    "2e58fe66cc66ef7cd2e4b00917525db349bfe680b88c1cb7471ee6c384894afe": [
+      222,
+      489,
+      714,
+      985,
+      1152,
+      1518,
+      1836,
+      2144
     ],
     "2e71c6139ae59b5bbcc913c9f737950d1d55efbe82df226e346eec09fca964fe": [
       488,
@@ -34396,15 +34441,6 @@
       814,
       1196
     ],
-    "3e482b7ed8cd358c9c940938a40863638f73ffe96da5e00b031093bfb12d1d76": [
-      281,
-      556,
-      803,
-      1041,
-      1305,
-      1515,
-      1745
-    ],
     "3e6188d480c81b06eab63bdc66879603269a978a9d4f05e61c5efa2247122d01": [
       297,
       855,
@@ -34432,6 +34468,11 @@
       1426,
       1812
     ],
+    "3f1769bd629460218db8a7f415c132aaa800e33b3e7a6853e181d16bcfc5193f": [
+      231,
+      639,
+      1043
+    ],
     "3f69dd5e2fc74f090dec0146af60b823c62f0345a181696315a86e3b25b468d3": [
       164,
       405,
@@ -34446,6 +34487,16 @@
       1725,
       1969,
       2418
+    ],
+    "400c6beb3924ee6dea252be94cef71fde73f2cc6d962c322ed721dbcf466b05d": [
+      254,
+      493,
+      676,
+      1031,
+      1293,
+      1445,
+      1703,
+      1842
     ],
     "402305ab623274028636ce858166ec701b265122caedf99645ccb91475a119bb": [
       183,
@@ -34521,6 +34572,17 @@
       963,
       1304
     ],
+    "41ffd043560c722953e7aad362e55633fefe3b1b275e8cb725154fd0bb7a77a4": [
+      164,
+      402,
+      616,
+      808,
+      1090,
+      1369,
+      1601,
+      1839,
+      2033
+    ],
     "421c7eaa735384d6bae504f2f60c10e32749259e2d4bb4e392bcc828776e954d": [
       257,
       567,
@@ -34574,15 +34636,6 @@
     ],
     "43f9b7157f3b214a131f393ccc38f4a9a33a502ef74306dcfbb5d044ddfb20f7": [
       509
-    ],
-    "4406ea705f2c9ebb552eefb70a2b58e03158ae3174d437da2f45ce11250c6d8d": [
-      173,
-      618,
-      906,
-      1064,
-      1336,
-      1526,
-      1780
     ],
     "444046f53b0bfe260efa97604c110418c5755c2c1320371c4187937d1f357776": [
       292,
@@ -34719,10 +34772,6 @@
       421,
       707
     ],
-    "476ccc11fc5604ae21287dde697943c9f5c44c741859e55a52af8dd5252e17ec": [
-      967,
-      1276
-    ],
     "47731f560d647c922d12480e6e4239cd330f30e6f47c6031d514a762c175358b": [
       221,
       474,
@@ -34740,6 +34789,15 @@
       1343,
       1494,
       1672
+    ],
+    "478185a8d7772f23c873a2a3edd67010eb7935e60b71f08498528122ca5f0852": [
+      147,
+      448,
+      656,
+      902,
+      1111,
+      1411,
+      1546
     ],
     "47ae031b53257e72d7998e96e4defc2bd47e105707749ad5b17793b881b6f7b1": [
       216,
@@ -35161,13 +35219,6 @@
       1312,
       1580
     ],
-    "545099262b3d57705dbc1c638bfb1ff41be0cbd3fef8f0308dcdf297ec2171b2": [
-      262,
-      594,
-      1008,
-      1298,
-      1520
-    ],
     "5483c415a4a2a406fb9c214a3fc4906b7d89de890a515877d0d3a7c7e32ceb44": [
       207,
       370,
@@ -35214,16 +35265,6 @@
       1194,
       1395
     ],
-    "55689ed919c9eaa1b0c3069b5876bd6c5d39c3ca6818cf1db9908352892ce61f": [
-      232,
-      506,
-      730,
-      990,
-      1154,
-      1497,
-      1884,
-      2105
-    ],
     "55b63e83d67608dec28e1c4b5dbf11d9aa3c3825a8faa1ac721728644afa9724": [
       304,
       692,
@@ -35231,9 +35272,6 @@
       1450,
       1712,
       1974
-    ],
-    "55c1cf760024cd513c047e54b67ea3e427508034a857bc0cbe987a48e63f990c": [
-      582
     ],
     "55c4a7611cfe5cc5c2a336b913199eb78cd20bb25417d39eef5942cb1563a2ae": [
       638,
@@ -35467,12 +35505,6 @@
       1382,
       1741
     ],
-    "5cb9866308213dc6a4025b0a20c8f1975de48e70ec3e3f8ee377a2b16c2bc4c3": [
-      1057,
-      1312,
-      1494,
-      1725
-    ],
     "5cc66a8a26149a77cb10e41e9acf0a03e0da0889ce2bbc418e2ef71e418a441d": [
       408
     ],
@@ -35496,14 +35528,15 @@
       1978,
       2182
     ],
-    "5d28fdcf3185489827f2216b40b3fb7541a5501d30efd29d97fc64f013ed4380": [
-      282,
-      559,
-      848,
-      1193,
-      1526,
-      1676,
-      1914
+    "5d1649dfc8fefe8f9d4b4661ecfa5675637636069247bb784d64483a8ffd4ec2": [
+      179,
+      332,
+      574,
+      783,
+      987,
+      1177,
+      1461,
+      1678
     ],
     "5d71afe677a1480ba386cd4906669c37567039b2c1929fc386cc60f7ff44e1cc": [
       146,
@@ -35511,6 +35544,15 @@
       798,
       1031,
       1188
+    ],
+    "5da300ba2495e051070dccbb6154f712b8b656d9dc1862ddb5988c7620fbafb0": [
+      269,
+      441,
+      689,
+      838,
+      1089,
+      1328,
+      1557
     ],
     "5db2abf60c059c2a0ba6d6ec15299e89ff21a32d533fd3fd3f2524b6cb256201": [
       216,
@@ -35769,23 +35811,21 @@
       1925,
       2239
     ],
+    "6509b11eeac3a5bd6c2f8bf50cb480d9652240696c0fb4bbe3b1c102d6555d55": [
+      173,
+      340,
+      513,
+      695,
+      959,
+      1133,
+      1374
+    ],
     "650fef1269eebd4fdd16f4ad34442d27fa4a015d8cb3befefb178a47333405f9": [
       291,
       471,
       703,
       1146,
       1914
-    ],
-    "6522c79abe5b109da8841c88e6e177a16f6775dc16cae00dd4831858a1d46258": [
-      448
-    ],
-    "6539152d9398665c290cebde666d8a0aa1481f70676d00e597bc3ca905dab3e2": [
-      246,
-      741,
-      1280,
-      1526,
-      1891,
-      2078
     ],
     "653967c522238f2f27cb60178ad3428f6ef1ad4dc0ec3dbe6b9b60eacece3f94": [
       245,
@@ -35975,12 +36015,6 @@
       1795,
       2120
     ],
-    "6a623b997cf732eba51900df345a58e682e9093a4a696566075d4ce7e607932d": [
-      758,
-      1178,
-      1560,
-      1818
-    ],
     "6aa5023c42445ffa4889945ae34abb45703a399cbf930755876ad61069fc0d31": [
       210,
       412,
@@ -36000,6 +36034,17 @@
       222,
       599,
       915
+    ],
+    "6af4ea798cca5f8546b0e3c5f7484bfcfc0e4e0caa82c35710c882d5c85ca5b0": [
+      237,
+      476,
+      749,
+      1071,
+      1271,
+      1446,
+      1625,
+      1791,
+      2058
     ],
     "6c095b169a7ea3479b2f1b97e1f00a1f3d278754b0a7d0a2194b01428f21563c": [
       345,
@@ -36030,22 +36075,9 @@
       323,
       527
     ],
-    "6d42d3697ce2928236b7fbbce4f73a36cebd74825370bdb67859470ca3249c16": [
-      240,
-      601,
-      795,
-      983,
-      1135
-    ],
     "6d9b036a0fe8bce24e951f32295bd17f03cce58cad1c03588a31ca92ff572065": [
       193,
       350
-    ],
-    "6e198183dbfba9d1033750f7e06f9d07397f56eb919119af0928b165eebe00ff": [
-      457,
-      1065,
-      1228,
-      1431
     ],
     "6e2bc626cb0b799d97939f625578014950f91c4df3fe5c0d628e9a5339625b27": [
       181,
@@ -36108,16 +36140,6 @@
       1037,
       1210
     ],
-    "6f21d94fe9d48e0c0ac7879c166ed7c296d183e342e647168e7d3779da20ff50": [
-      297,
-      474,
-      634,
-      926,
-      1230,
-      1448,
-      1617,
-      1922
-    ],
     "6f41641132cca44c7f87e640e5933bdd31a6b55a738da671c9ebb5087557d035": [
       1039,
       1429,
@@ -36166,16 +36188,6 @@
       1762,
       1934,
       2201
-    ],
-    "70be8b67bc92d7009775b954185fe92ec2c4e73ee5cd2fe24711ac3b500fbdb7": [
-      213,
-      432,
-      575,
-      766,
-      958,
-      1170,
-      1323,
-      1553
     ],
     "70beacd7e6a68fd4c484634ff8ea5258bb0e22037215c1111ea8133068650745": [
       187,
@@ -36487,6 +36499,12 @@
       592,
       896
     ],
+    "771b5f6ad2df73d1abf52eaafd30f6f1f28292028f1f048e27f90e23301a855a": [
+      162,
+      349,
+      547,
+      721
+    ],
     "7736768c05bba94e0a80a2f01b97530037098e887782dd204d2393623748b752": [
       206,
       403,
@@ -36699,6 +36717,16 @@
       1492,
       1779
     ],
+    "7c956aff69f79013f4edf23a853048d9ec95076493d3a2f99b166753696be425": [
+      238,
+      441,
+      717,
+      1008,
+      1237,
+      1407,
+      1715,
+      1960
+    ],
     "7ca70fb8673a33353cc479582e43ac59733ea7f9790d39244a6debee103f3b67": [
       199,
       449,
@@ -36869,9 +36897,6 @@
       370,
       604
     ],
-    "817760a65422db304073e7fbcfb96ab3ff66f761782dedb304d5b458cc67f0ca": [
-      555
-    ],
     "81a72c5c4a510b78bca3cfa8eabcfb8e96d45f054feca43454792d3f6ecf6f1a": [
       281,
       961,
@@ -36931,15 +36956,6 @@
       1647,
       1849,
       2110
-    ],
-    "82a45371c260e73ff9ac5e577390caf2bef5f09b236060862f1a391bf0657445": [
-      294,
-      511,
-      724,
-      987,
-      1177,
-      1387,
-      1693
     ],
     "8351152db798f4b5a0243a71a5077bfbe439512e7aac1567c152b69932b511c6": [
       220,
@@ -37191,14 +37207,6 @@
       986,
       2081
     ],
-    "87b5afaa9460893db8c7ac210a3150ba85419568d8a7176f672182bd00a9770f": [
-      204,
-      352,
-      601,
-      845,
-      1065,
-      1262
-    ],
     "8803329d2bbbd8b7bf2a8700b8ea7c5f5b06f1e46fb25c361f6ba2d52ea8fd10": [
       272,
       509,
@@ -37221,9 +37229,6 @@
       1792,
       2176,
       2457
-    ],
-    "8844ac104b55613ea19d1e9405aae5cdaf10178d1cc4f1c6714da572e9425776": [
-      564
     ],
     "885b431c6330787a20987c90598eeac6a5cf2d68aa8d703947ba49a1fb490a1d": [
       516
@@ -37292,9 +37297,6 @@
       731,
       967
     ],
-    "89c790f8839277f9e0c71f01b0af2c3def69965a6501fbd29a014cedb2b75ff0": [
-      428
-    ],
     "8a7a32c938313c663ce75acda0a998b1707ee5f17aa8f48e08c56640c5b11be9": [
       235
     ],
@@ -37333,9 +37335,6 @@
       1343,
       1601,
       1829
-    ],
-    "8c47b5608581ec28552a8080ee5f6fb41b0a1dd5b24e47c506d1a2beafaaeda1": [
-      454
     ],
     "8c5acad18e1f734e8ede84d08234ea329b9b98d732f772b728af2248747ea3eb": [
       448
@@ -37443,14 +37442,6 @@
     "8f63b6503e917f4e01d5a93fc36867c858c96e592ebe8b50db62dc6cac3d1d00": [
       284,
       419
-    ],
-    "8f99f09fa13a60377254c35ccf0190176462359c3e84bfac6c863e11569f546f": [
-      349,
-      668,
-      841,
-      1022,
-      1266,
-      1472
     ],
     "8fb38a8bd761e02c80cb48648429e0b47f4c6de89d5cf1c131245f1a9c23f437": [
       182,
@@ -37575,13 +37566,6 @@
       856,
       1096
     ],
-    "9303f29b5d8da11d9be2409456f14d57a94700a82bc15e1adfe46168e645e704": [
-      171,
-      561,
-      859,
-      1198,
-      1471
-    ],
     "93446107cd5eb7684dd6b928d44a2d101419614fc6eb6646abef23620c375721": [
       237,
       427,
@@ -37695,6 +37679,13 @@
       681,
       917,
       1106
+    ],
+    "96a85562cd467fd04ee4028bf91380894e5d96cdf4088af932270e4e5033e9ac": [
+      255,
+      674,
+      817,
+      1058,
+      1223
     ],
     "97172e9c2cc568c7a24ecc401a55b5a15c7d00e8aa9716f802f3030417801b78": [
       227,
@@ -37865,10 +37856,6 @@
       914,
       1102
     ],
-    "997d65a2de870e83e45a8a3d1ae0776b6a0c6a860d8996485905d4a8cfb3e4f4": [
-      210,
-      539
-    ],
     "99c14dbe766482cdc957fda8c0d435f5e10b1ce76524bc05ac47c100ba2edbca": [
       249,
       407,
@@ -38010,6 +37997,16 @@
       1954,
       2228
     ],
+    "9cc6d218718cc372badab9418c3bf102583ddd796a20be763f3fe4f3d7d92613": [
+      274,
+      571,
+      767,
+      1007,
+      1278,
+      1465,
+      1704,
+      1876
+    ],
     "9cd1e4c3a8af83eb512e4da4912594401557994effd362d9a16c5e9abf1151b4": [
       228,
       412,
@@ -38044,6 +38041,17 @@
       1563,
       1727,
       2025
+    ],
+    "9d46c6b5a5ef2814e969b85885bc4d89fc5741b14bf9502fb83d73cc740ada20": [
+      188,
+      567,
+      760,
+      1015,
+      1262,
+      1483,
+      1658,
+      1867,
+      2060
     ],
     "9d4cf6eeaad61594a14d98791e9d4d6ebf0be0b4e0c88d91759f93c4660bdbae": [
       250,
@@ -38093,6 +38101,15 @@
       178,
       399,
       576
+    ],
+    "9e8f7815be348bb3fd1e1e8ed27e506b27a4244eaa46adfcee4fc57da51329e0": [
+      214,
+      446,
+      717,
+      1001,
+      1346,
+      1497,
+      1691
     ],
     "9ec051e07e1ea70059c08f0c8a8a0bec146153bfcf9890fd5b221b8a83ae6087": [
       272,
@@ -38336,14 +38353,6 @@
       486,
       710
     ],
-    "a57fe37b3812e4f2714439cf489320b16f2c9b4bb14caba0b43298c45b125408": [
-      267,
-      607,
-      861,
-      1157,
-      1346,
-      1584
-    ],
     "a58108beebdafaa9196f994e8c9f317e7ea6208543ee1b0085b024fde96ae5d8": [
       238,
       403,
@@ -38364,12 +38373,6 @@
       1131,
       1848,
       2136
-    ],
-    "a59e5008252390b2b980cfbaa355eabe4a30354e36b9d2ef64e1b0b5b6ecb404": [
-      196,
-      421,
-      675,
-      917
     ],
     "a5a217139199ef12279e5a40ff2dc0a9b3106a424f9b5b109cfb63ecedc0ec95": [
       346,
@@ -39008,11 +39011,29 @@
       1036,
       1329
     ],
+    "b1c67e256f679e6d96a5439386e5d8d89d4debb63a7afb678a3f6f922b5ba4e9": [
+      276,
+      493,
+      671,
+      962,
+      1252,
+      1509,
+      1729,
+      1896
+    ],
     "b1cd4cf611fae56a7a60af5aa027ca91d29c582349b1568663f98e2ff9dc175d": [
       401,
       718,
       860,
       1174
+    ],
+    "b1d95bd85d32ca8ae260dfd7568d376ef8aefbdaa7295834896c707230ac81ef": [
+      212,
+      499,
+      708,
+      850,
+      1027,
+      1196
     ],
     "b1f28df5e754135adb92e84fb7544a8aeb5b45e1f9ea912f734b43be689d1d8b": [
       229,
@@ -39194,13 +39215,11 @@
       798,
       982
     ],
-    "b6c31924452f93b09d7fcad200ba78a05eaf702eeb4a5cb90db0045fe48478e3": [
-      256,
-      470,
-      700,
-      977,
-      1191,
-      1355
+    "b60ce22e708d9970c71123fd22c13b3c8954d40902eaa4c8b0121406f358dbca": [
+      213,
+      427,
+      619,
+      771
     ],
     "b717b20a7212f505df8e6e3e61d45dcc1fdb9b9b799737d5c3a72318f043a2f6": [
       279,
@@ -39413,6 +39432,10 @@
       1609,
       1829,
       2220
+    ],
+    "bb0a9640362cbfa4d8765bae140f25beb29ff89fbd47de260871a2bbf8334fc8": [
+      447,
+      679
     ],
     "bb39cd0bcde98bb5567c5124d4e093de6a3ab4f91030cf52de90d2d5e0cdbd40": [
       219,
@@ -39864,9 +39887,6 @@
       1874,
       2123
     ],
-    "c6d1eb956a3057a93bd48b680178e40a2b5dfcf5daf462cb1dc9213da751db5f": [
-      556
-    ],
     "c73848acf0160d4d90e91566bd79314eecf05b1af76c27346ced62f7824e9c7a": [
       402,
       705
@@ -39899,12 +39919,6 @@
       2424,
       2590,
       3021
-    ],
-    "c8989c580292ede0bbfa54ee04bd31b7a81c63244b200241c4c6552d41620666": [
-      248,
-      445,
-      660,
-      1027
     ],
     "c8b8ac780a0bc07fbff2bfbb892bd618451fa85f5c7be2c485d4815b0e77a6ef": [
       247,
@@ -39939,16 +39953,6 @@
       483,
       722
     ],
-    "c92fe72248a9b3ecabef00957133fe5e409d2f496f45a1c4ed86459d8b45ee04": [
-      276,
-      480,
-      619,
-      821,
-      1103,
-      1309,
-      1580,
-      1831
-    ],
     "c9599a12b01828c6eb8a10e1f14e6de76284aed9eccd793104a0f9a726bde393": [
       231,
       496,
@@ -39959,6 +39963,12 @@
       1547,
       1721,
       1860
+    ],
+    "c968fc48db08a911ecb6615e7adfa5ba2bda945d42fa8a49e6feaafedc76f77a": [
+      226,
+      457,
+      703,
+      1076
     ],
     "ca4a16e373323b22b2d0ee28b1f6cb05d11087b84f1d8095a8d51dcc014db16f": [
       628,
@@ -40166,6 +40176,15 @@
     "ce0d459a5f3f6af3142139d28acbbe9a564108c5f4efe8600bcd22527394ffe0": [
       388
     ],
+    "ce269f5f5333dc922e9d78297f34c34e128955dac41b77ba0fa0721c5e98b855": [
+      302,
+      533,
+      678,
+      967,
+      1253,
+      1472,
+      1756
+    ],
     "ce5230789dbeae835c1d22dffcde74dd23dbfe5fa55b7611ff65ecc2c31400cc": [
       245,
       510,
@@ -40247,6 +40266,14 @@
     ],
     "d0c18f81bd6145cef0116dd85f7291f26ba28153e7f1e1562ef08962c3c92ca4": [
       499
+    ],
+    "d0d08710d222d43983e10edd7d7b82818117857339f6fb8fe151e82368b096ac": [
+      200,
+      405,
+      583,
+      783,
+      991,
+      1150
     ],
     "d0fe636c79c05acb77581c2f2df82fcd7a94584904481edf26cbc17a764de7ec": [
       493,
@@ -40489,6 +40516,15 @@
       385,
       643
     ],
+    "d5cc049abb44de7ee0320b270cd62ae0b26a78d5985290d18015da35b98429a5": [
+      210,
+      483,
+      669,
+      935,
+      1143,
+      1308,
+      1506
+    ],
     "d5cc757e085d4bc29c66fd76fae025bb17a9dff57c7a3d218e81cc610852eda0": [
       272,
       578,
@@ -40645,12 +40681,6 @@
       478,
       993
     ],
-    "da19dfebfe639a62e83c0b43aaaaf603277bbbad9f72c9a77e9eb6359644e82c": [
-      424,
-      871,
-      1507,
-      1740
-    ],
     "da6f779432b29a6d0ebb688d3cb753d8a5e40a27ff48553ca73da9b6ef59dbac": [
       188,
       676,
@@ -40688,6 +40718,15 @@
       1625,
       1868
     ],
+    "db95e881d2a102eddbf656a442f4a585e47cbf3837de4e925e215b5820f5dcc1": [
+      375,
+      641,
+      799,
+      995,
+      1228,
+      1430,
+      1686
+    ],
     "dbe0d44bd629b0768f522e236aab517e93750b75a8da36b1567555a63c3964d9": [
       269,
       499,
@@ -40717,12 +40756,6 @@
       1612,
       1848,
       2152
-    ],
-    "dbef807a0edaecbaf386e0cf419a5de491624582d6830afe96714ab37bd85eb1": [
-      573,
-      803,
-      1041,
-      1227
     ],
     "dbfc335f250479a315f450d6d32ef295eb05d112583194ca0514fff0e4691a8e": [
       826
@@ -40765,12 +40798,6 @@
       1862,
       2093
     ],
-    "dcd27cf9eaf03e83e1c3fc3ce03ce1c124caeb6c6c505b0d4ae2cc1522b5b37a": [
-      236,
-      498,
-      847,
-      1022
-    ],
     "dce20de228a8c4bc195ba6d939b2934066077a709526a4b5da90675a373f468b": [
       337,
       823,
@@ -40785,6 +40812,15 @@
       1139,
       1310,
       1523
+    ],
+    "ddd03e483682b236a01cc7e764bdc50f6d9a417a796a8031cefe211e115bb956": [
+      191,
+      497,
+      695,
+      959,
+      1365,
+      1524,
+      1769
     ],
     "de5c9c547b39afd6b61429ac25106f1d1cc257a9f732c07e388a04521ede3bd0": [
       184,
@@ -40874,6 +40910,10 @@
       700,
       890
     ],
+    "e13a08145d596b55a4d065951ba4a98fe06caef7c223a4e6a41551f72d8a0cd2": [
+      393,
+      672
+    ],
     "e1702423c4b4515b4004f5ef680bc2f81f3c789a0563322b9ef6035651d0b461": [
       957,
       1196,
@@ -40891,12 +40931,6 @@
       1190,
       1377,
       1644
-    ],
-    "e1e6fe61c7d4d4c5b8ab7502bdbeaba8f3672d470f545036fefc2d77773fb7b4": [
-      228,
-      404,
-      613,
-      797
     ],
     "e24e1771df0b8a9662997a6cd7ccd9027c585f20130d0739fb11639acb82fe04": [
       225,
@@ -41111,6 +41145,34 @@
       1511,
       1717
     ],
+    "e843cf62ff3a6512fe52af481c99a8659ec6dc6a2984d877e3b15df6e4524b4e": [
+      236,
+      489,
+      722,
+      875,
+      1026,
+      1231,
+      1481,
+      1666,
+      1858
+    ],
+    "e87d457053329793865a996ffd529c24a9e6e001a4cd7a7e40850769e63407d0": [
+      278,
+      565,
+      755,
+      952,
+      1140
+    ],
+    "e8800d1203ee1c0c74eaed7a377e18433022866a37c42c24da64636faa050afb": [
+      205,
+      370,
+      596,
+      896,
+      1053,
+      1281,
+      1505,
+      1706
+    ],
     "e8a64b9c5e59fa9398024afd47fec259dbf0e25e3f1d3ebce29db9c89b695d61": [
       295,
       512,
@@ -41133,13 +41195,6 @@
       1156,
       1355,
       1512
-    ],
-    "e9230587737d81b04141afd4016a1c2974af34ad1f47947979af552114822b80": [
-      272,
-      792,
-      1036,
-      1256,
-      1479
     ],
     "e986d9d601fe4131404a58ee4dfa5e7bbb969e9826b095e66eb0a15e933ff556": [
       189,
@@ -41203,6 +41258,9 @@
       1193,
       1382,
       1536
+    ],
+    "eac0c3e0f75a186f0c62ef77dc71ac404fed3ec5802ae25952d9cf1bead4dc6d": [
+      376
     ],
     "eb366017169bf801bb2eedc39a6464d067c5d432644067e876e4263017ace5d3": [
       424,
@@ -41273,16 +41331,6 @@
       1211,
       1376,
       1628
-    ],
-    "ed7589a99a11c8cd2f090a68cadc693b2153a3a63e600b022717e655518046bf": [
-      435,
-      683,
-      956,
-      1143,
-      1331,
-      1530,
-      1700,
-      2049
     ],
     "ed9001964138cbe78417ebdcda65484fc80912087a2015fcd7893b9d2d9e0aa8": [
       533,
@@ -41504,6 +41552,14 @@
       1635,
       1896
     ],
+    "f1c277867befe9160ad9beb0e1c89518a144913c7c9fa33c7136943112c56957": [
+      267,
+      492,
+      750,
+      942,
+      1121,
+      1438
+    ],
     "f25979d87688522ce6f85ba8000358cd5f26f05f3788cff0aaaad6963dd88b03": [
       506
     ],
@@ -41697,6 +41753,9 @@
     "f7a71352a16759d96f280c3fb3793820f1b1cceae5b192ad7adf8f8c254ff545": [
       488
     ],
+    "f7edadb7a2fbe66dfbbb31fb56dc2862cb7cad19af490cac34dcc8e82a652d4d": [
+      535
+    ],
     "f804d98e2606987e11b5b59f2a481163e593ec18a09c53b43cfa3c26f8000da9": [
       644,
       838,
@@ -41712,11 +41771,6 @@
       903,
       1118,
       1391
-    ],
-    "f8937a3f6e668acab940fdfc747659ec031bb5eca810dbc1d059bed3f34ea313": [
-      555,
-      891,
-      1264
     ],
     "f8a0b04464471e33ef7789ce09957356d608cc4f3e013d144770041dc476e1e2": [
       259,
@@ -41862,15 +41916,6 @@
     "fb49ec3b3affe76e422694846c4dfb3677326bb4ffd645f629d88262ef78ec07": [
       351
     ],
-    "fb59cb2e72ced976153258c4c8cab807dd904ae6841e3182f11573c95f3321bc": [
-      263,
-      544,
-      829,
-      988,
-      1189,
-      1385,
-      1570
-    ],
     "fb5dc3c5bf5166f483fc0d09c6feb98fdf520b296140c9d197b823b40d056c65": [
       229,
       556,
@@ -41899,6 +41944,15 @@
     "fbeac1e76be7393db6117d9ae42655a8de66a596948d14ecf9c7ceb934f1f60e": [
       536,
       780
+    ],
+    "fbede41593ae59bf0ffb96a09d7970808d0dd9ec5733f8ab791a346edf6ec45c": [
+      256,
+      589,
+      873,
+      1085,
+      1225,
+      1407,
+      1668
     ],
     "fcbef76180de59d24d3a7b149637c344a548af4468365e691753590ecfb50724": [
       305,
@@ -41948,16 +42002,6 @@
       1016,
       1216,
       1617
-    ],
-    "fd9881395eca9dbbed8c4bb2b4beb1bf5c1d194b37474df59216e171ae6b4261": [
-      290,
-      527,
-      761,
-      911,
-      1110,
-      1330,
-      1565,
-      1755
     ],
     "fddb7ba4e9a2723fcd77b2ef9ff1d9584a6ce21d45cfaa402d23dd573f1302f5": [
       264,
@@ -42088,6 +42132,10 @@
       "286": 1,
       "925": 2
     },
+    "06d802798a8fcce092ef04151519aacde32f056f3ad4d7349320ac2adbdfc570": {
+      "1434": 2,
+      "491": 1
+    },
     "06e85a930fccd415d58094ebaf8e8de74ca4462ea1ed0f401284cc3adb5ab89e": {
       "426": 1
     },
@@ -42105,6 +42153,9 @@
     "08d5708dc49022949476d9eb2ac70f85289306c6c38bcce98c8f7c7f76cafe03": {
       "1065": 2,
       "425": 1
+    },
+    "0942d151b43428dab0a11c4bd0b940ddb65348cc68e40fb8d51600817b78977a": {
+      "494": 1
     },
     "09f33e065972ef54201ce8b606a3c91aaa49b5518bfa1561e9a92b89932d8ba2": {
       "487": 1
@@ -42178,6 +42229,9 @@
       "1222": 2,
       "747": 1
     },
+    "15d630774b600ebe21199c085f85b0ba89d987f6d56067ffe6b8d21e08126623": {
+      "446": 1
+    },
     "1668e39a5bf912b5fae5539d6395cf2e4a0a6a2779128591e2f3d5f96105b84d": {
       "273": 1
     },
@@ -42201,12 +42255,20 @@
       "1337": 2,
       "439": 1
     },
+    "1d7174f8afb4af44bf026a1ffcd64bb166de1daf44f28b657ee82ce437e8b1b7": {
+      "1173": 2,
+      "495": 1
+    },
     "1dc82d713c01b751efd67a91a19bb1dd11c5458cb310d1b87dc806508ebe13de": {
       "389": 1
     },
     "1df76e272406d98f566f2da4e1e1af4022c784d41ae5f62e7f4b6f86f944935c": {
       "375": 1,
       "791": 2
+    },
+    "1e0c6f49fcabf929baa9700b4b87bc9a8b578dcc55c1a0316be1b1820c684fed": {
+      "1042": 2,
+      "443": 1
     },
     "1e49cc53cbef8e24c463ead7747f75da89b9d993de48f9c86b2df45afa8874f2": {
       "430": 1
@@ -42224,6 +42286,10 @@
     "1f3bde39d3778a50a3a8493fe7c84ea0fd3b09a6f652f60c5e47721485472c35": {
       "1351": 2,
       "480": 1
+    },
+    "1ffda4ae05be8546f44bb339f6f5e25cf2fcc6ee5efd61c055ae213d998ae724": {
+      "1154": 2,
+      "430": 1
     },
     "205271e5fbb749c31ee1e0d6a38b5d8e68fa7991b0a71d066b150d205f8bc18b": {
       "1068": 2,
@@ -42314,6 +42380,10 @@
     "2d4a3539461d396a38b24a4ad2618af64e0ca841d8c89f9514600d32e55318db": {
       "359": 1
     },
+    "2e58fe66cc66ef7cd2e4b00917525db349bfe680b88c1cb7471ee6c384894afe": {
+      "1518": 2,
+      "489": 1
+    },
     "30bfb72295391815cdd87d91c88fbf6f356db3ee81d0d02d56fbc42890e8d929": {
       "459": 1
     },
@@ -42381,12 +42451,23 @@
     "3d91f1a75c932c336ebb0e9cd3f9b33d82fdfd0d7ba28e3d8099b0b70793016c": {
       "389": 1
     },
+    "3f1769bd629460218db8a7f415c132aaa800e33b3e7a6853e181d16bcfc5193f": {
+      "639": 1
+    },
     "3f69dd5e2fc74f090dec0146af60b823c62f0345a181696315a86e3b25b468d3": {
       "405": 1
+    },
+    "400c6beb3924ee6dea252be94cef71fde73f2cc6d962c322ed721dbcf466b05d": {
+      "1293": 2,
+      "493": 1
     },
     "405e9ea72690a41b2930a371820f6507e6506fdb88ade974bdaf770766991090": {
       "1077": 2,
       "515": 1
+    },
+    "41ffd043560c722953e7aad362e55633fefe3b1b275e8cb725154fd0bb7a77a4": {
+      "1369": 2,
+      "402": 1
     },
     "422bb66c69a98eebe56de66d43e138aaf3158c1deb65e0331be85e8803bb181c": {
       "395": 1,
@@ -42419,6 +42500,10 @@
     "47731f560d647c922d12480e6e4239cd330f30e6f47c6031d514a762c175358b": {
       "1104": 2,
       "474": 1
+    },
+    "478185a8d7772f23c873a2a3edd67010eb7935e60b71f08498528122ca5f0852": {
+      "1111": 2,
+      "448": 1
     },
     "49ce880e3f2c1738605f41806b2198ee72243d3bc56cb28ca5474b89639a87b2": {
       "1168": 2,
@@ -42537,6 +42622,14 @@
       "1508": 2,
       "575": 1
     },
+    "5d1649dfc8fefe8f9d4b4661ecfa5675637636069247bb784d64483a8ffd4ec2": {
+      "1177": 2,
+      "332": 1
+    },
+    "5da300ba2495e051070dccbb6154f712b8b656d9dc1862ddb5988c7620fbafb0": {
+      "1089": 2,
+      "441": 1
+    },
     "5dde67647c31924316904d63679b1ac7a4d678297b079272b0c5fd5ff69e7aa0": {
       "534": 1
     },
@@ -42588,6 +42681,9 @@
     "64861b35d98fad94525589bf3e6a04a5d7045bda029088332165ffc9d3ed83a2": {
       "583": 1
     },
+    "6509b11eeac3a5bd6c2f8bf50cb480d9652240696c0fb4bbe3b1c102d6555d55": {
+      "513": 1
+    },
     "653967c522238f2f27cb60178ad3428f6ef1ad4dc0ec3dbe6b9b60eacece3f94": {
       "1232": 2,
       "775": 1
@@ -42630,6 +42726,11 @@
     },
     "6ad6b4f2504f861cb0bdd122446e6763485f8163a97f591ecc6c84c8083bab7a": {
       "599": 1
+    },
+    "6af4ea798cca5f8546b0e3c5f7484bfcfc0e4e0caa82c35710c882d5c85ca5b0": {
+      "1071": 2,
+      "1791": 3,
+      "476": 1
     },
     "6cd284fbb1c714bc81b4bce42744ec9ade4aba540bc3af0870fab943ceca66d7": {
       "1261": 2,
@@ -42694,6 +42795,9 @@
     "76d54fcf000723fcfee5fb9460b57f349096c5fd50410bb13b985b9a09a3d154": {
       "334": 1
     },
+    "771b5f6ad2df73d1abf52eaafd30f6f1f28292028f1f048e27f90e23301a855a": {
+      "349": 1
+    },
     "7736768c05bba94e0a80a2f01b97530037098e887782dd204d2393623748b752": {
       "1006": 2,
       "403": 1
@@ -42719,6 +42823,10 @@
     },
     "7c2386a774420cad9d50bbc74ad66f6c9e56da324c2b1389de0989d8e5294495": {
       "523": 1
+    },
+    "7c956aff69f79013f4edf23a853048d9ec95076493d3a2f99b166753696be425": {
+      "1237": 2,
+      "441": 1
     },
     "7cae23b83dbd59adc22cc056ae0b6831ff020f0496bdee2b14bb6ad744321d64": {
       "1502": 2,
@@ -42911,6 +43019,9 @@
     "956da37fdf21cdad93d7bac05a68a92531e0e1b1410fee7fb3e1fb5e222b92c3": {
       "430": 1
     },
+    "96a85562cd467fd04ee4028bf91380894e5d96cdf4088af932270e4e5033e9ac": {
+      "674": 1
+    },
     "974a7a48075123102d36966287ec68cd5927511f9353704ae076a7befe664764": {
       "1913": 2,
       "846": 1
@@ -42973,12 +43084,24 @@
       "1473": 2,
       "702": 1
     },
+    "9cc6d218718cc372badab9418c3bf102583ddd796a20be763f3fe4f3d7d92613": {
+      "1278": 2,
+      "571": 1
+    },
+    "9d46c6b5a5ef2814e969b85885bc4d89fc5741b14bf9502fb83d73cc740ada20": {
+      "1483": 2,
+      "760": 1
+    },
     "9d5e915797f780f0258cc0f6d14f9630f68d910bd5f0daa4e7bb325668c1d869": {
       "1237": 2,
       "466": 1
     },
     "9e0ebb64f83632e8fc01e9caf3aedec973d0c9ab21439e4f3fd1962c00eefdb4": {
       "399": 1
+    },
+    "9e8f7815be348bb3fd1e1e8ed27e506b27a4244eaa46adfcee4fc57da51329e0": {
+      "1346": 2,
+      "446": 1
     },
     "9f7f4dc244f9109b72ee31ed7dbe0dee60d0022fa4912f890a6b8f676be0aa07": {
       "1128": 2,
@@ -43119,6 +43242,13 @@
       "1129": 2,
       "440": 1
     },
+    "b1c67e256f679e6d96a5439386e5d8d89d4debb63a7afb678a3f6f922b5ba4e9": {
+      "1252": 2,
+      "493": 1
+    },
+    "b1d95bd85d32ca8ae260dfd7568d376ef8aefbdaa7295834896c707230ac81ef": {
+      "499": 1
+    },
     "b1f28df5e754135adb92e84fb7544a8aeb5b45e1f9ea912f734b43be689d1d8b": {
       "1161": 2,
       "411": 1
@@ -43159,6 +43289,9 @@
     },
     "b5d6b66e7b310cfe140b0dabbf9788b93c4a0872e8ee929e7b98c85101b0dc84": {
       "524": 1
+    },
+    "b60ce22e708d9970c71123fd22c13b3c8954d40902eaa4c8b0121406f358dbca": {
+      "213": 1
     },
     "b71ba87917b8957410ec34f397c88fa41e3f98ccdedd3b220f7f77cd91d70b90": {
       "1198": 2,
@@ -43271,6 +43404,9 @@
       "1286": 2,
       "496": 1
     },
+    "c968fc48db08a911ecb6615e7adfa5ba2bda945d42fa8a49e6feaafedc76f77a": {
+      "457": 1
+    },
     "cb02ec0b4c728fc444b0e1573e94afedd0ca14fb08e21a2b3fd27cf3de6094ee": {
       "1190": 2,
       "490": 1
@@ -43293,6 +43429,10 @@
       "1353": 2,
       "495": 1
     },
+    "ce269f5f5333dc922e9d78297f34c34e128955dac41b77ba0fa0721c5e98b855": {
+      "1253": 2,
+      "533": 1
+    },
     "ce5230789dbeae835c1d22dffcde74dd23dbfe5fa55b7611ff65ecc2c31400cc": {
       "1237": 2,
       "510": 1
@@ -43303,6 +43443,10 @@
     },
     "cfe406677aac7b040bc2bd9ea421d84cf03266f4973db001f6b3a8fba58006f3": {
       "521": 1
+    },
+    "d0d08710d222d43983e10edd7d7b82818117857339f6fb8fe151e82368b096ac": {
+      "405": 1,
+      "783": 2
     },
     "d189efd2d9bf46ae962ff524cf2659fca4f4e97ffda811c06038e1a8a4b5ad9f": {
       "1417": 2,
@@ -43337,6 +43481,10 @@
     "d592071e04d3fe333b315c574af8fe820487f539cc868a85f2e16d1260302d15": {
       "385": 1
     },
+    "d5cc049abb44de7ee0320b270cd62ae0b26a78d5985290d18015da35b98429a5": {
+      "1143": 2,
+      "483": 1
+    },
     "d904dbcdb46024116d771f30ee8c584f87c23ed619cb145d86231ff6631d4b89": {
       "1240": 2,
       "571": 1
@@ -43353,9 +43501,17 @@
       "1423": 2,
       "676": 1
     },
+    "db95e881d2a102eddbf656a442f4a585e47cbf3837de4e925e215b5820f5dcc1": {
+      "1228": 2,
+      "375": 1
+    },
     "dd2d447d4d81cad1a75493f9efaeaff9e52565c70a808e99c7ee61260ef7f602": {
       "1139": 2,
       "416": 1
+    },
+    "ddd03e483682b236a01cc7e764bdc50f6d9a417a796a8031cefe211e115bb956": {
+      "1365": 2,
+      "497": 1
     },
     "de9e85f9574606c92657d376f17012ab3f284c38ffbe0d1a98469ef019b16263": {
       "416": 1
@@ -43392,6 +43548,17 @@
     "e842e34d107fde23b2518f9868e1257c225f287883d910a57f2e6543be595e45": {
       "1330": 2,
       "609": 1
+    },
+    "e843cf62ff3a6512fe52af481c99a8659ec6dc6a2984d877e3b15df6e4524b4e": {
+      "1231": 2,
+      "489": 1
+    },
+    "e87d457053329793865a996ffd529c24a9e6e001a4cd7a7e40850769e63407d0": {
+      "565": 1
+    },
+    "e8800d1203ee1c0c74eaed7a377e18433022866a37c42c24da64636faa050afb": {
+      "1281": 2,
+      "596": 1
     },
     "e986d9d601fe4131404a58ee4dfa5e7bbb969e9826b095e66eb0a15e933ff556": {
       "497": 1
@@ -43469,6 +43636,10 @@
       "1379": 2,
       "508": 1
     },
+    "f1c277867befe9160ad9beb0e1c89518a144913c7c9fa33c7136943112c56957": {
+      "1121": 2,
+      "492": 1
+    },
     "f529b5e227e135a829894e5a4ce17eac79e4b96fbcaf30d4ac8233c0f46a5393": {
       "1572": 2,
       "666": 1
@@ -43520,6 +43691,10 @@
     "fb5dc3c5bf5166f483fc0d09c6feb98fdf520b296140c9d197b823b40d056c65": {
       "1300": 2,
       "556": 1
+    },
+    "fbede41593ae59bf0ffb96a09d7970808d0dd9ec5733f8ab791a346edf6ec45c": {
+      "1225": 2,
+      "589": 1
     },
     "fd1e46ae4a4b198f536ba59ea769c8b09c5c85cd2aad3f7f9202392b4b5cd05b": {
       "592": 1

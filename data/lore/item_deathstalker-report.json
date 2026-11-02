@@ -10,11 +10,11 @@
    "quest:449"
   ]
  },
- "summary": "Deathstalker Rane Yorick sends word of Scourge resistance in Silverpine Forest to High Executor Hadrec.",
+ "summary": "In Silverpine Forest, Deathstalker Rane Yorick sends word of Scourge resistance to High Executor Hadrec.",
  "sections": [
   {
    "title": "Frontline Intelligence",
-   "body": "Deathstalkers Rane Yorick and Quinn Yorick faced a deadly ambush in northern Silverpine Forest. Pinned down by Scourge in the pine woods, they gathered their findings into a hurried dispatch. It describes stronger resistance than the Forsaken expected as they seek to claim the region. Quinn was grievously injured, so Rane entrusted the report to passing allies, who must carry it to High Executor Hadrec at the Sepulcher without delay.",
+   "body": "Deathstalkers Rane Yorick and Quinn Yorick met a deadly ambush in northern Silverpine Forest. Pinned down among the pines by the Scourge, they gathered their findings into a hurried dispatch. The report describes stronger resistance than the Forsaken expected as they seek to claim the region.\n\nQuinn was gravely injured, so Rane entrusted the report to passing allies. They must carry it without delay to High Executor Hadrec at the Sepulcher.",
    "spoiler": 0
   }
  ],
@@ -88,5 +88,5 @@
   "Deathstalker Report",
   "The Deathstalkers' Report"
  ],
- "style": 1
+ "style": 2
 }

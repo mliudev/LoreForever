@@ -10,11 +10,11 @@
    "quest:404"
   ]
  },
- "summary": "Putrid Claws reach Deathguard Dillinger as proof that the Scourge near Brill is being held back. Mindless undead roam the woods west of town, especially by the old bridge.",
+ "summary": "Near Brill, Putrid Claw bounties help hold back the Scourge. Mindless undead roam the woods west of town, especially near the old bridge, and Deathguard Dillinger receives the claws as proof.",
  "sections": [
   {
    "title": "Trophy of the Mindless",
-   "body": "The mindless Scourge keeps crossing into Tirisfal Glades. Rotting dead and ravaged corpses wander the eastern borders, gathering along roads and near the old bridge west of Brill. Deathguards place bounties on these horrors to protect travelers and garrison supply lines. A severed putrid claw proves that one more shambling corpse has been put down for good.",
+   "body": "The mindless Scourge keeps crossing into Tirisfal Glades. Rotting dead and ravaged corpses wander the eastern borders, gathering along roads and near the old bridge west of Brill. Deathguards offer bounties on these horrors to protect travelers and garrison supply lines. A severed putrid claw proves one more shambling corpse has been put down for good.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why collect putrid claws",
     "who wants putrid claws"
    ],
-   "answer": "Deathguard Dillinger in Brill collects putrid claws as bounties. They confirm that local Forsaken recruits are thinning out the Scourge wandering Tirisfal Glades."
+   "answer": "Deathguard Dillinger in Brill collects putrid claws as bounties. They show that local Forsaken recruits are thinning the Scourge wandering Tirisfal Glades."
   },
   {
    "q": "Where do putrid claws come from?",
@@ -35,7 +35,7 @@
     "putrid claw drops",
     "rotting dead drops"
    ],
-   "answer": "Putrid claws come from the rotting dead and ravaged corpses roaming the haunted woods west of Brill, especially near the old river bridge."
+   "answer": "Putrid claws come from the rotting dead and ravaged corpses that roam the haunted woods west of Brill, especially near the old river bridge."
   },
   {
    "q": "Why is the Scourge in Tirisfal Glades?",
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a fresh Forsaken initiate leaving Deathknell, clearing the mindless Scourge reminds you that liberation means constant defense against the mindless husks you once resembled."
+   "text": "As a fresh Forsaken initiate leaving Deathknell, you see that liberation means defending against the mindless husks you once resembled."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
   "Putrid Claw",
   "A Putrid Task (Classic)"
  ],
- "style": 1
+ "style": 2
 }

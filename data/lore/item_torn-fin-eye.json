@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Reagent for Ruin",
-   "body": "The Royal Apothecary Society puts rare biological components to use in its work on the Forsaken's New Plague. Torn Fin Eyes come from murlocs along the Western Strand of Hillsbrad Foothills. Their organic properties help activate volatile alchemical compounds. Mixed with Daggerspine naga scales, restorative troll elixirs, and gnoll-derived sludge, the eyes help stabilize and trigger toxic mixtures meant to spread death through enemy lands.",
+   "body": "The Royal Apothecary Society uses rare biological parts in its work on the Forsaken's New Plague. Torn Fin Eyes come from murlocs along the Western Strand of Hillsbrad Foothills. Their organic properties help activate volatile alchemical compounds. Mixed with Daggerspine naga scales, restorative troll elixirs, and gnoll-derived sludge, the eyes help stabilize and trigger toxic mixtures meant to spread death through enemy lands.",
    "spoiler": 0
   },
   {
    "title": "Brewing Agony",
-   "body": "In the Undercity's Apothecarium, master alchemists found that decaying colloids added to Mudsnout composites need catalysts from Hillsbrad's coast. Apothecary Lydon in Tarren Mill uses the harvested eyes to catalyze his Elixir of Agony. The brew is part of the Forsaken's continuing effort to make devastating bio-weapons near human settlements.",
+   "body": "In the Undercity's Apothecarium, master alchemists found that decaying colloids added to Mudsnout composites need catalysts from Hillsbrad's coast. Apothecary Lydon in Tarren Mill uses the harvested eyes to catalyze his Elixir of Agony. The brew furthers the Forsaken's effort to make devastating bio-weapons near human settlements.",
    "spoiler": 1
   }
  ],
@@ -93,5 +93,5 @@
   "Torn Fin Eye",
   "Elixir of Agony (3)"
  ],
- "style": 1
+ "style": 2
 }

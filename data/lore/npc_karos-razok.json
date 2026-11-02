@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Keeper of the Sepulcher's Wings",
-   "body": "Karos Razok tends the skeletal bats from the wooden platform above the Sepulcher's crypts. Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill make the northern road through Silverpine Forest treacherous. Razok keeps messengers, fresh recruits, and vital supplies moving above the haunted canopy, linking the frontier outpost to the capital in Tirisfal Glades.",
+   "body": "Karos Razok tends skeletal bats from a wooden platform above the Sepulcher's crypts. The northern road through Silverpine Forest is treacherous, with Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill. Razok keeps messengers, fresh recruits, and vital supplies moving above the haunted canopy. His bats link the frontier outpost to the capital in Tirisfal Glades.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is the flight master in the sepulcher",
     "sepulcher bat handler"
    ],
-   "answer": "Karos Razok tends the Forsaken bat roost at the Sepulcher in Silverpine Forest. Horde travelers and messengers use the trained vampiric bats to cross Lordaeron."
+   "answer": "Karos Razok tends the Forsaken bat roost at the Sepulcher in Silverpine Forest. Horde travelers and messengers ride the trained vampiric bats across Lordaeron."
   },
   {
    "q": "Where can Karos Razok send travelers?",
@@ -42,7 +42,7 @@
     "forsaken flight beasts",
     "what are the flying mounts at sepulcher"
    ],
-   "answer": "Karos Razok tends large, skeletal flight bats. These undead fliers are hardy and tireless, and the Forsaken favor them for their silence and endurance in Lordaeron's blighted skies."
+   "answer": "Karos Razok tends large, skeletal flight bats. These undead fliers are hardy and tireless, and the Forsaken favor their silence and endurance in Lordaeron's blighted skies."
   },
   {
    "q": "Why is a flight master important at the Sepulcher?",
@@ -50,17 +50,17 @@
     "why is sepulcher bat master needed",
     "sepulcher travel importance"
    ],
-   "answer": "Hostile forces make Silverpine's roads dangerous, from Pyrewood's worgen curse to the human wizards at Ambermill. Karos Razok gives the Forsaken an aerial route to supply the forward base without risking ambushes on the highway."
+   "answer": "Hostile forces make Silverpine's roads dangerous, from Pyrewood's worgen curse to the human wizards at Ambermill. Karos Razok gives the Forsaken an aerial route to supply the forward base without risking an ambush on the highway."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you can use Karos Razok's bat roost to travel back to the Undercity, Lady Sylvanas's capital, from the Silverpine front."
+   "text": "As an Undead, you can use Karos Razok's bat roost to travel from the Silverpine front back to the Undercity, Lady Sylvanas's capital."
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde traveler heading south toward Hillsbrad Foothills, you can use Karos Razok's bat roost as a waypoint on Lordaeron's western edge."
+   "text": "As a Horde traveler heading south toward the Hillsbrad Foothills, you can use Karos Razok's bat roost as a waypoint on Lordaeron's western edge."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Karos Razok"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:761"
   ]
  },
- "summary": "Across Mulgore, swoops circle above the plains, and their quills mark a hunter’s skill. Tauren bring these feathers to Harken Windtotem in Bloodhoof Village.",
+ "summary": "Across Mulgore, swoops circle high over the plains, and their quills mark a hunter’s skill. Tauren bring the feathers to Harken Windtotem in Bloodhoof Village.",
  "sections": [
   {
    "title": "Token of the Hunt",
-   "body": "Swoops ride high above Mulgore’s grasslands, where they are hard to track. Young tauren hunters and travelers in Bloodhoof Village seek a trophy quill to prove their cleverness and resolve. Bringing one to elders such as Harken Windtotem honors the hunter’s clan and shows the sharp senses needed to thrive on the plains.",
+   "body": "Swoops circle high above Mulgore’s grasslands, where they are hard to track. Young tauren hunters and travelers in Bloodhoof Village seek a trophy quill to prove their cleverness and resolve. Bringing one to elders such as Harken Windtotem honors a hunter’s clan and shows the sharp senses needed to thrive on the plains.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who wants swoop quills",
     "swoop quill use"
    ],
-   "answer": "Trophy Swoop Quills prove hunting merit when you bring them to Harken Windtotem in Bloodhoof Village. The feathers show determination and sharp observation, and honor your standing among the local tauren."
+   "answer": "Bring a Trophy Swoop Quill to Harken Windtotem in Bloodhoof Village to prove your hunting merit. The feather shows determination and sharp observation, and honors your standing among the local tauren."
   },
   {
    "q": "Where do Trophy Swoop Quills come from?",
@@ -43,13 +43,13 @@
     "why hunt swoops",
     "are swoops hard to kill"
    ],
-   "answer": "Harken Windtotem describes swoops as cunning birds that circle high above the grass and move quickly across the land. Sharp eyes help you spot them, and fleet footwork helps you run them down."
+   "answer": "Harken Windtotem describes swoops as cunning birds that circle high above the grass and move quickly across the land. Sharp eyes help you spot them, while fleet footwork helps you run them down."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, hunting swoops and bringing home their quills tests patience and cleverness across Mulgore, honoring you and your clan."
+   "text": "As a tauren, hunting swoops and bringing home their quills tests your patience and cleverness across Mulgore. It honors you and your clan."
   },
   {
    "target": "class:Hunter",
@@ -77,5 +77,5 @@
   "Trophy Swoop Quill",
   "Swoop Hunting"
  ],
- "style": 1
+ "style": 2
 }

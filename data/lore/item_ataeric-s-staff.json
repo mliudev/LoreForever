@@ -10,16 +10,16 @@
    "quest:480"
   ]
  },
- "summary": "At the Sepulcher, Ataeric's Staff marks the archmage's defeat. Archmage Ataeric, a senior Dalaran wizard in Silverpine Forest, wielded it to command local ley lines.",
+ "summary": "At the Sepulcher, Ataeric's Staff marks a victory over Dalaran's reach in Silverpine Forest. Archmage Ataeric wielded it to command the local ley lines.",
  "sections": [
   {
    "title": "Trophy of the Sepulcher",
-   "body": "Shadow Priest Allister feared Dalaran's growing reach in magic and ordered Ataeric killed. He also demanded the staff. Once Ataeric was slain and the staff recovered, the concentrated ley energies sank back into dormancy. Carrying the staff to the Sepulcher marked a clear victory over Dalaran's ambitions. Yet power still lies latent in the earth, and the Forsaken remain watchful.",
+   "body": "Shadow Priest Allister feared Dalaran's growing reach in magic, so he ordered Ataeric killed and demanded the staff. Once Ataeric was slain and the staff recovered, the concentrated ley energies sank back into dormancy.\n\nThe staff's arrival at the Sepulcher marked a clear victory over Dalaran's ambitions. Power still lies latent in the earth, and the Forsaken remain watchful.",
    "spoiler": 0
   },
   {
    "title": "A Conduit of Ley Magic",
-   "body": "Archmage Ataeric carried the staff to direct ley energies in southern Silverpine Forest. Dalaran sent him to awaken an ancient ley node near the borders of its territory. The staff helped him weave the vast currents around him, making the archmage a grave threat to nearby Forsaken settlements.",
+   "body": "Archmage Ataeric carried the staff to direct ley energies in southern Silverpine Forest. Dalaran sent him to awaken an ancient ley node near the borders of its territory. With the staff, he could weave the vast currents around him, making the archmage a grave threat to nearby Forsaken settlements.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "where to get ataeric staff",
     "ataeric location"
    ],
-   "answer": "Archmage Ataeric's body is found among other Dalaran mages and warders in southern Silverpine Forest, near Dalaran's presence. The staff is recovered from his body."
+   "answer": "Archmage Ataeric's body lies among other Dalaran mages and warders in southern Silverpine Forest, near Dalaran's presence. The staff is recovered from his body."
   }
  ],
  "angles": [
@@ -92,5 +92,5 @@
   "Ataeric's Staff",
   "The Weaver (quest)"
  ],
- "style": 1
+ "style": 2
 }

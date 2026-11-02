@@ -10,16 +10,16 @@
    "quest:5088"
   ]
  },
- "summary": "On Thunder Bluff, Incendia Powder is prepared to call a sacred spirit into the open. Magatha Grimtotem enchants it for use at Darkcloud Pinnacle in Thousand Needles.",
+ "summary": "At Darkcloud Pinnacle, Incendia Powder calls a sacred spirit into the open. Magatha Grimtotem enchants it on Thunder Bluff's Elder Rise for use in Thousand Needles.",
  "sections": [
   {
    "title": "A Spark of Summoning",
-   "body": "Incendia Powder carries shamanic magic to the sacred fire atop Darkcloud Pinnacle. Magatha Grimtotem entrusts it to travelers on Thunder Bluff's Elder Rise. Scattered across the consecrated brazier where the dead are laid to rest, the powder calls forth Arikara, a vengeful winged serpent.",
+   "body": "Incendia Powder carries shamanic magic to the sacred fire atop Darkcloud Pinnacle. On Thunder Bluff's Elder Rise, Magatha Grimtotem entrusts it to travelers. Scatter it across the consecrated brazier where the dead are laid to rest, and it calls forth Arikara, a vengeful winged serpent.",
    "spoiler": 0
   },
   {
    "title": "Uneasy Portents",
-   "body": "Magatha Grimtotem shaped the rites behind Incendia Powder. She believed changes in tauren ways had stirred ancient spirits to hunt High Chieftain Cairne Bloodhoof, so she enchanted the powder to draw the apparition into the open and destroy it. The powder brings forth the fierce serpent, but the encounter leaves questions about why Arikara was stirred.",
+   "body": "Magatha Grimtotem shaped the rites behind Incendia Powder. She believed changes in tauren ways had stirred ancient spirits to hunt High Chieftain Cairne Bloodhoof. So she enchanted the powder to draw the apparition into the open and destroy it. The fierce serpent appears, but questions remain about why Arikara was stirred.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why do i need incendia powder",
     "what does incendia powder do"
    ],
-   "answer": "At Darkcloud Pinnacle in Thousand Needles, Incendia Powder is scattered into the sacred fire of life. The flame then calls forth Arikara, the vengeful spirit serpent."
+   "answer": "At Darkcloud Pinnacle in Thousand Needles, scatter Incendia Powder into the sacred fire of life. The flame calls forth Arikara, the vengeful spirit serpent."
   },
   {
    "q": "Who prepared the enchantment on the powder?",
@@ -39,7 +39,7 @@
     "who made incendia powder",
     "who enchanted incendia powder"
    ],
-   "answer": "Magatha Grimtotem enchanted the gathered Incendia agave into refined powder on Elder Rise in Thunder Bluff. Motega Firemane of Whitereach Post had sent word of Arikara."
+   "answer": "Magatha Grimtotem enchanted gathered Incendia agave into refined powder on Elder Rise in Thunder Bluff. Motega Firemane of Whitereach Post had sent word of Arikara."
   },
   {
    "q": "Where does the powder need to be used?",
@@ -56,17 +56,17 @@
     "why summon arikara",
     "why fight arikara"
    ],
-   "answer": "Magatha Grimtotem fears that changes in tauren lore have angered Arikara and that the serpent may be stalking Cairne Bloodhoof. She asks that Arikara be summoned and slain before Cairne is harmed."
+   "answer": "Magatha Grimtotem fears changes in tauren lore have angered Arikara, and that the serpent may be stalking Cairne Bloodhoof. She asks that Arikara be summoned and slain before Cairne is harmed."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can see how elemental flame and spiritual warding join to awaken slumbering ancestral beings."
+   "text": "As a shaman, you see elemental flame and spiritual warding join to awaken slumbering ancestral beings."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you know ritual powders can kindle burial fires, where sacred tradition and the defense of tribal leadership meet."
+   "text": "As a tauren, you know ritual powders can kindle burial fires, where sacred tradition meets the defense of tribal leadership."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Incendia Powder",
   "Arikara (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "The Balnir Farmstead"
   ]
  },
- "summary": "In the Undercity, Cain Firesong sends a promising Forsaken mage to Anastasia Hartwell. Her summons calls you to the Magic Quarter for work among the Forsaken magi, with investigations in Tirisfal Glades ahead.",
+ "summary": "In the Undercity, Cain Firesong sends a promising Forsaken mage to Anastasia Hartwell. Her summons calls you to the Magic Quarter for practical work among the Forsaken magi, with field investigations in Tirisfal Glades ahead.",
  "sections": [
   {
    "title": "A Call to the Magic Quarter",
-   "body": "Cain Firesong trains young Forsaken mages in Brill, then sends those with promise to the Undercity. In its Magic Quarter, the Forsaken magi pursue arcane study and plan defenses across Lordaeron. Cain judges which students are ready to serve more experienced practitioners. Those who show real talent are sent to Anastasia Hartwell, who needs capable hands in the field.",
+   "body": "Cain Firesong trains young Forsaken mages in Brill. When he sees promise in a student, he sends them to the Undercity. There, the Forsaken magi study the arcane arts and plan defenses across Lordaeron. Cain decides which students are ready to serve more experienced practitioners. Those with real talent go to Anastasia Hartwell, who needs capable hands in the field.",
    "spoiler": 0
   },
   {
    "title": "Anastasia Hartwell's Ambition",
-   "body": "Anastasia Hartwell is one of the Undercity's prominent mage instructors. She puts promising students to work for the Forsaken's practical and territorial interests instead of leaving them to study incantations in safety. Answering her call marks a step into service for the Forsaken's mages and their pragmatic magical work in the years after the Scourge.",
+   "body": "Anastasia Hartwell is one of the Undercity’s prominent mage instructors. She sends promising students into practical work for the Forsaken’s interests and territory, rather than letting them study incantations in safety. Answering her call begins your service among the Forsaken mages and their practical magical work in the years after the Scourge.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "anastasia hartwell location",
     "find anastasia"
    ],
-   "answer": "Anastasia Hartwell is in the Magic Quarter of the Undercity, where she instructs Forsaken practitioners of the arcane arts."
+   "answer": "Anastasia Hartwell is in the Undercity’s Magic Quarter, where she instructs Forsaken practitioners of the arcane arts."
   },
   {
    "q": "What is the purpose of this summons?",
@@ -59,7 +59,7 @@
     "speak with anastasia purpose",
     "what does anastasia need"
    ],
-   "answer": "Anastasia seeks a capable caster for practical work beyond the city walls, beginning with field assignments in Tirisfal Glades, such as investigating the Balnir Farmstead."
+   "answer": "Anastasia seeks a capable caster for practical work beyond the city walls. Field assignments begin in Tirisfal Glades, with work such as investigating the Balnir Farmstead."
   },
   {
    "q": "What quest follows Speak with Anastasia?",
@@ -77,7 +77,7 @@
     "who can do speak with anastasia",
     "class requirement"
    ],
-   "answer": "Yes. This summons is for Forsaken mages, marking a step in their class training as they reach early competence around circle ten."
+   "answer": "Yes. This summons is for Forsaken mages, and marks a step in their class training as they reach early competence around circle ten."
   },
   {
    "q": "Why do the Forsaken mages maintain their own quarters in Undercity?",
@@ -95,7 +95,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As a Forsaken arcanist, you can put Lordaeron's intellectual past to work against the perils facing it now."
+   "text": "As a Forsaken arcanist, you can put Lordaeron’s intellectual past to work against the perils facing it now."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Speak with Anastasia"
  ],
- "style": 1
+ "style": 2
 }

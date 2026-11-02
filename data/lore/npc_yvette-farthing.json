@@ -8,16 +8,16 @@
   "wiki": "Yvette Farthing",
   "refs": 1
  },
- "summary": "In Brill, Yvette Farthing shares the Gallows' End Tavern with her father, Coleman. A Forsaken, she carries the memory of a love cut short by the Scourge.",
+ "summary": "In Brill, Yvette Farthing shares the Gallows' End Tavern with her father, Coleman. She remembers a love that ended when the Scourge came to Lordaeron.",
  "sections": [
   {
    "title": "Echoes of the Mills",
-   "body": "Yvette loved Thurman Agamand, heir to the prosperous Agamand Mills, before the Third War ruined Lordaeron. As the Scourge plague drew near, Yvette and her father, Coleman, begged Thurman to leave the estate with them. He refused, devoted to his family's legacy. Yvette and Thurman both perished and rose into undeath. Yvette found a place among the free-willed Forsaken in Brill, but she did not know Thurman's final fate.",
+   "body": "Before the Third War, Yvette loved Thurman Agamand, heir to the prosperous Agamand Mills. When the Scourge plague drew near, she and her father, Coleman, begged Thurman to leave the estate. He refused, bound to his family's legacy. Yvette and Thurman both died and rose into undeath. Yvette found a place among the free-willed Forsaken in Brill, but she did not know what had become of Thurman.",
    "spoiler": 0
   },
   {
    "title": "A Final Farewell",
-   "body": "Thurman wrote Yvette an urgent love letter before the mills fell. In it, he described his brother Devlin's treachery and lamented his choice to stay. The Scourge intercepted the letter, and it lay lost among the ruins of Agamand Mills until adventurers recovered it. Reading Thurman's dying confession brings Yvette a brief, genuine despair from her mortal life. She then forces herself back into cold detachment, bitter that past attachments have no place in the grim reality of the Forsaken.",
+   "body": "Before Agamand Mills fell, Thurman wrote Yvette an urgent letter of love. He told her of his brother Devlin's treachery and mourned his choice to stay. The Scourge intercepted the letter, and it lay lost among the ruins until adventurers recovered it. Reading Thurman's dying confession brings Yvette a brief, true despair from her mortal life. Then she forces herself back into cold detachment, bitter that past attachments have no place in the Forsaken's grim reality.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is yvette",
     "brill yvette"
    ],
-   "answer": "Yvette Farthing is a Forsaken woman living in Brill's Gallows' End Tavern. She is Coleman Farthing's daughter and lived in the farmlands of Tirisfal Glades before the Third War destroyed the kingdom."
+   "answer": "Yvette Farthing lives in Brill's Gallows' End Tavern. She is Coleman Farthing's daughter and lived in the farmlands of Tirisfal Glades before the Third War destroyed the kingdom."
   },
   {
    "q": "What is Yvette's connection to Agamand Mills?",
@@ -38,7 +38,7 @@
     "thurman agamand and yvette",
     "yvette lover"
    ],
-   "answer": "Yvette loved Thurman Agamand. When the plague threatened the region, she tried to persuade him to flee with her, but he chose to remain and defend his family's estate."
+   "answer": "Yvette loved Thurman Agamand. When the plague threatened the region, she tried to persuade him to flee with her, but he chose to stay and defend his family's estate."
   },
   {
    "q": "What happens when you deliver Thurman's letter to her?",
@@ -47,7 +47,7 @@
     "thurmans letter reward",
     "yvette reaction letter"
    ],
-   "answer": "Reading Thurman's long-lost letter leaves Yvette briefly crushed by sorrow at his final words of love and betrayal. She quickly hardens her manner, saying that she is Forsaken now and mortal sentiment is useless."
+   "answer": "Thurman's long-lost letter briefly crushes Yvette with sorrow at his final words of love and betrayal. She quickly hardens her manner and says that she is Forsaken now, and mortal sentiment is useless."
   },
   {
    "q": "Who is Yvette's father?",
@@ -56,7 +56,7 @@
     "coleman and yvette",
     "who is coleman farthing"
    ],
-   "answer": "Yvette's father is Coleman Farthing, a Forsaken who also lives in Brill's Gallows' End Tavern. They first fled together, but both eventually succumbed to the plague and became Forsaken."
+   "answer": "Yvette's father is Coleman Farthing, a Forsaken who also lives in Brill's Gallows' End Tavern. They fled together at first, but both eventually succumbed to the plague and became Forsaken."
   }
  ],
  "angles": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Yvette Farthing"
  ],
- "style": 1
+ "style": 2
 }

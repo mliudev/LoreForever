@@ -17,21 +17,21 @@
   "wiki": "Chimaeric Horn",
   "chain": []
  },
- "summary": "Orm Stonehoof sends a Horde warrior into the Charred Vale to face a suffering chimaera matriarch. Her horn is needed for the Brutal Helm, and the hunt tests the warrior’s strength and mercy.",
+ "summary": "In the Charred Vale, a suffering chimaera matriarch tests a Horde warrior’s strength and mercy. Orm Stonehoof needs her horn for the Brutal Helm, and the hunt will prove the warrior’s resolve.",
  "sections": [
   {
    "title": "A Test of Resolve",
-   "body": "Orm Stonehoof will forge the Brutal Helm for Horde warriors, but tradition calls for proof before he begins. He asks for more than metal or coin: the warrior must show martial skill and face the scars left by devastating conflict.",
+   "body": "Orm Stonehoof will forge the Brutal Helm for Horde warriors, but custom asks for proof before he begins. Metal and coin are not enough. A warrior must show martial skill and face the scars left by devastating conflict.",
    "spoiler": 0
   },
   {
    "title": "The Scars of the Charred Vale",
-   "body": "In the southwestern Stonetalon Mountains, the Charred Vale lies in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still wander its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents.",
+   "body": "The Charred Vale lies in the southwestern Stonetalon Mountains, buried in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still roam its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents.",
    "spoiler": 0
   },
   {
    "title": "Mercy in Combat",
-   "body": "For the tauren smith, the chimaera matriarch’s horn is both a needed piece for the helm and proof of strength. The hunt also ends the matriarch’s torment. By felling her, the warrior brings mercy to a wild spirit driven mad by the destruction of its home.",
+   "body": "To the tauren smith, the chimaera matriarch’s horn is needed for the helm and proves a warrior’s strength. Yet the hunt also ends her torment. By felling the matriarch, the warrior brings mercy to a wild spirit driven mad by the destruction of her home.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "why get galvanized horn",
     "brutal helm horn"
    ],
-   "answer": "The galvanized horn is a durable part of the Brutal Helm and proof that the warrior had the courage to track and defeat a dangerous alpha predator in hazardous terrain."
+   "answer": "Orm wants the galvanized horn because it is a durable part of the Brutal Helm. Taking it also proves the warrior had courage to track and defeat a dangerous alpha predator in hazardous terrain."
   },
   {
    "q": "What are chimaeras in Stonetalon?",
@@ -84,15 +84,15 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you prove your skill by hunting a solitary alpha beast in a brutal place, earning the right to wear the Brutal Helm."
+   "text": "As a warrior, you prove your skill by hunting a solitary alpha beast in a brutal place. This earns you the right to wear the Brutal Helm."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you hear Orm Stonehoof’s reverence in his words: even in battle, ending a tormented beast’s suffering honors the Earth Mother."
+   "text": "As a tauren, you hear Orm Stonehoof’s reverence in his words. Even in battle, ending a tormented beast’s suffering honors the Earth Mother."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you push from Sun Rock Retreat into Stonetalon’s contested wilds to forge the arms needed for Kalimdor’s defense."
+   "text": "As a member of the Horde, you travel from Sun Rock Retreat into Stonetalon’s contested wilds. There, you forge the arms needed for Kalimdor’s defense."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Chimaeric Horn"
  ],
- "style": 1
+ "style": 2
 }

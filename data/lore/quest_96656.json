@@ -17,16 +17,16 @@
   "wiki": "The Adventurer (Tirisfal Glades)",
   "chain": []
  },
- "summary": "Near Deathknell, The Adventurer is sent to investigate a stranger by the road to Brill. Scarlet Crusaders threaten the region, but the stranger is Eleanor Shackleton, a Forsaken traveler with wilderness skills to share.",
+ "summary": "Near Deathknell, The Adventurer is sent to investigate a stranger on the road to Brill. Scarlet Crusaders threaten the region, but the stranger is Eleanor Shackleton, a Forsaken traveler who can teach wilderness skills.",
  "sections": [
   {
    "title": "A Suspicious Watch",
-   "body": "Executor Arren watches Deathknell and the roads around it. Scarlet Crusaders spy on the region and infiltrate northern Lordaeron, so an unfamiliar figure near Brill draws suspicion. You have proved your dedication by striking at Crusader threats along the border. Now Arren asks you to investigate the stranger quietly and learn whether she threatens the Forsaken.",
+   "body": "Executor Arren watches Deathknell and the roads around it. Scarlet Crusaders spy on the region and infiltrate northern Lordaeron, so an unfamiliar figure near Brill draws his suspicion. You have proved your dedication by striking at Crusader threats along the border. Now Arren asks you to investigate the stranger quietly and learn whether she threatens the Forsaken.",
    "spoiler": 0
   },
   {
    "title": "A Traveler in the Woods",
-   "body": "You find Eleanor Shackleton by the roadside near Brill. She is a Forsaken traveler, pausing before another journey into the wilds, with no Crusader plot or Scourge necromancy in mind. Eleanor sees a fellow adventurer in those sent to check on her. She offers to teach you how to survive in open country and make camp.",
+   "body": "By the roadside near Brill, you find Eleanor Shackleton. She is a Forsaken traveler, pausing before another journey into the wilds. She has no Crusader plot or Scourge necromancy in mind. Seeing a fellow adventurer in those sent to check on her, Eleanor offers to teach you how to survive in open country and make camp.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who sent me to eleanor",
     "arren eleanor task"
    ],
-   "answer": "Scarlet Crusade infiltrators and hostile spies threaten Deathknell and Brill. Arren treats anyone unfamiliar on the high road with suspicion until their purpose is clear."
+   "answer": "Scarlet Crusade infiltrators and hostile spies threaten Deathknell and Brill. Arren suspects anyone unfamiliar on the high road until their purpose is clear."
   },
   {
    "q": "Who is Eleanor Shackleton?",
@@ -65,7 +65,7 @@
     "next quest after adventurer",
     "eleanor shackleton follow up"
    ],
-   "answer": "Speaking with Eleanor leads to The Great Outdoors, where she begins teaching you wilderness survival and how to make camp."
+   "answer": "Speaking with Eleanor leads to The Great Outdoors. There, she begins teaching you wilderness survival and how to make camp."
   },
   {
    "q": "Where can Eleanor Shackleton be found?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For a new Forsaken near Deathknell, meeting Eleanor, a fellow adventurer, shows that a stranger near Brill may be no Scarlet spy."
+   "text": "As a new Forsaken near Deathknell, meeting Eleanor, a fellow adventurer, shows that a stranger near Brill may be no Scarlet spy."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can gain practical survival skills by speaking with wandering travelers while Executor Arren guards the Forsaken realm's young borders."
+   "text": "As a member of the Horde, you can learn practical survival skills from wandering travelers while Executor Arren guards the young borders of the Forsaken realm."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "The Adventurer (Tirisfal Glades)"
  ],
- "style": 1
+ "style": 2
 }

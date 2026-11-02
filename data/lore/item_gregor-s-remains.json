@@ -10,16 +10,16 @@
    "quest:354"
   ]
  },
- "summary": "Coleman Farthing seeks Gregor's Remains to settle an old score. The bones belonged to Gregor Agamand, once a member of Tirisfal Glades' wealthiest family.",
+ "summary": "Gregor's Remains are sought to settle an old score. They belonged to Gregor Agamand, of Tirisfal Glades' wealthiest family.",
  "sections": [
   {
    "title": "A Legacy of Ruin",
-   "body": "Before the Third War, the Agamands held great wealth and broad lands across northern Tirisfal Glades. When the Scourge invaded Lordaeron, the family patriarchs chose pride over flight. They fortified their mills and urged their loyal laborers to stand against the undead. The defense failed. The estate fell, and those who stood their ground were butchered and raised into undeath. Gregor Agamand became a mindless servant of the Lich King, haunting the mills his family had ruled.",
+   "body": "Before the Third War, the Agamands held great wealth and broad lands across northern Tirisfal Glades. When the Scourge invaded Lordaeron, the family patriarchs chose pride over flight. They fortified their mills and urged their loyal laborers to stand against the undead.\n\nThe defense failed. The estate fell, and those who stood their ground were butchered and raised into undeath. Gregor Agamand became a mindless servant of the Lich King, haunting the mills his family had ruled.",
    "spoiler": 0
   },
   {
    "title": "The Price of Vengeance",
-   "body": "Some who escaped the Lich King's control joined the Forsaken, but the memory of that defense still wounds them. Coleman Farthing, a former mill worker now stationed in Brill, blames the Agamands' pride for trapping his soul in eternal rot. Farthing seeks Gregor's remains as personal retribution against the master who led his household into damnation.",
+   "body": "Some who escaped the Lich King's control joined the Forsaken, but the memory of that defense still wounds them. Coleman Farthing, a former mill worker now stationed in Brill, blames the Agamands' pride for trapping his soul in eternal rot. He seeks Gregor's remains as personal retribution against the master who led his household into damnation.",
    "spoiler": 0
   }
  ],
@@ -96,5 +96,5 @@
   "Gregor's Remains",
   "Deaths in the Family (Classic)"
  ],
- "style": 1
+ "style": 2
 }

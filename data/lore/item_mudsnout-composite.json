@@ -10,16 +10,16 @@
    "quest:513"
   ]
  },
- "summary": "At Tarren Mill, Mudsnout Composite is prepared for the Royal Apothecary Society's research into a new plague. Apothecary Lydon makes it from Mudsnout Blossoms gathered in the Hillsbrad Foothills and sends it to the Undercity.",
+ "summary": "At Tarren Mill, Mudsnout Composite is bound for research into a new plague. Apothecary Lydon makes it from Mudsnout Blossoms gathered in the Hillsbrad Foothills, then sends it to the Undercity.",
  "sections": [
   {
    "title": "A Base for Decay",
-   "body": "Apothecary Lydon makes Mudsnout Composite from Mudsnout Blossoms gathered in the Hillsbrad Foothills. The paste is noxious on its own, but Master Apothecary Faranell must bind it with a colloid of decay to bring out its deadlier qualities. Together, the ingredients form a key chemical component in the Dark Lady's Elixir of Agony.",
+   "body": "Apothecary Lydon makes Mudsnout Composite from Mudsnout Blossoms gathered in the Hillsbrad Foothills. The paste is noxious on its own. Master Apothecary Faranell binds it with a colloid of decay, bringing forth its deadlier qualities. Together, the ingredients form a key chemical component in the Dark Lady's Elixir of Agony.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Correspondence",
-   "body": "The Royal Apothecary Society receives Mudsnout Composite in the Undercity's Apothecarium after its journey from Tarren Mill. Field researchers gather reagents in different regions and send samples to the capital's masters for refinement. Lady Sylvanas demands swift results against living humans and the Scourge, and Faranell praises the composite as ingenious groundwork toward their goal.",
+   "body": "The Royal Apothecary Society receives Mudsnout Composite in the Undercity's Apothecarium after it travels from Tarren Mill. Field researchers gather reagents in different regions and send samples to the capital's masters for refinement. Lady Sylvanas demands swift results against living humans and the Scourge. Faranell praises the composite as ingenious groundwork toward their goal.",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "mudsnout composite purpose",
     "what does mudsnout composite do"
    ],
-   "answer": "Mudsnout Composite is a paste made from Mudsnout Blossoms. Master Apothecary Faranell treats it with a colloid of decay in the Undercity to help formulate the Elixir of Agony."
+   "answer": "Mudsnout Composite is a paste made from Mudsnout Blossoms. In the Undercity, Master Apothecary Faranell treats it with a colloid of decay to help formulate the Elixir of Agony."
   },
   {
    "q": "Who created the composite?",
@@ -38,7 +38,7 @@
     "who made mudsnout composite",
     "mudsnout composite creator"
    ],
-   "answer": "Apothecary Lydon created the composite at Tarren Mill in the Hillsbrad Foothills, crushing fresh blossoms into a paste before sending it north."
+   "answer": "Apothecary Lydon created the composite at Tarren Mill in the Hillsbrad Foothills. Lydon crushes fresh blossoms into a paste before sending it north."
   },
   {
    "q": "Why does Master Apothecary Faranell need it?",
@@ -46,17 +46,17 @@
     "why bring it to faranell",
     "faranell mudsnout"
    ],
-   "answer": "Master Apothecary Faranell needs the composite for the Royal Apothecary Society's work on a new plague. Lydon's paste provides the herbal base for their research into lethal toxins."
+   "answer": "Master Apothecary Faranell needs the composite for the Royal Apothecary Society's work on a new plague. Lydon's paste gives their research into lethal toxins its herbal base."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, each shipment of Mudsnout Composite serves the Dark Lady's mandate: to secure the Forsaken's future by developing a plague against the living and the Scourge."
+   "text": "As an undead, you know each shipment of Mudsnout Composite serves the Dark Lady's mandate: securing the Forsaken's future with a plague against the living and the Scourge."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As a herbalist, you can see how Mudsnout Blossoms can be crushed and weaponized by an apothecary."
+   "text": "As a herbalist, you can see how an apothecary crushes Mudsnout Blossoms and turns them into a weapon."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
   "Mudsnout Composite",
   "Elixir of Agony (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -367,9 +367,9 @@
     "npc:chief-engineer-hinderweir-vii": {
       "1": [
         {
-          "duration": 31.216326530612246,
-          "file": "Audio/Transport/full_npc_chief-engineer-hinderweir-vii-9e35a47096e8ce350800/1-0000.mp3",
-          "sha256": "3bd695a932a1a648ec8ca9d4095cfc971e43baf3d666f4b2a320f81f85a5567c",
+          "duration": 31.71265306122449,
+          "file": "Audio/Transport/full_npc_chief-engineer-hinderweir-vii-096908c7776c8f8b9851/1-0000.mp3",
+          "sha256": "da66efe8fa4b05f4dff93c4239fe27cac75fb5286bd9a1410f1f9dba82f0431e",
           "start": 0
         }
       ],
@@ -380,15 +380,15 @@
           "1"
         ]
       },
-      "fullHash": "66b8c2",
-      "generation": "fd6f9e719b36c5641e43",
-      "hash": "66b8c2",
+      "fullHash": "d25286",
+      "generation": "d17044f657c9b5d65f46",
+      "hash": "d25286",
       "source": {
-        "duration": 31.242449,
+        "duration": 31.738776,
         "file": null,
-        "sha256": "9e35a47096e8ce350800ed328812ff0113166383c59a80f91dd525b2d9b72996"
+        "sha256": "096908c7776c8f8b9851a22623119f8197c7c423761e33ca2a48e40e5037d3ce"
       },
-      "text": "Chief Engineer Hinderweir VII. Atop the Stonewrought Dam, Chief Engineer Hinderweir VII watches over its workings and defenses. The veteran dwarf keeps the great structure and its machinery sound as grave dangers threaten it. Chief Engineer Hinderweir VII tends the Stonewrought Dam, whose stonework holds back Loch Modan's waters. Along the crest, he watches the waterways and sluice gates. He also checks for strain from the elements and local hazards. The dam's workings need constant care."
+      "text": "Chief Engineer Hinderweir VII. Atop the Stonewrought Dam, Chief Engineer Hinderweir the Seventh watches over its workings and defenses. The veteran dwarf keeps the great structure and its machinery sound as grave dangers threaten it. Chief Engineer Hinderweir the Seventh tends the Stonewrought Dam, whose stonework holds back Loch Modan's waters. Along the crest, he watches the waterways and sluice gates. He also checks for strain from the elements and local hazards. The dam's workings need constant care."
     },
     "npc:clerk-daltry": {
       "1": [
@@ -8557,9 +8557,9 @@
     "subzone:stonewrought-dam": {
       "1": [
         {
-          "duration": 60.00326530612245,
-          "file": "Audio/Transport/full_subzone_stonewrought-dam-5d7d912fdeaa73db3b0a/1-0000.mp3",
-          "sha256": "c3ab9c7fc68de993774660c0094ecfb689277c8d93507693622c4d0d2044b811",
+          "duration": 59.63755102040817,
+          "file": "Audio/Transport/full_subzone_stonewrought-dam-1c80cce8f499299f3965/1-0000.mp3",
+          "sha256": "93cab7abc7e172d1fd7aa4fb5b74af30f9ec9a4494eec5cde363c315e3881146",
           "start": 0
         }
       ],
@@ -8570,15 +8570,15 @@
           "1"
         ]
       },
-      "fullHash": "947989",
-      "generation": "da26e31341f45b53934f",
+      "fullHash": "c6144b",
+      "generation": "813a778f174f30497b06",
       "hash": "9c3d6c",
       "source": {
-        "duration": 60.029388,
+        "duration": 59.663673,
         "file": null,
-        "sha256": "5d7d912fdeaa73db3b0a3a1976fbb2eb0ba37e981e7fa42dcd1b75b8cd8b6f7f"
+        "sha256": "1c80cce8f499299f39659e5d090d445f49ca70467b1910bc053ab0b9f45afeb6"
       },
-      "text": "Stonewrought Dam. Along Loch Modan’s northern rim, waters gather behind Stonewrought Dam. The dwarven barrier holds back the Loch and drains the Wetlands below into habitable marshes. East of Dun Algaz, Stonewrought Dam spans a canyon in one of the great works of dwarven craft. Dark Iron architect Franclorn Forgewright designed it and pioneered the stonewrought technique used to raise it. By holding water in the mountain basin, the dam doubled the Loch’s surface area and steadily lowered the waters to the north. The Wetlands formed from a valley once wholly flooded. Stonewrought Dam now serves Ironforge, but Dark Iron saboteurs from the southern mountains target it. After recent assaults and attempts to slip inside, Ironforge placed a garrison here under Chief Engineer Hinderweir VII. Guards and engineers patrol the masonry day and night. Should the dam be breached, the Loch could drain and send a devastating flood across the Wetlands below."
+      "text": "Stonewrought Dam. Along Loch Modan’s northern rim, waters gather behind Stonewrought Dam. The dwarven barrier holds back the Loch and drains the Wetlands below into habitable marshes. East of Dun Algaz, Stonewrought Dam spans a canyon in one of the great works of dwarven craft. Dark Iron architect Franclorn Forgewright designed it and pioneered the stonewrought technique used to raise it. By holding water in the mountain basin, the dam doubled the Loch’s surface area and steadily lowered the waters to the north. The Wetlands formed from a valley once wholly flooded. Stonewrought Dam now serves Ironforge, but Dark Iron saboteurs from the southern mountains target it. After recent assaults and attempts to slip inside, Ironforge placed a garrison here under Chief Engineer Hinderweir the Seventh. Guards and engineers patrol the masonry day and night. Should the dam be breached, the Loch could drain and send a devastating flood across the Wetlands below."
     },
     "subzone:stormwind-gate": {
       "1": [
@@ -10688,12 +10688,6 @@
       1778,
       2170
     ],
-    "3bd695a932a1a648ec8ca9d4095cfc971e43baf3d666f4b2a320f81f85a5567c": [
-      269,
-      518,
-      796,
-      957
-    ],
     "3c4ac7850813f6a09fe38ae5f3f46d4bf879436de6cbaecd5485ec3170a3d25b": [
       226,
       477,
@@ -11730,6 +11724,17 @@
       2088,
       2551
     ],
+    "93cab7abc7e172d1fd7aa4fb5b74af30f9ec9a4494eec5cde363c315e3881146": [
+      201,
+      443,
+      691,
+      947,
+      1196,
+      1336,
+      1602,
+      1892,
+      2046
+    ],
     "95d3e95a126a643341d98bc91039116c1df03d796352f9bf6fcbfec933ebdc70": [
       239,
       392,
@@ -12315,17 +12320,6 @@
       1206,
       1347
     ],
-    "c3ab9c7fc68de993774660c0094ecfb689277c8d93507693622c4d0d2044b811": [
-      195,
-      442,
-      695,
-      958,
-      1233,
-      1368,
-      1631,
-      1926,
-      2070
-    ],
     "c41032160ac65abee634a798090e998392e34184935725822604e62bd85fc33c": [
       381,
       568,
@@ -12616,6 +12610,12 @@
       547,
       834,
       1154
+    ],
+    "da66efe8fa4b05f4dff93c4239fe27cac75fb5286bd9a1410f1f9dba82f0431e": [
+      301,
+      539,
+      825,
+      972
     ],
     "dacd04914c94f9cd764239e7a3e4936f295d07718f3d0ae7befd6ff5cdd6aa3f": [
       490,
@@ -13255,9 +13255,6 @@
       "1205": 2,
       "461": 1
     },
-    "3bd695a932a1a648ec8ca9d4095cfc971e43baf3d666f4b2a320f81f85a5567c": {
-      "518": 1
-    },
     "3c4ac7850813f6a09fe38ae5f3f46d4bf879436de6cbaecd5485ec3170a3d25b": {
       "1324": 2,
       "477": 1
@@ -13477,6 +13474,10 @@
     "8ede700aeb03cbee12fb6befeba0583f197f00a6ab5d8599a2a070dbb0f3588f": {
       "613": 1
     },
+    "93cab7abc7e172d1fd7aa4fb5b74af30f9ec9a4494eec5cde363c315e3881146": {
+      "1336": 2,
+      "443": 1
+    },
     "95d3e95a126a643341d98bc91039116c1df03d796352f9bf6fcbfec933ebdc70": {
       "392": 1
     },
@@ -13579,10 +13580,6 @@
       "1388": 2,
       "454": 1
     },
-    "c3ab9c7fc68de993774660c0094ecfb689277c8d93507693622c4d0d2044b811": {
-      "1368": 2,
-      "442": 1
-    },
     "c4cfdfad1faa00b544b250f85de8a992c91cb1a9509ca75d85f815918b151565": {
       "1302": 2,
       "508": 1
@@ -13636,6 +13633,9 @@
     },
     "d77614e2be2a4419b1b6b7ad6bd66645e54de3ef9e1e087c3c8271b916d0de71": {
       "328": 1
+    },
+    "da66efe8fa4b05f4dff93c4239fe27cac75fb5286bd9a1410f1f9dba82f0431e": {
+      "539": 1
     },
     "deb1c3bbd7b2712619c2fd8c679c1843bc1b31bccada5ed01e7cde226390cc47": {
       "448": 1

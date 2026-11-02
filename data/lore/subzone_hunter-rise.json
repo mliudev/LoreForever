@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hunter Rise"
  },
- "summary": "Hunters and warriors gather on Hunter Rise, the southern mesa of Thunder Bluff. Its platforms give tauren hunters, trackers, skinners, and warriors room to train and prepare for battle.",
+ "summary": "Hunters and warriors gather on Hunter Rise, Thunder Bluff’s southern mesa. Its platforms give tauren hunters, trackers, skinners, and warriors room to train and prepare for battle.",
  "sections": [
   {
    "title": "The Gathering of Braves",
-   "body": "Rope bridges link Hunter Rise to the neighboring bluffs of Thunder Bluff. At its center, the Hunter's Hall is where seasoned marksmen, trackers, and warriors teach the young. Practice grounds around the hall hold training dummies, weapon racks, and skinning posts. Here, tauren learn the skills needed to wield spear and bow and work hides.",
+   "body": "Rope bridges join Hunter Rise to Thunder Bluff’s neighboring bluffs. At the heart of the mesa, the Hunter's Hall is where seasoned marksmen, trackers, and warriors teach the young. Practice grounds nearby hold training dummies, weapon racks, and skinning posts. There, tauren learn to wield spear and bow and work hides.",
    "spoiler": 0
   },
   {
    "title": "Martial Duty and Defense",
-   "body": "Hunter Rise's people hunt across the plains of Mulgore and help defend Thunder Bluff and the wider Horde. Battlemasters stationed along the rise recruit seasoned fighters for skirmishes against Alliance incursions across contested battlegrounds. Those sworn to protect the herd gather here when the Horde needs them.",
+   "body": "Hunter Rise’s people hunt across the plains of Mulgore and help defend Thunder Bluff and the wider Horde. Battlemasters on the rise recruit seasoned fighters for skirmishes against Alliance incursions across contested battlegrounds. When the Horde needs defenders, those sworn to protect the herd gather here.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "hunter rise trainers",
     "what is on hunter rise"
    ],
-   "answer": "Tauren hunters, warriors, trackers, trappers, and leatherworkers live and train on the mesa. Class and profession trainers teach here, and Horde battlemasters recruit fighters for the faction's wars."
+   "answer": "Tauren hunters, warriors, trackers, trappers, and leatherworkers live and train on Hunter Rise. Class and profession trainers teach there, and Horde battlemasters recruit fighters for the faction's wars."
   },
   {
    "q": "What is the Hunter's Hall?",
@@ -46,7 +46,7 @@
     "hunters lodge thunder bluff",
     "thunder bluff hunter hall"
    ],
-   "answer": "The Hunter's Hall is the main longhouse on Hunter Rise, where seasoned hunters and warriors gather. It is an armory and school for those learning tracking, marksmanship, and close combat."
+   "answer": "The Hunter's Hall is the main longhouse on Hunter Rise, where seasoned hunters and warriors gather. It is an armory and school where students learn tracking, marksmanship, and close combat."
   },
   {
    "q": "Can members of the Alliance visit Hunter Rise?",
@@ -84,5 +84,5 @@
  "attribution": [
   "Hunter Rise"
  ],
- "style": 1
+ "style": 2
 }

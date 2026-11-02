@@ -17,16 +17,16 @@
   "wiki": "Michael Garrett (Classic)",
   "chain": []
  },
- "summary": "In the Undercity, Michael Garrett awaits a crate bound for the Sepulcher. Gordon Wendham packs field supplies in the Trade Quarter, and you bring them to Garrett for the Forsaken bat network to carry toward Silverpine Forest.",
+ "summary": "In the Undercity, Michael Garrett waits for a crate bound for the Sepulcher. Gordon Wendham packs field supplies in the Trade Quarter, and you bring them to Garrett for the Forsaken bats to carry toward Silverpine Forest.",
  "sections": [
   {
    "title": "Supplying the Outposts",
-   "body": "The Forsaken send supplies from the Undercity to outposts such as the Sepulcher in Silverpine Forest. Gordon Wendham packs field supplies in a crate in the Trade Quarter. Moving freight along the ground through blighted forests is slow and leaves it open to ambush by Scourge remnants or wild beasts.",
+   "body": "The Forsaken send supplies from the Undercity to outposts such as the Sepulcher in Silverpine Forest. In the Trade Quarter, Gordon Wendham packs field supplies into a crate. Ground travel through blighted forests is slow, and Scourge remnants or wild beasts may ambush the freight.",
    "spoiler": 0
   },
   {
    "title": "Wings of the Forsaken",
-   "body": "The Forsaken use captive vampire bats, bred and kept by skilled handlers, to avoid dangerous roads. Michael Garrett tends the bats from his roost in the Undercity's Trade Quarter. When you bring him the cargo, it can be strapped to a bat and flown over the hills toward Silverpine, linking the capital with its outposts.",
+   "body": "The Forsaken avoid dangerous roads with captive vampire bats, bred and kept by skilled handlers. Michael Garrett tends the bats from his roost in the Undercity's Trade Quarter. When you bring him the cargo, he can strap it to a bat for flight over the hills toward Silverpine. The bats link the capital with its outposts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "undercity bat master",
     "who is garrett"
    ],
-   "answer": "Michael Garrett handles bats in the Undercity's Trade Quarter. He arranges travel and air deliveries between the Forsaken capital and allied flight masters throughout Lordaeron."
+   "answer": "Michael Garrett tends bats in the Undercity's Trade Quarter. He arranges travel and air deliveries between the Forsaken capital and allied flight masters throughout Lordaeron."
   },
   {
    "q": "What is in Gordon's Crate?",
@@ -56,7 +56,7 @@
     "why use bats",
     "flying supplies"
    ],
-   "answer": "The roads are hazardous, and trained giant bats fly much faster while bypassing ground ambushes."
+   "answer": "The roads are hazardous, and trained giant bats fly much faster while bypassing ambushes on the ground."
   },
   {
    "q": "Where does the delivery go after Michael Garrett?",
@@ -74,7 +74,7 @@
     "find bat handler",
     "undercity flight master location"
    ],
-   "answer": "Michael Garrett is in the southwestern part of the Trade Quarter, where bats arriving from the Sepulcher land."
+   "answer": "Michael Garrett can be found in the southwestern part of the Trade Quarter, where bats arriving from the Sepulcher land."
   },
   {
    "q": "Do you need to have visited the Sepulcher before doing this?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "For travelers arriving from Kalimdor, the Forsaken bat network is the primary way to travel quickly across the northern Eastern Kingdoms."
+   "text": "For travelers arriving from Kalimdor, the Forsaken bat network is the quickest way to travel across the northern Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Michael Garrett (Classic)"
  ],
- "style": 1
+ "style": 2
 }

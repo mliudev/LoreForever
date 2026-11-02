@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Rogues' Quarter"
  },
- "summary": "Scouts, assassins, and underworld operatives gather in the Rogues' Quarter, in the Undercity's southeastern wing. Craftsmen there support their covert work.",
+ "summary": "In the Undercity's southeastern wing, scouts, assassins, and underworld operatives gather in Rogues' Quarter. Its craftsmen support their covert work.",
  "sections": [
   {
    "title": "Shadows of the Undercity",
-   "body": "Survivors skilled in stealth gather in the Rogues' Quarter, deep in the Undercity's southeastern wing. Many served the Kingdom of Lordaeron in life as thieves, cutpurses, or silent blades. In death, they use their skills with stealth, poisons, and misdirection to defend the fledgling nation from the Scourge and the Scarlet Crusade. Operatives sharpen daggers, brew toxins, and hone clandestine skills in this covert haven.",
+   "body": "Survivors skilled in stealth gather deep in the Undercity's southeastern wing. Many served the Kingdom of Lordaeron in life as thieves, cutpurses, or silent blades. In death, they use stealth, poisons, and misdirection to defend the fledgling nation from the Scourge and the Scarlet Crusade.\n\nHere, operatives sharpen daggers, brew toxins, and hone their clandestine skills.",
    "spoiler": 0
   },
   {
    "title": "Tools of the Trade",
-   "body": "Specialized trades in the Rogues' Quarter support undercover survival. Artisans teach travelers leatherworking and skinning, turning raw hides into light, silent armor. Tinkers work at engineering benches, while field medics and apothecaries teach first aid. Poison vendors stationed nearby supply lethal reagents for covert work.",
+   "body": "Specialized trades in Rogues' Quarter help travelers survive undercover. Artisans teach leatherworking and skinning, turning raw hides into light, silent armor. Tinkers work at engineering benches, while field medics and apothecaries teach first aid. Poison vendors nearby supply lethal reagents for covert work.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is rogues quarter",
     "undercity rogues quarter map"
    ],
-   "answer": "The Rogues' Quarter lies in the southeastern section of the Undercity's outer ring, past the Trade Quarter."
+   "answer": "Rogues' Quarter lies in the southeastern section of the Undercity's outer ring, past the Trade Quarter."
   },
   {
    "q": "What trainers can be found here?",
@@ -37,7 +37,7 @@
     "undercity rogue trainer",
     "who trains in rogues quarter"
    ],
-   "answer": "The quarter has rogue trainers and instructors for leatherworking, skinning, engineering, and first aid. Poison vendors are stationed nearby to supply reagents."
+   "answer": "Rogue trainers and instructors for leatherworking, skinning, engineering, and first aid can be found here. Poison vendors nearby supply reagents."
   },
   {
    "q": "Why do the Forsaken maintain a dedicated district for rogues?",
@@ -46,17 +46,17 @@
     "forsaken assassins",
     "undercity rogue lore"
    ],
-   "answer": "The Forsaken rely on espionage, assassination, and hit-and-run tactics to defend their territory from the Scourge and the Scarlet Crusade, so covert operatives are vital to their survival."
+   "answer": "The Forsaken rely on espionage, assassination, and hit-and-run tactics to defend their territory from the Scourge and the Scarlet Crusade. Covert operatives are vital to their survival."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For Forsaken and Horde assassins, the Rogues' Quarter is the premier hub for mastering stealth, learning combat techniques, and stocking up on lethal poison reagents."
+   "text": "As a Forsaken or Horde assassin, you can come to Rogues' Quarter to master stealth, learn combat techniques, and stock up on lethal poison reagents."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can visit the Rogues' Quarter to learn schematics and craft bombs, gadgets, and mechanical tools favored by undercover agents."
+   "text": "As an engineer, you can visit Rogues' Quarter to learn schematics and craft bombs, gadgets, and mechanical tools favored by undercover agents."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Rogues' Quarter"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Calvin Montague",
   "refs": 2
  },
- "summary": "At Deathknell's gate, Calvin Montague preys on newly awakened Forsaken leaving the graveyard, tricking passersby into errands for him.",
+ "summary": "At Deathknell's gate, Calvin Montague catches newly awakened Forsaken on their way out and tricks passersby into running errands for him.",
  "sections": [
   {
    "title": "A Grifter by the Gate",
-   "body": "Calvin Montague waits just beyond Deathknell's gates, where the road leads out into Tirisfal Glades. He tries to talk wandering adventurers into carrying his letters, using false pretenses instead of handling his own correspondence or paying a fair courier's fee. Other prominent undead named Montague manage banking interests in the Undercity. Calvin follows a less reputable path, relying on petty schemes and deception.",
+   "body": "Calvin Montague waits beyond Deathknell's gates, where the road leads into Tirisfal Glades. He tries to persuade wandering adventurers to carry his letters with false promises. He will neither handle his own correspondence nor pay a fair courier's fee. Other prominent undead named Montague manage banking interests in the Undercity. Calvin follows a less reputable path, relying on petty schemes and deception.",
    "spoiler": 0
   },
   {
    "title": "A Rogue's Scheme",
-   "body": "Calvin Montague offers travelers a sealed message to carry for him. Those with sharp wits or underworld training can quickly see through his words. Newly risen undead may still be searching for purpose in Tirisfal's bleak ruins, but Calvin's offer shows how scarce trust can be in the service of the Dark Lady.",
+   "body": "Calvin Montague offers travelers a sealed message to carry for him. Those with sharp wits or underworld training can see through his words. Newly risen undead may still be seeking purpose in Tirisfal's bleak ruins. Calvin's offer shows how scarce trust can be in the service of the Dark Lady.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "calvin letter",
     "what does calvin want"
    ],
-   "answer": "Calvin Montague tries to talk passing travelers into carrying a letter for him under false pretenses, hoping to get free courier service through smooth talk."
+   "answer": "Calvin Montague tries to persuade passing travelers to carry a letter under false pretenses. He hopes smooth talk will earn him free courier service."
   },
   {
    "q": "Is Calvin Montague related to the Undercity bankers?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Calvin Montague"
  ],
- "style": 1
+ "style": 2
 }

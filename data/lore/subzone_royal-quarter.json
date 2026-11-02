@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Royal Quarter"
  },
- "summary": "In the Royal Quarter, Sylvanas Windrunner directs the Forsaken from her throne. Varimathras stands at her side, while Royal Dreadguards protect the seat of power beneath the Undercity.",
+ "summary": "In the Royal Quarter, Sylvanas Windrunner directs the Forsaken from her throne. Varimathras stands at her side, and Royal Dreadguards guard the seat of power beneath the Undercity.",
  "sections": [
   {
    "title": "The Seat of the Dark Lady",
-   "body": "The Royal Quarter, also called the Hall of the Dark Lady, is where the Forsaken make their military and political decisions. Sylvanas Windrunner holds court in its vast chamber beneath the Undercity, working for the survival of her free-willed undead and the destruction of the Scourge. Royal Dreadguards keep watch along the dais, protecting their queen from uninvited visitors and would-be assassins.",
+   "body": "The Forsaken make their military and political decisions in the Royal Quarter, also called the Hall of the Dark Lady. Beneath the Undercity, Sylvanas Windrunner holds court in its vast chamber. She works for the survival of her free-willed undead and the destruction of the Scourge. Royal Dreadguards watch along the dais, shielding their queen from uninvited visitors and would-be assassins.",
    "spoiler": 0
   },
   {
    "title": "A Dangerous Alliance",
-   "body": "Varimathras, a nathrezim, stands beside Sylvanas in the heart of the Undercity. During the civil war in the ruins of Lordaeron, he sided with her to save his own life and pledged loyalty to her cause. From the Royal Quarter, he commands deathstalkers and coordinates defenses across the realm. His tactical skill serves the Forsaken, but his demonic nature makes many Horde allies wary of his true allegiance.",
+   "body": "Varimathras, a nathrezim, stands beside Sylvanas in the heart of the Undercity. During the civil war in the ruins of Lordaeron, he sided with her to save his own life and pledged loyalty to her cause. From the Royal Quarter, he commands deathstalkers and coordinates defenses across the realm.\n\nHis tactical skill aids the Forsaken, yet many Horde allies distrust his true allegiance because he is a demon.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "dreadlord in undercity",
     "why is demon in royal quarter"
    ],
-   "answer": "Varimathras surrendered to Sylvanas Windrunner during the reconquest of Capital City, then betrayed his brothers Detheroc and Balnazzar. He saved his own life by swearing loyalty to Sylvanas, and now acts as her enforcer and master of scouts."
+   "answer": "During the reconquest of Capital City, Varimathras surrendered to Sylvanas Windrunner, then betrayed his brothers Detheroc and Balnazzar. He saved his own life by swearing loyalty to Sylvanas. Now he is her enforcer and master of scouts."
   },
   {
    "q": "What are the Royal Dreadguards?",
@@ -46,7 +46,7 @@
     "undercity throne room guards",
     "royal quarter guards"
    ],
-   "answer": "The Royal Dreadguards are elite Forsaken chosen to protect Lady Sylvanas and the Royal Quarter. They are among the Undercity's most disciplined and lethal defenders."
+   "answer": "The Royal Dreadguards are elite Forsaken chosen to protect Lady Sylvanas and the Royal Quarter. They are among the Undercity's most disciplined and deadly defenders."
   },
   {
    "q": "What other function does this chamber serve?",
@@ -55,7 +55,7 @@
     "royal quarter purpose",
     "battlemasters royal quarter"
    ],
-   "answer": "The Royal Quarter is also an audience chamber for the Dark Lady and Varimathras, and houses battlemasters. They coordinate Horde combatants for foreign campaigns and strategic skirmishes across Azeroth."
+   "answer": "The Royal Quarter also holds audiences for the Dark Lady and Varimathras, and houses battlemasters. They coordinate Horde combatants for foreign campaigns and strategic skirmishes across Azeroth."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Royal Quarter"
  ],
- "style": 1
+ "style": 2
 }

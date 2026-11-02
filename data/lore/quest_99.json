@@ -23,16 +23,16 @@
    "Arugal's Folly (4)"
   ]
  },
- "summary": "In Pyrewood Village, Dalar Dawnweaver seeks the magic binding its people to a curse. He needs enchanted shackles from the villagers to study Archmage Arugal's work and understand the worgen transformation.",
+ "summary": "In Pyrewood Village, Dalar Dawnweaver seeks the magic binding its people to a curse. He needs their enchanted shackles to study Archmage Arugal's work and understand their transformation into worgen.",
  "sections": [
   {
    "title": "The Dual Lives of Pyrewood",
-   "body": "South of the Sepulcher, Pyrewood Village lives two lives. In daylight, its fearful, insular residents appear to be ordinary human peasants. At twilight, their human forms tear apart and become savage Moonrage worgen, roaming the streets under Arugal's sway. Dalar Dawnweaver seeks to learn what arcane bindings cause this horror.",
+   "body": "South of the Sepulcher, Pyrewood Village lives two lives. By day, its fearful and insular residents seem like ordinary human peasants. At twilight, their human forms break apart and become savage Moonrage worgen. Then they roam the streets under Arugal's sway. Dalar Dawnweaver seeks the arcane bindings behind this horror.",
    "spoiler": 0
   },
   {
    "title": "Shattering the Shackles",
-   "body": "Dalar Dawnweaver needs enchanted Pyrewood Shackles from the transformed townsfolk to study the spell holding Pyrewood in thrall. The restraints carry the lingering sorcery of Arugal's failed wards. By examining their magic, the Forsaken mage hopes to understand the beastly transformation and find a way to bring down the rogue archmage of Shadowfang Keep.",
+   "body": "Dalar Dawnweaver needs enchanted Pyrewood Shackles from the transformed townsfolk. Their magic holds Pyrewood in thrall and carries the lingering sorcery of Arugal's failed wards. By studying it, the Forsaken mage hopes to understand the beastly transformation and find a way to bring down the rogue archmage of Shadowfang Keep.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "pyrewood curse",
     "why human then wolf"
    ],
-   "answer": "Archmage Arugal's enchantments keep Pyrewood's people human by day, through an illusion or a dormant state. At night, they become Moonrage worgen under his control."
+   "answer": "Archmage Arugal's enchantments keep Pyrewood's people human by day, through illusion or a dormant state. At night, they become Moonrage worgen under his control."
   },
   {
    "q": "What are the Pyrewood Shackles?",
@@ -52,7 +52,7 @@
     "pyrewood shackle",
     "arugal shackles"
    ],
-   "answer": "The Pyrewood Shackles are enchanted bindings worn by Pyrewood's cursed residents. Arugal used them as part of his magic over the town, and Dalar Dawnweaver studies their lingering energy to learn about the curse."
+   "answer": "The Pyrewood Shackles are enchanted bindings worn by Pyrewood's cursed residents. Arugal used them in his magic over the town, and Dalar Dawnweaver studies their lingering power to learn about the curse."
   },
   {
    "q": "Who is Dalar Dawnweaver?",
@@ -68,7 +68,7 @@
     "can you cure pyrewood",
     "do pyrewood people get cured"
    ],
-   "answer": "No. The shackles give Dalar Dawnweaver insight into Arugal's magic, but Pyrewood's curse continues to hold the village in perpetual torment."
+   "answer": "No. The shackles give Dalar Dawnweaver insight into Arugal's magic, but Pyrewood's curse still holds the village in perpetual torment."
   },
   {
    "q": "How does Arugal control the villagers?",
@@ -90,15 +90,15 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you may see Pyrewood with cold fascination and ruthless pragmatism. Dismantling Arugal's enchantments could secure southern Silverpine."
+   "text": "As Forsaken, you may view Pyrewood with cold fascination and ruthless pragmatism. Dismantling Arugal's enchantments could secure southern Silverpine."
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, you know Arugal's shackles warn how Kirin Tor sorcery can descend into madness when mixed with otherworldly summoned beasts."
+   "text": "As a mage, you know Arugal's shackles warn how Kirin Tor sorcery can descend into madness when joined with otherworldly summoned beasts."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help secure shackles that break Arugal's mystical stranglehold over the road south toward the Greymane Wall."
+   "text": "As a member of the Horde, you help secure shackles that can break Arugal's mystical hold over the road south toward the Greymane Wall."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Arugal's Folly (4)"
  ],
- "style": 1
+ "style": 2
 }

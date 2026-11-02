@@ -17,16 +17,16 @@
   "wiki": "A Letter Undelivered",
   "chain": []
  },
- "summary": "A faded, bloodstained letter to Yvette Farthing lies among the skeletal ruins of Agamand Mills. It recalls two lovers parted as the Scourge swept across Lordaeron, and what the Forsaken left behind when they traded life for undeath.",
+ "summary": "Among Agamand Mills' skeletal ruins, A Letter Undelivered lies bloodstained and faded. It recalls two lovers parted as the Scourge swept across Lordaeron, and the life Forsaken left behind.",
  "sections": [
   {
    "title": "A Message Lost in the Fall",
-   "body": "Thurman Agamand, eldest son of patriarch Gregor Agamand, wrote the message that never reached Yvette Farthing. When the Plague of Undeath consumed Tirisfal Glades, Thurman refused to leave his ancestral home or his kin. As the Scourge struck, he took up his quill to write to Yvette, whom he had loved before the kingdom turned to ash.",
+   "body": "Thurman Agamand, eldest son of patriarch Gregor Agamand, wrote a message that never reached Yvette Farthing. When the Plague of Undeath consumed Tirisfal Glades, Thurman refused to leave his ancestral home or his kin. As the Scourge struck, he took up his quill for Yvette. He had loved her before the kingdom turned to ash.",
    "spoiler": 0
   },
   {
    "title": "The Severed Bond",
-   "body": "When Yvette Farthing receives the letter at the Gallows' End Tavern in Brill, a painful memory returns. She recalls begging Thurman to flee Agamand Mills with her and her father, and says his brother Brand bore him ill will. The warmth soon passes. Yvette steels her heart, casts aside mortal remorse, and declares that love has no place in her new existence.",
+   "body": "At the Gallows' End Tavern in Brill, Yvette Farthing receives Thurman's letter and remembers their parting. She recalls begging him to flee Agamand Mills with her and her father. She says his brother Brand bore him ill will.\n\nThe warmth soon passes. Yvette steels her heart, casts aside mortal remorse, and declares that love has no place in her new existence.",
    "spoiler": 1
   }
  ],
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The letter shows the painful divide between a Forsaken's mortal memories and the cold, purpose-driven existence they lead under the Banshee Queen."
+   "text": "As an undead, you know the painful divide between mortal memories and the cold, purpose-driven life Forsaken lead under the Banshee Queen."
   },
   {
    "target": "faction:Horde",
-   "text": "For travelers in Brill, this recovered parchment shows the emotional detachment that defines the Forsaken people."
+   "text": "As a member of the Horde, you can see in this recovered parchment the emotional detachment that defines the Forsaken people."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "A Letter Undelivered"
  ],
- "style": 1
+ "style": 2
 }

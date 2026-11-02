@@ -10,11 +10,11 @@
    "quest:759"
   ]
  },
- "summary": "Around Thunder Bluff, prairie wolf alphas roam Mulgore’s open plains. Mull Thunderhorn needs their teeth to cleanse the Wildmane Well.",
+ "summary": "Near Thunder Bluff, prairie wolf alphas roam Mulgore’s open plains. Mull Thunderhorn needs their teeth to cleanse the Wildmane Well.",
  "sections": [
   {
    "title": "A Cleansing Offering",
-   "body": "Mulgore’s wells sustain the tauren, and keeping them pure calls for rites of respect and sacrifice. Mull Thunderhorn of Bloodhoof Village needs teeth from the prairie wolf alphas that prowl beneath Thunder Bluff to cleanse the Wildmane Well. These fierce pack leaders embody the strength of the wild. Their teeth honor the balance between hunter, prey, and the spirits of the earth.",
+   "body": "Mulgore’s wells sustain the tauren, and rites of respect and sacrifice keep them pure. Mull Thunderhorn of Bloodhoof Village needs teeth from the prairie wolf alphas beneath Thunder Bluff to cleanse the Wildmane Well. These fierce pack leaders embody the wild’s strength. Their teeth honor the balance between hunter, prey, and the spirits of the earth.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what are wolf teeth for mulgore",
     "wildmane totem item"
    ],
-   "answer": "Mull Thunderhorn uses eight prairie alpha teeth in a ritual to cleanse the Wildmane Well, the final contaminated well near Bloodhoof Village."
+   "answer": "Mull Thunderhorn uses eight prairie alpha teeth in a ritual to cleanse the Wildmane Well. It is the final contaminated well near Bloodhoof Village."
   },
   {
    "q": "Where do Prairie Wolf Alphas roam?",
@@ -35,7 +35,7 @@
     "alpha wolf locations",
     "prairie wolf alpha spots"
    ],
-   "answer": "Prairie wolf alphas roam the open grassy plains of central and northern Mulgore, especially around the bluffs at the base of Thunder Bluff."
+   "answer": "Prairie wolf alphas roam Mulgore’s open grassy plains, especially in the central and northern reaches near the bluffs at Thunder Bluff’s base."
   },
   {
    "q": "Why does a water cleansing ritual require wolf teeth?",
@@ -43,17 +43,17 @@
     "why wolf teeth for water",
     "mull thunderhorn tooth ritual lore"
    ],
-   "answer": "Tauren rites honor nature’s balance. The cleansing calls for sacred parts taken from Mulgore’s fierce native beasts, symbols of sacrifice and the vitality of its wildlife."
+   "answer": "Tauren rites honor nature’s balance. The cleansing calls for sacred parts from Mulgore’s fierce native beasts, symbols of sacrifice and the vitality of its wildlife."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, taking a prairie alpha’s fang honors the hunter’s sacred duty to gather what is needed with respect and return that primal essence to heal the poisoned earth."
+   "text": "As a tauren, taking a prairie alpha’s fang honors your sacred duty as a hunter. Gather what is needed with respect, then return that primal essence to heal the poisoned earth."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you appease the spirits of the wells through earthly balance. Offering an apex predator’s fangs anchors that natural harmony."
+   "text": "As a shaman, you appease the spirits of the wells by restoring earthly balance. Offering an apex predator’s fangs anchors that natural harmony."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
   "Prairie Alpha Tooth",
   "Wildmane Totem (Classic)"
  ],
- "style": 1
+ "style": 2
 }

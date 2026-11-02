@@ -10,11 +10,11 @@
    "quest:444"
   ]
  },
- "summary": "In Silverpine Forest, Sample Ichor carries traces of necromancy and warlock sorcery. Apothecary Renferrel refined it from the fluid that sustains the Rot Hide gnolls.",
+ "summary": "In Silverpine Forest, Sample Ichor bears traces of necromancy and warlock sorcery. Apothecary Renferrel refined it from the fluid that sustains the Rot Hide gnolls.",
  "sections": [
   {
    "title": "Unraveling the Rot Hides",
-   "body": "Apothecary Renferrel sent Sample Ichor to the Undercity for closer study. He recovered samples from the Rot Hide gnolls and their lingering remnants, then reduced the foul liquid to its base components. His analysis showed that the ichor was made through necromantic rites woven with warlock magic. Since its craft reaches beyond simple alchemy, Renferrel sent the sample to Bethor Iceshard for divination.",
+   "body": "Apothecary Renferrel sent Sample Ichor to the Undercity for closer study. He gathered it from the Rot Hide gnolls and their lingering remnants, then reduced the foul liquid to its base components. His findings showed that necromantic rites and warlock magic had shaped the ichor. Since its making reaches beyond simple alchemy, Renferrel sent it to Bethor Iceshard for divination.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this ichor",
     "what is sample ichor"
    ],
-   "answer": "Sample Ichor is a refined extract Apothecary Renferrel prepared from the bodily fluids of the Rot Hide gnolls. He separated it into its base components to learn how magic was used to create the walking dead beasts."
+   "answer": "Sample Ichor is an extract Apothecary Renferrel refined from the bodily fluids of the Rot Hide gnolls. He separated it into its base components to learn how magic had made the walking dead beasts."
   },
   {
    "q": "Who needs to see this sample?",
@@ -35,7 +35,7 @@
     "sample ichor turn in",
     "bethor iceshard ichor"
    ],
-   "answer": "Bethor Iceshard needs to examine the sample. He is an undead mage stationed in the Undercity's Magic Quarter, where his skill in divination and magical traditions can reveal traces ordinary alchemy cannot discern."
+   "answer": "Bethor Iceshard needs to examine Sample Ichor. He is an undead mage in the Undercity's Magic Quarter, skilled in divination and magical traditions that can reveal traces ordinary alchemy cannot discern."
   },
   {
    "q": "What kind of magic is inside the ichor?",
@@ -44,7 +44,7 @@
     "ichor magic type",
     "rot hide magic"
    ],
-   "answer": "The ichor contains warlock and necromantic magic bound into the fluid. Bethor Iceshard notes that the vial is laced with powerful, ancient enchantments, requiring deeper divination to uncover fully."
+   "answer": "Sample Ichor holds warlock and necromantic magic bound into its fluid. Bethor Iceshard says the vial bears powerful, ancient enchantments that need deeper divination to uncover fully."
   },
   {
    "q": "Why didn't the apothecaries finish analyzing it themselves?",
@@ -52,17 +52,17 @@
     "why apothecary sent to bethor",
     "why not renounce rot hide ichor"
    ],
-   "answer": "The Royal Apothecary Society excels in alchemy, toxins, and bodily blights, while complex arcane weaves call for a dedicated sorcerer. Bethor Iceshard can identify magical schools and unravel esoteric spells beyond an apothecary's usual tools."
+   "answer": "The Royal Apothecary Society excels in alchemy, toxins, and bodily blights. Complex arcane weaves call for a sorcerer like Bethor Iceshard, who can identify magical schools and unravel esoteric spells beyond an apothecary's usual tools."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you may recognize the warlock arts Apothecary Renferrel detected interwoven with necromancy in the ichor, hinting that fel practices helped bind these undead beasts."
+   "text": "As a warlock, you may recognize the warlock arts Apothecary Renferrel found woven with necromancy in the ichor. This hints that fel practices helped bind these undead beasts."
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, you know the value of classical arcane analysis against dark sorcery. Bethor Iceshard uses specialized divination spells to read the residue in the sample."
+   "text": "As a mage, you know the value of classical arcane study against dark sorcery. Bethor Iceshard uses specialized divination spells to read the residue in Sample Ichor."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Sample Ichor",
   "Rot Hide Origins"
  ],
- "style": 1
+ "style": 2
 }

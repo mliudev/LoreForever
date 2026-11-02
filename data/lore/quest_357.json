@@ -17,16 +17,16 @@
   "wiki": "The Lich's Identity",
   "chain": []
  },
- "summary": "Bethor Iceshard seeks to learn who lives alone on Brightwater Lake. He sends an emissary to steal the recluse's spellbook and judge his power and allegiance.",
+ "summary": "Bethor Iceshard seeks the name of the lone lich on Brightwater Lake. He sends an emissary to take the lich's spellbook and learn his power and allegiance.",
  "sections": [
   {
    "title": "A Recluse on the Lake",
-   "body": "A lone lich lives in exile on a small island in Brightwater Lake, north of the Undercity. He has free will, unlike the Lich King's mindless pawns, but paranoia rules his life. He believes any undead who approach are Scourge thralls sent to drag him back into servitude. So he unleashes summoned minions on anyone who sets foot on his shore.",
+   "body": "A lone lich lives in exile on a small island in Brightwater Lake, north of the Undercity. Unlike the Lich King's mindless pawns, he has free will, but paranoia rules him. He believes any undead who come near are Scourge thralls sent to drag him back into servitude. So he sends summoned minions against anyone who sets foot on his shore.",
    "spoiler": 0
   },
   {
    "title": "A Valuable Asset",
-   "body": "Word of the rogue lich reaches Bethor Iceshard, the archmage who oversees the Undercity's mages. Bethor knows Lady Sylvanas Windrunner seeks every scrap of magical mastery and every capable will to strengthen the Forsaken against their many foes. To judge whether the hermit can be recruited, Bethor needs proof of his identity and necromantic skill.",
+   "body": "Word of the rogue lich reaches Bethor Iceshard, the archmage who oversees the Undercity's mages. Bethor knows Lady Sylvanas Windrunner seeks every scrap of magical mastery and every capable will to strengthen the Forsaken against their many foes. To learn whether the recluse can be recruited, Bethor needs proof of his identity and necromantic skill.",
    "spoiler": 0
   },
   {
@@ -52,7 +52,7 @@
     "why does the lich attack",
     "brightwater lich hostile"
    ],
-   "answer": "The lich freed himself from the Lich King's control, but wrongly believes every other undead in Lordaeron remains a mind-controlled Scourge thrall. He orders his minions to attack anyone approaching his island to protect his freedom."
+   "answer": "The lich freed himself from the Lich King's control, but wrongly believes every other undead in Lordaeron remains a mind-controlled Scourge thrall. He orders his minions to attack anyone who approaches his island, guarding his freedom."
   },
   {
    "q": "Where is the lich's camp located?",
@@ -70,7 +70,7 @@
     "forsaken interest in gunther",
     "sylvanas lich"
    ],
-   "answer": "Lady Sylvanas seeks rare, independent undead with great magical skill. A free-willed necromancer wielding potent death magic could help the Forsaken fight the Scourge and the Scarlet Crusade."
+   "answer": "Lady Sylvanas seeks rare undead with great magical skill and free will. A free-willed necromancer wielding potent death magic could help the Forsaken fight the Scourge and the Scarlet Crusade."
   },
   {
    "q": "Who does the lich turn out to be?",
@@ -129,5 +129,5 @@
  "attribution": [
   "The Lich's Identity"
  ],
- "style": 1
+ "style": 2
 }

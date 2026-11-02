@@ -10,16 +10,16 @@
    "quest:1821"
   ]
  },
- "summary": "At Agamand Mills, the Agamand Family Mace remains locked in the family crypt. Once a proud heirloom of northern Lordaeron, it is now sought by their former servant, Coleman Farthing.",
+ "summary": "At Agamand Mills, the Agamand Family Mace remains sealed in the family crypt. Once the heirloom of a proud family in northern Lordaeron, it is now sought by their former servant, Coleman Farthing.",
  "sections": [
   {
    "title": "A Legacy in Ruin",
-   "body": "Before the Third War, the Agamand family held vast farmlands and windmills in northern Tirisfal Glades. Like the region’s other aristocrats, they fell to the plague of undeath. The Scourge raised them as mindless thralls in service to the Lich King, and they wander their ruined estate. Their ancient treasures remain locked in the family crypt. Among them rests the Agamand Family Mace, a remnant of a lineage reduced to shambling undead.",
+   "body": "Before the Third War, the Agamands held vast farmlands and windmills in northern Tirisfal Glades. Like the region’s other aristocrats, they fell to the plague of undeath. The Scourge raised them as mindless thralls in service to the Lich King, and now they wander their ruined estate. Their ancient treasures remain locked in the family crypt. Among them lies the Agamand Family Mace, a remnant of a lineage brought low.",
    "spoiler": 0
   },
   {
    "title": "A Servant's Vengeance",
-   "body": "Coleman Farthing seeks the mace along with three other martial heirlooms. The former Agamand employee blames the family for his death. Raised among the Forsaken, Farthing wants to strip the mindless Agamands of every trace of dignity and honor. He seeks the ancestral sword, axe, and dagger as well as the mace, hoping to erase the memory and pride of his former masters from the lands they once ruled.",
+   "body": "Coleman Farthing seeks the mace and three other martial heirlooms. The former Agamand employee blames the family for his death. Raised among the Forsaken, Farthing wants to strip the mindless Agamands of every trace of dignity and honor. He seeks their ancestral sword, axe, and dagger as well as the mace, hoping to erase his former masters’ memory and pride from the lands they once ruled.",
    "spoiler": 1
   }
  ],
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The desecration of the Agamand crypts shows how old mortal grievances can drive the Forsaken to settle scores from life."
+   "text": "As Forsaken, you know how a grievance from life can drive one of your people to settle an old score."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Agamand Family Mace",
   "Agamand Heirlooms"
  ],
- "style": 1
+ "style": 2
 }

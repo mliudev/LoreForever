@@ -8,16 +8,16 @@
   "wiki": "Baine Bloodhoof",
   "refs": 12
  },
- "summary": "In Bloodhoof Village, Baine Bloodhoof guards his people and Mulgore. While Cairne leads from Thunder Bluff, Baine directs local defense against gnolls and outside threats.",
+ "summary": "In Bloodhoof Village, Baine Bloodhoof guards his people and Mulgore. Cairne leads from Thunder Bluff, while Baine directs the village’s defense against gnolls and outside threats.",
  "sections": [
   {
    "title": "Son of the High Chieftain",
-   "body": "Baine Bloodhoof grew up traveling with his nomadic people, the son of Cairne. They settled in Mulgore’s grasslands, where centaur clans remained a threat. After the Third War, Khiragg’s warband captured Baine, and grief left Cairne nearly unable to lead the new settlements. Rexxar freed Baine from captivity. The rescue restored Cairne’s spirit, and the tauren stood with Thrall’s Horde against the invading Kul Tirans, securing their foothold on the continent.",
+   "body": "Baine Bloodhoof grew up traveling with his nomadic people as Cairne’s son. They settled in Mulgore’s grasslands, where centaur clans remained a threat. After the Third War, Khiragg’s warband captured Baine, and grief nearly kept Cairne from leading the new settlements. Rexxar freed Baine, restoring Cairne’s spirit. Then the tauren stood with Thrall’s Horde against the invading Kul Tirans and secured their foothold on the continent.",
    "spoiler": 0
   },
   {
    "title": "Guardian of Bloodhoof Village",
-   "body": "Baine lives among his kin in Bloodhoof Village rather than at the capital mesas. As Cairne grows older, Baine bears more responsibility for the people and represents the next generation of tauren leadership. He directs braves and visiting allies against Palemane gnolls that trouble the borders, and watches for outside influences that threaten Mulgore’s natural balance.",
+   "body": "Baine lives among his kin in Bloodhoof Village, not at the capital mesas. As Cairne grows older, Baine carries more responsibility for the people and represents the next generation of tauren leadership. He directs braves and visiting allies against Palemane gnolls troubling the borders. He also watches for outside influences that threaten Mulgore’s natural balance.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "who is baine",
     "cairnes son"
    ],
-   "answer": "Baine Bloodhoof is Cairne Bloodhoof’s only son. He oversees defense and tribal affairs in Bloodhoof Village, directing local braves and protecting Mulgore while his father rules from Thunder Bluff."
+   "answer": "Baine Bloodhoof is Cairne Bloodhoof’s only son. He oversees defense and tribal affairs in Bloodhoof Village, directing local braves and protecting Mulgore while Cairne rules from Thunder Bluff."
   },
   {
    "q": "Where can Baine be found right now?",
@@ -43,7 +43,7 @@
     "where is baine",
     "baine bloodhoof spot"
    ],
-   "answer": "Baine is in Bloodhoof Village, in central Mulgore just south of Thunder Bluff. Near the town center, he organizes tasks for newly arrived adventurers."
+   "answer": "Baine is in Bloodhoof Village, in central Mulgore just south of Thunder Bluff. Near the town center, he organizes work for newly arrived adventurers."
   },
   {
    "q": "How was Baine rescued from the centaur?",
@@ -52,7 +52,7 @@
     "rexxar saves baine",
     "baine captured"
    ],
-   "answer": "After the Third War, Khiragg captured Baine, leaving Cairne in debilitating despair. Rexxar sought help from Bovan Windtotem’s outcasts, tracked the centaur to their encampment, slew Baine’s captors, and returned him safely to his father."
+   "answer": "After the Third War, Khiragg captured Baine, leaving Cairne in debilitating despair. Rexxar sought help from Bovan Windtotem’s outcasts and tracked the centaur to their encampment. He slew Baine’s captors and returned him safely to his father."
   },
   {
    "q": "What problems does Baine manage in Bloodhoof Village?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Baine Bloodhoof"
  ],
- "style": 1
+ "style": 2
 }

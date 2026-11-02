@@ -10,16 +10,16 @@
    "quest:451"
   ]
  },
- "summary": "Forsaken researchers seek a Hardened Tumor for their work on the New Plague. Apothecary Berard first studied the growth before Arugal's curse made him a mindless servant.",
+ "summary": "In Silverpine, the Royal Apothecary Society studies a rare growth found in Vile Fin murlocs. Apothecary Berard first recorded it before Arugal's curse left him a mindless servant.",
  "sections": [
   {
    "title": "A Rare Biological Anomaly",
-   "body": "Along Lake Lordamere, Vile Fin murlocs sometimes develop a rare, calcified growth. Apothecary Berard recorded the abnormality while studying wildlife along Silverpine Forest's eastern borders. The growth appears only in mature specimens along the shoreline and the Dawning Isles. Its cause remains uncertain, but the Royal Apothecary Society took notice of the dense tissue.",
+   "body": "Along Lake Lordamere, Vile Fin murlocs sometimes develop a rare, calcified growth. Apothecary Berard recorded it while studying wildlife along Silverpine Forest's eastern borders. It appears only in mature specimens along the shoreline and the Dawning Isles. Its cause remains uncertain, yet the Royal Apothecary Society took notice of the dense tissue.",
    "spoiler": 0
   },
   {
    "title": "Fuel for the New Plague",
-   "body": "After Arugal's curse left Berard a mindless servant, his journal was recovered from Pyrewood Village and taken to Apothecary Renferrel at the Sepulcher. Renferrel saw promise in Berard's work and sent Forsaken agents to retrieve a Hardened Tumor and native aquatic mosses. Master Apothecary Faranell oversees the Apothecarium in the Undercity, where he seeks reagents that can resist decay or alter biological matter. He added the growth to the Society's ongoing work on the New Plague.",
+   "body": "After Arugal's curse left Berard a mindless servant, his journal was recovered from Pyrewood Village and taken to Apothecary Renferrel at the Sepulcher. Renferrel saw promise in the work and sent Forsaken agents to retrieve a Hardened Tumor and native aquatic mosses.\n\nMaster Apothecary Faranell oversees the Apothecarium in the Undercity. He seeks reagents that can resist decay or alter biological matter, and added the growth to the Society's ongoing work on the New Plague.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "tumor lore",
     "hardened tumor drop"
    ],
-   "answer": "A Hardened Tumor is a rare, abnormal calcified mass that forms inside Vile Fin murlocs around Lake Lordamere. Apothecary Berard discovered it, and it resists ordinary physical decay and has unusual biological properties."
+   "answer": "A Hardened Tumor is a rare, abnormal calcified mass that forms inside Vile Fin murlocs around Lake Lordamere. Apothecary Berard discovered it, and its unusual biological properties resist ordinary physical decay."
   },
   {
    "q": "Why does the Royal Apothecary Society want it?",
@@ -40,7 +40,7 @@
     "recipe for death tumor use",
     "faranell tumor"
    ],
-   "answer": "The Royal Apothecary Society gathers unusual toxic and biological specimens to make the New Plague. Master Apothecary Faranell considers the tumor's resilience and cellular makeup a candidate for blight experiments."
+   "answer": "The Royal Apothecary Society gathers unusual toxic and biological specimens for its work on the New Plague. Master Apothecary Faranell considers the tumor's resilience and cellular makeup a candidate for blight experiments."
   },
   {
    "q": "Where are these tumors found?",
@@ -58,13 +58,13 @@
     "berard lore",
     "berard journal"
    ],
-   "answer": "Apothecary Berard was a Royal Apothecary Society apothecary stationed in Silverpine Forest. Arugal's curse made him a mindless servant in Pyrewood Village. Berard researched local flora, fauna, and murloc mutations, and uncovered the utility of the Dawning Isles' mosses and hardened tumors."
+   "answer": "Apothecary Berard was a Royal Apothecary Society apothecary stationed in Silverpine Forest. He researched local flora, fauna, and murloc mutations, and uncovered the utility of the Dawning Isles' mosses and hardened tumors. Arugal's curse made him a mindless servant in Pyrewood Village."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you help advance Master Apothecary Faranell's research into the New Plague, serving Lady Sylvanas and the Forsaken's struggle against living and undead adversaries."
+   "text": "As an Undead, you help Master Apothecary Faranell advance his research into the New Plague. You serve Lady Sylvanas and the Forsaken's struggle against living and undead adversaries."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Hardened Tumor",
   "A Recipe For Death (3)"
  ],
- "style": 1
+ "style": 2
 }

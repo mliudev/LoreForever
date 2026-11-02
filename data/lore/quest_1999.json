@@ -20,16 +20,16 @@
    "Tools of the Trade (Classic)"
   ]
  },
- "summary": "Horde rogues are sent from the Undercity to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and recover Kirin Tor intelligence on Dalaran’s condition.",
+ "summary": "In the Undercity, Horde rogues are sent to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and learn Dalaran’s condition from Kirin Tor intelligence.",
  "sections": [
   {
    "title": "Eyes on Ambermill",
-   "body": "A prisoner’s interrogation points the Deathstalkers toward intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Deathstalker handler Mennet Carkad to direct promising operatives around the Kirin Tor sentries and recover the Dalaran Status Report.",
+   "body": "A prisoner’s interrogation leads the Deathstalkers to intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Mennet Carkad, a Deathstalker handler, to guide promising operatives past the Kirin Tor sentries and recover the Dalaran Status Report.",
    "spoiler": 0
   },
   {
    "title": "The Art of the Breach",
-   "body": "Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives receive specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill proves an operative can move beyond street brutality and become an espionage asset for the Forsaken.",
+   "body": "Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives collect specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill shows an operative can move beyond street brutality and serve the Forsaken as an espionage asset.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "kirin tor papers",
     "status report"
    ],
-   "answer": "The Dalaran Status Report is a sealed Kirin Tor dispatch about conditions in Dalaran. Deathstalker interrogators learned its location from a prisoner, revealing that vital information about the Forsaken’s southern neighbors was vulnerable."
+   "answer": "The Dalaran Status Report is a sealed Kirin Tor dispatch about conditions in Dalaran. Deathstalker interrogators learned its location from a prisoner, exposing how vulnerable vital information about the Forsaken’s southern neighbors is."
   },
   {
    "q": "Where is the report kept?",
@@ -127,5 +127,5 @@
  "attribution": [
   "Tools of the Trade (Classic)"
  ],
- "style": 1
+ "style": 2
 }

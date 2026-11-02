@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonebull Lake"
  },
- "summary": "Stonebull Lake curves around Bloodhoof Village in central Mulgore, giving the tauren fresh water and fish.",
+ "summary": "At Stonebull Lake, tauren draw fresh water and fish from the heart of Mulgore.",
  "sections": [
   {
    "title": "Waters of the Plain",
-   "body": "Stonebull Lake curves around Bloodhoof Village on three sides, shaping the heart of central Mulgore. A wooden bridge crosses its narrowest stretch, carrying the main dirt road between the village and Thunder Bluff on the great mesa to the north. Native fish fill the calm water. Hunters rest on the banks, travelers pause there, and apprentice fishers learn their trade beneath the open sky.",
+   "body": "Stonebull Lake curves around Bloodhoof Village on three sides, at the heart of central Mulgore. A wooden bridge spans its narrowest stretch. The main dirt road crosses there, linking the village with Thunder Bluff on the great mesa to the north. Native fish fill the calm water. Hunters rest on the banks, travelers pause, and apprentice fishers learn their trade beneath the open sky.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "bridge near bloodhoof",
     "road over stonebull lake"
    ],
-   "answer": "The bridge crosses the lake's narrowest stretch and carries the main dirt road between Bloodhoof Village and Thunder Bluff to the north."
+   "answer": "The bridge crosses the lake at its narrowest stretch. The main dirt road runs over it between Bloodhoof Village and Thunder Bluff to the north."
   },
   {
    "q": "Why is Stonebull Lake important to the tauren?",
@@ -40,7 +40,7 @@
     "why does stonebull lake matter",
     "purpose of stonebull lake"
    ],
-   "answer": "Stonebull Lake gives Bloodhoof Village fresh water and fish. Its quiet shores also offer young tauren braves in training a place to gather and reflect."
+   "answer": "Stonebull Lake gives Bloodhoof Village fresh water and fish. Its quiet shores also give young tauren braves in training a place to gather and reflect."
   }
  ],
  "angles": [
@@ -65,5 +65,5 @@
  "attribution": [
   "Stonebull Lake"
  ],
- "style": 1
+ "style": 2
 }

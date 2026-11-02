@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "Chamber of Horrors",
-   "body": "The Apothecarium fills the Undercity’s southwestern terrace with vats, dissection tables, and chemical fumes. Master Apothecary Faranell leads the Royal Apothecary Society’s work there, studying mortality and rot. Alchemists and surgeons experiment with tissue grafts and vivisection, and assemble mighty abominations. Lady Sylvanas Windrunner has charged them with creating a plague that can eradicate both the Scourge and the lingering human presence across Lordaeron.",
+   "body": "Vats, dissection tables, and chemical fumes fill the Apothecarium’s southwestern terrace. Master Apothecary Faranell leads the Royal Apothecary Society’s work there, studying mortality and rot. Alchemists and surgeons experiment with tissue grafts and vivisection, then assemble mighty abominations. Lady Sylvanas Windrunner has charged them with making a plague to eradicate both the Scourge and the lingering human presence across Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "Center of Forsaken Alchemy",
-   "body": "The quarter draws alchemists and herbalists from across the Horde in the Eastern Kingdoms. Initiates and masters gather beside toxic canals to distill concoctions, study botanical blights, and seek counsel from master practitioners.",
+   "body": "Alchemists and herbalists come to this quarter from across the Horde in the Eastern Kingdoms. Initiates and masters gather beside toxic canals to distill concoctions and study botanical blights. They also seek counsel from master practitioners.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what happens here",
     "why does the apothecarium exist"
    ],
-   "answer": "The Apothecarium is where the Royal Apothecary Society researches and makes its wares. Forsaken alchemists brew experimental poisons, refine the New Plague, build abominations, and teach alchemy and herbalism there."
+   "answer": "The Royal Apothecary Society researches and makes its wares in the Apothecarium. Forsaken alchemists brew experimental poisons, refine the New Plague, build abominations, and teach alchemy and herbalism there."
   },
   {
    "q": "Who leads the Apothecarium?",
@@ -55,13 +55,13 @@
     "alchemy in undercity",
     "undercity herbalism trainer"
    ],
-   "answer": "Yes. The Apothecarium is the Undercity’s main hub for alchemists and herbalists, with advanced trainers along its walkways and in its chambers."
+   "answer": "Yes. The Apothecarium is the Undercity’s main hub for alchemists and herbalists. Advanced trainers can be found along its walkways and in its chambers."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the Apothecarium produces the chemical and stitched weapons they need to hold Lordaeron against overwhelming enemies."
+   "text": "As Forsaken, you rely on the Apothecarium for the chemical and stitched weapons needed to hold Lordaeron against overwhelming enemies."
   },
   {
    "target": "profession:Herbalism",
@@ -91,5 +91,5 @@
  "attribution": [
   "Apothecarium"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Wildmane Water Well"
  },
- "summary": "At Wildmane Water Well, poisoned waters threaten Mulgore’s northern plains and the herds that depend on them.",
+ "summary": "Wildmane Water Well lies under threat as poisoned water endangers Mulgore’s northern plains and the herds that depend on it.",
  "sections": [
   {
    "title": "A Lifeblood Under Siege",
-   "body": "Across Mulgore, sacred wells sustain the nomadic tauren and their wandering kodo herds. Wildmane Water Well lies at the northern edge of the plains, just beyond Thunder Bluff’s shadow. The Venture Company’s goblins have poisoned its waters to control the regional supply. A tauren-crafted totem is needed for the cleansing ritual that can make the water pure again.",
+   "body": "Sacred wells sustain the tauren and their wandering kodo herds across Mulgore. Wildmane Water Well lies at the northern edge of the plains, beyond Thunder Bluff’s shadow. Venture Company goblins have poisoned its water to control the regional supply. A totem crafted by the tauren is needed to cleanse the well and make its water pure again.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why do tauren care about the well",
     "wildmane well sacred"
    ],
-   "answer": "Fresh water sustains life on the plains. The tauren hold the wells sacred because they supply settlements, traveling hunters, and the kodo herds roaming Mulgore."
+   "answer": "Fresh water sustains life on the plains. The tauren hold the wells sacred because they supply settlements, traveling hunters and the kodo herds roaming Mulgore."
   },
   {
    "q": "Who has tried to sabotage or control the well?",
@@ -40,7 +40,7 @@
     "wildmane well enemies",
     "who poisoned wildmane well"
    ],
-   "answer": "The Venture Company’s goblins have poisoned Wildmane Water Well to control Mulgore’s water supply. The tauren can cleanse it with a sacred totem."
+   "answer": "Venture Company goblins have poisoned Wildmane Water Well to control Mulgore’s water supply. The tauren can cleanse it with a sacred totem."
   }
  ],
  "angles": [
@@ -50,7 +50,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you know the goblins’ attempts to corrupt Mulgore’s fresh water threaten the plains’ balance. You must remain vigilant and cleanse and heal the land."
+   "text": "As a druid, you know goblins threaten the plains’ balance by trying to corrupt Mulgore’s fresh water. Remain vigilant, and cleanse and heal the land."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Wildmane Water Well"
  ],
- "style": 1
+ "style": 2
 }

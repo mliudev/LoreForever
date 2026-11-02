@@ -17,21 +17,21 @@
   "wiki": "Elixir of Agony (3)",
   "chain": []
  },
- "summary": "In the Undercity, Faranell prepares Lydon's mixture for a deadly purpose. The Royal Apothecary Society's new plague needs coastal reagents and alchemical draughts before the brew can be used.",
+ "summary": "In the Undercity, Faranell prepares Lydon's mixture for a deadly purpose. The Royal Apothecary Society needs reagents from the coast and alchemical draughts to make its new plague ready.",
  "sections": [
   {
    "title": "A Colloid of Decay",
-   "body": "Apothecary Lydon sent his Mudsnout Blossom mixture from gnoll-held Nethander Stead to the Apothecarium in the Undercity. Master Apothecary Faranell, head of the Royal Apothecary Society, saw its grim potential at once. Pleased by its toxic properties, he added his own colloid of decay. Then he named the catalysts needed to make the mixture a weapon.",
+   "body": "Apothecary Lydon sent his Mudsnout Blossom mixture from gnoll-held Nethander Stead to the Apothecarium in the Undercity. Master Apothecary Faranell leads the Royal Apothecary Society, and he saw the mixture's grim potential at once. Its toxic properties pleased him, so he added his own colloid of decay. Then he named the catalysts that could turn it into a weapon.",
    "spoiler": 0
   },
   {
    "title": "Catalysts from the Coast",
-   "body": "Lydon must gather precise reagents in Tarren Mill to activate the mixture's contaminating agents. Faranell calls for a restorative draught of Strong Troll's Blood to feed and steady the chemical reaction. He also needs organic parts from Hillsbrad's southern shore: scales from the serpentine Daggerspine naga and eyes from the coastal Torn Fin murlocs.",
+   "body": "To activate the mixture's contaminating agents, Lydon needs exact reagents in Tarren Mill. Faranell calls for a restorative draught of Strong Troll's Blood to feed and steady the chemical reaction. He also needs organic parts from Hillsbrad's southern shore: scales from the serpentine Daggerspine naga and eyes from the coastal Torn Fin murlocs.",
    "spoiler": 0
   },
   {
    "title": "Cruelty in Tarren Mill",
-   "body": "Back in Tarren Mill, Lydon passes the waiting hours by poisoning, infecting, and reanimating his undead test subject, Umpi. Faranell's enriched mixture and the coastal catalysts bring Lydon closer to perfecting an agonizing new strain of blight for the living settlements of Hillsbrad.",
+   "body": "Back in Tarren Mill, Lydon spends the waiting hours poisoning and infecting his undead test subject, Umpi, then bringing her back to life. Faranell's enriched mixture and the coastal catalysts bring Lydon closer to perfecting an agonizing new strain of blight for Hillsbrad's living settlements.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "strong trolls blood purpose",
     "trolls blood elixir plague"
    ],
-   "answer": "Restorative Strong Troll's Blood helps sustain, fuel, and rapidly mutate aggressive biological agents. Its properties keep the toxic cultures thriving long enough to react with the other tissues."
+   "answer": "Restorative Strong Troll's Blood sustains and fuels aggressive biological agents, helping them mutate rapidly. Its properties keep the toxic cultures thriving long enough to react with the other tissues."
   },
   {
    "q": "Where are the Daggerspine scales found?",
@@ -52,7 +52,7 @@
     "where are naga scales",
     "where to get scales"
    ],
-   "answer": "Daggerspine scales come from the hostile naga on Hillsbrad's eastern beaches, along the shore east of Southshore."
+   "answer": "Daggerspine scales come from hostile naga on Hillsbrad's eastern beaches, along the shore east of Southshore."
   },
   {
    "q": "Where are the Torn Fin eyes obtained?",
@@ -70,7 +70,7 @@
     "umpi hillsbrad",
     "lydon assistant umpi"
    ],
-   "answer": "Umpi is the frog Apothecary Lydon keeps as his assistant in Tarren Mill. In his idle hours, Lydon uses her as a test subject, inflicting lethal toxins and diseases before reanimating her."
+   "answer": "Umpi is the frog Apothecary Lydon keeps as his assistant in Tarren Mill. In his idle hours, Lydon tests lethal toxins and diseases on her, then brings her back to life."
   },
   {
    "q": "Why is Master Apothecary Faranell involved in this local project?",
@@ -125,5 +125,5 @@
  "attribution": [
   "Elixir of Agony (3)"
  ],
- "style": 1
+ "style": 2
 }

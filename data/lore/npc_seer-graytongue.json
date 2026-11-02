@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Guide on the Mesa",
-   "body": "Young tauren braves and spellweavers find Seer Graytongue atop Red Cloud Mesa. From there, he guides those setting out from Camp Narache through sacred steps, including the Rites of the Earthmother. Their trials test resolve against Mulgore’s harsh plains and dangerous beasts. Through them, Graytongue teaches honor, patience, and reverence, virtues every tauren carries into adulthood.",
+   "body": "Young tauren braves and spellweavers come to Seer Graytongue atop Red Cloud Mesa. He guides those setting out from Camp Narache through sacred steps, among them the Rites of the Earthmother. The trials test their resolve against Mulgore’s harsh plains and dangerous beasts. Through each one, Graytongue teaches honor, patience, and reverence—virtues every tauren carries into adulthood.",
    "spoiler": 0
   }
  ],
@@ -48,11 +48,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren, visiting Seer Graytongue marks a sacred rite of passage, joining personal strength with the Earthmother’s eternal blessings."
+   "text": "As a young tauren, visiting Seer Graytongue marks a sacred rite of passage. It joins personal strength with the Earthmother’s eternal blessings."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can look to elders like Graytongue to learn how sacred rituals and trials bind a warrior’s physical might to ancestral guidance."
+   "text": "As a shaman, you can look to elders like Graytongue. Their sacred rituals and trials bind a warrior’s physical might to ancestral guidance."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Seer Graytongue"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thunderhorn Water Well"
  },
- "summary": "At Thunderhorn Water Well, tauren and herds draw water in central Mulgore. The well lies along the path between Bloodhoof Village and Thunder Bluff. The valley’s wells sustain life across the grasslands, and the tauren must keep them clean and defended.",
+ "summary": "At Thunderhorn Water Well, tauren and their herds draw water in central Mulgore. The well lies along the path from Bloodhoof Village to Thunder Bluff, where the valley’s wells sustain life across the grasslands. The tauren must keep them clean and defended.",
  "sections": [
   {
    "title": "A Life-Giving Spring",
-   "body": "Thunderhorn Water Well draws from the aquifers beneath central Mulgore. Nomadic tauren and the valley’s settled villages depend on communal wells for water and sustenance. Water is precious across the plains, and control of the wells means control of the land. The Venture Company has repeatedly sought these sources for industrial use, threatening the balance the tribes work to preserve.",
+   "body": "Thunderhorn Water Well draws water from aquifers beneath central Mulgore. Nomadic tauren and settled villages alike rely on communal wells for water and sustenance. Across the plains, water is precious, and whoever controls the wells controls the land.\n\nThe Venture Company has repeatedly sought these water sources for industrial use. Their efforts threaten the balance the tribes work to preserve.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is thunderhorn well",
     "thunderhorn water well map"
    ],
-   "answer": "Thunderhorn Water Well lies in central Mulgore, beside the north-south road between Bloodhoof Village and the bluffs of Thunder Bluff."
+   "answer": "Thunderhorn Water Well lies in central Mulgore beside the north-south road between Bloodhoof Village and the bluffs of Thunder Bluff."
   },
   {
    "q": "Why is this water well important to the tauren?",
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you depend on wells like Thunderhorn, gifts from the Earth Mother that need guarding against foreign polluters and greedy trespassers."
+   "text": "As a tauren, you depend on wells like Thunderhorn. They are gifts from the Earth Mother, and must be guarded against foreign polluters and greedy trespassers."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you revere Mulgore’s pure springs and protect the water spirits and subterranean currents as a sacred duty."
+   "text": "As a shaman, you revere Mulgore’s pure springs. Protecting the water spirits and subterranean currents is a sacred duty."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Thunderhorn Water Well"
  ],
- "style": 1
+ "style": 2
 }

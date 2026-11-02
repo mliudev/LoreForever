@@ -10,11 +10,11 @@
    "quest:5481"
   ]
  },
- "summary": "In Tirisfal Glades, Gloom Weed grows in the fields between Deathknell and Brill. Gordo, a lumbering Forsaken abomination, gathers it by mistake while searching for doom weed.",
+ "summary": "In Tirisfal, Gloom Weed grows between Deathknell and Brill. Gordo gathers it by mistake while searching for doom weed.",
  "sections": [
   {
    "title": "A Mistaken Harvest",
-   "body": "Gloom Weed grows in the fields west of Brill and east of Solliden Farmstead. The plant is harmless, with none of the alchemical strength sought by the Royal Apothecary Society. Gordo, an abomination, wanders the road pulling weeds with his clumsy hands. He misunderstood his master's orders and keeps gathering Gloom Weed instead. Then he asks travelers to carry it to Master Holland in the Brill graveyard, much to the apothecary's annoyance.",
+   "body": "Gloom Weed grows west of Brill and east of Solliden Farmstead. It is harmless and lacks the alchemical strength sought by the Royal Apothecary Society. Gordo, a lumbering abomination, wanders the road, pulling weeds with clumsy hands. He misunderstood his master's orders, so he keeps gathering the wrong plant.\n\nThen Gordo asks travelers to carry the weeds to Master Holland in the Brill graveyard. The apothecary is annoyed by the mistake.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "gloom weed location",
     "gloom weed spots"
    ],
-   "answer": "Gloom Weed grows in fields across Tirisfal Glades between Brill and Deathknell. It can be found along the road and in meadows east of Solliden Farmstead."
+   "answer": "Gloom Weed grows in Tirisfal Glades between Brill and Deathknell. Find it along the road and in meadows east of Solliden Farmstead."
   },
   {
    "q": "Who is Gordo and why is he picking it?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "As a trained herbalist, you can sense Gloom Weed with Find Herbs, making it easier to spot in Tirisfal's shadowy undergrowth."
+   "text": "As a trained herbalist, you can sense Gloom Weed with Find Herbs and spot it more easily in Tirisfal's shadowy undergrowth."
   },
   {
    "target": "race:Undead",
@@ -87,5 +87,5 @@
   "Gloom Weed",
   "Gordo's Task (Classic)"
  ],
- "style": 1
+ "style": 2
 }

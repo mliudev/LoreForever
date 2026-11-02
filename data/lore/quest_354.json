@@ -17,11 +17,11 @@
   "wiki": "Deaths in the Family (Classic)",
   "chain": []
  },
- "summary": "Coleman Farthing, once a mill worker, seeks vengeance from Brill against the Agamand family. During the Third War, he stayed to defend their estate with his fellow workers, and they died beside their stubborn masters. The Agamands rose again as mindless thralls of the Lich King.",
+ "summary": "In Brill, Coleman Farthing seeks vengeance on the Agamand family. He once worked at their mills and stayed to defend their estate during the Third War. His fellow workers and their stubborn masters died there, then rose as mindless thralls of the Lich King.",
  "sections": [
   {
    "title": "A Legacy of Pride",
-   "body": "Before the Third War, the Agamands were Tirisfal Glades' wealthiest and most influential farming family. Their mills and fertile pastures yielded grain through the labor of dozens of tenant farmers and millers. When the Plague of Undeath crossed Lordaeron, the family refused to flee or abandon its ancestral lands. They believed their stone walls and loyal workers could hold back the horrors advancing from the east.",
+   "body": "Before the Third War, the Agamands were Tirisfal Glades' wealthiest and most influential farming family. Their mills and fertile pastures yielded grain through the labor of dozens of tenant farmers and millers. When the Plague of Undeath crossed Lordaeron, the family refused to flee or leave its ancestral lands. They believed their stone walls and loyal workers could hold back the horrors advancing from the east.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "agamand backstory",
     "agamand mills history"
    ],
-   "answer": "Before Lordaeron fell, the Agamands were Tirisfal Glades' wealthiest and most prosperous landowners. They owned and ran Agamand Mills, where they employed numerous local farmers and millers."
+   "answer": "Before Lordaeron fell, the Agamands were Tirisfal Glades' wealthiest and most prosperous landowners. They owned and ran Agamand Mills, employing numerous local farmers and millers."
   },
   {
    "q": "Why is Coleman Farthing so angry at them?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Deaths in the Family (Classic)"
  ],
- "style": 1
+ "style": 2
 }

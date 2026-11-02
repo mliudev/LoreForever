@@ -3,15 +3,15 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "0.35.0",
-  released = "2026-11-01",
+  version = "0.36.0",
+  released = "2026-11-02",
   items = {
-    { "The lore, retold", "the stories of the starting lands and the zones after them are rewritten and read anew in both narrators' voices, and a story no longer opens by repeating its summary. More zones follow.", "The lore, retold:" },
-    { "Willo cheers your big moments", "a new level, a quest you carried a long time, an epic or your first mount gets one short, cheery line from her, never in a fight. Ask her to chime in more, less or not at all.", "Willo cheers your big moments:" },
-    { "Willo is quieter while you play", "she no longer drops lore remarks on her own; ask her to chime in more to bring them back.", "Willo is quieter while you play:" },
-    { "Willo for Mac", "Willo now comes for Mac as well as Windows.", "Willo for Mac:" },
-    { "Willo works without the add-on", "she finds your game by herself, answers from the first second, typed or out loud, and fixes the add-on in one click when it isn't loading.", "Willo works without the add-on:" },
-    { "Willo changes things your way", "ask her to change her color, size, voice or keys and she does it with Undo, or have her ask first. Her talk key works anywhere, and she answers out loud sooner.", "Willo changes things your way:" },
-    { "Translations and fixes", "French, German, Spanish and Portuguese lore uses your game's own names in more places, and 28 lore entries are corrected.", "Translations and fixes:" },
+    { "Stories, retold and told once", "more rewritten places, people and quests are read aloud in both narrators' voices, and Listen starts where a story begins instead of repeating its summary first.", "Stories, retold and told once:" },
+    { "The other narrator fills in", "a story your narrator hasn't recorded yet plays in the other narrator's voice instead of showing as text.", "The other narrator fills in:" },
+    { "Dwarf quest givers have a new voice", "a hearty mountaineer reads over 1,000 dwarf quest lines, and quest givers say your race and class again.", "Dwarf quest givers have a new voice:" },
+    { "Willo knows WoW Forever at launch", "its spells, talents, items, quests and racials, like Ruthless for humans.", "Willo knows WoW Forever at launch:" },
+    { "Willo sounds better", "she reads every answer all the way through, her voice holds up when a voice service is slow, and on a Mac it no longer crackles.", "Willo sounds better:" },
+    { "Translations stay whole", "no English mixed in, in German, French, Portuguese, Swedish, Italian, Russian, Ukrainian or Romanian. A Russian, Ukrainian or Romanian story shows once it's translated.", "Translations stay whole:" },
+    { "Fixes", "13 lore entries corrected, reports and shared text say which version of WoW they came from, and the website and lore page read better on phones.", "Fixes:" },
   },
 }

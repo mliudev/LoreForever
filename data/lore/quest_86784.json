@@ -17,16 +17,16 @@
   "wiki": "Sticks and Bones (Forever)",
   "chain": []
  },
- "summary": "Deathguard Bartholomew asks travelers in Tirisfal Glades to gather dry branches for Eleanor Shackleton. The experienced survivalist camps in the western hills, far from the settlements.",
+ "summary": "Deathguard Bartholomew asks travelers to bring dry branches to Eleanor Shackleton in the western hills of Tirisfal Glades. She camps far from the settlements and knows how to live in the wilds.",
  "sections": [
   {
    "title": "A Friendly Gesture",
-   "body": "Deathguard Bartholomew pauses between patrols to help an acquaintance in Tirisfal Glades. Deathguards guard against the Scourge and Scarlet crusaders, but Bartholomew also looks out for Eleanor Shackleton. She spends her unlife in the harsh elements, so he asks you to gather dry branches for her campfire.",
+   "body": "Between patrols in Tirisfal Glades, Deathguard Bartholomew looks out for Eleanor Shackleton. Deathguards guard against the Scourge and Scarlet crusaders, yet Bartholomew also cares for his acquaintance. Eleanor spends her unlife in the harsh elements, so he asks you to bring dry branches for her campfire.",
    "spoiler": 0
   },
   {
    "title": "Life in the Wilds",
-   "body": "Eleanor Shackleton survives alone in Tirisfal's blighted wilderness. Though undead, the Forsaken still feel the damp, bitter chill rolling off the northern moors. Eleanor's rule for gathering wood is simple: when you think you have enough firewood, gather five times more. Grateful for the extra timber, she lets you keep Bartholomew's basket and shares the warmth of her fire.",
+   "body": "Eleanor Shackleton survives alone in Tirisfal's blighted wilderness. The Forsaken are undead, yet they still feel the damp, bitter chill rolling off the northern moors. Eleanor's rule is simple: when you think you have enough firewood, gather five times more. Grateful for the extra timber, she lets you keep Bartholomew's basket and shares the warmth of her fire.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who gives sticks and bones",
     "sticks and bones quest starter"
    ],
-   "answer": "Deathguard Bartholomew in Tirisfal Glades asks passing travelers to help his associate Eleanor Shackleton."
+   "answer": "Deathguard Bartholomew asks passing travelers in Tirisfal Glades to help his associate Eleanor Shackleton."
   },
   {
    "q": "Where is Eleanor Shackleton camped?",
@@ -46,7 +46,7 @@
     "where is eleanor",
     "where to turn in sticks and bones"
    ],
-   "answer": "Eleanor Shackleton keeps a small camp in the hills to the west in Tirisfal Glades, where she survives the elements away from the settlements."
+   "answer": "Eleanor Shackleton camps in the hills west of Tirisfal Glades, away from the settlements where she faces the elements."
   },
   {
    "q": "Why do the Forsaken need firewood if they are undead?",
@@ -55,7 +55,7 @@
     "why firewood for undead",
     "forsaken cold"
    ],
-   "answer": "The Forsaken do not freeze to death like the living, but they still feel Tirisfal's damp, bitter cold. A campfire comforts them, warms their stiff joints, and helps keep a camp livable in the wilds."
+   "answer": "The Forsaken do not freeze to death like the living, but they still feel Tirisfal's damp, bitter cold. A campfire comforts them, warms their stiff joints and helps keep a camp livable in the wilds."
   },
   {
    "q": "What advice does Eleanor give about gathering wood?",
@@ -63,7 +63,7 @@
     "eleanor firewood rule",
     "eleanor advice"
    ],
-   "answer": "Eleanor's rule is to gather five times more firewood than you think you need."
+   "answer": "Eleanor says to gather five times more firewood than you think you need."
   },
   {
    "q": "What item do you use to collect the branches?",
@@ -71,7 +71,7 @@
     "basket for dry branch",
     "how to gather branches"
    ],
-   "answer": "Deathguard Bartholomew gives you a basket for carrying the six dry branches found across the glades. Eleanor lets you keep it after the delivery."
+   "answer": "Deathguard Bartholomew gives you a basket to carry six dry branches found across the glades. Eleanor lets you keep it after you bring them to her."
   },
   {
    "q": "Does this quest lead to further survival training?",
@@ -79,17 +79,17 @@
     "sticks and bones followup",
     "what does eleanor do next"
    ],
-   "answer": "Eleanor welcomes you to her camp and shares advice for traveling the wilds. She also offers a friendly contact point in the Tirisfal wilderness."
+   "answer": "Eleanor welcomes you to her camp and shares advice for traveling the wilds. She also offers a friendly stopping point in the Tirisfal wilderness."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Even in Lordaeron's blighted woods, Forsaken travelers like Eleanor Shackleton must adapt old survival habits to their new unlife."
+   "text": "Even in Lordaeron's blighted woods, Forsaken travelers like Eleanor Shackleton must adapt old survival habits to their unlife."
   },
   {
    "target": "faction:Horde",
-   "text": "Outlying campers like Eleanor offer friendly stopping points for young Horde adventurers setting out across Tirisfal Glades."
+   "text": "Outlying campers like Eleanor offer friendly stopping points for young Horde adventurers crossing Tirisfal Glades."
   }
  ],
  "keywords": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Sticks and Bones (Forever)"
  ],
- "style": 1
+ "style": 2
 }

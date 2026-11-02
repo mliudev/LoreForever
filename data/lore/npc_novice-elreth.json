@@ -8,11 +8,11 @@
   "wiki": "Novice Elreth",
   "refs": 2
  },
- "summary": "Inside Deathknell's chapel, Novice Elreth guides the newly risen Forsaken. She sends them against the mindless Scourge near the graves and helps them face the plague's sorrowful aftermath.",
+ "summary": "At Deathknell's chapel, Novice Elreth guides the newly risen Forsaken. She sends them against the mindless Scourge near the graves and helps them face the sorrow left by the plague.",
  "sections": [
   {
    "title": "A Guide in the Church of the Damned",
-   "body": "Novice Elreth guides newly risen undead inside the desecrated chapel at Deathknell. They struggle to understand their horrific awakening, while the Forsaken must organize quickly to secure their territory. Elreth sends them south to gather paws from wolves and wings from bats. She also points them toward Lordaeron's tragic aftermath, including the sorrow of her friend Marla Fipps, whom her husband Samuel killed after joining the mindless Scourge.",
+   "body": "Within Deathknell's desecrated chapel, Novice Elreth guides the newly risen undead. They struggle to understand their horrific awakening, while the Forsaken must organize quickly to secure their territory. Elreth sends them south to gather paws from wolves and wings from bats. She also directs them toward Lordaeron's tragic aftermath, including the sorrow of her friend Marla Fipps. Marla's husband Samuel killed her after joining the mindless Scourge.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "elreth role",
     "novice elreth purpose"
    ],
-   "answer": "Novice Elreth guides newly arisen Forsaken and gives them their first directives. She teaches them to strike against the mindless Scourge prowling the village cemetery."
+   "answer": "Novice Elreth guides newly arisen Forsaken and gives them their first directives. She teaches them to strike at the mindless Scourge prowling the village cemetery."
   },
   {
    "q": "What quests does Novice Elreth offer?",
@@ -41,7 +41,7 @@
     "novice elreth quests",
     "elreth tasks"
    ],
-   "answer": "Novice Elreth sends adventurers to gather scavenger paws and duskbat wings, and to defeat the mindless Samuel Fipps and bury his remains beside his wife Marla's grave."
+   "answer": "Novice Elreth sends adventurers to gather scavenger paws and duskbat wings. She also sends them to defeat the mindless Samuel Fipps and bury his remains beside his wife Marla's grave."
   },
   {
    "q": "Why is she titled 'Novice'?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Novice Elreth"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Call of Air (Thunder Bluff)",
   "chain": []
  },
- "summary": "Xanis Flameweaver sends seasoned Horde shamans from Thunder Bluff south to seek Prate Cloudseer in Thousand Needles. There they seek communion with the wind and the Air Totem, needed to channel its swift forces.",
+ "summary": "Xanis Flameweaver sends seasoned Horde shamans south from Thunder Bluff to seek Prate Cloudseer in Thousand Needles. There, they seek communion with the wind and the Air Totem, which channels its swift forces.",
  "sections": [
   {
    "title": "The Whispering Winds",
-   "body": "A shaman who has attuned to earth, fire, and water now faces air, the final element. From Thunder Bluff, Xanis Flameweaver guides initiates through a trial of humility, focus, and respect for the sky. The winds are fickle and harder to control than the elements they have already learned.",
+   "body": "You have attuned to earth, fire, and water. Now Xanis Flameweaver guides you from Thunder Bluff through a trial of humility, focus, and respect for the sky. Air is the final element, and its winds are fickle. They are harder to control than the elements you have already learned.",
    "spoiler": 0
   },
   {
    "title": "A Pilgrimage South",
-   "body": "The path leads south, past the Barrens and into the canyons of Thousand Needles. Far to the east, Prate Cloudseer dwells in a secluded cave on the cliffs, where canyon drafts howl day and night. She tests each initiate's preparedness before giving them the Air Totem, which channels gusts, lightning, and swift wind spirits.",
+   "body": "Your path leads south, past the Barrens and into the canyons of Thousand Needles. Far to the east, Prate Cloudseer dwells in a secluded cave on the cliffs, where canyon drafts howl day and night. She tests your preparedness before giving you the Air Totem. It channels gusts, lightning, and swift wind spirits.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts call of air",
     "xanis flameweaver"
    ],
-   "answer": "Xanis Flameweaver, a shaman trainer in Thunder Bluff, sends you to attune to air after you have gained enough experience."
+   "answer": "Xanis Flameweaver, a shaman trainer in Thunder Bluff, sends you to attune to air once you have gained enough experience."
   },
   {
    "q": "Where is Prate Cloudseer located?",
@@ -83,7 +83,7 @@
     "after call of air",
     "prate cloudseer quests"
    ],
-   "answer": "When you arrive, Prate Cloudseer gives you the Air Totem, letting you invoke wind-based totems immediately. She also offers further training and trials to hone your connection with the sky."
+   "answer": "When you arrive, Prate Cloudseer gives you the Air Totem, letting you invoke wind-based totems at once. She also offers further training and trials to hone your connection with the sky."
   }
  ],
  "angles": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Call of Air (Thunder Bluff)"
  ],
- "style": 1
+ "style": 2
 }

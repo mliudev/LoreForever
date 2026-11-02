@@ -8,16 +8,16 @@
   "wiki": "Deathstalker Rane Yorick",
   "refs": 5
  },
- "summary": "At a farmhouse in Silverpine, Deathstalker Rane Yorick and her brother Quinn are cut off from the Sepulcher. Sent to scout the northern farms, they must get word to High Executor Hadrec.",
+ "summary": "At a farmhouse in Silverpine, Rane Yorick and her brother Quinn cannot reach the Sepulcher. Sent to scout the northern farms, they must get their report to High Executor Hadrec.",
  "sections": [
   {
    "title": "Eyes in the Woods",
-   "body": "Across Lordaeron, the Deathstalkers are Lady Sylvanas Windrunner's eyes, ears, and blades. Agents like Rane Yorick watch the wilds from hidden posts for threats to Forsaken rule. Rane and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, turning their covert work into a fight to survive.",
+   "body": "Lady Sylvanas Windrunner relies on the Deathstalkers to watch across Lordaeron. They serve as her eyes and ears, and strike when Forsaken rule is threatened. Rane Yorick and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, and their covert work became a fight to survive.",
    "spoiler": 0
   },
   {
    "title": "Trapped at Ivar Patch",
-   "body": "At the Ivar Patch, Rane Yorick shelters in a ruined farmhouse. The ghoul Ivar the Foul has badly mauled her brother Quinn, and worgs prowl the fields between them and the Sepulcher. Rane holds to her assignment. She calls on passing Horde travelers to gather worg hearts for a healing potion, slay Ivar, and carry her report to command.",
+   "body": "At the Ivar Patch, Rane Yorick shelters in a ruined farmhouse with her badly mauled brother, Quinn. Worgs prowl the fields between them and the Sepulcher. Still, Rane holds to her assignment. She calls on passing Horde travelers to gather worg hearts for a healing potion, slay Ivar the Foul, and carry her report to command.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "ivar patch farmhouse",
     "why is she hiding"
    ],
-   "answer": "Rane and her brother Quinn were sent to scout the farms of northern Silverpine Forest. At the Ivar Patch, the ghoul Ivar the Foul attacked them and badly mauled Quinn, so they took shelter in a farmhouse while he heals."
+   "answer": "Rane and her brother Quinn were sent to scout the farms of northern Silverpine Forest. At the Ivar Patch, the ghoul Ivar the Foul attacked them and badly mauled Quinn. They took shelter in a farmhouse while he heals."
   },
   {
    "q": "Who is her brother?",
@@ -78,7 +78,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a Forsaken rogue, you see the dangerous fieldwork of the Deathstalkers in Rane Yorick's efforts to gather intelligence under enemy pressure."
+   "text": "As a Forsaken rogue, you see the Deathstalkers' dangerous fieldwork in Rane Yorick's efforts to gather intelligence under enemy pressure."
   },
   {
    "target": "race:Undead",
@@ -113,5 +113,5 @@
  "attribution": [
   "Deathstalker Rane Yorick"
  ],
- "style": 1
+ "style": 2
 }

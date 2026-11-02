@@ -10,11 +10,11 @@
    "quest:747"
   ]
  },
- "summary": "On Red Cloud Mesa, young hunters gather Plainstrider Feather from the birds roaming Mulgore’s plains. Camp Narache uses them for clothing and tribal adornments, honoring the creatures that provide for the village.",
+ "summary": "On Red Cloud Mesa, young hunters gather Plainstrider Feather from the birds roaming Mulgore’s plains. Camp Narache makes clothing and tribal adornments from the feathers, honoring the creatures that provide for the village.",
  "sections": [
   {
    "title": "A Hunter's First Offering",
-   "body": "Young tauren on Red Cloud Mesa learn to track and hunt for what the tribe needs. Plainstriders roam the grassy plateau, providing food and useful feathers. Camp Narache makes garments and gear from their plumage. Young hunters bring feathers and fresh meat to Grull Hawkwind to meet the camp’s needs. The offering is their first test before Chief Hawkwind recognizes them and welcomes them in Thunder Bluff.",
+   "body": "Young tauren on Red Cloud Mesa learn to track and hunt for what their tribe needs. Plainstriders roam the grassy plateau and provide food and useful feathers. Camp Narache makes garments and gear from their plumage.\n\nYoung hunters bring feathers and fresh meat to Grull Hawkwind to supply the camp. This offering is their first test. Chief Hawkwind recognizes them and welcomes them in Thunder Bluff.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "plainstrider feather use",
     "why collect feathers"
    ],
-   "answer": "Camp Narache uses Plainstrider Feathers to make clothing and ceremonial items. Grull Hawkwind gathers them from young hunters to replenish tribal supplies."
+   "answer": "Camp Narache makes clothing and ceremonial items from Plainstrider Feathers. Grull Hawkwind gathers them from young hunters to replenish tribal supplies."
   },
   {
    "q": "Who gathers Plainstrider Feathers on Red Cloud Mesa?",
@@ -35,7 +35,7 @@
     "who needs feathers",
     "grull hawkwind feathers"
    ],
-   "answer": "Young hunters gather Plainstrider Feathers on Red Cloud Mesa at Grull Hawkwind’s request. He replenishes Camp Narache’s stores and tests their discipline in providing for the tribe."
+   "answer": "At Grull Hawkwind’s request, young hunters gather Plainstrider Feathers on Red Cloud Mesa. He replenishes Camp Narache’s stores and tests their discipline in providing for the tribe."
   },
   {
    "q": "Where can plainstriders be found?",
@@ -44,7 +44,7 @@
     "plainstrider location",
     "feather farm"
    ],
-   "answer": "Plainstriders roam the open grasslands of Red Cloud Mesa and the rolling plains of Mulgore."
+   "answer": "Plainstriders roam Red Cloud Mesa’s open grasslands and Mulgore’s rolling plains."
   },
   {
    "q": "Why does Grull Hawkwind require these feathers for tribal rites?",
@@ -53,7 +53,7 @@
     "proving hunt tauren",
     "why hunt plainstriders"
    ],
-   "answer": "Hunting provides for survival and sport in tauren culture. Bringing meat and plumage back to Chief Hawkwind shows that a young hunter can sustain the tribe before going on to Thunder Bluff."
+   "answer": "Hunting provides for survival and sport in tauren culture. Bringing meat and plumage to Chief Hawkwind shows a young hunter can sustain the tribe before going on to Thunder Bluff."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
   "Plainstrider Feather",
   "The Hunt Begins"
  ],
- "style": 1
+ "style": 2
 }

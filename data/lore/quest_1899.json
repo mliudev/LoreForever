@@ -17,16 +17,16 @@
   "wiki": "The Deathstalkers (3)",
   "chain": []
  },
- "summary": "In the Undercity, the Deathstalkers turn Andron Gant's trust against him. Still believing you are the messenger he expected, Gant gives you a ledger for his secret contacts. You carry it to Mennet Carkad in the Rogues' Quarter, opening the way to deeper covert work for the Forsaken state.",
+ "summary": "In the Undercity, the Deathstalkers turn Andron Gant's trust against him. Believing you are the courier he expected, Gant gives you a ledger for his secret contacts. You take it to Mennet Carkad in the Rogues' Quarter, opening the way to deeper covert work for the Forsaken state.",
  "sections": [
   {
    "title": "A Courier in the Shadows",
-   "body": "Andron Gant works from the Undercity, keeping names and information in a personal ledger. Believing you are the courier he expected, he hands it over for delivery to the secret contacts he serves. Gant asks that the same courier carry future messages, unaware that the ledger is bound for the Deathstalkers.",
+   "body": "Andron Gant keeps names and information in a personal ledger in the Undercity. Believing you are the courier he expected, he gives you the ledger to deliver to his secret contacts. Gant asks for the same courier to carry future messages. He does not know the ledger is bound for the Deathstalkers.",
    "spoiler": 0
   },
   {
    "title": "Intelligence in the Rogues' Quarter",
-   "body": "Mennet Carkad receives Gant's ledger in the Rogues' Quarter and finds more useful intelligence in it than expected. The details give Carkad leads for widening the Deathstalkers' investigations. In the wary Forsaken realm, those records can help uncover subversion within and threats beyond its borders before they reach the capital.",
+   "body": "Mennet Carkad receives Gant's ledger in the Rogues' Quarter and finds more useful intelligence than he expected. Its details give Carkad leads to widen the Deathstalkers' investigations. The Forsaken realm is wary, and these records may help uncover subversion within its borders and threats beyond them before they reach the capital.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who are deathstalkers",
     "undercity rogues"
    ],
-   "answer": "The Deathstalkers are the Forsaken's covert organization and assassin guild. Based in the Undercity's Rogues' Quarter, they serve Lady Sylvanas Windrunner as eyes, ears, and hidden daggers, handling espionage, intelligence, and targeted assassinations across Lordaeron."
+   "answer": "The Deathstalkers are the Forsaken's covert organization and assassin guild. Based in the Undercity's Rogues' Quarter, they serve Lady Sylvanas Windrunner as eyes, ears, and hidden daggers. They handle espionage, intelligence, and targeted assassinations across Lordaeron."
   },
   {
    "q": "Why does Gant want the same courier used in the future?",
@@ -56,7 +56,7 @@
     "andron gant trust",
     "gant courier"
    ],
-   "answer": "Gant asks for the same courier because he wants future sensitive documents handled by a runner he trusts, preserving their working arrangement and reducing the risk of theft or tampering."
+   "answer": "Gant wants future sensitive documents carried by a runner he trusts. Using the same courier preserves their working arrangement and lowers the risk of theft or tampering."
   },
   {
    "q": "Who is Mennet Carkad?",
@@ -64,7 +64,7 @@
     "mennet carkad lore",
     "who is carkad"
    ],
-   "answer": "Mennet Carkad is a Deathstalkers operative stationed in the Rogues' Quarter. He coordinates local agents, gathers field intelligence from informants such as Andron Gant, and directs covert assignments throughout the capital and surrounding territories."
+   "answer": "Mennet Carkad is a Deathstalkers operative in the Rogues' Quarter. He coordinates local agents, gathers field intelligence from informants such as Andron Gant, and directs covert assignments throughout the capital and surrounding territories."
   },
   {
    "q": "Where is the Rogues' Quarter located?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you know that the Undercity's security is a matter of survival. Helping the Deathstalkers strengthens the Dark Lady's hold over the capital against living infiltrators and rival undead."
+   "text": "As an undead, you know the Undercity's security is a matter of survival. Helping the Deathstalkers strengthens the Dark Lady's hold over the capital against living infiltrators and rival undead."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
  "attribution": [
   "The Deathstalkers (3)"
  ],
- "style": 1
+ "style": 2
 }

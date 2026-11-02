@@ -10,16 +10,16 @@
    "quest:1359"
   ]
  },
- "summary": "In Silverpine Forest, wolf hearts hold a poison their living hosts endure. Apothecary Renferrel sends samples to the Royal Apothecary Society, whose members study them.",
+ "summary": "In Silverpine Forest, wolf hearts carry a poison their living hosts endure. Apothecary Renferrel sends samples to the Royal Apothecary Society for study.",
  "sections": [
   {
    "title": "A Toxic Paradox",
-   "body": "Apothecary Renferrel found a deadly compound in certain wolf hearts while examining carcasses in Silverpine Forest. The poison saturates the tissue at a level that should kill the wolves, yet they live. Renferrel set tissue samples aside for delivery to Undercity. The Forsaken study organisms that withstand toxins as they seek to master biological warfare and prepare new reagents.",
+   "body": "While examining carcasses in Silverpine Forest, Apothecary Renferrel found a deadly compound in certain wolf hearts. The poison fills their tissue at a strength that should kill them, yet the wolves live. Renferrel set tissue samples aside for delivery to Undercity. The Forsaken study creatures that endure toxins as they seek mastery of biological warfare and prepare new reagents.",
    "spoiler": 0
   },
   {
    "title": "Consignment to Undercity",
-   "body": "Couriers carry the samples beneath the ruins of Lordaeron to Apothecary Zinge at the Royal Apothecary Society's headquarters in the Apothecarium. Zinge and her colleagues prize new toxins. They dissect and test the tainted tissue to isolate its virulent compounds and learn how the beasts survive them, hoping to use that knowledge in their alchemical work.",
+   "body": "Couriers carry the samples beneath the ruins of Lordaeron to Apothecary Zinge. She works at the Royal Apothecary Society's headquarters in the Apothecarium. Zinge and her colleagues prize new toxins. They dissect and test the tainted tissue to isolate its virulent compounds and learn how the beasts survive them. They hope to use that knowledge in their alchemical work.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what makes the hearts special",
     "why do apothecaries want wolf hearts"
    ],
-   "answer": "The wolf hearts contain intense, unexplained toxicity that should have killed their hosts. The Royal Apothecary Society wants to understand both the poison and how the wolves survive it."
+   "answer": "The wolf hearts contain intense toxicity with no known cause, though it should have killed their hosts. The Royal Apothecary Society seeks to understand the poison and how the wolves survive it."
   },
   {
    "q": "Who requests these samples?",
@@ -87,5 +87,5 @@
   "Wolf Heart Samples",
   "Zinge's Delivery"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,16 +11,16 @@
    "quest:1978"
   ]
  },
- "summary": "In the Undercity, Andron Gant's ledger draws the Deathstalkers' attention. They seek it as an operative gathers information for the Forsaken.",
+ "summary": "In the Undercity, Andron's Ledger draws the Deathstalkers' attention. A Forsaken operative has uncovered information about threats to their realm.",
  "sections": [
   {
    "title": "Uncovering the Syndicate",
-   "body": "Andron Gant's bookshelf in the Undercity holds a ledger the Deathstalkers did not expect to find. Its pages reveal that the Syndicate, remnants of Alterac's fallen human nobility, is maneuvering in the region. Deathstalker Mennet Carkad sees the value at once: Alterac's ruined lords are scheming again. The ledger gives Forsaken leadership proof of Syndicate operations beyond what the Deathstalkers expected to find.",
+   "body": "Andron Gant's bookshelf in the Undercity holds a ledger the Deathstalkers did not expect to find. Its pages show the Syndicate is moving in the region. The Syndicate is made up of remnants of Alterac's fallen human nobility. Deathstalker Mennet Carkad sees at once that Alterac's ruined lords are scheming again. The ledger gives Forsaken leadership proof of their operations beyond what the Deathstalkers expected.",
    "spoiler": 1
   },
   {
    "title": "A Matter for the Dreadlord",
-   "body": "Mennet Carkad sends the bearer straight to Varimathras in the Royal Quarter with the ledger, since it concerns threats to the Forsaken realm. Varimathras, Sylvanas Windrunner's dreadlord majordomo, oversees internal security and espionage through the Deathstalkers. He commends the ledger, recognizing the Deathstalker network's competence and the reliability of the operative who brought it to light.",
+   "body": "Mennet Carkad sends the bearer straight to Varimathras in the Royal Quarter with the ledger. It concerns threats to the Forsaken realm. Varimathras is Sylvanas Windrunner's dreadlord majordomo. He oversees internal security and espionage through the Deathstalkers. He commends the ledger, recognizing the network's competence and the operative's reliability in bringing it to light.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "what is this book",
     "andron ledger"
    ],
-   "answer": "Andron's Ledger is a record book from Andron Gant's bookshelf in the Undercity, with intelligence the Deathstalkers seek."
+   "answer": "Andron's Ledger is a record book from Andron Gant's bookshelf in the Undercity. It holds intelligence the Deathstalkers seek."
   },
   {
    "q": "Who is Andron Gant?",
@@ -40,7 +40,7 @@
     "who is andron",
     "andron gant"
    ],
-   "answer": "Andron Gant is a Forsaken who keeps a shop near the Apothecarium in the Undercity. Lord Varimathras suspected he was secretly aiding an outside group, so the Deathstalkers sent an agent posing as Andron's expected messenger to obtain the ledger."
+   "answer": "Andron Gant is a Forsaken who keeps a shop near the Apothecarium in the Undercity. Lord Varimathras suspected Andron was secretly aiding an outside group. The Deathstalkers sent an agent posing as Andron's expected messenger to obtain the ledger."
   },
   {
    "q": "Why do the Deathstalkers want the ledger?",
@@ -102,5 +102,5 @@
   "The Deathstalkers (3)",
   "The Deathstalkers (4)"
  ],
- "style": 1
+ "style": 2
 }

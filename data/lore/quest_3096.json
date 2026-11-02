@@ -17,16 +17,16 @@
   "wiki": "Encrypted Scroll (quest)",
   "chain": []
  },
- "summary": "At Deathknell, a sealed message sends a newly awakened Forsaken rogue to David Trias. Shadow Priest Sarvis passes it on once the recruit has proved ready.",
+ "summary": "At Deathknell, a sealed message reaches a newly awakened Forsaken rogue. Shadow Priest Sarvis sends the recruit to David Trias after they prove ready.",
  "sections": [
   {
    "title": "A Quiet Summons",
-   "body": "Newly raised Forsaken fight mindless zombies in the cemetery as Deathknell's leaders watch for those drawn to stealth and subterfuge. Once you have proved your readiness, Shadow Priest Sarvis gives promising scouts a sealed parchment. David Trias's discreet seal marks it as an early link to the covert network beneath Forsaken leadership.",
+   "body": "Newly raised Forsaken fight mindless zombies in the cemetery while Deathknell's leaders watch for those drawn to stealth and subterfuge. Once you prove ready, Shadow Priest Sarvis gives you a sealed parchment. David Trias's discreet seal marks an early link to the covert network beneath Forsaken leadership.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Shadows",
-   "body": "David Trias watches Deathknell's crossroads and inn for prospects in future covert operations. The Forsaken need disciplined agents, not common thieves or reckless cutpurses, to serve their fledgling kingdom. Trias says capable rogues may draw the notice of the Shadowstalkers, a Forsaken cadre that prizes cunning, precision, and absolute loyalty to the Dark Lady.",
+   "body": "David Trias watches Deathknell's crossroads and inn for prospects in future covert operations. The Forsaken need disciplined agents for their fledgling kingdom, not common thieves or reckless cutpurses. Trias says capable rogues may draw the notice of the Shadowstalkers, a Forsaken cadre that prizes cunning, precision, and absolute loyalty to the Dark Lady.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does the scroll do",
     "why encrypted scroll"
    ],
-   "answer": "The scroll privately invites a newly awakened Forsaken rogue to meet David Trias for specialized training. Shadow Priest Sarvis gives it to you once you have proved capable."
+   "answer": "The scroll privately invites a newly awakened Forsaken rogue to meet David Trias for specialized training. Shadow Priest Sarvis gives it to you once you prove capable."
   },
   {
    "q": "Who is David Trias?",
@@ -56,7 +56,7 @@
     "shadowstalkers forsaken",
     "shadowstalkers"
    ],
-   "answer": "The Shadowstalkers are Forsaken stealth operatives and assassins. They seek talented, disciplined agents, not clumsy pickpockets."
+   "answer": "The Shadowstalkers are Forsaken stealth operatives and assassins. They seek talented, disciplined agents rather than clumsy pickpockets."
   },
   {
    "q": "Why is the message encrypted?",
@@ -73,7 +73,7 @@
     "sarvis location",
     "find shadow priest sarvis"
    ],
-   "answer": "Shadow Priest Sarvis oversees the intake of newly awakened Forsaken in Deathknell's central crypt and chapel complex, in Tirisfal Glades."
+   "answer": "Shadow Priest Sarvis oversees the intake of newly awakened Forsaken in Deathknell's central crypt and chapel complex in Tirisfal Glades."
   },
   {
    "q": "Where is David Trias located?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you receive a private summons into the Forsaken's covert network, from your first steps as one of the newly risen to the prospect of covert service."
+   "text": "As a rogue, you receive a private summons into the Forsaken's covert network. Your first steps among the newly risen may lead to covert service."
   },
   {
    "target": "race:Undead",
@@ -114,5 +114,5 @@
  "attribution": [
   "Encrypted Scroll (quest)"
  ],
- "style": 1
+ "style": 2
 }

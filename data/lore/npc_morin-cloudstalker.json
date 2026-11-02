@@ -8,21 +8,21 @@
   "wiki": "Morin Cloudstalker",
   "refs": 8
  },
- "summary": "Along the eastern road from Bloodhoof Village, Morin Cloudstalker watches over Mulgore. The tauren scout keeps an eye on trade routes and investigates threats to travelers.",
+ "summary": "Along the eastern road from Bloodhoof Village, Morin Cloudstalker keeps watch over Mulgore. The tauren scout follows trade routes and investigates dangers to travelers.",
  "sections": [
   {
    "title": "Watcher on the Southern Trail",
-   "body": "Morin Cloudstalker watches the trail east toward the Barrens. He scouts the road and guards those traveling through Mulgore. The plains are usually peaceful, but trade routes and shifting territories have brought opportunists and bandits close to the tauren homeland.",
+   "body": "Morin Cloudstalker watches the trail east toward the Barrens. He scouts the road and guards travelers crossing Mulgore. The plains are usually peaceful, but shifting territories and busy trade routes have brought opportunists and bandits near the tauren homeland.",
    "spoiler": 0
   },
   {
    "title": "Investigating the Caravan",
-   "body": "Morin's scouts attacked and burned a Venture Co. caravan on Stonebull Lake's northern shore. Goblin salvagers appeared near the burned wagons, so he sent adventurers to inspect the surviving supply crates and learn what the Venture Co. had been hauling.",
+   "body": "Morin's scouts attacked and burned a Venture Co. caravan on Stonebull Lake's northern shore. Goblin salvagers soon appeared by the wagons. So Morin sent adventurers to inspect the surviving supply crates and learn what the Venture Co. had been hauling.",
    "spoiler": 0
   },
   {
    "title": "Defending Against Venture Co.",
-   "body": "The Venture Company has established operations in Mulgore, troubling Morin beyond the threat of common brigands. He sends Horde adventurers against its logging and mining outposts, including Supervisor Fizsprocket, to curb the damage to the sacred plains.",
+   "body": "The Venture Company has operations in Mulgore, bringing Morin a threat beyond common brigands. He sends Horde adventurers against its logging and mining outposts, including Supervisor Fizsprocket. He means to curb the damage to the sacred plains.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "where is morin",
     "morin cloudstalker map"
    ],
-   "answer": "Morin Cloudstalker stands beside the dirt trail east of Bloodhoof Village, on the road toward the Barrens."
+   "answer": "Morin Cloudstalker stands beside the dirt trail east of Bloodhoof Village, along the road toward the Barrens."
   },
   {
    "q": "What is Morin's role in Mulgore?",
@@ -42,7 +42,7 @@
     "who is morin cloudstalker",
     "morin role"
    ],
-   "answer": "Morin watches travel through southern Mulgore and organizes defenses against bandits and corporate intruders."
+   "answer": "Morin watches travelers in southern Mulgore and organizes defenses against bandits and corporate intruders."
   },
   {
    "q": "Why is Morin investigating the ruined caravan?",
@@ -50,7 +50,7 @@
     "ravaged caravan quest",
     "caravan attack mulgore"
    ],
-   "answer": "Morin's scouts attacked and burned a Venture Co. caravan near Stonebull Lake. After goblin salvagers appeared at the wreckage, he asked adventurers to inspect the surviving crates and find out what the Venture Co. was moving."
+   "answer": "Morin's scouts attacked and burned a Venture Co. caravan near Stonebull Lake. When goblin salvagers appeared at the wreckage, he asked adventurers to inspect the surviving crates and learn what the Venture Co. was moving."
   },
   {
    "q": "Why does Morin want the Venture Company stopped?",
@@ -58,7 +58,7 @@
     "venture co mulgore",
     "why kill fizsprocket"
    ],
-   "answer": "The Venture Company is stripping Mulgore's natural resources with machinery and deforestation. Morin wants its overseers, including Supervisor Fizsprocket, stopped."
+   "answer": "The Venture Company strips Mulgore's natural resources with machinery and deforestation. Morin wants its overseers stopped, including Supervisor Fizsprocket."
   },
   {
    "q": "Who does Morin report to?",
@@ -66,7 +66,7 @@
     "morin allegiance",
     "who sent morin"
    ],
-   "answer": "Morin acts on behalf of Bloodhoof Village's elders and chieftains, and the wider tauren leadership across Mulgore."
+   "answer": "Morin acts for Bloodhoof Village's elders and chieftains, as well as the wider tauren leadership across Mulgore."
   },
   {
    "q": "Does Morin offer quests to Alliance players?",
@@ -74,13 +74,13 @@
     "can alliance talk to morin",
     "morin faction"
    ],
-   "answer": "No. Morin is loyal to the Horde and interacts only with Horde adventurers."
+   "answer": "No. Morin is loyal to the Horde and speaks only with Horde adventurers."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren traveling out from Bloodhoof Village, you can see Morin guarding your homeland against bandits and corporate defilers."
+   "text": "As a tauren traveling from Bloodhoof Village, you can see Morin guarding your homeland against bandits and corporate defilers."
   },
   {
    "target": "faction:Horde",
@@ -108,5 +108,5 @@
  "attribution": [
   "Morin Cloudstalker"
  ],
- "style": 1
+ "style": 2
 }

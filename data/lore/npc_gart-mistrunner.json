@@ -8,11 +8,11 @@
   "wiki": "Gart Mistrunner",
   "refs": 1
  },
- "summary": "At Camp Narache, Gart Mistrunner guides novice tauren called by the Earth Mother. He teaches their first rites of nature magic on the Red Cloud Mesa.",
+ "summary": "At Camp Narache, Gart Mistrunner teaches new tauren their first rites of nature magic on the Red Cloud Mesa.",
  "sections": [
   {
    "title": "Mentor of the Red Cloud Mesa",
-   "body": "Gart Mistrunner watches over Camp Narache as the Shu'halo rekindle their ancient druidic path. New tauren druids are sent to him when they take their first steps on the Red Cloud Mesa, often with a note commending them to his care. Gart teaches them to commune with the natural world. They draw on nature's restorative power and Mu'sha's lunar radiance to heal allies and strike down threats to the land.",
+   "body": "At Camp Narache, Gart Mistrunner guides the Shu'halo as they return to their ancient druidic path. New tauren druids come to him when they take their first steps on the Red Cloud Mesa, often carrying a note that commends them to his care. Gart teaches them to commune with the natural world. Through that bond, they draw on nature's healing power and Mu'sha's lunar light to mend allies and strike at threats to the land.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "gart mistrunner lore",
     "gart mistrunner"
    ],
-   "answer": "Gart Mistrunner trains druids at Camp Narache in the Red Cloud Mesa of Mulgore. He teaches novice tauren their first spells and rites."
+   "answer": "Gart Mistrunner trains druids at Camp Narache on the Red Cloud Mesa in Mulgore. He teaches novice tauren their first spells and rites."
   },
   {
    "q": "What spells does he teach newly awakened druids?",
@@ -33,7 +33,7 @@
     "gart mistrunner training",
     "druid spells camp narache"
    ],
-   "answer": "Gart teaches beginners essential nature abilities, including the healing spell Healing Touch and the offensive nature magic Moonfire."
+   "answer": "Gart teaches new druids Healing Touch to heal and Moonfire to strike their foes with nature magic."
   },
   {
    "q": "What is his connection to the Mistrunner clan?",
@@ -41,17 +41,17 @@
     "mistrunner clan",
     "who are mistrunners"
    ],
-   "answer": "Mistrunner is Gart's family name. No lore describes a Mistrunner tribe or says more about his kin; he is known as the druid trainer of Camp Narache."
+   "answer": "Mistrunner is Gart's family name. No account tells of a Mistrunner tribe or says more about his kin; Gart is known as Camp Narache's druid trainer."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a tauren druid, Gart Mistrunner is the first master to shape your communion with the wilds and the gifts of the Earth Mother."
+   "text": "As a tauren druid, you learn your first communion with the wilds and the gifts of the Earth Mother from Gart Mistrunner."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you see Gart Mistrunner pass the Shu'halo's ancient druidic traditions to the youth of Camp Narache."
+   "text": "As a tauren, you see Gart Mistrunner pass the Shu'halo's ancient druidic traditions to the young of Camp Narache."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Gart Mistrunner"
  ],
- "style": 1
+ "style": 2
 }

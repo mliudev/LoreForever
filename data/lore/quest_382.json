@@ -22,16 +22,16 @@
    "Vital Intelligence (Classic)"
   ]
  },
- "summary": "Executor Arren sends you after a courier bound for the camp outside Deathknell. Dispatched from the Scarlet Monastery, the courier carries word from the crusade to its camp. Intercepting him secures intelligence before the zealots can strengthen their hold in the valley. This is among the Forsaken's first offensive efforts to secure their fledgling sanctuary.",
+ "summary": "Executor Arren sends you after a courier bound for the camp outside Deathknell. Sent from the Scarlet Monastery, the courier carries the crusade's word to its camp. This offensive move secures intelligence before the zealots can strengthen their hold in the valley, as the Forsaken defend their fledgling sanctuary.",
  "sections": [
   {
    "title": "Eyes in the East",
-   "body": "Word of the Scarlet courier reaches Executor Arren through his superiors in Brill. The Scarlet Crusade sent an emissary west from its stronghold at the Scarlet Monastery to Deathknell. Crusaders press across Lordaeron, and a courier sent to the edge of the Forsaken's waking grounds signals an organized effort to destroy the newly risen before they can prepare a defense.",
+   "body": "Executor Arren learns of the Scarlet courier from his superiors in Brill. The Scarlet Crusade sent an emissary west from its stronghold at the Scarlet Monastery to Deathknell. Crusaders press across Lordaeron. A courier sent to the edge of the Forsaken's waking grounds signals an organized effort to destroy the newly risen before they can prepare a defense.",
    "spoiler": 0
   },
   {
    "title": "Intercepting the Courier",
-   "body": "Meven Korgal, the courier, blended into the small Scarlet camp east of Deathknell without distinctive heraldry. Executor Arren orders a targeted strike to kill Korgal and seize his dispatch. Taking the missives cuts off the local zealots from further tactical coordination with their eastern headquarters.",
+   "body": "Meven Korgal, the courier, has blended into the small Scarlet camp east of Deathknell without distinctive heraldry. Executor Arren orders a targeted strike to kill Korgal and seize his dispatch. Taking the missives cuts off the local zealots from further tactical coordination with their eastern headquarters.",
    "spoiler": 0
   },
   {
@@ -100,15 +100,15 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Intercepting the messenger strikes at zealots who seek to kill you again before you have found your footing in Lordaeron."
+   "text": "You strike at zealots who seek to kill you again before you have found your footing in Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "As a new Horde recruit, you help break Scarlet operations along the northern perimeter of the Horde's newly established foothold in the Eastern Kingdoms."
+   "text": "As a new Horde recruit, you help break Scarlet operations along the northern edge of the Horde's newly established foothold in the Eastern Kingdoms."
   },
   {
    "target": "class:Rogue",
-   "text": "As a newly awakened rogue, you take on covert work by infiltrating the Crusade's camp, killing Meven Korgal, and stealing his dispatches."
+   "text": "As a newly awakened rogue, you do covert work by infiltrating the Crusade's camp, killing Meven Korgal, and stealing his dispatches."
   }
  ],
  "keywords": [
@@ -135,5 +135,5 @@
  "attribution": [
   "The Red Messenger"
  ],
- "style": 1
+ "style": 2
 }

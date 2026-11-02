@@ -17,16 +17,16 @@
   "wiki": "Call of Water (8)",
   "chain": []
  },
- "summary": "At Silverpine's coast, the shaman completes the Call of Water at the Brazier of Everfount. The rite clears nearby corruption, and a spirit of pure water appears.",
+ "summary": "At Silverpine's coast, you finish the Call of Water at the Brazier of Everfount. The rite clears nearby corruption, and a spirit of pure water appears.",
  "sections": [
   {
    "title": "A Burst of Cleansing Light",
-   "body": "At the Brazier of Everfount, your final words call forth a burst of light. It scatters the minor spirits that threaten the spring, and the shore falls quiet.",
+   "body": "At the Brazier of Everfount, your final words summon a burst of light. It scatters the minor spirits threatening the spring, and the shore falls quiet.",
    "spoiler": 0
   },
   {
    "title": "The Water's Gratitude",
-   "body": "A Minor Manifestation of Water appears beside the brazier after the spirits are gone. The spirit thanks you for the rite and says the taint here has ebbed. Yet life across Silverpine's decaying lands continues to wane, and the Horde's shamans must stay watchful to preserve it.",
+   "body": "Once the spirits are gone, a Minor Manifestation of Water appears beside the brazier. The spirit thanks you for the rite and says the taint here has ebbed. Yet life across Silverpine's decaying lands continues to wane, so the Horde's shamans must stay watchful to preserve it.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "brazier ritual light",
     "everfount explosion"
    ],
-   "answer": "The final incantation at the Brazier of Everfount releases a burst of light that destroys the nearby corrupted spirits and purifies the surrounding flow of water."
+   "answer": "Your final incantation at the Brazier of Everfount releases a burst of light. It destroys the nearby corrupted spirits and purifies the surrounding flow of water."
   },
   {
    "q": "Who is the Minor Manifestation of Water?",
@@ -45,7 +45,7 @@
     "water spirit silverpine",
     "manifestation of water"
    ],
-   "answer": "The Minor Manifestation of Water is a small elemental of pure water that appears after the corrupted elementals near the Brazier of Everfount are destroyed."
+   "answer": "The Minor Manifestation of Water is a small elemental of pure water. It appears after the corrupted elementals near the Brazier of Everfount are destroyed."
   },
   {
    "q": "What does the water spirit say about Silverpine?",
@@ -53,7 +53,7 @@
     "water spirit warning",
     "silverpine corruption"
    ],
-   "answer": "The spirit thanks the shamans and says that although the local corruption has ebbed, life across Silverpine continues to wane and needs constant care."
+   "answer": "The spirit thanks the shamans and says the local corruption has ebbed. Yet life across Silverpine continues to wane and needs constant care."
   },
   {
    "q": "Where does this ritual take place?",
@@ -61,7 +61,7 @@
     "brazier location",
     "call of water location"
    ],
-   "answer": "The ritual takes place at the Brazier of Everfount, along the coast of Silverpine Forest."
+   "answer": "The ritual takes place at the Brazier of Everfount along the coast of Silverpine Forest."
   },
   {
    "q": "Why must shamans intervene in Silverpine?",
@@ -69,7 +69,7 @@
     "why shamans here",
     "shaman duty silverpine"
    ],
-   "answer": "Shamans must defend distant, embattled waters from blight and lingering corruption as part of their elemental trials to earn the Water Totem and prove their commitment to balance."
+   "answer": "Shamans must defend distant, embattled waters from blight and lingering corruption. These trials test their commitment to balance and earn them the Water Totem."
   },
   {
    "q": "What comes next in the trials?",
@@ -83,7 +83,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you prove your resolve by healing suffering waters far from home and earning communion with the spirit of water."
+   "text": "As a shaman, you prove your resolve by healing suffering waters far from home. You earn communion with the spirit of water."
   },
   {
    "target": "faction:Horde",
@@ -108,5 +108,5 @@
  "attribution": [
   "Call of Water (8)"
  ],
- "style": 1
+ "style": 2
 }

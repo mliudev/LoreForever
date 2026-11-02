@@ -17,16 +17,16 @@
   "wiki": "Speak with Renferrel",
   "chain": []
  },
- "summary": "At the Sepulcher, Apothecary Renferrel needs to discuss the tainted wolf hearts. High Executor Hadrec sends you back to the Royal Apothecary Society researcher with your findings.",
+ "summary": "At the Sepulcher, Apothecary Renferrel awaits your findings about the tainted wolf hearts. High Executor Hadrec has sent you to speak with the Royal Apothecary Society researcher.",
  "sections": [
   {
    "title": "Summons from the Society",
-   "body": "After you help the Deathstalkers across Silverpine Forest, High Executor Hadrec gives you an urgent message from Apothecary Renferrel. Renferrel has studied the discolored wolf hearts gathered from local wildlife and needs you at once.",
+   "body": "After you help the Deathstalkers across Silverpine Forest, High Executor Hadrec gives you an urgent message from Apothecary Renferrel. Renferrel has studied discolored wolf hearts gathered from local wildlife and needs you at once.",
    "spoiler": 0
   },
   {
    "title": "Alchemical Curiosities",
-   "body": "Apothecary Renferrel works for the Royal Apothecary Society in a laboratory inside the Sepulcher crypt. He studies how dark magic and disease are changing Silverpine's beasts, bringing alchemical research together with military reports from the front.",
+   "body": "Apothecary Renferrel works for the Royal Apothecary Society in a laboratory inside the Sepulcher crypt. He studies how dark magic and disease are changing Silverpine's beasts. His alchemical research draws on military reports from the front.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is renferrel",
     "find renferrel"
    ],
-   "answer": "Apothecary Renferrel is in the Sepulcher crypt in central Silverpine Forest, beside his alchemy equipment and a short walk from High Executor Hadrec."
+   "answer": "Apothecary Renferrel works in the Sepulcher crypt in central Silverpine Forest, beside his alchemy equipment. He is a short walk from High Executor Hadrec."
   },
   {
    "q": "Why does Apothecary Renferrel want to speak with me?",
@@ -68,11 +68,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you may hear of the Royal Apothecary Society's work alongside military command at the Sepulcher, where researchers study unusual creatures in Silverpine."
+   "text": "As an Undead, you may hear how the Royal Apothecary Society's researchers work alongside military command at the Sepulcher. They study unusual creatures in Silverpine."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can learn how taint is changing the beasts of Silverpine."
+   "text": "As a member of the Horde, you can learn how taint is changing Silverpine's beasts."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
  "attribution": [
   "Speak with Renferrel"
  ],
- "style": 1
+ "style": 2
 }

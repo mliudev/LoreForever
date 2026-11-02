@@ -8,11 +8,11 @@
   "wiki": "Minor Manifestation of Water",
   "refs": 2
  },
- "summary": "Along North Tide's Run, the Minor Manifestation of Water awaits shamans on Silverpine Forest's coast. Its corrupted counterpart must be cleansed before the peaceful spirit can be consulted.",
+ "summary": "Along North Tide's Run, the Minor Manifestation of Water waits for shamans on Silverpine Forest's coast. First, its corrupted counterpart must be defeated before the peaceful spirit will speak.",
  "sections": [
   {
    "title": "A Spirit of the Western Tides",
-   "body": "The Minor Manifestation of Water waits west of the Sepulcher, along North Tide's Run. For developing shamans, meeting the spirit is an essential rite. Water elementals embody life, renewal, and fluidity, yet malevolent blight can corrupt them. An initiate must face and defeat a corrupted manifestation before the pure spirit reveals itself. Once cleansed, the Minor Manifestation of Water guides shamans on their sacred journey to fashion a Water Totem.",
+   "body": "West of the Sepulcher, the Minor Manifestation of Water waits along North Tide's Run. For a shaman in training, meeting the spirit is an essential rite. Water elementals embody life, renewal, and fluidity, yet a malevolent blight can corrupt them. An initiate must face and defeat a corrupted manifestation before the pure spirit reveals itself. Once the corruption is cleansed, the spirit guides shamans on their sacred journey to fashion a Water Totem.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is manifestation of water",
     "north tides run elemental"
    ],
-   "answer": "Find the Minor Manifestation of Water along North Tide's Run, on Silverpine Forest's western coast, just west of the Sepulcher."
+   "answer": "Find the Minor Manifestation of Water along North Tide's Run, on Silverpine Forest's western coast just west of the Sepulcher."
   },
   {
    "q": "Why is the elemental hostile when I first approach?",
@@ -33,7 +33,7 @@
     "why is water manifestation angry",
     "manifestation attacking me"
    ],
-   "answer": "A shaman must first summon and destroy the Corrupt Minor Manifestation of Water. After its defeat, the peaceful manifestation appears and speaks with you."
+   "answer": "A shaman must first summon and destroy the Corrupt Minor Manifestation of Water. After it falls, the peaceful manifestation appears and speaks with you."
   },
   {
    "q": "What quest involves this elemental?",
@@ -42,7 +42,7 @@
     "water totem quest silverpine",
     "what quest is this for"
    ],
-   "answer": "The Minor Manifestation of Water guides shamans in the Call of Water chain, which ultimately teaches them to cast their Water Totem."
+   "answer": "The Minor Manifestation of Water guides shamans through the Call of Water chain, which ultimately teaches them to cast their Water Totem."
   },
   {
    "q": "Can non-shamans interact with this spirit?",
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, cleanse the corruption from this elemental and receive its blessing to attune to the tides and forge your Water Totem."
+   "text": "As a shaman, cleanse the corruption from this elemental and receive its blessing. Then attune to the tides and forge your Water Totem."
   },
   {
    "target": "faction:Horde",
@@ -83,5 +83,5 @@
  "attribution": [
   "Minor Manifestation of Water"
  ],
- "style": 1
+ "style": 2
 }

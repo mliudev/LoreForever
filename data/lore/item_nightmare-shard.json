@@ -11,16 +11,16 @@
    "quest:3370"
   ]
  },
- "summary": "In the Wailing Caverns, a glowing shard bears a taint Falla Sagewind cannot ignore. She binds its pure, disturbed essence of the Emerald Dream into the Nightmare Shard and sends it to senior druids for a warning kept from others.",
+ "summary": "In the Wailing Caverns, Nightmare Shard carries a taint Falla Sagewind cannot ignore. She binds the Emerald Dream's pure, disturbed essence into it and sends it to senior druids with a warning meant for them alone.",
  "sections": [
   {
    "title": "A Corrupted Vision",
-   "body": "Deep in the Wailing Caverns, Falla Sagewind examines a mysterious glowing shard and finds its energy darker than she expected. It reflects an unnatural affliction in the Emerald Dream, like a waking nightmare. Falla binds this tainted essence into the Nightmare Shard and orders it carried without delay to elder leaders of the Cenarion Circle.",
+   "body": "Deep in the Wailing Caverns, Falla Sagewind examines a glowing shard. Its energy is darker than she expected. It reflects an unnatural affliction in the Emerald Dream, like a waking nightmare. Falla binds this tainted essence into Nightmare Shard and orders it carried without delay to the elder leaders of the Cenarion Circle.",
    "spoiler": 0
   },
   {
    "title": "Hushed Omens",
-   "body": "When the Nightmare Shard reaches Archdruid Hamuul Runetotem on Elder Rise or Mathrengyl Bearwalker in Darnassus, each looks into its depths with dismay. The vision unsettles them and confirms their quiet suspicions that something has gone terribly wrong within the Dream. Fearing panic among the public, the druids take the shard and warn the courier to speak no further of what they saw.",
+   "body": "Nightmare Shard reaches Archdruid Hamuul Runetotem on Elder Rise or Mathrengyl Bearwalker in Darnassus. Each looks into its depths with dismay. The vision unsettles them and confirms their quiet suspicions that something has gone terribly wrong within the Dream. Fearing public panic, the druids take the shard and warn the courier to speak no further of what they saw.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is nightmare shard",
     "nightmare shard lore"
    ],
-   "answer": "Falla Sagewind entrusts the Nightmare Shard to a courier after examining a glowing fragment brought from the Wailing Caverns. It holds the pure, disturbed essence of the Emerald Dream, with a dark, corruptive vision instead of peaceful nature energies."
+   "answer": "After examining a glowing fragment from the Wailing Caverns, Falla Sagewind entrusts Nightmare Shard to a courier. It holds the pure, disturbed essence of the Emerald Dream, with a dark, corruptive vision instead of peaceful nature energies."
   },
   {
    "q": "Who created the Nightmare Shard?",
@@ -39,7 +39,7 @@
     "who made the nightmare shard",
     "where does the shard come from"
    ],
-   "answer": "Falla Sagewind gives the Nightmare Shard to a courier after examining a glowing fragment brought from the Wailing Caverns. She recognizes its corruption and charges the courier to carry it directly to senior druids for study."
+   "answer": "Falla Sagewind examines a glowing fragment brought from the Wailing Caverns and recognizes its corruption. She charges the courier to carry the shard directly to senior druids for study."
   },
   {
    "q": "Why are the druid leaders so alarmed by it?",
@@ -55,17 +55,17 @@
     "who do i bring the shard to",
     "nightmare shard turn in"
    ],
-   "answer": "Horde adventurers are instructed to carry the shard to Archdruid Hamuul Runetotem on Elder Rise in Thunder Bluff. Alliance travelers carry it to Mathrengyl Bearwalker within the Cenarion Circle in Darnassus."
+   "answer": "Horde travelers are instructed to carry the shard to Archdruid Hamuul Runetotem on Elder Rise in Thunder Bluff. Alliance travelers carry it to Mathrengyl Bearwalker within the Cenarion Circle in Darnassus."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids, the shard reveals that the Emerald Dream is no longer untouched by corruption. It confirms their concerns over Naralex's fate in the Wailing Caverns."
+   "text": "For druids, the shard reveals that corruption has reached the Emerald Dream. It confirms their concerns over Naralex's fate in the Wailing Caverns."
   },
   {
    "target": "faction:Horde",
-   "text": "For Horde travelers, the shard brings grave news to Elder Rise in Thunder Bluff, where Hamuul Runetotem works to anchor the tauren's place in the wider Cenarion brotherhood."
+   "text": "For Horde travelers, the shard brings grave news to Elder Rise in Thunder Bluff. There, Hamuul Runetotem works to anchor the tauren's place in the wider Cenarion brotherhood."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "In Nightmares (Horde)",
   "In Nightmares (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@ P.transport["npc:aelthalyste"] = {
   },
 }
 P.transport["npc:ahanu"] = {
-  hash = "c2b605",
-  fullHash = "c2b605",
-  text = "Ahanu. Couriers arriving in Thunder Bluff can find Ahanu in Hewa's Armory. He crafts and trades leather armor for travelers and young braves setting out across Mulgore and the wider plains, and helps new couriers find their way across the bluffs. Ahanu works the hides his friend Jahan Hawkwing sends from the Crossroads. In Hewa's Armory on Thunder Bluff's lower rise, he crafts durable leather gear for those who travel Kalimdor's grasslands. Travelers arriving by wind rider from the Crossroads can find him among the city's tradesfolk. He receives their deliveries and directs messengers toward the local flight roosts.",
+  hash = "ac3c4d",
+  fullHash = "ac3c4d",
+  text = "Ahanu. At Hewa's Armory, Ahanu helps couriers arriving in Thunder Bluff. He crafts and trades leather armor for travelers and young braves setting out across Mulgore and the wider plains, and shows new couriers the way across the bluffs. Ahanu crafts leather gear in Hewa's Armory on Thunder Bluff's lower rise. His friend Jahan Hawkwing sends him hides from the Crossroads, which he works into durable armor for travelers across Kalimdor's grasslands. Travelers arriving by wind rider from the Crossroads can find him among the city's tradesfolk. He receives their deliveries and points messengers toward the local flight roosts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ahanu-39b4d9f63519af516d55/1-0000.mp3", duration = 36.8065306, start = 0},
+    {file = "Audio/Transport/full_npc_ahanu-cee5aca0d7e5f8e5d407/1-0000.mp3", duration = 38.3216327, start = 0},
   },
 }
 P.transport["npc:alamar-grimm"] = {
@@ -50,11 +50,11 @@ P.transport["npc:amber-kearnen"] = {
   },
 }
 P.transport["npc:andron-gant"] = {
-  hash = "28d3a3",
-  fullHash = "28d3a3",
-  text = "Andron Gant. In the Undercity's Apothecarium, Andron Gant handles occasional commissions and relic recoveries for local scholars. He is a reclusive Forsaken, often drunk, and rarely leaves the city. Andron Gant spends his time in the Apothecarium, among its noxious fumes, and rarely ventures beyond the Undercity's stone walls. He seems little more than a drunken scholar. For local mages, he sometimes hires couriers to seek obscure relics on distant shores, including the Tablet of Markri.",
+  hash = "e6d9e4",
+  fullHash = "e6d9e4",
+  text = "Andron Gant. In the Apothecarium, Andron Gant arranges commissions and relic recoveries for local scholars. The reclusive Forsaken is often drunk and rarely leaves the Undercity. Andron Gant keeps to the Apothecarium, among its noxious fumes, and seldom ventures beyond the Undercity's stone walls. He seems little more than a drunken scholar. Yet local mages sometimes have him send couriers to distant shores for obscure relics, including the Tablet of Markri.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_andron-gant-0fab14547f4dce612e39/1-0000.mp3", duration = 30.3542857, start = 0},
+    {file = "Audio/Transport/full_npc_andron-gant-037a1a919f0ba73d3ac4/1-0000.mp3", duration = 29.7012245, start = 0},
   },
 }
 P.transport["npc:anduin-wrynn"] = {
@@ -154,11 +154,11 @@ P.transport["npc:ashlan-stonesmirk"] = {
   },
 }
 P.transport["npc:austil-de-mon"] = {
-  hash = "c12de1",
-  fullHash = "c12de1",
-  text = "Austil de Mon. In Brill, Austil de Mon trains Forsaken warriors at Gallows' End Tavern. He teaches the newly risen to fight in service of the Dark Lady. Austil de Mon trains Forsaken warriors inside Gallows' End Tavern in Brill. Warriors leaving Deathknell come to him among their first instructors. The living once drank and rested in the inn. Now Austil teaches newly liberated undead to master martial discipline and combat against the foes surrounding the kingdom.",
+  hash = "105598",
+  fullHash = "105598",
+  text = "Austil de Mon. In Brill, Austil de Mon teaches newly risen Forsaken to fight for the Dark Lady. He trains warriors at Gallows' End Tavern. In Brill, Austil de Mon trains Forsaken warriors at Gallows' End Tavern. Those leaving Deathknell find him among their first instructors. The living once drank and rested in the inn. Now Austil teaches the newly liberated undead martial discipline and combat against the foes surrounding the kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_austil-de-mon-44fc0ddbb4d8a44655a0/1-0000.mp3", duration = 27.9510204, start = 0},
+    {file = "Audio/Transport/full_npc_austil-de-mon-849ae8a6561ba341b35f/1-0000.mp3", duration = 28.6563265, start = 0},
   },
 }
 P.transport["npc:ayanna-everstride"] = {
@@ -250,11 +250,11 @@ P.transport["npc:bartleby"] = {
   },
 }
 P.transport["npc:bashana-runetotem"] = {
-  hash = "9b0c67",
-  fullHash = "9b0c67",
-  text = "Bashana Runetotem. On the Elder Rise in Thunder Bluff, Bashana Runetotem studies plants and corruption. She is the daughter of Archdruid Hamuul Runetotem and aids the Cenarion Circle. Bashana Runetotem carries her father Archdruid Hamuul Runetotem’s druidic legacy on Thunder Bluff’s Elder Rise. While he guides tauren druids and advises Cairne Bloodhoof, Bashana studies unusual plants and regional threats. She gives travelers tools such as evergreen pouches to cultivate mysterious flora, including morrowgrain. She also coordinates Horde efforts against corruption spreading from places such as Blackfathom Deeps.",
+  hash = "b5401e",
+  fullHash = "b5401e",
+  text = "Bashana Runetotem. On Thunder Bluff’s Elder Rise, Bashana Runetotem studies plants and corruption. Daughter of Archdruid Hamuul Runetotem, she aids the Cenarion Circle. Bashana Runetotem carries her father Archdruid Hamuul Runetotem’s druidic legacy on Thunder Bluff’s Elder Rise. While he guides tauren druids and advises Cairne Bloodhoof, she studies unusual plants and threats across the region. She gives travelers tools such as evergreen pouches to cultivate mysterious flora, including morrowgrain. She also coordinates Horde efforts against corruption spreading from places such as Blackfathom Deeps.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bashana-runetotem-e2fde4619533854daabf/1-0000.mp3", duration = 36.7281633, start = 0},
+    {file = "Audio/Transport/full_npc_bashana-runetotem-e9a407ac737d1144bd0d/1-0000.mp3", duration = 39.1053061, start = 0},
   },
 }
 P.transport["npc:bath-rah-the-windwatcher"] = {
@@ -322,11 +322,11 @@ P.transport["npc:bloodmage-lynnore"] = {
   },
 }
 P.transport["npc:bluff-runner-windstrider"] = {
-  hash = "7fbf86",
-  fullHash = "7fbf86",
-  text = "Bluff Runner Windstrider. On Thunder Bluff's mesas, Bluff Runner Windstrider carries urgent messages across the city. He directs Horde travelers toward distant frontiers, including Ashenvale, Feralas, and the Plaguelands. Bluff Runner Windstrider carries messages across Thunder Bluff's high plateaus. His swift runs keep the city's leaders and visitors informed. He jogs along the rope bridges and pathways, calling out news and carrying dispatches. When outposts across Kalimdor or the Eastern Kingdoms need reinforcements, Windstrider calls on passing champions to carry word and answer the call to arms. Bluff Runner Windstrider's messages reach far beyond Mulgore. He sends adventurers north to join Senani Thunderheart's great hunt at Splintertree Post in Ashenvale. He points seasoned scouts south toward Camp Mojache in Feralas and carries grave warnings about the ongoing undead menace in the Western Plaguelands. His dispatches connect Mulgore's tribal heart to the wider conflicts of the Horde.",
+  hash = "59dba0",
+  fullHash = "59dba0",
+  text = "Bluff Runner Windstrider. On Thunder Bluff's mesas, Bluff Runner Windstrider carries urgent messages across the city. He points Horde travelers toward far-off frontiers, including Ashenvale, Feralas, and the Plaguelands. Bluff Runner Windstrider carries messages across Thunder Bluff's high plateaus. His swift runs keep the city's leaders and visitors informed. He jogs along rope bridges and pathways, calling out news and bearing dispatches. When distant outposts need reinforcements, Windstrider calls on passing champions to carry word and answer the call to arms. Bluff Runner Windstrider sends messages far beyond Mulgore. He directs travelers north to join Senani Thunderheart's great hunt at Splintertree Post in Ashenvale. He points seasoned scouts south toward Camp Mojache in Feralas and bears grave warnings of the ongoing undead menace in the Western Plaguelands. His dispatches bind Mulgore's tribal heart to the Horde's wider conflicts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bluff-runner-windstrider-62a17cfc7d3471bc8e32/1-0000.mp3", duration = 59.4546939, start = 0},
+    {file = "Audio/Transport/full_npc_bluff-runner-windstrider-9ec6881c18d71398c6af/1-0000.mp3", duration = 58.6971429, start = 0},
   },
 }
 P.transport["npc:braelyn-firehand"] = {
@@ -450,19 +450,19 @@ P.transport["npc:brother-wilhelm"] = {
   },
 }
 P.transport["npc:cain-firesong"] = {
-  hash = "4731e0",
-  fullHash = "4731e0",
-  text = "Cain Firesong. At the Gallows' End Tavern in Brill, Cain Firesong guides Forsaken mages in the arcane. He trains them in Tirisfal Glades before sending advanced students to the Undercity for deeper study. Cain Firesong teaches traditional arcane arts in Brill, where Forsaken mages begin their studies. Many Forsaken spellcasters turn to shadow or necromancy, but Cain keeps to the arcane. He mentors mages who set out from Deathknell. The Deathguards point visitors to the upstairs landing of the Gallows' End Tavern, where Cain can be found. They joke that he arrived too late to get a room. Cain sends capable students onward when they outgrow their first studies in Tirisfal Glades. He directs them to Anastasia Hartwell, a master sorceress who lives in the Magic Quarter of the Undercity.",
+  hash = "b26fe6",
+  fullHash = "b26fe6",
+  text = "Cain Firesong. At the Gallows' End Tavern in Brill, Cain Firesong guides Forsaken mages in the arcane. He trains them in Tirisfal Glades, then sends advanced students to the Undercity for deeper study. Cain Firesong teaches the arcane arts in Brill, where Forsaken mages begin their studies. Many Forsaken spellcasters favor shadow or necromancy, but Cain keeps to the arcane. He mentors mages who set out from Deathknell. Deathguards direct visitors to the upstairs landing of the Gallows' End Tavern, where Cain can be found. They joke that he arrived too late to get a room. When students outgrow their first studies in Tirisfal Glades, Cain sends the capable onward. He directs them to Anastasia Hartwell, a master sorceress who lives in the Magic Quarter of the Undercity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_cain-firesong-2732b1698d4d348da927/1-0000.mp3", duration = 48.7967347, start = 0},
+    {file = "Audio/Transport/full_npc_cain-firesong-f9fae13b2d34de7db24d/1-0000.mp3", duration = 48.9534694, start = 0},
   },
 }
 P.transport["npc:calvin-montague"] = {
-  hash = "7a02ac",
-  fullHash = "7a02ac",
-  text = "Calvin Montague. At Deathknell's gate, Calvin Montague preys on newly awakened Forsaken leaving the graveyard, tricking passersby into errands for him. Calvin Montague waits just beyond Deathknell's gates, where the road leads out into Tirisfal Glades. He tries to talk wandering adventurers into carrying his letters, using false pretenses instead of handling his own correspondence or paying a fair courier's fee. Other prominent undead named Montague manage banking interests in the Undercity. Calvin follows a less reputable path, relying on petty schemes and deception.",
+  hash = "ca22c5",
+  fullHash = "ca22c5",
+  text = "Calvin Montague. At Deathknell's gate, Calvin Montague catches newly awakened Forsaken on their way out and tricks passersby into running errands for him. Calvin Montague waits beyond Deathknell's gates, where the road leads into Tirisfal Glades. He tries to persuade wandering adventurers to carry his letters with false promises. He will neither handle his own correspondence nor pay a fair courier's fee. Other prominent undead named Montague manage banking interests in the Undercity. Calvin follows a less reputable path, relying on petty schemes and deception.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_calvin-montague-d998dfe166d8dcf27b1c/1-0000.mp3", duration = 34.324898, start = 0},
+    {file = "Audio/Transport/full_npc_calvin-montague-fa6ff007acf37aa920a0/1-0000.mp3", duration = 34.0636735, start = 0},
   },
 }
 P.transport["npc:captain-danuvin"] = {
@@ -498,19 +498,19 @@ P.transport["npc:captain-thalo-thas-brightsun"] = {
   },
 }
 P.transport["npc:captured-mountaineer"] = {
-  hash = "031dae",
-  fullHash = "031dae",
-  text = "Captured Mountaineer. In Brill, a captured Ironforge Mountaineer is held beneath the Gallows' End Tavern. The Forsaken keep him bound for the Royal Apothecary Society's experiments. Beneath the Gallows' End Tavern in Brill, an Ironforge Mountaineer is held far from Khaz Modan. While patrons drink above, the Royal Apothecary Society uses him to test its concoctions. Apothecary Johaan and his peers measure their developing plague against living Alliance bodies, testing how swiftly and painfully their toxins kill.",
+  hash = "8e6bb5",
+  fullHash = "8e6bb5",
+  text = "Captured Mountaineer. Beneath Brill, a captured Ironforge Mountaineer is held below the Gallows' End Tavern. The Forsaken keep him bound for the Royal Apothecary Society's experiments. An Ironforge Mountaineer is held beneath the Gallows' End Tavern in Brill, far from Khaz Modan. Patrons drink above while the Royal Apothecary Society tests its concoctions on him. Apothecary Johaan and his peers measure their developing plague against living Alliance captives. They study how swiftly and painfully the toxins kill.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captured-mountaineer-949a73c0bfbc9c7745aa/1-0000.mp3", duration = 31.242449, start = 0},
+    {file = "Audio/Transport/full_npc_captured-mountaineer-3c70ee47c4b4070e12a2/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["npc:captured-scarlet-zealot"] = {
-  hash = "a9838c",
-  fullHash = "a9838c",
-  text = "Captured Scarlet Zealot. Beneath Gallows' End Tavern in Brill, a Scarlet Zealot is held captive. Forsaken apothecaries use him to test concoctions for the Royal Apothecary Society. Beneath Gallows' End Tavern, a Scarlet Crusade zealot remains chained and defiant. His unyielding faith reflects his order, and he sees the undead around him as abominations. He calls on the Light to shield him from the foul creatures holding him. The Forsaken did not capture him out of mercy. As a living human, he is valuable test material for Apothecary Johaan, who uses him to measure the lethality of experimental plagues and toxins under development.",
+  hash = "d52e7c",
+  fullHash = "d52e7c",
+  text = "Captured Scarlet Zealot. Beneath Gallows' End Tavern in Brill, a Scarlet Zealot is held captive. Forsaken apothecaries use him to test concoctions for the Royal Apothecary Society. Beneath Gallows' End Tavern, a Scarlet Crusade zealot sits chained and defiant. He keeps his faith and calls the undead around him abominations. He calls on the Light to shield him from his captors.\n\nThe Forsaken hold him for Apothecary Johaan. As a living human, he is valuable to the apothecary, who tests the lethality of experimental plagues and toxins under development.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captured-scarlet-zealot-ae04886b41d173350363/1-0000.mp3", duration = 39.2097959, start = 0},
+    {file = "Audio/Transport/full_npc_captured-scarlet-zealot-b1af5d3d3c221b1c8880/1-0000.mp3", duration = 35.9706122, start = 0},
   },
 }
 P.transport["npc:caretaker-folsom"] = {
@@ -522,11 +522,11 @@ P.transport["npc:caretaker-folsom"] = {
   },
 }
 P.transport["npc:carolai-anise"] = {
-  hash = "e8b2ba",
-  fullHash = "e8b2ba",
-  text = "Carolai Anise. In Brill, Carolai Anise teaches alchemy while her experiments make the guards uneasy. Carolai Anise pursues alchemy in Brill, where she teaches novice alchemists. Many Forsaken researchers work under the Royal Apothecary Society's grim mandate, but Carolai makes her own strange brews inside the settlement. Her unpredictable experiments and smoking retorts are well known. The Deathguards watching Brill openly grumble that she seems bent on blowing up her own house.",
+  hash = "e243e3",
+  fullHash = "e243e3",
+  text = "Carolai Anise. In Brill, Carolai Anise teaches alchemy as her experiments unsettle the guards. Carolai Anise teaches novice alchemists in Brill and pursues her own strange brews. Many Forsaken researchers work under the Royal Apothecary Society's grim mandate. Carolai's unpredictable experiments and smoking retorts are well known, and the Deathguards watching Brill openly grumble that she seems bent on blowing up her own house.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_carolai-anise-a32e0fd6272227d025a8/1-0000.mp3", duration = 30.5110204, start = 0},
+    {file = "Audio/Transport/full_npc_carolai-anise-33bcaea4d3882858dd22/1-0000.mp3", duration = 27.4808163, start = 0},
   },
 }
 P.transport["npc:cazul"] = {
@@ -594,11 +594,11 @@ P.transport["npc:chronormu"] = {
   },
 }
 P.transport["npc:clarice-foster"] = {
-  hash = "d65ab5",
-  fullHash = "d65ab5",
-  text = "Clarice Foster. In the Pools of Vision, Clarice Foster lives among tauren seers and mystics. Far from Lordaeron, the Forsaken woman spends her days in contemplation beneath the bluffs of Mulgore. Most Forsaken remain in Lordaeron, rebuilding their kingdom beneath the Undercity. Clarice Foster has traveled to the heart of tauren lands in Kalimdor. She lives in the cavernous Pools of Vision beneath the mesa of Thunder Bluff, among Forsaken apothecaries and tauren shamans who study the spiritual and elemental mysteries of the earth.",
+  hash = "2ac48c",
+  fullHash = "2ac48c",
+  text = "Clarice Foster. In the Pools of Vision, Clarice Foster dwells among tauren seers and mystics. Far from Lordaeron, the Forsaken woman spends her days in contemplation beneath the bluffs of Mulgore. Most Forsaken remain in Lordaeron, rebuilding their kingdom beneath the Undercity. Clarice Foster has crossed to Kalimdor and the heart of tauren lands. She lives in the cavernous Pools of Vision beneath Thunder Bluff's mesa. There she dwells among Forsaken apothecaries and tauren shamans who study the earth's spiritual and elemental mysteries.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_clarice-foster-c17d6e0636d4db93b914/1-0000.mp3", duration = 34.324898, start = 0},
+    {file = "Audio/Transport/full_npc_clarice-foster-c20d4cf69ed65b25a897/1-0000.mp3", duration = 32.6791837, start = 0},
   },
 }
 P.transport["npc:colonel-kurzen"] = {
@@ -666,11 +666,11 @@ P.transport["npc:darcy-parker"] = {
   },
 }
 P.transport["npc:dark-cleric-beryl"] = {
-  hash = "90e7d5",
-  fullHash = "90e7d5",
-  text = "Dark Cleric Beryl. In Brill, Dark Cleric Beryl guides newly awakened undead priests in the shadows. Stationed in the Gallows' End Tavern, he teaches them shadow magic and helps them adapt to their unholy existence under the Dark Lady. Dark Cleric Beryl mentors new Forsaken priests upstairs in Brill's Gallows' End Tavern. He teaches that a priest's power comes from darkness and shadow, yet mastering the dark also requires knowing the light. Newly risen priests turn their focus to shadow and the dark arts under his guidance. Their early trials include crafting their Garments of Darkness and proving their dedication to this new path.",
+  hash = "3bf90e",
+  fullHash = "3bf90e",
+  text = "Dark Cleric Beryl. In Brill, Dark Cleric Beryl guides newly awakened undead priests through shadow magic. From the Gallows' End Tavern, he helps them face their unholy existence under the Dark Lady. Upstairs in Brill's Gallows' End Tavern, Dark Cleric Beryl trains new Forsaken priests. He teaches that a priest's power comes from darkness and shadow, but mastering darkness also calls for knowledge of the light. Under his guidance, newly risen priests turn to shadow and the dark arts. Their first trials include crafting their Garments of Darkness and proving their dedication to this path.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dark-cleric-beryl-88933e7c5d0f887c626c/1-0000.mp3", duration = 37.6163265, start = 0},
+    {file = "Audio/Transport/full_npc_dark-cleric-beryl-954fc88fbc3a88bc3a34/1-0000.mp3", duration = 37.7730612, start = 0},
   },
 }
 P.transport["npc:darkmaster-gandling"] = {
@@ -706,11 +706,11 @@ P.transport["npc:dashel-stonefist"] = {
   },
 }
 P.transport["npc:david-trias"] = {
-  hash = "5a2984",
-  fullHash = "5a2984",
-  text = "David Trias. In Deathknell, David Trias trains the newly awakened Forsaken. He teaches stealth and bladecraft so they can serve Queen Sylvanas and the Forsaken. David Trias trains newly risen undead among Deathknell’s tombstones and ruins. He seeks those with a talent for killing unseen. For the fledgling Forsaken, survival calls for more than strength at arms; it calls for precise strikes from the dark. Trias deciphers orders and teaches initiates to wield daggers, hide their movements, and use their reanimated reflexes with lethal precision against the living and the Scourge.",
+  hash = "634a0e",
+  fullHash = "634a0e",
+  text = "David Trias. In Deathknell, David Trias teaches the newly awakened Forsaken to move unseen and fight with a blade. He prepares them to serve Queen Sylvanas and the Forsaken. Among Deathknell’s tombstones and ruins, David Trias trains newly risen undead. He seeks those with a gift for killing unseen. For the fledgling Forsaken, survival takes more than strength at arms. It calls for a precise strike from the dark.\n\nTrias deciphers their orders and teaches them to wield daggers and hide their movements. He shows them how to turn their reanimated reflexes against the living and the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_david-trias-be3e307ad288fa26388d/1-0000.mp3", duration = 38.6612245, start = 0},
+    {file = "Audio/Transport/full_npc_david-trias-2986a280589f29edd441/1-0000.mp3", duration = 38.1910204, start = 0},
   },
 }
 P.transport["npc:dawnwatcher-selgorm"] = {
@@ -738,19 +738,19 @@ P.transport["npc:dazalar"] = {
   },
 }
 P.transport["npc:deathguard-bartholomew"] = {
-  hash = "4ad949",
-  fullHash = "4ad949",
-  text = "Deathguard Bartholomew. In Brill, Deathguard Bartholomew keeps watch over the town and helps travelers find their way. He helps keep order among the Forsaken defenders of Tirisfal Glades. Deathguard Bartholomew keeps watch in Brill, part of the Forsaken guard defending Tirisfal Glades. Like other Deathguards, he protects reclaimed land from the lingering Scourge, fanatical Scarlet Crusaders, and other threats to Lady Sylvanas's domain. He also guides travelers around the town and helps keep order among the newly risen.",
+  hash = "138226",
+  fullHash = "138226",
+  text = "Deathguard Bartholomew. In Brill, Deathguard Bartholomew watches over the town and helps travelers find their way. He helps keep order among the Forsaken defenders of Tirisfal Glades. Deathguard Bartholomew stands watch in Brill among the Forsaken guards defending Tirisfal Glades. They protect reclaimed land from the lingering Scourge, fanatical Scarlet Crusaders, and other threats to Lady Sylvanas's domain. Bartholomew also guides travelers around town and helps keep order among the newly risen.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-bartholomew-1421f7b6b85ed22ae858/1-0000.mp3", duration = 29.7795918, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-bartholomew-e11527f3619464a7deaf/1-0000.mp3", duration = 31.4253061, start = 0},
   },
 }
 P.transport["npc:deathguard-burgess"] = {
-  hash = "cc10e2",
-  fullHash = "cc10e2",
-  text = "Deathguard Burgess. In Brill, Deathguard Burgess keeps watch over the town for the Forsaken. He guards the settlement and points travelers toward the services they need. North of the Undercity, Deathguard Burgess guards Brill against the Scourge and Scarlet Crusade. Like other Deathguards in Tirisfal Glades, he guides arriving Forsaken to local tradesfolk, class trainers, and civic services, helping keep the vulnerable outpost running.",
+  hash = "0e44d8",
+  fullHash = "0e44d8",
+  text = "Deathguard Burgess. In Brill, Deathguard Burgess watches over the town for the Forsaken. He guards the settlement and guides travelers to the services they need. North of the Undercity, Deathguard Burgess guards Brill from the Scourge and Scarlet Crusade. Like the other Deathguards in Tirisfal Glades, he guides arriving Forsaken to tradesfolk, class trainers, and civic services. His watch helps keep the vulnerable outpost running.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-burgess-5a8cf78b6d0e0f87e6c5/1-0000.mp3", duration = 25.2342857, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-burgess-2a9a3cdf7a9ae167c24f/1-0000.mp3", duration = 26.5142857, start = 0},
   },
 }
 P.transport["npc:deathguard-humbert"] = {
@@ -762,11 +762,11 @@ P.transport["npc:deathguard-humbert"] = {
   },
 }
 P.transport["npc:deathguard-linnea"] = {
-  hash = "92b522",
-  fullHash = "92b522",
-  text = "Deathguard Linnea. At a roadside post in southeastern Tirisfal, Deathguard Linnea watches the roads between Brill and the eastern borders. Her unit guards against the Scarlet Crusade and the lingering Scourge, with passing travelers sometimes helping on patrol. Deathguard Linnea guards a fortified post southeast of Brill. The Forsaken defend their young realm against Scarlet Crusade infiltrators and Scourge still prowling the wilderness. Linnea and her fellow guards patrol the road and coordinate reports with Magistrate Sevren in Brill. Their watch keeps the eastern road toward the Bulwark secure.",
+  hash = "8f9e0f",
+  fullHash = "8f9e0f",
+  text = "Deathguard Linnea. At a roadside post in southeastern Tirisfal, Deathguard Linnea watches the roads between Brill and the eastern borders. Her unit guards against the Scarlet Crusade and the Scourge still in the wilds. Travelers sometimes join them on patrol. Southeast of Brill, Deathguard Linnea guards a fortified post. The Forsaken defend their young realm from Scarlet Crusade infiltrators and Scourge still prowling the wilderness. Linnea and her fellow guards patrol the road and share reports with Magistrate Sevren in Brill. Their watch keeps the eastern road toward the Bulwark secure.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-linnea-efe1991fc20f1c6be01f/1-0000.mp3", duration = 37.0677551, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-linnea-6c2f75d731ad37d9293c/1-0000.mp3", duration = 36.0489796, start = 0},
   },
 }
 P.transport["npc:deathguard-samsa"] = {
@@ -778,19 +778,19 @@ P.transport["npc:deathguard-samsa"] = {
   },
 }
 P.transport["npc:deathguard-simmer"] = {
-  hash = "fe93f6",
-  fullHash = "fe93f6",
-  text = "Deathguard Simmer. At Deathknell’s edge, Deathguard Simmer sizes up newly risen Forsaken. He sends them west to raid a human pumpkin farm patrolled by the Scarlet Crusade, gathering reagents Brill’s apothecaries need. Deathguard Simmer guards the ground just outside Deathknell, where the Forsaken hold the line between their haven and Tirisfal Glades. Living humans roam the region, including the fanatical Scarlet Crusade, who see all undead as abominations to purge with fire and blade. Simmer tests newly risen Forsaken by sending them west to Solliden Farmstead. Scarlet Crusade soldiers patrol from a nearby tower. The recruits must steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
+  hash = "73bcf3",
+  fullHash = "73bcf3",
+  text = "Deathguard Simmer. At Deathknell’s edge, Deathguard Simmer tests newly risen Forsaken. He sends them west to raid a human pumpkin farm patrolled by the Scarlet Crusade for reagents needed by Brill’s apothecaries. Deathguard Simmer guards the ground outside Deathknell, where the Forsaken hold the line between their haven and Tirisfal Glades. Living humans still roam the region. Among them are the fanatical Scarlet Crusade, who see all undead as abominations to purge with fire and blade.\n\nSimmer tests newly risen Forsaken by sending them west to Solliden Farmstead. Scarlet Crusade soldiers patrol from a nearby tower. The recruits must steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-simmer-116d0e0165eb7285fe5f/1-0000.mp3", duration = 44.7216327, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-simmer-03770844fd5a5c190128/1-0000.mp3", duration = 45.2179592, start = 0},
   },
 }
 P.transport["npc:deathstalker-faerleia"] = {
-  hash = "8bad7d",
-  fullHash = "8bad7d",
-  text = "Deathstalker Faerleia. Deep inside Pyrewood Village, Deathstalker Faerleia works against its leaders. From the town hall, she directs covert strikes against the Pyrewood Council, the puppets Arugal uses to rule the village.",
+  hash = "4777c9",
+  fullHash = "4777c9",
+  text = "Deathstalker Faerleia. In Pyrewood Village, Deathstalker Faerleia works against the leaders who rule it. From the town hall, she directs covert strikes against the Pyrewood Council, the puppets Arugal uses to govern the village.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-faerleia-dcdfde86dbfb96985e8c/1-0000.mp3", duration = 13.6359184, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-faerleia-5137a9dfe68ff2859e53/1-0000.mp3", duration = 13.4530612, start = 0},
   },
 }
 P.transport["npc:deathstalker-lesh"] = {
@@ -802,11 +802,11 @@ P.transport["npc:deathstalker-lesh"] = {
   },
 }
 P.transport["npc:deathstalker-rane-yorick"] = {
-  hash = "c2280c",
-  fullHash = "c2280c",
-  text = "Rane Yorick. At a farmhouse in Silverpine, Deathstalker Rane Yorick and her brother Quinn are cut off from the Sepulcher. Sent to scout the northern farms, they must get word to High Executor Hadrec. Across Lordaeron, the Deathstalkers are Lady Sylvanas Windrunner's eyes, ears, and blades. Agents like Rane Yorick watch the wilds from hidden posts for threats to Forsaken rule. Rane and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, turning their covert work into a fight to survive.",
+  hash = "fc13dd",
+  fullHash = "fc13dd",
+  text = "Rane Yorick. At a farmhouse in Silverpine, Rane Yorick and her brother Quinn cannot reach the Sepulcher. Sent to scout the northern farms, they must get their report to High Executor Hadrec. Lady Sylvanas Windrunner relies on the Deathstalkers to watch across Lordaeron. They serve as her eyes and ears, and strike when Forsaken rule is threatened. Rane Yorick and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, and their covert work became a fight to survive.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-rane-yorick-ad4da79c38c75b5c205d/1-0000.mp3", duration = 34.1681633, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-rane-yorick-d9e508b8081b456b6462/1-0000.mp3", duration = 30.197551, start = 0},
   },
 }
 P.transport["npc:deathstalker-vincent"] = {
@@ -906,11 +906,11 @@ P.transport["npc:donyal-tovald"] = {
   },
 }
 P.transport["npc:doomsayer-wiserunner"] = {
-  hash = "5a73ec",
-  fullHash = "5a73ec",
-  text = "Seer Wiserunner. At his cave northwest of Bloodhoof Village, Seer Wiserunner guides young tauren through sacred rites. The respected elder helps them seek spiritual wisdom in Mulgore. Seer Wiserunner guides young tauren through their ancestral rites. After their first trials of strength and vision, they seek his counsel. He interprets visions of the Earth Mother and teaches them how to honor their forebears. His wisdom helps bind Mulgore’s scattered nomadic tribes into one community.",
+  hash = "a73532",
+  fullHash = "a73532",
+  text = "Seer Wiserunner. At his cave northwest of Bloodhoof Village, Seer Wiserunner guides young tauren through sacred rites. The respected elder helps them seek spiritual wisdom in Mulgore. Seer Wiserunner guides young tauren through their ancestral rites. After their first trials of strength and vision, they seek his counsel. He interprets visions of the Earth Mother and teaches them to honor their forebears. His wisdom helps bind Mulgore’s scattered nomadic tribes into one community.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_doomsayer-wiserunner-a9b7885887d865bfff3d/1-0000.mp3", duration = 27.5591837, start = 0},
+    {file = "Audio/Transport/full_npc_doomsayer-wiserunner-a5c856e6291151159e4b/1-0000.mp3", duration = 29.8579592, start = 0},
   },
 }
 P.transport["npc:doras"] = {
@@ -986,11 +986,11 @@ P.transport["npc:elanaria"] = {
   },
 }
 P.transport["npc:elder-bloodhoof"] = {
-  hash = "558b60",
-  fullHash = "558b60",
-  text = "Elder Bloodhoof. During the Lunar Festival, Elder Bloodhoof rests just north of Bloodhoof Village in Mulgore. The Bloodhoof tribe honors him as a guardian spirit of its ancestors. Near Bloodhoof Village, Elder Bloodhoof watches over his people. The tauren honor him as a spirit bound to their lineage and to the plains of Mulgore. During the Lunar Festival, respectful travelers seek his wisdom and receive his blessings. His presence keeps the guidance of dead chieftains and tribal forebears close to the Bloodhoof tribe.",
+  hash = "550bec",
+  fullHash = "550bec",
+  text = "Elder Bloodhoof. During the Lunar Festival, Elder Bloodhoof rests just north of Bloodhoof Village in Mulgore. The Bloodhoof tribe honors him as a guardian spirit of its ancestors. Near Bloodhoof Village, Elder Bloodhoof watches over his people. The tauren honor him as a spirit bound to their lineage and the plains of Mulgore. During the Lunar Festival, respectful travelers seek his wisdom and receive his blessings. Through him, the guidance of dead chieftains and tribal forebears remains close to the Bloodhoof tribe.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-bloodhoof-4dba82b46d95e3c46ba7/1-0000.mp3", duration = 31.6865306, start = 0},
+    {file = "Audio/Transport/full_npc_elder-bloodhoof-4cd5efc3a32a3fc46c06/1-0000.mp3", duration = 31.6342857, start = 0},
   },
 }
 P.transport["npc:elder-bronzebeard"] = {
@@ -1018,11 +1018,11 @@ P.transport["npc:elder-goldwell"] = {
   },
 }
 P.transport["npc:elder-graveborn"] = {
-  hash = "b2e49a",
-  fullHash = "b2e49a",
-  text = "Elder Graveborn. Near Brill, Elder Graveborn greets travelers during the Lunar Festival. The ancestral spirit honors them and points pilgrims toward other elders in northern Lordaeron. Elder Graveborn greets travelers just southeast of Brill during the Lunar Festival. The spectral elder stands among the haunted woods of Tirisfal Glades, where the Forsaken town lies nearby. Though the kingdom is troubled, Graveborn offers pilgrims peaceful greetings and ancestral wisdom. He also points them toward spirits in the Undercity, the Sepulcher, and across the Plaguelands.",
+  hash = "6f94ea",
+  fullHash = "6f94ea",
+  text = "Elder Graveborn. Near Brill, Elder Graveborn welcomes travelers for the Lunar Festival. This ancestral spirit honors them and directs pilgrims to other elders across northern Lordaeron. During the Lunar Festival, Elder Graveborn greets travelers just southeast of Brill. The spectral elder stands in the haunted woods of Tirisfal Glades, with the Forsaken town nearby. Though the kingdom is troubled, Graveborn offers pilgrims peaceful greetings and ancestral wisdom. He also directs them to spirits in the Undercity, the Sepulcher, and across the Plaguelands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-graveborn-376f39e75797aba39856/1-0000.mp3", duration = 35.2914286, start = 0},
+    {file = "Audio/Transport/full_npc_elder-graveborn-10e76c8f20789ff158d7/1-0000.mp3", duration = 34.56, start = 0},
   },
 }
 P.transport["npc:elder-morningdew"] = {
@@ -1034,11 +1034,11 @@ P.transport["npc:elder-morningdew"] = {
   },
 }
 P.transport["npc:elder-obsidian"] = {
-  hash = "c811b4",
-  fullHash = "c811b4",
-  text = "Elder Obsidian. At the Sepulcher in Silverpine Forest, Elder Obsidian appears for the Lunar Festival. The ancestral earthen spirit greets travelers among the graves claimed by the Forsaken, offering ancient wisdom and blessings. Elder Obsidian greets travelers at the Sepulcher during the Lunar Festival. His earthen spirit brings the ancient heritage of Azeroth to Silverpine Forest. The surrounding crypts are held by the Forsaken, and feral worgen menace the forest. Yet Obsidian welcomes wayfarers of every allegiance in peace, offering a Coin of Ancestry and ancient blessings to those who seek his wisdom.",
+  hash = "3ab6f7",
+  fullHash = "3ab6f7",
+  text = "Elder Obsidian. At the Sepulcher in Silverpine Forest, Elder Obsidian greets travelers during the Lunar Festival. The ancient earthen spirit offers wisdom and blessings among graves claimed by the Forsaken. Elder Obsidian welcomes travelers to the Sepulcher during the Lunar Festival. His earthen spirit brings Azeroth's ancient heritage to Silverpine Forest. The Forsaken hold the nearby crypts, and feral worgen menace the forest. Yet he greets wayfarers of every allegiance in peace, offering a Coin of Ancestry and ancient blessings to those who seek his wisdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-obsidian-34e87298c1a4cbb7b3a1/1-0000.mp3", duration = 37.9297959, start = 0},
+    {file = "Audio/Transport/full_npc_elder-obsidian-c146d050470395cd84a4/1-0000.mp3", duration = 35.0302041, start = 0},
   },
 }
 P.transport["npc:elder-runetotem"] = {
@@ -1066,11 +1066,11 @@ P.transport["npc:elder-starweave"] = {
   },
 }
 P.transport["npc:eleanor-shackleton"] = {
-  hash = "0703e0",
-  fullHash = "0703e0",
-  text = "Eleanor Shackleton. Southwest of Brill, Eleanor Shackleton camps in the woods of Tirisfal Glades. This Forsaken outdoorswoman teaches travelers wilderness survival and field crafts instead of staying in town or the Undercity. Her surname is shared by other Forsaken in the region, a possible link to life before the plague. Eleanor Shackleton camps in the haunted woods southwest of Brill, away from the Undercity. Newly awakened Forsaken often head for those settlements, but she teaches travelers how to live off Tirisfal's blighted land. Her lessons cover setting up campsites, gathering firewood, and keeping trade crafts while roaming far from civilization's fires and kitchens. Eleanor Shackleton shares her surname with Pierce Shackleton and Samantha Shackleton, who live in the Undercity's Magic Quarter. Family names can be the only tether an undead person has to mortal life in the shattered remnants of Lordaeron. Whether Eleanor, Pierce, and Samantha are close kin or share only common ancestry, each serves the Forsaken in a distinct way across the blighted kingdom.",
+  hash = "afe1a2",
+  fullHash = "afe1a2",
+  text = "Eleanor Shackleton. In the woods southwest of Brill, Eleanor Shackleton teaches travelers to live off Tirisfal's blighted land. This Forsaken outdoorswoman camps away from town and the Undercity. Pierce Shackleton and Samantha Shackleton share her surname, though their kinship is unknown. Eleanor Shackleton camps in the haunted woods southwest of Brill, away from the Undercity. Newly awakened Forsaken often go to those settlements, but Eleanor teaches travelers to live off Tirisfal's blighted land. She shows them how to make camps, gather firewood, and keep up their trade crafts while roaming far from civilization's fires and kitchens. Eleanor Shackleton shares her surname with Pierce Shackleton and Samantha Shackleton, who live in the Undercity's Magic Quarter. For an undead person, a family name may be the only tether to mortal life in the shattered remnants of Lordaeron. Whether the three are close kin or share only common ancestry, each serves the Forsaken in a different way across the blighted kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_eleanor-shackleton-847ca31dc08b67d05f82/1-0000.mp3", duration = 65.9069388, start = 0},
+    {file = "Audio/Transport/full_npc_eleanor-shackleton-86d834d972bd53370c0e/1-0000.mp3", duration = 61.3616327, start = 0},
   },
 }
 P.transport["npc:elu"] = {
@@ -1098,11 +1098,11 @@ P.transport["npc:falfindel-waywarder"] = {
   },
 }
 P.transport["npc:falla-sagewind"] = {
-  hash = "32d113",
-  fullHash = "32d113",
-  text = "Falla Sagewind. On a crag above the Barrens, Falla Sagewind watches the land for signs of trouble. Her camp lies between the Crossroads and the Lushwater Oasis, where she studies changes in nature and magic. Falla Sagewind keeps camp on a secluded summit southwest of the Crossroads, high above the Barrens trails. From there, she watches the savanna and the changes in its wildlife. She also studies corruption rising from fissures beneath the Wailing Caverns. Her vigil keeps her apart from the daily trade at the Crossroads, but her attention remains on the spirits and wounds of the land.",
+  hash = "02272c",
+  fullHash = "02272c",
+  text = "Falla Sagewind. On a crag above the Barrens, Falla Sagewind watches for signs of trouble. Her camp lies between the Crossroads and the Lushwater Oasis, where she studies changes in nature and magic. Southwest of the Crossroads, Falla Sagewind keeps camp on a secluded summit above the Barrens trails. From there, she watches the savanna and its changing wildlife. She also studies corruption rising from fissures beneath the Wailing Caverns. Her vigil keeps her apart from daily trade at the Crossroads, yet her attention stays on the land's spirits and wounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_falla-sagewind-b933e81f79505fc081b8/1-0000.mp3", duration = 36.5714286, start = 0},
+    {file = "Audio/Transport/full_npc_falla-sagewind-d13eb5f4efc7474d4fdb/1-0000.mp3", duration = 34.1942857, start = 0},
   },
 }
 P.transport["npc:fallen-hero-of-the-horde"] = {
@@ -1274,11 +1274,11 @@ P.transport["npc:gar-thok"] = {
   },
 }
 P.transport["npc:gart-mistrunner"] = {
-  hash = "1f3397",
-  fullHash = "1f3397",
-  text = "Gart Mistrunner. At Camp Narache, Gart Mistrunner guides novice tauren called by the Earth Mother. He teaches their first rites of nature magic on the Red Cloud Mesa. Gart Mistrunner watches over Camp Narache as the Shu'halo rekindle their ancient druidic path. New tauren druids are sent to him when they take their first steps on the Red Cloud Mesa, often with a note commending them to his care. Gart teaches them to commune with the natural world. They draw on nature's restorative power and Mu'sha's lunar radiance to heal allies and strike down threats to the land.",
+  hash = "85dafd",
+  fullHash = "85dafd",
+  text = "Gart Mistrunner. At Camp Narache, Gart Mistrunner teaches new tauren their first rites of nature magic on the Red Cloud Mesa. At Camp Narache, Gart Mistrunner guides the Shu'halo as they return to their ancient druidic path. New tauren druids come to him when they take their first steps on the Red Cloud Mesa, often carrying a note that commends them to his care. Gart teaches them to commune with the natural world. Through that bond, they draw on nature's healing power and Mu'sha's lunar light to mend allies and strike at threats to the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gart-mistrunner-86ad8f5fb1d444be72d8/1-0000.mp3", duration = 33.6195918, start = 0},
+    {file = "Audio/Transport/full_npc_gart-mistrunner-ab1927c88f150312ad65/1-0000.mp3", duration = 32.4702041, start = 0},
   },
 }
 P.transport["npc:gath-ilzogg"] = {
@@ -1362,11 +1362,11 @@ P.transport["npc:gnoarn"] = {
   },
 }
 P.transport["npc:godrick-farsan"] = {
-  hash = "260eef",
-  fullHash = "260eef",
-  text = "Godrick Farsan. In the Undercity’s Magic Quarter, Godrick Farsan aids Forsaken warlocks beside Carendin Halgar. Though blind, he says he sees in a different way. Among the summoning circles in the Magic Quarter, Godrick Farsan aids Master Carendin Halgar as he guides aspiring Forsaken warlocks. Godrick is blind, yet says he sees in a different way and does not explain how. He tests those who seek to bind greater demons, sending them to gather pure hearts and essences for intricate summoning rites.",
+  hash = "81be05",
+  fullHash = "81be05",
+  text = "Godrick Farsan. In the Undercity’s Magic Quarter, Godrick Farsan aids Forsaken warlocks beside Carendin Halgar. Though blind, he says he sees in a different way. In the Magic Quarter, Godrick Farsan helps Master Carendin Halgar guide aspiring Forsaken warlocks. Godrick is blind, yet says he sees in a different way. He does not explain how.\n\nThose seeking to bind greater demons face Godrick’s tests. He sends them to gather pure hearts and essences for intricate summoning rites.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_godrick-farsan-12d29ffedc77c0dd7a46/1-0000.mp3", duration = 29.8579592, start = 0},
+    {file = "Audio/Transport/full_npc_godrick-farsan-4c63b1d459d01fd25d37/1-0000.mp3", duration = 32.6791837, start = 0},
   },
 }
 P.transport["npc:golnir-bouldertoe"] = {
@@ -1386,11 +1386,11 @@ P.transport["npc:gorbold-steelhand"] = {
   },
 }
 P.transport["npc:gordon-wendham"] = {
-  hash = "f7f1a4",
-  fullHash = "f7f1a4",
-  text = "Gordon Wendham. In the Undercity's Trade Quarter, Gordon Wendham sells weapons and helps couriers from the surface find their way. Gordon Wendham sells weapons to those who take up arms for the Forsaken. His stock ranges from daggers and hand axes to broadswords and maces. Fledgling fighters can find dependable iron here before they venture into the contested reaches of Lordaeron. Travelers sent by flight masters and couriers are often directed to Gordon Wendham's stall. Some arrive from the bat handlers atop the ruins. His place in the Trade Quarter makes him easy to find when travelers need supplies or have dispatches to carry through the underground city.",
+  hash = "dd9cc8",
+  fullHash = "dd9cc8",
+  text = "Gordon Wendham. In the Undercity's Trade Quarter, Gordon Wendham sells weapons and guides couriers from the surface. Gordon Wendham sells weapons to those who take up arms for the Forsaken. His stall offers daggers, hand axes, broadswords, and maces. Fledgling fighters can find dependable iron here before venturing into Lordaeron's contested reaches. Travelers sent by flight masters and couriers are often directed to Gordon Wendham's stall. Some arrive from the bat handlers atop the ruins. In the Trade Quarter, his stall is easy to find for travelers seeking supplies or carrying dispatches through the underground city.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gordon-wendham-4dc8e57ab0bd9c98f26f/1-0000.mp3", duration = 40.1763265, start = 0},
+    {file = "Audio/Transport/full_npc_gordon-wendham-62ef85ad1d94ba62bce1/1-0000.mp3", duration = 40.202449, start = 0},
   },
 }
 P.transport["npc:gramma-stonefield"] = {
@@ -1434,11 +1434,11 @@ P.transport["npc:greatfather-winter"] = {
   },
 }
 P.transport["npc:greatmother-hawkwind"] = {
-  hash = "8c19cd",
-  fullHash = "8c19cd",
-  text = "Greatmother Hawkwind. Beside the well on Red Cloud Mesa, Greatmother Hawkwind guides young tauren. As mother of Chief Hawkwind, Camp Narache's leader, she holds to the tribe's shared duty despite her age. Greatmother Hawkwind spends her days beside Camp Narache's fresh water well, guiding young tauren as they begin their rites of passage. Age has slowed her stride, but she still takes part in village life. She believes every member of the tribe, young or old, must help sustain the community. She often asks young tauren to fetch water and help with simple chores. Greatmother Hawkwind is mother to Chief Hawkwind, who leads Camp Narache. She offers counsel as threats face Red Cloud Mesa. Her son organizes hunters and warriors against Bristleback quilboar and local predators. She tends to the settlement's moral heart, reminding the newly awakened that strength begins with humility and service to kin.",
+  hash = "ad7d8a",
+  fullHash = "ad7d8a",
+  text = "Greatmother Hawkwind. Beside the well on Red Cloud Mesa, Greatmother Hawkwind guides young tauren. As mother of Chief Hawkwind, she upholds the tribe’s shared duty despite her age. Greatmother Hawkwind spends her days beside Camp Narache’s fresh water well, guiding young tauren through the start of their rites of passage. Age has slowed her stride, yet she still takes part in village life. She believes every member of the tribe, young or old, must help sustain the community. So she often asks young tauren to fetch water and help with simple chores. Greatmother Hawkwind is mother to Chief Hawkwind, who leads Camp Narache. She offers counsel as threats face Red Cloud Mesa. Her son organizes hunters and warriors against Bristleback quilboar and local predators. She tends the settlement’s moral heart, reminding the newly awakened that strength begins with humility and service to kin.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_greatmother-hawkwind-014f65ce036d4a418096/1-0000.mp3", duration = 56.4244898, start = 0},
+    {file = "Audio/Transport/full_npc_greatmother-hawkwind-89cb696e5a61e1317558/1-0000.mp3", duration = 53.3420408, start = 0},
   },
 }
 P.transport["npc:greta-mosshoof"] = {
@@ -1474,11 +1474,11 @@ P.transport["npc:grub"] = {
   },
 }
 P.transport["npc:grull-hawkwind"] = {
-  hash = "2b3f4e",
-  fullHash = "2b3f4e",
-  text = "Grull Hawkwind. At Camp Narache on Red Cloud Mesa, Grull Hawkwind guides young tauren through their first trials. As Chief Hawkwind’s son, he prepares hunters and warriors to test their resolve and honor their ancestors. At Camp Narache, Grull Hawkwind helps prepare the tribe’s youth. The son of Chief Hawkwind, he guides new arrivals on Red Cloud Mesa and judges whether they are ready to serve the Shu'halo. He sets trials of stamina, tracking, and survival against plainstriders and mountain cougars. Through these trials, young tauren learn that balance and respect for nature are foundations of life in Mulgore.",
+  hash = "0d1a82",
+  fullHash = "0d1a82",
+  text = "Grull Hawkwind. At Camp Narache on Red Cloud Mesa, Grull Hawkwind guides young tauren through their first trials. As Chief Hawkwind’s son, he prepares hunters and warriors to test their resolve and honor their ancestors. At Camp Narache, Grull Hawkwind prepares the tribe’s youth. The son of Chief Hawkwind, he guides new arrivals on Red Cloud Mesa and judges whether they are ready to serve the Shu'halo. His trials test stamina, tracking, and survival against plainstriders and mountain cougars. Through them, young tauren learn that balance and respect for nature are foundations of life in Mulgore.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grull-hawkwind-efa6352e237bbdf07560/1-0000.mp3", duration = 36.1795918, start = 0},
+    {file = "Audio/Transport/full_npc_grull-hawkwind-03c05d544ea5af4eb983/1-0000.mp3", duration = 37.6163265, start = 0},
   },
 }
 P.transport["npc:grunt-dogran"] = {
@@ -1578,19 +1578,19 @@ P.transport["npc:hansel-heavyhands"] = {
   },
 }
 P.transport["npc:harb-clawhoof"] = {
-  hash = "eaffc8",
-  fullHash = "eaffc8",
-  text = "Harb Clawhoof. Near Bloodhoof Village, Harb Clawhoof tends the tauren’s kodos. He offers them to worthy tauren riders and trusted champions of Thunder Bluff. Harb Clawhoof tends the kodos near Bloodhoof Village. These great beasts carry heavy loads across long distances and are vital to tauren travel and work on the plains. Harb cares for each one, trains it, and pairs it with riders respected by the tauren people. Tauren earn the trust needed to ride Harb’s kodos, while outsiders face closer scrutiny. Their size and temperament make kodos difficult for those unfamiliar with them to guide. Non-tauren allies must prove their loyalty and earn exalted standing with Thunder Bluff before riding one of Harb’s mounts.",
+  hash = "21f1b6",
+  fullHash = "21f1b6",
+  text = "Harb Clawhoof. Near Bloodhoof Village, Harb Clawhoof cares for the kodos that carry tauren across the plains. He entrusts them to worthy tauren riders and champions trusted by Thunder Bluff. Near Bloodhoof Village, Harb Clawhoof tends the kodos. Great beasts, they carry heavy loads over long distances and serve tauren travel and work across the plains. Harb cares for each one and trains it. Then he pairs it with a rider respected by the tauren people. Tauren earn the trust needed to ride Harb’s kodos, while outsiders face closer scrutiny. Their size and temperament make kodos hard for the unfamiliar to guide. So non-tauren allies must prove their loyalty and earn exalted standing with Thunder Bluff before riding one of Harb’s mounts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_harb-clawhoof-7225c6545e7249b3b2ec/1-0000.mp3", duration = 47.4644898, start = 0},
+    {file = "Audio/Transport/full_npc_harb-clawhoof-c70687240c8588a88204/1-0000.mp3", duration = 47.4122449, start = 0},
   },
 }
 P.transport["npc:harken-windtotem"] = {
-  hash = "c5304a",
-  fullHash = "c5304a",
-  text = "Harken Windtotem. In Bloodhoof Village, Harken Windtotem guides young hunters across Mulgore’s plains. He teaches the traditions of his people and asks hunters and travelers to prove their tracking and foraging skills. Near the heart of Bloodhoof Village, Harken Windtotem guides those learning the tauren hunting ways. Life on Mulgore’s plains calls for respect for the natural world and the skills needed to sustain a tribe. Harken tests young hunters by sending them after the swoops that circle the mesas. They gather the birds’ quills, showing patience, aim, and care in taking only what they need.",
+  hash = "4967c0",
+  fullHash = "4967c0",
+  text = "Harken Windtotem. In Bloodhoof Village, Harken Windtotem guides young hunters across Mulgore’s plains. He teaches tauren hunting traditions and asks hunters and travelers to prove their tracking and foraging skills. Harken Windtotem guides those learning the tauren hunting ways in Bloodhoof Village. Life on Mulgore’s plains calls for respect for the natural world and the skills that sustain a tribe. He tests young hunters by sending them after swoops that circle the mesas. They gather the birds’ quills, showing patience, aim, and care in taking only what they need.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_harken-windtotem-85e636245a7f9d1cbc6e/1-0000.mp3", duration = 36.075102, start = 0},
+    {file = "Audio/Transport/full_npc_harken-windtotem-7156e4625e1f95f8856b/1-0000.mp3", duration = 34.4555102, start = 0},
   },
 }
 P.transport["npc:harlan-bagley"] = {
@@ -1634,11 +1634,11 @@ P.transport["npc:heralath-fallowbrook"] = {
   },
 }
 P.transport["npc:high-executor-derrington"] = {
-  hash = "abaa25",
-  fullHash = "abaa25",
-  text = "High Executor Derrington. At the Bulwark, High Executor Derrington directs the Forsaken vanguard against threats from the Western Plaguelands. A no-nonsense military officer, he sends seasoned champions toward contested ruins such as Andorhal and Scholomance. At the Bulwark’s barricades, High Executor Derrington gives orders to those crossing from Tirisfal Glades into the Western Plaguelands. He has little patience for political maneuvering in the Undercity and sees the front lines as a crucible of sheer survival. Horde soldiers and sellswords receive direct orders to scout plague-ridden territory and blunt enemy incursions before they reach Tirisfal. The Bulwark faces threats from the Scourge in Andorhal and from the Scarlet Crusade farther north. Scourge forces spread corruption through cauldrons in the countryside, while the Crusade’s zealous fanatics contest northern fortifications and skirmish relentlessly with Forsaken patrols. Derrington coordinates surgical counterattacks, sabotage against Scarlet lines, and systematic disruption of Scourge cauldron fields to protect the eastern border.",
+  hash = "b7c36c",
+  fullHash = "b7c36c",
+  text = "High Executor Derrington. At the Bulwark, High Executor Derrington directs the Forsaken vanguard against threats from the Western Plaguelands. He sends seasoned champions toward contested ruins such as Andorhal and Scholomance. High Executor Derrington commands the Bulwark’s barricades, where soldiers cross from Tirisfal Glades into the Western Plaguelands. He has little patience for political maneuvering in the Undercity. To him, the front lines are a test of survival. So he orders Horde soldiers and sellswords to scout plague-ridden territory and blunt enemy incursions before they reach Tirisfal. The Bulwark faces the Scourge in Andorhal and the Scarlet Crusade farther north. Scourge forces spread corruption through cauldrons in the countryside. The Crusade’s zealous fanatics contest northern fortifications and skirmish relentlessly with Forsaken patrols. Derrington coordinates sharp counterattacks, sabotage against Scarlet lines, and the systematic disruption of Scourge cauldron fields to protect the eastern border.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_high-executor-derrington-cff98ffa32d3ddaf3a2a/1-0000.mp3", duration = 66.56, start = 0},
+    {file = "Audio/Transport/full_npc_high-executor-derrington-4cc91ea890ede80f6924/1-0000.mp3", duration = 64.0522449, start = 0},
   },
 }
 P.transport["npc:high-priest-rohan"] = {
@@ -1666,11 +1666,11 @@ P.transport["npc:hogger"] = {
   },
 }
 P.transport["npc:holt-thunderhorn"] = {
-  hash = "f2d8f4",
-  fullHash = "f2d8f4",
-  text = "Holt Thunderhorn. On Hunter Rise in Thunder Bluff, Holt Thunderhorn trains tauren hunters for the Horde. He teaches tracking and survival, and points hunters toward specialized trials across Mulgore and beyond. Holt Thunderhorn trains hunters for the Horde on Hunter Rise, above the plains of Mulgore. He teaches ranged combat, tracking, and survival. Like other elders of his craft, he guides young tauren as they move from roaming hunters to disciplined defenders of their new capital.",
+  hash = "3cb1df",
+  fullHash = "3cb1df",
+  text = "Holt Thunderhorn. On Hunter Rise in Thunder Bluff, Holt Thunderhorn trains hunters to serve the Horde. He teaches tracking and survival, and sends hunters toward specialized trials across Mulgore and beyond. On Hunter Rise, Holt Thunderhorn trains hunters for the Horde. From the rise above Mulgore's plains, he teaches ranged combat, tracking, and survival. Like other elders of his craft, he guides young tauren from roaming hunters toward disciplined defenders of their new capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_holt-thunderhorn-ab858c7616d4359fb80c/1-0000.mp3", duration = 28.3428571, start = 0},
+    {file = "Audio/Transport/full_npc_holt-thunderhorn-f3ac39ced4c6342d090e/1-0000.mp3", duration = 30.8767347, start = 0},
   },
 }
 P.transport["npc:huldar"] = {
@@ -1746,19 +1746,19 @@ P.transport["npc:innkeeper-keldamyr"] = {
   },
 }
 P.transport["npc:innkeeper-norman"] = {
-  hash = "8ee0e8",
-  fullHash = "8ee0e8",
-  text = "Innkeeper Norman. Innkeeper Norman keeps the Trade Quarter tavern ready for travelers in the Undercity. The quiet, diligent Forsaken offers Horde travelers rest, hearthstone bindings, and food for the living and the dead. Beneath Lordaeron's ruined capital, Innkeeper Norman tends the main tavern in the Undercity's Trade Quarter. Emissaries, mercenaries, and adventurers passing through the Forsaken stronghold find lodging there. Travelers come to bind their hearthstones, share news from across Azeroth, or prepare for journeys into the Plaguelands. Innkeeper Norman sells provisions and manages rooms through most of the year. During Hallow's End, he joins the holiday revelry and asks adventurous patrons for peculiar displays, such as clucking like a chicken. Those who oblige can earn holiday treats like Undercity mints.",
+  hash = "c0fb25",
+  fullHash = "c0fb25",
+  text = "Innkeeper Norman. In the Undercity's Trade Quarter, Innkeeper Norman keeps a tavern ready for travelers. The quiet, diligent Forsaken offers Horde travelers rooms, hearthstone bindings, and food for the living and the dead. Beneath Lordaeron's ruined capital, Innkeeper Norman tends the main tavern in the Undercity's Trade Quarter. Emissaries, mercenaries, and adventurers passing through the Forsaken stronghold find lodging there. Travelers bind their hearthstones, share news from across Azeroth, or prepare for journeys into the Plaguelands. Innkeeper Norman sells provisions and manages rooms through most of the year. During Hallow's End, he joins the revelry and asks adventurous patrons for peculiar displays, such as clucking like a chicken. Those who oblige can earn holiday treats like Undercity mints.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-norman-e6d7babb4d78cbda409b/1-0000.mp3", duration = 50.5730612, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-norman-b5b68453de6e303120fb/1-0000.mp3", duration = 49.8677551, start = 0},
   },
 }
 P.transport["npc:innkeeper-pala"] = {
-  hash = "61e29c",
-  fullHash = "61e29c",
-  text = "Innkeeper Pala. On Thunder Bluff’s lower rise, travelers find Innkeeper Pala tending the Cat and the Shaman. She offers a place to rest, cold drinks, and a hearthstone binding for journeys across Mulgore and beyond. Innkeeper Pala tends the hearth at the Cat and the Shaman on Thunder Bluff’s lower rise. Travelers arrive from the central lifts or the plains of Mulgore. In the common room, weary warriors, wandering druids, and the Horde’s visiting allies can find shelter, a warm drink, and a familiar place to rest.",
+  hash = "73a69f",
+  fullHash = "73a69f",
+  text = "Innkeeper Pala. On Thunder Bluff’s lower rise, Innkeeper Pala welcomes travelers to the Cat and the Shaman. She offers a place to rest, cold drinks, and a hearthstone binding for journeys across Mulgore and beyond. At the Cat and the Shaman on Thunder Bluff’s lower rise, Innkeeper Pala keeps the hearth. Travelers come from the central lifts or the plains of Mulgore. In the common room, weary warriors, wandering druids, and the Horde’s visiting allies find shelter, a warm drink, and a familiar place to rest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-pala-d0fbcc71f9b6ac760784/1-0000.mp3", duration = 32.4963265, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-pala-2fff59a6c267d40f41d1/1-0000.mp3", duration = 31.8432653, start = 0},
   },
 }
 P.transport["npc:jahan-hawkwing"] = {
@@ -1842,11 +1842,11 @@ P.transport["npc:jorgen"] = {
   },
 }
 P.transport["npc:josef-gregorian"] = {
-  hash = "4f8622",
-  fullHash = "4f8622",
-  text = "Josef Gregorian. In the Undercity’s Magic Quarter, Josef Gregorian trains tailors of the Horde. His skill guides them toward enchanted fabrics and specialized garments. Josef Gregorian teaches tailoring in the Undercity’s Magic Quarter, where Forsaken and their Horde allies practice the craft. Tailoring remains vital to warlocks, mages, and priests who channel raw energies through woven fibers. Gregorian teaches foundational patterns and stitches the first robes for young mages who bring him the right materials.",
+  hash = "d200ce",
+  fullHash = "d200ce",
+  text = "Josef Gregorian. In the Undercity’s Magic Quarter, Josef Gregorian trains tailors for the Horde. His craft leads them toward enchanted fabrics and specialized garments. Josef Gregorian teaches tailoring in the Undercity’s Magic Quarter, where Forsaken and their Horde allies learn the craft. Tailoring matters to warlocks, mages, and priests who channel raw energies through woven fibers. Gregorian teaches the first patterns and stitches robes for young mages who bring him the right materials.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_josef-gregorian-9fb852b3b3acec1b1d50/1-0000.mp3", duration = 32.2873469, start = 0},
+    {file = "Audio/Transport/full_npc_josef-gregorian-cad908d1b5828758f8b8/1-0000.mp3", duration = 30.2497959, start = 0},
   },
 }
 P.transport["npc:kaal-soulreaper"] = {
@@ -1906,11 +1906,11 @@ P.transport["npc:kargal-battlescar"] = {
   },
 }
 P.transport["npc:karos-razok"] = {
-  hash = "6d714b",
-  fullHash = "6d714b",
-  text = "Karos Razok. At the Sepulcher in Silverpine Forest, Karos Razok keeps the Forsaken bat roost ready. Karos Razok tends the skeletal bats from the wooden platform above the Sepulcher's crypts. Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill make the northern road through Silverpine Forest treacherous. Razok keeps messengers, fresh recruits, and vital supplies moving above the haunted canopy, linking the frontier outpost to the capital in Tirisfal Glades.",
+  hash = "6f3d72",
+  fullHash = "6f3d72",
+  text = "Karos Razok. At the Sepulcher in Silverpine Forest, Karos Razok keeps the Forsaken bat roost ready. Karos Razok tends skeletal bats from a wooden platform above the Sepulcher's crypts. The northern road through Silverpine Forest is treacherous, with Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill. Razok keeps messengers, fresh recruits, and vital supplies moving above the haunted canopy. His bats link the frontier outpost to the capital in Tirisfal Glades.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_karos-razok-3067d2618a6582d5f2fe/1-0000.mp3", duration = 28.8391837, start = 0},
+    {file = "Audio/Transport/full_npc_karos-razok-44a24f0617b0602898c0/1-0000.mp3", duration = 31.2685714, start = 0},
   },
 }
 P.transport["npc:katie-hunter"] = {
@@ -2130,11 +2130,11 @@ P.transport["npc:lakota-windsong"] = {
   },
 }
 P.transport["npc:lanka-farshot"] = {
-  hash = "90a3cb",
-  fullHash = "90a3cb",
-  text = "Lanka Farshot. At Camp Narache, Lanka Farshot guides young tauren onto the hunter's path. He is stationed within the Red Cloud Mesa and teaches tracking, marksmanship, and survival on Mulgore's plains. At Camp Narache, Lanka Farshot welcomes new tauren called to the hunter's path. Fresh recruits arrive with an etched note that sends them to seek his counsel. Under his guidance, they learn ranged combat, how to track prey, and respect for the wild beasts roaming Mulgore's grassy plains. He prepares each young hunter to scout and provide for the tribe.",
+  hash = "ddd509",
+  fullHash = "ddd509",
+  text = "Lanka Farshot. At Camp Narache, Lanka Farshot guides young tauren into the hunter’s path. He teaches tracking, marksmanship, and survival on Mulgore’s plains. At Camp Narache, Lanka Farshot welcomes new tauren called to the hunter’s path. Fresh recruits arrive with an etched note that sends them to seek his counsel. He teaches ranged combat and how to track prey. He also teaches respect for the wild beasts roaming Mulgore’s grassy plains, preparing each young hunter to scout and provide for the tribe.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lanka-farshot-2f1b31e0402affd4dc07/1-0000.mp3", duration = 34.4816327, start = 0},
+    {file = "Audio/Transport/full_npc_lanka-farshot-4f9baa189a6a1c4d2117/1-0000.mp3", duration = 31.6081633, start = 0},
   },
 }
 P.transport["npc:lar-prowltusk"] = {
@@ -2178,11 +2178,11 @@ P.transport["npc:lieutenant-haggerdin"] = {
   },
 }
 P.transport["npc:lieutenant-lisande"] = {
-  hash = "f3b394",
-  fullHash = "f3b394",
-  text = "Lieutenant Lisande. On Thunder Bluff’s high mesas, Lieutenant Lisande watches for signs of the Scourge. Lieutenant Lisande serves the Argent Dawn from Thunder Bluff, where human faces are rare. The holy order watches for signs of the Lich King's taint, even in remote Kalimdor. When undead forces stir on the plains below, Lisande calls on Horde champions to ride out and investigate before the Scourge can defile the sacred earth.",
+  hash = "5436a7",
+  fullHash = "5436a7",
+  text = "Lieutenant Lisande. On Thunder Bluff’s high mesas, Lieutenant Lisande watches for signs of the Scourge. Lieutenant Lisande serves the Argent Dawn from Thunder Bluff, where human faces are rare. The order watches for the Lich King's taint, even in remote Kalimdor. When undead forces stir on the plains below, Lisande calls on Horde champions to ride out and investigate before the Scourge can defile the sacred earth.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lieutenant-lisande-50219387223d54374717/1-0000.mp3", duration = 26.8277551, start = 0},
+    {file = "Audio/Transport/full_npc_lieutenant-lisande-ef9830cc9f392f3ebbfb/1-0000.mp3", duration = 25.077551, start = 0},
   },
 }
 P.transport["npc:lieutenant-nevell"] = {
@@ -2282,11 +2282,11 @@ P.transport["npc:lord-shalzaru"] = {
   },
 }
 P.transport["npc:lorekeeper-raintotem"] = {
-  hash = "a072ed",
-  fullHash = "a072ed",
-  text = "Lorekeeper Raintotem. South of Red Rocks, Lorekeeper Raintotem tends Mulgore’s sacred burial grounds. He asks travelers to drive off Bristleback quilboar disturbing them. Lorekeeper Raintotem tends his people’s sacred burial grounds near Red Rocks in Mulgore. Bristleback Interlopers disturb the resting place, and he asks travelers to drive them away so the ancestors may rest in peace. Lorekeeper Raintotem watches over the burial sites at Red Rocks. Bristleback quilboar disturb the resting places of tauren chieftains and shamans. Raintotem calls on travelers to restore quiet and dignity to the grounds and their dead.",
+  hash = "22823f",
+  fullHash = "22823f",
+  text = "Lorekeeper Raintotem. South of Red Rocks, Lorekeeper Raintotem tends Mulgore’s sacred burial grounds. He asks travelers to drive off Bristleback quilboar disturbing them. Near Red Rocks in Mulgore, Lorekeeper Raintotem tends his people’s sacred burial grounds. Bristleback Interlopers disturb the resting place. He asks travelers to drive them away so the ancestors may rest in peace. At Red Rocks, Lorekeeper Raintotem watches over the burial sites. Bristleback quilboar disturb the resting places of tauren chieftains and shamans. Raintotem calls on travelers to restore quiet and dignity to the grounds and their dead.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lorekeeper-raintotem-3291ac167c7a8cfeee07/1-0000.mp3", duration = 38.0865306, start = 0},
+    {file = "Audio/Transport/full_npc_lorekeeper-raintotem-2c18439b26bb8f06d27f/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["npc:loslor-rudge"] = {
@@ -2514,11 +2514,11 @@ P.transport["npc:maur-grimtotem"] = {
   },
 }
 P.transport["npc:maur-raincaller"] = {
-  hash = "72b4a6",
-  fullHash = "72b4a6",
-  text = "Maur Raincaller. In Bloodhoof Village, Maur Raincaller watches over Mulgore’s herds and wild beasts. He attends to concerns tied to the plains’ natural and spiritual life. Maur Raincaller lives near the heart of Bloodhoof Village, on the shore of Lake Stonebull. He watches over matters involving Mulgore’s wildlife and the balance of the elements. After the strider Mazzranache bites him and infects his wound, Maur asks young travelers to gather animal parts for a remedy.",
+  hash = "4c54a4",
+  fullHash = "4c54a4",
+  text = "Maur Raincaller. In Bloodhoof Village, Maur Raincaller tends to Mulgore’s herds and wild beasts. He answers concerns tied to the plains’ natural and spiritual life. Maur Raincaller lives near the heart of Bloodhoof Village, on Lake Stonebull’s shore. He watches over Mulgore’s wildlife and the balance of the elements. Then the strider Mazzranache bites him and infects his wound. Maur asks young travelers to gather animal parts for a remedy.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_maur-raincaller-d8e848cf1e4fa7a3f9bd/1-0000.mp3", duration = 28.1077551, start = 0},
+    {file = "Audio/Transport/full_npc_maur-raincaller-daf393163365d7d08d04/1-0000.mp3", duration = 27.9771429, start = 0},
   },
 }
 P.transport["npc:maurin-bonesplitter"] = {
@@ -2570,11 +2570,11 @@ P.transport["npc:merrin-rockweaver"] = {
   },
 }
 P.transport["npc:miles-welsh"] = {
-  hash = "a683f5",
-  fullHash = "a683f5",
-  text = "Miles Welsh. In the Pools of Vision, Miles Welsh teaches priests beneath Thunder Bluff. The Forsaken trainer offers spiritual instruction and shadow discipline in the tauren capital. Miles Welsh teaches priests in the Pools of Vision beneath Thunder Bluff. Far from Lordaeron's plague-scarred ruins, the Forsaken priest makes his home in the grotto beneath the city. He instructs travelers in divine and shadowy energies. His place in the heart of Mulgore reflects the tenuous ties between the Forsaken and the Horde. There, he shares sanctuary with tauren mystics and shamans while guiding acolytes in shadow and faith.",
+  hash = "6840ae",
+  fullHash = "6840ae",
+  text = "Miles Welsh. Beneath Thunder Bluff, Miles Welsh teaches priests in the Pools of Vision. The Forsaken trainer offers spiritual instruction and shadow discipline in the tauren capital. In the Pools of Vision, Miles Welsh teaches priests beneath Thunder Bluff. Far from Lordaeron's plague-scarred ruins, the Forsaken priest makes his home in the grotto beneath the city. He instructs travelers in divine and shadowy energies. His place in the heart of Mulgore reflects the tenuous ties between the Forsaken and the Horde. There, he shares sanctuary with tauren mystics and shamans while guiding acolytes in shadow and faith.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_miles-welsh-cbd4c34e4e4c25e8e2c5/1-0000.mp3", duration = 37.8514286, start = 0},
+    {file = "Audio/Transport/full_npc_miles-welsh-abb3b393c6cb965bd616/1-0000.mp3", duration = 38.8702041, start = 0},
   },
 }
 P.transport["npc:milli-featherwhistle"] = {
@@ -2594,19 +2594,19 @@ P.transport["npc:milton-sheaf"] = {
   },
 }
 P.transport["npc:minor-manifestation-of-earth"] = {
-  hash = "2322f5",
-  fullHash = "2322f5",
-  text = "Minor Manifestation of Earth. At sacred stones in Mulgore and Durotar, Minor Manifestation of Earth waits unseen. Fledgling shamans who drink Earth Sapta can meet the spirit and receive rough quartz for carving their first earth totem. Earth spirits dwell beneath dirt and stone, but reaching them takes a deliberate rite. At Kodo Rock in Mulgore and Spirit Rock in Durotar, Minor Manifestations of Earth linger beyond ordinary sight, surrounded by lesser elemental presences. Only initiates who drink Earth Sapta, a draught brewed by shamanic mentors, can cross the veil between the physical world and the elements. When an initiate makes contact, the spirit grants the earth's blessings and a piece of rough quartz. The novice can use it as the spiritual focus for making an Earth Totem.",
+  hash = "ab1d1e",
+  fullHash = "ab1d1e",
+  text = "Minor Manifestation of Earth. At sacred stones in Mulgore and Durotar, Minor Manifestation of Earth waits beyond ordinary sight. Fledgling shamans who drink Earth Sapta can meet the spirit and receive rough quartz for carving their first earth totem. Earth spirits dwell beneath dirt and stone, but a rite is needed to reach them. At Kodo Rock in Mulgore and Spirit Rock in Durotar, Minor Manifestations of Earth linger beyond ordinary sight, among lesser elemental presences. Only initiates who drink Earth Sapta, brewed by shamanic mentors, can cross from the physical world into the elements.\n\nWhen an initiate makes contact, the spirit grants the earth's blessings and a piece of rough quartz. The novice can use it as the spiritual focus for making an Earth Totem.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_minor-manifestation-of-earth-349f4f3b5d23e73bd3ad/1-0000.mp3", duration = 48.5616327, start = 0},
+    {file = "Audio/Transport/full_npc_minor-manifestation-of-earth-81ba7749564f03a5464a/1-0000.mp3", duration = 47.6473469, start = 0},
   },
 }
 P.transport["npc:minor-manifestation-of-water"] = {
-  hash = "893e7d",
-  fullHash = "893e7d",
-  text = "Minor Manifestation of Water. Along North Tide's Run, the Minor Manifestation of Water awaits shamans on Silverpine Forest's coast. Its corrupted counterpart must be cleansed before the peaceful spirit can be consulted. The Minor Manifestation of Water waits west of the Sepulcher, along North Tide's Run. For developing shamans, meeting the spirit is an essential rite. Water elementals embody life, renewal, and fluidity, yet malevolent blight can corrupt them. An initiate must face and defeat a corrupted manifestation before the pure spirit reveals itself. Once cleansed, the Minor Manifestation of Water guides shamans on their sacred journey to fashion a Water Totem.",
+  hash = "27189f",
+  fullHash = "27189f",
+  text = "Minor Manifestation of Water. Along North Tide's Run, the Minor Manifestation of Water waits for shamans on Silverpine Forest's coast. First, its corrupted counterpart must be defeated before the peaceful spirit will speak. West of the Sepulcher, the Minor Manifestation of Water waits along North Tide's Run. For a shaman in training, meeting the spirit is an essential rite. Water elementals embody life, renewal, and fluidity, yet a malevolent blight can corrupt them. An initiate must face and defeat a corrupted manifestation before the pure spirit reveals itself. Once the corruption is cleansed, the spirit guides shamans on their sacred journey to fashion a Water Totem.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_minor-manifestation-of-water-cd776daa2f706a7fb1f0/1-0000.mp3", duration = 41.8481633, start = 0},
+    {file = "Audio/Transport/full_npc_minor-manifestation-of-water-db309c48baf43b718811/1-0000.mp3", duration = 41.1689796, start = 0},
   },
 }
 P.transport["npc:misha"] = {
@@ -2818,11 +2818,11 @@ P.transport["npc:nori-pridedrift"] = {
   },
 }
 P.transport["npc:novice-elreth"] = {
-  hash = "2ee9c1",
-  fullHash = "2ee9c1",
-  text = "Novice Elreth. Inside Deathknell's chapel, Novice Elreth guides the newly risen Forsaken. She sends them against the mindless Scourge near the graves and helps them face the plague's sorrowful aftermath. Novice Elreth guides newly risen undead inside the desecrated chapel at Deathknell. They struggle to understand their horrific awakening, while the Forsaken must organize quickly to secure their territory. Elreth sends them south to gather paws from wolves and wings from bats. She also points them toward Lordaeron's tragic aftermath, including the sorrow of her friend Marla Fipps, whom her husband Samuel killed after joining the mindless Scourge.",
+  hash = "8a77a6",
+  fullHash = "8a77a6",
+  text = "Novice Elreth. At Deathknell's chapel, Novice Elreth guides the newly risen Forsaken. She sends them against the mindless Scourge near the graves and helps them face the sorrow left by the plague. Within Deathknell's desecrated chapel, Novice Elreth guides the newly risen undead. They struggle to understand their horrific awakening, while the Forsaken must organize quickly to secure their territory. Elreth sends them south to gather paws from wolves and wings from bats. She also directs them toward Lordaeron's tragic aftermath, including the sorrow of her friend Marla Fipps. Marla's husband Samuel killed her after joining the mindless Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_novice-elreth-bf71ed96f3855fbde618/1-0000.mp3", duration = 39.2097959, start = 0},
+    {file = "Audio/Transport/full_npc_novice-elreth-dec324ec55404a75f796/1-0000.mp3", duration = 39.915102, start = 0},
   },
 }
 P.transport["npc:oben-rageclaw"] = {
@@ -3074,11 +3074,11 @@ P.transport["npc:quartermaster-lewis"] = {
   },
 }
 P.transport["npc:quinn-yorick"] = {
-  hash = "115034",
-  fullHash = "115034",
-  text = "Quinn Yorick. At the Ivar Patch, Quinn Yorick hides from the ghoul that wounded him. The Forsaken scout waits in a ruined farmhouse, unable to finish his mission or retreat alone. Quinn Yorick lies gravely injured upstairs in a ruined farmhouse at the Ivar Patch. Ivar the Foul, a ghoul lurking in the farm’s barn in northern Silverpine Forest, wounded him in a vicious clash. Quinn and his sister Rane were sent to scout Silverpine and report to High Executor Hadrec. Too hurt to finish the mission or make a safe retreat alone, he remains in hiding. Passing travelers working for the Forsaken bring him healing and deal with the creature that nearly tore him apart.",
+  hash = "cf4968",
+  fullHash = "cf4968",
+  text = "Quinn Yorick. At the Ivar Patch, Quinn Yorick lies wounded and hidden from the ghoul that struck him. The Forsaken scout cannot finish his mission or retreat alone. Quinn Yorick is a Forsaken scout hiding upstairs in a ruined farmhouse at the Ivar Patch. Ivar the Foul, a ghoul in the farm’s barn in northern Silverpine Forest, wounded him in a fierce clash. Quinn and his sister Rane were sent to scout Silverpine and report to High Executor Hadrec. Too badly hurt to finish their mission or retreat safely alone, he waits in hiding. Travelers serving the Forsaken bring him healing and face the creature that nearly tore him apart.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_quinn-yorick-fa254c8fd4a8df4be91c/1-0000.mp3", duration = 39.7583673, start = 0},
+    {file = "Audio/Transport/full_npc_quinn-yorick-f169b444484e556fc939/1-0000.mp3", duration = 39.2359184, start = 0},
   },
 }
 P.transport["npc:ragnar-thunderbrew"] = {
@@ -3090,19 +3090,19 @@ P.transport["npc:ragnar-thunderbrew"] = {
   },
 }
 P.transport["npc:rahauro"] = {
-  hash = "c44a52",
-  fullHash = "c44a52",
-  text = "Rahauro. On Elder Rise in Thunder Bluff, Rahauro sends Horde fighters against threats beneath Orgrimmar. He serves Magatha Grimtotem, coordinating the response to troggs in Ragefire Chasm and the search for a fallen agent’s possessions. Rahauro attends Magatha Grimtotem on the high terrace of Elder Rise. He speaks and acts for the elder crone, who relies on trusted servants to recruit others. When wild creatures swarm beneath the orcish capital, Rahauro handles the arrangements and sends Horde mercenaries to face them. Troggs in the caverns of Ragefire Chasm rejected Magatha’s attempt to make peace. Her envoys went below Orgrimmar to parley, but the troggs attacked and killed them. Magatha sees the creatures as a threat to the Horde, and Rahauro sends champions into the caverns to thin their numbers and learn their strength.",
+  hash = "bbeb15",
+  fullHash = "bbeb15",
+  text = "Rahauro. On Elder Rise in Thunder Bluff, Rahauro sends Horde fighters against threats beneath Orgrimmar. He serves Magatha Grimtotem, coordinating the response to troggs in Ragefire Chasm and the search for a fallen agent’s possessions. Rahauro attends Magatha Grimtotem on Elder Rise’s high terrace. He speaks and acts for the elder crone, who trusts her servants to recruit others. When wild creatures swarm beneath the orcish capital, Rahauro makes the arrangements and sends Horde mercenaries to face them. Troggs in Ragefire Chasm rejected Magatha’s offer of peace. Her envoys went beneath Orgrimmar to parley, but the troggs attacked and killed them. Magatha sees the creatures as a threat to the Horde. So Rahauro sends champions into the caverns to thin their numbers and learn their strength.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_rahauro-c0e356454d5962610881/1-0000.mp3", duration = 52.244898, start = 0},
+    {file = "Audio/Transport/full_npc_rahauro-86fac95441bff0bd0f26/1-0000.mp3", duration = 50.3902041, start = 0},
   },
 }
 P.transport["npc:raleigh-andrean"] = {
-  hash = "e07dc8",
-  fullHash = "e07dc8",
-  text = "Raleigh Andrean. In the Undercity, Raleigh Andrean lives among the Forsaken. His requests show how little regard he has for his human life and those he once knew. Before the Third War, Raleigh Andrean lived in Lordaeron as a human. He was married to Deliah and counted Valdred Moray as a friend. The Scourge swept through the kingdom, killing Raleigh and raising him as a mindless thrall in service to the Lich King. After the Lich King's grip shattered and Sylvanas Windrunner led her uprising, Raleigh regained his free will and joined the Forsaken in the Undercity.",
+  hash = "a88057",
+  fullHash = "a88057",
+  text = "Raleigh Andrean. In the Undercity, Raleigh Andrean has made a home among the Forsaken. His dealings with those he once knew reveal how little regard he has for his human life. Before the Third War, Raleigh Andrean lived in Lordaeron as a human. He shared his life with his wife, Deliah, and counted Valdred Moray as a friend. Then the Scourge swept through the kingdom. Raleigh was killed and raised as a mindless thrall in service to the Lich King. When the Lich King's grip shattered, Sylvanas Windrunner led an uprising. Raleigh regained his free will and joined the Forsaken in the Undercity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_raleigh-andrean-bff55661a35074dd36f8/1-0000.mp3", duration = 36.2579592, start = 0},
+    {file = "Audio/Transport/full_npc_raleigh-andrean-c0a6b6dd81ea3aa1a13d/1-0000.mp3", duration = 34.9518367, start = 0},
   },
 }
 P.transport["npc:randis"] = {
@@ -3178,11 +3178,11 @@ P.transport["npc:renato-gallina"] = {
   },
 }
 P.transport["npc:renee-lauer"] = {
-  hash = "5df15d",
-  fullHash = "5df15d",
-  text = "Innkeeper Renee. Travelers find food, drink, and shelter with Innkeeper Renee at the Gallows' End Tavern in Brill. Innkeeper Renee welcomes weary newcomers to the Gallows' End Tavern, Brill's central inn. She sells food, drink, and general goods from behind her counter, and remarks that the Forsaken have huge appetites. Her tavern offers the undead of Tirisfal a cozy place to rest as plague victims make their way in the world. Newcomers to Brill often stop first at Renee's inn. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter, the word she has eagerly awaited. Beneath the tavern's floorboards, the cellar also holds a captured Scarlet Crusade zealot.",
+  hash = "0a627d",
+  fullHash = "0a627d",
+  text = "Innkeeper Renee. At the Gallows' End Tavern in Brill, Innkeeper Renee gives travelers food, drink, and shelter. Innkeeper Renee keeps Brill's central inn, the Gallows' End Tavern. She sells food, drink, and general goods from behind her counter. Renee remarks that the Forsaken have huge appetites. Her tavern gives Tirisfal's undead a cozy place to rest as plague victims make their way in the world. Newcomers to Brill often stop first at Renee's inn. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter. The word is the one Renee has eagerly awaited. Beneath the tavern's floorboards, the cellar also holds a captured Scarlet Crusade zealot.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_renee-lauer-da08510d4202a230d9c1/1-0000.mp3", duration = 44.564898, start = 0},
+    {file = "Audio/Transport/full_npc_renee-lauer-d71a7729afcee4ba266b/1-0000.mp3", duration = 44.1208163, start = 0},
   },
 }
 P.transport["npc:renzik-the-shiv"] = {
@@ -3258,11 +3258,11 @@ P.transport["npc:rutgar-glyphshaper"] = {
   },
 }
 P.transport["npc:ruul-eagletalon"] = {
-  hash = "f88945",
-  fullHash = "f88945",
-  text = "Ruul Eagletalon. At Bloodhoof Village, Ruul Eagletalon watches the settlement’s borders. He keeps an eye on Mulgore’s wildlife, especially the aggressive Windfury harpies pressing into tauren lands. Ruul Eagletalon tends to Bloodhoof Village’s security as young braves arrive from Camp Narache. Mulgore is a peaceful homeland beside the arid wastes of the Barrens, yet territorial predators and hostile creatures still press against its pastures. Ruul watches for dangers on the nearby plains and directs capable travelers against the savage Windfury harpies, which prey on unwary nomads and game.",
+  hash = "7e8ba1",
+  fullHash = "7e8ba1",
+  text = "Ruul Eagletalon. At Bloodhoof Village, Ruul Eagletalon keeps watch over the borders. He watches Mulgore’s wildlife, especially the aggressive Windfury harpies pressing into tauren lands. Ruul Eagletalon watches over Bloodhoof Village as young braves arrive from Camp Narache. Mulgore is a peaceful homeland beside the arid Barrens. Yet territorial predators and hostile creatures still press against its pastures. Ruul watches the nearby plains and directs capable travelers against the savage Windfury harpies, which prey on unwary nomads and game.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ruul-eagletalon-5def71029142c9b65234/1-0000.mp3", duration = 36.9632653, start = 0},
+    {file = "Audio/Transport/full_npc_ruul-eagletalon-ae02e3876637ddfaca43/1-0000.mp3", duration = 35.1346939, start = 0},
   },
 }
 P.transport["npc:ruul-snowhoof"] = {
@@ -3354,19 +3354,19 @@ P.transport["npc:searn-firewarder"] = {
   },
 }
 P.transport["npc:seer-graytongue"] = {
-  hash = "4370fb",
-  fullHash = "4370fb",
-  text = "Seer Graytongue. On Red Cloud Mesa, Seer Graytongue guides young tauren through their first tribal trials. Near Camp Narache in Mulgore, he teaches them to honor the Earthmother before they enter the wider world. Young tauren braves and spellweavers find Seer Graytongue atop Red Cloud Mesa. From there, he guides those setting out from Camp Narache through sacred steps, including the Rites of the Earthmother. Their trials test resolve against Mulgore’s harsh plains and dangerous beasts. Through them, Graytongue teaches honor, patience, and reverence, virtues every tauren carries into adulthood.",
+  hash = "1f3317",
+  fullHash = "1f3317",
+  text = "Seer Graytongue. On Red Cloud Mesa, Seer Graytongue guides young tauren through their first tribal trials. Near Camp Narache in Mulgore, he teaches them to honor the Earthmother before they enter the wider world. Young tauren braves and spellweavers come to Seer Graytongue atop Red Cloud Mesa. He guides those setting out from Camp Narache through sacred steps, among them the Rites of the Earthmother. The trials test their resolve against Mulgore’s harsh plains and dangerous beasts. Through each one, Graytongue teaches honor, patience, and reverence—virtues every tauren carries into adulthood.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_seer-graytongue-c14c868c26081bfaa16e/1-0000.mp3", duration = 36.4146939, start = 0},
+    {file = "Audio/Transport/full_npc_seer-graytongue-103c72e000d7644939b1/1-0000.mp3", duration = 37.2506122, start = 0},
   },
 }
 P.transport["npc:seer-ravenfeather"] = {
-  hash = "aa2336",
-  fullHash = "aa2336",
-  text = "Seer Ravenfeather. At Camp Narache on the Red Cloud Mesa, Seer Ravenfeather guides young tauren in the ways of the spirits and Mulgore's land. At Camp Narache, Seer Ravenfeather teaches young tauren who have chosen the shamanic path. Red Cloud Mesa is a sacred proving ground, and she prepares new practitioners for their duties before they venture farther into Mulgore. She teaches the rites that let them commune with elemental forces and honor the Earth Mother. Seer Ravenfeather guides new shamans through their first spiritual steps and the traditional Call of Earth rite. Under her guidance, initiates prepare ceremonial saptas and seek communion with the earthen spirits among the mesa's stony outcrops. The bond they forge anchors their elemental magic.",
+  hash = "0dfbd3",
+  fullHash = "0dfbd3",
+  text = "Seer Ravenfeather. At Camp Narache on Red Cloud Mesa, Seer Ravenfeather guides young tauren in the ways of the spirits and Mulgore's land. At Camp Narache, Seer Ravenfeather teaches young tauren who have chosen the shamanic path. Red Cloud Mesa is sacred ground where they prove themselves. She prepares new practitioners for their duties before they travel farther into Mulgore. Her lessons teach them to commune with elemental forces and honor the Earth Mother. Seer Ravenfeather guides new shamans through their first spiritual steps and the traditional Call of Earth rite. Under her guidance, initiates prepare ceremonial saptas and seek communion with earthen spirits among the mesa's stony outcrops. The bond they forge anchors their elemental magic.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_seer-ravenfeather-05189992e181f26fa75f/1-0000.mp3", duration = 46.0016327, start = 0},
+    {file = "Audio/Transport/full_npc_seer-ravenfeather-99663e00b2ebd98f3a6c/1-0000.mp3", duration = 46.5240816, start = 0},
   },
 }
 P.transport["npc:seereth-stonebreak"] = {
@@ -3490,19 +3490,19 @@ P.transport["npc:shandris-feathermoon"] = {
   },
 }
 P.transport["npc:shari-stilwell"] = {
-  hash = "888a10",
-  fullHash = "888a10",
-  text = "Shari Stilwell. In Brill, Shari Stilwell trains Forsaken in the paladin's path. She is stationed in Tirisfal Glades, where the undead who endure the Light's pain learn holy and martial discipline. In Brill, Shari Stilwell guides Forsaken who seek the path of holy warriors. The Light brings the undead excruciating pain, yet she trains those willing to endure it. She helps newcomers find their footing in Tirisfal Glades, through early training and the adjustments of Forsaken life. Those she guides seek a place within the Forsaken kingdom. Shari bears the same family name as Daphne, Merissa, and Jordan Stilwell, a renowned smith among the living in the southern kingdoms. Whether the fall of Lordaeron tore Shari from these kin, or whether their bond is only distant, remains unknown amid the Scourge's devastation.",
+  hash = "88c026",
+  fullHash = "88c026",
+  text = "Shari Stilwell. In Brill, Shari Stilwell teaches Forsaken to bear the Light and follow the paladin's path. She is stationed in Tirisfal Glades, where the undead learn holy and martial discipline despite the pain. In Brill, Shari Stilwell trains Forsaken who seek the path of holy warriors. The Light brings the undead excruciating pain, yet she teaches those willing to endure it. She helps newcomers find their footing in Tirisfal Glades through early training and the changes of Forsaken life. Those she guides seek a place in the Forsaken kingdom. Shari shares her family name with Daphne, Merissa, and Jordan Stilwell, a renowned smith among the living in the southern kingdoms. The Scourge's devastation leaves it unknown whether the fall of Lordaeron tore Shari from these kin or whether their bond is distant.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shari-stilwell-c25d6492de15cc98cd18/1-0000.mp3", duration = 50.8081633, start = 0},
+    {file = "Audio/Transport/full_npc_shari-stilwell-099c7e2fe9d7cf58595e/1-0000.mp3", duration = 50.3902041, start = 0},
   },
 }
 P.transport["npc:shelene-rhobart"] = {
-  hash = "23f8da",
-  fullHash = "23f8da",
-  text = "Shelene Rhobart. Along Tirisfal's road, Shelene Rhobart trains leatherworkers at a Deathguard waystation. She supplies cured hides and leathercraft training for the Forsaken's military and logistical efforts across the blighted lands. At a Deathguard waystation southeast of Brill, Shelene Rhobart works along the main road toward the ruins of Lordaeron. Practical crafts still matter in undeath, for survival and war. She turns pelts from Tirisfal's prowling beasts into tough hides, armor, straps, and field gear for Forsaken patrols facing the Scourge and Scarlet crusaders.",
+  hash = "0b750a",
+  fullHash = "0b750a",
+  text = "Shelene Rhobart. At a Deathguard waystation in Tirisfal, Shelene Rhobart trains leatherworkers for the Forsaken. She supplies cured hides and leather gear for their military and logistical efforts across the blighted lands. Southeast of Brill, Shelene Rhobart works at a Deathguard waystation along the main road to the ruins of Lordaeron. Practical crafts still matter in undeath, both for survival and for war. She turns pelts from Tirisfal's prowling beasts into tough hides, armor, straps, and field gear for Forsaken patrols facing the Scourge and Scarlet crusaders.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shelene-rhobart-fccd89fff9b89f43b8d5/1-0000.mp3", duration = 37.0677551, start = 0},
+    {file = "Audio/Transport/full_npc_shelene-rhobart-35caea8f29d6d3e21033/1-0000.mp3", duration = 36.2057143, start = 0},
   },
 }
 P.transport["npc:shindrell-swiftfire"] = {
@@ -3554,11 +3554,11 @@ P.transport["npc:sister-aquinne"] = {
   },
 }
 P.transport["npc:skorn-whitecloud"] = {
-  hash = "f5e68f",
-  fullHash = "f5e68f",
-  text = "Skorn Whitecloud. At Bloodhoof Village, aging tauren hunter Skorn Whitecloud guides young hunters and aids travelers facing Mulgore’s dangers. Skorn Whitecloud lives at Bloodhoof Village in Mulgore, where he guides young hunters in the ways of the hunt. He teaches respect for the plains’ wild creatures. Aspiring hunters prove themselves against cunning flatland prowlers, then take the claws to Melor Stonehoof in Thunder Bluff. Skorn wants those who take up bow or spear to understand the balance between predator and prey.",
+  hash = "7e5e30",
+  fullHash = "7e5e30",
+  text = "Skorn Whitecloud. At Bloodhoof Village, Skorn Whitecloud guides young hunters and helps travelers face Mulgore’s dangers. Skorn Whitecloud lives at Bloodhoof Village in Mulgore and teaches young hunters the ways of the hunt. He shows them to respect the wild creatures of the plains. First, they prove themselves against cunning flatland prowlers. Then they take the claws to Melor Stonehoof in Thunder Bluff. Skorn wants every hunter who takes up bow or spear to understand the balance between predator and prey.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_skorn-whitecloud-7a7976973b7d88f243f3/1-0000.mp3", duration = 31.0595918, start = 0},
+    {file = "Audio/Transport/full_npc_skorn-whitecloud-345652cddc7c27d08b98/1-0000.mp3", duration = 31.1640816, start = 0},
   },
 }
 P.transport["npc:skuerto"] = {
@@ -3674,11 +3674,11 @@ P.transport["npc:takata-steelblade"] = {
   },
 }
 P.transport["npc:tal"] = {
-  hash = "933e8a",
-  fullHash = "933e8a",
-  text = "Tal. At Thunder Bluff, Tal tends the Horde's chief wind rider roost above the plains of Mulgore. He sends seasoned wyverns carrying travelers across Kalimdor. Tal tends the wind rider roost on Thunder Bluff's central mesa, linking the tauren capital with the rest of the Horde. He cares for the loyal wind riders, or wyverns, keeping them healthy and well-fed for long journeys across Kalimdor. From the roost, he sends messengers to Camp Taurajo and scouts across the Barrens to Orgrimmar. The flights keep the towering mesa city in touch with its allies.",
+  hash = "15abaf",
+  fullHash = "15abaf",
+  text = "Tal. At Thunder Bluff, Tal tends the Horde’s chief wind rider roost above the plains of Mulgore. He sends seasoned wyverns carrying travelers across Kalimdor. On Thunder Bluff’s central mesa, Tal tends the wind rider roost that links the tauren capital with the rest of the Horde. He cares for the loyal wyverns and keeps them healthy and well-fed for long journeys across Kalimdor.\n\nFrom the roost, Tal sends messengers to Camp Taurajo and scouts across the Barrens to Orgrimmar. These flights keep the towering mesa city in touch with its allies.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tal-793eab58ecda7b872376/1-0000.mp3", duration = 34.1681633, start = 0},
+    {file = "Audio/Transport/full_npc_tal-1f018ab30d958fda9aa3/1-0000.mp3", duration = 35.2653061, start = 0},
   },
 }
 P.transport["npc:talen"] = {
@@ -3946,11 +3946,11 @@ P.transport["npc:umpi"] = {
   },
 }
 P.transport["npc:undertaker-mordo"] = {
-  hash = "6d84dc",
-  fullHash = "6d84dc",
-  text = "Undertaker Mordo. At Deathknell's crypt, Undertaker Mordo greets newly awakened Forsaken. He tells them they are free of the Lich King's control and sends them toward Queen Sylvanas's cause. Bodies that never stir go to the fire. Undertaker Mordo tends the crypt in Tirisfal Glades as corpses break free of the Scourge. Newly awakened Forsaken find him in a world they no longer recognize. He tests their sanity, tells them what they have become, and directs them toward service under Queen Sylvanas Windrunner. Some bodies brought to the crypt never wake. Mordo soon casts them into the fire. Those who stir meet his dry impatience and little ceremony. If they have kept their wits, he sends them up the steps and down the road to Shadow Priest Sarvis at the chapel, where Sarvis explains their new existence. The mindless zombies overrunning the north of the village are Sarvis's concern. He sends the newly risen to destroy them.",
+  hash = "9a0c18",
+  fullHash = "9a0c18",
+  text = "Undertaker Mordo. At Deathknell's crypt, Undertaker Mordo greets Forsaken as they wake to a world changed. He tells them they are free of the Lich King's control and sends those with their wits toward Queen Sylvanas's cause. The bodies that never stir are cast into the fire. In Tirisfal Glades, corpses break free of the Scourge at Deathknell's crypt. Newly awakened Forsaken find a world they no longer recognize. Undertaker Mordo tests their sanity and tells them what they have become. Then he directs them to serve Queen Sylvanas Windrunner. Some bodies brought to the crypt never wake. Mordo soon casts them into the fire. Those who stir meet his dry impatience and little ceremony.\n\nIf the newly risen have kept their wits, Mordo sends them up the steps and down the road to the chapel. There, Shadow Priest Sarvis explains their new existence. The mindless zombies overrunning the village's north are Sarvis's concern, so he sends the newly risen to destroy them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_undertaker-mordo-0e9feadb83dc6402f2ed/1-0000.mp3", duration = 55.275102, start = 0},
+    {file = "Audio/Transport/full_npc_undertaker-mordo-b59d18923852a67fe51c/1-0000.mp3", duration = 63.1640816, start = 0},
   },
 }
 P.transport["npc:ur-kyo"] = {
@@ -3986,11 +3986,11 @@ P.transport["npc:vanndar-stormpike"] = {
   },
 }
 P.transport["npc:varok-saurfang"] = {
-  hash = "498221",
-  fullHash = "498221",
-  text = "Varok Saurfang. In Orgrimmar, Varok Saurfang commands the Horde's war forces under Warchief Thrall. The veteran of the Old Horde's wars lends the young Horde his strength and experience. Varok Saurfang carries the Old Horde's wars into the present. Few living warriors match his record, and many regard him as unstoppable in battle. Now High Overlord in Orgrimmar, he helps hold together Thrall's newborn Horde. Varok Saurfang defends the Horde and enforces Thrall's rule against threats. He does not seek battle for its own sake. He despises warmongering and fights for honor and the Horde's preservation.",
+  hash = "38d4f8",
+  fullHash = "38d4f8",
+  text = "Varok Saurfang. In Orgrimmar, Varok Saurfang commands the Horde's forces under Warchief Thrall. He brings the strength and hard-won experience of the Old Horde's wars to the young Horde. Varok Saurfang carries the Old Horde's wars into the present. Few living warriors can match his record, and many regard him as unstoppable in battle. As High Overlord in Orgrimmar, he helps hold together Thrall's newborn Horde. Varok Saurfang defends the Horde and enforces Thrall's rule against threats. He does not seek battle for its own sake. He despises warmongering and fights for honor and the Horde's survival.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_varok-saurfang-c3bdcb49deaaff468d39/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_npc_varok-saurfang-39f043462fb328a92864/1-0000.mp3", duration = 40.2546939, start = 0},
   },
 }
 P.transport["npc:velarok"] = {
@@ -4066,11 +4066,11 @@ P.transport["npc:volcor"] = {
   },
 }
 P.transport["npc:vorn-skyseer"] = {
-  hash = "173765",
-  fullHash = "173765",
-  text = "Vorn Skyseer. At Camp Narache, Vorn Skyseer welcomes young tauren beginning their journeys. He lives among the tents on Red Cloud Mesa in Mulgore and introduces newcomers to camp life. At Camp Narache, Vorn Skyseer greets young tauren beginning their rites of passage. They prepare to leave Red Cloud Mesa for the wider valleys of Mulgore, and his kind words and welcome help them settle into camp. Vorn Skyseer leaves the camp's defense to its braves. He lives quietly and without hurry, watching over the plains of his homeland.",
+  hash = "5bea8d",
+  fullHash = "5bea8d",
+  text = "Vorn Skyseer. At Camp Narache, Vorn Skyseer welcomes young tauren as they begin their journeys. He lives among the tents on Red Cloud Mesa and helps newcomers settle into camp life. At Camp Narache, Vorn Skyseer greets young tauren as they begin their rites of passage. They are preparing to leave Red Cloud Mesa for the wider valleys of Mulgore, and his kind welcome helps them settle into camp life. Vorn Skyseer leaves the camp's defense to its braves. He watches over the plains of his homeland, living quietly and without hurry.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_vorn-skyseer-b3c97cd6f4b0029ab903/1-0000.mp3", duration = 33.044898, start = 0},
+    {file = "Audio/Transport/full_npc_vorn-skyseer-b1dea32b466dceb8c09a/1-0000.mp3", duration = 34.5338776, start = 0},
   },
 }
 P.transport["npc:warcaller-gorlach"] = {
@@ -4250,11 +4250,11 @@ P.transport["npc:yeh-kinya"] = {
   },
 }
 P.transport["npc:yvette-farthing"] = {
-  hash = "b62968",
-  fullHash = "b62968",
-  text = "Yvette Farthing. In Brill, Yvette Farthing shares the Gallows' End Tavern with her father, Coleman. A Forsaken, she carries the memory of a love cut short by the Scourge. Yvette loved Thurman Agamand, heir to the prosperous Agamand Mills, before the Third War ruined Lordaeron. As the Scourge plague drew near, Yvette and her father, Coleman, begged Thurman to leave the estate with them. He refused, devoted to his family's legacy. Yvette and Thurman both perished and rose into undeath. Yvette found a place among the free-willed Forsaken in Brill, but she did not know Thurman's final fate.",
+  hash = "1258a3",
+  fullHash = "1258a3",
+  text = "Yvette Farthing. In Brill, Yvette Farthing shares the Gallows' End Tavern with her father, Coleman. She remembers a love that ended when the Scourge came to Lordaeron. Before the Third War, Yvette loved Thurman Agamand, heir to the prosperous Agamand Mills. When the Scourge plague drew near, she and her father, Coleman, begged Thurman to leave the estate. He refused, bound to his family's legacy. Yvette and Thurman both died and rose into undeath. Yvette found a place among the free-willed Forsaken in Brill, but she did not know what had become of Thurman.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_yvette-farthing-3445e77cc8e35b901462/1-0000.mp3", duration = 38.5044898, start = 0},
+    {file = "Audio/Transport/full_npc_yvette-farthing-da3deedc78d94c283d19/1-0000.mp3", duration = 36.5714286, start = 0},
   },
 }
 P.transport["npc:zaldimar-wefhellt"] = {
@@ -4274,11 +4274,11 @@ P.transport["npc:zamja"] = {
   },
 }
 P.transport["npc:zangen-stonehoof"] = {
-  hash = "4c8b12",
-  fullHash = "4c8b12",
-  text = "Zangen Stonehoof. At the High Rise bonfire, Zangen Stonehoof tends the flames and aids tauren kin across Kalimdor. Each evening, he keeps the central fire burning in Thunder Bluff. Zangen Stonehoof tends the communal bonfire atop Thunder Bluff's High Rise. Each evening, as twilight falls over Mulgore, he lights the fire above the city's highest bluffs. The flames give warmth to the tribes gathered beneath High Chieftain Cairne Bloodhoof. Zangen also keeps ties with allies beyond Mulgore's mesa, helping with spiritual and ritual work across the continent. Zangen helps Rau Cliffrunner, who is stationed south in Thousand Needles. When Rau needed water from a night elf moonwell for sacred rituals, Zangen enlisted dependable Horde adventurers to cross the contested forests of Ashenvale. They secured a filled phial from the ancient groves and sent it south to Freewind Post. Zangen helps preserve ancient rites and support scattered tauren posts.",
+  hash = "16bf5b",
+  fullHash = "16bf5b",
+  text = "Zangen Stonehoof. At the High Rise bonfire, Zangen Stonehoof keeps the flames alive and aids tauren kin across Kalimdor. Each evening, the central fire burns in Thunder Bluff. Zangen Stonehoof tends the communal bonfire atop Thunder Bluff's High Rise. Each evening, as twilight falls over Mulgore, he lights the fire above the city's highest bluffs. Its flames warm the tribes gathered beneath High Chieftain Cairne Bloodhoof. Zangen also aids allies beyond Mulgore's mesa with spiritual and ritual work across the continent. Zangen helps Rau Cliffrunner, stationed south in Thousand Needles. When Rau needed water from a night elf moonwell for sacred rituals, Zangen called on dependable Horde adventurers to cross Ashenvale's contested forests. They filled a phial in the ancient groves and sent it south to Freewind Post. Through such aid, Zangen helps preserve ancient rites and support scattered tauren posts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zangen-stonehoof-109f12114b51c8510cb2/1-0000.mp3", duration = 59.8465306, start = 0},
+    {file = "Audio/Transport/full_npc_zangen-stonehoof-ff685ded98ac703e4a43/1-0000.mp3", duration = 58.4097959, start = 0},
   },
 }
 P.transport["npc:zankaja"] = {
@@ -4306,11 +4306,11 @@ P.transport["npc:zargh"] = {
   },
 }
 P.transport["npc:zarlman-two-moons"] = {
-  hash = "2f1c2b",
-  fullHash = "2f1c2b",
-  text = "Zarlman Two-Moons. In central Mulgore, Zarlman Two-Moons guides Bloodhoof Village's spiritual life. While Baine Bloodhoof tends its daily affairs, Zarlman communes with the spirits and guides young tauren through the Rite of Vision. Zarlman Two-Moons tends the spirits while Baine Bloodhoof commands Bloodhoof Village's defenses and temporal needs. The village looks to Zarlman for harmony with the spirit world. He joins the plains' everyday struggles with the voices of ancestors and honors the Earth Mother and ancestral wisdom. Zarlman guides maturing tauren through the Rite of Vision, a traditional trial each must undertake. He teaches initiates to prepare sacred draughts and heed ancestral portents. Young hunters, shamans, and warriors seek their destined path and spirit guides through the rite. Zarlman teaches them that strength on the plains means little without spiritual clarity.",
+  hash = "9a251e",
+  fullHash = "9a251e",
+  text = "Zarlman Two-Moons. In central Mulgore, Zarlman Two-Moons guides the spiritual life of Bloodhoof Village. Baine Bloodhoof tends its daily affairs, while Zarlman communes with the spirits and guides young tauren through the Rite of Vision. Zarlman Two-Moons tends the spirits while Baine Bloodhoof commands Bloodhoof Village's defenses and daily affairs. The village turns to Zarlman to keep harmony with the spirit world. He joins the struggles of the plains to the voices of ancestors, honoring the Earth Mother and ancestral wisdom. Zarlman guides maturing tauren through the Rite of Vision, a traditional trial each must undertake. He teaches initiates to prepare sacred draughts and heed ancestral portents. Young hunters, shamans, and warriors seek their destined path and spirit guides through the rite. Zarlman teaches that strength on the plains means little without spiritual clarity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zarlman-two-moons-b9e3619fad09613298e0/1-0000.mp3", duration = 53.6816327, start = 0},
+    {file = "Audio/Transport/full_npc_zarlman-two-moons-cb97eb03ded78807c231/1-0000.mp3", duration = 52.0881633, start = 0},
   },
 }
 P.transport["npc:zarrin"] = {

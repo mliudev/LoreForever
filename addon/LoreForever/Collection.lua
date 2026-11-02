@@ -119,7 +119,7 @@ end
 -- when the page is new.
 function Collection.Find(key, how, t, lv, place, quest)
   local r = Collection.Store()
-  if not (r and type(key) == "string" and entries()[key]) then return false end
+  if not (r and type(key) == "string" and entries()[key] and not entries()[key].hide) then return false end
   local live = t == nil
   if r.found[key] then
     -- Already found. The fill-in may know an earlier time (a page found live in the seconds before it ran).
@@ -162,7 +162,7 @@ end
 function Collection.NewKeys()
   local out, r = {}, Collection.Store()
   for key in pairs(r and r.new or {}) do
-    if entries()[key] and Collection.IsNew(key) then out[#out + 1] = key end
+    if entries()[key] and not entries()[key].hide and Collection.IsNew(key) then out[#out + 1] = key end   -- (hide: Lang.lua)
   end
   return out
 end

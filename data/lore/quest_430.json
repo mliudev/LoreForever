@@ -26,12 +26,12 @@
  "sections": [
   {
    "title": "A Bitter Draught",
-   "body": "After you gather wild beast hearts for the Royal Apothecary Society, Apothecary Renferrel brews a restorative draught for Quinn Yorick at the Sepulcher. He hands it over without ceremony and returns to his secret alchemical research. You carry the mixture back into the wilderness.",
+   "body": "After you gather wild beast hearts for the Royal Apothecary Society, Apothecary Renferrel brews a restorative draught for Quinn Yorick at the Sepulcher. He hands it to you, then returns to his secret alchemical research. You carry the mixture back into the wilderness.",
    "spoiler": 0
   },
   {
    "title": "Respite at the Ivar Patch",
-   "body": "At the ruined Ivar Patch, Quinn Yorick hides beside his sister, Deathstalker Rane Yorick. The ghoul Ivar the Foul wounded him so badly he cannot cross hostile ground. Quinn drinks the draught as soon as you arrive. It restores enough strength for him to travel in time, though danger still surrounds the farmstead, with Ivar lurking nearby.",
+   "body": "At the ruined Ivar Patch, Quinn Yorick shelters beside his sister, Deathstalker Rane Yorick. The ghoul Ivar the Foul wounded him so badly he cannot cross hostile ground. Quinn drinks the draught as soon as you arrive. It restores enough strength for him to travel in time, though danger still surrounds the farmstead and Ivar lurks nearby.",
    "spoiler": 0
   }
  ],
@@ -59,7 +59,7 @@
     "why is quinn stuck",
     "quinn yorick injured"
    ],
-   "answer": "Quinn was badly mauled by the ghoul Ivar the Foul while scouting with his sister, leaving him unable to move without Rane's help and medicine."
+   "answer": "Quinn was badly mauled by the ghoul Ivar the Foul while scouting with his sister. He could not move without Rane's help and medicine."
   },
   {
    "q": "What happens after giving Quinn the potion?",
@@ -67,7 +67,7 @@
     "what next after return to quinn",
     "next quest after quinn"
    ],
-   "answer": "The draught restores Quinn's strength enough for him to travel, and he can prepare to strike back at Ivar the Foul, who threatens their position."
+   "answer": "The draught restores Quinn's strength enough for him to travel. He can prepare to strike back at Ivar the Foul, who threatens their position."
   },
   {
    "q": "Who is Quinn's sister?",
@@ -123,5 +123,5 @@
  "attribution": [
   "Return to Quinn"
  ],
- "style": 1
+ "style": 2
 }

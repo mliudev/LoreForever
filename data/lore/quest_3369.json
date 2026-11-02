@@ -21,16 +21,16 @@
    "In Nightmares (Alliance)"
   ]
  },
- "summary": "A shard from the Wailing Caverns brings a troubling vision to Thunder Bluff. Recovered as a glowing fragment, the Nightmare Shard is carried to Arch Druid Hamuul Runetotem on Elder Rise, where it reveals corruption within the Emerald Dream.",
+ "summary": "A shard from the Wailing Caverns brings a troubling vision to Thunder Bluff. You carry the glowing Nightmare Shard to Arch Druid Hamuul Runetotem on Elder Rise, where it reveals corruption within the Emerald Dream.",
  "sections": [
   {
    "title": "A Disturbing Discovery",
-   "body": "Falla Sagewind sees the pure essence of the Emerald Dream in the strange crystal from the Wailing Caverns. A dark, chaotic vision dwells inside it, more waking nightmare than peaceful slumber. Unwilling to speak openly of such an omen, she entrusts the shard to you. She sends you to Arch Druid Hamuul Runetotem, Thunder Bluff's most venerated elder druid.",
+   "body": "Falla Sagewind sees the Emerald Dream's pure essence in a strange crystal from the Wailing Caverns. Within it lies a dark, chaotic vision, more waking nightmare than peaceful slumber. Unwilling to speak openly of the omen, she entrusts the shard to you. Then she sends you to Arch Druid Hamuul Runetotem, Thunder Bluff's most venerated elder druid.",
    "spoiler": 0
   },
   {
    "title": "A Secret in the Dream",
-   "body": "On Elder Rise, Hamuul Runetotem peers into the Nightmare Shard, and his composure falters. The shard gives him tangible evidence that the Emerald Dream is unraveling into nightmare. He urges discretion, warning that ordinary travelers cannot understand such delicate matters, and quietly resolves to investigate the affliction threatening the slumbering realm.",
+   "body": "On Elder Rise, Hamuul Runetotem peers into the Nightmare Shard, and his composure falters. It gives him tangible proof that the Emerald Dream is unraveling into nightmare. He urges discretion, warning that ordinary travelers cannot understand such delicate matters. In quiet, he resolves to investigate the affliction threatening the slumbering realm.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "glowing shard nightmare",
     "what did falla find"
    ],
-   "answer": "The Nightmare Shard is the glowing fragment recovered in the Wailing Caverns. Falla Sagewind entrusts it to you after examining it. Made from the pure spiritual essence of the Emerald Dream, it holds a foul, twisted vision that shows something has gone terribly wrong in the Dream."
+   "answer": "The Nightmare Shard is the glowing fragment recovered in the Wailing Caverns. Falla Sagewind entrusts it to you after examining it. Made from the Emerald Dream's pure spiritual essence, it holds a foul, twisted vision that shows something has gone terribly wrong in the Dream."
   },
   {
    "q": "Who is Falla Sagewind?",
@@ -51,7 +51,7 @@
     "who gave me this quest",
     "quest giver"
    ],
-   "answer": "Falla Sagewind is a knowledgeable tauren druid on the mountainside overlooking the Wailing Caverns in the Barrens. She studies strange phenomena from the corrupted oasis caverns and sends Horde couriers to Hamuul Runetotem when dangerous relics are found."
+   "answer": "Falla Sagewind is a knowledgeable tauren druid on the mountainside overlooking the Wailing Caverns in the Barrens. She studies strange phenomena in the corrupted oasis caverns and sends Horde couriers to Hamuul Runetotem when dangerous relics are found."
   },
   {
    "q": "Where can I find Arch Druid Hamuul Runetotem?",
@@ -69,7 +69,7 @@
     "hamuul secret",
     "why does hamuul hide the shard"
    ],
-   "answer": "The Emerald Dream is the sacred sanctuary of nature and the slumbering druids. Proof that it is being twisted into nightmare could cause panic among the Cenarion Circle and weaken fragile spiritual restoration efforts across Kalimdor, so Hamuul urges silence."
+   "answer": "Hamuul wants to keep the shard secret because the Emerald Dream is the sacred sanctuary of nature and the slumbering druids. Proof that it is being twisted into nightmare could panic the Cenarion Circle and weaken fragile efforts to restore spiritual life across Kalimdor, so Hamuul urges silence."
   },
   {
    "q": "Does the Alliance have a version of this quest?",
@@ -87,7 +87,7 @@
     "naralex connection",
     "how does this relate to naralex"
    ],
-   "answer": "The shard comes from the Wailing Caverns, where the druid Naralex entered a deep trance to channel underground springs into the Barrens. His slumber turned into a waking nightmare instead of healing the land, mutating cavern fauna and spreading into crystal shards like this one."
+   "answer": "The shard comes from the Wailing Caverns, where the druid Naralex entered a deep trance to channel underground springs into the Barrens. His slumber became a waking nightmare instead of healing the land. It mutated cavern fauna and spread into crystal shards like this one."
   }
  ],
  "angles": [
@@ -101,7 +101,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, delivering the shard helps safeguard central Kalimdor's spiritual well-being. It shows the Horde's crucial role in containing the fungal and dream-born corruption spilling from the Barrens."
+   "text": "As a member of the Horde, delivering the shard helps safeguard central Kalimdor's spiritual well-being. It shows the Horde's vital role in containing the fungal and dream-born corruption spilling from the Barrens."
   }
  ],
  "keywords": [
@@ -128,5 +128,5 @@
  "attribution": [
   "In Nightmares (Horde)"
  ],
- "style": 1
+ "style": 2
 }
