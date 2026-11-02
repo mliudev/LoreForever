@@ -10,16 +10,16 @@
    "quest:1882"
   ]
  },
- "summary": "At Balnir Farmstead, vibrant snapdragons grow where the Scourge's corruption presses toward Tirisfal Glades. The Forsaken study their sensitivity to magic to watch for that corruption's spread.",
+ "summary": "At Balnir Farmstead, snapdragons still bloom as the Scourge's corruption presses toward Tirisfal Glades. The Forsaken study their sensitivity to magic to watch that corruption's spread.",
  "sections": [
   {
    "title": "A Bloom in Ruin",
-   "body": "Balnir Snapdragons still bloom in the garden of Balnir Farmstead in eastern Tirisfal Glades. The homestead lies in ruin after the fall of Lordaeron and the rise of the Scourge. The Plaguelands border Tirisfal to the east, and the garden sits where the Lich King's blight presses against the region. Its flowers give the Forsaken a place to watch for the spread of that corruption.",
+   "body": "Balnir Snapdragons still bloom in the garden of Balnir Farmstead in eastern Tirisfal Glades. The homestead lies in ruin after Lordaeron fell and the Scourge rose. To the east, the Plaguelands border Tirisfal. The Lich King's blight presses against the region here, and the flowers give the Forsaken a place to watch its spread.",
    "spoiler": 0
   },
   {
    "title": "Magical Barometers",
-   "body": "Balnir Snapdragons are unusually sensitive to atmospheric magic, making them living barometers for magical blights. Anastasia Hartwell and the Forsaken mages in the Undercity seek fresh flowers from the farmstead's window boxes. They send the plants to the Royal Apothecary Society for study, hoping to measure how far the Lich King's plague has seeped across the border into Tirisfal's soil.",
+   "body": "Balnir Snapdragons are unusually sensitive to atmospheric magic, so they serve as living barometers for magical blights. Anastasia Hartwell and the Forsaken mages in the Undercity seek fresh flowers from the farmstead's window boxes. They send them to the Royal Apothecary Society for study, hoping to measure how far the Lich King's plague has seeped across the border into Tirisfal's soil.",
    "spoiler": 0
   }
  ],
@@ -90,5 +90,5 @@
   "Balnir Snapdragons",
   "The Balnir Farmstead"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Weaver (quest)",
   "chain": []
  },
- "summary": "In Silverpine Forest, Ataeric works to awaken a dormant ley energy node for Dalaran. Shadow Priest Allister at the Sepulcher sends you to stop the archmage and take his staff, keeping Dalaran’s magic from threatening Forsaken control of the southern reaches of Lordaeron.",
+ "summary": "In Silverpine Forest, Ataeric works to wake a dormant ley node for Dalaran. At the Sepulcher, Shadow Priest Allister sends you to stop the archmage and take his staff, lest Dalaran’s magic threaten Forsaken control of southern Lordaeron.",
  "sections": [
   {
    "title": "Severing the Ley Thread",
-   "body": "After earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that the wizards are trying to awaken a dormant ley energy node in Silverpine Forest. If Dalaran gains its concentrated arcane power, it could strengthen its position and threaten the Undercity’s hold over southern Lordaeron.",
+   "body": "After your earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that its wizards seek to wake a dormant ley energy node in Silverpine Forest. Dalaran could draw on that concentrated arcane power to strengthen its position and threaten the Undercity’s hold over southern Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "The Archmage's Fall",
-   "body": "Shadow Priest Allister knows the operation must be stopped at its source. Archmage Ataeric directs the work, protected by wards and fellow magi. Slaying him and claiming his staff scatters the gathered magic, returns the ley energies to dormancy, and thwarts the Kirin Tor’s plans in the valley.",
+   "body": "Shadow Priest Allister knows the work must end at its source. Archmage Ataeric directs it, guarded by wards and fellow magi. Slay him and take his staff, and the gathered magic scatters. The ley energies grow dormant again, thwarting the Kirin Tor’s plans in the valley.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "archmage ataeric",
     "ataeric weaver"
    ],
-   "answer": "The Weaver is Archmage Ataeric, a powerful Dalaran spellcaster in Silverpine Forest. He is trying to weave together and awaken the latent ley energies beneath the area."
+   "answer": "Archmage Ataeric is the Weaver, a powerful Dalaran spellcaster in Silverpine Forest. He seeks to join and awaken the latent ley energies beneath the area."
   },
   {
    "q": "Why do the Forsaken want the archmage killed?",
@@ -47,7 +47,7 @@
     "forsaken dalaran conflict",
     "why attack dalaran"
    ],
-   "answer": "The Forsaken fear that Dalaran will draw vast arcane power from the dormant ley energy node, close to the Undercity. Shadow Priest Allister sees that as a threat to Forsaken sovereignty and orders Ataeric killed before the node is fully active."
+   "answer": "The Forsaken fear Dalaran will draw vast arcane power from the dormant ley node near the Undercity. Shadow Priest Allister sees that as a threat to Forsaken sovereignty and orders Ataeric killed before the node fully awakens."
   },
   {
    "q": "What happens after Ataeric is defeated?",
@@ -56,7 +56,7 @@
     "quest outcome",
     "what happens to ley node"
    ],
-   "answer": "With Ataeric slain and his staff taken, the arcane network collapses. The gathered spells dissipate and the ley line returns to dormancy, depriving the Kirin Tor of its main foothold of arcane power in southern Silverpine."
+   "answer": "When Ataeric is slain and you take his staff, the arcane network collapses. The gathered spells dissipate and the ley line grows dormant again, leaving the Kirin Tor without its chief foothold of arcane power in southern Silverpine."
   },
   {
    "q": "Who sends you on this quest?",
@@ -65,7 +65,7 @@
     "allister quest",
     "quest giver weaver"
    ],
-   "answer": "Shadow Priest Allister, a Forsaken authority at the Sepulcher in Silverpine Forest, gives you the order after examining earlier intelligence about Dalaran’s presence around Ambermill."
+   "answer": "Shadow Priest Allister sends you from the Sepulcher in Silverpine Forest. He gives the order after examining earlier intelligence about Dalaran’s presence around Ambermill."
   },
   {
    "q": "What is the significance of Ataeric's staff?",
@@ -74,7 +74,7 @@
     "archmage staff purpose",
     "why take the staff"
    ],
-   "answer": "Archmage Ataeric’s staff focuses and channels the regional ley energies. Taking it ensures the magic unravels completely and gives Allister an artifact he might study for the Forsaken’s own designs."
+   "answer": "Archmage Ataeric’s staff focuses and channels the region’s ley energies. Taking it ensures the magic unravels completely and gives Allister an artifact he may study for the Forsaken’s own designs."
   },
   {
    "q": "Where does Dalaran's presence in Silverpine come from?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a Priest, you see Shadow Priest Allister direct this operation through cold resolve, aiming to extinguish an arcane catalyst before it grows in power."
+   "text": "As a Priest, you see Shadow Priest Allister direct this operation with cold resolve, seeking to extinguish an arcane catalyst before it grows in power."
   },
   {
    "target": "faction:Horde",
@@ -125,5 +125,5 @@
  "attribution": [
   "The Weaver (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Deathstalkers (2)",
   "chain": []
  },
- "summary": "In the Undercity, the Deathstalkers move against suspected treason in the Forsaken's own ranks. Under Lord Varimathras's orders, you pose as an expected messenger and question a merchant who may be aiding an outside faction.",
+ "summary": "In the Undercity, the Deathstalkers hunt suspected treachery within Forsaken ranks. At Lord Varimathras’s urging, you pose as an expected messenger and question a merchant who may aid an outside faction.",
  "sections": [
   {
    "title": "A Web of Deceit",
-   "body": "Deathstalker Mennet Carkad sets an infiltration in motion at Lord Varimathras's urging. The Deathstalkers watch the Forsaken's own citizens as closely as they guard against outside threats. With Astor Hadren's letter of introduction, forged or acquired, you approach the local merchant Andron Gant and try to pass as the courier he expects.",
+   "body": "At Lord Varimathras’s urging, Deathstalker Mennet Carkad sets an infiltration in motion. The Deathstalkers watch Forsaken citizens as closely as they guard against outside threats. With Astor Hadren’s letter of introduction, forged or acquired, you approach the local merchant Andron Gant. You try to pass as the courier he expects.",
    "spoiler": 0
   },
   {
    "title": "The Shop Near the Apothecarium",
-   "body": "Andron Gant keeps a shop near the Apothecarium. Mennet believes the shopkeeper lacks the wit to spot an impostor. When you show the letter, Gant accepts your cover as a courier, lowers his guard, and begins describing dealings with an unidentified third party.",
+   "body": "Andron Gant keeps a shop near the Apothecarium. Mennet believes the shopkeeper lacks the wit to spot an impostor. When you show the letter, Gant accepts your cover as a courier and lowers his guard. Then he begins to describe dealings with an unidentified third party.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "varimathras andron gant",
     "why spy on andron"
    ],
-   "answer": "Lord Varimathras suspects Gant is working with an organization outside the Forsaken. He wants proof of Gant's contacts and intentions to protect the city and root out subversion."
+   "answer": "Lord Varimathras suspects Gant is working with an organization outside the Forsaken. He wants proof of Gant’s contacts and intentions to protect the city and root out subversion."
   },
   {
    "q": "How does the player deceive Andron Gant?",
@@ -56,7 +56,7 @@
     "how to trick andron gant",
     "messenger disguise"
    ],
-   "answer": "Mennet Carkad gives you Astor's Letter of Introduction. Gant expects a courier, and the Deathstalkers consider him easy to fool, so the letter wins his confidence."
+   "answer": "Mennet Carkad gives you Astor’s Letter of Introduction. Gant expects a courier, and the Deathstalkers consider him easy to fool, so the letter wins his confidence."
   },
   {
    "q": "What group are the Deathstalkers?",
@@ -65,7 +65,7 @@
     "who are deathstalkers",
     "undercity rogues"
    ],
-   "answer": "The Deathstalkers are the Forsaken's elite rogue order and secret intelligence agency. They work from the shadows under Queen Sylvanas and Lord Varimathras to uncover sedition, sabotage enemies, and remove threats within their ranks."
+   "answer": "The Deathstalkers are the Forsaken’s elite rogue order and secret intelligence agency. They work from the shadows under Queen Sylvanas and Lord Varimathras to uncover sedition, sabotage enemies, and remove threats within their ranks."
   },
   {
    "q": "Where can Andron Gant be found?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you use a dead man's identity to draw out a careless conspirator, a method the Deathstalkers know well."
+   "text": "As a rogue, you use a dead man’s identity to draw out a careless conspirator. The Deathstalkers know this method well."
   },
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you know vigilance means survival. A citizen found aiding outside factions risks being purged by the dark lady's secret police."
+   "text": "As Forsaken, you know vigilance means survival. A citizen found aiding outside factions risks being purged by the dark lady’s secret police."
   },
   {
    "target": "faction:Horde",
@@ -120,5 +120,5 @@
  "attribution": [
   "The Deathstalkers (2)"
  ],
- "style": 1
+ "style": 2
 }

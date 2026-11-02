@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bandarion Keep"
  },
- "summary": "At Bandarion Keep, defenders face threats from the coast and the woodland. The outpost near the Whispering Forest is named for Garek Bandarion and tied to Tyr's Watch.",
+ "summary": "At Bandarion Keep, defenders watch the coast and the woodland for danger. Near the Whispering Forest, the outpost bears Garek Bandarion’s name and is bound to Tyr's Watch.",
  "sections": [
   {
    "title": "A Bastion on the Western Border",
-   "body": "Bandarion Keep stands near the Whispering Forest in western Tirisfal Glades. Named for Garek Bandarion, the stronghold is closely tied to Tyr's Watch. Quartermaster Jorin Croge works to keep the garrison supplied, though the keep lies far from the courtyards of the Undercity.",
+   "body": "Bandarion Keep guards western Tirisfal Glades near the Whispering Forest. Named for Garek Bandarion, the stronghold is closely bound to Tyr's Watch. Quartermaster Jorin Croge works to keep the garrison supplied. Yet the keep lies far from the courtyards of the Undercity.",
    "spoiler": 0
   },
   {
    "title": "Surrounded by Threats",
-   "body": "Danger reaches Bandarion Keep from several directions. Vile Fin murlocs raid along nearby waters, the Scarlet Crusade probes with skirmishes, and mindless Scourge thralls wander through the gloom. Some paladins have struggled to adjust to their unlife as Forsaken and succumbed to madness. They turn their weapons against their own kindred.",
+   "body": "Threats press Bandarion Keep from several directions. Vile Fin murlocs raid the nearby waters, while the Scarlet Crusade tests the defenders in skirmishes. Mindless Scourge thralls wander through the gloom. Some paladins have struggled to accept their unlife as Forsaken and have fallen to madness. They turn their weapons against their own kindred.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is bandarion keep",
     "how to find bandarion keep"
    ],
-   "answer": "Bandarion Keep lies in western Tirisfal Glades, near the Whispering Forest."
+   "answer": "Bandarion Keep lies in western Tirisfal Glades near the Whispering Forest."
   },
   {
    "q": "Who was Bandarion Keep named after?",
@@ -37,7 +37,7 @@
     "garek bandarion",
     "bandarion keep name origin"
    ],
-   "answer": "Bandarion Keep is named for Garek Bandarion."
+   "answer": "Bandarion Keep bears the name of Garek Bandarion."
   },
   {
    "q": "What is Tyr's Watch?",
@@ -45,7 +45,7 @@
     "tyrs watch",
     "what is tyrs watch"
    ],
-   "answer": "Tyr's Watch is tied to Bandarion Keep and the Forsaken paladins who hold it. The keep is counted as one of Tyr's Watch, and the two names are often used interchangeably."
+   "answer": "Tyr's Watch is bound to Bandarion Keep and the Forsaken paladins who hold it. The keep is counted as part of Tyr's Watch, and the two names are often used interchangeably."
   },
   {
    "q": "What dangers threaten the keep?",
@@ -54,17 +54,17 @@
     "threats to bandarion keep",
     "bandarion enemies"
    ],
-   "answer": "Vile Fin murlocs raid nearby waters, Scarlet Crusade zealots skirmish with the defenders, and mindless Scourge wander near the keep. Some unstable Forsaken paladins lose their minds and attack their own allies."
+   "answer": "Vile Fin murlocs raid the nearby waters, Scarlet Crusade zealots skirmish with the defenders, and mindless Scourge wander near the keep. Some unstable Forsaken paladins lose their minds and attack their own allies."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you may see Bandarion Keep as a refuge and a warning. Some paladins who cannot reconcile the Light with their unlife have broken and turned their weapons against their Forsaken peers."
+   "text": "As a paladin, you may find refuge and warning at Bandarion Keep. Some paladins cannot reconcile the Light with their unlife. They have broken and turned their weapons against their Forsaken peers."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you know the keep on Tirisfal's western rim must stay vigilant against the Scourge and the Scarlet Crusade, as well as turmoil within its own ranks."
+   "text": "As an undead, you know Bandarion Keep on Tirisfal's western rim must watch for the Scourge and the Scarlet Crusade. Turmoil within its own ranks threatens it too."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Bandarion Keep"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Rite of Strength (Classic)",
   "chain": []
  },
- "summary": "At Camp Narache, young tauren face the Rite of Strength against Bristleback quilboar. They bring their belts to Chief Hawkwind to prove their courage and defend the tribe.",
+ "summary": "At Camp Narache, young tauren face the Rite of Strength against Bristleback quilboar. They bring belts to Chief Hawkwind to prove their courage and defend the tribe.",
  "sections": [
   {
    "title": "The First Trial",
-   "body": "Seer Graytongue calls young tauren to begin the Rites of the Earthmother with the Rite of Strength. Those who seek recognition from the tribal elders and acceptance in Thunder Bluff must face this duty. The trial tests whether an initiate can meet the tribe's mortal foes with courage and act to defend Red Cloud Mesa.",
+   "body": "Seer Graytongue calls young tauren to begin the Rites of the Earthmother with the Rite of Strength. To earn recognition from the tribal elders and acceptance in Thunder Bluff, each initiate must face this duty. The trial tests whether they can meet the tribe's mortal foes with courage and defend Red Cloud Mesa.",
    "spoiler": 0
   },
   {
    "title": "The Bristleback Threat",
-   "body": "East of Camp Narache, Brambleblade Ravine is home to Bristleback quilboar. The quilboar trespass on ancestral lands, ambush hunting parties, and raid camp supplies under cover of darkness. You are asked to slay them and bring back their belts. The proof shows your valor and helps keep the settlement secure.",
+   "body": "East of Camp Narache, Brambleblade Ravine is home to Bristleback quilboar. They trespass on ancestral lands, ambush hunting parties and raid camp supplies under cover of darkness. You are asked to slay them and bring back their belts. The belts prove your valor and help keep the settlement secure.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "rite of strength lore",
     "purpose of rite of strength"
    ],
-   "answer": "The Rite of Strength tests a young tauren's courage in combat as the first step in the Rites of the Earthmother. Defeating threats to the camp earns an initiate the right to continue toward respect in Thunder Bluff."
+   "answer": "The Rite of Strength tests a young tauren's courage in combat and begins the Rites of the Earthmother. Defeating threats to the camp earns an initiate the right to continue toward respect in Thunder Bluff."
   },
   {
    "q": "Who assigns and judges this trial?",
@@ -54,7 +54,7 @@
     "where is brambleblade ravine",
     "brambleblade location"
    ],
-   "answer": "Brambleblade Ravine lies east of Camp Narache on Red Cloud Mesa. Its thorny canyon is home to hostile Bristleback quilboar."
+   "answer": "Brambleblade Ravine lies east of Camp Narache on Red Cloud Mesa. Hostile Bristleback quilboar make their home in its thorny canyon."
   },
   {
    "q": "Why are the Bristlebacks being targeted?",
@@ -62,7 +62,7 @@
     "why kill bristlebacks",
     "what did the quilboar do"
    ],
-   "answer": "The Bristlebacks trespass on the tribe's ancestral hunting grounds. They ambush tauren hunters and steal provisions from Camp Narache in the dark, making them enemies of the tribe."
+   "answer": "The Bristlebacks trespass on the tribe's ancestral hunting grounds. They ambush tauren hunters and steal provisions from Camp Narache at night, making them enemies of the tribe."
   },
   {
    "q": "Why collect belts instead of other trophies?",
@@ -70,7 +70,7 @@
     "why bristleback belts",
     "why belts"
    ],
-   "answer": "The belts are proof that an initiate faced the quilboar and defeated their adult warriors in close combat, rather than scavenging from a distance."
+   "answer": "The belts prove an initiate faced the quilboar and defeated their adult warriors in close combat, rather than scavenging from a distance."
   },
   {
    "q": "What comes after completing the Rite of Strength?",
@@ -78,17 +78,17 @@
     "what is after rite of strength",
     "next earthmother rite"
    ],
-   "answer": "Passing the Rite of Strength proves an initiate's valor and qualifies them for the next trials of the Earthmother. These trials continue the formal path to adulthood and spiritual standing within the tribe."
+   "answer": "Passing the Rite of Strength proves an initiate's valor and qualifies them for the next trials of the Earthmother. Those trials continue the formal path to adulthood and spiritual standing within the tribe."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren, you begin the ancient rites by showing you can defend your people from the quilboar before leaving Red Cloud Mesa."
+   "text": "As a young tauren, you begin the ancient rites by proving you can defend your people from the quilboar before leaving Red Cloud Mesa."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help defend Red Cloud Mesa, one of its core recruiting grounds, so young warriors and shamans can mature safely and aid the new union."
+   "text": "As a member of the Horde, you help defend Red Cloud Mesa, one of its core recruiting grounds. There, young warriors and shamans can mature safely and aid the new union."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Rite of Strength (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:763"
   ]
  },
- "summary": "At Camp Narache, young tauren receive the Totem of Hawkwind before departing for Bloodhoof Village. They present it to Baine Bloodhoof as proof that they have completed their first trials and are ready to continue the Rites of the Earthmother.",
+ "summary": "At Camp Narache, young tauren receive the Totem of Hawkwind before setting out for Bloodhoof Village. They present it to Baine Bloodhoof as proof they have passed their first trials and can continue the Rites of the Earthmother.",
  "sections": [
   {
    "title": "A Chieftain's Endorsement",
-   "body": "Chief Hawkwind carves the Totem of Hawkwind atop Red Cloud Mesa for youth coming of age. The token introduces its bearer and proves their passage. Tauren rarely use formal writ; meaningful symbols and familiar tribal craft carry a leader's intent. After a youth completes the first trials at Camp Narache, Hawkwind sends them onward with the totem, along the road into the wider lands of Mulgore. Its distinct carvings identify the bearer to Baine Bloodhoof and show they have the spirit and strength for the next trials, on the way to seeking the blessing of Thunder Bluff.",
+   "body": "Chief Hawkwind carves the Totem of Hawkwind atop Red Cloud Mesa for tauren youth coming of age. The token introduces its bearer and proves their passage. Tauren seldom use formal writ; a familiar tribal craft can carry a leader's intent.\n\nAfter a youth completes the first trials at Camp Narache, Hawkwind sends them along the road into Mulgore with the totem. Its distinct carvings identify the bearer to Baine Bloodhoof and show the spirit and strength for the next trials. The road leads toward the blessing of Thunder Bluff.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "totem of hawkwind purpose",
     "why do i have this totem"
    ],
-   "answer": "Young tauren carry the Totem of Hawkwind from Camp Narache to Bloodhoof Village as a token of passage. They show it to Baine Bloodhoof as proof Chief Hawkwind has judged them ready to continue the Rites of the Earthmother."
+   "answer": "Young tauren carry the Totem of Hawkwind from Camp Narache to Bloodhoof Village as a token of passage. They present it to Baine Bloodhoof as proof Chief Hawkwind has judged them ready to continue the Rites of the Earthmother."
   },
   {
    "q": "Who made the totem?",
@@ -35,7 +35,7 @@
     "totem maker",
     "hawkwind totem origins"
    ],
-   "answer": "Chief Hawkwind carves the totem at Red Cloud Mesa. Its distinct carvings are recognized by allied chieftains across Mulgore."
+   "answer": "Chief Hawkwind carves the totem at Red Cloud Mesa. Allied chieftains across Mulgore recognize its distinct carvings."
   },
   {
    "q": "Who receives the Totem of Hawkwind?",
@@ -44,7 +44,7 @@
     "totem recipient",
     "where does the totem go"
    ],
-   "answer": "The totem is brought to Baine Bloodhoof, son of Cairne Bloodhoof. He oversees Bloodhoof Village, east of Red Cloud Mesa."
+   "answer": "The totem goes to Baine Bloodhoof, son of Cairne Bloodhoof. He oversees Bloodhoof Village, east of Red Cloud Mesa."
   },
   {
    "q": "Why use a totem instead of a letter?",
@@ -52,13 +52,13 @@
     "why not a letter",
     "tauren token traditions"
    ],
-   "answer": "Tauren rely on oral tradition, physical artistry, and ancestral symbols. A carved totem carries the personal touch and spirit of its maker, and tribal leaders give it more weight than ink on parchment."
+   "answer": "Tauren rely on oral tradition, physical artistry, and ancestral symbols. A carved totem carries its maker's personal touch and spirit, and tribal leaders give it more weight than ink on parchment."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, carrying this totem marks your passage from childhood on Red Cloud Mesa into Mulgore's greater tribal lands."
+   "text": "As a tauren, carrying this totem marks your passage from childhood on Red Cloud Mesa into Mulgore's wider tribal lands."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
   "Totem of Hawkwind",
   "Rites of the Earthmother (2)"
  ],
- "style": 1
+ "style": 2
 }

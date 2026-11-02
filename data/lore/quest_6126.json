@@ -17,21 +17,21 @@
   "wiki": "Lessons Anew (Horde)",
   "chain": []
  },
- "summary": "At Thunder Bluff, Turak Runetotem sends young tauren druids to Moonglade to learn how to cleanse natural and unnatural poisons. The sacred haven is where apprentices begin mastering that art under Dendrite Starblaze, a night elf druid, as real poisonings demand more than practice.",
+ "summary": "In Thunder Bluff, Turak Runetotem sends young tauren druids to sacred Moonglade to learn the cleansing of poisons. Under Dendrite Starblaze, a night elf druid, apprentices begin that study as real poisonings call for more than practice.",
  "sections": [
   {
    "title": "The Gift of Cenarius",
-   "body": "Cenarius gave druids the power to purge virulent toxins with an incantation, and their charge is to protect the wilds. Turak Runetotem teaches that such magic needs a firm grounding. Before a druid uses it to clear a blight, they must understand venom’s physical toll and learn to treat it by ordinary means.",
+   "body": "Cenarius granted druids an incantation to purge virulent toxins, and charged them to protect the wilds. Turak Runetotem teaches that such magic needs a firm grounding. Before using it to clear a blight, a druid must understand venom’s physical toll and learn to treat it by ordinary means.",
    "spoiler": 0
   },
   {
    "title": "Summons to Nighthaven",
-   "body": "Turak sends promising acolytes north from Mulgore along sacred pathways to Moonglade. In its peaceful village of Nighthaven, ancient night elf mentors such as Dendrite Starblaze teach elf and tauren practitioners alike. Their shared study reflects the Cenarion Circle’s delicate truce, which rises above the political strife between Horde and Alliance.",
+   "body": "Turak sends promising acolytes north from Mulgore along sacred pathways to Moonglade. There, in the peaceful village of Nighthaven, ancient night elf mentors such as Dendrite Starblaze teach practitioners of both elf and tauren kind. Their shared study reflects the Cenarion Circle’s delicate truce, rising above the political strife between Horde and Alliance.",
    "spoiler": 0
   },
   {
    "title": "A Real Crisis in the Barrens",
-   "body": "Near the Crossroads in the Barrens, uncontrolled poisonings are spreading among the animals. Dendrite Starblaze has no time for a practice exercise: a plea for aid has come from the Crossroads. The request turns a rite of passage into urgent fieldwork, where young druids must face the suffering of wild beasts.",
+   "body": "Near the Crossroads in the Barrens, uncontrolled poisonings spread among the animals. Dendrite Starblaze has no time for practice: a plea for aid has come from the Crossroads. That request turns a rite of passage into urgent fieldwork, where young druids face the suffering of wild beasts.",
    "spoiler": 1
   }
  ],
@@ -70,7 +70,7 @@
     "tauren night elf druids",
     "cenarion circle faction"
    ],
-   "answer": "The Cenarion Circle is a neutral brotherhood dedicated to the balance of nature. Night elves first formalized modern druidism under Cenarius, then welcomed the tauren back into the order and shared sacred places such as Moonglade despite the faction war."
+   "answer": "The Cenarion Circle is a neutral brotherhood devoted to nature’s balance. Night elves first formalized modern druidism under Cenarius, then welcomed the tauren back into the order and shared sacred places such as Moonglade despite the faction war."
   },
   {
    "q": "What is happening at the Crossroads?",
@@ -79,7 +79,7 @@
     "what is poisoning the animals",
     "crossroads sickness"
    ],
-   "answer": "Wildlife around the Crossroads in the Barrens is suffering an aggressive wave of poisonings that local handlers cannot contain. Dendrite Starblaze turns your training toward the field, where you are to find the source and make a remedy."
+   "answer": "Wildlife around the Crossroads in the Barrens suffers an aggressive wave of poisonings that local handlers cannot contain. Dendrite Starblaze turns your training toward the field, where you are to find the source and make a remedy."
   },
   {
    "q": "What is the fastest way to get to Moonglade for this quest?",
@@ -88,7 +88,7 @@
     "travel to nighthaven",
     "teleport moonglade"
    ],
-   "answer": "As a druid, you have the innate spell Teleport: Moonglade, which takes you straight to Nighthaven. It avoids the need to travel on foot through treacherous contested lands."
+   "answer": "As a druid, you have the innate spell Teleport: Moonglade, which takes you straight to Nighthaven. It spares you a journey on foot through treacherous contested lands."
   }
  ],
  "angles": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Lessons Anew (Horde)"
  ],
- "style": 1
+ "style": 2
 }

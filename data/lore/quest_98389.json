@@ -17,16 +17,16 @@
   "wiki": "A Light in the Darkness (Forever)",
   "chain": []
  },
- "summary": "In Deathknell, Aramis Hammerhand asks you to save newly raised Forsaken from Night's Web Hollow. Your aid can show that wielders of the Holy Light remain loyal to Sylvanas and their people.",
+ "summary": "In Deathknell, Aramis Hammerhand asks you to save newly raised Forsaken from Night's Web Hollow. Your aid may prove that those who wield the Holy Light stay loyal to Sylvanas and their people.",
  "sections": [
   {
    "title": "A Precarious Faith",
-   "body": "Some Forsaken still wield the Holy Light they knew in life, though its power brings pain to the undead. In Deathknell, Aramis Hammerhand and others seek to prove their faith has not turned them against their own people. They use their gifts to protect the Forsaken and ease fears that holy wielders see their kin as monsters.",
+   "body": "Some Forsaken still wield the Holy Light they knew in life, though it pains their undead flesh. In Deathknell, Aramis Hammerhand and others hope to prove their faith has not set them against their own people. They use their gifts to protect the Forsaken and ease fears that they see their kin as monsters.",
    "spoiler": 0
   },
   {
    "title": "Night's Web Hollow",
-   "body": "Northwest of Deathknell, Night's Web Hollow is a dank cavern crawling with vicious spiders. Newly raised Forsaken often stumble inside, disoriented and unable to defend themselves, and become trapped in sticky webbing. Saving them brings new recruits to the Dark Lady and may convince Executor Arren that wielders of the Light serve the Forsaken faithfully.",
+   "body": "Northwest of Deathknell, newly raised Forsaken wander into Night's Web Hollow, a dank cavern crawling with vicious spiders. Disoriented and unable to defend themselves, they become trapped in sticky webs. Saving them brings new recruits to the Dark Lady and may convince Executor Arren that wielders of the Light serve the Forsaken faithfully.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "why do forsaken hate paladins",
     "forsaken holy fear"
    ],
-   "answer": "The Holy Light sears undead flesh, and many Forsaken fear its wielders see them as abominations to destroy instead of kin."
+   "answer": "The Holy Light sears undead flesh. Many Forsaken fear its wielders see them as abominations to destroy rather than kin."
   },
   {
    "q": "Who are the victims trapped in the webs?",
@@ -65,7 +65,7 @@
     "what is inside the webs",
     "trapped victims"
    ],
-   "answer": "The victims are newly awakened Forsaken adventurers who wandered into the spider caves before finding their bearings."
+   "answer": "They are newly awakened Forsaken adventurers who wandered into the spider caves before finding their bearings."
   },
   {
    "q": "Who is Executor Arren, and why does Aramis want to impress him?",
@@ -73,7 +73,7 @@
     "who is executor arren",
     "why arren matters"
    ],
-   "answer": "Executor Arren oversees military and civic order in Deathknell. Aramis seeks his trust so holy wielders can integrate smoothly into the Forsaken forces."
+   "answer": "Executor Arren oversees military and civic order in Deathknell. Aramis seeks his trust so holy wielders can join the Forsaken forces smoothly."
   },
   {
    "q": "Can the undead really wield the Holy Light?",
@@ -81,17 +81,17 @@
     "can forsaken use light",
     "undead light lore"
    ],
-   "answer": "Yes. Some undead retain their bond with the Light through great will and devotion, though wielding it causes immense discomfort and earns suspicion from their own people."
+   "answer": "Yes. Some undead keep their bond with the Light through great will and devotion. Wielding it brings immense discomfort and suspicion from their own people."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you see the inner struggles of your people, where the newly risen may face prejudice from their own kin."
+   "text": "As Forsaken, you see the struggles within your people. The newly risen may face prejudice from their own kin."
   },
   {
    "target": "class:Priest",
-   "text": "As a Forsaken priest, you walk a difficult path between the faith you held in life and the harsh reality of undeath."
+   "text": "As a Forsaken priest, you walk a hard path between the faith you held in life and the harsh truth of undeath."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "A Light in the Darkness (Forever)"
  ],
- "style": 1
+ "style": 2
 }

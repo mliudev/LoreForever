@@ -20,16 +20,16 @@
    "The Balnir Farmstead"
   ]
  },
- "summary": "In eastern Tirisfal, snapdragons at the Balnir Farmstead may show how far the Scourge's corruption has spread. Anastasia Hartwell sends young Forsaken mages to gather them for study in the Undercity.",
+ "summary": "In eastern Tirisfal, snapdragons at the Balnir Farmstead may reveal how far the Scourge's corruption has spread. Anastasia Hartwell sends young Forsaken mages to gather the flowers for study in the Undercity.",
  "sections": [
   {
    "title": "A Magical Barometer",
-   "body": "Forsaken mages watch the borderlands for signs of magical corruption. Anastasia Hartwell sends novice spellcasters to the Balnir Farmstead in eastern Tirisfal Glades to gather snapdragons from its gardens. The flowers absorb magical energies from the soil and air. By examining them, arcane scholars in the Undercity can judge whether corruption from the Lich King's domain has reached Tirisfal.",
+   "body": "Forsaken mages watch the borderlands for magical corruption. Anastasia Hartwell sends novice spellcasters to the Balnir Farmstead in eastern Tirisfal Glades to gather snapdragons from its gardens. The flowers absorb magical energies from the soil and air. Arcane scholars in the Undercity examine them to learn whether corruption from the Lich King's domain has reached Tirisfal.",
    "spoiler": 0
   },
   {
    "title": "The Eastern Border",
-   "body": "The Balnir Farmstead lies near the edge of the glades, close to the blighted wilderness of the Western Plaguelands. The Forsaken know the Lich King's plague rots the land, while Scourge corruption threatens their borders and security. The Forsaken wield dark arts of their own, but Anastasia plans to pass the snapdragons to the apothecaries for study. Mages and alchemists can examine the danger together and help defend Lordaeron's reclaimed heartland.",
+   "body": "The Balnir Farmstead lies near the edge of the glades, close to the blighted wilderness of the Western Plaguelands. The Forsaken know the Lich King's plague rots the land, and Scourge corruption threatens their borders and security. Though the Forsaken wield dark arts of their own, Anastasia plans to pass the snapdragons to the apothecaries for study. Together, mages and alchemists can examine the danger and help defend Lordaeron's reclaimed heartland.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "where is balnir farm",
     "find balnir farmstead"
    ],
-   "answer": "The Balnir Farmstead lies in eastern Tirisfal Glades, near the border with the blighted Western Plaguelands. Snapdragons grow in the plots and gardens around its decrepit farm buildings."
+   "answer": "The Balnir Farmstead lies in eastern Tirisfal Glades, near the border with the blighted Western Plaguelands. Snapdragons grow in plots and gardens around its decrepit farm buildings."
   },
   {
    "q": "Who is Anastasia Hartwell?",
@@ -123,5 +123,5 @@
  "attribution": [
   "The Balnir Farmstead"
  ],
- "style": 1
+ "style": 2
 }

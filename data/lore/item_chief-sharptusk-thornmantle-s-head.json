@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "Trophy of the Hunt",
-   "body": "The Bristleback quilboar of Brambleblade Ravine have attacked the tribes of Camp Narache. Their chieftain, Sharptusk Thornmantle, urges them on. The tauren seek to protect their homeland in Mulgore with vigilance and strength. Sharptusk's head proves he is dead and warns the surviving quilboar clans against encroaching on the mesa borders.",
+   "body": "The Bristleback quilboar of Brambleblade Ravine attack the tribes of Camp Narache. Their chieftain, Sharptusk Thornmantle, leads them. The tauren guard their homeland in Mulgore with vigilance and strength. Sharptusk's head proves he is dead and warns the surviving quilboar clans to keep clear of the mesa borders.",
    "spoiler": 0
   },
   {
    "title": "A Lesson in the Hunt",
-   "body": "Brave Windfeather demands Sharptusk's head as a rite of passage for young hunters and tribal defenders. Facing an enemy clever enough to strike back and lead a war band tests a young combatant's martial skill. Presenting the head fulfills that trial and earns the young fighter a reputation among the braves of Red Cloud Mesa.",
+   "body": "Brave Windfeather asks young hunters and tribal defenders to bring back Sharptusk's head as a rite of passage. An enemy who can strike back and lead a war band tests a young fighter's skill in battle. Presenting the head completes that trial and earns the fighter a name among the braves of Red Cloud Mesa.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "sharptusk thornmantle lore",
     "quilboar chief mulgore"
    ],
-   "answer": "Chief Sharptusk Thornmantle led the Bristleback quilboar in Brambleblade Ravine, on Red Cloud Mesa's eastern edge. Under his command, the Bristlebacks harassed and attacked young tauren braves."
+   "answer": "Chief Sharptusk Thornmantle led the Bristleback quilboar in Brambleblade Ravine, on the eastern edge of Red Cloud Mesa. Under his command, the Bristlebacks harassed and attacked young tauren braves."
   },
   {
    "q": "Where is this trophy obtained?",
@@ -48,17 +48,17 @@
     "where do i find the head",
     "sharptusk head location"
    ],
-   "answer": "You obtain the head by killing Chief Sharptusk Thornmantle in his makeshift tribal village, deep inside Brambleblade Ravine east of Camp Narache."
+   "answer": "You claim the head by killing Chief Sharptusk Thornmantle in his makeshift tribal village, deep inside Brambleblade Ravine east of Camp Narache."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, claiming a formidable enemy's head marks an important step for a young defender. It proves you have the resolve and skill to protect your people's new home."
+   "text": "As a tauren, taking the head of a formidable enemy marks an important step for a young defender. It proves you have the resolve and skill to protect your people's new home."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, Sharptusk is prey that can hunt back. Tracking and striking such an intelligent foe tests your skill."
+   "text": "As a hunter, Sharptusk is prey who can hunt back. Tracking and striking such an intelligent foe tests your skill."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
   "Chief Sharptusk Thornmantle's Head",
   "Break Sharptusk!"
  ],
- "style": 1
+ "style": 2
 }

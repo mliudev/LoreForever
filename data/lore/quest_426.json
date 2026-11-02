@@ -17,16 +17,16 @@
   "wiki": "The Mills Overrun (Classic)",
   "chain": []
  },
- "summary": "In Tirisfal, the Scourge gather at Agamand Mills, close to Forsaken settlements. Deathguard Dillinger sends soldiers from Brill to break their ranks before the ruined mills become a base for attacks deeper into the glades.",
+ "summary": "The Scourge mass at Agamand Mills in Tirisfal, close to Forsaken settlements. Deathguard Dillinger sends soldiers from Brill to break their ranks before the ruined mills become a base for attacks deeper into the glades.",
  "sections": [
   {
    "title": "A Looming Threat on the Mills",
-   "body": "The Agamand Mills once anchored Tirisfal Glades' agriculture. Since the Third War, their windmills overlook Scourge forces massing on the grounds under the Lich King's thrall. These mindless undead threaten the fledgling Forsaken holdings. If they secure the mills, they will have a base from which to push deeper into Tirisfal and strike at those settlements.",
+   "body": "The Agamand Mills once anchored Tirisfal Glades' agriculture. Since the Third War, Scourge forces have gathered beneath their windmills, held in thrall by the Lich King. These mindless undead threaten the young Forsaken holdings. If they seize the mills, they will have a base for attacks deeper into Tirisfal and against its settlements.",
    "spoiler": 0
   },
   {
    "title": "Proof of Destruction",
-   "body": "Deathguard Dillinger, who helps fortify Brill and patrols the territory, sends recruits against the Scourge. They hunt Rattlecage and Cracked Skull Soldiers, along with Darkeye Bonecasters. Dillinger asks for notched ribs and blackened skulls as proof that the skeletal ranks have been broken apart and driven back toward the Plaguelands before their offensive begins.",
+   "body": "Deathguard Dillinger helps fortify Brill and patrols the territory. He sends recruits after Rattlecage and Cracked Skull Soldiers, along with Darkeye Bonecasters. Dillinger asks for notched ribs and blackened skulls as proof that the skeletal ranks have broken and been driven back toward the Plaguelands before their offensive begins.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "scourge at the mills",
     "why the mills"
    ],
-   "answer": "The Scourge gather to establish a staging ground in western Tirisfal. From Agamand Mills, they can launch raids deeper into the glades and threaten nearby Forsaken settlements such as Brill."
+   "answer": "The Scourge gather to make a staging ground in western Tirisfal. From Agamand Mills, they can strike deeper into the glades and threaten Forsaken settlements such as Brill."
   },
   {
    "q": "Who is Deathguard Dillinger?",
@@ -47,7 +47,7 @@
     "who is dillinger",
     "dillinger brill"
    ],
-   "answer": "Deathguard Dillinger is a Forsaken sentry stationed in Brill. He coordinates strikes against dangers in Tirisfal Glades, including the Scourge and hostile gnoll packs threatening the road."
+   "answer": "Deathguard Dillinger is a Forsaken sentry stationed in Brill. He coordinates strikes against dangers in Tirisfal Glades, including the Scourge and hostile gnoll packs that threaten the road."
   },
   {
    "q": "Where are the Agamand Mills located?",
@@ -56,7 +56,7 @@
     "mills location",
     "how to get to the mills"
    ],
-   "answer": "Agamand Mills lies north of the main western highway in Tirisfal Glades. From Brill, cross the river bridge to the west and follow the north fork to the ruined windmills."
+   "answer": "Agamand Mills lies north of the main western highway in Tirisfal Glades. From Brill, cross the river bridge to the west, then follow the north fork to the ruined windmills."
   },
   {
    "q": "Why does Dillinger want ribs and skulls?",
@@ -64,7 +64,7 @@
     "notched ribs blackened skulls",
     "why ribs and skulls"
    ],
-   "answer": "Dillinger asks for ribs and skulls as proof that the Scourge front line has been broken. The notched ribs come from skeletal infantry, and the blackened skulls from bonecasters."
+   "answer": "Dillinger asks for ribs and skulls as proof that the Scourge front line has been broken. Skeletal infantry bear notched ribs, while bonecasters yield blackened skulls."
   },
   {
    "q": "What is the relationship between the Forsaken and the Scourge here?",
@@ -72,7 +72,7 @@
     "forsaken vs scourge",
     "why fight other undead"
    ],
-   "answer": "The Forsaken are undead who broke free of the Lich King's mental domination. The Scourge remain mindless slaves to his will, seeking to wipe out the Forsaken and reclaim Lordaeron for their master."
+   "answer": "The Forsaken are undead who broke free of the Lich King's mental domination. The Scourge remain mindless slaves to his will and seek to destroy the Forsaken and reclaim Lordaeron for their master."
   },
   {
    "q": "What happens after clearing these Scourge?",
@@ -80,21 +80,21 @@
     "what comes next",
     "after the mills overrun"
    ],
-   "answer": "Clearing the foot soldiers is only an opening blow against the Scourge at Agamand Mills. Dillinger and the Deathguards keep pushing deeper into the mills against the commanders and dark forces entrenched there."
+   "answer": "Driving back the foot soldiers is only an opening blow against the Scourge at Agamand Mills. Dillinger and the Deathguards keep pressing deeper into the mills against commanders and dark forces entrenched there."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For you as Forsaken, driving the Scourge from Agamand Mills protects your new lands and strikes at the mindless slaves of the Lich King who once held you in thrall."
+   "text": "As Forsaken, you help protect your new lands by driving the Scourge from Agamand Mills. You strike at the Lich King's mindless slaves, who once held you in thrall."
   },
   {
    "target": "faction:Horde",
-   "text": "For you in the Horde, holding Tirisfal Glades helps secure the Horde's only foothold in northern Lordaeron. Destroying Scourge staging grounds is a tactical priority."
+   "text": "As a member of the Horde, you help secure its only foothold in northern Lordaeron by holding Tirisfal Glades. Destroying Scourge staging grounds is a tactical priority."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you face armored skeletons at Agamand Mills, relentless foes who feel no pain and give no quarter."
+   "text": "As a warrior, you face armored skeletons at Agamand Mills. They feel no pain and give no quarter."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "The Mills Overrun (Classic)"
  ],
- "style": 1
+ "style": 2
 }

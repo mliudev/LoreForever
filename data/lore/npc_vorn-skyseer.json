@@ -8,16 +8,16 @@
   "wiki": "Vorn Skyseer",
   "refs": 1
  },
- "summary": "At Camp Narache, Vorn Skyseer welcomes young tauren beginning their journeys. He lives among the tents on Red Cloud Mesa in Mulgore and introduces newcomers to camp life.",
+ "summary": "At Camp Narache, Vorn Skyseer welcomes young tauren as they begin their journeys. He lives among the tents on Red Cloud Mesa and helps newcomers settle into camp life.",
  "sections": [
   {
    "title": "A Friendly Face at Camp Narache",
-   "body": "At Camp Narache, Vorn Skyseer greets young tauren beginning their rites of passage. They prepare to leave Red Cloud Mesa for the wider valleys of Mulgore, and his kind words and welcome help them settle into camp.",
+   "body": "At Camp Narache, Vorn Skyseer greets young tauren as they begin their rites of passage. They are preparing to leave Red Cloud Mesa for the wider valleys of Mulgore, and his kind welcome helps them settle into camp life.",
    "spoiler": 0
   },
   {
    "title": "A Detached Observer",
-   "body": "Vorn Skyseer leaves the camp's defense to its braves. He lives quietly and without hurry, watching over the plains of his homeland.",
+   "body": "Vorn Skyseer leaves the camp's defense to its braves. He watches over the plains of his homeland, living quietly and without hurry.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is vorn",
     "vorn camp narache"
    ],
-   "answer": "You can find Vorn Skyseer resting outdoors among the tents of Camp Narache, atop Red Cloud Mesa in southwestern Mulgore."
+   "answer": "You can find Vorn Skyseer resting outdoors among Camp Narache's tents, atop Red Cloud Mesa in southwestern Mulgore."
   },
   {
    "q": "What quests does Vorn offer?",
@@ -52,11 +52,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren on Red Cloud Mesa, you may find Vorn Skyseer among the first familiar, reassuring faces to greet you as you prepare for the wider life of Mulgore."
+   "text": "As a young tauren on Red Cloud Mesa, you may find Vorn Skyseer among the first familiar and reassuring faces to greet you as you prepare for the wider life of Mulgore."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can see in Vorn the calm, steady nature of the plains tribes gathered under Cairne Bloodhoof's leadership to build a permanent home."
+   "text": "As a member of the Horde, you can see Vorn's calm and steady nature among the plains tribes gathered under Cairne Bloodhoof's leadership to build a permanent home."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Vorn Skyseer"
  ],
- "style": 1
+ "style": 2
 }

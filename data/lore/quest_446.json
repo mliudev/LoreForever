@@ -17,21 +17,21 @@
   "wiki": "Thule Ravenclaw (quest)",
   "chain": []
  },
- "summary": "A courier brings strange Rot Hide ichor to Bethor Iceshard, who recognizes the work of his traitorous former colleague, Thule Ravenclaw. To help the Forsaken resist the gnolls, Bethor prepares a scroll of counter-incantations for Apothecary Renferrel.",
+ "summary": "At the Undercity, a courier brings Bethor Iceshard strange Rot Hide ichor. Bethor recognizes the work of Thule Ravenclaw, his traitorous former colleague, and prepares counter-incantations to help the Forsaken resist the gnolls.",
  "sections": [
   {
    "title": "A Colleague Turned Traitor",
-   "body": "At the Magic Quarter of the Undercity, Bethor Iceshard recognizes the arcane mark in a courier’s sample of Rot Hide ichor. Thule Ravenclaw made the distillation. Before the Third War, Thule was a bright young mage and Bethor’s colleague. When the Lich King rose to power, Thule betrayed his peers and swore himself to the Scourge. As Lordaeron fell, he abandoned his humanity.",
+   "body": "In the Undercity’s Magic Quarter, Bethor Iceshard recognizes an arcane mark in a courier’s sample of Rot Hide ichor. Thule Ravenclaw made the distillation. Before the Third War, Thule was a bright young mage and Bethor’s colleague. When the Lich King rose to power, Thule betrayed his peers and swore himself to the Scourge. As Lordaeron fell, he abandoned his humanity.",
    "spoiler": 0
   },
   {
    "title": "The Master of Fenris Isle",
-   "body": "Bethor learns that Thule survived the war and now holds Fenris Keep on Fenris Isle, in Lake Lordamere. Thule commands the Rot Hide gnolls, filling them with foul magic and sending them against Forsaken borders. Bethor draws on his close knowledge of Thule’s magic as he writes a scroll to counter the mage’s curses and wards.",
+   "body": "Bethor learns that Thule survived the war and now holds Fenris Keep on Fenris Isle in Lake Lordamere. Thule commands the Rot Hide gnolls, filling them with foul magic and sending them against Forsaken borders. Drawing on his close knowledge of Thule’s magic, Bethor writes a scroll to counter the mage’s curses and wards.",
    "spoiler": 1
   },
   {
    "title": "Alchemical Countermeasures",
-   "body": "A courier carries Bethor’s scroll back to the Sepulcher for Apothecary Renferrel of the Royal Apothecary Society. Renferrel studies the Undercity mage’s potent incantations and begins joining high sorcery with the Society’s alchemical brews. The mixture is made specifically to shatter Ravenclaw’s hexes, clearing a path for an assault on Fenris Keep.",
+   "body": "A courier carries Bethor’s scroll to the Sepulcher for Apothecary Renferrel of the Royal Apothecary Society. Renferrel studies the Undercity mage’s potent incantations, then joins high sorcery with the Society’s alchemical brews. Made specifically to shatter Ravenclaw’s hexes, the mixture clears a path for an assault on Fenris Keep.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is thule",
     "thule ravenclaw backstory"
    ],
-   "answer": "Before the Scourge claimed him, Thule Ravenclaw was a promising human mage trained in Dalaran who studied with Bethor Iceshard. He betrayed his brethren to serve the Scourge as the Lich King spread corruption through Lordaeron, and eventually rose to command the Rot Hide gnolls from Fenris Isle."
+   "answer": "Before the Scourge claimed him, Thule Ravenclaw was a promising human mage trained in Dalaran who studied with Bethor Iceshard. He betrayed his brethren to serve the Scourge as the Lich King spread corruption through Lordaeron, then rose to command the Rot Hide gnolls from Fenris Isle."
   },
   {
    "q": "Why does Bethor Iceshard know Thule's magic?",
@@ -61,7 +61,7 @@
     "scroll purpose",
     "what does the scroll do"
    ],
-   "answer": "Bethor’s Scroll holds counter-incantations crafted to unravel Thule’s spells. Apothecary Renferrel uses them to brew a potion that shields Forsaken champions from Ravenclaw’s hexes."
+   "answer": "Bethor’s Scroll holds counter-incantations made to unravel Thule’s spells. Apothecary Renferrel uses them to brew a potion that shields Forsaken champions from Ravenclaw’s hexes."
   },
   {
    "q": "Why are the Rot Hide gnolls a threat in Silverpine?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The conflict between Bethor and Thule reveals the divide among Lordaeron’s former magi: some fell to necromancy, while others kept their arcane discipline through undeath."
+   "text": "The conflict between Bethor and Thule reveals the divide among Lordaeron’s former magi. Some fell to necromancy, while others kept their arcane discipline through undeath."
   },
   {
    "target": "race:Undead",
@@ -128,5 +128,5 @@
  "attribution": [
   "Thule Ravenclaw (quest)"
  ],
- "style": 1
+ "style": 2
 }

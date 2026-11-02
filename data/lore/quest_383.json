@@ -22,16 +22,16 @@
    "Vital Intelligence (Classic)"
   ]
  },
- "summary": "In Tirisfal Glades, a new Forsaken carries captured Scarlet Crusade documents from Deathknell to Brill. Executor Zygand awaits the courier there.",
+ "summary": "In Tirisfal Glades, a newly risen Forsaken bears captured Scarlet Crusade documents from Deathknell to Brill. Executor Zygand awaits the courier there.",
  "sections": [
   {
    "title": "Leaving Deathknell",
-   "body": "Executor Arren sends you from Deathknell with captured Scarlet Crusade documents. You have dealt with local threats and intercepted a Scarlet Crusade courier, and are ready for wider service. Leave through Deathknell's sheltered canyon and follow the road east toward Brill, passing Cold Hearth Manor.",
+   "body": "Executor Arren sends you from Deathknell with captured Scarlet Crusade documents. You have dealt with local threats and intercepted a Scarlet Crusade courier, and now wider service awaits. Leave through Deathknell's sheltered canyon and follow the road east toward Brill, passing Cold Hearth Manor.",
    "spoiler": 0
   },
   {
    "title": "A Decisive Strike",
-   "body": "In Brill, Executor Zygand studies the captured correspondence. It names active Scarlet Crusade commanders across Tirisfal Glades and lists their assignments. Zygand plans targeted killings to break the zealots' leadership and morale.",
+   "body": "In Brill, Executor Zygand studies the captured correspondence. The documents name active Scarlet Crusade commanders across Tirisfal Glades and list their assignments. Zygand plans targeted killings to break the zealots' leadership and morale.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "find executor zygand",
     "executor zygand location"
    ],
-   "answer": "Executor Zygand is in Brill, just outside Brill Town Hall beside the town's main square."
+   "answer": "Executor Zygand waits in Brill, just outside Brill Town Hall beside the town's main square."
   },
   {
    "q": "How do I get to Brill from Deathknell?",
@@ -78,7 +78,7 @@
     "who is arren",
     "arren lore"
    ],
-   "answer": "Executor Arren is the Forsaken officer who oversees operations, security, and the first integration of newly risen undead in Deathknell."
+   "answer": "Executor Arren is the Forsaken officer who oversees operations and security in Deathknell. He also guides the first integration of newly risen undead."
   },
   {
    "q": "What happens after turning in these documents?",
@@ -123,5 +123,5 @@
  "attribution": [
   "Vital Intelligence (Classic)"
  ],
- "style": 1
+ "style": 2
 }

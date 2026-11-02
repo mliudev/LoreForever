@@ -8,16 +8,16 @@
   "wiki": "Gordon Wendham",
   "refs": 2
  },
- "summary": "In the Undercity's Trade Quarter, Gordon Wendham sells weapons and helps couriers from the surface find their way.",
+ "summary": "In the Undercity's Trade Quarter, Gordon Wendham sells weapons and guides couriers from the surface.",
  "sections": [
   {
    "title": "Armaments of the Trade Quarter",
-   "body": "Gordon Wendham sells weapons to those who take up arms for the Forsaken. His stock ranges from daggers and hand axes to broadswords and maces. Fledgling fighters can find dependable iron here before they venture into the contested reaches of Lordaeron.",
+   "body": "Gordon Wendham sells weapons to those who take up arms for the Forsaken. His stall offers daggers, hand axes, broadswords, and maces. Fledgling fighters can find dependable iron here before venturing into Lordaeron's contested reaches.",
    "spoiler": 0
   },
   {
    "title": "A Courier's Destination",
-   "body": "Travelers sent by flight masters and couriers are often directed to Gordon Wendham's stall. Some arrive from the bat handlers atop the ruins. His place in the Trade Quarter makes him easy to find when travelers need supplies or have dispatches to carry through the underground city.",
+   "body": "Travelers sent by flight masters and couriers are often directed to Gordon Wendham's stall. Some arrive from the bat handlers atop the ruins. In the Trade Quarter, his stall is easy to find for travelers seeking supplies or carrying dispatches through the underground city.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what does gordon sell",
     "gordon wendham weapons"
    ],
-   "answer": "He sells basic weapons, including swords, daggers, maces, staves, axes and thrown weapons."
+   "answer": "He sells basic weapons, including swords, daggers, maces, staves, axes, and thrown weapons."
   },
   {
    "q": "What quests involve him?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Gordon Wendham"
  ],
- "style": 1
+ "style": 2
 }

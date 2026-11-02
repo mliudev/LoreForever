@@ -17,16 +17,16 @@
   "wiki": "Ride to the Undercity (Classic)",
   "chain": []
  },
- "summary": "A courier carries Podrig's weapons request from the Sepulcher to the Undercity. A dread bat bears the message over Silverpine Forest to the Forsaken capital.",
+ "summary": "From the Sepulcher, a courier carries Podrig's weapons request to the Undercity. A dread bat bears the message over Silverpine Forest to the Forsaken capital.",
  "sections": [
   {
    "title": "Wings Over Silverpine",
-   "body": "Karos Razok handles the dread bats at the Sepulcher in Silverpine Forest. They carry messengers and supplies between the Forsaken capital and its frontline outposts. The roads below are dangerous, with hostile beasts, Moonrage worgen, and Scourge remnants. The bats give urgent military requests a swift route to the capital.",
+   "body": "Karos Razok handles the dread bats at the Sepulcher in Silverpine Forest. The bats carry messengers and supplies between the Forsaken capital and its frontline outposts. Roads below run through danger from hostile beasts, Moonrage worgen, and Scourge remnants. So the bats give military requests a swift route to the capital.",
    "spoiler": 0
   },
   {
    "title": "Arming the Front",
-   "body": "In the Undercity's Trade Quarter, the courier brings Podrig's equipment request to Gordon Wendham. The weaponsmith prepares arms for the Dark Lady's cause and keeps outposts such as the Sepulcher supplied with battle-ready weapons. Those outposts defend the young Forsaken nation against its surrounding enemies.",
+   "body": "In the Undercity's Trade Quarter, the courier brings Podrig's equipment request to Gordon Wendham. The weaponsmith prepares arms for the Dark Lady's cause. He keeps outposts such as the Sepulcher supplied with weapons ready for battle. Those outposts defend the young Forsaken nation from its surrounding enemies.",
    "spoiler": 0
   }
  ],
@@ -70,7 +70,7 @@
     "what comes next",
     "follow up to ride to the undercity"
    ],
-   "answer": "After receiving the order, Gordon Wendham sends couriers to Michael Garrett, the Undercity bat handler, to establish a return flight toward the Sepulcher."
+   "answer": "After receiving the order, Gordon Wendham sends couriers to Michael Garrett, the Undercity bat handler. They establish a return flight toward the Sepulcher."
   },
   {
    "q": "Where does the dread bat land in the Undercity?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you can see how the Dark Lady's network links Silverpine to the capital and keeps isolated garrisons connected to the Undercity's industry."
+   "text": "As an Undead, you can see how the Dark Lady's network links Silverpine to the capital. It keeps isolated garrisons connected to the Undercity's industry."
   },
   {
    "target": "profession:Blacksmithing",
@@ -92,7 +92,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you travel quickly across the wilderness through its flight masters, who connect its territories."
+   "text": "As a member of the Horde, you travel quickly across the wilderness through its flight masters. They connect the Horde's territories."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Ride to the Undercity (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "High Rise"
  },
- "summary": "The High Rise gathers Thunder Bluff's tribes around its central fire, high above Mulgore.",
+ "summary": "At Thunder Bluff's summit, High Rise draws the tauren tribes to its central fire above Mulgore.",
  "sections": [
   {
    "title": "Summit of the Mesa",
-   "body": "At Thunder Bluff's summit, the High Rise catches the open winds above Mulgore's rolling plains. Tauren gather in its open-air amphitheater around a fire pit to hear tribal announcements and witness decisions. Tents and wooden stalls hold merchants, armories, and culinary trainers, including Aska's Kitchen and Mountaintop Bait & Tackle. The lower tiers reach Mulgore's prairie floor by massive wooden elevators, but no elevator connects the plains to the High Rise. The wind rider roost and rope bridges to Elder Rise and Hunter Rise provide the way up.",
+   "body": "You find the High Rise at Thunder Bluff's summit, where open winds sweep over Mulgore's rolling plains. Tauren gather in its open-air amphitheater around a fire pit to hear tribal announcements and witness decisions. Tents and wooden stalls house merchants, armories, and culinary trainers, including Aska's Kitchen and Mountaintop Bait & Tackle.\n\nMassive wooden elevators connect the lower tiers to Mulgore's prairie floor, but none reaches the High Rise from the plains. To climb here, take the way up from the wind rider roost or cross a rope bridge from Elder Rise or Hunter Rise.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "high rise access",
     "getting up to high rise"
    ],
-   "answer": "Reach the High Rise from the lower tiers through the central wind rider roost, or cross a suspension bridge from Elder Rise or Hunter Rise. No lift runs directly from the Mulgore plains to this tier."
+   "answer": "Reach the High Rise from the lower tiers by way of the central wind rider roost, or cross a suspension bridge from Elder Rise or Hunter Rise. No lift connects the Mulgore plains directly to this tier."
   },
   {
    "q": "What services are found on the High Rise?",
@@ -32,7 +32,7 @@
     "shops high rise",
     "what is on high rise"
    ],
-   "answer": "The High Rise has tradesfolk and outdoor gathering places. Aska's Kitchen teaches cooking, Mountaintop Bait & Tackle sells fishing gear, and Ragetotem Arms and Thunderhoof's Firearms are among its weapon merchants."
+   "answer": "Tradesfolk and outdoor gathering places fill the High Rise. Aska's Kitchen teaches cooking, Mountaintop Bait & Tackle sells fishing gear, and Ragetotem Arms and Thunderhoof's Firearms are among the weapon merchants."
   },
   {
    "q": "What is the amphitheater on the High Rise used for?",
@@ -41,17 +41,17 @@
     "high rise auditorium",
     "tauren meeting place"
    ],
-   "answer": "The open-air amphitheater gathers the tauren around a central bonfire. They hear news, deliberate tribal affairs, and witness important proclamations atop the mesa."
+   "answer": "The open-air amphitheater gathers tauren around a central bonfire. There they hear news, deliberate tribal affairs, and witness important proclamations atop the mesa."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "At Aska's Kitchen on the High Rise, you can hone your cooking skills with the renowned pit masters over an open flame. It is Thunder Bluff's main place for learning the craft."
+   "text": "At Aska's Kitchen on the High Rise, you can learn cooking from the pit masters over an open flame. It is Thunder Bluff's main place to learn the craft."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you see the High Rise crown your capital and unite the tribes. Hunters, shamans, and elders gather around its high communal fire."
+   "text": "As a tauren, you see High Rise crown your capital and bring the tribes together. Hunters, shamans, and elders gather around its high communal fire."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "High Rise"
  ],
- "style": 1
+ "style": 2
 }

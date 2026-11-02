@@ -10,11 +10,11 @@
    "quest:366"
   ]
  },
- "summary": "Bethor's enchantment now marks Gunther's Spellbook in Tirisfal Glades. The tome may show its owner that other mages have escaped the Lich King's control.",
+ "summary": "In Tirisfal Glades, Bethor's enchantment marks Gunther's Spellbook. The tome may show its owner that other mages have escaped the Lich King's control.",
  "sections": [
   {
    "title": "A Token of Old Kinship",
-   "body": "Gunther Arcanus once studied magic in Dalaran with Bethor Iceshard and Thule Ravenclaw as fellow Kirin Tor members. When the Plague of Undeath swept Lordaeron, Gunther fell and rose again as one of the undead. In time, he broke free of the Scourge's hold on his mind. Believing he stood alone and that the Lich King's agents hunted him, Gunther grew deeply hostile to outsiders. After the tome was recovered, Bethor laid an arcane enchantment across its pages. Its magic bears Bethor's signature, so Gunther can recognize his old companion's presence and learn that another mage has kept his own will.",
+   "body": "Gunther Arcanus once studied magic in Dalaran with Bethor Iceshard and Thule Ravenclaw. All three were Kirin Tor members. When the Plague of Undeath swept Lordaeron, Gunther fell and rose again as one of the undead. In time, he broke free of the Scourge's hold on his mind.\n\nGunther believed he stood alone and that the Lich King's agents hunted him. So he grew deeply hostile to outsiders. After the tome was recovered, Bethor laid an arcane enchantment across its pages. Bethor's signature marks the magic, so Gunther can recognize his old companion's presence and learn another mage has kept his own will.",
    "spoiler": 1
   }
  ],
@@ -35,7 +35,7 @@
     "bethor spell on book",
     "book magic"
    ],
-   "answer": "Bethor placed a personal spell on the tome to prove that he survives in Lordaeron and has escaped the Lich King's control. He hopes Gunther will believe him and ally with the Forsaken."
+   "answer": "Bethor placed a personal spell on the tome to prove he survives in Lordaeron and has escaped the Lich King's control. He hopes Gunther will believe him and ally with the Forsaken."
   },
   {
    "q": "Why is Gunther suspicious when the book is returned?",
@@ -53,7 +53,7 @@
     "kirin tor connection",
     "dalaran friends"
    ],
-   "answer": "Before the Plague took them, Gunther, Bethor Iceshard, and Thule Ravenclaw studied magic together in Dalaran as friends and Kirin Tor apprentices."
+   "answer": "Before the Plague, Gunther, Bethor Iceshard, and Thule Ravenclaw studied magic together in Dalaran. They were friends and Kirin Tor apprentices."
   }
  ],
  "angles": [
@@ -90,5 +90,5 @@
   "Gunther's Spellbook",
   "Return the Book"
  ],
- "style": 1
+ "style": 2
 }

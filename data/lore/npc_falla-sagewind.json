@@ -8,16 +8,16 @@
   "wiki": "Falla Sagewind",
   "refs": 3
  },
- "summary": "On a crag above the Barrens, Falla Sagewind watches the land for signs of trouble. Her camp lies between the Crossroads and the Lushwater Oasis, where she studies changes in nature and magic.",
+ "summary": "On a crag above the Barrens, Falla Sagewind watches for signs of trouble. Her camp lies between the Crossroads and the Lushwater Oasis, where she studies changes in nature and magic.",
  "sections": [
   {
    "title": "Watcher of the High Crag",
-   "body": "Falla Sagewind keeps camp on a secluded summit southwest of the Crossroads, high above the Barrens trails. From there, she watches the savanna and the changes in its wildlife. She also studies corruption rising from fissures beneath the Wailing Caverns. Her vigil keeps her apart from the daily trade at the Crossroads, but her attention remains on the spirits and wounds of the land.",
+   "body": "Southwest of the Crossroads, Falla Sagewind keeps camp on a secluded summit above the Barrens trails. From there, she watches the savanna and its changing wildlife. She also studies corruption rising from fissures beneath the Wailing Caverns. Her vigil keeps her apart from daily trade at the Crossroads, yet her attention stays on the land's spirits and wounds.",
    "spoiler": 0
   },
   {
    "title": "The Waking Nightmare",
-   "body": "Strange, pulsing shards taken from mutated beasts in the Wailing Caverns lead travelers to Falla Sagewind. She studies the twisted magic disrupting the oases and recognizes signs that the Emerald Dream has turned foul beneath the earth. For deeper answers about the nightmare taking root in the region, she sends travelers to the wise druids of the Cenarion Circle.",
+   "body": "Strange, pulsing shards from mutated beasts in the Wailing Caverns bring travelers to Falla Sagewind. She studies the twisted magic disturbing the oases and recognizes signs that the Emerald Dream has turned foul beneath the earth. For deeper answers about the nightmare taking root in the region, she sends travelers to the wise druids of the Cenarion Circle.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is falla",
     "how to reach falla sagewind"
    ],
-   "answer": "Falla Sagewind camps atop a mountain peak southwest of the Crossroads and north of the Lushwater Oasis. Rocky paths wind up from the surrounding savanna to her camp."
+   "answer": "Falla Sagewind camps atop a mountain peak southwest of the Crossroads and north of the Lushwater Oasis. Rocky paths wind up from the savanna to her camp."
   },
   {
    "q": "Why is Falla Sagewind interested in the Wailing Caverns?",
@@ -65,7 +65,7 @@
     "quests from falla",
     "in nightmares quest"
    ],
-   "answer": "Falla Sagewind helps investigate the Wailing Caverns through The Glowing Shard and In Nightmares, which concern the dark dream corrupting the local oases."
+   "answer": "Falla Sagewind helps investigate the Wailing Caverns through The Glowing Shard and In Nightmares. Both concern the dark dream corrupting the local oases."
   },
   {
    "q": "Can Alliance players interact with Falla Sagewind?",
@@ -79,7 +79,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you may see Falla Sagewind's watch over the earth as quiet stewardship. From high places, she watches for spiritual rot while her brethren defend the roads below."
+   "text": "As a tauren, you may see Falla Sagewind's watch over the earth as quiet stewardship. From high places, she looks for spiritual rot while her brethren defend the roads below."
   },
   {
    "target": "class:Druid",
@@ -111,5 +111,5 @@
  "attribution": [
   "Falla Sagewind"
  ],
- "style": 1
+ "style": 2
 }

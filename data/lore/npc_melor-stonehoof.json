@@ -8,21 +8,21 @@
   "wiki": "Melor Stonehoof",
   "refs": 5
  },
- "summary": "On Hunter Rise in Thunder Bluff, Melor Stonehoof sets hunters to difficult trials. He sends Horde hunters after dangerous beasts across the Barrens and Thousand Needles to test their tracking and mettle.",
+ "summary": "On Hunter Rise in Thunder Bluff, Melor Stonehoof sends Horde hunters to face dangerous beasts. Their trials across the Barrens and Thousand Needles test tracking and mettle.",
  "sections": [
   {
    "title": "A Mentor of the Wilds",
-   "body": "Melor Stonehoof watches the plains from Hunter Rise in Thunder Bluff. For the tauren, hunting joins survival with spiritual balance and respect for nature's greatest predators. Melor teaches those who carry bow and blade for the Horde to honor that balance, sending promising stalkers to test their craft against legendary beasts.",
+   "body": "From Hunter Rise in Thunder Bluff, Melor Stonehoof watches the plains. To the tauren, hunting joins survival with spiritual balance and respect for nature’s greatest predators. He teaches Horde bowmen and bladesmen to honor that balance, sending promising stalkers to test their craft against legendary beasts.",
    "spoiler": 0
   },
   {
    "title": "Trials of the Hunt",
-   "body": "Melor sends hunters after elusive beasts that threaten the wilds. In the Barrens, they aid the huntress Sergra Darkthorn at the Crossroads, then pursue Steelsnap, a cunning and vicious hyena in Thousand Needles. These trials test whether hunters can outsmart and outfight the deadliest creatures of central Kalimdor.",
+   "body": "Melor sends hunters after elusive beasts that threaten the wilds. In the Barrens, they aid Sergra Darkthorn at the Crossroads. Then they pursue Steelsnap, a cunning and vicious hyena in Thousand Needles. These trials show whether hunters can outsmart and outfight central Kalimdor’s deadliest creatures.",
    "spoiler": 0
   },
   {
    "title": "The Monsters of Distant Lands",
-   "body": "Hunters who prove their skill in the Barrens face beasts in distant lands. Melor sends seasoned hunters after Deadmire, an ancient crocolisk in the swamps of Dustwallow Marsh, and Frostmaw, a savage yeti in the Alterac Mountains. Each hunt tests whether a stalker has mastered the Hunter's Way.",
+   "body": "Those who prove their skill in the Barrens face beasts in distant lands. Melor sends seasoned hunters after Deadmire, an ancient crocolisk in the swamps of Dustwallow Marsh, and Frostmaw, a savage yeti in the Alterac Mountains. Each hunt tests whether a stalker has mastered the Hunter’s Way.",
    "spoiler": 0
   }
  ],
@@ -68,7 +68,7 @@
     "melor hunters only",
     "can other classes do melor quests"
    ],
-   "answer": "No. Melor offers his hunting trials to any capable adventurer fighting for the Horde. They reflect the hunter's way and suit the hunter class."
+   "answer": "No. Melor offers his hunting trials to any capable adventurer fighting for the Horde. They reflect the hunter’s way and suit the hunter class."
   },
   {
    "q": "Who is Sergra Darkthorn, and why does Melor send you to her?",
@@ -76,13 +76,13 @@
     "melor sergra connection",
     "sergra darkthorn quest"
    ],
-   "answer": "Sergra Darkthorn is an orc huntress at the Crossroads in the Barrens. Melor sends promising hunters to aid her in subduing the plains' unruly predators and learn from another veteran of the wild."
+   "answer": "Sergra Darkthorn is an orc huntress at the Crossroads in the Barrens. Melor sends promising hunters to aid her in subduing the plains’ unruly predators and learn from another veteran of the wild."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you follow Melor's tracking trials along the sacred path of the hunt."
+   "text": "As a hunter, you follow Melor’s tracking trials along the sacred path of the hunt."
   },
   {
    "target": "race:Tauren",
@@ -117,5 +117,5 @@
  "attribution": [
   "Melor Stonehoof"
  ],
- "style": 1
+ "style": 2
 }

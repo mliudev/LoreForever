@@ -10,16 +10,16 @@
    "quest:446"
   ]
  },
- "summary": "Bethor Iceshard writes counter-incantations to help Apothecary Renferrel brew a protective draught against Thule Ravenclaw's dark sorcery. The scroll holds the key to facing the Scourge necromancy guarding Fenris Isle.",
+ "summary": "At the Sepulcher, Bethor Iceshard writes counter-incantations for Apothecary Renferrel. The scroll may help him brew a protective draught against Thule Ravenclaw's dark sorcery on Fenris Isle.",
  "sections": [
   {
    "title": "Countering the Necromancer",
-   "body": "Bethor Iceshard writes arcane formulas to guide the Royal Apothecary Society in brewing a restorative potion. Apothecary Renferrel receives the scroll at the Sepulcher. Its incantations counter the debilitating hexes Thule weaves around his fortress.",
+   "body": "Bethor Iceshard writes arcane formulas to help the Royal Apothecary Society brew a restorative potion. At the Sepulcher, Apothecary Renferrel receives the scroll. Its incantations counter the weakening hexes Thule casts around his fortress.",
    "spoiler": 1
   },
   {
    "title": "A Colleague's Betrayal",
-   "body": "Bethor Iceshard recognizes Thule Ravenclaw's handiwork in tainted ichor recovered from Rot Hide gnolls. Thule was once a promising young mage of the Kirin Tor. When the Scourge rose to power, he betrayed his brethren and served the Lich King. Bethor learns Thule survived and directs Rot Hide attacks across Silverpine Forest from Fenris Isle. Knowing his former colleague's spellcraft well, Bethor writes the scroll.",
+   "body": "Tainted ichor from Rot Hide gnolls bears Thule Ravenclaw's mark, and Bethor Iceshard knows his spellcraft. Thule was once a promising young mage of the Kirin Tor. When the Scourge rose to power, he betrayed his brethren and served the Lich King. Bethor learns that Thule survived and directs Rot Hide attacks across Silverpine Forest from Fenris Isle. So Bethor writes the scroll, drawing on his knowledge of a former colleague.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "contents of bethors scroll",
     "what is on the scroll"
    ],
-   "answer": "Bethor Iceshard inscribes specialized arcane incantations on the scroll. He once studied alongside Thule Ravenclaw and knows the necromancer's preferred spells, so his formulas show how to brew an alchemical counter-potion."
+   "answer": "Bethor Iceshard inscribes arcane incantations that guide the brewing of an alchemical counter-potion. He studied alongside Thule Ravenclaw and knows the spells the necromancer favors."
   },
   {
    "q": "Who receives this scroll?",
@@ -40,7 +40,7 @@
     "bethors scroll turn in",
     "who gets the scroll"
    ],
-   "answer": "Apothecary Renferrel, stationed at the Sepulcher in Silverpine Forest, receives the scroll. He uses its magic to create a protective draught."
+   "answer": "Apothecary Renferrel receives the scroll at the Sepulcher in Silverpine Forest. He uses its magic to make a protective draught."
   },
   {
    "q": "Why does Apothecary Renferrel need magical incantations for a potion?",
@@ -48,7 +48,7 @@
     "why does an apothecary need spells",
     "magic potion renferrel"
    ],
-   "answer": "Apothecary Renferrel practices alchemy rather than traditional sorcery, and admits he rarely weaves such overt forces into his concoctions. Ordinary anti-toxins cannot pierce the Scourge curses shielding Thule, so Bethor's arcane formulas are needed to make the brew effective."
+   "answer": "Apothecary Renferrel practices alchemy rather than traditional sorcery, and rarely weaves such overt forces into his brews. Ordinary anti-toxins cannot pierce the Scourge curses shielding Thule. Bethor's arcane formulas can make the potion effective."
   },
   {
    "q": "Who was Thule Ravenclaw before turning to the Scourge?",
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you can see how knowledge of a fellow spellcaster's signature magic can become a potent countermeasure. The scroll reflects the Kirin Tor's fractured past."
+   "text": "As a mage, you know how a spellcaster's signature magic can be turned against them. The scroll recalls the Kirin Tor's fractured past."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you can see Forsaken spellcasters and apothecaries bringing their talents together through this parchment. It joins Dalaran's old arcane training with the Sepulcher's alchemical craft."
+   "text": "As an undead, you see Forsaken spellcasters and apothecaries join their talents through this parchment. It brings Dalaran's old arcane training together with the Sepulcher's alchemical craft."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Bethor's Scroll",
   "Thule Ravenclaw (quest)"
  ],
- "style": 1
+ "style": 2
 }

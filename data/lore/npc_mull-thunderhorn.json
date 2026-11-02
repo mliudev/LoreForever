@@ -8,16 +8,16 @@
   "wiki": "Mull Thunderhorn",
   "refs": 10
  },
- "summary": "In Bloodhoof Village, Mull Thunderhorn watches over Mulgore’s sacred wells. He serves the Earth Mother and guards the balance of the land. Outside exploitation threatens the waters, and he guides young tauren in cleansing the ancestral springs.",
+ "summary": "In Bloodhoof Village, Mull Thunderhorn keeps Mulgore’s sacred wells and the land’s balance. He serves the Earth Mother and guides young tauren as outside exploitation threatens the ancestral springs.",
  "sections": [
   {
    "title": "Guardian of the Sacred Waters",
-   "body": "Mull Thunderhorn watches over Mulgore’s spiritual well-being from Bloodhoof Village. The nomadic tribes have gathered under High Chieftain Cairne Bloodhoof to make a permanent home, but greed and reckless expansion already threaten their lands. Mull guides young braves setting out from Camp Narache and calls on them to protect their ancestors’ vital resources.",
+   "body": "From Bloodhoof Village, Mull Thunderhorn watches over Mulgore’s spiritual well-being. The nomadic tribes have gathered under High Chieftain Cairne Bloodhoof to make a permanent home, but greed and reckless expansion already threaten their lands. So Mull guides young braves setting out from Camp Narache and calls on them to guard their ancestors’ vital resources.",
    "spoiler": 0
   },
   {
    "title": "Tainted Wells and the Venture Company",
-   "body": "Mull Thunderhorn faces sickness in the Winterhoof, Thunderhorn, and Wildmane water wells. The corruption comes from goblins of the Venture Company, a commercial outfit cutting into the surrounding hills and pouring poisons into the local water table. Mull sends young tauren to prepare purification totems and cleanse each ancestral well before the corruption spreads through the land and its wildlife.",
+   "body": "Sickness has struck the Winterhoof, Thunderhorn, and Wildmane water wells. Goblins of the Venture Company, a commercial outfit, bring the corruption as they cut into the surrounding hills and pour poisons into the local water table. Mull sends young tauren to prepare purification totems and cleanse each ancestral well before the corruption spreads through the land and its wildlife.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is mull",
     "bloodhoof village mull"
    ],
-   "answer": "Mull Thunderhorn watches over the sacred water wells in Bloodhoof Village, Mulgore. He guides rites to keep the earth and its waters pure."
+   "answer": "Mull Thunderhorn watches over the sacred water wells in Bloodhoof Village, Mulgore. He guides rites that keep the earth and its waters pure."
   },
   {
    "q": "Why is Mull Thunderhorn worried about the water wells?",
@@ -38,7 +38,7 @@
     "water wells mulgore",
     "winterhoof well poisoned"
    ],
-   "answer": "The ancestral wells, including Winterhoof, Thunderhorn, and Wildmane, provide life-giving water for Mulgore’s tribes and wildlife. Nearby operations have tainted the springs with runoff and pollution, threatening the balance of the plains."
+   "answer": "Mulgore’s ancestral wells, including Winterhoof, Thunderhorn, and Wildmane, provide life-giving water for the tribes and wildlife. Nearby operations have tainted the springs with runoff and pollution, threatening the balance of the plains."
   },
   {
    "q": "Who is polluting the water wells in Mulgore?",
@@ -47,7 +47,7 @@
     "venture co in mulgore",
     "who tainted the wells"
    ],
-   "answer": "Goblins of the Venture Company are polluting Mulgore’s water wells. The commercial outfit is establishing mining and logging operations around the edges of Mulgore, and its work sends toxins into the local water table."
+   "answer": "Goblins of the Venture Company pollute Mulgore’s water wells. The commercial outfit is establishing mining and logging operations around Mulgore’s edges, and its work sends toxins into the local water table."
   },
   {
    "q": "Why do Mull's purification quests only involve tauren?",
@@ -56,7 +56,7 @@
     "why only tauren",
     "mull thunderhorn requirements"
    ],
-   "answer": "Mulgore’s wells hold ancestral and spiritual meaning for the tauren tribes, including the Thunderhorn, Winterhoof, and Wildmane clans. Their cleansing is a sacred rite of passage and a duty for maturing tauren."
+   "answer": "Mulgore’s wells hold ancestral and spiritual meaning for the tauren tribes, including the Thunderhorn, Winterhoof, and Wildmane clans. Cleansing them is a sacred rite of passage and a duty for maturing tauren."
   },
   {
    "q": "How are the water wells purified?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Mull Thunderhorn"
  ],
- "style": 1
+ "style": 2
 }

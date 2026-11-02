@@ -10,16 +10,16 @@
    "quest:3092"
   ]
  },
- "summary": "At Camp Narache, the Etched Note calls a young tauren hunter to begin training. Lanka Farshot, the camp's hunter trainer, welcomes the novice to the traditions of the hunt.",
+ "summary": "At Camp Narache, Lanka Farshot calls a young tauren hunter to begin training. The camp's hunter trainer welcomes the novice to the traditions of the hunt.",
  "sections": [
   {
    "title": "A Call to the Hunt",
-   "body": "At Camp Narache, a runner brings young shu'halo a message from Lanka Farshot, the camp's hunter trainer. The note names the hunter the heart of the tribe. It also warns that natural instinct needs rigorous instruction and deep respect for Mulgore's wilderness.",
+   "body": "At Camp Narache, a runner brings young shu'halo a message from Lanka Farshot, the camp's hunter trainer. The note names the hunter the tribe's heart. Natural instinct alone is not enough. The hunter needs rigorous instruction and deep respect for Mulgore's wilderness.",
    "spoiler": 0
   },
   {
    "title": "Traditions of the Shu'halo",
-   "body": "For the tauren, hunting is a sacred discipline and a way of survival, woven into tribal life. Hunters join the work of warriors, shamans and druids, and the tribe looks to them for guidance and protection. The student presents the note to Lanka to begin learning weaponcraft and how to understand beasts, preparing to defend and sustain the tribes.",
+   "body": "For the tauren, hunting is sacred and necessary for survival. It is woven into tribal life. Hunters work alongside warriors, shamans and druids, and the tribe looks to them for guidance and protection. The student brings the note to Lanka to begin learning weaponcraft and how to understand beasts. These lessons prepare the student to defend and sustain the tribes.",
    "spoiler": 0
   }
  ],
@@ -91,5 +91,5 @@
   "Etched Note",
   "Etched Note (quest)"
  ],
- "style": 1
+ "style": 2
 }

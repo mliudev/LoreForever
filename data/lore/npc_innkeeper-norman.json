@@ -8,16 +8,16 @@
   "wiki": "Innkeeper Norman",
   "refs": 1
  },
- "summary": "Innkeeper Norman keeps the Trade Quarter tavern ready for travelers in the Undercity. The quiet, diligent Forsaken offers Horde travelers rest, hearthstone bindings, and food for the living and the dead.",
+ "summary": "In the Undercity's Trade Quarter, Innkeeper Norman keeps a tavern ready for travelers. The quiet, diligent Forsaken offers Horde travelers rooms, hearthstone bindings, and food for the living and the dead.",
  "sections": [
   {
    "title": "Hospitality in the Sewers",
-   "body": "Beneath Lordaeron's ruined capital, Innkeeper Norman tends the main tavern in the Undercity's Trade Quarter. Emissaries, mercenaries, and adventurers passing through the Forsaken stronghold find lodging there. Travelers come to bind their hearthstones, share news from across Azeroth, or prepare for journeys into the Plaguelands.",
+   "body": "Beneath Lordaeron's ruined capital, Innkeeper Norman tends the main tavern in the Undercity's Trade Quarter. Emissaries, mercenaries, and adventurers passing through the Forsaken stronghold find lodging there. Travelers bind their hearthstones, share news from across Azeroth, or prepare for journeys into the Plaguelands.",
    "spoiler": 0
   },
   {
    "title": "Festive Eccentricities",
-   "body": "Innkeeper Norman sells provisions and manages rooms through most of the year. During Hallow's End, he joins the holiday revelry and asks adventurous patrons for peculiar displays, such as clucking like a chicken. Those who oblige can earn holiday treats like Undercity mints.",
+   "body": "Innkeeper Norman sells provisions and manages rooms through most of the year. During Hallow's End, he joins the revelry and asks adventurous patrons for peculiar displays, such as clucking like a chicken. Those who oblige can earn holiday treats like Undercity mints.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "undercity innkeeper location",
     "where is norman"
    ],
-   "answer": "Innkeeper Norman keeps the main tavern along the southern curve of the Undercity's inner ring, in the Trade Quarter."
+   "answer": "Innkeeper Norman keeps the main tavern in the Trade Quarter, along the southern curve of the Undercity's inner ring."
   },
   {
    "q": "What services does Innkeeper Norman provide?",
@@ -37,7 +37,7 @@
     "norman services",
     "undercity hearthstone"
    ],
-   "answer": "Innkeeper Norman offers rooms, hearthstone bindings, and food and drink suited to the living and the undead. Travelers can also rest there and earn rest while away."
+   "answer": "Innkeeper Norman offers rooms, hearthstone bindings, and food and drink suited to the living and the undead. Travelers can rest there and earn rest while away."
   },
   {
    "q": "Why does Norman ask patrons to cluck like a chicken?",
@@ -86,5 +86,5 @@
  "attribution": [
   "Innkeeper Norman"
  ],
- "style": 1
+ "style": 2
 }

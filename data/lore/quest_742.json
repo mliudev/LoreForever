@@ -17,16 +17,16 @@
   "wiki": "The Ashenvale Hunt (Thunder Bluff)",
   "chain": []
  },
- "summary": "In Thunder Bluff, the Ashenvale Hunt calls young Horde champions north to serve at the forest outposts. Heralds direct them to report to Senani Thunderheart at Splintertree Post for a proving hunt.",
+ "summary": "In Thunder Bluff, The Ashenvale Hunt sends young Horde champions north to serve at the forest outposts. Heralds direct them to report to Senani Thunderheart at Splintertree Post for a proving hunt.",
  "sections": [
   {
    "title": "A Summons from the High Rise",
-   "body": "Bluff Runner Windstrider carries an open invitation through Thunder Bluff for proven adventurers. The Horde has established footholds in the ancient forest north of the Barrens, and its outposts need young warriors. Those who answer will face a harsher land and test their survival skills beyond Mulgore.",
+   "body": "Bluff Runner Windstrider carries an open invitation through Thunder Bluff for proven adventurers. North of the Barrens, the Horde has footholds in an ancient forest, and its outposts need young warriors. Those who answer will face harsher country and test their survival skills beyond Mulgore.",
    "spoiler": 0
   },
   {
    "title": "The Northern Frontier",
-   "body": "Ashenvale offers the Horde rich resources and severe peril. Splintertree Post stands along the main road, while a remote outpost lies on the western coast at Zoram Strand. At Splintertree Post, Senani Thunderheart, a veteran outdoorswoman, organizes a great hunt to tame the wilderness and win glory for the Horde.",
+   "body": "Ashenvale offers the Horde rich resources and severe peril. Splintertree Post lies along the main road, while a remote outpost stands on the western coast at Zoram Strand. At Splintertree Post, Senani Thunderheart is a veteran outdoorswoman who organizes a great hunt. There, recruits tame the wilderness and win glory for the Horde.",
    "spoiler": 0
   }
  ],
@@ -83,13 +83,13 @@
     "next quest after senani",
     "hunt continuation"
    ],
-   "answer": "When you report to Senani Thunderheart, she welcomes you to the outpost and sets you to the broader hunt, directing you to stalk and conquer Ashenvale's fiercest beasts."
+   "answer": "When you report to Senani Thunderheart, she welcomes you to the outpost and sets you to the broader hunt. She directs you to stalk and conquer Ashenvale's fiercest beasts."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren raised on Mulgore's open plains, you face an unfamiliar challenge beneath Ashenvale's dense, shadowed canopy, watched by kin such as Senani."
+   "text": "As a tauren raised on Mulgore's open plains, you face an unfamiliar challenge beneath Ashenvale's dense canopy. Kin such as Senani watch over the hunt."
   },
   {
    "target": "faction:Horde",
@@ -123,5 +123,5 @@
  "attribution": [
   "The Ashenvale Hunt (Thunder Bluff)"
  ],
- "style": 1
+ "style": 2
 }

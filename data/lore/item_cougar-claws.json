@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Vessel of Natural Balance",
-   "body": "Flatland cougars rank among the apex hunters of Mulgore’s grasslands, stalking prey by instinct. For the tauren, taking their claws is neither casual slaughter nor trophy hunting; it gathers the beast’s natural spirit. When goblin operations defile the plains’ ancestral waters, Mull Thunderhorn asks young hunters to collect Cougar Claws alongside prairie stalker claws. The tauren believe native beasts’ pure predatory instincts can be woven into a ritual totem. They mean to use it to scour unnatural toxins and foul sorcery from the poisoned Thunderhorn Water Well.",
+   "body": "Flatland cougars hunt by instinct among Mulgore’s grasslands. For the tauren, gathering their claws is neither slaughter for its own sake nor trophy hunting. It gathers the beasts’ natural spirit.\n\nWhen goblin operations defile the plains’ ancestral waters, Mull Thunderhorn asks young hunters to gather Cougar Claws and prairie stalker claws. The tauren weave native beasts’ pure predatory instincts into a ritual totem. They mean it to scour toxins and foul sorcery from the poisoned Thunderhorn Water Well.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "cougar claw source",
     "who drops cougar claws"
    ],
-   "answer": "Flatland cougars prowl Mulgore’s rolling plains, especially east and west of Bloodhoof Village, and provide Cougar Claws."
+   "answer": "Flatland cougars prowl Mulgore’s rolling plains, especially east and west of Bloodhoof Village. Their claws provide Cougar Claws."
   },
   {
    "q": "Why does Mull Thunderhorn need predator claws to cleanse a well?",
@@ -44,7 +44,7 @@
     "mull claws reason",
     "totem predator claws"
    ],
-   "answer": "Tauren shamanic and druidic traditions honor the purity of wild beasts’ hunting. Native predators live in balance with the land, unlike goblins who exploit and defile it, so their essence can counter artificial corruption."
+   "answer": "Tauren shamanic and druidic traditions honor the purity of wild beasts’ hunting. Native predators live in balance with the land, unlike goblins who exploit and defile it. Their essence can counter artificial corruption."
   },
   {
    "q": "Are Cougar Claws useful for anything else?",
@@ -58,11 +58,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Gathering Cougar Claws teaches young tauren that hunting serves balance and spiritual need. That stands against the pollution caused by goblin enterprises."
+   "text": "Gathering Cougar Claws teaches young tauren that hunting serves balance and spiritual need. That lesson stands against pollution caused by goblin enterprises."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you know local predators’ essence remains tied to the spirits of the plains. It can serve as a conduit for purifying wards and cleansing totems."
+   "text": "As a shaman, you know local predators’ essence remains tied to the spirits of the plains. It can carry their power into purifying wards and cleansing totems."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Cougar Claws",
   "Thunderhorn Totem (Classic)"
  ],
- "style": 1
+ "style": 2
 }

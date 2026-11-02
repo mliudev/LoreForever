@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Malden's Orchard"
  },
- "summary": "Black worgs prowl Malden's Orchard in northern Silverpine Forest. The ruined farmstead takes its name from Malden, the human farmer who fled during the Scourge invasion of Lordaeron. Its dark evergreen trees grow wild, and a crumbling cottage once sheltered a Forsaken scout cut off from his unit.",
+ "summary": "Black worgs prowl Malden's Orchard in northern Silverpine Forest. Malden, the human farmer who gave it his name, fled during the Scourge invasion of Lordaeron. Its dark evergreen trees grow wild, and a Forsaken scout was cut off from his unit in the crumbling cottage.",
  "sections": [
   {
    "title": "A Blighted Harvest",
-   "body": "Malden's Orchard once sent fresh fruit to the towns of Lordaeron. Malden, a human farmer, tended the land before the Third War. When the Scourge swept through the kingdom, he abandoned the farm and fled the plague. Since then, Silverpine's dark mists have closed over the orchard. Its evergreen trees go unpruned, and fruit rots on blighted boughs. Wild predators have claimed the plot.",
+   "body": "Malden's Orchard once sent fresh fruit to Lordaeron's towns. Malden, a human farmer, tended the land before the Third War. When the Scourge swept through the kingdom, he abandoned the farm and fled the plague.\n\nSince then, Silverpine's dark mists have closed over the orchard. Its evergreen trees go unpruned, and fruit rots on blighted boughs. Wild predators have claimed the plot.",
    "spoiler": 0
   },
   {
    "title": "Trapped in the Cottage",
-   "body": "Black worgs hunt through the overgrown orchard and make the route through northern Silverpine dangerous. Erland McKree, a scout sent to survey the area for the Deathstalkers, was overwhelmed by the beasts. He remained trapped for days in Malden's dilapidated cottage. Forsaken reinforcements finally broke through the pack and escorted him back to his fellow scouts at the Ivar Patch.",
+   "body": "Black worgs hunt through the overgrown orchard, making the route through northern Silverpine dangerous. Erland McKree, a scout sent to survey the area for the Deathstalkers, was overwhelmed by the beasts. He remained trapped for days in Malden's dilapidated cottage.\n\nAt last, Forsaken reinforcements broke through the pack and escorted him back to his fellow scouts at the Ivar Patch.",
    "spoiler": 1
   }
  ],
@@ -91,5 +91,5 @@
  "attribution": [
   "Malden's Orchard"
  ],
- "style": 1
+ "style": 2
 }

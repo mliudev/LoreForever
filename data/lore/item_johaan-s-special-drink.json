@@ -10,16 +10,16 @@
    "quest:492"
   ]
  },
- "summary": "At Brill, Apothecary Johaan offers a drink with a deadly purpose. Disguised as a common refreshment, it tests the Royal Apothecary Society’s developing plague.",
+ "summary": "At Brill, Apothecary Johaan offers a drink that tests the Royal Apothecary Society’s developing plague. Its deadly purpose hides behind the look of an ordinary refreshment.",
  "sections": [
   {
    "title": "A Toxic Brew",
-   "body": "In Brill, Apothecary Johaan prepares a brew from venomous components and local reagents. Though it looks like a tavern drink, the mixture is made to test how virulent the plague is against living beings. Johaan hands it over as if to quench a captive’s thirst. The work serves the Forsaken apothecaries’ effort to create a weapon potent enough to fulfill Sylvanas Windrunner’s designs for Azeroth.",
+   "body": "In Brill, Apothecary Johaan mixes venomous components with local reagents. The brew looks like a tavern drink, but it tests how virulent the plague is against living beings. Johaan offers it as though to quench a captive’s thirst. The work helps the Forsaken apothecaries create a weapon potent enough to fulfill Sylvanas Windrunner’s designs for Azeroth.",
    "spoiler": 0
   },
   {
    "title": "The Cellar Trial",
-   "body": "Beneath the Gallows' End Tavern, the Deathguard keeps stray intruders in a cellar holding cell. A captured dwarven mountaineer, chained there, eagerly drinks what he mistakes for crude ale. The brew kills him at once, showing the Royal Apothecary Society that its latest strain can swiftly extinguish living victims.",
+   "body": "Beneath the Gallows' End Tavern, the Deathguard keeps stray intruders in a cellar holding cell. A captured dwarven mountaineer is chained there. Mistaking the brew for crude ale, he drinks eagerly, then dies at once. His death shows the Royal Apothecary Society that its latest strain can swiftly extinguish living victims.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "johaan drink",
     "what is this item"
    ],
-   "answer": "Apothecary Johaan prepares a deadly drink in Brill to test the Forsaken’s developing plague against living beings."
+   "answer": "In Brill, Apothecary Johaan prepares a deadly drink to test the Forsaken’s developing plague against living beings."
   },
   {
    "q": "Who is the drink given to?",
@@ -68,7 +68,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you face the danger of being captured by the Deathguard near Tirisfal Glades and used as a test subject."
+   "text": "As a dwarf, you face the danger of capture by the Deathguard near Tirisfal Glades and being used as a test subject."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Johaan's Special Drink",
   "A New Plague (4)"
  ],
- "style": 1
+ "style": 2
 }

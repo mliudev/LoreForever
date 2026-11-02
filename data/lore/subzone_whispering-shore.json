@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Whispering Shore"
  },
- "summary": "Along Tirisfal Glades' western coast, the Whispering Shore lies north of Solliden Farmstead, its waters claimed by hostile murlocs.",
+ "summary": "Along Tirisfal Glades' western coast, the Whispering Shore lies north of Solliden Farmstead. Hostile murlocs claim its waters.",
  "sections": [
   {
    "title": "A Ruined Haven",
-   "body": "Before the Third War, Lordaeron's fishermen came to the Whispering Shore for calm waters and plentiful catches. Now the Great Sea breaks against an empty coast, and the water is cold and dark. Travelers coming down from the hills risk an ambush from the murlocs along the shore.",
+   "body": "Before the Third War, Lordaeron's fishermen came to the Whispering Shore for calm water and plentiful catches. Now the Great Sea breaks against an empty coast. Its waters are cold and dark, and travelers descending from the hills risk ambush by murlocs along the shore.",
    "spoiler": 0
   },
   {
    "title": "The Murloc Menace",
-   "body": "A band of hostile murlocs claims the beach and attacks anyone who approaches the surf. Their chieftain, Muad, leads them as they guard the shallows and tidal flats, threatening nearby roads and Solliden Farmstead.",
+   "body": "Hostile murlocs claim the beach and attack anyone who approaches the surf. Their chieftain, Muad, leads them as they guard the shallows and tidal flats. Nearby roads and Solliden Farmstead are under threat.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "what was whispering shore used for",
     "whispering shore past"
    ],
-   "answer": "Before the Scourge, local fishermen came to the shore for its calm waters and plentiful catches."
+   "answer": "Before the Scourge, local fishermen came to the shore for calm waters and plentiful catches."
   },
   {
    "q": "Who controls the Whispering Shore now?",
@@ -46,7 +46,7 @@
     "whispering shore enemies",
     "whispering shore mobs"
    ],
-   "answer": "A hostile tribe of murlocs controls the coastline under the leadership of Muad, their chieftain. They attack anyone who approaches the water."
+   "answer": "A hostile tribe of murlocs controls the coastline under Muad, their chieftain. They attack anyone who approaches the water."
   },
   {
    "q": "Can you still fish peacefully at the Whispering Shore?",
@@ -54,7 +54,7 @@
     "fishing at whispering shore",
     "whispering shore fish"
    ],
-   "answer": "No. The shore has lost its peaceful character, and hostile murlocs guard its cold, dark waters, where the catches are no longer plentiful."
+   "answer": "No. Hostile murlocs guard the shore's cold, dark waters, and the catches are no longer plentiful."
   }
  ],
  "angles": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Whispering Shore"
  ],
- "style": 1
+ "style": 2
 }

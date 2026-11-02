@@ -8,21 +8,21 @@
   "wiki": "Deathguard Dillinger",
   "refs": 5
  },
- "summary": "At Brill's edge, Deathguard Dillinger watches the town and guides newly arrived Forsaken. He also sends recruits against the Scourge remnants threatening the nearby farms and mills.",
+ "summary": "At Brill's edge, Deathguard Dillinger watches the town and guides new Forsaken arrivals. He sends recruits to drive Scourge remnants from nearby farms and mills.",
  "sections": [
   {
    "title": "Sentinel of Brill",
-   "body": "Deathguard Dillinger guards Brill and guides those arriving from Deathknell. At the town entrance, he points newly awakened undead toward the inn, town hall, and local trainers. They must learn their way through a changed life under the Dark Lady's rule.",
+   "body": "Deathguard Dillinger guards Brill and guides those arriving from Deathknell. At the town entrance, he points newly awakened undead toward the inn, town hall, and local trainers. Under the Dark Lady's rule, they must learn their way through a changed life.",
    "spoiler": 0
   },
   {
    "title": "Securing the Borderlands",
-   "body": "Deathguard Dillinger sends capable recruits to clear mindless Scourge from nearby farms and mills. They cull rotting ghouls and reclaim infested facilities, building a safer border around Brill so the fledgling Forsaken settlements can endure the undead threat.",
+   "body": "Deathguard Dillinger sends capable recruits to clear mindless Scourge from nearby farms and mills. They cull rotting ghouls and reclaim infested facilities. In doing so, they make Brill's border safer and help the fledgling Forsaken settlements endure the undead threat.",
    "spoiler": 0
   },
   {
    "title": "Containing Mindless Horrors",
-   "body": "Ulag the Cleaver remains sealed in a mausoleum north of Brill. When the Scourge swept through Tirisfal, the Forsaken captured Ulag, a Scourge agent with a free mind who remained enthralled to the Lich King. Every attempt to break that hold failed, so Dillinger sends a proven warrior to lift the seal and destroy Ulag.",
+   "body": "Ulag the Cleaver lies sealed in a mausoleum north of Brill. When the Scourge swept through Tirisfal, the Forsaken captured Ulag, a Scourge agent with a free mind who remained enthralled to the Lich King. Every attempt to break that hold failed. So Dillinger sends a proven warrior to lift the seal and destroy Ulag.",
    "spoiler": 1
   }
  ],
@@ -117,5 +117,5 @@
  "attribution": [
   "Deathguard Dillinger"
  ],
- "style": 1
+ "style": 2
 }

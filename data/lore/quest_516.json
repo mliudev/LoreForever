@@ -17,16 +17,16 @@
   "wiki": "Beren's Peril (quest)",
   "chain": []
  },
- "summary": "Scourge gather in a hidden cave in southern Silverpine Forest, and Shadow Priest Allister moves to stop them. The Forsaken hope to strike before the undead can begin their offensive.",
+ "summary": "In southern Silverpine Forest, Shadow Priest Allister moves against Scourge gathering in a hidden cave. The Forsaken hope to strike before the undead begin their offensive.",
  "sections": [
   {
    "title": "A Preemptive Strike",
-   "body": "Shadow Priest Allister hears that servants of the Lich King are gathering deep in southern Silverpine Forest. Their growing numbers threaten Forsaken operations across the region. Allister sends scouts to strike first and destroy the Scourge in their secluded lair before they can mobilize.",
+   "body": "Shadow Priest Allister has heard that servants of the Lich King gather deep in southern Silverpine Forest. Their growing numbers threaten Forsaken operations across the region. So Allister sends scouts to strike first and destroy the Scourge in their secluded lair before they can mobilize.",
    "spoiler": 0
   },
   {
    "title": "The Hidden Cave",
-   "body": "A hidden cave cuts into the hills south of Ambermill, the Dalaran-aligned settlement. The rough slopes make the cavern easy to miss, and the approach lies around the hills’ southern face. Ravenclaw drudgers and guardians dwell inside, remnants of the Scourge whose destruction helps the Forsaken hold their ground in the forest.",
+   "body": "South of Ambermill, the Dalaran-aligned settlement, a hidden cave cuts into the hills. Its rough slopes make the cavern easy to miss, and the approach runs around the hills’ southern face. Ravenclaw drudgers and guardians dwell within. Destroying these Scourge remnants helps the Forsaken hold their ground in the forest.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is berens peril",
     "what is this cave"
    ],
-   "answer": "Beren's Peril is a secluded cave in the hills of southern Silverpine Forest, south of Ambermill. Ravenclaw undead dwell within."
+   "answer": "Beren's Peril lies in the hills of southern Silverpine Forest, south of Ambermill. Ravenclaw undead dwell within."
   },
   {
    "q": "Who assigns the mission to Beren's Peril?",
@@ -47,7 +47,7 @@
     "quest giver berens peril",
     "shadow priest allister quest"
    ],
-   "answer": "Shadow Priest Allister, stationed at the Sepulcher in Silverpine Forest, sends Horde adventurers after learning that hostile undead are preparing an offensive from the cave."
+   "answer": "Shadow Priest Allister sends Horde adventurers from the Sepulcher after learning that hostile undead are preparing an offensive from the cave."
   },
   {
    "q": "Why are the Forsaken attacking the undead there?",
@@ -65,7 +65,7 @@
     "cave entrance location",
     "where is the cave entrance"
    ],
-   "answer": "The cave lies in the hills south of Ambermill. The steep ridges make the southern face the way to reach its entrance."
+   "answer": "The cave lies in the hills south of Ambermill. Follow the southern face of the steep ridges to reach its entrance."
   },
   {
    "q": "What enemies inhabit Beren's Peril?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For you, a Forsaken, rooting out Scourge remnants at Beren's Peril helps defend your people from the Lich King's lingering grasp."
+   "text": "As a Forsaken, you help defend your people from the Lich King's lingering grasp by rooting out Scourge remnants at Beren's Peril."
   },
   {
    "target": "faction:Horde",
-   "text": "For you in the Horde, clearing hidden Scourge pockets along Silverpine's borders helps stabilize northern Lordaeron."
+   "text": "As a member of the Horde, you help steady northern Lordaeron by clearing hidden Scourge pockets along Silverpine's borders."
   },
   {
    "target": "class:Priest",
@@ -121,5 +121,5 @@
  "attribution": [
   "Beren's Peril (quest)"
  ],
- "style": 1
+ "style": 2
 }

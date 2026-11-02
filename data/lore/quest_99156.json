@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "13"
  },
- "summary": "Deathguard Linnea calls patrollers to defend Tirisfal Glades. She sends them after Riptear, an abomination roaming near Venomweb Vale that should never have passed the Bulwark.",
+ "summary": "In Tirisfal Glades, Deathguard Linnea calls the patrollers to defend the border. She sends them after Riptear, an abomination roaming near Venomweb Vale that should never have passed the Bulwark.",
  "sections": [
   {
    "title": "The Breach at the Border",
-   "body": "The Bulwark is the sole fortified barrier between Tirisfal Glades and the horrors of the Western Plaguelands. Forsaken military strategy depends on fighting on one front. If mindless undead slip behind the lines, they can choke the supply routes feeding the front. Stray spirits or ghouls sometimes bypass the barricades, but an abomination roaming the glades signals a grave failure of containment.",
+   "body": "The Bulwark is the only fortified barrier between Tirisfal Glades and the horrors of the Western Plaguelands. Forsaken strategy depends on holding one front. If mindless undead slip behind the lines, they can choke the supply routes that feed it. Spirits and ghouls sometimes get past the barricades, but an abomination roaming the glades means containment has failed badly.",
    "spoiler": 0
   },
   {
    "title": "The Threat of Riptear",
-   "body": "Riptear, a rogue abomination, was sighted near Venomweb Vale. Abominations are massive engines of slaughter, stitched from corpses through dark necromancy. Such a creature cannot pass through fortified chokepoints unseen, and its presence leaves Deathguard Linnea deeply unsettled. She demands Riptear's heart as proof that the creature has been destroyed.",
+   "body": "Riptear, a rogue abomination, was sighted near Venomweb Vale. Abominations are huge engines of slaughter, stitched from corpses by dark necromancy. Such a creature cannot cross fortified chokepoints unseen, and its presence leaves Deathguard Linnea deeply unsettled. She demands Riptear's heart as proof the creature has been destroyed.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "what is riptear",
     "riptear lore"
    ],
-   "answer": "Riptear is a rogue abomination found roaming the eastern glades near Venomweb Vale, behind the forward defensive lines."
+   "answer": "Riptear is a rogue abomination roaming the eastern glades near Venomweb Vale, behind the forward defensive lines."
   },
   {
    "q": "Why is an abomination near Venomweb Vale so alarming?",
@@ -51,7 +51,7 @@
     "why is an abomination dangerous here",
     "bulwark breach"
    ],
-   "answer": "Abominations take dark necromancy and heavy labor to create. One slipping unnoticed through the heavily fortified Bulwark suggests a grave breach or an unseen path behind Forsaken lines."
+   "answer": "Abominations require dark necromancy and heavy labor to create. One slipping unnoticed through the heavily fortified Bulwark points to a grave breach or an unseen path behind Forsaken lines."
   },
   {
    "q": "Where is the beast usually found?",
@@ -60,7 +60,7 @@
     "riptear location",
     "where to find the abomination"
    ],
-   "answer": "Riptear has been sighted roaming the woods and clearings of eastern Tirisfal Glades near Venomweb Vale."
+   "answer": "Riptear has been sighted in the woods and clearings of eastern Tirisfal Glades near Venomweb Vale."
   },
   {
    "q": "What proof is required to finish the patrol?",
@@ -69,7 +69,7 @@
     "quest turn in item",
     "proof of riptear death"
    ],
-   "answer": "Deathguard Linnea requires Riptear's Heart as proof that the massive abomination has been put down for good."
+   "answer": "Deathguard Linnea requires Riptear's Heart as proof that the massive abomination has been destroyed for good."
   },
   {
    "q": "Who oversees the defense of the Bulwark?",
@@ -114,5 +114,5 @@
   "In-game quest text: Rear Guard Patrol",
   "Rear Guard Patrol"
  ],
- "style": 1
+ "style": 2
 }

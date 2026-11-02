@@ -17,21 +17,21 @@
   "wiki": "Border Crossings",
   "chain": []
  },
- "summary": "At the Sepulcher, Shadow Priest Allister sends you to intercept Dalaran's supplies and learn why the Kirin Tor support Ambermill. The crates travel through Silverpine Forest toward a Dalaran camp near Pyrewood Village.",
+ "summary": "At the Sepulcher, Shadow Priest Allister sends you after Dalaran's supplies and the reason the Kirin Tor support Ambermill. Their crates pass through Silverpine Forest on the way to a Dalaran camp near Pyrewood Village.",
  "sections": [
   {
    "title": "Supplies on the Frontier",
-   "body": "Dalaran magi send wagons of supplies and arcane goods from the Hillsbrad Foothills through Silverpine Forest. Their shipments support outposts and staging grounds along the way. A camp just north of Pyrewood Village holds Dalaran personnel who watch the road. The human resistance at Ambermill is the main surviving stronghold in eastern Silverpine, and Dalaran has not left it to fend for itself.",
+   "body": "Wagons bring Dalaran's supplies and arcane goods from the Hillsbrad Foothills through Silverpine Forest. They serve the outposts and staging grounds along the way. Just north of Pyrewood Village, a camp holds Dalaran personnel who watch the road. Ambermill is the main human stronghold still standing in eastern Silverpine, and Dalaran continues to support it.",
    "spoiler": 0
   },
   {
    "title": "The Forsaken's Suspicion",
-   "body": "Shadow Priest Allister and the Forsaken leaders at the Sepulcher want to know why Dalaran commits so much to Ambermill. They suspect the Kirin Tor would not risk lives and supplies deep in Forsaken territory merely for a provincial town. A greater strategic or magical purpose may lie behind that support. Intercepting the crates can show the Forsaken what Dalaran is sending west.",
+   "body": "Shadow Priest Allister and the Forsaken leaders at the Sepulcher want to know why Dalaran gives Ambermill so much support. They suspect the Kirin Tor would not risk lives and supplies deep in Forsaken territory for a provincial town alone. Some greater strategic or magical purpose may be behind it. Intercepting the crates could show the Forsaken what Dalaran is sending west.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Cargo",
-   "body": "The crate Allister asks you to retrieve holds more than provisions. Inside are aged maps of Silverpine Forest and western Lordaeron, along with a magical pendant. The cargo includes arcane items and maps, but its purpose remains unclear.",
+   "body": "The crate Allister asks you to retrieve holds more than provisions. Inside are aged maps of Silverpine Forest and western Lordaeron, along with a magical pendant. The cargo also includes arcane items and maps, but its purpose remains unclear.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "dalaran silverpine",
     "why dalaran at ambermill"
    ],
-   "answer": "Dalaran works from Ambermill to maintain a human and Alliance presence in western Lordaeron. Shadow Priest Allister suspects the Kirin Tor have a deeper purpose than defending a rural hamlet, so the Forsaken target their supply lines."
+   "answer": "Dalaran works from Ambermill to keep a human and Alliance presence in western Lordaeron. Shadow Priest Allister suspects the Kirin Tor seek more than the defense of a rural hamlet, so the Forsaken target their supply lines."
   },
   {
    "q": "Where are the Dalaran crates located?",
@@ -52,7 +52,7 @@
     "where are the crates",
     "pyrewood camp"
    ],
-   "answer": "The crates are at a Dalaran camp just north of Pyrewood Village, off the main road. Dalaran magi and guards keep watch there."
+   "answer": "The crates are at a Dalaran camp just north of Pyrewood Village, off the main road. Dalaran magi and guards watch over them."
   },
   {
    "q": "What is inside the Dalaran crate?",
@@ -60,7 +60,7 @@
     "crate contents",
     "what is in the box"
    ],
-   "answer": "Allister does not know what Dalaran is shipping. He asks you to bring back the contents of a crate from the camp north of Pyrewood Village so he can investigate."
+   "answer": "Shadow Priest Allister does not know what Dalaran is shipping. He asks you to bring back the contents of a crate from the camp north of Pyrewood Village so he can investigate."
   },
   {
    "q": "Who is Shadow Priest Allister?",
@@ -76,7 +76,7 @@
     "dalaran supply route",
     "hillsbrad wagons"
    ],
-   "answer": "Wagons carry the shipments from Dalaran's territory in the Hillsbrad Foothills through the border pass into Silverpine. They then reach staging camps near Ambermill and Pyrewood."
+   "answer": "Wagons carry the shipments from Dalaran's territory in the Hillsbrad Foothills through the border pass into Silverpine. From there, they reach staging camps near Ambermill and Pyrewood."
   },
   {
    "q": "What follows the completion of this quest?",
@@ -91,11 +91,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you know the Forsaken cannot tolerate an unchecked Dalaran outpost on their southern flank, especially one sending supplies under the Sepulcher's nose."
+   "text": "As an Undead, you know the Forsaken cannot allow a Dalaran outpost to go unchecked on their southern flank, especially one sending supplies under the Sepulcher's nose."
   },
   {
    "target": "class:Priest",
-   "text": "As a Forsaken priest, you help secure the domain of the Forsaken priesthood under Shadow Priest Allister against holy and arcane rivals."
+   "text": "As a Forsaken priest, you help Shadow Priest Allister secure the domain of the Forsaken priesthood against holy and arcane rivals."
   },
   {
    "target": "class:Mage",
@@ -124,5 +124,5 @@
  "attribution": [
   "Border Crossings"
  ],
- "style": 1
+ "style": 2
 }

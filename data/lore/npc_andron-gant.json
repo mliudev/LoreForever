@@ -8,16 +8,16 @@
   "wiki": "Andron Gant",
   "refs": 2
  },
- "summary": "In the Undercity's Apothecarium, Andron Gant handles occasional commissions and relic recoveries for local scholars. He is a reclusive Forsaken, often drunk, and rarely leaves the city.",
+ "summary": "In the Apothecarium, Andron Gant arranges commissions and relic recoveries for local scholars. The reclusive Forsaken is often drunk and rarely leaves the Undercity.",
  "sections": [
   {
    "title": "A Slurring Recluse",
-   "body": "Andron Gant spends his time in the Apothecarium, among its noxious fumes, and rarely ventures beyond the Undercity's stone walls. He seems little more than a drunken scholar. For local mages, he sometimes hires couriers to seek obscure relics on distant shores, including the Tablet of Markri.",
+   "body": "Andron Gant keeps to the Apothecarium, among its noxious fumes, and seldom ventures beyond the Undercity's stone walls. He seems little more than a drunken scholar. Yet local mages sometimes have him send couriers to distant shores for obscure relics, including the Tablet of Markri.",
    "spoiler": 0
   },
   {
    "title": "Unmasked by the Deathstalkers",
-   "body": "The Undercity's intelligence network noticed Gant's treacherous dealings. The Syndicate sent Astor Hadren to collect a ledger of compromised data, but aspiring Deathstalker operatives intercepted the courier. One agent took Hadren's place and tricked the drunken Gant into handing over the incriminating ledger without raising suspicion. The ledger gave Lord Varimathras definitive proof of Gant's treason against the Forsaken.",
+   "body": "The Undercity's intelligence network uncovered Gant's treacherous dealings. The Syndicate sent Astor Hadren to collect a ledger of compromised data, but aspiring Deathstalker operatives intercepted the courier. One agent took Hadren's place and tricked Gant into handing over the incriminating ledger without suspicion. It gave Lord Varimathras definitive proof of Gant's treason against the Forsaken.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "tablet of markri andron gant",
     "why does gant want tablets"
    ],
-   "answer": "Gant arranges payments for certain Undercity mages, sending scavengers and contacts such as Jediga to recover ancient relics from the ruins of Azshara."
+   "answer": "Gant arranges payments for certain Undercity mages and sends scavengers and contacts such as Jediga to recover ancient relics from the ruins of Azshara."
   },
   {
    "q": "Why do the Deathstalkers investigate Andron Gant?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Andron Gant"
  ],
- "style": 1
+ "style": 2
 }

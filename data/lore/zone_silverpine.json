@@ -12,21 +12,21 @@
   "levels": "10-20",
   "aliases": []
  },
- "summary": "Silverpine Forest lies under Forsaken rule and threat from rival forces along Lordaeron's western coast. The Scourge's plague scars the woods, where worgen, diseased gnolls, and hostile human enclaves endanger travelers.",
+ "summary": "Forsaken patrols hold Silverpine Forest, where rival forces threaten the woods along Lordaeron’s western coast. The Scourge’s plague scars the forest, and worgen, diseased gnolls, and hostile human enclaves endanger travelers.",
  "sections": [
   {
    "title": "A Haunted Frontier",
-   "body": "Silverpine Forest lies between Tirisfal Glades and the sealed Greymane Wall. Once a lush wonder of Lordaeron, it has withered since the Third War. Ghostly fog moves among dying, silver-barked pines, and ruined farmsteads lie abandoned to the wilderness. Tirisfal Glades borders the forest to the north, and Lordamere Lake lies along its eastern shore. To the south, the Greymane Wall shuts Gilneas away from the chaos beyond. The Forsaken hold their central outpost at the Sepulcher and struggle to secure the woods from enemies on every side.",
+   "body": "Silverpine Forest stretches between Tirisfal Glades and the sealed Greymane Wall. Once a lush wonder of Lordaeron, it has withered since the Third War. Ghostly fog drifts among dying, silver-barked pines, while ruined farmsteads lie abandoned to the wilderness.\n\nTirisfal Glades borders the forest to the north, and Lordamere Lake runs along its eastern shore. To the south, the Greymane Wall shuts Gilneas away from the chaos beyond. The Forsaken hold their central outpost at the Sepulcher, struggling to secure the woods from enemies on every side.",
    "spoiler": 0
   },
   {
    "title": "Rival Enclaves and the Scourge",
-   "body": "The Forsaken's claim to Silverpine faces challenges from living and undead factions. On Fenris Isle to the east, Thule Ravenclaw leads Scourge remnants and commands plague-addled Rot Hide gnolls that trouble the northern farmlands. In the south, human mages from Dalaran hold the fortified settlement of Ambermill, where they conduct mystical research and oppose Forsaken expansion. At the Sepulcher, the Royal Apothecary Society and High Executor Hadrec wage a brutal campaign against these threats while testing virulent new plagues.",
+   "body": "The Forsaken's claim to Silverpine faces challenges from living and undead forces. On Fenris Isle to the east, Thule Ravenclaw leads Scourge remnants and commands plague-addled Rot Hide gnolls, who trouble the northern farmlands. In the south, human mages from Dalaran hold Ambermill, a fortified settlement where they conduct mystical research and oppose Forsaken expansion.\n\nAt the Sepulcher, the Royal Apothecary Society and High Executor Hadrec wage a brutal campaign against these threats. They also test virulent new plagues.",
    "spoiler": 1
   },
   {
    "title": "The Worgen and Shadowfang",
-   "body": "Shadowfang Keep looms above Silverpine's southwest woods, held by the mad Dalaran archmage Arugal. The keep was once Baron Silverlaine's seat. During the Third War, Arugal summoned wolf-beasts from another dimension to repel the Scourge. The beasts turned on their summoners and spread a lycanthropic curse through the southern woods. By daylight, human villagers in Pyrewood Village appear ordinary and go about their chores. Beneath the night sky, they transform into savage worgen.",
+   "body": "Shadowfang Keep looms over Silverpine's southwestern woods, held by the mad Dalaran archmage Arugal. Once, it was Baron Silverlaine's seat. During the Third War, Arugal summoned wolf-beasts from another dimension to repel the Scourge. The beasts turned on their summoners and spread a lycanthropic curse through the southern woods.\n\nBy daylight, human villagers in Pyrewood Village appear ordinary and go about their chores. Beneath the night sky, they transform into savage worgen.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "greymane wall lore",
     "gate to gilneas"
    ],
-   "answer": "The Greymane Wall is a massive stone barrier built by King Genn Greymane to isolate Gilneas from the rest of Lordaeron. When the Scourge ravaged the continent during the Third War, Gilneas shut its gates and refused outside aid, leaving lands north of the wall, including southern Silverpine, to fend for themselves."
+   "answer": "The Greymane Wall is a massive stone barrier King Genn Greymane built to isolate Gilneas from the rest of Lordaeron. When the Scourge ravaged the continent during the Third War, Gilneas shut its gates and refused outside aid. The lands north of the wall, including southern Silverpine, were left to fend for themselves."
   },
   {
    "q": "Why do the villagers of Pyrewood Village attack at night?",
@@ -47,7 +47,7 @@
     "pyrewood worgen",
     "why are pyrewood humans hostile at night"
    ],
-   "answer": "Archmage Arugal's worgen curse afflicts the inhabitants of Pyrewood Village. By day, they keep human form and their daily routines, remaining friendly to the Alliance. When the moon rises, the curse transforms the villagers into savage, bloodthirsty worgen who attack anyone nearby."
+   "answer": "Archmage Arugal's worgen curse afflicts the people of Pyrewood Village. By day, they keep human form and follow their daily routines, remaining friendly to the Alliance. When the moon rises, the curse turns them into savage, bloodthirsty worgen who attack anyone nearby."
   },
   {
    "q": "Who is Thule Ravenclaw?",
@@ -56,7 +56,7 @@
     "thule ravenclaw lore",
     "scourge on fenris isle"
    ],
-   "answer": "Thule Ravenclaw is a powerful necromancer serving the Scourge. From Fenris Keep on Fenris Isle in Lordamere Lake, he commands legions of undead and influences the diseased Rot Hide gnolls across eastern Silverpine, threatening the Forsaken's eastern flank."
+   "answer": "Thule Ravenclaw is a powerful necromancer who serves the Scourge. From Fenris Keep on Fenris Isle in Lordamere Lake, he commands legions of undead and influences the diseased Rot Hide gnolls across eastern Silverpine. They threaten the Forsaken's eastern flank."
   },
   {
    "q": "Why is Dalaran occupying Ambermill?",
@@ -65,7 +65,7 @@
     "why is the alliance in ambermill",
     "dalaran in silverpine"
    ],
-   "answer": "Wizards of Dalaran led by Archmage Ataeric hold Ambermill. From the village, these human mages monitor Forsaken movements, study the forest's magical afflictions, and seek to contain the nearby worgen outbreak spreading from Shadowfang Keep."
+   "answer": "Wizards of Dalaran, led by Archmage Ataeric, hold Ambermill. From the village, these human mages monitor Forsaken movements, study the forest's magical afflictions, and seek to contain the nearby worgen outbreak spreading from Shadowfang Keep."
   },
   {
    "q": "What is the Sepulcher?",
@@ -83,7 +83,7 @@
     "alliance quests in silverpine",
     "can alliance go to silverpine"
    ],
-   "answer": "Silverpine Forest has no Alliance gathering places or friendly towns; local work is for the Horde alone. Alliance adventurers usually enter the forest while traveling from Southshore to explore Shadowfang Keep or fight hostile Forsaken forces."
+   "answer": "Silverpine Forest has no Alliance gathering places or friendly towns; local work is for the Horde alone. Alliance adventurers usually enter while traveling from Southshore to explore Shadowfang Keep or fight hostile Forsaken forces."
   }
  ],
  "angles": [
@@ -93,11 +93,11 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance explorers find a hostile forest, with only a fragile Dalaran garrison at Ambermill and the cursed villagers of Pyrewood Village."
+   "text": "Alliance explorers find a hostile forest. Ambermill holds only a fragile Dalaran garrison, and Pyrewood Village's people are cursed."
   },
   {
    "target": "class:Mage",
-   "text": "Ambermill and the fall of Archmage Arugal into lupine madness make Silverpine a grim warning of Kirin Tor magic gone disastrously astray."
+   "text": "Ambermill and Archmage Arugal's fall into lupine madness make Silverpine a grim warning of Kirin Tor magic gone disastrously astray."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
   "Silverpine Forest (Classic)",
   "Silverpine Forest"
  ],
- "style": 1
+ "style": 2
 }

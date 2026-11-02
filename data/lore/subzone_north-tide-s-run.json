@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "North Tide's Run"
  },
- "summary": "Cold surf breaks along North Tide's Run, Silverpine Forest's northwestern shore. A half-sunken ship marks the strand, where young tauren druids come to test themselves in the sea.",
+ "summary": "Along Silverpine Forest’s northwestern shore, North Tide’s Run draws young tauren druids to test themselves in the sea. A half-sunken ship marks the strand.",
  "sections": [
   {
    "title": "A Lonely Coast",
-   "body": "North Tide's Run follows Silverpine Forest's northwestern edge beside the Great Sea. Cold sand meets pounding surf, and a partly sunken ship rests tilted in the shallows near the beach.",
+   "body": "North Tide’s Run follows Silverpine Forest’s northwestern edge beside the Great Sea. Cold sand meets pounding surf, and a partly sunken ship rests tilted in the shallows near the beach.",
    "spoiler": 0
   },
   {
    "title": "Waters of the Sea Lion",
-   "body": "Young tauren druids come to North Tide's Run on pilgrimage along the path of Cenarius. They dive for relics lost to the waves, testing their breath and endurance as they seek the blessing of the aquatic form.",
+   "body": "Young tauren druids follow the path of Cenarius to North Tide’s Run on pilgrimage. They dive for relics lost to the waves, testing breath and endurance as they seek the blessing of aquatic form.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is north tides run",
     "what is this beach"
    ],
-   "answer": "North Tide's Run is Silverpine Forest's northwestern shore, along the Great Sea. Its quiet strand is marked by a half-sunken ship and tidal waters."
+   "answer": "North Tide’s Run runs along Silverpine Forest’s northwestern shore beside the Great Sea. A half-sunken ship marks its quiet strand, where the tide runs in and out."
   },
   {
    "q": "Why do druids come to North Tide's Run?",
@@ -37,7 +37,7 @@
     "aquatic form silverpine",
     "why tauren here"
    ],
-   "answer": "Young tauren druids come to North Tide's Run on pilgrimage. They brave the depths to recover lost pendant fragments and earn the power to take aquatic form."
+   "answer": "Young tauren druids come to North Tide’s Run on pilgrimage. They brave the depths to recover lost pendant fragments and earn the power to take aquatic form."
   },
   {
    "q": "What is the sunken ship in the water?",
@@ -52,11 +52,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a tauren druid, you face a rite of passage on this cold coast, where submerged relics form part of your trial to master the sea lion form."
+   "text": "As a tauren druid, you face a rite of passage on this cold coast. Submerged relics form part of your trial to master the sea lion form."
   },
   {
    "target": "race:Tauren",
-   "text": "As a young tauren, you travel far from Mulgore's warm plains to North Tide's Run, one of the few places in Lordaeron on your early spiritual journey."
+   "text": "As a young tauren, you travel far from Mulgore’s warm plains to North Tide’s Run. It is one of the few places in Lordaeron on your early spiritual journey."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "North Tide's Run"
  ],
- "style": 1
+ "style": 2
 }

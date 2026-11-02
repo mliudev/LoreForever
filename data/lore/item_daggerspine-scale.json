@@ -10,11 +10,11 @@
    "quest:515"
   ]
  },
- "summary": "Along Hillsbrad Foothills' southern shores, Daggerspine Scale comes from tough reptilian scales harvested from prowling Daggerspine naga. The Royal Apothecary Society seeks them to activate virulent brews in the Forsaken's ongoing plague experiments.",
+ "summary": "Along Hillsbrad Foothills’ southern shore, prowling Daggerspine naga yield tough reptilian scales sought by the Royal Apothecary Society. The scales help activate virulent brews in the Forsaken’s ongoing plague experiments.",
  "sections": [
   {
    "title": "Apothecary Research",
-   "body": "The Royal Apothecary Society seeks reagents for its toxins, plagues, and concoctions. While refining the experimental Elixir of Agony, its apothecaries found that scales from the local Daggerspine naga react in a useful way. Combined with troll regenerative elixirs and murloc organs, the scales chemically activate dormant contaminating agents suspended in raw mixtures. Gathering them means hunting along the rocky coastline east of Southshore, near both the vicious naga tribe and Alliance forces. The apothecaries need these scales for their research.",
+   "body": "The Royal Apothecary Society seeks reagents for its toxins, plagues, and concoctions. While refining the experimental Elixir of Agony, its apothecaries found that Daggerspine naga scales react in a useful way. Combined with troll regenerative elixirs and murloc organs, the scales chemically activate dormant contaminating agents suspended in raw mixtures.\n\nTo gather the scales, you must hunt along the rocky coastline east of Southshore. The vicious naga tribe and Alliance forces are both nearby. The apothecaries need the scales for their research.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who drops daggerspine scales",
     "daggerspine scale location"
    ],
-   "answer": "Daggerspine Scales come from Daggerspine naga along the Hillsbrad Foothills coastline directly east of Southshore. Their source includes shorestalkers, shorehunters, screamers, sirens, and their leader, Lady Zephris."
+   "answer": "Daggerspine Scales come from Daggerspine naga along the Hillsbrad Foothills coastline directly east of Southshore. Shorestalkers, shorehunters, screamers, sirens, and their leader, Lady Zephris, all provide them."
   },
   {
    "q": "Why does the Royal Apothecary Society want naga scales?",
@@ -49,11 +49,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, gathering these scales advances the Royal Apothecary Society's research into devastating new plagues against the Forsaken's enemies."
+   "text": "As an Undead, you help the Royal Apothecary Society research devastating new plagues against the Forsaken’s enemies."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you must navigate carefully along the southern shore, where Daggerspine encampments lie dangerously close to the Alliance port of Southshore."
+   "text": "As a member of the Horde, you must move carefully along the southern shore. Daggerspine encampments lie dangerously close to the Alliance port of Southshore."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
   "Daggerspine Scale",
   "Elixir of Agony (3)"
  ],
- "style": 1
+ "style": 2
 }

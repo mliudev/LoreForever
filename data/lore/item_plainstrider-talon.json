@@ -10,11 +10,11 @@
    "quest:748"
   ]
  },
- "summary": "Across Mulgore, tauren shamans gather Plainstrider Talon for cleansing totems. The sharp claws come from large, flightless plainstriders native to the region, and help cleanse corrupted water.",
+ "summary": "Across Mulgore, tauren shamans gather Plainstrider Talon to cleanse totems. The sharp claws come from large, flightless plainstriders native to the region and help cleanse corrupted water.",
  "sections": [
   {
    "title": "Bonds of the Plains",
-   "body": "Large, flightless plainstriders roam Mulgore’s open grasses, using powerful legs and sharp claws to forage through tough prairie earth and defend against predators. To the tauren of Bloodhoof Village, every part of a hunted beast carries spiritual resonance. When goblin ventures tainted sacred sources such as the Winterhoof Water Well, shaman Mull Thunderhorn sought plainstrider talons alongside prairie wolf paws. In tauren ritual crafting, reagents from native predators and foragers channel the land’s spiritual essence into totems that can purge unnatural poisons.",
+   "body": "Large, flightless plainstriders roam Mulgore’s open grasses. Their powerful legs and sharp claws help them forage through tough prairie earth and defend against predators. To the tauren of Bloodhoof Village, every part of a hunted beast carries spiritual meaning.\n\nWhen goblin ventures tainted sacred sources such as the Winterhoof Water Well, shaman Mull Thunderhorn sought plainstrider talons and prairie wolf paws. In tauren ritual crafting, parts from native predators and foragers channel the land’s spiritual essence into totems that purge unnatural poisons.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "why do i need talons",
     "plainstrider talon quest"
    ],
-   "answer": "Mull Thunderhorn in Bloodhoof Village needs plainstrider talons and prairie wolf paws to craft a cleansing totem for purifying the corrupted Winterhoof Water Well."
+   "answer": "Mull Thunderhorn in Bloodhoof Village needs plainstrider talons and prairie wolf paws to craft a cleansing totem. He uses it to purify the corrupted Winterhoof Water Well."
   },
   {
    "q": "Why does Mull Thunderhorn need animal parts to clean the water?",
@@ -62,7 +62,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you honor the sacrifice of Mulgore’s wildlife through the hunt. Every beast taken helps heal the Earth Mother when goblin exploitation strikes."
+   "text": "As a tauren, you honor Mulgore’s wildlife through the hunt. Each beast taken helps heal the Earth Mother when goblin exploitation strikes."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Plainstrider Talon",
   "Poison Water (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:1821"
   ]
  },
- "summary": "In northern Tirisfal, the Agamand Family Dagger rests among the weapons in the family crypt. Coleman Farthing seeks it and the family’s other arms to strip his former masters of their legacy and honor.",
+ "summary": "In northern Tirisfal, Coleman Farthing seeks the Agamand Family Dagger and the household’s other arms. He means to strip his former masters of their legacy and honor.",
  "sections": [
   {
    "title": "A Legacy in the Crypt",
-   "body": "Before the Third War, the Agamand family held vast estates and grain mills in the rolling meadows of northern Tirisfal Glades. The Scourge destroyed their power, but their weapons endured in the family crypt north of Agamand Mills. Restless undead members of the household and mindless servants of the Lich King guard the dagger. It recalls the martial heritage and standing the family once held above its servants and tenants.",
+   "body": "Before the Third War, the Agamand family held vast estates and grain mills in northern Tirisfal Glades. The Scourge broke their power, yet their weapons remained in the family crypt north of Agamand Mills. Restless members of the household and mindless servants of the Lich King guard the dagger. It recalls the martial heritage and standing the family once held above its servants and tenants.",
    "spoiler": 0
   },
   {
    "title": "A Spiteful Requisition",
-   "body": "Coleman Farthing resides at Brill, but he once died in the Agamands’ service. He blames the family for his death, and the dagger means resentment to him, not noble lineage. Farthing sends adventurers into the Agamand Family Crypt for the dagger, sword, axe, and mace. By taking these arms from the tomb, he seeks to rob the Scourge patriarchs of their last dignity and extinguish the Agamand name.",
+   "body": "Coleman Farthing lives at Brill, but he died in the Agamands’ service. He blames the family for his death, so the dagger means resentment to him, not noble lineage. Farthing sends adventurers into the Agamand Family Crypt for the dagger, sword, axe, and mace. He seeks to rob the Scourge patriarchs of their last dignity and extinguish the Agamand name.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is the agamand dagger",
     "family dagger tirisfal"
    ],
-   "answer": "The wealthy Agamand family of Tirisfal Glades owned this ancestral weapon. It was laid with the family’s other arms in their crypt, now under Scourge control."
+   "answer": "The wealthy Agamand family of Tirisfal Glades owned this ancestral weapon. It was laid with their other arms in the family crypt, now under Scourge control."
   },
   {
    "q": "Where is the Agamand Family Dagger found?",
@@ -68,7 +68,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a Rogue, you know how slipping past risen dead to take blades from the crypt’s weapon racks can turn burglary into cold vengeance."
+   "text": "As a Rogue, you know how slipping past risen dead to take blades from the crypt’s weapon racks can turn theft into cold vengeance."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "Agamand Family Dagger",
   "Agamand Heirlooms"
  ],
- "style": 1
+ "style": 2
 }

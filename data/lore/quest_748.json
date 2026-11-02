@@ -17,16 +17,16 @@
   "wiki": "Poison Water (Classic)",
   "chain": []
  },
- "summary": "In Mulgore, tainted wells threaten the water that sustains the tauren and local wildlife. Mull Thunderhorn in Bloodhoof Village asks young Horde defenders to gather parts from the plains for a cleansing totem.",
+ "summary": "Tainted wells in Mulgore threaten the water that sustains the tauren and local wildlife. Mull Thunderhorn in Bloodhoof Village asks young Horde defenders to gather parts for a cleansing totem.",
  "sections": [
   {
    "title": "A Land Desecrated",
-   "body": "Goblin interlopers and their lackeys have tainted Mulgore's wells, threatening the water that sustains the tauren tribes and local wildlife. Mull Thunderhorn, an elder in Bloodhoof Village, has discovered the pollution. For the tauren, who recently settled here, the wells are vital to life on these sacred plains.",
+   "body": "Goblin interlopers and their lackeys have tainted Mulgore’s wells. The pollution threatens the water that sustains the tauren tribes and local wildlife. Mull Thunderhorn, an elder in Bloodhoof Village, has discovered the harm. The tauren settled here recently, and these wells are vital to life on their sacred plains.",
    "spoiler": 0
   },
   {
    "title": "Gathering Nature's Essence",
-   "body": "Mull turns to tauren shamanism to cleanse the Winterhoof Water Well. He needs a ritual totem made with the strength of Mulgore's native beasts. You gather paws from prairie wolves and talons from mature plainstriders on the southwestern plains, bringing the land's own strength to bear against the pollution.",
+   "body": "Mull turns to tauren shamanism to cleanse the Winterhoof Water Well. He needs a ritual totem made with the strength of Mulgore’s native beasts. You gather paws from prairie wolves and talons from mature plainstriders on the southwestern plains. The land’s own strength will be brought against the pollution.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who poisoned mulgore",
     "who polluted the water"
    ],
-   "answer": "Goblin interlopers and their lackeys have tainted Mulgore's sacred wells, threatening the water that sustains the tauren and local wildlife."
+   "answer": "Goblin interlopers and their lackeys have tainted Mulgore’s sacred wells, threatening the water that sustains the tauren and local wildlife."
   },
   {
    "q": "Why does Mull Thunderhorn need wolf paws and plainstrider talons?",
@@ -47,7 +47,7 @@
     "why plainstrider talons",
     "totem materials"
    ],
-   "answer": "Mull uses prairie wolf paws and plainstrider talons to make a cleansing totem rooted in the strength of Mulgore's native beasts."
+   "answer": "Mull uses prairie wolf paws and plainstrider talons to make a cleansing totem rooted in the strength of Mulgore’s native beasts."
   },
   {
    "q": "Which well does this quest prepare to cleanse?",
@@ -87,15 +87,15 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For a tauren, poisoned fresh water violates the Earth Mother's gifts. Cleansing the wells is a duty as you come of age in Mulgore."
+   "text": "As a tauren, you know poisoned fresh water violates the Earth Mother’s gifts. Cleansing the wells is a duty as you come of age in Mulgore."
   },
   {
    "target": "class:Shaman",
-   "text": "For a shaman, restoring polluted water with a totem made from beast parts reflects tauren shamanism and its bond with local wildlife."
+   "text": "As a shaman, you restore polluted water with a totem made from beast parts, honoring tauren shamanism and its bond with local wildlife."
   },
   {
    "target": "class:Druid",
-   "text": "For a druid, goblins poisoning fresh springs threatens Mulgore's natural balance. You must protect its fragile flora and fauna."
+   "text": "As a druid, you know goblins poisoning fresh springs threatens Mulgore’s natural balance. You protect its fragile flora and fauna."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Poison Water (Classic)"
  ],
- "style": 1
+ "style": 2
 }

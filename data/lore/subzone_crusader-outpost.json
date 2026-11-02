@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Crusader Outpost"
  },
- "summary": "Scarlet Crusaders watch the eastern road from the heights of Crusader Outpost. Their tower guards the approaches to the Scarlet Monastery and waits for Forsaken incursions.",
+ "summary": "From the heights of Crusader Outpost, Scarlet Crusaders watch the eastern road. Their tower guards the approaches to the Scarlet Monastery and stands ready for Forsaken incursions.",
  "sections": [
   {
    "title": "Eyes Over Tirisfal",
-   "body": "Crusader Outpost watches the eastern road from bluffs above the valley. Scarlet sentries scan the route between Brill and Lordaeron’s eastern reaches, hoping to spot undead and scouting parties before they reach the Monastery gates. The tower also gives the garrison a way to flank forces marching up the valley toward their holy bastion.",
+   "body": "From the bluffs above the valley, Crusader Outpost watches the eastern road. Scarlet sentries scan the route between Brill and Lordaeron’s eastern reaches. They hope to spot undead and scouting parties before they reach the Monastery gates. The tower also lets the garrison flank forces marching up the valley toward their holy bastion.",
    "spoiler": 0
   },
   {
    "title": "A Thorn in the Dark Lady's Side",
-   "body": "Captain Vachon and other Scarlet officers keep the garrison on alert. They regard the woods as unhallowed ground stolen from humanity by monsters, not Forsaken territory. Travelers loyal to the Undercity face an ambush point near the bluffs, where crossbow bolts and cleansing steel await anyone who comes too close.",
+   "body": "Captain Vachon and the other Scarlet officers keep the garrison alert. To them, the woods are unhallowed ground stolen from humanity by monsters, not Forsaken territory. Travelers loyal to the Undercity face an ambush near the bluffs. Crossbow bolts and cleansing steel await anyone who comes too close.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "crusader outpost tirisfal",
     "scarlet watchtower"
    ],
-   "answer": "The Scarlet Crusade holds this watchtower in eastern Tirisfal Glades. Its sentries monitor the road below and guard the southern approach to the Scarlet Monastery."
+   "answer": "The Scarlet Crusade holds this watchtower in eastern Tirisfal Glades. Its sentries watch the road below and guard the southern approach to the Scarlet Monastery."
   },
   {
    "q": "Who controls this outpost?",
@@ -46,7 +46,7 @@
     "outpost location",
     "tactical purpose"
    ],
-   "answer": "The tower’s height gives Crusaders a clear view of Tirisfal Glades’ eastern road. From there, they can spot Forsaken troop movements early and flank forces attacking the Scarlet Monastery."
+   "answer": "The tower’s height gives the Crusaders a clear view of Tirisfal Glades’ eastern road. From there, they can spot Forsaken troop movements early and flank forces attacking the Scarlet Monastery."
   },
   {
    "q": "Will the guards here attack me?",
@@ -64,7 +64,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you must travel the eastern trails of Tirisfal with care. Scarlet sentries on the hill attack anyone heading toward the Monastery."
+   "text": "As a member of the Horde, you must travel Tirisfal’s eastern trails with care. Scarlet sentries on the hill attack anyone heading toward the Monastery."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Crusader Outpost"
  ],
- "style": 1
+ "style": 2
 }

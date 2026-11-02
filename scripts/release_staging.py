@@ -68,7 +68,8 @@ def row(path, asset=None):
 
 
 def binding(args):
-    if not re.fullmatch(r'v\d+\.\d+\.\d+', args.tag) or not re.fullmatch(r'[0-9a-f]{40}', args.commit):
+    # The add-on's vX.Y.Z, or Willo's own willo-vX.Y.Z (her version apart from the add-on's, Mike 11/1).
+    if not re.fullmatch(r'(willo-)?v\d+\.\d+\.\d+', args.tag) or not re.fullmatch(r'[0-9a-f]{40}', args.commit):
         raise Failure('Require exact version tag and source commit')
     if not str(args.run).isdigit() or not str(args.attempt).isdigit():
         raise Failure('Require current workflow run and attempt')
@@ -778,7 +779,7 @@ def willo_release(args):
         mac = read(args.mac_manifest)
         proof['assets'] = proof['assets'] + check_mac(mac, bound)
         proof['macSignature'] = mac['signature']
-    title = 'Willo ' + args.tag.removeprefix('v')
+    title = 'Willo ' + args.tag.removeprefix('willo-').removeprefix('v')
     release = get_release(args.repo, args.tag)
     if release is None:
         run('release', 'create', args.tag, '-R', args.repo, '--draft', '--target', args.commit, '--latest=false',

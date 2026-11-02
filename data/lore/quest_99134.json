@@ -17,16 +17,16 @@
   "wiki": "Discipline (Forever)",
   "chain": []
  },
- "summary": "Executor Zygand turns to outsiders in Tirisfal Glades to keep his Deathguard sentries alert. He has little faith in the garrison and orders physical punishment for those who slacken.",
+ "summary": "In Tirisfal Glades, Executor Zygand calls on outsiders to keep the Deathguard alert. He trusts his garrison little and orders punishment for sentries who slacken.",
  "sections": [
   {
    "title": "Enforcing Order in Undeath",
-   "body": "The Deathguard guard the Forsaken across Lordaeron. Freedom from the Lich King's control has brought its own troubles: apathy, fatigue, and neglect. Executor Zygand has little patience for sentries who let their discipline slip. The Scarlet Crusade and Scourge prowl Tirisfal's borders, and the garrison must stay ready. Its officers use force and close oversight to keep the troops alert.",
+   "body": "The Deathguard guard the Forsaken across Lordaeron. Freedom from the Lich King's control has brought apathy, fatigue, and neglect. Yet the Scarlet Crusade and Scourge prowl Tirisfal's borders, so the garrison must stay ready. Executor Zygand has little patience for sentries who let their discipline slip. The officers use force and close oversight to keep their troops alert.",
    "spoiler": 0
   },
   {
    "title": "The Executor's Ledger",
-   "body": "Executor Zygand chooses outsiders to punish negligent Deathguards instead of using soldiers from his own garrison. With the Executor's Motivator, you remind sentries that service to the Dark Lady demands constant vigilance. Even in undeath, they cannot escape the consequences of neglecting their duties.",
+   "body": "Executor Zygand chooses outsiders to punish negligent Deathguards instead of using soldiers from his own garrison. With the Executor's Motivator, you remind the sentries that service to the Dark Lady demands constant vigilance. Even in undeath, they face the consequences of neglecting their duties.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts discipline",
     "executor zygand quest"
    ],
-   "answer": "Executor Zygand gives the order in Tirisfal Glades, where he oversees the region's defenses and demands obedience from his troops."
+   "answer": "Executor Zygand gives the order in Tirisfal Glades. He oversees the region's defenses and demands obedience from his troops."
   },
   {
    "q": "Why does Executor Zygand want the Deathguard punished?",
@@ -47,7 +47,7 @@
     "why motivate deathguard",
     "zygand deathguard reason"
    ],
-   "answer": "Zygand considers his Deathguards incompetent and lacking drive. He believes their complacency endangers the Forsaken in Tirisfal, so he uses harsh punishment to rouse the sentries."
+   "answer": "Zygand considers his Deathguards incompetent and lacking drive. He believes their complacency endangers the Forsaken in Tirisfal, so he uses harsh punishment to rouse them."
   },
   {
    "q": "Why does Zygand use an adventurer instead of another soldier?",
@@ -55,7 +55,7 @@
     "why me discipline",
     "why use outsiders zygand"
    ],
-   "answer": "Zygand says you have not yet joined the Deathguard, so you have not had the chance to disappoint him."
+   "answer": "Zygand says you have not yet joined the Deathguard. You have not had the chance to disappoint him."
   },
   {
    "q": "What is the Executor's Motivator?",
@@ -71,7 +71,7 @@
     "zygand threats",
     "ledger threat zygand"
    ],
-   "answer": "Zygand warns that if you hesitate or refuse, he will enter your name in his ledger and send someone else to discipline you."
+   "answer": "Zygand warns that if you hesitate or refuse, he will enter your name in his ledger. Then he will send someone else to discipline you."
   },
   {
    "q": "How do the Forsaken view pain?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Forsaken commanders use grim methods, reflecting the harsh rule of the Horde's northern lands."
+   "text": "Forsaken commanders use grim methods. Their ways reflect the harsh rule of the Horde's northern lands."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Discipline (Forever)"
  ],
- "style": 1
+ "style": 2
 }

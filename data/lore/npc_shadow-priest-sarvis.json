@@ -8,16 +8,16 @@
   "wiki": "Shadow Priest Sarvis",
   "refs": 1
  },
- "summary": "In Deathknell's ruined chapel, Shadow Priest Sarvis guides the newly awakened Forsaken. He gives them purpose and directs them against mindless undead and local threats.",
+ "summary": "In Deathknell's ruined chapel, Shadow Priest Sarvis gives the newly awakened Forsaken purpose and direction.",
  "sections": [
   {
    "title": "Shepherd of the Newly Awakened",
-   "body": "Shadow Priest Sarvis guides Forsaken who have just risen from their graves in Deathknell. Their awakening can be jarring and horrific, and some lose their minds to frenzy or despair. Sarvis gives the newly risen a purpose. He sends them to put down the mindless corpses roaming the cemetery and secure Deathknell's borders against the Scourge.",
+   "body": "In Deathknell, Shadow Priest Sarvis guides Forsaken who have just risen from their graves. The awakening can be harsh and frightening. Some lose their minds to frenzy or despair, so Sarvis gives the newly risen a purpose. He sends them to put down the mindless corpses roaming the cemetery and guard Deathknell's borders against the Scourge.",
    "spoiler": 0
   },
   {
    "title": "Securing Deathknell",
-   "body": "Shadow Priest Sarvis also directs Deathknell's defenses against threats in Tirisfal Glades. Scourge forces probe the town's perimeter, and Sarvis sends novices to gather vital intelligence and face trials of arms. The Forsaken must hold Deathknell against those forces.",
+   "body": "Shadow Priest Sarvis directs Deathknell's defenses against threats in Tirisfal Glades. Scourge forces test the town's perimeter, so Sarvis sends novices to gather vital intelligence and face trials of arms. The Forsaken must hold Deathknell against those forces.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is sarvis",
     "deathknell priest"
    ],
-   "answer": "Sarvis is a Forsaken shadow priest in Deathknell. He guides the newly awakened undead, gives them their first orders, and helps defend the town against the Scourge."
+   "answer": "In Deathknell, Sarvis is a Forsaken shadow priest. He guides the newly awakened undead, gives them their first orders, and helps defend the town against the Scourge."
   },
   {
    "q": "Where can I find Shadow Priest Sarvis?",
@@ -38,7 +38,7 @@
     "where is sarvis",
     "find sarvis"
    ],
-   "answer": "Shadow Priest Sarvis waits inside the ruined church at the center of Deathknell, in Tirisfal Glades."
+   "answer": "Shadow Priest Sarvis waits inside the ruined church at Deathknell's center, in Tirisfal Glades."
   },
   {
    "q": "Why is Sarvis having players kill mindless zombies?",
@@ -56,7 +56,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a Priest, you see Sarvis use shadow magic as a Forsaken mentor in a chapel stripped of the Holy Light."
+   "text": "As a Priest, you see Sarvis wield shadow magic as a Forsaken mentor in a chapel stripped of the Holy Light."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
  "attribution": [
   "Shadow Priest Sarvis"
  ],
- "style": 1
+ "style": 2
 }

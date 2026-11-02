@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Chieftain's Son",
-   "body": "At Camp Narache, Grull Hawkwind helps prepare the tribe’s youth. The son of Chief Hawkwind, he guides new arrivals on Red Cloud Mesa and judges whether they are ready to serve the Shu'halo. He sets trials of stamina, tracking, and survival against plainstriders and mountain cougars. Through these trials, young tauren learn that balance and respect for nature are foundations of life in Mulgore.",
+   "body": "At Camp Narache, Grull Hawkwind prepares the tribe’s youth. The son of Chief Hawkwind, he guides new arrivals on Red Cloud Mesa and judges whether they are ready to serve the Shu'halo. His trials test stamina, tracking, and survival against plainstriders and mountain cougars. Through them, young tauren learn that balance and respect for nature are foundations of life in Mulgore.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is grull",
     "grull hawkwind lore"
    ],
-   "answer": "Grull Hawkwind guides young tauren at Camp Narache on Red Cloud Mesa. He is the son of Chief Hawkwind and mentors those beginning their journey."
+   "answer": "Grull Hawkwind guides young tauren at Camp Narache on Red Cloud Mesa. He is Chief Hawkwind’s son and mentors those beginning their journey."
   },
   {
    "q": "What role does Grull Hawkwind play for young adventurers?",
@@ -76,5 +76,5 @@
  "attribution": [
   "Grull Hawkwind"
  ],
- "style": 1
+ "style": 2
 }

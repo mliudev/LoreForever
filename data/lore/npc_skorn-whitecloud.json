@@ -8,16 +8,16 @@
   "wiki": "Skorn Whitecloud",
   "refs": 2
  },
- "summary": "At Bloodhoof Village, aging tauren hunter Skorn Whitecloud guides young hunters and aids travelers facing Mulgore’s dangers.",
+ "summary": "At Bloodhoof Village, Skorn Whitecloud guides young hunters and helps travelers face Mulgore’s dangers.",
  "sections": [
   {
    "title": "A Guide on the Golden Plains",
-   "body": "Skorn Whitecloud lives at Bloodhoof Village in Mulgore, where he guides young hunters in the ways of the hunt. He teaches respect for the plains’ wild creatures. Aspiring hunters prove themselves against cunning flatland prowlers, then take the claws to Melor Stonehoof in Thunder Bluff. Skorn wants those who take up bow or spear to understand the balance between predator and prey.",
+   "body": "Skorn Whitecloud lives at Bloodhoof Village in Mulgore and teaches young hunters the ways of the hunt. He shows them to respect the wild creatures of the plains. First, they prove themselves against cunning flatland prowlers. Then they take the claws to Melor Stonehoof in Thunder Bluff. Skorn wants every hunter who takes up bow or spear to understand the balance between predator and prey.",
    "spoiler": 0
   },
   {
    "title": "Vigilance Against the Unnatural",
-   "body": "Skorn Whitecloud watches for strange disturbances across Mulgore’s savannah. Signs of demonic corruption can appear on the wildlife and beasts of the plains. When they do, Skorn helps piece together what happened, keeping the tribes alert to malevolent forces entering their ancestral home.",
+   "body": "Across Mulgore’s savannah, Skorn Whitecloud watches for strange disturbances. Demonic corruption can mark the wildlife and beasts of the plains. When signs appear, Skorn helps piece together what happened. He keeps the tribes alert to malevolent forces entering their ancestral home.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is skorn",
     "skorn whitecloud map"
    ],
-   "answer": "Skorn Whitecloud can be found at Bloodhoof Village, the tauren settlement in Mulgore’s southern grasslands."
+   "answer": "Skorn Whitecloud can be found at Bloodhoof Village in Mulgore’s southern grasslands."
   },
   {
    "q": "What role does Skorn play for young hunters?",
@@ -55,13 +55,13 @@
     "whitecloud family",
     "skorn relatives"
    ],
-   "answer": "No relatives of Skorn Whitecloud are named in Mulgore. He is known as an old hunter of Bloodhoof Village whose hunting days are behind him."
+   "answer": "No relatives of Skorn Whitecloud are named in Mulgore. He is an old hunter of Bloodhoof Village, and his hunting days are behind him."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a young tauren hunter, you can learn from Skorn Whitecloud how to stalk swift predators like the flatland prowler and honor the spiritual harmony of the hunt."
+   "text": "As a young tauren hunter, you can learn from Skorn Whitecloud to stalk swift predators like the flatland prowler and honor the spiritual harmony of the hunt."
   },
   {
    "target": "race:Tauren",
@@ -86,5 +86,5 @@
  "attribution": [
   "Skorn Whitecloud"
  ],
- "style": 1
+ "style": 2
 }

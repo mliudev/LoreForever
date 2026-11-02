@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Night Web's Hollow"
  },
- "summary": "In Tirisfal Glades, spiders have overrun Night Web's Hollow, an abandoned gold mine northwest of Deathknell. Newly raised Forsaken are sent into its tunnels to cull the vermin and prove their readiness for combat.",
+ "summary": "In Tirisfal Glades, spiders swarm Night Web's Hollow, the abandoned gold mine northwest of Deathknell. Newly raised Forsaken enter its tunnels to cull the vermin and prove they are ready for combat.",
  "sections": [
   {
    "title": "The Infested Mine",
-   "body": "Night Web's Hollow lies in the hills northwest of Deathknell. Before the plague swept through Lordaeron, humans worked its gold mine. After the kingdom fell, the shafts stood empty. Now webs cover the rock walls, and aggressive night web spiders fill the vale and tunnels. The Forsaken send their newly raised into the hollow to kill young and adult spiders and regain access to the mine's gold.",
+   "body": "Northwest of Deathknell, Night Web's Hollow cuts into the hills. Humans once worked its gold mine before the plague swept through Lordaeron. After the kingdom fell, the shafts stood empty.\n\nNow webs cover the rock walls, and aggressive night web spiders fill the vale and tunnels. The Forsaken send their newly raised to kill young and adult spiders, hoping to regain access to the mine's gold.",
    "spoiler": 0
   }
  ],
@@ -53,7 +53,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For you, newly risen, Night Web's Hollow is one of your first trials. Slaying the arachnids proves you have the focus and will to serve the Dark Lady."
+   "text": "As one newly risen, Night Web's Hollow is one of your first trials. Slaying the arachnids proves you have the focus and will to serve the Dark Lady."
   },
   {
    "target": "profession:Mining",
@@ -76,5 +76,5 @@
  "attribution": [
   "Night Web's Hollow"
  ],
- "style": 1
+ "style": 2
 }

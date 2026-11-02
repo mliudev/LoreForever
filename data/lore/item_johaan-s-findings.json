@@ -10,11 +10,11 @@
    "quest:445"
   ]
  },
- "summary": "Apothecary Johaan sends his findings south from Brill to the Sepulcher. His research carries recent alchemical work from Tirisfal Glades to Apothecary Renferrel in Silverpine Forest.",
+ "summary": "In Brill, Apothecary Johaan sends his findings south to the Sepulcher. His research carries recent alchemical work from Tirisfal Glades to Apothecary Renferrel in Silverpine Forest.",
  "sections": [
   {
    "title": "Apothecary Correspondence",
-   "body": "Apothecary Johaan sends his research from Brill to Apothecary Renferrel at the Sepulcher. The Royal Apothecary Society works under Lady Sylvanas Windrunner's demand for a New Plague that can destroy both the living and the Scourge. Its researchers are scattered across Lordaeron's contested ruins, so they must share their findings between outposts. Renferrel directs the Society's efforts from Silverpine Forest, while Johaan records his local tests in Brill. His documents join the Society's wider work to refine its deadly brews.",
+   "body": "Apothecary Johaan sends his research from Brill to Apothecary Renferrel at the Sepulcher. The Royal Apothecary Society answers Lady Sylvanas Windrunner's demand for a New Plague that can destroy both the living and the Scourge. Its researchers are scattered across Lordaeron's contested ruins, so they share their findings between outposts.\n\nRenferrel directs the Society's efforts from Silverpine Forest, while Johaan records his local tests in Brill. His documents join the Society's wider work to refine its deadly brews.",
    "spoiler": 0
   }
  ],
@@ -90,5 +90,5 @@
   "Johaan's Findings",
   "Delivery to Silverpine Forest"
  ],
- "style": 1
+ "style": 2
 }

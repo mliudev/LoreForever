@@ -17,16 +17,16 @@
   "wiki": "Rot Hide Ichor (quest)",
   "chain": []
  },
- "summary": "High Executor Hadrec seeks Rot Hide Ichor in Silverpine Forest before the Forsaken attack Fenris Isle. He wants the fluid studied to understand the gnolls that infest the island.",
+ "summary": "In Silverpine Forest, High Executor Hadrec seeks Rot Hide Ichor before the Forsaken attack Fenris Isle. He wants the fluid studied to understand the gnolls infesting the island.",
  "sections": [
   {
    "title": "Unnatural Biology",
-   "body": "Rot Hide gnolls on Fenris Isle are decaying, aggressive, and unlike ordinary wild humanoids. They hold strategic ground across Lordamere Lake. High Executor Hadrec believes the strange fluid in their veins may explain their unnatural resilience. He needs samples before committing Forsaken soldiers to a costly assault.",
+   "body": "Rot Hide gnolls on Fenris Isle decay and fight with a fury unlike ordinary wild humanoids. They hold strategic ground across Lordamere Lake. High Executor Hadrec believes the strange fluid in their veins may explain their unnatural resilience. He needs samples before the Forsaken commit soldiers to a costly assault.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Analysis",
-   "body": "The Royal Apothecary Society works from the Sepulcher, where Apothecary Renferrel studies biological and chemical anomalies. Bring him samples of the putrid fluid, and the Forsaken hope to learn where the gnolls came from, who is engineering them, and what weaknesses they have in battle.",
+   "body": "The Royal Apothecary Society works from the Sepulcher, where Apothecary Renferrel studies biological and chemical anomalies. Bring him samples of the putrid fluid. The Forsaken hope to learn where the gnolls came from, who is engineering them, and what weaknesses they have in battle.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "rot hide fluid",
     "gnoll ichor"
    ],
-   "answer": "Rot Hide Ichor is a putrid fluid that flows through the bodies of the Rot Hide gnolls on Fenris Isle. It sustains their undead-like, rotting state and gives them unusual resilience."
+   "answer": "Rot Hide Ichor is a putrid fluid flowing through the bodies of the Rot Hide gnolls on Fenris Isle. It sustains their undead-like, rotting state and gives them unusual resilience."
   },
   {
    "q": "Why does High Executor Hadrec want samples of the ichor?",
@@ -47,7 +47,7 @@
     "hadrec's goal",
     "why hadrec wants ichor"
    ],
-   "answer": "High Executor Hadrec wants samples studied before the Forsaken assault Fenris Isle. Apothecary Renferrel may be able to trace who created the Rot Hides and find a weakness to exploit."
+   "answer": "High Executor Hadrec wants the samples studied before the Forsaken assault Fenris Isle. Apothecary Renferrel may trace who created the Rot Hides and find a weakness to exploit."
   },
   {
    "q": "Where are the Rot Hide gnolls located?",
@@ -72,7 +72,7 @@
     "next quest after rot hide ichor",
     "rot hide ichor follow up"
    ],
-   "answer": "After receiving the samples, Renferrel analyzes the fluid's chemical makeup to trace the Rot Hides' origin. His work leads into Rot Hide Origins."
+   "answer": "After receiving the samples, Renferrel studies the fluid's chemical makeup to trace the Rot Hides' origin. His work leads into Rot Hide Origins."
   },
   {
    "q": "Why do the Forsaken care about gnolls?",
@@ -116,5 +116,5 @@
  "attribution": [
   "Rot Hide Ichor (quest)"
  ],
- "style": 1
+ "style": 2
 }

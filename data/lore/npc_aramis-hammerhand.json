@@ -8,16 +8,16 @@
   "wiki": "Aramis Hammerhand",
   "refs": 5
  },
- "summary": "In Deathknell's chapel, Aramis Hammerhand trains the newly risen Forsaken in holy combat. The Holy Light can answer their call, but wielding it burns their decayed flesh and demands fierce discipline.",
+ "summary": "In Deathknell's chapel, Aramis Hammerhand teaches the newly risen Forsaken to fight with the Holy Light. They can call on its power, but it burns their decayed flesh and demands fierce discipline.",
  "sections": [
   {
    "title": "A Beacon in Deathknell",
-   "body": "In Deathknell's chapel, Aramis Hammerhand guides Forsaken who hold fast to their former faith. Before the Scourge swept across the north, many people of Lordaeron answered the Silver Hand's call. Aramis survived the fall of Lordaeron, then rose into undeath. He kept the martial and spiritual teachings of his former life, and now guides others who refuse to surrender their devotion.",
+   "body": "In Deathknell's chapel, Aramis Hammerhand guides Forsaken who still hold to their former faith. Before the Scourge swept across the north, many people of Lordaeron answered the Silver Hand's call. Aramis survived Lordaeron's fall, then rose into undeath. He kept the martial and spiritual teachings of his former life, and now guides others who will not surrender their devotion.",
    "spoiler": 0
   },
   {
    "title": "The Agony of the Holy Light",
-   "body": "For the Forsaken, channeling the Holy Light demands fierce will. Its power burns necrotic flesh and stirs long-dead nerves into excruciating pain. Aramis teaches new paladins that faith means enduring that torment. He asks them to face the physical and spiritual costs of wielding a force opposed to their undead nature.",
+   "body": "For the Forsaken, channeling the Holy Light takes fierce will. Its power burns necrotic flesh and stirs long-dead nerves into excruciating pain. Aramis teaches new paladins that faith means enduring this torment. He asks them to face the physical and spiritual cost of wielding a force opposed to their undead nature.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "hammerhand location",
     "paladin trainer deathknell"
    ],
-   "answer": "Aramis Hammerhand stands inside the chapel at Deathknell, the Forsaken's starting settlement in Tirisfal Glades."
+   "answer": "Aramis Hammerhand is inside the chapel at Deathknell, the Forsaken's starting settlement in Tirisfal Glades."
   },
   {
    "q": "What quests does Aramis Hammerhand offer?",
@@ -71,7 +71,7 @@
     "does light hurt undead",
     "light healing undead lore"
    ],
-   "answer": "The Light can mend undead bodies and grant martial strength, but using it is excruciating. It awakens their senses, forcing them to feel the rot of their own bodies."
+   "answer": "The Light can mend undead bodies and grant martial strength, but using it is excruciating. It awakens their senses and makes them feel the rot of their own bodies."
   }
  ],
  "angles": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Aramis Hammerhand"
  ],
- "style": 1
+ "style": 2
 }

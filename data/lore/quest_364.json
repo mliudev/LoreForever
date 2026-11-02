@@ -17,16 +17,16 @@
   "wiki": "The Mindless Ones",
   "chain": []
  },
- "summary": "Newly risen Forsaken face the Mindless Ones on Deathknell's northern edge. Shadow Priest Sarvis sends them to cull Mindless Zombies and Wretched Zombies, Scourge thralls bound to the Lich King's command.",
+ "summary": "At Deathknell's northern edge, newly risen Forsaken face The Mindless Ones. Shadow Priest Sarvis sends them against Mindless Zombies and Wretched Zombies, Scourge thralls bound to the Lich King's command.",
  "sections": [
   {
    "title": "Slaves to the Frozen Throne",
-   "body": "Many who rise from Lordaeron's dirt never recover their minds. The Forsaken broke free of Ner'zhul's domination as his power waned, but countless corpses remain chained to his will. In northern Deathknell, Mindless Zombies and Wretched Zombies wander, driven to violence. For you, newly risen among the undead, putting them down is the first hard trial. You prove your freedom by ending the thrall of those who never escaped.",
+   "body": "Many who rise from Lordaeron's soil never recover their minds. The Forsaken broke free of Ner'zhul's rule as his power waned, but countless dead remain chained to his will. In northern Deathknell, Mindless Zombies and Wretched Zombies roam, driven to violence. For you, newly risen among the undead, laying them to rest is your first hard trial. You prove your freedom by ending the thrall of those who never escaped.",
    "spoiler": 0
   },
   {
    "title": "Mercy Through Destruction",
-   "body": "Shadow Priest Sarvis grieves that these legions of dead cannot strengthen the Forsaken's desperate struggle. There is no cure for them. Their minds are broken, and they remain instruments of slaughter. If left to roam, they bring chaos to Deathknell's doorstep and give the Lich King easy fodder. Destroying them is necessary for the settlement and brings a grim end to some of Lordaeron's fallen.",
+   "body": "Shadow Priest Sarvis grieves that these legions of dead cannot strengthen the Forsaken's desperate struggle. There is no cure for them. Their minds are broken, and they remain instruments of slaughter. Left to roam, they bring chaos to Deathknell's doorstep and give the Lich King easy fodder. Destroying them is necessary for the settlement and brings a grim end to some of Lordaeron's fallen.",
    "spoiler": 0
   }
  ],
@@ -66,7 +66,7 @@
     "difference between forsaken and mindless",
     "why are some zombies mindless"
    ],
-   "answer": "Forsaken have free will, while Scourge zombies do not. Forsaken escaped the Lich King's telepathic control and kept their intelligence and emotions; he directly puppeteers the empty vessels of the Scourge."
+   "answer": "Forsaken have free will, while Scourge zombies do not. Forsaken escaped the Lich King's telepathic control and kept their intelligence and emotions. The Lich King directly puppeteers the Scourge's empty vessels."
   },
   {
    "q": "Are the mindless zombies a threat to Deathknell?",
@@ -75,7 +75,7 @@
     "why clear northern deathknell",
     "zombie threat"
    ],
-   "answer": "Yes. These zombies wander just north of Deathknell, threatening new arrivals from the graves and the Forsaken priests trying to organize the settlement."
+   "answer": "Yes. These zombies roam just north of Deathknell, threatening new arrivals from the graves and the Forsaken priests trying to organize the settlement."
   },
   {
    "q": "Where does this task lead next?",
@@ -84,7 +84,7 @@
     "mindless ones followup",
     "what comes next"
    ],
-   "answer": "Your success against the mindless dead leads to more duties securing Deathknell, including culling skeletal Scourge in Rattling the Rattlecages and beginning training with your class mentor."
+   "answer": "Your success against the mindless dead leads to more duties securing Deathknell. These include culling skeletal Scourge in Rattling the Rattlecages and beginning training with your class mentor."
   }
  ],
  "angles": [
@@ -94,7 +94,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a Priest, you serve under Shadow Priest Sarvis and meet the Forsaken's pragmatic, shadow-tinged way of life, adopted in place of the Holy Light that abandoned them."
+   "text": "As a Priest, you serve under Shadow Priest Sarvis and meet the Forsaken's pragmatic, shadow-tinged way of life. They adopted it in place of the Holy Light that abandoned them."
   },
   {
    "target": "faction:Horde",
@@ -122,5 +122,5 @@
  "attribution": [
   "The Mindless Ones"
  ],
- "style": 1
+ "style": 2
 }

@@ -22,16 +22,16 @@
    "At War With The Scarlet Crusade (4)"
   ]
  },
- "summary": "In Tirisfal, the Forsaken strike at Scarlet Crusade forces threatening their borders. Executor Zygand sends champions after Captain Perrine and his garrison at a ruined tower southwest of Brill, using intelligence taken in Deathknell.",
+ "summary": "In Tirisfal, the Forsaken strike at Scarlet Crusade forces threatening their borders. Executor Zygand sends champions against Captain Perrine and his garrison at a ruined tower southwest of Brill, guided by intelligence taken in Deathknell.",
  "sections": [
   {
    "title": "Intelligence Put to Use",
-   "body": "Executor Arren recovered documents from the Scarlet Crusade in Deathknell, revealing troop movements across Tirisfal Glades. Rather than wait for the fanatics to attack newly fortified Brill, Executor Zygand uses the captured intelligence to strike their field commanders first.",
+   "body": "Executor Arren recovered Scarlet Crusade documents in Deathknell. They revealed troop movements across Tirisfal Glades. So Executor Zygand uses that intelligence to strike the field commanders first, before the fanatics can attack newly fortified Brill.",
    "spoiler": 0
   },
   {
    "title": "The Threat at the Ruined Tower",
-   "body": "Captain Perrine commands Scarlet Zealots and Missionaries from a ruined watchtower southwest of Brill. From there, the Crusade watches Forsaken movements and reaches farther into Tirisfal. Perrine's death matters to the defense of the Dark Lady's young kingdom.",
+   "body": "At a ruined watchtower southwest of Brill, Captain Perrine commands Scarlet Zealots and Missionaries. The Crusade watches Forsaken movements from there and reaches farther into Tirisfal. Perrine's death matters to the defense of the Dark Lady's young kingdom.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "perrine",
     "who is perrine"
    ],
-   "answer": "Captain Perrine is a Scarlet Crusade officer at a ruined watchtower southwest of Brill, where he commands a detachment of Zealots and Missionaries pressing into Tirisfal Glades."
+   "answer": "Captain Perrine is a Scarlet Crusade officer at a ruined watchtower southwest of Brill. He commands a detachment of Zealots and Missionaries pressing into Tirisfal Glades."
   },
   {
    "q": "Where did the Forsaken get information on Captain Perrine?",
@@ -69,7 +69,7 @@
     "at war with the scarlet crusade chain",
     "what comes next after perrine"
    ],
-   "answer": "This is the second step in the Tirisfal campaign against the Crusade. Perrine's death breaks up a local scouting post before Executor Zygand escalates operations against larger encampments across the glades."
+   "answer": "Perrine's death breaks up a local scouting post. It is the second step in the Tirisfal campaign against the Crusade, before Executor Zygand escalates operations against larger encampments across the glades."
   },
   {
    "q": "Can this quest be done together with anything else nearby?",
@@ -78,7 +78,7 @@
     "quest pairing perrine",
     "brill tower quests"
    ],
-   "answer": "Yes. Proof of Demise pairs with it: Deathguard Burgess asks for Scarlet Insignia Rings taken from the same crusaders, as proof of loyalty to Varimathras and the Dark Lady."
+   "answer": "Yes. Proof of Demise pairs with it. Deathguard Burgess asks for Scarlet Insignia Rings taken from the same crusaders, as proof of loyalty to Varimathras and the Dark Lady."
   },
   {
    "q": "Who is Executor Zygand?",
@@ -122,5 +122,5 @@
  "attribution": [
   "At War With The Scarlet Crusade (2)"
  ],
- "style": 1
+ "style": 2
 }

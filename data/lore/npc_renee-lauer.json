@@ -8,16 +8,16 @@
   "wiki": "Renee Lauer",
   "refs": 1
  },
- "summary": "Travelers find food, drink, and shelter with Innkeeper Renee at the Gallows' End Tavern in Brill.",
+ "summary": "At the Gallows' End Tavern in Brill, Innkeeper Renee gives travelers food, drink, and shelter.",
  "sections": [
   {
    "title": "Keeper of Gallows' End",
-   "body": "Innkeeper Renee welcomes weary newcomers to the Gallows' End Tavern, Brill's central inn. She sells food, drink, and general goods from behind her counter, and remarks that the Forsaken have huge appetites. Her tavern offers the undead of Tirisfal a cozy place to rest as plague victims make their way in the world.",
+   "body": "Innkeeper Renee keeps Brill's central inn, the Gallows' End Tavern. She sells food, drink, and general goods from behind her counter. Renee remarks that the Forsaken have huge appetites. Her tavern gives Tirisfal's undead a cozy place to rest as plague victims make their way in the world.",
    "spoiler": 0
   },
   {
    "title": "Letters and Captives",
-   "body": "Newcomers to Brill often stop first at Renee's inn. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter, the word she has eagerly awaited. Beneath the tavern's floorboards, the cellar also holds a captured Scarlet Crusade zealot.",
+   "body": "Newcomers to Brill often stop first at Renee's inn. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter. The word is the one Renee has eagerly awaited. Beneath the tavern's floorboards, the cellar also holds a captured Scarlet Crusade zealot.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "brill innkeeper",
     "who is the innkeeper in brill"
    ],
-   "answer": "Innkeeper Renee welcomes travelers at the Gallows' End Tavern in Brill. She sells food, drink, and general supplies to those passing through Tirisfal Glades."
+   "answer": "Innkeeper Renee welcomes travelers at the Gallows' End Tavern, Brill's central inn. She sells food, drink, and general goods to those passing through Tirisfal Glades."
   },
   {
    "q": "What is Renee's connection to Calvin Montague?",
@@ -37,7 +37,7 @@
     "a rogue's deal renee",
     "calvin montague letter"
    ],
-   "answer": "In the task 'A Rogue's Deal', adventurers running errands for Calvin Montague are sent to deliver a letter directly to Renee at the Gallows' End Tavern."
+   "answer": "Calvin Montague sends adventurers running errands for him to deliver a letter directly to Renee at the Gallows' End Tavern."
   }
  ],
  "angles": [
@@ -65,5 +65,5 @@
  "attribution": [
   "Renee Lauer"
  ],
- "style": 1
+ "style": 2
 }

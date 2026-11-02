@@ -17,16 +17,16 @@
   "wiki": "The Prodigal Lich Returns",
   "chain": []
  },
- "summary": "You carry an arcane communion gem to Bethor Iceshard in the Undercity, after winning Gunther Arcanus's trust and restoring his grimoire.",
+ "summary": "In the Undercity, you carry a Nether Gem to Bethor Iceshard after winning Gunther Arcanus's trust and restoring his grimoire.",
  "sections": [
   {
    "title": "A Rare Reconciliation",
-   "body": "Gunther Arcanus spent years alone on an island in Brightwater Lake. By sheer force of will, he broke free from the Lich King's control, unaware that Sylvanas Windrunner had liberated Lordaeron. Bitter and wary of outsiders, he distrusted the Undercity's emissaries. An adventurer returned his spellbook and showed him their hostility toward the Scourge. Satisfied the visitor was no enemy, Gunther entrusted them with a Nether Gem to contact his former colleague.",
+   "body": "Gunther Arcanus spent years alone on an island in Brightwater Lake. By will alone, he escaped the Lich King's control, not knowing Sylvanas Windrunner had freed Lordaeron. Bitter and wary, he distrusted the Undercity's emissaries. An adventurer returned his spellbook and showed him their hostility toward the Scourge. Satisfied the visitor was no enemy, Gunther entrusted them with a Nether Gem to contact his former colleague.",
    "spoiler": 0
   },
   {
    "title": "Communion in the Magic Quarter",
-   "body": "You return to the Undercity's Magic Quarter and deliver the Nether Gem to Bethor Iceshard. Bethor channels its power and conjures Gunther's ethereal visage in the sanctuary. Through their magical communion, Gunther formally agrees to ally with the Forsaken cause. Gaining a necromancer of his independent mastery bolsters the Dark Lady's young kingdom and its magical defenses against the Scourge and the living.",
+   "body": "You bring the Nether Gem to Bethor Iceshard in the Undercity's Magic Quarter. Bethor channels its power and calls Gunther's ethereal visage into the sanctuary. Through their magical communion, Gunther formally agrees to join the Forsaken cause. A necromancer of his independent mastery strengthens the Dark Lady's young kingdom and its magical defenses against the Scourge and the living.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is the prodigal lich",
     "gunther undercity"
    ],
-   "answer": "Gunther Arcanus is a powerful necromancer who broke free of the Lich King's mental domination by himself. He lived in reclusive exile on an island in Brightwater Lake, believing all other undead were mindless thralls until adventurers proved otherwise."
+   "answer": "Gunther Arcanus is a powerful necromancer who broke free of the Lich King's mental domination by himself. He lived in reclusive exile on an island in Brightwater Lake, believing other undead were mindless thralls until adventurers proved otherwise."
   },
   {
    "q": "Who is Bethor Iceshard?",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Prodigal Lich Returns"
  ],
- "style": 1
+ "style": 2
 }

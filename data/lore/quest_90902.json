@@ -17,16 +17,16 @@
   "wiki": "Rediscovering the Light",
   "chain": []
  },
- "summary": "In Deathknell, newly raised Forsaken paladins face the pain of calling on the Holy Light. Aramis Hammerhand teaches them to heal wounded Deathguards through the burning agony.",
+ "summary": "In Deathknell, newly risen Forsaken paladins learn that the Light still answers them, though it burns.",
  "sections": [
   {
    "title": "A Painful Reunion",
-   "body": "Newly risen Forsaken paladins must face a hard truth: the Holy Light still answers them, but burns their withered bodies. Many were champions of the Silver Hand or knights of Lordaeron before they fell. Aramis Hammerhand teaches them that powers once used without thought now bring fierce pain. The Light clashes with the foul magic that sustains undeath, so calling on it takes resolve and endurance.",
+   "body": "The Holy Light still answers newly risen Forsaken paladins, but it burns their withered bodies. Many once served as champions of the Silver Hand or knights of Lordaeron. Aramis Hammerhand teaches them that powers they once used without thought now bring fierce pain. The Light clashes with the foul magic that sustains undeath, so calling on it takes resolve and endurance.",
    "spoiler": 0
   },
   {
    "title": "Purification Through Suffering",
-   "body": "Deathguards in Deathknell suffer grievous wounds fighting mindless zombies, and Forsaken paladins are called to heal them. Aramis teaches that pushing through the burning pain is like exercising an atrophied muscle. The paladins treat that agony as a badge of honor and proof that the Light has not forsaken them.",
+   "body": "Deathguards in Deathknell suffer grievous wounds fighting mindless zombies, and Forsaken paladins are called to heal them. Aramis teaches that enduring the burning pain is like exercising an atrophied muscle. The paladins bear that agony as a badge of honor and proof that the Light has not forsaken them.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "injured deathguard lore",
     "deathknell defenders"
    ],
-   "answer": "Deathguard soldiers are wounded while defending Deathknell from mindless undead, feral Scourge remnants, and hostile wildlife around the settlement, as the newly risen awaken from their graves."
+   "answer": "Deathguard soldiers are wounded while defending Deathknell from mindless undead, feral Scourge remnants, and hostile wildlife around the settlement. This happens as the newly risen awaken from their graves."
   },
   {
    "q": "Can undead naturally wield the Holy Light?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For an undead paladin, reconnecting with the Light tests faith and endurance. Holy vows can survive death, though the Light brings blistering agony."
+   "text": "As an undead paladin, you test your faith and endurance as you reconnect with the Light. Holy vows can survive death, though the Light brings blistering agony."
   },
   {
    "target": "race:Undead",
@@ -116,5 +116,5 @@
  "attribution": [
   "Rediscovering the Light"
  ],
- "style": 1
+ "style": 2
 }

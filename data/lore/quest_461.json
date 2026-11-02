@@ -21,16 +21,16 @@
    "Wand to Bethor"
   ]
  },
- "summary": "Alaric's memories lead you back into Fenris Keep. His remains point toward a forgotten alcove where he seeks rest and an old relic waits.",
+ "summary": "In Fenris Keep, Alaric's memories guide you toward a hidden alcove. His remains point to a place of rest, and an old relic waits there.",
  "sections": [
   {
    "title": "A Restless Request",
-   "body": "Alaric remembers Fenris Keep in its better days. Horde scouts have lifted his bones from a shallow grave outside the stronghold, but he will not go quietly to the Sepulcher. He offers vital knowledge instead: a hidden niche in the keep's southwestern tower holds an item treasured by Thule Ravenclaw and his fellow mages.",
+   "body": "Alaric remembers Fenris Keep in its better days. Horde scouts lifted his bones from a shallow grave outside the stronghold, but he will not go quietly to the Sepulcher. He offers vital knowledge in return: a hidden niche in the keep's southwestern tower holds an item treasured by Thule Ravenclaw and his fellow mages.",
    "spoiler": 0
   },
   {
    "title": "Buried in the Walls",
-   "body": "You carry Alaric's remains through Fenris Keep, past the Rot Hide gnolls that infest the island fortress. In the upper levels, a dusty bookshelf hides the compartment he described. Alaric asks to be sealed inside the keep's ancient masonry, where he spent the happiest days of his life, beyond the gnolls' reach.",
+   "body": "You carry Alaric's remains through Fenris Keep, past the Rot Hide gnolls that infest the island fortress. On an upper floor, a dusty bookshelf conceals the compartment he described. Alaric asks you to seal him inside the keep's ancient masonry. He spent the happiest days of his life there, beyond the gnolls' reach.",
    "spoiler": 1
   }
  ],
@@ -60,7 +60,7 @@
     "fenris keep treasure",
     "thule item"
    ],
-   "answer": "The alcove holds an old wand treasured by Thule Ravenclaw and his former peers from Dalaran, along with other remnants Alaric leaves for those who helped him."
+   "answer": "The alcove holds an old wand treasured by Thule Ravenclaw and his former peers from Dalaran. It also holds other remnants Alaric leaves for those who helped him."
   },
   {
    "q": "Why does Alaric want to stay inside Fenris Keep?",
@@ -68,7 +68,7 @@
     "why leave alaric in fenris",
     "alaric resting place"
    ],
-   "answer": "Alaric remembers his years in Fenris Keep as the happiest of his life. Resting inside its stonework brings him peace and protects his remains from the scavenger gnolls in the courtyards."
+   "answer": "Alaric remembers his years in Fenris Keep as the happiest of his life. Resting inside its stonework brings him peace and protects his remains from scavenger gnolls in the courtyards."
   },
   {
    "q": "What happens after finding the shelf?",
@@ -84,17 +84,17 @@
     "alaric boots",
     "leave boots behind"
    ],
-   "answer": "When his bones were lifted from the shallow grave, Alaric joked that his old boots never fit properly and insisted they stay in the dirt."
+   "answer": "When his bones were lifted from the shallow grave, Alaric joked that his old boots never fit properly. He insisted they stay in the dirt."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken, you know the business of speaking remains, but Alaric's wish for rest in human ruins recalls the lands your people inherited."
+   "text": "As a Forsaken, you know the business of speaking with remains. Alaric's wish to rest in human ruins recalls the lands your people inherited."
   },
   {
    "target": "class:Mage",
-   "text": "The hidden alcove preserves Fenris Keep's arcane heritage, with artifacts tied to former Dalaran wizards such as Thule Ravenclaw."
+   "text": "The hidden alcove preserves Fenris Keep's arcane heritage through artifacts tied to former Dalaran wizards such as Thule Ravenclaw."
   },
   {
    "target": "faction:Horde",
@@ -118,5 +118,5 @@
  "attribution": [
   "The Hidden Niche"
  ],
- "style": 1
+ "style": 2
 }

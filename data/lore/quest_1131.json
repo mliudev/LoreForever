@@ -20,16 +20,16 @@
    "Steelsnap (quest)"
   ]
  },
- "summary": "In Thousand Needles, Melor Stonehoof sends you after a hyena whose pack terrorizes the wildlife. Steelsnap's hunt breaks with the usual reasons tauren take a life.",
+ "summary": "In Thousand Needles, Melor Stonehoof sends you after Steelsnap and his pack, which terrorize the wildlife. This hunt serves a different purpose from the usual reasons tauren take a life.",
  "sections": [
   {
    "title": "A Hunt Outside the Blessing",
-   "body": "Tauren hunters take life for sustenance, honor, or wisdom from the Earthmother. Melor Stonehoof asks you to hunt Steelsnap for another reason. The hyena is seen as a threat to nature's balance, bringing senseless violence and fear instead of keeping the cycle of life.",
+   "body": "Tauren hunters take life for food, honor, or wisdom from the Earthmother. Melor Stonehoof sends you after Steelsnap for another reason. The hyena threatens nature’s balance with senseless violence and fear, rather than keeping the cycle of life.",
    "spoiler": 0
   },
   {
    "title": "The Scourge of the Needles",
-   "body": "Steelsnap roams the canyons of northern Thousand Needles, south of the centaur enclave at Camp E'thok. Fierce hyenas follow him, and together they attack the gentler wildlife on the canyon floor. Slaying Steelsnap and bringing back his rib will end his hold over the needles.",
+   "body": "Steelsnap roams the canyons of northern Thousand Needles, south of the centaur enclave at Camp E'thok. Fierce hyenas follow him, and together they attack the gentler wildlife on the canyon floor. Slay Steelsnap and bring back his rib to end his hold over the needles.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "melor stonehoof reason",
     "steelsnap motive"
    ],
-   "answer": "Melor Stonehoof wants Steelsnap killed because he threatens the natural balance with senseless violence. Tauren hunts usually serve sustenance, honor, or wisdom from the Earthmother; this one aims to stop his attacks on the wildlife."
+   "answer": "Melor Stonehoof wants Steelsnap killed because he threatens nature’s balance with senseless violence. Tauren hunts usually serve food, honor, or wisdom from the Earthmother; this hunt aims to stop his attacks on wildlife."
   },
   {
    "q": "Where can Steelsnap be found?",
@@ -77,7 +77,7 @@
     "earthmother hunting",
     "hunt lesson"
    ],
-   "answer": "Tauren hunts usually serve sustenance, honor, or wisdom from the Earthmother. This hunt aims to stop a predator that disrupts the natural balance."
+   "answer": "Tauren hunts usually serve food, honor, or wisdom from the Earthmother. This hunt aims to stop a predator that disrupts nature’s balance."
   },
   {
    "q": "Where does Melor Stonehoof dwell?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "Hunting Steelsnap tests your skill at tracking down a savage pack leader among the hyenas roaming the canyon floor."
+   "text": "Hunting Steelsnap tests your skill at tracking a savage pack leader among the hyenas roaming the canyon floor."
   },
   {
    "target": "faction:Horde",
@@ -125,5 +125,5 @@
  "attribution": [
   "Steelsnap (quest)"
  ],
- "style": 1
+ "style": 2
 }

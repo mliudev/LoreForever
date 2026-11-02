@@ -10,11 +10,11 @@
    "quest:479"
   ]
  },
- "summary": "In Ambermill, Dalaran Pendants focus the Kirin Tor's magic. The Forsaken seek them to hinder the wizards' work and trace the source of their power.",
+ "summary": "In Ambermill, Dalaran Pendants focus the Kirin Tor's magic. The Forsaken seek them to slow the wizards and trace the source of their power.",
  "sections": [
   {
    "title": "Amulets of Ambermill",
-   "body": "Kirin Tor sorcerers, conjurers, and protectors weave powerful spells in Ambermill, threatening Forsaken control of southern Silverpine Forest. Each carries an attuned Dalaran Pendant. At the Sepulcher, Shadow Priest Allister sends Forsaken operatives to recover the pendants, slowing the mages' efforts and uncovering who guides their magical weave.",
+   "body": "Kirin Tor sorcerers, conjurers, and protectors weave powerful spells in Ambermill. Their work threatens Forsaken control of southern Silverpine Forest. Each carries an attuned Dalaran Pendant. At the Sepulcher, Shadow Priest Allister sends Forsaken operatives to recover the pendants. He hopes to slow the mages and uncover who guides their magical weave.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "what is dalaran pendant",
     "kirin tor necklace silverpine"
    ],
-   "answer": "A Dalaran Pendant is an arcane amulet carried by Kirin Tor conjurers, mages, and protectors in Ambermill. The Forsaken seek them to interrupt the wizards' workings and examine their magic."
+   "answer": "Kirin Tor conjurers, mages, and protectors in Ambermill carry Dalaran Pendants. The Forsaken seek them to hinder the wizards' work and examine their magic."
   },
   {
    "q": "Who carries these pendants?",
@@ -55,7 +55,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, taking these pendants from the Kirin Tor helps secure Silverpine Forest against human sorcerers trying to regain their foothold."
+   "text": "As an undead, you can help secure Silverpine Forest against human sorcerers trying to regain their foothold by taking these pendants from the Kirin Tor."
   },
   {
    "target": "class:Mage",
@@ -84,5 +84,5 @@
   "Dalaran Pendant",
   "Ambermill Investigations"
  ],
- "style": 1
+ "style": 2
 }

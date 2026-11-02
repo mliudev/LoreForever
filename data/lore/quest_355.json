@@ -21,16 +21,16 @@
    "The Family Crypt (Classic)"
   ]
  },
- "summary": "In Brill, Magistrate Sevren calls you north after Coleman Farthing's reckoning at Agamand Mills. The undead there threaten the settlement's northern border.",
+ "summary": "In Brill, Magistrate Sevren calls you north after Coleman Farthing's reckoning at Agamand Mills. The undead there threaten Brill's northern border.",
  "sections": [
   {
    "title": "From Vengeance to Civic Duty",
-   "body": "Coleman Farthing wanted revenge on his former neighbors, the Agamands, and sent travelers north to kill the undead around their flour mills. After you delivered the remains, Coleman saw that his private grudge touched a wider danger. The Agamand estate still crawls with aggressive Scourge minions, close to Brill.",
+   "body": "Coleman Farthing sought revenge on his former neighbors, the Agamands, and sent travelers north to kill the undead around their flour mills. When you brought back their remains, Coleman saw that his grudge had uncovered a greater danger. The Agamand estate still crawls with aggressive Scourge minions, close to Brill.",
    "spoiler": 0
   },
   {
    "title": "The Magistrate's Call",
-   "body": "Magistrate Sevren oversees Brill's civic and military security for the Dark Lady. Reports say you survived deep incursions into the haunted farmlands, and Sevren now directs you toward the source of the infestation: the ancient Agamand family crypt.",
+   "body": "Magistrate Sevren oversees Brill's civic and military security for the Dark Lady. Reports say you survived deep incursions into the haunted farmlands. Now Sevren directs you toward the source of the infestation: the ancient Agamand family crypt.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "coleman farthing referral",
     "who is magistrate sevren"
    ],
-   "answer": "Coleman settled his vengeance against the resurrected Agamand family, but the undead at the mills threaten all of Brill. He told Magistrate Sevren of your skill in battle, and Sevren directs Brill's defense."
+   "answer": "Coleman settled his vengeance against the resurrected Agamand family, but the undead at the mills threaten all of Brill. He told Magistrate Sevren of your skill in battle, and Sevren now directs Brill's defense."
   },
   {
    "q": "Where can Magistrate Sevren be found?",
@@ -51,7 +51,7 @@
     "where is magistrate sevren",
     "find sevren"
    ],
-   "answer": "Magistrate Sevren is in Brill, Tirisfal Glades, inside Brill Town Hall, where he directs local affairs for the Forsaken."
+   "answer": "Magistrate Sevren can be found inside Brill Town Hall in Brill, Tirisfal Glades. He directs local affairs for the Forsaken."
   },
   {
    "q": "What threat do the Agamand Mills pose?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, proving yourself against the mindless Scourge earns recognition in Brill and brings you from odd jobs into direct civic defense under Magistrate Sevren."
+   "text": "As an Undead, you earn recognition in Brill by proving yourself against the mindless Scourge. That brings you from odd jobs into direct civic defense under Magistrate Sevren."
   },
   {
    "target": "faction:Horde",
@@ -119,5 +119,5 @@
  "attribution": [
   "Speak with Sevren (Classic)"
  ],
- "style": 1
+ "style": 2
 }

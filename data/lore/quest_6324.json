@@ -17,16 +17,16 @@
   "wiki": "Return to Podrig",
   "chain": []
  },
- "summary": "At the Undercity, you receive a crate of weapons for the Sepulcher after delivering a dispatch to the capital. Forsaken bats carry you across Lordaeron to Deathguard Podrig.",
+ "summary": "At the Undercity, you carry weapons bound for the Sepulcher after bringing a dispatch to the capital. Forsaken bats take you across Lordaeron to Deathguard Podrig.",
  "sections": [
   {
    "title": "The Undercity Supply Line",
-   "body": "Deathguard Podrig's garrison at the Sepulcher needs a steady supply of weapons from the Undercity. In Silverpine Forest, its sentries face worgen, Dalaran remnants, and Scourge stragglers. Fresh armaments help the Forsaken hold the region and keep the outpost ready.",
+   "body": "Deathguard Podrig's garrison at the Sepulcher needs weapons from the Undercity. Its sentries in Silverpine Forest face worgen, Dalaran remnants, and Scourge stragglers. Fresh arms help the Forsaken hold the region and keep the outpost ready.",
    "spoiler": 0
   },
   {
    "title": "Wings of the Forsaken",
-   "body": "Bat Master Michael Garrett tends the central roost in the Undercity's Trade Quarter. Forsaken bats know the way back to the capital, but you speak with local handlers such as Karos Razok before arranging a flight to a distant outpost. Carrying Gordon's Crate across Lordaeron links the Undercity's supplies with its scattered strongholds.",
+   "body": "Bat Master Michael Garrett tends the central roost in the Undercity's Trade Quarter. Forsaken bats know the way back to the capital, but you speak with local handlers such as Karos Razok before flying to a distant outpost. Carrying Gordon's Crate across Lordaeron joins the Undercity's supplies to its scattered strongholds.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "gordons crate contents",
     "what am i delivering to podrig"
    ],
-   "answer": "Gordon's Crate holds fresh weapons made in the Undercity for the Deathguards at the Sepulcher, who face threats nearby."
+   "answer": "Gordon's Crate holds fresh weapons made in the Undercity for the Deathguards at the Sepulcher. They face threats nearby."
   },
   {
    "q": "Who is Deathguard Podrig?",
@@ -61,7 +61,7 @@
     "flight path rules",
     "how do bat handlers work"
    ],
-   "answer": "Forsaken bats know the way back to the central roost in the Undercity. For an outward flight, you first establish a route with a regional handler so the bat can reach its destination safely."
+   "answer": "Forsaken bats know the way back to the central roost in the Undercity. For an outward flight, you first set a route with a regional handler so the bat can reach its destination safely."
   },
   {
    "q": "Why is the Sepulcher so important to supply?",
@@ -109,5 +109,5 @@
  "attribution": [
   "Return to Podrig"
  ],
- "style": 1
+ "style": 2
 }

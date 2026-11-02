@@ -10,11 +10,11 @@
    "quest:1131"
   ]
  },
- "summary": "In Thousand Needles, Steelsnap's Rib marks the end of a feared hyena's reign. Melor Stonehoof in Thunder Bluff wants the bone brought to Hunter Rise as proof that Steelsnap has been slain.",
+ "summary": "In Thousand Needles, Steelsnap's Rib carries proof of a feared hyena’s end. Melor Stonehoof in Thunder Bluff wants it brought to Hunter Rise to show that Steelsnap has been slain.",
  "sections": [
   {
    "title": "A Hunt Outside the Blessing",
-   "body": "Tauren hunts often seek food, honor, or harmony with nature. Steelsnap is different. The alpha hyena roams the canyon floor south of Camp E'thok in Thousand Needles, terrorizing peaceful wildlife and rallying lesser predators to bloodshed. Hunt master Melor Stonehoof, on Hunter Rise, marks Steelsnap for death. He asks for the hyena's rib as proof the tyrant is slain and the canyon cleansed of its blight.",
+   "body": "Tauren hunts often seek food, honor, or harmony with nature. Steelsnap is another matter. The alpha hyena roams the canyon floor south of Camp E'thok in Thousand Needles. He terrorizes peaceful wildlife and rallies lesser predators to bloodshed.\n\nHunt master Melor Stonehoof waits on Hunter Rise. He marks Steelsnap for death and asks for the hyena's rib as proof. With Steelsnap slain, the canyon can be cleansed of his blight.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who wants steelsnaps rib",
     "what do i do with steelsnaps rib"
    ],
-   "answer": "Bring the rib to Melor Stonehoof on Hunter Rise in Thunder Bluff. It proves Steelsnap has been defeated."
+   "answer": "Bring Steelsnap's Rib to Melor Stonehoof on Hunter Rise in Thunder Bluff. The bone proves Steelsnap has been defeated."
   },
   {
    "q": "Where can I find Steelsnap to get the rib?",
@@ -44,7 +44,7 @@
     "melor stonehoof motive",
     "steelsnap lore"
    ],
-   "answer": "Melor considers Steelsnap an unnatural tyrant outside the Earthmother's blessing. The hyena spreads bloodshed and fear among peaceful beasts, unlike predators that hunt for survival."
+   "answer": "Melor considers Steelsnap an unnatural tyrant outside the Earthmother's blessing. The hyena spreads bloodshed and fear among peaceful beasts, unlike predators that hunt to survive."
   },
   {
    "q": "Who is Melor Stonehoof?",
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking down Steelsnap tests your skill against a dangerous pack leader and helps cull a threat to the wild's balance."
+   "text": "As a hunter, tracking Steelsnap tests your skill against a dangerous pack leader. It also helps cull a threat to the wild's balance."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, bringing back Steelsnap's Rib fulfills your duty to the Earthmother by purging a cruel creature that taints the sacred balance."
+   "text": "As a tauren, bringing back Steelsnap's Rib fulfills your duty to the Earthmother. You purge a cruel creature that taints the sacred balance."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Steelsnap's Rib",
   "Steelsnap (quest)"
  ],
- "style": 1
+ "style": 2
 }

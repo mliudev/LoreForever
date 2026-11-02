@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Decrepit Ferry"
  },
- "summary": "At the Decrepit Ferry, broken docks leave Fenris Isle cut off across Lordamere Lake. The Scourge killed the ferryman and wrecked the boats, and undead and Rot Hide gnolls now overrun the shore.",
+ "summary": "At Decrepit Ferry, broken docks leave Fenris Isle cut off across Lordamere Lake. The Scourge killed the ferryman and wrecked the boats, and undead and Rot Hide gnolls overrun the shore.",
  "sections": [
   {
    "title": "A Lifeline Cut Short",
-   "body": "Before the Third War, daily traffic crossed Lordamere Lake from this dock. Local farmers brought fresh produce to the water and sold it to the wealthy lord of Fenris Isle and his household. For a modest fee, the ferryman carried trade goods, messengers, and visiting nobles between the mainland and the keep. That commerce ended when the Scourge swept through the kingdom. The ferryman was brutally killed, the boats were smashed, and the pier fell into decay.",
+   "body": "Before the Third War, people crossed Lordamere Lake each day from this dock. Local farmers brought fresh produce to the water and sold it to the wealthy lord of Fenris Isle and his household. For a modest fee, the ferryman carried trade goods, messengers, and visiting nobles between the mainland and the keep.\n\nThen the Scourge swept through the kingdom, and the trade ended. The ferryman was brutally killed, the boats were smashed, and the pier fell into decay.",
    "spoiler": 0
   },
   {
    "title": "A Corrupted Shoreline",
-   "body": "The docks are dangerous for travelers along the lake shore. With the ferry out of service, Fenris Isle sits isolated across the water. Ghouls, skeletal warriors, and roving Rot Hide gnolls roam the ruins. The former crossing is now a dangerous stretch of Silverpine shoreline.",
+   "body": "The docks are dangerous for travelers along the lake shore. With the ferry out of service, Fenris Isle sits isolated across the water. Ghouls and skeletal warriors roam the ruins, along with Rot Hide gnolls. The old crossing is now a dangerous stretch of Silverpine shoreline.",
    "spoiler": 0
   }
  ],
@@ -83,5 +83,5 @@
  "attribution": [
   "Decrepit Ferry"
  ],
- "style": 1
+ "style": 2
 }

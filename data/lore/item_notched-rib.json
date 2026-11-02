@@ -10,16 +10,16 @@
    "quest:426"
   ]
  },
- "summary": "At Agamand Mills, Notched Ribs prove the Forsaken are breaking the Scourge's hold on Tirisfal.",
+ "summary": "At Agamand Mills, the Forsaken are breaking the Scourge's hold on Tirisfal.",
  "sections": [
   {
    "title": "Grim Proof of Battle",
-   "body": "Across northern Tirisfal Glades, the Scourge gathers skeletons in ruined armor. Cracked Skull Soldiers and Rattlecage Soldiers attack any living being or creature with free will they meet. Blades leave their brittle bones pitted and scored. Deathguards demand proof that Forsaken scouts and volunteers are killing these mindless intruders. A battle-marked rib shows that another of the Lich King's thralls has been shattered.",
+   "body": "Across northern Tirisfal Glades, the Scourge gathers skeletons in ruined armor. Cracked Skull Soldiers and Rattlecage Soldiers attack every living being and every creature with free will they meet. Their brittle bones bear the pits and scores of battle. Deathguards need proof that Forsaken scouts and volunteers are killing these mindless intruders. Each notched rib marks another of the Lich King's thralls shattered.",
    "spoiler": 0
   },
   {
    "title": "Securing the Mills",
-   "body": "Northwest of Brill, the Agamand Mills hold a key position. If the Scourge settles among the ruined farmsteads and windmills, the undead gain a base from which to strike deep into Tirisfal. Deathguard Dillinger watches the northern roads and sends champions to break up the skeleton ranks before they can gather strength. The notched ribs brought back to Brill show that the Forsaken line holds as it wears down the Scourge vanguard bone by bone.",
+   "body": "Northwest of Brill, the Agamand Mills hold a key position. Should the Scourge settle among the ruined farmsteads and windmills, the undead could strike deep into Tirisfal from that base. Deathguard Dillinger watches the northern roads and sends champions to break up the skeleton ranks before they gather strength. The ribs brought back to Brill show that the Forsaken line holds as it wears down the Scourge vanguard bone by bone.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is notched rib",
     "notched rib item"
    ],
-   "answer": "A Notched Rib is a scarred bone taken from an animated Scourge soldier in northern Tirisfal Glades. It gives Deathguard Dillinger proof that an enemy has been destroyed."
+   "answer": "A Notched Rib is a battle-marked bone taken from an animated Scourge soldier in northern Tirisfal Glades. It proves to Deathguard Dillinger that an enemy has been destroyed."
   },
   {
    "q": "Where do Notched Ribs come from?",
@@ -49,7 +49,7 @@
     "notched rib turn in",
     "who needs notched rib"
    ],
-   "answer": "Deathguard Dillinger collects Notched Ribs and Blackened Skulls along the road outside Brill to confirm the Scourge advance has been repelled."
+   "answer": "Deathguard Dillinger collects Notched Ribs and Blackened Skulls along the road outside Brill to confirm that the Scourge advance has been repelled."
   },
   {
    "q": "Why is the Scourge gathering at Agamand Mills?",
@@ -58,13 +58,13 @@
     "why are skeletons at the mills",
     "agamand mills scourge threat"
    ],
-   "answer": "The mindless undead are trying to establish a base at Agamand Mills, from which they could strike across Tirisfal Glades and threaten Forsaken settlements."
+   "answer": "The mindless undead are trying to establish a base at Agamand Mills. From there, they could strike across Tirisfal Glades and threaten Forsaken settlements."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you gather these shattered bones in a war for survival against the Lich King's mindless minions, who would drag you back into servitude."
+   "text": "As Forsaken, you gather these shattered bones in a war for survival against the Lich King's mindless minions. They would drag you back into servitude."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Notched Rib",
   "The Mills Overrun (Classic)"
  ],
- "style": 1
+ "style": 2
 }

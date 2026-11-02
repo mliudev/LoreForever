@@ -224,7 +224,7 @@ local function arrive()
   local zone = GetRealZoneText and GetRealZoneText()
   if not zone or zone == "" then return end
   local zk = ns.engine:ZoneKey(zone)
-  local e = zk and ns.DB.entries["zone:" .. zk]
+  local e = zk and ns.Engine.Readable(ns.DB, "zone:" .. zk)
   ns.Log.Visit(zone, UnitLevel and UnitLevel("player"), e ~= nil)
   ns.Voice.OnZone(zk)   -- its places and people are in a lands pack you don't have: say so, once
   ns.Voice.OnArrive()   -- play its narration, the first time you're here

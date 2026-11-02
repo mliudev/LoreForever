@@ -23,16 +23,16 @@
    "Training the Beast (Tauren)"
   ]
  },
- "summary": "In Mulgore, Taming the Beast brings a young tauren hunter to the last lesson under Yaw Sharpmane in Bloodhoof Village. A taming rod lets the hunter bond with a wild swoop and prove mastery of the air. Completing the trial grants lasting knowledge to tame, call, and dismiss a companion, with the Earthmother's trust.",
+ "summary": "In Mulgore, a young tauren hunter faces the final trial with Yaw Sharpmane in Bloodhoof Village. With an enchanted rod, you tame a wild swoop and prove you can master the sky. The trial earns you the Earthmother’s trust and lasting knowledge to tame, call, and dismiss a companion.",
  "sections": [
   {
    "title": "Mastery of the Sky",
-   "body": "After you subdue predators on Mulgore's plains, Yaw Sharpmane turns your attention to the open sky. A swoop is a fierce bird of prey with a sharp beak, sweeping dives, and an intimidating air. Its talons test your reflexes and calm as you use the enchanted rod to bring its instincts into accord with your own.",
+   "body": "After you subdue predators on Mulgore’s plains, Yaw Sharpmane turns your training to the open sky. A swoop is a fierce bird of prey, with a sharp beak, sweeping dives, and an intimidating air. Its talons test your reflexes and calm as you use the enchanted rod to bring its instincts into accord with your own.",
    "spoiler": 0
   },
   {
    "title": "The Earthmother's Gift",
-   "body": "For the tauren, hunting and companionship with beasts are spiritual pursuits, not mere subjugation. Mastering creatures of earth and sky shows the balance and respect needed to walk the plains without disturbing nature. Yaw Sharpmane takes back his temporary taming rod and teaches you lasting techniques to call, dismiss, and permanently tame a companion of your choosing.",
+   "body": "For the tauren, hunting and companionship with beasts are spiritual pursuits, not mere subjugation. Mastering creatures of earth and sky teaches the balance and respect needed to walk the plains without disturbing nature. Yaw Sharpmane takes back his temporary taming rod, then teaches you lasting ways to call, dismiss, and permanently tame a companion of your choosing.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "purpose of swoop taming",
     "why a swoop"
    ],
-   "answer": "Yaw Sharpmane tests you against creatures of the sky in this final trial. Swoops strike swiftly and sharply, and their imposing presence tests whether a hunter can handle both air and ground predators before earning independence."
+   "answer": "Yaw Sharpmane tests you against creatures of the sky in this final trial. Swoops strike swiftly and sharply, and their imposing presence tests whether you can handle air and ground predators before earning independence."
   },
   {
    "q": "Do I keep the swoop I tame during this quest?",
@@ -53,7 +53,7 @@
     "is the swoop my pet",
     "can i keep this bird"
    ],
-   "answer": "No. You tame the swoop only temporarily with Yaw Sharpmane's rod during your training. Afterward, you can tame any wild beast you wish to keep permanently."
+   "answer": "No. Yaw Sharpmane’s rod lets you tame the swoop only temporarily during your training. Afterward, you can permanently tame any wild beast you wish to keep."
   },
   {
    "q": "Who gives this quest and where are they located?",
@@ -80,7 +80,7 @@
     "where are swoops",
     "find a swoop"
    ],
-   "answer": "Wild swoops roam Mulgore's open grasslands and mesa edges, often circling the plains just outside Bloodhoof Village."
+   "answer": "Wild swoops roam Mulgore’s open grasslands and mesa edges, often circling the plains just outside Bloodhoof Village."
   },
   {
    "q": "Why is pet taming considered a rite of passage for tauren?",
@@ -95,11 +95,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you complete the foundational training chain and gain the ability to tame beasts permanently, marking your passage from apprentice to self-reliant scout of the wilds."
+   "text": "As a hunter, you complete the foundational training chain and learn to tame beasts permanently. This marks your passage from apprentice to self-reliant scout of the wilds."
   },
   {
    "target": "race:Tauren",
-   "text": "As a Shu'halo, bonding with a wild beast is spiritual communion blessed by the Earthmother, with deep cultural meaning across Mulgore's plains."
+   "text": "As a Shu'halo, bonding with a wild beast is spiritual communion blessed by the Earthmother. It carries deep cultural meaning across Mulgore’s plains."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Taming the Beast (Tauren 3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Greatmother Hawkwind",
   "refs": 2
  },
- "summary": "Beside the well on Red Cloud Mesa, Greatmother Hawkwind guides young tauren. As mother of Chief Hawkwind, Camp Narache's leader, she holds to the tribe's shared duty despite her age.",
+ "summary": "Beside the well on Red Cloud Mesa, Greatmother Hawkwind guides young tauren. As mother of Chief Hawkwind, she upholds the tribe’s shared duty despite her age.",
  "sections": [
   {
    "title": "Elder of the Mesa",
-   "body": "Greatmother Hawkwind spends her days beside Camp Narache's fresh water well, guiding young tauren as they begin their rites of passage. Age has slowed her stride, but she still takes part in village life. She believes every member of the tribe, young or old, must help sustain the community. She often asks young tauren to fetch water and help with simple chores.",
+   "body": "Greatmother Hawkwind spends her days beside Camp Narache’s fresh water well, guiding young tauren through the start of their rites of passage. Age has slowed her stride, yet she still takes part in village life. She believes every member of the tribe, young or old, must help sustain the community. So she often asks young tauren to fetch water and help with simple chores.",
    "spoiler": 0
   },
   {
    "title": "A Mother's Guidance",
-   "body": "Greatmother Hawkwind is mother to Chief Hawkwind, who leads Camp Narache. She offers counsel as threats face Red Cloud Mesa. Her son organizes hunters and warriors against Bristleback quilboar and local predators. She tends to the settlement's moral heart, reminding the newly awakened that strength begins with humility and service to kin.",
+   "body": "Greatmother Hawkwind is mother to Chief Hawkwind, who leads Camp Narache. She offers counsel as threats face Red Cloud Mesa. Her son organizes hunters and warriors against Bristleback quilboar and local predators. She tends the settlement’s moral heart, reminding the newly awakened that strength begins with humility and service to kin.",
    "spoiler": 0
   }
  ],
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren beginning your journey on Red Cloud Mesa, you can see the Earth Mother's values in Greatmother Hawkwind: respect for elders, solidarity with your community, and humble service."
+   "text": "As a young tauren beginning your journey on Red Cloud Mesa, you can see the Earth Mother’s values in Greatmother Hawkwind: respect for elders, solidarity with your community, and humble service to the tribe."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Greatmother Hawkwind"
  ],
- "style": 1
+ "style": 2
 }

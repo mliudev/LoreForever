@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "6"
  },
- "summary": "In Tirisfal Glades, new skinners learn how to make a chair for camp from harvested hides. The lesson points them toward craftsmen who teach the trade across Azeroth.",
+ "summary": "In Tirisfal Glades, Camping 101: Skinning sends new skinners to learn a useful craft. They learn to make a camp chair from harvested hides and where to find teachers across Azeroth.",
  "sections": [
   {
    "title": "Comfort in the Wilds",
-   "body": "A sharp blade is not enough to last in the wilds; you also need to know how to save your strength between trials. Adventurers can build basic skill in the field and use treated skins to make camp chairs. Those comforts give weary travelers a place to rest and recover before facing danger again.",
+   "body": "A sharp blade alone will not carry you through the wilds. You also need a way to rest between trials. In the field, skinners can learn the basics and use treated skins to make a chair for camp. It gives weary travelers a place to recover before danger calls again.",
    "spoiler": 0
   },
   {
    "title": "Mastering the Craft",
-   "body": "Young Forsaken skinners in Tirisfal Glades who reach their first measure of skill are sent to Rand Rhobart. He works along the road between Brill and the Capital ruins of the Undercity. Rhobart teaches practical ways to turn rough leather into a seat for camp. Skinning masters across the lands of the Horde and Alliance teach the same craft.",
+   "body": "Young Forsaken skinners in Tirisfal Glades are sent to Rand Rhobart once they reach their first measure of skill. He works along the road between Brill and the Capital ruins of the Undercity. Rhobart teaches practical ways to turn rough leather into a seat for camp. Skinning masters across the lands of the Horde and Alliance teach the same craft.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "why do camping 101 skinning",
     "camping 101 reward"
    ],
-   "answer": "The lesson sends new skinners to a skilled trade mentor, who teaches them to make a camp chair from harvested animal pelts."
+   "answer": "The lesson sends new skinners to a trade mentor, who teaches them to make a camp chair from harvested animal pelts."
   },
   {
    "q": "Who offers this training in Tirisfal Glades?",
@@ -41,7 +41,7 @@
     "who gives quest tirisfal",
     "eleanor shackleton quest"
    ],
-   "answer": "Eleanor Shackleton gives the lesson in Tirisfal Glades and points new skinners toward Rand Rhobart, along the road between Brill and the Undercity."
+   "answer": "Eleanor Shackleton gives the lesson in Tirisfal Glades and points new skinners to Rand Rhobart, along the road between Brill and the Undercity."
   },
   {
    "q": "What skill level is required to complete this task?",
@@ -50,7 +50,7 @@
     "camping 101 skinning requirements",
     "skinning skill required"
    ],
-   "answer": "You need a skinning skill of at least twenty before a trainer will teach you to make equipment for camp."
+   "answer": "You need a skinning skill of at least twenty before a trainer will teach you to make camp equipment."
   },
   {
    "q": "Where can Rand Rhobart be found?",
@@ -76,17 +76,17 @@
     "what does a camp chair do",
     "why make camp chair"
    ],
-   "answer": "A camp chair gives you a comfortable place to sit and regain your strength in the wilds, helping you stay rested and alert for battles ahead."
+   "answer": "A camp chair gives you a comfortable place to sit and regain your strength in the wilds. Rest there, and you can stay alert for the battles ahead."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you may be free from mortal exhaustion, but a working camp remains useful while you hunt the plagued beasts of Tirisfal."
+   "text": "As an Undead, you may be free from mortal exhaustion, but a working camp is still useful while you hunt the plagued beasts of Tirisfal."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can make use of every part of a slain beast, leaving nothing to waste along the hard road."
+   "text": "As a member of the Horde, you can use every part of a slain beast and leave nothing to waste along the hard road."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
   "In-game quest text: Camping 101: Skinning",
   "Camping 101: Skinning"
  ],
- "style": 1
+ "style": 2
 }

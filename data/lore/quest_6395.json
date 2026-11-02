@@ -17,16 +17,16 @@
   "wiki": "Marla's Last Wish",
   "chain": []
  },
- "summary": "In Deathknell, Marla's Last Wish calls you to bring a husband and wife together in death. Novice Elreth asks you to find Samuel Fipps, still bound to the Scourge, so he can be buried beside his wife, Marla. The Forsaken seek to honor the ties they had in life and to set themselves apart from the Scourge.",
+ "summary": "In Deathknell, Marla's Last Wish brings a husband and wife together in death. Novice Elreth asks you to find Samuel Fipps, still bound to the Scourge, so he may be buried beside Marla. The Forsaken honor the ties of life and set themselves apart from the Scourge.",
  "sections": [
   {
    "title": "A Tragic Reunion",
-   "body": "Marla and Samuel Fipps were husband and wife in Lordaeron before the Third War devastated their home. When the plague swept through their lands, Samuel succumbed and rose as a mindless thrall of the Scourge. Marla escaped undeath, but not her husband. In his frenzy, Samuel killed her. Even then, Marla bore him no hatred. Novice Elreth remembers her final wish: to rest beside Samuel in the Deathknell graveyard.",
+   "body": "Before the Third War, Marla and Samuel Fipps were husband and wife in Lordaeron. The war devastated their home, and when the plague swept through their lands, Samuel succumbed. He rose as a mindless thrall of the Scourge. Marla escaped undeath, but Samuel killed her in his frenzy. She bore him no hatred. Novice Elreth remembers Marla's final wish: to rest beside Samuel in the Deathknell graveyard.",
    "spoiler": 0
   },
   {
    "title": "Respecting the Dead",
-   "body": "Novice Elreth sends you northeast of Deathknell to find Samuel Fipps, who still wanders among a ruined campsite. Ending his torment would remove a Scourge minion from the valley and let his remains be carried back to Marla's resting place. Elreth believes that honoring the dead and their final wishes sets the newly freed Forsaken apart from the Scourge.",
+   "body": "Novice Elreth sends you northeast of Deathknell, where Samuel Fipps still wanders among a ruined campsite. Ending his torment removes a Scourge minion from the valley. Then his remains can be carried back to Marla's resting place. Elreth believes that honoring the dead and their final wishes sets the newly freed Forsaken apart from the Scourge.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is marla",
     "marla background"
    ],
-   "answer": "Marla Fipps lived in Lordaeron and survived the plague, but her husband Samuel killed her after he became a mindless Scourge thrall. She wished to be laid to rest beside him."
+   "answer": "Marla Fipps lived in Lordaeron and survived the plague, but Samuel killed her after he became a mindless Scourge thrall. She wished to rest beside him."
   },
   {
    "q": "Who is Samuel Fipps?",
@@ -47,7 +47,7 @@
     "who is samuel fipps",
     "where is samuel fipps"
    ],
-   "answer": "Samuel Fipps was Marla's husband before the plague. He fell to the Scourge and lost his mind, then killed Marla. He wanders a ruined campsite northeast of Deathknell until Forsaken adventurers put an end to his torment."
+   "answer": "Samuel Fipps was Marla's husband before the plague. He fell to the Scourge and lost his mind, then killed Marla. Until Forsaken adventurers end his torment, he wanders a ruined campsite northeast of Deathknell."
   },
   {
    "q": "Why does Novice Elreth care about burying them together?",
@@ -56,7 +56,7 @@
     "novice elreth motive",
     "why bury samuel"
    ],
-   "answer": "Novice Elreth was Marla's friend in life. Elreth believes honoring the dead and treating their remains with dignity shows that the Forsaken retain their humanity and morality, unlike the mindless Scourge."
+   "answer": "Novice Elreth was Marla's friend in life. Elreth believes that honoring the dead and treating their remains with dignity shows the Forsaken have kept their humanity and morality, unlike the mindless Scourge."
   },
   {
    "q": "Did Marla rise as Forsaken?",
@@ -74,7 +74,7 @@
     "where is marla buried",
     "where do i bury samuel"
    ],
-   "answer": "Marla's grave is in the first row of the cemetery just outside Deathknell's main chapel."
+   "answer": "Marla's grave lies in the first row of the cemetery just outside Deathknell's main chapel."
   },
   {
    "q": "Where can Samuel Fipps be found?",
@@ -83,13 +83,13 @@
     "find samuel fipps",
     "where is samuel"
    ],
-   "answer": "Samuel Fipps wanders around a ruined campsite along the road northeast of Deathknell."
+   "answer": "Samuel Fipps wanders a ruined campsite along the road northeast of Deathknell."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a newly risen Forsaken, fulfilling Marla's wish can anchor you to your former human life and show that compassion and honor survived Lordaeron's fall."
+   "text": "As a newly risen Forsaken, fulfilling Marla's wish can bind you to your former human life. It shows that compassion and honor survived Lordaeron's fall."
   },
   {
    "target": "class:Priest",
@@ -115,5 +115,5 @@
  "attribution": [
   "Marla's Last Wish"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Rattling the Rattlecages",
   "chain": []
  },
- "summary": "In Deathknell, newly awakened Forsaken face a test against the Rattlecage Skeletons. Shadow Priest Sarvis sends them to destroy twelve skeletons and prove they can defend their hard-won freedom.",
+ "summary": "In Deathknell, newly awakened Forsaken face the Rattlecage Skeletons and a test of their freedom. Shadow Priest Sarvis sends them to destroy twelve skeletons and prove they can defend what they won.",
  "sections": [
   {
    "title": "A Test of Resolve",
-   "body": "Newly risen Forsaken face a harder trial after culling the mindless zombies in Deathknell. Shadow Priest Sarvis sends recruits against the Rattlecage Skeletons roaming the settlement’s outskirts. The animated bones have no sapience or self-control, yet strike harder and fight more fiercely than the nearby decaying corpses. Surviving their clattering ambushes shows Sarvis that a recruit can withstand immediate pressure.",
+   "body": "After culling the mindless zombies in Deathknell, newly risen Forsaken face a harder trial. Shadow Priest Sarvis sends recruits against the Rattlecage Skeletons roaming the settlement’s outskirts. The animated bones have no sapience or self-control, yet strike harder and fight more fiercely than the nearby decaying corpses. Surviving their clattering ambushes shows Sarvis a recruit can withstand immediate pressure.",
    "spoiler": 0
   },
   {
    "title": "Defending Newly Won Freedom",
-   "body": "Destroying the skeletons protects Deathknell from the lingering grip of the Lich King and tests which recruits can endure the fight. Those who fail or hesitate risk becoming like the mindless wretches wandering the woods. Overcoming the Rattlecages proves to Sarvis that you have the mettle to face a world that despises your existence.",
+   "body": "Destroying the skeletons protects Deathknell from the lingering grip of the Lich King and tests which recruits can endure the fight. Those who fail or hesitate risk becoming like the mindless wretches wandering the woods. Overcoming the Rattlecages proves to Sarvis you have the mettle to face a world that despises your existence.",
    "spoiler": 0
   }
  ],
@@ -74,7 +74,7 @@
     "forsaken vs scourge free will",
     "how did forsaken wake up"
    ],
-   "answer": "After the Lich King’s telepathic hold wavered following the Third War, some undead broke free, reclaimed their sentience, and formed the Forsaken. Constructs and simple animated bones like the Rattlecages kept no personality or will and remained bound to the Scourge."
+   "answer": "After the Lich King’s telepathic hold wavered following the Third War, some undead broke free, reclaimed their sentience, and formed the Forsaken. Constructs and simple animated bones like the Rattlecages kept no personality or will, so they remained bound to the Scourge."
   },
   {
    "q": "Who is Shadow Priest Sarvis?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken, the Rattlecages show what awaits if your mind slips. Their mindless servitude stands against your hard-won autonomy."
+   "text": "As a Forsaken, the Rattlecages show what awaits if your mind slips. Their mindless servitude opposes your hard-won autonomy."
   },
   {
    "target": "faction:Horde",
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a newly risen Priest, working for Shadow Priest Sarvis gives you an early glimpse of the ruthless pragmatism that shapes the Forsaken’s spiritual path."
+   "text": "As a newly risen Priest, working for Shadow Priest Sarvis gives you an early glimpse of the ruthless pragmatism shaping the Forsaken’s spiritual path."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Rattling the Rattlecages"
  ],
- "style": 1
+ "style": 2
 }

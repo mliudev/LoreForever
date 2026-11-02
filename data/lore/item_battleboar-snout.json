@@ -10,11 +10,11 @@
    "quest:780"
   ]
  },
- "summary": "Young tauren hunters gather Battleboar Snouts near Red Cloud Mesa as the Bristleback press into their hunting grounds. The snouts also go into stews for the young in Camp Narache.",
+ "summary": "Near Red Cloud Mesa, young tauren hunters gather Battleboar Snouts as the Bristleback press into their hunting grounds. The snouts also go into stews for the young in Camp Narache.",
  "sections": [
   {
    "title": "Trophies and Provisions",
-   "body": "Bristleback quilboar train battleboars in Brambleblade Ravine, in the shadow of Red Cloud Mesa, to probe tauren hunting grounds. Grull Hawkwind sends young braves to push back against the encroachment. A snout proves that a battleboar has been brought down. The tauren use the snouts with cuts of flank in rich stews for their young.",
+   "body": "Bristleback quilboar train battleboars in Brambleblade Ravine, beneath Red Cloud Mesa. They send the beasts into tauren hunting grounds. Grull Hawkwind sends young braves to drive them back. A snout proves a battleboar has been brought down, and the tauren cook snouts with flank into rich stews for their young.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why keep snouts",
     "what does grull do with snouts"
    ],
-   "answer": "Grull Hawkwind asks young hunters in Camp Narache to gather Battleboar Snouts and meat flanks. The snouts prove that threatening boars have been slain, and the tauren cook them into stew for the tribe's youth."
+   "answer": "In Camp Narache, Grull Hawkwind asks young hunters to gather Battleboar Snouts and meat flanks. The snouts prove threatening boars have been slain, and the tauren cook them into stew for the tribe's youth."
   },
   {
    "q": "Where do these snouts come from?",
@@ -35,7 +35,7 @@
     "who drops snouts",
     "battleboar location"
    ],
-   "answer": "Battleboar Snouts come from Battleboars and Bristleback Battleboars near the fringes of Red Cloud Mesa and throughout Brambleblade Ravine to the east."
+   "answer": "Battleboar Snouts come from Battleboars and Bristleback Battleboars near the edges of Red Cloud Mesa and throughout Brambleblade Ravine to the east."
   },
   {
    "q": "Why are the battleboars encroaching on tauren land?",
@@ -44,7 +44,7 @@
     "quilboar boars",
     "brambleblade battleboars"
    ],
-   "answer": "Hostile Bristleback quilboar have trained the battleboars to be exceptionally vicious. The boars push out from Brambleblade Ravine into traditional tauren hunting grounds."
+   "answer": "Hostile Bristleback quilboar have trained the battleboars to be exceptionally vicious. The boars push from Brambleblade Ravine into traditional tauren hunting grounds."
   }
  ],
  "angles": [
@@ -54,7 +54,7 @@
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you can boil tough cuts like snouts slowly over a fire for tribal campfire stews."
+   "text": "As a cook, you can slowly boil tough cuts like snouts over a fire for tribal campfire stews."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
   "Battleboar Snout",
   "The Battleboars"
  ],
- "style": 1
+ "style": 2
 }

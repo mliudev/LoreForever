@@ -17,16 +17,16 @@
   "wiki": "Forsaken Aid",
   "chain": []
  },
- "summary": "In Thunder Bluff, Magatha Grimtotem sends you to seek help for Stonetalon's blighted spirits. She turns to Apothecary Zamah, the Forsaken emissary in the Pools of Vision, to bring tauren and undead knowledge together.",
+ "summary": "In Thunder Bluff, Magatha Grimtotem seeks Forsaken Aid for the blighted spirits of Stonetalon. She turns to Apothecary Zamah in the Pools of Vision, hoping tauren and undead knowledge can help the suffering land.",
  "sections": [
   {
    "title": "A Pragmatic Partnership",
-   "body": "Magatha Grimtotem sees practical value in the Forsaken alliance. When word reaches Thunder Bluff of corrupted elemental spirits and suffering land in the Stonetalon Mountains, she turns to the undead for help. She believes those who understand disease can help cure it, so she sends you to the Royal Apothecary Society instead of seeking traditional druidic remedies.",
+   "body": "Magatha Grimtotem sees practical value in the Forsaken alliance. Word reaches Thunder Bluff of corrupted elemental spirits and suffering land in the Stonetalon Mountains, so she turns to the undead for help. She believes those who understand disease may help cure it. Rather than seek traditional druidic remedies, she sends you to the Royal Apothecary Society.",
    "spoiler": 0
   },
   {
    "title": "Beneath the Spirit Rise",
-   "body": "Apothecary Zamah represents Undercity interests on Kalimdor from the Pools of Vision beneath Spirit Rise. Tauren shamans, priests, and seers use the cavern as a sacred retreat, and Zamah's presence brings Forsaken work into their midst. Magatha sends a serpent messenger ahead of you to alert Zamah, opening a direct line to the Forsaken's alchemical researchers.",
+   "body": "Apothecary Zamah represents Undercity interests on Kalimdor from the Pools of Vision beneath Spirit Rise. Tauren shamans, priests, and seers use the cavern as a sacred retreat. Zamah's presence brings Forsaken work into their midst. Magatha sends a serpent messenger ahead of you to alert Zamah, opening a direct line to the Forsaken's alchemical researchers.",
    "spoiler": 0
   }
  ],
@@ -71,7 +71,7 @@
     "what comes next",
     "next quest after forsaken aid"
    ],
-   "answer": "After you meet Zamah, the investigation turns to Forsaken alchemy and eventually leads to Journey to Tarren Mill in the Eastern Kingdoms, where you consult higher-ranking apothecaries."
+   "answer": "After you meet Zamah, the investigation turns to Forsaken alchemy and eventually leads to Journey to Tarren Mill in the Eastern Kingdoms. There, you consult higher-ranking apothecaries."
   },
   {
    "q": "Why are the Forsaken stationed inside the sacred Pools of Vision?",
@@ -85,15 +85,15 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Tauren often look to druidism and the Earth Mother to heal the land. Magatha's turn to undead alchemists shows her unconventional approach to tribal diplomacy."
+   "text": "As a tauren, you may look to druidism and the Earth Mother to heal the land. Magatha's turn to undead alchemists shows her unconventional approach to tribal diplomacy."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, offering alchemical aid to the tauren is a chance to prove their worth and earn trust within a wary Horde."
+   "text": "As Forsaken, you can offer alchemical aid to the tauren and prove your worth. It is a chance to earn trust within a wary Horde."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde's aid to the tauren links Kalimdor and Lordaeron in an alliance shaped since the Third War."
+   "text": "As Horde, you share an alliance shaped since the Third War, linking Kalimdor and Lordaeron."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Forsaken Aid"
  ],
- "style": 1
+ "style": 2
 }

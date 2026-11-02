@@ -8,11 +8,11 @@
   "wiki": "Elder Graveborn",
   "refs": 1
  },
- "summary": "Near Brill, Elder Graveborn greets travelers during the Lunar Festival. The ancestral spirit honors them and points pilgrims toward other elders in northern Lordaeron.",
+ "summary": "Near Brill, Elder Graveborn welcomes travelers for the Lunar Festival. This ancestral spirit honors them and directs pilgrims to other elders across northern Lordaeron.",
  "sections": [
   {
    "title": "A Spirit in Tirisfal",
-   "body": "Elder Graveborn greets travelers just southeast of Brill during the Lunar Festival. The spectral elder stands among the haunted woods of Tirisfal Glades, where the Forsaken town lies nearby. Though the kingdom is troubled, Graveborn offers pilgrims peaceful greetings and ancestral wisdom. He also points them toward spirits in the Undercity, the Sepulcher, and across the Plaguelands.",
+   "body": "During the Lunar Festival, Elder Graveborn greets travelers just southeast of Brill. The spectral elder stands in the haunted woods of Tirisfal Glades, with the Forsaken town nearby. Though the kingdom is troubled, Graveborn offers pilgrims peaceful greetings and ancestral wisdom. He also directs them to spirits in the Undercity, the Sepulcher, and across the Plaguelands.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is graveborn",
     "brill ghost elder"
    ],
-   "answer": "Elder Graveborn is an ancestral ghost who appears during the Lunar Festival. In Tirisfal Glades, just southeast of Brill, he offers festival blessings to travelers."
+   "answer": "Elder Graveborn appears as an ancestral ghost during the Lunar Festival. In Tirisfal Glades, just southeast of Brill, he gives travelers festival blessings."
   },
   {
    "q": "Why is he in Tirisfal Glades?",
@@ -40,7 +40,7 @@
     "can alliance talk to graveborn",
     "alliance elder brill"
    ],
-   "answer": "Yes. Festival elders welcome travelers of either faction. Alliance travelers should approach with care: Graveborn stands close to the Forsaken town of Brill."
+   "answer": "Yes. Festival elders welcome travelers from either faction. Alliance travelers should approach carefully because Graveborn stands close to the Forsaken town of Brill."
   },
   {
    "q": "What information does he offer travelers?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Elder Graveborn"
  ],
- "style": 1
+ "style": 2
 }

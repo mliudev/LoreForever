@@ -20,16 +20,16 @@
    "Doom Weed (Classic)"
   ]
  },
- "summary": "Along the road to Brill, Gordo gathers plants for the Royal Apothecary Society. The wandering abomination cannot manage delicate work, so he asks travelers to pick Gloom Weed and bring it to Junior Apothecary Holland.",
+ "summary": "Along the road to Brill, Gordo gathers plants for the Royal Apothecary Society. His clumsy hands make the work too fine, so he asks travelers to gather Gloom Weed for Junior Apothecary Holland.",
  "sections": [
   {
    "title": "A Clumsy Laborer",
-   "body": "Between Deathknell and Brill, Gordo trudges through the countryside on the Royal Apothecary Society's behalf. Abominations can fight with brute strength and haul heavy loads, but their huge, stitched hands make delicate work difficult. Sent into the meadows to gather ingredients, Gordo finds that his blunt fingers crush more stems than they pluck. He turns to passersby, bullying or bribing them to do the careful work for him.",
+   "body": "Between Deathknell and Brill, Gordo trudges through the countryside on the Royal Apothecary Society's behalf. Abominations can fight with brute strength and carry heavy loads, but their huge, stitched hands struggle with delicate work. Sent to gather ingredients in the meadows, Gordo crushes more stems than he plucks. So he turns to passersby, bullying or bribing them to do the careful work for him.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Frustrations",
-   "body": "Junior Apothecary Holland waits for the delivery in the graveyard behind Brill's town hall. Gordo has misunderstood his orders: Holland needs volatile Doom Weed for alchemical research, but Gordo sent travelers to gather harmless Gloom Weed. Holland is thoroughly exasperated by the stitched giant's mistake and takes it as proof that Gordo is useless. He immediately sends you to correct the error.",
+   "body": "Junior Apothecary Holland waits for the delivery in the graveyard behind Brill's town hall. Gordo misunderstood his orders. Holland needs volatile Doom Weed for alchemical research, but Gordo sent travelers to gather harmless Gloom Weed. The mistake leaves Holland thoroughly exasperated. He takes it as proof that Gordo is useless and sends you to correct the error.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "gordo npc",
     "what is gordo"
    ],
-   "answer": "Gordo is an abomination bound to the Royal Apothecary Society. He patrols the meadows west of Brill, trying to carry out labor assigned by his master, Junior Apothecary Holland."
+   "answer": "Gordo is an abomination bound to the Royal Apothecary Society. He patrols the meadows west of Brill and carries out labor assigned by his master, Junior Apothecary Holland."
   },
   {
    "q": "Why does Gordo need help gathering weeds?",
@@ -51,7 +51,7 @@
     "why can't gordo pick weeds",
     "gordo hands"
    ],
-   "answer": "Gordo needs help because his enormous, stitched hands lack the dexterity to pick delicate plants without ruining them. He recruits traveling Forsaken to gather the flora."
+   "answer": "Gordo's enormous, stitched hands lack the dexterity to pick delicate plants without ruining them. So he recruits traveling Forsaken to gather the flora."
   },
   {
    "q": "Who is Master Holland?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Gordo's Task (Classic)"
  ],
- "style": 1
+ "style": 2
 }

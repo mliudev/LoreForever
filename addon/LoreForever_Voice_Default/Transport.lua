@@ -1434,11 +1434,11 @@ P.transport["zone:silithus"] = {
   },
 }
 P.transport["zone:silverpine"] = {
-  hash = "5b4e73",
-  fullHash = "5b4e73",
-  text = "Silverpine Forest. Silverpine Forest lies under Forsaken rule and threat from rival forces along Lordaeron's western coast. The Scourge's plague scars the woods, where worgen, diseased gnolls, and hostile human enclaves endanger travelers. Silverpine Forest lies between Tirisfal Glades and the sealed Greymane Wall. Once a lush wonder of Lordaeron, it has withered since the Third War. Ghostly fog moves among dying, silver-barked pines, and ruined farmsteads lie abandoned to the wilderness. Tirisfal Glades borders the forest to the north, and Lordamere Lake lies along its eastern shore. To the south, the Greymane Wall shuts Gilneas away from the chaos beyond. The Forsaken hold their central outpost at the Sepulcher and struggle to secure the woods from enemies on every side.",
+  hash = "0fe2eb",
+  fullHash = "0fe2eb",
+  text = "Silverpine Forest. Forsaken patrols hold Silverpine Forest, where rival forces threaten the woods along Lordaeron’s western coast. The Scourge’s plague scars the forest, and worgen, diseased gnolls, and hostile human enclaves endanger travelers. Silverpine Forest stretches between Tirisfal Glades and the sealed Greymane Wall. Once a lush wonder of Lordaeron, it has withered since the Third War. Ghostly fog drifts among dying, silver-barked pines, while ruined farmsteads lie abandoned to the wilderness.\n\nTirisfal Glades borders the forest to the north, and Lordamere Lake runs along its eastern shore. To the south, the Greymane Wall shuts Gilneas away from the chaos beyond. The Forsaken hold their central outpost at the Sepulcher, struggling to secure the woods from enemies on every side.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_silverpine-7b7aaadd294a0628aa8a/1-0000.mp3", duration = 44.9044898, start = 0},
+    {file = "Audio/Transport/full_zone_silverpine-528ea48e2721fb0d5188/1-0000.mp3", duration = 51.2783673, start = 0},
   },
 }
 P.transport["zone:stockade"] = {

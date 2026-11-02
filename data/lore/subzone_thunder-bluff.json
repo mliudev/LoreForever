@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thunder Bluff"
  },
- "summary": "On Mulgore’s high mesas, Thunder Bluff shelters the tauren as their capital. Cairne Bloodhoof founded the city after the Third War, bringing a people long scattered across Kalimdor together in a place of refuge and tradition.",
+ "summary": "On Mulgore’s high mesas, Thunder Bluff shelters the tauren and gathers their scattered tribes. Cairne Bloodhoof founded the city after the Third War, giving them refuge and a place to keep their traditions.",
  "sections": [
   {
    "title": "A Refuge Upon the Mesas",
-   "body": "Thunder Bluff rises above Mulgore, where rope bridges link its stone mesas and wooden elevators carry travelers up from the plains. For generations, the tauren wandered across central Kalimdor, pursued by centaur raiding parties. During the Third War, Cairne Bloodhoof joined with Warchief Thrall and the New Horde. Together, they drove back the centaurs and claimed Mulgore’s fertile grasslands. Cairne gathered the scattered tribes and founded the city atop the mesas, where the heights offered shelter and a place for the tauren to trade and gather in worship.",
+   "body": "Above Mulgore, rope bridges join Thunder Bluff’s stone mesas, and wooden elevators carry travelers up from the plains. For generations, the tauren wandered central Kalimdor as centaur raiding parties pursued them. During the Third War, Cairne Bloodhoof joined Warchief Thrall and the New Horde.\n\nTogether, they drove back the centaurs and claimed Mulgore’s fertile grasslands. Cairne gathered the scattered tribes and founded the city atop the mesas. The heights offered shelter above the plains, along with a place for the tauren to trade and gather in worship.",
    "spoiler": 0
   },
   {
    "title": "Unity and Gathering Mists",
-   "body": "Cairne Bloodhoof’s followers share Thunder Bluff with tauren who hold to other ways. Magatha Grimtotem and her kin dwell on the Elder Rise, while spirit walkers and shaman seek the ancestors’ will at the Pools of Vision beneath the city. Tribal rivalries persist, yet Thunder Bluff remains a spiritual pillar of Kalimdor’s Horde. Hunters return from the Barrens, artisans travel through, and druids come to commune with the Earth Mother.",
+   "body": "Cairne Bloodhoof’s followers share Thunder Bluff with tauren who follow other ways. Magatha Grimtotem and her kin dwell on the Elder Rise. Beneath the city, spirit walkers and shaman seek the ancestors’ will at the Pools of Vision. Tribal rivalries persist, yet Thunder Bluff remains a spiritual pillar of Kalimdor’s Horde. Hunters return from the Barrens, artisans travel through, and druids come to commune with the Earth Mother.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to get up to tb",
     "entering thunder bluff"
    ],
-   "answer": "Travelers ascend to Thunder Bluff by wooden rope and pulley elevators on the southwestern and northeastern bluffs, or fly to the wind rider roost atop the central mesa."
+   "answer": "Wooden rope and pulley elevators on the southwestern and northeastern bluffs carry travelers up to Thunder Bluff. Others fly to the wind rider roost atop the central mesa."
   },
   {
    "q": "Why did the tauren build their city on cliffs?",
@@ -55,17 +55,17 @@
     "tribes of thunder bluff",
     "tauren political rivals"
    ],
-   "answer": "Most tauren revere Cairne’s wisdom, but some tribes, especially the Grimtotem led by Magatha, doubt the Horde alliance and seek their own course for the tauren people."
+   "answer": "Most tauren revere Cairne’s wisdom. Some tribes, especially the Grimtotem led by Magatha, doubt the Horde alliance and seek their own course for the tauren people."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, Thunder Bluff is their first lasting home after generations of wandering, and holds their sacred totems, spirit lodges, and greatest chieftains."
+   "text": "As a tauren, you find your first lasting home after generations of wandering in Thunder Bluff. Its sacred totems, spirit lodges, and greatest chieftains hold your people’s traditions."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you have Thunder Bluff as a stronghold in southern Kalimdor, with wisdom and resources alongside Orgrimmar."
+   "text": "As a member of the Horde, you have a stronghold in southern Kalimdor at Thunder Bluff. It offers wisdom and resources alongside Orgrimmar."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Thunder Bluff"
  ],
- "style": 1
+ "style": 2
 }

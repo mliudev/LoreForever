@@ -10,16 +10,16 @@
    "quest:491"
   ]
  },
- "summary": "In the Undercity, the Woven Wand has returned to Bethor Iceshard. Three Dalaran apprentices made it as a pledge of brotherhood, before betrayal and the fall of Lordaeron scattered them.",
+ "summary": "Bethor Iceshard has the Woven Wand again in the Undercity. Three Dalaran apprentices made it as a pledge of brotherhood before betrayal and the fall of Lordaeron scattered them.",
  "sections": [
   {
    "title": "The Hidden Alcove",
-   "body": "Thule Ravenclaw could not destroy the wand or surrender it to his former friends, though he came to despise what it meant after turning to darkness. He carried it to Silverpine Forest and hid it in an alcove deep within Fenris Keep. Years later, Thule's lair was breached, and his servant Alaric directed Horde agents to the hiding place. They recovered the relic intact. Thule had never invoked its dormant enchantments, and the wand was delivered to Bethor Iceshard in the Undercity's Magic Quarter.",
+   "body": "Thule Ravenclaw could neither destroy the wand nor return it to his former friends. He came to despise what it meant after turning to darkness, so he carried it to Silverpine Forest and hid it in an alcove deep within Fenris Keep.\n\nYears later, Thule's lair was breached. His servant Alaric led Horde agents to the hiding place, and they recovered the relic intact. Thule had never awakened its dormant enchantments. The wand was delivered to Bethor Iceshard in the Undercity's Magic Quarter.",
    "spoiler": 1
   },
   {
    "title": "A Sundered Bond",
-   "body": "When Dalaran still trained the young magi of the north, apprentices Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw joined their wands into one talisman. The Woven Wand focused their combined magical power and marked their friendship. The Scourge's march through Lordaeron broke that bond. Thule swore fealty to the Lich King and turned to necromancy. The Plague of Undeath claimed Bethor and Gunther, severing their ties to Dalaran.",
+   "body": "When Dalaran trained the young magi of the north, apprentices Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw joined their wands into one talisman. The Woven Wand focused their shared magical power and marked their friendship.\n\nThe Scourge's march through Lordaeron broke that bond. Thule swore fealty to the Lich King and turned to necromancy. The Plague of Undeath claimed Bethor and Gunther, severing their ties to Dalaran.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "where was woven wand found",
     "why fenris keep"
    ],
-   "answer": "After Thule betrayed his former friends and served the Lich King, he despised the wand and what it represented. Still, he could neither destroy it nor part with it, so he hid it in an alcove in Fenris Keep."
+   "answer": "After Thule betrayed his former friends and served the Lich King, he despised the wand and what it meant. Yet he could neither destroy it nor part with it, so he hid it in an alcove in Fenris Keep."
   },
   {
    "q": "Why did Bethor Iceshard think the wand was lost?",
@@ -48,7 +48,7 @@
     "what does bethor say about the wand",
     "bethor reaction to wand"
    ],
-   "answer": "Bethor believed the wand was lost when the plague ravaged the land and the apprentices' friendship broke apart. Thule never used its magic; Bethor would have sensed its power through their lingering magical link."
+   "answer": "Bethor believed the wand was lost when the plague ravaged the land and the apprentices' friendship broke apart. Thule never used its magic, so Bethor would have sensed its power through their lingering magical link."
   },
   {
    "q": "How was the wand recovered?",
@@ -56,7 +56,7 @@
     "who found the wand",
     "how to get woven wand"
    ],
-   "answer": "Horde agents recovered the wand from Fenris Keep after breaching Thule Ravenclaw's lair. Alaric, his former servant, directed them to the hidden alcove."
+   "answer": "Horde agents recovered the wand from Fenris Keep after breaching Thule Ravenclaw's lair. Alaric, Thule's former servant, led them to the hidden alcove."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
   "Woven Wand",
   "Wand to Bethor"
  ],
- "style": 1
+ "style": 2
 }

@@ -22,16 +22,16 @@
    "A New Plague (4)"
   ]
  },
- "summary": "In Brill, Apothecary Johaan gathers scales from the Vile Fin murlocs along Tirisfal's coast. The errand supports the Royal Apothecary Society's work on a contagion meant to spread beyond isolated victims and reach larger populations.",
+ "summary": "In Brill, Apothecary Johaan gathers Vile Fin scales for the Royal Apothecary Society's work on a plague. He hopes it will spread beyond isolated victims and reach larger populations.",
  "sections": [
   {
    "title": "Scaling Up the Contagion",
-   "body": "Apothecary Johaan's research in Brill needs more than a poison that harms one target. He is working on a disease that can spread on its own and endure in the wild. For those studies, he looks to the shoreline wildlife of Tirisfal Glades. The resilient biology of the coastal Vile Fin murlocs offers promising material for his work.",
+   "body": "Apothecary Johaan's work in Brill calls for more than a poison that harms one target. He seeks a disease that can spread on its own and endure in the wild. So he studies the shoreline wildlife of Tirisfal Glades. The resilient Vile Fin murlocs offer promising material.",
    "spoiler": 0
   },
   {
    "title": "The Vile Fin Reagents",
-   "body": "Aggressive Vile Fin murloc tribes trouble the northern and western shores of Tirisfal Glades. Their scales contain organic compounds adapted to damp, harsh conditions. Johaan wants to add those slick, resilient scales to his developing brew, hoping they will strengthen the Royal Apothecary Society's new plague and help it endure in the wild.",
+   "body": "Aggressive Vile Fin murloc tribes trouble Tirisfal Glades' northern and western shores. Their scales hold organic compounds adapted to damp, harsh conditions. Johaan hopes these slick, resilient scales will strengthen the Royal Apothecary Society's new plague and help it endure in the wild.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "johaan plague goal",
     "what is johaan doing"
    ],
-   "answer": "Apothecary Johaan is developing a new plague for the Royal Apothecary Society and Lady Sylvanas. He aims to make a contagion that can spread across entire populations and lands, targeting both the living and the Scourge."
+   "answer": "Apothecary Johaan is developing a plague for the Royal Apothecary Society and Lady Sylvanas. He hopes it will spread across entire populations and lands, striking both the living and the Scourge."
   },
   {
    "q": "Why does Johaan need murloc scales specifically?",
@@ -52,7 +52,7 @@
     "vile fin scale purpose",
     "why scales for plague"
    ],
-   "answer": "Johaan needs Vile Fin scales because they contain biological compounds that may help his contagion survive in the wild and pass between hosts. His early brewing showed him that simple poisons lack the complexity needed to spread effectively."
+   "answer": "Johaan seeks Vile Fin scales for their biological compounds, which may help his contagion endure in the wild and pass between hosts. His early brewing showed that simple poisons lack the complexity needed to spread effectively."
   },
   {
    "q": "Where can the Vile Fin murlocs be found?",
@@ -61,7 +61,7 @@
     "vile fin location",
     "murloc spots"
    ],
-   "answer": "The Vile Fin murlocs live along the coasts of Tirisfal Glades, especially on the northern beaches by the Great Sea and along the western coast."
+   "answer": "The Vile Fin murlocs live along Tirisfal Glades' coasts, especially on the northern beaches by the Great Sea and along the western shore."
   },
   {
    "q": "Who does Apothecary Johaan answer to?",
@@ -70,7 +70,7 @@
     "johaan boss",
     "royal apothecary society leader"
    ],
-   "answer": "Apothecary Johaan is an operative of the Royal Apothecary Society, an alchemical guild headquartered in the Undercity that answers directly to Queen Sylvanas Windrunner."
+   "answer": "Apothecary Johaan serves the Royal Apothecary Society, an alchemical guild headquartered in the Undercity. The Society answers directly to Queen Sylvanas Windrunner."
   },
   {
    "q": "What is the next step in this quest chain?",
@@ -79,7 +79,7 @@
     "after vile fin scales",
     "next plague quest"
    ],
-   "answer": "After you bring the Vile Fin scales to Johaan, he continues refining the formula. He needs more biological components and eventually plans to test the newly brewed strain."
+   "answer": "After you bring Johaan the Vile Fin scales, he continues refining the formula. He needs more biological components and plans to test the newly brewed strain."
   },
   {
    "q": "Are the Forsaken concerned about using murloc parts?",
@@ -87,17 +87,17 @@
     "murloc alchemy dangerous",
     "why harvest murlocs"
    ],
-   "answer": "The Royal Apothecary Society is pragmatic and amoral about its experiments. It harvests from local flora, fauna, or beasts whenever they yield the biochemical traits it needs."
+   "answer": "The Royal Apothecary Society is pragmatic and amoral in its experiments. It harvests local flora, fauna, or beasts whenever they offer the biochemical traits it needs."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you help Apothecary Johaan work on a deadly plague meant to protect your sovereign realm and destroy your foes."
+   "text": "As Forsaken, you help Apothecary Johaan develop a deadly plague to protect your sovereign realm and destroy your foes."
   },
   {
    "target": "faction:Horde",
-   "text": "As Horde, you share a war with the Scourge, and the Forsaken pursue their new plague as a weapon against them."
+   "text": "As Horde, you share a war with the Scourge. The Forsaken pursue their new plague as a weapon against them."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "A New Plague (2)"
  ],
- "style": 1
+ "style": 2
 }

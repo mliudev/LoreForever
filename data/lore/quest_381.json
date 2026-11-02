@@ -22,16 +22,16 @@
    "Vital Intelligence (Classic)"
   ]
  },
- "summary": "In Tirisfal, Deathknell faces a Scarlet Crusade camp southeast of the settlement. Executor Arren sends the newly awakened Forsaken to ambush its zealots, one of their most fanatical and persistent enemies.",
+ "summary": "In Tirisfal, a Scarlet Crusade camp threatens Deathknell from the southeast. Executor Arren sends the newly awakened Forsaken to strike its zealots, among their most fanatical and persistent enemies.",
  "sections": [
   {
    "title": "A Fanatical Threat",
-   "body": "After the Night Web spiders are dealt with, Executor Arren turns Deathknell toward a threat drawing near. A detachment of the Scarlet Crusade has made a foothold just southeast of the settlement. Its zealots see no difference between mindless Scourge and free-willed Forsaken. Their presence on Deathknell's border threatens the newly risen dead.",
+   "body": "After the Night Web spiders are dealt with, Executor Arren turns his attention to a danger drawing near Deathknell. A Scarlet Crusade detachment has made a foothold just southeast of the settlement. Its zealots see no difference between mindless Scourge and free-willed Forsaken. Their presence on Deathknell's border threatens the newly risen dead.",
    "spoiler": 0
   },
   {
    "title": "Preemptive Retaliation",
-   "body": "Executor Arren orders a strike before the camp can grow into an organized attack on Deathknell. You cut down Scarlet Converts and Scarlet Initiates, then bring back their crimson armbands as proof. The holy fanatics see all dead flesh as an abomination, leaving the Forsaken to claim survival by force.",
+   "body": "Executor Arren orders a strike before the camp can grow into an organized attack on Deathknell. You cut down Scarlet Converts and Scarlet Initiates, then return with their crimson armbands as proof. The holy fanatics see all dead flesh as an abomination, so the Forsaken must claim survival by force.",
    "spoiler": 0
   }
  ],
@@ -83,7 +83,7 @@
     "arren role",
     "who gives the quest"
    ],
-   "answer": "Executor Arren commands Deathknell's military and oversees its defense. He directs freshly awakened Forsaken against threats nearby."
+   "answer": "Executor Arren commands Deathknell's military and oversees its defense. He directs freshly awakened Forsaken against nearby threats."
   }
  ],
  "angles": [
@@ -122,5 +122,5 @@
  "attribution": [
   "The Scarlet Crusade (quest)"
  ],
- "style": 1
+ "style": 2
 }

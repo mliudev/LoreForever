@@ -17,16 +17,16 @@
   "wiki": "Devourer of Souls (Undercity)",
   "chain": []
  },
- "summary": "In the Undercity's Temple of the Damned, Carendin Halgar guides Forsaken warlocks toward binding a succubus. Godrick Farsan knows how to lure one from the Twisting Nether with the hearts of pure, loving mortals.",
+ "summary": "In the Temple of the Damned, Carendin Halgar teaches Forsaken warlocks to bind a succubus. Godrick Farsan knows how to draw one from the Twisting Nether with the hearts of pure, loving mortals.",
  "sections": [
   {
    "title": "Baiting the Nether",
-   "body": "Carendin Halgar teaches that a succubus must be enticed across the threshold, not summoned by command. The demon hungers to ruin virtue and consume mortal essence. To draw it forth, you offer the hearts of genuinely virtuous, loving men as bait. Halgar sends you to Godrick Farsan, who knows where such rare quarry can be found.",
+   "body": "Carendin Halgar teaches that a succubus must be lured across the threshold, not called by command. The demon hungers to ruin virtue and consume mortal essence. Offer the hearts of genuinely virtuous, loving men as bait. Halgar sends you to Godrick Farsan, who knows where such rare quarry can be found.",
    "spoiler": 0
   },
   {
    "title": "The Blind Assistant",
-   "body": "Deeper in the Temple of the Damned, Godrick Farsan helps Carendin prepare for demonic binding. Farsan has lost his physical eyesight, but says this grants him a deeper sight. He claims to perceive spiritual currents and distant souls with uncanny clarity, and can guide you to the pure hearts needed to draw out the demon.",
+   "body": "Deep in the Temple of the Damned, Godrick Farsan helps Carendin prepare for demonic binding. Farsan has lost his physical sight, but says this has given him a deeper one. He claims to perceive spiritual currents and distant souls with uncanny clarity. With that sight, he can guide you to the pure hearts needed to draw out the demon.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "succubus quest undercity",
     "warlock quest level 20"
    ],
-   "answer": "It bridges Carendin Halgar's initial summons and the practical hunt needed to bind a succubus. You go to Godrick Farsan, who explains the ritual's grim requirements."
+   "answer": "This step takes you from Carendin Halgar's summons to the hunt needed to bind a succubus. You go to Godrick Farsan, who explains the ritual's grim requirements."
   },
   {
    "q": "Why does a succubus need pure hearts to be summoned?",
@@ -46,7 +46,7 @@
     "why hearts of the pure",
     "succubus bait lore"
    ],
-   "answer": "Carendin Halgar says a succubus cannot easily cross into this world without an irresistible lure. The demon hungers to corrupt goodness, tempt mortal hearts, and devour virtuous souls, so the untainted devotion of good men draws it across."
+   "answer": "Carendin Halgar says a succubus needs an irresistible lure to cross into this world. The demon hungers to corrupt goodness, tempt mortal hearts, and devour virtuous souls, so the untainted devotion of good men draws it across."
   },
   {
    "q": "Who is Godrick Farsan?",
@@ -54,7 +54,7 @@
     "who is farsan",
     "blind warlock assistant"
    ],
-   "answer": "Godrick Farsan is an undead warlock acolyte who assists Carendin Halgar in the Temple of the Damned. Though physically blind, he has mystical senses that help him perceive spiritual truths and locate suitable prey across the Eastern Kingdoms."
+   "answer": "Godrick Farsan is an undead warlock acolyte who assists Carendin Halgar in the Temple of the Damned. Though physically blind, his mystical senses help him perceive spiritual truths and locate suitable prey across the Eastern Kingdoms."
   },
   {
    "q": "Where is this quest completed?",
@@ -62,7 +62,7 @@
     "where is godrick farsan",
     "devourer of souls turn in"
    ],
-   "answer": "You complete it in the Temple of the Damned in the Undercity, where Godrick Farsan waits just a few paces from Carendin Halgar."
+   "answer": "You complete this in the Temple of the Damned in the Undercity. Godrick Farsan waits just a few paces from Carendin Halgar."
   },
   {
    "q": "What comes after Devourer of Souls?",
@@ -78,7 +78,7 @@
     "who can do devourer of souls",
     "undead only warlock quest"
    ],
-   "answer": "Any Horde warlock seeking to bind a succubus through Undercity mentors can follow Halgar and Farsan's ritual steps. Though Forsaken practitioners teach it in the Undercity, the ritual is open to those warlocks."
+   "answer": "Any Horde warlock seeking to bind a succubus through Undercity mentors can follow Halgar and Farsan's ritual steps. Forsaken practitioners teach it in the Undercity, but the ritual is open to those warlocks."
   }
  ],
  "angles": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Devourer of Souls (Undercity)"
  ],
- "style": 1
+ "style": 2
 }

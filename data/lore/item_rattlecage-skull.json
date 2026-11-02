@@ -10,11 +10,11 @@
    "quest:1470"
   ]
  },
- "summary": "In Deathknell, novice Forsaken warlocks gather skulls from mindless undead. Venya Marthand asks for them as a test of their will before teaching them the dark arts of summoning.",
+ "summary": "In Deathknell, novice Forsaken warlocks gather skulls from mindless undead. Venya Marthand sets this trial before teaching them the dark arts of summoning.",
  "sections": [
   {
    "title": "A Neophyte's Test",
-   "body": "In Deathknell, Venya Marthand guides newly raised Forsaken who have a gift for dark magic. She sends them to subdue Rattlecage Skeletons near the ruined smithy and bring back their severed skulls. The trial tests whether a fledgling warlock can bend creatures from beyond this world to their command. It also lays the groundwork for breaching the void and binding a first demonic servant.",
+   "body": "In Deathknell, Venya Marthand guides newly raised Forsaken gifted in dark magic. She sends them to subdue Rattlecage Skeletons near the ruined smithy and bring back their skulls. The trial tests whether a young warlock can bend creatures from beyond this world to their command. It prepares them to breach the void and bind their first demonic servant.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "rattlecage skull use",
     "who wants rattlecage skulls"
    ],
-   "answer": "Venya Marthand collects three Rattlecage Skulls in Deathknell. Forsaken warlocks bring them to prove their focus and resolve before she teaches them to summon and bind an imp."
+   "answer": "In Deathknell, Venya Marthand collects three Rattlecage Skulls from Forsaken warlocks. They prove their focus and resolve before she teaches them to summon and bind an imp."
   },
   {
    "q": "Where do Rattlecage Skulls come from?",
@@ -35,7 +35,7 @@
     "who drops rattlecage skulls",
     "rattlecage skull location"
    ],
-   "answer": "Rattlecage Skulls come from Rattlecage Skeletons, mindless undead wandering the overgrown roads and crumbling grounds near Deathknell's abandoned smithy."
+   "answer": "Rattlecage Skulls come from mindless Rattlecage Skeletons wandering the overgrown roads and crumbling grounds near Deathknell's abandoned smithy."
   },
   {
    "q": "Why does Venya Marthand require skeletal skulls for a warlock trial?",
@@ -43,7 +43,7 @@
     "why skulls for warlocks",
     "venya marthand test"
    ],
-   "answer": "Venya Marthand believes power eludes the ignorant, and mastery means bending outside forces to one's will. Slaying mindless skeletons and claiming their heads shows an apprentice can command chaotic energies instead of being consumed by them."
+   "answer": "Venya Marthand believes power eludes the ignorant, and mastery means bending outside forces to one's will. Slaying mindless skeletons and claiming their heads shows an apprentice can command chaotic energies without being consumed by them."
   },
   {
    "q": "What knowledge is granted after gathering these skulls?",
@@ -51,13 +51,13 @@
     "what do you get from rattlecage skulls",
     "piercing the veil reward"
    ],
-   "answer": "After the skulls are offered, Venya Marthand teaches the secret ritual to call forth and bind an imp, giving young warlocks their first true demonic minion."
+   "answer": "After the skulls are offered, Venya Marthand teaches the secret ritual to call forth and bind an imp. This gives young warlocks their first true demonic minion."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a Forsaken warlock, gathering these skulls is your first milestone in discipline. It proves you have the cold will to enslave your first demon."
+   "text": "As a Forsaken warlock, gathering these skulls is your first step in discipline. It proves you have the cold will to enslave your first demon."
   },
   {
    "target": "race:Undead",
@@ -82,5 +82,5 @@
   "Rattlecage Skull",
   "Piercing the Veil"
  ],
- "style": 1
+ "style": 2
 }

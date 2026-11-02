@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Cold Hearth Manor"
  },
- "summary": "Along Tirisfal’s main road, Cold Hearth Manor offers travelers a Forsaken outpost west of Brill. The farm once fed Lordaeron, but the Plague of Undeath killed its people and left the fields crawling with Scourge.",
+ "summary": "Along Tirisfal’s main road, Forsaken guards hold Cold Hearth Manor west of Brill. Once a farm that fed Lordaeron, it fell to the Plague of Undeath, and Scourge now haunt its fields.",
  "sections": [
   {
    "title": "A Chilled Hearth",
-   "body": "Forsaken guards hold the farmhouse at Cold Hearth Manor, west of Brill along Tirisfal’s main road. Before the Third War, the estate was known for warm hospitality and rich harvests in the heart of Lordaeron. When the Plague swept through the kingdom, the family and their laborers died and rose again as husks bound to the Scourge. Feral undead still stumble through the ruined fields, but Forsaken forces drove the mindless dead from the farmhouse. They now use it as a trading post and foothold on the road toward the eastern glades.",
+   "body": "Forsaken guards hold the farmhouse at Cold Hearth Manor, west of Brill along Tirisfal’s main road. Before the Third War, the estate was known for warm hospitality and rich harvests in the heart of Lordaeron.\n\nWhen the Plague swept through the kingdom, the family and their laborers died and rose again as husks bound to the Scourge. Feral undead still wander the ruined fields, but Forsaken forces drove the mindless dead from the farmhouse. They now use it as a trading post and foothold on the road toward the eastern glades.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "cold hearth name meaning",
     "why cold hearth"
    ],
-   "answer": "The estate was once known for its warm welcome and fires. The Forsaken likely gave it the grim name as an ironic nod to its former life and the dead, blighted farm it has become."
+   "answer": "The estate was once known for its warm welcome and fires. The Forsaken likely gave it a grim name in dark contrast to its former life and the dead, blighted farm it has become."
   },
   {
    "q": "Who controls the manor right now?",
@@ -39,7 +39,7 @@
     "who owns cold hearth manor",
     "is cold hearth friendly"
    ],
-   "answer": "The Forsaken hold the main farmhouse as a safe stop for travelers and traders on the road from Brill. Hostile Scourge still infest the surrounding fields and barns."
+   "answer": "The Forsaken hold the main farmhouse as a safe stop for travelers and traders on the road from Brill. Hostile Scourge still haunt the surrounding fields and barns."
   },
   {
    "q": "Why don't the Forsaken clear out the fields?",
@@ -57,7 +57,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "The manor offers a secure waypoint on the road between Brill and Tirisfal’s eastern reaches, where travelers can pause amid the plagued countryside."
+   "text": "The manor offers a secure waypoint on the road between Brill and Tirisfal’s eastern reaches. Travelers can pause there amid the plagued countryside."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
  "attribution": [
   "Cold Hearth Manor"
  ],
- "style": 1
+ "style": 2
 }

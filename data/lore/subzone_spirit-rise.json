@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Spirit Rise"
  },
- "summary": "Spirit Rise gathers Thunder Bluff’s spiritual and shamanic study on its northwest mesa. The Skychaser tribe guides seekers above the Pools of Vision, where seers look into spirit-touched waters.",
+ "summary": "On Thunder Bluff’s northwest mesa, Spirit Rise gathers shaman and seekers. The Skychaser tribe guides them above the Pools of Vision, where seers peer into spirit-touched waters.",
  "sections": [
   {
    "title": "A Sanctuary of the Spirits",
-   "body": "Spirit Rise crowns Thunder Bluff above the plains of Mulgore, devoted to communion with the elements and ancestor spirits. Rope bridges link it to the central mesa. The Hall of Spirits and the Spiritual Healing pavilion draw young and veteran shaman seeking a deeper bond with earth, air, fire, and water. The Skychaser tribe keeps a strong presence across the rise and guides seekers in ancient traditions.",
+   "body": "Spirit Rise crowns Thunder Bluff above the plains of Mulgore. Here, shaman seek communion with the elements and ancestor spirits. Rope bridges link the rise to the central mesa.\n\nThe Hall of Spirits and the Spiritual Healing pavilion draw young and veteran shaman alike. They come to deepen their bond with earth, air, fire, and water. The Skychaser tribe keeps a strong presence here and guides seekers in ancient traditions.",
    "spoiler": 0
   },
   {
    "title": "Caves and Crossings",
-   "body": "Beneath the open-air totem shrines and huts, an entrance leads into the mesa. The steamy Pools of Vision fill a sacred cavern below, where seers peer into waters touched by the spirits.",
+   "body": "Below the open-air totem shrines and huts, an entrance leads into the mesa. There, the steamy Pools of Vision fill a sacred cavern. Seers peer into waters touched by the spirits.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "spirit rise purpose",
     "why visit spirit rise"
    ],
-   "answer": "Spirit Rise is the spiritual heart of Thunder Bluff, devoted to shamanic practice, healing, and communion with nature spirits and ancestors. It also opens onto the Pools of Vision."
+   "answer": "On Spirit Rise, shaman gather to practice, heal, and commune with nature spirits and ancestors. The rise also opens onto the Pools of Vision."
   },
   {
    "q": "Which tauren tribe leads activities on Spirit Rise?",
@@ -37,7 +37,7 @@
     "spirit rise tribe",
     "skychaser tribe"
    ],
-   "answer": "The Skychaser tribe guides activity on Spirit Rise, fostering spiritual traditions, divination rituals, and shamanic training."
+   "answer": "The Skychaser tribe guides activity on Spirit Rise. Its members foster spiritual traditions, divination rituals, and shamanic training."
   },
   {
    "q": "What can I find underneath Spirit Rise?",
@@ -46,17 +46,17 @@
     "below spirit rise",
     "pools of vision entrance"
    ],
-   "answer": "A descent through Spirit Rise leads to the Pools of Vision, a humid cavern of steaming waters where seers and spiritual practitioners meditate and seek visions."
+   "answer": "A descent through Spirit Rise leads to the Pools of Vision. In the humid cavern, steaming waters draw seers and spiritual practitioners to meditate and seek visions."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman of the Horde, Spirit Rise is an essential gathering place to consult trainers, perform elemental rites, and commune with ancestral spirits."
+   "text": "As a shaman of the Horde, you can come to Spirit Rise to consult trainers, perform elemental rites, and commune with ancestral spirits."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you find your people’s deep spiritual roots on the rise, with solace from secular duties and the mystical waters of the Pools of Vision."
+   "text": "As a tauren, you find your people’s deep spiritual roots on the rise. Its quiet offers solace from secular duties, and the Pools of Vision lie below."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
  "attribution": [
   "Spirit Rise"
  ],
- "style": 1
+ "style": 2
 }

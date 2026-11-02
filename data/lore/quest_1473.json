@@ -22,16 +22,16 @@
    "The Binding (Voidwalker, Undercity)"
   ]
  },
- "summary": "In the Undercity, a lost grimoire holds the key to summoning a voidwalker. Forsaken warlocks must recover Egalin's Grimoire from the Scarlet Crusade in western Tirisfal Glades to learn how to summon and bind one.",
+ "summary": "In the Undercity, Forsaken warlocks seek the grimoire needed to summon a voidwalker. They must recover Egalin's Grimoire from the Scarlet Crusade in western Tirisfal Glades to learn how to summon and bind one.",
  "sections": [
   {
    "title": "A Teacher's Legacy",
-   "body": "Carendin Halgar guides Forsaken summoners in the Temple of the Damned. When an acolyte can wield more than the power of petty imps, Halgar points them toward the voidwalker, a creature forged from pure shadow and chaos. Forsaken warlocks rely on the careful research of Egalin, Halgar's former master, who wrote the rituals for subduing these beings of the void.",
+   "body": "Carendin Halgar guides Forsaken summoners in the Temple of the Damned. When an acolyte can wield more than the power of petty imps, Halgar points them toward a voidwalker. The creature is forged from pure shadow and chaos. Forsaken warlocks depend on the careful research of Egalin, Halgar's former master, who wrote the rituals for subduing such beings.",
    "spoiler": 0
   },
   {
    "title": "The Stolen Grimoire",
-   "body": "Egalin's Grimoire holds the methods for channeling the volatile magic needed to master a voidwalker. Perrine, a Scarlet Crusade zealot stationed in an outpost tower to the west, stole the book. The Crusade may see it only as blasphemous contraband to seize and hoard, but recovering it gives the Forsaken the ritual secrets they need before they try to tear open the veil.",
+   "body": "Egalin's Grimoire holds the methods for channeling the volatile magic needed to master a voidwalker. Perrine, a Scarlet Crusade zealot, stole the book and keeps it in an outpost tower to the west. The Crusade may regard it only as blasphemous contraband to seize and hoard. Recovering it gives the Forsaken the ritual secrets they need before they try to tear open the veil.",
    "spoiler": 0
   }
  ],
@@ -61,7 +61,7 @@
     "warlock trainer undercity",
     "temple of the damned trainer"
    ],
-   "answer": "Carendin Halgar is a master warlock trainer in the Temple of the Damned in the Undercity. He guides novice Forsaken warlocks, teaching respect for volatile cosmic forces and caution from his own past summoning mistakes."
+   "answer": "Carendin Halgar is a master warlock trainer in the Temple of the Damned in the Undercity. He guides novice Forsaken warlocks and teaches respect for volatile cosmic forces, drawing caution from his own past summoning mistakes."
   },
   {
    "q": "What happens if a warlock loses control of a voidwalker?",
@@ -126,5 +126,5 @@
  "attribution": [
   "Creature of the Void (Undercity)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Monastery"
  },
- "summary": "Scarlet Monastery now shelters the fanatical Scarlet Crusade in Tirisfal Glades. Once a peaceful center of scholarship and worship for the Church of the Holy Light, it has become a fortified redoubt. Anyone approaching without red colors is treated as a carrier of the plague and executed on sight.",
+ "summary": "Scarlet Monastery now shelters the fanatical Scarlet Crusade in Tirisfal Glades. Once a center of learning and worship for the Church of the Holy Light, it is now a fortified stronghold. Anyone who approaches without red clothing is treated as a carrier of the plague and executed on sight.",
  "sections": [
   {
    "title": "From Sanctuary to Stronghold",
-   "body": "Before the Third War, the Scarlet Monastery was a proud center of Lordaeron's priesthood. Its halls held theological studies and sacred archives, and paladins trained there. When the Scourge brought down the kingdom, surviving defenders held the site against the undead. Those survivors became the zealous Scarlet Crusade and fortified the cloister. Libraries, gardens, and the cathedral became parts of an armed stronghold.",
+   "body": "Before the Third War, Scarlet Monastery was a proud center of Lordaeron's priesthood. Its halls held theological studies and sacred archives, and paladins trained there. When the Scourge brought down the kingdom, defenders who survived held the monastery against the undead. They became the zealous Scarlet Crusade and fortified the cloister. Its libraries, gardens, and cathedral now lie within an armed stronghold.",
    "spoiler": 0
   },
   {
    "title": "A Bastion of Fanaticism",
-   "body": "Four wings make up the Scarlet Monastery: a defiled graveyard, an expansive library, an armory, and a grand cathedral. Scarlet Commander Mograine and High Inquisitor Whitemane command its massive garrison. The Crusaders see every outsider as a plague-bearer, living or undead, Alliance or Horde. The Forsaken seek to destroy the garrison that threatens their doorstep, while Alliance leaders increasingly see the Crusade's violent extremism as a dangerous perversion of the Light.",
+   "body": "Scarlet Monastery has four wings: a defiled graveyard, an expansive library, an armory, and a grand cathedral. Scarlet Commander Mograine and High Inquisitor Whitemane command its large garrison. To the Crusaders, every outsider is a plague-bearer, living or undead, Alliance or Horde. The Forsaken seek to destroy the garrison threatening their doorstep. Alliance leaders increasingly see the Crusade's violent extremism as a dangerous corruption of the Light.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why did they build monastery in tirisfal",
     "monastery purpose"
    ],
-   "answer": "Lordaeron built the Scarlet Monastery as a peaceful sanctuary for study, sacred scriptures, and paladin training. After the kingdom fell, surviving crusaders seized and fortified it as a military staging ground against the undead in Tirisfal Glades."
+   "answer": "Lordaeron built Scarlet Monastery as a peaceful sanctuary for study, sacred scriptures, and paladin training. After the kingdom fell, surviving crusaders seized and fortified it as a military staging ground against the undead in Tirisfal Glades."
   },
   {
    "q": "Why does the Scarlet Crusade attack Alliance members?",
@@ -37,7 +37,7 @@
     "are scarlet crusade alliance",
     "why do crusaders attack humans"
    ],
-   "answer": "The Scarlet Crusade believes anyone who has traveled beyond its secured compounds could carry the Scourge's plague of undeath. Its zealotry has grown into complete paranoia, and it takes no chances with outsiders, whatever their race or allegiance."
+   "answer": "The Scarlet Crusade believes anyone who has traveled beyond its secured compounds could carry the Scourge's plague of undeath. Its zealotry has become complete paranoia, and it takes no chances with outsiders, whatever their race or allegiance."
   },
   {
    "q": "Who leads the forces within the Monastery?",
@@ -46,7 +46,7 @@
     "monastery leaders",
     "who runs the scarlet crusade here"
    ],
-   "answer": "Scarlet Commander Mograine directs military operations from the cathedral, while High Inquisitor Whitemane commands the garrison. She is a zealous priestess renowned for her devotion and powers of resurrection."
+   "answer": "Scarlet Commander Mograine directs military operations from the cathedral, while High Inquisitor Whitemane commands the garrison. Whitemane is a zealous priestess renowned for her devotion and powers of resurrection."
   },
   {
    "q": "What are the four wings of the complex?",
@@ -55,7 +55,7 @@
     "what wings are in scarlet monastery",
     "monastery layout"
    ],
-   "answer": "The four wings are the Graveyard, with restless dead and torture chambers; the Library, with historical archives and tomes; the Armory, where the Crusade makes weapons and armor; and the Cathedral, the spiritual heart and commander's seat."
+   "answer": "The four wings are the Graveyard, with restless dead and torture chambers; the Library, with historical archives and tomes; the Armory, where the Crusade makes weapons and armor; and the Cathedral, the spiritual heart and the commander's seat."
   }
  ],
  "angles": [
@@ -65,7 +65,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you may find it bitter to see a place that once trained paladins under the Silver Hand corrupted into an intolerant stronghold of fanaticism."
+   "text": "As a paladin, you may find it bitter to see a place that once trained paladins under the Silver Hand turned into an intolerant stronghold of fanaticism."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
  "attribution": [
   "Scarlet Monastery"
  ],
- "style": 1
+ "style": 2
 }

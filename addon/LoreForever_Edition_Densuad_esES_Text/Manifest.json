@@ -1614,7 +1614,7 @@
       "zone:zephras#faq6": 13.635918
     }
   },
-  "core_version": "0.35.0",
+  "core_version": "0.36.0",
   "counts": {
     "compatible_current_entries": 699,
     "compatible_current_faq_answers": 109,
@@ -4848,7 +4848,7 @@
     },
     "LoreForever_Edition_Densuad_esES_Audio/Edition.lua": {
       "bytes": 331,
-      "sha256": "c738074512ce5a54e5ce805e6956f5f18daf765ee8c3f03d183b9825f815a1e5"
+      "sha256": "6074a8d3d39af978223ba60aa1d3bdef97780800af241ed1c66a8958ce7d3ac4"
     },
     "LoreForever_Edition_Densuad_esES_Audio/Edition.xml": {
       "bytes": 1510,
@@ -4856,7 +4856,7 @@
     },
     "LoreForever_Edition_Densuad_esES_Audio/LoreForever_Edition_Densuad_esES_Audio.toc": {
       "bytes": 615,
-      "sha256": "47b0e201f7f62ffb2fa160e696341db63a85d8a7f4088347bb000e8f8592299b"
+      "sha256": "53d5c88de080f966b496fe9b49125b68661a4642691675221824530e78cf21f5"
     },
     "LoreForever_Edition_Densuad_esES_Audio/clips001.lua": {
       "bytes": 1646,
@@ -5028,7 +5028,7 @@
     },
     "LoreForever_Edition_Densuad_esES_Text/Edition.lua": {
       "bytes": 332,
-      "sha256": "626f4fc7b0d962e69b27a1e663707717b5fc87eb207ff74fab79c5ea062476e5"
+      "sha256": "f1608fa38c5f5166113b778ca99ca908ba8dfe52bbebf2540d208c36e8bbf2ea"
     },
     "LoreForever_Edition_Densuad_esES_Text/Edition.xml": {
       "bytes": 1466,
@@ -5036,7 +5036,7 @@
     },
     "LoreForever_Edition_Densuad_esES_Text/LoreForever_Edition_Densuad_esES_Text.toc": {
       "bytes": 617,
-      "sha256": "cf6203c7b21467b790084b0d2ba3ccd263195db234075a05d7cf8d27d05201f7"
+      "sha256": "63f30df7e4c1f5cf2b955e2c0bc158ed749e40aeaaf65cb4740685c05381b4b9"
     },
     "LoreForever_Edition_Densuad_esES_Text/answerHash001.lua": {
       "bytes": 1406,
@@ -25729,5 +25729,5 @@
       }
     }
   },
-  "version": "1853a04a02112b563da68dbea8ecc07bfa3810e54eac4b6749f5c5e3b4b9eb47"
+  "version": "a7ac2f023134494011fd76bf0370d987e3fe46b4374fd43662a5f7b5dbd0a3bf"
 }

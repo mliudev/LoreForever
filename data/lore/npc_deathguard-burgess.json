@@ -8,11 +8,11 @@
   "wiki": "Deathguard Burgess",
   "refs": 1
  },
- "summary": "In Brill, Deathguard Burgess keeps watch over the town for the Forsaken. He guards the settlement and points travelers toward the services they need.",
+ "summary": "In Brill, Deathguard Burgess watches over the town for the Forsaken. He guards the settlement and guides travelers to the services they need.",
  "sections": [
   {
    "title": "A Watchman in Brill",
-   "body": "North of the Undercity, Deathguard Burgess guards Brill against the Scourge and Scarlet Crusade. Like other Deathguards in Tirisfal Glades, he guides arriving Forsaken to local tradesfolk, class trainers, and civic services, helping keep the vulnerable outpost running.",
+   "body": "North of the Undercity, Deathguard Burgess guards Brill from the Scourge and Scarlet Crusade. Like the other Deathguards in Tirisfal Glades, he guides arriving Forsaken to tradesfolk, class trainers, and civic services. His watch helps keep the vulnerable outpost running.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what are deathguards",
     "deathguards role"
    ],
-   "answer": "In Brill, the Deathguards protect the Forsaken from the Scourge and Scarlet Crusade, and keep civil order."
+   "answer": "In Brill, the Deathguards protect the Forsaken from the Scourge and Scarlet Crusade. They also keep civil order."
   },
   {
    "q": "Can Deathguard Burgess provide directions?",
@@ -40,7 +40,7 @@
     "burgess directions",
     "where to go in brill"
    ],
-   "answer": "Yes. Ask Burgess where to find class trainers, the local inn, profession masters, and other essential facilities in Brill."
+   "answer": "Yes. Burgess can point you toward class trainers, the local inn, profession masters, and other essential facilities in Brill."
   }
  ],
  "angles": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Deathguard Burgess"
  ],
- "style": 1
+ "style": 2
 }

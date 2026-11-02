@@ -10,11 +10,11 @@
    "quest:398"
   ]
  },
- "summary": "At Garren's Haunt, Maggot Eye's Paw proves the gnoll chieftain is dead. The paw is carried to Brill as proof of his execution for stealing corpses for the Scourge.",
+ "summary": "At Garren's Haunt, Maggot Eye's Paw confirms the gnoll chieftain's execution. It is carried to Brill as proof that he stole corpses for the Scourge.",
  "sections": [
   {
    "title": "Proof of Execution",
-   "body": "Maggot Eye raided graves and pillaged the countryside near Garren's Haunt, supplying corpses to the Lich King's armies. The Forsaken posted a death sentence and bounty in Brill. To collect the bounty and close it, hunters must bring the gnoll's severed paw back to town. Executor Zygand accepts that proof in place of rumors of Maggot Eye's death.",
+   "body": "Maggot Eye raided graves and the countryside near Garren's Haunt. He supplied the corpses he stole to the Lich King's armies. So the Forsaken condemned him to death and posted a bounty in Brill. Hunters must bring his severed paw back to town to claim it and close the matter. Executor Zygand accepts the paw as proof of Maggot Eye's death, not mere rumor.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "maggot eye bounty proof",
     "zygand paw"
    ],
-   "answer": "Executor Zygand wants Maggot Eye's paw as proof that the condemned gnoll has been killed. Brill pays the bounty once the execution is confirmed."
+   "answer": "Executor Zygand wants Maggot Eye's paw to prove the condemned gnoll has been killed. Brill pays the bounty once his execution is confirmed."
   },
   {
    "q": "What crimes did Maggot Eye commit against the Forsaken?",
@@ -35,7 +35,7 @@
     "why is maggot eye wanted",
     "what did maggot eye do"
    ],
-   "answer": "Maggot Eye led raids across northern Tirisfal Glades and stole buried corpses from farmsteads such as Garren's Haunt. He supplied them to the Lich King's armies."
+   "answer": "Maggot Eye led raids across northern Tirisfal Glades and stole buried corpses from farmsteads such as Garren's Haunt. He supplied the bodies to the Lich King's armies."
   },
   {
    "q": "Where is Maggot Eye found?",
@@ -53,13 +53,13 @@
     "why do gnolls steal bodies",
     "scourge gnolls"
    ],
-   "answer": "In Tirisfal Glades, rogue gnoll bands have allied with or fallen under the Scourge's sway. They raid human and Forsaken graves to deliver bodies to necromancers."
+   "answer": "In Tirisfal Glades, rogue gnoll bands have allied with or fallen under the Scourge's sway. They raid human and Forsaken graves and deliver the bodies to necromancers."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken of Brill, bringing back Maggot Eye's paw strikes at the body thieves who supply the hated Lich King."
+   "text": "As a Forsaken of Brill, bringing back Maggot Eye's paw strikes at the body thieves supplying the hated Lich King."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Maggot Eye's Paw",
   "Wanted: Maggot Eye"
  ],
- "style": 1
+ "style": 2
 }

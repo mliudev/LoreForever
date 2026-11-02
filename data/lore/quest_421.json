@@ -23,16 +23,16 @@
    "Arugal's Folly (4)"
   ]
  },
- "summary": "At the Sepulcher, Prove Your Worth begins Dalar Dawnweaver's campaign against the worgen of Silverpine. The Forsaken seek a path south through human and dwarven lands, but feral worgen threaten the road. Their presence leads back to Archmage Arugal.",
+ "summary": "At the Sepulcher, Dalar Dawnweaver's campaign against Silverpine's worgen is underway. The Forsaken seek a path south through human and dwarven lands, but feral worgen threaten the road. Their presence leads back to Archmage Arugal.",
  "sections": [
   {
    "title": "Securing the Southern Corridor",
-   "body": "Lady Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, seek to secure the lands south of Tirisfal Glades, including human and dwarven enclaves. Silverpine Forest lies in their path, but the route is dangerous. Feral Moonrage worgen prowl the pine-covered hills, threatening Forsaken supply lines and forward bases.",
+   "body": "Lady Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, seek to secure the lands south of Tirisfal Glades. Human and dwarven enclaves lie among them. Silverpine Forest is in their path, but the route is dangerous. Feral Moonrage worgen prowl its pine-covered hills, threatening Forsaken supply lines and forward bases.",
    "spoiler": 0
   },
   {
    "title": "Arugal's Blight",
-   "body": "Dalar Dawnweaver says the worgen came through the work of Arugal, a disgraced former mage of Dalaran. During the Scourge invasion, Arugal unleashed otherworldly worgen upon Silverpine. He has since claimed Shadowfang Keep, while his feral creations roam the forest. Before Dalar trusts soldiers with a deeper inquiry into Arugal's sorcery, recruits must prove their fighting skill against the nearest Moonrage Whitescalps.",
+   "body": "Dalar Dawnweaver says Arugal brought the worgen to Silverpine. Once a mage of Dalaran, Arugal was disgraced. During the Scourge invasion, he unleashed otherworldly worgen upon the forest. Now he has claimed Shadowfang Keep, while his feral creations roam the woods. Before Dalar trusts soldiers to investigate Arugal's sorcery further, recruits must prove their fighting skill against the nearest Moonrage Whitescalps.",
    "spoiler": 0
   }
  ],
@@ -53,7 +53,7 @@
     "moonrage whitescalps location",
     "whitescalp farm"
    ],
-   "answer": "The Moonrage Whitescalps prowl the woods and ruined homesteads of central Silverpine, just off the main road down the hill from the Sepulcher."
+   "answer": "The Moonrage Whitescalps prowl the woods and ruined homesteads of central Silverpine. They are just off the main road down the hill from the Sepulcher."
   },
   {
    "q": "Why does the Horde care about worgen in Silverpine?",
@@ -62,7 +62,7 @@
     "forsaken worgen problem",
     "why clear silverpine"
    ],
-   "answer": "The Horde needs Silverpine Forest as a route from the Undercity to the southern lands. Lady Sylvanas and Varimathras seek safe passage south, and the worgen packs threaten that route."
+   "answer": "The Horde needs Silverpine Forest as a route from the Undercity to the southern lands. Lady Sylvanas and Varimathras seek safe passage south, and worgen packs threaten that route."
   },
   {
    "q": "What is Arugal's connection to these creatures?",
@@ -71,7 +71,7 @@
     "arugal worgen connection",
     "who summoned worgen"
    ],
-   "answer": "Archmage Arugal summoned the extradimensional worgen to fight the Scourge while he served Dalaran. The beasts turned wild, and guilt drove Arugal mad before he withdrew to Shadowfang Keep to foster the curse."
+   "answer": "Archmage Arugal summoned the extradimensional worgen to fight the Scourge while he served Dalaran. The beasts turned wild, and guilt drove Arugal mad. He withdrew to Shadowfang Keep to foster the curse."
   },
   {
    "q": "What happens after proving your worth to Dalar?",
@@ -128,5 +128,5 @@
  "attribution": [
   "Prove Your Worth (Classic)"
  ],
- "style": 1
+ "style": 2
 }

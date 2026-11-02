@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dead Field"
  },
- "summary": "Forsaken assaults falter at Dead Field, a ruined farmstead in northern Silverpine Forest. Rot Hide gnolls serve the Scourge there, while the banshee Nightlash turns back those who attack.",
+ "summary": "In northern Silverpine Forest, Forsaken assaults falter at Dead Field, a ruined farmstead. Rot Hide gnolls serve the Scourge there, and the banshee Nightlash drives back each attack.",
  "sections": [
   {
    "title": "A Blighted Staging Ground",
-   "body": "The ruined farmstead lies in northern Silverpine Forest, its human occupants lost to the Third War. Rot Hide gnolls now use the plot as a base and willingly serve the Scourge. Deathstalker scouts passing through the region have noted signs of imminent military mobilization that threatens Forsaken supply lines and outposts. Small Forsaken assaults on the farm have repeatedly failed. Each time the gnolls are endangered, Nightlash, a wailing banshee, appears and drives the attackers back.",
+   "body": "In northern Silverpine Forest, the ruined farmstead has stood empty since its human occupants were lost in the Third War. Rot Hide gnolls now use the plot as a base and willingly serve the Scourge. Deathstalker scouts have seen signs of a coming military buildup that threatens Forsaken supply lines and outposts.\n\nSmall Forsaken assaults on the farm have failed again and again. Whenever the gnolls are in danger, Nightlash, a wailing banshee, appears and drives the attackers back.",
    "spoiler": 0
   },
   {
    "title": "Ravenclaw's Ambition",
-   "body": "Thule Ravenclaw directs the Rot Hide gnolls from Fenris Isle. The necromancer seeks to establish Scourge dominance over Silverpine and drive Sylvanas's forces from Lordaeron. He sends magical apparitions to the farmstead to survey his undead horde and warn Forsaken intruders.",
+   "body": "Thule Ravenclaw directs the Rot Hide gnolls from Fenris Isle. The necromancer seeks Scourge rule over Silverpine and wants to drive Sylvanas's forces from Lordaeron. He sends magical apparitions to the farmstead to survey his undead horde and warn Forsaken intruders.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is dead field",
     "what happened to dead field"
    ],
-   "answer": "Dead Field is a ruined farmstead in northern Silverpine Forest. It was once an ordinary human farm, but has fallen into ruin and is now occupied by Rot Hide gnolls aligned with the Scourge."
+   "answer": "Dead Field is a ruined farmstead in northern Silverpine Forest. Once an ordinary human farm, it fell into ruin and now holds Rot Hide gnolls aligned with the Scourge."
   },
   {
    "q": "Why are there gnolls at the farm?",
@@ -37,7 +37,7 @@
     "rot hides dead field",
     "scourge gnolls"
    ],
-   "answer": "The Rot Hide gnolls serve the Scourge and use the farmstead to gather forces and prepare attacks against Forsaken positions in northern Silverpine Forest."
+   "answer": "The Rot Hide gnolls serve the Scourge and use the farmstead to gather forces and prepare attacks on Forsaken positions in northern Silverpine Forest."
   },
   {
    "q": "Who is Nightlash?",
@@ -46,7 +46,7 @@
     "banshee in dead field",
     "who protects the gnolls"
    ],
-   "answer": "Nightlash is a Scourge banshee who commands the Rot Hide gnolls at the farm. When Forsaken forces attack, she appears to defend her servants and repel their attempts to reclaim the land."
+   "answer": "Nightlash is a Scourge banshee who commands the Rot Hide gnolls at the farm. When Forsaken forces attack, she appears to defend her servants and drive back their attempts to reclaim the land."
   },
   {
    "q": "Who commands the Scourge forces here?",
@@ -55,17 +55,17 @@
     "thule ravenclaw dead field",
     "who is in charge"
    ],
-   "answer": "Thule Ravenclaw, a powerful necromancer based on nearby Fenris Isle, commands the Scourge forces here. He coordinates the gnolls through apparitions and magical oversight to harass Forsaken expansion."
+   "answer": "Thule Ravenclaw commands the Scourge forces here from nearby Fenris Isle. The powerful necromancer directs the gnolls through apparitions and magical oversight to harass Forsaken expansion."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For you, the Forsaken, the Scourge foothold at Dead Field threatens the road between the Sepulcher and northern Lordaeron. It calls for swift extermination."
+   "text": "For you, the Forsaken, the Scourge foothold at Dead Field threatens the road between the Sepulcher and northern Lordaeron. It must be wiped out swiftly."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know Deathstalker recon teams watch the farm closely. Infiltrating the gnoll ranks and striking their command structure is a critical tactical priority."
+   "text": "As a rogue, you know Deathstalker scouts watch the farm closely. Infiltrating the gnoll ranks and striking their command is a critical military aim."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Dead Field"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:1821"
   ]
  },
- "summary": "In northern Tirisfal, the Agamand Family Axe remains among the family's ancestral arms. Once a symbol of the wealthy mill owners, it is now sought by Coleman Farthing to strip the undead Agamands of their remaining dignity.",
+ "summary": "At Agamand Mills, the family’s old axe is among the arms Coleman Farthing seeks. Once held by wealthy mill owners, it now figures in his effort to strip the undead Agamands of their remaining dignity.",
  "sections": [
   {
    "title": "A Weapon of the Agamands",
-   "body": "Before the Third War, the Agamand dynasty owned land across Tirisfal Glades' northern hills and kept vast mills and a family crypt. The Agamand Family Axe rested with the ancestral arms, beside the buried patriarchs and warriors. The Scourge overran the estate and slaughtered its inhabitants, but the weapons remained on racks underground.",
+   "body": "Before the Third War, the Agamand dynasty held land across the northern hills of Tirisfal Glades. Vast mills and a family crypt marked their estate. The Agamand Family Axe rested with the ancestral arms, beside the buried patriarchs and warriors. The Scourge overran the estate and slaughtered its people, but the weapons stayed on racks underground.",
    "spoiler": 0
   },
   {
    "title": "Spiteful Restitution",
-   "body": "The Scourge raised the fallen Agamands as mindless thralls to the Lich King. Their former servant Coleman Farthing survived in undeath, bitter toward his old masters. Farthing blames the family for his own death and sends Forsaken wanderers into the crypt to take the axe, sword, mace, and dagger from the racks. He wants the last traces of the Agamand heritage erased.",
+   "body": "The Scourge raised the fallen Agamands as mindless thralls to the Lich King. Their former servant Coleman Farthing survived in undeath, bitter toward his old masters. He blames the family for his own death, so he sends Forsaken wanderers into the crypt to take the axe, sword, mace, and dagger from the racks. Farthing wants every last trace of the Agamand heritage erased.",
    "spoiler": 0
   }
  ],
@@ -67,7 +67,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "The weapons kept in the crypt show that the Agamand lineage had martial traditions alongside its wealth and grain stores."
+   "text": "As a warrior, you can see the Agamand lineage's martial traditions in the weapons kept in the crypt, alongside its wealth and grain stores."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Agamand Family Axe",
   "Agamand Heirlooms"
  ],
- "style": 1
+ "style": 2
 }

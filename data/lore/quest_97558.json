@@ -17,16 +17,16 @@
   "wiki": "Hides for the Forsaken",
   "chain": []
  },
- "summary": "In Tirisfal, the Forsaken gather animal skins to mend their ruined flesh. Shelene Rhobart asks you to bring darkhound hides, duskbat wing membranes, and murloc skin.",
+ "summary": "In Tirisfal, the Forsaken gather hides to keep their bodies intact. Shelene Rhobart asks you to bring darkhound hides, duskbat wing membranes, and murloc skin.",
  "sections": [
   {
    "title": "The Price of Undeath",
-   "body": "Forsaken flesh cannot heal on its own. A wound leaves a rotting gap, and the body cannot close it through natural means. To keep their forms intact, the Forsaken stitch living tissue over their injuries and keep their corpses working.",
+   "body": "Forsaken flesh cannot mend itself. When they are wounded, the gap rots and stays open. So they stitch living tissue over their injuries to hold their forms together and keep their corpses working.",
    "spoiler": 0
   },
   {
    "title": "Specialized Materials",
-   "body": "Different materials mend different parts of the body. Thick darkhound hide suits broad repairs that need to hold firm. Duskbat wing membranes are thin and pliable, covering faces and fingers without making them stiff. Vile Fin murloc skin lines inner membranes and sensitive places such as cheeks and mouths.",
+   "body": "Each kind of material mends a different part of the body. Thick darkhound hide holds firm over broad wounds. Duskbat wing membranes are thin and pliable, so they cover faces and fingers without stiffening them. Vile Fin murloc skin lines inner membranes and sensitive places such as cheeks and mouths.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "undead healing lore",
     "do undead heal"
    ],
-   "answer": "Forsaken skin cannot heal or grow back after an injury. They harvest skins and membranes from living creatures to cover wounds and slow the decay."
+   "answer": "Forsaken skin cannot heal or grow back after an injury. They take skins and membranes from living creatures to cover wounds and slow decay."
   },
   {
    "q": "Who is Shelene Rhobart?",
@@ -46,7 +46,7 @@
     "shelene rhobart",
     "who is shelene"
    ],
-   "answer": "Shelene Rhobart is a Forsaken leatherworker in Tirisfal Glades. She gathers hides and other materials so the wounded can mend their rotting forms."
+   "answer": "Shelene Rhobart is a Forsaken leatherworker in Tirisfal Glades. She gathers hides and other materials to help the wounded mend their rotting forms."
   },
   {
    "q": "Why are duskbat wing membranes specifically needed?",
@@ -84,11 +84,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you face the burdens of the Forsaken condition: keeping your body intact takes constant work and scavenged grafts, not natural healing."
+   "text": "As an undead, you face the burdens of the Forsaken condition. Keeping your body intact takes constant work and scavenged grafts, not natural healing."
   },
   {
    "target": "profession:Tailoring",
-   "text": "As a tailor, you can use your stitching to bind beast membranes to decaying bodies as well as to make garments."
+   "text": "As a tailor, you can use your stitching to bind beast membranes to decaying bodies and make garments."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Hides for the Forsaken"
  ],
- "style": 1
+ "style": 2
 }

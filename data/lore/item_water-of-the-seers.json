@@ -10,11 +10,11 @@
    "quest:772"
   ]
  },
- "summary": "In Bloodhoof Village, young tauren drink the sacred Water of the Seers before their tribal trials. The draught opens the mind to the spirit world and summons a Plains Vision to guide them.",
+ "summary": "In Bloodhoof Village, young tauren drink the sacred Water of the Seers before their tribal trials. The draught opens their minds to the spirit world and calls a Plains Vision to guide them.",
  "sections": [
   {
    "title": "A Vessel for the Spirit",
-   "body": "Young tauren drink the Water of the Seers before the tribal fire in Bloodhoof Village. Tribal mystics prepare the draught for the ancient Rite of Vision. It opens the drinker’s spiritual sight, and the Plains Vision appears from the embers to guide the way to Seer Wiserunner.",
+   "body": "Young tauren drink the Water of the Seers before the tribal fire in Bloodhoof Village. Tribal mystics prepare the draught for the ancient Rite of Vision. It opens the drinker’s spiritual sight. Then the Plains Vision rises from the embers and guides the way to Seer Wiserunner.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "drinking water of the seers",
     "plains vision water"
    ],
-   "answer": "Drinking the Water of the Seers beside the tribal fire opens your spiritual senses. The Plains Vision appears from the flames to guide you across Mulgore."
+   "answer": "Drinking the Water of the Seers beside the tribal fire opens your spiritual senses. The Plains Vision appears from the flames and guides you across Mulgore."
   },
   {
    "q": "Where should the water be consumed?",
@@ -44,13 +44,13 @@
     "plains vision destination",
     "who is the seer"
    ],
-   "answer": "The Plains Vision guides you northwest into Mulgore’s foothills, to the cave where Seer Wiserunner awaits to interpret your journey."
+   "answer": "The Plains Vision guides you northwest into Mulgore’s foothills. There, in a cave, Seer Wiserunner awaits to interpret your journey."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you drink the Water of the Seers as part of your passage into adulthood and your people’s sacred traditions."
+   "text": "As a tauren, you drink the Water of the Seers as you pass into adulthood and take part in your people’s sacred traditions."
   },
   {
    "target": "class:Shaman",
@@ -74,5 +74,5 @@
   "Water of the Seers",
   "Rite of Vision (3)"
  ],
- "style": 1
+ "style": 2
 }

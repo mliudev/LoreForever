@@ -10,11 +10,11 @@
    "quest:442"
   ]
  },
- "summary": "At the Sepulcher, High Executor Hadrec demands proof that Thule Ravenclaw is dead. His severed head confirms the commander of the Scourge forces on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest.",
+ "summary": "At the Sepulcher, High Executor Hadrec seeks proof that Thule Ravenclaw is dead. His severed head confirms the Scourge commander on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest.",
  "sections": [
   {
    "title": "Trophy of Fenris Isle",
-   "body": "Fenris Isle is the Lich King's chief Scourge stronghold in Silverpine Forest. From Fenris Keep, the necromancer Thule Ravenclaw commands rot hides and undead minions that threaten Forsaken outposts, including the Sepulcher. High Executor Hadrec will accept no report of Thule's death without his severed head. When Thule dies, dark magic surges through the woods. His head gives Hadrec the proof he needs to declare Fenris Isle broken.",
+   "body": "Fenris Isle is the Lich King's chief Scourge stronghold in Silverpine Forest. From Fenris Keep, the necromancer Thule Ravenclaw commands rot hides and undead minions that threaten Forsaken outposts, including the Sepulcher. High Executor Hadrec accepts no report of Thule's death without his severed head.\n\nWhen Thule dies, dark magic surges through the woods. His head gives Hadrec the proof he needs to declare Fenris Isle broken.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "who turned in thule head to",
     "who takes thule head"
    ],
-   "answer": "High Executor Hadrec, who commands Forsaken forces from the Sepulcher in Silverpine Forest, demands Thule's Head as proof that the Scourge leader is dead."
+   "answer": "High Executor Hadrec commands Forsaken forces from the Sepulcher in Silverpine Forest. He demands Thule's Head as proof that the Scourge leader is dead."
   },
   {
    "q": "Who was Thule Ravenclaw?",
@@ -43,7 +43,7 @@
     "why thule head",
     "why do they want his head"
    ],
-   "answer": "The Forsaken cannot leave Silverpine threatened by the Scourge. Necromancers are notorious for deceit and dark resurrections, so High Executor Hadrec demands physical proof that Thule is destroyed."
+   "answer": "The Forsaken cannot leave Silverpine threatened by the Scourge. Necromancers are known for deceit and dark resurrections, so High Executor Hadrec demands physical proof that Thule is destroyed."
   },
   {
    "q": "What happens when Thule Ravenclaw is slain?",
@@ -51,7 +51,7 @@
     "what happens after thule dies",
     "energy released thule"
    ],
-   "answer": "When Thule Ravenclaw is slain, necrotic energy bursts across the region. Forsaken scholars and apothecaries at the Sepulcher can sense the magical shockwave from afar."
+   "answer": "When Thule Ravenclaw is slain, necrotic energy bursts across the region. Forsaken scholars and apothecaries at the Sepulcher sense the magical shockwave from afar."
   }
  ],
  "angles": [
@@ -87,5 +87,5 @@
   "Thule's Head",
   "Assault on Fenris Isle"
  ],
- "style": 1
+ "style": 2
 }

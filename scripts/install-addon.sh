@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copy the add-on, its default voice pack and any language packs built next to it (addon/LoreForever_Lang_*) into
+# Copy the add-on, its default voice pack and the language packs (built first: addon/LoreForever_Lang_*) into
 # WoW Forever's AddOns folder (_forever_, else the beta's _classic_beta_; a copy, since Windows can't follow WSL symlinks).
 # FLAVOR=_retail_ (or _classic_era_, ...) installs into another client instead, as a stand-in for UI work while there's
 # no Forever world: the installed copies then carry that client's Interface number (set_interface below).
@@ -8,6 +8,12 @@ ADDONS_SRC="$(cd "$(dirname "$0")/.." && pwd)/addon"
 # A sparse worktree without the language folders would install English only. Add them here (one line says so) rather than
 # stop; if that fails or they're still missing, it stops with the line that adds them.
 [ ! -f "$ADDONS_SRC/../scripts/need_langs.py" ] || python3 "$ADDONS_SRC/../scripts/need_langs.py" --add "${0##*/}" || exit 1   # (a fixture copy of this script has no checkout)
+# The language packs are build output, not in git (LOR-441): built here, only those whose sources changed since this
+# checkout last built them (seconds when none did). LORE_INSTALL_BUILD=0 installs whatever is built as it is.
+if [ "${LORE_INSTALL_BUILD:-1}" = 1 ] && [ -f "$ADDONS_SRC/../scripts/compile_languages.py" ] && [ -d "$ADDONS_SRC/../release/shipped-langs" ]; then
+  python3 "$ADDONS_SRC/../scripts/compile_languages.py" --all --if-stale \
+    || { echo "${0##*/}: the language packs didn't build (above)" >&2; exit 1; }
+fi
 FOLDERS=(LoreForever LoreForever_Voice_Default)
 for d in "$ADDONS_SRC"/LoreForever_Lang_*; do [ -d "$d" ] && FOLDERS+=("$(basename "$d")"); done
 # WOW_DIR wins; otherwise take the first drive that has the flavor (default WoW Forever: _forever_, else the beta's

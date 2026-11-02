@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Gunther's Retreat"
  },
- "summary": "On an island in Brightwater Lake, Gunther's Retreat shelters a renegade necromancer. Gunther Arcanus broke free of the Scourge through sheer will, but trusts no outsider and keeps undead minions around his camp.",
+ "summary": "On an island in Brightwater Lake, Gunther's Retreat shelters a renegade necromancer. Gunther Arcanus broke free of the Scourge by sheer will, yet trusts no outsider and keeps undead minions near his camp.",
  "sections": [
   {
    "title": "A Recluse in Brightwater Lake",
-   "body": "Mist hangs over the waters around Gunther's Retreat, where undead sentinels guard a lonely camp. Gunther Arcanus was raised in undeath, but his arcane mastery let him tear his soul from the Lich King's grip without help. He mistrusted everyone and believed the undead wandering Lordaeron remained puppets of the Scourge. Gunther withdrew to the island to practice his craft in peace, and his zombie sentinels attack anyone who crosses the water.",
+   "body": "Mist hangs over Brightwater Lake, where undead sentinels guard Gunther Arcanus's lonely camp. Raised in undeath, Gunther mastered the arcane arts and tore his soul from the Lich King's grip without help.\n\nHe mistrusts everyone and believes the undead wandering Lordaeron remain puppets of the Scourge. So Gunther withdrew to the island to practice his craft in peace. His zombie sentinels attack anyone who crosses the water.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is on the island",
     "gunther's retreat master"
    ],
-   "answer": "Gunther Arcanus, a necromancer who broke free of the Lich King's control by his own power, lives on the island. Undead thralls guard his camp."
+   "answer": "Gunther Arcanus, a necromancer, lives on the island. He broke free of the Lich King's control by his own power, and undead thralls guard his camp."
   },
   {
    "q": "Why are the undead on the island hostile?",
@@ -41,7 +41,7 @@
     "gunther forsaken",
     "gunther undercity"
    ],
-   "answer": "At first, Gunther keeps apart from the Forsaken, though he is also free-willed undead. The authorities in the Undercity seek to prove they too have escaped the Lich King's grasp and to recruit his talents."
+   "answer": "At first, Gunther keeps apart from the Forsaken, though he too is free-willed undead. The authorities in the Undercity seek to prove they have escaped the Lich King's grasp and to recruit his talents."
   },
   {
    "q": "What is the small islet southwest of the retreat?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Gunther Arcanus shares the Forsaken's fate: free of the Lich King, yet wary of a world he believes remains under the Scourge's thrall."
+   "text": "As an undead, Gunther Arcanus shares the Forsaken's fate: free of the Lich King, yet wary of a world he believes remains under the Scourge's thrall."
   },
   {
    "target": "class:Mage",
-   "text": "Arcanists may recognize Gunther's rare feat: his magical will severed the Lich King's mental grip without help."
+   "text": "As a mage, you may recognize Gunther's rare feat: his magical will severed the Lich King's mental grip without help."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Gunther's Retreat"
  ],
- "style": 1
+ "style": 2
 }

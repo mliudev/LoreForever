@@ -10,16 +10,16 @@
    "quest:451"
   ]
  },
- "summary": "Around Lake Lordamere’s southern Dawning Isles, Lake Creeper Moss grows on aquatic beasts. The Royal Apothecary Society seeks the organic compound as a vital reagent for engineering a lethal new plague.",
+ "summary": "Around the southern Dawning Isles, Lake Creeper Moss grows on aquatic beasts. The Royal Apothecary Society seeks this organic compound as a vital reagent for engineering a lethal new plague.",
  "sections": [
   {
    "title": "Alchemical Harvest",
-   "body": "Lake Creeper Moss grows on the hides of freshwater beasts in the waters by the southern Dawning Isles. Lordaeron’s blighted waters shape its unusual properties. Before Arugal’s curse claimed his mind, Apothecary Berard recorded the moss in his journal. He noted its resemblance to traces found on fossils of creatures killed by an ancient plague in the lake. Forsaken agents send recovered samples to the Apothecarium in the Undercity, where Master Apothecary Faranell uses them in his research.",
+   "body": "Lake Creeper Moss grows on the hides of freshwater beasts in the waters by the southern Dawning Isles. Lordaeron’s blighted waters give it unusual properties. Before Arugal’s curse claimed his mind, Apothecary Berard recorded the moss in his journal.\n\nHe found it resembled traces on fossils of creatures killed by an ancient plague in the lake. Forsaken agents send recovered samples to the Apothecarium in the Undercity, where Master Apothecary Faranell uses them in his research.",
    "spoiler": 0
   },
   {
    "title": "Fueling the New Plague",
-   "body": "Lake Creeper Moss is a critical stage in developing the Forsaken’s signature weapon. Along with moss gathered from Lake Skulkers and diseased tumors taken from local Vile Fin murlocs, it provides the organic foundation for refining a strain meant to exterminate living tissue and the Scourge alike. Though the apothecary who discovered its use is lost, the Royal Apothecary Society continues to brew his recipe in service of the Dark Lady.",
+   "body": "Lake Creeper Moss is a critical stage in developing the Forsaken’s signature weapon. With moss from Lake Skulkers and diseased tumors from local Vile Fin murlocs, it provides the organic foundation for refining a strain meant to exterminate living tissue and the Scourge alike. Though the apothecary who discovered its use is lost, the Royal Apothecary Society still brews his recipe in service of the Dark Lady.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "berard moss",
     "who wrote about creeper moss"
    ],
-   "answer": "Before Arugal’s curse left Apothecary Berard a mindless servant in Pyrewood Village, he documented the moss’s alchemical properties in his field journal. Apothecary Renferrel later recovered his notes."
+   "answer": "Before Arugal’s curse left Apothecary Berard a mindless servant in Pyrewood Village, Berard recorded the moss’s alchemical properties in his field journal. Apothecary Renferrel later recovered his notes."
   },
   {
    "q": "Who receives the harvested moss?",
@@ -68,7 +68,7 @@
   },
   {
    "target": "profession:Herbalism",
-   "text": "Though it grows on water beasts rather than in soil, the moss belongs to Lordaeron’s darker, experimental flora, gathered for apothecary research."
+   "text": "Though it grows on water beasts rather than in soil, the moss belongs to Lordaeron’s darker, experimental flora. It is gathered for apothecary research."
   }
  ],
  "keywords": [
@@ -96,5 +96,5 @@
   "Lake Creeper Moss",
   "A Recipe For Death (3)"
  ],
- "style": 1
+ "style": 2
 }

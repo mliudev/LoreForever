@@ -10,11 +10,11 @@
    "quest:781"
   ]
  },
- "summary": "Bristleback Attack Plans warn of a planned siege on Camp Narache. Quilboar of Brambleblade Ravine drew crude maps and tactical notes for an assault meant to overrun the tauren settlement.",
+ "summary": "At Camp Narache, the Bristleback prepare to lay siege to the tauren settlement. Quilboar in Brambleblade Ravine drew crude maps and notes for an assault meant to overrun it.",
  "sections": [
   {
    "title": "A Plot Against the Mesa",
-   "body": "The Bristleback quilboar plan a sustained assault on Camp Narache. Their leadership means to push beyond skirmishes along the borders of the Red Cloud Mesa and wipe out the young tauren training there. The plans lie deep within a dirt cave in Brambleblade Ravine. Chief Hawkwind can send word to Bloodhoof Village for reinforcements, giving Camp Narache a chance to blunt the invasion before it begins.",
+   "body": "The Bristleback quilboar are preparing a sustained assault on Camp Narache. Their leaders mean to move beyond border skirmishes on Red Cloud Mesa and wipe out the young tauren training there. The plans lie deep in a dirt cave in Brambleblade Ravine. Chief Hawkwind can send for reinforcements from Bloodhoof Village, giving Camp Narache a chance to blunt the invasion before it begins.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is on the map",
     "bristleback battle plans"
    ],
-   "answer": "The plans contain a tactical map and crude instructions for a siege on Camp Narache, showing that the quilboar are organizing a prolonged assault rather than sporadic raids."
+   "answer": "The plans contain a tactical map and crude instructions for a siege on Camp Narache. They show the quilboar are organizing a prolonged assault rather than sporadic raids."
   },
   {
    "q": "Where are these plans found?",
@@ -35,7 +35,7 @@
     "where do i find the map",
     "bristleback attack plans location"
    ],
-   "answer": "The plans lie on the dirt floor of an elevated cave in Brambleblade Ravine, just up a side path from the Bristleback chieftain's hut."
+   "answer": "The plans lie on the dirt floor of an elevated cave in Brambleblade Ravine. The cave is just up a side path from the Bristleback chieftain's hut."
   },
   {
    "q": "What does Chief Hawkwind do once he receives the plans?",
@@ -44,7 +44,7 @@
     "camp narache response",
     "chief hawkwind reaction"
    ],
-   "answer": "Chief Hawkwind uses the plans to summon aid and warriors from Bloodhoof Village to reinforce Camp Narache's defenses."
+   "answer": "Chief Hawkwind uses the plans to summon aid and warriors from Bloodhoof Village. They will reinforce Camp Narache's defenses."
   },
   {
    "q": "Why are the Bristleback attacking Camp Narache?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, uncovering the plot helps defend the training grounds where young tauren take their first rites, and protects elders and novices from a quilboar siege."
+   "text": "As a tauren, uncovering the plot helps defend the training grounds where young tauren take their first rites. It also protects elders and novices from a quilboar siege."
   },
   {
    "target": "faction:Horde",
@@ -86,5 +86,5 @@
   "Bristleback Attack Plans",
   "Attack on Camp Narache"
  ],
- "style": 1
+ "style": 2
 }

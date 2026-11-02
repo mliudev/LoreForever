@@ -23,16 +23,16 @@
    "Training the Beast (Tauren)"
   ]
  },
- "summary": "In Mulgore, young tauren hunters are sent to Bloodhoof Village for advanced training. There, they seek Yaw Sharpmane and begin the trials of taming and bonding with wild beasts.",
+ "summary": "In Mulgore, The Hunter's Path sends young tauren to Bloodhoof Village for advanced training. There they seek Yaw Sharpmane and begin the trials of taming and bonding with wild beasts.",
  "sections": [
   {
    "title": "A Rite of Passage",
-   "body": "Among the Shu'halo, hunting is sacred. A hunter learns the balance of nature, honors the spirits of the plains, and respects the animals that sustain the tribes. When young hunters prove they can survive in the wild and use a bow or gun, their elders send them to seasoned mentors. That journey marks their step beyond solitary tracking and toward adulthood in tauren culture.",
+   "body": "Among the Shu'halo, hunting is sacred. A hunter learns nature's balance, honors the plains' spirits, and respects the animals that sustain the tribes. After young hunters prove they can survive in the wild and use a bow or gun, their elders send them to seasoned mentors. The journey marks their step beyond solitary tracking and toward adulthood in tauren culture.",
    "spoiler": 0
   },
   {
    "title": "The Road to Bloodhoof Village",
-   "body": "The road crosses Mulgore's grasslands to Bloodhoof Village, beside Stonebull Lake. There, Yaw Sharpmane teaches hunters about the local beasts. Meeting him marks a hunter's readiness for the trials of beast taming, where they learn to commune with predators as well as hunt them.",
+   "body": "The road to Bloodhoof Village crosses Mulgore's grasslands and reaches the settlement beside Stonebull Lake. There, Yaw Sharpmane teaches hunters about the local beasts. Meeting him marks a hunter's readiness for the trials of beast taming. They learn to commune with predators as well as hunt them.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "who gives the hunters path",
     "hunter trainer quest"
    ],
-   "answer": "Tauren hunter trainers send aspiring hunters once they have mastered the basics of survival and marksmanship. Kary Thunderhorn in Thunder Bluff is one such trainer."
+   "answer": "Tauren hunter trainers send aspiring hunters after they master the basics of survival and marksmanship. Kary Thunderhorn in Thunder Bluff is one such trainer."
   },
   {
    "q": "Who is Yaw Sharpmane?",
@@ -68,7 +68,7 @@
     "what comes next",
     "next quest after hunters path"
    ],
-   "answer": "After speaking with Yaw Sharpmane, you begin the 'Taming the Beast' trials. You venture into the wild with a taming rod and pacify several native creatures before earning the right to train a permanent companion."
+   "answer": "After speaking with Yaw Sharpmane, you begin the Taming the Beast trials. You venture into the wild with a taming rod and pacify several native creatures before earning the right to train a permanent companion."
   },
   {
    "q": "Why do tauren hunters bond with beasts instead of just hunting them?",
@@ -76,7 +76,7 @@
     "tauren pet lore",
     "why tame pets tauren"
    ],
-   "answer": "Tauren tradition holds that beasts are kindred spirits of the Earth Mother. A bonded animal is a companion and partner on the hunt, sharing in mutual respect and survival on the plains."
+   "answer": "Tauren tradition holds that beasts are kindred spirits of the Earth Mother. A bonded animal is a companion and partner on the hunt, sharing mutual respect and survival on the plains."
   },
   {
    "q": "Can hunters of other races take this specific quest?",
@@ -90,7 +90,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you take your first step from archer or rifleman toward becoming a beastmaster with a loyal companion at your side."
+   "text": "As a hunter, you take your first step from archer or rifleman toward becoming a beastmaster, with a loyal companion at your side."
   },
   {
    "target": "race:Tauren",
@@ -122,5 +122,5 @@
  "attribution": [
   "The Hunter's Path (Tauren)"
  ],
- "style": 1
+ "style": 2
 }

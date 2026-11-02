@@ -22,16 +22,16 @@
    "The Binding (Voidwalker, Undercity)"
   ]
  },
- "summary": "A formal summons calls promising Forsaken warlocks to advanced training in Undercity. Carendin Halgar expects those who have reached a threshold in their craft to join him in the Magic Quarter, where dangerous Nether beings await.",
+ "summary": "In Undercity, Halgar's Summons calls promising Forsaken warlocks to advanced training. Carendin Halgar awaits those who have mastered the first fel arts in the Magic Quarter, where dangerous beings from the Nether test their skill.",
  "sections": [
   {
    "title": "A Master's Notice",
-   "body": "Word of a warlock's control over basic fel energies travels from Brill or the Tirisfal wilderness to Undercity. Ageron Kargal, a senior practitioner who spots talent, sends notice to those who show promise. Carendin Halgar's summons marks a rare privilege and a perilous step in a warlock's training. Basic imps and petty curses no longer suffice.",
+   "body": "A warlock's command of basic fel energies earns notice in Brill or the Tirisfal wilderness. Ageron Kargal, a senior practitioner who recognizes talent, sends word to those who show promise. Carendin Halgar's summons is a rare privilege and a perilous step in a warlock's training. Basic imps and petty curses no longer suffice.",
    "spoiler": 0
   },
   {
    "title": "The Magic Quarter",
-   "body": "Carendin Halgar oversees warlock rites in Undercity's Magic Quarter, near the Temple of the Damned. Forsaken darkcasters lack the living's moral restraint, but planar summonings still demand discipline. Halgar tolerates neither hesitation nor sentimentality. Those called to him are expected to show deference and be ready to face the hostile horrors of the Twisting Nether.",
+   "body": "Carendin Halgar oversees warlock rites in Undercity's Magic Quarter, near the Temple of the Damned. Forsaken darkcasters lack the moral restraint of the living, but summoning across the planes still demands discipline. Halgar tolerates neither hesitation nor sentiment. Those called to him are expected to show deference and face the hostile horrors of the Twisting Nether.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "master halgar",
     "who is halgar"
    ],
-   "answer": "Carendin Halgar is the chief warlock trainer in Undercity's Magic Quarter. He oversees the dark development of Forsaken summoners and tests their resolve before teaching them to bind powerful Nether creatures."
+   "answer": "Carendin Halgar is Undercity's chief warlock trainer, in the Magic Quarter. He guides Forsaken summoners in the dark arts and tests their resolve before teaching them to bind powerful Nether creatures."
   },
   {
    "q": "Who directs me to Halgar?",
@@ -52,7 +52,7 @@
     "ageron kargal",
     "who gives quest"
    ],
-   "answer": "Ageron Kargal, an established warlock trainer stationed in Brill, sends you after learning that Master Halgar has taken a personal interest in your progress."
+   "answer": "Ageron Kargal, a seasoned warlock trainer in Brill, sends you to Halgar after learning that the master has taken a personal interest in your progress."
   },
   {
    "q": "Where can I find Carendin Halgar in Undercity?",
@@ -61,7 +61,7 @@
     "where is halgar",
     "magic quarter halgar"
    ],
-   "answer": "Halgar is in Undercity's Magic Quarter, near the dark dais called the Temple of the Damned."
+   "answer": "Carendin Halgar is in Undercity's Magic Quarter, near the Temple of the Damned."
   },
   {
    "q": "Why is this summons important?",
@@ -70,7 +70,7 @@
     "quest purpose",
     "what does halgars summons lead to"
    ],
-   "answer": "The summons marks your passage from basic spellcasting to dangerous demonic subjugation. It begins the trials required to bind a Voidwalker to your service."
+   "answer": "The summons marks your passage from basic spellcasting to the peril of subduing demons. It begins the trials required to bind a Voidwalker to your service."
   },
   {
    "q": "Is Halgar willing to teach anyone?",
@@ -78,7 +78,7 @@
     "can anyone talk to halgar",
     "halgar requirements"
    ],
-   "answer": "Halgar gives his attention to promising warlocks. He has little time for idle pleasantries and expects any apprentice brought before him to have proven capable with volatile fel arts."
+   "answer": "Halgar gives his attention to promising warlocks. He has little patience for idle pleasantries and expects every apprentice brought before him to have proven capable with volatile fel arts."
   },
   {
    "q": "What happens after reporting to Halgar?",
@@ -86,17 +86,17 @@
     "what comes next",
     "after halgars summons"
    ],
-   "answer": "When you report to Halgar, he tests your magic by assigning you to gather the components needed to summon and bind an otherworldly shadow minion."
+   "answer": "When you report to Halgar, he tests your magic by sending you to gather the components needed to summon and bind an otherworldly shadow minion."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you pass from elementary training to planar enslavement under the scrutiny of Undercity's foremost master of the dark arts."
+   "text": "As a warlock, you leave elementary training behind and face planar enslavement under Undercity's foremost master of the dark arts."
   },
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you pursue shadow and fel with ruthless ambition. Halgar's sanctum reflects your people's practical disregard for the caution of the living."
+   "text": "As Forsaken, you pursue shadow and fel with ruthless ambition. Halgar's sanctum reflects your people's practical disregard for the living's caution."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Halgar's Summons"
  ],
- "style": 1
+ "style": 2
 }

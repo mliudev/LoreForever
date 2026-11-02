@@ -8,16 +8,16 @@
   "wiki": "High Executor Derrington",
   "refs": 4
  },
- "summary": "At the Bulwark, High Executor Derrington directs the Forsaken vanguard against threats from the Western Plaguelands. A no-nonsense military officer, he sends seasoned champions toward contested ruins such as Andorhal and Scholomance.",
+ "summary": "At the Bulwark, High Executor Derrington directs the Forsaken vanguard against threats from the Western Plaguelands. He sends seasoned champions toward contested ruins such as Andorhal and Scholomance.",
  "sections": [
   {
    "title": "Commander at the Threshold",
-   "body": "At the Bulwark’s barricades, High Executor Derrington gives orders to those crossing from Tirisfal Glades into the Western Plaguelands. He has little patience for political maneuvering in the Undercity and sees the front lines as a crucible of sheer survival. Horde soldiers and sellswords receive direct orders to scout plague-ridden territory and blunt enemy incursions before they reach Tirisfal.",
+   "body": "High Executor Derrington commands the Bulwark’s barricades, where soldiers cross from Tirisfal Glades into the Western Plaguelands. He has little patience for political maneuvering in the Undercity. To him, the front lines are a test of survival. So he orders Horde soldiers and sellswords to scout plague-ridden territory and blunt enemy incursions before they reach Tirisfal.",
    "spoiler": 0
   },
   {
    "title": "A War on Two Fronts",
-   "body": "The Bulwark faces threats from the Scourge in Andorhal and from the Scarlet Crusade farther north. Scourge forces spread corruption through cauldrons in the countryside, while the Crusade’s zealous fanatics contest northern fortifications and skirmish relentlessly with Forsaken patrols. Derrington coordinates surgical counterattacks, sabotage against Scarlet lines, and systematic disruption of Scourge cauldron fields to protect the eastern border.",
+   "body": "The Bulwark faces the Scourge in Andorhal and the Scarlet Crusade farther north. Scourge forces spread corruption through cauldrons in the countryside. The Crusade’s zealous fanatics contest northern fortifications and skirmish relentlessly with Forsaken patrols. Derrington coordinates sharp counterattacks, sabotage against Scarlet lines, and the systematic disruption of Scourge cauldron fields to protect the eastern border.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is derrington",
     "high executor derrington lore"
    ],
-   "answer": "High Executor Derrington is the senior Forsaken commander stationed at the Bulwark, the military outpost between Tirisfal Glades and the Western Plaguelands. He coordinates the Horde’s eastward push against the Scourge and the Scarlet Crusade."
+   "answer": "High Executor Derrington commands the Forsaken at the Bulwark, the military outpost between Tirisfal Glades and the Western Plaguelands. He coordinates the Horde’s eastward push against the Scourge and the Scarlet Crusade."
   },
   {
    "q": "Where is Derrington located?",
@@ -38,7 +38,7 @@
     "derrington location",
     "find high executor derrington"
    ],
-   "answer": "Derrington is stationed at the Bulwark, a fortified choke point at Tirisfal Glades’ eastern edge, along the road into the Western Plaguelands."
+   "answer": "Derrington is stationed at the Bulwark, a fortified choke point at Tirisfal Glades’ eastern edge along the road into the Western Plaguelands."
   },
   {
    "q": "What is Derrington's objective at the Bulwark?",
@@ -47,7 +47,7 @@
     "bulwark purpose",
     "derrington mission"
    ],
-   "answer": "Derrington seeks to preserve Forsaken survival with a strong defense against the Scourge and strikes into the Western Plaguelands. He sends adventurers to scout Andorhal, disable plague cauldrons, and neutralize Scarlet Crusade operations."
+   "answer": "Derrington seeks to preserve Forsaken survival through strong defense against the Scourge and strikes into the Western Plaguelands. He sends adventurers to scout Andorhal, disable plague cauldrons, and disrupt Scarlet Crusade operations."
   },
   {
    "q": "Does Derrington care about Undercity politics?",
@@ -55,7 +55,7 @@
     "derrington personality",
     "is derrington political"
    ],
-   "answer": "No. Derrington disdains court schemers and politicians; on the front lines, survival must be fought for every day."
+   "answer": "No. Derrington has little patience for Undercity politicians and schemers. On the front lines, survival must be fought for every day."
   },
   {
    "q": "What major threats does Derrington send soldiers against?",
@@ -63,7 +63,7 @@
     "derrington quests",
     "what does derrington fight"
    ],
-   "answer": "Derrington sends soldiers against the Scourge holding Andorhal, the dark necromancers inside Scholomance, and nearby Scarlet Crusade garrisons threatening the Horde’s eastern supply routes."
+   "answer": "Derrington sends soldiers against the Scourge in Andorhal, the dark necromancers inside Scholomance, and nearby Scarlet Crusade garrisons threatening the Horde’s eastern supply routes."
   },
   {
    "q": "Why is the Bulwark so heavily fortified?",
@@ -71,7 +71,7 @@
     "why is the bulwark here",
     "bulwark lore"
    ],
-   "answer": "The Bulwark is the primary chokepoint between Tirisfal Glades and the Plaguelands’ active combat zones. Its forces hold the pass to keep Scourge swarms or Scarlet Crusade forces from sweeping toward the Undercity."
+   "answer": "The Bulwark guards the passage between Tirisfal Glades and the Plaguelands’ active combat zones. Its forces hold the pass to keep Scourge swarms or Scarlet Crusade forces from sweeping toward the Undercity."
   }
  ],
  "angles": [
@@ -81,11 +81,11 @@
   },
   {
    "target": "race:Undead",
-   "text": "Derrington represents the Forsaken military’s martial backbone, guarding their reclaimed lands against the Scourge’s attempt to reclaim them and against Scarlet fanaticism."
+   "text": "As Forsaken, you see Derrington uphold the military strength that guards reclaimed lands against the Scourge and Scarlet fanaticism."
   },
   {
    "target": "class:Warrior",
-   "text": "Derrington embodies a front-line soldier’s grim, practical grit, valuing martial competence and battlefield results over court scheming."
+   "text": "As a warrior, you see Derrington value martial skill and battlefield results over court scheming."
   }
  ],
  "keywords": [
@@ -111,5 +111,5 @@
  "attribution": [
   "High Executor Derrington"
  ],
- "style": 1
+ "style": 2
 }

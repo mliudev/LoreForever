@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Unnatural Preservation",
-   "body": "Rot Hide gnolls at Garren's Haunt and the nearby mass graves are rotting thralls sent by the Scourge to dig up plague victims. Embalming Ichor flows through their decayed veins, preserving their flesh and sustaining their unlife. Magistrate Sevren in Brill wants vials recovered from these grave robbers. The Royal Apothecary Society will use fresh specimens to study the fluid and seek ways to turn it against the Lich King's minions.",
+   "body": "At Garren's Haunt and the nearby mass graves, Rot Hide gnolls dig up plague victims for the Scourge. They are rotting thralls, sent to serve the Lich King's minions.\n\nEmbalming Ichor runs through their decayed veins. It preserves their flesh and sustains their unlife. Magistrate Sevren in Brill wants vials recovered from the grave robbers, so the Royal Apothecary Society can study fresh specimens and find ways to turn the fluid against the Scourge.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is ichor",
     "gnoll fluid"
    ],
-   "answer": "Embalming Ichor is a preserving fluid found in the animated bodies of Rot Hide gnolls in Tirisfal Glades. It sustains their rotting flesh and keeps them moving for the Scourge."
+   "answer": "Rot Hide gnolls in Tirisfal Glades carry Embalming Ichor in their animated bodies. The fluid preserves their rotting flesh and sustains their unlife for the Scourge."
   },
   {
    "q": "Who wants this ichor collected?",
@@ -44,7 +44,7 @@
     "mass graves tirisfal",
     "gnoll scourge connection"
    ],
-   "answer": "The Scourge sends Rot Hide gnolls to dig up plague victims buried in the northern mass graves near Garren's Haunt, seeking bodies to bolster its ranks."
+   "answer": "The Scourge sends Rot Hide gnolls to dig up plague victims in the northern mass graves near Garren's Haunt. The Scourge seeks bodies to bolster its ranks."
   },
   {
    "q": "What do the Forsaken plan to do with the fluid?",
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you deny the Scourge fresh cadavers from the mass graves, helping protect Tirisfal and securing raw materials for your own survival."
+   "text": "As Forsaken, you deny the Scourge fresh cadavers from the mass graves. You help protect Tirisfal and secure raw materials for your own survival."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As a herbalist, you may find the preservation fluid inside Rot Hides intriguing as you study dark alchemical methods and the plague's reagents."
+   "text": "As a herbalist, you may find the preservation fluid inside Rot Hides intriguing. It offers a subject for studying dark alchemical methods and the plague's reagents."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Embalming Ichor",
   "Graverobbers (Classic)"
  ],
- "style": 1
+ "style": 2
 }

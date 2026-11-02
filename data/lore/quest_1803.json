@@ -17,16 +17,16 @@
   "wiki": "Tome of the Cabal (Horde, 2)",
   "chain": []
  },
- "summary": "Horde warlocks seek the Tome of the Cabal's severed halves for Jorah Annison in the Undercity. Once kept in Lordaeron, the grimoire was torn apart and scattered across the world. Its damp, tattered remnants lie along hostile Eastern Kingdoms waters and deep in Kalimdor's centaur territory.",
+ "summary": "In the Undercity, Horde warlocks seek the Tome of the Cabal's scattered halves for Jorah Annison. Once kept in Lordaeron, the grimoire was torn apart, and its remnants lie along the hostile waters of the Eastern Kingdoms and deep in Kalimdor's centaur lands.",
  "sections": [
   {
    "title": "A Divided Legacy",
-   "body": "The Tome of the Cabal once rested in the library of Lordaeron. Someone deliberately defaced the sinister grimoire, stripping away nearly half its pages and splitting it in two. The surviving formal text was bound for the dwarven halls of Ironforge, but the transport wrecked along the rocky coast west of Southshore. Its pages now rot in the shallows beneath the watch of scavenging murlocs.",
+   "body": "The Tome of the Cabal once rested in Lordaeron's library. Someone defaced the sinister grimoire, tore away nearly half its pages, and split it in two. The surviving bound text was sent to the dwarven halls of Ironforge. But its transport wrecked along the rocky coast west of Southshore, and the pages now rot in the shallows beneath scavenging murlocs.",
    "spoiler": 0
   },
   {
    "title": "Scattered across Continents",
-   "body": "The vandalized half traveled far from Lordaeron to southern Kalimdor. Deep in Splithoof Hold in Thousand Needles, the Galak centaur hold the manuscript roughly. A warlock must search the damp Hillsbrad shoreline for the Moldy Tome, then enter the dusty, savage centaur canyons for the Tattered Manuscript. When both remnants reach Jorah Annison, the legendary dark text is restored to one readable volume.",
+   "body": "The other half traveled from Lordaeron to southern Kalimdor. Deep in Splithoof Hold in Thousand Needles, the Galak centaur keep the manuscript roughly. You search the damp Hillsbrad shoreline for the Moldy Tome, then enter dusty, savage centaur canyons for the Tattered Manuscript. When both remnants reach Jorah Annison, the legendary dark text is whole and readable again.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "moldy tome origin",
     "coast west of southshore"
    ],
-   "answer": "After the tome was vandalized, its surviving bound portion was meant for scholars in Ironforge. The vessel carrying it wrecked on the coast west of Southshore, leaving the book stranded among local murlocs."
+   "answer": "After the tome was vandalized, its surviving bound portion was meant for scholars in Ironforge. The vessel wrecked on the coast west of Southshore, leaving the book stranded among local murlocs."
   },
   {
    "q": "How did the pages end up with the centaur in Thousand Needles?",
@@ -56,7 +56,7 @@
     "thousand needles pages",
     "splithoof hold book"
    ],
-   "answer": "Roughly half the pages were torn from the original tome in Lordaeron and smuggled away. Through trade, plunder, or wandering hands, the tattered manuscript eventually came to rest deep inside Splithoof Hold, where the Galak centaur keep it in a chest."
+   "answer": "Roughly half the pages were torn from the original tome in Lordaeron and smuggled away. Through trade, plunder, or wandering hands, the Tattered Manuscript came to rest deep inside Splithoof Hold, where the Galak centaur keep it in a chest."
   },
   {
    "q": "Who is Jorah Annison?",
@@ -64,7 +64,7 @@
     "jorah annison lore",
     "who is jorah"
    ],
-   "answer": "Jorah Annison is a Forsaken warlock in the Undercity's Magic Quarter. He guides rising Horde warlocks in recovering forgotten, forbidden lore to deepen their mastery of demonic forces."
+   "answer": "Jorah Annison is a Forsaken warlock in the Undercity's Magic Quarter. He guides rising Horde warlocks as they recover forgotten, forbidden lore and deepen their mastery of demonic forces."
   },
   {
    "q": "Who vandalized the tome in the first place?",
@@ -73,7 +73,7 @@
     "who stole the pages",
     "tome vandal"
    ],
-   "answer": "Who vandalized the tome remains unknown. Jorah Annison laments the damage and wonders who could commit such an act against a text with such occult power."
+   "answer": "Who vandalized the tome remains unknown. Jorah Annison laments the damage and wonders who could commit such an act against a text of such occult power."
   },
   {
    "q": "What does Jorah do with the book once you bring both parts back?",
@@ -81,7 +81,7 @@
     "what happens after turn in",
     "restored tome"
    ],
-   "answer": "When you bring both the Moldy Tome and the Tattered Manuscript, Jorah Annison assembles them into one volume and reads its pages, preparing you for the next steps in your demonic rites."
+   "answer": "When you bring both the Moldy Tome and the Tattered Manuscript, Jorah Annison assembles them into one volume and reads its pages. He prepares you for the next steps in your demonic rites."
   }
  ],
  "angles": [
@@ -91,7 +91,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you recover a tome once kept in Lordaeron, before the kingdom fell. Its return reclaims occult heritage from your past human lives."
+   "text": "As an undead, you recover a tome once kept in Lordaeron before the kingdom fell. Its return reclaims occult heritage from your past human lives."
   },
   {
    "target": "faction:Horde",
@@ -123,5 +123,5 @@
  "attribution": [
   "Tome of the Cabal (Horde, 2)"
  ],
- "style": 1
+ "style": 2
 }

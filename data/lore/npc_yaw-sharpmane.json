@@ -8,11 +8,11 @@
   "wiki": "Yaw Sharpmane",
   "refs": 5
  },
- "summary": "In Bloodhoof Village, Yaw Sharpmane guides young tauren hunters. He teaches them to track, survive, and tame Mulgore's wild beasts.",
+ "summary": "Bloodhoof Village is where Yaw Sharpmane teaches young tauren hunters. He shows them how to track, survive, and tame Mulgore's wild beasts.",
  "sections": [
   {
    "title": "A Guide on the Plains",
-   "body": "Yaw Sharpmane teaches marksmanship, tracking, and survival in Bloodhoof Village. Young hunters who have proven themselves in Red Cloud Mesa come to him to hone their skills before venturing onto the wider plains of Mulgore.",
+   "body": "Yaw Sharpmane teaches marksmanship, tracking, and survival in Bloodhoof Village. Young hunters who have proven themselves in Red Cloud Mesa come to him to hone their skills before they venture onto Mulgore's wider plains.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "yaw hunter skills",
     "yaw abilities"
    ],
-   "answer": "Yaw Sharpmane teaches hunters basic abilities and guides promising hunters through the rites of taming and commanding beasts."
+   "answer": "Yaw Sharpmane teaches hunters basic abilities. He guides promising hunters through the rites of taming and commanding beasts."
   },
   {
    "q": "What quests does Yaw offer?",
@@ -106,5 +106,5 @@
  "attribution": [
   "Yaw Sharpmane"
  ],
- "style": 1
+ "style": 2
 }

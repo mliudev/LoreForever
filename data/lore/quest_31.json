@@ -17,16 +17,16 @@
   "wiki": "Aquatic Form (Horde)",
   "chain": []
  },
- "summary": "In Thunder Bluff, a young Horde druid returns to master the waters. After proving worthy in Moonglade and attuning to the sea lion aspect, the druid comes home for formal recognition and Aquatic Form.",
+ "summary": "In Thunder Bluff, a young Horde druid returns to be recognized among the keepers of nature. The druid has proved worthy in Moonglade and taken on the sea lion aspect; now formal recognition brings Aquatic Form.",
  "sections": [
   {
    "title": "Return of the Sea Lion",
-   "body": "Dendrite Starblaze sends the aspiring tauren druid back to Mulgore after the trials in Moonglade. The Pendant of the Sea Lion bears proof of balance and dedication through Kalimdor's waters. Carrying it shows the initiate has honored the ancient traditions needed to take an aquatic aspect.",
+   "body": "Dendrite Starblaze sends you back to Mulgore after your trials in Moonglade. The Pendant of the Sea Lion bears proof of your balance and dedication across Kalimdor's waters. By carrying it home, you show that you have honored the ancient traditions needed to take an aquatic aspect.",
    "spoiler": 0
   },
   {
    "title": "Communion with the Waters",
-   "body": "At Thunder Bluff's heights, the traveler presents the pendant to Turak Runetotem, their mentor. Pleased that the initiate has honored their ancestors and kept the balance of nature, Turak teaches the secret of the aquatic form. The druid can then move beneath rivers and oceans, breathe freely, and navigate the depths as a sea creature.",
+   "body": "At Thunder Bluff's heights, you bring the pendant to Turak Runetotem, your mentor. He is pleased that you have honored your ancestors and kept nature in balance. Then Turak teaches you the secret of aquatic form. You can swim beneath rivers and oceans, breathe freely, and find your way through the depths as a sea creature.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "aquatic form purpose",
     "what does this quest do"
    ],
-   "answer": "This rite brings a young Horde druid's passage to its end. In Thunder Bluff, the druid presents the Pendant of the Sea Lion and learns Aquatic Form."
+   "answer": "This rite completes a young Horde druid's passage. In Thunder Bluff, you present the Pendant of the Sea Lion and learn Aquatic Form."
   },
   {
    "q": "Who do I bring the Pendant of the Sea Lion to?",
@@ -63,7 +63,7 @@
     "is this druid only",
     "can other classes do aquatic form"
    ],
-   "answer": "No. Only druids can complete this rite, which advances their spiritual and magical path toward animal forms."
+   "answer": "No. Only druids can complete this rite and advance along their spiritual and magical path toward animal forms."
   },
   {
    "q": "Why does a night elf in Moonglade help a Horde druid?",
@@ -72,7 +72,7 @@
     "moonglade horde alliance",
     "druid neutrality"
    ],
-   "answer": "Moonglade is a neutral sanctuary overseen by the Cenarion Circle. Night elf mentors guide tauren druids in the ancient Cenarion arts, seeking nature's balance without political hostility."
+   "answer": "Moonglade is a neutral sanctuary overseen by the Cenarion Circle. Night elf mentors guide tauren druids in the ancient Cenarion arts, seeking balance in nature without political hostility."
   },
   {
    "q": "What ability does completing this quest grant?",
@@ -81,13 +81,13 @@
     "aquatic form spell",
     "water form"
    ],
-   "answer": "Turak Runetotem teaches you Aquatic Form. While shapeshifted, you swim faster and breathe underwater."
+   "answer": "Turak Runetotem teaches you Aquatic Form. In this shape, you swim faster and breathe underwater."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, Aquatic Form lets you cross bodies of water with ease and escape predators in the deep."
+   "text": "As a druid, Aquatic Form helps you cross bodies of water with ease and escape predators in the deep."
   },
   {
    "target": "race:Tauren",
@@ -119,5 +119,5 @@
  "attribution": [
   "Aquatic Form (Horde)"
  ],
- "style": 1
+ "style": 2
 }

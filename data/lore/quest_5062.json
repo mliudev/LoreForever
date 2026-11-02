@@ -17,21 +17,21 @@
   "wiki": "Sacred Fire",
   "chain": []
  },
- "summary": "Hunters seek Incendia Agave at the Boiling Pool to prepare a sacred fire that can call Arikara from the canyons of Thousand Needles.",
+ "summary": "At the Boiling Pool, hunters seek Incendia Agave for a sacred flame meant to call Arikara from the canyons of Thousand Needles.",
  "sections": [
   {
    "title": "Kindling the Spirit",
-   "body": "Motega Firemane instructs hunters to prepare the sacred fire of life, an ancient flame that calls the spirit beast Arikara. The monstrous wind serpent cannot simply be tracked across the canyon floor; she must be drawn to the fire. The flame needs more than ordinary kindling. Rare Incendia Agave, which grows around the scalding waters of Thousand Needles, feeds it.",
+   "body": "Motega Firemane asks you to prepare the sacred fire of life, an ancient flame that calls Arikara. The monstrous wind serpent cannot be tracked across the canyon floor. You must draw her to the fire instead. Ordinary kindling will not feed the flame. It needs rare Incendia Agave, which grows around the scalding waters of Thousand Needles.",
    "spoiler": 0
   },
   {
    "title": "The Boiling Pool",
-   "body": "Incendia Agave grows near the Boiling Pool, below Darkcloud Pinnacle. To gather the spiky plants, you brave blistering waters and steam elementals drifting through the mists. Many bushels grow beneath the surface, where the hot lake water tests every hunter sent to collect them.",
+   "body": "Incendia Agave grows near the Boiling Pool, below Darkcloud Pinnacle. You brave blistering waters and steam elementals drifting through the mists to gather its spiky leaves. Many bushels lie beneath the surface. The hot lake water tests every hunter sent to collect them.",
    "spoiler": 0
   },
   {
    "title": "The Elder's Blessing",
-   "body": "Raw agave cannot ignite the ritual brazier. You carry the harvested plants from the plains to Elder Rise in Thunder Bluff. There, Magatha Grimtotem grinds and enchants the leaves into potent ritual powder, eager to see the vengeful beast challenged.",
+   "body": "Raw agave will not ignite the ritual brazier. You carry the harvested plants from the plains to Elder Rise in Thunder Bluff. There, Magatha Grimtotem grinds and enchants the leaves into potent ritual powder. She is eager to see the vengeful beast challenged.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "incendia agave location",
     "boiling pool agave"
    ],
-   "answer": "Incendia Agave grows in and around the Boiling Pool in Thousand Needles, near Darkcloud Pinnacle. Many of the spiky plants lie beneath the hot lake water."
+   "answer": "Incendia Agave grows in and around the Boiling Pool in Thousand Needles, near Darkcloud Pinnacle. Many spiky plants lie beneath the hot lake water."
   },
   {
    "q": "Why must Magatha Grimtotem enchant the agave?",
@@ -61,7 +61,7 @@
     "who enchants the agave",
     "what does magatha do"
    ],
-   "answer": "Raw Incendia Agave lacks the power to ignite the sacred fire. Magatha Grimtotem uses her shamanic craft to enchant the leaves into powder that can awaken the dormant flame."
+   "answer": "Raw Incendia Agave cannot ignite the sacred fire. Magatha Grimtotem enchants its leaves into powder that can awaken the dormant flame."
   },
   {
    "q": "Who is Arikara?",
@@ -70,7 +70,7 @@
     "arikara lore",
     "wind serpent boss"
    ],
-   "answer": "Arikara is a wind serpent born to deliver vengeance against those who commit terrible crimes. Motega Firemane sees her presence as an imminent peril that hunters must confront swiftly."
+   "answer": "Arikara is a wind serpent born to deliver vengeance against those who commit terrible crimes. Motega Firemane sees her presence as an imminent peril for hunters to confront swiftly."
   },
   {
    "q": "Who gives the quest Sacred Fire?",
@@ -93,7 +93,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren hunter, you honor the spirits through ritual hunting and face the elders' politics on Elder Rise as part of a rite of adulthood."
+   "text": "As a tauren hunter, you honor the spirits through ritual hunting. On Elder Rise, you also face the elders' politics as part of a rite of adulthood."
   },
   {
    "target": "class:Shaman",
@@ -132,5 +132,5 @@
  "attribution": [
   "Sacred Fire"
  ],
- "style": 1
+ "style": 2
 }

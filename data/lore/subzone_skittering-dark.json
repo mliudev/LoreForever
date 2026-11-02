@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Skittering Dark"
  },
- "summary": "In western Silverpine, Skittering Dark lies abandoned beneath a web of danger. Giant spiders fill the mine and nearby woods, hunting unwary beasts and travelers.",
+ "summary": "Giant spiders now hunt through Skittering Dark and the nearby woods in western Silverpine. The abandoned mine and its approaches are dangerous to beasts and travelers alike.",
  "sections": [
   {
    "title": "A Webbed Hollow",
-   "body": "The Skittering Dark lies east of North Tide's Run, where the western coast meets the hills. Once a working mine, its shafts now lie choked with cobwebs and serve as a sprawling nest for giant spiders. Krethis haunts the shadowed woods outside, while the spiders hunt anything that strays too close.",
+   "body": "East of North Tide's Run, Skittering Dark lies where the western coast meets the hills. The mine once worked, but now cobwebs choke its shafts and giant spiders nest through the hollow. Krethis haunts the shadowed woods outside. The spiders hunt anything that strays too close.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this mine",
     "spider cave silverpine"
    ],
-   "answer": "Skittering Dark is an abandoned mine in western Silverpine Forest, overrun by giant spiders. Webbing and predatory spiders fill the cavern network and the surrounding trees."
+   "answer": "Skittering Dark lies abandoned in western Silverpine Forest, overrun by giant spiders. Webbing and predatory spiders fill its cavern network and the surrounding trees."
   },
   {
    "q": "Who leads the spiders in the mine?",
@@ -66,5 +66,5 @@
  "attribution": [
   "Skittering Dark"
  ],
- "style": 1
+ "style": 2
 }

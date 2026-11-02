@@ -164,11 +164,11 @@ function Strip.CRC8(bytes)
   return crc
 end
 
--- The hash of an entry key when the entry exists and is one of `types`, else 0.
+-- The hash of an entry key when the entry exists, is one of `types` and shows in the reading language, else 0.
 local loreHashes = {}
 local function loreHash(key, types)
   local e = type(key) == "string" and ns.DB and ns.DB.entries and ns.DB.entries[key]
-  if not (e and types[e.t]) then return 0 end
+  if not (e and types[e.t] and not e.hide) then return 0 end
   loreHashes[key] = loreHashes[key] or Strip.CRC32(key)
   return loreHashes[key]
 end

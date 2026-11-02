@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Cradle of the Forsaken",
-   "body": "Shadow Grave sits on the rocky slope above Deathknell, a stone mausoleum where the newly freed Forsaken awaken. Once raised into the Scourge’s mindless service, the dead recover their free will in its vaults. Undertaker Mordo watches over them as they rise from stone slabs and take their first steps into a world that despises them. They follow the footpath down to Deathknell and pledge themselves to the Banshee Queen.",
+   "body": "Above Deathknell, newly freed Forsaken awaken in Shadow Grave. They once served the Scourge without thought. In the mausoleum's vaults, they recover their free will. Undertaker Mordo watches as they rise from stone slabs and take their first steps into a world that despises them. Then they follow the footpath down to Deathknell and pledge themselves to the Banshee Queen.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is shadow grave",
     "shadow grave crypt"
    ],
-   "answer": "Newly awakened Forsaken regain their free will in Shadow Grave, instead of remaining mindless Scourge thralls. From the crypt, they begin a second life serving Sylvanas Windrunner."
+   "answer": "In Shadow Grave, newly awakened Forsaken regain their free will instead of remaining mindless Scourge thralls. From the crypt, they begin a second life serving Sylvanas Windrunner."
   },
   {
    "q": "Where is the Shadow Grave located?",
@@ -32,7 +32,7 @@
     "shadow grave location",
     "shadow grave map"
    ],
-   "answer": "Shadow Grave sits at the top of the graveyard slope above Deathknell, against Tirisfal Glades’ southern mountains. A dirt trail leads downhill from its entrance to Deathknell."
+   "answer": "Shadow Grave sits atop the graveyard slope above Deathknell, against the southern mountains of Tirisfal Glades. A dirt trail leads downhill from its entrance to Deathknell."
   },
   {
    "q": "Who oversees the newly awakened here?",
@@ -47,7 +47,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken, your journey begins on the crypt’s stone slabs, where you awaken to unlife and free will."
+   "text": "As a Forsaken, your journey begins on the crypt's stone slabs. There, you awaken to unlife and free will."
   }
  ],
  "keywords": [
@@ -66,5 +66,5 @@
  "attribution": [
   "Shadow Grave"
  ],
- "style": 1
+ "style": 2
 }

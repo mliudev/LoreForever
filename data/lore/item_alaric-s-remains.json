@@ -10,16 +10,16 @@
    "quest:461"
   ]
  },
- "summary": "Alaric's bones lie in a shallow grave in Silverpine Forest, far from Fenris Isle. His spirit asks travelers to carry them past the Rot Hide gnolls and directly into Fenris Keep.",
+ "summary": "In Silverpine Forest, Alaric's bones lie far from the Fenris Isle he called home. His spirit asks travelers to carry them past the Rot Hide gnolls and into Fenris Keep.",
  "sections": [
   {
    "title": "A Final Request",
-   "body": "Alaric's bones were unearthed from a shallow grave in Silverpine Forest. He was once a resident of Fenris Isle, and his spirit longs for the place he cherished in life. He asks whoever finds his bones to leave his ill-fitting boots behind and carry his remains directly into Fenris Keep, far from the scavengers prowling the mainland.",
+   "body": "Alaric's bones were unearthed from a shallow grave in Silverpine Forest. He once lived on Fenris Isle and cherished the place. Now his spirit asks whoever finds his bones to leave behind his ill-fitting boots and carry his remains directly into Fenris Keep, beyond the reach of mainland scavengers.",
    "spoiler": 0
   },
   {
    "title": "The Alcove in the Keep",
-   "body": "Alaric guides the carrier to the southwestern tower of Fenris Keep, past the infested lower grounds and into a quiet chamber. Behind a dusty shelf lies a hidden niche with an artifact once valued by Thule Ravenclaw and his fellow mages. In return for a quiet resting place beyond the Rot Hide gnolls, Alaric gives the hidden trinkets to those who carry his bones home.",
+   "body": "Alaric guides the carrier to Fenris Keep's southwestern tower, past the infested lower grounds and into a quiet chamber. Behind a dusty shelf, a hidden niche holds an artifact once valued by Thule Ravenclaw and his fellow mages. In return for a quiet resting place beyond the Rot Hide gnolls, Alaric gives the hidden trinkets to those who carry his bones home.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "alaric lore",
     "who was this guy"
    ],
-   "answer": "Alaric once lived in Fenris Keep, where he spent what he considered the finest days of his life. After his death, he was buried in a shallow grave in Silverpine Forest, and his spirit now asks a passerby to carry his bones home."
+   "answer": "Alaric once lived in Fenris Keep and considered those the finest days of his life. After his death, he was buried in a shallow grave in Silverpine Forest. Now his spirit asks a passerby to carry his bones home."
   },
   {
    "q": "Where are Alaric's remains supposed to go?",
@@ -101,5 +101,5 @@
   "Alaric's Remains",
   "The Hidden Niche"
  ],
- "style": 1
+ "style": 2
 }

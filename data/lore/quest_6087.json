@@ -27,12 +27,12 @@
  "sections": [
   {
    "title": "The Stalker's Lessons",
-   "body": "After mastering the adult plainstrider’s endurance, you face a different kind of hunter. Prairie stalkers rely on speed, move in packs, and attack without fear. To tame one, you must approach this cunning predator without breaking stride, matching the wolf’s decisive nature.",
+   "body": "After mastering the adult plainstrider’s endurance, you face a new kind of hunter. Prairie stalkers rely on speed and travel in packs. They attack without fear. To tame one, you must approach without breaking stride and match the wolf’s decisive nature.",
    "spoiler": 0
   },
   {
    "title": "Muscle to Muscle",
-   "body": "Yaw Sharpmane teaches you that hunting beside a beast means neither servitude nor brute force. You and the predator must fight as one, joined by respect and shared rhythm. Bonding with a prairie stalker under Mulgore’s open skies teaches you to complement your companion’s attacks and move with it in battle.",
+   "body": "Yaw Sharpmane teaches you that hunting beside a beast takes neither servitude nor brute force. You and the predator must fight as one, joined by respect and shared rhythm. Under Mulgore’s open skies, bonding with a prairie stalker teaches you to complement your companion’s attacks and move with it in battle.",
    "spoiler": 0
   }
  ],
@@ -71,7 +71,7 @@
     "keep prairie stalker",
     "is this my permanent pet"
    ],
-   "answer": "No. The taming rod forms only a temporary bond for training. After completing all the trials, you gain the lasting ability to tame any wild companion you choose."
+   "answer": "No. The taming rod forms only a temporary bond for training. After all the trials, you gain the lasting ability to tame any wild companion you choose."
   },
   {
    "q": "Who is Yaw Sharpmane?",
@@ -95,11 +95,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you learn to join survival skills with coordinated attacks, fighting beside a swift companion."
+   "text": "As a hunter, you learn to join survival skills with coordinated attacks and fight beside a swift companion."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you follow the Shu'halo way of beast taming: forging a sacred kinship under the Earthmother’s watchful grace."
+   "text": "As a tauren, you follow the Shu'halo way of beast taming, forging a sacred kinship under the Earthmother’s watchful grace."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Taming the Beast (Tauren 2)"
  ],
- "style": 1
+ "style": 2
 }

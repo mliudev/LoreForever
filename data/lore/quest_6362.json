@@ -17,16 +17,16 @@
   "wiki": "Ride to Thunder Bluff (Classic)",
   "chain": []
  },
- "summary": "You carry cured hides from the Crossroads to Thunder Bluff by wind rider. The flight links the Barrens to the Horde capital above the plains.",
+ "summary": "Your wind rider carries cured hides from the Crossroads to Thunder Bluff, high above the plains. The flight joins the Barrens to the Horde capital.",
  "sections": [
   {
    "title": "Wings Across the Savannah",
-   "body": "Devrak carries travelers over the Barrens on the back of a wind rider. For many, this is their first flight across Kalimdor. The wyverns link the young Horde's scattered settlements and spare travelers the ground roads, where quilboar and centaur packs roam.",
+   "body": "Devrak carries travelers over the Barrens on a wind rider. For many, it is their first flight across Kalimdor. These wyverns link the young Horde’s scattered settlements and spare travelers the ground roads, where quilboar and centaur packs roam.",
    "spoiler": 0
   },
   {
    "title": "Hides for the Armory",
-   "body": "A bundle of cured hides from the Barrens is bound for Ahanu, a craftsman at Hewa's Armory in Thunder Bluff. Ahanu works beneath the great wind rider roost on the central mesa. Supplies from hunting outposts across the plains help him outfit local warriors and hunters.",
+   "body": "Cured hides from the Barrens are bound for Ahanu, a craftsman at Hewa’s Armory in Thunder Bluff. He works beneath the great wind rider roost on the central mesa. Supplies from hunting outposts across the plains help him outfit local warriors and hunters.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to start ride to thunder bluff",
     "devrak location"
    ],
-   "answer": "Devrak, the wind rider master at the Crossroads in the Barrens, offers travelers passage when they carry a bundle of hides."
+   "answer": "Devrak, the wind rider master at the Crossroads in the Barrens, offers passage to travelers carrying hides."
   },
   {
    "q": "Who is Ahanu and where can he be found?",
@@ -47,7 +47,7 @@
     "ahanu location",
     "hewa's armory"
    ],
-   "answer": "Ahanu is a tauren artisan at Hewa's Armory in Thunder Bluff, near the base of the city's wind rider roost."
+   "answer": "Ahanu is a tauren artisan at Hewa’s Armory in Thunder Bluff, near the base of the city’s wind rider roost."
   },
   {
    "q": "What is being transported in this delivery?",
@@ -55,7 +55,7 @@
     "what am i delivering",
     "bundle of hides"
    ],
-   "answer": "You carry a bundle of cured hides from the Barrens for Ahanu to use in leatherwork and armor crafting."
+   "answer": "You carry cured hides from the Barrens for Ahanu to use in leatherwork and armor crafting."
   },
   {
    "q": "Why use wind riders instead of walking?",
@@ -63,7 +63,7 @@
     "why fly to thunder bluff",
     "flight path benefit"
    ],
-   "answer": "Wind riders cross the Barrens to Thunder Bluff's high mesas, avoiding the longer ground route through Mulgore and landing at the city's wind rider tower."
+   "answer": "Wind riders cross the Barrens to Thunder Bluff’s high mesas. They avoid the longer ground route through Mulgore and land at the city’s wind rider tower."
   },
   {
    "q": "Where does this delivery chain begin?",
@@ -71,7 +71,7 @@
     "previous quest",
     "hides questline"
    ],
-   "answer": "The delivery begins with Jahan Hawkwing at the Crossroads, who arranged the cured pelts in the earlier task, A Bundle of Hides."
+   "answer": "The delivery begins with Jahan Hawkwing at the Crossroads. He arranged the cured pelts in the earlier task, A Bundle of Hides."
   },
   {
    "q": "What comes next after delivering the hides?",
@@ -79,7 +79,7 @@
     "next quest",
     "followup to ride to thunder bluff"
    ],
-   "answer": "After receiving the hides, Ahanu sends you upstairs to speak with Tal, Thunder Bluff's Wind Rider Master."
+   "answer": "After receiving the hides, Ahanu sends you upstairs to speak with Tal, Thunder Bluff’s Wind Rider Master."
   }
  ],
  "angles": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Ride to Thunder Bluff (Classic)"
  ],
- "style": 1
+ "style": 2
 }

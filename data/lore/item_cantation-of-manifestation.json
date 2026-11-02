@@ -10,11 +10,11 @@
    "quest:1960"
   ]
  },
- "summary": "In the Undercity, Anastasia Hartwell gives apprentices a scroll to reveal unseen magical beings in Algernon's shop.",
+ "summary": "In the Undercity, Anastasia Hartwell sends apprentices to reveal unseen beings in Algernon's shop.",
  "sections": [
   {
    "title": "Unveiling the Invisible",
-   "body": "The Cantation of Manifestation reveals beings hidden by magic. Anastasia Hartwell keeps the scroll in the Magic Quarter and entrusts it to capable mages sent to contain rogue magical anomalies. Read aloud where arcane instability troubles the air, such as Algernon's alchemical workshop in the Apothecarium, its words force stray rift spawns into sight. The caster can then subdue them and trap them in containment coffers for further study.",
+   "body": "The Cantation of Manifestation brings beings hidden by magic into sight. Anastasia Hartwell keeps the scroll in the Magic Quarter and entrusts it to capable mages sent to contain rogue magical anomalies. In the Apothecarium, Algernon's alchemical workshop is troubled by arcane instability. Read aloud there, the cantation reveals stray rift spawns so the caster can subdue them and seal them in containment coffers for study.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "cantation purpose",
     "how does cantation work"
    ],
-   "answer": "The Cantation of Manifestation reveals invisible arcane anomalies. Recited where magical tears or disturbances trouble an area, it forces unseen creatures such as rift spawns into sight so you can fight and capture them."
+   "answer": "The Cantation of Manifestation reveals invisible arcane anomalies. Recite it where magical tears or disturbances trouble an area, and unseen creatures such as rift spawns come into sight for you to fight and capture."
   },
   {
    "q": "Where can I find the Cantation in Undercity?",
@@ -35,7 +35,7 @@
     "where is cantation of manifestation",
     "find cantation undercity"
    ],
-   "answer": "You can find the Cantation on the floor directly behind Anastasia Hartwell, the mage trainer in the Undercity's Magic Quarter."
+   "answer": "The Cantation lies on the floor directly behind Anastasia Hartwell, the mage trainer in the Undercity's Magic Quarter."
   },
   {
    "q": "Why does Anastasia Hartwell need this scroll used?",
@@ -44,7 +44,7 @@
     "hartwell quest motive",
     "anastasia disturbance"
    ],
-   "answer": "A strange magical disturbance broke out in Algernon's alchemical shop in the Apothecarium. Unseen beings made entirely of magic began wandering there, so Anastasia Hartwell needs you to read the scroll on site and reveal and capture them before the rift worsens."
+   "answer": "A strange magical disturbance has broken out in Algernon's alchemical shop in the Apothecarium. Unseen beings made entirely of magic wander there, so Anastasia Hartwell needs you to read the scroll on site and reveal and capture them before the rift worsens."
   },
   {
    "q": "Do I get to keep the scroll after using it?",
@@ -53,7 +53,7 @@
     "do i lose cantation",
     "return cantation"
    ],
-   "answer": "No. After you reveal the rift spawns and capture them in containment coffers, return the Cantation of Manifestation and the coffers to Anastasia Hartwell."
+   "answer": "No. After revealing the rift spawns and capturing them in containment coffers, return the Cantation of Manifestation and the coffers to Anastasia Hartwell."
   }
  ],
  "angles": [
@@ -63,7 +63,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an Undead, you know Forsaken spellcasters in the Magic Quarter keep close watch over arcane fluctuations so magical rifts do not threaten the Undercity's stability."
+   "text": "As an Undead, you know Forsaken spellcasters in the Magic Quarter watch arcane fluctuations closely, guarding the Undercity's stability against magical rifts."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Cantation of Manifestation",
   "Investigate the Alchemist Shop"
  ],
- "style": 1
+ "style": 2
 }

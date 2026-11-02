@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Windfury Ridge"
  },
- "summary": "Windfury Ridge looms over Mulgore’s pastures, where harpies nest among wolves and cougars. Its slopes threaten travelers, while tauren hunters prize the harpies’ feathers.",
+ "summary": "Windfury Ridge rises above Mulgore’s pastures, where harpies nest among wolves and cougars. Its slopes endanger travelers, and tauren hunters seek the harpies’ feathers.",
  "sections": [
   {
    "title": "A Perilous Perch",
-   "body": "Windfury Ridge rises above Mulgore’s plains, where Windfury harpies nest among the crags. They swoop on wanderers who pass too close to the hills. Prairie wolves and mountain cougars prowl the rocky slopes, making this border of the tauren heartland dangerous. Tauren warriors hunt the harpies, whose iridescent feathers are sought in Thunder Bluff for ceremonial garments worn at feasts and weddings.",
+   "body": "Windfury Ridge rises above Mulgore’s plains, its crags home to Windfury harpies. They swoop at wanderers who stray too close. Prairie wolves and mountain cougars prowl the rocky slopes, making this edge of the tauren heartland dangerous. Tauren warriors hunt the harpies for their iridescent feathers, sought in Thunder Bluff for ceremonial garments worn at feasts and weddings.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "hazards of windfury ridge",
     "windfury ridge monsters"
    ],
-   "answer": "Windfury Ridge is dangerous because prairie wolves and cougars prowl its slopes, while harpies nest along the heights. Harpies dive from the crags at intruders who come near their nests."
+   "answer": "Prairie wolves and mountain cougars prowl Windfury Ridge’s slopes. Harpies nest along the heights and dive at intruders who come too near."
   },
   {
    "q": "Why do the tauren hunt the harpies on Windfury Ridge?",
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you know the ridge as a recurring nuisance to young hunters and a source of ceremonial ornaments for marriages and seasonal gatherings."
+   "text": "As a tauren, you know Windfury Ridge as a recurring nuisance to young hunters and a source of ceremonial ornaments for marriages and seasonal gatherings."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you can use the steep slopes and cunning predators to practice tracking, beast taming, and range management."
+   "text": "As a hunter, you can use the steep slopes and cunning predators to practice tracking, beast taming and range management."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Windfury Ridge"
  ],
- "style": 1
+ "style": 2
 }

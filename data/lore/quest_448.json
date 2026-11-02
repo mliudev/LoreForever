@@ -17,11 +17,11 @@
   "wiki": "Report to Hadrec",
   "chain": []
  },
- "summary": "Apothecary Renferrel sends you to Hadrec as the Scourge threat grows. After Renferrel and Bethor Iceshard investigate the Scourge presence in Lake Lordamere, High Executor Hadrec directs Silverpine's military preparations against Fenris Isle.",
+ "summary": "In Silverpine, Renferrel sends you to Hadrec as the Scourge threat grows. Renferrel and Bethor Iceshard have investigated the Scourge presence in Lake Lordamere, and High Executor Hadrec now directs preparations against Fenris Isle.",
  "sections": [
   {
    "title": "Escalation in Silverpine",
-   "body": "Apothecary Renferrel and Bethor Iceshard have studied the danger posed by the renegade necromancer Thule Ravenclaw. But study alone cannot break the Scourge stronghold rising on Fenris Isle. Ravenclaw is binding the restless dead there, and Renferrel sees that alchemy and magic will not be enough. The Forsaken military must bring its steel and discipline to bear, so Renferrel sends you to the commander.",
+   "body": "Apothecary Renferrel and Bethor Iceshard have studied the danger posed by Thule Ravenclaw, a renegade necromancer. Yet study alone cannot break the Scourge stronghold rising on Fenris Isle. Ravenclaw binds the restless dead there, and Renferrel sees that alchemy and magic will not be enough. The Forsaken military must bring its steel and discipline to bear, so Renferrel sends you to its commander.",
    "spoiler": 0
   },
   {
@@ -113,5 +113,5 @@
  "attribution": [
   "Report to Hadrec"
  ],
- "style": 1
+ "style": 2
 }

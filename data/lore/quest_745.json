@@ -17,21 +17,21 @@
   "wiki": "Sharing the Land (Classic)",
   "chain": []
  },
- "summary": "In Mulgore, Baine Bloodhoof calls you to stop Palemane gnolls from killing the plains' wildlife. By striking their hunters, you help protect the herds and the tauren way of living with the Earth Mother.",
+ "summary": "In Mulgore, Baine Bloodhoof asks you to stop the Palemane gnolls from killing the plains' wildlife. You help protect the herds and the tauren way of living with the Earth Mother.",
  "sections": [
   {
    "title": "A Land Out of Balance",
-   "body": "The tauren take from the land only what they need and honor the Earth Mother in all things. Palemane gnolls have settled south of Bloodhoof Village and in a cavern to the west, where they slaughter wildlife across the plains. Their hunting leaves carcasses behind and harms the balance of the grasslands. The tauren are building a peaceful home in Mulgore, but the gnolls' wasteful killing threatens it.",
+   "body": "The tauren take only what they need from the land and honor the Earth Mother in all things. Palemane gnolls have settled south of Bloodhoof Village and in a cavern to the west. Across the plains, they slaughter wildlife and leave carcasses behind. Their wasteful hunts harm the grasslands' balance and threaten the peaceful home the tauren are building in Mulgore.",
    "spoiler": 0
   },
   {
    "title": "When Words Fail",
-   "body": "Baine Bloodhoof tried to speak with the Palemane gnolls and settle the matter peacefully. They rejected every attempt and kept killing wildlife. Now Baine sends young braves to their hunting camps to put down the poachers, tanners, and skinners before the grasslands suffer lasting harm.",
+   "body": "Baine Bloodhoof tried to settle the matter peacefully by speaking with the Palemane gnolls. They rejected every attempt and continued killing wildlife. Now he sends young braves to their hunting camps to stop the poachers, tanners, and skinners before the grasslands suffer lasting harm.",
    "spoiler": 0
   },
   {
    "title": "The Circle of Life and Death",
-   "body": "When you return, Baine teaches that taking life is never for malice, but may be needed to keep harmony. Life and death form a circle, and every guardian of Mulgore must carry that truth.",
+   "body": "When you return, Baine teaches that life should never be taken out of malice, though it may be needed to keep harmony. Life and death form a circle. Every guardian of Mulgore must carry that truth.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who starts sharing the land",
     "baine quest"
    ],
-   "answer": "Baine Bloodhoof, son of High Chieftain Cairne Bloodhoof, gives you this work in Bloodhoof Village, in central Mulgore."
+   "answer": "Baine Bloodhoof, son of High Chieftain Cairne Bloodhoof, gives you this work in Bloodhoof Village in central Mulgore."
   },
   {
    "q": "Why are the tauren targeting the Palemane gnolls?",
@@ -91,19 +91,19 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren, answering Baine's call teaches you to defend Mulgore and honor the Earth Mother's balance."
+   "text": "As a young tauren, you answer Baine's call to defend Mulgore and honor the Earth Mother's balance."
   },
   {
    "target": "class:Hunter",
-   "text": "The Palemane skinners and poachers hunt with cruelty and waste, without a true hunter's respect for wild creatures."
+   "text": "The Palemane skinners and poachers hunt with cruelty and waste. They lack a true hunter's respect for wild creatures."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you know unchecked poaching harms the spirit of the plains, and the land's harmony needs your help."
+   "text": "As a druid, you know unchecked poaching harms the spirit of the plains. The land's harmony needs your help."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, helping Baine Bloodhoof strengthens your bond with the leaders of the young tauren nation."
+   "text": "As a member of the Horde, you strengthen your bond with the leaders of the young tauren nation by helping Baine Bloodhoof."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Sharing the Land (Classic)"
  ],
- "style": 1
+ "style": 2
 }

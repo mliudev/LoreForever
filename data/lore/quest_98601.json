@@ -17,16 +17,16 @@
   "wiki": "A Difficult Path (Forever)",
   "chain": []
  },
- "summary": "In Deathknell, a newly awakened Forsaken paladin begins training with the Light. After facing the undead outside the crypt, you are sent to the village church to meet Aramis Hammerhand and learn what holy power demands of the Forsaken.",
+ "summary": "In Deathknell, a newly awakened Forsaken paladin begins training with the Light. After the undead outside the crypt are cleared, you go to the village church to meet Aramis Hammerhand and learn what holy power demands of the Forsaken.",
  "sections": [
   {
    "title": "A Reeking Scroll",
-   "body": "After you clear feral undead from outside the crypt, Shadow Priest Sarvis gives you an unexpected delivery. The Consecrated Scroll shines with holy energy, and Sarvis recoils before asking you to step aside. For one devoted to shadow and decay, the Holy Light burns like an open flame.",
+   "body": "After you clear the feral undead outside the crypt, Shadow Priest Sarvis gives you an unexpected delivery. The Consecrated Scroll shines with holy energy, and Sarvis recoils before asking you to step aside. To one devoted to shadow and decay, the Holy Light burns like an open flame.",
    "spoiler": 0
   },
   {
    "title": "The Crucible of Holy Fire",
-   "body": "Aramis Hammerhand waits inside Deathknell’s desecrated church to train Forsaken paladins. Other races may wield the Light with ease and joy, but the undead endure searing agony when they call upon it. Aramis speaks plainly: channeling holy power through a rotting body is torment. He expects his disciples to face that pain instead of shrinking from it, and let it temper their resolve.",
+   "body": "Aramis Hammerhand waits in Deathknell’s desecrated church to train Forsaken paladins. Other races may wield the Light with ease and joy, but the undead endure searing agony when they call upon it. Aramis speaks plainly: channeling holy power through a rotting body is torment. He expects his disciples to face that pain instead of shrinking from it, and let it temper their resolve.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why is sarvis uneasy",
     "shadow priest reacts to scroll"
    ],
-   "answer": "Shadow Priest Sarvis serves shadow magic, and the Consecrated Scroll radiates holy energy that is hostile to undead flesh. Its presence unsettles those devoted to the Shadow."
+   "answer": "Shadow Priest Sarvis serves shadow magic, while the Consecrated Scroll radiates holy energy hostile to undead flesh. Its presence unsettles those devoted to the Shadow."
   },
   {
    "q": "Can Forsaken truly wield the Holy Light without dying?",
@@ -65,7 +65,7 @@
     "quest location",
     "where is deathknell church"
    ],
-   "answer": "You meet Shadow Priest Sarvis in Deathknell’s central clearing, then go a short distance to the village’s ruined chapel, where Aramis Hammerhand lives."
+   "answer": "You meet Shadow Priest Sarvis in Deathknell’s central clearing, then travel a short distance to the village’s ruined chapel, where Aramis Hammerhand lives."
   },
   {
    "q": "Do I have to read the Consecrated Scroll to complete the quest?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you face a first trial that makes holy power an agony to endure, demanding discipline and resolve."
+   "text": "As a paladin, your first trial makes holy power an agony to endure. It demands discipline and resolve."
   },
   {
    "target": "race:Undead",
@@ -116,5 +116,5 @@
  "attribution": [
   "A Difficult Path (Forever)"
  ],
- "style": 1
+ "style": 2
 }

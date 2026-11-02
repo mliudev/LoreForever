@@ -11,16 +11,16 @@
    "quest:6323"
   ]
  },
- "summary": "At the Sepulcher, Podrig's Order calls for fresh weapons from the Undercity.",
+ "summary": "In Silverpine, Podrig's Order asks the Undercity for weapons to arm the Sepulcher.",
  "sections": [
   {
    "title": "Arming the Sepulcher",
-   "body": "Deathguard Podrig found the Sepulcher's stores mostly adequate after an inventory ordered by Executor Hadrec. Replacement weapons were running desperately low. His dispatch lists the blades and arms needed by the Deathguards holding the outpost in Silverpine Forest, a frontier threatened by the Scourge, feral beasts, and other dangers.",
+   "body": "Deathguard Podrig found the Sepulcher's stores mostly adequate after Executor Hadrec ordered an inventory. Yet replacement weapons were running desperately low. His dispatch names the blades and arms needed by the Deathguards holding the outpost in Silverpine Forest. The Scourge, feral beasts, and other dangers threaten the frontier.",
    "spoiler": 0
   },
   {
    "title": "Dispatch via Bat Handler",
-   "body": "The order goes to Gordon Wendham, a weapon dealer in the Undercity's Trade Quarter, because the damp crypts of Silverpine make forging weapons difficult. Couriers carry the document to bat master Karos Razok, using Forsaken flight paths to speed the shipment from the capital.",
+   "body": "The order is addressed to Gordon Wendham, a weapon dealer in the Undercity's Trade Quarter. Silverpine's damp crypts make forging weapons difficult. Couriers take the document to bat master Karos Razok, so Forsaken flight paths can speed the shipment from the capital.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "contents of podrig's order",
     "podrig order details"
    ],
-   "answer": "Podrig's Order lists replacement weapons for the Deathguards at the Sepulcher, whose arms have been lost or broken in the field."
+   "answer": "Podrig's Order lists replacement weapons for Deathguards at the Sepulcher. Their arms have been lost or broken in the field."
   },
   {
    "q": "Who wrote Podrig's Order?",
@@ -40,7 +40,7 @@
     "who wrote it",
     "author of podrig order"
    ],
-   "answer": "Deathguard Podrig wrote the order at Executor Hadrec's direction, after an inventory of the Sepulcher's armory."
+   "answer": "Deathguard Podrig wrote the order at Executor Hadrec's direction. He did so after an inventory of the Sepulcher's armory."
   },
   {
    "q": "Who receives the order?",
@@ -57,17 +57,17 @@
     "why need weapons",
     "sepulcher weapon shortage"
    ],
-   "answer": "The Deathguards need new weapons because skirmishes with the Scourge and other hostile forces in Silverpine often leave their equipment broken or lost."
+   "answer": "Skirmishes with the Scourge and other hostile forces in Silverpine often leave the Deathguards' equipment broken or lost. They need replacement weapons."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you can see how the Undercity supplies outposts like the Sepulcher, keeping the Dark Lady's soldiers armed against the Scourge."
+   "text": "As an Undead, you can see how the Undercity supplies outposts like the Sepulcher. That keeps the Dark Lady's soldiers armed against the Scourge."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you know how vital forged weapons are on the front lines, where combat continually drains a garrison's supplies."
+   "text": "As a blacksmith, you know forged weapons are vital on the front lines. Combat continually drains a garrison's supplies."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Supplying the Sepulcher",
   "Ride to the Undercity (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Sepulcher"
  },
- "summary": "The Forsaken hold the Sepulcher above Silverpine Forest’s western coast. Once a Lordaeron graveyard and burial crypt, it is now a fortified Horde refuge amid threats from across the region.",
+ "summary": "The Forsaken hold Sepulcher above Silverpine Forest’s western coast. Once a Lordaeron graveyard and crypt, it now gives the Horde a fortified refuge amid threats across the region.",
  "sections": [
   {
    "title": "A Sanctum in the Fog",
-   "body": "The Sepulcher crowns the hills above Lordaeron’s western coast. You find an old cemetery and stone crypt beside the western road, now held by the Forsaken. Since the Third War, they have made its grounds and ancient vault a vital outpost. Danger presses from every side: feral worgen stalk the south, Scourge remnants wander east, and Kirin Tor wizards watch from Ambermill. For travelers crossing Silverpine, the Sepulcher offers shelter, supplies, and a place of command.",
+   "body": "Sepulcher crowns the hills above Lordaeron’s western coast. Beside the western road, its old cemetery and stone crypt now belong to the Forsaken. Since the Third War, they have turned the grounds and ancient vault into a vital outpost.\n\nDanger presses from every side. Feral worgen stalk the south, Scourge remnants wander east, and Kirin Tor wizards watch from Ambermill. For travelers crossing Silverpine, Sepulcher offers shelter, supplies, and a place of command.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what was the sepulcher",
     "who built the sepulcher"
    ],
-   "answer": "Before the Third War and Lordaeron’s fall, the Sepulcher was a roadside cemetery and stone crypt where local villagers buried their dead."
+   "answer": "Before the Third War and Lordaeron’s fall, Sepulcher was a roadside cemetery and stone crypt where local villagers buried their dead."
   },
   {
    "q": "Why is the Sepulcher so vital to the Forsaken?",
@@ -32,7 +32,7 @@
     "forsaken in silverpine",
     "role of the sepulcher"
    ],
-   "answer": "The Sepulcher is the Forsaken’s only fortified hub in Silverpine Forest. From there, their scouts and commanders watch for Dalaran mages, Scourge holdouts, and worgen spreading near Shadowfang Keep."
+   "answer": "Sepulcher is the Forsaken’s only fortified hub in Silverpine Forest. From there, scouts and commanders watch for Dalaran mages, Scourge holdouts, and worgen spreading near Shadowfang Keep."
   },
   {
    "q": "Are travelers belonging to other Horde races welcome here?",
@@ -41,7 +41,7 @@
     "is the sepulcher horde friendly",
     "horde at sepulcher"
    ],
-   "answer": "Yes. Forsaken deathguards, merchants, and apothecaries manage and inhabit the base, but it is an official Horde refuge where orcs, trolls, and tauren can rest and trade as they pass through the region."
+   "answer": "Yes. Forsaken deathguards, merchants, and apothecaries manage and inhabit the base. It is an official Horde refuge where orcs, trolls, and tauren can rest and trade as they pass through the region."
   },
   {
    "q": "What threats surround the Sepulcher?",
@@ -50,17 +50,17 @@
     "enemies in silverpine",
     "what attacks sepulcher"
    ],
-   "answer": "Hostile forces surround the Sepulcher. Scourge roam to the east, the Kirin Tor hold Ambermill to the southeast, and fierce worgen stalk the woods to the south."
+   "answer": "Hostile forces surround Sepulcher. Scourge roam to the east, the Kirin Tor hold Ambermill to the southeast, and fierce worgen stalk the woods to the south."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Sepulcher directs the Forsaken’s struggle to pacify Silverpine Forest, including operations against lingering Scourge loyalists, Kirin Tor remnants, and feral worgen."
+   "text": "Sepulcher directs the Forsaken’s struggle to pacify Silverpine Forest. Their operations target lingering Scourge loyalists, Kirin Tor remnants, and feral worgen."
   },
   {
    "target": "faction:Horde",
-   "text": "If you travel south from Tirisfal Glades, the Sepulcher is the only reliable Horde refuge, repair stop, and flight hub for miles."
+   "text": "Traveling south from Tirisfal Glades, you find Sepulcher the only reliable Horde refuge, repair stop, and flight hub for miles."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Sepulcher"
  ],
- "style": 1
+ "style": 2
 }

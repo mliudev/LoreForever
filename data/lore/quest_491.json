@@ -21,16 +21,16 @@
    "Wand to Bethor"
   ]
  },
- "summary": "At Fenris Keep, the confrontation ends with the Woven Wand bound for Bethor Iceshard. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Undercity.",
+ "summary": "At Fenris Keep, the Woven Wand is bound for Bethor Iceshard in the Undercity. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Magic Quarter.",
  "sections": [
   {
    "title": "A Token of Fractured Fellowship",
-   "body": "Before Lordaeron fell, three young mages joined their training wands into one, the Woven Wand. It marked their friendship and shared hopes in the magical arts. Thule Ravenclaw later gave his loyalty to the Lich King and embraced the Scourge, breaking their fellowship. He came to despise the friendship they had shared, yet could not destroy the wand or leave it with his former companions.",
+   "body": "Before Lordaeron fell, three young mages joined their training wands into one: the Woven Wand. It marked their friendship and their shared hopes in the magical arts.\n\nThen Thule Ravenclaw gave his loyalty to the Lich King and embraced the Scourge. Their fellowship was broken. He came to despise the friendship they had shared, yet could neither destroy the wand nor leave it with his former companions.",
    "spoiler": 0
   },
   {
    "title": "Hidden in the Keep",
-   "body": "Thule Ravenclaw carried the Woven Wand to Fenris Isle and hid it on a dusty shelf inside Fenris Keep. The wand lay untouched for years, its enchantment dormant. Bethor noted that using its magic would have revealed its whereabouts at once. Returning it to the Magic Quarter of the Undercity gives Bethor a keepsake of his mortal youth, recovered from the lair of a traitor who could neither love his friends nor let them go.",
+   "body": "Thule Ravenclaw carried the Woven Wand to Fenris Isle and hid it on a dusty shelf inside Fenris Keep. There it lay untouched for years, its enchantment dormant.\n\nBethor noted that using the wand's magic would have revealed its whereabouts at once. Its return to the Magic Quarter of the Undercity gives Bethor a keepsake of his mortal youth, recovered from the lair of a traitor who could neither love his friends nor let them go.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "why steal the wand",
     "thule stolen wand"
    ],
-   "answer": "When Thule Ravenclaw turned to the Lich King, his bond with the other mages broke. He came to hate what the wand represented, yet would not part with it or let Bethor and their other companion keep it. He hid the wand on Fenris Isle."
+   "answer": "When Thule Ravenclaw turned to the Lich King, his bond with the other mages broke. He came to hate what the wand represented, yet would neither part with it nor let Bethor and their other companion keep it. He hid it on Fenris Isle."
   },
   {
    "q": "Who is Bethor Iceshard?",
@@ -123,5 +123,5 @@
  "attribution": [
   "Wand to Bethor"
  ],
- "style": 1
+ "style": 2
 }

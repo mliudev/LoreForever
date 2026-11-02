@@ -22,16 +22,16 @@
    "At War With The Scarlet Crusade (4)"
   ]
  },
- "summary": "In Tirisfal, Executor Zygand sends Forsaken agents from Brill against the Scarlet Crusade. Captain Melrache and his personal vanguard hold a ruined watchtower past Faol's Rest.",
+ "summary": "In Tirisfal, Executor Zygand sends Forsaken agents from Brill against the Scarlet Crusade. Captain Melrache and his sworn guards hold a ruined watchtower beyond Faol's Rest.",
  "sections": [
   {
    "title": "A Strike at the Vanguard",
-   "body": "The Forsaken are securing the ruins of Lordaeron while Scarlet Crusade forces keep probing Tirisfal's borders. From a watchtower in northern Tirisfal, past Faol's Rest, crusaders lead raids against Forsaken patrols and lands. Executor Zygand chooses to strike at the officers directing those raids instead of waiting for another attack.",
+   "body": "The Forsaken are securing Lordaeron's ruins, but the Scarlet Crusade keeps testing Tirisfal's borders. From a tower in the north, past Faol's Rest, crusaders lead raids against Forsaken patrols and lands. Executor Zygand means to strike the officers directing those raids before another attack comes.",
    "spoiler": 0
   },
   {
    "title": "Captain Melrache's Hold",
-   "body": "Captain Melrache commands the northern camp, with two sworn bodyguards always at his side. From the tower, the Scarlet Crusade can watch the coastal roads and nearby woods. Killing Melrache breaks the raiders' coordination near Brill, removes a direct threat to Lady Sylvanas's young kingdom, and drives the zealots back toward their stronger fortifications farther east.",
+   "body": "Captain Melrache commands the northern camp with two sworn bodyguards always at his side. From the tower, the Scarlet Crusade watches the coastal roads and nearby woods. Kill Melrache, and the raiders near Brill lose their order. His fall removes a direct threat to Lady Sylvanas's young kingdom and drives the zealots toward stronger fortifications farther east.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "captain melrache lore",
     "who is the scarlet captain"
    ],
-   "answer": "Captain Melrache commands a Scarlet Crusade raiding camp at a ruined tower in northern Tirisfal Glades, beyond Faol's Rest. He leads raids into Forsaken lands with his personal bodyguards."
+   "answer": "Captain Melrache commands a Scarlet Crusade raiding camp in a ruined tower in northern Tirisfal Glades, beyond Faol's Rest. He leads raids into Forsaken lands with his personal bodyguards."
   },
   {
    "q": "Where is the ruined tower located?",
@@ -52,7 +52,7 @@
     "where is the tower",
     "faol's rest tower"
    ],
-   "answer": "The ruined tower stands in northern Tirisfal Glades, just past the graveyard of Faol's Rest, overlooking the northern coast."
+   "answer": "The ruined tower stands in northern Tirisfal Glades, just beyond Faol's Rest graveyard, overlooking the northern coast."
   },
   {
    "q": "Why does Executor Zygand want Melrache dead?",
@@ -60,7 +60,7 @@
     "why kill melrache",
     "zygand's motive"
    ],
-   "answer": "Melrache's forces raid from their tower, harassing Forsaken troops and threatening Brill and the Undercity. Zygand orders his death to break the Scarlet Crusade's local offensive."
+   "answer": "Melrache's forces raid from their tower, harrying Forsaken troops and threatening Brill and the Undercity. Executor Zygand orders Melrache's death to break the Scarlet Crusade's local offensive."
   },
   {
    "q": "How does this fight connect to the wider war against Arthas?",
@@ -68,7 +68,7 @@
     "arthas connection",
     "why mention arthas"
    ],
-   "answer": "Executor Zygand sees the Scarlet Crusade as a dangerous distraction. Removing its aggressive officers lets the Forsaken strengthen their hold on Tirisfal and preserve strength for vengeance against the Lich King."
+   "answer": "Executor Zygand sees the Scarlet Crusade as a dangerous distraction. Removing its aggressive officers lets the Forsaken strengthen their hold on Tirisfal and save strength for vengeance against the Lich King."
   },
   {
    "q": "Does slaying Melrache clear the Scarlet Crusade from Tirisfal?",
@@ -76,7 +76,7 @@
     "is scarlet crusade defeated",
     "do they leave tirisfal"
    ],
-   "answer": "No. Melrache's death ends an immediate raiding cell and eases pressure on Brill, but the Scarlet Crusade still holds nearby strongholds, including the Scarlet Monastery to the east."
+   "answer": "No. Melrache's death ends an immediate raiding cell and eases the pressure on Brill, but the Scarlet Crusade still holds nearby strongholds, including the Scarlet Monastery to the east."
   },
   {
    "q": "What is Faol's Rest?",
@@ -84,21 +84,21 @@
     "faols rest",
     "faol resting place"
    ],
-   "answer": "Faol's Rest is a secluded burial site in northern Tirisfal. Melrache's tower stands in the rugged hills just beyond it."
+   "answer": "Faol's Rest is a secluded burial site in northern Tirisfal. Melrache's tower stands in the rugged hills beyond it."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, every crusader you slay is one less fanatic denying your right to live in the homeland where you lived before."
+   "text": "As Forsaken, each crusader you slay is one less fanatic denying your right to live in the homeland where you once lived."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help protect its vulnerable foothold in the Eastern Kingdoms by securing Tirisfal's perimeter."
+   "text": "As a member of the Horde, you help guard its vulnerable foothold in the Eastern Kingdoms by securing Tirisfal's perimeter."
   },
   {
    "target": "class:Rogue",
-   "text": "As a Rogue, you strike behind enemy lines to separate a commander from the forces around him, as Deathstalkers do."
+   "text": "As a Rogue, you strike behind enemy lines to separate a commander from his forces, as Deathstalkers do."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "At War With The Scarlet Crusade (4)"
  ],
- "style": 1
+ "style": 2
 }

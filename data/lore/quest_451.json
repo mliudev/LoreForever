@@ -21,7 +21,7 @@
    "A Recipe For Death (3)"
   ]
  },
- "summary": "Apothecary Renferrel sends you to gather rare reagents across Lake Lordamere. Berard's journal names mosses and a strange tumor, which you bring to Master Apothecary Faranell in the Undercity. The Royal Apothecary Society needs them for its work on a New Plague.",
+ "summary": "Across Lake Lordamere, Apothecary Renferrel sends you to gather rare reagents for the Royal Apothecary Society. Berard's journal describes mosses and a strange tumor, bound for Master Apothecary Faranell in the Undercity and his work on a New Plague.",
  "sections": [
   {
    "title": "A Legacy of Research",
@@ -47,7 +47,7 @@
     "apothecary recipe ingredients",
     "what is the tumor for"
    ],
-   "answer": "Apothecary Berard's field journal describes unusual properties in the aquatic mosses found on lake beasts and the hardened tumors growing on local Vile Fin murlocs. Master Apothecary Faranell uses these rare, altered materials to brew and refine the Royal Apothecary Society's New Plague."
+   "answer": "Apothecary Berard's field journal describes unusual properties in aquatic mosses found on lake beasts and hardened tumors growing on local Vile Fin murlocs. Master Apothecary Faranell uses these rare, altered materials to brew and refine the Royal Apothecary Society's New Plague."
   },
   {
    "q": "Who was Berard?",
@@ -98,7 +98,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, carrying on Berard's unfinished experiments serves the Dark Lady's vision. Every Forsaken mind helps the nation survive, even in death."
+   "text": "As an Undead, Berard's unfinished experiments serve the Dark Lady's vision. Every Forsaken mind helps the nation survive, even in death."
   },
   {
    "target": "faction:Horde",
@@ -132,5 +132,5 @@
  "attribution": [
   "A Recipe For Death (3)"
  ],
- "style": 1
+ "style": 2
 }

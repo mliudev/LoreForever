@@ -17,16 +17,16 @@
   "wiki": "Supplying the Sepulcher",
   "chain": []
  },
- "summary": "At the Sepulcher, Deathguard Podrig seeks weapons for the hard-pressed garrison. He sends an order toward the Undercity as beasts, Scourge and other threats wear down its supplies.",
+ "summary": "At the Sepulcher, Deathguard Podrig seeks arms for a garrison worn down by the fighting. He sends an order to the Undercity as beasts, Scourge and other threats drain its stores.",
  "sections": [
   {
    "title": "Arming the Front Line",
-   "body": "Deathguard Podrig says the Sepulcher is fairly well stocked, yet fighting in Silverpine Forest steadily drains its gear. Feral beasts, Scourge remnants and other local threats wear down weapons and armor or leave them behind after skirmishes. Acting under Executor Hadrec's orders, Podrig writes a requisition for Gordon Wendham, a weapon dealer in the Undercity. Replacement arms and armor help the Forsaken hold their fragile footholds beyond Tirisfal Glades.",
+   "body": "Deathguard Podrig says the Sepulcher has fair stores, yet fighting in Silverpine Forest steadily uses them up. Feral beasts, Scourge remnants and other local threats damage weapons and armor or leave them behind after skirmishes. Under Executor Hadrec's orders, Podrig writes a request to Gordon Wendham, a weapon dealer in the Undercity. Replacement arms and armor help the Forsaken hold their fragile footholds beyond Tirisfal Glades.",
    "spoiler": 0
   },
   {
    "title": "The Flight Network",
-   "body": "Silverpine's roads make a slow, dangerous route for vital messages and supplies. The Forsaken send them by trained vampire bats instead. Karos Razok handles the bats at the Sepulcher, linking its soldiers to the Undercity's aerial network and the routes connecting outlying garrisons to Sylvanas's capital.",
+   "body": "Silverpine's roads make a slow and dangerous way to carry vital messages and supplies. So the Forsaken send them by trained vampire bats. At the Sepulcher, Karos Razok handles the bats and links its soldiers to the Undercity's aerial network. Those routes connect outlying garrisons to Sylvanas's capital.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is podrigs requisition",
     "purpose of supplying the sepulcher"
    ],
-   "answer": "Executor Hadrec ordered Deathguard Podrig to request weapons for the Sepulcher. Its general supplies were sufficient, but arms were needed to replace those broken or lost in fights with the Scourge and other forest threats."
+   "answer": "Executor Hadrec ordered Deathguard Podrig to request weapons for the Sepulcher. General supplies were sufficient, but arms were needed to replace those broken or lost in fights with the Scourge and other forest threats."
   },
   {
    "q": "Who is Gordon Wendham?",
@@ -62,7 +62,7 @@
     "why fly to undercity",
     "why use bats"
    ],
-   "answer": "The roads through Silverpine Forest are dangerous, with hostile beasts, Scourge and other factions threatening couriers. Bat routes offer a faster, safer connection to the Undercity."
+   "answer": "Silverpine Forest's roads are dangerous, with hostile beasts, Scourge and other factions threatening couriers. Bat routes offer a faster and safer connection to the Undercity."
   },
   {
    "q": "What threats does the Sepulcher face?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you help maintain Forsaken outposts like the Sepulcher, extending their reach beyond Tirisfal Glades and securing the surrounding wilderness for the Dark Lady."
+   "text": "As an Undead, you help maintain Forsaken outposts like the Sepulcher. They extend Forsaken reach beyond Tirisfal Glades and secure the surrounding wilderness for the Dark Lady."
   },
   {
    "target": "faction:Horde",
@@ -114,5 +114,5 @@
  "attribution": [
   "Supplying the Sepulcher"
  ],
- "style": 1
+ "style": 2
 }

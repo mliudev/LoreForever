@@ -10,11 +10,11 @@
    "quest:376"
   ]
  },
- "summary": "Duskbats circle Deathknell, and local tailors turn their wings into makeshift armor for newly risen soldiers.",
+ "summary": "Around Deathknell, Duskbat wings help the newly risen Forsaken find protection.",
  "sections": [
   {
    "title": "Improvised Protection in Deathknell",
-   "body": "New Forsaken claw from Deathknell’s soil with little more than rags and brittle bones. With mindless Scourge and hostile wildlife nearby, they must gather what protection they can. Novice Elreth, assistant to Shadow Priest Sarvis, collects Duskbat Wings and wolf paws to piece together and strengthen clothing and armor for freshly raised warriors before they enter the wilderness to fight.",
+   "body": "New Forsaken rise from Deathknell’s soil with little more than rags and brittle bones. Mindless Scourge and hostile wildlife prowl nearby, so they gather what protection they can. Novice Elreth, assistant to Shadow Priest Sarvis, collects Duskbat Wings and wolf paws. Together, they piece the materials into stronger clothing and armor for freshly raised warriors before they enter the wilderness to fight.",
    "spoiler": 0
   }
  ],
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a freshly awakened Forsaken, you gather these wings among your first survival duties, helping keep yourself in one piece during your first skirmishes."
+   "text": "As a freshly awakened Forsaken, you gather these wings among your first duties for survival. They help keep you in one piece during your first skirmishes."
   },
   {
    "target": "profession:Tailoring",
@@ -87,5 +87,5 @@
   "Duskbat Wing",
   "The Damned (Classic)"
  ],
- "style": 1
+ "style": 2
 }

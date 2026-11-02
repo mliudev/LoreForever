@@ -17,16 +17,16 @@
   "wiki": "Hallowed Scroll (quest)",
   "chain": []
  },
- "summary": "In Deathknell, the Hallowed Scroll calls newly risen Forsaken priests to the chapel. Shadow Priest Sarvis gives the summons, sending each novice to Dark Cleric Duesten to learn how the Forsaken wield faith after death.",
+ "summary": "In Deathknell, Shadow Priest Sarvis calls newly risen Forsaken priests to the chapel. He sends each novice to Dark Cleric Duesten to learn how the Forsaken wield faith after death.",
  "sections": [
   {
    "title": "A Summons in Deathknell",
-   "body": "Newly awakened undead stagger from Deathknell’s graves, their minds reeling from plague, death, and freedom from the Lich King's grip. For those who followed the Holy Light in life, death leaves deep confusion. As fledgling undead fight the mindless Scourge at the settlement’s edge, Shadow Priest Sarvis receives messages. A summons marked by Dark Cleric Duesten calls newly risen priests away from their wandering and into the desecrated town chapel.",
+   "body": "Newly awakened undead stagger from Deathknell’s graves, their minds shaken by plague, death, and freedom from the Lich King's grip. Those who followed the Holy Light in life find death hard to understand. As fledgling undead fight the mindless Scourge at the settlement’s edge, Shadow Priest Sarvis receives a message from Dark Cleric Duesten. It calls newly risen priests away from their wandering and into the desecrated town chapel.",
    "spoiler": 0
   },
   {
    "title": "Faith Redefined",
-   "body": "At the chapel, Dark Cleric Duesten teaches a harsh faith. He says the Holy Light abandoned the Forsaken in death, ancestral spirits are hollow tales, and demons have no care for their plight. Forsaken clergy teach that willpower and self-reliance are their only sources of salvation. Under Duesten’s guidance, newly risen priests learn to wield divine discipline and shadow through conviction in their own survival, not devotion to distant gods.",
+   "body": "At the chapel, Dark Cleric Duesten teaches a harsh faith. He says the Holy Light abandoned the Forsaken in death, ancestral spirits are hollow tales, and demons do not care about their plight. Forsaken clergy teach that willpower and self-reliance are their only sources of salvation. Under Duesten’s guidance, newly risen priests learn divine discipline and shadow through faith in their own survival, not devotion to distant gods.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "forsaken holy light",
     "can undead cast light"
    ],
-   "answer": "Dark Cleric Duesten tells new priests that the Holy Light no longer concerns them. Forsaken priests turn from traditional devotion to the Light and rely on themselves and their command of Shadow."
+   "answer": "Dark Cleric Duesten tells new priests that the Holy Light no longer concerns them. Forsaken priests turn from devotion to the Light and rely on themselves and their command of Shadow."
   },
   {
    "q": "Where is Dark Cleric Duesten located?",
@@ -74,7 +74,7 @@
     "fairy tales",
     "nether dont want you"
    ],
-   "answer": "Duesten wants newly raised undead to cast aside their illusions. He says the Light no longer concerns them, their forefathers’ spirits are fairy tales, and creatures of the Nether do not want them; the Forsaken survived through will alone."
+   "answer": "Duesten wants newly raised undead to cast aside their illusions. He says the Light no longer concerns them, their forefathers’ spirits are fairy tales, and creatures of the Nether do not want them. The Forsaken survived through will alone."
   },
   {
    "q": "What happens after reading the scroll?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Hallowed Scroll (quest)"
  ],
- "style": 1
+ "style": 2
 }

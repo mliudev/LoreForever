@@ -17,21 +17,21 @@
   "wiki": "The Elder Crone",
   "chain": []
  },
- "summary": "Seereth Stonebreak sends word from Stonetalon to Thunder Bluff. Enraged by goblin deforestation and mining, the mountain's elements need spiritual guidance, so Seereth sends emissaries to seek counsel from Magatha Grimtotem on Elder Rise.",
+ "summary": "Seereth Stonebreak sends word from Stonetalon to Thunder Bluff. Goblin deforestation and mining have enraged the mountain's elements, and Seereth seeks spiritual guidance from Magatha Grimtotem on Elder Rise.",
  "sections": [
   {
    "title": "Cry from Stonetalon",
-   "body": "Goblin deforestation and mining have enraged the elemental spirits of Stonetalon Mountains. Seereth Stonebreak sees that force alone cannot ease the land's spiritual anguish and turns to elder shamans for wisdom. Seereth knows few tribal leaders by name, but knows of Magatha Grimtotem, an elder famed for her knowledge and commanding presence.",
+   "body": "In Stonetalon Mountains, goblin deforestation and mining have enraged the elemental spirits. Seereth Stonebreak sees that force alone cannot ease the land's anguish. So Seereth turns to elder shamans for wisdom. Few tribal leaders are known to Seereth by name, but Magatha Grimtotem is known for her wisdom and commanding presence.",
    "spoiler": 0
   },
   {
    "title": "Audience on Elder Rise",
-   "body": "Magatha Grimtotem holds court atop Elder Rise in Thunder Bluff, where shamanic and spiritual affairs gather. The Grimtotem tribe's relationship with Cairne Bloodhoof's leadership is tense and often confrontational. Even so, Magatha is a formidable elder whose counsel carries great weight across the Horde. You bring Stonetalon's troubles to her, seeking her guidance.",
+   "body": "Magatha Grimtotem holds court atop Elder Rise in Thunder Bluff, where shamanic and spiritual affairs gather. Her tribe's ties with Cairne Bloodhoof's leadership are tense and often confrontational. Even so, Magatha is a formidable elder whose counsel carries great weight across the Horde. You bring her Stonetalon's troubles and seek her guidance.",
    "spoiler": 0
   },
   {
    "title": "A Pragmatic Alliance",
-   "body": "Magatha Grimtotem sends word of the elemental turmoil to the Forsaken alchemists living in the city rather than relying only on traditional tauren rites. She draws the Horde's newest and most cynical allies into Kalimdor's spiritual affairs, showing a cunning and unconventional way of handling power and problems.",
+   "body": "Magatha Grimtotem sends word of the elemental turmoil to the Forsaken alchemists living in the city. She does not rely only on traditional tauren rites. Instead, she draws the Horde's newest and most cynical allies into Kalimdor's spiritual affairs. Her answer shows a cunning and unconventional way of handling power and problems.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who starts this",
     "seereth stonebreak"
    ],
-   "answer": "Seereth Stonebreak, in Stonetalon Mountains, sends you after you fight the Venture Company goblins cutting through the mountain forests."
+   "answer": "Seereth Stonebreak sends you from Stonetalon Mountains after you fight the Venture Company goblins cutting through the mountain forests."
   },
   {
    "q": "Where is Magatha Grimtotem located?",
@@ -52,7 +52,7 @@
     "where is magatha",
     "elder rise"
    ],
-   "answer": "Magatha Grimtotem lives atop Elder Rise in Thunder Bluff, on the northeastern bluff linked to the central mesa by wooden bridges."
+   "answer": "Magatha Grimtotem lives atop Elder Rise in Thunder Bluff. The northeastern bluff is linked to the central mesa by wooden bridges."
   },
   {
    "q": "Why is Seereth asking an elder tauren for help?",
@@ -60,7 +60,7 @@
     "why elder crone",
     "why consult magatha"
    ],
-   "answer": "Goblin industry has disturbed Stonetalon's spirits. Seereth sees that force alone cannot heal the land and seeks spiritual guidance to calm the elements."
+   "answer": "Goblin industry has disturbed Stonetalon's spirits. Seereth sees that force alone cannot heal the land, so seeks spiritual guidance to calm the elements."
   },
   {
    "q": "Who is Magatha Grimtotem?",
@@ -69,7 +69,7 @@
     "who is the elder crone",
     "magatha background"
    ],
-   "answer": "Magatha Grimtotem is the elder crone and matriarch of the Grimtotem tribe. Her tribe is fiercely aggressive and skeptical of the united Horde, while Magatha holds great political and spiritual influence atop Thunder Bluff."
+   "answer": "Magatha Grimtotem is the elder crone and matriarch of the Grimtotem tribe. Her fiercely aggressive tribe is skeptical of the united Horde, while Magatha holds great political and spiritual influence atop Thunder Bluff."
   },
   {
    "q": "What happens after speaking with Magatha?",
@@ -77,7 +77,7 @@
     "what next",
     "quest follow up"
    ],
-   "answer": "Magatha hears your report on Stonetalon and sends you to Apothecary Zamah, a Forsaken emissary in the Pools of Vision beneath Spirit Rise, for help."
+   "answer": "After hearing your report on Stonetalon, Magatha sends you to Apothecary Zamah, a Forsaken emissary in the Pools of Vision beneath Spirit Rise, for help."
   },
   {
    "q": "Why is this quest called 'The Elder Crone'?",
@@ -85,13 +85,13 @@
     "why crone",
     "elder crone title"
    ],
-   "answer": "The title refers to Magatha Grimtotem. Her own clan and the wider tauren people know her as the Elder Crone for her great age, shamanic knowledge, and authority as matriarch."
+   "answer": "The title refers to Magatha Grimtotem. Her clan and the wider tauren people know her as the Elder Crone for her great age, shamanic knowledge, and authority as matriarch."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you see how fragile the balance is between Cairne's united tribes and the aloof, fiercely traditional Grimtotem, who dwell in Thunder Bluff."
+   "text": "As a tauren, you see the fragile balance between Cairne's united tribes and the aloof, fiercely traditional Grimtotem, who dwell in Thunder Bluff."
   },
   {
    "target": "class:Shaman",
@@ -126,5 +126,5 @@
  "attribution": [
   "The Elder Crone"
  ],
- "style": 1
+ "style": 2
 }

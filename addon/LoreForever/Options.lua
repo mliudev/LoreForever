@@ -65,8 +65,10 @@ Options.DEFAULTS = {
   voiceGroup = "story",    -- keep one voice per "story" (a story and its questions), per "zone", or pick per "line"
   voiceMatchRace = false,  -- prefer voices that suit the race of the lore (orc lore in an orc voice)
   voiceMatchGender = true, -- quest dialogue: the quest givers' race and gender voices (Voice.QuestClip)
-  -- Narrators of the other gender, and English ones in another language, fill in only when allowed (Voice.lua familyOf).
-  voiceFillGender = false,
+  -- A narrator of the other gender fills in for a story the player's own hasn't recorded (Mike, 11/1: the other
+  -- narrator beats silence; turned on once for older installs: Log.Init's fillGenderOn). English ones in another
+  -- language fill in only when allowed (Voice.lua familyOf, englishFill).
+  voiceFillGender = true,
   voiceFillLanguage = false,
   -- The game's sound channel recordings play on (Play voices on, LOR-315): Dialog, SFX, Music, Ambience or Master.
   -- Voice volume is that channel's own volume in the game's settings, which Lore Forever never keeps a copy of.

@@ -8,21 +8,21 @@
   "wiki": "Bethor Iceshard",
   "refs": 7
  },
- "summary": "In the Undercity, Bethor Iceshard commands the Magic Quarter's arcane and shadow practitioners. He holds authority in Sylvanas's realm, while old friendships still shape his past.",
+ "summary": "In the Undercity, Bethor Iceshard directs the Magic Quarter's arcane and shadow practitioners. He holds authority in Sylvanas's realm, though old friendships still mark his past.",
  "sections": [
   {
    "title": "Master of the Magic Quarter",
-   "body": "Bethor Iceshard directs arcane and shadow practitioners from the Temple of the Damned in the Undercity. His intellect and icy resolve earn both respect and fear. He has the political and magical weight to instruct provincial magistrates across Lordaeron. Bethor sends Forsaken agents to secure valuable grimoires, investigate arcane anomalies, and suppress rival powers that threaten the Undercity's dominion.",
+   "body": "From the Temple of the Damned in the Undercity, Bethor Iceshard directs arcane and shadow practitioners. His keen mind and icy resolve earn respect and fear. His political and magical authority reaches magistrates across Lordaeron. He sends Forsaken agents after valuable grimoires and arcane disturbances, and against rival powers that threaten the Undercity's rule.",
    "spoiler": 0
   },
   {
    "title": "Old Friends and Bittersweet Reunions",
-   "body": "Bethor Iceshard still remembers his former companions. He tracks powerful undead spellcasters across Tirisfal and Silverpine, sending agents to learn whether rogue practitioners serve the Lich King or might join the Forsaken cause. When he finds Gunther Arcanus raising the dead at Brightwater Lake, Bethor patiently works to bring his old friend into Lady Sylvanas's fold. Thule Ravenclaw receives no such mercy; his willing betrayal doomed their brotherhood.",
+   "body": "Bethor Iceshard searches Tirisfal and Silverpine for powerful undead spellcasters. He sends agents to learn whether rogue practitioners serve the Lich King or might join the Forsaken. At Brightwater Lake, he finds Gunther Arcanus raising the dead and patiently tries to bring his old friend into Lady Sylvanas's fold. Thule Ravenclaw finds no such mercy. His willing betrayal doomed their brotherhood.",
    "spoiler": 1
   },
   {
    "title": "Bonds of Apprenticehood",
-   "body": "Before the Third War devastated Lordaeron, Bethor Iceshard studied magic as a mortal apprentice beside his close companions, Gunther Arcanus and Thule Ravenclaw. The three wove their practice wands together to mark their fellowship. The Scourge shattered that bond. As death and dark magic swept the kingdom, Thule willingly gave his soul to the Lich King. Gunther perished and rose again on an isolated island in Brightwater Lake. Bethor succumbed as well, then broke free as Forsaken.",
+   "body": "Before the Third War devastated Lordaeron, Bethor Iceshard studied magic as a mortal apprentice beside Gunther Arcanus and Thule Ravenclaw. The three were close companions, and they wove their practice wands together to mark their fellowship. Then the Scourge swept across the kingdom with death and dark magic. Thule willingly gave his soul to the Lich King. Gunther perished and rose again on an isolated island in Brightwater Lake. Bethor fell too, then broke free as Forsaken.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is bethor",
     "bethor lore"
    ],
-   "answer": "Bethor Iceshard commands arcane and shadow practitioners at the Temple of the Damned in the Undercity's Magic Quarter. He directs magical research, intelligence on rogue practitioners, and covert arcane operations for the Dark Lady."
+   "answer": "Bethor Iceshard directs arcane and shadow practitioners at the Temple of the Damned in the Undercity's Magic Quarter. He guides magical research, gathers intelligence on rogue practitioners, and oversees covert arcane operations for the Dark Lady."
   },
   {
    "q": "Where can Bethor Iceshard be found?",
@@ -43,7 +43,7 @@
     "bethor location",
     "find bethor iceshard"
    ],
-   "answer": "Bethor Iceshard resides inside the Temple of the Damned, in the Undercity's Magic Quarter."
+   "answer": "Bethor Iceshard resides inside the Temple of the Damned in the Undercity's Magic Quarter."
   },
   {
    "q": "What is Bethor's history with Gunther Arcanus?",
@@ -52,7 +52,7 @@
     "gunther arcanus friendship",
     "how does bethor know gunther"
    ],
-   "answer": "Bethor Iceshard and Gunther Arcanus were close friends and fellow apprentice mages in Lordaeron. Both died during the Scourge invasion and later broke free from the Lich King's control. Bethor arranged for Gunther to join the Forsaken."
+   "answer": "Bethor Iceshard and Gunther Arcanus were close friends and fellow apprentice mages in Lordaeron. Both died during the Scourge invasion, then broke free from the Lich King's control. Bethor arranged for Gunther to join the Forsaken."
   },
   {
    "q": "Who was Thule Ravenclaw to Bethor?",
@@ -70,7 +70,7 @@
     "wand to bethor",
     "bethor apprentice wand"
    ],
-   "answer": "As young apprentices, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw wove their practice wands together as a sign of eternal friendship. The braided keepsake connects the three fractured spellcasters to their mortal past."
+   "answer": "As young apprentices, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw wove their practice wands together as a sign of eternal friendship. The braided keepsake binds the three fractured spellcasters to their mortal past."
   },
   {
    "q": "What role does Bethor play in Forsaken society?",
@@ -79,13 +79,13 @@
     "what does bethor do",
     "bethor authority"
    ],
-   "answer": "Bethor Iceshard is one of the Undercity's leading arcane authorities. He guides newly risen magi and warlocks, directs intelligence on rogue necromancers, and holds authority over regional Forsaken civil officials such as magistrate Sevren."
+   "answer": "Bethor Iceshard is one of the Undercity's leading arcane authorities. He guides newly risen magi and warlocks, directs intelligence on rogue necromancers, and holds authority over regional Forsaken officials such as magistrate Sevren."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a Forsaken mage, you can see in Bethor Iceshard how the arcane arts endure through undeath."
+   "text": "As a Forsaken mage, you can see in Bethor Iceshard how arcane arts endure through undeath."
   },
   {
    "target": "race:Undead",
@@ -93,7 +93,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you benefit from Bethor Iceshard's offensive magic and counter-necromancy efforts, which protect the Horde's foothold across Lordaeron."
+   "text": "As a member of the Horde, you benefit from Bethor Iceshard's offensive magic and efforts against necromancy, which protect the Horde's foothold across Lordaeron."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Bethor Iceshard"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Pyrewood Ambush",
   "chain": []
  },
- "summary": "Deathstalker Faerleia waits in Pyrewood Village, where Arugal's council keeps the afflicted in line. The Forsaken aim to break his hold on the town and weaken his position in Shadowfang Keep.",
+ "summary": "In Pyrewood Village, Deathstalker Faerleia waits while Arugal's council keeps the afflicted in line. The Forsaken aim to break his hold on the town and weaken his position in Shadowfang Keep.",
  "sections": [
   {
    "title": "Striking the Puppets",
-   "body": "Deathstalker Faerleia waits inside Pyrewood Village's town hall for the local leaders. Archmage Arugal keeps to Shadowfang Keep, tending his dark sorceries, and leaves the Pyrewood Council to maintain order among the afflicted villagers. Faerleia plans to strike the council in an ambush. Without its mediation, the Forsaken hope the worgen in the surrounding woods and village streets will break free of Arugal's control.",
+   "body": "Deathstalker Faerleia waits in Pyrewood Village's town hall for the local leaders. Archmage Arugal tends his dark sorceries in Shadowfang Keep, leaving the Pyrewood Council to keep order among the afflicted villagers. Faerleia plans to ambush the council. Without its mediation, the Forsaken hope the worgen in the woods and village streets will break free of Arugal's control.",
    "spoiler": 0
   },
   {
    "title": "A Decapitation Strike",
-   "body": "The ambush strikes every sitting member of Pyrewood's government, including Lord Mayor Morrison. The councilors are killed as they enter their meeting chamber, dealing a blow to the village's leadership. For the Undercity, the slaughter clears a path to taking Pyrewood Village and laying siege to Arugal in Shadowfang Keep.",
+   "body": "The ambush strikes every sitting member of Pyrewood's government, including Lord Mayor Morrison. The councilors die as they enter their meeting chamber, and the village loses its leaders. For the Undercity, the slaughter clears a path to taking Pyrewood Village and laying siege to Arugal in Shadowfang Keep.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "deathstalker faerleia",
     "who gives pyrewood ambush"
    ],
-   "answer": "Deathstalker Faerleia is a Forsaken operative of the Deathstalkers, the Forsaken's espionage and assassination guild. She established a foothold inside Pyrewood Village to coordinate strikes against Arugal's local support."
+   "answer": "Deathstalker Faerleia is a Forsaken operative in the Deathstalkers, the Forsaken's espionage and assassination guild. She established a foothold in Pyrewood Village to coordinate strikes against Arugal's local support."
   },
   {
    "q": "Why does the Forsaken want the Pyrewood Council dead?",
@@ -65,7 +65,7 @@
     "where is faerleia",
     "town hall pyrewood"
    ],
-   "answer": "The ambush takes place inside Pyrewood Village's municipal town hall, in southern Silverpine Forest, just down the road from Shadowfang Keep."
+   "answer": "The ambush takes place inside Pyrewood Village's municipal town hall in southern Silverpine Forest, just down the road from Shadowfang Keep."
   },
   {
    "q": "What is the relationship between the Council and Arugal?",
@@ -74,7 +74,7 @@
     "is council working for arugal",
     "arugal control pyrewood"
    ],
-   "answer": "The council is Arugal's administrative mouthpiece. While he remains in Shadowfang Keep conducting dark experiments, the council manages villagers who transform into ferocious beasts under cover of night."
+   "answer": "The council is Arugal's administrative mouthpiece. While he remains in Shadowfang Keep conducting dark experiments, the council manages villagers who become ferocious beasts under cover of night."
   },
   {
    "q": "Does killing the council free Pyrewood from the curse?",
@@ -83,7 +83,7 @@
     "does ambush cure worgen",
     "curse broken pyrewood"
    ],
-   "answer": "No. Killing the council removes Arugal's mortal puppets but does not lift the villagers' lupine curse. The Forsaken are left to contend with a town full of hostile, uncontrolled monsters."
+   "answer": "No. Killing the council removes Arugal's mortal puppets but does not lift the villagers' lupine curse. The Forsaken are left to face a town full of hostile, uncontrolled monsters."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Pyrewood Ambush"
  ],
- "style": 1
+ "style": 2
 }

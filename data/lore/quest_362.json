@@ -21,16 +21,16 @@
    "The Family Crypt (Classic)"
   ]
  },
- "summary": "Coleman Farthing of Brill seeks vengeance on the Agamands, his former landowners. He sends you north to Agamand Mills to destroy their restless remains, beginning with Devlin, the family’s sharp-tongued younger son. Farthing’s hatred reaches back to the family’s failure to protect Tirisfal’s common folk from the Plague.",
+ "summary": "Coleman Farthing sends you north from Brill to Agamand Mills, seeking vengeance on the family who once owned his land. First, he wants Devlin's remains gathered. Their feud began when the Agamands failed to protect Tirisfal's common folk from the Plague.",
  "sections": [
   {
    "title": "A Bitter Harvest",
-   "body": "Before the Third War, Agamand Mills fed northern Tirisfal under the rule of a wealthy landed family. When the Scourge swept across Lordaeron, common folk turned to the nobles for safety and found no shelter. Coleman Farthing survived as undead, but hatred for the family he served still consumes him. He wants their bones gathered, not to end their torment, but to desecrate them beneath his heel.",
+   "body": "Before the Third War, the wealthy Agamand family ruled the mills and fed northern Tirisfal. When the Scourge swept across Lordaeron, the common folk turned to the nobles for safety, but found no shelter. Coleman Farthing survived as undead, yet hatred for the family he served still consumes him. He wants their bones gathered so he can desecrate them beneath his heel.",
    "spoiler": 0
   },
   {
    "title": "The Younger Brother",
-   "body": "Devlin Agamand was Thurman Agamand’s younger brother. People remembered Devlin as weak, spiteful, and sharp-tongued, unlike his gentle elder brother. When the Plague of Undeath reached the mill estate, Devlin quickly fell to its corruption. Now his mindless corpse chatters without cease along the northern road into the family mills.",
+   "body": "Devlin Agamand was the younger brother of Thurman Agamand. People remembered Devlin as weak, spiteful, and sharp-tongued, unlike his gentle elder brother. When the Plague of Undeath reached the mill estate, Devlin quickly fell to its corruption. Now his mindless corpse chatters without cease along the northern road into the family mills.",
    "spoiler": 0
   }
  ],
@@ -60,7 +60,7 @@
     "devlin agamand lore",
     "devlin agamand in life"
    ],
-   "answer": "Coleman Farthing describes Devlin as the smaller, weaker, sharp-tongued younger son of the Agamands, unlike his tall, mild-mannered older brother Thurman."
+   "answer": "Coleman Farthing describes Devlin as the smaller, weaker, sharp-tongued younger son of the Agamands. Devlin was unlike his tall, mild-mannered older brother Thurman."
   },
   {
    "q": "Is Devlin part of the Scourge or Forsaken?",
@@ -76,7 +76,7 @@
     "agamand mills quests",
     "quests near devlin"
    ],
-   "answer": "Deaths in the Family also sends Forsaken adventurers to Agamand Mills to eliminate the rest of the Agamand household, so you can pursue both at once."
+   "answer": "Deaths in the Family also sends Forsaken adventurers to Agamand Mills to eliminate the rest of the Agamand household. You can pursue both at once."
   },
   {
    "q": "What happens after turning in Devlin's remains?",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Haunted Mills (Classic)"
  ],
- "style": 1
+ "style": 2
 }

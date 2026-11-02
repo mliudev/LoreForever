@@ -12,17 +12,17 @@
  "sections": [
   {
    "title": "Voice of the Elder Crone",
-   "body": "Rahauro attends Magatha Grimtotem on the high terrace of Elder Rise. He speaks and acts for the elder crone, who relies on trusted servants to recruit others. When wild creatures swarm beneath the orcish capital, Rahauro handles the arrangements and sends Horde mercenaries to face them.",
+   "body": "Rahauro attends Magatha Grimtotem on Elder Rise’s high terrace. He speaks and acts for the elder crone, who trusts her servants to recruit others. When wild creatures swarm beneath the orcish capital, Rahauro makes the arrangements and sends Horde mercenaries to face them.",
    "spoiler": 0
   },
   {
    "title": "Trouble in Ragefire Chasm",
-   "body": "Troggs in the caverns of Ragefire Chasm rejected Magatha’s attempt to make peace. Her envoys went below Orgrimmar to parley, but the troggs attacked and killed them. Magatha sees the creatures as a threat to the Horde, and Rahauro sends champions into the caverns to thin their numbers and learn their strength.",
+   "body": "Troggs in Ragefire Chasm rejected Magatha’s offer of peace. Her envoys went beneath Orgrimmar to parley, but the troggs attacked and killed them. Magatha sees the creatures as a threat to the Horde. So Rahauro sends champions into the caverns to thin their numbers and learn their strength.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Envoy's Satchel",
-   "body": "Maur Grimtotem served Magatha and was among those killed by the troggs. Before he died in Ragefire Chasm, Maur found something he meant to show his mistress. Rahauro sends explorers through the volcanic paths to recover Maur’s lost satchel and whatever findings it holds.",
+   "body": "Maur Grimtotem served Magatha and died among her envoys in Ragefire Chasm. Before the troggs killed him, Maur found something he meant to show his mistress. Rahauro sends explorers through the volcanic paths to recover Maur’s lost satchel and whatever findings it holds.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "why send to ragefire",
     "rahauro trogg quest"
    ],
-   "answer": "Magatha sent envoys to negotiate with the troggs beneath Orgrimmar, but the troggs killed them. Rahauro sends adventurers into Ragefire Chasm to thin their numbers and counter the threat to the Horde."
+   "answer": "Magatha sent envoys beneath Orgrimmar to negotiate with the troggs, but the troggs killed them. Rahauro sends adventurers into Ragefire Chasm to thin their numbers and counter the threat to the Horde."
   },
   {
    "q": "Who was Maur Grimtotem?",
@@ -61,7 +61,7 @@
     "who is maur",
     "lost satchel guy"
    ],
-   "answer": "Maur Grimtotem served Magatha and went into Ragefire Chasm as her envoy. He found something noteworthy in the caves, but troggs killed him before he could bring it to her."
+   "answer": "Maur Grimtotem served Magatha and went into Ragefire Chasm as her envoy. He found something noteworthy in the caves, but the troggs killed him before he could bring it to her."
   },
   {
    "q": "What is inside the lost satchel Rahauro seeks?",
@@ -79,7 +79,7 @@
     "rahauro tribe",
     "rahauro faction"
    ],
-   "answer": "Rahauro attends Magatha Grimtotem on Elder Rise and oversees matters involving agents such as Maur. His service places him within Magatha’s retinue in Thunder Bluff."
+   "answer": "Rahauro attends Magatha Grimtotem on Elder Rise and oversees matters involving agents such as Maur. He serves within Magatha’s retinue in Thunder Bluff."
   }
  ],
  "angles": [
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren on Thunder Bluff’s terraces, you can see how Magatha’s influence reaches beyond Elder Rise. Rahauro works within her inner circle."
+   "text": "As a tauren on Thunder Bluff’s terraces, you can see Magatha’s influence reach beyond Elder Rise. Rahauro works within her inner circle."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Rahauro"
  ],
- "style": 1
+ "style": 2
 }

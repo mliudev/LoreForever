@@ -17,16 +17,16 @@
   "wiki": "Speak with Coleman",
   "chain": []
  },
- "summary": "In Brill, Deathguard Dillinger sends proven fighters to Coleman Farthing for help. The tavern meeting opens the way to a private matter tied to the old Agamand lands.",
+ "summary": "In Brill, Deathguard Dillinger sends proven fighters to Coleman Farthing for help. Their meeting in the tavern opens the way to a private matter tied to the old Agamand lands.",
  "sections": [
   {
    "title": "A Word from the Guard",
-   "body": "After you help contain grave threats near Brill, including Ulag the Cleaver, Deathguard Dillinger trusts your strength. He watches the roads into town and decides which fighters can take on work beyond the usual patrols. When he sees you are ready, he points you toward people who need specialized help.",
+   "body": "You have helped contain grave threats near Brill, including Ulag the Cleaver. So Deathguard Dillinger trusts your strength. He watches the roads into town and chooses who can take on work beyond the usual patrols. Seeing you are ready, he points you toward people who need specialized help.",
    "spoiler": 0
   },
   {
    "title": "A Private Vendetta",
-   "body": "Not every fight in Tirisfal Glades comes from orders in the Undercity. The surviving undead of Lordaeron carry grudges over the lands, families, and fortunes they left behind. Coleman Farthing waits in the Gallow's End Tavern, hoping to find a fighter who can strike at threats near former settlements such as the Agamand Mills.",
+   "body": "Not every fight in Tirisfal Glades begins with orders from the Undercity. The surviving undead of Lordaeron still bear grudges over the lands, families, and fortunes they left behind. Coleman Farthing waits in the Gallow's End Tavern for a fighter willing to strike at threats near former settlements such as the Agamand Mills.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who gives speak with coleman",
     "dillinger quest"
    ],
-   "answer": "Deathguard Dillinger, who guards the path into Brill, sends you to Coleman after you prove your fighting skill."
+   "answer": "Deathguard Dillinger guards the path into Brill. He sends you to Coleman after you prove your fighting skill."
   },
   {
    "q": "What kind of work does Coleman Farthing have?",
@@ -54,7 +54,7 @@
     "what does coleman want",
     "coleman farthing task"
    ],
-   "answer": "Coleman seeks a capable fighter to take revenge on enemies of the Forsaken, with matters around the old Agamand properties at stake."
+   "answer": "Coleman Farthing seeks a capable fighter to take revenge on enemies of the Forsaken. Matters around the old Agamand properties are at stake."
   },
   {
    "q": "What prerequisites are needed before receiving this task?",
@@ -70,7 +70,7 @@
     "speak with coleman rewards",
     "is it worth doing"
    ],
-   "answer": "Speaking with Farthing in the tavern connects you with his personal requests; this meeting brings no substantial gear or coin on its own."
+   "answer": "Speaking with Farthing in the tavern connects you with his personal requests. The meeting brings no substantial gear or coin on its own."
   },
   {
    "q": "What is the Gallow's End Tavern?",
@@ -78,7 +78,7 @@
     "brill tavern",
     "gallows end tavern"
    ],
-   "answer": "The Gallow's End Tavern is Brill's central inn, a place for the local undead to gather and rest, and an informal meeting place for private contracts."
+   "answer": "The Gallow's End Tavern is Brill's central inn, where local undead gather and rest. It is also an informal meeting place for private contracts."
   }
  ],
  "angles": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Speak with Coleman"
  ],
- "style": 1
+ "style": 2
 }

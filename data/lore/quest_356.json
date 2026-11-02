@@ -17,16 +17,16 @@
   "wiki": "Rear Guard Patrol",
   "chain": []
  },
- "summary": "At the Bulwark, Deathguard Linnea sends you to guard Tirisfal's eastern flank. Scourge horrors and lingering spirits haunt Balnir Farmstead, where they threaten the road and the supply lines that keep the front supplied.",
+ "summary": "At the Bulwark, Deathguard Linnea sends you to guard Tirisfal's eastern flank. Scourge horrors and lingering spirits threaten Balnir Farmstead, the road, and the supply lines that keep the front supplied.",
  "sections": [
   {
    "title": "Securing the Bulwark's Flank",
-   "body": "The Bulwark holds back the pestilence and armies of the Western Plaguelands from Tirisfal Glades. Deathguard Linnea oversees security behind the frontier. The defenders cannot spare troops to guard against attacks from the rear. Any undead that slip past the choke point must be destroyed before they can cut the supply lines feeding the front.",
+   "body": "The Bulwark guards Tirisfal Glades from the pestilence and armies of the Western Plaguelands. Deathguard Linnea watches over the defenders behind the frontier. They cannot spare troops to guard against attacks from the rear. So any undead that slip past the choke point must be destroyed before they cut the supply lines feeding the front.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Balnir Farmstead",
-   "body": "Balnir Farmstead was once a working farm in eastern Tirisfal, but it fell to ruin during the Third War. Blight covers its fields, and its crumbling stables shelter Bleeding Horrors and restless Wandering Spirits. Clearing the farmstead denies the Lich King a place to gather forces inside Tirisfal and keeps the road open for Horde reinforcements.",
+   "body": "Balnir Farmstead once worked as a farm in eastern Tirisfal, but fell to ruin during the Third War. Blight covers its fields, and Bleeding Horrors and restless Wandering Spirits shelter in its crumbling stables. Clearing the farmstead denies the Lich King a place to gather forces inside Tirisfal. It also keeps the road open for Horde reinforcements.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "bulwark importance",
     "why secure balnir"
    ],
-   "answer": "The Bulwark holds the narrow pass between Tirisfal and the Western Plaguelands. If Scourge wander behind the fortification, defenders could face attacks from both sides and lose the supply lines to Brill and the Undercity."
+   "answer": "The Bulwark guards the narrow pass between Tirisfal and the Western Plaguelands. If Scourge wander behind the fortification, the defenders could face attacks from both sides and lose the supply lines to Brill and the Undercity."
   },
   {
    "q": "Who orders this mission?",
@@ -46,7 +46,7 @@
     "who gives rear guard patrol",
     "deathguard linnea"
    ],
-   "answer": "Deathguard Linnea, stationed near the road east into the Plaguelands, orders the patrol and sends reports of success to Executor Zygand."
+   "answer": "Deathguard Linnea, stationed near the road east into the Plaguelands, orders the patrol. She sends reports of success to Executor Zygand."
   },
   {
    "q": "What creatures haunt the Balnir Farmstead?",
@@ -55,7 +55,7 @@
     "what monsters are at balnir",
     "bleeding horror"
    ],
-   "answer": "Bleeding Horrors, corpses reanimated and stitched together by necromancy, and Wandering Spirits haunt Balnir Farmstead. The spirits belonged to former inhabitants who died during the Scourge's initial conquest."
+   "answer": "Bleeding Horrors and Wandering Spirits haunt Balnir Farmstead. Necromancy reanimates and stitches the Horrors together, while the spirits belonged to former inhabitants who died during the Scourge's initial conquest."
   },
   {
    "q": "Who is Executor Zygand?",
@@ -106,5 +106,5 @@
  "attribution": [
   "Rear Guard Patrol"
  ],
- "style": 1
+ "style": 2
 }

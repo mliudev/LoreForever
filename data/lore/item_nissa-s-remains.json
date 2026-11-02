@@ -10,16 +10,16 @@
    "quest:354"
   ]
  },
- "summary": "Nissa's remains belong to a noblewoman of the once-wealthy Agamand dynasty in northern Tirisfal Glades. Slain and made mindless servants of the Scourge during the Third War, Nissa and her family are now hunted by former laborers seeking vengeance.",
+ "summary": "In northern Tirisfal, Nissa's remains belong to a noblewoman of the once-wealthy Agamand family. The Scourge slew her and her kin during the Third War, then bound them as mindless servants. Now former laborers hunt the family for vengeance.",
  "sections": [
   {
    "title": "A Legacy of Pride",
-   "body": "Before the Third War, the Agamands were Tirisfal Glades' wealthiest and most influential dynasty. Their prosperous mills stood across the northern hills. When the Plague of Undeath spread through Lordaeron, the family patriarchs refused to flee. They fortified their estates and persuaded their retainers and laborers to stay and fight. Their pride cost them their lives. The Scourge slew the Agamands, then raised them as mindless thralls bound to the Lich King's will.",
+   "body": "Before the Third War, the Agamands were Tirisfal Glades' wealthiest and most influential family. Their prosperous mills stood across the northern hills. When the Plague of Undeath spread through Lordaeron, the patriarchs refused to flee. They fortified their estates and persuaded their retainers and laborers to stay and fight. Their pride cost them their lives. The Scourge slew the Agamands and raised them as mindless thralls bound to the Lich King's will.",
    "spoiler": 0
   },
   {
    "title": "Bitter Retribution",
-   "body": "In Brill, survivors who later broke free under Queen Sylvanas Windrunner still remember the Agamands' fatal pride. Coleman Farthing, once a laborer in their mills, resents his former masters for luring the workers into undeath. He charges adventurers with putting down the risen Agamands and retrieving their physical remains, including Nissa's. For Farthing and other Forsaken, destroying these relics offers a grim sense of closure and revenge.",
+   "body": "In Brill, survivors who later broke free under Queen Sylvanas Windrunner still remember the Agamands' fatal pride. Coleman Farthing once labored in their mills, and resents his former masters for luring the workers into undeath. He sends adventurers to put down the risen Agamands and retrieve their physical remains, including Nissa's. For Farthing and other Forsaken, destroying these relics brings a grim sense of closure and revenge.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "nissa lore",
     "nissa agamand"
    ],
-   "answer": "Nissa Agamand belonged to the noble Agamand family, which owned the sprawling Agamand Mills in Tirisfal Glades. When the Scourge swept through Lordaeron, she died with her kin and was raised as an undead minion under the Lich King's control."
+   "answer": "Nissa Agamand was a noblewoman of the Agamand family, which owned the sprawling Agamand Mills in Tirisfal Glades. When the Scourge swept through Lordaeron, she died with her kin and was raised as an undead minion under the Lich King's control."
   },
   {
    "q": "Why does Coleman Farthing want Nissa's remains?",
@@ -40,7 +40,7 @@
     "why kill agamands",
     "coleman farthing motive"
    ],
-   "answer": "Coleman Farthing worked in the Agamand mills while alive. He resents the family for refusing to flee and persuading their loyal workers to stay behind and die. Gathering the family's remains lets him take revenge on his former masters."
+   "answer": "Coleman Farthing worked in the Agamand mills while alive. He resents the family for refusing to flee and persuading their loyal workers to stay and die. Gathering the family's remains lets him take revenge on his former masters."
   },
   {
    "q": "Where are these remains gathered?",
@@ -63,7 +63,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, reclaiming Tirisfal means purging their former Scourge oppressors and the wealthy aristocrats whose foolish pride doomed common laborers to undeath."
+   "text": "For the Forsaken, reclaiming Tirisfal means purging their former Scourge oppressors and the wealthy aristocrats whose pride doomed common laborers to undeath."
   },
   {
    "target": "faction:Horde",
@@ -93,5 +93,5 @@
   "Nissa's Remains",
   "Deaths in the Family (Classic)"
  ],
- "style": 1
+ "style": 2
 }

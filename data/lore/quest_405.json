@@ -17,16 +17,16 @@
   "wiki": "The Prodigal Lich",
   "chain": []
  },
- "summary": "In the Undercity, Bethor Iceshard needs an agent for a mission involving a wayward lich. After your work in Brill against Scourge remnants and Rot Hide gnolls, Magistrate Sevren sends you south with orders.",
+ "summary": "In the Undercity, Bethor Iceshard seeks an agent for a matter involving a wayward lich. After your work against Scourge remnants and Rot Hide gnolls in Brill, Magistrate Sevren sends you south with orders.",
  "sections": [
   {
    "title": "Summons to the Capital",
-   "body": "Magistrate Sevren judges you worthy of greater Forsaken work after your service in Brill. He sends you to Bethor Iceshard, a formidable mage in the Undercity's Magic Quarter, who wants an agent tested against the Scourge. Sevren gives you official orders to carry beneath the ruins of Lordaeron, into the corridors of the Forsaken capital.",
+   "body": "Your service in Brill has earned Magistrate Sevren's trust for greater Forsaken work. He sends you to Bethor Iceshard, a formidable mage in the Undercity's Magic Quarter. Bethor wants an agent tested against the Scourge, and Sevren gives you official orders to carry beneath the ruins of Lordaeron into the corridors of the Forsaken capital.",
    "spoiler": 0
   },
   {
    "title": "A Wayward Lich",
-   "body": "Magistrate Sevren does not know the exact details, but the orders concern finding and recruiting a rogue lich. Liches are among the Scourge's deadliest spellcasters, and dealing with one is perilous. You bring the orders to Bethor atop his arcane sanctum. The icy mage gets straight to business, ready to see whether Brill's magistrate has sent someone strong enough to track such dangerous quarry.",
+   "body": "Magistrate Sevren does not know the full details, but the orders concern finding and recruiting a rogue lich. Liches are among the Scourge's deadliest spellcasters, so dealing with one is perilous. You bring the orders to Bethor atop his arcane sanctum. The icy mage is ready to see whether Brill's magistrate has sent someone strong enough to track such dangerous quarry.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "who is the wayward lich",
     "prodigal lich purpose"
    ],
-   "answer": "Bethor intends to enlist a wandering, rogue lich. First, he needs an agent able to follow clues to the lich's identity and whereabouts."
+   "answer": "Bethor intends to enlist a wandering, rogue lich. First, he needs an agent who can follow clues to the lich's identity and whereabouts."
   },
   {
    "q": "Why does Bethor require an agent tested against the Scourge?",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Prodigal Lich"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "Return the Book",
   "chain": []
  },
- "summary": "Bethor Iceshard sends his enchanted message back to Gunther Arcanus on Brightwater Lake. The stolen spellbook may bring his old Kirin Tor companion into the Forsaken fold.",
+ "summary": "Bethor Iceshard sends an enchanted message to Gunther Arcanus on Brightwater Lake. The stolen spellbook may draw his old Kirin Tor companion toward the Forsaken.",
  "sections": [
   {
    "title": "A Message in Arcane Ink",
-   "body": "Bethor Iceshard sends an arcane message to Gunther Arcanus through a stolen spellbook. Once Bethor learns the necromancer on Brightwater Lake is his old companion, he enchants the tome's pages. The spell leaves Bethor's own magical mark, showing he is active in Lordaeron and free of the Lich King's control.",
+   "body": "Bethor Iceshard sends a message to Gunther Arcanus through a stolen spellbook. Learning that the necromancer on Brightwater Lake is his old companion, Bethor enchants its pages. His magic leaves a mark on the tome. It shows Gunther that Bethor is active in Lordaeron and free of the Lich King's control.",
    "spoiler": 0
   },
   {
    "title": "The Old Circle of Dalaran",
-   "body": "Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw studied and became friends in the Kirin Tor of Dalaran. When the Lich King rose, Thule betrayed his companions and joined the Scourge willingly. Bethor and Gunther fell to the Plague. Bethor later broke free alongside Queen Sylvanas. Believing Gunther dead or enslaved, Bethor now learns his old friend has also won his own freedom and seeks to bring him to the Forsaken.",
+   "body": "Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw studied together in the Kirin Tor of Dalaran and became friends. When the Lich King rose, Thule betrayed them and joined the Scourge willingly. Bethor and Gunther fell to the Plague. Bethor later broke free alongside Queen Sylvanas.\n\nBethor believed Gunther dead or enslaved. Now he learns his old friend has won his freedom too, and seeks to bring him into the Forsaken fold.",
    "spoiler": 0
   },
   {
    "title": "Mistrust on the Island",
-   "body": "Gunther Arcanus meets an intruder on his island with fury. He suspects a Scourge agent has come to enslave him again, or that the thief who stole his magic has returned. Then he sees his grimoire and feels Bethor's familiar magic in it. The sign of someone from his mortal past forces the solitary mage to question his isolation.",
+   "body": "Gunther Arcanus meets an intruder on his island in fury. He suspects a Scourge agent has come to enslave him again, or that the thief who stole his magic has returned. Then he sees his grimoire and senses Bethor's familiar magic within it. The sign of someone from his mortal past makes the solitary mage question his isolation.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "gunthers book spell",
     "what did bethor do to the book"
    ],
-   "answer": "Bethor Iceshard enchants the stolen spellbook with his magical signature to show Gunther he is free of the Lich King. A plain messenger might be rejected or destroyed by Gunther, who fears the Scourge."
+   "answer": "Bethor Iceshard enchants the stolen spellbook with his magical signature to show Gunther he is free of the Lich King's control. Gunther fears the Scourge and might reject or destroy an ordinary messenger."
   },
   {
    "q": "Who was Gunther Arcanus before he died?",
@@ -70,7 +70,7 @@
     "thule ravenclaw lore",
     "third friend"
    ],
-   "answer": "Thule Ravenclaw was a fellow Kirin Tor student of Bethor Iceshard and Gunther Arcanus in Dalaran. Unlike them, Thule willingly serves the Scourge as a loyal necromancer in Silverpine Forest."
+   "answer": "Thule Ravenclaw studied with Bethor Iceshard and Gunther Arcanus in the Kirin Tor of Dalaran. Unlike them, Thule willingly serves the Scourge as a loyal necromancer in Silverpine Forest."
   },
   {
    "q": "Why does Gunther think the player is a thief?",
@@ -79,7 +79,7 @@
     "did i steal gunthers book",
     "stolen book"
    ],
-   "answer": "Bethor earlier sent Forsaken adventurers into Gunther's sanctum to steal his spellbook and learn who was practicing necromancy on the lake. Gunther recognizes the returning adventurer as the one who robbed him."
+   "answer": "Bethor earlier sent Forsaken adventurers into Gunther's sanctum to steal his spellbook and learn who practiced necromancy on the lake. Gunther recognizes the returning adventurer as the one who robbed him."
   },
   {
    "q": "Does Gunther immediately join the Forsaken?",
@@ -88,7 +88,7 @@
     "gunther allegience",
     "what happens next with gunther"
    ],
-   "answer": "No. Gunther is stunned to learn Bethor lives and is free, but remains wary of the Forsaken. He asks you to prove you oppose the Scourge by summoning and destroying its agent Lillith Nefara at an old altar off the island's southern coast."
+   "answer": "No. Gunther is stunned to learn Bethor lives and is free, but he remains wary of the Forsaken. He asks you to prove you oppose the Scourge by summoning and destroying its agent Lillith Nefara at an old altar off the island's southern coast."
   }
  ],
  "angles": [
@@ -102,7 +102,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help strengthen Undercity's arcane ranks when independent undead sorcerers like Gunther join the cause against the Scourge and the Scarlet Crusade."
+   "text": "As a member of the Horde, you help strengthen Undercity's arcane ranks when independent undead sorcerers like Gunther join the fight against the Scourge and the Scarlet Crusade."
   }
  ],
  "keywords": [
@@ -130,5 +130,5 @@
  "attribution": [
   "Return the Book"
  ],
- "style": 1
+ "style": 2
 }

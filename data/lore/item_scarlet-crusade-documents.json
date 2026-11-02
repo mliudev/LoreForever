@@ -11,16 +11,16 @@
    "quest:383"
   ]
  },
- "summary": "At the Crusade's camp near Deathknell, a messenger carries Scarlet Crusade Documents through Tirisfal. The intercepted orders name field commanders and direct their forces, giving the Forsaken military leadership intelligence on Scarlet positions across the Glades.",
+ "summary": "At the Crusade's camp near Deathknell, Scarlet Crusade Documents pass through Tirisfal in a messenger's hands. Their orders name field commanders and direct their forces, giving the Forsaken intelligence on Scarlet positions across the Glades.",
  "sections": [
   {
    "title": "Intercepted Orders",
-   "body": "Meven Korgal carried the documents from the Crusade's encampment southeast of Deathknell. By order of the Highlord, they direct the captains of the Crusade's Tirisfal Regional Command. Captain Perrine must further fortify the southwest tower and gather information on the undead in Brill. Captain Vachon must crush undead movement near the northern tower, while Captain Melrose watches the borders of the Plaguelands. The orders name Scarlet field officers, their posts, and their duties across Tirisfal Glades.",
+   "body": "Meven Korgal carried the documents from the Crusade's encampment southeast of Deathknell. The Highlord's orders direct the captains of the Crusade's Tirisfal Regional Command. Captain Perrine must fortify the southwest tower and gather information on the undead in Brill.\n\nCaptain Vachon must crush undead movement near the northern tower, while Captain Melrose watches the borders of the Plaguelands. The orders name Scarlet field officers, their posts, and their duties across Tirisfal Glades.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Brill",
-   "body": "Executor Arren sees that Deathknell's local forces cannot use the full breadth of this intelligence. The captured documents become a newly awakened Forsaken's passport out of Deathknell. Carry them northeast, past Cold Hearth Manor, to Brill, and deliver them to Executor Zygand outside Brill Town Hall. With the orders in hand, Forsaken military leaders plan swift strikes against Scarlet commanders entrenched across the Glades.",
+   "body": "Executor Arren sees that Deathknell's local forces cannot make full use of this intelligence. The captured documents become a newly awakened Forsaken's passport out of Deathknell. Carry them northeast, past Cold Hearth Manor, to Brill, and deliver them to Executor Zygand outside Brill Town Hall. With the orders in hand, Forsaken military leaders can plan swift strikes against Scarlet commanders entrenched across the Glades.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "what do the papers say",
     "document contents"
    ],
-   "answer": "By order of the Highlord, the documents direct the Crusade's Tirisfal Regional Command. Captain Perrine must fortify the southwest tower and gather information on the undead in Brill. Captain Vachon must crush undead movement near the northern tower, and Captain Melrose must watch the borders of the Plaguelands."
+   "answer": "The Highlord's orders direct the Crusade's Tirisfal Regional Command. Captain Perrine must fortify the southwest tower and gather information on the undead in Brill. Captain Vachon must crush undead movement near the northern tower, and Captain Melrose must watch the borders of the Plaguelands."
   },
   {
    "q": "Who needs to see these documents?",
@@ -48,7 +48,7 @@
     "where do i take them",
     "who do i give the documents to"
    ],
-   "answer": "You recover the documents for Executor Arren in Deathknell, and he entrusts them to you for delivery to Executor Zygand, who oversees regional military efforts outside Brill Town Hall."
+   "answer": "You recover the documents for Executor Arren in Deathknell. He entrusts them to you for delivery to Executor Zygand, who oversees regional military efforts outside Brill Town Hall."
   },
   {
    "q": "Why are these documents important to the Forsaken?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an awakened Forsaken, carrying these papers takes you from Deathknell's cemetery trials into the wider war effort directed from Brill."
+   "text": "As an awakened Forsaken, you carry these papers from Deathknell's cemetery trials into the wider war effort directed from Brill."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "The Red Messenger",
   "Vital Intelligence (Classic)"
  ],
- "style": 1
+ "style": 2
 }

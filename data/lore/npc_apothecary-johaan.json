@@ -8,16 +8,16 @@
   "wiki": "Apothecary Johaan",
   "refs": 7
  },
- "summary": "In Brill, Apothecary Johaan works to develop a plague for the Forsaken. The Royal Apothecary Society and Lady Sylvanas have charged him with lethal experiments on local plants and animals.",
+ "summary": "In Brill, Apothecary Johaan works on a plague for the Forsaken. The Royal Apothecary Society and Lady Sylvanas have set him to lethal experiments on local plants and animals.",
  "sections": [
   {
    "title": "A Servant of the Society",
-   "body": "Apothecary Johaan works openly from Brill in Tirisfal Glades for the newly formed Royal Apothecary Society. Like his colleagues across Lordaeron, he follows direct orders to create biological and alchemical weapons. The Forsaken hope these weapons will secure their fragile future against the living and the Scourge alike.",
+   "body": "In Brill, Apothecary Johaan works openly for the newly formed Royal Apothecary Society. Like his colleagues across Lordaeron, he follows direct orders to create biological and alchemical weapons. The Forsaken hope these weapons will secure their fragile future against the living and the Scourge alike.",
    "spoiler": 0
   },
   {
    "title": "Brewing the New Plague",
-   "body": "Apothecary Johaan leads early field trials of the Society's New Plague. He uses materials from Tirisfal's corrupted wildlife and blighted farms, including darkhound blood, murloc scales, spider venom and stolen farm pumpkins. He tests the mixtures on living subjects, measures their potency and sends his findings south to Silverpine Forest.",
+   "body": "Apothecary Johaan leads early field trials of the Society's New Plague. From Tirisfal's corrupted wildlife and blighted farms, he takes darkhound blood, murloc scales, spider venom and stolen farm pumpkins. He tests the mixtures on living subjects and measures their potency. Then he sends his findings south to Silverpine Forest.",
    "spoiler": 1
   }
  ],
@@ -55,7 +55,7 @@
     "delivery to silverpine",
     "where do plague samples go"
    ],
-   "answer": "After mixing samples and assessing their lethality, Johaan sends couriers to deliver them to allied apothecaries in Silverpine Forest."
+   "answer": "After mixing samples and assessing their lethality, Johaan sends couriers to allied apothecaries in Silverpine Forest."
   },
   {
    "q": "What organization does Johaan belong to?",
@@ -71,7 +71,7 @@
     "fields of grief johaan",
     "why send me to farms"
    ],
-   "answer": "Human farms such as the Solliden Farmstead and nearby pumpkin patches grow pumpkins that Johaan uses as raw reagents for experimental toxins."
+   "answer": "Human farms such as the Solliden Farmstead and nearby pumpkin patches grow pumpkins Johaan uses as raw reagents for experimental toxins."
   }
  ],
  "angles": [
@@ -106,5 +106,5 @@
  "attribution": [
   "Apothecary Johaan"
  ],
- "style": 1
+ "style": 2
 }

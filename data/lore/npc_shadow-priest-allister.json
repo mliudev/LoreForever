@@ -8,21 +8,21 @@
   "wiki": "Shadow Priest Allister",
   "refs": 7
  },
- "summary": "At the Sepulcher, Shadow Priest Allister directs Forsaken efforts across Silverpine Forest. He watches nearby threats and helps secure Lordaeron's borders for the Dark Lady.",
+ "summary": "At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady.",
  "sections": [
   {
    "title": "Watcher at the Sepulcher",
-   "body": "Shadow Priest Allister directs Forsaken scouts from the Sepulcher in Silverpine Forest. From this settlement, he keeps watch for renegade humans, beasts, and the arcane activity around Dalaran.",
+   "body": "Shadow Priest Allister directs Forsaken scouts from the Sepulcher in Silverpine Forest. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran.",
    "spoiler": 0
   },
   {
    "title": "Eyes on Ambermill and Dalaran",
-   "body": "Allister's chief concern is the surviving mages of Dalaran, especially those at Ambermill who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims.",
+   "body": "Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims.",
    "spoiler": 0
   },
   {
    "title": "Heretical Musings",
-   "body": "Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life. Somehow, copies have reached the ruins of Dire Maul in Kalimdor.",
+   "body": "Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "why attack ambermill",
     "dalaran threat silverpine"
    ],
-   "answer": "The Kirin Tor mages at Ambermill threaten Forsaken territory. Allister works to decipher their communications, learn their intentions, and contain their influence."
+   "answer": "The Kirin Tor mages at Ambermill threaten Forsaken territory. Allister's agents decipher their communications, learn their intentions, and contain their influence."
   },
   {
    "q": "What book did Allister write?",
@@ -61,7 +61,7 @@
     "holy bologna",
     "what the light wont tell you"
    ],
-   "answer": "Allister wrote 'Holy Bologna: What the Light Won't Tell You', a sharp critique of the Holy Light that reached the ancient libraries of Dire Maul across the sea."
+   "answer": "Allister wrote 'Holy Bologna: What the Light Won't Tell You', a sharp critique of the Holy Light. Copies reached the ancient libraries of Dire Maul across the sea."
   },
   {
    "q": "What quests does Allister offer?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Shadow Priest Allister"
  ],
- "style": 1
+ "style": 2
 }

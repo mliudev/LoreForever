@@ -17,16 +17,16 @@
   "wiki": "Return to Thunder Bluff (1)",
   "chain": []
  },
- "summary": "Apothecary Lydon’s toxin is bound for Thunder Bluff, where Zamah awaits it. She needs the formula to make a device that can spread it against the Venture Company.",
+ "summary": "In Thunder Bluff, Zamah awaits the toxin Lydon made. She needs its formula to build a device that can spread it against the Venture Company.",
  "sections": [
   {
    "title": "A Transcontinental Delivery",
-   "body": "Apothecary Lydon has made the toxin from the ingredients gathered in the Hillsbrad Foothills. He wants to see it tested on living subjects, but the liquid needs a way to spread it. You carry the vial across the Great Sea to Mulgore, where Apothecary Zamah waits for it.",
+   "body": "Apothecary Lydon made the toxin from ingredients gathered in the Hillsbrad Foothills. He wants to test it on living subjects, but first it needs a way to spread. You carry the vial across the Great Sea to Mulgore, where Apothecary Zamah waits.",
    "spoiler": 0
   },
   {
    "title": "Zamah's Apparatus",
-   "body": "Apothecary Zamah works beneath Spirit Rise in Thunder Bluff as an ambassador and researcher for the Royal Apothecary Society. With Lydon's formula, she makes an aerosol device called the Toxic Fogger. She intends to use it against the Venture Company goblins.",
+   "body": "Beneath Spirit Rise in Thunder Bluff, Apothecary Zamah works as an ambassador and researcher for the Royal Apothecary Society. Lydon's formula lets her build an aerosol device called the Toxic Fogger. She means to use it against the Venture Company goblins.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what does zamah do with toxin",
     "lydons toxin use"
    ],
-   "answer": "Lydon made the liquid toxin, but it needs a way to spread across a broad area. Zamah can turn the formula into an aerosol device called the Toxic Fogger."
+   "answer": "Lydon made the liquid toxin, but it needs a way to spread across a broad area. Zamah can use the formula to make an aerosol device called the Toxic Fogger."
   },
   {
    "q": "Who is the target of this concoction?",
@@ -74,7 +74,7 @@
     "what after return to thunder bluff",
     "fogger quest"
    ],
-   "answer": "After Zamah receives the vial, she makes the Toxic Fogger. She then sends you to use it at a Venture Company facility in the Stonetalon Mountains."
+   "answer": "After Zamah receives the vial, she makes the Toxic Fogger. Then she sends you to use it at a Venture Company facility in the Stonetalon Mountains."
   },
   {
    "q": "Who created the original formula?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Return to Thunder Bluff (1)"
  ],
- "style": 1
+ "style": 2
 }

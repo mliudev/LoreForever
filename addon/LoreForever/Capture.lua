@@ -16,17 +16,23 @@
 --     Forever ships no text for (recomputed at every login against this release's data), by = { [line key] =
 --     "Human.WARRIOR.2" }: the race, class and gender of the character who saw each line, sent = { [line key] = true }:
 --     shared already ("Mark all as sent" in Options; a file upload leaves these out), copied = { [line key] = true }:
---     its Contribute link was copied (the button hides for it) }
+--     its Contribute link was copied (the button hides for it), builds = { [line key] = "1.60.1.70707" }: the client
+--     each line was seen in, game, toc, project, season: which game this client is (Capture.Game) }
+-- Which game: the add-on also loads in Classic Era, its Anniversary, Season of Discovery and Hardcore realms and retail,
+-- whose text differs from Forever's (Mike, 11/1). Only Forever's text goes into Lore Forever: the site and the nightly
+-- import (lore.contrib) read each line's build, and keep out lines from any other client. A line keeps its own build
+-- because a SavedVariables file can move between clients (a WTF folder copied from _classic_era_ to _forever_).
 -- Line keys: quest:<id>#<part> (part: title, detail, objectives, progress, complete), gossip:<npc name>#<hash>,
 -- book:<title>#<page>, say:<npcID>#<hash>.
--- Text is stored with the character's name, class and race replaced by $N, $C and $R (Capture.Placeholders), as the
--- game's own quest templates have them; older versions wrote <name>, and the site and harvest read both.
+-- Text is stored with the character's name replaced by $N, and their class and race by $C and $R where the text speaks
+-- to them (Capture.Placeholders), as the game's own quest templates have them; older versions wrote <name>, and the
+-- site and harvest read both.
 -- Size: at most MAX_QUESTS quest records and MAX_TEXTS gossip, book and say lines. Past that, quests whose text a
 -- release now ships go first, then lines already sent; if it's still full, new text isn't kept.
 --
 -- Contribute codes (Capture.Code; decoded by site/public/contribute-code.js, keep the two in step):
---   LFC1~<version>.<locale>~<kind>~<id>~<part>~<speaker>~<player>~<text>~<checksum>
--- speaker "<npc id>.<UnitSex>.<creature type>.<name>" or "o<object id>"; player "Race.CLASS.sex"; checksum the djb2 of
+--   LFC2~<version>.<locale>~<build>~<kind>~<id>~<part>~<speaker>~<player>~<text>~<checksum>
+-- build the client's (GetBuildInfo: "1.60.1.70707"; older add-ons' LFC1 had none); speaker "<npc id>.<UnitSex>.<creature type>.<name>" or "o<object id>"; player "Race.CLASS.sex"; checksum the djb2 of
 -- everything before it (8 hex digits); % ~ CR LF inside fields as %25 %7E %0D %0A. The button's link is
 -- https://loreforeverwow.com/contribute#c=<the code, percent-encoded>; a code over MAX_CODE characters (never seen in
 -- practice) gives the page's address instead, with a note to share the file.
@@ -50,8 +56,8 @@ local ICON = "Interface\\Icons\\INV_Misc_Note_01"
 
 local function call(f, ...)
   if type(f) ~= "function" then return nil end
-  local ok, a, b, c = pcall(f, ...)
-  if ok then return a, b, c end
+  local ok, a, b, c, d = pcall(f, ...)
+  if ok then return a, b, c, d end
 end
 local function usable(v) return ns.Context.Usable(v) and type(v) == "string" and v:find("%S") ~= nil end
 local function settings() return (LoreForeverDB and LoreForeverDB.settings) or {} end
@@ -93,18 +99,78 @@ local function classWords()
   return out
 end
 
+-- Words that can't stand between a greeting's comma and the name it gives the player ("Greetings, young hunter").
+local NOT_ADJECTIVE = {}
+for w in ("the a an this that these those our your my his her their its of we all any many some other every each no "
+  .. "one two for to and or with by from in on at as than fellow"):gmatch("%a+") do NOT_ADJECTIVE[w] = true end
+local MARK = { [","] = true, ["."] = true, ["!"] = true, ["?"] = true, [";"] = true, [":"] = true, ["-"] = true,
+  ["\n"] = true, ["|"] = true }
+
+-- Whether the race or class word hit (text:sub(hit.s, hit.e)) speaks to or of the player, as the game's $R and $C do
+-- ("Greetings, Tauren.", "Well met, young hunter!", "a Tauren Hunter like you"), rather than being a word of the story
+-- ("the tauren capital", "a wise tauren", "Hunters", "a Tauren's honor"): only those become placeholders (LOR-975).
+-- byStart/byEnd: the other hits, skipped over ("Greetings, Tauren Hunter."). lore.contrib.addresses_player is the same.
+local function addresses(text, hit, byStart, byEnd)
+  local after = text:sub(hit.e + 1, hit.e + 3)
+  if hit.plural or after:sub(1, 1) == "'" or after == "\226\128\153" then return false end   -- "Tauren's", "Tauren’s"
+  local i = hit.e + 1
+  while true do
+    i = i + #text:match("^[ \t]*", i)
+    if not byStart[i] then break end
+    i = byStart[i].e + 1
+  end
+  local like, you = text:match("^(%a+)%s+(%a+)", i)
+  if like and like:lower() == "like" and (you:lower() == "you" or you:lower() == "yourself") then return true end
+  local c = text:sub(i, i)
+  if c ~= "" and not MARK[c] then return false end
+  local j, adjectives = hit.s - 1, 0
+  while true do
+    j = j - #text:sub(1, j):match("[ \t]*$")
+    if j < 1 then return true end
+    if byEnd[j] then
+      j = byEnd[j].s - 1
+    else
+      local w = text:sub(1, j):match("[%a']+$")
+      if not w or adjectives >= 3 or w ~= w:lower() or NOT_ADJECTIVE[w] or not w:match("^%a") then
+        return MARK[text:sub(j, j)] == true
+      end
+      j, adjectives = j - #w, adjectives + 1
+    end
+  end
+end
+
 -- The text with this character's name replaced by $N (as written, and in capitals as a yell has it; anywhere, even
--- glued to a dwarf's "-ama"), and their race and class, as whole words in any case, by $R and $C ("Humans" -> "$Rs").
+-- glued to a dwarf's "-ama"), and their race and class, as whole words in any case, by $R and $C where the text speaks
+-- to them (addresses): "Well met, Tauren!" -> "Well met, $R!", but "a wise tauren" stays.
 function Capture.Placeholders(text)
   if type(text) ~= "string" or text == "" then return text end
   local name = call(_G.UnitName, "player")
   if usable(name) and #name >= 2 then
     text = text:gsub(literal(name), "$N"):gsub(literal(name:upper()), "$N")
   end
+  local words = {}
   local race = call(_G.UnitRace, "player")
-  if usable(race) then text = text:gsub(word(anyCase(race)), "$R%1") end
-  for _, w in ipairs(classWords()) do text = text:gsub(word(anyCase(w)), "$C%1") end
-  return text
+  if usable(race) then words[#words + 1] = { anyCase(race), "$R" } end
+  for _, w in ipairs(classWords()) do words[#words + 1] = { anyCase(w), "$C" } end
+  local hits, byStart, byEnd = {}, {}, {}
+  for _, w in ipairs(words) do
+    local init = 1
+    while true do
+      local s, e, plural = text:find(word(w[1]), init)
+      if not s then break end
+      if not byStart[s] then
+        local hit = { s = s, e = e, plural = plural ~= "", code = w[2] }
+        hits[#hits + 1], byStart[s], byEnd[e] = hit, hit, hit
+      end
+      init = e + 1
+    end
+  end
+  table.sort(hits, function(a, b) return a.s > b.s end)
+  local out = text
+  for _, hit in ipairs(hits) do
+    if addresses(text, hit, byStart, byEnd) then out = out:sub(1, hit.s - 1) .. hit.code .. out:sub(hit.e + 1) end
+  end
+  return out
 end
 
 -- Whether two kept texts are the same words, whoever saw them: placeholders ($N, $C, $R, and 0.7.0's <name>) and this
@@ -131,6 +197,19 @@ function Capture.PlayerTag()
       and (sex == 1 or sex == 2 or sex == 3) then
     return race .. "." .. class .. "." .. sex
   end
+end
+
+-- Which game a client version (GetBuildInfo's first value, "1.60.1") is: "forever" (WoW Forever: 1.60 and up, its
+-- beta's and its launch client's alike), "classic_era" (1.13 to 1.15: Classic Era and its Anniversary, Season of
+-- Discovery and Hardcore realms), "classic" (2 to 9: the other Classic clients), "retail" (10 and up), or nil. The
+-- version is what tells Forever apart: its WOW_PROJECT_ID is the Mainline family's, like retail's. Keep in step with
+-- site/lib/contribute.js gameOf and pipeline/lore/contrib.py game_of.
+function Capture.Game(version)
+  local major, minor = tostring(version or ""):match("^(%d+)%.(%d+)")
+  major, minor = tonumber(major), tonumber(minor)
+  if not major then return nil end
+  if major == 1 then return minor >= 60 and "forever" or "classic_era" end
+  return major >= 10 and "retail" or "classic"
 end
 
 -- What Lore Forever ships -----------------------------------------------------------------------------------------------
@@ -264,7 +343,7 @@ function Capture.Refresh()
     end
   end)
   c.missing = missing
-  for _, t in ipairs({ c.sent, c.by, c.copied }) do
+  for _, t in ipairs({ c.sent, c.by, c.copied, c.builds }) do
     for k in pairs(t) do if not present[k] then t[k] = nil end end
   end
 end
@@ -326,22 +405,25 @@ function Capture.Init()
     c.names = 1   -- text keeps $N/$C/$R
   end
   c.v = V
-  local version, build = call(_G.GetBuildInfo)
+  local version, build, _, toc = call(_G.GetBuildInfo)
   c.build = (type(version) == "string" and version or "") .. (build and ("." .. tostring(build)) or "")
+  c.game, c.toc, c.project = Capture.Game(version), tonumber(toc), tonumber(_G.WOW_PROJECT_ID)
+  c.season = _G.C_Seasons and tonumber(call(_G.C_Seasons.GetActiveSeason)) or nil
   c.locale = call(_G.GetLocale) or c.locale or "enUS"
   c.version = ns.Log.Version()
   if type(c.install) ~= "string" or not c.install:match("^%x+$") then c.install = randomId() end
-  for _, k in ipairs({ "sent", "by", "copied", "missing" }) do c[k] = type(c[k]) == "table" and c[k] or {} end
+  for _, k in ipairs({ "sent", "by", "copied", "missing", "builds" }) do c[k] = type(c[k]) == "table" and c[k] or {} end
   Capture.Prune()
   Capture.Refresh()
   Capture.Hook()
 end
 
--- Who saw a line, and whether Lore Forever lacks it (called as each line is kept).
+-- Who saw a line and in which client, and whether Lore Forever lacks it (called as each line is kept).
 function Capture.Note(key, kind, ref, missing)
   local c = db()
   if not c then return end
   c.by[key] = Capture.PlayerTag()
+  if c.builds then c.builds[key] = c.build ~= "" and c.build or nil end
   if missing then c.missing[kind .. ":" .. ref] = true end
 end
 
@@ -462,8 +544,8 @@ end
 function Capture.Code(line)
   local c = db()
   local locale = (c and c.locale) or call(_G.GetLocale) or "enUS"
-  local body = table.concat({ "LFC1", (ns.Log.Version() or "-") .. "." .. locale, line.kind, esc(line.id),
-    esc(line.part), esc(Capture.SpeakerField(line.speaker)), esc(line.player or ""), esc(line.text) }, "~")
+  local body = table.concat({ "LFC2", (ns.Log.Version() or "-") .. "." .. locale, esc(c and c.build or ""), line.kind,
+    esc(line.id), esc(line.part), esc(Capture.SpeakerField(line.speaker)), esc(line.player or ""), esc(line.text) }, "~")
   return body .. "~" .. hash(body)
 end
 
@@ -473,11 +555,11 @@ function Capture.Decode(code)
   if not body or hash(body) ~= sum then return nil end
   local f = {}
   for part in (body .. "~"):gmatch("([^~]*)~") do f[#f + 1] = part end
-  if #f ~= 8 or f[1] ~= "LFC1" then return nil end
+  if #f ~= 9 or f[1] ~= "LFC2" then return nil end
   local function un(s) return (s:gsub("%%(%x%x)", function(h) return string.char(tonumber(h, 16)) end)) end
   local version, locale = f[2]:match("^(.*)%.(%a%a%a%a)$")
-  return { version = version, locale = locale, kind = f[3], id = un(f[4]), part = un(f[5]), speaker = un(f[6]),
-    player = un(f[7]), text = un(f[8]) }
+  return { version = version, locale = locale, build = un(f[3]), kind = f[4], id = un(f[5]), part = un(f[6]),
+    speaker = un(f[7]), player = un(f[8]), text = un(f[9]) }
 end
 
 -- The link a Contribute button gives for a line: the page's address with the code, or (a code too long for a link)
@@ -601,10 +683,17 @@ local function place(b, corner, ...)
   if beside then b:SetPoint("RIGHT", beside, "LEFT", -4, 0) else corner(b) end
 end
 
+-- Whether this client is WoW Forever's (or doesn't say): another version of WoW's text isn't taken, so its quest
+-- windows get no Contribute button (in Classic Era every quest Forever rewrote would ask to be shared).
+function Capture.InForever()
+  local game = Capture.Game((call(_G.GetBuildInfo)))
+  return game == nil or game == "forever"
+end
+
 local function show(key, line, force)
   local b = buttons[key]
   if not b then return end
-  b.line = (force or Capture.ButtonsOn()) and line or nil
+  b.line = (force or (Capture.ButtonsOn() and Capture.InForever())) and line or nil
   b:SetShown(b.line ~= nil)
 end
 

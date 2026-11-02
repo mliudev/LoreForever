@@ -17,16 +17,16 @@
   "wiki": "The Damned (Classic)",
   "chain": []
  },
- "summary": "New Forsaken in Deathknell turn to Novice Elreth for clothing and battlefield wraps. She trades salvaged armor for the materials needed to make them.",
+ "summary": "New Forsaken in Deathknell seek clothing and battlefield wraps from Novice Elreth. She trades salvaged armor for the materials to make them.",
  "sections": [
   {
    "title": "A Pragmatic Trade",
-   "body": "Novice Elreth tends the newly risen Forsaken in Deathknell. She assists Shadow Priest Sarvis, cares for battered soldiers, and mends their garments. Supplies run short, so she sends you into the surrounding glades to hunt duskbats and scavenger wolves. Their pelts, wings, and sinew help keep the camp supplied, and Elreth offers salvaged armor in return.",
+   "body": "Novice Elreth tends the newly risen Forsaken in Deathknell. She aids Shadow Priest Sarvis, cares for battered soldiers, and mends their garments. When supplies run short, she sends you into the surrounding glades to hunt duskbats and scavenger wolves. Their pelts, wings, and sinew help supply the camp, and Elreth offers salvaged armor in return.",
    "spoiler": 0
   },
   {
    "title": "Inherited Protection",
-   "body": "Elreth's armor has already belonged to Forsaken who did not survive their awakening. She hopes it serves you better than its previous owner. In Tirisfal Glades, every piece of leather and rusted chain is put to use.",
+   "body": "Elreth's armor belonged to Forsaken who did not survive their awakening. She hopes it serves you better than it served its former owner. In Tirisfal Glades, every piece of leather and rusted chain finds a use.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why scavenger paws",
     "elreth materials"
    ],
-   "answer": "Elreth needs scavenger paws and duskbat wings to gather materials for repairs and wraps. Deathknell has little to spare, so she turns to the wildlife in Tirisfal Glades."
+   "answer": "Elreth needs scavenger paws and duskbat wings to gather materials for repairs and wraps. With little to spare in Deathknell, she turns to the wildlife in Tirisfal Glades."
   },
   {
    "q": "Where did the armor reward come from?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For a fresh Forsaken, this shows the hard practicality of survival: fallen predecessors leave gear behind, and the blighted land provides what else is needed."
+   "text": "As a fresh Forsaken, you see the hard work of survival: fallen predecessors leave gear behind, while the blighted land provides what else is needed."
   },
   {
    "target": "profession:Tailoring",
@@ -116,5 +116,5 @@
  "attribution": [
   "The Damned (Classic)"
  ],
- "style": 1
+ "style": 2
 }

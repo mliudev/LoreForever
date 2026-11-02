@@ -17,16 +17,16 @@
   "wiki": "Dangers of the Windfury",
   "chain": []
  },
- "summary": "Ruul Eagletalon asks you to test your readiness against the Windfury harpies in Mulgore. The hunt takes you to the southeastern cliffs, where their speed and claws put your skill to the test before you leave the tauren homeland.",
+ "summary": "Ruul Eagletalon tests your readiness against the Windfury harpies in Mulgore. Their speed and claws will challenge you on the southeastern cliffs before you leave the tauren homeland.",
  "sections": [
   {
    "title": "A Teacher's Assessment",
-   "body": "In Bloodhoof Village, Ruul Eagletalon watches travelers pass through Mulgore. He asks those coming of age or preparing for wider travels to prove their combat instincts. Beyond Mulgore's sheltered valleys, survival demands poise against cunning foes, and Ruul measures your mettle against the land's fiercest native predators.",
+   "body": "Ruul Eagletalon watches travelers pass through Mulgore from Bloodhoof Village. He asks those coming of age or preparing to travel farther to prove their combat instincts. Beyond Mulgore's sheltered valleys, survival calls for poise against cunning foes. Ruul measures your mettle against the land's fiercest native predators.",
    "spoiler": 0
   },
   {
    "title": "The Windfury Threat",
-   "body": "The Windfury harpies roost along Mulgore's southeastern mountain rim, away from the beaten trails. They threaten wandering wildlife and isolated travelers, diving swiftly and striking with razor-sharp claws as they hunt for fresh flesh. Defeating them and bringing back their talons proves you can overcome a settled threat and react quickly to aerial attackers.",
+   "body": "The Windfury harpies roost along Mulgore's southeastern mountain rim, far from the beaten trails. They threaten wandering wildlife and isolated travelers. They dive swiftly and strike with razor-sharp claws as they hunt for fresh flesh. Defeat them and bring back their talons to prove you can overcome a settled threat and answer an attack from the air.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives dangers of the windfury",
     "ruul"
    ],
-   "answer": "Ruul Eagletalon is a veteran tauren warrior and teacher in Bloodhoof Village. He tests young adventurers before they travel into the more perilous reaches of Kalimdor."
+   "answer": "Ruul Eagletalon is a veteran tauren warrior and teacher in Bloodhoof Village. He tests young adventurers before they travel into Kalimdor's more perilous reaches."
   },
   {
    "q": "Where are the Windfury harpies found in Mulgore?",
@@ -47,7 +47,7 @@
     "where are windfury harpies",
     "windfury nest location"
    ],
-   "answer": "The Windfury harpies roost along Mulgore's southeastern mountains, in crude nests high on the crags and foothill slopes. Their nests lie away from the main road through the valley."
+   "answer": "The Windfury harpies roost along Mulgore's southeastern mountains, in crude nests high on crags and foothill slopes. Their nests lie away from the main road through the valley."
   },
   {
    "q": "Why are the Windfury harpies considered natural enemies of the tauren?",
@@ -56,7 +56,7 @@
     "harpy threat mulgore",
     "windfury lore"
    ],
-   "answer": "The Windfury harpies are aggressive and territorial scavengers that attack those who come near their roosts. Their hunger for fresh meat and attacks on travelers and grazers make them a constant threat to the plains."
+   "answer": "The Windfury harpies are aggressive, territorial scavengers that attack anyone who nears their roosts. Their hunger for fresh meat and attacks on travelers and grazers make them a constant threat to the plains."
   },
   {
    "q": "What proof does Ruul Eagletalon demand from the hunt?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a young tauren, clearing Windfury nests helps defend the plains and marks a passage into acknowledged adulthood under the village elders' watch."
+   "text": "As a young tauren, clearing Windfury nests helps defend the plains. Under the village elders' watch, it marks your passage into acknowledged adulthood."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, Ruul Eagletalon's challenge teaches you to parry swift diving strikes and face vicious aerial attackers with grounded discipline."
+   "text": "As a warrior, Ruul Eagletalon's challenge teaches you to parry swift diving strikes. It trains you to face vicious attackers from the air with grounded discipline."
   },
   {
    "target": "faction:Horde",
-   "text": "As an ally of the tauren, taking Ruul's trial shows your dedication to protecting the Horde's heartland and can earn the respect of Bloodhoof Village."
+   "text": "As an ally of the tauren, taking Ruul's trial shows your dedication to protecting the Horde's heartland. It can earn you the respect of Bloodhoof Village."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Dangers of the Windfury"
  ],
- "style": 1
+ "style": 2
 }

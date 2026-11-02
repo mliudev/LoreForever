@@ -10,11 +10,11 @@
    "quest:411"
   ]
  },
- "summary": "Across Tirisfal Glades, the Nether Gem carries the image of a mysterious figure from Brightwater Lake to Bethor Iceshard in the Undercity. What binds the two is yours to uncover.",
+ "summary": "Across Tirisfal Glades, the Nether Gem bears a mysterious figure from Brightwater Lake to Bethor Iceshard in the Undercity. What joins them is yours to uncover.",
  "sections": [
   {
    "title": "A Conduit of Arcane Communion",
-   "body": "Gunther Arcanus forged or enchanted the Nether Gem on his solitary island in Brightwater Lake. He had broken free from the Lich King's control by his own will, yet suspicion kept him apart from the young Forsaken nation. After his lost spellbook is returned, Gunther gives the gem to an emissary as a gesture of goodwill. Atop the Magic Quarter in the Undercity, Bethor Iceshard channels magic through the stone. Gunther's magical visage appears before the Mage Guild leader, letting the two mages speak across Tirisfal Glades. Their meeting opens a path for Gunther to align with Lady Sylvanas and the Forsaken.",
+   "body": "Gunther Arcanus forged or enchanted the Nether Gem on his island in Brightwater Lake. He had freed himself from the Lich King's control by his own will, yet suspicion kept him apart from the young Forsaken nation. When his lost spellbook is returned, Gunther gives the gem to an emissary as a gesture of goodwill.\n\nAtop the Magic Quarter in the Undercity, Bethor Iceshard channels magic through the stone. Gunther's magical visage appears before the Mage Guild leader, and the two mages speak across Tirisfal Glades. Their meeting opens a path for Gunther to join Lady Sylvanas and the Forsaken.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "what is nether gem",
     "what does nether gem do"
    ],
-   "answer": "The Nether Gem lets Gunther Arcanus communicate over a long distance with Bethor Iceshard. When Bethor channels magic into it in the Undercity, Gunther's ethereal visage appears so the two mages can speak directly."
+   "answer": "The Nether Gem lets Gunther Arcanus speak over a great distance with Bethor Iceshard. When Bethor channels magic into it in the Undercity, Gunther's ethereal visage appears, and the two mages can speak directly."
   },
   {
    "q": "Who crafted the Nether Gem?",
@@ -44,17 +44,17 @@
     "gunther forsaken",
     "forsaken nether gem"
    ],
-   "answer": "The Nether Gem helps bring Gunther Arcanus into the Forsaken. He mistrusted other undead, fearing they remained thralls of the Scourge, but the gem lets him reconnect with Bethor Iceshard and pledge allegiance to Lady Sylvanas."
+   "answer": "The Nether Gem helps bring Gunther Arcanus into the Forsaken. He mistrusted other undead, fearing they remained thralls of the Scourge. Through the gem, he reconnects with Bethor Iceshard and pledges allegiance to Lady Sylvanas."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you see how arcane masters can bridge vast distances with magical scrying and projected visages instead of risking the journey."
+   "text": "As a mage, you see how arcane masters can bridge great distances with magical scrying and projected visages instead of risking the journey."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you know the stone's delivery marks a diplomatic triumph for the Forsaken, securing Gunther Arcanus as a powerful ally against the Scourge and the Scarlet Crusade."
+   "text": "As an undead, you know the stone's delivery marks a diplomatic triumph for the Forsaken. It secures Gunther Arcanus as a powerful ally against the Scourge and the Scarlet Crusade."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
   "Nether Gem",
   "The Prodigal Lich Returns"
  ],
- "style": 1
+ "style": 2
 }

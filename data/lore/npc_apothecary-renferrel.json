@@ -8,16 +8,16 @@
   "wiki": "Apothecary Renferrel",
   "refs": 15
  },
- "summary": "At the Sepulcher, Apothecary Renferrel advances Forsaken alchemy in Silverpine Forest. He studies the region’s corrupted wildlife and undead threats, and travelers help gather volatile reagents and investigate Scourge remnants.",
+ "summary": "At the Sepulcher, Apothecary Renferrel studies Silverpine’s corrupted wildlife and undead threats. He advances Forsaken alchemy, and travelers bring him volatile reagents and help investigate Scourge remnants.",
  "sections": [
   {
    "title": "The Sepulcher's Alchemist",
-   "body": "At the Sepulcher, Renferrel leads field research for the Royal Apothecary Society in Silverpine Forest. The society’s grand laboratories and high leadership are in Undercity, while he handles the work in the field. He secures native biological specimens, refines potent concoctions, and studies the grim ecology along Lordaeron’s western border.",
+   "body": "At the Sepulcher, Renferrel leads field research for the Royal Apothecary Society in Silverpine Forest. The society’s grand laboratories and high leadership are in Undercity, while he works in the field. He gathers native biological specimens, refines potent concoctions, and studies the grim ecology along Lordaeron’s western border.",
    "spoiler": 0
   },
   {
    "title": "Investigating Rot Hide and Scourge",
-   "body": "Renferrel studies the Rot Hide gnolls and rogue undead in Silverpine. Blood and tissue samples help him examine the lingering touch of the plague and the necromantic forces binding local monsters. His investigations bring him into conflict with Thule Ravenclaw, a powerful Scourge necromancer near the ruins of Fenris Isle.",
+   "body": "Renferrel examines Rot Hide gnolls and rogue undead in Silverpine. Blood and tissue samples help him study the plague’s lingering touch and the necromantic forces binding local monsters. His investigations bring him into conflict with Thule Ravenclaw, a powerful Scourge necromancer near the ruins of Fenris Isle.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is renferrel",
     "apothecary renferrel lore"
    ],
-   "answer": "Apothecary Renferrel works for the Royal Apothecary Society from the Sepulcher, the main Forsaken outpost in Silverpine Forest. He studies local beasts, plague variations, and enemy forces to brew concoctions and secure the region for Queen Sylvanas."
+   "answer": "Apothecary Renferrel conducts field research for the Royal Apothecary Society from the Sepulcher, the main Forsaken outpost in Silverpine Forest. He studies local beasts, plague variations, and enemy forces to brew concoctions and secure the region for Queen Sylvanas."
   },
   {
    "q": "What does Renferrel research in Silverpine?",
@@ -38,7 +38,7 @@
     "renferrel experiments",
     "recipe for death"
    ],
-   "answer": "Renferrel develops new plagues and venomous mixtures, known broadly as a 'Recipe for Death'. He asks travelers to gather grizzly bear hearts, Rot Hide gnoll ichor, and other biological components so he can test and refine lethal concoctions."
+   "answer": "Renferrel develops new plagues and venomous mixtures, broadly known as a 'Recipe for Death'. He asks travelers to gather grizzly bear hearts, Rot Hide gnoll ichor, and other biological components so he can test and refine lethal concoctions."
   },
   {
    "q": "What is his connection to the Rot Hide gnolls?",
@@ -47,7 +47,7 @@
     "rot hide origins",
     "gnolls silverpine"
    ],
-   "answer": "Renferrel studies the corrupted ichor of the Rot Hide gnolls. His initial tests detect warlock and necromantic magic, so he sends a sample to Bethor Iceshard in Undercity for further study."
+   "answer": "Renferrel studies the corrupted ichor of the Rot Hide gnolls. His first tests detect warlock and necromantic magic, so he sends a sample to Bethor Iceshard in Undercity for further study."
   },
   {
    "q": "Why does Renferrel target Thule Ravenclaw?",
@@ -56,7 +56,7 @@
     "who is thule ravenclaw",
     "fenris keep necromancer"
    ],
-   "answer": "Renferrel investigates the magic behind the Rot Hide gnolls and seeks Bethor Iceshard’s help identifying its source. The investigation leads toward the threats on Fenris Isle."
+   "answer": "Renferrel investigates the magic behind the Rot Hide gnolls and seeks Bethor Iceshard’s help in identifying its source. His investigation leads toward the threats on Fenris Isle."
   },
   {
    "q": "Where does Renferrel send adventurers after Silverpine?",
@@ -65,7 +65,7 @@
     "hillsbrad delivery",
     "journey to hillsbrad"
    ],
-   "answer": "After his initial research and the local threats are addressed, Renferrel sends seasoned travelers southeast to Hillsbrad Foothills. This connects the Sepulcher’s frontier efforts with broader Forsaken operations in Lordaeron."
+   "answer": "After his first research and the local threats are addressed, Renferrel sends seasoned travelers southeast to Hillsbrad Foothills. This links the Sepulcher’s frontier efforts with broader Forsaken operations in Lordaeron."
   },
   {
    "q": "What is the Royal Apothecary Society?",
@@ -74,7 +74,7 @@
     "ras",
     "forsaken apothecaries"
    ],
-   "answer": "The Royal Apothecary Society is the Forsaken’s scientific and alchemical branch, founded under Lady Sylvanas Windrunner. Based in Undercity, its researchers develop new poisons, seek to resist natural decay, and craft a plague capable of eradicating the Scourge."
+   "answer": "The Royal Apothecary Society is the Forsaken’s scientific and alchemical branch, founded under Lady Sylvanas Windrunner. Based in Undercity, its researchers develop poisons, seek to resist natural decay, and craft a plague capable of eradicating the Scourge."
   }
  ],
  "angles": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Apothecary Renferrel"
  ],
- "style": 1
+ "style": 2
 }

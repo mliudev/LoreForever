@@ -10,16 +10,16 @@
    "quest:853"
   ]
  },
- "summary": "Across the Barrens, Rendered Spores are being rushed from Apothecary Helbrim to Thunder Bluff before they decay. Apothecary Zamah must stabilize the emulsion beneath the city.",
+ "summary": "Across the Barrens, Rendered Spores are being hurried to Thunder Bluff before their emulsion decays. Apothecary Zamah must stabilize it beneath the city.",
  "sections": [
   {
    "title": "A Volatile Mixture",
-   "body": "Apothecary Helbrim makes Rendered Spores from fungal spores gathered near the Barrens’ damp oases. He processes the strange spores into an active chemical emulsion, but it is unstable. After forty-five minutes, it breaks down and becomes useless for scientific study.",
+   "body": "Near the Barrens’ damp oases, Apothecary Helbrim gathers fungal spores and renders them into an active chemical emulsion. The mixture is unstable. After forty-five minutes, it breaks down and can no longer be studied.",
    "spoiler": 0
   },
   {
    "title": "Delivery to the Pools of Vision",
-   "body": "Apothecary Helbrim cannot finish refining the emulsion at his remote outpost. It must reach his Forsaken colleague, Apothecary Zamah, beneath Spirit Rise in Thunder Bluff. In the Pools of Vision, Zamah has the equipment and reagents to reseal and finish processing the spores for the Royal Apothecary Society.",
+   "body": "At his remote outpost, Apothecary Helbrim cannot finish refining the emulsion. It must reach his Forsaken colleague, Apothecary Zamah, beneath Spirit Rise in Thunder Bluff. In the Pools of Vision, Zamah has the equipment and reagents to reseal and finish processing the spores for the Royal Apothecary Society.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "why do spores expire",
     "rendered spores duration"
    ],
-   "answer": "The emulsion Apothecary Helbrim makes is volatile and starts to decay as soon as it is mixed. Its active potency lasts only forty-five minutes, so it must be carried across the plains to Thunder Bluff before it becomes inert."
+   "answer": "The emulsion Apothecary Helbrim makes is volatile and begins to decay as soon as it is mixed. Its active potency lasts only forty-five minutes, so it must cross the plains to Thunder Bluff before becoming inert."
   },
   {
    "q": "Who created these spores?",
@@ -49,7 +49,7 @@
     "who renders the spores",
     "helbrim spores"
    ],
-   "answer": "Apothecary Helbrim, a Forsaken researcher at the Crossroads in the Barrens, turns raw fungal spores gathered near the oases into an unstable liquid compound."
+   "answer": "At the Crossroads in the Barrens, Apothecary Helbrim turns raw fungal spores gathered near the oases into an unstable liquid compound."
   },
   {
    "q": "Where does the mixture need to go?",
@@ -58,17 +58,17 @@
     "zamah location",
     "pools of vision location"
    ],
-   "answer": "The mixture must reach Apothecary Zamah, who lives in the Pools of Vision beneath Spirit Rise in Thunder Bluff, the tauren capital."
+   "answer": "The mixture must reach Apothecary Zamah in the Pools of Vision beneath Spirit Rise in Thunder Bluff, the tauren capital."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you are part of a people whose Royal Apothecary Society seeks biological compounds across Kalimdor to aid the Forsaken. Fast couriers link field researchers like Helbrim with specialists like Zamah."
+   "text": "As an undead, you belong to a people whose Royal Apothecary Society seeks biological compounds across Kalimdor to aid the Forsaken. Fast couriers connect field researchers like Helbrim with specialists like Zamah."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you see Forsaken apothecaries experimenting on strange Barrens flora inside the sacred Pools of Vision. Their work reflects the uneasy, practical alliance forged within Thunder Bluff."
+   "text": "As a tauren, you see Forsaken apothecaries experiment on strange Barrens flora inside the sacred Pools of Vision. Their work reflects the uneasy, practical alliance forged within Thunder Bluff."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Rendered Spores",
   "Apothecary Zamah (quest)"
  ],
- "style": 1
+ "style": 2
 }

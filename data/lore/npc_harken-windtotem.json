@@ -8,11 +8,11 @@
   "wiki": "Harken Windtotem",
   "refs": 1
  },
- "summary": "In Bloodhoof Village, Harken Windtotem guides young hunters across Mulgore’s plains. He teaches the traditions of his people and asks hunters and travelers to prove their tracking and foraging skills.",
+ "summary": "In Bloodhoof Village, Harken Windtotem guides young hunters across Mulgore’s plains. He teaches tauren hunting traditions and asks hunters and travelers to prove their tracking and foraging skills.",
  "sections": [
   {
    "title": "Huntsman of Bloodhoof",
-   "body": "Near the heart of Bloodhoof Village, Harken Windtotem guides those learning the tauren hunting ways. Life on Mulgore’s plains calls for respect for the natural world and the skills needed to sustain a tribe. Harken tests young hunters by sending them after the swoops that circle the mesas. They gather the birds’ quills, showing patience, aim, and care in taking only what they need.",
+   "body": "Harken Windtotem guides those learning the tauren hunting ways in Bloodhoof Village. Life on Mulgore’s plains calls for respect for the natural world and the skills that sustain a tribe. He tests young hunters by sending them after swoops that circle the mesas. They gather the birds’ quills, showing patience, aim, and care in taking only what they need.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "harken windtotem lore",
     "who is harken"
    ],
-   "answer": "Harken Windtotem is a tauren huntsman in Bloodhoof Village, where he guides travelers and young hunters in the tracking and hunting traditions of the tauren."
+   "answer": "Harken Windtotem guides travelers and young hunters in the tauren traditions of tracking and hunting from Bloodhoof Village."
   },
   {
    "q": "Where can Harken Windtotem be found?",
@@ -77,5 +77,5 @@
  "attribution": [
   "Harken Windtotem"
  ],
- "style": 1
+ "style": 2
 }

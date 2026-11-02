@@ -8,11 +8,11 @@
   "wiki": "Carolai Anise",
   "refs": 1
  },
- "summary": "In Brill, Carolai Anise teaches alchemy while her experiments make the guards uneasy.",
+ "summary": "In Brill, Carolai Anise teaches alchemy as her experiments unsettle the guards.",
  "sections": [
   {
    "title": "A Volatile Craft",
-   "body": "Carolai Anise pursues alchemy in Brill, where she teaches novice alchemists. Many Forsaken researchers work under the Royal Apothecary Society's grim mandate, but Carolai makes her own strange brews inside the settlement. Her unpredictable experiments and smoking retorts are well known. The Deathguards watching Brill openly grumble that she seems bent on blowing up her own house.",
+   "body": "Carolai Anise teaches novice alchemists in Brill and pursues her own strange brews. Many Forsaken researchers work under the Royal Apothecary Society's grim mandate. Carolai's unpredictable experiments and smoking retorts are well known, and the Deathguards watching Brill openly grumble that she seems bent on blowing up her own house.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "brill alchemist",
     "who is carolai"
    ],
-   "answer": "Carolai Anise is an undead alchemy trainer in Brill, in Tirisfal Glades. She teaches aspiring Forsaken to brew potions, elixirs, and oils."
+   "answer": "In Brill, Carolai Anise teaches aspiring Forsaken to brew potions, elixirs, and oils. She is an undead alchemy trainer in Tirisfal Glades."
   },
   {
    "q": "Where can I find her?",
@@ -72,5 +72,5 @@
  "attribution": [
   "Carolai Anise"
  ],
- "style": 1
+ "style": 2
 }

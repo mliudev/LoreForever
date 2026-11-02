@@ -8,16 +8,16 @@
   "wiki": "Seer Ravenfeather",
   "refs": 2
  },
- "summary": "At Camp Narache on the Red Cloud Mesa, Seer Ravenfeather guides young tauren in the ways of the spirits and Mulgore's land.",
+ "summary": "At Camp Narache on Red Cloud Mesa, Seer Ravenfeather guides young tauren in the ways of the spirits and Mulgore's land.",
  "sections": [
   {
    "title": "A Guide on the Mesa",
-   "body": "At Camp Narache, Seer Ravenfeather teaches young tauren who have chosen the shamanic path. Red Cloud Mesa is a sacred proving ground, and she prepares new practitioners for their duties before they venture farther into Mulgore. She teaches the rites that let them commune with elemental forces and honor the Earth Mother.",
+   "body": "At Camp Narache, Seer Ravenfeather teaches young tauren who have chosen the shamanic path. Red Cloud Mesa is sacred ground where they prove themselves. She prepares new practitioners for their duties before they travel farther into Mulgore. Her lessons teach them to commune with elemental forces and honor the Earth Mother.",
    "spoiler": 0
   },
   {
    "title": "The Call of the Elements",
-   "body": "Seer Ravenfeather guides new shamans through their first spiritual steps and the traditional Call of Earth rite. Under her guidance, initiates prepare ceremonial saptas and seek communion with the earthen spirits among the mesa's stony outcrops. The bond they forge anchors their elemental magic.",
+   "body": "Seer Ravenfeather guides new shamans through their first spiritual steps and the traditional Call of Earth rite. Under her guidance, initiates prepare ceremonial saptas and seek communion with earthen spirits among the mesa's stony outcrops. The bond they forge anchors their elemental magic.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is ravenfeather",
     "camp narache seer"
    ],
-   "answer": "Seer Ravenfeather guides young tauren shamans at Camp Narache on the Red Cloud Mesa."
+   "answer": "Seer Ravenfeather guides young tauren shamans at Camp Narache on Red Cloud Mesa."
   },
   {
    "q": "What role does she play in shaman training?",
@@ -47,17 +47,17 @@
     "where is ravenfeather",
     "camp narache location"
    ],
-   "answer": "Seer Ravenfeather is at Camp Narache on the Red Cloud Mesa in southwestern Mulgore, among its tents and lodges."
+   "answer": "Seer Ravenfeather is at Camp Narache on Red Cloud Mesa in southwestern Mulgore, among its tents and lodges."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a young tauren shaman, you can look to Seer Ravenfeather as your first guide in learning to commune with the elements and bind the powers of earth."
+   "text": "As a young tauren shaman, you can look to Seer Ravenfeather as your first guide in communing with the elements and binding the powers of earth."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you can find in Seer Ravenfeather of Camp Narache a guide to the spiritual tradition that anchors your people as they settle into their ancestral home."
+   "text": "As a tauren, you can find in Seer Ravenfeather of Camp Narache a guide to your people's spiritual tradition as they settle into their ancestral home."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
  "attribution": [
   "Seer Ravenfeather"
  ],
- "style": 1
+ "style": 2
 }

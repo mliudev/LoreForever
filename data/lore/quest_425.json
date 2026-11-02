@@ -22,16 +22,16 @@
    "Ivar the Foul (quest)"
   ]
  },
- "summary": "At the Ivar Patch in northern Silverpine, Ivar the Foul has trapped two Deathstalkers. Rane asks Horde travelers to kill the savage ghoul so Quinn can recover and they can finish their report to High Executor Hadrec.",
+ "summary": "At the Ivar Patch in northern Silverpine, Rane is guarding her badly mauled brother while Ivar the Foul prowls nearby. She asks Horde travelers to kill the savage ghoul so Quinn can recover and they can finish their report to High Executor Hadrec.",
  "sections": [
   {
    "title": "A Mission Derailed",
-   "body": "Rane and Quinn Yorick, siblings and Deathstalkers, were sent to survey Silverpine Forest for High Executor Hadrec at the Sepulcher. Their work ended in violence at a farmstead in the northern forest, where Ivar the Foul ambushed them.",
+   "body": "In northern Silverpine Forest, Deathstalkers Rane and Quinn Yorick were sent to survey the forest for High Executor Hadrec at the Sepulcher. Their work ended in violence at a farmstead, where Ivar the Foul ambushed them.",
    "spoiler": 0
   },
   {
    "title": "The Threat in the Barn",
-   "body": "Rane and Quinn escaped, but Quinn was badly mauled. An alchemical remedy made from forest beasts has not made him strong enough to travel. Ivar prowls the nearby barn, waiting for Rane's guard to fail. She asks Horde travelers to enter the barn and kill him, so the homestead can be secured.",
+   "body": "Rane and Quinn escaped, but Quinn was badly mauled. An alchemical remedy made from forest beasts has helped, though he is still too weak to travel. Ivar prowls the nearby barn, waiting for Rane's guard to fail. She asks Horde travelers to enter and kill him, so the homestead can be secured.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "ivar the foul lore",
     "what is ivar the foul"
    ],
-   "answer": "Ivar the Foul is a Scourge ghoul lurking in northern Silverpine Forest. The Ivar Patch was once his farm, and he and most of his family and workers fell to the Scourge. He now ambushes passersby and attacks Forsaken scouts there."
+   "answer": "Ivar the Foul is a Scourge ghoul lurking in northern Silverpine Forest. The Ivar Patch was once his farm, and he and most of his family and workers fell to the Scourge. He now ambushes passersby and attacks Forsaken scouts at the patch."
   },
   {
    "q": "Where can Ivar the Foul be found?",
@@ -125,5 +125,5 @@
  "attribution": [
   "Ivar the Foul (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Heeding the Call (Horde)",
   "chain": []
  },
- "summary": "A summons brings a novice druid to Elder Rise in Thunder Bluff for personal instruction. Word reaches aspiring shapeshifters through innkeepers and kin across Horde settlements, directing them to Turak Runetotem. There, the sacred trials begin, leading toward mastery of the bear's form and spirit.",
+ "summary": "Across Horde settlements, word reaches novice druids that Turak Runetotem wants to instruct them in person. Heeding the Call brings them to Elder Rise in Thunder Bluff, where the sacred trials toward the bear's form begin.",
  "sections": [
   {
    "title": "A Word in the Inn",
-   "body": "Across Mulgore and Orgrimmar, word reaches you that Turak Runetotem has noticed your early progress. Innkeeper Gryshka in Orgrimmar, Innkeeper Pala in Thunder Bluff, or Gennia Runetotem in Bloodhoof Village may carry the message. The Cenarion Circle does not summon practitioners lightly. Your work with herbs and simple spells has earned you a chance to deepen your bond with nature's wild spirits.",
+   "body": "Across Mulgore and Orgrimmar, you hear that Turak Runetotem has noticed your early progress. The message may come from Innkeeper Gryshka in Orgrimmar, Innkeeper Pala in Thunder Bluff, or Gennia Runetotem in Bloodhoof Village. The Cenarion Circle does not call practitioners lightly. Your work with herbs and simple spells has earned you a chance to deepen your bond with nature's wild spirits.",
    "spoiler": 0
   },
   {
    "title": "The Circle on Elder Rise",
-   "body": "On Elder Rise, Turak Runetotem guides young tauren toward their ancestral duty. He assists Archdruid Hamuul Runetotem and welcomes you inside the large Cenarion tent. Turak teaches that animals and plants are allies, and solemn charges. Meeting him opens a path beyond basic instruction, toward trials of body and heart and communion with the Great Bear Spirit.",
+   "body": "On Elder Rise, Turak Runetotem guides young tauren in their ancestral duty. He assists Archdruid Hamuul Runetotem and welcomes you into the large Cenarion tent. Turak teaches that animals and plants are allies, and that these bonds carry solemn duties. His guidance opens a way beyond basic lessons, toward trials of body and heart and communion with the Great Bear Spirit.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver heeding the call",
     "where do i start heeding the call"
    ],
-   "answer": "Gennia Runetotem in Bloodhoof Village, Innkeeper Pala in Thunder Bluff, or Innkeeper Gryshka in Orgrimmar may deliver the summons. Each has heard that Turak wishes to guide your training personally."
+   "answer": "Gennia Runetotem in Bloodhoof Village, Innkeeper Pala in Thunder Bluff, or Innkeeper Gryshka in Orgrimmar may deliver the summons. Each has heard that Turak wishes to guide your training in person."
   },
   {
    "q": "Where can I find Turak Runetotem?",
@@ -56,7 +56,7 @@
     "what is this quest for",
     "druid level 10 quest horde"
    ],
-   "answer": "The summons begins your formal shapeshifting trials. Turak directs you to sacred ground in Moonglade to learn the way of the bear and gain your first animal form."
+   "answer": "The summons begins your formal shapeshifting trials. Turak sends you to sacred ground in Moonglade to learn the way of the bear and gain your first animal form."
   },
   {
    "q": "Who is Turak Runetotem in the Cenarion hierarchy?",
@@ -72,7 +72,7 @@
     "is heeding the call druid only",
     "can shaman do this quest"
    ],
-   "answer": "No. Only druids who have reached their tenth season of experience receive this summons, as a rite of passage into shapeshifting."
+   "answer": "No. Only druids who have reached their tenth season of experience receive this summons, a rite of passage into shapeshifting."
   },
   {
    "q": "What happens after I speak to Turak?",
@@ -90,11 +90,11 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, studying under Turak on Elder Rise renews your ancestral bond with the Cenarion Circle and Kalimdor's wild spirits."
+   "text": "As a tauren, you renew your ancestral bond with the Cenarion Circle and Kalimdor's wild spirits by studying under Turak on Elder Rise."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you hear the calling through innkeepers in orcish and tauren lands, sustaining your people's bond with the wild earth."
+   "text": "As a member of the Horde, you hear the call through innkeepers in orcish and tauren lands, sustaining your people's bond with the wild earth."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Heeding the Call (Horde)"
  ],
- "style": 1
+ "style": 2
 }

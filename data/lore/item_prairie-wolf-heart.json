@@ -10,11 +10,11 @@
    "quest:766"
   ]
  },
- "summary": "Maur Raincaller in Bloodhoof Village needs a Prairie Wolf Heart for a remedy against venom.",
+ "summary": "Maur Raincaller in Bloodhoof Village needs a Prairie Wolf Heart to treat a venomous bite.",
  "sections": [
   {
    "title": "A Remedy for a Venomous Bite",
-   "body": "Maur Raincaller lives in Bloodhoof Village and is suffering from the venom of Mazzranache, the legendary plainstrider. The bite brings fever and threatens to spread poison through him. Maur seeks the heart of a prairie wolf, along with cougar bone and bird gizzard, for a traditional plains remedy meant to stop the infection before delirium proves fatal.",
+   "body": "Maur Raincaller lives in Bloodhoof Village, where venom from Mazzranache, the legendary plainstrider, has left him feverish. The bite threatens to spread poison through him. Maur seeks a prairie wolf heart, cougar bone, and bird gizzard for a traditional plains remedy. He hopes to stop the infection before delirium proves fatal.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who drops wolf heart",
     "how to find prairie wolf heart"
    ],
-   "answer": "Prairie wolves, prairie wolf alphas, and prairie stalkers hunt across Mulgore’s plains, and their bodies provide the heart."
+   "answer": "Prairie wolves, prairie wolf alphas, and prairie stalkers hunt across Mulgore’s plains. Their bodies provide the heart."
   },
   {
    "q": "Why does Maur Raincaller need animal organs to treat his wound?",
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you know that animal parts can help make practical cures for survival in Mulgore’s wilds."
+   "text": "As a tauren, you know animal parts can help make practical cures for survival in Mulgore’s wilds."
   },
   {
    "target": "class:Hunter",
@@ -86,5 +86,5 @@
   "Prairie Wolf Heart",
   "Mazzranache (Classic)"
  ],
- "style": 1
+ "style": 2
 }

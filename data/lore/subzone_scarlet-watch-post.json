@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Scarlet Watch Post"
  },
- "summary": "In northeastern Tirisfal Glades, Scarlet Watch Post guards the rocky hills just north of the Scarlet Monastery. Its garrison watches the monastery’s northern flank for attacks.",
+ "summary": "In northeastern Tirisfal Glades, the rocky hills north of the Scarlet Monastery are under watch. The garrison guards the monastery’s northern flank against attack.",
  "sections": [
   {
    "title": "Guarding the Northern Approach",
-   "body": "Scarlet Watch Post watches the northern cliffs behind the Scarlet Monastery. The southern road to the monastery gate is busy and fortified, but the rugged cliffs along Tirisfal’s northern coast offer infiltrators a back route. The Scarlet Crusade built this stone tower to guard that blind spot. It is one of several Crusader outposts scattered across Tirisfal Glades. Captain Melrache commands a mixed, devout force of Neophytes, Vanguards, and Friars. They keep watch over the cliffs so neither the Scourge nor the Forsaken can surprise the order from behind.",
+   "body": "Behind the Scarlet Monastery, Scarlet Watch Post watches the northern cliffs. The southern road to the gate is busy and fortified, but the rugged cliffs along Tirisfal’s northern coast offer infiltrators another way in. The Scarlet Crusade built the stone tower to guard that blind spot. It is one of several Crusader outposts scattered across Tirisfal Glades.\n\nCaptain Melrache commands a devout force of Neophytes, Vanguards, and Friars. They watch the cliffs so neither the Scourge nor the Forsaken can surprise the order from behind.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "scarlet watch post purpose",
     "crusaders run role"
    ],
-   "answer": "Scarlet Watch Post protects the Scarlet Monastery from a northern flanking attack. The monastery’s rear slopes face the northern wilderness, where sentries watch for intruders and intercept anyone attempting a northern bypass."
+   "answer": "Scarlet Watch Post guards the Scarlet Monastery against a northern flanking attack. Sentries watch the monastery’s rear slopes, which face the northern wilderness, and intercept intruders trying to bypass the monastery from that direction."
   },
   {
    "q": "Who commands the Scarlet Watch Post?",
@@ -41,7 +41,7 @@
     "crusader outposts tirisfal",
     "other scarlet towers"
    ],
-   "answer": "Yes. Scarlet Watch Post is one of four Crusader outposts across the northern and western reaches of Tirisfal Glades. Together, the stone towers form a defensive perimeter to monitor Scourge activity and contain the Forsaken’s expansion from the Undercity."
+   "answer": "Yes. Scarlet Watch Post is one of four Crusader outposts across the northern and western reaches of Tirisfal Glades. Together, the stone towers watch for Scourge activity and contain the Forsaken’s expansion from the Undercity."
   }
  ],
  "angles": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Scarlet Watch Post"
  ],
- "style": 1
+ "style": 2
 }

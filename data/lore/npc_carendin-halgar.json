@@ -8,16 +8,16 @@
   "wiki": "Carendin Halgar",
   "refs": 7
  },
- "summary": "In the Undercity's Magic Quarter, Carendin Halgar trains Forsaken warlocks in the dark arts. Sharp-tongued and impatient, he teaches them to bind demons from the Twisting Nether, including Voidwalkers and Succubi.",
+ "summary": "In the Undercity's Magic Quarter, Carendin Halgar teaches the Forsaken dark arts. His students learn to bind demons from the Twisting Nether, including Voidwalkers and Succubi.",
  "sections": [
   {
    "title": "Master of the Dark Arts",
-   "body": "Carendin Halgar trains warlocks in the Undercity's Magic Quarter. He demands focus and obedience, with little patience for failure, hesitation, or weakness. His students move beyond simple incantations to summon demons and manipulate souls. Under his direction, they learn the Forsaken way of making demons serve.",
+   "body": "Carendin Halgar trains warlocks in the Undercity's Magic Quarter. He demands focus and obedience, and has little patience for failure, hesitation, or weakness. His students pass beyond simple incantations to summon demons and manipulate souls. Under his direction, they learn how the Forsaken make demons serve.",
    "spoiler": 0
   },
   {
    "title": "Subjugating the Nether",
-   "body": "Carendin Halgar teaches warlocks to bind dangerous demons to their will. He sends students across Lordaeron and beyond to gather ancient runes, runic stones, and pure mortal essence for summoning circles. His lessons cover creatures of the void and Succubi. Before a warlock can command a demon, the summoner must bind it, lest it devour its master.",
+   "body": "Carendin Halgar teaches warlocks to bind dangerous demons to their will. He sends students across Lordaeron and beyond to gather ancient runes, runic stones, and pure mortal essence for summoning circles. His lessons cover creatures of the void and Succubi. A warlock must bind a demon before commanding it, lest the creature devour its master.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "undercity warlock trainer location",
     "where is halgar"
    ],
-   "answer": "Carendin Halgar can be found in the Magic Quarter of the Undercity, among practitioners of fel and shadow magic."
+   "answer": "Carendin Halgar can be found in the Undercity's Magic Quarter, among practitioners of fel and shadow magic."
   },
   {
    "q": "What role does Carendin Halgar play for warlocks?",
@@ -84,7 +84,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you may recognize the Forsaken spirit in Carendin Halgar: he treats demons as tools to break and exploit, without pity or hesitation."
+   "text": "As an undead, you may recognize the Forsaken spirit in Carendin Halgar. He treats demons as tools to break and exploit, without pity or hesitation."
   },
   {
    "target": "faction:Horde",
@@ -117,5 +117,5 @@
  "attribution": [
   "Carendin Halgar"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Verdant Note (quest)",
   "chain": []
  },
- "summary": "At Camp Narache, a summons calls promising young tauren to seek Gart Mistrunner. Grull Hawkwind delivers the message on Gart's behalf.",
+ "summary": "At Camp Narache, the Verdant Note calls young tauren to seek Gart Mistrunner. Grull Hawkwind carries the summons on Gart’s behalf.",
  "sections": [
   {
    "title": "A Summons to the Path",
-   "body": "On the Red Cloud Mesa, Grull Hawkwind gives young tauren a message from a messenger sent by Gart Mistrunner. The summons calls those showing natural gifts to take up their responsibilities. It invites them to enter the ancient practice of tauren druidism and turn from simple village errands toward the balance of the plains.",
+   "body": "On the Red Cloud Mesa, Grull Hawkwind gives young tauren a message from a messenger sent by Gart Mistrunner. The summons calls those with natural gifts to accept their responsibilities. It invites them into the ancient practice of tauren druidism and asks them to leave simple village errands behind for the balance of the plains.",
    "spoiler": 0
   },
   {
    "title": "Voices of the Earthmother",
-   "body": "Gart Mistrunner warns that ancestral and natural spirits have grown restless across Mulgore. Tauren druids act as living avatars of nature, keeping harmony with the Earthmother's will despite distant rivalries. Night elves practice druidic arts too, but Gart says their pride blinds them to the tauren's deep bond with the natural realm.",
+   "body": "Gart Mistrunner warns that ancestral and natural spirits have grown restless across Mulgore. Tauren druids act as living avatars of nature and keep harmony with the Earthmother’s will despite rivalries far away. Night elves also practice druidic arts, but Gart says their pride blinds them to the tauren’s deep bond with the natural realm.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "druid letter",
     "mulgore druid quest note"
    ],
-   "answer": "The Verdant Note summons young tauren druids to seek Gart Mistrunner at Camp Narache and begin training in the druidic arts."
+   "answer": "The Verdant Note calls young tauren druids to seek Gart Mistrunner at Camp Narache and begin learning the druidic arts."
   },
   {
    "q": "Who delivers the note to the player?",
@@ -46,7 +46,7 @@
     "who gives verdant note",
     "verdant note quest starter"
    ],
-   "answer": "Grull Hawkwind hands the note to the young druid and says a messenger sent by Gart Mistrunner was searching for them."
+   "answer": "Grull Hawkwind gives the note to the young druid and says a messenger sent by Gart Mistrunner was looking for them."
   },
   {
    "q": "Where can Gart Mistrunner be found?",
@@ -54,7 +54,7 @@
     "gart mistrunner location",
     "where is gart"
    ],
-   "answer": "Gart Mistrunner can be found at Camp Narache, beneath the shelter of its natural bluffs, where he trains novice tauren druids."
+   "answer": "Gart Mistrunner is at Camp Narache, beneath the shelter of its natural bluffs, where he trains novice tauren druids."
   },
   {
    "q": "Why does Gart Mistrunner warn against the night elves?",
@@ -62,7 +62,7 @@
     "tauren and night elf druids",
     "night elf pride druid"
    ],
-   "answer": "Gart Mistrunner says night elf pride blinds them to the tauren's deep bond with nature. He urges his student to focus on the Earthmother's wisdom."
+   "answer": "Gart Mistrunner says night elf pride blinds them to the tauren’s deep bond with nature. He urges his student to heed the Earthmother’s wisdom."
   },
   {
    "q": "Why are the spirits in Mulgore restless?",
@@ -70,7 +70,7 @@
     "mulgore spirits restless",
     "why are nature spirits angry"
    ],
-   "answer": "Gart Mistrunner senses ancestral and natural spirits stirring across Mulgore. Their unrest marks the new druid's lifelong responsibility to balance the wild."
+   "answer": "Gart Mistrunner senses ancestral and natural spirits stirring across Mulgore. Their unrest marks the new druid’s lifelong duty to keep balance in the wild."
   },
   {
    "q": "What ability does Gart teach next after completing this quest?",
@@ -78,7 +78,7 @@
     "what comes after verdant note",
     "druid quest follow up"
    ],
-   "answer": "After the young druid reports to Gart Mistrunner, he becomes their trainer and promises to teach the Earthmother's gifts as they grow in wisdom."
+   "answer": "When the young druid reports to Gart Mistrunner, he becomes their trainer and promises to teach them the Earthmother’s gifts as they grow in wisdom."
   }
  ],
  "angles": [
@@ -88,11 +88,11 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you begin learning to channel the wild energies and restless spirits of Azeroth."
+   "text": "As a druid, you begin learning to channel Azeroth’s wild energies and restless spirits."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you join the tauren druids, who bridge the faction and Kalimdor's natural mysteries while balancing its martial strength."
+   "text": "As a member of the Horde, you join the tauren druids. They bridge the faction and Kalimdor’s natural mysteries while balancing its martial strength."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Verdant Note (quest)"
  ],
- "style": 1
+ "style": 2
 }

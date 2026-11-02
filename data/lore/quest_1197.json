@@ -21,11 +21,11 @@
    "The Sacred Flame (3)"
   ]
  },
- "summary": "At Splithoof Hold, Rau Cliffrunner seeks to silence the Galak centaur's sacred fire. With blessed water, you enter their stronghold, quench the brazier, and take the Cloven Hoof.",
+ "summary": "At Splithoof Hold, Rau Cliffrunner seeks to silence the Galak centaur's sacred fire. You carry blessed water into their stronghold, quench the brazier, and take the Cloven Hoof.",
  "sections": [
   {
    "title": "Striking the Hearth",
-   "body": "North of Freewind Post, Splithoof Crag marks the heart of Galak territory in Thousand Needles. Deep in its cavern, Splithoof Hold, a fire burns that the centaur hold sacred. Rau Cliffrunner prepares an etched phial of purified water for his allies. You enter the hold, use the water to quench the flame for a moment, and take the Cloven Hoof relic guarded within.",
+   "body": "North of Freewind Post, Splithoof Crag lies at the heart of Galak territory in Thousand Needles. Deep in its cavern, Splithoof Hold shelters a fire the centaur hold sacred. Rau Cliffrunner prepares an etched phial of purified water for his allies. You enter the hold and use the water to quench the flame for a moment. Then you take the Cloven Hoof relic guarded within.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "where is sacred flame",
     "flame cave thousand needles"
    ],
-   "answer": "The flame burns deep inside Splithoof Hold, a cavern in the centaur camp at Splithoof Crag, north of Freewind Post in Thousand Needles."
+   "answer": "The flame burns deep inside Splithoof Hold, a cavern in the Galak camp at Splithoof Crag, north of Freewind Post in Thousand Needles."
   },
   {
    "q": "Who asks you to douse the flame?",
@@ -51,7 +51,7 @@
     "rau cliffrunner location",
     "who gives the quest"
    ],
-   "answer": "Rau Cliffrunner, an elder stationed high atop Freewind Post, asks you to douse the flame after investigating the Galak centaur."
+   "answer": "Rau Cliffrunner, an elder stationed high atop Freewind Post, asks you to douse the flame after you investigate the Galak centaur."
   },
   {
    "q": "How do you put out the flame?",
@@ -60,7 +60,7 @@
     "dousing flame item",
     "quench sacred flame"
    ],
-   "answer": "Use the Filled Etched Phial Rau Cliffrunner provides. It holds water gathered earlier in the chain, and briefly quenches the brazier."
+   "answer": "Use the Filled Etched Phial Rau Cliffrunner provides. It holds water gathered earlier in the chain and briefly quenches the brazier."
   },
   {
    "q": "What is the Cloven Hoof?",
@@ -120,5 +120,5 @@
  "attribution": [
   "The Sacred Flame (3)"
  ],
- "style": 1
+ "style": 2
 }

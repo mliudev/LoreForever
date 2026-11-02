@@ -17,7 +17,7 @@
   "wiki": "Call of Water (Silverpine)",
   "chain": []
  },
- "summary": "Along Silverpine Forest's coast, shamans can renew their communion with water through Call of Water. Tiev Mordune offers another Water Sapta to those whose spirit-sight fades before they speak with the purified water spirit.",
+ "summary": "Along Silverpine Forest's coast, Tiev Mordune waits to help shamans whose spirit-sight fades too soon. A fresh Water Sapta lets them return to the shrine and speak with the purified water spirit.",
  "sections": [
   {
    "title": "A Helping Hand in the Mist",
@@ -26,7 +26,7 @@
   },
   {
    "title": "Renewing the Ritual",
-   "body": "Tiev Mordune has already defeated the corrupt water spirit off the coast and waits with the ritual remnants he gathered. To show you are ready, bring a fresh Water Sapta from Islen Waterseer in the Barrens. Tiev casts his gathered bracers and droplets into the shrine's brazier, summoning the pure manifestation again so you can speak with it and seal your bond with the element.",
+   "body": "Tiev Mordune has defeated the corrupt water spirit off the coast and waits with the ritual remnants he gathered. To show you are ready, bring a fresh Water Sapta from Islen Waterseer in the Barrens. Tiev casts his gathered bracers and droplets into the shrine's brazier. The pure manifestation appears again, so you can speak with it and seal your bond with the element.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is tiev",
     "tiev silverpine"
    ],
-   "answer": "Tiev Mordune is a fellow Horde shaman on the coast of Silverpine Forest. He has defeated the corrupt water spirit there and stays by the shore to help shamans whose spirit-sight fades before they finish their communion."
+   "answer": "Tiev Mordune is a fellow Horde shaman on Silverpine Forest's coast. He defeated the corrupt water spirit there and stays by the shore to help shamans whose spirit-sight fades before they finish their communion."
   },
   {
    "q": "Why do I need a Water Sapta for this quest?",
@@ -111,5 +111,5 @@
  "attribution": [
   "Call of Water (Silverpine)"
  ],
- "style": 1
+ "style": 2
 }

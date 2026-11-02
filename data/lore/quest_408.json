@@ -21,16 +21,16 @@
    "The Family Crypt (Classic)"
   ]
  },
- "summary": "Scourge forces at the Agamand Mills threaten the Forsaken's hold on Tirisfal. From Brill, Magistrate Sevren sends agents against the undead in the family crypt.",
+ "summary": "Scourge forces press the Forsaken at Agamand Mills. From Brill, Magistrate Sevren sends agents to strike the undead in the family crypt.",
  "sections": [
   {
    "title": "A Foxtrot in Tirisfal",
-   "body": "The Forsaken hold Tirisfal Glades, but the Scourge still grips much of its countryside. The Agamand Mills once produced flour for Lordaeron; now they are a Scourge stronghold. In Brill, Magistrate Sevren watches the enemy gather with grave concern. Every stretch of land lost to the undead weakens the Forsaken's independence.",
+   "body": "The Forsaken hold Tirisfal Glades, though the Scourge still commands much of its countryside. The Agamand Mills once ground flour for Lordaeron. Now the mills shelter the Scourge. In Brill, Magistrate Sevren watches the enemy gather with grave concern. Every stretch of land lost to the undead weakens the Forsaken's independence.",
    "spoiler": 0
   },
   {
    "title": "Defiling the Tomb",
-   "body": "Captain Dargol, a skeletal commander, has made the Agamand Family Crypt his headquarters. Through necromancy, he raises generations of the Agamand dead as Rotting and Wailing Ancestors to swell his ranks. Magistrate Sevren sends Forsaken agents to purge the crypt, lay the disturbed dead to rest, and sever Dargol's head to disrupt Scourge forces in northern Tirisfal.",
+   "body": "Captain Dargol, a skeletal commander, has made the Agamand Family Crypt his headquarters. He uses necromancy to raise generations of the Agamand dead as Rotting and Wailing Ancestors, swelling his ranks. Magistrate Sevren sends Forsaken agents to purge the crypt and lay its disturbed dead to rest. He also wants Dargol's head, to disrupt Scourge forces in northern Tirisfal.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "sevren agamand",
     "agamand importance"
    ],
-   "answer": "The Agamand Mills are a major Scourge foothold close to Brill and the Undercity. Captain Dargol's growing force of raised ancestors threatens the Forsaken settlements."
+   "answer": "The Agamand Mills are a major Scourge foothold near Brill and the Undercity. Captain Dargol's growing force of raised ancestors threatens Forsaken settlements."
   },
   {
    "q": "Who are the Wailing and Rotting Ancestors?",
@@ -69,17 +69,17 @@
     "end of agamand chain",
     "dargol defeated"
    ],
-   "answer": "Returning Captain Dargol's skull to Magistrate Sevren breaks the Scourge's central leadership at the mills. Sevren hails the victory as a critical strike for the Forsaken and an early step toward purging the Lich King's influence from Lordaeron."
+   "answer": "When you return Captain Dargol's skull to Magistrate Sevren, the Scourge loses its central leadership at the mills. Sevren hails the victory as a critical strike for the Forsaken and an early step toward purging the Lich King's influence from Lordaeron."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Captain Dargol embodies the enslavement to the Lich King's will they fought to escape. Putting down the raised ancestors protects their people and helps break the Scourge's hold on their homeland."
+   "text": "As Forsaken, you see Captain Dargol embody the enslavement to the Lich King's will your people fought to escape. Putting down the raised ancestors protects the Forsaken and helps break the Scourge's hold on their homeland."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, securing Tirisfal Glades helps anchor its presence in the Eastern Kingdoms and removes immediate threats to its northern stronghold."
+   "text": "As a member of the Horde, you help secure Tirisfal Glades, anchor the Horde's presence in the Eastern Kingdoms, and remove immediate threats to its northern stronghold."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "The Family Crypt (Classic)"
  ],
- "style": 1
+ "style": 2
 }

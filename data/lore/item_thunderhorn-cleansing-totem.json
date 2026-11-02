@@ -10,11 +10,11 @@
    "quest:758"
   ]
  },
- "summary": "Mull Thunderhorn prepares the Thunderhorn Cleansing Totem in Bloodhoof Village. Ancestral magic in the totem is meant to purify the Thunderhorn Water Well.",
+ "summary": "In Bloodhoof Village, Mull Thunderhorn prepares a totem for the tainted Thunderhorn Water Well. Ancestral magic within it is meant to purify the water.",
  "sections": [
   {
    "title": "Purifying the Thunderhorn Well",
-   "body": "Mull Thunderhorn entrusts a prepared totem to travelers in Bloodhoof Village. They carry it north to the Thunderhorn clan's sacred spring, where foul agents have tainted the water. The ancestral wells dug by the tauren tribes nourish their herds and hunting grounds. Through ritual invocation, the totem calms the water's disturbed spirits and cleanses the site.",
+   "body": "Mull Thunderhorn entrusts a prepared totem to travelers in Bloodhoof Village. They carry it north to the Thunderhorn clan's sacred spring, where foul agents have tainted the water.\n\nThe tauren tribes' ancestral wells nourish their herds and hunting grounds. Through ritual invocation, the totem calms the water's disturbed spirits and cleanses the spring.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why use thunderhorn totem",
     "cleansing totem purpose"
    ],
-   "answer": "The totem is prepared to cleanse the corrupted Thunderhorn Water Well north of Bloodhoof Village. Its use drives away the foul influence poisoning the well and pleases the ancestral spirits guarding it."
+   "answer": "Mull Thunderhorn prepares the totem to cleanse the corrupted Thunderhorn Water Well north of Bloodhoof Village. Its use drives away the foul influence poisoning the well and pleases the ancestral spirits who guard it."
   },
   {
    "q": "Who crafted the totem?",
@@ -35,7 +35,7 @@
     "who gives the thunderhorn totem",
     "mull thunderhorn totem"
    ],
-   "answer": "Mull Thunderhorn crafts and bestows the totem. The elder lives in Bloodhoof Village, watches over the health of the land, and communicates with the ancestors."
+   "answer": "Mull Thunderhorn crafts and bestows the totem. The elder lives in Bloodhoof Village, watches over the land's health, and communicates with the ancestors."
   },
   {
    "q": "Where must the totem be used?",
@@ -85,5 +85,5 @@
   "Thunderhorn Cleansing Totem",
   "Thunderhorn Cleansing (Classic)"
  ],
- "style": 1
+ "style": 2
 }

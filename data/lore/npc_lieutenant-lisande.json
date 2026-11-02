@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "An Unlikely Envoy",
-   "body": "Lieutenant Lisande serves the Argent Dawn from Thunder Bluff, where human faces are rare. The holy order watches for signs of the Lich King's taint, even in remote Kalimdor. When undead forces stir on the plains below, Lisande calls on Horde champions to ride out and investigate before the Scourge can defile the sacred earth.",
+   "body": "Lieutenant Lisande serves the Argent Dawn from Thunder Bluff, where human faces are rare. The order watches for the Lich King's taint, even in remote Kalimdor. When undead forces stir on the plains below, Lisande calls on Horde champions to ride out and investigate before the Scourge can defile the sacred earth.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "why is Lisande here",
     "is she hostile"
    ],
-   "answer": "Lisande represents the Argent Dawn, an organization dedicated to destroying the Scourge. The Dawn welcomes both Alliance and Horde races, and its liaisons may enter capital cities to coordinate defenses against the undead."
+   "answer": "Lisande represents the Argent Dawn, an order dedicated to destroying the Scourge. The Dawn welcomes both Alliance and Horde races, and its liaisons may enter capital cities to coordinate defenses against the undead."
   },
   {
    "q": "What is the Argent Dawn's interest in Mulgore?",
@@ -33,7 +33,7 @@
     "why thunder bluff",
     "undead in tauren lands"
    ],
-   "answer": "The Lich King's reach threatens every corner of Azeroth, not only the Eastern Kingdoms. Lisande watches for necromantic activity or Scourge forces that threaten Mulgore, so local defenders know of the danger."
+   "answer": "The Lich King's reach threatens every corner of Azeroth, not only the Eastern Kingdoms. Lisande watches for necromantic activity or Scourge forces that threaten Mulgore, so local defenders learn of the danger."
   },
   {
    "q": "What tasks does Lieutenant Lisande give out?",
@@ -42,7 +42,7 @@
     "what does lisande do",
     "investigate quest"
    ],
-   "answer": "Lisande sends adventurers down from the bluffs to investigate Scourge incursions around the territory and report back. The Dawn can then assess the scale of the threat."
+   "answer": "Lisande sends adventurers down from the bluffs to investigate Scourge incursions around the territory and report back. The Dawn can then assess the threat's scale."
   }
  ],
  "angles": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Lieutenant Lisande"
  ],
- "style": 1
+ "style": 2
 }

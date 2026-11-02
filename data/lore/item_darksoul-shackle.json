@@ -10,16 +10,16 @@
    "quest:423"
   ]
  },
- "summary": "In Silverpine Forest, Moonrage Darksouls wear enchanted fetters forged under Archmage Arugal’s direction. Forsaken mages at the Sepulcher seek them to learn how the magic gripping the region can be undone.",
+ "summary": "Moonrage Darksouls in Silverpine Forest wear enchanted fetters forged under Archmage Arugal’s direction. At the Sepulcher, Forsaken mages seek them to learn how the magic gripping the region can be undone.",
  "sections": [
   {
    "title": "A Crutch for Faltering Magic",
-   "body": "Archmage Arugal’s magic could not fully command or sustain the worgen he unleashed upon Silverpine Forest. He bound enchanted implements such as Darksoul Shackles to the beasts to make up for that failing. The fetters channel outside sorcery into the Moonrage Darksouls, strengthening them and anchoring the curse that keeps them thrall to Shadowfang Keep.",
+   "body": "Archmage Arugal could not fully command or sustain the worgen he unleashed upon Silverpine Forest. So he bound enchanted implements such as Darksoul Shackles to the beasts. The fetters channel outside sorcery into the Moonrage Darksouls, strengthening them and anchoring the curse that keeps them thrall to Shadowfang Keep.",
    "spoiler": 0
   },
   {
    "title": "Kirin Tor Scrutiny",
-   "body": "At the Sepulcher, Forsaken mage Dalar Dawnweaver judges Arugal a dangerous incompetent. He believes Arugal’s meddling ruined the Kirin Tor’s defense against the Scourge. Forsaken researchers gather Darksoul Shackles and fetters torn from Moonrage Gluttons, then draw out the enchantments left in the metal. Studying them exposes flaws in Arugal’s spellcraft and gives the Forsaken arcane insight to shape a countermeasure against his lupine scourge.",
+   "body": "At the Sepulcher, Forsaken mage Dalar Dawnweaver judges Arugal a dangerous incompetent. He believes Arugal’s meddling ruined the Kirin Tor’s defense against the Scourge. Forsaken researchers gather Darksoul Shackles and fetters torn from Moonrage Gluttons, then draw out the enchantments left in the metal. Their study exposes flaws in Arugal’s spellcraft and gives the Forsaken arcane insight to shape a countermeasure against his lupine scourge.",
    "spoiler": 1
   }
  ],
@@ -92,5 +92,5 @@
   "Darksoul Shackle",
   "Arugal's Folly (2)"
  ],
- "style": 1
+ "style": 2
 }

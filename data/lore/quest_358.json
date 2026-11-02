@@ -17,16 +17,16 @@
   "wiki": "Graverobbers (Classic)",
   "chain": []
  },
- "summary": "At the Mass Grave southwest of Garren's Haunt, Rot Hide gnolls dig up the dead. Magistrate Sevren sends you to stop them and recover their embalming ichor for the Royal Apothecary Society's research.",
+ "summary": "At the Mass Grave southwest of Garren's Haunt, Rot Hide gnolls dig among the dead. Magistrate Sevren sends you to stop them and bring back their embalming ichor for the Royal Apothecary Society.",
  "sections": [
   {
    "title": "Desecration of the Mass Graves",
-   "body": "The Plague of Undeath overwhelmed Tirisfal Glades, and the dead outnumbered those who could bury them. Immense mass graves were dug across the north to hold the countless victims. For a time, the buried escaped resurrection. Now the Scourge sends Rot Hide gnolls to the trenches southwest of Garren's Haunt. They exhume the decayed remains to swell the Lich King's armies.",
+   "body": "The Plague of Undeath swept through Tirisfal Glades, leaving more dead than the living could bury. Across the north, people dug immense mass graves for the countless victims. For a time, those buried there escaped resurrection.\n\nNow the Scourge sends Rot Hide gnolls to the trenches southwest of Garren's Haunt. They exhume the remains to swell the Lich King's armies.",
    "spoiler": 0
   },
   {
    "title": "Turning Scourge Alchemy Inward",
-   "body": "Embalming ichor preserves and animates the Rot Hides' rotting frames. Magistrate Sevren sends you to slay the graverobbers and recover the fluid. This stops the Scourge from harvesting bodies and gives Brill's apothecaries valuable specimens. They hope to turn the Lich King's own alchemy against him.",
+   "body": "Embalming ichor preserves and animates the Rot Hides' rotting frames. Magistrate Sevren sends you to kill the graverobbers and recover the fluid. This keeps the Scourge from harvesting more bodies and gives Brill's apothecaries specimens to study.\n\nThey hope to turn the Lich King's own alchemy against him.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does the scourge want with bodies",
     "mass grave purpose"
    ],
-   "answer": "The Scourge digs up the Mass Grave's victims from the Plague's first arrival in Tirisfal to raise new soldiers and swell its armies against the Forsaken."
+   "answer": "The Scourge digs up victims of the Plague's first arrival in Tirisfal to raise as soldiers and swell its armies against the Forsaken."
   },
   {
    "q": "What are the Rot Hide gnolls?",
@@ -91,7 +91,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As Horde, you help halt the Scourge's resupply efforts and secure northern Lordaeron, strengthening the Horde's foothold against the Lich King's remaining forces."
+   "text": "As Horde, you help halt the Scourge's efforts to resupply its forces and secure northern Lordaeron, strengthening the Horde's foothold against the Lich King's remaining forces."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Graverobbers (Classic)"
  ],
- "style": 1
+ "style": 2
 }

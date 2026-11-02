@@ -17,16 +17,16 @@
   "wiki": "Zinge's Delivery",
   "chain": []
  },
- "summary": "Apothecary Renferrel sends Zinge's Delivery from the Sepulcher to the Undercity. The wolf hearts he sends from Silverpine Forest carry toxins that should have killed the beasts, and Apothecary Zinge receives them for study by the Royal Apothecary Society.",
+ "summary": "From the Sepulcher, Apothecary Renferrel sends strange wolf hearts to the Undercity. Their toxins should have killed the beasts, and Apothecary Zinge receives them for the Royal Apothecary Society to study.",
  "sections": [
   {
    "title": "A Toxic Anomaly",
-   "body": "Apothecary Renferrel found a strange trait in the wolves roaming Silverpine Forest's ruined woods. Their hearts held such powerful toxins that they should have killed the beasts. Renferrel preserved several tissue samples and packed them for colleagues at the Apothecarium in the Undercity.",
+   "body": "In Silverpine Forest's ruined woods, Apothecary Renferrel found wolves with a deadly trait. Toxins in their hearts were so powerful they should have killed them. He preserved several tissue samples and packed them for his colleagues at the Apothecarium in the Undercity.",
    "spoiler": 0
   },
   {
    "title": "The Eyes of the Apothecarium",
-   "body": "Apothecary Zinge receives the preserved organs at the Undercity's underground headquarters of the Royal Apothecary Society. The society seeks potent plagues and new alchemical compounds, so poisons that sustain their hosts draw its attention. Zinge welcomes the samples as the start of further laboratory trials across the Forsaken alchemical network.",
+   "body": "At the Undercity's underground headquarters of the Royal Apothecary Society, Apothecary Zinge receives the preserved organs. The society seeks potent plagues and new alchemical compounds, so poisons that leave their hosts alive draw its notice. Zinge welcomes the samples for further trials in laboratories across the Forsaken alchemical network.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who is renferrel",
     "renferrel silverpine"
    ],
-   "answer": "Apothecary Renferrel is a member of the Royal Apothecary Society stationed at the Sepulcher in Silverpine Forest. He leads field research on regional plants and animals to gather ingredients and knowledge for Forsaken alchemy."
+   "answer": "Apothecary Renferrel is a member of the Royal Apothecary Society stationed at the Sepulcher in Silverpine Forest. He leads field research on regional plants and animals, gathering ingredients and knowledge for Forsaken alchemy."
   },
   {
    "q": "Who is Apothecary Zinge?",
@@ -64,7 +64,7 @@
     "what happens after zinge's delivery",
     "follow up quest"
    ],
-   "answer": "Apothecary Zinge receives and inspects the strange heart tissue, then samples go to other alchemical outposts. One such outpost is Apothecary Helbrim's, across the sea in the Barrens."
+   "answer": "Apothecary Zinge receives and inspects the strange heart tissue before samples go to other alchemical outposts. One such outpost belongs to Apothecary Helbrim, across the sea in the Barrens."
   },
   {
    "q": "Why is the Royal Apothecary Society interested in wolf hearts?",
@@ -72,7 +72,7 @@
     "why do apothecaries want wolf hearts",
     "ras wolf hearts"
    ],
-   "answer": "The Royal Apothecary Society seeks unusual poisons, diseases, and biological anomalies. A beast that survives lethal toxins in its own heart may reveal chemical paths to new plagues and compounds."
+   "answer": "The Royal Apothecary Society seeks unusual poisons, diseases, and biological anomalies. A beast surviving lethal toxins in its own heart may reveal chemical paths to new plagues and compounds."
   },
   {
    "q": "Where is the Apothecarium in Undercity?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Zinge's Delivery"
  ],
- "style": 1
+ "style": 2
 }

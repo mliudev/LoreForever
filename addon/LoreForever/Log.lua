@@ -29,6 +29,12 @@ function Log.Init()
     db.settings.contributeButtons = true
     db.settings.featuresOn = 1
   end
+  -- A man's and a woman's narrator fill in for each other since 2026-11-01 (Mike: the other narrator beats silence), so
+  -- older installs have voiceFillGender = false saved. Turn it on once; after that, unticking it in Options sticks.
+  if not db.settings.fillGenderOn then
+    db.settings.voiceFillGender = true
+    db.settings.fillGenderOn = 1
+  end
   db.settings.pictureShortcuts, db.settings.pictureMilestones, db.settings.journeyPictureThumbnails = nil, nil, nil
   -- Read aloud, the game's text-to-speech for what had no recording, is gone (Mike, 2026-10-05: only the narrators'
   -- recordings play). Forget its setting and the one-time switch that turned it off (readAloudOff). Narration set to
@@ -251,7 +257,7 @@ end
 -- Report codes (LOR-120) --------------------------------------------------------------------------------------------
 -- "Copy report" turns a logged answer into a short code players paste on loreforeverwow.com/feedback (its Entry code
 -- field, 120 characters) or in Discord. site/public/report-code.js decodes it; keep the two in step. Fields, split by ~:
---   LF1 ~ add-on version[.locale] ~ reason ~ via+shown ~ entry key[.f<faq>|.s<section>] ~ score ~ zone[/subzone]
+--   LF1 ~ add-on version[.locale][@client version] ~ reason ~ via+shown ~ entry key[.f<faq>|.s<section>] ~ score ~ zone[/subzone]
 --       ~ target ~ quest ids (comma-separated) ~ question (spaces as _)
 -- Never the character's name: it's taken out of the question too. Quests with lore come first; quests, then the
 -- target, then the end of the question are dropped to fit.
@@ -295,6 +301,15 @@ local function addonVersion()
   return (ok and type(v) == "string" and v ~= "") and field(v) or "-"
 end
 
+-- "@" and the game client's version ("@1.60.1": not the build number, LF1 codes are short), which tells WoW Forever
+-- (1.60 and up) from Classic Era, retail and the rest (Capture.Game), so a report from another version of WoW isn't
+-- read as a Forever bug; "" when the client doesn't say. Report codes put it after their version field.
+local function clientBuild()
+  local ok, v = pcall(_G.GetBuildInfo or function() end)
+  if not (ok and type(v) == "string" and v:match("^%d+%.%d+")) then return "" end
+  return "@" .. (v:gsub("[^%d.]", ""))
+end
+
 -- This add-on's version, from its .toc ("-" when the client doesn't say).
 function Log.Version() return addonVersion() end
 
@@ -303,6 +318,7 @@ function Log.ReportCode(entry)
   local ctx, top = entry.ctx or {}, (entry.results or {})[1] or {}
   local locale = ns.lang and ns.lang.locale
   local version = addonVersion() .. ((locale and locale ~= "enUS") and ("." .. locale:sub(1, 2):lower()) or "")
+    .. clientBuild()
   local answer = "-"
   if top.key then
     answer = top.key .. ((top.kind == "faq" and top.idx and (".f" .. top.idx))
@@ -362,7 +378,7 @@ end
 -- "Report a problem with this narration" (ClipReport.lua) turns the recording that played into a link to
 -- loreforeverwow.com/clip-report, which sends it in one click, no sign-in. site/public/clip-report-code.js decodes it;
 -- keep the two in step. Fields, split by ~:
---   LCR1 ~ add-on version.locale ~ voice pack (without LoreForever_Voice_) ~ clip id@hash ~ reason ~ name
+--   LCR1 ~ add-on version.locale[@client version] ~ voice pack (without LoreForever_Voice_) ~ clip id@hash ~ reason ~ name
 --        ~ how the name should sound ~ note ~ checksum
 -- Name, sound and note are percent-encoded (%, ~ and control characters) and cut to Log.CLIP_MAX characters; name and
 -- sound only go with the "name" reason. The checksum is 6 hex digits of a djb2 hash of everything before it, so a copy
@@ -412,7 +428,8 @@ function Log.ClipReportCode(r)
   voice = voice:gsub("[^%w_]", "")
   local reason = CLIP_REASON[r.reason or ""] and r.reason or "other"
   local named = reason == "name"
-  local fields = { "LCR1", addonVersion() .. "." .. (locale ~= "" and locale or "enUS"), voice ~= "" and voice or "-",
+  local fields = { "LCR1", addonVersion() .. "." .. (locale ~= "" and locale or "enUS") .. clientBuild(),
+    voice ~= "" and voice or "-",
     r.clip:gsub("[^%w:#%-]", "") .. "@" .. tostring(r.hash or ""):gsub("[^%x]", ""):lower(), reason,
     named and freeText(r.name, Log.CLIP_MAX.name) or "", named and freeText(r.sayAs, Log.CLIP_MAX.sayAs) or "",
     freeText(r.note, Log.CLIP_MAX.note, true) }

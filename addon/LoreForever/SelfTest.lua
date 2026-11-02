@@ -347,7 +347,7 @@ check("contribute", {
     expect("contribute code reads back", back ~= nil and back.text == line.text and back.kind == "quest" and back.id == "99999"
       and back.speaker == "197.2.Humanoid.Test Npc", cut(code, 80))
     local link, whole = C.Link(line)
-    expect("contribute link", whole and link:find("^https://loreforeverwow%.com/contribute#c=LFC1~") ~= nil
+    expect("contribute link", whole and link:find("^https://loreforeverwow%.com/contribute#c=LFC2~") ~= nil
       and not link:find("%s"), cut(link, 80))
   end,
   -- The quest window's button and its share window, whatever Options › Contribute buttons says (off by default).
@@ -362,7 +362,7 @@ check("contribute", {
     local w = C.window
     local text = w and w.linkBox and textOf(w.linkBox) or ""
     expect("contribute button opens the share window", shown and w ~= nil and w:IsShown()
-      and text:find("^https://loreforeverwow%.com/contribute#c=LFC1~") ~= nil,
+      and text:find("^https://loreforeverwow%.com/contribute#c=LFC2~") ~= nil,
       string.format("button %s, Options › Contribute buttons %s; %s", shown and "on show" or "hidden",
         C.ButtonsOn() and "on" or "off", text ~= "" and cut(text, 60) or "no link"))
   end,
@@ -920,9 +920,15 @@ local function pauseResume(name, story, what)
           local pack = type(r) == "table" and r.chain == true and (r.fullHash ~= nil) == story and V.HasAudio(key)
             and V.CanPlay(key) and V.PackOf((V.active[key] or {})[1])
           local row = pack and V.Transport(key, pack, story)
-          local first = row and row.chain and row.rates[1][1]
+          -- (a complete story plays from its section 1, UI.StoryFrom; it needs a piece after that one)
+          local from = row and row.chain and UI.StoryFrom(targetOf(key), row) or 0
+          local index
+          for i, part in ipairs(row and row.chain and row.rates[1] or {}) do
+            if part.start == from and i < #row.rates[1] then index = i end
+          end
+          local first = index and row.rates[1][index]
           if first and (not best or first.duration < best.first.duration) then
-            best = { key = key, pack = pack, first = first }
+            best = { key = key, pack = pack, first = first, index = index }
           end
         end
       end
@@ -936,12 +942,12 @@ local function pauseResume(name, story, what)
       UI.progress[best.key] = nil
       UI.ListenTo(c.target)
       local t = V.transport
-      local ok = UI.speaking and t and t.row.chain and t.index == 1
+      local ok = UI.speaking and t and t.row.chain and t.index == best.index
       expect(name .. ": " .. what .. " in pieces plays", ok and true or false, string.format("%s from %s: %s",
-        best.key, best.pack, ok and string.format("piece 1 of %d (%.1f s)", #t.parts, t.parts[1].duration)
-          or "didn't start in pieces"))
+        best.key, best.pack, ok and string.format("piece %d of %d (%.1f s)", t.index, #t.parts, t.parts[t.index].duration)
+          or "didn't start in pieces where it should"))
       if not ok then return false end
-      c.at, c.first = GetTime(), t.parts[1].duration
+      c.at, c.first, c.index = GetTime(), t.parts[t.index].duration, t.index
       return c.first + 0.5
     end,
     function(c)
@@ -951,7 +957,7 @@ local function pauseResume(name, story, what)
       if GetTime() - c.at < c.first then
         skip(step, string.format("only %.1f s passed", GetTime() - c.at))   -- a client whose clock didn't move
       else
-        local on = UI.speaking and t and t.index == 2
+        local on = UI.speaking and t and t.index == c.index + 1
         local playing
         if on and _G.C_Sound and C_Sound.IsPlaying then
           local ok, p = pcall(C_Sound.IsPlaying, V.handle)
@@ -959,9 +965,9 @@ local function pauseResume(name, story, what)
         end
         -- Within a slow frame: an unfocused game window draws a few frames a second.
         expect(step, (on and playing ~= false and t.late and t.late < 0.25) and true or false,
-          on and string.format("piece 2 started %d ms after piece 1 was due to end%s",
-            math.floor((t.late or 0) * 1000 + 0.5), playing == false and ", but the game says it isn't playing" or "")
-          or "piece 2 didn't start")
+          on and string.format("piece %d started %d ms after piece %d was due to end%s", t.index,
+            math.floor((t.late or 0) * 1000 + 0.5), c.index, playing == false and ", but the game says it isn't playing" or "")
+          or "the next piece didn't start")
       end
       local piece = UI.speaking and t and t.parts[t.index]
       if not piece then return false end

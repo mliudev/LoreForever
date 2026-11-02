@@ -8,11 +8,11 @@
   "wiki": "Deathguard Simmer",
   "refs": 1
  },
- "summary": "At Deathknell’s edge, Deathguard Simmer sizes up newly risen Forsaken. He sends them west to raid a human pumpkin farm patrolled by the Scarlet Crusade, gathering reagents Brill’s apothecaries need.",
+ "summary": "At Deathknell’s edge, Deathguard Simmer tests newly risen Forsaken. He sends them west to raid a human pumpkin farm patrolled by the Scarlet Crusade for reagents needed by Brill’s apothecaries.",
  "sections": [
   {
    "title": "Guardian Outside Deathknell",
-   "body": "Deathguard Simmer guards the ground just outside Deathknell, where the Forsaken hold the line between their haven and Tirisfal Glades. Living humans roam the region, including the fanatical Scarlet Crusade, who see all undead as abominations to purge with fire and blade. Simmer tests newly risen Forsaken by sending them west to Solliden Farmstead. Scarlet Crusade soldiers patrol from a nearby tower. The recruits must steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
+   "body": "Deathguard Simmer guards the ground outside Deathknell, where the Forsaken hold the line between their haven and Tirisfal Glades. Living humans still roam the region. Among them are the fanatical Scarlet Crusade, who see all undead as abominations to purge with fire and blade.\n\nSimmer tests newly risen Forsaken by sending them west to Solliden Farmstead. Scarlet Crusade soldiers patrol from a nearby tower. The recruits must steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is simmer",
     "simmer npc"
    ],
-   "answer": "Deathguard Simmer is a Forsaken sentry just outside Deathknell in Tirisfal Glades. He tests newly risen Forsaken by sending them to steal pumpkins from a human farm patrolled by the Scarlet Crusade."
+   "answer": "Deathguard Simmer guards the ground just outside Deathknell in Tirisfal Glades. He tests newly risen Forsaken by sending them to steal pumpkins from a human farm patrolled by the Scarlet Crusade."
   },
   {
    "q": "Where is Deathguard Simmer located?",
@@ -33,7 +33,7 @@
     "where is simmer",
     "find deathguard simmer"
    ],
-   "answer": "Deathguard Simmer stands just outside Deathknell in southwestern Tirisfal Glades, beside the road newly risen Forsaken take from the crypts."
+   "answer": "Deathguard Simmer keeps watch just outside Deathknell in southwestern Tirisfal Glades. He stands beside the road newly risen Forsaken take from the crypts."
   },
   {
    "q": "What threats does Deathguard Simmer fight?",
@@ -66,5 +66,5 @@
  "attribution": [
   "Deathguard Simmer"
  ],
- "style": 1
+ "style": 2
 }

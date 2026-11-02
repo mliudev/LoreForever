@@ -10,16 +10,16 @@
    "quest:264"
   ]
  },
- "summary": "In the Pools of Vision in Thunder Bluff, Clarice Foster keeps a bitter reminder of the family she lost. Her pendant came from her former husband, Yuriv, whose devotion to the Light left Clarice and their children behind.",
+ "summary": "In the Pools of Vision in Thunder Bluff, Clarice Foster keeps the pendant her former husband gave her. Yuriv’s devotion to the Light left her and their children behind.",
  "sections": [
   {
    "title": "A Bitter Token",
-   "body": "Clarice's Pendant recalls the life Clarice Foster lost before she became Forsaken. Before the Third War consumed Lordaeron, her husband Yuriv left her and their children to fight the undead. He believed devotion to the Holy Light came before all else. Yuriv died, and his family was left to fall to the very Scourge he had set out to fight. Clarice does not treasure the pendant he gave her. To her, it is an insult, a reminder that she and the children came second to his zeal and duty.",
+   "body": "Before the Third War consumed Lordaeron, Yuriv left Clarice Foster and their children to fight the undead. He believed the Holy Light came before all else. Yuriv died, and the Scourge he had set out to fight took his family. Now Clarice is Forsaken, and she sees the pendant he gave her as an insult. It reminds her that she and the children came second to his zeal and duty.",
    "spoiler": 0
   },
   {
    "title": "Resting upon Yuriv's Tomb",
-   "body": "Clarice wants to sever her last ties to her former life and to Yuriv, the husband who neglected her. She sends an adventurer to lay the pendant on his grave at the Sepulcher. The neglected tomb lies beneath weeds and trash, and has been vandalized. When the pendant rests on the coffin's sculpted hands, its gemstone grows dull. The last warmth of Clarice's former life goes out.",
+   "body": "Clarice wants to sever her last ties to Yuriv and the life they shared. She sends an adventurer to lay the pendant on his grave at the Sepulcher. His neglected tomb lies beneath weeds and trash, and has been vandalized. When the pendant rests on the coffin’s sculpted hands, its gemstone grows dull. The last warmth of Clarice’s former life goes out.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "whose pendant is this",
     "clarice foster"
    ],
-   "answer": "Clarice Foster, a Forsaken woman in the Pools of Vision in Thunder Bluff, owns the pendant. Her husband Yuriv gave it to her while she was alive, before he marched off to war."
+   "answer": "Clarice Foster, a Forsaken woman in the Pools of Vision in Thunder Bluff, owns the pendant. Her husband Yuriv gave it to her before he marched off to war."
   },
   {
    "q": "Who was Yuriv?",
@@ -40,7 +40,7 @@
     "who is yuriv",
     "yuriv tomb"
    ],
-   "answer": "Yuriv was Clarice's husband while they were alive. He left Clarice and their children to fight the rising undead in the name of the Holy Light. He died and lies in a neglected grave at the Sepulcher."
+   "answer": "Yuriv was Clarice’s husband while they were alive. He left her and their children to fight the rising undead in the name of the Holy Light. He died and lies in a neglected grave at the Sepulcher."
   },
   {
    "q": "Why does Clarice want to get rid of the pendant?",
@@ -49,7 +49,7 @@
     "why does clarice hate yuriv",
     "clarice pendant quest"
    ],
-   "answer": "Clarice wants to be rid of the pendant because she resents Yuriv for putting his crusade and devotion to the Light before her and their children. He died, and Clarice was left behind and raised in undeath, the very fate he sought to prevent."
+   "answer": "Clarice resents Yuriv for putting his crusade and devotion to the Light before her and their children. He died, and Clarice was left behind and raised in undeath, the very fate he sought to prevent."
   },
   {
    "q": "What happens when the pendant is placed on Yuriv's grave?",
@@ -57,17 +57,17 @@
     "what happens at yuriv tomb",
     "pendant on grave"
    ],
-   "answer": "Laying the pendant on Yuriv's grave lets Clarice part with the keepsake and the painful attachment it carries."
+   "answer": "Laying the pendant on Yuriv’s grave lets Clarice part with the keepsake and the painful attachment it carries."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you may recognize the bitterness of loved ones who left to fight crusades that failed to protect anyone. Many of the Forsaken share that loss."
+   "text": "As Forsaken, you may know the bitterness of loved ones who left to fight crusades that failed to protect anyone. Many Forsaken share that loss."
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you may find Clarice's contempt for Yuriv's crusade hard to hear. His holy zeal left a broken home behind."
+   "text": "As a paladin, you may find Clarice’s contempt for Yuriv’s crusade hard to hear. His holy zeal left a broken home behind."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Clarice's Pendant",
   "Until Death Do Us Part"
  ],
- "style": 1
+ "style": 2
 }

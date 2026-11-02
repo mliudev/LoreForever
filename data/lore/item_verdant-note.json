@@ -10,16 +10,16 @@
    "quest:3094"
   ]
  },
- "summary": "In Camp Narache, Verdant Note calls young tauren druids to begin their training. Sent for Gart Mistrunner, it guides them toward the rites of the Earthmother.",
+ "summary": "At Camp Narache, Verdant Note calls young tauren druids to their training. Sent for Gart Mistrunner, it guides them toward the rites of the Earthmother.",
  "sections": [
   {
    "title": "A Call to the Path",
-   "body": "Young tauren with a gift for nature receive Verdant Note soon after their trials begin in the Red Cloud Mesa. A messenger carries Gart Mistrunner's brief summons to Camp Narache, where the initiate must report to the mentor. Restless spirits and shifting elements trouble Mulgore, and the elders need new druids trained quickly.",
+   "body": "Young tauren gifted in nature receive Verdant Note soon after their trials begin at Red Cloud Mesa. A messenger brings Gart Mistrunner's brief summons to Camp Narache, where each initiate must report to the mentor. Restless spirits and shifting elements trouble Mulgore. The elders need new druids trained quickly.",
    "spoiler": 0
   },
   {
    "title": "Teachings of the Earthmother",
-   "body": "Gart Mistrunner teaches initiates to commune with nature. He warns that night elves share a bond with the wild but keep their distance from tauren, guarded by ancient pride. Tauren druidism centers on reverence for the Earthmother. Initiates learn to hear the land's restless ancestral voices and serve as her living instruments.",
+   "body": "At Camp Narache, Gart Mistrunner teaches initiates to commune with nature. He warns that night elves share a bond with the wild, yet ancient pride keeps them distant from tauren. Tauren druidism centers on reverence for the Earthmother. Initiates learn to hear the land's restless ancestral voices and serve as her living instruments.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "verdant note item",
     "what is this note"
    ],
-   "answer": "Verdant Note summons fledgling tauren druids to Camp Narache. It tells them to seek Gart Mistrunner and begin their spiritual training."
+   "answer": "Verdant Note calls fledgling tauren druids to Camp Narache. It tells them to seek Gart Mistrunner and begin their spiritual training."
   },
   {
    "q": "Who sends the Verdant Note?",
@@ -38,7 +38,7 @@
     "who sent verdant note",
     "who wrote verdant note"
    ],
-   "answer": "A messenger carries Verdant Note on Gart Mistrunner's behalf. Gart is the druid trainer at Camp Narache on the Red Cloud Mesa."
+   "answer": "A messenger carries Verdant Note on Gart Mistrunner's behalf. Gart trains druids at Camp Narache on Red Cloud Mesa."
   },
   {
    "q": "Why is Gart Mistrunner calling for druid initiates?",
@@ -54,7 +54,7 @@
     "night elves and tauren druids",
     "what about night elves"
    ],
-   "answer": "Gart warns that night elves share a sacred bond with nature but are proud and unlikely to welcome tauren into their circles. He urges initiates to focus on the teachings of the Earthmother."
+   "answer": "Gart warns that night elves share a sacred bond with nature, but their pride makes them unlikely to welcome tauren into their circles. He urges initiates to follow the teachings of the Earthmother."
   }
  ],
  "angles": [
@@ -87,5 +87,5 @@
   "Verdant Note",
   "Verdant Note (quest)"
  ],
- "style": 1
+ "style": 2
 }

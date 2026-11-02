@@ -20,16 +20,16 @@
    "Garments of Darkness"
   ]
  },
- "summary": "In Brill, Dark Cleric Beryl tests fledgling Forsaken priests before they delve deeper into shadow. The trial shows whether they can heal and fortify an injured Deathguard, for the priesthood calls for more than afflicting enemies.",
+ "summary": "In Brill, Dark Cleric Beryl tests fledgling Forsaken priests before they enter deeper shadow. The trial asks whether they can heal and strengthen an injured Deathguard, for their calling demands more than afflicting enemies.",
  "sections": [
   {
    "title": "A Balance of Dark and Light",
-   "body": "Forsaken priests draw renown and a distinct identity from shadow and darkness. Dark Cleric Beryl also teaches that understanding darkness means learning light and restoration. Those who seek only ruin are urged to study arcane magic instead. A priest's calling includes strengthening and preserving comrades as well as afflicting enemies.",
+   "body": "Forsaken priests are known for shadow and darkness, yet Dark Cleric Beryl teaches that mastering darkness also means learning light and restoration. Those who seek only ruin are urged to study arcane magic instead. A priest must strengthen and preserve comrades as well as afflict enemies.",
    "spoiler": 0
   },
   {
    "title": "A Duty in the Graveyard",
-   "body": "North of Brill's cemetery, Deathguard Kel holds the line against prowling gnoll packs and has been wounded. Beryl sends you to bind his wounds with healing spells and bolster his stamina with protective enchantments. In this way, you show you can maintain Tirisfal Glades' defenders. Beryl grants you his vestment and accepts you into the priesthood's higher mysteries.",
+   "body": "North of Brill's cemetery, Deathguard Kel holds the line against prowling gnoll packs, though he has been wounded. Beryl sends you to bind Kel's wounds with healing spells and bolster his stamina with protective enchantments. By doing so, you show you can sustain Tirisfal Glades' defenders. Beryl grants you his vestment and welcomes you into the priesthood's higher mysteries.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "forsaken priest healing lore",
     "shadow vs light undead"
    ],
-   "answer": "Dark Cleric Beryl teaches that Forsaken priests draw exceptional strength from shadow, but healing remains essential. Before mastering darkness, an acolyte must learn supportive and restorative magic to keep Forsaken defenders standing on the battlefield."
+   "answer": "Dark Cleric Beryl teaches that Forsaken priests draw exceptional strength from shadow, but healing remains essential. Before mastering darkness, an acolyte must learn supportive and restorative magic to keep Forsaken defenders standing in battle."
   },
   {
    "q": "Who is Deathguard Kel?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Garments of Darkness"
  ],
- "style": 1
+ "style": 2
 }

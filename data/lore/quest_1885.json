@@ -17,16 +17,16 @@
   "wiki": "Mennet Carkad (quest)",
   "chain": []
  },
- "summary": "In the Undercity, Marion Call sends you to report to Mennet Carkad. He waits deep in the Rogues' Quarter, where promising operatives are tested for the Deathstalkers.",
+ "summary": "In the Undercity, Marion Call sends you to report to Mennet Carkad. Deep in the Rogues' Quarter, he tests promising operatives for the Deathstalkers.",
  "sections": [
   {
    "title": "A Summons from the Shadows",
-   "body": "Marion Call has a summons for you from Mennet Carkad. In the Undercity, covert operatives draw the notice of higher leadership, and Marion passes along word when a scout or assassin is invited to report. The Forsaken's intelligence apparatus has a lethal reputation, so ignoring its orders is no real choice.",
+   "body": "Marion Call brings you a summons from Mennet Carkad. In the Undercity, higher leaders notice covert operatives, and Marion carries word when a scout or assassin is called to report. The Forsaken's intelligence arm is feared for its deadly work. Ignoring its orders is no real choice.",
    "spoiler": 0
   },
   {
    "title": "Joining the Deathstalkers",
-   "body": "Mennet Carkad waits in the Rogues' Quarter, watching recruits and judging whether they are ready. Those who answer his call are tested for entry into the Deathstalkers, the Forsaken's feared arm of espionage and assassination. Obedience is the first test for anyone who seeks to serve the Dark Lady from the shadows.",
+   "body": "Mennet Carkad waits in the Rogues' Quarter, where he watches recruits and judges their readiness. Those who answer his call face tests for entry into the Deathstalkers, the Forsaken's feared arm of espionage and assassination. To serve the Dark Lady from the shadows, obedience comes first.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "mennet carkad lore",
     "who is carkad"
    ],
-   "answer": "Mennet Carkad trains rogues and handles Deathstalkers in the Undercity's Rogues' Quarter. He oversees promising covert agents and assigns critical work for the Forsaken leadership."
+   "answer": "Mennet Carkad trains rogues and oversees the Deathstalkers in the Undercity's Rogues' Quarter. He watches promising covert agents and assigns important work for the Forsaken leadership."
   },
   {
    "q": "What happens if someone ignores Mennet Carkad's summons?",
@@ -45,7 +45,7 @@
     "ignoring carkad",
     "what happens if you ignore summons"
    ],
-   "answer": "Marion Call warns that you would not want to know what happened to those who ignored Carkad's call. She does not explain their exact fate."
+   "answer": "Marion Call warns you not to ask what happened to those who ignored Carkad's call. She does not explain their exact fate."
   },
   {
    "q": "Who are the Deathstalkers?",
@@ -53,7 +53,7 @@
     "deathstalker lore",
     "what are the deathstalkers"
    ],
-   "answer": "The Deathstalkers are an elite order of rogues, spies, and assassins who serve the Forsaken. From the shadows of the Undercity, they eliminate high-value targets, gather intelligence, and defend Lordaeron from enemies such as the Scarlet Crusade and the Scourge."
+   "answer": "The Deathstalkers are an elite order of rogues, spies, and assassins who serve the Forsaken. From the Undercity's shadows, they eliminate high-value targets, gather intelligence, and defend Lordaeron from enemies such as the Scarlet Crusade and the Scourge."
   },
   {
    "q": "Where can I find Mennet Carkad?",
@@ -77,13 +77,13 @@
     "next quest after carkad",
     "what does carkad want"
    ],
-   "answer": "Reporting to Mennet Carkad leads directly into service for the Deathstalkers. Your first duties are meant to prove your cunning and loyalty to the Forsaken cause."
+   "answer": "Reporting to Mennet Carkad leads directly into service with the Deathstalkers. Your first duties are meant to prove your cunning and loyalty to the Forsaken cause."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you answer a summons that marks your passage from unproven cutpurse to recognized asset of the Deathstalkers, the Forsaken's elite shadow network."
+   "text": "As a rogue, you answer a summons that marks your passage from unproven cutpurse to recognized Deathstalker asset, part of the Forsaken's elite shadow network."
   },
   {
    "target": "race:Undead",
@@ -107,5 +107,5 @@
  "attribution": [
   "Mennet Carkad (quest)"
  ],
- "style": 1
+ "style": 2
 }

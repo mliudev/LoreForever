@@ -8,21 +8,21 @@
   "wiki": "Gunther Arcanus",
   "refs": 3
  },
- "summary": "On an island in Brightwater Lake, Gunther Arcanus has escaped the Lich King's control and keeps apart from others. He believes every other undead remains a Scourge thrall.",
+ "summary": "On an island in Brightwater Lake, Gunther Arcanus keeps apart from others after escaping the Lich King's control. He believes every other undead remains a Scourge thrall.",
  "sections": [
   {
    "title": "Breaking the Shackles",
-   "body": "During the Third War, the Scourge swept across the north and the Plague of Undeath killed Gunther, raising him into servitude. His arcane mastery and will let him break the Lich King's mental hold alone, without the weakening of the Lich King or Lady Sylvanas's help that others needed. Believing every other walking corpse remained a mindless Scourge thrall, Gunther withdrew to an island in Tirisfal Glades. Shambling guardians surround him, and he cuts off all contact with the living and the dead alike.",
+   "body": "During the Third War, the Scourge swept across the north. The Plague of Undeath killed Gunther and raised him to serve. His mastery of the arcane and iron will let him break the Lich King's mental hold alone. He needed neither the Lich King's weakening nor Lady Sylvanas's help, as others did.\n\nBelieving every other walking corpse remained a mindless Scourge thrall, Gunther withdrew to an island in Tirisfal Glades. Shambling guardians surround him. He has cut off all contact with the living and the dead alike.",
    "spoiler": 0
   },
   {
    "title": "The Prodigal Lich",
-   "body": "The Forsaken sought powerful allies against the Scourge, so they sent emissaries to claim Gunther's spellbook. In the Undercity, Bethor Iceshard recognized the handwriting as that of his long-lost peer. Bethor enchanted the returned grimoire, and Gunther demanded the destruction of local Scourge commanders. Through this, he learned that others had broken free. Convinced that Sylvanas's faction truly rebels against the Scourge, Gunther has made a pact with his former schoolmate to aid the Forsaken.",
+   "body": "The Forsaken sought powerful allies against the Scourge, so they sent emissaries to claim Gunther's spellbook. In the Undercity, Bethor Iceshard recognized its handwriting as that of his long-lost peer. Bethor enchanted the returned grimoire, and Gunther demanded that local Scourge commanders be destroyed.\n\nThrough this, Gunther learned that others had broken free. Convinced Sylvanas's faction truly rebels against the Scourge, he has made a pact with his former schoolmate to aid the Forsaken.",
    "spoiler": 1
   },
   {
    "title": "A Student of Dalaran",
-   "body": "Before Lordaeron fell, Gunther studied the arcane arts as a promising Kirin Tor apprentice in Dalaran. With close friends Bethor Iceshard and Thule Ravenclaw, he secretly pursued necromancy despite the Kirin Tor's strict ban on dark magic. To mark their brotherhood, the three bound their apprentice wands together as one heirloom.",
+   "body": "Before Lordaeron fell, Gunther studied the arcane arts in Dalaran as a promising Kirin Tor apprentice. With his close friends Bethor Iceshard and Thule Ravenclaw, he secretly pursued necromancy despite the Kirin Tor's strict ban on dark magic. To mark their brotherhood, the three bound their apprentice wands together as one heirloom.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "gunther not a skeleton",
     "why is gunther a lich"
    ],
-   "answer": "Traditional liches place their spirits in phylacteries and take monstrous, floating skeletal forms. Gunther gained lich-like necromantic power while keeping his original reanimated corpse, so he retains his mortal appearance."
+   "answer": "Traditional liches put their spirits in phylacteries and take monstrous, floating skeletal forms. Gunther gained lich-like necromantic power while keeping his original reanimated corpse, so he retains his mortal appearance."
   },
   {
    "q": "Why was Gunther living alone on an island?",
@@ -52,7 +52,7 @@
     "gunther island isolation",
     "why does gunther hide"
    ],
-   "answer": "After escaping the Lich King's control, Gunther believed he was the only undead with free will. Thinking all other walking dead were mindless Scourge slaves, he secluded himself and ordered his minions to strike down anyone who approached."
+   "answer": "After escaping the Lich King's control, Gunther believed he was the only undead with free will. He thought all other walking dead were mindless Scourge slaves, so he secluded himself and ordered his minions to strike down anyone who approached."
   },
   {
    "q": "How does Gunther know Bethor Iceshard?",
@@ -70,7 +70,7 @@
     "gunther faction",
     "is gunther forsaken"
    ],
-   "answer": "Yes. Gunther pledges himself to Bethor and the Forsaken cause after adventurers return his enchanted spellbook and kill the local Scourge agent Lillith Nefara, proving they oppose the Lich King."
+   "answer": "Yes. Gunther pledges himself to Bethor and the Forsaken cause after adventurers return his enchanted spellbook and kill the local Scourge agent Lillith Nefara. Their deeds prove they oppose the Lich King."
   },
   {
    "q": "Who is Lillith Nefara?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, Gunther shows how far forbidden study of dark arts and reanimation could reach beyond Dalaran's leaders' watch."
+   "text": "As a warlock, Gunther shows how far forbidden study of dark arts and reanimation could reach beyond the watch of Dalaran's leaders."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Gunther Arcanus"
  ],
- "style": 1
+ "style": 2
 }

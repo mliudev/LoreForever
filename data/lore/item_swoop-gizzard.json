@@ -10,16 +10,16 @@
    "quest:766"
   ]
  },
- "summary": "Across Mulgore, swoops soar as predatory birds, and their gizzards go into traditional remedies for deadly toxins.",
+ "summary": "Across Mulgore, swoops hunt the plains and mesas, and tauren folk remedies put their gizzards to use against deadly toxins.",
  "sections": [
   {
    "title": "A Rare Folk Ingredient",
-   "body": "Swoops hunt across Mulgore’s plains and mesas, with keen eyes and a taste for scavenging. Tauren use their feathers and meat in daily life, while herbalists and healers prize their internal organs, especially the gizzard. Dense and muscular, it helps counter venomous bites and festering infections when combined with cougar bones and wolf hearts.",
+   "body": "Swoops hunt across Mulgore’s plains and mesas, watching with keen eyes and scavenging for food. Tauren use their feathers and meat in daily life. Herbalists and healers prize their inner organs, especially the gizzard. Combined with cougar bones and wolf hearts, it helps counter venomous bites and festering infections.",
    "spoiler": 0
   },
   {
    "title": "A Remedy for Mazzranache's Bite",
-   "body": "In Bloodhoof Village, Maur Raincaller tends the wound Mazzranache left on his shoulder. The legendary plainstrider’s venom drives Maur into delirium as the poison creeps through him. To make a poultice that can expel the lethal venom, Maur needs a swoop gizzard, a prairie wolf heart, a flatland cougar femur, and a plainstrider scale.",
+   "body": "In Bloodhoof Village, Maur Raincaller tends the wound Mazzranache left on his shoulder. The legendary plainstrider’s venom drives Maur into delirium as the poison spreads through him. To make a poultice that can expel the deadly venom, Maur needs a swoop gizzard, a prairie wolf heart, a flatland cougar femur, and a plainstrider scale.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why do i need swoop gizzard",
     "swoop organ purpose"
    ],
-   "answer": "Maur Raincaller in Bloodhoof Village needs a swoop gizzard as an essential ingredient in a remedy. Mixed with three other animal parts, it forms a cure for the venomous infection left by Mazzranache, the vicious plainstrider."
+   "answer": "In Bloodhoof Village, Maur Raincaller needs a swoop gizzard for a remedy. Mixed with three other animal parts, it forms a cure for the venomous infection left by Mazzranache, the vicious plainstrider."
   },
   {
    "q": "Where do swoop gizzards come from?",
@@ -40,7 +40,7 @@
     "what drops swoop gizzard",
     "swoop hunting"
    ],
-   "answer": "Swoop gizzards come from the swoops gliding over Mulgore’s plains, including standard swoops, wiry swoops, and taloned swoops."
+   "answer": "Swoop gizzards come from swoops gliding over Mulgore’s plains. These include standard swoops, wiry swoops, and taloned swoops."
   },
   {
    "q": "Why does Maur Raincaller need this specific part?",
@@ -88,5 +88,5 @@
   "Swoop Gizzard",
   "Mazzranache (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -1232,6 +1232,36 @@ local function nextPassage(target)
     passage = i, started = target.started }
 end
 
+-- A story heard in full starts where its section 1 does (Mike, 11/1, option A): the summary is the short version
+-- shown above the story, in tooltips and by Willo, and the sections retell all of it, so saying it first told most of
+-- the story twice. The summary still plays where the sections say too little alone: no safe section, or
+-- SHORT_STORY_WORDS or fewer words in them (lore.clips' line too, for the site and the apps). The QA Lead's read, 11/1:
+-- at 29 words, quest:1522 opened on "The shaman says…" with no why; at 31, Vidra Hearthstove stood alone.
+local SHORT_STORY_WORDS = 30
+local function sectionsTellIt(key)
+  local e = UI.engine.db.entries[key]
+  local words = 0
+  for _, sec in ipairs(e and e.sec or {}) do
+    if (sec.sp or 0) == 0 then for _ in sec.b:gmatch("%S+") do words = words + 1 end end
+  end
+  return words > SHORT_STORY_WORDS
+end
+
+-- Where a story's full listen starts in `row` (its recording in pieces, Voice.Transport), in seconds: at section 1,
+-- or 0 (from its start) where the recording has no mark there or the story keeps its summary.
+function UI.StoryFrom(target, row)
+  if not (target and row and target.key == target.story and row.key == target.key) then return 0 end
+  local at = ns.Voice.SectionOneAt(row)
+  return at and sectionsTellIt(target.key) and at or 0
+end
+
+-- A fresh full listen's start at section 1, as Voice.Play takes it, or nil to play from the start.
+local function sectionOne(target)
+  local row = ns.Voice.StoryPieces(target.key)
+  local at = row and UI.StoryFrom(target, row) or 0
+  if at > 0 then return { offset = at, pack = row.pack, hash = row.hash, fullHash = row.fullHash, section = true } end
+end
+
 -- A FAQ answer as something to play; the starting zones and capitals have these recorded ("zone:elwynn#faq2").
 function UI.FaqTarget(key, idx)
   local e = key and UI.engine.db.entries[key]
@@ -1558,29 +1588,42 @@ local function startTarget(target, fromPlaylist, keepProgress)
   ns.Voice.Stop()
   UI.speaking, UI.playingId = false, nil
   local progress = target and UI.progress[target.key]
-  local options = target and validProgress(progress, target.key) and progress
-  if options then
-    local copy = {}
-    for k, v in pairs(options) do copy[k] = v end
-    copy.rate = ns.Voice.PlaybackRate()
-    options = copy
+  local resumed = target and validProgress(progress, target.key) and progress
+  local options
+  if resumed then
+    options = {}
+    for k, v in pairs(resumed) do options[k] = v end
+    options.rate = ns.Voice.PlaybackRate()
   end
+  local fresh = not (keepProgress or resumed)   -- from its start
   -- A story heard from its start opens with its title, when the voice telling the story has it: the title's recording
   -- plays first, then the story's (watchPlayback), as one story to the player.
   local served = ns.Voice.servedBy or {}
-  local lead = not (keepProgress or options) and target.title and ns.Voice.CanPlay(target.title.id)
+  local lead = fresh and target.title and ns.Voice.CanPlay(target.title.id)
     and served[target.title.id] ~= nil and served[target.title.id] == served[target.key] and target.title or nil
+  -- ... then the story from its section 1 (UI.StoryFrom), right away or once its title has been said.
+  if fresh then
+    target.afterTitle = lead and sectionOne(target) or nil
+    if not lead then options = sectionOne(target) end
+  elseif not resumed and target.afterTitle then
+    options, target.afterTitle = target.afterTitle, nil
+  end
   local clipId = lead and lead.id or target.key
-  local started = target and (fromPlaylist and ns.Voice.Play(clipId, options) or ns.Voice.Narrate(clipId, options))
+  local function play(opts)
+    return fromPlaylist and ns.Voice.Play(clipId, opts) or ns.Voice.Narrate(clipId, opts)
+  end
+  local started = play(options)
+  -- One that can't start at section 1 (a stale or broken piece) plays from its start, as before.
+  if not started and options and options.section then started = play(nil) end
   if not started then return false end
   target.leading = lead and true or nil
-  if not (keepProgress or options) then   -- from its start
+  if fresh then
     local kind = ns.Log.NarrationKind(target.key)
     target.started = byItself and "auto" or "user"   -- (watchPlayback counts its end the same way)
     ns.Log.Use("play", kind)
     ns.Log.Use(target.started .. "play", kind)
-  elseif options and not target.started and (options.started == "auto" or options.started == "user") then
-    target.started = options.started   -- picked up where it paused: as it started then (UI.RememberProgress)
+  elseif resumed and not target.started and (resumed.started == "auto" or resumed.started == "user") then
+    target.started = resumed.started   -- picked up where it paused: as it started then (UI.RememberProgress)
   end
   UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
   UI.playingKey, UI.playingStory = target.key, target.story
@@ -1671,10 +1714,14 @@ end
 -- its next item. Returns true when it handled the click, even if the recording couldn't start (a missing segment
 -- never falls through to something else); false leaves it to the playlist.
 local DONE_SHARE = 0.9
+local function heardMost(state)   -- (of what a full listen plays: from section 1, UI.StoryFrom)
+  local from = UI.StoryFrom(state.target, state.row)
+  return state.duration and state.duration > 0 and state.offset >= from + DONE_SHARE * (state.duration - from)
+end
 function UI.ResumeStopped()
   if UI.IsBusy() then return false end
   local state = UI.TransportState()
-  if state and state.duration and state.duration > 0 and state.offset >= DONE_SHARE * state.duration then
+  if state and heardMost(state) then
     UI.progress[state.target.key], UI.resumeTarget = nil, nil
     if state.target.fromPlaylist then
       UI.PlaylistNext()
@@ -1701,8 +1748,7 @@ function UI.HasStopped()
   if UI.IsBusy() then return false end
   local state = UI.TransportState()
   if state then
-    return not state.target.fromPlaylist and not (state.duration and state.duration > 0
-      and state.offset >= DONE_SHARE * state.duration)
+    return not state.target.fromPlaylist and not heardMost(state)
   end
   return UI.stoppedTarget ~= nil
 end
@@ -2619,7 +2665,9 @@ local function herePlace(ctx)
   local function named(k) return ns.Lang.Shown(k) or db.entries[k].n end
   local place = (sub and named(sub)) or (zkey and named(zkey)) or ctx.subzone or ctx.zone
   if sub and zkey then place = named(sub) .. ", " .. named(zkey) end
-  return zk, z, zkey, sub, place
+  -- The label names where you are; a story the reading language withholds isn't offered (Engine.Readable).
+  local function readable(k) return k and ns.Engine.Readable(db, k) and k or nil end
+  return zk, z, readable(zkey), readable(sub), place
 end
 
 function UI.HereItems(ctx)
@@ -2628,7 +2676,7 @@ function UI.HereItems(ctx)
   local bosses = {}
   if z and z.t == "dungeon" then
     for _, bk in ipairs(z.b or {}) do
-      if db.entries[bk] then bosses[#bosses + 1] = bk end
+      if ns.Engine.Readable(db, bk) then bosses[#bosses + 1] = bk end
     end
   end
   -- With a boss list below, fewer rows above it, so the bosses and your quests still fit.
@@ -4009,6 +4057,11 @@ function UI.CreatePlayer(parent, floating)
   title:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_TOP")
     T.Tip(self.full or L["Nothing playing"], "tipText", true)
+    local clip = self.full and UI.ReportableClip()
+    local standIn, own = ns.Voice.StandIn(clip and clip.id)
+    if standIn then
+      T.Tip(string.format(L["Read by %s: %s hasn't recorded this one yet."], standIn, own), "tipDim", true)
+    end
     local s = self.full and playerShows()
     if s and (s.quest and UI.CanQueueQuest(s.quest) or (s.key and UI.CanQueue(s.key, s.idx))) then
       T.Tip(L["Click to open. Shift-click adds it to your playlist."], "tipDim", true)
@@ -5028,7 +5081,7 @@ end
 function UI.ShowEntry(key, via, asked)
   if not ns.Lang.ValidateEdition() then return end
   local e = UI.engine.db.entries[key]
-  if not e then return end
+  if not e or e.hide then return end   -- (withheld in the reading language: Lang.lua)
   if UI.HERE_VIA[via] and UI.tab ~= "here" and UI.ShowTab then UI.ShowTab("here") end
   UI.engine.lastKey = key
   local link, linked = UI.Linker(key)
@@ -5062,7 +5115,7 @@ end
 function UI.ShowPrimer(zk, via)
   if not ns.Lang.ValidateEdition() then return end
   local db = UI.engine.db
-  local z, e = db.zones and db.zones[zk], db.entries["zone:" .. zk]
+  local z, e = db.zones and db.zones[zk], ns.Engine.Readable(db, "zone:" .. zk)
   if not (z and e) then return end
   if UI.frame and not UI.frame:IsShown() then UI.frame:Show() end
   UI.engine.lastKey = "zone:" .. zk
@@ -5238,7 +5291,7 @@ function UI.ShowQuestText(q)
   if q.text then desc, obj = q.text, q.objectives else desc, obj = questLogText(q) end
   local ctx = UI.ctx or ns.Context.Snapshot()
   local zk = UI.engine:ZoneKey(ctx.zone)
-  local ze = zk and UI.engine.db.entries["zone:" .. zk]
+  local ze = zk and ns.Engine.Readable(UI.engine.db, "zone:" .. zk)
   local link, linked = UI.Linker(nil)
   local parts = {}
   if desc and desc ~= "" then parts[#parts + 1] = WHITE .. link(esc(desc)) .. "|r" end

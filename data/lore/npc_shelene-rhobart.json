@@ -8,11 +8,11 @@
   "wiki": "Shelene Rhobart",
   "refs": 1
  },
- "summary": "Along Tirisfal's road, Shelene Rhobart trains leatherworkers at a Deathguard waystation. She supplies cured hides and leathercraft training for the Forsaken's military and logistical efforts across the blighted lands.",
+ "summary": "At a Deathguard waystation in Tirisfal, Shelene Rhobart trains leatherworkers for the Forsaken. She supplies cured hides and leather gear for their military and logistical efforts across the blighted lands.",
  "sections": [
   {
    "title": "Crafting for the Forsaken",
-   "body": "At a Deathguard waystation southeast of Brill, Shelene Rhobart works along the main road toward the ruins of Lordaeron. Practical crafts still matter in undeath, for survival and war. She turns pelts from Tirisfal's prowling beasts into tough hides, armor, straps, and field gear for Forsaken patrols facing the Scourge and Scarlet crusaders.",
+   "body": "Southeast of Brill, Shelene Rhobart works at a Deathguard waystation along the main road to the ruins of Lordaeron. Practical crafts still matter in undeath, both for survival and for war. She turns pelts from Tirisfal's prowling beasts into tough hides, armor, straps, and field gear for Forsaken patrols facing the Scourge and Scarlet crusaders.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "shelene rhobart trainer",
     "shelene profession"
    ],
-   "answer": "Shelene Rhobart trains leatherworkers in curing pelts, stitching garments, and assembling protective leather gear for the Forsaken."
+   "answer": "Shelene Rhobart trains leatherworkers to cure pelts, stitch garments, and assemble protective leather gear for the Forsaken."
   },
   {
    "q": "Why does she need beast hides?",
@@ -41,7 +41,7 @@
     "hides for the forsaken quest",
     "why collect hides tirisfal"
    ],
-   "answer": "The Forsaken use animal hides to patch their injured bodies, since undead skin does not heal. Shelene's supplies are running low, and she needs duskbat wing membranes, darkhound hides, and Vile Fin murloc skin; different thicknesses suit different parts of the body."
+   "answer": "The Forsaken use animal hides to patch their injured bodies because undead skin does not heal. Shelene's supplies are running low, and she needs duskbat wing membranes, darkhound hides, and Vile Fin murloc skin. Different thicknesses suit different parts of the body."
   }
  ],
  "angles": [
@@ -66,5 +66,5 @@
  "attribution": [
   "Shelene Rhobart"
  ],
- "style": 1
+ "style": 2
 }

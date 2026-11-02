@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Rare Desert Herb",
-   "body": "In Thousand Needles, Incendia Agave grows in and around the waters of the Boiling Pool, beneath Darkcloud Pinnacle. Wandering steam elementals guard the scarce plant, making it difficult to harvest. Though it grows underwater, the plant holds natural elements suited to rituals of flame.",
+   "body": "In Thousand Needles, Incendia Agave grows in and around the Boiling Pool beneath Darkcloud Pinnacle. Wandering steam elementals guard the scarce plant, making it difficult to harvest. Though it grows underwater, the plant bears natural elements suited to rituals of flame.",
    "spoiler": 0
   },
   {
    "title": "The Sacred Fire",
-   "body": "Tauren ritualists cannot kindle the dormant sacred fire of life with ordinary sparks. Elder Magatha Grimtotem, on Elder Rise in Thunder Bluff, can enchant harvested bushels of Incendia Agave into a mystical powder. The powder lights the ceremonial brazier used to summon the vengeful wind serpent Arikara.",
+   "body": "Elder Magatha Grimtotem on Elder Rise in Thunder Bluff can enchant harvested bushels of Incendia Agave into a mystical powder. Tauren ritualists use that powder to light the ceremonial brazier and summon the vengeful wind serpent Arikara.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "why gather agave",
     "what does agave do"
    ],
-   "answer": "Ten bushels of Incendia Agave are gathered and made into ritual powder. Magatha Grimtotem enchants it in Thunder Bluff to light the sacred fire of life and summon Arikara."
+   "answer": "Ten bushels of Incendia Agave are gathered and made into ritual powder. In Thunder Bluff, Magatha Grimtotem enchants it to light the sacred fire of life and summon Arikara."
   },
   {
    "q": "Who can enchant the Incendia Agave?",
@@ -49,7 +49,7 @@
     "magatha agave",
     "who turns agave into powder"
    ],
-   "answer": "Magatha Grimtotem, an influential shaman on Elder Rise in Thunder Bluff, has the ritual knowledge to enchant Incendia Agave."
+   "answer": "On Elder Rise in Thunder Bluff, Magatha Grimtotem has the ritual knowledge to enchant Incendia Agave. She is an influential shaman."
   },
   {
    "q": "What threats surround the Incendia Agave?",
@@ -68,7 +68,7 @@
   },
   {
    "target": "profession:Herbalism",
-   "text": "As a herbalist, your tracking sense helps you find Incendia Agave's spiky clumps along the murky floor of the Boiling Pool."
+   "text": "As a herbalist, your tracking sense helps you find Incendia Agave’s spiky clumps along the murky floor of the Boiling Pool."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Incendia Agave",
   "Sacred Fire"
  ],
- "style": 1
+ "style": 2
 }

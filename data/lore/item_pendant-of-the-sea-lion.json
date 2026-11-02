@@ -11,16 +11,16 @@
    "quest:5061"
   ]
  },
- "summary": "At the Shrine of Remulos, druids join the Pendant of the Sea Lion's two halves. The completed talisman marks an initiate's readiness to learn an aquatic form.",
+ "summary": "At the Shrine of Remulos, druids join the Pendant of the Sea Lion's two halves. The finished talisman shows an initiate is ready to learn an aquatic form.",
  "sections": [
   {
    "title": "A Token of the Deep",
-   "body": "A druid must master the water's dangers to claim the sea lion's aquatic aspect. The pendant has two halves, one embodying the agility to slip past aquatic predators, the other the endurance to withstand prolonged submersion. At the Shrine of Remulos in Moonglade, the pieces are joined into one.",
+   "body": "A druid must face the dangers of the water to claim the sea lion's aquatic aspect. The pendant has two halves. One grants the agility to slip past aquatic predators, while the other gives the endurance to withstand prolonged submersion. At the Shrine of Remulos in Moonglade, druids join the pieces.",
    "spoiler": 0
   },
   {
    "title": "Proof of Mastery",
-   "body": "After the pendant is forged, an initiate brings it to an elder mentor. Turak Runetotem waits on the rises of Thunder Bluff, while Mathrengyl Bearwalker is in Darnassus. The talisman proves the initiate has completed trials under Dendrite Starblaze, allowing the elder to teach the secrets of taking an aquatic form.",
+   "body": "Once the pendant is forged, an initiate brings it to an elder mentor. Turak Runetotem waits on the rises of Thunder Bluff, while Mathrengyl Bearwalker is in Darnassus. The talisman proves the initiate completed trials under Dendrite Starblaze. Then the elder can teach the secrets of taking an aquatic form.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "sea lion pendant use",
     "why get pendant of the sea lion"
    ],
-   "answer": "The pendant proves a druid initiate has completed trials of aquatic agility and endurance and is ready to learn an aquatic form."
+   "answer": "The pendant proves an initiate completed trials in aquatic agility and endurance and is ready to learn an aquatic form."
   },
   {
    "q": "Where is the pendant assembled?",
@@ -40,7 +40,7 @@
     "how to make sea lion pendant",
     "where combine pendant halves"
    ],
-   "answer": "The pendant's two halves, one for agility and one for endurance, are joined at the Shrine of Remulos in Moonglade."
+   "answer": "Druids join the pendant's two halves at the Shrine of Remulos in Moonglade. One half is for agility and the other for endurance."
   },
   {
    "q": "Who do I present the pendant to in Thunder Bluff?",
@@ -94,5 +94,5 @@
   "Aquatic Form (Horde)",
   "Aquatic Form (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

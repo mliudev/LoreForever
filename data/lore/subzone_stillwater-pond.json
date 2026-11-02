@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stillwater Pond"
  },
- "summary": "At Stillwater Pond, gray water and skeletal fish mark the loss of a place where Lordaeron's children once swam. Dangerous scavengers prowl its western shore, just west of Brill.",
+ "summary": "Just west of Brill, Stillwater Pond lies gray and lifeless, a lost refuge for Lordaeron's children.",
  "sections": [
   {
    "title": "A Ruined Respite",
-   "body": "Stillwater Pond once drew families from nearby hamlets for picnics on its grassy banks. Before the Third War and the Plague of Undeath, its shallows gave children too young to brave Brightwater Lake a place to learn to swim. The water is now lifeless and gray. The living have vanished, leaving skeletal fish beneath the surface and wandering undead in the surrounding woods.",
+   "body": "Families from nearby hamlets once picnicked on Stillwater Pond's grassy banks. Before the Third War and the Plague of Undeath, its shallows let children too young to brave Brightwater Lake learn to swim. Now the water is gray and lifeless. The living have vanished, leaving skeletal fish below and wandering undead in the woods around it.",
    "spoiler": 0
   },
   {
    "title": "Prowlers in the Mist",
-   "body": "Stillwater Pond is quieter than Tirisfal's besieged roads and contested farms, but danger lingers along its shore. Blighted beasts drink from its murky water, including Bayne, a ferocious darkhound that stalks the banks. Travelers crossing the western meadows toward Brill must watch for predatory beasts and aimless zombies by the water's edge.",
+   "body": "Stillwater Pond is quieter than Tirisfal's besieged roads and contested farms, yet danger lingers along its shore. Blighted beasts drink from the murky water, including Bayne, a ferocious darkhound that stalks the banks. Travelers crossing the western meadows toward Brill must watch for predatory beasts and aimless zombies by the water's edge.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what was stillwater pond used for",
     "tirisfal swimming spot"
    ],
-   "answer": "Before the Plague, Stillwater Pond drew local families for picnics in human Lordaeron. Its shallows were calmer than Brightwater Lake, so parents brought young children there to swim."
+   "answer": "Before the Plague, families from nearby hamlets came to Stillwater Pond for picnics in human Lordaeron. Its shallows were calmer than Brightwater Lake, so parents brought young children there to swim."
   },
   {
    "q": "Is there anything living in the water now?",
@@ -37,7 +37,7 @@
     "what lives in stillwater pond",
     "stillwater creatures"
    ],
-   "answer": "No normal aquatic life survived Tirisfal's blighting. Only animated, skeletal fish swim beneath the gray surface, left by the Scourge's corruption."
+   "answer": "No normal aquatic life survived Tirisfal's blighting. Only animated skeletal fish swim beneath the gray surface, left by the Scourge's corruption."
   },
   {
    "q": "What dangerous creatures wander near the pond?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken who remembers life in Lordaeron, Stillwater Pond may recall childhood days spent picnicking and swimming along its once-clear banks."
+   "text": "As a Forsaken who remembers life in Lordaeron, you may recall childhood picnics and swims along Stillwater Pond's once-clear banks."
   },
   {
    "target": "class:Hunter",
@@ -87,5 +87,5 @@
  "attribution": [
   "Stillwater Pond"
  ],
- "style": 1
+ "style": 2
 }

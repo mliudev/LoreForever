@@ -10,16 +10,16 @@
    "quest:1960"
   ]
  },
- "summary": "Mages in the Undercity keep the Chest of Containment Coffers close at hand. Its enchanted vessels can secure unstable magical phenomena.",
+ "summary": "In the Undercity, mages keep the Chest of Containment Coffers close at hand. Its enchanted vessels can hold unstable magical forces.",
  "sections": [
   {
    "title": "Vessels for the Unseen",
-   "body": "Invisible arcane creatures can emerge from experiments or sudden rifts between planes. Ordinary cages cannot hold beings made of magic. The Chest of Containment Coffers holds enchanted vessels that bind subdued creatures alive. Senior instructors keep the chest nearby, including Anastasia Hartwell in the Undercity and Jennea Cannon in Stormwind. They give initiates the coffers for surveying anomalies before those forces can unsettle their surroundings.",
+   "body": "Arcane creatures may emerge from experiments or sudden rifts between planes. Ordinary cages cannot hold beings made of magic. The Chest of Containment Coffers holds enchanted vessels that bind subdued creatures alive. Senior instructors keep it nearby, including Anastasia Hartwell in the Undercity and Jennea Cannon in Stormwind. They give initiates coffers to survey anomalies before those forces unsettle their surroundings.",
    "spoiler": 0
   },
   {
    "title": "Arcane Containment Protocols",
-   "body": "Invisible disturbances appeared in Algernon's shop in the Apothecarium, and Forsaken instructors sent mages with coffers to contain them. A mage first reveals a rift entity with a special scroll, then weakens it with spells and traps it in a coffer from the chest. Forsaken researchers can safely dissect and study the captured creatures, determining whether the disturbances were random tears in the Ley or deliberate arcane assaults.",
+   "body": "Invisible disturbances appeared in Algernon's shop in the Apothecarium. Forsaken instructors sent mages with coffers to contain them. A mage reveals a rift entity with a special scroll, weakens it with spells, then traps it in a coffer from the chest. Forsaken researchers can safely dissect and study the captured creatures. They seek to learn whether the disturbances were random tears in the Ley or deliberate arcane assaults.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "containment coffers contents",
     "chest contents"
    ],
-   "answer": "The chest holds empty, enchanted coffers. Mages use them to secure and trap subdued magical creatures, such as rift spawns, during dangerous field investigations."
+   "answer": "The chest holds empty, enchanted coffers. Mages use them to secure subdued magical creatures, such as rift spawns, during dangerous field investigations."
   },
   {
    "q": "Where can this chest be found?",
@@ -58,7 +58,7 @@
     "filled containment coffer use",
     "why capture creatures"
    ],
-   "answer": "Senior instructors receive filled coffers for study. Researchers analyze the captured creatures to determine whether a disturbance came from an accidental natural rift or an intentional attack by outside forces."
+   "answer": "Senior instructors receive filled coffers for study. Researchers analyze the captured creatures to learn whether a disturbance came from an accidental natural rift or an intentional attack by outside forces."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
   "Chest of Containment Coffers",
   "Investigate the Alchemist Shop"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Binding (Succubus, Undercity)",
   "chain": []
  },
- "summary": "In the Undercity, an initiate faces the rite that grants command of a succubus. Carendin Halgar directs the warlock to use Pure Hearts to draw a demon from the Twisting Nether into a ritual circle, then master it through combat.",
+ "summary": "In the Undercity, Carendin Halgar puts an initiate's command of a succubus to the test. Pure Hearts draw the demon from the Twisting Nether into a ritual circle, where the warlock must master it through combat.",
  "sections": [
   {
    "title": "A Test of Will",
-   "body": "In the Undercity's Magic Quarter, Forsaken warlocks hone their command of demons. Summoning a succubus marks a critical passage in their training. A voidwalker relies on brute force, and an imp on lesser malice, but a succubus can ensnare its summoner with seductive and mental enchantments. Carendin Halgar demands that each initiate prove mind and magic unshakable before he entrusts them with lasting dominion over such a demon.",
+   "body": "In the Undercity's Magic Quarter, Forsaken warlocks learn to command demons. Summoning a succubus marks a hard passage in that training. A voidwalker depends on brute force, and an imp on lesser malice. A succubus can turn seductive and mental enchantments against its summoner. So Carendin Halgar requires each initiate to prove mind and magic unshakable before granting lasting dominion over such a demon.",
    "spoiler": 0
   },
   {
    "title": "Subjugation in the Circle",
-   "body": "Pure Hearts gathered from innocent souls in the Wetlands and Silverpine Forest open a passage to the Twisting Nether. A succubus summoned into the binding circle attacks at once, seeking to overpower or entrance the warlock. The warlock must break its physical form and cast its essence back into the void to claim mastery and learn to summon the demon at will.",
+   "body": "Pure Hearts gathered from innocent souls in the Wetlands and Silverpine Forest open a way to the Twisting Nether. The succubus appears in the binding circle and attacks at once, seeking to overpower or entrance the warlock. To claim mastery and summon it at will, the warlock must break its physical form and cast its essence back into the void.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what does the binding reward",
     "what is this quest for"
    ],
-   "answer": "The rite lets Forsaken warlocks prove they can master a succubus. By summoning and defeating one in the Magic Quarter, a warlock proves its charms cannot sway them and earns the power to summon and command one in battle."
+   "answer": "The rite tests whether Forsaken warlocks can master a succubus. By summoning and defeating one in the Magic Quarter, a warlock proves its charms cannot sway them and gains the power to summon and command one in battle."
   },
   {
    "q": "Who is Carendin Halgar?",
@@ -46,7 +46,7 @@
     "who gives the binding",
     "carendin halgar lore"
    ],
-   "answer": "Carendin Halgar trains warlocks in the Undercity's Magic Quarter and oversees the training and trials of Forsaken spellcasters. He tests their mental endurance and dark arts before entrusting them with more dangerous summoning rites."
+   "answer": "Carendin Halgar trains warlocks in the Undercity's Magic Quarter and oversees Forsaken spellcasters' training and trials. He tests their mental endurance and dark arts before entrusting them with more dangerous summoning rites."
   },
   {
    "q": "Why were pure hearts needed to summon the demon?",
@@ -54,7 +54,7 @@
     "why pure hearts",
     "hearts of the pure purpose"
    ],
-   "answer": "Pure Hearts gathered in earlier steps serve as irresistible metaphysical bait for a succubus. The hearts draw the demon through the summoning circle to manifest in the mortal realm."
+   "answer": "Pure Hearts gathered earlier draw a succubus through the summoning circle. They serve as irresistible bait that brings the demon into the mortal realm."
   },
   {
    "q": "Where does the summoning take place?",
@@ -62,7 +62,7 @@
     "where do i summon the succubus",
     "undercity summoning circle location"
    ],
-   "answer": "The summoning takes place in the Undercity's Magic Quarter, in a ritual circle near Carendin Halgar and the warlock mentors."
+   "answer": "The summoning takes place in a ritual circle in the Undercity's Magic Quarter, near Carendin Halgar and the warlock mentors."
   },
   {
    "q": "Why does the succubus need to be slain?",
@@ -70,7 +70,7 @@
     "why fight the succubus",
     "why kill summoned succubus"
    ],
-   "answer": "Warlocks do not negotiate with their minions; they subjugate them. By shattering the succubus's form in the circle, the warlock bends its spirit to their will, so it returns as a thrall rather than a master."
+   "answer": "The warlock must slay the succubus to subjugate it. Shattering its form in the circle bends its spirit to the warlock's will, so it returns as a thrall rather than a master."
   },
   {
    "q": "Are succubi dangerous to Undercity warlocks?",
@@ -84,11 +84,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, this rite marks a crucial step in your dark path. It tests your power to master seductive mental forces and bind cunning Nether-spawn to your will."
+   "text": "As a warlock, this rite marks a hard step in your dark path. It tests your power to master seductive mental forces and bind cunning demons from the Nether to your will."
   },
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you use whatever dark tools are needed to secure survival and dominion in Lordaeron. Demonic subjugation is a practical means to those ends."
+   "text": "As Forsaken, you use whatever dark tools are needed to secure survival and dominion in Lordaeron. Subjugating demons is a practical means to those ends."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "The Binding (Succubus, Undercity)"
  ],
- "style": 1
+ "style": 2
 }

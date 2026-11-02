@@ -21,16 +21,16 @@
    "The Sacred Flame (3)"
   ]
  },
- "summary": "From Ashenvale, a phial of moonwell water travels south to Freewind Post. Rau Cliffrunner needs it to break the eternal flame guarding an ancient centaur relic in Thousand Needles.",
+ "summary": "A phial of moonwell water travels south from Ashenvale to Freewind Post. Rau Cliffrunner needs it to break the eternal flame guarding an ancient centaur relic in Thousand Needles.",
  "sections": [
   {
    "title": "A Long Journey South",
-   "body": "Zangen Stonehoof sends you south across central Kalimdor with an etched phial filled with purified moonwell water. You cross the sun-baked expanse of the Barrens, descend the towering Great Lift, and make for Freewind Post. Rau Cliffrunner waits on the high mesa above the canyon floor, watching the centaur clans below.",
+   "body": "Zangen Stonehoof sends you south across central Kalimdor with an etched phial of purified moonwell water. You cross the sun-baked Barrens, descend the Great Lift, and continue to Freewind Post. Rau Cliffrunner waits on the high mesa above the canyon floor. From there, he watches the centaur clans below.",
    "spoiler": 0
   },
   {
    "title": "Shared Blood and Ancient Wards",
-   "body": "Rau Cliffrunner explains why the moonwell water matters to his fight against the centaur. Dryads and centaur share ancestry through Cenarius, whose son Zaetar fathered the centaur. That kinship gives sacred moonwell water an arcane resonance, the one power that can pierce the eternal flame shielding a guarded centaur artifact.",
+   "body": "Rau Cliffrunner explains how moonwell water can aid his fight against the centaur. Dryads and centaur share ancestry through Cenarius, whose son Zaetar fathered the centaur. That kinship gives sacred moonwell water an arcane resonance. It is the one power that can pierce the eternal flame shielding a guarded centaur artifact.",
    "spoiler": 1
   }
  ],
@@ -79,7 +79,7 @@
     "getting past the barrens cliff",
     "great lift directions"
    ],
-   "answer": "Follow the main southern road through the Barrens to the cliff edge. The Great Lift waits there: two wooden elevators operated by tauren pulleys that carry travelers down to the canyon floor."
+   "answer": "Follow the main southern road through the Barrens to the cliff edge. The Great Lift waits there, with two wooden elevators operated by tauren pulleys that carry travelers down to the canyon floor."
   },
   {
    "q": "Why are the tauren seeking a centaur relic?",
@@ -127,5 +127,5 @@
  "attribution": [
   "The Sacred Flame (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ambermill"
  },
- "summary": "Ambermill's wizards hold a fortified outpost in southeastern Silverpine Forest, southwest of Lordamere Lake. Once a quiet lumber village, it now shelters surviving wizards and apprentices from Dalaran, resisting the Forsaken on their southern borders.",
+ "summary": "In southeastern Silverpine Forest, Ambermill's wizards hold a fortified outpost southwest of Lordamere Lake. Once a quiet lumber village, it now shelters surviving wizards and apprentices from Dalaran as they resist the Forsaken to the south.",
  "sections": [
   {
    "title": "A Bastion of Dalaran",
-   "body": "Ambermill was a quiet lumber town before the Third War. After Lordaeron fell, surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, keeping this forward redoubt against the undead.",
+   "body": "Before the Third War, Ambermill was a quiet lumber town. After Lordaeron fell, surviving wizards of the Kirin Tor moved in and fortified it. Now Dalaran spellscribes, conjurors, and apprentices patrol its buildings and stables. They hold this forward redoubt against the undead.",
    "spoiler": 0
   },
   {
    "title": "Tapping the Ley Lines",
-   "body": "Ambermill draws the Kirin Tor for more than defense. The village lies over a dormant ley line energy node. Forsaken spies and Deathstalkers watching the town have learned that Dalaran's magi are trying to awaken the nexus for large-scale arcane work. The surge could threaten the Forsaken's fragile hold on Silverpine Forest. Shadow Priest Allister and the Deathstalkers are working to stop them through sabotage, stolen Kirin Tor documents, and assassinations across the mill grounds.",
+   "body": "Ambermill draws the Kirin Tor for more than defense. Beneath the village lies a dormant ley line energy node. Forsaken spies and Deathstalkers watching the town have learned that Dalaran's magi are trying to awaken the nexus for large-scale arcane work.\n\nThe surge could threaten the Forsaken's fragile hold on Silverpine Forest. Shadow Priest Allister and the Deathstalkers are working to stop them through sabotage, stolen Kirin Tor documents, and assassinations across the mill grounds.",
    "spoiler": 1
   }
  ],
@@ -84,5 +84,5 @@
  "attribution": [
   "Ambermill"
  ],
- "style": 1
+ "style": 2
 }

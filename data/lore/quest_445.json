@@ -17,16 +17,16 @@
   "wiki": "Delivery to Silverpine Forest",
   "chain": []
  },
- "summary": "You carry Apothecary Johaan’s findings from Brill to Apothecary Renferrel at the Sepulcher. The Royal Apothecary Society needs them for its work on the New Plague.",
+ "summary": "You carry Apothecary Johaan’s findings from Brill to Renferrel at the Sepulcher in Silverpine Forest. The Royal Apothecary Society needs them for its work on the New Plague.",
  "sections": [
   {
    "title": "A Society Bound by Purpose",
-   "body": "The Royal Apothecary Society answers directly to Lady Sylvanas Windrunner and works to concoct a New Plague that can wipe out the living and the Scourge. Its laboratories are scattered across Forsaken territory, so researchers must share their findings to keep their work moving. In Brill, Apothecary Johaan has gathered experimental results for other field researchers. You carry them south to Renferrel at the Sepulcher.",
+   "body": "Lady Sylvanas Windrunner commands the Royal Apothecary Society, which seeks a New Plague that can wipe out the living and the Scourge. Its laboratories lie across Forsaken territory, so researchers share their findings to keep the work moving. In Brill, Apothecary Johaan has gathered experimental results for other field researchers. You carry them south to Renferrel at the Sepulcher.",
    "spoiler": 0
   },
   {
    "title": "Outpost in the South",
-   "body": "Silverpine Forest is the next frontier of Forsaken expansion and research. Apothecary Renferrel works from the Sepulcher, where he oversees biochemical testing amid threats from Moonrage worgen, rogue humans, and the lingering Scourge. He receives Johaan’s notes from Tirisfal Glades and folds their alchemical findings into his own local experiments, advancing the Society’s design.",
+   "body": "Silverpine Forest is the next frontier of Forsaken expansion and research. Apothecary Renferrel works from the Sepulcher, overseeing biochemical tests amid threats from Moonrage worgen, rogue humans, and the lingering Scourge. He receives Johaan’s notes from Tirisfal Glades and adds their alchemical findings to his own experiments, advancing the Society’s design.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "johaan notes",
     "why send research"
    ],
-   "answer": "The Royal Apothecary Society expects its members to share discoveries so they can speed the creation of the New Plague. Johaan sends his latest findings from Tirisfal Glades south for other researchers to build on."
+   "answer": "The Royal Apothecary Society expects its members to share discoveries and speed the creation of the New Plague. Johaan sends his latest findings from Tirisfal Glades for other researchers to build on."
   },
   {
    "q": "Where is the Sepulcher located?",
@@ -56,7 +56,7 @@
     "who is renferrel",
     "renferrel silverpine"
    ],
-   "answer": "Apothecary Renferrel is a prominent member of the Royal Apothecary Society stationed at the Sepulcher. He directs field testing and studies exotic ingredients found throughout Silverpine Forest, then reports to the Society’s leaders in the Undercity."
+   "answer": "Apothecary Renferrel is a prominent member of the Royal Apothecary Society stationed at the Sepulcher. He directs field tests and studies exotic ingredients found throughout Silverpine Forest, then reports to the Society’s leaders in the Undercity."
   },
   {
    "q": "What is the New Plague mentioned by Johaan?",
@@ -65,7 +65,7 @@
     "sylvanas plague",
     "what plague"
    ],
-   "answer": "The New Plague is an alchemical contagion the Royal Apothecary Society is developing under Lady Sylvanas Windrunner’s orders. It is designed to eradicate living enemies and the undead minions of the Lich King."
+   "answer": "The New Plague is an alchemical contagion the Royal Apothecary Society develops under Lady Sylvanas Windrunner’s orders. It is designed to eradicate living enemies and the undead minions of the Lich King."
   },
   {
    "q": "What is the Necropolis Renferrel mentions?",
@@ -82,13 +82,13 @@
     "why me courier",
     "why adventurer messenger"
    ],
-   "answer": "Forsaken couriers face dangerous roads with feral worgen, aggressive wildlife, and hostile human survivors. An able-bodied adventurer can carry the delicate alchemical notes safely to the Sepulcher and lend a hand with work in the region."
+   "answer": "Forsaken couriers face dangerous roads with feral worgen, aggressive wildlife, and hostile human survivors. An able-bodied adventurer can carry the delicate alchemical notes safely to the Sepulcher and help with work in the region."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, carrying this research serves Lady Sylvanas and the survival of the Forsaken. It helps advance the Royal Apothecary Society’s central ambition."
+   "text": "As an Undead, you carry this research in service to Lady Sylvanas and the survival of the Forsaken. It helps advance the Royal Apothecary Society’s central ambition."
   },
   {
    "target": "faction:Horde",
@@ -118,5 +118,5 @@
  "attribution": [
   "Delivery to Silverpine Forest"
  ],
- "style": 1
+ "style": 2
 }
