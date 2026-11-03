@@ -17,16 +17,16 @@
   "wiki": "Buzzbox 525 (quest)",
   "chain": []
  },
- "summary": "Along Darkshore’s coast, Buzzbox 525 waits for the last of Wizbang Cranktoggle’s strange requests. The gnome’s scattered machines call for animal remnants and ever stranger materials.",
+ "summary": "Along Darkshore's coast, Wizbang Cranktoggle's scattered machines await the last of his strange requests. Buzzbox 525 calls for animal remnants and stranger materials.",
  "sections": [
   {
    "title": "A Slurred Transmission",
-   "body": "After Buzzbox 323 is serviced, its rattling speakers carry Wizbang Cranktoggle’s garbled instructions. His words slur through drunken chuckles and rambling directions, sending his helpers far south along Darkshore’s main road. He asks them to hunt grizzled thistle bears and place four thick scalps in Buzzbox 525’s compartment. The machine is concealed behind a fence in the brush beside the road.",
+   "body": "Once Buzzbox 323 is serviced, its rattling speakers carry Wizbang Cranktoggle's garbled instructions. His words slur through drunken chuckles and rambling directions. He sends his helpers far south along Darkshore's main road. There, he asks them to hunt grizzled thistle bears and place four thick scalps in Buzzbox 525's compartment. The machine is concealed behind a fence in the brush beside the road.",
    "spoiler": 0
   },
   {
    "title": "The Distiller's Secret",
-   "body": "Wizbang Cranktoggle’s voice comes from Buzzbox 525, where raucous singing drowns the hum of the machinery. When the grizzled bear scalps go into the receptacle, Wizbang admits what his machines are for. His contraptions carry messages, but they also brew and distill liquor. Night elves do not welcome his trade in their towns, so he hid the machines in the wilds. The bear scalps feed the brewing of potent thistle bear beer.",
+   "body": "Raucous singing drowns the machinery's hum as Wizbang Cranktoggle speaks through Buzzbox 525. When the grizzled bear scalps go into the receptacle, Wizbang admits what his machines are for. They carry messages, but they also brew and distill liquor. Night elves do not welcome his trade in their towns, so he hid the machines in the wilds. The bear scalps feed the brewing of potent thistle bear beer.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is buzzbox 525",
     "buzzbox 525 find"
    ],
-   "answer": "Buzzbox 525 lies far south along the main road from Auberdine, just off the path near a rustic fence, partly hidden beneath bushes."
+   "answer": "Buzzbox 525 lies far south along the main road from Auberdine, just off the path near a rustic fence and partly hidden beneath bushes."
   },
   {
    "q": "Why does Wizbang want grizzled scalps?",
@@ -47,7 +47,7 @@
     "buzzbox bear scalps",
     "what are scalps for"
    ],
-   "answer": "Wizbang says the grizzled scalps are needed to repair Buzzbox 525, as earlier machines needed crawler legs, thresher eyes, and moonstalker fangs. A drunken song about thistle bear beer suggests another use for them."
+   "answer": "Wizbang says grizzled scalps are needed to repair Buzzbox 525, as earlier machines needed crawler legs, thresher eyes, and moonstalker fangs. A drunken song about thistle bear beer hints at another use for them."
   },
   {
    "q": "Why does Wizbang hide the Buzzboxes out in the wilderness?",
@@ -56,7 +56,7 @@
     "why hide buzzbox",
     "wizbang secret"
    ],
-   "answer": "Wizbang placed the machines outside Auberdine and depends on travelers to reach them. Buzzbox 525 reveals that he hid them because night elves do not welcome his liquor trade in their towns."
+   "answer": "Wizbang placed the machines outside Auberdine and depends on travelers to reach them. Night elves do not welcome his liquor trade in their towns, so he hid the machines in the wilds."
   },
   {
    "q": "Who is speaking through the Buzzbox?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know Darkshore’s strict stewardship leaves little patience for reckless gnomish tinkering."
+   "text": "As a night elf, you know Darkshore's strict stewardship leaves little patience for reckless gnomish tinkering."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can recognize Wizbang’s ambition in machines that mix complex engineering with questionable practical priorities."
+   "text": "As a gnome, you can recognize Wizbang's ambition in machines that mix complex engineering with questionable practical priorities."
   }
  ],
  "keywords": [
@@ -111,5 +111,5 @@
  "attribution": [
   "Buzzbox 525 (quest)"
  ],
- "style": 1
+ "style": 2
 }

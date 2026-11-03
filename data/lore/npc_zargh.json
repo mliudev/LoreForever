@@ -8,16 +8,16 @@
   "wiki": "Zargh",
   "refs": 2
  },
- "summary": "At the Crossroads in the Barrens, Zargh sells meat and sends choice cuts to Orgrimmar.",
+ "summary": "At the Crossroads, Zargh provisions travelers bound for the Barrens wilds and sends choice cuts to Orgrimmar.",
  "sections": [
   {
    "title": "Butcher of the Crossroads",
-   "body": "At the Crossroads, Zargh sells cured meat, shank, and game from the surrounding plains. Travelers heading into the wilderness can find provisions at his shop. He also sends choice cuts across Durotar to Innkeeper Gryshka in the Valley of Strength in Orgrimmar.",
+   "body": "At the Crossroads, Zargh sells cured meat, shank, and game from the surrounding plains. Travelers setting out into the wilderness can stock up at his shop. He also sends choice cuts across Durotar to Innkeeper Gryshka in the Valley of Strength in Orgrimmar.",
    "spoiler": 0
   },
   {
    "title": "A Courier's Errand",
-   "body": "Zargh sends fresh meat to Innkeeper Gryshka in Orgrimmar by wind rider, so it reaches her before it spoils. A letter from Gryshka recalls that Zargh lost a finger in a mishap. After receiving word from her, Zargh hints that a wedding invitation may be in the traveler's future.",
+   "body": "By wind rider, Zargh sends fresh meat to Innkeeper Gryshka in Orgrimmar before it can spoil. In a letter, Gryshka recalls that Zargh lost a finger in a mishap. After her word reaches him, Zargh hints that a wedding invitation may be in your future.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "zargh relationship",
     "who is zargh marrying"
    ],
-   "answer": "Zargh supplies Innkeeper Gryshka in Orgrimmar with choice meats from the Barrens. Their letters suggest a warm, personal bond, and after one arrives, Zargh hints that a wedding invitation may be coming."
+   "answer": "Zargh supplies Innkeeper Gryshka in Orgrimmar with choice meats from the Barrens. Their letters show a warm, personal bond. After one arrives, Zargh hints that a wedding invitation may be coming."
   },
   {
    "q": "What happened to Zargh's finger?",
@@ -64,7 +64,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can see how the route between the Crossroads and Orgrimmar uses wind riders to carry messengers between the Barrens and Durotar."
+   "text": "As a member of the Horde, you can see wind riders carry messengers along the route between the Crossroads and Orgrimmar, linking the Barrens and Durotar."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Zargh"
  ],
- "style": 1
+ "style": 2
 }

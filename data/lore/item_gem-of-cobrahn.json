@@ -10,16 +10,16 @@
    "quest:914"
   ]
  },
- "summary": "The Gem of Cobrahn is a dream gem carried by Lord Cobrahn, one of the corrupt leaders of the Druids of the Fang within the Wailing Caverns. It serves as both a focus of his corrupted reverie and physical proof needed by Nara Wildmane to confirm his defeat.",
+ "summary": "In the Wailing Caverns, Lord Cobrahn bears a dream gem shaped by corruption. Nara Wildmane needs it as proof of his defeat.",
  "sections": [
   {
    "title": "A Focus of Corrupted Dreams",
-   "body": "When the night elf druid Naralex entered the Emerald Dream to restore the barren plains of Kalimdor, his nightmare twisted both the Wailing Caverns and his disciples. Among them was Cobrahn, who abandoned the peaceful ways of the Cenarion Circle to take the shape of the serpent. Lord Cobrahn carries one of the four dream gems that anchor the leaders' hold over the subterranean waterways, using it to channel the twisted dreams that threaten to transform the Barrens into a venomous marsh.",
+   "body": "Naralex entered the Emerald Dream to restore Kalimdor's barren plains. His nightmare twisted the Wailing Caverns and turned his disciples from their purpose. Cobrahn forsook the peaceful ways of the Cenarion Circle and took the shape of a serpent. He now carries one of four dream gems that anchor the leaders' hold over the subterranean waterways. Through it, he channels twisted dreams that threaten to make the Barrens a venomous marsh.",
    "spoiler": 0
   },
   {
    "title": "Restoring Balance",
-   "body": "In Thunder Bluff, the tauren druid Nara Wildmane is tormented by nightmares sent by the rogue Druids of the Fang. To cleanse the subterranean springs and protect Kalimdor from their vision, adventurers must delve into the caverns, slay Lord Cobrahn alongside his three conspirators, and recover their dream gems. Returning Cobrahn's gem to the Cenarion druids brings an end to his corrupting influence over the slumbering Naralex.",
+   "body": "Nara Wildmane, a tauren druid in Thunder Bluff, suffers nightmares sent by the rogue Druids of the Fang. She seeks to cleanse the subterranean springs and protect Kalimdor from their vision. Lord Cobrahn and his three conspirators each hold a dream gem. Returning Cobrahn's gem to the Cenarion druids ends his corrupting influence over the sleeping Naralex.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "cobrahn gem",
     "what is cobrahn gem"
    ],
-   "answer": "It is a dream gem held by Lord Cobrahn, a fallen druid who leads the Druids of the Fang inside the Wailing Caverns. It acts as a conduit for his nightmare-twisted powers."
+   "answer": "In the Wailing Caverns, Lord Cobrahn carries the Gem of Cobrahn. The dream gem channels his nightmare-twisted power."
   },
   {
    "q": "Who wants the Gem of Cobrahn?",
@@ -40,7 +40,7 @@
     "cobrahn gem turn in",
     "who takes cobrahn gem"
    ],
-   "answer": "Nara Wildmane, a tauren druid located on the Elder Rise in Thunder Bluff, asks for the gem along with three others to put an end to the Druids of the Fang."
+   "answer": "Nara Wildmane, a tauren druid on the Elder Rise in Thunder Bluff, wants the Gem of Cobrahn and three others to end the Druids of the Fang."
   },
   {
    "q": "How many gems are needed to complete the quest?",
@@ -49,7 +49,7 @@
     "leaders of the fang gems",
     "all fang gems"
    ],
-   "answer": "Four gems are required: the Gem of Cobrahn, the Gem of Anacondra, the Gem of Pythas, and the Gem of Serpentis, each held by one of the four serpent leaders in the caverns."
+   "answer": "Four gems are needed: the Gem of Cobrahn, the Gem of Anacondra, the Gem of Pythas, and the Gem of Serpentis. Each is held by one of the four serpent leaders in the caverns."
   },
   {
    "q": "Who is Lord Cobrahn?",
@@ -58,17 +58,17 @@
     "lord cobrahn lore",
     "cobrahn"
    ],
-   "answer": "Lord Cobrahn was once a disciple of Naralex. When Naralex's vision turned into a nightmare, Cobrahn and several other druids embraced the form of the serpent and formed the Druids of the Fang."
+   "answer": "Lord Cobrahn was once a disciple of Naralex. When Naralex's vision became a nightmare, Cobrahn and several other druids took serpent form and formed the Druids of the Fang."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For Cenarion druids, reclaiming the Gem of Cobrahn marks the tragic but necessary end of a fallen brother who abandoned the harmony of nature for the Emerald Nightmare."
+   "text": "As a Cenarion druid, reclaiming the Gem of Cobrahn marks the tragic but necessary end of a fallen brother who left nature's harmony for the Emerald Nightmare."
   },
   {
    "target": "race:Tauren",
-   "text": "The druids of Thunder Bluff watch the Barrens closely; taking Cobrahn's gem directly safeguards the plains and hunting grounds from unnatural corruption."
+   "text": "As a tauren, you know the druids of Thunder Bluff watch the Barrens closely. Taking Cobrahn's gem directly protects the plains and hunting grounds from unnatural corruption."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Gem of Cobrahn",
   "Leaders of the Fang"
- ]
+ ],
+ "style": 2
 }

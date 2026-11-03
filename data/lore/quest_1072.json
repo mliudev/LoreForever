@@ -17,16 +17,16 @@
   "wiki": "An Old Colleague",
   "chain": []
  },
- "summary": "In the Stonetalon Mountains, Gaxim Rustfizzle seeks a powerful device and the means to fuel it. The gnome engineer sends you across the sea to Ironforge, where his old acquaintance Lomac Gearstrip can make a hazardous explosive compound called Nitromirglyceronium.",
+ "summary": "In the Stonetalon Mountains, Gaxim Rustfizzle seeks fuel for a powerful device. He sends you across the sea to Ironforge, where his old acquaintance Lomac Gearstrip can make the hazardous explosive Nitromirglyceronium.",
  "sections": [
   {
    "title": "A Volatile Recipe",
-   "body": "In the Stonetalon Mountains, Gaxim Rustfizzle plans his most ambitious engineering work yet. A mechanism of that scale needs fuel stronger than ordinary gunpowder or crude oil. He needs Nitromirglyceronium, also called NG-5, an explosive mix potent enough to ensure destruction if all goes according to plan.",
+   "body": "Gaxim Rustfizzle is planning his boldest engineering work yet in the Stonetalon Mountains. A mechanism of that scale needs fuel stronger than ordinary gunpowder or crude oil. He needs Nitromirglyceronium, also called NG-5. It is an explosive mix potent enough to ensure destruction if all goes according to plan.",
    "spoiler": 0
   },
   {
    "title": "Tinker Town Connection",
-   "body": "Only one person Gaxim knows can refine NG-5: his old acquaintance Lomac Gearstrip. Lomac lives far to the east, in Tinker Town, the gnome quarter deep inside Ironforge. You make the long journey as Gaxim's courier, but Lomac greets you with immediate suspicion and paranoid questions.",
+   "body": "Lomac Gearstrip is the only person Gaxim knows who can refine NG-5. His old acquaintance lives far to the east in Tinker Town, the gnome quarter deep inside Ironforge. You make the long journey as Gaxim's courier. Lomac greets you with suspicion and paranoid questions.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "lomac gearstrip location",
     "ironforge lomac"
    ],
-   "answer": "Lomac Gearstrip lives in Tinker Town, the gnome quarter in the eastern part of Ironforge."
+   "answer": "Lomac Gearstrip lives in Tinker Town, the gnome quarter in eastern Ironforge."
   },
   {
    "q": "What is Nitromirglyceronium?",
@@ -56,7 +56,7 @@
     "nitromirglyceronium",
     "ng 5"
    ],
-   "answer": "Nitromirglyceronium, or NG-5, is an extremely volatile chemical explosive that Lomac Gearstrip can make and Gaxim Rustfizzle wants for his powerful devices."
+   "answer": "Nitromirglyceronium, or NG-5, is an extremely volatile chemical explosive Lomac Gearstrip can make. Gaxim Rustfizzle wants it for his powerful devices."
   },
   {
    "q": "Why does Gaxim send me all the way to Ironforge?",
@@ -65,7 +65,7 @@
     "why lomac",
     "why go to tinker town"
    ],
-   "answer": "Gaxim says Lomac Gearstrip is the only person who can make the specialized NG-5 compound his experimental device needs for fuel."
+   "answer": "Gaxim says Lomac Gearstrip is the only one who can make the specialized NG-5 compound his experimental device needs for fuel."
   },
   {
    "q": "What happens after finding Lomac Gearstrip?",
@@ -74,7 +74,7 @@
     "what comes after an old colleague",
     "followup quest"
    ],
-   "answer": "After you confirm Gaxim's request, the suspicious Lomac gives you Ineptitude + Chemicals = Fun, which calls for hazardous reagents to mix the batch."
+   "answer": "After you confirm Gaxim's request, the suspicious Lomac gives you Ineptitude + Chemicals = Fun. It calls for hazardous reagents to mix the batch."
   },
   {
    "q": "Which faction can undertake this task?",
@@ -83,7 +83,7 @@
     "horde version",
     "can horde do this"
    ],
-   "answer": "Only Alliance adventurers can take on this work. It begins with the Alliance gnome Gaxim in Stonetalon and leads to the Alliance capital of Ironforge."
+   "answer": "Only Alliance adventurers can undertake this work. It begins with the Alliance gnome Gaxim in Stonetalon and leads to Ironforge, the Alliance capital."
   }
  ],
  "angles": [
@@ -121,5 +121,5 @@
  "attribution": [
   "An Old Colleague"
  ],
- "style": 1
+ "style": 2
 }

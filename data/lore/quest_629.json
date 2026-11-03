@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Stranglethorn Vale"
  },
- "summary": "Kin'weelay at Grom'gol Base Camp seeks a piece of an ancient stone tablet resting deep beneath the Savage Coast. The sunken city, known as the Vile Reef, is infested with aggressive murlocs and holds the legendary history of Gri'lek, which the Darkspear tribe wishes to preserve in Orgrimmar.",
+ "summary": "Beneath the Savage Coast, Kin'weelay seeks a shard from the sunken troll city. He hopes to carry Gri'lek's story to Orgrimmar, where the Darkspear can preserve it.",
  "sections": [
   {
    "title": "Sunken Legends",
-   "body": "Northwest of Grom'gol Base Camp, an ancient troll city slipped beneath the waters along the Savage Coast when a violent earthquake shattered the land long ago. Now referred to as the Vile Reef, its flooded ruins crawl with hostile murlocs that assault anyone venturing near. Resting on the sea floor among the ruins is a massive stone tablet carved with the story of Gri'lek, a legendary troll hero whose memory remains sacred to the Darkspear.",
+   "body": "Northwest of Grom'gol Base Camp, the Savage Coast hides an ancient troll city beneath the water. A violent earthquake shattered the land long ago and sank the city. Now called the Vile Reef, its flooded ruins are home to hostile murlocs who attack anyone who ventures near.\n\nOn the sea floor rests a massive stone tablet carved with the story of Gri'lek. He was a legendary troll hero, and the Darkspear still hold his memory sacred.",
    "spoiler": 0
   },
   {
    "title": "A Keepsake for Orgrimmar",
-   "body": "Because the full monument is far too massive to carry away from the depths, Kin'weelay asks you to break off a shard from the stone. He intends to carry this fragment back to Orgrimmar, enshrining it in a sacred place so the Darkspear will never forget the strength and honor of Gri'lek.",
+   "body": "The monument is too massive to carry from the depths, so Kin'weelay asks you to break off a shard. He plans to take the fragment to Orgrimmar and enshrine it in a sacred place. There, the Darkspear can keep Gri'lek's strength and honor in their memory.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "where is vile reef",
     "how to find vile reef"
    ],
-   "answer": "The Vile Reef lies underwater along the Savage Coast, northwest of Grom'gol Base Camp in Stranglethorn Vale."
+   "answer": "The Vile Reef lies beneath the Savage Coast, northwest of Grom'gol Base Camp in Stranglethorn Vale."
   },
   {
    "q": "Why does Kin'weelay want the tablet shard?",
@@ -48,7 +48,7 @@
     "tablet shard purpose",
     "why griklek tablet"
    ],
-   "answer": "The tablet preserves the sacred story of the troll hero Gri'lek. Kin'weelay plans to bring the shard back to Orgrimmar and place it in a sacred site so the Darkspear tribe can honor their heritage in their new home."
+   "answer": "The tablet preserves the sacred story of Gri'lek, a troll hero. Kin'weelay plans to bring a shard to Orgrimmar and place it in a sacred site, keeping the Darkspear's memory of him alive in their new home."
   },
   {
    "q": "What happened to the ancient city at the Vile Reef?",
@@ -57,7 +57,7 @@
     "how did vile reef sink",
     "sunken troll city history"
    ],
-   "answer": "Long ago, a tremendous earthquake shook the Savage Coast and caused the entire troll city to sink beneath the ocean waves."
+   "answer": "Long ago, a tremendous earthquake shook the Savage Coast and sank the entire troll city beneath the ocean."
   },
   {
    "q": "What creatures inhabit the Vile Reef now?",
@@ -66,7 +66,7 @@
     "vile reef enemies",
     "who lives in vile reef"
    ],
-   "answer": "Hostile murlocs have made their home among the submerged ruins and attack anyone who approaches the sunken city."
+   "answer": "Hostile murlocs inhabit the submerged ruins and attack anyone who approaches the sunken city."
   },
   {
    "q": "Who is Gri'lek?",
@@ -75,7 +75,7 @@
     "grilek lore",
     "hero griklek"
    ],
-   "answer": "Gri'lek is a legendary troll hero whose history was carved upon the sunken tablet beneath the Savage Coast and is held sacred by the Darkspear."
+   "answer": "Gri'lek is a legendary troll hero whose story was carved on the tablet beneath the Savage Coast. The Darkspear hold his memory sacred."
   },
   {
    "q": "Why take only a shard instead of the whole tablet?",
@@ -84,17 +84,17 @@
     "can we take whole tablet",
     "bring whole tablet"
    ],
-   "answer": "The carved monument on the ocean floor is far too immense to haul up from the ruins, so retrieving a single broken piece is the only practical way to bring the legend back to Orgrimmar."
+   "answer": "The carved monument on the ocean floor is too massive to carry from the ruins. A single shard can be brought back to Orgrimmar."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear, retrieving this fragment keeps their ancient traditions and reverence for the great hero Gri'lek alive in their new home in Orgrimmar."
+   "text": "For the Darkspear, this fragment keeps their ancient traditions and reverence for the great hero Gri'lek alive in their new home in Orgrimmar."
   },
   {
    "target": "faction:Horde",
-   "text": "Helping Kin'weelay recover this relic for Orgrimmar strengthens the bond of trust between the Horde and the Darkspear tribe."
+   "text": "By helping Kin'weelay recover this relic for Orgrimmar, you strengthen the bond of trust between the Horde and the Darkspear tribe."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  "attribution": [
   "The Vile Reef (quest)",
   "In-game quest text: The Vile Reef"
- ]
+ ],
+ "style": 2
 }

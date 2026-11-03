@@ -8,16 +8,16 @@
   "wiki": "Tsunaman",
   "refs": 1
  },
- "summary": "At Sun Rock Retreat, Tsunaman watches the currents of Kalimdor for signs of unrest. He works with the Horde against forces that threaten the waters.",
+ "summary": "At Sun Rock Retreat, Tsunaman watches Kalimdor’s currents for signs of unrest. He works with the Horde against forces that threaten the waters.",
  "sections": [
   {
    "title": "Agent of the Tides",
-   "body": "Near the path from Sun Rock Retreat down to the Charred Vale, Tsunaman serves the Tribunal of the Tides, high-ranking servants aligned with the Tidehunter, Neptulon. He works with the Horde to watch for elemental unrest throughout Kalimdor, especially disturbances spreading from the submerged caverns of Blackfathom Deeps.",
+   "body": "Near the path from Sun Rock Retreat to the Charred Vale, Tsunaman serves the Tribunal of the Tides. Its high-ranking members are aligned with Neptulon, the Tidehunter. With the Horde, Tsunaman watches for elemental unrest across Kalimdor, especially disturbances spreading from the submerged caverns of Blackfathom Deeps.",
    "spoiler": 0
   },
   {
    "title": "Hatred of Flame",
-   "body": "Tsunaman hates fire in every form. The burning lands of the Charred Vale and incursions by fire elementals keep him fuming. Around camp, he sometimes marches to nearby cooking fires and campfires and smacks them out with a heavy fist of water.",
+   "body": "Tsunaman hates fire in every form. The burning lands of the Charred Vale and incursions by fire elementals keep him fuming. Around camp, he sometimes marches to nearby cooking fires and campfires, then smacks them out with a heavy fist of water.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why does tsunaman hit fire",
     "water elemental campfire"
    ],
-   "answer": "Tsunaman despises fire elementals and fire itself. At Sun Rock Retreat, he sometimes stomps over to travelers' campfires and extinguishes them with a watery strike."
+   "answer": "Tsunaman despises fire itself and fire elementals. At Sun Rock Retreat, he sometimes stomps over to travelers’ campfires and extinguishes them with a watery strike."
   },
   {
    "q": "What is the Tribunal of the Tides?",
@@ -46,7 +46,7 @@
     "tribunal of the tides",
     "who does tsunaman serve"
    ],
-   "answer": "The Tribunal of the Tides is an order of powerful elemental lieutenants aligned with Neptulon the Tidehunter, the Elemental Lord of water. They oversee aquatic domains and respond to disruptions in the world's waters."
+   "answer": "The Tribunal of the Tides is an order of powerful elemental lieutenants aligned with Neptulon the Tidehunter, the Elemental Lord of water. Its members oversee aquatic domains and respond to disruptions in the world’s waters."
   },
   {
    "q": "Why is Tsunaman interested in Blackfathom Deeps?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman seeking to understand and commune with the elements, you can speak directly with an emissary of the Tidehunter's court through Tsunaman."
+   "text": "As a shaman seeking to understand and commune with the elements, you can speak directly with an emissary of the Tidehunter’s court through Tsunaman."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can work with Tsunaman at Sun Rock Retreat against elemental imbalance and cultist intrusion in Kalimdor's waters."
+   "text": "As a member of the Horde, you can work with Tsunaman at Sun Rock Retreat against elemental imbalance and cultist intrusion in Kalimdor’s waters."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Tsunaman"
  ],
- "style": 1
+ "style": 2
 }

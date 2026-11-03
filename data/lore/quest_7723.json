@@ -15,16 +15,16 @@
   "previous": "",
   "next": ""
  },
- "summary": "Hansel Heavyhands, in the Searing Gorge, can no longer dish out beatings as before, thanks to swollen fingers. Hansel asks you to go pound the heavy war golems for them.",
+ "summary": "In the Searing Gorge, Hansel Heavyhands can no longer deliver beatings as before. Swollen fingers leave Hansel asking you to pound the heavy war golems instead.",
  "sections": [
   {
    "title": "Fingers Like Sausages",
-   "body": "Hansel Heavyhands says the climate in the Gorge, with its thin air, makes Hansel's fingers swell until they resemble huge Thelsamar blood sausages. As a result, Hansel cannot deliver beatings the way Hansel used to, and needs you to see to Hansel's business instead.",
+   "body": "Hansel Heavyhands blames the Searing Gorge climate and its thin air for swelling their fingers. They resemble huge Thelsamar blood sausages. With fingers like these, Hansel can no longer deliver beatings as before, so they need you to handle their business.",
    "spoiler": 0
   },
   {
    "title": "First on the List",
-   "body": "First on Hansel's agenda are the heavy war golems of the Gorge, which Hansel wants pounded hard. Twenty of them are to be destroyed. They roam the areas around the Cauldron, and you return to Hansel once enough have fallen.",
+   "body": "Hansel wants you to pound the Gorge's heavy war golems hard. Twenty must be destroyed. They roam the areas around the Cauldron, and you return to Hansel once enough have fallen.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "who gives curse these fat fingers",
     "who is the quest giver"
    ],
-   "answer": "Someone in the Searing Gorge whose swollen fingers keep them from fighting, so they ask you to do the pounding."
+   "answer": "Hansel Heavyhands is in the Searing Gorge, where swollen fingers keep them from fighting. Hansel asks you to do the pounding instead."
   },
   {
    "q": "Why can Hansel not fight the golems personally?",
@@ -45,7 +45,7 @@
     "fat fingers lore",
     "hansel swollen hands"
    ],
-   "answer": "Hansel blames the climate and the thin air of the Gorge for swelling their fingers, which they liken to huge Thelsamar blood sausages."
+   "answer": "Hansel blames the Searing Gorge climate and thin air for swelling their fingers. They liken them to huge Thelsamar blood sausages."
   },
   {
    "q": "What foes must be dealt with?",
@@ -53,7 +53,7 @@
     "what enemies do i fight",
     "what does hansel want dead"
    ],
-   "answer": "Twenty heavy war golems."
+   "answer": "You must destroy twenty heavy war golems."
   },
   {
    "q": "Where are the heavy war golems located?",
@@ -61,7 +61,7 @@
     "where are the golems",
     "heavy war golem location"
    ],
-   "answer": "They roam the areas around the Cauldron, in the Searing Gorge."
+   "answer": "The heavy war golems roam the areas around the Cauldron in the Searing Gorge."
   }
  ],
  "angles": [],
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Classic quest text: Curse These Fat Fingers"
- ]
+ ],
+ "style": 2
 }

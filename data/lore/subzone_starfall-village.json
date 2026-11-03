@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Starfall Village"
  },
- "summary": "Starfall Village is a tranquil night elven sanctuary nestled along the snowy road of Winterspring. As the sole Alliance outpost in the frozen valley, it offers shelter and supplies to travelers braving the bitter northern chill. It also stands watch over the nearby barrow den.",
+ "summary": "Night elves shelter travelers at Starfall Village, the Alliance outpost on Winterspring’s snowy road. It offers supplies in the frozen valley and watches over a nearby barrow den.",
  "sections": [
   {
    "title": "An Alliance Refuge in the Snow",
-   "body": "Situated northwest of the goblin trading post of Everlook and south of Frostsaber Rock, Starfall Village represents the lone bastion of Alliance civilization in Winterspring. Composed of traditional night elven timber lodges, the settlement serves as a haven for wayfarers, providing critical supplies and a warm hearth amid the harsh mountain elements. Despite its peaceful appearance, the village remains ever vigilant, positioned adjacent to a quiet, unoccupied barrow den.",
+   "body": "Northwest of Everlook and south of Frostsaber Rock, Starfall Village gives wayfarers shelter in Winterspring’s harsh mountain cold. Its timber lodges offer supplies and a warm hearth. The village is the Alliance’s only outpost in the valley, and a quiet barrow den nearby stands empty.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "starfall town",
     "what is this place"
    ],
-   "answer": "Starfall Village is a night elven enclave in Winterspring. It functions as the primary sanctuary and supply camp for the Alliance in the valley, providing lodging, trade, and guidance for scouts journeying toward Frostsaber Rock or investigating the nearby barrow dens."
+   "answer": "Starfall Village is a night elven refuge in Winterspring and the Alliance’s main sanctuary in the valley. It offers lodging, trade, and guidance to scouts bound for Frostsaber Rock or looking into nearby barrow dens."
   },
   {
    "q": "Can Horde players use the amenities in Starfall Village?",
@@ -32,7 +32,7 @@
     "can horde use starfall",
     "starfall village horde"
    ],
-   "answer": "No. Starfall Village is aligned strictly with the night elves and the Alliance. Horde travelers who stumble too close will be met with hostility by the local defenders."
+   "answer": "No. Starfall Village is held by the night elves and the Alliance. Horde travelers who come too close meet hostility from its defenders."
   },
   {
    "q": "What is the barrow den next to the village?",
@@ -40,7 +40,7 @@
     "barrow den starfall",
     "cave next to starfall"
    ],
-   "answer": "The cavern directly behind the village is an empty barrow den. Such sanctuaries traditionally shelter druids while their spirits walk the Emerald Dream, but no druids are sleeping here."
+   "answer": "The cavern directly behind Starfall Village is an empty barrow den. Barrows traditionally shelter druids while their spirits walk the Emerald Dream, but no druids sleep here."
   },
   {
    "q": "Where is Starfall Village located?",
@@ -49,17 +49,17 @@
     "how to get to starfall",
     "where is starfall"
    ],
-   "answer": "The village sits along the main snow-covered road through Winterspring, situated northwest of the goblin settlement of Everlook and south of Frostsaber Rock."
+   "answer": "Starfall Village sits along Winterspring’s main snow-covered road, northwest of Everlook and south of Frostsaber Rock."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As the only Alliance settlement in Winterspring, Starfall Village offers vital respite, trade goods, and directions in an otherwise treacherous and remote highland wilderness."
+   "text": "As the only Alliance settlement in Winterspring, Starfall Village offers vital respite, trade goods, and directions in the remote, treacherous highlands."
   },
   {
    "target": "race:NightElf",
-   "text": "For the night elves, Starfall is an important northern outpost that stands beside a quiet, unoccupied barrow den."
+   "text": "For the night elves, Starfall is an important northern outpost beside a quiet, unoccupied barrow den."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Starfall Village"
- ]
+ ],
+ "style": 2
 }

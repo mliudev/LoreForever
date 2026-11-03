@@ -28,16 +28,16 @@
    "Fate of Yenniku"
   ]
  },
- "summary": "At Grom'gol Base Camp, the head of Nezzliok speaks from the bubbling cauldron, ready to tell what became of the young Darkspear troll Yenniku. Kin'weelay stands beside the pot, waiting to hear the spirit's words.",
+ "summary": "At Grom'gol Base Camp, Nezzliok's head speaks of Yenniku from the cauldron. Kin'weelay waits beside it for the spirit's words.",
  "sections": [
   {
    "title": "Words from the Kettle",
-   "body": "Having placated the spirits of Gan'zulah and Nezzliok, you listen as the head within the bubbling cauldron finally imparts its secret. Kin'weelay stands right beside the cauldron, waiting to hear it.",
+   "body": "You've appeased the spirits of Gan'zulah and Nezzliok. Now Nezzliok's head speaks from the bubbling cauldron. Kin'weelay waits beside it to hear the secret.",
    "spoiler": 0
   },
   {
    "title": "What the Head Revealed",
-   "body": "Nezzliok declares that Yenniku is lost to his clan, taken by the witch doctor Zanzil the Outcast. Zanzil has bound the boy completely, and nothing short of very strong magic will free him. Kin'weelay, hearing it, is left with only a faint hope.",
+   "body": "Nezzliok names Zanzil the Outcast, a witch doctor, as the one who took Yenniku from his clan. Strong magic alone can free the boy from Zanzil's binding. Kin'weelay hears the words, with only a faint hope left.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who reveals fate of yenniku",
     "cauldron voice"
    ],
-   "answer": "The head of Nezzliok speaks through the bubbling cauldron to disclose what happened to Yenniku."
+   "answer": "Nezzliok's head speaks through the bubbling cauldron and tells what happened to Yenniku."
   },
   {
    "q": "Who should be informed of Nezzliok's words?",
@@ -58,13 +58,13 @@
     "turn in fate of yenniku",
     "kin'weelay location"
    ],
-   "answer": "Kin'weelay, who stands right beside the bubbling cauldron at the northern edge of Grom'gol Base Camp, needs to hear what Nezzliok revealed."
+   "answer": "Kin'weelay waits beside the bubbling cauldron at the northern edge of Grom'gol Base Camp. Nezzliok's words are meant for Kin'weelay."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Recovering the chief's son is vital for the Darkspear tribe and their allies stationed within Grom'gol Base Camp."
+   "text": "As a member of the Horde, you know the Darkspear tribe and its allies at Grom'gol Base Camp care deeply about recovering the chief's son."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "The Fate of Yenniku"
- ]
+ ],
+ "style": 2
 }

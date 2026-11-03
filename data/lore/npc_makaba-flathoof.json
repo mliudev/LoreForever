@@ -8,16 +8,16 @@
   "wiki": "Makaba Flathoof",
   "refs": 4
  },
- "summary": "At Camp Aparaje, Makaba Flathoof has lost his home to the Grimtotem clan. He seeks Horde champions to strike back and keep his family safe.",
+ "summary": "At Camp Aparaje, Makaba Flathoof grieves for the home the Grimtotem took from him. Now he seeks Horde champions to strike back and keep his family safe.",
  "sections": [
   {
    "title": "Tragedy at Camp Aparaje",
-   "body": "Makaba Flathoof grieves for Camp Aparaje, his home in the Stonetalon Mountains. The Grimtotem clan struck without warning and laid the settlement low. Many tauren seek peace and unity under Cairne Bloodhoof, but the Grimtotem keep spreading discord and violence. Makaba is among the survivors left displaced and grieving.",
+   "body": "Makaba Flathoof grieves for Camp Aparaje, his home in the Stonetalon Mountains. Without warning, the Grimtotem clan struck and laid the settlement low. Many tauren seek peace and unity under Cairne Bloodhoof. Yet the Grimtotem spread discord and violence, leaving Makaba among the displaced and grieving survivors.",
    "spoiler": 0
   },
   {
    "title": "A Plea for Vengeance",
-   "body": "Makaba Flathoof calls on Horde travelers to strike back, since he cannot retake Camp Aparaje alone. He wants the Grimtotem who overran his home to face fierce retaliation for the slaughter of his kin. His chief concern is Grundig Darkcloud, the warlord responsible. Makaba believes his daughter, Kaya, was lost in the attack.",
+   "body": "Makaba Flathoof calls on Horde travelers to strike back, for he cannot retake Camp Aparaje alone. He wants fierce retaliation against the Grimtotem who overran his home and slaughtered his kin. His chief concern is Grundig Darkcloud, the warlord responsible. Makaba believes his daughter, Kaya, was lost in the attack.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is makaba flathoof",
     "makaba flathoof lore"
    ],
-   "answer": "Makaba Flathoof is a tauren survivor from Camp Aparaje in the Stonetalon Mountains. The Grimtotem clan overran his home, and he seeks help from Horde champions."
+   "answer": "Makaba Flathoof survived the Grimtotem attack on Camp Aparaje in the Stonetalon Mountains. He seeks help from Horde champions."
   },
   {
    "q": "Where did Makaba come from?",
@@ -56,7 +56,7 @@
     "what does makaba ask for",
     "makaba tasks"
    ],
-   "answer": "Makaba wants Horde champions to avenge his fallen home by cutting down the Grimtotem at Camp Aparaje and eliminating their leader, Grundig Darkcloud."
+   "answer": "Makaba wants Horde champions to avenge his fallen home by striking the Grimtotem at Camp Aparaje and eliminating their leader, Grundig Darkcloud."
   },
   {
    "q": "Who is Kaya to Makaba?",
@@ -108,5 +108,5 @@
  "attribution": [
   "Makaba Flathoof"
  ],
- "style": 1
+ "style": 2
 }

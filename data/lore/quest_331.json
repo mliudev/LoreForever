@@ -24,16 +24,16 @@
    "Jungle Secrets"
   ]
  },
- "summary": "After obtaining the patrol information, Corporal Sethman directs you back to Lieutenant Doren. Delivering these findings brings crucial military intelligence directly to the rebels' commander in northern Stranglethorn Vale.",
+ "summary": "Corporal Sethman sends you to report the patrol findings to Lieutenant Doren. The rebels' commander receives them at Rebel Camp in northern Stranglethorn Vale.",
  "sections": [
   {
    "title": "Delivering the Intelligence",
-   "body": "Corporal Sethman reminds you that Lieutenant Doren wants a direct report on the patrol information. You must bring what you learned back to Doren.",
+   "body": "Corporal Sethman wants you to give Lieutenant Doren a direct account of the patrol information. Bring back what you learned.",
    "spoiler": 0
   },
   {
    "title": "A Traitor Revealed",
-   "body": "Presenting the patrol information reveals that Merle was the one who betrayed the camp. Lieutenant Doren mourns the loss of a soldier he once considered brave and loyal, yet feels immense relief at rooting out the traitor before Colonel Kurzen could take advantage.",
+   "body": "Lieutenant Doren learns that Merle betrayed the camp when you present the patrol information. He mourns a soldier he once believed brave and loyal. Yet he feels great relief that the traitor is found before Colonel Kurzen can take advantage.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who sends me to doren",
     "report to doren giver"
    ],
-   "answer": "Corporal Sethman sends you to report to Lieutenant Doren once you have gone over the patrol schedules with him."
+   "answer": "Corporal Sethman sends you to Lieutenant Doren after reviewing the patrol schedules with you."
   },
   {
    "q": "What came before this report?",
@@ -54,7 +54,7 @@
     "what is before report to doren",
     "patrol schedules"
    ],
-   "answer": "This follows Patrol Schedules, where Corporal Sethman goes through the patrol schedules for you."
+   "answer": "This follows Patrol Schedules, where Corporal Sethman reviews the patrol schedules with you."
   },
   {
    "q": "Where is this report delivered?",
@@ -63,7 +63,7 @@
     "doren location",
     "where do i go"
    ],
-   "answer": "You deliver the report directly to Lieutenant Doren at the Rebel Camp in northern Stranglethorn Vale."
+   "answer": "You deliver the report to Lieutenant Doren at Rebel Camp in northern Stranglethorn Vale."
   }
  ],
  "angles": [],
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Report to Doren"
- ]
+ ],
+ "style": 2
 }

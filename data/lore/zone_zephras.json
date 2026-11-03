@@ -11,21 +11,21 @@
   "levels": "1-12",
   "aliases": []
  },
- "summary": "Zephras Isle is a flying island suspended within Skywall, the Elemental Plane of air. It serves as the ancestral starting home of the Skyborne, whose society now faces an existential crisis as the island's sustaining magic steadily erodes. With contact severed from neighboring sky-realms, its inhabitants struggle against elemental collapse and arriving refugees.",
+ "summary": "On Zephras Isle, the Skyborne face a homeland slowly coming apart. Air elementals once shared the island with them, but those guardians vanished and the magic that holds the land aloft is fading. Refugees arrive from Anvilas and Siroccas as those islands crumble.",
  "sections": [
   {
    "title": "A Realm Aloft",
-   "body": "Zephras Isle is an isolated landmass adrift in the endless winds of Skywall. For generations, the Skyborne lived here alongside native air elementals who helped preserve the magical currents holding the isle aloft. However, several centuries ago, those elemental stewards vanished entirely. Deprived of their presence and guardianship, the latent enchantments upholding the land have slowly begun to fail, causing Zephras to slowly fracture and destabilize.",
+   "body": "In skywall, the elemental plane of air, the Skyborne have lived on Zephras Isle for generations. Native air elementals once helped preserve the magical currents that keep the island aloft. Several centuries ago, those elementals vanished. Without their presence, the enchantments beneath the land have slowly weakened, and Zephras has begun to fracture.",
    "spoiler": 0
   },
   {
    "title": "Severed Horizons",
-   "body": "Zephras was not the only sanctuary inhabited by the Skyborne within the Elemental Plane. Sister islands known as Anvilas and Siroccas also drifted across Skywall, but communications between them ceased after the elementals vanished. In recent times, refugees from these crumbling neighboring landmasses have managed to reach Zephras seeking safety, bearing grim tidings that the other islands are disintegrating outright beneath their feet.",
+   "body": "Anvilas and Siroccas once drifted through skywall alongside Zephras, and the Skyborne made homes on all three islands. When the elementals vanished, communication between the islands ended. Now refugees from the crumbling neighbors have reached Zephras seeking safety. They report that the land beneath them on Anvilas and Siroccas is breaking apart.",
    "spoiler": 0
   },
   {
    "title": "Threshold to Azeroth",
-   "body": "With their own landmass in slow decay, the Skyborne of Zephras have begun looking beyond the boundaries of Skywall toward Azeroth. From the skydocks of Valanaar, airships now venture forth to establish rare lifelines to the mortal realm. These voyages connect the airy domain directly to points on Azeroth, including the outskirts of Dalaran in the Alterac Mountains and the Skywatcher Plateau in Mulgore.",
+   "body": "As Zephras decays, the Skyborne look beyond skywall toward Azeroth. Airships now set out from the skydocks of valanaar to make rare links with the mortal realm. Their voyages reach the outskirts of Dalaran in the alterac mountains and skywatcher plateau in Mulgore.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "where is zephras",
     "what plane is zephras on"
    ],
-   "answer": "Zephras Isle is situated inside Skywall, the Elemental Plane of air, rather than upon the surface of Azeroth. It floats among the perpetual clouds and wind currents of this ethereal domain."
+   "answer": "Zephras Isle floats within skywall, the elemental plane of air, rather than on Azeroth. Clouds and wind currents surround the island in that ethereal realm."
   },
   {
    "q": "Why is Zephras Isle falling apart?",
@@ -46,7 +46,7 @@
     "zephras isle destruction",
     "dying island"
    ],
-   "answer": "The island relied on the presence of native air elementals who once coexisted with the Skyborne. Several centuries ago, these elementals vanished, leaving the magical foundations that anchor and preserve the flying land to slowly weaken and decay over time."
+   "answer": "Native air elementals once lived alongside the Skyborne and helped sustain Zephras Isle. They vanished several centuries ago, and the island's magical foundations have slowly weakened since."
   },
   {
    "q": "What are Anvilas and Siroccas?",
@@ -55,7 +55,7 @@
     "siroccas",
     "other skyborne islands"
    ],
-   "answer": "They are neighboring floating islands in Skywall also populated by the Skyborne. Zephras Isle lost communication with both when the elementals disappeared, and fleeing refugees now report that both Anvilas and Siroccas are collapsing into oblivion."
+   "answer": "Anvilas and Siroccas are neighboring floating island homes of the Skyborne in skywall. Contact with both ended when the elementals vanished, and refugees now report that the islands are collapsing."
   },
   {
    "q": "How do people travel between Zephras Isle and Azeroth?",
@@ -64,7 +64,7 @@
     "zephras airships",
     "travel to azeroth"
    ],
-   "answer": "The Skyborne operate skydocks at the settlement of Valanaar. Airships launch from these docks across the planar boundary to Azeroth, landing near Dalaran in the Alterac Mountains and at Skywatcher Plateau in Mulgore."
+   "answer": "The Skyborne launch airships from the skydocks at valanaar and cross into Azeroth. They reach the outskirts of Dalaran in the alterac mountains and skywatcher plateau in Mulgore."
   },
   {
    "q": "Who are the Skyborne?",
@@ -72,7 +72,7 @@
     "skyborne race",
     "who lives on zephras"
    ],
-   "answer": "The Skyborne are the inhabitants who make their home on Zephras Isle and its sister sky-realms. Having dwelled in Skywall for generations, they now face the slow destruction of their flying homeland as its binding magic fades."
+   "answer": "The Skyborne have made their homes on Zephras Isle and its sister sky-realms for generations. Their floating island homeland is slowly breaking apart as its sustaining magic fades."
   },
   {
    "q": "Who lives on Zephras Isle besides the Skyborne?",
@@ -80,17 +80,17 @@
     "zephras inhabitants",
     "enemies on zephras"
    ],
-   "answer": "Aside from peaceful villages and visiting refugees, the island is troubled by local bandits, cavern-dwelling nightclaws, and beasts inhabiting areas like the Shriekling Den and Nightclaw Cavern."
+   "answer": "Local bandits, cavern-dwelling nightclaws, and beasts live on Zephras Isle. They can be found in places such as the Shriekling Den and Nightclaw Cavern."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "Zephras Isle is your ancestral home and starting ground, though its lingering beauty masks an urgent crisis of collapsing terrain and fading elemental power."
+   "text": "As a Skyborne, Zephras Isle is your ancestral home and starting ground. Its beauty remains even as the land collapses and elemental power fades."
   },
   {
    "target": "class:Shaman",
-   "text": "Existing directly within the Elemental Plane of air, Zephras Isle showcases what happens to elemental lands when the spirits that balance them suddenly disappear."
+   "text": "As a Shaman, you know Zephras Isle lies within the Elemental Plane of air. Its fading elemental power shows what happens when the spirits that sustain an elemental land disappear."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Zephras Isle"
- ]
+ ],
+ "style": 2
 }

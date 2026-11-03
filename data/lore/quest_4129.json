@@ -27,21 +27,21 @@
    "The Missing Courier"
   ]
  },
- "summary": "Ginro Hearthkindle sends you with the knife to Quintis Jonespyre, the Stronghold's resident druid, who can learn an object's past by touching it. Ginro says Quintis owes a Kalimdor Hold 'Em debt that this will clear.",
+ "summary": "Ginro Hearthkindle sends you to Quintis Jonespyre with the knife, seeking a reading of its past. Ginro says the reading will settle Quintis's Kalimdor Hold 'Em debt.",
  "sections": [
   {
    "title": "A Druid's Debt",
-   "body": "After Boat Wreckage, Ginro Hearthkindle sends you with the knife to Quintis Jonespyre, the resident druid of Feathermoon Stronghold, who has unusual skills. One is psychometry, learning an object's past just by touching it. Ginro will not say how it works, calling it magic Ginro does not and chooses not to understand, only that Ginro has seen it work. Quintis owes Ginro a Kalimdor Hold 'Em debt, which will be paid if Quintis works some magic on the knife. Quintis lives in a little tree-house in the Stronghold.",
+   "body": "After Boat Wreckage, Ginro Hearthkindle sends you to Quintis Jonespyre with the knife. Quintis is Feathermoon Stronghold's resident druid, and he lives in a little tree-house there.\n\nBy touching an object, Quintis can learn its past. Ginro calls this psychometry magic he does not understand and chooses not to understand, though he has seen it work. Quintis owes Ginro a Kalimdor Hold 'Em debt, and Ginro says the knife's reading will clear it.",
    "spoiler": 0
   },
   {
    "title": "King of the Bad Beats",
-   "body": "Quintis says the psychometric readings drain the psyche, much as the losses at Kalimdor Hold 'Em do, and the Stronghold calls Quintis the King of the Bad Beats: unlucky at cards, lucky at the secrets of nature. Quintis agrees to do it, hoping the knife brings the breakthrough needed to uncover Raschal's fate.",
+   "body": "Quintis says psychometric readings drain the psyche, much like losses at Kalimdor Hold 'Em. The Stronghold calls him the King of the Bad Beats. He is unlucky at cards, yet lucky with nature's secrets.\n\nQuintis agrees to read the knife. He hopes it will bring the breakthrough needed to uncover Raschal's fate.",
    "spoiler": 0
   },
   {
    "title": "Before the Reading",
-   "body": "Quintis thanks you, noting that psychometry is no exact art, but he has used it before to shed light on situations that others wrote off as lost causes. He expects the knife to give a glimpse of what happened to Raschal. It takes only a moment, though it is hard going for a caster, and Quintis asks you to bear with it.",
+   "body": "Quintis thanks you and says psychometry is no exact art. He has used it to shed light on situations others had written off as lost causes. The knife may offer a glimpse of what happened to Raschal.\n\nThe reading takes only a moment, though it is hard going for a caster. Quintis asks you to bear with him.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "who is quint",
     "druid in feathermoon"
    ],
-   "answer": "The Stronghold's resident druid, who lives in a little tree-house in Feathermoon Stronghold and has an unusual skill: psychometry."
+   "answer": "Quintis Jonespyre is Feathermoon Stronghold's resident druid. He lives in a little tree-house there and can learn an object's past by touching it."
   },
   {
    "q": "What is psychometry?",
@@ -62,7 +62,7 @@
     "reading the knife",
     "quintis psychometry"
    ],
-   "answer": "Learning an object's past by touching it. Quintis says such readings take a toll on the mind."
+   "answer": "Psychometry is the art of learning an object's past by touching it. Quintis says its readings drain the psyche."
   },
   {
    "q": "Why does Quintis help with the knife?",
@@ -71,7 +71,7 @@
     "ginro debt",
     "kalimdor hold em"
    ],
-   "answer": "Quintis owes Ginro Hearthkindle a Kalimdor Hold 'Em debt, which Ginro says will be paid if the knife is read. Quintis is also eager to find out Raschal's fate."
+   "answer": "Quintis owes Ginro Hearthkindle a Kalimdor Hold 'Em debt, and Ginro says a reading of the knife will clear it. Quintis also hopes it will help uncover Raschal's fate."
   },
   {
    "q": "Where does this happen in the investigation?",
@@ -80,7 +80,7 @@
     "what quest comes next",
     "knife revealed chain"
    ],
-   "answer": "It follows Boat Wreckage, in which the knife was found."
+   "answer": "The investigation reaches this point after Boat Wreckage, where the knife was found."
   }
  ],
  "angles": [],
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "The Knife Revealed"
- ]
+ ],
+ "style": 2
 }

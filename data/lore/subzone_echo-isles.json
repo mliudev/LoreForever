@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Echo Isles"
  },
- "summary": "The Darkspear have fled the Echo Isles, leaving their home under Zalazane's control. The tribe first settled here after crossing the Great Sea with Thrall, but now seeks to reclaim the islands.",
+ "summary": "The Darkspear seek to reclaim the Echo Isles, now held by Zalazane. They first made their home there after crossing the Great Sea with Thrall.",
  "sections": [
   {
    "title": "A Fractured Sanctuary",
-   "body": "The Darkspear made the Echo Isles their home after fleeing across the Great Sea with Thrall. Their peace broke when Grand Admiral Daelin Proudmoore's naval forces invaded Durotar during Kul Tiras' attack. The trolls drove back Proudmoore's fleet, but another threat rose within the tribe. Zalazane, one of their witch doctors, seized dark arts and enslaved the minds of his kin. Chieftain Vol'jin and the free Darkspears fled the islands once more, finding temporary refuge across the narrow strait at Sen'jin Village.",
+   "body": "The Darkspear made the Echo Isles their home after crossing the Great Sea with Thrall. Their peace ended when Grand Admiral Daelin Proudmoore's naval forces invaded Durotar during Kul Tiras' attack. The trolls drove back Proudmoore's fleet, but danger rose within their own tribe.\n\nZalazane, one of their witch doctors, took up dark arts and enslaved the minds of his kin. Chieftain Vol'jin and the free Darkspears fled again. Across the narrow strait, they found temporary refuge at Sen'jin Village.",
    "spoiler": 0
   },
   {
    "title": "Zalazane's Grip",
-   "body": "Aggressive predators, tainted wildlife, and Zalazane's thralls now overrun the tropical islands. The rogue witch doctor uses malevolent hexes, voodoo fetishes, and ju-ju heaps across the isles to bend beasts and captive trolls to his will. Vol'jin's scouts and warriors set out from their camp at Darkspear Strand on frequent sorties. They seek the remains of their fallen and a chance to strike down the mystic who stole their home.",
+   "body": "Aggressive predators, tainted wildlife, and Zalazane's thralls now overrun the tropical islands. The rogue witch doctor uses malevolent hexes, voodoo fetishes, and ju-ju heaps to bend beasts and captive trolls to his will. Vol'jin's scouts and warriors set out often from their camp at Darkspear Strand. On these frequent sorties, they seek the remains of their fallen and a chance to strike down the mystic who stole their home.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why did trolls leave",
     "troll home"
    ],
-   "answer": "Zalazane betrayed the Darkspear and used dark magic to strip his kin of their free will, turning them into obedient servitors. Chieftain Vol'jin ordered the tribe to evacuate to Durotar's mainland coast and founded Sen'jin Village as a base while they fight to reclaim their home."
+   "answer": "Zalazane betrayed the Darkspear and used dark magic to strip his kin of their free will, turning them into obedient servitors. Chieftain Vol'jin ordered the tribe to evacuate to Durotar's mainland coast, where they founded Sen'jin Village as a base while they fight to reclaim their home."
   },
   {
    "q": "Who is Zalazane?",
@@ -46,7 +46,7 @@
     "what is on the islands",
     "echo isles dangers"
    ],
-   "answer": "Wild raptors, tigers, and corrupted beasts roam the islands, alongside Zalazane's voodoo heaps and mind-controlled troll minions, including hexed and voodoo trolls."
+   "answer": "Wild raptors, tigers, and corrupted beasts roam the islands. Zalazane's voodoo heaps and mind-controlled troll minions are there too, including hexed and voodoo trolls."
   },
   {
    "q": "How did the Darkspear tribe end up on these islands originally?",
@@ -91,5 +91,5 @@
  "attribution": [
   "Echo Isles"
  ],
- "style": 1
+ "style": 2
 }

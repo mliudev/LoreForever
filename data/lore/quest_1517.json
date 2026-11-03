@@ -21,21 +21,21 @@
    "Call of Earth (Durotar 3)"
   ]
  },
- "summary": "At Spirit Rock, Canaga Earthcaller guides young shaman through their first communion with the elements. They drink an Earth Sapta on sacred ground to see the Minor Manifestation of Earth.",
+ "summary": "At Spirit Rock, Canaga Earthcaller guides young shaman through their first communion with the elements. An Earth Sapta lets them see the Minor Manifestation of Earth on sacred ground.",
  "sections": [
   {
    "title": "The Power of the Sapta",
-   "body": "A sapta is a mystical draught known to only a few shaman masters. Made with elemental magic, it bridges mortal perception and the spiritual plane, granting Sapta Sight to the strong-willed. Because it binds the drinker's spirit directly to an element, tradition forbids drinking it outside consecrated holy ground.",
+   "body": "A sapta is a rare draught known to only a few shaman masters. Elemental magic lets it bridge mortal sight and the spiritual plane, granting Sapta Sight to the strong-willed. Since it binds the drinker's spirit directly to an element, tradition forbids drinking it outside consecrated holy ground.",
    "spoiler": 0
   },
   {
    "title": "Pilgrimage to Spirit Rock",
-   "body": "To commune with earth, you leave the Valley of Trials and climb the Hidden Path into Durotar's southern crags. Spirit Rock waits at the trail's end, an elevated sanctuary overlooking the rugged wasteland. Drink the sapta there, and you can perceive what ordinary eyes cannot: an elemental presence among the stone.",
+   "body": "To commune with earth, you leave the Valley of Trials and climb the Hidden Path into Durotar's southern crags. Spirit Rock waits at the trail's end, an elevated sanctuary above the rugged wasteland. Drink the sapta there, and you can see what ordinary eyes cannot: an elemental presence among the stone.",
    "spoiler": 0
   },
   {
    "title": "Patience of the Earth",
-   "body": "The Minor Manifestation of Earth asks no bloodshed or submission. It asks only that you stand humbly before the world. Fire, water, and air bear turbulent, volatile, often chaotic spirits, while earth teaches steadiness. Mountains offer endurance, and plains teach boundless patience.",
+   "body": "The Minor Manifestation of Earth asks for neither bloodshed nor submission. It asks only that you stand humbly before the world. Fire, water, and air bear turbulent, volatile, often chaotic spirits, while earth teaches steadiness. Mountains endure, and plains teach boundless patience.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "earth sapta meaning",
     "what does sapta do"
    ],
-   "answer": "An Earth Sapta is a potion brewed by veteran shaman to attune a drinker's spirit temporarily to earth. Drinking it grants the inner sight needed to see and speak with hidden elemental spirits."
+   "answer": "An Earth Sapta is a potion brewed by veteran shaman to attune a drinker's spirit temporarily to earth. It grants the inner sight needed to see and speak with hidden elemental spirits."
   },
   {
    "q": "Where is Spirit Rock located?",
@@ -64,7 +64,7 @@
     "why drink at spirit rock",
     "can i drink sapta anywhere"
    ],
-   "answer": "Shamanic tradition permits drinking a sapta only in a designated holy place. Sacred sites like Spirit Rock are natural thin places between the mortal realm and elemental spirits."
+   "answer": "Shamanic tradition allows a sapta to be drunk only in a designated holy place. Sacred sites like Spirit Rock are natural thin places between the mortal realm and elemental spirits."
   },
   {
    "q": "Who is the Minor Manifestation of Earth?",
@@ -72,7 +72,7 @@
     "manifestation of earth",
     "who is the earth spirit"
    ],
-   "answer": "The Minor Manifestation of Earth is an elemental spirit dwelling at Spirit Rock. Only Sapta Sight's heightened perception can reveal it; the spirit greets young shaman to test their humility and teach the first lessons of elemental balance."
+   "answer": "The Minor Manifestation of Earth is an elemental spirit dwelling at Spirit Rock. Only Sapta Sight can reveal it, and the spirit greets young shaman to test their humility and teach the first lessons of elemental balance."
   },
   {
    "q": "Can any Horde shaman undertake this trial?",
@@ -88,7 +88,7 @@
     "what does the earth spirit say",
     "is the earth spirit hostile"
    ],
-   "answer": "Unlike the volatile manifestations of fire or air, the earth spirit welcomes and accepts initiates who approach with humble respect. It bestows its blessing without demanding a contest of strength."
+   "answer": "Unlike the volatile manifestations of fire or air, the earth spirit welcomes initiates who approach with humble respect. It bestows its blessing without demanding a contest of strength."
   }
  ],
  "angles": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Call of Earth (Durotar 2)"
  ],
- "style": 1
+ "style": 2
 }

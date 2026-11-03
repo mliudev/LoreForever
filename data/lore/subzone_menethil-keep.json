@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Menethil Keep"
  },
- "summary": "Menethil Keep commands the skyline above Menethil Harbor in the Wetlands. Four watchtowers guard the Alliance port, and Captain Stoutfist leads its militia from within the stone walls.",
+ "summary": "At Menethil Keep, Captain Stoutfist leads the militia guarding Menethil Harbor in the Wetlands. Four watchtowers rise above the Alliance port.",
  "sections": [
   {
    "title": "Bastion of the Harbor",
-   "body": "Menethil Keep rises over Menethil Harbor’s wooden docks and the Wetlands marshes. Four stone watchtowers overlook the town and bay, watching for seaward raiders, renegades, and swamp beasts pushing into the area. Within the fortress, Captain Stoutfist directs the town militia and organizes patrols to defend the port and protect Alliance interests across the region.",
+   "body": "Menethil Keep watches over Menethil Harbor, its wooden docks, and the marshes beyond. Four stone watchtowers look across the town and bay for raiders from the sea, renegades, and swamp beasts entering the area. Inside the fortress, Captain Stoutfist directs the town militia and sets its patrols. They defend the port and Alliance interests across the region.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler arriving by ship from Kalimdor or heading north toward Ironforge and Arathi, you can look to Menethil Keep for the military protection of this vital transport hub."
+   "text": "As an Alliance traveler arriving by ship from Kalimdor or heading north toward Ironforge and Arathi, you can look to Menethil Keep for military protection at this vital transport hub."
   }
  ],
  "keywords": [
@@ -67,5 +67,5 @@
  "attribution": [
   "Menethil Keep"
  ],
- "style": 1
+ "style": 2
 }

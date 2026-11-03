@@ -8,16 +8,16 @@
   "wiki": "Tallonkai Swiftroot",
   "refs": 7
  },
- "summary": "In Dolanaar, Tallonkai Swiftroot watches the woods as corruption spreads beneath Teldrassil’s boughs. He sends young adventurers to recover enchanted relics and check the foul forces troubling the forest.",
+ "summary": "From Dolanaar, Tallonkai Swiftroot watches corruption spread beneath Teldrassil’s boughs. He sends young adventurers to recover enchanted relics and confront the foul forces troubling the forest.",
  "sections": [
   {
    "title": "A Sentinel of Dolanaar",
-   "body": "Tallonkai Swiftroot watches the woods from Dolanaar, the settlement in Teldrassil’s canopy. Like many night elves beneath the newly grown World Tree, he is alarmed by wildlife acting in unnatural ways and shadows gathering at the edges of their homes.",
+   "body": "Tallonkai Swiftroot watches the woods from Dolanaar, a settlement in Teldrassil’s canopy. Like many night elves beneath the newly grown World Tree, he fears the changes around them. Wildlife acts in unnatural ways, and shadows gather at the edges of their homes.",
    "spoiler": 0
   },
   {
    "title": "Threats in the Canopy",
-   "body": "Tallonkai sends adventurers against the foul beings disturbing Teldrassil’s peace. Corrupted dream catchers threaten the sleep of druids, while gnarlpine furbolgs have grown vicious under a dark malaise. Ferocitas the Dream Eater leads corrupted Gnarlpine mystics. Tallonkai seeks to cleanse these threats and defend the Kaldorei’s fragile home.",
+   "body": "Tallonkai sends adventurers against the foul beings disturbing Teldrassil’s peace. Corrupted dream catchers threaten the druids’ sleep, while a dark malaise has made the gnarlpine furbolgs vicious. Ferocitas the Dream Eater leads corrupted Gnarlpine mystics. Tallonkai seeks to cleanse these threats and defend the Kaldorei’s fragile home.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "tallonkai swiftroot",
     "dolanaar questgiver"
    ],
-   "answer": "Tallonkai Swiftroot watches over Dolanaar and works to protect it from nearby threats. He is a night elf who lives in the settlement on Teldrassil’s boughs."
+   "answer": "Tallonkai Swiftroot watches over Dolanaar and works to protect it from nearby threats. He is a night elf living in the settlement on Teldrassil’s boughs."
   },
   {
    "q": "Where can I find Tallonkai Swiftroot?",
@@ -38,7 +38,7 @@
     "where is tallonkai",
     "find tallonkai swiftroot"
    ],
-   "answer": "Tallonkai Swiftroot is in Dolanaar, the central night elf village just outside Shadowglen in Teldrassil."
+   "answer": "Tallonkai Swiftroot can be found in Dolanaar, the central night elf village just outside Shadowglen in Teldrassil."
   },
   {
    "q": "What tasks does Tallonkai give?",
@@ -76,7 +76,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can help protect Teldrassil while corruption takes root in your new home."
+   "text": "As a night elf, you can help protect Teldrassil as corruption takes root in your new home."
   },
   {
    "target": "class:Druid",
@@ -102,5 +102,5 @@
  "attribution": [
   "Tallonkai Swiftroot"
  ],
- "style": 1
+ "style": 2
 }

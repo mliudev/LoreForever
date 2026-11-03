@@ -17,16 +17,16 @@
   "wiki": "Wayward Weapons",
   "chain": []
  },
- "summary": "At the Valley of Trials, Gornek sends new recruits to recover weapons for the encampment. With young warriors arriving to serve the Horde, supplies run thin, and the weaponsmith needs old arms returned to use.",
+ "summary": "At the Valley of Trials, Gornek sends fresh arrivals to recover weapons for the encampment. Young warriors keep coming to serve the Horde, and Kzan Thornslash needs old arms returned to use.",
  "sections": [
   {
    "title": "Arming the New Blood",
-   "body": "New recruits face harsh trials in Durotar's red wastes. Many arrive ready to pledge their blades to the warchief, straining the encampment's weapon stocks. Weaponsmith Kzan Thornslash struggles to meet demand, especially when early lessons prove fatal or humiliating for the unready.",
+   "body": "Young recruits face harsh trials in Durotar's red wastes. Many arrive ready to pledge their blades to the warchief, leaving the encampment short of weapons. Weaponsmith Kzan Thornslash struggles to meet demand. Early lessons can end in death or humiliation for those unready.",
    "spoiler": 0
   },
   {
    "title": "A Test of Resourcefulness",
-   "body": "Overseer Gornek makes the shortage a practical trial. He sends fresh arrivals to recover abandoned blades and blunt training weapons left by recruits who fell or fled. Bring the recovered arms to Kzan, and he can repair and temper them for the next wave. New recruits learn that survival in the Horde calls for scavenging as well as swinging steel.",
+   "body": "Overseer Gornek turns the shortage into a practical trial. He sends fresh arrivals to recover abandoned blades and blunt training weapons left by recruits who fell or fled. Kzan can repair and temper the recovered arms for the next wave. The recruits learn that survival in the Horde calls for scavenging as well as swinging steel.",
    "spoiler": 0
   }
  ],
@@ -63,7 +63,7 @@
     "what happens to the training weapons",
     "repairing weapons kzan"
    ],
-   "answer": "Kzan repairs, sharpens, and restores the battered practice weapons. With resources in Durotar sparse and recruits arriving constantly, salvaged iron and wood are reused to train the next wave."
+   "answer": "Kzan repairs, sharpens, and restores the battered practice weapons. With resources in Durotar sparse and recruits arriving constantly, he reuses salvaged iron and wood to train the next wave."
   },
   {
    "q": "Where is this quest taking place?",
@@ -79,13 +79,13 @@
     "why salvage weapons",
     "durotar metal shortage"
    ],
-   "answer": "Durotar is rugged and arid, with few easily reached iron deposits, and the young Horde cannot afford waste. Reusing practice blades from washouts saves raw metal for frontline troops."
+   "answer": "Durotar is rugged and arid, with few easily reached iron deposits, and the young Horde cannot afford waste. Reusing practice blades from recruits who fail saves raw metal for frontline troops."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "In Durotar, every scrap of metal counts. As a blacksmith, you help reclaim ruined gear and rework battered edges into tools of war."
+   "text": "In Durotar, every scrap of metal counts. As a blacksmith, you reclaim ruined gear and rework battered edges into tools of war."
   },
   {
    "target": "class:Warrior",
@@ -115,5 +115,5 @@
  "attribution": [
   "Wayward Weapons"
  ],
- "style": 1
+ "style": 2
 }

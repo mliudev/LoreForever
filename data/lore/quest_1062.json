@@ -17,16 +17,16 @@
   "wiki": "Goblin Invaders",
   "chain": []
  },
- "summary": "At the Barrens and Stonetalon border, Seereth Stonebreak sends the Horde to strike Venture Company loggers in Windshear Crag. Their work lays waste to the mountains' ancient woodlands.",
+ "summary": "At the Barrens and Stonetalon border, Goblin Invaders strike at the mountains' ancient woodlands. Seereth Stonebreak sends the Horde against Venture Company loggers in Windshear Crag.",
  "sections": [
   {
    "title": "A Forest in Agony",
-   "body": "The Venture Company has cut deep into the Stonetalon Mountains, tearing through crags and valleys. Its loggers strip hillsides of timber and burn the underbrush, leaving scorched ground behind. For tauren and their allies, this is more than the destruction of forests by a mining and lumber company. The primal spirits bound to Stonetalon howl in torment. Seereth Stonebreak, stationed along the mountain border, sees that the goblins' relentless assault has left the spirits blind with agony and fury.",
+   "body": "Venture Company loggers cut deep into the Stonetalon Mountains. They strip the hillsides and burn the underbrush, leaving scorched ground behind. For tauren and their allies, the harm reaches beyond the forests. The primal spirits bound to Stonetalon howl in torment.\n\nSeereth Stonebreak watches from the mountain border. She sees the goblins' assault has left the spirits blind with agony and fury.",
    "spoiler": 0
   },
   {
    "title": "The Language of Force",
-   "body": "The Venture Company's executives and hirelings care only for profit, and reason will not sway them. Seereth sends travelers past Greatwood Vale and into Windshear Crag to kill fifteen loggers. The Horde means to meet the company's greed with force, halting the deforestation and buying time for tauren elders to soothe the land's agitated spirits.",
+   "body": "Profit is all the Venture Company's executives and hirelings heed. Reason will not sway them. So Seereth sends you past Greatwood Vale and into Windshear Crag to kill fifteen loggers.\n\nThe Horde meets the company's greed with force. The blow is meant to halt the deforestation and give tauren elders time to soothe the land's agitated spirits.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "venture company motivation stonetalon",
     "why cut trees"
    ],
-   "answer": "The Venture Company pursues profit without regard for the damage it causes. It treats Stonetalon's ancient forests and mineral-rich hills as materials to harvest, process, and sell, heedless of the natural and spiritual devastation left behind."
+   "answer": "The Venture Company pursues profit without regard for the damage it causes. It harvests Stonetalon's ancient forests and mineral-rich hills to process and sell, heedless of the natural and spiritual devastation left behind."
   },
   {
    "q": "Where is Windshear Crag located?",
@@ -56,7 +56,7 @@
     "where are loggers",
     "where to find venture co loggers"
    ],
-   "answer": "Windshear Crag lies in the central Stonetalon Mountains. From the Barrens border, follow the mountain road northwest through Greatwood Vale to the crag, where the forest gives way to Venture Company logging camps and clear-cut hills."
+   "answer": "Windshear Crag lies in the central Stonetalon Mountains. From the Barrens border, follow the mountain road northwest through Greatwood Vale to the crag. There, the forest gives way to Venture Company logging camps and clear-cut hills."
   },
   {
    "q": "How do the spirits react to the Venture Company's presence?",
@@ -64,7 +64,7 @@
     "stonetalon spirits angry",
     "spirits of stonetalon reaction"
    ],
-   "answer": "Seereth Stonebreak says the land spirits suffer near-madness from rage and pain caused by the logging and burning. Their suffering disrupts nature's balance and threatens the entire region spiritually."
+   "answer": "Seereth Stonebreak says the land spirits suffer near-madness from rage and pain caused by logging and burning. Their suffering disrupts nature's balance and threatens the region's spiritual well-being."
   },
   {
    "q": "What happens after culling the Venture Company loggers?",
@@ -72,7 +72,7 @@
     "after goblin invaders",
     "next quest after loggers"
    ],
-   "answer": "Killing the loggers is only the first blow against the operation. Seereth next directs the Horde against the company's machinery and recommends seeking tauren elders as guides who can help soothe the wounded spirits."
+   "answer": "Killing the loggers is only the first blow against the operation. Seereth next directs the Horde against the company's machinery and recommends seeking tauren elders, who can help soothe the wounded spirits."
   },
   {
    "q": "Why does the Horde care about logging in Stonetalon?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you have urgent cause to confront the Venture Company: its destruction of Stonetalon's forests torments the earth spirits you honor with the Earth Mother."
+   "text": "As a tauren, you have urgent cause to confront the Venture Company. Its destruction of Stonetalon's forests torments the earth spirits you honor with the Earth Mother."
   },
   {
    "target": "class:Druid",
@@ -94,11 +94,11 @@
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can feel the local elementals and nature spirits crying out, blinded by fury amid smoke and goblin machinery's destruction."
+   "text": "As a shaman, you can feel local elementals and nature spirits crying out, blinded by fury amid smoke and goblin machinery's destruction."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help secure the borderlands between the Barrens and the higher passes, so hostile commercial syndicates cannot fortify central Kalimdor."
+   "text": "As a member of the Horde, you help secure the borderlands between the Barrens and the higher passes. That keeps hostile commercial syndicates from fortifying central Kalimdor."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Goblin Invaders"
  ],
- "style": 1
+ "style": 2
 }

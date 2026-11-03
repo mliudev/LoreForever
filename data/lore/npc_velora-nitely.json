@@ -8,16 +8,16 @@
   "wiki": "Velora Nitely",
   "refs": 2
  },
- "summary": "In the Undercity's Trade Quarter, Velora Nitely works the forge for the Forsaken and the Horde. Once among Lordaeron's finest armorsmiths, she now makes dry jokes that rarely land.",
+ "summary": "In the Undercity's Trade Quarter, Velora Nitely forges armor for the Forsaken and the Horde. Once among Lordaeron's finest armorsmiths, she now makes dry jokes that rarely land.",
  "sections": [
   {
    "title": "A Smith of Lordaeron",
-   "body": "Velora Nitely works near the anvils in the Undercity's Trade Quarter, where she makes armor for the Horde. Before the Third War devastated the north, Lordaeron celebrated her as an exceptional armorsmith. Undeath took her life and warmth, but left her technical skill untouched. She works with Horde crafters across continents, including Thun'grim Firegaze in the Barrens. Her craft includes reinforcing heavy battle plate and forging the formidable Brutal Legguards from hardened materials such as Dragonmaw shinbones.",
+   "body": "Near the anvils in the Undercity's Trade Quarter, Velora Nitely makes armor for the Horde. Before the Third War devastated the north, Lordaeron celebrated her as an exceptional armorsmith. Undeath took her life and warmth, but left her skill untouched.\n\nVelora works with Horde crafters across continents, including Thun'grim Firegaze in the Barrens. She reinforces heavy battle plate and forges the formidable Brutal Legguards from hardened materials such as Dragonmaw shinbones.",
    "spoiler": 0
   },
   {
    "title": "Deadpan Humor",
-   "body": "Velora Nitely keeps trying to make jokes at the forge, though her humor rarely lands. Many of her somber Forsaken kin brood over their cursed fate, but she still makes room for levity. Death seems to have ruined her comedic timing: her quips sound flat, morbid, and thoroughly unfunny to the living and the dead alike. She keeps cracking them undeterred.",
+   "body": "At the forge, Velora Nitely keeps trying to make jokes, though they rarely land. Many of her somber Forsaken kin brood over their cursed fate, but she still makes room for levity. Death seems to have ruined her timing. Her quips sound flat, morbid, and thoroughly unfunny to the living and the dead alike, yet she keeps cracking them.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "thungrim firegaze armor",
     "brutal armor questline"
    ],
-   "answer": "Velora Nitely is a Horde smith who aids the orc armorsmith Thun'grim Firegaze in the Barrens. She crafts Brutal Legguards for warriors who bring her Dragonmaw shinbones."
+   "answer": "Velora Nitely aids the orc armorsmith Thun'grim Firegaze in the Barrens. She crafts Brutal Legguards for warriors who bring her Dragonmaw shinbones."
   },
   {
    "q": "Why are her jokes so bad?",
@@ -92,5 +92,5 @@
  "attribution": [
   "Velora Nitely"
  ],
- "style": 1
+ "style": 2
 }

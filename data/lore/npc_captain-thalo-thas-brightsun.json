@@ -8,16 +8,16 @@
   "wiki": "Captain Thalo'thas Brightsun",
   "refs": 2
  },
- "summary": "At Ratchet's docks, Captain Thalo'thas Brightsun keeps a cordial face toward Alliance travelers. The privateer serves the Steamwheedle Cartel and resents the Theramore forces at Northwatch Hold for firing on his vessels.",
+ "summary": "At Ratchet's docks, Captain Thalo'thas Brightsun keeps a cordial face toward Alliance travelers. He serves the Steamwheedle Cartel and resents the Theramore forces at Northwatch Hold for firing on his vessels.",
  "sections": [
   {
    "title": "Privateer of Ratchet",
-   "body": "Captain Thalo'thas Brightsun leads the Thalo'dan Privateers from Ratchet's docks under the Steamwheedle Cartel's banner. Ratchet welcomes merchants of every flag if they bring coin, but danger shadows trade along the Barrens coast. Northwatch Hold lies just south of the port, where its heavy cannons threaten neutral sea lanes. Brightsun stays cordial toward visiting travelers, yet the garrison's attacks on his fleet have tried his patience.",
+   "body": "From Ratchet's docks, Captain Thalo'thas Brightsun leads the Thalo'dan Privateers under the Steamwheedle Cartel's banner. Ratchet welcomes merchants of every flag who bring coin, though trade along the Barrens coast carries danger. Northwatch Hold lies just south of the port, and its heavy cannons threaten neutral sea lanes. Brightsun remains cordial toward visiting travelers, but the garrison's attacks on his fleet have tried his patience.",
    "spoiler": 0
   },
   {
    "title": "A Private War with Northwatch",
-   "body": "An open assault on Northwatch Hold could endanger Ratchet's neutrality, so Brightsun cannot send his fleet against the fort. He turns instead to capable Horde mercenaries to settle the score. Their strikes aim to silence the cannons and free his captured crew. By using Horde auxiliaries, Brightsun protects his shipping interests without provoking direct Alliance retaliation against the cartel or entering the conflict openly.",
+   "body": "Brightsun cannot send his fleet against Northwatch Hold without endangering Ratchet's neutrality. Instead, he turns to capable Horde mercenaries to settle the score. Their strikes aim to silence the cannons and free his captured crew. By using Horde auxiliaries, Brightsun protects his shipping interests without provoking direct Alliance retaliation against the cartel or entering the conflict openly.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is brightsun",
     "ratchet captain"
    ],
-   "answer": "Captain Thalo'thas Brightsun commands the Thalo'dan Privateers from Ratchet in service to the Steamwheedle Cartel."
+   "answer": "From Ratchet, Captain Thalo'thas Brightsun commands the Thalo'dan Privateers in service to the Steamwheedle Cartel."
   },
   {
    "q": "Why is he angry at Northwatch Hold?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Captain Thalo'thas Brightsun"
  ],
- "style": 1
+ "style": 2
 }

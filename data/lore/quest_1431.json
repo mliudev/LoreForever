@@ -17,16 +17,16 @@
   "wiki": "Alliance Relations",
   "chain": []
  },
- "summary": "Thrall seeks a careful hand to preserve peace with the Alliance. In Orgrimmar, Craven Drok sends seasoned Horde adventurers to find Keldran near the western exit. The work calls for quiet diplomacy and intelligence to protect Thrall’s fragile peace.",
+ "summary": "Thrall seeks a careful hand to keep peace with the Alliance. In Orgrimmar, Craven Drok sends seasoned Horde adventurers to Keldran, near the western exit. Quiet diplomacy and intelligence may help protect Thrall’s fragile peace.",
  "sections": [
   {
    "title": "A Diplomatic Dilemma",
-   "body": "Thrall knows war with the Alliance could ruin his young nation. Raised in human captivity, the Warchief learned human statecraft and military strategy. Craven Drok watches for warriors and champions with patience for a subtler path, one that looks beyond raw force.",
+   "body": "Thrall fears that war with the Alliance could ruin his young nation. Raised in human captivity, the Warchief learned human statecraft and military strategy. So Craven Drok watches for warriors and champions who can look beyond raw force and choose a subtler path.",
    "spoiler": 0
   },
   {
    "title": "Keldran's Hovel",
-   "body": "Near Orgrimmar’s western exit, Keldran keeps a humble dwelling. He practices magic and covert arts, working with appearances, perception, and statecraft. Keldran seeks discreet operatives to serve the Warchief as the Horde faces a tense standoff with its bitter rivals.",
+   "body": "Near Orgrimmar’s western exit, Keldran keeps a humble dwelling. He practices magic and covert arts, working with appearances, perception, and statecraft. As the Horde faces a tense standoff with its bitter rivals, Keldran seeks discreet operatives to serve the Warchief.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts alliance relations",
     "where to get alliance relations"
    ],
-   "answer": "Craven Drok offers this work in Orgrimmar to Horde adventurers who have reached their thirtieth season of experience."
+   "answer": "In Orgrimmar, Craven Drok offers this work to Horde adventurers who have reached their thirtieth season of experience."
   },
   {
    "q": "Where can I find Keldran?",
@@ -55,7 +55,7 @@
     "who is keldran",
     "keldran lore"
    ],
-   "answer": "Keldran studies magic and mystical arts, assisting Warchief Thrall with discreet matters of diplomacy, intelligence, and the Horde’s public image."
+   "answer": "Keldran studies magic and mystical arts. He assists Warchief Thrall with discreet matters of diplomacy, intelligence, and the Horde’s public image."
   },
   {
    "q": "Why does Thrall care about diplomacy with the Alliance?",
@@ -64,7 +64,7 @@
     "why horde peace with alliance",
     "thrall and humans"
    ],
-   "answer": "Raised among humans, Thrall understands their politics and military power. He knows outright war could destroy his young people, so he relies on prudence and measured statecraft to protect the Horde’s future."
+   "answer": "Raised among humans, Thrall understands their politics and military power. He knows outright war could destroy his young people, so he uses prudence and measured statecraft to protect the Horde’s future."
   },
   {
    "q": "Does this quest lead to further missions?",
@@ -72,7 +72,7 @@
     "alliance relations followup",
     "what comes after alliance relations"
    ],
-   "answer": "Yes. Bringing this matter to Keldran begins a deeper discussion of the Horde’s standing with other factions and leads to further work in regional diplomacy and espionage."
+   "answer": "Yes. Bringing this matter to Keldran begins a deeper discussion of the Horde’s standing with other factions. It leads to further work in regional diplomacy and espionage."
   },
   {
    "q": "Why is discretion so important for this task?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, this work shows the divide between traditional brute strength and Thrall’s more measured, diplomatic statecraft."
+   "text": "For the Horde, this work shows the divide between traditional brute strength and Thrall’s measured, diplomatic statecraft."
   },
   {
    "target": "race:Orc",
@@ -116,5 +116,5 @@
  "attribution": [
   "Alliance Relations"
  ],
- "style": 1
+ "style": 2
 }

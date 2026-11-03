@@ -17,16 +17,16 @@
   "wiki": "Shadow Magic",
   "chain": []
  },
- "summary": "Marshal Marris calls for action against Shadow Magic in Redridge. Blackrock shadowcasters carry demon-tainted midnight orbs that turn dark energies against Lakeshire's defenders. The orbs must be taken from them and destroyed to protect the town's line.",
+ "summary": "Marshal Marris needs the midnight orbs taken from Blackrock shadowcasters in Redridge. Their dark power threatens Lakeshire's defenders and the town's line.",
  "sections": [
   {
    "title": "A Sinister Arsenal",
-   "body": "Blackrock strength has always rested on brute force, but the clan's raids in the Redridge Mountains now bring a darker threat. Shadowcasters wield dark powers and channel fel and shadow energies through demon-tainted midnight orbs. These artifacts have dealt terrible losses to the local militia, worsening a war already turning against the defenders.",
+   "body": "The Blackrock clan has long relied on brute force. Now its raids in the Redridge Mountains bring a darker threat. Shadowcasters wield dark powers and channel fel and shadow energies through demon-tainted midnight orbs. These relics have dealt terrible losses to the local militia, and the war is turning against the defenders.",
    "spoiler": 0
   },
   {
    "title": "Containing the Taint",
-   "body": "Marshal Marris directs Lakeshire's strained defense from the town center, and he knows ordinary steel cannot easily overcome dark relics. If the Blackrock orcs keep their midnight orbs, Redridge's eastern borders may collapse. Marris orders the shadowcasters slain and the orbs seized so the demonic relics can be destroyed, not put to use.",
+   "body": "Marshal Marris directs Lakeshire's strained defense from the town center. He knows ordinary steel cannot easily overcome dark relics. If Blackrock orcs keep their midnight orbs, Redridge's eastern borders may collapse. Marris orders the shadowcasters slain and the orbs seized, so the demonic relics can be destroyed instead of put to use.",
    "spoiler": 0
   }
  ],
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, confronting shadowcasters and securing demon-tainted relics directly fulfills your holy duty to purge demonic corruption from the mortal realm."
+   "text": "As a paladin, confronting shadowcasters and securing demon-tainted relics fulfills your holy duty to purge demonic corruption from the mortal realm."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Shadow Magic"
  ],
- "style": 1
+ "style": 2
 }

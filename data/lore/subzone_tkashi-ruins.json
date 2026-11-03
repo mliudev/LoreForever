@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Tkashi Ruins"
  },
- "summary": "The Tkashi Ruins are ancient stone remnants situated southwest of Nesingwary's Expedition in northern Stranglethorn Vale. Overrun by hostile Bloodscalp trolls, the site remains a stronghold of the tribe.",
+ "summary": "Bloodscalp trolls guard the Tkashi Ruins southwest of Nesingwary's Expedition in northern Stranglethorn Vale.",
  "sections": [
   {
    "title": "Stones of the Bloodscalp",
-   "body": "Perched southwest of Hemet Nesingwary's hunting camp, the crumbling stone masonry of the Tkashi Ruins marks the ancient domain of Stranglethorn's jungle trolls. Today, the encampment is heavily occupied by the Bloodscalp tribe, who aggressively defend the territory and practice their shamanistic rituals among the vines and decayed stone. While Hemet Nesingwary noted passing through the ruins without trouble in his hunting memoirs, modern travelers find the trolls far less accommodating, guarding valuable tribal relics buried among the rubble.",
+   "body": "Southwest of Hemet Nesingwary's hunting camp, crumbling stones mark an ancient domain of Stranglethorn's jungle trolls. The Bloodscalp tribe now occupies the ruins and fiercely defends its territory. Among the vines and decayed stone, they practice shamanistic rituals. Hemet Nesingwary wrote that he passed through without trouble, but travelers now face Bloodscalp guards protecting tribal relics buried in the rubble.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "tkashi ruins mobs",
     "trolls at tkashi"
    ],
-   "answer": "The ruins are occupied by the Bloodscalp tribe, a hostile faction of jungle trolls that aggressively defends the crumbling compound against outsiders and rival tribes."
+   "answer": "The Bloodscalp tribe lives in the ruins. These hostile jungle trolls defend the crumbling compound against outsiders and rival tribes."
   },
   {
    "q": "Where are the Tkashi Ruins located?",
@@ -32,7 +32,7 @@
     "where is tkashi",
     "find tkashi ruins"
    ],
-   "answer": "They lie in northern Stranglethorn Vale, just southwest of the river crossing near Nesingwary's Expedition."
+   "answer": "The Tkashi Ruins lie in northern Stranglethorn Vale, just southwest of the river crossing near Nesingwary's Expedition."
   },
   {
    "q": "What is mentioned about Tkashi in Hemet Nesingwary's writings?",
@@ -40,13 +40,13 @@
     "nesingwary tkashi",
     "green hills tkashi"
    ],
-   "answer": "In chapter three of his memoir, The Green Hills of Stranglethorn (specifically page 21), Nesingwary records that he and his hunting party managed to traverse the Tkashi Ruins without incident during their early days in the jungle."
+   "answer": "In chapter three of The Green Hills of Stranglethorn, Hemet Nesingwary writes that he and his hunting party crossed the Tkashi Ruins without incident during their early days in the jungle. He records it on page twenty-one."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear, sites like Tkashi are grim reminders of the ancient tribal ruins left behind by their hostile Gurubashi kin, now fiercely defended by savage Bloodscalp holdouts."
+   "text": "As a Darkspear troll, you may see Tkashi as a grim reminder of ancient tribal ruins left by your hostile Gurubashi kin. Savage Bloodscalp holdouts now defend the site."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Tkashi Ruins"
- ]
+ ],
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Kaltunk",
   "refs": 1
  },
- "summary": "At the heart of the Valley of Trials in Durotar, Kaltunk welcomes young orcs and points them toward their first duties for the Horde.",
+ "summary": "In Durotar's Valley of Trials, Kaltunk welcomes young orcs and points them toward their first duties for the Horde.",
  "sections": [
   {
    "title": "The First Step",
-   "body": "Kaltunk watches over new arrivals in the Valley of Trials and directs them toward Gornek and the path of discipline. While trainers and elders set trials and hunting rites, the orc overseer gives recruits clear orders so they know where to go.",
+   "body": "Kaltunk watches over new arrivals in the Valley of Trials. He directs them to Gornek and the path of discipline. Trainers and elders set trials and hunting rites, while Kaltunk gives recruits clear orders so they know where to go.",
    "spoiler": 0
   },
   {
    "title": "Keeper of the Valley",
-   "body": "The Valley of Trials was chosen to test the strength and resilience of the youths who walk its canyon floors. Kaltunk brings the same rugged practicality to his work. He offers no grand speeches or coddling, and expects each orc to find a place in the world and serve the warchief.",
+   "body": "The Valley of Trials was chosen to test the strength and resilience of youths walking its canyon floors. Kaltunk brings the same rugged practicality to his work. He offers no grand speeches or coddling. Each orc must find a place in the world and serve the warchief.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is this orc",
     "kaltunk npc"
    ],
-   "answer": "Kaltunk is an orc overseer in the Valley of Trials. Newly awakened orc adventurers encounter him first, and he points them toward their mentors and the start of their training."
+   "answer": "Kaltunk is an orc overseer in the Valley of Trials. Newly awakened orc adventurers meet him first, and he points them toward their mentors and the start of their training."
   },
   {
    "q": "What does Kaltunk do for new adventurers?",
@@ -84,5 +84,5 @@
  "attribution": [
   "Kaltunk"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:80"
   ]
  },
- "summary": "Commander Althea Ebonlocke has a torn, bloodstained journal page examined during the investigation into Stalvan Mistmantle. A few words remain legible, and she asks Clerk Daltry to compare the handwriting with the Town Registry.",
+ "summary": "During the investigation into Stalvan Mistmantle, Commander Althea Ebonlocke has a torn, bloodstained journal page examined. A few words remain legible, so she asks Clerk Daltry to compare its handwriting with the Town Registry.",
  "sections": [
   {
    "title": "A Grim Piece of Evidence",
-   "body": "Commander Althea Ebonlocke watches over Darkshire and asks that the handwriting on a torn, bloodstained page be examined. Though thick blood covers it, a few words remain legible for Clerk Daltry to compare with the Town Registry.",
+   "body": "Commander Althea Ebonlocke watches over Darkshire and asks for the handwriting on a torn, bloodstained page to be examined. Thick blood covers it, but a few words remain legible. Clerk Daltry is asked to compare them with the Town Registry.",
    "spoiler": 0
   },
   {
    "title": "Handwriting and Guilt",
-   "body": "Clerk Daltry keeps the registry in Darkshire's Town Hall and knows local handwriting from years of archiving signatures. He compares the page with municipal records and confirms that Stalvan wrote it, leaving no doubt of the tutor's guilt.",
+   "body": "Clerk Daltry keeps the registry in Darkshire's Town Hall. Years of archiving signatures have taught him local handwriting. He compares the page with municipal records and confirms Stalvan wrote it. The tutor's guilt is beyond doubt.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "stalvan journal page",
     "blood page"
    ],
-   "answer": "It is a torn, bloodstained page examined during the investigation into Stalvan Mistmantle. Commander Althea Ebonlocke asks Clerk Daltry to check its handwriting."
+   "answer": "The torn, bloodstained journal page is being examined in the investigation into Stalvan Mistmantle. Commander Althea Ebonlocke asks Clerk Daltry to check its handwriting."
   },
   {
    "q": "Who can confirm who wrote this page?",
@@ -40,7 +40,7 @@
     "clerk daltry journal",
     "who identifies handwriting"
    ],
-   "answer": "Clerk Daltry in Darkshire's Town Hall can confirm who wrote the page. He keeps the town registry and compares its script with old signatures to verify Stalvan's handwriting."
+   "answer": "Clerk Daltry in Darkshire's Town Hall can confirm who wrote the page. He keeps the town registry and compares the writing with old signatures to verify Stalvan's hand."
   },
   {
    "q": "Why does Althea Ebonlocke need this page examined?",
@@ -48,7 +48,7 @@
     "why althea needs page",
     "why check handwriting"
    ],
-   "answer": "Commander Althea Ebonlocke has watched Stalvan for some time and wants Clerk Daltry to compare the page with the Town Registry. She needs to learn whether both were written by the same hand."
+   "answer": "Commander Althea Ebonlocke has watched Stalvan for some time. She wants Clerk Daltry to compare the page with the Town Registry and learn whether both were written by the same hand."
   },
   {
    "q": "Where does this page lead in the investigation?",
@@ -56,13 +56,13 @@
     "what happens after page",
     "stalvan chain next"
    ],
-   "answer": "The page goes to Clerk Daltry in Darkshire, where he compares its handwriting with the registry. After his examination, the investigation continues with Commander Ebonlocke."
+   "answer": "The page goes to Clerk Daltry in Darkshire for comparison with the registry. After he examines its handwriting, the investigation continues with Commander Ebonlocke."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For protectors of the realm, Darkshire's Night Watch examines this grim document as evidence in the investigation."
+   "text": "As a protector of the realm, you can see Darkshire's Night Watch examining this grim document as evidence in the investigation."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "A Bloodstained Journal Page",
   "The Legend of Stalvan (11)"
  ],
- "style": 1
+ "style": 2
 }

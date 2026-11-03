@@ -17,16 +17,16 @@
   "wiki": "The Absent Minded Prospector (4)",
   "chain": []
  },
- "summary": "A strange fossil carries a Darkshore mystery across the Great Sea to the Wetlands. Chief Archaeologist Greywhisker sends you to Archaeologist Flagongut in Menethil Harbor, hoping he can unlock its secrets.",
+ "summary": "In Darkshore, a strange fossil draws you across the Great Sea to the Wetlands. Chief Archaeologist Greywhisker sends you to Archaeologist Flagongut in Menethil Harbor, hoping he can unlock its secrets.",
  "sections": [
   {
    "title": "A Curious Discovery",
-   "body": "Chief Archaeologist Greywhisker sees a likeness between the strange fossil from Darkshore and a relic shown at an Explorers' League conference in Ironforge. Archaeologist Flagongut presented that relic and believed such fossils held powers waiting to be unlocked. Greywhisker believes Flagongut is the only dwarf who can discern what makes this Kalimdor find so extraordinary.",
+   "body": "Chief Archaeologist Greywhisker sees a likeness between the strange fossil from Darkshore and a relic shown at an Explorers' League conference in Ironforge. Archaeologist Flagongut presented that relic and believed such fossils held powers waiting to be unlocked. Greywhisker thinks Flagongut is the only dwarf who can discern what makes this Kalimdor find so extraordinary.",
    "spoiler": 0
   },
   {
    "title": "A Voyage Across the Sea",
-   "body": "You carry the mysterious fossil from Kalimdor to the Eastern Kingdoms. Flagongut was last seen lodging at the Deepwater Tavern in Menethil Harbor, waiting for an armed escort to the Whelgar Excavation Site. When you bring him the fossil, a Darkshore survey reaches across continents as part of a wider archaeological inquiry.",
+   "body": "You carry the mysterious fossil from Kalimdor to the Eastern Kingdoms. Flagongut was last seen lodging at the Deepwater Tavern in Menethil Harbor, waiting for an armed escort to the Whelgar Excavation Site. When you bring him the fossil, the Darkshore survey reaches across continents as part of a wider archaeological inquiry.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "greywhisker fossil errand",
     "why wetlands"
    ],
-   "answer": "Chief Archaeologist Greywhisker remembers Archaeologist Flagongut displaying an identical relic at an annual Explorers' League conference in Ironforge. Greywhisker believes Flagongut has the knowledge to unlock its hidden power, and sends you to his last known location at Menethil Harbor."
+   "answer": "Chief Archaeologist Greywhisker remembers Archaeologist Flagongut displaying an identical relic at an annual Explorers' League conference in Ironforge. He believes Flagongut knows how to unlock its hidden power, so he sends you to Flagongut's last known location at Menethil Harbor."
   },
   {
    "q": "Who is Archaeologist Flagongut?",
@@ -79,17 +79,17 @@
     "absent minded prospector part 4",
     "quest chain context"
    ],
-   "answer": "This is the transit leg of the Absent Minded Prospector storyline. After you escort and rescue Prospector Remtravel in Darkshore and examine his excavated relic with Greywhisker, the inquiry moves from northern Kalimdor to Explorers' League experts in the Eastern Kingdoms."
+   "answer": "After you escort and rescue Prospector Remtravel in Darkshore, you examine his excavated relic with Greywhisker. The inquiry then moves from northern Kalimdor to Explorers' League experts in the Eastern Kingdoms."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you see how far the Explorers' League reaches, linking fieldwork in remote Kalimdor with fellow scholars based in Khaz Modan."
+   "text": "As a dwarf, you see how far the Explorers' League reaches. Its fieldwork in remote Kalimdor connects with fellow scholars based in Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer, you travel by Alliance shipping routes across the sea from Kalimdor to Menethil Harbor, keeping League branches connected."
+   "text": "As an Alliance adventurer, you travel by Alliance shipping routes from Kalimdor across the sea to Menethil Harbor. The routes keep League branches connected."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "The Absent Minded Prospector (4)"
  ],
- "style": 1
+ "style": 2
 }

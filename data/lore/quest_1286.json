@@ -21,11 +21,11 @@
    "The Deserters"
   ]
  },
- "summary": "Captain Garran Vimes says deserters have settled into a tower that Theramore had abandoned. The tower stands at Lost Point, which lies southeast of the inn. A man called Jacken leads the deserters, and Vimes wants information about Reethe from him.",
+ "summary": "At Lost Point, Captain Garran Vimes questions deserters who took Theramore’s abandoned tower.",
  "sections": [
   {
    "title": "A Tower Taken",
-   "body": "Vimes admits that holding on in the marsh has been a struggle, though the resolve of Vimes's people has kept several defensive watchtowers standing. Scouting reports say deserters have moved into an abandoned one at Lost Point, which lies southeast of the inn. A man named Jacken leads them. Vimes asks you to see what information Jacken will give up about Reethe, and warns that Jacken may not part with it easily.",
+   "body": "Captain Garran Vimes struggles to hold the marsh, yet his people keep several watchtowers standing. Scouts have found deserters in an abandoned tower at Lost Point, southeast of the inn. A man named Jacken leads them. Vimes asks you to learn what Jacken knows about Reethe, though the man may not give up the information easily.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "who starts the deserters",
     "who gives the deserters quest"
    ],
-   "answer": "Captain Garran Vimes, whose scouting reports say deserters have settled into one of the towers Theramore abandoned."
+   "answer": "Captain Garran Vimes sends you. His scouts report deserters have settled in a tower Theramore abandoned."
   },
   {
    "q": "Where are the deserters hiding?",
@@ -44,7 +44,7 @@
     "deserters location",
     "where is lost point"
    ],
-   "answer": "At Lost Point, which lies southeast of the inn, in an abandoned tower in Dustwallow Marsh."
+   "answer": "The deserters are hiding at Lost Point, southeast of the inn, in an abandoned tower in Dustwallow Marsh."
   },
   {
    "q": "Who leads the deserters at Lost Point?",
@@ -52,7 +52,7 @@
     "who is balos jacken",
     "deserter leader"
    ],
-   "answer": "A man called Jacken, or Balos Jacken, leads them. Vimes warns that Jacken may not give up information easily."
+   "answer": "A man called Jacken, also known as Balos Jacken, leads the deserters. Vimes warns that Jacken may not give up information easily."
   },
   {
    "q": "What does Captain Vimes want from Balos Jacken?",
@@ -60,7 +60,7 @@
     "why find jacken",
     "what does vimes want"
    ],
-   "answer": "Information about Reethe, from Jacken and the deserters."
+   "answer": "Captain Vimes wants information about Reethe from Balos Jacken and the deserters."
   }
  ],
  "angles": [],
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Classic quest text: The Deserters"
- ]
+ ],
+ "style": 2
 }

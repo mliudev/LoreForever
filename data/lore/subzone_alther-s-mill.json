@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Alther's Mill"
  },
- "summary": "In the Redridge Mountains, Alther's Mill lies in ruins northeast of Lakeshire. Once it supplied timber to local builders, but now scavengers and predators haunt its grounds. Travelers heading east toward Stonewatch pass this grim mark of the frontier.",
+ "summary": "Northeast of Lakeshire, Alther's Mill lies in ruins, its old grounds haunted by scavengers and predators. Travelers bound east for Stonewatch pass this grim mark of the frontier.",
  "sections": [
   {
    "title": "An Abandoned Frontier Mill",
-   "body": "Alther's Mill once supplied timber for Lakeshire and the nearby settlements. The clearing northeast of Lake Everstill gave millers access to timber in the mountains. Trouble spread across Stormwind's kingdom, and the Blackrock clan came down from the heights of Stonewatch. The millers abandoned their work, leaving the timber buildings and wheel to decay.",
+   "body": "Alther's Mill once supplied timber to Lakeshire and nearby settlements. Its clearing northeast of Lake Everstill gave the millers access to timber in the mountains. As trouble spread through Stormwind's kingdom, the Blackrock clan descended from the heights of Stonewatch. The millers abandoned their work, leaving the timber buildings and wheel to decay.",
    "spoiler": 0
   },
   {
    "title": "Shadows and Scrap",
-   "body": "With the workers gone, monstrous tarantulas, carrion vultures, and raiders took over the mill. Travelers on the path to the eastern passes must skirt its shadowed grounds carefully. Shadowy operatives and thieves also use the abandoned compound. Its discarded storage boxes and hidden corners let them practice lockpicking and carry out covert trades beyond the Lakeshire Town Watch's gaze.",
+   "body": "Monstrous tarantulas, carrion vultures, and raiders took the mill after its workers left. Travelers on the path to the eastern passes must skirt the shadowed grounds with care. Shadowy operatives and thieves also use the abandoned compound. Its discarded storage boxes and hidden corners give them room to practice lockpicking and carry out covert trades beyond the Lakeshire Town Watch's gaze.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "what is this place",
     "what was alther's mill"
    ],
-   "answer": "Alther's Mill lies northeast of Lakeshire in the Redridge Mountains. It once harvested and processed timber for nearby settlements, until dangers in the wilderness forced the millers to leave."
+   "answer": "Alther's Mill lies northeast of Lakeshire in the Redridge Mountains. It once harvested and processed timber for nearby settlements, until dangers in the wilderness drove the millers away."
   },
   {
    "q": "Why is the mill abandoned?",
@@ -38,7 +38,7 @@
     "who abandoned althers mill",
     "what happened to the millers"
    ],
-   "answer": "The mill was abandoned as regional defenses weakened after the First and Second Wars. Giant spiders and Blackrock orcs made the frontier too dangerous for ordinary laborers without royal military protection."
+   "answer": "The millers abandoned Alther's Mill as regional defenses weakened after the First and Second Wars. Giant spiders and Blackrock orcs made the frontier too dangerous for ordinary laborers without royal military protection."
   },
   {
    "q": "What creatures roam around the mill?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Alther's Mill"
  ],
- "style": 1
+ "style": 2
 }

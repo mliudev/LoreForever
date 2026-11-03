@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Circle of West Binding"
  },
- "summary": "The Circle of West Binding is one of several ancient ritual sites scattered across the Arathi Highlands, situated near Thoradin's Wall. Centered around the Stone of West Binding, this arcane ring is overrun by fiery elemental entities bound to the site.",
+ "summary": "Near Thoradin's Wall, Burning Exiles overrun the Circle of West Binding and guard its stone. The ancient ritual site is one of several scattered across the Arathi Highlands.",
  "sections": [
   {
    "title": "The Western Keystone",
-   "body": "Tucked against the rugged slopes near Thoradin's Wall, the Circle of West Binding forms part of a wider network of ritual sites dispersed throughout the Arathi Highlands. At its heart sits the Stone of West Binding, an ancient relic tied to elemental containment. The grounds are swarming with Burning Exiles\u2014volatile fire elementals that relentlessly guard the perimeter, making any approach to the stone a perilous endeavor for travelers traversing the western plains.",
+   "body": "Near Thoradin's Wall, the Stone of West Binding stands at the Circle of West Binding. The site belongs to a wider network of ancient ritual places scattered across the Arathi Highlands. Burning Exiles overrun the grounds and guard the stone. Their fiery presence makes an approach perilous for travelers crossing the western plains.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "stone of west binding",
     "west binding circle"
    ],
-   "answer": "It is an ancient ritual site in western Arathi Highlands, located near Thoradin's Wall. It holds the Stone of West Binding and is fiercely guarded by hostile fire elementals."
+   "answer": "The Circle of West Binding is an ancient ritual site in western Arathi Highlands, near Thoradin's Wall. The Stone of West Binding stands there, guarded by hostile fire elementals."
   },
   {
    "q": "Why are there fire elementals here?",
@@ -32,7 +32,7 @@
     "why fire elementals west binding",
     "elementals circle of west binding"
    ],
-   "answer": "The Burning Exiles inhabit and guard the Stone of West Binding. They are elemental forces drawn or bound to the ancient magical foci constructed across the Arathi Highlands."
+   "answer": "The Burning Exiles inhabit and guard the Stone of West Binding. These elemental forces are drawn or bound to ancient magical foci built across the Arathi Highlands."
   },
   {
    "q": "Who is Ruul Onestone?",
@@ -41,17 +41,17 @@
     "ruul",
     "dwarf at west binding"
    ],
-   "answer": "Ruul Onestone is a Boulderfist ogre mage who prowls the site, a rare and dangerous brute rather than a scholar of the binding stone."
+   "answer": "Ruul Onestone is a Boulderfist ogre mage who prowls the site. He is a rare and dangerous brute, not a scholar of the binding stone."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The binding stones of Arathi offer arcane practitioners insight into how ancient mages and shamans anchored and subdued planar elemental entities."
+   "text": "As a mage, you can find insight in Arathi's binding stones into how ancient mages and shamans anchored and subdued planar elemental entities."
   },
   {
    "target": "class:Shaman",
-   "text": "The volatile presence of the Burning Exiles reveals the lingering elemental unrest tethered to these ancient Arathi keystones."
+   "text": "As a shaman, you can read the Burning Exiles' volatile presence as a sign of elemental unrest still tethered to these ancient Arathi keystones."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Circle of West Binding"
- ]
+ ],
+ "style": 2
 }

@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Rogue"
  },
- "summary": "Rogues are masters of stealth, espionage, and sudden, lethal combat who dictate the terms of engagement from the shadows. Relying on light leather armor, dual-wielded blades, and brewed toxins, they strike unawares before vanishing back into the dark. Across Azeroth, they serve as scouts, assassins, pickpockets, and agents for factions and hidden syndicates alike.",
+ "summary": "Across Azeroth, Rogues choose when to face danger and when to slip away unseen. Light leather, paired blades, and brewed toxins let them strike before foes can react. They serve as scouts, assassins, pickpockets, and agents of factions and hidden syndicates.",
  "sections": [
   {
    "title": "Strike from the Shadows",
-   "body": "Rogues eschew the heavy plate and open confrontation of traditional frontline warriors. Clad in lightweight leather to remain completely silent and mobile, they stalk their quarry unseen. When they engage, they seize the opening moments through precision and surprise, aiming for vital organs or exposed joints. Utilizing an ever-flowing pool of energy and rapid weapon combinations, a rogue softens up an enemy with carefully chained strikes before unleashing a catastrophic finishing blow.",
+   "body": "Rogues favor quiet, quick attacks over the open clashes of frontline warriors. In light leather, they stalk their quarry unseen. When an opening comes, they strike with precision at vital organs or exposed joints. A swift chain of blows weakens an enemy, and a finishing strike can end the fight.",
    "spoiler": 0
   },
   {
    "title": "Poisons and Street Smarts",
-   "body": "A blade alone is rarely enough for a professional cutpurse or killer. Rogues are skilled alchemists of lethal concoctions, hand-crafting venomous coatings to numb limbs, slow escapes, or rapidly sap the vitality of their targets. Coupled with lockpicking tools, thrown weapons, and distracting trickery, they excel at slipping past fortified perimeters, disarming traps, and infiltrating vaults that would stump a company of soldiers.",
+   "body": "A blade alone rarely serves a cutpurse or killer. Rogues brew venoms to numb limbs, slow an escape, or drain a target's strength. Lockpicks, thrown weapons, and tricks that draw attention elsewhere help them slip past guarded walls, disarm traps, and enter vaults that would confound a company of soldiers.",
    "spoiler": 0
   },
   {
    "title": "Guilds, Crowns, and Syndicates",
-   "body": "While many rogues operate as lone wolves, highwaymen, or street-level thugs, the finest operatives belong to organized intelligence networks and assassin guilds. Stormwind relies on the clandestine operatives of SI:7, and the Forsaken utilize the relentless Deathstalkers. In Orgrimmar, the shadowy remnants of the Shattered Hand serve the Warchief, while the elite, neutral League of Assassins answers to Lord Jorach Ravenholdt.",
+   "body": "Many rogues work alone as highwaymen or street thugs. The finest join intelligence networks and assassin guilds. Stormwind relies on SI:7, while the Forsaken rely on the relentless Deathstalkers. In Orgrimmar, remnants of the Shattered Hand serve the Warchief. The neutral League of Assassins answers to Lord Jorach Ravenholdt.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what can rogues equip",
     "rogue armor type"
    ],
-   "answer": "Rogues wear leather armor to ensure they can move silently and swiftly without encumbrance. In combat, they dual-wield one-handed armaments, most notably daggers, swords, maces, and fist weapons. They also carry silent ranged weapons such as throwing knives, bows, or crossbows for utility and pulling marks."
+   "answer": "Rogues wear leather armor and favor one-handed weapons, often wielding a blade in each hand. They use daggers, swords, maces, and fist weapons. For ranged attacks, they carry throwing knives, bows, or crossbows."
   },
   {
    "q": "How does stealth work for a rogue?",
@@ -42,7 +42,7 @@
     "can rogues turn invisible",
     "stealth lore"
    ],
-   "answer": "Stealth is a disciplined blend of light-footed movement, exploiting shadows, and subtle mysticism. It renders a rogue practically invisible to distant onlookers, though moving too close to an alert guard or enemy can give away their presence. Entering stealth allows rogues to position behind prey to deliver devastating ambushes, garrotes, and disabling strikes."
+   "answer": "A rogue uses quiet steps and shadow to pass unseen from a distance. An alert guard or enemy may spot one who moves too close. From stealth, rogues can get behind a foe and strike with ambushes, garrotes, or blows that disable."
   },
   {
    "q": "What is the Ravenholdt League?",
@@ -51,7 +51,7 @@
     "assassins league",
     "lord jorach ravenholdt"
    ],
-   "answer": "The League of Assassins, headquartered at Ravenholdt Manor in the Alterac Mountains, is an ancient, clandestine brotherhood led by Lord Jorach Ravenholdt. Unlike faction-bound intelligence units, Ravenholdt is a guild dedicated purely to the discipline, honor, and business of the assassin's craft, taking contracts regardless of political allegiance."
+   "answer": "The League of Assassins is an ancient, secretive brotherhood based at Ravenholdt Manor in the Alterac Mountains and led by Lord Jorach Ravenholdt. Free of faction ties, the guild devotes itself to the discipline, honor, and business of assassination. It takes contracts without regard to political allegiance."
   },
   {
    "q": "What is SI:7?",
@@ -60,7 +60,7 @@
     "si7",
     "stormwind intelligence"
    ],
-   "answer": "SI:7 is the premier covert intelligence and reconnaissance wing of the Kingdom of Stormwind. Headquartered in Stormwind City, its field agents, snipers, and thieves handle espionage, high-profile assassinations, and border reconnaissance to protect Alliance interests across Azeroth."
+   "answer": "SI:7 is Stormwind's chief covert intelligence and reconnaissance wing, based in Stormwind City. Its field agents, snipers, and thieves carry out espionage, high-profile assassinations, and border reconnaissance to protect Alliance interests across Azeroth."
   },
   {
    "q": "How do rogues fight in prolonged combat?",
@@ -69,7 +69,7 @@
     "combo points lore",
     "how do rogues fight"
    ],
-   "answer": "When an assassination cannot be completed in an initial strike, a rogue uses agility and footwork to evade return blows. They execute sequential, rapid attacks with their dual weapons to exploit weaknesses\u2014building tactical openings that culminate in lethal finishing blows like ruptures or eviscerations."
+   "answer": "When a first strike fails to end a fight, rogues use agility and footwork to avoid counterblows. They attack in quick succession with paired weapons, find openings, then finish with lethal moves such as ruptures or eviscerations."
   },
   {
    "q": "Do rogues use magic?",
@@ -77,7 +77,7 @@
     "is rogue stealth magic",
     "do rogues cast spells"
    ],
-   "answer": "Most rogues rely primarily on physical conditioning, martial training, alchemical concoctions, and mundane stealth. However, advanced practitioners often weave minor mysticism or shadow magic into their repertoire, helping them conceal their physical form, slip into shadows in broad daylight, and vanish instantly from sight."
+   "answer": "Most rogues depend on physical conditioning, martial training, alchemy, and ordinary stealth. Skilled practitioners may also use minor mysticism or shadow magic to conceal themselves, slip into shadows in daylight, or vanish from sight."
   },
   {
    "q": "Which races can be rogues?",
@@ -86,21 +86,21 @@
     "rogue races",
     "can tauren be rogues"
    ],
-   "answer": "Every race but the tauren: humans, dwarves, gnomes and night elves in the Alliance, orcs, trolls and the Forsaken in the Horde, and the Skyborne on both sides."
+   "answer": "All races except the tauren can be rogues: humans, dwarves, gnomes, and night elves in the Alliance; orcs, trolls, and the Forsaken in the Horde; and the Skyborne on either side."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For a rogue, every mission is an exercise in leverage, patience, and lethal precision, whether working as an operative for high command or picking pockets in city alleys."
+   "text": "As a rogue, you rely on patience and precision, whether you serve high command or pick pockets in city alleys."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance clandestine power runs through organizations like Stormwind's SI:7, which handles internal subversion and foreign threats."
+   "text": "The Alliance's covert strength includes Stormwind's SI:7, which handles threats within its borders and beyond them."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde depends on the espionage of the Shattered Hand in Orgrimmar and Sylvanas Windrunner's feared Deathstalkers in the Undercity to scout enemy territory and eliminate threats quietly."
+   "text": "The Horde relies on the Shattered Hand in Orgrimmar and Sylvanas Windrunner's feared Deathstalkers in the Undercity to scout enemy territory and quietly eliminate threats."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Rogue"
- ]
+ ],
+ "style": 2
 }

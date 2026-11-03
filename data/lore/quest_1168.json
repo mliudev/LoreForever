@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Dustwallow Marsh"
  },
- "summary": "In Brackenwall Village, the ogre Tharg wants vengeance on the army of the black dragon. Tharg resents Overlord Mok'Morokk for telling the ogres to run rather than fight, and asks you to strike at the Firemane.",
+ "summary": "In Brackenwall Village, the Army of the Black Dragon has left Tharg grieving and thirsting for vengeance. He blames Overlord Mok'Morokk for ordering the ogres to flee.",
  "sections": [
   {
    "title": "A Grievance of Blood",
-   "body": "Black dragons killed many ogres, and Tharg's wife was among the dead. Mok'Morokk, whom Rexxar made Overlord, told the survivors to run, and that is how they came to Brackenwall Village. Tharg says ogres are poor at running and ought to fight, and he believes Mok'Morokk cares only for Mok'Morokk. Tharg also says that Mok'Morokk tells all ogres to stay put and keep this place safe.",
+   "body": "Black dragons killed Tharg's wife along with many ogres. After Rexxar made Mok'Morokk Overlord, the new leader ordered the survivors to run until they reached Brackenwall Village. Tharg says ogres are poor at running and should fight instead. He believes Mok'Morokk thinks only of himself, though Mok'Morokk now tells all ogres to stay put and keep Brackenwall Village safe.",
    "spoiler": 0
   },
   {
    "title": "Home in the South",
-   "body": "Tharg calls the Stonemaul Ruins his home and likes it in the south. Brackenwall Village is not home to him. He wants revenge on the black dragon army and wants the old home back, so he asks you to cut down Firemane Scouts and Firemane Ash Tails among its ranks.",
+   "body": "Tharg calls the Stonemaul Ruins his home and likes the south. Brackenwall Village is no home to him. He wants revenge on the black dragon army and a return to the ruins, so he asks you to cut down Firemane Scouts and Firemane Ash Tails among its ranks.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who is tharg",
     "tharg dustwallow"
    ],
-   "answer": "Tharg is an ogre living in Brackenwall Village. His wife was killed by black dragons, and he wants revenge and a return to the Stonemaul Ruins."
+   "answer": "Tharg is an ogre living in Brackenwall Village. Black dragons killed his wife, and he seeks revenge and a return to the Stonemaul Ruins."
   },
   {
    "q": "Why does Tharg dislike Overlord Mok'Morokk?",
@@ -48,7 +48,7 @@
     "mok'morokk coward",
     "tharg and mok morokk"
    ],
-   "answer": "Rexxar made Mok'Morokk Overlord, but Tharg says he cares more for power than for ogres. When the black dragons killed many ogres, Mok'Morokk told the rest to run, and Tharg thinks ogres should fight."
+   "answer": "Rexxar made Mok'Morokk Overlord, but Tharg believes he cares more for himself than for the ogres. When black dragons killed many ogres, Mok'Morokk ordered the survivors to run. Tharg believes ogres should fight."
   },
   {
    "q": "What happened to Tharg's wife?",
@@ -57,7 +57,7 @@
     "what happened to thargs wife",
     "tharg wife dead"
    ],
-   "answer": "Black dragons killed her, along with many other ogres. It is the root of Tharg's wish for revenge."
+   "answer": "Black dragons killed Tharg's wife along with many other ogres. Her death fuels his wish for revenge."
   },
   {
    "q": "Where is the ogres' old home?",
@@ -66,7 +66,7 @@
     "where did ogres come from",
     "stonemaul ruins history"
    ],
-   "answer": "Tharg calls the Stonemaul Ruins home and likes it in the south. He says Brackenwall Village is not home, and he wants to go back."
+   "answer": "Tharg calls the Stonemaul Ruins his home and likes the south. Brackenwall Village is not home to him, and he wants to return to the ruins."
   },
   {
    "q": "Which enemies make up the army of the black dragon?",
@@ -75,7 +75,7 @@
     "who to kill army of black dragon",
     "firemane enemies"
    ],
-   "answer": "Tharg points you at the Firemane, among them Firemane Scouts and Firemane Ash Tails."
+   "answer": "Tharg points you toward the Firemane, including Firemane Scouts and Firemane Ash Tails."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Army of the Black Dragon"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Tenaron's Summons",
   "chain": []
  },
- "summary": "In Shadowglen, Tenaron's Summons calls you to Aldrassil. After helping Gilshalan Windwalker with woodland dangers, you are asked to meet Tenaron Stormgrip high in the great tree. The call draws you from local troubles toward the spiritual afflictions touching Teldrassil.",
+ "summary": "In Shadowglen, Gilshalan Windwalker sends you to meet Tenaron Stormgrip in Aldrassil. Your work against dangers in the woods has brought the elder's attention.",
  "sections": [
   {
    "title": "A Call to the Boughs",
-   "body": "Your work against the venomous spiders and corrupted wildlife in the glen has reached Tenaron Stormgrip. Gilshalan Windwalker tells you the elder has asked for your presence. Even night elves, with their long lives, know better than to keep an elder waiting atop Aldrassil.",
+   "body": "Your fight against venomous spiders and corrupted wildlife has reached Tenaron Stormgrip. Gilshalan Windwalker tells you the elder wants to see you. Even night elves know better than to keep an elder waiting atop Aldrassil.",
    "spoiler": 0
   },
   {
    "title": "Ascending Aldrassil",
-   "body": "Tenaron waits in Aldrassil's highest chamber, looking across Shadowglen's boughs. Meeting him brings you into wider concerns of stewardship, including the cleansing of Teldrassil's moonwells and the corruption spreading through the young World Tree's ecosystem.",
+   "body": "Tenaron waits in Aldrassil's highest chamber and looks across Shadowglen's boughs. His concerns reach beyond the glen, to Teldrassil's moonwells and the corruption spreading through the young World Tree's ecosystem.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who is tenaron",
     "tenaron stormgrip lore"
    ],
-   "answer": "Tenaron Stormgrip is a night elf who lives in Aldrassil's highest chamber in Shadowglen. He oversees the glen's spiritual care and efforts to watch over and cleanse Teldrassil's sacred waters."
+   "answer": "Tenaron Stormgrip is a night elf who lives in Aldrassil's highest chamber in Shadowglen. He oversees the glen's spiritual care and the work to watch over and cleanse Teldrassil's sacred waters."
   },
   {
    "q": "Where do I find Tenaron Stormgrip?",
@@ -46,7 +46,7 @@
     "tenaron location",
     "where is tenaron"
    ],
-   "answer": "Tenaron Stormgrip waits in the highest room of Aldrassil, the great hollow tree in Shadowglen. Climb the winding ramps inside to reach his chamber near the crown."
+   "answer": "Tenaron Stormgrip waits in Aldrassil's highest room, in Shadowglen. Climb the winding ramps inside the great hollow tree to reach his chamber near the crown."
   },
   {
    "q": "Why does Tenaron summon me?",
@@ -78,7 +78,7 @@
     "aldrassil lore",
     "what is aldrassil"
    ],
-   "answer": "Aldrassil is a great tree in Shadowglen, with a hollow trunk that holds the central settlement and training sanctuary for young night elves on Teldrassil."
+   "answer": "Aldrassil is a great tree in Shadowglen. Its hollow trunk holds the central settlement and training sanctuary for young night elves on Teldrassil."
   }
  ],
  "angles": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Tenaron's Summons"
  ],
- "style": 1
+ "style": 2
 }

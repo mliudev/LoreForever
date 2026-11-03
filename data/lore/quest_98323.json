@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dun Morogh is the ancestral mountain home of the Bronzebeard dwarves, making Mountaineer Gretchen's stubborn vigil a vital effort to protect her kin from surrounding perils."
+   "text": "Dun Morogh is the ancestral mountain home of the Bronzebeard dwarves. Mountaineer Gretchen's stubborn vigil helps protect her kin from the dangers around them."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing the high passes around Ironforge is essential for preserving safe travel and defense across the Alliance's snowy stronghold in Khaz Modan."
+   "text": "Safe high passes around Ironforge matter to travel and defense across the Alliance's snowy stronghold in Khaz Modan."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "mountaineer gretchen lore",
     "who is gretchen"
    ],
-   "answer": "Mountaineer Gretchen is an Ironforge sentry stationed out in the snowy wilderness of Dun Morogh. Dedicated to her duty, she refuses to abandon her post on the mountain until the surrounding territory is deemed secure. Following a deadly scouting mission into a nearby cave, she writes an official field report detailing the heavy enemy presence and dispatches it to Kharanos.",
+   "answer": "Mountaineer Gretchen is an Ironforge sentry in Dun Morogh's snowy wilderness. After a deadly scouting effort in a nearby cave, she writes a field report on the hostile creatures and sends it to Kharanos. She remains at her post until the surrounding territory is secure.",
    "q": "Who is Mountaineer Gretchen?"
   },
   {
@@ -37,7 +37,7 @@
     "whitebeard kharanos",
     "who is senir"
    ],
-   "answer": "Senir Whitebeard is a dwarven authority stationed in the town of Kharanos. He acts as an intelligence gatherer and coordinator for local security operations across Dun Morogh, receiving dispatches and scouting assessments from mountaineers in the field. When informed of dangerous enemy incursions or lost caverns, he catalogs the reports into his official records to assess the regional threat level.",
+   "answer": "Senir Whitebeard is a dwarven authority in Kharanos. He coordinates local security across Dun Morogh and receives dispatches and scouting assessments from mountaineers in the field. He catalogs the reports to assess threats across the region.",
    "q": "Who is Senir Whitebeard?"
   },
   {
@@ -47,7 +47,7 @@
     "what happened to cornelius",
     "cornelius secure the mountain"
    ],
-   "answer": "Cornelius was an associate or fellow scout involved in the exploration of the infested cavern on the mountain. Mountaineer Gretchen mentions his tragic fate with regret, indicating that he was lost during the ill-fated reconnaissance effort. His demise directly influenced Gretchen's decision to deem the cavern a lethal death trap and forbid any further lives from being squandered inside.",
+   "answer": "Cornelius was a fellow scout who explored the infested cavern. He died in the failed scouting effort, and Mountaineer Gretchen speaks of his loss with regret. His death helped convince her the cave was a deadly trap and no more scouts should enter.",
    "q": "Who was Cornelius?"
   },
   {
@@ -56,7 +56,7 @@
     "why is the cave a death trap",
     "cave lost cause"
    ],
-   "answer": "An exploration of the cavern proved disastrous when scouts discovered that the tunnels were completely overrun by hostile mongrels. The mission resulted in the tragic loss of Cornelius. Following this grim discovery, Mountaineer Gretchen declared the subterranean passage to be a lost cause and determined that sending more personnel inside would be suicidal, opting instead to seal off or avoid the area.",
+   "answer": "Scouts found the mountain cavern overrun by hostile mongrels, and Cornelius died in the effort. Mountaineer Gretchen judged the tunnels a lost cause and refused to risk more scouts there. She chose to avoid the area.",
    "q": "What happened in the mountain cave?"
   },
   {
@@ -65,7 +65,7 @@
     "gretchen post",
     "why stay on the mountain"
    ],
-   "answer": "Mountaineer Gretchen takes her oath to protect Dun Morogh seriously and firmly declares that she will not abandon her position until the mountain itself is secure. Although she recognizes that the nearby cavern is too dangerous to retake, she remains on the snowy heights to guard the approach and keep watch while sending word of the threat back to Kharanos.",
+   "answer": "Mountaineer Gretchen says she will not abandon her post until the mountain is secure. Though the nearby cavern is too dangerous to retake, she stays on the snowy heights to watch the approach and sends word of the threat to Kharanos.",
    "q": "Why does Gretchen refuse to leave her post?"
   },
   {
@@ -74,7 +74,7 @@
     "whitebeard report reaction",
     "what does senir do"
    ],
-   "answer": "Senir Whitebeard is hardly surprised to learn that the cavern is entirely overrun, suggesting that such hostile infestations have become an all too common problem across Dun Morogh. Rather than expressing shock, he stoically accepts the bad news and folds Gretchen's written dispatch into his growing pile of notes, keeping a meticulous record of the hazards menacing the realm.",
+   "answer": "Senir Whitebeard is hardly surprised to hear the cavern is overrun. He accepts the news and adds Gretchen's dispatch to his growing stack of notes, keeping a careful record of the dangers facing the realm.",
    "q": "How does Senir Whitebeard react to Gretchen's report?"
   },
   {
@@ -83,7 +83,7 @@
     "what are mountaineers",
     "dwarf mountaineers lore"
    ],
-   "answer": "The Mountaineers serve as the vigilant frontier scouts and border guards of Ironforge, patrolling the treacherous snow-covered peaks, high trails, and mountain passes of Dun Morogh. Stationed far from the warmth of the capital, these hardy dwarves monitor hostile beast movements, scout out caverns, and report critical intelligence back to local hubs like Kharanos to protect travelers and settlements.",
+   "answer": "Mountaineers are Ironforge's frontier scouts and border guards in Dun Morogh. These hardy dwarves patrol snowy peaks, high trails and passes, watch for hostile beasts, explore caverns, and report dangers to places like Kharanos. Their work protects travelers and settlements.",
    "q": "What role do the Mountaineers play in Dun Morogh?"
   }
  ],
@@ -103,23 +103,24 @@
  ],
  "sections": [
   {
-   "body": "Stationed out in the freezing peaks of Dun Morogh, Mountaineer Gretchen stands watch with orders to ensure the high passes remain safe. However, a recent foray into a nearby cavern reveals that the wilderness is far from pacified. Having assessed the situation, Gretchen concludes that the cave has become a complete death trap, overrun by hostile mongrels. Rather than risk further lives, she remains at her post on the slopes, determined to hold the line while dispatching an emissary to deliver her written assessment.",
+   "body": "Mountaineer Gretchen watches Dun Morogh's high passes from her post in the freezing peaks. A recent venture into a nearby cavern showed her how dangerous the wilderness remains. Hostile mongrels overrun its tunnels, and she judges the cave a death trap. Gretchen will risk no more lives there. She holds the line on the slopes and sends an emissary with her written assessment.",
    "spoiler": 0,
    "title": "A Grim Report"
   },
   {
-   "body": "The decision to abandon further incursions into the cavern follows a costly sacrifice. Among the casualties of the failed scouting effort was Cornelius, whose loss weighs heavily on Mountaineer Gretchen. Conceding that the cavern cannot be reclaimed under current conditions, she orders a halt to all further exploratory missions into the subterranean tunnels. Her priority shifts from offensive clearing to defensive containment, refusing to needlessly sacrifice any more scouts to the vicious creatures lurking beneath the snowy crags.",
+   "body": "Cornelius was among those lost in the failed scouting effort, and his death weighs heavily on Mountaineer Gretchen. She admits the cavern cannot be reclaimed under current conditions, so she halts further exploration of its tunnels. Her concern now is holding the threat back. She will sacrifice no more scouts to the creatures beneath the snowy crags.",
    "spoiler": 1,
    "title": "Losses in the Depths"
   },
   {
-   "body": "In the bustling settlement of Kharanos, Senir Whitebeard tracks the numerous dangers encroaching on the dwarven heartland. Upon receiving Gretchen's grim assessment, Whitebeard shows little surprise at the news that the cavern is completely overrun. Resigned to the grim reality facing Dun Morogh, he quietly folds Gretchen's letter into his growing stack of field reports. The intelligence serves as another sobering piece of documentation in Ironforge's broader effort to catalog and manage the volatile frontier.",
+   "body": "From Kharanos, Senir Whitebeard tracks dangers to the dwarven heartland. Gretchen's report brings little surprise: the cavern is overrun. He adds her letter to his growing stack of field reports. Each account helps Ironforge record and manage the dangers along its frontier.",
    "spoiler": 0,
    "title": "Senir Whitebeard's Dossier"
   }
  ],
- "summary": "Secure the Mountain is a scouting report delivered on behalf of Mountaineer Gretchen to Senir Whitebeard in Kharanos. After an expedition into a nearby cave proves catastrophic, Gretchen determines the cavern is a lost cause and refuses to send any more scouts into the overrun death trap. The mission highlights the ongoing struggle of Ironforge's mountaineers to keep Dun Morogh safe amidst rising threats.",
+ "summary": "Mountaineer Gretchen sends a grim report from Dun Morogh to Senir Whitebeard in Kharanos. Scouts have found a nearby cave overrun, and she will risk no more lives in its tunnels. Ironforge must still guard the mountain frontier from rising threats.",
  "attribution": [
   "In-game quest text: Secure the Mountain"
- ]
+ ],
+ "style": 2
 }

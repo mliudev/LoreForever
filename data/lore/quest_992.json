@@ -24,21 +24,21 @@
    "Rise of the Silithid"
   ]
  },
- "summary": "Senior Surveyor Fizzledowser in Gadgetzan is hiring a temporary junior-grade surveyor for the Gadgetzan Water Company. With the nomads seizing the company's wells, you are handed a dowsing widget to tap a sample from the pool near Sandsorrow Watch.",
+ "summary": "Gadgetzan needs water, and Senior Surveyor Fizzledowser is searching the desert for a new source. The Gadgetzan Water Company has lost every well to the nomads, so Fizzledowser hires you to sample a pool near Sandsorrow Watch.",
  "sections": [
   {
    "title": "A Company in Need of Water",
-   "body": "The nomads have seized all the wells of the Gadgetzan Water Company, so the company must find more free sources of water. Senior Surveyor Fizzledowser believes the desert holds some, though only for those clever enough to survey first, and wants a temporary junior-grade surveyor to help.",
+   "body": "The Gadgetzan Water Company has lost every well to the nomads. Now Senior Surveyor Fizzledowser hopes to find other free sources in the desert, but the search calls for a survey. The company needs a temporary junior-grade surveyor to help.",
    "spoiler": 0
   },
   {
    "title": "Sampling at Sandsorrow Watch",
-   "body": "You are given an untapped dowsing widget and sent to the pool near Sandsorrow Watch. The pool lies due west of Gadgetzan and south of Zul'Farrak, within view of the trolls nearby. The aim is to tap a sample of its water with the widget and bring the tapped widget back to Fizzledowser.",
+   "body": "Fizzledowser gives you an untapped dowsing widget and sends you to the pool near Sandsorrow Watch. It lies due west of Gadgetzan and south of Zul'Farrak, within view of nearby trolls. Use the widget to tap a water sample, then return it to Fizzledowser.",
    "spoiler": 0
   },
   {
    "title": "Back With Fizzledowser",
-   "body": "When you return, Fizzledowser hears that you were ambushed by some bad mojo creepy-crawly, and admits that reports have been coming in of crazy bug-creatures sucking up the desert's water. Fizzledowser took them for nonsense at first, most likely more trouble from the nomads, but now the truth is known.",
+   "body": "Fizzledowser learns that a bad mojo creepy-crawly ambushed you on the return journey. Reports have also described crazy bug-creatures sucking up the desert's water. Fizzledowser first dismissed the reports as nonsense, likely more trouble from the nomads. Now the truth is known.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "gadgetzan water survey quest giver",
     "who is fizzledowser"
    ],
-   "answer": "Senior Surveyor Fizzledowser, who is hiring a temporary junior-grade surveyor for the Gadgetzan Water Company."
+   "answer": "Senior Surveyor Fizzledowser is hiring a temporary junior-grade surveyor for the Gadgetzan Water Company."
   },
   {
    "q": "Why is the Gadgetzan Water Company searching for new pools?",
@@ -58,7 +58,7 @@
     "why survey water",
     "why need water gadgetzan"
    ],
-   "answer": "The nomads have seized all the company's wells, so it needs other free sources of water."
+   "answer": "The nomads have seized every well belonging to the company, so it needs other free sources of water."
   },
   {
    "q": "Where is the pool to be sampled located?",
@@ -67,7 +67,7 @@
     "sandsorrow watch pool location",
     "where to use dowsing widget"
    ],
-   "answer": "By the pool near Sandsorrow Watch, which lies due west of Gadgetzan and south of Zul'Farrak, within view of the trolls nearby."
+   "answer": "The pool near Sandsorrow Watch lies due west of Gadgetzan and south of Zul'Farrak, within view of nearby trolls."
   },
   {
    "q": "What tool is provided for gathering the sample?",
@@ -75,7 +75,7 @@
     "dowsing widget",
     "what item is used"
    ],
-   "answer": "A dowsing widget, which you use at the pool to tap a sample of the water."
+   "answer": "You use a dowsing widget at the pool to tap a water sample."
   },
   {
    "q": "What follows this step?",
@@ -83,7 +83,7 @@
     "what quest comes next",
     "gadgetzan water survey chain"
    ],
-   "answer": "This opens the chain that continues with the Noxious Lair Investigation."
+   "answer": "This begins a chain that continues with the Noxious Lair Investigation."
   }
  ],
  "angles": [],
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Gadgetzan Water Survey"
- ]
+ ],
+ "style": 2
 }

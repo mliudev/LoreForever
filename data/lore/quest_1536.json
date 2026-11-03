@@ -17,16 +17,16 @@
   "wiki": "Call of Water (4)",
   "chain": []
  },
- "summary": "You set out from the Barrens for a pure spring in Forsaken-held Tarren Mill. The water will help Brine prepare the Water Sapta, and its survival offers a lesson in hope.",
+ "summary": "You leave the Barrens for a pure spring in Forsaken-held Tarren Mill. Its water will help Brine prepare the Water Sapta, and its survival offers hope.",
  "sections": [
   {
    "title": "A Miraculous Spring",
-   "body": "Brine sends you across the sea to Tarren Mill in Hillsbrad Foothills for water to prepare the Water Sapta. Human resistance and the newly allied Forsaken surround the town, yet its small central well gives pure spring water. To Brine, the spring is a sacred remnant of cleanliness in an unhallowed land.",
+   "body": "Brine sends you across the sea to Tarren Mill in Hillsbrad Foothills. She needs water there to prepare the Water Sapta. Human resistance and the newly allied Forsaken surround the town, yet its small central well gives pure spring water. To Brine, it is a sacred remnant of cleanliness in an unhallowed land.",
    "spoiler": 0
   },
   {
    "title": "Endurance in Darkness",
-   "body": "Brine sees the pure well in Tarren Mill as more than an ingredient. She compares its endurance to Warchief Thrall, who bore hardship, captivity, and sorrow before rising to lead the orcish people. Thrall gives the Horde hope, and the well shows that life and purity can endure through tragedy and corruption.",
+   "body": "For Brine, the pure well in Tarren Mill is more than an ingredient. She sees its endurance in Warchief Thrall, who bore hardship, captivity, and sorrow before rising to lead the orcish people. Thrall gives the Horde hope. The well shows that life and purity can endure through tragedy and corruption.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is the well",
     "call of water well location"
    ],
-   "answer": "You draw the sample from the well in the center of Tarren Mill, an old human settlement in Hillsbrad Foothills now held by the Forsaken."
+   "answer": "You draw the sample from the well at the center of Tarren Mill, an old human settlement in Hillsbrad Foothills now held by the Forsaken."
   },
   {
    "q": "Why does Brine send you so far away for water?",
@@ -47,7 +47,7 @@
     "why hillsbrad water",
     "why brine wants this water"
    ],
-   "answer": "Brine needs distinct water essences to brew the Water Sapta, which lets shamans perceive elemental spirits. She found this spring on an earlier journey into Hillsbrad and values its purity amid Forsaken decay as both potent and instructive."
+   "answer": "Brine needs distinct water essences to brew the Water Sapta, which lets shamans perceive elemental spirits. She found this spring on an earlier journey into Hillsbrad and values its purity amid Forsaken decay as potent and instructive."
   },
   {
    "q": "What is Tarren Mill?",
@@ -55,7 +55,7 @@
     "tarren mill history",
     "who owns tarren mill"
    ],
-   "answer": "Tarren Mill is a modest human town in northern Hillsbrad Foothills, now held by Sylvanas Windrunner's Forsaken as a fortified Horde outpost against local human forces."
+   "answer": "Tarren Mill is a modest human town in northern Hillsbrad Foothills. Sylvanas Windrunner's Forsaken now hold it as a fortified Horde outpost against local human forces."
   },
   {
    "q": "How does this quest connect to Thrall?",
@@ -71,7 +71,7 @@
     "what next call of water",
     "after tarren mill water"
    ],
-   "answer": "Brine accepts the filled red waterskin and tells you she needs one more distinct water sample to finish the reagent mixture for your Water Sapta."
+   "answer": "Brine accepts the filled red waterskin. She tells you she needs one more distinct water sample to finish the reagent mixture for your Water Sapta."
   },
   {
    "q": "Why is the well's purity considered unusual?",
@@ -79,17 +79,17 @@
     "why is tarren mill water pure",
     "forsaken polluted well"
    ],
-   "answer": "Much of Lordaeron was defiled by the Scourge's plague of undeath, and Forsaken settlements are rarely linked with fresh springs. The central well in Tarren Mill still gives pristine water, a rare uncorrupted remnant."
+   "answer": "Much of Lordaeron was defiled by the Scourge's plague of undeath, and Forsaken settlements are rarely linked with fresh springs. Yet Tarren Mill's central well still gives pristine water, a rare uncorrupted remnant."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you travel far for water, learning to seek harmony and life amid the bitter lands of the Eastern Kingdoms."
+   "text": "As a shaman, you travel far for water. You learn to seek harmony and life amid the bitter lands of the Eastern Kingdoms."
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde warrior or shaman born in Kalimdor, you visit Tarren Mill and meet your uneasy new allies, the Forsaken, at the front line against Hillsbrad's human defenders."
+   "text": "As a Horde warrior or shaman born in Kalimdor, you visit Tarren Mill and meet the Forsaken, your uneasy new allies at the front line against Hillsbrad's human defenders."
   },
   {
    "target": "race:Orc",
@@ -118,5 +118,5 @@
  "attribution": [
   "Call of Water (4)"
  ],
- "style": 1
+ "style": 2
 }

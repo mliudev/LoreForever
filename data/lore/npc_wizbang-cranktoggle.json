@@ -8,16 +8,16 @@
   "wiki": "Wizbang Cranktoggle",
   "refs": 3
  },
- "summary": "On Darkshore, Wizbang Cranktoggle keeps a network of buzzboxes working from Auberdine. The eccentric gnome engineer lives upstairs at the inn, far from the halls of Gnomeregan and Ironforge.",
+ "summary": "In Auberdine, Wizbang Cranktoggle keeps Darkshore’s buzzboxes working. The eccentric gnome engineer lives upstairs at the inn, far from the halls of Gnomeregan and Ironforge.",
  "sections": [
   {
    "title": "An Engineer in Auberdine",
-   "body": "Wizbang Cranktoggle brings Alliance ingenuity to Auberdine. The gnome engineer works on the inn’s upper floor, among tools and spare parts. The night elves here seek harmony with nature and follow ancient customs. Wizbang turns instead to practical mechanical problems, far from the solemn druidic traditions of Kalimdor.",
+   "body": "Wizbang Cranktoggle brings Alliance ingenuity to Auberdine. The gnome engineer works on the inn’s upper floor, among tools and spare parts. The night elves here seek harmony with nature and follow ancient customs. Wizbang tackles practical mechanical problems instead, far from Kalimdor’s solemn druidic traditions.",
    "spoiler": 0
   },
   {
    "title": "The Buzzbox Network",
-   "body": "Along Darkshore’s rugged coast, Wizbang maintains a network of buzzboxes. His devices send automated reports and carry messages over long distances. Coastal weather and hostile wildlife often damage them. Wizbang asks travelers to find parts, salvage tools such as gaffer jacks, and recover electropellers so the network can keep working.",
+   "body": "Along Darkshore’s rugged coast, Wizbang maintains a network of buzzboxes. The devices send automated reports and carry messages over long distances. Coastal weather and hostile wildlife often damage them. So Wizbang asks travelers to find parts, salvage tools such as gaffer jacks, and recover electropellers to keep the network working.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "who is delber cranktoggle",
     "wizbang relatives"
    ],
-   "answer": "Wizbang shares a surname with Delber Cranktoggle, which suggests they may belong to the same family of tinkerers."
+   "answer": "Wizbang shares a surname with Delber Cranktoggle, suggesting they may belong to the same family of tinkerers."
   },
   {
    "q": "Why do the night elves tolerate his tinkering in Auberdine?",
@@ -64,7 +64,7 @@
     "night elves and gnomes",
     "why allow engineering in auberdine"
    ],
-   "answer": "The night elves and gnomes are members of the Grand Alliance. Auberdine offers lodging and refuge to allied races, though gnomish machines contrast with elven harmony with nature."
+   "answer": "The night elves and gnomes belong to the Grand Alliance. Auberdine offers lodging and refuge to allied races, though gnomish machines contrast with elven harmony with nature."
   },
   {
    "q": "What tasks does Wizbang give to adventurers?",
@@ -112,5 +112,5 @@
  "attribution": [
   "Wizbang Cranktoggle"
  ],
- "style": 1
+ "style": 2
 }

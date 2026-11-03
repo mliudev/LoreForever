@@ -18,21 +18,21 @@
   "chain": [],
   "category": "Desolace"
  },
- "summary": "Hornizz Brimbuzzle thinks there is money in the ghosts of the Valley of Bones. He figures the Magram centaurs would pay plenty for ghost energy, and he gives you a crate of ghost magnets to draw the spirits out.",
+ "summary": "Hornizz Brimbuzzle sends you into the Valley of Bones for ghost energy, hoping the Magram will pay well for it.",
  "sections": [
   {
    "title": "A Haunted Valley",
-   "body": "Hornizz points you southeast, to the Valley of Bones, where Magram ghosts walk. It sounds frightening, he admits, but surely it is scarier still for the Magram. He is sure that ghost energy captured there would be worth plenty to those centaurs.",
+   "body": "Hornizz Brimbuzzle sends you southeast to the Valley of Bones, where Magram ghosts walk. The valley sounds frightening to him. Yet he thinks the spirits must frighten the Magram even more, and he is sure the centaurs would pay well for ghost energy captured there.",
    "spoiler": 0
   },
   {
    "title": "Between the Dead Goliaths",
-   "body": "He hands you a crate of ghost magnets. Set down between the two huge skeletons in the valley, known as the Dead Goliaths, a magnet lures the ghosts toward it. From them you take ghost-o-plasm, which is what Hornizz plans to sell to the Magram. He wants eight ghost-o-plasms brought back to him, along with the crate.",
+   "body": "Hornizz Brimbuzzle gives you a crate of ghost magnets. Set one between the two huge skeletons called the Dead Goliaths, and it draws the ghosts toward it. The spirits yield ghost-o-plasm, which Hornizz plans to sell to the Magram. He asks you to bring him eight ghost-o-plasms and the crate.",
    "spoiler": 0
   },
   {
    "title": "Back with the Haul",
-   "body": "When you return, Hornizz notices that some of the ghost-o-plasm has rubbed off on you, and he calls it slimy. He reckons it a fortune in the making, provided the centaurs can be persuaded of what it is.",
+   "body": "Hornizz Brimbuzzle sees ghost-o-plasm rubbed onto you when you return and calls it slimy. He reckons it could make a fortune if the centaurs can be persuaded of what it is.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "brimbuzzle",
     "who gives ghost-o-plasm round up"
    ],
-   "answer": "Hornizz Brimbuzzle keeps a camp just southwest of the Kodo Graveyard in Desolace. He wants to sell ghost energy to the Magram centaurs."
+   "answer": "Hornizz Brimbuzzle keeps a camp southwest of the Kodo Graveyard in Desolace. He wants to sell ghost energy to the Magram centaurs."
   },
   {
    "q": "Where is the Valley of Bones?",
@@ -53,7 +53,7 @@
     "where do i find the ghosts",
     "dead goliaths location"
    ],
-   "answer": "Hornizz places the Valley of Bones to the southeast. The two Dead Goliaths, the big skeletons where the magnet is set, stand at its southern end."
+   "answer": "The Valley of Bones lies southeast of Hornizz Brimbuzzle. The two Dead Goliaths stand at the valley's southern end. They are the great skeletons where you set the magnet."
   },
   {
    "q": "Why does Hornizz want ghost-o-plasm?",
@@ -62,7 +62,7 @@
     "who buys ghost-o-plasm",
     "centaur ghost plasma"
    ],
-   "answer": "He is sure the Magram centaurs would pay plenty for ghost energy captured in the haunted Valley of Bones, and ghost-o-plasm is what he means to sell them."
+   "answer": "Hornizz Brimbuzzle believes the Magram centaurs will pay well for ghost energy captured in the haunted Valley of Bones. He plans to sell them ghost-o-plasm."
   },
   {
    "q": "How does the ghost magnet work?",
@@ -71,7 +71,7 @@
     "where to place ghost magnet",
     "attracting magram ghosts"
    ],
-   "answer": "A magnet placed between the two Dead Goliaths draws the valley's ghosts toward it, and the ghosts yield ghost-o-plasm."
+   "answer": "Set a ghost magnet between the two Dead Goliaths, and it draws the valley's ghosts toward it. The spirits yield ghost-o-plasm."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Ghost-o-plasm Round Up"
- ]
+ ],
+ "style": 2
 }

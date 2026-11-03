@@ -21,16 +21,16 @@
    "The Den (quest)"
   ]
  },
- "summary": "Braelyn Firehand sends Horde champions into the Talon Den's hidden barrow chambers to seize the druids' relics. This infiltration campaign reaches its climax as they face layered defenses beneath Stonetalon Peak.",
+ "summary": "At the Talon Den, Braelyn Firehand sends Horde champions into hidden barrow chambers to take the druids' relics. Beneath Stonetalon Peak, they face defenses built to keep those treasures safe.",
  "sections": [
   {
    "title": "Subterranean Secrets",
-   "body": "High on the Stonetalon Mountains, the Talon Den shelters night elf druids in halls carved deep into living stone. The barrow chambers protect meditating guardians and keep sacred treasures from prying eyes. Knowing the value of what lies within, Braelyn Firehand questions a captured druid to learn how the defenses work.",
+   "body": "The Talon Den lies high in the Stonetalon Mountains, where night elf druids shelter in halls carved deep into living stone. Its barrow chambers protect meditating guardians and sacred treasures. Braelyn Firehand knows what lies within, so she questions a captured druid to learn how the defenses work.",
    "spoiler": 0
   },
   {
    "title": "The Layered Locks",
-   "body": "The druids protect their relics with a chain of locks. A lantern at the barrow entrance hides the Gatekeeper's Key, which opens three caches deeper inside. Those caches hold the Sleepers' Key, the Claw Key, and the Barrow Key. Turning all three carved stones in the central hoard breaks the druidic seals and leaves the ancient items in Horde hands.",
+   "body": "Night elf druids guard their relics with a chain of locks. A lantern by the barrow entrance hides the Gatekeeper's Key, which opens three caches deeper inside. Those caches hold the Sleepers' Key, the Claw Key, and the Barrow Key. Turn all three carved stones in the central hoard, and the druidic seals break, leaving the ancient items in Horde hands.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "braelyn firehand purpose",
     "who sent me to the den"
    ],
-   "answer": "Braelyn Firehand, a Sin'dorei operative working alongside the Horde in the Stonetalon Mountains, directs the infiltration. After questioning a captured druid about the sanctuary's defenses, she sends Horde agents toward its hoard."
+   "answer": "Braelyn Firehand directs the infiltration, a Sin'dorei operative working alongside the Horde in the Stonetalon Mountains. After questioning a captured druid about the sanctuary's defenses, she sends Horde agents toward its hoard."
   },
   {
    "q": "How do the keys inside the Den work?",
@@ -60,7 +60,7 @@
     "gatekeepers key use",
     "three keys stonetalon"
    ],
-   "answer": "The primary Gatekeeper's Key lies inside a lantern near the entrance. It opens three caches in the barrow, which hold the Sleepers' Key, the Claw Key, and the Barrow Key. Turning all three carved stones in the hoard dissolves its wards."
+   "answer": "The Gatekeeper's Key lies inside a lantern near the entrance. It opens three caches in the barrow, holding the Sleepers' Key, the Claw Key, and the Barrow Key. Turn all three carved stones in the hoard to dissolve its wards."
   },
   {
    "q": "Why are the druids on Stonetalon Peak being targeted?",
@@ -69,7 +69,7 @@
     "horde reason for killing ordanus",
     "why loot the den"
    ],
-   "answer": "Braelyn Firehand wants the area's flow of magic restored and blames the druids of Stonetalon Peak and the sons of Cenarius for blocking it. She has the druids slain, including their leader Keeper Ordanus, whom she says she once knew, then sends you to strip the Den of its powerful items."
+   "answer": "Braelyn Firehand wants the area's flow of magic restored and blames the druids of Stonetalon Peak and the sons of Cenarius for blocking it. She has the druids slain, including their leader Keeper Ordanus, whom she says she once knew. Then she sends you to strip the Den of its powerful items."
   },
   {
    "q": "What is inside the Talon Den Hoard?",
@@ -87,7 +87,7 @@
     "what leads to the den",
     "prerequisites for the den"
    ],
-   "answer": "Before you break into the Den, Horde adventurers are assigned to investigate the night elf presence in Cenarius' Legacy and assassinate Keeper Ordanus, weakening the defenders' command."
+   "answer": "Before you break into the Den, Horde adventurers are sent to investigate the night elf presence in Cenarius' Legacy and assassinate Keeper Ordanus. That weakens the defenders' command."
   }
  ],
  "angles": [
@@ -97,11 +97,11 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see the Talon Den desecrated: the ancient sleep of Cenarion guardians is disturbed, and their ward-locked relics are plundered."
+   "text": "As a night elf, you see the Talon Den desecrated. The ancient sleep of Cenarion guardians is disturbed, and their ward-locked relics are plundered."
   },
   {
    "target": "class:Druid",
-   "text": "As a tauren druid of the Horde, you face a bitter irony: keys named for Sleepers, Claws, and Barrows turn the barrow defenses against fellow Cenarion keepers."
+   "text": "As a tauren druid of the Horde, you face a bitter irony. Keys named for Sleepers, Claws, and Barrows turn the barrow defenses against fellow Cenarion keepers."
   },
   {
    "target": "class:Rogue",
@@ -132,5 +132,5 @@
  "attribution": [
   "The Den (quest)"
  ],
- "style": 1
+ "style": 2
 }

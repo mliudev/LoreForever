@@ -10,16 +10,16 @@
    "quest:146"
   ]
  },
- "summary": "Lord Ello Ebonlocke sends Solomon a refusal from Darkshire. His letter rejects the plea for Night Watch aid in Redridge.",
+ "summary": "In Darkshire, Lord Ello Ebonlocke refuses Solomon's plea for aid in Redridge. His letter says the Night Watch cannot leave Duskwood undefended.",
  "sections": [
   {
    "title": "A Bitter Refusal",
-   "body": "Magistrate Solomon asked Duskwood for reinforcements against the blackrock orcs after Stormwind ignored his petitions. Lord Ello Ebonlocke answers with anger and no promise of aid. He reminds Solomon that the Night Watch exists because Stormwind abandoned Darkshire when corrupting magic first gripped the woods. If its defenders leave to help Redridge, Duskwood will be left defenceless and fall to evil before the militia reaches the forest's edge.",
+   "body": "Magistrate Solomon asked Duskwood for reinforcements against the blackrock orcs after Stormwind ignored his petitions. Lord Ello Ebonlocke answers in anger and promises no aid. He reminds Solomon that the Night Watch formed because Stormwind abandoned Darkshire when corrupting magic first gripped the woods. If its defenders march to Redridge, Duskwood will be left defenceless and fall to evil before the militia reaches the forest's edge.",
    "spoiler": 0
   },
   {
    "title": "The Crumbling Frontier",
-   "body": "Solomon is shaken when the letter reaches him. The Stormwind Army has withdrawn from Westfall, and the royal guard is absent from Darkshire. The whole southern frontier has been left to decay. Solomon sees a terrible pattern in Stormwind's neglect of its outlying lands, and suspects treachery among the kingdom's highest powers.",
+   "body": "Solomon is shaken when Ebonlocke's letter reaches him. The Stormwind Army has withdrawn from Westfall, and the royal guard is absent from Darkshire. The whole southern frontier has been left to decay. Solomon sees a terrible pattern in Stormwind's neglect of its outlying lands and suspects treachery among the kingdom's highest powers.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "why did darkshire refuse",
     "ebonlocke refuse solomon"
    ],
-   "answer": "Darkshire has no royal troops of its own. The Night Watch is made up of local volunteers, left to defend the region after Stormwind abandoned it. Lord Ebonlocke warns that if they march away, undead and vile creatures will overrun Darkshire before they leave the forest."
+   "answer": "Darkshire has no royal troops of its own. The Night Watch is made up of local volunteers left to defend the region after Stormwind abandoned it. Lord Ebonlocke warns that undead and vile creatures will overrun Darkshire if the Watch marches away, before they leave the forest."
   },
   {
    "q": "How does Magistrate Solomon react to the letter?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how Stormwind's royal court has cut Redridge, Duskwood, and Westfall adrift."
+   "text": "As an Alliance member, you can see how Stormwind's royal court has left Redridge, Duskwood, and Westfall adrift."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Ebonlocke's Response to Solomon",
   "Messenger to Darkshire (2)"
  ],
- "style": 1
+ "style": 2
 }

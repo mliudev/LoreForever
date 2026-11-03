@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Arathi Highlands"
  },
- "summary": "The Pendant of Myzrael pulses in your hand and a pleading reaches you, as if someone desperately needs help. A vision shows a gleaming crystal rising out of the ground in the northern mountains of Arathi, and you feel drawn to that place.",
+ "summary": "In Arathi's northern mountains, a vision draws you toward a gleaming crystal. The Pendant of Myzrael pulses in your hand as a plea for help reaches you.",
  "sections": [
   {
    "title": "A Silent Plea",
-   "body": "The pendant pulses as you hold it. From it comes a sense of pleading, as if someone is trying to reach you and badly needs your help. Then a vision opens before you: the mountains in the north of Arathi, and a gleaming crystal thrusting up out of the ground. You feel drawn to that place.",
+   "body": "The Pendant of Myzrael pulses in your hand, carrying a plea from someone in need of help. Then a vision shows a gleaming crystal thrusting from the ground in the mountains north of Arathi. You feel drawn there.",
    "spoiler": 0
   },
   {
    "title": "At the Crystal",
-   "body": "When you find the crystal, it pulses, as if a living force were trapped within it.",
+   "body": "At the crystal, its pulse suggests a living force is trapped within.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "where does pendant of myzrael come from",
     "crystal in the mountains start"
    ],
-   "answer": "It begins with the Pendant of Myzrael. When you hold it, it pulses and you feel a pleading from someone who desperately needs your help."
+   "answer": "The Pendant of Myzrael begins this journey. As you hold it, it pulses with a plea from someone in desperate need of help."
   },
   {
    "q": "Where does the vision lead?",
@@ -48,7 +48,7 @@
     "crystal in the mountains location",
     "find the crystal from vision"
    ],
-   "answer": "It leads to a gleaming crystal standing in the northern mountains of Arathi, and you feel drawn to that place."
+   "answer": "The vision leads you to a gleaming crystal in Arathi's northern mountains. You feel drawn there."
   }
  ],
  "angles": [],
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Crystal in the Mountains"
- ]
+ ],
+ "style": 2
 }

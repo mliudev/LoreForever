@@ -20,16 +20,16 @@
    "In Search of The Excavation Team (2)"
   ]
  },
- "summary": "Merrin Rockweaver sends word from the Whelgar's Excavation site after mottled raptors overrun the dig. Her letter tells Tarrel Rockweaver that she survived, while most of the expedition did not.",
+ "summary": "At Whelgar's Excavation site, Merrin Rockweaver sends word after mottled raptors overrun the dig. Her letter tells Tarrel Rockweaver she survived, though most of the expedition did not.",
  "sections": [
   {
    "title": "A Message from the Ruins",
-   "body": "Merrin Rockweaver has a report for you from the ridge above Whelgar's Excavation site. The team was uncovering rare artifacts and massive prehistoric fossils when packs of mottled raptors swept through the dig. Most of the crew died in the attack. Merrin and the other survivors remain cut off from Menethil Harbor.",
+   "body": "Merrin Rockweaver has news for you from the ridge above Whelgar's Excavation site. Her team was uncovering rare artifacts and massive prehistoric fossils when packs of mottled raptors swept through the dig. Most of the crew died in the attack. Merrin and the other survivors remain cut off from Menethil Harbor.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Relief",
-   "body": "At Menethil Harbor, Tarrel Rockweaver learns that his wife survived with at least two companions. Ormer's courage helped them escape, easing Tarrel's fear. The deaths of so many colleagues still weigh on the town and its frontier spirit.",
+   "body": "At Menethil Harbor, Tarrel Rockweaver learns his wife survived with at least two companions. Ormer's courage helped them escape, and Tarrel's fear eases. Yet the deaths of so many colleagues still weigh on the town and its frontier spirit.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "wetlands excavation disaster",
     "why did excavation fail"
    ],
-   "answer": "Packs of mottled raptors overran the dwarven expedition while it uncovered rare artifacts and massive ancient bones. Most of the diggers were slain, and a handful survived on the bluffs above the site."
+   "answer": "Packs of mottled raptors overran the dwarven expedition as it uncovered rare artifacts and massive ancient bones. Most of the diggers were slain, while a handful survived on the bluffs above the site."
   },
   {
    "q": "Who saved Merrin Rockweaver?",
@@ -74,7 +74,7 @@
     "what were they digging for",
     "excavation artifacts"
    ],
-   "answer": "The team was digging for rare subterranean artifacts and large prehistoric fossils buried in the marshes under the direction of dwarven prospectors."
+   "answer": "The team dug for rare subterranean artifacts and large prehistoric fossils buried in the marshes, under the direction of dwarven prospectors."
   },
   {
    "q": "Are there other survivors beside Merrin?",
@@ -114,5 +114,5 @@
  "attribution": [
   "In Search of The Excavation Team (2)"
  ],
- "style": 1
+ "style": 2
 }

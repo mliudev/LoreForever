@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Vessel for Blessed Waters",
-   "body": "Sentinels and scholars seek pure lunar essence to study the mysterious red crystal along Darkshore’s eastern ridge. Ordinary glass or flasks can contaminate consecrated water, so investigators visiting Auberdine’s moonwell receive this sealed vial for the work. They carry its filled contents up the mountain slopes to learn how the alien mineral responds to Elune’s magic.",
+   "body": "Sentinels and scholars seek pure lunar essence to study the mysterious red crystal along Darkshore’s eastern ridge. Ordinary glass or flasks can taint consecrated water, so investigators visiting Auberdine’s moonwell receive this sealed vial. They carry the filled vessel up the mountain slopes to learn how the alien mineral responds to Elune’s magic.",
    "spoiler": 0
   },
   {
    "title": "Probing Felwood's Shadow",
-   "body": "Felwood lies beyond the mountains east of Darkshore, poisoned by demonic corruption. Auberdine’s defenders suspect the ominous crimson monolith near the cliffs may be linked to that ruined forest. Researchers hope cascading moonwell water over its lattice will reveal the crystal’s inner structure without triggering a catastrophic release of the power trapped inside.",
+   "body": "Felwood lies beyond the mountains east of Darkshore, poisoned by demonic corruption. Auberdine’s defenders suspect the ominous crimson monolith near the cliffs may be linked to that ruined forest. Researchers hope moonwell water cascading over its lattice will reveal the crystal’s inner structure without triggering a catastrophic release of the power trapped inside.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why do i have empty water tube",
     "what do i do with water tube"
    ],
-   "answer": "You receive the empty container in Auberdine to draw water from its moonwell for analyzing the bizarre red crystal on Darkshore’s eastern heights."
+   "answer": "In Auberdine, you receive the empty container to draw moonwell water for analyzing the bizarre red crystal on Darkshore’s eastern heights."
   },
   {
    "q": "Where should the tube be filled?",
@@ -40,7 +40,7 @@
     "where do i fill empty water tube",
     "fill water tube location"
    ],
-   "answer": "Fill the tube by dipping it into the moonwell in Auberdine. The filled vessel becomes a Moonwell Water Tube."
+   "answer": "Dip the tube into the moonwell in Auberdine to fill it. The filled vessel becomes a Moonwell Water Tube."
   },
   {
    "q": "Why is moonwell water needed for the crystal?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a Night Elf, handling consecrated moonwell water is a sacred duty. The Kaldorei revere moonwells as holy reservoirs blessed by Elune."
+   "text": "As a Night Elf, you treat handling consecrated moonwell water as a sacred duty. The Kaldorei revere moonwells as holy reservoirs blessed by Elune."
   },
   {
    "target": "class:Druid",
@@ -94,5 +94,5 @@
   "Empty Water Tube",
   "As Water Cascades"
  ],
- "style": 1
+ "style": 2
 }

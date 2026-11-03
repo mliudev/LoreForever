@@ -21,21 +21,21 @@
    "The Key to Scholomance"
   ]
  },
- "summary": "Krinkle Goodsteel points you to Fire Plume Ridge, a simmering volcano west in Un'Goro Crater, where the lava lake at the top is hot enough to forge the stem of a skeletal key. Afterward you carry it to Alchemist Arbington at Chillwind Point in the Western Plaguelands.",
+ "summary": "At Fire Plume Ridge, you face the heat needed to forge a skeletal key stem. The simmering volcano lies west in Un'Goro Crater, where its lava lake can fuse the stem. Then you carry it to Alchemist Arbington at Chillwind Point in the Western Plaguelands.",
  "sections": [
   {
    "title": "Fire for the Key Stem",
-   "body": "Forging the stem of the key takes two bars of thorium and fierce heat. The thorium is yours to find, but Krinkle Goodsteel can help with the heat. Your gold has bought a mold, and it only needs dipping in the lava lake on top of Fire Plume Ridge. The lava does the rest, fusing thorium and bone together.",
+   "body": "Krinkle Goodsteel says the key stem needs two bars of thorium and fierce heat. You find the thorium, and your gold buys a mold. Dip it in the lava lake atop Fire Plume Ridge. There, the heat fuses thorium and bone together.",
    "spoiler": 0
   },
   {
    "title": "Back to Arbington",
-   "body": "Krinkle Goodsteel has done their part. To finish the key, you will need to talk to Alchemist Arbington at Chillwind Point in the Western Plaguelands again. The key from the lava is still unfinished, and the work so far is preparation for an assault.",
+   "body": "Krinkle Goodsteel has done their part. To finish the key, you return to Alchemist Arbington at Chillwind Point in the Western Plaguelands. The lava-forged stem remains unfinished. This work prepares you for an assault.",
    "spoiler": 0
   },
   {
    "title": "What Lies Ahead",
-   "body": "Arbington calls the key quite costly, but says it is still unfinished. The foe all this work has been aimed at is in Andorhal: Araj the Summoner, a lich who ranks among the most powerful of the Scourge.",
+   "body": "Alchemist Arbington calls the key costly, yet unfinished. In Andorhal, Araj the Summoner waits as the foe behind all this work. The lich ranks among the Scourge's most powerful.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "fire plume forged location",
     "lava lake location"
    ],
-   "answer": "At the lava lake on top of Fire Plume Ridge, a simmering volcano in Un'Goro Crater, west of Krinkle Goodsteel."
+   "answer": "The key stem is forged in the lava lake atop Fire Plume Ridge, a simmering volcano west in Un'Goro Crater."
   },
   {
    "q": "What is needed to forge the key stem?",
@@ -56,7 +56,7 @@
     "key materials",
     "thorium requirement"
    ],
-   "answer": "The skeleton key mold and two bars of thorium. The thorium is for you to find."
+   "answer": "You need the skeleton key mold and two bars of thorium. You find the thorium yourself."
   },
   {
    "q": "Who receives the unfinished key?",
@@ -65,7 +65,7 @@
     "arbington location",
     "where does unfinished key go"
    ],
-   "answer": "Alchemist Arbington, at Chillwind Point in the Western Plaguelands."
+   "answer": "Alchemist Arbington receives the unfinished key at Chillwind Point in the Western Plaguelands."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Fire Plume Forged (Alliance)"
- ]
+ ],
+ "style": 2
 }

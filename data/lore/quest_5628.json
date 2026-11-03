@@ -20,16 +20,16 @@
    "Stars of Elune"
   ]
  },
- "summary": "In Goldshire, a novice night elf priest receives a call to return home. The novice has wandered as far as Elwynn Forest, where Priestess Josetta relays an urgent message from Darnassus: return to the Temple of the Moon and continue spiritual training under Priestess Alathea.",
+ "summary": "In Goldshire, a novice night elf priest hears an urgent call from Darnassus. Priestess Josetta carries the message: return to the Temple of the Moon and continue training under Priestess Alathea.",
  "sections": [
   {
    "title": "A Word in Goldshire",
-   "body": "Night elves are an unusual sight in Elwynn Forest, and a young acolyte among its human settlements draws attention. When you arrive in Goldshire, Priestess Josetta greets you warmly with news. A Sister of Elune has traveled across continents seeking you, bearing an urgent command from the Temple of the Moon. It is time to return to Kalimdor and advance your calling.",
+   "body": "Night elves are rare in Elwynn Forest, and a young acolyte among its human settlements draws attention. When you reach Goldshire, Priestess Josetta greets you with news. A Sister of Elune has traveled across continents seeking you, bearing an urgent command from the Temple of the Moon. Your calling now leads back to Kalimdor, where your training can advance.",
    "spoiler": 0
   },
   {
    "title": "The Call of the Temple",
-   "body": "At the heart of Darnassus stands the Temple of the Moon, center of night elf faith and leadership. Priestess Alathea and High Priestess Tyrande Whisperwind oversee the Sisterhood’s instruction, watching their disciples even when curiosity carries them overseas. When you return, the priestesses welcome you with motherly concern and immediately set you to deeper studies of the Moon Goddess’s celestial mysteries.",
+   "body": "Darnassus looks to the Temple of the Moon for night elf faith and leadership. Priestess Alathea and High Priestess Tyrande Whisperwind oversee the Sisterhood’s instruction, keeping watch over disciples even when curiosity carries them overseas. When you return, the priestesses welcome you with motherly concern. Then they begin your deeper studies of the Moon Goddess’s celestial mysteries.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "why returning home",
     "priest quest goldshire"
    ],
-   "answer": "Young night elf priests who travel to the Eastern Kingdoms remain bound to their sacred order in Teldrassil. Priestess Alathea tracks their progress and calls them back to the Temple of the Moon when they are ready to learn higher rites of Elune."
+   "answer": "Young night elf priests who travel to the Eastern Kingdoms remain bound to their sacred order in Teldrassil. Priestess Alathea follows their progress and calls them back to the Temple of the Moon when they are ready to learn higher rites of Elune."
   },
   {
    "q": "Who is Priestess Josetta?",
@@ -50,7 +50,7 @@
     "goldshire priest trainer",
     "priestess josetta"
    ],
-   "answer": "Priestess Josetta is the human priest trainer at the Lion's Pride Inn in Goldshire. She serves the Holy Light and respects visiting kaldorei acolytes, acting as a liaison when emissaries from Darnassus seek their wayward kin."
+   "answer": "Priestess Josetta is the human priest trainer at the Lion's Pride Inn in Goldshire. She serves the Holy Light and respects visiting kaldorei acolytes, helping emissaries from Darnassus reach their wayward kin."
   },
   {
    "q": "Who is Priestess Alathea?",
@@ -59,7 +59,7 @@
     "temple priest trainer",
     "priestess alathea"
    ],
-   "answer": "Priestess Alathea is a senior Sister of Elune who trains acolytes at the Temple of the Moon in Darnassus. She works with High Priestess Tyrande Whisperwind to monitor novice night elf priests’ growth and spiritual dedication."
+   "answer": "Priestess Alathea is a senior Sister of Elune who trains acolytes at the Temple of the Moon in Darnassus. She works with High Priestess Tyrande Whisperwind to watch novice night elf priests’ growth and spiritual dedication."
   },
   {
    "q": "What happens after returning to Darnassus?",
@@ -68,7 +68,7 @@
     "next quest after returning home",
     "followup quest"
    ],
-   "answer": "When you report to Priestess Alathea at the Temple of the Moon, she welcomes you home and gives you your next task, Stars of Elune, which explores the sacred power granted by the goddess."
+   "answer": "When you report to Priestess Alathea at the Temple of the Moon, she welcomes you home and gives you your next task, Stars of Elune. There, you explore the sacred power granted by the goddess."
   },
   {
    "q": "How does this differ from the normal training path?",
@@ -77,7 +77,7 @@
     "is this quest mandatory",
     "elwynn priest quest"
    ],
-   "answer": "This alternate path guides night elf priests who choose to train in human lands such as Elwynn Forest back to their racial trainers in Darnassus, where they can learn their race-specific priestly abilities."
+   "answer": "This alternate path guides night elf priests who choose to train in human lands such as Elwynn Forest back to their racial trainers in Darnassus. There, they can learn their race-specific priestly abilities."
   },
   {
    "q": "How did the messenger find an acolyte all the way in Elwynn Forest?",
@@ -91,7 +91,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Every priest order has deep roots in tradition. As a kaldorei acolyte, you can advance in the lunar rites only with the senior priestesses’ approval at the Temple of the Moon."
+   "text": "Every priest order has deep roots in tradition. As a kaldorei acolyte, you advance in the lunar rites only with senior priestesses’ approval at the Temple of the Moon."
   },
   {
    "target": "race:NightElf",
@@ -99,7 +99,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see growing cooperation between the Church of the Holy Light in Elwynn and the Sisterhood of Elune in Darnassus. Their hospitality strengthens the bonds between Alliance races."
+   "text": "As an Alliance member, you see growing cooperation between the Church of the Holy Light in Elwynn and the Sisterhood of Elune in Darnassus. Their hospitality strengthens the bonds between Alliance races."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Returning Home (Elwynn Forest)"
  ],
- "style": 1
+ "style": 2
 }

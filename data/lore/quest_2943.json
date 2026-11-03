@@ -27,16 +27,16 @@
    "In Search of Knowledge"
   ]
  },
- "summary": "Daryn Lightwind hands over her book, Feralas: A History, and asks you to take care of it. It goes to Troyas Moonbreeze at Feathermoon Stronghold, who is surely eager for your return.",
+ "summary": "Daryn Lightwind sends you to Feathermoon Stronghold with her book, Feralas: A History. Troyas Moonbreeze is eager for your return.",
  "sections": [
   {
    "title": "A Borrowed Book",
-   "body": "With the Super Snapper FX behind you, Daryn Lightwind gives you her book and asks that you look after it. She urges you to hurry along, sure that Troyas is eager for your return. The book is bound for Troyas Moonbreeze at Feathermoon Stronghold.",
+   "body": "After the Super Snapper FX, Daryn Lightwind entrusts you with her book, Feralas: A History. She urges you to hurry because Troyas Moonbreeze is eager for your return. The book is bound for Troyas at Feathermoon Stronghold.",
    "spoiler": 0
   },
   {
    "title": "Troyas Reads",
-   "body": "Troyas is glad you brought the book. He looks it over, skims its pages, and exclaims that he thinks he has found it.",
+   "body": "Troyas Moonbreeze is glad you brought the book. He looks it over and skims its pages. Then he exclaims that he thinks he has found it.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "what do i bring troyas",
     "feralas a history book"
    ],
-   "answer": "Daryn Lightwind's book, Feralas: A History."
+   "answer": "You are delivering Daryn Lightwind's book, Feralas: A History."
   },
   {
    "q": "Where is Troyas Moonbreeze?",
@@ -57,7 +57,7 @@
     "where is troyas moonbreeze",
     "where do i go"
    ],
-   "answer": "At Feathermoon Stronghold."
+   "answer": "Troyas Moonbreeze is at Feathermoon Stronghold."
   },
   {
    "q": "Who gives you the book?",
@@ -66,7 +66,7 @@
     "quest giver",
     "daryn lightwind"
    ],
-   "answer": "Daryn Lightwind, who asks you to take care of it."
+   "answer": "Daryn Lightwind gives you the book and asks you to look after it."
   },
   {
    "q": "What came before this?",
@@ -75,7 +75,7 @@
     "what did i just do",
     "chain before this"
    ],
-   "answer": "It follows The Super Snapper FX."
+   "answer": "The Super Snapper FX comes before this."
   }
  ],
  "angles": [],
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Return to Troyas"
- ]
+ ],
+ "style": 2
 }

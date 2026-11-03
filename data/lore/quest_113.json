@@ -28,16 +28,16 @@
    "Rise of the Silithid"
   ]
  },
- "summary": "Alchemist Pestlezugg has finished the report on the insect parts and says Senior Surveyor Fizzledowser must see it at once. The threat faces Tanaris and Gadgetzan and, if left unchecked, all of southern Kalimdor.",
+ "summary": "From Tanaris, Alchemist Pestlezugg sends an urgent warning to Gadgetzan. The danger threatens both places and may spread across southern Kalimdor.",
  "sections": [
   {
    "title": "A Grave Warning",
-   "body": "Pestlezugg insists that Senior Surveyor Fizzledowser must see the report right away, and that everyone who can read must see it too. The threat is grave and serious, for Tanaris and Gadgetzan and, if left unchecked, for all of southern Kalimdor. It may even reach the whole of Azeroth, for it has given no sign that it will subside. You are asked to carry the report to Fizzledowser in Gadgetzan and have a duplicate made, to share freely with your allegiance. Everyone must know of this threat.",
+   "body": "Alchemist Pestlezugg asks you to carry the report to Senior Surveyor Fizzledowser in Gadgetzan. The danger threatens Tanaris and Gadgetzan, and may spread across southern Kalimdor. It could reach all of Azeroth, and nothing suggests it will subside. Pestlezugg wants everyone who can read to know.\n\nFizzledowser is to make a duplicate for you, so you can share it freely with your allegiance.",
    "spoiler": 0
   },
   {
    "title": "A Matter of Coin",
-   "body": "Fizzledowser thanks you for the delivery and for your hard work for the Gadgetzan Water Company. Handing the company's valuable information out to everyone is not something Fizzledowser likes, since people would normally pay well for it. But Fizzledowser has long known Pestlezugg, and if Pestlezugg recommends letting everyone know, so be it. A copy is made for you.",
+   "body": "Senior Surveyor Fizzledowser thanks you for bringing the report and for your hard work for the Gadgetzan Water Company. The company holds valuable information, and Fizzledowser would usually expect people to pay well for it.\n\nBut Fizzledowser has known Alchemist Pestlezugg for a long time. Pestlezugg recommends sharing the report with everyone, so Fizzledowser agrees and makes a copy for you.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who do i turn insect part analysis in to",
     "where to deliver the report"
    ],
-   "answer": "Alchemist Pestlezugg gives you the report and sends you with it to Senior Surveyor Fizzledowser in Gadgetzan."
+   "answer": "Alchemist Pestlezugg gives you the report to take to Senior Surveyor Fizzledowser in Gadgetzan."
   },
   {
    "q": "Why is Alchemist Pestlezugg so alarmed?",
@@ -58,7 +58,7 @@
     "what is in the insect report",
     "why is the insect threat serious"
    ],
-   "answer": "Pestlezugg calls it a grave and serious threat to Tanaris and Gadgetzan, and if left unchecked, to all of southern Kalimdor and possibly the whole of Azeroth, with no sign of subsiding."
+   "answer": "Pestlezugg warns that the threat faces Tanaris and Gadgetzan, then may reach all of southern Kalimdor and perhaps all of Azeroth. Nothing suggests it will subside."
   },
   {
    "q": "Why do you need a copy of the report?",
@@ -67,7 +67,7 @@
     "fizzledowser report copy",
     "why share the report"
    ],
-   "answer": "Pestlezugg wants everyone to know about the threat, so Fizzledowser is to make a duplicate that you can pass around freely among your own people."
+   "answer": "Pestlezugg wants everyone to know about the threat. Fizzledowser is to make a duplicate for you to share freely with your allegiance."
   },
   {
    "q": "What comes directly before this delivery?",
@@ -75,7 +75,7 @@
     "previous quest",
     "what quest comes before this"
    ],
-   "answer": "It follows an earlier step also named Insect Part Analysis."
+   "answer": "This delivery follows an earlier step with the same name."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Insect Part Analysis (2)"
- ]
+ ],
+ "style": 2
 }

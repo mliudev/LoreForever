@@ -25,11 +25,11 @@
   ],
   "category": "Feralas"
  },
- "summary": "A soiled scroll lies in the Gordunni Outpost, and picking it up shows what seems to be a meeting or ceremony. Rok Orhan at Camp Mojache would be interested in it, and in what it might mean for the Gordunni.",
+ "summary": "At the Gordunni Outpost, the Gordunni Scroll may reveal a gathering or ceremony. Rok Orhan at Camp Mojache wants to see it and learn what it means for the Gordunni.",
  "sections": [
   {
    "title": "The Soiled Scroll",
-   "body": "Taking up the soiled scroll, you see that it appears to depict a gathering or ceremony of some kind. Rok Orhan in Camp Mojache, you judge, would want to see it, and to learn what it might mean for the Gordunni.",
+   "body": "You find a soiled scroll at the Gordunni Outpost. Its image seems to show a gathering or ceremony. Rok Orhan at Camp Mojache wants to see it and learn what it might mean for the Gordunni.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "gordunni scroll contents",
     "scroll drawing"
    ],
-   "answer": "It seems to show some sort of meeting or ceremony."
+   "answer": "The Gordunni Scroll seems to show a meeting or ceremony."
   },
   {
    "q": "Who wants the Gordunni Scroll?",
@@ -50,7 +50,7 @@
     "where do i take the scroll",
     "turn in gordunni scroll"
    ],
-   "answer": "Rok Orhan, in Camp Mojache."
+   "answer": "Rok Orhan at Camp Mojache wants to see the Gordunni Scroll."
   },
   {
    "q": "Where is the Gordunni Scroll found?",
@@ -58,7 +58,7 @@
     "where is the gordunni scroll",
     "gordunni scroll location"
    ],
-   "answer": "In the Gordunni Outpost, where you can pick it up."
+   "answer": "You find the Gordunni Scroll at the Gordunni Outpost."
   },
   {
    "q": "What follows the Gordunni Scroll?",
@@ -67,7 +67,7 @@
     "after the gordunni scroll",
     "gordunni scroll chain"
    ],
-   "answer": "The chain goes on with Dark Ceremony."
+   "answer": "Dark Ceremony follows the Gordunni Scroll."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "The Gordunni Scroll"
- ]
+ ],
+ "style": 2
 }

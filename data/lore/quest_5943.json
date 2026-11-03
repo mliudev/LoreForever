@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Desolace"
  },
- "summary": "Rigger Gizelton and Cork launched their caravan to get rich, and found the trade more dangerous than they expected. Mannoroc Coven lies ahead, and Rigger wants a capable adventurer to guard the caravan past it.",
+ "summary": "At Mannoroc Coven, Rigger Gizelton asks you to guard his caravan. He and Cork set out to make a fortune, but trade has proved more dangerous than they expected.",
  "sections": [
   {
    "title": "Past Mannoroc Coven",
-   "body": "Rigger Gizelton and Cork set up the caravan to make a fortune, and had no idea how risky turning a profit could be. Mannoroc Coven lies ahead. The demons usually leave the caravan alone, but this time the kodos are spooked. Rigger offers payment if you protect the caravan past the coven. Once it is safely through, your pay waits with Smeed, a business associate of theirs, at Scrabblescrew's Camp.",
+   "body": "Rigger Gizelton and Cork began their caravan hoping to make a fortune. They did not know how risky turning a profit could be. Mannoroc Coven lies ahead, where demons usually leave the caravan alone. This time, the kodos are spooked. Rigger offers payment if you guard the caravan past the coven. Once it is safely through, Smeed will pay you at Scrabblescrew's Camp.",
    "spoiler": 0
   },
   {
    "title": "Smeed's Misgivings",
-   "body": "At Scrabblescrew's Camp, Smeed wipes his brow and says he would be ruined if the caravan ever vanished, so he is glad to hear it is not lost. He is not sure it makes sense to pay so much to protect a caravan whose owners earn only one gold piece a week. Still, as long as Cork and Rigger keep paying for his kodos, he does not care how they run their business.",
+   "body": "At Scrabblescrew's Camp, Smeed wipes his brow and says the caravan's disappearance would ruin him. He is glad to hear it is not lost. Yet he questions paying so much to protect a caravan whose owners earn only one gold piece a week. Still, Cork and Rigger keep paying him for his kodos. He does not care how they run their business.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "gizelton background",
     "rigger gizelton"
    ],
-   "answer": "A caravan owner who started the Gizelton Caravan with Cork, hoping to make a fortune."
+   "answer": "Rigger Gizelton owns a caravan he started with Cork, hoping they would make a fortune."
   },
   {
    "q": "Why does the caravan need protection past Mannoroc Coven?",
@@ -48,7 +48,7 @@
     "mannoroc coven danger",
     "why protect caravan"
    ],
-   "answer": "Rigger says the demons there usually ignore the caravan, but this time something has the kodos spooked."
+   "answer": "Rigger says the demons at Mannoroc Coven usually leave the caravan alone, but something has the kodos spooked this time."
   },
   {
    "q": "Who pays you for protecting the caravan?",
@@ -57,7 +57,7 @@
     "where to turn in gizelton caravan",
     "smeed reward"
    ],
-   "answer": "Smeed, the Gizeltons' business associate at Scrabblescrew's Camp, once the caravan is safely past the coven."
+   "answer": "Smeed, the Gizeltons' business associate at Scrabblescrew's Camp, pays you once the caravan is safely past the coven."
   },
   {
    "q": "Who is Cork?",
@@ -65,7 +65,7 @@
     "cork gizelton",
     "who is cork"
    ],
-   "answer": "Rigger Gizelton's partner in the caravan."
+   "answer": "Cork is Rigger Gizelton's partner in the caravan."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Gizelton Caravan (quest)"
- ]
+ ],
+ "style": 2
 }

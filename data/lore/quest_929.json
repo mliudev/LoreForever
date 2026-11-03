@@ -17,16 +17,16 @@
   "wiki": "Crown of the Earth (3)",
   "chain": []
  },
- "summary": "Near Starbreeze Village, you draw sacred water for Darnassus. Corithras Moonrage in Dolanaar asks young night elves to replenish the city's moonwell, and the work teaches the history behind their care for Teldrassil's great boughs.",
+ "summary": "Near Starbreeze Village, you draw sacred water for Darnassus. Corithras Moonrage in Dolanaar sends young night elves to replenish the city's moonwell and teaches them why their people tend Teldrassil's great boughs.",
  "sections": [
   {
    "title": "Sustaining the Moonwells",
-   "body": "You carry a jade phial made by druids to Starbreeze Village, where a lesser moonwell holds sanctified water. Its refined craft lets you draw and carry the luminous water without disturbing its purity. Darnassus's central moonwell depends on these scattered fonts, and the elders send initiates on foot so the city's fountains stay full of Elune's grace. The journey also teaches the young what it takes to nourish Teldrassil.",
+   "body": "Druids have made you a jade phial for the journey to Starbreeze Village. There, a lesser moonwell holds sanctified water. The phial's refined craft lets you draw the luminous water and carry it without disturbing its purity.\n\nDarnassus's central moonwell depends on scattered fonts like this one. Elders send initiates on foot to keep the city's fountains full of Elune's grace. The journey teaches the young what it takes to nourish Teldrassil.",
    "spoiler": 0
   },
   {
    "title": "Echoes of the Third War",
-   "body": "Corithras Moonrage tells you of the sorrow that followed the Battle of Mount Hyjal. The sacrifice of Nordrassil, the ancestral World Tree, cost the night elves their immortality. Illidan Stormrage was unleashed amid the ruin, while Shan'do Malfurion Stormrage disappeared. Grief and isolation marked the days that followed, as the kaldorei turned to Teldrassil.",
+   "body": "Corithras Moonrage tells you of the sorrow that followed the Battle of Mount Hyjal. The night elves sacrificed Nordrassil, their ancestral World Tree, and lost their immortality. Illidan Stormrage was unleashed amid the ruin, while Shan'do Malfurion Stormrage disappeared.\n\nGrief and isolation marked the days that followed. The kaldorei turned to Teldrassil.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "moonwell water use",
     "purpose of jade phial"
    ],
-   "answer": "Druids in Darnassus replenish the city's main moonwell with water from forest shrines, sustaining the sacred network across Teldrassil."
+   "answer": "Druids in Darnassus replenish the city's main moonwell with water from forest shrines. This sustains the sacred network across Teldrassil."
   },
   {
    "q": "Where is the moonwell for this task located?",
@@ -55,7 +55,7 @@
     "who gives the quest",
     "corithras moonrage lore"
    ],
-   "answer": "Corithras Moonrage is a night elf in Dolanaar who guides young adventurers through ritual duties and teaches the histories tied to Teldrassil's health."
+   "answer": "Corithras Moonrage is a night elf in Dolanaar who guides young adventurers through ritual duties. He teaches the histories tied to Teldrassil's health."
   },
   {
    "q": "What history does Corithras teach upon return?",
@@ -63,7 +63,7 @@
     "what does corithras say",
     "crown of the earth lore text"
    ],
-   "answer": "Corithras recounts the aftermath of the Battle of Mount Hyjal: Nordrassil was sacrificed, kaldorei immortality ended, Illidan was unleashed, and Shan'do Malfurion Stormrage disappeared."
+   "answer": "Corithas recounts the aftermath of the Battle of Mount Hyjal. Nordrassil was sacrificed, the kaldorei lost their immortality, Illidan was unleashed, and Shan'do Malfurion Stormrage disappeared."
   },
   {
    "q": "Why do night elves feel lost after Mount Hyjal?",
@@ -85,11 +85,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you face the loss of immortality and the disappearance of Malfurion Stormrage. Drawing moonwell water is an essential lesson in your people's recent grief."
+   "text": "As a night elf, you face the loss of immortality and Malfurion Stormrage's disappearance. Drawing moonwell water teaches you about your people's recent grief."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you know the moonwells as living reservoirs of nature and astral magic. Their waters bind your order's duties in Darnassus to Teldrassil's roots."
+   "text": "As a druid, you know moonwells as living reservoirs of nature and astral magic. Their waters bind your order's duties in Darnassus to Teldrassil's roots."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Crown of the Earth (3)"
  ],
- "style": 1
+ "style": 2
 }

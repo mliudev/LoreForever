@@ -27,11 +27,11 @@
    "Gelkis Alliance quest chain"
   ]
  },
- "summary": "Following Ongeku, Uthek the Wise tells you the earth says the Magram are growing weak, and that the hour has come to slay their Khan. Uthek wants the head of Khan Jehn brought to Gelkis Village.",
+ "summary": "At Gelkis Village, Uthek the Wise says Khan Jehn must fall as the Magram grow weak. He asks you to bring the Khan's head back.",
  "sections": [
   {
    "title": "The Magram Khan",
-   "body": "Uthek the Wise at Gelkis Village says the earth speaks to Uthek, and it tells of the Magram growing weak. Uthek names their Khan, Jehn, as the one to strike down and asks for the head of the Magram Khan. Uthek expects you to still count as a friend of the Gelkis when you come back.",
+   "body": "At Gelkis Village, Uthek the Wise listens to what the earth tells him. The Magram are growing weak, and their Khan, Jehn, is the one to strike down. Uthek asks you to bring back the Magram Khan's head. He expects you to return as a friend of the Gelkis.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is jehn",
     "magram leader"
    ],
-   "answer": "The Khan of the Magram centaur."
+   "answer": "Khan Jehn leads the Magram centaur."
   },
   {
    "q": "Why does Uthek the Wise want Khan Jehn dead?",
@@ -52,7 +52,7 @@
     "uthek motivation",
     "why kill magram khan"
    ],
-   "answer": "Uthek says the earth tells him the Magram grow weak, so now is the time to kill their Khan."
+   "answer": "Uthek says the earth tells him the Magram are growing weak. So he believes the time has come to kill their Khan."
   },
   {
    "q": "What came before this?",
@@ -61,7 +61,7 @@
     "chain order",
     "previous quest"
    ],
-   "answer": "It comes after Ongeku."
+   "answer": "This follows Ongeku."
   },
   {
    "q": "Where is Uthek the Wise?",
@@ -69,7 +69,7 @@
     "uthek location",
     "where is uthek"
    ],
-   "answer": "At Gelkis Village in Desolace."
+   "answer": "Uthek the Wise is at Gelkis Village in Desolace."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Khan Jehn (quest)"
- ]
+ ],
+ "style": 2
 }

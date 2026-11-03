@@ -10,16 +10,16 @@
    "quest:806"
   ]
  },
- "summary": "In Thunder Ridge, Fizzle Darkstorm’s claw is carried to Razor Hill as proof of his death. The goblin warlock was a dangerous Burning Blade conspirator.",
+ "summary": "In Thunder Ridge, Fizzle Darkstorm’s claw is carried to Razor Hill as proof of his death. The goblin warlock threatened the orcish homeland under the Burning Blade’s banner.",
  "sections": [
   {
    "title": "A Grim Trophy",
-   "body": "Orgnil Soulscar sent forces to root out shadow cults threatening the orcish homeland. He identified Fizzle Darkstorm as an instigator spreading corruption in Thunder Ridge. The claw gives Horde commanders proof that the warlock, who operated under the Burning Blade’s banner, has been slain.",
+   "body": "Orgnil Soulscar sent forces to root out shadow cults threatening the orcish homeland. He named Fizzle Darkstorm as an instigator spreading corruption in Thunder Ridge. Fizzle served the Burning Blade as a warlock. His claw now proves to Horde commanders that he has been slain.",
    "spoiler": 0
   },
   {
    "title": "The Threat in Thunder Ridge",
-   "body": "Thunder Ridge lies just northwest of Razor Hill, close enough to threaten the surrounding lands. Horde scouts took Fizzle’s claw back to Razor Hill, confirming that his rituals and attempt to establish a Burning Blade foothold had been stopped.",
+   "body": "Thunder Ridge lies just northwest of Razor Hill, close enough to threaten the surrounding lands. Horde scouts carried Fizzle’s claw back to Razor Hill. It confirms that his rituals and attempt to establish a Burning Blade foothold have been stopped.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "where is fizzle",
     "thunder ridge claw"
    ],
-   "answer": "The claw was taken from Fizzle Darkstorm at his camp in Thunder Ridge, northwest of Razor Hill in Durotar."
+   "answer": "Fizzle Darkstorm’s claw was taken at his camp in Thunder Ridge, northwest of Razor Hill in Durotar."
   },
   {
    "q": "What is the Burning Blade doing in Durotar?",
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, presenting Fizzle’s claw in Razor Hill helps cleanse Durotar of shadow cults that threaten the young nation’s safety."
+   "text": "As a member of the Horde, you can present Fizzle’s claw in Razor Hill. It helps cleanse Durotar of shadow cults threatening the young nation’s safety."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you know Fizzle Darkstorm used fel arts in service of the Burning Blade, turning his talents against the Horde."
+   "text": "As a warlock, you know Fizzle Darkstorm used fel arts in service of the Burning Blade. He turned his talents against the Horde."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Fizzle's Claw",
   "Dark Storms (quest)"
  ],
- "style": 1
+ "style": 2
 }

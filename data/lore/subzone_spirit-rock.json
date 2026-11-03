@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Spirit Rock"
  },
- "summary": "Above the Valley of Trials in Durotar, Spirit Rock draws Horde initiates to commune with the elements. A winding trail called the Hidden Path leads to this sacred crag.",
+ "summary": "Above the Valley of Trials in Durotar, Horde initiates climb Spirit Rock to commune with the elements. The Hidden Path winds up to the sacred crag.",
  "sections": [
   {
    "title": "A Sanctuary of the Elements",
-   "body": "Spirit Rock overlooks the red canyon where young Horde warriors and scouts train. The Hidden Path winds up the rocky ridgeline to this quiet altar. Aspiring shaman climb to the outcrop and drink sapta, a traditional brew that opens their senses beyond the physical world. They listen for the earth's rumblings and whispers.",
+   "body": "Spirit Rock looks down on the red canyon where young Horde warriors and scouts train. From the canyon floor, the Hidden Path winds up the rocky ridgeline to a quiet altar. There, aspiring shaman drink sapta, a traditional brew that opens their senses beyond the physical world. They listen for the earth's rumblings and whispers.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what happens at spirit rock",
     "spirit rock use"
    ],
-   "answer": "Horde shaman initiates use Spirit Rock for communion with the spirits of the earth. Novices drink Earth Sapta there to gain the spiritual vision needed to reach them."
+   "answer": "Horde shaman initiates go to Spirit Rock to commune with the spirits of the earth. Novices drink Earth Sapta there to gain the spiritual vision needed to reach them."
   },
   {
    "q": "How do you reach Spirit Rock?",
@@ -32,7 +32,7 @@
     "path to spirit rock",
     "spirit rock location"
    ],
-   "answer": "You can reach Spirit Rock by climbing the Hidden Path from the Valley of Trials in southwestern Durotar. The narrow trail winds from the canyon floor into the cliffs above."
+   "answer": "Climb the Hidden Path from the Valley of Trials in southwestern Durotar. The narrow trail winds from the canyon floor into the cliffs above."
   },
   {
    "q": "What is a sapta?",
@@ -41,13 +41,13 @@
     "what is sapta",
     "sapta drink"
    ],
-   "answer": "Sapta is a ceremonial elemental brew prepared by shaman trainers. Drinking it changes a seeker's perception, revealing elemental manifestations hidden from ordinary senses."
+   "answer": "Sapta is a ceremonial elemental brew prepared by shaman trainers. Drinking it changes a seeker's perception and reveals elemental manifestations hidden from ordinary senses."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a young orc or troll shaman, you climb the Hidden Path to Spirit Rock and drink Earth Sapta. There you begin your bond with the spirits of stone and soil."
+   "text": "As a young orc or troll shaman, you climb the Hidden Path to Spirit Rock and drink Earth Sapta. There, you begin your bond with the spirits of stone and soil."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Spirit Rock"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:177"
   ]
  },
- "summary": "In Duskwood, Mary’s discarded looking glass passes from a ghoul to a stargazer.",
+ "summary": "In Duskwood, Mary's discarded looking glass passes from a ghoul to a stargazer.",
  "sections": [
   {
    "title": "A Forsaken Treasure",
-   "body": "Blind Mary once treasured the polished mirror. After her death and the loss of her eyes, her reflection became an agonizing reminder of what she had lost. She cast the looking glass away behind her barn, where Duskwood's gloom closed in. An Insane Ghoul found it among the ruined outskirts and carried it south to the crypts of Tranquil Gardens Cemetery.",
+   "body": "Blind Mary once treasured the polished mirror. After her death and the loss of her eyes, her reflection became a painful reminder of what she had lost. She threw the looking glass behind her barn. Duskwood's gloom gathered around it, until an Insane Ghoul found it among the ruined outskirts and carried it south to the crypts of Tranquil Gardens Cemetery.",
    "spoiler": 0
   },
   {
    "title": "Eyes to the Heavens",
-   "body": "In Darkshire, the stargazer Viktori Prism'Antras dreams of seeing through Duskwood's eternal twilight to the clear heavens above. His telescope needs special optical lenses and reflective glass. Mary sends adventurers after the feral undead in the cemetery's ruined chapel to recover her looking glass. Viktori needs it as a reflector in his machine for viewing the stars.",
+   "body": "In Darkshire, the stargazer Viktori Prism'Antras dreams of looking past Duskwood's eternal twilight to the clear heavens above. His telescope needs special optical lenses and reflective glass. Mary sends adventurers to the ruined chapel in the cemetery, where feral undead hold her looking glass. Viktori needs it as a reflector in his machine for viewing the stars.",
    "spoiler": 0
   }
  ],
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers can appreciate how Viktori repurposes an antique household mirror as an optical reflector for a device to view the stars."
+   "text": "Engineers can appreciate how Viktori repurposes an antique household mirror as an optical reflector for a device that views the stars."
   },
   {
    "target": "faction:Alliance",
@@ -93,5 +93,5 @@
   "Mary's Looking Glass",
   "Look To The Stars (3)"
  ],
- "style": 1
+ "style": 2
 }

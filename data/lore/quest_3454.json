@@ -27,16 +27,16 @@
    "Torch of Retribution"
   ]
  },
- "summary": "With the torch made, Kalaran Windblade says it now needs an owner to be bound to, and tells you to pick it up.",
+ "summary": "Kalaran Windblade has finished the torch and asks you to claim it.",
  "sections": [
   {
    "title": "Binding the Flame",
-   "body": "Kalaran says the torch needs to be bound to its owner. To do that, you are told to take it up yourself.",
+   "body": "Kalaran Windblade says the torch must be bound to its owner. He asks you to take it up yourself.",
    "spoiler": 0
   },
   {
    "title": "The Torch in Hand",
-   "body": "You take the torch in both hands, and hatred and anger pulse through you in waves.",
+   "body": "Hatred and anger surge through you when you lift the torch in both hands.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "torch quest giver",
     "kalaran torch"
    ],
-   "answer": "Kalaran Windblade, who says it needs to be bound to its owner."
+   "answer": "Kalaran Windblade tells you to take the torch so it can be bound to its owner."
   },
   {
    "q": "Why must you pick up the torch?",
@@ -56,7 +56,7 @@
     "why pick up the torch",
     "torch binding"
    ],
-   "answer": "Kalaran says the torch must be bound to its owner, and tells you to take it up."
+   "answer": "Kalaran says the torch must be bound to its owner, so he asks you to take it up."
   },
   {
    "q": "Where does this step fit into the chain?",
@@ -64,7 +64,7 @@
     "torch quest chain",
     "previous quest"
    ],
-   "answer": "It follows the earlier Torch of Retribution step, in which you waited while Kalaran combined the pieces and enchanted them."
+   "answer": "This follows the earlier Torch of Retribution step, when you waited as Kalaran combined the pieces and enchanted them."
   }
  ],
  "angles": [],
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "The Torch of Retribution (2)"
- ]
+ ],
+ "style": 2
 }

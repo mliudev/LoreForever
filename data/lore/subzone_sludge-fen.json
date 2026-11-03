@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sludge Fen"
  },
- "summary": "In northeastern the Barrens, Sludge Fen's clear pool has become an oily industrial field run by the Venture Company. Supervisor Lugwizzle oversees the drilling, while rivals in Ratchet seek to sabotage the operation.",
+ "summary": "In northeastern the Barrens, the Venture Company has turned Sludge Fen's clear pool into an oily field. Supervisor Lugwizzle oversees the drilling, while rivals in Ratchet seek to sabotage the operation.",
  "sections": [
   {
    "title": "Industrial Devastation",
-   "body": "Sludge Fen once held a clear pool fed by natural springs in the arid Barrens. The Venture Company built oil-drilling platforms and machinery over the basin, turning the wetland into a reservoir of sludge and industrial waste. Supervisor Lugwizzle oversees goblin drillers, engineers, and overseers as they pump crude oil around the clock. Runoff and toxic byproducts coat the water, choking the native aquatic life beneath the grease.",
+   "body": "Sludge Fen once held a clear pool fed by natural springs in the arid Barrens. The Venture Company built drilling platforms and machinery over the basin. Now sludge and industrial waste fill the wetland, and crude oil is pumped around the clock.\n\nSupervisor Lugwizzle oversees the goblin drillers, engineers, and overseers. Runoff and toxic byproducts coat the water, choking the native aquatic life beneath the grease.",
    "spoiler": 0
   },
   {
    "title": "Corporate Rivalry and Espionage",
-   "body": "Sludge Fen's machinery and shredder designs have drawn industrial thieves. In nearby Ratchet, Tinkers' Union engineer Sputtervalve faced pressure to match the Venture Company's logging and excavation technology. Instead of making his own designs, Sputtervalve sent Wizzlecrank to seize a Venture Company shredder from the fen. Wizzlecrank took the machine without its ignition key, leaving it stranded. Mercenaries are often drawn into the mire to pry the keys from Lugwizzle and escort the shredder through furious Venture Co. employees.",
+   "body": "Sludge Fen's machinery and shredder designs have drawn industrial thieves. In nearby Ratchet, Tinkers' Union engineer Sputtervalve faced pressure to match the Venture Company's logging and excavation technology. Rather than make his own designs, Sputtervalve sent Wizzlecrank to seize a Venture Company shredder from the fen.\n\nWizzlecrank took the machine without its ignition key, leaving it stranded. Mercenaries are often drawn into the mire to pry the keys from Lugwizzle and escort the shredder through furious Venture Co. employees.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "who leads sludge fen",
     "supervisor lugwizzle"
    ],
-   "answer": "Supervisor Lugwizzle runs the oil field for the Venture Company. He oversees the drillers, engineers, and overseers, with lieutenants including Overseer Glibby and Foreman Grills."
+   "answer": "Supervisor Lugwizzle runs the Venture Company oil field. He oversees its drillers, engineers, and overseers, with lieutenants including Overseer Glibby and Foreman Grills."
   },
   {
    "q": "Why is there a hijacked shredder parked in the middle of the fen?",
@@ -91,5 +91,5 @@
  "attribution": [
   "Sludge Fen"
  ],
- "style": 1
+ "style": 2
 }

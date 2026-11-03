@@ -20,21 +20,21 @@
    "Gyromast's Revenge"
   ]
  },
- "summary": "On Darkshore's coast, Gelkak Gyromast needs help restoring his mechanical first mate. His winding key shattered on the rocks, and wildlife and murlocs scavenged the three pieces. Recovering them is the first step toward setting his crew right.",
+ "summary": "Gelkak Gyromast needs your help on Darkshore's coast. His mechanical first mate cannot work without a winding key, shattered on the rocks. Wildlife and murlocs carried off its three pieces.",
  "sections": [
   {
    "title": "Castaway on Darkshore",
-   "body": "Gelkak Gyromast is a gnome pirate stranded on Darkshore, far from the South Seas. He says aggressive threshadons attacked and sank his vessel just off the coast. The wreck cast him ashore among the flotsam, marooned and separated from his crew.",
+   "body": "On Darkshore, Gelkak Gyromast is a gnome pirate stranded far from the South Seas. He says aggressive threshadons attacked and sank his vessel just off the coast. The wreck cast him ashore among the flotsam, marooned and parted from his crew.",
    "spoiler": 0
   },
   {
    "title": "The Scavenged Key",
-   "body": "Gelkak's first concern is his first mate, not provisions or gold. The companion needs a specialized key to operate, but the key shattered into three pieces when Gelkak crashed on the rocky shoals. Before he could gather them, reef crawlers on the beach, foreststriders near the woods, and scavengers from the Greymist murloc tribe carried the shiny pieces away.",
+   "body": "Gelkak's first concern is his first mate, not provisions or gold. His companion needs a special key to operate, but the key broke into three pieces when Gelkak crashed on the rocky shoals. Reef crawlers on the beach, foreststriders near the woods, and Greymist murloc scavengers carried the shiny pieces away.",
    "spoiler": 0
   },
   {
    "title": "A Peculiar Companion",
-   "body": "Gelkak speaks of his first mate with a sea captain's fierce loyalty. He says the companion needs to be put in working order, and the broken key is vital to winding it up again.",
+   "body": "Gelkak speaks of his first mate with a sea captain's fierce loyalty. He says the companion must be put in working order, and the broken key is vital to winding it up again.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "who is the gnome pirate",
     "darkshore gnome pirate"
    ],
-   "answer": "Gelkak Gyromast is a gnome pirate whose vessel was attacked and sunk by predatory threshadons off Darkshore."
+   "answer": "Gelkak Gyromast is a gnome pirate whose vessel predatory threshadons attacked and sank off Darkshore."
   },
   {
    "q": "What is the key used for?",
@@ -64,7 +64,7 @@
     "who stole the key",
     "broken key darkshore"
    ],
-   "answer": "The top piece went to foreststriders, the middle piece to Greymist murlocs, and the bottom piece to coastal reef crawlers after the key broke on shore."
+   "answer": "Foreststriders took the top piece, Greymist murlocs the middle piece, and coastal reef crawlers the bottom piece after the key broke on shore."
   },
   {
    "q": "Why was a gnome pirate sailing near Darkshore?",
@@ -95,7 +95,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you may recognize Gelkak's reliance on clockwork devices instead of flesh-and-blood shipmates, though his pirate life is unusual among your kin."
+   "text": "As a gnome, you may recognize Gelkak's reliance on clockwork devices instead of flesh-and-blood shipmates. His pirate life is unusual among your kin."
   },
   {
    "target": "profession:Engineering",
@@ -123,5 +123,5 @@
  "attribution": [
   "Gyromast's Retrieval"
  ],
- "style": 1
+ "style": 2
 }

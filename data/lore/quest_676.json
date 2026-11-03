@@ -23,21 +23,21 @@
    "The Real Threat (Classic)"
   ]
  },
- "summary": "Tallow sends fighters from Tarren Mill across the mountains to relieve Hammerfall in the Arathi Highlands. Before reporting to Drum Fel, you prove your battle readiness against Boulderfist ogres near the ruins of Stromgarde.",
+ "summary": "Tallow sends fighters from Tarren Mill through the mountains to relieve Hammerfall in the Arathi Highlands. Before reporting to Drum Fel, you prove your strength against Boulderfist ogres near the ruins of Stromgarde.",
  "sections": [
   {
    "title": "A Gruff Summons",
-   "body": "In Tarren Mill, Tallow has little patience for untested fighters wandering the Foothills. While recruits stand idle, allies are under attack far away. He sends capable fighters east through Thoradin's Wall into the Arathi Highlands, where Hammerfall is besieged from several sides. Tallow wants them to prove their worth against a strong foe before he sends them to the outpost.",
+   "body": "In Tarren Mill, Tallow has little patience for fighters who have not proved themselves. While recruits stand idle, allies face attack far away. He sends capable fighters east through Thoradin's Wall into the Arathi Highlands, where Hammerfall is besieged from several sides. First, they must prove their worth against a strong foe. Only then will Tallow send them to the outpost.",
    "spoiler": 0
   },
   {
    "title": "Trial by Boulderfist",
-   "body": "Tallow demands a display of strength at the ogre mound northeast of the ruins of Stromgarde. Boulderfist ogres and their enforcers hold much of Arathi, threatening travelers on the highland trails. Fighting them thins the hostile forces flanking the road and proves you can stand against the danger before reaching Hammerfall.",
+   "body": "Tallow demands a show of strength at the ogre mound northeast of the ruins of Stromgarde. Boulderfist ogres and their enforcers hold much of Arathi and threaten travelers on the highland trails. Fighting them thins the hostile forces flanking the road. It also proves you can face the danger before reaching Hammerfall.",
    "spoiler": 0
   },
   {
    "title": "Reporting to Hammerfall",
-   "body": "After the Boulderfist camp is cleared, the road leads northeast to Hammerfall, named for Warchief Orgrim Doomhammer. Commander Drum Fel receives the new arrivals with weary skepticism. Whether Tallow meant to strengthen the garrison or send fools to their deaths, Drum Fel quickly turns proven fighters toward the skirmishes threatening the outpost.",
+   "body": "Once the Boulderfist camp is cleared, the road leads northeast to Hammerfall, named for Warchief Orgrim Doomhammer. Commander Drum Fel receives the new arrivals with weary skepticism. Whether Tallow meant to strengthen the garrison or send fools to their deaths, Drum Fel soon turns proven fighters toward the skirmishes threatening the outpost.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "quest turn in location",
     "who gives the hammer may fall"
    ],
-   "answer": "Tallow offers this assignment in Tarren Mill, in the Hillsbrad Foothills. After you defeat the required ogres in the Arathi Highlands, you report to Drum Fel at Hammerfall, the Horde outpost."
+   "answer": "Tallow offers this assignment in Tarren Mill, in the Hillsbrad Foothills. After defeating the required ogres in the Arathi Highlands, you report to Drum Fel at Hammerfall, the Horde outpost."
   },
   {
    "q": "Where are the Boulderfist ogres located?",
@@ -76,7 +76,7 @@
     "tallow motive",
     "why test me"
    ],
-   "answer": "Hammerfall is under constant attack and desperate for capable fighters. Tallow sends you against the Boulderfist ogres to prove you can fight before you reinforce Drum Fel, rather than arrive as a burden."
+   "answer": "Hammerfall faces constant attack and needs capable fighters. Tallow sends you against the Boulderfist ogres to prove you can fight before joining Drum Fel, rather than arriving as a burden."
   },
   {
    "q": "Who is Drum Fel?",
@@ -135,5 +135,5 @@
  "attribution": [
   "The Hammer May Fall"
  ],
- "style": 1
+ "style": 2
 }

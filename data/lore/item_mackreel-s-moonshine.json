@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Potent Brew",
-   "body": "Foggy MacKreel brews his moonshine while stationed as a guard on the Thandol Span. The liquor has a fierce reputation, and even hardened dwarven sentries can be laid low after a night of drinking it. They wake with headaches like siege engines rolling overhead. Travelers value its warmth against the damp chill of Lordaeron and Khaz Modan.",
+   "body": "Foggy MacKreel brews moonshine while guarding the Thandol Span. Even hardened dwarven sentries can be laid low after a night of drinking it. They wake with headaches like siege engines rolling overhead. Travelers prize its warmth against the damp chill of Lordaeron and Khaz Modan.",
    "spoiler": 0
   },
   {
    "title": "Payment to Southshore",
-   "body": "Foggy MacKreel owed an unsettled debt to Brewmeister Bilger, Southshore's tavern keeper and master brewer. He sent a batch of moonshine instead of coin to clear his tab. Bilger accepts the liquor in place of gold and adds MacKreel's potent brew to his stock for the chilly coastal days of the Hillsbrad Foothills.",
+   "body": "Foggy MacKreel owed a debt to Brewmeister Bilger, Southshore's tavern keeper and master brewer. He sent a batch of moonshine instead of coin to clear his tab. Bilger accepts the liquor in place of gold and adds MacKreel's potent brew to his stock for the chilly coastal days of the Hillsbrad Foothills.",
    "spoiler": 0
   }
  ],
@@ -91,5 +91,5 @@
   "MacKreel's Moonshine",
   "MacKreel's Moonshine (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "Assessing the Threat"
   ]
  },
- "summary": "Gnolls have reached the western road into Redridge, and Lakeshire fears being cut off. Guard Parker spots camps near the border and sends word to Deputy Feldon. The warning confirms the town’s fear that the beastmen may isolate Redridge.",
+ "summary": "Gnolls press toward Redridge’s western road, and Lakeshire fears being cut off. Guard Parker spots camps near the border and sends word to Deputy Feldon. The warning confirms the town’s fear that the beastmen may isolate Redridge.",
  "sections": [
   {
    "title": "Eyes on the Border",
-   "body": "Guard Parker watches the western border trail, where the road runs from Elwynn Forest into Redridge Mountains. Stormwind’s forces have thinned, leaving the route with few defenders. Parker keeps the gravel road open for supply wagons, but his scouts find gnoll warbands advancing from the crags to the north and east. Their camps lie alarmingly close to the road.",
+   "body": "Guard Parker watches the western border trail, where the road leads from Elwynn Forest into Redridge Mountains. Stormwind’s forces have thinned, leaving few defenders along the route. Parker keeps the gravel road open for supply wagons, but his scouts report gnoll warbands advancing from the crags to the north and east. Their camps lie alarmingly close to the road.",
    "spoiler": 0
   },
   {
    "title": "A Town Under Siege",
-   "body": "Deputy Feldon receives the warning near the Lakeshire bridge and sees how much danger the town faces. Redridge gnolls are raiding near Lakeshire, and their camps near the Elwynn border could let them encircle the town and push into the kingdom’s heartland. Stormwind has ignored pleas for reinforcements, leaving Lakeshire’s watch unready for threats from both sides.",
+   "body": "Near the Lakeshire bridge, Deputy Feldon receives the warning and sees the danger facing the town. Redridge gnolls raid near Lakeshire, while their camps near the Elwynn border could let them encircle the town and push into the kingdom’s heartland. Stormwind has ignored pleas for reinforcements, leaving Lakeshire’s watch unready for threats from both sides.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "who is deputy feldon",
     "turn in location"
    ],
-   "answer": "Deputy Feldon is in Lakeshire, patrolling the grounds just south of the town’s large stone bridge."
+   "answer": "Deputy Feldon patrols the grounds in Lakeshire, just south of the town’s large stone bridge."
   },
   {
    "q": "Why are the gnolls an issue on the road?",
@@ -68,7 +68,7 @@
     "no reinforcements",
     "lakeshire defense"
    ],
-   "answer": "With King Varian Wrynn missing and unrest straining the realm, Highlord Bolvar and the court have refused to send royal troops to Redridge. Lakeshire must rely on local deputies and volunteers for its defense."
+   "answer": "King Varian Wrynn is missing, and unrest strains the realm. Highlord Bolvar and the court have refused to send royal troops to Redridge, so Lakeshire relies on local deputies and volunteers for its defense."
   },
   {
    "q": "What happens after reporting the gnolls?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you know Lakeshire’s isolation threatens the eastern front, making border intelligence vital for travelers and supply convoys."
+   "text": "As an Alliance traveler, you know Lakeshire’s isolation threatens the eastern front. Border intelligence matters to travelers and supply convoys."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Encroaching Gnolls"
  ],
- "style": 1
+ "style": 2
 }

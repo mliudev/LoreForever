@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hall of Legends"
  },
- "summary": "In Orgrimmar's Valley of Strength, Horde champions gather in the Hall of Legends. Behind its guarded entrance, proven officers confer over battle plans and arm themselves with weapons and armor from conflicts across Azeroth and beyond.",
+ "summary": "In Orgrimmar's Valley of Strength, Horde champions gather in the Hall of Legends. Behind its guarded entrance, proven officers confer over battle plans and arm themselves with weapons and armor from wars across Azeroth and beyond.",
  "sections": [
   {
    "title": "Sanctuary of Horde Champions",
-   "body": "Horde officers gather in the Hall of Legends, off the Valley of Strength's busy avenues. Beyond its guarded entrance, strategists and delegates from across the faction confer over maps of contested lands and the military standing of both factions. Among them are Chieftain Earthbind of Thunder Bluff, Blood Guard Hini'wana of the Darkspear, and Advisor Willington of the Undercity. Only warriors who have reached the rank of Stone Guard or higher may enter and claim the arms and spoils kept within.",
+   "body": "Horde officers gather in the Hall of Legends, off the busy avenues of the Valley of Strength. Beyond its guarded entrance, strategists and delegates from across the faction confer over maps of contested lands and the military strength of both factions. Chieftain Earthbind of Thunder Bluff, Blood Guard Hini'wana of the Darkspear, and Advisor Willington of the Undercity are among them. Only warriors ranked Stone Guard or higher may enter and claim the arms and spoils within.",
    "spoiler": 0
   },
   {
    "title": "The Spoils of War",
-   "body": "The Hall of Legends holds armories stocked with battle-tested wargear for proven Horde officers. For those rising through the military ranks, its weapons and armor mark honor, martial skill, and victory hard won.",
+   "body": "The Hall of Legends keeps armories stocked with battle-tested wargear for proven Horde officers. For those climbing the military ranks, these weapons and armor mark honor, martial skill, and hard-won victory.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "hall of legends requirement",
     "rank required for hall of legends"
    ],
-   "answer": "Only Horde champions who have reached the rank of Stone Guard or higher may enter the Hall of Legends. Lower-ranking soldiers and ordinary citizens are turned away at the entrance."
+   "answer": "Only Horde champions ranked Stone Guard or higher may enter the Hall of Legends. Lower-ranking soldiers and ordinary citizens are turned away at the entrance."
   },
   {
    "q": "Where is the Hall of Legends located?",
@@ -37,7 +37,7 @@
     "hall of legends location",
     "how to get to hall of legends"
    ],
-   "answer": "The Hall of Legends stands in the Valley of Strength in Orgrimmar, near the city's primary barracks and administrative seat."
+   "answer": "The Hall of Legends stands in Orgrimmar's Valley of Strength, near the city's primary barracks and administrative seat."
   },
   {
    "q": "What is inside the Hall of Legends?",
@@ -45,7 +45,7 @@
     "what is in hall of legends",
     "hall of legends interior"
    ],
-   "answer": "Inside, a central strategy table is flanked by military representatives of the Horde's various races, with maps of Azeroth and military records around them. Quartermasters maintain armories here and distribute prestigious arms, armor, and mounts to accomplished officers."
+   "answer": "Inside the Hall of Legends, a central strategy table is flanked by military representatives of the Horde's various races. Maps of Azeroth and military records surround them. Quartermasters maintain armories there and distribute prestigious arms, armor, and mounts to accomplished officers."
   },
   {
    "q": "Does the Alliance have an equivalent location?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, the Hall of Legends recognizes military achievement and offers strategic council and prized wargear to those who shed blood for the Warchief."
+   "text": "For the Horde, the Hall of Legends honors military achievement and offers strategic counsel and prized wargear to those who shed blood for the Warchief."
   },
   {
    "target": "class:Warrior",
@@ -88,5 +88,5 @@
  "attribution": [
   "Hall of Legends"
  ],
- "style": 1
+ "style": 2
 }

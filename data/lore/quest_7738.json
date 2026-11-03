@@ -15,16 +15,16 @@
   "previous": "",
   "next": ""
  },
- "summary": "You have found a yeti hide that may well be perfect: remarkably thick and tough, beyond what the yetis of Rage Scar yield. At Camp Mojache, Jangdor Swiftstrider is looking for yeti hides.",
+ "summary": "At Camp Mojache, Jangdor Swiftstrider is buying yeti hides, and one you found may be perfect. It is thicker and tougher than the hides from the yetis of Rage Scar.",
  "sections": [
   {
    "title": "A Hide Worth Showing",
-   "body": "The hide is plainly thicker and sturdier than the ones from the yetis of Rage Scar. At Camp Mojache in Feralas, Jangdor Swiftstrider wants to buy yeti hides, so this one is worth bringing there.",
+   "body": "The hide feels thicker and sturdier than those from the yetis of Rage Scar. Jangdor Swiftstrider at Camp Mojache in Feralas buys yeti hides. This one is worth bringing to him.",
    "spoiler": 0
   },
   {
    "title": "Jangdor's Verdict",
-   "body": "Jangdor is delighted, calling it the finest yeti hide he has ever seen. A fitting bounty is in order, more than he usually pays for a single hide, and he is confident something special can be made from it.",
+   "body": "Jangdor Swiftstrider delights in the hide and calls it the finest he has ever seen. He offers more than he usually pays for one hide, sure he can make something special from it.",
    "spoiler": 1
   }
  ],
@@ -36,7 +36,7 @@
     "who turns in perfect yeti hide",
     "jangdor yeti pelt"
    ],
-   "answer": "Jangdor Swiftstrider, at Camp Mojache in Feralas, who wants to buy yeti hides."
+   "answer": "Jangdor Swiftstrider at Camp Mojache in Feralas wants to buy yeti hides."
   },
   {
    "q": "Why is this hide considered special?",
@@ -44,7 +44,7 @@
     "why is it perfect",
     "what makes the hide special"
    ],
-   "answer": "It is unusually thick and tough, and may well be perfect, better than the hides from Rage Scar's yetis."
+   "answer": "Its unusual thickness and toughness set it apart from the hides from the yetis of Rage Scar."
   },
   {
    "q": "Where is Jangdor Swiftstrider?",
@@ -52,7 +52,7 @@
     "where is jangdor swiftstrider",
     "where to bring perfect yeti hide"
    ],
-   "answer": "At Camp Mojache in Feralas."
+   "answer": "Jangdor Swiftstrider is at Camp Mojache in Feralas."
   }
  ],
  "angles": [],
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Classic quest text: Perfect Yeti Hide"
- ]
+ ],
+ "style": 2
 }

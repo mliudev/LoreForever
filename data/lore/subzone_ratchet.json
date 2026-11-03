@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ratchet"
  },
- "summary": "Ships crowd Ratchet's docks on the eastern coast of the Barrens. The Steamwheedle Cartel runs this neutral port, linking central Kalimdor to the Eastern Kingdoms by sea.",
+ "summary": "Ships crowd Ratchet's eastern docks, carrying traders between Kalimdor and the Eastern Kingdoms. The Steamwheedle Cartel keeps this port neutral.",
  "sections": [
   {
    "title": "The Crossroads of the Great Sea",
-   "body": "Ratchet gives shelter to anyone who can pay, on the dry coast between Durotar and Dustwallow Marsh. After the Third War, chief engineer Gazlowe founded the port, drawing smugglers, exiles, and daring traders to Kalimdor's frontier. The Steamwheedle Cartel runs the town, which keeps strict neutrality between the Horde and the Alliance. Ships such as The Maiden's Fancy cross the Great Sea to Booty Bay with goods, mercenaries, and raw materials. Ratchet Bruisers watch the docks and beat anyone who starts a fight and disrupts trade.",
+   "body": "Ratchet offers shelter to anyone who can pay, on the dry coast between Durotar and Dustwallow Marsh. After the Third War, chief engineer Gazlowe founded the port and drew smugglers, exiles, and daring traders to Kalimdor's frontier. The Steamwheedle Cartel runs the town and keeps it neutral between the Horde and the Alliance.\n\nShips such as The Maiden's Fancy cross the Great Sea to booty bay, carrying goods, mercenaries, and raw materials. Ratchet Bruisers watch the docks and beat anyone who starts a fight and disrupts trade.",
    "spoiler": 0
   },
   {
    "title": "Shadows Above the Docks",
-   "body": "Ratchet's docks, taverns, and workshops serve a town with dealings beyond trade. A secluded tower overlooks the harbor from the hills, where warlocks including Strahad Farsan and Menara Voidrender gather. While townsfolk and sailors tend to cargo and goblin engineering, the warlocks commune with demonic forces without interference. The Steamwheedle Cartel does not enforce the moral restrictions found in traditional faction capitals.",
+   "body": "Ratchet's docks, taverns, and workshops serve a town whose dealings reach beyond trade. A secluded tower overlooks the harbor from the hills, where warlocks including Strahad Farsan and Menara Voidrender gather. While townsfolk and sailors tend to cargo and goblin engineering, the warlocks commune with demonic forces without interference. The Steamwheedle Cartel does not enforce the moral restrictions found in traditional faction capitals.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is in charge of ratchet",
     "gazlowe ratchet"
    ],
-   "answer": "Chief Engineer Gazlowe runs Ratchet for the neutral Steamwheedle Cartel. He founded the town after Warchief Thrall paid him well to direct the construction of Orgrimmar's infrastructure."
+   "answer": "Chief Engineer Gazlowe runs Ratchet for the neutral Steamwheedle Cartel. He founded the town after Warchief Thrall paid him well to direct construction of Orgrimmar's infrastructure."
   },
   {
    "q": "Can Alliance players visit Ratchet safely?",
@@ -37,7 +37,7 @@
     "alliance in ratchet",
     "can alliance go to ratchet"
    ],
-   "answer": "Yes. Ratchet is a neutral goblin port where Alliance and Horde travelers can use the inn, bank, vendors, flight paths, and ferry, as long as they remain on good terms with the Steamwheedle Cartel and attack no one in town."
+   "answer": "Yes. Ratchet is a neutral goblin port where Alliance and Horde travelers can use the inn, bank, vendors, flight paths, and ferry. They must remain on good terms with the Steamwheedle Cartel and attack no one in town."
   },
   {
    "q": "Where does the boat in Ratchet go?",
@@ -70,7 +70,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can train in the tower on the bluffs above Ratchet, where warlocks of many origins gather under Strahad Farsan and Menara Voidrender to master advanced demonic summoning."
+   "text": "As a warlock, you can train in the tower on the bluffs above Ratchet. Warlocks of many origins gather there under Strahad Farsan and Menara Voidrender to master advanced demonic summoning."
   },
   {
    "target": "faction:Alliance",
@@ -99,5 +99,5 @@
  "attribution": [
   "Ratchet"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Elune's Grace (Dolanaar)",
   "chain": []
  },
- "summary": "From Dolanaar, night elf priests return to Darnassus for Elune's Grace. The rite marks their readiness to wield divine talents unique to their people.",
+ "summary": "Night elf priests leave Dolanaar for Darnassus to receive Elune's Grace. The rite marks their readiness for a divine talent reserved for the kaldorei.",
  "sections": [
   {
    "title": "A Sacred Milestone",
-   "body": "A priest's path in the Sisterhood of Elune calls for more than skill in prayers of mending and smiting. As acolytes gain experience, they reach a threshold where they may receive blessings granted only to the kaldorei. Local mentors such as Laurna Morninglight in Dolanaar cannot bestow these deeper arts, so they send promising disciples to the spiritual heart of their order.",
+   "body": "A priest of the Sisterhood of Elune needs more than skill in prayers of mending and smiting. With experience, an acolyte reaches the point where blessings reserved for the kaldorei may be bestowed. Local mentors such as Laurna Morninglight in Dolanaar cannot teach these deeper arts, so they send promising disciples to the spiritual heart of their order.",
    "spoiler": 0
   },
   {
    "title": "Audience at the Temple",
-   "body": "Initiates cross Teldrassil to the Temple of the Moon in Darnassus. Beneath the gaze of the high priesthood, Priestess Alathea judges whether each petitioner is ready to bear the goddess's defensive mantle. Elune's Grace is taught there as a divine talent reserved for the kaldorei.",
+   "body": "Initiates cross Teldrassil to the Temple of the Moon in Darnassus. There, beneath the gaze of the high priesthood, Priestess Alathea judges whether each petitioner is ready to bear the goddess's defensive mantle. She teaches Elune's Grace there, a divine talent reserved for the kaldorei.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "elunes grace quest purpose",
     "why visit alathea"
    ],
-   "answer": "After gaining enough practical experience, night elf priests return to Darnassus for a rite of passage. At the Temple of the Moon, Priestess Alathea tests them and teaches the defensive art of Elune's Grace."
+   "answer": "Night elf priests return to Darnassus for a rite of passage when they have gained enough practical experience. At the Temple of the Moon, Priestess Alathea tests them and teaches the defensive art of Elune's Grace."
   },
   {
    "q": "Who is Priestess Alathea?",
@@ -79,17 +79,17 @@
     "quest start and end",
     "where to go"
    ],
-   "answer": "Laurna Morninglight summons the acolyte from Dolanaar on Teldrassil to the Temple of the Moon in Darnassus."
+   "answer": "Laurna Morninglight sends the acolyte from Dolanaar on Teldrassil to the Temple of the Moon in Darnassus."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a night elf priest, this rite grounds you in the Sisterhood of Elune's celestial magic rather than universal holy practices."
+   "text": "As a night elf priest, you learn the Sisterhood of Elune's celestial magic, distinct from universal holy practices."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, the pilgrimage to the Temple of the Moon reflects Elune's central place in kaldorei society, bringing distant acolytes to the heart of Darnassus."
+   "text": "As a night elf, your pilgrimage to the Temple of the Moon reflects Elune's central place in kaldorei society. It brings distant acolytes to the heart of Darnassus."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Elune's Grace (Dolanaar)"
  ],
- "style": 1
+ "style": 2
 }

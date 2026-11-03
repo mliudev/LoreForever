@@ -10,16 +10,16 @@
    "quest:1142"
   ]
  },
- "summary": "In Razorfen Kraul, a pendant carries the bond between Treshala and Heralath Fallowbrook. Heralath brought it from their home in Darnassus into southern Kalimdor, where the quilboar tore it from him as he lay dying.",
+ "summary": "In Razorfen Kraul, Heralath's pendant bears the bond he shares with Treshala. He carried it from their home in Darnassus into southern Kalimdor, where the quilboar tore it from him as he lay dying.",
  "sections": [
   {
    "title": "Token of Devotion",
-   "body": "Heralath Fallowbrook carried the pendant close when he left Teldrassil on perilous journeys. The necklace reminded him of home and of his beloved wife, Treshala, and the devotion they shared.",
+   "body": "On perilous journeys from Teldrassil, Heralath Fallowbrook kept the pendant close. It brought his home to mind, along with his beloved wife, Treshala, and the devotion they shared.",
    "spoiler": 0
   },
   {
    "title": "Lost in the Briars",
-   "body": "Heralath ventured into Razorfen Kraul with his party, where savage quilboar fell upon them. In his final moments, one of the tusked defenders tore the pendant from him. As his life ebbed away, Heralath asked a passing adventurer to wrest the keepsake from his killers and carry it, with news of his fate, home to Treshala in Darnassus.",
+   "body": "Heralath entered Razorfen Kraul with his party, where savage quilboar fell upon them. As he lay dying, one of the tusked defenders tore away his pendant. Heralath asked a passing adventurer to wrest the keepsake from his killers and carry it home to Treshala in Darnassus, with news of his fate.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "pendant of bonding",
     "who owns the pendant"
    ],
-   "answer": "Treshala's Pendant belongs to Treshala Fallowbrook. Her husband Heralath carried it as a keepsake of their union before he met his end in Razorfen Kraul."
+   "answer": "Treshala Fallowbrook owns the pendant. Her husband Heralath carried it as a keepsake of their union before he died in Razorfen Kraul."
   },
   {
    "q": "How did the pendant end up in Razorfen Kraul?",
@@ -39,7 +39,7 @@
     "why is it in rfk",
     "how was it lost"
    ],
-   "answer": "Heralath Fallowbrook carried the pendant on an expedition into Razorfen Kraul. After quilboar ambushed and mortally wounded him, one of them took the necklace from him."
+   "answer": "Heralath Fallowbrook carried the pendant on an expedition into Razorfen Kraul. After quilboar ambushed and mortally wounded him, one took the necklace from him."
   },
   {
    "q": "Who asks for the pendant to be recovered?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can honor a fellow kaldorei who perished far from the safety of Teldrassil's boughs by recovering the pendant."
+   "text": "As a night elf, you can honor a fellow kaldorei who perished far from Teldrassil's shelter by recovering the pendant."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can carry the token to Darnassus and bring somber closure to a widow mourning her fallen explorer."
+   "text": "As an Alliance member, you can carry the token to Darnassus and bring comfort to a widow mourning her fallen explorer."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Treshala's Pendant",
   "Mortality Wanes"
  ],
- "style": 1
+ "style": 2
 }

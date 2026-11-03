@@ -17,16 +17,16 @@
   "wiki": "The Journey Has Just Begun (Horde)",
   "chain": []
  },
- "summary": "After Onyxia's fall, skilled leatherworkers in Orgrimmar learn how her scales can guard against the black dragonflight. Overlord Runthak recognizes their craft and teaches a rare technique for making protective cloaks, needed against the flames of Blackrock Spire.",
+ "summary": "In Orgrimmar, skilled leatherworkers learn how Onyxia's scales can guard against the black dragonflight. Overlord Runthak teaches them a rare cloak-making technique for the flames of Blackrock Spire.",
  "sections": [
   {
    "title": "A Broodmother's Legacy",
-   "body": "Onyxia's fall is a triumph for the Horde, yet the black dragonflight remains a threat. The broodmother's scaled hide resists draconic flame. Horde leaders seek craftsmen who can turn the dragon's remains into defensive armor rather than let them go to waste.",
+   "body": "Onyxia's fall is a triumph for the Horde, but the black dragonflight remains a threat. Her scaled hide resists draconic flame. So Horde leaders seek craftsmen who can turn the dragon's remains into defensive armor instead of letting them go to waste.",
    "spoiler": 0
   },
   {
    "title": "Shield Against Shadow Flame",
-   "body": "Overlord Runthak teaches gifted leatherworkers to stitch the Onyxia Scale Cloak. The knowledge is no mere show or mark of prestige. Deep within Blackrock Mountain, Onyxia's brother Nefarian breathes devastating fire. Without the enchanted protection of their broodmother's scales, any vanguard facing the Lord of Blackrock would be reduced to ash.",
+   "body": "Overlord Runthak teaches gifted leatherworkers to stitch the Onyxia Scale Cloak. His lesson is no mere show or mark of prestige. Deep within Blackrock Mountain, Onyxia's brother Nefarian breathes devastating fire. Without the enchanted protection of their broodmother's scales, any vanguard facing the Lord of Blackrock would be reduced to ash.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "onyxia cloak pattern",
     "what do i learn"
    ],
-   "answer": "Overlord Runthak teaches leatherworkers the technique for crafting the Onyxia Scale Cloak from scales taken from the fallen broodmother."
+   "answer": "Overlord Runthak teaches leatherworkers to craft the Onyxia Scale Cloak from scales taken from the fallen broodmother."
   },
   {
    "q": "Why is the Onyxia Scale Cloak important?",
@@ -110,5 +110,5 @@
  "attribution": [
   "The Journey Has Just Begun (Horde)"
  ],
- "style": 1
+ "style": 2
 }

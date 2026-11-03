@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Eastern Strand"
  },
- "summary": "Daggerspine naga hold the Eastern Strand along Hillsbrad's southeastern coast. The beaches and shallows reach toward the Arathi Highlands border.",
+ "summary": "Daggerspine naga hold the Eastern Strand along Hillsbrad's southeastern coast. Its beaches and shallows reach toward the Arathi Highlands border.",
  "sections": [
   {
    "title": "A Hostile Shoreline",
-   "body": "The Daggerspine naga hold the Eastern Strand on Hillsbrad's southeastern edge. Across the bay lies the Western Strand. Southshore and Tarren Mill clash over the region's human farms, while the naga dominate these sandy flats and tidelines. They come from the Great Sea, crossing the sandbars and settling among rocky outcrops. From there, they watch the mainland.",
+   "body": "Daggerspine naga dominate the Eastern Strand on Hillsbrad's southeastern edge. Across the bay lies the Western Strand. Southshore and Tarren Mill clash over the region's human farms, while the naga dominate these sandy flats and tidelines. They come from the Great Sea, crossing the sandbars and settling among rocky outcrops. From there, they watch the mainland.",
    "spoiler": 0
   },
   {
    "title": "Daggerspine Territory",
-   "body": "Daggerspine warriors and spellcasters prowl the beaches and nearby waters southeast of Southshore, making the coast dangerous for travelers.",
+   "body": "Daggerspine warriors and spellcasters prowl the beaches and nearby waters southeast of Southshore. Their presence makes the coast dangerous for travelers.",
    "spoiler": 1
   }
  ],
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Daggerspine naga on the Eastern Strand threaten Southshore's sea defenses and nearby patrols from the flank."
+   "text": "As an Alliance traveler, you face Daggerspine naga on the Eastern Strand, threatening Southshore's sea defenses and nearby patrols from the flank."
   },
   {
    "target": "faction:Horde",
-   "text": "An organized naga advance inland from the coast could disrupt Horde movements and supply lines across lower Hillsbrad."
+   "text": "As a Horde traveler, an organized naga advance inland from the coast could disrupt your movements and supply lines across lower Hillsbrad."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Eastern Strand"
  ],
- "style": 1
+ "style": 2
 }

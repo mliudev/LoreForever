@@ -29,16 +29,16 @@
   "qtype": "PvP",
   "category": "Hinterlands"
  },
- "summary": "After the first message, Otho Moji'ko at Revantusk Village says the Wildhammer and their gryphons are as close as a troll and a mate. Disgusting, but it can be used against them. Otho wants gryphons in the Hinterlands killed for their feathers.",
+ "summary": "At Revantusk Village, Otho Moji'ko sends another message to the Wildhammer. He sees their bond with gryphons as close as a troll and a mate, and means to turn it against them.",
  "sections": [
   {
    "title": "A Message of Feathers",
-   "body": "After the Highvale high elves, Otho Moji'ko has another message to send. The Wildhammer and their gryphons are said to be as close as a troll and a mate, which Otho finds disgusting, but useful. Kill the gryphons you meet across the Hinterlands and collect their Long Elegant Feathers. Gryphons are known to live in every region there. From the feathers, Otho will make the final message.",
+   "body": "After the Highvale high elves, Otho Moji'ko has another message for the Wildhammer. Their closeness with gryphons disgusts him, but he sees a use for it. Kill the gryphons you meet across the Hinterlands and gather their Long Elegant Feathers. Gryphons live in every region there. Otho will make his final message from the feathers.",
    "spoiler": 0
   },
   {
    "title": "Otho's Pleasure",
-   "body": "Otho expects the last message to scare the Wildhammer off, or else to make them very, very angry. Otho is delighted that one more step remains before the Wildhammer see that trolls cannot be crossed.",
+   "body": "Otho expects his final message to frighten the Wildhammer away or make them furious. He delights that only one step remains before they learn trolls cannot be crossed.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "another message questgiver",
     "otho mojiko"
    ],
-   "answer": "Otho Moji'ko, who stands in Revantusk Village."
+   "answer": "Otho Moji'ko gives the message from Revantusk Village."
   },
   {
    "q": "Why does Otho Moji'ko want gryphon feathers?",
@@ -58,7 +58,7 @@
     "why gryphon feathers",
     "why kill gryphons hinterlands"
    ],
-   "answer": "Otho says the Wildhammer and their gryphons are as close as a troll and a mate, and wants to use that against them. The feathers will go into the final message."
+   "answer": "Otho says the Wildhammer and their gryphons are as close as a troll and a mate. He means to use that bond against them, and make his final message from the feathers."
   },
   {
    "q": "Where can gryphons be found?",
@@ -66,7 +66,7 @@
     "gryphon locations hinterlands",
     "where are hinterlands gryphons"
    ],
-   "answer": "Gryphons are known to live in every region of the Hinterlands."
+   "answer": "Gryphons live in every region of the Hinterlands."
   },
   {
    "q": "What came before this message?",
@@ -74,7 +74,7 @@
     "what comes before another message to the wildhammer",
     "message to the wildhammer chain"
    ],
-   "answer": "It follows Message to the Wildhammer, in which Otho had Highvale high elves slaughtered as a warning to the dwarves."
+   "answer": "This follows Message to the Wildhammer, in which Otho had Highvale high elves slaughtered as a warning to the dwarves."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Wowpedia: Another Message to the Wildhammer"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Skyseer the Elder",
   "chain": []
  },
- "summary": "Skyseer the Elder is an honored ancestral spirit residing atop Freewind Post during the Lunar Festival. Travelers seek out his presence high above Thousand Needles to pay their respects to the ancestors and receive his ancient blessing.",
+ "summary": "During the Lunar Festival, Skyseer the Elder waits atop Freewind Post in Thousand Needles. Travelers come to honor the ancestors and receive his blessing.",
  "sections": [
   {
    "title": "A Beacon in the Needles",
-   "body": "Perched upon the lofty wooden bluffs of Freewind Post, Elder Skyseer appears bathed in a radiant pillar of celestial light. Positioned near the bridges leading toward the massive mechanical lifts, his ghostly presence offers a quiet sanctuary amid the windswept mesas of Thousand Needles.",
+   "body": "Wooden bluffs tower over Freewind Post. Elder Skyseer rests among them in a shaft of celestial light, near the bridges leading to the great mechanical lifts. Winds sweep across the mesas of Thousand Needles around his ghostly form.",
    "spoiler": 0
   },
   {
    "title": "The Ancestral Path",
-   "body": "Elder Skyseer receives visiting adventurers who come to honor the past during the celebration of the Lunar Festival. Beyond acknowledging their homage, the venerable elder can guide travelers toward his kin scattered across Kalimdor, including Elder Morningdew and Elder Runetotem.",
+   "body": "During the Lunar Festival, Elder Skyseer welcomes travelers who come to honor the past. He can guide them to his kin across Kalimdor, including Elder Morningdew and Elder Runetotem.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is skyseer",
     "freewind post elder"
    ],
-   "answer": "Elder Skyseer stands on the upper mesa of Freewind Post in Thousand Needles, situated near the suspension bridges close to the cliffside lifts."
+   "answer": "Elder Skyseer stands on Freewind Post's upper mesa in Thousand Needles. He is near the suspension bridges by the cliffside lifts."
   },
   {
    "q": "What is the purpose of seeking out Elder Skyseer?",
@@ -47,7 +47,7 @@
     "skyseer quest objective",
     "lunar festival skyseer"
    ],
-   "answer": "During the Lunar Festival, travelers visit ancestral spirits like Elder Skyseer to pay their respects, receive a Coin of Ancestry, and hear guidance regarding the locations of other elders."
+   "answer": "During the Lunar Festival, travelers visit ancestral spirits such as Elder Skyseer to pay their respects, receive a Coin of Ancestry, and learn where to find other elders."
   },
   {
    "q": "Why is Elder Skyseer glowing?",
@@ -55,7 +55,7 @@
     "why is skyseer in light",
     "elder light beam"
    ],
-   "answer": "Like other honored spirits visiting during the festival, Elder Skyseer is illuminated from the heavens by a bright shaft of moonlight, marking him as an ancestor communing with the living."
+   "answer": "A bright shaft of moonlight shines on Elder Skyseer, as it does on other honored spirits visiting during the festival. It marks him as an ancestor communing with the living."
   },
   {
    "q": "Which other elders does Skyseer provide directions for?",
@@ -64,7 +64,7 @@
     "who does skyseer mention",
     "skyseer directions"
    ],
-   "answer": "Elder Skyseer provides guidance on how to find nearby ancestral spirits, including Elder Morningdew, Elder Runetotem, Elder Dreamseer, and Elder Wildmane."
+   "answer": "Elder Skyseer can guide travelers to nearby ancestral spirits, including Elder Morningdew, Elder Runetotem, Elder Dreamseer, and Elder Wildmane."
   },
   {
    "q": "Can Alliance travelers speak with Elder Skyseer?",
@@ -72,7 +72,7 @@
     "can alliance talk to skyseer",
     "alliance freewind post elder"
    ],
-   "answer": "Yes, although Freewind Post is a heavily fortified Horde settlement. Alliance adventurers must tread carefully around the guards to approach the elder without inciting bloodshed."
+   "answer": "Yes. Freewind Post is a heavily fortified Horde settlement. Alliance travelers must move carefully around the guards and avoid provoking bloodshed to reach the elder."
   },
   {
    "q": "What happens when you speak to Elder Skyseer?",
@@ -80,21 +80,21 @@
     "skyseer reward",
     "completing skyseer the elder"
    ],
-   "answer": "Upon greeting him and paying homage, Elder Skyseer commends your spirit and grants a token of ancestral blessing, completing the brief encounter."
+   "answer": "When you greet Elder Skyseer and pay homage, he commends your spirit and grants a token of ancestral blessing. The encounter is brief."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Elder Skyseer rests inside the Horde stronghold of Freewind Post, requiring Alliance pilgrims to navigate the perilous heights and hostile guards to pay their respects."
+   "text": "Elder Skyseer rests within the Horde stronghold of Freewind Post. As an Alliance pilgrim, you must navigate its perilous heights and hostile guards to pay your respects."
   },
   {
    "target": "race:Tauren",
-   "text": "Greeting an honored elder atop one of your people's most iconic mesa aeries embodies the deep reverence the Shu'halo hold for their ancestral lineage."
+   "text": "As a Tauren, greeting an honored elder atop one of your people's most iconic mesa aeries reflects the Shu'halo's deep reverence for their ancestors."
   },
   {
    "target": "class:Druid",
-   "text": "Communing with the ancient spirits under the moonlight aligns closely with the teachings of Cenarius and honoring those who walked the land before."
+   "text": "As a druid, communing with ancient spirits beneath the moonlight follows the teachings of Cenarius and honors those who walked the land before."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Skyseer the Elder"
- ]
+ ],
+ "style": 2
 }

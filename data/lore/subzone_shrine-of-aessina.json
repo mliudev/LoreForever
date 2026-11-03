@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shrine of Aessina"
  },
- "summary": "At the Shrine of Aessina, night elves honor an ancient spirit of nature and wild creatures. The sacred place lies in southwestern Ashenvale, between Maestra's Post and Astranaar, amid growing border friction.",
+ "summary": "At the Shrine of Aessina, night elves honor an ancient spirit of nature and wild creatures. The shrine lies in southwestern Ashenvale, between Maestra's Post and Astranaar, where border friction is growing.",
  "sections": [
   {
    "title": "A Sanctuary of the Deep Woods",
-   "body": "West of Astranaar, the Shrine of Aessina honors a Wild God who embodies the heart and spirit of the deep forests. For generations, night elves and their woodland kin have revered this quiet place and communed with nature away from the main roads. The Horde is pushing into Ashenvale to gather timber and establish footholds, and sacred grounds across the territory face an uncertain peace.",
+   "body": "West of Astranaar, night elves honor Aessina, a Wild God who bears the heart and spirit of the deep forests. For generations, they and their woodland kin have come here to commune with nature, far from the main roads. The Horde presses into Ashenvale for timber and footholds, and peace grows uncertain at sacred grounds across the territory.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is aessina",
     "shrine of aessina goddess"
    ],
-   "answer": "Aessina is an ancient nature spirit and Wild God associated with the heart of pristine forests. Night elves and woodland beings honor her as nature's living soul, embodying the untamed wilderness."
+   "answer": "Aessina is an ancient nature spirit and Wild God tied to the heart of pristine forests. Night elves and woodland beings honor her as nature's living soul and the untamed wilderness."
   },
   {
    "q": "Where is the Shrine of Aessina located?",
@@ -40,17 +40,17 @@
     "importance of aessina shrine",
     "night elf sacred site"
    ],
-   "answer": "Night elves honor the shrine as an ancient holy retreat dedicated to woodland spirits. It connects their society and druidic traditions directly to Kalimdor's untamed wilderness."
+   "answer": "Night elves honor the shrine as an ancient holy retreat for woodland spirits. It joins their society and druidic traditions to Kalimdor's untamed wilderness."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid devoted to preserving Kalimdor's natural balance, you honor the living spirit of the wild woods at this ancient shrine."
+   "text": "As a druid who protects Kalimdor's natural balance, you honor the living spirit of the wild woods at this ancient shrine."
   },
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, the shrine represents centuries of harmony with Ashenvale's native spirits, now threatened by encroaching outside forces."
+   "text": "For the Kaldorei, the shrine recalls centuries of harmony with Ashenvale's native spirits, now threatened by encroaching outside forces."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Shrine of Aessina"
  ],
- "style": 1
+ "style": 2
 }

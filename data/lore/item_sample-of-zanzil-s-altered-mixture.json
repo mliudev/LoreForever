@@ -10,16 +10,16 @@
    "quest:2479"
   ]
  },
- "summary": "A courier carries Sample of Zanzil's Altered Mixture across the sea to Tarren Mill. The brew came from the witch doctor Zanzil and leaves its carrier weakened. Serge Hinott may find a cure and uncover the poison's workings.",
+ "summary": "Across the sea, Sample of Zanzil's Altered Mixture is bound for Tarren Mill. The brew came from the witch doctor Zanzil and leaves its carrier weakened. Serge Hinott may find a cure and learn how the poison works.",
  "sections": [
   {
    "title": "A Toxic Token",
-   "body": "An operative carries the mixture after infiltrating the Venture Company's tower near the Sludge Fen in the Barrens. The sample came from a cache in Gallywix's lockbox, and Zanzil's brew has left the agent afflicted. Shenthul sends the stricken operative across the Great Sea with the sample. At Tarren Mill in the Hillsbrad Foothills, apothecary Serge Hinott has the rare skill to isolate the toxin and learn its components.",
+   "body": "An operative carries the mixture after entering the Venture Company's tower near the Sludge Fen in the Barrens. The sample came from a cache in Gallywix's lockbox, and Zanzil's brew has left the agent afflicted. Shenthul sends the stricken operative across the Great Sea with it. At Tarren Mill in the Hillsbrad Foothills, apothecary Serge Hinott can isolate the toxin and learn its components.",
    "spoiler": 0
   },
   {
    "title": "Secrets of Poisoncraft",
-   "body": "Serge Hinott studies the altered mixture to help the afflicted courier and reveal how to brew and handle potent poisons in the field. Horde rogues seek this knowledge to master the darker arts of their trade.",
+   "body": "Serge Hinott studies the altered mixture to help the afflicted courier and learn how to brew and handle potent poisons in the field. Horde rogues seek this knowledge to master the darker arts of their trade.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "sample of zanzils altered mixture",
     "zanzil poison sample"
    ],
-   "answer": "It is an alchemical brew tied to the witch doctor Zanzil, recovered from the Venture Company's tower near the Sludge Fen in the Barrens. Its potent toxin causes lingering, debilitating effects on anyone who touches it directly."
+   "answer": "The mixture is an alchemical brew tied to the witch doctor Zanzil, recovered from the Venture Company's tower near the Sludge Fen in the Barrens. Its potent toxin causes lingering, debilitating effects on anyone who touches it directly."
   },
   {
    "q": "Why do I need to take it to Serge Hinott?",
@@ -40,7 +40,7 @@
     "why take to tarren mill",
     "cure for zanzil mixture"
    ],
-   "answer": "Serge Hinott is an apothecary at Tarren Mill in the Hillsbrad Foothills. His knowledge can neutralize the brew's effects and produce a reliable cure before the toxin causes permanent harm."
+   "answer": "Serge Hinott is an apothecary at Tarren Mill in the Hillsbrad Foothills. His knowledge can counter the brew's effects and produce a reliable cure before the toxin causes permanent harm."
   },
   {
    "q": "Who is Zanzil?",
@@ -92,5 +92,5 @@
   "Sample of Zanzil's Altered Mixture",
   "Hinott's Assistance"
  ],
- "style": 1
+ "style": 2
 }

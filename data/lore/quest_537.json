@@ -24,16 +24,16 @@
    "Encrypted Letter (Hillsbrad Foothills)"
   ]
  },
- "summary": "Magistrate Henry Maleb in Southshore has learned that the letter you brought came from a being who goes by Nagaz and belongs to the Argus Wake. If the Argus Wake is allied with the Syndicate, Maleb says, they must be a threat. You are sent to hunt down Nagaz and the Argus Shadow Mages in the Uplands.",
+ "summary": "In Southshore, Magistrate Henry Maleb weighs a letter naming Nagaz and the Argus Wake. He fears they may threaten the land if allied with the Syndicate, and sends you to hunt Nagaz and the Argus Shadow Mages in the Uplands.",
  "sections": [
   {
    "title": "Envoys in the Uplands",
-   "body": "After Further Mysteries, Maleb tells you the letter came from a being who goes by Nagaz and belongs to the Argus Wake. Maleb does not know what the Argus Wake is, but an alliance with the Syndicate would make them a threat. Maleb wants Nagaz and the Argus Shadow Mages named in the letter found and killed, and asks for the head of Nagaz. You are to search the Uplands, north of Strahnbrad, where the Syndicate is strongest. Maleb hopes the Argus Wake's envoys are there.",
+   "body": "After Further Mysteries, Maleb tells you the letter came from Nagaz, who belongs to the Argus Wake. He does not know what the Argus Wake is, but fears an alliance with the Syndicate would make them a threat. So he wants Nagaz and the Argus Shadow Mages named in the letter found and killed. Bring him Nagaz’s head.\n\nSearch the Uplands, north of Strahnbrad, where the Syndicate is strongest. Maleb hopes the Argus Wake’s envoys are there.",
    "spoiler": 0
   },
   {
    "title": "What Maleb Concludes",
-   "body": "Maleb finds it unwelcome that a group like the Argus Wake might run the Syndicate. Nagaz was only another's servant, Maleb adds, and the Argus Wake's reach may go deep across the continent, or even the whole world.",
+   "body": "Magistrate Henry Maleb is troubled that a group like the Argus Wake might run the Syndicate. Nagaz, he says, was only another’s servant. The Argus Wake’s reach may run deep across the continent, or even the whole world.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "dark council questgiver",
     "where to pick up dark council"
    ],
-   "answer": "Magistrate Henry Maleb in Southshore, who read the letter you brought him."
+   "answer": "Magistrate Henry Maleb in Southshore sends you after Nagaz. He read the letter you brought him."
   },
   {
    "q": "Where are Nagaz and the Argus Shadow Mages located?",
@@ -63,7 +63,7 @@
     "what is argus wake",
     "argus wake lore"
    ],
-   "answer": "Maleb does not know. He only knows that Nagaz belongs to it and that, if it is allied with the Syndicate, it must be a threat."
+   "answer": "Maleb does not know what the Argus Wake is. He knows only that Nagaz belongs to it, and that it must be a threat if allied with the Syndicate."
   },
   {
    "q": "What happens before this?",
@@ -72,7 +72,7 @@
     "previous quest",
     "what quest comes before"
    ],
-   "answer": "It follows Further Mysteries, in which you brought the decrypted letter to Maleb."
+   "answer": "It follows Further Mysteries, when you brought the decrypted letter to Maleb."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Dark Council"
- ]
+ ],
+ "style": 2
 }

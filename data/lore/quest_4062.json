@@ -22,16 +22,16 @@
   ],
   "category": "Badlands"
  },
- "summary": "Hierophant Theodora Mulvadania has found initials and a rank marking on the elemental shards, and the machines you brought down in the Burning Steppes bore Rank IV. Theodora sends you with a shard sample to Lotwil Veriatus, a scholar of elemental sciences, in a camp to the east.",
+ "summary": "In the Burning Steppes, the machines bore marks that now send you to Lotwil Veriatus.",
  "sections": [
   {
    "title": "Marks on the Shards",
-   "body": "The shards carry the initials G.L.A., with a rank marking beneath them. The machines you brought down in the Burning Steppes bore Rank IV, which Theodora assumes is a lowly rank. Theodora wants you to bring a sample shard to Lotwil Veriatus, renowned among scholars of elemental sciences. Lotwil is stationed at a camp to the east, and Theodora hopes Lotwil can help the search.",
+   "body": "The shards bear G.L.A., with a rank marking beneath. The machines you brought down in the Burning Steppes bore Rank IV, which Theodora takes to be a low rank. So Hierophant Theodora Mulvadania sends you with a sample shard to Lotwil Veriatus, renowned among scholars of elemental sciences. Lotwil is stationed at a camp to the east, where Theodora hopes he can help with the search.",
    "spoiler": 0
   },
   {
    "title": "What Lotwil Sees",
-   "body": "When you show Lotwil the shard, his face turns white. He knows these markings.",
+   "body": "Lotwil Veriatus turns white when you show him the shard. He knows the markings.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "quest giver",
     "theodora mulvadania"
    ],
-   "answer": "Hierophant Theodora Mulvadania, who wants Lotwil to look at a sample shard from the machines destroyed in the Burning Steppes."
+   "answer": "Hierophant Theodora Mulvadania sends you with a sample shard from the machines destroyed in the Burning Steppes for Lotwil to inspect."
   },
   {
    "q": "Where is Lotwil Veriatus located?",
@@ -52,7 +52,7 @@
     "lotwil location",
     "lotwil veriatus camp"
    ],
-   "answer": "In a camp to the east."
+   "answer": "Lotwil Veriatus is stationed at a camp to the east."
   },
   {
    "q": "What markings are on the elemental shards?",
@@ -61,7 +61,7 @@
     "what does gla mean",
     "rank iv"
    ],
-   "answer": "The shards bear the initials G.L.A., with a rank marking below. The destroyed machines were of Rank IV."
+   "answer": "The shards bear G.L.A., with a rank marking beneath. The destroyed machines bore Rank IV."
   },
   {
    "q": "Why does Theodora want Lotwil to inspect the shard?",
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "The Rise of the Machines (2)"
- ]
+ ],
+ "style": 2
 }

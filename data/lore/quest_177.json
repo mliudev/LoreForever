@@ -22,16 +22,16 @@
    "Look To The Stars (4)"
   ]
  },
- "summary": "Viktori Prism'Antras needs Blind Mary's looking glass for his telescope in Darkshire. An Insane Ghoul took it to Tranquil Gardens Cemetery in southern Duskwood.",
+ "summary": "In Darkshire, Viktori Prism'Antras needs Blind Mary's looking glass for his telescope. An Insane Ghoul carried it to Tranquil Gardens Cemetery in southern Duskwood.",
  "sections": [
   {
    "title": "A Relic of Better Days",
-   "body": "Blind Mary once treasured an ornate looking glass. After an incident took her sight and sanity and left her a weeping spirit, she threw it into the dirt behind her family barn. Now the astronomer Viktori Prism'Antras needs the mirror for his telescope in Darkshire. The looking glass was taken long before he began studying the heavens.",
+   "body": "Blind Mary once treasured an ornate looking glass. An incident took her sight and sanity and left her a weeping spirit. In despair, she threw the glass into the dirt behind her family barn. Now Viktori Prism'Antras, an astronomer in Darkshire, needs the mirror for his telescope. The looking glass was taken long before he began studying the heavens.",
    "spoiler": 0
   },
   {
    "title": "The Graveyard Scavenger",
-   "body": "An Insane Ghoul scavenged the looking glass from behind the ruined farmsteads. Restless hunger drove the undead creature south, carrying the mirror to Tranquil Gardens Cemetery. It haunts an abandoned chapel among the overgrown tombstones. You face the flesh-eating horrors of the southern woods to reclaim Mary's lost treasure from its rotting claws.",
+   "body": "An Insane Ghoul scavenged the looking glass from behind the ruined farmsteads. Restless hunger drove it south, carrying the mirror to Tranquil Gardens Cemetery. It haunts an abandoned chapel among overgrown tombstones. You face the flesh-eating horrors of the southern woods to reclaim Mary's lost treasure from its rotting claws.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "why looking glass",
     "what is the mirror for"
    ],
-   "answer": "Viktori Prism'Antras needs Mary's looking glass for the telescope he is assembling in his hut up the hill in Darkshire. Its reflective surface meets the optical needs of his invention, which gathers dim starlight."
+   "answer": "Viktori Prism'Antras needs Mary's looking glass for the telescope he is assembling in his hut up the hill in Darkshire. Its reflective surface suits his invention, which gathers dim starlight."
   },
   {
    "q": "Who is the Insane Ghoul that stole the mirror?",
@@ -61,7 +61,7 @@
     "blind mary mirror",
     "mary looking glass incident"
    ],
-   "answer": "Blind Mary threw away her looking glass after an incident took her sight, tore her mind, and bound her as a restless shade. Unable to bear looking at or holding it, she cast it behind her barn in despair."
+   "answer": "An incident took Blind Mary's sight and sanity and left her a restless shade. Unable to bear looking at or holding her looking glass, she cast it behind her barn in despair."
   },
   {
    "q": "Where is the Tranquil Gardens Cemetery?",
@@ -125,5 +125,5 @@
  "attribution": [
   "Look To The Stars (3)"
  ],
- "style": 1
+ "style": 2
 }

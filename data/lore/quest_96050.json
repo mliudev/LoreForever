@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Learning the basics of cooking is essential for setting up camp, as culinary trainers teach travelers how to build the required campfire."
+   "text": "Learn the basics of cooking before making camp. Cooking trainers teach travelers to build the campfire a campsite needs."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "fish bowl craft",
     "camping fishing reward"
    ],
-   "answer": "This lesson teaches adventurers how to craft a Fish Bowl to furnish their campsite. It covers the fundamentals of setting up a wilderness retreat suited for fishing and relaxing away from civilized settlements.",
+   "answer": "You learn to make a Fish Bowl and prepare a wilderness resting place for fishing. Set up away from settlements.",
    "q": "What do you learn from Camping 101: Fishing?"
   },
   {
@@ -33,7 +33,7 @@
     "can i camp in town",
     "camping location rules"
    ],
-   "answer": "Camps cannot be pitched in the middle of town, as townsfolk take issue with travelers sprawling out in public thoroughfares. You must venture out into the wilderness to set up your site.",
+   "answer": "Set up in the wilderness, beyond town borders. Townsfolk object when travelers spread their gear through public thoroughfares.",
    "q": "Where can you set up a camp?"
   },
   {
@@ -42,7 +42,7 @@
     "do i need a campfire",
     "camp requirements"
    ],
-   "answer": "No wilderness camp is considered complete without a campfire. Before you begin pitching your camp, you must have a fire ready to anchor the site and provide warmth.",
+   "answer": "Have a campfire ready for warmth. A campsite needs one to be complete.",
    "q": "What do you need before pitching a camp?"
   },
   {
@@ -51,7 +51,7 @@
     "where learn campfire",
     "who teaches fire"
    ],
-   "answer": "Culinary instructors and cooking trainers teach the basic art of kindling a campfire. Those who have not yet learned the basics of cooking should seek out a cook to learn how to make one.",
+   "answer": "Cooking trainers teach you how to make a campfire. If you have not learned the basics of cooking, seek a cook for instruction.",
    "q": "How do you learn to build a campfire?"
   },
   {
@@ -60,7 +60,7 @@
     "camping fish bowl use",
     "fish bowl lore"
    ],
-   "answer": "The Fish Bowl is a decorative addition crafted for an outdoor campsite, providing an appropriate touch for any traveling angler looking to set up an outpost by the water.",
+   "answer": "The Fish Bowl decorates an outdoor campsite and suits an angler resting by the water.",
    "q": "What is the purpose of the Fish Bowl?"
   },
   {
@@ -69,7 +69,7 @@
     "why camping lessons",
     "camping survival guide"
    ],
-   "answer": "Wilderness mentors offer practical guidance on frontier living, ensuring wanderers know how to properly sustain themselves, build fires, and respect settlement boundaries before heading into the wild.",
+   "answer": "Wilderness mentors teach practical frontier skills, including making fires and respecting settlement boundaries before you head into the wild.",
    "q": "Why are camping lessons taught to adventurers?"
   }
  ],
@@ -85,18 +85,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Life on the road across Azeroth demands practical knowledge of the frontier. For aspiring anglers and wanderers, setting up an orderly site requires understanding basic outdoor etiquette. Townsfolk and guards frown upon travelers pitching tents and scattering gear in the center of settlements, so anyone wishing to rest must take their supplies out beyond city borders and into the open wilderness.",
+   "body": "Travel through Azeroth calls for a little knowledge of the wild. When you need a place to rest, keep your tent and gear beyond town borders. Townsfolk and guards dislike travelers spreading their belongings through settlements. Take your supplies into the open wilderness instead.",
    "spoiler": 0,
    "title": "Wilderness Etiquette"
   },
   {
-   "body": "A proper expedition site requires several essential amenities. Above all, no campsite is considered functional without a warm campfire, a skill traditionally imparted by culinary instructors. Once a fire is sparked, seasoned travelers can lay out specialty accoutrements such as a handcrafted Fish Bowl, transforming a simple rest stop into a fully outfitted angler's haven.",
+   "body": "A proper campsite needs a few comforts. Start with a warm campfire; a cooking trainer can teach you how to make one. Once the fire is ready, set out a handcrafted Fish Bowl. Then your stop is fit for an angler.",
    "spoiler": 0,
    "title": "The Comforts of Camp"
   }
  ],
- "summary": "Camping 101: Fishing guides outdoorsmen in the essential crafts and etiquette of wilderness survival. It teaches adventurers how to create a decorative Fish Bowl for their campsite and emphasizes the necessity of learning campfire craft from a cooking trainer before heading into the wild.",
+ "summary": "You’re preparing for wilderness fishing with a Fish Bowl and a campfire. Learn where to set up and what makes a resting place comfortable.",
  "attribution": [
   "In-game quest text: Camping 101: Fishing"
- ]
+ ],
+ "style": 2
 }

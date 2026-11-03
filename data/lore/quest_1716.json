@@ -22,16 +22,16 @@
    "The Binding (Succubus, Stormwind)"
   ]
  },
- "summary": "An Alliance warlock crosses the sea to seek Takar the Seer’s counsel on summoning a succubus. Gakin the Darkbinder sends Stormwind initiates into the Barrens for the wisdom they need.",
+ "summary": "In Stormwind, Gakin sends warlocks across the sea for counsel on summoning a succubus. Takar the Seer holds the wisdom they need.",
  "sections": [
   {
    "title": "A Dangerous Journey West",
-   "body": "Beneath the Slaughtered Lamb in Stormwind’s Mage Quarter, Gakin the Darkbinder guides promising warlocks toward summoning a succubus. The demon devours souls, destroys hearts, and dominates minds, so it cannot be called blindly into Azeroth. A warlock needs a potent lure: an object tied to pure love. That token draws the succubus from the Twisting Nether, where the warlock can defeat and bind it. Stormwind’s covens cannot teach them where to find such an object.",
+   "body": "Beneath the Slaughtered Lamb in Stormwind’s Mage Quarter, Gakin the Darkbinder guides promising warlocks toward summoning a succubus. The demon devours souls, destroys hearts, and dominates minds, so no warlock should call one blindly into Azeroth. A potent lure is needed: an object tied to pure love. That token draws the succubus from the Twisting Nether, where the warlock can defeat and bind it. Stormwind’s covens cannot teach where to find such an object.",
    "spoiler": 0
   },
   {
    "title": "The Seer in Hostile Territory",
-   "body": "Gakin sends his pupils across the Great Sea to Kalimdor in search of the needed catalyst. Takar the Seer waits in the arid Barrens, near the Horde settlement of Camp Taurajo. To reach him, an Alliance warlock must cross wilderness patrolled by hostile centaur, quilboar, and Horde warriors. The journey tests whether a summoner can survive before the ritual even begins.",
+   "body": "Gakin sends his pupils across the Great Sea to Kalimdor for the needed catalyst. Takar the Seer waits in the arid Barrens, near the Horde settlement of Camp Taurajo. An Alliance warlock must cross wilderness patrolled by hostile centaur, quilboar, and Horde warriors to reach him. The journey tests whether a summoner can survive before the ritual begins.",
    "spoiler": 0
   }
  ],
@@ -77,7 +77,7 @@
     "succubus lure lore",
     "bait for succubus"
    ],
-   "answer": "A succubus is drawn to genuine, pure affection and devours it. As Gakin explains, the demon corrupts hearts and dominates minds, so a romantic relic can lure it from the Twisting Nether."
+   "answer": "A succubus is drawn to genuine, pure affection and devours it. The demon corrupts hearts and dominates minds, so a romantic relic can lure it from the Twisting Nether."
   },
   {
    "q": "Is the Barrens safe for an Alliance character?",
@@ -122,5 +122,5 @@
  "attribution": [
   "Devourer of Souls (Stormwind)"
  ],
- "style": 1
+ "style": 2
 }

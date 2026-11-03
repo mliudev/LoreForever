@@ -8,21 +8,21 @@
   "wiki": "Mangletooth",
   "refs": 10
  },
- "summary": "At Camp Taurajo, Mangletooth faces execution in a Horde cage and bargains with those who visit him. He offers knowledge of his rivals and Agamaggan's ancient lore in return for their help.",
+ "summary": "At Camp Taurajo, Mangletooth bargains from a Horde cage while execution awaits. He offers knowledge of his rivals and the ancient lore of Agamaggan in exchange for help.",
  "sections": [
   {
    "title": "A Hostage in Chains",
-   "body": "Tauren hunters and orc sentries keep Mangletooth in a cage at Camp Taurajo. The captured Razormane quilboar awaits execution, but he still tries to sway his captors and visiting Horde adventurers. He urges them to strike at the enemies of his tribe, hoping to prove his worth or win his freedom.",
+   "body": "Tauren hunters and orc sentries hold Mangletooth in a cage at Camp Taurajo. The captured Razormane quilboar awaits execution, yet still tries to sway his captors and the Horde visitors who come to him. He urges them to strike his tribe’s enemies, hoping to prove his worth or win his freedom.",
    "spoiler": 0
   },
   {
    "title": "Betrayal from Within",
-   "body": "Mangletooth first tries to earn his clan's gratitude by directing Horde fighters against the rival Bristleback tribe. Then he learns that Razormane leaders Nak, Kuz, and Lok Orcbane have abandoned him. Enraged, he turns against his own kin and sends adventurers to execute his former allies.",
+   "body": "Mangletooth first directs Horde fighters against the rival Bristleback tribe, hoping to earn his clan’s gratitude. Then he learns that Razormane leaders Nak, Kuz, and Lok Orcbane have abandoned him. Enraged, he turns on his own kin and sends adventurers to execute his former allies.",
    "spoiler": 1
   },
   {
    "title": "The Power of Blood Shards",
-   "body": "Mangletooth knows the religious history of his people. During the ancient War of the Ancients, Agamaggan's spilled blood gave rise to the Barrens' massive thorns. Mangletooth gathers red crystalline Blood Shards from fallen Bristlebacks and channels the lingering divine power within them, granting ancient blessings to those who help him.",
+   "body": "Mangletooth knows the religious history of his people. During the ancient War of the Ancients, Agamaggan’s spilled blood gave rise to the Barrens’ massive thorns. Mangletooth gathers red crystalline Blood Shards from fallen Bristlebacks and channels their lingering divine power, granting ancient blessings to those who help him.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is mangletooth",
     "caged quilboar taurajo"
    ],
-   "answer": "Mangletooth is a captured Razormane quilboar held in a cage at Camp Taurajo. Facing execution, he bargains with adventurers, offering guidance and ancient blessings in return for their help."
+   "answer": "Mangletooth is a captured Razormane quilboar held in a cage at Camp Taurajo. Facing execution, he bargains with adventurers, offering guidance and ancient blessings for their help."
   },
   {
    "q": "Why is Mangletooth in a cage?",
@@ -43,7 +43,7 @@
     "why in cage",
     "why taurajo prisoner"
    ],
-   "answer": "Mangletooth was captured during clashes between the Horde and quilboar in the southern Barrens. Tauren and orc guards at Camp Taurajo keep him caged as they await his execution."
+   "answer": "Mangletooth was captured in clashes between the Horde and quilboar in the southern Barrens. Tauren and orc guards at Camp Taurajo keep him caged while they await his execution."
   },
   {
    "q": "Why does Mangletooth ask you to attack other Razormane quilboar?",
@@ -61,7 +61,7 @@
     "blood shards lore",
     "agamaggan blood"
    ],
-   "answer": "Blood Shards are crystals formed where Agamaggan's blood soaked into the earth when he fell during the War of the Ancients. Bristleback quilboar often carry them."
+   "answer": "Blood Shards are crystals formed where Agamaggan’s blood soaked into the earth when he fell during the War of the Ancients. Bristleback quilboar often carry them."
   },
   {
    "q": "What can you do with Blood Shards at Mangletooth?",
@@ -70,7 +70,7 @@
     "blood shard turn in",
     "what does mangletooth give"
    ],
-   "answer": "When you bring Mangletooth Blood Shards, he channels Agamaggan's sacred power into temporary blessings. They grant greater strength, agility, resilience, spirit, or swiftness."
+   "answer": "When you bring Mangletooth Blood Shards, he channels Agamaggan’s sacred power into temporary blessings. They grant greater strength, agility, resilience, spirit, or swiftness."
   },
   {
    "q": "Where does Mangletooth say Agamaggan died?",
@@ -85,11 +85,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "At Camp Taurajo, Horde guards keep Mangletooth caged, yet the Horde uses his bitter grievances to strike at quilboar strongholds across the Barrens."
+   "text": "At Camp Taurajo, Horde guards keep Mangletooth caged. The Horde uses his bitter grievances to strike quilboar strongholds across the Barrens."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you know the plains' constant clashes between tauren hunters and quilboar. Mangletooth's willingness to turn on his own kind makes him a valuable, if unsettling, military asset."
+   "text": "As a tauren, you know the plains’ constant clashes between tauren hunters and quilboar. Mangletooth’s willingness to turn on his own kind makes him a valuable, if unsettling, military asset."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Mangletooth"
  ],
- "style": 1
+ "style": 2
 }

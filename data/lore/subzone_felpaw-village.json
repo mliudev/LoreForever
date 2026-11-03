@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Felpaw Village"
  },
- "summary": "Felpaw Village is a corrupted furbolg settlement nestled in the far northern reaches of Felwood, guarding the mountain path leading directly to Timbermaw Hold. Inhabited by the fallen Deadwood tribe, its huts and gathering grounds are tainted by demonic influence and hostile to all outsiders.",
+ "summary": "At Felpaw Village, corrupted furbolgs guard Felwood’s northern path to Timbermaw Hold. Demonic blight has turned the settlement against all outsiders.",
  "sections": [
   {
    "title": "A Stronghold of Corruption",
-   "body": "Situated at the northern edge of Felwood, Felpaw Village serves as the primary northern redoubt for the fallen Deadwood furbolgs. Once gentle forest wardens, the tribe fell victim to the demonic blight unleashed during the Third War, driving them into a state of feral madness. Now, the village stands as a blighted enclave filled with crude huts, ritual totems, and hostile warriors who attack anyone wandering near the tunnel entrance to Timbermaw Hold.",
+   "body": "Corrupted Deadwood furbolgs hold Felwood’s northern edge at Felpaw Village. Once gentle wardens of the forest, they fell to the demonic blight unleashed during the Third War and became feral. Crude huts and ritual totems fill their blighted enclave. Near the tunnel entrance to Timbermaw Hold, hostile warriors attack anyone who comes close.",
    "spoiler": 0
   },
   {
    "title": "A Thorn Beside Timbermaw Hold",
-   "body": "The proximity of Felpaw Village to the sacred entrance of Timbermaw Hold makes it a critical threat to the few uncorrupted furbolgs remaining in the region. The Timbermaw guards posted at the northern mouth of Felwood view their fallen cousins with a mixture of mourning and vigilance, frequently calling upon travelers to cull the Deadwood ranks, seize their ritual fetishes, and keep the corruption from spilling through the gates into Moonglade and Winterspring.",
+   "body": "At Felwood’s northern mouth, Timbermaw guards watch over the few uncorrupted furbolgs left in the region. They mourn their fallen cousins, yet keep their guard. The Deadwood threaten the passage to Timbermaw Hold and could carry corruption through its gates into Moonglade and Winterspring. So the guards call on travelers to thin their ranks and seize their ritual fetishes.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is at felpaw",
     "deadwood furbolgs northern felwood"
    ],
-   "answer": "The settlement belongs to the Deadwood furbolgs, a local tribe that has fallen completely under the sway of demonic corruption spreading across Felwood."
+   "answer": "Deadwood furbolgs live in Felpaw Village. Demonic corruption spreading across Felwood has overtaken the local tribe."
   },
   {
    "q": "Why are the furbolgs here hostile?",
@@ -37,7 +37,7 @@
     "are felpaw furbolgs friendly",
     "why are bears angry felwood"
    ],
-   "answer": "The Deadwood furbolgs were driven completely mad by the demonic energies poisoning the soil, water, and wildlife of Felwood. They see all outsiders as enemies and cannot be reasoned with."
+   "answer": "Demonic energies poisoning Felwood’s soil, water, and wildlife drove the Deadwood furbolgs mad. They see outsiders as enemies and cannot be reasoned with."
   },
   {
    "q": "Where is Felpaw Village located?",
@@ -46,7 +46,7 @@
     "where is felpaw village",
     "how to get to felpaw"
    ],
-   "answer": "It lies at the far northern end of Felwood, right along the road leading up to the main southern entrance of Timbermaw Hold."
+   "answer": "Felpaw Village lies at Felwood’s far northern end, along the road to Timbermaw Hold’s main southern entrance."
   },
   {
    "q": "How does Felpaw Village relate to Timbermaw Hold?",
@@ -55,17 +55,17 @@
     "timbermaw hold reputation felpaw",
     "timbermaw deadwood"
    ],
-   "answer": "The uncorrupted Timbermaw tribe watches Felpaw Village closely from their nearby gates. Because the Deadwood threaten the safety of the passage between Felwood, Winterspring, and Moonglade, the Timbermaw reward outsiders who thin the village's hostile ranks and recover Deadwood ritual feathers."
+   "answer": "The uncorrupted Timbermaw watch Felpaw Village from their nearby gates. The Deadwood threaten the passage between Felwood, Winterspring, and Moonglade. The Timbermaw reward outsiders who thin the village’s hostile ranks and recover Deadwood ritual feathers."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids dedicated to restoring the natural order, the fallen Deadwood of Felpaw Village are a tragic reminder of the Legion's lingering poison in sacred forests."
+   "text": "As a druid devoted to restoring the natural order, you may see the fallen Deadwood of Felpaw Village as a tragic reminder of the Legion’s lingering poison in sacred forests."
   },
   {
    "target": "race:NightElf",
-   "text": "The Night Elves once counted the furbolgs as steadfast allies, making the sight of the Deadwood's madness and ritualistic debasement at Felpaw especially bitter."
+   "text": "Night Elves once counted the furbolgs as steadfast allies. For you, the Deadwood’s madness and ritual debasement at Felpaw make that loss especially bitter."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Felpaw Village"
- ]
+ ],
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "A Friend of the Family",
   "chain": []
  },
- "summary": "Menethil Harbor fears its relics will fall to local enemies. The harbor authorities send the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep for safekeeping.",
+ "summary": "In Menethil Harbor, leaders fear their relics will fall into enemy hands. They send the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep for safekeeping.",
  "sections": [
   {
    "title": "A Precarious Harbor",
-   "body": "Menethil Harbor links the northern Eastern Kingdoms to the south. The port honors the late King Terenas Menethil II of Lordaeron, but treacherous marshes and enemies surround it. With threats mounting, harbor leaders fear the exposed outpost cannot protect relics from the fallen northern kingdom.",
+   "body": "Menethil Harbor links the northern Eastern Kingdoms with the south. It bears the name of the late King Terenas Menethil II of Lordaeron. Yet treacherous marshes and enemies surround the port. With danger growing, its leaders fear the outpost cannot guard relics from the fallen northern kingdom.",
    "spoiler": 0
   },
   {
    "title": "The Dragonmaw Threat",
-   "body": "Dragonmaw orcs still infest the Wetlands. The clan has a dark past and a taste for ruthless advantage. Harbor defenders fear the orcs would pillage the Menethil Statuette for conquest, then defile it or turn it to their own ends.",
+   "body": "Dragonmaw orcs still infest the Wetlands. Their clan has a dark past and favors ruthless advantage. Harbor defenders fear the orcs will seize the Menethil Statuette for conquest. They might defile it or turn it to their own ends.",
    "spoiler": 0
   },
   {
    "title": "Straight to the Highlord",
-   "body": "The courier carries the relic straight to Stormwind Keep, bypassing the usual military and bureaucratic channels. There it goes to Highlord Bolvar Fordragon, regent to the young King Anduin Wrynn. The capital's leaders are trusted to safeguard a piece of Lordaeron's heritage.",
+   "body": "The courier takes the relic straight to Stormwind Keep, past the usual military and bureaucratic channels. There, Highlord Bolvar Fordragon receives it as regent to the young King Anduin Wrynn. The capital's leaders are trusted to guard a piece of Lordaeron's heritage.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "why move the statuette",
     "is menethil harbor unsafe"
    ],
-   "answer": "Menethil Harbor is isolated among hostile swamps, dark iron dwarves, murlocs, and orcs. Its garrison fears the settlement cannot protect such a meaningful relic."
+   "answer": "Menethil Harbor is isolated among hostile swamps, dark iron dwarves, murlocs, and orcs. Its garrison fears the settlement cannot guard such a meaningful relic."
   },
   {
    "q": "Who are the Dragonmaw and why do they want it?",
@@ -59,7 +59,7 @@
     "dragonmaw threat",
     "why do orcs want statuette"
    ],
-   "answer": "The Dragonmaw are orcs entrenched in the Wetlands. Harbor officials fear they would plunder prestigious Alliance relics, even at the cost of their warriors, and desecrate or misuse them."
+   "answer": "The Dragonmaw are orcs entrenched in the Wetlands. Harbor officials fear they would plunder prestigious Alliance relics, even at the cost of their warriors, then desecrate or misuse them."
   },
   {
    "q": "Why deliver the relic directly to Bolvar Fordragon?",
@@ -67,7 +67,7 @@
     "why bolvar",
     "why bypass chain of command"
    ],
-   "answer": "Highlord Bolvar Fordragon is Stormwind's regent and protector of young King Anduin. Giving him the relic directly bypasses administrative delays and places it in the capital's strongest hands."
+   "answer": "Highlord Bolvar Fordragon is Stormwind's regent and protector of young King Anduin. Giving him the relic directly bypasses administrative delays and puts it in the capital's strongest hands."
   },
   {
    "q": "Where is Highlord Bolvar Fordragon located?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, protecting an heirloom of the Menethil dynasty preserves Lordaeron's proud, tragic memory and affirms Stormwind's duty as the last great human kingdom."
+   "text": "As a human, protecting an heirloom of the Menethil dynasty preserves Lordaeron's proud, tragic memory. It affirms Stormwind's duty as the last great human kingdom."
   },
   {
    "target": "faction:Alliance",
@@ -122,5 +122,5 @@
  "attribution": [
   "A Friend of the Family"
  ],
- "style": 1
+ "style": 2
 }

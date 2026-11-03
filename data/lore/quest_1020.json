@@ -17,21 +17,21 @@
   "wiki": "Orendil's Cure (Classic)",
   "chain": []
  },
- "summary": "In Ashenvale, Orendil's Cure is bound for a sick child in Astranaar. Orendil Broadleaf sends an Alliance traveler with a remedy made from rare flora.",
+ "summary": "In Ashenvale, a child in Astranaar waits for Orendil's Cure. Orendil Broadleaf sends you with a remedy made from rare flora.",
  "sections": [
   {
    "title": "A Father's Despair",
-   "body": "In Astranaar, Pelturas Whitemoon watches his daughter Relara waste away from a severe, mysterious sickness. With local knowledge exhausted, he sought help from herbalists across Ashenvale before hope faded.",
+   "body": "Pelturas Whitemoon watches his daughter Relara waste away in Astranaar. A severe sickness has baffled those nearby. So he sought help from herbalists across Ashenvale before hope began to fade.",
    "spoiler": 0
   },
   {
    "title": "A Race Across the Woodlands",
-   "body": "Orendil Broadleaf brews a draught to halt Relara's affliction from the necessary components, including Bathran's hair. He entrusts the cure to you and sends you south and east along the forest highway to Astranaar, where Relara awaits it.",
+   "body": "Orendil Broadleaf brews a draught to halt Relara's affliction. It calls for several components, including Bathran's hair. He entrusts the cure to you and sends you south and east along the forest highway to Astranaar, where Relara waits.",
    "spoiler": 0
   },
   {
    "title": "A Fragile Respite",
-   "body": "Orendil's draught brings Relara relief, but it cannot end the supernatural malady gnawing at her spirit. The remedy buys time for a search among ancient Kaldorei ruins for relics blessed by Elune, which may complete her salvation.",
+   "body": "Orendil's draught brings Relara relief, yet it cannot end the supernatural malady gnawing at her spirit. The remedy buys time to search ancient Kaldorei ruins for relics blessed by Elune. Those relics may complete her salvation.",
    "spoiler": 1
   }
  ],
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalism shows how botany meets battlefield medicine: harvested Ashenvale herbs such as Bathran's hair can hold a child's life in the balance."
+   "text": "Herbalism shows how botany meets battlefield medicine. Harvested Ashenvale herbs such as Bathran's hair can hold a child's life in the balance."
   },
   {
    "target": "race:NightElf",
@@ -127,5 +127,5 @@
  "attribution": [
   "Orendil's Cure (Classic)"
  ],
- "style": 1
+ "style": 2
 }

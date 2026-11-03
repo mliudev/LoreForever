@@ -17,16 +17,16 @@
   "wiki": "A Firm Response",
   "chain": []
  },
- "summary": "\"A Firm Response\" is a Horde quest on Zephras Isle issued by Ayessa Dawnsinger. Tensions are boiling over as the mysterious High Order intrudes upon the territory and dealings of the local Windshapers. Ayessa orders a preemptive strike against Belathaan Brightwish on the road to the Shrine of Akir to establish clear boundaries through force.",
+ "summary": "Ayessa Dawnsinger answers the High Order’s intrusion on Zephras Isle with force. She sends you after Belathaan Brightwish on the road north to the Shrine of Akir, to make the Windshapers’ boundaries clear.",
  "sections": [
   {
    "title": "Drawing the Line",
-   "body": "The Windshapers of Zephras Isle do not tolerate uninvited scrutiny, especially from an organization as secretive and calculating as the High Order. Prior warnings have gone unheeded, forcing Ayessa Dawnsinger to escalate the matter. To safeguard their interests, she chooses to intercept Belathaan Brightwish in the isolated stretch of road leading north toward the Shrine of Akir, ensuring the altercation stays away from prying eyes in town.",
+   "body": "The Windshapers of Zephras Isle will not accept the High Order’s secretive scrutiny. Their warnings have gone unheeded, so Ayessa Dawnsinger escalates the dispute. She sends you to intercept Belathaan Brightwish on the lonely road north to the Shrine of Akir, away from prying eyes in town.",
    "spoiler": 0
   },
   {
    "title": "Storms on the Road",
-   "body": "Belathaan's excursion north toward the ancient Shrine of Akir raises immediate suspicion, though his exact motives remain unclear. When confronted on the secluded road, the encounter quickly turns hostile, drawing Living Storms into the fray. Defeating these turbulent elementals and humbling Belathaan sends an unmistakable message back to the High Order: interference with the Windshapers will be answered with force.",
+   "body": "Belathaan Brightwish travels north toward the ancient Shrine of Akir, and his purpose is unclear. When you confront him on the secluded road, he turns hostile, and Living Storms join the fight. Defeating the elementals and humbling Belathaan sends the High Order a clear message: the Windshapers answer interference with force.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who gives a firm response",
     "ayessa"
    ],
-   "answer": "Ayessa Dawnsinger is a questgiver aligned with the Horde and the Windshapers on Zephras Isle. She is protective of their domain and ruthless when handling intruders who meddle in their affairs."
+   "answer": "Ayessa Dawnsinger belongs to the Horde-aligned Windshapers on Zephras Isle. She protects their domain and acts ruthlessly against intruders who meddle in their affairs."
   },
   {
    "q": "Who is Belathaan Brightwish?",
@@ -47,7 +47,7 @@
     "belthaan",
     "who is belathaan"
    ],
-   "answer": "Belathaan Brightwish is an operative tied to the High Order. He is spotted heading alone toward the Shrine of Akir and becomes the target of Ayessa Dawnsinger's attempt to intimidate his organization."
+   "answer": "Belathaan Brightwish is tied to the High Order. Ayessa Dawnsinger targets him to intimidate the organization after he is spotted heading alone toward the Shrine of Akir."
   },
   {
    "q": "What is the High Order?",
@@ -56,7 +56,7 @@
     "the high order lore",
     "what is the high order"
    ],
-   "answer": "The High Order is a faction operating on Zephras Isle whose activities run counter to the local Windshapers. Despite explicit warnings, they continue probing into affairs that do not belong to them."
+   "answer": "The High Order is a faction on Zephras Isle whose activities conflict with those of the local Windshapers. It keeps probing into their affairs despite explicit warnings."
   },
   {
    "q": "Where is the Shrine of Akir located?",
@@ -65,7 +65,7 @@
     "where is shrine of akir",
     "shrine akir zephras"
    ],
-   "answer": "The Shrine of Akir lies to the north of town on Zephras Isle. Belathaan is intercepted along the secluded road leading toward this landmark."
+   "answer": "The Shrine of Akir lies north of town on Zephras Isle. Belathaan is intercepted on the secluded road that leads there."
   },
   {
    "q": "Why does Ayessa want Belathaan beaten rather than killed?",
@@ -74,7 +74,7 @@
     "why spare belathaan",
     "why just bruises"
    ],
-   "answer": "Ayessa explicitly aims to send a message rather than start a total war. By battering Belathaan and allowing him to return to his superiors, she hopes to instill fear and respect for the Windshapers' boundaries."
+   "answer": "Ayessa wants Belathaan beaten to send a message without starting a total war. She hopes he will return to his superiors with fear and respect for the Windshapers’ boundaries."
   },
   {
    "q": "What are the Living Storms encountered during this task?",
@@ -82,17 +82,17 @@
     "living storms",
     "what are living storms"
    ],
-   "answer": "Living Storms are elemental entities that manifest during the confrontation with Belathaan on the road, reflecting the volatile elemental energies that define Zephras Isle."
+   "answer": "Living Storms are elemental entities that appear during the confrontation with Belathaan on the road. They reflect Zephras Isle’s volatile elemental energies."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde's presence on Zephras Isle relies on establishing secure positions and keeping rival factions like the High Order from encroaching on allied interests."
+   "text": "As a member of the Horde on Zephras Isle, you help secure its positions and keep rivals like the High Order from encroaching on allied interests."
   },
   {
    "target": "class:Shaman",
-   "text": "The clash with Living Storms on the road highlights the turbulent, untamed elemental air magic pervasive throughout Zephras Isle."
+   "text": "As a shaman, you face Living Storms amid the turbulent, untamed elemental air magic found across Zephras Isle."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "A Firm Response"
- ]
+ ],
+ "style": 2
 }

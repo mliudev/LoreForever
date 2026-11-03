@@ -17,16 +17,16 @@
   "wiki": "Messenger to Stormwind",
   "chain": []
  },
- "summary": "In Lakeshire, Magistrate Solomon sends an urgent plea for help to Stormwind. Gnolls and Blackrock orcs press around the town, and he has no garrison troops to spare for the journey. He entrusts a traveler with The State of Lakeshire for General Marcus Jonathan in Stormwind City.",
+ "summary": "In Lakeshire, Magistrate Solomon sends an urgent plea to Stormwind. Gnolls and Blackrock orcs press around the town, and he cannot spare garrison troops for the journey. He entrusts you with The State of Lakeshire for General Marcus Jonathan in Stormwind City.",
  "sections": [
   {
    "title": "A Cry Across the Mountains",
-   "body": "Gnolls contest every road from Lakeshire, while Blackrock orcs raid from the north. The town's guardsmen are stretched beyond their limits. Magistrate Solomon cannot spare fighting men for the days-long ride to the capital, so a traveler carries his official plea for regular troops to the city gates.",
+   "body": "Gnolls contest every road from Lakeshire, while Blackrock orcs raid from the north. The town's guardsmen are stretched thin. Magistrate Solomon cannot spare fighting men for the days-long ride to the capital, so you carry his official plea for regular troops to the city gates.",
    "spoiler": 0
   },
   {
    "title": "Bureaucracy and the High Seat",
-   "body": "General Marcus Jonathan commands Stormwind's defense. Solomon's report reaches him, and he respects the magistrate's leadership and recognizes the urgency. Yet army protocol bars Jonathan from mobilizing troops without a royal directive. Redridge's defense must wait until he consults the young King Anduin and the regency council.",
+   "body": "General Marcus Jonathan commands Stormwind's defense. Solomon's report reaches him, and he respects the magistrate's leadership and sees the urgency. Yet army protocol bars him from mobilizing troops without a royal directive. Redridge's defense must wait while he consults the young King Anduin and the regency council.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "solomon report",
     "what is the letter"
    ],
-   "answer": "The State of Lakeshire is an official account of the crisis in the Redridge Mountains. It details rising enemy numbers, casualties, and the town's imminent fall without regular soldiers from the capital."
+   "answer": "The State of Lakeshire is an official account of the crisis in the Redridge Mountains. It records rising enemy numbers, casualties, and the town's imminent fall without regular soldiers from the capital."
   },
   {
    "q": "Who is General Marcus Jonathan?",
@@ -56,7 +56,7 @@
     "who is the general",
     "general of stormwind"
    ],
-   "answer": "General Marcus Jonathan commands the Stormwind City Guard and is a high-ranking leader in the Stormwind Army. He monitors the city gates and reports directly to Highlord Bolvar Fordragon and the crown."
+   "answer": "General Marcus Jonathan commands the Stormwind City Guard and is a high-ranking leader in the Stormwind Army. He watches the city gates and reports directly to Highlord Bolvar Fordragon and the crown."
   },
   {
    "q": "Why doesn't General Jonathan send soldiers right away?",
@@ -65,7 +65,7 @@
     "where are reinforcements",
     "jonathan response"
    ],
-   "answer": "General Jonathan cannot deploy the army on his own authority. He must bring Solomon's report before the King and regency council for an official royal mandate before troops can march."
+   "answer": "General Marcus Jonathan cannot deploy the army on his own authority. He must bring Solomon's report before the King and regency council for an official royal mandate before troops can march."
   },
   {
    "q": "Is the road between Lakeshire and Stormwind safe?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you carry the desperate's pleas to leaders held back by court politics, testing your duty, your protection of others, and your righteous action."
+   "text": "As a paladin, you carry the desperate's pleas to leaders held back by court politics. Your duty to protect others and act righteously is tested."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Messenger to Stormwind"
  ],
- "style": 1
+ "style": 2
 }

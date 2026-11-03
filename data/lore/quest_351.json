@@ -24,16 +24,16 @@
    "Oglethorpe's Homing Robots"
   ]
  },
- "summary": "A strange egg-shaped metal device you have uncovered springs to life when you fiddle with its knob, and a voice from inside introduces itself as Oglethorpe. Oglethorpe's homing robot has gone missing, and you are asked to carry the beacon to it.",
+ "summary": "In Tanaris, you turn the knob and Find OOX-17/TN! springs to life. Oglethorpe's voice says his homing robot is missing and asks you to carry the beacon to it.",
  "sections": [
   {
    "title": "A Voice From the Egg",
-   "body": "Fiddling with a knob on the strange egg opens it up into a gnomish robotic contraption, and a voice crackles to life from inside. The speaker gives the name Oglethorpe and says a homing robot has gone missing. Oglethorpe has now computed where it went down, near the Gaping Chasm in Tanaris, and asks you to take the beacon to the robot.",
+   "body": "A knob opens the strange egg, revealing a gnomish contraption. A voice crackles from within and names its speaker as Oglethorpe. His homing robot has gone missing. Oglethorpe has computed where it went down, near the Gaping Chasm in Tanaris, and asks you to take the beacon there.",
    "spoiler": 0
   },
   {
    "title": "At the Crash Site",
-   "body": "At the crash site, the homing robot turns out to be a robotic chicken. Oglethorpe says it must be jump started before it can fly home to Booty Bay for repairs, and the beacon goes inside it. Hums and whirs follow as the robot struggles to stand, and Oglethorpe's voice now comes from the robot itself. It works, but major repairs are needed, and it is far too heavy for you to lift.",
+   "body": "The missing homing robot at the crash site is a robotic chicken. Oglethorpe says it needs a jump start before it can fly home to Booty Bay for repairs, so you put the beacon inside. Hums and whirs follow as the chicken struggles to stand. Then Oglethorpe's voice comes from the robot itself. It works, but needs major repairs and is too heavy for you to lift.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who is oglethorpe",
     "who speaks through the egg"
    ],
-   "answer": "A voice from inside the egg gives the name Oglethorpe and says the homing robot has gone missing."
+   "answer": "A voice from inside the egg names its speaker as Oglethorpe. He says his homing robot has gone missing."
   },
   {
    "q": "Where did the homing robot crash?",
@@ -54,7 +54,7 @@
     "where do i bring the beacon",
     "gaping chasm robot location"
    ],
-   "answer": "Oglethorpe's computed coordinates put it near the Gaping Chasm in Tanaris."
+   "answer": "Oglethorpe's computed coordinates place the crash near the Gaping Chasm in Tanaris."
   },
   {
    "q": "What is the beacon for?",
@@ -63,7 +63,7 @@
     "what is the egg",
     "why carry the beacon"
    ],
-   "answer": "Oglethorpe asks you to bring the beacon to the missing homing robot."
+   "answer": "Oglethorpe asks you to bring the beacon to his missing homing robot."
   }
  ],
  "angles": [],
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Find OOX-17/TN!"
- ]
+ ],
+ "style": 2
 }

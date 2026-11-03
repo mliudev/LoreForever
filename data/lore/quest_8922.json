@@ -24,16 +24,16 @@
    "Tier 0.5 quests"
   ]
  },
- "summary": "Deliana is looking for a way to speak with the ghost of Anthion Harmon. An engineer with a peculiar fascination for the supernatural says he can build a machine for talking to the dead, and you bring him the blood you collected, in Gadgetzan, as his payment.",
+ "summary": "Deliana needs a way to speak with Anthion Harmon's ghost. You carry the collected blood to an engineer in Gadgetzan as payment for a device that speaks with the dead.",
  "sections": [
   {
    "title": "Payment for an Engineer",
-   "body": "Deliana is searching for a way to reach Anthion Harmon, or more exactly his ghost. The engineer Deliana has in mind is Mux Manascrambler, who boasts of a machine for conversing with the dead. That blood of yours was meant for him from the start, so carry it to Gadgetzan in Tanaris and give it to Mux in exchange for his services.",
+   "body": "Deliana seeks a way to reach Anthion Harmon, or rather his ghost. She has Mux Manascrambler in mind, an engineer who claims to have a machine for speaking with the dead. The blood you collected was meant for him all along. Carry it to Mux in Gadgetzan, in Tanaris, and give it to him for his services.",
    "spoiler": 0
   },
   {
    "title": "A Welcome Delivery",
-   "body": "Mux is pleased to receive the blood, since he was running low. He then asks you whether Deliana sent you.",
+   "body": "Mux is glad to receive the blood, for his supply was running low. Then he asks whether Deliana sent you.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "deliana gadgetzan",
     "supernatural device purpose"
    ],
-   "answer": "Deliana wants to speak with the ghost of Anthion Harmon. An engineer in Gadgetzan claims he can build a machine to speak with the dead, so you bring him his payment."
+   "answer": "Deliana wants to speak with Anthion Harmon's ghost. An engineer in Gadgetzan claims he can build a machine to speak with the dead, so you bring him payment."
   },
   {
    "q": "What is inside the container being delivered?",
@@ -54,7 +54,7 @@
     "sealed venom container",
     "what blood is this"
    ],
-   "answer": "It is a sealed container of the blood you collected, intended as payment for the engineer's services."
+   "answer": "The sealed container holds the blood you collected to pay for the engineer's services."
   },
   {
    "q": "Who receives the delivery in Gadgetzan?",
@@ -63,7 +63,7 @@
     "gadgetzan contact",
     "who is mux manascrambler"
    ],
-   "answer": "Mux Manascrambler, the engineer in Gadgetzan with a peculiar fascination for the supernatural."
+   "answer": "Mux Manascrambler receives it. He is an engineer in Gadgetzan with a peculiar fascination for the supernatural."
   },
   {
    "q": "What follows this delivery?",
@@ -78,7 +78,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Deliana sends Alliance adventurers to Mux Manascrambler in Gadgetzan."
+   "text": "As an Alliance adventurer, Deliana sends you to Mux Manascrambler in Gadgetzan."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "A Supernatural Device (Alliance)"
- ]
+ ],
+ "style": 2
 }

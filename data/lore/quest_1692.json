@@ -17,16 +17,16 @@
   "wiki": "Smith Mathiel",
   "chain": []
  },
- "summary": "In Darnassus, sacred ore is on its way to the forge. After you recover elunite from the shipwreck off Auberdine, Elanaria sends you to Mathiel to have it shaped into a weapon for the Kaldorei.",
+ "summary": "In Darnassus, sacred elunite ore is on its way to the forge. After you recover it from the haunted shipwreck off Auberdine, Elanaria sends you to Mathiel to shape it into a weapon for the Kaldorei.",
  "sections": [
   {
    "title": "A Sacred Delivery",
-   "body": "Elanaria sends you across Darnassus's Warrior's Terrace with the elunite ore you recovered from the haunted shipwreck off Auberdine. The warrior trainer packs it in a sturdy case and directs you to Mathiel, one of the capital's finest smiths. He can shape the metal into a weapon worthy of your calling.",
+   "body": "Elanaria sends you across Darnassus's Warrior's Terrace with the elunite ore you recovered from the haunted shipwreck off Auberdine. The warrior trainer packs the ore in a sturdy case and directs you to Mathiel, one of the capital's finest smiths. He can shape the metal into a weapon worthy of your calling.",
    "spoiler": 0
   },
   {
    "title": "The Blessing of Elunite",
-   "body": "Mathiel treats smithing as a craft of devotion. Elunite bears the sacred blessing of Elune, the Moon Goddess, and he accepts the case as an honor. He will shape the holy metal into arms to defend the young boughs of Teldrassil.",
+   "body": "Mathiel treats smithing as an act of devotion. Elunite bears the sacred blessing of Elune, the Moon Goddess, and he accepts the case as an honor. He will shape the holy metal into arms to defend the young boughs of Teldrassil.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "who gives smith mathiel quest",
     "quest giver smith mathiel"
    ],
-   "answer": "Elanaria, the warrior trainer in Darnassus's Warrior's Terrace, packs your recovered ore and sends you to Mathiel across the terrace."
+   "answer": "Elanaria, the warrior trainer in Darnassus's Warrior's Terrace, packs your recovered ore and sends you across the terrace to Mathiel."
   },
   {
    "q": "Is this quest only available to warriors?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a young Kaldorei warrior, bringing elunite to Mathiel marks a passage from training blades to a custom weapon blessed by the Moon Goddess."
+   "text": "As a young Kaldorei warrior, bringing elunite to Mathiel marks your passage from training blades to a custom weapon blessed by the Moon Goddess."
   },
   {
    "target": "race:NightElf",
@@ -115,5 +115,5 @@
  "attribution": [
   "Smith Mathiel"
  ],
- "style": 1
+ "style": 2
 }

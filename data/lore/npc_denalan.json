@@ -8,16 +8,16 @@
   "wiki": "Denalan",
   "refs": 14
  },
- "summary": "At Lake Al'Ameth, Denalan studies Teldrassil's unusual plants and seeks remedies for its corruption. He tends a small lakeside plot and asks young adventurers to gather samples, examine timberlings, and test enchanted soil.",
+ "summary": "At Lake Al'Ameth, Denalan studies Teldrassil's strange plants and seeks a remedy for its corruption. From his small lakeside plot, he asks young adventurers to gather samples, examine timberlings, and test enchanted soil.",
  "sections": [
   {
    "title": "A Botanist at Lake Al'Ameth",
-   "body": "Denalan studies plants on Lake Al'Ameth's eastern shore. He works beneath a cloth awning, with field tools and rows of planter boxes close at hand. While many kaldorei focus on martial vigilance or high druidic rites, he gives his days to herbalism. He chooses this plot over Darnassus's grand barrows, so he can examine the unusual flora that has grown since the new World Tree was planted.",
+   "body": "On Lake Al'Ameth's eastern shore, Denalan studies the plants that have taken root since Teldrassil's planting. Beneath a cloth awning, he keeps field tools and rows of planter boxes close at hand. While many kaldorei watch for danger or tend to high druidic rites, Denalan gives his days to herbalism. He chose this plot over Darnassus's grand barrows to study the World Tree's unusual flora.",
    "spoiler": 0
   },
   {
    "title": "Investigating Teldrassil's Blemishes",
-   "body": "Denalan investigates the growing unrest among Teldrassil's native wildlife. Timberlings, usually docile woodland beings of wood and sprout, have grown increasingly aggressive. He enchants soil to nurture wild seeds in captivity and study how corruption seeps into root systems. Shimmering fronds, glowing fruit, and moss-twined growths are among the specimens he examines as he seeks the taint troubling the forest boughs.",
+   "body": "Denalan investigates the unrest among Teldrassil's native wildlife. Timberlings, usually docile woodland beings of wood and sprout, have grown more aggressive. He enchants soil to nurture wild seeds in captivity and study how corruption seeps into root systems. Among the specimens he examines are shimmering fronds, glowing fruit, and moss-twined growths. He seeks the taint troubling the forest boughs.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is denalan",
     "denalan map"
    ],
-   "answer": "Find Denalan on Lake Al'Ameth's eastern bank in southern Teldrassil, south of Dolanaar. His small camp, with an awning and cultivated planting beds, lies near the water's edge."
+   "answer": "Find Denalan on Lake Al'Ameth's eastern bank in southern Teldrassil, south of Dolanaar. His small camp lies near the water, with an awning and cultivated planting beds."
   },
   {
    "q": "What is Denalan researching at his campsite?",
@@ -38,7 +38,7 @@
     "denalan purpose",
     "why is denalan at the lake"
    ],
-   "answer": "Denalan studies Teldrassil's unusual flora and the aggressive behavior of local woodland spirits. He uses enchanted planter boxes to grow timberling seeds and examine curious specimens as he seeks ways to cleanse corruption from the new World Tree's ecosystem."
+   "answer": "Denalan studies Teldrassil's unusual plants and the aggressive behavior of local woodland spirits. He grows timberling seeds in enchanted planter boxes and examines curious specimens as he seeks ways to cleanse corruption from the new World Tree's ecosystem."
   },
   {
    "q": "Why are the timberlings attacking people?",
@@ -47,7 +47,7 @@
     "timberling lore",
     "corrupted timberlings"
    ],
-   "answer": "Timberlings are plant-like nature spirits native to Teldrassil's boughs. Usually peaceful, they have grown violent and erratic as unnatural corruption spreads through the World Tree's soil and roots. Researchers like Denalan study their seeds to understand the change."
+   "answer": "Timberlings are plant-like nature spirits native to Teldrassil's boughs. Usually peaceful, they have grown violent and erratic as unnatural corruption spreads through the World Tree's soil and roots. Denalan studies their seeds to understand the change."
   },
   {
    "q": "What are Denalan's planter boxes used for?",
@@ -56,7 +56,7 @@
     "denalans earth",
     "denalan dirt boxes"
    ],
-   "answer": "Denalan uses specially prepared beds filled with enchanted earth to cultivate wild seeds and strange botanical cuttings. They let him observe how forest plants react to purified soil away from wild contaminants."
+   "answer": "Denalan uses specially prepared beds filled with enchanted earth to cultivate wild seeds and strange botanical cuttings. There he can observe how forest plants react to purified soil, away from wild contaminants."
   },
   {
    "q": "Who does Denalan work with?",
@@ -79,7 +79,7 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you follow the kaldorei tradition of botanical study. Gathering and cultivating wild plants can help reveal deeper ailments in the natural world."
+   "text": "As an herbalist, you follow the kaldorei tradition of botanical study. Gathering and cultivating wild plants can reveal deeper ailments in the natural world."
   },
   {
    "target": "class:Druid",
@@ -115,5 +115,5 @@
  "attribution": [
   "Denalan"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "Garments of the Moon"
   ]
  },
- "summary": "Young night elf priests leave Shadowglen for guidance and training in Dolanaar. Priestess Shanda sends them along the forest path to Laurna Morninglight.",
+ "summary": "In Shadowglen, young night elf priests set out for guidance and training in Dolanaar. Priestess Shanda sends them along the forest path to Laurna Morninglight.",
  "sections": [
   {
    "title": "Leaving the Glade",
-   "body": "Priestess Shanda trains initiates serving Elune within Aldrassil's secluded shelter. Their learning begins with simple prayers and defensive invocations under her watchful eye. Shadowglen's cloistered life cannot prepare a priestess or priest for the turmoil gripping the wider world. Once an initiate shows steady faith and discipline, Shanda sends them down the shadowed forest path toward Dolanaar to continue their education.",
+   "body": "Priestess Shanda trains initiates who serve Elune in Aldrassil's secluded shelter. Under her eye, they begin with simple prayers and spells of defense. Yet Shadowglen's quiet life cannot prepare them for the turmoil beyond the glade. Once an initiate shows steady faith and discipline, Shanda sends them down the forest path to Dolanaar for further teaching.",
    "spoiler": 0
   },
   {
    "title": "A Step Into the Priesthood",
-   "body": "Reaching Dolanaar marks an essential milestone in a night elf's divine vocation. There, respected priestess Laurna Morninglight prepares disciples for the trials facing Teldrassil. The acolyte can receive advanced instruction in moonlit spellcraft and claim their first formal vestments, marking their official standing within the Sisterhood of Elune.",
+   "body": "In Dolanaar, a young night elf takes an important step in the service of Elune. Priestess Laurna Morninglight prepares her disciples for the trials facing Teldrassil. There, an acolyte can learn more advanced moonlit spellcraft and receive formal vestments. Those robes mark their place in the Sisterhood of Elune.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who starts in favor of elune",
     "where do i get this quest"
    ],
-   "answer": "Priestess Shanda, the night elf priest trainer in Aldrassil's boughs in Shadowglen, gives you this guidance once your initial training is complete."
+   "answer": "Priestess Shanda sends you from Aldrassil in Shadowglen once your first training is complete."
   },
   {
    "q": "Where do I need to go to find Laurna Morninglight?",
@@ -50,7 +50,7 @@
     "where is dolanaar",
     "where is morninglight"
    ],
-   "answer": "Laurna Morninglight is in the northern building of Dolanaar, the first major settlement south of the Shadowglen gates in Teldrassil."
+   "answer": "Laurna Morninglight is in Dolanaar's northern building. Dolanaar is the first major settlement south of the Shadowglen gates in Teldrassil."
   },
   {
    "q": "Can any class take this quest?",
@@ -59,7 +59,7 @@
     "who can do in favor of elune",
     "druid quest?"
    ],
-   "answer": "No. This is specifically for young night elf priests taking their first steps into the Sisterhood and the service of Elune."
+   "answer": "No. This is for young night elf priests taking their first steps in the Sisterhood and in service to Elune."
   },
   {
    "q": "What happens after I speak to Laurna Morninglight?",
@@ -68,7 +68,7 @@
     "followup quest",
     "garments of the moon quest"
    ],
-   "answer": "Laurna Morninglight greets you and offers the trial Garments of the Moon. It tests your ability to protect and heal wounded defenders before bestowing your first official clerical robes."
+   "answer": "Laurna Morninglight greets you and offers the trial Garments of the Moon. It tests your ability to protect and heal wounded defenders before she gives you your first official clerical robes."
   },
   {
    "q": "Is this quest mandatory to continue priest training?",
@@ -77,7 +77,7 @@
     "can i skip in favor of elune",
     "optional breadcrumb"
    ],
-   "answer": "This is an optional breadcrumb. If you travel directly to Dolanaar, Laurna Morninglight still offers her training and subsequent tasks without this introduction."
+   "answer": "This introduction is optional. If you travel straight to Dolanaar, Laurna Morninglight still offers training and the steps that follow."
   },
   {
    "q": "Why is earning garments so important to the Sisterhood?",
@@ -86,17 +86,17 @@
     "significance of garments",
     "station of elune priestess"
    ],
-   "answer": "Vestments are sacred symbols in night elf culture, not merely cloth. They mark one's official station, devotion, and readiness to channel the Moon Goddess's blessings in service of their people."
+   "answer": "Vestments are sacred symbols in night elf culture. They mark a priest's station, devotion, and readiness to channel the Moon Goddess's blessings in service to their people."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you leave simple novitiate studies for full service and begin the path toward earning your first consecrated clerical vestments."
+   "text": "As a priest, you leave simple novitiate studies for fuller service and begin the path toward your first consecrated clerical vestments."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you follow a traditional milestone for devotees: the Sisterhood of Elune forms the spiritual heart and historic leadership of kaldorei society."
+   "text": "As a night elf, you follow a traditional milestone for devotees. The Sisterhood of Elune is the spiritual heart and historic leadership of kaldorei society."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "In Favor of Elune"
  ],
- "style": 1
+ "style": 2
 }

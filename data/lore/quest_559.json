@@ -24,16 +24,16 @@
    "Reassignment"
   ]
  },
- "summary": "Lieutenant Farren Orinelle sends Alliance recruits along Southshore's coast to prove his patrol's success. Marshal Redpath wants evidence that the murlocs have been cleared from the Western Strand.",
+ "summary": "Along Southshore’s coast, Farren Orinelle sends Alliance recruits to prove his patrol’s work. Marshal Redpath wants evidence that the murlocs are gone from the Western Strand.",
  "sections": [
   {
    "title": "A Grudging Request",
-   "body": "After the first coastal sweeps in Down the Coast, Lieutenant Farren Orinelle faces scrutiny from Marshal Redpath and Southshore's leaders. Farren claims the local murlocs have been cleared, but his superiors want proof. He leaves the grim work to wandering Alliance adventurers and sends them back to the shore for evidence of the kills.",
+   "body": "After the first coastal sweeps in Down the Coast, Lieutenant Farren Orinelle faces questions from Marshal Redpath and Southshore’s leaders. Farren says the local murlocs are gone, but his superiors want proof. So he sends wandering Alliance adventurers back to the shore to bring evidence of the kills, leaving the grim work to them.",
    "spoiler": 0
   },
   {
    "title": "Grisly Evidence",
-   "body": "The Western Strand lies west of Southshore, where coastal murlocs live along the shallows. Farren asks for ten severed murloc heads to satisfy the garrison's officers. He detests the creatures and says their repulsive sight and smell have ruined his appetite for Southshore's chief export and staple food.",
+   "body": "West of Southshore, coastal murlocs live along the shallows of the Western Strand. Farren asks you for ten severed murloc heads to satisfy the garrison’s officers. He detests the creatures, whose repulsive sight and smell have spoiled his appetite for Southshore’s chief export and staple food.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who gives farren's proof",
     "lieutenant farren"
    ],
-   "answer": "Lieutenant Farren Orinelle is an Alliance officer stationed in Southshore. He wants to report success to his superiors and leaves the violent, filthy work of shoreline security to adventurers."
+   "answer": "Lieutenant Farren Orinelle is an Alliance officer stationed in Southshore. He wants to report success to his superiors, so he leaves the violent, filthy work of shoreline security to adventurers."
   },
   {
    "q": "Why does Farren need severed murloc heads?",
@@ -54,7 +54,7 @@
     "farren proof reason",
     "why collect heads"
    ],
-   "answer": "Marshal Redpath and Southshore's officials wanted physical proof of dead murlocs before accepting reports that the Western Strand had been cleared."
+   "answer": "Farren needs severed murloc heads because Marshal Redpath and Southshore’s officials want physical proof before accepting reports that the Western Strand has been cleared."
   },
   {
    "q": "Where are these murlocs located?",
@@ -72,7 +72,7 @@
     "farren quest chain",
     "farren's proof followup"
    ],
-   "answer": "Farren asks you to report the murloc deaths to Marshal Redpath. After accepting the proof, Redpath turns his attention to threats on the Eastern Strand and later passes along Stormwind's reassignment orders for Farren."
+   "answer": "After accepting the proof, Farren asks you to report the murloc deaths to Marshal Redpath. Redpath then turns to threats on the Eastern Strand and later passes along Stormwind’s reassignment orders for Farren."
   },
   {
    "q": "Why is Farren disgusted by the murlocs?",
@@ -80,7 +80,7 @@
     "farren fish",
     "why doesn't farren like fish"
    ],
-   "answer": "Farren finds walking, bipedal fish repulsive. Handling their cold, slimy remains has put him off eating fish, making life in Southshore's fishing community miserable."
+   "answer": "Farren finds walking, bipedal fish repulsive. Handling their cold, slimy remains has put him off eating fish and made life in Southshore’s fishing community miserable."
   },
   {
    "q": "Who is Marshal Redpath?",
@@ -88,17 +88,17 @@
     "captain redpath",
     "who is redpath"
    ],
-   "answer": "Marshal Redpath commands Southshore's town defenses. He holds junior officers like Farren Orinelle accountable for regional security."
+   "answer": "Marshal Redpath commands Southshore’s town defenses. He holds junior officers like Farren Orinelle accountable for regional security."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help secure Southshore's coast against native predators, leaving the outpost to focus on threats from the Syndicate and the Horde."
+   "text": "As an Alliance member, you help secure Southshore’s coast against native predators. That lets the outpost focus on threats from the Syndicate and the Horde."
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook in Southshore, you may find Farren's aversion to seafood baffling. Fighting along the beach can also yield spare raw catches."
+   "text": "As a cook in Southshore, you may find Farren’s aversion to seafood baffling. Fighting along the beach can also yield spare raw catches."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Farren's Proof"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "Grove of the Ancients (quest)"
   ]
  },
- "summary": "After the harpies are driven back, Arynia Cloudsbreak sends you with a report to Darnassus. The inscribed bark tells Arch Druid Fandral Staghelm about the boughs and the corruption still troubling the World Tree.",
+ "summary": "After the harpies are driven back, Arynia Cloudsbreak sends you to Darnassus with news for the kaldorei leadership. The inscribed bark tells Arch Druid Fandral Staghelm what troubles Teldrassil's boughs.",
  "sections": [
   {
    "title": "A Messenger to the Stone City",
-   "body": "Sentinel Arynia Cloudsbreak entrusts you with a piece of inscribed bark after you clear the harpies from their nests in the Oracle Glade. The Oracle Tree watches over the forest, and with the harpies gone, Arynia can send word to the kaldorei leadership. You carry her report through the wilderness to Darnassus, the great forest of stone, and deliver it to Arch Druid Fandral Staghelm.",
+   "body": "Sentinel Arynia Cloudsbreak gives you a piece of inscribed bark after you clear the harpies from their nests in the Oracle Glade. The Oracle Tree watches over the forest, and now Arynia can send word to the kaldorei leadership. You carry her report through the wilderness to Darnassus, the great forest of stone, and deliver it to Arch Druid Fandral Staghelm.",
    "spoiler": 0
   },
   {
    "title": "Staghelm's Ambition and Frustration",
-   "body": "Fandral Staghelm receives the report with mixed feelings. He is grateful to hear that the harpies have been pushed back, but the report shows how one threat gives way to another across Teldrassil. Staghelm championed the planting of the new World Tree to reclaim the night elves' lost immortality. The afflictions in its boughs remind him that his work remains far from finished.",
+   "body": "Fandral Staghelm receives the report with gratitude and frustration. The harpies have been pushed back, yet one threat gives way to another across Teldrassil. Staghelm championed the planting of the new World Tree to reclaim the night elves' lost immortality. The afflictions in its boughs remind him that his work is far from finished.",
    "spoiler": 0
   }
  ],
@@ -66,7 +66,7 @@
     "fandral staghelm reaction",
     "why is staghelm worried"
    ],
-   "answer": "Fandral Staghelm is concerned because the report describes corruption and turmoil among the wildlife on Teldrassil. He championed the tree's planting in hopes of restoring kaldorei immortality after Nordrassil was damaged in the Third War, and these afflictions threaten that ambition."
+   "answer": "Fandral Staghelm is concerned because the report describes corruption and turmoil among Teldrassil's wildlife. He championed the tree's planting in hopes of restoring kaldorei immortality after Nordrassil was damaged in the Third War. These afflictions threaten that ambition."
   },
   {
    "q": "What quest leads into this, and what follows it?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you carry word from the Oracle Tree to the leader of the Cenarion Circle, where the struggle to cleanse Teldrassil's natural balance is plain."
+   "text": "As a druid, you carry word from the Oracle Tree to the leader of the Cenarion Circle. There, the struggle to cleanse Teldrassil's natural balance is plain."
   },
   {
    "target": "faction:Alliance",
@@ -122,5 +122,5 @@
  "attribution": [
   "Teldrassil (quest)"
  ],
- "style": 1
+ "style": 2
 }

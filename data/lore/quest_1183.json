@@ -27,16 +27,16 @@
    "Goblin Sponsorship"
   ]
  },
- "summary": "Baron Revilgaz has the Fuel Regulator Blueprints ready and sends them to Pozzik on the Shimmering Flats. He gives his regards and adds that Pozzik should not hesitate to ask if he ever needs anything.",
+ "summary": "At the Shimmering Flats, Baron Revilgaz's regards reach Pozzik with the Fuel Regulator Blueprints. The Baron invites Pozzik to ask for anything he needs.",
  "sections": [
   {
    "title": "Regards for Pozzik",
-   "body": "Baron Revilgaz says you are all set. You carry the blueprints to Pozzik, out on the Shimmering Flats, with the Baron's regards and a message: if Pozzik ever needs anything, he should not hesitate to ask. Revilgaz says he will be waiting for news that Pozzik breaks the track record.",
+   "body": "Baron Revilgaz sends you to the Shimmering Flats with the Fuel Regulator Blueprints and his regards for Pozzik. The Baron says Pozzik should ask if he ever needs anything. Revilgaz waits to hear that Pozzik breaks the track record.",
    "spoiler": 0
   },
   {
    "title": "Improving the Design",
-   "body": "Pozzik had hoped the regulator would already be assembled. Still, he sees a chance to improve the design from the ground up. He plans to sketch improved schematics, build the part and have it installed soon.",
+   "body": "Pozzik had hoped the regulator would already be assembled. Instead, he sees a chance to improve its design from the ground up. He plans to sketch new schematics, build the part and have it installed soon.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "quest giver",
     "revilgaz quest"
    ],
-   "answer": "Baron Revilgaz sends you from Booty Bay, with his regards for Pozzik."
+   "answer": "Baron Revilgaz sends you from Booty Bay with his regards for Pozzik."
   },
   {
    "q": "Who receives the fuel regulator blueprints?",
@@ -57,7 +57,7 @@
     "who gets the schematics",
     "pozzik location"
    ],
-   "answer": "Pozzik, on the Shimmering Flats."
+   "answer": "Pozzik receives the Fuel Regulator Blueprints on the Shimmering Flats."
   },
   {
    "q": "What does Baron Revilgaz hope to hear?",
@@ -65,7 +65,7 @@
     "revilgaz motivation",
     "baron revilgaz sponsor"
    ],
-   "answer": "He says he will be waiting for news that Pozzik breaks the track record."
+   "answer": "Baron Revilgaz waits for news that Pozzik breaks the track record."
   },
   {
    "q": "What comes before this delivery?",
@@ -74,7 +74,7 @@
     "what led to this",
     "goblin sponsorship chain"
    ],
-   "answer": "It follows Goblin Sponsorship (4), in which you fetched the blueprints for Revilgaz. The next step is The Eighteenth Pilot."
+   "answer": "Before this delivery, you fetched the blueprints for Revilgaz. The next step is The Eighteenth Pilot."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Goblin Sponsorship (5)"
- ]
+ ],
+ "style": 2
 }

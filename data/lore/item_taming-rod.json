@@ -12,16 +12,16 @@
    "quest:6083"
   ]
  },
- "summary": "In Durotar, Taming Rods help novice hunters learn to command beasts. Trainers give them to students so they can practice before forming lasting bonds with animal companions.",
+ "summary": "In Durotar, Taming Rods help new hunters learn to command beasts. Trainers lend them to students for practice before they form lasting bonds with animal companions.",
  "sections": [
   {
    "title": "A Guide's Training Implement",
-   "body": "In Razor Hill, trainers such as Thotar give Taming Rods to aspiring orc and troll hunters. These enchanted tools help novices who cannot yet bind a wild creature permanently. A rod pacifies a regional predator, such as a dire mottled boar or an armored scorpid, so the hunter can practice giving commands and fighting beside an animal companion. The bond lasts only briefly, leaving the student free to learn without forming a lasting tie to the beast.",
+   "body": "In Razor Hill, trainers such as Thotar give Taming Rods to orc and troll hunters who are just beginning. The enchantment helps them practice before they can bind a wild creature for good. A rod pacifies a local predator, such as a dire mottled boar or an armored scorpid. The hunter learns to give commands and fight beside an animal companion, but the bond lasts only briefly.",
    "spoiler": 0
   },
   {
    "title": "A Step Toward Mastery",
-   "body": "Each Taming Rod's magic fades after a short while, and each is attuned to specific kinds of wild beasts. Novices face successive trials against different temperaments, from docile foragers to aggressive venomous hunters. When a student has shown they can command them, the rod goes back to the trainer. The trainer then teaches the student to tame, call, and dismiss lifelong companions without an artifact.",
+   "body": "Each Taming Rod's magic fades after a short time, and each is attuned to certain kinds of wild beasts. Novices face trials against different temperaments, from docile foragers to aggressive venomous hunters. Once a student shows they can command these beasts, the rod goes back to the trainer. Then the trainer teaches them to tame, call, and dismiss lifelong companions without an artifact.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "taming rod use",
     "why do i have a taming rod"
    ],
-   "answer": "Hunters use a Taming Rod to practice commanding a beast in battle. The trainer gives it to a young hunter, and its magic briefly pacifies and charms the creature."
+   "answer": "Hunters use a Taming Rod to practice commanding a beast in battle. A trainer lends it to a young hunter, and its magic briefly pacifies and charms the creature."
   },
   {
    "q": "Do I keep the pet I tame with the rod?",
@@ -42,7 +42,7 @@
     "do i keep the boar",
     "do i keep the scorpid"
    ],
-   "answer": "No. A beast under a Taming Rod's influence is there only for training, and the bond ends when the magic fades or you return the rod. After your trials, you learn to tame a lasting companion."
+   "answer": "No. A beast under a Taming Rod's influence is there only for training. The bond ends when the magic fades or you return the rod, and after your trials you learn to tame a lasting companion."
   },
   {
    "q": "Can I use any Taming Rod on any animal?",
@@ -50,7 +50,7 @@
     "does the rod work on anything",
     "taming rod targets"
    ],
-   "answer": "No. Each Taming Rod is attuned to a specific target creature for its stage of training, such as a dire mottled boar or an armored scorpid."
+   "answer": "No. Each Taming Rod is attuned to a particular target creature for that stage of training, such as a dire mottled boar or an armored scorpid."
   },
   {
    "q": "Can I keep the Taming Rod after completing the training?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you use the Taming Rod to practice before you can form lasting bonds with wild beasts."
+   "text": "As a hunter, you use a Taming Rod to practice before you can form lasting bonds with wild beasts."
   },
   {
    "target": "faction:Horde",
@@ -94,5 +94,5 @@
   "Taming the Beast (Orc and Troll 1)",
   "Taming the Beast (Orc and Troll 3)"
  ],
- "style": 1
+ "style": 2
 }

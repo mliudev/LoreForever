@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Razorfen Downs"
  },
- "summary": "Razorfen Downs is the ancestral capital and sacred burial labyrinth of the quilboar, carved deep into the colossal brambles bordering the southern Barrens and Thousand Needles. Once their holiest sanctuary, it has fallen under the sway of the undead Scourge, transforming into a festering bastion of necromancy.",
+ "summary": "Scourge power now stains Razorfen Downs, the quilboar’s sacred burial maze in southern Kalimdor. Their dead still rest among Agamaggan’s thorns, though necromancy has taken hold.",
  "sections": [
   {
    "title": "A Sacred City Corrupted",
-   "body": "Long revered as the ancestral capital city and burial grounds of the quilboar race, Razorfen Downs rests within the colossal petrified briars sprung from the fallen demigod Agamaggan. Legend holds that its arched entryway was carved directly from the Great Boar's very maw. For centuries, the high priests of the Death's Head tribe tended these deep, winding burrows and honored their revered dead. Yet despite its sacred standing among the boar-folk, the maze of bone and bramble has recently suffered a catastrophe far darker than any squabble over Barrens water.",
+   "body": "Razorfen Downs holds the quilboar’s ancestral dead among the petrified briars of Agamaggan. The thorn maze rises from the fallen demigod, and legend says its arched entrance was carved from the Great Boar’s own maw. For centuries, high priests of the Death's Head tribe tended its deep, winding burrows and honored the dead. Now a catastrophe darker than any quarrel over water in the Barrens has struck this sacred ground.",
    "spoiler": 0
   },
   {
    "title": "The Scourge Reaches Kalimdor",
-   "body": "Following the devastation of the Third War, the tendrils of the undead Scourge reached silently into southern Kalimdor. Led by the frost-wielding lich Amnennar the Coldbringer, agents of death infiltrated the thorn maze and subverted the Death's Head priesthood. Instead of honoring their ancestors, the quilboar now harbor rotting ghouls, skeletons, and necromancers within their sacred pens. The corruption here threatens to fester outward across the Barrens, turning the quilboar's holiest ground into a launchpad for the Scourge's ambitions in the west.",
+   "body": "After the Third War, the Scourge reached southern Kalimdor in silence. Amnennar the Coldbringer, a frost-wielding lich, led agents of death into the thorn maze and turned the Death's Head priesthood from within. Now the quilboar harbor rotting ghouls, skeletons, and necromancers where they once honored their ancestors. Scourge power threatens to spread across the Barrens, and the quilboar’s holiest ground has become a base for its ambitions in the west.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "razorfen downs lore",
     "who lives in razorfen downs"
    ],
-   "answer": "Razorfen Downs is the ancestral capital city and burial grounds of the quilboar race. Grown from the enormous thorn brambles formed by the fallen Ancient Agamaggan, it serves as the spiritual heart of quilboar culture and the headquarters of their high priesthood, the Death's Head tribe."
+   "answer": "Razorfen Downs holds the quilboar’s ancestral capital and burial grounds. Enormous thorn brambles grew from fallen Ancient Agamaggan, and the place remains the spiritual heart of quilboar culture. The Death's Head tribe’s high priesthood makes its headquarters here."
   },
   {
    "q": "Why is the Scourge inside Razorfen Downs?",
@@ -37,7 +37,7 @@
     "amnennar razorfen downs",
     "scourge in razorfen"
    ],
-   "answer": "The lich Amnennar the Coldbringer arrived following the Third War to establish a Kalimdor stronghold for the Lich King. By corrupting the Death's Head priesthood and raising quilboar dead, Amnennar turned the labyrinthine thorn city into a hidden nest of necromantic power."
+   "answer": "After the Third War, Amnennar the Coldbringer came to establish a Kalimdor stronghold for the Lich King. He corrupted the Death's Head priesthood and raised quilboar dead, turning the thorn maze into a hidden seat of necromantic power."
   },
   {
    "q": "How does Razorfen Downs differ from Razorfen Kraul?",
@@ -46,7 +46,7 @@
     "downs vs kraul",
     "kraul or downs"
    ],
-   "answer": "Razorfen Kraul is the primary military redoubt and living warren of the quilboar, ruled directly by the crone Charlga Razorflank. In contrast, the Downs is their traditional capital and sacred burial ground, deeper south, which has fallen under the sway of necromancy and Scourge control."
+   "answer": "Razorfen Kraul is the quilboar’s main military redoubt and living warren, ruled by the crone Charlga Razorflank. Razorfen Downs lies farther south as their traditional capital and sacred burial ground. Now the Scourge controls it, and necromancy holds sway."
   },
   {
    "q": "Where is the entrance located?",
@@ -55,17 +55,17 @@
     "where is razorfen downs",
     "how to get into razorfen downs"
    ],
-   "answer": "The Downs is situated at the very southern border of the Barrens, overlooking the great drop into Thousand Needles. Its entrance is a natural arched fissure nestled into the towering, tangled brambles, reputed in myth to be carved from Agamaggan's gaping maw."
+   "answer": "Razorfen Downs lies at the Barrens’ southern edge, overlooking the great drop into Thousand Needles. Its entrance is a natural arched fissure in the towering, tangled brambles. Legend says it was carved from Agamaggan’s gaping maw."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The quilboar are a constant thorn in the side of the Crossroads, but an outpost of the Lich King right on the edge of the Barrens is an existential menace that the Horde cannot afford to ignore."
+   "text": "The quilboar trouble the Crossroads, and a Lich King outpost at the Barrens’ edge threatens the Horde. You cannot afford to ignore it."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, discovering a Scourge lich operating covertly on Kalimdor is a chilling reminder of the master they rebelled against, demanding swift and decisive eradication."
+   "text": "As Forsaken, you know the chill of finding a Scourge lich working in secret on Kalimdor. The master you rebelled against still commands such threats, and they must be destroyed swiftly."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Razorfen Downs"
- ]
+ ],
+ "style": 2
 }

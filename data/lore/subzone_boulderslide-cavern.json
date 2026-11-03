@@ -16,7 +16,7 @@
   },
   {
    "title": "The Slumbering Giant",
-   "body": "Goggeroc lies asleep inside a resonite cask deep in Boulderslide Cavern. The kobolds' digging has reached this ancient earthen, and their work around his resting place risks waking him. His primordial stone magic could bring sudden danger to the whole ravine.",
+   "body": "Goggeroc sleeps inside a resonite cask deep in Boulderslide Cavern. The kobolds' digging has reached this ancient earthen, and their work near his resting place risks waking him. His primordial stone magic could bring sudden danger to the whole ravine.",
    "spoiler": 1
   }
  ],
@@ -54,7 +54,7 @@
     "horde quests boulderslide",
     "why send me to boulderslide"
    ],
-   "answer": "The Horde watches the cavern to curb the aggressive kobolds spreading through the ravine and to study the magical properties of the resonite they mine."
+   "answer": "The Horde watches the cavern to curb the aggressive kobolds spreading through the ravine and study the magical properties of the resonite they mine."
   }
  ],
  "angles": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Boulderslide Cavern"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "Naga at the Zoram Strand",
   "chain": []
  },
- "summary": "At Zoram Strand, Naga threaten the Horde's hold on Ashenvale's coast. From Zoram'gar Outpost, Marukai seeks to drive the Wrathtail away from the sunken ruins of ancient Zoram.",
+ "summary": "Along Ashenvale's coast, Naga threaten the Horde's hold at Zoram Strand. From Zoram'gar Outpost, Marukai seeks to drive the Wrathtail away from the sunken ruins of ancient Zoram.",
  "sections": [
   {
    "title": "A Precarious Foothold",
-   "body": "The Horde's hold on Zoram Strand is fragile. Hostile night elf territory and bitter woodland fighting surround the outpost, whose coast links the Horde to the sea. Aggressive naga have now crawled ashore. They could cut off that link and overwhelm the small garrison before its defenses are ready.",
+   "body": "The Horde's hold at Zoram Strand is fragile. The outpost stands amid hostile night elf territory and bitter woodland fighting, yet its coast gives the Horde a link to the sea. Now aggressive naga have crawled ashore. They could cut off that route and overwhelm the small garrison before its defenses are ready.",
    "spoiler": 0
   },
   {
    "title": "Echoes of Doomed Zoram",
-   "body": "Zoram Strand's sandy shoals hide the shattered remains of Zoram, an ancient elven city swallowed by the Great Sundering thousands of years ago. Marukai and the outpost's defenders do not know why the Wrathtail have come out of the deep trenches now. Their sudden interest in the sunken ruins threatens anyone walking above them.",
+   "body": "Beneath Zoram Strand's sandy shoals lie the shattered remains of Zoram, an ancient elven city swallowed by the Great Sundering thousands of years ago. Marukai and the outpost's defenders do not know why the Wrathtail have come from the deep trenches now. Their sudden interest in the sunken ruins threatens anyone walking above them.",
    "spoiler": 0
   },
   {
    "title": "The Price of Survival",
-   "body": "Marukai sees a simple fight for survival. With swords and tridents drawn, reason matters little. She demands twenty severed heads from the Wrathtail, hoping force will drive the naga back into the depths and secure the shore for the Horde.",
+   "body": "Marukai sees a simple fight for survival. With swords and tridents drawn, reason matters little. She demands twenty severed heads from the Wrathtail. She hopes force will drive the naga back into the depths and secure the shore for the Horde.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "history of zoram",
     "sunken city"
    ],
-   "answer": "Zoram Strand lies along the resting place of the ancient city of Zoram. The Sundering destroyed and submerged it beneath the Great Sea long ago, and its ruins now lie partly underwater along the Ashenvale coast."
+   "answer": "Zoram Strand lies along the resting place of the ancient city of Zoram. The Sundering destroyed and submerged it beneath the Great Sea long ago. Its ruins now lie partly underwater along the Ashenvale coast."
   },
   {
    "q": "Why are the naga attacking the shore?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Naga at the Zoram Strand"
  ],
- "style": 1
+ "style": 2
 }

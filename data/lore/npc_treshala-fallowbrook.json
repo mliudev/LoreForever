@@ -8,11 +8,11 @@
   "wiki": "Treshala Fallowbrook",
   "refs": 1
  },
- "summary": "In Darnassus, Treshala Fallowbrook waits at home for news of her husband. Heralath Fallowbrook has gone far away, into Razorfen Kraul in the Barrens.",
+ "summary": "In Darnassus, Treshala Fallowbrook waits at home for word of her husband. Heralath Fallowbrook has gone far away, into Razorfen Kraul in the Barrens.",
  "sections": [
   {
    "title": "A Watcher on the Terrace",
-   "body": "On the second floor of a Tradesmen's Terrace workshop, Treshala Fallowbrook waits for word from her husband. Heralath journeyed to Razorfen Kraul in the Barrens, where thorny growth surrounds the quilboar's warrens. Their marriage is marked by a pendant of bonding, which Heralath carried with him.",
+   "body": "On the second floor of a Tradesmen's Terrace workshop, Treshala Fallowbrook waits for word from her husband. Heralath journeyed to Razorfen Kraul in the Barrens, where thorny growth surrounds the quilboar warrens. Their marriage is marked by a pendant of bonding, which Heralath carried with him.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is fallowbrook",
     "how to find treshala"
    ],
-   "answer": "Treshala Fallowbrook is on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Climb the wooden ramp inside the weapons building to reach her room."
+   "answer": "Treshala Fallowbrook lives on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Climb the wooden ramp inside the weapons building to reach her room."
   },
   {
    "q": "What is Treshala researching?",
@@ -42,7 +42,7 @@
     "fallowbrook razorfen",
     "connection to rfk"
    ],
-   "answer": "Treshala is concerned because her husband, Heralath, ventured into Razorfen Kraul, a thorny quilboar stronghold in the Barrens, and she has had no word of him since."
+   "answer": "Treshala worries because her husband, Heralath, ventured into Razorfen Kraul, a thorny quilboar stronghold in the Barrens. She has had no word of him since."
   },
   {
    "q": "Is she a shopkeeper or a craftswoman?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Treshala Fallowbrook"
  ],
- "style": 1
+ "style": 2
 }

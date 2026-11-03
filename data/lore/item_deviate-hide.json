@@ -10,11 +10,11 @@
    "quest:1486"
   ]
  },
- "summary": "Deviate Hides are the mutated skins stripped from the beasts dwelling within the Wailing Caverns. Warped by the corrupting dream of the druid Naralex, these otherworldly pelts are sought by druids looking to repurpose the nightmare's taint into durable leather goods.",
+ "summary": "In the Wailing Caverns, Deviate Hide bears the mark of Naralex's dream. Druids seek to turn its taint to useful leather goods.",
  "sections": [
   {
    "title": "Tainted Pelts of the Nightmare",
-   "body": "When the night elf druid Naralex entered his deep slumber beneath the Barrens, his dream turned into an Emerald Nightmare that warped the local cavern ecology. The beasts lurking in the depths transformed into unnatural deviate predators with tough, mutated hides. While inherently touched by evil, these pelts possess unusual, supple resilience that makes them uniquely suited for leathercrafting. Nalpak, perched high above the cavern mouth in the skull-shaped rock formation, collects these hides to study their properties and fashion them into sturdy utility packs.",
+   "body": "Naralex's slumber beneath the Barrens changed the beasts of the Wailing Caverns. The night elf druid's dream became an Emerald Nightmare, and deviate predators arose with tough, mutated hides. Their pelts carry evil, yet remain supple and resilient for leathercrafting.\n\nNalpak gathers the hides from his perch high above the cavern mouth, in a skull-shaped rock formation. He studies their properties and fashions them into sturdy utility packs.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why are deviate hides weird",
     "deviate pelt nature"
    ],
-   "answer": "Deviate hides come from creatures warped by the Emerald Nightmare seeping out of Naralex's slumber. This corruption alters their flesh, bestowing strange, otherworldly durability and elasticity that ordinary beast pelts lack."
+   "answer": "The Emerald Nightmare that seeps from Naralex's slumber warped the beasts that bear deviate hides. Their flesh is strangely durable and elastic, unlike ordinary beast pelts."
   },
   {
    "q": "Who is collecting these hides?",
@@ -35,7 +35,7 @@
     "nalpak hides",
     "who needs deviate hide"
    ],
-   "answer": "Nalpak, a disciple of Naralex camped in the eye-socket cave above the entrance to the Wailing Caverns, seeks these pelts. He believes that despite the wicked nature of the deviate beasts, their materials can be redeemed and fashioned into useful leather goods."
+   "answer": "Nalpak collects the hides. A disciple of Naralex, he camps in the eye-socket cave above the Wailing Caverns' entrance. He believes the deviate beasts' wicked materials can be redeemed as useful leather goods."
   },
   {
    "q": "Where are deviate hides found?",
@@ -43,13 +43,13 @@
     "where do deviate hides drop",
     "how to get deviate hides"
    ],
-   "answer": "They are taken from the various deviate beasts prowling inside the Wailing Caverns beneath the Barrens, including raptors, vipers, crocolisks, and dreadfangs."
+   "answer": "Deviate hides come from beasts prowling inside the Wailing Caverns beneath the Barrens, including raptors, vipers, crocolisks, and dreadfangs."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids, collecting deviate hides is a stark confrontation with the Emerald Nightmare's corruptive power over nature, though disciples like Nalpak attempt to redeem the corrupted materials for practical survival."
+   "text": "As a druid, you can see the Emerald Nightmare's corruptive power over nature in these hides. Nalpak seeks to redeem the corrupted materials for practical survival."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  "attribution": [
   "Deviate Hide",
   "Deviate Hides (Classic)"
- ]
+ ],
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "Human adventurers witness the heartbreaking fate of Lordaeron's fallen leadership, as even an esteemed Grand Marshal was transformed into a grotesque undead horror. Captain Truman's bitter grief and nationalistic zeal reflect the raw trauma carried by human survivors desperate to reclaim their ancestral home."
+   "text": "As a human, you see Lordaeron's fallen leadership meet a grim fate: even an esteemed Grand Marshal has become a grotesque undead horror. Captain Truman's grief and nationalistic zeal reflect the trauma of human survivors desperate to reclaim their ancestral home."
   },
   {
    "target": "faction:Alliance",
-   "text": "The quest highlights the perilous, isolated plight of Alliance-aligned remnants trying to operate within the blighted ruins of northern Lordaeron. It emphasizes how lingering loyalist detachments struggle with dwindling hope and the psychological toll of fighting overwhelming monstrosities."
+   "text": "As an Alliance member, you see how perilous and isolated the loyalist remnants are in northern Lordaeron's blighted ruins. Their detachments struggle with dwindling hope and the toll of facing overwhelming monstrosities."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the Baron's grotesque transformation is a grim reminder of how the Scourge mutilated Lordaeron's finest defenders into monstrous abominations. Captain Truman's vow to purge the ruins of all beasts and undead reflects the relentless hostility living loyalists hold against the Undercity's people."
+   "text": "As Forsaken, you see the Baron's grotesque transformation as a reminder of how the Scourge mutilated Lordaeron's finest defenders into monstrous abominations. Captain Truman's words reveal the hostility living loyalists hold toward the Undercity's people."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "abominable creatures quest giver",
     "where to start abominable creatures"
    ],
-   "answer": "The quest is offered by Captain Truman, a human loyalist stationed in the region surrounding the fallen kingdom. Anxiously holding his post while awaiting reinforcements, Truman desperately seeks news of his commander, a revered Grand Marshal who charged into the nearby Ruins of Lordaeron.",
+   "answer": "Captain Truman, a human loyalist, makes the request from his post outside the fallen kingdom. He waits anxiously for reinforcements and news of his commander, a revered Grand Marshal who charged into the nearby Ruins of Lordaeron.",
    "q": "Who gives the quest Abominable Creatures?"
   },
   {
@@ -41,7 +41,7 @@
     "where is abominable creatures completed",
     "abominable creatures zone"
    ],
-   "answer": "The quest directs adventurers into the Ruins of Lordaeron, the shattered capital city overrun by Scourge horrors and undead remnants. Captain Truman maintains a post outside the blighted capital, asking brave travelers to venture directly into the dangerous ruins to locate his missing superior.",
+   "answer": "The search takes you into the Ruins of Lordaeron, the shattered capital overrun by Scourge horrors and undead remnants. Captain Truman keeps watch outside the blighted city and asks travelers to find his missing superior there.",
    "q": "Where does the quest Abominable Creatures take place?"
   },
   {
@@ -50,7 +50,7 @@
     "grand marshal identity truman",
     "who is the baron"
    ],
-   "answer": "Captain Truman refers to his master as the Grand Marshal, praising him as a tall, statuesque military hero. However, the quest objectives refer to this missing noble as the Baron, indicating that he was a high-ranking aristocrat and military commander leading the defense of the realm.",
+   "answer": "Captain Truman calls his master the Grand Marshal and praises him as a tall, statuesque military hero. The missing man is also called the Baron, a high-ranking aristocrat and military commander leading the realm's defense.",
    "q": "Who is Captain Truman's master?"
   },
   {
@@ -59,7 +59,7 @@
     "grand marshal fate",
     "is the grand marshal dead"
    ],
-   "answer": "Rather than holding out victoriously, the Grand Marshal was slain and transformed into a monstrous undead creature within the Ruins of Lordaeron. When adventurers locate him, they find an abomination designated as the Baron, forcing them to destroy him and claim his severed head.",
+   "answer": "The Grand Marshal was slain and transformed into a monstrous undead creature in the Ruins of Lordaeron. You find an abomination called the Baron, slay him, and take his severed head.",
    "q": "What happened to the Grand Marshal in the Ruins of Lordaeron?"
   },
   {
@@ -68,7 +68,7 @@
     "truman reaction abominable creatures",
     "why does truman yell at you"
    ],
-   "answer": "Captain Truman expected his statuesque commander to be alive and victorious. When presented with the grotesque, mutated head of the Baron, Truman is overcome with horror and revulsion, furiously accusing the adventurer of playing a sick joke and consorting with vile beasts.",
+   "answer": "Captain Truman expects his statuesque commander to be alive and victorious. The grotesque, mutated head of the Baron fills him with horror and revulsion. He furiously accuses you of playing a sick joke and consorting with vile beasts.",
    "q": "Why does Captain Truman get angry when you turn in the quest?"
   },
   {
@@ -77,7 +77,7 @@
     "who are the true sons of lordaeron",
     "truman true sons"
    ],
-   "answer": "Captain Truman uses the term to describe zealous human patriots dedicated to reclaiming their shattered homeland. His words express a fierce, intolerant vision where the rightful human survivors will purge the kingdom of all undead, beasts, and anyone perceived as consorting with them.",
+   "answer": "By “true sons of Lordaeron,” Captain Truman means the rightful human survivors who seek to reclaim their shattered homeland and purge it of all beasts. The phrase reveals his belief that the land belongs to those human survivors.",
    "q": "What does Captain Truman mean by the 'true sons of Lordaeron'?"
   },
   {
@@ -86,7 +86,7 @@
     "why is captain truman racist",
     "truman xenophobia"
    ],
-   "answer": "Captain Truman displays deep disdain for non-human races and irregular allies, dismissing them as untrustworthy half-breeds and filth. His intense xenophobia prevents him from confiding in anyone other than those he deems worthy representatives of the realm.",
+   "answer": "Captain Truman distrusts non-human races and irregular allies, calling them untrustworthy half-breeds and filth. His disdain keeps him from confiding in anyone he does not consider a worthy representative of the realm.",
    "q": "Why does Captain Truman refuse to trust 'half breeds'?"
   }
  ],
@@ -106,23 +106,24 @@
  ],
  "sections": [
   {
-   "body": "Captain Truman stands vigilant at his post, anxiously awaiting long-overdue reinforcements to support the defense of Lordaeron. Confident in the martial prowess of his superior\u2014a renowned Grand Marshal whom he describes as a tall, statuesque hero\u2014Truman remains bound by duty after being commanded to hold the line while his commander charged into the ongoing fray. Harboring deep suspicion toward outsiders and openly scorning those he considers lesser breeds, the captain refuses to trust local irregulars. When a capable traveler approaches, Truman seizes the opportunity to enlist aid, pleading for someone to venture into the ruined territory to check on his master's well-being and assess the battle.",
+   "body": "Captain Truman keeps watch outside Lordaeron, anxious for long-overdue reinforcements. He calls his superior a renowned Grand Marshal, tall and statuesque, and believes him a formidable fighter. Ordered to hold the line while his commander charged into battle, Truman remains bound by duty.\n\nHe distrusts outsiders and scorns those he calls lesser breeds, refusing to rely on local irregulars. When a capable traveler arrives, he asks you to enter the ruins, check on his master's well-being, and learn how the battle fares.",
    "spoiler": 0,
    "title": "A Desperate Vigil"
   },
   {
-   "body": "The search directs adventurers straight into the perilous Ruins of Lordaeron, the shattered capital that fell to the Scourge during the Third War. Although Captain Truman expects his glorious leader to be standing triumphant over the fallen, the reality within the blighted city is far grimmer. The ruins are overrun with horrors, undead remnants, and abominations wandering the broken stone plazas. Navigating these devastated streets requires confronting the brutal truth of what happened to the defenders who ventured into the city. Instead of finding an immaculate knight holding the line, travelers discover that the commander has met a tragic, twisted end among the monstrosities occupying the courtyards.",
+   "body": "The search takes you into the Ruins of Lordaeron, the shattered capital that fell to the Scourge during the Third War. Captain Truman expects his glorious leader to stand triumphant over the fallen, but the blighted city tells a grimmer story.\n\nHorrors, undead remnants, and abominations roam its broken stone plazas. The ruined streets show what became of the defenders who entered the city. No immaculate knight holds the line; the commander has met a tragic, twisted end among the monstrosities in the courtyards.",
    "spoiler": 0,
    "title": "The Ruins of Lordaeron"
   },
   {
-   "body": "Upon locating the missing commander, designated as the Baron, adventurers make a horrifying discovery: the once-statuesque hero has been transformed into a grotesque undead monstrosity. Fulfilling the grim task requires slaying the creature and taking the Head of the Baron back to Captain Truman. When presented with the severed head of his former lord, Truman reacts with shock, horror, and profound revulsion. Unable to accept the dreadful fate of his commander, the captain lashes out in bitter outrage, accusing the adventurer of being in league with monsters and vowing that the true sons of Lordaeron will one day reclaim their land and purge all beasts.",
+   "body": "The missing commander, whom Captain Truman calls the Baron, has become a grotesque undead monstrosity. You slay the creature and carry the Head of the Baron back to Captain Truman. The severed head of his former lord leaves Truman shocked and horrified, overcome with revulsion.\n\nUnable to accept his commander's fate, he turns on you in bitter outrage and accuses you of siding with monsters. He declares that the true sons of Lordaeron will reclaim their land and purge all beasts.",
    "spoiler": 1,
    "title": "A Horrifying Revelation"
   }
  ],
- "summary": "Abominable Creatures is a quest given by Captain Truman, a human loyalist desperately awaiting reinforcements on the outskirts of Lordaeron's fallen capital. Believing his commander\u2014a revered Grand Marshal\u2014is still valiantly fighting in the nearby Ruins of Lordaeron, Truman implores a capable adventurer to track him down. The mission exposes the grim fate of the kingdom's lost defenders and the bitter hostility smoldering among surviving loyalists.",
+ "summary": "At Lordaeron's fallen capital, Captain Truman waits anxiously for reinforcements and news of his missing commander. He believes the revered Grand Marshal still fights in the nearby ruins, and asks a capable traveler to find him. The search reveals the defenders' grim fate and deep hostility among the loyalists.",
  "attribution": [
   "In-game quest text: Abominable Creatures"
- ]
+ ],
+ "style": 2
 }

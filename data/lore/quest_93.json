@@ -21,21 +21,21 @@
    "Return to Jitters"
   ]
  },
- "summary": "In Darkshire, Chef Grual's beloved snack called Dusky Crab Cakes contains no crab at all. He sends you to gather spider legs for Jitters, who is hungry and nervous.",
+ "summary": "In Darkshire, Dusky Crab Cakes are a favorite snack with no crab in them. Chef Grual sends you to gather spider legs for Jitters, who is hungry and nervous.",
  "sections": [
   {
    "title": "A Questionable Delicacy",
-   "body": "Darkshire's resident cook, Chef Grual, makes Dusky Crab Cakes at the Scarlet Raven Tavern. Isolation, dark magic, and severed supply routes have left Duskwood short of food, so locals have adapted their cooking. Grual says the cakes' tangy flavor comes entirely from the gooey legs of local giant spiders, not seafood from distant shores.",
+   "body": "Chef Grual cooks at the Scarlet Raven Tavern in Darkshire. Isolation, dark magic, and severed supply routes have left Duskwood short of food, so locals have changed what they eat. Grual says the cakes get their tangy flavor from the gooey legs of local giant spiders, not seafood from distant shores.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Venom Webs",
-   "body": "Chef Grual sends you north to the foothills and riverbanks, where Venom Web Spiders spin their snares. In a gloomy forest of undead and feral beasts, harvesting fresh spider meat is dangerous, but it is one of the few ready sources of protein in the blighted woods. Grual fries the seasoned arachnid limbs on a hot skillet until crisp.",
+   "body": "Chef Grual sends you north to the foothills and riverbanks, where Venom Web Spiders spin their snares. Undead and feral beasts make the gloomy forest dangerous, but fresh spider meat is one of the few ready sources of protein in the blighted woods. Grual fries the seasoned limbs on a hot skillet until crisp.",
    "spoiler": 0
   },
   {
    "title": "Comfort for a Cursed Soul",
-   "body": "Jitters shelters in the abandoned village of Raven Hill in western Duskwood. Guilt and trembling terror haunt the agitated vagrant after he inadvertently unleashed horrors upon the region. He thinks of little besides his starving stomach. A hot batch of Chef Grual's savory spider cakes gives him rare comfort in exile.",
+   "body": "Jitters shelters in the abandoned village of Raven Hill in western Duskwood. Guilt and trembling terror haunt him after he inadvertently unleashed horrors upon the region. The agitated vagrant thinks of little besides his starving stomach. A hot batch of Chef Grual's savory spider cakes gives him rare comfort in exile.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "crab cakes secret",
     "what are crab cakes made of"
    ],
-   "answer": "No. Chef Grual openly confesses to adventurers that Dusky Crab Cakes are made entirely from gooey spider legs. Darkshire has no access to the sea or fresh crab, so he uses local giant spiders for their texture and sharp, tangy flavor."
+   "answer": "No. Chef Grual openly admits that Dusky Crab Cakes are made entirely from gooey spider legs. Darkshire has no access to the sea or fresh crab, so he uses local giant spiders for their texture and sharp, tangy flavor."
   },
   {
    "q": "Where does Chef Grual get the spider legs?",
@@ -56,7 +56,7 @@
     "spider locations duskwood",
     "venom web spiders location"
    ],
-   "answer": "Grual relies on adventurers to harvest gooey legs from aggressive Venom Web Spiders. They nest mainly in northern Duskwood, between the forest foothills and the river."
+   "answer": "Grual relies on adventurers to gather gooey legs from aggressive Venom Web Spiders. They nest mainly in northern Duskwood, between the forest foothills and the river."
   },
   {
    "q": "Who are these crab cakes being made for?",
@@ -73,7 +73,7 @@
     "can i learn crab cakes recipe",
     "crab cake recipe cooking"
    ],
-   "answer": "Chef Grual keeps his precise Dusky Crab Cakes recipe secret and refuses to share his trademark spice blend. He does give helpful adventurers an alternative recipe from his cooking repertoire."
+   "answer": "Chef Grual keeps his precise Dusky Crab Cakes recipe secret and refuses to share his trademark spice blend. He does give helpful adventurers another recipe from his cooking repertoire."
   },
   {
    "q": "Why does Darkshire rely on spiders for food?",
@@ -81,7 +81,7 @@
     "why eat spiders in darkshire",
     "duskwood food shortages"
    ],
-   "answer": "Undead, Nightbane worgen, and hostile creatures besiege Duskwood's roads, severely disrupting trade caravans and farming. With fresh livestock and imported goods scarce, Darkshire's inhabitants make use of whatever wildlife they can catch."
+   "answer": "Undead, Nightbane worgen, and hostile creatures besiege Duskwood's roads, badly disrupting trade caravans and farming. With fresh livestock and imported goods scarce, Darkshire's inhabitants make use of whatever wildlife they can catch."
   },
   {
    "q": "Does Jitters know the cakes are made of spiders?",
@@ -89,17 +89,17 @@
     "does jitters know about the spiders",
     "jitters reaction to spider meat"
    ],
-   "answer": "Jitters craves Chef Grual's famous crab cakes and cares little about their ingredients. Paralyzed by dread and starvation in the woods, he is eager for any familiar meal from Darkshire, regardless of its creepy origin."
+   "answer": "Jitters craves Chef Grual's famous crab cakes and cares little about their ingredients. Paralyzed by dread and starvation in the woods, he is eager for any familiar meal from Darkshire, whatever its creepy origin."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook on the frontier, you learn that even terrifying wilderness predators like giant venomous spiders can become a town's regional delicacy."
+   "text": "As a cook on the frontier, you learn that even terrifying predators like giant venomous spiders can become a town's regional delicacy."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you see how neglected infrastructure and severed supply lines push towns like Darkshire to subsist on giant vermin."
+   "text": "As an Alliance traveler, you see how neglected infrastructure and severed supply lines push towns like Darkshire to live on giant vermin."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Dusky Crab Cakes (Classic)"
  ],
- "style": 1
+ "style": 2
 }

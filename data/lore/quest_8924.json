@@ -27,16 +27,16 @@
    "Tier 0.5 quests"
   ]
  },
- "summary": "Mux Manascrambler in Gadgetzan has his ectoplasmic distiller ready and now needs ectoplasm. You carry it to three distant lands, Silithus, Winterspring and the Eastern Plaguelands, and gather twelve of each kind from the incorporeal dead. This follows The Ectoplasmic Distiller.",
+ "summary": "Mux Manascrambler in Gadgetzan has his distiller ready, and now needs ectoplasm. You carry it to Silithus, Winterspring and the Eastern Plaguelands, gathering twelve of each kind from the incorporeal dead. This follows The Ectoplasmic Distiller.",
  "sections": [
   {
    "title": "Three Climates, Three Kinds",
-   "body": "Mux Manascrambler is proud of the distiller and warns that you have some travelling ahead to find the incorporeal undead. In Mux's view, climate changes what the spectral fabric of the dead is like. Silithus has tortured night elves, Winterspring has spirits of the highborne, and the Eastern Plaguelands have ghosts and banshees. Each place yields a different ectoplasm: twelve scorched, twelve frozen and twelve stable. Mux says to set the distiller down nearby before harvesting, then bring it and the ectoplasm back to Gadgetzan.",
+   "body": "Mux Manascrambler is proud of his distiller, but the incorporeal dead are far from Gadgetzan. He believes climate changes the spectral fabric of the dead. In Silithus, tortured night elves yield scorched ectoplasm. In Winterspring, spirits of the highborne yield frozen ectoplasm.\n\nGhosts and banshees in the Eastern Plaguelands yield stable ectoplasm. Gather twelve of each kind. Mux says to set the distiller down nearby before harvesting, then bring it and the ectoplasm back to Gadgetzan.",
    "spoiler": 0
   },
   {
    "title": "Mux's Verdict",
-   "body": "Mux is delighted with the ectoplasm. Mux explains that the otherworldly energies in it will let you reach out to souls that have not fully left this world.",
+   "body": "Mux Manascrambler is delighted with the ectoplasm. Its otherworldly energies, he explains, will let you reach out to souls that have not fully left this world.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who gives hunting for ectoplasm",
     "quest giver hunting for ectoplasm"
    ],
-   "answer": "Mux Manascrambler in Gadgetzan, in Tanaris, once his distiller is built."
+   "answer": "Mux Manascrambler sends you from Gadgetzan in Tanaris once his distiller is built."
   },
   {
    "q": "Why does Mux need ectoplasm from three different places?",
@@ -56,7 +56,7 @@
     "different ectoplasm types",
     "why silithus winterspring plaguelands"
    ],
-   "answer": "Mux says different climates give the spectral fabric of the dead different consistencies. He wants twelve scorched from Silithus, twelve frozen from Winterspring and twelve stable from the Eastern Plaguelands."
+   "answer": "Mux says climate changes the spectral fabric of the dead. He wants twelve scorched ectoplasm from Silithus, twelve frozen from Winterspring and twelve stable from the Eastern Plaguelands."
   },
   {
    "q": "Which spirits provide the ectoplasm?",
@@ -65,7 +65,7 @@
     "what to kill for ectoplasm",
     "which ghosts drop it"
    ],
-   "answer": "Tortured night elves in Silithus, spirits of the highborne in Winterspring, and ghosts and banshees in the Eastern Plaguelands."
+   "answer": "Tortured night elves in Silithus, spirits of the highborne in Winterspring, and ghosts and banshees in the Eastern Plaguelands provide the ectoplasm."
   },
   {
    "q": "How is the ectoplasm gathered?",
@@ -73,7 +73,7 @@
     "how does the distiller work",
     "how to collect ectoplasm"
    ],
-   "answer": "Mux says to put the distiller down near the incorporeal undead before you harvest them."
+   "answer": "Mux says to set the distiller down near the incorporeal dead before harvesting them."
   },
   {
    "q": "Where does this fit in Mux's work?",
@@ -81,7 +81,7 @@
     "hunting for ectoplasm prerequisite",
     "what comes before hunting for ectoplasm"
    ],
-   "answer": "It comes after The Ectoplasmic Distiller, and A Portable Power Source follows it."
+   "answer": "It follows The Ectoplasmic Distiller, and A Portable Power Source comes next."
   }
  ],
  "angles": [],
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Hunting for Ectoplasm"
- ]
+ ],
+ "style": 2
 }

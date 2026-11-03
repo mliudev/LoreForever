@@ -21,11 +21,11 @@
    "Slake That Thirst"
   ]
  },
- "summary": "Chief Engineer Bilgewhizzle in Gadgetzan has more power sources and will sell you another one, at a price of ten Wastewander Water Pouches.",
+ "summary": "In Gadgetzan, Chief Engineer Bilgewhizzle offers you another power source for ten Wastewander Water Pouches.",
  "sections": [
   {
    "title": "A Costly Replacement",
-   "body": "Chief Engineer Bilgewhizzle guesses the first power source from Slake That Thirst ran out of time, or perhaps got lost in the sand. Whatever the reason, Bilgewhizzle has additional power sources to sell. This time the price is ten Wastewander Water Pouches, because times are tough all around and power sources do not grow on trees.",
+   "body": "Chief Engineer Bilgewhizzle believes the first power source ran out of time or was lost in the sand. Whatever happened, he has another one to sell you. Times are tough all around, so he asks for ten Wastewander Water Pouches.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "bilgewhizzle water pouches",
     "why water pouches"
    ],
-   "answer": "Bilgewhizzle sells another power source for ten Wastewander Water Pouches, saying times are tough all around."
+   "answer": "Chief Engineer Bilgewhizzle asks for ten Wastewander Water Pouches in exchange for another power source. Times are tough all around."
   },
   {
    "q": "Who offers this exchange?",
@@ -44,7 +44,7 @@
     "who starts another power source",
     "power source quest giver"
    ],
-   "answer": "Chief Engineer Bilgewhizzle, who has additional power sources to sell."
+   "answer": "Chief Engineer Bilgewhizzle offers the exchange and has more power sources to sell."
   },
   {
    "q": "What happened prior to needing another power source?",
@@ -52,7 +52,7 @@
     "prereq another power source",
     "previous quest power source"
    ],
-   "answer": "It follows Slake That Thirst, where you first obtained a power source for your kit."
+   "answer": "This follows Slake That Thirst, when you first obtained a power source for your kit."
   }
  ],
  "angles": [],
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Another Power Source?"
- ]
+ ],
+ "style": 2
 }

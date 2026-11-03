@@ -8,16 +8,16 @@
   "wiki": "Bloodmage Thalnos",
   "refs": 5
  },
- "summary": "Bloodmage Thalnos is a skeletal spellcaster who haunts the Graveyard wing of the Scarlet Monastery. Who he was in life is not recorded, but the plague of undeath claimed him, and he now lingers deep within the Crusade's holy grounds, hungering for vengeance.",
+ "summary": "In the Scarlet Monastery's Graveyard, Bloodmage Thalnos haunts the tombs, hungry for vengeance. The plague of undeath claimed him, and he remains deep within the Crusade's holy grounds.",
  "sections": [
   {
    "title": "A Mage Risen in Death",
-   "body": "No record tells who Thalnos was in life. Whatever his past, the plague of undeath claimed him. Rather than being cleansed or permanently destroyed, he rose as a withered skeleton, still clinging to his fiery magic and arcane mastery, and crying out for vengeance and for more souls.",
+   "body": "No record tells who Thalnos was in life. The plague of undeath claimed him, and he rose as a withered skeleton. Still, he clings to fiery magic and arcane mastery. He cries out for vengeance and more souls.",
    "spoiler": 0
   },
   {
    "title": "Master of the Graveyard",
-   "body": "Confined to the deepest corner of the monastery's courtyard tombs, Thalnos commands apparitions and shambling undead minions against anyone who disturbs his domain. His continued presence poses a bitter contradiction for the Crusade: an undead monstrosity lingering right beneath their sacred halls, embodying the very horror they swore an eternity to eradicate.",
+   "body": "From the deepest corner of the monastery's courtyard tombs, Thalnos commands apparitions and shambling undead minions. He attacks anyone who disturbs his domain. Beneath the Crusade's sacred halls, his presence is a bitter contradiction. He embodies the horror they swore to eradicate.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "thalnos lore",
     "bloodmage thalnos info"
    ],
-   "answer": "Thalnos is a skeletal spellcaster haunting the Monastery's graveyard. Who he was in life is not recorded; the plague of undeath claimed him, and he rose as an undead mage who still hungers for vengeance."
+   "answer": "Bloodmage Thalnos haunts the Scarlet Monastery's graveyard as a skeletal spellcaster. No record tells who he was in life; the plague of undeath claimed him, and he rose as an undead mage hungry for vengeance."
   },
   {
    "q": "Why is an undead skeleton allowed in the Scarlet Monastery?",
@@ -38,7 +38,7 @@
     "why does scarlet crusade keep thalnos",
     "scarlet crusade undead mage"
    ],
-   "answer": "The Crusade fanatically executes all undead on sight, making Thalnos's survival anomalous. Stowed away at the far end of the Graveyard amidst risen crypts and spirits, he prowls his own blighted domain rather than walking freely among the living crusaders."
+   "answer": "The Crusade executes undead on sight, yet Thalnos remains at the far end of the Graveyard among risen crypts and spirits. He prowls his own blighted domain rather than walking freely among the living crusaders."
   },
   {
    "q": "What powers does Thalnos wield?",
@@ -47,7 +47,7 @@
     "bloodmage thalnos magic",
     "what does thalnos do"
    ],
-   "answer": "Despite retaining the title of Bloodmage and rising as a skeleton, Thalnos commands fiery spells, shadow magic, and summons vengeful spirits and walking dead to overwhelm trespassers in the graveyard."
+   "answer": "Thalnos commands fiery spells and shadow magic. He also summons vengeful spirits and walking dead to overwhelm trespassers in the graveyard."
   },
   {
    "q": "Was Thalnos a blood elf?",
@@ -56,7 +56,7 @@
     "thalnos race",
     "what race was thalnos"
    ],
-   "answer": "His original mortal lineage is uncertain. The title Bloodmage alone does not establish that he was a blood elf."
+   "answer": "Thalnos's mortal lineage is uncertain. The title Bloodmage alone does not establish that he was a blood elf."
   },
   {
    "q": "Who wants Thalnos dead?",
@@ -65,21 +65,21 @@
     "who wants thalnos killed",
     "the dark side of the light thalnos"
    ],
-   "answer": "Thalnos is hostile to intruders in the monastery's graveyard. No specific commission to kill him is established here for this era."
+   "answer": "Thalnos is hostile to intruders in the monastery's graveyard. No specific commission to kill him is established for this era."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Thalnos shows how the plague can twist a gifted spellcaster into a vengeful thing that still wields fire and shadow."
+   "text": "As a mage, Thalnos shows how the plague can twist a gifted spellcaster into a vengeful being who still wields fire and shadow."
   },
   {
    "target": "faction:Horde",
-   "text": "The Forsaken see in Thalnos what they escaped: an undead mage with no will left but vengeance, lurking at the heart of the Scarlet Crusade's own monastery."
+   "text": "As a member of the Horde, you may see in Thalnos what the Forsaken escaped: an undead mage with no will left but vengeance, lurking in the heart of the Scarlet Crusade's monastery."
   },
   {
    "target": "class:Priest",
-   "text": "Standing amidst the tombs, Thalnos is an unsettling sign that all the Crusade's zeal has not kept darkness from its own holy ground."
+   "text": "As a priest, you see in Thalnos among the tombs an unsettling sign that the Crusade's zeal has not kept darkness from its holy ground."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Bloodmage Thalnos"
- ]
+ ],
+ "style": 2
 }

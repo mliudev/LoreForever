@@ -27,16 +27,16 @@
    "Stone of the Tides"
   ]
  },
- "summary": "Following discoveries regarding the Stone of the Tides, Baron Revilgaz seeks a way to counteract the artifact's curse. He sends adventurers back to the island to harvest bracers from conjured water elementals so their magical residue can be inspected by experts.",
+ "summary": "On the island off the coast, Water Elementals may offer a clue to the Stone of the Tides' curse. Baron Revilgaz wants their bracers examined for a way to counter it.",
  "sections": [
   {
    "title": "Curbing the Curse",
-   "body": "Believing the water elementals were summoned by the goblin wizard Gazban, Baron Revilgaz suspects their magical residue holds clues to dealing with the Stone of the Tides. The stone is said to curse anyone who wields it, causing the bearer to drift in and out of reality. To find a countermeasure, Revilgaz directs you back to the island off the coast to gather elemental bracers that might be scrutinized by the scholarly mages of Dalaran.",
+   "body": "Baron Revilgaz suspects the Water Elementals' magical residue may help fight the Stone of the Tides' curse. The stone is said to make anyone who wields it drift in and out of reality. So he sends you back to the island off the coast to gather bracers for the scholarly mages of Dalaran to examine.",
    "spoiler": 0
   },
   {
    "title": "Booty Bay's Master",
-   "body": "Upon receiving the bracers, Revilgaz admits he lacks the specialized expertise to tell whether any of them will be of use. Rather than travel to Dalaran himself\u2014he will not leave Booty Bay just to chat with tiresome old mages\u2014he sends you north to have a mage look at them.",
+   "body": "Baron Revilgaz admits he lacks the skill to judge whether the bracers can help. He refuses to leave Booty Bay just to speak with tiresome old mages. So he sends you north to have a mage examine them.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "baron revilgaz quest",
     "who wants bracers"
    ],
-   "answer": "Baron Revilgaz, leader of the Blackwater Raiders in Booty Bay, asks for the bracers to investigate the magic surrounding the Stone of the Tides."
+   "answer": "Baron Revilgaz, leader of the Blackwater Raiders in Booty Bay, wants the bracers examined for clues to the magic surrounding the Stone of the Tides."
   },
   {
    "q": "Why does Baron Revilgaz need elemental bracers?",
@@ -57,7 +57,7 @@
     "water elemental bracers purpose",
     "curse of the stone of the tides"
    ],
-   "answer": "He hopes that studying the magical residue on the bracers can reveal a method to counteract the curse of the Stone of the Tides, which causes its bearer to fade in and out of existence."
+   "answer": "Revilgaz hopes the bracers' magical residue will reveal how to counter the Stone of the Tides' curse. The curse makes its bearer fade in and out of existence."
   },
   {
    "q": "Who summoned these water elementals?",
@@ -66,7 +66,7 @@
     "gazban lore",
     "goblin wizard"
    ],
-   "answer": "Baron Revilgaz believes they were conjured by Gazban, a goblin wizard said to have found the Stone of the Tides."
+   "answer": "Baron Revilgaz believes Gazban, a goblin wizard said to have found the Stone of the Tides, conjured the Water Elementals."
   },
   {
    "q": "Where does this task lead next?",
@@ -75,7 +75,7 @@
     "next quest",
     "where do bracers go"
    ],
-   "answer": "Next comes Magical Analysis: Revilgaz sends the bracers north to Dalaran so a mage can examine their residue."
+   "answer": "Revilgaz sends the bracers north to Dalaran, where a mage can examine their residue."
   },
   {
    "q": "Why doesn't Revilgaz take the bracers to Dalaran himself?",
@@ -84,7 +84,7 @@
     "revilgaz dalaran",
     "why stay in booty bay"
    ],
-   "answer": "He has no wish to leave Booty Bay just to chat with tiresome old mages, and he insists he has nothing to fear from would-be rivals."
+   "answer": "Revilgaz refuses to leave Booty Bay just to speak with tiresome old mages. He insists he has nothing to fear from would-be rivals."
   }
  ],
  "angles": [],
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Water Elementals (Classic)"
- ]
+ ],
+ "style": 2
 }

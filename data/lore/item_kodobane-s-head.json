@@ -10,11 +10,11 @@
    "quest:850"
   ]
  },
- "summary": "Near the Forgotten Pools, Barak Kodobane's severed head proves the cunning chieftain's death. The orc warlord Regthar Deathgate receives it as proof that the centaur threat there has been broken.",
+ "summary": "Near the Forgotten Pools, Barak Kodobane's severed head proves the chieftain is dead. Regthar Deathgate receives it as proof that the centaur threat there has been broken.",
  "sections": [
   {
    "title": "A Trophy of War",
-   "body": "Kolkar bands in the Barrens have long been divided, but ambitious warlords now threaten to gather them into an army. Barak Kodobane made his camp by the lush waters of the Forgotten Pools, where the oasis offers vital resources and nearby paths lie open to raids. Regthar Deathgate, stationed in a bunker west of the Crossroads, demands Kodobane's severed head as proof that this commander can no longer rally his kin against the Horde.",
+   "body": "Kolkar bands in the Barrens have long been divided. Now ambitious warlords threaten to gather them into an army. Barak Kodobane camps by the waters of the Forgotten Pools, where the oasis offers vital resources and nearby paths lie open to raids. Regthar Deathgate is stationed in a bunker west of the Crossroads. He demands Kodobane's severed head to prove the commander can no longer rally his kin against the Horde.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is kodobane",
     "barak lore"
    ],
-   "answer": "Barak Kodobane was a prominent chieftain among the Kolkar centaur. Cunning and commanding where many of his kin were undisciplined, he organized warbands and camped around the Forgotten Pools to assert Kolkar dominance over the northern Barrens."
+   "answer": "Barak Kodobane is a prominent chieftain among the Kolkar centaur. Cunning and commanding where many of his kin are undisciplined, he organizes warbands and camps around the Forgotten Pools to assert Kolkar dominance over the northern Barrens."
   },
   {
    "q": "Why does Regthar Deathgate want his head?",
@@ -35,7 +35,7 @@
     "regthar deathgate head",
     "kodobane bounty"
    ],
-   "answer": "Regthar Deathgate is tasked with securing Horde territory in the Barrens. The centaur are usually fractious, so leaders with tactical vision are singled out. Regthar demands Kodobane's head to make certain the chieftain is dead, not merely displaced."
+   "answer": "Regthar Deathgate is tasked with securing Horde territory in the Barrens. The centaur are usually fractious, so leaders with tactical vision draw notice. Regthar demands Kodobane's head to make certain the chieftain is dead, not merely displaced."
   },
   {
    "q": "Where is Barak Kodobane found?",
@@ -90,5 +90,5 @@
   "Kodobane's Head",
   "Kolkar Leaders (Classic)"
  ],
- "style": 1
+ "style": 2
 }

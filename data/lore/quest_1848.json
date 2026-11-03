@@ -17,11 +17,11 @@
   "wiki": "Brutal Hauberk (quest)",
   "chain": []
  },
- "summary": "Across the Barrens, Horde warriors face a trial before Thun'grim Firegaze will forge their mail. They gather rare materials and prove themselves against dangerous foes across the lands, then bring their bounty to the reclusive smith. He hammers it into armor built for battle.",
+ "summary": "Across the Barrens, Horde warriors face a trial before Thun'grim Firegaze will forge their mail. They gather rare materials and face dangerous foes across the lands, then bring their bounty to the reclusive smith. He hammers it into armor built for battle.",
  "sections": [
   {
    "title": "A Smith's Masterpiece",
-   "body": "In the northern Barrens, Thun'grim Firegaze forges armor only for warriors who meet his demands. The reclusive orc sends them far and wide to gather tough beast parts, rare metal, and alchemical reagents before he lights his bellows. The finished hauberk offers protection and marks the endurance and grit its wearer has shown, earning recognition from veteran fighters throughout the Horde.",
+   "body": "In the northern Barrens, Thun'grim Firegaze, an orc, forges armor only for warriors who meet his demands. The reclusive smith sends them far and wide to gather tough beast parts, rare metal, and alchemical reagents before he lights his bellows. The finished hauberk protects its wearer and marks the endurance and grit they have shown. Veteran fighters throughout the Horde recognize that hard-won proof.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "brutal hauberk quest",
     "who makes brutal hauberk"
    ],
-   "answer": "The Brutal Hauberk is a sturdy chestpiece crafted by the orc blacksmith Thun'grim Firegaze. Horde warriors earn it by proving their combat prowess and gathering rare materials across several dangerous lands."
+   "answer": "The Brutal Hauberk is a sturdy chestpiece crafted by Thun'grim Firegaze, an orc blacksmith. Horde warriors earn it by proving their combat prowess and gathering rare materials across several dangerous lands."
   },
   {
    "q": "Who is Thun'grim Firegaze?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Brutal Hauberk (quest)"
  ],
- "style": 1
+ "style": 2
 }

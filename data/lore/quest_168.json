@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Tragic Collapse",
-   "body": "Before lawlessness and the Defias Brotherhood took hold in Moonbrook, Westfall's mines supported many working-class families. Wilder Thistlenettle survived a cave-in that buried one wing of the tunnels. Many of his friends and fellow miners died underground, beyond the reach of rescue. Their families in Stormwind never learned for certain what had become of them.",
+   "body": "Before the Defias Brotherhood brought lawlessness to Moonbrook, Westfall's mines supported many working-class families. Wilder Thistlenettle survived when a cave-in buried one wing of the tunnels. Many friends and fellow miners died underground, beyond the reach of rescue. Their families in Stormwind never learned for certain what became of them.",
    "spoiler": 0
   },
   {
    "title": "Restless Remains",
-   "body": "The miners who died in the collapse now wander the tunnels outside the main iron works as undead. You search those haunted passages for the Miners' Union Cards, facing the remains of the men Wilder worked beside. Bringing the cards back to Stormwind will tell their families what happened and let Wilder honor his fallen companions.",
+   "body": "The miners killed in the collapse now wander the tunnels outside the main iron works as undead. You search those haunted passages for their Miners' Union Cards and face the remains of the men Wilder worked beside. Bring the cards back to Stormwind so their families can learn what happened and Wilder can honor his fallen companions.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "who gives collecting memories"
    ],
-   "answer": "Wilder Thistlenettle is a dwarven miner in Stormwind City. He survived a cave-in beneath Westfall that killed his close coworkers, and seeks to bring confirmation and peace to their families."
+   "answer": "Wilder Thistlenettle is a dwarven miner in Stormwind City. He survived a cave-in beneath Westfall that killed his close coworkers. Now he seeks to bring confirmation and peace to their families."
   },
   {
    "q": "What happened to the miners in the Deadmines?",
@@ -55,7 +55,7 @@
     "what are the union cards for",
     "miners union cards"
    ],
-   "answer": "The Miners' Union Cards identify the workers who died in the collapse. Since their bodies were never recovered, Wilder wants to return the cards so their families in Stormwind can learn what happened."
+   "answer": "The Miners' Union Cards identify the workers who died in the collapse. Their bodies were never recovered, so Wilder wants to return the cards and let their families in Stormwind learn what happened."
   },
   {
    "q": "Where are the union cards found?",
@@ -72,7 +72,7 @@
     "did defias cause the cave in",
     "who collapsed the mine"
    ],
-   "answer": "Wilder remembers a terrible mining accident and cave-in. The Defias Brotherhood now rules the deep passages, but the collapse appears to have been an industrial accident that trapped the miners."
+   "answer": "Wilder remembers a terrible mining accident and cave-in. The Defias Brotherhood rules the deep passages now, but the collapse appears to have been an industrial accident that trapped the miners."
   },
   {
    "q": "Are the miners considered part of the Defias Brotherhood?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can help the grieving families of Westfall workers who endure hard times within Stormwind's walls."
+   "text": "As an Alliance member, you can help the grieving families of Westfall workers. They endure hard times within Stormwind's walls."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Collecting Memories"
  ],
- "style": 1
+ "style": 2
 }

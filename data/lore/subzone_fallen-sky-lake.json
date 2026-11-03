@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Fallen Sky Lake"
  },
- "summary": "In eastern Ashenvale, Fallen Sky Lake lies between Silverwing Outpost and the Warsong Labor Camp. Shadethickets defend its shores and central isle.",
+ "summary": "At Fallen Sky Lake, Shadethickets defend the shores and central isle between Silverwing Outpost and the Warsong Labor Camp.",
  "sections": [
   {
    "title": "A Contested Sanctuary",
-   "body": "Fallen Sky Lake lies south of Silverwing Outpost and west of the Warsong Labor Camp. Shadethickets, hulking bog beasts, roam its shores and the small isle at its center, treating intruders as threats. A powerful Shadethicket Oracle rules from the isle's heart. The Oracle hoards the fallen moonstones once gathered at the lake and keeps the shadethickets bound to the waters, ever watchful for travelers.",
+   "body": "South of Silverwing Outpost and west of the Warsong Labor Camp, Fallen Sky Lake draws you into contested waters. Hulking Shadethickets roam the shore and the small isle at its center, treating intruders as threats.\n\nA powerful Shadethicket Oracle rules from the isle's heart. The Oracle hoards the fallen moonstones once gathered here and keeps the shadethickets bound to the lake, watchful for travelers.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what is at fallen sky lake",
     "fallen sky lake enemies"
    ],
-   "answer": "Shadethickets, aggressive bog beasts, roam the lake and its banks. A Shadethicket Oracle leads them from the central isle."
+   "answer": "Aggressive Shadethickets roam Fallen Sky Lake and its banks. A Shadethicket Oracle leads them from the central isle."
   },
   {
    "q": "Why is the Shadethicket Oracle important?",
@@ -47,7 +47,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you know night elves once gathered moonstones at Fallen Sky Lake. Shadethicket bog beasts now claim its waters and make this quiet forest corner dangerous."
+   "text": "As a druid, you know night elves once gathered moonstones at Fallen Sky Lake. Shadethicket bog beasts now claim its waters, making this quiet forest corner dangerous."
   },
   {
    "target": "race:NightElf",
@@ -73,5 +73,5 @@
  "attribution": [
   "Fallen Sky Lake"
  ],
- "style": 1
+ "style": 2
 }

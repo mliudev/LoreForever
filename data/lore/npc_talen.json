@@ -8,11 +8,11 @@
   "wiki": "Talen",
   "refs": 2
  },
- "summary": "At his camp by the Zoram Strand, Talen searches for kaldorei relics along the coast. Nearby naga and Horde outposts make the work dangerous.",
+ "summary": "Along the Zoram Strand, Talen searches the coast for kaldorei relics. Nearby naga and Horde outposts make his work dangerous.",
  "sections": [
   {
    "title": "Scholar on the Coast",
-   "body": "At a camp beside the Zoram Strand, Talen studies the past instead of taking up arms. Naga and Horde outposts make the coast dangerous, but he keeps searching the ruins beneath the waves and sands for lost kaldorei relics. He depends on travelers to face the Wrathtail naga and recover artifacts, including pristine statuettes and the Ring of Zoram, held by their leader Ruuzel.",
+   "body": "At his camp beside the Zoram Strand, Talen studies the past rather than taking up arms. Naga and Horde outposts make the coast dangerous, yet he searches ruins beneath the waves and sands for lost kaldorei relics. He relies on travelers to face the Wrathtail naga and recover artifacts, including pristine statuettes and the Ring of Zoram, held by their leader Ruuzel.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "why is talen here",
     "talen purpose"
    ],
-   "answer": "Talen camps near the Zoram Strand to investigate its sunken ruins and recover ancient kaldorei artifacts. Violent naga roam the beach, and the Horde outpost of Zoram'gar lies nearby, so he stays in a small camp away from the main shoreline."
+   "answer": "Talen camps near the Zoram Strand to investigate its sunken ruins and recover ancient kaldorei artifacts. Violent naga roam the beach, and the Horde outpost of Zoram'gar lies nearby. So he stays in a small camp away from the main shoreline."
   },
   {
    "q": "What artifacts does Talen want?",
@@ -82,5 +82,5 @@
  "attribution": [
   "Talen"
  ],
- "style": 1
+ "style": 2
 }

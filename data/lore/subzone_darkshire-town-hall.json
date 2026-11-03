@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Darkshire Town Hall"
  },
- "summary": "Darkshire Town Hall anchors a town besieged by darkness and undead. Mayor Lord Ello Ebonlocke and his council govern from its dim halls.",
+ "summary": "In Darkshire Town Hall, the mayor and council govern a town besieged by darkness and undead. Its dim halls are the seat of their rule.",
  "sections": [
   {
    "title": "The Seat of Darkshire",
-   "body": "Darkshire Town Hall stands just west of the main square, where the town's leaders meet to govern an increasingly isolated territory. Mayor Lord Ello Ebonlocke struggles to keep order and protect the people while Stormwind sends little military aid. Clerk Daltry and other officials track town records and the travelers who brave Duskwood's dangerous roads. With danger all around, keeping those ledgers current is a grim task.",
+   "body": "Just west of Darkshire's main square, the Town Hall is where the town's leaders govern an increasingly isolated territory. Mayor Lord Ello Ebonlocke struggles to keep order and protect the people while Stormwind sends little military aid.\n\nClerk Daltry and other officials track town records and the travelers who brave Duskwood's dangerous roads. With danger all around, keeping those ledgers current is grim work.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who runs darkshire",
     "who is in the town hall"
    ],
-   "answer": "Lord Ello Ebonlocke leads Darkshire as its mayor and presides over the town council from the Town Hall. He directs local defenses and appeals to visiting adventurers for help, since the town receives almost no reinforcements from Stormwind."
+   "answer": "Lord Ello Ebonlocke leads Darkshire as its mayor and presides over the town council from the Town Hall. He directs local defenses and appeals to visiting adventurers for help, since Stormwind sends almost no reinforcements."
   },
   {
    "q": "What records are kept inside the Town Hall?",
@@ -32,7 +32,7 @@
     "what does daltry do",
     "town registry"
    ],
-   "answer": "Clerk Daltry keeps town registries of residents and travelers passing through Darkshire. Chaos and frequent dangers in Duskwood have left many of his records out of date."
+   "answer": "Clerk Daltry keeps town registries of residents and travelers passing through Darkshire. Chaos and frequent dangers in Duskwood have left many records out of date."
   },
   {
    "q": "Why is the Town Hall so important to Duskwood's survival?",
@@ -67,5 +67,5 @@
  "attribution": [
   "Darkshire Town Hall"
  ],
- "style": 1
+ "style": 2
 }

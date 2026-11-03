@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Northpass Tower"
  },
- "summary": "Northpass Tower is a ruined Lordaeron scout tower situated in the northern reaches of the Eastern Plaguelands along the road to Quel'Thalas. Shattered during the Third War, it still overlooks the northern road toward the elven lands.",
+ "summary": "Northpass Tower watches over the northern road to Quel'Thalas as a ruin. Shattered during the Third War, the old Lordaeron scout tower still looks toward the elven lands.",
  "sections": [
   {
    "title": "Northern Sentinel",
-   "body": "Built by the Kingdom of Lordaeron to guard the vital thoroughfare leading north into Quel'Thalas, Northpass Tower was reduced to a broken shell during the Scourge invasion. Despite its shattered stonework, the tower's elevated position retains immense tactical value, overlooking the blight-choked frontier between Stratholme's blighted outskirts and the distant elven lands.",
+   "body": "Northpass Tower once guarded Lordaeron's road north into Quel'Thalas. During the Scourge invasion, the tower was reduced to a broken shell. From its high ground, it still overlooks the frontier between Stratholme's blighted outskirts and the distant elven lands.",
    "spoiler": 0
   },
   {
    "title": "A Silent Watch",
-   "body": "No garrison mans the tower today. Its broken walls stand along a road now haunted by the Scourge, a reminder of the watch Lordaeron once kept over the route to Quel'Thalas.",
+   "body": "No garrison mans Northpass Tower today. Its broken walls stand beside the road, now haunted by the Scourge. The ruin marks the watch Lordaeron once kept over the route to Quel'Thalas.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "northpass history",
     "why was northpass tower built"
    ],
-   "answer": "It was originally erected as an observation post by the Kingdom of Lordaeron to monitor the northern road leading toward the elven kingdom of Quel'Thalas."
+   "answer": "The Kingdom of Lordaeron built Northpass Tower as an observation post to watch the northern road toward Quel'Thalas."
   },
   {
    "q": "Why is Northpass Tower in ruins?",
@@ -36,7 +36,7 @@
     "who destroyed northpass tower",
     "why is northpass tower broken"
    ],
-   "answer": "It was destroyed alongside the rest of Lordaeron's northern defenses during the Scourge invasion in the Third War, leaving behind only cracked masonry and scaffolding."
+   "answer": "The Scourge destroyed Northpass Tower with Lordaeron's northern defenses during the Third War. Cracked masonry and scaffolding remain."
   },
   {
    "q": "Does anyone hold Northpass Tower now?",
@@ -44,7 +44,7 @@
     "why fight over northpass",
     "who controls northpass tower"
    ],
-   "answer": "No. The tower was destroyed alongside Lordaeron's northern defenses during the Scourge invasion and now stands as an empty ruin along the road north."
+   "answer": "No one holds Northpass Tower now. The Scourge destroyed it with Lordaeron's northern defenses, leaving an empty ruin along the road north."
   },
   {
    "q": "Where does the road past Northpass Tower lead?",
@@ -52,17 +52,17 @@
     "road past northpass tower",
     "where does northern road go"
    ],
-   "answer": "The road heads north directly toward the Thalassian border and the southern territory of Quel'Thalas."
+   "answer": "The road past Northpass Tower heads north toward the Thalassian border and the southern territory of Quel'Thalas."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Northpass Tower is one of the fallen bastions of Lordaeron, a broken sentinel on the road to the elven lands."
+   "text": "As an Alliance traveler, you see one of Lordaeron's fallen bastions in Northpass Tower, a broken sentinel on the road to the elven lands."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, ruins like Northpass Tower show how thoroughly the Scourge broke the defenses of the northern kingdoms."
+   "text": "As a member of the Horde, you see in ruins like Northpass Tower how thoroughly the Scourge broke the northern kingdoms' defenses."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Northpass Tower"
- ]
+ ],
+ "style": 2
 }

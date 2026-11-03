@@ -10,11 +10,11 @@
    "quest:858"
   ]
  },
- "summary": "At Sludge Fen, the Ignition Key is held by Supervisor Lugwizzle at the Venture Company drilling operation. Wizzlecrank needs it to unlock an advanced shredder's movement column and activate its controls.",
+ "summary": "At Sludge Fen, Wizzlecrank waits for the Ignition Key to free a stolen shredder.",
  "sections": [
   {
    "title": "A Missing Piece of Espionage",
-   "body": "Sputtervalve of Ratchet sent an operative to steal a Venture Company shredder from Sludge Fen, but the plan stalled. The undercover pilot, Wizzlecrank, climbed into the cockpit and found the movement column locked. He pretended the machine had mechanical trouble so the foremen would not grow suspicious while he waited for someone to fetch the Ignition Key. Supervisor Lugwizzle keeps the key high atop the central oil derrick, where access to the shredder's arm, speed, and rotation controls is held.",
+   "body": "Wizzlecrank, Sputtervalve of Ratchet's operative, waits inside a Venture Company shredder at Sludge Fen. Sent to steal the machine, he found its movement column locked. So he feigned mechanical trouble while the foremen watched, hoping someone would fetch the Ignition Key.\n\nSupervisor Lugwizzle keeps the key atop the central oil derrick. It unlocks the shredder's movement column and gives Wizzlecrank control of its arm, speed, and rotation.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops ignition key",
     "how to get ignition key"
    ],
-   "answer": "Supervisor Lugwizzle keeps the Ignition Key in the control room atop the oil derrick in Sludge Fen, where he oversees the drilling work."
+   "answer": "Supervisor Lugwizzle keeps the Ignition Key in the control room atop the oil derrick at Sludge Fen, where he oversees the drilling work."
   },
   {
    "q": "Why does Wizzlecrank need this specific key?",
@@ -35,7 +35,7 @@
     "what does key do",
     "shredder key purpose"
    ],
-   "answer": "The advanced Venture Company shredder has a locked movement column. Without its ignition key, Wizzlecrank cannot control its rotation, speed, stability, or arm well enough to drive it away."
+   "answer": "The advanced Venture Company shredder has a locked movement column. Without the key, Wizzlecrank cannot control its rotation, speed, stability, or arm well enough to drive it away."
   },
   {
    "q": "Who wants the shredder stolen?",
@@ -53,13 +53,13 @@
     "the escape",
     "what next"
    ],
-   "answer": "With the key, Wizzlecrank unlocks the movement column and starts the shredder's engine. He must then race through Sludge Fen's hostile laborers to escape toward Ratchet."
+   "answer": "With the key, Wizzlecrank unlocks the movement column and starts the shredder's engine. Then he must race through Sludge Fen's hostile laborers to escape toward Ratchet."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The Ignition Key unlocks a shredder with advanced controls, including speed regulation and fine arm movement that outclass typical goblin designs."
+   "text": "The Ignition Key unlocks a shredder with advanced controls. Its speed regulation and fine arm movement outclass typical goblin designs."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Ignition Key",
   "Ignition (Classic)"
  ],
- "style": 1
+ "style": 2
 }

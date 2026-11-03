@@ -8,16 +8,16 @@
   "wiki": "Jorah Annison",
   "refs": 3
  },
- "summary": "In the Magic Quarter, Jorah Annison helps spellcasters find knowledge scattered across Azeroth. The Forsaken cartographer knows both the land and the ancient texts warlocks seek.",
+ "summary": "In the Undercity's Magic Quarter, Jorah Annison guides warlocks seeking ancient knowledge. The Forsaken cartographer knows both the land and the old texts they seek.",
  "sections": [
   {
    "title": "A Scholar of Darkened Lands",
-   "body": "Jorah Annison makes maps in the Undercity's Magic Quarter, but the work does not hold his interest. He would trade every map in the shop for one good book. Jorah knows more about ancient texts than almost anyone, and warlocks share his taste for a scholar's work.",
+   "body": "Jorah Annison makes maps in the Undercity's Magic Quarter, though the work does little to hold his interest. He would trade every map in the shop for one good book. Few know more about ancient texts, and warlocks share his taste for a scholar's work.",
    "spoiler": 0
   },
   {
    "title": "The Cabal's Trail",
-   "body": "Warlocks seeking the elusive Tome of the Cabal are often sent to Jorah Annison. His knowledge reaches beyond the ruins of Lordaeron, and he can point them toward places where ancient texts and remnants of dark sects might be found. He joins the study of old lore to the geography of distant lands.",
+   "body": "Warlocks seeking the elusive Tome of the Cabal are often sent to Jorah Annison. His knowledge reaches beyond the ruins of Lordaeron, and he can point them toward places where ancient texts and remnants of dark sects may be found. He joins the study of old lore to the geography of distant lands.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is jorah",
     "undercity cartographer"
    ],
-   "answer": "Jorah Annison is an undead cartographer in the Undercity's Magic Quarter, where he helps Horde travelers with geography and knowledge of historical places."
+   "answer": "Jorah Annison is an undead cartographer in the Undercity's Magic Quarter. He helps Horde travelers learn the geography and history of distant places."
   },
   {
    "q": "Where can I find Jorah Annison?",
@@ -47,7 +47,7 @@
     "tome of the cabal jorah",
     "why talk to jorah"
    ],
-   "answer": "Strahad Farsan sends warlocks seeking the ancient Tome of the Cabal to Jorah because Jorah knows more about ancient texts than anyone Strahad knows. Jorah points them toward the tome's lost halves, rumored to be with the centaur of Thousand Needles and lost in transit on the coast west of Southshore."
+   "answer": "Strahad Farsan sends warlocks seeking the ancient Tome of the Cabal to Jorah, whose knowledge of ancient texts exceeds that of anyone Strahad knows. Jorah points them toward the tome's lost halves, rumored to be with the centaur of Thousand Needles and lost in transit on the coast west of Southshore."
   },
   {
    "q": "What faction does Jorah Annison belong to?",
@@ -55,7 +55,7 @@
     "is jorah horde",
     "jorah annison faction"
    ],
-   "answer": "Jorah Annison belongs to the Forsaken and is loyal to the Horde, serving his people from their capital city."
+   "answer": "Jorah Annison belongs to the Forsaken and is loyal to the Horde. He serves his people from their capital city."
   },
   {
    "q": "Does Jorah Annison sell maps directly to players?",
@@ -71,7 +71,7 @@
     "jorah in barrens",
     "jorah outside undercity"
    ],
-   "answer": "Jorah Annison remains in the Undercity's Magic Quarter, though his mapmaking and guidance concern distant places such as the Barrens."
+   "answer": "Jorah Annison remains in the Undercity's Magic Quarter. His mapmaking and guidance concern distant places such as the Barrens."
   }
  ],
  "angles": [
@@ -81,11 +81,11 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you share Jorah's home in the Undercity, where his cartography helps serve the survival of the Forsaken."
+   "text": "As an undead, you share Jorah's home in the Undercity. His cartography helps the Forsaken survive."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can draw on Jorah's mapmaking knowledge to navigate unfamiliar lands and recover valuable relics."
+   "text": "As a member of the Horde, you can use Jorah's mapmaking knowledge to navigate unfamiliar lands and recover valuable relics."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Jorah Annison"
  ],
- "style": 1
+ "style": 2
 }

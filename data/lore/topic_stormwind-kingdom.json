@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Stormwind (kingdom)"
  },
- "summary": "The Kingdom of Stormwind is the southernmost and currently foremost human realm on Azeroth, holding dominion over Elwynn Forest, Westfall, Duskwood, and the Redridge Mountains. Sacked and shattered during the First War, it was rebuilt through blood and labor after the Second, rising to become the military and cultural center of the Alliance following the tragic collapse of Lordaeron in the north. Today, the kingdom stands beset from within and without, ruled by the ten-year-old King Anduin Wrynn under the watchful guidance of Highlord Bolvar Fordragon while its crowned monarch remains missing.",
+ "summary": "In the years after Lordaeron fell, Stormwind is the Alliance's foremost power and humanity's greatest remaining bastion. Its southern lands include Elwynn Forest, Westfall, Duskwood, and the Redridge Mountains. Sacked in the First War and rebuilt after the Second, the kingdom now has a ten-year-old king, Anduin Wrynn, while Highlord Bolvar Fordragon guides its affairs amid troubles at home and beyond its borders.",
  "sections": [
   {
    "title": "A Legacy of Defiance",
-   "body": "Stormwind was established over a thousand years ago by descendants of the ancient Arathi empire who ventured south beyond the crags of Khaz Modan into fertile, forested valleys. Far from the northern kingdoms, the realm grew into a culture fiercely proud of its self-reliance and the Light.",
+   "body": "Stormwind began more than a thousand years ago, founded by descendants of the ancient Arathi empire. They traveled south beyond the crags of Khaz Modan into fertile, forested valleys. Far from the northern kingdoms, Stormwind grew proud of its self-reliance and its faith in the Light.",
    "spoiler": 0
   },
   {
    "title": "Ashes and Restoration",
-   "body": "That independence was nearly extinguished when the Orcish Horde poured through the Dark Portal. Stormwind City burned to ash in the First War, its King Llane slain. The surviving populace fled north across the Great Sea led by Sir Anduin Lothar, rallying the northern realms into the Alliance of Lordaeron. Once the Orcish threat was crushed in the Second War, refugees returned home, hiring the Stonemasons Guild to rebuild their magnificent capital of white stone and blue banners. When the Scourge wiped out Lordaeron during the Third War, Stormwind became humanity's greatest remaining bastion.",
+   "body": "The Orcish Horde came through the Dark Portal, and Stormwind's independence neared its end. In the First War, Stormwind City burned to ash and King Llane was slain. Sir Anduin Lothar led the survivors north across the Great Sea, where he rallied the northern realms into the Alliance of Lordaeron.\n\nAfter the Orcish threat was crushed in the Second War, refugees returned. They hired the Stonemasons Guild to rebuild their capital with white stone and blue banners. Then the Scourge wiped out Lordaeron during the Third War, leaving Stormwind humanity's greatest remaining bastion.",
    "spoiler": 0
   },
   {
    "title": "A Fractured Realm",
-   "body": "Beneath its soaring towers, Stormwind struggles to govern its vast southern holdings. While Elwynn Forest remains relatively secure, neighboring regions like Westfall are swarming with outlaws, Redridge faces constant orc and gnoll incursions, and the darkened woods of Duskwood have fallen out of the realm's control. A bitter dispute between the House of Nobles and the Stonemasons sparked violent riots in the capital, scattering displaced workers into open rebellion across the provinces.",
+   "body": "Stormwind struggles to govern its vast southern holdings. Elwynn Forest remains relatively secure, but outlaws swarm through Westfall, while orcs and gnolls repeatedly enter Redridge. Duskwood's darkened woods have slipped from the kingdom's control.\n\nA bitter dispute between the House of Nobles and the Stonemasons erupted into violent riots in the capital. Displaced workers took up open rebellion across the provinces.",
    "spoiler": 1
   },
   {
    "title": "The Hollow Throne",
-   "body": "The kingdom's instability deepened with the sudden, quiet disappearance of King Varian Wrynn while sailing to a diplomatic summit with the Horde at Theramore. To preserve fragile public order, the crown was placed on his ten-year-old son, Anduin Wrynn, with Highlord Bolvar Fordragon named Lord Regent. Yet royal authority is divided and stalled: the House of Nobles, guided closely by the enigmatic Lady Katrana Prestor, repeatedly vetoes military deployments, leaving local towns to fend for themselves while dangerous secrets fester within Stormwind Keep.",
+   "body": "King Varian Wrynn disappeared while sailing to a diplomatic summit with the Horde at Theramore. His ten-year-old son, Anduin Wrynn, inherited the crown, and Highlord Bolvar Fordragon became Lord Regent to preserve fragile public order.\n\nRoyal authority remains divided and stalled. Guided closely by the enigmatic Lady Katrana Prestor, the House of Nobles repeatedly vetoes military deployments. Local towns must defend themselves as dangerous secrets fester within Stormwind Keep.",
    "spoiler": 2
   }
  ],
@@ -39,7 +39,7 @@
     "who runs stormwind",
     "king of stormwind"
    ],
-   "answer": "Formally, the crown belongs to King Anduin Wrynn, who took the throne as a ten-year-old child. Because he is a minor, real governmental authority is wielded by Highlord Bolvar Fordragon as Lord Regent, with heavy legislative counsel and oversight from Lady Katrana Prestor and the House of Nobles."
+   "answer": "King Anduin Wrynn holds Stormwind's crown, while Highlord Bolvar Fordragon governs as Lord Regent because the king is a child. Lady Katrana Prestor and the House of Nobles provide heavy counsel and oversight."
   },
   {
    "q": "What happened to King Varian Wrynn?",
@@ -49,7 +49,7 @@
     "what happened to the king",
     "varian wrynn backstory"
    ],
-   "answer": "King Varian departed Stormwind on a confidential diplomatic voyage to Theramore to negotiate peaceful relations with the Horde. He vanished under mysterious circumstances along the way. His fate remains a guarded state secret to keep the kingdom's populace and external rivals from descending into chaos."
+   "answer": "King Varian Wrynn left Stormwind on a confidential diplomatic voyage to Theramore to negotiate peaceful relations with the Horde. He vanished along the way, and his fate remains a guarded state secret, kept from the kingdom's people and external rivals to prevent chaos."
   },
   {
    "q": "Why was Stormwind destroyed in the past?",
@@ -59,7 +59,7 @@
     "when did stormwind burn",
     "stormwind destroyed"
    ],
-   "answer": "Stormwind was the first human nation encountered when the Orcish Horde invaded through the Dark Portal in the First War. Despite a stubborn defense led by King Llane and Sir Anduin Lothar, the city was breached, sacked, and razed, forcing the surviving population to evacuate north by sea to Lordaeron."
+   "answer": "The Orcish Horde first encountered a human nation when it invaded Stormwind through the Dark Portal in the First War. King Llane and Sir Anduin Lothar led a stubborn defense, but the city was breached, sacked, and razed. The survivors fled north by sea to Lordaeron."
   },
   {
    "q": "Why are Westfall, Redridge, and Duskwood lacking royal soldiers?",
@@ -69,7 +69,7 @@
     "abandoned towns",
     "outlying towns undefended"
    ],
-   "answer": "The royal military is stretched thin and paralyzed by court politics. Lady Katrana Prestor and the House of Nobles frequently block requests to send garrisons outside Elwynn Forest, arguing that capital funds and defense forces cannot be wasted policing peripheral lands, leaving militias like the People's Militia and the Night Watch to fight alone."
+   "answer": "Court politics and a stretched royal military leave Westfall, Redridge, and Duskwood without royal soldiers. Lady Katrana Prestor and the House of Nobles often block requests for garrisons beyond Elwynn Forest, arguing that capital funds and forces cannot be spent policing peripheral lands. The People's Militia and the Night Watch are left to fight alone."
   },
   {
    "q": "What territory does the Kingdom of Stormwind claim?",
@@ -78,7 +78,7 @@
     "stormwind lands",
     "what lands are stormwind"
    ],
-   "answer": "Historically, Stormwind rules the southern continent of Azeroth, encompassing Elwynn Forest, the Redridge Mountains, Westfall, and Duskwood. It also previously maintained frontier posts reaching south into northern Stranglethorn Vale."
+   "answer": "Stormwind claims Elwynn Forest, the Redridge Mountains, Westfall, and Duskwood on Azeroth's southern continent. It once maintained frontier posts reaching south into northern Stranglethorn Vale."
   },
   {
    "q": "Why did the Stonemasons turn against Stormwind?",
@@ -88,25 +88,25 @@
     "defias backstory",
     "why did builders rebel"
    ],
-   "answer": "After rebuilding Stormwind City into a masterpiece of white stone, the Stonemasons Guild presented their invoice. Influenced by noble politics, the House of Nobles refused full payment, while the stonemasons refused to compromise. The ensuing city riots drove the guild out to become the outlaw Defias Brotherhood."
+   "answer": "After rebuilding Stormwind City in white stone, the Stonemasons Guild presented its invoice. Influenced by noble politics, the House of Nobles refused full payment, and the stonemasons would not compromise. Riots followed, driving the guild out to become the outlaw Defias Brotherhood."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Stormwind is humanity's beating heart and final sovereign stronghold after the ruin of Lordaeron, Alterac, and Dalaran in the north."
+   "text": "As a human, you stand with Stormwind, humanity's beating heart and last sovereign stronghold after Lordaeron, Alterac, and Dalaran fell in the north."
   },
   {
    "target": "faction:Alliance",
-   "text": "As the primary military and economic anchor of the modern Alliance, Stormwind provides shelter, leadership, and resources to dwarven, gnomish, and night elven allies."
+   "text": "As an Alliance member, you look to Stormwind as the Alliance's main military and economic anchor. It offers shelter, leadership, and resources to its dwarven, gnomish, and night elven allies."
   },
   {
    "target": "class:Paladin",
-   "text": "The kingdom honors the ancient holy traditions of the Church of the Holy Light and the legacy of the Silver Hand, housing consecrated orders within the Cathedral of Light."
+   "text": "As a paladin, you follow the ancient holy traditions of the Church of the Holy Light and the legacy of the Silver Hand. The Cathedral of Light houses consecrated orders."
   },
   {
    "target": "class:Rogue",
-   "text": "Stormwind's bitter domestic strife and the shadow of the Defias uprising have filled its back alleys, sewers, and countryside with opportunistic cutpurses and political spies."
+   "text": "As a rogue, you know Stormwind's bitter domestic strife and the Defias uprising have filled its back alleys, sewers, and countryside with opportunistic cutpurses and political spies."
   }
  ],
  "keywords": [
@@ -134,5 +134,6 @@
  ],
  "attribution": [
   "Stormwind (kingdom)"
- ]
+ ],
+ "style": 2
 }

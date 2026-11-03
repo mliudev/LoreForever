@@ -17,21 +17,21 @@
   "wiki": "Ogre Thieves (Classic)",
   "chain": []
  },
- "summary": "In western Duskwood, Abercrombie sends travelers to the ogre stronghold at Vul'Gol Ogre Mound. He says the ogres ambushed him while he foraged and took a crate of irreplaceable herbs and tools.",
+ "summary": "In western Duskwood, Abercrombie sends travelers to the ogres’ stronghold at Vul'Gol Ogre Mound. He says they ambushed him while he foraged and took a crate of irreplaceable herbs and tools.",
  "sections": [
   {
    "title": "A Hermit's Lost Goods",
-   "body": "Abercrombie, an aged hermit on the damp roads of western Duskwood, says he was attacked while gathering supplies. Brutes from the southern ogre mound drove him off, and he left behind a sturdy wooden crate packed with precious herbs and delicate instruments.",
+   "body": "On the damp roads of western Duskwood, Abercrombie says he was attacked while gathering supplies. Brutes from the southern ogre mound drove the aged hermit off. He left behind a sturdy wooden crate filled with precious herbs and delicate instruments.",
    "spoiler": 0
   },
   {
    "title": "The Vul'Gol Threat",
-   "body": "The Vul'Gol Ogre Mound lies in southern Duskwood, where hostile ogres harass unwary wanderers. Abercrombie's crate rests right near the entrance, among roaring brutes and spell-weaving magi.",
+   "body": "In southern Duskwood, Vul'Gol Ogre Mound is a danger to unwary wanderers. Hostile ogres harass travelers there, and Abercrombie's crate rests near the entrance among roaring brutes and spell-weaving magi.",
    "spoiler": 0
   },
   {
    "title": "A Slip of the Tongue",
-   "body": "When Abercrombie gets his goods back, his eccentric manner gives way to manic excitement. He nearly shouts praise to 'the Nec—' before catching himself and thanking you instead. Then he eagerly shuts himself away to put his recovered supplies to use in the dark.",
+   "body": "When Abercrombie gets his goods back, his eccentric manner gives way to manic excitement. He nearly shouts praise to 'the Nec—' before catching himself and thanking you instead. Then he eagerly shuts himself away in the dark to put his recovered supplies to use.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who gave me this quest",
     "who is the hermit"
    ],
-   "answer": "Abercrombie is an eccentric hermit in a worn shack in western Duskwood. He acts frail and helpless, and seems to need assistance, though his frantic behavior and strange requests hint at darker motives."
+   "answer": "Abercrombie is an eccentric hermit in a worn shack in western Duskwood. He acts frail and helpless and seems to need assistance, though his frantic behavior and strange requests hint at darker motives."
   },
   {
    "q": "Where did the ogres take Abercrombie's crate?",
@@ -61,7 +61,7 @@
     "vul'gol ogres origin",
     "why ogres here"
    ],
-   "answer": "The ogres of the Vul'Gol clan carved out a foothold in Duskwood's rugged southern hills. Aggressive and opportunistic, they raid passersby, ambush solitary wanderers, and hoard stolen plunder around their mound."
+   "answer": "The aggressive and opportunistic ogres of the Vul'Gol clan carved out a foothold in Duskwood's rugged southern hills. They raid passersby, ambush solitary wanderers, and hoard stolen plunder around their mound."
   },
   {
    "q": "What is actually inside the crate?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Ogre Thieves (Classic)"
  ],
- "style": 1
+ "style": 2
 }

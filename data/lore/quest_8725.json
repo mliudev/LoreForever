@@ -17,16 +17,16 @@
   "wiki": "Riversong the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, pilgrims seek Riversong the Elder beneath a shrine in Astranaar. The night elf spirit offers wisdom and points them toward other honored ancestors across Kalimdor.",
+ "summary": "Beneath a shrine in Astranaar, Riversong the Elder receives pilgrims during the Lunar Festival. The night elf spirit offers wisdom and points them toward honored ancestors across Kalimdor.",
  "sections": [
   {
    "title": "A Beacon in Astranaar",
-   "body": "In Astranaar, Riversong the Elder waits beneath an open night elf shrine. A shaft of light falls through the Ashenvale canopy onto her spirit. During the Lunar Festival, pilgrims gather there to honor those who came before.",
+   "body": "In Astranaar, an open night elf shrine shelters Riversong the Elder. Light falls through the Ashenvale canopy onto her spirit. During the Lunar Festival, pilgrims gather there to honor those who came before.",
    "spoiler": 0
   },
   {
    "title": "Gazing at the Heavens",
-   "body": "Riversong the Elder recalls how night elves read truth and mystery in the stars. She urges patience and contemplation, then guides pilgrims toward other spirits, including Elder Starweave.",
+   "body": "Riversong the Elder recalls how night elves seek truth and mystery among the stars. She urges patience and contemplation, then guides pilgrims toward other spirits, including Elder Starweave.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is riversong",
     "elder riversong loc"
    ],
-   "answer": "You can find Riversong the Elder beneath a small night elf shrine in Astranaar, Ashenvale. A beam of light falls through the forest canopy onto her."
+   "answer": "Riversong the Elder waits beneath a small night elf shrine in Astranaar, Ashenvale. A beam of light falls through the forest canopy onto her."
   },
   {
    "q": "What is the purpose of visiting Elder Riversong?",
@@ -46,7 +46,7 @@
     "why visit riversong",
     "what does riversong do"
    ],
-   "answer": "Pilgrims honor Riversong the Elder during the Lunar Festival to pay respect to their ancestors. She grants an ancestral blessing and coins of ancestry, and guides them toward other elders across Kalimdor."
+   "answer": "During the Lunar Festival, pilgrims honor Riversong the Elder and pay respect to their ancestors. She grants an ancestral blessing and coins of ancestry, then guides them toward other elders across Kalimdor."
   },
   {
    "q": "Which elder does Riversong direct you toward?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Riversong the Elder"
  ],
- "style": 1
+ "style": 2
 }

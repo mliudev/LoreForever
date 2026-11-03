@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Aldrassil"
  },
- "summary": "Young kaldorei gather beneath Aldrassil’s vast boughs in Shadowglen. The settlement shelters trainers, merchants, and local leaders in hollows carved through the great tree.",
+ "summary": "Young kaldorei gather beneath Aldrassil’s vast boughs in Shadowglen. Its hollowed trunk shelters trainers, merchants, and local leaders.",
  "sections": [
   {
    "title": "Heart of Shadowglen",
-   "body": "Aldrassil shelters young night elves in Shadowglen. Ramps wind through its immense trunk, passing trainers and artisans on the way to the high roost. Tenaron Stormgrip watches over the glade’s protection from there. Beyond the tree, Teldrassil stretches across the horizon, while novices learn their arts beneath Aldrassil’s canopy before venturing into Kalimdor’s troubled wilds.",
+   "body": "Aldrassil shelters young night elves in Shadowglen. Ramps wind through its immense trunk, past trainers and artisans, and climb to the high roost. Tenaron Stormgrip watches over the glade’s protection from there. Beyond the tree, Teldrassil stretches across the horizon. Beneath Aldrassil’s canopy, novices learn their arts before venturing into Kalimdor’s troubled wilds.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is aldrassil",
     "shadowglen big tree"
    ],
-   "answer": "Aldrassil shelters young night elves at the heart of Shadowglen, in northeastern Teldrassil. Its hollowed trunk holds a settlement where they find training, goods, and guidance."
+   "answer": "In northeastern Teldrassil, Aldrassil shelters young night elves at the heart of Shadowglen. Its hollowed trunk holds a settlement where they find training, goods, and guidance."
   },
   {
    "q": "Who leads the settlement at Aldrassil?",
@@ -41,13 +41,13 @@
     "vendors aldrassil",
     "what is in aldrassil"
    ],
-   "answer": "Aldrassil’s trainers teach young night elf warriors, rogues, druids, hunters, and priests. Supply merchants and armorers also serve the glade’s immediate needs."
+   "answer": "Aldrassil’s trainers teach young night elf warriors, rogues, druids, hunters, and priests. Supply merchants and armorers meet the glade’s immediate needs."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For many young kaldorei, Aldrassil’s carved hollows and ramps are their first memory of civic life and the start of their training."
+   "text": "For many young kaldorei, Aldrassil’s carved hollows and ramps mark their first memory of civic life and the start of their training."
   },
   {
    "target": "class:Druid",
@@ -72,5 +72,5 @@
  "attribution": [
   "Aldrassil"
  ],
- "style": 1
+ "style": 2
 }

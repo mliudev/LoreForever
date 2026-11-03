@@ -27,16 +27,16 @@
    "Fate of Yenniku"
   ]
  },
- "summary": "Kin'weelay seeks a way to rescue young Yenniku from the darkness that has claimed him. Following the revelation of Yenniku's plight, the witch doctor plans to locate a legendary jewel known as the Mind's Eye, sending you to gather resonance shards needed to master its power.",
+ "summary": "Kin'weelay seeks a way to free Yenniku from the darkness holding him. He turns to the Mind's Eye and asks you to gather shards that may help him command its power.",
  "sections": [
   {
    "title": "Echoes of the Mind's Eye",
-   "body": "After learning the grim fate that befell Yenniku, the medicine man Kin'weelay turns to ancient jungle lore for an answer. Tales speak of the Mind's Eye, a gem hidden within the depths of Stranglethorn that possesses immense magical strength. Kin'weelay believes this stone could hold the secret to freeing the young troll's spirit. While he communally seeks the guidance of the jungle spirits to pinpoint its location, he needs rare catalysts to safely command the jewel's potent sorcery.",
+   "body": "Kin'weelay searches old jungle lore for a way to free Yenniku's spirit. The tales speak of the Mind's Eye, a gem hidden deep in Stranglethorn and mighty in magic. Kin'weelay believes it may hold the answer. As he seeks the jungle spirits' guidance to find it, he needs rare catalysts to control its sorcery safely.",
    "spoiler": 0
   },
   {
    "title": "The Crystalvein Caverns",
-   "body": "Kin'weelay directs you southeast toward Crystalvein Mine, where ironjaw basilisks dwell beneath the earth. From these creatures, you are to recover three pulsing blue shards. Kin'weelay intends to channel the inherent magic of these singing stones in a concluding ritual, bending the raw might of the Mind's Eye to his command once the gem is recovered.",
+   "body": "Kin'weelay sends you southeast to Crystalvein Mine, where ironjaw basilisks dwell beneath the earth. He asks you to recover three pulsing blue shards from them. He plans to channel the magic in these singing stones during a final ritual. Once he has recovered the Mind's Eye, he means to bend its power to his will.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "quest giver",
     "where to start the singing crystals"
    ],
-   "answer": "Kin'weelay, a troll medicine man stationed at Grom'gol Base Camp in Stranglethorn Vale, gives this assignment."
+   "answer": "Kin'weelay, a troll medicine man at Grom'gol Base Camp in Stranglethorn Vale, offers this work."
   },
   {
    "q": "Why are the pulsing blue shards needed?",
@@ -57,7 +57,7 @@
     "what are the shards for",
     "pulsing blue shard purpose"
    ],
-   "answer": "Kin'weelay requires their magic to control the Mind's Eye, a powerful jewel he intends to use to pull Yenniku back from the dark forces that hold him."
+   "answer": "Kin'weelay needs the shards' magic to control the Mind's Eye. He hopes to use the powerful jewel to pull Yenniku back from the dark forces holding him."
   },
   {
    "q": "Where can the ironjaw basilisks be found?",
@@ -66,7 +66,7 @@
     "where are ironjaw basilisks",
     "where is crystalvein mine"
    ],
-   "answer": "They dwell inside Crystalvein Mine, located southeast of Grom'gol Base Camp up in the peaks to the east of the Gurubashi Arena."
+   "answer": "Ironjaw basilisks live inside Crystalvein Mine, southeast of Grom'gol Base Camp in the peaks east of the Gurubashi Arena."
   },
   {
    "q": "What came before this task?",
@@ -74,7 +74,7 @@
     "singing crystals prequest",
     "previous quest"
    ],
-   "answer": "This follows The Fate of Yenniku, which established the young troll's dire circumstances."
+   "answer": "The Fate of Yenniku came first and revealed the young troll's dire circumstances."
   },
   {
    "q": "What is Kin'weelay doing while you gather the shards?",
@@ -82,13 +82,13 @@
     "what is kinweelay doing",
     "kinweelay role"
    ],
-   "answer": "He communes with the spirits of the jungle to uncover the exact hiding place of the Mind's Eye and find out what protects it."
+   "answer": "Kin'weelay communes with the jungle spirits to find where the Mind's Eye is hidden and learn what protects it."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This effort aids the Darkspear tribe at Grom'gol Base Camp in their desperate struggle to recover the lost son of the Darkspear chief."
+   "text": "As a member of the Horde, you aid the Darkspear tribe at Grom'gol Base Camp as they struggle to recover the lost son of their chief."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "The Singing Crystals"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:6571"
   ]
  },
- "summary": "Warsong Saw Blades keep the Horde's lumber machinery cutting in Ashenvale. The Warsong Clan relies on goblin-made machines for its logging, and these blades supply its clear-cutting work.",
+ "summary": "At the Warsong Lumber Camp, saw blades keep the Horde's logging machines cutting in Ashenvale. The Warsong Clan depends on goblin-made machinery to harvest lumber across the forest.",
  "sections": [
   {
    "title": "Industrial Forestry",
-   "body": "In Ashenvale, the Warsong Clan's logging depends on heavy machinery supplied and maintained by goblin engineers. Axes alone cannot meet the Horde's demand for Kalimdor lumber, so steam engines and circular saws cut through raw timber. Ashenvale's ancient hardwood quickly dulls and breaks ordinary blades. Replacement saw blades must keep arriving for the mills at the Warsong Lumber Camp to keep running.",
+   "body": "In Ashenvale, the Warsong Clan depends on heavy machinery supplied and maintained by goblin engineers. Axes cannot meet the Horde's demand for Kalimdor lumber, so steam engines and circular saws cut the timber. Ashenvale's ancient hardwood quickly dulls and breaks ordinary blades. Fresh saw blades must reach the mills at the Warsong Lumber Camp to keep them running.",
    "spoiler": 0
   },
   {
    "title": "Securing the Shipment",
-   "body": "Getting mechanical parts through disputed territory brings constant trouble. Hostile furbolgs and satyrs often intercept other logging supplies, while goblin contacts such as Pixel at Splintertree Post handle the saw blade shipments. Lumber master Locke Okarr gathers the blades with rope, oil, and axes to keep the camp operating despite sabotage from Ashenvale's defenders.",
+   "body": "Parts must cross disputed territory, where hostile furbolgs and satyrs often intercept logging supplies. Goblin contacts such as Pixel at Splintertree Post handle the saw blade shipments. Lumber master Locke Okarr gathers blades with rope, oil, and axes, keeping the camp operating despite sabotage from Ashenvale's defenders.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "warsong logging demand",
     "why need saws"
    ],
-   "answer": "Ashenvale's dense, ancient trees quickly wear down cutting edges. The Horde needs great quantities of timber to build settlements across the arid plains of Durotar and the Barrens, and constant logging wears out machinery faster than local smiths can reforge it."
+   "answer": "Ashenvale's dense, ancient trees quickly wear down cutting edges. The Horde needs great quantities of timber to build settlements across the arid plains of Durotar and the Barrens. Constant logging wears out machinery faster than local smiths can reforge it."
   },
   {
    "q": "Who is collecting the logging supplies?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde's expansion into central Kalimdor depends on Ashenvale timber, so keeping Warsong milling equipment in repair is a strategic priority."
+   "text": "The Horde's expansion into central Kalimdor depends on Ashenvale timber. Keeping Warsong milling equipment in repair is a strategic priority."
   },
   {
    "target": "race:NightElf",
@@ -93,5 +93,5 @@
   "Warsong Saw Blades",
   "Warsong Supplies (quest)"
  ],
- "style": 1
+ "style": 2
 }

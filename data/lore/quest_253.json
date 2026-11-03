@@ -17,21 +17,21 @@
   "wiki": "Bride of the Embalmer",
   "chain": []
  },
- "summary": "In Darkshire, Lord Ello Ebonlocke sends you to find Eliza's grave. The town has learned that the Embalmer is real, and you are to take his living heart from her cursed remains to strip him of his power.",
+ "summary": "In Darkshire, Lord Ello Ebonlocke sends you to find Eliza's grave. The town now knows the Embalmer is real, and you are to take his living heart from her cursed remains and strip him of his power.",
  "sections": [
   {
    "title": "A Bedtime Story Come Alive",
-   "body": "Duskwood's children grew up hearing a tale of the Embalmer. He was said to be a kindly alchemist, driven mad when his beloved wife, Eliza, died. Desperate to cheat death, he turned to sorcery, cut out his own beating heart, and placed it in her chest. Lord Ello Ebonlocke once dismissed the story as village folklore. Recent discoveries have shown that the Embalmer walks among the living, and his work festers beneath the graveyard dirt.",
+   "body": "Duskwood's children grew up hearing tales of the Embalmer. They said he was a kindly alchemist driven mad by the death of his beloved wife, Eliza. Desperate to cheat death, he turned to sorcery, cut out his own beating heart, and placed it in her chest. Lord Ello Ebonlocke once dismissed the tale as village folklore. Recent discoveries prove the Embalmer walks among the living, and his work festers beneath the graveyard dirt.",
    "spoiler": 0
   },
   {
    "title": "The Resurrected Bride",
-   "body": "Eliza's return to life came at a terrible cost. The stolen spark revived her as a ravenous abomination, hungry without end for living human flesh. Horrified by what he had made and unwilling to destroy her, the Embalmer hid his bride in a lonely grave. He visited her in secret while plotting further wicked deeds. Lord Ebonlocke now sends you to uncover Eliza's grave, kill the flesh hungry horror, and take the still beating heart that sustains the Embalmer's dark art.",
+   "body": "Eliza returned to life at a terrible cost. The stolen spark revived her as a ravenous abomination, forever hungry for living human flesh. Horrified by what he had made and unwilling to destroy her, the Embalmer hid his bride in a lonely grave. He visited her in secret as he plotted further wicked deeds.\n\nNow Lord Ebonlocke sends you to uncover Eliza's grave and kill the flesh hungry horror. Take the still beating heart that sustains the Embalmer's dark art.",
    "spoiler": 1
   },
   {
    "title": "Darkshire's Aegis",
-   "body": "When you bring Eliza's beating heart back to Darkshire, Lord Ebonlocke is relieved. The mayor does not mean to destroy it. He intends to turn the alchemist's craft against him, using the eldritch magic within the heart as a defensive talisman and aegis over Darkshire. He hopes it will shield the beleaguered town from whatever wrath the weakened Embalmer can still summon in vengeance.",
+   "body": "When you bring Eliza's beating heart to Darkshire, Lord Ebonlocke is relieved. The mayor does not mean to destroy it. He plans to turn the alchemist's craft against him, using the heart's eldritch magic as a defensive talisman over Darkshire.\n\nHe hopes it will shield the beleaguered town from whatever wrath the weakened Embalmer can still summon in vengeance.",
    "spoiler": 2
   }
  ],
@@ -43,7 +43,7 @@
     "who is the embalmer",
     "embalmer backstory"
    ],
-   "answer": "The Embalmer was an alchemist in Duskwood who went mad after his wife, Eliza, died. He turned to necromancy, cut out his living heart, and placed it in her corpse to revive her, becoming an elusive monster."
+   "answer": "The Embalmer was an alchemist in Duskwood who went mad after his wife, Eliza, died. He turned to necromancy and cut out his living heart. Placing it in her corpse revived her and made him an elusive monster."
   },
   {
    "q": "Why was Eliza buried if she was brought back to life?",
@@ -52,7 +52,7 @@
     "eliza grave",
     "why keep eliza in a grave"
    ],
-   "answer": "The alchemist revived Eliza with his own heart, but the dark magic made her ravenous for living human flesh. Unable to return her safely to society or satisfy her feral hunger, he hid her in a cemetery."
+   "answer": "The alchemist revived Eliza with his own heart, but dark magic made her ravenous for living human flesh. Unable to return her safely to society or satisfy her feral hunger, he hid her in a cemetery."
   },
   {
    "q": "Why does Lord Ebonlocke want the Embalmer's Heart?",
@@ -60,7 +60,7 @@
     "why get the heart",
     "embalmer heart purpose"
    ],
-   "answer": "Ello believes the Embalmer's heart is the source of his power. He asks you to take it from Eliza's grave while it still beats, believing that will break the alchemist's power."
+   "answer": "Ello believes the Embalmer's heart is the source of his power. He asks you to take it from Eliza's grave while it still beats, hoping to break the alchemist's power."
   },
   {
    "q": "Where does this quest chain begin?",
@@ -85,7 +85,7 @@
     "quest giver",
     "who starts bride of the embalmer"
    ],
-   "answer": "Lord Ello Ebonlocke, Darkshire's mayor and leader, gives you this charge at the Darkshire Town Hall after learning the truth behind the town's folklore."
+   "answer": "Lord Ello Ebonlocke, Darkshire's mayor and leader, gives you this charge at the Darkshire Town Hall. He has learned the truth behind the town's folklore."
   }
  ],
  "angles": [
@@ -95,7 +95,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you can recognize the grieving widower's tragedy while knowing that Eliza's flesh hungry mockery of life must be laid to rest with holy finality."
+   "text": "As a priest, you can recognize the grieving widower's tragedy. Yet Eliza's flesh hungry mockery of life must be laid to rest with holy finality."
   },
   {
    "target": "faction:Alliance",
@@ -122,5 +122,5 @@
  "attribution": [
   "Bride of the Embalmer"
  ],
- "style": 1
+ "style": 2
 }

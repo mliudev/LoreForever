@@ -10,11 +10,11 @@
    "quest:6343"
   ]
  },
- "summary": "Along Teldrassil's shores, Laird's Response carries a puzzle for Nessa Shadowsong. The fish there are larger and more plentiful than those along mainland Darkshore.",
+ "summary": "Along Teldrassil's shore, Laird sends Nessa Shadowsong a curious report. The fish there are larger and more plentiful than those along mainland Darkshore.",
  "sections": [
   {
    "title": "A Matter of Scales and Roots",
-   "body": "Laird compares catches from across the Veiled Sea. Fish from Teldrassil's coast are larger and more plentiful than those from Darkshore's mainland beaches. In his reply to Nessa Shadowsong, Laird of Auberdine offers a theory: the newly planted World Tree's unusual presence and vitality may be changing the surrounding sea life. Travelers carry his letter across the water to Rut'theran Village, where the fisherfolk greet the news with wonder and quiet curiosity.",
+   "body": "Laird compares the catches from both sides of the Veiled Sea. Fish from Teldrassil's coast are larger and more plentiful than those from Darkshore's mainland beaches.\n\nIn his reply to Nessa Shadowsong, Laird of Auberdine wonders if the newly planted World Tree's unusual presence and vitality are changing the sea life nearby. Travelers carry his letter across the water to Rut'theran Village, where the fisherfolk meet the news with wonder and quiet curiosity.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "lairds response letter",
     "what is lairds response"
    ],
-   "answer": "Laird's Response is a dispatch from Laird, a fish merchant and curer in Auberdine, replying to Nessa Shadowsong's inquiry in Teldrassil."
+   "answer": "Laird's Response is Laird's reply to Nessa Shadowsong's inquiry in Teldrassil. Laird is a fish merchant and curer in Auberdine."
   },
   {
    "q": "Who is Laird writing to?",
@@ -35,7 +35,7 @@
     "who gets this letter",
     "nessa laird letter"
    ],
-   "answer": "Laird writes to Nessa Shadowsong, a night elf living in Rut'theran Village at Teldrassil's southern base."
+   "answer": "Laird writes to Nessa Shadowsong, a night elf who lives in Rut'theran Village at Teldrassil's southern base."
   },
   {
    "q": "What does the letter say about the fish?",
@@ -44,7 +44,7 @@
     "fish difference darkshore teldrassil",
     "what did laird find"
    ],
-   "answer": "Laird writes that fish from Teldrassil's shores are larger and more plentiful than those from mainland Darkshore. He suspects the World Tree may influence the sea life nearby."
+   "answer": "Laird reports that fish from Teldrassil's shores are larger and more plentiful than those from mainland Darkshore. He suspects the World Tree may influence the nearby sea life."
   },
   {
    "q": "How does the message travel back to Rut'theran Village?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf tending Teldrassil's shores, you may find Laird's notes intriguing and a little unsettling: the young World Tree may already influence the nature around it."
+   "text": "As a night elf tending Teldrassil's shores, you may find Laird's notes intriguing and unsettling. The young World Tree may already influence the nature around it."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Laird's Response",
   "Return to Nessa"
  ],
- "style": 1
+ "style": 2
 }

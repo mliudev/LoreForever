@@ -8,21 +8,21 @@
   "wiki": "Kreldig Ungor",
   "refs": 5
  },
- "summary": "Kreldig Ungor is an enterprising dwarven operative representing Reclaimers Inc., stationed high among the crags of Nijel's Point in Desolace. Tasked with managing field operations in the barren wasteland, he hires Alliance adventurers to recover lost cargo and secure valuable local reagents. His salvage and recovery contracts make him a central contact for travelers navigating the hostile region.",
+ "summary": "At Nijel's Point, Kreldig Ungor directs Reclaimers Inc.'s work in dangerous Desolace. He hires Alliance adventurers to recover lost cargo and gather local reagents.",
  "sections": [
   {
    "title": "Field Agent in the Wastes",
-   "body": "Nijel's Point offers the Alliance a rare sanctuary amid the blighted canyons of Desolace, making it an ideal staging ground for commercial opportunists like Kreldig Ungor. Representing Reclaimers Inc., Kreldig has ventured far from the safety of Khaz Modan into a desolate wilderness contested by centaur clans, demons, and the Horde. Where others see ruin and ash, Kreldig sees untapped profit and lost assets ripe for recovery.",
+   "body": "Kreldig works from Nijel's Point, an Alliance refuge among Desolace's blighted canyons. He represents Reclaimers Inc., far from Khaz Modan, where centaur clans, demons, and the Horde contest the wilderness. Others see ruin and ash. Kreldig sees lost goods and assets that can still be reclaimed for profit.",
    "spoiler": 0
   },
   {
    "title": "The Karnitol Contract",
-   "body": "A primary venture bringing Kreldig to Desolace involves the lost vessel of Karnitol, which wrecked along the treacherous western coast. Karnitol's shipment held prized goods, and Kreldig orchestrates efforts to track down the debris and retrieve the scattered cargo before scavengers or coastal sea giants can claim it all.",
+   "body": "Kreldig seeks the lost vessel of Karnitol, wrecked along Desolace's treacherous western coast. Its shipment held prized goods. He directs the search for the wreck and the scattered cargo, before scavengers or coastal sea giants claim it.",
    "spoiler": 0
   },
   {
    "title": "Harvesting Local Reagents",
-   "body": "Beyond maritime salvage, Kreldig oversees the procurement of Desolace's strange biological and mineral treasures for Reclaimers Inc. The harsh environment breeds unique fauna and flora, whose parts fetch high prices among alchemists and engineers back in the Eastern Kingdoms. Adventurers willing to brave the wasteland's predators find steady pay beneath Kreldig's ledger.",
+   "body": "Kreldig also oversees the gathering of Desolace's unusual biological and mineral resources for Reclaimers Inc. The harsh land breeds distinctive fauna and flora, whose parts bring high prices from alchemists and engineers in the Eastern Kingdoms. Adventurers who face the wasteland's predators can earn steady pay through his contracts.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is kreldig",
     "kreldig ungor"
    ],
-   "answer": "Kreldig Ungor is a dwarf operative associated with Reclaimers Inc., based out of the Alliance outpost at Nijel's Point in Desolace. He coordinates salvage missions and specimen gathering across the zone."
+   "answer": "Kreldig Ungor works for Reclaimers Inc. from Nijel's Point, the Alliance outpost in Desolace. He coordinates salvage and specimen gathering across the zone."
   },
   {
    "q": "What is Reclaimers Inc.?",
@@ -43,7 +43,7 @@
     "who are reclaimers inc",
     "reclaimers business"
    ],
-   "answer": "Reclaimers Inc. is an entrepreneurial venture focused on salvaging lost cargo, recovering wreckage, and harvesting rare reagents in dangerous frontiers for profit."
+   "answer": "Reclaimers Inc. seeks profit by salvaging lost cargo, recovering wreckage, and gathering rare reagents in dangerous frontiers."
   },
   {
    "q": "Where can Kreldig Ungor be found?",
@@ -52,7 +52,7 @@
     "where is kreldig",
     "find kreldig ungor"
    ],
-   "answer": "He is located in the Alliance settlement of Nijel's Point, perched high in the rocky mountains of northeastern Desolace."
+   "answer": "Kreldig works at Nijel's Point, high in the rocky mountains of northeastern Desolace."
   },
   {
    "q": "What does Kreldig want with the Karnitol shipwreck?",
@@ -61,7 +61,7 @@
     "kreldig karnitol",
     "desolace shipwreck"
    ],
-   "answer": "A ship carrying valuable goods belonging to Karnitol wrecked along the Desolace coast. Kreldig employs adventurers to locate the wreck and secure the lost cargo before it is scavenged or destroyed."
+   "answer": "A vessel carrying Karnitol's valuable goods wrecked along the Desolace coast. Kreldig hires adventurers to find the wreck and recover its cargo before scavengers claim it or it is destroyed."
   },
   {
    "q": "Why is Kreldig collecting reagents in Desolace?",
@@ -70,7 +70,7 @@
     "desolace reagents",
     "why collect reagents"
    ],
-   "answer": "The harsh environment of Desolace fosters rare creatures and unique natural compounds. Kreldig collects these specimens to supply alchemists, artificers, and buyers back in major Alliance cities."
+   "answer": "Desolace's harsh conditions foster rare creatures and unusual natural compounds. Kreldig gathers specimens for alchemists, artificers, and buyers in major Alliance cities."
   },
   {
    "q": "Does Kreldig work for Ironforge or a private enterprise?",
@@ -78,17 +78,17 @@
     "kreldig alliance or private",
     "reclaimers inc ironforge"
    ],
-   "answer": "While he operates from an Alliance outpost and exclusively hires Alliance wanderers, Kreldig represents Reclaimers Inc., a commercial enterprise pursuing salvage and trade rather than official royal military objectives."
+   "answer": "Kreldig represents Reclaimers Inc., a commercial enterprise pursuing salvage and trade. Though based at an Alliance outpost, he hires Alliance wanderers for the company's work, not official royal military aims."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Kreldig shows off the classic dwarven appetite for rugged frontier exploration and commercial ambition, setting up shop far from the mountain halls."
+   "text": "Kreldig carries a dwarven taste for rugged frontier exploration and commercial ambition. He works far from the mountain halls."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stationed at Nijel's Point, Kreldig relies entirely on Alliance travelers to keep his salvage contracts moving in an otherwise hostile territory."
+   "text": "At Nijel's Point, Kreldig relies on Alliance travelers to carry out his salvage contracts in hostile territory."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Kreldig Ungor"
- ]
+ ],
+ "style": 2
 }

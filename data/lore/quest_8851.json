@@ -17,16 +17,16 @@
   "wiki": "Five Signets for War Supplies (Horde)",
   "chain": []
  },
- "summary": "Orgrimmar's stores gather supplies for the Horde's campaign across Kalimdor. Workers earn commendation signets for their contributions, and Warlord Gorchuk exchanges them for supplies to equip the fighters.",
+ "summary": "Across Kalimdor, the Horde gathers what its campaign needs. Workers earn commendation signets for their contributions, and Warlord Gorchuk trades them for supplies to equip the fighters.",
  "sections": [
   {
    "title": "A Continent-Wide Effort",
-   "body": "Across Kalimdor, the Horde gathers raw goods, weapons, and provisions for a vast campaign. Gatherers and tradesfolk bring bandages, metals, and herbs into the cities, where military overseers award commendation signets for their work. The tokens mark each contribution to the stockpile growing along Orgrimmar's central avenues.",
+   "body": "Across Kalimdor, the Horde gathers raw goods, weapons, and provisions for a vast campaign. Gatherers and tradesfolk bring bandages, metals, and herbs into the cities. There, military overseers award commendation signets for their work. Each token marks a contribution to the stockpile growing along Orgrimmar's central avenues.",
    "spoiler": 0
   },
   {
    "title": "Materiel for the Frontlines",
-   "body": "Warlord Gorchuk knows the wider war effort needs supplies, but each warrior also needs gear and provisions to survive the march into battle. Fighters can trade their commendation signets back into the Horde's stores for field supplies and surplus materiel, giving up personal recognition for what they need on the front.",
+   "body": "Warlord Gorchuk knows the wider war effort needs supplies. Each warrior also needs gear and provisions to survive the march into battle. Fighters can trade their commendation signets back to the Horde's stores for field supplies and surplus materiel. They give up personal recognition for what they need on the front.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "signet turn in purpose",
     "what do i get for 5 signets"
    ],
-   "answer": "Five signets let you exchange commendation tokens earned through the Horde's mobilization for personal gear and field supplies instead of keeping them for political recognition."
+   "answer": "Five signets let you exchange commendation tokens earned through the Horde's mobilization for personal gear and field supplies. You trade recognition for what you need in the field."
   },
   {
    "q": "Who is Warlord Gorchuk?",
@@ -46,7 +46,7 @@
     "gorchuk identity",
     "who is gorchuk"
    ],
-   "answer": "Warlord Gorchuk is a Horde military coordinator in Orgrimmar who manages supplies and approves requisitions for warriors preparing for conflict."
+   "answer": "Warlord Gorchuk coordinates Horde military supplies in Orgrimmar and approves requisitions for warriors preparing for conflict."
   },
   {
    "q": "How do you obtain Horde Commendation Signets?",
@@ -55,7 +55,7 @@
     "where do signets come from",
     "commendation signet source"
    ],
-   "answer": "Quartermasters and logistics officers across the Horde award signets when you contribute raw materials, food, bandages, and crafting resources to the faction's war effort."
+   "answer": "Quartermasters and logistics officers across the Horde award signets for contributions of raw materials, food, bandages, and crafting resources to the faction's war effort."
   },
   {
    "q": "Can this requisition be repeated?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you may value survival in the front lines over ceremonial recognition, making Gorchuk's supplies worth your accumulated signets."
+   "text": "As a warrior, you may value survival on the front lines over ceremonial recognition. Gorchuk's supplies make your accumulated signets useful."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Five Signets for War Supplies (Horde)"
  ],
- "style": 1
+ "style": 2
 }

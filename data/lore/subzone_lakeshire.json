@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lakeshire"
  },
- "summary": "Lakeshire's defenders face attacks from orcs, gnolls, and murlocs along Lake Everstill. Magistrate Solomon leads the town, while Marshal Marris commands its guard.",
+ "summary": "Lakeshire's defenders hold the town against orcs, gnolls, and murlocs along Lake Everstill. Magistrate Solomon leads them, while Marshal Marris commands the guard.",
  "sections": [
   {
    "title": "A Town Under Siege",
-   "body": "Lakeshire once offered peace in the foothills east of Stormwind. Now it is the kingdom's hardest-pressed frontier. Blackrock clan orcs swept down from the north and overran the garrison at Stonewatch Keep. Dark wizardry stirred Shadowhide gnolls into organized raiding parties. Blackrock saboteurs also broke parts of the Everstill Bridge. Foreman Oslow and his crew struggle to mend the span under threat of attack. Murlocs crowd the lake's shores, while gnolls stalk the high passes. Lakeshire's defenders are close to breaking.",
+   "body": "In the foothills east of Stormwind, Lakeshire once knew peace. Now it is the kingdom's hardest-pressed frontier. Blackrock clan orcs came down from the north and overran the garrison at Stonewatch Keep. Dark wizardry drove Shadowhide gnolls into organized raiding parties.\n\nBlackrock saboteurs broke parts of the Everstill Bridge. Foreman Oslow and his crew struggle to mend the span under threat of attack. Murlocs crowd the lake's shores, and gnolls stalk the high passes. Lakeshire's defenders are close to breaking.",
    "spoiler": 0
   },
   {
    "title": "Abandoned by the Crown",
-   "body": "Magistrate Solomon sent repeated pleas for help across the mountains, but Stormwind City provided almost no soldiers. The kingdom's resources were drained by internal strife, and royal councilors dismissed Redridge's danger as exaggerated border skirmishes. Dwarven reinforcements sent from Ironforge were ambushed and vanished in the Burning Steppes. Marshal Marris and his few remaining guards held the barricades alone. Lakeshire depended on the courage of roaming mercenaries and freelance adventurers hired from the town hall.",
+   "body": "Magistrate Solomon sent repeated pleas for help across the mountains, but Stormwind City sent almost no soldiers. Internal strife drained the kingdom's resources, and royal councilors dismissed Redridge's danger as exaggerated border skirmishes. Dwarven reinforcements from Ironforge were ambushed and vanished in the Burning Steppes.\n\nMarshal Marris and his few remaining guards held the barricades alone. Lakeshire depended on the courage of roaming mercenaries and freelance adventurers hired from the town hall.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "stormwind army lakeshire",
     "why is lakeshire abandoned"
    ],
-   "answer": "Stormwind's forces are stretched thin by unrest across the region. Royal councilors, especially Lady Katrana Prestor, persuaded Highlord Bolvar Fordragon not to send standing troops to Redridge, so the Crown relied on deputized adventurers."
+   "answer": "Stormwind's forces are stretched thin by unrest across the region. Royal councilors, especially Lady Katrana Prestor, persuaded Highlord Bolvar Fordragon not to send standing troops to Redridge. The Crown relied on deputized adventurers."
   },
   {
    "q": "What happened to the Everstill Bridge?",
@@ -46,7 +46,7 @@
     "who broke everstill bridge",
     "foreman oslow bridge"
    ],
-   "answer": "Blackrock orcs damaged the stone bridge during their raids across the lake, disrupting trade and transport. Foreman Oslow oversees repairs, but missing tools and continuing attacks have slowed the work."
+   "answer": "Blackrock orcs damaged the stone bridge during raids across the lake, disrupting trade and transport. Foreman Oslow oversees repairs, but missing tools and continuing attacks have slowed the work."
   },
   {
    "q": "What threats currently surround the town?",
@@ -55,7 +55,7 @@
     "redridge threats",
     "lakeshire enemies"
    ],
-   "answer": "Blackrock orcs hold Stonewatch Keep to the east, Shadowhide gnolls under rogue sorcerer Morganth strike from the northern hills, and aggressive murlocs infest Lake Everstill's waters and banks."
+   "answer": "Blackrock orcs hold Stonewatch Keep to the east. Shadowhide gnolls under rogue sorcerer Morganth strike from the northern hills, while aggressive murlocs infest Lake Everstill's waters and banks."
   }
  ],
  "angles": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Lakeshire"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:855"
   ]
  },
- "summary": "Across the Barrens, Centaur Bracers are stripped from slain Kolkar warriors. Regthar Deathgate gathers them west of the Crossroads as proof that centaur raiders have been culled.",
+ "summary": "Across the Barrens, Centaur Bracers are taken from fallen Kolkar warriors. Regthar Deathgate gathers them west of the Crossroads as proof the centaur raiders have been culled.",
  "sections": [
   {
    "title": "A Gritty Bounty",
-   "body": "Kolkar raiders threaten the Horde’s foothold across the Barrens. Their fallen warriors leave behind leather and iron bracers, proof that a raider has been removed from the trade roads. Regthar Deathgate, an orc scout stationed on the bluffs west of the Crossroads, offers a standing bounty for these trophies to curb the tribe’s aggression.",
+   "body": "Kolkar raiders threaten the Horde’s foothold across the Barrens. Their fallen warriors leave leather and iron bracers behind, proof that a raider has been removed from the trade roads. Regthar Deathgate is an orc scout stationed on the bluffs west of the Crossroads. He offers a standing bounty for these trophies to curb the tribe’s aggression.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "regthar deathgate turn in",
     "who buys centaur bracers"
    ],
-   "answer": "Regthar Deathgate, a Horde scout camped on a rise west of the Crossroads in the Barrens, accepts the bracers as proof of your efforts against the local Kolkar centaur."
+   "answer": "Regthar Deathgate, a Horde scout camped on a rise west of the Crossroads in the Barrens, accepts the bracers as proof that you have removed Kolkar centaur from the local raiding force."
   },
   {
    "q": "Which centaur carry these bracers?",
@@ -44,7 +44,7 @@
     "regthar deathgate motive",
     "purpose of centaur bracers"
    ],
-   "answer": "Regthar wants the Kolkar numbers reduced to protect Horde territory. The bracers show that warriors have killed marauders instead of merely driving them off."
+   "answer": "Regthar wants Kolkar numbers reduced to protect Horde territory. The bracers show that warriors have killed marauders instead of merely driving them off."
   }
  ],
  "angles": [
@@ -79,5 +79,5 @@
   "Centaur Bracers",
   "Centaur Bracers (Classic)"
  ],
- "style": 1
+ "style": 2
 }

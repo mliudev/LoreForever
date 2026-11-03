@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Vision of Water",
-   "body": "Among Horde shaman, a sapta is a draught made to open the senses to the world's spirits. To ordinary eyes, a stream may look calm and a pond still. Drink a sapta, and the veil of the physical world parts, showing the elementals that dwell in the water.",
+   "body": "Among Horde shaman, a sapta is a draught that opens the senses to the world's spirits. A stream may look calm and a pond still to ordinary eyes. Drink a sapta, and the veil of the physical world parts. Then the elementals dwelling in the water come into view.",
    "spoiler": 0
   },
   {
    "title": "The Road to Silverpine",
-   "body": "Islen Waterseer gives the shaman the draught after they have shown their devotion to the spirits. She lives alone on the barren shore south of Ratchet. She sends the initiate across the Great Sea, away from Kalimdor's dry valleys, to Silverpine Forest. There, an elemental corruption is poisoning Lordaeron's streams, and the shaman must face it.",
+   "body": "After the shaman proves devotion to the spirits, Islen Waterseer gives them the draught. She lives alone on the barren shore south of Ratchet. Then she sends the initiate across the Great Sea, from Kalimdor's dry valleys to Silverpine Forest. There, an elemental corruption poisons Lordaeron's streams, and the shaman must face it.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "water sapta meaning",
     "what does sapta do"
    ],
-   "answer": "A sapta is a ceremonial draught prepared by shamanic mentors. Drinking it sharpens spiritual sight, so the shaman can see and speak with elementals hidden from mortal eyes."
+   "answer": "A sapta is a ceremonial draught prepared by shamanic mentors. It sharpens spiritual sight, letting shaman see and speak with elementals hidden from mortal eyes."
   },
   {
    "q": "Who is Islen Waterseer?",
@@ -46,7 +46,7 @@
     "islen waterseer lore",
     "who is islen"
    ],
-   "answer": "Islen Waterseer is a master shaman who lives alone on the Barrens' eastern coast, south of the Merchant Coast. She guides young Horde shaman on the hard path to commune with and bind the element of water."
+   "answer": "Islen Waterseer is a master shaman who lives alone on the Barrens' eastern coast, south of the Merchant Coast. She guides young Horde shaman along the hard path to commune with and bind the element of water."
   },
   {
    "q": "Why must the shaman travel to Silverpine Forest?",
@@ -54,7 +54,7 @@
     "why silverpine",
     "why go to eastern kingdoms"
    ],
-   "answer": "Water's elementals are suffering from a widespread affliction in Silverpine Forest. To complete their initiation, shaman carry the sapta across the sea and see a corrupted water source firsthand, then cleanse its taint."
+   "answer": "Water's elementals suffer from a widespread affliction in Silverpine Forest. To complete their initiation, shaman carry the sapta across the sea and witness a corrupted water source firsthand, then cleanse its taint."
   },
   {
    "q": "What happens after drinking the sapta?",
@@ -62,7 +62,7 @@
     "drinking sapta",
     "sapta effect"
    ],
-   "answer": "After drinking the sapta, shaman can see the corrupted water elementals in Silverpine's tainted pools. That sight opens the way to confront the source of the decay."
+   "answer": "After drinking the sapta, shaman can see the corrupted water elementals in Silverpine's tainted pools. That sight lets them confront the source of the decay."
   },
   {
    "q": "Is this trial required for all Horde shaman?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you take a turning step in your elemental trials with the Water Sapta. It opens your eyes to the spirit world before you gain command of your healing Water Totem."
+   "text": "As a shaman, you take a turning step in your elemental trials with Water Sapta. It opens your eyes to the spirit world before you gain command of your healing Water Totem."
   },
   {
    "target": "faction:Horde",
@@ -107,5 +107,5 @@
  "attribution": [
   "Water Sapta (quest)"
  ],
- "style": 1
+ "style": 2
 }

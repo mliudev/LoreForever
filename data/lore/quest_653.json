@@ -27,16 +27,16 @@
    "Breaking the Keystone"
   ]
  },
- "summary": "Myzrael cries out that she is free, and that she will gather her strength in hiding from her captors. She calls you a noble ally and sends you to Gerrig Bonegrip in a shop of Ironforge's Forlorn Cavern, who knows how she can be summoned.",
+ "summary": "Myzrael is free, yet she must gather strength before she can face her captors. She calls you a noble ally and sends you to Gerrig Bonegrip in a shop in Ironforge's Forlorn Cavern, where he knows how to summon her.",
  "sections": [
   {
    "title": "Free to Gather Strength",
-   "body": "Myzrael is free, and means to gather strength hidden from her captors, since if they met her now they would surely overpower her and lock her away again. In time she means to face the giants, and she swears they will rue having held her. She calls you a noble ally and says she will need your help again, to summon her to the surface when she is ready.",
+   "body": "Myzrael is free, but not strong enough to face her captors. They would overpower her now and lock her away again. So she will gather strength in hiding. When she is ready, she means to face the giants and make them rue the day they held her. She calls you a noble ally and says she will need your help to summon her to the surface.",
    "spoiler": 0
   },
   {
    "title": "Word for Gerrig Bonegrip",
-   "body": "Myzrael tells you to speak with Gerrig Bonegrip, whose shop is in Ironforge, in the Forlorn Cavern. He knows how she can be summoned.",
+   "body": "Myzrael sends you to Gerrig Bonegrip, whose shop is in Ironforge's Forlorn Cavern. He knows how to summon her.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "where is gerrig bonegrip",
     "find gerrig bonegrip"
    ],
-   "answer": "Gerrig Bonegrip keeps a shop in the Forlorn Cavern of Ironforge."
+   "answer": "Gerrig Bonegrip keeps a shop in Ironforge's Forlorn Cavern."
   },
   {
    "q": "Why is Myzrael remaining in hiding?",
@@ -56,7 +56,7 @@
     "why is myzrael hiding",
     "where is myzrael going"
    ],
-   "answer": "She needs to gather her strength first. If her captors faced her now, they would surely overpower her and imprison her again."
+   "answer": "Myzrael must gather strength first. If her captors faced her now, they would overpower her and imprison her again."
   },
   {
    "q": "Who are the captors Myzrael speaks of?",
@@ -65,7 +65,7 @@
     "who imprisoned myzrael",
     "myzrael giants"
    ],
-   "answer": "The giants, who had wardship of her. She says that in time she will confront them and they will regret it."
+   "answer": "Myzrael means the giants who had wardship of her. She says she will confront them in time and make them rue having held her."
   },
   {
    "q": "Why does Myzrael send you to Ironforge?",
@@ -73,7 +73,7 @@
     "why go to ironforge",
     "purpose of visiting gerrig"
    ],
-   "answer": "Gerrig Bonegrip knows how she can be summoned, and she says she will need you to summon her to the surface when she is ready."
+   "answer": "Myzrael sends you to Gerrig Bonegrip because he knows how she can be summoned. She will need your help to summon her to the surface when she is ready."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Myzrael's Allies (Alliance)"
- ]
+ ],
+ "style": 2
 }

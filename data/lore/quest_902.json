@@ -17,16 +17,16 @@
   "wiki": "Samophlange (Classic 4)",
   "chain": []
  },
- "summary": "At the Venture Company console, you uncover the elusive samophlange and carry it to Ratchet. You have shut down the controls and their defenses; now the delicate device is ready for Sputtervalve to examine.",
+ "summary": "At the Venture Company console, you uncover the samophlange and bring it to Ratchet. Its controls and defenses are shut down, and Sputtervalve is ready to examine the delicate device.",
  "sections": [
   {
    "title": "Unearthing the Core",
-   "body": "Behind the Venture Company console's faceplate, wiring and purposeless tubing crowd around strange engineering. Deep inside lies the samophlange, a core component that has baffled engineers across the region. With a firm tug, you free the device from its housing and carry it back to the goblin who began the recovery effort.",
+   "body": "You find strange engineering behind the Venture Company console's faceplate. Wiring and purposeless tubing crowd the space. Deep inside lies the samophlange, a core component that has baffled engineers across the region. With a firm tug, you free it from its housing and carry it back to the goblin who began the recovery effort.",
    "spoiler": 0
   },
   {
    "title": "Fragile Innovations",
-   "body": "Back in Ratchet, Sputtervalve takes the curious device and plans to send it to the Tinkers' Union headquarters in Undermine for study. Goblin curiosity gets the better of him. When he sets the samophlange down for a closer look, its delicate mechanism shatters on the floor, and he scrambles to save what he can of the research.",
+   "body": "In Ratchet, Sputtervalve takes the curious device and plans to send it to the Tinkers' Union headquarters in Undermine for study. But goblin curiosity gets the better of him. He sets the samophlange down for a closer look, and its delicate mechanism shatters on the floor. Sputtervalve scrambles to save what he can of the research.",
    "spoiler": 1
   }
  ],
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For an engineer, the samophlange is a Venture Company machine packed with dense wiring, tubing, and unfamiliar parts that invite careful study."
+   "text": "As an engineer, you find a Venture Company machine packed with dense wiring, tubing, and unfamiliar parts that invite careful study."
   },
   {
    "target": "faction:Horde",
@@ -111,5 +111,5 @@
  "attribution": [
   "Samophlange (Classic 4)"
  ],
- "style": 1
+ "style": 2
 }

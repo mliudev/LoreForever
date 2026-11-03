@@ -10,16 +10,16 @@
    "quest:1096"
   ]
  },
- "summary": "In the Stonetalon Mountains, goblin operatives seek Gerenzo's Mechanical Arm as proof while clearing out competition. Taken from rogue engineer Gerenzo Wrenchwhistle, the grafted limb marks his death.",
+ "summary": "In the Stonetalon Mountains, goblin operatives seek Gerenzo's Mechanical Arm to prove his death and clear out competition. The grafted limb belonged to rogue engineer Gerenzo Wrenchwhistle.",
  "sections": [
   {
    "title": "A Bizarre Invention",
-   "body": "Above Cragpool Lake, rogue engineer Gerenzo Wrenchwhistle grafted whirring gears and metal onto his failing body. The renegade gnome replaced his natural limbs with intricate machinery. Goblin tinker Ziz Fizziks seeks Gerenzo's elimination to impress his superiors, and this distinctive arm is the trophy he needs as indisputable proof of the engineer's death.",
+   "body": "Above Cragpool Lake, rogue engineer Gerenzo Wrenchwhistle grafted whirring gears and metal onto his failing body. The renegade gnome replaced his natural limbs with intricate machinery. Goblin tinker Ziz Fizziks wants Gerenzo eliminated to impress his superiors. The distinctive arm is the proof he needs of the engineer's death.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Philosophy, Goblin Critique",
-   "body": "Ziz Fizziks sees little sense in amputating a working arm to attach a mechanical replacement. A proper goblin engineer, he says, would keep both biological arms and mount a mechanical third one instead. Despite that divide in engineering thought, delivering the severed limb satisfies Sputtervalve and helps Ziz petition for an assignment in Gadgetzan or Undermine.",
+   "body": "Ziz Fizziks sees little sense in cutting off a working arm for a mechanical replacement. A proper goblin engineer, he says, would keep both natural arms and mount a mechanical third one. Still, delivering the severed limb satisfies Sputtervalve. It also helps Ziz petition for an assignment in Gadgetzan or Undermine.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "gerenzo arm location",
     "where get gerenzo mechanical arm"
    ],
-   "answer": "The arm comes from Gerenzo Wrenchwhistle, who oversees logging and engineering operations high above Cragpool Lake, near the water wheel in the Stonetalon Mountains."
+   "answer": "Gerenzo Wrenchwhistle oversees logging and engineering operations high above Cragpool Lake, near the water wheel in the Stonetalon Mountains. The arm comes from him."
   },
   {
    "q": "Why does Ziz Fizziks want this arm?",
@@ -59,7 +59,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Gerenzo represents a grim extreme of gnomish ingenuity, taking mechanical replacement far beyond conventional medical prosthetics and into morbid self-augmentation."
+   "text": "Gerenzo represents a grim extreme of gnomish ingenuity. He took mechanical replacement far beyond conventional medical prosthetics and into morbid self-augmentation."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
   "Gerenzo's Mechanical Arm",
   "Gerenzo Wrenchwhistle (quest)"
  ],
- "style": 1
+ "style": 2
 }

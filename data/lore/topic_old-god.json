@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Old God"
  },
- "summary": "The Old Gods are colossal, malevolent horrors of flesh and madness who ruled Azeroth in its primordial dawn. Though vanquished and bound deep beneath the crust by the Titans, their ancient whispers still corrode mortal minds, twist nature, and drive doomsday cults to unearth their prisons.",
+ "summary": "Across Azeroth, the Old Gods’ whispers still poison mortal minds and twist the world. Once they ruled the primordial world, until the Titans bound them beneath the earth. Their influence endures.",
  "sections": [
   {
    "title": "Masters of the Primordial World",
-   "body": "Long before mortal records began, Azeroth was dominated by the Old Gods, colossal entities of chaotic flesh such as C'Thun. They embedded themselves into the planet's crust, commanding elemental armies and insectoid swarms. When the Titans arrived, their armies fought an apocalyptic war against them. Rather than destroying them, the Titans bound the Old Gods in vast, subterranean prisons to keep them dormant forever.",
+   "body": "In Azeroth’s first age, the Old Gods ruled through vast bodies of chaotic flesh, among them C'Thun. They took root in the planet’s crust and commanded elemental armies and insectoid swarms. When the Titans arrived, their armies waged an apocalyptic war against the Old Gods. Rather than destroy them, the Titans bound them in vast prisons beneath the earth.",
    "spoiler": 0
   },
   {
    "title": "Whispers from the Deep",
-   "body": "Even chained beneath miles of stone and enchanted wards, the Old Gods have never truly slept. Their psychic malice seeps continually into the world, corrupting the vulnerable. It was their collective malice that slowly drove Neltharion the Earth-Warder mad during the War of the Ancients, twisting the noble dragon into Deathwing. When Queen Azshara and her Highborne drowned beneath the raging waters of the Great Sundering, an Old God answered their desperation, transforming them into the serpentine naga.",
+   "body": "The Old Gods have never truly slept beneath their chains, miles of stone and enchanted wards. Their psychic malice seeps into the world and corrupts the vulnerable. During the War of the Ancients, that malice slowly drove Neltharion the Earth-Warder mad and twisted the noble dragon into Deathwing.\n\nAs the Great Sundering’s raging waters swallowed Queen Azshara and her Highborne, an Old God answered their desperation. The Old God transformed them into the serpentine naga.",
    "spoiler": 0
   },
   {
    "title": "Stirrings in the Sands",
-   "body": "In the modern era, mortal civilizations treat the Old Gods as myth, yet their prisons are fracturing. Nearly a millennium ago, the insectoid qiraji swarmed out of the southern desert of Silithus in the War of the Shifting Sands, serving their master C'Thun until the night elves and dragons sealed them behind the Scarab Wall. Today, ominous cults like the Twilight's Hammer gather in dark corners across Kalimdor and the Eastern Kingdoms, performing foul rites to shatter the Titans' bindings and hasten the end of all mortal life.",
+   "body": "Many mortal civilizations now treat the Old Gods as myth, though their prisons are fracturing. Nearly a millennium ago, insectoid qiraji swarmed from southern Silithus in the War of the Shifting Sands. They served C'Thun until the night elves and dragons sealed them behind the Scarab Wall.\n\nToday, cults such as the Twilight's Hammer gather in dark corners across Kalimdor and the Eastern Kingdoms. Their foul rites seek to break the Titans’ bindings and hasten the end of all mortal life.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "old gods lore",
     "who are the old gods"
    ],
-   "answer": "They are ancient, eldritch monstrosities of flesh and madness who dominated Azeroth in primordial times. They feed on chaos and seek to corrupt the world, driving mortals and elementals toward madness."
+   "answer": "The Old Gods are ancient, eldritch monstrosities of flesh and madness who ruled Azeroth in primordial times. They feed on chaos and seek to corrupt the world, driving mortals and elementals toward madness."
   },
   {
    "q": "How many Old Gods were there on Azeroth?",
@@ -42,7 +42,7 @@
     "list of old gods",
     "names of old gods"
    ],
-   "answer": "No mortal knows for certain. The best known is C'Thun, imprisoned beneath Ahn'Qiraj in Silithus; others lie chained in subterranean vaults across the globe."
+   "answer": "No mortal knows for certain how many Old Gods there were. C'Thun, imprisoned beneath Ahn'Qiraj in Silithus, is best known. Others lie chained in subterranean vaults across the globe."
   },
   {
    "q": "Why didn't the Titans just kill them all?",
@@ -51,7 +51,7 @@
     "why imprison old gods",
     "why spare old gods"
    ],
-   "answer": "The Old Gods had burrowed so deeply into Azeroth's bedrock that tearing them out risked destroying the world itself, so the Titans built prisons instead."
+   "answer": "The Old Gods had burrowed so deeply into Azeroth’s bedrock that tearing them out risked destroying the world. So the Titans built prisons instead."
   },
   {
    "q": "Are the Old Gods connected to Deathwing and the naga?",
@@ -60,7 +60,7 @@
     "old gods deathwing",
     "who corrupted neltharion"
    ],
-   "answer": "Yes. The Old Gods whispered into the mind of Neltharion the Earth-Warder until he snapped and became Deathwing. When Queen Azshara and her Highborne sank during the Great Sundering, an Old God answered their cries and remade them into the naga."
+   "answer": "Yes. The Old Gods whispered into Neltharion the Earth-Warder’s mind and slowly drove him mad, until he snapped and became Deathwing. As the Great Sundering’s waters raged, an Old God answered Queen Azshara and her Highborne’s cries. It remade them into the naga."
   },
   {
    "q": "Who are the Twilight's Hammer?",
@@ -69,7 +69,7 @@
     "who worships old gods",
     "old god cultists"
    ],
-   "answer": "The Twilight's Hammer is a nihilistic, apocalyptic cult dedicated to serving the Old Gods. They seek to unbind the imprisoned entities, unleash the elemental lords, and plunge the world into total ruin."
+   "answer": "The Twilight's Hammer is an apocalyptic cult devoted to nihilism and the Old Gods. Its followers seek to unbind the imprisoned entities, unleash the elemental lords and plunge the world into total ruin."
   },
   {
    "q": "Where are the Old Gods imprisoned?",
@@ -78,25 +78,25 @@
     "old god locations",
     "c'thun location"
    ],
-   "answer": "Their known prisons are scattered across the world, entombed deep beneath Titan ruins. For instance, C'Thun lies trapped beneath Ahn'Qiraj in Silithus, while others were bound beneath the northern reaches and deep subterranean foundations."
+   "answer": "The Old Gods’ known prisons lie scattered across the world, deep beneath Titan ruins. C'Thun is trapped beneath Ahn'Qiraj in Silithus. Others were bound beneath the northern reaches and deep subterranean foundations."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The kaldorei fought the qiraji minion hordes in the War of the Shifting Sands, sealing Silithus behind the Scarab Wall."
+   "text": "As a kaldorei, you fought the qiraji minion hordes in the War of the Shifting Sands and sealed Silithus behind the Scarab Wall."
   },
   {
    "target": "class:Priest",
-   "text": "Priests who delve into shadow magic walk a perilous path, wary of the maddening whispers said to rise from the ancient horrors chained beneath the earth."
+   "text": "As a priest who delves into shadow magic, you walk a perilous path. Beware the maddening whispers said to rise from ancient horrors chained beneath the earth."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold a sacred duty to guard the Emerald Dream against the Emerald Nightmare, an unnatural corruption whose true source remains unknown."
+   "text": "As a druid, you hold a sacred duty to guard the Emerald Dream against the Emerald Nightmare. Its true source remains unknown."
   },
   {
    "target": "class:Warlock",
-   "text": "Though warlocks primarily draw from fel magic and demons of the Burning Legion, some foolishly seek the forbidden curses and sacrificial rites left behind by the Old Gods' servants."
+   "text": "As a warlock, you draw mainly on fel magic and demons of the Burning Legion. Some foolishly seek the forbidden curses and sacrificial rites left behind by the Old Gods’ servants."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Old God"
- ]
+ ],
+ "style": 2
 }

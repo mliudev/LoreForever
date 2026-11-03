@@ -30,21 +30,21 @@
   ],
   "category": "Tanaris"
  },
- "summary": "You carried the platinum discs out to the Tanaris desert, and the Stone Watcher of Norgannon has appeared at the Uldum Pedestal. It guards entry to the Uldum compound and admits only those whose disc set includes the Plates of Uldum. You are to learn its story before going on.",
+ "summary": "At the Uldum Pedestal, The Stone Watcher guards the way into the compound. You have carried the platinum discs across Tanaris, and now it asks you to learn its story before you go on.",
  "sections": [
   {
    "title": "A Guardian at the Pedestal",
-   "body": "The Watcher's arrival is just the reaction that was hoped for when you were sent out to the desert of Tanaris carrying the platinum discs. It names itself a guardian of entry, and it will not let you into the Uldum compound unless the Plates of Uldum are already integrated with your disc set. Before going further you are to find out the story behind the Stone Watcher, and then use the Uldum Pedestal.",
+   "body": "At the Uldum Pedestal, the Stone Watcher blocks the way into the Uldum compound. You brought the platinum discs across Tanaris. The guardian says entry is allowed only when the Plates of Uldum are part of your set. Learn the Watcher's story, then use the pedestal.",
    "spoiler": 0
   },
   {
    "title": "What the Watcher Explains",
-   "body": "The Stone Watcher is there to control who may enter the Uldum complex on behalf of the Creators, and lets in only those who show the proper sequencing discs. The Plates of Uldum are discs made by the Creators that store data on their activities at Uldum. They are almost the same size as your own discs, but their markings concern Uldum rather than Uldaman. Uldum is a research facility, where the Creators work to enhance Azeroth's biosphere, and details of their work are for those who hold the Plates. In the end the Watcher promises that your discs will be returned once you access the pedestal, and that you may enter the complex once you have the Plates in your set.",
+   "body": "The Stone Watcher controls entry to the Uldum complex for the Creators. It admits only those with the proper sequencing discs. The Plates of Uldum are made by the Creators and record their work at Uldum. They are nearly the size of your own discs, but their markings concern Uldum rather than Uldaman.\n\nUldum is a research facility where the Creators work to enhance Azeroth's biosphere. Only those who hold the Plates can learn the details of that work. The Watcher promises to return your discs once you access the pedestal. It will let you enter the complex when the Plates are in your set.",
    "spoiler": 1
   },
   {
    "title": "More From the Watcher",
-   "body": "The Stone Watcher adds that the Creators control the distribution of these discs for all the complexes of this world, and that Azeroth has been rescheduled for a visitation. The Creators use visitation to reestablish control over seeded worlds whenever forces from outside or within upset the balance of those worlds' matrix dynamics, and it is not to be taken lightly.",
+   "body": "The Stone Watcher says the Creators control the distribution of discs for every complex on this world. Azeroth has been rescheduled for a visitation. The Creators use visitation to restore control over seeded worlds when forces from outside or within upset the balance of their matrix dynamics. The Watcher warns that visitation is not to be taken lightly.",
    "spoiler": 2
   }
  ],
@@ -56,7 +56,7 @@
     "who is the watcher at uldum",
     "stone watcher identity"
    ],
-   "answer": "A guardian of entry standing at the Uldum Pedestal out in the desert of Tanaris, which decides who may enter the Uldum compound."
+   "answer": "At the Uldum Pedestal in Tanaris, the Stone Watcher guards entry to the Uldum compound and decides who may enter."
   },
   {
    "q": "Why does the Stone Watcher deny entry?",
@@ -65,7 +65,7 @@
     "plates of uldum missing",
     "uldum entry denied"
    ],
-   "answer": "Entry is allowed only if the Plates of Uldum are already integrated with your disc set, and yours do not yet have them."
+   "answer": "The Stone Watcher admits only those whose disc set includes the Plates of Uldum. Your set does not yet include them."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "The Stone Watcher"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:386"
   ]
  },
- "summary": "In the Stormwind Stockade, Targorr the Dread awaits an execution stopped by nobles in Stormwind. Once Gath'Ilzogg's supreme executioner in the Redridge Mountains, the captured orc is now the subject of Guard Berton's demand for proof of his death in Lakeshire.",
+ "summary": "In the Stormwind Stockade, nobles have halted Targorr's execution. The orc once served Gath'Ilzogg in the Redridge Mountains, and Guard Berton in Lakeshire now demands proof of his death.",
  "sections": [
   {
    "title": "A Delayed Execution",
-   "body": "Targorr the Dread earned infamy across Redridge as the Blackrock clan warlord Gath'Ilzogg's brutal executioner. He tortured and slaughtered defenders of the Kingdom of Stormwind before his capture and death sentence in the Stormwind Stockade. Stormwind nobles intervened and mysteriously suspended the sentence. Guardsmen like Berton suspect foul play and corruption in the capital.",
+   "body": "Targorr the Dread was the Blackrock clan warlord Gath'Ilzogg's feared executioner in Redridge. Before his capture, he tortured and slaughtered defenders of the Kingdom of Stormwind. Sentenced to die in the Stormwind Stockade, he was spared when Stormwind nobles intervened. Guardsmen like Berton suspect foul play and corruption in the capital.",
    "spoiler": 0
   },
   {
    "title": "Frontier Justice",
-   "body": "Guard Berton fears Targorr could become a political pawn or arrange an escape, so he hires an outside champion to enter the volatile prison and finish what the courts delayed. Taking Targorr's head bypasses the stalled legal system and gives closure to grieving families and Lakeshire's besieged defenders, who suffered under the executioner's blades.",
+   "body": "Guard Berton fears Targorr could become a political pawn or arrange an escape. So he hires an outside champion to enter the volatile prison and finish what the courts delayed. Taking Targorr's head bypasses the stalled legal system. It also gives closure to grieving families and Lakeshire's besieged defenders, who suffered under the executioner's blades.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "guard berton",
     "turn in head of targorr"
    ],
-   "answer": "Guard Berton, stationed outside the Lakeshire Inn, wants Targorr's severed head. After seeing the carnage he caused in the Redridge Mountains, Berton seeks proof that the executioner can never be freed."
+   "answer": "Guard Berton, stationed outside the Lakeshire Inn, wants Targorr's severed head. After seeing the carnage Targorr caused in the Redridge Mountains, Berton seeks proof the executioner can never be freed."
   },
   {
    "q": "Where is Targorr found?",
@@ -96,5 +96,5 @@
   "Head of Targorr",
   "What Comes Around..."
  ],
- "style": 1
+ "style": 2
 }

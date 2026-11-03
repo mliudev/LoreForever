@@ -8,16 +8,16 @@
   "wiki": "Drum Fel",
   "refs": 1
  },
- "summary": "At Hammerfall, Drum Fel directs the Horde’s fight to hold Arathi against trolls, ogres, and human remnants. With his wife Korin, he works to secure a lasting foothold for the Horde in the region.",
+ "summary": "At Hammerfall, Drum Fel directs the Horde’s fight to hold Arathi against trolls, ogres, and human remnants. With his wife Korin, he seeks a lasting foothold for the Horde in the region.",
  "sections": [
   {
    "title": "Warden of Hammerfall",
-   "body": "Drum Fel commands Hammerfall’s defenses and the Horde’s push into Arathi. From the fortified refuge, he faces rival factions on every side. The Witherbark forest trolls and the Boulderfist ogres hold Boulder'gor and Boulderfist Hall. Drum knows Hammerfall cannot thrive by keeping to itself; its neighbors’ strength must be broken. He sends veteran champions into hostile territory to disrupt these threats before they can strike the Horde encampment.",
+   "body": "Drum Fel commands Hammerfall’s defenses and leads the Horde’s push into Arathi. From this fortified refuge, he faces rival factions on every side. The Witherbark forest trolls and Boulderfist ogres hold Boulder'gor and Boulderfist Hall. Drum knows Hammerfall cannot thrive in isolation, so their strength must be broken. He sends veteran champions into hostile territory to disrupt these threats before they can strike the encampment.",
    "spoiler": 0
   },
   {
    "title": "The Threat in Stromgarde",
-   "body": "Drum Fel carries his campaign into Stromgarde Keep, where Boulderfist ogres have made their stand among the ruins of the fallen human kingdom. Years ago, Drum defeated the ogre brute Or'Kalar, and the ogre has not forgotten. Or'Kalar now waits inside Stromgarde, seeking vengeance. Korin, Drum’s wife, quietly works to hide Or'Kalar’s presence from her husband. She relies on outside adventurers to remove the threat before Drum charges into an ambush.",
+   "body": "Drum Fel carries his campaign into Stromgarde Keep, where Boulderfist ogres hold among the ruins of the fallen human kingdom. Years ago, Drum defeated the ogre brute Or'Kalar, who has not forgotten the defeat. Now Or'Kalar waits inside Stromgarde, seeking vengeance. Korin, Drum’s wife, quietly hides his presence from her husband. She relies on outside adventurers to remove the threat before Drum charges into an ambush.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is drum fel",
     "hammerfall drum"
    ],
-   "answer": "Drum Fel leads the Horde’s military efforts from Hammerfall in the Arathi Highlands, directing campaigns against rival factions in the region."
+   "answer": "Drum Fel leads the Horde’s military effort from Hammerfall in the Arathi Highlands. He directs campaigns against rival factions in the region."
   },
   {
    "q": "Where can Drum Fel be found?",
@@ -64,17 +64,17 @@
     "drum fel enemies",
     "who does drum fel fight"
    ],
-   "answer": "Drum Fel directs strikes against the Boulderfist ogres at Boulder'gor, Boulderfist Hall, and Stromgarde Keep, along with the nearby Witherbark troll tribe."
+   "answer": "Drum Fel directs strikes against the Boulderfist ogres at Boulder'gor, Boulderfist Hall, and Stromgarde Keep. He also targets the nearby Witherbark troll tribe."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde warriors advancing through the Eastern Kingdoms, Drum Fel coordinates the military effort to secure the fragile lifeline between the Undercity and the southern territories."
+   "text": "For Horde warriors advancing through the Eastern Kingdoms, Drum Fel coordinates the effort to secure the fragile lifeline between the Undercity and the southern territories."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, Drum Fel shows the hard resolve needed to rebuild orcish lives in the Eastern Kingdoms, holding ground in the land where the internment camps once stood."
+   "text": "As an orc, Drum Fel shows the hard resolve needed to rebuild orcish lives in the Eastern Kingdoms. He holds ground in the land where the internment camps once stood."
   }
  ],
  "keywords": [
@@ -99,5 +99,5 @@
  "attribution": [
   "Drum Fel"
  ],
- "style": 1
+ "style": 2
 }

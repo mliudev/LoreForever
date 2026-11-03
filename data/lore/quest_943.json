@@ -17,16 +17,16 @@
   "wiki": "The Absent Minded Prospector (5)",
   "chain": []
  },
- "summary": "In Darkshore, Remtravel's excavations set a search in motion. In Menethil Harbor, Archaeologist Flagongut hopes to join Remtravel's finds with his own fossil and the lost Stone of Relu to reveal the relics' hidden powers.",
+ "summary": "In Darkshore, Remtravel's dig sends his search across the Great Sea. In Menethil Harbor, Archaeologist Flagongut hopes to join Remtravel's finds with his own fossil and the lost Stone of Relu, revealing the relics' hidden powers.",
  "sections": [
   {
    "title": "Cross-Continental Archaeology",
-   "body": "You once helped the distracted Prospector Remtravel during an escort through northern Darkshore. His search now reaches across the Great Sea to the Wetlands marshes, where Prospector Whelgar keeps Flagongut's original fossil at his excavation site. After reviewing the collected finds, Archaeologist Flagongut believes a key artifact, the Stone of Relu, can unlock the mysterious powers within the fossils.",
+   "body": "You once helped the distracted Prospector Remtravel during an escort through northern Darkshore. Now the search crosses the Great Sea to the Wetlands marshes. Prospector Whelgar keeps Flagongut's original fossil at his excavation site. After reviewing the finds, Archaeologist Flagongut believes the Stone of Relu can unlock the mysterious powers within the fossils.",
    "spoiler": 0
   },
   {
    "title": "Lost to the Marshes",
-   "body": "Before Flagongut could meet Whelgar, mottled raptors ambushed his caravan along the road and swallowed the Stone of Relu. To piece together the mystery, Flagongut needs you to hunt the beasts, recover the stone, and retrieve his original fossil from Whelgar's camp. With both fossils and the key assembled, the dwarven researchers hope to learn the relics' true origin and power.",
+   "body": "Before Flagongut could meet Whelgar, mottled raptors ambushed his caravan on the road and swallowed the Stone of Relu. To piece together the mystery, Flagongut needs you to hunt the beasts, recover the stone, and retrieve his original fossil from Whelgar's camp. With both fossils and the key assembled, the dwarven researchers hope to learn the relics' true origin and power.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "menethil harbor connection",
     "why send to wetlands"
    ],
-   "answer": "The Explorers' League works across Kalimdor and the Eastern Kingdoms. Chief Archaeologist Greywhisker sent Remtravel's fossil from Darkshore across the sea to Archaeologist Flagongut in the Wetlands, joining the two dig sites through shared research."
+   "answer": "The Explorers' League works across Kalimdor and the Eastern Kingdoms. Chief Archaeologist Greywhisker sent Remtravel's fossil from Darkshore across the sea to Archaeologist Flagongut in the Wetlands. Their shared research joins the two dig sites."
   },
   {
    "q": "What is the Stone of Relu?",
@@ -47,7 +47,7 @@
     "what is relu stone",
     "relu artifact"
    ],
-   "answer": "The Stone of Relu is an ancient relic recovered by Archaeologist Flagongut. He believes it can act as a cipher or catalyst, unlocking dormant magical secrets preserved in the fossils excavated in Darkshore and the Wetlands."
+   "answer": "The Stone of Relu is an ancient relic recovered by Archaeologist Flagongut. He believes it can serve as a cipher or catalyst, unlocking dormant magical secrets preserved in fossils excavated in Darkshore and the Wetlands."
   },
   {
    "q": "Who is Archaeologist Flagongut?",
@@ -80,7 +80,7 @@
     "fossil power",
     "what does the fossil do"
    ],
-   "answer": "Flagongut believes the fossils hold hidden power and secrets of the past, and that the Stone of Relu is the key to unlocking them."
+   "answer": "Flagongut believes the fossils hold hidden power and secrets of the past. He believes the Stone of Relu is the key to unlocking them."
   }
  ],
  "angles": [
@@ -114,5 +114,5 @@
  "attribution": [
   "The Absent Minded Prospector (5)"
  ],
- "style": 1
+ "style": 2
 }

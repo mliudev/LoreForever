@@ -10,16 +10,16 @@
    "quest:2478"
   ]
  },
- "summary": "At the Venture Company tower near the Sludge Fen, a stockpile of potent poison lies locked away. The mixture bears the name of Zanzil, a jungle troll witch doctor, and draws the Shattered Hand's attention.",
+ "summary": "At the Venture Company tower near the Sludge Fen, a cache of Zanzil's Altered Mixture lies locked away. The potent poison bears the name of Zanzil, a jungle troll witch doctor.",
  "sections": [
   {
    "title": "A Toxic Enterprise",
-   "body": "North of the Sludge Fen in the Barrens, the Venture Company holds a tower outpost. At its summit, Grand Foreman Puzik Gallywix keeps a cache of altered mixture bearing the name of the troll witch doctor Zanzil in his private strongbox. A poison has weakened everyone in the tower, leaving its goblin inhabitants vulnerable to a bold intruder.",
+   "body": "North of the Sludge Fen in the Barrens, the Venture Company holds a tower outpost. Grand Foreman Puzik Gallywix keeps a cache of altered mixture bearing the name of the troll witch doctor Zanzil in his private strongbox at the summit. A poison has weakened everyone in the tower, leaving its goblin inhabitants vulnerable to a bold intruder.",
    "spoiler": 0
   },
   {
    "title": "Recovery for the Shattered Hand",
-   "body": "The Shattered Hand, a secretive rogue guild beneath Orgrimmar, has taken notice of dangerous alchemical materials so close to Durotar. Master trainer Shenthul sends operatives to storm the tower, kill Gallywix, and break open his lockbox. The guild seeks both to neutralize the threat and to study the mixture for its own intelligence work. Recovering the volatile cache demands strong infiltration skills. The contaminated container's toxins can leave whoever handles it exposed and debilitated.",
+   "body": "The Shattered Hand is a secretive rogue guild beneath Orgrimmar. Master trainer Shenthul sends operatives to storm the tower, kill Gallywix and break open his lockbox. The guild seeks to neutralize the threat and study the mixture for its own intelligence work. Recovering the volatile cache calls for strong infiltration skills. Its contaminated container can expose whoever handles it to debilitating toxins.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is the cache",
     "zanzil potion"
    ],
-   "answer": "Zanzil's Altered Mixture is a potent poison named for the troll witch doctor Zanzil. A cache of it lies locked in the Venture Company tower near the Sludge Fen, where a poison has weakened everyone inside."
+   "answer": "Zanzil's Altered Mixture is a potent poison named for the troll witch doctor Zanzil. A cache lies locked in the Venture Company tower near the Sludge Fen, where poison has weakened everyone inside."
   },
   {
    "q": "Where is the cache found?",
@@ -49,7 +49,7 @@
     "why does shenthul want it",
     "shattered hand mission"
    ],
-   "answer": "Shenthul and the Shattered Hand seek to neutralize the Venture Company operation right on the Horde's doorstep and recover the compound for their own intelligence studies."
+   "answer": "Shenthul and the Shattered Hand seek to neutralize the Venture Company operation on the Horde's doorstep and recover the compound for their own intelligence studies."
   },
   {
    "q": "How do you open the chest containing the cache?",
@@ -58,13 +58,13 @@
     "open zanzil chest",
     "lockpicking zanzil cache"
    ],
-   "answer": "The chest has delicate tumbler locks that call for advanced lockpicking skill, and the contaminated container can expose its handler to debilitating toxins."
+   "answer": "The chest has delicate tumbler locks that call for advanced lockpicking skill. Its contaminated container can expose its handler to debilitating toxins."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "For Horde rogues, retrieving the mixture is an essential rite of passage, proving mastery of lockpicking, pickpocketing, and poison handling in service to the Shattered Hand."
+   "text": "For Horde rogues, retrieving the mixture is a rite of passage. It proves mastery of lockpicking, pickpocketing and poison handling in service to the Shattered Hand."
   },
   {
    "target": "faction:Horde",
@@ -96,5 +96,5 @@
   "Cache of Zanzil's Altered Mixture",
   "Mission: Possible But Not Probable"
  ],
- "style": 1
+ "style": 2
 }

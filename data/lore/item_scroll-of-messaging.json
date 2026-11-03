@@ -10,11 +10,11 @@
    "quest:1077"
   ]
  },
- "summary": "In Stonetalon, Gaxim Rustfizzle has a plan for the Scroll of Messaging. The gnome engineer means to use its sending spell to trigger remote explosives.",
+ "summary": "In Stonetalon, Gaxim Rustfizzle prepares to send a message that will set off explosives from afar.",
  "sections": [
   {
    "title": "A Volatile Message",
-   "body": "Gaxim Rustfizzle plans to turn a message into a blast at the Venture Company's logging operation. He will combine the scroll's transmission incantation with volatile NG-5 charges. The explosion is meant to distract the guards, giving operatives time to slip past and steal engineering schematics and confidential correspondence.",
+   "body": "At the Venture Company's logging operation, Gaxim Rustfizzle will turn a message into a blast. He plans to join the scroll's transmission incantation with volatile NG-5 charges. The explosion will draw the guards away. Then operatives can slip past and steal engineering schematics and confidential correspondence.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does scroll of messaging do",
     "why gaxim wants scroll"
    ],
-   "answer": "Gaxim Rustfizzle uses the Scroll of Messaging's transmission magic as a remote trigger. Paired with NG-5, it lets him set off an explosion from a distance."
+   "answer": "Gaxim Rustfizzle uses the Scroll of Messaging's transmission magic to trigger NG-5 from afar. Together, they let him set off an explosion at a distance."
   },
   {
    "q": "Who receives this scroll?",
@@ -53,13 +53,13 @@
     "what is ng-5",
     "ng5 explosive"
    ],
-   "answer": "NG-5 is an explosive chemical charge used by Gaxim Rustfizzle. Combined with the scroll's magical signal, it forms a remote detonator."
+   "answer": "NG-5 is an explosive chemical charge used by Gaxim Rustfizzle. Joined to the scroll's magical signal, it forms a remote detonator."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The scroll shows how gnomish engineering can put arcane magic to use as a receiver for remote explosives."
+   "text": "The scroll shows how gnomish engineering can use arcane magic to receive a signal and set off explosives from afar."
   },
   {
    "target": "faction:Alliance",
@@ -86,5 +86,5 @@
   "Scroll of Messaging",
   "Special Delivery for Gaxim"
  ],
- "style": 1
+ "style": 2
 }

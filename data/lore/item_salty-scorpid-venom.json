@@ -10,16 +10,16 @@
    "quest:1104"
   ]
  },
- "summary": "Salty Scorpid Venom is a caustic fluid harvested from the scorpids stalking the Shimmering Flats in Thousand Needles. Packed with natural salts from the desert floor, it is prized by gnomish rocket racers attempting to engineer volatile, ultra-hot fuel.",
+ "summary": "Across Thousand Needles, Salty Scorpid Venom draws gnomes into a dangerous race for speed. Scorpids on the Shimmering Flats carry the desert floor's mineral salts in their venom, and gnomish racers seek it for fuel.",
  "sections": [
   {
    "title": "A Volatile Combustion Agent",
-   "body": "The scorpids crawling the arid expanse of the Shimmering Flats have adapted to an intensely mineral-rich environment. Over generations, the venom of beasts like the Scorpid Reavers and Scorpid Terrors has absorbed enormous quantities of local salt. Rather than brewing antidotes or standard poisons, gnomish tinkers like Fizzle Brassbolts prize this caustic compound as a prospective additive for high-combustion engine fuel.",
+   "body": "Scorpids on the mineral-rich Shimmering Flats carry salt in their venom. Scorpid Reavers and Scorpid Terrors have absorbed those local salts over generations. Fizzle Brassbolts and other gnomish tinkers prize the caustic venom as a possible additive for high-combustion engine fuel, not for antidotes or ordinary poisons.",
    "spoiler": 0
   },
   {
    "title": "Fueling the Raceway Rivalry",
-   "body": "Out at the Mirage Raceway, the engineering competition between gnomes and goblins drives inventors to test increasingly dangerous materials in their rocket cars. Fizzle Brassbolts believes boiling down the salted venom, treating it with specialized catalysts, and mixing it into propellant tanks will deliver the blazing heat necessary to outrun goblin racers on the salt pans.",
+   "body": "At the Mirage Raceway, gnomes and goblins test ever more dangerous materials in their rocket cars. Fizzle Brassbolts believes boiling down the salted venom, treating it with specialized catalysts, and mixing it into propellant tanks will give his car the fierce heat it needs to outrun goblin racers on the salt pans.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to get scorpid venom",
     "scorpid venom source"
    ],
-   "answer": "It is gathered from the dangerous scorpids that roam the salt flats in Thousand Needles, particularly Scorpid Reavers and Scorpid Terrors."
+   "answer": "Scorpid Reavers and Scorpid Terrors on the Thousand Needles salt flats produce Salty Scorpid Venom."
   },
   {
    "q": "Why is the venom so salty?",
@@ -40,7 +40,7 @@
     "salt flat venom explanation",
     "scorpid salt lore"
    ],
-   "answer": "The scorpids live entirely upon the mineral-crusted ground of the Shimmering Flats. Their physiology absorbs the dense salts of the dried lakebed, infusing their venom glands with a distinct saline concentration."
+   "answer": "The scorpids live on the mineral-crusted ground of the Shimmering Flats. Their bodies absorb the dried lakebed's dense salts, giving their venom a high saline concentration."
   },
   {
    "q": "Who wants this venom and why?",
@@ -49,17 +49,17 @@
     "why does fizzle want venom",
     "fizzle brassbolts quest item"
    ],
-   "answer": "Fizzle Brassbolts, a gnome engineer stationed at the Mirage Raceway, seeks the venom to formulate an experimental fuel mixture that burns hot enough to propel his rocket car to victory."
+   "answer": "Fizzle Brassbolts, a gnome engineer at the Mirage Raceway, seeks the venom for an experimental fuel mixture. He believes it will burn hot enough to propel his rocket car to victory."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Only gnomish ingenuity would consider taking lethal desert venom, combining it with nega-catalysts, and injecting it into a rocket engine just to shave a few seconds off a lap time."
+   "text": "As a gnome, you know the risks of turning lethal desert venom into rocket fuel with nega-catalysts, all to shave seconds off a lap."
   },
   {
    "target": "profession:Engineering",
-   "text": "Inventors tinkering in the Shimmering Flats constantly look beyond conventional petroleum and coal, testing organic toxins as volatile combustion accelerants."
+   "text": "As an engineer, you see inventors on the Shimmering Flats look beyond petroleum and coal. They test organic toxins as volatile accelerants."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  "attribution": [
   "Salty Scorpid Venom",
   "Salt Flat Venom"
- ]
+ ],
+ "style": 2
 }

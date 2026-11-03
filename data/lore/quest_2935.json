@@ -22,11 +22,11 @@
   "qtype": "Group",
   "category": "Hinterlands"
  },
- "summary": "Apothecary Lydon found the venom from the broodguards less potent than the sample you first brought, which points to another kind of spider. Lydon sends you to Master Gadrin in Sen'jin Village, in Durotar, who may know more.",
+ "summary": "In Sen'jin Village, Apothecary Lydon seeks a stronger venom sample. The broodguard venom you brought was weaker than your first sample, so another kind of spider may be the source.",
  "sections": [
   {
    "title": "A Search for Potency",
-   "body": "Apothecary Lydon found the venom taken from the broodguards weaker than the sample you brought first, so it must come from a different spider. Lydon wants a fresh sample of the stronger kind. To learn where it comes from, ask a troll well acquainted with the Witherbark: Master Gadrin, in Sen'jin Village, in Durotar. With luck, Gadrin can name the source of that venom.",
+   "body": "Apothecary Lydon needs a fresh sample of the stronger venom. The broodguard venom you brought was weaker than your first sample, so it must come from another kind of spider.\n\nLydon sends you to Master Gadrin in Sen'jin Village, in Durotar. Gadrin is a troll well acquainted with the Witherbark, and may know where the venom comes from.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why go to senjin",
     "lydon gadrin"
    ],
-   "answer": "The broodguard venom was weaker than the first sample, which points to a different spider. Gadrin is a troll well acquainted with the Witherbark and may be able to name the source of that venom."
+   "answer": "The broodguard venom was weaker than your first sample, which points to another kind of spider. Master Gadrin knows the Witherbark and may name the venom's source."
   },
   {
    "q": "Where is Master Gadrin located?",
@@ -56,7 +56,7 @@
     "what was before this",
     "previous quest"
    ],
-   "answer": "Before this you brought Apothecary Lydon an undamaged venom sac from the Hinterlands."
+   "answer": "Before this journey, you brought Apothecary Lydon an undamaged venom sac from the Hinterlands."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Consult Master Gadrin"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:827"
   ]
  },
- "summary": "At Skull Rock in Durotar, Burning Blade cultists wear Searing Collars in their rites. The heated torcs burn their flesh as the cultists attune themselves to demonic power.",
+ "summary": "At Skull Rock in Durotar, Searing Collars burn the Burning Blade cultists who wear them. The heated torcs help attune them to demonic power.",
  "sections": [
   {
    "title": "Instruments of Corruption",
-   "body": "The Burning Blade gathers for dark rites in Skull Rock, just east of Orgrimmar. Cultists, neophytes, and thugs wear Searing Collars around their necks, enduring heat that brands and sears their skin. Margoz, a hermit, studies the cruel devices. He suspects the burning and the enchantments bound to the metal attune the wearers to demonic energies. What part do these collars play in the corruption spreading through orc society under the Horde’s nose?",
+   "body": "The Burning Blade gathers at Skull Rock, just east of Orgrimmar, for dark rites. Cultists, neophytes, and thugs wear Searing Collars around their necks. The metal brands and sears their skin as they endure its heat.\n\nMargoz, a hermit, studies the cruel devices. He suspects their burning and enchantments attune the wearers to demonic energies. What part do the collars play in the corruption spreading through orc society under the Horde’s nose?",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who drops searing collars",
     "burning blade collars"
    ],
-   "answer": "Members of the Burning Blade hiding inside Skull Rock wear the collars, including cultists, fanatics, thugs, apprentices, and neophytes."
+   "answer": "Members of the Burning Blade hiding inside Skull Rock wear the collars. They include cultists, fanatics, thugs, apprentices, and neophytes."
   },
   {
    "q": "Why do the cultists burn their own flesh?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you may recognize Searing Collars as crude conduits that channel fel corruption into mortal flesh."
+   "text": "As a warlock, you may know Searing Collars as crude conduits that channel fel corruption into mortal flesh."
   },
   {
    "target": "race:Orc",
@@ -86,5 +86,5 @@
   "Searing Collar",
   "Skull Rock (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Hinterlands"
  },
- "summary": "Smith Slagtree of Revantusk Village says Vilebranch trolls invaded the village and stole his tools. He keeps spare tools, but the stolen set was a gift from a kind-hearted gnome who saved his life when he was a young orc, and he wants it back.",
+ "summary": "In Revantusk Village, Smith Slagtree seeks tools stolen by Vilebranch trolls. A kind-hearted gnome gave him the set after saving his life when he was a young orc.",
  "sections": [
   {
    "title": "A Gift From a Gnome",
-   "body": "Vilebranch trolls invaded Revantusk Village and stole Smith Slagtree's tools. He has backup tools, but the stolen set was a gift from a kind-hearted gnome who saved his life when he was a young orc. He tells you the tools mean the world to him and asks you to recover them.",
+   "body": "Vilebranch trolls took Smith Slagtree's tools when they invaded Revantusk Village. He has spares, but the stolen set came from a kind-hearted gnome who saved his life when he was a young orc. The gift means the world to Slagtree, so he asks you to recover it.",
    "spoiler": 0
   },
   {
    "title": "Where the Tools Were Seen",
-   "body": "Slagtree says Markhor reported seeing the tools near the temples of Agol'watha and Shaol'watha, in the northeast of the Hinterlands. He adds that you should also check Skulk Rock, and warns that the Vilebranch trolls of the region are ruthless and murderous.",
+   "body": "Markhor saw the tools near the temples of Agol'watha and Shaol'watha in the northeast of the Hinterlands. Slagtree also says to check Skulk Rock. The Vilebranch trolls there are ruthless and murderous.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "slagtree lost tools lore",
     "why are slagtrees tools special"
    ],
-   "answer": "The set was a gift from a kind-hearted gnome who saved Slagtree's life when he was a young orc. He has backup tools, but he says these mean the world to him."
+   "answer": "A kind-hearted gnome gave the tools to Slagtree after saving his life when he was a young orc. Slagtree has spares, but says the gifted set means the world to him."
   },
   {
    "q": "Who stole the tools from Revantusk Village?",
@@ -47,7 +47,7 @@
     "who took the tools",
     "who stole slagtrees tools"
    ],
-   "answer": "Vilebranch trolls invaded the village and stole Smith Slagtree's tools."
+   "answer": "Vilebranch trolls stole Smith Slagtree's tools during their invasion of Revantusk Village."
   },
   {
    "q": "Where were the missing tools taken?",
@@ -56,7 +56,7 @@
     "where to find the tools",
     "slagtree tool location"
    ],
-   "answer": "Markhor saw them near the temples of Agol'watha and Shaol'watha, in the northeast of the Hinterlands. Slagtree also says to check Skulk Rock."
+   "answer": "Near the temples of Agol'watha and Shaol'watha, in the northeast of the Hinterlands, where Markhor saw them. Slagtree also points to Skulk Rock."
   },
   {
    "q": "Who reported seeing the tools after the raid?",
@@ -64,7 +64,7 @@
     "who saw the tools",
     "who reported the stolen tools"
    ],
-   "answer": "Markhor is the one who brought Slagtree word of where the tools were seen."
+   "answer": "Markhor told Smith Slagtree where the tools had been seen."
   }
  ],
  "angles": [],
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Wowpedia: Vilebranch Hooligans"
- ]
+ ],
+ "style": 2
 }

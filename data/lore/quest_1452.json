@@ -27,16 +27,16 @@
    "Into The Temple of Atal'Hakkar"
   ]
  },
- "summary": "Rhapsody Shindigger, found in the Hinterlands, will talk about what happened down in the swamp only if given something stiff to drink. A Kalimdor Kocktail needs Roc gizzards from Tanaris and Groddoc and Ironfur livers from Feralas.",
+ "summary": "In the Hinterlands, Rhapsody Shindigger is ready to tell you what happened in the swamp, once he has a stiff drink. His Kalimdor Kocktail needs Roc gizzards from Tanaris and Groddoc and Ironfur livers from Feralas.",
  "sections": [
   {
    "title": "A Stiff Drink",
-   "body": "Rhapsody greets Brohann's messenger with a hiccup. The two of them had quite an adventure, and the tale of what happened down in the swamp, which was not a pretty scene, will only come out with something stiff to drink. Rhapsody has a recipe in mind, the Kalimdor Kocktail, and promises to tell everything once it is brewed.",
+   "body": "Rhapsody greets Brohann's messenger with a hiccup. The two shared quite an adventure, but Rhapsody will tell you what happened in the swamp only after a stiff drink. The tale is not pretty. He has a recipe in mind: the Kalimdor Kocktail. Once it is brewed, he promises to tell you everything.",
    "spoiler": 0
   },
   {
    "title": "Ingredients from Kalimdor",
-   "body": "The kocktail needs three Roc gizzards from Tanaris, three Groddoc livers from Feralas and three Ironfur livers, also from Feralas. Even Rhapsody's finest malt is not strong enough to face the memory of that fateful flight over the swamp.",
+   "body": "Rhapsody needs three Roc gizzards from Tanaris, three Groddoc livers from Feralas, and three Ironfur livers from Feralas. Even his finest malt cannot help him face the memory of that fateful flight over the swamp.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "why roc gizzards",
     "why livers"
    ],
-   "answer": "Three Roc gizzards, three Groddoc livers and three Ironfur livers. Rhapsody wants a stiff drink before talking about what happened in the swamp."
+   "answer": "Rhapsody wants three Roc gizzards, three Groddoc livers, and three Ironfur livers for the Kalimdor Kocktail. He wants a stiff drink before telling you what happened in the swamp."
   },
   {
    "q": "Where do the ingredients come from?",
@@ -66,7 +66,7 @@
     "previous quest",
     "brohan"
    ],
-   "answer": "Brohann, whom Rhapsody calls a crazy fool, sent you. Before that Gryphon Master Talonaxe told you where Rhapsody could be found."
+   "answer": "Brohann sent you to Rhapsody Shindigger, who calls Brohann a crazy fool. Before that, Gryphon Master Talonaxe told you where to find Rhapsody."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Rhapsody's Kalimdor Kocktail"
- ]
+ ],
+ "style": 2
 }

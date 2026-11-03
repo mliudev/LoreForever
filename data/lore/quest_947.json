@@ -17,16 +17,16 @@
   "wiki": "Cave Mushrooms",
   "chain": []
  },
- "summary": "Barithras Moonshade sends you behind Cliffspring Falls for rare fungi. In Auberdine, the night elf prepares a specialized potion and asks you to investigate troubling warnings from the Grove of the Ancients.",
+ "summary": "In Darkshore, Cave Mushrooms are needed for a potion Barithras Moonshade prepares in Auberdine. He asks you to gather rare fungi behind Cliffspring Falls and investigate warnings from the Grove of the Ancients.",
  "sections": [
   {
    "title": "A Recipe Behind the Falls",
-   "body": "Barithras Moonshade needs scaber stalks and a death cap for a potent mixture. Both grow in a damp cavern hidden behind Cliffspring Falls in northeastern Darkshore. Gathering these fungi is more dangerous than picking ordinary woodland herbs.",
+   "body": "Barithras Moonshade needs scaber stalks and a death cap for a potent mixture. Both grow in a damp cavern behind Cliffspring Falls in northeastern Darkshore. Gathering them is more dangerous than picking ordinary woodland herbs.",
    "spoiler": 0
   },
   {
    "title": "The Ancients' Warning",
-   "body": "The tree guardians at the Grove of the Ancients warned Barithras away from the cavern. They sense a foul presence nesting in the mountain caves. Moonshade sends a hardy traveler to learn whether the elders' fears of a creeping evil in northern Darkshore are well founded.",
+   "body": "The tree guardians at the Grove of the Ancients warned Barithras away from the cavern. They sense a foul presence in the mountain caves. Moonshade sends you to learn whether the elders’ fears of a creeping evil in northern Darkshore are well founded.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "barithras moonshade location",
     "cave mushrooms quest start"
    ],
-   "answer": "You receive the assignment from Barithras Moonshade, who lives in Auberdine, the night elf settlement on Darkshore's central coast."
+   "answer": "Barithras Moonshade gives you the assignment in Auberdine, the night elf settlement on Darkshore’s central coast."
   },
   {
    "q": "Where are the mushrooms located?",
@@ -47,7 +47,7 @@
     "death cap location",
     "cave behind waterfall darkshore"
    ],
-   "answer": "The mushrooms grow in a cavern hidden behind Cliffspring Falls, along the mountain face northeast of Auberdine."
+   "answer": "The mushrooms grow in a cavern behind Cliffspring Falls, along the mountain face northeast of Auberdine."
   },
   {
    "q": "Why won't Barithras Moonshade retrieve the mushrooms himself?",
@@ -71,7 +71,7 @@
     "next quest after cave mushrooms",
     "onu follow up"
    ],
-   "answer": "After you verify the presence in the cave and deliver the fungi, you travel south to the ancient protector Onu at the Grove of the Ancients."
+   "answer": "After you verify the presence in the cave and deliver the fungi, you travel south to Onu, the ancient protector at the Grove of the Ancients."
   },
   {
    "q": "Why are the Ancients concerned about Cliffspring Falls?",
@@ -85,15 +85,15 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you may value the hunt for death caps and scaber stalks. These particular fungi grow in dark caverns rather than lush woodland soil."
+   "text": "As an herbalist, you may value the hunt for death caps and scaber stalks. These fungi grow in dark caverns rather than lush woodland soil."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know the Grove of the Ancients is deeply attuned to Darkshore's natural balance. Any disturbance beneath the falls concerns the Kaldorei."
+   "text": "As a night elf, you know the Grove of the Ancients is deeply attuned to Darkshore’s natural balance. Any disturbance beneath the falls concerns the Kaldorei."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you know Auberdine is the Alliance's main stronghold on the Kalimdor coast. Evil spreading in the eastern mountains threatens the whole shore."
+   "text": "As an Alliance member, you know Auberdine is the Alliance’s main stronghold on the Kalimdor coast. Evil spreading in the eastern mountains threatens the whole shore."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Cave Mushrooms"
  ],
- "style": 1
+ "style": 2
 }

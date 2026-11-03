@@ -8,11 +8,11 @@
   "wiki": "Zor Lonetree",
   "refs": 1
  },
- "summary": "At Grommash Hold, Zor Lonetree studies the Horde’s concerns beyond Durotar. His knowledge of Alliance politics helps the court judge foreign affairs across Kalimdor.",
+ "summary": "At Grommash Hold, Zor Lonetree weighs the Horde’s concerns beyond Durotar. His grasp of Alliance politics helps the court judge affairs across Kalimdor.",
  "sections": [
   {
    "title": "Advisor in Grommash Hold",
-   "body": "Zor Lonetree watches beyond Durotar from Grommash Hold. A shrewd advisor to the Horde’s high leadership, he has an unusually keen understanding of human and Alliance politics. When foreign curiosities reach Orgrimmar, he studies them; when trouble stirs among the land’s spirits, he directs travelers toward it. He has examined noble jewelry recovered from human settlements and followed disturbances among the spirits of the Stonetalon Mountains, keeping the warchief’s court informed on both political and spiritual matters.",
+   "body": "From Grommash Hold, Zor Lonetree watches beyond Durotar. He advises the Horde’s high leadership and understands human and Alliance politics with unusual care. When foreign curiosities reach Orgrimmar, he studies them. When trouble stirs among the land’s spirits, he directs travelers toward it.\n\nHis work keeps the warchief’s court informed on political and spiritual matters. Zor Lonetree has examined noble jewelry recovered from human settlements. He has also followed disturbances among the spirits of the Stonetalon Mountains.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is zor",
     "zor orgrimmar"
    ],
-   "answer": "Zor Lonetree advises the Horde from inside Grommash Hold in Orgrimmar. His keen grasp of Alliance politics and interest in Kalimdor’s spiritual matters make him a useful counselor."
+   "answer": "Zor Lonetree advises the Horde from Grommash Hold in Orgrimmar. His keen grasp of Alliance politics and interest in Kalimdor’s spiritual matters make him a useful counselor."
   },
   {
    "q": "Where can I find Zor Lonetree?",
@@ -41,7 +41,7 @@
     "zor lonetree quests",
     "the spirits of stonetalon zor"
    ],
-   "answer": "Zor Lonetree sends Horde champions to aid the spirits of Stonetalon Peak and soothe elemental unrest in the Stonetalon Mountains. He also analyzes strange human relics that scouts bring to the capital."
+   "answer": "Zor Lonetree sends Horde champions to aid the spirits of Stonetalon Peak and soothe elemental unrest in the Stonetalon Mountains. He also studies strange human relics brought to the capital by scouts."
   },
   {
    "q": "Why is Zor Lonetree knowledgeable about the Alliance?",
@@ -49,7 +49,7 @@
     "zor lonetree alliance lore",
     "why does zor know alliance politics"
    ],
-   "answer": "Zor Lonetree specializes in foreign affairs and statecraft. He studies human aristocratic customs and Alliance movements, helping him read noble signets, regalia, and tactical motives that other orcs might overlook."
+   "answer": "Zor Lonetree studies foreign affairs and statecraft. He examines human aristocratic customs and Alliance movements, which helps him read noble signets, regalia, and tactical motives that other orcs might overlook."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Zor Lonetree"
  ],
- "style": 1
+ "style": 2
 }

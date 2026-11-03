@@ -17,16 +17,16 @@
   "wiki": "Call of Water (2)",
   "chain": []
  },
- "summary": "Islen Waterseer sends Horde shamans south through the Barrens to seek Brine. There, they learn what water can cleanse and heal.",
+ "summary": "Horde shamans journey south through the Barrens at Islen Waterseer's bidding, seeking Brine. There, they learn how water cleanses and heals.",
  "sections": [
   {
    "title": "Lessons of the Tide",
-   "body": "Islen Waterseer teaches that water brings rebirth. Its flow can carve rock, wash away impurities, and mend flesh, but its healing depends on purity. Polluted water brings blight instead of life. Every shaman must understand this balance before seeking communion with water.",
+   "body": "Islen Waterseer teaches that water brings rebirth. It carves rock, washes away impurities, and mends flesh, but only when it is pure. Polluted water brings blight instead of life. Before seeking communion with water, every shaman must understand this balance.",
    "spoiler": 0
   },
   {
    "title": "A Recluse in the Dust",
-   "body": "You travel far south through the arid Barrens to find Brine. Quilboar raids trouble the wastes, yet Brine lives alone without guards or fear. She holds the knowledge and trials that help you bind yourself to water.",
+   "body": "You travel far south through the arid Barrens to find Brine. Quilboar raids trouble the wastes, yet Brine lives alone, without guards or fear. She holds the knowledge and trials that will help you bind yourself to water.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "waterseer",
     "who sends this quest"
    ],
-   "answer": "Islen Waterseer is a shaman master on the Barrens coast, south of the Merchant Coast. She guides Horde shamans through the trials of communion with water spirits."
+   "answer": "Islen Waterseer is a shaman master on the Barrens coast, south of the Merchant Coast. She guides Horde shamans through trials of communion with water spirits."
   },
   {
    "q": "Why live in the southern Barrens surrounded by quilboar?",
@@ -47,7 +47,7 @@
     "brine quilboar",
     "brine location"
    ],
-   "answer": "Brine lives alone in the southern wastes despite constant quilboar harassment. She knows the danger seems foolish to outsiders, but keeps her reasons private and tests whether you have the fortitude to find her."
+   "answer": "Brine lives alone in the southern wastes despite constant quilboar harassment. She knows outsiders may think it foolish, but keeps her reasons private and tests whether you have the fortitude to find her."
   },
   {
    "q": "What is the purpose of the water sapta?",
@@ -56,7 +56,7 @@
     "water sapta use",
     "why get water sapta"
    ],
-   "answer": "A sapta is a ceremonial mixture that changes a shaman’s perception, letting them see and speak with elemental spirits invisible to mortal eyes."
+   "answer": "A sapta is a ceremonial mixture that changes a shaman’s perception. It lets them see and speak with elemental spirits invisible to mortal eyes."
   },
   {
    "q": "What core lesson does water represent to a shaman?",
@@ -65,7 +65,7 @@
     "elemental meaning water",
     "water rebirth"
    ],
-   "answer": "Water brings rebirth, cleansing, and renewal. Pure water can heal, but tainted or stagnant water brings decay and devastation."
+   "answer": "Water brings rebirth, cleansing, and renewal. Pure water can heal, while tainted or stagnant water brings decay and devastation."
   },
   {
    "q": "Who can undertake this journey?",
@@ -73,7 +73,7 @@
     "who gets call of water",
     "is call of water horde only"
    ],
-   "answer": "Horde shamans who have proved their dedication and attuned to earth and fire are sent to undertake the Call of Water trials."
+   "answer": "Horde shamans who have proved their dedication and attuned to earth and fire undertake the Call of Water trials."
   },
   {
    "q": "What threats lie on the path to Brine?",
@@ -81,13 +81,13 @@
     "dangers southern barrens",
     "path to brine"
    ],
-   "answer": "The southern Barrens are dangerous, with aggressive quilboar tribes defending thorned dens and beasts hunting wanderers far from the safety of Crossroads or Camp Taurajo."
+   "answer": "Aggressive quilboar tribes defend their thorned dens in the southern Barrens, and beasts hunt wanderers far from the safety of Crossroads or Camp Taurajo."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, communion with water marks a key step in your growth. It joins the strength of earth and the force of fire with water’s healing power."
+   "text": "As a shaman, communion with water marks a key step in your growth. It joins the strength of earth and force of fire with water’s healing power."
   },
   {
    "target": "faction:Horde",
@@ -114,5 +114,5 @@
  "attribution": [
   "Call of Water (2)"
  ],
- "style": 1
+ "style": 2
 }

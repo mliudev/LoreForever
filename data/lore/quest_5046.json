@@ -25,16 +25,16 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "In Camp Taurajo, Mangletooth offers Razorhide to those who bring him blood shards. The captive quilboar trades Agamaggan’s life essence for a blessing that hardens the skin before battle.",
+ "summary": "In Camp Taurajo, Mangletooth offers a rite to those who bring him blood shards. The captive quilboar trades Agamaggan’s life essence for a blessing that hardens the skin before battle.",
  "sections": [
   {
    "title": "Blessings of the Boar God",
-   "body": "The quilboar trace their power to Agamaggan, the Great Boar who died fighting the Burning Legion thousands of years ago. His blood sank into the Barrens and hardened into crystalline shards, still alive with ancient power. The Horde and quilboar remain sworn enemies, yet Mangletooth, held in a cage at Camp Taurajo, will share sacred knowledge for these fragments.",
+   "body": "The quilboar trace their power to Agamaggan, the Great Boar who died fighting the Burning Legion thousands of years ago. His blood sank into the Barrens and hardened into crystalline shards, still alive with ancient power. The Horde and quilboar remain sworn enemies. Yet Mangletooth, held in a cage at Camp Taurajo, may share sacred knowledge in exchange for these fragments.",
    "spoiler": 0
   },
   {
    "title": "Hardening the Hide",
-   "body": "Quilboar are born with thick hides and protective quills, but their warriors call on Agamaggan to harden their skin against blades and claws. Mangletooth can perform the rite for outsiders, channeling four blood shards to strengthen their defenses and help keep their bones unbroken in the wilds.",
+   "body": "Quilboar are born with thick hides and protective quills. Their warriors call on Agamaggan to harden their skin against blades and claws. Mangletooth can perform the rite for outsiders, channeling four blood shards to strengthen their defenses and help keep their bones unbroken in the wilds.",
    "spoiler": 0
   }
  ],
@@ -130,5 +130,5 @@
  "attribution": [
   "Razorhide"
  ],
- "style": 1
+ "style": 2
 }

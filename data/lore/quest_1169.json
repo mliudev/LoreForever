@@ -15,16 +15,16 @@
   "previous": "",
   "next": "The Brood of Onyxia"
  },
- "summary": "In Brackenwall Village, Draz'Zilb calls Mok'Morokk a craven fool who wallows in power, and says Tharg is wrestling with sorrow and vengeance while vying to lead the clan. Draz'Zilb believes nobody else is concerned with finding who attacked the old home, and asks you for fifteen searing tongues and fifteen searing hearts.",
+ "summary": "In Brackenwall Village, Draz'Zilb seeks the beast that attacked the clan's old home. Draz'Zilb says Mok'Morokk clings to power while Tharg struggles with sorrow and vengeance, and asks you for fifteen searing tongues and fifteen searing hearts.",
  "sections": [
   {
    "title": "A Voice of Reason",
-   "body": "Draz'Zilb says Mok'Morokk wallows in power while Tharg wrestles with sorrow and a thirst for vengeance, so by Draz'Zilb's account nobody else is concerned with who is behind the aggression against the old home. Draz'Zilb notes that you may have expected an ogre to speak like a brute.",
+   "body": "Draz'Zilb says Mok'Morokk is consumed by power while Tharg wrestles with sorrow and a thirst for vengeance. In Draz'Zilb's view, no one else is trying to learn who attacked the clan's old home. The ogre speaks with care, though you might have expected a brute's words.",
    "spoiler": 0
   },
   {
    "title": "Hearts and Tongues",
-   "body": "Draz'Zilb wants tongues and hearts taken from whelps and hatchlings, fifteen of each, in order to trace where this evil comes from. From the burnt young of the black dragon army, Draz'Zilb hopes to learn which wretched beast set her young loose in the ogres' home. Knowing the enemy better, the ogres might destroy them for good and take back Stonemaul Village from ruin. Getting Mok'Morokk to leave this swamp, Draz'Zilb adds, will be a great labor of its own.",
+   "body": "Draz'Zilb asks you to take fifteen tongues and fifteen hearts from the whelps and hatchlings. The burned young belong to the black dragon army, and Draz'Zilb hopes their remains will reveal which beast sent her young into the ogres' home.\n\nIf the ogres learn what kind of beast they face, they may destroy their enemy for good and reclaim Stonemaul Village from ruin. Draz'Zilb says getting Mok'Morokk to leave the swamp will be a great labor of its own.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "ogre mage brackenwall",
     "smart ogre"
    ],
-   "answer": "Draz'Zilb is an ogre in Brackenwall Village who speaks in a formal way rather than like a brute, and who wants to find out who is behind the attack on the clan's old home."
+   "answer": "Draz'Zilb is an ogre in Brackenwall Village who speaks formally rather than like a brute. Draz'Zilb wants to learn who attacked the clan's old home."
   },
   {
    "q": "What does Draz'Zilb want from the whelps and hatchlings?",
@@ -45,7 +45,7 @@
     "why tongues and hearts",
     "identifying the brood purpose"
    ],
-   "answer": "Draz'Zilb wants fifteen searing tongues and fifteen searing hearts. They are meant to help trace which beast set her young loose in the old home."
+   "answer": "Draz'Zilb asks for fifteen searing tongues and fifteen searing hearts from the whelps and hatchlings. Their remains may reveal which beast sent her young into the old home."
   },
   {
    "q": "What does Draz'Zilb think of the clan's leaders?",
@@ -54,7 +54,7 @@
     "tharg and mokmorokk",
     "stonemaul leaders"
    ],
-   "answer": "Draz'Zilb has little respect for Mok'Morokk, calling that ogre a craven fool who lets power go to the head, and speaks of Tharg as someone caught up in sorrow and the hunger for revenge."
+   "answer": "Draz'Zilb has little respect for Mok'Morokk, whom the ogre calls a craven fool consumed by power. Draz'Zilb sees Tharg as caught in sorrow and a thirst for revenge."
   }
  ],
  "angles": [],
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Classic quest text: Identifying the Brood"
- ]
+ ],
+ "style": 2
 }

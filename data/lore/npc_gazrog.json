@@ -8,16 +8,16 @@
   "wiki": "Gazrog",
   "refs": 4
  },
- "summary": "At the Crossroads, Gazrog keeps watch over the Horde’s roads and supply lines. He calls on passing Horde travelers to face threats in the Barrens and search for lost patrols.",
+ "summary": "At the Crossroads, Gazrog watches the Horde’s roads and supply lines. He calls on passing Horde travelers to confront threats in the Barrens and seek lost patrols.",
  "sections": [
   {
    "title": "A Sentinel of the Crossroads",
-   "body": "Gazrog watches over the Crossroads and the roads beyond it. Marauders and beasts threaten the supplies moving through this isolated settlement, so he works with its defenders to keep cargo, coin, and couriers moving. The wilderness demands constant attention, and Gazrog depends on passing travelers to answer trouble beyond the outpost’s stockades.",
+   "body": "Gazrog watches the Crossroads and the roads beyond. Marauders and beasts threaten the supplies moving through this isolated settlement, so he works with its defenders to keep cargo, coin, and couriers moving. The wilderness needs constant attention. Gazrog relies on passing travelers to answer trouble beyond the outpost’s stockades.",
    "spoiler": 0
   },
   {
    "title": "Savannah Hazards",
-   "body": "Gazrog’s watch extends across trails where raptors prey on travelers and quilboar clans ambush scouts. He coordinates responses to highway robberies, including the recovery of stolen Horde shipments. He also keeps track of missing soldiers, among them the grunt Dogran, who is injured and held by the quilboar.",
+   "body": "Gazrog’s watch reaches trails where raptors prey on travelers and quilboar clans ambush scouts. He coordinates responses to highway robberies and the recovery of stolen Horde shipments. He also tracks missing soldiers, including the grunt Dogran, who is injured and held by the quilboar.",
    "spoiler": 0
   }
  ],
@@ -74,7 +74,7 @@
     "do raptors steal things",
     "raptors shiny"
    ],
-   "answer": "No one knows why the raptors steal supplies. They hid the silver in nests at the Raptor Grounds south of Ratchet, and Gazrog wonders if the stories of their intelligence are true."
+   "answer": "No one knows why the raptors steal supplies. They hid the silver in nests at the Raptor Grounds south of Ratchet. Gazrog wonders if the stories of their intelligence are true."
   }
  ],
  "angles": [
@@ -84,7 +84,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know Gazrog as a veteran holding the Crossroads, where keeping the frontier safe takes grit and resolve."
+   "text": "As an orc, you know Gazrog as a veteran holding the Crossroads. Keeping the frontier safe takes grit and resolve."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "Gazrog"
  ],
- "style": 1
+ "style": 2
 }

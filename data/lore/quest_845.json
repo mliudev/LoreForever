@@ -17,16 +17,16 @@
   "wiki": "The Zhevra (Classic)",
   "chain": []
  },
- "summary": "At the Crossroads, Sergra Darkthorn sends young Horde warriors after the zhevra. Their hunt tests the skills needed to face the Barrens' more dangerous beasts.",
+ "summary": "At the Crossroads, Sergra Darkthorn sends young Horde warriors to hunt zhevra. Their trial prepares them for the Barrens' more dangerous beasts.",
  "sections": [
   {
    "title": "A Step Up in the Savanna",
-   "body": "After the plainstriders, Sergra Darkthorn sends you after tougher prey. Zhevras run in herds across the northern and southern Barrens. They are not the savanna's fiercest beasts, but they are swift and stubborn, and their kicks can break bone.",
+   "body": "After the plainstriders, Sergra Darkthorn sets you after tougher prey. Zhevras run in herds across the northern and southern Barrens. They are swift and stubborn, though not the savanna's fiercest beasts. Their kicks can break bone.",
    "spoiler": 0
   },
   {
    "title": "The Trials of Darkthorn",
-   "body": "Sergra uses the hunt to test your growing skill. She asks for four intact hooves as proof of the kill and warns that a zhevra's rear kick can knock a grown tauren onto their haunches. Passing this trial brings you closer to facing the plains' predatory prowlers.",
+   "body": "Sergra uses the hunt to test your growing skill. She asks for four intact hooves as proof of the kill. A zhevra's rear kick can knock a grown tauren onto their haunches. Pass this trial, and you draw closer to facing the plains' predatory prowlers.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver zhevra",
     "sergra darkthorn quest"
    ],
-   "answer": "Sergra Darkthorn, an experienced orc shaman at the Crossroads in the central Barrens, sets this trial to test growing Horde warriors."
+   "answer": "Sergra Darkthorn, an experienced orc shaman at the Crossroads in the central Barrens, sets this trial for growing Horde warriors."
   },
   {
    "q": "Where are the zhevra found?",
@@ -118,5 +118,5 @@
  "attribution": [
   "The Zhevra (Classic)"
  ],
- "style": 1
+ "style": 2
 }

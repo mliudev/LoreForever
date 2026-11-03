@@ -17,16 +17,16 @@
   "wiki": "Curing the Sick (Alliance)",
   "chain": []
  },
- "summary": "Darkshore’s deer are sick, and Curing the Sick asks you to bring them relief. Alanndarian Nightsong gives you salve to treat the poisoned animals before you report to the Cenarion Circle in Moonglade.",
+ "summary": "Across Darkshore, deer are falling sick, and Curing the Sick brings you a way to help them. Alanndarian Nightsong gives you salve for the poisoned animals before you report to the Cenarion Circle in Moonglade.",
  "sections": [
   {
    "title": "A Plague in the Woodlands",
-   "body": "In Darkshore, deer fall sick from the Cliffspring River south to the border of Ashenvale. They wander the misty woods, weakened by toxins in the soil and streams. After you gather the needed reagents, Alanndarian Nightsong gives you freshly brewed animal salve to treat the afflicted deer.",
+   "body": "Deer are falling sick across Darkshore, from the Cliffspring River south to the border of Ashenvale. They wander the misty woods, weakened by toxins in the soil and streams. After you gather the needed reagents, Alanndarian Nightsong gives you freshly brewed animal salve to treat them.",
    "spoiler": 0
   },
   {
    "title": "Eyes Unveiled in Moonglade",
-   "body": "After you treat ten deer, you report to Dendrite Starblaze in Moonglade. Auberdine gains some relief, but Dendrite sees the herds’ sickness as a sign of deeper corruption spreading across northern Kalimdor. He warns that leaders in Darnassus debate while the rot advances, and the Cenarion Circle must stay alert to its reach across the continent.",
+   "body": "After you treat ten deer, you report to Dendrite Starblaze in Moonglade. Auberdine gains some relief, but Dendrite sees the herds’ sickness as a sign of deeper corruption spreading across northern Kalimdor. He warns that leaders in Darnassus debate while the rot advances. The Cenarion Circle must stay alert to its reach across the continent.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "darkshore sickly deer",
     "what poisoned the deer"
    ],
-   "answer": "The deer are sick from corruption spreading through Darkshore’s soil and water, from the Cliffspring River south to Ashenvale. They graze on tainted plants and drink the affected water, growing weak and diseased."
+   "answer": "Corruption in Darkshore’s soil and water is making the deer sick, from the Cliffspring River south to Ashenvale. They graze on tainted plants and drink the affected water, growing weak and diseased."
   },
   {
    "q": "Who prepares the curative salve used on the deer?",
@@ -74,7 +74,7 @@
     "where are the deer",
     "darkshore deer location"
    ],
-   "answer": "The sickly deer roam across Darkshore, from south of the Cliffspring River, just north of Auberdine, to the border of Ashenvale."
+   "answer": "Sickly deer roam across Darkshore, from south of the Cliffspring River, just north of Auberdine, to the border of Ashenvale."
   },
   {
    "q": "What does a druid learn from completing this task?",
@@ -83,7 +83,7 @@
     "cure poison training druid",
     "lesson of curing the sick"
    ],
-   "answer": "You learn to cleanse poison through practical work: treating suffering forest animals with a physical cure joins botanical remedies with spiritual mastery over poison."
+   "answer": "You learn to cleanse poison through practical work. Treating suffering forest animals with a physical cure joins botanical remedies with spiritual mastery over poison."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know Darkshore as the edge of your people’s settled lands. The sickness among its deer is an ominous sign for the kaldorei."
+   "text": "As a night elf, you know Darkshore as the edge of your people’s settled lands. Sickness among its deer is an ominous sign for the kaldorei."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Curing the Sick (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

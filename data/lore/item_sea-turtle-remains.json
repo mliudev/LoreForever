@@ -13,16 +13,16 @@
    "quest:4732"
   ]
  },
- "summary": "Along Darkshore, giant sea turtles lie dead on the coast and beneath the waves. Their remains go to researchers in Auberdine, who study the growing number of strandings.",
+ "summary": "Along Darkshore, Sea Turtle Remains gather on the coast and beneath the waves. Researchers in Auberdine study the growing number of dead sea turtles.",
  "sections": [
   {
    "title": "A Disturbing Strand",
-   "body": "Giant sea creatures are washing ashore along Darkshore, while others lie beneath the water near sunken wrecks. In Auberdine, Gwennyth Bly'Leggonde oversees the collection of bone fragments and tissue from the bodies. The Temple of the Moon in Darnassus urgently requests these samples. Its scholars and priestesses fear the creatures may be fleeing an unnatural disturbance in the waters around Teldrassil.",
+   "body": "Giant sea creatures wash ashore along Darkshore, while others lie beneath the water near sunken wrecks. In Auberdine, Gwennyth Bly'Leggonde gathers bone fragments and tissue from their bodies. The Temple of the Moon in Darnassus urgently asks for these samples. Its scholars and priestesses fear the creatures are fleeing an unnatural disturbance in the waters around Teldrassil.",
    "spoiler": 0
   },
   {
    "title": "Scavengers of the Shallows",
-   "body": "Recovering the remains is dangerous. Murloc tribes along the coast routinely gather around the huge carcasses, picking bones clean and nesting beside them. Scholars need fresh bone fragments and tissue before the scavengers destroy evidence that could explain the creatures' fatal migration.",
+   "body": "Recovering the remains is dangerous. Murloc tribes along the coast gather around the huge carcasses, picking their bones clean and nesting beside them. Scholars need fresh bone fragments and tissue before the scavengers destroy evidence that might explain the creatures' fatal migration.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "turtle bones use",
     "sea turtle quest darkshore"
    ],
-   "answer": "Gwennyth Bly'Leggonde collects the remains in Auberdine and prepares them for scholars and priestesses at the Temple of the Moon in Darnassus. They are trying to learn why so many ocean creatures are dying along Darkshore."
+   "answer": "In Auberdine, Gwennyth Bly'Leggonde collects remains for the scholars and priestesses at the Temple of the Moon in Darnassus. They seek to learn why so many ocean creatures are dying along Darkshore."
   },
   {
    "q": "Why are sea turtles beaching themselves in Darkshore?",
@@ -43,7 +43,7 @@
     "turtle strandings darkshore",
     "beached sea creatures"
    ],
-   "answer": "Researchers have not found the cause, but they fear marine life is fleeing something unsettling in the waters around Teldrassil. The strandings are not isolated incidents; they point to widespread distress among marine life."
+   "answer": "Researchers have not found the cause, but they fear marine life is fleeing an unsettling presence in the waters around Teldrassil. These strandings point to widespread distress among marine life."
   },
   {
    "q": "Where are these carcasses found?",
@@ -59,13 +59,13 @@
     "who wants the remains",
     "gwennyth blyleggonde"
    ],
-   "answer": "Gwennyth Bly'Leggonde collects the remains in Auberdine and sends detailed reports to the Sisterhood of Elune at the Temple of the Moon in Darnassus."
+   "answer": "In Auberdine, Gwennyth Bly'Leggonde collects the remains and sends detailed reports to the Sisterhood of Elune at the Temple of the Moon in Darnassus."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The mass stranding of sea life off your ancestral coast is an ominous sign, especially since the suspected cause lies in the waters encircling Teldrassil."
+   "text": "The mass stranding of sea life off your ancestral coast is an ominous sign. The suspected cause lies in the waters encircling Teldrassil."
   },
   {
    "target": "class:Druid",
@@ -97,5 +97,5 @@
   "Washed Ashore (2)",
   "Beached Sea Turtle (1)"
  ],
- "style": 1
+ "style": 2
 }

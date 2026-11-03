@@ -10,16 +10,16 @@
    "quest:1442"
   ]
  },
- "summary": "Around Blackfathom Deeps, naga rites leave Kor gems corrupted. Spellcasters prize the stones for holding arcane force, but this taint must be cleansed before a gem can be used in righteous smithing.",
+ "summary": "Near Blackfathom Deeps, naga rites taint Kor gems. Sorcerers prize their arcane power, though the corruption must be cleansed before a gem can be used in righteous smithing.",
  "sections": [
   {
    "title": "Vessels of Tainted Power",
-   "body": "Kor gems can capture and hold great stores of magic, making them prized by sorcerers and enchanted smiths. Near the ruins of Blackfathom Deeps, naga oracles and tide priestesses claim the stones for their shadowy rites. Their foul enchantments warp each gem with corruption from the sea. The taint does not drain the stone's latent power, so those who need a potent focus still seek gems among the naga.",
+   "body": "Kor gems hold great stores of magic, making them useful to sorcerers and enchanted smiths. Near the ruins of Blackfathom Deeps, naga oracles and tide priestesses claim the stones for their rites. Their enchantments corrupt each gem with magic from the sea. The taint leaves the stone's latent power intact, so those seeking a potent focus still look among the naga.",
    "spoiler": 0
   },
   {
    "title": "Purification and Smithing",
-   "body": "Thundris Windweaver requires a Corrupted Kor Gem to be purified before it can be taken to Jordan Stilwell. The night elf in Auberdine cleanses the naga's evil magic and assures the paladin that the gem's power remains intact for the blacksmith's ritual.",
+   "body": "Thundris Windweaver requires a Corrupted Kor Gem to be purified before it is taken to Jordan Stilwell. In Auberdine, the night elf cleanses the naga's evil magic. He assures the paladin that the gem's power remains intact for the blacksmith's ritual.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "purpose of kor gem",
     "kor gem lore"
    ],
-   "answer": "Kor gems hold arcane energy for spellcasters and can be set into enchanted weapons by skilled blacksmiths, who use them to channel magic."
+   "answer": "Kor gems hold arcane energy for spellcasters. Skilled blacksmiths can set them into enchanted weapons to channel magic."
   },
   {
    "q": "Where are Corrupted Kor Gems found?",
@@ -40,7 +40,7 @@
     "kor gem location",
     "who drops kor gem"
    ],
-   "answer": "Naga spellcasters carry Corrupted Kor Gems around Blackfathom Deeps, outside and within its ancient ruins on the Ashenvale and Darkshore border. Blackfathom Tide Priestesses and Blackfathom Oracles bear them."
+   "answer": "Naga spellcasters carry Corrupted Kor Gems around Blackfathom Deeps, both within and outside its ancient ruins on the Ashenvale and Darkshore border. Blackfathom Tide Priestesses and Blackfathom Oracles bear them."
   },
   {
    "q": "Why must the gem be purified?",
@@ -49,7 +49,7 @@
     "why purify kor gem",
     "is the gem evil"
    ],
-   "answer": "Naga rites fill the gems with foul magic. Before one can be worked into an arm, a master of nature or light such as Thundris Windweaver must purge the evil."
+   "answer": "Naga rites fill the gems with foul magic. Before a gem can be worked into an arm, a master of nature or light such as Thundris Windweaver must purge the evil."
   },
   {
    "q": "Does cleansing the gem preserve its power?",
@@ -57,17 +57,17 @@
     "does purification ruin the gem",
     "weaker after purification"
    ],
-   "answer": "Yes. Thundris Windweaver assures the paladin that purification leaves the gem's power intact for Jordan Stilwell's ritual."
+   "answer": "Yes. Thundris Windweaver assures the paladin that cleansing leaves the gem's power intact for Jordan Stilwell's ritual."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you must recover and purify a Kor Gem to forge a sacred armament, proving you can face evil and cleanse darkness into righteous strength."
+   "text": "As a paladin, you must recover and purify a Kor Gem to forge a sacred armament. In doing so, you prove you can face evil and cleanse darkness into righteous strength."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know the danger naga relics bring to Darkshore. Scholars like Thundris Windweaver preserve the knowledge needed to cleanse the ancient stones."
+   "text": "As a night elf, you know the danger naga relics bring to Darkshore. Scholars such as Thundris Windweaver preserve the knowledge needed to cleanse the ancient stones."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Corrupted Kor Gem",
   "Seeking the Kor Gem"
  ],
- "style": 1
+ "style": 2
 }

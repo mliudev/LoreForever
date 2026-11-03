@@ -28,16 +28,16 @@
    "Malin's Request"
   ]
  },
- "summary": "With the tower's defenses awake, Skuerto at Refuge Pointe sends you into the ogre-held tower for Trelane's phylactery, orb and ember agate. They should lie in chests inside, and Skuerto says Malin will be more than pleased if you bring them back.",
+ "summary": "At Refuge Pointe, Skuerto sends you to search the ogre-held tower for three items tied to Trelane. The phylactery, orb and ember agate should be in chests inside, and Skuerto says Malin will be pleased when you return with them.",
  "sections": [
   {
    "title": "Into the Tower",
-   "body": "After Kryten's enchantment, Skuerto tells you what to look for: Trelane's phylactery, orb and ember agate. The three should be sitting in chests inside the tower, and you should have no trouble opening them yourself, though the ogres call for care. The tower's defenses will not deal with them on their own, and if the ogres find you stealing from them, they will put the hurt on you.",
+   "body": "After Kryten enchants the gem, Skuerto sends you to find Trelane's phylactery, orb and ember agate. The three items should be in chests inside the tower, ready for you to open. But the ogres are dangerous. The tower's defenses will not deal with them, and the ogres will hurt you if they catch you stealing.",
    "spoiler": 0
   },
   {
    "title": "Skuerto's Verdict",
-   "body": "When you return the three items, Skuerto says Malin could not have asked for a worthier person to aid them here. Malin will be delighted to learn how completely their venture has succeeded.",
+   "body": "When you return with the three items, Skuerto says Malin could not have asked for a worthier person to help them here. Malin will be delighted to learn their venture has succeeded so completely.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "quest giver attack on the tower",
     "where to get attack on the tower"
    ],
-   "answer": "Skuerto, at Refuge Pointe in the Arathi Highlands, once Kryten has enchanted the gem."
+   "answer": "Skuerto sends you from Refuge Pointe in the Arathi Highlands after Kryten enchants the gem."
   },
   {
    "q": "What items are you sent to retrieve?",
@@ -58,7 +58,7 @@
     "what relics to get",
     "trelanes items"
    ],
-   "answer": "Trelane's phylactery, orb and ember agate. Each should be in a chest inside the tower."
+   "answer": "You are sent to retrieve Trelane's phylactery, orb and ember agate. Each should be in a chest inside the tower."
   },
   {
    "q": "What will the ogres do?",
@@ -66,7 +66,7 @@
     "are the ogres dangerous",
     "tower ogres"
    ],
-   "answer": "The tower's defenses will not take care of them for you. If the ogres find out you are stealing from them, they will put the hurt on you."
+   "answer": "The tower's defenses will not deal with the ogres. If they catch you stealing, they will hurt you."
   },
   {
    "q": "What comes before this?",
@@ -74,7 +74,7 @@
     "attack on the tower prerequisite",
     "what quest comes first"
    ],
-   "answer": "It follows An Apprentice's Enchantment, in which Kryten enchants the gem and sends you to Skuerto."
+   "answer": "It follows An Apprentice's Enchantment, where Kryten enchants the gem and sends you to Skuerto."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Attack on the Tower (Classic)"
- ]
+ ],
+ "style": 2
 }

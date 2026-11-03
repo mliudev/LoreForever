@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Slither Rock"
  },
- "summary": "Slither Rock is a secluded cave tucked into the far northeastern cliffs of the Burning Steppes, past the perilous Terror Wing Path. It serves as the solitary refuge of Cyrus Therepentous, a sharp-tongued black dragonspawn with his own hidden agenda.",
+ "summary": "Cyrus Therepentous keeps to Slither Rock in the far northeastern cliffs of the Burning Steppes. Beyond the perilous Terror Wing Path, the cave is his solitary refuge, and his sharp tongue masks an agenda of his own.",
  "sections": [
   {
    "title": "A Secluded Cavern",
-   "body": "Tucked away in the scorched crags beyond the Terror Wing Path, Slither Rock is easy to overlook amid the fiery wastes of the Burning Steppes. Far from the roaring forges and marching orc warbands of Blackrock Spire, this remote hollow houses the solitary black dragonspawn Cyrus Therepentous. While dragonspawn are typically fiercely loyal soldiers of the Black Dragonflight, Cyrus maintains a strange, cantankerous independence here, willing to converse with mortal travelers rather than slaughtering them on sight\u2014though never without a steady stream of insults.",
+   "body": "Beyond the Terror Wing Path, Slither Rock lies among the scorched crags of the Burning Steppes. Far from Blackrock Spire's roaring forges and marching orc warbands, this remote hollow shelters Cyrus Therepentous, a solitary black dragonspawn.\n\nDragonspawn usually serve the Black Dragonflight with fierce loyalty, but Cyrus keeps apart from his kin. He speaks with mortal travelers instead of killing them on sight. Yet every exchange brings an insult.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is slither rock",
     "find slither rock"
    ],
-   "answer": "Slither Rock is located in the far northeastern corner of the Burning Steppes. To reach it, travelers must navigate past the black dragonkin patrolling the Terror Wing Path."
+   "answer": "Slither Rock lies in the far northeastern corner of the Burning Steppes. To reach it, travelers must pass the black dragonkin patrolling the Terror Wing Path."
   },
   {
    "q": "Who lives in Slither Rock?",
@@ -32,7 +32,7 @@
     "slither rock mob",
     "slither rock npc"
    ],
-   "answer": "The cave is home to Cyrus Therepentous, a solitary black dragonspawn. Unlike most of his kin who attack mortals immediately, Cyrus is willing to speak with outsiders, though he remains foul-tempered and derisive."
+   "answer": "Cyrus Therepentous, a solitary black dragonspawn, lives in the cave. Unlike most of his kin, he speaks with outsiders instead of attacking at once, though his temper is foul and his words derisive."
   },
   {
    "q": "Why would an adventurer seek out this cave?",
@@ -41,7 +41,7 @@
     "slither rock quests",
     "cyrus purpose"
    ],
-   "answer": "Adventurers brave the perilous Terror Wing Path to seek the counsel and aid of Cyrus Therepentous. Despite his abrasive attitude, the dragonspawn will help them vanquish a common foe, though never without an ample supply of rude and derisive comments."
+   "answer": "Adventurers brave the perilous Terror Wing Path to seek Cyrus Therepentous's counsel and aid. Despite his abrasive manner, he helps them vanquish a common foe, with rude and derisive comments along the way."
   }
  ],
  "angles": [],
@@ -59,5 +59,6 @@
  ],
  "attribution": [
   "Slither Rock"
- ]
+ ],
+ "style": 2
 }

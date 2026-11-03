@@ -10,16 +10,16 @@
    "quest:962"
   ]
  },
- "summary": "Serpentbloom is a rare, subterranean herb found growing only in the dark depths of the Wailing Caverns. Its potent natural properties have drawn the keen interest of the Forsaken's Royal Apothecary Society.",
+ "summary": "Deep in the Wailing Caverns, Serpentbloom has drawn the Royal Apothecary Society’s keen interest for its potent natural properties.",
  "sections": [
   {
    "title": "A Rare Subterranean Flora",
-   "body": "Serpentbloom grows exclusively within the damp, shadowy tunnels of the Wailing Caverns beneath the Barrens. Rooted in an ecosystem warped by unrestrained Emerald Dream energies, the plant thrives far from sunlight and often harbors venomous serpents nesting among its stems. Because the cave system is overrun with hostile beasts and corrupted druids, few who venture inside ever return with viable specimens.",
+   "body": "In the Barrens, Serpentbloom thrives in the shadowy, damp tunnels of the Wailing Caverns. Unrestrained Emerald Dream energies have warped the caverns’ ecosystem. Venomous serpents often nest among the herb’s stems.\n\nHostile beasts and corrupted druids overrun the caves. Few who venture inside return with viable specimens.",
    "spoiler": 0
   },
   {
    "title": "Apothecary Interest",
-   "body": "Operating from the Pools of Vision beneath Thunder Bluff, Apothecary Zamah collects Serpentbloom on behalf of the Royal Apothecary Society of Undercity. The Forsaken continuously seek out virulent, strange, and chemically potent vegetation across Kalimdor to fuel their research for the Dark Lady. Zamah believes that harvesting Serpentbloom in significant quantities could yield valuable breakthroughs for Forsaken alchemy.",
+   "body": "At the Pools of Vision beneath Thunder Bluff, Apothecary Zamah gathers Serpentbloom for the Royal Apothecary Society in Undercity. The Forsaken seek virulent, strange, chemically potent plants across Kalimdor to fuel research for the Dark Lady.\n\nZamah believes a harvest of Serpentbloom in significant quantities could bring valuable breakthroughs in Forsaken alchemy.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "serpentbloom location",
     "wailing caverns herb"
    ],
-   "answer": "Serpentbloom is found only deep inside the Wailing Caverns, a labyrinthine cavern network located southwest of the Crossroads in the Barrens. It clings to the ground in the dark, damp recesses of the cave."
+   "answer": "Serpentbloom grows only deep inside the Wailing Caverns, a labyrinthine network southwest of the Crossroads in the Barrens. It clings to the ground in the cavern’s dark, damp recesses."
   },
   {
    "q": "Why does the Royal Apothecary Society want Serpentbloom?",
@@ -40,7 +40,7 @@
     "apothecary zamah herb",
     "why collect serpentbloom"
    ],
-   "answer": "Apothecary Zamah, an agent of the Royal Apothecary Society stationed in Thunder Bluff, seeks the plant for research. The Forsaken examine unusual and dangerous flora from across Kalimdor to develop new chemical concoctions and support the broader goals of Sylvanas Windrunner."
+   "answer": "Apothecary Zamah, an agent of the Royal Apothecary Society stationed in Thunder Bluff, seeks Serpentbloom for research. The Forsaken study unusual and dangerous flora across Kalimdor to develop new chemical concoctions and advance the Society’s broader goals in service to Sylvanas Windrunner."
   },
   {
    "q": "Why is harvesting Serpentbloom hazardous?",
@@ -48,7 +48,7 @@
     "serpentbloom danger",
     "serpentbloom snake"
    ],
-   "answer": "Beyond the general perils of the Wailing Caverns\u2014which crawl with raptors, crocolisks, and corrupted druids\u2014the herb itself frequently shelters venomous snakes. Disturbing the plant often prompts these hidden serpents to strike."
+   "answer": "The Wailing Caverns crawl with raptors, crocolisks, and corrupted druids. Serpentbloom often shelters venomous snakes, which may strike when the herb is disturbed."
   },
   {
    "q": "Can herbalists find Serpentbloom more easily?",
@@ -56,17 +56,17 @@
     "find serpentbloom herbalism",
     "tracking serpentbloom"
    ],
-   "answer": "Yes. Those trained in herbalism are naturally attuned to spotting vegetative growth and can track Serpentbloom patches amid the shadowy corners of the cavern floor."
+   "answer": "Yes. Herbalists are naturally attuned to spotting vegetation, and can track Serpentbloom patches in the cavern’s shadowy corners."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Procuring Serpentbloom directly aids Apothecary Zamah and the Royal Apothecary Society as they search foreign lands for botanical assets to strengthen the Forsaken."
+   "text": "As an undead, gathering Serpentbloom aids Apothecary Zamah and the Royal Apothecary Society as they seek botanical assets in foreign lands to strengthen the Forsaken."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Trained herbalists possess the keen eyes necessary to track down these rare cavernous blooms where others see only damp stone."
+   "text": "As a herbalist, your trained eye can find rare cavern blooms where others see only damp stone."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Serpentbloom",
   "Serpentbloom (quest)"
- ]
+ ],
+ "style": 2
 }

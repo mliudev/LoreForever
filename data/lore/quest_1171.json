@@ -29,16 +29,16 @@
   ],
   "category": "Dustwallow Marsh"
  },
- "summary": "Overlord Mok'Morokk has no wish to hear about dragons. He says there are no black dragons here and sends you back to Draz'Zilb in Brackenwall Village with the news that the ogres are staying.",
+ "summary": "At Brackenwall Village, The Brood of Onyxia meets Overlord Mok'Morokk's denial. He says no black dragons are here and sends you back to Draz'Zilb with word that the ogres will stay.",
  "sections": [
   {
    "title": "Leave Me Alone",
-   "body": "After Draz'Zilb sent word of the brood of Onyxia, Overlord Mok'Morokk wants only to be left alone. Mok'Morokk says the ogres stay where they are, that there is no black dragon here, and tells you to go and say so to Draz'Zilb in Brackenwall Village.",
+   "body": "Overlord Mok'Morokk wants to be left alone after Draz'Zilb reports the brood of Onyxia. He says the ogres will stay where they are and denies that any black dragon is here. Carry his answer to Draz'Zilb in Brackenwall Village.",
    "spoiler": 0
   },
   {
    "title": "What Draz'Zilb Says",
-   "body": "Draz'Zilb takes the answer badly and calls the Overlord a lazy coward. Mok'Morokk showed strength while Rexxar was their leader, says Draz'Zilb, but after Rexxar departed, the temptations of power took hold. Mok'Morokk now demands service from the ogres rather than leading them, and Draz'Zilb says something must be done.",
+   "body": "Draz'Zilb calls Overlord Mok'Morokk a lazy coward and says something must be done. Mok'Morokk showed strength while Rexxar led the ogres. After Rexxar departed, power tempted him. Now Mok'Morokk demands service from the ogres instead of leading them.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "mok'morokk reaction",
     "why no black dragons"
    ],
-   "answer": "Mok'Morokk says there are no black dragons here and wants to be left alone. You are told to carry word to Draz'Zilb that the ogres stay."
+   "answer": "Overlord Mok'Morokk refuses to act because he says there are no black dragons here and wants to be left alone. He sends you to tell Draz'Zilb that the ogres will stay."
   },
   {
    "q": "What comes before this in the storyline?",
@@ -58,7 +58,7 @@
     "what comes before this quest",
     "quest chain order"
    ],
-   "answer": "This follows The Brood of Onyxia, in which Draz'Zilb sent you to bring word of the brood to Mok'Morokk."
+   "answer": "This follows the earlier account of The Brood of Onyxia, when Draz'Zilb sent you to bring word of the brood to Mok'Morokk."
   },
   {
    "q": "Where does this take place?",
@@ -66,7 +66,7 @@
     "where is this quest",
     "location"
    ],
-   "answer": "Both Mok'Morokk and Draz'Zilb are in Brackenwall Village."
+   "answer": "Overlord Mok'Morokk and Draz'Zilb are both in Brackenwall Village."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "The Brood of Onyxia (2)"
- ]
+ ],
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Tordrin Stemblade mentors hunters in Northshire Abbey, noting how times have changed as new races take up the bow to defend Stormwind from beasts and vermin."
+   "text": "Tordrin Stemblade mentors hunters at Northshire Abbey. He notes how times have changed as new races take up the bow to defend Stormwind from beasts and vermin."
   },
   {
    "target": "faction:Alliance",
-   "text": "Training skilled defenders in Northshire Abbey helps secure Elwynn Forest against encroaching kobolds and other growing threats to the kingdom of Stormwind."
+   "text": "Training skilled defenders at Northshire Abbey helps secure Elwynn Forest against encroaching kobolds and other growing threats to Stormwind."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "scribbled letter quest",
     "letter from tordrin"
    ],
-   "answer": "A Scribbled Letter is a missive delivered to adventurers in Northshire Abbey upon returning from the kobold camps. Bearing the seal of Tordrin Stemblade, it directs the recipient to seek him out for mentorship and training in the valley.",
+   "answer": "After clashes with kobold camps, adventurers at Northshire Abbey receive a letter sealed by Tordrin Stemblade. It directs them to seek his mentorship and training in the valley.",
    "q": "What is A Scribbled Letter?"
   },
   {
@@ -37,7 +37,7 @@
     "who wrote the letter",
     "author scribbled letter"
    ],
-   "answer": "The letter was penned and sealed by Tordrin Stemblade, a local trainer stationed at Northshire Abbey who offers instruction to fledgling adventurers learning their craft.",
+   "answer": "Tordrin Stemblade sent the letter. He is a local trainer at Northshire Abbey, where he instructs fledgling adventurers learning their craft.",
    "q": "Who sent the letter?"
   },
   {
@@ -46,7 +46,7 @@
     "tordrin location",
     "find tordrin stemblade"
    ],
-   "answer": "Tordrin Stemblade is located at Northshire Abbey in the Northshire Valley. He remains stationed there day and night, ready to provide instruction and advice to travelers.",
+   "answer": "Tordrin Stemblade can be found at Northshire Abbey in Northshire Valley. He remains there day and night, ready to offer travelers instruction and advice.",
    "q": "Where can Tordrin Stemblade be found?"
   },
   {
@@ -55,7 +55,7 @@
     "tordrin stemblade purpose",
     "why summons"
    ],
-   "answer": "After an adventurer proves their capability against the local kobolds, Tordrin sends word to ensure they receive proper training. He aims to prepare them for the escalating dangers threatening the residents of Northshire and the wider realm of Stormwind.",
+   "answer": "After an adventurer proves capable against local kobolds, Tordrin sends word so they can receive proper training. He aims to prepare them for the growing dangers threatening Northshire’s residents and the wider realm of Stormwind.",
    "q": "Why did Tordrin Stemblade send the letter?"
   },
   {
@@ -64,7 +64,7 @@
     "dangers in northshire abbey",
     "kobolds northshire"
    ],
-   "answer": "Northshire Valley faces incursions from aggressive kobold camps and dangerous man-eating beasts that roam the surrounding woods, prompting local mentors to muster and drill capable fighters.",
+   "answer": "Northshire Valley faces incursions from aggressive kobold camps and dangerous man-eating beasts roaming the surrounding woods. Local mentors muster and drill capable fighters in response.",
    "q": "What threats are currently affecting Northshire?"
   },
   {
@@ -73,7 +73,7 @@
     "tordrin training",
     "what happens after meeting tordrin"
    ],
-   "answer": "Upon meeting with him, Tordrin offers continuous training and guidance, urging adventurers to learn the lay of the land and assist the local folk with the myriad troubles facing the kingdom.",
+   "answer": "Tordrin offers continuous training and guidance. He urges adventurers to learn the lay of the land and assist local folk with the kingdom’s many troubles.",
    "q": "What does Tordrin Stemblade offer after receiving the letter?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "Upon returning from skirmishes with the kobold camps infesting the valley, adventurers at Northshire Abbey receive a hasty missive. Marked with the seal of Tordrin Stemblade, the note requests their prompt attention before attending to other business. The letter serves as an urgent summons to connect budding champions with formal mentorship within the abbey's protective grounds.",
+   "body": "After clashes with kobold camps in the valley, adventurers at Northshire Abbey receive a hasty letter sealed by Tordrin Stemblade. It asks them to give it prompt attention before taking up other business. The summons brings budding champions to formal mentorship within the abbey’s protective grounds.",
    "spoiler": 0,
    "title": "A Summons in Northshire"
   },
   {
-   "body": "When presented with the letter, Tordrin Stemblade remarks on how times have changed, observing how unfamiliar folk have taken up weapons in defense of the realm. Acknowledging that the surrounding wilderness grows more hazardous by the day, he invites travelers to seek out his counsel day or night as they master their skills and assist the beleaguered people of Stormwind.",
+   "body": "Tordrin Stemblade says times have changed. Unfamiliar folk now take up weapons to defend the realm. As the wilderness around Northshire grows more dangerous by the day, he offers travelers counsel day or night. He guides them as they master their skills and help Stormwind’s beleaguered people.",
    "spoiler": 0,
    "title": "Guidance in Perilous Times"
   }
  ],
- "summary": "A Scribbled Letter is a summons delivered to adventurers at Northshire Abbey following their early clashes with nearby kobolds. Sent under the seal of Tordrin Stemblade, it directs promising recruits to seek out his training and guidance. The letter marks a crucial step in preparing defenders to face the escalating perils threatening the kingdom of Stormwind.",
+ "summary": "At Northshire Abbey, adventurers receive a summons from Tordrin Stemblade after clashes with nearby kobolds. It calls promising recruits to seek his training as Stormwind faces growing dangers.",
  "attribution": [
   "In-game quest text: A Scribbled Letter"
- ]
+ ],
+ "style": 2
 }

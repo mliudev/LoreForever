@@ -8,11 +8,11 @@
   "wiki": "Arcanist Doan",
   "refs": 5
  },
- "summary": "Arcanist Doan is a master human mage residing within the Athenaeum of the Scarlet Monastery's Library wing. He serves the Scarlet Crusade as one of its most lethal arcane specialists and guardian of key crusade archives.",
+ "summary": "Within the Scarlet Monastery, Arcanist Doan guards the Athenaeum and its archives. A master human mage, he brings deadly arcane skill to the Scarlet Crusade.",
  "sections": [
   {
    "title": "Keeper of the Athenaeum",
-   "body": "While the fanatical ranks of the Scarlet Crusade lean heavily on martial fury and holy fervor, Doan remained convinced that raw arcane power was essential to purging the Scourge from Lordaeron. Stationed deep inside the Athenaeum of the Monastery's library, he was entrusted as both a lorekeeper and an operational gatekeeper, safeguarding the Scarlet Key that secures crusade sanctuaries across the northern kingdoms.",
+   "body": "The Scarlet Crusade trusts martial fury and holy fervor. Doan believes arcane power is vital to driving the Scourge from Lordaeron. Deep in the Monastery's library, he keeps its lore and guards the Scarlet Key. That key secures Crusade sanctuaries across the northern kingdoms.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "crusade mage",
     "doan magic"
    ],
-   "answer": "Although the Crusade is dominated by zealot paladins and priests, Doan firmly believes that masterwork arcane magic is an indispensable weapon needed to cleanse the Scourge from Lordaeron."
+   "answer": "The Scarlet Crusade is ruled by zealous paladins and priests. Doan believes masterful arcane magic is essential to cleansing Lordaeron of the Scourge."
   },
   {
    "q": "What is Arcanist Doan's connection to the Ashbringer?",
@@ -33,7 +33,7 @@
     "did doan make ashbringer",
     "ashbringer crystal"
    ],
-   "answer": "None is known. Doan is known as the keeper of the Scarlet Monastery's library and the guardian of the Scarlet Key, not as part of the Ashbringer's story."
+   "answer": "Doan has no known connection to the Ashbringer. He guards the Scarlet Monastery's library and the Scarlet Key."
   },
   {
    "q": "What does Doan guard in the Library?",
@@ -42,7 +42,7 @@
     "scarlet key",
     "why kill doan"
    ],
-   "answer": "Doan keeps watch over the Monastery's repository of books and historical records in the Athenaeum. Behind him sits a lockbox containing the Scarlet Key, an essential key that opens the locked gates to the Monastery's Armory and Cathedral wings."
+   "answer": "Doan guards the Athenaeum's books and historical records. A lockbox behind him holds the Scarlet Key, which opens the locked gates to the Monastery's Armory and Cathedral wings."
   },
   {
    "q": "What magic does Doan use in combat?",
@@ -51,7 +51,7 @@
     "doan abilities",
     "arcanist doan bubble"
    ],
-   "answer": "Doan is famous for casting an Arcane Bubble that renders him invulnerable while he channels a massive, room-engulfing Detonation spell. He also disrupts spellcasters with area silences and polymorphs threats into sheep."
+   "answer": "Doan can cast an Arcane Bubble that makes him invulnerable while he channels a massive Detonation spell that fills the room. He can also silence spellcasters across an area and turn threats into sheep."
   },
   {
    "q": "Where did Doan fight during the Third War?",
@@ -59,32 +59,32 @@
     "doan war history",
     "where was doan"
    ],
-   "answer": "His deeds in the Third War are not recorded. Today he is known as the keeper of the Scarlet Monastery's library, where he guards the Athenaeum and the Scarlet Key."
+   "answer": "No deeds of Doan during the Third War are recorded. Today he guards the Scarlet Monastery's Athenaeum and the Scarlet Key."
   },
   {
    "q": "Does Doan harbor any personal secrets?",
    "aliases": [
     "doan lore"
    ],
-   "answer": "Doan serves as an arcanist of the Scarlet Crusade. His private romantic attachments are unrecorded in the Classic sources."
+   "answer": "Doan serves the Scarlet Crusade as an arcanist. No record speaks of his private romantic attachments."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Doan's mastery of arcane defenses makes his protective bubble a vivid example of magical warding."
+   "text": "As a mage, you can see Doan's mastery of arcane defenses in the protective bubble he casts."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins will find in Doan a rare arcanist trusted by the Scarlet Crusade, an order that otherwise prizes the Light above all other powers."
+   "text": "As a paladin, you meet a rare arcanist trusted by the Scarlet Crusade, an order that prizes the Light above all other powers."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance forces, Doan shows how far the Scarlet Crusade's zeal reaches, binding even a master of the arcane to its violent paranoia."
+   "text": "As an Alliance fighter, you see how the Scarlet Crusade's zeal binds even a master of the arcane to its violent paranoia."
   },
   {
    "target": "faction:Horde",
-   "text": "The Forsaken and their Horde allies see Doan as a dangerous Scarlet commander whose library shelters vital intelligence and keys needed to breach the Crusade's inner sanctums."
+   "text": "As a member of the Horde, you face a dangerous Scarlet commander whose library holds vital intelligence and keys to the Crusade's inner sanctums."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Arcanist Doan"
- ]
+ ],
+ "style": 2
 }

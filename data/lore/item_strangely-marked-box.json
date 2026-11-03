@@ -11,16 +11,16 @@
    "quest:4731"
   ]
  },
- "summary": "Along Darkshore, a Strangely Marked Box is found among cargo on dead sea turtles. Its runes point to the naga and show that the turtles did not come ashore by chance.",
+ "summary": "On Darkshore, Strangely Marked Box runes point toward naga cargo washed ashore on dead sea turtles. Their presence hints that the turtles did not come ashore by chance.",
  "sections": [
   {
    "title": "Trophies of the Deep",
-   "body": "Dead sea turtles and other sea creatures wash up on Darkshore's beaches. Some carry broken harnesses and carriages strapped to their shells. Sealed boxes marked with foreign, winding runes lie among the wreckage. Greymist murlocs often shelter in the hollow ribs and broken wagons, feeding on the carcasses and guarding what remains.",
+   "body": "Dead sea turtles and other sea creatures wash onto Darkshore’s beaches. Some bear broken harnesses and carriages strapped to their shells. Among the wreckage lie sealed boxes marked with foreign, winding runes. Greymist murlocs shelter in hollow ribs and broken wagons, feeding on the carcasses and guarding what remains.",
    "spoiler": 0
   },
   {
    "title": "Evidence of Naga Expansion",
-   "body": "Gwennyth Bly'Leggonde, a researcher for the Temple of the Moon in Auberdine, recognizes the markings. The script and the carriages belong to the naga, who use giant turtles to carry supplies and war equipment onto land. The boxes show that naga are active along the northern shores and may be driving their mounts south toward Ashenvale. The priesthood in Auberdine sends the relics to Darnassus for study.",
+   "body": "Gwennyth Bly'Leggonde, a researcher for the Temple of the Moon in Auberdine, recognizes the markings. The script and carriages belong to the naga, who use giant turtles to carry supplies and war equipment onto land. The boxes place naga along the northern shores and suggest they may be driving their mounts south toward Ashenvale. Auberdine's priesthood sends the relics to Darnassus for study.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "box location",
     "turtle carriage box"
    ],
-   "answer": "The box is found in an abandoned carriage strapped to a dead sea turtle along Darkshore's coast. Greymist murlocs often feed near the carcasses and guard what remains."
+   "answer": "The box lies in an abandoned carriage strapped to a dead sea turtle on Darkshore's coast. Greymist murlocs feed near the carcasses and guard what remains."
   },
   {
    "q": "Who made the Strangely Marked Box?",
@@ -42,7 +42,7 @@
     "box runes",
     "what are the markings"
    ],
-   "answer": "The naga made the box and its inscriptions. They strap carriages to living sea turtles to carry provisions, arms, and equipment from the ocean depths onto Kalimdor's shores."
+   "answer": "The naga made the box and its inscriptions. They strap carriages to living sea turtles to carry provisions, arms, and equipment from the ocean depths to Kalimdor's shores."
   },
   {
    "q": "Who wants this box in Auberdine?",
@@ -60,7 +60,7 @@
     "turtle carriages",
     "why are turtles strapped"
    ],
-   "answer": "The naga use giant sea turtles as beasts of burden, strapping harnesses and carriages to their backs to carry supplies and war equipment onto land. Gwennyth suspects one turtle was killed while heading south, perhaps toward Ashenvale."
+   "answer": "The naga use giant sea turtles to carry supplies and war equipment onto land, with harnesses and carriages strapped to their backs. Gwennyth suspects one turtle was killed while heading south, perhaps toward Ashenvale."
   },
   {
    "q": "What happens to the box after giving it to Gwennyth?",
@@ -68,13 +68,13 @@
     "where does the box go",
     "box sent to darnassus"
    ],
-   "answer": "Gwennyth Bly'Leggonde sends the box and the coastal survey findings to the Temple of the Moon in Darnassus, where the night elf leadership can study the naga's reach."
+   "answer": "Gwennyth Bly'Leggonde sends the box and coastal survey findings to the Temple of the Moon in Darnassus, where the night elf leadership can study the naga's reach."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Finding naga supply boxes lashed to native sea turtles along Darkshore warns the kaldorei that their ancient, mutated kin are pushing ashore from the Great Sea."
+   "text": "Naga supply boxes lashed to native sea turtles along Darkshore warn the kaldorei that their ancient, mutated kin are pushing ashore from the Great Sea."
   },
   {
    "target": "class:Priest",
@@ -106,5 +106,5 @@
   "Beached Sea Turtle (2)",
   "Beached Sea Turtle (4)"
  ],
- "style": 1
+ "style": 2
 }

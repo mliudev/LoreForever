@@ -21,16 +21,16 @@
    "The Shattered Hand (2)"
   ]
  },
- "summary": "In Orgrimmar, Therzok tests rogues seeking a place in the Shattered Hand. He asks them to open Tazan's recovered satchel with a key taken from an unwitting accomplice.",
+ "summary": "In Orgrimmar, Therzok tests rogues who seek a place in the Shattered Hand. He wants Tazan's recovered satchel opened with a key taken from an unwitting accomplice.",
  "sections": [
   {
    "title": "A Test of Subtlety",
-   "body": "After retrieving Tazan's locked satchel, you find it useless without the key. The Shattered Hand demands skill, not brute force against the complex lock. Therzok sends you to Gamon, a tauren drunkard who frequents Orgrimmar's tavern. Gamon is easily distracted and once helped Tazan, making him a fitting mark for quiet theft.",
+   "body": "You have Tazan's locked satchel, but it is no use without its key. Therzok expects a rogue to master the lock through skill, not brute force. So he sends you to Gamon, a tauren drunkard who frequents Orgrimmar's tavern. Gamon is easily distracted, and he once helped Tazan. That makes him a fitting mark for quiet theft.",
    "spoiler": 0
   },
   {
    "title": "Welcome to the Shadows",
-   "body": "Take the key from Gamon without alerting the tavern, then open the satchel and claim Tazan's logbook. Bring the stolen contents to Therzok in the Cleft of Shadow to meet the Shattered Hand's standards. A clean job earns you formal recognition as one of its operatives.",
+   "body": "Take the key from Gamon without alerting the tavern. Then open the satchel and bring Tazan's logbook to Therzok in the Cleft of Shadow. A clean job meets the Shattered Hand's standards. Therzok gives you formal recognition as one of its operatives.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who has the key",
     "gamon key"
    ],
-   "answer": "Gamon once assisted Tazan, the operative Therzok is investigating. While Tazan carried the satchel, he left its key with Gamon, an unsuspecting drunkard who spends his days drinking in Orgrimmar's central tavern."
+   "answer": "Gamon once assisted Tazan, the operative Therzok is investigating. While carrying the satchel, Tazan left its key with Gamon, an unsuspecting drunkard who spends his days drinking in Orgrimmar's central tavern."
   },
   {
    "q": "What is inside Tazan's satchel?",
@@ -51,7 +51,7 @@
     "satchel contents",
     "what is in the satchel"
    ],
-   "answer": "Tazan's logbook lies inside the locked satchel. It holds intelligence of interest to Therzok and the Shattered Hand, and recovering it tests your ability to secure vital information covertly."
+   "answer": "Tazan's logbook lies inside the locked satchel. It holds intelligence of interest to Therzok and the Shattered Hand. Recovering it tests your ability to secure vital information covertly."
   },
   {
    "q": "What is the Shattered Hand in Orgrimmar?",
@@ -60,7 +60,7 @@
     "shattered hand rogues",
     "orgrimmar rogues"
    ],
-   "answer": "The Shattered Hand began as an infamous orcish clan from Draenor, known for self-mutilation and ruthlessness. In Orgrimmar, it has become the Horde's guild of assassins, spies, and rogues, working from the subterranean Cleft of Shadow."
+   "answer": "The Shattered Hand began as an infamous orcish clan from Draenor, known for self-mutilation and ruthlessness. In Orgrimmar, it is the Horde's guild of assassins, spies, and rogues, working from the subterranean Cleft of Shadow."
   },
   {
    "q": "Where does Therzok operate?",
@@ -118,5 +118,5 @@
  "attribution": [
   "The Shattered Hand (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Guide to the Elements",
-   "body": "Inside Grommash Hold, Searn Firewarder guides shamans seeking the elements. Many Darkspear trolls commune with spirits through witch doctors and voodoo rituals. Searn guides initiates toward distant mentors and rites for the Call of Fire, Call of Water, and Call of Air, which teach them to commune with the elemental spirits of fire, water, and air. He stands among the Horde's high command in Orgrimmar.",
+   "body": "Inside Grommash Hold, Searn Firewarder guides shamans who seek the elements. Many Darkspear trolls commune with spirits through witch doctors and voodoo rites. Searn points initiates toward distant mentors and the rites of the Call of Fire, Call of Water, and Call of Air. Through them, shamans learn to commune with the elemental spirits of fire, water, and air. Searn stands among the Horde's high command in Orgrimmar.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is searn",
     "searn orgrimmar"
    ],
-   "answer": "Searn Firewarder trains jungle troll shamans inside Grommash Hold in Orgrimmar. He guides developing shamans across the Horde through their spiritual journeys."
+   "answer": "Searn Firewarder trains jungle troll shamans inside Grommash Hold in Orgrimmar. He guides developing shamans across the Horde on their spiritual journeys."
   },
   {
    "q": "What quests does Searn Firewarder offer?",
@@ -32,7 +32,7 @@
     "searn quests",
     "searn firewarder questline"
    ],
-   "answer": "Searn guides shamans through the Call of Fire, Call of Water, and Call of Air, pointing them toward distant shrines and spiritual teachers across the continents."
+   "answer": "Searn guides shamans through the Call of Fire, Call of Water, and Call of Air. He points them toward distant shrines and spiritual teachers across the continents."
   },
   {
    "q": "Why is a troll shaman stationed inside Grommash Hold?",
@@ -40,7 +40,7 @@
     "why is searn in grommash hold",
     "searn grommash hold"
    ],
-   "answer": "Grommash Hold is the heart of Orgrimmar's leadership, where Warchief Thrall and prominent representatives of the allied races gather. Searn's presence reflects the close unity between the orcs and the Darkspear tribe, and shamanism's central place in the new Horde."
+   "answer": "Grommash Hold is the heart of Orgrimmar's leadership, where Warchief Thrall and prominent representatives of the allied races gather. Searn's presence reflects the close unity between the orcs and the Darkspear tribe, and the central place of shamanism in the new Horde."
   }
  ],
  "angles": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Searn Firewarder"
  ],
- "style": 1
+ "style": 2
 }

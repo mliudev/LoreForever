@@ -24,16 +24,16 @@
    "Lack of Surplus"
   ]
  },
- "summary": "Dar is gathering supplies for the outpost by the beach in the east, where Tok'Kar has little time to spare between guard shifts and cooking for the soldiers. Dar asks you to bring Tok'Kar a shipment of sawtooth meat.",
+ "summary": "Dar needs more sawtooth meat for the eastern beach outpost. Tok'Kar has little time between guard shifts and cooking for the soldiers, so Dar asks you to bring some.",
  "sections": [
   {
    "title": "Supplies for the Shore",
-   "body": "Dar is collecting supplies for the outpost by the beach in the east. Tok'Kar does what is possible there, but guard shifts and cooking for the soldiers leave little time in the day. The soldiers enjoy cooking sawtooth meat when they can get it, and Dar has had no time to send them another shipment.",
+   "body": "Dar is gathering supplies for the outpost on the eastern beach. Tok'Kar guards the post and cooks for its soldiers, leaving little time for other work. The soldiers enjoy sawtooth meat when they can get it. Dar has not had time to send another shipment.",
    "spoiler": 0
   },
   {
    "title": "Choosing the Meat",
-   "body": "Dar warns you to leave the young sawtooths alone, for the older ones taste better. The young need a year or two to reach full size. Eight unprepared sawtooth flanks are wanted, brought to Tok'Kar in the Swamp of Sorrows.",
+   "body": "Older sawtooths taste better, Dar says, so leave the young ones alone. They need a year or two to reach full size. Bring eight unprepared sawtooth flanks to Tok'Kar in the Swamp of Sorrows.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who starts lack of surplus",
     "dar swamp of sorrows"
    ],
-   "answer": "Dar, who is gathering supplies for the outpost by the beach in the east."
+   "answer": "Dar, who is stocking the outpost on the eastern beach with supplies."
   },
   {
    "q": "Where is Tok'Kar stationed?",
@@ -54,7 +54,7 @@
     "tokkar location",
     "tok'kar outpost"
    ],
-   "answer": "At the outpost by the beach in the east that Dar speaks of. The meat is to be delivered to Tok'Kar there, in the Swamp of Sorrows."
+   "answer": "Tok'Kar is stationed at the outpost on the eastern beach, in the Swamp of Sorrows. Bring the meat there."
   },
   {
    "q": "Why does Tok'Kar need others to bring meat?",
@@ -62,7 +62,7 @@
     "why does tok'kar need meat",
     "why does dar send food"
    ],
-   "answer": "Between guard shifts and cooking for the soldiers, Tok'Kar has little time left in the day."
+   "answer": "Guard shifts and cooking for the soldiers leave Tok'Kar little time in the day."
   },
   {
    "q": "Which sawtooths should be hunted?",
@@ -71,7 +71,7 @@
     "what sawtooths drop meat",
     "sawtooth flank source"
    ],
-   "answer": "The older ones. The young are less tasty, and need a year or two to reach full size."
+   "answer": "Hunt older sawtooths. The young ones are less tasty and need a year or two to reach full size."
   },
   {
    "q": "How many flanks are needed?",
@@ -79,7 +79,7 @@
     "how many flanks",
     "unprepared sawtooth flank count"
    ],
-   "answer": "Eight unprepared sawtooth flanks, brought to Tok'Kar."
+   "answer": "Bring Tok'Kar eight unprepared sawtooth flanks."
   },
   {
    "q": "What comes next in the chain?",
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Lack of Surplus"
- ]
+ ],
+ "style": 2
 }

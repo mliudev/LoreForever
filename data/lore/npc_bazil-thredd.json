@@ -8,21 +8,21 @@
   "wiki": "Bazil Thredd",
   "refs": 5
  },
- "summary": "In the Stormwind Stockade, Bazil Thredd leads the Defias inmates in revolt from the eastern cell block. Edwin VanCleef's lieutenant has been imprisoned there since the Stonemasons' riots.",
+ "summary": "In the eastern cell block, Bazil Thredd leads the Defias inmates in revolt. Edwin VanCleef's lieutenant has been held in the Stormwind Stockade since the Stonemasons' riots.",
  "sections": [
   {
    "title": "VanCleef's Lieutenant",
-   "body": "Bazil Thredd stood beside Edwin VanCleef when the Stonemasons Guild rose against Stormwind's nobility. The guild had been refused payment for rebuilding the city, and VanCleef rejected the government's appeasements and sparked open revolt. Thredd served as his chief lieutenant and most trusted assistant. The city guard captured Thredd during the violent clashes that followed. VanCleef and the surviving masons fled into Westfall and formed the Defias Brotherhood, while Thredd was sent into the Stormwind Stockade.",
+   "body": "Bazil Thredd stood beside Edwin VanCleef when the Stonemasons Guild rose against Stormwind's nobility. The guild had been denied payment for rebuilding the city, and VanCleef rejected the government's attempts to appease them. Open revolt followed.\n\nThredd served as his chief lieutenant and most trusted assistant. The city guard captured Thredd in the clashes that followed. VanCleef and the surviving masons fled to Westfall and formed the Defias Brotherhood. Thredd was sent to the Stormwind Stockade.",
    "spoiler": 0
   },
   {
    "title": "The Stockade Uprising",
-   "body": "A prison riot has overrun the guards, opened the cells, and turned the Stockade into an armed fortress beneath the Mage Quarter. Thredd commands the imprisoned Defias bandits, insurgents, and allied cutthroats from a post in the eastern wing, guarded by an ogre named Hamhock. For years, he had stayed silent behind bars, seemingly forsaken. Now Warden Thelwater wants Thredd's head, hoping to break the rebellion's leadership before the chaos reaches the city streets.",
+   "body": "A prison riot has overwhelmed the guards and opened the cells. Now the Stockade is an armed fortress beneath the Mage Quarter. Thredd commands the imprisoned Defias bandits, insurgents, and allied cutthroats from a post in the eastern wing. An ogre named Hamhock guards him. For years Thredd stayed silent behind bars, seemingly forsaken. Now Warden Thelwater wants him dead, hoping to break the rebellion's leadership before the chaos reaches the city streets.",
    "spoiler": 0
   },
   {
    "title": "The Curious Visitor",
-   "body": "A man using the name Maelik began visiting Bazil Thredd once or twice a week a few months before the uprising. Warden Thelwater had long thought the Brotherhood abandoned Thredd to rot, and the visits raised his suspicions. Yet Maelik's papers proved entirely legitimate. Thelwater doubts the visitor will return now that Thredd is dead. Anyone carrying papers that good is well connected, and the visits suggest outside hands in the city had reached the Defias lieutenant.",
+   "body": "A man calling himself Maelik began visiting Bazil Thredd once or twice a week, a few months before the uprising. Warden Thelwater had long believed the Brotherhood abandoned Thredd to rot, so the visits made him suspicious. Yet Maelik's papers proved entirely legitimate. Thelwater doubts the visitor will return now that Thredd is dead. Anyone carrying papers that good is well connected. The visits suggest that outside hands in the city had reached the Defias lieutenant.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "thredd location",
     "find bazil thredd"
    ],
-   "answer": "Bazil Thredd is deep inside the Stormwind Stockade, beneath the Canal District near the Mage Quarter. From the main hallway intersection, take the eastern cell block and pass the ogre Hamhock; Thredd commands from the center cell in the far chamber."
+   "answer": "Bazil Thredd is deep inside the Stormwind Stockade, beneath the Canal District near the Mage Quarter. From the main hallway intersection, take the eastern cell block and pass the ogre Hamhock. Thredd commands from the center cell in the far chamber."
   },
   {
    "q": "Why is the Stockade rioting?",
@@ -52,7 +52,7 @@
     "stockade riot cause",
     "why did prisoners revolt"
    ],
-   "answer": "The inmates have overpowered the guards, opened the cells, and taken the Stockade's halls. Bazil Thredd, the prison's most important Defias prisoner, commands the rioting bandits and convicts while Warden Thelwater tries to keep the revolt from reaching Stormwind's streets."
+   "answer": "The inmates have overpowered the guards, opened the cells, and taken the Stockade's halls. Bazil Thredd commands the rioting bandits and convicts. Warden Thelwater tries to keep the revolt from reaching Stormwind's streets."
   },
   {
    "q": "Why does Warden Thelwater want Thredd dead?",
@@ -70,7 +70,7 @@
     "who is maelik",
     "curious visitor identity"
    ],
-   "answer": "A quiet man using the name Maelik visited Thredd once or twice a week in the months before the uprising. Thelwater distrusted him, but his papers were legitimate, suggesting well connected hands in the city had reached the Defias lieutenant."
+   "answer": "A quiet man calling himself Maelik visited Thredd once or twice a week in the months before the uprising. Thelwater distrusted him, but his papers were legitimate. They suggest well connected hands in the city had reached the Defias lieutenant."
   },
   {
    "q": "What was Thredd's role in the Stonemasons Guild?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "A Defias revolt beneath Stormwind's streets threatens the capital, and Warden Thelwater wants its leader dealt with before it spreads."
+   "text": "A Defias revolt beneath Stormwind's streets threatens the capital. Warden Thelwater wants its leader dealt with before it spreads."
   },
   {
    "target": "race:Human",
@@ -121,5 +121,5 @@
   "The Stockade Riots",
   "The Curious Visitor"
  ],
- "style": 1
+ "style": 2
 }

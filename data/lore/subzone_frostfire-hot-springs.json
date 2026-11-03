@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Frostfire Hot Springs"
  },
- "summary": "Frostfire Hot Springs are a curious series of steaming pools nestled amidst the western snowdrifts of Winterspring. Despite the bitter sub-zero temperatures all around them, these waters bubble constantly, attracting curious scholars, hardy fishers, and hostile furbolgs alike.",
+ "summary": "Steam rises from Frostfire Hot Springs beneath the snow of western Winterspring. Curious scholars and hardy fishers come despite the cold, while hostile furbolgs keep near the pools.",
  "sections": [
   {
    "title": "Steaming Waters in the Snow",
-   "body": "Situated near the tunnel leading to Timbermaw Hold, Frostfire Hot Springs represent one of the strangest natural anomalies in northern Kalimdor. The pools remain hot amid the surrounding snow, although the source of their heat is uncertain. The local Winterfall furbolgs maintain a presence near the water, though their aggressive territorial nature makes approaching the warm banks hazardous for unwary travelers. For those able to navigate the hostile wildlife and winter chill, the unfrozen waters provide a rare haven for fish.",
+   "body": "Near the tunnel to Timbermaw Hold, warm water runs beneath the snow at Frostfire Hot Springs. No one knows what keeps it hot. Winterfall furbolgs roam the banks, and their aggression makes the pools dangerous to approach. Fishers who brave the furbolgs and the winter chill find rare open water where fish thrive.",
    "spoiler": 0
   },
   {
    "title": "A Geothermal Mystery",
-   "body": "The uncanny existence of such intense heat in an otherwise frozen wasteland has drawn the attention of curious observers. Nearby, an inquisitive dwarf named Donova Snowden keeps a lonely vigil over the springs, studying their origin and composition. Snowden suspects that these geothermal anomalies might not be entirely natural, hypothesizing that dark magical corruption seeping northward from the demonic stronghold of Darkwhisper Gorge could be responsible for roiling the subterranean waters.",
+   "body": "The springs draw curious observers who wonder how their waters stay hot in this frozen land. Donova Snowden, an inquisitive dwarf, keeps a lonely vigil nearby as she studies their origin and composition. She suspects the heat may not be natural. Dark magic from the demonic stronghold of Darkwhisper Gorge could be seeping north and stirring the waters underground.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "frostfire origin",
     "hot water winterspring"
    ],
-   "answer": "The source of the springs' heat is a mystery. There are no nearby volcanoes, and Donova Snowden is investigating whether demonic influence from Darkwhisper Gorge may be involved."
+   "answer": "No one knows what heats the springs. Donova Snowden is investigating whether demonic influence from Darkwhisper Gorge may be involved."
   },
   {
    "q": "Who is Donova Snowden?",
@@ -37,7 +37,7 @@
     "donova snowden lore",
     "hot springs questgiver"
    ],
-   "answer": "Donova Snowden is a dwarven researcher camped near the hot springs. She studies their unusual properties and seeks help from travelers in understanding the dangers of Winterspring."
+   "answer": "Donova Snowden is a dwarven researcher camped near the hot springs. She studies their unusual properties and seeks travelers’ help in understanding Winterspring’s dangers."
   },
   {
    "q": "Could the springs be tied to demonic magic?",
@@ -46,7 +46,7 @@
     "darkwhisper connection",
     "corrupted water"
    ],
-   "answer": "Donova Snowden theorizes that the demonic taint festering in Darkwhisper Gorge far to the south may run deep through the earth, heating or distorting subterranean currents that bubble up at Frostfire Hot Springs."
+   "answer": "Donova Snowden suspects demonic corruption from Darkwhisper Gorge, far to the south, may run deep through the earth. It could heat or alter underground currents that rise at Frostfire Hot Springs."
   },
   {
    "q": "Who lives around the hot springs?",
@@ -55,17 +55,17 @@
     "who controls hot springs",
     "furbolgs hot springs"
    ],
-   "answer": "The aggressive Winterfall furbolg tribe controls territory near the springs, viewing the warm pools as valuable ground. Travelers must remain on guard, as these furbolgs attack outsiders on sight."
+   "answer": "Aggressive Winterfall furbolgs hold territory near the springs and attack outsiders on sight. Stay alert around the pools."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The hot springs showcase the inquisitive nature of your kin, represented by Donova Snowden, who braves the frozen elements to unlock geological mysteries."
+   "text": "As a dwarf, you may recognize your kin’s curiosity in Donova Snowden. She braves the frozen elements to study geological mysteries."
   },
   {
    "target": "class:Druid",
-   "text": "The unexplained warmth and unusual properties of the springs raise questions about the forces at work beneath Winterspring."
+   "text": "The springs’ unexplained warmth and unusual properties raise questions about the forces beneath Winterspring."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Frostfire Hot Springs"
- ]
+ ],
+ "style": 2
 }

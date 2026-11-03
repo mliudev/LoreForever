@@ -25,16 +25,16 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "A fine sash bearing embroidered initials hints at a rightful owner somewhere in Stranglethorn Vale. Finding the seafarer who lost it leads on to The Captain's Cutlass.",
+ "summary": "In Stranglethorn Vale, a lost sash bears initials that may lead to its owner. Finding the seafarer who lost it leads on to The Captain's Cutlass.",
  "sections": [
   {
    "title": "A Marked Garment",
-   "body": "This fine sash bears the letters 'HS' embroidered along its hem. Whoever lost it can only be traced by those two letters.",
+   "body": "You find a fine sash with the initials HS embroidered along its hem. Those two letters are the only clue to who lost it.",
    "spoiler": 0
   },
   {
    "title": "The Smotts Connection",
-   "body": "Returning the garment to Captain Hecklebury Smotts confirms it belongs to him. Recovering it reveals that the sea giant Mok'rash has been slain, bringing relief to the captain after the brute took part in destroying his vessels and crew on multiple occasions.",
+   "body": "Returning the sash to Captain Hecklebury Smotts confirms it is his. Its recovery brings news that the sea giant Mok'rash has been slain, news to the captain. The brute had helped destroy his vessels and crew more than once, and the news brings him relief.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "initials on monogrammed sash",
     "sash letters"
    ],
-   "answer": "The hem of the fine sash is embroidered with the initials 'HS'."
+   "answer": "The sash's hem bears the embroidered initials HS."
   },
   {
    "q": "Where does this lead next?",
@@ -55,7 +55,7 @@
     "monogrammed sash next quest",
     "next step"
    ],
-   "answer": "Once the sash is returned to its owner, the next step is The Captain's Cutlass."
+   "answer": "After you return the sash to its owner, the next step leads to The Captain's Cutlass."
   }
  ],
  "angles": [],
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "The Monogrammed Sash"
- ]
+ ],
+ "style": 2
 }

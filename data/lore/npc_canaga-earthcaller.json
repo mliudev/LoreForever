@@ -8,16 +8,16 @@
   "wiki": "Canaga Earthcaller",
   "refs": 5
  },
- "summary": "In the Valley of Trials, Canaga Earthcaller guides new Horde shamans toward the spirits of the land and their first totems.",
+ "summary": "In the Valley of Trials, Canaga Earthcaller guides new Horde shamans toward the land's spirits and their first totems.",
  "sections": [
   {
    "title": "Voice of the Land",
-   "body": "Canaga Earthcaller guides Darkspear trolls and orcs who begin the shaman’s path from the red bluffs of the Valley of Trials. He teaches newcomers to quiet their minds and listen to Kalimdor’s rumblings. They prepare earth sapta so they can commune with the spirits.",
+   "body": "From the red bluffs of the Valley of Trials, Canaga Earthcaller guides Darkspear trolls and orcs as they begin the shaman’s path. He teaches them to quiet their minds and listen to Kalimdor’s rumblings. Then they prepare earth sapta to commune with the spirits.",
    "spoiler": 0
   },
   {
    "title": "The First Totem",
-   "body": "Canaga asks each novice to gather sacred reagents and travel to the local spirit rock in Durotar. There, they drink earth sapta and see the elemental spirits firsthand. Through his guidance, they earn their Earth Totem.",
+   "body": "Canaga sends each novice to gather sacred reagents and travel to the local spirit rock in Durotar. There, they drink earth sapta and see the elemental spirits firsthand. With his guidance, they earn their Earth Totem.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is canaga",
     "canaga earthcaller npc"
    ],
-   "answer": "Canaga Earthcaller is a Darkspear troll shaman in the Valley of Trials. He mentors young shamans taking their first steps in the Horde."
+   "answer": "Canaga Earthcaller is a Darkspear troll shaman who mentors young shamans in the Valley of Trials as they take their first steps in the Horde."
   },
   {
    "q": "What does Canaga teach young shamans?",
@@ -38,7 +38,7 @@
     "call of earth durotar",
     "canaga quests"
    ],
-   "answer": "Canaga guides Horde shamans through the Call of Earth ritual chain in Durotar. He brews Earth Sapta, which lets initiates perceive and speak with the local earth elemental spirit as they seek their first totem."
+   "answer": "Canaga guides Horde shamans through the Call of Earth ritual chain in Durotar. He brews Earth Sapta so initiates can perceive and speak with the local earth elemental spirit as they seek their first totem."
   },
   {
    "q": "What is the Earth Sapta Canaga prepares?",
@@ -99,5 +99,5 @@
  "attribution": [
   "Canaga Earthcaller"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Valley of the Watchers"
  },
- "summary": "Tucked away in the far southern reaches of the Tanaris desert, the Valley of the Watchers is a sun-scorched canyon defined by monumental stonework. At its end stands a colossal, sealed stone gate leading into the mysterious complex of Uldum, guarded by lumbering giants and ancient stone sentinels.",
+ "summary": "At Tanaris’s southern edge, the sealed gate at the Valley of the Watchers keeps Uldum beyond reach. Stone sentinels and lumbering giants guard the ancient complex.",
  "sections": [
   {
    "title": "The Sealed Threshold",
-   "body": "The Valley of the Watchers marks the southern boundary where the shifting sands of Tanaris meet the mountainous edge of the continent. Dominating the canyon is a massive gate crafted from ancient stone, locked tight against the outside world. This sealed portal is believed to guard the entrance to Uldum, a subterranean facility of the enigmatic Titans. Massive Dune Smasher mountain giants roam the dusty approach, ensuring that whatever secrets lie buried beneath the sands remain undisturbed by travelers, tomb robbers, and scholars alike.",
+   "body": "At the valley’s southern end, a massive stone gate bars the way. It is believed to guard Uldum, a subterranean facility of the enigmatic Titans. Dune Smasher mountain giants roam the dusty approach, keeping travelers, tomb robbers, and scholars from disturbing what lies beneath the sands. The valley marks Tanaris’s southern boundary, where shifting desert sands meet the continent’s mountainous edge.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is uldum",
     "what is behind the door"
    ],
-   "answer": "The monumental doors are the entrance to Uldum, an ancient subterranean facility constructed by the Titans long before recorded mortal history. For now, the mechanisms remain entirely sealed, keeping its true contents and purpose a total mystery."
+   "answer": "The monumental doors lead into Uldum, an ancient subterranean facility built by the Titans before mortal history was recorded. The mechanisms remain sealed, and the complex’s contents and purpose are a mystery."
   },
   {
    "q": "Can the gate to Uldum be opened?",
@@ -32,7 +32,7 @@
     "open uldum door",
     "how to get into uldum"
    ],
-   "answer": "No. The massive stone gates are completely impassable. No mortal key, spell, or force currently known in Kalimdor can bypass the Titan safeguards locking the complex shut."
+   "answer": "No. The massive stone gates remain impassable. No mortal key, spell, or force known in Kalimdor can bypass the Titan safeguards that lock the complex shut."
   },
   {
    "q": "Why are there giants wandering the valley?",
@@ -41,7 +41,7 @@
     "valley giants",
     "mountain giants tanaris"
    ],
-   "answer": "Colossal mountain giants known as Dune Smashers prowl the canyon floor. Drawn to the area's potent earthen energy, they fiercely guard the approach, crushing any adventurers who stray too close to the southern cliffs."
+   "answer": "Dune Smashers, colossal mountain giants, prowl the canyon floor. Drawn by the area’s potent earthen energy, they fiercely guard the approach and crush adventurers who stray too close to the southern cliffs."
   },
   {
    "q": "Where in Tanaris is this valley located?",
@@ -50,13 +50,13 @@
     "how to find valley of the watchers",
     "where is the gate"
    ],
-   "answer": "The valley lies at the far southern edge of Tanaris, south of the Thistleshrub Valley and the gaping chasms of the Southbreak Shores, carved directly into the towering southern mountain wall."
+   "answer": "The valley lies at Tanaris’s far southern edge, south of Thistleshrub Valley and the gaping chasms of Southbreak Shores. It is carved into the towering southern mountain wall."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarven explorers and members of the Explorer's League, the massive stone gateway represents another tantalizing puzzle piece in the search for their Titan creators."
+   "text": "As a dwarf, you may see the massive stone gateway as another tantalizing clue in the search for your Titan creators."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Valley of the Watchers"
- ]
+ ],
+ "style": 2
 }

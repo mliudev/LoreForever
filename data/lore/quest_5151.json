@@ -17,21 +17,21 @@
   "wiki": "Hypercapacitor Gizmo (quest)",
   "chain": []
  },
- "summary": "Following a deadly centaur ambush on a merchant caravan in Thousand Needles, the goblin tinkerer Wizlo Bearingshiner was left as the sole survivor. Desperate to reclaim his prized invention, he hires adventurers to breach the wreckage, unlock an iron cage, and wrest the gizmo from the neck of a fearsome caged predator.",
+ "summary": "In Thousand Needles, Wizlo Bearingshiner waits at Whitereach Post after a centaur ambush. He needs his invention back from the wreckage, where a caged panther wears it around its neck.",
  "sections": [
   {
    "title": "Ambush in the Needles",
-   "body": "Caravans venturing beneath the towering sandstone spires of Thousand Needles run a perilous gauntlet. Hostile centaur prowl the canyon floor, fiercely guarding their territory and raiding any travelers bold enough to pass through. When one such trade caravan was overrun just north of Whitereach Post, the centaur slaughtered the travelers and plundered the wagons, leaving only the goblin Wizlo Bearingshiner to limp back to safety.",
+   "body": "Beneath Thousand Needles' sandstone spires, centaur guard the canyon floor. Just north of Whitereach Post, they overran a trade caravan, killed its travelers and plundered the wagons. Only Wizlo Bearingshiner, a goblin tinkerer, escaped. He limped back to safety.",
    "spoiler": 0
   },
   {
    "title": "An Unlikely Guardian",
-   "body": "In the chaos of the raid, the centaur looted nearly every valuable scrap, but they gave one ruined wagon a wide berth. Bound inside a sturdy transport cage was a ferocious, enraged panther with Wizlo's prized hypercapacitor gizmo fastened directly around its neck. Daunted by the predator's snarling fury, the centaur abandoned the cage intact, forcing Wizlo to entrust its key to brave mercenaries capable of slaying the beast and reclaiming his gadget.",
+   "body": "The centaur left one ruined wagon untouched, though they looted nearly every other valuable scrap. Inside its transport cage, a ferocious, enraged panther remains bound with Wizlo's prized hypercapacitor gizmo fastened around its neck. The centaur feared the beast and left the cage closed. Now Wizlo entrusts its key to mercenaries willing to face the predator and reclaim his invention.",
    "spoiler": 0
   },
   {
    "title": "Tinkerer's Ambition",
-   "body": "True to goblin fashion, Wizlo's passion for mechanical wonder often outpaces practical understanding. Despite hailing the hypercapacitor gizmo as his finest creation and risking lives to retrieve it from the clutches of an apex predator, he admits upon its return that he still has to tinker with it to figure out what it actually does.",
+   "body": "Wizlo Bearingshiner calls the hypercapacitor gizmo his finest creation, though he cannot yet say what it does. Even after lives are risked to recover it from a caged predator, he admits he still needs to tinker with the device to understand its purpose.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "wizlo bearingshiner lore",
     "quest giver wizlo"
    ],
-   "answer": "Wizlo Bearingshiner is a goblin tinkerer and merchant who took refuge at Whitereach Post after his caravan was ambushed and destroyed by centaur on the canyon floor of Thousand Needles."
+   "answer": "Wizlo Bearingshiner is a goblin tinkerer and merchant who took refuge at Whitereach Post after centaur ambushed and destroyed his caravan on Thousand Needles' canyon floor."
   },
   {
    "q": "Why is the gizmo around the panther's neck?",
@@ -52,7 +52,7 @@
     "panther necklace",
     "collar gizmo"
    ],
-   "answer": "During the transport or the chaos of the centaur ambush, the device ended up secured around the captive beast's neck. Because the panther was so terrifying, the raiding centaur refused to touch the cage, inadvertently making the predator the device's guardian."
+   "answer": "The gizmo ended up fastened around the captive panther's neck during its transport or the centaur ambush. The centaur feared the beast and left the cage untouched, making the panther the device's guardian."
   },
   {
    "q": "Where is the wrecked caravan located?",
@@ -61,7 +61,7 @@
     "where to find panther cage",
     "cage location"
    ],
-   "answer": "The wrecked caravan lies just north of Whitereach Post in Thousand Needles, sitting among shattered wagons surrounded by hostile centaur camps."
+   "answer": "The wrecked caravan lies just north of Whitereach Post in Thousand Needles, among shattered wagons and hostile centaur camps."
   },
   {
    "q": "Why didn't the centaur loot the cage?",
@@ -70,7 +70,7 @@
     "centaur afraid of panther",
     "why is cage untouched"
    ],
-   "answer": "According to Wizlo, the enraged panther is so ferocious that even the ruthless centaur marauders trembled in its presence and chose to leave the beast locked in its cage rather than risk opening it."
+   "answer": "Wizlo says the enraged panther was so ferocious that even the ruthless centaur marauders feared it. They left it locked in its cage rather than risk opening it."
   },
   {
    "q": "What does the Hypercapacitor Gizmo actually do?",
@@ -79,7 +79,7 @@
     "hypercapacitor function",
     "what is the gizmo"
    ],
-   "answer": "Wizlo proclaims it his finest gizmo, though upon having it returned, he confesses he still has to spend time studying and tinkering with it to discover what function it actually performs."
+   "answer": "Wizlo calls the Hypercapacitor Gizmo his finest invention, but after its return he admits he still needs to study and tinker with it to discover what it does."
   },
   {
    "q": "Who controls Whitereach Post?",
@@ -87,21 +87,21 @@
     "whitereach post faction",
     "is whitereach horde"
    ],
-   "answer": "Whitereach Post is a tauren settlement allied with the Horde, perched amidst the canyon mesas to monitor centaur activity and provide safe harbor to Horde travelers."
+   "answer": "Whitereach Post is a tauren settlement allied with the Horde. Set among the canyon mesas, it watches centaur activity and shelters Horde travelers."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Wizlo's frantic pursuit of an invention whose purpose he cannot quite recall exemplifies the chaotic, trial-and-error philosophy of classic goblin engineering."
+   "text": "Wizlo's frantic pursuit of an invention whose purpose he cannot quite recall shows the chaotic, trial-and-error ways of goblin engineering."
   },
   {
    "target": "faction:Horde",
-   "text": "Operating out of Whitereach Post, Horde scouts and travelers continually battle the predatory centaur clans that menace transit routes through central Kalimdor."
+   "text": "From Whitereach Post, Horde scouts and travelers battle the predatory centaur clans that menace routes through central Kalimdor."
   },
   {
    "target": "class:Hunter",
-   "text": "The enraged panther held in the wrecked caravan is an unusually formidable beast, fierce enough to terrify a full warband of centaur marauders."
+   "text": "The enraged panther in the wrecked caravan is a formidable beast, fierce enough to terrify a full warband of centaur marauders."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Hypercapacitor Gizmo (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Frostwhisper Gorge"
  },
- "summary": "Frostwhisper Gorge is a frigid canyon carved into the southern highlands of Winterspring, lying directly north of the sinister Darkwhisper Gorge. Ancient night elven ruins litter its icy floor and surrounding cliffs, while towering Frostmaul giants dominate the chasm. High above the eastern rim, a solitary dwarf camp looks out over the precipice toward the ocean below.",
+ "summary": "In southern Winterspring, Frostwhisper Gorge runs just north of Darkwhisper Gorge. Ancient night elven ruins lie across its icy floor and cliffs, now held by Frostmaul giants. A lone dwarf camp overlooks the ocean from the eastern rim.",
  "sections": [
   {
    "title": "A Frozen Chasm of Ruins and Giants",
-   "body": "Carved into the southern mountains of Winterspring, Frostwhisper Gorge serves as a threshold just before the demon-infested depths of Darkwhisper Gorge. Its snowy floor and cliffside ridges are strewn with the forgotten stonework of ancient night elven settlements. In the present day, the gorge is claimed by immense Frostmaul giants and their preservers. Travel down into the ravine is perilous, as the giants fiercely defend the frozen crags against any wandering intruders.",
+   "body": "Frostwhisper Gorge cuts through Winterspring's southern mountains, just north of Darkwhisper Gorge. Snow covers the ravine floor and cliff ridges, where stonework from ancient night elven settlements remains. Frostmaul giants and their preservers claim the gorge now. They fiercely defend its frozen crags, making travel into the ravine perilous.",
    "spoiler": 0
   },
   {
    "title": "The Eastern Overlook",
-   "body": "Hidden along a narrow, quiet track at the top of the gorge's eastern cliffs lies a curious outpost. Flying travelers on wyverns or gryphons passing between Azshara, Orgrimmar, and Winterspring often glimpse it from above: a solitary dwarven encampment perched at the very edge of the world. Planted with the banner of Ironforge, the camp features crates of provisions, barrels of ale, a comfortable chair, and a rifle leaning against the rest, providing an unmatched view across the drop to the Great Sea below.",
+   "body": "A narrow, quiet track leads to a small outpost atop the gorge's eastern cliffs. Travelers flying by wyvern or gryphon between Azshara, Orgrimmar, and Winterspring may spot it from above. An Ironforge banner marks the solitary dwarven camp at the cliff's edge. Crates of provisions, barrels of ale, a comfortable chair, and a rifle leaning against its rest sit there. The camp overlooks the drop to the Great Sea below.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what lives in frostwhisper gorge",
     "frostwhisper mobs"
    ],
-   "answer": "The canyon floor and surrounding terraces are inhabited by powerful Frostmaul giants and Frostmaul Preservers."
+   "answer": "Frostmaul giants and Frostmaul Preservers inhabit the canyon floor and its surrounding terraces."
   },
   {
    "q": "Where is Frostwhisper Gorge located?",
@@ -37,7 +37,7 @@
     "where is frostwhisper gorge",
     "frostwhisper map"
    ],
-   "answer": "It is situated in the southern reach of Winterspring, cut into the icy cliffs just north of Darkwhisper Gorge."
+   "answer": "Frostwhisper Gorge cuts through southern Winterspring's icy cliffs, just north of Darkwhisper Gorge."
   },
   {
    "q": "What is the small dwarf camp on the eastern cliffs?",
@@ -46,7 +46,7 @@
     "ironforge flag frostwhisper",
     "eastern cliff camp"
    ],
-   "answer": "Tucked away high on the eastern ridge overlooking the gorge is a tranquil campsite flying an Ironforge banner. It consists of a chair, a rifle, supply crates, and copious amounts of booze looking over the cliff edge toward the sea."
+   "answer": "A solitary dwarven campsite on the eastern ridge flies an Ironforge banner. It has a chair, a rifle, crates of provisions, and barrels of ale. The camp looks over the cliff toward the sea."
   },
   {
    "q": "Are there night elf ruins down in the gorge?",
@@ -54,17 +54,17 @@
     "elven ruins frostwhisper",
     "night elf architecture winterspring gorge"
    ],
-   "answer": "Yes. Crumbling night elven pillars and stonework are scattered across both the floor of the gorge and the upper cliff ridges, remnants of ancient Kaldorei habitations."
+   "answer": "Yes. Ancient night elven pillars and stonework lie across the gorge floor and upper cliff ridges, remnants of old Kaldorei habitations."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "High atop the eastern edge of the chasm, an unknown dwarven traveler pitched camp with an Ironforge flag, a rifle, and plenty of ale to take in the vast view of the ocean."
+   "text": "High on the chasm's eastern rim, a dwarf traveler has made camp. An Ironforge banner, a rifle, and plenty of ale are there, overlooking the ocean."
   },
   {
    "target": "race:NightElf",
-   "text": "The snowy depths of the gorge hold the shattered remnants of ancient night elf structures, now prowled by Frostmaul giants."
+   "text": "Ancient night elven structures lie in the gorge's snowy depths, where Frostmaul giants now prowl."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Frostwhisper Gorge"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Ghoulish Effigy (Classic)",
   "chain": []
  },
- "summary": "Abercrombie says the dead are pressing against his shack in Duskwood. He asks you to gather ghoul ribs for a grisly scarecrow meant to guard his home.",
+ "summary": "In Duskwood, the dead press against Abercrombie’s shack. He asks you for ghoul ribs to make a grim scarecrow and guard his home.",
  "sections": [
   {
    "title": "A Hermit's Plight",
-   "body": "Abercrombie lives beyond Darkshire's guarded bounds, alone among Duskwood's shadowed trees. Ghouls such as Flesh Eaters and Bone Chewers roam the wilds without restraint. He says ravenous corpses recently battered down his walls, and asks you for their ribs. He hopes a grisly effigy will keep the hungry dead away from his home.",
+   "body": "Beyond Darkshire’s guarded bounds, Abercrombie lives alone among Duskwood’s shadowed trees. Flesh Eaters and Bone Chewers roam the wilds freely. He says ravenous corpses recently battered down his walls, so he asks you to bring him their ribs. He hopes a grisly effigy will keep the hungry dead from his home.",
    "spoiler": 0
   },
   {
    "title": "A Bizarre Defense",
-   "body": "Abercrombie trusts a grim plan over the Night Watch or stronger walls for his wooden shack. He believes an effigy made from ghoul remains will frighten off other scavenging dead. A scarecrow built from slain undead is unsettling, yet travelers in Duskwood often do as the hermit asks for needed coin.",
+   "body": "For his wooden shack, Abercrombie trusts a grim plan over the Night Watch or stronger walls. He believes an effigy made from ghoul remains will frighten off other scavenging dead. A scarecrow built from slain undead is unsettling. Yet travelers in Duskwood often do as the hermit asks to earn needed coin.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is abercrombies shack",
     "hermit shack duskwood"
    ],
-   "answer": "Abercrombie lives in a solitary shack in western Duskwood, just northeast of Raven Hill Cemetery and far from Darkshire's protection."
+   "answer": "Abercrombie lives in a solitary shack in western Duskwood, just northeast of Raven Hill Cemetery and far from Darkshire’s protection."
   },
   {
    "q": "Why does Abercrombie need ghoul ribs?",
@@ -47,7 +47,7 @@
     "why ghoul ribs",
     "what is the effigy for"
    ],
-   "answer": "Abercrombie says packs of ghouls are pounding on his shack's walls. He plans to make a gruesome scarecrow from their bones to frighten away scavenging undead."
+   "answer": "Abercrombie says packs of ghouls are pounding on his shack’s walls. He plans to make a gruesome scarecrow from their bones to frighten away scavenging undead."
   },
   {
    "q": "Which creatures drop the Ghoul Ribs?",
@@ -56,7 +56,7 @@
     "ghoul rib drops",
     "which ghouls drop ribs"
    ],
-   "answer": "You can gather the ribs from undead roaming Duskwood's roads and cemeteries: Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones, and Plague Spreaders."
+   "answer": "You can gather the ribs from undead roaming Duskwood’s roads and cemeteries: Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones, and Plague Spreaders."
   },
   {
    "q": "Does building an undead scarecrow actually repel ghouls?",
@@ -64,7 +64,7 @@
     "do effigies work on ghouls",
     "ghoul scarecrow logic"
    ],
-   "answer": "Undead rarely fear much, so seasoned monster hunters doubt Abercrombie's plan. The hermit insists on it, and few question someone who pays in such desperate woods."
+   "answer": "Undead rarely fear much, so seasoned monster hunters doubt Abercrombie’s plan. The hermit insists on it, and few question someone who pays in such desperate woods."
   },
   {
    "q": "Why doesn't Abercrombie simply relocate to Darkshire?",
@@ -73,7 +73,7 @@
     "why doesn't abercrombie move",
     "darkshire safety"
    ],
-   "answer": "Abercrombie chooses to live alone, away from the Night Watch and town governance. Despite Duskwood's dangers, he prefers tending his shack and relying on his own peculiar defenses."
+   "answer": "Abercrombie chooses to live alone, away from the Night Watch and town governance. Despite Duskwood’s dangers, he prefers tending his shack and relying on his own peculiar defenses."
   },
   {
    "q": "What comes next after gathering the ribs?",
@@ -81,7 +81,7 @@
     "next quest",
     "what after ghoulish effigy"
    ],
-   "answer": "Once Abercrombie has the ghoul ribs, he brings another strange problem: local ogres have stolen his belongings, and he sends you into the wild to deal with them."
+   "answer": "Once Abercrombie has the ghoul ribs, another strange problem comes to light: local ogres have stolen his belongings, and he sends you into the wild to deal with them."
   }
  ],
  "angles": [
@@ -91,7 +91,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you can hunt Flesh Eaters and Bone Chewers to cleanse Duskwood's soil, though giving their remains to a hermit feels unsettling."
+   "text": "As a paladin, you can hunt Flesh Eaters and Bone Chewers to cleanse Duskwood’s soil. Giving their remains to a hermit may unsettle you."
   },
   {
    "target": "class:Priest",
@@ -117,5 +117,5 @@
  "attribution": [
   "Ghoulish Effigy (Classic)"
  ],
- "style": 1
+ "style": 2
 }

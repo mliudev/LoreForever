@@ -17,16 +17,16 @@
   "wiki": "Velora Nitely and the Brutal Legguards",
   "chain": []
  },
- "summary": "Thun'grim Firegaze sends Horde warriors across the Great Sea for Velora Nitely's Brutal Legguards. In the Undercity, the Forsaken smith draws on the craft she kept from her mortal life to forge the armor. Her work helps assemble a durable suit for the Horde's warriors.",
+ "summary": "Across the Great Sea, Thun'grim Firegaze sends Horde warriors to seek Velora Nitely and the Brutal Legguards. In the Undercity, the Forsaken smith uses the craft she kept from her mortal life to forge the armor. Her work helps complete a durable suit for the Horde's warriors.",
  "sections": [
   {
    "title": "A Journey Across the Sea",
-   "body": "Thun'grim Firegaze sends you east across the Great Sea to find a smith for the Brutal Legguards. You've proved your mettle to the veteran smith at his vigil in the Barrens, and now he points you toward the fabled Brutal Armor. Thun'grim cannot make the whole suit alone, so he relies on skilled allies across the Horde. The greaves call for an artisan whose work was revered before northern humanity fell, in the Forsaken's underground kingdom.",
+   "body": "Thun'grim Firegaze sends you east across the Great Sea to find a smith for the Brutal Legguards. You've proved your mettle to the veteran smith during his vigil in the Barrens, and now he points you toward the fabled Brutal Armor. Thun'grim cannot make the whole suit alone, so he depends on skilled allies across the Horde. The greaves call for an artisan whose work was revered before northern humanity fell, in the Forsaken's underground kingdom.",
    "spoiler": 0
   },
   {
    "title": "The Artistry of Velora Nitely",
-   "body": "Velora Nitely works in the Undercity's Trade Quarter, where her old craft still serves the Horde. Before the Scourging of the north ended her mortal life, she was one of the Kingdom of Lordaeron's foremost armorsmiths. Her homeland was corrupted, and she became one of the Forsaken, but death did not take her mastery of metal. She now turns her human skill toward the Horde's warriors, with a dry, macabre wit about being undead.",
+   "body": "Velora Nitely works in the Undercity's Trade Quarter, where her old craft still serves the Horde. Before the Scourging of the north ended her mortal life, she was one of the Kingdom of Lordaeron's foremost armorsmiths. Her homeland was corrupted, and she became one of the Forsaken. Death did not take her mastery of metal. Now she turns her human skill toward the Horde's warriors, with a dry, macabre wit about being undead.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "thun'grim undercity quest",
     "barrens to undercity warrior"
    ],
-   "answer": "Thun'grim Firegaze sends you to the Undercity because the full Brutal Armor set calls for skilled artisans across the Horde. He knows Velora's reputation for armor and dispatches you to Lordaeron to commission the legguards from her."
+   "answer": "Thun'grim Firegaze sends you to the Undercity because the full Brutal Armor set calls for skilled artisans across the Horde. He knows Velora's reputation for armor and sends you to Lordaeron to commission the legguards from her."
   },
   {
    "q": "Where can I find Velora Nitely in the Undercity?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Velora Nitely and the Brutal Legguards"
  ],
- "style": 1
+ "style": 2
 }

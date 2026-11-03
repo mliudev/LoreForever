@@ -18,21 +18,21 @@
   "chain": [],
   "category": "Stranglethorn Vale"
  },
- "summary": "Brother Nimetz believes Colonel Kurzen was driven to evil by a hidden power that still lives. An ogre mage known as Mai'Zoth lurks within the eastern mountains, wielding an artifact reputed to twist and control minds. Destroying him and recovering this relic is meant to ensure no other commander suffers the same corruption.",
+ "summary": "In the eastern mountains of Stranglethorn Vale, Mai'Zoth keeps a relic said to twist minds. Brother Nimetz believes the ogre mage corrupted Colonel Kurzen and wants the relic recovered before another commander suffers the same fate.",
  "sections": [
   {
    "title": "The Source of Corruption",
-   "body": "Though Kurzen has fallen, Brother Nimetz insists the primary catalyst behind the rebellion remains intact. His research points to Mai'Zoth, an ogre mage dwelling inside an ogre mound deep within the eastern heights of Stranglethorn Vale. Nimetz is certain that Mai'Zoth employed mind-altering sorcery to warp Kurzen's thoughts, warning that leaving the ogre alive invites another commander to succumb to the very same sinister influence.",
+   "body": "Brother Nimetz believes the power behind Kurzen's rebellion remains. His research points to Mai'Zoth, an ogre mage who lives in an ogre mound in the eastern heights of Stranglethorn Vale. Nimetz says Mai'Zoth used sorcery to warp Kurzen's thoughts. While Mai'Zoth lives, another commander could suffer the same corruption.",
    "spoiler": 0
   },
   {
    "title": "Securing the Relic",
-   "body": "To permanently eliminate the threat, you are asked to strike down Mai'Zoth, take the Mind's Eye from him, and bring that corrupting artifact back to the Rebel Camp.",
+   "body": "Brother Nimetz asks you to slay Mai'Zoth and take the Mind's Eye from him. Bring the artifact to the Rebel Camp.",
    "spoiler": 0
   },
   {
    "title": "After the Delivery",
-   "body": "Nimetz gives the one who brings the Mind's Eye his blessing, and means to study the artifact to learn whether its power might serve good. If it cannot, he says it must be destroyed.",
+   "body": "Brother Nimetz blesses whoever brings him the Mind's Eye. He plans to study its power and learn whether it can serve good. If it cannot, he says it must be destroyed.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "maizoth lore",
     "ogre mage maizoth"
    ],
-   "answer": "Mai'Zoth is an ogre mage who resides in an ogre mound in the eastern mountains of Stranglethorn Vale. Brother Nimetz holds him responsible for mentally corrupting Colonel Kurzen through sinister enchantments."
+   "answer": "Mai'Zoth is an ogre mage who lives in an ogre mound in the eastern mountains of Stranglethorn Vale. Brother Nimetz believes Mai'Zoth's sorcery corrupted Colonel Kurzen's mind."
   },
   {
    "q": "What is the Mind's Eye?",
@@ -53,7 +53,7 @@
     "what is the artifact",
     "mind's eye"
    ],
-   "answer": "The Mind's Eye is an artifact held by Mai'Zoth, reputed to possess mind-controlling magic that the ogre mage uses to corrupt and influence others."
+   "answer": "Mai'Zoth holds the Mind's Eye, an artifact reputed to wield magic that controls minds. He uses it to corrupt and influence others."
   },
   {
    "q": "Why does Brother Nimetz want Mai'Zoth slain?",
@@ -62,13 +62,13 @@
     "why kill maizoth",
     "reason for hunting maizoth"
    ],
-   "answer": "Brother Nimetz fears that as long as Mai'Zoth lives, his corruption could turn someone else into another Kurzen."
+   "answer": "Brother Nimetz fears Mai'Zoth's corruption could turn someone else into another Kurzen, so he wants the ogre slain."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Brother Nimetz operates out of the Rebel Camp in northern Stranglethorn Vale, seeking Alliance champions to put an end to the hidden evil that corrupted Kurzen."
+   "text": "Brother Nimetz works from the Rebel Camp in northern Stranglethorn Vale. He seeks Alliance champions to end the hidden evil that corrupted Kurzen."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Mai'Zoth (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -13,21 +13,21 @@
    "Barrens"
   ]
  },
- "summary": "Across The Barrens, Horde outposts hold the roads while rival forces press in from every side. Once a forest before the Great Sundering, the central Kalimdor plain is now dry country of red dust, scrub, and wandering wildlife. The Crossroads anchors Horde traffic, but quilboar, centaur, and creeping corruption threaten its hold.",
+ "summary": "Across The Barrens, Horde outposts guard the roads as rival forces press in from every side. Once forest before the Great Sundering, this central Kalimdor plain is now dry country of red dust, scrub, and wandering wildlife. The Crossroads anchors Horde traffic, but quilboar, centaur, and creeping corruption threaten its hold.",
  "sections": [
   {
    "title": "Heart of the New Horde",
-   "body": "For generations, tauren nomads hunted kodo and zhevra across the plains and fought a repeating defensive war against Kolkar centaur. During the Third War, Thrall led the orcs to Kalimdor and helped Cairne Bloodhoof drive back the centaur and cross the savanna into Mulgore. The Barrens now links Durotar, Mulgore, and Ashenvale. The Crossroads and Camp Taurajo guard trade along the Gold Road, while orcish homesteads endure the harsh climate as they build a lasting home.",
+   "body": "For generations, tauren nomads hunted kodo and zhevra across these plains. They also fought a recurring defensive war against the Kolkar centaur. During the Third War, Thrall led the orcs to Kalimdor. He helped Cairne Bloodhoof drive back the centaur, then crossed the savanna into Mulgore with him. The Barrens now links Durotar, Mulgore, and Ashenvale.\n\nThe Crossroads and Camp Taurajo guard trade along the Gold Road. Orcish homesteads endure the harsh climate as the Horde builds a lasting home.",
    "spoiler": 0
   },
   {
    "title": "A Land Under Siege",
-   "body": "Horde control of the savanna remains contested. Razormane quilboar, with their porcupine-like bristles, raid farms and supply lines from thorn-choked strongholds. Razorfen Kraul's dens loom to the south. On the eastern coast, Theramore forces hold Northwatch Hold, while dwarven prospectors dig into the titan complex of Bael Modan. Ratchet's goblins keep an uneasy neutrality in trade, welcoming travelers who bring coin.",
+   "body": "Horde control of the savanna remains contested. Razormane quilboar raid farms and supply lines from thorn-choked strongholds, their bristles like porcupine quills. To the south, the dens of Razorfen Kraul loom over the land. On the eastern coast, Theramore forces hold Northwatch Hold, while dwarven prospectors dig into the titan complex of Bael Modan. Ratchet's goblins keep uneasy neutrality in trade and welcome travelers who bring coin.",
    "spoiler": 0
   },
   {
    "title": "The Emerald Corruption",
-   "body": "Several oases break up the northern plains, their waters surging with unnatural vigor. The source lies in the Wailing Caverns, where the night elf druid Naralex tried to reach the Emerald Dream and restore the Barrens to its ancient forested state. A nightmare twisted his vision. Now corrupted water flows through the Forgotten Pools and Stagnant Oasis, giving rise to strange deviate plants, unnatural beasts, and the rogue Druids of the Fang.",
+   "body": "Oases break up the northern plains, their waters surging with unnatural vigor. Their source lies in the Wailing Caverns, where the night elf druid Naralex sought the Emerald Dream and hoped to restore the Barrens to its ancient forested state. A nightmare twisted his vision. Now corrupted water flows through the Forgotten Pools and Stagnant Oasis, giving rise to strange deviate plants, unnatural beasts, and the rogue Druids of the Fang.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "why is there water in barrens",
     "wailing caverns water"
    ],
-   "answer": "The Forgotten Pools and Lushwater Oasis draw water from underground springs flowing out of the Wailing Caverns. The night elf druid Naralex tried to channel the springs through the Emerald Dream and green the dry land, but the effort went awry, filling the northern Barrens with potent, volatile natural magic."
+   "answer": "The Forgotten Pools and Lushwater Oasis draw water from underground springs flowing out of the Wailing Caverns. Night elf druid Naralex tried to channel those springs through the Emerald Dream and green the dry land. His effort went awry, filling the northern Barrens with potent, volatile natural magic."
   },
   {
    "q": "Who controls the Crossroads?",
@@ -48,7 +48,7 @@
     "crossroads horde",
     "crossroads guards"
    ],
-   "answer": "The Horde garrisons the Crossroads, chiefly with orc and tauren warriors who serve Warchief Thrall. Its place where the main trade routes meet makes it the Horde's chief military and transit hub in central Kalimdor, linking Durotar, Mulgore, and Ashenvale."
+   "answer": "The Horde garrisons the Crossroads, chiefly with orc and tauren warriors who serve Warchief Thrall. The main trade routes meet there, making it the Horde's chief military and transit hub in central Kalimdor. From the Crossroads, those routes link Durotar, Mulgore, and Ashenvale."
   },
   {
    "q": "Why are the quilboar attacking everyone?",
@@ -57,7 +57,7 @@
     "why quilboar aggressive",
     "razormane motive"
    ],
-   "answer": "The quilboar claim the Barrens as their ancestral birthright. They believe its great brambles grew from the blood of their demigod, Agamaggan, during the War of the Ancients. They see the arriving Horde and native tauren as trespassers taking their sacred foraging grounds and hunting territory."
+   "answer": "The quilboar claim the Barrens as their ancestral birthright. They believe its great brambles grew from the blood of their demigod, Agamaggan, during the War of the Ancients. To them, the arriving Horde and native tauren are trespassers taking sacred foraging grounds and hunting territory."
   },
   {
    "q": "Why are Alliance soldiers in the Barrens?",
@@ -66,7 +66,7 @@
     "bael modan dwarves",
     "alliance in barrens"
    ],
-   "answer": "The Alliance holds to the savanna's edges. Human troops from Theramore garrison Northwatch Hold to watch Horde movements, while dwarves at Bael Modan and Bael'dun Keep dig for ancient titan artifacts buried in the southern hills."
+   "answer": "The Alliance holds to the savanna's edges. Human troops from Theramore garrison Northwatch Hold to watch Horde movements. In the southern hills, dwarves at Bael Modan and Bael'dun Keep dig for ancient titan artifacts."
   },
   {
    "q": "Is Ratchet part of the Horde?",
@@ -84,13 +84,13 @@
     "field of giants bugs",
     "silithid south barrens"
    ],
-   "answer": "Silithid, insect-like creatures, have emerged from earthen hives in the southern Barrens, especially around the Field of Giants. Their sudden arrival and fast-growing colonies threaten travelers and nearby outposts, and the Horde is investigating their origins."
+   "answer": "Silithid have emerged from earthen hives in the southern Barrens, especially around the Field of Giants. These insect-like creatures have arrived suddenly, and their colonies are growing fast. They threaten travelers and nearby outposts, while the Horde investigates their origins."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Barrens is your realm's supply road. Holding the Crossroads and guarding convoys along the Gold Road help Orgrimmar and Thunder Bluff endure."
+   "text": "The Barrens is your realm's supply road. Hold the Crossroads and guard convoys along the Gold Road to help Orgrimmar and Thunder Bluff endure."
   },
   {
    "target": "race:Tauren",
@@ -98,11 +98,11 @@
   },
   {
    "target": "class:Druid",
-   "text": "The altered waters from the Wailing Caverns mark a tragedy: Naralex's attempt to restore the Barrens fell to a nightmare."
+   "text": "The altered waters of the Wailing Caverns mark a tragedy. Naralex's attempt to restore the Barrens fell to a nightmare."
   },
   {
    "target": "class:Shaman",
-   "text": "These dry plains test your bond with the elements, from the spirits of the parched earth to the enchanted waters bubbling up in isolated oases."
+   "text": "These dry plains test your bond with the elements, from the spirits of parched earth to enchanted waters bubbling up in isolated oases."
   }
  ],
  "keywords": [
@@ -129,5 +129,5 @@
  "attribution": [
   "Barrens"
  ],
- "style": 1
+ "style": 2
 }

@@ -23,16 +23,16 @@
    "Taretha's Gift"
   ]
  },
- "summary": "In Tarren Mill, Krusk seeks help after Syndicate bandits capture the orc scouts sent into Durnholde Keep. Thrall had sent the party to investigate the growing threat and retrieve an object from the keep.",
+ "summary": "In Tarren Mill, Krusk needs your help after Syndicate bandits seize the orc scouts sent to Durnholde Keep. Thrall sent them to investigate the growing threat and retrieve an object from the keep.",
  "sections": [
   {
    "title": "A Scout Mission Gone Wrong",
-   "body": "Warchief Thrall sent a band of orc warriors to the Hillsbrad Foothills to investigate the growing Syndicate threat and retrieve an object from Durnholde Keep. Gol'dir led the scouts toward the fortress ruins, where the Syndicate's numbers overwhelmed them in an ambush. Krusk broke free and limped back across the river to Tarren Mill. Drull, Tog'thar, and Gol'dir were captured by the human bandits.",
+   "body": "Warchief Thrall sent orc warriors to Hillsbrad Foothills to investigate the growing Syndicate threat and retrieve an object from Durnholde Keep. Gol'dir led them toward the fortress ruins, but the Syndicate overwhelmed the scouts in an ambush. Krusk broke free and limped back across the river to Tarren Mill. The human bandits captured Drull, Tog'thar, and Gol'dir.",
    "spoiler": 0
   },
   {
    "title": "Chains in the Ruins",
-   "body": "Durnholde carries bitter memories for the orcs. It once housed Aedelas Blackmoore's internment camps, where captive orcs were kept lethargic and forced into gladiatorial slavery. Now Drull and Tog'thar are bound in iron within the keep's cracked stone walls, another insult to the Horde. Free the two scouts from the Syndicate jailors who hold the keys to their shackles, then learn what became of their commander, Gol'dir.",
+   "body": "Durnholde holds bitter memories for the orcs. Aedelas Blackmoore once kept captive orcs there in internment camps, where they were made lethargic and forced into gladiatorial slavery. Now Drull and Tog'thar are bound in iron within the keep's cracked stone walls. Free them from the Syndicate jailors who hold the keys to their shackles, then learn what became of their commander, Gol'dir.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "why durnholde",
     "krusk mission"
    ],
-   "answer": "Warchief Thrall sent Gol'dir and his scout cadre to investigate Syndicate bandits and retrieve an object from Durnholde Keep."
+   "answer": "Thrall sent Gol'dir and his scouts to investigate the Syndicate bandits and retrieve an object from Durnholde Keep."
   },
   {
    "q": "Who are the captives being rescued?",
@@ -80,7 +80,7 @@
     "after the rescue",
     "rescue chain"
    ],
-   "answer": "Freeing the scouts leads to a search for Gol'dir, with a mission to track down and infiltrate the Syndicate. The trail eventually reaches deeper into the Syndicate's affairs."
+   "answer": "Freeing the scouts leads to a search for Gol'dir and an effort to track down and infiltrate the Syndicate. The trail reaches deeper into the Syndicate's affairs."
   },
   {
    "q": "Why does Durnholde Keep hold special meaning to the Horde?",
@@ -88,21 +88,21 @@
     "history of durnholde",
     "why horde cares about durnholde"
    ],
-   "answer": "Durnholde was where Aedelas Blackmoore raised Thrall as a gladiator and commanded the Alliance internment camps after the Second War. Thrall later led a rebellion and laid waste to the keep."
+   "answer": "Durnholde was where Aedelas Blackmoore raised Thrall as a gladiator and commanded the Alliance internment camps after the Second War. Thrall led a rebellion and laid waste to the keep."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "As an orc, seeing your warriors shackled in Durnholde cuts straight to the painful history of internment. Freeing them is personal."
+   "text": "As an orc, seeing your warriors shackled in Durnholde recalls the painful history of internment. Freeing them is personal."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you take part in an early effort to counter the Syndicate's expansion across the contested hills of Lordaeron."
+   "text": "As a member of the Horde, you join an early effort to counter the Syndicate's expansion across Lordaeron's contested hills."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you stand with fellow fighters by breaking them out of captivity from dishonorable human bandits."
+   "text": "As a warrior, you stand with fellow fighters and free them from captivity at the hands of dishonorable human bandits."
   }
  ],
  "keywords": [
@@ -127,5 +127,5 @@
  "attribution": [
   "The Rescue"
  ],
- "style": 1
+ "style": 2
 }

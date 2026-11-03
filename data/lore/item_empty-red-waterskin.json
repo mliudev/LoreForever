@@ -10,11 +10,11 @@
    "quest:1536"
   ]
  },
- "summary": "In Tarren Mill, an empty red waterskin is bound for a well untouched by blight. Brine gives it to shaman initiates for their elemental trials.",
+ "summary": "In Tarren Mill, the Empty Red Waterskin is bound for a well untouched by blight. Brine gives it to shaman initiates for their elemental trials.",
  "sections": [
   {
    "title": "A Vessel for Pure Water",
-   "body": "Brine gives shaman initiates this plain red skin for the Call of Water trials. They carry it across the sea to Tarren Mill in the Hillsbrad Foothills. The Forsaken occupy the town, but its central well still draws fresh spring water. The filled skin brings a sample to Brine, who blends the water into a vial of purest water for the initiate’s trial.",
+   "body": "Brine gives shaman initiates a plain red skin for the Call of Water trials. They carry it across the sea to Tarren Mill in the Hillsbrad Foothills. The Forsaken occupy the town, yet its central well still draws fresh spring water. The filled skin brings a sample back to Brine, who blends it into a vial of purest water for the initiate’s trial.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "empty red waterskin use",
     "what to do with red waterskin"
    ],
-   "answer": "Shaman use the skin during the Call of Water trials to gather spring water from Tarren Mill’s well. The water turns it into a Filled Red Waterskin."
+   "answer": "Shaman use the skin in the Call of Water trials to gather spring water from Tarren Mill’s well. Filled, it becomes a Filled Red Waterskin."
   },
   {
    "q": "Who provides this waterskin?",
@@ -41,7 +41,7 @@
     "why tarren mill water",
     "tarren mill well lore"
    ],
-   "answer": "Tarren Mill is under Forsaken control, yet its central well remains uncorrupted. Brine sees the pure spring as a sign of hope and life enduring in an unhallowed land."
+   "answer": "Tarren Mill is under Forsaken control, yet its central well remains uncorrupted. Brine sees the pure spring as hope and life enduring in an unhallowed land."
   },
   {
    "q": "What happens after the waterskin is filled?",
@@ -49,17 +49,17 @@
     "what next red waterskin",
     "filled red waterskin turn in"
    ],
-   "answer": "After filling the skin at the well, you bring it back to Brine in the Barrens. She blends its water with other rare samples into a vial of purest water, which Islen Waterseer uses to create the Water Sapta."
+   "answer": "After filling the skin at the well, you bring it back to Brine in the Barrens. She blends its water with other rare samples into a vial of purest water. Islen Waterseer uses that vial to create the Water Sapta."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you carry and fill this waterskin as a first step toward mastering the Water Totem and attuning your senses to water’s resilient spirits."
+   "text": "As a shaman, you carry and fill this waterskin as the first step toward mastering the Water Totem and attuning your senses to water’s resilient spirits."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you hear Brine compare the pure well in Tarren Mill to Warchief Thrall, a beacon of strength and hope enduring immense suffering."
+   "text": "As an orc, you hear Brine compare Tarren Mill’s pure well to Warchief Thrall, a beacon of strength and hope enduring immense suffering."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Empty Red Waterskin",
   "Call of Water (4)"
  ],
- "style": 1
+ "style": 2
 }

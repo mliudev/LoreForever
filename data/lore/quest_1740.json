@@ -17,16 +17,16 @@
   "wiki": "The Orb of Soran'ruk",
   "chain": []
  },
- "summary": "In the southern Barrens, Doan Karhan sets warlocks to gather the scattered pieces of Soran'ruk. They seek to rebuild an orb that holds a disgraced demon's essence.",
+ "summary": "In the southern Barrens, Doan Karhan gathers warlocks around the broken Orb of Soran'ruk. They seek to restore the scattered pieces and the essence bound within.",
  "sections": [
   {
    "title": "Vessels of the Disgraced",
-   "body": "Failure within the Burning Legion brings an eternal sentence. When lesser demons lose favor with their masters, their spirits are bound inside crystal orbs. The Legion gives these prisons to mortal conjurers and warlocks as vessels for power under demonic control. Shattering an orb does not free its captive; even the shards hold potent magic.",
+   "body": "When lesser demons lose favor with the Burning Legion, their sentence is eternal. Their spirits are bound in crystal orbs and given to mortal conjurers and warlocks as vessels of power under demonic control. Shattering an orb does not free its captive. Even the shards keep potent magic.",
    "spoiler": 0
   },
   {
    "title": "Scattered Across Continents",
-   "body": "Soran'ruk's orb lies in pieces across two continents. Twilight's Hammer cultists hold smaller fragments in the damp caverns of Blackfathom Deeps in Ashenvale. A sorcerer in the haunted ruins of Shadowfang Keep in Silverpine Forest claimed the larger, mostly intact half. Doan Karhan has spent his life studying Legion orbs and assembled the Orb of Zargain before. With the recovered pieces, he can restore Soran'ruk as a working implement.",
+   "body": "Pieces of Soran'ruk lie across two continents. Twilight's Hammer cultists hold smaller fragments in the damp caverns of Blackfathom Deeps in Ashenvale. A sorcerer in the haunted ruins of Shadowfang Keep in Silverpine Forest claimed the larger, mostly intact half.\n\nDoan Karhan has spent his life studying Legion orbs and assembled the Orb of Zargain before. With the recovered pieces, he can restore Soran'ruk as a working implement.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who is doan karhan",
     "doan karhan backstory"
    ],
-   "answer": "Doan Karhan is a reclusive warlock who lives in the southern Barrens and has devoted his life to studying and rebuilding the Burning Legion's orbs. He spent many years assembling the Orb of Zargain and helps new warlocks piece together Soran'ruk."
+   "answer": "Doan Karhan is a reclusive warlock who lives in the southern Barrens. He has devoted his life to studying and rebuilding the Burning Legion's orbs. After many years assembling the Orb of Zargain, he helps new warlocks piece together Soran'ruk."
   },
   {
    "q": "Why is the orb broken across two different dungeons?",
@@ -62,7 +62,7 @@
     "who can do this quest",
     "is orb of soranruk warlock only"
    ],
-   "answer": "Warlocks seeking to advance their craft and master artifacts made from imprisoned demonic spirits can pursue this rite."
+   "answer": "Warlocks seeking to advance their craft and master implements made from imprisoned demonic spirits can pursue this rite."
   },
   {
    "q": "What does Doan Karhan do with the recovered fragments?",
@@ -70,7 +70,7 @@
     "what happens after collecting shards",
     "reforming soranruk"
    ],
-   "answer": "Doan Karhan studies the recovered fragments to further his research into Legion relics, then rebuilds them as a magical implement shaped to the warlock's choosing."
+   "answer": "Doan Karhan studies the recovered fragments to further his research into Legion relics. Then he rebuilds them as a magical implement shaped to the warlock's choosing."
   },
   {
    "q": "What is the Orb of Zargain?",
@@ -84,11 +84,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Rebuilding Soran'ruk marks a major milestone for you as a warlock. It teaches how the Legion disciplines its own kind and how bound demons can be harnessed in working implements."
+   "text": "As a warlock, rebuilding Soran'ruk marks a major milestone in your craft. You learn how the Legion disciplines its own kind and how bound demons can be harnessed in working implements."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can find Doan Karhan in the harsh southern Barrens. Traveling conjurers come to these plains to seek advanced dark lore."
+   "text": "As a member of the Horde, you can find Doan Karhan in the harsh southern Barrens. Traveling conjurers come to these plains seeking advanced dark lore."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "The Orb of Soran'ruk"
  ],
- "style": 1
+ "style": 2
 }

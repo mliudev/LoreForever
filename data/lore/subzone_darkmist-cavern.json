@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Darkmist Cavern"
  },
- "summary": "Darkmist Cavern is an abandoned mine tucked into northwestern Dustwallow Marsh, completely infested with predatory giant spiders. Crumbling ruins outside hint at an unfortunate former settlement swallowed up by the marsh's hazards. Locals remain divided on whether the cavern gave its name to the arachnids or the reverse.",
+ "summary": "Darkmist spiders swarm the old mine in northwestern Dustwallow Marsh. Ruined shacks stand by its entrance, and locals still dispute whether cave or brood bore the name first.",
  "sections": [
   {
    "title": "The Brood in the Mine",
-   "body": "Situated in the northwest reaches of Dustwallow Marsh, Darkmist Cavern appears to have once been an active mining venture. Today, any human presence has long vanished, leaving behind rotting, ruined shacks outside the entrance and a network of tunnels choked with thick webs. The cavern is overrun by Darkmist spiders, predatory horrors whose venom and size make the tunnels deadly to unwary wanderers. Marsh dwellers still dispute whether the cavern was named after the foul brood nesting inside or if the spiders took the title from the misty cave itself.",
+   "body": "Rotting shacks stand outside Darkmist Cavern in northwestern Dustwallow Marsh. Thick webs choke the tunnels. People once came here for the mine, but no human presence remains. Now Darkmist spiders fill its passages. Their size and venom make them deadly to unwary wanderers.\n\nMarsh dwellers still dispute how the cavern got its name. Some say it was named for the brood nesting inside. Others say the spiders took their name from the misty cave.",
    "spoiler": 0
   },
   {
    "title": "Hermit's Larder",
-   "body": "Despite the obvious danger, the cavern attracts occasional scavengers and eccentric marshfolk. The hermit 'Swamp Eye' Jarl is notorious for sending travelers deep into the webs to harvest the eyes of these monstrous spiders, insisting they make a fine stock for broth. Aside from such eccentric culinary outings, most sensible travelers steer well clear of the web-strewn entrance.",
+   "body": "Even this web choked cavern draws scavengers. The hermit ‘Swamp Eye’ Jarl sends travelers deep into its webs to gather the eyes of monstrous spiders. He claims they make fine broth. Most sensible travelers keep clear of the web strewn entrance.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "darkmist cave",
     "spider cave dustwallow"
    ],
-   "answer": "It is an abandoned mine in northwestern Dustwallow Marsh that has fallen entirely into the possession of giant, venomous spiders known as Darkmist spiders."
+   "answer": "Darkmist Cavern is an abandoned mine in northwestern Dustwallow Marsh, now filled with giant, venomous Darkmist spiders."
   },
   {
    "q": "Who lived at the ruins outside the cave?",
@@ -37,7 +37,7 @@
     "houses outside darkmist cavern",
     "abandoned village darkmist"
    ],
-   "answer": "The small wooden ruins suggest a settlement or mining camp once operated here, but its former inhabitants are not identified."
+   "answer": "The ruins outside the cave suggest a settlement or mining camp once stood there, but no one knows who lived there."
   },
   {
    "q": "Why do locals venture into Darkmist Cavern?",
@@ -45,7 +45,7 @@
     "why go to darkmist cavern",
     "darkmist cavern quest"
    ],
-   "answer": "Very few willingly enter, but the eccentric hermit 'Swamp Eye' Jarl hires daring adventurers to dive into the tunnels and retrieve spider eyes to brew into his strange marsh stew."
+   "answer": "Few willingly enter Darkmist Cavern. The hermit ‘Swamp Eye’ Jarl sends daring travelers into its tunnels to retrieve spider eyes for his strange marsh stew."
   },
   {
    "q": "Did the spiders or the cavern get the name first?",
@@ -53,17 +53,17 @@
     "spider name origin",
     "why is it called darkmist"
    ],
-   "answer": "The inhabitants of Dustwallow Marsh disagree on whether the spiders were named after the cavern or the cavern after the spiders. No settled account establishes which name came first."
+   "answer": "Dustwallow Marsh’s inhabitants disagree over whether the cavern was named for the spiders or the spiders for the cavern. No settled account says which name came first."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The eccentric hermit 'Swamp Eye' Jarl considers the foul eyes of Darkmist spiders to be the prime ingredient for a hearty marsh stew, though few outside the swamp share his taste."
+   "text": "The hermit ‘Swamp Eye’ Jarl calls Darkmist spider eyes the finest ingredient for marsh stew. Few beyond the swamp share his taste."
   },
   {
    "target": "profession:Mining",
-   "text": "The cavern was clearly hollowed out by past miners, but anyone looking to prospect its rocky depths will have to fight through hordes of nesting spiders first."
+   "text": "Miners once hollowed out the cavern. Anyone hoping to prospect its rocky depths must first face the nesting spiders."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Darkmist Cavern"
- ]
+ ],
+ "style": 2
 }

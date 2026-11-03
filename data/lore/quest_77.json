@@ -21,16 +21,16 @@
    "Ripple Recovery"
   ]
  },
- "summary": "Gilveradin Sunchaser holds the original packaging for the Hinterlands Honey Ripple that Dran Droffers is after, and will help package it for a fee of two extra bottles. The bottles are in crates around the abandoned Horde base near Skulk Rock.",
+ "summary": "Dran Droffers seeks the original packaging for Hinterlands Honey Ripple. Gilveradin Sunchaser has it and asks for two extra bottles; ten bottles wait in crates around the abandoned Horde base near Skulk Rock.",
  "sections": [
   {
    "title": "A Matter of Packaging",
-   "body": "Dran Droffers seeks the ripple, and Gilveradin Sunchaser has the original packaging for it. The help is not free: Gilveradin wants two additional bottles for the trouble. Ten bottles of Hinterlands Honey Ripple are to be gathered and brought back to the camp.",
+   "body": "Dran Droffers seeks Hinterlands Honey Ripple, and Gilveradin Sunchaser has its original packaging. Gilveradin offers to help in return for two extra bottles. Gather ten bottles and bring them back to the camp.",
    "spoiler": 0
   },
   {
    "title": "Ruins of Skulk Rock",
-   "body": "The crates stand around the abandoned Horde base near Skulk Rock. Foul slimes and oozes cling to the ruins, and rumor says some sort of master ooze leads them.",
+   "body": "Crates of Hinterlands Honey Ripple are scattered around the abandoned Horde base near Skulk Rock. Foul slimes and oozes cling to the ruins. Rumor says a master ooze leads them.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "dran droffers ripple",
     "who is the packaging for"
    ],
-   "answer": "Dran Droffers is the one seeking the ripple, and Gilveradin Sunchaser has the original packaging for it, which is meant for Malton's father."
+   "answer": "Dran Droffers seeks Hinterlands Honey Ripple. Gilveradin Sunchaser has its original packaging, meant for Malton's father."
   },
   {
    "q": "What does Gilveradin charge for the packaging?",
@@ -51,7 +51,7 @@
     "gilveradin fee",
     "why so much ripple"
    ],
-   "answer": "Gilveradin asks for two additional bottles of the ripple as a fee. Ten bottles are to be recovered from the crates."
+   "answer": "Gilveradin asks for two extra bottles of the ripple as his fee. Ten bottles are in the crates."
   },
   {
    "q": "Where are the crates of Hinterlands Honey Ripple kept?",
@@ -60,7 +60,7 @@
     "where is the honey ripple",
     "skulk rock crates"
    ],
-   "answer": "They are in crates around the abandoned Horde base near Skulk Rock in the Hinterlands."
+   "answer": "The crates are around the abandoned Horde base near Skulk Rock in the Hinterlands."
   },
   {
    "q": "What is at the abandoned camp at Skulk Rock?",
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Wowpedia: A Sticky Situation"
- ]
+ ],
+ "style": 2
 }

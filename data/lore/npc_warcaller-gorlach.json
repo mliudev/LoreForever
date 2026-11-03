@@ -8,11 +8,11 @@
   "wiki": "Warcaller Gorlach",
   "refs": 1
  },
- "summary": "Warcaller Gorlach patrols Orgrimmar, calling Horde champions to distant battlefronts. He rallies travelers and seasoned warriors to answer commands at outposts across Kalimdor and beyond.",
+ "summary": "Across Orgrimmar, Warcaller Gorlach calls Horde champions to distant battlefronts. He rallies travelers and seasoned warriors to answer commands at outposts across Kalimdor and beyond.",
  "sections": [
   {
    "title": "Voice of the Warchief's Call",
-   "body": "Warcaller Gorlach walks Orgrimmar's thoroughfares, carrying the Horde's calls for expansion and defense. He gives orders among the city's people, seeking volunteers ready to test their mettle. Some he sends to the contested canopy of Ashenvale. Others he directs toward Camp Mojache in Feralas, where scouts face the wilderness. He also calls warriors to distant campaigns in the Plaguelands. As threats rise abroad, Gorlach calls on those in the capital to take up arms.",
+   "body": "Warcaller Gorlach walks Orgrimmar's thoroughfares with the Horde's calls for expansion and defense. Among the city's people, he seeks volunteers ready to test their mettle. He sends some to contested Ashenvale. Others he directs to Camp Mojache in Feralas, where scouts face the wilderness. He calls warriors to campaigns in the distant Plaguelands as threats rise abroad.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is gorlach",
     "warcaller"
    ],
-   "answer": "Warcaller Gorlach patrols Orgrimmar as an orc herald, directing Horde members toward combat zones and remote frontiers."
+   "answer": "Warcaller Gorlach patrols Orgrimmar as an orc herald. He directs Horde members toward combat zones and remote frontiers."
   },
   {
    "q": "Where does Warcaller Gorlach send adventurers?",
@@ -33,7 +33,7 @@
     "where does gorlach send you",
     "gorlach quests"
    ],
-   "answer": "Warcaller Gorlach directs Horde champions to outposts in need, including Ashenvale, Camp Mojache in Feralas, and distant fronts such as the Plaguelands."
+   "answer": "Warcaller Gorlach directs Horde champions to outposts in need. These include Ashenvale, Camp Mojache in Feralas, and distant fronts such as the Plaguelands."
   },
   {
    "q": "Where can Warcaller Gorlach be found?",
@@ -42,13 +42,13 @@
     "where is gorlach",
     "find gorlach"
    ],
-   "answer": "Warcaller Gorlach patrols the streets and valleys of Orgrimmar, calling its people to arms."
+   "answer": "Warcaller Gorlach patrols Orgrimmar's streets and valleys, calling its people to arms."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a Horde champion looking to prove your strength or seek guidance beyond Durotar, you can turn to Gorlach for direction toward outposts in need of reinforcements."
+   "text": "As a Horde champion seeking to prove your strength or find guidance beyond Durotar, you can turn to Gorlach. He directs you toward outposts in need of reinforcements."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Warcaller Gorlach"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Capital Gardens"
  },
- "summary": "The Capital Gardens form the western wing of the ancient elven ruins of Dire Maul in Feralas. Once a serene, manicured park for the Kaldorei nobility, it has withered into a blighted woodland stalked by corrupted ancients, ghosts, and remnants of the Shen'dralar.",
+ "summary": "In Dire Maul's western wing, corrupted growth and spirits haunt the Capital Gardens. Once a park for Kaldorei nobles, the grounds now shelter corrupted ancients, ghosts, and Shen'dralar remnants.",
  "sections": [
   {
    "title": "A Decayed Sanctuary",
-   "body": "Ten millennia ago, Eldre'Thalas stood as one of the shining jewels of the Kaldorei empire. The Capital Gardens served as its outdoor district, lush with enchanted flora and grand marble terraces where Highborne sorcerers debated and relaxed. Following the Great Sundering, the enclave fell on desperate times. Deprived of the Well of Eternity, the resident Shen'dralar turned to dark magic to sustain their immortality, letting the gardens wither away. Today, gray, twisted boughs and corrupted treants fill the broken courtyards, while residual magical corruption prevents the forest from ever truly healing.",
+   "body": "Broken marble terraces and twisted gray boughs fill the Capital Gardens. Corrupted treants haunt the courtyards. Ten millennia ago, Eldre'Thalas was one of the Kaldorei empire's great cities. Its outdoor district offered enchanted plants and broad terraces where Highborne sorcerers met to debate and rest.\n\nAfter the Great Sundering, the enclave fell on hard times. Without the Well of Eternity, the Shen'dralar turned to dark magic to preserve their immortality. The gardens withered, and lingering corruption keeps the woodland from healing.",
    "spoiler": 0
   },
   {
    "title": "The Athenaeum and the Prison",
-   "body": "Beyond the overgrown alleys and hostile ancients, the Capital Gardens connect deeper into the heart of the Shen'dralar redoubt. The paths lead directly to the Court of the Highborne and the Athenaeum\u2014the preserved library holding centuries of arcane lore and forgotten treatises. Deeper still lies the Prison of Immol'thar, where the surviving elves bound a demon to siphon its power, an act of desperation that warped the surrounding gardens into the nightmare seen today.",
+   "body": "Overgrown paths pass hostile ancients on the way to the Court of the Highborne and the Athenaeum. The library preserves centuries of arcane lore and forgotten treatises. Farther in, the Prison of Immol'thar holds a demon bound by the surviving elves, who sought to draw on its power. That desperate act warped the gardens around it.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "dire maul west gardens",
     "eldre'thalas park"
    ],
-   "answer": "The Capital Gardens is the western wing of Dire Maul, located within the ruins of Eldre'Thalas in central Feralas. It was once a pristine public park and residence for the city's Highborne elite."
+   "answer": "The Capital Gardens occupy Dire Maul's western wing, among the ruins of Eldre'Thalas in central Feralas. They once served as a public park and home for the city's Highborne elite."
   },
   {
    "q": "Why are the trees and ancients corrupted here?",
@@ -37,7 +37,7 @@
     "what happened to the trees",
     "why is it blighted"
    ],
-   "answer": "After the Well of Eternity was destroyed, the surviving Shen'dralar sustained themselves by siphoning dark fel energies from a summoned demon, Immol'thar. The resulting leak of volatile magic slowly warped the local plant life and drove the resident ancients into violent madness."
+   "answer": "After the Well of Eternity was destroyed, the surviving Shen'dralar drew dark fel energy from the summoned demon Immol'thar to sustain themselves. The leaking magic warped local plants and drove the resident ancients mad with violence."
   },
   {
    "q": "Where does this area lead?",
@@ -45,7 +45,7 @@
     "what connects to capital gardens",
     "where does it go"
    ],
-   "answer": "The gardens lead deeper into the western complex of Dire Maul, opening into the Court of the Highborne, the scholarly Athenaeum, and the inner sanctuary holding the demon Immol'thar."
+   "answer": "The gardens lead deeper into Dire Maul's western complex, to the Court of the Highborne, the scholarly Athenaeum, and the inner sanctuary where Immol'thar is held."
   },
   {
    "q": "Are there any friendly elves left in the gardens?",
@@ -53,17 +53,17 @@
     "any allies inside",
     "who lives in capital gardens"
    ],
-   "answer": "Most of the Highborne roaming the pathways are hostile spirits or maddened defenders. However, within the nearby Athenaeum, some Shen'dralar scholars still endure, willing to barter ancient knowledge or trade for lost elven librams."
+   "answer": "Most Highborne on the paths are hostile spirits or maddened defenders. Some Shen'dralar scholars still endure in the nearby Athenaeum, where they barter ancient knowledge or trade for lost elven librams."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, walking the blighted paving of the Capital Gardens is a harrowing reminder of Highborne hubris and the catastrophic costs of arcane addiction."
+   "text": "For night elves, the Capital Gardens' blighted paving recalls Highborne hubris and the ruinous cost of arcane addiction."
   },
   {
    "target": "class:Mage",
-   "text": "Despite the decay, the gardens house pathways toward the Athenaeum, one of the greatest repositories of pre-Sundering magical theory still standing in Kalimdor."
+   "text": "The gardens' paths lead toward the Athenaeum, one of Kalimdor's greatest surviving collections of pre-Sundering magical theory."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Capital Gardens"
- ]
+ ],
+ "style": 2
 }

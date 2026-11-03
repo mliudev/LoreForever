@@ -17,16 +17,16 @@
   "wiki": "Digging Through the Dirt",
   "chain": []
  },
- "summary": "You search for the Embalmer’s missing heart in Duskwood at Raven Hill Cemetery. A mound marked Eliza hides a buried horror that will not stay dead.",
+ "summary": "At Raven Hill Cemetery, you search for the Embalmer’s missing heart. A mound marked Eliza may hold the answer, buried beneath the dirt.",
  "sections": [
   {
    "title": "A Grave Disturbed",
-   "body": "At Raven Hill Cemetery, a patch of loose, freshly turned soil bears the name Eliza. Other graves in Duskwood lie open to scavengers or feral ghouls, but someone placed this earth with care. Digging below the topsoil uncovers the splintered boards of a coffin. It seals away the remnant the Embalmer meant to hide from the light of day.",
+   "body": "At Raven Hill Cemetery, one patch of loose soil bears the name Eliza. Other graves in Duskwood lie open to scavengers or feral ghouls, yet this earth was laid with care. Dig beneath the topsoil and you find splintered coffin boards. They cover the remnant the Embalmer meant to hide from daylight.",
    "spoiler": 0
   },
   {
    "title": "The Scratching Within",
-   "body": "Eliza lies beneath the splintered coffin boards, but she is no resting corpse. The lid shudders with the scrape of clawed fingers and the clatter of rotting jaws. Abercrombie’s experiment stirs inside her pine coffin. The Embalmer’s missing heart beats in her breast as she waits for unwary hands to open the grave.",
+   "body": "Eliza lies beneath splintered coffin boards, but she does not rest. The lid shudders as clawed fingers scrape and rotting jaws clatter. Abercrombie’s experiment stirs inside her pine coffin. The Embalmer’s missing heart beats in her breast as she waits for unwary hands to open the grave.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "purpose of digging",
     "why open the coffin"
    ],
-   "answer": "You dig into the grave to face Eliza and recover the Embalmer’s heart, ending the search for his foul schemes."
+   "answer": "You dig into the grave to face Eliza and recover the Embalmer’s heart. That ends the search for his foul schemes."
   },
   {
    "q": "What happens when the coffin is opened?",
@@ -87,15 +87,15 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Disturbing a fresh grave violates the funeral rites of the Holy Light. Releasing and destroying the unnatural fiend within is an act of cleansing."
+   "text": "Disturbing a fresh grave violates the funeral rites of the Holy Light. Releasing and destroying the unnatural fiend within cleanses the grave."
   },
   {
    "target": "class:Priest",
-   "text": "Scratching claws and gnashing teeth beneath consecrated soil offend the peaceful rest the Light promises Duskwood’s dead."
+   "text": "Clawing and gnashing beneath consecrated soil offend the peaceful rest the Light promises Duskwood’s dead."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Night Watch struggles against the terror spilling from Raven Hill. Finding the horrors buried by the Embalmer is vital to Darkshire’s safety."
+   "text": "The Night Watch struggles against the terror spilling from Raven Hill. Finding the horrors the Embalmer buried is vital to Darkshire’s safety."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Digging Through the Dirt"
  ],
- "style": 1
+ "style": 2
 }

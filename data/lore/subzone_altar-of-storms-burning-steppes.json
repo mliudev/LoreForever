@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Altar of Storms (Burning Steppes)"
  },
- "summary": "Perched in the jagged crags of the Burning Steppes, the Altar of Storms is a dark monument dedicated to fel rituals and demonic power. Blackrock clan warlocks occupy the sinister site, performing foul magic beneath the shadow of Blackrock Spire. Its dark aura draws ambitious practitioners of the shadow from across Azeroth.",
+ "summary": "Blackrock warlocks perform fel rites at the Altar of Storms in the Burning Steppes. The dark monument draws those seeking demonic power.",
  "sections": [
   {
    "title": "A Legacy of Shadow and Flame",
-   "body": "Constructed during the earlier wars to channel corrupting fel magic, the Altar of Storms stands as a grim monument to dark pacts. In the Burning Steppes, hostile warlocks of the Blackrock clan control the grounds, conducting occult rituals and drawing upon demonic forces. Nearby, the encampment of the hermit Gorzeeki Wildeyes and his master Mor'zul Bloodbringer overlooks the site, where renegade practitioners study its violent energies and concoct demanding rituals for ambitious spellcasters seeking greater dark power.",
+   "body": "Blackrock warlocks hold the Altar of Storms, where they perform rites to channel fel magic and seal dark pacts. The monument was built during the earlier wars. Nearby, the hermit Gorzeeki Wildeyes and his master, Mor'zul Bloodbringer, keep an encampment overlooking the altar. Renegade practitioners study its violent energies and devise demanding rites for spellcasters who seek greater dark power.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this altar",
     "burning steppes altar"
    ],
-   "answer": "It is a corrupted stone monument used for dark fel rituals and channeling demonic energy. Built during the wars of the Old Horde, it remains an active nexus of dark power harnessed by Blackrock warlocks."
+   "answer": "The Altar of Storms is a corrupted stone monument used for fel rites and to channel demonic energy. Built during the Old Horde's wars, it remains a source of dark power for Blackrock warlocks."
   },
   {
    "q": "Who controls the altar right now?",
@@ -32,7 +32,7 @@
     "altar of storms enemies",
     "who lives here"
    ],
-   "answer": "Hostile warlocks and acolytes belonging to the Blackrock orc clan occupy the grounds immediately around the altar, performing dark ceremonies and guarding their site from intruders."
+   "answer": "Hostile Blackrock orc warlocks and acolytes occupy the grounds around the altar. They perform dark ceremonies and guard the site from intruders."
   },
   {
    "q": "Who is Gorzeeki Wildeyes?",
@@ -41,17 +41,17 @@
     "orc on the hill",
     "who is gorzeeki"
    ],
-   "answer": "Gorzeeki Wildeyes is an eccentric goblin scholar of the dark arts who dwells on the hill overlooking the altar alongside his master, Mor'zul Bloodbringer. He assists powerful warlocks who are seeking to master greater demonic bindings."
+   "answer": "Gorzeeki Wildeyes is an eccentric goblin scholar of the dark arts and a hermit on the hill overlooking the altar. He lives there with his master, Mor'zul Bloodbringer, and helps powerful warlocks master greater demonic bindings."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The Altar of Storms and its neighboring hermits, Mor'zul Bloodbringer and Gorzeeki Wildeyes, serve as crucial conduits for warlocks seeking the materials and rituals required to summon a dreaded dreadsteed."
+   "text": "As a warlock, you can seek the materials and rites for summoning a dreaded dreadsteed from Mor'zul Bloodbringer and Gorzeeki Wildeyes, the hermits near the Altar of Storms."
   },
   {
    "target": "race:Orc",
-   "text": "The altar is an uncomfortable reminder of the Old Horde's dark history, where Gul'dan's Shadow Council used similar foul shrines to infuse ogres and soldiers with dark sorcery."
+   "text": "As an orc, you may find the altar an uncomfortable reminder of the Old Horde's dark history. Gul'dan's Shadow Council used similar foul shrines to infuse ogres and soldiers with dark sorcery."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Altar of Storms (Burning Steppes)"
- ]
+ ],
+ "style": 2
 }

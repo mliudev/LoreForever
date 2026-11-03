@@ -8,21 +8,21 @@
   "wiki": "Sprite Darter",
   "refs": 4
  },
- "summary": "Sprite Darters are small, iridescent faerie dragons native to the lush canopy of Feralas. Revered for their innate spiritual and magical qualities, they flit gracefully among the ancient trees. Recently, these rare creatures have become targets for local Grimtotem tauren who seek to capture and exploit them.",
+ "summary": "Among Feralas's ancient trees, Sprite Darters flit while the Grimtotem seek to capture them. These rare faerie dragons are revered for their spiritual and magical qualities.",
  "sections": [
   {
    "title": "Faerie Dragons of the Wild",
-   "body": "Sprite Darters are elusive, winged woodland beasts native to the ancient forests of Feralas. Characterized by their gleaming, iridescent wings and mysterious spiritual essence, they embody the whimsical yet fierce magical ecology of Kalimdor's deep forests. Though generally peaceful and shy, their innate resistance to magical forces and natural power make them significant to those attuned to the wilderness.",
+   "body": "Sprite Darters glide through Feralas's ancient forests on iridescent wings. Shy and peaceful, these elusive woodland beasts draw the attention of those who study Kalimdor's wild places for their natural power and resistance to magic.",
    "spoiler": 0
   },
   {
    "title": "Grimtotem Captivity",
-   "body": "In recent times, the reclusive Sprite Darters have faced an unprecedented threat. The aggressive Grimtotem tauren clan inhabiting Feralas has begun rounding up and caging large numbers of these rare creatures for enigmatic purposes. Concerned night elves like Kindal Moonweaver actively recruit allies to disrupt the cages and liberate the trapped hatchlings before the Grimtotem bend them to their will.",
+   "body": "The Grimtotem tauren of Feralas have begun rounding up and caging many Sprite Darters, though no one knows why. Kindal Moonweaver, a concerned night elf, seeks allies to break the cages and free the trapped hatchlings before the Grimtotem bend them to their will.",
    "spoiler": 0
   },
   {
    "title": "Spiritual Interest",
-   "body": "Beyond night elf efforts to safeguard them, the darters have caught the eye of outside observers studying primal power. Witch Doctor Uzer'i, a troll spiritualist operating out of Camp Mojache, takes a keen interest in the natural energies and muisek contained within the Sprite Darters, seeking their essence to unravel the unique magic thriving throughout Feralas.",
+   "body": "Sprite Darters also interest those who study primal power. At Camp Mojache, Witch Doctor Uzer'i, a troll spiritualist, studies the natural energies and muisek within them. He seeks their essence to understand the unique magic thriving throughout Feralas.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "what is a sprite darter",
     "are sprite darters dragons"
    ],
-   "answer": "Sprite Darters are miniature faerie dragons found inhabiting the wilderness of Feralas. They are known for their shimmering wings, connection to nature, and elusive magical behavior."
+   "answer": "Sprite Darters are small faerie dragons found in Feralas's wilderness. Their shimmering wings, bond with nature, and elusive magic set them apart."
   },
   {
    "q": "Why are the Grimtotem tauren capturing them?",
@@ -43,7 +43,7 @@
     "grimtotem sprite darters",
     "why are darters caged"
    ],
-   "answer": "The exact reasons remain shrouded, but the Grimtotem clan has been netting and caging sprite darters in large numbers throughout the woods, likely seeking to exploit their rare spiritual and magical qualities."
+   "answer": "No one knows why the Grimtotem are capturing Sprite Darters. The clan has been netting and caging many in the woods, perhaps to exploit their rare spiritual and magical qualities."
   },
   {
    "q": "Who is trying to protect the Sprite Darters?",
@@ -52,7 +52,7 @@
     "kindal moonweaver sprite darters",
     "alliance sprite darter quest"
    ],
-   "answer": "Kindal Moonweaver, an elf residing in Feralas, actively works to protect them by sending sympathetic adventurers to smash the Grimtotem cages and rescue captive darters."
+   "answer": "Kindal Moonweaver works to protect Sprite Darters. The elf in Feralas calls on allies to break Grimtotem cages and free the captives."
   },
   {
    "q": "Why is Witch Doctor Uzer'i interested in Sprite Darters?",
@@ -60,7 +60,7 @@
     "witch doctor uzeri sprite darter",
     "uzeri darter quest"
    ],
-   "answer": "Witch Doctor Uzer'i studies the primal spiritual forces of Feralas. He seeks the essence, or muisek, of the Sprite Darters to learn more about the intrinsic magical wildlife of the region."
+   "answer": "Witch Doctor Uzer'i seeks the essence, or muisek, of Sprite Darters to learn about Feralas's primal spiritual forces and magical wildlife."
   },
   {
    "q": "Can you raise a Sprite Darter?",
@@ -69,7 +69,7 @@
     "sprite darter pet",
     "can i get a sprite darter"
    ],
-   "answer": "Those who aid Kindal Moonweaver in freeing the captive hatchlings and defending their nests may eventually be entrusted with a rare Sprite Darter Egg to rear and protect."
+   "answer": "Those who help Kindal Moonweaver free captive hatchlings and defend their nests may be entrusted with a rare Sprite Darter Egg to rear and protect."
   },
   {
    "q": "Are Sprite Darters hostile?",
@@ -77,25 +77,25 @@
     "are sprite darters dangerous",
     "do sprite darters attack"
    ],
-   "answer": "Wild sprite darters are generally skittish and passive toward travelers, but like all wild creatures, they will defend themselves using bursts of nature magic if threatened or provoked."
+   "answer": "Wild Sprite Darters are generally skittish and passive toward travelers. If threatened or provoked, they defend themselves with bursts of nature magic."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Night elves revere the sacred faerie dragons as natural wardens of the forest, making the liberation of captured Sprite Darters from the Grimtotem a matter of ecological stewardship."
+   "text": "As a night elf, you revere faerie dragons as sacred wardens of the forest. Freeing captured Sprite Darters from the Grimtotem is part of caring for the woods."
   },
   {
    "target": "faction:Alliance",
-   "text": "Allies of Kindal Moonweaver rally to the aid of the captive hatchlings in Feralas, thwarting the encroaching reach of the hostile Grimtotem tribe."
+   "text": "As an ally of Kindal Moonweaver, you can help free captive hatchlings in Feralas and hinder the hostile Grimtotem tribe."
   },
   {
    "target": "faction:Horde",
-   "text": "Troll spiritualists like Witch Doctor Uzer'i from Camp Mojache view Sprite Darters as prime subjects for harvesting spiritual muisek and harnessing the ancient essence of Feralas."
+   "text": "As a troll spiritualist, you may study spiritual muisek and Feralas's ancient essence, as Witch Doctor Uzer'i does at Camp Mojache."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold faerie dragons in high regard as cousins of nature spirits, finding their capture by crude poachers deeply disruptive to the forest balance."
+   "text": "As a druid, you regard faerie dragons as kin to nature spirits. Their capture by poachers disrupts the forest's balance."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Sprite Darter"
- ]
+ ],
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "Hardened Shells"
   ]
  },
- "summary": "Wizzle Brassbolts at the Mirage Raceway fears the rocket car is so fast that friction will tear it apart. To protect it, he needs tail fins from the Saltscale murlocs at the Vile Reef, off the coast of Stranglethorn Vale.",
+ "summary": "At the Mirage Raceway, Wizzle Brassbolts fears the rocket car’s speed will tear it apart. Saltscale murloc tail fins from the Vile Reef off Stranglethorn Vale may protect it.",
  "sections": [
   {
    "title": "A Coating for the Car",
-   "body": "Wizzle calls the rocket car the fastest thing on the Shimmering Flats, and worries that friction will tear it apart. The moving parts need a coat of composite that is hard but not brittle, and able to resist salt corrosion, or the flats will eat the car away. Its key ingredient is the tail fins of the Saltscale murlocs, who live at the Vile Reef, off the coast of Stranglethorn Vale. You are asked to bring Wizzle ten of them.",
+   "body": "Wizzle calls the rocket car the fastest thing on the Shimmering Flats. Yet friction may tear it apart. Its moving parts need a coating that is hard without being brittle and can resist salt corrosion. Otherwise, the flats will eat away at the car. The key ingredient is ten tail fins from the Saltscale murlocs at the Vile Reef off Stranglethorn Vale.",
    "spoiler": 0
   },
   {
    "title": "The Finished Composite",
-   "body": "Wizzle will grind your fins to powder and mix them with a few other ingredients, and the finished composite should keep the car safe from its own speed. Wizzle adds that this holds only as long as the car does not hit anything.",
+   "body": "Wizzle grinds the fins to powder and mixes them with a few other ingredients. The finished composite should protect the car from its own speed, as long as it does not hit anything.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "wizzle tail fins purpose",
     "why murloc fins"
    ],
-   "answer": "The rocket car is so fast that Wizzle fears friction will tear it apart. The fins are a crucial ingredient of a composite to coat its moving parts, one hard but not brittle, and resistant to salt corrosion."
+   "answer": "Wizzle fears the rocket car is so fast that friction will tear it apart. The fins are a key ingredient in a composite for its moving parts, hard without being brittle and resistant to salt corrosion."
   },
   {
    "q": "Where can the Saltscale murlocs be found?",
@@ -51,7 +51,7 @@
     "where are saltscale murlocs",
     "where to find encrusted fins"
    ],
-   "answer": "At the Vile Reef, off the coast of Stranglethorn Vale, lying almost due west of Grom'gol Base Camp."
+   "answer": "The Saltscale murlocs live at the Vile Reef off the coast of Stranglethorn Vale, almost due west of Grom'gol Base Camp."
   },
   {
    "q": "What came before this for Wizzle?",
@@ -60,7 +60,7 @@
     "wizzle chain previous quest",
     "prerequisite for encrusted tail fins"
    ],
-   "answer": "Hardened Shells comes before it in the chain."
+   "answer": "Hardened Shells comes before Encrusted Tail Fins in the chain."
   },
   {
    "q": "Who is Wizzle Brassbolts?",
@@ -68,7 +68,7 @@
     "who is wizzle",
     "who gives encrusted tail fins"
    ],
-   "answer": "Wizzle Brassbolts is at the Mirage Raceway, worried for the rocket car, and is the one who asks you for the fins."
+   "answer": "Wizzle Brassbolts is at the Mirage Raceway. Worried that friction will tear the rocket car apart, he asks you to bring him the fins."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Encrusted Tail Fins"
- ]
+ ],
+ "style": 2
 }

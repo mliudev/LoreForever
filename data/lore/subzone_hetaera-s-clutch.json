@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hetaera's Clutch"
  },
- "summary": "Hetaera's Clutch is a sunken night elven temple dedicated to Elune, nestled deep beneath the churning waters of Azshara's Bay of Storms. Once a sacred site of devotion, the submerged ruins are now overrun by deadly hydras hatched by their broodmother, Hetaera. Adventurers braving the depths will find ancient stonework claimed by vicious aquatic predators.",
+ "summary": "Hetaera's brood now nests among the drowned ruins beneath Azshara's Bay of Storms. Once, night elves came to this temple to worship Elune.",
  "sections": [
   {
    "title": "A Drowned Sanctuary",
-   "body": "Before the Great Sundering tore ancient Kalimdor apart, this structure served as a grand temple dedicated to the moon goddess Elune. Cast into the depths of the Bay of Storms, its stone pillars and sacred halls have spent ten thousand years beneath the sea. Today, all signs of holy veneration have been swallowed by the tides, leaving behind a solemn monument to the lost Kaldorei empire.",
+   "body": "Before the Great Sundering broke ancient Kalimdor apart, night elves came to this temple to worship Elune. The sanctuary sank beneath the Bay of Storms, where its pillars and halls have rested under the sea for ten thousand years. Now the tides cover every sign of worship, and the Kaldorei ruins lie below the waves.",
    "spoiler": 0
   },
   {
    "title": "Domain of the Broodmother",
-   "body": "The submerged sanctuary has taken on a far deadlier identity as the nesting ground of Hetaera, a massive multi-headed hydra who stalks the nearby coastal waters and rocky isles. Her numerous offspring, the Spawn of Hetaera, prowl through the ruined arches and corridors of the drowned temple, attacking any surface-dweller bold enough to dive into the bay.",
+   "body": "Hetaera makes her nest in the drowned sanctuary. The massive hydra has many heads and stalks the nearby coastal waters and rocky isles. Her offspring, the Spawn of Hetaera, prowl the ruined arches and corridors. They attack any surface-dweller bold enough to dive into the bay.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what was this temple",
     "hetaera clutch lore"
    ],
-   "answer": "Long before it sank beneath the waves, this structure was a magnificent temple dedicated to the moon goddess, Elune. It was built during the peak of the ancient night elven empire before being cast into the ocean during the Great Sundering."
+   "answer": "Before sinking, Hetaera's Clutch was a temple dedicated to Elune, the moon goddess. It was built at the height of the ancient night elven empire and sank into the ocean during the Great Sundering."
   },
   {
    "q": "Where is Hetaera's Clutch located?",
@@ -37,7 +37,7 @@
     "hetaera clutch location",
     "how to find hetaera clutch"
    ],
-   "answer": "The Clutch rests deep underwater within the Bay of Storms, located off the jagged southern coast of Azshara."
+   "answer": "Hetaera's Clutch rests deep beneath the Bay of Storms, off Azshara's jagged southern coast."
   },
   {
    "q": "Who is Hetaera?",
@@ -46,7 +46,7 @@
     "where is hetaera",
     "what is hetaera"
    ],
-   "answer": "Hetaera is a ferocious three-headed hydra who prowls the waters of Azshara. While her children infest the sunken temple itself, Hetaera is typically found swimming slightly to the north of the Clutch or basking on nearby offshore islands."
+   "answer": "Hetaera is a three-headed hydra that prowls Azshara's waters. Her children infest the sunken temple, while she is usually found swimming just north of the Clutch or basking on nearby offshore islands."
   },
   {
    "q": "What creatures inhabit the submerged ruins?",
@@ -54,17 +54,17 @@
     "what mobs are in hetaeras clutch",
     "what lives in hetaera clutch"
    ],
-   "answer": "The drowned halls are swarming with Hetaera's brood, vicious aquatic hydras known to defend their nesting site against any intruders who swim too close."
+   "answer": "Hetaera's brood inhabits the drowned halls. These vicious aquatic hydras defend their nesting site against intruders who swim too close."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, seeing a sacred sanctuary of Elune submerged and desecrated as a nest for feral hydras is a painful reminder of the civilization torn away during the Sundering."
+   "text": "As a night elf, you may see the drowned sanctuary of Elune, now a hydra nest, as a reminder of the civilization lost in the Sundering."
   },
   {
    "target": "class:Druid",
-   "text": "Aquatic druids exploring the depths of the Bay of Storms must remain cautious, as the hydras claiming this ancient sanctuary are extremely hostile to trespassers."
+   "text": "As a druid exploring the Bay of Storms, beware the hydras claiming this ancient sanctuary. They are hostile to trespassers."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Hetaera's Clutch"
- ]
+ ],
+ "style": 2
 }

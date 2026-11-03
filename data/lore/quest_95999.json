@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "25"
  },
- "summary": "In Lakeshire, a handsome bounty calls for the death of Incinerator Gar'im. The hostile orc commander is entrenched in Render's Valley, where he leads shadowcasters and is said to work with the Blackrock clan at Stonewatch Keep. Magistrate Solomon offers the bounty for proof of Gar'im's demise.",
+ "summary": "In Lakeshire, Magistrate Solomon offers a bounty for Incinerator Gar'im, whose forces threaten the town. The hostile orc commander holds Render's Valley with shadowcasters and is said to work with the Blackrock clan at Stonewatch Keep.",
  "sections": [
   {
    "title": "A Fire in Render's Valley",
-   "body": "Blackrock orcs are pressing out from their mountain strongholds, making the Redridge Mountains more dangerous. In Render's Valley, Gar'im leads an incursion with loyal shadowcasters and dark sorcery. Lakeshire's guard is stretched thin, and the crown's armies are largely absent. Magistrate Solomon has called on independent fighters to eliminate Gar'im, who is said to work with the Blackrock at Stonewatch Keep.",
+   "body": "Blackrock orcs press out from their mountain strongholds, making the Redridge Mountains more dangerous. In Render's Valley, Gar'im leads an incursion with loyal shadowcasters and dark sorcery. Lakeshire's guard is stretched thin, and the crown's armies are largely absent. So Magistrate Solomon calls on independent fighters to eliminate Gar'im, who is said to work with the Blackrock at Stonewatch Keep.",
    "spoiler": 0
   },
   {
    "title": "Proof of Demise",
-   "body": "Gar'im is known for destructive magic and command over shadow-weaving casters. To claim the township's reward, hunters must enter enemy-held territory, defeat him, and return his shattered staff to Lakeshire's town hall as proof that the threat has ended.",
+   "body": "Gar'im is known for destructive magic and command over shadow-weaving casters. To claim the township's reward, hunters enter enemy-held territory and defeat him. They must return his shattered staff to Lakeshire's town hall as proof that the threat has ended.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "who gave the bounty",
     "solomon bounty"
    ],
-   "answer": "Magistrate Solomon posted the bounty on Lakeshire's behalf, hoping to stem the orc incursions bearing down on the embattled town."
+   "answer": "Magistrate Solomon posts the bounty on Lakeshire's behalf, hoping to stem the orc incursions bearing down on the embattled town."
   },
   {
    "q": "What proof is required to claim the bounty?",
@@ -80,11 +80,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Defeating Incinerator Gar'im protects Lakeshire's vulnerable citizens from the leader of an orc incursion and his dangerous shadowcasters."
+   "text": "As an Alliance fighter, you protect Lakeshire's vulnerable citizens from the leader of an orc incursion and his dangerous shadowcasters when you defeat Incinerator Gar'im."
   },
   {
    "target": "class:Mage",
-   "text": "Gar'im and his shadowcasters wield a corrupted form of offensive arcana and shadow magic, calling for a swift response with counter-spellcraft."
+   "text": "As a mage, you face Gar'im and his shadowcasters, who wield a corrupted form of offensive arcana and shadow magic. Answer them swiftly with counter-spellcraft."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "In-game quest text: WANTED: Incinerator Gar'im"
  ],
- "style": 1
+ "style": 2
 }

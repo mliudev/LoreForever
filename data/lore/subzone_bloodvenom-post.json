@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bloodvenom Post"
  },
- "summary": "Bloodvenom Post is a remote Horde settlement perched on the rocky bluffs of western Felwood overlooking Darkshore. Its tauren-style structures and tauren guards provide a foothold in a region infested with demonic taint and corrupted wildlife.",
+ "summary": "At Bloodvenom Post, Horde guards watch Felwood’s high cliffs above Darkshore. Their tauren-style settlement stands amid demonic taint and corrupted wildlife.",
  "sections": [
   {
    "title": "A Precarious Foothold",
-   "body": "Tucked away along the high cliffs above Darkshore, Bloodvenom Post is reached by following the corrupted southern bank of the Bloodvenom River away from Felwood's main thoroughfare. Built with traditional tauren tents, totems, and watch posts, this encampment provides Horde wanderers with a vital base of operations amidst a dying forest. From here, scouts track the encroaching demonic forces, study the spreading corruption of the waters, and attempt to monitor the hostile wildlife mutated by the Burning Legion's lingering power.",
+   "body": "Bloodvenom Post clings to Felwood’s high cliffs above Darkshore. A narrow trail follows the corrupted southern bank of the Bloodvenom River from the main road. Traditional tauren tents, totems, and watch posts give Horde wanderers a base in the dying forest. Scouts watch demonic forces advancing through the region and study the corruption in the waters. They also track wildlife changed by the Burning Legion’s lingering power.",
    "spoiler": 0
   },
   {
    "title": "Eyes Across the Ridge",
-   "body": "Beyond observing the tainted wilds of Felwood, the camp sits right upon the precipice peering down over northern Darkshore. Its isolated position serves a double duty: keeping Horde forces informed of night elf movements along the western coastline while remaining well out of easy reach of Alliance patrols traversing the forest's central road.",
+   "body": "From the cliffs, Bloodvenom Post overlooks Felwood’s tainted wilds and northern Darkshore. Its remote position lets Horde forces watch night elf movements along the western coast. The camp also lies well beyond easy reach of Alliance patrols on the forest’s central road.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to get to bloodvenom post",
     "bloodvenom post directions"
    ],
-   "answer": "Bloodvenom Post is hidden along the western ridges of central Felwood. To reach it from the main north-south road, follow the southern bank of the Bloodvenom River westward along a narrow trail that curves around the rocky hillside."
+   "answer": "Bloodvenom Post clings to the western ridges of central Felwood. From the main north-south road, follow a narrow trail west along the rocky hillside beside the southern bank of the Bloodvenom River."
   },
   {
    "q": "Who controls this outpost?",
@@ -36,7 +36,7 @@
     "who runs bloodvenom post",
     "bloodvenom post faction"
    ],
-   "answer": "Bloodvenom Post is a Horde outpost with tauren guards and traditional tauren architecture."
+   "answer": "Tauren guards hold Bloodvenom Post for the Horde. Its buildings follow traditional tauren designs."
   },
   {
    "q": "Why is the post named Bloodvenom?",
@@ -44,7 +44,7 @@
     "why bloodvenom",
     "bloodvenom name meaning"
    ],
-   "answer": "It takes its name from the adjacent Bloodvenom River, whose waters have been fouled and turned toxic by demonic corruption seeped into the forest."
+   "answer": "Bloodvenom Post takes its name from the nearby Bloodvenom River. Demonic corruption has fouled its waters and made them toxic."
   },
   {
    "q": "What threats do the scouts face here?",
@@ -52,17 +52,17 @@
     "bloodvenom enemies",
     "what attacks bloodvenom post"
    ],
-   "answer": "The post faces continuous pressure from the corrupted wildlife native to Felwood, including rabid sabers, tainted oozes, and twisted treants, along with the demonic presence of the Shadow Council and Burning Legion remnants throughout the zone."
+   "answer": "Scouts face Felwood’s corrupted wildlife, including rabid sabers, tainted oozes, and twisted treants. The Shadow Council and remnants of the Burning Legion also haunt the zone."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As the Horde's only fortified respite in Felwood, this camp offers safety, shelter, and a base of operations within an otherwise thoroughly hostile wilderness."
+   "text": "As a member of the Horde, you can find shelter and a base at this camp in Felwood’s hostile wilderness. It is the Horde’s only fortified refuge in the zone."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren braves maintain this post to study the environmental devastation wrought by the Legion and to counter the corruption destroying the land's natural spirits."
+   "text": "As a tauren, you join the braves who maintain this post. You study the Legion’s damage to the land and fight the corruption harming its natural spirits."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Bloodvenom Post"
- ]
+ ],
+ "style": 2
 }

@@ -17,7 +17,7 @@
   "wiki": "Starweave the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, Elder Starweave receives visitors in Auberdine. Travelers come to honor Kalimdor's ancestral spirits and seek her wisdom and blessing.",
+ "summary": "In Auberdine, Elder Starweave welcomes visitors during the Lunar Festival. Travelers honor Kalimdor's ancestral spirits and seek her wisdom and blessing.",
  "sections": [
   {
    "title": "A Beacon in Auberdine",
@@ -38,7 +38,7 @@
     "where is elder starweave",
     "elder starweave darkshore"
    ],
-   "answer": "Elder Starweave can be found in Auberdine, the coastal night elf town in Darkshore. A beam of moonlight shines down from the heavens where she stands."
+   "answer": "Elder Starweave receives visitors in Auberdine, the coastal night elf town in Darkshore. A beam of moonlight shines down from the heavens where she stands."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -47,7 +47,7 @@
     "starweave the elder purpose",
     "what does starweave do"
    ],
-   "answer": "Visiting and honoring ancestral elders across Azeroth is part of the yearly Lunar Festival. Travelers receive recognition, festive currency, and ancestral goodwill."
+   "answer": "The yearly Lunar Festival honors ancestral elders across Azeroth. Travelers receive recognition, festive currency, and ancestral goodwill."
   },
   {
    "q": "Who is Elder Starweave?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Starweave the Elder"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Harborage"
  },
- "summary": "The Harborage is a quiet settlement of exiled Draenor natives situated in the northern reaches of the Swamp of Sorrows. While many of their afflicted kin wandering the surrounding bogs have succumbed to madness and primal hostility, the inhabitants here have managed to hold onto their sanity and wits. They live cautiously along the waterline, seeking peace amidst a harsh and unforgiving wilderness.",
+ "summary": "At the northern edge of the Swamp of Sorrows, Harborage shelters exiled Draenor natives who have kept their minds. They seek peace by the water in a harsh wilderness.",
  "sections": [
   {
    "title": "A Haven in the Mire",
-   "body": "Tucked away against the northern mountains of the Swamp of Sorrows, the Harborage stands in stark contrast to the feral tribes wandering the nearby waters. Constructed of rugged leather shelters and adorned with mysterious hanging crystals, this small encampment provides sanctuary to exiled Draenor survivors who have refused to surrender their minds. Under the guidance of elders like Magtoor, they maintain a fragile, civilized enclave while remaining watchful of the hostile wilderness, native predators, and the feral tribes of their fallen brothers lurking just beyond their perimeter.",
+   "body": "At the foot of the northern mountains, you find Harborage, a small camp apart from the feral tribes in the nearby waters. Leather shelters and hanging crystals mark this refuge for exiled survivors from Draenor who have kept their minds. Elders like Magtoor guide the community. Together, they watch the wilderness, its native predators, and the feral tribes of their fallen brothers beyond the camp.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is at harborage",
     "who lives here"
    ],
-   "answer": "The Harborage is home to a band of Draenor exiles\u2014afflicted humanoids who crossed into Azeroth and managed to preserve their minds and culture, unlike the feral tribes found elsewhere in the swamp."
+   "answer": "Draenor exiles live in Harborage. Though afflicted and changed after crossing into Azeroth, they have kept their minds and culture, unlike the feral tribes elsewhere in the swamp."
   },
   {
    "q": "Why are the people here peaceful while other swamp tribes attack?",
@@ -32,7 +32,7 @@
     "lost ones friendly",
     "harborage hostile"
    ],
-   "answer": "The residents here retained their sanity and rational thinking despite their tragic physical transformation and displacement. While their afflicted kin across the bog lost their minds to isolation and trauma, those at the Harborage banded together to preserve their dignity."
+   "answer": "Harborage's residents kept their sanity and reason despite their physical transformation and displacement. Their kin across the bog lost their minds to isolation and trauma. Here, the exiles joined together to preserve their dignity."
   },
   {
    "q": "Who leads the Harborage?",
@@ -41,7 +41,7 @@
     "magtoor",
     "chief of harborage"
    ],
-   "answer": "The community looks to respected elders like Magtoor for leadership and guidance as they navigate survival in an alien swamp."
+   "answer": "Respected elders like Magtoor guide the community as it survives in an alien swamp."
   },
   {
    "q": "Where is the Harborage located?",
@@ -50,17 +50,17 @@
     "where is harborage",
     "find harborage"
    ],
-   "answer": "You can find it tucked against the northern cliffs of the Swamp of Sorrows, just east of the mountain pass connecting the marsh to the Redridge Mountains."
+   "answer": "Harborage lies against the northern cliffs of the Swamp of Sorrows, just east of the mountain pass to the Redridge Mountains."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers descending from the safety of Redridge into the dangerous marshlands, the Harborage is one of the few places in the northern swamp that offers non-hostile faces rather than immediate bloodshed."
+   "text": "As an Alliance traveler leaving Redridge for the dangerous marsh, Harborage is one of the few places in the northern swamp where you can meet people without facing immediate bloodshed."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde's presence at Stonard largely dominates the swamp, but these reclusive survivors maintain their own secluded existence, keeping to themselves rather than picking sides in the regional conflicts."
+   "text": "Stonard holds much of the Horde's presence in the swamp. Harborage's reclusive survivors keep to themselves rather than take sides in the regional conflicts."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Harborage"
- ]
+ ],
+ "style": 2
 }

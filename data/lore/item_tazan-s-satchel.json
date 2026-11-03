@@ -11,16 +11,16 @@
    "quest:1858"
   ]
  },
- "summary": "Near Ratchet, Tazan carries a locked satchel as he deals with pirates along the coast. The Shattered Hand wants the secret information inside.",
+ "summary": "Near Ratchet, Tazan faces pirates along the coast with a locked satchel in hand. The Shattered Hand wants the intelligence within.",
  "sections": [
   {
    "title": "Secrets of the Barrens",
-   "body": "Tazan deals with pirates camped along the Barrens coast near Ratchet. Therzok, a guild master of the Shattered Hand beneath Orgrimmar in the Cleft of Shadow, takes notice. The guild seeks covert power beyond Warchief Thrall's cautious diplomacy, and marks Tazan for elimination to seize the intelligence in his satchel.",
+   "body": "Near Ratchet, Tazan deals with pirates camped along the Barrens coast. Therzok, a guild master of the Shattered Hand beneath Orgrimmar in the Cleft of Shadow, has taken notice. The guild seeks power in secret beyond Warchief Thrall's cautious diplomacy. It has marked Tazan for elimination to seize the intelligence in his satchel.",
    "spoiler": 0
   },
   {
    "title": "A Complex Lock",
-   "body": "The satchel's lock makes it hard to open in the field. Tazan gave the key to Gamon, his associate, who is a drunken fixture in an Orgrimmar tavern. Rogues seeking the satchel must lift the key from Gamon's pocket without raising an alarm, then they can read Tazan's logbook.",
+   "body": "The satchel's lock is difficult to open in the field. Tazan gave the key to Gamon, his associate, who drinks in an Orgrimmar tavern. Rogues who seek the satchel must lift the key from Gamon's pocket without raising an alarm. Then they can read Tazan's logbook.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "tazan owner",
     "satchel owner"
    ],
-   "answer": "The satchel belongs to Tazan, a troll who deals with pirates near Ratchet in the Barrens."
+   "answer": "Tazan, a troll who deals with pirates near Ratchet in the Barrens, carries the satchel."
   },
   {
    "q": "Why does the Shattered Hand want Tazan's Satchel?",
@@ -41,7 +41,7 @@
     "shattered hand satchel",
     "why steal the satchel"
    ],
-   "answer": "Therzok and the Shattered Hand want the intelligence from Tazan's dealings with coastal pirates to expand their network and reclaim martial pride from the shadows."
+   "answer": "Therzok and the Shattered Hand seek intelligence from Tazan's dealings with coastal pirates. They hope to expand their network and reclaim martial pride from the shadows."
   },
   {
    "q": "Where is the key to open the satchel?",
@@ -59,7 +59,7 @@
     "what is in the bag",
     "tazan logbook"
    ],
-   "answer": "Tazan's logbook rests inside the locked satchel and details his secret trades and ties to coastal buccaneers."
+   "answer": "Tazan's logbook lies inside the locked satchel. It details his secret trades and ties to coastal buccaneers."
   }
  ],
  "angles": [
@@ -97,5 +97,5 @@
   "The Shattered Hand (Classic)",
   "The Shattered Hand (2)"
  ],
- "style": 1
+ "style": 2
 }

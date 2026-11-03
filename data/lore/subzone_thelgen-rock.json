@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thelgen Rock"
  },
- "summary": "In the southern mountain wall of the Wetlands, Thelgen Rock’s caverns hold volatile Incendicite Ore. Venomous spiders infest the passages.",
+ "summary": "In the Wetlands, Thelgen Rock’s caverns draw miners after volatile Incendicite Ore. Venomous spiders fill the passages.",
  "sections": [
   {
    "title": "A Web-Choked Cavern",
-   "body": "Thelgen Rock cuts deep into the mountains between the Wetlands and Loch Modan. Aggressive spiders fill its web-choked passages, and their venom makes every step dangerous. Miners and adventurers still brave the tunnels for the valuable Incendicite Ore embedded in the rock.",
+   "body": "Thelgen Rock cuts into the mountain wall between the Wetlands and Loch Modan. Aggressive spiders crowd its web-choked passages, and their venom makes every step perilous. Still, miners and adventurers brave the tunnels for the valuable Incendicite Ore in the rock.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why is thelgen rock dangerous",
     "spiders in thelgen rock"
    ],
-   "answer": "Large, poisonous spiders crowd Thelgen Rock’s caverns. Their webs fill the winding tunnels, where travelers can be cornered and overwhelmed by venomous bites."
+   "answer": "Large poisonous spiders crowd Thelgen Rock’s caverns. Webs choke the winding tunnels, where travelers can be cornered and overcome by venomous bites."
   },
   {
    "q": "Why do prospectors and miners come here?",
@@ -46,7 +46,7 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Rare Incendicite Ore deposits lie deep within Thelgen Rock, drawing prospectors beneath the mountain despite the danger."
+   "text": "Rare Incendicite Ore deposits lie deep within Thelgen Rock. Prospectors venture beneath the mountain to find them, despite the danger."
   }
  ],
  "keywords": [
@@ -64,5 +64,5 @@
  "attribution": [
   "Thelgen Rock"
  ],
- "style": 1
+ "style": 2
 }

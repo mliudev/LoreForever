@@ -20,16 +20,16 @@
    "Bloodfury Bloodline"
   ]
  },
- "summary": "In the Charred Vale, Maggran Earthbinder seeks to end the harpies’ hold. He sends you to kill their leader, Bloodfury Ripper, and bring back proof.",
+ "summary": "Maggran Earthbinder sends you into the Charred Vale to break the harpies’ hold and bring back proof.",
  "sections": [
   {
    "title": "Striking the Matron",
-   "body": "Harpies at the edge of the Charred Vale keep threatening Sun Rock Retreat. Maggran Earthbinder believes their attacks will only end when their matriarch, Bloodfury Ripper, is dead. The flock treats her like a queen, and her leadership gives them the unity and boldness they show along the craggy western ridge.",
+   "body": "Harpies from the edge of the Charred Vale threaten Sun Rock Retreat. Maggran Earthbinder believes their attacks will end only when Bloodfury Ripper, their matriarch, is dead. The flock treats her like a queen. Under her lead, they move as one and grow bold along the craggy western ridge.",
    "spoiler": 0
   },
   {
    "title": "Peace in the Earth",
-   "body": "Bloodfury Ripper’s remains are the proof Maggran asks you to bring back. With the brood queen gone, the harpies lose their order and become easier to keep at bay, easing the threat to Sun Rock Retreat. Her death also lifts Maggran’s burden of anger and constant watchfulness, leaving him free to seek the harmony and balance the tauren value.",
+   "body": "Maggran asks you to bring back Bloodfury Ripper’s remains as proof. Without their brood queen, the harpies lose their order and become easier to keep at bay. Sun Rock Retreat faces less danger, and Maggran can set aside his anger and constant watchfulness. Then he is free to seek the harmony and balance the tauren value.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "prereq for bloodfury bloodline",
     "harpies threaten follow up"
    ],
-   "answer": "You must first complete Harpies Threaten, in which Maggran sends you into the Charred Vale to thin the Bloodfury harpies’ ranks."
+   "answer": "First, you must complete Harpies Threaten. Maggran sends you into the Charred Vale to thin the Bloodfury harpies’ ranks."
   },
   {
    "q": "Where is Bloodfury Ripper located?",
@@ -59,7 +59,7 @@
     "find bloodfury ripper",
     "bloodfury ripper spawn"
    ],
-   "answer": "Bloodfury Ripper stalks the rocky hills along the northwestern edge of the Charred Vale. Her blue coloring sets her apart from the flock."
+   "answer": "Bloodfury Ripper stalks the rocky hills along the Charred Vale’s northwestern edge. Her blue coloring sets her apart from the flock."
   },
   {
    "q": "Why does Maggran want Bloodfury Ripper dead?",
@@ -86,7 +86,7 @@
     "sun rock retreat back way",
     "charred vale shortcut"
    ],
-   "answer": "A mountain trail leads from the back of Sun Rock Retreat straight down into the Charred Vale, avoiding Stonetalon’s winding main roads."
+   "answer": "A mountain trail leads from behind Sun Rock Retreat straight down into the Charred Vale. It avoids Stonetalon’s winding main roads."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Bloodfury Bloodline"
  ],
- "style": 1
+ "style": 2
 }

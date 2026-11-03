@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "A Mother's Vigil",
-   "body": "Misha Tor'kren tends her farm near Thunder Ridge, southeast of the ridge. Her son Kron went west toward the Southfury River to hunt crocolisks and prove his mettle, but he never came home. With Durotar's frontier dangers stretching the orcish watchtowers thin, Misha has no word of where he is. She needs travelers willing to search the riverbanks for signs of her son.",
+   "body": "Misha Tor'kren tends her farm southeast of Thunder Ridge, near the ridge. Her son Kron went west toward the Southfury River to hunt crocolisks and prove his mettle. He never came home. Durotar's frontier dangers stretch the orcish watchtowers thin, and Misha has heard no word of him. She needs travelers to search the riverbanks for signs of her son.",
    "spoiler": 0
   },
   {
    "title": "A Grim Token",
-   "body": "Kron fell to the Southfury River's crocolisks. Misha can receive only his salvaged amulet, a bitter reminder of the dangers young orcs face as they try to prove their strength in Kalimdor's wilderness.",
+   "body": "Kron fell to the Southfury River's crocolisks. Misha can receive only his salvaged amulet. It is a bitter reminder of the dangers young orcs face while trying to prove their strength in Kalimdor's wilderness.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what happened to kron",
     "misha son"
    ],
-   "answer": "Kron went west toward the Southfury River to hunt crocolisks and prove himself as a hunter, but he did not return home."
+   "answer": "Kron went west toward the Southfury River to hunt crocolisks and prove himself as a hunter. He did not return home."
   },
   {
    "q": "What happens when you look for Kron?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Kron's attempt to prove his strength against Durotar's wildlife shows the cost of youthful pride."
+   "text": "As an orc, you know the cost of youthful pride when Kron tries to prove his strength against Durotar's wildlife."
   },
   {
    "target": "class:Hunter",
-   "text": "Misha's son met danger from river predators before he had mastered the wild."
+   "text": "As a hunter, you know river predators can be dangerous before a hunter has mastered the wild."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Misha Tor'kren"
  ],
- "style": 1
+ "style": 2
 }

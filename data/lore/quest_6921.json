@@ -17,16 +17,16 @@
   "wiki": "Amongst the Ruins (Classic)",
   "chain": []
  },
- "summary": "At Zoram'gar Outpost, Je'neu Sancrea sends Horde adventurers into Blackfathom Deeps for a fathom core. The Earthen Ring hopes the relic will reveal what the Twilight's Hammer is doing with the elements.",
+ "summary": "At Zoram'gar Outpost, Je'neu Sancrea sends Horde champions beneath the waters of Blackfathom Deeps. The Earthen Ring hopes a fathom core will show what the Twilight's Hammer is doing to the elements.",
  "sections": [
   {
    "title": "A Threat in the Deep",
-   "body": "The Twilight's Hammer has taken hold of Blackfathom Deeps, the ancient night elven temple once sacred to Elune. Its cultists command the submerged passages. At Zoram'gar Outpost on Ashenvale's shore, Darkspear shaman Je'neu Sancrea watches the corruption spread. He fears the cult means to bend the local elements against the land and its defenders.",
+   "body": "The Twilight's Hammer has seized Blackfathom Deeps, an ancient night elven temple once sacred to Elune. Its cultists now command the submerged passages. At Zoram'gar Outpost on Ashenvale's shore, Darkspear shaman Je'neu Sancrea watches the corruption spread. He fears the cult will turn the local elements against the land and its defenders.",
    "spoiler": 0
   },
   {
    "title": "The Fathom Stone",
-   "body": "Je'neu Sancrea sends Horde champions to retrieve a fathom core from the fathom stone beneath the waters of the Moonshrine Ruins. Shamans who can decipher the core will find a detailed record of elemental currents and disturbances. The Earthen Ring hopes the relic will expose the Twilight's Hammer's work and help keep the region safe from elemental disaster.",
+   "body": "Je'neu Sancrea sends Horde champions to recover a fathom core from the fathom stone beneath the waters of the Moonshrine Ruins. Shamans who can read the core will find a detailed record of elemental currents and disturbances. The Earthen Ring hopes that record will reveal the Twilight's Hammer's work and help guard the region against elemental disaster.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to get quest",
     "who starts amongst the ruins"
    ],
-   "answer": "Je'neu Sancrea gives the task. The Darkspear troll serves the Earthen Ring at Zoram'gar Outpost, along the Zoram Strand in western Ashenvale."
+   "answer": "Je'neu Sancrea gives the task. The Darkspear troll serves the Earthen Ring at Zoram'gar Outpost on the Zoram Strand in western Ashenvale."
   },
   {
    "q": "What is a fathom core?",
@@ -47,7 +47,7 @@
     "fathom stone purpose",
     "what does the core do"
    ],
-   "answer": "A fathom core is an artifact held within a submerged fathom stone in the ruins. Shamans can read it for a record of elemental activity, including how the local elements are being forced and manipulated."
+   "answer": "A fathom core is an artifact kept within a submerged fathom stone in the ruins. Shamans can read its record of elemental activity, including how the local elements are being forced and manipulated."
   },
   {
    "q": "Why is the Earthen Ring concerned about Blackfathom Deeps?",
@@ -56,7 +56,7 @@
     "why does the earthen ring care",
     "blackfathom deeps cultists"
    ],
-   "answer": "The Earthen Ring seeks balance among the elements. The Twilight's Hammer has taken over the submerged ruins and is corrupting and coercing the elements, threatening the region's stability."
+   "answer": "The Earthen Ring seeks balance among the elements. The Twilight's Hammer has seized the submerged ruins and is corrupting and coercing the elements, putting the region's stability at risk."
   },
   {
    "q": "Where is the fathom stone located?",
@@ -65,7 +65,7 @@
     "fathom core location",
     "moonshrine ruins fathom core"
    ],
-   "answer": "The fathom stone lies beneath the waters of the Moonshrine Ruins inside Blackfathom Deeps. Explorers must dive below the surface to retrieve its core."
+   "answer": "The fathom stone lies beneath the waters of the Moonshrine Ruins inside Blackfathom Deeps. Explorers must dive beneath the surface to retrieve its core."
   },
   {
    "q": "Can Alliance players take this quest?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Amongst the Ruins (Classic)"
  ],
- "style": 1
+ "style": 2
 }

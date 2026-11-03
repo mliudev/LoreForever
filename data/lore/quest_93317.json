@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "While harvesting seasonal Windsong crawler meat is vital for local larders on Zephras, preparing fresh lake catches requires careful handling given the creatures' aggressive nature."
+   "text": "As a cook, you can prepare seasonal Windsong crawler meat gathered from Zephras’s lake."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "windsong crabs",
     "lake crabs zephras"
    ],
-   "answer": "Windsong crawlers are a species of aggressive crab native exclusively to Windsong Lake on the island or land of Zephras. They are notable for being harvestable only during a brief seasonal window of a few weeks each year.",
+   "answer": "Windsong crawlers are aggressive crabs found only around Windsong Lake on Zephras. They can be gathered for just a few weeks each year.",
    "q": "What are Windsong crawlers?"
   },
   {
@@ -33,7 +33,7 @@
     "crawler season window",
     "why limited time crabs"
    ],
-   "answer": "The crawlers can only be gathered during a small seasonal window lasting just a few weeks annually. If they are not harvested before this narrow timeframe closes, the opportunity to gather their meat is lost for the rest of the year.",
+   "answer": "Windsong crawlers are available for only a few weeks each year. Once the season closes, their meat cannot be gathered again until the next year.",
    "q": "Why do the crabs need to be harvested right now?"
   },
   {
@@ -42,7 +42,7 @@
     "cultists zephras",
     "windsong cult activity"
    ],
-   "answer": "Recent cultist activity in the surrounding area has made traveling out to Windsong Lake too hazardous for regular foraging, leaving local gatherers unable to reach the shores before the short harvesting window shuts.",
+   "answer": "Cultist activity has made the journey to Windsong Lake too dangerous for local foragers to make before the short season ends.",
    "q": "Why can't the local harvester gather the crabs themselves?"
   },
   {
@@ -51,7 +51,7 @@
     "where are crabs on zephras",
     "windsong lake shores"
    ],
-   "answer": "Windsong crawlers dwell along the shorelines surrounding Windsong Lake on Zephras, as well as along the nearby connecting riverbanks.",
+   "answer": "Windsong crawlers live along the shores of Windsong Lake on Zephras and the nearby connecting riverbanks.",
    "q": "Where are Windsong crawlers found?"
   },
   {
@@ -60,7 +60,7 @@
     "crab temperament",
     "mean crabs"
    ],
-   "answer": "Despite their humble appearance as simple freshwater crustaceans, Windsong crawlers are notably feisty and far meaner than they look, readily snapping at anyone trying to gather their meat.",
+   "answer": "Windsong crawlers are aggressive and snap at anyone trying to gather them.",
    "q": "Are Windsong crawlers dangerous to hunt?"
   },
   {
@@ -69,7 +69,7 @@
     "why collect crab meat",
     "what is crawler meat for"
    ],
-   "answer": "The harvested crawler meat is prized seasonal food gathered from the lake during the few weeks the crabs are available, prized enough that locals hire adventurers when cultists block the paths.",
+   "answer": "Locals gather Windsong crawler meat as seasonal food during the few weeks it is available. Cultists blocking the paths have led them to seek help from adventurers.",
    "q": "What is Windsong crawler meat used for?"
   }
  ],
@@ -85,18 +85,19 @@
  "related": [],
  "sections": [
   {
-   "body": "On the shores of Windsong Lake across Zephras, a brief seasonal harvesting window opens for only a few weeks each year. The native Windsong crawlers emerge in numbers along the freshwater banks and tributary rivers, offering a rare harvest of meat to anyone bold enough to gather them before the annual opportunity slips away.",
+   "body": "For a few weeks each year, Windsong crawlers appear along Windsong Lake’s freshwater shores and the rivers that feed it. Their meat is a rare harvest, but the season soon passes.",
    "spoiler": 0,
    "title": "A Fleeting Harvest"
   },
   {
-   "body": "Recent surges in cultist activity around Zephras have disrupted daily life and endangered local foragers. With hostile cultists patrolling the wilderness, traveling to Windsong Lake has become far too hazardous for solitary gatherers, threatening to waste the fleeting crawler season unless capable adventurers step in to brave the shores and the ill-tempered crabs.",
+   "body": "Cultists patrol the wilderness around Zephras, putting local foragers in danger. The journey to Windsong Lake is too hazardous for gatherers alone. Unless you brave the shores and the ill-tempered crabs, this brief harvest may be lost.",
    "spoiler": 0,
    "title": "Peril by the Waters"
   }
  ],
- "summary": "Crab Season is an urgent foraging task on Zephras centered on harvesting rare Windsong crawlers during their brief annual window. Because recent cultist activity has made the shores of Windsong Lake perilous, adventurers are called upon to brave both hostile interlopers and aggressive crustaceans.",
+ "summary": "On Zephras, foragers hurry to gather Windsong crawlers before the brief season ends. Cultists have made the shores perilous, so locals call for help.",
  "attribution": [
   "In-game quest text: Crab Season"
- ]
+ ],
+ "style": 2
 }

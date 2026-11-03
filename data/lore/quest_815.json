@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Every working cook knows the relentless pressure of keeping people fed. Fetching fragile ingredients without smashing them is half the battle in any kitchen."
+   "text": "As a cook, you know the pressure of keeping people fed. Bringing fragile ingredients back unbroken is part of the work in any kitchen."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "what is break a few eggs",
     "egg quest"
    ],
-   "answer": "Break a Few Eggs is a culinary task where an adventurer aids a busy cook who is overwhelmed by the constant demand to prepare meals. The task involves delivering eggs intact to ensure the cooking doesn't fall behind schedule.",
+   "answer": "Cook Torka needs you to bring Taillasher eggs back unbroken from the Echo Isles, so the kitchen can keep to its schedule.",
    "q": "What is the quest Break a Few Eggs?"
   },
   {
@@ -33,7 +33,7 @@
     "egg quest cook",
     "who is cooking"
    ],
-   "answer": "The cook is Cook Torka of Razor Hill in Durotar, who prepares meals around the clock. Though blunt and hurried in manner, Torka relies on capable hands to fetch Taillasher eggs from the Echo Isles without cracking them before mealtime.",
+   "answer": "Cook Torka prepares meals throughout the day at Razor Hill in Durotar. Torka speaks bluntly and is in a hurry, relying on you to fetch Taillasher eggs from the Echo Isles without cracking them before mealtime.",
    "q": "Who is the cook in Break a Few Eggs?"
   },
   {
@@ -42,7 +42,7 @@
     "what are eggs for",
     "why need eggs"
    ],
-   "answer": "The cook needs them for ongoing meal preparations, whether breakfast, lunch, or dinner. Feeding people is an endless chore, and fresh eggs are an essential kitchen staple needed immediately at the stove.",
+   "answer": "Cook Torka needs eggs for meals prepared throughout the day, from breakfast through dinner. Fresh eggs keep the kitchen's work on schedule.",
    "q": "Why does the cook need eggs?"
   },
   {
@@ -51,7 +51,7 @@
     "dont break eggs",
     "why not clumsy"
    ],
-   "answer": "Eggs are fragile and easy to ruin during transit. The cook explicitly values someone who is not clumsy, as cracked shells and lost yolks ruin ingredients needed for meal service.",
+   "answer": "Eggs can break on the way back. Cook Torka needs the shells and yolks intact for the coming meal service.",
    "q": "Why does the cook comment on not being clumsy?"
   },
   {
@@ -60,7 +60,7 @@
     "phrase meaning",
     "why is it called break a few eggs"
    ],
-   "answer": "The name references the common proverb that you cannot make an omelet without breaking a few eggs, fitting a task focused on gathering fragile kitchen ingredients for a busy meal service.",
+   "answer": "The title echoes the proverb about making an omelet and breaking eggs. It suits the work of carrying fragile ingredients to a busy kitchen.",
    "q": "What does the title Break a Few Eggs refer to?"
   },
   {
@@ -69,7 +69,7 @@
     "why is the cook rude",
     "grumpy cook"
    ],
-   "answer": "The cook is completely occupied keeping up with non-stop meals for breakfast, lunch, and dinner. With so much cooking left to do, the cook has little patience for idle chitchat and simply wants to get back to the stove.",
+   "answer": "Cook Torka is busy preparing meals from breakfast through dinner. With more cooking to do, Torka has little patience for chitchat and wants to return to the stove.",
    "q": "Why is the cook so impatient?"
   }
  ],
@@ -85,18 +85,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Feeding a crowd is an exhausting, never-ending endeavor. Between breakfast, lunch, and dinner, there is scarcely any time to step away from the stove, let alone leave the kitchen to scrounge for raw provisions. In Break a Few Eggs, a hard-pressed cook turns to passing adventurers to secure fresh eggs before the next meal service falls behind.",
+   "body": "At Razor Hill in Durotar, Cook Torka prepares meals from morning through evening. Breakfast gives way to lunch, then dinner, with little time to leave the stove for provisions. So Torka sends you to the Echo Isles for Taillasher eggs before the next meal service falls behind. Bring them back whole, and the cook can keep the kitchen working on time.",
    "spoiler": 0,
    "title": "Endless Meals"
   },
   {
-   "body": "Transporting eggs requires a gentle touch that brute force cannot replace. The cook may offer sharp words and little praise, but intact ingredients speak for themselves. Once the eggs are delivered safe and unbroken, the cook wastes no time sending the gatherer off and returning straight to work over the fire.",
+   "body": "Cook Torka has little time for praise while meals wait to be made. Eggs need a gentle touch, since a cracked shell spoils an ingredient the kitchen needs. When you bring the eggs back unbroken, Torka sends you on your way and returns to work over the fire.",
    "spoiler": 0,
    "title": "A Cook's Gratitude"
   }
  ],
- "summary": "Break a Few Eggs is an errand assisting a harried cook who must keep up with endless meal preparations. Securing fresh, fragile ingredients without breaking them keeps the kitchen running and the cooking on schedule.",
+ "summary": "Cook Torka is waiting on fresh eggs from the Echo Isles before the next meal. You carry them back unbroken so the kitchen can keep to its schedule.",
  "attribution": [
   "In-game quest text: Break a Few Eggs"
- ]
+ ],
+ "style": 2
 }

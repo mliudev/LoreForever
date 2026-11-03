@@ -8,21 +8,21 @@
   "wiki": "Shandris Feathermoon",
   "refs": 4
  },
- "summary": "Shandris Feathermoon is the General of the Sentinel Army and, for ten thousand years, Tyrande Whisperwind's right hand. She now commands night elf military forces throughout Kalimdor from Feathermoon Stronghold on Sardor Isle off the coast of Feralas.",
+ "summary": "At Feathermoon Stronghold on Sardor Isle, Shandris Feathermoon commands night elf forces across Kalimdor. For ten thousand years, she has served as Tyrande Whisperwind's right hand.",
  "sections": [
   {
    "title": "Tyrande's Right Hand",
-   "body": "Shandris Feathermoon is one of the oldest defenders of the night elves. For ten thousand years she has served at Tyrande Whisperwind's side as the high priestess's right hand among the Sentinels, through the long vigil that followed the Sundering.",
+   "body": "For ten thousand years, Shandris Feathermoon has stood beside Tyrande Whisperwind as her right hand among the Sentinels. She is one of the night elves' oldest defenders, serving through the long vigil that followed the Sundering.",
    "spoiler": 0
   },
   {
    "title": "Rise of the Sentinels",
-   "body": "Following the Great Sundering and the founding of the Sentinels, Shandris became an indispensable commander within the night elf military.",
+   "body": "After the Great Sundering, the Sentinels were founded. Shandris became an indispensable commander in the night elf military.",
    "spoiler": 0
   },
   {
    "title": "The Bastion of Feralas",
-   "body": "Today, General Feathermoon serves as the supreme field commander of the Sentinel army. Stationed on Sardor Isle, she oversees Feathermoon Stronghold, an imposing elven fortress that keeps watch over the primal wilds of Feralas. From this island outpost, she monitors the encroaching threats of savage gnolls, lingering Gordunni ogres, hate-fueled satyrs, and the expanding power of the Horde in southern Kalimdor.",
+   "body": "From Sardor Isle, General Shandris Feathermoon commands the Sentinel army in the field and oversees Feathermoon Stronghold. The elven fortress watches over Feralas's primal wilds. From the island outpost, she monitors savage gnolls, lingering Gordunni ogres, hate-fueled satyrs, and the Horde's growing power in southern Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "shandris lore",
     "who is the night elf general in feralas"
    ],
-   "answer": "Shandris Feathermoon is the General of the Sentinels, the standing military force of the night elves. An ancient night elf, she has served as High Priestess Tyrande Whisperwind's right hand for ten thousand years and commands the Sentinels from Feathermoon Stronghold in Feralas."
+   "answer": "Shandris Feathermoon commands the Sentinel army, the night elves' standing military force. For ten thousand years, she has served as High Priestess Tyrande Whisperwind's right hand and led the Sentinels from Feathermoon Stronghold in Feralas."
   },
   {
    "q": "Where can Shandris Feathermoon be found?",
@@ -43,7 +43,7 @@
     "where is shandris feathermoon",
     "feathermoon stronghold leader"
    ],
-   "answer": "She commands from Feathermoon Stronghold, situated on Sardor Isle off the western coast of Feralas in southern Kalimdor."
+   "answer": "Shandris commands from Feathermoon Stronghold on Sardor Isle, off Feralas's western coast in southern Kalimdor."
   },
   {
    "q": "What is Shandris's relationship to Tyrande Whisperwind?",
@@ -52,7 +52,7 @@
     "tyrande and shandris",
     "tyrande adopted child"
    ],
-   "answer": "Shandris has been Tyrande Whisperwind's right hand in the Sentinels for ten thousand years. Tyrande leads the night elves from Darnassus, while Shandris commands the Sentinel army in the field from Feathermoon Stronghold."
+   "answer": "For ten thousand years, Shandris has served Tyrande Whisperwind as her right hand among the Sentinels. Tyrande leads the night elves from Darnassus, while Shandris commands the Sentinel army in the field from Feathermoon Stronghold."
   },
   {
    "q": "Did Shandris fight against the Burning Legion?",
@@ -60,7 +60,7 @@
     "war of the ancients shandris",
     "did shandris fight archimonde"
    ],
-   "answer": "No battle of hers against the Legion is recorded in the histories told here. What is known is that she has served at Tyrande Whisperwind's side among the Sentinels for ten thousand years and now commands the Sentinel army from Feathermoon Stronghold."
+   "answer": "The histories told here record no battle against the Burning Legion. Shandris has served beside Tyrande Whisperwind among the Sentinels for ten thousand years and now commands the army from Feathermoon Stronghold."
   },
   {
    "q": "Why is she stationed in Feralas instead of Teldrassil?",
@@ -68,25 +68,25 @@
     "why is shandris in feralas",
     "why feathermoon stronghold"
    ],
-   "answer": "As General of the Sentinels, Shandris must direct frontline military operations across Kalimdor. Feathermoon Stronghold serves as the Alliance's primary staging ground and bulwark in the wild southern forests, keeping watch on hostile ogres, satyrs, and Horde activity."
+   "answer": "As General of the Sentinels, Shandris directs frontline military operations across Kalimdor. Feathermoon Stronghold is the Alliance's primary staging ground and bulwark in the wild southern forests, watching hostile ogres, satyrs, and Horde activity."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "To the Kaldorei, General Feathermoon represents the pinnacle of Sentinel discipline and duty, having guarded the people since the dawn of the long vigil."
+   "text": "As a Kaldorei, you can look to General Feathermoon as a model of Sentinel discipline and duty. She has guarded your people since the long vigil began."
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters and rangers revere Shandris as one of the finest marksmen of the Sentinels, a general who has stood watch over the night elves for ten thousand years."
+   "text": "As a hunter, you can look to Shandris as one of the Sentinels' finest marksmen. She has watched over the night elves for ten thousand years."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance forces venturing into southern Kalimdor, General Feathermoon provides essential naval presence, strategic leadership, and a heavily fortified sanctuary on Sardor Isle."
+   "text": "As an Alliance soldier in southern Kalimdor, you can rely on General Feathermoon for naval presence, strategic leadership, and a fortified sanctuary on Sardor Isle."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde views General Feathermoon as a dangerous and cunning military tactician whose fortress off the Feralas coast threatens their expansion in the region."
+   "text": "As a member of the Horde, you face General Feathermoon, a dangerous and cunning tactician. Her fortress off the Feralas coast threatens your expansion in the region."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Shandris Feathermoon"
- ]
+ ],
+ "style": 2
 }

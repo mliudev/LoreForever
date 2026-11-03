@@ -10,11 +10,11 @@
    "quest:879"
   ]
  },
- "summary": "In the southern Barrens, Nak leads Razormane warbands against the Horde. His skull proves his defeat and gives Mangletooth a means to avenge betrayal by his former kin.",
+ "summary": "Nak's Skull carries weight in the southern Barrens, where Razormane raids trouble the Horde. At Camp Taurajo, Mangletooth seeks vengeance on the kin who left him to die.",
  "sections": [
   {
    "title": "A Token of Vengeance",
-   "body": "Nak, Kuz, and Lok Orcbane lead raids from Razorfen Kraul across the Barrens. Their warbands strike Horde settlements and roads, while defenders at the Crossroads do not know the three commanders are planning attacks beyond ordinary tribal skirmishing. At Camp Taurajo, the captive Razormane Mangletooth has been left to die in a cage by his own people. He now seeks revenge against those former brethren. Mangletooth demands proof that Nak and his companions are dead: their severed skulls, delivered by Horde adventurers. He means to use that proof to break the southern raiding parties.",
+   "body": "Nak, Kuz, and Lok Orcbane lead raids from Razorfen Kraul across the Barrens. Their warbands strike Horde settlements and roads, while Crossroads defenders know nothing of plans beyond ordinary tribal skirmishing.\n\nAt Camp Taurajo, the captive Razormane Mangletooth was left to die in a cage by his own people. He now seeks revenge on those former brethren. He demands Nak's, Kuz's, and Lok Orcbane's severed skulls as proof they are dead, delivered by Horde adventurers. With that proof, he means to break the southern raiding parties.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "nak lore",
     "nak barrens"
    ],
-   "answer": "Nak is a Razormane quilboar commander who leads raids with Kuz and Lok Orcbane. The three emerged from Razorfen Kraul and strike Horde travelers and settlements across the southern Barrens."
+   "answer": "Nak is a Razormane quilboar commander who leads raids alongside Kuz and Lok Orcbane. The three came from Razorfen Kraul and strike Horde travelers and settlements across the southern Barrens."
   },
   {
    "q": "Who wants Nak's Skull?",
@@ -44,7 +44,7 @@
     "mangletooth motive",
     "why does mangletooth want skulls"
    ],
-   "answer": "Nak, Kuz, and Lok Orcbane abandoned Mangletooth to die in captivity. He retaliates by helping the Horde find them and demanding their severed heads as proof they are dead."
+   "answer": "Nak, Kuz, and Lok Orcbane left Mangletooth to die in captivity. He helps the Horde find them and demands their severed heads as proof they are dead."
   },
   {
    "q": "Does collecting Nak's Skull help protect the Crossroads?",
@@ -87,5 +87,5 @@
   "Nak's Skull",
   "Betrayal from Within (1)"
  ],
- "style": 1
+ "style": 2
 }

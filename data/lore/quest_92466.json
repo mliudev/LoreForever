@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The Call of Earth marks an initiate's journey into communion with the spirits of stone and soil, demanding proof of resolve before granting deeper insight."
+   "text": "As a shaman, you prove your resolve before gaining deeper insight into communion with the spirits of stone and soil."
   },
   {
    "target": "faction:Horde",
-   "text": "Shamanistic trials like the Call of Earth form a foundational rite for spiritual practitioners among the peoples of the Horde."
+   "text": "Among the Horde, you encounter shamanistic trials such as Call of Earth as a foundational rite for spiritual practitioners."
   }
  ],
  "faq": [
@@ -27,7 +27,7 @@
     "what is call of earth",
     "call of earth quest"
    ],
-   "answer": "Call of Earth is a rite of passage for spiritual initiates, requiring the petitioner to gather requested items to prove their perseverance and steadfastness before moving on to the next stage of training.",
+   "answer": "Call of Earth asks spiritual initiates to gather requested items and prove their perseverance before advancing in training.",
    "q": "What is the Call of Earth?"
   },
   {
@@ -35,7 +35,7 @@
     "what did i prove",
     "grit and determination"
    ],
-   "answer": "Completing this task demonstrates your grit and unwavering determination, showing your mentor that your focus is firm enough to shoulder greater spiritual responsibilities.",
+   "answer": "Finishing the trial shows your grit and determination to your mentor. It proves your focus is strong enough for greater spiritual responsibilities.",
    "q": "What does finishing this trial demonstrate?"
   },
   {
@@ -43,7 +43,7 @@
     "whats next",
     "next quest"
    ],
-   "answer": "Having proven your resolve, your instructor deems you ready for the next step along your path of elemental communion.",
+   "answer": "After Call of Earth, your instructor considers you ready for the next step toward communion with the elements.",
    "q": "What happens after completing the Call of Earth?"
   },
   {
@@ -51,7 +51,7 @@
     "why earth",
     "earth spirits meaning"
    ],
-   "answer": "Earth represents stability, steadfast resolve, and unyielding strength. An initiate must prove their own endurance before they can truly commune with the earth spirits.",
+   "answer": "An initiate proves endurance before communing with earth spirits, whose nature reflects stability and strength.",
    "q": "Why must an initiate commune with earth?"
   },
   {
@@ -59,7 +59,7 @@
     "who gives this quest",
     "call of earth trainer"
    ],
-   "answer": "A spiritual teacher or shaman mentor guides initiates through the trial to test their discipline and readiness to bond with the spirits.",
+   "answer": "A spiritual teacher or shaman mentor guides initiates through the trial and judges their discipline and readiness to bond with the spirits.",
    "q": "Who oversees the Call of Earth?"
   },
   {
@@ -67,7 +67,7 @@
     "can anyone do call of earth",
     "is call of earth for shamans"
    ],
-   "answer": "The Call of Earth is tied directly to elemental attunement, serving as a formative test for those walking the path of the elements.",
+   "answer": "Call of Earth tests those learning to attune themselves to the elements.",
    "q": "Who is eligible to undertake this trial?"
   }
  ],
@@ -85,18 +85,19 @@
  ],
  "sections": [
   {
-   "body": "The Call of Earth is a foundational trial for aspiring practitioners of the elements. Initiates are tasked with fulfilling specific demands to test their patience, resilience, and connection to the stubborn, enduring nature of the earth. Fulfilling the request demonstrates that an adventurer possesses the inner fortitude required to commune with primeval forces.",
+   "body": "An initiate faces a test of resolve when the instructor asks for particular materials. The gathering tests patience and endurance. By meeting the earth’s demands, the student shows the strength needed to commune with its enduring power.",
    "spoiler": 0,
    "title": "A Test of Resolve"
   },
   {
-   "body": "Upon returning with the requested offerings, the mentor recognizes the petitioner's unquestionable grit and determination. Having proven steadfast in the face of elemental demands, the initiate earns recognition and is deemed prepared to undertake the next step of their spiritual journey.",
+   "body": "When the initiate returns with the requested offerings, the instructor sees their grit. The student has held firm through the trial and is ready for the next step in spiritual training.",
    "spoiler": 0,
    "title": "The Next Step"
   }
  ],
- "summary": "The Call of Earth is an elemental trial undertaken by spiritual initiates to prove their steadfastness. By retrieving requested materials, the petitioner demonstrates their grit and determination to their instructor. Successfully enduring the task confirms their readiness to proceed to the next stage of their training.",
+ "summary": "Initiates gather what their instructor asks of them in Call of Earth. Their effort shows whether they are ready to continue their training.",
  "attribution": [
   "In-game quest text: Call of Earth"
- ]
+ ],
+ "style": 2
 }

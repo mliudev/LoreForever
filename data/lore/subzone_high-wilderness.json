@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "High Wilderness"
  },
- "summary": "The High Wilderness is an expansive, untamed stretch of primordial forest covering much of western Feralas. Bordered by the Verdantis River to the east and the Forgotten Coast to the west, it shelters a wide array of wildlife, wandering treants, and dangerous beasts beneath its towering emerald canopy.",
+ "summary": "In western Feralas, the High Wilderness runs from the Verdantis River to the Forgotten Coast. Its towering trees shelter wildlife, wandering treants, and dangerous beasts.",
  "sections": [
   {
    "title": "The Primordial Canopy",
-   "body": "Stretching across the western half of Feralas, the High Wilderness represents the quintessential untamed wilderness of southern Kalimdor. Thick foliage and colossal trees block out much of the sky, creating a lush expanse teeming with wolves, bears, hippogryphs, and yetis. Ancient treants wander among the roots, while aggressive ogre clans establish footholds in the shaded clearings. Navigating this vast green expanse requires vigilance, as the dense brush hides both natural predators and lingering primeval hazards.",
+   "body": "The High Wilderness spreads across western Feralas beneath trees so vast and foliage so thick that little sky shows through. Wolves, bears, hippogryphs, and yetis roam below. Ancient treants wander among the roots, while aggressive ogre clans hold shaded clearings. Brush hides predators and hazards from an earlier age, so travelers must stay alert.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is high wilderness",
     "high wilderness feralas"
    ],
-   "answer": "The High Wilderness encompasses the vast forestlands of western Feralas. It lies west of the Verdantis River and extends all the way to the cliffs and shores bordering the Forgotten Coast."
+   "answer": "The High Wilderness covers the forestlands of western Feralas, west of the Verdantis River. It reaches the cliffs and shores along the Forgotten Coast."
   },
   {
    "q": "What creatures roam the High Wilderness?",
@@ -32,17 +32,17 @@
     "creatures in high wilderness",
     "beasts feralas"
    ],
-   "answer": "The forest is home to dense populations of bears, wolves, hippogryphs, and feral yetis. In addition to natural beasts, travelers regularly encounter roaming treants and aggressive ogres lurking under the canopy."
+   "answer": "Bears, wolves, hippogryphs, and feral yetis roam the forest. Wandering treants and aggressive ogres also dwell beneath the canopy."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The ancient treants and vibrant wildlife of the High Wilderness showcase Kalimdor's natural primal strength, untouched by the civilization of the eastern lands."
+   "text": "The ancient treants and vibrant wildlife of the High Wilderness reveal Kalimdor's primal strength, untouched by civilization in the eastern lands."
   },
   {
    "target": "class:Hunter",
-   "text": "Dense populations of fierce bears, wolves, and wild hippogryphs make the High Wilderness an exceptional proving ground for tracking and taming formidable beasts."
+   "text": "Fierce bears, wolves, and wild hippogryphs fill the High Wilderness, where you can track and tame formidable beasts."
   }
  ],
  "keywords": [
@@ -60,5 +60,6 @@
  ],
  "attribution": [
   "High Wilderness"
- ]
+ ],
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "Tharil'zun (quest)"
   ]
  },
- "summary": "Near Stonewatch Keep, Marshal Marris puts a bounty on Tharil'zun, whose outrunners harass the roads. His death is a critical step in breaking the Blackrock clan's hold over northern Redridge, and his severed head brought to Lakeshire marks a hard-fought victory for its watch.",
+ "summary": "Near Stonewatch Keep, Marshal Marris targets Tharil'zun, whose outrunners harass the roads. His death is a critical step in breaking the Blackrock clan's hold over northern Redridge, and his severed head brought to Lakeshire marks a hard-fought victory for its watch.",
  "sections": [
   {
    "title": "The Road to Stonewatch",
-   "body": "The pass between Lakeshire and Stonewatch Keep has become a gauntlet of sudden ambushes. Blackrock outrunners and renegades prowl the rocky ridges, cutting off scouts and threatening reinforcements trying to reach the fortress. Marshal Marris names Tharil'zun as the commander behind these coordinated strikes. He says Tharil'zun must be eliminated, or Lakeshire may be hemmed in entirely.",
+   "body": "The road between Lakeshire and Stonewatch Keep has become perilous with sudden ambushes. Blackrock outrunners and renegades prowl the rocky ridges, cutting off scouts and threatening reinforcements bound for the fortress. Marshal Marris names Tharil'zun as the commander directing these strikes. He says Tharil'zun must be eliminated, or Lakeshire may be hemmed in entirely.",
    "spoiler": 0
   },
   {
    "title": "Decapitating the Outrunners",
-   "body": "Tharil'zun is a dangerous battlefield leader: vicious, crafty, and able to unite scattered orc raiders into an effective raiding force. To take his head in Stonewatch's shadow, you must cut through entrenched Blackrock outposts. His death breaks the outrunner patrols' cohesion and clears a path for the Alliance to face the garrison inside the keep.",
+   "body": "Tharil'zun is a dangerous battlefield leader, vicious and crafty, who unites scattered orc raiders into an effective force. Reaching him in Stonewatch's shadow means cutting through entrenched Blackrock outposts. His death breaks the outrunner patrols' cohesion and clears a path for the Alliance to face the garrison inside the keep.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "tharil'zun lore",
     "tharilzun boss"
    ],
-   "answer": "Tharil'zun is a formidable Blackrock orc commander who leads the outrunners and renegades ambushing trails between Lakeshire and Stonewatch Keep."
+   "answer": "Tharil'zun is a formidable Blackrock orc commander who leads the outrunners and renegades ambushing the trails between Lakeshire and Stonewatch Keep."
   },
   {
    "q": "Where can Tharil'zun be found?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Tharil'zun (quest)"
  ],
- "style": 1
+ "style": 2
 }

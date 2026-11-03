@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Forest Song"
  },
- "summary": "Forest Song watches over northeastern Ashenvale, near Satyrnaar and Bough Shadow. The ancient kaldorei ruins are largely deserted, with the druid Kayneth Stillwind guarding the eastern border.",
+ "summary": "In northeastern Ashenvale, Forest Song keeps watch near Satyrnaar and Bough Shadow. The ancient kaldorei ruins lie mostly deserted, with Kayneth Stillwind guarding the eastern border.",
  "sections": [
   {
    "title": "A Lonely Vigil in Eastern Ashenvale",
-   "body": "Forest Song's white columns and broken arches rise among the trees of northeastern Ashenvale. Once an elegant kaldorei settlement, the ruin now lies overgrown with ivy and wild ferns. Satyrnaar lies to the southwest, and the Warsong Lumber Camp presses in from the south. From here, eastern trails lead toward Azshara and Bough Shadow. Demonic corruption and Horde incursions trouble the surrounding woods, while the ruins remain quiet.",
+   "body": "Forest Song’s white columns and broken arches rise among the trees of northeastern Ashenvale. Once an elegant kaldorei settlement, the ruin now lies overgrown with ivy and wild ferns. Satyrnaar lies southwest, while the Warsong Lumber Camp presses in from the south. Eastern trails lead from here toward Azshara and Bough Shadow. Demonic corruption and Horde incursions trouble the woods, though the ruins remain quiet.",
    "spoiler": 0
   },
   {
    "title": "Watcher of the Border",
-   "body": "Kayneth Stillwind keeps watch over Forest Song alone. From the crumbling outpost, the druid watches for enemies entering the wilderness, including the Forsaken in the eastern forests. Astranaar lies far away, and Forest Song has no garrison fortifications. Still, Alliance travelers heading north toward Felwood or seeking the corruption spreading through the canopy can gather here.",
+   "body": "Kayneth Stillwind keeps watch over Forest Song alone. From the crumbling outpost, the druid watches for enemies entering the wilderness, including the Forsaken in the eastern forests. Astranaar lies far away, and Forest Song has no garrison fortifications. Still, Alliance travelers bound north for Felwood or seeking the corruption spreading through the canopy can gather here.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "forest song npcs",
     "forest song inhabitants"
    ],
-   "answer": "Kayneth Stillwind, a night elf druid, lives alone among Forest Song's ancient ruins."
+   "answer": "Kayneth Stillwind, a night elf druid, lives alone among Forest Song’s ancient ruins."
   },
   {
    "q": "What threats are near Forest Song?",
@@ -36,7 +36,7 @@
     "forest song dangers",
     "enemies near forest song"
    ],
-   "answer": "Satyrnaar lies to the southwest, where corrupted satyrs gather, and the Warsong Lumber Camp is to the south. Bough Shadow lies northeast, where the green dragonflight guards a Great Tree leading into the Emerald Dream."
+   "answer": "Satyrnaar lies southwest, where corrupted satyrs gather, and the Warsong Lumber Camp lies to the south. At Bough Shadow to the northeast, the green dragonflight guards a Great Tree leading into the Emerald Dream."
   },
   {
    "q": "Why is Kayneth Stillwind stationed here?",
@@ -44,7 +44,7 @@
     "why is kayneth here",
     "kayneth stillwind purpose"
    ],
-   "answer": "Kayneth Stillwind watches hostile movements in the eastern forests and directs allies against local dangers, including the Forsaken's sinister ventures and the diseases they spread."
+   "answer": "Kayneth Stillwind watches hostile movements in the eastern forests and directs allies against local dangers. These include the Forsaken’s sinister ventures and the diseases they spread."
   },
   {
    "q": "Is Forest Song a major Alliance settlement?",
@@ -52,13 +52,13 @@
     "alliance town forest song",
     "is forest song a town"
    ],
-   "answer": "No. Forest Song is an unfortified ruin without an active garrison, vendors, or military infrastructure. Kayneth Stillwind maintains it as a lone forward lookout."
+   "answer": "No. Forest Song is an unfortified ruin without an active garrison, vendors, or military infrastructure. Kayneth Stillwind keeps it as a lone forward lookout."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you find Kayneth Stillwind keeping a solitary Cenarion Circle vigil in the corrupted borderlands beneath the canopy near Bough Shadow's Great Tree."
+   "text": "As a druid, you find Kayneth Stillwind keeping a solitary Cenarion Circle vigil in the corrupted borderlands beneath the canopy near Bough Shadow’s Great Tree."
   },
   {
    "target": "faction:Alliance",
@@ -87,5 +87,5 @@
  "attribution": [
   "Forest Song"
  ],
- "style": 1
+ "style": 2
 }

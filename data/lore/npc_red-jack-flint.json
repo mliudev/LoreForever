@@ -8,11 +8,11 @@
   "wiki": "Red Jack Flint",
   "refs": 1
  },
- "summary": "In Menethil Keep, Red Jack Flint connects sailors with travelers bound across the sea. He is a seasoned human mariner and crew member of the Maiden's Virtue, helping travelers find passage and contacts toward Kalimdor.",
+ "summary": "In Menethil Keep, Red Jack Flint helps travelers find passage across the sea. The seasoned human mariner sails with the Maiden's Virtue and connects travelers with contacts bound for Kalimdor.",
  "sections": [
   {
    "title": "A Sailor in Menethil Keep",
-   "body": "Red Jack Flint is a seasoned sailor in Menethil Keep. A crewman of the Maiden's Virtue, he knows the sea routes from Khaz Modan to distant shores. He also directs capable travelers to allies across the Great Sea, including Fiora Longears in Kalimdor.",
+   "body": "Red Jack Flint sails from Menethil Keep as a crewman of the Maiden's Virtue. He knows the sea routes from Khaz Modan to distant shores and helps capable travelers find passage. Across the Great Sea, he directs them to allies such as Fiora Longears in Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "red jack flint lore",
     "what does flint do"
    ],
-   "answer": "Red Jack Flint is a human sailor aboard the Maiden's Virtue. From Menethil Keep in Menethil Harbor, he helps travelers connect with contacts across the Eastern Kingdoms and Kalimdor."
+   "answer": "Red Jack Flint is a human sailor aboard the Maiden's Virtue. From Menethil Keep in Menethil Harbor, he helps travelers find passage and connect with contacts across the Eastern Kingdoms and Kalimdor."
   },
   {
    "q": "Where can Red Jack Flint be found?",
@@ -42,7 +42,7 @@
     "what ship is red jack on",
     "maidens virtue"
    ],
-   "answer": "Red Jack Flint serves aboard the Maiden's Virtue, a merchant vessel sailing from Menethil Harbor."
+   "answer": "Red Jack Flint sails aboard the Maiden's Virtue, a merchant vessel sailing from Menethil Harbor."
   },
   {
    "q": "Who does Red Jack Flint send travelers to see?",
@@ -78,5 +78,5 @@
  "attribution": [
   "Red Jack Flint"
  ],
- "style": 1
+ "style": 2
 }

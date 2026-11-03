@@ -8,21 +8,21 @@
   "wiki": "Arugal",
   "refs": 5
  },
- "summary": "In Shadowfang Keep, Arugal commands the worgen he summoned against the Scourge. Madness and grief have made the former Dalaran wizard their self-proclaimed father, while his power threatens Silverpine Forest.",
+ "summary": "In Shadowfang Keep, Arugal commands the worgen he summoned against the Scourge. Madness and grief have made the former Dalaran wizard their self-proclaimed father, and his power threatens Silverpine Forest.",
  "sections": [
   {
    "title": "A Desperate Summons",
-   "body": "Before Lordaeron fell, Arugal belonged to the Kirin Tor. Some peers, including Dalar Dawnweaver, called him a charlatan who leaned on enchanted trinkets to make up for weak spellcraft. When the Scourge swept across the north during the Third War, Arugal searched for a weapon that could halt the undead. He used research by the late Dalaran mage Ur to pierce the veil between realms and summon the worgen. The ravenous beasts tore through the Scourge, but no one could contain their ferocity. Soon their hunger turned against innocent mortals.",
+   "body": "Before Lordaeron fell, Arugal served in the Kirin Tor. Some peers, among them Dalar Dawnweaver, called him a charlatan who hid weak spellcraft behind enchanted trinkets. When the Scourge swept across the north during the Third War, Arugal sought a weapon to halt the undead. He drew on research by the late Dalaran mage Ur and pierced the veil between realms to summon the worgen.\n\nThe ravenous beasts tore through the Scourge, but no one could contain their ferocity. Before long, their hunger turned against innocent mortals.",
    "spoiler": 0
   },
   {
    "title": "Fall into Madness",
-   "body": "The worgen slaughtered the Scourge, then turned on the wizards who summoned them. They besieged the ancestral seat of Baron Silverlaine, whose keep fell to their claws and fangs. Silverlaine and his retainers died in the massacre. Guilt shattered Arugal's mind, but he did not flee his creation. He adopted the beasts as his own offspring and renamed the fortress Shadowfang Keep. There he holds the ramparts, surrounded by ghostly victims and loyal hound-packs.",
+   "body": "The worgen slaughtered the Scourge, then attacked the wizards who had summoned them. They besieged the ancestral seat of Baron Silverlaine and took the keep with claws and fangs. Silverlaine and his retainers died in the massacre. Guilt shattered Arugal's mind, yet he stayed with his creation. He claimed the beasts as his offspring and renamed the fortress Shadowfang Keep.\n\nThere, Arugal holds the ramparts, surrounded by ghostly victims and loyal hound-packs.",
    "spoiler": 0
   },
   {
    "title": "The Scourge of Silverpine",
-   "body": "From Shadowfang Keep, Arugal's power reaches across the surrounding countryside. His dark sorcery blankets Pyrewood Village, where townsfolk live under a nocturnal curse, and fills the Deep Elem Mine with ravenous Moonrage beasts. The Forsaken see him as a threat they cannot tolerate. Sylvanas Windrunner's Deathstalkers and apothecaries plot the mad archmage's execution to secure the borders of their fledgling kingdom.",
+   "body": "From Shadowfang Keep, Arugal's power spreads across the countryside. His dark sorcery blankets Pyrewood Village, where townsfolk live under a nocturnal curse. It also fills the Deep Elem Mine with ravenous Moonrage beasts.\n\nThe Forsaken see a threat they cannot tolerate. Sylvanas Windrunner's Deathstalkers and apothecaries plot Arugal's execution to secure the borders of their fledgling kingdom.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "why summon beasts",
     "arugal worgen motive"
    ],
-   "answer": "During the Third War, the Scourge threatened to overrun northern Lordaeron. Arugal sought a weapon to stop the undead and drew on the extraplanar research of the Dalaran mage Ur. He believed the savage beasts could destroy the Scourge, but lost control of them after summoning them."
+   "answer": "During the Third War, the Scourge threatened to overrun northern Lordaeron. Seeking a weapon against the undead, Arugal drew on the extraplanar research of the Dalaran mage Ur. He believed the savage beasts could destroy the Scourge, but lost control of them after summoning them."
   },
   {
    "q": "Where does Arugal reside right now?",
@@ -61,7 +61,7 @@
     "who owned shadowfang",
     "keep history"
    ],
-   "answer": "Baron Silverlaine was the noble lord who ruled the fortress and the village of Pyrewood. When Arugal's worgen besieged the castle, Silverlaine and his court were slaughtered. Their tortured ghosts haunt the keep's halls."
+   "answer": "Baron Silverlaine ruled the fortress and the village of Pyrewood. When Arugal's worgen besieged the castle, Silverlaine and his court were slaughtered. Their tortured ghosts haunt the keep's halls."
   },
   {
    "q": "Why do the Forsaken want Arugal dead?",
@@ -79,13 +79,13 @@
     "why are pyrewood villagers wolves",
     "pyrewood arugal"
    ],
-   "answer": "Arugal's enchantments subjected Pyrewood Village's human inhabitants to the worgen curse. By daylight, the villagers appear human, but at nightfall they transform into vicious beasts bound to defend Arugal's territory."
+   "answer": "Arugal's enchantments subjected Pyrewood Village's human inhabitants to the worgen curse. By daylight, the villagers appear human. At nightfall, they become vicious beasts bound to defend Arugal's territory."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Arugal's worgen infest the road south of the Sepulcher, and Lady Sylvanas has ordered his execution to secure Silverpine Forest for the Forsaken."
+   "text": "Arugal's worgen infest the road south of the Sepulcher. Lady Sylvanas has ordered his execution to secure Silverpine Forest for the Forsaken."
   },
   {
    "target": "race:Undead",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "Arugal shows the danger of reckless conjuration: Kirin Tor research became an uncontrollable nightmare."
+   "text": "Arugal shows the danger of reckless conjuration. Kirin Tor research became an uncontrollable nightmare."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Arugal"
  ],
- "style": 1
+ "style": 2
 }

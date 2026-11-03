@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Old Horde"
  },
- "summary": "The Old Horde was the blood-crazed coalition of orcish clans manipulated by demonic power into conquering Draenor and invading Azeroth. Led first by Blackhand and later by Orgrim Doomhammer, its path of destruction shaped the First and Second Wars until its decisive defeat by the Alliance of Lordaeron. Today, Thrall's New Horde seeks to overcome that dark legacy, while isolated remnants like the Dark Horde still cling to its bloody past.",
+ "summary": "Across Draenor and Azeroth, the Old Horde left conquest in its wake. Demonic power drove the orc clans to conquer Draenor and invade Azeroth. Blackhand and then Orgrim Doomhammer led them through the First and Second Wars, until the Alliance of Lordaeron defeated them. Thrall's New Horde now seeks to overcome that legacy, while remnants such as the Dark Horde cling to the bloody past.",
  "sections": [
   {
    "title": "Rise and Deception",
-   "body": "Before it crossed into Azeroth, the Horde was forged on Draenor through demonic manipulation. The demon lord Kil'jaeden used the warlock Gul'dan and the elder shaman Ner'zhul to corrupt the proud, spiritual orc clans. As elemental spirits abandoned the warring orcs, shamanistic traditions were cast aside for warlock magic. Sealed by the consumption of the blood of Mannoroth, the clans surrendered to bloodlust, slaughtering the draenei and draining their homeland of life.",
+   "body": "Kil'jaeden turned the orc clans toward war before they crossed into Azeroth. Through the warlock Gul'dan and the elder shaman Ner'zhul, the demon lord corrupted the proud, spiritual orcs. As the clans fought, the elemental spirits abandoned them. The orcs cast aside shamanism for warlock magic. Then they drank Mannoroth's blood and gave themselves to bloodlust. They slaughtered the draenei and drained life from their homeland.",
    "spoiler": 0
   },
   {
    "title": "Invasion of Azeroth",
-   "body": "With Draenor's lands withering away and resources exhausted, the warlock Gul'dan and the possessed human guardian Medivh opened the Dark Portal into Azeroth. The Horde poured through, igniting the First War against the Kingdom of Stormwind. Under Warchief Blackhand\u2014and the covert strings of Gul'dan's Shadow Council\u2014the Horde battered the southern realm. Toward the war's conclusion, Orgrim Doomhammer slew Blackhand and purged the Shadow Council, taking command of the Horde and razing Stormwind to the ground.",
+   "body": "Draenor's withering lands could no longer provide what the Horde needed. Gul'dan and Medivh, a human guardian possessed by demonic power, opened the Dark Portal into Azeroth. The Horde poured through and began the First War against the Kingdom of Stormwind. Warchief Blackhand led them, while Gul'dan's Shadow Council secretly directed events.\n\nNear the war's end, Orgrim Doomhammer slew Blackhand and purged the Shadow Council. He took command, then razed Stormwind to the ground.",
    "spoiler": 0
   },
   {
    "title": "Collapse and Demonic Hangover",
-   "body": "Orgrim Doomhammer drove the Horde north across the seas into the Second War, forging alliances with forest trolls and goblin mercenaries. However, at the height of the siege of Lordaeron, Gul'dan deserted the war effort with his loyalists to seek the Tomb of Sargeras. Fractured and reeling from the betrayal, the Horde was pushed back to Blackrock Mountain and crushed by the Alliance of Lordaeron. Defeated, their portal destroyed, surviving orcs were herded into internment camps, afflicted with lethargy as the demonic blood haze faded.",
+   "body": "Orgrim Doomhammer led the Horde north across the seas to fight the Second War. There, the Horde joined forces with forest trolls and goblin mercenaries. At the height of the siege of Lordaeron, Gul'dan and his loyalists abandoned the war to seek the Tomb of Sargeras. Betrayed and divided, the Horde was driven back to Blackrock Mountain and crushed by the Alliance of Lordaeron.\n\nThe Alliance destroyed the portal and herded surviving orcs into internment camps. As the demonic blood haze faded, lethargy settled over them.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "difference in hordes",
     "thrall's horde vs old horde"
    ],
-   "answer": "The Old Horde was driven by demonic corruption, warlock magic, and conquest under the influence of the Burning Legion and Gul'dan's Shadow Council. Thrall's New Horde, established after escaping the internment camps, returned to traditional shamanism and honor, forming a coalition of survivors rather than an invading army."
+   "answer": "The Old Horde pursued conquest under demonic corruption, warlock magic, and the influence of the Burning Legion and Gul'dan's Shadow Council. After escaping the internment camps, Thrall established the New Horde. It returned to shamanism and honor, uniting survivors instead of leading an invading army."
   },
   {
    "q": "Who led the Old Horde?",
@@ -42,7 +42,7 @@
     "old horde leader",
     "who led the first horde"
    ],
-   "answer": "Warchief Blackhand initially led the Horde during the genocide of the draenei and most of the First War, though he served as a figurehead for Gul'dan. Orgrim Doomhammer slew Blackhand in a duel, assumed the mantle of Warchief, and led the Horde through the end of the First War and the Second War."
+   "answer": "Blackhand led the Old Horde during the slaughter of the draenei and most of the First War, though Gul'dan used him as a figurehead. Orgrim Doomhammer slew Blackhand in a duel and took the title of Warchief. He led the Horde through the end of the First War and the Second War."
   },
   {
    "q": "Why did the orcs drink demon blood?",
@@ -51,7 +51,7 @@
     "mannoroth blood",
     "orc corruption reason"
    ],
-   "answer": "Gul'dan offered the blood of the pit lord Mannoroth to the clan chieftains. He promised them overwhelming power and victory, concealing the fact that drinking it bound their souls to the Burning Legion in reckless bloodlust."
+   "answer": "Gul'dan offered the clan chieftains the blood of Mannoroth, a pit lord, and promised overwhelming power and victory. He concealed that drinking it bound their souls to the Burning Legion and filled them with reckless bloodlust."
   },
   {
    "q": "What was the Shadow Council?",
@@ -60,7 +60,7 @@
     "gul'dan council",
     "shadow council role"
    ],
-   "answer": "The Shadow Council was a secret order of warlocks, necrolytes, and assassins founded by Gul'dan. It controlled Warchief Blackhand and steered the Horde from the shadows according to the will of the Burning Legion until Orgrim Doomhammer uncovered and purged them."
+   "answer": "Gul'dan founded the Shadow Council, a secret order of warlocks, necrolytes, and assassins. The order controlled Warchief Blackhand and secretly guided the Horde according to the Burning Legion's will, until Orgrim Doomhammer uncovered and purged it."
   },
   {
    "q": "How was the Old Horde defeated?",
@@ -69,7 +69,7 @@
     "second war ending",
     "defeat of the orcs"
    ],
-   "answer": "During the Second War, Gul'dan abandoned the Horde at the gates of Lordaeron to claim godhood at the Tomb of Sargeras, fracturing the army. The Alliance of Lordaeron rallied, pushing Doomhammer back to Blackrock Mountain, capturing him, and herding the demoralized remnants into internment camps."
+   "answer": "During the Second War, Gul'dan abandoned the Horde at the gates of Lordaeron to seek godhood at the Tomb of Sargeras. His departure fractured the army. The Alliance of Lordaeron rallied, drove Doomhammer back to Blackrock Mountain, captured him, and herded the demoralized survivors into internment camps."
   },
   {
    "q": "Do any remnants of the Old Horde still exist?",
@@ -78,29 +78,29 @@
     "dark horde",
     "remnants of old horde"
    ],
-   "answer": "Yes. Splinter factions such as the 'Dark Horde' holding Blackrock Spire, led by Rend Blackhand, reject Thrall's New Horde and cling to the old brutal ways of conquest, allying with dragons and forest trolls."
+   "answer": "Yes. Splinter factions such as the Dark Horde, which holds Blackrock Spire under Rend Blackhand, reject Thrall's New Horde and cling to conquest and the old brutal ways. They ally with dragons and forest trolls."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For orcs, the Old Horde represents a shameful era of demonic slavery and ruin, whose bitter legacy Thrall strives to overcome through honor and shamanism."
+   "text": "As an orc, you inherit the Old Horde's shameful history of demonic slavery and ruin. Thrall strives to overcome that legacy through honor and shamanism."
   },
   {
    "target": "race:Human",
-   "text": "Humanity still bears the deep scars of the Old Horde's invasion, which leveled Stormwind City and ravaged the lands of Lordaeron during the First and Second Wars."
+   "text": "As a human, you live with the scars of the Old Horde's invasion. It leveled Stormwind City and ravaged the lands of Lordaeron during the First and Second Wars."
   },
   {
    "target": "class:Shaman",
-   "text": "The formation of the Old Horde led the elemental spirits of Draenor to turn their backs on the orcs, a spiritual breach healed only recently under Thrall's guidance."
+   "text": "As a shaman, you know the Old Horde's rise drove Draenor's elemental spirits to turn from the orcs. Under Thrall's guidance, that spiritual breach has only recently begun to heal."
   },
   {
    "target": "class:Warlock",
-   "text": "Gul'dan and his Shadow Council spread warlock magic through the orc clans while building the Old Horde, drawing on the corrupting powers of the Burning Legion."
+   "text": "As a warlock, you know how Gul'dan and his Shadow Council spread warlock magic among the orc clans as they built the Old Horde. They drew on the Burning Legion's corrupting power."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Alliance of Lordaeron was created specifically to unite the disparate mortal kingdoms against the existential threat posed by the Old Horde."
+   "text": "As a member of the Alliance, you stand with a coalition formed to unite the mortal kingdoms against the threat of the Old Horde."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Old Horde"
- ]
+ ],
+ "style": 2
 }

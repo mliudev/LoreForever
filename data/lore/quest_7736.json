@@ -21,11 +21,11 @@
    "What the Flux?"
   ]
  },
- "summary": "After What the Flux?, Master Smith Burninate turns to replenishing the dwindling supply of fiery flux in the Searing Gorge. Burninate wants incendosaur scales, Kingsblood, and coal, and will take all you can offer.",
+ "summary": "In the Searing Gorge, Master Smith Burninate needs more fiery flux after What the Flux?. He asks you for incendosaur scales, Kingsblood, and coal, and accepts all you can offer.",
  "sections": [
   {
    "title": "Fiery Flux Wanted",
-   "body": "Master Smith Burninate has no time for idle talk. Fiery flux is running low, and Burninate asks for incendosaur scales, Kingsblood, and coal: two scales, four Kingsblood, and coal. Burninate will take all that you can offer.",
+   "body": "Master Smith Burninate has little time for talk. His fiery flux is running low, so he asks you for two incendosaur scales, four Kingsblood, and coal. He will take all you can offer.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "burninate fiery flux",
     "where to turn in"
    ],
-   "answer": "Master Smith Burninate in the Searing Gorge, who receives the goods in person."
+   "answer": "Master Smith Burninate asks for the goods in the Searing Gorge and receives them in person."
   },
   {
    "q": "What materials does Burninate want?",
@@ -46,7 +46,7 @@
     "materials for fiery flux",
     "burninate turn in items"
    ],
-   "answer": "Two incendosaur scales, four Kingsblood, and some coal."
+   "answer": "Burninate wants two incendosaur scales, four Kingsblood, and coal."
   },
   {
    "q": "What came before this request?",
@@ -55,7 +55,7 @@
     "previous quest fiery flux",
     "what the flux prerequisite"
    ],
-   "answer": "The step called What the Flux?, which Burninate gave you before this."
+   "answer": "What the Flux? came before this request, and Burninate gave it to you."
   },
   {
    "q": "Why does Burninate want these goods?",
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Restoring Fiery Flux Supplies via Kingsblood"
- ]
+ ],
+ "style": 2
 }

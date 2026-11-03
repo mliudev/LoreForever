@@ -20,16 +20,16 @@
    "Electropellers"
   ]
  },
- "summary": "In Auberdine, Wizbang Cranktoggle needs his lost gaffer jacks back. The gnome inventor tossed a box of hardware into the sea during his voyage from Ironforge, and anglers can search for it along Darkshore's coast.",
+ "summary": "Near Auberdine, Wizbang Cranktoggle needs his lost gaffer jacks. He lost a box of hardware overboard on his voyage from Ironforge, and the parts lie somewhere along Darkshore's coast.",
  "sections": [
   {
    "title": "A Cluttered Mind in a Quiet Haven",
-   "body": "Wizbang Cranktoggle crossed the Great Sea from Ironforge to find quiet in Darkshore. The gnome inventor drank too much on the voyage. Leaning over the rail in a drunken haze, he lost a crate of specialized metal parts called gaffer jacks in the water near Auberdine.",
+   "body": "Wizbang Cranktoggle crossed the Great Sea from Ironforge seeking quiet in Darkshore. The gnome inventor drank too much on the voyage. In a drunken haze, he leaned over the rail and lost a crate of specialized metal parts called gaffer jacks in the water near Auberdine.",
    "spoiler": 0
   },
   {
    "title": "Tuning the Stintle Pegs",
-   "body": "Wizbang says gaffer jacks are essential precision tools. Without them, he cannot properly tune his stintle pegs or continue his delicate tinkering. Unwilling to wade into the cold surf himself, he asks local anglers to cast along Darkshore's shore and fish up the scattered parts.",
+   "body": "Wizbang says gaffer jacks are essential precision tools. Without them, he cannot tune his stintle pegs or continue his delicate tinkering. He will not wade into the cold surf himself, so he asks local anglers to cast along Darkshore's shore and fish up the scattered parts.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "gaffer jack use",
     "gaffer jacks item"
    ],
-   "answer": "Gaffer jacks are small gnomish mechanical fasteners and components. Wizbang Cranktoggle says he needs them to tune his stintle pegs."
+   "answer": "Gaffer jacks are small gnomish mechanical fasteners and components. Wizbang Cranktoggle needs them to tune his stintle pegs."
   },
   {
    "q": "How did the gaffer jacks end up in the sea?",
@@ -50,7 +50,7 @@
     "why are they in the water",
     "why fish for gaffer jacks"
    ],
-   "answer": "Wizbang Cranktoggle drank too much during his voyage from the Eastern Kingdoms to Kalimdor. While drunk aboard ship, he dropped his supply box overboard near Darkshore."
+   "answer": "Wizbang Cranktoggle drank too much during his voyage from the Eastern Kingdoms to Kalimdor. Drunk aboard ship, he dropped his supply box overboard near Darkshore."
   },
   {
    "q": "Why is Wizbang Cranktoggle in Auberdine instead of Ironforge?",
@@ -66,7 +66,7 @@
     "where do i fish gaffer jacks",
     "gaffer jacks location"
    ],
-   "answer": "Anglers can fish the gaffer jacks from the open saltwater along Darkshore near Auberdine. They can turn up on ordinary casts, not only at schools of fish."
+   "answer": "Anglers can fish gaffer jacks from the open saltwater along Darkshore near Auberdine. They may turn up on ordinary casts, not only at schools of fish."
   },
   {
    "q": "What happens after recovering the gaffer jacks?",
@@ -74,7 +74,7 @@
     "what next after gaffer jacks",
     "quest after gaffer jacks"
    ],
-   "answer": "After Wizbang gets his gaffer jacks back to tune his pegs, he says he also lost his electropellers in Darkshore's rivers and lakes. Those must be fished out too."
+   "answer": "After Wizbang gets his gaffer jacks back to tune his pegs, he says he also lost his electropellers in Darkshore's rivers and lakes. Those need fishing out too."
   },
   {
    "q": "Why does Wizbang need adventurers instead of retrieving them himself?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you know the restless eccentricity of tinkers. Wizbang's mix of delicate components and heavy drinking might make even you cringe."
+   "text": "As a gnome, you know the restless eccentricity of tinkers. Wizbang's delicate components and heavy drinking might make even you cringe."
   },
   {
    "target": "profession:Engineering",
@@ -120,5 +120,5 @@
  "attribution": [
   "Gaffer Jacks"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,11 +27,11 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "At Nesingwary's Expedition in northern Stranglethorn Vale, Ajeck Rouack escalates his hunting trials. Having seen your early promise with young stalkers, he now sends you into the jungle to fell mature Stranglethorn Tigers.",
+ "summary": "At Nesingwary's Expedition in northern Stranglethorn Vale, Ajeck Rouack sends you to hunt mature tigers. After you defeat young stalkers, she sets you against ten mature Stranglethorn Tigers.",
  "sections": [
   {
    "title": "Hunting the Mature Cats",
-   "body": "Following your initial success against younger predators, Ajeck Rouack seeks to test your growing skills against more seasoned beasts. She directs you back out into the wilds of Stranglethorn Vale to hunt down ten mature Stranglethorn Tigers before you can pursue even greater challenges.",
+   "body": "Ajeck Rouack sends you to hunt ten mature Stranglethorn Tigers. Your success against younger predators has brought you to a harder test in the wilds of Stranglethorn Vale. Greater challenges lie beyond this hunt.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "ajeck rouack location",
     "who gives this quest"
    ],
-   "answer": "Ajeck Rouack, a hunter stationed at Nesingwary's Expedition in northern Stranglethorn Vale, issues the trial."
+   "answer": "Ajeck Rouack, a hunter at Nesingwary's Expedition in northern Stranglethorn Vale, assigns the hunt."
   },
   {
    "q": "What beasts are you tasked with hunting?",
@@ -52,7 +52,7 @@
     "which cats",
     "tiger mastery targets"
    ],
-   "answer": "You are challenged to track and slay ten mature Stranglethorn Tigers roaming the surrounding jungle."
+   "answer": "You are sent to track and slay ten mature Stranglethorn Tigers in the surrounding jungle."
   },
   {
    "q": "Where does this trial fit in the hunt?",
@@ -61,7 +61,7 @@
     "what is next",
     "tiger mastery chain"
    ],
-   "answer": "This trial follows the initial Tiger Mastery hunt and leads directly into a third stage under Ajeck Rouack's guidance."
+   "answer": "This hunt follows your first Tiger Mastery trial and leads to a third stage under Ajeck Rouack's guidance."
   }
  ],
  "angles": [],
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Tiger Mastery (2)"
- ]
+ ],
+ "style": 2
 }

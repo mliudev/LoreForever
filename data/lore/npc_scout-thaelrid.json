@@ -8,16 +8,16 @@
   "wiki": "Argent Guard Thaelrid",
   "refs": 3
  },
- "summary": "Wounded near the Pool of Ask'ar, Argent Guard Thaelrid is cut off in Blackfathom Deeps. The night elf scout entered the submerged ruins for the Argent Dawn, and now he has seen what gathers below.",
+ "summary": "Wounded near the Pool of Ask'ar, Argent Guard Thaelrid lies cut off in Blackfathom Deeps. The night elf scout entered the submerged ruins for the Argent Dawn, and now he has seen what gathers below.",
  "sections": [
   {
    "title": "Eyes of the Argent Dawn",
-   "body": "Reports of foul rites beneath the sea reached the Argent Dawn from the Zoram Strand. The order watches for rising evils and unnatural corruption across Azeroth, so it sent Scout Thaelrid into Blackfathom Deeps. He was to judge the threat, watch the flooded temple, and report back. Then the Dawn could decide where aid was most needed.",
+   "body": "The Argent Dawn sent Scout Thaelrid into Blackfathom Deeps after reports of foul rites reached the order from the Zoram Strand. The Dawn watches for rising evils and unnatural corruption across Azeroth. Thaelrid was to judge the threat, watch the flooded temple, and report back. Then the order could decide where aid was most needed.",
    "spoiler": 0
   },
   {
    "title": "A Grasping Darkness",
-   "body": "Thaelrid found a threat far worse than the rumors suggested. Savage naga and the Twilight's Hammer cult have made an unholy pact in the submerged ruins. Under Twilight Lord Kelris, cultists offer blood sacrifices to feed the hydra Aku'mai and bargain with ancient terrors for dark power. Before Thaelrid could carry the warning to the surface, Blackfathom Deeps' denizens grievously wounded him. Cut off near the Pool of Ask'ar, he remains trapped.",
+   "body": "Thaelrid found a threat far worse than rumor: savage naga and the Twilight's Hammer cult have made an unholy pact in the submerged ruins. Under Twilight Lord Kelris, cultists offer blood sacrifices to feed the hydra Aku'mai. They bargain with ancient terrors for dark power.\n\nBefore Thaelrid could carry the warning to the surface, Blackfathom Deeps' denizens grievously wounded him. Cut off near the Pool of Ask'ar, he remains trapped.",
    "spoiler": 1
   }
  ],
@@ -80,11 +80,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, naga and doomsday cults defiling ancient temple grounds like Blackfathom is a bitter outrage. Thaelrid represents their people's vigil over Kalimdor's deepest wounds."
+   "text": "For night elves, naga and doomsday cults defiling ancient temple grounds like Blackfathom is a bitter outrage. Thaelrid keeps watch over Kalimdor's deepest wounds on their people's behalf."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts follow up on Thaelrid's disappearance in Ashenvale, seeking to keep the Zoram Strand safe and support the Argent Dawn's neutral work."
+   "text": "Alliance scouts follow up on Thaelrid's disappearance in Ashenvale. They seek to keep the Zoram Strand safe and support the Argent Dawn's neutral work."
   },
   {
    "target": "faction:Horde",
@@ -114,5 +114,5 @@
  "attribution": [
   "Scout Thaelrid"
  ],
- "style": 1
+ "style": 2
 }

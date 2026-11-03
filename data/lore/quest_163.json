@@ -17,11 +17,11 @@
   "wiki": "Raven Hill (quest)",
   "chain": []
  },
- "summary": "In western Duskwood, shadows move through Raven Hill, and a light flickers in a ruined window. Elaine Carevin sends travelers from Darkshire to learn what has taken shelter there.",
+ "summary": "In far western Duskwood, a light flickers in a ruined window at Raven Hill. Elaine Carevin sends travelers from Darkshire to learn what has taken shelter there.",
  "sections": [
   {
    "title": "Eyes in the West",
-   "body": "The Night Watch has long left Duskwood’s far west to the dead and wilderness. Yet signs of life there demand attention. Calor, a watcher on the gloomy roads, saw movement among Raven Hill’s silent houses two nights in a row. A lantern flickered in a window. With ghouls, skeletons, and beasts across the land, the Night Watch cannot ignore what stirs among the ruins.",
+   "body": "The Night Watch has long left Duskwood’s far west to the dead and the wilderness. Yet signs of life there demand attention. Calor, a watcher on the gloomy roads, saw movement among Raven Hill’s silent houses two nights in a row. A lantern flickered in a window. With ghouls, skeletons, and beasts across the land, the Night Watch cannot ignore what stirs among the ruins.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "quest giver raven hill",
     "elaine carevin quest"
    ],
-   "answer": "Elaine Carevin, who lives in Darkshire and assists the Night Watch, asks travelers concerned for Duskwood’s safety to investigate disturbing reports from the west."
+   "answer": "Elaine Carevin lives in Darkshire and assists the Night Watch. Concerned for Duskwood’s safety, she asks travelers to investigate disturbing reports from the west."
   },
   {
    "q": "What did Calor actually see in Raven Hill?",
@@ -113,5 +113,5 @@
  "attribution": [
   "Raven Hill (quest)"
  ],
- "style": 1
+ "style": 2
 }

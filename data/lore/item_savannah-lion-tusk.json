@@ -10,11 +10,11 @@
    "quest:821"
   ]
  },
- "summary": "In the Barrens, Savannah Lion Tusks go from hunting trophies to ingredients in Chen Stormstout's legendary potent ale.",
+ "summary": "Across the Barrens, Savannah Lion Tusks pass from hunting trophies into Chen Stormstout's legendary ale.",
  "sections": [
   {
    "title": "A Curious Brewing Ingredient",
-   "body": "The great cats roaming the Barrens carry sharp, heavy tusks. Prowlers, huntresses, prides ruled by patriarchs, and beasts like Humar the Pridelord all bear them. Travelers often take the teeth as proof of a successful hunt. Brewmaster Drohn in Ratchet uses the tusks with plainstrider kidneys and thunder lizard horns to recreate Chen Stormstout's famous namesake brew, a potent ale with a legendary kick few mortal gullets can withstand.",
+   "body": "Great cats of the Barrens carry sharp, heavy tusks. Prowlers, huntresses, prides led by patriarchs, and beasts like Humar the Pridelord all bear them. Travelers take the teeth as proof of a successful hunt. In Ratchet, Brewmaster Drohn uses the tusks with plainstrider kidneys and thunder lizard horns to recreate Chen Stormstout's famous brew. The potent ale has a legendary kick few mortal gullets can withstand.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "drohn lion tusks",
     "brewmaster drohn recipe"
    ],
-   "answer": "Brewmaster Drohn in Ratchet needs the tusks to recreate Chen Stormstout's namesake brew. His mentor passed the recipe down to him, and the tusks are one of three Barrens ingredients needed to reproduce the stout's distinct flavor and kick."
+   "answer": "In Ratchet, Brewmaster Drohn uses Savannah Lion Tusks to recreate Chen Stormstout's namesake brew. His mentor passed the recipe down to him, and the tusks are one of three Barrens ingredients needed for the stout's distinct flavor and kick."
   },
   {
    "q": "Which beasts carry Savannah Lion Tusks?",
@@ -35,7 +35,7 @@
     "who drops lion tusk",
     "savannah lion tusk source"
    ],
-   "answer": "Savannah lion pride members across the Barrens carry the tusks. They include Savannah Highmanes, Patriarchs, Matriarchs, Huntresses, Prowlers, and rare beasts like Dishu and Humar the Pridelord."
+   "answer": "Savannah lion prides across the Barrens carry the tusks. These include Savannah Highmanes, Patriarchs, Matriarchs, Huntresses, Prowlers, and rare beasts like Dishu and Humar the Pridelord."
   },
   {
    "q": "Do lions actually have tusks?",
@@ -74,5 +74,5 @@
   "Savannah Lion Tusk",
   "Chen's Empty Keg (2)"
  ],
- "style": 1
+ "style": 2
 }

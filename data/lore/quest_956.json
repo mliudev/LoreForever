@@ -17,16 +17,16 @@
   "wiki": "Bashal'Aran (3)",
   "chain": []
  },
- "summary": "Asterion seeks release from his prison among the ruined pillars of Bashal'Aran. He has traced the binding magic to the satyrs who command the grells and asks travelers to recover the Ancient Moonstone Seal.",
+ "summary": "Among the ruined pillars of Bashal'Aran, Asterion seeks release from his prison. He has traced the binding magic to the satyrs who command the grells. Now he asks travelers to recover the Ancient Moonstone Seal.",
  "sections": [
   {
    "title": "A Prison of Ancient Stone",
-   "body": "For more than a thousand years, Asterion has remained bound to the ruins of Bashal'Aran. The marble pillars around him mark the limits of his prison, beyond the reach of his fading strength and ancient magic. A cursed relic holds him here. Through the centuries, he has watched Darkshore's canopy and wondered whether the wearing stone could ever set him free.",
+   "body": "For more than a thousand years, Asterion has been bound within the ruins of Bashal'Aran. The marble pillars mark the bounds of his prison. His strength and ancient magic cannot carry him beyond them. A cursed relic holds him there.\n\nThrough the centuries, Asterion has watched Darkshore's canopy. He wonders if the worn stone around him might ever set him free.",
    "spoiler": 0
   },
   {
    "title": "Satyrs and the Moonstone Seal",
-   "body": "Nearby grells carried traces of the magic that binds Asterion, and he deduced that the Ancient Moonstone Seal was the source of the enchantment. The satyrs who command the grells now hold the seal. These demonic night elves wander the ancient groves, keeping watch over the relic. Asterion needs the seal recovered before its binding power can be broken.",
+   "body": "Nearby grells bore traces of the magic binding Asterion. From them, he reasoned that the Ancient Moonstone Seal was the enchantment's source. The satyrs who command the grells hold the seal now. These demonic night elves roam the ancient groves and keep watch over the relic. Asterion needs travelers to recover the seal so its binding power can be broken.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "asterion lore",
     "ghost in bashal aran"
    ],
-   "answer": "Asterion is an ancient night elf spirit trapped among the ruined pillars of Bashal'Aran. Bound by ancient magic for more than a thousand years, he cannot leave his stone prison or pass on."
+   "answer": "Asterion is an ancient night elf spirit trapped among Bashal'Aran's ruined pillars. Ancient magic has bound him for more than a thousand years, keeping him from leaving his stone prison or passing on."
   },
   {
    "q": "Why do the satyrs have the Ancient Moonstone Seal?",
@@ -47,7 +47,7 @@
     "satyr moonstone seal",
     "ancient moonstone seal"
    ],
-   "answer": "The satyrs influence and command the wild grells of northern Darkshore. When Asterion sensed traces of the binding magic in the grells, he deduced that the satyrs held the Ancient Moonstone Seal, the source of his captivity."
+   "answer": "The satyrs command the wild grells of northern Darkshore. Asterion sensed traces of his binding magic in the grells, then deduced that the satyrs held the Ancient Moonstone Seal, the source of his captivity."
   },
   {
    "q": "What happens once the seal is recovered?",
@@ -55,7 +55,7 @@
     "what does seal do",
     "recovering the seal"
    ],
-   "answer": "Asterion takes hold of the recovered Ancient Moonstone Seal, the relic that has bound him for centuries. Then the seal can be broken, freeing him to walk the forests again."
+   "answer": "When Asterion takes the recovered Ancient Moonstone Seal, the relic that bound him for centuries, it can be broken. Then he will be free to walk the forests again."
   },
   {
    "q": "What is Bashal'Aran?",
@@ -71,7 +71,7 @@
     "how old is asterion",
     "how long trapped"
    ],
-   "answer": "Asterion has been imprisoned for more than a thousand years. Unable to break the boundary by strength or magic, he has waited through the centuries, wondering if he will ever be free."
+   "answer": "Asterion has been imprisoned for more than a thousand years. Neither strength nor magic can break the boundary, and through the centuries he has wondered if he will ever be free."
   },
   {
    "q": "Can Asterion simply walk away from the shrine?",
@@ -79,21 +79,21 @@
     "can asterion leave",
     "why is ghost trapped"
    ],
-   "answer": "No. The Ancient Moonstone Seal maintains a barrier around the shrine, and its stone pillars keep Asterion's spirit from crossing beyond them."
+   "answer": "No. The Ancient Moonstone Seal maintains a barrier around the shrine, and the stone pillars keep Asterion's spirit from crossing beyond them."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Bashal'Aran recalls your people's ancient past, where lingering ancestors remain chained to the earth by satyrs who embody the demonic betrayal of the Sundering."
+   "text": "As a Night Elf, Bashal'Aran recalls your people's ancient past. Lingering ancestors remain chained to the earth by satyrs, whose kind embody the demonic betrayal of the Sundering."
   },
   {
    "target": "class:Druid",
-   "text": "The satyrs' influence still corrupts Darkshore's wildlife and disturbs ancient spirits who should rest peacefully in nature's cycle."
+   "text": "As a Druid, you know the satyrs' influence still corrupts Darkshore's wildlife. It also disturbs ancient spirits who should rest peacefully in nature's cycle."
   },
   {
    "target": "faction:Alliance",
-   "text": "Cleansing Darkshore's ruins of satyr corruption secures Kalimdor's northern coast and helps the Kaldorei lay their tragic past to rest."
+   "text": "As an Alliance member, you help secure Kalimdor's northern coast by cleansing Darkshore's ruins of satyr corruption. That work also helps the Kaldorei lay their tragic past to rest."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Bashal'Aran (3)"
  ],
- "style": 1
+ "style": 2
 }

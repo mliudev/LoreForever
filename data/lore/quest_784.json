@@ -20,16 +20,16 @@
    "From The Wreckage...."
   ]
  },
- "summary": "At Tiragarde Keep, Kul Tiran forces hold a coastal foothold in Durotar. Gar'Thok has ordered a Horde strike against Lieutenant Benedict's garrison, whose presence breaks the fragile peace with Theramore.",
+ "summary": "At Tiragarde Keep, Kul Tiran forces still hold a foothold on Durotar's coast. Gar'Thok calls the Horde to strike at Lieutenant Benedict's garrison, whose presence has broken the fragile peace with Theramore.",
  "sections": [
   {
    "title": "A Shattered Truce",
-   "body": "Thrall led the Horde across the Great Sea to Kalimdor, where he joined Lady Jaina Proudmoore against the Burning Legion at Mount Hyjal. Peace broke when Jaina's estranged father, Grand Admiral Daelin Proudmoore, brought Kul Tiras's navy to Durotar. He blamed all orcs for the Old Horde's atrocities and seized coastal footholds, including Tiragarde Keep. Daelin died at Theramore, but remnants of his fleet still refuse any pact or surrender their hatred.",
+   "body": "Thrall led the Horde across the Great Sea to Kalimdor. There, he and Lady Jaina Proudmoore fought the Burning Legion at Mount Hyjal. Peace broke when Jaina's estranged father, Grand Admiral Daelin Proudmoore, brought Kul Tiras's navy to Durotar. He blamed every orc for the Old Horde's atrocities and seized coastal strongholds, among them Tiragarde Keep. Daelin died at Theramore, but remnants of his fleet still reject any pact and keep their hatred.",
    "spoiler": 0
   },
   {
    "title": "Benedict's Resurgence",
-   "body": "Tiragarde Keep fell briefly after the Grand Admiral's defeat, then Kul Tiras reserves under Lieutenant Benedict retook it. The fortress lies between Razor Hill and Sen'jin Village. From there, sailors and marines harass travelers and threaten Durotar's eastern sea approaches. Gar'Thok sees their position as an immediate danger to Durotar's security and calls on Horde warriors to strike at Benedict's command.",
+   "body": "Tiragarde Keep fell for a time after the Grand Admiral's defeat. Then Kul Tiras reserves under Lieutenant Benedict took it back. The fortress lies between Razor Hill and Sen'jin Village. From there, sailors and marines harass travelers and threaten Durotar's eastern sea approaches. Gar'Thok sees their presence as an immediate danger to Durotar's security. So he calls on Horde warriors to strike at Benedict's command.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "kul tiras attacking",
     "tiragarde keep humans lore"
    ],
-   "answer": "They are remnants of Grand Admiral Daelin Proudmoore's expeditionary fleet. Daelin rejected peaceful coexistence between humans and orcs and sought to destroy Durotar. Even after his death, his loyalists still occupy coastal strongholds such as Tiragarde Keep, defying the Horde."
+   "answer": "They are remnants of Grand Admiral Daelin Proudmoore's expeditionary fleet. Daelin rejected peace between humans and orcs and sought to destroy Durotar. Even after his death, his loyalists hold coastal strongholds such as Tiragarde Keep and defy the Horde."
   },
   {
    "q": "Who is Lieutenant Benedict?",
@@ -50,7 +50,7 @@
     "lieutenant benedict lore",
     "leader tiragarde keep"
    ],
-   "answer": "Lieutenant Benedict commands the Kul Tiran reserves holding Tiragarde Keep. After Grand Admiral Proudmoore's defeat, Benedict rallied the surviving marines and sailors, retook the coastal fortification, and began persistent operations against the orcs."
+   "answer": "Lieutenant Benedict commands the Kul Tiran reserves holding Tiragarde Keep. After Grand Admiral Proudmoore's defeat, Benedict rallied the surviving marines and sailors. He retook the coastal fortress and began persistent operations against the orcs."
   },
   {
    "q": "Does Jaina Proudmoore support these humans?",
@@ -59,7 +59,7 @@
     "theramore kul tiras alliance",
     "jaina proudmoore tiragarde"
    ],
-   "answer": "No. Jaina made a pact with Warchief Thrall for mutual survival and actively opposed her father's aggressive crusade to preserve peace. The troops at Tiragarde Keep are Kul Tiras remnants who reject Theramore's diplomacy and see Jaina's truce as treason."
+   "answer": "No. Jaina made a pact with Warchief Thrall for their mutual survival and opposed her father's aggressive crusade to preserve peace. The troops at Tiragarde Keep are Kul Tiras remnants who reject Theramore's diplomacy and regard Jaina's truce as treason."
   },
   {
    "q": "Why are they called 'betrayers'?",
@@ -68,7 +68,7 @@
     "who betrayed who",
     "betrayers meaning"
    ],
-   "answer": "Gar'Thok calls them betrayers because their invasion broke the understanding Thrall and Jaina Proudmoore forged to defeat Archimonde in the Third War. Their continued military presence in sovereign Horde territory defies the post-war boundaries established on Kalimdor."
+   "answer": "Gar'Thok calls them betrayers because their invasion broke the understanding Thrall and Jaina Proudmoore forged to defeat Archimonde in the Third War. Their continued military presence in Horde territory defies the post-war boundaries established on Kalimdor."
   },
   {
    "q": "Where is Tiragarde Keep located?",
@@ -77,13 +77,13 @@
     "where is tiragarde keep",
     "where to find benedict"
    ],
-   "answer": "Tiragarde Keep stands on Durotar's eastern coast, south of Razor Hill and just northeast of Sen'jin Village. Its high stone walls overlook the coastal waters, giving the invaders a strategic base near Horde settlements."
+   "answer": "Tiragarde Keep is on Durotar's eastern coast, south of Razor Hill and just northeast of Sen'jin Village. Its high stone walls overlook the coastal waters and give the invaders a strategic base near Horde settlements."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Kul Tiran occupation of Tiragarde Keep is an ongoing act of war on Durotar's threshold. Driving out Benedict's forces shows the Horde can defend its newly settled home from foreign fleets."
+   "text": "Kul Tiran forces still occupy Tiragarde Keep on Durotar's threshold. Driving out Benedict's forces shows the Horde can defend its newly settled home from foreign fleets."
   },
   {
    "target": "race:Orc",
@@ -119,5 +119,5 @@
  "attribution": [
   "Vanquish the Betrayers"
  ],
- "style": 1
+ "style": 2
 }

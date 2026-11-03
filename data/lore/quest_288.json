@@ -17,16 +17,16 @@
   "wiki": "The Third Fleet (Classic)",
   "chain": []
  },
- "summary": "Outside the Deepwater Tavern, First Mate Fitzsimmons drinks to drown his memories. He alone survived Kul Tiras's Third Fleet, burned off the Wetlands by red dragons enslaved by orcs during the Second War.",
+ "summary": "Outside the Deepwater Tavern, First Mate Fitzsimmons drinks through memories of the Third Fleet. He alone survived its burning off the Wetlands during the Second War.",
  "sections": [
   {
    "title": "A Sailor's Grief",
-   "body": "First Mate Fitzsimmons spends his days outside the Deepwater Tavern in Menethil Harbor, nursing a hangover and memories he cannot shake. He once served as an officer aboard the Wave Mistress, a ship-of-the-line that sailed under Kul Tiras's maritime banner. Now he trades those grim memories for dwarven mead. Anyone who buys him another drink can hear his account of one of the Second War's worst naval slaughters.",
+   "body": "First Mate Fitzsimmons spends his days outside the Deepwater Tavern in Menethil Harbor. He nurses a hangover and memories that will not leave him. He once served aboard the Wave Mistress, a ship-of-the-line under Kul Tiras's maritime banner. Now he turns to dwarven mead, and another drink may bring his account of a terrible naval slaughter.",
    "spoiler": 0
   },
   {
    "title": "Fire Over the Waves",
-   "body": "During the Second War, the Third Fleet sailed along the shores of Khaz Modan when fire came from the sky. The Dragonmaw clan had subdued the red dragonflight at Grim Batol and unleashed dragonfire on the unsuspecting warships. Fitzsimmons remembers helpless wooden hulls burning beneath towering flames, their crews dragged into the deep. He alone survived and washed ashore. His fallen brothers lie in the watery graveyard now known as the Doomed Fleet.",
+   "body": "During the Second War, the Third Fleet sailed along the shores of Khaz Modan when fire fell from the sky. The Dragonmaw clan had subdued the red dragonflight at Grim Batol and unleashed dragonfire upon the unsuspecting warships. Fitzsimmons remembers wooden hulls burning beneath towering flames as their crews were dragged into the deep. He alone survived and washed ashore. His fallen brothers lie in the watery graveyard known as the Doomed Fleet.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the drunk sailor",
     "fitzsimmons tavern"
    ],
-   "answer": "First Mate Fitzsimmons is an old sailor drinking away his trauma outside the Deepwater Tavern in Menethil Harbor. Once first mate of the Kul Tiras warship Wave Mistress, he is the sole known survivor of the Third Fleet's destruction."
+   "answer": "First Mate Fitzsimmons is an old sailor who drinks outside the Deepwater Tavern in Menethil Harbor to dull his trauma. He once served aboard the Kul Tiras warship Wave Mistress and is the sole known survivor of the Third Fleet's destruction."
   },
   {
    "q": "What happened to the Third Fleet?",
@@ -47,7 +47,7 @@
     "how did the fleet sink",
     "kul tiras ships sunk"
    ],
-   "answer": "During the Second War, the Dragonmaw clan ambushed and burned Kul Tiras's Third Fleet off the Wetlands coast. Orcs riding dragons rained fire from above, sending ships and sailors to the seabed."
+   "answer": "During the Second War, the Dragonmaw clan ambushed Kul Tiras's Third Fleet off the Wetlands coast and burned it. Orcs riding dragons rained fire from above, sending ships and sailors to the seabed."
   },
   {
    "q": "Why were dragons attacking human ships?",
@@ -74,7 +74,7 @@
     "what does fitzsimmons want",
     "flagon of mead"
    ],
-   "answer": "Fitzsimmons wants a flagon of dwarven mead to loosen his tongue and ease his splitting hangover. The innkeeper inside the Deepwater Tavern sells it."
+   "answer": "Fitzsimmons wants a flagon of dwarven mead to ease his splitting hangover and loosen his tongue. The innkeeper inside the Deepwater Tavern sells it."
   },
   {
    "q": "What nation did the Third Fleet serve?",
@@ -83,7 +83,7 @@
     "kul tiras fleet",
     "who owned the wave mistress"
    ],
-   "answer": "The Third Fleet served Kul Tiras, an island kingdom whose formidable navy was the backbone of the Alliance's naval forces during the Second War."
+   "answer": "The Third Fleet served Kul Tiras, an island kingdom whose formidable navy formed the backbone of the Alliance's naval forces during the Second War."
   }
  ],
  "angles": [
@@ -93,11 +93,11 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance defender, you hear in Fitzsimmons's account of the Wave Mistress the scars left by the Horde's dragon-riders across Khaz Modan."
+   "text": "As an Alliance defender, you hear in Fitzsimmons's account of the Wave Mistress the scars the Horde's dragon-riders left across Khaz Modan."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know Grim Batol cast a shadow over Khaz Modan, while dragons bred in its depths wreaked havoc on dwarf lands and human allies alike."
+   "text": "As a dwarf, you know Grim Batol cast a shadow over Khaz Modan. Dragons bred in its depths wreaked havoc on dwarf lands and human allies alike."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "The Third Fleet (Classic)"
  ],
- "style": 1
+ "style": 2
 }

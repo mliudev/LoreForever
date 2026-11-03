@@ -17,16 +17,16 @@
   "wiki": "Jin'Zil's Forest Magic",
   "chain": []
  },
- "summary": "At small Malaka'jin, Witch Doctor Jin'Zil holds three night elven scouts in crude iron cages. He sends Horde adventurers to Stonetalon Peak for wilderness reagents to brew a grim forest magic.",
+ "summary": "In Malaka'jin, Witch Doctor Jin'Zil holds three night elven scouts in crude iron cages. He sends Horde travelers north to gather reagents for a grim forest magic.",
  "sections": [
   {
    "title": "A Bitter Brew",
-   "body": "Under the Horde's watch, Witch Doctor Jin'Zil practices his craft in Malaka'jin's red-rock defile. When three night elf captives fall into his hands, he chooses a mocking ritual made for his woodland foes instead of ordinary butchery. He sends travelers north into the peaks for thick tree sap, feline whiskers from predatory twilight runners, a shimmering fey dragon scale, and scores of eyes from the local forest coursers.",
+   "body": "Witch Doctor Jin'Zil practices his craft in Malaka'jin's red-rock defile, under the Horde's watch. When three night elf captives fall into his hands, he chooses a mocking ritual for his woodland foes instead of ordinary butchery. He sends you north into the peaks for thick tree sap, feline whiskers from predatory twilight runners, a shimmering fey dragon scale, and scores of eyes from local forest coursers.",
    "spoiler": 0
   },
   {
    "title": "A Taste of Home",
-   "body": "Jin'Zil's playful manner hides a cruel troll humor. He says the brew will help the imprisoned elves feel at home, though they have no forest to frolic in. But magical fauna and concentrated sap make a volatile, lethal venom. When Jin'Zil releases the concoction in the cave, it chokes the life from the caged captives. Their bodies perish, and their ancestral spirits dissolve into luminous wisps that float into the mountains, leaving empty cages behind.",
+   "body": "Jin'Zil hides cruel troll humor beneath a playful manner. He says his brew will help the imprisoned elves feel at home, though they have no forest to frolic in.\n\nMagical fauna and concentrated sap make a volatile, lethal venom. When Jin'Zil releases it in the cave, the brew chokes the life from the caged captives. Their bodies perish, and their ancestral spirits dissolve into luminous wisps that float into the mountains, leaving empty cages behind.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "30 courser eyes",
     "why so many eyes"
    ],
-   "answer": "Jin'Zil says fierce forest magic takes an abundance of eyes. Troll witch doctors use strange organic ingredients in their potions, but the absurd number also suits Jin'Zil's eccentric, vindictive nature."
+   "answer": "Jin'Zil says fierce forest magic takes an abundance of eyes. Troll witch doctors use strange organic ingredients in their potions, and the absurd number suits Jin'Zil's eccentric, vindictive nature."
   },
   {
    "q": "What happens to the caged night elves when the quest finishes?",
@@ -65,7 +65,7 @@
     "stonetalon sap location",
     "fey dragon scale spot"
    ],
-   "answer": "You can gather courser eyes and Stonetalon sap around Mirkfallon Lake and the northern highlands. Twilight whiskers and the rare fey dragon scale come from farther north, near Stonetalon Peak, where magical beasts roam."
+   "answer": "Courser eyes and Stonetalon sap can be gathered around Mirkfallon Lake and the northern highlands. Twilight whiskers and the rare fey dragon scale come from farther north near Stonetalon Peak, where magical beasts roam."
   },
   {
    "q": "Why is the Horde fighting night elves in Stonetalon?",
@@ -83,7 +83,7 @@
     "elven wisps in cave",
     "wisp lore"
    ],
-   "answer": "Wisps are the spirits of dead night elves, bound closely to nature. When they die, their souls take a glowing, arboreal form instead of lingering as ordinary ghosts or shades."
+   "answer": "Wisps are the spirits of dead night elves, bound closely to nature. When night elves die, their souls take a glowing, arboreal form instead of lingering as ordinary ghosts or shades."
   }
  ],
  "angles": [
@@ -125,5 +125,5 @@
  "attribution": [
   "Jin'Zil's Forest Magic"
  ],
- "style": 1
+ "style": 2
 }

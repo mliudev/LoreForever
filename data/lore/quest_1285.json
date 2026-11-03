@@ -21,16 +21,16 @@
   ],
   "wiki": null
  },
- "summary": "Adjutant Tesoran has found Lieutenant Paval Reethe in the guard's records. They tell of an enlistment in the Kul Tiras marines at sixteen, distinguished service with promotions, and a place in the Theramore guard among the recruits who sailed over with Lady Proudmoore. The last entry lists Reethe as missing, and Captain Garran Vimes is to hear of it.",
+ "summary": "Adjutant Tesoran has found Lieutenant Paval Reethe in the guard's records. They trace Reethe's service from enlistment in the Kul Tiras marines at sixteen, through promotions for distinguished service, to the Theramore guard with Lady Proudmoore's recruits. The final entry marks Reethe missing, and Captain Garran Vimes is to hear the news.",
  "sections": [
   {
    "title": "What the Records Say",
-   "body": "Captain Garran Vimes sent you to Adjutant Tesoran, who has now searched the books and found Lieutenant Paval Reethe. Reethe signed up with the Kul Tiras marines at sixteen, and distinguished service brought promotions. Reethe went on to the Theramore guard, like most of the recruits who sailed over with Lady Proudmoore. The record ends with Reethe listed as missing. The news is for Vimes in Theramore.",
+   "body": "Captain Garran Vimes sent you to Adjutant Tesoran, who searched the books and found Lieutenant Paval Reethe. Reethe enlisted in the Kul Tiras marines at sixteen, and distinguished service brought him promotions. Later, he joined the Theramore guard with most of the recruits who sailed over with Lady Proudmoore. The record ends by listing him as missing. Vimes, in Theramore, is to hear the news.",
    "spoiler": 0
   },
   {
    "title": "The Captain's Reaction",
-   "body": "Vimes takes \"missing\" to be Tesoran's kind word for traitor. Vimes is sure Reethe is one of the fools whose loyalty to Admiral Daelin is blind enough to make them turn traitor, and finds a bitter irony in it, since the deserters accuse Theramore of betraying the Alliance.",
+   "body": "Captain Garran Vimes takes “missing” as Tesoran's kind word for traitor. He is sure Reethe is one of the fools whose blind loyalty to Admiral Daelin makes them turn traitor. Vimes sees bitter irony in this, since the deserters accuse Theramore of betraying the Alliance.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "tesoran",
     "who gives daelins men"
    ],
-   "answer": "Adjutant Tesoran is the one who looked up Lieutenant Paval Reethe in the guard's records and read out what they say."
+   "answer": "Adjutant Tesoran searched the guard's records for Lieutenant Paval Reethe and read out what they say."
   },
   {
    "q": "What do the records say about Paval Reethe?",
@@ -50,7 +50,7 @@
     "reethe record",
     "paval reethe history"
    ],
-   "answer": "Reethe signed up with the Kul Tiras marines at sixteen, earned promotions through distinguished service, and later joined the Theramore guard among the recruits who sailed over with Lady Proudmoore. The record ends by listing Reethe as missing."
+   "answer": "Lieutenant Paval Reethe enlisted in the Kul Tiras marines at sixteen, earned promotions through distinguished service, and later joined the Theramore guard with the recruits who sailed over with Lady Proudmoore. The record ends by listing Reethe as missing."
   },
   {
    "q": "Who gets the news about Reethe?",
@@ -58,7 +58,7 @@
     "why return to vimes",
     "garran vimes reethe"
    ],
-   "answer": "Captain Garran Vimes, in Theramore."
+   "answer": "Captain Garran Vimes gets the news in Theramore."
   }
  ],
  "angles": [],
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Classic quest text: Daelin's Men"
- ]
+ ],
+ "style": 2
 }

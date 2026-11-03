@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Razor Hill"
  },
- "summary": "Razor Hill links the Valley of Trials, the Barrens, and Orgrimmar at a crossroads in central Durotar. Its fortified barracks train young orc and troll warriors for life in the wilderness.",
+ "summary": "At Razor Hill, young orc and troll warriors train before setting out into Durotar. The fortified barracks stand at a crossroads linking the Valley of Trials, the Barrens, and Orgrimmar.",
  "sections": [
   {
    "title": "Heart of Durotar",
-   "body": "Razor Hill joins northern Durotar to the southern coast and the Barrens across the Southfury River. Stone-and-timber barracks and orcish burrows fill the settlement, founded early in Durotar's settlement. After the Third War, human forces from Kul Tiras lured the Horde here with a false offer of an emissary summit. Rexxar went in Thrall's stead and stopped their ambush. Razor Hill now stands fortified against further attacks from the coast.",
+   "body": "Razor Hill joins northern Durotar to the southern coast and the Barrens across the Southfury River. Stone-and-timber barracks and orcish burrows fill the settlement, founded early in Durotar's settlement. After the Third War, human forces from Kul Tiras lured the Horde here with a false offer of an emissary summit. Rexxar went in Thrall's stead and stopped their ambush. Razor Hill is fortified now against further attacks from the coast.",
    "spoiler": 0
   },
   {
    "title": "Watch on the Frontier",
-   "body": "Veteran officers such as Gar'Thok direct Razor Hill's defenses against threats nearby. Human marines still hold Tiragarde Keep on the eastern shore, while quilboar and harpy tribes harass supply lines. Investigators such as Orgnil Soulscar track the Burning Blade cult, whose rituals and corrupted agents lurk in the nearby crags, and work to stamp them out.",
+   "body": "Veteran officers such as Gar'Thok direct Razor Hill's defenses against nearby threats. Human marines still hold Tiragarde Keep on the eastern shore, while quilboar and harpy tribes harass supply lines. Investigators such as Orgnil Soulscar track the Burning Blade cult. Its rituals and corrupted agents lurk in nearby crags, and the investigators work to stamp them out.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "razor hill purpose",
     "what is razor hill"
    ],
-   "answer": "Razor Hill is Durotar's main administrative and defensive outpost. It links the southern shores and Valley of Trials with Orgrimmar to the north and the Barrens to the west, and supplies and trains young adventurers."
+   "answer": "Razor Hill is Durotar's main administrative and defensive outpost. It links the southern shores and Valley of Trials with Orgrimmar to the north and the Barrens to the west. It also supplies and trains young adventurers."
   },
   {
    "q": "What happened here during the Kul Tiras invasion?",
@@ -37,7 +37,7 @@
     "rexxar razor hill",
     "what happened at razor hill summit"
    ],
-   "answer": "After the Third War, Kul Tiras forces offered Warchief Thrall a peaceful summit at Razor Hill. Rexxar suspected treachery, went in Thrall's place, uncovered the ambush, and defeated the human assassins."
+   "answer": "After the Third War, Kul Tiras forces offered Warchief Thrall a peaceful summit at Razor Hill. Rexxar suspected treachery and went in Thrall's place. He uncovered the ambush and defeated the human assassins."
   },
   {
    "q": "Who commands the settlement?",
@@ -46,7 +46,7 @@
     "who runs razor hill",
     "gar'thok"
    ],
-   "answer": "The orc veteran Gar'Thok commands Razor Hill's garrison from the town barracks and oversees patrols against human remnants and local wild beasts."
+   "answer": "The orc veteran Gar'Thok commands Razor Hill's garrison from the town barracks. He oversees patrols against human remnants and local wild beasts."
   },
   {
    "q": "What is the Burning Blade doing near Razor Hill?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde soldiers, Razor Hill is the first true town after the training grounds, where young recruits set out to prove their loyalty to Thrall's new nation."
+   "text": "For Horde soldiers, Razor Hill is the first true town after the training grounds. Here, young recruits set out to prove their loyalty to Thrall's new nation."
   },
   {
    "target": "race:Orc",
@@ -90,5 +90,5 @@
  "attribution": [
   "Razor Hill"
  ],
- "style": 1
+ "style": 2
 }

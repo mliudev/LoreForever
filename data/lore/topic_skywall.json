@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Skywall"
  },
- "summary": "Skywall is the vast, storm-swept domain of the air elementals within the Elemental Plane. Banished here by the titans in ancient days, the creatures of wind, cloud, and lightning dwell under the reign of Al'Akir the Windlord.",
+ "summary": "Within the Elemental Plane, Al'Akir rules Skywall and its air elementals. The titans banished them there long ago, to a realm of wind, cloud, and lightning.",
  "sections": [
   {
    "title": "A Prison in the Heavens",
-   "body": "When the titans overthrew the Old Gods eons ago, they crafted the Elemental Plane as a secure dimensional prison to contain Azeroth's unruly elemental spirits. The lords of the elements fought fiercely amongst themselves, ultimately carving out distinct dominions. The realm of wind and storm became known as Skywall, ruled by Al'Akir the Windlord. While sealed away from the surface world, its tempests continue to swirl in eternal isolation.",
+   "body": "The titans made the Elemental Plane a prison for Azeroth's unruly elemental spirits. After overthrowing the Old Gods, they sealed the spirits away from the surface world. The elemental lords fought among themselves and carved out separate dominions. Al'Akir the Windlord rules Skywall, where tempests still swirl in isolation.",
    "spoiler": 0
   },
   {
    "title": "The War of Elements",
-   "body": "Banishment did not end the ancient animosity between the elemental rulers. Skywall has long waged border disputes against neighboring realms like the Firelands. One of the most infamous clashes was the Elemental Sundering, wherein Prince Thunderaan the Windseeker was ambushed and betrayed by Garr and Baron Geddon, the chief lieutenants of Ragnaros the Firelord. Ragnaros devoured the prince's essence and bound the fragments into a shattered talisman.",
+   "body": "Old feuds followed the elemental lords into exile. Skywall has long fought over its borders with nearby realms, including the Firelands. During the Elemental Sundering, Garr and Baron Geddon, chief lieutenants of Ragnaros the Firelord, ambushed and betrayed Prince Thunderaan the Windseeker. Ragnaros devoured the prince's essence and bound its fragments in a shattered talisman.",
    "spoiler": 0
   },
   {
    "title": "Isles of the Mist",
-   "body": "Skywall is not composed solely of raging gales and djinn citadels. Among the cloudbanks drifts Zephras Isle, a sanctuary inhabited by the Shen'dorei. Mortals on Azeroth rarely pierce the veil into the domain of air, though reckless spellcasters and weapon-crafters across history have courted disaster attempting to siphon the living storms of the Windlord.",
+   "body": "Beyond gales and djinn citadels, Zephras Isle drifts among Skywall's cloudbanks. The isle is a sanctuary inhabited by the Shen'dorei. Mortals on Azeroth rarely pierce the veil into the air realm. Across history, reckless spellcasters and weapon-crafters have risked disaster to siphon the Windlord's living storms.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "skywall lore",
     "domain of air"
    ],
-   "answer": "Skywall is the dominion of air elementals located within the dimensional Elemental Plane. Created by the titans to imprison the servants of the Old Gods, it is a realm formed entirely of endless skies, storms, clouds, and lightning."
+   "answer": "Within the Elemental Plane, Skywall is the air elementals' dominion. The titans made that prison for the servants of the Old Gods, and its skies hold storms, clouds, and lightning."
   },
   {
    "q": "Who rules Skywall?",
@@ -42,7 +42,7 @@
     "skywall boss",
     "ruler of air"
    ],
-   "answer": "Skywall is ruled by Al'Akir the Windlord, the supreme Elemental Lord of air. From within his tempestuous kingdom, he holds dominion over the djinn, cyclones, and living storms."
+   "answer": "Al'Akir the Windlord rules Skywall as the supreme Elemental Lord of air. Djinn, cyclones, and living storms fall within his dominion."
   },
   {
    "q": "How was Skywall created?",
@@ -50,7 +50,7 @@
     "origin of skywall",
     "how was skywall made"
    ],
-   "answer": "After defeating the Old Gods in Azeroth's primordial past, the titan-forged fashioned the Elemental Plane to seal away the chaotic elementals. Within this dimensional prison, the air elementals seized their own vast territory, which became Skywall."
+   "answer": "After defeating the Old Gods, the titans fashioned the Elemental Plane to imprison the chaotic elementals. The air elementals claimed a vast territory there, which became Skywall."
   },
   {
    "q": "What happened to Prince Thunderaan?",
@@ -59,7 +59,7 @@
     "what happened to thunderaan",
     "windseeker fate"
    ],
-   "answer": "During the Elemental Sundering, Prince Thunderaan was ambushed by Ragnaros the Firelord's lieutenants, Garr and Baron Geddon. Ragnaros consumed the air prince's essence and imprisoned what remained in a shattered talisman of elemental binding."
+   "answer": "During the Elemental Sundering, Garr and Baron Geddon, Ragnaros the Firelord's lieutenants, ambushed Prince Thunderaan. Ragnaros consumed the air prince's essence and bound its remains in a shattered talisman of elemental binding."
   },
   {
    "q": "Who lives in Skywall?",
@@ -68,7 +68,7 @@
     "skywall denizens",
     "who is in skywall"
    ],
-   "answer": "Skywall is populated by air elementals, powerful djinn lords, lightning revenants, and elemental storm drakes. It is also home to Zephras Isle, a sanctuary where the Shen'dorei dwell."
+   "answer": "Air elementals, powerful djinn lords, lightning revenants, and elemental storm drakes live in Skywall. The Shen'dorei dwell in a sanctuary on Zephras Isle."
   },
   {
    "q": "Can mortals reach Skywall?",
@@ -77,17 +77,17 @@
     "travel to skywall",
     "skywall portal"
    ],
-   "answer": "Mortals cannot easily reach Skywall, as it exists in a separate dimensional prison. Historically, only powerful sorcerers manipulating elemental rifts or those seeking the isolated Shen'dorei on Zephras Isle have touched its skies."
+   "answer": "Skywall lies within a separate dimensional prison, and mortals rarely reach it. Powerful sorcerers have manipulated elemental rifts to enter, while others have sought the isolated Shen'dorei on Zephras Isle."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Skywall is the primordial source of the raw, violent winds and lightning that shamans revere and beseech when communing with the spirits of air."
+   "text": "As a shaman, you revere Skywall's raw winds and lightning, and beseech them when you commune with the spirits of air."
   },
   {
    "target": "class:Mage",
-   "text": "Conjurors and arcanists have historically sought to tap the boundless atmospheric energies of Skywall, though such attempts to siphon Al'Akir's tempests often end in ruin."
+   "text": "As a mage, you follow the long history of arcanists seeking Skywall's boundless atmospheric power. Attempts to siphon Al'Akir's tempests often end in ruin."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Skywall"
- ]
+ ],
+ "style": 2
 }

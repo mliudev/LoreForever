@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Addle's Stead"
  },
- "summary": "In southwestern Duskwood, Addle's Stead lies abandoned south of Raven Hill. Its first homesteaders fled long ago, and the Defias Brotherhood now uses the farm as a hidden staging ground.",
+ "summary": "In southwestern Duskwood, Addle's Stead lies abandoned south of Raven Hill. Its first homesteaders fled long ago. Now the Defias Brotherhood uses the farm as a hidden staging ground.",
  "sections": [
   {
    "title": "A Outpost in the Dark",
-   "body": "Addle's Stead fell into ruin when darkness overtook Duskwood. The Defias Brotherhood now uses the old farm. Its agents watch the perimeter and lurk in the farmhouse, while supplies fill the barn. Southwestern Duskwood's shadows help them evade the Night Watch and Stormwind authorities.",
+   "body": "Addle's Stead lies in ruin beneath Duskwood's darkness. The Defias Brotherhood now uses the old farm. Agents watch the perimeter and lurk in the farmhouse, while supplies fill the barn. Shadows in southwestern Duskwood help them evade the Night Watch and Stormwind authorities.",
    "spoiler": 0
   },
   {
    "title": "Tangled in the King's Disappearance",
-   "body": "Addle's Stead holds more than a bandit hideout. The Defias Brotherhood keeps sensitive records here, including documents and dockets that link regional conspirators to King Varian Wrynn's disappearance. Those papers make the ruined farm a thread to follow in uncovering treason within the Alliance.",
+   "body": "Addle's Stead holds more than a bandit hideout. The Defias Brotherhood keeps sensitive records there, including documents and dockets linking regional conspirators to King Varian Wrynn's disappearance. Those papers make the ruined farm a thread to follow in uncovering treason within the Alliance.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "who was addle",
     "why is addles stead ruined"
    ],
-   "answer": "The farm's original inhabitants fled when a curse of darkness, beasts, and undead overtook Duskwood and drove common folk away."
+   "answer": "The farm's first inhabitants fled when a curse of darkness, beasts, and undead overtook Duskwood and drove common folk away."
   },
   {
    "q": "What brings Alliance adventurers to Addle's Stead?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Addle's Stead"
  ],
- "style": 1
+ "style": 2
 }

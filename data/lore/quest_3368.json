@@ -24,16 +24,16 @@
    "Suntara Stones"
   ]
  },
- "summary": "A singed letter that Dorius let fall is written to his brother. It tells of the Suntara stones, which are real and in the hands of the Dark Irons, whose leader Lathoric the Black uses their power to enslave Dorius's excavation team. It is meant for Thorius at the Hall of Explorers in Ironforge, and you are the one to carry it there.",
+ "summary": "At the Suntara Stones, Dorius's letter tells of a team enslaved by the Dark Irons. The stones are real and held by the Dark Irons. Their leader, Lathoric the Black, uses the stones' power to enslave Dorius's excavation team. You carry the letter to his brother Thorius at Ironforge's Hall of Explorers.",
  "sections": [
   {
    "title": "The Dead Man's Letter",
-   "body": "In the letter, Dorius writes to his brother that if it is being read, he is gone. The stones exist, and the Dark Irons hold them. Their leader, Lathoric the Black, uses their power to enslave Dorius's excavation team. The team was taken to the cauldron, and their minds are twisted as they toil by day and by night to finish something called Obsidion. Dorius begs his brother to help them, his final wish, and asks that those who bring the letter be thanked.",
+   "body": "Dorius's letter tells his brother he is gone if the message is being read. The Suntara Stones are real, and the Dark Irons hold them. Their leader, Lathoric the Black, uses their power to enslave Dorius's excavation team. The team was taken to the cauldron, where their minds are twisted as they toil day and night to finish something called Obsidion. Dorius begs his brother to help them. He calls it his final wish and asks that those who bring the letter be thanked.",
    "spoiler": 0
   },
   {
    "title": "Thorius Hears the News",
-   "body": "Thorius sobs as the letter is brought. Then Thorius dries his face and swears in the name of the Light that Dorius will have his wish.",
+   "body": "Curator Thorius sobs when Dorius's letter arrives. Then he dries his face and swears by the Light that Dorius will have his wish.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "author of singed letter",
     "dorius letter"
    ],
-   "answer": "Dorius wrote it to his brother, as a message to be read after his death."
+   "answer": "Dorius wrote the singed letter to his brother, to be read after his death."
   },
   {
    "q": "Where does Thorius reside?",
@@ -54,7 +54,7 @@
     "curator thorius location",
     "thorius hall of explorers"
    ],
-   "answer": "Curator Thorius can be found in the Hall of Explorers in Ironforge."
+   "answer": "Curator Thorius resides in Ironforge's Hall of Explorers."
   },
   {
    "q": "What happened to Dorius's excavation team?",
@@ -63,7 +63,7 @@
     "dorius excavation team",
     "enslaved miners cauldron"
    ],
-   "answer": "The letter says Lathoric the Black and the Dark Irons are using the stones to enslave them. They were taken to the cauldron."
+   "answer": "The letter says Lathoric the Black and the Dark Irons use the stones' power to enslave Dorius's excavation team. They took the team to the cauldron."
   },
   {
    "q": "What is the enslaved team working on?",
@@ -72,7 +72,7 @@
     "cauldron excavation project",
     "dark iron project obsidion"
    ],
-   "answer": "The letter says their minds are twisted, and they toil by day and by night on something called Obsidion."
+   "answer": "The letter says the team's minds are twisted as they toil day and night on something called Obsidion."
   },
   {
    "q": "Who is Lathoric the Black?",
@@ -81,7 +81,7 @@
     "lathoric the black",
     "dark iron leader searing gorge"
    ],
-   "answer": "The letter names him as the leader of the Dark Irons, who hold the Suntara stones and use their power to enslave Dorius's team."
+   "answer": "The letter names Lathoric the Black as the leader of the Dark Irons. They hold the Suntara Stones and use their power to enslave Dorius's team."
   },
   {
    "q": "How does this follow the earlier Suntara Stones?",
@@ -89,7 +89,7 @@
     "previous suntara stones quest",
     "suntara stones chain"
    ],
-   "answer": "It follows the first Suntara Stones, where Dorius was shot and the letter fell from Dorius. The letter is to be carried to Ironforge."
+   "answer": "The first Suntara Stones tells how Dorius was shot and the letter fell from him. You carry the letter to Ironforge."
   }
  ],
  "angles": [],
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Suntara Stones (2)"
- ]
+ ],
+ "style": 2
 }

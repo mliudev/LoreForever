@@ -8,16 +8,16 @@
   "wiki": "Zevrost",
   "refs": 1
  },
- "summary": "In Orgrimmar’s Cleft of Shadow, Zevrost trains warlocks in fel magic. He guides Horde initiates through summoning rites and the handling of dark artifacts.",
+ "summary": "In Orgrimmar’s Cleft of Shadow, Zevrost guides Horde initiates through fel magic. He teaches summoning rites and the handling of dark artifacts.",
  "sections": [
   {
    "title": "Master of the Dark Arts",
-   "body": "In the Cleft of Shadow beneath Orgrimmar, Zevrost is one of the chief mentors for Horde warlocks in Thrall’s capital. Orcs remain wary of fel magic after their past demonic corruption, so practitioners work under strict watch. Zevrost teaches the discipline needed to command demons without yielding to their corruption. He says fel ruins only those who lack inner strength.",
+   "body": "Beneath Orgrimmar, the Cleft of Shadow is where Zevrost mentors warlocks in Thrall’s capital. Orcs remember the demonic corruption of their past, so fel practitioners work under strict watch. Zevrost teaches them the discipline to command demons without yielding to corruption. He says fel ruins only those who lack inner strength.",
    "spoiler": 0
   },
   {
    "title": "Guiding the Ambitious",
-   "body": "Zevrost guides warlocks beyond spells and curses, opening the way to greater dark undertakings. Initiates seeking advanced implements such as the Orb of Orahil, or the means to summon a fiery Felsteed, often come through his hands. He sends ambitious practitioners to other masters, including Menara Voidrender in the Barrens, so they can push their command of shadow magic to its limits.",
+   "body": "Zevrost guides warlocks beyond spells and curses toward greater dark undertakings. Initiates seeking implements such as the Orb of Orahil or the means to summon a fiery Felsteed often come through his hands. For further study, he sends ambitious practitioners to other masters, including Menara Voidrender in the Barrens. There they can push their command of shadow magic to its limits.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why are warlocks allowed in orgrimmar",
     "warlock cleft of shadow"
    ],
-   "answer": "Thrall’s Horde permits warlocks to practice in the secluded Cleft of Shadow under strict watch. Orcs remember the corruption brought by demon blood, yet the Horde values the ruthless power warlocks can bring against its enemies."
+   "answer": "Thrall’s Horde permits warlocks to practice under strict watch in the secluded Cleft of Shadow. Orcs remember the corruption brought by demon blood, yet the Horde values the ruthless power warlocks can bring against its enemies."
   },
   {
    "q": "What is Zevrost's philosophy on demonic magic?",
@@ -54,7 +54,7 @@
     "zevrost quote",
     "zevrost belief"
    ],
-   "answer": "Zevrost believes dark and arcane energies corrupt only those who are weak of will. He urges his students to study with strict discipline, lest they succumb to the destructive forces they command."
+   "answer": "Zevrost believes dark and arcane energies corrupt only those weak of will. He urges his students to study with strict discipline, lest they succumb to the destructive forces they command."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Zevrost"
  ],
- "style": 1
+ "style": 2
 }

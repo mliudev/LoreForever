@@ -10,11 +10,11 @@
    "quest:1485"
   ]
  },
- "summary": "Near the Burning Blade Coven, Vile Familiar Heads mark a grim test for young Horde warlocks. Under Ruzan's guidance, they gather the gruesome trophies as proof of readiness to bind their first demonic minions. The test demands discipline and respect for the lethality of the beings they mean to summon.",
+ "summary": "Near the Burning Blade Coven, Vile Familiar Heads test young Horde warlocks. Under Ruzan's guidance, novices gather six gruesome trophies to prove they are ready to bind their first demonic minions. The trial calls for discipline and respect for the danger of the beings they mean to summon.",
  "sections": [
   {
    "title": "A Gruesome Lesson in Demonology",
-   "body": "In the sun-baked canyon of the Valley of Trials, Ruzan asks novices seeking to learn summoning to bring him six Vile Familiar Heads. Vile familiars are fiery imps with dangerous elemental cunning, found outside the Burning Blade Coven. Novices must face and defeat them, proving they can subdue demonic life rather than be overcome by it. Warlocks are barely tolerated within Thrall's Horde, so their training calls for care. A novice slain by a conjured creature only deepens the dishonor and suspicion cast upon practitioners of the dark arts.",
+   "body": "In the Valley of Trials, Ruzan asks novices who seek to learn summoning to bring him six Vile Familiar Heads. The fiery imps called vile familiars lurk outside the Burning Blade Coven. Their elemental cunning makes them dangerous foes. To pass, novices must face and defeat them, proving they can master demonic life rather than be overcome by it.\n\nWarlocks are barely tolerated within Thrall's Horde, so their training demands care. A novice slain by a conjured creature would deepen the dishonor and suspicion cast upon those who practice the dark arts.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "ruzan motive",
     "why kill familiars first"
    ],
-   "answer": "Ruzan expects a warlock to overpower a creature before summoning it. Imps are deceptive and throw volatile fire, so defeating them face-to-face teaches apprentices the danger of the demons they mean to command."
+   "answer": "Ruzan expects a warlock to overpower a creature before summoning it. Imps deceive their foes and hurl volatile fire, so defeating them face-to-face teaches apprentices the danger of the demons they mean to command."
   },
   {
    "q": "How does the Horde view warlocks who collect such trophies?",
@@ -88,5 +88,5 @@
   "Vile Familiar Head",
   "Vile Familiars (Warlock)"
  ],
- "style": 1
+ "style": 2
 }

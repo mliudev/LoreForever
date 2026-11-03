@@ -8,16 +8,16 @@
   "wiki": "Iverron",
   "refs": 3
  },
- "summary": "In Shadowglen, Iverron lies stricken by spider venom. His plight warns of growing corruption within Teldrassil.",
+ "summary": "In Shadowglen, Iverron lies stricken by spider venom. His plight points to a growing corruption within Teldrassil.",
  "sections": [
   {
    "title": "A Bitter Bite",
-   "body": "Iverron wandered beneath Shadowglen’s quiet canopies when webwood spiders bit him. Their venom left the young night elf unable to return to safety on his own. The spiders once shared the glade in peace, but now they grow increasingly aggressive.",
+   "body": "Webwood spiders bit Iverron beneath Shadowglen’s quiet canopies. Their venom left the young night elf unable to reach safety alone. Once, the spiders shared the glade in peace. Now they grow more aggressive.",
    "spoiler": 0
   },
   {
    "title": "Desperate Remedies",
-   "body": "Iverron’s companions and local healers seek a cure using hyacinth mushrooms, moonpetal lilies, and webwood ichor. Together, these woodland ingredients make an antidote. His survival depends on their swift work.",
+   "body": "Iverron’s companions and local healers seek a cure with hyacinth mushrooms, moonpetal lilies, and webwood ichor. Together, these woodland ingredients make an antidote. His survival rests on how swiftly they can prepare it.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is iverron",
     "iverron night elf"
    ],
-   "answer": "Iverron is a young night elf in Shadowglen, within Teldrassil. Poisonous creatures bit him as he wandered the woodland, and he needs urgent aid to survive."
+   "answer": "Iverron is a young night elf in Shadowglen, within Teldrassil. Webwood spiders bit him as he wandered the woodland, and he needs urgent aid to survive."
   },
   {
    "q": "What poisoned Iverron?",
@@ -38,7 +38,7 @@
     "what bit iverron",
     "iverron poison"
    ],
-   "answer": "Aggressive webwood spiders in Shadowglen bit Iverron and poisoned him with debilitating venom."
+   "answer": "Aggressive webwood spiders bit Iverron in Shadowglen and poisoned him with debilitating venom."
   },
   {
    "q": "How is Iverron cured?",
@@ -47,7 +47,7 @@
     "iverron antidote",
     "saving iverron"
    ],
-   "answer": "Iverron is cured with an antidote made from hyacinth mushrooms, moonpetal lilies, and webwood ichor from the spiders."
+   "answer": "An antidote made from hyacinth mushrooms, moonpetal lilies, and webwood ichor from the spiders cures Iverron."
   },
   {
    "q": "Where can Iverron be found?",
@@ -65,7 +65,7 @@
     "iverron friends",
     "dentaria silverglade iverron"
    ],
-   "answer": "Iverron’s friend Dirania Silvershine asks for help gathering antidote ingredients, then asks that the antidote be brought back to him before it loses its potency."
+   "answer": "Iverron’s friend Dirania Silvershine asks for help gathering antidote ingredients. Then she asks that the antidote be brought back to him before it loses its potency."
   },
   {
    "q": "Why are the spiders in Shadowglen so hostile?",
@@ -73,7 +73,7 @@
     "why spiders attack",
     "teldrassil spider corruption"
    ],
-   "answer": "Shadowglen’s spiders have grown hostile as part of an unnatural malady spreading through Teldrassil. It warps normally reclusive beasts into violent predators."
+   "answer": "An unnatural malady spreading through Teldrassil has made Shadowglen’s spiders hostile. It warps normally reclusive beasts into violent predators."
   }
  ],
  "angles": [
@@ -83,11 +83,11 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid studying in Shadowglen, you can see Iverron’s poisoning as a symptom of a deeper affliction gripping nature. The remedy draws on the glade’s flora and fauna."
+   "text": "As a druid studying in Shadowglen, you can see Iverron’s poisoning as a sign of a deeper affliction gripping nature. The remedy draws on the glade’s flora and fauna."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you can help preserve life by gathering Shadowglen’s plants quickly; Iverron’s survival depends on it."
+   "text": "As an herbalist, you can help preserve life by gathering Shadowglen’s plants quickly. Iverron’s survival depends on it."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Iverron"
  ],
- "style": 1
+ "style": 2
 }

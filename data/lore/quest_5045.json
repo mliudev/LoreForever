@@ -25,16 +25,16 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "At Camp Taurajo, Mangletooth offers a ritual blessing drawn from Agamaggan's ancient power. Bring blood shards taken from his Bristleback rivals, and he strengthens your will and spirit.",
+ "summary": "At Camp Taurajo, Mangletooth offers you an old blessing drawn from Agamaggan's power. Bring blood shards taken from his Bristleback rivals, and he will strengthen your will and spirit.",
  "sections": [
   {
    "title": "Willpower of the Razormane",
-   "body": "Held in a cage at Camp Taurajo, Mangletooth knows the geomancy and ancestral magic of the quilboar. He takes pride in his people's devotion to their creator, the Great Boar Agamaggan. To Mangletooth, an unbroken spirit carries a warrior onward when strength fails and defeat seems near.",
+   "body": "In a cage at Camp Taurajo, Mangletooth knows the geomancy and ancestral magic of the quilboar. He takes pride in his people's devotion to their creator, the Great Boar Agamaggan. To Mangletooth, an unbroken spirit carries a warrior onward when strength fails and defeat draws near.",
    "spoiler": 0
   },
   {
    "title": "The Power of Blood Shards",
-   "body": "Mangletooth asks for blood shards to raise your spirit. These crystals hold Agamaggan's ancient blood, which seeped into the red earth ten thousand years ago. Bring him shards gathered across the Barrens, especially from his Bristleback enemies, and he can channel their power into a blessing that bolsters your will.",
+   "body": "Mangletooth asks you for blood shards to raise your spirit. These crystals hold Agamaggan's ancient blood, which seeped into the red earth ten thousand years ago. Bring shards gathered across the Barrens, especially from his Bristleback enemies. Then Mangletooth can channel their power into a blessing that strengthens your will.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "blood shard lore",
     "agamaggan blood"
    ],
-   "answer": "Blood shards are red mineral crystals formed from the blood of Agamaggan, an Ancient Demigod who died in the Barrens during the War of the Ancients. Quilboar shamans and geomancers draw on their lingering magic for boons and rituals."
+   "answer": "Blood shards are red mineral crystals formed from the blood of Agamaggan, an Ancient Demigod who died in the Barrens during the War of the Ancients. Quilboar shamans and geomancers draw on their lingering magic for blessings and rites."
   },
   {
    "q": "Why does Mangletooth help Horde adventurers?",
@@ -71,7 +71,7 @@
     "rising spirit buff",
     "what is rising spirit"
    ],
-   "answer": "The Rising Spirit blessing from Mangletooth strengthens a warrior's spirit and resolve. It draws on Agamaggan's enduring life force to keep hope alive through hard encounters."
+   "answer": "Mangletooth's Rising Spirit blessing strengthens a warrior's spirit and resolve. It draws on Agamaggan's enduring life force to keep hope alive through hard encounters."
   },
   {
    "q": "Who is Agamaggan?",
@@ -93,7 +93,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you may recognize the quilboar's communion with Agamaggan as a raw expression of faith and spirit, rivaling the organized devotions of eastern churches."
+   "text": "As a priest, you may see the quilboar's communion with Agamaggan as a raw expression of faith and spirit, rivaling the ordered devotions of eastern churches."
   },
   {
    "target": "class:Shaman",
@@ -101,7 +101,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde wanderer in the Barrens, you can turn Mangletooth's hatred of the Bristlebacks into a tactical advantage."
+   "text": "As a Horde wanderer in the Barrens, you can turn Mangletooth's hatred of the Bristlebacks to your advantage."
   }
  ],
  "keywords": [
@@ -127,5 +127,5 @@
  "attribution": [
   "Rising Spirit"
  ],
- "style": 1
+ "style": 2
 }

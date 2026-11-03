@@ -17,16 +17,16 @@
   "wiki": "Journey to the Crossroads",
   "chain": []
  },
- "summary": "At Camp Taurajo, Kirge Sternhorn sends travelers north to aid Thork at the Crossroads. The journey carries them from Mulgore into the Barrens and the wider struggles of the Horde.",
+ "summary": "At Camp Taurajo, Kirge Sternhorn sends travelers north to aid Thork at the Crossroads. Their road leads from Mulgore into the Barrens, where the Horde’s struggles widen.",
  "sections": [
   {
    "title": "Leaving the Cradle",
-   "body": "Camp Taurajo is where many tauren first face the Barrens beyond Mulgore. Just past the mountain pass, mystic Kirge Sternhorn watches travelers descend into the dry grasslands. When Sternhorn sees that a traveler is ready to go farther, Kirge points north along the dusty trade route toward the Crossroads.",
+   "body": "At Camp Taurajo, many tauren first meet the Barrens beyond Mulgore. Just beyond the mountain pass, mystic Kirge Sternhorn watches travelers descend into the dry grasslands. When Kirge sees one ready to go farther, Kirge points north along the dusty trade route to the Crossroads.",
    "spoiler": 0
   },
   {
    "title": "A Shared Bond",
-   "body": "The tauren of Thunder Bluff and Thrall's new Horde now share their fortunes. Kirge says the two peoples' fates are bound together, and orcs at the Crossroads need reinforcements as they struggle to establish an outpost. At the settlement, Thork welcomes travelers from even the high bluffs, ready to test their strength against the dangers of the savanna.",
+   "body": "The tauren of Thunder Bluff and Thrall’s new Horde now share their fortunes. Kirge says their fates are bound together, and orcs at the Crossroads need reinforcements as they struggle to establish an outpost. At the settlement, Thork welcomes travelers from even the high bluffs. He is ready to test their strength against the dangers of the savanna.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "crossroads purpose",
     "why send me to orcs"
    ],
-   "answer": "Kirge Sternhorn sees that a traveler is ready for greater trials and knows tauren and orcs now share an intertwined fate. The orcish garrison at the Crossroads faces constant pressure from local threats and needs capable allies."
+   "answer": "Kirge Sternhorn sees a traveler ready for greater trials and knows tauren and orcs now share an intertwined fate. The orcish garrison at the Crossroads faces constant pressure from local threats and needs capable allies."
   },
   {
    "q": "What is the Crossroads?",
@@ -65,7 +65,7 @@
     "crossroads settlement",
     "barrens hub"
    ],
-   "answer": "The Crossroads is the Horde's main strategic hub and trading post in central Kalimdor. Major north-south and east-west trails meet there, and the settlement is a base for bringing order to the wild frontier."
+   "answer": "The Crossroads is the Horde’s main strategic hub and trading post in central Kalimdor. North-south and east-west trails meet there, and the settlement is a base for bringing order to the wild frontier."
   },
   {
    "q": "Do only tauren receive this task?",
@@ -87,15 +87,15 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you leave the shelter of the Earthmother's sacred mesa and enter the wider struggles of the Horde."
+   "text": "As a tauren, you leave the shelter of the Earthmother’s sacred mesa and enter the wider struggles of the Horde."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know Thork needs reinforcements from the south to hold the ground Thrall's scouts have secured across the Barrens."
+   "text": "As an orc, you know Thork needs reinforcements from the south to hold the ground Thrall’s scouts have secured across the Barrens."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see cooperation grow between the tribes of Thunder Bluff and the warchief's vanguard in central Kalimdor."
+   "text": "As a member of the Horde, you see cooperation grow between the tribes of Thunder Bluff and the warchief’s vanguard in central Kalimdor."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Journey to the Crossroads"
  ],
- "style": 1
+ "style": 2
 }

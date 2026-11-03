@@ -10,11 +10,11 @@
    "quest:101"
   ]
  },
- "summary": "In Duskwood, Skeleton Finger is gathered from the restless dead. Madame Eva of Darkshire collects these remains with ghoul fangs and spider venom to make protective talismans.",
+ "summary": "In Duskwood, restless dead yield Skeleton Finger to Madame Eva of Darkshire. She gathers them with ghoul fangs and spider venom to make protective talismans.",
  "sections": [
   {
    "title": "Bones of the Restless",
-   "body": "The dead rise throughout Duskwood, from skeletal raiders and warriors to necrotic mages and fiends. Most travelers leave their foul remains untouched, but fortune tellers and mystics prize their cold essence. Madame Eva, the seer of Darkshire, gathers the bony fingers to bind their lingering necrotic energies into the Totem of Infliction, a ward that strikes back at attackers.",
+   "body": "Skeletal raiders and warriors rise across Duskwood, along with necrotic mages and fiends. Most travelers leave their foul remains alone, but fortune tellers and mystics prize their cold essence. Madame Eva, the seer of Darkshire, gathers their bony fingers for the Totem of Infliction. She binds their lingering necrotic energies into a ward that strikes back at attackers.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what drops skeleton fingers",
     "skeleton finger source"
    ],
-   "answer": "Skeletal Raiders, Healers, Warders, Warriors, Horrors, Fiends, and Skeletal Mages across Duskwood yield Skeleton Fingers."
+   "answer": "Skeleton Fingers come from Skeletal Raiders, Healers, Warders, Warriors, Horrors, Fiends, and Skeletal Mages across Duskwood."
   },
   {
    "q": "Who wants Skeleton Fingers in Duskwood?",
@@ -35,7 +35,7 @@
     "skeleton finger quest giver",
     "what are skeleton fingers for"
    ],
-   "answer": "Madame Eva, the seer of Darkshire, needs Skeleton Fingers for a protective ward."
+   "answer": "Madame Eva, the seer of Darkshire, needs Skeleton Fingers to make a protective ward."
   },
   {
    "q": "What is the Totem of Infliction?",
@@ -43,7 +43,7 @@
     "totem of infliction purpose",
     "what does madame eva make"
    ],
-   "answer": "The Totem of Infliction is a ward Madame Eva makes from skeleton fingers, ghoul fangs, and spider venom. She binds their dark energies into an aura that harms anyone who attacks its bearer."
+   "answer": "Madame Eva makes the Totem of Infliction from skeleton fingers, ghoul fangs, and spider venom. She binds their dark energies into an aura that harms anyone who attacks its bearer."
   },
   {
    "q": "Why does Madame Eva need undead remains for a protective charm?",
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage studying folk divination, you may find Madame Eva's use of skeletal digits and natural venoms for a retaliatory enchantment an unusual blend of hedge witchcraft and sympathetic magic."
+   "text": "As a mage studying folk divination, you may find Madame Eva's use of skeletal digits and natural venoms in a retaliatory enchantment an unusual blend of hedge witchcraft and sympathetic magic."
   },
   {
    "target": "class:Paladin",
@@ -85,5 +85,5 @@
   "Skeleton Finger",
   "The Totem of Infliction"
  ],
- "style": 1
+ "style": 2
 }

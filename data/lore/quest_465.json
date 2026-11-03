@@ -17,21 +17,21 @@
   "wiki": "Nek'rosh's Gambit",
   "chain": []
  },
- "summary": "At Menethil Harbor, Captain Stoutfist fears a Dragonmaw siege. Chieftain Nek'rosh has built engines to bombard the vulnerable port town, while fighting at Dun Algaz cuts off reinforcements. You are sent into the marshes to destroy the catapults before the attack begins.",
+ "summary": "At Menethil Harbor, Captain Stoutfist braces for Nek'rosh's assault. The Dragonmaw chieftain has built catapults to batter the port, while fighting at Dun Algaz blocks reinforcements. You are sent into the marshes to destroy the engines before they reach the town.",
  "sections": [
   {
    "title": "A Looming Siege",
-   "body": "Dwarven scouts uncovered Nek'rosh's plan as Alliance fighters clashed with Dragonmaw raiders. The chieftain has overseen the building of full-scale siege catapults in the Wetlands encampments. He means to bring the engines to Menethil Harbor and batter its fortress walls, threatening the Alliance's main shipping hub on the western coast.",
+   "body": "Dwarven scouts uncovered the plan while Alliance fighters clashed with Dragonmaw raiders. Chieftain Nek'rosh has overseen the building of full-scale siege catapults in the Wetlands encampments. He means to bring them to Menethil Harbor and batter its fortress walls. The attack threatens the Alliance's main shipping hub on the western coast.",
    "spoiler": 0
   },
   {
    "title": "Cut Off at Dun Algaz",
-   "body": "Fighting and greenskin activity have congested the mountain passes at Dun Algaz, isolating the lowlands from Ironforge's main garrisons. Without aid from Khaz Modan, Captain Stoutfist cannot spare troops to guard the harbor's perimeter. Menethil's survival depends on sabotaging the catapults before they can be brought against the town.",
+   "body": "Fighting and greenskin activity clog the mountain passes at Dun Algaz. The lowlands are cut off from Ironforge's main garrisons, so Captain Stoutfist cannot spare troops to guard the harbor's perimeter. Without aid from Khaz Modan, Menethil's survival depends on sabotaging the catapults before they can be brought against the town.",
    "spoiler": 0
   },
   {
    "title": "Fire in the Encampment",
-   "body": "Scouts carry Dwarven Tinder into the heart of the Dragonmaw encampment. They must set the timber catapults ablaze and destroy them, stripping Nek'rosh of his artillery and denying his warriors the firepower to break Menethil's defenses. The engines must be ruined before the warlord himself can be confronted.",
+   "body": "Scouts carry Dwarven Tinder into the heart of the Dragonmaw encampment. There, they must set the timber catapults ablaze and destroy them. This will strip Nek'rosh of his artillery and deny his warriors the firepower to break Menethil's defenses. The engines must be ruined before the warlord can be confronted.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "chieftain nek'rosh",
     "who is nek rosh"
    ],
-   "answer": "Nek'rosh is the ruthless chieftain leading the remnants of the Dragonmaw clan in the Wetlands. He is directing a campaign to besiege Menethil Harbor."
+   "answer": "Nek'rosh leads the remnants of the Dragonmaw clan in the Wetlands. The ruthless chieftain is directing a campaign to besiege Menethil Harbor."
   },
   {
    "q": "Why is Menethil Harbor in such danger?",
@@ -52,7 +52,7 @@
     "why harbor vulnerable",
     "threat to menethil"
    ],
-   "answer": "Menethil Harbor depends on naval trade and lies apart from Ironforge. Fighting congests the passes at Dun Algaz, blocking reinforcements by land and leaving the town unable to withstand a concentrated siege."
+   "answer": "Menethil Harbor depends on naval trade and lies apart from Ironforge. Fighting clogs the passes at Dun Algaz, blocking land reinforcements and leaving the town unable to withstand a concentrated siege."
   },
   {
    "q": "What is the goal of this mission?",
@@ -61,7 +61,7 @@
     "what do i do",
     "catapult mission"
    ],
-   "answer": "You carry Dwarven Tinder into the Dragonmaw encampment to set their siege catapults ablaze and destroy them before they can be brought against Menethil Harbor."
+   "answer": "You carry Dwarven Tinder into the Dragonmaw encampment to burn and destroy their siege catapults before they can be brought against Menethil Harbor."
   },
   {
    "q": "Who issues this assignment?",
@@ -79,7 +79,7 @@
     "next quest",
     "what next"
    ],
-   "answer": "After the catapults are destroyed, the threat must be ended by tracking down and executing Chieftain Nek'rosh himself."
+   "answer": "Once the catapults are destroyed, the threat must be ended by tracking down and executing Chieftain Nek'rosh himself."
   },
   {
    "q": "Why can't Ironforge send troops to help Menethil?",
@@ -88,7 +88,7 @@
     "why no reinforcements",
     "ironforge help"
    ],
-   "answer": "The road from Loch Modan to the Wetlands runs through Dun Algaz. Hostile forces contest and ambush the pass, cutting off reliable ground travel."
+   "answer": "The road from Loch Modan to the Wetlands runs through Dun Algaz. Hostile forces contest and ambush the pass, cutting off reliable travel by land."
   }
  ],
  "angles": [
@@ -98,7 +98,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "With fighting locking down Dun Algaz, the Alliance must depend on brave volunteers to disrupt the Dragonmaw war machine."
+   "text": "With fighting locking down Dun Algaz, the Alliance depends on brave volunteers to disrupt the Dragonmaw war machine."
   },
   {
    "target": "class:Warrior",
@@ -125,5 +125,5 @@
  "attribution": [
   "Nek'rosh's Gambit"
  ],
- "style": 1
+ "style": 2
 }

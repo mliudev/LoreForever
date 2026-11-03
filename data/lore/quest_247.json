@@ -17,16 +17,16 @@
   "wiki": "The Hunt Completed",
   "chain": []
  },
- "summary": "In Ashenvale, the hunt tests a Horde champion against three legendary predators. Felling Ursangous, Shadumbra, and Sharptalon proves strength, tenacity, and primal prowess in a contested forest.",
+ "summary": "In Ashenvale, a Horde champion faces three legendary predators. Ursangous, Shadumbra, and Sharptalon test strength, tenacity, and a hunter's skill in the wild.",
  "sections": [
   {
    "title": "A Hunter's Proof",
-   "body": "Senani Thunderheart tests travelers among the Horde forces in Ashenvale. Her hunt tests more than loyalty to the warchief; it asks whether a hunter understands survival in the wild. Three legendary predators are its quarry: the bear Ursangous, the cat Shadumbra, and the fierce hippogryph Sharptalon. Felling all three and securing their trophies proves a hunter's blood runs true.",
+   "body": "Senani Thunderheart tests travelers among the Horde forces in Ashenvale. Her hunt tests loyalty to the warchief and asks whether a hunter understands survival in the wild. Three legendary predators are its quarry: Ursangous the bear, Shadumbra the cat, and Sharptalon the fierce hippogryph. A hunter must fell all three and secure their trophies to prove their blood runs true.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Ancestors",
-   "body": "For the tauren, hunting is a sacred act of balance and respect, even in an active warfront. Overcoming Ashenvale's greatest terrors honors the spirits of the land and earns a hunter the ancestral blessings of Thunderheart. A formal commendation and token of favor mark the hunt's end, while the champion's reputation spreads throughout the forest.",
+   "body": "For the tauren, hunting is sacred. It honors balance and respect, even in an active warfront. By overcoming Ashenvale's greatest terrors, a hunter honors the spirits of the land and earns Thunderheart's ancestral blessings. A formal commendation and token of favor mark the hunt's end, and the champion's reputation spreads through the forest.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
     "cultural meaning",
     "why do tauren hunt beasts"
    ],
-   "answer": "For tauren like Senani Thunderheart, testing your mettle against mighty beasts is an honorable tradition that honors the spirits and ancestors. It shows mastery of the wilderness without reckless dishonor."
+   "answer": "For tauren like Senani Thunderheart, testing your mettle against mighty beasts is an honorable tradition. It honors the spirits and ancestors and shows mastery of the wilderness without reckless dishonor."
   },
   {
    "q": "Is this trial recognized by the entire Horde?",
@@ -74,7 +74,7 @@
     "is it official",
     "horde commendation"
    ],
-   "answer": "Yes. Completing the hunt marks you as a proven hunter to the Horde forces in Ashenvale. You earn ancestral blessings and the respect of your comrades."
+   "answer": "Yes. Completing the hunt marks you as a proven hunter among the Horde forces in Ashenvale. You earn ancestral blessings and the respect of your comrades."
   },
   {
    "q": "Which three beasts are targeted in the Ashenvale hunt?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you prove your tracking and marksmanship against three of Ashenvale's greatest predators. Your instincts must match the wild beasts."
+   "text": "As a hunter, you test your tracking and marksmanship against three of Ashenvale's greatest predators. Your instincts must match the wild beasts."
   },
   {
    "target": "race:Tauren",
@@ -121,5 +121,5 @@
  "attribution": [
   "The Hunt Completed"
  ],
- "style": 1
+ "style": 2
 }

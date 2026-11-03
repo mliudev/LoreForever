@@ -21,16 +21,16 @@
   ],
   "category": "Burning Steppes"
  },
- "summary": "Thal'trak Proudtusk's wife Sha'ni was sent over three weeks ago to look into strange rituals among the Firegut ogres, and nobody has heard from her platoon. Thal'trak cannot leave his post, so he asks you to go and learn what became of her.",
+ "summary": "In the Burning Steppes, Sha'ni's platoon has been gone for more than three weeks. Thal'trak Proudtusk cannot leave his post, and asks you to learn what became of his wife.",
  "sections": [
   {
    "title": "A Husband Without Word",
-   "body": "Sha'ni's orders took her to the Burning Steppes, to look into strange rituals among the Firegut ogres. That was more than three weeks ago. Goretooth says nothing has been heard from anyone in her platoon, and advises Thal'trak to put it behind him and keep to his duty. Thal'trak will not accept that, for it is his wife who is missing. He cannot leave his post, so he asks you to go there and search for her.",
+   "body": "Sha'ni went to the Burning Steppes to investigate strange rituals among the Firegut ogres. More than three weeks have passed, and Goretooth has heard nothing from her platoon. He tells Thal'trak to put the matter behind him and keep to his duty. But Sha'ni is his wife, and Thal'trak will not accept that. Bound to his post, he asks you to search for her.",
    "spoiler": 0
   },
   {
    "title": "Sha'ni's Words",
-   "body": "Sha'ni speaks of Thal'trak with pity. The two had planned to move in with her mother and father in the Hinterlands once their tours were over, and now those plans are ruined.",
+   "body": "Sha'ni speaks of Thal'trak with pity. They had planned to live with her mother and father in the Hinterlands once their tours were over. Now those plans are ruined.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "thaltrak wife",
     "sha'ni proudtusk"
    ],
-   "answer": "His wife, Sha'ni Proudtusk, who was sent into the Burning Steppes to look into strange rituals among the Firegut ogres and has not been heard from."
+   "answer": "Thal'trak is looking for his wife, Sha'ni Proudtusk. She was sent to the Burning Steppes to investigate strange rituals among the Firegut ogres, and no one has heard from her."
   },
   {
    "q": "Why did Sha'ni go to the Burning Steppes?",
@@ -51,7 +51,7 @@
     "firegut ogre ritual",
     "why did shani leave"
    ],
-   "answer": "She was sent there more than three weeks ago to look into reports of strange rituals among the Firegut ogres."
+   "answer": "Sha'ni was sent to the Burning Steppes more than three weeks ago to investigate reports of strange rituals among the Firegut ogres."
   },
   {
    "q": "Why hasn't Thal'trak searched for her himself?",
@@ -59,7 +59,7 @@
     "why cant thaltrak go",
     "why is thaltrak waiting"
    ],
-   "answer": "He cannot leave his post, so he asks you to go in his place."
+   "answer": "Thal'trak cannot leave his post, so he asks you to search for Sha'ni in his place."
   },
   {
    "q": "What does Goretooth say about the missing platoon?",
@@ -67,7 +67,7 @@
     "goretooth response",
     "what does goretooth say"
    ],
-   "answer": "Goretooth has heard nothing from anyone in that platoon, and tells Thal'trak to put it behind him and keep to his duty."
+   "answer": "Goretooth has heard nothing from anyone in Sha'ni's platoon. He advises Thal'trak to put the matter behind him and keep to his duty."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Dreadmaul Rock (quest)"
- ]
+ ],
+ "style": 2
 }

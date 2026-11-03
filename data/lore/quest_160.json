@@ -17,16 +17,16 @@
   "wiki": "Note to the Mayor (Classic)",
   "chain": []
  },
- "summary": "Abercrombie sends a message from western Duskwood to Darkshire, where its mayor awaits an unexpected delivery. He calls himself an old friend of Mayor Lord Ello Ebonlocke, but the note raises questions.",
+ "summary": "In western Duskwood, Abercrombie sends a message to Darkshire, where the mayor awaits an unexpected delivery. He calls himself an old friend of Mayor Lord Ello Ebonlocke, but the note raises questions.",
  "sections": [
   {
    "title": "A Friendly Message?",
-   "body": "After you recover Abercrombie’s stolen chest from the ogres at Vul'Gol Ogre Mound, the hermit sends you down the misty roads toward town. He laughs with delight and says he and Mayor Lord Ello Ebonlocke are old friends. Abercrombie insists the mayor will be as thrilled as he is when he learns what you have done.",
+   "body": "You return Abercrombie’s stolen chest from the ogres at Vul'Gol Ogre Mound, then carry his message down the misty roads to town. The hermit laughs with delight. He says he and Mayor Lord Ello Ebonlocke are old friends, and insists the mayor will be just as thrilled by what you have done.",
    "spoiler": 0
   },
   {
    "title": "Puzzled Leadership",
-   "body": "At Darkshire’s town hall, Mayor Lord Ello Ebonlocke says he has never heard of Abercrombie. The parchment holds no greeting he can read. Its ancient script leaves the mayor baffled.",
+   "body": "At Darkshire’s town hall, Mayor Lord Ello Ebonlocke says he has never heard of Abercrombie. The parchment offers no greeting he can read. Its ancient script leaves the mayor baffled.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "is abercrombie friends with the mayor",
     "abercrombie ello ebonlocke relationship"
    ],
-   "answer": "No. Abercrombie calls them old acquaintances, but Mayor Lord Ello Ebonlocke has never heard of him and is baffled by the message."
+   "answer": "No. Abercrombie calls them old acquaintances, but Mayor Lord Ello Ebonlocke has never heard of him and cannot make sense of the message."
   },
   {
    "q": "What is written in the note?",
@@ -65,7 +65,7 @@
     "ello ebonlocke location",
     "where do i turn in note to the mayor"
    ],
-   "answer": "Mayor Lord Ello Ebonlocke is inside the Darkshire Town Hall, on the east side of town along the main road in Duskwood."
+   "answer": "Mayor Lord Ello Ebonlocke is inside the Darkshire Town Hall, on the east side of town along Duskwood’s main road."
   },
   {
    "q": "What happens after Mayor Ebonlocke receives the letter?",
@@ -73,7 +73,7 @@
     "what is next after note to the mayor",
     "what follows note to the mayor"
    ],
-   "answer": "Unable to read the mysterious script, Lord Ebonlocke asks you to find someone who can interpret it. He sends you to translate Abercrombie’s note."
+   "answer": "Unable to read the mysterious script, Lord Ebonlocke asks you to find someone who can interpret it. He sends you to have Abercrombie’s note translated."
   },
   {
    "q": "Why was Abercrombie laughing when he gave you the letter?",
@@ -82,13 +82,13 @@
     "is abercrombie evil",
     "abercrombie laugh note"
    ],
-   "answer": "Abercrombie laughs with delight when he gives you the letter, but the text says nothing more about why. His claim of friendship leaves Darkshire’s mayor baffled."
+   "answer": "Abercrombie laughs with delight when he gives you the letter, but the text gives no reason why. His claim of friendship leaves Darkshire’s mayor baffled."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Darkshire’s safety depends on finding the cause of strange disturbances before they reach the Night Watch’s perimeter. The suspicious letter demands the attention of Alliance agents."
+   "text": "Darkshire’s safety depends on finding the cause of strange disturbances before they reach the Night Watch’s perimeter. The suspicious letter needs the attention of Alliance agents."
   },
   {
    "target": "race:Human",
@@ -114,5 +114,5 @@
  "attribution": [
   "Note to the Mayor (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thandol Span"
  },
- "summary": "The Thandol Span is a pair of colossal dwarven stone bridges connecting the Wetlands of Khaz Modan with the Arathi Highlands of southern Lordaeron. Long celebrated as a marvel of engineering and the vital artery between the northern and southern kingdoms, it is currently in a state of disaster following a sabotage attack by Dark Iron infiltrators.",
+ "summary": "At Thandol Span, the surviving bridge lies under attack. Its stone arches link the Wetlands of Khaz Modan with the Arathi Highlands of southern Lordaeron, but Dark Iron infiltrators have sabotaged one crossing.",
  "sections": [
   {
    "title": "The Fight for the Crossing",
-   "body": "The surviving bridge remains contested and heavily guarded. Mountaineers from Ironforge fight desperately to preserve the remaining roadway and repel Dark Iron sappers, suffering painful losses in the process. The loss of the bridge would leave northern trade and military movements almost entirely reliant on maritime routes, cutting off Alliance forces stationed across the Arathi Highlands from immediate reinforcement.",
+   "body": "Ironforge Mountaineers guard the surviving bridge. They fight to hold the roadway and drive back Dark Iron sappers, though the defense costs them dearly. If the bridge falls, northern trade and military movements will rely almost entirely on sea routes. Alliance forces in the Arathi Highlands will lose their immediate reinforcement.",
    "spoiler": 0
   },
   {
    "title": "A Lifeline Severed",
-   "body": "Constructed following the War of the Three Hammers to bridge Ironforge with the Wildhammer clan of the Aerie Peak, the Thandol Span stands among the grandest stonecraft feats of dwarven history. Capable of supporting entire marching armies, it served as the critical land corridor between Lordaeron and Khaz Modan throughout the Second War, notably carrying Sir Anduin Lothar's counter-offensive southward. Today, the crossing is grievously wounded. Dark Iron saboteurs led by Balgaras the Foul and Kam Deepfury mounted a devastating assault from nearby Dun Modr, shattering one span entirely with explosives and threatening to sever overland travel between the allied realms completely.",
+   "body": "Dwarves built the Thandol Span after the War of the Three Hammers to link Ironforge with the Wildhammer clan at Aerie Peak. Its bridges rank among the grandest works of dwarven stonecraft, strong enough to bear entire marching armies. During the Second War, armies crossed between Lordaeron and Khaz Modan here, including Sir Anduin Lothar's counter-offensive south.\n\nNow Dark Iron saboteurs have struck from nearby Dun Modr. Led by Balgaras the Foul and Kam Deepfury, they used explosives to shatter one span and threaten the overland route between the allied realms.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is this bridge",
     "thandol bridge"
    ],
-   "answer": "It is a massive dwarven double-arched stone bridge spanning the deep canyon between the Wetlands in northern Khaz Modan and the Arathi Highlands in southern Lordaeron."
+   "answer": "The Thandol Span carries you across a deep canyon between the Wetlands in northern Khaz Modan and the Arathi Highlands in southern Lordaeron. Dwarves built its two stone arches."
   },
   {
    "q": "Why is one of the bridges broken?",
@@ -37,7 +37,7 @@
     "thandol span destroyed",
     "why is thandol span broken"
    ],
-   "answer": "Dark Iron dwarves launched an assault from the captured outpost of Dun Modr, using high explosives to demolish one of the two spans in an attempt to cut Alliance supply lines."
+   "answer": "Dark Iron dwarves attacked from the captured outpost of Dun Modr. They used explosives to demolish one of the two spans and cut Alliance supply lines."
   },
   {
    "q": "Why was the Thandol Span originally built?",
@@ -46,7 +46,7 @@
     "thandol history",
     "why was it built"
    ],
-   "answer": "Ironforge dwarves built the span after the War of the Three Hammers to foster trade, diplomacy, and enduring ties with their Wildhammer cousins living across the canyon in the north."
+   "answer": "Ironforge dwarves built the Span after the War of the Three Hammers to strengthen trade, diplomacy, and ties with their Wildhammer cousins across the canyon in the north."
   },
   {
    "q": "Did armies cross here during the Second War?",
@@ -55,17 +55,17 @@
     "orcs at thandol span",
     "lothar thandol span"
    ],
-   "answer": "Yes. Although the Old Horde bypassed the bridges by crossing the sea to invade Lordaeron, Sir Anduin Lothar later led the Alliance counter-offensive across the Span to drive the orcs back into Khaz Modan."
+   "answer": "Yes. The Old Horde crossed the sea to invade Lordaeron. Later, Sir Anduin Lothar led the Alliance counter-offensive across the Span, driving the orcs back into Khaz Modan."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For the dwarves of Ironforge, the Span represents both a masterwork of their stonemasons and a painful battleground where Dark Iron kin have brought destruction to their front door."
+   "text": "As a dwarf of Ironforge, you can take pride in the Span as a masterwork of your stonemasons. Yet it is a painful battleground where Dark Iron kin have brought destruction to your doorstep."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Span is the sole direct overland link uniting Khaz Modan with the beleaguered northern outposts of Lordaeron, making its defense vital to the war effort."
+   "text": "As an Alliance member, you depend on the Span as the only direct overland link between Khaz Modan and the beleaguered northern outposts of Lordaeron. Its defense is vital to the war effort."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Thandol Span"
- ]
+ ],
+ "style": 2
 }

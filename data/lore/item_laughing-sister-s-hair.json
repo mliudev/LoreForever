@@ -10,11 +10,11 @@
    "quest:1945"
   ]
  },
- "summary": "In Ashenvale, laughing sisters' hair draws weavers seeking its natural magic. Kil'hala at the Crossroads uses the gathered locks to make enchanted robes.",
+ "summary": "In Ashenvale, weavers seek the natural magic in laughing sisters' hair. Kil'hala at the Crossroads uses the locks to make enchanted robes.",
  "sections": [
   {
    "title": "A Rare Weaving Component",
-   "body": "Near Raynewood Retreat in Ashenvale, laughing sisters are dryads whose hair holds natural magic. Dryads protect the woods and are linked to Cenarius and the night elves. Horde craftsmen prize their hair as a potent crafting material. Kil'hala, a troll tailor at the Crossroads, spins the locks into enchanted robes for Deino's promising pupils of the arcane.",
+   "body": "Near Raynewood Retreat, laughing sisters are dryads whose hair holds natural magic. They guard the woods and are linked to Cenarius and the night elves. Horde craftsmen prize their hair as a potent material.\n\nKil'hala, a troll tailor at the Crossroads, spins the locks into enchanted robes for Deino's promising pupils of the arcane.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "laughing sister hair location",
     "dryad hair source"
    ],
-   "answer": "The hair comes from laughing sisters, dryads that wander the enchanted groves near Raynewood Retreat in central Ashenvale."
+   "answer": "Laughing sisters are dryads who wander the enchanted groves near Raynewood Retreat in central Ashenvale. Their hair holds natural magic."
   },
   {
    "q": "Why is Kil'hala looking for dryad hair?",
@@ -35,7 +35,7 @@
     "use for laughing sister hair",
     "troll tailor dryad hair"
    ],
-   "answer": "Kil'hala, a tailor at the Crossroads in the Barrens, uses the magical strands to weave enchanted cloth robes for Deino's promising pupils."
+   "answer": "Kil'hala, a tailor at the Crossroads in the Barrens, weaves the magical strands into enchanted cloth robes for Deino's promising pupils."
   },
   {
    "q": "Will the laughing sisters give up their hair willingly?",
@@ -49,11 +49,11 @@
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "For a tailor, dryad locks offer an exotic thread for binding nature magic into cloth."
+   "text": "As a tailor, you can use dryad locks as an exotic thread to bind nature magic into cloth."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you must enter night elf territory in Ashenvale and slay woodland spirits to take their locks, harvesting local magic by force."
+   "text": "As a member of the Horde, you must enter night elf territory in Ashenvale and slay woodland spirits for their locks. You take the local magic by force."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
   "Laughing Sister's Hair",
   "Laughing Sisters"
  ],
- "style": 1
+ "style": 2
 }

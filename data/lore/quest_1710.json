@@ -17,16 +17,16 @@
   "wiki": "Sunscorched Shells",
   "chain": []
  },
- "summary": "In Darnassus, Mathiel seeks wyvern eggshells to strengthen a new mailcrafting technique. The armorer works with the dwarven smith Furen Longbeard and sends warriors to gather shells from Highperch in Thousand Needles.",
+ "summary": "In Darnassus, Mathiel seeks wyvern eggshells to strengthen a new way of crafting mail. He works with Furen Longbeard, a dwarven smith, and sends warriors to gather shells from Highperch in Thousand Needles.",
  "sections": [
   {
    "title": "A Cross-Faction Crafting Alliance",
-   "body": "Mathiel works from the Warrior's Terrace in Darnassus and looks beyond night elven methods. He corresponds with Furen Longbeard, a skilled dwarven armorer in Stormwind, and draws on Furen's discoveries in metalwork and armor-smithing. Mathiel hopes to make mail reinforced with natural materials that can withstand great strain. To test the idea, he needs materials found nowhere near Teldrassil.",
+   "body": "From the Warrior's Terrace in Darnassus, Mathiel looks beyond night elven methods. He corresponds with Furen Longbeard, a skilled dwarven armorer in Stormwind, and studies his discoveries in metalwork and armor-smithing. Mathiel hopes to reinforce mail with natural materials that can withstand great strain. To test his idea, he needs materials found nowhere near Teldrassil.",
    "spoiler": 0
   },
   {
    "title": "The Perils of Highperch",
-   "body": "Mathiel's experiment calls for shells from Highperch, far south across the sea in the canyon gorges of Thousand Needles. Wyverns nest high above the salt flats and red stone mesas, beneath Kalimdor's blazing sun. Constant exposure to heat and altitude hardens their eggshells. Mathiel plans to grind the sun-baked fragments into a resilient lacquer and coat chainmail links, making armor that bends while enduring exceptional strain.",
+   "body": "Mathiel's experiment calls for shells from Highperch, far south across the sea in Thousand Needles' canyon gorges. Wyverns nest high above the salt flats and red stone mesas beneath Kalimdor's blazing sun. Heat and altitude harden their eggshells. Mathiel plans to grind the sun-baked fragments into a resilient lacquer and coat chainmail links, so the armor bends while enduring exceptional strain.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives sunscorched shells",
     "mathiel darnassus"
    ],
-   "answer": "Mathiel is a night elf armorer on the Warrior's Terrace in Darnassus. He works with dwarven methods and Furen Longbeard to develop advanced mail armor for proven warriors."
+   "answer": "Mathiel is a night elf armorer on Darnassus's Warrior's Terrace. He works with dwarven methods and Furen Longbeard to develop advanced mail for proven warriors."
   },
   {
    "q": "Why does Mathiel need wyvern shells?",
@@ -47,7 +47,7 @@
     "sunscorched shell purpose",
     "what are shells for"
    ],
-   "answer": "Highperch wyvern shells harden beneath the harsh sun of Thousand Needles. Mathiel plans to grind and render them into lacquer for mail links, strengthening the armor."
+   "answer": "Highperch wyvern shells harden beneath the harsh sun of Thousand Needles. Mathiel plans to grind them into lacquer for mail links, strengthening the armor."
   },
   {
    "q": "Where is Highperch located?",
@@ -72,7 +72,7 @@
     "why thousand needles",
     "darnassus to thousand needles"
    ],
-   "answer": "Mathiel needs a resilience found in wyvern eggs exposed to the dry heat of the southern canyon mesas. That heat cannot be recreated in Teldrassil's misty boughs."
+   "answer": "Mathiel needs the resilience of wyvern eggs exposed to the dry heat of the southern canyon mesas. That heat cannot be recreated in Teldrassil's misty boughs."
   },
   {
    "q": "What happens after bringing the shells to Mathiel?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Sunscorched Shells"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,21 +21,21 @@
    "Tharnariun's Hope (quest)"
   ]
  },
- "summary": "In Darkshore, Tharnariun Treetender's work against the wildlife sickness reaches a grim turning point. After travelers put down infected beasts across the woodlands, he sends an Alliance champion after the rabid Den Mother northeast of Auberdine.",
+ "summary": "In Auberdine, Tharnariun Treetender's work against the wildlife sickness reaches a grim turn. Travelers have put down infected beasts across Darkshore, and now he sends an Alliance champion after the rabid Den Mother northeast of town.",
  "sections": [
   {
    "title": "A Tragic Necessity",
-   "body": "After the Third War, an unnatural rabid sickness began afflicting Darkshore's wild creatures. Tharnariun Treetender, stationed in Auberdine, spent days asking travelers to put down infected beasts and ease the forest's suffering. But killing rabid thistle bears treated only a symptom. Tharnariun decided the source among the local bears had to be removed: their matriarch, the Den Mother.",
+   "body": "Since the Third War, an unnatural sickness has made Darkshore's wild creatures rabid. Tharnariun Treetender is stationed in Auberdine, where he has asked travelers to put down infected beasts and ease the forest's suffering. Yet killing rabid thistle bears treats only a symptom. Tharnariun decides the source among the local bears must be removed: their matriarch, the Den Mother.",
    "spoiler": 0
   },
   {
    "title": "The Den Mother",
-   "body": "Northeast of Auberdine, near the ancient ruins of Bashal'Aran, the Den Mother lurks in a cavern. She was once a vital guardian of the woodland fauna. The affliction spreading across northern Kalimdor consumed her, and she kept bearing and raising litters of rabid cubs. Alliance heroes hunted down the matriarch in her den, ending her torment and stemming the tide of frenzied bears prowling the coastal highway.",
+   "body": "The Den Mother lurks in a cavern northeast of Auberdine, near the ancient ruins of Bashal'Aran. Once a guardian of the woodland fauna, she was consumed by the affliction spreading across northern Kalimdor. She kept bearing and raising litters of rabid cubs. Alliance heroes hunted her down in her den, ending her torment and stemming the tide of frenzied bears prowling the coastal highway.",
    "spoiler": 1
   },
   {
    "title": "The Grim Reality of Kalimdor",
-   "body": "After the Den Mother's death, Tharnariun offers profound thanks, though melancholy shadows his words. For the kaldorei, raising weapons against woodland creatures is agonizing. Dark forces press against their new home, and many despair or seek shelter. The defenders of Auberdine accept the heavy moral burden of protecting their wilderness.",
+   "body": "Tharnariun gives profound thanks after the Den Mother's death, though melancholy shadows his words. For the kaldorei, raising weapons against woodland creatures is agony. Dark forces press against their new home, and many despair or seek shelter. Auberdine's defenders accept the heavy burden of protecting their wilderness.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
     "why kill den mother",
     "cure den mother"
    ],
-   "answer": "The affliction ravaging Darkshore's wildlife grips the beasts and drives them into violent frenzies. With no immediate cure, and the Den Mother raising rabid offspring, Tharnariun decided that killing her was the only way to stop the sickness from spreading further."
+   "answer": "The affliction ravaging Darkshore's wildlife grips the beasts and drives them into violent frenzies. With no immediate cure and the Den Mother raising rabid offspring, Tharnariun decides killing her is the only way to stop the sickness from spreading further."
   },
   {
    "q": "What quests lead up to Tharnariun's Hope?",
@@ -73,7 +73,7 @@
     "prerequisites for tharnariuns hope",
     "quest chain tharnariun"
    ],
-   "answer": "The chain has three parts. It begins with 'Plagued Lands', continues through 'Cleansing of the Infected', and ends with 'Tharnariun's Hope'."
+   "answer": "Three parts lead to Tharnariun's Hope. The chain begins with 'Plagued Lands', continues through 'Cleansing of the Infected', and ends with 'Tharnariun's Hope'."
   },
   {
    "q": "What is making the animals of Darkshore sick?",
@@ -82,7 +82,7 @@
     "darkshore animal plague cause",
     "what corrupted the bears"
    ],
-   "answer": "Tharnariun names no source. He knows only that a sickness is spreading across Darkshore, gripping the minds and bodies of those it touches, and that thistle bears have been hit hardest."
+   "answer": "Tharnariun names no source. He knows only that a sickness is spreading across Darkshore, gripping the minds and bodies of those it touches. Thistle bears have been hit hardest."
   },
   {
    "q": "Why does Tharnariun mention people escaping to fortified lands?",
@@ -90,7 +90,7 @@
     "fleeing auberdine",
     "fortified alliance lands"
    ],
-   "answer": "Auberdine is an exposed coastal outpost beset by ghosts, corrupted wildlife, and hostile creatures. As night elf civilization struggles to rebuild after the Burning Legion's invasion, some residents feel overwhelmed and hide or retreat toward safer Alliance bastions."
+   "answer": "Auberdine is an exposed coastal outpost beset by ghosts, corrupted wildlife, and hostile creatures. Night elf civilization struggles to rebuild after the Burning Legion's invasion, and some residents feel overwhelmed and hide or retreat toward safer Alliance bastions."
   }
  ],
  "angles": [
@@ -100,15 +100,15 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you hold bears in high spiritual esteem through the teachings of Ursoc. Killing a corrupted Den Mother reminds you solemnly of nature's delicate balance and the tragedies of corruption."
+   "text": "As a druid, you hold bears in high spiritual esteem through the teachings of Ursoc. Killing a corrupted Den Mother reminds you of nature's delicate balance and the tragedies of corruption."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you understand the tragedy of an apex predator driven mad by disease. You know that culling an infected beast can be the truest act of mercy."
+   "text": "As a hunter, you understand the tragedy of an apex predator driven mad by disease. You know culling an infected beast can be the truest act of mercy."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help protect Auberdine and strengthen the Alliance's foothold along northern Kalimdor's coast, defending night elf lands from growing wilderness threats."
+   "text": "As an Alliance member, you help protect Auberdine and strengthen the Alliance's foothold along northern Kalimdor's coast. You defend night elf lands from growing wilderness threats."
   }
  ],
  "keywords": [
@@ -133,5 +133,5 @@
  "attribution": [
   "Tharnariun's Hope (quest)"
  ],
- "style": 1
+ "style": 2
 }

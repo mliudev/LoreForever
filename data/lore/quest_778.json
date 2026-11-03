@@ -24,16 +24,16 @@
    "Study of the Elements: Rock"
   ]
  },
- "summary": "Lotwil Veriatus declares the shackles finished and calls on Lucien, Servo and you to bear witness as a powerful elemental is summoned.",
+ "summary": "In the Badlands, Lotwil Veriatus is ready to summon a powerful elemental.",
  "sections": [
   {
    "title": "A Groundbreaking Day",
-   "body": "Lotwil cries out that the shackles are done and the time has come, calling Lucien and Servo to bear witness along with you. Lotwil presents the shackles as alchemy, engineering and the arcane in perfect combination, and means to summon a powerful elemental on what is declared a groundbreaking day for everyone there.",
+   "body": "Lotwil calls out that the shackles are finished. The time has come. He asks Lucien and Servo to witness the summoning with you. Alchemy, engineering and the arcane come together in the shackles, and Lotwil expects a powerful elemental to answer on this groundbreaking day.",
    "spoiler": 0
   },
   {
    "title": "After the Summoning",
-   "body": "The outcome is not what Lotwil expected, and Lotwil asks you to fetch the Shackles of Elemental Binding back after the Fam'retor Guardian is defeated. Afterwards, Lotwil is unsure what went wrong, but is glad that the magics were at hand to return the creature to the plane it came from.",
+   "body": "The summoning ends differently than Lotwil expected. After you defeat the Fam'retor Guardian, Lotwil asks you to bring back the Shackles of Elemental Binding. He cannot say what went wrong. Still, he is glad the magics were ready to send the creature back to its own plane.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who is lotwil",
     "lotwil veriatus"
    ],
-   "answer": "Lotwil Veriatus is the maker of the Shackles of Elemental Binding, in which alchemy, engineering and the arcane are combined. Lucien and Servo are there with Lotwil in the Badlands."
+   "answer": "Lotwil Veriatus made the Shackles of Elemental Binding by joining alchemy, engineering and the arcane. Lucien and Servo are with him in the Badlands."
   },
   {
    "q": "What are the Shackles of Elemental Binding?",
@@ -52,7 +52,7 @@
     "what are the shackles",
     "shackles of elemental binding"
    ],
-   "answer": "They are the shackles Lotwil has just finished, a combination of alchemy, engineering and the arcane, for use on a powerful elemental that Lotwil means to summon."
+   "answer": "The Shackles of Elemental Binding combine alchemy, engineering and the arcane. Lotwil has just finished them for the powerful elemental he means to summon."
   },
   {
    "q": "Who does Lotwil call to bear witness?",
@@ -60,7 +60,7 @@
     "who is lucien",
     "who is servo"
    ],
-   "answer": "Lotwil calls on Lucien and Servo to bear witness to the summoning, together with you."
+   "answer": "Lotwil calls on Lucien and Servo to witness the summoning with you."
   },
   {
    "q": "What comes before this step?",
@@ -68,7 +68,7 @@
     "previous quest",
     "what led to this"
    ],
-   "answer": "It follows the step in which you brought cog #5 to Lotwil."
+   "answer": "Before this, you brought cog #5 to Lotwil."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "This Is Going to Be Hard (3)"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Raven Tavern"
  },
- "summary": "In Darkshire, the Scarlet Raven Tavern is the town’s primary inn and social center. Tavernkeep Smitts welcomes beleaguered locals, passing adventurers, and frightened travelers seeking shelter from the horrors beyond town.",
+ "summary": "In Darkshire, Scarlet Raven Tavern is the town’s primary inn and gathering place. Tavernkeep Smitts welcomes weary locals, passing adventurers and frightened travelers seeking shelter from the horrors beyond town.",
  "sections": [
   {
    "title": "A Dim Refuge",
-   "body": "At the Scarlet Raven Tavern, the hearth burns in the heart of Darkshire as eternal dusk hangs over the forest. Years ago, it was a busy stop where Marshal Haggard and the Stormwind Guard shared pints after patrols. Since then, business has withered alongside the town’s security. Tavernkeep Smitts tends the bar for a somber, anxious crowd huddled against cold and fear. The inn remains a crossroads for rumors and a starting point for travelers seeking answers to the dark phenomena consuming the region.",
+   "body": "The Scarlet Raven Tavern offers a dim refuge in Darkshire, where the hearth burns beneath the forest’s eternal dusk. Years ago, Marshal Haggard and the Stormwind Guard stopped here for pints after patrols. Since then, business has dwindled as the town’s security has weakened.\n\nTavernkeep Smitts tends the bar for a somber, anxious crowd seeking warmth against the cold and fear. The inn remains a place to trade rumors and a starting point for travelers seeking answers about the dark forces consuming the region.",
    "spoiler": 0
   },
   {
    "title": "Secrets and Stolen Pints",
-   "body": "Jitters, a reclusive wanderer, rented a room at the Scarlet Raven for days and filled his journal with frantic notes by night before fleeing town ahead of the Dark Riders. Decades-old gossip and preserved guest records kept beneath the tavern also connect to long-forgotten figures such as Stalvan Mistmantle. Investigators tracing the histories of Duskwood’s restless dead begin their search in Smitts’ taproom.",
+   "body": "Jitters rented a room at the Scarlet Raven for several days. By night, the reclusive wanderer filled his journal with frantic notes, then fled town ahead of the Dark Riders.\n\nOld gossip and guest records kept beneath the tavern also hold ties to figures such as Stalvan Mistmantle. Those who investigate Duskwood’s restless dead begin their search in Smitts’ taproom.",
    "spoiler": 1
   }
  ],
@@ -36,7 +36,7 @@
     "why is scarlet raven depressing",
     "darkshire inn atmosphere"
    ],
-   "answer": "The curse over Duskwood has choked trade routes and terrified the locals. Undead, feral worgen, and shadowy riders prowl the woods outside town, while the tavern crowd is made up of frightened townsfolk and desperate mercenaries rather than carefree travelers."
+   "answer": "The curse over Duskwood has choked trade routes and terrified the locals. Undead, feral worgen and shadowy riders prowl the woods, so frightened townsfolk and desperate mercenaries fill the tavern instead of carefree travelers."
   },
   {
    "q": "Did Jitters stay at the Scarlet Raven?",
@@ -45,7 +45,7 @@
     "jitters tavern",
     "did jitters live here"
    ],
-   "answer": "Jitters stayed at the Scarlet Raven Tavern and wrote frantically in his journal before fleeing town. His reasons emerge through the investigation into Duskwood."
+   "answer": "Jitters stayed at the Scarlet Raven Tavern and filled his journal with frantic notes before fleeing town. His reasons emerge during the investigation into Duskwood."
   },
   {
    "q": "What connection does this tavern have to the Legend of Stalvan?",
@@ -53,13 +53,13 @@
     "stalvan inn connection",
     "stalvan mistmantle darkshire inn"
    ],
-   "answer": "Old patrons and town records preserved in and around the tavern hold clues about Stalvan Mistmantle. He once frequented the settlement before falling into tragedy and infamy."
+   "answer": "Old patrons and town records preserved in and around the tavern hold clues about Stalvan Mistmantle. He once frequented the settlement before tragedy and infamy claimed him."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers crossing the southern border, the Scarlet Raven offers one of the few safe hearths and rest stops between Elwynn Forest and Deadwind Pass."
+   "text": "For Alliance travelers crossing the southern border, the Scarlet Raven offers one of the few safe hearths and resting places between Elwynn Forest and Deadwind Pass."
   },
   {
    "target": "profession:Cooking",
@@ -89,5 +89,5 @@
  "attribution": [
   "Scarlet Raven Tavern"
  ],
- "style": 1
+ "style": 2
 }

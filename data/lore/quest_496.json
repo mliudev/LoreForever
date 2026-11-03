@@ -20,16 +20,16 @@
    "Elixir of Suffering (2)"
   ]
  },
- "summary": "In Tarren Mill, Apothecary Lydon pursues lethal brews against the living. He turns to travelers for animal reagents from the surrounding foothills.",
+ "summary": "In Tarren Mill, Apothecary Lydon prepares a brew meant to kill the living. He needs animal reagents from the surrounding foothills.",
  "sections": [
   {
    "title": "A Toxic Enterprise",
-   "body": "Tarren Mill is both a Forsaken stronghold in the Hillsbrad Foothills and a research station for the Royal Apothecary Society. Apothecary Lydon works there amid the green countryside, which he despises. He longs to see human settlements poisoned and conquered. To make his experimental Elixir of Suffering, he needs potent, virulent ingredients from nearby creatures.",
+   "body": "Tarren Mill is a Forsaken stronghold in the Hillsbrad Foothills and a research station for the Royal Apothecary Society. Apothecary Lydon works there, surrounded by green countryside he despises. He longs to see human settlements poisoned and conquered. For his experimental Elixir of Suffering, he needs potent, virulent ingredients from nearby creatures.",
    "spoiler": 0
   },
   {
    "title": "Gathering Reagents",
-   "body": "Apothecary Lydon sends hunters into the wilds around Tarren Mill for Gray Bear tongues and the rare ichor of Moss Creepers. Unholy alchemy refines these animal substances into the basis of a lethal mixture. He intends it to kill living trespassers across Hillsbrad.",
+   "body": "Apothecary Lydon sends hunters into the wilds around Tarren Mill for Gray Bear tongues and the rare ichor of Moss Creepers. Unholy alchemy refines these animal substances into the base of a lethal mixture. He means it to kill living trespassers across Hillsbrad.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives elixir of suffering",
     "lydon tarren mill"
    ],
-   "answer": "Apothecary Lydon is a member of the Royal Apothecary Society stationed in Tarren Mill. He despises Hillsbrad's living landscape and works to make potent poisons against human populations."
+   "answer": "Apothecary Lydon belongs to the Royal Apothecary Society and is stationed in Tarren Mill. He despises Hillsbrad's living landscape and works to make potent poisons against human populations."
   },
   {
    "q": "Why does Lydon need bear tongues and creeper ichor?",
@@ -50,7 +50,7 @@
     "what is creeper ichor for",
     "elixir ingredients lore"
    ],
-   "answer": "Apothecary Lydon needs Gray Bear tongues and Moss Creeper ichor as ingredients for his lethal brews. Their biological properties provide the alchemical base for his Elixir of Suffering."
+   "answer": "Apothecary Lydon needs Gray Bear tongues and Moss Creeper ichor for his lethal brews. Their biological properties provide the alchemical base for his Elixir of Suffering."
   },
   {
    "q": "Where does this quest lead next?",
@@ -58,7 +58,7 @@
     "next quest elixir of suffering",
     "what happens after elixir of suffering"
    ],
-   "answer": "After Apothecary Lydon receives the ingredients, he blends them into a prototype brew and demands that it be tested on living subjects for its lethal effect."
+   "answer": "Once Apothecary Lydon receives the ingredients, he blends them into a prototype brew. Then he demands that it be tested on living subjects for its lethal effect."
   },
   {
    "q": "What is the goal of the Royal Apothecary Society in Hillsbrad?",
@@ -67,7 +67,7 @@
     "forsaken poison goals",
     "hillsbrad plague"
    ],
-   "answer": "The Royal Apothecary Society, under Lady Sylvanas Windrunner's command, seeks an alchemical plague that can wipe out humanity and the Scourge alike. Tarren Mill is a frontier outpost for gathering biological matter and testing prototypes against local Alliance forces."
+   "answer": "Under Lady Sylvanas Windrunner's command, the Royal Apothecary Society seeks an alchemical plague to wipe out humanity and the Scourge alike. Tarren Mill is a frontier outpost where they gather biological matter and test prototypes against local Alliance forces."
   },
   {
    "q": "Where can the necessary creatures be found?",
@@ -84,13 +84,13 @@
     "why is lydon unhappy",
     "lydon clean air"
    ],
-   "answer": "Apothecary Lydon is disgusted by vitality, clean air, and thriving nature. He finds joy in death, decay, and distilling deadly toxins."
+   "answer": "Apothecary Lydon is disgusted by vitality, clean air and thriving nature. He finds joy in death, decay and distilling deadly toxins."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken operative, you can help advance the Royal Apothecary Society's aim to create a devastating weapon for your people's survival against living humanity."
+   "text": "As a Forsaken operative, you can help advance the Royal Apothecary Society's aim to create a devastating weapon for the survival of your people against living humanity."
   },
   {
    "target": "faction:Horde",
@@ -113,5 +113,5 @@
  "attribution": [
   "Elixir of Suffering (quest)"
  ],
- "style": 1
+ "style": 2
 }

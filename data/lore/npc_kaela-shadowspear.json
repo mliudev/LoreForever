@@ -8,16 +8,16 @@
   "wiki": "Kaela Shadowspear",
   "refs": 8
  },
- "summary": "In the Stonetalon Mountains, Kaela Shadowspear watches the wilderness southwest of Windshear Crag. She coordinates with fellow sentinels as tensions rise and the land suffers new disruptions. Travelers help scout dangerous ground and learn what has corrupted the ancient defenders.",
+ "summary": "Southwest of Windshear Crag, Kaela Shadowspear watches the Stonetalon wilderness as tensions rise. She works with fellow sentinels while new disruptions trouble the land.",
  "sections": [
   {
    "title": "A Scout on the Frontier",
-   "body": "Kaela Shadowspear watches the passes southwest of Windshear Crag. The Horde presses into the Stonetalon Mountains, while goblin operations exploit the land's natural bounty. Working beside the gnome Gaxim Rustfizzle, Kaela tracks threats pushing deeper into night elf ancestral territory.",
+   "body": "Kaela Shadowspear watches the passes southwest of Windshear Crag. The Horde presses into the Stonetalon Mountains, while goblin operations exploit the land's natural bounty. Beside Gaxim Rustfizzle, a gnome, she tracks threats reaching farther into night elf ancestral territory.",
    "spoiler": 0
   },
   {
    "title": "Healing the Land",
-   "body": "Violence against nature has stirred the elementals and harmed the forest's ancient guardians. Kaela sends travelers against the raging spirits and seeks the cause of the corruption afflicting the wounded treants who once guarded the Vale. She works to restore peace before the land is scarred beyond repair.",
+   "body": "Violence against nature has stirred the elementals and harmed the forest's ancient guardians. Kaela sends travelers to face the raging spirits and seeks what has corrupted the wounded treants who once guarded the Vale. She strives to restore peace before the land is scarred beyond repair.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "kaela shadowspear identity",
     "kaela npc"
    ],
-   "answer": "Kaela Shadowspear is a night elf sentinel at a frontier camp southwest of Windshear Crag in the Stonetalon Mountains. She oversees scouting and helps protect local wildlife and spirits."
+   "answer": "Kaela Shadowspear is a night elf sentinel at a frontier camp southwest of Windshear Crag. She oversees scouting and helps protect local wildlife and spirits."
   },
   {
    "q": "Where can Kaela Shadowspear be found?",
@@ -38,7 +38,7 @@
     "where is kaela",
     "kaela stonetalon camp"
    ],
-   "answer": "Kaela is in a small Alliance camp southwest of Windshear Crag, along the road through the Stonetalon Mountains. The gnome engineer Gaxim Rustfizzle shares the camp."
+   "answer": "Kaela is in a small Alliance camp southwest of Windshear Crag, along the road through the Stonetalon Mountains. Gaxim Rustfizzle, a gnome engineer, shares the camp."
   },
   {
    "q": "Who does Kaela report to?",
@@ -47,7 +47,7 @@
     "kaela thenysil",
     "kaela's commander"
    ],
-   "answer": "Kaela coordinates with Sentinel Thenysil, exchanging intelligence on enemy movements and local threats across Stonetalon."
+   "answer": "Kaela coordinates with Sentinel Thenysil. They exchange intelligence on enemy movements and local threats across Stonetalon."
   },
   {
    "q": "Why is Kaela concerned about the elementals?",
@@ -56,7 +56,7 @@
     "why are spirits angry",
     "kaela elemental spirits"
    ],
-   "answer": "The Venture Co. set the Charred Vale aflame and tore at it with machines, releasing spirits of flame, stone, and rage. Kaela wants their numbers reduced so the land can recover."
+   "answer": "The Venture Co. set the Charred Vale aflame and tore at it with machines. Flame and stone spirits, along with spirits of rage, were roused; Kaela wants their numbers reduced so the land can recover."
   },
   {
    "q": "What is happening to the ancients near Windshear Crag?",
@@ -65,7 +65,7 @@
     "kaela ancients",
     "stonetalon wounded ancients"
    ],
-   "answer": "The treants who protect the Charred Vale helped drive back the Venture Co., but they have since become corrupt. Gaxim suspects the goblins' weapons are to blame, so Kaela asks travelers to bring him a piece of corroded shrapnel from a wounded treant to study."
+   "answer": "The treants who protect the Charred Vale helped drive back the Venture Co., but they have since become corrupt. Gaxim suspects the goblins' weapons are to blame, so Kaela asks travelers to bring him a piece of corroded shrapnel from a wounded treant for study."
   },
   {
    "q": "Why is a gnome stationed with Kaela?",
@@ -80,7 +80,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer, you can bring Kaela intelligence from the contested reaches of Stonetalon and help coordinate it between distant outposts."
+   "text": "As an Alliance adventurer, you can bring Kaela intelligence from Stonetalon's contested reaches and help coordinate it between distant outposts."
   },
   {
    "target": "race:NightElf",
@@ -115,5 +115,5 @@
  "attribution": [
   "Kaela Shadowspear"
  ],
- "style": 1
+ "style": 2
 }

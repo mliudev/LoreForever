@@ -10,16 +10,16 @@
    "quest:3087"
   ]
  },
- "summary": "Gornek gives hunters in the Valley of Trials a summons from Jen'shan. The Etched Parchment points them toward their first lessons in Durotar.",
+ "summary": "In the Valley of Trials, Gornek sends new hunters to Jen'shan for their first lessons in Durotar.",
  "sections": [
   {
    "title": "A Summons to the Hunt",
-   "body": "Young orcs and Darkspear trolls begin their rites in the Valley of Trials. As recruits prove themselves against the local vermin, Gornek guides them toward their calling. He gives the Etched Parchment to those who will wield bow, gun, and fang. Its message comes from Jen'shan, a skilled hunter trainer seeking fresh eyes and steady hands.",
+   "body": "Young orcs and Darkspear trolls begin their rites in the Valley of Trials. As recruits prove themselves against local vermin, Gornek helps them find their calling. He gives the Etched Parchment to those who will wield bow, gun, and fang. Its message comes from Jen'shan, a skilled hunter trainer who seeks fresh eyes and steady hands.",
    "spoiler": 0
   },
   {
    "title": "The First Lesson",
-   "body": "Taking the parchment to Jen'shan begins a hunter's training in Durotar. She teaches that the wild path takes dedication: mastering the beasts of the desert demands as much effort as an arcanist's magic or a shaman's work with the spirits. Her summons brings new hunters to lessons in marksmanship and wilderness survival.",
+   "body": "Taking the parchment to Jen'shan begins a hunter's training in Durotar. She teaches that the wild path demands dedication. Mastering the beasts of the desert takes as much effort as an arcanist's magic or a shaman's work with the spirits. Her summons brings new hunters to lessons in marksmanship and wilderness survival.",
    "spoiler": 0
   }
  ],
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you receive this missive as your first rite of passage in Durotar. It connects you with Jen'shan, who teaches tracking, ranged weapons, and survival."
+   "text": "As a hunter, you receive this missive as your first rite of passage in Durotar. It brings you to Jen'shan, who teaches tracking, ranged weapons, and survival."
   },
   {
    "target": "faction:Horde",
@@ -88,5 +88,5 @@
   "Etched Parchment",
   "Etched Parchment (Classic)"
  ],
- "style": 1
+ "style": 2
 }

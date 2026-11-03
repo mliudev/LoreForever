@@ -17,16 +17,16 @@
   "wiki": "Call of Air (Orgrimmar)",
   "chain": []
  },
- "summary": "At Grommash Hold, Searn Firewarder sends seasoned shamans south to seek the Air Totem. Prate Cloudseer guides them toward the final elemental pillar of their craft.",
+ "summary": "At Grommash Hold, Searn Firewarder sends seasoned shamans south for the Air Totem. Prate Cloudseer guides them through the final element of their craft.",
  "sections": [
   {
    "title": "A Breath from the South",
-   "body": "A shaman who has earned the favor of earth, fire, and water now stands ready to harness air, the last of the four elements. In Orgrimmar, troll trainer Searn Firewarder recognizes when a disciple has reached the height of early training and is prepared for this final foundational step. He sends the shaman south across the Barrens, then down into the canyon labyrinth of Thousand Needles.",
+   "body": "You have earned the favor of earth, fire, and water. Now you travel south from Orgrimmar across the Barrens, then down into the canyons of Thousand Needles to learn the last element: air. Troll trainer Searn Firewarder sends you when he sees you are ready for this final step in your early training.",
    "spoiler": 0
   },
   {
    "title": "The Cloudseer's Hermitage",
-   "body": "Prate Cloudseer waits in a high cave among the sandstone mesas of Thousand Needles. The hermit lives quietly with her partner, far from Horde encampments. She demands deference before revealing the secrets of the wind. Meet her with proper respect, and she shares the knowledge and focus to manifest the Air Totem, completing the shaman's elemental circle.",
+   "body": "Prate Cloudseer waits in a high cave among the sandstone mesas of Thousand Needles. She lives quietly with her partner, far from Horde encampments, and expects you to show deference before she shares the secrets of the wind. Meet her with proper respect, and she teaches you the knowledge and focus to manifest the Air Totem. Then your circle of elemental craft is complete.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to get call of air",
     "searn firewarder"
    ],
-   "answer": "Searn Firewarder, a troll shaman trainer in Grommash Hold, offers this to qualified shamans when they reach the appropriate experience."
+   "answer": "Searn Firewarder, a troll shaman trainer in Grommash Hold, sends qualified shamans when they are ready for this step."
   },
   {
    "q": "Where can I find Prate Cloudseer?",
@@ -47,7 +47,7 @@
     "find prate",
     "air totem npc"
    ],
-   "answer": "Prate Cloudseer lives in Thousand Needles. After taking the Great Lift down from the southern Barrens, head east across the canyon floor to find her cave."
+   "answer": "Prate Cloudseer lives in Thousand Needles. Take the Great Lift down from the southern Barrens, then travel east across the canyon floor to find her cave."
   },
   {
    "q": "What is the Air Totem used for?",
@@ -56,7 +56,7 @@
     "why do air totem quest",
     "what does air totem do"
    ],
-   "answer": "The Air Totem is the fourth and final elemental focus a shaman acquires. It lets a shaman invoke air spells and totems, with speed, grace, and wind-based powers."
+   "answer": "The Air Totem is the fourth and final elemental focus a shaman acquires. It lets a shaman call on air spells and totems, with speed, grace, and powers of the wind."
   },
   {
    "q": "Why does Searn Firewarder send you so far away?",
@@ -64,7 +64,7 @@
     "why thousand needles",
     "why prate cloudseer"
    ],
-   "answer": "Mastery of the elements requires finding mentors devoted to communing with specific spirits. Prate Cloudseer knows the winds of the shifting canyon gusts in Thousand Needles, making her the ideal guide to air."
+   "answer": "Mastery of the elements means finding mentors devoted to particular spirits. Prate Cloudseer knows the winds of Thousand Needles' shifting canyon gusts, making her a fitting guide to air."
   },
   {
    "q": "Do I need to complete other elemental totem quests first?",
@@ -73,7 +73,7 @@
     "totem order",
     "can i do air totem first"
    ],
-   "answer": "Yes. Shaman training follows a strict progression through the elements: earth, then fire and water, and finally air."
+   "answer": "Yes. Shaman training follows a set order through the elements: earth, then fire and water, and finally air."
   },
   {
    "q": "Are there other versions of this quest for different cities?",
@@ -81,17 +81,17 @@
     "thunder bluff air totem",
     "undercity air totem"
    ],
-   "answer": "Yes. Shaman trainers in other Horde capitals, including Thunder Bluff, give their own directions to Prate Cloudseer in Thousand Needles."
+   "answer": "Yes. Shaman trainers in other Horde capitals, including Thunder Bluff, send shamans to Prate Cloudseer in Thousand Needles."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The Air Totem is the culminating milestone of your early shamanic journey. It lets you call on wind spirits alongside earth, fire, and water."
+   "text": "The Air Totem marks the last step in your early shamanic journey. With it, you call on wind spirits alongside earth, fire, and water."
   },
   {
    "target": "faction:Horde",
-   "text": "The shamanic tradition ties the Horde's diverse races together. Far-flung elders and hermits across central Kalimdor pass down its sacred customs."
+   "text": "Your shamanic tradition binds the Horde's diverse races together. Elders and hermits across central Kalimdor pass down its sacred customs."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Call of Air (Orgrimmar)"
  ],
- "style": 1
+ "style": 2
 }

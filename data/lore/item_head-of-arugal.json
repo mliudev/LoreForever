@@ -10,11 +10,11 @@
    "quest:1014"
   ]
  },
- "summary": "At Shadowfang Keep, Head of Arugal is taken from the mad archmage who commands the worgen. The Forsaken at the Sepulcher seek it as proof that he has fallen.",
+ "summary": "At Shadowfang Keep, Head of Arugal is claimed from the mad archmage who commands the worgen. The Forsaken at the Sepulcher seek it as proof of his fall.",
  "sections": [
   {
    "title": "Trophy of the Mad Archmage",
-   "body": "Archmage Arugal commands the worgen from Shadowfang Keep in Silverpine Forest. Dalar Dawnweaver at the Sepulcher gives the order to claim his severed head. The Forsaken see Arugal's fall as a blow against the beasts that hinder Lady Sylvanas's hold over Silverpine. Bringing the head to Dawnweaver proves the archmage's sorcery has been cut from the land.",
+   "body": "Archmage Arugal commands the worgen from Shadowfang Keep in Silverpine Forest. At the Sepulcher, Dalar Dawnweaver orders his severed head claimed. The Forsaken see Arugal's fall as a blow against the beasts that hinder Lady Sylvanas's hold over Silverpine. Bring the head to Dawnweaver, and it proves Arugal's sorcery has been cut from the land.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "arugal head drop",
     "where is arugal's head"
    ],
-   "answer": "The Head of Arugal comes from Archmage Arugal, who dwells at Shadowfang Keep's highest pinnacle, above Pyrewood Village and the Silverpine woods."
+   "answer": "The Head of Arugal comes from Archmage Arugal, who dwells at Shadowfang Keep's highest pinnacle above Pyrewood Village and the Silverpine woods."
   },
   {
    "q": "Why do the Forsaken want Arugal dead?",
@@ -52,17 +52,17 @@
     "after arugal dies",
     "result of arugal must die"
    ],
-   "answer": "After receiving the head, Dalar Dawnweaver vows to eradicate the remnants of Arugal's spells and declares Silverpine free of the mad wizard's grip."
+   "answer": "After receiving the head, Dalar Dawnweaver vows to eradicate the remnants of Arugal's spells. He declares Silverpine free of the mad wizard's grip."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you help remove a dangerous sorcerer from the southern edge of Silverpine Forest and secure the land for the Dark Lady."
+   "text": "As Forsaken, you help remove a dangerous sorcerer from Silverpine Forest's southern edge and secure the land for the Dark Lady."
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, you see the severed head of a former Kirin Tor archmage as a warning of the madness and ruin that desperate summonings can bring, even to gifted practitioners."
+   "text": "As a mage, you see the severed head of a former Kirin Tor archmage as a warning of the madness and ruin desperate summonings can bring, even to gifted practitioners."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Head of Arugal",
   "Arugal Must Die"
  ],
- "style": 1
+ "style": 2
 }

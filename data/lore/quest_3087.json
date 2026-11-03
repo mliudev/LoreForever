@@ -17,16 +17,16 @@
   "wiki": "Etched Parchment (Classic)",
   "chain": []
  },
- "summary": "In the Valley of Trials, Etched Parchment calls a young hunter to Jen'shan. Gornek delivers it after the initiate's first blooding, opening the way to wilderness training in Durotar.",
+ "summary": "In the Valley of Trials, Gornek delivers Jen'shan's summons to a young hunter. It comes after the initiate's first blooding and opens the way to wilderness training in Durotar.",
  "sections": [
   {
    "title": "A Summons from the Wild",
-   "body": "After proving themselves against mottled boars, hunters in the Valley of Trials receive an etched parchment from Gornek. Jen'shan, a skilled Darkspear hunter, sent the note after watching new arrivals from the edges of the encampment. It welcomes the initiate to formal training and recognizes the instincts needed to master Durotar's untamed beasts and harsh land.",
+   "body": "After proving themselves against mottled boars, hunters in the Valley of Trials receive a parchment from Gornek. Jen'shan, a skilled Darkspear hunter, sent it after watching new arrivals from the edges of the encampment. Her note welcomes the initiate to formal training and recognizes the instincts needed to master Durotar's untamed beasts and harsh land.",
    "spoiler": 0
   },
   {
    "title": "The Hunter's Way",
-   "body": "Reporting to Jen'shan marks the move from recruit to dedicated stalker. She warns that hunting is no easier than the arcane arts or ancestral shamanism. Mastering Durotar's predators, maintaining ranged weapons, and surviving on unforgiving land all demand discipline. Jen'shan sends her apprentices to aid the valley's other inhabitants and test their abilities before returning to learn more advanced survival techniques.",
+   "body": "Reporting to Jen'shan marks the move from recruit to dedicated stalker. She warns that hunting is no easier than the arcane arts or ancestral shamanism. Mastering Durotar's predators, keeping ranged weapons in good order, and surviving on unforgiving land all demand discipline.\n\nJen'shan sends her apprentices to aid the valley's other inhabitants and test their abilities. Then they return to learn more advanced ways to survive.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "etched parchment note",
     "hunter parchment"
    ],
-   "answer": "Etched Parchment is a written summons from Gornek on behalf of Jen'shan, the hunter trainer. It calls promising recruits to her for specialized martial and wilderness instruction in the Valley of Trials."
+   "answer": "The parchment is a written summons from Gornek on behalf of Jen'shan, the hunter trainer. It calls promising recruits to her for specialized martial and wilderness instruction in the Valley of Trials."
   },
   {
    "q": "Who delivers this summons to the player?",
@@ -46,7 +46,7 @@
     "who gives etched parchment",
     "where do i get the quest"
    ],
-   "answer": "Gornek gives you the parchment after your first trial, slaying mottled boars in the Valley of Trials."
+   "answer": "Gornek gives you the parchment after your first trial, when you slay mottled boars in the Valley of Trials."
   },
   {
    "q": "Who is Jen'shan?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Etched Parchment (Classic)"
  ],
- "style": 1
+ "style": 2
 }

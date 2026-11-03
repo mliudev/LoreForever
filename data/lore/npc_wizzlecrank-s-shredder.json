@@ -8,16 +8,16 @@
   "wiki": "Wizzlecrank's Shredder",
   "refs": 2
  },
- "summary": "In Sludge Fen, Wizzlecrank's Shredder sits trapped among Venture Company operators. Pilot Wizzlecrank climbed inside the machine to steal it, but it will not move without a key. Its engine must be started before the goblin can try to escape.",
+ "summary": "In Sludge Fen, Pilot Wizzlecrank waits inside the stolen machine, trapped among Venture Company operators. Without its key, the shredder cannot move, and its engine must be started before he can try to escape.",
  "sections": [
   {
    "title": "Trapped in the Sludge",
-   "body": "Deep in Sludge Fen, Wizzlecrank waits inside a motionless shredder. The Venture Company machine is surrounded by hostile mercenaries in the polluted basin. Wizzlecrank climbed aboard to steal it, then learned he needed a key to unlock its movement column. When another shredder operator asked if all was well, he panicked and blamed a mechanical problem. Now he remains sealed inside, with guards and overseers nearby, hoping someone will fetch the key before the Venture Company grows suspicious.",
+   "body": "Deep in Sludge Fen, Pilot Wizzlecrank waits inside a motionless shredder. Hostile Venture Company mercenaries surround the machine in the polluted basin. He climbed aboard to steal it, then learned a key was needed to unlock its movement column.\n\nWhen another operator asked if all was well, Wizzlecrank panicked and blamed a mechanical problem. Now he remains sealed inside, with guards and overseers nearby. He hopes someone will fetch the key before the Venture Company grows suspicious.",
    "spoiler": 0
   },
   {
    "title": "A Clattering Breakout",
-   "body": "With the ignition key from the supervisor in the control room atop the derrick, the shredder clatters back to life. Pilot Wizzlecrank drives the lumbering machine through the mercenaries around him, its blades whirling and metal plating taking the blows. Passersby who sympathize with the trapped pilot escort the vulnerable contraption out of the basin and toward safety.",
+   "body": "With the ignition key from the supervisor in the control room atop the derrick, the shredder clatters to life. Pilot Wizzlecrank drives the lumbering machine through the mercenaries around him. Its blades whirl as its metal plating takes the blows.\n\nPassersby who sympathize with the trapped pilot escort the vulnerable machine out of the basin and toward safety.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "where is wizzlecranks shredder",
     "shredder missing"
    ],
-   "answer": "When the shredder is missing from Sludge Fen's northern depression, another traveler has started the ignition and is escorting Wizzlecrank to safety. It returns to its starting place shortly after the escort ends."
+   "answer": "When the shredder is missing from Sludge Fen's northern depression, another traveler has started the ignition and is escorting Wizzlecrank to safety. The shredder returns to its starting place shortly after the escort ends."
   },
   {
    "q": "What is the Venture Company doing at Sludge Fen?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The goblin shredder uses crude steam and piston technology. Pilot Wizzlecrank's predicament shows how easily a proprietary ignition system can fail in the field."
+   "text": "The goblin shredder runs on crude steam and piston technology. Pilot Wizzlecrank's predicament shows how easily a proprietary ignition system can fail in the field."
   },
   {
    "target": "faction:Horde",
@@ -89,5 +89,5 @@
  "attribution": [
   "Wizzlecrank's Shredder"
  ],
- "style": 1
+ "style": 2
 }

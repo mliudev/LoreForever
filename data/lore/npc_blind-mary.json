@@ -8,16 +8,16 @@
   "wiki": "Blind Mary",
   "refs": 4
  },
- "summary": "In a ruined farmhouse southeast of Darkshire, Blind Mary wanders as a tormented banshee. She was once a vain and beautiful mortal woman, but her violent death and transformation drove her to mutilate herself in grief over what she had become.",
+ "summary": "In a ruined farmhouse southeast of Darkshire, Blind Mary wanders as a tormented banshee. Once a vain and beautiful woman, she was slain when the undead swept through Duskwood and rose in a form she could not bear.",
  "sections": [
   {
    "title": "A Tragic Vanity",
-   "body": "Mary was known for her beauty before the shadows fell across Duskwood. She took great pride in it and rarely went without her treasured looking glass. When the undead swept through the region, Mary and many of her neighbors were slain. Her spirit did not find rest in the earth. Instead, she became an ethereal banshee, condemned to wander the mortal realm in a ghastly, translucent form.",
+   "body": "Before the shadows fell across Duskwood, Mary was known for her beauty. She took great pride in it and rarely went without her treasured looking glass. When the undead swept through the region, Mary and many of her neighbors were slain. Her spirit found no rest in the earth. She became an ethereal banshee, condemned to wander the mortal realm in a ghastly, translucent form.",
    "spoiler": 0
   },
   {
    "title": "Blinded by Despair",
-   "body": "When Mary awoke as one of the undead, sorrow, horror, and fury overwhelmed her. She could not bear the sight of her monstrous reflection, so she clawed out her own eyes with her bare hands. She cast away her beloved looking glass and drifted through her abandoned home, blind and weeping, clinging to faint memories of the mortal life she lost.",
+   "body": "Sorrow, horror, and fury overwhelmed Mary when she awoke among the undead. Unable to bear her monstrous reflection, she clawed out her own eyes with her bare hands. She cast away her beloved looking glass and drifted through her abandoned home, blind and weeping. Faint memories of the mortal life she lost were all she could cling to.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "blind mary lore",
     "blind mary duskwood"
    ],
-   "answer": "Blind Mary is a banshee haunting a ruined homestead southeast of Darkshire. She was a beautiful local woman, slain when Duskwood fell into darkness, then raised as an undead spirit."
+   "answer": "Blind Mary haunts a ruined homestead southeast of Darkshire as a banshee. She was a beautiful local woman, slain when Duskwood fell into darkness and raised as an undead spirit."
   },
   {
    "q": "Why is she called Blind Mary?",
@@ -39,7 +39,7 @@
     "how did blind mary lose her eyes",
     "blind mary eyes"
    ],
-   "answer": "Mary clawed out her own eyes because grief and despair over her banshee form made her unable to bear her reflection."
+   "answer": "Grief and despair at her banshee form made Mary unable to bear her reflection, so she clawed out her own eyes."
   },
   {
    "q": "Where does Blind Mary dwell?",
@@ -48,7 +48,7 @@
     "where is blind mary",
     "blind mary haunt"
    ],
-   "answer": "Blind Mary lingers inside a dilapidated farmhouse called Blind Mary's Haunt, southeast of Darkshire in eastern Duskwood."
+   "answer": "Blind Mary lingers in a dilapidated farmhouse called Blind Mary's Haunt, southeast of Darkshire in eastern Duskwood."
   },
   {
    "q": "Is Blind Mary hostile to living travelers?",
@@ -57,7 +57,7 @@
     "does blind mary attack",
     "can you talk to blind mary"
    ],
-   "answer": "Blind Mary does not attack travelers on sight. Unlike the aggressive ghouls and skeletons in the surrounding woods, she remains trapped in mourning and can be spoken to by those who approach her ruined home."
+   "answer": "Blind Mary does not attack travelers on sight. Unlike the aggressive ghouls and skeletons in the surrounding woods, she remains trapped in mourning. Those who approach her ruined home can speak to her."
   },
   {
    "q": "What happened to Mary's looking glass?",
@@ -66,7 +66,7 @@
     "blind mary looking glass",
     "what happened to her mirror"
    ],
-   "answer": "Mary cast away her prized looking glass after tearing out her eyes in horror at her spectral form. It remains lost somewhere in Duskwood's haunted reaches."
+   "answer": "After tearing out her eyes in horror at her spectral form, Mary cast away her prized looking glass. It remains lost somewhere in Duskwood's haunted reaches."
   },
   {
    "q": "Why do adventurers seek out Blind Mary?",
@@ -81,15 +81,15 @@
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "As a tailor, you may seek spectral entities like Mary for ghost hair thread, a delicate material woven from ethereal remnants."
+   "text": "As a tailor, you may seek spectral beings like Mary for ghost hair thread, a delicate material woven from ethereal remnants."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you can see in Mary a soul left untethered by horrific trauma, caught between life and damnation through grief and vanity."
+   "text": "As a priest, you can see a soul left untethered by horrific trauma in Mary, caught between life and damnation through grief and vanity."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance defender, you can see Mary's fate as a reminder of how deeply Duskwood's curse has devastated its everyday townsfolk."
+   "text": "As an Alliance defender, you can see in Mary's fate how deeply Duskwood's curse has devastated its everyday townsfolk."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Blind Mary"
  ],
- "style": 1
+ "style": 2
 }

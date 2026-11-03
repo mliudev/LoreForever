@@ -10,16 +10,16 @@
    "quest:5725"
   ]
  },
- "summary": "Beneath Orgrimmar, Spells of Shadow rests in the hands of Searing Blade cultists. The Forsaken leadership in the Undercity wants the grimoire recovered.",
+ "summary": "Beneath Orgrimmar, Spells of Shadow lies among the Searing Blade’s guarded treasures. The Forsaken leadership in the Undercity wants it recovered.",
  "sections": [
   {
    "title": "Tomes of the Searing Blade",
-   "body": "Searing Blade cultists keep Spells of Shadow among their guarded treasures in Ragefire Chasm. The splinter cult is tied to the Shadow Council, and its members wield dark rites granted by demon masters of the Burning Legion. The book holds shadow and fel sorcery. Cultists and warlocks keep it close as they plot beneath the Horde in Durotar.",
+   "body": "In Ragefire Chasm, Searing Blade cultists guard Spells of Shadow among their treasures. The splinter cult is tied to the Shadow Council, and its members wield dark rites granted by demon masters of the Burning Legion. The book holds shadow and fel sorcery. Cultists and warlocks keep it close as they plot beneath the Horde in Durotar.",
    "spoiler": 0
   },
   {
    "title": "The Dark Lady's Ambition",
-   "body": "Word of the Searing Blade's demonic gifts reached the Undercity's royal quarters. Lady Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, decided the relics were wasted on cultists with lesser vision. Varimathras sends Horde adventurers into Ragefire Chasm to seize Spells of Shadow and its companion tome, Incantations from the Nether. Their power is meant to serve the Forsaken cause against the Scourge and the Lich King.",
+   "body": "Word of the Searing Blade’s demonic gifts reached the Undercity’s royal quarters. Lady Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, judged the relics wasted on cultists with lesser vision. So Varimathras sends Horde adventurers into Ragefire Chasm to seize Spells of Shadow and its companion tome, Incantations from the Nether. Their power is meant to serve the Forsaken cause against the Scourge and the Lich King.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is spells of shadow",
     "shadow spells book rfc"
    ],
-   "answer": "Spells of Shadow is a spellbook held by the Searing Blade cultists in Ragefire Chasm. It contains shadow magic granted by the Burning Legion."
+   "answer": "Searing Blade cultists hold Spells of Shadow in Ragefire Chasm. The spellbook contains shadow magic granted by the Burning Legion."
   },
   {
    "q": "Who wants this book?",
@@ -40,7 +40,7 @@
     "who turns in spells of shadow",
     "spells of shadow quest giver"
    ],
-   "answer": "Varimathras seeks the tome for Lady Sylvanas Windrunner. He is her dreadlord advisor and resides in the Royal Quarter of the Undercity."
+   "answer": "Varimathras seeks Spells of Shadow for Lady Sylvanas Windrunner. Her dreadlord advisor resides in the Royal Quarter of the Undercity."
   },
   {
    "q": "Where can the book be found?",
@@ -49,7 +49,7 @@
     "where to get spells of shadow",
     "how to get spells of shadow"
    ],
-   "answer": "Searing Blade cultists and warlocks carry the book in Ragefire Chasm, fiery caverns beneath Orgrimmar."
+   "answer": "Searing Blade cultists and warlocks carry Spells of Shadow in Ragefire Chasm, the fiery caverns beneath Orgrimmar."
   },
   {
    "q": "Why do the Forsaken want this grimoire?",
@@ -57,13 +57,13 @@
     "why does sylvanas want the book",
     "why does varimathras want spells of shadow"
    ],
-   "answer": "Lady Sylvanas believes the Legion's dark gifts belong in Forsaken hands rather than with lesser cultists. She wants the magic to strengthen the Forsaken against the Scourge and the Lich King."
+   "answer": "Lady Sylvanas believes the Legion’s dark gifts belong in Forsaken hands rather than with lesser cultists. She wants the magic to strengthen the Forsaken against the Scourge and the Lich King."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you help Lady Sylvanas claim dangerous demonic knowledge beneath Orgrimmar and strengthen the Undercity against the Scourge."
+   "text": "As an undead, you help Lady Sylvanas claim dangerous demonic knowledge beneath Orgrimmar. Its power is meant to strengthen the Undercity against the Scourge."
   },
   {
    "target": "class:Warlock",
@@ -94,5 +94,5 @@
   "Spells of Shadow",
   "The Power to Destroy... (Classic)"
  ],
- "style": 1
+ "style": 2
 }

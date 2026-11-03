@@ -10,16 +10,16 @@
    "quest:304"
   ]
  },
- "summary": "At Dun Modr, Balgaras the Foul's ear marks the warlock's end. Recovered from the Dark Iron commander's corpse, it gives Ironforge's mountaineers proof of his death.",
+ "summary": "At Dun Modr, the ear of Balgaras proves the warlock’s command has ended. Ironforge’s mountaineers recover it from the Dark Iron commander’s corpse.",
  "sections": [
   {
    "title": "A Grim Trophy",
-   "body": "Balgaras the Foul commanded the Dark Iron assault on Dun Modr. The invaders sabotaged the Thandol Span and destroyed the local dwarven garrison, leaving the outpost in ruins. A scheming warlock, Balgaras directed his troops from the shadows and shunned personal combat. Longbraid the Grim, the mountain king's officer stationed outside the ruins, wants proof that the ringleader has fallen. Balgaras's severed ear confirms the warlock's reign at the northern border is over.",
+   "body": "Balgaras the Foul led the Dark Iron assault on Dun Modr. His forces sabotaged the Thandol Span and destroyed the dwarven garrison, leaving the outpost in ruins. A scheming warlock, Balgaras directed his troops from the shadows and avoided personal combat. Longbraid the Grim, the mountain king’s officer outside the ruins, wants proof that the ringleader has fallen. Balgaras’s severed ear shows his rule at the northern border is over.",
    "spoiler": 0
   },
   {
    "title": "Justice for the Fallen",
-   "body": "Dun Modr's fall cost Longbraid his brother and dozens of stout soldiers in the collapse of the West Bridge. The ear cannot mend the span or revive the fallen. With Balgaras unable to direct them, the surviving Dark Iron forces scattered through the northern Wetlands become easier for Ironforge's scouts to contain before another commander arrives from the south.",
+   "body": "Dun Modr’s fall cost Longbraid his brother and dozens of stout soldiers when the West Bridge collapsed. The ear cannot mend the span or bring back the dead. Without Balgaras to direct them, the surviving Dark Iron forces scattered through the northern Wetlands are easier for Ironforge’s scouts to contain before another commander arrives from the south.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "balgaras lore",
     "balgaras the foul"
    ],
-   "answer": "Balgaras the Foul was a Dark Iron dwarf warlock who commanded the warband that struck Dun Modr and destroyed the West Bridge of the Thandol Span. Notorious for cowardice, he sent waves of soldiers to die while hiding from Alliance patrols."
+   "answer": "Balgaras the Foul was a Dark Iron dwarf warlock who led the warband that struck Dun Modr and destroyed the West Bridge of the Thandol Span. Known for cowardice, he sent waves of soldiers to die while hiding from Alliance patrols."
   },
   {
    "q": "Why does Longbraid the Grim want his ear specifically?",
@@ -40,7 +40,7 @@
     "why cut off the ear",
     "longbraid proof"
    ],
-   "answer": "Longbraid the Grim wants proof that the elusive warlock has been slain. A severed ear is a classic frontier trophy that verifies the contract without making the bearer haul a corpse back to the dwarven camp."
+   "answer": "Longbraid the Grim wants proof that the elusive warlock is dead. A severed ear is a classic frontier trophy, confirming the contract without forcing its bearer to haul a corpse back to the dwarven camp."
   },
   {
    "q": "What happens to the Dark Irons once Balgaras is dead?",
@@ -48,17 +48,17 @@
     "what happens after balgaras dies",
     "dark irons in dun modr"
    ],
-   "answer": "Without their calculating leader, the surviving Dark Iron forces in Dun Modr lose cohesion. Though they still haunt the ruins, Longbraid believes the Alliance can manage them before Ironforge's enemies send a replacement commander."
+   "answer": "Without their calculating leader, the surviving Dark Iron forces in Dun Modr lose cohesion. They still haunt the ruins, but Longbraid believes the Alliance can contain them before Ironforge’s enemies send a replacement commander."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For Ironforge dwarves, claiming the ear settles a bloody score for the kinsmen slaughtered during the Thandol Span sabotage."
+   "text": "For Ironforge dwarves, claiming the ear settles a bloody score for the kinsmen killed during the Thandol Span sabotage."
   },
   {
    "target": "class:Warlock",
-   "text": "Balgaras wielded shadow and fel arts from hiding. His defeat puts down an errant practitioner who brought ruin to the northern road."
+   "text": "Balgaras wielded shadow and fel arts from hiding. His defeat ends the threat of a warlock who brought ruin to the northern road."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
   "Ear of Balgaras",
   "A Grim Task"
  ],
- "style": 1
+ "style": 2
 }

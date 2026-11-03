@@ -17,16 +17,16 @@
   "wiki": "Twisted Hatred",
   "chain": []
  },
- "summary": "Tallonkai Swiftroot sends trusted champions into Fel Rock to stop Lord Melenas. The satyr has rallied the cave’s grell into an organized force, threatening night elf settlements near Teldrassil.",
+ "summary": "Near Teldrassil’s settlements, Lord Melenas has rallied the grell at Fel Rock. Tallonkai Swiftroot sends trusted champions to stop the satyr before he threatens the night elves.",
  "sections": [
   {
    "title": "A Bitter Disgrace",
-   "body": "Satyrs recall an ancient betrayal that still stains kaldorei history. They were Highborne who gave themselves to the Burning Legion during the War of the Ancients. Now one has made a foothold on Teldrassil, the young World Tree meant to be a sanctuary. For defenders like Tallonkai Swiftroot, that presence is a bitter disgrace.",
+   "body": "Satyrs carry an ancient betrayal in kaldorei history. During the War of the Ancients, they were Highborne who gave themselves to the Burning Legion. Now one has taken hold on Teldrassil, the young World Tree meant as a sanctuary. For Tallonkai Swiftroot and the defenders who stand with him, that presence is a bitter disgrace.",
    "spoiler": 0
   },
   {
    "title": "The Threat at Fel Rock",
-   "body": "Fel Rock lies north of the nearby paths, its corrupted caverns crawling with feral grell. Lord Melenas has gathered the chaotic creatures into a hostile force under his will. Tallonkai fears what the satyr may unleash on the World Tree’s boughs, and demands a swift, quiet end. He wants Melenas eliminated and his severed head brought back.",
+   "body": "North of the nearby paths, Fel Rock’s corrupted caverns crawl with feral grell. Lord Melenas has gathered the chaotic creatures into a hostile force under his will. Tallonkai fears what the satyr may unleash upon the World Tree’s boughs, and demands a swift, quiet end. He wants Melenas slain and his severed head brought back.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
     "why are grell following melenas",
     "satyr grell connection"
    ],
-   "answer": "Grell are small, mischievous, naturally corrupted wild creatures found across Teldrassil. Satyrs can bully or bend these lesser creatures to serve their ambitions."
+   "answer": "Grell are small, mischievous wild creatures, naturally corrupted and found across Teldrassil. Satyrs can bully or bend these lesser creatures to serve their ambitions."
   },
   {
    "q": "Why are there satyrs on Teldrassil in the first place?",
@@ -74,7 +74,7 @@
     "how did satyrs get here",
     "teldrassil corruption"
    ],
-   "answer": "Teldrassil was grown only a few years ago, and corruption and dark beings quickly reached the island despite the druids’ hopes for a clean sanctuary. Satyrs slipped in and made footholds in shadowy places like Fel Rock."
+   "answer": "Teldrassil was grown only a few years ago, yet corruption and dark beings quickly reached the island despite the druids’ hopes for a clean sanctuary. Satyrs slipped in and made footholds in shadowy places like Fel Rock."
   },
   {
    "q": "Who is Tallonkai Swiftroot?",
@@ -82,7 +82,7 @@
     "tallonkai",
     "who gives twisted hatred"
    ],
-   "answer": "Tallonkai Swiftroot is a night elf guardian stationed near Dolanaar. He watches for threats to Teldrassil and sends adventurers to deal with nearby pockets of corruption."
+   "answer": "Tallonkai Swiftroot is a night elf guardian stationed near Dolanaar. He watches for threats to Teldrassil and sends adventurers against nearby pockets of corruption."
   }
  ],
  "angles": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Twisted Hatred"
  ],
- "style": 1
+ "style": 2
 }

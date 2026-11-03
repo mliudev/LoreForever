@@ -8,11 +8,11 @@
   "wiki": "Uzzek",
   "refs": 2
  },
- "summary": "Uzzek watches the eastern Barrens from southwest of Far Watch Post. The battle-hardened orc survived many skirmishes across Kalimdor and now tests and trains promising Horde warriors crossing the plains.",
+ "summary": "Southwest of Far Watch Post, Uzzek trains warriors crossing the eastern Barrens. The battle-hardened orc survived many skirmishes across Kalimdor and now tests promising Horde fighters.",
  "sections": [
   {
    "title": "Veteran of the Plains",
-   "body": "Uzzek trains young warriors southwest of Far Watch Post, near the eastern edge of the Barrens. He endured brutal combat in the recent wars and now tests those learning to defend themselves. To prove their skill, they face the savage wildlife and raiders that trouble the crossing.",
+   "body": "Southwest of Far Watch Post, Uzzek trains young warriors near the eastern edge of the Barrens. He endured brutal combat in the recent wars. Now he tests those learning to defend themselves against the savage wildlife and raiders troubling the crossing.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "uzzek lore",
     "uzzek npc"
    ],
-   "answer": "Uzzek is a veteran orc warrior stationed in the eastern Barrens, just southwest of Far Watch Post. He guides aspiring Horde warriors learning defensive combat."
+   "answer": "Uzzek is a veteran orc warrior stationed in the eastern Barrens, just southwest of Far Watch Post. He guides aspiring Horde warriors in defensive combat."
   },
   {
    "q": "Where can I find Uzzek?",
@@ -33,7 +33,7 @@
     "where is uzzek",
     "find uzzek"
    ],
-   "answer": "You can find Uzzek along the bluffs southwest of Far Watch Post, overlooking the road from Durotar into the Barrens."
+   "answer": "You can find Uzzek along the bluffs southwest of Far Watch Post. From there, he overlooks the road from Durotar into the Barrens."
   },
   {
    "q": "What role does Uzzek play for Horde warriors?",
@@ -51,7 +51,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you find Uzzek near Far Watch Post, among the veteran defenders watching the vulnerable border between Durotar and the untamed savanna."
+   "text": "As a member of the Horde, you find Uzzek near Far Watch Post. He stands among veteran defenders watching the vulnerable border between Durotar and the untamed savanna."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Uzzek"
  ],
- "style": 1
+ "style": 2
 }

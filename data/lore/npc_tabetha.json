@@ -8,16 +8,16 @@
   "wiki": "Tabetha",
   "refs": 2
  },
- "summary": "Tabetha is a reclusive, powerful human mage dwelling deep within Dustwallow Marsh at an isolated farmstead in the Quagmire. Far from the politics of Dalaran or Theramore, she instructs aspiring spellcasters and aids those seeking mastery over potent arcane and occult relics.",
+ "summary": "At her farmstead deep in the Quagmire, Tabetha teaches aspiring spellcasters and aids those seeking mastery of arcane and occult relics.",
  "sections": [
   {
    "title": "Hermit of the Quagmire",
-   "body": "Hidden away in the sodden expanse of Dustwallow Marsh north of the Stonemaul Ruins, Tabetha lives in a secluded shack alongside her apprentices. Surrounding herself with alchemical vials and ancient tomes, she has deliberately chosen solitude over the academic hierarchies of the Eastern Kingdoms. Despite her remote location, her mastery of the arcane is renowned enough that spellcasters across Kalimdor brave beasts and mire alike to seek her guidance.",
+   "body": "North of the Stonemaul Ruins, Tabetha lives in a secluded shack with her apprentices. She chose solitude over the academic hierarchies of the Eastern Kingdoms. Spellcasters cross Kalimdor's beasts and mire to seek her guidance, drawn by her mastery of the arcane.",
    "spoiler": 0
   },
   {
    "title": "A Neutral Mentor",
-   "body": "Tabetha stands notably apart from factional hostilities. While human by birth, she turns away neither Alliance nor Horde initiates who demonstrate the will to learn, providing tutelage to mages and assisting warlocks with dangerous bindings such as the Orb of Orahil. Her past connects her to figures like Menara Voidrender, revealing an extensive history with esoteric magic that transcends simple faction allegiance.",
+   "body": "Tabetha welcomes Alliance and Horde initiates who are willing to learn. Though human, she teaches mages and helps warlocks with dangerous bindings such as the Orb of Orahil. Her history with Menara Voidrender reaches into esoteric magic beyond faction allegiance.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is tabetha",
     "tabetha farm map"
    ],
-   "answer": "Tabetha lives in a secluded shack at Tabetha's Farm, situated deep within the Quagmire in western Dustwallow Marsh, just north of the Stonemaul Ruins."
+   "answer": "Tabetha lives at Tabetha's Farm, in a secluded shack deep in the Quagmire of western Dustwallow Marsh, just north of the Stonemaul Ruins."
   },
   {
    "q": "Is Tabetha hostile to Horde players?",
@@ -38,7 +38,7 @@
     "can horde talk to tabetha",
     "tabetha faction"
    ],
-   "answer": "No. Despite being human, Tabetha is neutral. She teaches apprentices and aids spellcasters of both the Horde and the Alliance without discrimination."
+   "answer": "No. Though human, Tabetha is neutral. She teaches apprentices and aids spellcasters from both the Horde and the Alliance."
   },
   {
    "q": "Why do mages and warlocks seek her out?",
@@ -47,7 +47,7 @@
     "tabetha class quest",
     "orb of orahil tabetha"
    ],
-   "answer": "Tabetha possesses rare knowledge regarding arcane rituals, magical foci, and binding rites. Mages consult her for craft mastery and power trials, while warlocks seek her expertise to cleanse or bind potent artifacts like the Orb of Orahil."
+   "answer": "Mages and warlocks seek Tabetha for her knowledge of arcane rituals, magical foci, and binding rites. Mages ask her about craft mastery and power trials, while warlocks seek help to cleanse or bind potent artifacts such as the Orb of Orahil."
   },
   {
    "q": "What is her connection to Menara Voidrender?",
@@ -55,17 +55,17 @@
     "tabetha and menara",
     "menara voidrender history"
    ],
-   "answer": "Tabetha shares an established history with Menara Voidrender. While their paths have diverged, their mutual understanding of powerful relics and binding magic links them across their respective hermitages."
+   "answer": "Tabetha shares a history with Menara Voidrender. Though their paths have diverged, their knowledge of powerful relics and binding magic connects them across their separate hermitages."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Tabetha is an essential mentor for mid-level mages, testing your grasp of arcane rituals and sending you across dangerous lands like Uldaman to refine your craft."
+   "text": "As a mage, you can turn to Tabetha for guidance as you test your grasp of arcane rituals and refine your craft in dangerous lands like Uldaman."
   },
   {
    "target": "class:Warlock",
-   "text": "Though she practices the arcane, Tabetha's deep understanding of magical relics makes her a critical guide when dealing with dangerous artifacts like the Infernal Orb and the Orb of Orahil."
+   "text": "As a warlock, you can turn to Tabetha for help with dangerous magical relics such as the Infernal Orb and the Orb of Orahil."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Tabetha"
- ]
+ ],
+ "style": 2
 }

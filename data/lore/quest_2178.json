@@ -17,11 +17,11 @@
   "wiki": "Easy Strider Living",
   "chain": []
  },
- "summary": "In Auberdine, Alanndarian Nightsong offers to share her strider stew recipe with hunters who bring her foreststrider meat.",
+ "summary": "In Auberdine, Alanndarian Nightsong offers hunters her own recipe for strider stew if they bring her foreststrider meat.",
  "sections": [
   {
    "title": "A Taste of the Wild",
-   "body": "Auberdine's coastal folk make use of the wildlife around them. Alanndarian Nightsong has her own recipe for hearty strider stew, made from the tall foreststriders that roam Darkshore's woods. She asks you to hunt the birds and bring back their meat before she shares her cooking.",
+   "body": "Auberdine's coastal folk make use of the wildlife around them. Alanndarian Nightsong has her own recipe for hearty strider stew, made from the tall foreststriders that range through Darkshore's woods. She asks you to hunt the birds and bring back their meat before she shares her cooking.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "where are foreststriders",
     "how to get strider meat"
    ],
-   "answer": "Hunt foreststriders across Darkshore for their meat. The large, flightless birds roam the shorelines and wooded groves outside Auberdine."
+   "answer": "Hunt foreststriders across Darkshore for their meat. The large, flightless birds range along the shorelines and through wooded groves outside Auberdine."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -116,5 +116,5 @@
  "attribution": [
   "Easy Strider Living"
  ],
- "style": 1
+ "style": 2
 }

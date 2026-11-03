@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ruins of Ravenwind"
  },
- "summary": "The Ruins of Ravenwind are the shattered remnants of an ancient Highborne city nestled in northern Feralas. Today, the crumbling marble structures are heavily infested by the vicious Northspring harpies and guarded by brooding dragonkin.",
+ "summary": "In northern Feralas, harpies nest among the Ruins of Ravenwind as dragonkin watch the broken stone. The marble once belonged to an ancient Highborne city.",
  "sections": [
   {
    "title": "Echoes of the Highborne",
-   "body": "Much like the great city of Dire Maul to the east, the Ruins of Ravenwind stand as a solemn monument to the height and hubris of ancient Highborne civilization before the Great Sundering. Long abandoned by its original kaldorei architects, the site has succumbed to creeping wild foliage, forgotten arcane altars, and the foul roosts of Northspring harpies who prey on anything wandering beneath the shattered arches.",
+   "body": "Before the Great Sundering, the Highborne ruled from Ravenwind at the height of their power. Like Dire Maul to the east, the kaldorei city was abandoned long ago.\n\nNow foliage winds through broken arches and forgotten arcane altars. Northspring harpies roost there and prey on anything that wanders beneath the stone.",
    "spoiler": 0
   },
   {
    "title": "A Confluence of Wild Dangers",
-   "body": "Beyond the screeching harpies, Ravenwind is bordered by diverse and territorial threats. Fierce green dragonkin known as the Jaedemir circle the central groves and waterways, guarding ancient arboreal sites. Meanwhile, stray wanderers\u2014from distracted night elf explorers to peculiar, solitary gnolls lingering nearby\u2014frequently find themselves trapped in the crossfire of the ruins' lingering magics and wild predators.",
+   "body": "Northspring harpies are not the only danger near Ravenwind. Fierce green dragonkin called the Jaedemir circle the central groves and waterways, guarding ancient arboreal sites.\n\nNight elf explorers and solitary gnolls sometimes wander nearby. Lingering magic and wild predators can trap them among the ruins.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "ravenwind history",
     "ruins of ravenwind origins"
    ],
-   "answer": "The settlement was constructed millennia ago by the Highborne, the aristocratic upper class of the ancient kaldorei civilization. Following the Sundering, it fell into ruin much like Dire Maul and other elven monuments across Feralas."
+   "answer": "The Highborne, the aristocratic upper class of the ancient kaldorei, built Ravenwind millennia ago. After the Sundering, it fell into ruin, like Dire Maul and other elven monuments across Feralas."
   },
   {
    "q": "What currently infests the ruins?",
@@ -37,7 +37,7 @@
     "what lives in ravenwind",
     "ravenwind harpies"
    ],
-   "answer": "The ruins are overrun by Northspring harpies, savage avian beasts who nest among the broken stonework. In addition, dragonkin of the Jaedemir flight prowl the surrounding waters and central grove, ferociously guarding the local flora."
+   "answer": "Northspring harpies nest among the broken stonework, while dragonkin of the Jaedemir flight prowl the surrounding waters and central grove. They fiercely guard the local flora."
   },
   {
    "q": "Why does the Alliance visit this area?",
@@ -45,17 +45,17 @@
     "alliance ravenwind quest",
     "feathermoon ravenwind"
    ],
-   "answer": "Alliance scholars and sentinels stationed at Feathermoon Stronghold dispatch adventurers here to uncover lost arcane relics and interact with ancient altars to recharge powerful artifacts like the Stave of Equinex."
+   "answer": "Alliance scholars and sentinels at Feathermoon Stronghold send adventurers to seek lost arcane relics. They also use ancient altars to recharge powerful artifacts such as the Stave of Equinex."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, these ruins serve as a bitter reminder of the reckless arcane empire that tore ancient Kalimdor apart, now desecrated by harpies and wild beasts."
+   "text": "For the kaldorei, these ruins recall the reckless arcane empire that tore ancient Kalimdor apart. Harpies and wild beasts now foul the site."
   },
   {
    "target": "faction:Alliance",
-   "text": "Outposts like Feathermoon Stronghold keep a careful eye on Ravenwind, sending brave scouts to recover potent magical relics before feral creatures or darker powers consume them."
+   "text": "From Feathermoon Stronghold, Alliance outposts keep watch on Ravenwind. Scouts seek potent magical relics before feral creatures or darker powers consume them."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Ruins of Ravenwind"
- ]
+ ],
+ "style": 2
 }

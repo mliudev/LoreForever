@@ -26,21 +26,21 @@
    "Razorhide"
   ]
  },
- "summary": "Mangletooth bargains for help against the Bristleback from his cage in Camp Taurajo. The captive Razormane quilboar offers intelligence about quilboar incursions in exchange for the deaths of rival spiritual leaders.",
+ "summary": "From his cage in Camp Taurajo, Mangletooth bargains for help against the Bristleback. The Razormane captive offers intelligence about quilboar attacks in exchange for the deaths of rival spiritual leaders.",
  "sections": [
   {
    "title": "A Prisoner's Bargain",
-   "body": "Mangletooth, a Razormane quilboar, is held in Camp Taurajo by the tauren. The Barrens has long been contested by two powerful quilboar tribes, the Razormane and the Bristleback. The Horde struggles to secure its settlements and supply lines against sudden ambushes. Mangletooth offers insight into who is tormenting Thork's outpost, but he asks a Horde champion to kill the Bristleback's most revered casters.",
+   "body": "The tauren hold Mangletooth, a Razormane quilboar, in Camp Taurajo. For years, the Razormane and Bristleback have contested the Barrens. Their sudden ambushes make it hard for the Horde to secure its settlements and supply lines. Mangletooth offers to explain who is tormenting Thork's outpost, but first he asks a Horde champion to kill the Bristleback's most revered casters.",
    "spoiler": 0
   },
   {
    "title": "Targeting the Earthweavers",
-   "body": "Mangletooth sends you north to strike at the Bristleback's spiritual heart: its Water Seekers, Thornweavers, and Geomancers. Both tribes revere the earth and draw power from ancient magic tied to their demigod progenitor, Agamaggan. Killing the casters weakens Bristleback rituals, leaves the tribe vulnerable to Razormane rivals, and eases pressure on nearby trails.",
+   "body": "Mangletooth sends you north to strike at the Bristleback's spiritual heart: its Water Seekers, Thornweavers, and Geomancers. Both tribes revere the earth and draw power from ancient magic tied to their demigod progenitor, Agamaggan. Killing these casters weakens Bristleback rituals and leaves the tribe open to Razormane rivals. It also eases pressure on nearby trails.",
    "spoiler": 0
   },
   {
    "title": "Bitter Revelations",
-   "body": "Mangletooth finds no peace in vengeance after the Bristleback losses. Rage replaces any celebration as he faces his own abandonment. Though he has arranged strikes to aid his tribe from behind iron bars, the Razormane have sent no rescue party to Camp Taurajo. Spurned and forgotten, Mangletooth turns to deeper quilboar secrets and the power of Agamaggan's blood.",
+   "body": "Mangletooth finds no peace in vengeance after the Bristleback losses. Rage takes the place of celebration as he faces his own abandonment. He arranged strikes to aid his tribe from behind iron bars, yet the Razormane sent no rescue party to Camp Taurajo.\n\nSpurned and forgotten, Mangletooth turns to deeper quilboar secrets and the power of Agamaggan's blood.",
    "spoiler": 1
   }
  ],
@@ -61,7 +61,7 @@
     "why do quilboar fight each other",
     "quilboar war"
    ],
-   "answer": "The Razormane and Bristleback are rival quilboar tribes fighting for territory, scarce water, and the Barrens' sacred thorn-covered grounds. Though both share a spiritual lineage tied to the Great Boar Agamaggan, they despise each other and clash over control of the plains."
+   "answer": "The Razormane and Bristleback are rival quilboar tribes fighting for territory, scarce water, and the Barrens' sacred thorn-covered grounds. Both share a spiritual lineage tied to the Great Boar Agamaggan, yet they despise each other and clash over control of the plains."
   },
   {
    "q": "Why does Mangletooth want their spiritual leaders dead specifically?",
@@ -107,7 +107,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can see how quilboar geomancers bend earth and stone through ancient pacts with spirits, a crude but potent distortion of elemental reverence."
+   "text": "As a shaman, you can see how quilboar geomancers bend earth and stone through ancient pacts with spirits. Their ways distort elemental reverence, yet remain potent."
   },
   {
    "target": "race:Tauren",
@@ -139,5 +139,5 @@
  "attribution": [
   "Tribes at War"
  ],
- "style": 1
+ "style": 2
 }

@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Desolace"
  },
- "summary": "Rackmore's log tells of a ship bound for Feathermoon Stronghold that was set upon by creatures of the sea. To keep his treasure from his enemies, Rackmore hid the chest on Ranazjar Isle, and the silver key and golden key that open it are lost.",
+ "summary": "During Claim Rackmore's Treasure!, Rackmore's log tells of a ship attacked on its way to Feathermoon Stronghold. He hid his treasure chest on Ranazjar Isle to keep it from his enemies, but both keys to open it were lost.",
  "sections": [
   {
    "title": "A Hidden Chest",
-   "body": "The log says Rackmore's ship was on its way to Feathermoon Stronghold when seafaring creatures attacked it. Hoping to keep his treasure from his enemies, he hid the chest on Ranazjar Isle. Two keys open it, one silver and one gold, and both were lost. Someone who finds the keys and the chest will find a treasure.",
+   "body": "Rackmore's log tells of seafaring creatures attacking his ship on its way to Feathermoon Stronghold. He hid his treasure chest on Ranazjar Isle to keep it from his enemies. Both keys needed to open it were lost, one silver and one gold. Whoever finds the keys and the chest will find a treasure.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "where was rackmore going",
     "rackmore ship route"
    ],
-   "answer": "His log says his ship was on its way to Feathermoon Stronghold when seafaring creatures attacked."
+   "answer": "Rackmore's ship was on its way to Feathermoon Stronghold when seafaring creatures attacked it."
   },
   {
    "q": "Where is Rackmore's chest hidden?",
@@ -43,7 +43,7 @@
     "rackmore chest location",
     "ranazjar isle chest"
    ],
-   "answer": "On Ranazjar Isle, where Rackmore hid it."
+   "answer": "Rackmore hid the chest on Ranazjar Isle."
   },
   {
    "q": "What is needed to unlock the chest?",
@@ -52,7 +52,7 @@
     "how to open rackmore's chest",
     "what opens rackmore chest"
    ],
-   "answer": "Two keys, Rackmore's Silver Key and Rackmore's Golden Key. Both were lost."
+   "answer": "Two keys are needed to open the chest, one silver and one gold. Both were lost."
   },
   {
    "q": "Why did Rackmore hide his treasure?",
@@ -60,7 +60,7 @@
     "why hide rackmore treasure",
     "rackmore treasure motive"
    ],
-   "answer": "His ship came under attack, and he hid the chest on Ranazjar Isle so the treasure would not fall into enemy hands."
+   "answer": "Rackmore hid the chest on Ranazjar Isle to keep his treasure from his enemies after seafaring creatures attacked his ship."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Claim Rackmore's Treasure!"
- ]
+ ],
+ "style": 2
 }

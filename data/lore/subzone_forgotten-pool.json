@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Forgotten Pool"
  },
- "summary": "Past the Moonshrine Ruins, Forgotten Pool lies beneath the flooded halls of Blackfathom Deeps. Its dark waters hide monstrous deep-sea predators.",
+ "summary": "Beyond the Moonshrine Ruins, Forgotten Pool lies beneath Blackfathom Deeps. Monstrous deep-sea predators haunt its dark waters.",
  "sections": [
   {
    "title": "A Submerged Lair",
-   "body": "You reach Forgotten Pool by diving through the sunken waterways beyond the Moonshrine Ruins. Dark water fills this isolated cavern, cut off from dry ground. Twilight's Hammer cultists chant nearby, and naga patrol the flooded halls, but the pool lies apart from them. Old Serra'kis, an ancient aquatic terror, lairs in its depths, hidden by the water.",
+   "body": "Dive through the sunken waterways beyond the Moonshrine Ruins to reach Forgotten Pool. Dark water fills this isolated cavern, cut off from dry ground.\n\nNearby, Twilight's Hammer cultists chant and naga patrol the flooded halls. The pool lies apart from them. Old Serra'kis, an ancient aquatic terror, lairs hidden in its depths.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "forgotten pool location",
     "how to find forgotten pool"
    ],
-   "answer": "Forgotten Pool lies deep within Blackfathom Deeps, beyond the Moonshrine Ruins. You reach the submerged cavern by swimming through flooded tunnels."
+   "answer": "Forgotten Pool lies deep within Blackfathom Deeps, beyond the Moonshrine Ruins. Swim through flooded tunnels to reach the submerged cavern."
   },
   {
    "q": "What lurks inside the Forgotten Pool?",
@@ -32,7 +32,7 @@
     "who lives in forgotten pool",
     "forgotten pool boss"
    ],
-   "answer": "Old Serra'kis, an ancient thresher-like beast of the deep waters, lurks in Forgotten Pool. The secluded cavern is its lair."
+   "answer": "Old Serra'kis, an ancient thresher-like beast, lurks in Forgotten Pool. The secluded cavern is its lair."
   },
   {
    "q": "Does the Forgotten Pool lead anywhere else?",
@@ -68,5 +68,5 @@
  "attribution": [
   "Forgotten Pool"
  ],
- "style": 1
+ "style": 2
 }

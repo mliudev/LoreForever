@@ -11,16 +11,16 @@
    "quest:6386"
   ]
  },
- "summary": "Innkeeper Gryshka sends a note of thanks to Zargh at the Crossroads after receiving fresh meat. The letter also introduces young Horde couriers to the wind rider flight network.",
+ "summary": "Innkeeper Gryshka sends Zargh a note of thanks after receiving fresh meat from the Barrens. Her letter also introduces young Horde couriers to the wind rider routes.",
  "sections": [
   {
    "title": "A Grateful Innkeeper",
-   "body": "Innkeeper Gryshka thanks Zargh for the steaks he sends from the Barrens to Orgrimmar's central tavern. She recalls the time he lost a finger while preparing meat, then teases that he looks handsome even when bloodied by his trade.",
+   "body": "Innkeeper Gryshka thanks Zargh for the steaks he sends from the Barrens to Orgrimmar. She remembers when he lost a finger preparing meat. Even bloodied by his trade, she tells him, he still looks handsome.",
    "spoiler": 0
   },
   {
    "title": "Courier Along the Flight Paths",
-   "body": "To return Gryshka's Letter to the Crossroads, you report to Doras, the wind rider master atop Orgrimmar's plateau. Show him that you have already checked in with Devrak at the Crossroads, and Doras introduces young couriers to the wyvern flight paths linking settlements in Durotar and the Barrens.",
+   "body": "To return Gryshka's Letter to the Crossroads, you report to Doras, the wind rider master atop Orgrimmar's plateau. Show him you have already checked in with Devrak at the Crossroads. Then Doras introduces young couriers to the wyvern flight paths linking settlements in Durotar and the Barrens.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "what does gryshka say",
     "letter contents"
    ],
-   "answer": "Gryshka thanks Zargh for his cuts, recalls the accident when he lost a finger while preparing meat, and teases that he looks handsome even when bloodied."
+   "answer": "Gryshka thanks Zargh for his cuts and recalls when he lost a finger preparing meat. She teases that he looks handsome even when bloodied."
   },
   {
    "q": "Why does Doras need to see the letter?",
@@ -65,7 +65,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Delivering Gryshka's Letter introduces young Horde adventurers to the wyvern flight master network linking Durotar and the Barrens."
+   "text": "Delivering Gryshka's Letter introduces young Horde adventurers to the wyvern flight network linking Durotar and the Barrens."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Doras the Wind Rider Master (Classic)",
   "Return to the Crossroads."
  ],
- "style": 1
+ "style": 2
 }

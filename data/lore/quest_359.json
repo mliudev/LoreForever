@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Maintaining vigilance against the Scourge is vital for the Forsaken, as any breach along the border directly threatens Brill and the newly claimed Undercity."
+   "text": "As an Undead, you know a breach in the border threatens Brill and the Forsaken's newly claimed Undercity."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing Tirisfal Glades against Scourge incursions ensures the Horde maintains a reliable foothold in northern Lordaeron."
+   "text": "As a member of the Horde, you know that guarding Tirisfal Glades against Scourge incursions preserves a reliable foothold in northern Lordaeron."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "who starts forsaken duties",
     "sevren quest"
    ],
-   "answer": "Magistrate Sevren, stationed in Brill, tasks travelers with retrieving an updated reconnaissance report from the eastern Deathguard outpost.",
+   "answer": "Magistrate Sevren in Brill asks you to bring back an updated report from the eastern Deathguard outpost.",
    "q": "Who gives the quest Forsaken Duties?"
   },
   {
@@ -37,7 +37,7 @@
     "deathguard linnea location",
     "where is linnea"
    ],
-   "answer": "Deathguard Linnea is stationed at the Deathguard waystation east of Brill, monitoring movements along the road and guarding the approaches toward the Plaguelands.",
+   "answer": "Deathguard Linnea is stationed at the Deathguard waystation east of Brill. She watches the road and guards the approaches to the Plaguelands.",
    "q": "Who is Deathguard Linnea?"
   },
   {
@@ -46,7 +46,7 @@
     "bulwark defense",
     "why is the bulwark important"
    ],
-   "answer": "The Bulwark is the fortified border outpost separating Tirisfal Glades from the Western Plaguelands, manned to prevent the Scourge from overrunning Forsaken lands.",
+   "answer": "The Bulwark is a fortified border outpost between Tirisfal Glades and the Western Plaguelands. Its defenders keep the Scourge from overrunning Forsaken lands.",
    "q": "What is The Bulwark?"
   },
   {
@@ -55,7 +55,7 @@
     "balnir farmstead scourge",
     "where are the scourge leaking through"
    ],
-   "answer": "While defenders at The Bulwark hold back the bulk of the undead army, stray Scourge forces slip through and gather around the Balnir Farmstead east of the waystation.",
+   "answer": "Small Scourge groups sometimes slip past The Bulwark and gather around Balnir Farmstead, east of the waystation.",
    "q": "Where are Scourge slipping past the border?"
   },
   {
@@ -63,7 +63,7 @@
     "why does sevren need a report",
     "sevren concern"
    ],
-   "answer": "Magistrate Sevren needs to ensure that the Scourge cannot establish a strong foothold within Tirisfal Glades, demanding constant vigilance from the Deathguard.",
+   "answer": "Magistrate Sevren wants to keep the Scourge from gaining a strong foothold in Tirisfal Glades. The Deathguard must stay vigilant.",
    "q": "Why does Magistrate Sevren want a status report?"
   },
   {
@@ -71,7 +71,7 @@
     "where is the waystation",
     "how to reach linnea"
    ],
-   "answer": "To reach the waystation from Brill, travelers follow the road south and turn east at the fork toward the eastern reaches of Tirisfal Glades.",
+   "answer": "From Brill, follow the road south, then turn east at the fork toward Tirisfal Glades' eastern reaches.",
    "q": "How do you get to Deathguard Linnea's post?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "Magistrate Sevren oversees the security of Brill and the surrounding countryside, keeping a nervous eye on the eastern borders of Tirisfal Glades. With the Scourge swarming across the Western Plaguelands, Sevren requires constant reconnaissance from frontline sentries to ensure undead horrors do not slip past the perimeter unnoticed. Travelers willing to assist are dispatched south and east down the main thoroughfare to gather an urgent tactical assessment from Deathguard Linnea.",
+   "body": "Magistrate Sevren watches over Brill and the countryside, keeping wary eyes on Tirisfal Glades' eastern border. The Scourge swarm across the Western Plaguelands, so sentries must report what they see. Sevren sends you south along the main road, then east, to bring back Deathguard Linnea's assessment.",
    "spoiler": 0,
    "title": "Vigilance on the Border"
   },
   {
-   "body": "Stationed at an eastern outpost along the road, Deathguard Linnea observes the frontier firsthand. Her findings confirm the magistrates fears: while the fortified position at The Bulwark successfully holds off the main Scourge host, small groups of undead manage to bypass the defenses on occasion. These stray forces have begun congregating around the nearby Balnir Farmstead, posing a localized but dangerous threat to Tirisfal Glades.",
+   "body": "Deathguard Linnea watches the frontier from an outpost beside the eastern road. Her report confirms Sevren's fears. The Bulwark holds the main Scourge host, but small groups sometimes slip past its defenses. Those strays gather around nearby Balnir Farmstead, threatening Tirisfal Glades.",
    "spoiler": 0,
    "title": "Reports from the Front"
   }
  ],
- "summary": "Forsaken Duties is a reconnaissance mission assigned by Magistrate Sevren in Brill to assess Scourge activity along the eastern perimeter of Tirisfal Glades. It establishes the constant threat posed by the Scourge slipping past The Bulwark and endangering local settlements.",
+ "summary": "Magistrate Sevren needs word from Tirisfal Glades' eastern border. He fears Scourge may slip past The Bulwark and threaten nearby settlements.",
  "attribution": [
   "In-game quest text: Forsaken Duties"
- ]
+ ],
+ "style": 2
 }

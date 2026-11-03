@@ -10,16 +10,16 @@
    "quest:6127"
   ]
  },
- "summary": "At Dreadmist Peak, a filled sampler holds water gathered by Horde druids from the summit pools. The Cenarion Circle studies the sample to learn what is poisoning wildlife in the northern Barrens.",
+ "summary": "At Dreadmist Peak, Horde druids gather water from the summit pools for study. The Cenarion Circle seeks to learn what is poisoning wildlife in the northern Barrens.",
  "sections": [
   {
    "title": "A Tainted Source",
-   "body": "Dreadmist Peak’s high crags hold pools whose mists shape weather and rainfall across the northern Barrens. The Burning Blade, who worship demons, made their coven atop the summit, and the water soon soured. Cenarion druids suspect demonic rites poisoned the vapors that feed the surrounding savanna. They send initiates to collect a sample in a special sampler. The foul liquid confirms their fears: its corruption can sicken the herds below.",
+   "body": "Dreadmist Peak’s high crags hold pools whose mists shape weather and rainfall across the northern Barrens. The Burning Blade worship demons and made their coven atop the summit. Soon the water soured. Cenarion druids suspect demonic rites poisoned the vapors that feed the surrounding savanna.\n\nThey send initiates to collect a sample in a special sampler. The foul liquid confirms their fears. Its corruption can sicken the herds below.",
    "spoiler": 0
   },
   {
    "title": "Curing the Savanna",
-   "body": "At the Crossroads, Tonga Runetotem uses the sample to help find an antidote. The Burning Blade are suspected of tainting the water, and its properties help the Cenarion Circle understand the poison. By studying the taint in the vial, druids make herbal remedies for dying gazelles and learn to wield their own natural power over poison.",
+   "body": "At the Crossroads, Tonga Runetotem studies the sample to help find an antidote. The Burning Blade are suspected of tainting the water, and its properties help the Cenarion Circle understand the poison.\n\nBy studying the taint in the vial, druids make herbal remedies for dying gazelles. They also learn to wield their own natural power over poison.",
    "spoiler": 1
   }
  ],
@@ -67,7 +67,7 @@
     "cure for the poison",
     "power over poison research"
    ],
-   "answer": "Tonga Runetotem studies the foul liquid to learn the nature of its demonic taint, then uses that knowledge to make a curative salve for druids to treat afflicted gazelles."
+   "answer": "Tonga Runetotem studies the foul liquid to learn the nature of its demonic taint. Then he uses that knowledge to make a curative salve for druids to treat afflicted gazelles."
   }
  ],
  "angles": [
@@ -104,5 +104,5 @@
   "Filled Dreadmist Peak Sampler",
   "The Principal Source (Horde)"
  ],
- "style": 1
+ "style": 2
 }

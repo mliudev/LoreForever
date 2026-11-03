@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Writhing Haunt"
  },
- "summary": "The Writhing Haunt is a blighted farmstead situated east of the Ruins of Andorhal in the Western Plaguelands. Once fertile land that fed Lordaeron, it has been seized by the Scourge and transformed into a toxic spreading ground for plague vapors.",
+ "summary": "East of the Ruins of Andorhal, plague vapors drift from the Writhing Haunt across the Western Plaguelands. The Scourge seized this farmstead, once fertile land that fed Lordaeron, and turned it into a source of disease.",
  "sections": [
   {
    "title": "A Field of Disease",
-   "body": "Like many of the old human homesteads surrounding Andorhal, the farmstead now called the Writhing Haunt fell swiftly during the Third War. Today, the fields do not grow crops but instead harvest rot. The Scourge planted an enormous plague cauldron squarely in the center of the tilled earth, continuously venting noxious, diseased vapors into the air. Rotting ghouls, freezing ghouls, and fetid zombies wander the overgrown furrows, guarding the machinery under the command of Cauldron Lord Razarch.",
+   "body": "During the Third War, the Writhing Haunt fell swiftly, like many human homesteads around Andorhal. Its fields now yield rot instead of crops. The Scourge planted an enormous plague cauldron in the tilled earth, where it continually vents diseased vapors. Rotting ghouls, freezing ghouls, and fetid zombies wander the overgrown furrows. Cauldron Lord Razarch commands them and guards the machinery.",
    "spoiler": 0
   },
   {
    "title": "A Watcher in the Ruins",
-   "body": "Despite the omnipresent danger of the Scourge and the choking miasma from the cauldron, the farm is not entirely abandoned. Inside one of the dilapidated farmhouses lingers Mulgris Deepriver, a tauren druid who came to these lands to heal the damage done to nature. Stricken by the plague himself and unable to cure the suffering beasts, he asks capable travelers to grant the diseased wolves and other wildlife a swift and merciful release.",
+   "body": "The cauldron's choking miasma has not driven everyone away. Mulgris Deepriver, a tauren druid, lingers inside one of the dilapidated farmhouses. He came to heal nature's wounds, but the plague has stricken him too. Unable to cure the suffering beasts, he asks capable travelers to grant the diseased wolves and other wildlife a swift, merciful release.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what was this farm",
     "old farm andorhal"
    ],
-   "answer": "Before the Third War, the Writhing Haunt was a productive, life-sustaining human farm that helped supply grain and livestock to nearby Andorhal and the greater Kingdom of Lordaeron."
+   "answer": "Before the Third War, the Writhing Haunt was a productive human farm. It sustained the land and supplied grain and livestock to nearby Andorhal and the greater Kingdom of Lordaeron."
   },
   {
    "q": "Why is there a giant cauldron in the middle of the field?",
@@ -37,7 +37,7 @@
     "why cauldron here",
     "green smoke farm"
    ],
-   "answer": "The cauldron was placed by the Scourge to actively brew and disperse plague vapors across the surrounding countryside, poisoning the soil, the water, and any living creatures nearby."
+   "answer": "The Scourge placed the giant cauldron in the field to brew and spread plague vapors across the countryside. The vapors poison soil, water, and nearby living creatures."
   },
   {
    "q": "Who controls the Writhing Haunt?",
@@ -46,7 +46,7 @@
     "writhing haunt boss",
     "razarch"
    ],
-   "answer": "The site is commanded by Cauldron Lord Razarch, an undead servant of the Scourge who guards the plague cauldron alongside a host of ghouls and zombies."
+   "answer": "Cauldron Lord Razarch, an undead servant of the Scourge, commands the site. Ghouls and zombies guard the plague cauldron for him."
   },
   {
    "q": "Who is hiding in the farmhouse?",
@@ -55,17 +55,17 @@
     "mulgris deepriver",
     "who is mulgris"
    ],
-   "answer": "Mulgris Deepriver, a tauren druid, shelters inside the abandoned farmhouse. He came to the Plaguelands to heal the damage done to nature, and since the plague cannot be cured, he asks travelers to put the region's diseased wildlife out of its misery."
+   "answer": "Mulgris Deepriver, a tauren druid, shelters inside an abandoned farmhouse. He came to the Plaguelands to heal nature, but the plague cannot be cured, so he asks travelers to end the suffering of diseased wildlife."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The desecration of rich farming soil by plague vapors makes the Writhing Haunt an active offense against the natural order, demanding that the cauldron be silenced."
+   "text": "Plague vapors desecrate the Writhing Haunt's rich farmland and offend the natural order. The cauldron must be silenced."
   },
   {
    "target": "faction:Alliance",
-   "text": "Seeing the farmland outside Andorhal reduced to a diseased wasteland under Scourge rule is a bitter reminder of the fall of Lordaeron."
+   "text": "The farmland outside Andorhal lies under Scourge rule, reduced to a diseased wasteland. It is a bitter reminder of Lordaeron's fall."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Writhing Haunt"
- ]
+ ],
+ "style": 2
 }

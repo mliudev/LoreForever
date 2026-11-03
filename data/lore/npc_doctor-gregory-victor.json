@@ -8,11 +8,11 @@
   "wiki": "Doctor Gregory Victor",
   "refs": 1
  },
- "summary": "Doctor Gregory Victor is a Forsaken surgeon stationed at the Horde outpost of Hammerfall in the Arathi Highlands. Renowned as the premier trauma physician within the Horde, he evaluates aspiring medics seeking to master advanced triage and battlefield first aid. His cold, clinical efficiency keeps frontline warriors stitched together amidst bitter regional conflicts.",
+ "summary": "At Hammerfall, Doctor Gregory Victor tends the Horde’s wounded and trains medics for the fighting in the Arathi Highlands. Renowned as its premier trauma physician, he teaches advanced triage and battlefield first aid.",
  "sections": [
   {
    "title": "Surgeon of Hammerfall",
-   "body": "While many view Forsaken apothecaries with suspicion, Doctor Gregory Victor serves the Horde through practical battlefield surgery rather than blighted alchemy. Stationed deep within the contested Arathi Highlands at Hammerfall, he operates on soldiers battered by Syndicate brigands, Boulderfist ogres, and Alliance forces. His station doubles as the primary proving ground for Horde field medics, demanding ruthless efficiency and prioritizing critical patients under intense pressure.",
+   "body": "Doctor Gregory Victor treats the Horde’s wounded at Hammerfall, in the contested Arathi Highlands. Though many distrust Forsaken apothecaries, he uses surgery instead of blighted alchemy on soldiers hurt by Syndicate brigands, Boulderfist ogres, and Alliance forces. Hammerfall is the Horde’s main proving ground for field medics, and Victor demands speed and care when the most critical patients are under pressure.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "gregory victor",
     "who is gregory victor"
    ],
-   "answer": "Doctor Gregory Victor is a Forsaken physician stationed at Hammerfall in the Arathi Highlands. He is the master trauma surgeon for the Horde, responsible for overseeing triage operations and instructing advanced field medics."
+   "answer": "Doctor Gregory Victor is a Forsaken physician at Hammerfall in the Arathi Highlands and the Horde’s premier trauma surgeon. He oversees triage and trains advanced field medics."
   },
   {
    "q": "Where can I find Doctor Gregory Victor?",
@@ -33,7 +33,7 @@
     "where is victor",
     "doctor victor where"
    ],
-   "answer": "He is located inside the stronghold of Hammerfall, situated in northeastern Arathi Highlands."
+   "answer": "You can find Doctor Gregory Victor inside Hammerfall, in northeastern Arathi Highlands."
   },
   {
    "q": "What role does he play for the Horde?",
@@ -42,7 +42,7 @@
     "gregory victor first aid",
     "horde trauma doctor"
    ],
-   "answer": "Doctor Victor tests promising field medics in battlefield triage through rigorous examination, teaching them how to stabilize the dying and craft advanced cloth bandages for frontline combat."
+   "answer": "Doctor Victor tests promising field medics in battlefield triage. He teaches them to stabilize the dying and make advanced cloth bandages for frontline combat."
   },
   {
    "q": "Who is his Alliance counterpart?",
@@ -50,17 +50,17 @@
     "alliance equivalent doctor victor",
     "alliance triage doctor"
    ],
-   "answer": "Doctor Gustaf VanHowzen, stationed at Theramore Isle in Dustwallow Marsh, oversees advanced trauma and triage training for the Alliance."
+   "answer": "Doctor Gustaf VanHowzen is the Alliance counterpart. He oversees advanced trauma and triage training at Theramore Isle in Dustwallow Marsh."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Doctor Victor provides crucial battlefield medicine in one of the Horde's most precarious outposts, ensuring warriors on the Arathi front return to fighting shape."
+   "text": "As a member of the Horde, you can look to Doctor Victor for battlefield medicine at a precarious outpost. He helps warriors on the Arathi front return to fighting shape."
   },
   {
    "target": "race:Undead",
-   "text": "Unlike the Royal Apothecary Society's toxic concoctions, Doctor Victor demonstrates the Forsaken's mastery over conventional mortal anatomy and restorative surgery."
+   "text": "As an undead, you can see Doctor Victor’s work as proof that the Forsaken can master mortal anatomy and restorative surgery, apart from the Royal Apothecary Society’s toxic concoctions."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Doctor Gregory Victor"
- ]
+ ],
+ "style": 2
 }

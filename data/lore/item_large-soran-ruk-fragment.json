@@ -10,16 +10,16 @@
    "quest:1740"
   ]
  },
- "summary": "The Large Soran'ruk Fragment rests in Shadowfang Keep, far from the other shards. Its broken orb once held a disgraced demon of the Burning Legion.",
+ "summary": "In Shadowfang Keep, the Large Soran'ruk Fragment lies far from the other shards. Its broken orb once held a disgraced demon of the Burning Legion.",
  "sections": [
   {
    "title": "The Legacy of Soran'ruk",
-   "body": "Disgraced demons of the Burning Legion may be condemned to imprisonment in enchanted orbs. Mages and warlocks aligned with the Legion receive these vessels and draw on the fel forces trapped within. Even when an orb is shattered, its bound fiend's lingering essence still radiates power. Each fragment draws ambitious practitioners of shadow magic.",
+   "body": "Disgraced demons of the Burning Legion may be imprisoned in enchanted orbs. Mages and warlocks aligned with the Legion receive these vessels and draw upon the fel forces within. Even shattered, an orb's bound fiend leaves an essence that still radiates power. So fragments draw those who seek mastery of shadow magic.",
    "spoiler": 0
   },
   {
    "title": "The Shard in Shadowfang",
-   "body": "The orb of Soran'ruk was cracked into two halves long ago. Cultists elsewhere scattered one half into smaller pieces. A sorcerer in the cursed Shadowfang Keep claimed the larger half. The Shadowfang Darksouls carry the Large Soran'ruk Fragment, which holds the bound spirit until someone seeks to reforge the ancient vessel.",
+   "body": "The orb of Soran'ruk was cracked into two halves long ago. Cultists elsewhere scattered one half into smaller pieces, while a sorcerer in the cursed Shadowfang Keep claimed the larger half. Shadowfang Darksouls carry the Large Soran'ruk Fragment. Its bound spirit remains within, until someone seeks to reforge the ancient vessel.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "soranruk large fragment",
     "what is this fragment"
    ],
-   "answer": "The Large Soran'ruk Fragment is the larger half of the Orb of Soran'ruk, an ancient vessel holding the bound spirit of a disgraced Burning Legion demon."
+   "answer": "The Large Soran'ruk Fragment is the larger half of the Orb of Soran'ruk, which holds the bound spirit of a disgraced Burning Legion demon."
   },
   {
    "q": "Where is the fragment found?",
@@ -40,7 +40,7 @@
     "large fragment location",
     "who drops large soranruk fragment"
    ],
-   "answer": "The Shadowfang Darksouls hold the fragment in Shadowfang Keep, a haunted fortress in Silverpine Forest."
+   "answer": "Shadowfang Darksouls hold the fragment in Shadowfang Keep, a haunted fortress in Silverpine Forest."
   },
   {
    "q": "Why was the orb broken?",
@@ -49,7 +49,7 @@
     "why is the orb fragmented",
     "orb of soranruk history"
    ],
-   "answer": "The original orb was split into two main pieces. The smaller half was broken into shards and carried to the coastal caverns of Blackfathom Deeps, while dark wizards kept the larger half in Shadowfang Keep."
+   "answer": "The original orb was split into two main pieces. The smaller half was broken into shards and carried to the coastal caverns of Blackfathom Deeps. Dark wizards kept the larger half in Shadowfang Keep."
   },
   {
    "q": "Who wants to reassemble it?",
@@ -63,7 +63,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Reclaiming the Large Soran'ruk Fragment lets you master the trapped demonic spirit inside and aid Doan Karhan in reconstructing a potent weapon for demonic arts."
+   "text": "As a warlock, reclaiming the Large Soran'ruk Fragment lets you master the trapped demonic spirit within. You can aid Doan Karhan in reconstructing a potent weapon for demonic arts."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Large Soran'ruk Fragment",
   "The Orb of Soran'ruk"
  ],
- "style": 1
+ "style": 2
 }

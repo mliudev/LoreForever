@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Emerald Dream"
  },
- "summary": "The Emerald Dream is a vast, ever-shifting spirit realm representing Azeroth in its primordial state, completely untouched by civilization. Watched over by the Dragon Aspect Ysera and her green flight, it serves as the spiritual blueprint of nature and the sacred domain where druids commune with the cycle of life.",
+ "summary": "Druids and green dragons keep watch over the Emerald Dream, where Azeroth’s wild nature runs free. Its lands shift with ancient rhythms, and druids enter to seek communion with the cycle of life.",
  "sections": [
   {
    "title": "A Mirror of Primordial Azeroth",
-   "body": "Existing outside the physical plane yet tethered to its heartbeat, the Emerald Dream reflects what Azeroth would look like had intelligent beings never cleared its forests or built cities upon its stone. Sculpted during the ancient ordering of the world, it is an ever-shifting wilderness of pristine forests, boundless plains, and primordial rivers. Time and distance hold little meaning within the Dream; days in the physical world can feel like decades in the spirit, and landmarks change shape like mist before mortal eyes.",
+   "body": "The Emerald Dream shows Azeroth as it might have been without intelligent beings clearing forests or raising cities. Though it lies beyond the physical world, it remains bound to Azeroth’s heartbeat. Shaped during the ancient ordering of the world, it holds forests, plains, and rivers in a wilderness that never rests in one form. Time and distance lose their usual meaning there. A day in the waking world can feel like decades, while landmarks shift before mortal eyes.",
    "spoiler": 0
   },
   {
    "title": "The Realm of the Dreamer",
-   "body": "Following the ordering of the world, the titans entrusted this verdant plane to Ysera the Dreamer, the great Aspect of the green dragonflight. Charged with guiding the evolution and natural rhythm of Azeroth, Ysera dwells in an unending trance, gazing through enchanted dreamsight that perceives both the waking world and its mirrored spirit plane. The green dragons guard the rare, natural portals linking the physical plane to the Dream, maintaining eternal vigilance over the boundary between sleep and waking.",
+   "body": "After the ordering of the world, the titans entrusted the Emerald Dream to Ysera the Dreamer, great Aspect of the green dragonflight. She guides Azeroth’s natural rhythms and evolution, dwelling in an unending trance. Through enchanted dreamsight, she perceives both the waking world and its spirit reflection. Green dragons guard the rare natural portals between the physical world and the Dream, watching the boundary between sleep and waking.",
    "spoiler": 0
   },
   {
    "title": "Druids and the Dreaming",
-   "body": "To mortal druids, the Emerald Dream is the wellspring of their craft. By channeling nature magic, druids can project their spirits into the Dream, leaving their corporeal bodies resting safely in barrow dens for years or even centuries. In this untamed realm, they commune with ancient nature spirits and the Wild Gods, gaining profound insight into the Great Cycle of life and death. Skilled walkers of the Dream learn to transcend physical laws while in their dreamforms, traversing vast distances or slipping through solid barriers at will.",
+   "body": "For mortal druids, the Emerald Dream is the wellspring of their craft. Through nature magic, they send their spirits into the Dream while their bodies rest in barrow dens, sometimes for years or centuries. There they commune with ancient nature spirits and the Wild Gods, seeking insight into the Great Cycle of life and death. Skilled dreamwalkers move beyond physical laws in their dreamforms. They can cross vast distances or pass through solid barriers.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "emerald dream lore",
     "the dream explained"
    ],
-   "answer": "The Emerald Dream is an ethereal, spiritual reflection of Azeroth. It preserves a pristine, untamed blueprint of the world as it existed before civilized races altered the landscape, serving as a sanctuary for nature spirits and the green dragonflight."
+   "answer": "The Emerald Dream is a spirit reflection of Azeroth, preserving the world as it was before civilized races changed its landscape. Nature spirits and the green dragonflight dwell in its untamed wilderness."
   },
   {
    "q": "Who rules the Emerald Dream?",
@@ -42,7 +42,7 @@
     "emerald dream ruler",
     "ysera dream"
    ],
-   "answer": "The Dragon Aspect Ysera watches over the Dream alongside the green dragonflight. However, she does not absolute control it. The Dream's wild, underlying structure operates on its own ancient rhythm, guiding Ysera's stewardship rather than submitting to her will."
+   "answer": "Ysera the Dreamer and the green dragonflight watch over the Emerald Dream. Ysera guides its natural rhythms, while the Dream’s wild structure follows its ancient course."
   },
   {
    "q": "How do mortals enter the Emerald Dream?",
@@ -51,7 +51,7 @@
     "how to enter the dream",
     "dreamform"
    ],
-   "answer": "Most mortals enter through deep, druidic slumber, projecting their spirit into a dreamform while leaving their physical bodies protected in barrows. Rare, physical portals guarded by the green dragonflight also exist across Azeroth, though stepping through them is perilous."
+   "answer": "Most mortals enter the Emerald Dream through druidic slumber, sending their spirits into dreamforms while their bodies rest in barrows. Rare physical portals guarded by green dragons also link the Dream to Azeroth, and crossing them is perilous."
   },
   {
    "q": "Can you change things inside the Dream?",
@@ -59,7 +59,7 @@
     "changing emerald dream",
     "can you alter the dream"
    ],
-   "answer": "Dreamers can shape and alter the local environment temporarily with their thoughts and magic, but these changes never last. The Dream's primordial blueprint inevitably reasserts itself, erasing any permanent mortal imprint."
+   "answer": "Dreamers can briefly shape parts of the Emerald Dream with thought and magic, but those changes do not last. The Dream’s primordial pattern returns and erases any lasting mortal mark."
   },
   {
    "q": "Why do druids sleep for centuries?",
@@ -68,7 +68,7 @@
     "druid slumber",
     "barrow dens sleeping"
    ],
-   "answer": "Druids enter prolonged hibernation to wander the Emerald Dream, communing with nature spirits, learning from the Wild Gods, and helping the green dragonflight maintain the balance of Azeroth's natural cycles across generations."
+   "answer": "Druids sleep for years or centuries to wander the Emerald Dream, commune with nature spirits, and learn from the Wild Gods. Their long slumber also lets them help the green dragonflight keep Azeroth’s natural cycles in balance across generations."
   },
   {
    "q": "Where do animal spirits go when they die?",
@@ -77,21 +77,21 @@
     "wild god spirits",
     "beast spirits"
    ],
-   "answer": "No one can say for certain. Druids honor the spirits of beasts as part of the natural cycle of life and death, but what becomes of those spirits after death remains a mystery."
+   "answer": "No one knows for certain where animal spirits go after death. Druids honor beasts as part of life’s natural cycle, but what follows remains a mystery."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The Emerald Dream is the sacred source of your power, where your order communes with the Wild Gods and studies the delicate balance of the Great Cycle."
+   "text": "As a druid, you draw on the Emerald Dream, where your order communes with the Wild Gods and studies the delicate balance of the Great Cycle."
   },
   {
    "target": "race:NightElf",
-   "text": "For ten thousand years, your male druids slept in sacred barrows to walk the Dream alongside Ysera, leaving the Sentinels and Priestesses to guard the waking world."
+   "text": "For ten thousand years, your male druids slept in sacred barrows and walked the Emerald Dream alongside Ysera. The Sentinels and Priestesses guarded the waking world."
   },
   {
    "target": "race:Tauren",
-   "text": "Your druids walk the land of dreams to commune with the spirits of the earth, seeing it as the untamed cradle of the Earth Mother's creation."
+   "text": "As a tauren, you walk the land of dreams to commune with the spirits of the earth. You see it as the untamed cradle of the Earth Mother's creation."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Emerald Dream"
- ]
+ ],
+ "style": 2
 }

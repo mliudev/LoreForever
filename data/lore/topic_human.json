@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Human"
  },
- "summary": "Humans are an adaptable and resilient mortal race who have shaped much of the Eastern Kingdoms' history. Once unified under the ancient Empire of Arathor, their civilization fractured into the Seven Kingdoms, with Stormwind now standing as humanity's primary surviving bastion within the Alliance.",
+ "summary": "Across the Eastern Kingdoms, humans still defend their place among the mortal realms. Their old empire broke into seven kingdoms. Now Stormwind is their strongest realm and the Alliance’s chief human power.",
  "sections": [
   {
    "title": "The Empire of Arathor",
-   "body": "Millennia ago, early humans lived as scattered, nomadic tribes constantly threatened by the Amani forest trolls. Recognizing that disunity would mean extinction, Warlord Thoradin of the Arathi tribe united the disparate clans through diplomacy and conquest, establishing the Empire of Arathor with its fortress capital at Strom. During the Troll Wars, the beleaguered high elves of Quel'Thalas allied with Arathor, teaching one hundred humans the arts of arcane magic. Together, they broke the troll armies, securing humanity's dominion over the central continents and laying the foundation for future mortal alliances.",
+   "body": "Long ago, human tribes wandered apart beneath the threat of the Amani forest trolls. Warlord Thoradin of the Arathi saw that division would bring their end. Through diplomacy and conquest, he united the clans and founded the Empire of Arathor, with its fortress capital at Strom.\n\nDuring the Troll Wars, the beleaguered high elves of Quel'Thalas allied with Arathor. They taught one hundred humans the arts of arcane magic. Together, humans and high elves broke the troll armies. Arathor secured human rule over the central continents, and the alliance laid the ground for future ties among mortal peoples.",
    "spoiler": 0
   },
   {
    "title": "Fracture into Seven Kingdoms",
-   "body": "As Arathor grew secure and prosperous, its outlying settlements became powerful, self-sufficient city-states. Over time, the centralized empire splintered into seven distinct realms: Gilneas, Alterac, Dalaran, Lordaeron, Kul Tiras, Stormwind, and Stromgarde (the original home of Strom). While these nations traded vigorously with dwarves, gnomes, and elves, peace was fragile. Territorial disputes, border skirmishes\u2014such as the perennial mountain feuds between Alterac and Stromgarde\u2014and courtly intrigue consumed the kingdoms, creating deep rivalries that persisted until external catastrophes forced their hand.",
+   "body": "As Arathor grew secure and prosperous, its distant settlements became powerful city-states, able to stand alone. In time, the empire split into seven realms: Gilneas, Alterac, Dalaran, Lordaeron, Kul Tiras, Stormwind, and Stromgarde, whose first home was Strom.\n\nThese kingdoms traded with dwarves, gnomes, and elves, yet peace remained fragile. Border clashes and claims over land stirred rivalries, including old mountain feuds between Alterac and Stromgarde. Court intrigue added to the strain. The kingdoms stayed divided until disasters beyond their borders forced them to act together.",
    "spoiler": 0
   },
   {
    "title": "Invasion and Ruin",
-   "body": "The arrival of the orcish Horde through the Dark Portal shattered humanity's internal squabbles. Stormwind was razed during the First War, its refugees fleeing north to warn the other realms. In response, King Terenas Menethil II helped forge the Alliance of Lordaeron, combining the strength of mankind, dwarves, gnomes, and high elves to defeat the Horde in the Second War. Though Stormwind was painstakingly rebuilt, tragedy struck again when the Scourge plague ravaged Lordaeron and Dalaran fell during the Third War, leaving the northern human realms in smoking ruin.",
+   "body": "The orcish Horde came through the Dark Portal, forcing humanity’s kingdoms to face a common enemy. Stormwind fell in the First War, and its refugees fled north to warn the other realms. King Terenas Menethil II helped forge the Alliance of Lordaeron, joining humans, dwarves, gnomes, and high elves against the Horde in the Second War.\n\nStormwind was rebuilt with great effort. Then the Scourge plague ravaged Lordaeron, and Dalaran fell during the Third War. The northern human realms lay in smoking ruin.",
    "spoiler": 0
   },
   {
    "title": "A Precarious Present",
-   "body": "Today, Stormwind stands as the strongest remaining human kingdom and the linchpin of the grand Alliance. However, peace remains elusive. King Varian Wrynn has mysteriously vanished while en route to a diplomatic summit, leaving his ten-year-old son, Anduin Wrynn, crowned king while Highlord Bolvar Fordragon serves as regent. To the north, the survivors of Lordaeron are scattered or dead, while Gilneas hides behind its colossal Greymane Wall, leaving Stormwind to bear the weight of mankind's defense.",
+   "body": "Stormwind is the strongest human kingdom left and the heart of the grand Alliance. King Varian Wrynn vanished while traveling to a diplomatic summit. His ten-year-old son, Anduin Wrynn, was crowned king, with Highlord Bolvar Fordragon as regent.\n\nNorthward, Lordaeron’s survivors are scattered or dead. Gilneas remains behind its colossal Greymane Wall, leaving Stormwind to carry the burden of humanity’s defense.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "human nations",
     "arathor kingdoms"
    ],
-   "answer": "The Seven Kingdoms arose when the ancient Empire of Arathor fractured into independent city-states: Lordaeron, Stormwind, Stromgarde, Dalaran, Kul Tiras, Gilneas, and Alterac. Each developed its own culture, from the seafaring fleets of Kul Tiras to the arcane colleges of Dalaran."
+   "answer": "The Seven Kingdoms were Lordaeron, Stormwind, Stromgarde, Dalaran, Kul Tiras, Gilneas, and Alterac. They arose when the Empire of Arathor fractured into independent city-states, each with its own ways and strengths."
   },
   {
    "q": "Where did humans originally come from?",
@@ -47,7 +47,7 @@
     "ancient humans",
     "human ancestors"
    ],
-   "answer": "Humans emerged thousands of years ago as nomadic tribes roaming the forests and highlands of the northern Eastern Kingdoms, particularly around Tirisfal Glades, before uniting into the first human nation under Warlord Thoradin."
+   "answer": "Humans began as nomadic tribes roaming the forests and highlands of the northern Eastern Kingdoms, especially around Tirisfal Glades. They later united under Warlord Thoradin as the first human nation."
   },
   {
    "q": "What happened to the kingdom of Lordaeron?",
@@ -56,7 +56,7 @@
     "fall of lordaeron",
     "fate of lordaeron"
    ],
-   "answer": "Lordaeron was devastated during the Third War by the Scourge's plague of undeath and betrayed by its own prince, Arthas Menethil. Today, its ruined capital and surrounding lands are contested between the undead Forsaken, the Scourge, and remnants like the Scarlet Crusade."
+   "answer": "Lordaeron was devastated by the Scourge’s plague of undeath during the Third War, and its prince, Arthas Menethil, betrayed it. Its ruined capital and nearby lands are now contested by the undead Forsaken, the Scourge, and remnants such as the Scarlet Crusade."
   },
   {
    "q": "Who currently rules humanity and Stormwind?",
@@ -65,7 +65,7 @@
     "king of stormwind",
     "stormwind ruler"
    ],
-   "answer": "With King Varian Wrynn missing under suspicious circumstances, his young son Anduin Wrynn sits upon the throne as a figurehead, while Highlord Bolvar Fordragon rules as Regent alongside royal advisor Lady Katrana Prestor."
+   "answer": "With King Varian Wrynn missing under suspicious circumstances, his young son Anduin Wrynn holds the throne as a figurehead. Highlord Bolvar Fordragon rules as Regent alongside royal advisor Lady Katrana Prestor."
   },
   {
    "q": "Why did the high elves teach humans magic?",
@@ -74,7 +74,7 @@
     "first human mages",
     "troll wars magic"
    ],
-   "answer": "During the ancient Troll Wars, the high elves of Quel'Thalas faced annihilation by the Amani trolls. Desperate for military reinforcements, they made a treaty with Thoradin, ruler of Arathor, agreeing to teach one hundred humans the arcane in exchange for human armies."
+   "answer": "During the Troll Wars, the high elves of Quel'Thalas faced annihilation by the Amani trolls. They made a treaty with Thoradin, ruler of Arathor, trading lessons in arcane magic for one hundred human soldiers."
   },
   {
    "q": "What role did humans play in forming the Alliance?",
@@ -83,7 +83,7 @@
     "alliance of lordaeron origin",
     "how did alliance start"
    ],
-   "answer": "After Stormwind fell to the orcs in the First War, human refugees rallied the northern kingdoms. Under King Terenas of Lordaeron and Lord Lothar of Stormwind, the human realms united with Ironforge dwarves, gnomes, and high elves to create the Alliance of Lordaeron."
+   "answer": "After Stormwind fell to the orcs in the First War, human refugees rallied the northern kingdoms. Under King Terenas of Lordaeron and Lord Lothar of Stormwind, human realms joined Ironforge dwarves, gnomes, and high elves to form the Alliance of Lordaeron."
   },
   {
    "q": "Which classes can humans be?",
@@ -92,29 +92,29 @@
     "what classes can humans be",
     "can humans be hunters"
    ],
-   "answer": "Humans train as warriors, paladins, hunters, rogues, priests, mages and warlocks."
+   "answer": "Humans train as warriors, paladins, hunters, rogues, priests, mages, and warlocks."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, you inherit the legacy of fallen Arathor and ruined Lordaeron; the defense and survival of the mortal realms rests squarely on the shoulders of Stormwind."
+   "text": "As a human, you inherit the legacy of fallen Arathor and ruined Lordaeron. Stormwind now bears the defense and survival of the mortal realms."
   },
   {
    "target": "faction:Alliance",
-   "text": "Human diplomacy and resolve forged the Alliance of Lordaeron, and Stormwind remains the faction's political and military heart."
+   "text": "Human diplomacy and resolve forged the Alliance of Lordaeron. Stormwind remains the faction’s political and military heart."
   },
   {
    "target": "class:Mage",
-   "text": "Human wizardry dates back to the Troll Wars, when the high elves taught the first One Hundred human mages, eventually leading to the founding of Dalaran."
+   "text": "Human wizardry began in the Troll Wars, when the high elves taught the first one hundred human mages. Their teaching led in time to the founding of Dalaran."
   },
   {
    "target": "class:Paladin",
-   "text": "The Knights of the Silver Hand were founded by human holy men and knights in Lordaeron to combat the horrors of the Second War."
+   "text": "Human holy men and knights founded the Knights of the Silver Hand in Lordaeron to fight the horrors of the Second War."
   },
   {
    "target": "faction:Horde",
-   "text": "Humans were the first enemies the orcs encountered upon crossing through the Dark Portal, instigating three brutal wars for survival on Azeroth."
+   "text": "Humans were the first enemies the orcs met after crossing the Dark Portal. Their meeting began three brutal wars for survival on Azeroth."
   }
  ],
  "keywords": [
@@ -140,5 +140,6 @@
  ],
  "attribution": [
   "Human"
- ]
+ ],
+ "style": 2
 }

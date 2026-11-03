@@ -27,11 +27,11 @@
    "Lack of Surplus"
   ]
  },
- "summary": "Tok'Kar and the soldiers on the coast are stationed to guard Stonard against murlocs, or to send warning when the force is too large. Tok'Kar wants six sawtooth snapper claws and offers one of the outpost's weapons in thanks.",
+ "summary": "Along the coast, Tok'Kar and his soldiers watch for murlocs threatening Stonard. When the force grows too large, they send warning; for now, Tok'Kar asks you to bring six sawtooth snapper claws.",
  "sections": [
   {
    "title": "Weapons for the Coast",
-   "body": "With murlocs a threat along the coast, Tok'Kar and the soldiers are posted here to protect Stonard, or to warn it if the force is too large. That leaves little time for rest, and Tok'Kar could use more help. The claws of sawtooth snappers make fine weapons when properly prepared. Tok'Kar asks for six, and offers one of the outpost's weapons in return, grateful for the meat and the company.",
+   "body": "Tok'Kar and the soldiers guard Stonard from murlocs along the coast. When the force is too large to face, they warn the town. Tok'Kar has little time to rest, so he asks you to help. Properly prepared, sawtooth snapper claws make fine weapons. Bring him six, and he offers one of the outpost's weapons in return, grateful for the meat and company.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "quest giver",
     "tokkar"
    ],
-   "answer": "Tok'Kar, who is stationed along the coast to protect Stonard."
+   "answer": "Tok'Kar, stationed along the coast to protect Stonard, asks you for the claws."
   },
   {
    "q": "Why does Tok'Kar need sawtooth snapper claws?",
@@ -52,7 +52,7 @@
     "sawtooth snapper purpose",
     "weapon claws"
    ],
-   "answer": "Their claws make fine weapons when properly prepared, and Tok'Kar wants six of them."
+   "answer": "Properly prepared sawtooth snapper claws make fine weapons, and Tok'Kar wants six."
   },
   {
    "q": "What threat is the coastal post watching for?",
@@ -61,7 +61,7 @@
     "murloc attack stonard",
     "what is tokkar watching"
    ],
-   "answer": "Murlocs along the coast. The soldiers are there to protect Stonard, or to warn it if the force is too large."
+   "answer": "The soldiers watch for murlocs along the coast. They protect Stonard or warn the town if the force is too large."
   },
   {
    "q": "Where does this lead next?",
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Lack of Surplus (2)"
- ]
+ ],
+ "style": 2
 }

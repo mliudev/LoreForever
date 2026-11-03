@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This trial is a crucial step in communing with the elements to earn the water totem rites and craft the sapta needed to see elemental spirits."
+   "text": "As a shaman, you face a trial of communion with the elements. You earn the water totem rites and make the sapta needed to perceive elemental spirits."
   },
   {
    "target": "race:Dwarf",
-   "text": "The journey connects dwarven shamanic candidates with elemental mentors like Norric Lochthane across Khaz Modan."
+   "text": "As a dwarf, you can seek guidance from elemental mentors such as Norric Lochthane across Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance shamans seek communion with water spirits across eastern lands, bridging Loch Modan and Westfall."
+   "text": "As an Alliance shaman, you seek communion with water spirits across the eastern lands, between Loch Modan and Westfall."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "norric loch modan",
     "who is norric lochthane"
    ],
-   "answer": "Norric Lochthane is a mentor residing in Loch Modan who guides candidates through their elemental communion. He oversees the preparations and rites needed to earn the water totem.",
+   "answer": "Norric Lochthane mentors candidates in Loch Modan as they seek communion with the elements. He oversees the preparations and rites for earning the water totem.",
    "q": "Who is Norric Lochthane?"
   },
   {
@@ -41,7 +41,7 @@
     "blessed by hervdana",
     "hervdana water"
    ],
-   "answer": "Hervdana Saegrund is the guide in the Wetlands, living with her family in a cave by the southern falls, who blesses sacred water gathered by aspiring shamans, imbuing it with the spiritual purity required to craft water sapta.",
+   "answer": "Hervdana Saegrund lives with her family in a cave by the southern falls in the Wetlands. She guides aspiring shamans and blesses sacred water for making water sapta.",
    "q": "Who is Hervdana?"
   },
   {
@@ -50,7 +50,7 @@
     "sapta purpose",
     "what does sapta do"
    ],
-   "answer": "A sapta is an elemental draught prepared using sacred water. Drinking it allows a shaman to pierce the veil and perceive elusive water spirits that dwell within natural pools.",
+   "answer": "A sapta is a draught prepared with sacred water. Drinking it lets a shaman perceive elusive water spirits in natural pools.",
    "q": "What is a sapta used for?"
   },
   {
@@ -59,7 +59,7 @@
     "stendel pond location",
     "water spirits stendel"
    ],
-   "answer": "Stendel's Pond is located in Westfall near Moonbrook. Its waters harbor elemental water spirits that a shaman must seek out after consuming their prepared sapta.",
+   "answer": "Stendel’s Pond lies in Westfall near Moonbrook. Water spirits dwell there, and a shaman seeks them after drinking a prepared sapta.",
    "q": "Where is Stendel's Pond located?"
   },
   {
@@ -67,7 +67,7 @@
     "why need pure water",
     "vial of purest water purpose"
    ],
-   "answer": "The Vial of Purest Water contains blessed water essential for brewing the water sapta and performing the sacred rites required to earn a water totem. Norric cautions that not even a single drop may be wasted.",
+   "answer": "The Vial of Purest Water holds blessed water needed to brew the water sapta and perform the rites for earning a water totem. Norric warns that every drop matters.",
    "q": "Why is the Vial of Purest Water important?"
   },
   {
@@ -75,7 +75,7 @@
     "what are water totem rites",
     "how to get water totem"
    ],
-   "answer": "The water totem rites are spiritual trials undertaken by shamans to attune themselves to the element of water, demonstrating respect and balance before being granted a water totem.",
+   "answer": "The water totem rites are spiritual trials that attune shamans to water. Shamans show respect and balance before receiving a water totem.",
    "q": "What are the water totem rites?"
   }
  ],
@@ -99,18 +99,19 @@
  ],
  "sections": [
   {
-   "body": "The Call of Water represents an essential trial of spiritual attunement for aspiring shamans seeking harmony with the element of water. Undertaking this path requires gathering water blessed by Hervdana herself, proving both patience and reverence for the spirits before bringing the vessel to Norric Lochthane in Loch Modan.",
+   "body": "You seek harmony with water through patience and reverence. Hervdana blesses the water you gather, and you carry it to Norric Lochthane in Loch Modan.",
    "spoiler": 0,
    "title": "The Path to the Water Totem"
   },
   {
-   "body": "Upon receiving the blessed vessel, Norric reveals that the sacred liquid is destined to brew a water sapta. This draught allows the seeker to pierce the unseen and witness the water spirits dwelling at Stendel's Pond near Moonbrook. Every single drop is deemed precious, as even a dampened stopper holds purpose in the sacred rites.",
+   "body": "Norric Lochthane uses Hervdana’s blessed water to brew a water sapta. The draught lets you perceive the water spirits at Stendel’s Pond near Moonbrook. Every drop matters, and the dampened stopper has its place in the rites.",
    "spoiler": 1,
    "title": "Birthing the Sapta"
   }
  ],
- "summary": "The Call of Water is a spiritual trial for shamans seeking the sacred water totem rites. By delivering pure water blessed by Hervdana to Norric Lochthane in Loch Modan, seekers prepare the elemental sapta necessary to commune with spirits at Stendel's Pond.",
+ "summary": "At Loch Modan, seekers prepare to commune with water spirits. Hervdana blesses pure water for Norric Lochthane as aspiring shamans draw nearer to the water totem rites.",
  "attribution": [
   "In-game quest text: Call of Water"
- ]
+ ],
+ "style": 2
 }

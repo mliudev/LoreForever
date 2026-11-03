@@ -17,16 +17,16 @@
   "wiki": "Denalan's Earth",
   "chain": []
  },
- "summary": "In Dolanaar, Syral Bladeleaf sends a late shipment of rare earth south to Denalan at Lake Al'Ameth. The night elf researcher studies Teldrassil's young plants.",
+ "summary": "In Dolanaar, Syral Bladeleaf seeks a courier for rare earth bound south to Denalan at Lake Al'Ameth. The night elf researcher studies Teldrassil's young plants.",
  "sections": [
   {
    "title": "A Courier for Dolanaar",
-   "body": "Syral Bladeleaf stops travelers in Dolanaar with a special shipment of rare earth for Denalan. The soil came from Darnassus to support his botanical studies, but delays kept it from reaching Dolanaar until now. Syral seeks a courier to carry the parcel south along the forest trail to Denalan's campsite by Lake Al'Ameth.",
+   "body": "In Dolanaar, Syral Bladeleaf has a shipment of rare earth for Denalan. The soil came from Darnassus to aid his botanical studies, but delays held it back. Now Syral seeks a courier to carry it south along the forest trail to Denalan's campsite by Lake Al'Ameth.",
    "spoiler": 0
   },
   {
    "title": "Cultivating Teldrassil",
-   "body": "Denalan works alone at a station on Lake Al'Ameth's eastern shore, watching Teldrassil's young ecosystem take root. The tree grew quickly after the Battle of Mount Hyjal, and its plants behave in unexpected ways. Denalan tests the vitality and behavior of timberlings and native plants with unique soil mixtures and specimens. The rare earth shipment will support those experiments.",
+   "body": "At a station on Lake Al'Ameth's eastern shore, Denalan works alone and watches Teldrassil's young ecosystem take root. The tree grew quickly after the Battle of Mount Hyjal, and its plants behave in unexpected ways.\n\nDenalan tests the vitality and behavior of timberlings and native plants with unique soil mixtures and specimens. The rare earth shipment will support those experiments.",
    "spoiler": 0
   }
  ],
@@ -70,7 +70,7 @@
     "why was the earth late",
     "delayed parcel"
    ],
-   "answer": "The package traveled from Darnassus and faced unspecified delays on Teldrassil's winding roads before reaching Dolanaar."
+   "answer": "The package came from Darnassus and faced unspecified delays on Teldrassil's winding roads before reaching Dolanaar."
   },
   {
    "q": "What does delivering this earth lead to?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Denalan's Earth"
  ],
- "style": 1
+ "style": 2
 }

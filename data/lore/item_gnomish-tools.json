@@ -10,16 +10,16 @@
    "quest:825"
   ]
  },
- "summary": "Along Durotar's coast, Gnomish Tools lie among the wrecks of Proudmoore's fleet. The Horde seeks the salvaged devices to study Alliance engineering and adapt its innovations for survival.",
+ "summary": "Along Durotar’s coast, Gnomish Tools from Proudmoore’s fleet are being recovered by the Horde. The salvaged devices may teach its craftsmen how Alliance engineering works and how to adapt it for survival.",
  "sections": [
   {
    "title": "Sunken Salvage",
-   "body": "Grand Admiral Daelin Proudmoore's fleet brought vast supplies of modern equipment to Durotar. Proudmoore led Kul Tiras and Alliance forces to its shores, with sophisticated gear made by their gnomish allies aboard. After the fleet was destroyed along the Scuttle Coast, east of Tiragarde Keep, the delicate mechanical kits sank beneath the waves. Waterproof toolboxes still lie among the rotting timbers and barnacle-encrusted hulls in the shallows.",
+   "body": "Grand Admiral Daelin Proudmoore’s fleet brought vast supplies of modern equipment to Durotar. Proudmoore led Kul Tiras and Alliance forces to its shores, with sophisticated gear made by their gnomish allies aboard. After the fleet was destroyed along the Scuttle Coast, east of Tiragarde Keep, delicate mechanical kits sank beneath the waves. Waterproof toolboxes still lie among the rotting timbers and barnacle-encrusted hulls in the shallows.",
    "spoiler": 0
   },
   {
    "title": "Eyes in Orgrimmar",
-   "body": "Gar'Thok, who oversees Razor Hill, sent Horde scouts to recover tools from the watery grave of Proudmoore's navy. The orcs know humans and gnomes are skilled in engineering, especially siege engines, shipwrighting, and clockwork mechanics. They send the kits by caravan to craftsmen and scholars in Orgrimmar. There, the Horde means to study Alliance contraptions, learn to counter enemy war machines, and adapt foreign innovations for its own survival.",
+   "body": "Gar'Thok, who oversees Razor Hill, sent Horde scouts to recover tools from the watery grave of Proudmoore’s navy. The orcs know humans and gnomes are skilled in engineering, especially siege engines, shipwrighting, and clockwork mechanics. So the kits travel by caravan to craftsmen and scholars in Orgrimmar. There, the Horde intends to study Alliance contraptions, learn to counter enemy war machines, and adapt foreign innovations for its own survival.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "origin of gnomish tools",
     "how did tools get in durotar"
    ],
-   "answer": "Grand Admiral Daelin Proudmoore's fleet carried the tools when Kul Tiras assaulted Durotar. When the armada was shattered and sunk along the Scuttle Coast, east of Tiragarde Keep, its naval cargo settled on the ocean floor."
+   "answer": "Grand Admiral Daelin Proudmoore’s fleet carried the tools when Kul Tiras assaulted Durotar. When the armada was shattered and sunk along the Scuttle Coast, east of Tiragarde Keep, its naval cargo settled on the ocean floor."
   },
   {
    "q": "Why does the Horde want these tools?",
@@ -40,7 +40,7 @@
     "horde use for gnomish tools",
     "what are the tools for"
    ],
-   "answer": "Gar'Thok of Razor Hill wants the tools recovered and sent to Orgrimmar. Studying the intricate mechanical knowledge of Alliance engineers can help the Horde understand enemy machines and build better gear of its own."
+   "answer": "Gar'Thok of Razor Hill wants the tools recovered and sent to Orgrimmar. By studying the intricate work of Alliance engineers, the Horde hopes to understand enemy machines and build better gear of its own."
   },
   {
    "q": "Where are the tools found?",
@@ -49,7 +49,7 @@
     "where to find gnomish tools",
     "gnomish toolboxes location"
    ],
-   "answer": "The tools lie in toolboxes scattered in and around sunken wreckage along Durotar's Scuttle Coast, just east of Tiragarde Keep. Many rest underwater or across half-submerged broken hulls."
+   "answer": "The tools lie in toolboxes scattered in and around sunken wreckage along Durotar’s Scuttle Coast, just east of Tiragarde Keep. Many rest underwater or across half-submerged broken hulls."
   }
  ],
  "angles": [
@@ -59,7 +59,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can help recover lost Alliance equipment for study. Learning enemy designs and foreign mechanisms can help the Horde defend against future naval invasions."
+   "text": "As a member of the Horde, you can help recover lost Alliance equipment for study. Learning enemy designs and foreign mechanisms may help the Horde defend against future naval invasions."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Gnomish Tools",
   "From The Wreckage...."
  ],
- "style": 1
+ "style": 2
 }

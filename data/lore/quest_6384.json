@@ -22,16 +22,16 @@
    "Return to the Crossroads."
   ]
  },
- "summary": "A wind rider carries Horde travelers from the Crossroads to Orgrimmar. With Zargh’s fresh cuts of meat in hand, you fly to the capital’s Skytower and deliver them to Innkeeper Gryshka.",
+ "summary": "From the Crossroads, you fly with Zargh’s fresh cuts of meat to Orgrimmar’s Skytower. There, you deliver them to Innkeeper Gryshka.",
  "sections": [
   {
    "title": "Wings Over the Savanna",
-   "body": "Devrak sends trained wind riders between the Crossroads and Orgrimmar. The flight crosses the dry Barrens and reaches Durotar’s red cliffs, sparing travelers the hard journey on foot. From high above the dusty canyon trails, the wyverns carry messengers and travelers, along with dispatches and trade goods, straight to the capital.",
+   "body": "Devrak sends trained wind riders between the Crossroads and Orgrimmar. Their flight crosses the dry Barrens and reaches Durotar’s red cliffs, sparing travelers the hard journey on foot. High above the dusty canyon trails, wyverns carry messengers and travelers to the capital, along with dispatches and trade goods.",
    "spoiler": 0
   },
   {
    "title": "Special Delivery for Gryshka",
-   "body": "Zargh has prepared fresh cuts of meat for Innkeeper Gryshka in Orgrimmar’s Valley of Strength. From the central Skytower, her inn is a short walk away. Gryshka accepts the parcel and remarks with fondness that Zargh knows how to win a lady’s heart.",
+   "body": "Zargh has prepared fresh cuts of meat for Innkeeper Gryshka in Orgrimmar’s Valley of Strength. From the central Skytower, her inn is a short walk away. Gryshka accepts the parcel and fondly remarks that Zargh knows how to win a lady’s heart.",
    "spoiler": 0
   }
  ],
@@ -98,7 +98,7 @@
   },
   {
    "target": "profession:Cooking",
-   "text": "Gryshka makes her taste clear when she receives Zargh’s gift: she prefers the finest beasts of Kalimdor served rare, to preserve their flavor."
+   "text": "Gryshka makes her taste clear when she receives Zargh’s gift. She prefers the finest beasts of Kalimdor served rare, to preserve their flavor."
   }
  ],
  "keywords": [
@@ -125,5 +125,5 @@
  "attribution": [
   "Ride to Orgrimmar (Classic)"
  ],
- "style": 1
+ "style": 2
 }

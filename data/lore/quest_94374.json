@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This rite represents an essential communion for shamans, binding spirit to stone and granting vision beyond mortal perception through the ritual draught of sapta."
+   "text": "As a shaman, you take part in an essential communion that binds spirit to stone and grants vision beyond mortal perception through sapta’s ritual draught."
   },
   {
    "target": "race:Dwarf",
-   "text": "Spoken in the rough cadence of dwarven speech amid frozen mountain peaks, this sacred communion ties communion with the earth directly to Dun Morogh's snowy heights."
+   "text": "As a dwarf, you hear this sacred communion in the rough cadence of your people, amid frozen mountain peaks. It ties communion with the earth to Dun Morogh’s snowy heights."
   },
   {
    "target": "faction:Alliance",
-   "text": "The presence of an elemental rite in the snowy mountain crags shows shamanic traditions taking root within Alliance lands."
+   "text": "As an Alliance member, you see an elemental rite practiced among snowy mountain crags, where shamanic traditions take root within Alliance lands."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "earth sapta lore",
     "what does sapta do"
    ],
-   "answer": "Earth Sapta is a potent mystical brew crafted with magic to bind a practitioner's spirit directly to the elements. It is not intended for the weak-willed, as drinking it pierces ordinary mortal sight and reveals spirits and elemental truths that others cannot perceive.",
+   "answer": "Earth Sapta is a potent mystical brew crafted with magic to bind a practitioner’s spirit directly to the elements. It is not meant for the weak-willed. Drinking it pierces ordinary mortal sight, revealing spirits and elemental truths others cannot perceive.",
    "q": "What is Earth Sapta?"
   },
   {
@@ -41,7 +41,7 @@
     "spirit stone location",
     "where is the spirit stone"
    ],
-   "answer": "The brew must be consumed only at a dedicated sacred site. In this rite, the practitioner is directed north up the mountain along a hidden path to locate the ancient Spirit Stone tucked away in the crags.",
+   "answer": "You must drink the brew only at a dedicated sacred site. For this rite, you travel north up the mountain along a hidden path to find the ancient Spirit Stone among the crags.",
    "q": "Where must the sapta be consumed?"
   },
   {
@@ -50,7 +50,7 @@
     "meaning of call of earth",
     "call of earth lore"
    ],
-   "answer": "The Call of Earth is a foundational trial of communion and humility. By drinking the sapta at the Spirit Stone, the initiate learns to draw strength from the mountains, patience from the plains, and attune their mortal spirit to the living world before facing more turbulent elements.",
+   "answer": "The rite is a foundational trial of communion and humility. At the Spirit Stone, drinking sapta teaches you to draw strength from the mountains and patience from the plains. It attunes your mortal spirit to the living world before you face more turbulent elements.",
    "q": "What is the purpose of the Call of Earth rite?"
   },
   {
@@ -58,7 +58,7 @@
     "who knows sapta recipe",
     "can anyone make sapta"
    ],
-   "answer": "Only a select few initiated shamans possess the knowledge and spiritual preparation required to brew sapta. Its recipe is guarded and treated with great reverence, as the draught connects mortal awareness directly to primal forces.",
+   "answer": "Only a select few initiated shamans know how to brew sapta. Brewing it requires knowledge and spiritual preparation. Its recipe is guarded with great reverence because the draught connects mortal awareness directly to primal forces.",
    "q": "Who knows how to brew Earth Sapta?"
   },
   {
@@ -66,7 +66,7 @@
     "earth vs other elements",
     "how does earth compare to fire water air"
    ],
-   "answer": "While other elemental forces clash, burn, and roar with violent unrest, the earth element represents steadfast stillness, patience, and unyielding foundation. Initiates must first learn humility before the stone before confronting the volatile dual nature of the other elements.",
+   "answer": "Other elemental forces clash, burn, and roar with violent unrest, while earth brings steadfast stillness, patience, and an unyielding foundation. You first learn humility before stone, then face the volatile dual nature of the other elements.",
    "q": "How does the element of earth differ from the other elements?"
   },
   {
@@ -74,7 +74,7 @@
     "where is call of earth set",
     "frozen land earth quest"
    ],
-   "answer": "The quest takes place high in a cold, snowbound mountain range, where initiates follow an secluded path winding through the snow and stone to commune with the spirits of the land despite the biting frost.",
+   "answer": "The rite takes place high in a cold, snowbound mountain range. You follow a secluded path through snow and stone to commune with the spirits of the land despite the biting frost.",
    "q": "What setting is this rite performed in?"
   }
  ],
@@ -95,23 +95,24 @@
  ],
  "sections": [
   {
-   "body": "The Call of Earth is a sacred trial of spiritual attunement, requiring an initiate to drink the enchanted brew known as Earth Sapta at an isolated mountain shrine. Forged through ancient elemental magic, sapta binds the drinker's spirit to the bedrock of the world, granting mortal eyes the rare power to witness elemental spirits and subtle currents invisible to ordinary sight. Because of its potency, the draught must only be consumed in a designated holy site where the bond between spirit and stone can safely take hold.",
+   "body": "At an isolated mountain shrine, you drink Earth Sapta, an enchanted brew. Ancient elemental magic gives it power to show mortal eyes elemental spirits and subtle currents beyond ordinary sight. Its strength makes the shrine the only safe place to drink it, where spirit and stone can form their bond.",
    "spoiler": 0,
    "title": "The Draught of Vision"
   },
   {
-   "body": "High up a snow-swept mountain, tucked away at the terminus of a secluded hidden path, rests the Spirit Stone. Initiates journey into this bitter, frozen landscape to stand humbly before the ancient rock. By presenting themselves without pride and imbibing the sapta, they discover that even in the harshest winter crags, the living earth extends its welcome. The mountains become a foundation of enduring physical strength, while the vast, steady plains teach the quiet power of patience.",
+   "body": "High on a snow-swept mountain, the Spirit Stone waits at the end of a secluded path. You travel through bitter cold to stand humbly before the ancient rock. The living earth welcomes those who come without pride. Mountains give lasting physical strength, while the vast, steady plains teach patience.",
    "spoiler": 0,
    "title": "The Spirit Stone in the Snow"
   },
   {
-   "body": "Communing with stone serves as a foundational rite for spiritual pathfinders. Unlike the restless fury of wind, fire, or crashing water, the earth teaches unmoving discipline and quiet resilience. To pass the rite, the seeker must absorb the earth's quiet essence, preparing their mind and body for the conflicting, chaotic dualities of the more volatile elements that roar across the world.",
+   "body": "Communion with stone is a foundational rite for spiritual pathfinders. Wind, fire, and crashing water carry restless fury, while earth teaches discipline and quiet resilience. You absorb earth's still essence, preparing mind and body for the conflicting, chaotic dualities of the more volatile elements that roar across the world.",
    "spoiler": 0,
    "title": "Strength and Stillness"
   }
  ],
- "summary": "The Call of Earth is a sacred shamanic rite that binds an initiate's mortal spirit to the enduring foundations of the world. By imbibing the visionary brew known as Earth Sapta at a secluded mountain Spirit Stone, the seeker learns humility, patience, and elemental awareness amid the snow and rock.",
+ "summary": "At a mountain Spirit Stone, an initiate drinks Earth Sapta and binds spirit to the world's enduring foundations. The draught opens the way to elemental awareness, teaching humility and patience amid snow and rock.",
  "attribution": [
   "In-game quest text: Call of Earth"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Quell The Uprising",
   "chain": []
  },
- "summary": "Warden Thelwater calls for help as the Stockade erupts in riot beneath Stormwind. Defias prisoners have seized the cell blocks, and he wants the uprising crushed before the city's leaders learn how badly the prison has failed.",
+ "summary": "Beneath Stormwind, Warden Thelwater calls for help as the Stockade erupts in riot. Defias prisoners have seized the cell blocks, and he wants the uprising crushed before the city's leaders learn how badly the prison has failed.",
  "sections": [
   {
    "title": "A Prison Lost to Its Inmates",
-   "body": "The Stockade holds criminals, conspirators, and outlaws who threaten the Kingdom of Stormwind. Imprisoned Defias operatives have launched a sudden, violent uprising and taken the cell blocks from the guards. Armed felons crowd the corridors, and the usual order has broken down. The guards now depend on visiting champions to fight through the riot and retake the prison.",
+   "body": "The Stockade holds criminals, conspirators, and outlaws who threaten the Kingdom of Stormwind. Now Defias operatives have risen in sudden violence and seized the cell blocks from the guards. Armed prisoners crowd the corridors, and order has broken down. The guards depend on visiting champions to fight through the riot and retake the prison.",
    "spoiler": 0
   },
   {
    "title": "Desperation and Cover-Up",
-   "body": "Warden Thelwater orders Defias prisoners killed on sight out of desperation and fear for his position. He suspects foul play behind the coordinated mutiny. If the House of Nobles or the wider nobility learns the Stockade is out of control, he fears he will lose his post. Thelwater hopes a death sentence for insurgency will break the inmates' resolve and crush the rebellion before word passes the canal gates.",
+   "body": "Warden Thelwater orders Defias prisoners killed on sight. Desperate and afraid for his position, he suspects foul play behind the coordinated mutiny. He fears losing his post if the House of Nobles or the wider nobility learns the Stockade is out of control. He hopes a death sentence for insurgency will break the inmates' resolve and crush the rebellion before word passes the canal gates.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "thelwater motivation",
     "why the stockade quest"
    ],
-   "answer": "The guards have lost control of the Stockade's interior cells to rioting Defias inmates. Warden Thelwater fears losing his position if Stormwind's leaders learn the full scale of the disaster, so he hires capable mercenaries to kill the ringleaders and restore control quickly."
+   "answer": "Defias inmates have taken control of the Stockade's interior cells, and the guards cannot contain them. Warden Thelwater fears losing his position if Stormwind's leaders learn the full scale of the disaster, so he hires capable mercenaries to kill the ringleaders and restore control quickly."
   },
   {
    "q": "Who are the inmates rioting in the Stockade?",
@@ -56,7 +56,7 @@
     "foul play stockade",
     "inside job prison"
    ],
-   "answer": "Yes. Warden Thelwater suspects foul play and believes a revolt this sudden and complete could not happen by chance, without outside interference or compromised security within the city."
+   "answer": "Yes. Warden Thelwater suspects foul play and believes a revolt so sudden and complete could not happen by chance, without outside interference or compromised security within the city."
   },
   {
    "q": "Where does this uprising take place?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Quell The Uprising"
  ],
- "style": 1
+ "style": 2
 }

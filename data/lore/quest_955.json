@@ -17,16 +17,16 @@
   "wiki": "Bashal'Aran (2)",
   "chain": []
  },
- "summary": "At Bashal'Aran, Asterion seeks release from the magic binding his ghostly form. He suspects the grells have touched the seal that holds him, and asks travelers to gather their earrings so he can trace its lingering magic.",
+ "summary": "Magic still binds Asterion beneath Bashal'Aran's broken stones. The ancient night elf seeks release from his ghostly form and suspects the grells have touched the seal that holds him. He asks travelers to gather their earrings and trace its lingering magic.",
  "sections": [
   {
    "title": "A Centuries-Old Torment",
-   "body": "Asterion waits among Bashal'Aran's shattered marble, bound there for centuries. The ancient night elf spirit is trapped between life and true death beneath Darkshore's canopy. Arcane craft ties him to the ruined settlement, and he cannot break free alone. Solitude and despair have worn down his mind through all those years.",
+   "body": "For centuries, Asterion has waited among Bashal'Aran's shattered marble. The ancient night elf spirit remains caught between life and true death beneath Darkshore's canopy. Arcane craft binds him to the ruined settlement, and he cannot break free alone. Solitude and despair have worn down his mind.",
    "spoiler": 0
   },
   {
    "title": "Traces in the Wild",
-   "body": "Asterion believes an ancient seal hidden in the ruins may hold the key to his release. Though he cannot search the brush and fallen stones himself, the feral grells of Bashal'Aran forage there and steal small baubles. He asks travelers to gather their earrings, hoping the trinkets' lingering magic will lead him to the seal that torments his soul.",
+   "body": "Asterion believes an ancient seal hidden in the ruins may hold the key to his release. He cannot search the brush and fallen stones himself. The feral grells of Bashal'Aran forage there and steal small baubles, so he asks travelers to gather their earrings. He hopes the trinkets' lingering magic will lead him to the seal that torments his soul.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the ghost in bashal'aran",
     "asterion quest giver"
    ],
-   "answer": "Asterion is an ancient night elf ghost bound to the ruins of Bashal'Aran in Darkshore. For centuries, a mystical seal has held him in torment, and he longs to be free of his spectral state."
+   "answer": "Asterion is an ancient night elf ghost bound to Bashal'Aran's ruins in Darkshore. A mystical seal has held him in torment for centuries, and he longs to be free of his spectral state."
   },
   {
    "q": "Why does Asterion want grell earrings?",
@@ -47,7 +47,7 @@
     "grell earring purpose",
     "earrings quest darkshore"
    ],
-   "answer": "Asterion wants grell earrings because he believes the creatures have touched the seal binding him. Their earrings may carry traces of its magic and help him find it."
+   "answer": "Asterion believes the grells have touched the seal that binds him. Their earrings may carry traces of its magic and help him find it."
   },
   {
    "q": "What is Bashal'Aran?",
@@ -56,7 +56,7 @@
     "bashal'aran history",
     "ruins of bashal'aran"
    ],
-   "answer": "Bashal'Aran is an ancient night elf ruin on Darkshore's forested coast, dating to before the Great Sundering. Wild grells, satyrs, and spectral remnants of its fallen inhabitants now roam there."
+   "answer": "Bashal'Aran lies in Darkshore's forested coast, an ancient night elf ruin from before the Great Sundering. Wild grells, satyrs, and spectral remnants of its fallen inhabitants roam there."
   },
   {
    "q": "What happens after collecting the earrings?",
@@ -65,7 +65,7 @@
     "did the grells have the seal",
     "grell earring result"
    ],
-   "answer": "After travelers gather the earrings, Asterion examines them. He senses that the grells have brushed against the seal in what he considers recent times, though they do not carry it, and he can narrow down its location in the ruins."
+   "answer": "After travelers gather the earrings, Asterion examines them. He senses the grells brushed against the seal in what he considers recent times, though they do not carry it. This lets him narrow down its location in the ruins."
   },
   {
    "q": "Why is Asterion trapped here?",
@@ -83,13 +83,13 @@
     "grells lore",
     "darkshore grells"
    ],
-   "answer": "Grells are small, malicious woodland creatures native to Kalimdor's forests. They have sharp claws, a taste for trinkets, and a habit of infesting old ruins and attacking travelers."
+   "answer": "Grells are small, malicious woodland creatures native to Kalimdor's forests. They have sharp claws, favor trinkets, and often infest old ruins and attack travelers."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a Kaldorei, you may see Asterion as a reminder of the ancient civilization lost in the Sundering, and of souls left bound in ruin for millennia."
+   "text": "As a Kaldorei, you may see Asterion as a reminder of the ancient civilization lost in the Sundering and of souls bound in ruin for millennia."
   },
   {
    "target": "class:Mage",
@@ -119,5 +119,5 @@
  "attribution": [
   "Bashal'Aran (2)"
  ],
- "style": 1
+ "style": 2
 }

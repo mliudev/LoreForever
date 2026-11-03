@@ -8,16 +8,16 @@
   "wiki": "Senani Thunderheart",
   "refs": 8
  },
- "summary": "At Splintertree Post in Ashenvale, Senani Thunderheart puts hunters to the test. She serves the Horde by sending travelers after the forest’s fiercest predators, a trial of skill that also thins the beasts near Horde territory.",
+ "summary": "At Splintertree Post in Ashenvale, Senani Thunderheart tests hunters sent against the forest’s fiercest predators. Her trials hone their skill and thin the beasts near Horde territory.",
  "sections": [
   {
    "title": "The Master of the Hunt",
-   "body": "At Splintertree Post, Senani Thunderheart carries on the tauren hunting traditions in Ashenvale. Far from Mulgore’s open plains, she sends Horde hunters against the forest’s great beasts to test their tracking and fighting skill. For Senani, the hunt is an honorable challenge and a way to survive in a wild, contested land.",
+   "body": "At Splintertree Post, Senani Thunderheart keeps the tauren hunting traditions alive in Ashenvale. Far from Mulgore’s open plains, she sends Horde hunters after the forest’s great beasts. The trials test their skill at tracking and fighting. For Senani, the hunt is an honorable challenge and a way to survive in a wild, contested land.",
    "spoiler": 0
   },
   {
    "title": "The Beasts of Ashenvale",
-   "body": "Senani directs hunters toward three feared predators: the bear Ursangous, the cat Shadumbra, and the hippogryph Sharptalon. Their tokens are a paw, a head, and a claw. Claiming them marks a hunter’s passage and shows respect for the land and mastery of its fiercest beasts.",
+   "body": "Senani sends hunters after three feared predators: Ursangous the bear, Shadumbra the cat, and Sharptalon the hippogryph. Their tokens are a paw, a head, and a claw. Claiming them marks a hunter’s passage. It also shows respect for the land and mastery of its fiercest beasts.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what does senani want",
     "hunting quests ashenvale"
    ],
-   "answer": "The Ashenvale Hunt is a series of challenges Senani gives hunters. They track and slay three famed predators: Ursangous the bear, Shadumbra the nightsaber, and Sharptalon the hippogryph."
+   "answer": "The Ashenvale Hunt is a series of challenges Senani gives hunters. They track and slay Ursangous the bear, Shadumbra the nightsaber, and Sharptalon the hippogryph."
   },
   {
    "q": "Which trophies does Senani require for the hunt?",
@@ -56,7 +56,7 @@
     "ashenvale hunt items",
     "what does senani need"
    ],
-   "answer": "Senani asks hunters to bring back Ursangous’s Paw, Shadumbra’s Head, and Sharptalon’s Claw as proof that they bested all three beasts."
+   "answer": "Senani asks hunters to bring back Ursangous’s Paw, Shadumbra’s Head, and Sharptalon’s Claw. The trophies prove they bested all three beasts."
   },
   {
    "q": "Does Senani have any connection to the furbolgs in the area?",
@@ -73,7 +73,7 @@
     "is senani a druid",
     "senani cenarion circle"
    ],
-   "answer": "No. Senani serves the Horde and the tauren tribes, and meets the woods as a traditional hunter rather than as a druidic guardian of the Cenarion Circle."
+   "answer": "No. Senani serves the Horde and the tauren tribes. She meets the woods as a traditional hunter, not as a druidic guardian of the Cenarion Circle."
   }
  ],
  "angles": [
@@ -87,7 +87,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you’ll find Splintertree Post is your foothold in Ashenvale, where Senani helps scouts prove their worth and secure the wilderness."
+   "text": "As a member of the Horde, you’ll find Splintertree Post is your foothold in Ashenvale. There, Senani helps scouts prove their worth and secure the wilderness."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Senani Thunderheart"
  ],
- "style": 1
+ "style": 2
 }

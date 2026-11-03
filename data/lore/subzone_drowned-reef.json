@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Drowned Reef"
  },
- "summary": "The Drowned Reef is a treacherous stretch of coastal waters off the southern cliffs of the Arathi Highlands. Beneath the waves lie ancient sunken ruins, claimed by hostile Daggerspine naga who appear able to control the bay's tides, endangering passing vessels.",
+ "summary": "Ships bound for Faldir's Cove risk the Drowned Reef off Arathi's southern coast. Ancient ruins lie below, where Daggerspine naga seem able to command the bay's tides.",
  "sections": [
   {
    "title": "A Graveyard of Ships",
-   "body": "Just outside the hidden entrance to Faldir's Cove, the Drowned Reef forms a watery graveyard for navigators. Shattered ships, including the Maiden's Folly and the Spirit of Silverpine, lie submerged beneath the waves. Daggerspine naga led by Prince Nazjak inhabit the reef and appear able to control the bay's tides, dooming crews seeking refuge in the cove.",
+   "body": "Beyond the hidden entrance to Faldir's Cove, shattered ships rest beneath the waves. The Maiden's Folly and the Spirit of Silverpine lie among them. Daggerspine naga dwell on the reef under Prince Nazjak's command. They seem able to command the bay's tides, and crews seeking shelter in the cove may be doomed by them.",
    "spoiler": 0
   },
   {
    "title": "The Sunken City",
-   "body": "Those brave or foolish enough to dive into the deep water will discover the submerged architecture of an ancient elven city. Calcified elven gems remain among its drowned ruins.",
+   "body": "Deep beneath the reef lie the ruins of an ancient elven city. Dive among the drowned buildings, and calcified elven gems can still be found among the remains.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is drowned reef",
     "arathi reef"
    ],
-   "answer": "The Drowned Reef is a hazardous marine zone along the southern coast of the Arathi Highlands, situated just offshore from Faldir's Cove. It is known for its shallow, ship-breaking shoals and ancient ruins lurking beneath the sea."
+   "answer": "The Drowned Reef lies off the southern coast of the Arathi Highlands, just offshore from Faldir's Cove. Its waters endanger ships, while ancient ruins lie beneath the sea."
   },
   {
    "q": "Why are there so many sunken ships here?",
@@ -37,7 +37,7 @@
     "sunken ships arathi",
     "maidens folly"
    ],
-   "answer": "The reef is dangerous to ships navigating the southern Arathi coast. Its Daggerspine naga appear able to control the bay's tides, endangering crews trying to find refuge in Faldir's Cove."
+   "answer": "Ships face danger in the waters off Arathi's southern coast. Daggerspine naga seem able to command the bay's tides, putting crews seeking refuge in Faldir's Cove at risk."
   },
   {
    "q": "Who controls the Drowned Reef?",
@@ -46,7 +46,7 @@
     "prince nazjak",
     "daggerspine naga arathi"
    ],
-   "answer": "The reef is inhabited by the Daggerspine tribe of naga, who dwell within the flooded ruins. Their local forces are directed by Prince Nazjak, who commands them to prey upon stranded sailors and protect their submerged territory."
+   "answer": "Daggerspine naga inhabit the Drowned Reef's flooded ruins under Prince Nazjak's command. They prey on stranded sailors and guard their submerged territory."
   },
   {
    "q": "What are the ruins submerged beneath the reef?",
@@ -54,13 +54,13 @@
     "underwater ruins arathi",
     "elven ruins drowned reef"
    ],
-   "answer": "The reef contains the ruins of an ancient elven city, with calcified elven gems among its submerged remains."
+   "answer": "The ruins beneath the Drowned Reef belong to an ancient elven city. Calcified elven gems remain among its drowned buildings."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The flooded halls beneath the reef and the calcified gems resting in the seabed are somber reminders of the Kaldorei empire that shattered into the sea ten thousand years ago during the Great Sundering."
+   "text": "As a Night Elf, you may see the flooded halls and calcified gems as reminders of the Kaldorei empire. It shattered into the sea ten thousand years ago during the Great Sundering."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Drowned Reef"
- ]
+ ],
+ "style": 2
 }

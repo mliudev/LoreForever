@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Marshal's Refuge"
  },
- "summary": "Marshal's Refuge is a precarious, neutral haven tucked into the northern cliffs of Un'Goro Crater. Established by Williden Marshal and his expedition party, it serves as an emergency redoubt after the basin's primeval beasts routed their lower camps.",
+ "summary": "In Marshal's Refuge, expedition survivors shelter above Un'Goro Crater's dangerous basin. Williden Marshal and his party established the camp after beasts overran their lower camps.",
  "sections": [
   {
    "title": "A Precarious Perch",
-   "body": "When Williden and Hol'anyee Marshal led their expedition into Un'Goro Crater, they drastically underestimated the ferocity of its prehistoric denizens. After their initial base camps were repeatedly overrun by rampaging beasts, the battered survivors scrambled up into the cavernous northern cliffside to escape slaughter. Re-established as Marshal's Refuge, the camp clings high above the jungle floor, offering the only stable resting ground, basic supplies, and flight masters for weary explorers in the northern crater.",
+   "body": "Williden and Hol'anyee Marshal led their expedition into Un'Goro Crater. Its ancient beasts proved fiercer than they expected. After the creatures overran their first camps again and again, the survivors fled to the northern cliffs. Now Marshal's Refuge clings to a cavernous ledge above the jungle floor, where weary explorers can rest, find basic supplies, and speak with flight masters.",
    "spoiler": 0
   },
   {
    "title": "A Crossroads of Curiosity",
-   "body": "Because Un'Goro Crater contains ancient biological wonders and mysterious crystal formations, Marshal's Refuge attracts a motley band of researchers, fortune seekers, and eccentric wanderers. Naturalists from many lands, including dwarven scholars and gnomish tinkers, share the crowded ledge alongside the surviving Marshal crew. From here, scouts strike out toward volcanic summits like Fire Plume Ridge or bubbling landmarks like the Golakka Hot Springs, hoping to catalog the primordial wilderness before it consumes them.",
+   "body": "Researchers and wanderers gather at Marshal's Refuge to study Un'Goro Crater's ancient life and strange crystals. The surviving Marshal crew shares the crowded ledge with naturalists from many lands, including dwarven scholars and gnomish tinkerers. From the camp, scouts set out for Fire Plume Ridge and the Golakka Hot Springs. They hope to record the wilderness before it overwhelms them.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "marshals refuge location",
     "why cliffside camp"
    ],
-   "answer": "The Marshal expedition originally established camps lower in the basin, but Un'Goro's ferocious dinosaurs and aggressive creatures constantly trampled and overran them. The survivors retreated up the northern rock wall to gain a defensible vantage point safely out of reach of the larger beasts."
+   "answer": "Un'Goro's fierce beasts repeatedly overran the expedition's lower camps. The survivors retreated to the northern cliffs, where the rock wall gave them a defensible perch beyond the reach of larger creatures."
   },
   {
    "q": "Is Marshal's Refuge friendly to both Horde and Alliance?",
@@ -37,7 +37,7 @@
     "can horde go here",
     "can alliance go here"
    ],
-   "answer": "Yes. It operates as a neutral outpost. The primeval perils of Un'Goro Crater make faction rivalries an unaffordable luxury, so members of both factions mingle here peacefully to resupply and trade research."
+   "answer": "Yes. Marshal's Refuge is a neutral outpost where members of both factions can mingle, resupply, and trade research."
   },
   {
    "q": "Who leads the encampment?",
@@ -46,7 +46,7 @@
     "who runs marshals refuge",
     "camp leader"
    ],
-   "answer": "The outpost is led by Williden Marshal and Hol'anyee Marshal, the figures who organized the ill-fated Marshal Expeditions into the crater."
+   "answer": "Williden Marshal and Hol'anyee Marshal lead the encampment. They organized the Marshal Expeditions into Un'Goro Crater."
   },
   {
    "q": "What services are available at the Refuge?",
@@ -55,17 +55,17 @@
     "repairs",
     "vendors"
    ],
-   "answer": "The refuge provides essential survival necessities in the remote basin, including a flight master serving both factions, basic trade merchants, repair services, and a gathering spot for researchers offering bounties and investigations across the crater."
+   "answer": "The Refuge has a flight master, basic trade merchants, and repair services. Researchers also gather there to offer bounties and investigations across the crater."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Perched safely above the caldera floor, the Refuge offers hunters a vantage point to study Un'Goro's rarest and deadliest beasts before descending into the tracking grounds."
+   "text": "As a hunter, you can study Un'Goro's rare and deadly beasts from the Refuge's perch before heading down to track them."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnome scholars and field-engineers find the Refuge an ideal outpost for testing apparatuses on the crater's bizarre power crystals and volatile geysers."
+   "text": "As a gnome, you can use the Refuge as an outpost to test apparatus on Un'Goro's strange power crystals and volatile geysers."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Marshal's Refuge"
- ]
+ ],
+ "style": 2
 }

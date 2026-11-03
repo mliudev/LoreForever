@@ -24,16 +24,16 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "In Arathi, Quae and Kinelory stay while you carry news to Southshore. Quae has the items from the farm, and Kinelory has returned safely.",
+ "summary": "In Arathi, Quae and Kinelory remain near the farm while you carry news to Southshore. Quae has the farm items, and Kinelory has returned safely.",
  "sections": [
   {
    "title": "Word for Southshore",
-   "body": "Quae is pleased with how you cared for Kinelory. She says Kinelory is in better shape than after a night at the tavern. The items from the farm should help Phin Odelic understand what is happening in Arathi. Since the farm was attacked, Quae and Kinelory plan to stay there a little longer in case anyone retaliates. They ask you to return to Southshore and speak with Phin.",
+   "body": "Quae is pleased with how you cared for Kinelory. She says Kinelory is in better shape than after a night at the tavern. The items from the farm should help Phin Odelic understand what is happening in Arathi.\n\nSince the farm was attacked, Quae and Kinelory plan to stay there a little longer in case anyone retaliates. They ask you to return to Southshore and speak with Phin.",
    "spoiler": 0
   },
   {
    "title": "Phin's Answer",
-   "body": "Phin is glad to hear that Quae and Kinelory are alive and well. He calls them irreplaceable friends and travelling companions. On behalf of the whole group, Phin thanks you with a gift. He hopes that, with luck, they will learn what the Forsaken are planning and bring it to an end.",
+   "body": "Phin is glad to hear that Quae and Kinelory are alive and well. He calls them irreplaceable friends and travelling companions. On behalf of the whole group, he thanks you with a gift.\n\nPhin hopes that, with luck, they will learn what the Forsaken are planning and bring it to an end.",
    "spoiler": 1
   }
  ],
@@ -94,5 +94,5 @@
  "attribution": [
   "Hints of a New Plague? (5)"
  ],
- "style": 1
+ "style": 2
 }

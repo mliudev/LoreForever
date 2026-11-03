@@ -8,21 +8,21 @@
   "wiki": "Master Gadrin",
   "refs": 5
  },
- "summary": "In Sen'jin Village, Master Gadrin guides the Darkspear through exile and loss. The elder witch doctor once trained the tribe's priests and mages with Zalazane. Now he helps his people and seeks to break the dark curse over their home on the Echo Isles.",
+ "summary": "In Sen'jin Village, Master Gadrin guides the Darkspear through exile and grief. Once a teacher of priests and mages, he now serves his people and seeks to lift the dark curse over their home on the Echo Isles.",
  "sections": [
   {
    "title": "Mentor of the Darkspear",
-   "body": "Before the Darkspear reached Kalimdor, Master Gadrin guided generations of his people in the South Seas. He served as a witch doctor on the islands they called home, teaching the tribe's mystical ways.",
+   "body": "Before the Darkspear came to Kalimdor, Master Gadrin guided his people across generations in the South Seas. He served as a witch doctor on their island home and taught the tribe its mystical ways.",
    "spoiler": 0
   },
   {
    "title": "The Betrayal of Zalazane",
-   "body": "On the Echo Isles, Master Gadrin and the young witch doctor Zalazane trained the tribe's priests and mages together. Zalazane fell under the pull of the dark voodoo he sought to wield, and madness took hold. He enslaved the minds of his people and drove Vol'jin and the uncorrupted Darkspear onto the mainland of Durotar. Now in Sen'jin Village, Gadrin bears the grief of watching a companion become a tyrant. He works to lay slain tribesfolk to rest and end Zalazane's rule.",
+   "body": "On the Echo Isles, Master Gadrin trained the tribe's priests and mages with the young witch doctor Zalazane. But the dark voodoo Zalazane sought to wield took hold of him, and madness followed. He enslaved his people's minds and drove Vol'jin and the uncorrupted Darkspear to Durotar's mainland.\n\nNow Gadrin lives in Sen'jin Village with the grief of seeing his companion become a tyrant. He works to lay slain tribesfolk to rest and bring Zalazane's rule to an end.",
    "spoiler": 0
   },
   {
    "title": "Keeper of Ancient Lore",
-   "body": "Master Gadrin knows more of troll spiritualism and loa lore than almost anyone alive in the Horde. Scholars, shamans, and the Royal Apothecary Society seek his counsel on arcane and alchemical mysteries. When the Burning Blade threatens Durotar, or distant researchers need forgotten rites, Gadrin draws on what he knows. He sends adventurers to Zul'Farrak to read the tablet that holds Shadra the spider loa's true name. Then he crafts the binding such a rite requires.",
+   "body": "Master Gadrin knows more of troll spiritualism and loa lore than almost anyone alive in the Horde. Scholars, shamans, and the Royal Apothecary Society seek his counsel on arcane and alchemical mysteries. When the Burning Blade threatens Durotar or distant researchers need forgotten rites, Gadrin draws on that knowledge.\n\nHe sends adventurers to Zul'Farrak to read the tablet bearing Shadra the spider loa's true name. Then he crafts the binding the rite requires.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "why is gadrin here",
     "what is gadrin doing in senjin village"
    ],
-   "answer": "Master Gadrin remains in Sen'jin Village, the refuge the survivors built on Durotar's southern coast after Zalazane's curse drove them from the Echo Isles. He counsels refugees, watches for local threats, and directs strikes against Zalazane's forces."
+   "answer": "Master Gadrin remains in Sen'jin Village, the refuge survivors built on Durotar's southern coast after Zalazane's curse drove them from the Echo Isles. He counsels refugees, watches for local threats, and directs strikes against Zalazane's forces."
   },
   {
    "q": "Who is Minshina?",
@@ -86,7 +86,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you share traditions Master Gadrin taught the Darkspear: communion with spirits and the loa, shaped by the shadow and faith of jungle trolls."
+   "text": "As a priest, you share the traditions Master Gadrin taught the Darkspear: communion with spirits and the loa, shaped by the shadow and faith of jungle trolls."
   },
   {
    "target": "class:Mage",
@@ -122,5 +122,5 @@
  "attribution": [
   "Master Gadrin"
  ],
- "style": 1
+ "style": 2
 }

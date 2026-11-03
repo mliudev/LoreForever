@@ -17,16 +17,16 @@
   "wiki": "The Bounty of Teldrassil",
   "chain": []
  },
- "summary": "Nessa Shadowsong is sending fish samples from Rut'theran Village to Auberdine for comparison. She wants to learn whether Teldrassil's fish are larger and more plentiful than those along the mainland coast.",
+ "summary": "Nessa Shadowsong is comparing Teldrassil's fish with the mainland catch. She sends samples from Rut'theran Village to Auberdine to learn whether the island fish are larger and more plentiful.",
  "sections": [
   {
    "title": "A Fisherman's Study",
-   "body": "Nessa Shadowsong asks you to carry fish bones and scales to Laird in Auberdine. Fishers in Rut'theran Village bring in large, plentiful catches, and she wants to know whether the mainland waters yield the same kind of fish. The samples will let Laird compare the island catch with fish from the coast of Darkshore.",
+   "body": "Nessa Shadowsong asks you to carry fish bones and scales to Laird in Auberdine. Fishers in Rut'theran Village bring in large, plentiful catches. Nessa wants to learn whether the mainland waters yield the same kind of fish. The samples let Laird compare the island catch with fish from the coast of Darkshore.",
    "spoiler": 0
   },
   {
    "title": "Arranging Passage",
-   "body": "Nessa Shadowsong sends you to Vesprystus, the hippogryph master in Rut'theran Village, with the collection for Auberdine. Carrying the samples to him arranges your passage across the water to Darkshore.",
+   "body": "Nessa Shadowsong sends you to Vesprystus, the hippogryph master in Rut'theran Village, with the collection for Auberdine. Give him the samples, and he arranges your passage across the water to Darkshore.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why compare fish",
     "bounty of teldrassil purpose"
    ],
-   "answer": "Nessa Shadowsong wants to compare the large, plentiful fish caught around Rut'theran Village with fish from the mainland coast of Darkshore. She sends bones and scales for that comparison."
+   "answer": "Nessa Shadowsong wants to compare the large, plentiful fish caught around Rut'theran Village with fish from the mainland coast of Darkshore. She sends bones and scales for Laird to compare."
   },
   {
    "q": "Who is receiving the fish samples in Auberdine?",
@@ -47,7 +47,7 @@
     "laird darkshore",
     "auberdine fish vendor"
    ],
-   "answer": "Nessa Shadowsong sends the collection to Laird, a fish vendor in Auberdine."
+   "answer": "Laird, a fish vendor in Auberdine, receives the collection from Nessa Shadowsong."
   },
   {
    "q": "Why take the parcel to Vesprystus instead of traveling directly to Auberdine?",
@@ -56,7 +56,7 @@
     "who is vesprystus",
     "hippogryph master ruttheran"
    ],
-   "answer": "Vesprystus is the hippogryph master in Rut'theran Village. Nessa directs you to give him the collection to arrange passage across the water to Darkshore."
+   "answer": "Vesprystus is the hippogryph master in Rut'theran Village. Nessa sends you to him with the collection so he can arrange passage across the water to Darkshore."
   },
   {
    "q": "Where is Rut'theran Village located in relation to Teldrassil?",
@@ -65,7 +65,7 @@
     "where is nessa shadowsong",
     "how to reach ruttheran"
    ],
-   "answer": "Rut'theran Village sits at the southern base of Teldrassil, at sea level. An emerald portal connects it to Darnassus, and it is a harbor for ships and hippogryphs traveling to and from the great tree."
+   "answer": "Rut'theran Village sits at the southern base of Teldrassil, at sea level. An emerald portal connects it to Darnassus, and its harbor serves ships and hippogryphs traveling to and from the great tree."
   },
   {
    "q": "What happens after giving the collection to Vesprystus?",
@@ -74,7 +74,7 @@
     "after bounty of teldrassil",
     "what does vesprystus do"
    ],
-   "answer": "After Vesprystus accepts the collection, he offers Flight to Auberdine, which takes you across the strait on a hippogryph to Darkshore."
+   "answer": "After Vesprystus accepts the collection, he offers Flight to Auberdine. A hippogryph carries you across the strait to Darkshore."
   },
   {
    "q": "Is this part of leaving the starting zone for Night Elves?",
@@ -118,5 +118,5 @@
  "attribution": [
   "The Bounty of Teldrassil"
  ],
- "style": 1
+ "style": 2
 }

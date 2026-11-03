@@ -17,16 +17,16 @@
   "wiki": "Deep Ocean, Vast Sea",
   "chain": []
  },
- "summary": "North of Auberdine, the Silver Dawning and Mist Veil lie beneath the waves. Murlocs ambushed both night elf vessels as they sailed into port, and their surviving crews seek a way to mourn their lost captains.",
+ "summary": "North of Auberdine, two night elf vessels lie beneath the waves. Murlocs ambushed the Silver Dawning and Mist Veil as they sailed into port, and the surviving crews seek a way to mourn their lost captains.",
  "sections": [
   {
    "title": "Tragedy off the Coast",
-   "body": "Murlocs overwhelmed the Silver Dawning and Mist Veil as the ships approached Auberdine. Both vessels sank in the shallows north of the settlement. Their surviving crews reached shore, but the loss of the ships and their captains weighs on the port.",
+   "body": "Murlocs overwhelmed the Silver Dawning and Mist Veil as they neared Auberdine. Both ships sank in the shallows north of the settlement. Their surviving crews reached shore, but the loss of the vessels and their captains still weighs on the port.",
    "spoiler": 0
   },
   {
    "title": "Recovering Lost Memories",
-   "body": "Gorbold Steelhand, a dwarf in Auberdine, seeks to honor the fallen night elf captains. Murlocs now occupy the underwater wrecks, but the captains' lockboxes remain in the flooded holds. Their logs and personal effects could help the surviving sailors mourn their commanders and lay their spirits to rest.",
+   "body": "Gorbold Steelhand, a dwarf in Auberdine, seeks to honor the fallen night elf captains. Murlocs now occupy the underwater wrecks, though the captains' lockboxes remain in the flooded holds. Their logs and personal effects could help the surviving sailors mourn their commanders and lay their spirits to rest.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why did ships wreck",
     "what sank mist veil"
    ],
-   "answer": "Murlocs ambushed both ships as they sailed toward Auberdine. Their crews were overrun, both captains died, and the vessels sank to the ocean floor."
+   "answer": "Murlocs ambushed the Silver Dawning and Mist Veil as they sailed toward Auberdine. Their crews were overrun, both captains died, and the ships sank to the ocean floor."
   },
   {
    "q": "Who is Gorbold Steelhand?",
@@ -55,7 +55,7 @@
     "who gives deep ocean vast sea",
     "gorbold steelhand lore"
    ],
-   "answer": "Gorbold Steelhand is a dwarf in Auberdine. He looks out for the surviving sailors and asks for the fallen captains' belongings to be recovered."
+   "answer": "Gorbold Steelhand is a dwarf in Auberdine. He looks out for the surviving sailors and asks that the fallen captains' belongings be recovered."
   },
   {
    "q": "What is inside the lockboxes?",
@@ -71,7 +71,7 @@
     "why recover lockboxes",
     "why help the captains"
    ],
-   "answer": "The captains were respected night elf mariners. Their logs and possessions offer their surviving crews closure and may help put their spirits to rest."
+   "answer": "The captains were respected night elf mariners. Their logs and possessions offer their surviving crews comfort and may help put their spirits to rest."
   },
   {
    "q": "What creatures inhabit the shipwrecks now?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, the captains' belongings matter as a matter of ancestral honor. They served Auberdine's maritime trade."
+   "text": "As a night elf, you know the captains' belongings matter as a matter of ancestral honor. They served Auberdine's maritime trade."
   },
   {
    "target": "race:Dwarf",
@@ -116,5 +116,5 @@
  "attribution": [
   "Deep Ocean, Vast Sea"
  ],
- "style": 1
+ "style": 2
 }

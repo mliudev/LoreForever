@@ -17,16 +17,16 @@
   "wiki": "Altered Beings (Classic)",
   "chain": []
  },
- "summary": "At the Crossroads, Tonga Runetotem studies strange changes in the Barrens' oasis waters. Fissures beneath the pools may be changing the creatures that live there, and he asks you to bring him shells from altered snapjaws.",
+ "summary": "At the Crossroads, Tonga Runetotem investigates strange changes in the Barrens' oasis waters. Fissures beneath the pools may be changing the creatures there, so he asks you to bring him shells from altered snapjaws.",
  "sections": [
   {
    "title": "Unnatural Waters",
-   "body": "Tonga Runetotem is searching for the cause of strange changes in the Barrens' oases. Though the savanna is dry, a handful of pools support fertile ground. Tonga found peculiar fissures beneath those waters, sending out potent energies. He does not know whether the force came from outside or rose from deep within the earth. Now he studies the creatures that drink from and live in the pools, hoping to learn what the fissures are doing to them.",
+   "body": "Tonga Runetotem seeks the cause of strange changes in the Barrens' oases. Though the savanna is dry, a handful of pools keep fertile ground alive. Beneath the waters, Tonga found peculiar fissures that send out potent energies. He cannot tell whether that force came from outside or rose from deep within the earth.\n\nNow Tonga studies the creatures that drink from and live in the pools. He hopes they will show what the fissures are doing to them.",
    "spoiler": 0
   },
   {
    "title": "Signs in the Shell",
-   "body": "You are sent to the Lushwater Oasis and the Stagnant Oasis to gather altered snapjaw shells. Snapjaws live in the shallows, where they take in the strange essence through food and exposure. Their carapaces have changed, offering Tonga a sign of how the fissures affect local wildlife. He hopes the shells will help him understand the disturbance before it spreads farther across Kalimdor.",
+   "body": "You are sent to the Lushwater Oasis and the Stagnant Oasis to gather altered snapjaw shells. Snapjaws live in the shallows, taking in the strange essence through food and exposure. Their changed carapaces may show Tonga how the fissures affect local wildlife. He hopes the shells will help him understand the disturbance before it spreads farther across Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to get altered beings",
     "who starts altered beings"
    ],
-   "answer": "Tonga Runetotem, a tauren druid at the Crossroads in the central Barrens, gives this work."
+   "answer": "Tonga Runetotem, a tauren druid at the Crossroads in the central Barrens, gives you this work."
   },
   {
    "q": "What creatures need to be hunted for this task?",
@@ -47,7 +47,7 @@
     "altered snapjaw targets",
     "what to kill"
    ],
-   "answer": "You hunt oasis snapjaws around the waters of the Lushwater Oasis and the Stagnant Oasis in the Barrens."
+   "answer": "You hunt oasis snapjaws around the Lushwater Oasis and the Stagnant Oasis in the Barrens."
   },
   {
    "q": "Why are the snapjaws altered?",
@@ -65,7 +65,7 @@
     "lushwater location",
     "stagnant oasis location"
    ],
-   "answer": "Both oases lie south of the Crossroads in the Barrens. The Stagnant Oasis is southeast, toward the border of Dustwallow Marsh, while the Lushwater Oasis is southwest, near the entrance to the Wailing Caverns."
+   "answer": "Both oases lie south of the Crossroads in the Barrens. The Stagnant Oasis is southeast toward the border of Dustwallow Marsh, while the Lushwater Oasis is southwest near the entrance to the Wailing Caverns."
   },
   {
    "q": "What happens after completing Altered Beings?",
@@ -74,7 +74,7 @@
     "where does the chain go",
     "altered beings follow up"
    ],
-   "answer": "Tonga Runetotem finds the mystery runs deeper than the wild beasts. He sends you to report your findings to higher-ranking druidic elders, Hamuul Runetotem or Mura Runetotem."
+   "answer": "Tonga Runetotem finds the mystery reaches beyond the wild beasts. He sends you to report your findings to the higher-ranking druidic elders Hamuul Runetotem or Mura Runetotem."
   },
   {
    "q": "Why is Tonga Runetotem studying the oases?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you see how close natural vitality can lie to corrupted mutation. The snapjaws offer a view of the disturbance beneath the Barrens."
+   "text": "As a druid, you see how close natural vitality can lie to corrupted mutation. The snapjaws reveal the disturbance beneath the Barrens."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you can see the Earthmother's balance shaken in the Barrens. Tonga Runetotem's work touches your people's ancestral lands and their search for harmony."
+   "text": "As a tauren, you see the Earthmother's balance shaken in the Barrens. Tonga Runetotem's work touches your people's ancestral lands and their search for harmony."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you know the Crossroads depends on safe, pure water. Its sources must be guarded against unexpected magical dangers."
+   "text": "As a member of the Horde, you know the Crossroads depends on safe, pure water. Its sources need guarding against unexpected magical dangers."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Altered Beings (Classic)"
  ],
- "style": 1
+ "style": 2
 }

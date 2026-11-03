@@ -17,16 +17,16 @@
   "wiki": "WANTED: Baron Longshore",
   "chain": []
  },
- "summary": "On Ratchet's docks, Chief Engineer Gazlowe posts a bounty for Baron Longshore. The pirate captain hails from Gilneas and commands vessels of the Southsea Freebooters. His presence along the Merchant Coast threatens goblin merchant shipping across the region.",
+ "summary": "On Ratchet's docks, Chief Engineer Gazlowe posts a bounty for the pirate Baron Longshore. From Gilneas, Longshore commands vessels of the Southsea Freebooters. His raids along the Merchant Coast threaten goblin shipping across the region.",
  "sections": [
   {
    "title": "Piracy on the Merchant Coast",
-   "body": "South of Ratchet, the Southsea Freebooters hold fortified camps along the Merchant Coast. Their pirates harass merchant vessels and disrupt the sea lanes the Steamwheedle Cartel relies on between Ratchet, Booty Bay, and points beyond. Under captains such as Baron Longshore, the raids drain the local goblin administration and threaten trade along the coast.",
+   "body": "South of Ratchet, the Southsea Freebooters keep fortified camps along the Merchant Coast. Their pirates harass merchant vessels and disrupt the sea lanes the Steamwheedle Cartel relies on between Ratchet, Booty Bay, and points beyond. Under captains such as Baron Longshore, the raids drain the local goblin administration and threaten trade along the coast.",
    "spoiler": 0
   },
   {
    "title": "A Captain from Gilneas",
-   "body": "Baron Longshore comes from Gilneas, the isolated human kingdom across the sea. On Kalimdor, he commands the pirate vessel Heedless and leads crews ashore just north of Northwatch Hold. Chief Engineer Gazlowe answers with a bounty, calling for Longshore's identifiable head.",
+   "body": "Baron Longshore comes from Gilneas, the isolated human kingdom across the sea. On Kalimdor, he commands the pirate vessel Heedless and leads crews ashore just north of Northwatch Hold. Chief Engineer Gazlowe answers with a bounty and calls for Longshore's identifiable head.",
    "spoiler": 0
   }
  ],
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human, you can see how far deserters and outcasts from the Eastern Kingdoms have scattered across the seas when a Gilnean baron commands cutthroats on Kalimdor."
+   "text": "As a human, you can see how far deserters and outcasts from the Eastern Kingdoms have scattered across the seas. A Gilnean baron now commands cutthroats on Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you benefit when Southsea Freebooters near Ratchet are cleared out and the port stays open for Horde supplies moving into the Barrens."
+   "text": "As a member of the Horde, you benefit when Southsea Freebooters near Ratchet are cleared out. Then the port stays open for Horde supplies moving into the Barrens."
   },
   {
    "target": "faction:Alliance",
-   "text": "As a member of the Alliance, you rely on neutral shipping between Kalimdor and the Eastern Kingdoms, which Longshore's piracy disrupts."
+   "text": "As a member of the Alliance, you rely on neutral shipping between Kalimdor and the Eastern Kingdoms. Longshore's piracy disrupts that trade."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "WANTED: Baron Longshore"
  ],
- "style": 1
+ "style": 2
 }

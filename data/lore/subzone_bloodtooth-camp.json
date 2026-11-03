@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bloodtooth Camp"
  },
- "summary": "In central Ashenvale, Bloodtooth Camp lies west of the Falfarren River. Ran Bloodtooth leads the corrupted furbolgs, who attack anyone who approaches. Alliance scouts target the camp as they work to cleanse the surrounding woodlands.",
+ "summary": "In central Ashenvale, Bloodtooth Camp lies west of the Falfarren River. Ran Bloodtooth leads the corrupted furbolgs, who attack anyone approaching. Alliance scouts seek to cleanse the surrounding woodlands.",
  "sections": [
   {
    "title": "A Corrupted Den",
-   "body": "Bloodtooth Camp lies southwest of the southern Moonwell and west of the Falfarren River. Its furbolgs were once bound to Kalimdor's sacred wilderness, but a lingering spiritual corruption has consumed their tribe. Ran Bloodtooth commands the crude settlement. His followers attack travelers and night elven protectors alike.",
+   "body": "Bloodtooth Camp lies southwest of the southern Moonwell and west of the Falfarren River. The furbolgs were once bound to Kalimdor’s sacred wilderness, but lingering spiritual corruption has consumed their tribe. Ran Bloodtooth commands the crude settlement. His followers attack travelers and night elven protectors alike.",
    "spoiler": 0
   },
   {
    "title": "Cleansing the Forest",
-   "body": "Ran Bloodtooth's band threatens nearby sacred sites, drawing Alliance sentinels and their allies to the camp. As they aid Raene Wolfrunner's efforts to cleanse the forest, Krolg directs adventurers to enter the camp, kill Ran Bloodtooth, and defeat his bodyguards.",
+   "body": "Ran Bloodtooth’s band threatens nearby sacred sites, so Alliance sentinels and their allies come to the camp. They aid Raene Wolfrunner’s efforts to cleanse the forest. Krolg directs adventurers to enter the camp, kill Ran Bloodtooth, and defeat his bodyguards.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "bloodtooth corruption",
     "are furbolgs evil here"
    ],
-   "answer": "A dark demonic corruption lingering in Ashenvale's wilderness has driven the Bloodtooth clan, like many furbolg tribes there, into madness and aggression toward outsiders."
+   "answer": "Lingering demonic corruption in Ashenvale’s wilderness has driven the Bloodtooth clan and many other furbolg tribes into madness and aggression toward outsiders."
   },
   {
    "q": "Who leads the furbolgs at Bloodtooth Camp?",
@@ -55,17 +55,17 @@
     "why kill ran bloodtooth",
     "krolg mission"
    ],
-   "answer": "During the efforts around Raene's Cleansing, Krolg, an exiled furbolg, directs Alliance champions to attack the camp, kill Ran Bloodtooth, and remove the threat his followers pose to the region."
+   "answer": "During the efforts around Raene’s Cleansing, Krolg, an exiled furbolg, directs Alliance champions to attack the camp, kill Ran Bloodtooth, and remove the threat his followers pose to the region."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance adventurers, Bloodtooth Camp is a pocket of corruption threatening Ashenvale's southern groves and moonwells."
+   "text": "For Alliance adventurers, Bloodtooth Camp is a pocket of corruption that threatens Ashenvale’s southern groves and moonwells."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see Ran Bloodtooth's maddened tribe as a tragic sign of the corruption blighting your ancestral homeland."
+   "text": "As a night elf, you see Ran Bloodtooth’s maddened tribe as a tragic sign of the corruption blighting your ancestral homeland."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Bloodtooth Camp"
  ],
- "style": 1
+ "style": 2
 }

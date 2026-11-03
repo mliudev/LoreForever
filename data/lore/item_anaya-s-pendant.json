@@ -10,11 +10,11 @@
    "quest:963"
   ]
  },
- "summary": "Across Ameth'Aran, Anaya's Pendant remains with the restless ghost of Anaya Dawnrunner. Cerellean Whiteclaw carries grief for the love he lost when the Sundering shattered their world.",
+ "summary": "Across Ameth'Aran, Anaya's Pendant remains with the tormented spirit of Anaya Dawnrunner. Cerellean Whiteclaw still grieves for the love he lost when the Sundering shattered their world.",
  "sections": [
   {
    "title": "A Keepsake Across Millennia",
-   "body": "When the Well of Eternity was destroyed ten thousand years ago, the ancient kaldorei city of Ameth'Aran fell into ruin. Cerellean Whiteclaw believed his beloved Anaya had perished, and carried his grief into a long sleep beside Shan'do Malfurion Stormrage. After waking, he wandered Darkshore and found Anaya's tormented apparition still drifting through Ameth'Aran, bearing the pendant. Cerellean cannot raise a hand against her himself, so he asks travelers to free her spirit and recover the heirloom.",
+   "body": "Ten thousand years ago, the Well of Eternity was destroyed and the ancient kaldorei city of Ameth'Aran fell into ruin. Cerellean Whiteclaw believed his beloved Anaya had perished. He carried his grief into a long sleep beside Shan'do Malfurion Stormrage.\n\nAfter waking, Cerellean wandered Darkshore and found Anaya's tormented apparition drifting through Ameth'Aran with the pendant. He cannot raise a hand against her himself. So he asks travelers to free her spirit and recover the heirloom.",
    "spoiler": 0
   },
   {
@@ -40,7 +40,7 @@
     "cerellean whiteclaw quest",
     "turn in anayas pendant"
    ],
-   "answer": "Cerellean Whiteclaw wants Anaya's Pendant. He is a grieving night elf who lives in Auberdine, the coastal town in Darkshore."
+   "answer": "Cerellean Whiteclaw wants Anaya's Pendant. The grieving night elf lives in Auberdine, the coastal town in Darkshore."
   },
   {
    "q": "Why couldn't Cerellean retrieve the pendant himself?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can see in the pendant a reminder of the War of the Ancients and the many lives and loves torn apart in the Great Sundering."
+   "text": "As a night elf, you see in the pendant a reminder of the War of the Ancients and the many lives and loves torn apart in the Great Sundering."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you know Cerellean slept for millennia beside Shan'do Stormrage, hoping to escape his grief, only to wake to ghosts lingering in the waking world."
+   "text": "As a druid, you know Cerellean slept for millennia beside Shan'do Stormrage, hoping to escape his grief. He woke to ghosts lingering in the waking world."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Anaya's Pendant",
   "For Love Eternal"
  ],
- "style": 1
+ "style": 2
 }

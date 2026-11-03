@@ -17,16 +17,16 @@
   "wiki": "The Warsong Reports",
   "chain": []
  },
- "summary": "Kadrak sends couriers from the northern Barrens to gather reports across Ashenvale. The Warsong Reports carry orders and field observations from outriders near Azshara, Splintertree Post, and the Zoram Strand.",
+ "summary": "Couriers from the northern Barrens carry Kadrak's orders and gather the Warsong Reports across Ashenvale. Their field observations come from outriders near Azshara, Splintertree Post, and the Zoram Strand.",
  "sections": [
   {
    "title": "Frontier Logistics",
-   "body": "Kadrak watches the mountain pass between the northern Barrens and Ashenvale from a fortified tower. The Horde needs the pass because the Barrens cannot supply the timber Orgrimmar requires. The Warsong clan has pushed into the ancient elven forest to reach those supplies. Couriers carry orders between scattered patrols and help keep them in step, while night elf ambushes threaten the wilderness trails.",
+   "body": "Kadrak watches the mountain pass between the northern Barrens and Ashenvale from a fortified tower. The Horde needs this route because the Barrens cannot provide the timber Orgrimmar requires. So the Warsong clan has pressed into the ancient elven forest to reach those supplies. Couriers carry orders between scattered patrols and help them keep in step. Yet night elf ambushes threaten the wilderness trails.",
    "spoiler": 0
   },
   {
    "title": "Eyes Across Ashenvale",
-   "body": "Warsong scouts watch three parts of Ashenvale. On the western coast, a runner at Zoram'gar Outpost watches naga activity and other coastal threats along the Zoram Strand. At Splintertree Post, a scout coordinates defense against Sentinel raids. Farther east, an outrider watches the road toward the shattered ruins of Azshara. Their reports give Kadrak a view of night elf movements and weaknesses along the frontier.",
+   "body": "Warsong scouts watch three parts of Ashenvale. On the western coast, a runner at Zoram'gar Outpost watches naga activity and other coastal threats along the Zoram Strand. At Splintertree Post, a scout coordinates the defense against Sentinel raids. Farther east, an outrider watches the road toward the shattered ruins of Azshara. Their reports give Kadrak a view of night elf movements and weaknesses along the frontier.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "warsong lumber",
     "ashenvale conflict"
    ],
-   "answer": "The Horde seeks Ashenvale's dense timber to build and reinforce settlements such as Orgrimmar. Night elves fiercely defend their sacred groves, and constant scouting helps the Horde maintain its outposts and supply lines in the conflict."
+   "answer": "The Horde seeks Ashenvale's dense timber to build and reinforce settlements such as Orgrimmar. Night elves fiercely defend their sacred groves, so constant scouting helps the Horde maintain its outposts and supply lines in the conflict."
   },
   {
    "q": "Where can the three Warsong scouts be found?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, aiding the Warsong clan honors the clan and helps supply the lumber needed to build Orgrimmar."
+   "text": "As an orc, you honor the Warsong clan and help supply the lumber needed to build Orgrimmar."
   },
   {
    "target": "class:Hunter",
@@ -126,5 +126,5 @@
  "attribution": [
   "The Warsong Reports"
  ],
- "style": 1
+ "style": 2
 }

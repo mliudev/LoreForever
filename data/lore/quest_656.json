@@ -22,21 +22,21 @@
    "The Princess Trapped Classic"
   ]
  },
- "summary": "Theldurin the Lost says Myzrael must be beaten while she is still growing, before her strength is enough to challenge those who hold her captive. At the Shards of Myzrael you call her forth, defeat her, and bind her Eldritch Shackles to the Shards.",
+ "summary": "At the Shards of Myzrael, you summon Myzrael and face her before she grows strong enough to challenge her captors. Theldurin the Lost wants her defeated and her Eldritch Shackles bound to the Shards.",
  "sections": [
   {
    "title": "Why She Must Be Stopped",
-   "body": "Theldurin wants Myzrael stopped before her power swells enough to set her against her captors. Some claim she can be controlled; Theldurin asks why, then, the giants bothered to chain her at all.",
+   "body": "Theldurin fears Myzrael will grow strong enough to turn against her captors. Some say she can be controlled. But Theldurin asks why the giants would have chained her if that were true.",
    "spoiler": 0
   },
   {
    "title": "At the Shards",
-   "body": "You take the Scroll of Myzrael to the Shards, the place where you first talked with her, and call her up. After you defeat her, her Eldritch Shackles are yours to bind to the Shards, and she is trapped once more.",
+   "body": "You take the Scroll of Myzrael to the Shards, where you first spoke with her, and call her forth. Once Myzrael is defeated, you bind her Eldritch Shackles to the Shards and trap her again.",
    "spoiler": 0
   },
   {
    "title": "When the Shackles Are Placed",
-   "body": "As the shackles settle around the Shards, a wail rises from far below, followed by a roar. The warmth and sense of safety the Shards once gave is gone. Now they pulse with open menace, as though the thing beneath them bears the surface ill will.",
+   "body": "As Myzrael's shackles settle around the Shards, a wail rises from far below, then a roar. The Shards no longer offer warmth or safety. They pulse with menace, as though the thing beneath them bears ill will toward the surface.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who gives summoning the princess",
     "theldurin quest"
    ],
-   "answer": "Theldurin the Lost, who warns that Myzrael must be beaten before her strength grows enough to challenge her captors."
+   "answer": "Theldurin the Lost sends you to defeat Myzrael before her strength grows enough to challenge her captors."
   },
   {
    "q": "Where does the summoning take place?",
@@ -57,7 +57,7 @@
     "shards of myzrael location",
     "summoning spot"
    ],
-   "answer": "At the Shards of Myzrael, the place where you first talked with her."
+   "answer": "You summon Myzrael at the Shards of Myzrael, where you first spoke with her."
   },
   {
    "q": "Why does Theldurin want Myzrael defeated?",
@@ -66,7 +66,7 @@
     "theldurin motivation",
     "why summon her"
    ],
-   "answer": "Theldurin fears she will grow strong enough to challenge her captors. Theldurin also points out that if she could truly be controlled, the giants would not have chained her."
+   "answer": "Theldurin fears Myzrael will grow strong enough to challenge her captors. He asks why the giants chained her if she could truly be controlled."
   },
   {
    "q": "How is Myzrael summoned?",
@@ -75,7 +75,7 @@
     "scroll of myzrael use",
     "summoning process"
    ],
-   "answer": "With the Scroll of Myzrael, used at the Shards of Myzrael."
+   "answer": "You summon Myzrael at the Shards of Myzrael with the Scroll of Myzrael."
   },
   {
    "q": "What do you do with the Eldritch Shackles?",
@@ -84,7 +84,7 @@
     "eldritch shackles",
     "shackles of myzrael"
    ],
-   "answer": "Defeat Myzrael, take her shackles, and fasten them to the Shards. Then she is trapped again."
+   "answer": "After defeating Myzrael, you bind her Eldritch Shackles to the Shards and trap her again."
   }
  ],
  "angles": [],
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "Summoning the Princess"
- ]
+ ],
+ "style": 2
 }

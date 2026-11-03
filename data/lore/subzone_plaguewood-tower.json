@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Plaguewood Tower"
  },
- "summary": "Plaguewood Tower is a ruined Lordaeron scout tower situated in the northern reaches of the Plaguewood near Terrordale. Shattered during the Scourge invasion, it now stands as a broken ruin amid the blighted forest.",
+ "summary": "Plaguewood Tower watches over the northern trails near Terrordale, its stones broken. Lordaeron kept a watchpost here until the Scourge invasion brought it to ruin.",
  "sections": [
   {
    "title": "A Ruined Sentinel in the North",
-   "body": "Standing on the edge of the blight-choked Plaguewood and the blighted town of Terrordale, Plaguewood Tower once served the Kingdom of Lordaeron as a vital northern watchpost. When the Scourge swept across the land, the fortification was battered into crumbling masonry and left in ruins amid corrupted fungal canopies. Today the fractured stones still overlook the northern trails, a silent reminder of the watch Lordaeron once kept over this land.",
+   "body": "Plaguewood Tower's fractured stones overlook the northern trails between the Plaguewood and blighted Terrordale. The Kingdom of Lordaeron kept this post to guard the region.\n\nWhen the Scourge swept across the land, the tower was battered into ruins among corrupted fungal canopies. Its broken walls still face the trails, the last remnant of Lordaeron's watch here.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who built plaguewood tower",
     "history of tower"
    ],
-   "answer": "Plaguewood Tower was built by the Kingdom of Lordaeron as a regional watchtower. Before the Third War, guards stationed here watched over the northern forests, roads, and settlements like Terrordale before the Scourge overwhelmed and shattered the garrison."
+   "answer": "The Kingdom of Lordaeron built Plaguewood Tower as a regional watchtower. Before the Third War, guards watched the northern forests, roads and settlements such as Terrordale from here. The Scourge overwhelmed and shattered the garrison."
   },
   {
    "q": "Where exactly is the tower located?",
@@ -32,17 +32,17 @@
     "where is plaguewood tower",
     "map location"
    ],
-   "answer": "It is positioned in the northern sector of the Eastern Plaguelands within the Plaguewood, just outside the ruined town of Terrordale and south of Stratholme's outer blighted reaches."
+   "answer": "Plaguewood Tower stands in the northern Eastern Plaguelands, within the Plaguewood, just outside ruined Terrordale and south of Stratholme's outer blighted reaches."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance forces, the shattered watchtowers of Lordaeron are a bitter reminder of the human lands lost to the Scourge."
+   "text": "For the Alliance, Lordaeron's shattered watchtowers recall the human lands lost to the Scourge."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, ruined fortifications like Plaguewood Tower show how thoroughly the Scourge broke the defenses of the northern kingdoms."
+   "text": "For the Horde, ruined fortifications like Plaguewood Tower show how thoroughly the Scourge broke the northern kingdoms' defenses."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Plaguewood Tower"
- ]
+ ],
+ "style": 2
 }

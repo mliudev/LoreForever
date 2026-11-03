@@ -8,16 +8,16 @@
   "wiki": "Thotar",
   "refs": 6
  },
- "summary": "In Razor Hill, Thotar teaches young Horde hunters the ways of tracking and taming beasts. He trains orcs and trolls who have left the Valley of Trials to face Durotar’s wildlife.",
+ "summary": "In Razor Hill, Thotar prepares young Horde hunters for Durotar’s wilds. Orcs and trolls come to him after leaving the Valley of Trials to learn tracking and beast taming.",
  "sections": [
   {
    "title": "A Mentor in Razor Hill",
-   "body": "In Razor Hill, Thotar trains Horde hunters for the wilderness of Durotar. New recruits learn the basics in the Valley of Trials, then come to him as they face more dangerous predators. He teaches marksmanship and the respect needed to live alongside and direct Kalimdor’s deadliest creatures, drawing on traditions passed down through generations of orcs.",
+   "body": "Thotar trains Horde hunters in Razor Hill for the wilderness of Durotar. After learning the basics in the Valley of Trials, new recruits come to him to face more dangerous predators. He teaches marksmanship and the respect needed to live alongside and direct Kalimdor’s deadliest creatures. Orcs have passed these traditions down through generations.",
    "spoiler": 0
   },
   {
    "title": "Taming the Wilds",
-   "body": "Thotar guides young hunters through the ancient art of taming beasts. He sends them into arid canyons to calm and bond with native creatures, including venomous scorpids, armored surf crawlers, and cunning boars. His instruction teaches Horde trackers to build a bond with nature rather than rely on force.",
+   "body": "Thotar sends young hunters into arid canyons to learn the ancient art of taming beasts. There, they calm and bond with native creatures, from venomous scorpids and armored surf crawlers to cunning boars. His lessons teach Horde trackers to build a bond with nature instead of relying on force.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "thotar lore",
     "what does thotar do"
    ],
-   "answer": "Thotar trains hunters in Razor Hill, teaching traditional wilderness lore, marksmanship, and beast taming."
+   "answer": "Thotar trains hunters in Razor Hill. He teaches traditional wilderness lore, marksmanship, and beast taming."
   },
   {
    "q": "Where can Thotar be found?",
@@ -47,7 +47,7 @@
     "hunter traditions",
     "thotar training"
    ],
-   "answer": "Thotar teaches hunting and tracking traditions passed down through generations of orcs. He emphasizes weapon mastery, wilderness survival, and patient bonding with animal companions."
+   "answer": "Thotar teaches hunting and tracking traditions passed down through generations of orcs. His lessons cover weapon mastery, wilderness survival, and patient bonds with animal companions."
   },
   {
    "q": "Does Thotar only train orcs?",
@@ -80,7 +80,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a Horde hunter, you learn the rites of beast taming and wilderness skills after leaving the starter valleys."
+   "text": "As a Horde hunter, you learn beast taming rites and wilderness skills after leaving the starter valleys."
   },
   {
    "target": "race:Orc",
@@ -88,7 +88,7 @@
   },
   {
    "target": "race:Troll",
-   "text": "As a Darkspear hunter leaving Sen’jin Village, you learn Horde survival skills for the dangers of Durotar."
+   "text": "As a Darkspear hunter leaving Sen’jin Village, you learn Horde survival skills for Durotar’s dangers."
   },
   {
    "target": "faction:Horde",
@@ -118,5 +118,5 @@
  "attribution": [
   "Thotar"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The local elves of the island have long sensed that Shadowgale Forest is haunted, disturbed by the tragic lingering of spirits bound to their ancient ruins."
+   "text": "As an island elf, you know Shadowgale Forest has long been feared as haunted, its spirits bound to ancient ruins."
   },
   {
    "target": "class:Priest",
-   "text": "The wind hollows are sorrowful apparitions trapped by tragedy, making their destruction an act of mercy to release souls bound in eternal anguish."
+   "text": "As a priest, you see the wind hollows as sorrowful spirits trapped by tragedy. Destroying them is seen as mercy, releasing souls bound in anguish."
   },
   {
    "target": "class:Druid",
-   "text": "Unquiet spirits lingering within Shadowgale Forest represent an unnatural disturbance in the wilderness that calls for balance and release."
+   "text": "As a druid, you know the unquiet spirits in Shadowgale Forest disturb the wilderness and call for balance and release."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "hollows lore",
     "what are the hollows"
    ],
-   "answer": "Wind hollows are sorrowful, ghost-like spirits that haunt old elven ruins to the northeast within Shadowgale Forest. Trapped by some ancient tragedy, they produce an eerie, mournful singing that echoes through the trees at night.",
+   "answer": "Wind hollows are sorrowful, ghost-like spirits haunting old elven ruins in northeastern Shadowgale Forest. Bound by an ancient tragedy, they sing mournfully through the trees at night.",
    "q": "What are the wind hollows?"
   },
   {
@@ -41,7 +41,7 @@
     "why kill hollows",
     "free the hollows purpose"
    ],
-   "answer": "The quest giver believes the spirits are trapped in perpetual sorrow following a terrible catastrophe. Destroying the wind hollows is viewed as an act of release and mercy, freeing their lingering forms from being bound to the ruins.",
+   "answer": "The spirits are believed to remain bound by a terrible catastrophe and trapped in sorrow. Destroying them is seen as an act of mercy that releases their lingering forms from the ruins.",
    "q": "Why do the wind hollows need to be freed?"
   },
   {
@@ -50,7 +50,7 @@
     "shadowgale ruins",
     "ruins location"
    ],
-   "answer": "Shadowgale Forest is an island woodland inhabited by elves, featuring ancient ruins to the northeast where the ghost-like hollows congregate.",
+   "answer": "The spirits gather among ancient ruins in the northeastern woods of Shadowgale Forest, an island woodland inhabited by elves.",
    "q": "Where are the spirits found?"
   },
   {
@@ -59,7 +59,7 @@
     "ghost song",
     "why are ghosts singing"
    ],
-   "answer": "The singing of the wind hollows is described as an extraordinarily sorrowful melody unlike any ordinary tune, thought to be born of their tragic demise and endless confinement to the island's ruins.",
+   "answer": "The wind hollows sing a sorrowful melody unlike any ordinary tune. Their song is thought to come from their tragic end and their endless confinement among the island’s ruins.",
    "q": "What is the strange singing heard in the woods?"
   },
   {
@@ -67,7 +67,7 @@
     "who gives free the hollows",
     "questgiver free the hollows"
    ],
-   "answer": "The task is offered by an observer on the island who takes pity on the trapped spirits and notices that local elves are wary of the haunted woods.",
+   "answer": "An island observer who pities the trapped spirits asks you to free them, mindful that local elves fear the haunted woods.",
    "q": "Who asks you to free the hollows?"
   },
   {
@@ -75,7 +75,7 @@
     "what happened at shadowgale ruins",
     "why are the ruins haunted"
    ],
-   "answer": "While the exact details remain lost to time, locals know that a terrible event unfolded at the northeastern ruins, binding these spirits to the site in an endless, mournful loop.",
+   "answer": "The exact details are lost to time, but locals know a terrible event took place at the northeastern ruins and bound the spirits there in endless sorrow.",
    "q": "What happened at the ruins to create the hollows?"
   }
  ],
@@ -91,18 +91,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Elves dwelling across the island have long regarded Shadowgale Forest as a haunted grove, and their superstitions are grounded in truth. Deep within the woods to the northeast lie old stone ruins where phantom apparitions known as wind hollows drift endlessly among the overgrowth. Rather than hostile malice, these spirits project an air of deep sorrow, trapped by the weight of whatever disaster befell the ruins in ages past.",
+   "body": "Elves across the island have long feared Shadowgale Forest as a haunted grove. In its northeastern woods, old stone ruins lie beneath the overgrowth. Ghost-like wind hollows drift there without rest, but they show no malice. Their sorrow points to a disaster that befell the ruins ages ago.",
    "spoiler": 0,
    "title": "Hauntings of Shadowgale"
   },
   {
-   "body": "On quiet nights, travelers near the ruins report hearing a strange, ethereal singing drifting on the breeze. It does not resemble any known mortal song, carrying an intense melancholy that unsettles any who hear it. Believing that leaving these shades trapped in their eternal lament is a torment, compassionate travelers seek out the wind hollows to destroy their spectral bindings and grant them peace.",
+   "body": "On quiet nights, travelers near the ruins hear strange singing on the breeze. No mortal song sounds like it, and its deep melancholy unsettles those who hear it. Compassionate travelers believe the shades suffer in their endless lament. They seek the wind hollows to break their spectral bonds and grant them peace.",
    "spoiler": 0,
    "title": "The Mournful Song"
   }
  ],
- "summary": "Free the Hollows is a quest in Shadowgale Forest, where ghost-like spirits known as wind hollows linger among ancient ruins. Trapped by an ancient tragedy, their sorrowful singing haunts the surrounding woods until someone grants them release.",
+ "summary": "In Shadowgale Forest, the wind hollows’ sorrowful song carries through ancient ruins. An old tragedy binds these ghost-like spirits, and travelers seek to give them peace.",
  "attribution": [
   "In-game quest text: Free the Hollows"
- ]
+ ],
+ "style": 2
 }

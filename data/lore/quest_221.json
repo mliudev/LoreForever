@@ -17,16 +17,16 @@
   "wiki": "Worgen in the Woods (Classic, 2)",
   "chain": []
  },
- "summary": "In Duskwood, Nightbane Dark Runners press closer to Darkshire. Calor sends you into the Rotting Orchard to thin their ranks before the pack can surround the town.",
+ "summary": "Nightbane Dark Runners press toward Darkshire from the Rotting Orchard in Duskwood. Calor sends you to thin their ranks before the pack can surround the town.",
  "sections": [
   {
    "title": "A Tightening Perimeter",
-   "body": "Calor's scouting has revealed a greater danger than the lone worgen first seen weaving shadowy magic at the forest's edge. Larger and swifter Nightbane Dark Runners have gathered in the Rotting Orchard, just southwest of Darkshire. They make up most of the pack and have turned the orchard into a staging ground within striking distance of the village gates.",
+   "body": "Calor's scouting has revealed a greater danger than the lone worgen first seen weaving shadowy magic at the forest's edge. Larger and swifter Nightbane Dark Runners have gathered in the Rotting Orchard, just southwest of Darkshire. They make up most of the pack and have made the orchard a staging ground within striking distance of the village gates.",
    "spoiler": 0
   },
   {
    "title": "An Inexhaustible Tide",
-   "body": "The Night Watch gains only brief relief when you fell a Dark Runner. Calor sees another prowling the mists in its place, and the defenders cannot explain the Nightbane's resilience or their numbers. They look to veteran monster hunters such as Master Jonathan Carevin to discover what foul catalyst called these alien horrors to Duskwood.",
+   "body": "When you fell a Dark Runner, the Night Watch gains only brief relief. Calor sees another prowling the mists in its place, and the defenders cannot explain the Nightbane's resilience or numbers. They look to veteran monster hunters such as Master Jonathan Carevin to discover what foul catalyst called these alien horrors to Duskwood.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what are dark runners",
     "nightbane dark runner"
    ],
-   "answer": "Nightbane Dark Runners are larger, imposing worgen who make up the main front-line force of the pack haunting Duskwood. Unlike the mystical Shadow Weavers, they rely on speed, claws, and predatory ferocity."
+   "answer": "Nightbane Dark Runners are larger, imposing worgen who form the pack's main front-line force in Duskwood. Unlike the mystical Shadow Weavers, they rely on speed, claws, and predatory ferocity."
   },
   {
    "q": "Where is the Rotting Orchard located?",
@@ -46,7 +46,7 @@
     "rotting orchard location",
     "where is rotting orchard"
    ],
-   "answer": "The Rotting Orchard lies just southwest of Darkshire. Once productive farmland, it is now a corrupted, blighted clearing that the Nightbane pack has seized as a foothold near the town."
+   "answer": "The Rotting Orchard lies just southwest of Darkshire. Once productive farmland, it is now a corrupted clearing seized by the Nightbane pack as a foothold near town."
   },
   {
    "q": "Who is Calor?",
@@ -64,7 +64,7 @@
     "inexhaustible worgen",
     "where do worgen come from"
    ],
-   "answer": "The defenders do not understand the supernatural nature of the worgen presence. They believe an evil power is summoning or drawing the beasts into Duskwood, so fresh waves appear as quickly as others are slain."
+   "answer": "The defenders cannot explain the supernatural presence of the worgen. They believe an evil power is summoning or drawing the beasts into Duskwood, so fresh waves appear as quickly as others are slain."
   },
   {
    "q": "Who is Master Carevin?",
@@ -91,7 +91,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you face unnatural, bipedal wolves at the Rotting Orchard, whose instincts defy Azeroth's natural order."
+   "text": "As a hunter, you face unnatural, bipedal wolves at the Rotting Orchard. Their instincts defy Azeroth's natural order."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Worgen in the Woods (Classic, 2)"
  ],
- "style": 1
+ "style": 2
 }

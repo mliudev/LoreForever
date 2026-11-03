@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Pool of Ask'ar"
  },
- "summary": "Naga invaders and aquatic beasts crowd the Pool of Ask'ar, deep within Blackfathom Deeps. Its submerged halls hold night elven stonework and passages into the corrupted sanctuary.",
+ "summary": "Naga invaders and aquatic beasts crowd Pool of Ask'ar, deep within Blackfathom Deeps. Beneath its waters lie night elven stonework and passages into the corrupted sanctuary.",
  "sections": [
   {
    "title": "Depths of the Sunken Grotto",
-   "body": "Past the Drowned Sacellum, cold, murky water fills the Pool of Ask'ar beneath a vast cavern vault. Oversized snapping turtles and deep-sea crabs nest among natural caverns and ancient stonework, watched over by Ghamoo-ra, an enormous ancient chelonian. Naga have seized the temple and use this flooded threshold to guard the approaches leading deeper into the complex, toward Lady Sarevess and the Moonshrine Ruins.",
+   "body": "Past the Drowned Sacellum, cold water fills Pool of Ask'ar beneath a vast cavern roof. Oversized snapping turtles and deep-sea crabs nest among natural caverns and ancient stonework. Ghamoo-ra, an enormous ancient chelonian, watches over them.\n\nNaga have seized the temple and guard this flooded threshold. Their patrols watch the approaches leading deeper into the complex, toward Lady Sarevess and the Moonshrine Ruins.",
    "spoiler": 0
   },
   {
    "title": "Secrets Beneath the Surface",
-   "body": "The Pool of Ask'ar hides relics from the shrine's past before the Sundering, beyond its dangerous creatures and naga patrols. Submerged ledges and hidden alcoves along the cavern's edges hold lost artifacts, including the Lorgalis Manuscript sought by Gerrig Bonegrip, a dwarven scholar from Ironforge. Swim through the flooded southern passages to reach dry tunnels guarded by vile murlocs and Old God cultists. The pool remains a vital waterway through Blackfathom Deeps.",
+   "body": "Dangerous creatures and naga patrols guard relics from the shrine's past, before the Sundering. Submerged ledges and hidden alcoves along the cavern's edges hold lost artifacts, including the Lorgalis Manuscript sought by Gerrig Bonegrip, a dwarven scholar from Ironforge.\n\nSwim through the flooded southern passages to reach dry tunnels guarded by vile murlocs and Old God cultists. The pool remains a vital waterway through Blackfathom Deeps.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this pool",
     "bfd water area"
    ],
-   "answer": "Past the Drowned Sacellum, the vast Pool of Ask'ar lies deep within Blackfathom Deeps. Snapping turtles, crabs, and naga guards crowd its waters."
+   "answer": "Past the Drowned Sacellum, Pool of Ask'ar lies deep within Blackfathom Deeps beneath a vast cavern. Snapping turtles, crabs, and naga guards crowd its waters."
   },
   {
    "q": "Who lives in this subterranean pool?",
@@ -37,7 +37,7 @@
     "pool of askar bosses",
     "who is in the pool"
    ],
-   "answer": "Snapping turtles and crabs inhabit the cavern, with Ghamoo-ra, a colossal turtle, among them. Hostile naga patrol the submerged banks and nearby chambers."
+   "answer": "Snapping turtles and crabs inhabit the cavern, with Ghamoo-ra, an enormous ancient chelonian, among them. Hostile naga patrol the submerged banks and nearby chambers."
   },
   {
    "q": "Where do the underwater tunnels lead?",
@@ -46,7 +46,7 @@
     "where does the water go",
     "pool of askar exit"
    ],
-   "answer": "The flooded southern passages lead toward chambers occupied by Lady Sarevess and Argent Guard Thaelrid. They also open onto a route past Gelihast toward the Moonshrine Ruins."
+   "answer": "Flooded southern passages lead toward chambers occupied by Lady Sarevess and Argent Guard Thaelrid. They also open onto a route past Gelihast toward the Moonshrine Ruins."
   },
   {
    "q": "What notable items can be found in the pool?",
@@ -55,13 +55,13 @@
     "lorgalis manuscript",
     "pool loot"
    ],
-   "answer": "The submerged ruins around the pool hold the Lorgalis Manuscript, an ancient text on the Old Gods sought by Gerrig Bonegrip of Ironforge."
+   "answer": "Submerged ruins around the pool hold the Lorgalis Manuscript, an ancient text on the Old Gods sought by Gerrig Bonegrip of Ironforge."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, the pool drowns grounds once holy to Elune, submerging ancient architecture and leaving sacred relics such as the Lorgalis Manuscript for naga to scavenge."
+   "text": "For night elves, Pool of Ask'ar drowns grounds once holy to Elune. Ancient architecture lies submerged, and naga scavenge sacred relics such as the Lorgalis Manuscript."
   },
   {
    "target": "faction:Alliance",
@@ -90,5 +90,5 @@
  "attribution": [
   "Pool of Ask'ar"
  ],
- "style": 1
+ "style": 2
 }

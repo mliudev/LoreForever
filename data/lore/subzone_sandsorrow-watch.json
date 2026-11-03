@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sandsorrow Watch"
  },
- "summary": "Sandsorrow Watch is a sprawling desert outpost located just west of Gadgetzan in Tanaris. The surrounding dunes and ruins are overrun by hostile Sandfury trolls and their reanimated dead, who also hold the eastern watch tower overlooking the waste.",
+ "summary": "At Sandsorrow Watch, Sandfury trolls hold the desert ruins and dunes just west of Gadgetzan.",
  "sections": [
   {
    "title": "A Precarious Perch",
-   "body": "Situated directly west of the bustling goblin trading hub of Gadgetzan, Sandsorrow Watch is a grim borderland in the Tanaris desert. The broad expanse is dominated by the Sandfury tribe, who aggressively defend the arid territory alongside legions of shambling troll zombies. An elevated watch tower at the eastern edge anchors the position, providing a fortified vantage point amidst the encroaching desert wilderness and the hostile indigenous tribes.",
+   "body": "Leave Gadgetzan through its western gate and you enter Sandfury territory almost at once. Trolls and shambling dead command the open desert, while an old watch tower rises at the eastern edge.",
    "spoiler": 0
   },
   {
    "title": "Frontier Outpost",
-   "body": "Even the watch tower at the eastern edge, within sight of Gadgetzan's walls, is held by the Sandfury. From its heights the Sandfury keep a wary eye on the goblin town, and travelers leaving through Gadgetzan's western gate walk almost directly into their territory, a constant reminder of the volatile frontier tension between Tanaris's opportunistic settlers and the native sand trolls.",
+   "body": "Sandfury trolls hold even the eastern tower, within sight of Gadgetzan's walls. From its heights, they watch the goblin town. Travelers leaving through the western gate step onto a tense frontier, where settlers and sand trolls face one another.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is sandsorrow",
     "how to get to sandsorrow watch"
    ],
-   "answer": "Sandsorrow Watch is located directly west of Gadgetzan in the northern desert plains of Tanaris. Travelers heading out through Gadgetzan's western gate will encounter it almost immediately."
+   "answer": "Sandsorrow Watch lies directly west of Gadgetzan, in Tanaris's northern desert plains. You reach it almost at once through the town's western gate."
   },
   {
    "q": "Who controls Sandsorrow Watch?",
@@ -37,7 +37,7 @@
     "sandsorrow watch faction",
     "who holds sandsorrow watch"
    ],
-   "answer": "The ruins, the surrounding dunes and the eastern watch tower are all occupied by hostile Sandfury trolls and their undead minions."
+   "answer": "Hostile Sandfury trolls and their undead minions occupy the ruins, dunes, and eastern watch tower."
   },
   {
    "q": "Why are there undead trolls at Sandsorrow Watch?",
@@ -46,7 +46,7 @@
     "why troll zombies tanaris",
     "sandsorrow zombies"
    ],
-   "answer": "The Sandfury tribe practices dark necromantic arts and voodoo, frequently raising fallen Sandfury warriors as Sandfury Zombies to guard their desolate territory and outposts across Tanaris."
+   "answer": "The Sandfury practice necromantic arts and voodoo. They raise fallen warriors as Sandfury Zombies to guard their territory and outposts across Tanaris."
   },
   {
    "q": "What threats can adventurers expect in the surrounding dunes?",
@@ -55,17 +55,17 @@
     "sandsorrow watch enemies",
     "hostile trolls sandsorrow"
    ],
-   "answer": "The area is heavily patrolled by Sandfury Axe Throwers, Firecallers, and Hideskinners, alongside their reanimated troll zombies. Unprepared travelers venturing off the main path west of Gadgetzan can easily be overwhelmed by roving Sandfury warbands."
+   "answer": "Sandfury Axe Throwers, Firecallers, and Hideskinners patrol the dunes with reanimated troll zombies. Leave the main path west of Gadgetzan and roving Sandfury warbands may overwhelm you."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "No smith works at the Sandfury-held watch tower; desert smiths gather behind Gadgetzan's walls instead, just to the east."
+   "text": "No smith works at the Sandfury-held watch tower. Desert smiths gather behind Gadgetzan's walls, just to the east."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls will find no kinship here: the hostile Sandfury tribe views all outsiders as invaders to be crushed and raised as shambling corpses."
+   "text": "As a troll, you will find no kinship with the Sandfury. They see outsiders as invaders to crush and raise as shambling corpses."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Sandsorrow Watch"
- ]
+ ],
+ "style": 2
 }

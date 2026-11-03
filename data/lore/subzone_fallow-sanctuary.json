@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fallow Sanctuary"
  },
- "summary": "The Fallow Sanctuary is a secluded village hidden deep within the bogs of the Swamp of Sorrows. It serves as home to an isolated tribe of mutated draenei known as the Lost Ones, whose severe grief and homesickness have driven them feral.",
+ "summary": "In the Swamp of Sorrows, Fallow Sanctuary shelters a tribe cut off from the world they knew. The Lost Ones are mutated draenei, driven feral by grief and homesickness.",
  "sections": [
   {
    "title": "A Refuge Lost to Madness",
-   "body": "Tucked away among the sunken trees of the Swamp of Sorrows, the Fallow Sanctuary was established by stranded Lost Ones seeking a place of their own. Severed from their ancestral world and deformed by dark energies, these wretched outcasts found no peace in the marshland. Over time, relentless sorrow and isolation shattered their sanity, reducing the tribe to a hostile, feral state where they fiercely attack any outsiders who trespass into their village.",
+   "body": "Among the sunken trees of the Swamp of Sorrows, the Lost Ones have made Fallow Sanctuary their refuge. Separation from their ancestral world and dark energies deformed them.\n\nSorrow and isolation wore away at the tribe’s sanity. Now they are hostile and feral, attacking outsiders who enter their village.",
    "spoiler": 0
   },
   {
    "title": "Vanished Leaders",
-   "body": "The settlement was once guided by figures like Ongeku and Noboru the Cudgel, though the village's leadership crumbled following their absence and demise.",
+   "body": "Ongeku and Noboru the Cudgel once guided Fallow Sanctuary. Their absence and deaths left the village without its leaders.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this village",
     "lost one camp swamp"
    ],
-   "answer": "It is a settlement located in the Swamp of Sorrows inhabited by the Lost Ones, a heavily mutated and tragic branch of draenei who crossed through the Dark Portal."
+   "answer": "Fallow Sanctuary is a settlement in the Swamp of Sorrows. It is home to the Lost Ones, a heavily mutated branch of draenei who crossed through the Dark Portal."
   },
   {
    "q": "Why are the Lost Ones here hostile?",
@@ -37,7 +37,7 @@
     "are lost ones evil",
     "feral lost ones"
    ],
-   "answer": "Trapped on Azeroth and separated from everything they once knew, the Lost Ones here have been driven completely mad by grief and homesickness, rendering them fiercely feral and aggressive toward outsiders."
+   "answer": "Grief and homesickness have driven the Lost Ones of Fallow Sanctuary mad. Trapped on Azeroth and cut off from everything they knew, they have become feral and attack outsiders."
   },
   {
    "q": "Who leads the Fallow Sanctuary?",
@@ -46,13 +46,13 @@
     "noboru",
     "ongeku"
    ],
-   "answer": "The tribe previously answered to prominent figures such as Ongeku and Noboru the Cudgel, though their leadership fell apart due to their disappearance and deaths."
+   "answer": "Ongeku and Noboru the Cudgel once led the Lost Ones at Fallow Sanctuary. Their disappearance and deaths left the tribe without its leaders."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The twisted fate of the Lost Ones demonstrates how dark energies warp living flesh and shatter frail minds."
+   "text": "As a warlock, you see how dark energies can warp living flesh and shatter a fragile mind in the Lost Ones."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Fallow Sanctuary"
- ]
+ ],
+ "style": 2
 }

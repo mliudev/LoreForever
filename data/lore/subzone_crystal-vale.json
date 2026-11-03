@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Crystal Vale"
  },
- "summary": "Tucked away in the far northwestern corner of Silithus, the Crystal Vale is a remote canyon dominated by jagged mineral spires and swirling elemental forces. Earth and air elementals roam its rocky flats, guarding rich veins of raw ore. It is also a site of potent summoning magic, deeply tied to the ancient elemental lords.",
+ "summary": "In northwestern Silithus, Crystal Vale gathers stone, wind, and ancient power. Jagged spires rise above rocky flats where earth and air elementals roam among rich ore veins. Potent summoning magic here is tied to the ancient elemental lords.",
  "sections": [
   {
    "title": "A Confluence of Stone and Wind",
-   "body": "The Crystal Vale stands distinct from the barren desert sands of southern Silithus. Framed by steep cliffs, the basin is filled with shimmering crystalloid formations, roaming earthen elementals, and roaring whirlwinds of living air. Rich deposits of thorium draw occasional daring prospectors, but the vale is far from quiet. The elemental beings here are inherently hostile to intruders, guarding a realm that feels steeped in the primal conflicts of primordial Azeroth.",
+   "body": "Crystal Vale cuts a rocky basin into southern Silithus. Steep cliffs frame shimmering mineral formations, earthen elementals, and roaring whirlwinds of living air. Rich thorium draws a few prospectors, though the valley remains dangerous. Hostile elementals guard ground shaped by the primal conflicts of ancient Azeroth.",
    "spoiler": 0
   },
   {
    "title": "The Slumber of the Windseeker",
-   "body": "Beyond its minerals and native spirits, the Crystal Vale holds deep significance for ancient elemental powers. It is here that Highlord Demitrian lingers, harboring the secrets of Prince Thunderaan, the Windseeker. Those who gather the severed elemental bindings of the fallen prince and the rarest forged metals are directed to this valley, where the imprisoned lord of air can be coaxed from his bindings and challenged in open battle.",
+   "body": "Highlord Demitrian lingers in Crystal Vale with secrets about Prince Thunderaan, the Windseeker. Those who bring the fallen prince's severed elemental bindings and the rarest forged metals are directed to the valley. There, the imprisoned lord of air can be drawn from his bindings and faced in open battle.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "crystal vale map",
     "crystal vale location"
    ],
-   "answer": "The Crystal Vale is situated in the far northwestern reaches of Silithus, nestled against the mountainous rim that borders the desert."
+   "answer": "Crystal Vale lies in far northwestern Silithus, against the mountainous rim that borders the desert."
   },
   {
    "q": "What creatures inhabit this valley?",
@@ -37,7 +37,7 @@
     "what lives in crystal vale",
     "elementals in crystal vale"
    ],
-   "answer": "The canyon is primarily populated by aggressive air and earth elementals that drift and stomp around the mineral outcrops."
+   "answer": "Aggressive air and earth elementals roam among the valley's mineral outcrops."
   },
   {
    "q": "Who is Highlord Demitrian and why is he here?",
@@ -46,7 +46,7 @@
     "highlord demitrian crystal vale",
     "demitrian location"
    ],
-   "answer": "Highlord Demitrian is a solitary hermit dwelling in the vale who holds profound knowledge of Prince Thunderaan. He aids champions capable of reuniting the Windseeker's bindings to summon the elemental prince."
+   "answer": "Highlord Demitrian lives alone in Crystal Vale and knows much about Prince Thunderaan. He aids champions who can reunite the Windseeker's bindings and summon the elemental prince."
   },
   {
    "q": "What is the Ravaged Twilight Camp?",
@@ -55,17 +55,17 @@
     "twilight camp in vale",
     "destroyed twilight camp"
    ],
-   "answer": "It is the wreckage of a Twilight's Hammer encampment within the vale, overrun and shattered by the violent elemental denizens that claim the canyon."
+   "answer": "Ravaged Twilight Camp is the wreckage of a Twilight's Hammer encampment in the valley. Violent elementals have shattered and overrun it."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The craggy edges and canyon walls of the Crystal Vale are known to house valuable veins of rich thorium, making it a lucrative though hazardous destination for high-skill miners."
+   "text": "Crystal Vale's craggy edges and canyon walls hold rich thorium veins. Mining can be lucrative there, but the valley is hazardous."
   },
   {
    "target": "class:Shaman",
-   "text": "The raw friction between earth and air spirits here serves as a potent reminder of the unbridled chaos of unrestrained elementals across Silithus."
+   "text": "As a shaman, you can witness the raw clash between earth and air spirits in Crystal Vale. It recalls the elementals' unrestrained chaos across Silithus."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Crystal Vale"
- ]
+ ],
+ "style": 2
 }

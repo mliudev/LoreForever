@@ -8,16 +8,16 @@
   "wiki": "Je'neu Sancrea",
   "refs": 12
  },
- "summary": "At Zoram'gar Outpost, Je'neu Sancrea watches the Ashenvale coast for dark disturbances. The Darkspear troll and Earthen Ring shaman sends Horde adventurers to investigate corruption in the submerged temple of Blackfathom Deeps.",
+ "summary": "At Zoram'gar Outpost, Je'neu Sancrea watches the Ashenvale coast for signs of dark unrest. This Darkspear shaman sends Horde adventurers to seek corruption beneath the waves at Blackfathom Deeps.",
  "sections": [
   {
    "title": "A Shaman on the Strand",
-   "body": "Je'neu Sancrea watches the dangerous Zoram Strand from Zoram'gar Outpost. While most of the Earthen Ring works to keep the elements in harmony across Kalimdor, he keeps watch over the coast. Dark tremors and unnatural tides stir near the ruined temple of Blackfathom Deeps. His shamanic duties bind him to the Earthen Ring, but his loyalties to the Darkspear tribe and Thrall's Horde lead him to work only with Horde champions.",
+   "body": "From Zoram'gar Outpost, Je'neu Sancrea keeps watch over the dangerous Zoram Strand. The Earthen Ring works to keep Kalimdor's elements in harmony, while he watches this coast. Dark tremors and unnatural tides stir near the ruined temple of Blackfathom Deeps. His shamanic duties bind him to the Earthen Ring, yet his Darkspear ties and loyalty to Thrall's Horde lead him to work only with Horde champions.",
    "spoiler": 0
   },
   {
    "title": "Shadows of the Deep",
-   "body": "Je'neu Sancrea seeks the cause of the corruption spreading along the coast. He gathers tainted sapphire cores and investigates the vile remains of water elementals, including Baron Aquanis. His inquiries reveal the influence of the Twilight's Hammer cult. Its rituals beneath the waves threaten the balance of the local elements and herald the return of forces sworn to the Old Gods.",
+   "body": "Je'neu Sancrea searches for the cause of corruption spreading along the coast. He gathers tainted sapphire cores and examines the vile remains of water elementals, including Baron Aquanis. His inquiries uncover the Twilight's Hammer cult. Beneath the waves, its rituals threaten the balance of the local elements and herald the return of forces sworn to the Old Gods.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "jeneu sancrea lore",
     "what is jeneu"
    ],
-   "answer": "Je'neu Sancrea is a Darkspear troll shaman of the Earthen Ring. He watches the corruption spreading from Blackfathom Deeps from his station at Zoram'gar Outpost on the Ashenvale coast."
+   "answer": "Je'neu Sancrea, a Darkspear troll shaman of the Earthen Ring, watches the corruption spreading from Blackfathom Deeps. He keeps watch from Zoram'gar Outpost on the Ashenvale coast."
   },
   {
    "q": "Why does Je'neu only deal with Horde adventurers if he is Earthen Ring?",
@@ -56,7 +56,7 @@
     "jeneu sancrea location",
     "find jeneu"
    ],
-   "answer": "Je'neu Sancrea is at Zoram'gar Outpost, a fortified Horde settlement on Ashenvale's far northwestern coast. The outpost lies along the Zoram Strand, just south of Blackfathom Deeps."
+   "answer": "Je'neu Sancrea watches the coast from Zoram'gar Outpost, a fortified Horde settlement on Ashenvale's far northwestern coast. The outpost lies along the Zoram Strand, just south of Blackfathom Deeps."
   },
   {
    "q": "What is the Earthen Ring?",
@@ -65,7 +65,7 @@
     "what is the earthen ring",
     "shaman organization"
    ],
-   "answer": "The Earthen Ring is an ancient circle of shamans devoted to understanding and calming the world's elemental spirits. Its members intervene when dark forces or chaotic entities upset the elements' natural harmony."
+   "answer": "The Earthen Ring is an ancient circle of shamans devoted to understanding and calming the world's elemental spirits. Its members act when dark forces or chaotic beings upset the elements' natural harmony."
   },
   {
    "q": "What is the threat of the Twilight's Hammer in the Deeps?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Je'neu Sancrea"
  ],
- "style": 1
+ "style": 2
 }

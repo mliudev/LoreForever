@@ -17,11 +17,11 @@
   "wiki": "Rune-Inscribed Tablet (quest)",
   "chain": []
  },
- "summary": "In the Valley of Trials, new shamans receive a summons from Shikrik. It calls promising initiates to formal training in the spirits and the elements: earth, fire, water, and air.",
+ "summary": "In the Valley of Trials, Shikrik calls promising initiates to formal shaman training. The tablet's runes carry the summons to study the spirits and the elements: earth, fire, water, and air.",
  "sections": [
   {
    "title": "A Call to the Spirits",
-   "body": "Gornek gives fledgling shamans a carved stone tablet after they prove their early discipline in the dusty training grounds of the Valley of Trials. Its runes carry an invitation from Shikrik, the local shaman trainer. The summons tells each initiate they are ready to look beyond physical combat and heed the deeper currents of the natural world.",
+   "body": "After showing early discipline in the Valley of Trials' dusty grounds, fledgling shamans receive a carved stone tablet from Gornek. Its runes carry an invitation from Shikrik, the local shaman trainer. The summons says each initiate is ready to look beyond physical combat and heed the deeper currents of the natural world.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "tablet item",
     "shaman tablet"
    ],
-   "answer": "Gornek gives novice shamans in the Valley of Trials an inscribed stone tablet bearing a summons from Shikrik. It calls the young adventurer to formal training in spiritual and elemental arts."
+   "answer": "Gornek gives novice shamans in the Valley of Trials an inscribed stone tablet bearing a summons from Shikrik. Its runes call the young adventurer to formal training in spiritual and elemental arts."
   },
   {
    "q": "Who is Shikrik?",
@@ -55,7 +55,7 @@
     "why thrall",
     "shikrik mentioning thrall"
    ],
-   "answer": "Warchief Thrall led the revival of ancestral shamanism after demonic corruption consumed the Old Horde. Shikrik points to him as an example of a shaman's duty to keep elemental harmony while guiding and protecting his people."
+   "answer": "Warchief Thrall led the revival of ancestral shamanism after demonic corruption consumed the Old Horde. Shikrik points to him as an example of a shaman's duty to keep elemental harmony while guiding and protecting their people."
   },
   {
    "q": "Where is Shikrik located?",
@@ -122,5 +122,5 @@
  "attribution": [
   "Rune-Inscribed Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

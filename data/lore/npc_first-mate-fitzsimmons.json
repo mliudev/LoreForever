@@ -8,21 +8,21 @@
   "wiki": "First Mate Fitzsimmons",
   "refs": 4
  },
- "summary": "Outside Menethil Harbor's Deepwater Tavern, First Mate Fitzsimmons drinks through the days. Once first mate of the Wave Mistress in Kul Tiras's Third Fleet, he is its sole known living survivor after the fleet's destruction in the Second War. Now he seeks travelers willing to face the restless spirits of his drowned comrades.",
+ "summary": "Outside Menethil Harbor's Deepwater Tavern, First Mate Fitzsimmons drinks away his days. He once served aboard the Wave Mistress in Kul Tiras's Third Fleet. After the fleet's destruction in the Second War, he is its sole known living survivor. Now he asks travelers to face the restless spirits of his drowned comrades.",
  "sections": [
   {
    "title": "A Broken Sailor",
-   "body": "Outside the Deepwater Tavern in Menethil Harbor, First Mate Fitzsimmons drinks alone. His unwashed stench keeps many patrons away, and most see only a broken old sailor drowning his memories. Those who sit and listen hear how a proud fleet fell to fire and claw.",
+   "body": "First Mate Fitzsimmons drinks alone outside the Deepwater Tavern in Menethil Harbor. His unwashed stench keeps many patrons away, and most see a broken old sailor drowning his memories. Sit and listen, though, and he tells how a proud fleet fell to fire and claw.",
    "spoiler": 0
   },
   {
    "title": "The Fall of the Third Fleet",
-   "body": "During the Second War, Fitzsimmons served aboard the Wave Mistress as first mate. The ship sailed with Kul Tiras's Third Fleet to fight the Horde. Off the Wetlands coast, Dragonmaw orcs ambushed the fleet with enslaved red dragons and burned its ships. The vessels broke apart and sank. Fitzsimmons alone managed to reach shore alive.",
+   "body": "During the Second War, Fitzsimmons served as first mate aboard the Wave Mistress. The ship sailed with Kul Tiras's Third Fleet to fight the Horde. Off the Wetlands coast, Dragonmaw orcs ambushed the fleet with enslaved red dragons. Fire consumed the ships, which broke apart and sank. Fitzsimmons alone reached shore alive.",
    "spoiler": 0
   },
   {
    "title": "The Lingering Curse",
-   "body": "First Mate Fitzsimmons survived the dragonfire, but his former crewmates did not find rest. Their ships, remembered as the Lost Fleet, now hold cursed undead sailors trapped in watery graves. Haunted by guilt and terror, Fitzsimmons asks travelers to put the sailors down and recover ancient relics that might lift the evil binding their souls.",
+   "body": "First Mate Fitzsimmons survived the dragonfire, but his former crewmates found no rest. Their ships, remembered as the Lost Fleet, hold cursed undead sailors trapped in watery graves. Haunted by guilt and terror, Fitzsimmons asks travelers to put the sailors down and recover ancient relics that might lift the evil binding their souls.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is fitzsimmons",
     "first mate fitzsimmons"
    ],
-   "answer": "First Mate Fitzsimmons is an old Kul Tiran sailor who once served as first mate of the Wave Mistress. He survived the destruction of Kul Tiras's Third Fleet in the Second War and now drinks outside Menethil Harbor's Deepwater Tavern."
+   "answer": "First Mate Fitzsimmons once served as first mate of the Wave Mistress, a ship of Kul Tiras. He survived the destruction of the Third Fleet in the Second War and now drinks outside Menethil Harbor's Deepwater Tavern."
   },
   {
    "q": "What happened to his ship?",
@@ -43,7 +43,7 @@
     "third fleet destruction",
     "why did his ship sink"
    ],
-   "answer": "During the Second War, enslaved red dragons flown by Dragonmaw orcs ambushed the Wave Mistress and the rest of the Third Fleet. The vessels burned and broke apart on the reef off the Wetlands coast."
+   "answer": "During the Second War, Dragonmaw orcs flying enslaved red dragons ambushed the Wave Mistress and the rest of the Third Fleet. The vessels burned and broke apart on the reef off the Wetlands coast."
   },
   {
    "q": "Where is the Lost Fleet located?",
@@ -113,5 +113,5 @@
  "attribution": [
   "First Mate Fitzsimmons"
  ],
- "style": 1
+ "style": 2
 }

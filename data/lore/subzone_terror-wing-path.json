@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Terror Wing Path"
  },
- "summary": "Terror Wing Path is a rocky canyon winding through the eastern reaches of the Burning Steppes. Infested by whelps and dragonkin of the black dragonflight, it serves as a perilous approach into the remote northeastern corner of the Steppes.",
+ "summary": "Black dragonflight whelps and dragonkin patrol Terror Wing Path in the eastern Burning Steppes. The rocky canyon is a dangerous route to the region’s remote northeastern corner.",
  "sections": [
   {
    "title": "A Dragonkin Roost",
-   "body": "Carved into the craggy, ash-covered foothills of the eastern Burning Steppes, Terror Wing Path earns its name from the aerial predators and wyrmkin that claim it. Broods of the black dragonflight prowl these defiles, fiercely guarding clutches and hunting anything foolish enough to wander into their shadow. Ash and soot blanket the stone trails, making any trek beneath the canyon walls a treacherous venture.",
+   "body": "Black dragonflight broods prowl Terror Wing Path’s ash-covered foothills. They guard their clutches and hunt anything that enters the canyon. Ash and soot coat the trails beneath its craggy walls, making the passage treacherous.",
    "spoiler": 0
   },
   {
    "title": "A Perilous Passage",
-   "body": "Black drakes patrol the length of the valley, and the rare magma giant Volchan is sometimes seen wandering through it. Only the most seasoned adventurers dare the journey, and seldom alone, yet it is the only way to reach the hidden cave of Slither Rock in the far northeastern corner of the Steppes.",
+   "body": "Black drakes patrol the valley, and the rare magma giant Volchan sometimes wanders through. Few adventurers risk the journey alone. This path is the only way to reach Slither Rock, a hidden cave in the far northeastern corner of the Steppes.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is here",
     "dragonkin terror wing"
    ],
-   "answer": "The path is infested by whelps, broodlings, and larger dragonkin of the black dragonflight. They patrol the slopes aggressively and hunt ground prey across the eastern pass."
+   "answer": "Whelps, broodlings, and larger dragonkin of the black dragonflight infest Terror Wing Path. They patrol the slopes and hunt ground prey across the eastern pass."
   },
   {
    "q": "Where does Terror Wing Path lead?",
@@ -37,7 +37,7 @@
     "terror wing path route",
     "terror wing directions"
    ],
-   "answer": "It winds through the eastern side of the Burning Steppes into the region's remote northeastern corner, where the cave of Slither Rock lies hidden beyond it."
+   "answer": "Terror Wing Path winds through the eastern Burning Steppes to the remote northeastern corner. There, the hidden cave of Slither Rock lies."
   },
   {
    "q": "Why is the black dragonflight active in this canyon?",
@@ -46,13 +46,13 @@
     "black dragonflight terror wing",
     "dragonflight presence"
    ],
-   "answer": "The black dragonflight maintains a strong grip over the Burning Steppes under Blackrock Mountain. Terror Wing Path provides nesting grounds, hunting terrain, and an eastern perimeter guarding the mountain's flanks."
+   "answer": "Under Blackrock Mountain, the black dragonflight holds a strong grip over the Burning Steppes. Terror Wing Path gives the flight nesting grounds and hunting terrain. It also guards the mountain’s eastern flanks."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The steep terrain and flying whelps make Terror Wing Path a proving ground for marksmen tracking draconic beasts among smoke and canyon winds."
+   "text": "As a hunter, you can test your aim against flying whelps and track draconic beasts through the steep canyon terrain."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Terror Wing Path"
- ]
+ ],
+ "style": 2
 }

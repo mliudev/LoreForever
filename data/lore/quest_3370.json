@@ -21,16 +21,16 @@
    "In Nightmares (Alliance)"
   ]
  },
- "summary": "Falla Sagewind sends a glowing shard to the elder druids in Darnassus. Its core holds the essence of the Emerald Dream, clouded by dark visions.",
+ "summary": "Falla Sagewind sends a glowing shard to the elder druids in Darnassus. It holds the essence of the Emerald Dream, clouded by dark visions.",
  "sections": [
   {
    "title": "A Troubling Revelation",
-   "body": "Falla Sagewind finds more than a simple crystal in the glowing shard recovered from the depths of Wailing Caverns. She recognizes the pure essence of the Emerald Dream within it, yet the shard shows fearful visions instead of the harmony of nature. Shaken by what she sees, Falla refuses to study it further. She sends you to carry the shard to the senior druids of the Cenarion Circle.",
+   "body": "Falla Sagewind sees more than a crystal in the glowing shard recovered from the depths of Wailing Caverns. Within it lies the pure essence of the Emerald Dream. Yet the shard shows fearful visions where nature should be in harmony. Shaken, Falla will study it no further. She sends you to carry the shard to the senior druids of the Cenarion Circle.",
    "spoiler": 0
   },
   {
    "title": "Whispers in the Cenarion Enclave",
-   "body": "Mathrengyl Bearwalker, an experienced druid in Darnassus's Cenarion Enclave, examines the shard you bring. Calm curiosity gives way to unease as he looks into its core. Mathrengyl realizes the corruption in the Barrens is connected to disturbances deep in the Emerald Dream. He quiets further discussion, warning that such terrors are not for common ears, and takes custody of the shard to study the shadow spreading through the Dream.",
+   "body": "Mathrengyl Bearwalker examines the shard you bring to the Cenarion Enclave in Darnassus. Calm curiosity gives way to unease as he looks into its core. He recognizes that the corruption in the Barrens is tied to disturbances deep within the Emerald Dream. Then Mathrengyl quiets the talk. Such terrors are not for common ears, and he takes the shard into his keeping to study the shadow spreading through the Dream.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "glowing shard lore",
     "emerald dream shard"
    ],
-   "answer": "The Nightmare Shard is a crystal holding a piece of the Emerald Dream's essence, first found as a mysterious glowing shard. It shows dark visions instead of nature's harmony, revealing that a sinister presence has entered the Dream."
+   "answer": "The Nightmare Shard is a crystal that holds part of the Emerald Dream's essence. It was first found as a mysterious glowing shard. Its dark visions reveal that a sinister presence has entered the Dream."
   },
   {
    "q": "Who is Falla Sagewind?",
@@ -50,7 +50,7 @@
     "falla sagewind",
     "who is falla"
    ],
-   "answer": "Falla Sagewind is a tauren druid who studies the lore of nature and examines strange relics found in the wilds. After recognizing the shard's terrifying origin, she sends travelers to the senior druids in Darnassus."
+   "answer": "Falla Sagewind is a tauren druid who studies nature's lore and examines strange relics found in the wilds. After recognizing the shard's terrifying origin, she sends travelers to the senior druids in Darnassus."
   },
   {
    "q": "Who is Mathrengyl Bearwalker?",
@@ -68,7 +68,7 @@
     "what does mathrengyl hide",
     "why won't mathrengyl talk"
    ],
-   "answer": "Mathrengyl is secretive because the shard shows corruption in the Emerald Dream, a sacred realm of nature guided by the Green Dragonflight and sleeping druids. Such a threat is a profound spiritual crisis, and the Cenarion Circle is reluctant to expose it to the public."
+   "answer": "Mathrengyl keeps quiet because the shard shows corruption in the Emerald Dream, a sacred realm of nature guided by the Green Dragonflight and sleeping druids. The threat is a profound spiritual crisis, and the Cenarion Circle is reluctant to expose it to the public."
   },
   {
    "q": "Where does this quest chain begin?",
@@ -77,7 +77,7 @@
     "where did this start",
     "how to get in nightmares"
    ],
-   "answer": "The story begins with The Glowing Shard, an item found on Mutanus the Devourer at the end of Wailing Caverns. Scholars eventually trace the shard's ominous origin toward Darnassus or Thunder Bluff."
+   "answer": "The story begins with The Glowing Shard, an item found on Mutanus the Devourer at the end of Wailing Caverns. Scholars eventually trace its ominous origin toward Darnassus or Thunder Bluff."
   },
   {
    "q": "Do Horde players have an equivalent quest?",
@@ -86,7 +86,7 @@
     "is there a horde in nightmares",
     "in nightmares horde"
    ],
-   "answer": "Yes. Alliance travelers bring their findings to Mathrengyl Bearwalker in Darnassus, while Horde travelers report to Hamuul Runetotem on the Elder Rise in Thunder Bluff. Both learn of the same troubling news about the Emerald Dream."
+   "answer": "Yes. Alliance travelers bring their findings to Mathrengyl Bearwalker in Darnassus, while Horde travelers report to Hamuul Runetotem on the Elder Rise in Thunder Bluff. Both hear the same troubling news about the Emerald Dream."
   }
  ],
  "angles": [
@@ -96,11 +96,11 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you carry the relic into Darnassus and bring the night elf leadership an early glimpse of corruption spreading beneath the world's surface."
+   "text": "As an Alliance traveler, you carry the relic into Darnassus and give the night elf leadership an early glimpse of corruption spreading beneath the world's surface."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you venerate the sleeping realm where Malfurion Stormrage resides. A waking nightmare within its essence strikes at the heart of your spiritual heritage."
+   "text": "As a night elf, you honor the sleeping realm where Malfurion Stormrage resides. A waking nightmare within its essence strikes at the heart of your spiritual heritage."
   }
  ],
  "keywords": [
@@ -127,5 +127,5 @@
  "attribution": [
   "In Nightmares (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

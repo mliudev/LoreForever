@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Alterac Mountains (Classic)"
  },
- "summary": "The Alterac Mountains are a rugged, overcast highland rising sharply north of Hillsbrad Foothills, crowned with permanent snow and jagged peaks. Once the home of the human kingdom of Alterac and the scholarly redoubts of Dalaran, the region now lies largely in ruins, fought over by brutal ogres, noble-born bandits, and the opposing armies of Alterac Valley.",
+ "summary": "In the Alterac Mountains, ogres, outlaws, and armies fight over the highlands. North of Hillsbrad Foothills, rain darkens the slopes beneath snowbound peaks. Once home to Alterac and Dalaran, the region now lies largely in ruins.",
  "sections": [
   {
    "title": "A Shattered Highland",
-   "body": "Rising high above the Hillsbrad lowlands, the Alterac Mountains are a harsh realm of rain, pine, and high-altitude snow. Once anchored by three major human powers\u2014the mountain kingdom of Alterac, the magocracy of Dalaran, and the fortified town of Strahnbrad\u2014the region collapsed under betrayal and war. Today, the ruined capital of Alterac is squatted by the Crushridge ogres, Strahnbrad is occupied by outlaws, and among the shattered remnants of Dalaran its surviving wizards work tirelessly to restore their ruined sanctuary.",
+   "body": "Rain falls over the Alterac Mountains, where pine forests climb toward snow at the highest reaches. Three human powers once held these heights: the mountain kingdom of Alterac, the magocracy of Dalaran, and the fortified town of Strahnbrad. Betrayal and war brought them low. Crushridge ogres occupy Alterac's ruined capital, and outlaws hold Strahnbrad. Among Dalaran's shattered remains, surviving wizards labor to restore their ruined sanctuary.",
    "spoiler": 0
   },
   {
    "title": "Bandits, Beasts, and War",
-   "body": "Beyond the indigenous mountain lions and yeti that stalk the frostbitten ridges, the uplands are contested by desperate mortal factions. The Syndicate\u2014dispossessed human nobles turned brigands\u2014wield blade and ambush from old estates and foothill encampments, clashing incessantly with the encroaching ogres. Meanwhile, deep passes leading into the high crags serve as staging camps for the bloody war between the Stormpike Expedition and the Frostwolf Clan over the hidden reaches of Alterac Valley.",
+   "body": "Mountain lions and yeti stalk the frostbitten ridges, while desperate factions fight for the uplands. The Syndicate are dispossessed human nobles turned brigands. From old estates and foothill camps, they strike with blades and ambushes. They clash without end with the advancing ogres.\n\nDeep passes into the high crags hold staging camps for the bloody war between the Stormpike Expedition and the Frostwolf Clan. Both fight over the hidden reaches of Alterac Valley.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who ruled alterac",
     "fall of alterac"
    ],
-   "answer": "Alterac fell into disgrace during the Second War when its ruler, King Aiden Perenolde, betrayed the Grand Alliance to aid the Horde. Following the war, the kingdom was dismantled. Bereft of leadership, its cities crumbled, Strahnbrad fell to ruin, and its capital was overrun by the brutish Crushridge ogres."
+   "answer": "Alterac fell into disgrace during the Second War, when King Aiden Perenolde betrayed the Grand Alliance and aided the Horde. After the war, the kingdom was dismantled. Without leadership, its cities crumbled. Strahnbrad fell to ruin, and Crushridge ogres overran the capital."
   },
   {
    "q": "Who are the Syndicate bandits in the mountains?",
@@ -37,7 +37,7 @@
     "why are there rogues in alterac",
     "alterac bandits"
    ],
-   "answer": "The Syndicate is an outlaw organization made up primarily of former Alterac nobility and their retainers. Having lost their land, status, and wealth after Alterac's betrayal, they took to espionage, assassination, and highway robbery in an attempt to reclaim the lands they believe are rightfully theirs."
+   "answer": "The Syndicate is an outlaw organization made mostly of former Alterac nobles and their retainers. After losing their land, status, and wealth in Alterac's betrayal, they turned to espionage, assassination, and highway robbery. They seek to reclaim lands they believe are rightfully theirs."
   },
   {
    "q": "What is the massive purple dome on the lake shore?",
@@ -46,7 +46,7 @@
     "what is dalaran bubble",
     "magical shield dalaran"
    ],
-   "answer": "No dome stands over Dalaran today. After the city was razed by the demon lord Archimonde during the Third War, the surviving Kirin Tor mages raised a violet shield over its ruins, but they removed it early in the reconstruction and now rebuild their devastated towers in the open."
+   "answer": "No dome stands over Dalaran today. After the demon lord Archimonde razed the city during the Third War, the surviving Kirin Tor mages raised a violet shield over the ruins. They removed it early in reconstruction and now rebuild their devastated towers in the open."
   },
   {
    "q": "How do you reach Alterac Mountains?",
@@ -55,17 +55,17 @@
     "alterac entrance",
     "path to alterac"
    ],
-   "answer": "Travelers typically enter on foot from the Hillsbrad Foothills, taking the northern roads leading out of Tarren Mill or north of Southshore. Alternatively, daring swimmers can cross southeast over Lordamere Lake from the shores of Silverpine Forest or the outskirts of the Undercity."
+   "answer": "Most travelers enter the Alterac Mountains on foot from Hillsbrad Foothills, taking northern roads from Tarren Mill or from north of Southshore. Daring swimmers can also cross southeast over Lordamere Lake from the shores of Silverpine Forest or the outskirts of the Undercity."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Tucked away in a secluded mountain valley on the border of Alterac sits Ravenholdt Manor, the historic headquarters of the guild of thieves and assassins led by Lord Jorach Ravenholdt."
+   "text": "Ravenholdt Manor lies in a secluded mountain valley on Alterac's border. It is the historic headquarters of the thieves' and assassins' guild, led by Lord Jorach Ravenholdt."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Alliance maintains a forward outpost in these frozen hills under Lieutenant Haggerdin, recruiting stalwart fighters to reinforce the dwarven Stormpike Guard in Alterac Valley."
+   "text": "The Alliance keeps a forward outpost in these frozen hills under Lieutenant Haggerdin. There, it recruits stalwart fighters to reinforce the dwarven Stormpike Guard in Alterac Valley."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Alterac Mountains (Classic)"
- ]
+ ],
+ "style": 2
 }

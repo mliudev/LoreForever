@@ -10,16 +10,16 @@
    "quest:134"
   ]
  },
- "summary": "Near the Vul'Gol Ogre Mound, Abercrombie's Crate lies abandoned after ogres drove off its owner. The crate holds delicate tools and gathered herbs belonging to the eccentric hermit.",
+ "summary": "Near the Vul'Gol Ogre Mound, Abercrombie's Crate waits for its owner. Ogres drove him off while he gathered herbs, leaving his delicate tools behind.",
  "sections": [
   {
    "title": "Lost to the Ogres",
-   "body": "Abercrombie left his shack in western Duskwood to gather vegetation. Far from home, he met a hostile band of ogres and fled for his life, leaving behind his crate of instruments and harvested plants. The ogres carried it to the Vul'Gol Ogre Mound, where the heavy chest rests near the cave mouth.",
+   "body": "Abercrombie left his shack in western Duskwood to gather plants. Far from home, he met a hostile band of ogres and fled for his life. He left his crate of instruments and gathered plants behind. The ogres carried it to the Vul'Gol Ogre Mound, where the heavy chest rests near the cave mouth.",
    "spoiler": 0
   },
   {
    "title": "Peculiar Contents",
-   "body": "Abercrombie calls the tools and plants in his crate harmless. Yet when it is returned, his excitement gives him away. He nearly thanks the “Nec-” before catching himself, leaving the purpose of his stolen tools in doubt.",
+   "body": "Abercrombie calls the tools and plants in his crate harmless. Yet when the crate is returned, his excitement gives him away. He nearly thanks the “Nec-” before catching himself. The purpose of his stolen tools remains in doubt.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "how did ogres get crate",
     "why is crate at ogres"
    ],
-   "answer": "Abercrombie was gathering herbs far from his home when ogres attacked him. He fled on foot, leaving his supplies behind, and the ogres carried them to their lair."
+   "answer": "Abercrombie was gathering herbs far from his home when ogres attacked him. He fled on foot, leaving his supplies behind. The ogres carried them to their lair."
   },
   {
    "q": "What is inside the crate?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Abercrombie ventures deep into the forest for rare plants, so recovering his botanist's kit is familiar work for a local herbalist."
+   "text": "Abercrombie ventures deep into the forest for rare plants. Recovering his botanist's kit is familiar work for a local herbalist."
   },
   {
    "target": "faction:Alliance",
-   "text": "You venture into the Vul'Gol Ogre Mound to retrieve lost goods, where ogres threaten southern Duskwood."
+   "text": "You venture into the Vul'Gol Ogre Mound to retrieve lost goods. Ogres threaten southern Duskwood."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Abercrombie's Crate",
   "Ogre Thieves (Classic)"
  ],
- "style": 1
+ "style": 2
 }

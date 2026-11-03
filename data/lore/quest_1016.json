@@ -20,21 +20,21 @@
    "Mage Summoner"
   ]
  },
- "summary": "At Silverwind Refuge, the night elves face tainted waters and seek the hand behind them. Sentinel Velene Starstrike asks you to gather intact bracers from the hostile elementals, so a divining scroll can identify who summoned them.",
+ "summary": "At Silverwind Refuge, Sentinel Velene Starstrike seeks the hand behind the tainted waters. She asks you to gather intact bracers from hostile elementals so a divining scroll can reveal who summoned them.",
  "sections": [
   {
    "title": "Tainted Waters",
-   "body": "Rogue water elementals now trouble Ashenvale’s sacred waters. Unlike the wild spirits that naturally inhabit the world, these creatures show signs of artificial conjuration. At Silverwind Refuge, the Sentinels see their sudden arrival as a sign that outside corruption is reaching deeper into the forest’s waterways.",
+   "body": "Rogue water elementals trouble Ashenvale’s sacred waters. Unlike the wild spirits that belong to the world, these creatures bear signs of conjuration. Their sudden arrival at Silverwind Refuge warns the Sentinels that outside corruption is reaching deeper into the forest’s waterways.",
    "spoiler": 0
   },
   {
    "title": "Divining the Conjurer",
-   "body": "Sentinel Velene Starstrike believes someone deliberately bound and unleashed the elementals. She gives you a magical divining scroll to help identify the culprit. The spell needs a reagent tied to the summoned beings: intact bracers taken from the spirits before they dissipate. The scroll reads the lingering arcane signature on those bindings, tracing it to whoever called the elementals into being.",
+   "body": "Sentinel Velene Starstrike believes someone bound and unleashed the elementals. She gives you a magical divining scroll to identify the culprit. The spell needs intact bracers taken from the spirits before they dissipate. Their lingering arcane signature can lead the scroll to whoever called the elementals into being.",
    "spoiler": 0
   },
   {
    "title": "A Wizard's Meddling",
-   "body": "When the divining scroll is cast over the intact bracers, the arcane residue confirms Velene’s worst fears: a solitary mage is churning corrupt elementals into Ashenvale’s pools. The discovery outrages the night elf defenders. They now prepare swift retribution against the summoner threatening the woodlands’ sanctity.",
+   "body": "The divining scroll reads the intact bracers and confirms Velene’s worst fear: a solitary mage is churning corrupt elementals into Ashenvale’s pools. The discovery outrages the night elf defenders. They prepare swift retribution against the summoner who threatens the woodlands’ sanctity.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "ashenvale water elementals",
     "where did elementals come from"
    ],
-   "answer": "The hostile water elementals are not natural inhabitants living in balance with Ashenvale. An outside spellcaster summoned them, disturbing the sacred pools and provoking the night elves."
+   "answer": "The hostile water elementals are not natural inhabitants of Ashenvale. An outside spellcaster summoned them, disturbing the sacred pools and provoking the night elves."
   },
   {
    "q": "Who gives the quest Elemental Bracers?",
@@ -90,17 +90,17 @@
     "sentinel velene motivation",
     "why night elves care about elementals"
    ],
-   "answer": "Night elves revere the natural purity of Ashenvale’s forests and waters. A mortal wizard deliberately polluting and destabilizing their lakes with corrupted elementals insults their guardianship."
+   "answer": "Night elves revere the natural purity of Ashenvale’s forests and waters. A mortal wizard who deliberately pollutes and destabilizes their lakes with corrupted elementals insults their guardianship."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know Ashenvale’s natural pools are sacred ground. Arcane summoners who introduce foreign corruption affront the Kaldorei."
+   "text": "As a night elf, you know Ashenvale’s natural pools are sacred ground. Arcane summoners who bring foreign corruption affront the Kaldorei."
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, you can recognize how the bindings worn by conjured elementals carry their master’s arcane signature, tracing reckless conjuration to its origin."
+   "text": "As a mage, you can recognize how bindings on conjured elementals carry their master’s arcane signature, tracing reckless conjuration to its origin."
   },
   {
    "target": "faction:Alliance",
@@ -126,5 +126,5 @@
  "attribution": [
   "Elemental Bracers (quest)"
  ],
- "style": 1
+ "style": 2
 }

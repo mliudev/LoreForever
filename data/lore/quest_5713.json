@@ -17,16 +17,16 @@
   "wiki": "One Shot. One Kill.",
   "chain": []
  },
- "summary": "On the road to Auberdine, Sentinel Aynasha needs help to survive an ambush and deliver her message. Marosh the Devious and his furbolg trackers have poisoned her, leaving her unable to travel while she mixes an antidote.",
+ "summary": "On the road to Auberdine, Sentinel Aynasha is ambushed and cannot carry her message onward. Poisoned by Marosh the Devious and his furbolg trackers, she must mix an antidote before she can travel.",
  "sections": [
   {
    "title": "Ambush on the Forest Road",
-   "body": "Sentinel Aynasha was carrying important communications toward Auberdine when hostile furbolgs intercepted her on a northern Kalimdor trail. Marosh the Devious led the pack. Their venom left the scout unsteady and unable to continue on foot.",
+   "body": "Sentinel Aynasha carries important communications toward Auberdine when hostile furbolgs intercept her on a trail in northern Kalimdor. Marosh the Devious leads them. Their venom leaves the scout unsteady and unable to continue on foot.",
    "spoiler": 0
   },
   {
    "title": "Holding the Line",
-   "body": "Aynasha knows how to make natural remedies, but mixing and taking an antidote takes time. Marosh's trackers are closing in, so she needs travelers to guard her while she works. Though her strength is failing, she keeps her bow steady and fires into the brush to hold the attackers back.",
+   "body": "Aynasha knows how to make natural remedies, but the antidote takes time to mix and take effect. Marosh's trackers are closing in, so she needs travelers to guard her as she works. Though her strength is failing, she keeps her bow steady and fires into the brush to hold the attackers back.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "aynasha",
     "who is aynasha"
    ],
-   "answer": "Sentinel Aynasha is a night elf scout carrying important messages between Darkshore and Ashenvale. Skilled with a bow and woodland survival, she was poisoned in an ambush while on duty."
+   "answer": "Sentinel Aynasha is a night elf scout carrying important messages between Darkshore and Ashenvale. Skilled with a bow and woodland survival, she is poisoned in an ambush while on duty."
   },
   {
    "q": "Who attacked Sentinel Aynasha?",
@@ -53,7 +53,7 @@
     "marosh",
     "who poisoned her"
    ],
-   "answer": "A pack of hostile furbolgs led by Marosh the Devious attacked Sentinel Aynasha. They poisoned her in the clash, leaving her unable to move freely."
+   "answer": "A pack of hostile furbolgs led by Marosh the Devious attacks Sentinel Aynasha. They poison her in the clash, leaving her unable to move freely."
   },
   {
    "q": "Where was Sentinel Aynasha traveling?",
@@ -61,7 +61,7 @@
     "where was aynasha going",
     "aynasha destination"
    ],
-   "answer": "Aynasha was traveling to Auberdine with an important dispatch when Marosh and his trackers trapped her on the road."
+   "answer": "Aynasha is traveling to Auberdine with an important dispatch when Marosh and his trackers trap her on the road."
   },
   {
    "q": "Why must you report to Sentinel Onaeya?",
@@ -102,7 +102,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you can see Aynasha's resolve in the shots she continues to fire into the brush while the venom weakens her."
+   "text": "As a hunter, you see Aynasha's resolve in the shots she continues to fire into the brush while the venom weakens her."
   }
  ],
  "keywords": [
@@ -128,5 +128,5 @@
  "attribution": [
   "One Shot. One Kill."
  ],
- "style": 1
+ "style": 2
 }

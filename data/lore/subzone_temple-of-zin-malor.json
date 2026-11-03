@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Temple of Zin-Malor"
  },
- "summary": "The Temple of Zin-Malor is an ancient night elven sanctuary located within the Ruins of Eldarath in Azshara. Originally dedicated to the moon goddess Elune, the crumbling structure is now held by the Spitelash naga under the direct command of Warlord Krellian.",
+ "summary": "Spitelash naga hold the Temple of Zin-Malor in the Ruins of Eldarath. Warlord Krellian commands them from this ancient night elven sanctuary in Azshara.",
  "sections": [
   {
    "title": "Echoes of the Moon",
-   "body": "Before the Great Sundering, the Temple of Zin-Malor stood as a grand house of worship dedicated to Elune. Its architecture closely mirrors both the nearby Temple of Arkkoran and the modern Temple of the Moon in Darnassus, bearing the graceful, sweeping stonework characteristic of pre-Sundering night elven civilization. Today, however, its moonlit marble is weathered and broken, overtaken by the serpent-bodied Spitelash naga. These invaders have claimed the holy grounds for themselves, turning a place of quiet reflection into a militarized redoubt.",
+   "body": "Before the Great Sundering, the Temple of Zin-Malor rang with worship of Elune. Its graceful stonework recalls the nearby Temple of Arkkoran and the Temple of the Moon in Darnassus, both built in the old night elven style. Now the marble lies weathered and broken. Spitelash naga have claimed the holy grounds and made them a stronghold for their forces.",
    "spoiler": 0
   },
   {
    "title": "The Stolen Crystal",
-   "body": "The temple once housed the renowned Crystal of Zin-Malor, a potent artifact that was carried away long ago to Kel'Theril in Winterspring.",
+   "body": "The Crystal of Zin-Malor once rested in the temple. Long ago, it was carried away to Kel'Theril in Winterspring.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who lives in zin malor",
     "who is the boss in zin malor"
    ],
-   "answer": "The temple is occupied by the Spitelash naga tribe. Their leader in the region, Warlord Krellian, resides within the temple structure itself."
+   "answer": "Spitelash naga occupy the Temple of Zin-Malor today. Their regional leader, Warlord Krellian, lives within its walls."
   },
   {
    "q": "What was the temple used for originally?",
@@ -36,7 +36,7 @@
     "who built zin-malor",
     "what was zin-malor"
    ],
-   "answer": "It was originally built before the Great Sundering by the ancient night elves as a sacred place of worship honoring Elune, the moon goddess."
+   "answer": "Ancient night elves built the temple before the Great Sundering as a sacred place to worship Elune, the moon goddess."
   },
   {
    "q": "Why does it look so much like the temple in Darnassus?",
@@ -44,7 +44,7 @@
     "darnassus temple resemblance",
     "architecture of zin-malor"
    ],
-   "answer": "The Temple of Zin-Malor shares classic night elven architectural roots with the Temple of Arkkoran, and both closely resemble the design of the modern Temple of the Moon in Darnassus."
+   "answer": "The Temple of Zin-Malor and the nearby Temple of Arkkoran share the old night elven style seen in the Temple of the Moon in Darnassus."
   },
   {
    "q": "What is the Crystal of Zin-Malor?",
@@ -52,17 +52,17 @@
     "where is the crystal of zin malor",
     "zin malor crystal"
    ],
-   "answer": "It is an ancient magical relic that originally resided within the temple. Long ago, it was stolen away by the residents of Kel'Theril, deep in the frozen lands of Winterspring."
+   "answer": "The Crystal of Zin-Malor is an ancient magical relic that once rested in the temple. Long ago, residents of Kel'Theril carried it away to Winterspring."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Walking the ruins of Zin-Malor offers a bitter reminder of the Highborne era and the tragic corruption of the naga, who now desecrate what was once holy ground dedicated to Elune."
+   "text": "As a night elf, you can see the Highborne era in Zin-Malor's ruins and the naga's corruption of ground once sacred to Elune."
   },
   {
    "target": "class:Priest",
-   "text": "Priesthood traditions honoring Elune run deep in these stones, bearing the exact sanctuary layouts that modern sisterhoods still preserve in Darnassus."
+   "text": "As a priest, you can find Elune's worship in these stones and sanctuary layouts like those still kept by the sisterhoods in Darnassus."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Temple of Zin-Malor"
- ]
+ ],
+ "style": 2
 }

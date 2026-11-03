@@ -10,16 +10,16 @@
    "quest:1058"
   ]
  },
- "summary": "Around Stonetalon Peak, faerie dragons yield scales coveted by Jin'Zil. The Darkspear witch doctor uses one as a reagent in a brew that mocks night elven nature magic.",
+ "summary": "Around Stonetalon Peak, faerie dragons give up scales that Jin'Zil covets. The Darkspear witch doctor uses one in a brew meant to mock night elven nature magic.",
  "sections": [
   {
    "title": "A Rare Forest Harvest",
-   "body": "Around Stonetalon Peak, faerie dragons haunt the wild groves of Kalimdor. Their scales gleam with natural magic. Night elves revere them as harmless woodland spirits and allies, while outsiders prize the scales as rare magical ingredients.",
+   "body": "Faerie dragons haunt the wild groves around Stonetalon Peak. Their scales shine with natural magic. Night elves honor them as harmless woodland spirits and allies. Outsiders prize the scales as rare magical ingredients.",
    "spoiler": 0
   },
   {
    "title": "A Mocking Concoction",
-   "body": "At Malaka'jin, Witch Doctor Jin'Zil mixes a brew that mocks kaldorei traditions. He combines a fey dragon scale with tree sap, feline whiskers, and dozens upon dozens of courser eyes, calling the result 'forest magic.' He means the cruel concoction for the three night elves he keeps caged.",
+   "body": "At Malaka'jin, Witch Doctor Jin'Zil mixes a brew to mock kaldorei traditions. He combines a fey dragon scale with tree sap, feline whiskers, and dozens upon dozens of courser eyes. He calls the result 'forest magic.' The cruel concoction is meant for the three night elves he keeps caged.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to find fey dragon scale",
     "who drops fey dragon scale"
    ],
-   "answer": "The scale comes from faerie dragons in the highland groves around Stonetalon Peak, including Wily Fey Dragons and Nal'taszar."
+   "answer": "Faerie dragons in the highland groves around Stonetalon Peak yield the scale, including Wily Fey Dragons and Nal'taszar."
   },
   {
    "q": "Why does Witch Doctor Jin'Zil want a fey dragon scale?",
@@ -40,7 +40,7 @@
     "what is the scale used for",
     "jin'zil forest magic reagent"
    ],
-   "answer": "Witch Doctor Jin'Zil in Malaka'jin wants the scale with other woodland reagents for a brew he sneeringly calls 'forest magic,' meant for his caged night elf prisoners."
+   "answer": "Witch Doctor Jin'Zil in Malaka'jin wants the scale along with other woodland reagents. He sneeringly calls his brew 'forest magic' and means it for his caged night elf prisoners."
   },
   {
    "q": "What happens when Jin'Zil finishes his brew?",
@@ -85,5 +85,5 @@
   "Fey Dragon Scale",
   "Jin'Zil's Forest Magic"
  ],
- "style": 1
+ "style": 2
 }

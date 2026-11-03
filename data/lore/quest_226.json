@@ -17,16 +17,16 @@
   "wiki": "Wolves at Our Heels (Classic)",
   "chain": []
  },
- "summary": "Lars at Sven's Camp faces hungry, rabid dire wolves in western Duskwood. Hunting them gives Lars room to gather food while he and Sven Yorgen pursue their vendetta against the necromancer Morbent Fel.",
+ "summary": "In western Duskwood, Lars faces hungry, rabid dire wolves. Hunting them gives him room to gather food while he and Sven Yorgen pursue their vendetta against the necromancer Morbent Fel.",
  "sections": [
   {
    "title": "A Precarious Camp",
-   "body": "Sven Yorgen and Lars keep an isolated camp in the western hills of Duskwood, near the Westfall border. They live far from Darkshire and rely on their own hunting and foraging to survive. Lars carries fresh game through the dark woods, where ravenous predators prowl the riverbanks and underbrush.",
+   "body": "Sven Yorgen and Lars keep an isolated camp in Duskwood’s western hills, near the Westfall border. Far from Darkshire, they rely on hunting and foraging to survive. As Lars carries fresh game through the dark woods, ravenous predators prowl the riverbanks and underbrush.",
    "spoiler": 0
   },
   {
    "title": "Clearing the Woods",
-   "body": "Starving, rabid dire wolves prowl north and east of the camp, toward the river. Killing the frenzied beasts eases the danger to Lars as he hunts. With less need to fight for their daily food, Sven and Lars can focus on Morbent Fel, the necromancer farther east.",
+   "body": "Starving, rabid dire wolves prowl north and east of the camp, toward the river. Killing the frenzied beasts makes Lars’s hunt safer. With less danger as they gather their daily food, Sven and Lars can focus on Morbent Fel, the necromancer farther east.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "why are wolves attacking",
     "rabid wolves duskwood"
    ],
-   "answer": "Duskwood's wilderness has grown harsher under an encroaching shadow. Scarce game leaves the dire wolves near starvation, while disease or dark corruption has made many rabid and recklessly violent toward anyone carrying fresh meat."
+   "answer": "Duskwood's wilderness has grown harsher under an encroaching shadow. With scarce game, the dire wolves are near starvation. Disease or dark corruption has made many rabid and recklessly violent toward anyone carrying fresh meat."
   },
   {
    "q": "Who is Morbent Fel?",
@@ -82,7 +82,7 @@
     "svens camp location",
     "why not in town"
    ],
-   "answer": "Sven's family suffered a tragedy that made him an embittered, driven vigilante. Sven and Lars live in the wild, rather than under the Night Watch's protection in Darkshire, so they can stalk the evils plaguing the woods firsthand."
+   "answer": "Sven's family suffered a tragedy that made him an embittered, driven vigilante. Sven and Lars live in the wild rather than under the Night Watch's protection in Darkshire, so they can stalk the evils plaguing the woods firsthand."
   }
  ],
  "angles": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Wolves at Our Heels (Classic)"
  ],
- "style": 1
+ "style": 2
 }

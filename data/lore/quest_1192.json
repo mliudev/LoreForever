@@ -26,11 +26,11 @@
   "repeatable": "Yes",
   "category": "Thousand Needles"
  },
- "summary": "Pozzik plans to work indurium into several parts of the racers, which calls for a great deal of raw ore. The ore is to be had at the Uldaman dig in the Badlands, across the sea in Khaz Modan. The gnomes are already getting hold of their own, and Pozzik wants to keep up with them.",
+ "summary": "Pozzik needs Indurium Ore to build several parts for the racers. The ore lies at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants to keep pace.",
  "sections": [
   {
    "title": "Ore from Uldaman",
-   "body": "Pozzik asks for four pieces of raw indurium ore. It can be had at the Uldaman dig in the Badlands, across the sea in Khaz Modan. The gnomes are already getting hold of their own, so Pozzik wants a supply too. This follows Rizzle's Schematics.",
+   "body": "Pozzik asks you to bring him four pieces of raw Indurium Ore. You can find it at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants some too. This comes after Rizzle's Schematics.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "why indurium ore",
     "pozzik indurium purpose"
    ],
-   "answer": "He wants to work indurium into several parts of the racers, and that takes a great deal of raw ore."
+   "answer": "Pozzik needs a great deal of raw Indurium Ore for several parts of the racers."
   },
   {
    "q": "Where is the indurium ore found?",
@@ -51,7 +51,7 @@
     "indurium location",
     "where do i get indurium ore"
    ],
-   "answer": "At the Uldaman dig in the Badlands, across the sea in Khaz Modan."
+   "answer": "Indurium Ore comes from the Uldaman dig site in the Badlands, over the sea in Khaz Modan."
   },
   {
    "q": "Why does it matter to get the ore?",
@@ -59,7 +59,7 @@
     "why hurry indurium",
     "gnome rival indurium"
    ],
-   "answer": "The gnomes are already getting hold of their own indurium, and Pozzik wants to keep up with them."
+   "answer": "Gnomes are already gathering their own Indurium Ore, and Pozzik wants to keep pace."
   },
   {
    "q": "What came before this?",
@@ -67,7 +67,7 @@
     "prerequisite for indurium ore",
     "indurium chain previous quest"
    ],
-   "answer": "It follows Rizzle's Schematics, which itself follows Keeping Pace."
+   "answer": "Rizzle's Schematics comes before this, and Keeping Pace comes before Rizzle's Schematics."
   }
  ],
  "angles": [],
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Indurium Ore (quest)"
- ]
+ ],
+ "style": 2
 }

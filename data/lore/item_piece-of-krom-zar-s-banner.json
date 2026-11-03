@@ -10,11 +10,11 @@
    "quest:4021"
   ]
  },
- "summary": "At Regthar Deathgate's bunker west of the Crossroads, a torn banner marks the broken assault. Warlord Krom'zar led the Kolkar retaliatory force from Desolace.",
+ "summary": "At Regthar Deathgate's bunker west of the Crossroads, a torn banner marks the failed assault. Warlord Krom'zar led the Kolkar retaliatory force east from Desolace.",
  "sections": [
   {
    "title": "Trophy of the Centaur Incursion",
-   "body": "Warlord Krom'zar led a warband east from Desolace to strike back. Kolkar chieftains across the Barrens had fallen, and the furious centaurs attacked the defensive bunkers west of the Crossroads. A strip cut from Krom'zar's fallen standard gives Regthar Deathgate proof that the assault was crushed and the southern trade routes were preserved for the Horde.",
+   "body": "Warlord Krom'zar led his warband east from Desolace to strike back. Kolkar chieftains across the Barrens had fallen, and the enraged centaurs attacked the defensive bunkers west of the Crossroads. A strip cut from Krom'zar's fallen standard proves to Regthar Deathgate that the assault was crushed and the southern trade routes were preserved for the Horde.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "krom'zar lore",
     "warlord krom'zar"
    ],
-   "answer": "Krom'zar was a Kolkar commander from Desolace. He led a direct counterattack against Horde outposts after local Kolkar leaders were killed."
+   "answer": "Krom'zar was a Kolkar commander from Desolace. After local Kolkar leaders were killed, he led a direct counterattack against Horde outposts."
   },
   {
    "q": "Why did the Kolkar attack the bunker?",
@@ -44,7 +44,7 @@
     "kolkar invasion why",
     "barrens counterattack reason"
    ],
-   "answer": "After Barak, Verog, and Hezrul and the other local chieftains fell, the enraged centaur gathered reinforcements from Desolace to take vengeance on the Horde presence west of the Crossroads."
+   "answer": "After Barak, Verog, Hezrul, and the other local chieftains fell, the enraged centaurs gathered reinforcements from Desolace. They sought vengeance against the Horde presence west of the Crossroads."
   },
   {
    "q": "Does Thrall hear of this victory?",
@@ -52,7 +52,7 @@
     "thrall reward",
     "does thrall know"
    ],
-   "answer": "Yes. Regthar Deathgate promises to send word directly to Warchief Thrall in Orgrimmar, praising the defenders who broke the invasion."
+   "answer": "Yes. Regthar Deathgate promises to send word directly to Warchief Thrall in Orgrimmar. He will praise the defenders who broke the invasion."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
   "Piece of Krom'zar's Banner",
   "Counterattack! (Classic)"
  ],
- "style": 1
+ "style": 2
 }

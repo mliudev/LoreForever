@@ -8,11 +8,11 @@
   "wiki": "Zenn Foulhoof",
   "refs": 2
  },
- "summary": "East of Dolanaar, Zenn Foulhoof asks travelers for forest reagents. The night elves watch him closely.",
+ "summary": "East of Dolanaar, Zenn Foulhoof asks travelers for forest reagents, while night elves keep watch.",
  "sections": [
   {
    "title": "A Schemer in the Woods",
-   "body": "Zenn Foulhoof keeps a place just outside Dolanaar, where the night elves tolerate him under watch. Most satyrs serve demonic masters and attack openly, but Zenn offers a friendly face. He says he has changed, or asks to trade for nightsaber fangs, strigid owl feathers, and webwood spider silk. Gullible youths gather the ingredients he needs for foul rituals. Dolanaar's council will not let him act unchecked. They order travelers to feed him corrupted forest fruit, humiliating him by turning the scheming satyr into a harmless frog for a time.",
+   "body": "Zenn Foulhoof keeps a place just outside Dolanaar, where the night elves tolerate him under watch. Most satyrs serve demonic masters and attack openly. Zenn offers a friendly face instead. He claims he has changed or asks for nightsaber fangs, strigid owl feathers, and webwood spider silk.\n\nGullible youths gather the ingredients for his foul rituals. Dolanaar's council will not let him act unchecked. They order travelers to feed him corrupted forest fruit, humiliating the scheming satyr by turning him into a harmless frog for a time.",
    "spoiler": 1
   }
  ],
@@ -24,7 +24,7 @@
     "why don't night elves kill zenn",
     "is zenn foulhoof evil"
    ],
-   "answer": "Zenn Foulhoof keeps a friendly face and has not openly committed atrocities on the World Tree. Dolanaar's council watches him and chooses public humiliation over an immediate death sentence."
+   "answer": "Zenn Foulhoof wears a friendly face and has not openly committed atrocities on the World Tree. Dolanaar's council watches him and chooses public humiliation over an immediate death sentence."
   },
   {
    "q": "What happens when you feed Zenn the corrupted cones and berries?",
@@ -33,7 +33,7 @@
     "seek redemption quest",
     "zenn frog"
    ],
-   "answer": "Dolanaar's elders order the corrupted fruit as penance for Zenn's misdeeds. The punishment's result appears when he eats it."
+   "answer": "Dolanaar's elders order the corrupted fruit as penance for Zenn's misdeeds. The punishment takes effect when he eats it."
   },
   {
    "q": "What is a satyr?",
@@ -41,7 +41,7 @@
     "what are satyrs",
     "satyr lore"
    ],
-   "answer": "Satyrs were night elves who became horned, cloven-hoofed fiends during the War of the Ancients after pledging service to the Burning Legion. Most are deeply corrupted and violently hostile to their uncorrupted kin."
+   "answer": "Satyrs were night elves who became horned, cloven-hoofed fiends during the War of the Ancients, after pledging service to the Burning Legion. Most are deeply corrupted and violently hostile to their uncorrupted kin."
   }
  ],
  "angles": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Zenn Foulhoof"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,21 +8,21 @@
   "wiki": "Tirion Fordring",
   "refs": 6
  },
- "summary": "Tirion Fordring is a legendary paladin and former lord of Mardenholde Keep, now living in quiet exile in the Eastern Plaguelands. A paladin of the Knights of the Silver Hand, he was stripped of his title and lands for honoring a debt of honor to an enemy orc. From his modest cabin along the Thondroril River, he watches over the tragedy unfolding across Lordaeron and worries for his son.",
+ "summary": "Beside the Thondroril River, Tirion Fordring watches Lordaeron's tragedy unfold from exile. Once a paladin and lord of Mardenholde Keep, he lost his title and lands for honoring an oath to an enemy orc. Now he worries for his son.",
  "sections": [
   {
    "title": "A Knight of the Silver Hand",
-   "body": "Before the ruin of Lordaeron, Tirion Fordring was renowned as one of the kingdom's finest knights. A paladin of the Knights of the Silver Hand, the order Archbishop Alonsus Faol founded during the Second War, Tirion fought the Old Horde with plate, hammer, and holy devotion. He was revered as an unyielding paragon of the Holy Light.",
+   "body": "Before Lordaeron fell, Tirion Fordring was among its finest knights. He served as a paladin of the Knights of the Silver Hand, founded by Archbishop Alonsus Faol during the Second War. With plate, hammer, and faith in the Holy Light, he fought the Old Horde. His fellow knights revered him as a steadfast example of the Light's power.",
    "spoiler": 0
   },
   {
    "title": "A Matter of Honor and Exile",
-   "body": "Following the Second War, Tirion governed the region of Hearthglen from Mardenholde Keep with his wife Karandra and young son Taelan. His reign ended when he encountered an aged orc warrior named Eitrigg living as a hermit. Recognizing the veteran's deep honor, Tirion gave his word to protect him. When Alliance authorities discovered Eitrigg, Tirion fought his own countrymen to uphold his oath. For this treason against the Alliance of Lordaeron, Tirion was stripped of his nobility, excommunicated by the Silver Hand, and banished into exile; Uther spared his wife and son from the sentence.",
+   "body": "After the Second War, Tirion governed Hearthglen from Mardenholde Keep with his wife Karandra and their young son Taelan. Then he met Eitrigg, an aged orc warrior living as a hermit, and saw honor in him. Tirion promised to protect Eitrigg.\n\nWhen Alliance authorities found the orc, Tirion fought his own countrymen to keep that oath. The Alliance of Lordaeron stripped Tirion of his nobility, and the Silver Hand cast him out. He was banished, while Uther spared Karandra and Taelan from the sentence.",
    "spoiler": 0
   },
   {
    "title": "A Father's Torment",
-   "body": "Spared from his exile, his family remained behind in Hearthglen. Following the fall of Lordaeron to the Scourge during the Third War, Tirion's son Taelan grew into manhood and joined the Scarlet Crusade, eventually becoming Highlord of Hearthglen. Tirion watches from afar as the Crusade descends into madness, despairing that his son has become a puppet of fanaticism. Clinging to memories of happier times—such as family visits to Caer Darrow—the hermit of the Thondroril seeks a way to remind his boy of true honor.",
+   "body": "After Tirion's exile, Taelan remained in Hearthglen with his mother. Lordaeron fell to the Scourge during the Third War, and Taelan grew to manhood and joined the Scarlet Crusade. In time, he became Hearthglen's Highlord. From afar, Tirion watches the Crusade descend into madness. He grieves that fanaticism has made his son its puppet. Memories of happier days, including family visits to Caer Darrow, keep Tirion searching for a way to remind Taelan of true honor.",
    "spoiler": 1
   }
  ],
@@ -35,7 +35,7 @@
     "who is tirion",
     "hermit paladin"
    ],
-   "answer": "Tirion Fordring is a paladin of the Knights of the Silver Hand and the former governor of Hearthglen. He was exiled by his peers for defending an orc out of honor, and he now lives as a hermit in a secluded cabin on the western edge of the Eastern Plaguelands."
+   "answer": "Tirion Fordring once governed Hearthglen and served as a paladin of the Knights of the Silver Hand. His peers exiled him for defending an orc out of honor. He now lives in a cabin on the western edge of the Eastern Plaguelands."
   },
   {
    "q": "Why was Tirion exiled from Lordaeron?",
@@ -44,7 +44,7 @@
     "tirion treason",
     "why is tirion an exile"
    ],
-   "answer": "Tirion discovered an old orc veteran named Eitrigg and learned they shared an abiding sense of warrior honor. When Alliance forces captured Eitrigg, Tirion attacked his own comrades to honor his promise to defend the hermit. Regarded as a traitor, he was stripped of his titles and banished from the kingdom."
+   "answer": "Tirion met Eitrigg, an aged orc veteran, and recognized his sense of honor. When Alliance forces found Eitrigg, Tirion fought his own comrades to keep his promise to protect him. The Alliance stripped Tirion of his titles and banished him from the kingdom."
   },
   {
    "q": "What is Tirion's connection to Hearthglen?",
@@ -53,7 +53,7 @@
     "mardenholde keep tirion",
     "hearthglen lord"
    ],
-   "answer": "Hearthglen was Tirion's former seat. He governed the territory from Mardenholde Keep until his exile. Today, Hearthglen is held by the Scarlet Crusade, commanded by his son, Highlord Taelan Fordring."
+   "answer": "Hearthglen was Tirion's seat, and he governed it from Mardenholde Keep until his exile. His son, Highlord Taelan Fordring, commands the Scarlet Crusade there."
   },
   {
    "q": "Does Tirion still have his paladin powers?",
@@ -62,7 +62,7 @@
     "is tirion still a paladin",
     "does tirion use the light"
    ],
-   "answer": "Though the Church and the Silver Hand formally stripped him of his rank and claimed to revoke his holy powers, Tirion's pure conviction ensured his connection to the Holy Light remained unbroken. The Light answered his will just as strongly as it ever had."
+   "answer": "The Church and the Silver Hand stripped Tirion of his rank and claimed to revoke his holy powers. Yet his conviction kept his bond with the Holy Light unbroken. The Light still answers his will as strongly as ever."
   },
   {
    "q": "What does Tirion want with the Scarlet Crusade?",
@@ -71,7 +71,7 @@
     "tirion and taelan",
     "why does tirion care about the crusade"
    ],
-   "answer": "Tirion has no love for the Scarlet Crusade's fanatical zeal, but his son Taelan serves as one of their highest commanders in Hearthglen. Tirion hopes to awaken Taelan's conscience and free him from the Crusade's corrupt grasp before his soul is entirely lost."
+   "answer": "Tirion wants to reach his son Taelan, a high commander of the Scarlet Crusade in Hearthglen. He hopes to awaken Taelan's conscience and free him from the Crusade's corruption before his soul is lost."
   },
   {
    "q": "Who are the other original paladins?",
@@ -80,25 +80,25 @@
     "original silver hand paladins",
     "alonsus faol paladins"
    ],
-   "answer": "Archbishop Alonsus Faol founded the Knights of the Silver Hand during the Second War, with Uther the Lightbringer as the first of its paladins. Tirion's brother knights included Turalyon and his close friend Saidan Dathrohan."
+   "answer": "Archbishop Alonsus Faol founded the Knights of the Silver Hand during the Second War, with Uther the Lightbringer as its first paladin. Tirion's fellow knights included Turalyon and his close friend Saidan Dathrohan."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Standing before Tirion is standing before the living dawn of your order; he is a knight of the Silver Hand from the Second War and a master of the Holy Light who proved that true righteousness transcends mortal laws."
+   "text": "As a paladin, you stand before a knight of the Silver Hand from the Second War. He mastered the Holy Light and honored an oath above mortal law."
   },
   {
    "target": "race:Human",
-   "text": "Tirion was a peerless hero of the Alliance of Lordaeron who ruled Hearthglen justly, a painful reminder of the noble kingdom that collapsed into rot and madness."
+   "text": "As a human, you meet a hero of the Alliance of Lordaeron who ruled Hearthglen justly. He recalls the noble kingdom that fell into rot and madness."
   },
   {
    "target": "race:Orc",
-   "text": "Though a warrior of the Alliance who slew many during the Second War, Tirion gave up everything—his land, his family, and his name—rather than break an oath of honor sworn to the orc Eitrigg."
+   "text": "As an orc, you meet a former enemy who slew many in the Second War. He surrendered his land, family, and name rather than break an oath of honor to Eitrigg."
   },
   {
    "target": "faction:Alliance",
-   "text": "Tirion embodies the ideals the Alliance was founded on, even though those same kingdoms branded him a traitor for putting individual honor above racial hatred."
+   "text": "As an Alliance member, you meet a man who held to the Alliance's ideals. Its kingdoms branded him a traitor for placing personal honor above racial hatred."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Tirion Fordring"
- ]
+ ],
+ "style": 2
 }

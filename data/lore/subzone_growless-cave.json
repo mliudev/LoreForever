@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Growless Cave"
  },
- "summary": "In frigid Growless Cave, mountain yetis roam the cavern in the Alterac Mountains. The cave also holds the Flame of Uzel, a ceremonial pyre tied to Helcular's dark necromancy.",
+ "summary": "Mountain yetis roam Growless Cave in the Alterac Mountains, while its Flame of Uzel keeps Helcular's dark purpose close.",
  "sections": [
   {
    "title": "A Den of Beasts and Dark Magic",
-   "body": "Territorial mountain yetis roam Growless Cave in the crags above Alterac's foothills. Travelers on the treacherous slopes avoid its entrance, especially when Skhowl, a notorious yeti, prowls outside. The cave holds more than danger from the beasts. Within it stands the Flame of Uzel, an arcane brazier left by the human mage Helcular. Before his death, Helcular meant to use the pyre in a dark ritual to become a lich. Its foul warmth once drew Frostmaw, a massive predator, from the frozen wastes.",
+   "body": "Mountain yetis roam Growless Cave in the crags above Alterac's foothills. Travelers avoid its entrance on the treacherous slopes, especially when Skhowl, a notorious yeti, prowls outside. Yet the beasts are not the cave's only danger.\n\nWithin stands the Flame of Uzel, an arcane brazier left by the human mage Helcular. Before his death, Helcular meant to use the pyre in a dark ritual to become a lich. Its foul warmth once drew Frostmaw, a massive predator, from the frozen wastes.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For Forsaken aiding Helcular's vengeance, the cave holds grim significance. His dark rites and relics remain scattered across fallen Alterac."
+   "text": "For Forsaken aiding Helcular's vengeance, Growless Cave holds grim significance. His dark rites and relics remain scattered across fallen Alterac."
   },
   {
    "target": "class:Mage",
@@ -78,5 +78,5 @@
  "attribution": [
   "Growless Cave"
  ],
- "style": 1
+ "style": 2
 }

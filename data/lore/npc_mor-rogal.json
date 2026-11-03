@@ -8,11 +8,11 @@
   "wiki": "Mor'rogal",
   "refs": 2
  },
- "summary": "In Sun Rock Retreat, Mor'rogal guides travelers toward the dangers and promise of the Stonetalon Mountains.",
+ "summary": "At Sun Rock Retreat, Mor'rogal sends Horde travelers toward the dangers and promise of the Stonetalon Mountains.",
  "sections": [
   {
    "title": "Watcher in the Crags",
-   "body": "Mor'rogal watches the deep crevices and caverns of the Stonetalon Mountains from Sun Rock Retreat. Their twisting passages offer riches, but can also bring deadly danger. He sends brave Horde wanderers to troubled places such as Boulderslide Ravine. To Mor'rogal, facing those depths tests the spirit of anyone who seeks glory by following heart and soul.",
+   "body": "From Sun Rock Retreat, Mor'rogal watches the deep crevices and caverns of the Stonetalon Mountains. Their twisting passages may hold riches, but they can also bring deadly danger. So Mor'rogal sends brave Horde wanderers to troubled places such as Boulderslide Ravine. Facing those depths tests the spirit of anyone who seeks glory with heart and soul.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "mor'rogal quests",
     "what does mor'rogal want"
    ],
-   "answer": "Mor'rogal sends capable champions to the cave at Boulderslide Ravine, where kobolds mine Resonite crystals, then asks them to slay Goggeroc, a sleeping Earthen the kobolds dug up."
+   "answer": "Mor'rogal sends capable champions to the cave at Boulderslide Ravine, where kobolds mine Resonite crystals. Then he asks them to slay Goggeroc, a sleeping Earthen the kobolds dug up."
   },
   {
    "q": "Why is Mor'rogal focused on caves and ravines?",
@@ -49,13 +49,13 @@
     "why caves",
     "mor'rogal caves"
    ],
-   "answer": "Mor'rogal believes Stonetalon's perilous caverns offer adventure and a test of spiritual resolve, with glory and riches for those willing to risk their lives."
+   "answer": "Mor'rogal believes Stonetalon's perilous caverns offer adventure and a test of spiritual resolve. Those willing to risk their lives may find glory and riches."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you may see the deep stone hollows of Kalimdor as sacred ground, where physical and spiritual trials can prove your worth."
+   "text": "As a tauren, you may see Kalimdor's deep stone hollows as sacred ground, where physical and spiritual trials can prove your worth."
   },
   {
    "target": "faction:Horde",
@@ -82,5 +82,5 @@
  "attribution": [
   "Mor'rogal"
  ],
- "style": 1
+ "style": 2
 }

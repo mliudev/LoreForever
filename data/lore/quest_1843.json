@@ -17,16 +17,16 @@
   "wiki": "Brutal Gauntlets (quest)",
   "chain": []
  },
- "summary": "Ula'elek has finished a pair of Brutal Gauntlets for a seasoned Horde warrior. Rare materials gathered across distant lands have gone into the work, meant to honor both maker and bearer.",
+ "summary": "In Durotar, Ula'elek has finished Brutal Gauntlets for a seasoned Horde warrior. Rare materials from distant lands went into the work, meant to honor both maker and bearer.",
  "sections": [
   {
    "title": "A Craftsman's Masterpiece",
-   "body": "Ula'elek brings his lineage and skill to the forging of armor for a seasoned frontline warrior. In Durotar, the Horde craftsman shapes brutal gauntlets from hardened trophies taken from dangerous foes. The finished armor is made to withstand fierce blows and strengthen the wearer's attacks.",
+   "body": "In Durotar, Ula'elek brings his lineage and skill to armor for a seasoned frontline warrior. He shapes brutal gauntlets from hardened trophies taken from dangerous foes. The finished armor can withstand fierce blows and strengthen the wearer's attacks.",
    "spoiler": 0
   },
   {
    "title": "Ancestral Honor",
-   "body": "For orcs and trolls, fine arms and armor carry the forge's prestige and the maker's spirit into battle. When Ula'elek presents the finished gauntlets, he entrusts a warrior with his ancestors' legacy. A champion who wears them is expected to meet that craft with courage, martial discipline, and strength.",
+   "body": "Among orcs and trolls, fine arms and armor carry the forge's prestige and the maker's spirit into battle. When Ula'elek presents the finished gauntlets, he entrusts a warrior with his ancestors' legacy. He expects a champion who wears them to answer that craft with courage, martial discipline, and strength.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives brutal gauntlets",
     "quest giver"
    ],
-   "answer": "Ula'elek is a craftsman in Durotar who makes tailored armor for Horde warriors. He asks for exotic materials so his work honors his trade and ancestral traditions."
+   "answer": "Ula'elek is a Durotar craftsman who makes tailored armor for Horde warriors. He asks for exotic materials so his work honors his trade and ancestral traditions."
   },
   {
    "q": "Why were satyr hooves needed for these gauntlets?",
@@ -109,5 +109,5 @@
  "attribution": [
   "Brutal Gauntlets (quest)"
  ],
- "style": 1
+ "style": 2
 }

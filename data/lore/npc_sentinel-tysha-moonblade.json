@@ -8,11 +8,11 @@
   "wiki": "Sentinel Tysha Moonblade",
   "refs": 1
  },
- "summary": "Along Darkshore’s road, Sentinel Tysha Moonblade watches a troubled coast. The night elf scout stands west of Ameth'Aran, guiding travelers and seeking help with the restless spirits haunting the nearby ruins.",
+ "summary": "Along Darkshore's road, Sentinel Tysha Moonblade keeps watch over a troubled coast. West of Ameth'Aran, she guides travelers and seeks help against the restless spirits haunting the ruins.",
  "sections": [
   {
    "title": "Watch upon the Road",
-   "body": "Sentinel Tysha Moonblade watches the road through Darkshore. East of her lie the ruins of Ameth'Aran, where cursed Highborne ghosts and malevolent banshees linger among ancient stone pillars. Auberdine's defenses are stretched thin by dangers along the coast, so Tysha asks capable travelers to uncover the history of Ameth'Aran's fall and put down its restless dead.",
+   "body": "Sentinel Tysha Moonblade watches the road through Darkshore. East of her, cursed Highborne ghosts and malevolent banshees haunt Ameth'Aran's ancient stone pillars. Auberdine's defenses are stretched thin by dangers along the coast. Tysha asks capable travelers to uncover how Ameth'Aran fell and put its restless dead to rest.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "tysha moonblade lore",
     "sentinel tysha"
    ],
-   "answer": "Sentinel Tysha Moonblade patrols the main road in central Darkshore, just west of Ameth'Aran. She guards the route against wandering beasts and restless specters."
+   "answer": "Sentinel Tysha Moonblade patrols the main road in central Darkshore, just west of Ameth'Aran. She guards the route from wandering beasts and restless specters."
   },
   {
    "q": "Where can I find Sentinel Tysha Moonblade?",
@@ -33,7 +33,7 @@
     "where is tysha",
     "where is sentinel tysha"
    ],
-   "answer": "You can find Sentinel Tysha Moonblade along Darkshore's north-south road, directly west of Ameth'Aran."
+   "answer": "You can find Sentinel Tysha Moonblade beside Darkshore's north-south road, directly west of Ameth'Aran."
   },
   {
    "q": "What tasks does she give to adventurers?",
@@ -55,7 +55,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can help the Sentinels keep peace in lands scarred by the ancient Sundering by laying your cursed ancestors to rest."
+   "text": "As a night elf, you can help the Sentinels keep peace in lands scarred by the ancient Sundering. Lay your cursed ancestors to rest."
   },
   {
    "target": "faction:Alliance",
@@ -80,5 +80,5 @@
  "attribution": [
   "Sentinel Tysha Moonblade"
  ],
- "style": 1
+ "style": 2
 }

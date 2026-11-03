@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Teldrassil is the fresh heart of Kaldorei resurgence, making demonic corruption festering among the native wildlife in the Cleft a direct insult and threat to your people."
+   "text": "As a night elf, you know Teldrassil as the new heart of Kaldorei resurgence. Demonic corruption among its native wildlife in the Cleft threatens your people."
   },
   {
    "target": "class:Druid",
-   "text": "The perversion of Teldrassil's natural arachnids into befouled brood strikes against the balance of nature, demanding cleansing at the hands of Cenarion defenders."
+   "text": "As a druid, you know that befouling Teldrassil’s natural spiders strikes at nature’s balance. Cenarion defenders must cleanse the brood."
   },
   {
    "target": "faction:Alliance",
-   "text": "Aiding Tallonkai Swiftroot protects the settlement of Dolanaar from spreading satyr machinations within the Alliance's primary sanctuary on Kalimdor."
+   "text": "As an Alliance member, you help Tallonkai Swiftroot protect Dolanaar from satyr schemes within Teldrassil, the Alliance’s primary sanctuary on Kalimdor."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "xethorr the wicked",
     "who is the satyr"
    ],
-   "answer": "Xethorr the Wicked is a malevolent satyr orchestrating corruption within Teldrassil. He directed Lord Melenas and made his lair in the Cleft, twisting native spiders and utilizing Mature Fel Moss to harbor his sinister schemes.",
+   "answer": "Xethorr the Wicked is a satyr who orchestrated corruption within Teldrassil. He directed Lord Melenas and made his lair in the Cleft, where he twisted native spiders and used Mature Fel Moss in his schemes.",
    "q": "Who is Xethorr the Wicked?"
   },
   {
@@ -41,7 +41,7 @@
     "cleft location",
     "where do i find xethorr"
    ],
-   "answer": "The Cleft is a secluded area located deep in the forest to the northwest of Dolanaar on Teldrassil, where Xethorr the Wicked and his befouled brood have taken residence.",
+   "answer": "The Cleft lies deep in Teldrassil’s forest, northwest of Dolanaar. Xethorr the Wicked and his befouled brood have taken residence there.",
    "q": "Where is the Cleft located?"
   },
   {
@@ -50,7 +50,7 @@
     "what are befouled webwoods",
     "befouled webwood lore"
    ],
-   "answer": "The Befouled Webwoods are native Teldrassil spiders corrupted by Xethorr the Wicked. The satyr twisted their minds and physiology, intending to harvest their venom for a foul demonic plan.",
+   "answer": "Xethorr the Wicked corrupted the Befouled Webwoods, native spiders of Teldrassil. He twisted their minds and bodies to harvest their venom for a demonic plan.",
    "q": "Why are the spiders of Teldrassil befouled?"
   },
   {
@@ -59,7 +59,7 @@
     "where is tallonkai",
     "tallonkai swiftroot role"
    ],
-   "answer": "Tallonkai Swiftroot is a night elf guardian stationed in the village of Dolanaar on Teldrassil who tasks adventurers with rooting out demonic subversion in the surrounding woods.",
+   "answer": "Tallonkai Swiftroot is a night elf guardian stationed in Dolanaar on Teldrassil. He sends adventurers to root out demonic subversion in the surrounding woods.",
    "q": "Who is Tallonkai Swiftroot?"
   },
   {
@@ -68,7 +68,7 @@
     "why collect fel moss",
     "what is fel moss"
    ],
-   "answer": "Mature Fel Moss is a corrupting botanical specimen carried by Xethorr the Wicked, sought by Tallonkai Swiftroot to uncover more about the satyr's true motives and ongoing work within Teldrassil.",
+   "answer": "Mature Fel Moss is a corrupting botanical specimen carried by Xethorr the Wicked. Tallonkai Swiftroot seeks it to learn more about the satyr’s motives and work within Teldrassil.",
    "q": "What is the Mature Fel Moss?"
   },
   {
@@ -77,7 +77,7 @@
     "who is lord melenas",
     "melenas and xethorr"
    ],
-   "answer": "Lord Melenas was acting not out of isolated malice, but at the explicit behest of Xethorr the Wicked, revealing a coordinated satyr conspiracy operating within Teldrassil.",
+   "answer": "Lord Melenas acted at Xethorr the Wicked’s behest, not from isolated malice. His deeds revealed a coordinated satyr conspiracy within Teldrassil.",
    "q": "How was Lord Melenas involved?"
   }
  ],
@@ -103,18 +103,19 @@
  ],
  "sections": [
   {
-   "body": "The discovery that Lord Melenas did not operate in isolation reveals a darker undercurrent running through Teldrassil's wilderness. Behind Melenas stood Xethorr the Wicked, an entrenched satyr pulling strings from the shadows of the forest to undermine the tranquil boughs of the World Tree.",
+   "body": "Lord Melenas had a master in Xethorr the Wicked. The satyr held an entrenched presence in Teldrassil’s wilderness, pulling strings from the forest shadows to trouble the World Tree’s quiet boughs.",
    "spoiler": 0,
    "title": "A Shadowed Handler"
   },
   {
-   "body": "Taking refuge northwest of Dolanaar in the secluded enclave called the Cleft, Xethorr turned his attention to Teldrassil's native arachnids. By twisting local Webwood spiders into befouled beasts, the satyr sought to weaponize their venom for insidious demonic plots. Tallonkai Swiftroot dispatched adventurers to cull the brood and seize Xethorr's Mature Fel Moss before the corruption could spread further.",
+   "body": "Northwest of Dolanaar, Xethorr turned Teldrassil’s native Webwood spiders into befouled beasts. From the secluded Cleft, the satyr meant to wield their venom in demonic plots. Tallonkai Swiftroot sent adventurers to cull the brood and seize Xethorr’s Mature Fel Moss before the corruption spread.",
    "spoiler": 1,
    "title": "The Befouled Brood of the Cleft"
   }
  ],
- "summary": "Twisted Hatred is a quest in Teldrassil uncovering the puppeteer behind Lord Melenas's actions. Adventurers journey into the Cleft northwest of Dolanaar to confront Xethorr the Wicked and eradicate his corrupted spiders before his vile schemes can spread across the boughs.",
+ "summary": "In Teldrassil, Xethorr the Wicked’s schemes draw you to the Cleft northwest of Dolanaar. There you face the satyr and cull his corrupted spiders before their venom serves his demonic plots.",
  "attribution": [
   "In-game quest text: Twisted Hatred"
- ]
+ ],
+ "style": 2
 }

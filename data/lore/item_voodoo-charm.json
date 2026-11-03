@@ -10,11 +10,11 @@
    "quest:2561"
   ]
  },
- "summary": "In Teldrassil’s barrows, the Voodoo Charm can break the Gnarlpine enchantment holding Oben Rageclaw’s body.",
+ "summary": "In Teldrassil’s barrows, Oben Rageclaw’s body remains bound by Gnarlpine enchantment. The Voodoo Charm can break that hold.",
  "sections": [
   {
    "title": "A Severing of Dark Bonds",
-   "body": "The spirit of Oben Rageclaw is separated from his flesh in the Gnarlpine barrow dens of Teldrassil. The furbolgs used foul magic to control the sleeping forms of sacred kaldorei protectors, and Oben’s body remains under their sorcery. He examines the charm and sees that its dark tether cannot be dispelled through traditional prayers. Once his soulless body is struck down, the charm must be channeled over the fallen form to purge the furbolg hold. Then Oben’s wandering spirit can depart for the Emerald Dream forever.",
+   "body": "Oben Rageclaw’s spirit is separated from his flesh in Teldrassil’s Gnarlpine barrow dens. The furbolgs used foul magic to control the sleeping forms of sacred kaldorei protectors, and Oben’s body remains under their sorcery. He examines the charm and finds that traditional prayers cannot break its dark tether.\n\nOnce his soulless body is struck down, the charm must be channeled over the fallen form to purge the furbolg hold. Then Oben’s wandering spirit can depart for the Emerald Dream forever.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "voodoo charm use",
     "how to use voodoo charm"
    ],
-   "answer": "The Voodoo Charm breaks the Gnarlpine furbolgs’ magical control over Oben Rageclaw. After his soulless, enthralled body is struck down, the charm must be used on his remains to sever the enchantment and free his soul."
+   "answer": "The Voodoo Charm breaks the Gnarlpine furbolgs’ magical control over Oben Rageclaw. After his soulless, enthralled body is struck down, use the charm on his remains to sever the enchantment and free his soul."
   },
   {
    "q": "Who gives you the Voodoo Charm?",
@@ -35,7 +35,7 @@
     "who gives the charm",
     "oben charm"
    ],
-   "answer": "The spirit of Oben Rageclaw gives you the Voodoo Charm during Druid of the Claw. After examining it, he explains how it can free him from the Gnarlpine tribe’s sorcery."
+   "answer": "The spirit of Oben Rageclaw gives you the Voodoo Charm during Druid of the Claw. He examines it and explains how it can free him from the Gnarlpine tribe’s sorcery."
   },
   {
    "q": "Why is it called a Voodoo Charm in night elf lands?",
@@ -43,7 +43,7 @@
     "why voodoo in teldrassil",
     "is it troll voodoo"
    ],
-   "answer": "The name reflects the foreign or distorted occult magic of the Gnarlpine furbolgs, who have succumbed to corruption and bizarre tribal magic as it seeped into the Great Tree. The charm represents the magic used to ensnare and puppeteer the bodies of resting druids."
+   "answer": "The name reflects the foreign or distorted occult magic of the Gnarlpine furbolgs. They have succumbed to corruption and bizarre tribal magic as it seeped into the Great Tree. The charm carries the magic used to ensnare and puppeteer the bodies of resting druids."
   },
   {
    "q": "What happens after the charm is used?",
@@ -57,11 +57,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For young druids training in Teldrassil, using the charm to mercy-kill and release a brother Druid of the Claw shows the tragic vulnerability of leaving one’s physical shell behind while traveling through the Emerald Dream."
+   "text": "As a druid training in Teldrassil, you see the tragedy of leaving your physical shell behind while traveling through the Emerald Dream. Using the charm to mercy-kill and release a brother Druid of the Claw shows that vulnerability."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves, the charm reveals how deeply the Gnarlpine furbolgs have degenerated, turning sacred kaldorei barrow dens into places of grotesque spiritual imprisonment."
+   "text": "As a night elf, you see how deeply the Gnarlpine furbolgs have degenerated. They have turned sacred kaldorei barrow dens into places of grotesque spiritual imprisonment."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Voodoo Charm",
   "Druid of the Claw (quest)"
  ],
- "style": 1
+ "style": 2
 }

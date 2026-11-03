@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Defeating the wind lord Cyclonian is a defining trial of strength, proving martial mastery by claiming his whirlwind heart to forge a potent weapon."
+   "text": "As a warrior, defeating Cyclonian tests your strength and martial mastery. Claim his whirlwind heart and use it to forge a potent weapon."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "cyclonian lore",
     "what is cyclonian"
    ],
-   "answer": "Cyclonian is a powerful elemental wind lord. He represents a severe elemental threat that has long been watched by observers waiting for a champion strong enough to challenge and defeat him.",
+   "answer": "Cyclonian is a powerful elemental wind lord and a grave threat. Observers have watched him for ages, waiting for a champion strong enough to challenge and defeat him.",
    "q": "Who is Cyclonian?"
   },
   {
@@ -33,7 +33,7 @@
     "cyclonian purpose",
     "why fight cyclonian"
    ],
-   "answer": "Cyclonian is summoned to be challenged and slain by a worthy champion. Defeating the wind lord allows a proven fighter to claim his whirlwind heart, which can then be infused into a powerful weapon.",
+   "answer": "Cyclonian is summoned so a worthy champion can challenge and slay him. The victor can claim his whirlwind heart and have its power infused into a formidable weapon.",
    "q": "Why must Cyclonian be summoned?"
   },
   {
@@ -42,7 +42,7 @@
     "heart of cyclonian",
     "whirlwind heart purpose"
    ],
-   "answer": "The Whirlwind Heart is the core essence of the wind lord Cyclonian. When torn from the defeated elemental, its tempestuous energies can be forged directly into a weapon of great martial power.",
+   "answer": "The Whirlwind Heart is Cyclonian's core essence. Torn from the defeated wind lord, its tempestuous energies can be infused into a weapon of great martial power.",
    "q": "What is the Whirlwind Heart?"
   },
   {
@@ -50,7 +50,7 @@
     "who wants cyclonian dead",
     "who watches cyclonian"
    ],
-   "answer": "Bath'rah the Windwatcher in the Alterac Mountains has spent ages keeping vigil over the site, searching endlessly for a true champion capable of toppling the elemental lord and mastering his tempestuous heart.",
+   "answer": "Bath'rah the Windwatcher in the Alterac Mountains has kept vigil over the site for ages. He searches endlessly for a true champion who can topple Cyclonian and master his tempestuous heart.",
    "q": "Who has been watching Cyclonian?"
   },
   {
@@ -58,7 +58,7 @@
     "how to summon cyclonian",
     "cyclonian ingredients"
    ],
-   "answer": "Summoning Cyclonian requires gathering specific rare reagents recorded on a special parchment, which serve to draw the wind lord out into the world so he can be contested.",
+   "answer": "A special parchment records the rare reagents needed to summon Cyclonian and draw the wind lord into the world to be challenged.",
    "q": "How is Cyclonian brought forth?"
   },
   {
@@ -66,7 +66,7 @@
     "cyclonian reward",
     "what weapon from cyclonian"
    ],
-   "answer": "A champion who gathers the necessary components, summons Cyclonian, and slays him earns a weapon infused with the latent fury of the elemental's whirlwind heart.",
+   "answer": "The champion who gathers the necessary components, summons Cyclonian, and slays him earns a weapon infused with the latent fury of the elemental's whirlwind heart.",
    "q": "What weapon is forged from Cyclonian?"
   }
  ],
@@ -81,23 +81,24 @@
  "related": [],
  "sections": [
   {
-   "body": "Cyclonian is a raging elemental wind lord whose presence commands reverence and caution. For ages, an attentive watcher has kept vigil over the summoning site, waiting for a combatant possesses enough raw martial prowess to challenge and destroy this tempestuous entity.",
+   "body": "A watcher has kept vigil at the summoning site for ages. The raging elemental wind lord awaits a combatant with the raw martial prowess to challenge and destroy him.",
    "spoiler": 0,
    "title": "The Slumbering Wind Lord"
   },
   {
-   "body": "Calling forth Cyclonian requires a ritual of summoning using rare materials detailed upon a special parchment. Once summoned, the wind lord must be faced in direct combat, testing whether the challenger is truly a champion or merely another victim of his howling gale.",
+   "body": "A special parchment names the rare materials needed to summon Cyclonian. Once the wind lord is called forth, you face him in direct combat. You may defeat him, or fall to his howling gale.",
    "spoiler": 0,
    "title": "Summoning the Tempest"
   },
   {
-   "body": "The ultimate goal of confronting the wind lord is to claim his whirlwind heart. Once severed from the vanquished elemental, the heart's fierce elemental energies can be bound and infused into a weapon fit for an accomplished champion.",
+   "body": "Cyclonian's whirlwind heart is sought from the defeated elemental. Severed from him, its fierce elemental energies can be bound and infused into a weapon fit for an accomplished champion.",
    "spoiler": 1,
    "title": "The Whirlwind Heart"
   }
  ],
- "summary": "Cyclonian is a mighty wind lord whose defeat has been sought for ages. To challenge him, a champion must gather the components required to summon the elemental and strike him down to claim his whirlwind heart. Defeating the wind lord allows the heart's power to be infused into a formidable weapon.",
+ "summary": "At the summoning site, Cyclonian waits for a champion bold enough to face him. A special parchment names the rare materials needed to call forth the wind lord, whose whirlwind heart can strengthen a formidable weapon.",
  "attribution": [
   "In-game quest text: Cyclonian"
- ]
+ ],
+ "style": 2
 }

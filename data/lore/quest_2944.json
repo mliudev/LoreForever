@@ -27,16 +27,16 @@
    "In Search of Knowledge"
   ]
  },
- "summary": "Curgle Cranklehop has a new picture-taking device ready, the Super Snapper FX, and hands it to you to try out. The subject is Gammerita, a creature from the Hinterlands. With her snapshot in hand, you bring it and the device to Daryn Lightwind in Rut'theran Village. This follows The Borrower.",
+ "summary": "Curgle Cranklehop has a new device for you to try: the Super Snapper FX. Aim it at Gammerita, a creature from the Hinterlands, then bring the picture and device to Daryn Lightwind in Rut'theran Village. This follows The Borrower.",
  "sections": [
   {
    "title": "A Device to Test",
-   "body": "After The Borrower, Curgle Cranklehop presents you with the Super Snapper FX, a new invention of theirs. Using it is simple: aim at whatever you want pictured and press the button. Curgle gives it to you to try out.",
+   "body": "After The Borrower, Curgle Cranklehop puts a new invention in your hands: the Super Snapper FX. Aim it at what you want pictured, then press the button. Curgle gives it to you to try.",
    "spoiler": 0
   },
   {
    "title": "The Subject",
-   "body": "The subject is Gammerita, a creature from the Hinterlands that you had mentioned to Curgle. Curgle wishes you luck in finding her, and expects Daryn Lightwind to be pleased with the snapshot. Once you have it, the picture and the device go to Daryn in Rut'theran Village.",
+   "body": "Gammerita, a creature from the Hinterlands, is the subject you mentioned to Curgle. He wishes you luck in finding her and expects Daryn Lightwind to be pleased with the snapshot. Once you have the picture, bring it and the device to Daryn in Rut'theran Village.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "curgle quest giver",
     "where to get super snapper fx"
    ],
-   "answer": "Curgle Cranklehop hands you the device, a new invention, for you to try out."
+   "answer": "Curgle Cranklehop gives you the Super Snapper FX to try."
   },
   {
    "q": "What do I photograph with the Super Snapper FX?",
@@ -57,7 +57,7 @@
     "where is gammerita",
     "gammerita snapshot"
    ],
-   "answer": "Gammerita, a creature from the Hinterlands. Curgle wishes you luck finding her."
+   "answer": "Photograph Gammerita, a creature from the Hinterlands. Curgle wishes you luck finding her."
   },
   {
    "q": "Who receives the snapshot?",
@@ -66,7 +66,7 @@
     "where does the picture go",
     "who is daryn lightwind"
    ],
-   "answer": "Daryn Lightwind in Rut'theran Village. You bring her both the snapshot and the device."
+   "answer": "Daryn Lightwind in Rut'theran Village receives both the snapshot and the device."
   },
   {
    "q": "What comes next in the chain?",
@@ -74,7 +74,7 @@
     "next quest after super snapper",
     "what follows super snapper fx"
    ],
-   "answer": "The chain goes on with Return to Troyas."
+   "answer": "The chain continues with Return to Troyas."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "The Super Snapper FX"
- ]
+ ],
+ "style": 2
 }

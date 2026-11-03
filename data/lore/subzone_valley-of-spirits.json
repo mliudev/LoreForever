@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Valley of Spirits"
  },
- "summary": "Darkspear trolls make their home in the Valley of Spirits, west of Orgrimmar's main thoroughfares. Thatched lodges, tiki poles, and pools mark their place among the city's red stone and iron.",
+ "summary": "In the Valley of Spirits, Darkspear trolls make their home west of Orgrimmar's main thoroughfares. Thatched lodges, tiki poles, and pools mark their place among the city's red stone and iron.",
  "sections": [
   {
    "title": "A Home for the Darkspear",
-   "body": "The Valley of Spirits branches west from the Valley of Strength, a quiet enclave for the Darkspear trolls. The tribe settled in Durotar alongside Thrall's orcs, and made this pocket among the crags their gathering place in the city. Trollish craftspeople, spiritualists, and practitioners gather around wooden bridges and winding waters, practicing their arts away from the dry heat of Orgrimmar's main thoroughfares.",
+   "body": "The Valley of Spirits branches west from the Valley of Strength, where Darkspear trolls have made a quiet enclave. They settled in Durotar alongside Thrall's orcs and made this pocket among the crags their gathering place in the city. Around wooden bridges and winding waters, craftspeople, spiritualists, and practitioners practice their arts, away from the dry heat of Orgrimmar's main thoroughfares.",
    "spoiler": 0
   },
   {
    "title": "Keepers of the Craft",
-   "body": "The valley's lodges and pools draw those who practice magic and wild crafts. Witch doctors, herbalists, and spellcasters gather at the Spirit Lodge and Darkbriar Lodge. At the back, the Talon Gate opens toward the Barrens' open plains, giving wanderers, hunters, and travelers a quick passage beyond the canyon walls.",
+   "body": "The valley's lodges and pools draw those who practice magic and wild crafts. Witch doctors, herbalists, and spellcasters gather at the Spirit Lodge and Darkbriar Lodge. At the rear, the Talon Gate opens toward the Barrens' open plains, giving wanderers, hunters, and travelers a quick passage beyond the canyon walls.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, you find a piece of home and cultural identity in this peaceful enclave among the red canyons of Orgrimmar."
+   "text": "As a Darkspear troll, you find a piece of home and cultural identity in this peaceful enclave among Orgrimmar's red canyons."
   },
   {
    "target": "profession:Herbalism",
@@ -77,5 +77,5 @@
  "attribution": [
   "Valley of Spirits"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "The Tower of Althalaxx (6)",
   "chain": []
  },
- "summary": "Delgren's crusade against the Tower of Althalaxx cultists reaches its sixth chapter. From Maestra's Post, he deciphers orcish writings recovered from the cult's emissaries and learns that Athrikus Narassin hid two trapped Highborne soulgems in satyr strongholds deep in Ashenvale. Champions head to Night Run and Satyrnaar to shatter the vessels, free the tormented spirits, and weaken Athrikus's power.",
+ "summary": "From Maestra's Post, Delgren's crusade reaches its sixth chapter. He deciphers Orcish writings recovered from the cult's emissaries and learns Athrikus Narassin hid two trapped Highborne soulgems in satyr strongholds deep in Ashenvale. Champions are sent to Night Run and Satyrnaar to shatter the vessels, free the tormented spirits, and weaken Athrikus's power.",
  "sections": [
   {
    "title": "Deciphering the Scribblings",
-   "body": "Delgren the Purifier puts his study of Orcish to use after Ilkrud Magthrull, an orcish courier, is cut down. His peers in the Holy Light often scoffed at learning an adversary's tongue, but Delgren's practical insight lets him decipher notes recovered from the cult's emissaries. They reveal that Athrikus Narassin hid two potent soulgems containing ancient Highborne essences far to the northeast, in the defiled groves of Night Run and Satyrnaar.",
+   "body": "After Ilkrud Magthrull, an orcish courier, is cut down, Delgren the Purifier puts his study of Orcish to use. His peers in the Holy Light often scoffed at learning an adversary's tongue. Yet Delgren's practical wisdom lets him decipher notes recovered from the cult's emissaries. They reveal that Athrikus Narassin hid two potent soulgems containing ancient Highborne essences far to the northeast, in the defiled groves of Night Run and Satyrnaar.",
    "spoiler": 0
   },
   {
    "title": "Unholy Alliances",
-   "body": "The soulgems in satyr camps reveal a foul alliance between Athrikus's cabal and demonic scions of the Burning Legion. Bound above circles of imprisonment, the ancient spirits endure endless torment as they fuel dark spellcraft. The blood-soaked satyr altars hold wild demonic corruption, while hidden satyr stalkers sworn to guard these arcane conduits wait in the shadows.",
+   "body": "The soulgems in satyr camps reveal a foul alliance between Athrikus's cabal and demonic scions of the Burning Legion. Bound above circles of imprisonment, ancient spirits endure endless torment to fuel dark spellcraft. Blood-soaked satyr altars hold wild demonic corruption. Hidden satyr stalkers sworn to guard these arcane conduits wait in the shadows.",
    "spoiler": 1
   },
   {
    "title": "Weakening Athrikus",
-   "body": "Shattering the crimson stones and freeing the Highborne souls from their circles of agony deals a devastating blow to Athrikus's reservoir of mystic strength. Delgren says the leader of the Althalaxx cult is severely weakened without the soulgems. The deed leaves the holy crusader unsettled by the night elves' quiet unease about the satyrs, and he resolves to bring the lingering demonic blight to Auberdine's leaders.",
+   "body": "Shattering the crimson stones and freeing the Highborne souls from their circles of agony deals a devastating blow to Athrikus's mystic strength. Delgren says the leader of the Althalaxx cult is severely weakened without the soulgems. Yet the deed leaves the holy crusader unsettled by the night elves' quiet unease about the satyrs. He resolves to bring the lingering demonic blight to Auberdine's leaders.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "how does delgren know orcish",
     "delgren translation"
    ],
-   "answer": "Delgren took the initiative to study Orcish, though others in his holy order ridiculed him. He believed an enemy's tongue could offer tactical insight, and that knowledge let him translate the notes recovered from Ilkrud Magthrull."
+   "answer": "Delgren took the initiative to study Orcish, though others in his holy order ridiculed him. He believed an enemy's tongue could offer tactical insight, and that knowledge let him translate notes recovered from Ilkrud Magthrull."
   },
   {
    "q": "What are the soulgems and why are they held by satyrs?",
@@ -52,7 +52,7 @@
     "why do satyrs have the gems",
     "trapped highborne souls"
    ],
-   "answer": "The soulgems are crimson focus stones that bind ancient Highborne spirits, suspended over ritual circles of imprisonment. Athrikus Narassin bargained for them or placed them in sanctuaries such as Night Run and Satyrnaar, where their misery fuels the cult's arcane power."
+   "answer": "The soulgems are crimson focus stones that bind ancient Highborne spirits above ritual circles of imprisonment. Athrikus Narassin bargained for them or placed them in sanctuaries such as Night Run and Satyrnaar, where the spirits' misery fuels the cult's arcane power."
   },
   {
    "q": "Where are Night Run and Satyrnaar located?",
@@ -79,7 +79,7 @@
     "athrikus power source",
     "weakening athrikus"
    ],
-   "answer": "Athrikus Narassin draws on the spiritual energy held in the Highborne soulgems to power his rituals. Shattering the gems frees the trapped souls and starves those rituals of power, leaving him vulnerable to an assault at the tower."
+   "answer": "Athrikus Narassin draws on the spiritual energy in the Highborne soulgems to power his rituals. Shattering the gems frees the trapped souls and starves those rituals of power, leaving him vulnerable to an assault at the tower."
   },
   {
    "q": "Who is Elissa that Delgren mentions speaking to?",
@@ -98,7 +98,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, freeing Highborne ancestors from satyr desecration is a solemn duty that confronts the tragic remnants of your people's ancient past."
+   "text": "As a night elf, you bear a solemn duty to free Highborne ancestors from satyr desecration. The task confronts the tragic remnants of your people's ancient past."
   },
   {
    "target": "class:Priest",
@@ -129,5 +129,5 @@
  "attribution": [
   "The Tower of Althalaxx (6)"
  ],
- "style": 1
+ "style": 2
 }

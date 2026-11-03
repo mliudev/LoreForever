@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Ensuring the safe communication between the ancient Oracle Tree and the leadership in Darnassus is vital to the security and spiritual guidance of the kaldorei."
+   "text": "As a night elf, you know safe messages from the ancient Oracle Tree guide the kaldorei leadership in Darnassus."
   },
   {
    "target": "faction:Alliance",
-   "text": "Maintaining secure roads and communication lines across Teldrassil supports the stability of Darnassus and Alliance territory."
+   "text": "As an Alliance member, you know safe roads and clear communication across Teldrassil help keep Darnassus and Alliance territory stable."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "missing sentinel",
     "who is eralya"
    ],
-   "answer": "The missing runner is Sentinel Eralya Leafshadow, a night elf sentinel still in training who was tasked with delivering a message from the Oracle Tree to Darnassus.",
+   "answer": "Sentinel Eralya Leafshadow is the missing runner, a night elf sentinel still in training. She was sent to carry a message from the Oracle Tree to Darnassus.",
    "q": "Who is the lost runner?"
   },
   {
@@ -37,7 +37,7 @@
     "oracle glade purpose",
     "why messages from oracle tree"
    ],
-   "answer": "The Oracle Tree is an ancient tree located in the Oracle Glade that periodically conveys messages to the night elf elders in Darnassus, requiring stationed Sentinels to deliver them safely.",
+   "answer": "The Oracle Tree is an ancient tree in the Oracle Glade that periodically sends messages to the night elf elders in Darnassus. Sentinels stationed there carry those messages safely.",
    "q": "What is the Oracle Tree?"
   },
   {
@@ -46,7 +46,7 @@
     "eralya route",
     "lost runner location"
    ],
-   "answer": "Eralya was expected along the westward road leading between Darnassus and the Oracle Glade, where runners regularly travel to transport communion from the tree.",
+   "answer": "Eralya was expected on the westward road between Darnassus and the Oracle Glade. Runners use that road to carry messages from the tree.",
    "q": "Where was Eralya Leafshadow heading?"
   },
   {
@@ -54,7 +54,7 @@
     "who sent sentinels to oracle tree",
     "what is council of the forest"
    ],
-   "answer": "The Council of the Forest assigned a detachment of Sentinels to the Oracle Tree to ensure messages are safely and swiftly relayed to the elders in Darnassus.",
+   "answer": "The Council of the Forest stationed a detachment of Sentinels at the Oracle Tree. They carry its messages safely and swiftly to the elders in Darnassus.",
    "q": "Who stationed the Sentinels at the Oracle Tree?"
   },
   {
@@ -62,7 +62,7 @@
     "why is her delay unusual",
     "how often does oracle send messages"
    ],
-   "answer": "While communications from the Oracle Tree vary in frequency, her absence has grown abnormally long, prompting concern from her superiors given her trainee status.",
+   "answer": "Messages from the Oracle Tree arrive at irregular intervals, but Eralya's absence has lasted unusually long. Her superiors are concerned because she is still a trainee.",
    "q": "Why is her absence a concern?"
   },
   {
@@ -70,7 +70,7 @@
     "what do you do in the lost runner",
     "lost runner quest goal"
    ],
-   "answer": "You are asked to head west along the path toward the Oracle Glade to search for Sentinel Eralya Leafshadow and discover what has delayed her.",
+   "answer": "You are asked to search west along the road toward the Oracle Glade for Sentinel Eralya Leafshadow and learn what delayed her.",
    "q": "What is the objective of this search?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "The Council of the Forest maintains a contingent of Sentinels stationed at the revered Oracle Tree within Teldrassil. The tree conveys sacred messages to the night elf elders, relying on dedicated runners to carry these dispatches back to Darnassus along the winding forest roads. Ensuring these missives arrive safely is essential for the guidance and governance of the kaldorei.",
+   "body": "The Council of the Forest keeps Sentinels at the Oracle Tree in Teldrassil. The ancient tree sends sacred messages to the night elf elders, and runners carry them along the forest roads to Darnassus. Their safe arrival guides the kaldorei and helps govern them.",
    "spoiler": 0,
    "title": "Messengers of the Oracle"
   },
   {
-   "body": "Communication from the Oracle Tree varies in timing, but an unusually long silence raises alarm when a courier fails to appear. The latest duty fell to Sentinel Eralya Leafshadow, an initiate still undergoing her training. Fearful that misfortune has met her on the trail, her superiors direct travelers to search the westward road toward the Oracle Glade to determine her fate.",
+   "body": "Silence from the Oracle Tree has lasted unusually long, and a courier has not arrived. Sentinel Eralya Leafshadow, an initiate still in training, was the latest runner sent out. Her superiors fear she has met misfortune on the trail, so they direct travelers west toward the Oracle Glade to search for her.",
    "spoiler": 0,
    "title": "An Overdue Courier"
   }
  ],
- "summary": "The Lost Runner is a task to locate Sentinel Eralya Leafshadow, an initiate courier overdue from the Oracle Tree. It matters because communications between the sacred tree and the elders in Darnassus are vital to the night elf leadership.",
+ "summary": "In Teldrassil, a courier from the Oracle Tree is overdue on the road to Darnassus. The elders rely on its messages for guidance.",
  "attribution": [
   "In-game quest text: The Lost Runner"
- ]
+ ],
+ "style": 2
 }

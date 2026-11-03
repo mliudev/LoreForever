@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Steamwheedle Port"
  },
- "summary": "Steamwheedle Port is a bustling coastal outpost on the eastern shore of Tanaris, directly connected to Gadgetzan. Operated by the neutral Steamwheedle Cartel, it serves as an essential sea link across the South Seas while constantly warding off encroaching Southsea Pirates.",
+ "summary": "Steamwheedle Port keeps Gadgetzan linked to the eastern shore of Tanaris. The neutral Steamwheedle Cartel runs its docks and holds open a sea route across the South Seas, though Southsea Pirates press nearby.",
  "sections": [
   {
    "title": "A Gateway on the Shifting Sands",
-   "body": "Tucked against the dunes along the South Seas, Steamwheedle Port offers the inland desert city of Gadgetzan a direct lifeline to maritime trade. Run by the Steamwheedle Cartel, the settlement bustles with dockhands, traders, and sea captains braving the treacherous waters. Supply vessels regularly ply the routes between here and distant goblin trading posts, bringing valuable mechanical components, luxuries, and raw materials into southern Kalimdor.",
+   "body": "On Tanaris's eastern shore, the docks give Gadgetzan a direct route to maritime trade. The Steamwheedle Cartel runs the settlement, where dockhands, traders, and sea captains face treacherous waters. Supply vessels sail between the port and distant goblin trading posts, bringing mechanical components, luxuries, and raw materials into southern Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "Pirates and Strange Scholars",
-   "body": "Life on the port is far from peaceful. Just south along the coast lies Lost Rigger Cove, home to rampant Southsea Freebooters who regularly raid goblin shipping, steal cargo, and contest control of the coastline. Aside from haggling dockworkers and paranoid merchants trying to recover stolen shipments, the port also shelters unusual travelers, such as the enigmatic troll Yeh'kinya, who studies the ancient and ominous spirits of the world away from prying eyes.",
+   "body": "Southsea Freebooters raid goblin shipping from Lost Rigger Cove, just south along the coast. They steal cargo and contest control of the shoreline, while dockworkers haggle and merchants seek to recover stolen shipments. The port also shelters unusual travelers. Among them is Yeh'kinya, a troll scholar studying the world's ancient and ominous spirits away from prying eyes.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "steamwheedle port faction",
     "is steamwheedle port friendly"
    ],
-   "answer": "The settlement is built and administered by the Steamwheedle Cartel, the primary trade conglomerate of neutral goblins. As long as you maintain standing with Gadgetzan and the Cartel, both Alliance and Horde travelers are welcomed freely."
+   "answer": "The Steamwheedle Cartel built and runs the settlement. It is the primary trade conglomerate of neutral goblins, and welcomes Alliance and Horde travelers who maintain standing with Gadgetzan and the Cartel."
   },
   {
    "q": "Where do the ships from this port travel?",
@@ -36,7 +36,7 @@
     "where do ships go from steamwheedle",
     "steamwheedle port ferry"
    ],
-   "answer": "The port serves as the Cartel's maritime link across the South Seas, connecting it to distant goblin trading hubs, and a passenger ship sails from its docks across the sea to Powderfuse Port in the Riverglades."
+   "answer": "Ships from the port connect the Cartel to distant goblin trading hubs across the South Seas. A passenger ship also sails across the sea from the docks to powderfuse port in the riverglades."
   },
   {
    "q": "Why are there so many pirates nearby?",
@@ -44,7 +44,7 @@
     "lost rigger cove pirates",
     "southsea pirates tanaris"
    ],
-   "answer": "The Southsea Freebooters established their base just south at Lost Rigger Cove. They frequently hijack incoming cargo, raid dock supplies, and pick off stragglers along the shoreline, making them the primary local threat to goblin trade."
+   "answer": "Southsea Freebooters have made their base at Lost Rigger Cove, just south of the port. They hijack incoming cargo, raid dock supplies, and pick off stragglers along the shoreline, making them the chief local threat to goblin trade."
   },
   {
    "q": "Who is Yeh'kinya?",
@@ -52,17 +52,17 @@
     "yehkinya purpose",
     "troll in steamwheedle port"
    ],
-   "answer": "Yeh'kinya is an eccentric troll scholar resting at the port. He enlists daring adventurers to travel abroad, capturing spiritual essences such as screechers from Feralas to research forgotten, primordial rituals."
+   "answer": "Yeh'kinya is an eccentric troll scholar resting at the port. He enlists daring travelers to go abroad and capture spiritual essences, including screechers from Feralas, for his research into forgotten, primordial rituals."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The port is an invaluable depot for parts and supplies imported from across the South Seas, making it a natural hub of gossip and schematics for tinkerers."
+   "text": "For an engineer, the port is a valuable depot for parts and supplies imported from across the South Seas. It is also a natural source of supplies and gossip for tinkerers seeking schematics."
   },
   {
    "target": "class:Rogue",
-   "text": "The constant friction between goblin merchants and the nearby Southsea Pirates creates lucrative opportunities for pickpockets, scouts, and recovery contracts."
+   "text": "As a rogue, the friction between goblin merchants and nearby Southsea Pirates creates opportunities for pickpockets, scouts, and recovery contracts."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Steamwheedle Port"
- ]
+ ],
+ "style": 2
 }

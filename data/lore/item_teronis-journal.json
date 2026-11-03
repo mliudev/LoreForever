@@ -10,11 +10,11 @@
    "quest:1023"
   ]
  },
- "summary": "Teronis' Journal follows a scout's search through Ashenvale for a gem tied to a rod he hoped could slow furbolg attacks.",
+ "summary": "In Ashenvale, Teronis' Journal traces a scout's search for a gem tied to a rod he hoped could slow furbolg attacks.",
  "sections": [
   {
    "title": "A Scout's Final Record",
-   "body": "Teronis, a longtime friend of Raene Wolfrunner, aided the Sentinels and searched Ashenvale for a gem. He believed it belonged to a rod that could slow the furbolg attacks on his people. Near the shore, aggressive creatures brought his journey to an end. The journal was recovered from his personal effects in remarkably good condition. Its findings about a radiant gem that once formed part of the rod give Astranaar's defenders a trail to follow in his unfinished search.",
+   "body": "Teronis was a longtime friend of Raene Wolfrunner and aided the Sentinels. He searched Ashenvale for a gem he believed belonged to a rod that could slow the furbolg attacks on his people. Near the shore, aggressive creatures ended his journey.\n\nThe journal was recovered from his personal effects in remarkably good condition. Its findings about a radiant gem that once formed part of the rod give Astranaar's defenders a trail to follow in his unfinished search.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "teronis journal location",
     "how to get journal"
    ],
-   "answer": "The journal is found among Teronis' belongings after his slain body is discovered in the wilds of Ashenvale, near the shore where local murlocs live."
+   "answer": "The journal was found among Teronis' belongings after his slain body was discovered in the wilds of Ashenvale. It was near the shore where local murlocs live."
   },
   {
    "q": "What is the purpose of bringing the journal to Astranaar?",
@@ -44,7 +44,7 @@
     "who do i give the journal to",
     "journal turn in"
    ],
-   "answer": "Returning the journal to Raene Wolfrunner tells Astranaar of Teronis' death and gives the Sentinels his notes to continue his search for the rod he hoped could slow the furbolg attacks."
+   "answer": "Returning the journal to Raene Wolfrunner tells Astranaar of Teronis' death. His notes also give the Sentinels a way to continue his search for the rod he hoped could slow the furbolg attacks."
   },
   {
    "q": "What item was Teronis looking for according to his mission?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a night elf, Teronis' journal recalls the danger faced by scouts protecting Ashenvale's ancient woodlands from encroaching corruption."
+   "text": "As a night elf, you can read Teronis' journal as a reminder of the dangers scouts face while protecting Ashenvale's ancient woodlands from encroaching corruption."
   },
   {
    "target": "faction:Alliance",
@@ -90,5 +90,5 @@
   "Teronis' Journal",
   "Raene's Cleansing (2)"
  ],
- "style": 1
+ "style": 2
 }

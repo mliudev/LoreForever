@@ -24,16 +24,16 @@
    "Reagents for Reclaimers Inc."
   ]
  },
- "summary": "Kreldig Ungor gives you Leftwitch's package and sends you back to Ironforge. Roetten Stonehammer is the one to see about your pay, and Kreldig promises a kind word about you once back home.",
+ "summary": "In Desolace, Kreldig Ungor sends you to Ironforge with Leftwitch's package. Roetten Stonehammer has your pay, and Kreldig plans to speak well of you when he returns home.",
  "sections": [
   {
    "title": "Payment in Ironforge",
-   "body": "Kreldig says your pay waits in Ironforge with Roetten Stonehammer himself. Roetten will be glad to be rid of Leftwitch's package, and handing it over should be enough to get what you are owed. Kreldig expects to be in Desolace only a little longer, and still means to speak well of you once home.",
+   "body": "Kreldig says Roetten Stonehammer has your pay in Ironforge. Roetten will be glad to receive Leftwitch's package, and handing it over should be enough to collect what you are owed. Kreldig expects to stay in Desolace only a little longer. Once he is home, he still means to speak well of you.",
    "spoiler": 0
   },
   {
    "title": "Roetten's Thanks",
-   "body": "Roetten Stonehammer welcomes Leftwitch's package from Desolace and thanks you for the work and how quickly it was done. Your payment is ready, and Roetten remarks that a hard week's work is always well paid by Reclaimers Inc.",
+   "body": "Roetten Stonehammer welcomes Leftwitch's package from Desolace and thanks you for your work and for doing it quickly. Your payment is ready. Roetten says Reclaimers Inc. always pays well for a hard week's work.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who gives the quest",
     "who starts this"
    ],
-   "answer": "Kreldig Ungor sends you back to Ironforge with Leftwitch's package after the reagents are gathered."
+   "answer": "After the reagents are gathered, Kreldig Ungor sends you to Ironforge with Leftwitch's package."
   },
   {
    "q": "Where does Leftwitch's package need to go?",
@@ -54,7 +54,7 @@
     "package destination",
     "who gets the package"
    ],
-   "answer": "It goes to Roetten Stonehammer in Ironforge."
+   "answer": "Leftwitch's package goes to Roetten Stonehammer in Ironforge."
   },
   {
    "q": "Why do you carry the package to Roetten?",
@@ -62,7 +62,7 @@
     "why carry package",
     "why visit roetten"
    ],
-   "answer": "Kreldig says your pay comes from Roetten himself, so the package goes to him in Ironforge."
+   "answer": "Kreldig says Roetten Stonehammer has your pay, so you carry him the package in Ironforge."
   },
   {
    "q": "Is Kreldig Ungor remaining in Desolace?",
@@ -70,7 +70,7 @@
     "does kreldig leave desolace",
     "where is kreldig going"
    ],
-   "answer": "Not for much longer, according to Kreldig, who still means to speak well of you once back home."
+   "answer": "Kreldig expects to leave Desolace soon. Once he is home, he still plans to speak well of you."
   }
  ],
  "angles": [],
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Reagents for Reclaimers Inc. (4)"
- ]
+ ],
+ "style": 2
 }

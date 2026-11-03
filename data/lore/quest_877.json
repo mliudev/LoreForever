@@ -17,16 +17,16 @@
   "wiki": "The Stagnant Oasis (Classic)",
   "chain": []
  },
- "summary": "Tonga Runetotem sends you southeast from the Crossroads to search the Stagnant Oasis. He wants to know if the hidden fissure beneath the Forgotten Pools has a match in its murky waters.",
+ "summary": "From the Crossroads, Tonga Runetotem sends you southeast to search the Stagnant Oasis. He wants to know whether its murky waters hide a fissure like the one beneath the Forgotten Pools.",
  "sections": [
   {
    "title": "A Search for Hidden Waters",
-   "body": "Tonga Runetotem sends you to the Stagnant Oasis after a strange fissure is found beneath the Forgotten Pools. He suspects the sudden patches of lush growth across the Barrens have a cause beneath the earth. You search the oasis's murky shallows for another opening, among predators that haunt the water.",
+   "body": "Tonga Runetotem sends you to search the Stagnant Oasis after a strange fissure is found beneath the Forgotten Pools. He suspects the sudden patches of lush growth across the Barrens have a cause beneath the earth. You search the murky shallows for another opening while predators haunt the water.",
    "spoiler": 0
   },
   {
    "title": "The Spark of Vitality",
-   "body": "Tonga Runetotem gives you dried seeds that cannot sprout on their own. When you place them in the bubbling fissure, they surge into growth. The spring beneath the oasis can give life to dead matter, revealing an extraordinary power at work below the Barrens.",
+   "body": "Tonga Runetotem gives you dried seeds that cannot sprout on their own. When you place them in the bubbling fissure, they surge into growth. The spring beneath the oasis may give life to dead matter, a sign of extraordinary power at work below the Barrens.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "where is stagnant oasis",
     "map location"
    ],
-   "answer": "The Stagnant Oasis lies southeast of the Crossroads in the Barrens. Rocky bluffs surround its waters, where snapjaw turtles, kolkar centaur, and other water-dwelling beasts live."
+   "answer": "Southeast of the Crossroads, the Stagnant Oasis lies among the Barrens' rocky bluffs. Snapjaw turtles, kolkar centaur and other water-dwelling beasts live in its waters."
   },
   {
    "q": "What is the significance of the underwater fissures?",
@@ -74,7 +74,7 @@
     "followup",
     "after stagnant oasis"
    ],
-   "answer": "When you return to Tonga Runetotem with your findings, he sends you on to investigate the mutations and aggressive behavior of wildlife around the pools."
+   "answer": "When you return to Tonga Runetotem with your findings, he sends you to investigate mutations and aggressive behavior among wildlife around the pools."
   },
   {
    "q": "Why is the Cenarion Circle interested in these pools?",
@@ -83,7 +83,7 @@
     "cenarion interest",
     "druid oasis"
    ],
-   "answer": "Cenarion druids have long sought ways to heal the Barrens' dry savanna. Springs that create life would bring hope, but the strange, sudden changes also raise concern that an unnatural force is disturbing the land."
+   "answer": "Cenarion druids have long sought ways to heal the Barrens' dry savanna. Springs that create life would bring hope, but sudden changes also raise concern that an unnatural force is disturbing the land."
   }
  ],
  "angles": [
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you know that freshwater oases near the Crossroads help protect trade caravans and military outposts across the harsh Barrens."
+   "text": "As a member of the Horde, you know freshwater oases near the Crossroads help protect trade caravans and military outposts across the harsh Barrens."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "The Stagnant Oasis (Classic)"
  ],
- "style": 1
+ "style": 2
 }

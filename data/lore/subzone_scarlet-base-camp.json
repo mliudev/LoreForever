@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Base Camp"
  },
- "summary": "Scarlet Base Camp is a fortified outpost on the eastern shore of Lake Mereldar in the Eastern Plaguelands, just west of Tyr's Hand. Its barricades mark an outer defensive position of the Scarlet Crusade.",
+ "summary": "Scarlet forces hold a barricaded camp on Lake Mereldar’s eastern shore, just west of Tyr’s Hand. It marks an outer line of the Scarlet Crusade.",
  "sections": [
   {
    "title": "A Forward Line on Lake Mereldar",
-   "body": "Perched on the eastern bank of Lake Mereldar, Scarlet Base Camp is a barricaded fortification just west of Tyr's Hand. It marks an outer position of the Scarlet Crusade in the blighted countryside.",
+   "body": "On Lake Mereldar’s eastern shore, just west of Tyr’s Hand, the Scarlet Crusade holds a barricaded camp. It guards an outer line in the blighted countryside.",
    "spoiler": 0
   },
   {
    "title": "Shielding the Bastion",
-   "body": "Tyr's Hand is one of the Scarlet Crusade's strongholds in Lordaeron. The camp lies along its western approaches, in a region where the Crusade seeks to reclaim the land from the undead and treats outsiders with suspicion.",
+   "body": "Tyr’s Hand is one of the Scarlet Crusade’s strongholds in Lordaeron. Scarlet Base Camp guards its western approaches as the Crusade seeks to reclaim land from the undead. Outsiders are met with suspicion.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is scarlet camp here",
     "purpose of base camp"
    ],
-   "answer": "The camp is a barricaded Scarlet Crusade fortification on the eastern bank of Lake Mereldar, just west of Tyr's Hand."
+   "answer": "Scarlet Base Camp is a barricaded Scarlet Crusade position on Lake Mereldar’s eastern shore, just west of Tyr’s Hand."
   },
   {
    "q": "Who leads the forces stationed at the camp?",
@@ -37,7 +37,7 @@
     "camp commander",
     "scarlet camp leaders"
    ],
-   "answer": "No commander is identified for the original Classic camp. It is a Scarlet Crusade position near Tyr's Hand."
+   "answer": "No commander is identified for the original Classic camp. The Scarlet Crusade holds the position near Tyr’s Hand."
   },
   {
    "q": "Are the occupants hostile to travelers?",
@@ -46,7 +46,7 @@
     "is scarlet camp hostile",
     "are they friendly"
    ],
-   "answer": "The Scarlet Crusade is hostile to outsiders of both factions, regarding them as potential carriers of the plague or agents of the Scourge."
+   "answer": "The Scarlet Crusade treats outsiders of both factions as possible plague carriers or agents of the Scourge, and is hostile to them."
   },
   {
    "q": "Where is the camp in relation to Lake Mereldar?",
@@ -55,17 +55,17 @@
     "where is scarlet camp",
     "camp near tyrs hand"
    ],
-   "answer": "It stands on Lake Mereldar's eastern bank, just west of Tyr's Hand."
+   "answer": "Scarlet Base Camp lies on Lake Mereldar’s eastern shore, just west of Tyr’s Hand."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The camp reflects the tragic corruption of the Silver Hand's legacy, where righteous zeal in the defense of Lordaeron's holy ground has warped into aggressive paranoia against fellow survivors."
+   "text": "As a paladin, you see the Silver Hand’s legacy corrupted. Zeal to defend Lordaeron’s holy ground has turned into aggressive suspicion of fellow survivors."
   },
   {
    "target": "race:Undead",
-   "text": "The outpost serves as a direct reminder of the living zealots who wish to purge the Forsaken from Lordaeron just as ruthlessly as they hunt the mindless Scourge."
+   "text": "As an undead traveler, you face living zealots who seek to purge the Forsaken from Lordaeron as ruthlessly as they hunt the mindless Scourge."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Scarlet Base Camp"
- ]
+ ],
+ "style": 2
 }

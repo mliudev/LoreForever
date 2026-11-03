@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Slaughter Hollow"
  },
- "summary": "In the snowy heights of the Alterac Mountains, Crushridge ogres hold Slaughter Hollow as a secluded camp. Travelers rarely come here except to hunt ogres or cross the frozen passes.",
+ "summary": "Crushridge ogres keep to Slaughter Hollow in the snowy heights of the Alterac Mountains. Travelers come rarely, usually to hunt ogres or cross the frozen passes.",
  "sections": [
   {
    "title": "A Den of Ogres",
-   "body": "Slaughter Hollow shelters the Crushridge ogres high in the peaks between Hillsbrad and Alterac. Makeshift fires, scattered bones, and crude shelters mark the mound. Other ogre dens in the highlands often see fights over territory or stolen supplies, but Slaughter Hollow stays quiet and beyond the reach of major military campaigns.",
+   "body": "High in the peaks between Hillsbrad and Alterac, Slaughter Hollow shelters the Crushridge ogres. Makeshift fires, scattered bones, and crude shelters mark their mound. Other ogre dens in the highlands often see fights over territory or stolen supplies. Slaughter Hollow stays quiet, beyond the reach of major military campaigns.",
    "spoiler": 0
   },
   {
    "title": "Captives and Travelers",
-   "body": "Crushridge ogres sometimes keep prisoners taken along the mountain trails in their secluded mound. Travelers speak of Rizz Loosebolt, an unlucky gnome locked in a crude cage and trying to bargain with anyone who passes. Captives seldom fare well against the clan's appetite.",
+   "body": "Crushridge ogres sometimes hold prisoners taken along the mountain trails in their secluded mound. Travelers speak of Rizz Loosebolt, an unlucky gnome locked in a crude cage who tries to bargain with anyone passing by. Captives seldom fare well against the clan's appetite.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place",
     "slaughter hollow hillsbrad"
    ],
-   "answer": "Crushridge ogres keep an encampment in Slaughter Hollow, high in the Alterac Mountains. Crude shelters and fires mark their mound."
+   "answer": "Crushridge ogres keep an encampment high in the Alterac Mountains at Slaughter Hollow. Crude shelters and fires mark their mound."
   },
   {
    "q": "Who lives in Slaughter Hollow?",
@@ -46,7 +46,7 @@
     "any quests in slaughter hollow",
     "why come here"
    ],
-   "answer": "No formal assignments send travelers directly to Slaughter Hollow. The den lies out of the way, among the mountain paths."
+   "answer": "No formal assignments send travelers directly to Slaughter Hollow. The den lies out of the way among the mountain paths."
   },
   {
    "q": "Who was the gnome caged here?",
@@ -55,13 +55,13 @@
     "gnome in cage",
     "slaughter hollow vendor"
    ],
-   "answer": "Rizz Loosebolt, a gnome, is held in a cage inside Slaughter Hollow and offers wares to anyone who finds him."
+   "answer": "Rizz Loosebolt is a gnome held in a cage inside Slaughter Hollow. He offers wares to anyone who finds him."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, Rizz Loosebolt's capture by the Crushridge is a warning to tinkerers and scouts who cross the Alterac passes unprepared."
+   "text": "As a gnome, you can take Rizz Loosebolt's capture by the Crushridge as a warning. Tinkerers and scouts who cross the Alterac passes unprepared are at risk."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Slaughter Hollow"
  ],
- "style": 1
+ "style": 2
 }

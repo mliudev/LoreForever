@@ -10,16 +10,16 @@
    "quest:3118"
   ]
  },
- "summary": "In Shadowglen, the Encrypted Sigil carries a summons to newly awakened night elf rogues. Frahun Shadewhisper calls them to begin training as dangers gather around Teldrassil.",
+ "summary": "In Shadowglen, the Encrypted Sigil calls newly awakened night elf rogues to Frahun Shadewhisper. He begins their training as dangers gather around Teldrassil.",
  "sections": [
   {
    "title": "A Hidden Summons",
-   "body": "New night elf scouts and infiltrators in Shadowglen receive the Encrypted Sigil through discreet means. A quiet messenger delivers it on behalf of Frahun Shadewhisper. Its contents are hidden instructions that tell the initiate to report to Frahun near Aldrassil. Reading and delivering the token shows Frahun that an initiate can follow subtle directions and handle covert messages.",
+   "body": "New night elf scouts and infiltrators in Shadowglen receive the Encrypted Sigil by discreet means. A quiet messenger brings it on behalf of Frahun Shadewhisper. Its hidden instructions direct each initiate to report to Frahun near Aldrassil. By reading and delivering the token, an initiate shows they can follow subtle directions and carry covert messages.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Shadows",
-   "body": "Frahun uses the summons to explain why rogues matter in an unsettled world. Tensions simmer between the night elves and the distant Horde, but open warfare is not the only danger facing their people. Rogues must gather intelligence across Teldrassil as the Kaldorei’s unseen eyes and blades, and learn to strike before threats take root in the World Tree’s boughs.",
+   "body": "Frahun explains why rogues matter in an unsettled world. Tensions simmer between the night elves and the distant Horde, yet open warfare is not their only danger. Rogues must gather intelligence across Teldrassil as the Kaldorei’s unseen eyes and blades. They must learn to strike before threats take root in the World Tree’s boughs.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who sent encrypted sigil",
     "who is the sigil from"
    ],
-   "answer": "Frahun Shadewhisper sends the Encrypted Sigil. He is the rogue trainer in Shadowglen beneath Aldrassil’s boughs."
+   "answer": "Frahun Shadewhisper sends the Encrypted Sigil. He trains rogues in Shadowglen beneath Aldrassil’s boughs."
   },
   {
    "q": "What does Frahun Shadewhisper want with me?",
@@ -49,7 +49,7 @@
     "frahun quest",
     "why talk to frahun"
    ],
-   "answer": "Frahun wants to judge your readiness, teach you about dangers facing the night elves, including possible discord stirred by the Horde, and give you basic combat instruction."
+   "answer": "Frahun wants to judge your readiness and teach you about dangers facing the night elves, including possible discord stirred by the Horde. He also gives you basic combat instruction."
   },
   {
    "q": "Where should I take the sigil once I read it?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you begin your path by following the sigil’s hidden instructions and making contact with your mentor."
+   "text": "As a rogue, you begin your path by following the sigil’s hidden instructions and meeting your mentor."
   },
   {
    "target": "race:NightElf",
@@ -93,5 +93,5 @@
   "Encrypted Sigil",
   "Encrypted Sigil (Classic)"
  ],
- "style": 1
+ "style": 2
 }

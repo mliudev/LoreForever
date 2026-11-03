@@ -17,16 +17,16 @@
   "wiki": "Selling Fish",
   "chain": []
  },
- "summary": "Dockmaster Baren pays travelers to bring in spotted sunfish from Lake Everstill. The fish are a Lakeshire staple, but murlocs along the shore make them dangerous to gather.",
+ "summary": "Dockmaster Baren needs spotted sunfish from Lake Everstill. The fish feed Lakeshire, but murlocs along the shore make them dangerous to gather.",
  "sections": [
   {
    "title": "A Staple of Lake Everstill",
-   "body": "Spotted sunfish are a delicate catch prized across the lands around Lake Everstill. Townspeople and passing merchants keep demand high, yet Lakeshire's supplies often run thin despite the fish below the surface. Local threats stretch the town's strength, so even trade in basic goods depends on travelers.",
+   "body": "Spotted sunfish are prized around Lake Everstill, and townspeople and passing merchants keep demand high. Yet Lakeshire's supplies often run thin, though the fish swim below the surface. Local threats stretch the town's strength, so even basic trade depends on travelers.",
    "spoiler": 0
   },
   {
    "title": "Trouble on the Shallows",
-   "body": "Anglers nearby could usually meet Dockmaster Baren's orders with ease. Now aggressive murloc tribes haunt the shallows and banks, keeping ordinary townsfolk from the water. You can fish while watching for danger, or take sunfish from the foraging murlocs that trouble the shore.",
+   "body": "Anglers nearby could once fill Dockmaster Baren's orders with ease. Now aggressive murloc tribes haunt the shallows and banks, keeping ordinary townsfolk from the water. You can fish while watching for danger, or take sunfish from the foraging murlocs that trouble the shore.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the dockmaster",
     "dockmaster baren"
    ],
-   "answer": "Dockmaster Baren oversees the docks and boat traffic on Lake Everstill in Lakeshire. He manages the town's water trade and depends on capable travelers to bring in fresh fish and deal with threats around the lake."
+   "answer": "Dockmaster Baren oversees the docks and boat traffic on Lake Everstill in Lakeshire. He manages the town's water trade and relies on capable travelers to bring in fresh fish and face threats around the lake."
   },
   {
    "q": "Why are spotted sunfish in such high demand?",
@@ -47,7 +47,7 @@
     "spotted sunfish lore",
     "why does lakeshire want fish"
    ],
-   "answer": "Spotted sunfish are famed across the lands around Lake Everstill, making them a Lakeshire staple and an important trade good. The town's stocks run low because ordinary anglers cannot fish safely while hostile creatures trouble the lake."
+   "answer": "Spotted sunfish are famed around Lake Everstill, making them a Lakeshire staple and an important trade good. The town's stocks run low because ordinary anglers cannot fish safely while hostile creatures trouble the lake."
   },
   {
    "q": "How do murlocs end up with the sunfish?",
@@ -74,7 +74,7 @@
     "baren other quest",
     "dockmaster quests"
    ],
-   "answer": "Dockmaster Baren offers help with the murloc poachers and the sunfish at the same time. Since murlocs prowl the lake and take its fish, dealing with them can also recover the sunfish they have gathered."
+   "answer": "Dockmaster Baren offers help against the murloc poachers while seeking sunfish. Since murlocs prowl the lake and take its fish, dealing with them can also recover the catch they have gathered."
   },
   {
    "q": "Is fishing required to help Dockmaster Baren?",
@@ -83,13 +83,13 @@
     "can i do this without fishing pole",
     "fishing required"
    ],
-   "answer": "You need no fishing gear or skill to help Dockmaster Baren. You can angle for sunfish, or, as Baren openly suggests, take the fish by force from the murloc tribes that hunt the lake."
+   "answer": "You need no fishing gear or skill to help Dockmaster Baren. You can angle for sunfish, or take the fish by force from the murloc tribes that hunt the lake, as Baren openly suggests."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you can look to Lakeshire's waters for spotted sunfish, a freshwater delicacy prized in the town."
+   "text": "As a cook, you can look to Lakeshire's waters for spotted sunfish, a freshwater delicacy prized in town."
   },
   {
    "target": "faction:Alliance",
@@ -115,5 +115,5 @@
  "attribution": [
   "Selling Fish"
  ],
- "style": 1
+ "style": 2
 }

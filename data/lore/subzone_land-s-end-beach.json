@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Land's End Beach"
  },
- "summary": "Land's End Beach is a desolate stretch of coastline at the far southern tip of Tanaris, effectively marking the southern edge of Kalimdor. Shielded by towering mountain ridges and vast ocean waters, it remains one of the most secluded and inaccessible shores on the continent.",
+ "summary": "At Kalimdor’s southern edge, Land's End Beach lies quiet beneath the sun. Tanaris’s southern mountains and the vast South Seas cut this coast off from the desert.",
  "sections": [
   {
    "title": "The Edge of the World",
-   "body": "Tucked away behind the southern mountain ranges of Tanaris and the sealed titan gateway to Uldum, Land's End Beach represents the absolute southern edge of Kalimdor's mainland. Cut off from overland routes across the desert dunes, reaching this windswept coast requires swimming along the dangerous, fatigue-inducing open waters of the South Seas. The beach is a barren frontier of crashing surf, shifting sand, and quiet isolation, largely untamed by the cartels or desert explorers who dwell farther north around Gadgetzan.",
+   "body": "Beyond Tanaris’s southern mountains, Land's End Beach meets the far southern edge of Kalimdor’s mainland. The sealed titan gateway to Uldum stands beyond the ranges. No desert route reaches this coast, so travelers must swim through the dangerous open waters of the South Seas.\n\nSurf breaks on shifting sand along the barren shore. The cartels and desert explorers who live farther north around Gadgetzan rarely come here.",
    "spoiler": 0
   },
   {
    "title": "Offshore Mysteries",
-   "body": "Beyond the breakers of the beach lie lonely, unnamed islets separated from the mainland by vast expanses of exhausting deep water. Navigating to these distant specks of rock is treacherous enough to push even seasoned swimmers to their physical limits. Few mortals have any reason to seek out the lonely waters at Kalimdor's end, leaving the beach and its surrounding shoals undisturbed beneath the blazing southern sun.",
+   "body": "Unnamed islets lie beyond the beach’s breakers, with broad stretches of deep water between them and the mainland. Reaching these rocks can exhaust even seasoned swimmers. Few mortals have reason to seek out the lonely waters at Kalimdor’s end, so the beach and nearby shoals remain undisturbed beneath the southern sun.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "lands end beach location",
     "how to find lands end beach"
    ],
-   "answer": "Land's End Beach is located along the southernmost coast of Tanaris, directly south of the mountains that seal off the ancient titan gates of Uldum at the far southern tip of Kalimdor."
+   "answer": "Land's End Beach follows Tanaris’s southernmost coast, south of the mountains that seal off the ancient titan gates of Uldum, at Kalimdor’s far southern tip."
   },
   {
    "q": "How do you reach Land's End Beach?",
@@ -37,7 +37,7 @@
     "get to lands end tanaris",
     "reach lands end"
    ],
-   "answer": "Because massive mountain ranges block overland access from the desert interior, travelers typically must swim along the southern coastline from eastern Tanaris or navigate around the perilous open waters, being careful not to succumb to fatigue in the deep sea."
+   "answer": "The southern mountain ranges block overland travel from the desert interior. Travelers must swim along the southern coast from eastern Tanaris or cross the perilous open waters, where deep-sea fatigue threatens them."
   },
   {
    "q": "What is on the islands off the coast of the beach?",
@@ -46,7 +46,7 @@
     "offshore islands tanaris",
     "islands near lands end"
    ],
-   "answer": "Remote, unnamed islands sit far off the shoreline across a wide channel of deep, fatigue-inducing ocean. They are desolate rocky spits that very few travelers have ever reached or explored."
+   "answer": "Unnamed, remote islands lie far off the shore across a broad channel of deep ocean. These desolate rocky spits have seen few travelers, and few have explored them."
   },
   {
    "q": "Does anyone live on Land's End Beach?",
@@ -55,7 +55,7 @@
     "lands end beach inhabitants",
     "is anyone at lands end"
    ],
-   "answer": "The shoreline is uninhabited by any major settlements. Cut off from trade and civilization, it remains a barren natural shore buffeted by the ocean winds."
+   "answer": "No major settlements line the shore. Cut off from trade and civilization, Land's End Beach remains a barren natural shore exposed to ocean winds."
   }
  ],
  "angles": [],
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Land's End Beach"
- ]
+ ],
+ "style": 2
 }

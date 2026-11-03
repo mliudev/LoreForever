@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Chillwind Point"
  },
- "summary": "Cold drafts sweep through Chillwind Point, a rocky rise above the mountain pass. The ancient troll ruin sits where Hillsbrad Foothills, the Alterac Mountains, and the Western Plaguelands meet, and Bath'rah the Windwatcher lives among its stones.",
+ "summary": "At Chillwind Point, cold drafts sweep a rocky rise above the mountain pass. Ancient troll ruins stand where Hillsbrad Foothills, the Alterac Mountains, and the Western Plaguelands meet, and Bath'rah the Windwatcher lives among the stones.",
  "sections": [
   {
    "title": "A Bitter Crossroads",
-   "body": "Chillwind Point overlooks the ravine from Hillsbrad's edge. The pass leads into the Western Plaguelands, while the Alterac Mountains rise nearby. Long before Lordaeron claimed these routes, ancient trolls built stone structures on the heights. Their weather-beaten remains still face the elements. Cold winds now blow south through the ravine, carrying the chill of the fallen north into the foothills below.",
+   "body": "Chillwind Point looks down over a ravine at Hillsbrad's edge. The pass leads into the Western Plaguelands, with the Alterac Mountains rising nearby. Long before Lordaeron claimed these routes, ancient trolls raised stone structures on the heights. Their weather-beaten remains still face the elements. Cold winds now blow south through the ravine, carrying the north's chill into the foothills below.",
    "spoiler": 0
   },
   {
    "title": "The Windwatcher",
-   "body": "Bath'rah the Windwatcher lives among the old stones at Chillwind Point. The jungle troll hermit communes with the violent gales that course through the gap. Despite the bleak exposure and the nearby Scourge-ravaged lands, his camp is not entirely deserted. Travelers and shamans heading north often seek him out to learn the secrets of the mountain currents.",
+   "body": "Bath'rah the Windwatcher lives among the old stones at Chillwind Point. The jungle troll hermit communes with the violent gales coursing through the gap. Though the heights are bleak and exposed, and Scourge-ravaged lands lie nearby, his camp is not entirely deserted. Travelers and shamans heading north often seek him out to learn the secrets of the mountain currents.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is chillwind point",
     "what is this place"
    ],
-   "answer": "Chillwind Point is an ancient troll ruin on a high rise overlooking the pass between Hillsbrad, Alterac, and the Western Plaguelands. Its name comes from the biting drafts that whistle through the nearby gorge."
+   "answer": "Chillwind Point is an ancient troll ruin on a high rise overlooking the pass between Hillsbrad, Alterac, and the Western Plaguelands. Biting drafts whistle through the nearby gorge and give the place its name."
   },
   {
    "q": "Is Chillwind Point the same as Chillwind Camp?",
@@ -46,7 +46,7 @@
     "who is the troll",
     "bathrah"
    ],
-   "answer": "Bath'rah the Windwatcher lives alone among the ruins. The friendly jungle troll studies the winds and aids elemental seekers and shamans who brave the pass."
+   "answer": "Bath'rah the Windwatcher lives among the ruins at Chillwind Point. The friendly jungle troll studies the winds and aids elemental seekers and shamans who brave the pass."
   },
   {
    "q": "Why is it so cold here?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can study the pass's wild, funneling gusts with the hermit Bath'rah the Windwatcher, who draws practitioners seeking elemental focus."
+   "text": "As a shaman, you can study the pass's wild, funneling gusts with Bath'rah the Windwatcher. The hermit draws practitioners seeking elemental focus."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you find these ancient ruins just south of the border post at Chillwind Camp, where the contested foothills give way to the Plaguelands."
+   "text": "As an Alliance traveler, you find these ancient ruins just south of the border post at Chillwind Camp. Here, the contested foothills give way to the Plaguelands."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Chillwind Point"
  ],
- "style": 1
+ "style": 2
 }

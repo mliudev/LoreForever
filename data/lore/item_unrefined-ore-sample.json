@@ -10,16 +10,16 @@
    "quest:1153"
   ]
  },
- "summary": "In Thousand Needles, an unusual ore draws the Horde's attention. Tatternack Steelforge seeks a sample to judge whether the raw mineral can strengthen the weapons of Warchief Thrall's armies.",
+ "summary": "In Thousand Needles, the Horde seeks a sample of unusual ore. Tatternack Steelforge wants to learn whether it can strengthen Warchief Thrall's armies.",
  "sections": [
   {
    "title": "Mined by the Vermin",
-   "body": "South of the Barrens, Gravelsnout kobolds dig through the stone beneath the canyon walls of Thousand Needles. Travelers returning north found a curious mineral among slain vermin, unlike the usual veins of Kalimdor. They refused to surrender their prize to the Horde. The kobolds who dig and survey the depths carry raw chunks of the ore from their excavations.",
+   "body": "South of the Barrens, Gravelsnout kobolds dig beneath the canyon walls of Thousand Needles. Travelers returning north found a curious mineral among slain vermin. It was unlike the usual veins of Kalimdor. They refused to give their find to the Horde. The kobolds who dig and survey the depths carry raw chunks from their excavations.",
    "spoiler": 0
   },
   {
    "title": "Forging for the Warchief",
-   "body": "At Camp Taurajo, weaponsmith Tatternack Steelforge works under orders from Warchief Thrall to improve the Horde's arms. Travelers who kept knowledge of the deposit angered him; he saw their refusal as an insult to the Horde's war effort. With a raw sample, Tatternack plans to test the mineral's strength and temper, then smelt it and forge a prototype blade for Orgrimmar's approval.",
+   "body": "At Camp Taurajo, weaponsmith Tatternack Steelforge works under Warchief Thrall's orders to improve the Horde's arms. Travelers who knew of the deposit angered him by refusing to share it. He saw their refusal as an insult to the Horde's war effort. With a raw sample, Tatternack plans to test the ore's strength and temper. Then he will smelt it and forge a prototype blade for Orgrimmar's approval.",
    "spoiler": 0
   }
  ],
@@ -93,5 +93,5 @@
   "Unrefined Ore Sample",
   "A New Ore Sample"
  ],
- "style": 1
+ "style": 2
 }

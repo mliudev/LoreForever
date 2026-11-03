@@ -27,16 +27,16 @@
    "The Battle Plans"
   ]
  },
- "summary": "At Camp Mojache, Hadoken Swiftstrider has word of insect-like creatures, the Zukk'ash, south of the gnolls. If they are whipping the gnolls into a frenzy, they are as great a threat as the gnolls, perhaps greater. You are sent into their home, the Writhing Deep, to thin their numbers and bring back twenty carapaces.",
+ "summary": "At Camp Mojache, Hadoken Swiftstrider suspects the Zukk'ash south of the gnolls are driving them into a frenzy. He sends you to the Writhing Deep to thin their numbers and return with twenty carapaces.",
  "sections": [
   {
    "title": "The Foe South of the Gnolls",
-   "body": "Hadoken Swiftstrider believes that the enemy to the south of the gnolls is a race of insect-like creatures. Whether they can think hardly matters to Hadoken. If they are driving the gnolls into a frenzy against Camp Mojache, they are as big a danger as the gnolls themselves, or bigger. You are to go deep into where they dwell, known as the Writhing Deep, and thin their numbers. The carapaces of twenty Zukk'ash will be your proof, and Hadoken wants to hear what you find.",
+   "body": "Hadoken Swiftstrider believes insect-like creatures live south of the gnolls. Whether they can think matters little to him. If they drive the gnolls into a frenzy against Camp Mojache, they threaten the camp as much as the gnolls do. So you enter their home, the Writhing Deep, to thin their numbers. Bring back twenty Zukk'ash carapaces as proof, and tell Hadoken what you find.",
    "spoiler": 0
   },
   {
    "title": "Hadoken's Verdict",
-   "body": "When you return, Hadoken is pleased. Nothing short of a full-scale invasion will end the Zukk'ash presence, but you have bought the camp time to devise a proper strategy. The carapaces will be analyzed, since the camp must learn everything about these creatures. This has unfortunately turned into a far bigger problem than anyone had anticipated.",
+   "body": "Hadoken Swiftstrider is pleased when you return. Only a full-scale invasion can end the Zukk'ash presence, but your work has bought Camp Mojache time to devise a proper strategy. The camp will study the carapaces and learn all it can about these creatures. The danger has grown far beyond what anyone expected.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "hadoken swiftstrider",
     "who starts zukkash infestation"
    ],
-   "answer": "Hadoken Swiftstrider, at Camp Mojache in Feralas."
+   "answer": "Hadoken Swiftstrider sends you from Camp Mojache in Feralas."
   },
   {
    "q": "What are the Zukk'ash?",
@@ -57,7 +57,7 @@
     "zukkash insects",
     "writhing deep bugs"
    ],
-   "answer": "Hadoken believes they are a race of insect-like creatures south of the gnolls. Whether they can think does not matter to Hadoken, only that they may be driving the gnolls into a frenzy."
+   "answer": "Hadoken believes the Zukk'ash are insect-like creatures south of the gnolls. Whether they can think matters little to him; he fears they may be driving the gnolls into a frenzy."
   },
   {
    "q": "Where is the Writhing Deep?",
@@ -66,7 +66,7 @@
     "where is writhing deep",
     "where are the insects"
    ],
-   "answer": "It is where the Zukk'ash insects dwell, south of the gnolls."
+   "answer": "The Writhing Deep, home to the Zukk'ash, lies south of the gnolls."
   },
   {
    "q": "Why does Hadoken want Zukk'ash carapaces?",
@@ -75,7 +75,7 @@
     "zukkash carapace use",
     "purpose of carapaces"
    ],
-   "answer": "Hadoken wants the carapaces as evidence of your handiwork against the Zukk'ash."
+   "answer": "Hadoken wants the carapaces as proof of your work against the Zukk'ash."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Zukk'ash Infestation (Classic)"
- ]
+ ],
+ "style": 2
 }

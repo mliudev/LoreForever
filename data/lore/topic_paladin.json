@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Paladin"
  },
- "summary": "Paladins are holy warriors who blend martial prowess with the power of the Holy Light. Clad in heavy plate, they protect the innocent, heal the wounded and strike down wicked foes. Humans and dwarves carry the Silver Hand's legacy for the Alliance, and among the Horde, Forsaken who served the Light in life still answer its call, though it burns them.",
+ "summary": "Paladins stand between the innocent and those who would harm them. They wear heavy plate, mend the wounded and strike down the wicked with arms and the Holy Light. Humans and dwarves bear the Silver Hand's legacy in the Alliance. In the Horde, Forsaken who served the Light in life still answer its call, though it burns them.",
  "sections": [
   {
    "title": "Origins in Lordaeron",
-   "body": "The paladins were originally established during the Second War by Archbishop Alonsus Faol. Having witnessed the devastation wrought upon the pious Clerics of Northshire during the First War, Faol recognized that healers alone could not survive the brutality of orcish warfare. He gathered virtuous knights of Lordaeron and trained surviving clerics in the ways of martial combat and divine magic. Baptized as the Knights of the Silver Hand and led by Uther the Lightbringer, these champions provided both physical defense and spiritual renewal to the kingdoms of humanity.",
+   "body": "Archbishop Alonsus Faol formed the paladins during the Second War. After the First War left the pious Clerics of Northshire devastated, he saw that healers alone could not stand against orcish warfare. He gathered virtuous knights of Lordaeron and taught surviving clerics to fight with weapons and divine magic. Under Uther the Lightbringer, the Knights of the Silver Hand defended bodies and renewed spirits across humanity's kingdoms.",
    "spoiler": 0
   },
   {
    "title": "Champions of the Holy Light",
-   "body": "Where priests act as the voice of the Holy Light\u2014preaching faith and tending the spirits of the common folk\u2014paladins serve as its martial arm. Their profound conviction grants them miraculous powers: they project emboldening auras, seal sanctified blessings upon their allies, and mend fatal injuries. In combat against unholy horrors, the Light burns through their strikes, allowing paladins to incinerate undead and demonic entities with righteous fury.",
+   "body": "Priests speak for the Holy Light, preaching faith and tending to common folk's spirits. Paladins take up arms in its name. Their conviction lets them strengthen allies with auras, seal blessings upon them and mend fatal wounds. Against unholy horrors, the Light courses through their blows and burns undead and demonic foes with righteous fury.",
    "spoiler": 0
   },
   {
    "title": "Heirs of the Silver Hand",
-   "body": "The fall of Lordaeron during the Third War scattered the original order, yet the ideals of the Silver Hand endure. In the south, the humans of Stormwind and the stalwart dwarves of Ironforge have taken up the mantle. Training in sanctuaries like the Cathedral of Light and the Hall of Mysteries, these paladins pledge their swords and shields to uphold justice and defend the Alliance from the gathering shadows.",
+   "body": "The fall of Lordaeron in the Third War scattered the original order, but its ideals endure. Humans in the south and dwarves of Ironforge have taken up its mantle. In sanctuaries such as the Cathedral of Light and the Hall of Mysteries, they train and pledge sword and shield to justice. They defend the Alliance against gathering shadows.",
    "spoiler": 0
   },
   {
    "title": "Paladins of the Forsaken",
-   "body": "Not every knight of Lordaeron stayed in the grave. Some Forsaken who served the Light in life still hold to their vows, and the Light still answers them, though it sears their dead flesh with every prayer. Aramis Hammerhand trains these risen paladins in the chapel at Deathknell, Shari Stilwell continues their instruction in Brill, and an order of Forsaken paladins, Tyr's Watch, holds Bandarion Keep in western Tirisfal. Theirs is a lonely road: they wield the very power that burned their people, and Sylvanas Windrunner tolerates their order while watching it closely.",
+   "body": "Some knights of Lordaeron returned from the grave as Forsaken. Those who served the Light in life still keep their vows, and it still answers them, though each prayer sears their dead flesh. Aramis Hammerhand trains the risen paladins in the chapel at Deathknell, while Shari Stilwell continues their instruction in Brill.\n\nTyr's Watch, an order of Forsaken paladins, holds Bandarion Keep in western Tirisfal. Their path is lonely. They wield the power that burned their people, and Sylvanas Windrunner tolerates the order while watching it closely.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "difference between priest and paladin",
     "how are paladins different from priests"
    ],
-   "answer": "Priests serve as the voice of the Light, ministering to the faithful and offering pastoral guidance through prayer and ritual. Paladins serve as the hand and hammer of the Light, donning heavy plate armor and taking up weapons to directly enforce divine justice and defend the weak on the battlefield."
+   "answer": "Priests speak for the Light and guide the faithful through prayer and ritual. Paladins wear heavy plate and wield weapons in its name, defending the weak and enforcing divine justice in battle."
   },
   {
    "q": "Who created the first paladins?",
@@ -47,7 +47,7 @@
     "founder of paladins",
     "origin of the silver hand"
    ],
-   "answer": "Archbishop Alonsus Faol created the order during the Second War. After seeing the Clerics of Northshire slaughtered during the First War, he recruited devout knights and trained surviving clerics to unite martial discipline with holy magic under the banner of the Knights of the Silver Hand."
+   "answer": "Archbishop Alonsus Faol created the order during the Second War. After the Clerics of Northshire were slain in the First War, he gathered devout knights and trained surviving clerics to join martial discipline with holy magic as the Knights of the Silver Hand."
   },
   {
    "q": "Which races can be paladins?",
@@ -59,7 +59,7 @@
     "undead paladin",
     "forsaken paladin"
    ],
-   "answer": "Humans and dwarves train as paladins in the Alliance, and the Forsaken do in the Horde. The order began among humans, the dwarves of Ironforge embraced the Holy Light and joined it, and Forsaken who were knights and clerics in life still wield the Light after death, at the price of constant pain."
+   "answer": "Humans and dwarves serve as paladins in the Alliance, while Forsaken do so in the Horde. The order began among humans, Ironforge's dwarves embraced the Holy Light, and some Forsaken who were knights or clerics in life still wield it after death, though it brings constant pain."
   },
   {
    "q": "Why are paladins effective against the undead?",
@@ -68,7 +68,7 @@
     "why does holy magic hurt undead",
     "paladin scourge counter"
    ],
-   "answer": "The Holy Light is anathema to necrotic corruption and demonic energy. When paladins channel divine power, it purges blight and incinerates unholy creatures, making them the foremost champions against the Scourge and other foul beings."
+   "answer": "The Holy Light opposes necrotic corruption and demonic energy. Paladins channel it to purge blight and burn unholy creatures, making them foremost champions against the Scourge and other foul beings."
   },
   {
    "q": "What happened to the original Knights of the Silver Hand?",
@@ -77,7 +77,7 @@
     "is silver hand gone",
     "fall of the silver hand"
    ],
-   "answer": "The order suffered catastrophic losses during the Third War when the plague ravished Lordaeron. The brotherhood fragmented amid internal betrayal and political strife, though surviving members and new initiates in Stormwind and Ironforge continue to carry the title and ideals forward. Some of its fallen knights rose again as Forsaken, and a few still keep their oaths."
+   "answer": "The plague devastated Lordaeron during the Third War, and the original order suffered grievous losses. Betrayal and political strife fractured the brotherhood, but surviving members and new initiates in Stormwind and Ironforge carry its title and ideals forward. Some fallen knights rose again as Forsaken and still keep their oaths."
   },
   {
    "q": "Can members of the Horde become paladins?",
@@ -88,7 +88,7 @@
     "can forsaken be paladins",
     "horde paladin races"
    ],
-   "answer": "Only the Forsaken. Many were knights and clerics of Lordaeron before the plague, and some still keep their vows: the Light answers them, though it burns their dead flesh. Orcs, tauren and trolls follow shamans, druids and witch doctors rather than the knightly path of the Holy Light."
+   "answer": "Only Forsaken become paladins within the Horde. Many were knights or clerics of Lordaeron before the plague, and some still keep their vows; the Light answers them, though it burns their dead flesh. Orcs, tauren and trolls follow shamans, druids and witch doctors rather than the knightly way of the Holy Light."
   },
   {
    "q": "Why does the Light hurt Forsaken paladins?",
@@ -98,37 +98,37 @@
     "forsaken paladin pain",
     "can undead use the light"
    ],
-   "answer": "The Holy Light opposes the dark energy that sustains the undead. A Forsaken paladin's faith and will let them channel it, but it burns through dead flesh and reawakens deadened nerves, so every blessing and every heal comes with searing pain. Their trainers teach them to endure it as proof that the Light still answers."
+   "answer": "The Holy Light opposes the dark energy that sustains the undead. A Forsaken paladin's faith and will let them channel it, but the Light burns dead flesh and reawakens deadened nerves. Each blessing and heal brings searing pain, which their trainers teach them to endure as proof that the Light still answers."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Every novice paladin walks in the footsteps of Uther the Lightbringer and Alonsus Faol, binding martial readiness to an oath of selfless duty."
+   "text": "As a novice paladin, you follow Uther the Lightbringer and Alonsus Faol, joining readiness for battle to an oath of selfless duty."
   },
   {
    "target": "class:Priest",
-   "text": "Priests share a deep spiritual kinship with paladins, though they shepherd the flock with sermons and faith while paladins protect it with steel."
+   "text": "As a priest, you share a deep spiritual bond with paladins. You guide the faithful through sermons and faith, while they shield them with steel."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarves from Ironforge recently embraced the tenets of the Silver Hand, finding that the discipline of the Light aligns naturally with their unyielding nature."
+   "text": "As a dwarf of Ironforge, you have embraced the tenets of the Silver Hand, whose discipline of the Light fits your unyielding nature."
   },
   {
    "target": "race:Human",
-   "text": "For humans, paladins represent the enduring soul of the Alliance, carrying on the sacred crusade forged during the horrors of the Second War."
+   "text": "As a human, you carry the enduring soul of the Alliance as a paladin, keeping alive the sacred crusade forged in the horrors of the Second War."
   },
   {
    "target": "faction:Alliance",
-   "text": "Paladins stand as the moral anchor of the Alliance, rallying troops with sacred auras and inspiring hope across the battlefield."
+   "text": "As an Alliance paladin, you rally troops with sacred auras and kindle hope across the battlefield."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken paladins are the rarest of the risen: knights who kept their vows past death and still wield the Light, paying for every prayer in pain."
+   "text": "As a Forsaken, you may be one of the rare risen paladins, a knight who kept your vows beyond death and still wields the Light, paying for every prayer in pain."
   },
   {
    "target": "faction:Horde",
-   "text": "Within the Horde, only the Forsaken raise paladins, and even among their own people the order is met with suspicion."
+   "text": "As a member of the Horde, you know that only the Forsaken raise paladins, and even among your own people the order meets suspicion."
   }
  ],
  "keywords": [
@@ -161,5 +161,6 @@
  ],
  "attribution": [
   "Paladin"
- ]
+ ],
+ "style": 2
 }

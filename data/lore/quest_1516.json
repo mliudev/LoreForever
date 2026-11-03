@@ -21,16 +21,16 @@
    "Call of Earth (Durotar 3)"
   ]
  },
- "summary": "In the Valley of Trials, Canaga Earthcaller sets novice Horde shamans a test of endurance and patience. They hunt felstalkers to prepare a ritual sapta.",
+ "summary": "In the Valley of Trials, Canaga Earthcaller tests novice Horde shamans through endurance and patience. Their hunt for felstalkers prepares a ritual sapta.",
  "sections": [
   {
    "title": "The First Bond",
-   "body": "A shaman begins by learning to bond with each element. For orcs and trolls, that path starts with earth, the bedrock of life, endurance, and patience. In the Valley of Trials, Canaga Earthcaller guides new shamans and teaches them that earth demands respect and steadfastness before it grants protection.",
+   "body": "A shaman first learns to bond with each element. For orcs and trolls, that path begins with earth, the bedrock of life, endurance, and patience. In the Valley of Trials, Canaga Earthcaller guides new shamans. He teaches them that earth demands respect and steadfastness before it grants protection.",
    "spoiler": 0
   },
   {
    "title": "A Cleansing Hunt",
-   "body": "The Burning Blade cult festers in ravines north of the Valley of Trials. Its dark magic summons felstalkers, corrupt hounds from beyond this plane. Hunting them tests whether a shaman can defend the land from unnatural decay. Canaga uses their hooves to brew an Earth Sapta, a sacred draft that opens mortal eyes to the elemental plane.",
+   "body": "North of the Valley of Trials, the Burning Blade cult works dark magic in the ravines. Its spells summon felstalkers, corrupt hounds from beyond this plane. Hunting them tests whether a shaman can defend the land from unnatural decay. Canaga uses their hooves to brew an Earth Sapta, a sacred draft that opens mortal eyes to the elemental plane.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what does call of earth give",
     "purpose of quest"
    ],
-   "answer": "The trial begins a shaman's study of elemental mysteries and tests patience and spiritual discipline before the earth spirits, preparing them to commune with those spirits and earn an Earth Totem."
+   "answer": "The trial begins a shaman’s study of elemental mysteries and tests patience and spiritual discipline before the earth spirits. It prepares them to commune with those spirits and earn an Earth Totem."
   },
   {
    "q": "Who is Canaga Earthcaller?",
@@ -58,7 +58,7 @@
     "why felstalker hooves",
     "hooves purpose"
    ],
-   "answer": "Canaga uses felstalker hooves to prepare an Earth Sapta, a potion that lets a mortal shaman perceive and speak with elemental spirits."
+   "answer": "Canaga uses felstalker hooves to prepare an Earth Sapta. The potion lets a mortal shaman perceive and speak with elemental spirits."
   },
   {
    "q": "Where are the felstalkers located?",
@@ -66,7 +66,7 @@
     "felstalker location",
     "where to find felstalkers"
    ],
-   "answer": "Felstalkers haunt the cave and surrounding bluffs north of the training grounds in the Valley of Trials, within the Burning Blade Coven."
+   "answer": "Felstalkers haunt the cave and surrounding bluffs north of the training grounds in the Valley of Trials. They are within the Burning Blade Coven."
   },
   {
    "q": "Can other Horde races undertake this version of the trial?",
@@ -74,7 +74,7 @@
     "can tauren do this",
     "is this orc only"
    ],
-   "answer": "Yes. The trial is mainly for orc and troll shamans coming of age in Durotar, but tauren shamans traveling from Red Cloud Mesa can also undertake it in the Valley of Trials."
+   "answer": "Yes. The trial is mainly for orc and troll shamans coming of age in Durotar. Tauren shamans traveling from Red Cloud Mesa can also undertake it in the Valley of Trials."
   },
   {
    "q": "What virtues does the earth represent to a shaman?",
@@ -82,21 +82,21 @@
     "virtues of earth",
     "shaman earth meaning"
    ],
-   "answer": "In shamanic tradition, earth is the foundation of life. It embodies great strength, stamina, and eternal patience, yet can be stubbornly fickle when it is not respected."
+   "answer": "In shamanic tradition, earth is the foundation of life. It embodies great strength, stamina, and eternal patience, yet can be stubbornly fickle when not respected."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you begin formal communion with the elements here, laying the foundation for your Earth Totem."
+   "text": "As a shaman, you begin formal communion with the elements here. This lays the foundation for your Earth Totem."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc under Thrall's Horde, returning to the shamanic path honors ancient clan traditions from before the demonic corruption."
+   "text": "As an orc under Thrall’s Horde, you honor ancient clan traditions from before the demonic corruption by returning to the shamanic path."
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you follow Darkspear witch doctors and spiritualists in embracing earth spirits to support your people's new home alongside the orcs."
+   "text": "As a troll, you follow Darkspear witch doctors and spiritualists in embracing earth spirits. They support your people’s new home alongside the orcs."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Call of Earth (Durotar)"
  ],
- "style": 1
+ "style": 2
 }

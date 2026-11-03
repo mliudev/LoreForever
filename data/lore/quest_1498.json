@@ -17,16 +17,16 @@
   "wiki": "Path of Defense",
   "chain": []
  },
- "summary": "At the Far Watch Post, Uzzek prepares young Horde warriors to defend those who cannot defend themselves. He sends them to Thunder Ridge to prove their endurance against its electric beasts.",
+ "summary": "At the Far Watch Post, Uzzek teaches young Horde warriors to defend those who cannot defend themselves. He sends them to Thunder Ridge to test their endurance against its electric beasts.",
  "sections": [
   {
    "title": "The Shield of the Horde",
-   "body": "At the Far Watch Post, Uzzek teaches young warriors that defense is part of the Horde's duty. The post lies on the border between the Barrens and Durotar. Uzzek says a warrior's highest calling is to stand between danger and those unable to defend themselves, taking the blows so the Horde can endure.",
+   "body": "At the Far Watch Post, Uzzek teaches young warriors that the Horde has a duty to defend. The post lies on the border between the Barrens and Durotar. He says a warrior’s highest calling is to stand between danger and those unable to defend themselves. They take the blows so the Horde can endure.",
    "spoiler": 0
   },
   {
    "title": "Trial of Thunder",
-   "body": "Uzzek sends the novices to Thunder Ridge, north across the Southfury River in Durotar, to test their stamina and resolve. Thunder lizards and lightning hides roam the canyon. The initiates must survive the beasts' jolts and harvest their singed scales to show they have the fortitude to hold the front line.",
+   "body": "Uzzek sends the novices to Thunder Ridge, north across the Southfury River in Durotar, to test their stamina and resolve. Thunder lizards and lightning hides roam the canyon. The initiates must endure the beasts’ jolts and gather their singed scales. That trial shows they have the fortitude to hold the front line.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts path of defense",
     "uzzek location"
    ],
-   "answer": "Veteran Uzzek gives the trial at the Far Watch Post, which guards the border between Durotar and the eastern Barrens."
+   "answer": "Veteran Uzzek gives the trial at the Far Watch Post, on the border between Durotar and the eastern Barrens."
   },
   {
    "q": "Where is Thunder Ridge located?",
@@ -47,7 +47,7 @@
     "where are thunder lizards",
     "singed scales location"
    ],
-   "answer": "Thunder Ridge lies in western Durotar, north of the main road, across the bridge over the Southfury River. Aggressive thunder lizards and lightning hides roam its ravine."
+   "answer": "Thunder Ridge lies in western Durotar, north of the main road and across the bridge over the Southfury River. Aggressive thunder lizards and lightning hides roam its ravine."
   },
   {
    "q": "Why does Uzzek demand singed scales specifically?",
@@ -64,7 +64,7 @@
     "lore behind path of defense",
     "defensive stance lore"
    ],
-   "answer": "Uzzek teaches that being a warrior is not merely about slaughter, but about shielding others. Surviving the beasts' fury helps initiates learn to protect weaker allies."
+   "answer": "Uzzek teaches that a warrior’s duty is not merely to slay, but to shield others. Surviving the beasts’ fury helps initiates learn to protect weaker allies."
   },
   {
    "q": "What comes next after completing Path of Defense?",
@@ -81,17 +81,17 @@
     "is this warrior only",
     "who can do this quest"
    ],
-   "answer": "No. This rite is for warriors, and tests and teaches recruits the basics of guard duty and defensive combat."
+   "answer": "No. This rite is for warriors. It tests and teaches recruits the basics of guard duty and defensive combat."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you begin learning defensive discipline: true martial strength lies in shielding your allies from devastation."
+   "text": "As a warrior, you begin learning defensive discipline. True martial strength lies in shielding your allies from devastation."
   },
   {
    "target": "faction:Horde",
-   "text": "At the Far Watch Post, Horde guards protect the road into the Barrens, so their resilience matters to Horde security."
+   "text": "At the Far Watch Post, Horde guards protect the road into the Barrens. Their resilience matters to Horde security."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Path of Defense"
  ],
- "style": 1
+ "style": 2
 }

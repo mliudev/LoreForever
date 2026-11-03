@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Supplies of the Warrior's Terrace",
-   "body": "Mydrannul keeps a supply stall among the Warrior's Terrace military pavilions and training grounds. Darnassus's defenders and travelers can find everyday field gear there, including ammunition for archers and gunners, throwing blades, flint, pouches, and simple rations. His stall helps sentinels and trainees preparing for duty on Teldrassil find the basic sundries they need.",
+   "body": "Mydrannul tends a supply stall among the Warrior's Terrace military pavilions and training grounds. There, Darnassus's defenders and travelers find everyday field gear, from ammunition for archers and gunners to throwing blades, flint, pouches, and simple rations. Sentinels and trainees preparing for duty on Teldrassil can gather the sundries they need.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "mydrannul quest",
     "quests from mydrannul"
    ],
-   "answer": "Yes. Mydrannul sends adventurers to his friend Nessa Shadowsong, a fishing merchant in Rut'theran Village, who needs a parcel carried to Darkshore."
+   "answer": "Yes. Mydrannul sends adventurers to his friend Nessa Shadowsong, a fishing merchant in Rut'theran Village. She needs a parcel carried to Darkshore."
   }
  ],
  "angles": [
@@ -51,7 +51,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler arriving on Teldrassil, you can rely on vendors like Mydrannul in the Warrior's Terrace for basic packs, ammunition, and field rations."
+   "text": "As an Alliance traveler arriving on Teldrassil, you can find basic packs, ammunition, and field rations at Mydrannul's stall in the Warrior's Terrace."
   }
  ],
  "keywords": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Mydrannul"
  ],
- "style": 1
+ "style": 2
 }

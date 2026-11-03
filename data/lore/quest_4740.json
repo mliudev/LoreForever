@@ -17,21 +17,21 @@
   "wiki": "WANTED: Murkdeep! (quest)",
   "chain": []
  },
- "summary": "Auberdine posts an Alliance bounty for Murkdeep, blamed for a Sentinel's death and ships lost off Darkshore. The village council wants the dangerous murloc chieftain dead. Find him south along the misty coast.",
+ "summary": "Auberdine's council wants Murkdeep dead for a Sentinel's death and ships lost off Darkshore. Find the Greymist chieftain south along the coast.",
  "sections": [
   {
    "title": "A Threat on the Mist-Shrouded Shoals",
-   "body": "The Greymist murlocs along Darkshore are usually a nuisance, but Murkdeep has turned against Auberdine. The wanted poster outside the inn names him as the killer of at least one night elf Sentinel. It also suspects him of sabotaging or wrecking two cargo vessels offshore. With ships lost and raids along the coast, the Auberdine Village Council has set a public bounty on the murloc leader.",
+   "body": "Greymist murlocs are usually a nuisance along Darkshore. Murkdeep has turned against Auberdine, and the wanted poster outside the inn names him as the killer of at least one night elf Sentinel. It also suspects him of sabotaging or wrecking two cargo vessels offshore. With ships lost and raids along the coast, the Auberdine Village Council has set a public bounty on their leader.",
    "spoiler": 0
   },
   {
    "title": "The Ambush at the Huts",
-   "body": "Murkdeep lurks off the southern coast, near murloc huts clustered around a bonfire. Trespassers draw an organized defense: Greymist coastrunners and shore-crawlers surge from the surf to protect their settlement. Murkdeep then emerges alongside his vanguard to strike the intruders.",
+   "body": "Murkdeep lurks off the southern coast near murloc huts clustered around a bonfire. Trespassers face an organized defense as Greymist coastrunners and shore-crawlers surge from the surf to protect their settlement. Then Murkdeep emerges with his vanguard to strike the intruders.",
    "spoiler": 0
   },
   {
    "title": "Justice for the Fallen",
-   "body": "Proof of Murkdeep's death meets a grim need for the Sentinels. Sentinel Glynda Nal'Shea handles the bounty payout for the council. With Greymist leadership broken, travelers and ships on the foggy Darkshore coast gain a reprieve from sabotage.",
+   "body": "Proof of Murkdeep's death answers the Sentinels' grim need. Sentinel Glynda Nal'Shea handles the council's bounty payout. With Greymist leadership broken, travelers and ships on Darkshore's foggy coast gain a reprieve from sabotage.",
    "spoiler": 0
   }
  ],
@@ -70,7 +70,7 @@
     "murkdeep spawn",
     "how to summon murkdeep"
    ],
-   "answer": "Murkdeep stays out of sight. Step between the huts near the bonfire, and Greymist murlocs will surge from the ocean in waves. Murkdeep appears with the final wave, after the first defenders fall."
+   "answer": "Murkdeep stays out of sight. Step between the huts near the bonfire, and Greymist murlocs surge from the ocean in waves. Murkdeep appears with the final wave, after the first defenders fall."
   },
   {
    "q": "Who turns in the quest once Murkdeep is dead?",
@@ -98,7 +98,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you know Auberdine is a vital northern trade hub. The cargo ships Murkdeep is suspected of sinking are a costly blow to Alliance logistics in Kalimdor."
+   "text": "As an Alliance member, you know Auberdine is a vital northern trade hub. The cargo ships Murkdeep is suspected of sinking deal a costly blow to Alliance logistics in Kalimdor."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "WANTED: Murkdeep! (quest)"
  ],
- "style": 1
+ "style": 2
 }

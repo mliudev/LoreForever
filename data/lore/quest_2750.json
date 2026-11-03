@@ -24,16 +24,16 @@
    "The Super Egg-O-Matic"
   ]
  },
- "summary": "Curgle Cranklehop speaks of the eggs that cannot be saved, which will never hatch.",
+ "summary": "Curgle Cranklehop takes charge when a hippogryph egg cannot be saved.",
  "sections": [
   {
    "title": "An Egg Beyond Saving",
-   "body": "Some hippogryph eggs cannot be saved, and a bad egg is one that will never hatch. It is Curgle Cranklehop who deals with such eggs.",
+   "body": "Some hippogryph eggs cannot be saved. Curgle Cranklehop handles those that will never hatch.",
    "spoiler": 0
   },
   {
    "title": "What Becomes of It",
-   "body": "Curgle takes the egg so that it is disposed of properly. Not every egg can be saved, Curgle says, and you should not be discouraged but try again with another egg from Feralas.",
+   "body": "Curgle takes the egg away for proper disposal. Not every egg can be saved, Curgle says. You can try again with another egg from Feralas.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "curgle cranklehop egg",
     "who takes bad egg"
    ],
-   "answer": "Curgle Cranklehop."
+   "answer": "Curgle Cranklehop accepts the bad egg."
   },
   {
    "q": "Can the egg be saved?",
@@ -54,7 +54,7 @@
     "will bad egg hatch",
     "save bad egg"
    ],
-   "answer": "No. A bad egg is one that cannot be saved and will never hatch."
+   "answer": "No. A bad egg cannot be saved and will never hatch."
   },
   {
    "q": "What came before this?",
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "A Bad Egg"
- ]
+ ],
+ "style": 2
 }

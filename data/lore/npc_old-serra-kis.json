@@ -8,16 +8,16 @@
   "wiki": "Old Serra'kis",
   "refs": 5
  },
- "summary": "Beneath the Moonshrine Sanctum, Old Serra'kis lurks in the flooded depths of Blackfathom Deeps. The enormous threshadon is hidden in a submerged cave, and deadly to anyone who seeks him there.",
+ "summary": "In the flooded depths beneath the Moonshrine Sanctum, Old Serra'kis waits in Blackfathom Deeps. The enormous threshadon hides in a submerged cave, deadly to anyone who seeks him there.",
  "sections": [
   {
    "title": "Unconquered in the Depths",
-   "body": "The Twilight's Hammer has made its home in the sunken Moonshrine Ruins. Beneath the Moonshrine Sanctum, dark waters conceal older, wilder things. Old Serra'kis, the largest threshadon in the sunken temple, lurks in the Forgotten Pool, a flooded cave beneath the ruins where few would think to look.",
+   "body": "The Twilight's Hammer has made its home in the sunken Moonshrine Ruins. Beneath the Moonshrine Sanctum, dark waters hide older and wilder things. Old Serra'kis, the largest threshadon in the sunken temple, lurks in the Forgotten Pool. Few would think to look in that flooded cave beneath the ruins.",
    "spoiler": 0
   },
   {
    "title": "A Hidden Threat",
-   "body": "To reach Old Serra'kis, you must dive deep beneath the temple floor into a flooded cavern. No air pockets break the water, making the cave as deadly as the beast within. Cornered in the murk, Serra'kis shows an unnatural resilience. He drains life from his attackers with shadow energy, sustaining his own vitality in the darkness.",
+   "body": "You must dive beneath the temple floor to reach Old Serra'kis in the flooded cavern. No air pockets break the water, and the cave is as deadly as the beast within. Cornered in the murk, Serra'kis shows an unnatural resilience. He drains life from his attackers with shadow energy and sustains his own vitality in the darkness.",
    "spoiler": 0
   }
  ],
@@ -76,15 +76,15 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid of the wild, Aquatic Form helps you dive into the lightless pool to confront this prehistoric predator."
+   "text": "As a druid of the wild, use Aquatic Form to dive into the lightless pool and confront this prehistoric predator."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can bestow Unending Breath, making an airless subterranean ambush manageable."
+   "text": "As a warlock, you can bestow Unending Breath to make an airless subterranean ambush manageable."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can use Water Breathing spells granted through communion with the elements to help your companions avoid drowning as they grapple with the ancient threshadon."
+   "text": "As a shaman, use Water Breathing spells granted through communion with the elements to help your companions avoid drowning as they grapple with the ancient threshadon."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Old Serra'kis"
  ],
- "style": 1
+ "style": 2
 }

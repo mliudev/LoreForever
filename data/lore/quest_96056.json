@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The trail to craft this field seat leads straight into the dwarven mountain city of Ironforge, making the Alliance capital a key stop for leather gatherers."
+   "text": "Your path to making a Camp Chair leads to Ironforge, the dwarven mountain city and Alliance capital."
   },
   {
    "target": "race:Dwarf",
-   "text": "Balthus Stoneflayer makes his home in Ironforge, offering skilled skinners the dwarven secret of turning raw hides into sturdy camp comforts."
+   "text": "As a dwarf, you can find Balthus Stoneflayer in Ironforge and learn how skilled skinners make camp comforts from hides."
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters who live off the land and skin their prey in the wild benefit from setting up a proper campsite to rest between long tracks."
+   "text": "As a hunter, you can skin your prey in the wild and make a Camp Chair for resting between long tracks."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "quest purpose",
     "camping 101 skinning quest"
    ],
-   "answer": "Camping 101: Skinning is an instructional quest that directs skilled skinners to seek out specialized camp crafting training in Ironforge. It teaches adventurers how to turn field-harvested animal hides into a comfortable Camp Chair for their personal campsites.",
+   "answer": "Skilled skinners go to Ironforge to learn how to make a Camp Chair from animal hides.",
    "q": "What is Camping 101: Skinning?"
   },
   {
@@ -41,7 +41,7 @@
     "who teaches camp chair",
     "balthus stoneflayer who"
    ],
-   "answer": "The quest directs you to speak with Balthus Stoneflayer, a master craftsman residing in the mountain city of Ironforge. Once you have demonstrated sufficient proficiency in your gathering trade, he teaches you how to fashion specialized camp amenities.",
+   "answer": "Balthus Stoneflayer teaches you to make a Camp Chair in Ironforge. First, show him you can skin beasts.",
    "q": "Who teaches you to craft the camping item?"
   },
   {
@@ -50,7 +50,7 @@
     "balthus location",
     "ironforge trainer"
    ],
-   "answer": "You must travel to Ironforge, the dwarven capital nestled in the snowy peaks of Dun Morogh. Balthus Stoneflayer can be found within the city, ready to instruct qualified skinners.",
+   "answer": "Go to Ironforge, the dwarven capital in the snowy peaks of Dun Morogh. Balthus Stoneflayer teaches skinners there who prove their skill.",
    "q": "Where do you need to go to complete this quest?"
   },
   {
@@ -59,7 +59,7 @@
     "camp chair purpose",
     "skinning camp craft"
    ],
-   "answer": "You learn to craft a Camp Chair out of harvested hides. Setting up a comfortable chair allows an adventurer to rest their legs in the field, helping them recover their focus and maintain peak physical condition between dangerous encounters.",
+   "answer": "You learn to make a Camp Chair from animal hides, giving you a place to rest in the field between dangers.",
    "q": "What item do skinners learn to craft for their camp?"
   },
   {
@@ -68,7 +68,7 @@
     "what does camp chair do",
     "camp chair benefit"
    ],
-   "answer": "Resting in a comfortable camp chair provides a vital respite during long treks across the wilderness. Taking time to relax ensures an adventurer remains in peak fighting shape and can strike with precision when combat inevitably breaks out.",
+   "answer": "A Camp Chair gives you a place to rest on long wilderness treks and recover your focus before danger finds you.",
    "q": "Why is crafting a camp chair useful for an adventurer?"
   },
   {
@@ -77,7 +77,7 @@
     "when can i learn",
     "proficiency needed"
    ],
-   "answer": "Balthus Stoneflayer will only share his crafting knowledge once an adventurer has proven their proficiency in the skinning trade. You must demonstrate solid skill in skinning beasts before he will teach you the pattern.",
+   "answer": "Balthus Stoneflayer teaches you after you prove your skill at skinning beasts.",
    "q": "What proficiency is required before Balthus will teach you?"
   }
  ],
@@ -95,23 +95,24 @@
  ],
  "sections": [
   {
-   "body": "Skinning fallen beasts is among the most practical disciplines an adventurer can cultivate while traversing the wilds of Azeroth. Beyond supplying raw leather for armorers and crafters, the hides gathered from predatory cats, bears, and beasts can be repurposed directly in the field. This introductory task directs skinners to transform raw materials into practical wilderness amenities rather than simply selling them off.",
+   "body": "Skinning fallen beasts gives armorers and crafters leather to work with. Hides from cats, bears, and other beasts have uses in the field, too. You are sent to turn those materials into something useful at camp instead of selling them.",
    "spoiler": 0,
    "title": "Harvesting the Wilds"
   },
   {
-   "body": "The quest sends skinning practitioners to seek out Balthus Stoneflayer in the dwarven capital of Ironforge. Balthus knows the secrets of turning prepared animal pelts into a functional Camp Chair. However, he demands that an adventurer first demonstrate clear proficiency in the art of skinning before he agrees to impart his crafting techniques.",
+   "body": "Balthus Stoneflayer teaches skinners in Ironforge to make a Camp Chair from prepared pelts. First, you need to show him you know how to skin beasts. Only then will he share his crafting methods.",
    "spoiler": 0,
    "title": "The Artisan of Ironforge"
   },
   {
-   "body": "Life on the road takes a heavy physical toll on travelers and hunters alike. A sturdy Camp Chair offers an adventurer a chance to sit down and unwind by the fire, regaining their energy and sharp senses. Taking a moment to recuperate ensures that when the next dangerous dust-up begins, the adventurer is fighting at peak condition and can strike where it counts.",
+   "body": "A Camp Chair gives you a place to sit by the fire and unwind while traveling. Rest there, and you can meet the next danger with your senses sharp and your strength restored.",
    "spoiler": 0,
    "title": "Rest and Readiness"
   }
  ],
- "summary": "Camping 101: Skinning is an introductory quest that instructs adventurers in the art of fashioning wilderness furnishings from harvested animal pelts. It directs skilled skinners to Balthus Stoneflayer in Ironforge to learn how to craft a comfortable Camp Chair for their campsite.",
+ "summary": "In Ironforge, skilled skinners learn to make a Camp Chair from animal hides. Balthus Stoneflayer teaches the craft after they prove their skill.",
  "attribution": [
   "In-game quest text: Camping 101: Skinning"
- ]
+ ],
+ "style": 2
 }

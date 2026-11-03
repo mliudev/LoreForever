@@ -10,16 +10,16 @@
    "quest:3924"
   ]
  },
- "summary": "In Orgrimmar, Rilli Greasygob seeks the scattered pages of the Samophlange Manual. The handbook holds instructions for repairing and operating the Venture Company's samophlange.",
+ "summary": "In Orgrimmar, Rilli Greasygob seeks the scattered pages of the Samophlange Manual. The handbook explains how to repair and operate the Venture Company's samophlange.",
  "sections": [
   {
    "title": "Secrets of the Contraption",
-   "body": "Boss Copperplug guarded the Venture Company's knowledge of the samophlange. The ambitious overseer kept the manual's pages from most workers, giving scattered leaves only to his most loyal subordinates. When the device slipped from company hands, no one could repair it without gathering the torn documentation from Copperplug and his crew at the Boulder Lode Mine.",
+   "body": "Boss Copperplug kept the Venture Company's knowledge of the samophlange close. The ambitious overseer withheld the manual's pages from most workers. He gave loose leaves only to his most loyal subordinates. When the device left company hands, no one could repair it without recovering the torn pages from Copperplug and his crew at the Boulder Lode Mine.",
    "spoiler": 0
   },
   {
    "title": "A Rival's Ambition",
-   "body": "Rilli Greasygob left the Venture Company and settled in Orgrimmar to learn how the samophlange was built. Copperplug had never favored him, so Rilli depends on enterprising travelers to retrieve the manual's cover and loose leaves. Reassembled, the handbook gives goblin tinkerers working alongside the Horde a rare look at Venture Company engineering.",
+   "body": "Rilli Greasygob left the Venture Company and settled in Orgrimmar to learn how the samophlange was built. Copperplug had never favored him, so Rilli relies on enterprising travelers to retrieve the manual's cover and loose leaves. Once reassembled, the handbook gives goblin tinkerers working with the Horde a rare look at Venture Company engineering.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "scattered manual pages",
     "why are pages missing"
    ],
-   "answer": "Boss Copperplug separated the manual to keep rivals and untrusted subordinates from understanding the whole device. He kept the cover and distributed five specific pages among his miners and operators."
+   "answer": "Boss Copperplug separated the manual to keep rivals and untrusted subordinates from understanding the whole device. He kept the cover and gave five specific pages to his miners and operators."
   },
   {
    "q": "Who wants to read the completed manual?",
@@ -73,7 +73,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The manual reveals proprietary Venture Company technology and shows how goblin tinkerers guard trade secrets and working schematics from their peers."
+   "text": "The manual reveals proprietary Venture Company technology. It also shows how goblin tinkerers guard trade secrets and working schematics from their peers."
   },
   {
    "target": "faction:Horde",
@@ -105,5 +105,5 @@
   "Samophlange Manual",
   "Samophlange Manual (quest)"
  ],
- "style": 1
+ "style": 2
 }

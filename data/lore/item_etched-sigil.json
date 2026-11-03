@@ -10,11 +10,11 @@
    "quest:3117"
   ]
  },
- "summary": "In Shadowglen, the Etched Sigil calls new night elf hunters to their trainer.",
+ "summary": "In Shadowglen, the Etched Sigil calls new night elf hunters to Ayanna Everstride.",
  "sections": [
   {
    "title": "Summons of the Wilds",
-   "body": "Newly awakened night elf hunters receive the Etched Sigil as they enter Shadowglen. Its carved marks of the hunt carry a welcome and summons from Ayanna Everstride, the hunter trainer who lives high in Aldrassil’s hollowed boughs. The token sends each novice to seek her out and begin instruction in archery, wilderness tracking, and the night elf bond between stalker and beast.",
+   "body": "Newly awakened night elf hunters receive the Etched Sigil when they enter Shadowglen. Its carved marks carry a welcome from Ayanna Everstride, the hunter trainer who lives high in Aldrassil’s hollowed boughs. The sigil sends each novice to seek her out and begin learning archery and wilderness tracking, along with the night elf bond between stalker and beast.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "etched sigil use",
     "why do i have this sigil"
    ],
-   "answer": "The Etched Sigil summons a novice night elf hunter to seek Ayanna Everstride in Aldrassil and begin instruction in survival, tracking, and archery."
+   "answer": "The Etched Sigil summons a novice night elf hunter to seek Ayanna Everstride in Aldrassil. There, training begins in survival, tracking, and archery."
   },
   {
    "q": "Who sends the Etched Sigil?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, the Etched Sigil marks the start of your training in the bow and the ways of beasts under Ayanna Everstride."
+   "text": "As a hunter, the Etched Sigil marks the beginning of your training with the bow and the ways of beasts under Ayanna Everstride."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you receive the sigil in Shadowglen, among the canopy traditions of night elven foresters who safeguard Teldrassil."
+   "text": "As a night elf, you receive the sigil in Shadowglen, among the canopy traditions of night elf foresters who safeguard Teldrassil."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Etched Sigil",
   "Etched Sigil (Classic)"
  ],
- "style": 1
+ "style": 2
 }

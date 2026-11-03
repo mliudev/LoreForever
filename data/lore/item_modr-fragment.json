@@ -10,16 +10,16 @@
    "quest:299"
   ]
  },
- "summary": "At Whelgar Excavation Site, Modr Fragment lies among the relics and loose earth of a raptor-overrun dig. The ancient Titan script on it is one of four missing pieces of the Goaz Stone.",
+ "summary": "At Whelgar Excavation Site, Modr Fragment lies among relics and loose earth in a raptor-overrun dig. Its ancient Titan script fills one of four gaps in the Goaz Stone.",
  "sections": [
   {
    "title": "A Piece of the Goaz Stone",
-   "body": "Prospector Whelgar uncovered the Goaz Stone, a massive tablet marked with ancient Titan writing, at his Wetlands dig. Vicious raptors drove the Explorers' League from the site before they could finish their work. The translated inscription broke off at four gaps, hiding warnings of a divine plan and a doomed prophecy. Modr Fragment is one of the missing pieces, left among the relics and overturned soil when the diggers fled for their lives.",
+   "body": "Prospector Whelgar uncovered the Goaz Stone at his Wetlands dig. The massive tablet bears ancient Titan writing. Vicious raptors drove the Explorers' League from the site before its members could finish their work. The translated inscription breaks off at four gaps, leaving warnings of a divine plan and a doomed prophecy unfinished. Modr Fragment is one of the missing pieces, left among relics and overturned soil when the diggers fled for their lives.",
    "spoiler": 0
   },
   {
    "title": "Secrets Beneath the Earth",
-   "body": "Prospector Whelgar can restore the full inscription by joining Modr Fragment with the Ados, Golm, and Neru fragments. Its translated words tell of the dawn of the world and speak of 'Old Gods... Chained Beneath the Land.' The dig in the marshlands has uncovered traces of a struggle from the world's beginning, bound beneath the soil.",
+   "body": "Prospector Whelgar can restore the full inscription by joining Modr Fragment with the Ados, Golm, and Neru fragments. The translated words tell of the world's dawn and speak of 'Old Gods... Chained Beneath the Land.' Beneath the marshland soil, the dig has uncovered traces of a struggle from the world's beginning.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is modr",
     "modr relic"
    ],
-   "answer": "Modr Fragment is a shard of inscribed stone broken from the Goaz Stone, an ancient Titan relic Prospector Whelgar found at the Whelgar Excavation Site in the Wetlands."
+   "answer": "Modr Fragment is a shard of inscribed stone broken from the Goaz Stone. Prospector Whelgar found the ancient Titan relic at Whelgar Excavation Site in the Wetlands."
   },
   {
    "q": "Who is looking for this fragment?",
@@ -39,7 +39,7 @@
     "who wants modr fragment",
     "whelgar fragment quest"
    ],
-   "answer": "Prospector Whelgar, an archeologist of the Explorers' League, seeks the fragment to complete the tablet's missing text. He is stationed at the edge of the raptor-infested dig site."
+   "answer": "Prospector Whelgar, an archeologist of the Explorers' League, seeks Modr Fragment to complete the tablet's missing text. He is stationed at the edge of the raptor-infested dig site."
   },
   {
    "q": "What happens when all four fragments are gathered?",
@@ -56,7 +56,7 @@
     "modr fragment location",
     "where to find modr"
    ],
-   "answer": "You can find Modr Fragment scattered across the Whelgar Excavation Site east of Menethil Harbor in the Wetlands. It lies in ancient relic pots or patches of loose dirt guarded by aggressive raptors."
+   "answer": "You can find Modr Fragment scattered across Whelgar Excavation Site east of Menethil Harbor in the Wetlands. It lies in ancient relic pots or patches of loose dirt guarded by aggressive raptors."
   }
  ],
  "angles": [
@@ -66,7 +66,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you help Prospector Whelgar brave the overrun excavation and preserve invaluable historical research for Ironforge."
+   "text": "As an Alliance traveler, you help Prospector Whelgar brave the overrun excavation and preserve valuable historical research for Ironforge."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "Modr Fragment",
   "Uncovering the Past"
  ],
- "style": 1
+ "style": 2
 }

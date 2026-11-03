@@ -27,21 +27,21 @@
    "Solution to Doom"
   ]
  },
- "summary": "Theldurin the Lost sends you to the Undercity of Lordaeron with a sigil. Keeper Bel'dugur is to take you for one of the people Theldurin fled, and you are to ask the keeper for Yagyin's Digest.",
+ "summary": "Theldurin the Lost sends you to the Undercity of Lordaeron with a sigil for Keeper Bel'dugur. He wants the keeper to mistake you for one of the people he fled, and asks you to find Yagyin's Digest.",
  "sections": [
   {
    "title": "A Book Written Long Ago",
-   "body": "The tablet tells Theldurin much, but not nearly enough. Yagyin wrote a digest in ages past, and the people Theldurin fled keep copies in many places, with their most learned studying it. Theldurin believes it holds vast knowledge that can protect them, and wants it brought back.",
+   "body": "The tablet has answered much for Theldurin, yet questions remain. Yagyin wrote a digest ages ago, and the people Theldurin fled keep copies in many places. Their most learned study its pages. Theldurin believes its vast knowledge can protect them, so he wants you to bring it back.",
    "spoiler": 0
   },
   {
    "title": "The Keeper in the Undercity",
-   "body": "Keeper Bel'dugur is in the Undercity of Lordaeron. Theldurin gives you the Sigil of the Hammer to show the keeper, so that you will be taken for one of them, and you are to ask for the digest.",
+   "body": "Keeper Bel'dugur waits in the Undercity of Lordaeron. Theldurin gives you the Sigil of the Hammer to show the keeper, who is to take you for one of the people he fled. Ask Bel'dugur for the digest.",
    "spoiler": 0
   },
   {
    "title": "A Word of Caution",
-   "body": "Bel'dugur greets you as an eager seeker of the collection and warns that knowledge gives power to the strong but drives the weak mad. Once the sigil is shown, Bel'dugur urges you to be discreet with such signs. Some do not believe in the righteousness of their pledge, and others would see them fail if they knew of them. Those who share the pledge must always be careful, watchful and patient.",
+   "body": "Keeper Bel'dugur welcomes you as an eager seeker of the collection. Knowledge, the keeper warns, gives power to the strong but drives the weak mad. After you show the sigil, Bel'dugur urges discretion with such signs. Some doubt their pledge is righteous, while others would see them fail if they knew of it. Those who share the pledge must be careful, watchful, and patient.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "who gives to the undercity for yagyin's digest",
     "quest giver"
    ],
-   "answer": "Theldurin the Lost sends you, with the Sigil of the Hammer, to find Keeper Bel'dugur."
+   "answer": "Theldurin the Lost sends you to find Keeper Bel'dugur and gives you the Sigil of the Hammer to carry."
   },
   {
    "q": "What is the Sigil of the Hammer for?",
@@ -62,7 +62,7 @@
     "why do i need the sigil",
     "what does the sigil do"
    ],
-   "answer": "Theldurin gives it to you to show Keeper Bel'dugur, so that the keeper will think you one of the people Theldurin fled."
+   "answer": "Theldurin gives you the Sigil of the Hammer to show Keeper Bel'dugur, so the keeper will take you for one of the people Theldurin fled."
   },
   {
    "q": "What is Yagyin's Digest?",
@@ -71,7 +71,7 @@
     "who is yagyin",
     "yagyin book"
    ],
-   "answer": "It is a book Yagyin wrote in ages past. Theldurin says it holds vast knowledge and is studied by the most learned of the people Theldurin fled."
+   "answer": "Yagyin's Digest is a book Yagyin wrote ages ago. Theldurin says it holds vast knowledge, studied by the most learned among the people he fled."
   },
   {
    "q": "Where is Keeper Bel'dugur?",
@@ -80,7 +80,7 @@
     "where to find keeper beldugur",
     "beldugur undercity"
    ],
-   "answer": "Keeper Bel'dugur stays in the Undercity of Lordaeron, where you find the Keeper."
+   "answer": "Keeper Bel'dugur is in the Undercity of Lordaeron."
   },
   {
    "q": "What came before this?",
@@ -89,7 +89,7 @@
     "what comes before this",
     "solution to doom connection"
    ],
-   "answer": "It follows Solution to Doom."
+   "answer": "Solution to Doom came before this."
   }
  ],
  "angles": [],
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "To the Undercity for Yagyin's Digest"
- ]
+ ],
+ "style": 2
 }

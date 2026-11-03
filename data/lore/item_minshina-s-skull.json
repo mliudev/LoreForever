@@ -10,11 +10,11 @@
    "quest:808"
   ]
  },
- "summary": "On the Echo Isles, Minshina's Skull holds the bound soul of Minshina, a Darkspear troll and brother of Master Gadrin. Zalazane trapped him there after driving the tribe from the isles, and uses the skull to fuel dark rituals.",
+ "summary": "On the Echo Isles, Minshina's soul remains bound to his skull by Zalazane's dark magic. Minshina was a Darkspear troll and Master Gadrin's brother. Zalazane seized the isles and drove the tribe away, then used Minshina's skull in his rituals.",
  "sections": [
   {
    "title": "A Trapped Spirit",
-   "body": "Minshina was captured and slain when Zalazane seized the Echo Isles and drove out the Darkspear. The traitorous witch doctor bound his victim's soul to Minshina's severed skull instead of letting him pass into death. The skull lies within a circle of power on the southernmost isle, tethering Minshina to Zalazane's magic. Tormented by dreams of his brother calling to him, Master Gadrin seeks brave travelers to enter the occupied islands, reclaim the skull, and break Zalazane's hold over Minshina's spirit.",
+   "body": "Minshina was captured and slain when Zalazane seized the Echo Isles and drove out the Darkspear. The traitorous witch doctor bound his soul to his severed skull instead of letting him pass into death. Now the skull lies within a circle of power on the southernmost isle, holding Minshina fast to Zalazane's magic.\n\nMaster Gadrin dreams of his brother calling to him, and seeks brave travelers to enter the occupied islands. He asks them to reclaim the skull and break Zalazane's hold over Minshina's spirit.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is minshina",
     "master gadrin brother"
    ],
-   "answer": "Minshina was a Darkspear troll and the brother of Master Gadrin of Sen'jin Village. He was murdered amid Zalazane's betrayal on the Echo Isles."
+   "answer": "Minshina was a Darkspear troll and the brother of Master Gadrin of Sen'jin Village. Zalazane murdered him amid his betrayal on the Echo Isles."
   },
   {
    "q": "Why is Minshina's soul trapped in his skull?",
@@ -35,7 +35,7 @@
     "zalazane skull ritual",
     "soul trapped in skull"
    ],
-   "answer": "Zalazane bound Minshina's spirit inside his severed head with dark magic. The skull was placed in a circle of power on the main isle, keeping Minshina's soul bound to Zalazane's will instead of passing to the ancestors."
+   "answer": "Zalazane used dark magic to bind Minshina's spirit inside his severed head. He placed the skull in a circle of power on the main isle, keeping Minshina bound to his will instead of passing to the ancestors."
   },
   {
    "q": "Where is the skull located?",
@@ -44,7 +44,7 @@
     "circle of power location",
     "skull location echo isles"
    ],
-   "answer": "The skull lies on the largest, southernmost isle of the Echo Isles. It rests atop a hill in a circle of power with candles, ritual markers, and other skulls, guarded by Zalazane's thralls."
+   "answer": "The skull lies on the largest and southernmost isle of the Echo Isles. It rests atop a hill in a circle of power, among candles, ritual markers and other skulls, guarded by Zalazane's thralls."
   },
   {
    "q": "What happens when the skull is brought to Master Gadrin?",
@@ -53,13 +53,13 @@
     "gadrin skull reward",
     "what happens to minshina"
    ],
-   "answer": "When you return the skull to Master Gadrin in Sen'jin Village, the dark enchantment breaks. Minshina's spectral form appears briefly, bows in gratitude, and departs peacefully for the realm of the ancestors."
+   "answer": "When you return the skull to Master Gadrin in Sen'jin Village, the dark enchantment breaks. Minshina's spectral form appears briefly, bows in gratitude and departs peacefully for the realm of the ancestors."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear, Zalazane's desecration of Minshina violates ancestral tradition. Recovering his skull is a matter of tribal honor."
+   "text": "For the Darkspear, Zalazane's desecration of Minshina breaks ancestral tradition. Recovering his skull is a matter of tribal honor."
   },
   {
    "target": "faction:Horde",
@@ -89,5 +89,5 @@
   "Minshina's Skull",
   "Minshina's Skull (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,11 +17,11 @@
   "wiki": "The Ashenvale Hunt (Ashenvale)",
   "chain": []
  },
- "summary": "In Ashenvale, Horde hunters face the ancient forest's three great predators. Senani Thunderheart oversees the trial at Splintertree Post, where hunters track Ursangous, Shadumbra, and Sharptalon to prove their skill.",
+ "summary": "In Ashenvale, Horde hunters face three great predators in Senani Thunderheart's trial at Splintertree Post. Track Ursangous, Shadumbra, and Sharptalon to prove your skill.",
  "sections": [
   {
    "title": "A Tauren Tradition in an Ancient Forest",
-   "body": "Senani Thunderheart gives the Horde's presence in Ashenvale a different kind of test. While Orcs gather lumber, she sends hunters into the shadowed forest to face its strongest predators. The hunt calls for more than strength: hunters must meet the wilderness with cunning and respect, and learn what they can endure.",
+   "body": "Senani Thunderheart gives the Horde's presence in Ashenvale a different kind of test. While Orcs gather lumber, she sends hunters into the shadowed forest to face its strongest predators. Strength alone will not serve; hunters need cunning and respect for the wilderness. They must learn what they can endure.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "where is the bear",
     "find ursangous"
    ],
-   "answer": "Ursangous roams just west of the Talondeep Path among other wild bears of the forest."
+   "answer": "Ursangous roams just west of the Talondeep Path among the forest's wild bears."
   },
   {
    "q": "Where is Shadumbra prowling?",
@@ -123,5 +123,5 @@
  "attribution": [
   "The Ashenvale Hunt (Ashenvale)"
  ],
- "style": 1
+ "style": 2
 }

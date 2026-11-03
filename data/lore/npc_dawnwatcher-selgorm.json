@@ -8,16 +8,16 @@
   "wiki": "Dawnwatcher Selgorm",
   "refs": 1
  },
- "summary": "At the Craftsmen's Terrace in Darnassus, Dawnwatcher Selgorm watches for threats across northern Kalimdor. The human serves the Argent Dawn as an observer and liaison in the night elven capital, tracking reports of shadowy cult activity and dark powers stirring nearby.",
+ "summary": "At the Craftsmen's Terrace in Darnassus, Dawnwatcher Selgorm watches for threats across northern Kalimdor. The human serves the Argent Dawn as an observer and liaison in the night elven capital, following reports of cult activity and dark powers stirring nearby.",
  "sections": [
   {
    "title": "Eyes in the World Tree",
-   "body": "Dawnwatcher Selgorm keeps watch in Darnassus for the Argent Dawn. The order's fight against the undead Scourge in the Eastern Plaguelands does not end its vigilance elsewhere. From the Craftsmen's Terrace, Selgorm gathers reports of emerging threats in Kalimdor's wilds. He connects the night elves with the wider effort against ancient evil and seeks Alliance travelers able to strike at cultists and dark powers before their influence spreads.",
+   "body": "Dawnwatcher Selgorm keeps watch in Darnassus for the Argent Dawn. Though the order fights the undead Scourge in the Eastern Plaguelands, its vigilance reaches farther. From the Craftsmen's Terrace, Selgorm gathers reports of new threats in Kalimdor's wilds. The human links the night elves with the wider struggle against ancient evil and seeks Alliance travelers who can strike at cultists and dark powers before they spread.",
    "spoiler": 0
   },
   {
    "title": "A Strike Against Darkness",
-   "body": "Blackfathom Deeps, beneath the Zoram Strand in Ashenvale, draws Selgorm's attention. The Twilight's Hammer cult and serpentine naga have gathered in the flooded ruins. Selgorm rewards seasoned champions who venture there, targeting the cult's leaders and reclaiming tainted relics in hopes of quelling the shadows threatening Kalimdor's sacred shores.",
+   "body": "Blackfathom Deeps lies beneath the Zoram Strand in Ashenvale, where the Twilight's Hammer cult and serpentine naga have gathered in the flooded ruins. Selgorm rewards seasoned champions who venture there to strike at the cult's leaders and reclaim tainted relics. The hope is to quiet the shadows threatening Kalimdor's sacred shores.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is selgorm",
     "dawnwatcher selgorm lore"
    ],
-   "answer": "Dawnwatcher Selgorm is a human agent of the Argent Dawn, stationed in Darnassus to watch for encroaching evil across Kalimdor."
+   "answer": "Dawnwatcher Selgorm is a human agent of the Argent Dawn, stationed in Darnassus to watch for evil spreading across Kalimdor."
   },
   {
    "q": "Where can Dawnwatcher Selgorm be found?",
@@ -46,7 +46,7 @@
     "argent dawn in darnassus",
     "why is argent dawn here"
    ],
-   "answer": "The Argent Dawn fights the Scourge in Lordaeron and seeks to root out malevolence everywhere. In Darnassus, Selgorm watches for rising cult activity, including the Twilight's Hammer in northern Kalimdor."
+   "answer": "The Argent Dawn fights the Scourge in Lordaeron and seeks to root out evil everywhere. In Darnassus, Selgorm watches for rising cult activity, including the Twilight's Hammer in northern Kalimdor."
   },
   {
    "q": "What does Selgorm ask adventurers to do?",
@@ -54,7 +54,7 @@
     "selgorm quest",
     "blackfathom villainy quest giver"
    ],
-   "answer": "Selgorm awaits Alliance heroes returning from Blackfathom Deeps in Ashenvale with the head of Twilight Lord Kelris, the Twilight's Hammer leader there. The wounded Argent Guard Thaelrid urges them to slay Kelris and stop the cult's corruption from spreading."
+   "answer": "Selgorm awaits Alliance heroes returning from Blackfathom Deeps in Ashenvale with the head of Twilight Lord Kelris, the Twilight's Hammer leader there. The wounded Argent Guard Thaelrid urges them to slay Kelris and halt the spread of the cult's corruption."
   }
  ],
  "angles": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Dawnwatcher Selgorm"
  ],
- "style": 1
+ "style": 2
 }

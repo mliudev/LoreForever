@@ -11,16 +11,16 @@
    "quest:1080"
   ]
  },
- "summary": "In Stonetalon, the Covert Ops Pack equips Alliance agents to sabotage Venture Company sites and steal their plans. Its charges and schematics target the company’s work in Windshear Crag.",
+ "summary": "In Stonetalon, Alliance agents use the Covert Ops Pack to disrupt Venture Company sites and take their plans. Its charges and schematics are aimed at the company’s work in Windshear Crag.",
  "sections": [
   {
    "title": "Sabotage by Design",
-   "body": "The Covert Ops Pack carries charges and plans for strikes inside Venture Company territory. Red and blue NG-5 explosives pair with remote detonators, while Plan Alpha and Plan Beta give agents instructions. The explosives target the Cragpool Lake lumber mill and the eastern mine. As goblins rush to fight fires and inspect broken machinery, an infiltrator can slip through the confusion and take documents and schematics.",
+   "body": "The Covert Ops Pack brings charges and plans into Venture Company territory. Red and blue NG-5 explosives come with remote detonators, while Plan Alpha and Plan Beta guide the strikes. The charges target the lumber mill at Cragpool Lake and the eastern mine. When goblins rush to fight fires and inspect broken machinery, an infiltrator can pass through the confusion and take documents and schematics.",
    "spoiler": 0
   },
   {
    "title": "A Confluence of Interests",
-   "body": "The pack serves both the night elf Sentinels and Alliance engineers in Stonetalon. Its blasts and theft hinder the clear-cutting and excavation of the sacred mountainside. The stolen Venture Company engineering plans also offer insight into goblin heavy machinery. They show where the machines can fail and give Alliance engineers ideas to adapt for their own designs.",
+   "body": "Night elf Sentinels and Alliance engineers in Stonetalon both gain from the Covert Ops Pack. Its blasts and stolen plans hinder clear-cutting and excavation on the sacred mountainside. The Venture Company engineering plans also reveal how goblin heavy machinery works. They show where the machines can fail and give Alliance engineers ideas to adapt for their own designs.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "what are ng-5 explosives for",
     "alpha beta demolition"
    ],
-   "answer": "The explosives make loud distractions at Venture Company work sites. With security drawn away, an operative can enter the lumber mill and mine unseen."
+   "answer": "The explosives create loud distractions at Venture Company work sites. While security is drawn away, an operative can enter the lumber mill and mine unseen."
   },
   {
    "q": "What intelligence does this operation target?",
@@ -59,13 +59,13 @@
     "who is the pack for",
     "sentinels covert ops"
    ],
-   "answer": "The night elf Sentinels and Alliance engineers both benefit. The sabotage hinders deforestation, while engineers study the schematics to find weaknesses in Venture Company shredders and adapt ideas for their own technology."
+   "answer": "Night elf Sentinels and Alliance engineers both benefit. Sabotage hinders deforestation, while engineers study the schematics for weaknesses in Venture Company shredders and ideas to adapt for their own technology."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For an engineer, the pack turns gnomish ingenuity against goblin industry. Its customized NG-5 charges help uncover the workings of Venture Company machinery."
+   "text": "For an engineer, the pack turns gnomish ingenuity against goblin industry. Its customized NG-5 charges help reveal how Venture Company machinery works."
   },
   {
    "target": "faction:Alliance",
@@ -96,5 +96,5 @@
   "Covert Ops - Alpha",
   "Covert Ops - Beta"
  ],
- "style": 1
+ "style": 2
 }

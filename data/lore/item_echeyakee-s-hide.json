@@ -10,11 +10,11 @@
    "quest:881"
   ]
  },
- "summary": "At the Crossroads, Sergra Darkthorn awaits the pale hide of Whitemist, the legendary white lion of the Barrens. Tauren honor the beast as an embodiment of mercy and death, while hunters bring the pelt as proof of their prowess.",
+ "summary": "At the Crossroads, Sergra Darkthorn awaits Echeyakee's Hide, taken from the legendary white lion of the Barrens. Tauren honor Whitemist as an embodiment of mercy and death, while hunters bring his pelt as proof of their prowess.",
  "sections": [
   {
    "title": "Trophy of Whitemist",
-   "body": "Echeyakee means Whitemist in the Taur-ahe tongue. The lion earned that name among the savannah's predators for his stealthy white coat and swift kills, ending prey's lives before fear or pain could take hold. A hunter summons the elusive cat near the giant kodo bones northeast of the Crossroads with a ceremonial horn, then claims his pelt. Bringing it to Sergra Darkthorn proves martial skill and honors Whitemist's silent, merciful end.",
+   "body": "Echeyakee means Whitemist in the Taur-ahe tongue. Among the savannah's predators, the lion earned that name for his stealthy white coat and swift kills. He ended his prey's lives before fear or pain could take hold.\n\nA hunter summons the elusive cat near the giant kodo bones northeast of the Crossroads with a ceremonial horn, then claims his pelt. Bringing it to Sergra Darkthorn proves martial skill and honors Whitemist's silent, merciful end.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "how to get echeyakee hide",
     "echeyakee pelt location"
    ],
-   "answer": "Echeyakee's Hide comes from the white lion Echeyakee, who lairs among giant kodo skeletons northeast of the Crossroads in the Barrens. Sergra Darkthorn provides the Horn of Echeyakee to summon him."
+   "answer": "Echeyakee's Hide comes from Echeyakee, the white lion whose lair lies among giant kodo skeletons northeast of the Crossroads in the Barrens. Sergra Darkthorn provides the Horn of Echeyakee to summon him."
   },
   {
    "q": "Who wants Echeyakee's Hide?",
@@ -50,11 +50,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you honor Whitemist's swift spirit when you hunt Echeyakee, a sacred test of mercy and stealth rather than mere conquest."
+   "text": "As a tauren, you honor Whitemist's swift spirit when you hunt Echeyakee. It is a sacred test of mercy and stealth."
   },
   {
    "target": "class:Hunter",
-   "text": "As a Hunter, you take the pelt of the savannah's apex stalker as an early rite of passage, learning the subtleties of the wild as a Horde tracker."
+   "text": "As a Hunter, you take the pelt of the savannah's apex stalker as an early rite of passage. You learn the subtleties of the wild as a Horde tracker."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
   "Echeyakee's Hide",
   "Echeyakee (Classic)"
  ],
- "style": 1
+ "style": 2
 }

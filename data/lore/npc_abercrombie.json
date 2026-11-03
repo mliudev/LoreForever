@@ -8,21 +8,21 @@
   "wiki": "Abercrombie",
   "refs": 8
  },
- "summary": "Near Raven Hill Cemetery, Abercrombie asks travelers for help from his shack in western Duskwood. He seems a feeble, eccentric hermit, plagued by the horrors of the woods. He sends sympathetic travelers to Darkshire for peculiar reagents and supplies.",
+ "summary": "Near Raven Hill Cemetery, Abercrombie asks travelers to bring supplies from Darkshire. In western Duskwood, the old hermit seems worn and troubled by the woods.",
  "sections": [
   {
    "title": "The Recluse of Raven Hill",
-   "body": "Abercrombie lives in a dilapidated shack near Raven Hill Cemetery, where Duskwood's decay has left him looking like a broken old man. He says he is only trying to survive the terrors of the woods and asks travelers to bring supplies, herbs, and thread from Darkshire. To anyone who does not know the region's history, he seems another unfortunate soul left behind as the province fell into ruin.",
+   "body": "Abercrombie lives in a ruined shack near Raven Hill Cemetery. Duskwood's decay has left him looking like a broken old man. He says he is trying to survive the terrors of the woods, and asks travelers to bring supplies, herbs, and thread from Darkshire. To anyone who does not know the region's history, he seems another unfortunate soul left behind as the province fell into ruin.",
    "spoiler": 0
   },
   {
    "title": "The Embalmer's Madness",
-   "body": "Abercrombie once lived in Raven Hill as a respected, kindly alchemist. When his beloved wife, Eliza, died, grief broke his sanity. He turned to forbidden necromantic arts, cut out his own heart, and placed it in Eliza's dead breast to bring her back. The ritual made her a monster with an insatiable hunger for living flesh, and the mad alchemist kept her buried in the cemetery.",
+   "body": "Abercrombie once lived in Raven Hill as a respected and kindly alchemist. When his beloved wife, Eliza, died, grief broke his sanity. He turned to forbidden necromantic arts, cut out his own heart, and placed it in Eliza's dead breast to bring her back. The ritual made her a monster with an insatiable hunger for living flesh, and Abercrombie kept her buried in the cemetery.",
    "spoiler": 2
   },
   {
    "title": "A Monstrous Deception",
-   "body": "Abercrombie, known in dark folklore as the Embalmer, nurses a deep, psychotic grudge against Darkshire and its leaders. He sends helpful travelers for ghoul ribs, specialty thread, and caustic brews. Those supplies are the final parts needed to assemble Stitches, a colossal abomination stitched from flesh and built to slaughter the Night Watch and ravage the town.",
+   "body": "Abercrombie, known in dark folklore as the Embalmer, nurses a deep, psychotic grudge against Darkshire and its leaders. He sends helpful travelers for ghoul ribs, specialty thread, and caustic brews. These supplies are the final parts needed to assemble Stitches, a colossal abomination stitched from flesh and built to slaughter the Night Watch and ravage the town.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "abercrombie wife",
     "bride of the embalmer"
    ],
-   "answer": "Eliza was Abercrombie's wife. After her death, he tried to resurrect her with dark magic by placing his own heart in her corpse. She returned as a ravenous undead monster, and he had to keep her buried in Raven Hill Cemetery."
+   "answer": "Eliza was Abercrombie's wife. After her death, he tried to resurrect her with dark magic by placing his own heart in her corpse. She returned as a ravenous undead monster, and Abercrombie kept her buried in Raven Hill Cemetery."
   },
   {
    "q": "What happens when you deliver the Note to the Mayor?",
@@ -61,7 +61,7 @@
     "what does the note say",
     "abercrombie letter"
    ],
-   "answer": "Lord Ello cannot read the Note because it is written in an ancient language, so he asks Sirra Von'Indi to translate it. The translation reveals that Abercrombie has done something unspeakable. Once Ello reads it, the monstrous Stitches lumbers down the road from Raven Hill toward Darkshire."
+   "answer": "Lord Ello cannot read the Note, which is written in an ancient language, so he asks Sirra Von'Indi to translate it. The translation reveals that Abercrombie has done something unspeakable. Once Ello reads it, monstrous Stitches lumbers down the road from Raven Hill toward Darkshire."
   },
   {
    "q": "Why does Abercrombie hate Darkshire?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Abercrombie"
  ],
- "style": 1
+ "style": 2
 }

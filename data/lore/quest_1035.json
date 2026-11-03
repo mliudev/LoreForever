@@ -23,21 +23,21 @@
    "Fallen Sky Lake (quest)"
   ]
  },
- "summary": "At Fallen Sky Lake, a moonstone may be the only hope for Relara, whose fever has broken but whose strength is nearly gone. Her father, Pelturas Whitemoon, sends you to the waters southeast of Astranaar, where a corrupted Shadethicket Oracle guards the fallen stones.",
+ "summary": "At Fallen Sky Lake, a moonstone may restore Relara before her strength is gone. Her father, Pelturas Whitemoon, sends you southeast of Astranaar to find one among the fallen stones.",
  "sections": [
   {
    "title": "A Daughter's Fading Breaths",
-   "body": "Pelturas Whitemoon has watched his young daughter, Relara, slip closer to death through days of illness. Remedies made from Bathran's hair and stardust broke her raging fever, but left her body hollow and frail. Pelturas fears she has only breaths remaining before her spirit fades permanently into the night.",
+   "body": "For days, Pelturas Whitemoon has watched his young daughter, Relara, draw closer to death. Remedies made from Bathran's hair and stardust broke her fever, but left her weak and frail. He fears she has only a few breaths left before her spirit fades into the night.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Moonstone",
-   "body": "Pelturas turns to moonstones to restore Relara's strength. These celestial fragments once fell into Fallen Sky Lake, southeast of Astranaar, and night elves gathered them for their healing power. Aggressive elementals or corrupted bark now claim the stones, so gathering one means facing danger with blade and spell.",
+   "body": "Pelturas turns to moonstones to restore Relara's strength. These fragments fell into Fallen Sky Lake, southeast of Astranaar, and night elves gathered them for their healing power. Aggressive elementals or corrupted bark now claim the stones. You must face danger with blade and spell to gather one.",
    "spoiler": 0
   },
   {
    "title": "The Shadethicket Domain",
-   "body": "Night elves lost easy access to Fallen Sky Lake when Shadethicket bog beasts claimed the surrounding wilderness. Their leader, the Shadethicket Oracle, hoards the fallen moonstones on an islet in the lake's center. To reclaim one, you must confront and slay the Oracle before Relara's strength runs out. Pelturas crushes the recovered stone into tea, and Relara drinks it and regains her strength.",
+   "body": "Shadethicket bog beasts claimed the wilderness around Fallen Sky Lake, denying night elves easy access to its waters. Their leader, the Shadethicket Oracle, hoards fallen moonstones on an islet at the lake's center. You must face the Oracle before Relara's strength runs out. Pelturas crushes the recovered stone into tea. Relara drinks it and regains her strength.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "relara still sick",
     "relara fever gone"
    ],
-   "answer": "Relara's fever drained her life force so severely that rest alone cannot revive her. Pelturas believes only a fallen moonstone's restorative power can renew her depleted spirit before she succumbs to exhaustion."
+   "answer": "Relara's fever drained her life force, and rest alone cannot restore it. Pelturas believes a fallen moonstone can renew her spirit before exhaustion claims her."
   },
   {
    "q": "Where is Fallen Sky Lake located?",
@@ -58,7 +58,7 @@
     "lake location",
     "shadethicket lake location"
    ],
-   "answer": "Fallen Sky Lake lies in central-eastern Ashenvale, southeast of Astranaar. Hostile bog beasts dominate its waters, which hold a small island at their center."
+   "answer": "Fallen Sky Lake lies in central-eastern Ashenvale, southeast of Astranaar. Hostile bog beasts rule its waters, which hold a small island at their center."
   },
   {
    "q": "Who has the fallen moonstone?",
@@ -67,7 +67,7 @@
     "shadethicket oracle location",
     "where to get moonstone"
    ],
-   "answer": "The Shadethicket Oracle, leader of the hostile bog beasts at the lake, holds the moonstone. The Oracle lairs on an island in the center of Fallen Sky Lake."
+   "answer": "The Shadethicket Oracle holds the moonstone. The Oracle leads the hostile bog beasts and lairs on an island at the center of Fallen Sky Lake."
   },
   {
    "q": "What happens after this quest?",
@@ -76,7 +76,7 @@
     "what next",
     "quest continuation"
    ],
-   "answer": "This is the final step in Pelturas's search for a remedy. He needs a fallen moonstone to restore Relara's strength, and her fate is revealed when the stone is delivered."
+   "answer": "Pelturas's search for a remedy ends with the fallen moonstone. He needs it to restore Relara's strength, and her fate is revealed when it is delivered."
   },
   {
    "q": "Why are the Shadethickets hoarding the moonstones?",
@@ -84,7 +84,7 @@
     "why treants taking stones",
     "oracle hoarding moonstones"
    ],
-   "answer": "As Ashenvale's wild creatures and bog beasts grow more volatile and corrupted, the Shadethickets begin violently driving off outsiders. Their Oracle gathers and guards the lunar relics, keeping them from the night elves of Astranaar."
+   "answer": "As Ashenvale's wild creatures and bog beasts grow more volatile and corrupted, the Shadethickets drive outsiders away with violence. Their Oracle gathers and guards the lunar relics, keeping them from the night elves of Astranaar."
   },
   {
    "q": "What previous quests lead up to this task?",
@@ -93,17 +93,17 @@
     "quest prerequisites",
     "what comes before"
    ],
-   "answer": "The chain begins with Bathran's Hair, followed by Orendil's Cure, Elune's Tear, and The Ruins of Stardust. Each step gathers rare components to treat Relara's worsening condition."
+   "answer": "The chain begins with Bathran's Hair, then follows Orendil's Cure, Elune's Tear, and The Ruins of Stardust. Each step gathers rare components to treat Relara's worsening condition."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, protecting Astranaar's young is a sacred duty shared by the community. Retrieving moonstones tied to Elune's blessings is an act of mercy and reverence."
+   "text": "For the Kaldorei, protecting Astranaar's young is a duty shared by the community. Retrieving moonstones tied to Elune's blessings is an act of mercy and reverence."
   },
   {
    "target": "class:Druid",
-   "text": "The hostile Shadethicket bog beasts show the tragic discord spreading through Ashenvale's natural guardians. Facing them weighs heavily on those seeking to restore balance."
+   "text": "The hostile Shadethicket bog beasts show the discord spreading through Ashenvale's natural guardians. Facing them weighs heavily on those who seek to restore balance."
   },
   {
    "target": "class:Priest",
@@ -111,7 +111,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Helping Pelturas Whitemoon supports the Alliance's duty to defend Astranaar's citizens from the creeping corruption overtaking Ashenvale."
+   "text": "Helping Pelturas Whitemoon supports the Alliance's duty to defend Astranaar's citizens from the corruption overtaking Ashenvale."
   }
  ],
  "keywords": [
@@ -136,5 +136,5 @@
  "attribution": [
   "Fallen Sky Lake (quest)"
  ],
- "style": 1
+ "style": 2
 }

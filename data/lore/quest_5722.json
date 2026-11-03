@@ -17,16 +17,16 @@
   "wiki": "Searching for the Lost Satchel",
   "chain": []
  },
- "summary": "Rahauro sends you from Thunder Bluff’s Elder Rise into Ragefire Chasm. Magatha Grimtotem seeks her lost emissary Maur and the unusual discovery he made among the troggs.",
+ "summary": "Rahauro sends you from Thunder Bluff’s Elder Rise into Ragefire Chasm, where Magatha Grimtotem awaits news of her missing emissary Maur.",
  "sections": [
   {
    "title": "A Grimtotem Mission Beneath Orgrimmar",
-   "body": "Magatha Grimtotem hears on Thunder Bluff’s Elder Rise that her emissary, Maur Grimtotem, entered the cavern beneath Orgrimmar to study the troggs and try to parley with them. He never returned, and rumors say he found something unusual shortly before his death. While Warchief Thrall and his advisers focus on the Shadow Council presence in Ragefire Chasm, the Grimtotem clan follows its own interests.",
+   "body": "Magatha Grimtotem learns on Thunder Bluff’s Elder Rise that her emissary, Maur Grimtotem, entered the cavern beneath Orgrimmar. He meant to study the troggs and try to parley with them, but never returned. Rumors say he found something unusual shortly before his death. While Warchief Thrall and his advisers attend to the Shadow Council in Ragefire Chasm, the Grimtotem clan pursues its own interests.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Emissary",
-   "body": "Rahauro, Magatha Grimtotem’s attendant, sends warriors into Ragefire Chasm on her behalf. Deep in the lava-filled tunnels, Maur’s battered body lies near the trogg encampments. Crude clubs and bare fists killed him, but the troggs left his belongings untouched. His satchel and whatever secrets he sought remain for Magatha’s agents to recover.",
+   "body": "Rahauro, Magatha Grimtotem’s attendant, sends warriors into Ragefire Chasm on her behalf. Deep in its lava-filled tunnels, Maur’s battered body lies near the trogg encampments. The troggs killed him with crude clubs and bare fists, yet left his belongings untouched. His satchel and the secrets he sought remain for Magatha’s agents to recover.",
    "spoiler": 1
   }
  ],
@@ -118,5 +118,5 @@
  "attribution": [
   "Searching for the Lost Satchel"
  ],
- "style": 1
+ "style": 2
 }

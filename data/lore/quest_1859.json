@@ -21,16 +21,16 @@
    "The Shattered Hand (2)"
   ]
  },
- "summary": "In Orgrimmar, Therzok waits for a promising rogue from Durotar. Kaplak has seen your skill with violence and stealth and sends you to the Cleft of Shadow to meet a Shattered Hand operative.",
+ "summary": "In Orgrimmar, Therzok awaits a promising rogue sent from Durotar. Kaplak has seen your skill in violence and stealth, and sends you to the Cleft of Shadow to meet a Shattered Hand operative.",
  "sections": [
   {
    "title": "A Whispered Summons",
-   "body": "Kaplak draws promising young rogues aside when they begin making a name for themselves in Durotar. The new Horde honors Thrall, but not all its servants fight openly beneath his banner. Word of a fighter skilled in violence and stealth, willing to bend the rules of open warfare, reaches the underground guild in Orgrimmar.",
+   "body": "The new Horde honors Thrall, yet not all its servants fight openly beneath his banner. Word reaches Orgrimmar of a fighter skilled in violence and stealth, one willing to bend the rules of open warfare. The underground guild takes notice.",
    "spoiler": 0
   },
   {
    "title": "Into the Cleft of Shadow",
-   "body": "Kaplak sends you beneath Orgrimmar's red stone cliffs to the Cleft of Shadow. Therzok waits in its gloom, out of sight of the city's grunts. There, lone cutpurses and ambushers are brought into the Shattered Hand, the Horde's covert network of daggers in the dark.",
+   "body": "Kaplak sends you beneath Orgrimmar's red stone cliffs to the Cleft of Shadow. Therzok waits there, hidden from the city's grunts. Lone cutpurses and ambushers are brought into the Shattered Hand, the Horde's covert network of daggers in the dark.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "therzok lore",
     "npc therzok"
    ],
-   "answer": "Therzok is a Shattered Hand operative in Orgrimmar's Cleft of Shadow. He meets promising young rogues arriving from Durotar's training grounds and brings them into the guild's service."
+   "answer": "In Orgrimmar's Cleft of Shadow, Therzok serves the Shattered Hand. He meets promising young rogues from Durotar's training grounds and brings them into the guild's service."
   },
   {
    "q": "Why does Kaplak send me to him?",
@@ -51,7 +51,7 @@
     "kaplak quest",
     "why go to orgrimmar"
    ],
-   "answer": "Kaplak sees your skill in combat and your talent for stealth and subterfuge. He knows the Shattered Hand seeks capable scoundrels, so he passes Therzok's request to recruit you."
+   "answer": "Kaplak has seen your skill in combat and your talent for stealth and subterfuge. Knowing the Shattered Hand seeks capable scoundrels, he sends you to Therzok with a request to recruit you."
   },
   {
    "q": "What is the Shattered Hand in Orgrimmar?",
@@ -60,7 +60,7 @@
     "shattered hand orgrimmar",
     "horde rogue guild"
    ],
-   "answer": "In Orgrimmar, the Shattered Hand is a secret guild of assassins, spies, and thieves serving the Horde. They handle necessary, morally difficult work that Thrall's honorable warriors cannot perform openly."
+   "answer": "In Orgrimmar, the Shattered Hand is a secret guild of assassins, spies, and thieves who serve the Horde. They undertake difficult work that Thrall's honorable warriors cannot perform openly."
   },
   {
    "q": "Where is the Cleft of Shadow located?",
@@ -69,7 +69,7 @@
     "how to find therzok",
     "cleft of shadow location"
    ],
-   "answer": "The Cleft of Shadow is a cavern beneath central Orgrimmar. Dark passages lead down to it from the Valley of Strength and the Drag, and it shelters the city's warlocks and rogues from public scrutiny."
+   "answer": "The Cleft of Shadow is a cavern beneath central Orgrimmar. Dark passages descend to it from the Valley of Strength and the Drag. It shelters the city's warlocks and rogues from public scrutiny."
   },
   {
    "q": "What comes after meeting Therzok?",
@@ -78,7 +78,7 @@
     "what does therzok want",
     "after therzok"
    ],
-   "answer": "After you greet Therzok, he introduces the duties of Shattered Hand service and assigns work to test your capability, stealth, and loyalty to the network."
+   "answer": "After you greet Therzok, he explains the duties of Shattered Hand service. Then he assigns work to test your capability, stealth, and loyalty to the network."
   },
   {
    "q": "Do non-rogues receive this quest?",
@@ -87,17 +87,17 @@
     "is this rogue only",
     "rogue quest"
    ],
-   "answer": "No. Only rogues receive this summons after reaching a certain level of experience, marking their move from local skirmishes into the Horde's intelligence network."
+   "answer": "No. Only rogues receive this summons after gaining a certain amount of experience. It marks their passage from local skirmishes into the Horde's intelligence network."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, this summons brings you into the Shattered Hand, linking your solitary work in Durotar to the Horde's organized spy network."
+   "text": "As a rogue, this summons brings you into the Shattered Hand. Your solitary work in Durotar now connects to the Horde's organized spy network."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you know Thrall preaches honor and the warrior spirit. Therzok's network shows the Horde also relies on unseen blades and secret intelligence gatherers."
+   "text": "As a member of the Horde, you know Thrall preaches honor and the warrior spirit. Therzok's network shows the Horde also depends on unseen blades and secret gatherers of intelligence."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Therzok (quest)"
  ],
- "style": 1
+ "style": 2
 }

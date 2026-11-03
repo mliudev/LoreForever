@@ -24,11 +24,11 @@
   ],
   "category": "Desolace"
  },
- "summary": "Azore Aldamort of the Ethel Rethor tower trusts you with a gem. Set in the hand of a serpent statue on Ranazjar Isle, northwest of the tower, it calls up the protector of the Book of the Ancients, which holds secrets the naga have kept for centuries.",
+ "summary": "At the Ethel Rethor tower, Azore Aldamort entrusts you with the Gem of the Serpent. Set it on the Serpent Statue on Ranazjar Isle, northwest of the tower, and the guardian of the Book of the Ancients will appear.",
  "sections": [
   {
    "title": "The Serpent Statue",
-   "body": "After Sceptre of Light, Azore Aldamort hands you the Gem of the Serpent. A Serpent Statue stands on Ranazjar Isle, a little island to the northwest of the Ethel Rethor tower, and the gem belongs on its hand. That will bring forth the guardian of the Book of the Ancients, a book that holds naga secrets kept for centuries. Azore hopes it will teach much about their scaled foes.",
+   "body": "After Sceptre of Light, Azore Aldamort gives you the Gem of the Serpent. Ranazjar Isle lies northwest of the Ethel Rethor tower, and there the Serpent Statue waits. Set the gem on its hand to call forth the Book of the Ancients’ guardian. The naga have kept the book’s secrets for centuries, and Azore hopes it will teach much about their scaled foes.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who gives book of the ancients",
     "tower in ethel rethor guy"
    ],
-   "answer": "The keeper of the tower at Ethel Rethor, who hopes to learn much about the naga, whom Azore calls scaled foes."
+   "answer": "Azore Aldamort keeps the tower at Ethel Rethor. Azore hopes to learn much about the naga, whom Azore calls scaled foes."
   },
   {
    "q": "What is the Book of the Ancients?",
@@ -49,7 +49,7 @@
     "book lore",
     "naga book desolace"
    ],
-   "answer": "A book containing the secrets of the naga, kept for centuries. Someone guards it."
+   "answer": "The Book of the Ancients holds secrets the naga have kept for centuries. Someone guards it."
   },
   {
    "q": "Where is Ranazjar Isle?",
@@ -58,7 +58,7 @@
     "where is ranazjar isle",
     "where do i go with the gem"
    ],
-   "answer": "A small island northwest of the Ethel Rethor tower."
+   "answer": "Ranazjar Isle is a small island northwest of the Ethel Rethor tower."
   },
   {
    "q": "What is the Gem of the Serpent for?",
@@ -67,7 +67,7 @@
     "serpent statue hand",
     "how to summon guardian"
    ],
-   "answer": "Set on the hand of the Serpent Statue on Ranazjar Isle, it brings forth the guardian of the Book of the Ancients."
+   "answer": "Set the Gem of the Serpent on the hand of the Serpent Statue on Ranazjar Isle to bring forth the guardian of the Book of the Ancients."
   },
   {
    "q": "What came before this?",
@@ -76,7 +76,7 @@
     "sceptre of light chain",
     "prerequisite"
    ],
-   "answer": "Sceptre of Light, which comes before this step."
+   "answer": "Sceptre of Light comes before this step."
   }
  ],
  "angles": [],
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Book of the Ancients (quest)"
- ]
+ ],
+ "style": 2
 }

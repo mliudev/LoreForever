@@ -8,11 +8,11 @@
   "wiki": "Apothecary Helbrim",
   "refs": 2
  },
- "summary": "At the Crossroads, Apothecary Helbrim studies the Barrens for the Royal Apothecary Society. Sent to Kalimdor, he gathers unfamiliar reagents for the Forsaken.",
+ "summary": "At the Crossroads, Apothecary Helbrim gathers unfamiliar reagents for the Royal Apothecary Society. Sent to Kalimdor, he studies the Barrens for the Forsaken.",
  "sections": [
   {
    "title": "Apothecary in the Dust",
-   "body": "Apothecary Helbrim works beneath the harsh sun at the Crossroads, far from the Royal Apothecary Society's quarters in the damp undercity of Undercity. Sent across the Great Sea to Kalimdor, he searches the Barrens for useful plants, fungi, and other natural specimens. He depends on travelers to bring him samples, including local fungal spores, and works with Apothecary Zamah in Thunder Bluff. Through Helbrim, the Forsaken's alchemists reach beyond the ruined borders of Lordaeron.",
+   "body": "Apothecary Helbrim works beneath the sun at the Crossroads, far from the Royal Apothecary Society's quarters in Undercity. Sent across the Great Sea to Kalimdor, he searches the Barrens for useful plants, fungi, and other natural specimens.\n\nHelbrim depends on travelers to bring him samples, including local fungal spores. He also works with Apothecary Zamah in Thunder Bluff. Through his work, the Forsaken's alchemists reach beyond Lordaeron's ruined borders.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "helbrim lore",
     "crossroads apothecary"
    ],
-   "answer": "Helbrim is a Forsaken alchemist and agent of the Royal Apothecary Society. He is stationed at the Crossroads to gather and study natural reagents from across the Barrens."
+   "answer": "Helbrim is a Forsaken alchemist and agent of the Royal Apothecary Society. At the Crossroads, he gathers and studies natural reagents from across the Barrens."
   },
   {
    "q": "Why is a Forsaken apothecary stationed in the Barrens?",
@@ -33,7 +33,7 @@
     "what is helbrim doing here",
     "why forsaken in barrens"
    ],
-   "answer": "The Royal Apothecary Society seeks new compounds, toxins, and reagents for its research. Helbrim was sent to central Kalimdor to study local specimens, including fungal spores unlike those found in the plague-scarred lands of Lordaeron."
+   "answer": "The Royal Apothecary Society seeks new compounds, toxins, and reagents for its research. Helbrim was sent to central Kalimdor to study local specimens, including fungal spores unlike those found in Lordaeron's plague-scarred lands."
   },
   {
    "q": "What does he do with the fungal spores players bring him?",
@@ -42,7 +42,7 @@
     "what are spores for",
     "fungal spore quest"
    ],
-   "answer": "Helbrim studies the fungal spores for their toxicity, medicinal value, and other properties. He packages samples for couriers to carry to Apothecary Zamah in Thunder Bluff for further experiments."
+   "answer": "Helbrim studies the fungal spores for toxicity, medicinal value, and other properties. He packages samples for couriers to carry to Apothecary Zamah in Thunder Bluff for further experiments."
   },
   {
    "q": "Who does Helbrim work with?",
@@ -50,17 +50,17 @@
     "helbrim allies",
     "who does helbrim answer to"
    ],
-   "answer": "Helbrim answers to the Royal Apothecary Society in the Undercity. In Kalimdor, he works with Apothecary Zamah at the Pools of Vision in Thunder Bluff and sometimes does business through goblin intermediaries such as Wharfmaster Dizzywig in Ratchet."
+   "answer": "Helbrim answers to the Royal Apothecary Society in Undercity. In Kalimdor, he works with Apothecary Zamah at the Pools of Vision in Thunder Bluff and sometimes does business through goblin intermediaries such as Wharfmaster Dizzywig in Ratchet."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As one of the Forsaken, you can see how your people contribute to the Horde in Kalimdor: Helbrim turns the wilderness into material for the Society's research."
+   "text": "As one of the Forsaken, you can see how your people contribute to the Horde in Kalimdor. Helbrim gathers wilderness specimens for the Society's research."
   },
   {
    "target": "faction:Horde",
-   "text": "Helbrim works near orcish guards and tauren wayfarers, but his drive to gather spores and toxins leaves even his allies uneasy."
+   "text": "Helbrim works near orcish guards and tauren wayfarers, yet his drive to gather spores and toxins leaves even his allies uneasy."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Apothecary Helbrim"
  ],
- "style": 1
+ "style": 2
 }

@@ -24,16 +24,16 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "Kebok in Booty Bay is losing guards and agents to jungle clashes with the Bloodscalp tribe. Worried about climbing expenses and answering to Baron Revilgaz, he offers coin to any adventurer willing to hunt down the trolls and return with proof of the kill.",
+ "summary": "In Booty Bay, Bloodscalp Ears bring Kebok a way to answer for mounting losses. He pays for proof of a kill after clashes with the Bloodscalp tribe have cost him guards and agents.",
  "sections": [
   {
    "title": "Mounting Costs",
-   "body": "In the bustling port of Booty Bay, Kebok faces a serious operational dilemma. The local trolls in Stranglethorn Vale have been killing his agents in the jungle, and he has lost many of his best guards in skirmishes with them. With the casualties mounting, so too are the costs, leaving him frantic over how to explain them to Baron Revilgaz.",
+   "body": "In Stranglethorn Vale, Bloodscalp trolls are killing Kebok's agents and guards. Many of his best guards have fallen in jungle skirmishes. The mounting costs leave him anxious about explaining them to Baron Revilgaz.",
    "spoiler": 0
   },
   {
    "title": "A Bounded Bounty",
-   "body": "Rather than allowing the losses to accumulate further, Kebok turns to outside help. He offers monetary compensation to travelers who head into the jungle, cull the Bloodscalp trolls, and bring back fifteen of their severed ears as undeniable confirmation of their demise.",
+   "body": "Kebok offers coin to travelers who hunt Bloodscalp trolls in the jungle. He asks you to bring back fifteen severed ears as proof of the kills.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who is kebok",
     "who gives bloodscalp ears"
    ],
-   "answer": "Kebok is a goblin in Booty Bay who has agents and guards out in the jungle, and he has to answer to Baron Revilgaz for what they cost."
+   "answer": "Kebok is a goblin in Booty Bay whose agents and guards work in the jungle. He must answer to Baron Revilgaz for their costs."
   },
   {
    "q": "Why does Kebok want Bloodscalp ears?",
@@ -54,7 +54,7 @@
     "why bloodscalp ears",
     "why collect ears"
    ],
-   "answer": "Bloodscalp trolls have been killing his agents in the jungle and costing him many of his best guards in skirmishes. The costs are piling up and he has no good way to explain them to Baron Revilgaz."
+   "answer": "Bloodscalp trolls have killed Kebok's agents and many of his best guards in jungle skirmishes. The costs are mounting, and he must answer to Baron Revilgaz for them."
   },
   {
    "q": "How many ears are required?",
@@ -62,7 +62,7 @@
     "how many ears",
     "ear count"
    ],
-   "answer": "Kebok requires fifteen Bloodscalp ears before he will hand over your payment."
+   "answer": "Kebok asks you to bring him fifteen Bloodscalp ears before he pays you."
   },
   {
    "q": "Where does this bounty lead next?",
@@ -71,7 +71,7 @@
     "bloodscalp ears follow up",
     "next quest"
    ],
-   "answer": "Once Kebok compensates you for the Bloodscalp ears, he shifts his attention to another local threat in Skullsplitter Tusks."
+   "answer": "After Kebok pays you for the Bloodscalp ears, he turns to another local threat: Skullsplitter Tusks."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  "attribution": [
   "Bloodscalp Ears",
   "In-game quest text: Bloodscalp Ears"
- ]
+ ],
+ "style": 2
 }

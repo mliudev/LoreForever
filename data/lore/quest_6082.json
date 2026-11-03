@@ -23,16 +23,16 @@
    "Training the Beast (Orc and Troll)"
   ]
  },
- "summary": "In Durotar, Taming the Beast tests a young Horde hunter's skill with wild creatures. Thotar in Razor Hill guides the hunter through one last trial: taming a dangerous armored scorpid. Success brings the ability to tame, call, and dismiss a lasting companion.",
+ "summary": "In Durotar, a young Horde hunter faces the last trial of Taming the Beast. Thotar in Razor Hill sends the hunter to tame an armored scorpid. Success grants the power to tame, call, and dismiss a lasting companion.",
  "sections": [
   {
    "title": "The Final Trial",
-   "body": "Before a hunter can travel Kalimdor with an animal companion, they must prove they can command Durotar's harsh wildlife. Thotar, the hunter trainer in Razor Hill, sends trainees to subdue three kinds of creature with an enchanted taming rod. After facing dire boars and swift surf crawlers, they must now tame an armored scorpid, a venomous predator protected by heavy plates and known for resilience and speed.",
+   "body": "A hunter must first prove they can command Durotar's harsh wildlife before traveling Kalimdor with an animal companion. Thotar trains hunters in Razor Hill and sends them to subdue three kinds of creature with an enchanted taming rod. Dire boars and swift surf crawlers have already tested them. Now they face an armored scorpid, a venomous predator with heavy plates, known for its resilience and speed.",
    "spoiler": 0
   },
   {
    "title": "Bonding with the Wild",
-   "body": "Taming an armored scorpid tests a hunter's focus and control under attack, not their skill at killing. Thotar urges hunters to match the beast's quick, confident strikes. Once the hunter has charmed the scorpid, they return to Razor Hill and give the taming rod back to Thotar. That return completes the trial, and Thotar then teaches the wild's innate techniques, letting the hunter seek out and bind a permanent companion of their choosing.",
+   "body": "Taming an armored scorpid tests focus and control under attack, not a hunter's skill at killing. Thotar urges hunters to meet the beast's quick, confident strikes. Once the scorpid is charmed, the hunter returns to Razor Hill and gives the taming rod back to Thotar. Then Thotar teaches the wild's innate techniques, so the hunter can seek out and bind a permanent companion of their choosing.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "target beast",
     "scorpid quest"
    ],
-   "answer": "For this trial, tame an armored scorpid with Thotar's taming rod. The creature roams Durotar's arid red crags."
+   "answer": "For this trial, tame an armored scorpid with Thotar's taming rod. It roams Durotar's arid red crags."
   },
   {
    "q": "Do I get to keep the armored scorpid after finishing the quest?",
@@ -62,7 +62,7 @@
     "who gives taming the beast",
     "thotar location"
    ],
-   "answer": "Thotar, the hunter trainer in Razor Hill in central Durotar, oversees this rite for young orc and troll hunters."
+   "answer": "Thotar, the hunter trainer in Razor Hill, oversees this rite for young orc and troll hunters."
   },
   {
    "q": "Why does Thotar want hunters to tame an armored scorpid specifically?",
@@ -70,7 +70,7 @@
     "why scorpid",
     "purpose of scorpid"
    ],
-   "answer": "Thotar sees the armored scorpid as a model for its confident, swift strikes and resilience. Taming such a dangerous predator proves a hunter can command wild beasts."
+   "answer": "Thotar sees the armored scorpid as a model of confident, swift strikes and resilience. Taming such a dangerous predator proves a hunter can command wild beasts."
   },
   {
    "q": "What skills do you learn upon completing this quest?",
@@ -88,13 +88,13 @@
     "what's next",
     "after taming 3"
    ],
-   "answer": "After learning to tame and call a companion, you can follow Thotar's direction to Training the Beast, where you learn to feed and command your ally."
+   "answer": "After learning to tame and call a companion, you can follow Thotar's direction to Training the Beast. There, you learn to feed and command your ally."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, this rite marks an early milestone and grants you the core skills to tame, call, and command animal companions."
+   "text": "As a hunter, this rite marks an early milestone. It grants you the core skills to tame, call, and command animal companions."
   },
   {
    "target": "faction:Horde",
@@ -131,5 +131,5 @@
  "attribution": [
   "Taming the Beast (Orc and Troll 3)"
  ],
- "style": 1
+ "style": 2
 }

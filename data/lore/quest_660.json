@@ -28,16 +28,16 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "Kinelory is ready to head down to the farm, and asks you to go with her. She fears the undead may harm Hillsbrad while they wait, and she needs you to see her safely back.",
+ "summary": "Kinelory is ready to go down to the farm, and asks you to come with her. She fears the undead may harm Hillsbrad while they wait. You are needed to see her safely back.",
  "sections": [
   {
    "title": "Watching Kinelory's Back",
-   "body": "Kinelory is ready to act after the earlier steps of the investigation. She asks you to go with her down to the farm, then see her safely back to Quae. Anyone who cares about the people of Hillsbrad is urged to protect her.",
+   "body": "Kinelory is ready to act after the earlier steps of the investigation. She asks you to go with her down to the farm, then return safely to Quae. The people of Hillsbrad need her protected.",
    "spoiler": 0
   },
   {
    "title": "A Safe Return",
-   "body": "Quae thanks you when Kinelory returns. Quae admits to hoping Kinelory was not too much of a handful: Kinelory is very friendly, but just as deadly when you are her enemy.",
+   "body": "Quae thanks you when Kinelory returns. Quae admits she hoped Kinelory would not be too much of a handful. Kinelory is friendly, yet deadly to her enemies.",
    "spoiler": 1
   }
  ],
@@ -58,7 +58,7 @@
     "where does kinelory go",
     "kinelory destination"
    ],
-   "answer": "Kinelory goes down to a farm, then makes her way back to Quae."
+   "answer": "Kinelory goes down to a farm, then returns to Quae."
   },
   {
    "q": "Who do you report to when finished?",
@@ -67,7 +67,7 @@
     "who completes quest",
     "where to turn in"
    ],
-   "answer": "You report to Quae once Kinelory has made it back to her."
+   "answer": "You report to Quae once Kinelory has returned to her."
   },
   {
    "q": "What came right before this part of the investigation?",
@@ -76,7 +76,7 @@
     "prereq",
     "what comes before"
    ],
-   "answer": "The third part of Hints of a New Plague? leads straight into this part of the investigation."
+   "answer": "The third part of Hints of a New Plague? leads into this part of the investigation."
   },
   {
    "q": "What follows after returning safely?",
@@ -85,7 +85,7 @@
     "what comes next",
     "follow up"
    ],
-   "answer": "The investigation continues with the fifth part of Hints of a New Plague?."
+   "answer": "The investigation continues with its fifth part."
   },
   {
    "q": "Why must Kinelory be protected?",
@@ -93,7 +93,7 @@
     "why protect kinelory",
     "why care about kinelory"
    ],
-   "answer": "Anyone who cares about the people of Hillsbrad is urged to see Kinelory safely through."
+   "answer": "Kinelory needs protection so she can return safely while the undead may harm the people of Hillsbrad."
   }
  ],
  "angles": [],
@@ -111,5 +111,5 @@
  "attribution": [
   "Hints of a New Plague? (4)"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarven expedition crews and archaeological digs are common across Khaz Modan, but venturing beyond the safety of Loch Modan into the dangerous Wetlands often carries severe risks for kin."
+   "text": "As a dwarf, you know expedition crews and archaeological digs are common across Khaz Modan. The Wetlands beyond Loch Modan are dangerous, and journeys there put kin at risk."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance travelers venturing between Loch Modan and Menethil Harbor often pass through the excavation sites, lending aid to stranded dwarven prospectors and artisans."
+   "text": "As an Alliance traveler, you may pass excavation sites on the way between Loch Modan and Menethil Harbor. There, you can aid stranded dwarven prospectors and artisans."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "songblade search quest giver",
     "dorin songblade"
    ],
-   "answer": "Dorin Songblade gives the quest. He is an artisan currently overwhelmed with work refitting a pile of girdles, which kept him from accompanying his brother on an archaeological dig.",
+   "answer": "Dorin Songblade asks travelers to check on his brother. Work refitting girdles fills the artisan's hands, so he could not join Daewyn's archaeological dig.",
    "q": "Who gives the quest Songblade Search?"
   },
   {
@@ -37,7 +37,7 @@
     "missing songblade dwarf",
     "daewyn songblade"
    ],
-   "answer": "Daewyn Songblade is Dorin Songblade's brother. He departed alongside an excavation crew out of Loch Modan bound for the untamed hills of the Wetlands, but failed to send word back as he typically does.",
+   "answer": "Daewyn Songblade is Dorin Songblade's brother. He left with an excavation crew from Loch Modan for the Wetlands hills, but has not sent word as he usually does.",
    "q": "Who is Daewyn Songblade?"
   },
   {
@@ -46,7 +46,7 @@
     "where to find daewyn songblade",
     "songblade search location"
    ],
-   "answer": "Daewyn is located at Whelgar's Excavation Site in the Wetlands. He can be identified by his strong familial resemblance to Dorin and his firearm, which has 'DLS' carved into its wooden stock.",
+   "answer": "Daewyn is at Whelgar's Excavation Site in the Wetlands. His resemblance to Dorin and the DLS initials carved into his rifle's wooden stock identify him.",
    "q": "Where can Daewyn be found?"
   },
   {
@@ -55,7 +55,7 @@
     "whelgars excavation purpose",
     "why did the dwarfs go to wetlands"
    ],
-   "answer": "Daewyn joined a dwarven digging expedition out of Loch Modan seeking uncharted hills in the Wetlands to conduct an archaeological excavation.",
+   "answer": "Daewyn traveled to the Wetlands with a dwarven digging expedition from Loch Modan to excavate unexplored hills.",
    "q": "Why did Daewyn travel to the Wetlands?"
   },
   {
@@ -64,7 +64,7 @@
     "dls gun carving",
     "dls initials"
    ],
-   "answer": "The initials 'DLS' carved into the firearm stock belong to Daewyn Songblade, confirming the dwarf found at the excavation site is indeed Dorin's missing brother.",
+   "answer": "The initials DLS carved into the rifle stock belong to Daewyn Songblade. They identify the dwarf at the excavation site as Dorin's missing brother.",
    "q": "What do the initials carved on the gun mean?"
   },
   {
@@ -73,7 +73,7 @@
     "why look for daewyn",
     "songblade search reason"
    ],
-   "answer": "Dorin grew concerned because Daewyn usually writes back promptly after setting off on a journey. Having received no letters following the departure to the Wetlands, Dorin felt an uneasy premonition that something had gone wrong.",
+   "answer": "Dorin worries because Daewyn usually writes promptly after setting out. No letters have come since Daewyn left for the Wetlands, and Dorin fears something has gone wrong.",
    "q": "Why was Dorin worried about his brother?"
   }
  ],
@@ -94,18 +94,19 @@
  ],
  "sections": [
   {
-   "body": "Dorin Songblade remained behind at his workshop, inundated with orders to refit girdles, while his brother Daewyn joined a dwarven excavation crew setting out from Loch Modan. Daewyn ventured north into the rugged hills of the Wetlands, eager to explore virgin ground untouched by dwarven pickaxes. However, Daewyn customarily sends letters immediately after arriving, and his silence left Dorin deeply unsettled.",
+   "body": "Dorin Songblade tends his workshop, buried in orders to refit girdles. His brother Daewyn has gone north with a dwarven excavation crew from Loch Modan. The hills they seek in the Wetlands have never felt a dwarven pickaxe. Daewyn usually writes as soon as he arrives, but no word has reached Dorin, and the silence unsettles him.",
    "spoiler": 0,
    "title": "A Brother's Unease"
   },
   {
-   "body": "Travelers journeying into the Wetlands can locate Daewyn Songblade among the diggers at Whelgar's Excavation Site. Resembling his brother Dorin closely, Daewyn carries a distinctive rifle marked with the initials 'DLS' carved into the wooden stock, proving that he did reach the remote excavation camp in the marshlands.",
+   "body": "Daewyn Songblade digs at Whelgar's Excavation Site in the Wetlands. He looks much like his brother Dorin and carries a rifle with DLS carved into its wooden stock. Those initials mark Daewyn at the remote excavation camp in the marshlands.",
    "spoiler": 1,
    "title": "The Dig in the Wetlands"
   }
  ],
- "summary": "Songblade Search is a dwarven errand in which Dorin Songblade asks travelers to check on his brother Daewyn in the Wetlands. Daewyn set off with an archaeological crew from Loch Modan to dig in unexplored hills, but his uncharacteristic silence left his brother fearing the worst.",
+ "summary": "Dorin Songblade waits for word from his brother Daewyn in the Wetlands. Daewyn joined an archaeological crew from Loch Modan to dig in unexplored hills, but his silence is unlike him.",
  "attribution": [
   "In-game quest text: Songblade Search"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Beached Sea Creature (1)",
   "chain": []
  },
- "summary": "At Mist's Edge, a giant sea thresher lies stranded while murlocs feed on its carcass. In Auberdine, Gwennyth Bly'Leggonde gathers samples for night elf researchers in Darnassus, who seek to learn why deep-sea giants are washing ashore.",
+ "summary": "At Mist's Edge, a giant sea thresher lies stranded as murlocs feed on its carcass. In Auberdine, Gwennyth Bly'Leggonde gathers samples for night elf researchers in Darnassus, who seek to learn why deep-sea giants wash ashore.",
  "sections": [
   {
    "title": "A Giant on the Shallows",
-   "body": "Enormous thresher remains have appeared along Mist's Edge, where shipwrecks and tide-washed debris are familiar sights. This beast dwarfs the wildlife of Darkshore's shallows, suggesting it came from far beyond the calm waters of the Veiled Sea. Murlocs swarm over the corpse to feed, but they lack the strength and coordination to bring down a creature of this size. Something else killed the predator before the sea carried it ashore.",
+   "body": "Along Mist's Edge, enormous thresher remains have joined the shipwrecks and debris washed in by the tide. The beast dwarfs the wildlife of Darkshore's shallows. Its size suggests it came from beyond the Veiled Sea, from waters far from the calm waters here. Murlocs swarm over the corpse, but they lack the strength and coordination to bring down such a creature. Something else killed the predator before the sea carried it ashore.",
    "spoiler": 0
   },
   {
    "title": "Studies in Darnassus",
-   "body": "Gwennyth Bly'Leggonde coordinates efforts in Auberdine to salvage bones and biological samples from Darkshore's stranded sea giants. Night elf researchers in Darnassus hope the remains will show whether illness, disturbances in the deep sea, or arcane corruption drives the giants onto the killing sands.",
+   "body": "In Auberdine, Gwennyth Bly'Leggonde coordinates the salvage of bones and biological samples from Darkshore's stranded sea giants. Night elf researchers in Darnassus hope the remains will show whether illness, disturbances in the deep sea, or arcane corruption drives the giants onto the killing sands.",
    "spoiler": 0
   }
  ],
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, the strandings along Darkshore signal trouble in the surrounding waters. Naturalists in Auberdine and Darnassus are investigating before more marine life perishes."
+   "text": "For night elves, strandings along Darkshore signal trouble in the surrounding waters. Naturalists in Auberdine and Darnassus are investigating before more marine life perishes."
   },
   {
    "target": "class:Druid",
@@ -113,5 +113,5 @@
  "attribution": [
   "Beached Sea Creature (1)"
  ],
- "style": 1
+ "style": 2
 }

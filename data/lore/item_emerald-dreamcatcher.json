@@ -10,11 +10,11 @@
    "quest:2438"
   ]
  },
- "summary": "In Starbreeze Village, the Emerald Dreamcatcher lies forgotten after the Gnarlpine furbolgs drove out its people. Druids of Ban’ethil Barrow Den gave it to Tallonkai Swiftroot, hoping it would draw vigor from the Emerald Dream.",
+ "summary": "In Starbreeze Village, the Emerald Dreamcatcher lies forgotten after the Gnarlpine furbolgs drove its people away. Druids of Ban’ethil Barrow Den gave the amulet to Tallonkai Swiftroot, hoping it would draw vigor from the Emerald Dream.",
  "sections": [
   {
    "title": "A Gift from Ban'ethil",
-   "body": "Gaerolas Talvethren, the druidic warden of Ban’ethil Barrow Den, oversaw the making of the Emerald Dreamcatcher. The druids gave the enchanted amulet to only a chosen few. It draws ambient energy from the Emerald Dream, bringing fortune and protection to whoever carries it. When the maddened Gnarlpine furbolgs overran Starbreeze Village, the amulet remained inside a dresser, stranded in hostile, corrupted territory.",
+   "body": "Gaerolas Talvethren, the druidic warden of Ban’ethil Barrow Den, oversaw the making of the Emerald Dreamcatcher. The druids gave this enchanted amulet to only a chosen few. It draws energy from the Emerald Dream, bringing fortune and protection to its bearer. When maddened Gnarlpine furbolgs overran Starbreeze Village, the amulet stayed in a dresser, left behind in hostile, corrupted territory.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is the dreamcatcher for",
     "dreamcatcher lore"
    ],
-   "answer": "Tallonkai Swiftroot says the amulet draws raw energy from the Emerald Dream, bringing luck and vitality to whoever possesses it. The Cenarion druids regard it as a rare token of favor."
+   "answer": "Tallonkai Swiftroot says the amulet draws raw energy from the Emerald Dream. It brings luck and vitality to whoever possesses it, and the Cenarion druids regard it as a rare token of favor."
   },
   {
    "q": "Who made the Emerald Dreamcatcher?",
@@ -42,7 +42,7 @@
     "why did tallonkai leave it",
     "where was the dreamcatcher lost"
    ],
-   "answer": "Tallonkai kept the amulet in his dresser in Starbreeze Village. When corruption consumed the local Gnarlpine furbolgs and turned them violent, the settlement had to be abandoned before he could retrieve it."
+   "answer": "Tallonkai kept the amulet in his dresser in Starbreeze Village. When corruption consumed the local Gnarlpine furbolgs and made them violent, the settlement had to be abandoned before he could retrieve it."
   },
   {
    "q": "Why are the furbolgs in Starbreeze Village hostile?",
@@ -50,17 +50,17 @@
     "why did star breeze fall",
     "starbreeze village furbolgs"
    ],
-   "answer": "The Gnarlpine tribe across Teldrassil has fallen to a dark, spreading corruption that drives its members into an aggressive frenzy. Night elves have been forced to flee outlying settlements such as Starbreeze."
+   "answer": "The Gnarlpine tribe across Teldrassil has fallen to a dark, spreading corruption. It drives the tribe into an aggressive frenzy, forcing night elves to flee outlying settlements such as Starbreeze."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you can see how the amulet links the sleeping druids of Ban’ethil Barrow Den to the settlements of the Kaldorei below, carrying aid through their communion with the Emerald Dream."
+   "text": "As a druid, you can see how the amulet links the sleeping druids of Ban’ethil Barrow Den with the Kaldorei settlements below. Through their communion with the Emerald Dream, they carry aid to those settlements."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, recovering the relic is a small victory against the spreading sickness taking Starbreeze Village and the surrounding boughs of Teldrassil."
+   "text": "As a night elf, recovering the relic is a small victory against the spreading sickness in Starbreeze Village and the surrounding boughs of Teldrassil."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Emerald Dreamcatcher",
   "The Emerald Dreamcatcher (quest)"
  ],
- "style": 1
+ "style": 2
 }

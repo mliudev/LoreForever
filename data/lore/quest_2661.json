@@ -30,11 +30,11 @@
   ],
   "category": "Tanaris"
  },
- "summary": "Sprinkle in Gadgetzan hands you the Violet Powder to carry to Marin Noggenfogger, along with a reminder that Marin owes her a favor.",
+ "summary": "In Gadgetzan, Sprinkle sends Violet Powder to Marin Noggenfogger and reminds her of the favor Marin owes.",
  "sections": [
   {
    "title": "A Town Delivery",
-   "body": "With the Violet Tragan in hand, Sprinkle gives you the Violet Powder to take to Marin Noggenfogger, who is also in Gadgetzan. You are to tell Marin that a favor is owed to her.",
+   "body": "In Gadgetzan, Sprinkle gives you Violet Powder after you bring her the Violet Tragan. Marin Noggenfogger is in the same town, and Sprinkle asks you to remind Marin that she owes a favor.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "delivery for marin quest giver",
     "sprinkle delivery"
    ],
-   "answer": "Sprinkle, in Gadgetzan, gives you the Violet Powder after you bring her the Violet Tragan."
+   "answer": "Sprinkle sends you to Marin Noggenfogger with Violet Powder after you bring her the Violet Tragan."
   },
   {
    "q": "What item are you delivering?",
@@ -55,7 +55,7 @@
     "marin delivery item",
     "what powder is it"
    ],
-   "answer": "Violet Powder, which Sprinkle gives you to carry to Marin Noggenfogger."
+   "answer": "Sprinkle gives you Violet Powder to deliver to Marin Noggenfogger."
   },
   {
    "q": "Where is Marin Noggenfogger located?",
@@ -64,7 +64,7 @@
     "where is marin",
     "find marin noggenfogger"
    ],
-   "answer": "In Gadgetzan, the same town as Sprinkle."
+   "answer": "Marin Noggenfogger is in Gadgetzan, the same town as Sprinkle."
   },
   {
    "q": "What message does Sprinkle want passed to Marin?",
@@ -73,7 +73,7 @@
     "what does sprinkle say to marin",
     "sprinkle favor"
    ],
-   "answer": "She wants Marin told that he owes her a favor."
+   "answer": "Sprinkle asks you to tell Marin Noggenfogger that Marin owes her a favor."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Delivery for Marin"
- ]
+ ],
+ "style": 2
 }

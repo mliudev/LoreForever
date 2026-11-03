@@ -10,16 +10,16 @@
    "quest:101"
   ]
  },
- "summary": "In Duskwood, Ghoul Fang is gathered from the undead for Madame Eva’s protective talismans. The fangs are essential to her work in Darkshire, where travelers face the forest’s encroaching darkness.",
+ "summary": "In Duskwood, travelers face the forest’s encroaching darkness, and Ghoul Fang is gathered for Madame Eva’s protective talismans. The fangs are essential to her work in Darkshire.",
  "sections": [
   {
    "title": "Trophies of the Restless Dead",
-   "body": "Ravenous undead haunt Duskwood’s shadowed woods and graves. Flesh Eaters lurk near the burial grounds, while Rotted Ones roam among the trees. Taking a fang from these creatures is grim work, and proof of survival against the dead threatening Darkshire’s borders.",
+   "body": "Ravenous undead haunt Duskwood’s woods and graves. Flesh Eaters lurk near the burial grounds, while Rotted Ones roam among the trees. Taking a fang from these creatures is grim work. It proves survival against the dead threatening Darkshire’s borders.",
    "spoiler": 0
   },
   {
    "title": "Occult Reagents",
-   "body": "Madame Eva, Darkshire’s fortune teller and mystic, sees terrible omens around travelers who cross Duskwood. She combines ghoul fangs with skeletal fingers and arachnid venom to enchant the Totem of Infliction. The charm turns the forest’s dark forces against violent assault, protecting the one who bears it.",
+   "body": "Madame Eva is Darkshire’s fortune teller and mystic. She sees terrible omens around travelers crossing Duskwood, so she enchants the Totem of Infliction with ghoul fangs, skeletal fingers, and arachnid venom. The charm turns the forest’s dark forces against violent assault and protects its bearer.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who drops ghoul fangs",
     "ghoul fang location"
    ],
-   "answer": "Various types of ghouls haunt Duskwood’s graveyards and lonely pathways. They include Plague Spreaders, Brain Eaters, Bone Chewers, Fetid Corpses, Rotted Ones, and Flesh Eaters."
+   "answer": "Various ghouls haunt Duskwood’s graveyards and lonely pathways. They include Plague Spreaders, Brain Eaters, Bone Chewers, Fetid Corpses, Rotted Ones, and Flesh Eaters."
   },
   {
    "q": "Who wants Ghoul Fangs?",
@@ -40,7 +40,7 @@
     "ghoul fang turn in",
     "madame eva quest"
    ],
-   "answer": "Madame Eva, the mystic in Darkshire, needs Ghoul Fangs for the ritual that crafts the defensive Totem of Infliction."
+   "answer": "Madame Eva, the mystic in Darkshire, needs Ghoul Fangs to craft the defensive Totem of Infliction."
   },
   {
    "q": "Why does Madame Eva need them?",
@@ -49,13 +49,13 @@
     "totem of infliction materials",
     "what does madame eva do with fangs"
    ],
-   "answer": "Madame Eva senses danger gathering around travelers. She uses the fangs with skeleton fingers and spider venom to enchant a protective totem that punishes anyone who strikes its bearer."
+   "answer": "Madame Eva senses danger gathering around travelers. She combines the fangs with skeleton fingers and spider venom to enchant a protective totem that punishes anyone who strikes its bearer."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance adventurers helping embattled Darkshire, gathering these fangs turns Duskwood’s horrors into tools for survival against the encroaching Scourge-like taint."
+   "text": "As an Alliance adventurer helping embattled Darkshire, you can turn Duskwood’s horrors into tools for survival against the encroaching Scourge-like taint."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
   "Ghoul Fang",
   "The Totem of Infliction"
  ],
- "style": 1
+ "style": 2
 }

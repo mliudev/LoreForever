@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lake Nazferiti"
  },
- "summary": "Lake Nazferiti is a sprawling freshwater lake nestled in the dense jungle of northern Stranglethorn Vale. Fed by a vast river system stretching far north into the mountains, its waters are infested with ferocious crocolisks and snapping frenzies, while its shores host an industrial encampment operated by the goblin Venture Company.",
+ "summary": "In northern Stranglethorn, river waters gather at Lake Nazferiti. Crocolisks and snapping frenzies hunt beneath its surface, while the Venture Company works along the shores.",
  "sections": [
   {
    "title": "Heart of the Jungle Waterway",
-   "body": "Lake Nazferiti sits along the Nazferiti River, one of the longest continuous waterways across the southern Eastern Kingdoms. The river traces its origins deep into the northern heights, tumbling down waterfalls from the Redridge Mountains and possibly originating as far inland as Deadwind Pass. Within Stranglethorn, the water widens into this murky lake, teeming with vicious predators like snapping river frenzies and ambush-hunting crocolisks that make casual swimming deadly.",
+   "body": "The Nazferiti River runs across the southern Eastern Kingdoms and widens into Lake Nazferiti in Stranglethorn. It begins in the northern heights, where it plunges from the Redridge Mountains in waterfalls. Its headwaters may reach as far inland as Deadwind Pass. By the time the river spreads into the lake, its waters are murky. Snapping river frenzies and crocolisks hunt there, making a swim deadly.",
    "spoiler": 0
   },
   {
    "title": "Venture Company Encroachment",
-   "body": "The natural balance of Lake Nazferiti is under siege by the goblins of the Venture Company. Setting up heavy operations along the lake's banks, these ruthless profiteers exploit the jungle's timber and resources with mechanical saws, drills, and clear-cutting crews. Their sprawling base pollutes the waterways and constantly clashes with local wildlife and wandering hunters braving the vale.",
+   "body": "The Venture Company has brought heavy operations to Lake Nazferiti's banks. Goblins cut jungle timber and take other resources with saws, drills, and crews that clear the land. Their base pollutes the water. The work brings them into constant clashes with local wildlife and hunters traveling through the vale.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where does lake nazferiti come from",
     "water source lake nazferiti"
    ],
-   "answer": "The lake is fed by the Nazferiti River, an extensive river network originating high in the northern mountains. Its confirmed source is a waterfall pouring down from the Redridge Mountains, with unconfirmed headwaters reaching as far inland as the crags of Deadwind Pass."
+   "answer": "Lake Nazferiti is fed by the Nazferiti River, which begins high in the northern mountains. A waterfall from the Redridge Mountains marks its confirmed source, though the headwaters may reach as far inland as Deadwind Pass."
   },
   {
    "q": "Who controls the shores of Lake Nazferiti?",
@@ -37,7 +37,7 @@
     "goblins at lake nazferiti",
     "venture co lake"
    ],
-   "answer": "The goblin-run Venture Company occupies a major base along the lake's borders. They use the foothold to strip the surrounding jungle of wood and mineral resources, deploying armed overseers and goblin machinery along the water's edge."
+   "answer": "The Venture Company occupies a major base along Lake Nazferiti's shores. Goblins strip the jungle for wood and minerals, with armed overseers and machinery along the water's edge."
   },
   {
    "q": "Is it safe to swim in Lake Nazferiti?",
@@ -46,7 +46,7 @@
     "what lives in lake nazferiti",
     "creatures in lake nazferiti"
    ],
-   "answer": "Swimming in the lake is hazardous. The murky waters harbor packs of aggressive river frenzies and lurking crocolisks, both quick to attack anyone stepping away from the shallows."
+   "answer": "Swimming in Lake Nazferiti is dangerous. Aggressive river frenzies and lurking crocolisks attack those who venture beyond the shallows."
   },
   {
    "q": "Where is Lake Nazferiti located?",
@@ -55,17 +55,17 @@
     "where is lake nazferiti",
     "find lake nazferiti"
    ],
-   "answer": "Lake Nazferiti is situated in northern Stranglethorn Vale, just south of the border with Duskwood and west of the Zul'Gurub ruins along the main river highway."
+   "answer": "Lake Nazferiti lies in northern Stranglethorn Vale, just south of the Duskwood border and west of the Zul'Gurub ruins, along the main river highway."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The shores and depths of Lake Nazferiti offer abundant game, from aggressive river beasts to dangerous crocolisks prowling the reeds."
+   "text": "As a hunter, you can find game along Lake Nazferiti's shores and in its depths. Aggressive river beasts and crocolisks prowl the reeds."
   },
   {
    "target": "race:NightElf",
-   "text": "The industrial scars left by the Venture Company along Lake Nazferiti demonstrate the raw environmental devastation wrought by unrestrained goblin greed."
+   "text": "As a night elf, you can see the damage the Venture Company has done along Lake Nazferiti. Goblin greed scars the land."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Lake Nazferiti"
- ]
+ ],
+ "style": 2
 }

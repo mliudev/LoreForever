@@ -20,21 +20,21 @@
    "A New Ore Sample"
   ]
  },
- "summary": "At Camp Taurajo, Tatternack Steelforge investigates reports of sturdy Razormane weapons. He sends travelers past the Field of Giants to recover them, so the Horde can judge the threat.",
+ "summary": "At Camp Taurajo, Tatternack Steelforge studies reports of sturdy Razormane weapons. He sends travelers past the Field of Giants to recover them, so the Horde can judge the danger.",
  "sections": [
   {
    "title": "A Curious Advancement",
-   "body": "The Razormane are making unusually durable weapons in the southern Barrens. Most quilboar are dismissed as crude fighters with tools of wood, bone, and stone, so the reports have caught the Horde’s attention. Tatternack Steelforge, an orc smith at Camp Taurajo, is investigating under orders from Warchief Thrall. He doubts the quilboar know proper metalwork and wants proof of whether they have learned new techniques or found better supplies.",
+   "body": "In the southern Barrens, the Razormane are making unusually durable weapons. The Horde has taken notice, for most quilboar are thought to fight crudely with wood, bone, and stone. Tatternack Steelforge, an orc smith at Camp Taurajo, investigates under orders from Warchief Thrall. He doubts the quilboar know proper metalwork and seeks proof: have they learned new techniques, or found better supplies?",
    "spoiler": 0
   },
   {
    "title": "Armaments of the Razormane",
-   "body": "Tatternack needs weapons from different parts of the Razormane arsenal to study their craft. South of the Field of Giants, scouts face Razormane war camps and seize weapons from their fighters. Razormane Stalkers carry backstabber daggers, Razormane Seers wield charred wands, and frenzied shock troops bear heavy war shields. Each item offers a glimpse of the martial and mystic arts behind the Razormane push against Horde territory.",
+   "body": "Tatternack needs weapons from different parts of the Razormane arsenal to study their craft. South of the Field of Giants, scouts face Razormane war camps and seize weapons from their fighters. Razormane Stalkers carry backstabber daggers, Razormane Seers wield charred wands, and frenzied shock troops bear heavy war shields. Together, these arms reveal something of the martial and mystic arts behind the Razormane push against Horde territory.",
    "spoiler": 0
   },
   {
    "title": "Underestimating the Enemy",
-   "body": "Tatternack finds the recovered weapons far better made and stronger than the Horde expected. Their quality shows that the Horde has underestimated the Razormane. Tatternack sets aside his forge work to study the materials, suspecting an outside influence or a newly found resource is helping their war effort.",
+   "body": "Tatternack finds the recovered weapons far better made and stronger than the Horde expected. Their quality shows how greatly the Horde has underestimated the Razormane. He sets aside his forge work to study the materials, suspecting an outside influence or a newly found resource is aiding their war effort.",
    "spoiler": 1
   }
  ],
@@ -55,7 +55,7 @@
     "reason for weapons of choice",
     "tatternack motives"
    ],
-   "answer": "Reports say the southern Razormane have unusually durable weapons despite no known tradition of skilled smithing. Tatternack wants to study their daggers, wands, and shields to learn how they are made and whether they pose a greater threat."
+   "answer": "Reports say the southern Razormane make unusually durable weapons despite no known tradition of skilled smithing. Tatternack wants to study their daggers, wands, and shields to learn how they are made and whether they pose a greater threat."
   },
   {
    "q": "Where are the Razormane quilboar located for this task?",
@@ -64,7 +64,7 @@
     "weapons of choice location",
     "where to find razormane"
    ],
-   "answer": "The Razormane camps lie in the far southern Barrens, past the Field of Giants and west of the road toward the Great Lift and Thousand Needles."
+   "answer": "The Razormane camps for this task lie in the far southern Barrens, past the Field of Giants and west of the road toward the Great Lift and Thousand Needles."
   },
   {
    "q": "Which quilboar carry the required weapons?",
@@ -130,5 +130,5 @@
  "attribution": [
   "Weapons of Choice"
  ],
- "style": 1
+ "style": 2
 }

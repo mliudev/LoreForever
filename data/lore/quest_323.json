@@ -17,21 +17,21 @@
   "wiki": "Proving Your Worth (Classic)",
   "chain": []
  },
- "summary": "In Duskwood, Sven Yorgen tests your strength before he lets you face Morbent Fel. The hermit seeks revenge for his family and needs proof you can overcome the undead at Raven Hill Cemetery.",
+ "summary": "In Duskwood, Sven Yorgen tests your strength before you face Morbent Fel. The hermit wants revenge for his family and needs proof you can defeat the undead at Raven Hill Cemetery.",
  "sections": [
   {
    "title": "A Bitter Hermit's Test",
-   "body": "At a secluded camp north of the howling woods, Sven Yorgen grieves for his family and burns with fury over their slaughter. He has learned that the Dark Riders who destroyed his homestead were allied with the necromancer Morbent Fel. Sven wants revenge, but he will not send an untried ally straight into Fel's grasp. First, he asks you to prove your combat skill against the skeletal forces at Raven Hill Cemetery.",
+   "body": "Sven Yorgen grieves at a secluded camp north of the howling woods. Fury burns in him over the slaughter of his family. He has learned that the Dark Riders who destroyed his homestead were allied with the necromancer Morbent Fel. Sven wants revenge, but he will not send an untried ally into Fel's grasp. First, he asks you to prove your fighting skill against the skeletons at Raven Hill Cemetery.",
    "spoiler": 0
   },
   {
    "title": "The Raven Hill Crypts",
-   "body": "Raven Hill Cemetery lies south of Forlorn Rowe, and its grounds and mausoleum crawl with corpses bound by Fel's magic. Skeletal Raiders patrol among the tombstones with swords, while Skeletal Warders and Healers tend the chambers below. To earn Sven's trust, you must push deep into the necropolis and clear this vanguard. Mor'Ladim, a vengeful phantom, prowls the cemetery paths.",
+   "body": "Raven Hill Cemetery lies south of Forlorn Rowe, and corpses bound by Fel's magic fill its grounds and mausoleum. Skeletal Raiders patrol among the tombstones with swords. Below, Skeletal Warders and Healers tend the chambers. To earn Sven's trust, you must press deep into the necropolis and clear this vanguard. Mor'Ladim, a vengeful phantom, prowls the cemetery paths.",
    "spoiler": 0
   },
   {
    "title": "The Road to the Necromancer",
-   "body": "Surviving Raven Hill's catacombs convinces Sven that you have more than courage. Fel's lesser minions are only the first obstacle. Morbent Fel's dark enchantments protect him from ordinary weapons, so Sven seeks greater wisdom and ancient relics before the final confrontation.",
+   "body": "Surviving Raven Hill's catacombs convinces Sven that you have more than courage. Fel's lesser minions are only the first obstacle. Morbent Fel's dark enchantments shield him from ordinary weapons. So Sven seeks greater wisdom and ancient relics before the final confrontation.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "why sven makes me kill skeletons",
     "sven test"
    ],
-   "answer": "Sven knows Morbent Fel is a deadly necromancer allied with the mysterious Dark Riders. He will not send you to face him until you show you can fight through a vanguard of undead."
+   "answer": "Sven knows Morbent Fel is a deadly necromancer allied with the mysterious Dark Riders. He will not send you to face Fel until you prove you can fight through a vanguard of undead."
   },
   {
    "q": "Where are the Skeletal Warders and Healers found?",
@@ -100,7 +100,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you can answer the desecration of Raven Hill's tombs with spiritual cleansing and end the warders and healers' corruption of life and death."
+   "text": "As a priest, you can answer the desecration of Raven Hill's tombs with spiritual cleansing and end the warders' and healers' corruption of life and death."
   }
  ],
  "keywords": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Proving Your Worth (Classic)"
  ],
- "style": 1
+ "style": 2
 }

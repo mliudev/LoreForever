@@ -10,11 +10,11 @@
    "quest:6543"
   ]
  },
- "summary": "At Zoram'gar Outpost, Warsong Runner Update carries reports from western Ashenvale to Kadrak.",
+ "summary": "At Zoram'gar Outpost, Warsong Runner Update carries word from western Ashenvale to Kadrak.",
  "sections": [
   {
    "title": "Eyes on the Western Front",
-   "body": "The Warsong runner at Zoram'gar Outpost watches the coast and nearby threats in western Ashenvale. The dispatch records observations gathered by scouts at the outpost and reports on local activity. It travels to Kadrak's watchtower on the Barrens border, helping Horde leaders strengthen their position and plan their movements into the elves' ancestral woods.",
+   "body": "At Zoram'gar Outpost, the Warsong runner watches the coast and nearby threats in western Ashenvale. Scouts gather observations there, and the dispatch records what they see. It travels to Kadrak's watchtower on the Barrens border. The report helps Horde leaders strengthen their position and plan movements into the elves' ancestral woods.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is warsong runner update",
     "warsong report zoram"
    ],
-   "answer": "Warsong Runner Update is a written military dispatch from the Warsong runner at Zoram'gar Outpost in western Ashenvale. It carries frontline observations to Horde leaders at the Barrens border."
+   "answer": "Warsong Runner Update carries frontline observations from the Warsong runner at Zoram'gar Outpost to Horde leaders at the Barrens border."
   },
   {
    "q": "Where does this dispatch come from?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The report shows the difficulty of maintaining distant outposts in hostile night elf territory. Couriers keep communications open between Ashenvale and the Barrens."
+   "text": "The report shows how difficult it is to maintain distant outposts in hostile night elf territory. Couriers keep communications open between Ashenvale and the Barrens."
   },
   {
    "target": "race:Orc",
@@ -89,5 +89,5 @@
   "Warsong Runner Update",
   "The Warsong Reports"
  ],
- "style": 1
+ "style": 2
 }

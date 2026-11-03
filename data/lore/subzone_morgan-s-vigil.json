@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Morgan's Vigil"
  },
- "summary": "Morgan's Vigil is a ruined Alliance redoubt nestled in the southeastern heights of the Burning Steppes. Once a small village, its charred homes and shattered wizard's tower now serve as an austere forward camp for scouts watching the passes to Blackrock Mountain. It remains the sole Alliance foothold in an ash-choked land dominated by Dark Iron dwarves and Blackrock orcs.",
+ "summary": "Alliance defenders keep watch over the passes to Blackrock Mountain from ruined Morgan's Vigil in the Burning Steppes. Charred homes and a shattered mage tower stand around their camp, the Alliance's only foothold in a land held by Dark Iron dwarves and Blackrock orcs.",
  "sections": [
   {
    "title": "The Last Hearth in the Steppes",
-   "body": "Perched upon high stone overlooking the fiery wastes, Morgan's Vigil was once a modest settlement before the horrors of the Burning Steppes overran it. Today, charred timbers and the cracked shell of a ruined mage tower stand as grim reminders of the onslaught. The remaining defenders make do beneath rough canvas tents pitched amid the soot. Despite the ruin, the camp retains a gryphon roost, offering an unbroken aerial link back across the mountains to Stormwind City. It serves as a desperately needed haven where scouts, marshals, and passing adventurers catch their breath away from the marauding warbands below.",
+   "body": "You find Morgan's Vigil on high stone above the fiery wastes of the Burning Steppes. Once a modest settlement, it fell when the horrors of the region overran it. Charred timbers and a cracked mage tower mark what remains. The defenders shelter in rough canvas tents among the soot.\n\nA gryphon roost links the camp by air to Stormwind City across the mountains. Scouts, marshals, and travelers find shelter here from the warbands below.",
    "spoiler": 0
   },
   {
    "title": "The Long Watch",
-   "body": "The outpost draws its name and purpose from the vigilance kept against the looming threat of Blackrock Mountain. With the Dark Iron clan delving deep into dark sorceries and the Blackrock orcs claiming the surrounding wastes, the camp acts as a forward staging ground. Its defenders maintain the camp's defenses, coordinate scouting runs across the ash, and secure the vital pass leading south into Redridge.",
+   "body": "Morgan's Vigil watches against the threat of Blackrock Mountain. The Dark Iron clan delves into dark sorceries, while Blackrock orcs claim the surrounding wastes. So the defenders maintain the camp's defenses and coordinate scouting runs across the ash. They also secure the vital pass leading south into Redridge.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "ruins at morgans vigil",
     "who destroyed morgans vigil"
    ],
-   "answer": "The village's houses and other structures were burned to the ground, and its mage tower was left crumbled and destroyed. The surviving inhabitants live in tents among the ruins. The force responsible for the destruction is not identified."
+   "answer": "The village's houses and other structures burned to the ground, and its mage tower crumbled. The surviving inhabitants live in tents among the ruins. No one identifies who caused the destruction."
   },
   {
    "q": "Who is Morgan?",
@@ -37,7 +37,7 @@
     "morgans vigil namesake",
     "where is morgan"
    ],
-   "answer": "Morgan is the woman after whom the vigil is named. She is not among the defenders currently stationed at the camp."
+   "answer": "Morgan is the woman who gave the vigil its name. She is not among the defenders stationed at the camp now."
   },
   {
    "q": "Why does the Alliance maintain this camp?",
@@ -46,7 +46,7 @@
     "morgans vigil purpose",
     "why keep morgans vigil"
    ],
-   "answer": "It serves as the Alliance's only fortified vantage point in the Burning Steppes, guarding the northern pass to Redridge and keeping watch over troop movements around Blackrock Mountain while receiving swift supplies and reinforcements directly from Stormwind."
+   "answer": "The Alliance keeps this camp as its only fortified vantage point in the Burning Steppes. It guards the northern pass to Redridge and watches troop movements around Blackrock Mountain. Swift supplies and reinforcements come directly from Stormwind."
   },
   {
    "q": "How can I travel to and from Morgan's Vigil?",
@@ -55,7 +55,7 @@
     "how to get to morgans vigil",
     "flight paths morgans vigil"
    ],
-   "answer": "The outpost maintains an Alliance gryphon master connecting directly to Stormwind City, Lakeshire, Nethergarde Keep, Thorium Point across the Searing Gorge, and Farholde Keep in the Riverglades."
+   "answer": "An Alliance gryphon master connects Morgan's Vigil directly to Stormwind City, Lakeshire, Nethergarde Keep, Thorium Point across the Searing Gorge, and Farholde Keep in the Riverglades."
   },
   {
    "q": "Is Morgan's Vigil safe from attack?",
@@ -64,17 +64,17 @@
     "can horde enter morgans vigil",
     "safe zone"
    ],
-   "answer": "It is heavily guarded by Alliance sentries, but the perimeter is constantly exposed to wandering beasts, fiery elementals, and raiding orcs lurking just outside the ridge."
+   "answer": "Alliance sentries guard the outpost, but its perimeter remains exposed. Wandering beasts, fiery elementals, and raiding orcs lurk just beyond the ridge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This battered bluff is your solitary safe sanctuary in the Burning Steppes, linking directly by flight to Stormwind City while marshaling resistance against the Dark Iron and Blackrock threats."
+   "text": "As an Alliance traveler, you find your only safe sanctuary in the Burning Steppes on this battered bluff. Flights connect directly to Stormwind City, and defenders marshal resistance against the Dark Iron and Blackrock threats."
   },
   {
    "target": "race:Human",
-   "text": "Holding this ridge prevents the horrors spawned beneath Blackrock Mountain from pouring unchecked through the pass into the vulnerable valleys of Redridge and the heart of Stormwind."
+   "text": "As a human, you know holding this ridge keeps horrors from beneath Blackrock Mountain from pouring unchecked through the pass into Redridge's vulnerable valleys and the heart of Stormwind."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Morgan's Vigil"
- ]
+ ],
+ "style": 2
 }

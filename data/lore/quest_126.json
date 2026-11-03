@@ -23,16 +23,16 @@
    "Howling in the Hills"
   ]
  },
- "summary": "Gnoll calls carry across the hills around Lakeshire, where Verner Osgood offers a bounty on Yowler. Stormwind's forces are stretched thin by the Blackrock orcs, leaving the town to rely on visitors against the gnolls.",
+ "summary": "Gnoll cries trouble the hills around Lakeshire, where Verner Osgood offers a bounty on Yowler. With Stormwind's forces stretched thin by the Blackrock orcs, the town relies on visitors to face the gnolls.",
  "sections": [
   {
    "title": "The Voice in the Heights",
-   "body": "Gnoll cries still echo through the Redridge hills after lesser gnolls are driven from the paths around Lakeshire. Verner Osgood, the town's farrier, knows the pack will keep raiding while its leader lives. Yowler is a huge, cunning gnoll whose calls direct the pack across the hills. Verner asks for Yowler's paw as proof that the leader has been killed and the calls silenced.",
+   "body": "Gnoll cries still echo through the Redridge hills, though lesser gnolls have been driven from the paths around Lakeshire. Verner Osgood, the town's farrier, knows the pack will keep raiding while its leader lives. Yowler is a huge, cunning gnoll whose calls direct the pack across the hills. Verner asks for Yowler's paw as proof of the kill and of the calls' silence.",
    "spoiler": 0
   },
   {
    "title": "A Town Abandoned by the Army",
-   "body": "Stormwind's eastern border towns face danger with little help from the kingdom's army. King Varian Wrynn is missing, and disputes over the regency have paralyzed high command. Royal soldiers are focused on the Blackrock orc clans in the north, leaving Lakeshire without defenders against gnolls. Townsfolk such as Verner Osgood arrange their own bounties to keep their homes from being overrun.",
+   "body": "Stormwind's eastern border towns face danger with little help from the kingdom's army. King Varian Wrynn is missing, and disputes over the regency have paralyzed high command. Royal soldiers focus on the Blackrock orc clans in the north, leaving Lakeshire without defenders against gnolls. So townsfolk such as Verner Osgood arrange their own bounties to keep their homes from being overrun.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "yowler lore",
     "yowler gnoll"
    ],
-   "answer": "Yowler leads the Redridge gnolls in the hills outside Lakeshire. Verner says he is stronger and more dangerous than the common gnolls, and directs the pack against travelers and homesteads."
+   "answer": "Yowler leads the Redridge gnolls in the hills outside Lakeshire. Verner says he is stronger and more dangerous than common gnolls, and directs the pack against travelers and homesteads."
   },
   {
    "q": "Why is Verner Osgood issuing this bounty instead of the town guard?",
@@ -63,7 +63,7 @@
     "why no stormwind guards",
     "stormwind military lakeshire"
    ],
-   "answer": "Stormwind's soldiers are occupied elsewhere. The army is in Redridge to monitor and contain the Blackrock orc clans farther up in the mountains, leaving Lakeshire without support against local wildlife, murlocs, and gnolls."
+   "answer": "Stormwind's soldiers are occupied elsewhere. The army is in Redridge to monitor and contain the Blackrock orc clans farther up in the mountains, leaving Lakeshire without support against local wildlife, murlocs and gnolls."
   },
   {
    "q": "What happens to the Redridge gnolls once Yowler is dead?",
@@ -128,5 +128,5 @@
  "attribution": [
   "Howling in the Hills"
  ],
- "style": 1
+ "style": 2
 }

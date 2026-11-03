@@ -8,16 +8,16 @@
   "wiki": "Calor",
   "refs": 4
  },
- "summary": "In Darkshire, Calor directs efforts to defend Duskwood from worgen. Under Jonathan Carevin, he helps the Carevin family hunt the beasts stalking the forests.",
+ "summary": "In Darkshire, Calor directs the fight against worgen stalking Duskwood. Under Jonathan Carevin, he helps the Carevin family hunt the beasts threatening the forests.",
  "sections": [
   {
    "title": "A Loyalist in the Shadows",
-   "body": "In Darkshire, Calor supports the Carevin family's fight against the terrors closing in on town. He works with Jonathan Carevin, one of Darkshire's defenders, to eradicate the supernatural horrors before the remaining townsfolk are slaughtered.",
+   "body": "In Darkshire, Calor helps the Carevin family fight the horrors closing in on town. He works under Jonathan Carevin, one of Darkshire's defenders. Together they seek to destroy the supernatural threats before the remaining townsfolk are slaughtered.",
    "spoiler": 0
   },
   {
    "title": "The Worgen Menace",
-   "body": "Calor sends fighters after the worgen prowling Duskwood, especially near the Rotting Orchard. These ferocious wolf-men are more dangerous than common beasts, and they slaughter travelers and patrols alike. Calor calls on capable fighters to thin their ranks and investigate their origins, hoping to stem their attacks.",
+   "body": "Calor sends fighters after the worgen prowling Duskwood, especially near the Rotting Orchard. These wolf-men are more dangerous than common beasts. They slaughter travelers and patrols alike. So Calor calls on capable fighters to thin their ranks and investigate where they came from, hoping to stem their attacks.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "calor location",
     "calor coordinates"
    ],
-   "answer": "Calor is in Darkshire, the Alliance town in the forests of Duskwood."
+   "answer": "Calor can be found in Darkshire, the Alliance town in the forests of Duskwood."
   },
   {
    "q": "What is Calor's relationship with Jonathan Carevin?",
@@ -64,7 +64,7 @@
     "why kill worgen duskwood",
     "duskwood worgen threat"
    ],
-   "answer": "The worgen are vicious predators that attack anything on sight. Without regular culls, they would quickly overrun Darkshire's thin defenses; Calor coordinates efforts alongside the Night Watch."
+   "answer": "The worgen are vicious predators that attack anything on sight. Without regular culls, they could overrun Darkshire's thin defenses. Calor coordinates the effort alongside the Night Watch."
   },
   {
    "q": "Is Calor a member of the Night Watch?",
@@ -72,7 +72,7 @@
     "calor night watch",
     "is calor in night watch"
    ],
-   "answer": "No. Calor grew disillusioned with what he saw as the Night Watch's complacency and joined Jonathan Carevin, supporting the Carevin family's fight against worgen."
+   "answer": "No. Calor grew disillusioned with what he saw as the Night Watch's complacency. He joined Jonathan Carevin and supports the Carevin family's fight against worgen."
   }
  ],
  "angles": [
@@ -82,7 +82,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you can work with Calor to track and cull savage beasts that defy the forest's natural order."
+   "text": "As a hunter, you can work with Calor to track and cull savage beasts that threaten the forest's natural order."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "Calor"
  ],
- "style": 1
+ "style": 2
 }

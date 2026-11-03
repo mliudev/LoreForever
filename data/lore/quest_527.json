@@ -19,16 +19,16 @@
    "Souvenirs of Death"
   ]
  },
- "summary": "In Hillsbrad, the Forsaken strike at the farms that feed the human town. High Executor Darthalia orders the attack from Tarren Mill under Varimathras's command.",
+ "summary": "Across Hillsbrad, the Forsaken strike at the farms that feed the human town. High Executor Darthalia directs the attack from Tarren Mill under Varimathras's command.",
  "sections": [
   {
    "title": "Starving the Resistance",
-   "body": "High Executor Darthalia directs the Forsaken campaign from Tarren Mill. Varimathras in the Undercity has ordered her to break the human resistance in Hillsbrad Foothills. Before attacking the defended town, Darthalia targets its northern fields. The farms feed the town, and disrupting them cuts provisions to the human militia while bringing disorder to the homesteads.",
+   "body": "High Executor Darthalia directs the Forsaken campaign from Tarren Mill. Varimathras in the Undercity has ordered her to break the human resistance in Hillsbrad Foothills. So Darthalia targets the northern fields before attacking the defended town. Those farms feed the town. Disrupting them cuts provisions to the human militia and brings disorder to the homesteads.",
    "spoiler": 0
   },
   {
    "title": "A Delaying Action",
-   "body": "The Forsaken press the human defenders while the Royal Apothecary Society works on a plague meant to destroy the living and the Scourge. Darthalia sees the fighting as a way to hold the humans down until the plague is ready. Farmer Ray and Farmer Getz are among the landowners killed in these early attacks.",
+   "body": "The Forsaken press the human defenders while the Royal Apothecary Society prepares a plague meant to destroy the living and the Scourge. Darthalia uses the fighting to hold the humans down until the plague is ready. Farmer Ray and Farmer Getz are among the landowners killed in these early attacks.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "hillsbrad farm targets",
     "why attack farms"
    ],
-   "answer": "The farmers and farmhands in Hillsbrad Fields help supply the town of Hillsbrad. Killing landowners such as Farmer Ray and Farmer Getz and disrupting the farms cuts food to the human garrison and weakens its defenses before a direct assault."
+   "answer": "Farmers and farmhands in Hillsbrad Fields help supply the town of Hillsbrad. Killing landowners such as Farmer Ray and Farmer Getz disrupts the farms and cuts food to the human garrison, weakening its defenses before a direct assault."
   },
   {
    "q": "Who orders this attack?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As Horde, you see the brutality of Sylvanas's war against the Alliance in the northern campaign from Tarren Mill, even as Thrall preaches honor."
+   "text": "As Horde, you witness the brutality of Sylvanas's war against the Alliance in the northern campaign from Tarren Mill, even as Thrall preaches honor."
   },
   {
    "target": "faction:Alliance",
@@ -124,5 +124,5 @@
  "attribution": [
   "Battle of Hillsbrad (quest)"
  ],
- "style": 1
+ "style": 2
 }

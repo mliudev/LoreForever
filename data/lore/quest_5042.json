@@ -25,16 +25,16 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "In Camp Taurajo, Mangletooth offers Horde travelers Agamaggan's Strength in return for Blood Shards. The captive Razormane shaman draws on his people's reverence for the ancient boar demigod and his hatred of the rival Bristleback tribe.",
+ "summary": "In Camp Taurajo, Mangletooth offers Horde travelers strength drawn from Blood Shards. The captive Razormane shaman honors the ancient boar demigod Agamaggan and hates the rival Bristleback tribe.",
  "sections": [
   {
    "title": "Power of the Great Boar",
-   "body": "The quilboar honor Agamaggan, an ancient boar demigod whose spilled blood is said to have formed the red Blood Shards scattered across the Barrens. They treat the crystals as sacred, drawing on their power to strengthen their front-line fighters. Mangletooth, an elder Razormane shaman held captive in Camp Taurajo, offers this strength to Horde champions. He claims your foes will cower as they do before the Razormane's mightiest champions.",
+   "body": "Quilboar honor Agamaggan, an ancient boar demigod. They say his spilled blood formed the red Blood Shards scattered across the Barrens. The crystals are sacred to them, and their power strengthens the fighters who stand at the front. Mangletooth, an elder Razormane shaman held captive in Camp Taurajo, offers that strength to Horde champions. He says your foes will cower before you as they do before the mightiest Razormane champions.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Shaman's Vengeance",
-   "body": "Mangletooth offers his strength out of spite. The orcs and tauren captured and caged the old quilboar, whose Razormane tribe is at war with the rival Bristleback. Unable to break his chains and slaughter them himself, he trades Agamaggan's gifts for help against them. He rewards those who destroy Bristleback tribes and take the sacred Blood Shards from their lands.",
+   "body": "Mangletooth offers his strength out of spite. Orcs and tauren captured and caged the old quilboar, whose Razormane tribe is at war with the rival Bristleback. He cannot break his chains and slaughter them himself, so he trades Agamaggan's gifts for help against them. Those who destroy Bristleback tribes and take the sacred Blood Shards from their lands earn his blessing.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "agamaggans strength buff",
     "strength blessing barrens"
    ],
-   "answer": "Agamaggan's Strength grants enhanced physical prowess through the power of Blood Shards. It lends the recipient the brutal might of the Razormane's fiercest fighters."
+   "answer": "Agamaggan's Strength lends the recipient greater physical might through the power of Blood Shards. It grants the brutal strength of the fiercest Razormane fighters."
   },
   {
    "q": "Who is Mangletooth?",
@@ -73,7 +73,7 @@
     "mangletooth motives",
     "why help horde"
    ],
-   "answer": "Mangletooth helps the Horde because he hates the rival Bristleback quilboar. Though caged at Camp Taurajo and abandoned by his own people, he grants Horde champions Agamaggan's blessings if they butcher his rivals and take their sacred Blood Shards."
+   "answer": "Mangletooth helps the Horde because he hates the rival Bristleback quilboar. Caged at Camp Taurajo and abandoned by his own people, he grants Horde champions Agamaggan's blessings if they butcher his rivals and take their sacred Blood Shards."
   },
   {
    "q": "Can you receive this blessing more than once?",
@@ -82,7 +82,7 @@
     "repeatable blood shards",
     "turn in more blood shards"
    ],
-   "answer": "Yes. After you complete Mangletooth's introductory trial, he continues to weave Agamaggan's Strength and other boons when you bring him four more Blood Shards."
+   "answer": "Yes. After your first trial for Mangletooth, he continues to weave Agamaggan's Strength and other boons when you bring him four more Blood Shards."
   },
   {
    "q": "What is the difference between the Bristleback and Razormane tribes?",
@@ -97,11 +97,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can draw on the raw vigor Mangletooth channels from the boar-god for a physical edge in battle across Kalimdor."
+   "text": "As a warrior, you draw on the raw vigor Mangletooth channels from the boar-god for a physical edge in battle across Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "Camp Taurajo's guards keep Mangletooth locked up, but Horde commanders exploit the old shaman's thirst for vengeance against hostile quilboar."
+   "text": "Camp Taurajo's guards keep Mangletooth locked up, but Horde commanders use the old shaman's thirst for vengeance against hostile quilboar."
   },
   {
    "target": "race:Tauren",
@@ -131,5 +131,5 @@
  "attribution": [
   "Agamaggan's Strength"
  ],
- "style": 1
+ "style": 2
 }

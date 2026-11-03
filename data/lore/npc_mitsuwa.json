@@ -8,11 +8,11 @@
   "wiki": "Mitsuwa",
   "refs": 1
  },
- "summary": "At Zoram'gar Outpost, Mitsuwa mourns the trolls slain on their journey through Ashenvale. He calls on Horde champions to recover their stolen charms.",
+ "summary": "At Zoram'gar Outpost, Mitsuwa mourns a group of trolls slain on their journey through Ashenvale. He calls on Horde champions to recover their stolen charms.",
  "sections": [
   {
    "title": "Avenging the Fallen Kin",
-   "body": "Mitsuwa serves the Horde at Zoram'gar Outpost on the Zoram Strand, alongside Marukai. Thistlefur furbolgs of northern Ashenvale ambushed and slaughtered a group of traveling trolls bound for the outpost. Mitsuwa sees their deaths as a grievous offense. He sends warriors to the Thistlefur dens to reclaim the stolen troll charms and honor the spirits of his kin.",
+   "body": "At Zoram'gar Outpost on the Zoram Strand, Mitsuwa serves the Horde alongside Marukai. Thistlefur furbolgs from northern Ashenvale ambushed and slaughtered a group of traveling trolls bound for the outpost. Mitsuwa sees their deaths as a grave offense. He sends warriors to the Thistlefur dens to reclaim the stolen charms and honor his kin's spirits.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "dead trolls ashenvale",
     "thistlefur attack trolls"
    ],
-   "answer": "Thistlefur furbolgs ambushed and slaughtered a group of trolls traveling across Ashenvale to Zoram'gar Outpost. The furbolgs stripped the fallen of their possessions."
+   "answer": "Thistlefur furbolgs ambushed and slaughtered a group of trolls traveling across Ashenvale to Zoram'gar Outpost. The furbolgs took the fallen trolls' possessions."
   },
   {
    "q": "Why are the troll charms so important to Mitsuwa?",
@@ -40,7 +40,7 @@
     "why troll charms",
     "troll charm quest reason"
    ],
-   "answer": "The charms hold spiritual and cultural meaning for the Darkspear. Leaving these sacred relics with the Thistlefur furbolgs dishonors the spirits of the slain."
+   "answer": "For the Darkspear, the charms carry spiritual and cultural meaning. Leaving the sacred relics with the Thistlefur furbolgs dishonors the spirits of the slain."
   },
   {
    "q": "Where are the charms located?",
@@ -58,7 +58,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Zoram'gar Outpost is an isolated, besieged garrison. Helping Mitsuwa strengthens the Horde's precarious position against wild beasts and Alliance scouts in western Kalimdor."
+   "text": "Zoram'gar Outpost is an isolated garrison under siege. Helping Mitsuwa strengthens the Horde's precarious position against wild beasts and Alliance scouts in western Kalimdor."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Mitsuwa"
  ],
- "style": 1
+ "style": 2
 }

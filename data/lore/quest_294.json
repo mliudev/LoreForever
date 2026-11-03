@@ -17,16 +17,16 @@
   "wiki": "Ormer's Revenge",
   "chain": []
  },
- "summary": "At Whelgar Excavation Site, Ormer Ironbraid and two companions are trapped above a raptor-swarmed dig. The dwarves uncovered massive prehistoric bones beneath the Wetlands, and the disturbance drew packs of mottled raptors that killed most of the crew.",
+ "summary": "At Whelgar Excavation Site, Ormer Ironbraid and his two companions cling to a bluff above the raptor-swarmed dig. Beneath the Wetlands, the dwarves uncovered massive prehistoric bones. Mottled raptors came in packs and killed most of the crew.",
  "sections": [
   {
    "title": "Unearthed Horrors",
-   "body": "The dwarves came to Whelgar Excavation Site to uncover the massive prehistoric remains beneath the Wetlands muck. Their discovery brought the marsh’s native raptors to the dig. Packs of mottled predators swarmed the site, caught the excavators off guard, and tore through their ranks.",
+   "body": "The dwarves came to Whelgar Excavation Site to uncover massive prehistoric remains beneath the Wetlands muck. Their discovery drew the marsh’s native raptors to the dig. Packs of mottled predators swarmed the site, caught the excavators off guard, and tore through their ranks.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Stand",
-   "body": "Only a handful of dwarves survived the slaughter. Ormer Ironbraid, Merrin Rockweaver, and Prospector Whelgar scrambled up a bluff above the pit, but aggressive packs still pin them there. Ormer is grieving and furious, yet stays to guard Merrin and the Prospector. He asks travelers to thin the Mottled Raptors and Mottled Screechers below, the opening salvo of his vengeance.",
+   "body": "Only a handful of dwarves survived. Ormer Ironbraid, Merrin Rockweaver, and Prospector Whelgar scrambled up a bluff above the pit, but aggressive packs still pin them there. Ormer grieves for his fallen comrades and burns with anger, yet stays to guard Merrin and the Prospector. He asks travelers to thin the Mottled Raptors and Mottled Screechers below. This is the first strike in his vengeance.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "whelgar excavation massacre",
     "what killed the dwarves"
    ],
-   "answer": "The raptors overran the dig after the dwarven archaeologists uncovered giant bones in the basin. The disturbance drew local packs from the marsh; they killed most of the crew and trapped three survivors on the high bluff."
+   "answer": "The raptors overran the dig after the dwarven archaeologists uncovered giant bones in the basin. The disturbance drew local packs from the marsh. They killed most of the crew and trapped three survivors on the high bluff."
   },
   {
    "q": "Who is Ormer Ironbraid?",
@@ -107,5 +107,5 @@
  "attribution": [
   "Ormer's Revenge"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:118"
   ]
  },
- "summary": "In Redridge, Verner Osgood sends a written requisition west to Smith Argus in Goldshire. It describes Lakeshire’s iron shortage and asks the Elwynn smith for horseshoes.",
+ "summary": "In Redridge, Verner Osgood sends a written requisition west to Smith Argus in Goldshire. It reports Lakeshire's iron shortage and asks for horseshoes from Elwynn.",
  "sections": [
   {
    "title": "A Plea for Iron",
-   "body": "Lakeshire’s defense has consumed nearly all of Verner Osgood’s iron. The town’s blacksmith has used his reserves to arm and armor the Stormwind Guard, who are stretched thin against invading gnolls and local perils. Meanwhile, Lakeshire’s stables have fallen into neglect, without even basic horseshoes for their mounts. Verner asks Smith Argus in Goldshire to send prepared shoes from Elwynn, so the town can shoe its horses.",
+   "body": "Lakeshire's defense has used nearly all Verner Osgood's iron. The town's blacksmith spent his reserves arming and armoring the Stormwind Guard, stretched thin against invading gnolls and local perils. Meanwhile, the stables have fallen into neglect, and their mounts lack even basic horseshoes. Verner asks Smith Argus in Goldshire to send prepared shoes from Elwynn, so Lakeshire can shoe its horses.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does the note say",
     "verner note message"
    ],
-   "answer": "Verner’s Note tells Smith Argus that Verner has spent nearly all his iron reserves arming and armoring the Stormwind Guard in Lakeshire. With no iron left for horseshoes, he asks Argus to send them from Goldshire."
+   "answer": "Verner's Note tells Smith Argus that Verner has spent nearly all his iron reserves arming and armoring the Stormwind Guard in Lakeshire. With no iron left for horseshoes, he asks Argus to send them from Goldshire."
   },
   {
    "q": "Who is Verner Osgood?",
@@ -34,7 +34,7 @@
     "who is verner",
     "verner osgood redridge"
    ],
-   "answer": "Verner Osgood is the blacksmith operating out of Lakeshire in the Redridge Mountains. He outfits the town’s defenders and keeps working gear and beasts shod."
+   "answer": "Verner Osgood is the blacksmith working in Lakeshire in the Redridge Mountains. He outfits the town's defenders and keeps working gear and beasts shod."
   },
   {
    "q": "Who receives this note?",
@@ -43,7 +43,7 @@
     "where do i bring the note",
     "who is smith argus"
    ],
-   "answer": "The note is carried westward down the road to Smith Argus, the blacksmith outside the forge in Goldshire, Elwynn Forest."
+   "answer": "The note travels west along the road to Smith Argus, the blacksmith outside the forge in Goldshire, Elwynn Forest."
   },
   {
    "q": "Why can't Verner make the horseshoes himself?",
@@ -51,17 +51,17 @@
     "why does lakeshire need shoes",
     "why send to goldshire for shoes"
    ],
-   "answer": "Verner has used his iron reserves to forge weapons and make repairs for the Stormwind Guard, who face gnolls and other local perils. That leaves no iron for horseshoes."
+   "answer": "Verner used his iron reserves to forge weapons and make repairs for the Stormwind Guard, who face gnolls and other local perils. That leaves no iron for horseshoes."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you can see how frontier warfare consumes supplies. When weapons and armor use every ingot, Lakeshire must import farrier supplies from safer settlements like Goldshire."
+   "text": "As a blacksmith, you can see how frontier warfare consumes supplies. With every ingot used for weapons and armor, Lakeshire must get farrier supplies from safer settlements like Goldshire."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see the strain on Stormwind’s rural settlements. Lakeshire must coordinate with villages in the heartland to maintain its supply lines."
+   "text": "As an Alliance member, you can see the strain on Stormwind's rural settlements. Lakeshire must work with villages in the heartland to keep its supply lines going."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Verner's Note",
   "The Price of Shoes"
  ],
- "style": 1
+ "style": 2
 }

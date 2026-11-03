@@ -8,16 +8,16 @@
   "wiki": "Grunt Dogran",
   "refs": 2
  },
- "summary": "Grunt Dogran waits in captivity deep in the southern Barrens. Once assigned to the Crossroads and then Camp Taurajo, he was taken during a patrol into Agama'gor.",
+ "summary": "Deep in the southern Barrens, Grunt Dogran waits in captivity. Once sent to the Crossroads and then Camp Taurajo, he was taken during a patrol into Agama'gor.",
  "sections": [
   {
    "title": "A Grunt's Duty",
-   "body": "Grunt Dogran was sent from the Crossroads to reinforce Camp Taurajo after rising in the Horde military. He led a detachment of grunts into Agama'gor, where they met the Bristleback quilboar in a fierce clash. Dogran was badly wounded and crippled. His comrades retreated without him, and the quilboar dragged him into captivity.",
+   "body": "Grunt Dogran was sent from the Crossroads to reinforce Camp Taurajo after rising through the Horde military. He led a detachment of grunts into Agama'gor, where they clashed fiercely with the Bristleback quilboar. Dogran was badly wounded and crippled. His comrades retreated without him, and the quilboar dragged him away captive.",
    "spoiler": 0
   },
   {
    "title": "An Honorable Fate",
-   "body": "Grunt Dogran remains trapped behind enemy lines, crippled by his wounds. He refuses to return home broken and make his mate care for an invalid. Instead, he asks for a final stand against the quilboar and for a token of his devotion to reach the one he loves.",
+   "body": "Grunt Dogran remains trapped behind enemy lines, crippled by his wounds. He refuses to go home broken and make his mate care for an invalid. Instead, he asks for a final stand against the quilboar and for a token of his devotion to reach the one he loves.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "why was dogran captured",
     "how did dogran get caught"
    ],
-   "answer": "Dogran was captured after he led a patrol from Camp Taurajo to strike at the quilboar and suffered crippling injuries in the clash. His comrades could not carry him away in time, leaving him in their hands."
+   "answer": "Dogran was captured after leading a patrol from Camp Taurajo to strike at the quilboar. He suffered crippling injuries in the clash, and his comrades could not carry him away in time."
   },
   {
    "q": "Why does Dogran refuse to be rescued?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Grunt Dogran"
  ],
- "style": 1
+ "style": 2
 }

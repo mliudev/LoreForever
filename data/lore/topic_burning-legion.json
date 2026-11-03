@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Burning Legion"
  },
- "summary": "The Burning Legion is an infinite, apocalyptic host of demons led by the fallen titan Sargeras, dedicated to scouring all life from creation. Having already shattered ancient Kalimdor ten thousand years ago, the demons remain Azeroth's most relentless nemesis, orchestrating the corruption of the orcs and the horrors of the Third War.",
+ "summary": "Across creation, the Burning Legion remains an infinite host bent on scouring all life. Led by the fallen titan Sargeras, its demons shattered ancient Kalimdor ten thousand years ago, corrupted the orcs, and brought the horrors of the Third War to Azeroth.",
  "sections": [
   {
    "title": "Genesis of the Host",
-   "body": "Long ago, Sargeras stood as the champion of the titans, tasked with hunting down and imprisoning the demons that plagued the cosmos. Over countless ages of battling their evil, he grew disillusioned and concluded that creation itself was fatally flawed and must be unmade in flame. To enact his crusade, he freed the demons he had imprisoned, bending them to his will through fel magic. He augmented their chaos with the intellect of the corrupted eredar\u2014elevating Archimonde and Kil'jaeden as his chief lieutenants\u2014and forged an unstoppable engine of cosmic annihilation.",
+   "body": "Sargeras once served the titans, hunting demons across the cosmos and locking them away. Ages of battle convinced him that creation was flawed beyond repair and must burn. He freed the demons he had imprisoned and bent them to his will with fel magic. The corrupted eredar brought intellect to their chaos, and Archimonde and Kil'jaeden became his chief lieutenants. Together they formed an unstoppable engine of cosmic annihilation.",
    "spoiler": 0
   },
   {
    "title": "The War of the Ancients",
-   "body": "Ten millennia ago, the reckless sorceries of the Highborne drew the Legion's gaze to Azeroth. Whispering through the Well of Eternity, Sargeras seduced Queen Azshara and her councilor Xavius with promises of reshaping the world into paradise. Instead, the portal unleashed commanders like Mannoroth and Archimonde alongside swarms of doomguard, felhounds, and flaming infernals. The ensuing war reduced Kalimdor's civilization to ruin before an alliance of night elves, dragonflights, and demigods collapsed the gateway. The catastrophic implosion tore the supercontinent apart in the Great Sundering, casting the ruined lands across vast new seas.",
+   "body": "Ten thousand years ago, the Highborne's reckless sorceries drew the Burning Legion's gaze to Azeroth. Through the Well of Eternity, Sargeras whispered to Queen Azshara and her councilor Xavius, promising them a chance to reshape the world as a paradise.\n\nThe portal unleashed Mannoroth and Archimonde, with swarms of doomguard, felhounds, and flaming infernals. Their war ruined Kalimdor's civilization before night elves, dragonflights, and demigods brought down the gateway. Its catastrophic implosion tore the supercontinent apart in the Great Sundering, scattering ruined lands across vast new seas.",
    "spoiler": 0
   },
   {
    "title": "Shadows over Azeroth",
-   "body": "Though cast back into the Twisting Nether, the Legion never abandoned Azeroth. Deciding that direct invasion invited failure, Kil'jaeden orchestrated proxy cataclysms from afar. The deceiver bound the orcs of Draenor through demonic blood pacts, sending the Horde charging through the Dark Portal to weaken mortal defenses. When that failed, the Legion forged the Lich King and unleashed the undead Scourge across Lordaeron, paving the way for Archimonde's return in the Third War. Even after Archimonde fell at Mount Hyjal, remnants of the Legion linger across Felwood, the Blasted Lands, and hidden cults throughout the world.",
+   "body": "The Legion was cast back into the Twisting Nether, yet Azeroth remained in its sights. Kil'jaeden arranged proxy cataclysms from afar. The deceiver bound the orcs of Draenor through demonic blood pacts, and the Horde charged through the Dark Portal to weaken mortal defenses.\n\nWhen that failed, the Legion forged the Lich King and unleashed the undead Scourge across Lordaeron, paving the way for Archimonde's return in the Third War. Archimonde fell at Mount Hyjal, but Legion remnants still linger across Felwood, the Blasted Lands, and hidden cults throughout the world.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "legion demons",
     "what are demons"
    ],
-   "answer": "The Burning Legion is an infinite army of demons, corrupted races, and destructive horrors forged by the fallen titan Sargeras. Its singular objective is the Burning Crusade: scouring all life and ordered existence from the cosmos."
+   "answer": "The Burning Legion is an infinite host of demons, corrupted races, and destructive horrors forged by the fallen titan Sargeras. It is bent on scouring all life and ordered existence from the cosmos."
   },
   {
    "q": "Who leads the Burning Legion?",
@@ -44,7 +44,7 @@
     "who is the demon king",
     "archimonde boss"
    ],
-   "answer": "The Legion's ultimate master is the fallen titan Sargeras. Below him serve the demon lords of the eredar, most notably Archimonde the Defiler, who spearheaded military assaults until his demise at Mount Hyjal, and Kil'jaeden the Deceiver, who orchestrates insidious plots across worlds."
+   "answer": "The fallen titan Sargeras is the Legion's ultimate master. Beneath him serve the eredar demon lords Archimonde the Defiler, who led military assaults until his death at Mount Hyjal, and Kil'jaeden the Deceiver, who orchestrates insidious plots across worlds."
   },
   {
    "q": "Why does the Legion want to destroy Azeroth?",
@@ -54,7 +54,7 @@
     "why invade azeroth",
     "sargeras goal"
    ],
-   "answer": "Azeroth has repeatedly defied the Legion, standing as the only world known to have repelled their assaults."
+   "answer": "Azeroth has repeatedly defied the Legion and is the only world known to have repelled its assaults."
   },
   {
    "q": "How did the demons first arrive on Azeroth?",
@@ -64,7 +64,7 @@
     "well of eternity portal",
     "queen azshara demons"
    ],
-   "answer": "Ten thousand years ago, Queen Azshara and her Highborne channeled the vast energies of the Well of Eternity, inadvertently attracting Sargeras. Deceived by promises of limitless power, the Highborne opened a massive portal beneath the palace, allowing the Legion to invade Kalimdor."
+   "answer": "Ten thousand years ago, Queen Azshara and her Highborne channeled the Well of Eternity's vast energies, drawing Sargeras to Azeroth. Deceived by promises of limitless power, they opened a massive portal beneath the palace, allowing the Legion to invade Kalimdor."
   },
   {
    "q": "What happened to the Legion during the Third War?",
@@ -74,7 +74,7 @@
     "did legion lose third war",
     "what happened to archimonde"
    ],
-   "answer": "Summoned back to Azeroth using the book of Medivh, Archimonde marched across Lordaeron and sailed west to devour the World Tree, Nordrassil. At Mount Hyjal, mortal races bought time for Malfurion Stormrage to call upon the ancestral spirits, detonating the tree's power and obliterating Archimonde."
+   "answer": "Summoned back to Azeroth with the book of Medivh, Archimonde marched across Lordaeron and sailed west to devour the World Tree, Nordrassil. At Mount Hyjal, mortal races held his assault long enough for Malfurion Stormrage to call upon the ancestral spirits and detonate the tree's power, obliterating Archimonde."
   },
   {
    "q": "Are demons still a threat right now?",
@@ -84,25 +84,25 @@
     "demons in classic",
     "where are demons now"
    ],
-   "answer": "Yes. Though their main host fractured after Archimonde's fall, dangerous remnants remain entrenched across Azeroth. Dreadlords, infernals, and lingering fiends occupy corrupted zones like Felwood and the Blasted Lands, while mortal cultists such as the Shadow Council work in secret."
+   "answer": "Yes. Though Archimonde's fall fractured the main host, dangerous remnants remain entrenched across corrupted zones in Azeroth. Dreadlords, infernals, and lingering fiends occupy Felwood and the Blasted Lands, while mortal cultists such as the Shadow Council work in secret."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The night elves bear the deepest scars of the Legion's invasions; their ancient empire was shattered in the Sundering, and the recent sacrifice of their World Tree at Mount Hyjal cost them their very immortality."
+   "text": "As a night elf, your people bear the deepest scars of the Legion's invasions. The Sundering shattered your ancient empire, and the recent sacrifice of your World Tree at Mount Hyjal cost you your immortality."
   },
   {
    "target": "race:Orc",
-   "text": "Orcs carry a bitter legacy with the Legion, having been enslaved through the demonic blood pact of Mannoroth before Grom Hellscream sacrificed himself to break the curse once and for all."
+   "text": "As an orc, you carry a bitter legacy with the Legion. The demonic blood pact of Mannoroth enslaved orcs until Grom Hellscream sacrificed himself to break the curse once and for all."
   },
   {
    "target": "class:Warlock",
-   "text": "Warlocks walk a razor's edge, bending the raw fel magic and subservient demons of the Legion to their own mortal will despite constant suspicion and the ever-present threat of corruption."
+   "text": "As a warlock, you bend raw fel magic and the Legion's subservient demons to your mortal will, despite constant suspicion and the ever-present threat of corruption."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins view the Burning Legion as the antithesis of the Holy Light, dedicating their martial vows and righteous power to purging demonic filth wherever it festers."
+   "text": "As a paladin, you see the Burning Legion as the antithesis of the Holy Light. Your martial vows and righteous power are devoted to purging demonic filth wherever it festers."
   }
  ],
  "keywords": [
@@ -131,5 +131,6 @@
  ],
  "attribution": [
   "Burning Legion"
- ]
+ ],
+ "style": 2
 }

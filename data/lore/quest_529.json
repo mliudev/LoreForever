@@ -17,16 +17,16 @@
   "wiki": "Battle of Hillsbrad (3)",
   "chain": []
  },
- "summary": "In the Hillsbrad Foothills, the Forsaken move against the humans resisting their advance. High Executor Darthalia orders the smithy in Hillsbrad Fields destroyed, hoping to cut off the weapons arming the local people.",
+ "summary": "At Hillsbrad, the Forsaken press their advance against the humans who resist them. High Executor Darthalia orders the smithy in Hillsbrad Fields destroyed, hoping to cut off the weapons arming the local people.",
  "sections": [
   {
    "title": "Breaking the Anvil",
-   "body": "The Forsaken meet fiercer resistance in the Hillsbrad Foothills than High Executor Darthalia expected. Rural humans refuse to scatter or yield to the Deathstalkers and soldiers sent from Tarren Mill. The Forsaken learn that the peasantry are not fighting with pitchforks and scythes alone. In the fields, they are being armed for war.",
+   "body": "In the Hillsbrad Foothills, the Forsaken face fiercer resistance than High Executor Darthalia expected. Rural humans refuse to scatter or yield to the Deathstalkers and soldiers sent from Tarren Mill. The Forsaken learn that the peasantry fight with more than pitchforks and scythes. In the fields, they are being armed for war.",
    "spoiler": 0
   },
   {
    "title": "Severing the Supply Line",
-   "body": "At the southwest edge of Hillsbrad Fields, Blacksmith Verringtan and his apprentices forge blades and armor for the militia from raw ore. Darthalia sends an operative to kill Verringtan, butcher his apprentices, and seize their stockpiled iron shipment. She aims to weaken the settlement's defense and use the metal in the eventual assault on Southshore.",
+   "body": "At the southwestern edge of Hillsbrad Fields, Blacksmith Verringtan and his apprentices forge blades and armor for the militia from raw ore. Darthalia sends an operative to kill Verringtan, butcher his apprentices, and seize their stockpiled iron. She aims to weaken the settlement's defenses and use the metal in the eventual assault on Southshore.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "blacksmith objective",
     "verringtan quest"
    ],
-   "answer": "The human townsfolk and farmers are resisting the Forsaken advance with arms. Darthalia learns that Blacksmith Verringtan and his apprentices are forging weapons for the militia, arming the peasants."
+   "answer": "The human townsfolk and farmers resist the Forsaken advance with arms. Darthalia learns that Blacksmith Verringtan and his apprentices are forging weapons for the militia, arming the peasants."
   },
   {
    "q": "Where is the smithy located?",
@@ -47,7 +47,7 @@
     "where is the blacksmith",
     "hillsbrad smithy"
    ],
-   "answer": "The smithy is on the southwestern side of Hillsbrad Fields, where apprentices work amid guards and local patrols."
+   "answer": "The smithy lies on the southwestern side of Hillsbrad Fields, where apprentices work amid guards and local patrols."
   },
   {
    "q": "What is the shipment of iron used for?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken, you know breaking the human smithy can help secure Lordaeron's southern borders and stockpile metal for your struggling war effort."
+   "text": "As a Forsaken, you know destroying the human smithy can help secure Lordaeron's southern borders and stockpile metal for your struggling war effort."
   },
   {
    "target": "faction:Alliance",
@@ -115,5 +115,5 @@
  "attribution": [
   "Battle of Hillsbrad (3)"
  ],
- "style": 1
+ "style": 2
 }

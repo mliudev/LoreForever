@@ -10,11 +10,11 @@
    "quest:1518"
   ]
  },
- "summary": "In Durotar, a Rough Quartz comes from a Minor Manifestation of Earth. A shaman brings the stone to an elder, who binds it into the first Earth Totem.",
+ "summary": "In Durotar, a shaman receives Rough Quartz from a Minor Manifestation of Earth. An elder binds the stone into the shaman’s first Earth Totem.",
  "sections": [
   {
    "title": "Heart of the Earth Totem",
-   "body": "Rough Quartz is a gift from a Minor Manifestation of Earth to a shaman who communes with the spirits in Durotar or Mulgore. To the untrained eye, it looks like an ordinary desert pebble. The stone represents endurance, patience, and unwavering strength. At the Valley of Trials, Canaga Earthcaller binds it into carved wood to make an Earth Totem. The quartz becomes the spiritual focus joining a young shaman to Azeroth's living soil.",
+   "body": "In Durotar or Mulgore, a Minor Manifestation of Earth gives Rough Quartz to a shaman who communes with the spirits. To an untrained eye, the stone looks like an ordinary desert pebble. It represents endurance, patience, and unwavering strength.\n\nAt the Valley of Trials, Canaga Earthcaller binds the quartz into carved wood to make an Earth Totem. The stone becomes the spiritual focus that joins a young shaman to Azeroth’s living soil.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "rough quartz use",
     "why do i need rough quartz"
    ],
-   "answer": "An elder shaman binds Rough Quartz into the initiate's first Earth Totem as its spiritual core. The stone also shows that the novice has communed with the elemental earth spirit."
+   "answer": "An elder shaman binds Rough Quartz into an initiate’s first Earth Totem as its spiritual core. It also shows that the novice has communed with the elemental earth spirit."
   },
   {
    "q": "Who gives you the Rough Quartz?",
@@ -51,7 +51,7 @@
     "can i sell rough quartz",
     "is rough quartz used in crafting"
    ],
-   "answer": "No. Rough Quartz is solely a sacred ritual object for crafting an Earth Totem and has no use in common trade."
+   "answer": "No. Rough Quartz is a sacred ritual object used to make an Earth Totem. It has no use in common trade."
   }
  ],
  "angles": [
@@ -81,5 +81,5 @@
   "Rough Quartz",
   "Call of Earth (Durotar 3)"
  ],
- "style": 1
+ "style": 2
 }

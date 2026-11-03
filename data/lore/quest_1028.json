@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (6)",
   "chain": []
  },
- "summary": "At Shael'dryn's direction, Raene's Cleansing now leads you to a mountain shrine with the rebuilt Rod of Dartol. The basin there holds the magic needed to restore its enchantment.",
+ "summary": "At Shael'dryn's direction, you climb toward a mountain shrine in southeastern Ashenvale. The basin there holds the magic to restore the rebuilt Rod of Dartol.",
  "sections": [
   {
    "title": "A Path into the Heights",
-   "body": "Shael'dryn sends you from her moonwell into Ashenvale's wild southeastern slopes. The ancient shrines of Ashenvale often stood high among mountain crags, far from roads and hidden beneath dense forest canopies. You must cross unmarked ground along the rock faces and climb winding trails known mostly to Sentinels and woodland hermits.",
+   "body": "Shael'dryn sends you from her moonwell into Ashenvale's wild southeastern slopes. There, ancient shrines often stood high among mountain crags, far from roads and hidden beneath dense forest canopies. You cross unmarked ground along rock faces and climb winding trails known mostly to Sentinels and woodland hermits.",
    "spoiler": 0
   },
   {
    "title": "Restoring Dartol's Rod",
-   "body": "A stone basin waits in a quiet forest alcove. Though dormant, the shrine holds protective magic placed there by night elves long ago. Rest the rebuilt Rod of Dartol in the basin, and the shrine's sleeping power awakens. Its magic flows into the rod, restoring its enchantment so it can cleanse the land.",
+   "body": "A stone basin waits in a quiet forest alcove. Though dormant, the shrine holds protective magic placed there by night elves long ago. Rest the rebuilt Rod of Dartol in the basin, and the shrine's sleeping power awakens. Its magic flows into the rod and restores its enchantment, so it can cleanse the land.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "how to find shrine",
     "hidden shrine path"
    ],
-   "answer": "The shrine lies in the mountains southeast of Shael'dryn's moonwell. Leave the main roads, skirt the rocky cliff faces, and look for a winding path up into the ridges."
+   "answer": "The shrine lies in the mountains southeast of Shael'dryn's moonwell. Leave the main roads, skirt rocky cliff faces, and look for a winding path up into the ridges."
   },
   {
    "q": "Who was Dartol?",
@@ -48,7 +48,7 @@
     "dartol lore",
     "creator of the rod"
    ],
-   "answer": "Dartol was an evil wizard who created the rod and is now dead. Raene hopes its magic will help investigate the furbolg attacks in Ashenvale."
+   "answer": "Dartol was an evil wizard who created the rod, and he is now dead. Raene hopes its magic will help investigate the furbolg attacks in Ashenvale."
   },
   {
    "q": "Why does Dartol's Rod need to be placed in the shrine?",
@@ -83,7 +83,7 @@
     "are there mobs at shrine",
     "shrine dangers"
    ],
-   "answer": "The shrine is a peaceful sanctuary, but wild beasts and corrupt furbolg tribes prowl the surrounding mountains and forests, making the climb dangerous."
+   "answer": "The shrine is a peaceful sanctuary, but wild beasts and corrupt furbolg tribes prowl the surrounding mountains and forests. The climb is dangerous."
   }
  ],
  "angles": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Raene's Cleansing (6)"
  ],
- "style": 1
+ "style": 2
 }

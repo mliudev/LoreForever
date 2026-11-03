@@ -24,12 +24,12 @@
  "sections": [
   {
    "title": "A Message Intercepted",
-   "body": "Kadrak watches the Barrens' northern boundary for Alliance and night elf incursions. After a messenger carrying a runed scroll is cut down, he decodes the missive and traces it to Rynthariel the Keymaster, an influential dryad in Stonetalon Peak. Kadrak chooses to strike rather than simply guard the mountain passes, hoping to deter future scouts from probing Horde territory.",
+   "body": "Kadrak watches the Barrens’ northern boundary for Alliance and night elf incursions. A messenger carrying a runed scroll is cut down, and Kadrak decodes the missive. It leads him to Rynthariel the Keymaster, an influential dryad in Stonetalon Peak. Rather than merely guard the mountain passes, Kadrak strikes first, hoping to deter future scouts from probing Horde territory.",
    "spoiler": 0
   },
   {
    "title": "Defiance in the Den",
-   "body": "Horde warriors enter the Talon Den, a cavern overlooking Stonetalon Peak. Killing Rynthariel deals a blow to local night elf coordination. Kadrak's banner is planted inside the cave, its red standard marking the heart of dryad territory with a warning: incursions into the Barrens will meet decisive violence.",
+   "body": "Horde warriors enter the Talon Den, a cavern overlooking Stonetalon Peak. Killing Rynthariel strikes at the night elves’ local coordination. Kadrak’s banner is planted inside the cave. Its red standard marks the heart of dryad territory with a warning: incursions into the Barrens will meet decisive violence.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is kadrak",
     "kadrak purpose"
    ],
-   "answer": "Kadrak is an orc warrior stationed at the northern border outpost between the Barrens and Ashenvale. He orders the strike after discovering Alliance messengers slipping through nearby passes, and seeks to secure Horde lands against foreign encroachment."
+   "answer": "Kadrak is an orc warrior stationed at the northern border outpost between the Barrens and Ashenvale. He orders the strike after discovering Alliance messengers slipping through nearby passes, seeking to secure Horde lands against foreign encroachment."
   },
   {
    "q": "Who is Rynthariel the Keymaster?",
@@ -92,15 +92,15 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, securing the Barrens' northern border helps hold Kalimdor's central plains and protect its fledgling settlements from night elf incursions."
+   "text": "For the Horde, securing the Barrens’ northern border helps hold Kalimdor’s central plains and protect its fledgling settlements from night elf incursions."
   },
   {
    "target": "class:Druid",
-   "text": "As a Horde druid, you face the bitter pull between faction allegiance and sacred ties to nature when you march into Stonetalon Peak to strike down a dryad child of Cenarius."
+   "text": "As a Horde druid, you face a bitter pull between faction allegiance and sacred ties to nature when you march into Stonetalon Peak to strike down a dryad child of Cenarius."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you can see Kadrak's offensive as a show of strength and an answer to territorial intrusion, leaving the Alliance no room to maneuver."
+   "text": "As an orc, you can see Kadrak’s offensive as a show of strength and an answer to territorial intrusion, leaving the Alliance no room to maneuver."
   }
  ],
  "keywords": [
@@ -127,5 +127,5 @@
  "attribution": [
   "Horde Presence"
  ],
- "style": 1
+ "style": 2
 }

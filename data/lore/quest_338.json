@@ -30,16 +30,16 @@
    "Chapter IV"
   ]
  },
- "summary": "Barnil Stonepot was trusted to proofread the manuscript for Hemet Nesingwary's novel, but a fierce gust of wind scattered the loose pages across the jungle. To spare him his master's anger, you are asked to scour the wilds, assemble the missing pages into four complete chapters, and return the finished work.",
+ "summary": "Across Stranglethorn Vale, loose pages from Hemet Nesingwary's novel lie scattered through the jungle. Barnil Stonepot asks you to gather them into four chapters and return them.",
  "sections": [
   {
    "title": "A Scattered Manuscript",
-   "body": "Following your arrival in the expedition camp after Welcome to the Jungle, Barnil Stonepot finds himself facing a disaster. While reviewing the draft of Hemet Nesingwary's novel, The Green Hills of Stranglethorn, a sudden gale caught the loose leaves and flung them into the wild. Though he managed to recover a fair portion of the work, many sheets remain lost in the brush. To keep his master from discovering the mishap, he needs every misplaced page tracked down and compiled into Chapter I, Chapter II, Chapter III, and Chapter IV.",
+   "body": "At the expedition camp, Barnil Stonepot is troubled after Welcome to the Jungle. While he proofread Hemet Nesingwary's draft, a gale snatched its loose pages and flung them into the wild. Barnil recovered many, but others remain lost in the brush. He needs you to find them and assemble Chapter I, Chapter II, Chapter III, and Chapter IV before Nesingwary learns what happened.",
    "spoiler": 0
   },
   {
    "title": "Preserving the Hunter's Tale",
-   "body": "Bringing back the four completed sections spares Barnil from an unpleasant confrontation with Nesingwary. With the chapters gathered safely in hand, he hopes the restored work will soon find its way into libraries across the world.",
+   "body": "Once you return all four chapters, Barnil can avoid an unpleasant confrontation with Nesingwary. He hopes the restored manuscript will soon reach libraries across the world.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "who wrote the book",
     "nesingwary book"
    ],
-   "answer": "The novel was written by the expedition's leader, Hemet Nesingwary, who entrusted the draft to Barnil Stonepot for proofreading."
+   "answer": "Hemet Nesingwary, leader of the expedition, wrote the novel and entrusted its draft to Barnil Stonepot for proofreading."
   },
   {
    "q": "How were the pages lost?",
@@ -60,7 +60,7 @@
     "what happened to the pages",
     "how did pages blow away"
    ],
-   "answer": "A powerful gust of wind blew directly through the hunting camp while Barnil was reviewing the manuscript, scattering the loose sheets across the jungle."
+   "answer": "A powerful gust swept through the hunting camp as Barnil reviewed the manuscript and scattered loose pages across the jungle."
   },
   {
    "q": "What is needed to finish the manuscript?",
@@ -69,7 +69,7 @@
     "how to complete green hills",
     "manuscript requirements"
    ],
-   "answer": "You must collect the scattered pages and assemble them into four distinct parts: Chapter I, Chapter II, Chapter III, and Chapter IV, then hand the full set to Barnil."
+   "answer": "Gather the scattered pages, assemble Chapter I, Chapter II, Chapter III, and Chapter IV, then bring the complete set to Barnil."
   },
   {
    "q": "Where did this assignment come from?",
@@ -78,7 +78,7 @@
     "quest before green hills",
     "how do i get this quest"
    ],
-   "answer": "Barnil offers this job at the expedition camp in Stranglethorn Vale after you complete Welcome to the Jungle."
+   "answer": "Barnil offers this work at the expedition camp in Stranglethorn Vale after you complete Welcome to the Jungle."
   },
   {
    "q": "What does Barnil intend to do with the restored novel?",
@@ -87,7 +87,7 @@
     "what happens to the book",
     "where will the book go"
    ],
-   "answer": "Beyond saving himself from Nesingwary's wrath, Barnil expects the completed manuscript will eventually be distributed to libraries across the world."
+   "answer": "Barnil hopes the restored manuscript will reach libraries across the world. Its return will also spare him Nesingwary's anger."
   }
  ],
  "angles": [],
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "The Green Hills of Stranglethorn (Classic)"
- ]
+ ],
+ "style": 2
 }

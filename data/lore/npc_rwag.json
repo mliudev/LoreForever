@@ -8,11 +8,11 @@
   "wiki": "Rwag",
   "refs": 2
  },
- "summary": "In the Den, Rwag teaches the first steps of a rogue's craft. The orc trains newly arrived orcs and trolls in stealth, subterfuge, and dirty fighting in Durotar's Valley of Trials, under the Horde's watch.",
+ "summary": "In the Den, Rwag teaches newcomers the first steps of a rogue's craft. The orc trains newly arrived orcs and trolls in stealth, subterfuge, and dirty fighting in Durotar's Valley of Trials, under the Horde's watch.",
  "sections": [
   {
    "title": "Shadows of the Valley",
-   "body": "Deep in the Den, Rwag trains fledgling rogues, cutpurses, and thieves before they venture beyond the cave into Durotar. The new Horde champions martial honor and battlefield valor, but Rwag knows subtlety, poisons, and a well-placed dagger remain tools for survival in the unforgiving desert. He keeps watch over business in the Valley and distrusts the dark practitioners sheltering in the cave, especially the warlock Nartok.",
+   "body": "Deep in the Den, Rwag trains young rogues, cutpurses, and thieves before they leave the cave and venture into Durotar. The new Horde honors martial skill and valor in battle. Yet Rwag knows subtlety, poisons, and a well-placed dagger can still mean survival in the unforgiving desert.\n\nRwag keeps watch over affairs in the Valley. He distrusts the dark practitioners sheltering in the cave, especially the warlock Nartok.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "rwag valley of trials",
     "orc rogue trainer"
    ],
-   "answer": "Rwag trains orc and troll rogues inside the Den in the Valley of Trials. He teaches them as they begin their training in Durotar."
+   "answer": "Rwag trains orc and troll rogues inside the Den in the Valley of Trials. There, he teaches them the first steps of their training in Durotar."
   },
   {
    "q": "Where can I find Rwag?",
@@ -82,5 +82,5 @@
  "attribution": [
   "Rwag"
  ],
- "style": 1
+ "style": 2
 }

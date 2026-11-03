@@ -17,16 +17,16 @@
   "wiki": "The Scythe of Elune (Classic)",
   "chain": []
  },
- "summary": "In Darkshire, the trail of the Scythe of Elune leads into the worgen hunt. Jonathan Carevin sends you to Roland's Doom, where the beasts were first seen, linking an ancient night elf relic in Kalimdor to the worgen now troubling Duskwood.",
+ "summary": "In Darkshire, the search for the Scythe of Elune turns toward the worgen hunt. Jonathan Carevin sends you to Roland's Doom, where the beasts first appeared, linking an ancient night elf relic in Kalimdor to the worgen troubling Duskwood.",
  "sections": [
   {
    "title": "A Hunt in the Dark",
-   "body": "After tracing Priestess Velinde Starsong across Kalimdor and speaking with the Carevin household in Darkshire, you find common cause with Jonathan Carevin. Nightbane worgen have overrun southern Duskwood, driving miners out and threatening what remains of the township. Carevin does not fully understand the beasts' supernatural origin, but he recognizes the value of someone willing to hunt them. He points you toward Roland's Doom, the mine where the fiends were first sighted.",
+   "body": "You have traced Priestess Velinde Starsong across Kalimdor and spoken with the Carevin household in Darkshire. Now you and Jonathan Carevin share a purpose. Nightbane worgen have overrun southern Duskwood, driven miners out and threatened what remains of the township. Carevin does not understand their supernatural origin, but he knows a willing hunter is valuable. He points you toward Roland's Doom, where the fiends were first sighted.",
    "spoiler": 0
   },
   {
    "title": "Ghosts of Roland's Doom",
-   "body": "Deep in Roland's Doom, among packs of vicious Nightbane, an undisturbed mound of earth lies beneath the tunnels. Disturbing the soil reveals the lingering specter of Velinde Starsong. The night elf priestess came into this cave carrying the Scythe of Elune, but met her end beneath Duskwood. Velinde laments that the worgen she unleashed now run rampant, and that the Scythe granted by her goddess is lost.",
+   "body": "Deep in Roland's Doom, packs of vicious Nightbane prowl the tunnels. There, beneath them, an undisturbed mound of earth hides the specter of Velinde Starsong. The night elf priestess came into this cave carrying the Scythe of Elune, but met her end beneath Duskwood. Velinde laments that the worgen she unleashed now run rampant, and that the Scythe granted by her goddess is lost.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "jonathan carevin",
     "carevin darkshire"
    ],
-   "answer": "Jonathan Carevin belongs to the Carevin family in Darkshire. With few defenders left against evil, he trades information with outsiders seeking to cull the worgen numbers."
+   "answer": "Jonathan Carevin is a member of the Carevin family in Darkshire. With few defenders left against evil, he trades information with outsiders willing to cull the worgen."
   },
   {
    "q": "What happened to Velinde Starsong in the mine?",
@@ -62,7 +62,7 @@
     "what is the scythe",
     "scythe of elune lore"
    ],
-   "answer": "The Scythe of Elune is a sacred night elf artifact received by Priestess Velinde Starsong. The Sentinels believe the goddess Elune granted it to her as a boon."
+   "answer": "The Scythe of Elune is a sacred night elf artifact entrusted to Priestess Velinde Starsong. The Sentinels believe the goddess Elune granted it to her as a boon."
   },
   {
    "q": "Why did the worgen appear in Duskwood?",
@@ -70,7 +70,7 @@
     "why worgen in duskwood",
     "duskwood worgen origin"
    ],
-   "answer": "Jonathan Carevin says the worgen appeared out of nowhere, and they were first found in Roland's Doom to the south. Signs of the Scythe of Elune in the mine reveal why they appeared."
+   "answer": "Jonathan Carevin says the worgen appeared out of nowhere, and were first found in Roland's Doom to the south. Signs of the Scythe of Elune in the mine reveal why they appeared."
   },
   {
    "q": "Who is Calor?",
@@ -78,13 +78,13 @@
     "npc calor",
     "who is calor"
    ],
-   "answer": "Calor is an associate of the Carevin family in Darkshire. After your discoveries in Roland's Doom, Jonathan instructs him to focus entirely on containing the worgen threat."
+   "answer": "Calor is an associate of the Carevin family in Darkshire. After your discoveries in Roland's Doom, Jonathan tells him to focus entirely on containing the worgen threat."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Finding Priestess Velinde Starsong's final resting place reveals the terrible price paid when the Scythe of Elune passed beyond the Sisterhood's supervision."
+   "text": "As a night elf, finding Priestess Velinde Starsong's final resting place reveals the terrible price paid when the Scythe of Elune passed beyond the Sisterhood's care."
   },
   {
    "target": "faction:Alliance",
@@ -92,7 +92,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "The wild worgen loosed by the Scythe of Elune warn druids of the cost of forces beyond control."
+   "text": "As a druid, you can see how the wild worgen loosed by the Scythe of Elune warn of the cost of forces beyond control."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "The Scythe of Elune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

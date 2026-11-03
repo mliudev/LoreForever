@@ -8,16 +8,16 @@
   "wiki": "Tarindrella",
   "refs": 2
  },
- "summary": "In Shadowglen, Tarindrella watches over Teldrassil's sheltered woods. The dryad works with night elf protectors to investigate corruption among the World Tree's wildlife.",
+ "summary": "In Shadowglen, Tarindrella watches Teldrassil's sheltered woods. The dryad joins night elf protectors in investigating corruption among the World Tree's wildlife.",
  "sections": [
   {
    "title": "A Daughter of Cenarius in Shadowglen",
-   "body": "Tarindrella dwells in Shadowglen, a protected glade atop Teldrassil. Dryads are fierce caretakers of nature, born of the demigod Cenarius. Many live deep in ancient Kalimdor forests such as Ashenvale, but Tarindrella watches over this young grove. She bridges the wild spirits and young night elf defenders taking their first steps beyond Aldrassil. Her chief concern is a taint creeping through the forest. She sends reliable adventurers to drive back local pests and gather clues to its source.",
+   "body": "Tarindrella dwells in Shadowglen, a protected glade atop Teldrassil. Dryads are fierce caretakers of nature, born of the demigod Cenarius. Many live deep in ancient Kalimdor forests such as Ashenvale, but Tarindrella watches over this young grove.\n\nShe is a bridge between the wild spirits and the young night elf defenders taking their first steps beyond Aldrassil. Her chief concern is a taint creeping through the forest. She sends reliable adventurers to drive back local pests and gather clues to its source.",
    "spoiler": 0
   },
   {
    "title": "Investigating Teldrassil's Affliction",
-   "body": "Teldrassil is the new crown of the night elf people, yet sickness has reached its groves. Furbolgs once lived peacefully in their homes; now they have gathered as the Gnarlpine tribe. Grells and grellkin tainted by wicked Fel Moss infest the hills around Shadowglen. Tarindrella suspects the moss is behind these changes. She directs initiates to confront the grells and bring back samples, hoping to halt the corruption before it overtakes the young grove.",
+   "body": "Teldrassil is the new crown of the night elf people, yet sickness has reached its groves. Furbolgs once lived peacefully in their homes, but now they have gathered as the Gnarlpine tribe. Grells and grellkin tainted by wicked Fel Moss infest the hills around Shadowglen. Tarindrella suspects the moss is behind these changes. She directs initiates to confront the grells and bring back samples, hoping to halt the corruption before it overtakes the young grove.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is tarindrella",
     "dryad shadowglen"
    ],
-   "answer": "In Shadowglen atop Teldrassil, Tarindrella aids night elves in watching the wilderness. The dryad directs young defenders against a strange sickness threatening the World Tree's boughs."
+   "answer": "In Shadowglen atop Teldrassil, Tarindrella helps night elves watch the wilderness. The dryad directs young defenders against a strange sickness threatening the World Tree's boughs."
   },
   {
    "q": "What is a dryad?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Tarindrella"
  ],
- "style": 1
+ "style": 2
 }

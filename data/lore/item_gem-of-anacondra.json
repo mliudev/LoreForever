@@ -10,16 +10,16 @@
    "quest:914"
   ]
  },
- "summary": "The Gem of Anacondra is one of four dream gems held by the corrupted serpent leaders within the Wailing Caverns. Carried by Lady Anacondra, it serves as tangible proof of her defeat and the curbing of the Nightmare's spread over the Barrens.",
+ "summary": "In the Wailing Caverns, Lady Anacondra bears one of four dream gems held by the corrupted serpent leaders. The stones are bound to the nightmare spreading through the Barrens.",
  "sections": [
   {
    "title": "A Corrupted Focus",
-   "body": "When Naralex entered his deep slumber to bring water and life back to the arid Barrens, the Emerald Nightmare invaded his thoughts and warped his closest disciples. Lady Anacondra and her fellow conspirators abandoned their traditional ways to become the Druids of the Fang, twisting their noble restorative purpose into a toxic delusion. The Gem of Anacondra is one of the four dream gems carried by these serpentine leaders, focusing their corrupted bond with the Emerald Dream and anchoring the nightmare within the cave system.",
+   "body": "When Naralex fell into deep slumber, he sought to bring water and life back to the arid Barrens. Then the Emerald Nightmare entered his thoughts and twisted his closest disciples. Lady Anacondra and her fellow conspirators left their old ways and became the Druids of the Fang. Their purpose was to restore the land, but it turned into a toxic delusion.\n\nLady Anacondra carries one of four dream gems held by these serpent leaders. The gem focuses their corrupted bond with the Emerald Dream and anchors the nightmare within the cave system.",
    "spoiler": 0
   },
   {
    "title": "Cleansing the Vision",
-   "body": "Nara Wildmane and the circle of Cenarion druids in Thunder Bluff found their own slumbers plagued by the visions and wicked faces of the Fang's leadership. Claiming the Gem of Anacondra\u2014alongside the stones of Cobrahn, Pythas, and Serpentis\u2014is necessary to verify that Lady Anacondra has been struck down, lifting the oppressive nightmare from the minds of Kalimdor's balance-keepers.",
+   "body": "Nara Wildmane and the Cenarion druids in Thunder Bluff suffer visions in their sleep. The wicked faces of the Fang's leaders haunt them. They claim the Gem of Anacondra and the stones of Cobrahn, Pythas, and Serpentis to confirm Lady Anacondra has been struck down. Gather all four, and the oppressive nightmare can lift from the minds of Kalimdor's keepers of balance.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "anacondra gem",
     "what does gem of anacondra do"
    ],
-   "answer": "It is a dream gem carried by Lady Anacondra, one of the four leaders of the twisted Druids of the Fang residing within the Wailing Caverns."
+   "answer": "Lady Anacondra carries the Gem of Anacondra in the Wailing Caverns. It is one of four dream gems held by the leaders of the corrupted Druids of the Fang."
   },
   {
    "q": "Who wants this gem?",
@@ -40,7 +40,7 @@
     "where do i turn in anacondra gem",
     "gem of anacondra turn in"
    ],
-   "answer": "Nara Wildmane, a tauren druid located on the Elder Rise in Thunder Bluff, seeks the gem along with the other three dream gems to free her mind from nightmares and protect the Barrens."
+   "answer": "Nara Wildmane, a tauren druid on the Elder Rise in Thunder Bluff, seeks this gem and the other three dream gems. She hopes to free her mind from nightmares and protect the Barrens."
   },
   {
    "q": "Where can the Gem of Anacondra be found?",
@@ -49,7 +49,7 @@
     "who drops gem of anacondra",
     "lady anacondra location"
    ],
-   "answer": "The gem is carried by Lady Anacondra, who can be found lurking within the winding subterranean tunnels of the Wailing Caverns in the central Barrens."
+   "answer": "Lady Anacondra carries the gem in the winding underground tunnels of the Wailing Caverns in the central Barrens."
   },
   {
    "q": "Why are the dream gems important?",
@@ -58,17 +58,17 @@
     "purpose of dream gems",
     "leaders of the fang gems"
    ],
-   "answer": "The four gems are held by the corrupt leaders of the Druids of the Fang. Gathering them confirms the ringleaders have been eliminated, breaking their hold over the Emerald Dream's corruption in the region."
+   "answer": "The corrupted leaders of the Druids of the Fang hold the four gems. Gathering them confirms the ringleaders have been eliminated and breaks their hold over the Emerald Dream's corruption in the region."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For Cenarion druids, claiming this gem is a solemn duty to strike down a sister who surrendered her mind and forms to the corrupting Emerald Nightmare."
+   "text": "As a Cenarion druid, you have a solemn duty to strike down a sister who surrendered her mind and forms to the corrupting Emerald Nightmare."
   },
   {
    "target": "race:Tauren",
-   "text": "Recovering the gem directly aids Nara Wildmane of Thunder Bluff, lifting the dark visions that plague the slumber of the Shu'halo on the Elder Rise."
+   "text": "As a tauren, you aid Nara Wildmane of Thunder Bluff by recovering the gem. Then the dark visions that plague the Shu'halo's sleep on the Elder Rise may lift."
   }
  ],
  "keywords": [
@@ -93,5 +93,6 @@
  "attribution": [
   "Gem of Anacondra",
   "Leaders of the Fang"
- ]
+ ],
+ "style": 2
 }

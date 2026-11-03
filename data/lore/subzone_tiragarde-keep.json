@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tiragarde Keep"
  },
- "summary": "Kul Tiran marines still hold Tiragarde Keep on Durotar's Scuttle Coast, south of Razor Hill. Built during Grand Admiral Daelin Proudmoore's invasion, the ruined stronghold remains garrisoned under Lieutenant Benedict, a hostile thorn in the Horde's own territory.",
+ "summary": "Kul Tiran marines still garrison Tiragarde Keep on Durotar’s Scuttle Coast, south of Razor Hill. Built during Grand Admiral Daelin Proudmoore’s invasion, the ruined stronghold remains under Lieutenant Benedict, a hostile presence in Horde territory.",
  "sections": [
   {
    "title": "Proudmoore's Bastion",
-   "body": "Tiragarde Keep gave Grand Admiral Daelin Proudmoore's fleet a beachhead on Durotar's red shores. He built it during his campaign to destroy Thrall's newly founded realm. The Horde eventually broke the siege and killed Proudmoore at Theramore Isle, but the keep was never fully abandoned. Resupply forces under Lieutenant Benedict reclaimed its shattered stone walls. They follow the late Admiral's standing orders to wage unyielding war against the orcs and reject the peace Lady Jaina Proudmoore forged.",
+   "body": "Grand Admiral Daelin Proudmoore’s fleet used Tiragarde Keep as a beachhead on Durotar’s red shores. He raised it during his campaign to destroy Thrall’s newly founded realm. The Horde broke the siege and killed Proudmoore at Theramore Isle, yet the keep was never fully abandoned.\n\nResupply forces under Lieutenant Benedict reclaimed its shattered stone walls. They follow the late Admiral’s standing orders to wage unyielding war against the orcs. They reject the peace Lady Jaina Proudmoore forged.",
    "spoiler": 0
   },
   {
    "title": "A Thorn in Durotar's Flank",
-   "body": "White battlements rise above Durotar's crimson cliffs, and Kul Tiran sailors and marines patrol them. The garrison raids supply lines near Razor Hill. For the Horde, the keep remains an ongoing security crisis and a live proving ground: orc and troll commanders send young warriors to assault the fortress and cut down Benedict's soldiers. They seek to contain the garrison before the humans can push farther inland.",
+   "body": "White battlements rise above Durotar’s crimson cliffs, patrolled by Kul Tiran sailors and marines. The garrison raids supply lines near Razor Hill. For the Horde, the keep remains a security crisis and a proving ground.\n\nOrc and troll commanders send young warriors to assault the fortress and cut down Benedict’s soldiers. They seek to contain the garrison before the humans push farther inland.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who are the humans in tiragarde",
     "human soldiers durotar"
    ],
-   "answer": "The humans in Durotar are Kul Tiran sailors and marines who arrived with Grand Admiral Daelin Proudmoore during his invasion after the Third War. They reject peace with the Horde and keep this garrison to harass the orcs."
+   "answer": "The humans in Durotar are Kul Tiran sailors and marines who arrived with Grand Admiral Daelin Proudmoore during his invasion after the Third War. They reject peace with the Horde and keep the garrison to harass the orcs."
   },
   {
    "q": "Are these humans part of Jaina's forces in Theramore?",
@@ -37,7 +37,7 @@
     "are they jaina proudmoore's men",
     "theramore soldiers here"
    ],
-   "answer": "No. Jaina Proudmoore rules Theramore Isle and maintains an uneasy truce with Thrall, while these soldiers follow invasion orders left by her late father, Grand Admiral Daelin Proudmoore. They regard peace with orcs as unacceptable treason."
+   "answer": "No. Jaina Proudmoore rules Theramore Isle and maintains an uneasy truce with Thrall. These soldiers follow invasion orders left by her late father, Grand Admiral Daelin Proudmoore, and regard peace with orcs as unacceptable treason."
   },
   {
    "q": "Who commands Tiragarde Keep?",
@@ -46,7 +46,7 @@
     "who leads tiragarde keep",
     "lieutenant benedict"
    ],
-   "answer": "Lieutenant Benedict commands Tiragarde Keep, acting on posthumous invasion orders left by Admiral Proudmoore to secure the coast and attack the Horde."
+   "answer": "Lieutenant Benedict commands Tiragarde Keep under posthumous invasion orders from Admiral Proudmoore to secure the coast and attack the Horde."
   },
   {
    "q": "Why hasn't the Horde simply wiped them out?",
@@ -54,17 +54,17 @@
     "why not destroy tiragarde",
     "why is the keep still here"
    ],
-   "answer": "The keep is fortified and held by disciplined, well-armed Kul Tiran troops. Defenders from Razor Hill often skirmish with the garrison and send new recruits there to prove themselves, while a full siege would cost many lives and draw resources away from securing the rest of Durotar."
+   "answer": "Tiragarde Keep is fortified and held by disciplined, well-armed Kul Tiran troops. Defenders from Razor Hill often skirmish with the garrison and send new recruits there to prove themselves. A full siege would cost many lives and draw resources away from securing the rest of Durotar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, Tiragarde Keep is an Alliance invasion base on Durotar's doorstep. Raiding its ramparts and defeating Lieutenant Benedict is a rite of passage for young soldiers serving Razor Hill."
+   "text": "For the Horde, Tiragarde Keep is an Alliance invasion base on Durotar’s doorstep. Raiding its ramparts and defeating Lieutenant Benedict is a rite of passage for young soldiers serving Razor Hill."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you can see the garrison's stubborn legacy of Kul Tiras and Admiral Proudmoore. Its soldiers wage a guerrilla war against the Horde despite Jaina Proudmoore's diplomacy."
+   "text": "As a human, you can see the garrison’s stubborn legacy of Kul Tiras and Admiral Proudmoore. Its soldiers wage a guerrilla war against the Horde despite Jaina Proudmoore’s diplomacy."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Tiragarde Keep"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Shimmering Frond",
   "chain": []
  },
- "summary": "Across Teldrassil, a curious plant shimmers among the roots and canopy. Travelers bring a cutting to Denalan at Lake Al'Ameth, hoping the botanist can explain its origin.",
+ "summary": "A curious plant shimmers among Teldrassil's roots and canopy. Travelers carry a cutting to Denalan at Lake Al'Ameth, hoping the botanist can explain where it came from.",
  "sections": [
   {
    "title": "A Strange Glow",
-   "body": "In Teldrassil's boughs, a strange plant catches the light. Its fronds twist with a pulsing shimmer unlike the island's usual foliage. The glow draws the eye amid Teldrassil's young forest life.",
+   "body": "A strange plant catches the light in Teldrassil's boughs. Its fronds twist with a pulsing shimmer unlike the island's usual foliage. The glow draws the eye among the young forest's plants.",
    "spoiler": 0
   },
   {
    "title": "Denalan's Discovery",
-   "body": "At Lake Al'Ameth, Denalan recognizes the cutting as a plant from beyond northern Kalimdor. He last saw one decades ago, during a journey to the Swamp of Sorrows in the Eastern Kingdoms. How its seed crossed the ocean and grew so large on the World Tree puzzles him. Denalan begins cultivating the sample and testing it.",
+   "body": "At Lake Al'Ameth, Denalan recognizes the cutting as a plant from beyond northern Kalimdor. He last saw one decades ago, while traveling in the Swamp of Sorrows in the Eastern Kingdoms. How its seed crossed the ocean and grew so large on the World Tree puzzles him. Denalan begins cultivating the sample and testing it.",
    "spoiler": 1
   }
  ],
@@ -108,5 +108,5 @@
  "attribution": [
   "The Shimmering Frond"
  ],
- "style": 1
+ "style": 2
 }

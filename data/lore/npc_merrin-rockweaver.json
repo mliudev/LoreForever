@@ -8,16 +8,16 @@
   "wiki": "Merrin Rockweaver",
   "refs": 2
  },
- "summary": "On a ridge above Whelgar's Excavation Site, Merrin Rockweaver waits with the survivors. A raptor infestation drove them from the dig, where she represented the Explorers' League.",
+ "summary": "On a ridge above Whelgar's Excavation Site, Merrin Rockweaver waits with the survivors. Raptors drove them from the dig, where she represented the Explorers' League.",
  "sections": [
   {
    "title": "Displaced by the Dig",
-   "body": "Merrin Rockweaver came to the Wetlands for the Ironforge Explorers' League, seeking ancient Titan secrets beneath the muck. The expedition fell apart when the large bones the crew unearthed drew raptors to the dig. The beasts swarmed the trenches, and Merrin and the surviving crew fled, leaving their equipment, notes, and progress behind. Now Merrin is trapped with a few survivors on a bluff overlooking the overrun ruins.",
+   "body": "Merrin Rockweaver came to the Wetlands for the Ironforge Explorers' League. Beneath the muck, the expedition sought ancient Titan secrets. Then the crew unearthed large bones, and raptors came to the dig. The beasts swarmed the trenches, forcing Merrin and the surviving crew to flee. They left their equipment, notes, and progress behind. Now Merrin and a few survivors are trapped on a bluff above the overrun ruins.",
    "spoiler": 0
   },
   {
    "title": "Salvaging the Operation",
-   "body": "The survivors on the bluff still hope to save what they can of the expedition. Ormer Ironbraid plans vengeance against the beasts, while Prospector Whelgar seeks tablet fragments in the raptor-infested trenches. Merrin worries about her husband Tarrel, who has heard nothing from her in weeks. A scout Longbraid sent to find the team can carry word of their plight back to him.",
+   "body": "The survivors on the bluff still hope to save what they can of the expedition. Ormer Ironbraid plans to take vengeance on the beasts, while Prospector Whelgar searches the raptor-infested trenches for tablet fragments. Merrin fears for her husband Tarrel, who has heard nothing from her in weeks. Longbraid sent a scout to find the team, and that scout can carry word of their plight back to Tarrel.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "what are they digging for",
     "excavation site purpose"
    ],
-   "answer": "The Wetlands expedition sought ancient artifacts tied to dwarven ancestry and the mysterious Titan relics hidden throughout Khaz Modan."
+   "answer": "The Wetlands expedition sought ancient artifacts tied to dwarven ancestry and mysterious Titan relics hidden throughout Khaz Modan."
   }
  ],
  "angles": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Merrin Rockweaver"
  ],
- "style": 1
+ "style": 2
 }

@@ -13,16 +13,16 @@
   "previous": "",
   "next": ""
  },
- "summary": "A friendly barkeep points travelers eager for a livelier gathering toward the port of Booty Bay in Stranglethorn Vale. Those looking for wilder company are directed to seek out Nixxrax Fillamug at the Salty Sailor Tavern.",
+ "summary": "Travelers seeking livelier company are directed toward Booty Bay in Stranglethorn Vale. For wilder gatherings, they are sent to Nixxrax Fillamug at the Salty Sailor Tavern.",
  "sections": [
   {
    "title": "A Word Across the Counter",
-   "body": "Word passes quickly between drink-servers and their patrons, and news travels far beyond the local counter. A friendly bartender passes along a tip about where the genuine commotion is brewing, pointing anyone searching for wilder spectacles toward the port of Booty Bay.",
+   "body": "A friendly bartender sends travelers toward Booty Bay, where the port draws those who seek wilder spectacles. Drink servers pass the word to patrons, and it travels beyond the counter.",
    "spoiler": 0
   },
   {
    "title": "The Salty Sailor",
-   "body": "The destination is the Salty Sailor Tavern, a lively establishment maintained by goblins amidst the bustle of Stranglethorn Vale. There, Nixxrax Fillamug keeps cups topped up for anyone who walks in.",
+   "body": "The Salty Sailor Tavern stands in Booty Bay, amid Stranglethorn Vale. Goblins run the lively tavern, where Nixxrax Fillamug keeps the cups filled for all who enter.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "destination",
     "booty bay directions"
    ],
-   "answer": "This leads to Stranglethorn Vale, straight to the goblin-run port town of Booty Bay."
+   "answer": "The trail leads to Booty Bay, a goblin-run port in Stranglethorn Vale."
   },
   {
    "q": "Who are you supposed to find in Booty Bay?",
@@ -43,7 +43,7 @@
     "who is nixxrax",
     "nixxrax fillamug"
    ],
-   "answer": "You are directed to find Nixxrax Fillamug inside the Salty Sailor Tavern, where he keeps everyone's drinks topped up."
+   "answer": "You are sent to find Nixxrax Fillamug at the Salty Sailor Tavern, where he keeps the drinks flowing."
   },
   {
    "q": "Why send someone all the way to Stranglethorn Vale?",
@@ -52,7 +52,7 @@
     "why go to booty bay",
     "why the recommendation"
    ],
-   "answer": "Bartenders hear all the gossip from their patrons, and word has it that the Salty Sailor Tavern holds the wildest festivities around, regardless of goblin management."
+   "answer": "Bartenders hear gossip from their patrons, and word says the Salty Sailor Tavern holds the wildest gatherings around, though goblins run it."
   }
  ],
  "angles": [],
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "In-game quest text: Talk of the Town"
- ]
+ ],
+ "style": 2
 }

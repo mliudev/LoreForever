@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (4)",
   "chain": []
  },
- "summary": "In Ashenvale, Raene's Cleansing brings Dartol's Rod closer to being whole. Shael'dryn knows where its iron shaft lies, in a chest near the Felwood border. The search leads toward treants changed by corruption.",
+ "summary": "In Ashenvale, Raene's Cleansing brings Dartol's Rod closer to wholeness. Shael'dryn knows where its iron shaft lies, in a chest near the Felwood border. The search leads toward treants changed by corruption.",
  "sections": [
   {
    "title": "A Fragment Near the Blight",
-   "body": "Raene Wolfrunner sends you to Shael'dryn, a keeper who watches over a moonwell deep in Ashenvale. Shael'dryn knows where Dartol's Rod's iron shaft lies, but reaching it means facing the taint spreading through the northern woods. The shaft is locked in an old chest in a quiet glade near the Felwood border.",
+   "body": "Raene Wolfrunner sends you to Shael'dryn, a keeper who watches over a moonwell deep in Ashenvale. Shael'dryn knows where Dartol's Rod's iron shaft lies. To reach it, you must face the taint spreading through the northern woods. The shaft rests in an old chest in a quiet glade near the Felwood border.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Guardians",
-   "body": "A wooden key is needed to open the chest, and Crazed and Withered Ancients hold it. These treants wander the mountain road north toward Felwood, their natural harmony shattered by corruption spreading south from the demonic wastes. Once guardians of the wild, they are now tormented and hostile, and the key lies with them.",
+   "body": "A wooden key will open the chest, and Crazed and Withered Ancients carry it. These treants wander the mountain road north toward Felwood. Corruption from the demonic wastes spreads south and has shattered their natural harmony. Once guardians of the wild, they are now tormented and hostile. The key lies with them.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why are treants crazy",
     "crazed ancients lore"
    ],
-   "answer": "Demonic taint from the Third War still spreads south from Felwood into Ashenvale. It warps the treants along the northern ridges, driving the ancient protectors mad and twisting their bond with the land."
+   "answer": "Demonic taint from the Third War still spreads south from Felwood into Ashenvale. It warps treants along the northern ridges, driving the ancient protectors mad and twisting their bond with the land."
   },
   {
    "q": "What is Dartol's Rod?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Raene's Cleansing (4)"
  ],
- "style": 1
+ "style": 2
 }

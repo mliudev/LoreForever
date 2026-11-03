@@ -10,11 +10,11 @@
    "quest:289"
   ]
  },
- "summary": "At the Lost Fleet, Snellig's Snuffbox remains with its undead owner among the wrecks. First Mate Fitzsimmons in Menethil Harbor wants it as proof his cursed crewmate has been put to rest.",
+ "summary": "At the Lost Fleet, Snellig's Snuffbox stays with its undead owner among the wrecks. First Mate Fitzsimmons in Menethil Harbor wants it as proof that his cursed crewmate has found rest.",
  "sections": [
   {
    "title": "A Keepsake of the Third Fleet",
-   "body": "First Mate Snellig still clutches his snuffbox in a wreck off the northern Wetlands. When the Third Fleet of Kul Tiras ran aground there, its sailors and officers drowned beneath a mysterious power tied to a hidden treasure aboard the ships. Bound by that power, the drowned crew rose again as tortured spirits and skeletal undead. Snellig haunts the rotting hold of the wreck closest to the coastline. His snuffbox is a small, ordinary reminder of his mortal life at sea. First Mate Fitzsimmons, the disaster's sole living survivor, wants this possession returned as proof that at least one lost shipmate has found release from torment.",
+   "body": "First Mate Snellig still clutches his snuffbox in a wreck off the northern Wetlands. The Third Fleet of Kul Tiras ran aground there, and its sailors and officers drowned beneath a mysterious power tied to a hidden treasure aboard the ships. Bound to that power, the drowned crew rose again as tortured spirits and skeletal undead.\n\nSnellig haunts the rotting hold of the wreck closest to the coastline. His snuffbox is an ordinary keepsake from his mortal life at sea. First Mate Fitzsimmons, the disaster's sole living survivor, wants it returned as proof that at least one lost shipmate has found release from torment.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "who do i turn this into",
     "fitzsimmons quest"
    ],
-   "answer": "First Mate Fitzsimmons wants you to bring him the snuffbox at Menethil Harbor. The Third Fleet's sole living survivor asks for it as proof that Snellig has been put to rest."
+   "answer": "First Mate Fitzsimmons wants you to bring him the snuffbox at Menethil Harbor. The Third Fleet's sole living survivor asks for it as proof that Snellig has found rest."
   },
   {
    "q": "Why is First Mate Snellig cursed?",
@@ -85,5 +85,5 @@
   "Snellig's Snuffbox",
   "The Cursed Crew (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:168"
   ]
  },
- "summary": "In Moonbrook, union cards mark the laborers lost beneath the earth. Workers once carried them through the mines, and now the cards remain with skeletal dead in the dark drifts.",
+ "summary": "In Moonbrook, union cards remain with the laborers lost beneath the earth. Workers once carried them through the mines, and now they lie with the skeletal dead in the dark drifts.",
  "sections": [
   {
    "title": "Tragedy in the Deep",
-   "body": "Before the Defias Brotherhood took control of Moonbrook, miners worked below ground for the guild, drawing valuable ore for the kingdom. A tunnel collapse crushed a major shaft and killed dozens beneath the rock. The dead rose as skeletal miners, excavators, and dynamiters. Union cards remain in their bony pockets, the last proof of who they were. In Stormwind, surviving colleagues seek the cards to learn the dead workers' identities and bring closure to their families.",
+   "body": "Before the Defias Brotherhood took control of Moonbrook, miners worked below ground for the guild, drawing valuable ore for the kingdom. Then a tunnel collapsed, crushing a major shaft and killing dozens beneath the rock.\n\nThe dead rose as skeletal miners, excavators, and dynamiters. Their union cards remain in bony pockets, the last proof of who they were. In Stormwind, surviving colleagues seek the cards to learn the dead workers' identities and bring closure to their families.",
    "spoiler": 0
   }
  ],
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "For prospectors and miners, these cards recall the deadly risks of cave-ins and mine shafts left unmanaged."
+   "text": "For prospectors and miners, these cards recall the deadly risks of cave-ins and unmanaged mine shafts."
   },
   {
    "target": "faction:Alliance",
@@ -88,5 +88,5 @@
   "Miners' Union Card",
   "Collecting Memories"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Ormer's Revenge (2)",
   "chain": []
  },
- "summary": "At the ruined Whelgar Excavation Site, Ormer Ironbraid sends you after the raptors that drove out his expedition. With the smaller scouts culled, he wants the Mottled Scytheclaws and Razormaws killed.",
+ "summary": "At the ruined Whelgar Excavation Site, Ormer Ironbraid sends you after the raptors that drove out his expedition. Their smaller young are already thinned, and now he wants the Mottled Scytheclaws and Razormaws killed.",
  "sections": [
   {
    "title": "Escalating the Hunt",
-   "body": "Ormer Ironbraid turns your blades on the adult raptors in the lower dig. You have already thinned the smaller juveniles that overran the upper camp, but Mottled Scytheclaws and Razormaws still threaten any hope of reclaiming the excavation. They tear through dwarven prospectors and leave the trenches strewn with shattered crates and abandoned picks.",
+   "body": "Ormer Ironbraid sends you after the adult raptors in the lower dig. You have already thinned the juveniles that overran the upper camp, but Mottled Scytheclaws and Razormaws still threaten any hope of reclaiming the excavation. They tear through dwarven prospectors and leave the trenches strewn with shattered crates and abandoned picks.",
    "spoiler": 0
   },
   {
    "title": "Blood in the Trenches",
-   "body": "Raptors have made their nests in the excavation pits. From the ridge above the dig, Ormer directs you into the mud to strike at the mature beasts. Prospector Whelgar and his crew hope to salvage ancient relics, but Ormer is consumed by vengeance. He demands a heavy toll of dead Scytheclaws and Razormaws before he turns to the site's apex terror.",
+   "body": "Raptors have made nests in the excavation pits. From the ridge above the dig, Ormer directs you into the mud to strike at the mature beasts. Prospector Whelgar and his crew hope to salvage ancient relics, but Ormer is consumed by vengeance. He demands a heavy toll of dead Scytheclaws and Razormaws before he turns to the site's apex terror.",
    "spoiler": 0
   }
  ],
@@ -117,5 +117,5 @@
  "attribution": [
   "Ormer's Revenge (2)"
  ],
- "style": 1
+ "style": 2
 }

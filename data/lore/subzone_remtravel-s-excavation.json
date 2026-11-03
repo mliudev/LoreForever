@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Remtravel's Excavation"
  },
- "summary": "At Remtravel's Excavation, Prospector Remtravel's dig has broken into ancient ruins.",
+ "summary": "Prospector Remtravel's dig in southern Darkshore has broken into ancient ruins.",
  "sections": [
   {
    "title": "A Quarry Overrun",
-   "body": "Prospector Remtravel came to southern Darkshore seeking relics from the distant past. He established a large dig far from Auberdine's safety. As his team cut through ancient layers of earth, they uncovered Gravelflint troggs and hulking stone golems buried below. The creatures overran the quarry, scattering the miners. Remtravel now scrambles to recover his most promising finds.",
+   "body": "Prospector Remtravel came to southern Darkshore in search of relics from the distant past. He set up a large dig, far from Auberdine's safety. As his team cut through old layers of earth, they uncovered Gravelflint troggs and hulking stone golems. The creatures overran the quarry and scattered the miners. Now Remtravel scrambles to recover his most promising finds.",
    "spoiler": 0
   },
   {
    "title": "The Missing Fossil",
-   "body": "A rare fossil with curious mystic properties was uncovered before chaos swept the excavation. In the panic of the trogg attack, the absent-minded prospector misplaced it among the sprawling dirt pits. Recovering the relic means venturing into the dig, where vicious troggs and ancient automatons awakened by the pickaxes remain.",
+   "body": "Before chaos swept the excavation, the miners uncovered a rare fossil with curious mystic properties. In the panic of the trogg attack, the absent-minded prospector misplaced it among the sprawling dirt pits. Recovering the relic means venturing back into the dig. Vicious troggs and ancient automatons awakened by the pickaxes remain there.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "darkshore dig site",
     "remtravel site"
    ],
-   "answer": "Remtravel's Excavation is an archaeological dig in southern Darkshore, established by Prospector Remtravel as he searched for ancient fossils and subterranean relics."
+   "answer": "Prospector Remtravel established this archaeological dig in southern Darkshore while searching for ancient fossils and subterranean relics."
   },
   {
    "q": "Why are there troggs here?",
@@ -37,7 +37,7 @@
     "gravelflint troggs",
     "where did troggs come from"
    ],
-   "answer": "Dwarven miners dug too deeply and broke into underground caverns, awakening the Gravelflint troggs and dormant stone golems."
+   "answer": "Dwarven miners dug too deeply and broke into underground caverns. Their work awakened the Gravelflint troggs and dormant stone golems."
   },
   {
    "q": "Who is Prospector Remtravel?",
@@ -54,7 +54,7 @@
     "remtravel fossil",
     "mystic fossil"
    ],
-   "answer": "Remtravel uncovered an unusual fossil with strange mystic properties shortly before the troggs surged from below."
+   "answer": "Shortly before the troggs surged from below, Remtravel uncovered an unusual fossil with strange mystic properties."
   }
  ],
  "angles": [
@@ -64,7 +64,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you may watch Alliance dwarves' deep digging with skepticism, especially when it awakens wild troggs on Darkshore's ancient soil."
+   "text": "As a night elf, you may view Alliance dwarves' deep digging with skepticism, especially when it awakens wild troggs on Darkshore's ancient soil."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Remtravel's Excavation"
  ],
- "style": 1
+ "style": 2
 }

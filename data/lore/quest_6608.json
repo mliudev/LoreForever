@@ -17,16 +17,16 @@
   "wiki": "You Too Good.",
   "chain": []
  },
- "summary": "Lumak sends you from Orgrimmar to find his friend Nat Pagle. Your skill has outgrown ordinary lessons, and Nat camps on a distant islet south of Theramore Isle.",
+ "summary": "Lumak sends you from Orgrimmar to seek his friend Nat Pagle. Your skill has outgrown ordinary lessons, and Nat camps on a distant islet south of Theramore Isle.",
  "sections": [
   {
    "title": "Lumak's Limits",
-   "body": "Lumak trains fishers in Orgrimmar's Valley of Honor. He sees that you have learned all he can teach about rod and reel, and admits you are too good for ordinary lessons. To learn the art of artisan fishing, you must seek knowledge beyond the city and the Horde.",
+   "body": "Lumak teaches fishers in Orgrimmar's Valley of Honor. He sees you have learned all he can teach about rod and reel. So he admits you are too good for ordinary lessons. Artisan fishing calls for knowledge beyond the city and the Horde.",
    "spoiler": 0
   },
   {
    "title": "An Unlikely Friendship",
-   "body": "Lumak sends you to find his human friend, Nat Pagle. He warns you not to harm or eat Nat, despite the friction between the Horde and Alliance across Kalimdor. Nat camps on an islet south of Theramore Isle in Dustwallow Marsh. He keeps clear of politics and cares only whether the fish are biting.",
+   "body": "Lumak sends you to find his human friend, Nat Pagle. Though the Horde and Alliance clash across Kalimdor, he warns you not to harm or eat Nat. Nat camps on an islet in Dustwallow Marsh, south of Theramore Isle. He keeps clear of politics and cares only whether the fish are biting.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "lumak quest giver",
     "where to get you too good"
    ],
-   "answer": "Lumak, the fishing trainer in Orgrimmar's Valley of Honor, sends you once your skill has grown beyond expert."
+   "answer": "Lumak, the fishing trainer in Orgrimmar's Valley of Honor, sends you when your skill has grown beyond expert."
   },
   {
    "q": "Where is Nat Pagle located?",
@@ -55,7 +55,7 @@
     "lumak and nat pagle friendship",
     "why is nat pagle friends with an orc"
    ],
-   "answer": "Lumak and Nat Pagle became friends through fishing, sharing a passion that crosses the bitter rivalry between orcs and humans."
+   "answer": "Lumak and Nat Pagle became friends through fishing. Their shared passion crosses the bitter rivalry between orcs and humans."
   },
   {
    "q": "What happens when I speak to Nat Pagle?",
@@ -63,7 +63,7 @@
     "what does nat pagle teach",
     "artisan fishing quest"
    ],
-   "answer": "Nat Pagle gives you a demanding trial: travel across Azeroth and catch rare fish before he teaches you further."
+   "answer": "Nat Pagle gives you a demanding trial. You travel across Azeroth and catch rare fish before he teaches you further."
   },
   {
    "q": "Is Theramore safe for Horde to pass through?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you can see Lumak's patience, good humor, and respect for nature in the friendship he has made across enemy lines."
+   "text": "As an orc, you can see Lumak's patience, good humor, and respect for nature in his friendship across enemy lines."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "You Too Good."
  ],
- "style": 1
+ "style": 2
 }

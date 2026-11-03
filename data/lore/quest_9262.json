@@ -17,16 +17,16 @@
   "wiki": "Investigate the Scourge of Darnassus",
   "chain": []
  },
- "summary": "Lieutenant Beitha calls for help as the Scourge encampments press close to Darnassus. The Argent Dawn needs defenders to strike the undead and learn what the runes outside the gates are for.",
+ "summary": "At Darnassus, Lieutenant Beitha calls for help as Scourge encampments press close. The Argent Dawn needs defenders to strike the undead and learn what the runes outside the gates are for.",
  "sections": [
   {
    "title": "A Plague on the World Tree",
-   "body": "The Scourge has reached Teldrassil, and floating necropolises loom above the invasion camps near Darnassus. Ghouls, skeletons, and other undead horrors spill from them. Lieutenant Beitha of the Argent Dawn coordinates the city's defense, calling on volunteers to slow the attack and gather information before the undead overwhelm the night elven homeland.",
+   "body": "The Scourge has reached Teldrassil. Floating necropolises loom over invasion camps near Darnassus, and ghouls, skeletons, and other undead horrors spill from them. Lieutenant Beitha of the Argent Dawn coordinates the city's defense. She calls on volunteers to slow the attack and gather information before the undead overwhelm the night elven homeland.",
    "spoiler": 0
   },
   {
    "title": "Whispers in the Runes",
-   "body": "The undead are not the only concern near the Scourge camps. Lieutenant Beitha asks defenders to collect dim necrotic stones from slain Scourge and inspect the glowing runic circles on the ground. Their whispers reach anyone who steps close. The circles carry messages, but Beitha does not know whom the Scourge are contacting.",
+   "body": "Near the Scourge camps, Lieutenant Beitha asks defenders to collect dim necrotic stones from slain Scourge and inspect the glowing runic circles on the ground. Their whispers reach anyone who steps close. The circles carry messages, but Beitha does not know whom the Scourge are contacting.",
    "spoiler": 1
   }
  ],
@@ -123,5 +123,5 @@
  "attribution": [
   "Investigate the Scourge of Darnassus"
  ],
- "style": 1
+ "style": 2
 }

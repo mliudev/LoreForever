@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Oneiros"
  },
- "summary": "Oneiros is a sprawling expanse of ancient night elven ruins located south of Jademir Lake in northern Feralas. Tied intimately to the nearby portals leading toward the realm of Ysera, its moss-covered stones are guarded by elite green dragonkin.",
+ "summary": "In northern Feralas, green dragonkin guard Oneiros and its ancient night elven ruins. The stones lie south of Jademir Lake, near portals that lead toward Ysera's realm.",
  "sections": [
   {
    "title": "Ruins Beneath the Dream",
-   "body": "Stretching across the dense forest floor of northern Feralas, the crumbling stone arches and column fragments of Oneiros hint at an ancient Kaldorei settlement abandoned millennia ago. In the present day, nature has reclaimed the structures, entwining them with massive roots and verdant overgrowth. Elite guardians of the Green Dragonflight relentlessly patrol the shaded paths and broken plazas, warding mortals away from ancient secrets.",
+   "body": "In northern Feralas, broken arches and columns mark an ancient Kaldorei settlement. Abandoned millennia ago, its stones are now threaded with roots and overgrowth. Green Dragonflight guardians patrol the shaded paths and ruined plazas, keeping mortals from ancient secrets.",
    "spoiler": 0
   },
   {
    "title": "Echoes and Corruption",
-   "body": "The spiritual link between Oneiros and the Emerald Dream makes the region volatile. Dragonkin loyal to the Dreamer maintain a watchful vigil around its boundaries, yet darkness stirs beyond the veil. Mortals wandering into Oneiros must contend with powerful dragonspawn who view any intruder as a potential threat to the delicate wards holding back corruption.",
+   "body": "Green dragonkin loyal to the Dreamer watch over Oneiros, where a spiritual link to the Emerald Dream makes the region volatile. Beyond the veil, darkness stirs. Powerful dragonspawn see any mortal who enters as a possible threat to the wards holding back corruption.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is oneiros",
     "find oneiros"
    ],
-   "answer": "Oneiros lies in northern Feralas, directly south of Jademir Lake and north of the main thoroughfares through the forest. It is situated near the Great Tree that borders the Emerald Dream portal."
+   "answer": "Oneiros lies in northern Feralas, directly south of Jademir Lake and north of the forest's main thoroughfares. It lies near the Great Tree that borders the Emerald Dream portal."
   },
   {
    "q": "What creatures inhabit Oneiros?",
@@ -37,7 +37,7 @@
     "enemies in oneiros",
     "who lives in oneiros"
    ],
-   "answer": "The ruins are heavily patrolled by powerful green dragonspawn and dragonkin sworn to the Green Dragonflight. Travelers should approach with caution, as these sentinels are formidable elite guardians."
+   "answer": "Powerful green dragonspawn and dragonkin sworn to the Green Dragonflight patrol Oneiros. These elite guardians are formidable, so travelers should approach with caution."
   },
   {
    "q": "Why are there night elf ruins here?",
@@ -46,7 +46,7 @@
     "kaldorei ruins feralas",
     "oneiros history"
    ],
-   "answer": "Oneiros is an ancient night elven settlement dating back to before the Great Sundering. Like much of Feralas, the civilization here crumbled over ten thousand years ago, leaving stone colonnades and courtyards reclaimed by nature."
+   "answer": "Oneiros was an ancient night elven settlement from before the Great Sundering. Its civilization crumbled over ten thousand years ago, leaving stone colonnades and courtyards for nature to reclaim."
   },
   {
    "q": "What is the connection between Oneiros and the Emerald Dream?",
@@ -54,7 +54,7 @@
     "oneiros emerald dream",
     "dream connection feralas"
    ],
-   "answer": "Its proximity to the great boughs connecting Kalimdor to the Dream realm causes the boundaries between the physical world and the spirit world to blur."
+   "answer": "Oneiros lies near great boughs connecting Kalimdor to the Dream realm, where the boundaries between the physical and spirit worlds blur."
   },
   {
    "q": "Is there a safe place to rest nearby?",
@@ -63,17 +63,17 @@
     "dreamers rest feralas",
     "friendly hub oneiros"
    ],
-   "answer": "Not within the ruins themselves, which belong to the green dragonkin. Alliance travelers can retreat to Feathermoon Stronghold off the western coast, while the Horde shelters at Camp Mojache in eastern Feralas."
+   "answer": "There is no safe place to rest within the ruins, which belong to green dragonkin. Alliance travelers can retreat to Feathermoon Stronghold off the western coast, while the Horde can shelter at Camp Mojache in eastern Feralas."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druids hold Oneiros in deep reverence and concern, recognizing its ethereal connection to Ysera's domain and the lingering danger of Nightmare corruption."
+   "text": "As a druid, you may feel reverence and concern for Oneiros, whose ethereal link reaches Ysera's domain and whose dangers include lingering Nightmare corruption."
   },
   {
    "target": "race:NightElf",
-   "text": "For Night Elves, wandering through Oneiros is a solemn reminder of their ancient empire's reach and the vigilant guardianship of the green dragonkin."
+   "text": "As a Night Elf, you can see in Oneiros a solemn reminder of your ancient empire's reach and the green dragonkin's vigilant guardianship."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Oneiros"
- ]
+ ],
+ "style": 2
 }

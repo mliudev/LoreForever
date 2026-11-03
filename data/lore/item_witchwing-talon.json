@@ -10,11 +10,11 @@
    "quest:867"
   ]
  },
- "summary": "In the northwestern Barrens, Witchwing Talons mark dead harpy raiders. Horde scouts at the Crossroads seek them as proof while they work to secure vital caravan routes.",
+ "summary": "In the northwestern Barrens, Witchwing Talons mark fallen harpy raiders. At the Crossroads, Horde scouts seek them as proof while working to secure vital caravan routes.",
  "sections": [
   {
    "title": "Trophies from the Roosts",
-   "body": "Witchwing harpies raid Horde supply caravans from their roosts northwest of the Crossroads. Scout Darsok Swiftdagger coordinates strikes against the flock's hierarchy. Darsok requires physical proof of each dead scavenger, and the talons provide it. With proof that raiders have fallen, the scouts can weaken the flock's ranks before striking higher in its command.",
+   "body": "Witchwing harpies raid Horde supply caravans from roosts northwest of the Crossroads. Scout Darsok Swiftdagger coordinates strikes against the flock's hierarchy. He requires proof that each scavenger has been killed, and the talons provide it. With proof of their fall, the scouts can thin the flock before striking higher in its command.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "witchwing talon quest giver",
     "darsok swiftdagger talons"
    ],
-   "answer": "Darsok Swiftdagger, an orc scout at the Crossroads, collects them. He plans a campaign against the Witchwing brood and requires eight talons as proof that its frontline raiders have been slain."
+   "answer": "Darsok Swiftdagger, an orc scout at the Crossroads, collects Witchwing Talons. He plans a campaign against the Witchwing brood and requires eight as proof that its frontline raiders have been slain."
   },
   {
    "q": "Which harpies carry these talons?",
@@ -34,7 +34,7 @@
     "what drops witchwing talons",
     "which harpies have talons"
    ],
-   "answer": "Witchwing Talons come from harpies in the northwestern Barrens, including common harpies and Witchwing Roguefeathers that nest along the cliffs and dry ridges."
+   "answer": "Harpies in the northwestern Barrens carry Witchwing Talons. They include common harpies and Witchwing Roguefeathers, which nest along the cliffs and dry ridges."
   },
   {
    "q": "Why are the Witchwing harpies being targeted?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Caravans connect Kalimdor's scattered Horde outposts, so clearing the harpy roosts helps secure the frontier."
+   "text": "Caravans connect Kalimdor's scattered Horde outposts. Clearing the harpy roosts helps secure the frontier."
   },
   {
    "target": "class:Rogue",
@@ -78,5 +78,5 @@
   "Witchwing Talon",
   "Harpy Raiders (Classic)"
  ],
- "style": 1
+ "style": 2
 }

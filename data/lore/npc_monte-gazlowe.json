@@ -8,21 +8,21 @@
   "wiki": "Monte Gazlowe",
   "refs": 5
  },
- "summary": "At Ratchet, Monte Gazlowe keeps a neutral port open to traders from every side. He founded the town with the fortune he earned as the Horde’s chief engineer during the building of Durotar and Orgrimmar.",
+ "summary": "At Ratchet, Monte Gazlowe keeps the port open to traders from every side. He founded the town with the fortune he earned as the Horde’s chief engineer during the building of Durotar and Orgrimmar.",
  "sections": [
   {
    "title": "The Mastermind of Ratchet",
-   "body": "At Ratchet, Monte Gazlowe runs a port where rivals can trade under the Steamwheedle Cartel. He founded the town on the barren coast after earning a handsome payday for his engineering work with the new Horde. Horde, Alliance, and independent traders may barter there, so long as they keep their weapons sheathed and their purses heavy.",
+   "body": "Monte Gazlowe runs Ratchet under the Steamwheedle Cartel, where rivals meet to trade. He founded the town on the barren coast after earning a handsome payday for engineering work with the new Horde. Horde, Alliance, and independent traders may barter there, so long as they keep their weapons sheathed and their purses heavy.",
    "spoiler": 0
   },
   {
    "title": "Engineer for the Horde",
-   "body": "After the Third War, Warchief Thrall hired Monte Gazlowe as Durotar’s chief engineer to solve urgent problems for the new orc capital. Gazlowe took on the dangerous work of securing freshwater for Orgrimmar. His tunnels broke into underground kobold dens, but the wandering beastmaster Rexxar arrived in time to help blast the caverns shut. Gazlowe finished his assignments and remains a favored contractor and friend to Thrall. He has even sent his foreman, Rezlak, to keep helping with orc construction across Durotar.",
+   "body": "After the Third War, Warchief Thrall hired Monte Gazlowe as Durotar’s chief engineer to solve urgent problems for the new orc capital. Gazlowe took on the dangerous work of securing freshwater for Orgrimmar. His tunnels broke into underground kobold dens, but the wandering beastmaster Rexxar arrived in time to help blast the caverns shut.\n\nGazlowe finished his assignments and remains a favored contractor and friend to Thrall. He has even sent his foreman, Rezlak, to keep helping with orc construction across Durotar.",
    "spoiler": 0
   },
   {
    "title": "Trouble on the Merchant Coast",
-   "body": "Trade brings good earnings to Ratchet, but maritime rivals and thieves trouble Monte Gazlowe’s business. The Southsea Freebooters have camps along the nearby Merchant Coast, where they seize cargo bound for Ratchet and steal goods from raw ore to Gazlowe’s custom-ordered boots. To protect his profits, the port boss often hires passing sellswords of any allegiance to clear pirate camps, recover stolen shipments, and settle scores with troublemakers at the docks.",
+   "body": "Trade brings good earnings to Ratchet, but maritime rivals and thieves trouble Monte Gazlowe’s business. The Southsea Freebooters have camps along the nearby Merchant Coast, where they seize cargo bound for Ratchet and steal goods from raw ore to Gazlowe’s custom-ordered boots.\n\nTo protect his profits, the port boss often hires passing sellswords of any allegiance to clear pirate camps, recover stolen shipments, and settle scores with troublemakers at the docks.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "gazlowe lore",
     "ratchet boss"
    ],
-   "answer": "Monte Gazlowe runs Ratchet, the main trading port on the Barrens coast. He made his fortune as the chief engineer overseeing Orgrimmar’s construction, then founded Ratchet as an open, neutral harbor under the Steamwheedle Cartel."
+   "answer": "Monte Gazlowe runs Ratchet, the main trading port on the Barrens coast. He made his fortune as chief engineer overseeing Orgrimmar’s construction, then founded Ratchet as an open, neutral harbor under the Steamwheedle Cartel."
   },
   {
    "q": "Is Gazlowe loyal to the Horde or the Alliance?",
@@ -43,7 +43,7 @@
     "is ratchet neutral",
     "gazlowe faction"
    ],
-   "answer": "Monte Gazlowe operates Ratchet under the Steamwheedle Cartel and opens its docks to Alliance and Horde travelers. He also shares a close bond and a profitable history with Warchief Thrall, having engineered key parts of Durotar’s settlements."
+   "answer": "Monte Gazlowe runs Ratchet under the Steamwheedle Cartel and opens its docks to Alliance and Horde travelers. He also shares a close bond and a profitable history with Warchief Thrall, having engineered key parts of Durotar’s settlements."
   },
   {
    "q": "What did Gazlowe build in Durotar?",
@@ -70,7 +70,7 @@
     "gazlowe thousand needles",
     "gazlowe racing"
    ],
-   "answer": "Monte Gazlowe is an avid admirer of engineering and speed. He sponsors goblin teams racing gnomes in the Shimmering Flats of Thousand Needles, helped build their racing rig, and is trying to find prototype fuel regulators."
+   "answer": "Monte Gazlowe admires engineering and speed. He sponsors goblin teams racing gnomes in the Shimmering Flats of Thousand Needles, helped build their racing rig, and is trying to find prototype fuel regulators."
   }
  ],
  "angles": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Monte Gazlowe"
  ],
- "style": 1
+ "style": 2
 }

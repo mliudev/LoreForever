@@ -673,6 +673,18 @@ def latest_proof(folder, producer, bound):
         raise Failure('Duplicate producer proof')
     return matches[0]
 
+def published_willo(args, release, file, signature):
+    """Willo's file on a published release and the signature evidence for it, from the release-manifest.json published
+    with it: what the rebuilt manifest and SHA256SUMS.txt must still carry, since installed Willos check their download
+    against her row there. Checked against what GitHub holds, so a file that changed since fails instead of staying."""
+    published = json.loads(run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-'))
+    kept = next((r for r in published.get('assets', []) if r.get('name') == file), None)
+    if kept is None or not published.get(signature):
+        raise Failure('Published release has ' + file + ', but its manifest has no row and signature for it to keep')
+    check_row(assets(release)[file], kept)
+    return kept, published[signature]
+
+
 def finalize(args):
     bound = binding(args)
     if args.proofs:
@@ -694,15 +706,22 @@ def finalize(args):
     release = get_release(args.repo, args.tag)
     if release is None:
         raise Failure('Final promotion requires the prepared release')
-    for optional, job, included in ((WILLO, 'willo', willo), (WILLO_MAC, 'willo-mac', mac)):
+    kept = set()   # Willo's files that stay on a published release as they are
+    for optional, included, signature in ((WILLO, willo, 'willoSignature'), (WILLO_MAC, mac, 'macSignature')):
         if included or optional not in assets(release):
             continue
         # Willo's jobs upload before they leave their proof; without a proof the upload isn't trusted. A draft just
         # loses it (the site keeps serving the last good one); a published release's is never removed here.
-        if not release['draft']:
-            raise Failure('Published release has ' + optional + ' but this run has no proof of it; rerun with the ' + job + ' job')
-        run('release', 'delete-asset', args.tag, optional, '-R', args.repo, '--yes')
-        release = get_release(args.repo, args.tag)
+        if release['draft']:
+            run('release', 'delete-asset', args.tag, optional, '-R', args.repo, '--yes')
+            release = get_release(args.repo, args.tag)
+            continue
+        # A published release with her file and no proof in this run is an older joint tag, from before 11/1, when the
+        # Release workflow built Willo too (she releases on her own now). Rebuilding it leaves her as she was published.
+        kept_row, kept_signature = published_willo(args, release, optional, signature)
+        proof['assets'].append(kept_row)
+        proof[signature] = kept_signature
+        kept.add(optional)
     if not release['draft'] and not args.legacy:
         # A publication response can be lost after promotion. A final-job retry only verifies it;
         # a new workflow run must use the explicit published-tag rebuild path.
@@ -730,8 +749,9 @@ def finalize(args):
     if args.legacy:
         # Only an already-public tag rebuild takes the previous full-artifact path.
         # Validate every local output before replacing any public asset.
-        paths = [locate(args.root, r) for r in proof['assets']]
-        for path, r in zip(paths, proof['assets']):
+        rebuilt = [r for r in proof['assets'] if r['name'] not in kept]
+        paths = [locate(args.root, r) for r in rebuilt]
+        for path, r in zip(paths, rebuilt):
             upload(args.repo, args.tag, path, r, published=True)
     remote = assets(get_release(args.repo, args.tag))
     for r in proof['assets']:

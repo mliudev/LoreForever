@@ -8,11 +8,11 @@
   "wiki": "Watcher Dodds",
   "refs": 1
  },
- "summary": "At Duskwood's central crossroads, Watcher Dodds keeps watch for the Night Watch. From his roadside outpost, he watches for danger and asks travelers to thin the giant spider population.",
+ "summary": "At the crossroads in central Duskwood, Watcher Dodds keeps watch for the Night Watch. From his roadside post, he watches for danger and asks travelers to thin the giant spider population.",
  "sections": [
   {
    "title": "On the Crossroads Watch",
-   "body": "Watcher Dodds guards the crossroads for the Night Watch, under Commander Althea Ebonlocke. His post stands where the roads from Darkshire, Raven Hill, and Deadwind Pass meet. Darkshire's palisades shelter the town, but Dodds keeps watch beyond them, amid wolf packs, ravenous ghouls, and oversized spiders. From his roadside camp, he watches for threats and asks passing mercenaries to kill spiders emerging from the undergrowth before they overrun the roads.",
+   "body": "Watcher Dodds guards the crossroads for the Night Watch, under Commander Althea Ebonlocke. The roads from Darkshire, Raven Hill, and Deadwind Pass meet at his post.\n\nDarkshire's palisades shelter the town, but Dodds watches for threats beyond them. Wolf packs, ravenous ghouls, and oversized spiders roam the roads. From his roadside camp, he asks passing mercenaries to kill spiders emerging from the undergrowth before they overrun the roads.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is dodds",
     "dodds duskwood"
    ],
-   "answer": "Watcher Dodds is a human member of the Night Watch, the militia defending Duskwood from the undead and beasts that plague the region. He is stationed at the central crossroads, outside Darkshire's protection."
+   "answer": "Watcher Dodds is a human member of the Night Watch, the militia defending Duskwood from the undead and beasts that plague the region. He is stationed at the central crossroads, beyond Darkshire's protection."
   },
   {
    "q": "Where can I find Watcher Dodds?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers crossing Duskwood, Watcher Dodds's campfire marks one of the few safe places to find friendly support along the dark roads between Darkshire and the western lands."
+   "text": "As an Alliance traveler crossing Duskwood, you can find friendly support at Watcher Dodds's campfire. It is one of the few such places along the dark roads between Darkshire and the western lands."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
  "attribution": [
   "Watcher Dodds"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,21 +8,21 @@
   "wiki": "Colonel Kurzen",
   "refs": 4
  },
- "summary": "Colonel Conrad Kurzen was once a decorated and noble officer of the Stormwind Army, sent to lead an expedition into northern Stranglethorn Vale. After descending into sudden madness and tyranny, he turned his force into a rogue jungle militia operating out of an armed compound. Today, his former subordinates at the nearby Rebel Camp actively seek his death to end his reign of terror.",
+ "summary": "In northern Stranglethorn Vale, Colonel Kurzen's former soldiers seek to end his rule. Once trusted by Stormwind, he now commands a rogue militia from an armed compound.",
  "sections": [
   {
    "title": "A Fall from Grace",
-   "body": "Before his downfall, Colonel Conrad Kurzen was regarded in Stormwind as an exceptionally capable and noble officer. Trusted by the kingdom's leadership, he was granted command of an expeditionary unit dispatched south into the dense jungles of Stranglethorn Vale. However, deep within the humid wilds, Kurzen began to exhibit erratic behavior and extreme megalomania, declaring absolute sovereignty over the surrounding wilderness and abandoning his allegiance to Stormwind.",
+   "body": "Colonel Conrad Kurzen once served Stormwind as a capable and honorable officer. The kingdom's leaders trusted him with an expeditionary unit sent south into Stranglethorn Vale. Deep in the jungle, his behavior grew erratic and grandiose. He claimed the wilderness as his own and cast aside his loyalty to Stormwind.",
    "spoiler": 0
   },
   {
    "title": "The Rebellion",
-   "body": "Kurzen's sudden transformation divided his ranks. While many soldiers succumbed to blind loyalty or twisted zealotry, others grew appalled by his madness and brutality\u2014including his act of throwing Emerine Junis into the compound's prison simply for spurning his advances. Led by Lieutenant Doren, a group of conscience-stricken soldiers broke away to establish the Rebel Camp along the northern road. These loyalist defectors now wage a desperate war against Kurzen to stop his rampaging force.",
+   "body": "Kurzen's change divided his soldiers. Some followed him with blind loyalty or zeal, while others recoiled from his madness and brutality. When Emerine Junis rejected his advances, he threw her into the compound's prison. Lieutenant Doren led the soldiers who broke away and founded Rebel Camp along the northern road. Now they fight Kurzen's rampaging force to stop it.",
    "spoiler": 0
   },
   {
    "title": "The Ogre Behind the Curtain",
-   "body": "Kurzen's madness was not born of jungle fever or natural exhaustion. The colonel fell victim to dark sorcery wrought by Mai'Zoth, a cunning ogre mage of the Mosh'ogg clan. By possessing Kurzen's mind, Mai'Zoth turned a disciplined detachment of Stormwind soldiers into violent pawns, manipulating Kurzen to exert regional control without the ogres having to wage open warfare themselves.",
+   "body": "Mai'Zoth, an ogre mage of the Mosh'ogg clan, used dark sorcery to possess Colonel Kurzen's mind. Jungle fever and exhaustion did not cause Kurzen's madness. Mai'Zoth turned a disciplined Stormwind detachment into violent pawns. Through the colonel, the ogre sought control of the region without open war.",
    "spoiler": 2
   }
  ],
@@ -34,7 +34,7 @@
     "what happened to kurzen",
     "kurzen backstory"
    ],
-   "answer": "Sometime during his expedition into Stranglethorn Vale, Kurzen began showing erratic behavior and megalomania, abandoning his allegiance to Stormwind. What drove the once-noble colonel to madness is a mystery his former soldiers at the Rebel Camp are still trying to unravel."
+   "answer": "During his expedition into Stranglethorn Vale, Kurzen grew erratic and grandiose, then abandoned his loyalty to Stormwind. His former soldiers at Rebel Camp still seek the cause of his madness."
   },
   {
    "q": "Where is Colonel Kurzen located?",
@@ -43,7 +43,7 @@
     "kurzen location",
     "colonel kurzen compound"
    ],
-   "answer": "He commands his militia from deep within Kurzen's Compound, situated in the hills of northern Stranglethorn Vale. He resides inside the fortified Stockpile building at the back of the encampment."
+   "answer": "Colonel Kurzen commands his militia from Kurzen's Compound in the hills of northern Stranglethorn Vale. He lives in the fortified Stockpile building at the rear of the encampment."
   },
   {
    "q": "Who are the rebels at the Rebel Camp?",
@@ -52,7 +52,7 @@
     "who is lieutenant doren",
     "why rebel camp"
    ],
-   "answer": "The rebels are former soldiers under Kurzen's command who refused to follow his descent into madness. Led by Lieutenant Doren, they remain loyal to Stormwind and operate from the Rebel Camp near the northern border, seeking to put an end to Kurzen's rogue army."
+   "answer": "The rebels are former soldiers under Kurzen's command who refused to follow his madness. Lieutenant Doren leads them from Rebel Camp near the northern border. They fight to end Kurzen's rogue army and remain loyal to Stormwind."
   },
   {
    "q": "Who is Emerine Junis?",
@@ -60,7 +60,7 @@
     "emerine junis",
     "kurzen prisoner"
    ],
-   "answer": "Emerine Junis was a woman attached to the expedition who rejected Kurzen's unwanted advances. In his growing cruelty and delusion, the colonel locked her away in the compound's prison cages."
+   "answer": "Emerine Junis was attached to the expedition and rejected Kurzen's advances. As his cruelty and delusion grew, he locked her in the compound's prison cages."
   },
   {
    "q": "Is Kurzen acting alone in the jungle?",
@@ -68,7 +68,7 @@
     "who does kurzen work for",
     "kurzen allies"
    ],
-   "answer": "No. He commands the human mercenaries, soldiers, and jungle fighters who remained loyal to him after the rebels broke away to the Rebel Camp."
+   "answer": "No. Kurzen commands the human mercenaries, soldiers, and jungle fighters who stayed loyal to him after the rebels left for Rebel Camp."
   },
   {
    "q": "What happens if Colonel Kurzen is slain?",
@@ -76,21 +76,21 @@
     "kurzen quest end",
     "doren kurzen head"
    ],
-   "answer": "Lieutenant Doren asks Alliance adventurers to sever Kurzen's head to definitively prove the colonel's demise, shatter his militia's chain of command, and salvage the honor of the Stormwind Army."
+   "answer": "Lieutenant Doren asks Alliance adventurers to take Kurzen's head as proof of his death. He wants them to break the militia's chain of command and restore the Stormwind Army's honor."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Kurzen represents a severe military scandal and a tragic loss of Stormwind troops, prompting Alliance command and local loyalists to authorize his elimination."
+   "text": "For the Alliance, Kurzen's fall is a grave military scandal and a tragic loss of Stormwind troops. Alliance command and local loyalists have authorized his death."
   },
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, Kurzen was once a peer and respected leader, making his brutal descent into tyranny a grim reminder of the jungle's hazards."
+   "text": "As a human of Stormwind, you can remember Kurzen as a respected leader. His fall into tyranny shows the dangers of the jungle."
   },
   {
    "target": "class:Warrior",
-   "text": "Kurzen stands as a cautionary example of disciplined martial might entirely subverted and twisted when stripped of will and honor."
+   "text": "As a warrior, you can see how disciplined martial strength can be twisted when will and honor are lost."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Colonel Kurzen"
- ]
+ ],
+ "style": 2
 }

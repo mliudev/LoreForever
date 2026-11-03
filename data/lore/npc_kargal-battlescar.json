@@ -8,11 +8,11 @@
   "wiki": "Kargal Battlescar",
   "refs": 2
  },
- "summary": "At the Far Watch Post, Kargal Battlescar guards the eastern edge of the Barrens. He watches the crossing from Durotar, judges incoming recruits, and sends capable fighters west to strengthen Horde defenses.",
+ "summary": "At the Far Watch Post, Kargal Battlescar watches the eastern edge of the Barrens. He guards the crossing from Durotar, judges incoming recruits, and sends capable fighters west to strengthen Horde defenses.",
  "sections": [
   {
    "title": "Sentinel of the Border",
-   "body": "Kargal Battlescar watches the road into the Barrens from the Far Watch Post. Travelers and new adventurers cross the bridge over the Southfury River, leaving the Valley of Trials behind. The Barrens is a dangerous, contested land, where aggressive wildlife, centaur raiders, and quilboar tribes threaten the frontier. Kargal inspects those who pass and gathers willing recruits for the Horde. He sends them onward to the Crossroads, where they can aid local commanders in securing the frontier.",
+   "body": "From the Far Watch Post, Kargal Battlescar watches the road into the Barrens. Travelers and new adventurers cross the bridge over the Southfury River, leaving the Valley of Trials behind. The Barrens is dangerous and contested.\n\nAggressive wildlife, centaur raiders, and quilboar tribes threaten the frontier. Kargal inspects those who pass and gathers willing recruits for the Horde. He sends them west to the Crossroads, where they can aid local commanders in securing the frontier.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "kargal",
     "who is kargal"
    ],
-   "answer": "Kargal Battlescar commands the Far Watch Post, guarding the eastern road from Durotar into the Barrens."
+   "answer": "Kargal Battlescar commands the Far Watch Post and guards the eastern road from Durotar into the Barrens."
   },
   {
    "q": "What is the purpose of the Far Watch Post?",
@@ -33,7 +33,7 @@
     "why far watch post",
     "what is this outpost"
    ],
-   "answer": "The Far Watch Post warns of threats near the Durotar border and along the Southfury River, and helps defend the Barrens."
+   "answer": "The Far Watch Post warns of threats near the Durotar border and along the Southfury River. It helps defend the Barrens."
   },
   {
    "q": "Where does Kargal send new recruits?",
@@ -42,7 +42,7 @@
     "where to go after kargal",
     "where does kargal send you"
    ],
-   "answer": "Kargal directs recruits west along the main road to the Crossroads, the Barrens' central military hub."
+   "answer": "Kargal sends recruits west along the main road to the Crossroads, the Barrens' central military hub."
   }
  ],
  "angles": [
@@ -52,7 +52,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can see Kargal's battle hardened experience in the marks of combat he bears. He shows the resilience expected of Horde frontline fighters in the frontier."
+   "text": "As a warrior, you can see Kargal's battle-hardened experience in the marks of combat he bears. He shows the resilience expected of Horde frontline fighters on the frontier."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Kargal Battlescar"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Foreman Thazz'ril relies on his enchanted pick for mineral surveys across Durotar, hoping to open new mining prospects once the local timber is cleared."
+   "text": "As a miner, you know why Foreman Thazz'ril relies on his enchanted pick to survey minerals across Durotar. He hopes to open new mining prospects once the local timber is cleared."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing basic tools and clearing out hostile threats like the Burning Blade Coven helps the Horde establish a firm foothold in the Valley of Trials."
+   "text": "As a member of the Horde, you help secure basic tools and drive off threats like the Burning Blade Coven. That strengthens the Horde's foothold in the Valley of Trials."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "thazzril role",
     "foreman thazzril"
    ],
-   "answer": "Foreman Thazz'ril oversees labor and resource gathering in the Valley of Trials, directing peons as they clear timber and prepare the land for mining operations.",
+   "answer": "Foreman Thazz'ril oversees labor and resource gathering in the Valley of Trials. He directs peons as they clear timber and prepare the land for mining.",
    "q": "Who is Foreman Thazz'ril?"
   },
   {
@@ -37,7 +37,7 @@
     "glowing pick",
     "enchanted pick"
    ],
-   "answer": "Thazz'ril placed a spell on his favorite pick so that it glows in the dark, allowing it to be easily spotted even in pitch-black cavern depths.",
+   "answer": "Thazz'ril enchanted his favorite pick to glow in the dark, so it is easier to spot in pitch-black caverns.",
    "q": "Why does Thazz'ril's pick glow?"
   },
   {
@@ -46,7 +46,7 @@
     "coven location",
     "pick cave"
    ],
-   "answer": "The Burning Blade Coven is a dark cave network located to the north of the peon lumber camp in the Valley of Trials.",
+   "answer": "The Burning Blade Coven is a dark cave network north of the peon lumber camp in the Valley of Trials.",
    "q": "Where is the Burning Blade Coven?"
   },
   {
@@ -55,7 +55,7 @@
     "why leave the pick",
     "pick left behind"
    ],
-   "answer": "Thazz'ril left his favorite pick behind while surveying the northern cave for minerals. When he went back to retrieve it, vicious beasts and dark cultists had infested the cavern.",
+   "answer": "Thazz'ril left his favorite pick behind while surveying the northern cave for minerals. When he returned, vicious beasts and dark cultists had infested the cavern.",
    "q": "How did Thazz'ril lose his pick?"
   },
   {
@@ -64,7 +64,7 @@
     "pick room",
     "waterfall chamber"
    ],
-   "answer": "The pick was left deep inside the cave in a subterranean chamber featuring waterfalls, resting where Thazz'ril was last surveying the rock walls.",
+   "answer": "Thazz'ril left the pick deep in the cave, in a subterranean chamber with waterfalls, where he had been surveying the rock walls.",
    "q": "Where inside the cave was the pick left?"
   },
   {
@@ -72,7 +72,7 @@
     "thazzril future plans",
     "what will thazzril mine"
    ],
-   "answer": "Thazz'ril plans to find a productive cave to mine once his peons finish cutting down the surrounding timber in the Valley of Trials.",
+   "answer": "Thazz'ril plans to find a productive cave to mine after his peons finish cutting down the surrounding timber in the Valley of Trials.",
    "q": "What does Thazz'ril plan to do after getting his pick back?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Foreman Thazz'ril, the supervisor overseeing work details in the Valley of Trials, previously ventured into the northern cavern to prospect for mineral veins. While surveying the rocky interior, he accidentally left behind his prized mining pick. By the time he realized his mistake and returned to fetch it, vicious beasts and hostile inhabitants had overtaken the cavern, forcing the foreman to seek assistance from capable recruits to recover his lost tool.",
+   "body": "Foreman Thazz'ril directs work in the Valley of Trials. He entered the northern cavern to search for mineral veins and left his favorite pick behind. When he returned, vicious beasts and hostile inhabitants had taken over. Now he seeks capable hands to bring back the tool.",
    "spoiler": 0,
    "title": "A Lost Tool"
   },
   {
-   "body": "To make his prized pick easier to use in dim subterranean depths, Thazz'ril enchanted it with a spell that causes it to glow in the dark. This magical illumination allows adventurers to easily spot the implement resting inside a waterfall chamber within the Burning Blade Coven, though retrieving it requires facing whatever dangerous creatures prowl the cavern shadows. Once returned, Thazz'ril hopes to put the pick back to work uncovering new mining opportunities across the valley.",
+   "body": "Thazz'ril enchanted his favorite pick to glow in the dark, making it easier to use in dim caverns. Its light marks the tool in a waterfall chamber inside the Burning Blade Coven. Dangerous creatures prowl the shadows. Thazz'ril hopes to put the pick back to work and find new mining prospects across the valley.",
    "spoiler": 0,
    "title": "Glow in the Dark"
   }
  ],
- "summary": "Foreman Thazz'ril accidentally left his favorite enchanted mining pick deep inside the northern cavern during a mineral survey. Now overrun by dangerous beasts, the cave known as the Burning Blade Coven holds the glowing tool awaiting recovery.",
+ "summary": "Foreman Thazz'ril needs his enchanted pick back from the northern cavern. Beasts now prowl the Burning Blade Coven, where the glowing tool lies.",
  "attribution": [
   "In-game quest text: Thazz'ril's Pick"
- ]
+ ],
+ "style": 2
 }

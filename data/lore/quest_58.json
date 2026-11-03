@@ -21,16 +21,16 @@
    "The Night Watch (3)"
   ]
  },
- "summary": "In eastern Raven Hill, The Night Watch calls on outsiders to enter the crypts. Commander Althea Ebonlocke sends them to destroy the plague spreaders while her guards defend Darkshire. This is the final mission in the town guard’s direct campaign against the undead overrun.",
+ "summary": "In eastern Raven Hill, The Night Watch sends for help as Darkshire faces the undead. Commander Althea Ebonlocke calls on travelers to enter the crypts and destroy the plague spreaders while her guards defend the town. This is the last chapter in the guard’s direct fight against the undead overrun.",
  "sections": [
   {
    "title": "A Desperate Frontier",
-   "body": "Darkshire stands nearly alone, abandoned by Stormwind’s military and reliant on its civilian militia, The Night Watch. Commander Althea Ebonlocke has spent her limited manpower guarding the crossroads, town perimeter, and supply lines. As the restless dead multiply across Duskwood, she turns to wandering champions to carry the fight into Raven Hill’s shadowed depths.",
+   "body": "Darkshire stands nearly alone, with no soldiers from Stormwind to rely on. Its civilian militia, The Night Watch, must hold the town. Commander Althea Ebonlocke has few guards to spare, and she uses them to protect the crossroads, the town’s edge, and the supply lines. As the restless dead multiply across Duskwood, she calls on wandering champions to carry the fight into Raven Hill’s depths.",
    "spoiler": 0
   },
   {
    "title": "Purging the Mausoleum",
-   "body": "The eastern mausoleum in Raven Hill Cemetery holds one of the region’s most dangerous concentrations of undead, unlike the open barrows. Its stone crypt teems with plague spreaders, ghouls whose afflictions can sicken the living. Destroying twenty gives The Night Watch room to breathe and helps keep Darkshire from facing a coordinated undead surge from the west.",
+   "body": "The eastern mausoleum in Raven Hill Cemetery holds one of the region’s largest concentrations of undead. Unlike the open barrows, its stone crypts teem with plague spreaders. These ghouls carry afflictions that can sicken the living. Destroying twenty gives The Night Watch room to breathe and helps keep Darkshire from facing a united undead surge from the west.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "why the night watch needs help",
     "night watch low numbers"
    ],
-   "answer": "The Night Watch is stretched thin across Duskwood. With Stormwind sending no official troops, Commander Althea Ebonlocke has barely enough guards to hold Darkshire’s perimeter and watch the roads. No spare militia can enter fortified crypts like Raven Hill."
+   "answer": "The Night Watch has too few guards to cover Duskwood. Stormwind sends no official troops, so Commander Althea Ebonlocke can barely hold Darkshire’s edge and watch the roads. No militia remains to enter fortified crypts like Raven Hill."
   },
   {
    "q": "Where is the eastern mausoleum located?",
@@ -51,7 +51,7 @@
     "eastern mausoleum location",
     "where is the mausoleum"
    ],
-   "answer": "The eastern mausoleum lies in the eastern part of Raven Hill Cemetery, in northwestern Duskwood. Its entrance leads underground to stone crypts where plague spreaders gather."
+   "answer": "The eastern mausoleum lies in the eastern part of Raven Hill Cemetery, in northwestern Duskwood. Its entrance opens into stone crypts where plague spreaders gather."
   },
   {
    "q": "What makes the plague spreaders dangerous?",
@@ -59,7 +59,7 @@
     "why kill plague spreaders",
     "what are plague spreaders"
    ],
-   "answer": "Plague spreaders are ravenous ghouls carrying virulent decay. Their corruption threatens to spread beyond the cemetery and taint Darkshire’s surviving residents."
+   "answer": "Plague spreaders are ravenous ghouls that carry virulent decay. Their corruption could spread beyond the cemetery and taint Darkshire’s surviving residents."
   },
   {
    "q": "Who is Commander Althea Ebonlocke?",
@@ -68,7 +68,7 @@
     "commander ebonlocke",
     "who leads the night watch"
    ],
-   "answer": "Althea Ebonlocke commands The Night Watch and is related to Darkshire’s mayor, Lord Ello Ebonlocke. She organizes Duskwood’s defense from inside Darkshire."
+   "answer": "Althea Ebonlocke commands The Night Watch and is related to Darkshire’s mayor, Lord Ello Ebonlocke. She directs Duskwood’s defense from inside Darkshire."
   },
   {
    "q": "Does completing this chain end the undead threat in Duskwood?",
@@ -76,7 +76,7 @@
     "is raven hill saved",
     "is darkshire safe now"
    ],
-   "answer": "No. Thinning the mausoleum’s ranks eases the immediate pressure on Darkshire, but Raven Hill remains infested, and darker powers across Duskwood still stir the dead."
+   "answer": "No. Thinning the mausoleum’s ranks eases the immediate pressure on Darkshire, but Raven Hill remains infested. Darker powers across Duskwood still stir the dead."
   },
   {
    "q": "How does this fit into the Night Watch questline?",
@@ -84,7 +84,7 @@
     "what chain is this",
     "is this the last night watch quest"
    ],
-   "answer": "This is the third and final chapter in Commander Ebonlocke’s direct martial series for The Night Watch. The campaign moves from the open roads to the graveyard outskirts, then deep into the mausoleum."
+   "answer": "This is the third and final chapter in Commander Ebonlocke’s direct martial campaign for The Night Watch. The fight moves from the open roads to the graveyard’s outskirts, then deep into the mausoleum."
   }
  ],
  "angles": [
@@ -94,11 +94,11 @@
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you face an unholy mockery of sacred burial rites in Raven Hill’s plague-ridden vaults. Cleansing its crypts is a vital duty to the Holy Light."
+   "text": "As a paladin, you face a profane mockery of sacred burial rites in Raven Hill’s plague-ridden vaults. Cleansing the crypts is a vital duty to the Holy Light."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you face the vile contagion spread by the ghouls in the eastern mausoleum. The threat calls for cleansing in spirit and body."
+   "text": "As a priest, you face the vile contagion spread by ghouls in the eastern mausoleum. The threat calls for cleansing in spirit and body."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "The Night Watch (3)"
  ],
- "style": 1
+ "style": 2
 }

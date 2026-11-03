@@ -18,16 +18,16 @@
   ],
   "next": "Some Assembly Required"
  },
- "summary": "Drizzlik, a leathercrafter in Booty Bay, claims to be the finest in the South Seas. Director Riddlevox of the Tinkers' Union has placed an order for twelve Excelsior-line boots, and Drizzlik needs skins from crocolisks by the northern Stranglethorn river to start shaping them.",
+ "summary": "In Booty Bay, Drizzlik is preparing an order for Director Riddlevox, chief inventor of the Tinkers' Union. The leathercrafter claims to be the finest in the South Seas and beyond.",
  "sections": [
   {
    "title": "An Order from the Tinkers' Union",
-   "body": "Drizzlik brags that this leatherwork is famed everywhere as exquisite, a connoisseur's choice. The latest order comes from Director Riddlevox, the Tinkers' Union's chief inventor, who wants a dozen of the Excelsior-line boots he favors, among Drizzlik's best sellers. To begin shaping them, Drizzlik needs skins from the crocolisks by the northern Stranglethorn river. The equipment stands ready, and leaving so important a customer unsatisfied would be a poor idea.",
+   "body": "Drizzlik calls his leatherwork exquisite and famed everywhere. Director Riddlevox has ordered twelve Excelsior-line boots, among Drizzlik's best sellers and the boots Riddlevox favors. To begin shaping them, Drizzlik needs skins from crocolisks by the northern Stranglethorn river. His equipment is ready, and leaving so important a customer unsatisfied would be a poor idea.",
    "spoiler": 0
   },
   {
    "title": "Once the Skins Arrive",
-   "body": "Drizzlik finds the skins good enough. How fine they are matters little, since they will form the inner layer of the boots, though they must still be comfortable. Skins that prove too stiff can be softened with tiger blood, one of the tricks of the trade.",
+   "body": "Drizzlik finds the skins good enough for the boots. Their fineness matters little because they form the inner layer, but they still need to be comfortable. If the skins are too stiff, tiger blood can soften them. It is one of the tricks of the trade.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "drizzlik booty bay",
     "booty bay leatherworker"
    ],
-   "answer": "Drizzlik is a leathercrafter in Booty Bay who boasts of being the finest in the South Seas and beyond."
+   "answer": "Drizzlik is a leathercrafter in Booty Bay who claims to be the finest in the South Seas and beyond."
   },
   {
    "q": "Who ordered the Excelsior boots?",
@@ -47,7 +47,7 @@
     "director riddlevox",
     "tinkers union order"
    ],
-   "answer": "Director Riddlevox, the Tinkers' Union's chief inventor, ordered twelve Excelsior-line boots."
+   "answer": "Director Riddlevox, chief inventor of the Tinkers' Union, ordered twelve Excelsior-line boots."
   },
   {
    "q": "Where are the crocolisks found for this commission?",
@@ -56,7 +56,7 @@
     "where are river crocs",
     "where do i find the skins"
    ],
-   "answer": "Drizzlik points to the northern Stranglethorn river, where the crocolisks live."
+   "answer": "The crocolisks for Drizzlik's commission live by the northern Stranglethorn river."
   },
   {
    "q": "How many skins does Drizzlik want?",
@@ -64,7 +64,7 @@
     "how many crocolisk skins",
     "large river crocolisk skins"
    ],
-   "answer": "Two large river crocolisk skins."
+   "answer": "Drizzlik wants two large river crocolisk skins."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Classic quest text: Supply and Demand"
- ]
+ ],
+ "style": 2
 }

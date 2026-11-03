@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Itharius's Cave"
  },
- "summary": "Itharius's Cave is a secluded hollow tucked into the far southwestern cliffs of the Swamp of Sorrows. It serves as the refuge of the enigmatic Itharius, who appears to be a high elf and tends to the brood of green dragonkin inhabiting the surrounding marsh.",
+ "summary": "Green whelps roam the marsh around Itharius's Cave, where Itharius keeps watch. The cave lies among the far southwestern cliffs of the Swamp of Sorrows.",
  "sections": [
   {
    "title": "A Hermit Among Whelps",
-   "body": "Tucked away in the treacherous, moss-draped crags of the southwestern Swamp of Sorrows, this damp cavern shelters the recluse Itharius. Outside its mouth, unruly green whelps wander the mire. Though he appears to be a high elf, a folk who rarely wander so far south into wild swamps alone, Itharius keeps a watchful eye on these young dragonkin as they grow, living alongside them in quiet isolation.",
+   "body": "Green whelps wander the mire outside Itharius's Cave in the southwestern Swamp of Sorrows. Itharius lives in the damp cavern, far from civilization. He appears to be a high elf, a people rarely found alone in these southern swamps. He keeps watch over the young dragonkin as they grow, sharing their remote home.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "cave owner",
     "who lives here"
    ],
-   "answer": "The cave is home to Itharius, a mysterious hermit who appears to be a high elf. He dwells apart from civilization and watches over the local dragonkin."
+   "answer": "Itharius lives in the cave, apart from civilization, and watches over the local dragonkin. He appears to be a high elf."
   },
   {
    "q": "Where is Itharius's Cave located?",
@@ -32,7 +32,7 @@
     "where is itharius",
     "how to find cave"
    ],
-   "answer": "It is tucked deep in the southwestern corner of the Swamp of Sorrows, against the mountain ridges south of the main road."
+   "answer": "Itharius's Cave lies in the far southwestern Swamp of Sorrows, against the mountain ridges south of the main road."
   },
   {
    "q": "Why are there green whelps outside the cave?",
@@ -41,7 +41,7 @@
     "green dragons swamp of sorrows",
     "whelps outside"
    ],
-   "answer": "The surrounding marsh is inhabited by green whelps. Itharius has taken it upon himself to watch over and protect these unruly young dragons as they grow."
+   "answer": "Green whelps live in the surrounding marsh. Itharius watches over and protects the unruly young dragons as they grow."
   },
   {
    "q": "Why would a high elf live out in the swamp?",
@@ -49,13 +49,13 @@
     "high elf in swamp",
     "why is itharius here"
    ],
-   "answer": "Itharius appears to be a high elf, a folk rarely seen in these southern bogs, yet he remains here specifically to safeguard the green dragonkin of the swamp, keeping to himself in his remote den."
+   "answer": "Itharius appears to be a high elf, a people rarely seen in these southern bogs. He remains in the swamp to safeguard its green dragonkin, living alone in his remote den."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The presence of green dragonkin in the swamp makes this cave of particular interest to druids, whose traditions are deeply tied to the Green Dragonflight and the Emerald Dream."
+   "text": "Green dragonkin in the swamp may interest you as a druid. Your traditions are tied to the Green Dragonflight and the Emerald Dream."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Itharius's Cave"
- ]
+ ],
+ "style": 2
 }

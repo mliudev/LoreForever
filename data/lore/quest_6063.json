@@ -17,16 +17,16 @@
   "wiki": "Taming the Beast (night elf)",
   "chain": []
  },
- "summary": "In Dolanaar, Taming the Beast begins a night elf hunter’s trials with a wild Webwood Lurker. Dazalar lends an enchanted taming rod, and the hunter must win the spider’s trust through a bond with nature.",
+ "summary": "In Dolanaar, a young night elf hunter faces the first trial of Taming the Beast with a wild Webwood Lurker. Dazalar lends an enchanted taming rod, and the hunter must earn the spider’s trust through a bond with nature.",
  "sections": [
   {
    "title": "A Sacred Bond",
-   "body": "For the kaldorei, hunting means more than tracking prey or surviving in the wild. It binds a hunter to nature, which is greater than any mortal. Animals are independent creatures, not tools to bend to a hunter’s will. Dazalar teaches novice hunters to meet them with respect. Before gaining a lifelong beast companion, a hunter must master local wildlife through ancient techniques, never brute force.",
+   "body": "For the kaldorei, hunting asks more than skill at tracking prey or survival in the wild. It binds a hunter to nature, greater than any mortal. Animals are their own creatures, not tools to bend to a hunter’s will. Dazalar teaches novice hunters to meet them with respect. Before gaining a lifelong beast companion, a hunter must master the local wildlife through ancient techniques, never brute force.",
    "spoiler": 0
   },
   {
    "title": "The First Trial",
-   "body": "Giant arachnids infest Teldrassil’s boughs, and Dazalar gives the hunter a taming rod. The hunter seeks a Webwood Lurker in the shadowed thickets, facing the venomous spider and its attacks while trying to reach it through empathy. A brief mental bond proves the hunter can commune with the World Tree’s eerie, skittering predators.",
+   "body": "Giant arachnids infest Teldrassil’s boughs, so Dazalar gives the hunter a taming rod. In shadowed thickets, the hunter seeks a Webwood Lurker and faces the venomous spider’s attacks. To reach it, the hunter must answer with empathy. A brief mental bond proves the hunter can commune with the World Tree’s eerie, skittering predators.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "pet quest purpose",
     "what does taming the beast give"
    ],
-   "answer": "The trial begins night elf hunters’ training to tame animal companions. Using a taming rod on local beasts tests whether a hunter has the calm and skill to commune with wild predators."
+   "answer": "The trial begins night elf hunters’ training to tame animal companions. Using a taming rod on local beasts tests a hunter’s calm and skill in communing with wild predators."
   },
   {
    "q": "Who gives this quest?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Taming the Beast (night elf)"
  ],
- "style": 1
+ "style": 2
 }

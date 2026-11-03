@@ -8,16 +8,16 @@
   "wiki": "Orendil Broadleaf",
   "refs": 2
  },
- "summary": "At Maestra's Post in western Ashenvale, night elf Orendil Broadleaf tends to the sick. His knowledge of forest plants helps him make remedies for young lives in the troubled woodlands.",
+ "summary": "At Maestra's Post in western Ashenvale, Orendil Broadleaf tends to the sick. His knowledge of forest plants helps him make remedies for young lives in the troubled woodlands.",
  "sections": [
   {
    "title": "Healer of the Forest Border",
-   "body": "At Maestra's Post on Ashenvale's western border, Orendil Broadleaf cares for the sick. The skilled healer knows the local herbs and how to use them in restorative remedies. He depends on travelers passing through to gather rare plants and other natural ingredients. Tension and conflict press closer to the forest, but Orendil remains focused on protecting his kin and easing their ailments.",
+   "body": "At Maestra's Post on Ashenvale's western border, Orendil Broadleaf tends to the sick. He knows the local herbs and how to use them in healing remedies. Travelers passing through gather rare plants and other natural ingredients for him. As tension and conflict press closer to the forest, Orendil keeps his attention on protecting his kin and easing their ailments.",
    "spoiler": 0
   },
   {
    "title": "A Race Against Sickness",
-   "body": "Orendil Broadleaf plays a central part in the effort to cure Relara Whitemoon, an afflicted child in Astranaar. He studies Ashenvale's plants, including Bathran's hair, and devises potent elixirs to hold back the deadly sickness. Relara's illness remains a danger, and Orendil's remedies are meant to keep it at bay.",
+   "body": "Orendil Broadleaf works to cure Relara Whitemoon, an afflicted child in Astranaar. He studies Ashenvale's plants, including Bathran's hair, and devises potent elixirs to hold back the deadly sickness. Relara remains in danger, and Orendil's remedies are meant to keep the illness at bay.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is orendil",
     "orendil ashenvale"
    ],
-   "answer": "Orendil Broadleaf is a night elf herbalist and healer at Maestra's Post in western Ashenvale. He is known for his skill with herbs and healing."
+   "answer": "Orendil Broadleaf is a night elf herbalist and healer at Maestra's Post in western Ashenvale. He is skilled with herbs and healing."
   },
   {
    "q": "Where can Orendil Broadleaf be found?",
@@ -53,7 +53,7 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Orendil shows how regional plants can save lives, relying on rare botanicals such as Bathran's hair to brew potent antidotes in the field."
+   "text": "Orendil relies on regional plants to save lives, including rare botanicals such as Bathran's hair, which he uses to brew potent antidotes in the field."
   },
   {
    "target": "race:NightElf",
@@ -82,5 +82,5 @@
  "attribution": [
   "Orendil Broadleaf"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "Stolen Silver (quest)"
   ]
  },
- "summary": "Gazrog at the Crossroads sends you after payroll silver stolen by raptors. Rumors of their cunning lead you south of Ratchet, into the Raptor Grounds. The garrison needs its wages back.",
+ "summary": "At the Crossroads, Gazrog sends you after silver stolen from the guards’ payroll by raptors. Their cunning has led you south of Ratchet, into the Raptor Grounds. The garrison needs its wages back.",
  "sections": [
   {
    "title": "A Beastly Heist",
-   "body": "Gazrog needs the Crossroads guards paid, and the raptors have taken their wages. You are sent to recover the stolen coin, not simply punish the beasts. When raptors ambushed the payroll shipment, Gazrog first sought vengeance. But killing the pack would not restore the missing money. The Horde must learn how the raptors carried off heavy crates of coin, and where they took them.",
+   "body": "Gazrog needs the Crossroads guards paid, and raptors have taken their wages. He sends you to recover the stolen coin, not simply punish the beasts. At first, he wanted vengeance for the ambush on the payroll shipment. But killing the pack would not bring the money back. The Horde needs to learn how the raptors carried off heavy crates of coin and where they took them.",
    "spoiler": 0
   },
   {
    "title": "The Raptor Grounds",
-   "body": "Scouts found a raptor nest between two craggy peaks, south of Ratchet and northwest of Northwatch Hold. The creatures dragged the intact lockbox into their territory, where they guard it alongside eggs and fresh kills. Tales of raptor cunning and hoarding now seem true to Gazrog. Ordinary beasts rarely stash metallic valuables.",
+   "body": "Scouts found a raptor nest between two craggy peaks, south of Ratchet and northwest of Northwatch Hold. The creatures dragged the intact lockbox into their territory and guard it beside their eggs and fresh kills. Gazrog's tales of raptor cunning and hoarding now seem true. Ordinary beasts rarely stash metallic valuables.",
    "spoiler": 0
   }
  ],
@@ -117,5 +117,5 @@
  "attribution": [
   "Stolen Silver (quest)"
  ],
- "style": 1
+ "style": 2
 }

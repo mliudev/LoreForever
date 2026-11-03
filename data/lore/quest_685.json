@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Lord Falconcrest and his Syndicate operatives threaten the remnants of Stromgarde, making this bounty vital to securing Refuge Pointe and reclaiming the highlands."
+   "text": "Lord Falconcrest and his Syndicate operatives threaten Stromgarde's remnants. This bounty matters to the effort to reclaim the highlands."
   },
   {
    "target": "race:Human",
-   "text": "For the defenders of Stromgarde, cutting down traitorous human nobles in the Syndicate is a personal fight to avenge their fallen kingdom."
+   "text": "As a human, you face a personal fight. Bringing down the Syndicate's traitorous human nobles helps avenge your fallen kingdom."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "falconcrest lore",
     "who is falconcrest"
    ],
-   "answer": "Lord Falconcrest is a noble and commander heading the Syndicate's operations in the Arathi Highlands. His presence organizes their opportunistic grab for the broken kingdom of Stromgarde, making his removal a primary objective for the local human militia.",
+   "answer": "Lord Falconcrest is a noble who commands the Syndicate's operations in the Arathi Highlands. He organizes their bid to seize the broken kingdom of Stromgarde, making him a chief target of the local human militia.",
    "q": "Who is Lord Falconcrest?"
   },
   {
@@ -37,7 +37,7 @@
     "falconcrest bodyguard",
     "otto syndicate"
    ],
-   "answer": "Otto is the deadly personal bodyguard of Lord Falconcrest. While not a strategic planner like his master, he is a ferocious combatant responsible for slaying dozens of Stromgarde defenders in the highlands.",
+   "answer": "Otto is Lord Falconcrest's deadly personal bodyguard. A ferocious combatant rather than a strategist, he has slain dozens of Stromgarde defenders in the highlands.",
    "q": "Who is Otto?"
   },
   {
@@ -46,7 +46,7 @@
     "why kill otto and falconcrest",
     "stromgarde bounty"
    ],
-   "answer": "The Stromgarde Militia posted bounties on them to cripple the Syndicate's leadership in the Arathi Highlands. Eliminating Falconcrest dismantles their regional command structure, while taking down Otto removes a lethal threat who has butchered many Alliance fighters.",
+   "answer": "The Stromgarde Militia seeks to cripple the Syndicate's leadership in the Arathi Highlands. Falconcrest's death would disrupt their regional command, while Otto's death would remove a lethal threat who has killed many Alliance fighters.",
    "q": "Why has the Stromgarde Militia placed a bounty on them?"
   },
   {
@@ -55,7 +55,7 @@
     "who is captain nials",
     "falconcrest bounty turn in"
    ],
-   "answer": "The bounties for both Lord Falconcrest and Otto are collected by Captain Nials, an officer of the Stromgarde Militia stationed at Refuge Pointe in the Arathi Highlands.",
+   "answer": "Captain Nials, an officer of the Stromgarde Militia at Refuge Pointe in the Arathi Highlands, collects the bounties for Lord Falconcrest and Otto.",
    "q": "Who offers the reward for Otto and Falconcrest?"
   },
   {
@@ -63,7 +63,7 @@
     "what is the syndicate arathi",
     "syndicate role arathi"
    ],
-   "answer": "The Syndicate consists of fallen Alteraci nobles and rogue elements looking to claim land and riches amidst northern Lordaeron's collapse. In the Arathi Highlands, they have moved into the ruins of Stromgarde to wrest control from its surviving defenders.",
+   "answer": "The Syndicate is made up of fallen Alteraci nobles and rogue elements seeking land and riches amid northern Lordaeron's collapse. From the Arathi Highlands, they have moved into Stromgarde's ruins to wrest control from its surviving defenders.",
    "q": "What is the Syndicate doing in the Arathi Highlands?"
   },
   {
@@ -71,7 +71,7 @@
     "where to take otto head",
     "proof of bounty"
    ],
-   "answer": "To claim the reward, hunters must bring the severed heads of both Lord Falconcrest and Otto directly to Captain Nials at Refuge Pointe as undeniable proof of their demise.",
+   "answer": "Bring the severed heads of Lord Falconcrest and Otto directly to Captain Nials at Refuge Pointe as proof of their deaths.",
    "q": "What proof is required to claim the bounty?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "The Stromgarde Militia has issued an official bounty targeting two key figures in the Arathi Highlands: Lord Falconcrest and his ferocious bodyguard, Otto. Stationed out of Refuge Pointe, the beleaguered defenders of Stromgarde seek to break the Syndicate's hold over their ancestral lands. Hunters must bring the heads of both targets to Captain Nials to claim the reward.",
+   "body": "From Refuge Pointe, Stromgarde's defenders seek to break the Syndicate's hold over their ancestral lands. The militia has placed a bounty on Lord Falconcrest and Otto, his bodyguard. Bring both targets' heads to Captain Nials to claim the reward.",
    "spoiler": 0,
    "title": "A Desperate Bounty"
   },
   {
-   "body": "Lord Falconcrest serves as the mastermind behind the Syndicate's coordinated push into the Arathi Highlands. His death represents a vital strategic victory for the Alliance, promising to severely disrupt the criminal network's operations in the region. Beside him stands Otto, a brutally effective bodyguard whose blades have already cut down dozens of Stromgarde's remaining militia soldiers.",
+   "body": "Lord Falconcrest directs the Syndicate's push into the Arathi Highlands. His death would disrupt the criminal network's work in the region. Otto is a brutally effective bodyguard. His blades have killed dozens of Stromgarde's remaining militia soldiers.",
    "spoiler": 0,
    "title": "Commander and Enforcer"
   }
  ],
- "summary": "A bounty posted by the Stromgarde Militia marks Lord Falconcrest, leader of the local Syndicate forces, and his deadly bodyguard Otto for death. Eliminating them strikes a crucial blow against the criminal organization's foothold in the Arathi Highlands. Proof of their demise must be delivered to Captain Nials at Refuge Pointe.",
+ "summary": "In the Arathi Highlands, the Stromgarde Militia has marked Lord Falconcrest and Otto for death. Falconcrest leads the local Syndicate forces, and Otto guards him with deadly skill. Their deaths would weaken the Syndicate's hold in the region. Proof must reach Captain Nials at Refuge Pointe.",
  "attribution": [
   "In-game quest text: WANTED: Otto and Falconcrest"
- ]
+ ],
+ "style": 2
 }

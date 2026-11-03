@@ -23,16 +23,16 @@
    "Restoring Fiery Flux Supplies via Kingsblood"
   ]
  },
- "summary": "Master Smith Burninate says that when Maltorius left their clan, he took their recipe for fiery flux, worth more than a pristine arcane crystal. Burninate wants the secret plans back and is sure they are near Maltorius, deep in the Slag Pit.",
+ "summary": "Master Smith Burninate seeks the fiery flux plans in the Slag Pit. Maltorius left their clan with the recipe, which Burninate values above a pristine arcane crystal, and believes the plans are near him.",
  "sections": [
   {
    "title": "The Stolen Recipe",
-   "body": "Master Smith Burninate calls Maltorius a traitor who left the clan with the recipe for fiery flux. Burninate would bet the recipe came with Maltorius's new promotion among the Dark Irons, and wants the secret plans returned.",
+   "body": "Master Smith Burninate says Maltorius betrayed their clan when he left with the fiery flux recipe. Burninate suspects that recipe helped Maltorius earn his new promotion among the Dark Irons. Now Burninate wants the secret plans returned.",
    "spoiler": 0
   },
   {
    "title": "Into the Slag Pit",
-   "body": "Burninate is sure the plans are not far from Maltorius, down in the depths of the Slag Pit. The Secret Plans: Fiery Flux are what Burninate wants carried back.",
+   "body": "Master Smith Burninate believes the plans lie near Maltorius, deep in the Slag Pit. He wants you to carry the Secret Plans: Fiery Flux back to him.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "who took the plans",
     "what the flux traitor"
    ],
-   "answer": "Maltorius, whom Master Smith Burninate calls a traitor to their clan."
+   "answer": "Maltorius stole the fiery flux recipe, according to Master Smith Burninate. Burninate calls him a traitor to their clan."
   },
   {
    "q": "Where are the secret plans?",
@@ -53,7 +53,7 @@
     "secret plans fiery flux location",
     "where to find fiery flux plans"
    ],
-   "answer": "Burninate believes they are close to Maltorius, deep in the Cauldron's Slag Pit."
+   "answer": "Burninate believes the secret plans lie close to Maltorius, deep in the Cauldron's Slag Pit."
   },
   {
    "q": "Who asks for the plans to be recovered?",
@@ -61,7 +61,7 @@
     "who gives what the flux",
     "what the flux quest giver"
    ],
-   "answer": "It is Burninate, a master smith, who wants them back."
+   "answer": "Master Smith Burninate, a smith, wants the plans returned."
   },
   {
    "q": "Why do the plans matter to Burninate?",
@@ -69,7 +69,7 @@
     "why is fiery flux important",
     "importance of fiery flux recipe"
    ],
-   "answer": "Burninate says the recipe for fiery flux is worth more than a pristine arcane crystal, and it was the clan's own secret."
+   "answer": "Burninate says the clan's secret fiery flux recipe is worth more than a pristine arcane crystal."
   }
  ],
  "angles": [],
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "What the Flux?"
- ]
+ ],
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Continued Threat"
   ]
  },
- "summary": "After your work for Katar, you are told to see Tok'Kar once more before you rest. Katar believes Tok'Kar finished a few weapons while you were away, and that one will be offered to you for your help.",
+ "summary": "Katar sends you back to Tok'Kar before you rest. He believes Tok'Kar finished a few weapons while you were away, and one will be offered to you for your help.",
  "sections": [
   {
    "title": "Back to Tok'Kar",
-   "body": "Katar believes Tok'Kar finished a few weapons while you were away, and that Tok'Kar will offer you one for your help. Katar adds that you would do well to try its strength on the fish men when ready, though only to please Katar further.",
+   "body": "Before you rest, Katar sends you back to Tok'Kar. He believes Tok'Kar finished a few weapons while you were away. Tok'Kar will offer you one for your help. Katar says you could test its strength against the murlocs when ready, which would please him further.",
    "spoiler": 0
   },
   {
    "title": "Tok'Kar's Thanks",
-   "body": "Tok'Kar is glad to see you back and says more weapons have been crafted for the war on the murlocs. As thanks for bringing fresh sawtooth meat, and for putting a small smile on Katar's face, he gives you one.",
+   "body": "Tok'Kar is glad to see you return. More weapons have been made for the war on the murlocs. In thanks for bringing fresh sawtooth meat and putting a small smile on Katar's face, he gives you one.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "where do I get threat from the sea",
     "who starts this"
    ],
-   "answer": "Katar does, telling you to see Tok'Kar once more before you rest in the Swamp of Sorrows."
+   "answer": "Katar sends you to speak with Tok'Kar once more before you rest in the Swamp of Sorrows."
   },
   {
    "q": "Why is Tok'Kar offering a weapon?",
@@ -57,7 +57,7 @@
     "what did tok'kar make",
     "tok'kar reward reason"
    ],
-   "answer": "Katar believes Tok'Kar finished a few weapons while you were gone, and that one will be offered to you in thanks for your help."
+   "answer": "Katar believes Tok'Kar finished a few weapons while you were away, and will offer you one in thanks for your help."
   },
   {
    "q": "What comes next after speaking with Tok'Kar?",
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Threat From the Sea (3)"
- ]
+ ],
+ "style": 2
 }

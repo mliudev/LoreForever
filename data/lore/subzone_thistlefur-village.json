@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thistlefur Village"
  },
- "summary": "Thistlefur furbolgs attack outsiders from their village north of Astranaar. The tribe has fallen to corruption and now threatens travelers who approach its dens.",
+ "summary": "In Ashenvale, Thistlefur furbolgs attack outsiders who approach their village north of Astranaar. Corruption has taken hold of the tribe, making the village dangerous to travelers.",
  "sections": [
   {
    "title": "A Corrupted Den",
-   "body": "North of Astranaar, Thistlefur Village lies among Ashenvale’s woodland communities. Corruption has taken hold of the Thistlefur tribe, leaving its furbolgs maddened and hostile. They guard the paths through their settlement and attack travelers who draw near. Two fierce chieftains, Dal Bloodclaw and Rorgish Jowl, lead the clan. Their aggression threatens those on the roads and in nearby settlements.",
+   "body": "Among Ashenvale’s woodland communities, Thistlefur Village lies north of Astranaar. Corruption has maddened the Thistlefur furbolgs. They guard the paths through their settlement and attack travelers who draw near. Dal Bloodclaw and Rorgish Jowl lead the clan as fierce chieftains. Their aggression threatens nearby settlements and those traveling the roads.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is thistlefur",
     "thistlefur map"
    ],
-   "answer": "Thistlefur Village lies in west-central Ashenvale, in the woodland hills directly north of Astranaar."
+   "answer": "Thistlefur Village lies in west-central Ashenvale, among woodland communities in the hills directly north of Astranaar."
   },
   {
    "q": "Why are the furbolgs here attacking travelers?",
@@ -80,5 +80,5 @@
  "attribution": [
   "Thistlefur Village"
  ],
- "style": 1
+ "style": 2
 }

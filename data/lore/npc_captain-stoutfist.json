@@ -8,21 +8,21 @@
   "wiki": "Captain Stoutfist",
   "refs": 6
  },
- "summary": "At Menethil Harbor, Captain Stoutfist directs the defense against Dragonmaw attacks. The dwarf officer coordinates the garrison’s defenses and counterstrikes to keep the Alliance port from falling.",
+ "summary": "At Menethil Harbor, Captain Stoutfist rallies the defense against Dragonmaw attacks. The dwarf officer coordinates the garrison and its counterstrikes to keep the Alliance port from falling.",
  "sections": [
   {
    "title": "Defender of Menethil",
-   "body": "Menethil Harbor is the principal deepwater port linking Ironforge and Stormwind to the Wetlands and the sea beyond. Captain Stoutfist commands the town’s defense, guarding its docks, people, and garrison from the dangers around them. The marshlands are hazardous, but the greatest threat is an organized advance by renegade orcs.",
+   "body": "Menethil Harbor is the principal deepwater port joining Ironforge and Stormwind to the Wetlands and the sea beyond. Captain Stoutfist commands the town’s defense and guards its docks, people, and garrison from the dangers around them. The marshlands are hazardous, but the greatest danger is an organized advance by renegade orcs.",
    "spoiler": 0
   },
   {
    "title": "The Dragonmaw Threat",
-   "body": "The Dragonmaw clan has held strongholds in the Wetlands since the Second War and now presses toward the roads and mountain passes. By infiltrating Dun Algaz, the orcs threaten the overland route linking Loch Modan and Ironforge with Menethil Harbor. Stoutfist has too few troops, so he depends on Alliance volunteers sent by Mountaineer Valstag Ironjaw to hold them back.",
+   "body": "The Dragonmaw clan has held strongholds in the Wetlands since the Second War and now presses toward its roads and mountain passes. The orcs infiltrate Dun Algaz, threatening the overland route between Loch Modan, Ironforge, and Menethil Harbor. Stoutfist has too few troops, so he relies on Alliance volunteers sent by Mountaineer Valstag Ironjaw to hold them back.",
    "spoiler": 0
   },
   {
    "title": "Striking at Nek'rosh",
-   "body": "Captain Stoutfist leads a campaign against the orc camps rather than waiting for a siege. He directs allied forces to capture war banners near Whelgar's Excavation Site, sabotage Dragonmaw catapults preparing to attack, and kill Nek'rosh Skullcrusher, the clan’s ruthless local chieftain. Stoutfist seeks to break the orc offensive before Menethil Harbor is overwhelmed.",
+   "body": "Captain Stoutfist leads a campaign against the orc camps instead of waiting for a siege. He directs allied forces to capture war banners near Whelgar's Excavation Site, sabotage Dragonmaw catapults preparing to attack, and kill Nek'rosh Skullcrusher, the clan’s ruthless local chieftain. Stoutfist seeks to break the orc offensive before Menethil Harbor is overwhelmed.",
    "spoiler": 1
   }
  ],
@@ -82,7 +82,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Captain Stoutfist defends one of the Alliance’s most important maritime hubs, keeping naval routes open between Khaz Modan, Stormwind, and distant outposts."
+   "text": "Captain Stoutfist defends one of the Alliance’s most important maritime hubs and keeps naval routes open between Khaz Modan, Stormwind, and distant outposts."
   },
   {
    "target": "race:Dwarf",
@@ -90,7 +90,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you’ll find Stoutfist a blunt tactician who favors bold strikes over cautious fortification, sending warriors to destroy enemy artillery and leadership."
+   "text": "As a warrior, you’ll find Stoutfist a blunt tactician who favors bold strikes over cautious fortification. He sends warriors to destroy enemy artillery and leadership."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Captain Stoutfist"
  ],
- "style": 1
+ "style": 2
 }

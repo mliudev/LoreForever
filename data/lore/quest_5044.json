@@ -25,16 +25,16 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "At Camp Taurajo, Mangletooth trades the wisdom of Agamaggan for blood shards. The captive quilboar offers Horde spellcasters a ritual drawn from the ancient boar god’s power.",
+ "summary": "At Camp Taurajo, Mangletooth offers Horde spellcasters a way to draw on Agamaggan’s power. The captive quilboar asks for blood shards in return.",
  "sections": [
   {
    "title": "Blood Shards and Ancient Power",
-   "body": "At Camp Taurajo, Mangletooth is held prisoner by the Horde. The quilboar trades his people’s magical secrets for blood shards, crimson crystals said to have formed from Agamaggan’s spilled blood. The towering boar Demigod died in the War of the Ancients. Mangletooth says the geomancers and shaman of his tribes use the shards to channel divine power in their rituals.",
+   "body": "At Camp Taurajo, the Horde holds Mangletooth prisoner. The quilboar trades his people’s magical secrets for blood shards, crimson crystals said to have formed from Agamaggan’s spilled blood. The towering boar Demigod fell in the War of the Ancients. Mangletooth says his tribes’ geomancers and shaman use the shards to channel divine power in their rituals.",
    "spoiler": 0
   },
   {
    "title": "Blessing of the Mind",
-   "body": "Other shard offerings bring physical resilience or swiftness. Mangletooth’s Wisdom ritual instead sharpens intellect and arcane ability. For four blood shards, he calls on Agamaggan’s spirit to grant you cunning in your confrontations, then reminds you of your mortality.",
+   "body": "Some shard offerings bring physical resilience or swiftness. Mangletooth’s Wisdom ritual instead sharpens the mind and arcane ability. For four blood shards, he calls on Agamaggan’s spirit to grant you cunning in your confrontations. Then he reminds you that you are mortal.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "mangletooth motive",
     "captive quilboar"
    ],
-   "answer": "Mangletooth is a captive quilboar held in a cage at Camp Taurajo. Though his tribe fiercely hates the Horde, he values blood shards and his own survival more than loyalty, and gives sacred tribal blessings in exchange for shards."
+   "answer": "Mangletooth is a captive quilboar held in a cage at Camp Taurajo. His tribe fiercely hates the Horde, but he values blood shards and his own survival more than loyalty. In return for shards, he gives sacred tribal blessings."
   },
   {
    "q": "What are blood shards?",
@@ -96,7 +96,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "At Camp Taurajo, the Horde keeps Mangletooth captive, giving you a chance to draw on native Barrens magic against the quilboar tribes."
+   "text": "At Camp Taurajo, the Horde holds Mangletooth captive. That gives you a chance to draw on native Barrens magic against the quilboar tribes."
   },
   {
    "target": "class:Mage",
@@ -134,5 +134,5 @@
  "attribution": [
   "Wisdom of Agamaggan"
  ],
- "style": 1
+ "style": 2
 }

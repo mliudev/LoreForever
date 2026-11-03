@@ -8,21 +8,21 @@
   "wiki": "Nathanos Blightcaller",
   "refs": 4
  },
- "summary": "Nathanos Blightcaller, once Nathanos Marris, stands at his ruined homestead in the Eastern Plaguelands as the deadly champion of Queen Sylvanas Windrunner. In life he was the first and only human Ranger Lord of Quel'Thalas, and in undeath he trains Forsaken hunters while guarding the eastern frontier with biting contempt for all who approach.",
+ "summary": "At the ruined Marris Stead in the Eastern Plaguelands, Nathanos Blightcaller guards the frontier for Queen Sylvanas Windrunner. Once the only human Ranger Lord of Quel'Thalas, he now trains Forsaken hunters and greets those who approach with biting contempt.",
  "sections": [
   {
    "title": "The Only Human Farstrider",
-   "body": "Before the Third War, Nathanos Marris was an extraordinary marksman and tactical genius hailing from the rural outskirts of Lordaeron. Trained by the high elves of Quel'Thalas and close to Sylvanas Windrunner, he became the only human to ever attain the prestigious rank of Ranger Lord. His home remained the family estate in Lordaeron, the Marris Stead.",
+   "body": "Nathanos Marris was raised on Lordaeron's rural outskirts and became a master marksman and a gifted tactician. The high elves of Quel'Thalas trained him, and he grew close to Sylvanas Windrunner. He alone among humans earned the rank of Ranger Lord. The Marris Stead remained his family home.",
    "spoiler": 0
   },
   {
    "title": "The Fall and Rebirth",
-   "body": "When Prince Arthas and the Scourge swept through Lordaeron following the purge of Stratholme, the plague consumed the kingdom. Nathanos made a desperate stand at his estate, but fell to the monstrous abomination Ramstein the Gorger. Raised as a mindless undead thrall, he roamed the blighted fields killing in the Lich King's name. After Sylvanas shattered the Scourge's mental grip and established the Forsaken in the Undercity, she came for him, as he had somehow known she would, and tore his consciousness free from the Lich King's will, returning his tactical brilliance and fiery loyalty to her side.",
+   "body": "After Prince Arthas and the Scourge swept through Lordaeron following the purge of Stratholme, plague consumed the kingdom. Nathanos made a desperate stand at the Marris Stead, where Ramstein the Gorger, a monstrous abomination, killed him. Raised as a mindless undead thrall, he roamed the blighted fields and slew in the Lich King's name.\n\nSylvanas broke the Scourge's hold and established the Forsaken in the Undercity. She came for Nathanos, just as he had somehow known she would, and freed his mind from the Lich King's will. His tactical brilliance and fiery loyalty returned, and he joined her side.",
    "spoiler": 0
   },
   {
    "title": "Champion of the Banshee Queen",
-   "body": "Adopting the epithet Blightcaller, Nathanos took up permanent residence at the decrepit Marris Stead. He serves as Sylvanas's champion, hunter trainer, and regional spymaster in the contested Eastern Plaguelands, protected by foul plaguehounds. Alliance intelligence has identified his survival with deep alarm; Highlord Bolvar Fordragon views a master tactician of Nathanos's caliber leading undead forces as an intolerable threat to human survival, dispatching strike forces to assassinate the fallen Ranger Lord.",
+   "body": "Nathanos Blightcaller lives at the ruined Marris Stead in the contested Eastern Plaguelands, guarded by foul plaguehounds. As Sylvanas's champion, he trains hunters and gathers intelligence in the region. Alliance leaders know he survived and fear his command of undead forces threatens human survival. Highlord Bolvar Fordragon sends strike forces to kill the fallen Ranger Lord.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "nathanos lore",
     "who is the guy at marris stead"
    ],
-   "answer": "Nathanos Blightcaller was Nathanos Marris, a renowned human marksman and the only non-elf ever made a Ranger Lord of Quel'Thalas. Following his death and resurrection during the Third War, Sylvanas freed his mind from the Scourge. He now serves as her champion and hunter trainer at his ancestral home in the Eastern Plaguelands."
+   "answer": "Nathanos Blightcaller was Nathanos Marris, a renowned human marksman and the only human ever to become a Ranger Lord of Quel'Thalas. After he died and rose during the Third War, Sylvanas freed his mind from the Scourge. He now fights as her champion and trains hunters at his ancestral home in the Eastern Plaguelands."
   },
   {
    "q": "Why is Nathanos at the Marris Stead?",
@@ -43,7 +43,7 @@
     "why is nathanos in plaguelands",
     "marris stead nathanos"
    ],
-   "answer": "The Marris Stead was Nathanos's home in life, and it was there that he fell defending Lordaeron. In undeath, he chose to return to his ruined estate, transforming it into an outpost to train Forsaken hunters and monitor Alliance and Scourge movements."
+   "answer": "The Marris Stead was Nathanos's home in life, and he fell there defending Lordaeron. In undeath, he returned to the ruined estate to train Forsaken hunters and watch Alliance and Scourge movements."
   },
   {
    "q": "How did Nathanos become an undead?",
@@ -52,7 +52,7 @@
     "who killed nathanos",
     "nathanos death"
    ],
-   "answer": "Nathanos was killed at his homestead during the Third War by the Scourge abomination Ramstein the Gorger. He rose as an obedient, mindless thrall to the Lich King until Sylvanas came for him and liberated his mind so he could join the Forsaken."
+   "answer": "The Scourge abomination Ramstein the Gorger killed Nathanos at his homestead during the Third War. He rose as a mindless thrall to the Lich King until Sylvanas came for him and freed his mind. Then he joined the Forsaken."
   },
   {
    "q": "Why does the Alliance want to kill him?",
@@ -61,7 +61,7 @@
     "alliance quest nathanos",
     "order must be restored"
    ],
-   "answer": "Alliance leadership in Stormwind discovered that Nathanos Marris\u2014one of the Alliance's greatest military minds and tactical geniuses\u2014did not perish permanently, but instead joined the Forsaken. Viewing his tactical brilliance as an immense danger, Highlord Bolvar Fordragon orders his elimination."
+   "answer": "Stormwind's leaders learned that Nathanos Marris, one of the Alliance's greatest military minds and tactical geniuses, had survived death and joined the Forsaken. Highlord Bolvar Fordragon sees his tactical brilliance as a grave danger and orders his death."
   },
   {
    "q": "What is his relationship with Sylvanas?",
@@ -70,7 +70,7 @@
     "did sylvanas love nathanos",
     "nathanos sylvanas romance"
    ],
-   "answer": "Nathanos was close to Sylvanas in life, when the elves of Quel'Thalas made him their only human Ranger Lord, and he is now her champion. In undeath, his loyalty to the Banshee Queen remains absolute and unwavering."
+   "answer": "Nathanos was close to Sylvanas in life, when the elves of Quel'Thalas made him their only human Ranger Lord. Now he fights as her champion, with absolute and unwavering loyalty to the Banshee Queen."
   },
   {
    "q": "Who are the hounds standing near him?",
@@ -79,25 +79,25 @@
     "marris stead hounds",
     "blightcaller pets"
    ],
-   "answer": "They are vicious plaguehounds that Nathanos trained himself. Kept at his side to guard the ruins of the Marris Stead, they attack any intruders foolish enough to trespass on his territory."
+   "answer": "The hounds are vicious plaguehounds Nathanos trained himself. They guard the Marris Stead ruins at his side and attack intruders who trespass on his territory."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Nathanos is the highest-ranking hunter trainer for the Forsaken, bringing the rigorous, legendary Farstrider marksmanship techniques of Quel'Thalas to the undead of Lordaeron."
+   "text": "As a hunter, you can learn from the Forsaken's highest-ranking trainer. Nathanos brings Quel'Thalas's rigorous Farstrider marksmanship to Lordaeron's undead."
   },
   {
    "target": "race:Undead",
-   "text": "As the champion of the Dark Lady, Nathanos embodies the bitter resilience of the Forsaken, though he has little patience for incompetence among his peers."
+   "text": "As an undead, you share the Forsaken's bitter resilience, embodied by their champion Nathanos. He has little patience for incompetence among his peers."
   },
   {
    "target": "faction:Alliance",
-   "text": "Seeing a decorated hero of Lordaeron and a celebrated Farstrider fighting beneath the banner of the Forsaken is a stinging insult and a lethal tactical problem for Stormwind."
+   "text": "As an Alliance member, you face a decorated Lordaeron hero and celebrated Farstrider who now fights for the Forsaken. His presence insults Stormwind and poses a lethal tactical threat."
   },
   {
    "target": "faction:Horde",
-   "text": "Nathanos provides critical tactical guidance and hunter training for the Horde in the Plaguelands, though he treats visitors with caustic disdain."
+   "text": "As a Horde member, you can seek Nathanos's tactical guidance and hunter training in the Plaguelands. He greets visitors with caustic disdain."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Nathanos Blightcaller"
- ]
+ ],
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Bal'lal Ruins"
  },
- "summary": "Bal'lal Ruins are ancient Gurubashi troll ruins set along the northwestern shore of Stranglethorn Vale, just north of Grom'gol Base Camp. Overlooking the murky waters of the Vile Reef, the crumbling stone foundations are currently occupied by hostile Bloodscalp trolls.",
+ "summary": "Bloodscalp trolls guard Bal'lal Ruins on Stranglethorn Vale's northwestern shore, north of Grom'gol Base Camp. The old Gurubashi stones overlook the Vile Reef.",
  "sections": [
   {
    "title": "A Crumbling Outpost on the Reef",
-   "body": "Perched on the coastline north of Grom'gol Base Camp, Bal'lal Ruins stand as another remnant of the shattered Gurubashi Empire. Once part of the grand troll civilization that dominated southern Azeroth, the site has decayed into moss-covered stone walls and cracked masonry. The ruins sit immediately adjacent to the Vile Reef, offering an elevated vantage over the treacherous coastal shallows. Today, aggressive Bloodscalp trolls hold the grounds, fiercely defending the weathered relics of their ancestors against intruders.",
+   "body": "Bloodscalp trolls keep watch among the weathered stones of Bal'lal Ruins above the Vile Reef. The site lies on Stranglethorn Vale's coast, north of Grom'gol Base Camp. These stones remain from the Gurubashi Empire, the troll civilization that once ruled southern Azeroth. Cracked walls mark the ruins' long decay, and Bloodscalp trolls defend these ancestral relics against intruders.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "ballal ruins mobs",
     "who is at ballal ruins"
    ],
-   "answer": "The ruins are currently occupied by members of the Bloodscalp tribe, who aggressively guard the territory against outsiders, travelers, and rivals alike."
+   "answer": "The Bloodscalp tribe occupies Bal'lal Ruins and guards the territory against outsiders, travelers, and rivals."
   },
   {
    "q": "Where are the Bal'lal Ruins located?",
@@ -32,7 +32,7 @@
     "where is ballal ruins",
     "how to find ballal ruins"
    ],
-   "answer": "You can find them along the northwestern coast of Stranglethorn Vale, situated directly north of Grom'gol Base Camp and looking out over the Vile Reef."
+   "answer": "Bal'lal Ruins lie on Stranglethorn Vale's northwestern coast, north of Grom'gol Base Camp and overlooking the Vile Reef."
   },
   {
    "q": "What history do these ruins have?",
@@ -41,17 +41,17 @@
     "history of ballal ruins",
     "who built ballal ruins"
    ],
-   "answer": "Like most stone structures scattered throughout Stranglethorn Vale, Bal'lal Ruins date back to the ancient Gurubashi Empire before its fragmentation into fractured, warring jungle troll tribes."
+   "answer": "Bal'lal Ruins date to the ancient Gurubashi Empire, before it broke apart into warring jungle troll tribes."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls aligned with the Horde, sites like Bal'lal are a sobering glimpse into the ruins of ancient Gurubashi glory, held by cousin tribes blinded by relentless bloodlust."
+   "text": "As a Darkspear troll of the Horde, you can see ancient Gurubashi glory at Bal'lal, now held by cousin tribes consumed by bloodlust."
   },
   {
    "target": "faction:Horde",
-   "text": "Lying just up the coast from Grom'gol Base Camp, the hostile Bloodscalp presence at Bal'lal poses an ongoing security nuisance to Horde patrols along the shoreline."
+   "text": "From Grom'gol Base Camp, Horde patrols along the shoreline face hostile Bloodscalp trolls at Bal'lal Ruins."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Bal'lal Ruins"
- ]
+ ],
+ "style": 2
 }

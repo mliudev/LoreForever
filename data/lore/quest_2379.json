@@ -23,16 +23,16 @@
    "Plundering the Plunderers"
   ]
  },
- "summary": "In Orgrimmar's Cleft of Shadow, promising rogues begin training with the Shattered Hand. Trainer Shenthul sends his chosen initiate to meet Zando'zan and enter the Horde's covert ranks.",
+ "summary": "In Orgrimmar's Cleft of Shadow, Shenthul sends a promising rogue to meet Zando'zan. There, training begins for the Shattered Hand's covert ranks.",
  "sections": [
   {
    "title": "A Walk into the Shadows",
-   "body": "Orgrimmar's rulers know brute strength cannot win every war. Beneath the city, the Cleft of Shadow houses the Shattered Hand, a covert guild that handles espionage, sabotage, and theft for the Horde. When rogue trainer Shenthul sees promise in an initiate, he sends them to report to Zando'zan for dedicated operative training.",
+   "body": "Orgrimmar's rulers know strength alone cannot win every war. Beneath the city, the Cleft of Shadow is home to the Shattered Hand, a covert guild serving the Horde through espionage, sabotage, and theft. When rogue trainer Shenthul sees promise in an initiate, he sends them to Zando'zan for training as an operative.",
    "spoiler": 0
   },
   {
    "title": "Proving One's Worth",
-   "body": "Zando'zan does not grant respect to every inexperienced rogue who enters the cavern. Meeting him marks a formal initiation into the finer clandestine arts, beginning with stealth, subterfuge, and thievery. His training bridges the distance between rough street cutpurses and organized intelligence operatives, preparing rogues for fieldwork beyond the safety of the capital's red canyon walls.",
+   "body": "Zando'zan tests each inexperienced rogue who enters the cavern before granting respect. Meeting him begins formal training in stealth, subterfuge, and thievery. His lessons bridge the gap between rough street cutpurses and organized intelligence operatives. From there, rogues prepare for fieldwork beyond the safety of the capital's red canyon walls.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "who is zando'zan",
     "zando'zan cleft of shadow"
    ],
-   "answer": "Zando'zan is a rogue trainer and Shattered Hand handler in Orgrimmar's Cleft of Shadow. He evaluates new recruits and teaches practical stealth, burglary, and operative tradecraft."
+   "answer": "Zando'zan trains rogues and handles recruits for the Shattered Hand in Orgrimmar's Cleft of Shadow. He tests new arrivals and teaches stealth, burglary, and the work of an operative."
   },
   {
    "q": "Why does Shenthul send rogues to see Zando'zan?",
@@ -53,7 +53,7 @@
     "shenthul zando'zan",
     "purpose of quest"
    ],
-   "answer": "Shenthul sends promising rogues to Zando'zan when they need specialized training as Shattered Hand operatives. Zando'zan oversees lessons in burglary and lock manipulation for clandestine fieldwork."
+   "answer": "Shenthul sends promising rogues to Zando'zan for specialized Shattered Hand training. Zando'zan teaches burglary and lock manipulation for covert fieldwork."
   },
   {
    "q": "What is the Shattered Hand in Orgrimmar?",
@@ -62,7 +62,7 @@
     "shattered hand orgrimmar",
     "horde rogues shattered hand"
    ],
-   "answer": "The Shattered Hand began as a brutal orcish clan from Draenor, known for ritual self-mutilation, and evolved into the Horde's covert intelligence and assassination arm. Operating from Orgrimmar's shadows, its members handle espionage, poison, and scouting."
+   "answer": "The Shattered Hand began as a brutal orcish clan from Draenor, known for ritual self-mutilation. It became the Horde's covert arm for intelligence and assassination. From Orgrimmar's shadows, its members practice espionage, poison, and scouting."
   },
   {
    "q": "Where does this training chain lead next?",
@@ -71,7 +71,7 @@
     "what comes after zando'zan",
     "wrenix of ratchet"
    ],
-   "answer": "After you present yourself to Zando'zan, he sends you to Ratchet on the Barrens coast to consult Wrenix, a goblin contact, and begin practical lockpicking fieldwork."
+   "answer": "After you report to Zando'zan, he sends you to Ratchet on the Barrens coast. There, you consult Wrenix, a goblin contact, and begin practical lockpicking fieldwork."
   },
   {
    "q": "Where can I find Zando'zan?",
@@ -80,7 +80,7 @@
     "where is zando'zan",
     "how to find zando'zan"
    ],
-   "answer": "Zando'zan works in the Cleft of Shadow, a deep cavern network beneath Orgrimmar's center. Warlocks, shadow priests, and rogue operatives gather there out of broad daylight."
+   "answer": "Zando'zan works in the Cleft of Shadow, a cavern network deep beneath Orgrimmar's center. Warlocks, shadow priests, and rogue operatives gather there, away from broad daylight."
   },
   {
    "q": "Why does Zando'zan apologize upon meeting me?",
@@ -88,17 +88,17 @@
     "why zandozan apologize",
     "completion dialogue zando'zan"
    ],
-   "answer": "Zando'zan may have doubted your nerve before you arrived. Seeing you ready to train, he acknowledges your commitment and takes back his initial skepticism."
+   "answer": "Zando'zan may have doubted your nerve before you arrived. Seeing you ready to train, he acknowledges your commitment and withdraws his initial doubt."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you enter the Shattered Hand's covert ranks, moving from an untrained knifefighter to a recognized Horde operative."
+   "text": "As a rogue, you enter the Shattered Hand's covert ranks. You begin as an untrained knifefighter and train to become a recognized Horde operative."
   },
   {
    "target": "faction:Horde",
-   "text": "The Shattered Hand handles the Horde's espionage and covert work, guarding it against threats hidden from view even as the warchief speaks of honor and frontal assault."
+   "text": "The Shattered Hand carries out the Horde's espionage and covert work, guarding against threats hidden from view. The warchief speaks of honor and frontal assault."
   }
  ],
  "keywords": [
@@ -125,5 +125,5 @@
  "attribution": [
   "Zando'zan (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:933"
   ]
  },
- "summary": "At the Pools of Arlithrien, the Tourmaline Phial gathers blessed moonwell water for Teldrassil's rituals.",
+ "summary": "At the Pools of Arlithrien, travelers gather blessed moonwell water in the Tourmaline Phial for Teldrassil's rituals.",
  "sections": [
   {
    "title": "Vessel of Arlithrien",
-   "body": "Corithras Moonrage gives the Tourmaline Phial to travelers for rituals that tend the World Tree. Druids in Dolanaar use gemstone vials to collect pure moonwell water across Teldrassil. This phial is meant for the moonwell beside the Pools of Arlithrien, southeast of the road to Darnassus, where hostile Gnarlpine furbolgs are growing more troublesome.",
+   "body": "Corithras Moonrage gives travelers the Tourmaline Phial for rituals that tend the World Tree. Druids in Dolanaar use gemstone vials to gather pure moonwell water across Teldrassil. This phial is for the moonwell beside the Pools of Arlithrien, southeast of the road to Darnassus. Hostile Gnarlpine furbolgs are growing more troublesome there.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "tourmaline phial purpose",
     "use tourmaline phial"
    ],
-   "answer": "The Tourmaline Phial collects sacred water from the moonwell at the Pools of Arlithrien. Once filled, you return it to Corithras Moonrage in Dolanaar for the Crown of the Earth rituals."
+   "answer": "The Tourmaline Phial gathers sacred water from the moonwell at the Pools of Arlithrien. Once it is full, you return it to Corithras Moonrage in Dolanaar for the Crown of the Earth rituals."
   },
   {
    "q": "Who provides the Tourmaline Phial?",
@@ -48,11 +48,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you carry a gemstone phial to gather moonwell water, a ceremonial duty as you learn to tend Teldrassil's fragile ecosystem."
+   "text": "As a druid, you carry a gemstone phial to gather moonwell water. It is a ceremonial duty as you learn to tend Teldrassil's fragile ecosystem."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know moonwell water reflects your people's reliance on Elune's grace and druidic vigilance as Teldrassil struggles against corruption."
+   "text": "As a night elf, you know moonwell water reflects your people's reliance on Elune's grace and druidic vigilance. Teldrassil struggles against corruption."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
   "Tourmaline Phial",
   "Crown of the Earth (4)"
  ],
- "style": 1
+ "style": 2
 }

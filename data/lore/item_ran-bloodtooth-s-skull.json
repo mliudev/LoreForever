@@ -10,16 +10,16 @@
    "quest:1046"
   ]
  },
- "summary": "In Ashenvale, Ran Bloodtooth's Skull bears proof that a corrupted furbolg chieftain has fallen. The night elves of Astranaar receive it as a sign that a fierce threat to their woodland realm has ended.",
+ "summary": "In Ashenvale, Ran Bloodtooth's Skull reaches the night elves of Astranaar as proof that a fierce threat has fallen.",
  "sections": [
   {
    "title": "A Trophy of Ashenvale's Defense",
-   "body": "The furbolgs of Ashenvale have fallen into murderous madness under demonic taint and wilderness corruption. Ran Bloodtooth led one of the fiercest tribes. His skull gives the night elf Sentinels proof that he has fallen and his hold over the local furbolgs is broken, bringing some respite to Astranaar.",
+   "body": "Demonic taint and wilderness corruption have driven Ashenvale's furbolgs into murderous madness. Ran Bloodtooth led one of the fiercest tribes. His skull proves to the night elf Sentinels that he has fallen and his hold over the local furbolgs is broken. Astranaar gains some respite.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Fallen",
-   "body": "Sentinel Raene Wolfrunner receives Ran Bloodtooth's Skull in Astranaar, where it marks the end of an investigation begun by the fallen scout Teronis. Dartol's Rod, rebuilt after Teronis set out to find it, is displayed beside the skull. Together they honor those who fought to preserve the sacred forest.",
+   "body": "In Astranaar, Sentinel Raene Wolfrunner receives Ran Bloodtooth's Skull. It marks the end of an investigation begun by the fallen scout Teronis. Beside the skull rests Dartol's Rod, rebuilt after Teronis set out to find it. Together, the skull and rod honor those who fought to preserve the sacred forest.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "ran bloodtooth lore",
     "who was bloodtooth"
    ],
-   "answer": "Ran Bloodtooth led a corrupted furbolg tribe in Ashenvale, and the night elf Sentinels counted him among the fiercest threats in the region."
+   "answer": "Ran Bloodtooth led a corrupted furbolg tribe in Ashenvale. The night elf Sentinels counted him among the fiercest threats in the region."
   },
   {
    "q": "Why do the Sentinels want his skull?",
@@ -40,7 +40,7 @@
     "raene wolfrunner skull",
     "what is the skull for"
    ],
-   "answer": "Raene Wolfrunner receives the skull in Astranaar as proof that Ran Bloodtooth has fallen. It is placed beside Dartol's Rod to remember those lost defending Ashenvale."
+   "answer": "Raene Wolfrunner receives Ran Bloodtooth's Skull in Astranaar as proof that he has fallen. It rests beside Dartol's Rod in memory of those lost defending Ashenvale."
   },
   {
    "q": "Who was Teronis?",
@@ -49,7 +49,7 @@
     "who is teronis",
     "teronis astranaar"
    ],
-   "answer": "Teronis was Raene Wolfrunner's longtime friend and an ally of the Sentinels in Ashenvale. He sought a gem for a rod made by the dead wizard Dartol, hoping it would slow the furbolg attacks, but murlocs slew him at Lake Falathim. Raene Wolfrunner and visiting adventurers took up his task."
+   "answer": "Teronis was Raene Wolfrunner's longtime friend and an ally of the Sentinels in Ashenvale. He sought a gem for a rod made by the dead wizard Dartol, hoping it would slow the furbolg attacks. Murlocs slew him at Lake Falathim, so Raene Wolfrunner and visiting adventurers took up his task."
   }
  ],
  "angles": [
@@ -85,5 +85,5 @@
   "Ran Bloodtooth's Skull",
   "Raene's Cleansing (11)"
  ],
- "style": 1
+ "style": 2
 }

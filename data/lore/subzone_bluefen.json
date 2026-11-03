@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Bluefen"
  },
- "summary": "Bluefen is a soggy marshland nestled in northern Dustwallow Marsh just east of Brackenwall Village. Crawling with aggressive wetland predators, the mire has also become a staging ground for covert Theramore Infiltrators keeping watch on local Horde movements.",
+ "summary": "Bluefen’s marsh paths put travelers between swamp predators and Theramore scouts. The bog lies in northern Dustwallow Marsh, just east of Brackenwall Village.",
  "sections": [
   {
    "title": "A Contested Bog",
-   "body": "Situated just east of the Stonemaul ogres of Brackenwall Village, Bluefen embodies the untamed hazards of Dustwallow Marsh. The humid swampland teems with predatory beasts, including raptors, giant spiders, carrion-feeding birds, and lurking crocolisks. Beyond natural predators, travelers must contend with Theramore Infiltrators who skulk through the murky terrain to spy on the Horde and project human influence deeper into the swamp.",
+   "body": "East of Brackenwall Village, home to the Stonemaul ogres, Bluefen’s wet ground teems with danger. Raptors, giant spiders, carrion-feeding birds, and crocolisks prowl the marsh. Theramore Infiltrators also move through the bog, watching Horde movements and carrying human influence deeper into the swamp.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is bluefen",
     "bluefen map"
    ],
-   "answer": "Bluefen lies in northern Dustwallow Marsh, situated just east of Brackenwall Village."
+   "answer": "Bluefen lies in northern Dustwallow Marsh, just east of Brackenwall Village."
   },
   {
    "q": "What threats can be found in Bluefen?",
@@ -32,7 +32,7 @@
     "what lives in bluefen",
     "bluefen mobs"
    ],
-   "answer": "The marsh is infested with dangerous wildlife including spiders, crocolisks, raptors, and marsh birds. Additionally, covert Theramore Infiltrators scout the area, posing a threat to Horde travelers."
+   "answer": "Raptors, giant spiders, crocolisks, and carrion-feeding birds hunt in Bluefen. Theramore Infiltrators also scout the marsh and threaten Horde travelers."
   },
   {
    "q": "Why are Theramore scouts active in Bluefen?",
@@ -41,17 +41,17 @@
     "why are alliance here",
     "theramore spies"
    ],
-   "answer": "Theramore Infiltrators monitor northern Dustwallow Marsh from Bluefen, watching the neighboring Stonemaul ogre settlement of Brackenwall Village and patrolling the contested pathways of the marsh."
+   "answer": "Theramore Infiltrators watch Brackenwall Village, home to the Stonemaul ogres, and patrol the contested paths through northern Dustwallow Marsh."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Positioned just east of Brackenwall Village, Bluefen poses a double danger to Horde champions: fierce swamp beasts and watchful Theramore Infiltrators spying on your Stonemaul allies."
+   "text": "East of Brackenwall Village, Bluefen puts Horde champions among swamp beasts and Theramore Infiltrators watching the Stonemaul ogres."
   },
   {
    "target": "faction:Alliance",
-   "text": "While wild beasts make travel treacherous, Theramore scouts use the dense marshland foliage of Bluefen to keep watchful eyes on the nearby ogre encampment."
+   "text": "Wild beasts make travel treacherous, while Theramore scouts watch the nearby ogre encampment through Bluefen’s dense marsh foliage."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Bluefen"
- ]
+ ],
+ "style": 2
 }

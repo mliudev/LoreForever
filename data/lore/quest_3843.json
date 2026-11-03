@@ -27,16 +27,16 @@
    "Freedom for All Creatures"
   ]
  },
- "summary": "After A Short Incubation, Quentin calls the egg a magnificent specimen and sends you to Aerie Peak in the Hinterlands, to a dwarf named Agnar Beastamer. The egg is fragile and only an hour remains to find Agnar before the hatchling inside dies.",
+ "summary": "Only an hour remains to bring the fragile egg to Agnar Beastamer at Aerie Peak, before the hatchling inside dies.",
  "sections": [
   {
    "title": "Hurry to Aerie Peak",
-   "body": "Quentin judges the sprite darter egg a magnificent specimen; if it survives, it will make a healthy pet. One last thing is advised: go to Aerie Peak in the Hinterlands and speak to the dwarf Agnar Beastamer, a master animal handler who can guide the final steps of incubation. The egg is fragile and cannot manage long without proper care: the hatchling inside dies if an hour goes by before you find Agnar. Agnar lives in Wildhammer Keep.",
+   "body": "Quentin calls the sprite darter egg a magnificent specimen. If it survives, it will make a healthy pet. He sends you to Aerie Peak in the Hinterlands, where Agnar Beastamer can guide the final steps of incubation. The dwarf is a master animal handler, and the egg cannot go long without care. Find Agnar within an hour, or the hatchling inside will die. He lives in Wildhammer Keep.",
    "spoiler": 0
   },
   {
    "title": "Agnar's Verdict",
-   "body": "Agnar has not seen such a creature in ages, and names it a faerie dragon of the sprite darter kind. To let the little one hatch and grow strong, food will be needed, and Agnar is glad you arrived in time.",
+   "body": "Agnar Beastamer has not seen such a creature in ages. He names it a faerie dragon of the sprite darter kind. The little one needs food to hatch and grow strong. Agnar is glad you arrived in time.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who starts the newest member of the family",
     "egg quest giver"
    ],
-   "answer": "Quentin, who follows up A Short Incubation by sending you with the fragile egg to Aerie Peak in the Hinterlands."
+   "answer": "Quentin sends you to Aerie Peak in the Hinterlands with the fragile egg after A Short Incubation."
   },
   {
    "q": "Who must receive the egg?",
@@ -57,7 +57,7 @@
     "who is agnar beastamer",
     "who gets the egg"
    ],
-   "answer": "Agnar Beastamer, a dwarf and master animal handler at Aerie Peak in the Hinterlands. Agnar lives in Wildhammer Keep."
+   "answer": "Agnar Beastamer, a dwarf and master animal handler, must receive the egg at Aerie Peak. He lives in Wildhammer Keep."
   },
   {
    "q": "How much time is there to deliver the egg?",
@@ -66,7 +66,7 @@
     "how long do I have",
     "timer on the egg"
    ],
-   "answer": "One hour. If the hatchling inside the egg is not brought to Agnar in that time, it dies."
+   "answer": "One hour. If you do not bring the egg to Agnar in that time, the hatchling inside dies."
   },
   {
    "q": "Where does this step fit in the chain?",
@@ -75,7 +75,7 @@
     "what comes next",
     "chain progression"
    ],
-   "answer": "It follows A Short Incubation, and hands the egg over to Agnar Beastamer at Aerie Peak."
+   "answer": "This follows A Short Incubation and sends you with the egg to Agnar Beastamer at Aerie Peak."
   }
  ],
  "angles": [],
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "The Newest Member of the Family"
- ]
+ ],
+ "style": 2
 }

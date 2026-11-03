@@ -10,16 +10,16 @@
    "quest:968"
   ]
  },
- "summary": "In Darkshore, Highborne Relics remain in the hands of spirits haunting Ameth'Aran. Night elf scholars seek them for destruction before their dormant magic can cause more harm.",
+ "summary": "In Darkshore, spirits still clutch Highborne Relics, and night elf scholars seek to destroy them. Their dormant magic may bring further harm.",
  "sections": [
   {
    "title": "Remnants of the Sundering",
-   "body": "Ten thousand years ago, the Highborne caste brought ruin upon ancient Kalimdor through reckless arcane magic. Their estates lie in shattered ruins across Darkshore. At Ameth'Aran, wailing apparitions wander among the crumbling columns, still clutching the implements of their old sorcery. The relics bind arcane taint to the spirits, who will not release the objects tied to their undoing.",
+   "body": "Ten thousand years ago, the Highborne caste brought ruin to ancient Kalimdor with reckless arcane magic. Across Darkshore, their estates lie in shattered ruins. At Ameth'Aran, wailing apparitions wander among crumbling columns, still clutching the tools of their old sorcery. Arcane taint binds the relics to these spirits, who will not let go of the objects tied to their undoing.",
    "spoiler": 0
   },
   {
    "title": "Purging the Arcane Taint",
-   "body": "Night elf society largely renounced arcane magic after the Great Sundering, and scholars see these relics as a grave hazard. Acting on reports from the Sentinels, Thundris Windweaver in Auberdine sends travelers to wrest them from the cursed spirits. Once gathered, the relics are destroyed so the Highborne's ancient evils and catastrophic mistakes cannot be repeated.",
+   "body": "After the Great Sundering, most night elves turned away from arcane magic. Their scholars now see the relics as a grave hazard. Reports from the Sentinels reached Thundris Windweaver in Auberdine, who sends travelers to wrest the relics from the cursed spirits. Once gathered, the relics are destroyed, so the Highborne's ancient evils and catastrophic mistakes cannot be repeated.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who drops highborne relics",
     "relic location"
    ],
-   "answer": "The spirits haunting Ameth'Aran carry Highborne Relics among the ancient ruins east of the main road in southern Darkshore. The wailing ghosts clutch them among the stones."
+   "answer": "In southern Darkshore, the spirits haunting Ameth'Aran carry Highborne Relics among the ancient ruins east of the main road. The wailing ghosts clutch them among the stones."
   },
   {
    "q": "Why does Thundris Windweaver want these relics?",
@@ -40,7 +40,7 @@
     "what happens to the relics",
     "windweaver goal"
    ],
-   "answer": "Thundris Windweaver fears the arcane corruption clinging to the relics. He gathers them for destruction, so no one can revive the dangerous Highborne sorcery."
+   "answer": "Thundris Windweaver fears the arcane corruption clinging to the relics. He gathers them for destruction so no one can revive the dangerous Highborne sorcery."
   },
   {
    "q": "Why are the Highborne spirits still in Ameth'Aran?",
@@ -92,5 +92,5 @@
   "Highborne Relic (Classic)",
   "Tools of the Highborne"
  ],
- "style": 1
+ "style": 2
 }

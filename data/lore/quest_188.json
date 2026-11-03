@@ -27,16 +27,16 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "Ajeck Rouack offers the ultimate challenge in his series of hunts within northern Stranglethorn Vale. After weeks of tracking an elusive beast, he challenges you to seek out the tiger Sin'Dall and bring back her paw.",
+ "summary": "At Nesingwary's Expedition, Ajeck Rouack sends you after a tiger his hunters have tracked for weeks. Sin'Dall waits in northern Stranglethorn Vale, and her paw will prove the hunt is done.",
  "sections": [
   {
    "title": "The Final Tiger",
-   "body": "Having completed the earlier trials against Stranglethorn's tigers, you are offered one last challenge by Ajeck Rouack at Nesingwary's Expedition. The hunting camp has tracked an extraordinarily elusive tiger known as Sin'Dall across the jungle for weeks. Ajeck challenges you to track her down, fell the beast, and claim her paw as indisputable proof.",
+   "body": "At Nesingwary's Expedition, Ajeck Rouack sends you on one last hunt after your earlier trials against Stranglethorn's tigers. His hunters have tracked Sin'Dall through the jungle for weeks. Find the elusive tiger, kill her, and bring back her paw as proof.",
    "spoiler": 0
   },
   {
    "title": "Master Tiger Hunter",
-   "body": "Returning to Nesingwary's camp with the paw of Sin'Dall proves your tracking prowess beyond question. Ajeck Rouack acknowledges your accomplishment, declaring you a true Master Tiger Hunter.",
+   "body": "When you return to Nesingwary's camp with Sin'Dall's paw, Ajeck Rouack recognizes your skill at tracking. He names you a true Master Tiger Hunter.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who gives tiger mastery",
     "ajeck rouack location"
    ],
-   "answer": "Ajeck Rouack, a seasoned huntsman stationed at Nesingwary's Expedition in northern Stranglethorn Vale, presents this final feline challenge."
+   "answer": "Ajeck Rouack, a seasoned huntsman at Nesingwary's Expedition in northern Stranglethorn Vale, offers you this final hunt."
   },
   {
    "q": "What is Sin'Dall?",
@@ -57,7 +57,7 @@
     "sindall lore",
     "who is sin dall"
    ],
-   "answer": "Sin'Dall is an elusive tiger that the hunters of Nesingwary's Expedition have been pursuing for weeks across the jungles of Stranglethorn Vale."
+   "answer": "Sin'Dall is an elusive tiger pursued through the jungles of Stranglethorn Vale by the hunters of Nesingwary's Expedition for weeks."
   },
   {
    "q": "What proof does Ajeck Rouack require?",
@@ -66,7 +66,7 @@
     "tiger mastery proof",
     "paw of sindall"
    ],
-   "answer": "Ajeck Rouack requires you to return with the Paw of Sin'Dall to prove that the beast was truly bested."
+   "answer": "Ajeck Rouack asks you to return with Sin'Dall's paw as proof that you bested the tiger."
   },
   {
    "q": "What precedes this hunt?",
@@ -75,7 +75,7 @@
     "tiger mastery chain",
     "previous quest"
    ],
-   "answer": "This hunt is the fourth and culminating step of Ajeck Rouack's series, following the third Tiger Mastery trial in northern Stranglethorn Vale."
+   "answer": "This hunt is the fourth and final step in Ajeck Rouack's series. It follows the third Tiger Mastery trial in northern Stranglethorn Vale."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Tiger Mastery (4)"
- ]
+ ],
+ "style": 2
 }

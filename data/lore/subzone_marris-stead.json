@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Marris Stead"
  },
- "summary": "Perched on a ridge in the southwestern Eastern Plaguelands, the Marris Stead was once a peaceful Lordaeron homestead. Following the devastation of the Third War, it now serves as the lonely, heavily defended redoubt of Nathanos Blightcaller, Champion of the Forsaken.",
+ "summary": "In the southwestern Eastern Plaguelands, Nathanos Blightcaller holds Marris Stead. Once a peaceful Lordaeron homestead, the ridge now shelters his lonely, heavily defended redoubt.",
  "sections": [
   {
    "title": "A Ranger's Ruined Home",
-   "body": "Before the Third War, this homestead belonged to Nathanos Marris, a renowned human marksman and the only human ranger lord admitted into the Farstriders. When the Scourge tore through Lordaeron after the fall of Stratholme, the monstrous abomination Ramstein the Gorger cornered and slaughtered Nathanos at his own home. Raised as a mindless thrall bound to the Lich King, he was later freed by Sylvanas Windrunner herself, breaking free of the Scourge to take his place among the Forsaken.",
+   "body": "Nathanos Marris once lived at Marris Stead. Before the Third War, the renowned human marksman became the only human ranger lord admitted into the Farstriders. After Stratholme fell, the Scourge swept through Lordaeron. Ramstein the Gorger cornered and killed Nathanos at his own home. The Lich King raised him as a mindless thrall, until Sylvanas Windrunner freed him. Nathanos then joined the Forsaken.",
    "spoiler": 1
   },
   {
    "title": "The Champion's Bastion",
-   "body": "Now styling himself Nathanos Blightcaller, the champion returned to his ancestral farmstead alongside his pack of vicious blighthounds. Acting under orders from the Banshee Queen, he coordinates strikes across the Plaguelands against both the Scourge and the Scarlet Crusade. The farmstead has also drawn the grim scrutiny of Stormwind's intelligence service: SI:7 operatives sent to investigate Forsaken activity here were slaughtered, leading the Alliance to uncover Nathanos's terrible transformation and place a heavy bounty upon his head.",
+   "body": "Nathanos Blightcaller returned to his ancestral farmstead with his pack of vicious blighthounds. Following the Banshee Queen's orders, he directs strikes across the Plaguelands against the Scourge and the Scarlet Crusade. Stormwind's intelligence service also turned its attention to the farm. SI:7 operatives sent to investigate Forsaken activity there were slaughtered. The Alliance learned Nathanos had become undead and placed a heavy bounty on his head.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "npc at farm",
     "nathanos location"
    ],
-   "answer": "The homestead is occupied by Nathanos Blightcaller. He resides here accompanied by his pack of blighthounds, serving as a frontline commander and Champion of the Banshee Queen."
+   "answer": "Nathanos Blightcaller lives at Marris Stead with his pack of blighthounds. As Champion of the Banshee Queen, he commands on the front lines."
   },
   {
    "q": "How did Nathanos become undead?",
@@ -38,7 +38,7 @@
     "nathanos death",
     "who killed nathanos"
    ],
-   "answer": "The Scourge devastated Lordaeron during the Third War, raising many of its victims as undead. Nathanos's own history and release from Scourge control are explored in the protected section."
+   "answer": "During the Third War, the Scourge devastated Lordaeron and raised many victims as undead. Nathanos's own history and release from Scourge control are told in the protected section."
   },
   {
    "q": "Why is the Alliance interested in this farm?",
@@ -47,7 +47,7 @@
     "si7 plaguelands",
     "why kill nathanos"
    ],
-   "answer": "SI:7 spymaster Mathias Shaw received disturbing reports of unusual Forsaken activity and sent agents to investigate. When only one returned, further investigators were sent to learn what happened to the others."
+   "answer": "SI:7 spymaster Mathias Shaw received disturbing reports of unusual Forsaken activity and sent agents to investigate. When only one returned, more investigators went to discover what had happened to the others."
   }
  ],
  "angles": [
@@ -57,7 +57,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "For the Forsaken and their Horde allies, the stead serves as an invaluable, heavily defended base of operations for waging war against the Scourge and Scarlet Crusade."
+   "text": "For the Forsaken and their Horde allies, the stead is a heavily defended base for waging war against the Scourge and the Scarlet Crusade."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Marris Stead"
- ]
+ ],
+ "style": 2
 }

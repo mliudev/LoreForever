@@ -27,11 +27,11 @@
    "Freedom for All Creatures"
   ]
  },
- "summary": "With the sprite darters freed, Jer'kai Moonweaver and Kindal mean to take the fight to the Grimtotem clan. Jer'kai asks you to cut down Grimtotem Naturalists, Raiders and Shamans, then return to Jer'kai. This follows Freedom for All Creatures.",
+ "summary": "In Feralas, Jer'kai Moonweaver and Kindal are ready to strike back after the sprite darters' rescue. Jer'kai asks you to thin the Grimtotem ranks, then return to him.",
  "sections": [
   {
    "title": "Taking the Fight to the Grimtotem",
-   "body": "After Freedom for All Creatures, Jer'kai Moonweaver tells you that Kindal and Jer'kai will now strike back at the Grimtotem. Together they can thin out some of the tauren without much risk to themselves, but they would welcome your help. You have seen the camp below, and there are more to the east. Use your own tactics against Grimtotem Naturalists, Raiders and Shamans, then meet back where Jer'kai waits.",
+   "body": "After the sprite darter rescue, Jer'kai Moonweaver and Kindal are ready to strike at the Grimtotem. They can thin the tauren ranks together without much risk, and welcome your help.\n\nYou have seen the camp below, and more lie to the east. Choose your own tactics against Grimtotem Naturalists, Raiders and Shamans, then return to Jer'kai.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "quest giver doling justice",
     "jer'kai moonweaver"
    ],
-   "answer": "Jer'kai Moonweaver, in Feralas, once Kindal has told you what the pair intend after the sprite darter rescue."
+   "answer": "In Feralas, Jer'kai Moonweaver asks for your help after Kindal has explained what they plan following the sprite darter rescue."
   },
   {
    "q": "Which Grimtotem are targeted?",
@@ -52,7 +52,7 @@
     "doling justice targets",
     "grimtotem kills"
    ],
-   "answer": "Grimtotem Naturalists, Grimtotem Raiders and Grimtotem Shamans, among the tauren of the Grimtotem clan."
+   "answer": "The targets are Grimtotem Naturalists, Grimtotem Raiders and Grimtotem Shamans among the Grimtotem clan."
   },
   {
    "q": "Where are the Grimtotem camps?",
@@ -61,7 +61,7 @@
     "grimtotem camp location",
     "where do i go"
    ],
-   "answer": "One camp lies in sight below Jer'kai, and Jer'kai says there are more to the east."
+   "answer": "One Grimtotem camp lies below Jer'kai, in sight, and he says more camps lie to the east."
   },
   {
    "q": "What comes before Doling Justice?",
@@ -70,7 +70,7 @@
     "doling justice prerequisite",
     "previous step"
    ],
-   "answer": "Freedom for All Creatures, in which you freed the sprite darters from the Grimtotem camp."
+   "answer": "Freedom for All Creatures comes first. There, you freed the sprite darters from the Grimtotem camp."
   }
  ],
  "angles": [],
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Doling Justice"
- ]
+ ],
+ "style": 2
 }

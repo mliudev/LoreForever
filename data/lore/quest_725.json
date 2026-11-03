@@ -33,11 +33,11 @@
    "Passing Word of a Threat"
   ]
  },
- "summary": "Historian Karnik gives you a sealed note for Advisor Belgrum. You are to tell Belgrum what you have witnessed and ask how Belgrum wants to proceed, while Karnik turns to Hammertoe's spirit about the Shadowforge in the Badlands.",
+ "summary": "Karnik sends you to Advisor Belgrum with a sealed note. Tell Belgrum what you witnessed and ask how to proceed while Karnik seeks answers from Hammertoe's spirit.",
  "sections": [
   {
    "title": "Word for Advisor Belgrum",
-   "body": "Karnik wants you to find Advisor Belgrum quickly, tell what you have seen, and ask how Belgrum wants to proceed. The note explains more. Meanwhile Karnik will speak with Hammertoe's spirit, hoping Hammertoe knows something that could put an end to the Shadowforge's doings in the Badlands, and can only pray that it does.",
+   "body": "Historian Karnik needs you to reach Advisor Belgrum quickly. Tell him what you witnessed and ask how he wants to proceed. The sealed note explains more.\n\nMeanwhile, Karnik speaks with Hammertoe's spirit, hoping to learn how to end the Shadowforge's doings in the Badlands. He can only pray that Hammertoe knows something that will help.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "who gives passing word of a threat",
     "karnik quest"
    ],
-   "answer": "Historian Karnik hands you a sealed note and asks you to find Advisor Belgrum as fast as you can."
+   "answer": "Historian Karnik gives you a sealed note and asks you to find Advisor Belgrum as quickly as you can."
   },
   {
    "q": "What does Karnik want from Advisor Belgrum?",
@@ -58,7 +58,7 @@
     "belgrum note purpose",
     "why send the note"
    ],
-   "answer": "Karnik wants Belgrum told what you have witnessed and asked how Belgrum wants to proceed. The note explains more."
+   "answer": "Karnik wants you to tell Belgrum what you witnessed and ask how he wants to proceed. The note explains more."
   },
   {
    "q": "What is Historian Karnik doing while you deliver the note?",
@@ -67,7 +67,7 @@
     "karnik plan",
     "historian karnik badlands"
    ],
-   "answer": "Karnik takes the time to speak with Hammertoe's spirit, hoping to learn something that helps stop the Shadowforge in the Badlands."
+   "answer": "As you deliver the note, Karnik speaks with Hammertoe's spirit, hoping to learn how to stop the Shadowforge in the Badlands."
   },
   {
    "q": "What quest comes before Passing Word of a Threat?",
@@ -76,7 +76,7 @@
     "passing word of a threat previous quest",
     "prior quest"
    ],
-   "answer": "It follows Prospect of Faith, the step in which you bring Hammertoe's amulet to Karnik in Ironforge."
+   "answer": "Passing Word of a Threat follows Prospect of Faith, when you bring Hammertoe's amulet to Karnik in Ironforge."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Passing Word of a Threat"
- ]
+ ],
+ "style": 2
 }

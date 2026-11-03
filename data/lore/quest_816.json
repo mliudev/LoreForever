@@ -17,16 +17,16 @@
   "wiki": "Lost But Not Forgotten (Classic)",
   "chain": []
  },
- "summary": "Misha Tor'kren waits at her homestead for news of her son, Kron. He went west to hunt crocolisks along the Southfury River, and she fears the worst.",
+ "summary": "Misha Tor'kren waits at her Durotar homestead for news of her son, Kron. He went west to hunt crocolisks along the Southfury River, and she fears the worst.",
  "sections": [
   {
    "title": "A Mother's Dread",
-   "body": "Misha Tor'kren lives at a farmstead northwest of Razor Hill in Durotar. Days ago, her son Kron set out west toward the Southfury River, along the Barrens border, to hunt its fierce crocolisks. Misha warned him how deadly the beasts were, but pride drove him to leave and prove his strength. No one has seen him since.",
+   "body": "Misha Tor'kren lives at a farmstead northwest of Razor Hill. Days ago, her son Kron went west to hunt fierce crocolisks along the Southfury River, near the Barrens border. Misha warned him how deadly the beasts were, but pride drove him to prove his strength. No one has seen him since.",
    "spoiler": 0
   },
   {
    "title": "A Grim Confirmation",
-   "body": "Misha asks you to search the Southfury River's banks for any sign of Kron, even inside the crocolisks. The Dreadmaw crocolisks hold the answer: among their remains, you find Kron's swallowed amulet. When you bring it back, Misha knows her son did not survive. The keepsake gives her the closure she needs to begin mourning.",
+   "body": "Misha asks you to search the Southfury River's banks for any sign of Kron, even inside the crocolisks. The Dreadmaw crocolisks hold the answer. Among their remains, you find Kron's swallowed amulet. When you bring it back, Misha knows her son did not survive. The keepsake gives her the closure she needs to begin mourning.",
    "spoiler": 1
   }
  ],
@@ -118,5 +118,5 @@
  "attribution": [
   "Lost But Not Forgotten (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Forsaken shadow priests like Father Lankester maintain an intense scholarly and theological interest in void specimens, viewing strange planar remains as objects of study rather than mere abominations."
+   "text": "As a priest among the Forsaken, you may share Father Lankester’s scholarly and religious interest in void specimens. Strange remains can be objects of study rather than mere abominations."
   },
   {
    "target": "race:Undead",
-   "text": "The Forsaken of Undercity actively study forbidden magic and unnatural corruptions across Lordaeron, seeking to harness dark phenomena to strengthen their precarious hold on the kingdom."
+   "text": "As one of the Forsaken, you know Undercity’s people study forbidden magic and unnatural corruption across Lordaeron. They seek ways to use dark forces to strengthen their hold on the kingdom."
   },
   {
    "target": "faction:Horde",
-   "text": "Adventurers serving the Horde recover unsettling specimens from the hidden wilds of Tirisfal Glades to fuel research efforts beneath the Capital City ruins."
+   "text": "As a Horde adventurer, you recover unsettling specimens from hidden places in Tirisfal Glades for study beneath the ruins of the capital."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "what is whispering horror residue",
     "residue item"
    ],
-   "answer": "Whispering Horror Residue consists of the squirming bodily remains harvested from a strange beast defeated beneath the Whispering Forest. Despite its unsettling nature, scholars of shadow magic find it valuable for arcane and occult research.",
+   "answer": "The residue is the squirming remains of a strange beast defeated beneath the Whispering Forest. Shadow scholars value it for arcane and occult study.",
    "q": "What is the Whispering Horror Residue?"
   },
   {
@@ -41,7 +41,7 @@
     "who is father lankester",
     "where to turn in residue"
    ],
-   "answer": "The residue is delivered to Father Lankester, a Forsaken figure located in the War Quarter of Undercity. He welcomes the opportunity to explore the mysteries of shadow and void-touched phenomena.",
+   "answer": "Father Lankester, a Forsaken figure in Undercity’s War Quarter, wants the residue. He welcomes the chance to study shadow and void-touched phenomena.",
    "q": "Who wants the Whispering Horror Residue?"
   },
   {
@@ -50,7 +50,7 @@
     "whispering forest lore",
     "under whispering forest"
    ],
-   "answer": "The specimen originates from beneath the Whispering Forest, an ominous woodland located west of Deathknell in Tirisfal Glades. As Father Lankester observes, the foul area is known to be touched by the void.",
+   "answer": "The specimen came from beneath the Whispering Forest, west of Deathknell in Tirisfal Glades. Father Lankester says the area is touched by the void.",
    "q": "Where did this specimen come from?"
   },
   {
@@ -59,7 +59,7 @@
     "undercity shadow research",
     "why study residue"
    ],
-   "answer": "Father Lankester seeks to study the mysteries of the shadow and the void. To Forsaken practitioners probing forbidden arts, physical remnants from void-tainted creatures offer rare insight and research material.",
+   "answer": "Father Lankester wants to study shadow and the void. Physical remains from void-touched creatures give practitioners of forbidden arts material for study.",
    "q": "Why does Father Lankester want the residue?"
   },
   {
@@ -68,7 +68,7 @@
     "where is lankester located",
     "undercity lankester location"
    ],
-   "answer": "Father Lankester resides in the War Quarter of Undercity. The War Quarter serves as a bustling hub for Forsaken warriors, scholars, and military planners beneath the ruins of Lordaeron's capital.",
+   "answer": "Father Lankester can be found in Undercity’s War Quarter, beneath the ruins of Lordaeron’s capital. Forsaken warriors, scholars, and military planners gather there.",
    "q": "Where can Father Lankester be found?"
   },
   {
@@ -77,7 +77,7 @@
     "void corruption whispering forest",
     "what touches whispering forest"
    ],
-   "answer": "The Whispering Forest has long held a sinister reputation among the locals of Tirisfal. Father Lankester notes it is no secret that the foul woods and the subterranean spaces beneath them are touched by the void.",
+   "answer": "Father Lankester says the Whispering Forest has long been touched by the void. The woods and the spaces beneath them are known for that corruption.",
    "q": "Is the Whispering Forest touched by the void?"
   }
  ],
@@ -98,18 +98,19 @@
  ],
  "sections": [
   {
-   "body": "Whispering Horror Residue represents the bizarre, squirming remains scraped up from a defeated beast dwelling beneath the Whispering Forest. Rather than abandoning such an unnatural curiosity, resourceful adventurers gather the twitching material in hopes that researchers within the Undercity can turn it to good use.",
+   "body": "Beneath the Whispering Forest, you recover a strange beast’s twitching remains. The unsettling material is carried to Undercity, where researchers may study it.",
    "spoiler": 0,
    "title": "An Unsettling Harvest"
   },
   {
-   "body": "The creature's remains find an eager recipient in Father Lankester, located within the War Quarter of Undercity. Lankester notes that the Whispering Forest has long been touched by the void, welcoming the chance to examine physical remnants of that dark corruption as he delves into the mysteries of shadow.",
+   "body": "In Undercity’s War Quarter, Father Lankester receives the remains. He says the Whispering Forest has long been touched by the void. Its physical traces may help him study the mysteries of shadow.",
    "spoiler": 0,
    "title": "Studies in Shadow"
   }
  ],
- "summary": "Whispering Horror Residue is the squirming remnant of a strange beast recovered from beneath the Whispering Forest. Gathered by intrepid adventurers, these void-touched remains are brought to Father Lankester in Undercity's War Quarter for shadow research.",
+ "summary": "Beneath the Whispering Forest, Whispering Horror Residue is carried to Undercity for study. Father Lankester awaits it in the War Quarter.",
  "attribution": [
   "In-game quest text: Whispering Horror Residue"
- ]
+ ],
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Overlord Mok'Morokk",
   "refs": 2
  },
- "summary": "Overlord Mok'Morokk is the brute chieftain of the Stonemaul ogres, presiding over Brackenwall Village in Dustwallow Marsh. Originally appointed by Rexxar for his strength, he has become a tyrannical and cowardly ruler who refuses to defend his clan against the black dragonflight.",
+ "summary": "Brackenwall Village is where Overlord Mok'Morokk rules the Stonemaul ogres of Dustwallow Marsh. Rexxar chose him for his strength, but now he is a tyrant who will not defend his clan from the black dragonflight.",
  "sections": [
   {
    "title": "A Tyrant in the Marsh",
-   "body": "When Rexxar bested the previous chieftain Kor'gall and led the Stonemaul clan in defense of Durotar, he left Mok'Morokk in command, seeing promise in his sheer martial strength. That faith proved misplaced. Mok'Morokk quickly succumbed to the corrupting influence of absolute authority, ruling through intimidation and self-indulgence rather than stewardship. Instead of caring for his kin, he demands unearned tribute, lounges in Brackenwall Village, and bullies anyone who questions his command.",
+   "body": "Rexxar defeated Kor'gall, the former chieftain, and led the Stonemaul clan in defense of Durotar. When he left, he put Mok'Morokk in command, trusting his strength in battle. He was wrong to trust him. Mok'Morokk chose intimidation and comfort over care for his kin. From Brackenwall Village, he demands tribute he has not earned and bullies anyone who questions his rule.",
    "spoiler": 0
   },
   {
    "title": "The Coward of Brackenwall",
-   "body": "Mok'Morokk's leadership crumbled entirely when the black dragonflight descended upon the ancestral Stonemaul Village, slaying many ogres and driving the survivors into the muck of Brackenwall. Rather than rallying a counterattack to reclaim their home or avenge the dead, Mok'Morokk forbade any action, cowering from the dragons' wrath. Discontent festers among his advisers, such as the ogre mage Draz'Zilb, who quietly seek outside champions willing to challenge the overlord's shameful reign.",
+   "body": "The black dragonflight descended on ancestral Stonemaul Village. Many ogres died, and the survivors were driven into Brackenwall's muck. Mok'Morokk forbade his clan to act. Fear of the dragons kept him from rallying a counterattack or avenging the dead. His advisers have grown discontent. Draz'Zilb, an ogre mage, and others quietly seek champions from beyond the clan to challenge Mok'Morokk's rule.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "brackenwall leader",
     "stonemaul ogre boss"
    ],
-   "answer": "Mok'Morokk is the chieftain of the Stonemaul ogres, currently residing in Brackenwall Village in Dustwallow Marsh. He was named leader by Rexxar but quickly degenerated into a selfish and demanding despot."
+   "answer": "Mok'Morokk rules the Stonemaul ogres from Brackenwall Village in Dustwallow Marsh. Rexxar named him leader, but he soon grew selfish and demanding."
   },
   {
    "q": "How did Mok'Morokk become leader of the Stonemaul clan?",
@@ -38,7 +38,7 @@
     "rexxar chose mok'morokk",
     "why is he chieftain"
    ],
-   "answer": "During the founding of Durotar, the Champion of the Horde, Rexxar, defeated the clan's previous leader and took command of the Stonemaul. When Rexxar departed to wander the wilderness, he appointed Mok'Morokk as overlord because of his raw physical strength."
+   "answer": "Rexxar defeated the Stonemaul clan's former leader and took command during the founding of Durotar. When Rexxar left to wander the wilderness, he appointed Mok'Morokk overlord for his raw physical strength."
   },
   {
    "q": "Why are the Stonemaul ogres in Brackenwall Village?",
@@ -47,7 +47,7 @@
     "what happened to stonemaul village",
     "black dragon attack ogres"
    ],
-   "answer": "The Stonemaul ogres originally lived in Stonemaul Village, but black dragons attacked and razed their settlement. The survivors fled north into the swamps to establish Brackenwall Village as a refugee outpost."
+   "answer": "The Stonemaul ogres lived in Stonemaul Village until black dragons attacked and razed it. The survivors fled north into the swamps and made Brackenwall Village their refuge."
   },
   {
    "q": "Why won't Mok'Morokk fight the black dragonflight?",
@@ -56,7 +56,7 @@
     "is mok'morokk a coward",
     "retake stonemaul"
    ],
-   "answer": "Despite his massive size and fierce reputation, Mok'Morokk is terrified of the dragons. Rather than leading a counterattack to reclaim his clan's ancestral territory, he sits idle in Brackenwall, hoarding tribute and ignoring the cries of his people."
+   "answer": "Mok'Morokk is terrified of the dragons despite his size and fierce reputation. He refuses to lead a counterattack for his clan's ancestral territory. Instead, he sits idle in Brackenwall, hoards tribute, and ignores his people's cries."
   },
   {
    "q": "Do the other Stonemaul ogres respect Mok'Morokk?",
@@ -65,17 +65,17 @@
     "draz'zilb mok'morokk",
     "stonemaul rebellion"
    ],
-   "answer": "The clan grows increasingly resentful of his laziness, cowardice, and bullying. His advisers worry about the future of the Stonemaul under his rule."
+   "answer": "The Stonemaul clan grows resentful of Mok'Morokk's laziness, cowardice, and bullying. His advisers worry about the clan's future under his rule."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Stonemaul ogres are valuable allies sworn to the Horde since Rexxar's campaign, but Mok'Morokk's ineffective and cowardly leadership threatens to leave Brackenwall Village completely vulnerable."
+   "text": "Rexxar's campaign brought the Stonemaul ogres into alliance with the Horde. Under Mok'Morokk's weak and cowardly rule, Brackenwall Village is vulnerable."
   },
   {
    "target": "class:Warrior",
-   "text": "Mok'Morokk is a textbook example of raw martial strength unguided by honor or courage, demonstrating how easily brute force degenerates into cowardice and tyranny."
+   "text": "As a warrior, Mok'Morokk shows how strength without honor or courage can turn to cowardice and tyranny."
   }
  ],
  "keywords": [
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Overlord Mok'Morokk"
- ]
+ ],
+ "style": 2
 }

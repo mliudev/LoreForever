@@ -27,11 +27,11 @@
    "Freedom for All Creatures"
   ]
  },
- "summary": "Quentin, waiting in Thousand Needles, hears that the Moonweavers gave you the sprite darter egg. The egg looks almost ready to hatch, so Quentin wants to be sure it is healthy and undamaged, and asks you for two elixirs of fortitude.",
+ "summary": "In Thousand Needles, Quentin waits as the sprite darter egg nears hatching. The Moonweavers gave you the egg, and Quentin asks for two elixirs of fortitude so he can check its health and protect it.",
  "sections": [
   {
    "title": "Protecting the Egg",
-   "body": "Quentin finds it intriguing that the Moonweavers looked after the egg and thinks both are quite capable. Since the egg was a gift to you, it is yours to be responsible for as long as you wish. It appears almost ready to hatch, but it should first be checked for health and damage. A small spell to protect it will do the job, and Quentin has every component on hand except two elixirs of fortitude. Quentin admits to growing tempted by the races while waiting, and will return the egg for you to keep once its health is known.",
+   "body": "Quentin finds it intriguing that the Moonweavers cared for the egg, and he considers them both capable. Since they gave the egg to you, you may take responsibility for it as long as you wish. It looks almost ready to hatch, but Quentin wants to check its health and make sure it is undamaged first.\n\nA small spell will protect the egg. Quentin has every component except two elixirs of fortitude. While he waits, he admits he is growing tempted by the races. Once he knows the egg is healthy, he will return it for you to keep.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "quest giver",
     "quentin location"
    ],
-   "answer": "Quentin, who is in Thousand Needles by the Mirage Raceway, asks for two elixirs of fortitude."
+   "answer": "Quentin waits in Thousand Needles by the Mirage Raceway and asks for two elixirs of fortitude."
   },
   {
    "q": "What happened right before this?",
@@ -52,7 +52,7 @@
     "where did the egg come from",
     "pre-req"
    ],
-   "answer": "You brought the egg to Quentin in An Orphan Looking For a Home. It was a gift from the Moonweavers."
+   "answer": "You brought the egg to Quentin in An Orphan Looking For a Home. The Moonweavers gave it to you."
   },
   {
    "q": "What is needed to finish the spell?",
@@ -61,7 +61,7 @@
     "required items",
     "elixirs needed"
    ],
-   "answer": "Two elixirs of fortitude. Quentin already has the other components with him."
+   "answer": "Quentin needs two elixirs of fortitude for the spell. He already has the other components."
   },
   {
    "q": "Why does Quentin want the elixirs?",
@@ -69,13 +69,13 @@
     "why elixir of fortitude",
     "purpose of the potions"
    ],
-   "answer": "The egg is almost ready to hatch, and Quentin wants it to be healthy and undamaged. The elixirs go into a small spell to protect it."
+   "answer": "The egg is almost ready to hatch, and Quentin wants to make sure it is healthy and undamaged. The elixirs are part of a small spell to protect it."
   }
  ],
  "angles": [
   {
    "target": "profession:Alchemy",
-   "text": "An alchemist can brew the elixirs of fortitude Quentin asks for."
+   "text": "As an alchemist, you can brew the elixirs of fortitude Quentin asks for."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "A Short Incubation"
- ]
+ ],
+ "style": 2
 }

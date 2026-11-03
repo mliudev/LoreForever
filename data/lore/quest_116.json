@@ -17,16 +17,16 @@
   "wiki": "Dry Times",
   "chain": []
  },
- "summary": "Barkeep Daniels needs drink for Lakeshire's inn while Blackrock orcs keep the town under siege. The roads are unsafe, and the usual supplies have stopped coming.",
+ "summary": "Lakeshire's inn is running short of drink as Blackrock orcs keep the town under siege. The roads are unsafe, and the usual supplies have stopped coming.",
  "sections": [
   {
    "title": "A Town Under Siege",
-   "body": "Blackrock orcs descend from Stonewatch Keep, pressing Lakeshire hard. With supply lines cut and roads unsafe, the inn is running low on drink. Barkeep Daniels turns to travelers who can cross the blocked roads and bring supplies back for frightened villagers and the town guards.",
+   "body": "Blackrock orcs descend from Stonewatch Keep and press Lakeshire hard. With supply lines cut and roads unsafe, the inn is running low on drink. Barkeep Daniels turns to travelers who can cross the blocked roads and bring supplies back for frightened villagers and the town guards.",
    "spoiler": 0
   },
   {
    "title": "A Grand Tour of the Kingdom",
-   "body": "Daniels needs drink from across Stormwind's lands. You can find Merlot in the capital, Sweet Rum at the Lion's Pride Inn in Goldshire, Moonshine in Darkshire in Duskwood, and Thunderbrew Lager from Grimbooze Thunderbrew in the hills of Westfall.",
+   "body": "Daniels needs drink from across Stormwind's lands. You can find Merlot in the capital and Sweet Rum at the Lion's Pride Inn in Goldshire. Moonshine comes from Darkshire in Duskwood, and Grimbooze Thunderbrew brews Thunderbrew Lager in the hills of Westfall.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why no booze lakeshire",
     "barkeep daniels problem"
    ],
-   "answer": "Blackrock orcs have disrupted Redridge's trade and stopped the supply caravans. Daniels's usual shipments are overdue, and his inn is running dry while Lakeshire faces the strain of war."
+   "answer": "Blackrock orcs have disrupted Redridge's trade and stopped the supply caravans. Daniels's usual shipments are overdue, and his inn is running dry as Lakeshire bears the strain of war."
   },
   {
    "q": "Where do I find all the drinks Barkeep Daniels needs?",
@@ -47,7 +47,7 @@
     "where to buy merlot moonshine rum",
     "where to get drinks for daniels"
    ],
-   "answer": "You can find Merlot in Stormwind City, Sweet Rum in Goldshire in Elwynn Forest, Moonshine in Darkshire in Duskwood, and Thunderbrew Lager from Grimbooze Thunderbrew in the hills of Westfall."
+   "answer": "You can find Merlot in Stormwind City and Sweet Rum in Goldshire in Elwynn Forest. Moonshine comes from Darkshire in Duskwood, and Grimbooze Thunderbrew brews Thunderbrew Lager in the hills of Westfall."
   },
   {
    "q": "Who is Grimbooze Thunderbrew?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Dry Times"
  ],
- "style": 1
+ "style": 2
 }

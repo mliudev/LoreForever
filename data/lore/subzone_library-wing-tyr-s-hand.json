@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Library Wing (Tyr's Hand)"
  },
- "summary": "The Library Wing is a secluded hall inside Tyr's Hand Abbey, nestled within the Scarlet Crusade's heavily fortified redoubt in the Eastern Plaguelands. Once dedicated to holy study and contemplation, its shelves are now consumed by the zealous order's rigid dogma and propaganda. Members of the Crusade congregate here to study scripture and guard the sanctum's religious relics.",
+ "summary": "In the Library Wing of Tyr's Hand, Scarlet Crusaders guard their books and relics. The secluded hall lies within the order's fortified redoubt in the Eastern Plaguelands. Crusaders gather there to study scripture and keep watch over the sanctum.",
  "sections": [
   {
    "title": "Sanctum of Zealous Lore",
-   "body": "Situated off the central nave of Tyr's Hand Abbey opposite the martial quarters, the Library Wing reflects the ideological core of the Scarlet Crusade. Within these quiet stone alcoves, priests and crusaders immerse themselves in theological tracts, militant doctrines, and writings twisted by years of relentless warfare against the Scourge. Rather than preserving open scholarship, the texts sheltered here fuel the Crusade's paranoia, reinforcing their conviction that all outsiders carry the taint of corruption.",
+   "body": "Off the abbey's central nave and opposite the martial quarters, the Library Wing holds the Scarlet Crusade's religious writings. Priests and crusaders study theology, militant doctrine, and works shaped by years of war against the Scourge.\n\nThese books do not preserve open scholarship. They feed the Crusade's suspicion and its belief that every outsider bears corruption.",
    "spoiler": 0
   },
   {
    "title": "Vessels of the Light",
-   "body": "Beyond its collection of partisan scrolls and scriptures, the Library Wing is closely guarded by the Scarlet priesthood. Reaching its back rooms requires fighting through elite Scarlet defenders who treat the library as both a bastion of faith and an impenetrable fortress.",
+   "body": "The Scarlet priesthood guards the library's scrolls and scriptures. To reach its back rooms, you must fight through elite Scarlet defenders. They protect the library as both a bastion of faith and a fortress.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is the library wing",
     "how to find library wing tyr's hand"
    ],
-   "answer": "The Library Wing is situated inside Tyr's Hand Abbey, found within the Scarlet Crusade enclave of Tyr's Hand in the southeastern Eastern Plaguelands. Inside the abbey, it lies south of the main entrance hall, opposite the Hall of Arms."
+   "answer": "The Library Wing lies inside Tyr's Hand Abbey, in the Scarlet Crusade enclave of Tyr's Hand in the southeastern Eastern Plaguelands. Within the abbey, it is south of the main entrance hall and opposite the Hall of Arms."
   },
   {
    "q": "What kinds of books are kept here?",
@@ -37,7 +37,7 @@
     "tyr's hand library tomes",
     "what is stored in the library wing"
    ],
-   "answer": "The shelves hold theological texts of the Holy Light alongside militant doctrines and zealously curated literature produced by the Scarlet Crusade to justify their endless crusade against the undead and outsiders."
+   "answer": "The shelves hold theology devoted to the Holy Light, militant doctrines, and Scarlet Crusade writings meant to justify its endless crusade against the undead and outsiders."
   },
   {
    "q": "Who controls this part of the abbey?",
@@ -45,7 +45,7 @@
     "who is in the library wing",
     "who controls the library wing"
    ],
-   "answer": "The Library Wing is firmly held by the elite forces of the Scarlet Crusade, including clerics, scholars, and heavily armed defenders stationed to guard their doctrinal texts and sanctified supplies."
+   "answer": "Elite Scarlet Crusade forces control the Library Wing. Clerics, scholars, and heavily armed defenders guard its doctrinal texts and sanctified supplies."
   },
   {
    "q": "Is the Library Wing dangerous to visit?",
@@ -53,17 +53,17 @@
     "is the library wing safe",
     "tyr's hand library difficulty"
    ],
-   "answer": "Yes, it is exceptionally hazardous. The library is deep within Tyr's Hand, an elite Scarlet Crusade stronghold populated by high-level zealots who attack trespassers on sight."
+   "answer": "Yes. The Library Wing lies deep within Tyr's Hand, a Scarlet Crusade stronghold where its zealous defenders attack trespassers on sight."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For holy practitioners, the Library Wing is a bitter display of how divine contemplation can be corrupted into narrow-minded extremism and paranoia."
+   "text": "As a priest, you can see how the Library Wing turns divine contemplation toward narrow-minded extremism and paranoia."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins view the wing as a perversion of the Silver Hand's original scholarly traditions, where devotion to the Light has been replaced by militant zealotry."
+   "text": "As a paladin, you may see the Library Wing as a perversion of the Silver Hand's scholarly traditions, where devotion to the Light has given way to militant zealotry."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Library Wing (Tyr's Hand)"
- ]
+ ],
+ "style": 2
 }

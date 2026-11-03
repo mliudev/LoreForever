@@ -8,11 +8,11 @@
   "wiki": "Lorgus Jett",
   "refs": 5
  },
- "summary": "In Blackfathom Deeps, Lorgus Jett commands the Twilight's Hammer among flooded ruins. The Horde has marked him as a target.",
+ "summary": "In Blackfathom Deeps, Lorgus Jett leads the Twilight's Hammer through flooded ruins. The Horde has marked him as a target.",
  "sections": [
   {
    "title": "A Defiler in the Ruins",
-   "body": "Lorgus Jett is a human among the Twilight's Hammer in Blackfathom Deeps. While many cultists there are orcs or tauren, Jett ranges from the upper Moonshrine Ruins to the tunnels beyond Gelihast, the murloc defiler. He coordinates the cult's rituals and violent ambitions in the ancient night elf ruins.",
+   "body": "Among the Twilight's Hammer in Blackfathom Deeps, Lorgus Jett is a human. Many cultists there are orcs or tauren, but Jett ranges from the upper Moonshrine Ruins to the tunnels beyond Gelihast, the murloc defiler. He directs the cult's rituals and violent ambitions in the ancient night elf ruins.",
    "spoiler": 0
   }
  ],
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you wield the elements in harmony or reverence; Jett uses the Twilight's Hammer's corrupted, violent methods."
+   "text": "As a shaman, you wield the elements in harmony or reverence. Jett follows the Twilight's Hammer's corrupted and violent ways."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can help sever the Twilight's Hammer leadership beneath the Ashenvale shore by striking down Lorgus Jett."
+   "text": "As a member of the Horde, you can help break the Twilight's Hammer leadership beneath the Ashenvale shore by striking down Lorgus Jett."
   },
   {
    "target": "race:Human",
@@ -92,5 +92,5 @@
  "attribution": [
   "Lorgus Jett"
  ],
- "style": 1
+ "style": 2
 }

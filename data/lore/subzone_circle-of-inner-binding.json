@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Circle of Inner Binding"
  },
- "summary": "The Circle of Inner Binding is an ancient ring of ritual stones situated in the southern hills of the Arathi Highlands, just east of Stromgarde Keep. Guarded by hostile earth elementals, it holds the Stone of Inner Binding, the most potent seal used to restrain the imprisoned elemental princess Myzrael deep beneath the earth.",
+ "summary": "Beneath the Arathi Highlands, the Circle of Inner Binding holds Myzrael beneath ancient stones. The Stone of Inner Binding anchors the strongest ward, but cracks let the imprisoned princess reach out to wanderers.",
  "sections": [
   {
    "title": "The Core Seal",
-   "body": "Perched upon a plateau south of the main road, the Circle of Inner Binding anchors the strongest of the ancient wards sealing Myzrael beneath Arathi. Towering slabs surround the central Stone of Inner Binding, which thrums with dense geo-magical power. Enormous rumbling earth elementals patrol the stones relentlessly, drawn to the site's resonance or bound as guardians. Despite these potent wards, cracks in this inner seal permit the trapped entity beneath the Highlands to reach out telepathically, whispering pleas for freedom to unsuspecting wanderers who handle shards of its stone.",
+   "body": "South of the main road, towering slabs ring the Stone of Inner Binding on a plateau. The stone thrums with the strongest ward beneath Arathi and its dense geo-magical power. Rumbling Exiles patrol the stones, drawn by the site's resonance or bound there as guardians.\n\nCracks in the inner seal let the imprisoned Myzrael reach out telepathically. She whispers pleas for freedom to unsuspecting wanderers who handle shards of her stone.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what does the inner binding do",
     "circle of inner binding lore"
    ],
-   "answer": "The Circle houses the Stone of Inner Binding, which acts as the primary and strongest ward anchoring the subterranean prison of Myzrael. It works alongside other elemental circles scattered throughout the Arathi Highlands to keep the creature restrained beneath the surface."
+   "answer": "The Circle holds the Stone of Inner Binding, the strongest ward anchoring Myzrael's prison beneath the earth. It works with other elemental circles scattered through the Arathi Highlands to restrain her below the surface."
   },
   {
    "q": "What creatures guard this circle?",
@@ -32,7 +32,7 @@
     "inner binding mobs",
     "rumbling exile"
    ],
-   "answer": "The circle is heavily guarded by powerful earth elementals, primarily Rumbling Exiles. These rocky behemoths aggressively attack anyone who approaches the ritual stones."
+   "answer": "Powerful earth elementals guard the circle, chiefly Rumbling Exiles. These rocky behemoths attack anyone who approaches the ritual stones."
   },
   {
    "q": "Who is whispering through the stone?",
@@ -41,7 +41,7 @@
     "myzrael voice",
     "whispering stone"
    ],
-   "answer": "The voice reaching out through the binding shard belongs to Myzrael, an ancient and powerful elemental princess imprisoned deep beneath the earth. Her psychic reach has managed to pierce through this fractured seal to contact mortal minds."
+   "answer": "Myzrael is an ancient and powerful elemental princess imprisoned deep beneath the earth. Her psychic reach has pierced the fractured seal, letting her contact mortal minds through the binding shard."
   },
   {
    "q": "Where is the Circle of Inner Binding located?",
@@ -50,17 +50,17 @@
     "where is circle of inner binding",
     "how to find inner binding"
    ],
-   "answer": "It is located in the southern portion of the Arathi Highlands, situated on the elevated ridgeline just east of the ruined stronghold of Stromgarde Keep."
+   "answer": "The Circle stands on an elevated ridgeline in the southern Arathi Highlands, just east of Stromgarde Keep."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The raw earthen energy surging through the Circle of Inner Binding indicates ancient, heavy elemental bonds, though the unnatural agitation of the local earth spirits warns of corruption beneath the soil."
+   "text": "As a shaman, you can feel raw earthen energy surging through the Circle of Inner Binding. Its ancient, heavy elemental bonds are clear, while the earth spirits' unnatural agitation warns of corruption beneath the soil."
   },
   {
    "target": "class:Mage",
-   "text": "The geometric arrangement of the stones forms an intricate, long-lasting containment field capable of channeling and anchoring immense subterranean magical pressures."
+   "text": "As a mage, you can read an intricate pattern in the stones. Their geometric arrangement forms a lasting containment field that channels and anchors immense subterranean magical pressures."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Circle of Inner Binding"
- ]
+ ],
+ "style": 2
 }

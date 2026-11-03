@@ -10,16 +10,16 @@
    "quest:959"
   ]
  },
- "summary": "The 99-Year-Old Port is an exceptionally rare bottle of vintage liquor shipped from Booty Bay as a personal gift for Gazlowe. After a cargo accident on the Ratchet docks, it was snatched away by a lunatic named Mad Magglish, who fled into the twisting tunnels outside the Wailing Caverns.",
+ "summary": "At Ratchet's docks, a bottle of 99-Year-Old Port has gone missing. Mad Magglish took it in a cargo spill and fled toward the Wailing Caverns.",
  "sections": [
   {
    "title": "A High-Value Cargo Spill",
-   "body": "Transporting precious freight across the Great Sea always carries risks, but Crane Operator Bigglefuzz made things far worse during a routine morning unloading in Ratchet. Attempting to clear an overwhelming shipment from Booty Bay, the goblin overloaded his crane and brought a mountain of crates crashing down onto the docks. In the chaos, the town eccentric\u2014a troublesome figure known as Mad Magglish\u2014snatched an extraordinarily aged bottle of 99-Year-Old Port and bolted into the hills toward the Wailing Caverns.",
+   "body": "Crane Operator Bigglefuzz overloaded his crane while unloading a large shipment from Booty Bay in Ratchet. Crates crashed across the docks. In the confusion, Mad Magglish seized a bottle of 99-Year-Old Port and fled into the hills toward the Wailing Caverns.",
    "spoiler": 0
   },
   {
    "title": "Diplomatic Vintage",
-   "body": "The stolen port was no ordinary spirits; it was sent by Baron Revilgaz of the Blackwater Raiders as an esteemed diplomatic gift for Gazlowe, the chief engineer and ruler of Ratchet. Losing such a prized consignment threatened Bigglefuzz's livelihood and ratcheted up tensions with the dockmaster. Tracked into the darkened outer grottos of the caverns, the elusive thief lurks in the shadows with the unopened prize, forcing the dockhands to recruit outside mercenaries to retrieve it before Gazlowe discovers the blunder.",
+   "body": "Baron Revilgaz of the Blackwater Raiders sent the port to Gazlowe, Ratchet’s chief engineer and ruler, as a diplomatic gift. Its loss threatens Bigglefuzz’s livelihood and strains relations with the dockmaster. Mad Magglish lurks in the outer grottos of the caverns with the unopened bottle. The dockhands seek mercenaries to recover it before Gazlowe learns of the blunder.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who gets the port",
     "gazlowe gift"
    ],
-   "answer": "The bottle was sent by Baron Revilgaz, master of Booty Bay, as a high-value personal gift to Gazlowe, the boss of Ratchet."
+   "answer": "Baron Revilgaz, master of Booty Bay, sent the bottle as a personal gift to Gazlowe, Ratchet’s boss."
   },
   {
    "q": "How did Mad Magglish end up with the port?",
@@ -40,7 +40,7 @@
     "who stole the port",
     "dock mishap"
    ],
-   "answer": "Crane Operator Bigglefuzz attempted to unload more cargo than his rig could handle, spilling crates across the Ratchet docks. Mad Magglish took advantage of the mayhem to snatch the vintage bottle and run."
+   "answer": "Bigglefuzz overloaded his crane while unloading cargo, scattering crates across Ratchet’s docks. Mad Magglish seized the bottle amid the confusion and ran."
   },
   {
    "q": "Where did Mad Magglish take the bottle?",
@@ -49,7 +49,7 @@
     "where is the port hidden",
     "port location"
    ],
-   "answer": "Magglish fled inland across the Barrens and holed up in the rocky antechambers and outer tunnels leading into the Wailing Caverns."
+   "answer": "Magglish fled inland across the Barrens and hid in the rocky antechambers and outer tunnels leading into the Wailing Caverns."
   },
   {
    "q": "Why didn't Bigglefuzz retrieve the port himself?",
@@ -57,13 +57,13 @@
     "why bigglefuzz not chase",
     "crane operator coward"
    ],
-   "answer": "Bigglefuzz pursued the thief to the threshold of the Wailing Caverns, but terrified of the beasts and corrupted druids infesting the caves, he refused to go inside."
+   "answer": "Bigglefuzz pursued Magglish to the threshold of the Wailing Caverns, but refused to enter. He feared the beasts and corrupted druids inside."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Mad Magglish relies on amateur stealth to skulk in the dark outside the Wailing Caverns, but a skilled rogue can easily flush him out of the shadows."
+   "text": "Mad Magglish uses amateur stealth to hide in the dark outside the Wailing Caverns. As a rogue, you can flush him from the shadows."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "99-Year-Old Port",
   "Trouble at the Docks"
- ]
+ ],
+ "style": 2
 }

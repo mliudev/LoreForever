@@ -8,16 +8,16 @@
   "wiki": "Mastok Wrilehiss",
   "refs": 3
  },
- "summary": "At Splintertree Post in eastern Ashenvale, Mastok Wrilehiss helps hold the Horde’s ground. He directs scouts and warriors to watch nearby borders and confront corrupting elemental forces amid the night elves’ hostility.",
+ "summary": "At Splintertree Post, Mastok Wrilehiss works to hold the Horde’s ground in Ashenvale. He directs scouts and warriors to watch nearby borders and face corrupting elemental forces amid the night elves’ hostility.",
  "sections": [
   {
    "title": "A Bulwark in the Ancient Woods",
-   "body": "Deep beneath Ashenvale’s canopy, Splintertree Post is surrounded by hostile night elf territory. Mastok Wrilehiss helps defend the outpost and watches its supply routes and the forest around it. The Sentinels see the settlement as an intrusion that despoils their lands, and they strike quickly at any sign of weakness.",
+   "body": "Splintertree Post lies beneath Ashenvale’s canopy, surrounded by hostile night elf territory. Mastok Wrilehiss helps defend the outpost and watches its supply routes and the forest beyond. The Sentinels see the settlement as an intrusion on their lands. They strike quickly when they sense weakness.",
    "spoiler": 0
   },
   {
    "title": "Coordinating the Front",
-   "body": "From within the stockade, Mastok gives passing adventurers duties tied to the Horde’s defense. He watches the borders toward the Stonetalon Mountains and sends scouts to speak with shamans such as Je'neu Sancrea of the Earthen Ring at Zoram'gar Strand. His work also follows the strange corruption afflicting local elementals.",
+   "body": "From inside the stockade, Mastok Wrilehiss gives passing adventurers duties in the Horde’s defense. He watches the borders toward the Stonetalon Mountains and sends scouts to speak with shamans such as Je'neu Sancrea of the Earthen Ring at Zoram'gar Strand. He also follows the strange corruption afflicting local elementals.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
     "why are night elves attacking splintertree",
     "splintertree post conflict"
    ],
-   "answer": "Splintertree Post is a Horde logging hub and stronghold in Ashenvale. The night elves regard the orcs’ presence and timber harvesting as a desecration of sacred lands, and skirmishes continue."
+   "answer": "Splintertree Post is a Horde logging hub and stronghold in Ashenvale. The night elves see the orcs’ presence and timber harvest as a desecration of sacred lands, so skirmishes continue."
   },
   {
    "q": "Why does Mastok send travelers to Je'neu Sancrea?",
@@ -62,7 +62,7 @@
     "why contact earthen ring",
     "mastok and jeneu"
    ],
-   "answer": "Mastok sends travelers to Je'neu Sancrea because the Earthen Ring shamans study and heal Ashenvale’s elemental instability. Their knowledge can help address tainted water elementals and strange disturbances."
+   "answer": "Mastok sends travelers to Je'neu Sancrea because the Earthen Ring shamans study and heal Ashenvale’s elemental instability. Their knowledge may help address tainted water elementals and strange disturbances."
   },
   {
    "q": "Is Mastok Wrilehiss hostile to Alliance players?",
@@ -70,13 +70,13 @@
     "can alliance talk to mastok",
     "is mastok killable"
    ],
-   "answer": "Yes. Mastok serves the Horde and defends Splintertree Post. He attacks Alliance members who approach the encampment."
+   "answer": "Yes. Mastok is a Horde officer who defends Splintertree Post. He attacks Alliance members who approach the encampment."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a Horde champion, you can look to Mastok for duties that help hold the Horde’s frontier in Ashenvale."
+   "text": "As a Horde champion, you can turn to Mastok for duties that help hold the Horde’s frontier in Ashenvale."
   },
   {
    "target": "faction:Alliance",
@@ -84,7 +84,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you may be directed by Mastok to seek the Earthen Ring’s guidance at Zoram'gar Strand about corrupted elementals."
+   "text": "As a shaman, Mastok may send you to seek the Earthen Ring’s guidance at Zoram'gar Strand about corrupted elementals."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "Mastok Wrilehiss"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Therylune's Escape",
   "chain": []
  },
- "summary": "Therylune is cornered by cultists at the Master's Glaive in southern Darkshore. She wandered into its dig sites, and you are needed to guide her to safety and tell her worried sister, Therysil, at the Shrine of Aessina that she survived.",
+ "summary": "At the Master's Glaive in southern Darkshore, Therylune needs help reaching safety. She wandered into the dig sites, and her sister Therysil waits at the Shrine of Aessina, worried for her.",
  "sections": [
   {
    "title": "A Perilous Stroll",
-   "body": "At the Master's Glaive, Therylune is pinned down by Twilight's Hammer cultists. The ravine is dominated by the skull of an ancient monstrosity, pierced by a huge stone blade. Therylune wandered into the heart of the valley despite the dread surrounding it. She survives by reacting quickly and hiding among the rough terrain.",
+   "body": "At the Master's Glaive, Twilight's Hammer cultists have pinned Therylune down. An ancient monstrosity's skull dominates the ravine, pierced by a huge stone blade. Despite the dread around it, Therylune wandered into the valley's heart. She survives by reacting quickly and hiding among the rough terrain.",
    "spoiler": 0
   },
   {
    "title": "Word to the Shrine",
-   "body": "Therysil waits far to the south at the Shrine of Aessina. Her adventurous sister Therylune rarely minds getting dirt on her clothes, but even Therysil was shocked to learn she had ventured into the unwholesome excavations at the Master's Glaive. Word that Therylune is safe will ease her worry. Therysil knows the dark forces digging through Darkshore's ancient earth.",
+   "body": "Therysil waits far to the south at the Shrine of Aessina. Her adventurous sister Therylune rarely minds getting dirt on her clothes, but even Therysil was shocked to hear she had ventured into the unwholesome excavations at the Master's Glaive. Tell her Therylune is safe, and her worry will ease. Therysil knows the dark forces digging through Darkshore's ancient earth.",
    "spoiler": 0
   }
  ],
@@ -62,7 +62,7 @@
     "escort destination",
     "where does therylune go"
    ],
-   "answer": "Therylune needs an escort away from the Master's Glaive to safety. Afterward, you need to travel to the Shrine of Aessina and tell her sister she survived."
+   "answer": "Therylune needs an escort away from the Master's Glaive to safety. Afterward, travel to the Shrine of Aessina and tell her sister she survived."
   },
   {
    "q": "Where is the Shrine of Aessina located?",
@@ -111,5 +111,5 @@
  "attribution": [
   "Therylune's Escape"
  ],
- "style": 1
+ "style": 2
 }

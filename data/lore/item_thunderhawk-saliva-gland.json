@@ -10,16 +10,16 @@
    "quest:822"
   ]
  },
- "summary": "Across the Barrens, greater thunderhawks yield a gland prized by Brewmaster Drohn. He needs it to recreate Chen Stormstout's fiery Trogg Ale.",
+ "summary": "Greater thunderhawks across the Barrens yield the gland Brewmaster Drohn needs to recreate Chen Stormstout's fiery Trogg Ale.",
  "sections": [
   {
    "title": "A Wild Ingredient",
-   "body": "Greater thunderhawks hunt across the Barrens' arid savannas. These winged serpents are known for harnessing storms, and the older, more dangerous ones produce a saliva gland charged with natural potency. Travelers keep clear of the deadly beasts, but brewmasters value the gland as a rare base for exotic drinks.",
+   "body": "Greater thunderhawks hunt across the Barrens' dry savannas. The winged serpents command storms, and the older, more dangerous ones produce a saliva gland rich in natural potency. Travelers steer clear of these deadly beasts. Brewmasters prize the gland as a rare base for exotic drinks.",
    "spoiler": 0
   },
   {
    "title": "Chen's Secret Recipes",
-   "body": "Brewmaster Drohn settled outside Ratchet after Chen Stormstout traveled through Kalimdor. Drohn studies the wandering brewmaster's fermentation methods and needs a fresh thunderhawk saliva gland, stormhide lightning glands, and kodo liver to brew Trogg Ale. The fiery spirit has an unmistakable kick and is meant to fortify hardy adventurers.",
+   "body": "Brewmaster Drohn settled outside Ratchet after Chen Stormstout passed through Kalimdor. Drohn studies the wandering brewmaster's ways of fermentation. To brew Trogg Ale, he needs a fresh thunderhawk saliva gland, stormhide lightning glands, and kodo liver. The fiery spirit has a sure kick and is meant to fortify hardy adventurers.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to get saliva gland",
     "thunderhawk gland location"
    ],
-   "answer": "Greater thunderhawks hunt across the open savannas of the Barrens, and their saliva glands are harvested there."
+   "answer": "Greater thunderhawks hunt across the Barrens' open savannas, where their saliva glands can be harvested."
   },
   {
    "q": "What is the saliva gland used for?",
@@ -49,7 +49,7 @@
     "who is drohn",
     "brewmaster drohn lore"
    ],
-   "answer": "Brewmaster Drohn lives near Ratchet's port. He learned exotic brewing from the wandering traveler Chen Stormstout and trades powerful ales to adventurers who brave local wildlife for ingredients."
+   "answer": "Brewmaster Drohn lives near Ratchet's port. The wandering traveler Chen Stormstout taught him exotic brewing, and Drohn trades powerful ales to adventurers who brave local wildlife for ingredients."
   },
   {
    "q": "What is Trogg Ale?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you may balk at using saliva glands, but inventive brewmasters prize strange animal essences for their zest and potency."
+   "text": "As a cook, you may hesitate to use saliva glands, but inventive brewmasters prize strange animal essences for their zest and potency."
   },
   {
    "target": "faction:Horde",
@@ -93,5 +93,5 @@
   "Thunderhawk Saliva Gland",
   "Chen's Empty Keg (3)"
  ],
- "style": 1
+ "style": 2
 }

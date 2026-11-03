@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Twin Colossals"
  },
- "summary": "The Twin Colossals are a pair of towering, sheer-faced mesas that dominate the northwestern skyline of Feralas. Rising high above the canopy, the narrow passage between their sheer cliffs forms the primary overland route connecting Feralas with the arid wastes of Desolace to the north.",
+ "summary": "The Twin Colossals rise above northwestern Feralas, marking the way north into Desolace.",
  "sections": [
   {
    "title": "Pillars of the Rainforest",
-   "body": "Towering over the western reaches of Feralas, the Twin Colossals stand as the highest landforms in the region. Their vertical rock faces cut a striking silhouette against the sky, serving as unmistakable landmarks for travelers venturing south out of Desolace. While the lower slopes merge into the dense jungle and the lands stretching toward the Forgotten Coast, the summits are isolated plateaus far above the forest floor.",
+   "body": "In western Feralas, the Twin Colossals rise above the forest. Travelers coming south from Desolace know these great cliffs at once. Their lower slopes meet the jungle and the lands near the Forgotten Coast, while their summits stand apart above the forest floor.",
    "spoiler": 0
   },
   {
    "title": "Reaching the Heights",
-   "body": "Scaling the vertical cliffs on foot is impossible, yet the summits are not entirely deserted. An intrepid night elf named Marli Wishrunner assists travelers seeking passage to the eastern peak. Those who ascend find a tranquil pond perched atop the stone mesa\u2014though it is inhabited by an unusually large makrura named Diamond Head. To aid adventurers in returning to earth, Kalin Windflight offers sturdy parachutes to descend back into the jungle canopy below.",
+   "body": "No footpath climbs the sheer cliffs, but Marli Wishrunner helps travelers reach the eastern peak. A quiet pond rests atop the mesa, home to Diamond Head, an unusually large makrura. Kalin Windflight offers sturdy parachutes for the descent into the jungle canopy.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where are twin colossals",
     "twin colossi map"
    ],
-   "answer": "The Twin Colossals stand in northwestern Feralas, framing the main road that heads north into Desolace. The surrounding subzone extends westward toward the Forgotten Coast."
+   "answer": "The Twin Colossals rise in northwestern Feralas, beside the main road north into Desolace. The surrounding subzone reaches west toward the Forgotten Coast."
   },
   {
    "q": "How do you reach the top of the Twin Colossals?",
@@ -37,7 +37,7 @@
     "get to top of twin colossi",
     "to the top quest"
    ],
-   "answer": "The sheer stone cliffs cannot be climbed normally. Travelers rely on the night elf Marli Wishrunner, who provides magical passage up to the eastern peak."
+   "answer": "The sheer cliffs cannot be climbed on foot. Marli Wishrunner helps travelers reach the eastern peak."
   },
   {
    "q": "Who lives on the eastern summit?",
@@ -46,7 +46,7 @@
     "who is on the mesa",
     "diamond head feralas"
    ],
-   "answer": "At the top of the eastern peak, you will find Kalin Windflight, who sells parachutes for a safe descent, along with a deep pond inhabited by a massive makrura known as Diamond Head."
+   "answer": "Kalin Windflight sells parachutes on the eastern peak, where a deep pond is home to Diamond Head, an unusually large makrura."
   },
   {
    "q": "How do you get down safely from the top?",
@@ -55,13 +55,13 @@
     "jump off twin colossals",
     "colossal parachute"
    ],
-   "answer": "Kalin Windflight sells specialized Colossal Parachutes atop the eastern summit, allowing travelers to leap from the cliffs and glide harmlessly down into the Feralas jungle."
+   "answer": "Kalin Windflight sells Colossal Parachutes atop the eastern summit. Travelers can leap from the cliffs and glide down into the Feralas jungle."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The sheer heights and nearby corrupted moonwells of the subzone serve as a stark reminder of the ancient history of Feralas and the lingering shadows creeping into the wilderness."
+   "text": "As a night elf, you know these heights and nearby corrupted moonwells recall Feralas's ancient history. Shadows still creep into its wilderness."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Twin Colossals"
- ]
+ ],
+ "style": 2
 }

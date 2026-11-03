@@ -22,16 +22,16 @@
   "repeatable": "Yes",
   "category": "Tanaris"
  },
- "summary": "Spigot Operator Luglunket greets you again, hoping you carry five more Wastewander water pouches, and keeping a care package ready.",
+ "summary": "In Gadgetzan, Spigot Operator Luglunket welcomes you back for five more Wastewander water pouches. A care package waits with your name on it.",
  "sections": [
   {
    "title": "Back Again",
-   "body": "After Water Pouch Bounty, Luglunket welcomes you back and asks whether five more Wastewander water pouches are in your pack. If so, a care package is already set aside with your name on it.",
+   "body": "Luglunket welcomes you back and asks for five more Wastewander water pouches. A care package is already set aside with your name on it.",
    "spoiler": 0
   },
   {
    "title": "Keep Them Coming",
-   "body": "Luglunket is pleased with the pouches reclaimed, since each one keeps everyone further from disaster. Luglunket promises to make it worth your while for every five pouches you bring.",
+   "body": "Luglunket is pleased with the reclaimed pouches. Each one keeps everyone further from disaster. Luglunket promises to make it worth your while for every five you bring.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "luglunket quest",
     "who takes water pouches"
    ],
-   "answer": "Luglunket, the spigot operator in Gadgetzan."
+   "answer": "Luglunket, the spigot operator in Gadgetzan, offers the bounty."
   },
   {
    "q": "How many water pouches are needed?",
@@ -52,7 +52,7 @@
     "water pouch count",
     "pouches per turn in"
    ],
-   "answer": "Five Wastewander water pouches, the same as before."
+   "answer": "You need five Wastewander water pouches, the same number as before."
   },
   {
    "q": "What does Luglunket have ready?",
@@ -60,7 +60,7 @@
     "what is the care package",
     "what do i get"
    ],
-   "answer": "A care package, held for you by name."
+   "answer": "Luglunket has a care package set aside under your name."
   },
   {
    "q": "What comes before this step?",
@@ -68,7 +68,7 @@
     "previous quest",
     "what do i do first"
    ],
-   "answer": "It follows the earlier Water Pouch Bounty, in which you first brought pouches to Luglunket."
+   "answer": "This follows the earlier Water Pouch Bounty, when you first brought pouches to Luglunket."
   }
  ],
  "angles": [],
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Water Pouch Bounty (2)"
- ]
+ ],
+ "style": 2
 }

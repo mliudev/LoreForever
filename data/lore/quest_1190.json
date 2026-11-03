@@ -28,21 +28,21 @@
    "News for Fizzle"
   ]
  },
- "summary": "Pozzik is sure the Brassbolts brothers have found a new building material. Their cars run faster than before, yet their designs and the rest of the data from their runs are unchanged. Rizzle Brassbolts has stayed fixed on the plans for this discovery almost constantly, and Zamek can create a diversion so you can steal them. This follows News for Fizzle.",
+ "summary": "Pozzik suspects the Brassbolts brothers have found a new material for their cars. Their designs and run data are unchanged, yet the cars go faster. Rizzle Brassbolts keeps close to his plans, and Zamek can distract him so you can take them. This follows News for Fizzle.",
  "sections": [
   {
    "title": "Faster Than the Numbers Say",
-   "body": "Pozzik can find only one explanation for how fast the Brassbolts brothers' cars have become: a new building material. Their designs and everything gathered from their runs look the same as before. What is known is that Rizzle Brassbolts has stayed fixed on the plans for this discovery almost constantly.",
+   "body": "The Brassbolts brothers' cars have grown faster, and Pozzik can find only one explanation: a new building material. Their designs and the data from their runs remain unchanged. Rizzle Brassbolts has been absorbed in plans for this discovery almost constantly.",
    "spoiler": 0
   },
   {
    "title": "A Diversion from Zamek",
-   "body": "Zamek can create a diversion, and while it lasts you steal Rizzle's plans. They are wanted by Pozzik, on the Shimmering Flats.",
+   "body": "Zamek can distract Rizzle while you take his plans. Pozzik is waiting for them on the Shimmering Flats.",
    "spoiler": 0
   },
   {
    "title": "The Stolen Scroll",
-   "body": "The plans turn out to be a scroll of notes and designs, hastily scribbled, about refining some raw material.",
+   "body": "Rizzle's plans are a scroll of hurried notes and designs. They concern the refining of some raw material.",
    "spoiler": 1
   }
  ],
@@ -54,7 +54,7 @@
     "why steal brassbolts plans",
     "keeping pace reason"
    ],
-   "answer": "The Brassbolts brothers' cars are running faster while their designs and data stay the same. Pozzik concludes they found a new building material and wants the plans Rizzle has been so absorbed in."
+   "answer": "The Brassbolts brothers' cars run faster, though their designs and run data remain unchanged. Pozzik suspects they found a new building material and wants the plans Rizzle has been absorbed in."
   },
   {
    "q": "Who helps distract Rizzle Brassbolts?",
@@ -63,7 +63,7 @@
     "zamek role",
     "how to distract rizzle"
    ],
-   "answer": "Zamek can create a diversion, giving you the chance to steal Rizzle's plans."
+   "answer": "Zamek can distract Rizzle Brassbolts, giving you a chance to take his plans."
   },
   {
    "q": "Who are the plans stolen for?",
@@ -71,7 +71,7 @@
     "where is keeping pace",
     "keeping pace location"
    ],
-   "answer": "For Pozzik, who is on the Shimmering Flats in Thousand Needles."
+   "answer": "Pozzik wants the plans. He is on the Shimmering Flats in Thousand Needles."
   },
   {
    "q": "What comes before this step?",
@@ -79,7 +79,7 @@
     "keeping pace prerequisite",
     "what quest precedes keeping pace"
    ],
-   "answer": "It follows News for Fizzle."
+   "answer": "Keeping Pace comes right after News for Fizzle."
   },
   {
    "q": "What follows after securing the plans?",
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Keeping Pace"
- ]
+ ],
+ "style": 2
 }

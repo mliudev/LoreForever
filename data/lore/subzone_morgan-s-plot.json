@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Morgan's Plot"
  },
- "summary": "Morgan's Plot is a desolate burial ground and crumbling chapel tucked away just behind the tower of Karazhan in Deadwind Pass. Dominated by restless undead and brooding silence, it holds the forgotten crypts and final resting places of those once tied to Medivh's domain.",
+ "summary": "Restless dead roam Morgan's Plot behind Karazhan in Deadwind Pass. Its ruined chapel and graves hold those who once belonged to Medivh's household.",
  "sections": [
   {
    "title": "A Grave in the Shadow of the Tower",
-   "body": "Nestled against the sheer rocky slopes directly behind Karazhan, Morgan's Plot is a sorrowful, overgrown cemetery centered on a ruined chapel and underground crypts. Long before the land decayed into Deadwind Pass, the estate served the burial needs of the tower's inhabitants and nearby grounds. Following the downfall of the Last Guardian, Medivh, dark energies seeped into the earth, driving away all normalcy. Today, restless unliving wander the chapel grounds, haunting the headstones of servants and historic figures alike.",
+   "body": "Behind Karazhan, Morgan's Plot lies against rocky slopes. A ruined chapel stands above crypts beneath the earth. Before Deadwind Pass fell into decay, the estate buried those who lived in the tower and on the nearby grounds.\n\nAfter Medivh, the Last Guardian, fell, dark energies seeped into the earth. Restless dead drove away all normal life. Now the unliving wander among the headstones, where servants and figures from Karazhan's history lie buried.",
    "spoiler": 0
   },
   {
    "title": "Resting Place of Guardians and Servants",
-   "body": "The graveyard has held figures tied intimately to Karazhan's history. Medivh himself was laid to rest here following the tragedy that shattered the tower. Medivh was later resurrected, before his return during the Third War. While mysteries linger as to what truly remains in the crypts beneath the soil, the soil itself feels heavy with old, lingering arcana and unquiet spirits.",
+   "body": "Medivh was buried at Morgan's Plot after the tragedy that shattered the tower. He was later resurrected before his return during the Third War. The crypts beneath the soil remain a mystery, and old arcane power and unquiet spirits weigh on the graveyard.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "morgans plot location",
     "how to get to morgans plot"
    ],
-   "answer": "Morgan's Plot lies in southern Deadwind Pass, situated in a gloomy hollow directly behind the high spire of Karazhan."
+   "answer": "Morgan's Plot lies in southern Deadwind Pass, in a gloomy hollow directly behind Karazhan's high spire."
   },
   {
    "q": "Who is buried here?",
@@ -38,7 +38,7 @@
     "moroes grave",
     "aegwynn burial"
    ],
-   "answer": "Historically, the graveyard and crypts served Karazhan's household. Following Medivh's fall, the Guardian himself was buried here."
+   "answer": "Karazhan's household was buried in the graveyard and crypts. After Medivh fell, the Guardian himself was buried here."
   },
   {
    "q": "What threats can be found at Morgan's Plot?",
@@ -47,17 +47,17 @@
     "what enemies are here",
     "chapel monsters"
    ],
-   "answer": "The chapel and surrounding grounds are haunted by unliving residents and restless spirits that linger around the gravestones and the entrance to the crypt."
+   "answer": "Unlived residents and restless spirits haunt the chapel and grounds, roaming around the gravestones and crypt entrance."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "The defiled graves and roaming unliving residents make Morgan's Plot a stark reminder of the corrupting taint that lingers wherever the Guardian's dark fate unfolded."
+   "text": "As a priest, you find defiled graves and roaming unliving at Morgan's Plot. They recall the corrupting taint left where the Guardian's dark fate unfolded."
   },
   {
    "target": "class:Mage",
-   "text": "Mages of Dalaran regard this place with quiet dread, knowing it holds the burial ground of those struck down during Medivh's tragic end."
+   "text": "As a mage, you know Dalaran regards Morgan's Plot with quiet dread. It holds the burial ground of those struck down during Medivh's tragic end."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Morgan's Plot"
- ]
+ ],
+ "style": 2
 }

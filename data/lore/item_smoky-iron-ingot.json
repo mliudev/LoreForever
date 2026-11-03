@@ -10,16 +10,16 @@
    "quest:1838"
   ]
  },
- "summary": "At the Windshear dig sites, kobolds smelt Smoky Iron Ingots from ore they pull from the Stonetalon Mountains. Orcish armorers prize the bars as raw material for sturdy mail gear for Horde warriors.",
+ "summary": "At Windshear, kobolds smelt Smoky Iron Ingots from ore dug in the Stonetalon Mountains. Orcish armorers prize the bars for sturdy mail gear made for Horde warriors.",
  "sections": [
   {
    "title": "Crude Kobold Metallurgy",
-   "body": "Kobolds smelt Smoky Iron Ingots in the Windshear Crag tunnels of the Stonetalon Mountains. They dig ore from the rocky slopes and heat it over crude, smoking fires. Residue and charcoal cling to the bars, but the metal remains dense and strong.",
+   "body": "Kobolds smelt Smoky Iron Ingots in the Windshear Crag tunnels of the Stonetalon Mountains. They dig ore from the rocky slopes and heat it over crude, smoking fires. Residue and charcoal cling to the bars, yet the metal stays dense and strong.",
    "spoiler": 0
   },
   {
    "title": "Forging the Brutal Armor",
-   "body": "Thun'grim Firegaze, a near-blind orc armorer, works from a rugged camp overlooking the Barrens. He asks for these ingots to make armor for proven Horde warriors. Alongside refined iron bars, powdered azurite, and volatile phlogiston, the smoky metal forms a resilient core for Brutal Hauberks.",
+   "body": "Thun'grim Firegaze is a near-blind orc armorer at a rugged camp overlooking the Barrens. He asks for these ingots to make armor for proven Horde warriors. With refined iron bars, powdered azurite, and volatile phlogiston, the smoky metal forms a resilient core for Brutal Hauberks.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "smoky iron ingot location",
     "who drops smoky iron ingots"
    ],
-   "answer": "Kobolds in the Windshear dig sites and tunnels of eastern Stonetalon Mountains carry Smoky Iron Ingots. They include diggers, stonecutters, vermin, geomancers, and their overlords."
+   "answer": "Kobolds in the Windshear dig sites and tunnels of eastern Stonetalon Mountains carry Smoky Iron Ingots. Among them are diggers, stonecutters, vermin, geomancers, and their overlords."
   },
   {
    "q": "What are Smoky Iron Ingots used for?",
@@ -48,7 +48,7 @@
     "why is it smoky",
     "smoky iron lore"
    ],
-   "answer": "Kobolds use crude, low-burning smelting fires in their dim tunnels. Soot, charcoal dust, and ash cling to the metal instead of leaving it with a clean shine."
+   "answer": "Kobolds use crude, low-burning fires to smelt metal in their dim tunnels. Soot, charcoal dust, and ash cling to the ingots, leaving them without a clean shine."
   },
   {
    "q": "Can any blacksmith craft with these ingots?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For Horde warriors, gathering these ingots tests endurance in Stonetalon. They are needed to forge the Brutal Hauberk."
+   "text": "For Horde warriors, gathering these ingots tests endurance in Stonetalon. The bars are needed to forge the Brutal Hauberk."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "These ingots show the crude smelting methods kobold diggers use beside the refined techniques of trained smiths."
+   "text": "These ingots show how kobold diggers smelt metal with crude methods, while trained smiths use refined techniques."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Smoky Iron Ingot",
   "Brutal Armor"
  ],
- "style": 1
+ "style": 2
 }

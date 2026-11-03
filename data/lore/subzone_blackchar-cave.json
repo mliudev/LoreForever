@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Blackchar Cave"
  },
- "summary": "Blackchar Cave is a mysterious, sealed-off cavern tucked into the southwestern crags of Searing Gorge, close to the base of Blackrock Mountain. Its entrance is choked with impassable rubble and rock.",
+ "summary": "In southwestern Searing Gorge, rubble seals Blackchar Cave against the crags.",
  "sections": [
   {
    "title": "A Sealed Threshold",
-   "body": "Tucked away against the scorching crags near the approaches to Blackrock Mountain, Blackchar Cave presents a solid wall of stone where a deep cavern entrance might once have been. Heavy rubble and scorched slag choke the opening, preventing anyone from exploring whatever tunnels lie deeper within the mountain roots. The desolate terrain around it is scorched by ash and magma, offering little comfort to wanderers.",
+   "body": "Blackchar Cave sits among the crags near the approach to Blackrock Mountain. Rubble and scorched slag seal its entrance, closing every tunnel beyond. Ash and magma scar the barren ground around it.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "enter blackchar cave",
     "inside blackchar cave"
    ],
-   "answer": "No. The entrance to Blackchar Cave is completely sealed off by collapsed rock, ash, and rubble. There is no open interior space to explore."
+   "answer": "No. Collapsed rock, ash, and rubble seal Blackchar Cave’s entrance, leaving no open interior to explore."
   },
   {
    "q": "Where is Blackchar Cave located?",
@@ -31,7 +31,7 @@
     "blackchar cave location",
     "where is blackchar cave"
    ],
-   "answer": "It is located in the southwestern corner of Searing Gorge, situated along the rocky foothills near the passage toward Blackrock Mountain."
+   "answer": "Blackchar Cave lies in southwestern Searing Gorge, among rocky foothills near the passage toward Blackrock Mountain."
   }
  ],
  "angles": [],
@@ -47,5 +47,6 @@
  ],
  "attribution": [
   "Blackchar Cave"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Washed Ashore (2)",
   "chain": []
  },
- "summary": "Along Darkshore's misty coast, dead sea creatures have drawn Gwennyth Bly'Leggonde into a troubling inquiry. She serves the Temple of the Moon in Darnassus and seeks to learn why marine life is stranding or dying along the shore.",
+ "summary": "Along Darkshore's coast, dead sea creatures have drawn Gwennyth Bly'Leggonde into a troubling inquiry. She serves the Temple of the Moon in Darnassus and seeks the cause of the strandings and deaths.",
  "sections": [
   {
    "title": "A Disturbing Tide",
-   "body": "Dead sea creatures line Darkshore's beaches and shallows, puzzling the night elves of Auberdine. Gwennyth Bly'Leggonde has already examined one stranded creature along the beach. Now she asks you to dive west of the docks, near a sunken vessel, and inspect the bones of a massive sea turtle. The evidence will help her report to the Temple of the Moon.",
+   "body": "Dead sea creatures line Darkshore's beaches and shallows, leaving the night elves of Auberdine puzzled. Gwennyth Bly'Leggonde has already examined one stranded creature on the beach. Now she asks you to dive west of the docks, near a sunken vessel, and inspect the bones of a massive sea turtle. Those remains will help her report to the Temple of the Moon.",
    "spoiler": 0
   },
   {
    "title": "Flight from the World Tree",
-   "body": "Gwennyth Bly'Leggonde hopes to gather enough physical evidence for a formal report to the Priestesses of Elune in Darnassus. Her early findings suggest the sea creatures may be fleeing something in the open sea. That danger could lie in the waters around Teldrassil.",
+   "body": "Gwennyth Bly'Leggonde hopes to gather enough physical evidence for a formal report to the Priestesses of Elune in Darnassus. Her early findings suggest the sea creatures may be fleeing something in the open sea. The danger may lie in the waters around Teldrassil.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "beached creatures darkshore",
     "why beached whales"
    ],
-   "answer": "The cause remains unknown. Gwennyth needs samples from the stranded creatures to report to the Temple of the Moon and continue her research."
+   "answer": "The cause remains unknown. Gwennyth needs samples from the stranded creatures for a report to the Temple of the Moon and to continue her research."
   },
   {
    "q": "Who is Gwennyth Bly'Leggonde?",
@@ -74,7 +74,7 @@
     "more sea creature quests",
     "darkshore beached behemoth"
    ],
-   "answer": "Yes. Gwennyth says beached creatures lie along the Darkshore coastline, and asks you to search the sands for remains from other stranded behemoths."
+   "answer": "Yes. Gwennyth says beached creatures lie along the Darkshore coastline and asks you to search the sands for remains from other stranded behemoths."
   },
   {
    "q": "What is the difference between the two 'Washed Ashore' quests?",
@@ -83,7 +83,7 @@
     "two washed ashore quests",
     "washed ashore chain"
    ],
-   "answer": "The first Washed Ashore sends you to examine a creature stranded on a nearby beach. The follow-up asks you to swim west of the docks and inspect a submerged skeletal sea turtle."
+   "answer": "The first Washed Ashore asks you to examine a creature stranded on a nearby beach. The follow-up sends you west of the docks to inspect a submerged skeletal sea turtle."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you support the Priestesses of Elune at the Temple of the Moon, who oversee the spiritual and natural well-being of northern Kalimdor."
+   "text": "As a priest, you support the Priestesses of Elune at the Temple of the Moon. They oversee the spiritual and natural well-being of northern Kalimdor."
   },
   {
    "target": "race:NightElf",
@@ -124,5 +124,5 @@
  "attribution": [
   "Washed Ashore (2)"
  ],
- "style": 1
+ "style": 2
 }

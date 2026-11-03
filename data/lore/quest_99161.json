@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Shamans recognize the danger posed by unbridled elementals like Avala, whose turbulent presence warps the local weather and shakes the stone. Quelling such agitated beings is vital to restoring harmony between the elements."
+   "text": "As a shaman, you know how dangerous an unbridled elemental like Avala can be. Its turmoil changes the weather and shakes the stone. Calming such beings helps restore harmony among the elements."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins uphold the duty of protecting travelers and vulnerable commoners from sudden catastrophes. The questgiver invokes the Light's blessing upon the quest's completion in gratitude for averting unnecessary deaths."
+   "text": "As a paladin, you protect travelers and common folk from sudden calamity. The observer invokes the Light's blessing in gratitude for the deaths you helped prevent."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is rimes wrath",
     "rime's wrath quest"
    ],
-   "answer": "Rime's Wrath is a quest tasking adventurers with eliminating Avala, a large and hazardous elemental that manifested following a sudden rockslide. By hunting down the elemental and recovering its core, adventurers put an end to the erratic weather disturbances and recurring slides threatening travelers across the mountain pass.",
+   "answer": "An observer asks you to hunt Avala, a great elemental that appeared after a rockslide, and bring back its core. Avala brings erratic weather and more slides to the mountain pass.",
    "q": "What is Rime's Wrath?"
   },
   {
@@ -37,7 +37,7 @@
     "who is avala",
     "avala elemental"
    ],
-   "answer": "Avala is a particularly large elemental that surfaced in the aftermath of a major rockslide. Larger than its elemental peers, Avala actively causes sudden weather changes, freezing chills, and dangerous secondary earth tremors in the area. The name 'Avala' was given to it by the observer monitoring the pass.",
+   "answer": "Avala is a particularly large elemental that appeared after a major rockslide. It brings sudden weather changes, freezing chills, and dangerous tremors to the area. The observer watching the pass gave Avala its name.",
    "q": "Who or what is Avala?"
   },
   {
@@ -46,7 +46,7 @@
     "reason to kill avala",
     "why destroy avala"
    ],
-   "answer": "Avala's continuous presence causes unpredictable weather disruptions and minor rockslides that destabilize the surrounding slopes. Left unchecked, the elemental's supernatural influence over the winter climate and terrain threatens to trigger further collapses and cause avoidable deaths among travelers traversing the mountain pass.",
+   "answer": "Avala brings unpredictable weather and rockslides to the nearby slopes. If it remains, its influence over winter weather and the land could cause further collapses and kill travelers crossing the pass.",
    "q": "Why does Avala need to be destroyed?"
   },
   {
@@ -55,7 +55,7 @@
     "what item drops",
     "avala core proof"
    ],
-   "answer": "Adventurers must retrieve the core of Avala after defeating the creature in combat. Presenting this elemental core to the questgiver confirms that the threat has been thoroughly eliminated and the regional climate can return to normal.",
+   "answer": "The observer asks you to bring back Avala's core after defeating it. The core proves the elemental is dead and the threat has ended.",
    "q": "What proof is needed to complete Rime's Wrath?"
   },
   {
@@ -64,7 +64,7 @@
     "avala origin",
     "how did avala spawn"
    ],
-   "answer": "Avala emerged following an initial rockslide that disrupted the region. It appeared alongside other elementals in the aftermath of the collapse, quickly establishing itself as the most prominent and dangerous creature among them due to its size and elemental power.",
+   "answer": "Avala appeared after an initial rockslide disrupted the region. Other elementals surfaced too, but Avala was the largest and most dangerous among them.",
    "q": "How did Avala first appear?"
   },
   {
@@ -73,7 +73,7 @@
     "quest giver rimes wrath",
     "rimes wrath questgiver"
    ],
-   "answer": "The quest is offered by a local observer stationed near the hazardous mountain pass who closely monitored the rockslide and the emergence of the elementals. Invoking the blessing of the Holy Light upon completion, this watcher seeks to prevent unnecessary deaths by contracting capable champions to eliminate Avala.",
+   "answer": "A local observer near the dangerous mountain pass calls on capable champions to stop Avala. After watching the rockslide and the elementals appear, the observer seeks to prevent needless deaths. When the work is done, the observer invokes the Holy Light's blessing.",
    "q": "Who offers the quest Rime's Wrath?"
   },
   {
@@ -82,7 +82,7 @@
     "rimes wrath completion",
     "after rimes wrath"
    ],
-   "answer": "Once Avala is slain and its core returned, the severe weather swings and localized tremors triggered by the creature's presence diminish. The questgiver bestows a blessing of the Light and a reward, noting that the area has been made significantly safer for future travelers.",
+   "answer": "After Avala dies and you return its core, the severe weather swings and tremors ease. The observer blesses you in the Light and gives you a reward, saying the pass is safer for travelers.",
    "q": "What happens after Avala is defeated?"
   }
  ],
@@ -101,18 +101,19 @@
  ],
  "sections": [
   {
-   "body": "The disturbances began when a sudden rockslide destabilized the mountain pass, opening the way for elemental activity. Among the creatures that surfaced, one particular elemental stood out, towering over its kin in sheer size and raw power. Given the informal moniker \"Avala\" by the watchful questgiver, this potent entity is not merely an imposing presence\u2014it directly fuels localized atmospheric turmoil and destabilizes the surrounding cliffs. Its presence poses an immediate peril to anyone attempting to navigate the area, as unstable earth and sudden winter chills make ordinary travel lethal.",
+   "body": "A rockslide has unsettled the mountain pass, and elementals have appeared. One is far larger and stronger than the others. The observer watching the pass named it Avala. Its power brings sudden weather shifts and shakes the cliffs. Loose stone and bitter winter chills now make the pass perilous for travelers.",
    "spoiler": 0,
    "title": "The Wake of the Rockslide"
   },
   {
-   "body": "Recognizing the escalating danger of Avala's influence over the terrain, a call was put forth to eliminate the beast before further collapses claimed lives. Slaying the creature requires facing both its elemental ferocity and the harsh conditions it generates, culminating in the recovery of its core as definitive proof of its demise. With Avala vanquished and its animating heart secured, the violent weather shifts subside, restoring a measure of safety to the surrounding mountain passes and safeguarding future travelers from needless catastrophe.",
+   "body": "Avala's influence makes the pass more dangerous. The observer calls on you to stop it before more collapses claim lives. You face the elemental amid the harsh conditions it stirs, then bring back its core as proof of its death. With Avala gone, the violent weather shifts ease, and the mountain passes grow safer for travelers.",
    "spoiler": 0,
    "title": "Quelling Avala"
   }
  ],
- "summary": "Following a rockslide, an unusually large elemental named Avala emerged and began triggering erratic weather swings and secondary landslides. An observer tasks adventurers with hunting down the elemental and claiming its core to secure the area. Defeating the creature restores stability to the mountain slopes and safeguards travelers from deadly winter perils.",
+ "summary": "After a rockslide, Avala makes the mountain pass dangerous. An observer asks you to hunt the great elemental and bring back its core, so the slopes may grow safer for travelers.",
  "attribution": [
   "In-game quest text: Rime's Wrath"
- ]
+ ],
+ "style": 2
 }

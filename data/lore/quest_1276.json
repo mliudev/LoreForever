@@ -15,16 +15,16 @@
   "wiki": null,
   "next": ""
  },
- "summary": "Krog now recalls where the name Mosarn comes from: a highly regarded blacksmith in Thunder Bluff, whose armor set was once given to Krog by the Earthen Ring. Krog hopes Mosarn can say more about the blackened iron shield, since nothing useful came from Reethe. Mosarn is to be found in Thunder Bluff.",
+ "summary": "In Thunder Bluff, Krog brings a blackened iron shield to a smith for answers. Reethe gave him nothing useful, leaving Mosarn as his only lead.",
  "sections": [
   {
    "title": "A Smith's Name",
-   "body": "Krog remembers where the name Mosarn was heard before: a blacksmith in Thunder Bluff, highly regarded. The Earthen Ring once thanked Krog with armor that Mosarn crafted, and Krog speaks well of the work. Krog says Mosarn made the shield too and may be able to tell more about it. It is a slim lead, Krog admits, but Reethe yielded nothing useful, so it is all there is. The blackened iron shield goes to Mosarn, who is in Thunder Bluff.",
+   "body": "Krog remembers Mosarn as a highly regarded blacksmith in Thunder Bluff. The Earthen Ring once thanked Krog with armor Mosarn had crafted, and Krog speaks well of that work. He believes Mosarn made the shield too and may know more. It is a slim lead. Reethe yielded nothing useful, so Krog brings the blackened iron shield to Mosarn in Thunder Bluff.",
    "spoiler": 0
   },
   {
    "title": "Mosarn's Word",
-   "body": "Mosarn agrees the shield is a piece of his own making, but can say little beyond that. He has made so many shields and armor sets that he cannot recall them all.",
+   "body": "Mosarn confirms that he made the shield himself, but remembers little else. He has made so many shields and armor sets that he cannot recall them all.",
    "spoiler": 1
   }
  ],
@@ -36,7 +36,7 @@
     "where is mosarn",
     "mosarn thunder bluff"
    ],
-   "answer": "Mosarn is a highly regarded blacksmith in Thunder Bluff, who crafted an armor set the Earthen Ring gave to Krog."
+   "answer": "Mosarn is a highly regarded blacksmith in Thunder Bluff. He crafted the armor the Earthen Ring gave Krog."
   },
   {
    "q": "Why take the shield to Mosarn?",
@@ -45,7 +45,7 @@
     "blackened shield lead",
     "what does mosarn know"
    ],
-   "answer": "Krog says Mosarn made the shield and may be able to tell more about it. Krog calls it a weak lead, but with nothing useful learned from Reethe, it is all there is."
+   "answer": "Krog believes Mosarn made the shield and may know more about it. Reethe yielded nothing useful, so this slim lead is all Krog has."
   },
   {
    "q": "How does Krog know Mosarn?",
@@ -53,7 +53,7 @@
     "krog mosarn connection",
     "how does krog know the smith"
    ],
-   "answer": "The Earthen Ring gave Krog an armor set that Mosarn crafted, as thanks."
+   "answer": "The Earthen Ring thanked Krog with armor crafted by Mosarn."
   }
  ],
  "angles": [],
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Classic quest text: The Black Shield"
- ]
+ ],
+ "style": 2
 }

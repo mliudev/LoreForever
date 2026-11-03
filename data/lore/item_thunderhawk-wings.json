@@ -10,11 +10,11 @@
    "quest:913"
   ]
  },
- "summary": "Across the central and southern Barrens, hunters claim Thunderhawk Wings from the wind serpents that soar overhead. At Camp Taurajo, Jorn Skyseer receives them as proof of a hunter’s strength, cunning, and endurance.",
+ "summary": "Hunters bring Thunderhawk Wings to Camp Taurajo, where Jorn Skyseer receives them as proof of their strength, cunning, and endurance.",
  "sections": [
   {
    "title": "Trophy of the Hunt",
-   "body": "Hunters stationed at Camp Taurajo prize a pair of intact Thunderhawk Wings. Wind serpents, whom local hunters call thunderhawks, are fierce winged reptiles that strike swiftly from above. Tracking them across the open plains and claiming their wings in combat tests a hunter’s skill. For an initiate, bringing back the wings proves readiness to follow the lifelong path of an accomplished hunter.",
+   "body": "At Camp Taurajo, hunters prize a pair of intact Thunderhawk Wings. Wind serpents, called thunderhawks by local hunters, strike swiftly from above. Tracking them across the open plains and taking their wings tests a hunter’s skill. For an initiate, returning with the wings proves readiness for the lifelong path of an accomplished hunter.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "thunderhawk wings location",
     "how to get thunderhawk wings"
    ],
-   "answer": "Thunderhawk Wings come from thunderhawks gliding above the ridges and plains of the central and southern Barrens, especially around Camp Taurajo."
+   "answer": "Thunderhawk Wings come from thunderhawks soaring over the ridges and plains of the central and southern Barrens, especially around Camp Taurajo."
   },
   {
    "q": "Who wants these wings?",
@@ -35,7 +35,7 @@
     "turn in thunderhawk wings",
     "jorn skyseer wings"
    ],
-   "answer": "Jorn Skyseer, a seasoned tauren hunter stationed at Camp Taurajo, asks for the wings as proof that an initiate has mastered the savanna’s hunting rites."
+   "answer": "Jorn Skyseer, a seasoned tauren hunter at Camp Taurajo, asks for the wings as proof that an initiate has mastered the savanna’s hunting rites."
   },
   {
    "q": "What does claiming the wings signify?",
@@ -78,5 +78,5 @@
   "Thunderhawk Wings",
   "Cry of the Thunderhawk"
  ],
- "style": 1
+ "style": 2
 }

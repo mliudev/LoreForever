@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gahrron's Withering"
  },
- "summary": "Gahrron's Withering is a corrupted farmstead nestled along the eastern border of the Western Plaguelands near the path to the Eastern Plaguelands. Once a thriving piece of Lordaeron farmland, it is now occupied by the Scourge and anchored by a massive cauldron pumping virulent plague vapors into the air.",
+ "summary": "At Gahrron's Withering, the Scourge foul an old Lordaeron farm beside the road to the Eastern Plaguelands. A massive cauldron sends plague vapors into the air.",
  "sections": [
   {
    "title": "From Harvest to Decay",
-   "body": "Before the Third War ruined the kingdom of Lordaeron, this estate was a working farm. Its fertile fields yielded grain for the realm until the Cult of the Damned and the Scourge swept across the land. Now called Gahrron's Withering, the homestead stands broken and derelict. Haunting visions, wailing wraiths, and restless spirits wander the ruined outbuildings, overseen by Scourge overseers sworn to the Lich King.",
+   "body": "Before the Third War, this farm fed Lordaeron with grain. Then the Cult of the Damned and the Scourge swept across the land, and the fields fell silent. Now the farmstead is broken and derelict. Haunting visions, wailing wraiths, and restless spirits roam its ruined outbuildings under Scourge overseers sworn to the Lich King.",
    "spoiler": 0
   },
   {
    "title": "The Cauldron and the Fall of Redpath",
-   "body": "In the center of the blighted fields sits one of the Scourge's massive plague cauldrons, tended by Cauldron Lord Soulwrath. This cauldron constantly spews noxious miasma into the surrounding atmosphere, poisoning the earth and driving off natural life. Beyond its role in spreading pestilence, the farm marks the tragic climax of the nearby tragedy of Darrowshire: it was here that Alliance defenders finally confronted and struck down Captain Joseph Redpath after he succumbed to dark corruption. The warrior's shattered shield was left lying amidst the cursed soil.",
+   "body": "Cauldron Lord Soulwrath tends a massive Scourge plague cauldron in the heart of the blighted fields. Noxious miasma pours from it, poisoning the earth and driving natural life away.\n\nThis farm also marks the tragic end of the nearby Darrowshire tragedy. Alliance defenders confronted Captain Joseph Redpath here and struck him down after dark corruption claimed him. His shattered shield remains in the cursed soil.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "old name",
     "gahrrons quickening"
    ],
-   "answer": "The farm's name before the plague is not recorded; today it is known only as Gahrron's Withering. It was an active Lordaeron homestead until the Scourge devastated the countryside."
+   "answer": "No record preserves the farm's name before the plague. Now it is known only as Gahrron's Withering. It was a working Lordaeron homestead until the Scourge devastated the countryside."
   },
   {
    "q": "Why is there a giant cauldron here?",
@@ -37,7 +37,7 @@
     "what does the cauldron do",
     "pot in field"
    ],
-   "answer": "The cauldron is an engine of pestilence deployed by the Scourge to spread plague vapors across the region. Cauldron Lord Soulwrath protects the apparatus to ensure it continuously blights the soil and air."
+   "answer": "The Scourge placed the cauldron here to spread plague vapors across the region. Cauldron Lord Soulwrath guards it so it can keep blighting the soil and air."
   },
   {
    "q": "Who was Joseph Redpath and why does he matter here?",
@@ -46,7 +46,7 @@
     "captain redpath",
     "darrowshire connection"
    ],
-   "answer": "Captain Joseph Redpath was a defender of nearby Darrowshire, one of the heroes named in the town's annals. His cracked shield still lies near the barn of this farmstead, a relic of Darrowshire's tragic fall."
+   "answer": "Captain Joseph Redpath defended nearby Darrowshire and is named among the town's heroes. His cracked shield lies near the farmstead's barn, a relic of Darrowshire's tragic fall."
   },
   {
    "q": "Who controls Gahrron's Withering right now?",
@@ -55,17 +55,17 @@
     "mobs at gahrron",
     "scourge in charge"
    ],
-   "answer": "The farm is firmly held by the Scourge. It is haunted by spectral wraiths, wailing deaths, and haunting visions, all commanded by the powerful necromantic officer Cauldron Lord Soulwrath."
+   "answer": "The Scourge holds the farm. Spectral wraiths, wailing deaths, and haunting visions haunt it under Cauldron Lord Soulwrath, a powerful necromantic officer."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance veterans, the farm holds grim significance: the cracked shield of Captain Joseph Redpath, a hero of Darrowshire, still lies in its cursed soil."
+   "text": "For Alliance veterans, this farm carries a grim memory. Captain Joseph Redpath's cracked shield remains in the cursed soil, left from Darrowshire's fall."
   },
   {
    "target": "class:Paladin",
-   "text": "The vile fumes pouring from Cauldron Lord Soulwrath's cauldron and the restless dead lingering on the ruined fields make this farm a priority target for holy cleansing."
+   "text": "As a paladin, you find a clear target in the vile fumes from Cauldron Lord Soulwrath's cauldron and the restless dead on the ruined fields."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Gahrron's Withering"
- ]
+ ],
+ "style": 2
 }

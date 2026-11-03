@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Hall of the Brave"
  },
- "summary": "Warriors train and gather at the Hall of the Brave in Orgrimmar's Valley of Honor. The barracks and guild house serves the Horde's front-line combatants, drillmasters, and battlemasters.",
+ "summary": "Warriors gather and train in Orgrimmar's Hall of the Brave, in the Valley of Honor. The hall serves the Horde's front-line fighters, drillmasters, and battlemasters.",
  "sections": [
   {
    "title": "The Warriors' Bastion",
-   "body": "The Hall of the Brave overlooks the Valley of Honor's waters and training rings. Veteran officers and seasoned warriors teach initiates melee combat, stances, and discipline. Training dummies and weapons line the hall, where battlemasters organize combatants for major military engagements across Azeroth.",
+   "body": "The Hall of the Brave overlooks the Valley of Honor's waters and training rings. Veteran officers and seasoned warriors teach initiates melee combat, stances, and discipline. Training dummies and weapons line the hall. There, battlemasters organize combatants for major military engagements across Azeroth.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this building",
     "hall of the brave purpose"
    ],
-   "answer": "The Hall of the Brave is Orgrimmar's main barracks and guild hall for warriors. Veteran trainers teach techniques, practice dummies offer a place to hone strikes, and battlemasters coordinate military deployments across contested lands."
+   "answer": "The Hall of the Brave is Orgrimmar's main barracks and guild hall for warriors. Veteran trainers teach techniques, and practice dummies give warriors a place to hone their strikes. Battlemasters coordinate military deployments across contested lands."
   },
   {
    "q": "Where in Orgrimmar is the hall located?",
@@ -32,7 +32,7 @@
     "hall of the brave location",
     "find warrior trainer orgrimmar"
    ],
-   "answer": "The Hall of the Brave sits on the eastern side of the Valley of Honor, along the red canyon walls overlooking the central pond."
+   "answer": "The Hall of the Brave sits on the eastern side of the Valley of Honor. It runs along the red canyon walls and overlooks the central pond."
   },
   {
    "q": "Who can be found inside the hall?",
@@ -40,7 +40,7 @@
     "who is in hall of the brave",
     "hall of the brave npcs"
    ],
-   "answer": "Warrior trainers, battlemasters coordinating large military conflicts, and Horde grunts resting between patrols can be found inside the hall."
+   "answer": "Warrior trainers and battlemasters can be found inside the hall. The battlemasters coordinate large military conflicts, while Horde grunts rest between patrols."
   }
  ],
  "angles": [
@@ -50,7 +50,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can see its frontline discipline at the Hall of the Brave. Battlemasters there muster troops to fight across the continent."
+   "text": "As a member of the Horde, you can see its front-line discipline at the Hall of the Brave. Battlemasters there muster troops to fight across the continent."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Hall of the Brave"
  ],
- "style": 1
+ "style": 2
 }

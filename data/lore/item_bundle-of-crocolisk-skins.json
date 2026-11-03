@@ -10,11 +10,11 @@
    "quest:469"
   ]
  },
- "summary": "In the Wetlands, hunters prepare crocolisk skins for Menethil Harbor. The hides are valuable trade goods for local leatherworkers.",
+ "summary": "Hunters in the Wetlands send crocolisk skins west to Menethil Harbor. There, leatherworkers put the hides to use.",
  "sections": [
   {
    "title": "Wetlands Commerce and Domestic Strife",
-   "body": "Crocolisk hides are an essential trade good for coastal Menethil Harbor. Hunters gather and cure the tough, water-resistant skins in the Wetlands before sending them west to artisans such as James Halloran. Einar has gathered this bundle, but asks a traveler to carry it into town. He wants to avoid returning home to face the temper of his frustrated wife, Sida.",
+   "body": "In the Wetlands, hunters gather and cure tough, water-resistant crocolisk skins for Menethil Harbor. James Halloran is among the artisans who receive them. Einar has gathered this bundle, but asks a traveler to carry it into town. He hopes to avoid going home to face the temper of his frustrated wife, Sida.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what are these skins for",
     "bundle of skins purpose"
    ],
-   "answer": "The bundle holds raw and cured marsh hides for James Halloran, a tanner in Menethil Harbor. He turns the skins into sturdy boots, belts, and leather armor suited to the Wetlands’ damp, flooded ground."
+   "answer": "James Halloran, a tanner in Menethil Harbor, receives the bundle's raw and cured marsh hides. He makes sturdy boots, belts, and leather armor suited to the Wetlands' damp, flooded ground."
   },
   {
    "q": "Who gathered these crocolisk skins?",
@@ -35,7 +35,7 @@
     "who gathered the skins",
     "einar crocolisk"
    ],
-   "answer": "Hunter Einar gathered and bundled the skins in the marshes. He usually brings his trade goods into town himself, but asks passing travelers to carry this bundle so he can avoid an argument with his wife, Sida."
+   "answer": "Hunter Einar gathered and bundled the skins in the marshes. He usually carries his trade goods into town himself, but asks a passing traveler to bring this bundle so he can avoid an argument with his wife, Sida."
   },
   {
    "q": "Who is James Halloran?",
@@ -44,13 +44,13 @@
     "who is halloran",
     "tanner menethil"
    ],
-   "answer": "James Halloran is a working leatherworker and tanner based in the port town of Menethil Harbor. He buys raw and cured hides from marsh hunters and makes boots, cured leather, and practical gear for sailors, soldiers, and townspeople."
+   "answer": "James Halloran works as a leatherworker and tanner in Menethil Harbor. He buys raw and cured hides from marsh hunters and makes boots, cured leather, and practical gear for sailors, soldiers, and townspeople."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can see how hunters beyond Menethil Harbor supply materials that help equip its garrison and citizens for the harsh swamp."
+   "text": "As an Alliance traveler, you can see how hunters beyond Menethil Harbor supply materials for its garrison and citizens in the harsh swamp."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
   "Bundle of Crocolisk Skins",
   "Daily Delivery"
  ],
- "style": 1
+ "style": 2
 }

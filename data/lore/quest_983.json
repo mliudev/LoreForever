@@ -17,16 +17,16 @@
   "wiki": "Buzzbox 827 (quest)",
   "chain": []
  },
- "summary": "Along Darkshore's coast, Buzzbox 827 waits silent for repairs. Wizbang Cranktoggle built it as the first of a chain of voice relays, each made to use parts from local wildlife. Restoring it lets Wizbang test his network from Auberdine.",
+ "summary": "Along Darkshore's coast, repairs are needed at Buzzbox 827. Wizbang Cranktoggle built it as the first link in a chain of voice relays, each made to use parts from local wildlife. Restoring it lets Wizbang test his network from Auberdine.",
  "sections": [
   {
    "title": "Gnomish Innovation on Ancient Shores",
-   "body": "In Auberdine, gnomish engineer Wizbang Cranktoggle is trying to bridge Darkshore's wild coast with a chain of voice relays called Buzzboxes. Their levers and gears carry speech across great distances, a sharp contrast with the ancient ruins and somber forests around them. The machines break down often, and each needs constant care to keep working.",
+   "body": "In Auberdine, gnomish engineer Wizbang Cranktoggle is linking Darkshore's wild coast with a chain of voice relays called Buzzboxes. Their levers and gears carry speech across great distances, a sharp contrast with the ancient ruins and somber forests around them. The machines break down often, so each needs constant care to keep working.",
    "spoiler": 0
   },
   {
    "title": "Ecological Maintenance",
-   "body": "Buzzbox 827 lies on the misty shore just south of Auberdine. Wizbang built each relay to use parts from nearby wildlife, so repairs do not depend on carrying refined iron gears and copper pins through the wilderness. This unit takes the sturdy, jointed legs of local tide and reef crawlers. Put the legs in its receiver hopper, and the machine assembles itself and carries Wizbang's voice through its speakers.",
+   "body": "Buzzbox 827 lies on the shore just south of Auberdine. Wizbang built each relay to use parts from nearby wildlife, so repairs do not depend on carrying refined iron gears and copper pins through the wilderness. This unit takes the sturdy, jointed legs of local tide and reef crawlers. Put the legs in its receiver hopper, and the machine assembles itself and carries Wizbang's voice through its speakers.",
    "spoiler": 0
   }
  ],
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see Wizbang's improvisation at work: he uses local chitin and arthropod limbs instead of forged brass gears, trading durability for parts that are easy to scavenge."
+   "text": "As an engineer, you can see Wizbang's improvisation at work. He uses local chitin and arthropod limbs instead of forged brass gears, trading durability for parts that are easy to scavenge."
   },
   {
    "target": "race:Gnome",
@@ -119,5 +119,5 @@
  "attribution": [
   "Buzzbox 827 (quest)"
  ],
- "style": 1
+ "style": 2
 }

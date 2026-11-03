@@ -8,11 +8,11 @@
   "wiki": "Magga",
   "refs": 1
  },
- "summary": "Near the Den in the Valley of Trials, Magga welcomes new arrivals. The orc lives in Durotar and greets Horde travelers beginning their journey through the valley.",
+ "summary": "Near the Den in the Valley of Trials, Magga welcomes new arrivals. She greets Horde travelers beginning their journey through the valley in Durotar.",
  "sections": [
   {
    "title": "A Welcoming Face in the Valley of Trials",
-   "body": "Young orcs and Darkspear trolls first meet the wider world in the Valley of Trials. Near the Den, Magga greets those arriving in the valley. Trainers and recruits keep busy nearby, while Magga helps bring the small camp together.",
+   "body": "Young orcs and Darkspear trolls first meet the wider world in the Valley of Trials. Near the Den, Magga welcomes those arriving there. Trainers and recruits keep busy nearby, while she helps bring the small camp together.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "magga valley of trials",
     "who is magga"
    ],
-   "answer": "Magga is an orc civilian near the Den in the Valley of Trials, Durotar, where she welcomes new Horde travelers."
+   "answer": "Magga is an orc civilian near the Den in the Valley of Trials, Durotar. She welcomes new Horde travelers."
   },
   {
    "q": "What is Magga's connection to Innkeeper Grosk?",
@@ -32,7 +32,7 @@
     "magga and grosk",
     "magga innkeeper"
    ],
-   "answer": "Magga has no special tie to Innkeeper Grosk. She stays in the Valley of Trials, while Innkeeper Grosk keeps the inn at Razor Hill, where travelers can find food, drink, and a place to bind their hearthstones."
+   "answer": "Magga has no special tie to Innkeeper Grosk. She stays in the Valley of Trials, while Innkeeper Grosk keeps the inn at Razor Hill. Travelers can find food, drink, and a place to bind their hearthstones there."
   },
   {
    "q": "Does Magga offer any quests?",
@@ -66,5 +66,5 @@
  "attribution": [
   "Magga"
  ],
- "style": 1
+ "style": 2
 }

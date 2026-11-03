@@ -8,21 +8,21 @@
   "wiki": "Thrall",
   "refs": 5
  },
- "summary": "Thrall now rules from the Valley of Wisdom in Orgrimmar, Warchief of the Horde and ruler of Durotar. Once a human slave raised as an arena fighter, he freed his people, restored their shamanic traditions, and led them across the Great Sea to a new homeland.",
+ "summary": "In Orgrimmar, Thrall rules as Warchief of the Horde and ruler of Durotar. Once a human slave raised to fight in the arena, he freed his people, restored their shamanic ways, and led them across the Great Sea to a new homeland.",
  "sections": [
   {
    "title": "From Slave to Shaman",
-   "body": "Thrall was born Go'el, son of Frostwolf chieftain Durotan and Draka. Gul'dan's assassins murdered his parents when he was an infant, and human commander Aedelas Blackmoore found him and named him Thrall, meaning slave. At Durnholde Keep, Blackmoore raised him as an arena fighter and taught him human tactics. With help from his foster sister Taretha Foxton, Thrall escaped. The Frostwolf exile Drek'Thar guided him away from demonic corruption and taught him to master the elemental spirits. Thrall became the first orcish shaman of a new generation.",
+   "body": "Thrall was born Go'el to Durotan, chieftain of the Frostwolf, and Draka. Gul'dan's assassins murdered his parents while he was an infant. Human commander Aedelas Blackmoore found him and named him Thrall, meaning slave. At Durnholde Keep, Blackmoore raised him to fight in the arena and taught him human tactics.\n\nWith help from his foster sister Taretha Foxton, Thrall escaped. Drek'Thar, an exiled Frostwolf, led him away from demonic corruption and taught him to master the elemental spirits. Thrall became the first orcish shaman of a new generation.",
    "spoiler": 0
   },
   {
    "title": "The Mantle of the Warchief",
-   "body": "After the Second War, Thrall joined Orgrim Doomhammer to free the orcs languishing in Alliance internment camps. Doomhammer fell in battle and passed his black plate armor and mighty warhammer to Thrall, naming him Warchief. The mysterious Prophet Medivh brought prophetic visions, and Thrall led his people aboard captured human ships across the Great Sea. They reached Kalimdor and escaped the doom falling upon the Eastern Kingdoms.",
+   "body": "After the Second War, Thrall joined Orgrim Doomhammer in freeing the orcs held in Alliance internment camps. Doomhammer fell in battle and gave Thrall his black plate armor and mighty warhammer, naming him Warchief. Then the mysterious Prophet Medivh brought prophetic visions. Thrall led his people aboard captured human ships across the Great Sea to Kalimdor, escaping the doom that was falling upon the Eastern Kingdoms.",
    "spoiler": 0
   },
   {
    "title": "Forging the New Horde",
-   "body": "In Kalimdor, Thrall reshaped the Horde from a warmongering force into an alliance built on survival and honor. He rescued Vol'jin's Darkspear trolls and allied with Cairne Bloodhoof's tauren. With human and night elf forces, the coalition defeated the Burning Legion atop Mount Hyjal. Thrall then founded Durotar and its capital, Orgrimmar, named for his father and mentor. He keeps an uneasy peace with Jaina Proudmoore's Theramore while defending his fragile nation and weighing controversial alliances, including the Forsaken of Lordaeron.",
+   "body": "In Kalimdor, Thrall remade the Horde from a force of war into an alliance built on survival and honor. He rescued Vol'jin's Darkspear trolls and joined forces with Cairne Bloodhoof's tauren. Together with human and night elf forces, they defeated the Burning Legion atop Mount Hyjal.\n\nThrall founded Durotar and its capital, Orgrimmar, named for his father and mentor. He keeps an uneasy peace with Jaina Proudmoore's Theramore while defending his fragile nation and weighing controversial alliances, including the Forsaken of Lordaeron.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "thrall backstory",
     "who is thrall"
    ],
-   "answer": "Thrall leads the orcish people as Warchief of the Horde. Born Go'el of the Frostwolf clan, he was raised by humans as an enslaved gladiator, then broke free, learned shamanic ways, and led the orcs to Kalimdor, where they founded Orgrimmar."
+   "answer": "Thrall leads the orcs as Warchief of the Horde. Born Go'el of the Frostwolf clan, he was raised by humans as an enslaved arena fighter. He broke free, learned the shamanic ways, and led the orcs to Kalimdor, where they founded Orgrimmar."
   },
   {
    "q": "Where does Thrall's name come from?",
@@ -43,7 +43,7 @@
     "what does thrall mean",
     "thrall real name"
    ],
-   "answer": "Thrall was born Go'el, the name given by his parents Durotan and Draka. His human captor, Aedelas Blackmoore, gave him the name Thrall, an old human word meaning slave. Thrall kept it as a reminder of his past and of the oppression his people vowed never to endure again."
+   "answer": "Thrall's parents, Durotan and Draka, named him Go'el at birth. His human captor, Aedelas Blackmoore, gave him the name Thrall, an old human word meaning slave. Thrall kept it to remember his past and the oppression his people vowed never to endure again."
   },
   {
    "q": "Why does Thrall wear black armor and carry a hammer?",
@@ -52,7 +52,7 @@
     "thrall weapon",
     "black armor"
    ],
-   "answer": "Thrall wears black plate armor and carries the Doomhammer, both passed to him by Orgrim Doomhammer, the former Warchief. Mortally wounded while freeing the orcs from the internment camps, Orgrim gave Thrall the weapon and the mantle of Warchief with his dying breath."
+   "answer": "Thrall wears black plate armor and carries the Doomhammer, both given to him by Orgrim Doomhammer, the former Warchief. Mortally wounded while freeing orcs from the internment camps, Orgrim gave Thrall the weapon and the mantle of Warchief with his dying breath."
   },
   {
    "q": "Where can I find Thrall in the game?",
@@ -70,7 +70,7 @@
     "jaina alliance",
     "peace with theramore"
    ],
-   "answer": "Thrall and Lady Jaina Proudmoore earned mutual respect and forged a pact of cooperation while fighting together at Mount Hyjal during the Third War. Their factions remain deeply distrustful, but the two leaders work to preserve a fragile peace between Orgrimmar and Theramore."
+   "answer": "Thrall and Lady Jaina Proudmoore earned each other's respect and forged a pact of cooperation while fighting together at Mount Hyjal during the Third War. Their factions remain deeply distrustful, yet the two leaders work to preserve a fragile peace between Orgrimmar and Theramore."
   },
   {
    "q": "Why did Thrall allow the Forsaken into the Horde?",
@@ -79,13 +79,13 @@
     "forsaken alliance",
     "sylvanas horde entry"
    ],
-   "answer": "Though wary of the undead, Thrall recognized the desperate plight of Sylvanas Windrunner's Forsaken, who had freed themselves from the Lich King's control. The tauren urged him diplomatically, believing the Forsaken could be redeemed. Thrall admitted them to the Horde to secure a strategic foothold in the Eastern Kingdoms."
+   "answer": "Though wary of the undead, Thrall saw the desperate plight of Sylvanas Windrunner's Forsaken, who had freed themselves from the Lich King's control. The tauren urged him diplomatically, believing the Forsaken could be redeemed. Thrall admitted them to the Horde to secure a strategic foothold in the Eastern Kingdoms."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Thrall is your Warchief and supreme commander. He led the Horde out of enslavement and ruin toward an honorable future on Kalimdor."
+   "text": "Thrall is your Warchief and supreme commander. He led the Horde from enslavement and ruin toward an honorable future on Kalimdor."
   },
   {
    "target": "faction:Alliance",
@@ -123,5 +123,5 @@
  "attribution": [
   "Thrall"
  ],
- "style": 1
+ "style": 2
 }

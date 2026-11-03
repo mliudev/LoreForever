@@ -8,21 +8,21 @@
   "wiki": "Magistrate Solomon",
   "refs": 12
  },
- "summary": "Lakeshire looks to Magistrate Solomon as gnolls and orcs close in. From the town hall, he governs local affairs and pleads with Stormwind for military aid, but the capital is distracted and gives no help.",
+ "summary": "In Lakeshire, Magistrate Solomon pleads for help as gnolls and orcs close in. From the town hall, he governs local affairs, but Stormwind is distracted and sends no aid.",
  "sections": [
   {
    "title": "A Town Under Siege",
-   "body": "Magistrate Solomon governs Lakeshire as danger closes around the town. Redridge and Shadowhide gnolls prowl the surrounding hills, while Blackrock orcs descend from the north in organized warbands. Solomon and Marshal Marris work to keep order and muster a defense, but Lakeshire's guards and militia are stretched to their limit.",
+   "body": "Magistrate Solomon governs Lakeshire as danger closes around the town. Redridge and Shadowhide gnolls prowl the hills, while Blackrock orcs descend from the north in organized warbands. Solomon and Marshal Marris work to keep order and gather a defense. Yet Lakeshire's guards and militia are stretched to their limit.",
    "spoiler": 0
   },
   {
    "title": "Appeals to Deaf Ears",
-   "body": "Magistrate Solomon has sent messengers across the kingdom, pleading for aid from Westfall, Darkshire, and Stormwind. The replies bring little hope. Westfall struggles under the Defias Brotherhood, Duskwood faces its own creeping terrors, and Stormwind City refuses to send troops to the eastern frontier. Lakeshire is left to defend itself.",
+   "body": "Magistrate Solomon has sent messengers to Westfall, Darkshire, and Stormwind, pleading for aid. The replies bring little hope. Westfall struggles under the Defias Brotherhood, and Duskwood faces its own creeping terrors. Stormwind City refuses to send troops to the eastern frontier. Lakeshire must defend itself.",
    "spoiler": 0
   },
   {
    "title": "The Court's Refusal",
-   "body": "Magistrate Solomon sends a warning to Highlord Bolvar Fordragon when evidence links the Blackrock orcs to the black dragonflight. Royal advisor Lady Katrana Prestor dismisses Solomon's pleas as wild exaggeration. Guided by her counsel and limited by Stormwind's thinly spread forces, Bolvar refuses to commit the Stormwind Army and gives Solomon royal sanction to deputize independent mercenaries.",
+   "body": "Magistrate Solomon warns Highlord Bolvar Fordragon after evidence links the Blackrock orcs to the black dragonflight. Royal advisor Lady Katrana Prestor dismisses his pleas as wild exaggeration. Guided by her counsel and limited by Stormwind's thinly spread forces, Bolvar refuses to commit the Stormwind Army. He gives Solomon royal sanction to deputize independent mercenaries.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "why won't stormwind help lakeshire",
     "bolvar aid redridge"
    ],
-   "answer": "Stormwind's military is already stretched thin across several troubled regions. When Solomon appeals for aid, Highlord Bolvar Fordragon is influenced by royal advisor Lady Katrana Prestor, who questions Solomon's reports and discourages sending regular troops to Redridge."
+   "answer": "Stormwind's military is stretched thin across several troubled regions. When Solomon appeals for aid, Highlord Bolvar Fordragon is influenced by royal advisor Lady Katrana Prestor, who questions Solomon's reports and discourages sending regular troops to Redridge."
   },
   {
    "q": "Did Ironforge try to send help?",
@@ -61,7 +61,7 @@
     "redridge enemies",
     "why is solomon worried"
    ],
-   "answer": "Lakeshire faces Redridge and Shadowhide gnolls in its hills and on its roads, along with Blackrock orcs raiding south from Stonewatch Keep and the Burning Steppes."
+   "answer": "Lakeshire faces Redridge and Shadowhide gnolls in its hills and on its roads. Blackrock orcs also raid south from Stonewatch Keep and the Burning Steppes."
   },
   {
    "q": "Who works with Solomon to defend the town?",
@@ -78,13 +78,13 @@
     "messenger to westfall",
     "solomon aid other towns"
    ],
-   "answer": "Solomon sends couriers to Darkshire and Westfall in hopes of forming mutual aid pacts with nearby Alliance settlements. Westfall is held in the grip of the Defias Brotherhood, while Duskwood is overwhelmed by undead and feral beasts; neither can spare a defender."
+   "answer": "Solomon sends couriers to Darkshire and Westfall in hopes of forming mutual aid pacts with nearby Alliance settlements. Westfall is held in the grip of the Defias Brotherhood, while Duskwood is overwhelmed by undead and feral beasts. Neither can spare a defender."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Solomon's abandonment reveals deep fractures within the Alliance of Stormwind, leaving its outer provinces to rely on freelance heroes."
+   "text": "Solomon's abandonment reveals deep fractures within the Alliance of Stormwind. Its outer provinces must rely on freelance heroes."
   },
   {
    "target": "race:Human",
@@ -92,7 +92,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you may see a tragic link to Ironforge's effort to answer Solomon's distress call: the expedition was ambushed, and Princess Moira Bronzebeard was captured."
+   "text": "As a dwarf, you may see a tragic link to Ironforge's effort to answer Solomon's distress call. The expedition was ambushed, and Princess Moira Bronzebeard was captured."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Magistrate Solomon"
  ],
- "style": 1
+ "style": 2
 }

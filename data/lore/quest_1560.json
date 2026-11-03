@@ -19,21 +19,21 @@
   "qtype": "Timed Escort",
   "category": "Tanaris"
  },
- "summary": "Tooga, a lost turtle, was sent out to fetch dinner by his wife Torta and took a wrong turn somewhere. Tooga asks you to lead him back to Torta, who waits just south of Steamwheedle Port.",
+ "summary": "In Tanaris, you and Tooga are trying to reach Torta. She waits just south of Steamwheedle Port.",
  "sections": [
   {
    "title": "A Lost Wanderer",
-   "body": "Tooga wanders near a crashed goblin zeppelin close to Thistleshrub Valley. Torta sent Tooga out to fetch dinner, and a wrong turn somewhere has left the turtle hopelessly lost. Tooga asks you to lead the way back.",
+   "body": "Tooga wanders near a crashed goblin zeppelin by Thistleshrub Valley, unsure of the way home. His wife, Torta, sent him to fetch dinner. A wrong turn left him lost, so he asks you to lead him back to her.",
    "spoiler": 0
   },
   {
    "title": "Across the Zone",
-   "body": "Torta waits just south of Steamwheedle Port, in the opposite corner of Tanaris, so the walk takes you across almost the whole width of the zone.",
+   "body": "Torta waits just south of Steamwheedle Port, across Tanaris from Tooga. Reaching her means walking nearly the whole width of the zone.",
    "spoiler": 0
   },
   {
    "title": "A Wife's Welcome",
-   "body": "Torta is not surprised that Tooga could not find the way home alone, and tells Tooga to get into the ocean and bring back some food.",
+   "body": "Torta is not surprised that Tooga could not find his way home alone. She tells him to go into the ocean and bring back food.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "tooga turtle",
     "who is the turtle in tanaris"
    ],
-   "answer": "A lost turtle in Tanaris who needs help finding the way back to his wife."
+   "answer": "Tooga is a lost turtle in Tanaris who needs help finding his way back to his wife."
   },
   {
    "q": "Who is Torta?",
@@ -54,7 +54,7 @@
     "where is torta",
     "torta location"
    ],
-   "answer": "Tooga's wife, who waits just south of Steamwheedle Port."
+   "answer": "Torta is Tooga's wife, waiting just south of Steamwheedle Port."
   },
   {
    "q": "Why is Tooga lost in the desert?",
@@ -63,7 +63,7 @@
     "what happened to tooga",
     "tooga backstory"
    ],
-   "answer": "Torta sent Tooga to fetch dinner, and a wrong turn left him lost."
+   "answer": "Torta sent Tooga to fetch dinner, but a wrong turn left him lost."
   },
   {
    "q": "Where is Tooga originally found?",
@@ -72,7 +72,7 @@
     "where does toogas quest start",
     "find tooga"
    ],
-   "answer": "Near a crashed goblin zeppelin by Thistleshrub Valley in Tanaris."
+   "answer": "Tooga is found near a crashed goblin zeppelin by Thistleshrub Valley in Tanaris."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Tooga's Quest"
- ]
+ ],
+ "style": 2
 }

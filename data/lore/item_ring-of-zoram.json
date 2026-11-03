@@ -10,16 +10,16 @@
    "quest:1009"
   ]
  },
- "summary": "At Zoram, the ring of the city's rulers has surfaced again after millennia beneath the sea. The naga now hold it, and Talen seeks the key to an ancient statuette.",
+ "summary": "At Zoram, the ring worn by the city's rulers has surfaced again after millennia beneath the sea. The naga hold it, and Talen seeks the key to an ancient statuette.",
  "sections": [
   {
    "title": "Ring of the Sunken City",
-   "body": "Before the Well of Eternity collapsed, Zoram stood on Kalimdor's western coast as a jewel of the night elven empire. Its rulers wore the Ring of Zoram, whose inner band bears a strange code in the night elven language. The Great Sundering shattered the continent ten thousand years ago, and the ring sank with the city beneath the tides. It lies beneath the waters of what is now the Zoram Strand.",
+   "body": "Before the Well of Eternity collapsed, Zoram stood on Kalimdor's western coast as a jewel of the night elven empire. Its rulers wore the Ring of Zoram, whose inner band bears a strange code in the night elven language. The Great Sundering shattered the continent ten thousand years ago. The ring sank with the city beneath the tides, and now lies beneath the waters of the Zoram Strand.",
    "spoiler": 0
   },
   {
    "title": "Reclamation by the Naga",
-   "body": "For millennia, silt and ruins hid the ring. Then naga began scouring Ashenvale's coast, and Ruuzel, a naga leader who dwells on an islet off the northern strand, uncovered it among the sunken debris. The night elf scholar Talen seeks the ring for more than its age. It is the only key that can unlock relics salvaged from the depths, including ancient statuettes sealed on the sea floor.",
+   "body": "For millennia, silt and ruins hid the ring. Then naga began scouring Ashenvale's coast, and Ruuzel, their leader on an islet off the northern strand, uncovered it among the sunken debris. The night elf scholar Talen seeks it for more than its age. The ring is the only key that can unlock relics salvaged from the depths, including ancient statuettes sealed on the sea floor.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does the ring do",
     "ring of zoram lore"
    ],
-   "answer": "Before the Sundering drowned Zoram, its rulers wore the ring, and it served as the key to an ancient lock. Talen now seeks it to open a locked statuette recovered from the submerged ruins."
+   "answer": "Before the Sundering drowned Zoram, its rulers wore the ring, which also served as the key to an ancient lock. Talen seeks it now to open a locked statuette recovered from the submerged ruins."
   },
   {
    "q": "Who possesses the Ring of Zoram?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The ring is a tangible piece of pre-Sundering heritage, from before arcane hubris and drowning seas tore apart the Kaldorei empire."
+   "text": "The ring is a piece of pre-Sundering heritage, from before arcane hubris and drowning seas tore apart the Kaldorei empire."
   },
   {
    "target": "faction:Alliance",
@@ -92,5 +92,5 @@
   "Ring of Zoram",
   "Ruuzel (Classic)"
  ],
- "style": 1
+ "style": 2
 }

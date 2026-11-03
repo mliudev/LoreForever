@@ -24,11 +24,11 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "In Tarren Mill, Keeper Bel'varil looks ahead to what the Magus may need next. The Magus studies the stone tokens you gathered, and Bel'varil sends you to the ruins of Dalaran for four Bracers of Earth Binding.",
+ "summary": "In Tarren Mill, Keeper Bel'varil watches for what the Magus may need next. As the Magus studies the stone tokens you gathered, Bel'varil sends you to the ruins of Dalaran for four Bracers of Earth Binding.",
  "sections": [
   {
    "title": "Bracers of Earth Binding",
-   "body": "As the Magus studies the stone tokens you gathered, Keeper Bel'varil expects another need to follow. Bracers of binding are worn on an elemental's wrists, where they bind the creature to a mage's service. Elementals wear them among the ruins of Dalaran. Bel'varil wants you to bring four Bracers of Earth Binding back to Tarren Mill.",
+   "body": "The Magus studies the stone tokens you gathered, and Keeper Bel'varil expects another need to follow. Bracers of binding are worn on an elemental's wrists, binding the creature to a mage's service. The elementals wear them among the ruins of Dalaran. Bel'varil asks you to bring four Bracers of Earth Binding back to Tarren Mill.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who gives bracers of binding",
     "keeper bel'varil quest"
    ],
-   "answer": "Keeper Bel'varil in Tarren Mill gives it to you after you gathered the stone tokens."
+   "answer": "Keeper Bel'varil gives them to you in Tarren Mill after you gather the stone tokens."
   },
   {
    "q": "What are the bracers used for?",
@@ -66,7 +66,7 @@
     "why does belvaril want bracers",
     "who wants the bracers"
    ],
-   "answer": "Bel'varil expects the Magus will eventually want examples of the bracers, which are the counterpart to the stone tokens the Magus is studying."
+   "answer": "Bel'varil expects the Magus will eventually want examples of the bracers, the counterpart to the stone tokens the Magus is studying."
   },
   {
    "q": "What came before this quest?",
@@ -102,5 +102,5 @@
  "attribution": [
   "Bracers of Binding"
  ],
- "style": 1
+ "style": 2
 }

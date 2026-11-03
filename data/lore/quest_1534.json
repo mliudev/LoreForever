@@ -17,21 +17,21 @@
   "wiki": "Call of Water (5)",
   "chain": []
  },
- "summary": "A shaman travels from the Barrens to the Ruins of Stardust for the final gathering trial in the journey to earn Call of Water. Brine sends the initiate north into Ashenvale to draw pure water from its ancient fountain.",
+ "summary": "Brine sends a shaman north from the Barrens to gather water for Call of Water. This final essence comes from an ancient fountain in Ashenvale.",
  "sections": [
   {
    "title": "Journey Into the Twilight Grove",
-   "body": "After gathering water from the pool below Brine’s hut in the Barrens and the pure well of Tarren Mill, the shaman needs one final essence. Brine sends the initiate north across the dry plains and into Ashenvale, an ancient woodland sacred to the night elves. The dry Barrens give way to Ashenvale’s deep canopy, where water takes another form. A shaman must understand this variety to live in harmony with the element.",
+   "body": "After gathering water from the pool below Brine’s hut in the Barrens and the pure well of Tarren Mill, you need one final essence. Brine sends you north across the dry plains and into Ashenvale, an ancient woodland sacred to the night elves. The Barrens give way to Ashenvale’s deep canopy, where water takes another form. To live in harmony with the element, a shaman must understand its many forms.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Stardust",
-   "body": "Beyond the shimmering waters of Mystral Lake, near the mountain pass between Ashenvale and the Stonetalon Mountains, lie the Ruins of Stardust. An ancient fountain rests among quiet waters and old stones in this secluded elven sanctum. Untamed elemental and nature spirits guard the ruins and resent intruders. The shaman must tread carefully to draw water from the fountain.",
+   "body": "Past the shimmering waters of Mystral Lake, near the mountain pass between Ashenvale and the Stonetalon Mountains, lie the Ruins of Stardust. An ancient fountain rests among quiet waters and old stones in this secluded elven sanctum. Untamed elemental and nature spirits guard the ruins and resent intruders. Tread carefully as you draw water from the fountain.",
    "spoiler": 0
   },
   {
    "title": "The Draught of Purest Water",
-   "body": "Brine receives the filled blue waterskin after the shaman’s pilgrimage across Kalimdor and the Eastern Kingdoms. She combines the pure fountain water with the samples from the Barrens watering hole and Tarren Mill, then prepares a vial of the purest water. This draught prepares the shaman for the next trial: communion with water elemental spirits through the seer Islen Waterseer.",
+   "body": "Brine receives the filled blue waterskin after your pilgrimage across Kalimdor and the Eastern Kingdoms. She combines the pure fountain water with samples from the Barrens watering hole and Tarren Mill, then prepares a vial of the purest water. This draught prepares you for the next trial: communion with water elemental spirits through the seer Islen Waterseer.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "why ruins of stardust",
     "reason for stardust water"
    ],
-   "answer": "A shaman gathers water from different expressions of the element to commune with the water spirits. The fountain in the Ruins of Stardust holds ancient, magically pure water untouched by the Barrens’ dry blight, completing the three essences Brine needs for her ritual mixture."
+   "answer": "A shaman gathers water from different forms of the element to commune with the water spirits. The fountain in the Ruins of Stardust holds ancient, magically pure water untouched by the Barrens’ dry blight. It completes the three essences Brine needs for her ritual mixture."
   },
   {
    "q": "What threats exist around the Ruins of Stardust?",
@@ -79,7 +79,7 @@
     "what happens next",
     "where do i go after brine"
    ],
-   "answer": "When Brine receives the third sample, she combines the waters to make a draught of the purest water. Then she sends the shaman to Islen Waterseer on the eastern Barrens coast for visionary communion with the elementals."
+   "answer": "When Brine receives the third sample, she combines the waters to make a draught of the purest water. Then she sends you to Islen Waterseer on the eastern Barrens coast for visionary communion with the elementals."
   },
   {
    "q": "Is Ashenvale safe for low-level Horde shamans?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Call of Water (5)"
  ],
- "style": 1
+ "style": 2
 }

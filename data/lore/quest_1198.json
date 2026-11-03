@@ -20,16 +20,16 @@
    "Blackfathom Villainy (Alliance)"
   ]
  },
- "summary": "Dawnwatcher Shaedlass sends you into Blackfathom Deeps to find the scout who went missing there. The Argent Dawn fears naga and Twilight's Hammer cultists have joined forces in the flooded ruins.",
+ "summary": "Dawnwatcher Shaedlass sends you into Blackfathom Deeps to find a missing scout. The Argent Dawn fears naga and Twilight's Hammer cultists have joined forces in the flooded ruins.",
  "sections": [
   {
    "title": "Eyes in Darnassus",
-   "body": "The Argent Dawn watches for threats across Kalimdor as well as the Scourge in Lordaeron. Dawnwatcher Shaedlass gathers reports from Darnassus about unnatural dangers. Word reaches him that naga and the doomsday zealots of the Twilight's Hammer have made a pact in Blackfathom Deeps, the flooded ruins along the Ashenvale shore. The order fears what this alliance could bring.",
+   "body": "The Argent Dawn watches for threats across Kalimdor, as well as the Scourge in Lordaeron. In Darnassus, Dawnwatcher Shaedlass gathers reports of dangers beyond the natural world. Word reaches him that naga have made a pact with the doomsday zealots of Twilight's Hammer in Blackfathom Deeps. The flooded ruins lie along the Ashenvale shore, and the order fears what this alliance may bring.",
    "spoiler": 0
   },
   {
    "title": "The Missing Scout",
-   "body": "Argent Guard Thaelrid entered the caverns to investigate the coastal rumors. Weeks have passed without word, and Shaedlass's other scouts are away on separate operations. He fears Thaelrid has fallen or been captured by the dark powers beneath the waves. Now he asks you to enter Blackfathom Deeps and bring the missing scout back alive.",
+   "body": "Argent Guard Thaelrid entered the caverns to investigate rumors from the coast. Weeks have passed without word, and Shaedlass's other scouts are away on separate operations. He fears Thaelrid has fallen or been taken by the dark powers beneath the waves. So he sends you into Blackfathom Deeps to bring the missing scout back alive.",
    "spoiler": 0
   }
  ],
@@ -59,7 +59,7 @@
     "thaelrid lore",
     "missing scout thaelrid"
    ],
-   "answer": "Argent Guard Thaelrid is an Argent Dawn operative sent to investigate Blackfathom Deeps. He was sent to learn the strength and intent of the naga and cultists in the drowned caverns."
+   "answer": "Argent Guard Thaelrid is an Argent Dawn operative sent to investigate Blackfathom Deeps. He went to learn the strength and intent of the naga and cultists in the drowned caverns."
   },
   {
    "q": "Where can Thaelrid be found?",
@@ -77,7 +77,7 @@
     "followup to thaelrid",
     "next quest after thaelrid"
    ],
-   "answer": "When Thaelrid is found, he reveals the true nature of the ritual in the ruins and points you toward the cult's leaders in Blackfathom Villainy."
+   "answer": "When you find Thaelrid, he reveals the true nature of the ritual in the ruins and points you toward the cult's leaders in Blackfathom Villainy."
   },
   {
    "q": "Can Horde players take this mission?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know the ancient Temple of Elune in Blackfathom Deeps has been defiled. Helping the Argent Dawn means recovering sacred night elven heritage."
+   "text": "As a night elf, you know the ancient Temple of Elune in Blackfathom Deeps has been defiled. Helping the Argent Dawn means recovering sacred night elf heritage."
   },
   {
    "target": "class:Paladin",
@@ -126,5 +126,5 @@
  "attribution": [
   "In Search of Thaelrid"
  ],
- "style": 1
+ "style": 2
 }

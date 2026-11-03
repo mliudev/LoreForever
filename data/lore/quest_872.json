@@ -17,16 +17,16 @@
   "wiki": "The Disruption Ends",
   "chain": []
  },
- "summary": "Thork orders a strike against the Razormane raids on the Horde road. Kreenig Snarlsnout leads the attacks from the northern Barrens, and his death is meant to break the warband's hold on the route between Durotar and the Crossroads.",
+ "summary": "Along the Horde road, Thork orders a strike to end the Razormane raids. Kreenig Snarlsnout leads the attacks from the northern Barrens, and his death is meant to break the warband's hold on the route between Durotar and the Crossroads.",
  "sections": [
   {
    "title": "Cutting the Head",
-   "body": "The road between Durotar and the Crossroads carries provisions and reinforcements through the northern Barrens. Razormane quilboar ambushes have kept it under threat. Scout reports name their leader as Kreenig Snarlsnout, whose raiding party organizes the attacks. Thork orders a strike against Kreenig, hoping to break the warband's unity and secure the road.",
+   "body": "The road between Durotar and the Crossroads carries provisions and reinforcements through the northern Barrens. Razormane quilboar ambushes threaten that passage. Scout reports name Kreenig Snarlsnout as their leader. His raiding party organizes the attacks, so Thork orders a strike against him to break the warband's unity and secure the road.",
    "spoiler": 0
   },
   {
    "title": "Breaching the Encampment",
-   "body": "Kreenig's war party is entrenched in craggy hills northeast of the Crossroads. Hardy Razormane Defenders and geomancers who manipulate the arid earth shield his position. Thork's order is to break through that guard and strike Kreenig in his redoubt, sending a warning across the plains. His tusk will prove the leader's death and show that the Horde will not accept attacks on its lifelines.",
+   "body": "Kreenig's war party holds craggy hills northeast of the Crossroads. Hardy Razormane Defenders and geomancers who manipulate the arid earth shield his position. Thork orders a breach through their guard and a strike against Kreenig in his redoubt. His tusk will prove the leader's death and warn the plains that the Horde will not accept attacks on its lifelines.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "kreenig snarlsnout lore",
     "who leads the razormane raiders"
    ],
-   "answer": "Kreenig Snarlsnout is a Razormane quilboar raid leader northeast of the Crossroads. He organized attacks on Horde caravans traveling the main road from Durotar, leading Thork to order his execution."
+   "answer": "Kreenig Snarlsnout is a Razormane quilboar raid leader northeast of the Crossroads. He organized attacks on Horde caravans on the main road from Durotar, so Thork orders his execution."
   },
   {
    "q": "Where is Kreenig Snarlsnout located?",
@@ -56,7 +56,7 @@
     "why take the tusk",
     "thork tusk trophy"
    ],
-   "answer": "A tusk carries cultural weight among orcs and quilboar. Kreenig's tusk proves his death and insults his defeat, demoralizing the remaining Razormane fighters."
+   "answer": "A tusk carries cultural weight among orcs and quilboar. Kreenig's tusk proves his death and marks his defeat, demoralizing the remaining Razormane fighters."
   },
   {
    "q": "How does killing Kreenig help the Crossroads?",
@@ -83,7 +83,7 @@
     "what comes before the disruption ends",
     "previous quest"
    ],
-   "answer": "The assignment follows Disrupt the Attacks, when scouts first identified the Razormane tribe's role in caravan raids along the eastern frontier."
+   "answer": "This assignment follows Disrupt the Attacks, when scouts first identified the Razormane tribe's role in caravan raids along the eastern frontier."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know Thork's approach: break the enemy's resolve by cutting down its chieftain in front of its warriors."
+   "text": "As an orc, you know Thork's approach: break the enemy's resolve by cutting down its chieftain before his warriors."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "The Disruption Ends"
  ],
- "style": 1
+ "style": 2
 }

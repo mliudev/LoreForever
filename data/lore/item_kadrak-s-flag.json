@@ -10,11 +10,11 @@
    "quest:3514"
   ]
  },
- "summary": "At the edge of the Barrens and Ashenvale, Kadrak gives the Horde a mark to carry into enemy ground. The flag is planted in the Talon Den after Keymaster Rynthariel is killed.",
+ "summary": "At the Barrens border, Kadrak sends the Horde's colors into enemy ground. The banner is planted in the Talon Den after Rynthariel is killed.",
  "sections": [
   {
    "title": "A Mark of Defiance",
-   "body": "Kadrak sends the Horde flag into the Talon Den on Stonetalon Peak. The dryad Rynthariel, Keymaster of the Den, has sent communications across the border, and Kadrak decides her death alone will not answer them. He gives you the crimson banner to plant deep inside the Den. The Horde colors there carry a warning to the night elves and dryads: incursions across the Barrens will meet retaliation on Alliance soil.",
+   "body": "Kadrak sends the Horde flag into the Talon Den on Stonetalon Peak. Rynthariel, the Den's dryad Keymaster, has sent messages across the border. Kadrak decides her death alone will not answer them. He gives you a crimson banner to plant deep inside the Den. There, the Horde colors warn the night elves and dryads that incursions across the Barrens will meet retaliation on Alliance soil.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why plant flag",
     "what does flag do"
    ],
-   "answer": "Plant Kadrak's Flag inside the Talon Den atop Stonetalon Peak after killing Rynthariel the Keymaster. The Horde banner warns the night elves against sending more scouts and messengers into the Barrens."
+   "answer": "After killing Rynthariel the Keymaster, plant Kadrak's Flag inside the Talon Den atop Stonetalon Peak. The Horde banner warns the night elves against sending more scouts and messengers into the Barrens."
   },
   {
    "q": "Who gives you the flag?",
@@ -35,7 +35,7 @@
     "where to get flag",
     "kadrak location"
    ],
-   "answer": "Kadrak, an orc scout at the border watchpost between the northern Barrens and Ashenvale, gives you the banner as he works to secure the region."
+   "answer": "Kadrak gives you the banner. He is an orc scout at the border watchpost between the northern Barrens and Ashenvale, working to secure the region."
   },
   {
    "q": "Where is the flag planted?",
@@ -59,11 +59,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Planting the banner deep inside the Talon Den declares the Horde's strength and shows it will strike night elf sanctuaries when provoked."
+   "text": "Planting the banner deep inside the Talon Den declares the Horde's strength. It shows the Horde will strike night elf sanctuaries when provoked."
   },
   {
    "target": "race:NightElf",
-   "text": "For a night elf, the Horde banner inside the Talon Den is a direct insult to the protectors of Stonetalon Peak."
+   "text": "As a night elf, you see the Horde banner inside the Talon Den as a direct insult to Stonetalon Peak's protectors."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Kadrak's Flag",
   "Horde Presence"
  ],
- "style": 1
+ "style": 2
 }

@@ -24,16 +24,16 @@
    "Reassignment"
   ]
  },
- "summary": "At Southshore, Farren's Proof carries Marshal Redpath's orders to Lieutenant Farren Orinelle. The Marshal wants him to turn his attention to the naga pressing along the Eastern Strand.",
+ "summary": "In Southshore, Marshal Redpath sends Lieutenant Farren Orinelle orders to turn toward the naga on the Eastern Strand. He wants Orinelle to drive them back and report in person.",
  "sections": [
   {
    "title": "A Shift in Command",
-   "body": "Marshal Redpath sends word across Southshore to Lieutenant Farren Orinelle. Fresh reports speak of naga incursions on the Eastern Strand, and the Marshal wants Orinelle to focus on that threat. He orders the lieutenant to set aside other concerns, drive back the naga, and report his progress in person.",
+   "body": "Marshal Redpath sends word across Southshore to Lieutenant Farren Orinelle. Reports tell of naga incursions on the Eastern Strand, and Redpath wants Orinelle focused on that threat. The lieutenant must set aside other concerns, drive back the naga, and report his progress to the Marshal in person.",
    "spoiler": 0
   },
   {
    "title": "Rivalry on the Coast",
-   "body": "Lieutenant Farren Orinelle suspects Marshal Redpath wants credit for calming the Eastern Strand. He believes Redpath is using intelligence they both received to claim the work of the garrison. Unwilling to let his commander earn a promotion through his soldiers' labor, Orinelle begins devising another way to win favor with the crown.",
+   "body": "Lieutenant Farren Orinelle suspects Marshal Redpath wants credit for calming the Eastern Strand. He thinks Redpath is using intelligence they both received to claim the garrison's work. Unwilling to let his commander earn a promotion through his soldiers' labor, Orinelle begins devising another way to win favor with the crown.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "why send message to farren",
     "farren proof 3 objective"
    ],
-   "answer": "Marshal Redpath's orders redirect Lieutenant Farren Orinelle's attention to the naga on Hillsbrad's Eastern Strand and require him to report progress directly to the Marshal."
+   "answer": "Marshal Redpath's orders direct Lieutenant Farren Orinelle to face the naga on Hillsbrad's Eastern Strand and report his progress to the Marshal in person."
   },
   {
    "q": "Why does Farren Orinelle react bitterly to Redpath's orders?",
@@ -63,7 +63,7 @@
     "where are the naga",
     "hillsbrad coast"
    ],
-   "answer": "The Eastern Strand runs along the southern coast of the Hillsbrad Foothills, southeast of Southshore, where naga have made encampments on the sand."
+   "answer": "The Eastern Strand runs along the southern coast of the Hillsbrad Foothills, southeast of Southshore. Naga have made encampments on its sand."
   },
   {
    "q": "What comes next after delivering this message?",
@@ -126,5 +126,5 @@
  "attribution": [
   "Farren's Proof (3)"
  ],
- "style": 1
+ "style": 2
 }

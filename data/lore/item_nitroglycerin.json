@@ -10,16 +10,16 @@
    "quest:846"
   ]
  },
- "summary": "At Bael Modan, Nitroglycerin helps the dwarves drive their excavation through tauren lands. Their soldiers and officers carry the volatile chemical, which can also be used against the fortress.",
+ "summary": "At Bael Modan, Nitroglycerin lets dwarves press their excavation into tauren lands. Soldiers and officers carry the volatile chemical, which can also be turned against the fortress.",
  "sections": [
   {
    "title": "Industrial Demolition",
-   "body": "Bael Modan's dwarves dig into the ancestral lands of the Stonespire tauren with heavy drillers and volatile chemicals. At the excavation site and its fortified keep, they keep nitroglycerin close to blast deep holes and break apart hills. Soldiers and officers, including Lord Cyrik Blackforge, carry vials of the fluid as the digging continues.",
+   "body": "At Bael Modan, dwarves dig into the ancestral lands of the Stonespire tauren. Heavy drillers and volatile chemicals help them drive the excavation forward. At the site and its fortified keep, they use nitroglycerin to blast deep holes and break apart hills. Soldiers and officers carry vials as the work continues, among them Lord Cyrik Blackforge.",
    "spoiler": 0
   },
   {
    "title": "A Taste of Their Own Medicine",
-   "body": "After Prospector Khazgorm dies, Gann Stonespire seeks to destroy the encroaching fortress. The displaced tauren brave studies dwarven engineering plans and learns that nitroglycerin combined with wood pulp and sodium nitrate makes a charge strong enough to strike Bael Modan's military garrison.",
+   "body": "After Prospector Khazgorm dies, Gann Stonespire seeks to destroy the fortress encroaching on his people's lands. The displaced tauren studies dwarven engineering plans despite the danger. He learns that nitroglycerin, wood pulp, and sodium nitrate can be combined into a charge strong enough to strike Bael Modan's military garrison.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who drops nitroglycerin",
     "nitroglycerin source"
    ],
-   "answer": "Dwarven forces at Bael Modan in the southern Barrens carry nitroglycerin, including Bael'dun Soldiers, Riflemen, Officers, and Lord Cyrik Blackforge in the keep."
+   "answer": "Dwarven forces at Bael Modan in the southern Barrens carry nitroglycerin. Among them are Bael'dun Soldiers, Riflemen, Officers, and Lord Cyrik Blackforge in the keep."
   },
   {
    "q": "What is the nitroglycerin used for?",
@@ -40,7 +40,7 @@
     "nitroglycerin purpose",
     "revenge of gann ingredients"
    ],
-   "answer": "Gann Stonespire combines nitroglycerin with wood pulp and sodium nitrate to make a powerful charge against the military fortress at Bael Modan."
+   "answer": "Gann Stonespire combines nitroglycerin with wood pulp and sodium nitrate to make a powerful charge against Bael Modan's military fortress."
   },
   {
    "q": "Why were the dwarves carrying it in the first place?",
@@ -48,7 +48,7 @@
     "why do dwarves have nitroglycerin",
     "bael modan explosives"
    ],
-   "answer": "The Bael Modan prospectors and garrison use explosives, steam engines, and volatile chemicals to open the earth at their archaeological dig site."
+   "answer": "At their archaeological dig site, Bael Modan prospectors and soldiers use explosives, steam engines, and volatile chemicals to open the earth."
   },
   {
    "q": "Who is Gann Stonespire?",
@@ -56,13 +56,13 @@
     "who is gann",
     "gann stonespire"
    ],
-   "answer": "Gann Stonespire is an exiled tauren warrior whose tribe lost its ancestral lands when the dwarves built the Bael Modan excavation site and keep, driving them out through industrial destruction."
+   "answer": "Gann Stonespire is an exiled tauren warrior. The dwarves built the Bael Modan excavation site and keep on his tribe's ancestral lands, driving the Stonespire from them through industrial destruction."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers know nitroglycerin as a compounding explosive. Wood pulp absorbs it, and sodium nitrate helps make it stable and detonable."
+   "text": "As an engineer, you know nitroglycerin as a compounding explosive. Wood pulp absorbs it, while sodium nitrate helps make it stable and detonable."
   },
   {
    "target": "race:Tauren",
@@ -91,5 +91,5 @@
   "Nitroglycerin",
   "Revenge of Gann"
  ],
- "style": 1
+ "style": 2
 }

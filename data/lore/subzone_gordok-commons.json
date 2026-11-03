@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gordok Commons"
  },
- "summary": "The Gordok Commons comprise the fortified northern quarter of the ancient Highborne ruins of Dire Maul. Under the rule of King Gordok, this sprawling stone complex serves as the seat of power for the elite warrior caste of the Gordunni ogres.",
+ "summary": "In the Gordok Commons, King Gordok rules the Gordunni’s northern stronghold in Dire Maul.",
  "sections": [
   {
    "title": "Seat of the Ogre King",
-   "body": "Occupying what was once an aristocratic wing of Eldre'Thalas, the Gordok Commons have been thoroughly desecrated and refitted for ogre tastes. Grand night elven pillars and arched passageways now house armories, crude barricades, and training grounds for the Gordok\u2014the fiercest, most disciplined fighters among the Gordunni clan. At the deepest end of the wing lies Gordok's Seat, where King Gordok presides over his brutes through sheer force and intimidation.",
+   "body": "The Gordok Commons fill an old aristocratic wing of Eldre'Thalas. The ogres have remade its night elven pillars and arched passages for their own needs. Armories, crude barricades, and training grounds crowd the halls. Here the Gordok train, the fiercest and most disciplined fighters in the Gordunni clan. At the far end, King Gordok holds court at Gordok's Seat and rules through force and fear.",
    "spoiler": 0
   },
   {
    "title": "Law of Succession",
-   "body": "Gordok culture operates entirely on brutal precedent: might makes right. According to clan tradition, whoever slays the sitting monarch claims the title of King Gordok, earning immediate obedience from any surviving captains and guards. Astute intruders exploit this custom by sneaking or scheming past the king's lieutenants rather than slaying them outright. If a challenger executes only the king, the surviving guards will recognize the victor's authority and present lavish tributes rather than fight to avenge their former ruler.",
+   "body": "Among the Gordunni, might decides who rules. By clan tradition, whoever slays the sitting monarch takes the title of King Gordok and wins the obedience of the surviving captains and guards. A challenger may slip past the king's lieutenants through stealth or guile. If the challenger kills only the king, the guards accept the victor's authority and bring lavish tributes instead of avenging their former ruler.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is dire maul north",
     "how to find gordok commons"
    ],
-   "answer": "The Commons occupy the northern quarter of Dire Maul in Feralas. To reach them, enter the sprawling ruin through the Broken Commons and proceed through the massive stone corridors to the northern entrance."
+   "answer": "The Gordok Commons fill Dire Maul's northern quarter in Feralas. Enter the ruin through the Broken Commons, then follow the massive stone corridors to the northern entrance."
   },
   {
    "q": "Who are the Gordok ogres?",
@@ -37,7 +37,7 @@
     "gordok clan",
     "gordunni elite"
    ],
-   "answer": "The Gordok are the elite warrior caste of the Gordunni ogre clan. Unlike their scattered, feral kin prowling the Feralas wilderness, the Gordok within the Commons are organized, heavily armed, and bound to a strict military chain of command under their king."
+   "answer": "The Gordok are the elite warrior caste of the Gordunni ogre clan. Their kin roam the Feralas wilderness in scattered, feral bands, while the Gordok in the Commons are organized, heavily armed, and obey a strict chain of command under their king."
   },
   {
    "q": "How does ogre leadership work in the Commons?",
@@ -46,7 +46,7 @@
     "gordok succession",
     "king gordok lore"
    ],
-   "answer": "Gordok rule is decided by combat. Whoever kills the reigning King Gordok instantly claims the crown. Once the king falls, the remaining ogres surrender and honor the conqueror as their rightful sovereign."
+   "answer": "Combat decides who rules the Gordok. Whoever kills the reigning King Gordok claims the crown, and the remaining ogres submit to their new sovereign."
   },
   {
    "q": "Why do adventurers leave the ogre guards alive?",
@@ -55,13 +55,13 @@
     "sparing the guards",
     "gordok tribute lore"
    ],
-   "answer": "If an intruder reaches King Gordok and defeats him without slaying his lieutenants, those surviving commanders submit to the new king. In return for showing restraint and claiming the throne directly, the new ruler is awarded valuable tribute offerings from the garrison."
+   "answer": "When an intruder defeats King Gordok and leaves his lieutenants alive, the commanders submit to the new king. The garrison brings valuable tribute to whoever claims the throne directly."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The goblin prisoner Knot Thimblejack relies on resourceful engineers and tinkerers within the Commons to scavenge supplies, mend broken traps, and devise clever distractions against the ogre guards."
+   "text": "As an engineer, you can help Knot Thimblejack, the goblin prisoner, scavenge supplies, mend broken traps, and devise clever distractions against the ogre guards."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Gordok Commons"
- ]
+ ],
+ "style": 2
 }

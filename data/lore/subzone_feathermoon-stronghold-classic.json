@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Feathermoon Stronghold (Classic)"
  },
- "summary": "Feathermoon Stronghold is a fortified night elf bastion situated on Sardor Isle off the western shores of Feralas. Established by General Shandris Feathermoon, it serves as the Alliance's primary staging ground and military anchor in southern Kalimdor.",
+ "summary": "On Sardor Isle, Feathermoon Stronghold guards Feralas's western shore. General Shandris Feathermoon established it as the Alliance's main staging ground and military anchor in southern Kalimdor.",
  "sections": [
   {
    "title": "Sentinel Bastion of the South",
-   "body": "Perched on Sardor Isle just off the Forgotten Coast, Feathermoon Stronghold stands as a crucial bulwark for the Night Elves and the broader Alliance. Built under the direction of General Shandris Feathermoon\u2014Tyrande Whisperwind's trusted lieutenant for ten millennia\u2014the fortress projects Sentinel power deep into southern Kalimdor. Its isolated island geography shields it from the beasts, ogres, and Horde interlopers prowling the primeval jungles of mainland Feralas.",
+   "body": "Feathermoon Stronghold guards Sardor Isle, just off the Forgotten Coast. General Shandris Feathermoon built the fortress to carry Sentinel power deep into southern Kalimdor. Tyrande Whisperwind has trusted Shandris as her lieutenant for ten thousand years. The island shields the stronghold from beasts, ogres, and Horde forces crossing mainland Feralas.",
    "spoiler": 0
   },
   {
    "title": "Lifeline Across the Waves",
-   "body": "Given its insular position, Feathermoon relies heavily on sea and air links to maintain logistics. A small passenger boat regularly shuttles travellers across the channel between Sardor Isle and the Forgotten Coast dock. For distant travel, a dedicated hippogryph roost ties the stronghold directly to major Alliance hubs, including Thalanaar on the Thousand Needles border, Nijel's Point in the Desolace highlands, and Auberdine in the north.",
+   "body": "Boats and hippogryphs link Feathermoon Stronghold to the mainland and distant Alliance hubs. A passenger boat crosses the channel between Sardor Isle and the Forgotten Coast dock. For longer journeys, a hippogryph roost connects the stronghold with Thalanaar on the Thousand Needles border, Nijel's Point in the Desolace highlands, and Auberdine in the north.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "feathermoon boat",
     "getting to sardor isle"
    ],
-   "answer": "Travelers can catch a ferry boat that departs from a dock on the Forgotten Coast directly across the strait, or simply swim the narrow channel to Sardor Isle. Alliance members can also fly in by hippogryph once the flight master is discovered."
+   "answer": "From mainland Feralas, take the ferry from a Forgotten Coast dock across the strait, or swim the narrow channel to Sardor Isle. Alliance travelers can also fly by hippogryph after discovering the flight master."
   },
   {
    "q": "Who commands Feathermoon Stronghold?",
@@ -37,7 +37,7 @@
     "feathermoon leader",
     "shandris feathermoon"
    ],
-   "answer": "The outpost is commanded by General Shandris Feathermoon, the high-ranking leader of the Sentinels and long-serving military subordinate to High Priestess Tyrande Whisperwind."
+   "answer": "General Shandris Feathermoon commands Feathermoon Stronghold. She leads the Sentinels and has long served High Priestess Tyrande Whisperwind as a military subordinate."
   },
   {
    "q": "Why is the stronghold located on an island instead of the mainland?",
@@ -46,7 +46,7 @@
     "why island fortress",
     "feathermoon location lore"
    ],
-   "answer": "Sardor Isle provides natural isolation and security from the dense threats of the Feralas wilderness, including aggressive wildlife, primal ruins, and hostile forces, allowing the Sentinels to maintain an unassailable redoubt."
+   "answer": "Sardor Isle's isolation shields Feathermoon Stronghold from Feralas's dense threats, including aggressive wildlife, primal ruins, and hostile forces. That protection lets the Sentinels hold a secure redoubt."
   },
   {
    "q": "Where do flight paths from Feathermoon connect?",
@@ -54,17 +54,17 @@
     "feathermoon flight master",
     "where do feathermoon hippogryphs go"
    ],
-   "answer": "Feathermoon's hippogryph master maintains routes connecting across western Kalimdor, including Auberdine in Darkshore, Nijel's Point in Desolace, Thalanaar in Feralas, and Cenarion Hold in Silithus."
+   "answer": "Feathermoon's hippogryph routes connect to Auberdine in Darkshore, Nijel's Point in Desolace, Thalanaar in Feralas, and Cenarion Hold in Silithus."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Feathermoon Stronghold represents the primary safe haven, vendor post, and staging center for Alliance operations deep within southern Kalimdor."
+   "text": "For the Alliance, Feathermoon Stronghold offers a safe haven, vendor post, and staging center for operations deep in southern Kalimdor."
   },
   {
    "target": "race:NightElf",
-   "text": "The stronghold serves as the southern military seat of General Shandris Feathermoon and the Sentinels, standing as a vital guardian of the ancient wilderness."
+   "text": "As a night elf, you can look to feathermoon stronghold as the southern military seat of General Shandris Feathermoon and the Sentinels, guarding the ancient wilderness."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Feathermoon Stronghold (Classic)"
- ]
+ ],
+ "style": 2
 }

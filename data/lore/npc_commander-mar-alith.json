@@ -8,21 +8,21 @@
   "wiki": "Commander Mar'alith",
   "refs": 4
  },
- "summary": "Commander Mar'alith is the stalwart night elf military commander directing the Cenarion Circle's vanguard at Cenarion Hold in Silithus. Clad in heavy armor and wielding a grand glaive, he coordinates the martial resistance against the silithid swarms and Twilight's Hammer cultists. Beneath his resolute leadership lies a deep personal sorrow regarding the mysterious fate of his beloved wife, Natalia.",
+ "summary": "At Cenarion Hold, Commander Mar'alith holds the line against the dangers of Silithus. He leads the fight against silithid swarms and Twilight's Hammer cultists, while grief over his missing wife weighs on him.",
  "sections": [
   {
    "title": "Commander of the Hold",
-   "body": "Stationed at the heart of Cenarion Hold, Commander Mar'alith bears the tremendous responsibility of safeguarding the Circle's desert bastion. While the druids unravel the ancient ecological and cosmic anomalies of Silithus, Mar'alith handles the grim, practical necessities of war. He oversees tactical strikes against the bustling silithid hives of Hive'Ashi, Hive'Zora, and Hive'Regal, ensuring that the relentless insectoid incursions do not overwhelm the expedition's central foothold.",
+   "body": "At Cenarion Hold, Commander Mar'alith guards the Cenarion Circle's desert stronghold. The druids study Silithus's ancient ecological and cosmic anomalies, while he directs the work of war. His forces strike at the silithid hives of Hive'Ashi, Hive'Zora, and Hive'Regal. They keep the incursions from overwhelming the expedition's central foothold.",
    "spoiler": 0
   },
   {
    "title": "Grief in the Desert",
-   "body": "Despite his stern military bearing, Mar'alith is visibly strained by a harrowing personal tragedy. His beloved wife, Natalia Mar'alith, ventured into the shifting sands on an assignment for the Circle and failed to return. Caught between his duty to the Cenarion expedition and agonizing grief, the commander appears increasingly distracted, clinging to whatever hope remains while desperate for news of what truly became of her in the wastes.",
+   "body": "Commander Mar'alith's stern bearing cannot hide his grief. His beloved wife, Natalia Mar'alith, went into the shifting sands on an assignment for the Circle and did not return. He holds to his duty to the Cenarion expedition, though he longs for news of what happened to her in the wastes.",
    "spoiler": 0
   },
   {
    "title": "A Tragic Fate",
-   "body": "The dreadful truth of Natalia's disappearance weighs heavily on the commander. Those who trace her footsteps discover that she succumbed to madness amidst the whispers of the desert and was brainwashed by a Qiraji crystal into the service of C'Thun. Learning of her tragic end leaves Mar'alith deeply shaken, forcing the commander to endure devastating heartbreak while continuing to direct the defense of Silithus against the looming horrors underground.",
+   "body": "Natalia Mar'alith succumbed to madness amid the desert's whispers. Then a Qiraji crystal brainwashed her into serving C'Thun. The truth leaves Commander Mar'alith deeply shaken. Even through heartbreak, he directs Silithus's defense against the horrors below.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is commander maralith",
     "night elf commander silithus"
    ],
-   "answer": "Commander Mar'alith is a night elf officer serving as the supreme military commander of the Cenarion Circle's forces at Cenarion Hold. He organizes scouts, defense forces, and tactical strikes against the silithid hives across Silithus."
+   "answer": "Commander Mar'alith commands the Cenarion Circle's military forces at Cenarion Hold. He organizes scouts, defenses, and strikes against the silithid hives across Silithus."
   },
   {
    "q": "Where can Commander Mar'alith be found?",
@@ -42,7 +42,7 @@
     "maralith location",
     "where is maralith"
    ],
-   "answer": "He is located inside Cenarion Hold, the primary neutral settlement established by the Cenarion Circle in the windswept sands of Silithus."
+   "answer": "Commander Mar'alith can be found inside Cenarion Hold, the Cenarion Circle's main neutral settlement in the sands of Silithus."
   },
   {
    "q": "What happened to his wife, Natalia?",
@@ -51,7 +51,7 @@
     "dearest natalia",
     "natalia maralith fate"
    ],
-   "answer": "Natalia Mar'alith vanished into the desert during an expedition and never returned. Adventurers who follow her trail through Silithus can learn what became of her."
+   "answer": "Natalia Mar'alith vanished into the desert during an expedition and never returned. Following her trail through Silithus reveals what became of her."
   },
   {
    "q": "Why does Mar'alith seem absent-minded?",
@@ -59,7 +59,7 @@
     "why is maralith distracted",
     "maralith acting weird"
    ],
-   "answer": "The commander is wracked with sorrow and anxiety over the absence and fate of his missing wife, which frequently distracts him even as he struggles to direct the defense of the fortress."
+   "answer": "Sorrow and anxiety over his missing wife and her fate weigh on Commander Mar'alith. Even so, he directs the fortress's defense."
   },
   {
    "q": "What tasks does Commander Mar'alith assign to adventurers?",
@@ -67,7 +67,7 @@
     "maralith quests",
     "what quests does maralith give"
    ],
-   "answer": "Mar'alith issues combat assignments directing champions to cull silithid forces in Hive'Ashi, Hive'Zora, and Hive'Regal, counter the Twilight's Hammer, and investigate the fate of his missing wife."
+   "answer": "Commander Mar'alith sends champions against silithids in Hive'Ashi, Hive'Zora, and Hive'Regal. He also sets them against the Twilight's Hammer and asks them to investigate his wife's fate."
   },
   {
    "q": "Is Commander Mar'alith a druid?",
@@ -75,17 +75,17 @@
     "is maralith a druid",
     "maralith class"
    ],
-   "answer": "No. Although he serves the Cenarion Circle, Mar'alith is an armored sentinel and warrior commander who oversees the expedition's martial defense and tactical operations rather than wielding druidic magic."
+   "answer": "No. Commander Mar'alith is an armored sentinel and warrior commander. He directs the expedition's military defense and tactics rather than wielding druidic magic."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Mar'alith exemplifies the dedication of Kaldorei sentinels and warriors who stand guard alongside the druidic order, defending Kalimdor against ancient threats despite steep personal sacrifice."
+   "text": "As a night elf, you share the sentinels' and warriors' devotion to guarding Kalimdor beside the druids, even at great personal cost."
   },
   {
    "target": "class:Warrior",
-   "text": "Clad in heavy plate and brandishing a massive glaive, Mar'alith directs raw battlefield warfare amidst a settlement primarily populated by mystics and nature keepers."
+   "text": "As a warrior, you know the work of battlefield command. Mar'alith directs the fighting in heavy armor and bears a massive glaive among the settlement's mystics and nature keepers."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Commander Mar'alith"
- ]
+ ],
+ "style": 2
 }

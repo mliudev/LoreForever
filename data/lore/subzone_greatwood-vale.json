@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Greatwood Vale"
  },
- "summary": "The Grimtotem have seized Greatwood Vale in the eastern foothills of the Stonetalon Mountains. The perilous Webwinder Path leads into the forested valley, which the tribe now uses to launch bloody assaults on nearby settlements.",
+ "summary": "In eastern Stonetalon, the Grimtotem hold Greatwood Vale and strike at nearby settlements. The dangerous Webwinder Path leads into the forested valley, now their base for bloody assaults.",
  "sections": [
   {
    "title": "A Contested Valley",
-   "body": "Greatwood Vale has become a violent frontier off the Webwinder Path. Grundig Darkcloud leads the Grimtotem who have moved into the vale in force. They block safe passage and terrorize the surrounding foothills.",
+   "body": "Greatwood Vale has become a violent frontier off the Webwinder Path. Grundig Darkcloud leads the Grimtotem who have moved into the vale in force. They bar safe passage and terrorize the surrounding foothills.",
    "spoiler": 0
   },
   {
    "title": "The Scourge of Camp Aparaje",
-   "body": "From Greatwood Vale, Grimtotem raiders swept into nearby Camp Aparaje and slaughtered nearly every tauren there. Makaba Flathoof escaped the attack. Now he directs vengeful Horde warriors into the heart of the vale to kill the renegade Grimtotem and end Grundig Darkcloud's rule.",
+   "body": "From Greatwood Vale, Grimtotem raiders swept into nearby Camp Aparaje and slaughtered nearly every tauren there. Makaba Flathoof escaped. Now he directs vengeful Horde warriors into the heart of the vale to kill the renegade Grimtotem and end Grundig Darkcloud's rule.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "greatwood vale enemies",
     "grimtotem in greatwood vale"
    ],
-   "answer": "Grundig Darkcloud leads the Grimtotem tribe occupying Greatwood Vale. Their warbands and spellcasters menace anyone traveling through the woods."
+   "answer": "Grundig Darkcloud leads the Grimtotem occupying Greatwood Vale. Their warbands and spellcasters threaten anyone traveling through the woods."
   },
   {
    "q": "What happened at Camp Aparaje?",
@@ -46,13 +46,13 @@
     "makaba flathoof quest",
     "avenge my village"
    ],
-   "answer": "The Grimtotem have not formally joined the Horde, despite Magatha's presence in Thunder Bluff. Grundig Darkcloud's followers attacked fellow tauren at Camp Aparaje, so survivors called on Horde warriors for aid."
+   "answer": "The Grimtotem have not formally joined the Horde, despite Magatha's presence in Thunder Bluff. After Grundig Darkcloud's followers attacked fellow tauren at Camp Aparaje, survivors called on Horde warriors for aid."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For loyal children of Thunder Bluff, cleansing Greatwood Vale is a sorrowful, personal duty after the Grimtotem slaughtered fellow tauren at Camp Aparaje."
+   "text": "For a loyal child of Thunder Bluff, cleansing Greatwood Vale is a sorrowful, personal duty after the Grimtotem slaughtered fellow tauren at Camp Aparaje."
   },
   {
    "target": "faction:Horde",
@@ -82,5 +82,5 @@
  "attribution": [
   "Greatwood Vale"
  ],
- "style": 1
+ "style": 2
 }

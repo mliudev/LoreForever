@@ -22,16 +22,16 @@
    "Look To The Stars (4)"
   ]
  },
- "summary": "In Duskwood, Viktori Prism'Antras looks beyond the canopy for answers to the forest's curse. He trusts observation over arcane superstition and asks you to gather parts for a telescope drawn up by his gnomish associate.",
+ "summary": "In Duskwood, Viktori Prism'Antras looks to the skies for answers to the forest's curse. He trusts observation over arcane superstition and asks you to gather parts for a telescope designed by his gnomish associate.",
  "sections": [
   {
    "title": "Searching the Skies",
-   "body": "Viktori Prism'Antras sees Duskwood's troubles differently from many in fearful Darkshire. He doubts that black magic, curses, and restless dead alone explain the land's corruption. He believes answers may lie above the canopy. With blueprints from his gnomish partner, Cog, he plans to build an instrument for looking into the heavens.",
+   "body": "Many in fearful Darkshire blame Duskwood's troubles on black magic, curses, and restless dead. Viktori Prism'Antras doubts these alone explain the land's corruption. He believes answers may lie above the canopy. With blueprints from his gnomish partner, Cog, he plans to build an instrument for studying the heavens.",
    "spoiler": 0
   },
   {
    "title": "A Matter of Engineering",
-   "body": "Viktori needs a sturdy frame to begin building the stargazing instrument. Cog's plans call for a machined bronze tube, and Viktori asks you to find one. He trusts practical engineering and careful observation to shed light where mysticism has failed.",
+   "body": "Viktori needs a sturdy frame to begin building his instrument for stargazing. Cog's plans call for a machined bronze tube, and Viktori asks you to find one. He trusts practical engineering and careful observation to shed light where mysticism has failed.",
    "spoiler": 0
   }
  ],
@@ -119,5 +119,5 @@
  "attribution": [
   "Look To The Stars (Classic)"
  ],
- "style": 1
+ "style": 2
 }

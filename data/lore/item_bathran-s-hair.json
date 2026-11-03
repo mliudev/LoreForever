@@ -10,16 +10,16 @@
    "quest:1010"
   ]
  },
- "summary": "Among the ruins of Bathran's Haunt in northwestern Ashenvale, Bathran's Hair remains a rare herb. Night elf healers value its power against afflictions of the flesh and spirit.",
+ "summary": "In the ruins of Bathran's Haunt in northwestern Ashenvale, Bathran's Hair remains a rare herb. Night elf healers value it against afflictions of the flesh and spirit.",
  "sections": [
   {
    "title": "A Remedy for the Spirit",
-   "body": "Bathran's Hair grows among the ancient ruins north of Maestra's Post, where night elf healers have long valued it. Common herbs soothe wounds of the body, but Bathran's Hair is said to restore the spirit as well. When a young night elf in Astranaar falls gravely ill, herbalist Orendil Broadleaf seeks the rare plant to prepare a remedy.",
+   "body": "Bathran's Hair grows among the ancient ruins north of Maestra's Post, where night elf healers have long valued it. Common herbs soothe wounds of the body. Bathran's Hair is said to restore the spirit as well. When a young night elf in Astranaar falls gravely ill, herbalist Orendil Broadleaf seeks the rare plant to prepare a remedy.",
    "spoiler": 0
   },
   {
    "title": "Gathering Amid the Ruins",
-   "body": "Bathran's Hair is harder to find among the ruins. It lies in discarded plant bundles and beneath leaf piles scattered across Bathran's Haunt, near the border of Darkshore. Forsaken have also been seen among the ruins, news that troubles Orendil Broadleaf.",
+   "body": "Forsaken have been seen among Bathran's Haunt, near the border of Darkshore. Their presence troubles Orendil Broadleaf. Bathran's Hair lies in discarded plant bundles and beneath leaf piles scattered across the ruins, making it harder to find.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "bathran hair location",
     "where is bathrans hair"
    ],
-   "answer": "Bathran's Hair grows within Bathran's Haunt, an ancient ruined settlement in northern Ashenvale, east of the main road leading north into Darkshore."
+   "answer": "Bathran's Hair grows within Bathran's Haunt, an ancient ruined settlement in northern Ashenvale. The ruins lie east of the main road leading north into Darkshore."
   },
   {
    "q": "Why are the Forsaken interested in Bathran's Haunt?",
@@ -63,11 +63,11 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Trained herbalists can find Bathran's Hair more readily, sensing hidden plant bundles among the debris with a practiced eye for wild flora."
+   "text": "Trained herbalists can find Bathran's Hair more readily. Their practiced eye for wild flora helps them sense hidden plant bundles among the debris."
   },
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, Forsaken among the ruins where healing plants like Bathran's Hair grow trouble the preservation of their ancient homeland."
+   "text": "For the Kaldorei, Forsaken among the ruins trouble the preservation of their ancient homeland, where healing plants like Bathran's Hair grow."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Bathran's Hair",
   "Bathran's Hair (Classic)"
  ],
- "style": 1
+ "style": 2
 }

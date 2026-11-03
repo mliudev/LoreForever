@@ -20,16 +20,16 @@
    "Kill Grundig Darkcloud"
   ]
  },
- "summary": "Makaba Flathoof asks Horde travelers to answer the Grimtotem assault on his village in southeastern Stonetalon. He barely survived, cut off from his kin and surrounded by the dead, and now seeks vengeance at the ruffians’ and hired sellswords’ encampment.",
+ "summary": "Makaba Flathoof calls on Horde travelers to answer the Grimtotem assault in southeastern Stonetalon. He barely escaped, cut off from his kin and surrounded by the dead. Now he seeks vengeance at the camp of the ruffians and hired sellswords.",
  "sections": [
   {
    "title": "Blood in the Crags",
-   "body": "Near the Barrens border, Makaba Flathoof is the lone survivor of a massacre in the red stone passes of Stonetalon. Grimtotem raiders descended without warning and slaughtered nearly everyone in his settlement. Makaba fought back and brought down several attackers, but they drove him into hiding with little more than his life and his wrath.",
+   "body": "Near the Barrens border, Makaba Flathoof is the lone survivor of a massacre in Stonetalon's red stone passes. Grimtotem raiders struck without warning and slaughtered nearly everyone in his settlement. Makaba fought back and brought down several attackers. Then they drove him into hiding with little more than his life and his wrath.",
    "spoiler": 0
   },
   {
    "title": "The Grimtotem Menace",
-   "body": "The Grimtotem have long troubled the tauren tribes united under High Chieftain Cairne Bloodhoof. Unlike the peaceful nomads of Mulgore, their warbands use ruthless ruffians and opportunistic mercenaries to seize territory and strike isolated settlements. Makaba has no thought of diplomacy or tribal kinship now. Only blood repaid with blood can answer his grief.",
+   "body": "The Grimtotem have long troubled the tauren tribes united under High Chieftain Cairne Bloodhoof. Unlike Mulgore's peaceful nomads, their warbands use ruthless ruffians and opportunistic mercenaries to seize territory and strike isolated settlements. Makaba has no thought of diplomacy or tribal kinship now. Only blood repaid with blood can answer his grief.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "makaba flathoof",
     "who is makaba"
    ],
-   "answer": "Makaba Flathoof is a tauren survivor encamped near the southeastern pass into the Stonetalon Mountains. The Grimtotem clan sacked his nearby village, and he seeks retribution against the raiders."
+   "answer": "Makaba Flathoof is a tauren survivor camped near the southeastern pass into the Stonetalon Mountains. The Grimtotem clan sacked his nearby village, and he seeks retribution against the raiders."
   },
   {
    "q": "Why are the Grimtotem attacking other tauren?",
@@ -59,7 +59,7 @@
     "grimtotem camp location",
     "where to find ruffians"
    ],
-   "answer": "The Grimtotem ruffians and mercenaries are camped just west of Makaba Flathoof in southeastern Stonetalon, among rocky hills overlooking the pass."
+   "answer": "The Grimtotem ruffians and mercenaries camp just west of Makaba Flathoof in southeastern Stonetalon, among rocky hills overlooking the pass."
   },
   {
    "q": "Who are the Grimtotem Mercenaries?",
@@ -116,5 +116,5 @@
  "attribution": [
   "Avenge My Village"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dolanaar"
  },
- "summary": "Dolanaar gathers travelers and guides beneath Teldrassil’s boughs. Southwest of Shadowglen, the town is the first place young night elves find after leaving their sheltered training grounds. Rangers, druids, and craftsmen help newcomers while strange afflictions spread through the World Tree.",
+ "summary": "At Dolanaar, travelers and guides gather beneath Teldrassil’s boughs. Southwest of Shadowglen, the town is the first place young night elves reach after leaving their sheltered training grounds. Rangers, druids, and craftsmen help newcomers as strange afflictions spread through the World Tree.",
  "sections": [
   {
    "title": "A Crossroads of Boughs",
-   "body": "Dolanaar is a crossroads for travelers crossing Teldrassil. Beneath the canopy southwest of Shadowglen, its homes and platforms follow the traditional night elven way, woven into the woodland. Young night elves come here for their first broad training in trades, martial arts, and nature crafts. The road west leads toward Darnassus, the capital. From the surrounding boughs come reports of corrupted wildlife, aggressive furbolgs, and foul mosses, all brought before Dolanaar’s council.",
+   "body": "Beneath Teldrassil’s canopy, Dolanaar is a crossroads for travelers. Southwest of Shadowglen, its homes and platforms follow the traditional night elven way, woven into the woodland. Young night elves come here for their first broad training in trades, martial arts, and nature crafts. The road west leads toward Darnassus, the capital. Reports of corrupted wildlife, aggressive furbolgs, and foul mosses come from the surrounding boughs, and Dolanaar’s council hears them.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "dolanaar purpose",
     "why dolanaar matters"
    ],
-   "answer": "Dolanaar is the main hub and outpost for young night elves leaving Shadowglen’s novice grounds. Tradesfolk and trainers in martial and magical arts are gathered here, and the town links travelers to the capital."
+   "answer": "Dolanaar is the main hub and outpost for young night elves leaving Shadowglens novice grounds. Tradesfolk and trainers in martial and magical arts gather here, and the town links travelers to the capital."
   },
   {
    "q": "Where is Dolanaar located?",
@@ -41,7 +41,7 @@
     "flight master dolanaar",
     "dolanaar to darnassus"
    ],
-   "answer": "Follow the forest road west through Teldrassil to reach the gates of Darnassus on foot. Dolanaar has no flight path of its own."
+   "answer": "Follow the forest road west through Teldrassil on foot to reach the gates of Darnassus. Dolanaar has no flight path of its own."
   },
   {
    "q": "What threats affect Dolanaar?",
@@ -50,13 +50,13 @@
     "dolanaar problems",
     "dolanaar quests"
    ],
-   "answer": "A strange corruption is spreading through the woodland around Dolanaar. Diseased beasts, crazed timberlings, and hostile furbolg tribes threaten the area."
+   "answer": "Strange corruption spreads through the woodland around Dolanaar. Diseased beasts, crazed timberlings, and hostile furbolg tribes threaten the area."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf, you take your first steps into the wider world at Dolanaar, where the growing corruption of the World Tree tests your vow to preserve nature."
+   "text": "As a young night elf, you take your first steps into the wider world at Dolanaar. The growing corruption of the World Tree tests your vow to preserve nature."
   },
   {
    "target": "class:Druid",
@@ -80,5 +80,5 @@
  "attribution": [
   "Dolanaar"
  ],
- "style": 1
+ "style": 2
 }

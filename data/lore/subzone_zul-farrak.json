@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Zul'Farrak"
  },
- "summary": "Zul'Farrak is a sprawling, sun-baked sandstone city tucked into the northwestern cliffs of Tanaris. Long isolated from the rest of their kind, the Sandfury trolls defend this ancient stronghold with fanatic zeal, dark voodoo, and a hoard of undead risen from their sandy graves.",
+ "summary": "In northwestern Tanaris, Sandfury trolls hold Zul'Farrak behind guarded gates. Long cut off from their kin, they rely on dark voodoo and an army of the dead.",
  "sections": [
   {
    "title": "The Withered Remnant",
-   "body": "Little of Zul'Farrak's distant past survives beyond troll legend, but the Sandfury trolls who hold it have long endured the searing, arid wastes of Tanaris. Known across the desert for their particular ruthlessness, their priests now practice a brutal brand of dark mysticism, exhuming their own dead to build a shambling army within their sun-bleached walls.",
+   "body": "Inside Zul'Farrak, Sandfury trolls endure the harsh wastes of Tanaris. Little survives of the city's distant past beyond troll legend. Across the desert, its people are known for their ruthlessness. Their priests dig up their own dead and raise them as a shambling army within the sun-bleached stronghold.",
    "spoiler": 0
   },
   {
    "title": "Legends of the Sand",
-   "body": "Whispers throughout Gadgetzan tell of treasures and terrors hidden behind Zul'Farrak's guarded gates. Troll lore speaks of Sul'thraze the Lasher, a legendary broadsword broken into two separate blades that remain hidden somewhere in the city. More alarming are the tales of a band of mercenaries led by Sergeant Bly who wandered into the city and were captured, as well as rumors of Gahz'rilla, an ancient hydra demigod slumbering within a sacred pool at the city's heart.",
+   "body": "In Gadgetzan, whispers tell of treasures and terrors behind Zul'Farrak's guarded gates. Troll lore speaks of Sul'thraze the Lasher, a legendary broadsword broken into two blades and hidden somewhere in the city. More troubling are the tales of Sergeant Bly and his band of mercenaries, captured after entering the city. Other rumors tell of Gahz'rilla, an ancient hydra demigod said to sleep in a sacred pool at the city's heart.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "sand troll tribe",
     "what trolls are these"
    ],
-   "answer": "Zul'Farrak is held by the Sandfury tribe, sand trolls known throughout Tanaris for their particular ruthlessness and dark mysticism."
+   "answer": "The Sandfury tribe holds Zul'Farrak. Across Tanaris, these sand trolls are known for ruthlessness and dark mysticism."
   },
   {
    "q": "Why are there so many zombies and graves inside?",
@@ -37,7 +37,7 @@
     "sandfury zombies",
     "troll graves"
    ],
-   "answer": "Pushed to the brink of desperation and isolation, the Sandfury witch doctors and shadow hunters have turned to dark necromancy. They have begun raising their fallen kin as undead thralls to bolster their ranks and wage war across Tanaris."
+   "answer": "Isolation and desperation have driven Sandfury witch doctors and shadow hunters to necromancy. They raise their fallen kin as undead thralls to strengthen their ranks and wage war across Tanaris."
   },
   {
    "q": "What is the ancient monster sleeping in the city?",
@@ -46,7 +46,7 @@
     "ancient creature in pool",
     "gahzrilla"
    ],
-   "answer": "The creature is Gahz'rilla, a colossal hydra demigod. Kept slumbering in a deep sacred pool within the city, it is revered by the Sandfury, though disturbing rumors suggest the beast can be called forth with the proper ritual instrument."
+   "answer": "Gahz'rilla is the sleeping creature, a colossal hydra demigod. The Sandfury revere it in a deep, sacred pool, and rumors say a ritual instrument can call it forth."
   },
   {
    "q": "What is Sul'thraze the Lasher?",
@@ -55,17 +55,17 @@
     "sulthraze",
     "zul farrak sword legend"
    ],
-   "answer": "Sul'thraze the Lasher is a legendary blade from ancient troll folklore, renowned for sapping the strength and will of anyone struck by it. Long ago it was shattered into two distinct swords, Jang'thraze and Sang'thraze, both of which are rumored to be kept inside the city."
+   "answer": "Sul'thraze the Lasher is a legendary blade from ancient troll folklore. It saps the strength and will of those it strikes. Long ago, it was broken into Jang'thraze and Sang'thraze, both rumored to be inside the city."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "The Sandfury view the Darkspear as weak traitors allied with foreign conquerors, while Darkspear elders like Master Gadrin watch their corrupted desert cousins with grim concern."
+   "text": "The Sandfury see the Darkspear as weak traitors allied with foreign conquerors. Darkspear elders such as Master Gadrin watch their corrupted desert cousins with grim concern."
   },
   {
    "target": "faction:Alliance",
-   "text": "Human and dwarven explorers are frequently drawn here to recover ancient relics or rescue missing mercenaries who vanished into the ruins from Gadgetzan."
+   "text": "Human and dwarven explorers come from Gadgetzan to recover ancient relics or rescue missing mercenaries who vanished into the ruins."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Zul'Farrak"
- ]
+ ],
+ "style": 2
 }

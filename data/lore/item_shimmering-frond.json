@@ -10,11 +10,11 @@
    "quest:931"
   ]
  },
- "summary": "In the Oracle Glade, a strange plant casts a twisting, shimmering aura. Its fronds come from a species native to the Swamp of Sorrows, far across the Great Sea.",
+ "summary": "In the Oracle Glade, a plant from beyond the Great Sea casts a twisting, shimmering aura. Its fronds belong to a species native to the Swamp of Sorrows.",
  "sections": [
   {
    "title": "A Specimen from Afar",
-   "body": "A radiant plant grows among the trees near the Oracle Glade. Its aura pulses, and its fronds shimmer in the woodland light. Denalan, who tends planters beside Lake Al'Ameth, recognizes the leaves as belonging to a species from the Swamp of Sorrows in the Eastern Kingdoms. How seeds from that distant marsh crossed the Great Sea and took root on Teldrassil remains a mystery. Denalan is growing specimens in his own soil to study them.",
+   "body": "Near the Oracle Glade, a radiant plant grows among the trees. Its aura pulses, and its fronds shimmer in the woodland light. Denalan tends planters beside Lake Al'Ameth. He recognizes the leaves as a species from the Swamp of Sorrows in the Eastern Kingdoms. How seeds from that distant marsh crossed the Great Sea and took root on Teldrassil remains a mystery. Denalan is growing specimens in his own soil to study them.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "shimmering frond location",
     "strange fronded plant"
    ],
-   "answer": "You can gather the frond from a strange plant in the Oracle Glade on Teldrassil. Its leaves shimmer with a twisting, pulsing radiance in the forest light."
+   "answer": "A strange plant in the Oracle Glade on Teldrassil bears the Shimmering Frond. Its leaves shimmer with a twisting, pulsing radiance in the forest light."
   },
   {
    "q": "Who is interested in the Shimmering Frond?",
@@ -35,7 +35,7 @@
     "who to give shimmering frond",
     "denalan shimmering frond"
    ],
-   "answer": "Denalan, a night elf naturalist conducting botanical research beside Lake Al'Ameth, wants to inspect the frond. He is interested in strange plants taking root across Teldrassil."
+   "answer": "Denalan, a night elf naturalist beside Lake Al'Ameth, wants to study the frond. He researches strange plants taking root across Teldrassil."
   },
   {
    "q": "What makes this plant so unusual on Teldrassil?",
@@ -44,7 +44,7 @@
     "plant origin",
     "swamp of sorrows plant"
    ],
-   "answer": "The plant comes from the Swamp of Sorrows in the Eastern Kingdoms, far across the Great Sea. Its presence on Teldrassil is unexpected because it is not native to Kalimdor or the World Tree."
+   "answer": "The plant comes from the Swamp of Sorrows in the Eastern Kingdoms, far across the Great Sea. It is unexpected on Teldrassil, since it is native to neither Kalimdor nor the World Tree."
   },
   {
    "q": "What happens after giving the frond to Denalan?",
@@ -52,17 +52,17 @@
     "what does denalan do with it",
     "sprouted fronds lore"
    ],
-   "answer": "Denalan plants the specimen in his planters beside Lake Al'Ameth. He tests its rapid growth and exotic properties."
+   "answer": "Denalan plants the specimen in his planters beside Lake Al'Ameth. He studies its rapid growth and exotic properties."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you may find an invasive marsh plant thriving on Teldrassil's newly raised branches a curious anomaly."
+   "text": "As a druid, you may find a marsh plant thriving on Teldrassil's newly raised branches a curious anomaly."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you can appreciate the rare resilience it took for a Swamp of Sorrows plant to cross the ocean and thrive in foreign soil."
+   "text": "As an herbalist, you can appreciate the resilience it took for a Swamp of Sorrows plant to cross the ocean and thrive in foreign soil."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Shimmering Frond",
   "The Shimmering Frond"
  ],
- "style": 1
+ "style": 2
 }

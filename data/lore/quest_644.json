@@ -27,16 +27,16 @@
    "Broken Sigil"
   ]
  },
- "summary": "Following the Sigil of Arathor, Zengu sends you to slay Prince Galen Trollbane and take the last sigil, the one that unlocks his father Thoras Trollbane's tomb. The prince keeps it on his own person, far inside Stromgarde.",
+ "summary": "In Hammerfall, Zengu sends you deep into Stromgarde for the Sigil of Trollbane. Prince Galen keeps the last sigil, which is needed to claim Trol'kalar.",
  "sections": [
   {
    "title": "The Last Sigil",
-   "body": "The last sigil that can open the tomb of Thoras Trollbane is kept by Thoras's son, Prince Galen, in person. He is to be found far inside Stromgarde, in a chapel within the districts the militia holds. Zengu warns that Galen is well guarded and a fine fighter, so this could prove very hard. You are to kill him and carry the sigil to Zengu in Hammerfall.",
+   "body": "Prince Galen, son of Thoras Trollbane, keeps the last sigil in Stromgarde. He waits in a chapel deep in the districts held by the militia. Zengu warns that Galen is well guarded and a fine fighter. You are to kill the prince and carry the sigil back to Zengu in Hammerfall.",
    "spoiler": 0
   },
   {
    "title": "Zengu's Verdict",
-   "body": "Zengu asks whether the line of Ignaeus Trollbane is broken. Once it is, he declares that Trollbane blood will no longer haunt his people, and that every sigil needed to claim Trol'kalar is now in their hands. Before long, he vows, they will strike at the trolls of Zul'Gurub, whom he hates.",
+   "body": "Zengu asks whether the line of Ignaeus Trollbane is broken. When it is, he declares that Trollbane blood will no longer haunt his people. They now hold every sigil needed to claim Trol'kalar. Zengu vows they will soon strike at the trolls of Zul'Gurub, whom he hates.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who gives sigil of trollbane",
     "where do i start sigil of trollbane"
    ],
-   "answer": "Zengu, at Hammerfall, is the one who sends you."
+   "answer": "Zengu sends you from Hammerfall to retrieve the Sigil of Trollbane."
   },
   {
    "q": "Where is Prince Galen Trollbane located?",
@@ -57,7 +57,7 @@
     "where is galen trollbane",
     "galen trollbane stromgarde"
    ],
-   "answer": "In a chapel far inside Stromgarde, in the part held by the militia."
+   "answer": "Prince Galen Trollbane waits in a chapel far inside Stromgarde, in the districts held by the militia."
   },
   {
    "q": "Why is the Sigil of Trollbane needed?",
@@ -65,7 +65,7 @@
     "purpose of sigil of trollbane",
     "why get sigil of trollbane"
    ],
-   "answer": "It is the last sigil Zengu needs to open Thoras Trollbane's tomb, and Thoras's son keeps it himself."
+   "answer": "The Sigil of Trollbane is the last sigil Zengu needs to open Thoras Trollbane's tomb. Thoras's son, Prince Galen, keeps it himself."
   },
   {
    "q": "What comes after obtaining the Sigil of Trollbane?",
@@ -73,7 +73,7 @@
     "next quest after sigil of trollbane",
     "what follows sigil of trollbane"
    ],
-   "answer": "The chain continues with Trol'kalar."
+   "answer": "After you obtain the Sigil of Trollbane, the chain continues with Trol'kalar."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Sigil of Trollbane (quest)"
- ]
+ ],
+ "style": 2
 }

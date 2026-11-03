@@ -10,16 +10,16 @@
    "quest:91"
   ]
  },
- "summary": "In Redridge, Shadowhide Pendant charms pass among gnolls working with Morganth. Lakeshire accepts ten as proof that its law has been enforced.",
+ "summary": "In Redridge, Shadowhide Pendant charms mark gnolls serving Morganth. Lakeshire takes ten as proof that its law has been upheld.",
  "sections": [
   {
    "title": "Tokens of Defiance",
-   "body": "Shadowhide Pendant charms pass among the Shadowhide warriors, brutes, and spellcasters. Deep in Redridge's hills, the clan has gathered under Lieutenant Fangore and fallen under the sway of Morganth, a rogue wielder of the Arcane. To Lakeshire's townspeople, the crude charms mark an organized threat harassing settlements for an enemy of the Crown.",
+   "body": "Shadowhide Pendant charms hang from the Shadowhide warriors, brutes, and spellcasters. Deep in the hills of Redridge, Lieutenant Fangore leads the clan, now under Morganth's sway. Morganth is a rogue wielder of the Arcane. To Lakeshire's townspeople, the crude charms mark an organized threat harassing settlements for an enemy of the Crown.",
    "spoiler": 0
   },
   {
    "title": "Lakeshire's Justice",
-   "body": "Stormwind law, upheld by Magistrate Solomon, sets death as the sentence for actively aiding a known criminal of the realm. Royal reinforcements are too few, so Bailiff Conacher at Lakeshire Town Hall relies on adventurers to keep the peace. Ten Shadowhide Pendants prove that gnolls obeying Morganth's orders have faced frontier justice.",
+   "body": "Magistrate Solomon upholds Stormwind law, which sets death as the sentence for actively aiding a known criminal of the realm. Royal reinforcements are too few, so Bailiff Conacher at Lakeshire Town Hall relies on adventurers to keep the peace. Ten Shadowhide Pendants prove that gnolls obeying Morganth's orders have faced frontier justice.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "shadowhide pendant lore",
     "redridge pendant"
    ],
-   "answer": "A Shadowhide Pendant is a crude charm worn by members of the Shadowhide gnoll clan in the Redridge Mountains. The local magistrate accepts them as evidence that invading gnolls have been slain in defense of the township."
+   "answer": "Shadowhide Pendant charms are worn by members of the Shadowhide gnoll clan in the Redridge Mountains. The local magistrate accepts them as evidence that invading gnolls have been slain in defense of the township."
   },
   {
    "q": "Why does Bailiff Conacher want these pendants?",
@@ -40,7 +40,7 @@
     "bailiff conacher bounty",
     "conacher quest"
    ],
-   "answer": "Bailiff Conacher collects the pendants as proof that Solomon's Law has been enforced. The Shadowhide clan collaborates with renegade wizard Morganth to terrorize the local populace, so the town treats every affiliated gnoll as an enemy subject to capital punishment."
+   "answer": "Bailiff Conacher gathers the pendants as proof that Solomon's Law has been enforced. The Shadowhide clan works with renegade wizard Morganth to terrorize the local people, so the town treats every affiliated gnoll as an enemy subject to capital punishment."
   },
   {
    "q": "Who carries these pendants?",
@@ -49,7 +49,7 @@
     "which gnolls have pendants",
     "shadowhide pendant source"
    ],
-   "answer": "Standard footpads, brutes, and rabid gnolls carry the pendants, as do figures such as Rohh the Silent and Lieutenant Fangore in the Redridge wilderness."
+   "answer": "Standard footpads, brutes, and rabid gnolls carry the pendants. Rohh the Silent and Lieutenant Fangore also wear them in the Redridge wilderness."
   },
   {
    "q": "What is the relationship between the Shadowhide clan and Morganth?",
@@ -58,17 +58,17 @@
     "why are gnolls working with morganth",
     "shadowhide morganth"
    ],
-   "answer": "Morganth, a rogue practitioner of the Arcane in the eastern foothills, uses his sinister powers to bend the Shadowhide gnolls to his will. He deploys them as foot soldiers to terrorize Lakeshire and enforce his schemes."
+   "answer": "Morganth is a rogue practitioner of the Arcane in the eastern foothills. He bends the Shadowhide gnolls to his will with sinister powers, then sends them as foot soldiers to terrorize Lakeshire and enforce his schemes."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As a loyal Alliance adventurer, you may be called on to uphold kingdom law. Frontier settlements like Lakeshire receive scant aid from Stormwind's garrison, so local magistrates rely on you."
+   "text": "As a loyal Alliance adventurer, you may be called on to uphold kingdom law. Frontier settlements like Lakeshire receive little aid from Stormwind's garrison, so local magistrates rely on you."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you face aggressive, physically imposing Shadowhide gnolls. Their ranks test frontline defenders protecting the roads into Lakeshire."
+   "text": "As a warrior, you face aggressive and physically imposing Shadowhide gnolls. Their ranks test those defending the roads into Lakeshire."
   }
  ],
  "keywords": [
@@ -96,5 +96,5 @@
   "Shadowhide Pendant",
   "Solomon's Law"
  ],
- "style": 1
+ "style": 2
 }

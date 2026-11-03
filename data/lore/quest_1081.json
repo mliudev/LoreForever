@@ -17,16 +17,16 @@
   "wiki": "Reception from Tyrande",
   "chain": []
  },
- "summary": "Sentinel Thenysil sends you from Astranaar to Darnassus for an audience with Tyrande Whisperwind. After you help the Sentinels hold their ground against the Venture Company in Stonetalon, Tyrande receives you at the Temple of the Moon.",
+ "summary": "At the Temple of the Moon, Tyrande Whisperwind receives you after your aid in Stonetalon. Sentinel Thenysil sends you from Astranaar to Darnassus for an audience with the High Priestess.",
  "sections": [
   {
    "title": "A Foothold in Stonetalon",
-   "body": "The Venture Company puts pressure on night elf outposts across the Stonetalon Mountains. Sentinel Thenysil coordinates the defense from Astranaar, but the remote bases are hard to sustain. Supply lines and intelligence help the Sentinels keep an Alliance presence in Kalimdor's interior, and your aid strengthens their position.",
+   "body": "The Venture Company presses the night elf outposts across the Stonetalon Mountains. Sentinel Thenysil directs their defense from Astranaar, but the distant bases are difficult to supply. Supplies and intelligence help the Sentinels hold an Alliance presence in Kalimdor's interior. Your aid strengthens their position.",
    "spoiler": 0
   },
   {
    "title": "Audience with the High Priestess",
-   "body": "After your help bolsters the Sentinels in Stonetalon, Sentinel Thenysil sends you back to Teldrassil. Tyrande Whisperwind, the High Priestess, grants you an audience at the Temple of the Moon in Darnassus. She recognizes your deeds across Kalimdor and welcomes you as an ally fighting alongside the kaldorei.",
+   "body": "After your aid bolsters the Sentinels in Stonetalon, Sentinel Thenysil sends you back to Teldrassil. Tyrande Whisperwind, the High Priestess, receives you at the Temple of the Moon in Darnassus. She recognizes your deeds across Kalimdor and welcomes you as an ally fighting beside the kaldorei.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "sentinel thenysil location"
    ],
-   "answer": "Sentinel Thenysil gives you this work in Astranaar, Ashenvale, after you complete 'Update for Sentinel Thenysil'."
+   "answer": "Sentinel Thenysil sends you from Astranaar in Ashenvale after you complete 'Update for Sentinel Thenysil'."
   },
   {
    "q": "Where can I find Tyrande Whisperwind?",
@@ -47,7 +47,7 @@
     "find tyrande",
     "temple of the moon location"
    ],
-   "answer": "Tyrande Whisperwind is in the Temple of the Moon, in Darnassus's central district on Teldrassil."
+   "answer": "Tyrande Whisperwind is at the Temple of the Moon, in Darnassus's central district on Teldrassil."
   },
   {
    "q": "Why does Tyrande want to see me?",
@@ -55,7 +55,7 @@
     "why tyrande wants to talk",
     "purpose of audience"
    ],
-   "answer": "Your efforts in Stonetalon help preserve the Kaldorei foothold in contested mountain territory. Sentinel Thenysil believes your service merits appreciation from the night elves' spiritual and military leader."
+   "answer": "Your efforts in Stonetalon help preserve the Kaldorei foothold in contested mountain territory. Sentinel Thenysil believes your service merits recognition from the night elves' spiritual and military leader."
   },
   {
    "q": "What is the strategic value of the Stonetalon Mountains?",
@@ -71,7 +71,7 @@
     "can non night elves do this",
     "is this for humans"
    ],
-   "answer": "Yes. Any Alliance adventurer who helps Sentinel Thenysil can travel to Darnassus, reflecting the growing defense shared by the night elves and the wider Alliance."
+   "answer": "Yes. Any Alliance adventurer who helps Sentinel Thenysil can travel to Darnassus. The audience reflects the growing defense shared by the night elves and the wider Alliance."
   },
   {
    "q": "Is there a follow-up quest after meeting Tyrande?",
@@ -79,17 +79,17 @@
     "what comes next",
     "next quest in chain"
    ],
-   "answer": "Meeting Tyrande concludes the Stonetalon courier and support work for Sentinel Thenysil. You can seek further orders in Darnassus."
+   "answer": "Meeting Tyrande concludes Sentinel Thenysil's courier and support work in Stonetalon. You can seek further orders in Darnassus."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "An audience with Tyrande Whisperwind links the night elves of Kalimdor with the wider Alliance, bringing recognition in Darnassus for service in the wilderness."
+   "text": "An audience with Tyrande Whisperwind links the night elves of Kalimdor with the wider Alliance. In Darnassus, you receive recognition for your service in the wilderness."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, reporting to High Priestess Tyrande Whisperwind in the Temple of the Moon is a homecoming and a sign of your devotion to defending your ancestral lands."
+   "text": "As a night elf, reporting to High Priestess Tyrande Whisperwind at the Temple of the Moon is a homecoming. It shows your devotion to defending your ancestral lands."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Reception from Tyrande"
  ],
- "style": 1
+ "style": 2
 }

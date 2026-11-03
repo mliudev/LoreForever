@@ -28,16 +28,16 @@
    "Errands for Kravel"
   ]
  },
- "summary": "Kravel Koalbeard, a dwarf at the Mirage Raceway, makes it his business to get people what they need. The gnomes there are waiting on parts that reached Ratchet a week ago, and Kravel cannot go himself. He sends you to Ratchet with his parts order for Wharfmaster Dizzywig.",
+ "summary": "At the Mirage Raceway, Kravel Koalbeard sends you to Ratchet for parts the gnomes are waiting on.",
  "sections": [
   {
    "title": "Legwork for Kravel",
-   "body": "Kravel Koalbeard sees to it that people get the things they need. The gnomes of the Mirage Raceway are waiting on a batch of parts that reached Ratchet a week ago, and Kravel cannot make the journey himself. He asks you to do the legwork, and promises more jobs with serious profit potential if you do.",
+   "body": "Kravel Koalbeard tends to the needs of the Mirage Raceway. A batch of parts reached Ratchet a week ago, and the gnomes are waiting. Since Kravel cannot make the journey himself, he asks you to carry his order. If you do, he promises more work with serious profit potential.",
    "spoiler": 0
   },
   {
    "title": "The Docks of Ratchet",
-   "body": "Ratchet lies in the Barrens. Wharfmaster Dizzywig, a goblin, is the one to see, and Kravel says Dizzywig will probably be at the docks. You carry Kravel's Parts Order there.",
+   "body": "Ratchet lies in the Barrens, where Kravel expects Wharfmaster Dizzywig to be at the docks. The goblin is the one you need to see. You carry Kravel's Parts Order there.",
    "spoiler": 0
   }
  ],
@@ -57,7 +57,7 @@
     "where is dizzywig",
     "where to find dizzywig"
    ],
-   "answer": "Wharfmaster Dizzywig is a goblin, and Kravel expects to find Dizzywig at the docks of Ratchet in the Barrens."
+   "answer": "Wharfmaster Dizzywig, a goblin, will probably be at the docks of Ratchet in the Barrens."
   },
   {
    "q": "What is the purpose of Kravel's order?",
@@ -65,7 +65,7 @@
     "what are the parts for",
     "why go to ratchet"
    ],
-   "answer": "The gnomes of the Mirage Raceway are waiting on parts that reached Ratchet a week ago. Kravel cannot go himself, so he asks you to carry his order to the docks there."
+   "answer": "The gnomes of the Mirage Raceway are waiting for parts that reached Ratchet a week ago. Kravel cannot go himself, so he asks you to carry his order to the docks there."
   },
   {
    "q": "What comes after Wharfmaster Dizzywig?",
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Wharfmaster Dizzywig (quest)"
- ]
+ ],
+ "style": 2
 }

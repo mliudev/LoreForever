@@ -21,16 +21,16 @@
    "Sathrah's Sacrifice (quest)"
   ]
  },
- "summary": "At the Temple of the Moon, Sathrah's Sacrifice gives a fallen creature's spirit a final rite. You carry Lady Sathrah's spinnerets to Elune's sacred waters, where the Priesthood seeks to cleanse her soul of corruption.",
+ "summary": "At the Temple of the Moon, Sathrah's Sacrifice offers Lady Sathrah a final rite. You bring her spinnerets to Elune's sacred waters, where the Priesthood seeks to cleanse her soul of corruption.",
  "sections": [
   {
    "title": "A Cleansing in Sacred Waters",
-   "body": "Priestess A'moora asks you to perform a final rite after Lady Sathrah is slain. The great spider fell to the dark madness spreading across Teldrassil, which twisted her peaceful nature into mindless aggression. The Priesthood of Elune seeks to redeem her fallen essence, not treat her death as a simple culling. You place her silvery spinnerets in the fountain at the heart of the Temple of the Moon. Its consecrated waters wash away the corruption and grant her release.",
+   "body": "Priestess A'moora asks you to perform a final rite for Lady Sathrah after she is slain. The dark madness spreading across Teldrassil twisted the great spider's peaceful nature into mindless aggression. The Priesthood of Elune seeks to redeem her fallen essence, not treat her death as a simple culling. You place her silvery spinnerets in the fountain at the heart of the Temple of the Moon. Its consecrated waters wash away the corruption and grant her release.",
    "spoiler": 0
   },
   {
    "title": "The Renewal of Sathrah",
-   "body": "When the spinnerets touch the moonlit pool, Lady Sathrah's peaceful spirit rises, cleansed of the affliction that drove her mad. The Sisterhood of Elune sees the rite as her salvation. Though the loss of the great creature is deeply felt, night elven belief holds that sacred purification can let her be reborn one day with an uncorrupted spirit.",
+   "body": "Lady Sathrah's peaceful spirit rises when her spinnerets touch the moonlit pool. Cleansed of the affliction that drove her mad, she is seen by the Sisterhood of Elune as saved. The loss of the great creature is deeply felt, yet night elven belief holds that sacred purification may let her be reborn one day with an uncorrupted spirit.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who is sathrah",
     "what is sathrah"
    ],
-   "answer": "Lady Sathrah was a great spider who lived on Teldrassil and succumbed to the corruption spreading through the World Tree's wildlife. The taint drove her mad, and she had to be slain so her remains could be sanctified."
+   "answer": "Lady Sathrah was a great spider who lived on Teldrassil and fell to the corruption spreading through the World Tree's wildlife. The taint drove her mad, and she had to be slain so her remains could be sanctified."
   },
   {
    "q": "Where is the sacrifice offered?",
@@ -59,7 +59,7 @@
     "what happens at the fountain",
     "spirit of sathrah fountain"
    ],
-   "answer": "When you place the silvery spinnerets in the blessed waters, Sathrah's purified spirit appears briefly in the pool and walks freely and peacefully, signaling Elune's acceptance."
+   "answer": "When you place the silvery spinnerets in the blessed waters, Sathrah's purified spirit appears briefly in the pool and walks freely and peacefully. This signals Elune's acceptance."
   },
   {
    "q": "Why did Lady Sathrah have to die?",
@@ -77,7 +77,7 @@
     "where to turn in",
     "amoora location"
    ],
-   "answer": "Priestess A'moora gives and concludes Sathrah's Sacrifice from the Temple of the Moon in Darnassus, overlooking the central chamber."
+   "answer": "Priestess A'moora gives and concludes Sathrah's Sacrifice at the Temple of the Moon in Darnassus, overlooking the central chamber."
   },
   {
    "q": "What belief underpins this ritual for the night elves?",
@@ -86,13 +86,13 @@
     "elune purification",
     "rebirth lore"
    ],
-   "answer": "Night elves believe souls purified by the Mother Moon can be reborn into the natural world, their spirits renewed and free of corruption."
+   "answer": "Night elves believe souls purified by the Mother Moon can be reborn into the natural world, renewed and free of corruption."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you honor the flora and fauna of Kalimdor through this solemn rite. Even when a creature must be slain, its spirit is honored and cleansed through Elune's grace."
+   "text": "As a night elf, you honor Kalimdor's flora and fauna through this solemn rite. Even when a creature must be slain, Elune's grace honors and cleanses its spirit."
   },
   {
    "target": "class:Priest",
@@ -100,7 +100,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you can find solace in knowing fallen beasts can return to the natural cycle through purification, even as Teldrassil suffers from sickness."
+   "text": "As a druid, you can take comfort that fallen beasts may return to the natural cycle through purification, even as sickness afflicts Teldrassil."
   }
  ],
  "keywords": [
@@ -125,5 +125,5 @@
  "attribution": [
   "Sathrah's Sacrifice (quest)"
  ],
- "style": 1
+ "style": 2
 }

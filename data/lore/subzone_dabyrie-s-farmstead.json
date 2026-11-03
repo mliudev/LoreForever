@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dabyrie's Farmstead"
  },
- "summary": "Dabyrie's Farmstead is an Alliance-aligned rural settlement situated in northern Arathi Highlands. In a realm shattered by the Third War and overrun by Syndicate outlaws and Witherbark trolls, this estate remains a stubborn bastion of Stromgarde citizens led by Kenata Dabyrie.",
+ "summary": "In northern Arathi, the Dabyries keep their farm against the dangers around them. Kenata Dabyrie holds fast with her sons, loyal to Stromgarde and the Alliance in a realm broken by the Third War.",
  "sections": [
   {
    "title": "A Bastion in the Highlands",
-   "body": "Perched in the northern fields of the Arathi Highlands, Dabyrie's Farmstead is one of the very few functioning human homesteads remaining in the fractured kingdom of Stromgarde. Owned by Kenata Dabyrie and worked alongside her sons, Fardel and Marcel, the grounds are fiercely defended by a local family militia. Surrounded by aggressive wildlife, opportunistic bandits, and the nearby Forsaken presence in the north, the farm stands as a symbol of human endurance in a ruined land.",
+   "body": "Kenata Dabyrie and her sons hold their farm against the dangers around them. Fardel and Marcel work the fields while a local family militia guards the grounds. Few human homesteads still endure in the broken kingdom of Stromgarde. Aggressive wildlife and bandits threaten the farm, and the Forsaken press from the north. The Dabyries keep their home in a land where few human settlements remain.",
    "spoiler": 0
   },
   {
    "title": "Bitter Feuds",
-   "body": "Survival in Arathi rarely comes without bitter enmity. The estate has drawn the intense ire of the Forsaken, particularly Genavie Callow, a former noblewoman who lost her lands and kin during the Third War. Callow accuses the surviving Dabyrie clan of looting her family's precious heirlooms in the chaos of the plague, transforming the modest farmstead into a target of vengeful Horde mercenaries seeking to settle old northern grudges.",
+   "body": "The Forsaken have turned against the Dabyries, and Genavie Callow is among their bitterest foes. Once a noblewoman, Callow lost her lands and kin during the Third War. She accuses the surviving Dabyrie family of taking her family's heirlooms amid the plague's chaos. Now Horde mercenaries target the modest farm to settle old grudges from the north.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "dabyrie family",
     "kenata dabyrie"
    ],
-   "answer": "The farm is the home of Kenata Dabyrie and her sons, Fardel and Marcel. They are human citizens of Stromgarde loyal to the Alliance, protected by a sworn local militia."
+   "answer": "Kenata Dabyrie lives at the farm with her sons, Fardel and Marcel. They are human citizens of Stromgarde, loyal to the Alliance and defended by a sworn local militia."
   },
   {
    "q": "Why is the Horde targeting this farm?",
@@ -37,7 +37,7 @@
     "genavie callow quest",
     "horde dabyrie quest"
    ],
-   "answer": "A Forsaken woman named Genavie Callow harbors a grudge against the Dabyries. She claims they plundered her family's estate and made off with her surviving heirlooms while her own relatives perished in the Third War."
+   "answer": "The Forsaken woman Genavie Callow holds a grudge against the Dabyries. She accuses them of taking her family's estate and surviving heirlooms while her relatives perished in the Third War."
   },
   {
    "q": "Is Dabyrie's Farmstead part of Stromgarde?",
@@ -45,7 +45,7 @@
     "is dabyrie alliance",
     "stromgarde farm"
    ],
-   "answer": "Yes. The Dabyries consider themselves subjects of the kingdom of Stromgarde and allies of the broader Alliance, holding fast despite the collapse of their central capital to the south."
+   "answer": "Yes. The Dabyries consider themselves subjects of Stromgarde and allies of the broader Alliance, though their capital lies in ruins to the south."
   },
   {
    "q": "What threats surround the farmstead?",
@@ -53,17 +53,17 @@
     "threats to dabyrie",
     "danger near dabyrie farm"
    ],
-   "answer": "The farm sits dangerously close to hostile highlands predators, roaming Syndicate cutthroats, and Forsaken forces pressing down across the borders from the north."
+   "answer": "Highland predators and roaming Syndicate cutthroats threaten the farm. Forsaken forces press from the north."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers, the farmstead is a rare and comforting reminder that Stromgarde's people still survive and fight for their land amidst encroaching enemies."
+   "text": "As an Alliance traveler, you can find a rare reminder here that Stromgarde's people still survive and fight for their land amid encroaching enemies."
   },
   {
    "target": "race:Undead",
-   "text": "To the Forsaken, the prosperous homestead is an irritating spectacle of living humans hoarding goods looted from families who perished during the Third War."
+   "text": "As Forsaken, you see a prosperous human farm holding goods your people say were taken from families who perished during the Third War."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Dabyrie's Farmstead"
- ]
+ ],
+ "style": 2
 }

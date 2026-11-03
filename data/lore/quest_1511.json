@@ -26,16 +26,16 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "In the Horde warlock chain to summon a succubus, Ken'zigla's Draught is bound for Camp Taurajo. The troll apothecary prepared it in the Stonetalon Mountains to save Dogran, a missing operative.",
+ "summary": "On the road to Camp Taurajo, Dogran's life depends on Ken'zigla's Draught. The troll apothecary prepared it in the Stonetalon Mountains for the missing operative.",
  "sections": [
   {
    "title": "A Life-Saving Brew",
-   "body": "Ken'zigla prepared a second dose after trouble with the first courier. The troll apothecary in the Stonetalon Mountains feared the emissary sent to find medicine for the missing scout Dogran had never returned. His draught is volatile and powerful. Half a dose gives a mortally wounded soldier strength to move without making the wounds bleed anew. The rest must wait until the next day, when it completes the recovery.",
+   "body": "After the first courier failed to return, Ken'zigla prepared another dose. The troll apothecary had sent that emissary to find medicine for the missing scout Dogran. His draught is volatile and powerful. Half a dose gives a mortally wounded soldier strength to move without making the wounds bleed anew. The rest must wait until the next day, when it completes the recovery.",
    "spoiler": 0
   },
   {
    "title": "Rendezvous at Camp Taurajo",
-   "body": "You carry Ken'zigla's draught from the mountains to Grunt Logmar at Camp Taurajo. Logmar has vital intelligence about Dogran's whereabouts, but foraging expeditions have left his garrison short of grunts. Dogran is trapped and bleeding in hostile territory; the draught's arrival at Taurajo brings a rescue operation close.",
+   "body": "You carry Ken'zigla's draught from the mountains to Grunt Logmar at Camp Taurajo. Logmar holds vital intelligence about Dogran's whereabouts, but foraging expeditions have left his garrison short of grunts. Dogran is trapped and bleeding in hostile territory. With the draught at Taurajo, a rescue draws near.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "kenziglas draught purpose",
     "why make draught"
    ],
-   "answer": "Ken'zigla's draught is a potent medicine meant to revive the injured orc operative Dogran. Given in two doses, the first gives a wounded fighter strength to move without reopening mortal wounds, and the second completes the healing."
+   "answer": "Ken'zigla's draught is potent medicine for the injured orc operative Dogran. The first of its two doses gives a wounded fighter strength to move without reopening mortal wounds. The second completes the healing."
   },
   {
    "q": "Who is Ken'zigla?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Ken'zigla's Draught (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Kargathia Keep"
  },
- "summary": "Warsong overseers hold the eastern edge of their lumber camp at Kargathia Keep. The fortified stronghold guards the Southfury River border in Ashenvale and links the outpost to Orgrimmar.",
+ "summary": "Warsong overseers hold the eastern edge of their lumber camp at Kargathia Keep. The stronghold guards the Southfury River border in Ashenvale and links the outpost to Orgrimmar.",
  "sections": [
   {
    "title": "A Bastion on the Southfury",
-   "body": "Kargathia Keep anchors the eastern edge of the Warsong Lumber Camp, just west of the Southfury River. Spiked barricades fortify the outpost, where Overseer Gorthak and his officers direct the Horde’s logging operations. From the river border, the Warsong clan watches for incursions. When night elf skirmishers strike, reinforcements can come swiftly from Durotar and Orgrimmar.",
+   "body": "At the eastern edge of the Warsong Lumber Camp, Kargathia Keep stands just west of the Southfury River. Spiked barricades guard the outpost, where Overseer Gorthak and his officers direct the Horde’s logging. From the river border, the Warsong clan watches for incursions. When night elf skirmishers strike, reinforcements can come swiftly from Durotar and Orgrimmar.",
    "spoiler": 0
   },
   {
    "title": "Honoring the Bladefist",
-   "body": "Kargathia Keep shares its namesake with Kargath in the Badlands and Bladefist Bay on Durotar’s coast: the famed chieftain Kargath Bladefist. For Warsong orcs facing Ashenvale’s hostile woodlands, its imposing architecture speaks of martial resilience and Horde defiance in lands claimed by the night elves.",
+   "body": "Kargathia Keep takes its name from Kargath Bladefist, famed chieftain of the Shattered Hand clan. Kargath in the Badlands and Bladefist Bay on Durotar’s coast bear his name as well. For Warsong orcs facing Ashenvale’s hostile woodlands, the keep’s imposing walls speak of martial resilience and Horde defiance in lands claimed by the night elves.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is kargathia keep",
     "kargathia outpost location"
    ],
-   "answer": "Kargathia Keep stands in eastern Ashenvale, at the east edge of the Warsong Lumber Camp, just west of the Southfury River."
+   "answer": "Kargathia Keep stands in eastern Ashenvale, at the eastern edge of the Warsong Lumber Camp, just west of the Southfury River."
   },
   {
    "q": "Who leads the keep?",
@@ -46,7 +46,7 @@
     "kargath bladefist",
     "why kargathia"
    ],
-   "answer": "Kargathia Keep was named for Kargath Bladefist, the legendary chieftain of the Shattered Hand clan. Kargath in the Badlands and Bladefist Bay in Durotar share that naming heritage."
+   "answer": "Kargathia Keep takes its name from Kargath Bladefist, legendary chieftain of the Shattered Hand clan. Kargath in the Badlands and Bladefist Bay in Durotar share that naming heritage."
   },
   {
    "q": "What is the strategic purpose of this stronghold?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Kargathia Keep"
  ],
- "style": 1
+ "style": 2
 }

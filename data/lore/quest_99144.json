@@ -14,19 +14,19 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Priests will find Bandarion Keep's philosophy fascinating, as its members pursue pure meditation and guidance in the Holy Light despite the prejudice surrounding undead wielders."
+   "text": "As a priest, you may find Bandarion Keep's way compelling. Its members pursue meditation and guidance in the Holy Light despite prejudice against undead wielders."
   },
   {
    "target": "class:Paladin",
-   "text": "Paladins may take note of the contrast between the zealots at Crusader's Outpost, who wield the Light fueled by hatred, and Bareth Dawnstone's pursuit of benevolence and protection."
+   "text": "As a paladin, you can see the divide between the hateful zealots at Crusader's Outpost and Bareth Dawnstone's pursuit of benevolence and protection through the Light."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken who retain reverence for the Holy Light face hostility from both living zealots and skeptical kin, making the growing brotherhood at Bandarion Keep a rare sanctuary."
+   "text": "As Forsaken, you may face hostility from living zealots and skeptical kin if you revere the Holy Light. The growing brotherhood at Bandarion Keep offers a rare sanctuary."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing couriers between Bandarion Keep and Brill ensures that emerging neutral or allied orders gain a foothold in the Tirisfal Glades against hostile crusaders."
+   "text": "As Horde, you help keep couriers moving between Bandarion Keep and Brill. Emerging neutral or allied orders gain a foothold in Tirisfal Glades against hostile crusaders."
   }
  ],
  "faq": [
@@ -36,7 +36,7 @@
     "bareth dawnstone lore",
     "dawnstone"
    ],
-   "answer": "Bareth Dawnstone is a devotee of the Holy Light based at Bandarion Keep. While journeying toward Brill to deliver a message, he was ambushed and imprisoned by zealous crusaders who revile his kind. Despite his undead state, he meditates upon the Light and strives to use it for protection.",
+   "answer": "Bareth Dawnstone is a devotee of the Holy Light at Bandarion Keep. He was on his way to Brill with a message when zealots ambushed and imprisoned him because he is undead. He meditates on the Light and seeks to use it for protection.",
    "q": "Who is Bareth Dawnstone?"
   },
   {
@@ -45,7 +45,7 @@
     "crusaders outpost captors",
     "why was he captured"
    ],
-   "answer": "Zealots stationed at Crusader's Outpost ambushed Bareth Dawnstone on the road from Bandarion Keep. He laments that his captors wield the Holy Light with fierce hatred in their hearts, perverting the virtue of benevolence he meditates upon and persecuting those they deem abominations.",
+   "answer": "Zealots at Crusader's Outpost ambushed Bareth Dawnstone on the road from Bandarion Keep. He laments that they wield the Holy Light with hatred, twisting the benevolence he meditates upon as they persecute those they judge to be abominations.",
    "q": "Who captured Bareth Dawnstone, and why?"
   },
   {
@@ -54,7 +54,7 @@
     "stilwell brill",
     "shari brill"
    ],
-   "answer": "Shari Stilwell is a representative of the monastery's order stationed in the Forsaken town of Brill. She receives travelers and coordinates with emissaries sent from Bandarion Keep, welcoming anyone seeking guidance in the ways of the Light.",
+   "answer": "Shari Stilwell represents the monastery's order in the Forsaken town of Brill. She receives travelers and coordinates with emissaries from Bandarion Keep. She welcomes anyone seeking guidance in the Light.",
    "q": "Who is Shari Stilwell?"
   },
   {
@@ -63,7 +63,7 @@
     "where is bandarion keep",
     "monastery northwest solliden"
    ],
-   "answer": "Bandarion Keep is a secluded monastery situated on the bluffs northwest of the Solliden Farmstead in Tirisfal Glades. It serves as a sanctuary and training ground for a burgeoning religious order dedicated to pure meditation and study of the Holy Light.",
+   "answer": "Bandarion Keep is a secluded monastery on the bluffs northwest of Solliden Farmstead in Tirisfal Glades. It is a sanctuary and training ground for a growing religious order devoted to meditation and study of the Holy Light.",
    "q": "What is Bandarion Keep?"
   },
   {
@@ -72,7 +72,7 @@
     "undead using light",
     "bareth what is left of my blood"
    ],
-   "answer": "Bareth Dawnstone speaks of 'what is left of my blood' and acknowledges prejudice against his kind, indicating he is an undead practitioner of the Holy Light. The fanatical crusaders of Tirisfal despise all undead, refusing to believe their intentions or devotion could ever be pure.",
+   "answer": "Bareth Dawnstone speaks of what remains of his blood and acknowledges prejudice against his kind. He is an undead practitioner of the Holy Light. Tirisfal's fanatical crusaders despise all undead and refuse to believe their intentions or devotion can be pure.",
    "q": "Why do Bareth's captors take issue with his kind?"
   },
   {
@@ -81,7 +81,7 @@
     "bandarion keep monks",
     "bandarion faith"
    ],
-   "answer": "The order based at Bandarion Keep is a young, developing monastic brotherhood taking root on the bluffs of Tirisfal. Unlike the hateful crusaders nearby, they preach peaceful meditation, protection, and open their doors to anyone seeking true guidance in the Light.",
+   "answer": "Bandarion Keep is home to a young monastic brotherhood taking root on the bluffs of Tirisfal. The order teaches peaceful meditation and protection. It welcomes anyone seeking true guidance in the Light.",
    "q": "What kind of order is based at Bandarion Keep?"
   }
  ],
@@ -107,23 +107,24 @@
  ],
  "sections": [
   {
-   "body": "Seeking Refuge recounts the perilous journey of Bareth Dawnstone, a messenger dispatched from the secluded monastery of Bandarion Keep. While en route to confer with Shari Stilwell in Brill, Bareth was intercepted and captured by zealous warriors at Crusader's Outpost. Despite the hatred directed at his undead state, Bareth remains steadfast in his devotion to the Light, yearning only to escape his tormentors and ensure his message reaches its destination.",
+   "body": "Bareth Dawnstone left Bandarion Keep to speak with Shari Stilwell in Brill. Zealous warriors seized him at Crusader's Outpost before he could reach her. They despise him for being undead, yet Bareth remains devoted to the Light. He seeks a way out of their hands and a chance to deliver his message.",
    "spoiler": 0,
    "title": "A Perilous Journey"
   },
   {
-   "body": "Bareth's captivity highlights the bitter ideological divide haunting Tirisfal Glades. The zealots at Crusader's Outpost channel the Holy Light through vengeful fury and dogmatic righteousness, viewing Bareth's existence as an affront. In stark contrast, Dawnstone meditates on the Light as a source of protection and inner purity, lamenting how his captors' cruelty distorts the sacred teachings he cherishes.",
+   "body": "At Crusader's Outpost, zealots wield the Holy Light with rigid conviction and vengeance. They see Bareth's existence as an offense. He meditates on the Light as a source of protection and inner purity. His captors' cruelty grieves him, for it twists the sacred teachings he cherishes.",
    "spoiler": 0,
    "title": "Vengeance Versus Devotion"
   },
   {
-   "body": "Following his escape, Bareth's safety is confirmed with Shari Stilwell in Brill. Stilwell reveals that their monastic order is still establishing its roots in the bluffs northwest of Solliden Farmstead. Losing a practitioner as promising as Dawnstone would have dealt a tragic blow to their young fellowship, which opens its doors to any traveler seeking authentic spiritual guidance.",
+   "body": "In Brill, Shari Stilwell learns that Bareth has escaped and is safe. Their monastic order is still taking root on the bluffs northwest of Solliden Farmstead. Losing a promising practitioner like Bareth would have hurt the young fellowship. Its doors are open to travelers seeking sincere guidance in the Light.",
    "spoiler": 0,
    "title": "Sanctuary on the Bluffs"
   }
  ],
- "summary": "Seeking Refuge is a Tirisfal Glades quest involving the rescue of Bareth Dawnstone, an emissary from Bandarion Keep held captive at Crusader's Outpost. His struggle highlights the emergence of an unconventional order devoted to the Holy Light despite severe prejudice from local zealots. Safely returning news of his escape to Brill secures vital ties for this fledgling sanctuary.",
+ "summary": "At Crusader's Outpost, Bareth Dawnstone waits far from the meeting in Brill he was sent to reach. His safe return matters to the young order at Bandarion Keep, where followers of the Holy Light face prejudice from local zealots.",
  "attribution": [
   "In-game quest text: Seeking Refuge"
- ]
+ ],
+ "style": 2
 }

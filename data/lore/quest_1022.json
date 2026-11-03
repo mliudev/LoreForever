@@ -17,11 +17,11 @@
   "wiki": "The Howling Vale (quest)",
   "chain": []
  },
- "summary": "At the Howling Vale, worgen have overrun a ruined shrine near Felwood. Sentinel Melyria Frostshadow seeks the cause of their arrival in Ashenvale.",
+ "summary": "Worgen have overrun a ruined shrine at the Howling Vale near Felwood. Sentinel Melyria Frostshadow seeks the cause of their arrival in Ashenvale.",
  "sections": [
   {
    "title": "A Chilling Presence",
-   "body": "Worgen cries echo from a ruined shrine in northern Ashenvale. The shrine of Mel'Thandris lies beyond a cavern path near the Felwood border. Sentinel Melyria Frostshadow fears the worgen may bring another disaster to the woodland realm. Night elf sentinels are already spending great effort holding back demonic corruption from Felwood.",
+   "body": "Worgen cries echo from a ruined shrine in northern Ashenvale. Beyond a cavern path near the Felwood border, the shrine of Mel'Thandris lies overrun. Sentinel Melyria Frostshadow fears the worgen may bring another disaster to the woodland realm. Night elf sentinels already spend great effort holding back demonic corruption from Felwood.",
    "spoiler": 0
   },
   {
@@ -123,5 +123,5 @@
  "attribution": [
   "The Howling Vale (quest)"
  ],
- "style": 1
+ "style": 2
 }

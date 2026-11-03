@@ -26,16 +26,16 @@
    "Stewvul, Ex-B.F.F."
   ]
  },
- "summary": "You bring Azuregos's ledger to Narain Soothfancy, who must work out what is written in it. It is a step on the road toward opening the Gates of Ahn'Qiraj.",
+ "summary": "You bring Azuregos's ledger to Narain Soothfancy, who must decipher its writing. What he finds may bring you closer to opening the Gates of Ahn'Qiraj.",
  "sections": [
   {
    "title": "The Ledger Comes to Narain",
-   "body": "You take Azuregos's ledger to Narain Soothfancy. Someone has to work out what Azuregos wrote in it, and that falls to Narain.",
+   "body": "Azuregos's ledger is in your hands, and Narain Soothfancy must decipher it. You bring the ledger to him so he can learn what Azuregos wrote.",
    "spoiler": 0
   },
   {
    "title": "What Narain Makes of It",
-   "body": "Narain hears that Azuregos has set you to building an arcanite buoy, and that the ledger holds the schematic. Narain finds it odd that Azuregos wrote it in Draconic, which Narain cannot read. To make it work, Narain will need the scrying goggles, a chicken of five hundred pounds and the second volume of Draconic for Dummies, in whatever order.",
+   "body": "Narain Soothfancy finds that Azuregos set you to build an arcanite buoy, and its schematic lies in the ledger. The writing is Draconic, which Narain cannot read. To make sense of it, he needs the scrying goggles, a chicken of five hundred pounds, and the second volume of Draconic for Dummies. He can gather them in any order.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "azuregos ledger",
     "who wrote the ledger"
    ],
-   "answer": "It is Azuregos's ledger. Narain Soothfancy is the one you bring it to."
+   "answer": "Azuregos owns the ledger, and you bring it to Narain Soothfancy."
   },
   {
    "q": "Who reads the ledger?",
@@ -56,7 +56,7 @@
     "narain soothfancy",
     "where to take the ledger"
    ],
-   "answer": "Narain Soothfancy, who has to work out what Azuregos wrote in it."
+   "answer": "Narain Soothfancy must work out what Azuregos wrote in the ledger."
   }
  ],
  "angles": [],
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Translating the Ledger"
- ]
+ ],
+ "style": 2
 }

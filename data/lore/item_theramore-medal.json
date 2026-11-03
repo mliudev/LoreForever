@@ -10,16 +10,16 @@
    "quest:891"
   ]
  },
- "summary": "At Northwatch Hold, Theramore Medal marks service among the marines and officers defending the outpost along the Merchant Coast. The insignia bears Theramore’s mark and identifies the Alliance garrison.",
+ "summary": "At Northwatch Hold, the Theramore Medal marks service in the marines and officers defending the outpost on the Merchant Coast. Its mark identifies the Alliance garrison.",
  "sections": [
   {
    "title": "Tokens of Northwatch",
-   "body": "Marines, marksmen, commandos, and officers serving from Northwatch Hold carry stamped medals bearing Theramore’s mark. The soldiers are loyal to Lady Jaina Proudmoore’s realm. For the human troops on the cliffs above the Barrens, the medals show that their service is legitimate and their authority comes from Theramore. Others see the tokens as trophies from an overzealous foreign garrison, one that treats every vessel approaching the coast as a mortal threat.",
+   "body": "Marines, marksmen, commandos, and officers serving from Northwatch Hold carry medals stamped with Theramore’s mark. They are loyal to Lady Jaina Proudmoore’s realm. For human troops on the cliffs above the Barrens, the medals show that their service is legitimate and their authority comes from Theramore.\n\nOthers see the tokens as trophies from an overzealous foreign garrison. Northwatch treats every vessel approaching the coast as a mortal threat.",
    "spoiler": 0
   },
   {
    "title": "Pirate Vengeance",
-   "body": "Northwatch Hold’s gun batteries menace ships along the Merchant Coast, often bombarding privateers and merchantmen alike. After losing ships to the guns, Ratchet privateer Captain Thalo'thas Brightsun seeks the medals. He wants proof that Northwatch’s trigger-happy ranks have paid in blood for sinking his ships, and that the soldiers responsible have been slain in retribution.",
+   "body": "Northwatch Hold’s gun batteries menace ships along the Merchant Coast, often bombarding privateers and merchantmen alike. After losing ships to those guns, Ratchet privateer Captain Thalo'thas Brightsun seeks the medals.\n\nHe wants proof that Northwatch’s trigger-happy ranks have paid in blood for sinking his ships, and that the soldiers responsible have been slain in retribution.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what are theramore medals",
     "northwatch medal"
    ],
-   "answer": "A Theramore Medal is an insignia carried by Theramore military personnel serving at Northwatch Hold. It identifies the bearer as an active marine, sailor, or officer in the Alliance garrison in the Barrens."
+   "answer": "Theramore’s mark on the medal identifies its bearer as an active marine, sailor, or officer in the Alliance garrison at Northwatch Hold in the Barrens."
   },
   {
    "q": "Who carries these medals?",
@@ -92,5 +92,5 @@
   "Theramore Medal",
   "The Guns of Northwatch (Classic)"
  ],
- "style": 1
+ "style": 2
 }

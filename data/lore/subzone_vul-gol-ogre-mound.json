@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Vul'Gol Ogre Mound"
  },
- "summary": "In southern Duskwood, Vul'Gol Ogre Mound lies under the Splinter Fist ogres and their chieftain, Zzarc'Vul. Ruined farmhouses and a cavern beneath the basin hold the clan's carcasses and scavenged plunder.",
+ "summary": "In southern Duskwood, Vul'Gol Ogre Mound shelters the Splinter Fist ogres and their chieftain, Zzarc'Vul. Ruined farmhouses and a cavern beneath the basin hold the clan's carcasses and scavenged plunder.",
  "sections": [
   {
    "title": "A Blighted Homestead",
-   "body": "Southwest of the fork toward Stranglethorn Vale, the basin is home to the Splinter Fist clan. Human families once farmed here, but they fled or perished, leaving hollow cabins that the ogres use for shelter. In the cavern beneath the rise, slaughtered black bears lie in piles. Zzarc'Vul rules the encampment, keeping odd trinkets beside ordinary goods the clan has scavenged.",
+   "body": "Southwest of the fork toward Stranglethorn Vale, the basin belongs to the Splinter Fist clan. Human families once farmed here, but they fled or perished. Hollow cabins remain, and the ogres use them for shelter. In the cavern beneath the rise, slaughtered black bears lie in piles. Zzarc'Vul rules the encampment, keeping odd trinkets beside ordinary goods the clan has scavenged.",
    "spoiler": 0
   },
   {
    "title": "A Menace on the Southern Border",
-   "body": "Darkshire's Night Watch is stretched thin, guarding the town from rabid worgen and restless dead. Commander Althea Ebonlocke and her militia rely on outside mercenaries to thin the Splinter Fist ranks before the ogres push north. The clan has also raided the recluse Abercrombie, stealing a crate of his alchemical tools. Inquisitive mages seek arcane lenses that Zzarc'Vul is rumored to possess.",
+   "body": "Darkshire's Night Watch is stretched thin, guarding the town from rabid worgen and restless dead. Commander Althea Ebonlocke and her militia rely on outside mercenaries to thin the Splinter Fist ranks before the ogres push north. The clan has also raided the recluse Abercrombie and stolen a crate of his alchemical tools. Inquisitive mages seek arcane lenses that Zzarc'Vul is rumored to possess.",
    "spoiler": 0
   }
  ],
@@ -94,5 +94,5 @@
  "attribution": [
   "Vul'Gol Ogre Mound"
  ],
- "style": 1
+ "style": 2
 }

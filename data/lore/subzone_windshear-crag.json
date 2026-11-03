@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Windshear Crag"
  },
- "summary": "In central Stonetalon, Windshear Crag lies scarred by the Venture Company's logging. The old forest is gone, replaced by machinery, muddy runoff, and logging crews. Kobolds dig for ore nearby, while a mountain passage leads beneath the ridges to Ashenvale.",
+ "summary": "In central Stonetalon, Windshear Crag lies stripped by the Venture Company's logging. Machinery and muddy runoff have replaced the old forest. Kobolds dig for ore nearby, and a mountain path leads beneath the ridges to Ashenvale.",
  "sections": [
   {
    "title": "Industrial Devastation",
-   "body": "Windshear Crag's old forest is gone, cut down by the Venture Company for profit. Stumps and machinery now fill the basin. Gerenzo Wrenchwhistle, a leper gnome, oversees the logging from a platform above Cragpool Lake. His engineering gave the company the Super Reaper 6000, which fells great trees in moments. The operation strips the mountain bare, stirring anger among rival engineers and local inhabitants alike.",
+   "body": "The Venture Company cut down Windshear Crag's old forest for profit. Stumps and machinery now fill the basin. From a platform above Cragpool Lake, Gerenzo Wrenchwhistle oversees the logging. The leper gnome's engineering gave the company the Super Reaper 6000, a machine that fells great trees in moments. As the operation strips the mountain bare, rival engineers and local inhabitants grow angry.",
    "spoiler": 0
   },
   {
    "title": "Mines and Mountain Passes",
-   "body": "Windshear Crag's timberyards are not its only danger or crossroads. In the southeast, kobolds dig through Windshear Mine for Smoky Iron Ingots and attack those who approach their haul. The Talondeep Path runs beneath the ridges from the crag's northeast reaches into Ashenvale. Near its entrance, the tauren elder Braug Dimspirit tests the historical wisdom and resolve of Horde travelers crossing the contested peaks.",
+   "body": "Logging is not the only danger or crossing at Windshear Crag. In the southeast, kobolds dig through Windshear Mine for Smoky Iron Ingots. They attack those who come near their haul. From the crag's northeast reaches, the Talondeep Path runs beneath the ridges into Ashenvale. Near its entrance, the tauren elder Braug Dimspirit tests the historical wisdom and resolve of Horde travelers crossing the contested peaks.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is the boss of windshear",
     "gerenzo wrenchwhistle lore"
    ],
-   "answer": "Gerenzo Wrenchwhistle directs the logging operation at Windshear Crag. The brilliant leper gnome engineer works under contract with the Venture Company and watches over the crag from a timber platform above Cragpool Lake."
+   "answer": "Gerenzo Wrenchwhistle directs the logging at Windshear Crag. The leper gnome engineer works under contract with the Venture Company. He watches over the crag from a timber platform above Cragpool Lake."
   },
   {
    "q": "What is the Super Reaper 6000?",
@@ -37,7 +37,7 @@
     "what is the big shredder",
     "venture co reaper"
    ],
-   "answer": "Gerenzo Wrenchwhistle built the Super Reaper 6000, a mechanical logging prototype. It clears timber at great speed, grinding ancient mountain trees into sawdust within moments and hastening the company's clear-cutting."
+   "answer": "Gerenzo Wrenchwhistle built the Super Reaper 6000 as a mechanical logging prototype. It clears timber at great speed, grinding ancient mountain trees into sawdust within moments and hastening the company's clear-cutting."
   },
   {
    "q": "Why is the Undermine Tinkers' Union targeting Gerenzo?",
@@ -55,7 +55,7 @@
     "windshear cave exit",
     "tunnel in windshear crag"
    ],
-   "answer": "The cave in the northeast is the Talondeep Path. It runs beneath the mountain roots, connecting Windshear Crag and Ashenvale by foot."
+   "answer": "The cave in the northeast is the Talondeep Path. It runs beneath the mountain roots and connects Windshear Crag to Ashenvale by foot."
   },
   {
    "q": "Who are the kobolds digging in the southeast?",
@@ -100,5 +100,5 @@
  "attribution": [
   "Windshear Crag"
  ],
- "style": 1
+ "style": 2
 }

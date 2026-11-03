@@ -8,11 +8,11 @@
   "wiki": "Blanchy",
   "refs": 0
  },
- "summary": "Old Blanchy is the loyal, hard-working mare belonging to Theodore and Verna Furlbrow, currently resting beside their wagon near the Jansen Stead in Westfall. Renowned for her gentle disposition and hefty appetite, she remains a steady companion to her owners amidst the turmoil gripping the countryside.",
+ "summary": "Near the Jansen Stead, Blanchy rests beside the Furlbrows’ wagon in Westfall. The gentle mare travels through the troubled countryside with Theodore and Verna Furlbrow.",
  "sections": [
   {
    "title": "A Faithful Farmhand",
-   "body": "Long before pulling the Furlbrows' wagon through the dust of Westfall, Blanchy worked the Furlbrows' farm in the breadbasket of Stormwind, where she earned a reputation as an exceptionally sweet-tempered, well-behaved mare. Years of heavy labor have worn her down to 'Old Blanchy,' and the arduous journey fleeing troubled homesteads has left her exhausted. Though visibly weary, her appetite remains hearty, and travelers who bring her nourishing handfuls of oats scattered across the surrounding fields are rewarded by Verna with Blanchy's own treasured blanket and feed pouch.",
+   "body": "Before Blanchy drew the Furlbrows’ wagon through Westfall, she worked their farm in Stormwind’s breadbasket. She was sweet-tempered and known for behaving well. Years of hard labor have worn her down, and the journey away from troubled homesteads has left her exhausted. Yet her appetite remains hearty. Verna offers Blanchy’s treasured blanket and feed pouch to travelers who bring nourishing handfuls of oats from nearby fields.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who does blanchy belong to",
     "furlbrow horse"
    ],
-   "answer": "Blanchy belongs to Theodore and Verna Furlbrow, homesteaders traveling through Westfall. She serves as their steadfast draft horse and beloved family companion."
+   "answer": "Theodore and Verna Furlbrow own Blanchy, and they travel through Westfall. She is their draft horse and beloved companion."
   },
   {
    "q": "Where did Blanchy originally come from?",
@@ -33,7 +33,7 @@
     "where is blanchy from",
     "young blanchy"
    ],
-   "answer": "No record tells where Blanchy was foaled. As far as anyone in Westfall knows, she has long been the Furlbrows' horse, working their farm until the family had to take to the road."
+   "answer": "No record tells where Blanchy was foaled. As far as anyone in Westfall knows, she has long belonged to the Furlbrows and worked their farm until the family had to take to the road."
   },
   {
    "q": "Why does Verna Furlbrow need oats for Blanchy?",
@@ -42,7 +42,7 @@
     "why feed blanchy",
     "furlbrows horse tired"
    ],
-   "answer": "Years of labor and the long haul along Westfall's dangerous roads have left Old Blanchy completely drained. Verna asks passing adventurers to scavenge remaining bags of oats from nearby farmlands to restore the faithful horse's strength."
+   "answer": "Years of labor and the long journey along Westfall’s dangerous roads have drained Old Blanchy. Verna asks travelers to gather the remaining bags of oats from nearby farmlands to restore the horse’s strength."
   },
   {
    "q": "Where can Blanchy be found?",
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers making the journey south from Elwynn Forest into Westfall, helping feed Old Blanchy is often one of the first quiet acts of charity they perform for the struggling local refugees."
+   "text": "As an Alliance traveler heading south from Elwynn Forest into Westfall, you may help feed Old Blanchy among your first acts of kindness for the struggling local refugees."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Blanchy"
- ]
+ ],
+ "style": 2
 }

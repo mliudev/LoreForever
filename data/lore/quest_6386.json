@@ -22,16 +22,16 @@
    "Return to the Crossroads."
   ]
  },
- "summary": "Gryshka's reply is on its way from Orgrimmar to Zargh at the Crossroads. A wind rider carries it across the distance between Durotar and the Barrens.",
+ "summary": "Gryshka's reply travels from Orgrimmar to Zargh at the Crossroads. A wind rider bears it across Durotar and the Barrens.",
  "sections": [
   {
    "title": "A Winged Return",
-   "body": "You carry Gryshka's written reply to Zargh after bringing her a parcel of prime meat in Orgrimmar. Doras, the wind rider master atop Orgrimmar's high bluffs, provides a mount for the return to the Barrens. You have already met Devrak at the Crossroads, so the wyverns know the flight path. The ride crosses the desert sky and saves you the long march overland across the Southfury River.",
+   "body": "You carry Gryshka's written reply to Zargh after bringing her a parcel of prime meat in Orgrimmar. Doras, the wind rider master atop Orgrimmar's high bluffs, provides your mount for the return to the Barrens.\n\nYou have already met Devrak at the Crossroads, so the wyverns know the flight path. The ride crosses the desert sky and spares you the long march overland across the Southfury River.",
    "spoiler": 0
   },
   {
    "title": "A Match Made in the Barrens",
-   "body": "Zargh's courtship has won Gryshka's warm reply. Quality provisions have pleased her, and Zargh celebrates, even musing about an impending wedding. The delivery also brings you back to the Barrens' central hub for travel.",
+   "body": "Zargh's courtship has won Gryshka's warm reply. The fine provisions pleased her, and Zargh celebrates, even musing about an impending wedding.\n\nThe delivery also brings you back to the Barrens' central hub for travel.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "wind rider required",
     "can i walk"
    ],
-   "answer": "Doras sends you by wind rider because you have already visited Devrak at the Crossroads. The wyverns can fly between the two roosts, saving time and keeping supply lines secure."
+   "answer": "Doras sends you by wind rider because you have already visited Devrak at the Crossroads. The wyverns fly between the two roosts, saving time and keeping supply lines secure."
   },
   {
    "q": "Who is Gryshka?",
@@ -94,11 +94,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Orgrimmar's and the Crossroads' wind rider roosts link the Horde capital to Kalimdor's perilous plains, carrying trade and supplies between them."
+   "text": "The wind rider roosts at Orgrimmar and the Crossroads link the Horde capital to Kalimdor's perilous plains. They carry trade and supplies between them."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know that hearty cuts of fresh game are among the finest gifts of affection and respect for a prospective mate."
+   "text": "As an orc, you know hearty cuts of fresh game are among the finest gifts of affection and respect for a prospective mate."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Return to the Crossroads."
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Crag of the Everliving"
  },
- "summary": "The Crag of the Everliving is a verdant cavern chamber nestled deep within the Wailing Caverns. Dominated by lush, corrupted flora and predatory plant creatures, it serves as the domain of the Fanglord Lord Pythas. Its towering upper reaches shelter the ancient entity after whom the crag is named.",
+ "summary": "The Crag of the Everliving lies beneath a canopy of corrupted growth in the Wailing Caverns. Lord Pythas holds its central reaches, and an ancient being dwells in the heights above.",
  "sections": [
   {
    "title": "A Corrupted Canopy",
-   "body": "While much of the Wailing Caverns is carved of damp subterranean stone, the Crag of the Everliving bursts with unruly, twisted vegetation fueled by the Nightmare corrupting Naralex's slumber. Towering mossy platforms and winding paths are choked with Deviate Shamblers\u2014living plant hulks prowling the undergrowth. Lord Pythas, one of Naralex's fallen disciples, watches over the crag's central reaches, having traded his noble druidic vows for the venomous rites of the Druids of the Fang.",
+   "body": "Twisted growth fills the Crag of the Everliving, fed by the Nightmare corrupting Naralex's sleep. Mossy platforms rise over winding paths where Deviate Shamblers prowl. These living plant hulks crowd the undergrowth.\n\nLord Pythas watches the crag's central reaches. Once a disciple of Naralex, he abandoned his druidic vows for the venomous rites of the Druids of the Fang.",
    "spoiler": 0
   },
   {
    "title": "The Ancient Guardian",
-   "body": "The chamber draws its name from Verdan the Everliving, a colossal, primordial plant elemental who resides in the crag's upper heights. Corrupted by the Emerald Nightmare that grips the cavern, Verdan now acts as a fearsome line of defense rather than a peaceful natural guardian. Beyond his towering form lurks Lord Serpentis, the self-proclaimed chief of the Fanglords, who oversees the sect's descent into serpentine madness.",
+   "body": "Verdan the Everliving gives the chamber its name. This colossal, primordial plant elemental dwells in the crag's upper heights, corrupted by the Emerald Nightmare gripping the cavern. No longer a peaceful guardian of nature, Verdan now forms a fearsome line of defense.\n\nBeyond Verdan's towering form waits Lord Serpentis. He calls himself chief of the Fanglords and oversees the sect's descent into serpentine madness.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "everliving name origin",
     "crag name"
    ],
-   "answer": "The chamber is named after Verdan the Everliving, an ancient and colossal plant beast residing in the highest terraces of the crag. Though once an embodiment of nature's timeless vitality, he has fallen under the sway of the Nightmare that afflicts the caverns."
+   "answer": "The chamber takes its name from Verdan the Everliving, an ancient, colossal plant beast in the crag's highest terraces. Once nature's timeless vitality made manifest, he has fallen under the Nightmare's sway."
   },
   {
    "q": "Who controls this part of the caverns?",
@@ -37,7 +37,7 @@
     "crag boss",
     "fanglord here"
    ],
-   "answer": "Lord Pythas, one of the primary Fanglords, directly presides over the crag. In the higher ledges above him lurk both Verdan the Everliving and Lord Serpentis, the leader of the Druids of the Fang."
+   "answer": "Lord Pythas presides over the crag. On higher ledges above him lurk Verdan the Everliving and Lord Serpentis, leader of the Druids of the Fang."
   },
   {
    "q": "What creatures are commonly found in the Crag of the Everliving?",
@@ -46,7 +46,7 @@
     "crag enemies",
     "what lives here"
    ],
-   "answer": "The crag is overrun with Deviate Shamblers\u2014shambling plant horrors birthed from the corrupted springs\u2014alongside twisted serpents and the fanatical Druids of the Fang."
+   "answer": "Deviate Shamblers overrun the crag, alongside twisted serpents and fanatical Druids of the Fang. The Shamblers are plant horrors born from the corrupted springs."
   },
   {
    "q": "Why is plant life thriving so deep underground?",
@@ -55,17 +55,17 @@
     "why so green",
     "corrupted greenery"
    ],
-   "answer": "The underground springs were harnessed by the night elf druid Naralex to rejuvenate the Barrens. When his ritual was snared by the Emerald Nightmare, the wild growth ran rampant and twisted into hostile, aberrant flora."
+   "answer": "Naralex, a night elf druid, harnessed the underground springs to rejuvenate the Barrens. The Emerald Nightmare ensnared his ritual, driving wild growth rampant and twisting it into hostile, aberrant flora."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Seeing the Crag of the Everliving is a tragic lesson for Cenarion druids, as pure natural vitality and elemental guardianship have been warped into lethal tools of the Nightmare."
+   "text": "For Cenarion druids, the Crag of the Everliving is a tragic lesson: the Nightmare has turned nature's vitality and elemental guardianship into lethal tools."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The crag's unnaturally lush subterranean atmosphere nourishes rare underground roots and mushrooms that flourish in the humid, dream-soaked soil."
+   "text": "The crag's humid, dream-soaked soil and unnaturally lush underground air nourish rare roots and mushrooms."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Crag of the Everliving"
- ]
+ ],
+ "style": 2
 }

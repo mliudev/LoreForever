@@ -10,16 +10,16 @@
    "quest:3116"
   ]
  },
- "summary": "In Shadowglen, a Simple Sigil calls novice night elf warriors to training with Alyissia. It marks their first step into Teldrassil’s defense.",
+ "summary": "In Shadowglen, a Simple Sigil calls novice night elf warriors to train with Alyissia. It marks their first step in Teldrassil’s defense.",
  "sections": [
   {
    "title": "A Summons to Arms",
-   "body": "In Shadowglen, Conservator Ilthalaine guides young night elves as they seek their calling. A runner brings a Simple Sigil from the warrior trainer Alyissia, and Ilthalaine gives it to fledgling warriors. Its inscription tells each recruit to report for instruction. The token marks the start of their martial training as troubling times come to the World Tree.",
+   "body": "In Shadowglen, Conservator Ilthalaine guides young night elves as they seek their calling. A runner brings a Simple Sigil from Alyissia, the warrior trainer. Ilthalaine gives it to fledgling warriors, and its inscription directs each recruit to report for instruction. Their martial training begins as troubling times come to the World Tree.",
    "spoiler": 0
   },
   {
    "title": "The Burden of Defense",
-   "body": "Alyissia uses the sigil to speak with recruits about the kaldorei’s pressing needs. Teldrassil’s recent growth, corruption spreading among forest beasts, and the rediscovery of distant lands such as Feralas have stretched night elven protectors thin. The sigil holds no power. It welcomes a recruit among the guardians charged with shielding their people from emerging threats.",
+   "body": "Alyissia uses the sigil to tell recruits what the kaldorei need. Teldrassil has grown recently, corruption is spreading among forest beasts, and the rediscovery of distant lands such as Feralas has stretched night elven protectors thin. The sigil holds no power. It welcomes each recruit among the guardians charged with shielding their people from emerging threats.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who made the sigil",
     "who sent simple sigil"
    ],
-   "answer": "A runner carries the Simple Sigil from Alyissia, the warrior trainer in Shadowglen, to Conservator Ilthalaine, who gives it to novice warriors."
+   "answer": "A runner carries the Simple Sigil from Alyissia, the warrior trainer in Shadowglen, to Conservator Ilthalaine. Ilthalaine gives it to novice warriors."
   },
   {
    "q": "What should I do with it?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a kaldorei warrior, the Simple Sigil is your first credential in the martial traditions used to safeguard Teldrassil."
+   "text": "As a kaldorei warrior, the Simple Sigil marks your first step into the martial traditions used to safeguard Teldrassil."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see the urgency facing the kaldorei: Alyissia and other trainers recruit capable hands to fight the growing corruption in the boughs of the World Tree."
+   "text": "As a night elf, you see the urgency facing the kaldorei. Alyissia and other trainers recruit capable hands to fight the growing corruption in the boughs of the World Tree."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Simple Sigil",
   "Simple Sigil (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Jadefire Run"
  },
- "summary": "Jadefire Run is a heavily fortified satyr encampment nestled in northern Felwood. It houses some of the most powerful and cunning satyrs in the region, serving as a bastion of demonic corruption deep within the tainted forest.",
+ "summary": "Jadefire Run shelters Felwood’s strongest and most cunning satyrs in the north. Their fortified camp spreads demonic corruption through the tainted woods.",
  "sections": [
   {
    "title": "A Bastion of Deceit",
-   "body": "Situated amid the blighted woods of northern Felwood, Jadefire Run functions as a stronghold for the Jadefire satyrs. Unlike lesser outposts scattered throughout the valley, this camp features substantial demonic construction and shelters formidable spellcasters and tricksters. The satyrs here actively conspire to spread corruption further across Kalimdor, employing dark sorcery and foul trickery against anyone who dares intrude on their territory.",
+   "body": "In northern Felwood, Jadefire satyrs hold a stronghold among the blighted woods. Demonic structures shelter formidable spellcasters and tricksters, far stronger than those in the valley’s lesser outposts. The satyrs use dark sorcery and foul trickery against anyone who enters their territory. They seek to spread corruption farther across Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -22,7 +22,7 @@
     "jadefire run info",
     "what is this place felwood"
    ],
-   "answer": "Jadefire Run is a major satyr settlement located in northern Felwood. It serves as a central redoubt for some of the most dangerous and elite satyrs infesting the forest."
+   "answer": "Jadefire Run is a major satyr settlement in northern Felwood. It shelters some of the forest’s most dangerous and elite satyrs."
   },
   {
    "q": "Who rules or lives in Jadefire Run?",
@@ -30,7 +30,7 @@
     "who lives here",
     "jadefire run mobs"
    ],
-   "answer": "The encampment is occupied by the Jadefire satyrs\u2014corrupted servants of the Burning Legion who wield fel magic and deceptive illusions to terrorize the surrounding forest."
+   "answer": "Jadefire Run is home to the Jadefire satyrs, corrupted servants of the Burning Legion. They use fel magic and deceptive illusions to terrorize the surrounding forest."
   },
   {
    "q": "Why is Jadefire Run so dangerous?",
@@ -38,17 +38,17 @@
     "is jadefire run hard",
     "jadefire run danger"
    ],
-   "answer": "The satyrs here are noticeably stronger and more organized than those in southern Felwood. Backed by demonic structures and potent spellcasters, they easily overpower unprepared adventurers."
+   "answer": "The satyrs of Jadefire Run are stronger and more organized than those in southern Felwood. Their demonic structures and potent spellcasters make them dangerous to the unprepared."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, Jadefire Run is a grotesque reminder of ancient betrayal and demonic defilement that must be cleansed from sacred Kalimdor soil."
+   "text": "As a night elf, you see Jadefire Run as a reminder of ancient betrayal and demonic defilement on Kalimdor’s sacred soil. It must be cleansed."
   },
   {
    "target": "class:Druid",
-   "text": "Druids view the vile rituals and fel presence festering in Jadefire Run as an open wound poisoning the natural spirits of Felwood."
+   "text": "As a druid, you see Jadefire Run’s vile rituals and fel presence as an open wound poisoning Felwood’s natural spirits."
   }
  ],
  "keywords": [
@@ -66,5 +66,6 @@
  ],
  "attribution": [
   "Jadefire Run"
- ]
+ ],
+ "style": 2
 }

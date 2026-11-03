@@ -17,16 +17,16 @@
   "wiki": "Encrypted Sigil (Classic)",
   "chain": []
  },
- "summary": "In Shadowglen, a coded summons calls new night elf rogues to begin their training. Conservator Ilthalaine carries it for Frahun Shadewhisper, who also warns of the fragile peace across Kalimdor.",
+ "summary": "In Shadowglen, a coded summons brings new night elf rogues to their trainer. Conservator Ilthalaine carries the message for Frahun Shadewhisper, who warns that peace across Kalimdor remains fragile.",
  "sections": [
   {
    "title": "A Message in the Shadows",
-   "body": "While young night elves study nature's balance under Conservator Ilthalaine, those drawn to stealth receive a quieter summons. A runner brings the Encrypted Sigil from Frahun Shadewhisper, Shadowglen's rogue mentor. Its ciphers are meant for initiates of the trade. The bearer is to decipher the message and find Frahun near the roots of Aldrassil to begin instruction.",
+   "body": "While young night elves study nature's balance under Conservator Ilthalaine, those drawn to stealth receive a quieter summons. A runner brings the Encrypted Sigil from Frahun Shadewhisper, Shadowglen's rogue mentor. Its ciphers are meant for initiates of the trade. They are to decipher the message and find Frahun near the roots of Aldrassil to begin instruction.",
    "spoiler": 0
   },
   {
    "title": "Watching the Horizon",
-   "body": "Frahun's message also warns of Kalimdor's uncertain peace. The Third War has ended, but the truce between the Alliance and the emerging Horde remains fragile. Rogue scouts and informers in Shadowglen are urged to sharpen their eyes and ears early. They watch for threats and covert provocations that could renew war across the borders.",
+   "body": "Frahun's message warns that peace across Kalimdor remains uncertain. The Third War has ended, but the truce between the Alliance and the emerging Horde is fragile. So rogue scouts and informers in Shadowglen are urged to sharpen their eyes and ears early. They watch for threats and covert provocations that could renew war across the borders.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "encrypted sigil quest",
     "sigil item"
    ],
-   "answer": "The Encrypted Sigil is a coded token from rogue mentor Frahun Shadewhisper, directing new rogues in Shadowglen to find him beneath Aldrassil for training."
+   "answer": "Frahun Shadewhisper sends a coded token to new rogues in Shadowglen. Its message directs them to find him beneath Aldrassil for training."
   },
   {
    "q": "Who hands the sigil to young night elves?",
@@ -47,7 +47,7 @@
     "quest giver",
     "conservator ilthalaine"
    ],
-   "answer": "Conservator Ilthalaine delivers the sigil on Frahun's behalf once an initiate has shown basic skill in managing the local wildlife around Shadowglen's boughs."
+   "answer": "Conservator Ilthalaine delivers the sigil for Frahun after an initiate shows basic skill managing the local wildlife around Shadowglen's boughs."
   },
   {
    "q": "Where can Frahun Shadewhisper be found?",
@@ -56,7 +56,7 @@
     "find frahun shadewhisper",
     "frahun location"
    ],
-   "answer": "Frahun Shadewhisper can be found within the shelter of the Great Tree Aldrassil in Shadowglen, ready to instruct newly arrived night elf rogues."
+   "answer": "Frahun Shadewhisper can be found beneath the Great Tree Aldrassil in Shadowglen. He is ready to instruct newly arrived night elf rogues."
   },
   {
    "q": "Why are rogues needed in peaceful Teldrassil?",
@@ -74,7 +74,7 @@
     "after encrypted sigil",
     "sigil reward lore"
    ],
-   "answer": "After you present the sigil, Frahun accepts the cipher and acknowledges your readiness. He invites you to return as you gain experience, so he can teach combat techniques, weapon handling, and stealth."
+   "answer": "After you present the sigil, Frahun accepts the cipher and acknowledges your readiness. As you gain experience, you can return for lessons in combat techniques, weapon handling, and stealth."
   },
   {
    "q": "Does the Horde actively threaten Shadowglen directly?",
@@ -83,21 +83,21 @@
     "horde threat shadowglen",
     "horde seeds of distrust"
    ],
-   "answer": "The Horde does not openly assault secluded Teldrassil, but whispers that Horde agents are sowing distrust across Kalimdor keep kaldorei sentries and operatives alert."
+   "answer": "The Horde does not openly assault secluded Teldrassil. Yet whispers that Horde agents are sowing distrust across Kalimdor keep kaldorei sentries and operatives alert."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you enter the kaldorei network of scouts, assassins, and informers who protect Teldrassil from unseen adversaries."
+   "text": "As a rogue, you join the kaldorei scouts, assassins, and informers who guard Teldrassil from unseen adversaries."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you share Aldrassil's watch over Kalimdor's shifting borders and defend the newly planted boughs."
+   "text": "As a night elf, you share Aldrassil's watch over Kalimdor's shifting borders and defend its newly planted boughs."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you hear Shadowglen's trainers warn that treaties between factions are fragile and intelligence work helps prevent Horde incursions."
+   "text": "As an Alliance member, you hear Shadowglen's trainers warn that treaties between factions are fragile. Intelligence work helps prevent Horde incursions."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Encrypted Sigil (Classic)"
  ],
- "style": 1
+ "style": 2
 }

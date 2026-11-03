@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Summons from the Spirits",
-   "body": "Gornek gives the Hallowed Tablet to a promising troll priest taking their first steps through the Valley of Trials. The words carry a personal invitation from Ken'jai, the priest trainer outside the Den. Ken'jai reads signs and hears the spirits' whispers, sensing when young Darkspear with spiritual potential arrive in Durotar. The tablet tells the initiate to read its message and seek Ken'jai's guidance in channeling spiritual authority.",
+   "body": "Gornek gives the Hallowed Tablet to a promising troll priest taking their first steps through the Valley of Trials. A personal invitation from Ken'jai, the priest trainer outside the Den, is written upon it. Ken'jai reads signs and hears the spirits' whispers.\n\nSo when young Darkspear with spiritual potential arrive in Durotar, the spirits make their coming known to him. The tablet tells the initiate to read its message and seek Ken'jai's guidance in channeling spiritual authority.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hallowed tablet lore",
     "what does the tablet do"
    ],
-   "answer": "Gornek gives novice troll priests an inscribed stone tablet in the Valley of Trials. Its message directs them to Ken'jai, their priest trainer."
+   "answer": "In the Valley of Trials, Gornek gives novice troll priests an inscribed stone tablet. Its message directs them to Ken'jai, their priest trainer."
   },
   {
    "q": "Who sent the tablet?",
@@ -35,7 +35,7 @@
     "who gave me this",
     "tablet author"
    ],
-   "answer": "Ken'jai sent the tablet through Gornek. The spirits foretold a new acolyte's arrival, prompting Ken'jai, the priest trainer outside the Den, to send word."
+   "answer": "Ken'jai sent the tablet through Gornek. The spirits foretold a new acolyte's arrival, so Ken'jai, the priest trainer outside the Den, sent word."
   },
   {
    "q": "Why do troll priests need to see Ken'jai?",
@@ -77,5 +77,5 @@
   "Hallowed Tablet",
   "Hallowed Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

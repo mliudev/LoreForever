@@ -24,16 +24,16 @@
    "Special Forces/Quest chain"
   ]
  },
- "summary": "At the Rebel Camp in northern Stranglethorn Vale, Sergeant Yohwa seeks help against the overwhelming forces of Colonel Kurzen. Outnumbered ten to one by a cunning tactician, the rebels must rely on swift, covert strikes to survive. Cutting down Kurzen's jungle fighters is the first step toward relieving the relentless pressure on their refuge.",
+ "summary": "At the Rebel Camp in northern Stranglethorn Vale, Sergeant Yohwa calls for aid against Colonel Kurzen's overwhelming force. Outnumbered ten to one, the rebels cannot fight a long, open war. They strike swiftly and in secret, hoping to thin Kurzen's ranks and ease the pressure on their refuge.",
  "sections": [
   {
    "title": "A Losing Battle",
-   "body": "The soldiers at the Rebel Camp face dire odds against Colonel Kurzen. Yohwa explains that the Colonel is a brilliant military tactician whose force outnumbers the rebellion by at least ten to one. Unable to wage an open war of attrition, the rebels have no choice but to adopt the Colonel's own covert tactics, launching quick incursions into his encampment to thin his ranks and escaping before heavy reinforcements can retaliate.",
+   "body": "At the Rebel Camp, the rebels face Colonel Kurzen's force with at least ten foes for every one of their own. Sergeant Yohwa knows the Colonel is a brilliant military tactician. An open war of attrition would leave the rebels with no chance.\n\nSo they turn Kurzen's covert methods against him. They strike quickly at his encampment, then flee before heavy reinforcements can answer.",
    "spoiler": 0
   },
   {
    "title": "Striking the Compound",
-   "body": "To stem the tide, Yohwa asks you to push east into Kurzen's stronghold and eliminate a sizable contingent of his jungle fighters. Thinning out these foot soldiers eases the pressure bearing down on the Rebel Camp.",
+   "body": "Sergeant Yohwa asks you to head east into Kurzen's stronghold and eliminate a sizable contingent of his jungle fighters. Their numbers press hard on the Rebel Camp. Thin their ranks, and the refuge can breathe easier.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who gives the second rebellion",
     "sergeant yohwa"
    ],
-   "answer": "Sergeant Yohwa is an officer stationed at the Rebel Camp in northern Stranglethorn Vale, coordinating covert strikes against the host led by Colonel Kurzen."
+   "answer": "Sergeant Yohwa is an officer at the Rebel Camp in northern Stranglethorn Vale. He coordinates covert strikes against Colonel Kurzen's host."
   },
   {
    "q": "Where is Colonel Kurzen's camp located?",
@@ -54,7 +54,7 @@
     "where are the jungle fighters",
     "kurzen location"
    ],
-   "answer": "Colonel Kurzen's compound lies to the east of the Rebel Camp in the dense wilderness of northern Stranglethorn Vale."
+   "answer": "Colonel Kurzen's compound lies east of the Rebel Camp, amid the dense wilderness of northern Stranglethorn Vale."
   },
   {
    "q": "Why are the rebels using covert tactics instead of open war?",
@@ -63,7 +63,7 @@
     "why not fight kurzen openly",
     "rebel tactics"
    ],
-   "answer": "The rebels are outnumbered at least ten to one by Colonel Kurzen, a brilliant military strategist. Facing such massive odds, a direct assault is impossible, forcing the rebels to rely on rapid guerrilla strikes."
+   "answer": "The rebels face at least ten of Colonel Kurzen's fighters for every one of their own. Against a brilliant military strategist, an open assault is impossible, so they depend on swift guerrilla strikes."
   },
   {
    "q": "What comes after The Second Rebellion?",
@@ -72,7 +72,7 @@
     "what is after the second rebellion",
     "follow up to the second rebellion"
    ],
-   "answer": "After cutting down Kurzen's jungle fighters, Sergeant Yohwa offers the follow-up step titled Special Forces."
+   "answer": "After you cut down Kurzen's jungle fighters, Sergeant Yohwa offers the next step, Special Forces."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "The Second Rebellion"
- ]
+ ],
+ "style": 2
 }

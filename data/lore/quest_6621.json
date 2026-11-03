@@ -17,16 +17,16 @@
   "wiki": "King of the Foulweald (Classic)",
   "chain": []
  },
- "summary": "Karang Amakkar orders a Horde strike against the Foulweald furbolgs southeast of Astranaar. Horde champions plant a war banner on the tribe’s sacred totem mound, drawing out Chief Murgut and killing him.",
+ "summary": "At Zoram'gar Outpost, Karang Amakkar orders a strike against the Foulweald. Horde champions plant a war banner on the tribe’s sacred totem mound, drawing out Chief Murgut and killing him.",
  "sections": [
   {
    "title": "A Show of Force",
-   "body": "Karang Amakkar at Zoram'gar Outpost sees the corrupted Foulweald as a danger to the Horde. The tribe is smaller than the northern Thistlefur, but its members are fierce. Rather than wait for them to ambush Horde patrols, Karang orders a show of force meant to break their will.",
+   "body": "Karang Amakkar sees the corrupted Foulweald as a danger to the Horde from his post at Zoram'gar Outpost. The tribe is smaller than the northern Thistlefur, but its members are fierce. So Karang orders a show of force to break their will before they can ambush Horde patrols.",
    "spoiler": 0
   },
   {
    "title": "Desecration and Challenge",
-   "body": "Greenpaw Village lies northeast of Mystral Lake. Karang prepares a tribal war banner to plant in the center of the Foulweald totem mound, insulting the tribe’s ancestral spirits and pride. Furbolg defenders rush to tear it down, and Chief Murgut emerges to defend his honor in open combat. Taking Murgut’s personal totem breaks the tribe’s leadership and establishes Horde supremacy in the area.",
+   "body": "Greenpaw Village lies northeast of Mystral Lake. Karang prepares a tribal war banner for the center of the Foulweald totem mound, insulting the tribe’s ancestral spirits and pride. The defenders rush to tear it down, and Chief Murgut emerges to defend his honor in open combat. Taking his personal totem breaks the tribe’s leadership and establishes Horde supremacy in the area.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "totem mound banner purpose",
     "why challenge murgut"
    ],
-   "answer": "Karang’s banner is planted on the sacred totem mound to provoke the Foulweald. The insult drives them to attack and brings Chief Murgut into open combat to defend his standing."
+   "answer": "Karang’s banner insults the Foulweald on their sacred totem mound. The provocation drives them to attack and brings Chief Murgut into open combat to defend his standing."
   },
   {
    "q": "Who are the Foulweald furbolgs?",
@@ -81,17 +81,17 @@
     "between a rock and a thistlefur connection",
     "prerequisite king of the foulweald"
    ],
-   "answer": "Karang turns south to the Foulweald after dealing with the northern Thistlefur in 'Between a Rock and a Thistlefur.' He seeks to crush them before they can launch coordinated raids."
+   "answer": "After dealing with the northern Thistlefur in 'Between a Rock and a Thistlefur,' Karang turns south to the Foulweald. He seeks to crush them before they can launch coordinated raids."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see Karang Amakkar use shows of force to cow hostile Ashenvale tribes and secure central trails for Horde supply caravans."
+   "text": "As a member of the Horde, you see Karang Amakkar use shows of force to cow hostile tribes and secure central trails for Horde supply caravans."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know that provoking an enemy chieftain into single combat is a classic way of war, favoring strength and decisive confrontation over long skirmishes."
+   "text": "As an orc, you know provoking an enemy chieftain into single combat is a classic way of war. It favors strength and decisive confrontation over long skirmishes."
   },
   {
    "target": "class:Shaman",
@@ -121,5 +121,5 @@
  "attribution": [
   "King of the Foulweald (Classic)"
  ],
- "style": 1
+ "style": 2
 }

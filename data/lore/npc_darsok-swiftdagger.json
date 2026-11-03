@@ -8,21 +8,21 @@
   "wiki": "Darsok Swiftdagger",
   "refs": 4
  },
- "summary": "At the Crossroads, Darsok Swiftdagger watches the northern trails for threats. The orc scout directs Horde fighters against Witchwing harpies in the Dry Hills, whose raids endanger travelers and settlements. He is also an old friend of Witch Doctor Jin'Zil in Malaka'jin.",
+ "summary": "At the Crossroads, Darsok Swiftdagger keeps watch over the northern trails. The orc scout sends Horde fighters against Witchwing harpies in the Dry Hills, whose raids threaten travelers and settlements. He is also an old friend of Witch Doctor Jin'Zil in Malaka'jin.",
  "sections": [
   {
    "title": "A Watcher at the Crossroads",
-   "body": "Darsok Swiftdagger watches the northern scrubland from the Crossroads. The roads linking Durotar, Mulgore, and the Barrens’ northern reaches face raiders and centaur, as well as organized hunters from the sky. Darsok’s anger falls on the Witchwing harpies. Their roosts lie in the Dry Hills, northwest of the Forgotten Pools, where they threaten caravans traveling north.",
+   "body": "From the Crossroads, Darsok Swiftdagger watches the northern scrubland. The roads between Durotar, Mulgore, and the Barrens’ northern reaches face raiders and centaur. Organized hunters also descend from the sky. Darsok’s anger is aimed at the Witchwing harpies. Their roosts lie in the Dry Hills, northwest of the Forgotten Pools, where they threaten caravans traveling north.",
    "spoiler": 0
   },
   {
    "title": "The War on the Witchwing",
-   "body": "Darsok directs strikes into Witchwing territory, beginning with the Harpy Raiders. He then sends seasoned fighters after the harpies’ lieutenants and, at last, their matriarch, Serena Bloodfeather. By breaking their command in stages, he seeks to leave the flock scattered across the crags.",
+   "body": "Darsok directs fighters into Witchwing territory, starting with the Harpy Raiders. Next, he sends seasoned fighters after the harpies’ lieutenants. At last, he sends them against their matriarch, Serena Bloodfeather. By breaking their command in stages, he hopes to scatter the flock across the crags.",
    "spoiler": 1
   },
   {
    "title": "Connections in the Scrub",
-   "body": "Darsok has an old friend far northwest of the Barrens: Witch Doctor Jin'Zil, a troll who lives at Malaka'jin in the Stonetalon Mountains, the land the harpies come from. Darsok sends Jin'Zil a letter with news of the harpy campaign. The two friends have not been in touch for many years.",
+   "body": "Far northwest of the Barrens, Darsok has an old friend: Witch Doctor Jin'Zil. Jin'Zil is a troll who lives at Malaka'jin in the Stonetalon Mountains, the land the harpies come from. Darsok sends him a letter with news of the harpy campaign. The two friends have not been in touch for many years.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "find darsok",
     "darsok swiftdagger spot"
    ],
-   "answer": "Darsok Swiftdagger is stationed at the Crossroads, the central Horde settlement in the Barrens. He directs travelers toward threats in the north."
+   "answer": "Darsok Swiftdagger keeps watch at the Crossroads, the central Horde settlement in the Barrens. He directs travelers toward threats in the north."
   },
   {
    "q": "Why is Darsok hunting harpies?",
@@ -44,7 +44,7 @@
     "darsok harpy grudge",
     "witchwing harpies barrens"
    ],
-   "answer": "Witchwing harpies roost in canyons northwest of the Forgotten Pools and threaten Horde caravans, travelers, and scouts on the Barrens’ northern trails."
+   "answer": "Witchwing harpies roost in canyons northwest of the Forgotten Pools. They threaten Horde caravans, travelers, and scouts on the Barrens’ northern trails."
   },
   {
    "q": "Who is Serena Bloodfeather?",
@@ -71,7 +71,7 @@
     "who does darsok answer to",
     "crossroads leadership"
    ],
-   "answer": "Darsok organizes his harpy campaign from the Crossroads. No Classic source identifies Sergra Darkthorn or Thork as his direct superior."
+   "answer": "Darsok organizes his campaign against the harpies from the Crossroads. No Classic source identifies Sergra Darkthorn or Thork as his direct superior."
   },
   {
    "q": "Where do the Witchwing harpies nest?",
@@ -80,7 +80,7 @@
     "dry hills harpies",
     "where to find harpies barrens"
    ],
-   "answer": "The Witchwing harpies roost in the Dry Hills, jagged ravines and cliffs northwest of the Forgotten Pools in the Barrens’ north."
+   "answer": "The Witchwing harpies roost in the Dry Hills, northwest of the Forgotten Pools in the Barrens’ north."
   }
  ],
  "angles": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Darsok Swiftdagger"
  ],
- "style": 1
+ "style": 2
 }

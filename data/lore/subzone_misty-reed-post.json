@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Misty Reed Post"
  },
- "summary": "Misty Reed Post is a rugged Horde encampment situated between Stagalbog and the Misty Reed Strand in the eastern reaches of the Swamp of Sorrows. Established as a frontline watch under the authority of Stonard, it serves to monitor the dangerous wetlands and the treacherous coastline.",
+ "summary": "Between Stagalbog and the Misty Reed Strand, Misty Reed Post keeps watch over the wetlands and the dangerous coast. The Horde holds this camp under Stonard's authority.",
  "sections": [
   {
    "title": "A Lonely Outpost",
-   "body": "Tucked away in the humid gloom between the Stagalbog and the eastern shore, Misty Reed Post is little more than a spartan camp under Stonard's banner. It is manned by a handful of Stonard hunters, a shaman, Katar, and Tok'Kar, who oversees the watch. Conditions are rough, offering no fortified shelter from the marsh's hostile wildlife and lingering damp. Tok'Kar harbors quiet ambitions that the Horde command in Stonard will one day reinforce the position with a sturdy orcish burrow or watchtower, though for now, the scouts must hold the marsh with tents, campfire smoke, and sharpened steel.",
+   "body": "A handful of Stonard hunters, the shaman Katar, and Tok'Kar keep watch between Stagalbog and the eastern shore. The camp stands under Stonard's banner, exposed to marsh wildlife and lingering damp. Tok'Kar hopes Horde command in Stonard will send an orcish burrow or watchtower. For now, the scouts hold the marsh with tents, campfire smoke, and sharpened steel.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "misty reed post purpose",
     "what is this camp"
    ],
-   "answer": "It serves as a secondary forward camp for the Horde garrison at Stonard. Stationed between the wetlands of Stagalbog and the coast of the Misty Reed Strand, its sentries keep watch over coastal threats and native swamp beasts."
+   "answer": "Misty Reed Post is a forward camp for the Horde garrison at Stonard. Its sentries watch the coast and the swamp beasts between Stagalbog and the Misty Reed Strand."
   },
   {
    "q": "Who is in charge here?",
@@ -32,7 +32,7 @@
     "tokkar",
     "tok'kar"
    ],
-   "answer": "The post is led by Tok'Kar, an orc tasked with holding the vulnerable camp alongside Katar, a Stonard shaman, and several Stonard hunters. Tok'Kar hopes the settlement will eventually be granted the resources to construct permanent fortifications."
+   "answer": "Tok'Kar leads Misty Reed Post with Katar, a Stonard shaman, and several Stonard hunters. He hopes the camp will receive resources for permanent fortifications."
   },
   {
    "q": "Is there a flight master at Misty Reed Post?",
@@ -41,17 +41,17 @@
     "is there a flight path here",
     "flight master misty reed post"
    ],
-   "answer": "No. Misty Reed Post is an austere field encampment without wind rider facilities. Travelers seeking flight paths must make the journey west along the road to Stonard."
+   "answer": "No. Misty Reed Post has no wind rider facilities. Follow the road west to Stonard for flight paths."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The camp offers a welcome pocket of safety and local guidance for Horde scouts navigating the perilous eastern edges of the marsh."
+   "text": "As a member of the Horde, you can find shelter and local guidance here while scouting the marsh's dangerous eastern edge."
   },
   {
    "target": "class:Hunter",
-   "text": "Staffed primarily by Stonard hunters who know the surrounding marsh ecology, the post represents the grit needed to track and survive amidst hostile wetland predators."
+   "text": "As a hunter, you share this post with Stonard hunters who know the surrounding marsh. Their work calls for grit as they track and survive its hostile wetland predators."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Misty Reed Post"
- ]
+ ],
+ "style": 2
 }

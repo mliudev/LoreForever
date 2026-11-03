@@ -17,16 +17,16 @@
   "wiki": "Journey to Hillsbrad Foothills",
   "chain": []
  },
- "summary": "Renferrel sends his research south to Tarren Mill, where the Forsaken press on with their plague studies. You carry his notes from Silverpine Forest to Apothecary Lydon in Hillsbrad Foothills.",
+ "summary": "Renferrel sends his research south to Tarren Mill, where Forsaken apothecaries press on with their plague studies. You carry his notes from Silverpine Forest to Apothecary Lydon in Hillsbrad Foothills.",
  "sections": [
   {
    "title": "A Plague of Their Own",
-   "body": "Since escaping the Lich King's control, Lady Sylvanas Windrunner has pursued a New Plague that could destroy both the living and the Scourge. The Royal Apothecary Society works under the Banshee Queen's relentless pressure to create it. Its researchers are scattered across Lordaeron, so they share chemical data and test findings to hasten their work.",
+   "body": "Since breaking free of the Lich King's control, Lady Sylvanas Windrunner has pursued a New Plague that could destroy both the living and the Scourge. The Royal Apothecary Society works under the Banshee Queen's relentless pressure to create it. Its researchers are spread across Lordaeron, so they share chemical data and test findings to hasten their work.",
    "spoiler": 0
   },
   {
    "title": "The Road South",
-   "body": "Apothecary Renferrel works from the Sepulcher in Silverpine Forest and sends you south with his recent findings for Apothecary Lydon. Your road leaves the pine woods and crosses the open pastures of Hillsbrad Foothills. Tarren Mill lies beneath the Alterac Mountains, serving the Forsaken as an outpost and a place to stage their research.",
+   "body": "Apothecary Renferrel works from the Sepulcher in Silverpine Forest. He sends you south with his recent findings for Apothecary Lydon. Your road leaves the pine woods and crosses open pastures in Hillsbrad Foothills. Tarren Mill lies beneath the Alterac Mountains, an outpost where the Forsaken stage their research.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "renferrel research",
     "what am i delivering"
    ],
-   "answer": "Renferrel's notes document his experiments with local plants, animals, and biological toxins. They contribute to the Royal Apothecary Society's work on the New Plague."
+   "answer": "Renferrel's notes record his experiments with local plants, animals, and biological toxins. They add to the Royal Apothecary Society's work on the New Plague."
   },
   {
    "q": "Why is the Royal Apothecary Society in such a rush?",
@@ -55,7 +55,7 @@
     "who is lydon",
     "apothecary lydon lore"
    ],
-   "answer": "Apothecary Lydon is a senior Royal Apothecary Society researcher stationed in Tarren Mill. Respected by Renferrel and his other peers, he oversees biological experiments in Hillsbrad Foothills, refining plague strains with local supplies and captives."
+   "answer": "Apothecary Lydon is a senior Royal Apothecary Society researcher stationed in Tarren Mill. Renferrel and his peers respect him. He oversees biological experiments in Hillsbrad Foothills, refining plague strains with local supplies and captives."
   },
   {
    "q": "Where is Tarren Mill?",
@@ -80,7 +80,7 @@
     "what next after delivering",
     "lydon reaction"
    ],
-   "answer": "After receiving Renferrel's notes, Apothecary Lydon begins studying them and working their findings into his own concoctions. He later asks adventurers to test improved strains on the local human population."
+   "answer": "After receiving Renferrel's notes, Apothecary Lydon studies them and works their findings into his own concoctions. He later asks adventurers to test improved strains on the local human population."
   }
  ],
  "angles": [
@@ -94,7 +94,7 @@
   },
   {
    "target": "profession:Herbalism",
-   "text": "As a herbalist, you know that Renferrel and Lydon study and gather virulent, mutated plants from across Lordaeron."
+   "text": "As a herbalist, you know Renferrel and Lydon study and gather virulent, mutated plants from across Lordaeron."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Journey to Hillsbrad Foothills"
  ],
- "style": 1
+ "style": 2
 }

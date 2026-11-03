@@ -8,16 +8,16 @@
   "wiki": "Councilman Millstipe",
   "refs": 2
  },
- "summary": "Darkshire's council grows bitter as Stormwind overrides its judgment. Councilman Millstipe lives in the town hall and wants justice for Duskwood's people.",
+ "summary": "In Darkshire, Councilman Millstipe wants justice for Duskwood's people. He lives in the town hall as the council grows bitter over Stormwind's rule.",
  "sections": [
   {
    "title": "Justice Denied by Stormwind",
-   "body": "Darkshire faces undead and attacks from ferocious beasts, while its council struggles against Stormwind City's bureaucracy. Councilman Millstipe reflects the town's growing bitterness toward the crown. The notorious grave robber Dextren Ward was caught selling freshly dug corpses to the necromancer Morbent Fel. Darkshire's leaders sentenced Ward to death, but Stormwind's House of Nobles commuted the execution and locked him away in the Stormwind Stockade.",
+   "body": "Undead and ferocious beasts threaten Darkshire, while its council wrestles with Stormwind City's bureaucracy. Councilman Millstipe shares the town's growing bitterness toward the crown. The grave robber Dextren Ward was caught selling freshly dug corpses to the necromancer Morbent Fel. Darkshire's leaders sentenced Ward to death, but Stormwind's House of Nobles commuted the execution and locked him away in the Stormwind Stockade.",
    "spoiler": 0
   },
   {
    "title": "A Message to the Nobles",
-   "body": "Councilman Millstipe believes Stormwind's politicians have put Duskwood's safety and justice aside. He discreetly directs adventurers to kill Dextren Ward in his Stockade cell. The order defies the House of Nobles and warns that, if Stormwind will not protect Duskwood's people, they will take justice into their own hands.",
+   "body": "Councilman Millstipe believes Stormwind's politicians have set Duskwood's safety and justice aside. In secret, he directs adventurers to kill Dextren Ward in his Stockade cell. The order defies the House of Nobles. If Stormwind will not protect Duskwood's people, Millstipe believes they must take justice into their own hands.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "millstipe dextren ward",
     "ward crime"
    ],
-   "answer": "Dextren Ward was a grave robber who dug up Duskwood's dead and sold them to the necromancer Morbent Fel. Lord Ebonlocke sentenced him to be beheaded, but Stormwind's House of Nobles spared him and sent him to the Stockade."
+   "answer": "Dextren Ward dug up Duskwood's dead and sold them to the necromancer Morbent Fel. Lord Ebonlocke sentenced him to be beheaded, but Stormwind's House of Nobles spared him and sent him to the Stockade."
   },
   {
    "q": "What is Millstipe's grievance with Stormwind?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Millstipe shows the political divide between Stormwind's sheltered nobility and Duskwood's desperate frontier settlements, which receive little aid and face heavy-handed interference from the capital."
+   "text": "Millstipe shows the divide between Stormwind's sheltered nobility and Duskwood's desperate frontier settlements. Those settlements receive little aid and face heavy-handed interference from the capital."
   },
   {
    "target": "class:Rogue",
-   "text": "For a rogue willing to enter the heavily guarded Stockade and carry out an unsanctioned political execution, Millstipe offers work that defies the House of Nobles."
+   "text": "For a rogue willing to enter the heavily guarded Stockade and carry out an unsanctioned political execution, Millstipe offers work against the House of Nobles."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Councilman Millstipe"
  ],
- "style": 1
+ "style": 2
 }

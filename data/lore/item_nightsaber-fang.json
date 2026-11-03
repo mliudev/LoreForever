@@ -10,16 +10,16 @@
    "quest:488"
   ]
  },
- "summary": "In Teldrassil, hunters take fangs from the nightsabers prowling the forest. Woodland residents also seek these teeth as reagents.",
+ "summary": "In Teldrassil, hunters take fangs from nightsabers prowling the forest. Woodland residents seek the teeth as reagents.",
  "sections": [
   {
    "title": "Trophy of the Hunt",
-   "body": "Nightsabers hunt beneath Teldrassil’s canopy, among the deadliest natural predators of northern Kalimdor. Night elves revere them for their agility, ferocity, and deep spiritual bond with Elune. A hunter who kills one can take its sharp fangs as proof of skill. Some figures in the forest seek those fangs for darker rites.",
+   "body": "Beneath Teldrassil’s canopy, nightsabers hunt as some of northern Kalimdor’s deadliest natural predators. Night elves revere them for their agility, ferocity, and deep spiritual bond with Elune. A hunter who kills one may take its sharp fangs as proof of skill. Yet some figures in the forest seek those fangs for darker rites.",
    "spoiler": 0
   },
   {
    "title": "A Satyr's Reagent",
-   "body": "Outside Dolanaar, the satyr Zenn Foulhoof preys on eager, inexperienced travelers. He claims to need woodland reagents and persuades newcomers to gather nightsaber fangs, strigid feathers, and spider silk. Giving him these materials aids the trickster, who openly mocks the naive hero when they deliver them.",
+   "body": "Outside Dolanaar, the satyr Zenn Foulhoof preys on eager, inexperienced travelers. He claims to need woodland reagents, then persuades newcomers to gather nightsaber fangs, strigid feathers, and spider silk. Giving him these materials aids the trickster. When they deliver them, he openly mocks the naive hero.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who drops nightsaber fangs",
     "nightsaber fang source"
    ],
-   "answer": "Nightsaber Fangs come from the predatory nightsabers prowling Teldrassil, especially the forest around Dolanaar."
+   "answer": "Nightsaber Fangs come from the predatory nightsabers prowling Teldrassil, especially in the forest around Dolanaar."
   },
   {
    "q": "Who wants Nightsaber Fangs in Teldrassil?",
@@ -49,7 +49,7 @@
     "zenn foulhoof reagent purpose",
     "zenn bidding motive"
    ],
-   "answer": "Zenn claims he needs animal reagents for his work in the forest, but keeps its nature secret and takes delight in duping gullible travelers."
+   "answer": "Zenn claims he needs animal reagents for his work in the forest, but keeps their purpose secret. He delights in duping gullible travelers."
   },
   {
    "q": "What other reagents does Zenn ask for alongside the fangs?",
@@ -94,5 +94,5 @@
   "Nightsaber Fang",
   "Zenn's Bidding"
  ],
- "style": 1
+ "style": 2
 }

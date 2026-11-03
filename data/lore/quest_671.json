@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Orcs have a deep, painful history with demonic corruption, and residual fel magic can physically cause their blood to boil and stir unnatural rage. Tor'gan's visceral reaction near Northfold Manor highlights the enduring sensitivity orcs share toward demonic summoning."
+   "text": "As an orc, you carry a deep and painful history of demonic corruption. Residual fel magic can make your blood boil and stir unnatural rage, as Tor'gan feels near Northfold Manor."
   },
   {
    "target": "faction:Horde",
-   "text": "With Hammerfall standing as the Horde's lone outpost in the Arathi Highlands, the presence of dark summoners operating just to the west poses a direct security threat to the settlement."
+   "text": "As a member of the Horde, you know Hammerfall is its lone outpost in the Arathi Highlands. Dark summoners just west of the settlement pose a direct security threat."
   },
   {
    "target": "class:Warlock",
-   "text": "Warlocks are intimately familiar with the rituals and binding reagents required to summon demons, making the bloodstone amulets found at Northfold Manor objects of particular interest."
+   "text": "As a warlock, you know the rituals and binding reagents needed to summon demons. The bloodstone amulets at Northfold Manor are objects of particular interest."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "who starts foul magics",
     "torgan quest arathi"
    ],
-   "answer": "The quest is offered by Tor'gan, an orc located in Hammerfall, the Horde stronghold in the Arathi Highlands. Tor'gan senses a disturbing demonic presence nearby and asks adventurers to investigate Northfold Manor to discover what dark powers are at work.",
+   "answer": "Tor'gan gives the request from Hammerfall, the Horde stronghold in the Arathi Highlands. Sensing a demonic presence nearby, he asks travelers to investigate Northfold Manor.",
    "q": "Who gives the quest Foul Magics?"
   },
   {
@@ -41,7 +41,7 @@
     "where is northfold manor",
     "find northfold manor arathi"
    ],
-   "answer": "Northfold Manor is located to the west of Hammerfall in the northern hills of the Arathi Highlands. Once a human homestead, the estate has become a site for covert demonic summonings using bloodstone charms.",
+   "answer": "Northfold Manor lies west of Hammerfall, in the northern hills of the Arathi Highlands. Once a human homestead, it is now the site of covert demonic summonings using bloodstone charms.",
    "q": "Where is Northfold Manor located?"
   },
   {
@@ -50,7 +50,7 @@
     "bloodstone amulet purpose",
     "why bloodstone amulets"
    ],
-   "answer": "Bloodstone amulets are magical foci used to assist in demonic summoning rituals. Tor'gan discovered that practitioners at Northfold Manor employ these stones to channel dark magic, though individual amulets become depleted once their power is drained during a summoning.",
+   "answer": "Bloodstone amulets help practitioners channel dark magic during demonic summonings. When a summoning drains an amulet's power, the charm is depleted.",
    "q": "What are Bloodstone Amulets used for?"
   },
   {
@@ -59,7 +59,7 @@
     "torgan rage northfold",
     "why does torgan get angry"
    ],
-   "answer": "Tor'gan experiences a violent physical reaction near Northfold Manor due to the lingering demonic summoning energies. For orcs, exposure to fel magic agitates the remnants of the blood curse, causing their blood to boil and igniting uncontrollable rage.",
+   "answer": "Lingering demonic summoning energies near Northfold Manor stir Tor'gan's rage. In orcs, fel magic agitates remnants of the blood curse, making their blood boil and igniting uncontrollable rage.",
    "q": "Why does Tor'gan feel rage near Northfold Manor?"
   },
   {
@@ -68,7 +68,7 @@
     "why torgan doesnt go back",
     "why cant torgan get amulets"
    ],
-   "answer": "Tor'gan refuses to return to Northfold Manor because the residual demonic power stirs a dangerous rage within him. Fearing that he might lose control or succumb to the corruptive influence, he enlists outside adventurers to recover the amulets on his behalf.",
+   "answer": "Tor'gan fears the residual demonic power will stir dangerous rage in him. Worried he could lose control or succumb to its corrupting influence, he asks others to recover the amulets.",
    "q": "Why does Tor'gan refuse to return to Northfold Manor?"
   },
   {
@@ -77,7 +77,7 @@
     "bloodstone amulet count",
     "foul magics objective count"
    ],
-   "answer": "Tor'gan asks for ten bloodstone amulets from Northfold Manor. Because the single amulet he found on the ground was completely depleted, he requires multiple charged specimens to properly examine and understand the rituals taking place there.",
+   "answer": "Tor'gan asks for ten bloodstone amulets from Northfold Manor. The one he found was depleted, so he needs multiple charged specimens to study and understand the rituals there.",
    "q": "How many Bloodstone Amulets are needed?"
   },
   {
@@ -86,7 +86,7 @@
     "who is summoning demons northfold",
     "northfold manor cultists"
    ],
-   "answer": "Dark practitioners have taken over Northfold Manor to conduct illicit demonic summonings. Their dark rituals and the resulting fel residue drew Tor'gan's attention from Hammerfall, prompting the Horde's investigation into the estate.",
+   "answer": "Dark practitioners at Northfold Manor conduct demonic summonings. Their rituals and the fel residue drew Tor'gan's attention from Hammerfall and led to the Horde's investigation.",
    "q": "Who is summoning demons at Northfold Manor?"
   }
  ],
@@ -106,18 +106,19 @@
  ],
  "sections": [
   {
-   "body": "Tor'gan, an orc stationed at the Horde outpost of Hammerfall, began noticing an unsettling disturbance drifting through the Arathi Highlands. For an orc, demonic energies are not merely an abstract threat; they evoke a visceral, biological reaction rooted in the history of the blood curse. As Tor'gan tracked the source of his agitation westward toward Northfold Manor, the ambient corruption caused his blood to boil and stoked an involuntary rage within him. Recognizing the telltale aftermath of demonic summoning, he retreated before the dark influence overwhelmed his senses, seeking outside help instead of returning himself.",
+   "body": "Demonic energy stirs in the Arathi Highlands, and Tor'gan feels it from his post at Hammerfall. The pull draws the orc west toward Northfold Manor. There, he finds signs of demonic summoning, but the lingering corruption makes his blood boil and stirs an involuntary rage tied to the blood curse's history. He retreats before the influence overwhelms his senses, then seeks help from others.",
    "spoiler": 0,
    "title": "A Simmering Rage"
   },
   {
-   "body": "At Northfold Manor, Tor'gan discovered physical evidence of dark rituals: an amulet carved from bloodstone lying on the ground. These magical charms are actively employed to facilitate and stabilize demonic summoning rituals. The specific amulet Tor'gan managed to recover was already depleted of its magical reserves, making thorough magical analysis impossible. In order to investigate the full extent of the summoning and determine what entities were brought forth, he charges Horde travelers with heading into Northfold Manor to retrieve ten intact bloodstone amulets from the practitioners residing there.",
+   "body": "At Northfold Manor, Tor'gan found a bloodstone amulet on the ground. It showed that dark rituals were being performed there. Such charms help channel and steady demonic summonings, but the amulet he recovered had lost its magic. It held too little power for a thorough study. Tor'gan asks Horde travelers to retrieve ten intact amulets from the manor's practitioners, so he can examine the rituals and learn what entities were summoned.",
    "spoiler": 0,
    "title": "The Bloodstone Amulets"
   }
  ],
- "summary": "Foul Magics is a Horde quest originating in Hammerfall within the Arathi Highlands. Tor'gan senses a disturbing demonic presence to the west and discovers traces of dark summoning rituals at Northfold Manor. He asks adventurers to venture into the manor and retrieve bloodstone amulets used in these summonings so he can study their dark magic.",
+ "summary": "In the Arathi Highlands, Tor'gan follows a demonic presence to Northfold Manor. From Hammerfall, he seeks help recovering bloodstone amulets from the summoners.",
  "attribution": [
   "In-game quest text: Foul Magics"
- ]
+ ],
+ "style": 2
 }

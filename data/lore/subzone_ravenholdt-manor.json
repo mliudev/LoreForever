@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ravenholdt Manor"
  },
- "summary": "Ravenholdt Manor watches over Hillsbrad from high in the mountains. Lord Jorach Ravenholdt leads its guild of thieves and assassins, where practitioners of stealth hone their craft beyond the authorities’ reach.",
+ "summary": "High in the Hillsbrad mountains, Ravenholdt Manor shelters a guild of thieves and assassins. Lord Jorach Ravenholdt leads them as they hone stealth beyond the authorities’ reach.",
  "sections": [
   {
    "title": "A Sanctuary in the Shadows",
-   "body": "Northwest of Durnholde Keep, a narrow pass and winding cave lead to Ravenholdt Manor. The estate stands isolated on the borderlands of the Alterac Mountains, and belongs to Lord Jorach Ravenholdt. He keeps a disciplined enclave of rogues, assassins, and intelligence operatives. A tranquil garden and outdoor training arena give them space to practice lockpicking, poison-crafting, and close-quarters combat under martial experts like Master Kang. Those with a talent for skullduggery are welcome, but watchful sentries greet clumsy outsiders and unwanted visitors with cold suspicion.",
+   "body": "Northwest of Durnholde Keep, a narrow pass winds through a cave to Ravenholdt Manor. The estate stands alone on the border of the Alterac Mountains, under Lord Jorach Ravenholdt’s care. He keeps a disciplined company of rogues, assassins, and intelligence operatives.\n\nA quiet garden and an outdoor arena give them room to practice lockpicking, poison-crafting, and close combat under martial experts such as Master Kang. Those skilled in skullduggery are welcome, but watchful sentries greet clumsy strangers and unwanted visitors with cold suspicion.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Feud in the Foothills",
-   "body": "Before the First War, the land around Ravenholdt Manor belonged to the kingdom of Alterac, a past recalled by the manor’s weathered orange roof tiles. After Alterac fell, its displaced nobles in the Syndicate sought control of the region, bringing them into conflict with Ravenholdt. Jorach’s followers fight across Hillsbrad and Alterac to preserve their sovereign haven.",
+   "body": "Before the First War, the lands around Ravenholdt Manor belonged to the kingdom of Alterac. The manor’s weathered orange roof tiles still recall that time. After Alterac fell, displaced nobles formed the Syndicate and sought control of the region. Their ambition brought them into conflict with Ravenholdt. Jorach’s followers now fight across Hillsbrad and Alterac to preserve their sovereign haven.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to get to ravenholdt",
     "ravenholdt path"
    ],
-   "answer": "Travel to the plateau northwest of Durnholde Keep in Hillsbrad Foothills. Near the northern mountains, an obscure dirt path climbs through a hidden cave and emerges on the manor’s grounds."
+   "answer": "Travel to the plateau northwest of Durnholde Keep in Hillsbrad Foothills. Near the northern mountains, a little-known dirt path climbs through a hidden cave and emerges on the manor grounds."
   },
   {
    "q": "Who owns Ravenholdt Manor?",
@@ -37,7 +37,7 @@
     "lord ravenholdt",
     "manor owner"
    ],
-   "answer": "Lord Jorach Ravenholdt owns the estate and leads the brotherhood of thieves and assassins known as Ravenholdt. Rogues throughout Azeroth hold him in deep respect."
+   "answer": "Lord Jorach Ravenholdt owns the estate and leads Ravenholdt, a brotherhood of thieves and assassins. Rogues throughout Azeroth hold him in deep respect."
   },
   {
    "q": "Why does Ravenholdt hate the Syndicate?",
@@ -46,7 +46,7 @@
     "syndicate feud",
     "why fight syndicate"
    ],
-   "answer": "Both factions trace their roots to the shattered lands of Alterac. The Syndicate’s displaced nobles turn to banditry and lawlessness, while Ravenholdt works with strict discipline to thwart their ambitions."
+   "answer": "Both factions trace their roots to the shattered lands of Alterac. The Syndicate’s displaced nobles turn to banditry and lawlessness, while Ravenholdt follows strict discipline to thwart their ambitions."
   },
   {
    "q": "Can anyone visit the manor?",
@@ -54,17 +54,17 @@
     "non-rogue in ravenholdt",
     "are outsiders allowed in ravenholdt"
    ],
-   "answer": "Travelers can walk onto the grounds, where guards and assassins speak openly with hostility to outsiders. Rogues and trusted operatives receive a warm welcome and extensive training; others are warned to leave."
+   "answer": "Travelers can walk onto the grounds, where guards and assassins greet outsiders with open hostility. Rogues and trusted operatives receive a warm welcome and extensive training; others are warned to leave."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can find rigorous trials, specialized training, and a deep network of underground contacts at Ravenholdt Manor, the foremost sanctuary for your profession."
+   "text": "As a rogue, you can find rigorous trials, specialized training, and a deep network of underground contacts at Ravenholdt Manor, a foremost sanctuary for your profession."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can travel through the mountain pass to seek the rare schematic for the Gnomish Cloaking Device among the manor’s supplies."
+   "text": "As an engineer, you can travel through the mountain pass and seek the rare schematic for the Gnomish Cloaking Device among the manor’s supplies."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Ravenholdt Manor"
  ],
- "style": 1
+ "style": 2
 }

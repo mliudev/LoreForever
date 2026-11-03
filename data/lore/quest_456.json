@@ -25,16 +25,16 @@
    "Simple Sigil (Classic)"
   ]
  },
- "summary": "Conservator Ilthalaine calls newly awakened night elves to tend Shadowglen’s wildlife. Young nightsabers and thistle boars have grown too numerous, and keeping Teldrassil’s natural harmony calls for stewardship and difficult choices.",
+ "summary": "In Shadowglen, Conservator Ilthalaine calls newly awakened night elves to tend Teldrassil’s wildlife. Young nightsabers and thistle boars have grown too numerous, and keeping nature in balance calls for stewardship and difficult choices.",
  "sections": [
   {
    "title": "A Delicate Harmony",
-   "body": "In Shadowglen, beneath the Great Tree’s sprawling boughs, heavy spring rains have disrupted Teldrassil’s young, fragile forest cycle. Some wildlife populations have grown beyond what the land can sustain. They threaten to strip the glen of resources and bring famine to the ecosystem. Preserving the forest calls for active care.",
+   "body": "Heavy spring rains have disturbed Teldrassil’s young and fragile forest cycle in Shadowglen, beneath the Great Tree’s boughs. Some wildlife populations have grown beyond what the land can sustain. They threaten to strip the glen of resources and bring famine to the ecosystem. Preserving the forest calls for active care.",
    "spoiler": 0
   },
   {
    "title": "The Conservator's Call",
-   "body": "Conservator Ilthalaine watches over Shadowglen’s woods, keeping any one part from overtaking the others. To prevent mass starvation among the animals, he sends young night elves into the grove to thin thistle boars and predatory nightsabers. The work is unglamorous, but vital: kaldorei stewardship means seeking harmony with nature through active balance and difficult decisions.",
+   "body": "Conservator Ilthalaine watches over Shadowglen’s woods so no part overtakes the others. To prevent mass starvation among the animals, he sends young night elves into the grove to thin thistle boars and predatory nightsabers. The work is unglamorous but vital. Kaldorei stewardship seeks harmony with nature through active balance and difficult decisions.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why kill nightsabers",
     "balance of nature reason"
    ],
-   "answer": "Heavy spring rains caused young nightsabers and thistle boars to flourish. Shadowglen can sustain only so much wildlife, and the overgrown populations risk stripping the grove of food and starving themselves and other creatures."
+   "answer": "Heavy spring rains helped young nightsabers and thistle boars flourish. Shadowglen can sustain only so much wildlife. Their overgrown populations risk stripping the grove of food and starving themselves and other creatures."
   },
   {
    "q": "Who is Conservator Ilthalaine?",
@@ -64,7 +64,7 @@
     "where is shadowglen",
     "starting area night elf"
    ],
-   "answer": "The task takes place in secluded Shadowglen, a forest enclave among the branches of Teldrassil, the World Tree off the coast of northern Kalimdor."
+   "answer": "This takes place in secluded Shadowglen, a forest enclave among Teldrassil’s branches. Teldrassil, the World Tree, lies off the coast of northern Kalimdor."
   },
   {
    "q": "What comes next after completing this task?",
@@ -78,15 +78,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, this is your first step on the path to becoming an adult protector of the kaldorei. You learn that keeping nature in balance calls for active care and respect."
+   "text": "As a night elf, you take your first step on the path to becoming an adult protector of the kaldorei. Keeping nature in balance calls for active care and respect."
   },
   {
    "target": "class:Druid",
-   "text": "As a budding druid, you learn the harsh realities of Cenarion stewardship: protecting the wilds can mean shedding blood to save the whole."
+   "text": "As a budding druid, you learn the harsh realities of Cenarion stewardship. Protecting the wilds can mean shedding blood to save the whole."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you begin learning to track and cull aggressive wildlife, a foundation for communion with the beasts of Kalimdor."
+   "text": "As a hunter, you begin learning to track and cull aggressive wildlife. This is a foundation for communion with the beasts of Kalimdor."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "The Balance of Nature (Classic)"
  ],
- "style": 1
+ "style": 2
 }

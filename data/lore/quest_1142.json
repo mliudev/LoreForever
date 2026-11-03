@@ -17,21 +17,21 @@
   "wiki": "Mortality Wanes",
   "chain": []
  },
- "summary": "Heralath Fallowbrook lies dying in Razorfen Kraul, with one last plea for the living. He asks that his wife's stolen pendant reach Darnassus, along with word of his death.",
+ "summary": "In Razorfen Kraul, Heralath Fallowbrook has one last plea for the living. He asks you to carry his wife's stolen pendant to Darnassus and tell her he has died.",
  "sections": [
   {
    "title": "A Dying Breath in the Thorns",
-   "body": "In Razorfen Kraul, Heralath Fallowbrook lies mortally wounded among the brambles. The stronghold is overrun by savage quilboar and dark magic, far from Alliance territory. With his strength fading, Heralath manages only broken whispers. He says a brave dwarf named Lonebrow was sent ahead to warn Falfindel. Heralath knows he will not leave the Kraul alive.",
+   "body": "Heralath Fallowbrook lies mortally wounded among the brambles of Razorfen Kraul. Savage quilboar and dark magic have overrun the stronghold, far from Alliance lands. His strength is fading, and he can manage only broken whispers.\n\nHe speaks of Lonebrow, a brave dwarf sent ahead to warn Falfindel. Heralath knows he will not leave the Kraul alive.",
    "spoiler": 0
   },
   {
    "title": "The Pendant of Bonding",
-   "body": "Heralath's last wish is to recover the pendant that marks his marriage to Treshala Fallowbrook. One of the lair's aggressors tore it from him. He asks any traveler who stops beside him to carry it across Kalimdor to Darnassus, so Treshala learns of his death instead of waiting in vain.",
+   "body": "Heralath asks you to recover the pendant that marks his marriage to Treshala Fallowbrook. One of the lair's aggressors tore it from him. He asks any traveler who stops beside him to carry it across Kalimdor to Darnassus, so Treshala learns of his death and does not wait in vain.",
    "spoiler": 0
   },
   {
    "title": "Grief in Darnassus",
-   "body": "Treshala Fallowbrook receives her husband's recovered pendant in Darnassus and learns that he has died. Devastated, she vows that Heralath's work will not perish with him. She is left to mourn alone and carry his legacy through her sudden grief.",
+   "body": "Treshala Fallowbrook receives her husband's recovered pendant in Darnassus and learns he has died. Devastated, she vows that Heralath's work will not perish with him. Alone in her grief, she is left to mourn and carry his legacy.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is heralath",
     "dying elf razorfen"
    ],
-   "answer": "Heralath Fallowbrook is an Alliance night elf found mortally wounded in Razorfen Kraul. As his strength fades, he entrusts passing travelers with recovering his wife's stolen pendant of bonding and taking word of his death to Darnassus."
+   "answer": "Heralath Fallowbrook is an Alliance night elf found mortally wounded in Razorfen Kraul. As his strength fades, he entrusts passing travelers with recovering his wife's stolen pendant and carrying word of his death to Darnassus."
   },
   {
    "q": "Where is Heralath Fallowbrook located?",
@@ -79,7 +79,7 @@
     "what is the pendant",
     "pendant of bonding"
    ],
-   "answer": "The pendant of bonding is a keepsake that signifies the marriage of Heralath and Treshala Fallowbrook. Quilboar aggressors stole it from Heralath before he died in Razorfen Kraul."
+   "answer": "The pendant of bonding signifies the marriage of Heralath and Treshala Fallowbrook. Quilboar aggressors stole it from Heralath before he died in Razorfen Kraul."
   },
   {
    "q": "How does Treshala react to the news?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Mortality Wanes"
  ],
- "style": 1
+ "style": 2
 }

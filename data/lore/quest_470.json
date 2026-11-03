@@ -17,16 +17,16 @@
   "wiki": "Digging Through the Ooze",
   "chain": []
  },
- "summary": "In Menethil Harbor, Sida asks travelers to recover her bag from the ooze that swallowed it. She visits Ironbeard's Tomb regularly, but fled when foul oozes filled the barrows.",
+ "summary": "In Menethil Harbor, Sida needs her bag back from the ooze that swallowed it. She fled Ironbeard's Tomb when foul oozes filled the barrows.",
  "sections": [
   {
    "title": "A Panicked Retreat",
-   "body": "Sida lives in Menethil Harbor and often travels northeast into the Wetlands to pay homage at Ironbeard's Tomb. On her latest visit, foul, dripping oozes had filled the ancient barrow. She panicked and hurled her satchel at one of them. The ooze swallowed the bag whole, giving Sida just enough time to flee back to the port town. Now she asks travelers to search for it.",
+   "body": "Sida lives in Menethil Harbor and often travels northeast into the Wetlands to pay homage at Ironbeard's Tomb. On her latest visit, foul, dripping oozes filled the ancient barrow. In panic, she hurled her satchel at one of them. The ooze swallowed the bag whole, giving Sida just enough time to flee back to the port town. Now she asks travelers to search for it.",
    "spoiler": 0
   },
   {
    "title": "Sludge of Ironbeard's Tomb",
-   "body": "Ironbeard's Tomb lies near Dun Modr, the contested stronghold, and holds the remains of a storied dwarven hero. Corruption in the surrounding marshland draws amorphous, acidic slimes that consume anything in their path. Sida cannot remember which creature swallowed her belongings. Travelers must search the tomb grounds and cut through the creeping blight to find her drenched satchel.",
+   "body": "Near Dun Modr, the contested stronghold, Ironbeard's Tomb holds the remains of a storied dwarven hero. Corruption in the surrounding marshland draws amorphous, acidic slimes that consume anything in their path. Sida cannot remember which creature swallowed her belongings. Search the tomb grounds and cut through the creeping blight to find her drenched satchel.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "ooze with bag",
     "where is the bag"
    ],
-   "answer": "Sida panicked during the attack and cannot tell the oozes apart. Any of the slimes wandering outside Ironbeard's Tomb may have swallowed her bag."
+   "answer": "Sida panicked during the attack and cannot tell the oozes apart. Any slime wandering outside Ironbeard's Tomb may have swallowed her bag."
   },
   {
    "q": "Why was Sida visiting Ironbeard's Tomb?",
@@ -72,7 +72,7 @@
     "what was in the bag",
     "bag reward"
    ],
-   "answer": "When you return the slimy satchel to Menethil Harbor, Sida empties its contents onto the ground to retrieve her belongings. She finds the ruined container too repulsive to keep and offers the cleaned-off bag to whoever recovered it."
+   "answer": "When you return the slimy satchel to Menethil Harbor, Sida empties its contents onto the ground to retrieve her belongings. The ruined container repulses her, so she offers the cleaned-off bag to whoever recovered it."
   },
   {
    "q": "Is this related to the Dark Iron dwarves nearby?",
@@ -113,5 +113,5 @@
  "attribution": [
   "Digging Through the Ooze"
  ],
- "style": 1
+ "style": 2
 }

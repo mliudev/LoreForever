@@ -8,16 +8,16 @@
   "wiki": "Jonathan Carevin",
   "refs": 4
  },
- "summary": "In Darkshire, Jonathan Carevin hunts the dangers gathering in Duskwood. He and his family take the fight beyond the Night Watch's patrols, pursuing undead, worgen, demons, and heretics beneath the forest canopy.",
+ "summary": "In Darkshire, Jonathan Carevin leads his family against the dangers gathering in Duskwood. They hunt undead, worgen, demons, and heretics beyond the Night Watch's patrols.",
  "sections": [
   {
    "title": "The Carevin Crusade",
-   "body": "The Night Watch guards Darkshire and patrols its roads, but Jonathan Carevin believes defense alone cannot protect the township. He hunts the unholy creatures roaming Duskwood with his family and allies such as Calor. His crusade, fought in the name of the Light, targets demons, undead, and heretics across the region.",
+   "body": "The Night Watch guards Darkshire and patrols its roads. Jonathan Carevin believes defense alone cannot keep the township safe. So he hunts the unholy creatures roaming Duskwood with his family and allies such as Calor. In the name of the Light, they pursue demons, undead, and heretics across the region.",
    "spoiler": 0
   },
   {
    "title": "The Shadow of the Worgen",
-   "body": "Jonathan Carevin watches the forest's savage, wolf-like worgen as closely as its skeletons and ghouls. Their presence threatens a settlement already under siege. He coordinates investigations to learn where the worgen came from and to stop their nightly prowling.",
+   "body": "Jonathan Carevin watches the forest's savage, wolf-like worgen as closely as its skeletons and ghouls. The worgen threaten a settlement already under siege. Jonathan coordinates investigations to learn where they came from and to stop their nightly prowling.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "is he night watch",
     "carevin vs night watch"
    ],
-   "answer": "The Night Watch guards Darkshire and keeps watch on its roads. Jonathan and his allies pursue undead and other abominations through Duskwood, seeking to destroy them at their source."
+   "answer": "The Night Watch guards Darkshire and watches its roads. Jonathan and his allies pursue undead and other abominations through Duskwood, seeking to destroy them at their source."
   },
   {
    "q": "What threats does he fight?",
@@ -109,5 +109,5 @@
  "attribution": [
   "Jonathan Carevin"
  ],
- "style": 1
+ "style": 2
 }

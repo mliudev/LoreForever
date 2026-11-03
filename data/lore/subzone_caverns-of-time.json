@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Caverns of Time"
  },
- "summary": "Tucked into the eastern cliffs of Tanaris, the Caverns of Time serve as the mystical lair of Nozdormu and the bronze dragonflight. Within its winding depths, the dragons monitor and safeguard the fragile timeways of Azeroth against any mortal intrusion or temporal tampering.",
+ "summary": "In the Caverns of Time, Nozdormu and the bronze dragonflight guard Azeroth's fragile timeways. Deep in Tanaris's eastern cliffs, they watch for mortal intrusion and changes to time's flow.",
  "sections": [
   {
    "title": "The Winding Timeways",
-   "body": "Carved deep beneath the desert cliffs, the Caverns of Time are a nexus where the currents of history converge. Charged by the titans at the dawn of the world, Nozdormu the Timeless One and his bronze dragonflight act as eternal sentinels over these corridors. Inside, time behaves erratically; glimpses of past and future slip through hidden rifts, and relics plucked from distant eras lie scattered across the sands. While the great wyrm Anachronos keeps watch near the entrance, lesser bronze drakes patrol the winding descent, fiercely protective of the one true timeline.",
+   "body": "Deep beneath Tanaris's eastern cliffs, the Caverns of Time gather the currents of history. At the dawn of the world, the titans charged Nozdormu the Timeless One and his bronze dragonflight with guarding these winding corridors.\n\nTime moves strangely within them, and hidden rifts show glimpses of the past and future. Relics from distant eras lie scattered across the sands. Anachronos watches near the entrance while lesser bronze drakes patrol the descent and guard the one true timeline.",
    "spoiler": 0
   },
   {
    "title": "A Hoard of Eras",
-   "body": "Beyond being a junction of past and future, the caverns serve as an eccentric vault. Over millennia, the bronze flight has gathered historical fragments from every corner of Azeroth: ancient dwarven structures, a watchtower from Lordaeron, chieftain quarters from the orcish clans, and armor dating back to the first kings of Stromgarde. Yet despite the occasional traveler daring to slip past the sentinels to glimpse these wonders, the inner gateways remain tightly shut, awaiting the day the flight deems mortal intervention necessary.",
+   "body": "The Caverns of Time also hold a vault where past and future meet. Over millennia, the bronze flight has gathered fragments of Azeroth's history: ancient dwarven structures, a watchtower from Lordaeron, chieftain quarters from the orcish clans, and armor from the first kings of Stromgarde. Some travelers have slipped past the sentinels to see these wonders. The inner gateways stay shut until the flight decides mortal intervention is needed.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to enter caverns of time",
     "is caverns of time open"
    ],
-   "answer": "No. The way into the caverns remains sealed, and the bronze dragonflight admits no mortals. You must be careful around the drakes patrolling the entrance; while the elder bronze dragon Anachronos remains indifferent to travelers, his companions will attack any mortal who strays too close."
+   "answer": "No. The way into the Caverns of Time remains sealed, and the bronze dragonflight admits no mortals. Anachronos is indifferent to travelers, but his companions patrol the entrance and attack mortals who stray too close."
   },
   {
    "q": "Who rules over the Caverns of Time?",
@@ -37,7 +37,7 @@
     "caverns of time boss",
     "who lives in caverns of time"
    ],
-   "answer": "The caverns belong to Nozdormu the Timeless One, the Dragon Aspect empowered by the titans to oversee time. Day-to-day stewardship and guarding of the entrance often fall to his prime scion, Anachronos, alongside the guardians of the bronze dragonflight."
+   "answer": "Nozdormu the Timeless One rules the Caverns of Time. The titans empowered him to oversee time, and he entrusts their daily stewardship and the entrance guard to his prime scion, Anachronos, and the bronze dragonflight's guardians."
   },
   {
    "q": "Why are there random buildings and artifacts inside?",
@@ -45,7 +45,7 @@
     "why are there human towers in caverns of time",
     "artifacts in caverns of time"
    ],
-   "answer": "Nozdormu spent ages cataloging and collecting physical relics from across Azeroth's history. Scattered across the caverns are misplaced treasures, including an entire Lordaeron guard tower, dwarven architecture, orcish structures, and weapons from long-forgotten mortal kingdoms."
+   "answer": "Nozdormu spent ages collecting and cataloging physical relics from across Azeroth's history. The caverns hold misplaced treasures, including a Lordaeron guard tower, dwarven architecture, orcish structures, and weapons from long-forgotten mortal kingdoms."
   },
   {
    "q": "What is the purpose of the bronze dragonflight here?",
@@ -53,17 +53,17 @@
     "what do bronze dragons do here",
     "bronze flight purpose"
    ],
-   "answer": "Their sacred duty, granted by the titans, is to safeguard the flow of time and maintain the integrity of history. They ensure that mortal tampering or outside disruptions do not unravel the events that define the world."
+   "answer": "The titans charged the bronze dragonflight with guarding time's flow and history's integrity. Its guardians prevent mortal tampering and outside disruptions from unraveling the events that define the world."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The temporal magic saturating the caverns far exceeds mortal chronomancy, offering a humbling glimpse at forces beyond arcane manipulation."
+   "text": "The temporal magic in the Caverns of Time far exceeds mortal chronomancy. As a Mage, you can glimpse forces beyond arcane manipulation."
   },
   {
    "target": "race:NightElf",
-   "text": "The kaldorei remember the ancient pacts of the Dragon Aspects well, regarding Nozdormu's charge as essential to preserving the world's survival."
+   "text": "As a Night Elf, you remember the kaldorei's ancient pacts with the Dragon Aspects. Nozdormu's charge is essential to preserving the world's survival."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Caverns of Time"
- ]
+ ],
+ "style": 2
 }

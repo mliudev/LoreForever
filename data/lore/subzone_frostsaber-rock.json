@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Frostsaber Rock"
  },
- "summary": "Frostsaber Rock is a towering stone promontory rising above the snowy northern reaches of Winterspring. It serves as the primary sanctuary and training grounds for the noble frostsaber cats of the region.",
+ "summary": "Frostsabers find shelter and training at Frostsaber Rock in northern Winterspring. Its stone rise overlooks the region’s snowy reaches.",
  "sections": [
   {
    "title": "A Perch in the Tundra",
-   "body": "Rising high above the frozen wastes of northern Winterspring, Frostsaber Rock commands a sweeping view of the snowbound wild. The crag is named for the fierce, majestic frostsaber predators that prowl the slopes and valleys below. At its highest apex resides Rivern Frostwind, a solitary night elf dedicated to raising and tending these beasts. For champions loyal to the Alliance willing to brave the harsh conditions and prove their devotion, Rivern offers the rare privilege of learning to raise, tame, and ride one of these legendary snowy mounts.",
+   "body": "Frostsaber Rock rises over Winterspring’s frozen northern wilds. Frostsabers prowl its slopes and valleys. At the summit, Rivern Frostwind, a solitary night elf, raises and tends the cats. Alliance champions who brave the harsh conditions and prove their devotion may earn the rare privilege of learning to raise, tame, and ride one of these snowy mounts.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "frostsaber rock trainer",
     "rivern location"
    ],
-   "answer": "Rivern Frostwind makes his camp at the very summit of the rock. He is a trainer dedicated to the regional frostsaber cats and acts as a mentor for Alliance members seeking to earn a frostsaber companion."
+   "answer": "Rivern Frostwind camps at the summit and trains the frostsaber cats of the region. Alliance members seeking a frostsaber companion can look to him as a mentor."
   },
   {
    "q": "Can Horde players train beasts here?",
@@ -32,7 +32,7 @@
     "can horde get frostsaber",
     "rivern horde"
    ],
-   "answer": "No. Rivern Frostwind offers his training and companion beasts exclusively to trusted allies of the Alliance. Horde travelers will find no welcome on the summit."
+   "answer": "No. Rivern Frostwind offers training and companion beasts only to trusted Alliance allies. Horde travelers find no welcome at the summit."
   },
   {
    "q": "What creatures are found around the rock?",
@@ -41,17 +41,17 @@
     "frostsaber rock beasts",
     "frostsabers in winterspring"
    ],
-   "answer": "The icy crag and surrounding plateaus are home to wild frostsaber cats, prowling the snowy terrain alongside other hardy beasts native to the harsh climate of Winterspring."
+   "answer": "Wild frostsaber cats roam the icy crag and nearby plateaus. Other hardy beasts native to Winterspring’s harsh climate live there as well."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes who earn the trust of Rivern Frostwind atop the rock can undertake an arduous path of training to ride the famed Winterspring frostsaber."
+   "text": "As an Alliance hero, you can earn Rivern Frostwind’s trust atop the rock and begin the arduous training needed to ride the famed Winterspring frostsaber."
   },
   {
    "target": "class:Hunter",
-   "text": "The crag and its surrounding slopes offer an inspiring proving ground for hunters seeking to observe some of the fiercest predators native to northern Kalimdor."
+   "text": "As a hunter, you can observe some of northern Kalimdor’s fiercest native predators on the crag and its surrounding slopes."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Frostsaber Rock"
- ]
+ ],
+ "style": 2
 }

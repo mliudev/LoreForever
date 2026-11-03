@@ -17,16 +17,16 @@
   "wiki": "Wharfmaster Dizzywig (Barrens)",
   "chain": []
  },
- "summary": "At Ratchet's pier, a crate of alchemy supplies waits for passage across the sea. Wharfmaster Dizzywig arranges its journey to the Old World aboard a ship bound for Blackwater Cove.",
+ "summary": "At Ratchet's pier, Wharfmaster Dizzywig finds passage for a crate of alchemy supplies. It is bound for the Old World aboard a ship sailing to Blackwater Cove.",
  "sections": [
   {
    "title": "A Courier to the Port",
-   "body": "A crate of potions and reagents waits at the Barrens port, bound for colleagues in the Old World. Caravans that might have carried it have already departed, so you are asked to take the secure shipment to Ratchet's water's edge. The port offers a route across the Great Sea between Kalimdor and the Eastern Kingdoms.",
+   "body": "A crate of potions and reagents waits at the Barrens port for colleagues in the Old World. The caravans that could have carried it have already left. So you are asked to bring the secure shipment to Ratchet's water's edge. From there, ships cross the Great Sea between Kalimdor and the Eastern Kingdoms.",
    "spoiler": 0
   },
   {
    "title": "Ratchet's Docks",
-   "body": "Wharfmaster Dizzywig handles cargo on Ratchet's wooden piers. He tracks shipments in ledgers and manifests, then finds space aboard vessels sailing east across the Great Sea. This crate is booked for a ship bound for Blackwater Cove.",
+   "body": "Cargo passes through Wharfmaster Dizzywig's hands on Ratchet's wooden piers. He records each shipment in ledgers and manifests, then finds room aboard vessels sailing east across the Great Sea. This crate is booked for a ship bound for Blackwater Cove.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is dizzywig",
     "where is dizzywig"
    ],
-   "answer": "Wharfmaster Dizzywig is the goblin harbor official on Ratchet's main pier. He manages ship manifests, cargo holds, and passages between Kalimdor and ports across the sea."
+   "answer": "On Ratchet's main pier, Wharfmaster Dizzywig manages the harbor. He keeps ship manifests, cargo holds, and passages between Kalimdor and ports across the sea."
   },
   {
    "q": "Where is the crate being sent?",
@@ -47,7 +47,7 @@
     "blackwater cove",
     "destination of crate"
    ],
-   "answer": "The crate of potions and reagents is bound for the Old World, aboard the next ship sailing from Ratchet to Blackwater Cove."
+   "answer": "The crate of potions and reagents is bound for the Old World. It will travel aboard the next ship sailing from Ratchet to Blackwater Cove."
   },
   {
    "q": "Where is Ratchet located?",
@@ -55,7 +55,7 @@
     "ratchet location",
     "how do i find ratchet"
    ],
-   "answer": "Ratchet lies on the eastern coast of the Barrens, in a sheltered bay directly east of the central crossroads."
+   "answer": "Ratchet lies on the Barrens' eastern coast, in a sheltered bay directly east of the central crossroads."
   },
   {
    "q": "Why send cargo through a goblin port?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a Horde adventurer crossing the Barrens, you can carry cargo to Ratchet and learn the sea routes linking Kalimdor with the Eastern Kingdoms."
+   "text": "As a Horde adventurer crossing the Barrens, you can carry cargo to Ratchet and learn the sea routes between Kalimdor and the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -105,5 +105,5 @@
  "attribution": [
   "Wharfmaster Dizzywig (Barrens)"
  ],
- "style": 1
+ "style": 2
 }

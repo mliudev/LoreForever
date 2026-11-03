@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "New Horde"
  },
- "summary": "The New Horde is the modern coalition forged under Warchief Thrall, departing from the bloodthirsty, demon-corrupted Old Horde of the First and Second Wars. Founded upon shamanic tradition, honor, and mutual survival, it unites the liberated orcs, the Darkspear trolls, the tauren tribes of Kalimdor, and a tenuous pact with the Forsaken in Lordaeron.",
+ "summary": "Across Kalimdor and Lordaeron, the New Horde seeks a home and allies under warchief thrall. Orcs, Darkspear trolls, and tauren join in shamanic tradition, honor, and mutual survival, while a wary pact binds them to the Forsaken.",
  "sections": [
   {
    "title": "A Legacy Reborn",
-   "body": "The original Horde was a weapon crafted by the Burning Legion and the Shadow Council, fueling the orcs with demonic bloodlust and driving them across the Dark Portal. After the Second War ended in devastation, surviving orcs were rounded up into Alliance internment camps, sinking into a soul-draining lethargy. Through the efforts of Orgrim Doomhammer, Grommash Hellscream, and the young shaman Thrall, the orcs cast off their demonic shackles, rediscovered their ancestral shamanism, and fought their way to freedom.",
+   "body": "The first Horde was forged by the Burning Legion and the Shadow Council as a weapon. Demonic bloodlust drove the orcs through the Dark Portal. After the Second War ended in ruin, the Alliance confined surviving orcs in internment camps, where they sank into soul-draining lethargy. Orgrim Doomhammer, Grommash Hellscream, and the young shaman Thrall helped the orcs break their demonic shackles. They reclaimed their ancestral shamanism and fought their way to freedom.",
    "spoiler": 0
   },
   {
    "title": "Crossing the Great Sea",
-   "body": "Following prophetic visions from the mysterious Prophet, Thrall led his people across the Great Sea to the untamed continent of Kalimdor. Along the way, the Horde welcomed Sen'jin's displaced Darkspear trolls. Upon arriving on Kalimdor, Thrall allied with Cairne Bloodhoof and the nomadic tauren, helping drive back hostile centaur tribes. Together, these disparate peoples fought alongside humans and night elves at Mount Hyjal, breaking the Burning Legion's invasion and carving out their new home of Durotar.",
+   "body": "Guided by visions from the mysterious Prophet, Thrall led his people across the Great Sea to Kalimdor. Along the way, they welcomed the displaced Darkspear trolls of Sen'jin. On Kalimdor, Thrall joined Cairne Bloodhoof and the nomadic tauren to drive back hostile centaur tribes. Together with humans and night elves, they fought at Mount Hyjal and broke the Burning Legion's invasion. Then they made their home in Durotar.",
    "spoiler": 0
   },
   {
    "title": "The Modern Coalition",
-   "body": "Today, the New Horde strives to build a durable society from their fortified capital of Orgrimmar. While anchored by the strong bond between orcs, Darkspear trolls, and tauren, survival has forced Thrall to accept uncomfortable alliances\u2014chief among them Sylvanas Windrunner and the Forsaken in the ruins of Lordaeron. Thrall pursues an uneasy peace with the Alliance, but old enmities, resource shortages, and hawkish elements among both factions keep borders simmering on the brink of war.",
+   "body": "From their fortified capital of Orgrimmar, the New Horde works to build a lasting society. Orcs, Darkspear trolls, and tauren share strong bonds, while the need to survive has drawn Thrall into uneasy alliances. One binds him to Sylvanas Windrunner and the Forsaken in the ruins of Lordaeron. Thrall seeks peace with the Alliance, yet old enmities, scarce resources, and hawkish voices on both sides keep the borders close to war.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "how is this horde different",
     "thrall horde difference"
    ],
-   "answer": "The Old Horde was ruled by demonic corruption, dark warlocks, and brutal conquest during the First and Second Wars. The New Horde, founded by Thrall, explicitly rejected the Burning Legion, renewed the orcs' lost shamanic roots, and emphasizes honor, cultural survival, and self-determination."
+   "answer": "The Old Horde served demonic corruption, dark warlocks, and brutal conquest in the First and Second Wars. Thrall founded the New Horde in rejection of the Burning Legion. It restored the orcs' shamanic roots and embraced honor, cultural survival, and self-determination."
   },
   {
    "q": "Who leads the New Horde?",
@@ -42,7 +42,7 @@
     "who is the leader",
     "thrall's role"
    ],
-   "answer": "Thrall, son of Durotan, serves as Warchief. He governs from the Valley of Wisdom in Orgrimmar, working in close council with High Chieftain Cairne Bloodhoof of the tauren and Shadow Hunter Vol'jin of the Darkspear trolls."
+   "answer": "Thrall, son of Durotan, leads the New Horde as warchief. From the Valley of Wisdom in Orgrimmar, he works in close council with high chieftain cairne bloodhoof of the tauren and Shadow Hunter Vol'jin of the Darkspear trolls."
   },
   {
    "q": "Which races belong to the New Horde right now?",
@@ -51,7 +51,7 @@
     "who is in the horde",
     "horde members"
    ],
-   "answer": "The core of the New Horde consists of the orcs, the Darkspear tribe of trolls, and the tauren of Mulgore. Across the sea in the Eastern Kingdoms, the undead Forsaken under Lady Sylvanas Windrunner hold membership through a pragmatic military alliance."
+   "answer": "The New Horde's core is made up of orcs, the Darkspear tribe of trolls, and the tauren of Mulgore. In the Eastern Kingdoms, the undead Forsaken under lady sylvanas windrunner belong through a pragmatic military alliance."
   },
   {
    "q": "Why did the Forsaken join the New Horde?",
@@ -60,7 +60,7 @@
     "why forsaken horde",
     "why are undead with thrall"
    ],
-   "answer": "Surrounded by the Scarlet Crusade, hostile humans, and Scourge remnants, Sylvanas Windrunner sought powerful allies for survival. The tauren, led by Archdruid Hamuul Runetotem, advocated for them in Orgrimmar, believing the Forsaken could be redeemed, convincing Thrall to accept them into a mutual pact of convenience."
+   "answer": "Surrounded by the Scarlet Crusade, hostile humans, and Scourge remnants, Sylvanas Windrunner sought powerful allies to survive. The tauren, led by Archdruid Hamuul Runetotem, spoke for the Forsaken in Orgrimmar because they believed the Forsaken could be redeemed. Their appeal convinced Thrall to accept a mutual pact of convenience."
   },
   {
    "q": "Are the orcs still corrupted by demon blood?",
@@ -69,7 +69,7 @@
     "blood curse",
     "are orcs still evil"
    ],
-   "answer": "No. When Grommash Hellscream and Thrall confronted the pit lord Mannoroth in Ashenvale, Grom struck down the demon at the cost of his own life. Mannoroth's demise shattered the blood curse once and for all, liberating every orc from demonic enslavement."
+   "answer": "No. Grommash Hellscream and Thrall faced the pit lord Mannoroth in Ashenvale. Grom struck the demon down at the cost of his own life, breaking the blood curse and freeing every orc from demonic enslavement."
   },
   {
    "q": "Is the New Horde currently at war with the Alliance?",
@@ -78,25 +78,25 @@
     "peace with alliance",
     "horde alliance conflict"
    ],
-   "answer": "Open, all-out war is officially held in check by an uneasy truce established between Thrall and Lady Jaina Proudmoore of Theramore. However, bitter skirmishes rage across Ashenvale, Alterac Valley, and the Arathi Basin, as mistrust and resource disputes continually threaten to erupt into open conflict."
+   "answer": "The uneasy truce between Thrall and Lady Jaina Proudmoore of Theramore keeps open war in check. Skirmishes still rage across Ashenvale, Alterac Valley, and the Arathi Basin. Mistrust and disputes over resources threaten to spark open conflict."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The New Horde is a sanctuary of outcasts. Membership offers mutual defense, cultural survival, and a shared oath of honor under Warchief Thrall."
+   "text": "The New Horde offers outcasts sanctuary, mutual defense, and a chance to preserve their cultures. Its members share an oath of honor under warchief thrall."
   },
   {
    "target": "faction:Alliance",
-   "text": "Many in the Alliance still view the New Horde through the blood-soaked memories of the First and Second Wars, struggling to believe orcs can ever abandon their violent past."
+   "text": "Many in the Alliance remember the bloodshed of the First and Second Wars. They still doubt that orcs can leave their violent past behind."
   },
   {
    "target": "race:Orc",
-   "text": "The New Horde represents redemption: a chance to shed the lethargy of the internment camps, honor the sacrifice of Grom Hellscream, and live as free shamanic warriors."
+   "text": "As an orc, you find redemption and freedom from the lethargy of the internment camps in the New Horde. You can honor Grom Hellscream's sacrifice and live as a free shamanic warrior."
   },
   {
    "target": "class:Shaman",
-   "text": "Shamanism is the spiritual backbone of the New Horde, reviving ancient traditions connecting mortals with the elements that were almost lost during the demonic corruption."
+   "text": "As a shaman, you follow the New Horde's spiritual backbone. Shamanism renews ancient traditions that connect mortals with the elements, traditions nearly lost to demonic corruption."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "New Horde"
- ]
+ ],
+ "style": 2
 }

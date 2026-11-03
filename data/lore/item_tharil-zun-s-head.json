@@ -10,11 +10,11 @@
    "quest:19"
   ]
  },
- "summary": "Tharil'zun's Head reaches Lakeshire as proof that the commander terrorizing the Redridge approaches is dead. He led the Blackrock Outrunners occupying Stonewatch.",
+ "summary": "In Lakeshire, Tharil'zun's Head proves the commander who terrorized Redridge is dead. He led the Blackrock Outrunners occupying Stonewatch.",
  "sections": [
   {
    "title": "Trophy of Stonewatch",
-   "body": "Blackrock orcs at Stonewatch Keep have pressed Lakeshire hard, raiding farms and ambushing travelers on the roads. Tharil'zun directed the Blackrock Outrunners at the head of these attacks. Lakeshire's garrison cannot risk acting on rumors or partial victories, so Marshal Marris demands proof that Tharil'zun is dead. His severed head shows that the Outrunners' coordinated ambushes from the keep have suffered a major blow.",
+   "body": "Blackrock orcs at Stonewatch Keep have raided Lakeshire's farms and ambushed travelers on the roads. Tharil'zun led the Blackrock Outrunners behind those attacks.\n\nMarshal Marris will not risk acting on rumors or partial victories. He demands proof of Tharil'zun's death, and the severed head gives it. The Outrunners' coordinated ambushes from the keep have suffered a major blow.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is tharilzun",
     "tharil'zun leader"
    ],
-   "answer": "Tharil'zun was a crafty, vicious Blackrock orc commander at Stonewatch Keep. He led the Blackrock Outrunners, who ran relentless ambushes with the Renegades between Lakeshire and the keep."
+   "answer": "Tharil'zun was a crafty and vicious Blackrock orc commander at Stonewatch Keep. He led the Blackrock Outrunners in relentless ambushes with the Renegades between Lakeshire and the keep."
   },
   {
    "q": "Why does Marshal Marris want his head?",
@@ -35,7 +35,7 @@
     "marris head proof",
     "marris bounty"
    ],
-   "answer": "Stormwind withholds major military aid from Redridge, leaving Marshal Marris and the Lakeshire guard to rely on mercenaries to pick off key threats. Marris requires absolute proof of Tharil'zun's death to know the Outrunners' leadership is truly shattered."
+   "answer": "Stormwind withholds major military aid from Redridge, so Marshal Marris and the Lakeshire guard rely on mercenaries to strike key threats. Marris needs proof of Tharil'zun's death to know the Outrunners' leadership is truly shattered."
   },
   {
    "q": "Where is Tharil'zun found?",
@@ -44,7 +44,7 @@
     "where is tharil'zun",
     "find tharil'zun"
    ],
-   "answer": "Tharil'zun holds Stonewatch Keep in Redridge Mountains' eastern hills, surrounded by Blackrock orcs and gnolls."
+   "answer": "Tharil'zun holds Stonewatch Keep in the eastern hills of Redridge Mountains. Blackrock orcs and gnolls surround the keep."
   },
   {
    "q": "Does taking Tharil'zun's head end the Blackrock threat?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Each Blackrock chieftain slain eases the pressure on Lakeshire, a beleaguered town fighting for survival without official reinforcements from Stormwind."
+   "text": "Each Blackrock chieftain slain eases the pressure on Lakeshire, a beleaguered town fighting to survive without official reinforcements from Stormwind."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
   "Tharil'zun's Head",
   "Tharil'zun (quest)"
  ],
- "style": 1
+ "style": 2
 }

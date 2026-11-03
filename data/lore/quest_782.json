@@ -24,21 +24,21 @@
   ],
   "category": "Badlands"
  },
- "summary": "In Kargath, Gorn wants the Horde's honor restored after its alliance with Deathwing. The ogre Boss Tho'grun, hired to help get the Sign of the Earth, turned on the Horde and kept it for himself, and you are to take it back at Camp Boff.",
+ "summary": "Gorn sends you from Kargath to reclaim what the ogres took. He seeks to restore the Horde’s honor after its alliance with Deathwing. Boss Tho’grun, hired to find the Sign of the Earth, betrayed the Horde and kept it.",
  "sections": [
   {
    "title": "A Hired Band Turns",
-   "body": "During the Second War the Horde stood with the dragon Deathwing. Blacklash and Hematus, a pair of his lieutenants, ended up locked away in Lethlor Ravine, far off to the east. Gorn holds that these depraved allies of old must be silenced if the Horde's honor is to be restored. To open the drakes' prison the Horde needed the Sign of the Earth, and hired ogre mercenaries under Boss Tho'grun to help find it. Tho'grun turned on them, overwhelmed them and kept it for himself.",
+   "body": "During the Second War, the Horde fought beside Deathwing. His lieutenants Blacklash and Hematus were later imprisoned far to the east in Lethlor Ravine. Gorn believes these old, depraved allies must be silenced to restore the Horde’s honor.\n\nThe Horde needed the Sign of the Earth to open the drakes’ prison, so it hired ogre mercenaries led by Boss Tho’grun to find the sign. Tho’grun turned against the Horde, overwhelmed its forces and kept it.",
    "spoiler": 0
   },
   {
    "title": "Camp Boff",
-   "body": "Gorn sends you southeast of Kargath to Camp Boff, to kill Tho'grun and carry the Sign of the Earth back. Gorn will be glad to see Tho'grun dead, and says the ogres are no longer part of the Horde.",
+   "body": "Gorn sends you southeast of Kargath to Camp Boff. Kill Tho’grun and bring back the Sign of the Earth. Gorn will be glad to see Tho’grun dead. The ogres no longer belong to the Horde.",
    "spoiler": 0
   },
   {
    "title": "What the Sign Opens",
-   "body": "With Tho'grun dead, Gorn expects the ogres to fall into disarray, a small victory leading to a larger one. With the Sign in the Horde's hands, the black drakes' prison in Lethlor can be opened, freeing them from endless imprisonment, but to their doom.",
+   "body": "Gorn expects the ogres to fall into disarray after Tho’grun’s death. That will be a small victory, and may lead to a larger one.\n\nWith the Sign of the Earth in Horde hands, the black drakes’ prison in Lethlor can be opened. They will be freed from endless imprisonment, only to meet their doom.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "gorn kargath",
     "gorn lore"
    ],
-   "answer": "Gorn is the Horde figure in Kargath who sends you after the Sign of the Earth, and wants to restore the Horde's honor by silencing its depraved allies of old."
+   "answer": "Gorn is a Horde figure in Kargath who sends you after the Sign of the Earth. He wants to restore the Horde’s honor by silencing its depraved allies of old."
   },
   {
    "q": "Why does Gorn want Boss Tho'grun dead?",
@@ -59,7 +59,7 @@
     "thogrun betrayal",
     "boss thogrun lore"
    ],
-   "answer": "The Horde hired Tho'grun and his ogre mercenaries to help obtain the Sign of the Earth. Tho'grun turned on them, overwhelmed them and kept it."
+   "answer": "The Horde hired Boss Tho’grun and his ogre mercenaries to obtain the Sign of the Earth. Tho’grun betrayed them, overwhelmed them and kept the sign."
   },
   {
    "q": "Where is Camp Boff?",
@@ -76,7 +76,7 @@
     "sign of the earth",
     "what does sign of the earth do"
    ],
-   "answer": "It is a key needed to unlock the prison of the drakes in Lethlor Ravine."
+   "answer": "The Sign of the Earth is a key needed to open the drakes’ prison in Lethlor Ravine."
   },
   {
    "q": "Which dragons are imprisoned in Lethlor Ravine?",
@@ -85,7 +85,7 @@
     "blacklash and hematus",
     "deathwing lieutenants"
    ],
-   "answer": "Blacklash and Hematus, two of Deathwing's lieutenants from the time of the Horde's alliance with him in the Second War."
+   "answer": "Blacklash and Hematus are two of Deathwing’s lieutenants. They were imprisoned in Lethlor Ravine after the Horde fought beside Deathwing during the Second War."
   }
  ],
  "angles": [],
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Broken Alliances (1)"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Azurelode Mine"
  },
- "summary": "In southwestern Hillsbrad, Azurelode Mine sends iron to the Alliance war effort. Southshore's militia guards the human laborers who work its tunnels.",
+ "summary": "Southshore's militia guards the human laborers at Azurelode Mine, whose iron feeds the Alliance war effort in southwestern Hillsbrad.",
  "sections": [
   {
    "title": "Veins of the Foothills",
-   "body": "Southwest of the open farmland and just west of Southshore, Azurelode Mine cuts into the ridges along the coast. Human miners work deep underground under Foreman Bonds's watch, drawing iron for arms and armor. That iron helps Alliance defenders hold the region against the Undercity.",
+   "body": "Just west of Southshore, Azurelode Mine cuts into the coastal ridges, beyond the open farmland. Human miners work deep underground under Foreman Bonds's watch, drawing iron for arms and armor. That iron helps Alliance defenders hold the region against the Undercity.",
    "spoiler": 0
   },
   {
    "title": "A Vital Military Target",
-   "body": "Southshore's garrisons and town militia rely on Azurelode Mine for most of their raw iron. Tarren Mill targets the mine's workers and guards, seeking to break the supply lines that sustain Hillsbrad's human strongholds.",
+   "body": "Southshore's garrisons and town militia rely on Azurelode Mine for most of their raw iron. So Tarren Mill targets the workers and guards, seeking to break the supply lines that sustain Hillsbrad's human strongholds.",
    "spoiler": 0
   }
  ],
@@ -86,5 +86,5 @@
  "attribution": [
   "Azurelode Mine"
  ],
- "style": 1
+ "style": 2
 }

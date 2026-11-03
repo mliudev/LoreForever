@@ -10,11 +10,11 @@
    "quest:474"
   ]
  },
- "summary": "In the Wetlands, Nek'rosh's Head proves the Dragonmaw chieftain has fallen. Captain Stoutfist receives it as proof that the threat to Menethil Harbor has been broken.",
+ "summary": "In the Wetlands, Nek'rosh's Head reaches Captain Stoutfist as proof the Dragonmaw chieftain has fallen. Menethil Harbor's defenders can now see that the threat has been broken.",
  "sections": [
   {
    "title": "A Decisive Strike",
-   "body": "The Dragonmaw clan gathers forces and siege weapons across the marshlands, threatening the Alliance port of Menethil Harbor. After the clan's catapults are burned, the port's defense depends on killing Chieftain Nek'rosh. His severed head gives Captain Stoutfist and the Ironforge authorities proof that the warlord's hold over the Wetlands is broken.",
+   "body": "Across the marshlands, the Dragonmaw clan gathers forces and siege weapons against the Alliance port of Menethil Harbor. After the clan's catapults burn, the port's defense depends on killing Chieftain Nek'rosh. His severed head gives Captain Stoutfist and the Ironforge authorities proof that the warlord's hold over the Wetlands is broken.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "chieftain nek'rosh",
     "who was nekrosh"
    ],
-   "answer": "Nek'rosh was the chieftain of the Dragonmaw clan remnants in the Wetlands. He directed attacks and war efforts against nearby Alliance territories."
+   "answer": "Nek'rosh led the Dragonmaw clan remnants in the Wetlands. He directed attacks and war efforts against nearby Alliance territories."
   },
   {
    "q": "Who wants Nek'rosh's Head?",
@@ -35,7 +35,7 @@
     "nekrosh head turn in",
     "where do i bring nek'rosh's head"
    ],
-   "answer": "Captain Stoutfist wants Nek'rosh's Head as proof that the chieftain has fallen. He commands Menethil Harbor's defense and gives a reward on Ironforge's behalf."
+   "answer": "Captain Stoutfist wants Nek'rosh's Head as proof that the chieftain has fallen. He commands Menethil Harbor's defense and offers a reward on Ironforge's behalf."
   },
   {
    "q": "Why was Nek'rosh targeted for death?",
@@ -49,7 +49,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, presenting Nek'rosh's Head to Captain Stoutfist helps secure Menethil Harbor from imminent assault and earns favor with the Kingdom of Ironforge."
+   "text": "For the Alliance, presenting Nek'rosh's Head to Captain Stoutfist helps defend Menethil Harbor from imminent assault and earns favor with the Kingdom of Ironforge."
   },
   {
    "target": "race:Dwarf",
@@ -76,5 +76,5 @@
   "Nek'rosh's Head",
   "Defeat Nek'rosh"
  ],
- "style": 1
+ "style": 2
 }

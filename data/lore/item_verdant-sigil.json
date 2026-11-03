@@ -10,16 +10,16 @@
    "quest:3120"
   ]
  },
- "summary": "In Shadowglen, Conservator Ilthalaine gives young night elf druids the Verdant Sigil as a summons to begin training.",
+ "summary": "In Shadowglen, Conservator Ilthalaine sends young night elf druids toward the start of their training with the Verdant Sigil.",
  "sections": [
   {
    "title": "A Summons to the Path",
-   "body": "Young night elves in Shadowglen who feel the call of the wild receive the Verdant Sigil from Conservator Ilthalaine. A messenger brings it from Mardant Strongoak, the druid trainer, and it directs novices to climb into Aldrassil's boughs. The token invites them to leave basic chores behind and begin serious study of communion with nature spirits and the mysteries of the Emerald Dream.",
+   "body": "Young night elves in Shadowglen receive the Verdant Sigil when they feel the call of the wild. Conservator Ilthalaine gives it to them with a message from Mardant Strongoak, their druid trainer. It directs the novices to climb into Aldrassil's boughs and begin their serious study. There they leave basic chores behind to learn communion with nature spirits and the mysteries of the Emerald Dream.",
    "spoiler": 0
   },
   {
    "title": "The First Step Into the Dream",
-   "body": "Presenting the Verdant Sigil to Mardant Strongoak begins a young druid's lifelong craft. Novices are not yet ready to walk the sleeping trance of the Emerald Dream, but the token marks the start of their mentorship. Under Mardant's instruction, they learn to read the wilderness's whispers and practice early shapeshifting and healing arts in service of Teldrassil.",
+   "body": "Presenting the Verdant Sigil to Mardant Strongoak begins a young druid's lifelong craft. Novices cannot yet walk the sleeping trance of the Emerald Dream, but the token marks the start of their mentorship. Under Mardant's instruction, they learn to read the wilderness's whispers. They also practice early shapeshifting and healing arts in service of Teldrassil.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why do i have verdant sigil",
     "verdant sigil use"
    ],
-   "answer": "The Verdant Sigil summons novice night elf druids in Shadowglen to seek out Mardant Strongoak in Aldrassil and begin formal training."
+   "answer": "The Verdant Sigil summons novice night elf druids in Shadowglen to find Mardant Strongoak in Aldrassil and begin formal training."
   },
   {
    "q": "Who hands out the Verdant Sigil?",
@@ -39,7 +39,7 @@
     "who gives verdant sigil",
     "where do i get verdant sigil"
    ],
-   "answer": "Conservator Ilthalaine gives budding druids the Verdant Sigil in Shadowglen, carrying a message from Mardant Strongoak."
+   "answer": "Conservator Ilthalaine gives the Verdant Sigil to budding druids in Shadowglen with a message from Mardant Strongoak."
   },
   {
    "q": "Where do I take the sigil once I receive it?",
@@ -56,17 +56,17 @@
     "what does mardant do with sigil",
     "after verdant sigil"
    ],
-   "answer": "Mardant accepts the Verdant Sigil and welcomes you as his student. He guides you in communion with nature and prepares you for the mysteries of the Emerald Dream as your strength grows."
+   "answer": "Mardant accepts the Verdant Sigil and welcomes you as his student. He teaches you communion with nature and prepares you for the mysteries of the Emerald Dream as your strength grows."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a young night elf druid, receiving the Verdant Sigil marks your first rite of passage from basic forest tending to disciplined Cenarion teaching."
+   "text": "As a young night elf druid, the Verdant Sigil marks your first rite of passage from basic forest tending to disciplined Cenarion teaching."
   },
   {
    "target": "race:NightElf",
-   "text": "Under Aldrassil's canopy, the sigil reflects the kaldorei tradition of attuning your spirit to the natural world and Teldrassil's guardians."
+   "text": "Beneath Aldrassil's canopy, the sigil reflects the kaldorei tradition of attuning your spirit to the natural world and Teldrassil's guardians."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Verdant Sigil",
   "Verdant Sigil (Classic)"
  ],
- "style": 1
+ "style": 2
 }

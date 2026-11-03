@@ -24,16 +24,16 @@
   ],
   "category": "Thousand Needles"
  },
- "summary": "Assassination Plot is a Horde quest initiated by recovering intercepted centaur orders in Thousand Needles. The orders reveal an impending strike targeting the tauren Kanati Greycloud at his hunting camp by Whitereach Post.",
+ "summary": "In Thousand Needles, centaur move against Kanati Greycloud at Whitereach Post. Intercepted orders reveal their plan to attack the tauren hunter.",
  "sections": [
   {
    "title": "A Hunter in Hostile Lands",
-   "body": "Thousand Needles has long been contested terrain dominated by warring centaur clans and dangerous wildlife. When the tauren brave Kanati Greycloud set up a hunting camp at Whitereach Post, the small post southwest of the Great Lift, the local centaur viewed it as an audacious intrusion into their territory. Rather than merely driving game away, the centaur resolved to eliminate Greycloud entirely to discourage any further Horde expansion through the canyon.",
+   "body": "Kanati Greycloud is a tauren hunter camped at Whitereach Post in contested Thousand Needles. The small post lies southwest of the Great Lift, amid warring centaur clans and dangerous wildlife. The local centaur see his camp as a bold intrusion into their territory. They mean to kill Greycloud and discourage further Horde expansion through the canyon.",
    "spoiler": 0
   },
   {
    "title": "The Intercepted Orders",
-   "body": "The plot comes to light when a traveler recovers a written decree outlining the centaur strategy. The note names Kanati Greycloud directly, castigating his boldness and commanding a strike force to converge upon Whitereach Post to wipe out the camp and anyone who might dare follow him. Delivering the missive to Kanati forewarns the hunter, prompting him to prepare for an immediate stand against the raiders.",
+   "body": "Intercepted centaur orders name Kanati Greycloud as their target. The decree condemns his boldness and orders a strike force to converge on Whitereach Post, destroy the camp, and kill anyone who might follow him. With the orders in hand, you can warn Kanati in time to prepare for the raiders' attack.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "what is this quest about",
     "centaur plot"
    ],
-   "answer": "It is a coordinated ambush planned by local centaur against Kanati Greycloud, a tauren who set up a hunting camp at Whitereach Post in Thousand Needles. The centaur want him dead to prevent the Horde from gaining a foothold in the canyon."
+   "answer": "Local centaur are planning a coordinated ambush against Kanati Greycloud, the tauren hunter camped at Whitereach Post in Thousand Needles. They want him dead to keep the Horde from gaining a foothold in the canyon."
   },
   {
    "q": "Who is Kanati Greycloud?",
@@ -54,7 +54,7 @@
     "kanati greycloud",
     "whitereach post npc"
    ],
-   "answer": "Kanati Greycloud is a tauren who has set up a hunting camp at Whitereach Post, the small post southwest of the Great Lift in Thousand Needles. Camping so close to the centaur clans' canyons makes him a prime target."
+   "answer": "Kanati Greycloud is a tauren hunter camped at Whitereach Post, southwest of the Great Lift in Thousand Needles. His camp lies near centaur territory, making him a target."
   },
   {
    "q": "Why do the centaur want to kill Kanati?",
@@ -63,7 +63,7 @@
     "centaur motive",
     "why do centaur attack"
    ],
-   "answer": "The centaur view Kanati's presence at Whitereach Post as an intolerable intrusion into Thousand Needles. They plan to kill him to dismantle the hunting camp and deter any future Horde scouts from settling in the region."
+   "answer": "The centaur see Kanati's camp at Whitereach Post as an intolerable intrusion into Thousand Needles. They plan to kill him, destroy the camp, and deter future Horde scouts from settling in the region."
   },
   {
    "q": "Where is Whitereach Post?",
@@ -72,7 +72,7 @@
     "where is kanati's camp",
     "where is whitereach"
    ],
-   "answer": "Whitereach Post is a small tauren camp situated in Thousand Needles, resting southwest of the Great Lift along the canyon floor."
+   "answer": "Whitereach Post is a small tauren camp on the canyon floor in Thousand Needles, southwest of the Great Lift."
   },
   {
    "q": "Can Alliance players complete this quest?",
@@ -81,7 +81,7 @@
     "alliance assassination note",
     "alliance turn in"
    ],
-   "answer": "Alliance travelers can find the Assassination Note too, but they can't deliver the warning: Kanati Greycloud is a Horde tauren, and only the Horde can bring it to him."
+   "answer": "Alliance travelers can recover the Assassination Note, but they cannot deliver the warning to Kanati Greycloud. He is a Horde tauren, so only the Horde can bring it to him."
   },
   {
    "q": "What happens after Kanati is warned?",
@@ -90,17 +90,17 @@
     "next quest",
     "protect kanati"
    ],
-   "answer": "Upon receiving the warning, Kanati refuses to flee. Instead, he braces himself to fight off the attackers, leading directly into the defense of Whitereach Post when the centaur war band arrives."
+   "answer": "When Kanati receives the warning, he refuses to flee and prepares to fight off the attackers. The defense of Whitereach Post begins when the centaur war band arrives."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Centaur animosity runs deep in tauren memory. Defending Kanati Greycloud at Whitereach Post is a direct continuation of the long struggle to safeguard Kalimdor's plains and canyons from centaur aggression."
+   "text": "As a tauren, you know centaur hatred runs deep in tauren memory. Defending Kanati Greycloud at Whitereach Post continues the struggle to protect Kalimdor's plains and canyons from centaur aggression."
   },
   {
    "target": "faction:Horde",
-   "text": "Whitereach Post serves as a small Horde outpost southwest of the Great Lift, making Kanati's survival critical for keeping watch over Thousand Needles."
+   "text": "As a member of the Horde, you can see Whitereach Post as a small outpost southwest of the Great Lift. Kanati's survival matters to the Horde's watch over Thousand Needles."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Assassination Plot"
- ]
+ ],
+ "style": 2
 }

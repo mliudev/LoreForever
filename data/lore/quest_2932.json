@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Hinterlands"
  },
- "summary": "Nimboya wants the Witherbark trolls punished for betraying Thrall, though they were once allies of the Horde. Nimboya's pike is to carry Witherbark skulls and be planted in a Witherbark village in the Hinterlands.",
+ "summary": "In Stranglethorn, Nimboya sends you north to punish the Witherbark trolls for betraying Thrall. He gives you a pike to bear their skulls and plant in one of their Hinterlands villages.",
  "sections": [
   {
    "title": "A Warning in Blood",
-   "body": "Once the Witherbark trolls stood with the Horde, until they betrayed Thrall. Nimboya hands you a pike and sends you a long way north to the Hinterlands, northeast of Tarren Mill, the village held by the Forsaken. Hunt Witherbark trolls there and collect their skulls, then plant the pike in the ground in Hiri'watha or Zun'watha, two of their smaller villages, so they learn what their deeds cost. Afterwards Nimboya waits in Stranglethorn.",
+   "body": "Nimboya sends you from Stranglethorn to the Hinterlands, far to the north and northeast of Tarren Mill, a village held by the Forsaken. The Witherbark trolls once stood with the Horde, but betrayed Thrall. Hunt them for their skulls, then plant Nimboya's pike in Hiri'watha or Zun'watha, two of their smaller villages. The warning will show them what their deeds cost. Nimboya waits in Stranglethorn.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "witherbark betrayal",
     "grim message reason"
    ],
-   "answer": "Nimboya says they were allies of the Horde who turned on Thrall, and that such a betrayal cannot go unpunished."
+   "answer": "The Witherbark trolls once allied with the Horde, then turned against Thrall. Nimboya says their betrayal cannot go unpunished."
   },
   {
    "q": "Where does Nimboya send you to plant the pike?",
@@ -43,7 +43,7 @@
     "nimboya pike location",
     "grim message location"
    ],
-   "answer": "Either Hiri'watha or Zun'watha, lesser Witherbark villages in the Hinterlands."
+   "answer": "Plant the pike in Hiri'watha or Zun'watha, two lesser Witherbark villages in the Hinterlands."
   },
   {
    "q": "Where are the Hinterlands from Tarren Mill?",
@@ -51,7 +51,7 @@
     "hinterlands location",
     "where is hinterlands"
    ],
-   "answer": "They lie northeast of Tarren Mill, the village the Forsaken hold, and far to the north of Nimboya in Stranglethorn."
+   "answer": "The Hinterlands lie northeast of Tarren Mill, the village held by the Forsaken. They lie far north of Nimboya in Stranglethorn."
   },
   {
    "q": "Who gives Grim Message?",
@@ -59,7 +59,7 @@
     "grim message questgiver",
     "who is nimboya"
    ],
-   "answer": "Nimboya, in Stranglethorn, hands over the pike and waits there for word."
+   "answer": "Nimboya gives you the pike in Stranglethorn and waits there for word."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Wowpedia: Grim Message"
- ]
+ ],
+ "style": 2
 }

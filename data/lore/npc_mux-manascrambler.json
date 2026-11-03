@@ -8,11 +8,11 @@
   "wiki": "Mux Manascrambler",
   "refs": 2
  },
- "summary": "Mux Manascrambler is an eccentric goblin engineer dwelling in the desert outpost of Gadgetzan. Unlike many of his peers focused strictly on explosives or mining equipment, Mux harbors a peculiar fascination with the supernatural and occult energies.",
+ "summary": "In Gadgetzan, Mux Manascrambler turns his craft to spirits and occult forces. The goblin engineer studies what others cannot see.",
  "sections": [
   {
    "title": "A Tinkerer of the Unseen",
-   "body": "Tucked away inside a building in central Gadgetzan, behind Driz Plunkbow and his clanking Butcherbots, sits Mux Manascrambler. While the Steamwheedle Cartel trades heavily in oil, guns, and salvage, Mux focuses his ingenuity on more esoteric pursuits: the realm of spirits and supernatural anomalies. He uses his technical acumen to design bizarre devices capable of detecting, distilling, and interacting with spectral remnants, bridging crude goblin craftsmanship with the invisible worlds of the dead.",
+   "body": "Near the center of Gadgetzan, Mux Manascrambler works inside a building behind Driz Plunkbow and his clanking Butcherbots. The Steamwheedle Cartel trades in oil, guns, and salvage, but Mux pursues spirits and supernatural anomalies.\n\nHe builds strange devices to detect and distill spectral remnants, and to interact with them. His work brings goblin engineering into the unseen world of the dead.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is mux",
     "mux manascrambler map"
    ],
-   "answer": "Mux makes his home in Gadgetzan in northern Tanaris. You can find him tucked inside a building near the center of the desert trading hub, positioned just behind Driz Plunkbow and the meat-carving Butcherbots."
+   "answer": "Mux Manascrambler works in Gadgetzan, in northern Tanaris. Look inside a building near the center of town, behind Driz Plunkbow and the meat-carving Butcherbots."
   },
   {
    "q": "What kind of work does Mux do?",
@@ -33,7 +33,7 @@
     "what does mux sell",
     "mux research"
    ],
-   "answer": "Mux is an engineer obsessed with spectral and unseen forces. Rather than standard demolitions or transport, he builds specialized contraptions capable of revealing spirits, distilling ectoplasm, and harnessing arcane supernatural power."
+   "answer": "Mux Manascrambler is an engineer drawn to spirits and unseen forces. He builds devices to reveal spirits, distill ectoplasm, and harness supernatural arcane power."
   },
   {
    "q": "Does Mux belong to a faction?",
@@ -42,13 +42,13 @@
     "is mux neutral",
     "mux alliance"
    ],
-   "answer": "Mux belongs to the Steamwheedle Cartel operating out of Gadgetzan. As an independent goblin operative, he maintains strict commercial neutrality and is willing to aid adventurers of either the Horde or the Alliance."
+   "answer": "Mux Manascrambler belongs to the Steamwheedle Cartel in Gadgetzan. He works independently, keeps commercial neutrality, and aids adventurers from either the Horde or the Alliance."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Mux is an oddity among goblin tinkers, applying mechanical gears and power cells to capture and distill invisible supernatural forces rather than merely blowing things apart."
+   "text": "As a goblin engineer, you can use gears and power cells to capture and distill invisible supernatural forces, as Mux does, instead of simply blowing things apart."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Mux Manascrambler"
- ]
+ ],
+ "style": 2
 }

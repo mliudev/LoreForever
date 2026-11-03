@@ -21,16 +21,16 @@
    "Safety First (Thousand Needles)"
   ]
  },
- "summary": "On the Shimmering Flats, Razzeric adds personal modifications to racers once Pozzik has finished with them. A seaforium booster ordered from Shreev in Gadgetzan was on a zeppelin that Razzeric hears crashed in Dustwallow Marsh, and Razzeric wants it brought back.",
+ "summary": "On the Shimmering Flats, Razzeric's Tweaking gives racers more power once Pozzik is done with them. A seaforium booster ordered from Shreev in Gadgetzan traveled by zeppelin, which Razzeric says crashed in Dustwallow Marsh. He wants the booster brought back.",
  "sections": [
   {
    "title": "More Juice",
-   "body": "Razzeric grants that Pozzik is a great mechanic, but thinks Pozzik too wary of loading on firepower and hanging on for the ride. Once Pozzik is done with a racer, Razzeric spends time making personal changes: loosening the controls, removing frame sections and piling on power. A seaforium booster was ordered from Shreev at the Gizmorium in Gadgetzan, but the zeppelin carrying it crashed in Dustwallow Marsh, by Razzeric's account. The booster is needed back on the Shimmering Flats, since showing up at the track without that extra kick would be a travesty.",
+   "body": "Pozzik is a fine mechanic, Razzeric says, but too cautious with firepower and too ready to hold back. Once Pozzik finishes with a racer, Razzeric loosens its controls, removes parts of its frame, and adds power. He ordered a seaforium booster from Shreev at the Gizmorium in Gadgetzan. Razzeric says the zeppelin carrying it crashed in Dustwallow Marsh. The booster belongs back on the Shimmering Flats. Facing the track without that extra kick would be a travesty.",
    "spoiler": 0
   },
   {
    "title": "Strapped to the Racer",
-   "body": "Razzeric raves over the booster: a full fifteen pounds of seaforium. Strapped to the side of a racer, it should carry Razzeric through the circuit at such speed that the gnomes are beaten twice over.",
+   "body": "Razzeric praises the booster, which holds a full fifteen pounds of seaforium. Strapped to a racer's side, it should carry him through the circuit fast enough to beat the gnomes twice over.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who gives razzerics tweaking",
     "razzeric shimmering flats"
    ],
-   "answer": "Razzeric is a racer on the Shimmering Flats who makes personal changes to racers after Pozzik finishes with them."
+   "answer": "Razzeric races on the Shimmering Flats and changes racers himself after Pozzik finishes with them."
   },
   {
    "q": "Where did the booster come from?",
@@ -51,7 +51,7 @@
     "who made seaforium booster",
     "gadgetzan gizmorium"
    ],
-   "answer": "Razzeric ordered it from Shreev at Gadgetzan's Gizmorium."
+   "answer": "Razzeric ordered the booster from Shreev at the Gizmorium in Gadgetzan."
   },
   {
    "q": "Where is the seaforium booster now?",
@@ -60,7 +60,7 @@
     "booster location",
     "downed zeppelin location"
    ],
-   "answer": "Razzeric says the zeppelin carrying it crashed in Dustwallow Marsh."
+   "answer": "Razzeric says the zeppelin carrying the booster crashed in Dustwallow Marsh."
   },
   {
    "q": "Why does Razzeric want the booster?",
@@ -68,7 +68,7 @@
     "why does he want seaforium",
     "why seaforium booster"
    ],
-   "answer": "Razzeric wants more power than Pozzik is willing to load on, and thinks facing the track without that extra kick would be a travesty."
+   "answer": "Razzeric wants more power than Pozzik is willing to load, and thinks facing the track without that extra kick would be a travesty."
   },
   {
    "q": "What came before this step?",
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "Classic quest text: Razzeric's Tweaking"
- ]
+ ],
+ "style": 2
 }

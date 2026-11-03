@@ -20,16 +20,16 @@
    "Stars of Elune"
   ]
  },
- "summary": "In human lands, a night elf priest receives a summons to return to Teldrassil. Brother Joshua delivers the message from Priestess Alathea, who calls the young priest to the Temple of the Moon in Darnassus for advanced guidance in Elune’s mysteries.",
+ "summary": "A summons brings a night elf priest from human lands back to Teldrassil. Brother Joshua carries Priestess Alathea’s call to the Temple of the Moon in Darnassus, where the young priest will receive advanced guidance in Elune’s mysteries.",
  "sections": [
   {
    "title": "A Summons Across Seas",
-   "body": "Night elf priests sometimes travel to human lands such as Stormwind to share spiritual fellowship with the Church of the Holy Light. Their deepest ties remain with the Sisterhood of Elune. Brother Joshua tells an acolyte that a night elf emissary has come searching for them. Their early travels are over, and their home temple calls them back for deeper training with High Priestess Tyrande Whisperwind’s inner circle.",
+   "body": "Night elf priests sometimes travel to human lands like Stormwind to share fellowship with the Church of the Holy Light. Their strongest ties remain with the Sisterhood of Elune. Brother Joshua tells you that a night elf emissary has come searching for you. Your early travels are over, and your home temple calls you back for deeper training with High Priestess Tyrande Whisperwind’s inner circle.",
    "spoiler": 0
   },
   {
    "title": "The Temple of the Moon",
-   "body": "Across the sea, Darnassus welcomes the returning priest at the Temple of the Moon. Priestess Alathea greets the acolyte warmly and celebrates their safe passage through a troubled world. Their return brings joy to Alathea and Tyrande, while more demanding spiritual trials await.",
+   "body": "Across the sea, the Temple of the Moon in Darnassus welcomes you home. Priestess Alathea greets you warmly and celebrates your safe passage through a troubled world. Your return brings joy to Alathea and Tyrande. More demanding spiritual trials await.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "alathea darnassus",
     "who is alathea"
    ],
-   "answer": "Priestess Alathea is a senior member of the Sisterhood of Elune at the Temple of the Moon in Darnassus. She works with High Priestess Tyrande Whisperwind and oversees the training and advancement of promising night elf priests."
+   "answer": "Priestess Alathea is a senior member of the Sisterhood of Elune at the Temple of the Moon in Darnassus. She works with High Priestess Tyrande Whisperwind and guides the training and advancement of promising night elf priests."
   },
   {
    "q": "What happens after reaching the Temple of the Moon?",
@@ -68,7 +68,7 @@
     "can humans do returning home",
     "who can pick up returning home"
    ],
-   "answer": "This summons is for night elf priests who have traveled far from Kalimdor during their early training. It calls you home to study the traditions of your people’s priesthood with the Sisterhood of Elune."
+   "answer": "This summons is for night elf priests who have traveled far from Kalimdor during their early training. It calls you home to study your people’s priesthood traditions with the Sisterhood of Elune."
   },
   {
    "q": "Where is the Temple of the Moon located?",
@@ -77,7 +77,7 @@
     "where is the temple",
     "where is alathea"
    ],
-   "answer": "The Temple of the Moon is in Darnassus’s southern district, atop the boughs of Teldrassil. It is the spiritual heart of night elf culture and the seat of power for High Priestess Tyrande Whisperwind."
+   "answer": "The Temple of the Moon lies in Darnassus’s southern district, atop the boughs of Teldrassil. It is the spiritual heart of night elf culture and High Priestess Tyrande Whisperwind’s seat of power."
   },
   {
    "q": "Why does Alathea mention Tyrande Whisperwind?",
@@ -86,7 +86,7 @@
     "tyrande whisperwind priestess",
     "alathea and tyrande"
    ],
-   "answer": "Tyrande Whisperwind is the High Priestess of Elune and spiritual leader of the night elves. Senior priestesses such as Alathea act on her behalf, tracking and guiding novices who represent their faith abroad according to Tyrande’s standards."
+   "answer": "Tyrande Whisperwind is the High Priestess of Elune and spiritual leader of the night elves. Senior priestesses like Alathea act on her behalf, tracking and guiding novices who represent their faith abroad according to Tyrande’s standards."
   }
  ],
  "angles": [
@@ -96,7 +96,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf priest who has walked among humans or dwarves across the sea, you make a sacred return to the sanctuaries of Teldrassil."
+   "text": "As a night elf priest who has walked among humans or dwarves across the sea, you make a sacred return to Teldrassil’s sanctuaries."
   },
   {
    "target": "faction:Alliance",
@@ -127,5 +127,5 @@
  "attribution": [
   "Returning Home (Brother Joshua)"
  ],
- "style": 1
+ "style": 2
 }

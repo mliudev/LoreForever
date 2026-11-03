@@ -1,14 +1,17 @@
-# Willo on her own (Mike, 2026-10-28: "decouple willo releases from addon releases"): Willo-Setup.exe, the companion
-# app, built and signed exactly as the Release workflow's willo job does, published as a GitHub release of its own,
-# vX.Y.Z on this repo's main, never marked Latest. Nothing of the add-on: no zip, no Setup.exe, no CurseForge, no
-# language packs, and the add-on's version stays where it is.
+# Willo on her own (Mike, 2026-10-28: "decouple willo releases from addon releases"; her own version number apart from
+# the add-on's, 11/1): Willo-Setup.exe, the companion app, built and signed, published as a GitHub release of its own,
+# willo-vX.Y.Z on this repo's main, never marked Latest (the add-on's release keeps that: /download/zip and install.ps1
+# follow Latest). Nothing of the add-on: no zip, no Setup.exe, no CurseForge, no language packs, and the add-on's
+# version stays where it is. The Release workflow doesn't build her any more: this is the only place Willo is built.
 # The maintainer's scripts/release-willo.sh (scripts/release.sh --willo) starts it, waits for it, then moves the site's
-# /download/willo to it (scripts/download_snapshot.py --willo), which is what installed Willos read to update.
+# /download/willo-own to it (scripts/download_snapshot.py --willo), which is what installed Willos read to update.
 # publish: false builds, signs and test-installs everything and publishes nothing (release-willo.sh --rehearse).
-# Willo for Mac (LOR-636) builds beside her, as the Release workflow's willo-mac job does: Willo-mac.dmg goes on the
-# release when that job left a proof, and never holds it up (continue-on-error; the publish job takes what's ready).
+# Willo for Mac (LOR-636) builds beside her: Willo-mac.dmg goes on the release when that job left a proof, and never
+# holds it up (continue-on-error; the publish job takes what's ready). Notarization can run past its wait: then this
+# release has no .dmg, and the site keeps the last one until Willo's next release. Nothing retries it daily any more.
 # The tag comes from the release's publication with this run's own token, which starts no workflow, so the Release
-# workflow never runs for it (and its prepare job would refuse a tag that doesn't match the add-on's .toc anyway).
+# workflow never runs for it (its tag filter is v[0-9]*, and its prepare job would refuse a tag that doesn't match the
+# add-on's .toc anyway).
 name: Willo
 run-name: Willo ${{ inputs.version }}${{ !inputs.publish && ' (rehearsal)' || '' }}
 
@@ -16,7 +19,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: "Willo's version, e.g. 0.31.1: newer than the add-on's and the last Willo's"
+        description: "Willo's version, e.g. 0.37.0: newer than the last Willo's (her number, not the add-on's)"
         required: true
       companion_ref:
         description: "The private repo's commit to build Willo from (40 hex)"
@@ -40,7 +43,7 @@ concurrency:
 
 env:
   GH_REPO: ${{ github.repository }}
-  TAG: v${{ inputs.version }}
+  TAG: willo-v${{ inputs.version }}
 
 jobs:
   willo:
@@ -59,7 +62,7 @@ jobs:
           VERSION: ${{ inputs.version }}
           REF: ${{ inputs.companion_ref }}
         run: |
-          if ($env:VERSION -notmatch '^\d+\.\d+\.\d+$') { "::error::version must look like 0.31.1, not '$env:VERSION'"; exit 1 }
+          if ($env:VERSION -notmatch '^\d+\.\d+\.\d+$') { "::error::version must look like 0.37.0, not '$env:VERSION'"; exit 1 }
           if ($env:REF -notmatch '^[0-9a-f]{40}$') { "::error::companion_ref must be a full commit id"; exit 1 }
           $draft = gh api "repos/$env:GH_REPO/releases?per_page=30" -q ".[] | select(.tag_name == \"$env:TAG\") | .draft"
           if ($draft -eq 'false') { "::error::$env:TAG is already a published release"; exit 1 }
@@ -97,21 +100,46 @@ jobs:
           client-id: ${{ vars.AZURE_CLIENT_ID }}
           tenant-id: ${{ vars.AZURE_TENANT_ID }}
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
-      - name: Last release's lore vectors
+      # The last run's lore vectors (its lore-vectors artifact, uploaded below), so this one works out only the entries the
+      # lore changed since: seconds instead of minutes. Willo's own runs first; then the Release workflow's (it made this
+      # artifact until Willo left it, 11/1), for the first Willo release after the switch. Each one's newest run may have
+      # none (every Willo run before this change, every add-on run after it), so it looks back through its last 20
+      # successful runs until a download works. Without any (artifacts expire after 90 days) it does all.
+      - name: Last run's lore vectors
         continue-on-error: true
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          $run = gh run list -R $env:GITHUB_REPOSITORY --workflow release.yml --status success -L 1 --json databaseId -q '.[0].databaseId'
-          if ($run) { gh run download $run -R $env:GITHUB_REPOSITORY -n lore-vectors -D "$env:RUNNER_TEMP\lore-seed" }
+          $PSNativeCommandUseErrorActionPreference = $false   # a run without the artifact fails its download: try the next
+          $seed = "$env:RUNNER_TEMP\lore-seed"
+          foreach ($workflow in 'willo.yml', 'release.yml') {
+            foreach ($run in @(gh run list -R $env:GITHUB_REPOSITORY --workflow $workflow --status success -L 20 --json databaseId -q '.[].databaseId')) {
+              gh run download $run -R $env:GITHUB_REPOSITORY -n lore-vectors -D $seed 2>$null
+              if (Test-Path "$seed\lore-vectors.npz") { "Seeded from $workflow run $run"; break }
+            }
+            if (Test-Path "$seed\lore-vectors.npz") { break }
+          }
+          $global:LASTEXITCODE = 0
+      # -LoreSeconds 900: build.ps1's default (120) was the slack the add-on's release gave this job; nothing waits on it
+      # now, and a runner with no seed does all 4,080 entries in about 10 minutes.
       - name: Build Willo
         shell: pwsh
         env:
           LORE_COMPANION_VERSION: ${{ inputs.version }}
         run: |
           companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build" `
-            -Lore addon\LoreForever -LoreSeed "$env:RUNNER_TEMP\lore-seed\lore-vectors.npz"
+            -Lore addon\LoreForever -LoreSeed "$env:RUNNER_TEMP\lore-seed\lore-vectors.npz" -LoreSeconds 900
+      # For the next run to start from (above). Every run leaves one, a rehearsal's too: the vectors don't depend on
+      # whether anything is published. overwrite: "Re-run failed jobs" uploads it again under the same name (the seed
+      # lookup needs the name fixed).
+      - uses: actions/upload-artifact@v7
+        with:
+          name: lore-vectors
+          path: ${{ runner.temp }}\companion\lore-vectors.npz
+          if-no-files-found: ignore
+          retention-days: 90
+          overwrite: true
       - name: Sign Willo
         if: vars.SIGNING_PROFILE != ''
         uses: azure/artifact-signing-action@v2
@@ -141,7 +169,9 @@ jobs:
           file-digest: SHA256
           timestamp-rfc3161: http://timestamp.acs.microsoft.com
           timestamp-digest: SHA256
-      # The Release workflow's willo job's checks: both signatures, and a /QA install into scratch.
+      # Both signatures (Setup and the app inside it), and a /QA install into scratch: Willo's files land, nothing of the
+      # runner's own Windows entries changes. The full install, upgrade and sign-in screen are the private repo's
+      # Companion workflow (companion.yml), which the Willo candidate runs before a release.
       - name: Check the signatures and test-install
         shell: pwsh
         run: |
@@ -178,7 +208,12 @@ jobs:
             dist/willo-proof.json
           compression-level: 0
 
-  # Willo for Mac (LOR-636): as the Release workflow's willo-mac job (its comments there), from the same companion_ref.
+  # Willo for Mac (LOR-636): Willo-mac.dmg beside Willo-Setup.exe, from the same companion_ref, on GitHub's hosted Apple
+  # Silicon runner. The private repo's companion/packaging/mac-release.sh builds it with build-mac.sh (as the Macs' test
+  # builds), signs it with the Developer ID, has Apple notarize it, staples it, asks Gatekeeper and starts it once from
+  # the .dmg before anything is staged. Optional, and more: continue-on-error, so it never fails the run, and `ready`
+  # is set only once its proof is left. Without the five Mac secrets in the release environment, or when Apple is still
+  # notarizing after 10 minutes, it's a warning and the release goes out without it (the site keeps the last one).
   willo-mac:
     runs-on: macos-15
     environment: release

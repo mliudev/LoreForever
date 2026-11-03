@@ -18,21 +18,21 @@
    "Bazzalan"
   ]
  },
- "summary": "Beneath Orgrimmar, Ragefire Chasm's volcanic tunnels shelter troggs and a demonic cult. The Searing Blade plots against the young Horde from caverns below the Cleft of Shadow, threatening the capital above.",
+ "summary": "Beneath Orgrimmar, troggs and a demonic cult threaten the young Horde. The Searing Blade plots in volcanic caverns below the Cleft of Shadow, with the capital above.",
  "sections": [
   {
    "title": "Subterranean Peril",
-   "body": "Ragefire troggs erupt from deep beneath Orgrimmar into a maze of volcanic corridors and lava pits. As orcish builders raise their new home above, the troggs grow aggressive. Magatha Grimtotem sends Maur Grimtotem to open talks on Thunder Bluff's behalf, but the troggs slaughter the envoy. They yield only to force.",
+   "body": "Ragefire troggs burst from deep beneath Orgrimmar into winding volcanic corridors and lava pits. As orcish builders raise their new home above, the troggs grow more aggressive. Magatha Grimtotem sends Maur Grimtotem to speak for Thunder Bluff, but the troggs slaughter him. They yield only to force.",
    "spoiler": 0
   },
   {
    "title": "The Searing Blade",
-   "body": "A demonic cult called the Searing Blade is more dangerous than the troggs. Loyal to the Shadow Council, the fanatics plot the young Horde's ruin from caverns beside streams of magma. The warlock Jergosh the Invoker, the cunning satyr Bazzalan, and the vicious felguard Taragaman the Hungerer lead them. Taragaman presides over an altar in the lava lake.",
+   "body": "The Searing Blade, a demonic cult, poses a greater danger than the troggs. Loyal to the Shadow Council, its fanatics plot the young Horde's ruin in caverns beside streams of magma. Jergosh the Invoker, a cunning warlock, leads with Bazzalan, a satyr, and Taragaman the Hungerer, a vicious felguard. Taragaman presides over an altar in the lava lake.",
    "spoiler": 0
   },
   {
    "title": "The Warchief's Game",
-   "body": "Neeru Fireblade appears to be a warlock trainer beside the chasm's entrance in the Cleft of Shadow. In secret, he leads the local Burning Blade. Neeru sends Horde adventurers into the depths as loyalty tests, hoping to cull weak cultists and kill Thrall's supporters. Thrall knows of Neeru's deception. The Warchief uses these forays to eliminate dangerous cult leaders such as Jergosh and Bazzalan, while keeping Neeru in place to watch the Shadow Council's broader schemes.",
+   "body": "Neeru Fireblade appears to train warlocks beside the chasm's entrance in the Cleft of Shadow. In secret, he leads the local Burning Blade. He sends Horde adventurers into the depths as tests of loyalty, hoping to cull weak cultists and kill Thrall's supporters.\n\nThrall knows of Neeru's deception. The Warchief uses these forays to eliminate dangerous cult leaders such as Jergosh and Bazzalan. He keeps Neeru in place to watch the Shadow Council's broader schemes.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "where is rfc",
     "ragefire entrance"
    ],
-   "answer": "The entrance lies inside Orgrimmar, in the underground district called the Cleft of Shadow. It is near the tent of Neeru Fireblade, the warlock trainer."
+   "answer": "The entrance is inside Orgrimmar, in the underground district called the Cleft of Shadow. It lies near the tent of Neeru Fireblade, the warlock trainer."
   },
   {
    "q": "Why are troggs under Orgrimmar?",
@@ -53,7 +53,7 @@
     "why are there troggs here",
     "orgrimmar troggs"
    ],
-   "answer": "Ragefire troggs tunneled upward from underground recesses beneath Durotar. Diplomacy failed to quell their sudden presence beneath the capital, which is seen as a severe danger."
+   "answer": "Ragefire troggs tunneled upward from underground recesses beneath Durotar. Diplomacy failed to quell their sudden presence beneath the capital, where they pose a severe danger."
   },
   {
    "q": "Who leads the cultists inside the chasm?",
@@ -62,7 +62,7 @@
     "searing blade leaders",
     "who rules ragefire"
    ],
-   "answer": "The Searing Blade is led by Jergosh the Invoker, a warlock, and Bazzalan, a satyr. Taragaman the Hungerer, a summoned felguard, supports them."
+   "answer": "Jergosh the Invoker, a warlock, and Bazzalan, a satyr, lead the Searing Blade. Taragaman the Hungerer, a summoned felguard, supports them."
   },
   {
    "q": "What does killing Bazzalan and Jergosh accomplish for the story?",
@@ -79,7 +79,7 @@
     "can alliance do rfc",
     "alliance in ragefire"
    ],
-   "answer": "Any adventurer can physically enter through the portal, but an Alliance adventurer must evade high-level Horde guards and hostile defenders throughout Orgrimmar to reach the Cleft of Shadow."
+   "answer": "Any adventurer can physically enter through the portal. An Alliance adventurer must evade high-level Horde guards and hostile defenders throughout Orgrimmar to reach the Cleft of Shadow."
   },
   {
    "q": "Why doesn't Thrall simply execute Neeru Fireblade?",
@@ -87,21 +87,21 @@
     "thrall neeru fireblade",
     "why let neeru live"
    ],
-   "answer": "Thrall tolerates those who practice dark magic in the Cleft of Shadow, keeping them close and under his watch rather than driving them out of sight."
+   "answer": "Thrall tolerates those who practice dark magic in the Cleft of Shadow. He keeps them close and under his watch rather than driving them out of sight."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, cleansing the chasm beneath Orgrimmar is a trial for young champions to prove their strength and protect the capital."
+   "text": "For the Horde, cleansing the chasm beneath Orgrimmar gives young champions a trial of strength and a chance to protect the capital."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can see the dark magic of the Searing Blade firsthand in the rites and demonic tomes used by Jergosh the Invoker and Bazzalan."
+   "text": "As a warlock, you can see the Searing Blade's dark magic firsthand in the rites and demonic tomes used by Jergosh the Invoker and Bazzalan."
   },
   {
    "target": "race:Tauren",
-   "text": "As a Tauren, Maur Grimtotem's death at the hands of the Ragefire troggs makes hunting the beasts a matter of honor and retribution for Thunder Bluff."
+   "text": "As a Tauren, you know Maur Grimtotem's death at the hands of the Ragefire troggs makes hunting the beasts a matter of honor and retribution for Thunder Bluff."
   }
  ],
  "keywords": [
@@ -130,5 +130,5 @@
   "Ragefire Chasm (Classic)",
   "Ragefire Chasm"
  ],
- "style": 1
+ "style": 2
 }

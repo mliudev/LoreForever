@@ -17,21 +17,21 @@
   "wiki": "The Anchors of Zephras",
   "chain": []
  },
- "summary": "The Anchors of Zephras is an introductory quest offered by Halaan Hawk-Eye on Zephras Isle. Halaan invites travelers to borrow his far-reaching vision to observe the ancient anchor pylons that tether and preserve the floating island. Though the soaring monoliths appear untouched from a distance, Halaan warns that the wind spirits' stabilizing magic has begun to waver.",
+ "summary": "On Zephras Isle, Halaan Hawk-Eye asks you to watch the ancient anchor pylons that hold the island aloft. Their magic has begun to waver, and the wind spirits' blessing may no longer be steady.",
  "sections": [
   {
    "title": "Tethers of the Isle",
-   "body": "The anchor pylons of Zephras are ancient, towering monoliths gifted by the spirits of the winds. Deeply woven into the isle's mystical foundation, they serve to bind, steady, and sustain the landmass amidst the churning skies. To look upon one is to witness the fragile balance keeping Zephras aloft, relying continuously on the benevolence of the wind spirits.",
+   "body": "Wind spirits gave Zephras's ancient anchor pylons the power to bind and sustain the floating island. Their magic keeps the land steady amid the churning skies. From afar, the towering monoliths look untouched. Yet the island depends on the wind spirits' continuing blessing.",
    "spoiler": 0
   },
   {
    "title": "A Disturbing Shift",
-   "body": "Despite standing proud and undamaged to the naked eye, the anchor pylons have grown erratic. Halaan Hawk-Eye notes that the magical harmony sustaining them has become unstable and inconsistent in recent times. Without clear signs of physical distress, this subtle decay raises quiet alarm among those who watch over the groves, hinting at deeper imbalances threatening the isle.",
+   "body": "The anchor pylons look proud and undamaged, yet their magic has grown erratic. Halaan Hawk-Eye says the harmony that sustains them has become unstable and uncertain. No clear sign of physical harm appears. Those who watch over the groves have reason to fear what threatens the isle.",
    "spoiler": 0
   },
   {
    "title": "Halaan's Gift",
-   "body": "Lacking the innate skysight that peers across worlds or the arcane prowess to tap Zephras's deep ley lines, Halaan possesses a simpler, sharper natural gift: keen, unclouded vision over immense distances. By lending this perspective, he allows others to observe the distant pylons in fine detail, encouraging newcomers to cultivate gratitude for the present while staying alert to their homeland's shifting fate.",
+   "body": "Halaan Hawk-Eye cannot use skysight to peer between worlds, nor can he tap Zephras's deep ley lines. His gift is natural vision sharp enough to reach immense distances. He lends that sight to newcomers, so they can study the distant pylons and watch for changes in their homeland's fate.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "zephras anchor pylon",
     "what is an anchor pylon"
    ],
-   "answer": "The anchor pylons are ancient mystical structures bestowed by the spirits of the winds. They bind, anchor, and magically sustain the island of Zephras, keeping it stable above the surrounding world."
+   "answer": "The anchor pylons are ancient structures the wind spirits gave to Zephras. They bind and sustain the island, keeping it stable above the surrounding world."
   },
   {
    "q": "What is wrong with the anchor pylons?",
@@ -52,7 +52,7 @@
     "anchor pylon problem",
     "what happened to the anchors"
    ],
-   "answer": "While the pylons show no obvious physical damage or external decay, their stabilizing magic has recently turned unstable and inconsistent, sparking concern about what is quietly disrupting their bond."
+   "answer": "The pylons show no obvious physical damage, but their stabilizing magic has grown unstable and inconsistent. The cause remains unknown."
   },
   {
    "q": "Who is Halaan Hawk-Eye?",
@@ -60,7 +60,7 @@
     "halaan lore",
     "who is halaan"
    ],
-   "answer": "Halaan Hawk-Eye is a watcher residing in the groves of Zephras Isle. Blessed with sharp, far-reaching natural eyesight, he monitors the health of the land and ponders the island's mystical well-being."
+   "answer": "Halaan Hawk-Eye watches over the groves of Zephras Isle. His natural sight reaches great distances, and he watches over the land's well-being."
   },
   {
    "q": "What is Halaan's gift?",
@@ -68,7 +68,7 @@
     "halaan's gift",
     "how does halaan see far"
    ],
-   "answer": "Halaan's gift is exceptionally acute long-distance sight. Unlike mystics who wield skysight to peer between worlds or channel ley line energies, Halaan's power is natural and mundane, allowing him to perceive distant landmarks with pristine clarity."
+   "answer": "Halaan's gift is exceptionally sharp sight over great distances. It is natural vision, unlike skysight or the power to tap Zephras's deep ley lines."
   },
   {
    "q": "What is skysight?",
@@ -76,7 +76,7 @@
     "what is the skysight",
     "skysight meaning"
    ],
-   "answer": "Skysight is a mystical perception possessed by certain practitioners on Zephras that allows them to pierce the veil and peer directly between worlds, far surpassing ordinary physical vision."
+   "answer": "Skysight is a mystical perception that lets certain practitioners peer between worlds, far beyond ordinary vision."
   },
   {
    "q": "Where does the magic powering the pylons come from?",
@@ -84,17 +84,17 @@
     "who made the pylons",
     "anchor pylon origin"
    ],
-   "answer": "The anchor pylons were granted to Zephras by the spirits of the winds. Halaan says the pylons bind and sustain the island, but does not explain the source of their continuing power."
+   "answer": "The wind spirits gave the anchor pylons to Zephras. Halaan says they bind and sustain the island, but does not explain where their continuing power comes from."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The anchor pylons rely directly on the blessing of the wind spirits, making any instability in their magic an urgent elemental matter for shamans seeking to maintain balance."
+   "text": "As a shaman, you know the wind spirits' blessing sustains the anchor pylons. Their unstable magic calls for an elemental's attention."
   },
   {
    "target": "class:Mage",
-   "text": "Halaan distinguishes his keen eyesight from the magic of those who can draw upon the ley lines beneath Zephras."
+   "text": "As a mage, you can recognize Halaan's keen eyesight as a natural gift."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "The Anchors of Zephras"
- ]
+ ],
+ "style": 2
 }

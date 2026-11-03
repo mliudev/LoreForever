@@ -8,16 +8,16 @@
   "wiki": "Crane Operator Bigglefuzz",
   "refs": 1
  },
- "summary": "Crane Operator Bigglefuzz is a goblin dockhand working the heavy machinery at the port of Ratchet. After an overloaded crane mishap scattered cargo across the docks, he finds himself desperate to recover a valuable stolen bottle before his superiors notice.",
+ "summary": "At Ratchet's docks, Crane Operator Bigglefuzz scrambles to recover cargo spilled from a crane. He searches for a stolen bottle before his superiors discover the loss.",
  "sections": [
   {
    "title": "Mishap on the Docks",
-   "body": "Like many goblin dockworkers, Crane Operator Bigglefuzz prioritized efficiency and haste over basic safety margins. While attempting to hoist an excessively heavy haul from a merchant vessel, his crane buckled, sending crates crashing down across the Ratchet wharves. In the ensuing chaos, opportunistic scoundrels swept in, leaving Bigglefuzz to scramble to clean up the mess and salvage the most precious goods before Gazlowe or the local port masters dock his pay.",
+   "body": "Crane Operator Bigglefuzz rushes to clear the wreckage across Ratchet's wharves. Like many goblin dockworkers, he chose speed over safety. While lifting an overloaded haul from a merchant vessel, his crane buckled and crates crashed across the docks. Scoundrels seized the confusion and swept up goods. Now he must recover the most precious cargo before Gazlowe or the local port masters dock his pay.",
    "spoiler": 0
   },
   {
    "title": "The Stolen Port",
-   "body": "The worst casualty of the accident was not the broken wood, but a crate containing rare ninety-nine-year-old port. Before Bigglefuzz could secure the spill, an elusive vagrant named Mad Magglish snatched a bottle and fled into hiding, threatening to leave Bigglefuzz answering for an irreplaceable loss.",
+   "body": "The greatest loss was a crate of rare ninety-nine-year-old port. Before Bigglefuzz could secure the spilled cargo, Mad Magglish, an elusive vagrant, snatched a bottle and hid. Bigglefuzz may have to answer for losing something irreplaceable.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "crane operator",
     "bigglefuzz ratchet"
    ],
-   "answer": "He is a goblin crane operator stationed along the docks of Ratchet, responsible for loading and unloading sea cargo for the Steamwheedle Cartel."
+   "answer": "Crane Operator Bigglefuzz loads and unloads sea cargo at Ratchet's docks for the Steamwheedle Cartel."
   },
   {
    "q": "What caused the accident at the docks?",
@@ -38,7 +38,7 @@
     "ratchet dock accident",
     "crane mishap"
    ],
-   "answer": "Bigglefuzz tried to hoist far too much weight at once with his crane, causing the machinery to fail and spilling cargo all over the wharf."
+   "answer": "Bigglefuzz overloaded his crane while hoisting cargo. The machinery failed and spilled freight across the wharf."
   },
   {
    "q": "Who stole from Bigglefuzz?",
@@ -47,7 +47,7 @@
     "mad magglish cargo",
     "who robbed bigglefuzz"
    ],
-   "answer": "A shifty troublemaker named Mad Magglish took advantage of the spilled freight to snatch a valuable bottle of ninety-nine-year-old port and slip away."
+   "answer": "Mad Magglish seized the confusion from the spilled freight, snatched a valuable bottle of ninety-nine-year-old port, and slipped away."
   },
   {
    "q": "Why is Bigglefuzz so worried about the stolen bottle?",
@@ -55,17 +55,17 @@
     "why does bigglefuzz care about the wine",
     "trouble at the docks reason"
    ],
-   "answer": "The ninety-nine-year-old port is extraordinarily rare and expensive. Losing it due to negligence means severe financial penalties or worse from the Steamwheedle Cartel bosses."
+   "answer": "The ninety-nine-year-old port is extraordinarily rare and expensive. Losing it through negligence could bring severe financial penalties or worse from the Steamwheedle Cartel bosses."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers may appreciate that overloading Steamwheedle rigging and cranes remains the primary cause of industrial accidents along Kalimdor's coastlines."
+   "text": "As an engineer, you know overloading Steamwheedle rigging and cranes causes most industrial accidents along Kalimdor's coastlines."
   },
   {
    "target": "class:Rogue",
-   "text": "Rogues can appreciate how quickly opportunistic thieves like Mad Magglish can exploit a moment of dockside confusion to lift priceless contraband right from under a goblin's nose."
+   "text": "As a rogue, you know how quickly a thief like Mad Magglish can use dockside confusion to lift priceless contraband right under a goblin's nose."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Crane Operator Bigglefuzz"
- ]
+ ],
+ "style": 2
 }

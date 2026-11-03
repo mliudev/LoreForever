@@ -15,21 +15,21 @@
   "previous": "",
   "next": ""
  },
- "summary": "Talo Thornhoof was once a seasoned hunter who feared no creature, until harpies ambushed Talo in the forest. The hate has boiled inside ever since, and Talo asks you to take revenge on the Northspring harpies, found to the west.",
+ "summary": "Talo Thornhoof seeks vengeance on the Northspring harpies to the west. Once a hunter who feared no creature, Talo has hated them since they ambushed Talo in the forest.",
  "sections": [
   {
    "title": "An Old Hunter's Grudge",
-   "body": "Talo remembers being a seasoned hunter who feared nothing that lived. Then came a day in the forest, honing a weapon once a hard fight was over, when harpies surrounded Talo. Talo barely dragged to safety, still hears their cries echoing, and was never the same afterward. All this time later the hate still boils, and Talo wants revenge.",
+   "body": "Talo Thornhoof once hunted the wild without fear. After a hard fight, Talo stayed in the forest to hone a weapon. Then harpies closed in, and Talo barely escaped to safety. Their cries still echo in Talo's memory. Talo's life was never the same, and the hatred has endured. Now Talo wants revenge.",
    "spoiler": 0
   },
   {
    "title": "The Northspring Harpies",
-   "body": "The Northspring harpies live to the west. Talo wants four each of the Northspring Harpies, Roguefeathers, Windcallers and Slayers dead. Their wings are black as night, Talo warns, and they can slip out of sight into the darkness.",
+   "body": "The Northspring harpies live to the west. Talo asks you to kill four Northspring Harpies, four Northspring Roguefeathers, four Northspring Windcallers and four Northspring Slayers. Their wings are black as night, Talo warns. They can vanish into the darkness.",
    "spoiler": 0
   },
   {
    "title": "After the Hunt",
-   "body": "Talo, speaking as an old tauren, thanks you and says you have put a troubled mind at peace.",
+   "body": "Talo Thornhoof, an old tauren, thanks you for the hunt. Your work has brought peace to a troubled mind.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives vengeance on the northspring",
     "talo feralas"
    ],
-   "answer": "A seasoned hunter in days past, who feared no creature until harpies ambushed Talo in the forest. Talo was never the same afterward."
+   "answer": "Talo Thornhoof once hunted the wild without fear. Harpies ambushed Talo in the forest, and Talo was never the same afterward."
   },
   {
    "q": "Where are the Northspring harpies located?",
@@ -50,7 +50,7 @@
     "where are northspring harpies",
     "harpy location feralas"
    ],
-   "answer": "To the west of Talo Thornhoof."
+   "answer": "The Northspring harpies live to the west of Talo Thornhoof."
   },
   {
    "q": "Why does Talo want revenge against the harpies?",
@@ -59,7 +59,7 @@
     "talo thornhoof backstory",
     "why talo hates harpies"
    ],
-   "answer": "Harpies ambushed Talo in the forest, surrounding Talo while honing a weapon after a fight, and Talo barely got away. Talo was never the same, and the hate still boils inside."
+   "answer": "After a hard fight, Talo Thornhoof stayed in the forest to hone a weapon. Harpies surrounded Talo, who barely escaped. Talo was never the same and has carried hatred ever since."
   },
   {
    "q": "Which harpies does Talo want killed?",
@@ -68,7 +68,7 @@
     "which harpies to kill",
     "northspring harpy types"
    ],
-   "answer": "Four each of the Northspring Harpies, Northspring Roguefeathers, Northspring Windcallers and Northspring Slayers."
+   "answer": "Talo wants four each of the Northspring Harpies, Northspring Roguefeathers, Northspring Windcallers and Northspring Slayers killed."
   },
   {
    "q": "What do the Northspring harpies look like?",
@@ -76,7 +76,7 @@
     "harpy appearance",
     "northspring harpy wings"
    ],
-   "answer": "Talo says their wings are black as night, and warns that they can vanish into the darkness."
+   "answer": "Talo says the Northspring harpies have wings black as night and can vanish into the darkness."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Classic quest text: Vengeance on the Northspring"
- ]
+ ],
+ "style": 2
 }

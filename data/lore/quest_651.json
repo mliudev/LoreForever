@@ -21,16 +21,16 @@
   ],
   "wiki": null
  },
- "summary": "After The Princess Trapped, a voice from the iridescent shards tells of four Stones of Binding spread across Arathi that hold it down under the ground. The strongest, the Stone of Inner Binding, can be unlocked only with keys taken from the other three.",
+ "summary": "In Arathi, four Stones of Binding hold Myzrael beneath the ground. A voice from the iridescent shards says the strongest stone needs keys from the other three.",
  "sections": [
   {
    "title": "Four Stones",
-   "body": "The voice tells of four Stones of Binding spread across Arathi, holding it down under the ground. To loosen them, the strongest must be unlocked first: the Stone of Inner Binding, which needs keys gathered from the other three, the Stones of West, East and Outer Binding. The keys are the Burning Key, the Cresting Key and the Thundering Key. Guardians watch over the stones, but someone clever or lucky may find a way to banish them. Once gathered, the keys are carried to the Stone of Inner Binding.",
+   "body": "Across Arathi, four stones keep Myzrael beneath the ground, a voice says. The Stone of Inner Binding is strongest, and keys from the Stones of West, East and Outer Binding can unlock it. Gather the Burning Key, the Cresting Key and the Thundering Key. Guardians watch the stones, though someone clever or lucky may find a way to banish them. Carry the keys to the Stone of Inner Binding.",
    "spoiler": 0
   },
   {
    "title": "At the Inner Stone",
-   "body": "The stone carries the voice of Myzrael: the Stones of Binding are open, the shackles are loosening and freedom draws closer. Myzrael hails you as a noble rescuer.",
+   "body": "Myzrael’s voice comes from the stone. The Stones of Binding are open, the shackles are loosening, and freedom draws closer. Myzrael hails you as a noble rescuer.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who gives stones of binding",
     "where to start stones of binding"
    ],
-   "answer": "It comes from the iridescent shards, after The Princess Trapped."
+   "answer": "This step follows The Princess Trapped. Its voice comes from the iridescent shards."
   },
   {
    "q": "What are the four Stones of Binding?",
@@ -51,7 +51,7 @@
     "arathi binding stones",
     "four stones"
    ],
-   "answer": "The Stone of West Binding, the Stone of East Binding, the Stone of Outer Binding and the Stone of Inner Binding, the strongest."
+   "answer": "The four are the Stone of West Binding, the Stone of East Binding, the Stone of Outer Binding and the strongest, the Stone of Inner Binding."
   },
   {
    "q": "Which keys are needed to unlock the inner stone?",
@@ -60,7 +60,7 @@
     "what keys are needed",
     "keys for stone of inner binding"
    ],
-   "answer": "The Burning Key, the Cresting Key and the Thundering Key, gathered from the Stones of West, East and Outer Binding."
+   "answer": "The Burning Key, the Cresting Key and the Thundering Key are gathered from the Stones of West, East and Outer Binding."
   },
   {
    "q": "Who guards the binding stones?",
@@ -78,7 +78,7 @@
     "turn in stones of binding",
     "stone of inner binding location"
    ],
-   "answer": "To the Stone of Inner Binding, the mightiest of them, which has to be unlocked before the others will open."
+   "answer": "Carry the keys to the mightiest stone, the Stone of Inner Binding. It must be unlocked before the others will open."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Classic quest text: Stones of Binding"
- ]
+ ],
+ "style": 2
 }

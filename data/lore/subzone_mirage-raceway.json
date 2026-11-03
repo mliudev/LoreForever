@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mirage Raceway"
  },
- "summary": "The Mirage Raceway is an impromptu engineering proving ground situated in the shimmering salt flats of Thousand Needles. Founded on the heated rivalry between goblin tinkerer Pozzik and gnome engineer Fizzle Brassbolts, it pits high-speed rocket cars against one another across the baked earth. The track serves as a neutral gathering place where members of both the Alliance and Horde come to wager, tinker, and cheer on their favored machines.",
+ "summary": "Rocket cars race across the salt flats at Mirage Raceway. Goblin tinkerer Pozzik and gnome engineer Fizzle Brassbolts test their machines as Horde and Alliance supporters gather to wager and cheer.",
  "sections": [
   {
    "title": "Speed, Salt, and Rivalry",
-   "body": "Sprawled across the vast white desert floor of the Shimmering Flats, the Mirage Raceway was born out of an unrelenting grudge match between two master tinkerers: the goblin Pozzik and the gnome Fizzle Brassbolts. Determined to settle once and for all whose race possesses superior technical ingenuity, the two constructed custom rocket-powered drag cars and recruited rival crews to pit them against each other in daily high-velocity showdowns. The relentless competition has turned the barren flats into a bustling hub of invention, sabotage, and testing as each crew desperately looks for any mechanical advantage.",
+   "body": "Across the white salt flats, Pozzik and Fizzle Brassbolts keep up their fierce rivalry. The goblin tinkerer and gnome engineer each built a rocket-powered drag car, then gathered a crew to race it in daily showdowns. Their contest draws invention, sabotage, and testing to the flats. Each crew hunts for a mechanical advantage.",
    "spoiler": 0
   },
   {
    "title": "A Neutral Crossroads",
-   "body": "The raceway draws supporters from both the Horde and Alliance. Spectators gather from across Kalimdor to cheer on either gnome precision or goblin firepower, while gamblers and shady opportunists thrive on the constant wagers placed on the results. Beyond the roar of rocket thrusters, the camps serve as a busy trading depot for travelers journeying between Thousand Needles and the blazing sands of Tanaris.",
+   "body": "Horde and Alliance supporters gather at the raceway. Spectators cheer for gnome precision or goblin firepower, while gamblers and shady opportunists thrive on wagers over the results. The camps also serve as a busy trading depot for travelers journeying between Thousand Needles and the blazing sands of Tanaris.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "raceway purpose",
     "shimmering flats track"
    ],
-   "answer": "The Mirage Raceway is an open-air rocket-car drag strip laid across the salt flats of Thousand Needles. It was built by rival engineers seeking to prove whether goblin or gnome mechanics are superior."
+   "answer": "Across the salt flats of Thousand Needles, rocket cars race at Mirage Raceway. Rival engineers built the strip to prove whether goblin or gnome mechanics are superior."
   },
   {
    "q": "Who runs the races here?",
@@ -37,7 +37,7 @@
     "fizzle and pozzik",
     "who built this track"
    ],
-   "answer": "The track is maintained jointly by the gnome engineer Fizzle Brassbolts and the goblin tinkerer Pozzik. Each operates a dedicated crew and workshop along the raceway to field competing rocket cars."
+   "answer": "Gnome engineer Fizzle Brassbolts and goblin tinkerer Pozzik maintain the track together. Each has a crew and workshop along the raceway, where they field competing rocket cars."
   },
   {
    "q": "Can Horde and Alliance both use this area?",
@@ -46,7 +46,7 @@
     "can alliance visit",
     "can horde visit"
    ],
-   "answer": "Yes. Supporters from both factions gather at the raceway to cheer for their favorites, wager on races, and aid the rival engineering crews."
+   "answer": "Yes. Horde and Alliance supporters gather at Mirage Raceway to cheer for their favorites, wager on races, and aid the rival engineering crews."
   },
   {
    "q": "Why race out in the salt flats?",
@@ -55,17 +55,17 @@
     "why race on salt",
     "why in shimmering flats"
    ],
-   "answer": "The flat, wide expanse of the Shimmering Flats provides a smooth, unobstructed surface ideal for rocket-propelled vehicles that require miles of room to reach top speeds and safely slow down."
+   "answer": "The Shimmering Flats provide a smooth, wide, open surface. Miles of room let rocket cars reach top speeds and slow down safely."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For tinkerers of any faction, the Raceway represents the ultimate clash between goblin risk-taking and gnomish meticulous design, offering field tests of raw speed, volatile fuel, and experimental vehicle parts."
+   "text": "For tinkerers of any faction, Mirage Raceway brings goblin risk-taking against gnomish meticulous design. Its crews field-test raw speed, volatile fuel, and experimental vehicle parts."
   },
   {
    "target": "race:Gnome",
-   "text": "Fizzle Brassbolts flies the banner of Gnomeregan here, relying on fellow gnomes and allies to prove that disciplined innovation easily outperforms reckless goblin combustion."
+   "text": "As a gnome, you can see Fizzle Brassbolts fly the banner of Gnomeregan here. He relies on fellow gnomes and allies to prove disciplined innovation outperforms reckless goblin combustion."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Mirage Raceway"
- ]
+ ],
+ "style": 2
 }

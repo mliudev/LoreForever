@@ -8,16 +8,16 @@
   "wiki": "Seereth Stonebreak",
   "refs": 4
  },
- "summary": "Near Greatwood Vale, Seereth Stonebreak watches the land's disturbances. The orc shaman camps on the border of the Stonetalon Mountains and the Barrens, guiding travelers against environmental ruin, rogue machines, and rising tensions in Kalimdor.",
+ "summary": "Near Greatwood Vale, Seereth Stonebreak watches the land's troubles. The orc shaman camps on the border of the Stonetalon Mountains and the Barrens, guiding travelers through threats to the wilds and the Horde's presence.",
  "sections": [
   {
    "title": "A Watchful Shaman",
-   "body": "Seereth Stonebreak watches over Horde lands from her camp near Greatwood Vale. An orc shaman, she follows the harmony of the elements and protects the territories of the Horde. The land's spirits cried out against goblin plunder, and the Horde sent her to Stonetalon. There, she watches the landscape and guides travelers against dangers threatening the wild frontier.",
+   "body": "From her camp near Greatwood Vale, Seereth Stonebreak watches over Horde lands. She is an orc shaman who follows the elements' harmony and guards the Horde's territories. When the land's spirits cried out against goblin plunder, the Horde sent her to Stonetalon. Now she watches the landscape and guides travelers through dangers on the wild frontier.",
    "spoiler": 0
   },
   {
    "title": "Turmoil in Stonetalon",
-   "body": "Seereth Stonebreak is troubled by turmoil across the Stonetalon range. Ruthless goblin ventures and mechanical shredders cutting through ancient woodlands have badly fractured the mountains' spiritual balance. She sends Horde envoys to confront the invaders and seek counsel from elder lorekeepers, in hopes of easing the land's distress.",
+   "body": "Across the Stonetalon range, ruthless goblin ventures and mechanical shredders cut through ancient woodlands. Their work has badly shaken the mountains' spiritual balance. Seereth sends Horde envoys to confront the invaders and seek counsel from elder lorekeepers. She hopes their efforts will ease the land's distress.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is seereth",
     "seereth stonebreak lore"
    ],
-   "answer": "Seereth Stonebreak is an orc shaman who serves the Horde. She guides travelers heading toward the Stonetalon Mountains against threats to the land and the Horde's presence."
+   "answer": "Seereth Stonebreak is an orc shaman in the Horde. She guides travelers heading toward the Stonetalon Mountains against threats to the land and the Horde's presence."
   },
   {
    "q": "Why is Seereth concerned about the Stonetalon Mountains?",
@@ -38,7 +38,7 @@
     "seereth problems",
     "stonetalon unrest"
    ],
-   "answer": "The Stonetalon Mountains suffer from rampant deforestation, aggressive goblin logging machinery, and heightened conflict. Seereth senses the local spirits' agitation and works to halt the devastation."
+   "answer": "The Stonetalon Mountains suffer from rampant deforestation, aggressive goblin logging machinery, and rising conflict. Seereth senses the local spirits' agitation and works to halt the devastation."
   },
   {
    "q": "What happened to her original post?",
@@ -47,7 +47,7 @@
     "honors stand seereth",
     "why did seereth move"
    ],
-   "answer": "Seereth's original post remains near Greatwood Vale, on the border of the Stonetalon Mountains and the Barrens. The Horde sent her to Stonetalon, and the camp lies along the road west of the Crossroads."
+   "answer": "Seereth's original post remains near Greatwood Vale, on the border of the Stonetalon Mountains and the Barrens. The Horde sent her to Stonetalon, and her camp lies along the road west of the Crossroads."
   },
   {
    "q": "What tasks does Seereth offer to adventurers?",
@@ -65,7 +65,7 @@
     "who is elder crone",
     "crone quest"
    ],
-   "answer": "The Elder Crone is Magatha Grimtotem, a powerful and influential tauren elder who lives on the Elder Rise in Thunder Bluff. Seereth consults her for guidance on deep spiritual disturbances."
+   "answer": "The Elder Crone is Magatha Grimtotem, a powerful and influential tauren elder who lives on the Elder Rise in Thunder Bluff. Seereth seeks her guidance on deep spiritual disturbances."
   },
   {
    "q": "Why is she concerned with goblin operations?",
@@ -74,7 +74,7 @@
     "goblin invaders",
     "why hate goblins"
    ],
-   "answer": "Seereth is concerned because goblin logging operations use mechanical shredders to tear through sacred forests, pollute waterways, and enrage the nature spirits she is sworn to appease."
+   "answer": "Seereth is troubled because goblin logging operations use mechanical shredders to tear through sacred forests, pollute waterways, and enrage the nature spirits she is sworn to appease."
   }
  ],
  "angles": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Seereth Stonebreak"
  ],
- "style": 1
+ "style": 2
 }

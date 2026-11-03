@@ -31,21 +31,21 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "In Tarren Mill, Krusk has found where Gol'dir is held. The documents point to a large Syndicate base up north, possibly in the Alterac Mountains, and Gol'dir has been captive too long.",
+ "summary": "In Tarren Mill, Krusk has found where Gol'dir is held. The documents point north to a large Syndicate base, perhaps in the Alterac Mountains, and Gol'dir has been captive too long.",
  "sections": [
   {
    "title": "A Trail to the North",
-   "body": "In Tarren Mill, Krusk has studied the documents you brought back after Infiltration. They point to a large Syndicate base up north, possibly in the Alterac Mountains. Gol'dir has been held too long, and Krusk wants him freed.",
+   "body": "In Tarren Mill, Krusk studies the documents you brought back after Infiltration. They point to a large Syndicate base up north, perhaps in the Alterac Mountains. Gol'dir has been held too long, and Krusk wants him freed.",
    "spoiler": 0
   },
   {
    "title": "The Inn at Strahnbrad",
-   "body": "Gol'dir is held in the top room of the inn at Strahnbrad, where Syndicate fill the building. A Rusted Iron Key opens the lock. Jailor Borhuin carries it and may be in any building in town.",
+   "body": "Syndicate fill the inn at Strahnbrad, where Gol'dir is held in the top room. A Rusted Iron Key opens the lock. Jailor Borhuin carries it and may be in any building in town.",
    "spoiler": 0
   },
   {
    "title": "What Gol'dir Says",
-   "body": "Gol'dir says the Warchief's orders sent him leading an expedition out of Durotar, but the plans went awry. The Syndicate kept him in Strahnbrad, forcing him to haul burdens and dig. He brushes aside his suffering; important information must reach whoever now leads the group.",
+   "body": "Gol'dir says the Warchief's orders sent him from Durotar at the head of an expedition, but the plans went awry. The Syndicate kept him in Strahnbrad, where they forced him to haul burdens and dig.\n\nGol'dir brushes aside his suffering. Important information must reach whoever now leads the group.",
    "spoiler": 1
   }
  ],
@@ -66,7 +66,7 @@
     "where is goldir",
     "find goldir"
    ],
-   "answer": "Gol'dir is imprisoned in the top room of the inn at Strahnbrad, which is packed with Syndicate."
+   "answer": "Gol'dir is imprisoned in the top room of the inn at Strahnbrad, where Syndicate fill the building."
   },
   {
    "q": "How is Gol'dir's lock opened?",
@@ -110,5 +110,5 @@
  "attribution": [
   "Gol'dir (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Pirate"
  },
- "summary": "Pirates and buccaneers are lawless seafaring plunderers operating across the Great Sea and coastal waters of Azeroth. Preying on Alliance, Horde, and neutral merchant vessels alike, they band together under loose flags to seize wealth, capture cargo, and control coastal coves. Their violent presence drives constant naval skirmishes from the waters of Kalimdor to the shores of the Eastern Kingdoms.",
+ "summary": "Across Azeroth's seas, pirates prey on ships from every shore. Their crews strike Alliance, Horde, and neutral merchant vessels across the Great Sea and coastal waters. They gather under loose flags to seize wealth, cargo, and coves, sparking naval fights from Kalimdor to the Eastern Kingdoms.",
  "sections": [
   {
    "title": "Lords of the High Seas",
-   "body": "Pirates\u2014often called buccaneers, corsairs, or freebooters\u2014are maritime raiders of nearly every race who make their living seizing ships and raiding coastal settlements. Their operations stretch far beyond simple robbery; crews regularly engage in smuggling, kidnappings, and mercenary contracts for whoever has coin. With the chaos left behind by the Third War and the collapse of northern kingdoms, naval enforcement has fractured, giving pirate factions the freedom to carve out fortified footholds on neglected islands and coastal coves.",
+   "body": "Pirate crews roam Azeroth's seas, raiding ships and coastal settlements. They are called buccaneers, corsairs, or freebooters, and nearly every race joins their ranks. Their work ranges from smuggling and kidnappings to mercenary contracts for anyone with coin. After the Third War and the collapse of northern kingdoms, naval enforcement fractured. Pirates seized the chance to build fortified footholds on neglected islands and in coastal coves.",
    "spoiler": 0
   },
   {
    "title": "A Ruthless Life",
-   "body": "Despite common tales painting pirate life as one of romantic adventure, life aboard a buccaneer vessel is brutal and short. Crews endure squalid, rat-infested holds, harsh discipline, and the ever-present threat of scurvy, fought off only with supplies of limes. Betrayal is an everyday hazard, and captains maintain their command solely through strength and fear of punishment, which ranges from immediate execution to being marooned or fed to sharks. When battles end, buccaneers celebrate with roaring bouts of dice, song, and heavy rum.",
+   "body": "Life aboard a buccaneer vessel is brutal and often short. Crews endure squalid, rat-infested holds and harsh discipline, while supplies of limes hold scurvy at bay. Betrayal is common, and captains keep command through strength and fear of punishment. A sailor might face execution, marooning, or be fed to sharks. After battle, buccaneers celebrate with dice, song, and heavy rum.",
    "spoiler": 0
   },
   {
    "title": "Factions and Havens",
-   "body": "While independent crews roam every sea lane, major organizations wield enough ships to contest sovereign navies. The Southsea Freebooters harass shipping throughout the waters surrounding Kalimdor, while the notorious Bloodsail Buccaneers menace the southern seas and wage open war against the Steamwheedle Cartel in Booty Bay.",
+   "body": "Independent crews roam every sea lane, while larger organizations command enough ships to challenge sovereign navies. The Southsea Freebooters harass shipping in the waters around Kalimdor. The Bloodsail Buccaneers menace the southern seas and wage open war against the Steamwheedle Cartel in Booty Bay.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "freebooter difference",
     "pirate titles"
    ],
-   "answer": "The titles are largely used interchangeably along the sea lanes of Azeroth. While some groups prefer particular banners\u2014such as the Southsea Freebooters or the Bloodsail Buccaneers\u2014they all engage in maritime raiding, robbery, smuggling, and coastal plundering."
+   "answer": "Along Azeroth's sea lanes, pirate, buccaneer, and freebooter are largely interchangeable names. Some crews favor particular banners, such as the Southsea Freebooters or Bloodsail Buccaneers. All raid at sea, smuggle, rob, and plunder the coast."
   },
   {
    "q": "Where are the main pirate bases located?",
@@ -42,7 +42,7 @@
     "where do pirates live",
     "pirate ports"
    ],
-   "answer": "Pirate crews congregate in lawless anchorages and hidden harbors across the world. Major havens include Plunder Isle and coastal camps scattered throughout the shores of Tanaris, the Barrens, and Stranglethorn Vale."
+   "answer": "Pirate crews gather in lawless anchorages and hidden harbors around the world. Their main havens include Plunder Isle and coastal camps along Tanaris, the Barrens, and Stranglethorn Vale."
   },
   {
    "q": "Who do pirates attack?",
@@ -50,7 +50,7 @@
     "who do pirates target",
     "are pirates alliance or horde"
    ],
-   "answer": "Most pirate crews are indiscriminate predators. They hunt merchant vessels, civilian transports, and military supply craft belonging to the Alliance, the Horde, and the neutral Steamwheedle Cartel alike. Any ship laden with gold, timber, or trade goods is a potential target."
+   "answer": "Most pirate crews prey on almost anyone. They hunt merchant vessels, civilian transports, and military supply craft belonging to the Alliance, Horde, and neutral Steamwheedle Cartel. Any ship carrying gold, timber, or trade goods may draw their attack."
   },
   {
    "q": "How do pirate crews recruit new members?",
@@ -58,7 +58,7 @@
     "joining pirates",
     "how do they get crew"
    ],
-   "answer": "Pirates expand their numbers by hiring desperate cutthroats and mercenaries in port towns, but they also rely heavily on press-ganging. Captured sailors and travelers are frequently given the choice between swearing fealty to the crew or being cast into the sea."
+   "answer": "Pirate crews hire desperate cutthroats and mercenaries in port towns, and they also press people into service. Captured sailors and travelers are often forced to choose between swearing fealty to the crew and being cast into the sea."
   },
   {
    "q": "How does Kul Tiras deal with pirates?",
@@ -66,7 +66,7 @@
     "kul tiras piracy",
     "kul tiran pirate law"
    ],
-   "answer": "After the Second War, Kul Tiran fleets patrolled the trade lanes, hunting pirates and marauders on the high seas."
+   "answer": "Since the Second War, Kul Tiran fleets have patrolled trade lanes, hunting pirates and marauders on the high seas."
   },
   {
    "q": "Are there non-human pirates?",
@@ -74,25 +74,25 @@
     "orc pirates",
     "goblin pirates"
    ],
-   "answer": "Yes. While human crews are common, buccaneer crews accept anyone willing to raid and follow orders. Crews include orcs, goblins, trolls, and dwarves."
+   "answer": "Yes. Human crews are common, but buccaneers accept anyone willing to raid and follow orders. Their crews include orcs, goblins, trolls, and dwarves."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The cutthroat tactics, blinding powder, and swift blade work of pirate crews closely mirror the practical, lethal fighting styles favored by roguish mercenaries."
+   "text": "Pirate crews use cutthroat tactics, blinding powder, and swift blade work, much like the practical and lethal methods favored by roguish mercenaries."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance transport lines between Stormwind, Ironforge, and Theramore are under constant threat from buccaneers who prowl coastal trade routes."
+   "text": "Buccaneers prowl coastal trade routes, putting Alliance transports between Stormwind, Ironforge, and Theramore under constant threat."
   },
   {
    "target": "faction:Horde",
-   "text": "The Southsea Freebooters maintain aggressive encampments along the coast of Durotar and the Barrens, raiding Horde caravans and landing parties."
+   "text": "The Southsea Freebooters keep aggressive camps along the Durotar and Barrens coasts, raiding Horde caravans and landing parties."
   },
   {
    "target": "race:Tauren",
-   "text": "Though plains dwellers by tradition, some tauren traveling Kalimdor's shores have ended up aboard pirate vessels, either impressed into crews or seeking fortune."
+   "text": "Tauren traditionally dwell on the plains, but some traveling along Kalimdor's shores have ended up aboard pirate vessels, pressed into crews or seeking fortune."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Pirate"
- ]
+ ],
+ "style": 2
 }

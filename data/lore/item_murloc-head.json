@@ -10,11 +10,11 @@
    "quest:559"
   ]
  },
- "summary": "Along the Western Strand, Murloc Head is grim proof of a threat Southshore wants brought under control. Lieutenant Farren Orinelle collects the severed heads for Marshal Redpath, who requires evidence of the murlocs being culled.",
+ "summary": "Along the Western Strand, Murloc Head gives Southshore grim proof of a threat it wants controlled. Lieutenant Farren Orinelle gathers the severed heads for Marshal Redpath, who demands evidence that the murlocs are being culled.",
  "sections": [
   {
    "title": "A Grislier Kind of Proof",
-   "body": "Southshore's fishermen and coastal travelers face an immediate threat from aggressive murlocs along the Western Strand. Alliance fighters often clear the beaches, but Marshal Marcus Redpath wants proof before he approves reports of the threat being reduced. Lieutenant Farren Orinelle hires fighters to bring him murloc heads. Farren finds the work repulsive, and the sight has spoiled his appetite for Southshore's seafood.",
+   "body": "Aggressive murlocs threaten Southshore's fishermen and travelers on the Western Strand. Alliance fighters often clear the beaches, but Marshal Marcus Redpath wants proof before approving reports that the threat has been reduced.\n\nSo Lieutenant Farren Orinelle hires fighters to bring him murloc heads. Farren finds the work repulsive, and the sight has spoiled his appetite for Southshore's seafood.",
    "spoiler": 0
   }
  ],
@@ -84,5 +84,5 @@
   "Murloc Head",
   "Farren's Proof"
  ],
- "style": 1
+ "style": 2
 }

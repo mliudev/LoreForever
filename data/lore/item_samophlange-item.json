@@ -10,16 +10,16 @@
    "quest:902"
   ]
  },
- "summary": "In the Barrens, Samophlange is hidden inside an automated control console. Goblin mechanics cannot explain what the strange component does.",
+ "summary": "In the Barrens, Samophlange remains hidden in an automated control console. Goblin mechanics cannot explain what the strange component does.",
  "sections": [
   {
    "title": "A Baffling Contraption",
-   "body": "Samophlange lies inside a control console in the Barrens, behind a maze of wiring and hollow tubes. It takes careful searching to free the component from its housing. It looks like a vital part of clockwork and steam machinery, but goblin tinkerers cannot make sense of its purpose. They mean to send it to the Tinkers' Union in Undermine, though the fragile piece may not survive rough handling.",
+   "body": "Samophlange lies within a Barrens control console, behind a maze of wiring and hollow tubes. Careful searching is needed to free it from its housing. It looks vital to clockwork and steam machinery, yet goblin tinkerers cannot learn its purpose. They plan to send it to the Tinkers' Union in Undermine, though rough handling may break the fragile piece.",
    "spoiler": 0
   },
   {
    "title": "Curiosity and Catastrophe",
-   "body": "Sputtervalve, an engineer in Ratchet, plans to send Samophlange to senior minds in the Tinkers' Union for study. Goblin curiosity gets in the way of that plan. When Sputtervalve sets the delicate device down to examine its inner workings, it often shatters into scrap.",
+   "body": "Sputtervalve, an engineer in Ratchet, plans to send Samophlange to the senior minds of the Tinkers' Union for study. Yet goblin curiosity often upends that plan. When Sputtervalve sets the delicate device down to examine its inner workings, it shatters into scrap.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "who needs the samophlange",
     "who do i give the samophlange to"
    ],
-   "answer": "Sputtervalve, an engineer in Ratchet, wants Samophlange brought to him so he can study it and send it to the Tinkers' Union."
+   "answer": "Sputtervalve, an engineer in Ratchet, wants Samophlange brought to him for study. He plans to send it to the Tinkers' Union."
   },
   {
    "q": "What does Sputtervalve do with it?",
@@ -47,7 +47,7 @@
     "sputtervalve samophlange",
     "what happens to the samophlange"
    ],
-   "answer": "Sputtervalve plans to send Samophlange to Undermine for study by the Tinkers' Union. He sets it down to inspect it first, and the fragile mechanism breaks."
+   "answer": "Sputtervalve plans to send Samophlange to Undermine for study by the Tinkers' Union. First, he sets it down to inspect it, and the fragile mechanism breaks."
   },
   {
    "q": "Where did the samophlange come from?",
@@ -55,7 +55,7 @@
     "samophlange location",
     "where is it found"
    ],
-   "answer": "Samophlange is housed inside an operating console in the northern Barrens, behind layers of confusing, seemingly useless machinery."
+   "answer": "Samophlange is housed inside an operating console in the northern Barrens, behind layers of confusing machinery that seem to serve no purpose."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
   "Samophlange (item)",
   "Samophlange (Classic 4)"
  ],
- "style": 1
+ "style": 2
 }

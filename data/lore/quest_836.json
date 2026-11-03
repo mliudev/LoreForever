@@ -24,16 +24,16 @@
    "Oglethorpe's Homing Robots"
   ]
  },
- "summary": "After the beacon has stirred the fallen homing robot, Oglethorpe Obnoticus speaks from the robot itself. OOX-09/HL needs an open, safe place to begin its take-off, so it is to be escorted to the shoreline beyond Overlook Cliff, and then Oglethorpe waits in Booty Bay.",
+ "summary": "Beyond Overlook Cliff, OOX-09/HL needs your help reaching the shore. Oglethorpe Obnoticus speaks through the fallen robot and asks you to escort it there. He waits in Booty Bay afterward.",
  "sections": [
   {
    "title": "A Walk to the Shore",
-   "body": "Oglethorpe's voice crackles from the robot again. The machine needs an open, safe place to begin a lengthy take-off procedure, and the shoreline beyond Overlook Cliff will do nicely. Its built-in cloaking cannot be used yet, and Oglethorpe needs time to make it operational again.",
+   "body": "Oglethorpe's voice crackles from the robot again. OOX-09/HL needs an open, safe place for its lengthy take-off procedure, and the shoreline beyond Overlook Cliff will do. Its built-in cloaking cannot yet be used. Oglethorpe needs time to make it work again.",
    "spoiler": 0
   },
   {
    "title": "Word in Booty Bay",
-   "body": "Once the robot has been brought safely to the shore, Oglethorpe Obnoticus asks you to come and talk in Booty Bay.",
+   "body": "When OOX-09/HL reaches the shore safely, Oglethorpe Obnoticus asks you to speak with him in Booty Bay.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "hinterlands chicken escort destination",
     "overlook cliff shore"
    ],
-   "answer": "OOX-09/HL is to be taken to the shoreline beyond Overlook Cliff, an open place where it can start its take-off."
+   "answer": "Take OOX-09/HL to the shoreline beyond Overlook Cliff. There, it has room to begin its take-off."
   },
   {
    "q": "Who is responsible for creating this homing robot?",
@@ -54,7 +54,7 @@
     "oox creator",
     "who built the chicken"
    ],
-   "answer": "The robot is the work of the gnome Oglethorpe Obnoticus, who is in Booty Bay."
+   "answer": "The gnome Oglethorpe Obnoticus created the robot. He is in Booty Bay."
   },
   {
    "q": "Why can't the robot simply take off where it was found?",
@@ -62,7 +62,7 @@
     "why does the chicken walk",
     "why escort oox-09"
    ],
-   "answer": "Its take-off procedure is lengthy and needs an open, safe place. Meanwhile Oglethorpe needs time to make its cloaking operational again."
+   "answer": "The lengthy take-off needs an open, safe place. Oglethorpe also needs time to make the robot's cloaking work again."
   },
   {
    "q": "Where do you go once the escort reaches the shore?",
@@ -71,7 +71,7 @@
     "who do i report to",
     "oglethorpe location"
    ],
-   "answer": "Oglethorpe Obnoticus asks to be seen in Booty Bay once the robot is safely at the shore."
+   "answer": "Once OOX-09/HL is safely at the shore, Oglethorpe Obnoticus asks you to meet him in Booty Bay."
   },
   {
    "q": "What came before this escort?",
@@ -79,7 +79,7 @@
     "oox-09 previous quest",
     "prerequisite for rescue oox-09"
    ],
-   "answer": "It follows Find OOX-09/HL!, in which the distress beacon was carried to the crashed robot."
+   "answer": "This follows Find OOX-09/HL!, when you carried the distress beacon to the crashed robot."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Wowpedia: Rescue OOX-09/HL!"
- ]
+ ],
+ "style": 2
 }

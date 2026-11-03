@@ -27,16 +27,16 @@
    "Bloodsail Buccaneers"
   ]
  },
- "summary": "First Mate Crazz has learned that the Bloodsail Buccaneers intend to launch an assault against Booty Bay. The scale of the threat demands the attention of the Blackwater Raiders' commander, Fleet Master Seahorn, who needs to hear the warning immediately.",
+ "summary": "First Mate Crazz has learned that the Bloodsail Buccaneers mean to strike Booty Bay. He sends you to warn Fleet Master Seahorn, commander of the Blackwater Raiders, before they move.",
  "sections": [
   {
    "title": "A Warning for the Fleet Master",
-   "body": "Upon discovering that the Bloodsail Buccaneers scheme to strike Booty Bay directly, First Mate Crazz decides it is bigger than he thought. He directs you to seek out Fleet Master Seahorn, who is somewhere in the port town, and inform him of the brewing assault before the rival pirates can make their move.",
+   "body": "First Mate Crazz sends you to warn Fleet Master Seahorn of an attack on Booty Bay. Crazz has learned the Bloodsail Buccaneers mean to strike the port directly, and the threat is greater than he first thought. Seahorn is somewhere in town. He must hear the warning before the rival pirates move.",
    "spoiler": 0
   },
   {
    "title": "Seahorn's Defiance",
-   "body": "When presented with the report of the planned strike, Fleet Master Seahorn scoffs at the rival pirates' ambition, declaring an attack on Booty Bay as foolish as leaping from the Overlook Cliffs. Even so, he acknowledges the value of the intelligence and thanks you on behalf of the Blackwater Raiders.",
+   "body": "Fleet Master Seahorn dismisses the Bloodsail Buccaneers' plan to attack Booty Bay. He says it is as foolish as leaping from the Overlook Cliffs. Still, he sees the worth of your warning and thanks you on behalf of the Blackwater Raiders.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "first mate crazz quest",
     "bloodsail buccaneers quest giver"
    ],
-   "answer": "First Mate Crazz sends you to warn Seahorn after learning the extent of the Bloodsail Buccaneers' hostile plans against the port."
+   "answer": "First Mate Crazz sends you to warn Fleet Master Seahorn after learning how far the Bloodsail Buccaneers' hostile plans reach."
   },
   {
    "q": "Where can Fleet Master Seahorn be found?",
@@ -57,7 +57,7 @@
     "seahorn location",
     "fleet master seahorn town"
    ],
-   "answer": "Fleet Master Seahorn is stationed within the pirate haven of Booty Bay in southern Stranglethorn Vale."
+   "answer": "Fleet Master Seahorn is in Booty Bay, the pirate haven in southern Stranglethorn Vale."
   },
   {
    "q": "What is the Bloodsail Buccaneers' scheme?",
@@ -66,7 +66,7 @@
     "bloodsail attack plan",
     "bloodsail buccaneers plot"
    ],
-   "answer": "The Bloodsail Buccaneers are preparing an outright attack against Booty Bay, challenging the Blackwater Raiders' rule over the town."
+   "answer": "The Bloodsail Buccaneers are preparing an outright attack on Booty Bay, challenging the Blackwater Raiders' rule over the town."
   },
   {
    "q": "Which faction controls Booty Bay?",
@@ -74,7 +74,7 @@
     "who runs booty bay",
     "booty bay pirates faction"
    ],
-   "answer": "Booty Bay is held and operated by the Blackwater Raiders, who fiercely protect the port from their Bloodsail rivals."
+   "answer": "The Blackwater Raiders hold and operate Booty Bay, and fiercely protect the port from their Bloodsail rivals."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "The Bloodsail Buccaneers (3)"
- ]
+ ],
+ "style": 2
 }

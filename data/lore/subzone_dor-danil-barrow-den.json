@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dor'Danil Barrow Den"
  },
- "summary": "In central Ashenvale, south of Splintertree Post, Dor'Danil Barrow Den lies under Forsaken shadow. Druids once slept here while their spirits roamed the Emerald Dream, but now the sanctuary is filled with horror.",
+ "summary": "South of Splintertree Post, Dor'Danil Barrow Den lies under Forsaken shadow. Druids once slept here while their spirits roamed the Emerald Dream. Now horror fills the sanctuary.",
  "sections": [
   {
    "title": "A Sanctuary Desecrated",
-   "body": "Night elven druids have slept for centuries in barrow dens across Kalimdor, their bodies sheltered underground as their spirits traveled the Emerald Dream. When the Horde pushed into Ashenvale, Dor'Danil lay deep behind enemy lines. The orcs mostly left the sleeping elves alone, but the newly allied Forsaken saw an opportunity. Their agents entered the depths and began experiments to sever the druids from their spirits. The ordeal fractured the dreamers' minds and drove them mad. Now sinister Forsaken assassins prowl the dark hollows, alongside the tormented spirits of druids who cannot return to their bodies.",
+   "body": "For centuries, night elven druids have slept in barrow dens across Kalimdor. Their bodies rest underground while their spirits travel the Emerald Dream. When the Horde pushed into Ashenvale, Dor'Danil lay deep behind enemy lines. The orcs mostly left the sleeping elves alone, but the newly allied Forsaken saw an opportunity. Their agents entered the depths and began experiments to sever the druids from their spirits.\n\nThe ordeal fractured the dreamers' minds and drove them mad. Now sinister Forsaken assassins prowl the dark hollows. The tormented spirits of druids who cannot return to their bodies haunt them too.",
    "spoiler": 0
   },
   {
    "title": "The Tormented Guardians",
-   "body": "Deep in Dor'Danil's tunnels, three druidic spirits wander in madness: Uthil Mooncall, Mavoris Cloudsbreak, and Taneel Darkwood. Darkslayer Mordenthal, a Forsaken agent, stalks the den as well. For night elves and their Cenarion Circle allies, laying the anguished spirits to rest is a grim mercy. The Forsaken presence also shows the ruthless, morbid curiosity Sylvanas's agents bring to Kalimdor's conflicts.",
+   "body": "Deep in Dor'Danil's tunnels, three druidic spirits wander in madness: Uthil Mooncall, Mavoris Cloudsbreak, and Taneel Darkwood. Darkslayer Mordenthal, a Forsaken agent, stalks the den as well. For night elves and their Cenarion Circle allies, laying the anguished spirits to rest is a grim mercy.\n\nThe Forsaken presence shows the ruthless, morbid curiosity Sylvanas's agents bring to Kalimdor's conflicts.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "dor danil barrow den info",
     "dor'danil lore"
    ],
-   "answer": "Dor'Danil Barrow Den lies underground in Ashenvale, south of Splintertree Post and southwest of Felfire Hill. Druids once slept here in deep trances, their bodies sheltered as their spirits entered the Emerald Dream."
+   "answer": "Dor'Danil Barrow Den lies underground in Ashenvale, south of Splintertree Post and southwest of Felfire Hill. Druids once slept here in deep trances, their bodies sheltered while their spirits entered the Emerald Dream."
   },
   {
    "q": "Why are the druid spirits inside hostile and insane?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Dor'Danil Barrow Den"
  ],
- "style": 1
+ "style": 2
 }

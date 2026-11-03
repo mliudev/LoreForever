@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mosh'Ogg Ogre Mound"
  },
- "summary": "The Mosh'Ogg Ogre Mound is a fortified cavern complex in northern Stranglethorn Vale, situated just south of the ruins of Zul'Gurub. It serves as the primary stronghold for the brute Mosh'Ogg tribe in the jungle, dominated by their ruthless ogre mage chieftain, Mai'Zoth.",
+ "summary": "In northern Stranglethorn Vale, Mosh'Ogg Ogre Mound lies south of Zul'Gurub's ruins. The Mosh'Ogg tribe holds its fortified caverns under Mai'Zoth, their ruthless ogre mage chieftain.",
  "sections": [
   {
    "title": "A Den of Ogres",
-   "body": "Carved into the rugged jungle ridges south of Zul'Gurub, the Mosh'Ogg Ogre Mound swarms with brutish Mosh'Ogg maulers, shamans, and warmongers. The ogres seized the cavernous network as an ideal redoubt against hostile jungle trolls and prowling beasts.",
+   "body": "Mosh'Ogg ogres fill the jungle caverns south of Zul'Gurub. Maulers, shamans, and warmongers guard the twisting passages. The tribe seized the ridges as a refuge from hostile jungle trolls and prowling beasts.",
    "spoiler": 0
   },
   {
    "title": "Mai'Zoth and the Mind's Eye",
-   "body": "Deep within the twisting interior of the mound presides Mai'Zoth, the formidable two-headed ogre mage who commands the Mosh'Ogg clan. In his possession is the Mind's Eye, a potent and dangerous arcane relic that enhances his mental and sorcerous grip over his followers. Mai'Zoth's mastery over magic and raw brute force makes entering the deepest reaches of the mound a peril for any traveler braving northern Stranglethorn.",
+   "body": "Mai'Zoth commands the Mosh'Ogg clan from deep within the mound. The formidable chieftain has two heads and practices ogre magic. He holds the Mind's Eye, a potent and dangerous arcane relic. Its power strengthens his hold over his followers through mind and sorcery. His magic and brute force make the mound's deepest reaches perilous for travelers in northern Stranglethorn.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "mosh'ogg inhabitants",
     "ogre mound monsters"
    ],
-   "answer": "The mound is inhabited by the Mosh'Ogg ogre tribe, including their warriors, maulers, shamans, and warmongers. They are ruled from deep within the cavern by their two-headed ogre mage chieftain, Mai'Zoth."
+   "answer": "The Mosh'Ogg ogre tribe lives in the mound, including warriors, maulers, shamans, and warmongers. Their two-headed ogre mage chieftain, Mai'Zoth, rules from deep within the cavern."
   },
   {
    "q": "What is the Mind's Eye?",
@@ -37,7 +37,7 @@
     "mind's eye relic",
     "minds eye"
    ],
-   "answer": "The Mind's Eye is a potent magical artifact held by the ogre mage Mai'Zoth within the mound. Its strange arcane power fuels his sorcery and leadership over the local ogres."
+   "answer": "The Mind's Eye is a potent magical artifact held by Mai'Zoth inside the mound. Its arcane power fuels his sorcery and his command over the local ogres."
   },
   {
    "q": "Where is the mound located?",
@@ -46,13 +46,13 @@
     "ogre mound location",
     "how to find ogre mound"
    ],
-   "answer": "The mound is situated in northern Stranglethorn Vale, nestled in the hills just south of the entrance to the troll city of Zul'Gurub."
+   "answer": "The mound lies in northern Stranglethorn Vale, in the hills just south of Zul'Gurub's entrance."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The ogre mage Mai'Zoth wields the Mind's Eye deep within the mound, possessing raw arcane energy unusual for brute ogres."
+   "text": "As a mage, you can see Mai'Zoth wielding the Mind's Eye deep within the mound. Its raw arcane energy is unusual for brute ogres."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Mosh'Ogg Ogre Mound"
- ]
+ ],
+ "style": 2
 }

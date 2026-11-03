@@ -17,16 +17,16 @@
   "wiki": "Beached Sea Turtle (3)",
   "chain": []
  },
- "summary": "Along Darkshore’s northern shore, Beached Sea Turtle remains untouched by nearby Greymist murlocs. A sample is carried to Gwennyth Bly'Leggonde in Auberdine for the Temple of the Moon. Naturalists and priestesses seek to learn why great sea creatures wash ashore and scavengers leave them alone.",
+ "summary": "Along Darkshore’s northern shore, a Beached Sea Turtle lies untouched by nearby Greymist murlocs. A sample goes to Gwennyth Bly'Leggonde in Auberdine for the Temple of the Moon. Naturalists and priestesses seek to learn why great sea creatures wash ashore and scavengers leave them alone.",
  "sections": [
   {
    "title": "A Curious Absence",
-   "body": "Greymist murlocs crowd Darkshore’s northern coast and scavenge whatever food washes up from the Veiled Sea. Yet the great turtle’s skeleton lies mostly untouched. Those studying the shore wonder whether the murlocs missed it or avoided it for some unknown reason.",
+   "body": "Greymist murlocs crowd Darkshore’s northern coast and scavenge food washed up from the Veiled Sea. Yet the great turtle’s bones lie mostly untouched. Those who study the shore wonder whether the murlocs missed it or avoid it for some unknown reason.",
    "spoiler": 0
   },
   {
    "title": "Study of the Shoreline",
-   "body": "In Auberdine, Gwennyth Bly'Leggonde gathers samples from beached sea turtles for the Temple of the Moon. The night elf priestesses study the disturbances in Darkshore’s waters. Skeletal fragments may help them learn whether sickness, magic, or dangerous sea predators are killing the ancient creatures.",
+   "body": "In Auberdine, Gwennyth Bly'Leggonde gathers samples from beached sea turtles for the Temple of the Moon. The night elf priestesses study disturbances in Darkshore’s waters. Skeletal fragments may help them learn whether sickness, magic, or dangerous sea predators are killing the ancient creatures.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "sea turtle skeleton",
     "what is this turtle"
    ],
-   "answer": "It is the skeletal remains of an ancient sea turtle washed ashore in northern Darkshore. Its unusual presence and the lack of scavengers have drawn the night elves’ attention."
+   "answer": "The remains of an ancient sea turtle have washed ashore in northern Darkshore. Its unusual presence and the absence of scavengers have drawn the night elves’ attention."
   },
   {
    "q": "Why are the murlocs avoiding the carcass?",
@@ -47,7 +47,7 @@
     "greymist murlocs turtle",
     "why avoid carcass"
    ],
-   "answer": "Greymist murlocs usually scavenge beach carcasses, but they have left these remains alone. No one knows whether they missed it or are avoiding it for an unknown reason. Gwennyth finds their absence worth remembering as the remains are studied."
+   "answer": "Greymist murlocs usually scavenge beach carcasses, but they have left these remains alone. No one knows whether they missed the turtle or avoid it for an unknown reason. Gwennyth considers their absence worth remembering as the remains are studied."
   },
   {
    "q": "Who is Gwennyth Bly'Leggonde?",
@@ -56,7 +56,7 @@
     "who wants turtle remains",
     "turtle quest turn in"
    ],
-   "answer": "Gwennyth Bly'Leggonde is a night elf researcher in Auberdine who gathers samples of Darkshore’s beached sea life for the Temple of the Moon."
+   "answer": "Gwennyth Bly'Leggonde is a night elf researcher in Auberdine. She gathers samples of Darkshore’s beached sea life for the Temple of the Moon."
   },
   {
    "q": "Why does the Temple of the Moon care about beached sea creatures?",
@@ -65,7 +65,7 @@
     "why study turtles",
     "elune marine life"
    ],
-   "answer": "The Temple of the Moon studies beached sea creatures because they are dying in unusual numbers along Darkshore. Its priestesses analyze samples to find what is harming the seas."
+   "answer": "The Temple of the Moon studies beached sea creatures because unusual numbers are dying along Darkshore. Its priestesses examine samples to learn what is harming the seas."
   },
   {
    "q": "Where is this particular sea turtle located?",
@@ -74,7 +74,7 @@
     "beached sea turtle location",
     "turtle darkshore"
    ],
-   "answer": "The carcass rests on Darkshore’s northern coast, near territory inhabited by Greymist murloc tribes."
+   "answer": "The carcass lies on Darkshore’s northern coast, near territory inhabited by Greymist murloc tribes."
   },
   {
    "q": "Are there other beached creatures along Darkshore?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see unexplained deaths and scavengers avoiding sea creatures along Darkshore, signs of growing imbalance in kaldorei lands."
+   "text": "As a night elf, you see unexplained deaths and scavengers avoiding sea creatures along Darkshore. These signs point to a growing imbalance in kaldorei lands."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you watch the coastline closely. Murlocs leaving the dead untouched may signal an unnatural taint in the waters."
+   "text": "As a druid, you watch the coastline closely. Murlocs leaving the dead untouched may point to an unnatural taint in the waters."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you extend Elune’s care to all living things and investigate deaths that disturb nature’s balance."
+   "text": "As a priest, you extend Elune’s care to all living things. You investigate deaths that disturb nature’s balance."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Beached Sea Turtle (3)"
  ],
- "style": 1
+ "style": 2
 }

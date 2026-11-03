@@ -24,16 +24,16 @@
   ],
   "category": "Badlands"
  },
- "summary": "Gorn sends you to Lethlor Ravine in the far eastern Badlands, where the black drakes Blacklash and Hematus lie bound by the Seal of the Earth. This follows the first Broken Alliances.",
+ "summary": "Gorn sends you east into Lethlor Ravine to free two black drakes bound by the Seal of the Earth. This follows the first Broken Alliances.",
  "sections": [
   {
    "title": "Three Runestones",
-   "body": "Three runestones keep the Seal of the Earth closed. Each rests in a pillar of Lethlor Ravine: Diamond, Opal and Amethyst. The Sign of the Earth, which Gorn gives you, draws the stones out and opens the seal. Countless drakes make their home in the ravine, and Blacklash and Hematus are formidable. Gorn wants both dead, and their bindings brought back.",
+   "body": "Three runestones keep the Seal of the Earth closed, one in each of Lethlor Ravine’s Diamond, Opal and Amethyst pillars. Gorn gives you the Sign of the Earth, which draws the stones out and opens the seal.\n\nCountless drakes live in the ravine, and Blacklash and Hematus are formidable foes. Gorn wants both dead, with their bindings brought back to him.",
    "spoiler": 0
   },
   {
    "title": "What Gorn Makes of It",
-   "body": "Gorn says the black dragonflight still stands allied with the renegade Blackrock orcs, and that dragons and orcs alike must be reined in or cast out. Once Blacklash and Hematus are dead, the Horde can look westward toward Blackrock Spire.",
+   "body": "Gorn says the black dragonflight remains allied with the renegade Blackrock orcs. He believes dragons and orcs alike must be reined in or cast out. With Blacklash and Hematus dead, the Horde can look west toward Blackrock Spire.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "gorn location",
     "who gives broken alliances"
    ],
-   "answer": "Gorn gives it, as the next step after the first Broken Alliances."
+   "answer": "Gorn sends you into Lethlor Ravine, as the next step after the first Broken Alliances."
   },
   {
    "q": "Where is Lethlor Ravine located?",
@@ -54,7 +54,7 @@
     "how to get to lethlor ravine",
     "where is lethlor ravine"
    ],
-   "answer": "Travel to the far eastern end of the Badlands. Countless drakes make their home in the ravine."
+   "answer": "Lethlor Ravine lies at the far eastern end of the Badlands, where countless drakes make their home."
   },
   {
    "q": "How do you free Blacklash and Hematus?",
@@ -63,7 +63,7 @@
     "seal of the earth",
     "pillars of diamond opal amethyst"
    ],
-   "answer": "The Sign of the Earth draws a runestone out of each of the three pillars. Set into the Seal of the Earth, those stones free both drakes."
+   "answer": "Use the Sign of the Earth to draw a runestone from each of the three pillars. Set the stones into the Seal of the Earth to free both drakes."
   },
   {
    "q": "What must be brought back to Gorn?",
@@ -72,7 +72,7 @@
     "what does gorn want back",
     "bindings of blacklash"
    ],
-   "answer": "The bindings of Blacklash, the chains of Hematus and the Sign of the Earth, once both drakes are dead."
+   "answer": "Once both drakes are dead, bring Gorn the bindings of Blacklash, the chains of Hematus and the Sign of the Earth."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Broken Alliances (2)"
- ]
+ ],
+ "style": 2
 }

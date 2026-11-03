@@ -24,11 +24,11 @@
   ],
   "category": "Desolace"
  },
- "summary": "Taiga Wisemane in Shadowprey Village says the Burning Blade holds a Demon Box, and that something powerful called the Hand of Iruxos is kept inside. At Mannoroc Coven, the Burning Blade makes use of it to open demon portals. Taiga sends you to Thunder Axe Fortress to fetch the box.",
+ "summary": "At Shadowprey Village, Taiga Wisemane sends you to Thunder Axe Fortress for a Demon Box. The Burning Blade uses the Hand of Iruxos inside it to open portals for demons at Mannoroc Coven.",
  "sections": [
   {
    "title": "The Box in the Fortress",
-   "body": "Taiga Wisemane wants the flow of demons into our world stopped. You are given a demon pick, to be used on the red crystal inside Thunder Axe Fortress, which opens the way to the Demon Box. The box and the pick are to be brought back to Taiga in Shadowprey Village.",
+   "body": "Taiga Wisemane wants the demons' passage into our world stopped. She gives you a demon pick for the red crystal inside Thunder Axe Fortress. Use it to reach the Demon Box, then bring the box and pick back to Taiga in Shadowprey Village.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who starts hand of iruxos",
     "where to get quest"
    ],
-   "answer": "Taiga Wisemane, in Shadowprey Village."
+   "answer": "Taiga Wisemane asks you for the Demon Box in Shadowprey Village."
   },
   {
    "q": "What is the Hand of Iruxos?",
@@ -49,7 +49,7 @@
     "hand of iruxos artifact",
     "what does the hand do"
    ],
-   "answer": "Something powerful that lies inside the Demon Box. At Mannoroc Coven, the Burning Blade makes use of it to open portals for demons."
+   "answer": "The Hand of Iruxos is a powerful thing kept inside the Demon Box. At Mannoroc Coven, the Burning Blade uses it to open portals for demons."
   },
   {
    "q": "Where is the Demon Box?",
@@ -58,7 +58,7 @@
     "demon box location",
     "find demon box"
    ],
-   "answer": "In Thunder Axe Fortress, where a red crystal gives access to it."
+   "answer": "The Demon Box lies in Thunder Axe Fortress, beyond a red crystal."
   },
   {
    "q": "How do you get to the Demon Box?",
@@ -67,7 +67,7 @@
     "demon pick use",
     "red crystal thunder axe"
    ],
-   "answer": "You are given a demon pick, and you use it on the red crystal inside Thunder Axe Fortress."
+   "answer": "Taiga gives you a demon pick to use on the red crystal inside Thunder Axe Fortress."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Hand of Iruxos (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:876"
   ]
  },
- "summary": "At the Dry Hills in the northern Barrens, Serena Bloodfeather's head is sought as proof of her death. Darsok Swiftdagger plans to display it on a Horde supply wagon as a warning against further harpy raids.",
+ "summary": "At the Dry Hills, Darsok Swiftdagger seeks Serena Bloodfeather's head as proof of her death. He plans to display it on a Horde supply wagon to warn against further harpy raids.",
  "sections": [
   {
    "title": "A Warning on the Road",
-   "body": "Serena Bloodfeather led the Witchwing harpies of the Dry Hills in attacks on trade through the northern Barrens. Her assaults on Horde supply lines grew vicious because her sister had fallen to the beastmaster Rexxar. Darsok Swiftdagger, an orc rogue, ordered Serena hunted to break the flock's morale. He wants her severed head mounted on an outbound caravan, where harpies watching from the crags will see the warning.",
+   "body": "Serena Bloodfeather led the Witchwing harpies of the Dry Hills in attacks on trade through the northern Barrens. Her assaults on Horde supply lines grew vicious after the beastmaster Rexxar slew her sister.\n\nDarsok Swiftdagger, an orc rogue, ordered Serena hunted to break the flock's morale. He plans to mount her severed head on an outbound caravan, where harpies watching from the crags will see the warning.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "darsok serena head",
     "what does darsok do with the head"
    ],
-   "answer": "Darsok wants proof that Serena Bloodfeather is dead, and plans to mount her head on a Horde supply caravan. He hopes the display will frighten the surviving Witchwing harpies away from travelers."
+   "answer": "Darsok wants proof that Serena Bloodfeather is dead. He plans to mount her head on a Horde supply caravan and hopes the display will frighten the surviving Witchwing harpies away from travelers."
   },
   {
    "q": "Why was Serena Bloodfeather attacking Horde caravans?",
@@ -44,13 +44,13 @@
     "serena bloodfeather location",
     "how to get serenas head"
    ],
-   "answer": "The trophy is taken from Serena Bloodfeather, the matriarch who roosts among the Dry Hills crags in the far northwestern Barrens."
+   "answer": "The trophy comes from Serena Bloodfeather, the matriarch who roosts among the Dry Hills crags in the far northwestern Barrens."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Horde caravans connect Durotar to Mulgore and the distant outposts. Displaying Serena's head on a supply wagon declares Horde dominance over the wild wastes."
+   "text": "Horde caravans connect Durotar to Mulgore and distant outposts. Displaying Serena's head on a supply wagon declares Horde dominance over the wild wastes."
   },
   {
    "target": "class:Rogue",
@@ -81,5 +81,5 @@
   "Serena's Head",
   "Serena Bloodfeather (Classic)"
  ],
- "style": 1
+ "style": 2
 }

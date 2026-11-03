@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Razormane Grounds"
  },
- "summary": "Razormane quilboar push east from the Barrens into central Durotar. Their thorn-choked camp marks the front of their unending clash with Orgrimmar's orcs.",
+ "summary": "Razormane quilboar press east from the Barrens into central Durotar. Their thorn-choked camp marks the front of a long struggle with Orgrimmar's orcs.",
  "sections": [
   {
    "title": "A Thorn in Durotar's Side",
-   "body": "At the Southfury River, the Razormane Grounds threaten travelers beneath central Durotar's red cliffs. The camp marks the furthest east the quilboar have spread from the Barrens. Captain Flat Tusk of the Battleguard and Geolord Mottle lead raids on nearby orc settlements and passing supply lines. Patrols set out from Razor Hill and nearby outposts, but the Razormane keep replenishing their ranks among the briars faster than the Horde can clear them.",
+   "body": "At the Southfury River, Razormane Grounds threaten travelers beneath central Durotar's red cliffs. Here the quilboar have spread farther east from the Barrens than anywhere else. Captain Flat Tusk of the Battleguard and Geolord Mottle lead raids on nearby orc settlements and passing supply lines. Patrols leave Razor Hill and nearby outposts, yet the Razormane replenish their ranks among the briars faster than the Horde can clear them.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "quilboar camp durotar",
     "where are razormane"
    ],
-   "answer": "The Razormane Grounds are a fortified quilboar camp in central Durotar, where the Razormane push east from the Barrens."
+   "answer": "Razormane Grounds is a fortified quilboar camp in central Durotar, where the Razormane press east from the Barrens."
   },
   {
    "q": "Why are the quilboar attacking Durotar?",
@@ -32,7 +32,7 @@
     "why are razormane here",
     "quilboar invasion"
    ],
-   "answer": "The Razormane see neighboring lands as theirs and seek to expand their thorny thickets and hunting grounds at the expense of the Horde's new settlements."
+   "answer": "The Razormane claim neighboring lands and seek to expand their thorny thickets and hunting grounds at the expense of the Horde's new settlements."
   },
   {
    "q": "Who leads the quilboar at the Razormane Grounds?",
@@ -41,7 +41,7 @@
     "who leads the razormane grounds",
     "captain flat tusk"
    ],
-   "answer": "Captain Flat Tusk leads the Razormane Battleguard, alongside Geolord Mottle, an earth-shaping geomancer."
+   "answer": "Captain Flat Tusk leads the Razormane Battleguard alongside Geolord Mottle, an earth-shaping geomancer."
   },
   {
    "q": "Why are there so many bones around the camp?",
@@ -50,17 +50,17 @@
     "razormane animal carcasses",
     "why dead animals"
    ],
-   "answer": "The Razormane hunt and scavenge aggressively, stripping local wildlife to the bone to feed their raiders and leaving the carcasses around the camp as markers of their territory."
+   "answer": "The Razormane hunt and scavenge aggressively, stripping local wildlife to the bone to feed their raiders. They leave the carcasses around the camp as markers of their territory."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For orcs in Durotar, the Razormane Grounds threaten the heart of their new homeland. Young warriors prove their mettle by culling the quilboar."
+   "text": "For orcs in Durotar, Razormane Grounds threaten the heart of their new homeland. Young warriors prove their mettle by culling the quilboar."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, suppressing the Razormane Grounds helps secure travel and supply lines between the Barrens and Orgrimmar."
+   "text": "For the Horde, suppressing Razormane Grounds helps secure travel and supply lines between the Barrens and Orgrimmar."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Razormane Grounds"
  ],
- "style": 1
+ "style": 2
 }

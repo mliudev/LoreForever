@@ -17,16 +17,16 @@
   "wiki": "How Big a Threat?",
   "chain": []
  },
- "summary": "Terenthis asks scouts in Auberdine to learn whether furbolg corruption has reached Darkshore. After madness takes hold among furbolgs in Teldrassil, the night elf druid sends them to inspect mainland settlements across the sea.",
+ "summary": "In Auberdine, Terenthis asks scouts to learn whether furbolg corruption has reached Darkshore. Madness has taken hold among furbolgs in Teldrassil, and the night elf druid now sends them to inspect mainland settlements across the sea.",
  "sections": [
   {
    "title": "Shadows Across the Sea",
-   "body": "Night elves across northern Kalimdor have long lived peacefully with the furbolg tribes. Since the Third War, strange corruption has unhinged furbolg minds in Teldrassil. They have kidnapped and attacked their former allies. Terenthis, a druid stationed in Auberdine, fears the affliction has spread beyond the World Tree to the mainland tribes along Darkshore’s coast.",
+   "body": "Night elves across northern Kalimdor have long lived peacefully with the furbolg tribes. Since the Third War, strange corruption has unhinged furbolg minds in Teldrassil. They have kidnapped and attacked their former allies. Terenthis, the druid in Auberdine, fears the affliction has spread to mainland tribes along Darkshore’s coast.",
    "spoiler": 0
   },
   {
    "title": "A Gathering Storm",
-   "body": "A furbolg camp near the ruins of Ameth'Aran shows signs of the same corruption found in northern Teldrassil. The furbolgs there act erratically and attack without cause. Because the camp lies close to Auberdine, its hostile inhabitants now threaten the Alliance settlement.",
+   "body": "A furbolg camp near the ruins of Ameth'Aran shows the same corruption found in northern Teldrassil. The furbolgs there act erratically and attack without cause. The camp lies close to Auberdine, so its hostile inhabitants now threaten the Alliance settlement.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who gives how big a threat",
     "terenthis auberdine"
    ],
-   "answer": "Terenthis is a night elf druid stationed in Auberdine. Accounts of maddened furbolgs attacking and capturing night elves across Teldrassil have led him to watch for threats throughout Darkshore."
+   "answer": "Terenthis is a night elf druid stationed in Auberdine. Reports of maddened furbolgs attacking and capturing night elves across Teldrassil have led him to watch for threats throughout Darkshore."
   },
   {
    "q": "Why are the furbolgs in Darkshore turning hostile?",
@@ -47,7 +47,7 @@
     "corrupt furbolgs darkshore",
     "furbolg corruption"
    ],
-   "answer": "Terenthis has seen hints of corruption in Darkshore and suspects the furbolgs may be affected, as some on Teldrassil were. He asks for their camps to be investigated because he has not yet established widespread signs."
+   "answer": "Terenthis has seen hints of corruption in Darkshore and suspects the furbolgs may be affected, as some on Teldrassil were. He asks for their camps to be investigated because he has not established signs across the region."
   },
   {
    "q": "Where is the corrupt furbolg camp located?",
@@ -74,7 +74,7 @@
     "what follows how big a threat",
     "quest continuation"
    ],
-   "answer": "Tell Terenthis in Auberdine if you find signs of corruption. His response comes when you return."
+   "answer": "If you find signs of corruption, tell Terenthis in Auberdine. He responds when you return."
   },
   {
    "q": "Why are night elves so concerned about furbolg camps near Auberdine?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you see ancient allies like the furbolgs fall to irrational darkness soon after the Third War. Their corruption threatens sacred lands as well as old bonds."
+   "text": "As a kaldorei, you see ancient allies like the furbolgs fall to irrational darkness soon after the Third War. Their corruption threatens sacred lands and old bonds."
   },
   {
    "target": "class:Druid",
@@ -119,5 +119,5 @@
  "attribution": [
   "How Big a Threat?"
  ],
- "style": 1
+ "style": 2
 }

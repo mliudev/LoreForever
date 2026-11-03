@@ -8,16 +8,16 @@
   "wiki": "Bailiff Conacher",
   "refs": 1
  },
- "summary": "In Lakeshire Town Hall, Bailiff Conacher keeps Stormwind law in force under Magistrate Solomon. He relies on travelers to uphold local decrees across the embattled Redridge Mountains.",
+ "summary": "In Lakeshire Town Hall, Bailiff Conacher upholds Stormwind law under Magistrate Solomon. With Redridge under siege, he relies on travelers to carry out local decrees.",
  "sections": [
   {
    "title": "Justice in Lakeshire",
-   "body": "Bailiff Conacher works with Magistrate Solomon in Lakeshire Town Hall to uphold law across the Redridge Mountains. Blackrock orcs and local gnolls besiege the town, leaving Conacher without ordinary civic procedures or royal garrisons to rely on. He issues legal decrees that authorize passing travelers to carry out capital justice in the realm's name.",
+   "body": "Bailiff Conacher works with Magistrate Solomon in Lakeshire Town Hall to uphold law across the Redridge Mountains. Blackrock orcs and local gnolls besiege the town, leaving Conacher without ordinary civic procedures or royal garrisons. So he issues legal decrees that let passing travelers carry out capital justice in the realm's name.",
    "spoiler": 0
   },
   {
    "title": "Applying Solomon's Law",
-   "body": "When the dark mage Morganth took the Tower of Ilgalar and bent the local Shadowhide gnolls to his will, the Court of Lakeshire judged the beasts guilty of high treason. Stormwind law sentences those who aid a fugitive and criminal to death. Conacher invokes Solomon's Law and sends travelers across the ridges to find Shadowhide gnolls and bring back their pendants as proof that the crown's law has been carried out.",
+   "body": "When the dark mage Morganth took the Tower of Ilgalar, he bent the local Shadowhide gnolls to his will. The Court of Lakeshire judged the beasts guilty of high treason. Stormwind law sentences those who aid a fugitive and criminal to death. By Solomon's Law, Conacher sends travelers across the ridges to find Shadowhide gnolls and bring back their pendants as proof the crown's law has been carried out.",
    "spoiler": 0
   }
  ],
@@ -87,5 +87,5 @@
  "attribution": [
   "Bailiff Conacher"
  ],
- "style": 1
+ "style": 2
 }

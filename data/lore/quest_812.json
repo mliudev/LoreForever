@@ -17,16 +17,16 @@
   "wiki": "Need for a Cure",
   "chain": []
  },
- "summary": "Rhinag lies poisoned on Durotar’s northwestern cliffs, far from the cure he needs. The Darkspear troll has little time before the venom kills him, so he sends a passing courier to Orgrimmar for Kor'ghan’s remedy.",
+ "summary": "On Durotar’s northwestern cliffs, Rhinag is poisoned and far from the cure he needs. The Darkspear troll has little time before the venom kills him, so he sends a passing courier to Orgrimmar for Kor'ghan’s remedy.",
  "sections": [
   {
    "title": "A Scorpid's Sting",
-   "body": "Rhinag was fighting venomtail scorpids near Durotar’s border when one stung him. Their venom can kill in less than an hour. The poison keeps him from walking to Orgrimmar, so his survival depends on a traveler reaching his remote camp in time.",
+   "body": "Rhinag fought venomtail scorpids near Durotar’s border when one stung him. Their venom can kill in less than an hour. The poison keeps him from walking to Orgrimmar, leaving his survival to a traveler who reaches his remote camp in time.",
    "spoiler": 0
   },
   {
    "title": "Secrets in the Shadows",
-   "body": "Rhinag sends travelers beneath Orgrimmar to the Cleft of Shadow, where Kor'ghan knows how to counter the poisons of Durotar’s wastes. Kor'ghan can brew a cure, though he rarely helps those who have not proved themselves.",
+   "body": "Rhinag sends you beneath Orgrimmar to the Cleft of Shadow, where Kor'ghan knows how to counter the poisons of Durotar’s wastes. Kor'ghan can brew a cure, though he rarely helps those who have not proved themselves.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is rhinag",
     "rhinag the troll"
    ],
-   "answer": "Rhinag is a Darkspear troll adventurer clinging to life on Durotar’s northwestern cliffs. A venomtail scorpid stung him, and he fears the mockery of his kin in Sen'jin Village if he returns in such a humbled state."
+   "answer": "Rhinag is a Darkspear troll adventurer clinging to life on Durotar’s northwestern cliffs. A venomtail scorpid stung him, and he fears his kin in Sen'jin Village will mock him if he returns in such a humbled state."
   },
   {
    "q": "Why is Kor'ghan in the Cleft of Shadow?",
@@ -47,7 +47,7 @@
     "who is korghan",
     "kor'ghan location"
    ],
-   "answer": "Kor'ghan makes his home in the Cleft of Shadow beneath Orgrimmar. Warlocks, rogues, and others who practice the dark arts work there beyond the eyes of Thrall’s honored warriors, and Kor'ghan’s knowledge of venomous brews and grueling trials suits the caverns."
+   "answer": "Kor'ghan makes his home in the Cleft of Shadow beneath Orgrimmar. Warlocks, rogues, and others who practice the dark arts work there beyond the eyes of Thrall’s honored warriors. Kor'ghan’s knowledge of venomous brews and grueling trials suits the caverns."
   },
   {
    "q": "Why doesn't Rhinag just seek a shaman or healer in Sen'jin Village?",
@@ -79,7 +79,7 @@
     "why is it timed",
     "rhinag poison timer"
    ],
-   "answer": "The venomtail scorpid’s poison is potent enough to overwhelm a victim’s vital organs in less than an hour without treatment."
+   "answer": "Without treatment, the venomtail scorpid’s poison can overwhelm a victim’s vital organs in less than an hour."
   }
  ],
  "angles": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Need for a Cure"
  ],
- "style": 1
+ "style": 2
 }

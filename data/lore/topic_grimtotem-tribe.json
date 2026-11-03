@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Grimtotem tribe"
  },
- "summary": "The Grimtotem tribe is an aggressive, fiercely traditionalist tauren clan that refuses to formally swear allegiance to Thrall's Horde. Distinguishable by their dark hides and fierce warpaint, they seek to purge foreign races from Kalimdor and retake ancestral lands by any means necessary. Even as their matriarch, the Elder Crone Magatha Grimtotem, resides atop Thunder Bluff playing regional politics, her kin actively raid settlements across Kalimdor.",
+ "summary": "Across Kalimdor, the Grimtotem tribe raids settlements and keeps apart from Thrall's Horde. Dark hides and fierce warpaint mark them, and they seek to drive foreign races from Kalimdor and reclaim ancestral lands by any means. Their matriarch, Elder Crone Magatha Grimtotem, resides atop Thunder Bluff while her kin raid across the continent.",
  "sections": [
   {
    "title": "A Tribe Apart",
-   "body": "Unlike their peaceful cousins who honor the Earth Mother through reverence, the Grimtotem believe Kalimdor belongs exclusively to the tauren. From youth, they are trained not in the patient harmony of the Great Hunt, but in ruthlessness, stealth, and lethal combat. They harbor immense disdain for the other races that have settled upon their ancient soils. Though Cairne Bloodhoof has welcomed them into Thunder Bluff in an effort to unite all tauren people, the Grimtotem clan stands alone as the only major tribe that has never formally joined Thrall's Horde, maintaining their own insular and violent agenda.",
+   "body": "Grimtotem warriors train for ruthless combat rather than the patient harmony of the Great Hunt. They believe Kalimdor belongs only to the tauren. Their peaceful cousins honor the Earth Mother with reverence, but the Grimtotem disdain the other races settled on their ancient lands.\n\nCairne Bloodhoof welcomed them into Thunder Bluff, hoping to unite all tauren. Yet the Grimtotem remain the only major tribe never to formally join Thrall's Horde. They keep apart and pursue a violent cause.",
    "spoiler": 0
   },
   {
    "title": "Wildland Aggressors",
-   "body": "In the wilderness far from Thunder Bluff's watchful eyes, Grimtotem hostility flares openly into violence. In Stonetalon Mountains, they butcher local settlements and threaten Horde supply outposts. Across the towering mesas of Thousand Needles, centered around Darkcloud Pinnacle, they constantly menace Freewind Post and plot to seize the canyon. Encounters in Feralas prove equally perilous: the Grimtotem attack Horde travelers, Alliance caravans, and fellow tauren without hesitation. Horde garrisons at Sun Rock Retreat and Camp Mojache regularly post bounties and dispatch warriors to cut down these violent outcasts.",
+   "body": "Beyond Thunder Bluff's watch, Grimtotem hostility turns to violence. In Stonetalon Mountains, they butcher local settlements and threaten Horde supply outposts. Across the mesas of Thousand Needles, they gather around Darkcloud Pinnacle, menace Freewind Post, and plot to seize the canyon.\n\nFeralas is no safer. They attack Horde travelers, Alliance caravans, and fellow tauren without hesitation. Horde garrisons at Sun Rock Retreat and Camp Mojache regularly post bounties and send warriors to cut down these violent outcasts.",
    "spoiler": 0
   },
   {
    "title": "Shadows and Apothecaries",
-   "body": "Beneath Magatha's veneer of spiritual counsel sits an intricate web of intrigue. The Elder Crone is an ardent sponsor of the tauren's controversial ties with the Forsaken, publicly claiming she wishes to heal the undead, while secretly seeking out toxic plagues and Highborne artifacts. In Thousand Needles, scouts from Freewind Post intercept guarded correspondence between cloaked couriers and Grimtotem chieftains in Darkcloud Pinnacle.",
+   "body": "Magatha Grimtotem's spiritual counsel conceals a web of intrigue. The Elder Crone ardently supports the tauren's controversial ties with the Forsaken. In public, she says she wants to heal the undead. In secret, she seeks toxic plagues and Highborne artifacts. In Thousand Needles, scouts from Freewind Post intercept guarded letters between cloaked couriers and Grimtotem chieftains in Darkcloud Pinnacle.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "why do grimtotem attack horde",
     "are grimtotem friendly"
    ],
-   "answer": "The Grimtotem tribe never formally joined the Horde. While Cairne Bloodhoof tolerates Magatha Grimtotem on the high mesas of Thunder Bluff in hopes of keeping peace among all tauren, the tribe's roaming warriors reject outside diplomacy. In Stonetalon, Thousand Needles, and Feralas, they attack anyone trespassing on ancestral territory, including other tauren."
+   "answer": "The Grimtotem never formally joined the Horde. Cairne Bloodhoof tolerates Magatha Grimtotem on Thunder Bluff's high mesas, hoping to keep peace among the tauren. Yet the tribe's roaming warriors reject outside diplomacy. In Stonetalon, Thousand Needles, and Feralas, they attack anyone who trespasses on ancestral territory, including other tauren."
   },
   {
    "q": "How can you tell a Grimtotem apart from other tauren?",
@@ -41,7 +41,7 @@
     "grimtotem appearance",
     "grimtotem fur color"
    ],
-   "answer": "Grimtotem tauren almost universally possess pitch-black fur. They are also known for painting their bodies and faces with distinctive, sharp warpaint in stark white, deep red, or blue."
+   "answer": "Grimtotem tauren almost always have pitch-black fur. They paint sharp patterns in stark white, deep red, or blue across their bodies and faces."
   },
   {
    "q": "Who leads the Grimtotem?",
@@ -49,7 +49,7 @@
     "grimtotem leader",
     "elder crone"
    ],
-   "answer": "They are ruled by the Elder Crone, Magatha Grimtotem, a powerful shaman residing on the Elder Rise in Thunder Bluff. She attained rule after marrying the previous chieftain, who perished shortly afterward in an unexplained climbing mishap."
+   "answer": "Magatha Grimtotem, the Elder Crone, rules the tribe as a powerful shaman on the Elder Rise in Thunder Bluff. She took power after marrying the previous chieftain. He died shortly afterward in an unexplained climbing mishap."
   },
   {
    "q": "What is the Grimtotem goal?",
@@ -57,7 +57,7 @@
     "what do grimtotem want",
     "grimtotem motive"
    ],
-   "answer": "The Grimtotem aim to purge Kalimdor of what they view as lesser foreign races\u2014including orcs, humans, and night elves\u2014and reclaim all ancestral tauren territories. Unlike Cairne's people, they believe this land should be seized purely through force, deception, and elemental dominion."
+   "answer": "The Grimtotem seek to purge Kalimdor of foreign races they consider lesser, including orcs, humans, and night elves. They also seek to reclaim all ancestral tauren lands. Unlike Cairne's people, they believe these lands should be taken through force, deception, and elemental dominion."
   },
   {
    "q": "Why does Magatha Grimtotem work with the Forsaken?",
@@ -65,25 +65,25 @@
     "magatha and undead",
     "grimtotem forsaken"
    ],
-   "answer": "Publicly, Magatha claims she champions the Forsaken because tauren shamanism and earth wisdom can help cure their affliction and return their humanity. Privately, she seeks their expertise in virulent poisons, rot, and dark magic to eliminate her enemies and consolidate power across Kalimdor."
+   "answer": "Magatha publicly says she champions the Forsaken because tauren shamanism and earth wisdom may cure their affliction and restore their humanity. In private, she seeks their knowledge of virulent poisons, rot, and dark magic to eliminate enemies and strengthen her power across Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Grimtotem are an open shame to the Bloodhoof and other tribes; though Cairne offers them shelter in Thunder Bluff in the name of tauren unity, their warmongering threatens to tear that very unity apart."
+   "text": "The Grimtotem bring open shame to the Bloodhoof and other tribes. Cairne gives them shelter in Thunder Bluff for tauren unity, but their warmongering threatens to tear that unity apart."
   },
   {
    "target": "faction:Horde",
-   "text": "Do not mistake their black hides for allies: out in the barrens, mountains, and marshes of Kalimdor, Grimtotem warriors will ambush Horde scouts on sight."
+   "text": "Their black hides do not make the Grimtotem allies. Across Kalimdor's barrens, mountains, and marshes, their warriors ambush Horde scouts on sight."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Grimtotem despise all who cross into Kalimdor, attacking Alliance traders and night elf enclaves indiscriminately."
+   "text": "The Grimtotem despise all who cross into Kalimdor. They attack Alliance traders and night elf enclaves without distinction."
   },
   {
    "target": "race:Undead",
-   "text": "Magatha Grimtotem is one of the few tauren leaders in Thunder Bluff who openly courts the Forsaken, brokering research into exotic plagues alongside Royal Apothecary Society specialists."
+   "text": "Magatha Grimtotem is one of the few tauren leaders in Thunder Bluff who openly courts the Forsaken. She arranges research into exotic plagues with Royal Apothecary Society specialists."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Grimtotem tribe"
- ]
+ ],
+ "style": 2
 }

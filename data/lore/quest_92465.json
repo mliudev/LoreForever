@@ -17,16 +17,16 @@
   "wiki": "Agitators",
   "chain": []
  },
- "summary": "Agitators is an early task on Zephras Isle issued by Yala Windwatcher. The aggressive Al'Aketh cult has pushed into Thendal Grove, agitating the peaceful native wind sprites into hostile elementals. Adventurers are sent to disperse the roiling winds and clear out the cultist converts threatening the area.",
+ "summary": "On Zephras Isle, unrest in Thendal Grove draws Yala Windwatcher's concern. The Al'Aketh cult has stirred peaceful wind sprites into hostile elementals, and its converts now threaten the grove.",
  "sections": [
   {
    "title": "Disturbing the Grove",
-   "body": "Thendal Grove has fallen under the shadow of the Al'Aketh cult. Known for their unsettling designs on Zephras Isle, the cultists have encroached on the grove and actively riled the delicate wind spirits dwelling there. Once peaceful sprites have turned violent, forming volatile roiling winds that threaten anyone passing through the region.",
+   "body": "Cultists of Al'Aketh have pushed into Thendal Grove and stirred the wind spirits who dwell there. Once peaceful, the sprites now rage as roiling winds, threatening anyone who passes through.",
    "spoiler": 0
   },
   {
    "title": "A Painful Necessity",
-   "body": "Yala Windwatcher tasks passing champions with subduing both the enraged elementals and the Al'Aketh converts fomenting the unrest. While putting down the wind creatures restores a fragile calm to the grove, dealing with the cultists is a somber duty: Yala laments the shedding of shen'dorei blood among their own people, yet recognizes that the cult leaves little choice.",
+   "body": "Yala Windwatcher asks you to subdue the enraged elementals and the Al'Aketh converts behind the unrest. Quieting the wind creatures may restore a fragile calm to the grove.\n\nYala grieves at the thought of shen'dorei blood shed among her own people. Yet while the cult remains, she sees little choice.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts agitators",
     "yala windwatcher"
    ],
-   "answer": "Yala Windwatcher offers the quest in the vicinity of Thendal Grove on Zephras Isle."
+   "answer": "Yala Windwatcher asks you for help near Thendal Grove on Zephras Isle."
   },
   {
    "q": "What is the Al'Aketh cult doing in Thendal Grove?",
@@ -47,7 +47,7 @@
     "why are alaketh here",
     "alaketh convert purpose"
    ],
-   "answer": "The Al'Aketh cult has moved into the grove and agitated the native wind spirits, driving the peaceful creatures into a hostile, violent frenzy."
+   "answer": "The Al'Aketh cult has moved into Thendal Grove and stirred its native wind spirits into a violent frenzy."
   },
   {
    "q": "What are the Roiling Winds?",
@@ -56,7 +56,7 @@
     "wind spirits",
     "wind elementals in thendal grove"
    ],
-   "answer": "They are simple, native wind sprites of Zephras Isle that have been stirred up and corrupted into aggressive elemental whirlwinds by the Al'Aketh cultists."
+   "answer": "Roiling Winds are native wind sprites of Zephras Isle, stirred by Al'Aketh cultists into aggressive elemental whirlwinds."
   },
   {
    "q": "Why is Yala Windwatcher saddened by killing the converts?",
@@ -65,7 +65,7 @@
     "shedding shendorei blood",
     "yala completion quote"
    ],
-   "answer": "Yala laments having to shed shen'dorei blood in the grove, showing that the Al'Aketh converts belong to their own people who have fallen sway to dangerous cult teachings."
+   "answer": "Yala grieves at shedding shen'dorei blood because the converts are her own people, led astray by dangerous cult teachings."
   },
   {
    "q": "What quest follows Agitators?",
@@ -74,7 +74,7 @@
     "agitators follow up",
     "where do i go after agitators"
    ],
-   "answer": "After finishing Agitators for Yala Windwatcher, you are directed to continue your duties in the quest Return to Rorian."
+   "answer": "After you finish Yala Windwatcher's work, you are directed to continue your duties with Return to Rorian."
   },
   {
    "q": "Where does this conflict take place?",
@@ -83,17 +83,17 @@
     "thendal grove zone",
     "where is thendal grove"
    ],
-   "answer": "The conflict is centered in Thendal Grove, located on the island of Zephras Isle."
+   "answer": "The conflict centers on Thendal Grove, on Zephras Isle."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Witnessing natural wind sprites driven to violent frenzy by cultist meddling is an offense against elemental balance that demands intervention."
+   "text": "As a shaman, you see cultists drive natural wind sprites into a violent frenzy. The upheaval in elemental balance calls for intervention."
   },
   {
    "target": "class:Druid",
-   "text": "The desecration of Thendal Grove's natural harmony by rogue cultists makes the defense of its native spirits an urgent priority."
+   "text": "As a druid, you see rogue cultists disturb Thendal Grove's natural harmony. The grove's native spirits urgently need defense."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Agitators"
- ]
+ ],
+ "style": 2
 }

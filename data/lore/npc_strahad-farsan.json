@@ -8,16 +8,16 @@
   "wiki": "Strahad Farsan",
   "refs": 8
  },
- "summary": "Above Ratchet, Strahad Farsan teaches warlocks to bind demons. The human warlock lives in a stone tower in the Barrens, beyond the reach of ordinary Alliance and Horde politics. Students of fel magic come from Stormwind, Orgrimmar, and the Undercity to learn from him.",
+ "summary": "Above Ratchet, Strahad Farsan teaches warlocks to bind demons. The human warlock lives in a stone tower in the Barrens, beyond the reach of Alliance and Horde politics. Students of fel magic travel from Stormwind, Orgrimmar, and the Undercity to learn from him.",
  "sections": [
   {
    "title": "The Tower Above Ratchet",
-   "body": "Strahad Farsan keeps to a stone tower on the bluffs above Ratchet. The goblin port's neutral ground lets him practice dangerous summonings away from Alliance magistrates and Horde shamans. His acolytes gather around him as he studies the Twisting Nether, apart from the struggles over territory below.",
+   "body": "Strahad Farsan keeps to a stone tower on the bluffs above Ratchet. The goblin port is neutral ground, far from Alliance magistrates and Horde shamans. There he practices dangerous summonings and studies the Twisting Nether. His acolytes gather around him, while struggles over territory continue below.",
    "spoiler": 0
   },
   {
    "title": "Master of Demonic Binding",
-   "body": "Strahad learned the danger of demonic binding firsthand. His first attempt to bind a felhunter nearly cost him his life, leaving him cautious and exacting. Despite being human, he has earned the respect of Gakin the Darkbinder in Stormwind and demonic scholars in the Undercity and Orgrimmar. Warlocks of either faction seeking to command felhunters or fiery steeds are sent to his tower.",
+   "body": "Strahad learned the danger of demonic binding firsthand. His first attempt to bind a felhunter nearly cost him his life. Since then, he has been cautious and exacting. Though human, he has earned the respect of Gakin the Darkbinder in Stormwind and demonic scholars in the Undercity and Orgrimmar. Warlocks from either faction seeking to command felhunters or fiery steeds are sent to his tower.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is strahad",
     "strahad farsan info"
    ],
-   "answer": "Strahad Farsan teaches warlocks in a stone tower above Ratchet. He is part of the inner circle of Gakin the Darkbinder in Stormwind, and warlocks of both factions seek his skill in demonic summoning."
+   "answer": "Strahad Farsan teaches warlocks in a stone tower above Ratchet. He belongs to Gakin the Darkbinder's inner circle in Stormwind, and warlocks of both factions seek his skill in demonic summoning."
   },
   {
    "q": "Why is a human warlock living in the Barrens?",
@@ -38,7 +38,7 @@
     "human in the barrens",
     "strahad location"
    ],
-   "answer": "Strahad lives above Ratchet, a neutral port run by the Steamwheedle Cartel. The bluffs let him perform dangerous summoning rituals beyond the laws of the Alliance and the watch of the Horde."
+   "answer": "Strahad lives above Ratchet, a neutral port run by the Steamwheedle Cartel. The bluffs let him perform dangerous summoning rituals beyond Alliance law and the Horde's watch."
   },
   {
    "q": "Why do Horde warlocks visit Strahad?",
@@ -47,7 +47,7 @@
     "can horde talk to strahad",
     "why do orcs go to strahad"
    ],
-   "answer": "Strahad's skill with demons draws warlocks from the Horde. Mentors in Orgrimmar and the Undercity recognize his knowledge of binding demons such as felhunters and send promising pupils across the sea to study with him."
+   "answer": "Horde warlocks visit Strahad for his skill with demons. Mentors in Orgrimmar and the Undercity recognize his knowledge of binding demons such as felhunters. They send promising pupils across the sea to study with him."
   },
   {
    "q": "What happened to Strahad when he summoned his first felhunter?",
@@ -64,7 +64,7 @@
     "godrick farsan relative",
     "is strahad related to godrick"
    ],
-   "answer": "Strahad and Godrick Farsan share the uncommon surname Farsan, which suggests a family connection. Strahad says nothing about family and remains devoted to his dark craft."
+   "answer": "Strahad and Godrick Farsan share the uncommon surname Farsan, which suggests a family connection. Strahad says nothing about his family and remains devoted to his dark craft."
   },
   {
    "q": "Who are the acolytes around his tower?",
@@ -78,7 +78,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can learn from Strahad how to bind felhunters and summon steeds from the Nether."
+   "text": "As a warlock, you can learn from Strahad to bind felhunters and summon steeds from the Nether."
   },
   {
    "target": "faction:Horde",
@@ -117,5 +117,5 @@
  "attribution": [
   "Strahad Farsan"
  ],
- "style": 1
+ "style": 2
 }

@@ -30,16 +30,16 @@
   "repeatable": "No",
   "category": "Hinterlands"
  },
- "summary": "Gryphon Master Talonaxe sends you to the summit of Jintha'Alor, which stands in the heart of Vilebranch territory. Vile Priestess Hexx has the key to Sharpbeak's cage, and you are to take it from her and free the gryphon.",
+ "summary": "At Jintha'Alor, Sharpbeak waits in a cage deep in Vilebranch territory. Gryphon Master Talonaxe sends you to free him, and Vile Priestess Hexx holds the key.",
  "sections": [
   {
    "title": "Up Jintha'Alor",
-   "body": "Following Thadius Grimshade's divination and your report to Talonaxe, the way to rescue Sharpbeak is clear. Jintha'Alor stands in the heart of Vilebranch territory, and you are to fight your way to its summit. Vile Priestess Hexx holds the key to Sharpbeak's cage. Take it from her, then find the cage and save the gryphon.",
+   "body": "After Thadius Grimshade's divination, you report to Talonaxe. Now the path to Sharpbeak is clear. Jintha'Alor lies at the heart of Vilebranch territory, and you fight your way to its summit. Vile Priestess Hexx holds the key to Sharpbeak's cage. Take it from her, then find the cage and free the gryphon.",
    "spoiler": 0
   },
   {
    "title": "Talonaxe's Thanks",
-   "body": "Swiftwind and Keenclaw have already brought their child home and cannot stop fussing over him. The sight leaves Talonaxe misty-eyed. Talonaxe says the debt cannot be repaid, and that Aerie Peak's gryphons and riders will long sing your name.",
+   "body": "Swiftwind and Keenclaw have brought their child home, and they cannot stop fussing over him. The sight leaves Talonaxe misty-eyed. He says the debt cannot be repaid. Aerie Peak's gryphons and riders will sing your name for a long time.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "sharpbeak questgiver",
     "where do i start saving sharpbeak"
    ],
-   "answer": "Gryphon Master Talonaxe asks you to rescue Sharpbeak, after the divination revealed where the gryphon is held."
+   "answer": "Gryphon Master Talonaxe sends you to rescue Sharpbeak after Thadius Grimshade's divination reveals where the gryphon is held."
   },
   {
    "q": "Where is Sharpbeak being held?",
@@ -60,7 +60,7 @@
     "sharpbeak location",
     "where is sharpbeak cage"
    ],
-   "answer": "Sharpbeak is caged at the summit of Jintha'Alor, a place within Vilebranch territory in the Hinterlands."
+   "answer": "Sharpbeak is caged at the summit of Jintha'Alor, in Vilebranch territory in the Hinterlands."
   },
   {
    "q": "Who holds the key to Sharpbeak's cage?",
@@ -69,7 +69,7 @@
     "where is hexx key",
     "vile priestess hexx key"
    ],
-   "answer": "Vile Priestess Hexx has the key needed to open Sharpbeak's cage."
+   "answer": "Vile Priestess Hexx has it."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Wowpedia: Saving Sharpbeak"
- ]
+ ],
+ "style": 2
 }

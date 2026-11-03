@@ -16,16 +16,16 @@
   "wiki": null,
   "previous": ""
  },
- "summary": "The Shady Rest Inn lies burned out, and one of the few parts still standing is a crumbling chimney. A shield blackened by the flames is fixed to its brick. Krog at Brackenwall Village is the one to show it to.",
+ "summary": "At the burned Shady Rest Inn, a black shield clings to the crumbling chimney. Krog at Brackenwall Village waits to see it.",
  "sections": [
   {
    "title": "A Shield on the Chimney",
-   "body": "Fire tore through the Shady Rest Inn, and little of it remains. Fixed to the crumbling chimney is an iron shield charred black, and it can be worked free of the brick. Krog at Brackenwall Village is the one to bring it to, and will ask whether it counts as evidence from the inn's remains.",
+   "body": "Fire swept through the Shady Rest Inn and left little behind. An iron shield, charred black, is fixed to the crumbling chimney. You can work it free of the brick and bring it to Krog at Brackenwall Village. He will ask whether it counts as evidence from the inn’s remains.",
    "spoiler": 0
   },
   {
    "title": "What Krog Makes of It",
-   "body": "Krog grants that humans have odd tastes in decoration, yet doubts anyone would hang a plain iron shield over a fireplace. Krog suspects whoever set the inn ablaze left it there, perhaps as a warning or a threat.",
+   "body": "Krog grants that humans have odd tastes in decoration. Yet he doubts anyone would hang a plain iron shield over a fireplace. He suspects whoever set the inn ablaze left it there as a warning or a threat.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "where is shield",
     "shady rest inn shield"
    ],
-   "answer": "It is fixed to the chimney of the burned Shady Rest Inn, one of the few remnants of the building."
+   "answer": "The black shield is fixed to the chimney of the burned Shady Rest Inn, one of the few remnants of the building."
   },
   {
    "q": "Who gets the shield?",
@@ -46,7 +46,7 @@
     "where to turn in shield",
     "krog location"
    ],
-   "answer": "Krog, at Brackenwall Village, is the one to bring it to."
+   "answer": "Bring the shield to Krog at Brackenwall Village."
   },
   {
    "q": "Can the shield be taken from the chimney?",
@@ -54,7 +54,7 @@
     "can i remove the shield",
     "take shield off chimney"
    ],
-   "answer": "Yes, it can be worked loose from the chimney's brick."
+   "answer": "Yes. You can work the shield loose from the chimney’s brick."
   }
  ],
  "angles": [],
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Classic quest text: The Black Shield"
- ]
+ ],
+ "style": 2
 }

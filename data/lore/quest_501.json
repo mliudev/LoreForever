@@ -24,12 +24,12 @@
  "sections": [
   {
    "title": "A Bitter Outlook in Tarren Mill",
-   "body": "Apothecary Lydon finds little joy in Tarren Mill’s surroundings. From his window, the blooming meadows and brisk mountain air of Hillsbrad seem an offense to him. Like many in the Royal Apothecary Society, Lydon devotes himself to Lady Sylvanas Windrunner and the New Plague. The Society seeks to perfect this engineered scourge, meant to kill the living and bring retribution to its enemies.",
+   "body": "Apothecary Lydon takes little comfort in Tarren Mill. Hillsbrad’s blooming meadows and brisk mountain air offend him. Like many in the Royal Apothecary Society, he gives himself to Lady Sylvanas Windrunner and the New Plague. The Society works to perfect this engineered scourge, made to kill the living and bring retribution to its enemies.",
    "spoiler": 0
   },
   {
    "title": "Ingredients for Misery",
-   "body": "Lydon seeks ingredients for his latest poisonous mixture among the animals prowling the foothills and the slopes toward the Alterac Mountains. He believes mountain lion blood has properties needed to make what he calls an Elixir of Pain. So he sends agents into the wilds to collect ten vials. The blood will support the Society’s continuing chemical trials along the contested southern front.",
+   "body": "Apothecary Lydon seeks ingredients for a poisonous mixture among animals that prowl the foothills and slopes toward the Alterac Mountains. He believes mountain lion blood holds what he needs for an Elixir of Pain. So he sends agents into the wilds for ten vials. The blood will support the Society’s continuing chemical trials along the contested southern front.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who starts elixir of pain",
     "apothecary lydon quest"
    ],
-   "answer": "Apothecary Lydon, a Forsaken alchemist in Tarren Mill, gives the assignment. The settlement lies in the Hillsbrad Foothills."
+   "answer": "Apothecary Lydon, a Forsaken alchemist in Tarren Mill, gives the assignment. Tarren Mill lies in the Hillsbrad Foothills."
   },
   {
    "q": "Why does Apothecary Lydon need mountain lion blood?",
@@ -50,7 +50,7 @@
     "lion blood purpose",
     "what is the blood for"
    ],
-   "answer": "Lydon believes mountain lion blood is needed to brew a lethal mixture. He hopes the elixir will advance the Royal Apothecary Society’s plague experiments against their living enemies."
+   "answer": "Lydon believes mountain lion blood is needed to brew a lethal mixture. He hopes the elixir will advance the Royal Apothecary Society’s chemical plague experiments against their living enemies."
   },
   {
    "q": "Where can the mountain lions be found?",
@@ -59,7 +59,7 @@
     "mountain lion locations hillsbrad",
     "lion blood farming"
    ],
-   "answer": "Mountain lions roam the open fields and rolling hills of Hillsbrad Foothills, and the higher bluffs leading toward the Alterac Mountains."
+   "answer": "Mountain lions roam the open fields and rolling hills of Hillsbrad Foothills, as well as the higher bluffs leading toward the Alterac Mountains."
   },
   {
    "q": "What is the New Plague Lydon mentions?",
@@ -68,7 +68,7 @@
     "royal apothecary society plague",
     "forsaken plague"
    ],
-   "answer": "The New Plague is a biological weapon the Forsaken’s Royal Apothecary Society is developing under Lady Sylvanas Windrunner’s orders. It is meant to eradicate both the Scourge and the living."
+   "answer": "The New Plague is a biological weapon the Forsaken’s Royal Apothecary Society develops under Lady Sylvanas Windrunner’s orders. It is meant to eradicate both the Scourge and the living."
   },
   {
    "q": "What comes next after completing this quest?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Elixir of Pain (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Oh Brother. . .",
   "chain": []
  },
- "summary": "Wilder Thistlenettle waits in Stormwind after a cave-in beneath Moonbrook. He asks you to search the mines for his brother, Foreman Thistlenettle, or recover the dwarf's Explorers' League Badge.",
+ "summary": "In Stormwind, Wilder Thistlenettle waits after escaping a cave-in beneath Moonbrook. His brother, Foreman Thistlenettle, and the rest of the crew remain behind the rubble, and Wilder asks you to find his brother or recover the dwarf's Explorers' League Badge.",
  "sections": [
   {
    "title": "A Trapped Expedition",
-   "body": "Wilder Thistlenettle and his brother worked for a mining company in the tunnels beneath Moonbrook. Thieves swarmed the mines, then a cave-in sealed the lower passages. Wilder escaped to Stormwind, but his brother and the rest of the crew remained trapped behind the rubble.",
+   "body": "Wilder Thistlenettle and his brother worked for a mining company in the tunnels beneath Moonbrook. Then thieves swarmed the mines, and a cave-in sealed the lower passages. Wilder escaped to Stormwind. His brother and the rest of the crew remained trapped behind the rubble.",
    "spoiler": 0
   },
   {
    "title": "The Grim Fate of Foreman Thistlenettle",
-   "body": "Foreman Thistlenettle did not survive being trapped beneath the rubble. Dark energies in the abandoned mines raised the dwarf as an undead husk. He wanders the tunnels with other restless corpses, carrying his Explorers' League Badge, the last token of who he was.",
+   "body": "Foreman Thistlenettle did not survive beneath the rubble. Dark energies in the abandoned mines raised the dwarf as an undead husk. He wanders the tunnels among other restless corpses, still carrying his Explorers' League Badge, the last token of who he was.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "what happened to the brother",
     "thistlenettle lore"
    ],
-   "answer": "A cave-in trapped Foreman Thistlenettle and his mining party in the caverns, and no word has come from them since. Wilder needs to find his brother or at least his badge to learn what happened."
+   "answer": "A cave-in trapped Foreman Thistlenettle and his mining party in the caverns. No word has come from them since. Wilder needs to find his brother or at least his badge to learn what happened."
   },
   {
    "q": "What item do I need to retrieve?",
@@ -73,7 +73,7 @@
     "explorers league deadmines",
     "why were they in moonbrook"
    ],
-   "answer": "The Thistlenettle brothers worked for a mining company beneath Moonbrook before Defias bandits ambushed them and a sudden collapse separated them."
+   "answer": "The Thistlenettle brothers worked for a mining company beneath Moonbrook. Defias bandits ambushed them, then a sudden collapse separated them."
   },
   {
    "q": "Is this quest completed inside the Deadmines dungeon instance?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Oh Brother. . ."
  ],
- "style": 1
+ "style": 2
 }

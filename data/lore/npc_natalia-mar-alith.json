@@ -8,21 +8,21 @@
   "wiki": "Natalia Mar'alith",
   "refs": 4
  },
- "summary": "Mistress Natalia Mar'alith is a night elf priestess and Cenarion Circle researcher lost deep within the silithid nests of Hive'Regal. Once part of the expedition investigating Silithus alongside her husband, Commander Mar'alith, she has succumbed completely to the maddening influence of the Old Gods.",
+ "summary": "Deep in Hive'Regal, Natalia Mar'alith has vanished among the silithid. The night elf priestess and Cenarion Circle researcher entered the wastes of Silithus with her husband, Commander Mar'alith, then went on an expedition into the hives.",
  "sections": [
   {
    "title": "A Tragic Descent",
-   "body": "When the Cenarion Circle established their outpost at Cenarion Hold to monitor the awakening sands, Natalia accompanied her husband, Commander Mar'alith, into the wastes. Eager to unravel the mystery behind the resurgence of the silithid and the ancient Qiraji ruins, she joined an exploratory party led by the famed explorer Brann Bronzebeard, accompanied by the dwarven researchers Rutgar Glyphshaper and Frankal Stonebridge.",
+   "body": "At Cenarion Hold, the Cenarion Circle watches the awakening sands. Natalia joined her husband, Commander Mar'alith, in the wastes, hoping to learn why the silithid were returning and what lay among the ancient Qiraji ruins. She then joined an expedition led by Brann Bronzebeard, the famed explorer, with the dwarven researchers Rutgar Glyphshaper and Frankal Stonebridge.",
    "spoiler": 0
   },
   {
    "title": "The Crystal of Hive'Regal",
-   "body": "The expedition tracked strange emanations into the southern reaches of Hive'Regal. Deep in the hive's heart, they uncovered a colossal crystal etched with ancient Qiraji glyphs. Drawn by its whispering resonance, Natalia leaned in to study the markings closely. The dark magic within overwhelmed her mind in moments, fracturing her sanity and binding her will to C'Thun. Her dwarven companions carried her out to Cenarion Hold, where the druids woke her, but weeks later she stormed back into their camp, possessed and demanding a return to the hive, and had to be fought off. She is now a zealous guardian of the hive's dread master.",
+   "body": "The expedition followed strange emanations into the southern reaches of Hive'Regal. Deep in its heart, the companions found a colossal crystal marked with ancient Qiraji glyphs. Natalia leaned close to study the markings, drawn by the crystal's whispering resonance. Dark magic overwhelmed her mind and bound her will to C'Thun.\n\nHer dwarven companions carried Natalia to Cenarion Hold, where druids woke her. Weeks later, she stormed back into their camp, possessed and demanding to return to the hive. They had to fight her off. Now Natalia guards the hive's dread master with zeal.",
    "spoiler": 1
   },
   {
    "title": "The Commander's Anguish",
-   "body": "Back at Cenarion Hold, Commander Mar'alith clings desperately to the hope that his wife can be saved, refusing to accept that her mind has been irrevocably shattered. Yet anyone who braves Hive'Regal finds not a captive in need of rescue, but a ruthless servant of madness wielding sacred priest magic warped by the Old God's malice.",
+   "body": "At Cenarion Hold, Commander Mar'alith clings to hope that his wife can be saved. He cannot accept that her mind has been irrevocably shattered. Those who brave Hive'Regal find no captive awaiting rescue. Natalia is a ruthless servant of madness, wielding sacred priest magic warped by the Old God's malice.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is natalia",
     "commander maraliths wife"
    ],
-   "answer": "Natalia Mar'alith is a night elf priestess of the Cenarion Circle and the wife of Commander Mar'alith. She joined Brann Bronzebeard's scouting expedition into Hive'Regal to study the resurgence of the silithid, where she fell victim to dark ancient magic."
+   "answer": "Natalia Mar'alith is a night elf priestess of the Cenarion Circle and Commander Mar'alith's wife. She joined Brann Bronzebeard's expedition into Hive'Regal to study the silithid's resurgence, where dark ancient magic overcame her."
   },
   {
    "q": "Where can I find Natalia Mar'alith?",
@@ -43,7 +43,7 @@
     "where is natalia",
     "hive regal priestess"
    ],
-   "answer": "She is located deep within the insectoid tunnels of Hive'Regal in southern Silithus, standing vigil before a glowing glyph-covered crystal."
+   "answer": "Natalia Mar'alith is deep in Hive'Regal's tunnels in southern Silithus, keeping watch before a glowing crystal covered in glyphs."
   },
   {
    "q": "Why is Natalia hostile to adventurers?",
@@ -52,7 +52,7 @@
     "why is natalia crazy",
     "natalia brainwashed"
    ],
-   "answer": "While examining a Qiraji crystal, Natalia was utterly corrupted and mentally broken by the whisperings of the Old God C'Thun. She now fanatically defends the crystal from anyone who enters the hive."
+   "answer": "As Natalia studied a Qiraji crystal, the whispers of the Old God C'Thun corrupted her and shattered her mind. She now fiercely defends the crystal from anyone who enters the hive."
   },
   {
    "q": "Who was with Natalia when she went missing?",
@@ -61,7 +61,7 @@
     "who was with natalia",
     "brann and natalia"
    ],
-   "answer": "She ventured into Hive'Regal with Brann Bronzebeard, Rutgar Glyphshaper, and Frankal Stonebridge. Rutgar and Frankal survived the ordeal and retreated to the Bronzebeard Encampment in southern Silithus to tell the tale."
+   "answer": "Natalia entered Hive'Regal with Brann Bronzebeard, Rutgar Glyphshaper, and Frankal Stonebridge. Rutgar and Frankal survived and retreated to the Bronzebeard Encampment in southern Silithus to tell what happened."
   },
   {
    "q": "Why is she so dangerous in combat?",
@@ -70,17 +70,17 @@
     "how to beat natalia",
     "natalia heal"
    ],
-   "answer": "Natalia retains her formidable priest powers, continually scattering attackers with Psychic Scream and restoring her strength through near-costless Greater Heals, making her very difficult to overcome without constant interruptions."
+   "answer": "Natalia keeps her formidable priest powers. Her Psychic Scream scatters attackers, and her Greater Heals restore her strength at almost no cost, making her difficult to defeat without constant interruptions."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Natalia's tragic fall is a somber reminder to the kaldorei that even their most dedicated priestesses are vulnerable to the ancient horrors buried beneath the sands of Silithus."
+   "text": "Natalia's fall reminds the kaldorei that even their most dedicated priestesses can fall prey to the ancient horrors beneath Silithus's sands."
   },
   {
    "target": "faction:Alliance",
-   "text": "Rutgar Glyphshaper and Frankal Stonebridge at the Bronzebeard Encampment share the grim details of her fall with Alliance explorers retracing Brann's expedition."
+   "text": "At the Bronzebeard Encampment, Rutgar Glyphshaper and Frankal Stonebridge share grim details of Natalia's fall with Alliance explorers retracing Brann's expedition."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Natalia Mar'alith"
- ]
+ ],
+ "style": 2
 }

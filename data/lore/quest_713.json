@@ -25,21 +25,21 @@
   ],
   "category": "Badlands"
  },
- "summary": "Lotwil Veriatus wants a vial of Frost Oil to strengthen the shackles meant to hold a summoned friend in check. Bro'kin, a goblin friend of Lotwil's in Alterac, can teach you to make it.",
+ "summary": "Lotwil Veriatus needs Frost Oil for the shackles holding his summoned friend. Bro'kin, Lotwil's goblin friend in Alterac, can teach you to make it.",
  "sections": [
   {
    "title": "A Vital Coolant",
-   "body": "Lotwil Veriatus swears nothing keeps an engine or gears from overheating like Frost Oil, and that its worth as a lubricant is without equal. It also helps magical items hold on to their enchantments. A vial would raise the magical capacity of Lotwil's shackles, making them strong enough to stop the summoned friend from killing everyone.",
+   "body": "Lotwil Veriatus says Frost Oil keeps engines and gears from overheating. He calls it an unmatched lubricant. It also helps magical items hold their enchantments. The oil could strengthen Lotwil's shackles enough to stop his summoned friend from killing everyone.",
    "spoiler": 0
   },
   {
    "title": "Bro'kin of Alterac",
-   "body": "Bro'kin, a goblin friend of Lotwil's, can teach you to make the oil. Bro'kin is in the Ruins of Alterac, and sells from a spot up on the wall of the old city.",
+   "body": "Bro'kin, Lotwil's goblin friend, can teach you to make Frost Oil. He sells from a spot on the old city's wall in the Ruins of Alterac.",
    "spoiler": 0
   },
   {
    "title": "When the Oil Arrives",
-   "body": "Once the oil arrives, Lotwil calls it the perfect coolant for the new bracers. Lotwil swears that if the enchantments do not last a century, all Lotwil's belongings will go to Servo. Lotwil also expects the mages of the Assembly to be in awe when the work is finished.",
+   "body": "When the oil arrives, Lotwil calls it the perfect coolant for the new bracers. He swears that if the enchantments do not last a century, all his belongings will go to Servo. Lotwil expects the mages of the Assembly to be in awe when the work is finished.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "what is frost oil for",
     "lotwil oil"
    ],
-   "answer": "A vial would increase the magical capacity of Lotwil's shackles, so they are strong enough to stop the summoned friend from killing everyone."
+   "answer": "Frost Oil would strengthen Lotwil Veriatus's shackles enough to stop his summoned friend from killing everyone."
   },
   {
    "q": "Who knows how to brew Frost Oil?",
@@ -60,7 +60,7 @@
     "where to learn frost oil",
     "brokin recipe"
    ],
-   "answer": "Bro'kin, a goblin friend of Lotwil's, can teach you to make it. He is in the Ruins of Alterac, up on a wall of the old city."
+   "answer": "Bro'kin, Lotwil Veriatus's goblin friend, can teach you to make Frost Oil. He sells from a spot on the old city's wall in the Ruins of Alterac."
   },
   {
    "q": "What is special about Frost Oil?",
@@ -68,7 +68,7 @@
     "frost oil properties",
     "why is frost oil good"
    ],
-   "answer": "Lotwil says nothing keeps an engine or gears from overheating like it, that it lasts as a lubricant without equal, and that it helps magical items hold on to enchantments."
+   "answer": "Lotwil Veriatus says Frost Oil keeps engines and gears from overheating. He calls it an unmatched lubricant, and says it helps magical items hold their enchantments."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Coolant Heads Prevail"
- ]
+ ],
+ "style": 2
 }

@@ -21,16 +21,16 @@
   ],
   "category": "Tanaris"
  },
- "summary": "Spigot Operator Luglunket in Gadgetzan wants the Wastewander water pouches the nomads stole, wherever you find them out in the desert. The Gadgetzan Water Company offers an official care package in return for each five.",
+ "summary": "In Gadgetzan, Spigot Operator Luglunket asks you to recover the Wastewander water pouches stolen by the nomads. Bring them back from anywhere in the desert, and the Gadgetzan Water Company offers an official care package for every five.",
  "sections": [
   {
    "title": "Water That Belongs to Gadgetzan",
-   "body": "Luglunket, a seasoned spigot operator, would like nothing better than to receive the Wastewander water pouches you come across in the desert. It was Gadgetzan's water in the first place, and the nomads simply stole it. For every five pouches brought in, the Gadgetzan Water Company offers an official care package, and you are helping Gadgetzan help itself.",
+   "body": "Spigot Operator Luglunket wants you to bring back the Wastewander water pouches you find in the desert. The nomads stole Gadgetzan's water, so every pouch helps the town reclaim what is its own. For every five pouches returned, the Gadgetzan Water Company offers an official care package.",
    "spoiler": 0
   },
   {
    "title": "Keep Them Coming",
-   "body": "Luglunket is glad of every pouch reclaimed, since each one keeps everyone further from disaster. Luglunket promises to make it worth your while for every five pouches you bring.",
+   "body": "Luglunket welcomes every reclaimed pouch because each one puts disaster further off. Bring back five, and Luglunket promises to make it worth your while.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "luglunket role",
     "spigot operator"
    ],
-   "answer": "A seasoned spigot operator in Gadgetzan who asks for Wastewander water pouches."
+   "answer": "Spigot Operator Luglunket is a seasoned spigot operator in Gadgetzan who wants the Wastewander water pouches returned."
   },
   {
    "q": "Why does Luglunket want Wastewander water pouches?",
@@ -51,7 +51,7 @@
     "why kill wastewander",
     "wastewander water lore"
    ],
-   "answer": "The water is Gadgetzan's own, and the nomads stole it."
+   "answer": "The Wastewander nomads stole water that belongs to Gadgetzan."
   },
   {
    "q": "Where can Wastewander water pouches be found?",
@@ -60,7 +60,7 @@
     "wastewander pouch location",
     "who drops water pouches"
    ],
-   "answer": "Out in the desert, in the hands of the Wastewander nomads who stole them."
+   "answer": "The stolen pouches are somewhere in the desert, in the hands of the Wastewander nomads."
   },
   {
    "q": "What does the Gadgetzan Water Company offer for the pouches?",
@@ -68,7 +68,7 @@
     "care package",
     "what do i get for pouches"
    ],
-   "answer": "One official care package for each set of five pouches."
+   "answer": "The Gadgetzan Water Company offers an official care package for every five pouches."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Water Pouch Bounty"
- ]
+ ],
+ "style": 2
 }

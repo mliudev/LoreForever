@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Forlorn Cloister"
  },
- "summary": "The Forlorn Cloister is the haunted graveyard wing of the Scarlet Monastery. Here, members of the Scarlet Crusade desperately torch the bodies of fallen brothers to prevent them from rising into undeath, while restless spirits and shambling corpses roam among the tombs.",
+ "summary": "Among the tombs of Forlorn Cloister, the fallen dead rise, and Scarlet Crusaders burn their bodies to stop them.",
  "sections": [
   {
    "title": "A Consecration Consumed",
-   "body": "Once a peaceful sanctuary where the priests and paladins of Lordaeron laid their honoured dead to rest, the Forlorn Cloister has become a grim charnel ground. Despite the Scarlet Crusade's fanatical vigilance, the taint of the plague has seeped deep into the earth. crusaders patrol the fog-shrouded cemetery with torches, frantically burning remains to stave off the rot. Even so, spectres glide between crypts and the dead pull free from their graves, ruled over by dark magic deep within the grounds.",
+   "body": "You enter a graveyard where Scarlet Crusaders hurry between tombs with torches. They burn their fallen brothers, but the plague has already tainted the earth beneath them.\n\nOnce, priests and paladins of Lordaeron laid their honoured dead here in peace. Now spectres drift between the crypts, and corpses claw their way from the graves. The Crusaders keep watch, yet dark magic deep in the grounds still calls the dead to rise.",
    "spoiler": 0
   },
   {
    "title": "The Master of the Tombs",
-   "body": "Deep within the cloister lurks Bloodmage Thalnos, a skeletal sorcerer whose undeath embodies the tragedy of the Monastery. Hungering for vengeance, Thalnos wields dark magic, binding the souls of the deceased and slaughtering any who dare intrude upon his blighted graveyard.",
+   "body": "Bloodmage Thalnos commands the dead within the cloister. A skeletal sorcerer, he is another of the Monastery's tragedies, lost to undeath and hungry for vengeance. With dark magic, he binds the souls of the deceased and slaughters anyone who enters his blighted graveyard.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is cloister",
     "graveyard wing"
    ],
-   "answer": "The Forlorn Cloister makes up the outdoor graveyard wing of the Scarlet Monastery, situated in the northeastern corner of Tirisfal Glades."
+   "answer": "Forlorn Cloister occupies the outdoor graveyard wing of the Scarlet Monastery, in the northeastern corner of Tirisfal Glades."
   },
   {
    "q": "Why are the Scarlet Crusaders burning bodies here?",
@@ -37,7 +37,7 @@
     "burning bodies scarlet",
     "what are crusaders doing"
    ],
-   "answer": "The Crusade burns the dead in a desperate attempt to keep the Scourge plague from animating their fallen comrades. Because the soil of the cloister is already tainted, unburned bodies swiftly rise as mindless zombies."
+   "answer": "The Scarlet Crusade burns its fallen in a desperate effort to keep the Scourge plague from raising them. The cloister's soil is already tainted, and unburned bodies soon rise as mindless zombies."
   },
   {
    "q": "Who rules over the Forlorn Cloister?",
@@ -46,7 +46,7 @@
     "who is in charge here",
     "graveyard boss"
    ],
-   "answer": "The graveyard is dominated by Bloodmage Thalnos, a powerful undead spellcaster who commands the wandering dead and attacks any living intruders."
+   "answer": "Bloodmage Thalnos rules the graveyard. The powerful undead spellcaster commands the wandering dead and attacks living intruders."
   },
   {
    "q": "Why is the graveyard haunted if the Scarlet Crusade holds the Monastery?",
@@ -55,17 +55,17 @@
     "why undead in monastery",
     "is graveyard scourge"
    ],
-   "answer": "Despite their religious fervour, the Crusaders have lost control of their own cemetery. The relentless necromantic energies sweeping through Lordaeron have stirred the buried dead, leaving the living garrison trapped in a ceaseless battle against the spirits of their former peers."
+   "answer": "The Scarlet Crusaders have lost control of their cemetery despite their religious fervour. Necromantic energies sweeping through Lordaeron have stirred the buried dead, leaving the living garrison in a ceaseless fight against the spirits of their former peers."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Walking the Forlorn Cloister is a sobering reminder of what happens when holy sanctums fall to darkness, as holy rites give way to frantic pyres and tortured apparitions."
+   "text": "As a priest, you see what happens when a holy sanctum falls to darkness. Sacred rites give way to frantic pyres, and tortured apparitions roam the grounds."
   },
   {
    "target": "race:Undead",
-   "text": "The Forsaken observe a grim irony in the cloister: the zealous Crusaders who brand all undead as monsters cannot even stop their own brothers from rising beneath their feet."
+   "text": "As Forsaken, you may see a grim irony here. The zealous Crusaders brand all undead as monsters, yet cannot stop their own brothers from rising beneath their feet."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Forlorn Cloister"
- ]
+ ],
+ "style": 2
 }

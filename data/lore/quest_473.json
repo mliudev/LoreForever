@@ -17,16 +17,16 @@
   "wiki": "Report to Captain Stoutfist",
   "chain": []
  },
- "summary": "After the fighting at Dun Algaz, Report to Captain Stoutfist sends proven fighters into Menethil Harbor's keep. The harbor is an Alliance military post, where Valstag Ironjaw directs you to Captain Stoutfist as the Dragonmaw threat spreads across the Wetlands.",
+ "summary": "In Menethil Harbor, Valstag Ironjaw sends proven fighters to Captain Stoutfist as the Dragonmaw threat spreads across the Wetlands. The harbor is an Alliance military post, and the captain directs its defense from the keep.",
  "sections": [
   {
    "title": "A Widening Threat",
-   "body": "Dwarven mountaineers have watched the narrow passes of Dun Algaz for years. The Dragonmaw clan's return reaches beyond Loch Modan, though, as the orcs push outward, raise encampments, and threaten the marshlands. Valstag Ironjaw knows that holding the pass is only the first step in protecting the road to Ironforge.",
+   "body": "For years, dwarven mountaineers have watched Dun Algaz's narrow passes. Now the Dragonmaw clan has returned beyond Loch Modan. The orcs push outward, raise encampments, and threaten the marshlands. Valstag Ironjaw knows the pass is only the first part of keeping the road to Ironforge safe.",
    "spoiler": 0
   },
   {
    "title": "The War Room of Menethil",
-   "body": "Captain Stoutfist oversees Menethil Harbor's defenses from the war room inside Menethil Keep. Dark Iron saboteurs, local beasts, and marsh murlocs all threaten the port, so the captain depends on capable volunteers to counter dangers beyond the walls. Valstag sends you to carry out direct orders against the Dragonmaw war machine.",
+   "body": "Captain Stoutfist directs Menethil Harbor's defenses from the war room inside Menethil Keep. Dark Iron saboteurs, local beasts, and marsh murlocs threaten the port. So the captain relies on capable volunteers to meet dangers beyond the walls. Valstag sends you to carry out direct orders against the Dragonmaw war machine.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "valstag ironjaw"
    ],
-   "answer": "Valstag Ironjaw, stationed in Menethil Keep in Menethil Harbor, sends you to Captain Stoutfist after you prove yourself in battle against the local Dragonmaw orcs."
+   "answer": "Valstag Ironjaw, stationed in Menethil Keep in Menethil Harbor, sends you to Captain Stoutfist after you prove yourself against the local Dragonmaw orcs."
   },
   {
    "q": "Where is Captain Stoutfist located?",
@@ -47,7 +47,7 @@
     "where is stoutfist",
     "menethil war room"
    ],
-   "answer": "Captain Stoutfist is inside Menethil Keep, in the western Wetlands town of Menethil Harbor. He stands over tactical maps in the keep's war room."
+   "answer": "Captain Stoutfist is inside Menethil Keep in Menethil Harbor, a town in the western Wetlands. He studies tactical maps in the keep's war room."
   },
   {
    "q": "Why are the Dragonmaw orcs a priority for Menethil Keep?",
@@ -83,7 +83,7 @@
     "why are troops busy",
     "harbor problems"
    ],
-   "answer": "Menethil Harbor faces constant threats from marsh wildlife, encroaching murlocs, and hostile Dark Iron dwarves trying to undermine the port. With garrison forces defending the walls and docks, Captain Stoutfist relies on outside champions to strike distant orc outposts."
+   "answer": "Menethil Harbor faces constant threats from marsh wildlife, encroaching murlocs, and hostile Dark Iron dwarves trying to undermine the port. With garrison forces guarding the walls and docks, Captain Stoutfist relies on outside champions to strike distant orc outposts."
   }
  ],
  "angles": [
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you bring the raw combat prowess Valstag Ironjaw seeks when he sends seasoned front-line fighters to Captain Stoutfist's command."
+   "text": "As a warrior, you bring the combat prowess Valstag Ironjaw seeks when he sends seasoned front-line fighters to Captain Stoutfist's command."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Report to Captain Stoutfist"
  ],
- "style": 1
+ "style": 2
 }

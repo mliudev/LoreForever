@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sanctum (Stromgarde Keep)"
  },
- "summary": "The Sanctum is a sacred redoubt tucked behind the chapel within Stromgarde Keep. Sheltered within the crumbling fortress, it guards the entrance to the ancestral Trollbane family crypt and stands as one of the few remaining bastions of the Holy Light amidst Arathi's ruin.",
+ "summary": "Behind the chapel in Stromgarde Keep, the Sanctum remains a sacred refuge. It guards the way to the Trollbane family crypt amid Arathi's ruin.",
  "sections": [
   {
    "title": "A Bastion in the Ruins",
-   "body": "While much of Stromgarde Keep has fallen to Syndicate infiltrators and the Boulderfist ogres, the Sanctum and its adjacent chapel have remained under the fierce protection of the surviving Stromgarde defenders. Located behind the house of worship, the Sanctum borders the citadel's graveyard and marks the threshold to the royal crypt where the kings of Stromgarde rest. For the battered loyalists rallying around Prince Galen Trollbane, holding this hallowed ground represents more than a tactical foothold; it is a desperate fight to keep their kingdom's ancestral heritage and faith from being trampled by invaders.",
+   "body": "Syndicate infiltrators and Boulderfist ogres have taken much of Stromgarde Keep. Yet defenders still hold the Sanctum and the chapel beside it. Behind the Church of Light, the Sanctum borders the keep's graveyard and marks the way into the royal crypt, where Stromgarde's kings rest. Prince Galen Trollbane's loyalists defend this ground to protect their kingdom's ancestral heritage and faith from the invaders.",
    "spoiler": 0
   },
   {
    "title": "Threshold of the Kings",
-   "body": "Beneath the stone flags of the Sanctum lies the passage into the royal tomb. The ground here is consecrated, intended as a place of peaceful reflection and worship of the Holy Light. In the wake of King Thoras Trollbane's murder and the kingdom's subsequent collapse, the Sanctum has instead become a defensive retreat. Those seeking to breach the inner sanctum must contend not only with the royal guards garrisoned throughout the halls, but with the haunting reality of an ancient human lineage clinging to survival on its sacred threshold.",
+   "body": "Stone flags cover the passage into the royal tomb beneath the Sanctum. The ground is consecrated for quiet reflection and worship of the Holy Light. After King Thoras Trollbane's murder and Stromgarde's collapse, the Sanctum became a defensive retreat. Royal guards hold its halls against anyone seeking the inner tomb. At this sacred threshold, an ancient human lineage clings to survival.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "stromgarde sanctum",
     "sanctum stromgarde keep"
    ],
-   "answer": "The Sanctum is the inner area behind the Church of Light's chapel within Stromgarde Keep. It adjoins the keep's graveyard and leads directly into the ancestral Trollbane family crypt."
+   "answer": "The Sanctum lies behind the Church of Light's chapel within Stromgarde Keep. It adjoins the keep's graveyard and leads into the Trollbane family crypt."
   },
   {
    "q": "Who controls the Sanctum right now?",
@@ -37,7 +37,7 @@
     "sanctum guards",
     "who holds the sanctum"
    ],
-   "answer": "The Sanctum is held by surviving Stromgarde soldiers loyal to the Alliance and Prince Galen Trollbane. Unlike the rest of the ruined city overrun by Syndicate bandits and Boulderfist ogres, the chapel and Sanctum remain under human guard."
+   "answer": "Surviving Stromgarde soldiers loyal to the Alliance and Prince Galen Trollbane hold the Sanctum. Human guards defend the chapel and Sanctum while Syndicate bandits and Boulderfist ogres overrun the rest of the ruined city."
   },
   {
    "q": "What lies beyond the Sanctum?",
@@ -46,7 +46,7 @@
     "sanctum crypt",
     "what is behind the sanctum"
    ],
-   "answer": "Past the Sanctum lies the Trollbane family crypt, where the fallen rulers of Stromgarde, including the recently slain King Thoras Trollbane, are entombed."
+   "answer": "The Trollbane family crypt lies beyond the Sanctum. It holds Stromgarde's fallen rulers, including the recently slain King Thoras Trollbane."
   },
   {
    "q": "Why is this area important to Stromgarde?",
@@ -55,17 +55,17 @@
     "sanctum significance",
     "why is sanctum defended"
    ],
-   "answer": "Beyond serving as a consecrated center of worship for the Holy Light, the Sanctum protects the royal resting place of Stromgarde's kings. For the surviving defenders, surrendering it would mean allowing invaders to desecrate their ancestors' graves."
+   "answer": "The Sanctum is consecrated for worship of the Holy Light and guards the resting place of Stromgarde's kings. Its defenders fight to keep invaders from desecrating their ancestors' graves."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The chapel and Sanctum represent the last undefiled sanctuaries of the Holy Light within the fallen capital of Arathi, making its defense a matter of solemn duty."
+   "text": "As a paladin, you find the chapel and Sanctum among the last undefiled sanctuaries of the Holy Light in Arathi's fallen capital. Defending them is a solemn duty."
   },
   {
    "target": "faction:Alliance",
-   "text": "Holding the Sanctum ensures the royal line of Trollbane retains a grasp on their ancestral seat, keeping the Alliance presence alive in the contested ruins of Stromgarde."
+   "text": "As an Alliance member, you help hold the Trollbane ancestral seat and keep the Alliance presence alive in Stromgarde's contested ruins."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Sanctum (Stromgarde Keep)"
- ]
+ ],
+ "style": 2
 }

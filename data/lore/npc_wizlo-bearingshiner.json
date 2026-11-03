@@ -8,16 +8,16 @@
   "wiki": "Wizlo Bearingshiner",
   "refs": 4
  },
- "summary": "Wizlo Bearingshiner is a goblin tinkerer stranded at Whitereach Post in Thousand Needles. The sole survivor of a centaur attack on his caravan, he recruits travelers to recover a valuable Hypercapacitor Gizmo from the wreckage.",
+ "summary": "At Whitereach Post, Wizlo Bearingshiner waits for help after centaur attacked his caravan. The goblin tinkerer survived alone, while his clients still await their wares. He asks travelers to recover a valuable Hypercapacitor Gizmo from the wreckage.",
  "sections": [
   {
    "title": "An Engineer at the Post",
-   "body": "Staying alongside the tauren at Whitereach Post along the canyon road, Wizlo Bearingshiner faces an unwelcome delay. Centaur attacked his caravan, leaving him as its only survivor. His clients are waiting for their wares, and he worries that he will not deliver them in time.",
+   "body": "Wizlo Bearingshiner waits with the tauren at Whitereach Post, along the canyon road. Centaur attacked his caravan and left him as its only survivor. His clients still await their wares, and he fears he will not deliver them in time.",
    "spoiler": 0
   },
   {
    "title": "A Stranded Shipment",
-   "body": "Wizlo's best gizmo hangs around the neck of a fierce panther caged beside his ruined caravan north of Whitereach Post. Even the centaur avoid the beast. Wizlo offers travelers the cage key and a reward for recovering the hypercapacitor, though he admits he has yet to work out what the device actually does.",
+   "body": "Wizlo's best gizmo hangs around the neck of a fierce panther caged beside his ruined caravan, north of Whitereach Post. Even the centaur avoid the beast. Wizlo offers travelers the cage key and a reward for recovering the hypercapacitor. He does not know what the device does.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is wizlo",
     "whitereach goblin"
    ],
-   "answer": "Wizlo Bearingshiner is a goblin tinkerer stranded at Whitereach Post in Thousand Needles after centaur attacked his caravan. He seeks help recovering a Hypercapacitor Gizmo from a caged panther."
+   "answer": "Wizlo Bearingshiner, a goblin tinkerer, waits at Whitereach Post in Thousand Needles after centaur attacked his caravan. He seeks help recovering a Hypercapacitor Gizmo from a caged panther."
   },
   {
    "q": "Where can I find Wizlo Bearingshiner?",
@@ -38,7 +38,7 @@
     "where is wizlo",
     "find wizlo"
    ],
-   "answer": "He is located at Whitereach Post, a Horde camp along the road near Camp E'thok in Thousand Needles."
+   "answer": "You can find Wizlo Bearingshiner at Whitereach Post, a Horde camp along the road near Camp E'thok in Thousand Needles."
   },
   {
    "q": "What kind of experiments does he run?",
@@ -47,7 +47,7 @@
     "what does wizlo do",
     "wizlo gadgets"
    ],
-   "answer": "Wizlo is trying to recover his Hypercapacitor Gizmo. He admits that he still needs to figure out what it does; the device's exact function is unknown."
+   "answer": "Wizlo is trying to recover his Hypercapacitor Gizmo. He does not know what it does, so its exact function is unknown."
   },
   {
    "q": "Why is a goblin working with the Horde at Whitereach Post?",
@@ -56,7 +56,7 @@
     "is wizlo horde",
     "goblin at whitereach"
    ],
-   "answer": "Whitereach Post is an unintended stop for Wizlo. Centaur attacked his caravan nearby, and he is stranded while his clients await their shipments."
+   "answer": "Wizlo did not mean to stop at Whitereach Post. Centaur attacked his caravan nearby, leaving him stranded while his clients await their shipments."
   },
   {
    "q": "Does Wizlo belong to the Steamwheedle Cartel?",
@@ -65,7 +65,7 @@
     "steamwheedle wizlo",
     "wizlo cartel"
    ],
-   "answer": "No Steamwheedle affiliation is established for Wizlo. He is stationed with the Horde at Whitereach Post and is concerned with recovering his goods and delivering them to his clients."
+   "answer": "No Steamwheedle affiliation is established for Wizlo. At Whitereach Post with the Horde, he is focused on recovering his goods and delivering them to his clients."
   },
   {
    "q": "What is the Hypercapacitor Gizmo?",
@@ -74,17 +74,17 @@
     "wizlo device",
     "gizmo quest"
    ],
-   "answer": "The Hypercapacitor Gizmo is a valuable device carried by a caged panther beside Wizlo's wrecked caravan. Its exact purpose is unknown\u2014even Wizlo says he has yet to figure out what it does."
+   "answer": "The Hypercapacitor Gizmo is a valuable device around the neck of a caged panther beside Wizlo's wrecked caravan. Even Wizlo does not know its purpose."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers may sympathize with Wizlo's desire to recover the mysterious Hypercapacitor Gizmo and discover what it does."
+   "text": "As an engineer, you may understand Wizlo's wish to recover the mysterious Hypercapacitor Gizmo and learn what it does."
   },
   {
    "target": "faction:Horde",
-   "text": "While making camp at Whitereach Post alongside the local Tauren, Horde travelers can easily employ Wizlo's mechanical expertise to secure useful gadgets."
+   "text": "At Whitereach Post, you can make camp alongside the local tauren and draw on Wizlo's mechanical expertise to secure useful gadgets."
   }
  ],
  "keywords": [
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "Wizlo Bearingshiner"
- ]
+ ],
+ "style": 2
 }

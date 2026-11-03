@@ -10,11 +10,11 @@
    "quest:499"
   ]
  },
- "summary": "In Tarren Mill, Apothecary Lydon brews an experimental draught for the Royal Apothecary Society. Its work aims to create a virulent plague against living humans and the Scourge.",
+ "summary": "In Tarren Mill, Apothecary Lydon tests a new draught for the Royal Apothecary Society. The Society seeks a plague that will kill living humans and the Scourge.",
  "sections": [
   {
    "title": "Apothecary Experimentation",
-   "body": "Apothecary Lydon gathers raw reagents from the wilderness around ruined Tarren Mill and combines them into toxic draughts. The work follows the Royal Apothecary Society's overarching mandate to formulate a new plague that will exterminate the living and the dead alike. To test the brew's potency, Lydon gives it to his assistant, a frog named Umpi.",
+   "body": "Around ruined Tarren Mill, Apothecary Lydon gathers raw reagents from the wilderness and mixes them into toxic draughts. His work follows the Royal Apothecary Society's charge to devise a plague that will exterminate the living and the dead alike. To test one brew, Lydon gives it to Umpi, his frog assistant.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does the elixir do",
     "elixir of suffering purpose"
    ],
-   "answer": "Apothecary Lydon brews the elixir as an experiment for the Royal Apothecary Society. The Society intends its new plague to eradicate living humans and the Scourge."
+   "answer": "Apothecary Lydon brews the elixir as an experiment for the Royal Apothecary Society. The Society seeks a plague to eradicate living humans and the Scourge."
   },
   {
    "q": "Who is Umpi?",
@@ -35,7 +35,7 @@
     "who is the toad",
     "lydon's assistant"
    ],
-   "answer": "Umpi is a frog kept by Apothecary Lydon in Tarren Mill. Though jokingly called his assistant, Umpi is an unwitting test subject for newly brewed alchemical toxins."
+   "answer": "Umpi is a frog kept by Apothecary Lydon in Tarren Mill. Lydon calls Umpi his assistant, but the frog is an unwitting test subject for his newly brewed toxins."
   },
   {
    "q": "What happens when Umpi drinks the elixir?",
@@ -43,13 +43,13 @@
     "does umpi die",
     "what happens to the toad"
    ],
-   "answer": "When Umpi drinks the Elixir of Suffering, the frog croaks and almost instantly succumbs to the poison. The test shows how deadly Lydon's brew is."
+   "answer": "When Umpi drinks the Elixir of Suffering, the frog croaks and almost at once succumbs to the poison. The test reveals how deadly Lydon's brew is."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Across Lordaeron, the Royal Apothecary Society works to create a weapon that will secure the Forsaken's independence from the Scourge and living humanity. Lydon's experiments in Tarren Mill are one step in that work."
+   "text": "Across Lordaeron, the Royal Apothecary Society works to make a weapon that will secure the Forsaken's independence from the Scourge and living humanity. Lydon's experiments in Tarren Mill are part of that work."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
   "Elixir of Suffering",
   "Elixir of Suffering (2)"
  ],
- "style": 1
+ "style": 2
 }

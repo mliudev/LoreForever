@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This task illustrates the restorative and spiritual purpose of modern orcish shamanism, using empowered relics to help heal lingering trauma among broken veterans."
+   "text": "As a shaman, you see how orcish shamanism can restore the spirits of veterans still burdened by trauma."
   },
   {
    "target": "race:Orc",
-   "text": "Gor'mul embodies the deep spiritual malaise and dishonor felt by old veterans denied what they considered an honorable death alongside their past Warchief."
+   "text": "As an orc, you may recognize the dishonor Gor'mul feels at being denied an honorable death beside his former Warchief."
   },
   {
    "target": "faction:Horde",
-   "text": "Under Thrall's leadership, the Horde actively seeks to reintegrate and uplift embittered veterans rather than abandon them to despair."
+   "text": "Under Thrall's leadership, the Horde seeks to reintegrate and uplift embittered veterans rather than abandon them to despair."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "gormul backstory",
     "what is wrong with gormul"
    ],
-   "answer": "Gor'mul is an embittered orc veteran consumed by grief and survivor's guilt. Having survived the conflicts of the older Horde when his Warchief fell, he views living on as a cruel twist of fate and rejects conventional sympathy.",
+   "answer": "Gor'mul is an embittered orc veteran who survived the older Horde's conflicts after his Warchief fell. He believes fate cruelly denied him an honorable death beside that leader and rejects ordinary sympathy.",
    "q": "Who is Gor'mul?"
   },
   {
@@ -41,7 +41,7 @@
     "what does torgan want",
     "torgan purpose"
    ],
-   "answer": "Tor'gan is a shaman trying to lift Gor'mul out of his bitter despair. Believing that reconnecting with the ancestral ways can restore broken spirits, Tor'gan crafts infused charms to remind former warriors of their people's spiritual rebirth.",
+   "answer": "Tor'gan is a shaman trying to lift Gor'mul from despair. He believes ancestral ways can restore broken spirits and shamanism can bring former warriors to spiritual rebirth. He crafts infused charms to remind them of their people's strength.",
    "q": "Who is Tor'gan and why is he helping Gor'mul?"
   },
   {
@@ -50,7 +50,7 @@
     "why did gormul throw the amulet",
     "did the amulet work"
    ],
-   "answer": "The amulet was an enchanted talisman prepared by Tor'gan to reawaken Gor'mul's warrior spirit through shamanic energy. When presented to Gor'mul, he rejected it and threw it to the ground, feeling its magic was insufficient to dispel his deep bitterness.",
+   "answer": "Tor'gan prepared the enchanted amulet to awaken Gor'mul's warrior spirit through shamanic energy. Gor'mul rejected it and threw it to the ground, believing its magic could not dispel his bitterness.",
    "q": "What was the purpose of the amulet?"
   },
   {
@@ -59,7 +59,7 @@
     "who was gormuls warchief",
     "who did gormul serve"
    ],
-   "answer": "While Gor'mul curses fate for denying him death alongside his Warchief in battle, he does not name him directly. His words reflect the tragic perspective of the old Horde's defeated remnants who longed for an honorable battlefield demise.",
+   "answer": "Gor'mul does not name the Warchief he mourns. He curses fate for denying him death beside his fallen leader in battle.",
    "q": "Which Warchief does Gor'mul mourn?"
   },
   {
@@ -68,7 +68,7 @@
     "what happens after raising spirits",
     "will gormul recover"
    ],
-   "answer": "Tor'gan remains patient despite the initial failure. He acknowledges that the amulet was not potent enough on its own, but maintains faith that demonstrating the true power of shamanism will eventually rekindle Gor'mul's lost pride.",
+   "answer": "Tor'gan accepts that the amulet lacked enough power on its own. He remains patient and believes shamanism's true power can rekindle Gor'mul's lost pride.",
    "q": "What does Tor'gan plan to do after the amulet fails?"
   },
   {
@@ -76,7 +76,7 @@
     "what does this show about shamans",
     "why use shaman magic here"
    ],
-   "answer": "The effort highlights the shaman's vital role within the new Horde as spiritual healers, working not merely to channel the elements for war, but to tend to the wounded minds and pride of their people.",
+   "answer": "Tor'gan uses shamanism to mend wounded minds and pride among his people. Shamans heal those wounds and channel the elements for war.",
    "q": "Why does Tor'gan use shamanism to help Gor'mul?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "In the wake of past wars, many orcish veterans struggle with the burdens of survival and perceived dishonor. Gor'mul is one such warrior, languishing in bitter despondency because he was denied what he considers an honorable death alongside his fallen Warchief. Tor'gan, an empathetic shaman, seeks to alleviate Gor'mul's suffering by reminding him of his people's spiritual strength. Believing that ancestral energies can heal emotional wounds, Tor'gan prepares an enchanted amulet intended to rekindle the old fighter's pride.",
+   "body": "Gor'mul grieves that he survived when his fallen Warchief did not. Many orc veterans bear the weight of past wars, but Gor'mul believes fate denied him an honorable death beside his leader. Tor'gan, a shaman, hopes to ease that sorrow by recalling his people's spiritual strength. He prepares an enchanted amulet and trusts ancestral power to rekindle the old warrior's pride.",
    "spoiler": 0,
    "title": "A Broken Spirit"
   },
   {
-   "body": "When delivered to Gor'mul, the talisman fails to produce the desired effect. In an outburst of resentment, Gor'mul casts the amulet to the dirt, questioning why anyone would show him mercy when fate denied him an honorable end. Tor'gan takes the setback in stride, recognizing that a single charm possessed insufficient power to overcome years of entrenched sorrow. Even so, the shaman remains steadfast in his mission, resolute that the burgeoning practice of shamanism will ultimately guide Gor'mul back to his former honor.",
+   "body": "Tor'gan's amulet reaches Gor'mul, but brings no comfort. Gor'mul casts it into the dirt and asks why anyone would show him mercy when fate denied him an honorable end. Tor'gan accepts that one charm cannot overcome years of sorrow. Still, he remains committed to helping Gor'mul, believing the growing practice of shamanism can guide him back to his former honor.",
    "spoiler": 1,
    "title": "The Limits of the Amulet"
   }
  ],
- "summary": "Raising Spirits is a Horde quest that addresses the lingering emotional trauma of an old orc veteran. Through the guidance of Tor'gan, a shaman attempts to reach the embittered Gor'mul using ancestral magic to restore his lost pride and will to live.",
+ "summary": "Tor'gan hopes ancestral magic can restore Gor'mul's pride and will to live. The shaman seeks to lift an old orc veteran from despair.",
  "attribution": [
   "In-game quest text: Raising Spirits"
- ]
+ ],
+ "style": 2
 }

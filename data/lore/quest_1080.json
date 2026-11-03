@@ -17,21 +17,21 @@
   "wiki": "Covert Ops - Beta",
   "chain": []
  },
- "summary": "In the Stonetalon Mountains, Gaxim Rustfizzle sends an agent into the Venture Company’s mine. Explosives will draw the goblins away while the agent takes letters that reveal the company’s plans and help defend the Sentinels’ lands.",
+ "summary": "In Stonetalon, Gaxim Rustfizzle sends an agent into the Venture Company’s mine. Explosives draw the goblins away while the agent takes letters that reveal company plans and help defend Sentinel lands.",
  "sections": [
   {
    "title": "Sabotage in the Depths",
-   "body": "After the first blows against the Venture Company’s logging at Windshear Crag, Gaxim Rustfizzle turns to the company’s supply heart. The plan follows the same pattern as before: an explosive diversion scatters goblin workers and mercenaries while an agent searches the mine for written orders and records.",
+   "body": "After the first blows against the Venture Company’s logging at Windshear Crag, Gaxim Rustfizzle turns to its supply heart. As before, explosives will scatter goblin workers and mercenaries. Then an agent searches the mine for written orders and records.",
    "spoiler": 0
   },
   {
    "title": "Eyes on Windshear Mine",
-   "body": "At the eastern edge of Windshear Crag, Windshear Mine is the Venture Company’s base beneath the mountain. Its goblins dig for rock and cut timber, keeping records of supply routes and orders from their leaders. An agent slips inside, sets Gaxim’s explosive packs, and takes the Venture Co. Letters. The blast disrupts the mine’s guard, and the letters reveal more of the company’s plans in Kalimdor.",
+   "body": "At the eastern edge of Windshear Crag, Windshear Mine is the Venture Company’s base beneath the mountain. Goblins dig for rock and cut timber there, keeping records of supply routes and orders from their leaders. An agent slips inside, sets Gaxim’s explosive packs, and takes the Venture Co. Letters. The blast disrupts the mine’s guard, and the letters reveal more of the company’s plans in Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "A Pragmatic Partnership",
-   "body": "Gaxim takes pleasure in clever devices and explosions, but the work also matters to the night elves. In Stonetalon, the Sentinels face the Horde as well as the companies cutting and digging through their lands. Letters from the mine give commanders such as Kaela Shadowspear information they can use to anticipate threats to the sacred woods.",
+   "body": "Gaxim takes pleasure in clever devices and explosions. His work also matters to the night elves. In Stonetalon, the Sentinels face the Horde and the companies cutting and digging through their lands. Letters from the mine give commanders such as Kaela Shadowspear information to anticipate threats to the sacred woods.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "gaxim rustfizzle",
     "who gives covert ops beta"
    ],
-   "answer": "Gaxim Rustfizzle is a gnome engineer in the Stonetalon Mountains. He uses his engineering and explosives to aid the night elf Sentinels against the Venture Company’s logging and mining."
+   "answer": "Gaxim Rustfizzle is a gnome engineer in the Stonetalon Mountains. He uses engineering and explosives to aid the night elf Sentinels against the Venture Company’s logging and mining."
   },
   {
    "q": "Where is Windshear Mine located?",
@@ -67,7 +67,7 @@
     "why steal letters",
     "what are the venture co letters"
    ],
-   "answer": "The Venture Co. Letters detail supply routes, orders from leaders, and plans for the region. They help the Alliance and the Sentinels anticipate the company’s actions and hinder its work in the forest."
+   "answer": "The Venture Co. Letters detail supply routes, leaders’ orders, and plans for the region. They help the Alliance and the Sentinels anticipate the company’s actions and hinder its work in the forest."
   },
   {
    "q": "How does this mission benefit the night elves?",
@@ -84,13 +84,13 @@
     "covert ops alpha",
     "previous mission"
    ],
-   "answer": "Plan Alpha was Gaxim’s earlier operation at the Venture Company lumber mill south of Cragpool Lake. An agent used an explosive diversion to steal the company’s engineering plans, and Plan Beta uses the same approach at Windshear Mine."
+   "answer": "Plan Alpha was Gaxim’s earlier operation at the Venture Company lumber mill south of Cragpool Lake. An agent used an explosive diversion to steal the company’s engineering plans. Plan Beta uses the same approach at Windshear Mine."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see engineering skill and careful planning put to military use in Gaxim Rustfizzle’s explosive devices and covert work."
+   "text": "As a gnome, you see engineering skill and careful planning put to military use in Gaxim Rustfizzle’s explosive devices and covert work."
   },
   {
    "target": "race:NightElf",
@@ -98,11 +98,11 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see how Gaxim’s Covert Ops Pack uses a clever explosive diversion to open a path through guarded ground."
+   "text": "As an engineer, you see how Gaxim’s Covert Ops Pack uses a clever explosive diversion to open a path through guarded ground."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see gnomish devices aid the night elves’ defense of their lands in central Kalimdor."
+   "text": "As an Alliance member, you see gnomish devices aid the night elves’ defense of their lands in central Kalimdor."
   }
  ],
  "keywords": [
@@ -125,5 +125,5 @@
  "attribution": [
   "Covert Ops - Beta"
  ],
- "style": 1
+ "style": 2
 }

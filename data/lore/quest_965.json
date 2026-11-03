@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx",
   "chain": []
  },
- "summary": "North of Auberdine, Sentinel Elissa Starbreeze fears trouble at an ancient ruin. She sent Balthule Shadowstrike to watch the Tower of Althalaxx, but he has missed his report.",
+ "summary": "North of Auberdine, Sentinel Elissa Starbreeze fears trouble at an ancient ruin. She sent Balthule Shadowstrike to watch the Tower of Althalaxx, but his report has not come.",
  "sections": [
   {
    "title": "A Scout Unaccounted For",
-   "body": "Sentinel Elissa Starbreeze watches for danger around Auberdine. Suspicious activity near the Tower of Althalaxx in northern Darkshore drew her notice, so she sent Balthule Shadowstrike to watch the ancient ruin. Days have passed without word from him. Elissa asks you to travel north, find Balthule, and make sure he has not met an untimely end.",
+   "body": "Sentinel Elissa Starbreeze keeps watch for danger around Auberdine. Suspicious activity near the Tower of Althalaxx in northern Darkshore caught her attention, so she sent Balthule Shadowstrike to watch the ancient ruin. Days have passed without word. Elissa asks you to travel north, find Balthule, and make sure he has not met an untimely end.",
    "spoiler": 0
   },
   {
    "title": "Eyes Upon the Ruin",
-   "body": "The road north from Auberdine passes ancient Kaldorei ruins and crosses the Cliffspring River before reaching the tower. Balthule survived his first watch, though he could not send word back to Auberdine. You find him in the surrounding woods, where he confirms Elissa's fears: dark and troubling events are underway inside the crumbling stone spire.",
+   "body": "The road north from Auberdine passes ancient Kaldorei ruins and crosses the Cliffspring River before it reaches the tower. Balthule survived his first watch, though he could send no word back to Auberdine. You find him in the surrounding woods. There, he confirms Elissa's fears: dark and troubling events are underway inside the crumbling stone spire.",
    "spoiler": 1
   }
  ],
@@ -117,5 +117,5 @@
  "attribution": [
   "The Tower of Althalaxx"
  ],
- "style": 1
+ "style": 2
 }

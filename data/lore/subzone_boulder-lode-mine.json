@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Corporate Claim",
-   "body": "Weathered orcish works frame the mine mouth, signs that the Horde once held or founded the claim. Now Venture Company overseers and enforcers answer to Boss Copperplug. The goblin syndicate strips the canyon for minerals, gems, and machinery, with little care for the land or its workers.",
+   "body": "Weathered orcish works frame the mine mouth. They show that the Horde once held or founded the claim. Now Venture Company overseers and enforcers answer to Boss Copperplug. The goblin syndicate strips the canyon for minerals, gems, and machinery, with little care for the land or its workers.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "boulder lode boss",
     "who is in boulder lode"
    ],
-   "answer": "The Venture Company runs Boulder Lode Mine under Boss Copperplug, with armed enforcers and overseers guarding its work."
+   "answer": "The Venture Company runs Boulder Lode Mine under Boss Copperplug. Armed enforcers and overseers guard its work."
   },
   {
    "q": "Did the Horde originally own this mine?",
@@ -37,7 +37,7 @@
     "horde mine",
     "why are there horde flags"
    ],
-   "answer": "Weathered orcish woodwork, watchtowers, and Horde banners suggest the Horde first established or claimed the site before the Venture Company took control."
+   "answer": "Weathered orcish woodwork, watchtowers, and Horde banners suggest the Horde first established or claimed the site. The Venture Company now controls it."
   },
   {
    "q": "Why is Wharfmaster Dizzywig interested in this place?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, seeing Venture Company crews work from fortifications marked with Horde standards is a bitter reminder of the cartel's reach across Kalimdor."
+   "text": "As a member of the Horde, you see Venture Company crews working from fortifications marked with Horde standards. It is a bitter reminder of the cartel's reach across Kalimdor."
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can see rich veins in the deep tunnels cut into the arid hills, where the Venture Company strips the earth without mercy."
+   "text": "As a miner, you can see rich veins in the deep tunnels cut into the arid hills. The Venture Company strips the earth without mercy."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Boulder Lode Mine"
  ],
- "style": 1
+ "style": 2
 }

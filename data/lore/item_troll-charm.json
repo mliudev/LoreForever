@@ -10,11 +10,11 @@
    "quest:6462"
   ]
  },
- "summary": "In Ashenvale, Troll Charms have been taken from fallen Darkspear travelers. The Thistlefur furbolgs seized the sacred amulets after ambushing the party on its way to Zoram'gar Outpost.",
+ "summary": "In Ashenvale, Troll Charms have been stolen from Darkspear travelers. The Thistlefur furbolgs took the sacred amulets after ambushing the party on its way to Zoram'gar Outpost.",
  "sections": [
   {
    "title": "Sacred Trinkets of the Darkspear",
-   "body": "Darkspear trolls carry spiritual charms as marks of dignity. Scout Mitsuwa says a troll without one is as diminished as an orc without battle scars. A party of Darkspear kin traveled through Ashenvale's canopy toward Zoram'gar Outpost when corrupted Thistlefur furbolgs ambushed and slaughtered them. Their spirits were commended to the afterlife, while the furbolgs took the charms as trophies and stashed them in chests deep within Thistlefur Hold.",
+   "body": "Darkspear trolls wear spiritual charms as marks of dignity. Scout Mitsuwa says a troll without one is as diminished as an orc without battle scars. A party of Darkspear kin traveled beneath Ashenvale's canopy toward Zoram'gar Outpost. Corrupted Thistlefur furbolgs ambushed and slaughtered them. Their spirits were commended to the afterlife, while the furbolgs took the charms as trophies and hid them in chests deep within Thistlefur Hold.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "why furbolgs have them",
     "who stole the charms"
    ],
-   "answer": "Thistlefur furbolgs ambushed and killed Darkspear travelers bound for Zoram'gar Outpost, then ransacked their belongings and kept the charms."
+   "answer": "Thistlefur furbolgs ambushed and killed Darkspear travelers bound for Zoram'gar Outpost. They ransacked their belongings and kept the charms."
   },
   {
    "q": "Who wants the charms back?",
@@ -87,5 +87,5 @@
   "Troll Charm",
   "Troll Charm (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Gornek",
   "refs": 1
  },
- "summary": "In the Valley of Trials, Gornek oversees new orc and Darkspear troll recruits in Durotar. He receives those preparing to prove their worth to the New Horde.",
+ "summary": "In the Valley of Trials, Gornek oversees new orc and Darkspear troll recruits preparing to prove their worth to the New Horde.",
  "sections": [
   {
    "title": "Welcoming the Unproven",
-   "body": "At the Valley of Trials, Gornek puts new Horde recruits through their first test of discipline. Warchief Thrall's order is clear: every youth and newcomer must earn a place through grit and perseverance. Gornek assesses those entering the valley, reads their introductory orders, and directs them to trainers around the compound. Whether an initiate carries an encrypted scrawl, a glyphic parchment, or a simple tablet, Gornek receives the credentials and sends them onto a harsh path of survival.",
+   "body": "At the Valley of Trials, Gornek assesses new Horde recruits and gives them their first test of discipline. Warchief Thrall's order is clear: every youth and newcomer must earn a place through grit and perseverance. Gornek reads their introductory orders and directs them to trainers around the compound. Whether they carry an encrypted scrawl, a glyphic parchment, or a simple tablet, he receives their credentials and sends them onto a hard path of survival.",
    "spoiler": 0
   },
   {
    "title": "A Life in Service to Durotar",
-   "body": "The valley's arid canyons test battle skill and teach the New Horde's communal ways. Gornek keeps novices from lingering aimlessly, pointing them toward nearby scorpid burrows, feral boar dens, and veteran instructors. Those who survive the training grounds and slay the threats in the red rock gullies receive Gornek's final acknowledgment before he sends them out into Durotar's wider, perilous landscape.",
+   "body": "The valley's arid canyons test battle skill and teach the New Horde's communal ways. Gornek keeps novices from lingering, pointing them toward nearby scorpid burrows, feral boar dens, and veteran instructors. Those who survive the training grounds and slay the threats in the red rock gullies receive his final acknowledgment. Then he sends them into Durotar's wider, perilous landscape.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is this orc",
     "who is gornek"
    ],
-   "answer": "Gornek is an orc greeter and taskmaster overseeing new Horde recruits in the Valley of Trials. He reads their induction documents and guides them to their class trainers."
+   "answer": "Gornek is an orc greeter and taskmaster who oversees new Horde recruits in the Valley of Trials. He reads their induction documents and guides them to their class trainers."
   },
   {
    "q": "Where can I find Gornek?",
@@ -47,7 +47,7 @@
     "parchment quest",
     "tablet quest"
    ],
-   "answer": "New arrivals bring training scrolls and tablets that name their chosen discipline. Gornek evaluates these letters of introduction, confirms their eligibility, and sends them to the appropriate mentors in the valley."
+   "answer": "New arrivals bring training scrolls and tablets naming their chosen discipline. Gornek evaluates these letters of introduction, confirms their eligibility, and sends them to the proper mentors in the valley."
   },
   {
    "q": "What is his role in the New Horde?",
@@ -55,17 +55,17 @@
     "gornek horde role",
     "what does gornek do"
    ],
-   "answer": "Gornek coordinates entry into Thrall's New Horde. He ensures recruits learn the basic tenets of honor, survival, and martial readiness before entering Durotar's broader lands."
+   "answer": "Gornek coordinates entry into Thrall's New Horde. He ensures recruits learn honor, survival, and martial readiness before they enter Durotar's broader lands."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For young orcs, reporting to Gornek is their first step toward shedding childhood and earning an honorable place in Durotar."
+   "text": "For young orcs, reporting to Gornek is their first step toward leaving childhood behind and earning an honorable place in Durotar."
   },
   {
    "target": "race:Troll",
-   "text": "As allies sheltered by Thrall, Darkspear trolls present their credentials to Gornek to prove they are capable equals alongside their orc brothers."
+   "text": "As allies sheltered by Thrall, Darkspear trolls present their credentials to Gornek and prove they are capable equals alongside their orc brothers."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Gornek"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,26 +27,26 @@
    "Guile of the Raptor"
   ]
  },
- "summary": "After the earlier Guile of the Raptor, Tor'gan hands you an orb and sends you to Gor'mul at Hammerfall. Its energy carries the essence of the raptor, meant to stir Gor'mul's spirit and give him new purpose.",
+ "summary": "At Hammerfall, Tor'gan sends you to Gor'mul with an orb to rouse the warrior's spirit. Its energy bears the raptor's essence and may give Gor'mul fresh purpose.",
  "sections": [
   {
    "title": "Tor'gan's Orb",
-   "body": "Tor'gan gives you an orb whose energy is meant to fill Gor'mul with the raptor's essence. He hopes it will rouse the warrior's spirit and set him on a fresh course in life. Once Gor'mul is himself again, Tor'gan means to explain the current state of the Horde to him and gain a great warrior's help in the unceasing battles.",
+   "body": "Tor'gan gives you an orb meant to fill Gor'mul with the raptor's essence. He hopes it will rouse the warrior's spirit and set him on a fresh course in life.\n\nOnce Gor'mul is himself again, Tor'gan plans to explain the Horde's present state. He hopes to win the help of a great warrior in its unceasing battles.",
    "spoiler": 0
   },
   {
    "title": "Gor'mul's Bitterness",
-   "body": "Gor'mul greets your return with sourness, saying he wants nothing more than more of Tor'gan's pity and mocking you with talk of brightly colored string.",
+   "body": "Gor'mul greets your return with bitterness. He says all he wants is more of Tor'gan's pity, then mocks you with talk of brightly colored string.",
    "spoiler": 0
   },
   {
    "title": "A Strange Power",
-   "body": "Still, the orb is something more interesting than what Gor'mul expected, and he remarks on the strange power it gives off.",
+   "body": "The orb draws Gor'mul's interest. He remarks on the strange power it gives off.",
    "spoiler": 1
   },
   {
    "title": "The Raptor Within",
-   "body": "As Gor'mul takes the orb, his blood stirs and the raptor's guile slips through him. He wonders aloud whether this is the shamanism Tor'gan spoke of, and then declares himself renewed, his strength returning.",
+   "body": "As Gor'mul takes the orb, his blood stirs and the raptor's guile slips through him. He wonders aloud if this is the shamanism Tor'gan spoke of. Then he declares himself renewed, with his strength returning.",
    "spoiler": 1
   }
  ],
@@ -58,7 +58,7 @@
     "gormul lore",
     "what is wrong with gormul"
    ],
-   "answer": "Gor'mul is a despondent warrior at Hammerfall. Tor'gan wants to lift his spirits and set him on a new course, so that the Horde can have a great warrior's help."
+   "answer": "At Hammerfall, Gor'mul is a despondent warrior. Tor'gan hopes to lift his spirits and set him on a new course, so the Horde can gain the aid of a great warrior."
   },
   {
    "q": "What is the purpose of Tor'gan's Orb?",
@@ -67,7 +67,7 @@
     "torgan orb purpose",
     "guile orb"
    ],
-   "answer": "Its energy is meant to fill Gor'mul with the raptor's essence, rousing his spirit and giving him fresh purpose."
+   "answer": "Tor'gan's Orb bears energy meant to fill Gor'mul with the raptor's essence. It may rouse his spirit and give him fresh purpose."
   },
   {
    "q": "What came before this step?",
@@ -75,7 +75,7 @@
     "previous quest",
     "prereq"
    ],
-   "answer": "An earlier Guile of the Raptor comes first, and this step builds on it."
+   "answer": "An earlier Guile of the Raptor comes first. This step builds on what happened there."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Guile of the Raptor (2)"
- ]
+ ],
+ "style": 2
 }

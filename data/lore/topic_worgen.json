@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Worgen"
  },
- "summary": "Worgen are fierce, lupine humanoids cursed with uncontrollable primal rage, moving upright yet hunting with bestial swiftness. Once thought to be mere nightmares conjured from other planes, these savage pack-hunters now terrorize Silverpine Forest, Ashenvale, and Duskwood.",
+ "summary": "Across Silverpine Forest, Ashenvale, and Duskwood, Worgen now hunt with bestial swiftness and a fury they cannot master. Once feared as nightmares from another realm, their beginnings remain uncertain.",
  "sections": [
   {
    "title": "Whispers and Folktales",
-   "body": "Long before their recent emergence in Lordaeron and Kalimdor, wolf-men were whispered of in folktales and cautionary fables. Their true origins remain a mystery: scholars who have studied the beasts believe they were drawn into Azeroth from another realm, and both Archmage Arugal and the night elves' Scythe of Elune have proven able to call them forth.",
+   "body": "Long before Worgen appeared in Lordaeron and Kalimdor, people told folktales and cautionary tales of wolf-men. Their beginnings remain a mystery. Scholars who have studied them believe they came to Azeroth from another realm. Archmage Arugal and the night elves' Scythe of Elune have both been shown to summon them.",
    "spoiler": 0
   },
   {
    "title": "Arugal's Folly",
-   "body": "During the Third War, as the Scourge hordes overran Lordaeron and slain Kirin Tor wizards rose again as undead, Archmage Arugal sought a weapon to bolster Dalaran's dwindling ranks. Drawing from the forbidden research of the Dalaran wizard Ur, Arugal pierced the veil and summoned the beasts into Silverpine Forest. The summoned worgen devastated the undead invaders with savage abandon, but the archmage could not leash their fury. The beasts turned on the wizards themselves, spreading their curse through fang and claw. Driven mad by guilt and fascination, Arugal adopted the monsters as his children, seizing Baron Silverlaine's ancestral seat\u2014now rechristened Shadowfang Keep\u2014and cursing nearby villagers into monstrous nocturnal servitude.",
+   "body": "During the Third War, the Scourge overran Lordaeron, and slain Kirin Tor wizards rose again as undead. Archmage Arugal sought a weapon to strengthen Dalaran's dwindling ranks. He used forbidden research by the Dalaran wizard Ur to pierce the veil and summon Worgen into Silverpine Forest. They savaged the undead invaders, but Arugal could not master their fury. The beasts turned on the wizards and spread their curse with fang and claw.\n\nMad with guilt and fascination, Arugal claimed the monsters as his children. He seized Baron Silverlaine's ancestral seat and renamed it Shadowfang Keep. There, he cursed nearby villagers into monstrous nocturnal servitude.",
    "spoiler": 0
   },
   {
    "title": "The Scythe Awoken",
-   "body": "Across the sea in Kalimdor, another summoning unleashed the worgen anew. Desperate to purge the lingering demonic remnants of the Burning Legion from Felwood, the night elf Sentinel Velinde Starsong unearthed the Scythe of Elune. Channelling the ancient relic, she called forth wolf-men to tear apart the demonic satyrs. Yet as battles raged, Velinde realized that the scythe had slipped beyond her command\u2014the beasts began to manifest without her consent, slipping into the dark forests of Ashenvale and beyond. Now roaming in wild, feral packs, the worgen spread terror wherever the shadow of their moonlit hunts falls.",
+   "body": "Across the sea in Kalimdor, the night elf Sentinel Velinde Starsong sought to purge Felwood of the Burning Legion's lingering demonic remnants. She unearthed the Scythe of Elune and used the ancient relic to summon Worgen against the demonic satyrs.\n\nAs the battles raged, Velinde realized the scythe had slipped beyond her command. Worgen began appearing without her consent, slipping into Ashenvale's dark forests and beyond. Wild packs now roam, spreading terror wherever their moonlit hunts reach.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "worgen lore",
     "wolf men"
    ],
-   "answer": "Worgen are ferocious, upright lupine humanoids possessed of terrifying strength, predatory senses, and dark shadow magic. They primarily dwell in secluded woodlands and ruins, hunting in packs under the thrall of uncontrollable bestial fury."
+   "answer": "Worgen are fierce, upright lupine humanoids with terrifying strength, predatory senses, and dark shadow magic. They dwell mainly in secluded woodlands and ruins, hunting in packs under the pull of an uncontrollable bestial fury."
   },
   {
    "q": "Where did the worgen originally come from?",
@@ -42,7 +42,7 @@
     "who made worgen",
     "how were worgen created"
    ],
-   "answer": "No one knows for certain. The beasts appear to come from another realm entirely: Archmage Arugal summoned them into Silverpine from beyond, and the night elves' Scythe of Elune has drawn them forth in Kalimdor."
+   "answer": "No one knows for certain where Worgen came from. They seem to come from another realm: Archmage Arugal summoned them into Silverpine from beyond, and the night elves' Scythe of Elune drew them forth in Kalimdor."
   },
   {
    "q": "How did worgen end up in Silverpine Forest?",
@@ -51,7 +51,7 @@
     "why are worgen in silverpine",
     "who summoned worgen"
    ],
-   "answer": "During the Third War, Archmage Arugal summoned them using the esoteric research of the late Dalaran wizard Ur. Arugal hoped they would bolster the Kirin Tor against the Scourge, but the unleashed beasts turned on everyone."
+   "answer": "During the Third War, Archmage Arugal summoned Worgen with research by the late Dalaran wizard Ur. He hoped they would strengthen the Kirin Tor against the Scourge, but the beasts turned on everyone."
   },
   {
    "q": "How does someone become a worgen?",
@@ -60,7 +60,7 @@
     "can you turn into a worgen",
     "worgen bite"
    ],
-   "answer": "The condition spreads as a virulent supernatural affliction. A bite or scratch from an active worgen infects humanoids, eventually causing victims to succumb to feral urges and transform into wolf-beasts unless restrained by potent discipline or specialized sorcery."
+   "answer": "Worgen spread a supernatural affliction. A bite or scratch from an active Worgen infects humanoids, and victims eventually succumb to feral urges and become wolf-beasts unless held back by potent discipline or specialized sorcery."
   },
   {
    "q": "What is the Scythe of Elune?",
@@ -68,7 +68,7 @@
     "scythe of elune",
     "scythe elune lore"
    ],
-   "answer": "The Scythe of Elune is a powerful night elf relic. It holds deep, volatile dominion over the worgen and possesses the power to summon and agitate them."
+   "answer": "The Scythe of Elune is a powerful night elf relic. It holds deep, volatile dominion over Worgen and can summon and agitate them."
   },
   {
    "q": "Who is Archmage Arugal?",
@@ -76,7 +76,7 @@
     "arugal",
     "who is arugal"
    ],
-   "answer": "Arugal was a Kirin Tor archmage of Dalaran. After summoning the worgen to fight the Scourge, he succumbed to madness and came to rule over the haunted ruins of Shadowfang Keep alongside his monstrous 'children.'"
+   "answer": "Archmage Arugal was a Kirin Tor archmage of Dalaran. After summoning Worgen to fight the Scourge, he succumbed to madness and came to rule the haunted ruins of Shadowfang Keep with his monstrous children."
   },
   {
    "q": "Why are worgen in Ashenvale and Kalimdor?",
@@ -85,25 +85,25 @@
     "kalimdor worgen",
     "terrowulf"
    ],
-   "answer": "Worgen packs now prowl Ashenvale and Felwood, and the Sentinels of Darnassus are still searching for how they came to Kalimdor. Their investigation follows the trail of the vanished Sentinel Velinde Starsong and an ancient relic, the Scythe of Elune."
+   "answer": "Worgen packs now prowl Ashenvale and Felwood, and the Sentinels of Darnassus still seek to learn how they came to Kalimdor. Their search follows the trail of the vanished Sentinel Velinde Starsong and the Scythe of Elune."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The worgen are a cautionary tale of savage power summoned without the wisdom to control it, and their spread through Kalimdor's forests troubles the Cenarion Circle."
+   "text": "Worgen show the danger of summoning savage power without the wisdom to control it. Their spread through Kalimdor's forests troubles the Cenarion Circle."
   },
   {
    "target": "race:NightElf",
-   "text": "The worgen remain a troubling mystery for the kaldorei, whose Sentinels now find the beasts prowling Ashenvale and Felwood."
+   "text": "For the kaldorei, Worgen remain a troubling mystery. Sentinels now find the beasts prowling Ashenvale and Felwood."
   },
   {
    "target": "race:Undead",
-   "text": "In Silverpine Forest, the Forsaken battle feral worgen packs and Arugal's twisted cultists for mastery over the region south of the Ruins of Lordaeron."
+   "text": "In Silverpine Forest, the Forsaken battle feral Worgen packs and Arugal's twisted cultists for control of the region south of the Ruins of Lordaeron."
   },
   {
    "target": "class:Mage",
-   "text": "Dalaran's Kirin Tor long debated the research in Ur's mystical treatises; Arugal's catastrophic conjuring proved Ur's warnings that these nightmare creatures should never be summoned."
+   "text": "Dalaran's Kirin Tor long debated the research in Ur's mystical treatises. Arugal's catastrophic summoning proved Ur's warnings that these nightmare creatures should never be called forth."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Worgen"
- ]
+ ],
+ "style": 2
 }

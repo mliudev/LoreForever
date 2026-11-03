@@ -17,21 +17,21 @@
   "wiki": "Prowlers of the Barrens",
   "chain": []
  },
- "summary": "At the Crossroads, Sergra Darkthorn sends you after the savannah prowlers. Their claws will show whether you can face the Barrens' greatest beasts.",
+ "summary": "At the Crossroads, Sergra Darkthorn sends you to hunt prowlers of the Barrens. Their claws will show whether you can face the land’s greatest beasts.",
  "sections": [
   {
    "title": "A True Predator",
-   "body": "Sergra Darkthorn tests hunters who have already faced the plainstriders and zhevras. Southwest of the Crossroads, savannah prowlers vanish into the central Barrens' gold and ochre scrub. These great cats hunt instead of grazing with the herds. They wait in tall grass, then ambush their prey, and unwary travelers can fall to them.",
+   "body": "Hunters who have faced plainstriders and zhevras now face Sergra Darkthorn’s test. Southwest of the Crossroads, savannah prowlers vanish into the scrub of the central Barrens. Unlike the herds, these great cats hunt. They wait in tall grass and ambush their prey, so unwary travelers can fall to them.",
    "spoiler": 0
   },
   {
    "title": "Predator or Prey",
-   "body": "Sergra warns you that prowlers know how to hunt. Read the grasses and strike before a cat leaps if you mean to claim its paws and claws. Bring back seven prowler claws to show you have the cunning and quick reflexes to survive against Kalimdor's deadliest wildlife.",
+   "body": "Sergra warns you that prowlers know how to hunt. Read the grasses and strike before a cat leaps. Bring Sergra seven prowler claws to prove you have the cunning and quick reflexes to survive Kalimdor’s deadliest wildlife.",
    "spoiler": 0
   },
   {
    "title": "Stepping Toward the Champion",
-   "body": "Your fistful of claws proves you have learned to survive on the open savannah. Sergra is pleased with your martial skill and prepares a test of valor: summon and slay Echeyakee, the white lion revered as a champion among the Barrens' predators.",
+   "body": "Your fistful of claws proves you have learned to survive on the open savannah. Sergra is pleased with your martial skill and prepares a test of valor: summon and slay Echeyakee, the white lion revered as a champion among the Barrens’ predators.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who gives prowlers quest",
     "sergra darkthorn"
    ],
-   "answer": "Sergra Darkthorn, an experienced orc at the Crossroads in the Barrens, assigns the hunt as one step in a traditional series of hunting rites."
+   "answer": "Sergra Darkthorn, an experienced orc at the Crossroads, offers the hunt as one step in a traditional series of hunting rites."
   },
   {
    "q": "Where are the savannah prowlers located?",
@@ -52,7 +52,7 @@
     "prowler locations",
     "where to find savannah prowler"
    ],
-   "answer": "Savannah prowlers stalk the tall grasses southwest of the Crossroads, where they blend into the veldt and hunt zhevra and unsuspecting travelers."
+   "answer": "Savannah prowlers stalk tall grasses southwest of the Crossroads. They blend into the veldt and hunt zhevra and unsuspecting travelers."
   },
   {
    "q": "What trophies are required by Sergra?",
@@ -61,7 +61,7 @@
     "prowler quest items",
     "claws"
    ],
-   "answer": "Sergra requires seven Prowler Claws, taken from the cats in direct combat, to prove you have bested them."
+   "answer": "Sergra asks you to bring back seven Prowler Claws, taken from the cats in direct combat, to prove you have bested them."
   },
   {
    "q": "What does this hunt lead to?",
@@ -79,7 +79,7 @@
     "purpose of hunt",
     "lore reason"
    ],
-   "answer": "Sergra's trials cull dangerous beasts that threaten the roads and test whether hunters understand the balance between predator and prey. They weed out the reckless before greater threats await."
+   "answer": "Sergra’s trials cull dangerous beasts that threaten the roads and test whether hunters understand the balance between predator and prey. They weed out the reckless before greater threats await."
   },
   {
    "q": "Are savannah prowlers dangerous to the settlement?",
@@ -87,7 +87,7 @@
     "do prowlers attack crossroads",
     "threat to crossroads"
    ],
-   "answer": "Prowlers rarely attack fortified camps like the Crossroads, but they lurk near the southern roads and prey on travelers, messengers, and pack animals."
+   "answer": "Prowlers rarely attack fortified camps like the Crossroads. They lurk near the southern roads and prey on travelers, messengers, and pack animals."
   }
  ],
  "angles": [
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, helping tame the wilds around the Crossroads keeps supply convoys safe on the routes between Durotar, Mulgore, and the southern outposts."
+   "text": "As a member of the Horde, helping tame the wilds around the Crossroads keeps supply convoys safe on routes between Durotar, Mulgore, and the southern outposts."
   },
   {
    "target": "race:Tauren",
@@ -123,5 +123,5 @@
  "attribution": [
   "Prowlers of the Barrens"
  ],
- "style": 1
+ "style": 2
 }

@@ -24,16 +24,16 @@
   ],
   "category": "Alterac Mountains"
  },
- "summary": "The contract you recovered bears the name of Baron Vardus, a nobleman from the old kingdom of Alterac. Magistrate Henry Maleb in Southshore wants him found and brought to justice, and asks for the baron's head.",
+ "summary": "In Southshore, Magistrate Henry Maleb seeks justice for the contract you recovered. Baron Vardus, a cold-hearted nobleman of old Alterac, signed it, and Maleb asks you to bring him his head.",
  "sections": [
   {
    "title": "Justice for a Contract",
-   "body": "After Assassin's Contract, Magistrate Henry Maleb tells you that Baron Vardus put his name to the contract. Vardus is a nobleman from the old kingdom of Alterac, a man of cold heart and brutal ways, so Maleb is not surprised to find him behind it. Southshore will not let the baron send his thugs against the town without answering for it. Maleb wants him found among the Syndicate's haunts, perhaps in Strahnbrad's ruins or in the valley north of them, and asks for the baron's head.",
+   "body": "After Assassin's Contract, Magistrate Henry Maleb tells you Baron Vardus signed the contract. Vardus is a nobleman of old Alterac, known for his cold heart and brutal ways. Maleb is not surprised to find him behind it. Southshore will not let the baron send thugs against the town without answering for it.\n\nMaleb thinks Vardus may be among the Syndicate's haunts, in Strahnbrad's ruins or the valley north of them. He asks you to bring him the baron's head.",
    "spoiler": 0
   },
   {
    "title": "Maleb's Relief",
-   "body": "When you bring the baron's head, Maleb thanks you and says that knowing the villain has lost his own lets the magistrate rest a little easier.",
+   "body": "When you bring Baron Vardus's head, Magistrate Henry Maleb thanks you. Knowing the villain has lost his own lets Maleb rest a little easier.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who is vardus",
     "vardus alterac"
    ],
-   "answer": "A nobleman from the old kingdom of Alterac, with a cold heart and brutal ways. His name is on the contract that marked Maleb for death."
+   "answer": "Baron Vardus is a nobleman of old Alterac, known for his cold heart and brutal ways. His name is on the contract that marked Magistrate Maleb for death."
   },
   {
    "q": "Why does Magistrate Maleb want Baron Vardus dead?",
@@ -54,7 +54,7 @@
     "maleb vardus",
     "reason for baron's demise"
    ],
-   "answer": "Vardus put his name to the contract you recovered, and Maleb will not let him send thugs against Southshore without answering for it."
+   "answer": "Baron Vardus signed the contract you recovered. Magistrate Maleb will not let him send thugs against Southshore without answering for it."
   },
   {
    "q": "Where can Baron Vardus be found?",
@@ -63,7 +63,7 @@
     "where is vardus",
     "strahnbrad vardus"
    ],
-   "answer": "Maleb thinks Vardus is somewhere in the Syndicate's haunts, perhaps in Strahnbrad's ruins or in the valley north of them."
+   "answer": "Magistrate Maleb thinks Baron Vardus is among the Syndicate's haunts, perhaps in Strahnbrad's ruins or in the valley north of them."
   },
   {
    "q": "What comes before this?",
@@ -72,7 +72,7 @@
     "chain before baron's demise",
     "assassin's contract prerequisite"
    ],
-   "answer": "It follows Assassin's Contract, the contract you recovered that bears the baron's signature."
+   "answer": "It follows Assassin's Contract, the contract you recovered bearing Baron Vardus's name."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Baron's Demise"
- ]
+ ],
+ "style": 2
 }

@@ -21,16 +21,16 @@
   ],
   "wiki": null
  },
- "summary": "\"Swamp Eye\" Jarl at Swamplight Manor wants 40 unpopped Darkmist eyes, because Darkmist eye juice is smooth and salty. The spiders live in Darkmist Cavern, west of the manor.",
+ "summary": "At Swamplight Manor, Jarl seeks forty unpopped Darkmist eyes for their smooth, salty juice. The spiders live in Darkmist Cavern, west of the manor.",
  "sections": [
   {
    "title": "A Taste for Spider Eyes",
-   "body": "Following Soothing Spices, Jarl turns to eye juice, which is good for drinking. Most critters carry a mere pair of eyes, whereas spiders carry a great many, and Jarl finds Darkmist eye juice tasty. The Darkmist spiders live in Darkmist Cavern, west of the manor, and Jarl muses over whether the cave gave the spiders their name or the reverse.",
+   "body": "After Soothing Spices, Jarl turns to eye juice, a drink they enjoy. Most creatures have only two eyes, but spiders have many. Jarl likes the taste of Darkmist eye juice. The Darkmist spiders live in Darkmist Cavern, west of the manor. Jarl wonders whether the cave took its name from the spiders, or the spiders from the cave.",
    "spoiler": 0
   },
   {
    "title": "A Feast for Jarl",
-   "body": "Jarl cheers at the arrival of the eyes, calling them tasty. Jarl advises saving for last any that stare back when stared at, since they give a person something for company in the swamp. Jarl then greets the little eyes, tastes them and declares them like gooey, salty chicken.",
+   "body": "Jarl welcomes the eyes and calls them tasty. They say to save for last any eyes that stare back when stared at, since they can keep a person company in the swamp. Then Jarl greets the little eyes, tastes them, and says they are like gooey, salty chicken.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "jarl quest giver",
     "swamp eye jarl"
    ],
-   "answer": "\"Swamp Eye\" Jarl asks for them, at Swamplight Manor in Dustwallow Marsh."
+   "answer": "“Swamp Eye” Jarl asks for the eyes at Swamplight Manor in Dustwallow Marsh."
   },
   {
    "q": "Why does Jarl want spider eyes?",
@@ -51,7 +51,7 @@
     "what does jarl do with eyes",
     "eye juice"
    ],
-   "answer": "Jarl likes eye juice for drinking and finds Darkmist eye juice smooth and salty. Most critters have only two eyes, while spiders have a great many."
+   "answer": "Jarl enjoys drinking eye juice and likes Darkmist eye juice for its smooth, salty taste. Most creatures have only two eyes, while spiders have many."
   },
   {
    "q": "Where are the Darkmist spiders?",
@@ -60,7 +60,7 @@
     "where are darkmist spiders",
     "where to find eyes"
    ],
-   "answer": "Jarl places the Darkmist spiders in Darkmist Cavern, to the west of Swamplight Manor."
+   "answer": "The Darkmist spiders live in Darkmist Cavern, west of Swamplight Manor."
   },
   {
    "q": "How many eyes does Jarl want?",
@@ -68,7 +68,7 @@
     "how many eyes",
     "eye count"
    ],
-   "answer": "Jarl wants 40 unpopped Darkmist eyes."
+   "answer": "Jarl wants forty unpopped Darkmist eyes."
   },
   {
    "q": "What comes before this?",
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Classic quest text: Jarl Needs Eyes"
- ]
+ ],
+ "style": 2
 }

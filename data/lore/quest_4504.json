@@ -18,21 +18,21 @@
   "chain": [],
   "category": "Tanaris"
  },
- "summary": "Tran'rek in Gadgetzan wants a fast profit and has a new idea: a super sticky glue. The tar for it must come from beasts in northern Un'Goro Crater, near the tar pits, and Tran'rek will share a little of the profit.",
+ "summary": "In Gadgetzan, Tran'rek sees quick gold in super sticky glue. He needs tar from beasts near the pits in northern Un'Goro Crater and offers a little of the profit.",
  "sections": [
   {
    "title": "A Sticky Idea",
-   "body": "Tran'rek hopes this newest idea will bring quick gold, and offers you a little of the profit. Ordinary tar is not sticky enough. Twelve samples are wanted, taken from creatures dwelling near the tar pits of northern Un'Goro Crater.",
+   "body": "Tran'rek hopes his newest idea will bring quick gold, and offers you a little of the profit. Ordinary tar is not sticky enough. He wants twelve samples from creatures near the tar pits in northern Un'Goro Crater.",
    "spoiler": 0
   },
   {
    "title": "Why the Beasts",
-   "body": "The plant-like creatures around the pits have chlorophyll in their skin. Mixed with the tar, it makes a super sticky glue.",
+   "body": "The plant-like creatures around the pits have chlorophyll in their skin. Mixed with tar, it makes a super sticky glue.",
    "spoiler": 0
   },
   {
    "title": "Once the Tar Arrives",
-   "body": "Tran'rek handles the tar and soon finds hands stuck together. The scheme changes on the spot: a super sticky tar remover, Tran'rek decides, is where the real money is.",
+   "body": "When Tran'rek handles the tar, his hands soon stick together. He changes his plan on the spot. A super sticky tar remover, he decides, is where the real money lies.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "super sticky quest giver",
     "tran'rek quest"
    ],
-   "answer": "Tran'rek, in Gadgetzan."
+   "answer": "Tran'rek in Gadgetzan asks for the sticky tar."
   },
   {
    "q": "Why does the tar have to come from beasts?",
@@ -53,7 +53,7 @@
     "regular tar vs sticky tar",
     "why get tar from beasts"
    ],
-   "answer": "Regular tar is not sticky enough. The plant-like creatures around the tar pits have chlorophyll in their skin, which makes the tar super sticky."
+   "answer": "Ordinary tar is not sticky enough. The plant-like creatures around the tar pits have chlorophyll in their skin, which makes the tar super sticky."
   },
   {
    "q": "Where are the tar beasts?",
@@ -62,7 +62,7 @@
     "tar beasts location",
     "ungoro tar pits"
    ],
-   "answer": "By the tar pits of northern Un'Goro Crater."
+   "answer": "The tar beasts live by the tar pits in northern Un'Goro Crater."
   },
   {
    "q": "What does Tran'rek plan to do with the tar?",
@@ -71,7 +71,7 @@
     "super sticky purpose",
     "why does tran'rek want tar"
    ],
-   "answer": "Tran'rek wants to make super sticky glue as a quick way to earn gold, and promises a little of the profit to whoever helps."
+   "answer": "Tran'rek plans to make super sticky glue for quick gold and offers a little of the profit to whoever helps."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Super Sticky (Classic)"
- ]
+ ],
+ "style": 2
 }

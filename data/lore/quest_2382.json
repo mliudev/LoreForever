@@ -23,16 +23,16 @@
    "Plundering the Plunderers"
   ]
  },
- "summary": "In Orgrimmar, Wrenix of Ratchet draws Horde rogues toward a goblin port far to the south. Zando'zan sends them to aid Wrenix the Wretched, a disreputable goblin in Ratchet.",
+ "summary": "In Orgrimmar, Wrenix of Ratchet draws Horde rogues toward a goblin port far to the south. Zando'zan sends you to aid Wrenix the Wretched, a disreputable goblin in Ratchet.",
  "sections": [
   {
    "title": "A Prophet in the Shadows",
-   "body": "In Orgrimmar's Cleft of Shadow, the rogue guild works out of winding crevices, largely unseen. Zando'zan, a troll who speaks in wild ramblings, greets operatives with ominous portents. His visions include Warchief Thrall struck down by poison and blade. He gives no explanation for the prophecy, and quickly sends agents south to the port town of Ratchet in the Barrens.",
+   "body": "In the Cleft of Shadow, Orgrimmar's rogue guild works from winding crevices, mostly unseen. Zando'zan is a troll who greets operatives with wild ramblings and dark portents. He speaks of Warchief Thrall struck down by poison and blade. Then he gives no reason for the vision and sends agents south to Ratchet, a port town in the Barrens.",
    "spoiler": 0
   },
   {
    "title": "Ratchet's Problem Solver",
-   "body": "Ratchet lies on the Barrens coast, east of the Crossroads. Scoundrels, mercenaries, and tinkerers gather in the neutral port, where Wrenix the Wretched makes his home. Wrenix has little patience for Zando'zan's eccentric ways. He says the troll's earlier recruits met grim ends in the bay, among its hungry predators.",
+   "body": "Ratchet lies on the Barrens coast, east of the Crossroads. Scoundrels, mercenaries, and tinkerers gather in this neutral port, where Wrenix the Wretched makes his home. Wrenix has little patience for Zando'zan's strange ways. He says the troll's earlier recruits met grim ends in the bay, among its hungry predators.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "quest giver",
     "zandozan"
    ],
-   "answer": "Zando'zan, a troll of the Shattered Hand in Orgrimmar's Cleft of Shadow, sends you south after blurting out strange visions."
+   "answer": "Zando'zan, a troll of the Shattered Hand in Orgrimmar's Cleft of Shadow, sends you south after speaking of strange visions."
   },
   {
    "q": "Who is Wrenix the Wretched?",
@@ -71,7 +71,7 @@
     "thrall poisoned",
     "zandozan thrall vision"
    ],
-   "answer": "Zando'zan says he saw Thrall struck down by a poisoned dagger in the back, then cuts himself off and changes the subject."
+   "answer": "Zando'zan says he saw Thrall struck down by a poisoned dagger in the back. Then he cuts himself off and changes the subject."
   },
   {
    "q": "Where is Ratchet located?",
@@ -89,17 +89,17 @@
     "after wrenix",
     "ratchet follow up"
    ],
-   "answer": "When you greet Wrenix, he gives you 'Plundering the Plunderers': infiltrating the Southsea Freebooters along the coast south of Ratchet."
+   "answer": "When you greet Wrenix, he gives you 'Plundering the Plunderers', which sends you to infiltrate the Southsea Freebooters along the coast south of Ratchet."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a Horde rogue, you leave Orgrimmar's safety and enter neutral pirate territory as an essential step in your training."
+   "text": "As a Horde rogue, you leave Orgrimmar's safety and enter neutral pirate territory. This is an essential step in your training."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you know the Shattered Hand keeps eyes and ears beyond Durotar's borders. It often relies on neutral ports like Ratchet for sensitive contracts."
+   "text": "As a member of the Horde, you know the Shattered Hand keeps eyes and ears beyond Durotar's borders. The order often relies on neutral ports like Ratchet for sensitive contracts."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Wrenix of Ratchet"
  ],
- "style": 1
+ "style": 2
 }

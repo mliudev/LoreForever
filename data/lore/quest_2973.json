@@ -15,16 +15,16 @@
   "wiki": null,
   "previous": ""
  },
- "summary": "Krueg Skullsplitter has come down to Feralas with companions, sent by their masters in Orgrimmar. Krueg plans a cloak for life-mate Korrin and asks you for ten Iridescent Sprite Darter Wings.",
+ "summary": "At Camp Mojache, Krueg Skullsplitter asks you to gather wings for Korrin’s cloak. He came to Feralas with companions sent by their masters in Orgrimmar.",
  "sections": [
   {
    "title": "A Cloak for Korrin",
-   "body": "Krueg and companions came down to Feralas, sent by their masters in Orgrimmar. Krueg's life-mate Korrin loves new clothes, so Krueg plans a cloak adorned with the delicate wings of faerie dragons. The sprite darters with the beautiful wings Krueg wants live west of Camp Mojache, and Krueg asks you for ten Iridescent Sprite Darter Wings.",
+   "body": "Krueg Skullsplitter came to Feralas with companions sent by their masters in Orgrimmar. His life-mate Korrin loves new clothes, so he plans a cloak adorned with delicate faerie dragon wings. The sprite darters he seeks live west of Camp Mojache. Bring Krueg ten Iridescent Sprite Darter Wings.",
    "spoiler": 0
   },
   {
    "title": "Krueg's Warning",
-   "body": "Krueg cautions that provoked sprite darters are risky. Krueg says to be even more careful around night elves nearby, who tend to hole up in the forests too.",
+   "body": "Krueg warns that provoked sprite darters are dangerous. Nearby night elves tend to hole up in the forests, so take even greater care around them.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "krueg skullsplitter lore",
     "krueg in feralas"
    ],
-   "answer": "Krueg Skullsplitter is at Camp Mojache. Krueg came down to Feralas with companions, sent by their masters in Orgrimmar."
+   "answer": "Krueg Skullsplitter is at Camp Mojache. He came to Feralas with companions sent by their masters in Orgrimmar."
   },
   {
    "q": "Why does Krueg want sprite darter wings?",
@@ -45,7 +45,7 @@
     "sprite darter wing purpose",
     "what is krueg making"
    ],
-   "answer": "Krueg plans a cloak for life-mate Korrin, who loves new clothes, adorned with faerie dragon wings."
+   "answer": "Krueg plans a cloak adorned with faerie dragon wings for his life-mate Korrin, who loves new clothes."
   },
   {
    "q": "Where are the sprite darters located?",
@@ -54,7 +54,7 @@
     "sprite darter location",
     "where are faerie dragons in feralas"
    ],
-   "answer": "West of Camp Mojache."
+   "answer": "The sprite darters live west of Camp Mojache."
   },
   {
    "q": "What dangers does Krueg warn about?",
@@ -62,7 +62,7 @@
     "krueg warnings",
     "threats in the forest feralas"
    ],
-   "answer": "Krueg says provoked sprite darters are risky, and that night elves nearby, who also tend to hole up in the forests, call for even more care."
+   "answer": "Sprite darters, which turn dangerous when provoked, and the night elves nearby, who tend to hole up in the forests and call for even greater care."
   }
  ],
  "angles": [],
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Classic quest text: A New Cloak's Sheen"
- ]
+ ],
+ "style": 2
 }

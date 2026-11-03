@@ -10,16 +10,16 @@
    "quest:547"
   ]
  },
- "summary": "At Dun Garok, Humbert's Sword lies among the dwarves who took it from his camp. Deathguard Humbert left his post to gather firewood while scouting the stronghold.",
+ "summary": "At Dun Garok, Humbert's Sword rests among the dwarves who took it from his camp. Deathguard Humbert left his post to gather firewood while scouting the stronghold.",
  "sections": [
   {
    "title": "A Scout's Careless Moment",
-   "body": "Deathguard Humbert left his hidden post near Dun Garok one morning to gather firewood for boiling water. High Executor Darthalia had sent him to watch the dwarven presence there. While he was away, a dwarven patrol found his campsite and plundered his gear, including his personal blade. With so many dwarves to search, Humbert needs Horde agents to enter the fortress and recover it.",
+   "body": "Deathguard Humbert left his hidden post near Dun Garok one morning to gather firewood for boiling water. High Executor Darthalia had sent him to watch the dwarven presence there. While he was away, a dwarven patrol found his campsite and plundered his gear, including his personal blade. Now Humbert needs Horde agents to search the fortress and recover it.",
    "spoiler": 0
   },
   {
    "title": "The Dwarven Trove",
-   "body": "Dun Garok's defenders carried Humbert's belongings behind the stronghold's barricades. Riflemen, mountaineers, and priests pass supplies around the garrison. Finding the thief means searching among the defenders in the trenches and redoubts.",
+   "body": "Dun Garok's defenders carried Humbert's belongings behind the stronghold's barricades. Riflemen, mountaineers, and priests pass supplies around the garrison. To find the thief, the search must reach the defenders in the trenches and redoubts.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "what happens if humbert loses sword",
     "why does humbert care"
    ],
-   "answer": "Humbert needs his weapon to keep watch on Dun Garok as High Executor Darthalia ordered. With so many dwarves in the garrison, he cannot find the thief alone."
+   "answer": "High Executor Darthalia ordered Humbert to keep watch on Dun Garok, and he needs his weapon to do so. With so many dwarves in the garrison, he cannot find the thief alone."
   },
   {
    "q": "Where can the sword be found?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "High Executor Darthalia keeps strict discipline over the Forsaken forces in Hillsbrad. Negligent sentries like Humbert are desperate to hide their mistakes."
+   "text": "High Executor Darthalia keeps strict discipline over the Forsaken forces in Hillsbrad. Sentries like Humbert are desperate to hide their mistakes when they grow careless."
   },
   {
    "target": "faction:Horde",
-   "text": "Recovering the sword fits the Horde's wider operations against Dun Garok's dwarven enclave, including collecting dwarven blood and military insignias."
+   "text": "Recovering the sword supports the Horde's wider operations against Dun Garok's dwarven enclave. Those operations also include collecting dwarven blood and military insignias."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Humbert's Sword",
   "Humbert's Sword (quest)"
  ],
- "style": 1
+ "style": 2
 }

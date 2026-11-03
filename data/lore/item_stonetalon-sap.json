@@ -10,11 +10,11 @@
    "quest:1058"
   ]
  },
- "summary": "Near Mirkfallon Lake and Stonetalon Peak, sap beasts carry the sap Jin'Zil seeks. The Darkspear witch doctor uses it in a brew for his caged night elf prisoners.",
+ "summary": "Near Mirkfallon Lake and Stonetalon Peak, sap beasts carry Stonetalon Sap. Jin'Zil, the Darkspear witch doctor, seeks it for a brew meant for his caged night elf prisoners.",
  "sections": [
   {
    "title": "A Bitter Harvest",
-   "body": "Sap beasts near Mirkfallon Lake and Stonetalon Peak carry a potent woodland fluid. Jin'Zil of Malaka'jin seeks the sap for a brew he calls forest magic. He intends it for his caged night elf prisoners, turning the essence of their cherished wilderness against them.",
+   "body": "Sap beasts near Mirkfallon Lake and Stonetalon Peak carry Stonetalon Sap. Jin'Zil of Malaka'jin seeks it for a brew he calls forest magic. He means to use it on his caged night elf prisoners, turning the wilderness they cherish against them.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "is stonetalon sap magic",
     "properties of stonetalon sap"
    ],
-   "answer": "The sap carries the vitality of the Stonetalon highlands, but Jin'Zil needs troll mojo and specific reagents to make it lethal."
+   "answer": "The sap carries the vitality of the Stonetalon highlands. Jin'Zil needs troll mojo and specific reagents to make it lethal."
   }
  ],
  "angles": [
@@ -60,7 +60,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "A Horde witch doctor poisons caged night elf prisoners with Stonetalon's native elements, an outrage against nature and Elune."
+   "text": "A Horde witch doctor poisons caged night elf prisoners with Stonetalon's native elements. It is an outrage against nature and Elune."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
   "Stonetalon Sap",
   "Jin'Zil's Forest Magic"
  ],
- "style": 1
+ "style": 2
 }

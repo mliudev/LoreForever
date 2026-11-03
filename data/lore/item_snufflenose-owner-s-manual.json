@@ -10,11 +10,11 @@
    "quest:1221"
   ]
  },
- "summary": "In Ratchet, Mebok Mizzyrix keeps Snufflenose Owner's Manual beside him. Marwig Rustbolt of Snuff Inc. wrote the booklet to explain how to send a trained Snufflenose Gopher after Blueleaf Tubers in Razorfen Kraul.",
+ "summary": "Beside Mebok Mizzyrix in Ratchet, Snufflenose Owner's Manual shows how to send a trained gopher after Blueleaf Tubers in Razorfen Kraul. Marwig Rustbolt of Snuff Inc. wrote it for that purpose.",
  "sections": [
   {
    "title": "A Goblin's Operating Guide",
-   "body": "Marwig Rustbolt, owner of Snuff Inc., wrote a guide to handling the company's trained snufflenose gophers. Their keen noses can detect Blueleaf Tubers buried underground from fifty paces away. The manual explains how to release a gopher from a ventilated crate and guide its rooting with a command stick. Prospectors direct it through Razorfen Kraul's thorns and quilboar tunnels to find the tubers.",
+   "body": "Marwig Rustbolt of Snuff Inc. wrote the guide for handling the company's trained snufflenose gophers. Their keen noses can find Blueleaf Tubers buried underground from fifty paces away. The manual shows how to release a gopher from a ventilated crate and guide its rooting with a command stick. Prospectors lead it through Razorfen Kraul's thorns and quilboar tunnels in search of tubers.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why read the manual",
     "manual purpose"
    ],
-   "answer": "The manual explains how to release Mebok Mizzyrix's trained snufflenose gopher from its crate and guide it with a command stick to find Blueleaf Tubers in Razorfen Kraul."
+   "answer": "The manual shows how to release Mebok Mizzyrix's trained snufflenose gopher from its crate and guide it with a command stick. The gopher searches for Blueleaf Tubers in Razorfen Kraul."
   },
   {
    "q": "Where can I find the manual?",
@@ -35,7 +35,7 @@
     "where is the book",
     "how to get the manual"
    ],
-   "answer": "You can find the manual in Ratchet, beside Mebok Mizzyrix and the crates and command sticks used to gather tubers."
+   "answer": "You can find the manual in Ratchet beside Mebok Mizzyrix, the crates and the command sticks used to gather tubers."
   },
   {
    "q": "Why are snufflenose gophers needed to find Blueleaf Tubers?",
@@ -43,7 +43,7 @@
     "why use gophers",
     "can i find tubers without gophers"
    ],
-   "answer": "Blueleaf Tubers lie buried deep in Razorfen Kraul, where they are nearly impossible for humanoids to spot. A trained gopher can smell one from fifty paces away."
+   "answer": "Blueleaf Tubers lie buried deep in Razorfen Kraul, where humanoids can barely spot them. A trained gopher can smell one from fifty paces away."
   },
   {
    "q": "Who wrote the manual?",
@@ -83,5 +83,5 @@
   "Snufflenose Owner's Manual",
   "Blueleaf Tubers"
  ],
- "style": 1
+ "style": 2
 }

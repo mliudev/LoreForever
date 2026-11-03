@@ -10,16 +10,16 @@
    "quest:253"
   ]
  },
- "summary": "In Duskwood, Eliza's buried corpse holds a heart that still beats. The Embalmer placed his own heart in his dead wife through dark magic, and it became the anchor of his power.",
+ "summary": "In Duskwood, Eliza's buried corpse still holds a beating heart. The Embalmer placed his own heart in his dead wife through dark magic, and it became the anchor of his power.",
  "sections": [
   {
    "title": "A Love That Defied Death",
-   "body": "Darkshire's tales remember the Embalmer as a gentle alchemist. When his wife Eliza died, grief shattered his mind. He turned to foul sorcery, cut out his own heart, and placed it in her lifeless chest. The magic stirred her corpse to unlife, but the return twisted Eliza into a ravenous creature with an insatiable hunger for living human flesh. Horrified by what he had done, the alchemist buried her again.",
+   "body": "Darkshire remembers the Embalmer as a gentle alchemist. When his wife Eliza died, grief broke his mind. He turned to foul sorcery, cut out his own heart, and placed it in her lifeless chest. The magic stirred her corpse to unlife. But Eliza returned as a ravenous creature, hungry for living human flesh. Horrified by what he had done, the alchemist buried her again.",
    "spoiler": 0
   },
   {
    "title": "A Shield for Darkshire",
-   "body": "The Embalmer's heart still beats inside Eliza's tomb, sustaining his dark power. Mayor Ello Ebonlocke believes Darkshire can weaken the Embalmer's sorcery by destroying his reanimated bride and claiming the heart. If they secure it while it still beats, the town's leaders hope to turn its essence against the necromancer and make it a ward against his terrors.",
+   "body": "The Embalmer's heart still beats inside Eliza's tomb and sustains his dark power. Mayor Ello Ebonlocke believes Darkshire can weaken the Embalmer's sorcery by destroying his reanimated bride and claiming the heart. If they secure it while it still beats, the town's leaders hope to turn its essence against the necromancer. They hope it will become a ward against his terrors.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "embalmer heart in eliza",
     "who put heart in eliza"
    ],
-   "answer": "Grief drove the Embalmer to place his own beating heart in Eliza's corpse with forbidden magic. The ritual brought her back to unlife, but left her ravenous for human flesh."
+   "answer": "Grief drove the Embalmer to place his own beating heart in Eliza's corpse with forbidden magic. The ritual returned her to unlife, but left her ravenous for human flesh."
   },
   {
    "q": "Why does Mayor Ebonlocke want the heart brought back to Darkshire?",
@@ -40,7 +40,7 @@
     "ebonlocke heart plan",
     "what does darkshire do with heart"
    ],
-   "answer": "Mayor Ello Ebonlocke hopes the heart's dark magic can weaken the Embalmer and become a ward to protect Darkshire."
+   "answer": "Mayor Ello Ebonlocke hopes the heart's dark magic will weaken the Embalmer and become a ward that protects Darkshire."
   },
   {
    "q": "How does the Embalmer survive without his heart?",
@@ -57,17 +57,17 @@
     "eliza grave location",
     "how to get embalmers heart"
    ],
-   "answer": "The heart lies inside Eliza, buried in a hidden grave plot in Duskwood. It can be claimed only by confronting and defeating the ravenous bride, brought back to unlife."
+   "answer": "The heart lies inside Eliza, buried in a hidden grave plot in Duskwood. It can be claimed only by confronting and defeating the ravenous bride, returned to unlife."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can recognize the heart's role in anchoring necromantic unlife through fleshcraft and the binding of a soul."
+   "text": "As a warlock, you can recognize how the heart anchors necromantic unlife through fleshcraft and the binding of a soul."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you hear the beleaguered people of Duskwood whisper of the kindly alchemist's tragic fall."
+   "text": "As a human, you hear Duskwood's beleaguered people whisper of the kindly alchemist's tragic fall."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "The Embalmer's Heart",
   "Bride of the Embalmer"
  ],
- "style": 1
+ "style": 2
 }

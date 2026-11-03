@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Astranaar"
  },
- "summary": "Astranaar holds the Night Elves’ ground in central Ashenvale, across an island in the forest lake. The ancient forest road runs beside it, and Alliance travelers find refuge there as furbolgs, satyrs, and the Horde threaten the region.",
+ "summary": "Across its island in central Ashenvale, Astranaar offers refuge to Alliance travelers as threats gather in the forest. The old forest road runs beside the settlement, where furbolgs, satyrs, and the Horde endanger the Night Elves’ hold.",
  "sections": [
   {
    "title": "Heart of the Forest",
-   "body": "Wooden footbridges link Astranaar’s island to the mainland, crossing the forest lake. It is Ashenvale’s largest night elven settlement, where sentinels, priests, and artisans keep watch over the woodlands. Travelers find an inn, traders, and an expert leatherworker. On the high perches, a flight master sends hippogryphs to distant outposts across Kalimdor.",
+   "body": "Wooden footbridges lead from Astranaar’s island to the mainland across the forest lake. This is Ashenvale’s largest night elven settlement, where sentinels, priests, and artisans watch over the woodland. Travelers can find an inn, traders, and an expert leatherworker. From the high perches, a flight master sends hippogryphs to distant outposts across Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "A Bastion Under Siege",
-   "body": "Lanterns glow over Astranaar’s tranquil waters, but the town stays ready for attack. Raene Wolfrunner and other local leaders coordinate patrols and defenses against the corrupted Thistlefur furbolgs advancing from the north. The Sentinels fear the furbolgs may assault the settlement.",
+   "body": "Lanterns shine over Astranaar’s quiet waters, yet the town stays ready for attack. Raene Wolfrunner and other local leaders direct patrols and defenses against the corrupted Thistlefur furbolgs advancing from the north. The Sentinels fear the furbolgs may assault the settlement.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "valstann staghelm grave",
     "who is buried here"
    ],
-   "answer": "No account from this era names who rests in the cemetery across the lake from Astranaar. Its graves keep their secrets."
+   "answer": "No account from this era names who rests in the cemetery across the lake from Astranaar. The graves keep their secrets."
   },
   {
    "q": "Why are the Sentinels in Astranaar worried about the local furbolgs?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, Astranaar guards their ancient homeland in central Kalimdor and its sacred groves against growing threats in the forest."
+   "text": "As a Kaldorei, you know Astranaar guards your ancient homeland in central Kalimdor and its sacred groves against growing threats in the forest."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Astranaar is a command post and logistical hub in Ashenvale’s contested wilderness."
+   "text": "As an Alliance member, you can look to Astranaar as a command post and logistical hub in Ashenvale’s contested wilderness."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Astranaar"
  ],
- "style": 1
+ "style": 2
 }

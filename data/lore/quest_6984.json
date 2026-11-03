@@ -20,16 +20,16 @@
    "A Smokywood Pastures' Thank You! (Horde)"
   ]
  },
- "summary": "Great-father Winter waits in Orgrimmar to thank those who recovered Smokywood Pastures' stolen holiday treats. Kaymard Copperpinch sends you to receive a token of appreciation for bringing the supplies back.",
+ "summary": "In Orgrimmar, Kaymard Copperpinch sends you to receive thanks for the stolen holiday treats you recovered. Great-father Winter waits to honor those who brought Smokywood Pastures' supplies back.",
  "sections": [
   {
    "title": "A Corporate Holiday",
-   "body": "In Orgrimmar, Smokywood Pastures sells treats, recipes, and seasonal cheer for the Feast of Winter Veil. Their shipment was stolen in the snowy hills of the Alterac Mountains, and business stalled. With the treats recovered and the Abominable Greench dealt with, Kaymard Copperpinch sends you to receive the company's thanks.",
+   "body": "In Orgrimmar, Smokywood Pastures sells treats, recipes, and seasonal cheer for the Feast of Winter Veil. A shipment was stolen in the snowy hills of the Alterac Mountains, and business stalled. Now the treats are recovered and the Abominable Greench is dealt with. Kaymard Copperpinch sends you to receive the company's thanks.",
    "spoiler": 0
   },
   {
    "title": "Audience with Great-father Winter",
-   "body": "Great-father Winter waits beside the holiday tree in the Valley of Strength. The goblins have arranged for him to honor those who rescued the holiday supplies with a seasonal blessing and a Smokywood Pastures Special Gift.",
+   "body": "Great-father Winter waits beside the holiday tree in the Valley of Strength. The goblins have arranged for him to honor those who rescued the holiday supplies. He gives them a seasonal blessing and a Smokywood Pastures Special Gift.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver",
     "kaymard role"
    ],
-   "answer": "Kaymard Copperpinch, Smokywood Pastures' representative in Orgrimmar's Valley of Strength, sends you to Great-father Winter after you recover the company's stolen holiday treats."
+   "answer": "After you recover the stolen holiday treats, Kaymard Copperpinch sends you to Great-father Winter. He represents Smokywood Pastures in Orgrimmar's Valley of Strength."
   },
   {
    "q": "What did I do to earn Smokywood Pastures' gratitude?",
@@ -50,7 +50,7 @@
     "what treats were stolen",
     "greench background"
    ],
-   "answer": "You tracked down the Abominable Greench in the Alterac Mountains and recovered the stolen holiday treats, saving Smokywood Pastures' supplies for the Feast of Winter Veil."
+   "answer": "You tracked down the Abominable Greench in the Alterac Mountains and recovered the stolen holiday treats. That saved Smokywood Pastures' supplies for the Feast of Winter Veil."
   },
   {
    "q": "Where is Great-father Winter located in Orgrimmar?",
@@ -86,13 +86,13 @@
     "disguise kit",
     "mail gift"
    ],
-   "answer": "Yes. Great-father Winter gives you a Smokywood Pastures Special Gift on the company's behalf, and your efforts earn standing with the Steamwheedle Cartel."
+   "answer": "Yes. Great-father Winter gives you a Smokywood Pastures Special Gift on the company's behalf. Your efforts also earn standing with the Steamwheedle Cartel."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "In Orgrimmar, the Horde's Winter Veil celebration blends shamanic reverence for the changing seasons with goblin commerce."
+   "text": "In Orgrimmar, the Horde's Winter Veil celebration joins shamanic reverence for the changing seasons with goblin commerce."
   },
   {
    "target": "profession:Cooking",
@@ -119,5 +119,5 @@
  "attribution": [
   "A Smokywood Pastures' Thank You! (Horde)"
  ],
- "style": 1
+ "style": 2
 }

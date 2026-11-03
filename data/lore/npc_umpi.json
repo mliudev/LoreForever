@@ -8,11 +8,11 @@
   "wiki": "Umpi",
   "refs": 1
  },
- "summary": "In Tarren Mill, Umpi endures Apothecary Lydon's experiments. The frog is kept in the Royal Apothecary Society's workshop as a test subject for toxins and plague brews.",
+ "summary": "In Tarren Mill, Umpi suffers through Apothecary Lydon's experiments. The frog is kept in the Royal Apothecary Society's workshop for tests of toxins and plague brews.",
  "sections": [
   {
    "title": "A Life of Perpetual Testing",
-   "body": "Umpi is a frog in Tarren Mill who bears the cost of Apothecary Lydon's experiments. For Lydon, testing his formulas requires living flesh, and he gives Umpi lethal brews such as the Elixir of Suffering and the Elixir of Agony. The poisons kill her, but Lydon re-animates her so she can face another dose for the Royal Apothecary Society.",
+   "body": "In Tarren Mill, Umpi is a frog who bears the cost of Apothecary Lydon's experiments. He tests his formulas on living flesh, giving Umpi lethal brews such as the Elixir of Suffering and the Elixir of Agony. The poisons kill her. Then Lydon re-animates her for another dose in service of the Royal Apothecary Society.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "what is umpi",
     "frog tarren mill"
    ],
-   "answer": "Umpi is a frog kept by Apothecary Lydon in Tarren Mill. Lydon uses her as an assistant and as the chief subject of his alchemical experiments."
+   "answer": "Umpi is a frog kept by Apothecary Lydon in Tarren Mill. Lydon uses her as an assistant and the chief subject of his alchemical experiments."
   },
   {
    "q": "Why does Apothecary Lydon keep killing Umpi?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you see the Royal Apothecary Society's ruthless methods firsthand: its researchers treat life and death as variables in perfecting the Forsaken arsenal."
+   "text": "As an Undead, you see the Royal Apothecary Society's ruthless methods firsthand. Its researchers treat life and death as variables as they perfect the Forsaken arsenal."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Umpi"
  ],
- "style": 1
+ "style": 2
 }

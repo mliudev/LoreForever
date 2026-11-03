@@ -17,16 +17,16 @@
   "wiki": "Tome of the Cabal (Horde)",
   "chain": []
  },
- "summary": "In the Barrens, Strahad Farsan sends Horde warlocks east in search of a lost grimoire. The Tome of the Cabal holds rites for summoning and binding a felhunter, and the search begins with cartographer Jorah Annison in the Undercity.",
+ "summary": "In the Barrens, Strahad Farsan sends Horde warlocks east to seek a lost grimoire. Its rites teach how to summon and bind a felhunter, and the search leads first to cartographer Jorah Annison in the Undercity.",
  "sections": [
   {
    "title": "A Hunt for Ancient Knowledge",
-   "body": "Strahad Farsan says a felhunter takes more than ordinary fel magic to summon. These predators feed on magical energies and resist standard summoning circles. An initiate needs specialized circles and an ancient grimoire called the Tome of the Cabal. The first order of warlocks to bind a felhunter without outside aid wrote the book. Its rites and seals show how to enslave such a dangerous demon.",
+   "body": "Strahad Farsan warns that summoning a felhunter takes more than ordinary fel magic. These predators feed on magical energies and resist common summoning circles. An initiate needs special circles and an ancient grimoire called the Tome of the Cabal. The first warlocks to bind a felhunter without outside aid wrote it. Its rites and seals show how to enslave the dangerous demon.",
    "spoiler": 0
   },
   {
    "title": "The Cartographer of Undercity",
-   "body": "Copies of the Tome of the Cabal have long been lost to warlocks in Kalimdor, so Strahad sends his student across the sea to Jorah Annison in the Undercity. Annison works as a royal cartographer, mapping Lordaeron, but knows a great deal about ancient and obscure texts. He admits that he despises mapmaking and hungers for rare histories, occult narratives, and treatises on dark magic.",
+   "body": "No copies of the Tome of the Cabal remain among warlocks in Kalimdor. So Strahad sends his student across the sea to Jorah Annison in the Undercity. Annison is a royal cartographer who maps Lordaeron, yet he knows much about ancient and obscure texts. He admits that mapmaking wears on him. His true hunger is for rare histories, occult narratives, and treatises on dark magic.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this book",
     "tome of cabal"
    ],
-   "answer": "The Tome of the Cabal is a rare occult grimoire written by the first warlocks to summon and bind a felhunter without outside help. Its precise instructions, wards, and rites allow one of these magic-devouring beasts to be brought safely into Azeroth."
+   "answer": "The Tome of the Cabal is a rare occult grimoire written by the first warlocks to summon and bind a felhunter without outside aid. Its precise instructions, wards, and rites allow one of these magic-devouring beasts to be brought safely into Azeroth."
   },
   {
    "q": "Why does Strahad Farsan send you to the Undercity?",
@@ -47,7 +47,7 @@
     "strahad farsan undercity",
     "why see jorah"
    ],
-   "answer": "Strahad and his acolytes in the Barrens have no copy of the Tome of the Cabal. He sends you to Jorah Annison, an Undercity cartographer and scholar of rare, ancient books who may know where to recover the Tome."
+   "answer": "Strahad and his acolytes in the Barrens have no copy of the Tome of the Cabal. He sends you to Jorah Annison, an Undercity cartographer and scholar of rare, ancient books who may know where to find it."
   },
   {
    "q": "Who is Jorah Annison?",
@@ -55,7 +55,7 @@
     "who is jorah",
     "jorah annison lore"
    ],
-   "answer": "Jorah Annison is a Forsaken scholar who works in the Undercity. His official trade is cartography, but his passion lies in obscure texts, necromantic treatises, and ancient literature."
+   "answer": "Jorah Annison is a Forsaken scholar who works in the Undercity. Cartography is his trade, but his passion lies in obscure texts, necromantic treatises, and ancient literature."
   },
   {
    "q": "Why is a special book needed to summon a felhunter?",
@@ -63,13 +63,13 @@
     "why felhunter need book",
     "why is felhunter hard to summon"
    ],
-   "answer": "Felhunters feed on arcane and other magical energies, making them dangerous to summon through ordinary demonic circles. The Tome of the Cabal details safeguards that bind them before they consume the summoner."
+   "answer": "Felhunters feed on arcane and other magical energies, so ordinary demonic circles cannot safely summon them. The Tome of the Cabal gives the safeguards needed to bind one before it consumes the summoner."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a Horde warlock, you must complete this rite of passage to tame a felhunter. It takes you between Kalimdor and the Eastern Kingdoms to gather forgotten ritual components."
+   "text": "As a Horde warlock, you must complete this rite of passage to tame a felhunter. The journey crosses Kalimdor and the Eastern Kingdoms as you gather forgotten ritual components."
   },
   {
    "target": "faction:Horde",
@@ -96,5 +96,5 @@
  "attribution": [
   "Tome of the Cabal (Horde)"
  ],
- "style": 1
+ "style": 2
 }

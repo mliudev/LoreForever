@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Shadowthread Cave"
  },
- "summary": "Shadowthread Cave lies beneath the northwest cliffs of Shadowglen, where its spiders have grown dangerous. Their brood now threatens young kaldorei near Aldrassil.",
+ "summary": "In Shadowthread Cave, spiders now threaten the young kaldorei near Aldrassil. The cave lies beneath Shadowglen’s northwest cliffs.",
  "sections": [
   {
    "title": "A Brood Growing Restless",
-   "body": "Shadowthread Cave opens in Shadowglen’s shaded northwest, a lair for Teldrassil’s giant spiders. In earlier years, the spiders lived quietly alongside the World Tree’s young boughs. Now they guard their territory fiercely. Webwood silk chokes the stone corridors, and the brood threatens young kaldorei venturing beyond Aldrassil.",
+   "body": "In Shadowglen’s shaded northwest, Shadowthread Cave shelters Teldrassil’s giant spiders. Once they lived quietly among the World Tree’s young boughs. Now the brood guards its territory fiercely. Webwood silk chokes the stone corridors, and the spiders threaten young kaldorei who venture beyond Aldrassil.",
    "spoiler": 0
   },
   {
    "title": "Githyiss the Vile",
-   "body": "Githyiss the Vile rules the deepest recesses of Shadowthread Cave. The monstrous broodmother is far more ferocious than the common webwood crawlers. Young night elf sentinels and druids go into the cave to curb the infestation and slay Githyiss, keeping the corruption touching Teldrassil’s wildlife from overrunning Shadowglen’s sanctuary.",
+   "body": "Githyiss the Vile rules Shadowthread Cave’s deepest recesses. The monstrous broodmother is far more ferocious than the common webwood crawlers. Young night elf sentinels and druids enter the cave to curb the infestation and slay her. Corruption touches Teldrassil’s wildlife, and the sanctuary of Shadowglen is at risk.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is shadowthread cave",
     "find shadowthread cave"
    ],
-   "answer": "Shadowthread Cave lies in Shadowglen’s northwest corner, against the rocky hillside bordering Teldrassil’s night elf starting valley."
+   "answer": "Shadowthread Cave lies in Shadowglen’s northwest corner, against the rocky hillside at the edge of Teldrassil’s night elf starting valley."
   },
   {
    "q": "Why are the spiders in the cave so aggressive?",
@@ -54,17 +54,17 @@
     "shadowthread silk",
     "spider silk shadowglen"
    ],
-   "answer": "Dense layers of naturally spun webwood silk fill the cave. The arachnids in its dark chambers weave this valuable, resilient crafting material in great numbers."
+   "answer": "Dense layers of naturally spun webwood silk fill the cave. In its dark chambers, the arachnids weave this valuable, resilient crafting material in great numbers."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf, you face one of your first trials in defending your sacred home from creeping corruption: clearing Shadowthread Cave and slaying Githyiss the Vile."
+   "text": "As a young night elf, you face an early trial in defending your sacred home from creeping corruption. Clear Shadowthread Cave and slay Githyiss the Vile."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you can read the Webwood brood’s unchecked aggression as a troubling sign that Teldrassil’s natural harmony is deeply disturbed."
+   "text": "As a druid, you can read the Webwood brood’s unchecked aggression as a troubling sign. Teldrassil’s natural harmony is deeply disturbed."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
  "attribution": [
   "Shadowthread Cave"
  ],
- "style": 1
+ "style": 2
 }

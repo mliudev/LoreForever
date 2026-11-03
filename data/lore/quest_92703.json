@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "Alvarion speaks of real heroes from stories before the people arrived in Skywall, reminding Skyborne adventurers of their roots and cultural heritage before their migration."
+   "text": "As a Skyborne, you hear Alvarion recall the heroes his people knew from stories before they arrived in Skywall. Their memory recalls your people's roots and heritage before the migration."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "what is deliver the news",
     "who gives deliver the news"
    ],
-   "answer": "Deliver the News is a quest given by Aamelia after resolving a crisis at the Windfield orchard. She asks the adventurer to travel to the city of Valanaar to inform her partner, Alvarion Windfield, that the danger has passed and that she is safe.",
+   "answer": "Aamelia asks you to go to Valanaar and tell her partner, Alvarion Windfield, that she is safe and the danger at the orchard has passed.",
    "q": "What is the quest Deliver the News?"
   },
   {
@@ -33,7 +33,7 @@
     "where is alvarion",
     "alvarion location"
    ],
-   "answer": "Alvarion Windfield is a Skywall resident currently recovering in Valanaar. He left for the city in search of aid for the trouble back at his family's orchard, fearing all hope was lost before encountering the player.",
+   "answer": "Alvarion Windfield lives in Skywall and is recovering in Valanaar. He left for the city to seek help for his family's orchard, fearing hope was lost before you arrived.",
    "q": "Who is Alvarion Windfield?"
   },
   {
@@ -41,7 +41,7 @@
     "who is aamelia",
     "quest giver aamelia"
    ],
-   "answer": "Aamelia is a resident of the Windfield homestead who tends to the orchard alongside Alvarion. Grateful for the player's intervention, she tasks them with bringing word of their success to Alvarion in Valanaar.",
+   "answer": "Aamelia lives at the Windfield homestead and tends the orchard with Alvarion. Grateful for your help, she asks you to bring him news of their safety in Valanaar.",
    "q": "Who is Aamelia?"
   },
   {
@@ -50,7 +50,7 @@
     "aamelia touches belly",
     "is aamelia pregnant"
    ],
-   "answer": "Aamelia reveals quietly to the adventurer that she is expecting a child, gently touching her belly and asking to keep the news secret from Alvarion until he is back on his feet and returns home.",
+   "answer": "Aamelia tells you she is expecting a child. She asks you to keep the news from Alvarion until he is back on his feet and returns home.",
    "q": "What does Aamelia keep secret from Alvarion?"
   },
   {
@@ -59,7 +59,7 @@
     "what construct does aamelia mention",
     "windfield construct"
    ],
-   "answer": "Aamelia wants Alvarion to bring a windshaper back to the orchard once he has recovered. She wants the specialist to inspect a construct on the property to ensure it poses no danger to their growing family.",
+   "answer": "Aamelia wants Alvarion to bring a windshaper to the orchard after he recovers. The specialist can inspect a construct there and make sure it poses no danger to their growing family.",
    "q": "Why does Aamelia want a windshaper brought to the orchard?"
   },
   {
@@ -67,7 +67,7 @@
     "where does deliver the news take place",
     "valanaar skywall quest"
    ],
-   "answer": "The quest connects the Windfield orchard with the settlement of Valanaar, located within the elemental realm of Skywall where these settlers have made their home.",
+   "answer": "The story takes you from the Windfield orchard to Valanaar, a settlement in Skywall where these settlers have made their home.",
    "q": "Where does this quest take place?"
   }
  ],
@@ -88,23 +88,24 @@
  ],
  "sections": [
   {
-   "body": "Deliver the News marks the resolution of an ordeal at the Windfield family orchard. Having stepped in to save the farm from an impending crisis, the adventurer receives heartfelt thanks from Aamelia, who is ready to put the danger behind them. With the orchard secured, the immediate priority shifts to reassuring Alvarion Windfield, who fled to the settlement of Valanaar to plead for assistance.",
+   "body": "Aamelia thanks you for saving the Windfield family orchard. Her home is safe, but Alvarion Windfield has gone to Valanaar to plead for help. He needs to know his family and home are out of danger.",
    "spoiler": 0,
    "title": "Relief at the Orchard"
   },
   {
-   "body": "Before sending the traveler off to Valanaar, Aamelia asks that Alvarion recruit a skilled windshaper upon his recovery. A construct remains at the orchard, and she wants an expert to examine it thoroughly to guarantee it poses no threat. She also shares a tender secret: she is expecting a child, a revelation she wishes to hold back from Alvarion until he returns home safely in person.",
+   "body": "Aamelia asks Alvarion to find a skilled windshaper once he has recovered. A construct remains at the orchard, and an expert must examine it to make sure it poses no threat.\n\nAamelia is expecting a child. She asks you to keep the news from Alvarion until he returns home safely in person.",
    "spoiler": 1,
    "title": "A Secret for the Future"
   },
   {
-   "body": "In Valanaar, Alvarion Windfield is overcome with emotion upon learning that his family and home are safe. Having left for the city believing his search for help was a desperate, almost vain hope, the traveler's success evokes for him the legendary heroes remembered from before his people arrived in Skywall. With their home saved, the Windfield family extends an enduring welcome to their savior.",
+   "body": "Alvarion Windfield is overcome with emotion when you tell him his family and home are safe. He went to Valanaar believing his search for help was a desperate, nearly vain hope. Your success recalls the legendary heroes his people remembered from before they arrived in Skywall. The Windfield family welcomes you into their home for good.",
    "spoiler": 0,
    "title": "A Hero in Valanaar"
   }
  ],
- "summary": "Deliver the News is a quest concluding the plight of the Windfield family orchard in Skywall. After helping Aamelia secure the farm, the adventurer travels to Valanaar to deliver tidings of their safety to an anxious Alvarion Windfield.",
+ "summary": "At the Windfield orchard, Aamelia sends word that her family is safe. Alvarion waits in Valanaar, where he went to seek help.",
  "attribution": [
   "In-game quest text: Deliver the News"
- ]
+ ],
+ "style": 2
 }

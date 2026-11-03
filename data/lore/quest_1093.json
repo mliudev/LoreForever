@@ -17,16 +17,16 @@
   "wiki": "Super Reaper 6000 (quest)",
   "chain": []
  },
- "summary": "At Windshear Crag, Ziz Fizziks seeks favor with his new boss, Sputtervalve. He wants the Venture Company’s plans for a great woodcutting machine designed by his rival, Gerenzo Wrenchwhistle.",
+ "summary": "At Windshear Crag, Ziz Fizziks hopes to win favor with his new boss, Sputtervalve. He wants the Venture Company’s plans for a great woodcutting machine designed by his rival, Gerenzo Wrenchwhistle.",
  "sections": [
   {
    "title": "Industrial Espionage in Windshear Crag",
-   "body": "At Windshear Crag, the Venture Trading Company cuts deep into the Stonetalon Mountains to feed its logging operation. Ziz Fizziks, a goblin engineer recently cast out of the company, now works for Sputtervalve. He hopes to prove his worth to his new boss by taking the plans for the company’s massive automated woodcutting machine, the Super Reaper 6000.",
+   "body": "At Windshear Crag, the Venture Trading Company cuts into the Stonetalon Mountains to supply its logging operation. Ziz Fizziks, a goblin engineer cast out of the company, now works for Sputtervalve. He hopes to prove his worth by taking the plans for the company’s massive automated woodcutting machine, the Super Reaper 6000.",
    "spoiler": 0
   },
   {
    "title": "Goblins vs. Gnomish Engineering",
-   "body": "Gerenzo Wrenchwhistle’s appointment as the Venture Company’s local engineering lead rankles Ziz. The company is mostly goblin-run, yet it put a gnome in charge of its engineering. When the Venture Company machine operators’ schematics reach Ziz, their intricate design leaves him frustrated. He is used to brute force, cheap parts, and volatile combustion, and finds Gerenzo’s careful plans hard to understand.",
+   "body": "Gerenzo Wrenchwhistle’s appointment as the Venture Company’s local engineering lead rankles Ziz. The company is mostly goblin-run, yet it put a gnome in charge of its engineering. When the machine operators’ schematics reach Ziz, their intricate design frustrates him. He favors brute force, cheap parts, and volatile combustion. Gerenzo’s careful plans are hard for him to understand.",
    "spoiler": 1
   }
  ],
@@ -64,7 +64,7 @@
     "why steal the plans",
     "sputtervalve blueprints"
    ],
-   "answer": "Sputtervalve wants the Venture Company’s heavy logging technology. Ziz hopes to bring him the plans and prove his usefulness to his new employer."
+   "answer": "Sputtervalve wants the Venture Company’s heavy logging technology. Ziz hopes to bring him the plans and prove his worth to his new employer."
   },
   {
    "q": "Where are the blueprints found?",
@@ -80,21 +80,21 @@
     "why cant ziz read the plans",
     "gnome blueprints goblin"
    ],
-   "answer": "Ziz struggles with the plans because goblin and gnomish engineering philosophies differ. Gerenzo Wrenchwhistle’s meticulous diagrams are too confusing for Ziz to decipher at a glance."
+   "answer": "Ziz struggles with the plans because goblin and gnomish engineering differ. Gerenzo Wrenchwhistle’s meticulous diagrams are too confusing for Ziz to decipher at a glance."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Goblin engineering favors speed and rough pragmatism; gnomish design prizes precision and complexity. Their rivalry runs deep."
+   "text": "Goblin engineering favors speed and rough pragmatism. Gnomish design prizes precision and complexity, and their rivalry runs deep."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you may recognize why Ziz doubts that a goblin syndicate would trust one of your kind with its flagship machinery. Gerenzo’s technical designs leave him baffled."
+   "text": "As a gnome, you may understand why Ziz doubts that a goblin syndicate would trust one of your kind with its flagship machinery. Gerenzo’s technical designs leave him baffled."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see the Super Reaper 6000 cutting ancient trees in Stonetalon to feed industrial profit, a stark sign of mortal disregard for nature."
+   "text": "As a night elf, you see the Super Reaper 6000 cutting ancient trees in Stonetalon for industrial profit. It is a stark sign of mortal disregard for nature."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Super Reaper 6000 (quest)"
  ],
- "style": 1
+ "style": 2
 }

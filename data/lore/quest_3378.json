@@ -24,16 +24,16 @@
   ],
   "category": "Searing Gorge"
  },
- "summary": "Zamael Lunthistle asks you to find his prayer to Elune, set down on a tablet of gold. One of the idol-worshipping scoundrels must carry it, and Zamael wants it taken to Astarii Starseeker in Darnassus.",
+ "summary": "At Zamael Lunthistle's request, you seek a prayer to Elune lost among the idol worshippers. Engraved on a golden tablet, it is meant for Astarii Starseeker in Darnassus.",
  "sections": [
   {
    "title": "The Lost Prayer",
-   "body": "Zamael's faith has been rekindled, but he says that matters little after the countless malevolent actions he has taken against the world and its inhabitants. He does not expect absolution. All he asks is that the prayer be heard, so he sends you to recover the golden tablet from the idol worshippers and carry it to Astarii Starseeker in Darnassus.",
+   "body": "Zamael Lunthistle's faith has awakened again. Yet he says that means little after the harm he has done to the world and its people. He expects no absolution. He asks only for his prayer to be heard, so you seek the golden tablet from the idol worshippers and carry it to Astarii Starseeker in Darnassus.",
    "spoiler": 0
   },
   {
    "title": "At the Temple of the Moon",
-   "body": "At the Temple of the Moon, Astarii Starseeker tells you that Elune smiles upon you this evening, for a lost soul has been returned to her by your hand. Gratitude is offered for the deed.",
+   "body": "At the Temple of the Moon, Astarii Starseeker tells you that Elune smiles upon you this evening. By your hand, a lost soul has returned to her. Astarii gives you thanks.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who gives prayer to elune",
     "zamael"
    ],
-   "answer": "Zamael Lunthistle is the one who asks you to find his prayer to Elune. His faith has been rekindled after countless malevolent actions he took against the world."
+   "answer": "Zamael Lunthistle asks you to find his prayer to Elune. His faith has returned, though he has done countless acts of harm against the world."
   },
   {
    "q": "What is the prayer inscribed on?",
@@ -54,7 +54,7 @@
     "golden tablet",
     "what is the prayer"
    ],
-   "answer": "Zamael's prayer was cut into a golden tablet, and he thinks one of the idol-worshipping scoundrels carries it."
+   "answer": "Zamael's prayer is engraved on a golden tablet. He believes one of the idol worshippers carries it."
   },
   {
    "q": "To whom should the prayer be delivered?",
@@ -63,7 +63,7 @@
     "astarii starseeker",
     "where do i bring the prayer"
    ],
-   "answer": "To Astarii Starseeker in Darnassus, who is found at the Temple of the Moon."
+   "answer": "Carry the prayer to Astarii Starseeker at the Temple of the Moon in Darnassus."
   },
   {
    "q": "Does Zamael expect forgiveness for his past?",
@@ -71,7 +71,7 @@
     "does zamael want forgiveness",
     "zamael absolution"
    ],
-   "answer": "No. He says absolution is the last thing he expects, but his prayer must be heard."
+   "answer": "No. Zamael expects no absolution for his past, but asks that his prayer be heard."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Prayer to Elune (2)"
- ]
+ ],
+ "style": 2
 }

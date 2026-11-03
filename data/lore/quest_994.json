@@ -17,16 +17,16 @@
   "wiki": "Escape Through Force",
   "chain": []
  },
- "summary": "In Darkshore, Volcor fights through the wild to reach safety. He reunites with Grimclaw by the road, and you carry word of his escape to Terenthis in Auberdine.",
+ "summary": "In Darkshore, Volcor fights through the wild to reach safety. He finds Grimclaw by the road, and you bring word of his escape to Terenthis in Auberdine.",
  "sections": [
   {
    "title": "A Direct Way Out",
-   "body": "Volcor is stranded in Darkshore's perilous wilderness, with danger closing around him. He chooses to fight through the hostile creatures rather than slip away unseen. His skill in battle clears a path straight to the main road and safety.",
+   "body": "Volcor is stranded in Darkshore’s perilous wilderness, with danger closing around him. He chooses to fight the hostile creatures instead of slipping away unseen. His skill clears a path to the main road and safety.",
    "spoiler": 0
   },
   {
    "title": "Reunion on the Road",
-   "body": "Volcor reaches the road and reunites with Grimclaw, his bear companion who waited by the path. Once safe, Volcor prepares for his next journey and asks you to report to Terenthis in Auberdine. The news of his escape reaches the night elf leadership and brings Sentinel Selarin's attention to troubles in southern Ashenvale.",
+   "body": "Volcor reaches the road and meets Grimclaw, his bear companion, who waited by the path. Safe at last, Volcor prepares for his next journey and asks you to report to Terenthis in Auberdine. His escape reaches the night elf leadership and draws Sentinel Selarin’s attention to troubles in southern Ashenvale.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is volcor",
     "volcor darkshore"
    ],
-   "answer": "Volcor is a night elf scout or woodsman in Darkshore who went missing with his companion Grimclaw. After adventurers find him while searching on behalf of Terenthis, he needs help escaping hostile wildlife and dangerous terrain."
+   "answer": "Volcor is a night elf scout or woodsman in Darkshore who went missing with his companion Grimclaw. After you find him while searching for Terenthis, he needs help escaping hostile wildlife and dangerous terrain."
   },
   {
    "q": "Who is Grimclaw?",
@@ -47,7 +47,7 @@
     "volcor bear",
     "volcor pet"
    ],
-   "answer": "Grimclaw is Volcor's loyal bear companion. While Volcor was trapped, Grimclaw waited apart from him near the road, where the two could meet again."
+   "answer": "Grimclaw is Volcor’s loyal bear companion. While Volcor was trapped, Grimclaw waited apart from him near the road, where they could meet again."
   },
   {
    "q": "Why does Terenthis care about Volcor's return?",
@@ -65,7 +65,7 @@
     "what comes next",
     "next quest after volcor"
    ],
-   "answer": "Report Volcor's safe passage to Terenthis in Auberdine. The next stage leads to Trek to Ashenvale."
+   "answer": "You report Volcor’s safe passage to Terenthis in Auberdine. The next stage leads to Trek to Ashenvale."
   },
   {
    "q": "Is there an alternate way to finish Volcor's escort?",
@@ -82,17 +82,17 @@
     "volcor storyline",
     "darkshore to ashenvale questline"
    ],
-   "answer": "Volcor's safe return links Darkshore's local conflicts to the defense of night elf lands and opens assignments in Ashenvale."
+   "answer": "Volcor’s safe return links Darkshore’s local conflicts to the defense of night elf lands and opens assignments in Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you help protect the Kaldorei's hold on Darkshore, where wild beasts, corruption, and outside invaders threaten their ancestral woodlands."
+   "text": "As a night elf, you help protect the Kaldorei’s hold on Darkshore, where wild beasts, corruption, and outside invaders threaten their ancestral woodlands."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you strengthen the bond between the young Alliance and the Night Elves by helping secure Kalimdor's northern frontier."
+   "text": "As an Alliance member, you strengthen the bond between the young Alliance and the Night Elves by helping secure Kalimdor’s northern frontier."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Escape Through Force"
  ],
- "style": 1
+ "style": 2
 }

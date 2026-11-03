@@ -14,19 +14,19 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Reverence for An'she and Mu'sha lies at the core of tauren spiritual identity, reminding young braves that life requires honoring the twin celestial lights as faithfully as the Earthmother herself."
+   "text": "As a tauren, you learn that life calls you to honor An'she and Mu'sha as faithfully as the Earthmother. Their reverence lies at the heart of tauren spiritual identity and reminds young braves of their duty."
   },
   {
    "target": "class:Druid",
-   "text": "Tauren druids look to the eternal dance of sun and moon as the primal embodiment of balance, guiding their understanding of nature's cosmic rhythms."
+   "text": "As a tauren druid, you look to the sun and moon's eternal dance as nature's primal balance, guiding your understanding of its cosmic rhythms."
   },
   {
    "target": "class:Shaman",
-   "text": "While shaman speak directly with the worldly spirits of earth, fire, water, and air, they pay equal homage to the celestial twins whose light sustains all living energy."
+   "text": "As a tauren shaman, you speak with the spirits of earth, fire, water, and air, and pay equal homage to the celestial twins whose light sustains living energy."
   },
   {
    "target": "faction:Horde",
-   "text": "The sacred rites performed on the mesa showcase the deep, nature-revering culture that the nomadic tauren bring to their allies within the Horde."
+   "text": "As a member of the Horde, you see the sacred rites on Red Cloud Mesa and the nature-revering ways the nomadic tauren bring to their allies."
   }
  ],
  "faq": [
@@ -36,7 +36,7 @@
     "anshe and musha lore",
     "tauren sun and moon gods"
    ],
-   "answer": "An'she and Mu'sha are the sun and the moon in tauren mythology, revered as the twin eyes of the Earthmother. Unlike the spirits of earth, air, fire, and water, they do not dwell directly within the soil of Azeroth. Instead, they illuminate the world from the firmament above, with An'she offering warmth and life, while Mu'sha provides nocturnal guidance and solace.",
+   "answer": "An'she and Mu'sha are the sun and moon in tauren belief, honored as the Earthmother's twin eyes. They shine from above, unlike the spirits dwelling in Azeroth's soil, air, fire, and water. An'she brings warmth and life, while Mu'sha offers guidance and solace through the night.",
    "q": "Who are An'she and Mu'sha?"
   },
   {
@@ -45,7 +45,7 @@
     "tauren celestial worship",
     "why honor anshe and musha"
    ],
-   "answer": "Tauren philosophy teaches that balance is essential to all existence. While earthly spirits govern the immediate landscape, the light of An'she and Mu'sha gives vital energy, vision, and hope to all living creatures. Offering smoldering incense at high places is an act of reciprocal respect, acknowledging that mortal life cannot thrive without the continuous benevolence of both celestial bodies.",
+   "answer": "Tauren teachings hold that balance is essential to existence. An'she and Mu'sha give living creatures energy, vision, and hope. By offering incense at a high place, tauren show respect for both celestial lights, whose constant benevolence mortal life depends on.",
    "q": "Why do the tauren make offerings to the sun and moon?"
   },
   {
@@ -54,7 +54,7 @@
     "shrine location mulgore",
     "how to find the incense shrine"
    ],
-   "answer": "The shrine of An'she and Mu'sha is situated in the high hills to the southeast of the mesa. It overlooks the broad plains below and lies just south of the thorny quilboar territories. Its high elevation provides a clear, unobstructed view of the open sky, making it an ideal place to lift smoke toward the heavens.",
+   "answer": "The shrine lies in the high hills southeast of Red Cloud Mesa, overlooking the plains and just south of the thorny quilboar territories. Its height gives a clear, unobstructed view of the open sky, where smoke can rise toward the heavens.",
    "q": "Where is the shrine of An'she and Mu'sha located?"
   },
   {
@@ -63,7 +63,7 @@
     "meaning of the incense offering",
     "why burn smoldering incense"
    ],
-   "answer": "The smoldering incense acts as a physical conduit of prayer and respect. As its fragrant embers burn, the rising smoke carries the traveler's devotion directly upward into the sky toward the sun and moon. Casting the embers into the shrine fire concludes the ritual, rewarding the pilgrim with a tranquil sense of spiritual fulfillment.",
+   "answer": "Smoldering incense carries a traveler's prayer and respect toward the sun and moon. Its fragrant smoke rises from the burning embers. Cast them into the shrine fire to complete the rite and bring the pilgrim a tranquil sense of spiritual fulfillment.",
    "q": "What is the significance of the smoldering incense?"
   },
   {
@@ -72,7 +72,7 @@
     "dont get it wet",
     "incense burning down"
    ],
-   "answer": "The ritual demands vigilance, speed, and care from the pilgrim. The incense must still be smoldering when cast into the sacred fire at the shrine, meaning the journey must be completed before the embers burn out into cold ash. Furthermore, immersion in water will immediately extinguish the embers, spoiling the offering before it can reach the heights.",
+   "answer": "The incense must still smolder when it reaches the shrine fire, so the journey calls for vigilance, speed, and care. Finish before the embers burn to cold ash, and keep them from water, which would extinguish them and spoil the offering.",
    "q": "Why must the incense be delivered quickly and kept dry?"
   },
   {
@@ -81,7 +81,7 @@
     "are quilboar a threat to pilgrims",
     "quilboar south of the mesa"
    ],
-   "answer": "Quilboar tribes occupy heavily defended thorn dens in the hills just north of the shrine's location. While the shrine itself rests in a quiet overlook south of their grounds, travelers must be careful not to stumble into quilboar brambles, as hostile attacks could easily delay or disrupt the delicate journey.",
+   "answer": "Quilboar tribes occupy defended thorn dens in the hills just north of the shrine. The shrine rests at a quiet overlook south of their grounds, but travelers must avoid the quilboar brambles, where an attack could delay or disrupt the journey.",
    "q": "Do the quilboar threaten the pilgrimage to the shrine?"
   },
   {
@@ -90,7 +90,7 @@
     "tauren moon versus elune",
     "musha and the night elves"
    ],
-   "answer": "Tauren myth recognizes the moon as Mu'sha, the loving left eye of the Earthmother who gazes down upon mortal life. Other races on Azeroth, most notably the night elves, revere the same luminous white moon as the goddess Elune, but tauren tradition views her as inextricably bound to her solar twin, An'she.",
+   "answer": "Tauren call the moon Mu'sha, the loving left eye of the Earthmother, gazing down on mortal life. Night elves revere the same luminous white moon as Elune, while tauren tradition binds Mu'sha to her solar twin, An'she.",
    "q": "How does Mu'sha compare to other cultures' views of the moon?"
   }
  ],
@@ -112,18 +112,19 @@
  ],
  "sections": [
   {
-   "body": "In tauren myth, the sun and the moon are known as An'she and Mu'sha, revered as the twin eyes of the Earthmother. While the elemental spirits dwell directly within the stones, winds, and waters of Azeroth, these celestial twins watch over the world from the heights of heaven. Their constant journey across the sky marks the eternal rhythm of day and night, granting warmth, guidance, and hope to all living creatures. Honoring the twins is an essential spiritual duty, teaching that balance requires reverence not only for the land beneath one's feet, but also for the light shining down from the sky.",
+   "body": "Tauren honor An'she and Mu'sha as the sun and moon, the Earthmother's twin eyes. Elemental spirits dwell in Azeroth's stones, winds, and waters, while the celestial twins watch from the heights of heaven. As they cross the sky, they mark day and night and bring warmth, guidance, and hope to living creatures. For tauren, honoring them is a spiritual duty. Balance calls for reverence toward the land beneath your feet and the light above.",
    "spoiler": 0,
    "title": "The Eyes of the Earthmother"
   },
   {
-   "body": "To honor the celestial twins, a pilgrim must carry smoldering incense into the southeastern hills overlooking the mesa, nestled just south of the prickly quilboar grounds. The journey is an exercise in attentiveness and speed: the fragrant embers must be delivered before they burn away to cold ash, and travelers must take care to keep them away from water along the trail. Upon reaching the elevated shrine, the pilgrim casts the embers into the sacred fire, letting the aromatic smoke carry their respect up into the sky toward the sun and moon.",
+   "body": "Carry smoldering incense into the southeastern hills overlooking Red Cloud Mesa, just south of the prickly quilboar grounds. Make the journey with speed and care. Keep the embers dry and reach the shrine before they burn to cold ash. At the elevated shrine, cast them into the sacred fire. Their fragrant smoke carries your respect skyward, toward the sun and moon.",
    "spoiler": 0,
    "title": "An Offering on the Heights"
   }
  ],
- "summary": "Grace of An'she and Mu'sha is a sacred tauren pilgrimage undertaken on Red Cloud Mesa to honor the sun and moon as the celestial eyes of the Earthmother. By carrying fragile, smoldering incense to an elevated shrine in the southeastern hills, travelers show respect to the heavenly lights that bring warmth, life, and direction to the plains.",
+ "summary": "On Red Cloud Mesa, An'she and Mu'sha receive honor as the Earthmother's eyes. You carry smoldering incense to a shrine in the southeastern hills, where its smoke rises toward the sun and moon that bring warmth, life, and direction to the plains.",
  "attribution": [
   "In-game quest text: Grace of An'she and Mu'sha"
- ]
+ ],
+ "style": 2
 }

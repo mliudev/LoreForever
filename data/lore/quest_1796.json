@@ -17,16 +17,16 @@
   "wiki": "Components for the Enchanted Gold Bloodrobe",
   "chain": []
  },
- "summary": "In Ratchet, Menara Voidrender asks warlocks to find Robes of Arcana for a garment meant to bear powerful enchantments.",
+ "summary": "In Ratchet, Menara Voidrender seeks Robes of Arcana for a garment meant to bear powerful enchantments.",
  "sections": [
   {
    "title": "A Vessel of Arcana",
-   "body": "Menara Voidrender asks warlocks seeking greater power to bring her a set of Robes of Arcana. She wants a garment strong enough to hold dark magic. The strength of a magical relic depends on the skill, rarity, and effort put into its materials. Ordinary rags would fail under deep enchantments, so the robe must be finely made and ready to receive them.",
+   "body": "Menara Voidrender asks warlocks who seek greater power to bring her a set of Robes of Arcana. She needs a garment strong enough to hold dark magic. A relic's strength depends on the skill, rarity, and effort invested in its materials. Ordinary rags would fail beneath deep enchantments, so the robe must be finely made and ready to receive them.",
    "spoiler": 0
   },
   {
    "title": "Craft and Ambition",
-   "body": "Menara admires warlocks who can weave the robe themselves, but ambition matters more to her than pride. You can sew the silk, commission a skilled artisan, or buy the robe at market. However you obtain it, the finished garment is ready to become a specialized tool of fel mastery.",
+   "body": "Menara admires warlocks who weave the robe themselves, though ambition matters more to her than pride. You can sew the silk, commission a skilled artisan, or buy the robe at market. However you obtain it, the finished garment is ready to become a specialized tool of fel mastery.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why this robe",
     "robe purpose"
    ],
-   "answer": "Powerful enchantments need a garment made with skill and rare materials. Menara uses the Robes of Arcana as a receptive foundation for the forces she plans to bind into it."
+   "answer": "Powerful enchantments need a garment made with skill and rare materials. Menara uses the Robes of Arcana as a foundation for the forces she plans to bind into them."
   },
   {
    "q": "Where is Menara Voidrender located?",
@@ -56,7 +56,7 @@
     "can i buy the robes",
     "tailoring required"
    ],
-   "answer": "No. Menara respects the work of making the robe yourself, but accepts one acquired through trade or bought from another craftsman. You can secure it by any practical means."
+   "answer": "No. Menara respects those who make the robe themselves, but she accepts one acquired through trade or bought from another craftsman. You can obtain it by any practical means."
   },
   {
    "q": "Where does the pattern for Robes of Arcana come from?",
@@ -65,7 +65,7 @@
     "how to get pattern",
     "tailoring recipe location"
    ],
-   "answer": "The pattern is rare and can be found among cultists and dark casters. Dark Strand Voidcallers at the Tower of Althalaxx in Darkshore and Defias Enchanters in Duskwood are among those who carry it."
+   "answer": "The rare pattern can be found among cultists and dark casters. Dark Strand Voidcallers at the Tower of Althalaxx in Darkshore and Defias Enchanters in Duskwood are among those who carry it."
   },
   {
    "q": "What happens to the Robes of Arcana after handing them in?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Components for the Enchanted Gold Bloodrobe"
  ],
- "style": 1
+ "style": 2
 }

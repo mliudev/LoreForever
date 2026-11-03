@@ -21,16 +21,16 @@
    "Delivering Daffodils"
   ]
  },
- "summary": "Darcy asks you to carry a prepared meal from Lakeshire to Guard Parker on the southern road. Gnolls and Blackrock orcs threaten the approaches, and the town's guards are stretched thin.",
+ "summary": "Darcy has a meal ready for Guard Parker on the southern road from Lakeshire. Gnolls and Blackrock orcs threaten the approaches, while the town's guards are stretched thin.",
  "sections": [
   {
    "title": "A Meal for the Road",
-   "body": "Darcy, the cook in Lakeshire, has packed a meal for Guard Parker but cannot carry it beyond town herself. Redridge gnolls and roaming orc warbands make the roads outside the gates too dangerous for a civilian. She asks passing travelers to take the food along the road toward Darkshire, where Parker keeps watch.",
+   "body": "Darcy, the cook in Lakeshire, has packed a meal for Guard Parker. She cannot carry it beyond town herself. Redridge gnolls and roaming orc warbands make the roads outside the gates too dangerous for a civilian. So she asks passing travelers to carry the food toward Darkshire, where Parker keeps watch.",
    "spoiler": 0
   },
   {
    "title": "Guarding the Border",
-   "body": "Guard Parker watches the road south of Lakeshire, along the route toward Duskwood. Redridge's guards have too few reinforcements from the Stormwind army to face the growing gnoll packs and the Blackrock clan in the mountains. Sentries like Parker keep watch alone in hostile country, and a hot meal from town can lift their spirits.",
+   "body": "Guard Parker watches the southern road from Lakeshire toward Duskwood. Redridge has too few reinforcements from the Stormwind army to face the growing gnoll packs and the Blackrock clan in the mountains. Sentries like Parker keep watch alone in hostile country. A hot meal from town can lift their spirits.",
    "spoiler": 0
   }
  ],
@@ -74,7 +74,7 @@
     "why is lakeshire undefended",
     "stormwind neglect redridge"
    ],
-   "answer": "Stormwind has sent too few reinforcements to outlying settlements like Lakeshire, leaving the town guards to face the threats with little support."
+   "answer": "Stormwind has sent too few reinforcements to outlying settlements like Lakeshire. The town guards face the threats with little support."
   },
   {
    "q": "What is Darcy's promised reward?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Carrying Darcy's food shows the strain on ordinary people and sentries in outlying Alliance settlements left largely to fend for themselves."
+   "text": "As an Alliance traveler, carrying Darcy's food shows the strain on ordinary people and sentries in outlying settlements left largely to fend for themselves."
   },
   {
    "target": "profession:Cooking",
-   "text": "A warm meal can sustain a lone sentry keeping watch in hostile country."
+   "text": "As a cook, you know a warm meal can sustain a lone sentry keeping watch in hostile country."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "A Free Lunch"
  ],
- "style": 1
+ "style": 2
 }

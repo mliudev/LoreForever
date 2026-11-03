@@ -8,16 +8,16 @@
   "wiki": "Lord Cobrahn",
   "refs": 5
  },
- "summary": "Lord Cobrahn is one of the four leaders of the corrupted Druids of the Fang lurking deep within the Wailing Caverns. Once a night elf druid of Naralex's noble order, which hoped to heal the Barrens, he succumbed to the nightmare infecting the cavern springs. Taking a lethal serpent guise, Cobrahn now commands broods of deviate serpents and defends the twisted labyrinth.",
+ "summary": "Deep in the Wailing Caverns, Lord Cobrahn commands the corrupted Druids of the Fang. He was a night elf druid in Naralex's order, until the nightmare in the cavern springs claimed him. Now he guards the twisted labyrinth in a deadly serpent guise.",
  "sections": [
   {
    "title": "A Druid Corrupted",
-   "body": "Before his fall, Cobrahn was one of the noble druids who followed Naralex. When Naralex ventured into the Wailing Caverns beneath the Barrens hoping to tap their underground springs and restore lush life to the arid wastes, Cobrahn accompanied him. However, when Naralex's Emerald Dream communion decayed into a twisting nightmare, Cobrahn's mind shattered alongside his brothers.",
+   "body": "Lord Cobrahn once served Naralex in his druid order. When Naralex entered the Wailing Caverns beneath the Barrens, he hoped to draw upon the underground springs and restore life to the arid wastes. Cobrahn went with him. But Naralex's communion with the Emerald Dream decayed into a twisting nightmare, and Cobrahn's mind shattered with those of his brothers.",
    "spoiler": 0
   },
   {
    "title": "The Serpent's Embrace",
-   "body": "Rather than channeling the traditional totemic beasts of Cenarion tradition, the nightmare warped Cobrahn's shapeshifting into something predatory and reptilian. He now commands a deadly serpentine form that he unleashes in battle. Flanked by venomous deviate pythons and bearing a vicious clawed right hand, he oversees his section of the grottos, violently purging anyone seeking to break the nightmare's hold on the caverns.",
+   "body": "The nightmare warped Cobrahn's shapeshifting into a predatory reptilian form unlike the totemic beasts of Cenarion tradition. In battle, he takes the guise of a deadly serpent. Venomous deviate pythons flank him, and a vicious claw marks his right hand. Cobrahn rules his part of the grottos and violently purges anyone who tries to break the nightmare's hold on the caverns.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "cobrahn real name",
     "who is cobrahn"
    ],
-   "answer": "Before the nightmare took him, Cobrahn was a night elf druid in Naralex's noble order, which entered the Wailing Caverns hoping to use their springs to heal the Barrens."
+   "answer": "Before the nightmare claimed him, Cobrahn was a night elf druid in Naralex's order. He entered the Wailing Caverns with Naralex, hoping their springs could heal the Barrens."
   },
   {
    "q": "Why is he called Lord Cobrahn?",
@@ -36,7 +36,7 @@
     "why cobrahn",
     "lord cobrahn name meaning"
    ],
-   "answer": "No account explains the name, but it fits him. Twisted by the nightmare in the Wailing Caverns, he takes a lethal serpent form and keeps deviate pythons at his side, and his fellow Fang leaders Anacondra, Pythas and Serpentis bear similarly serpentine names."
+   "answer": "No account explains the name Lord Cobrahn. The title suits a druid twisted by the Wailing Caverns' nightmare into a lethal serpent form, with deviate pythons at his side. The other Fang leaders, Anacondra, Pythas and Serpentis, also bear serpentine names."
   },
   {
    "q": "Where can Lord Cobrahn be found?",
@@ -45,7 +45,7 @@
     "where is lord cobrahn",
     "cobrahn room"
    ],
-   "answer": "Lord Cobrahn resides deep within the Wailing Caverns, a twisting underground network located in the central Barrens, surrounded by deviate pythons and other nightmare-corrupted beasts."
+   "answer": "Lord Cobrahn resides deep within the Wailing Caverns, a twisting underground network in the central Barrens. Deviate pythons and other beasts corrupted by the nightmare surround him."
   },
   {
    "q": "Why do adventurers need to defeat him?",
@@ -53,7 +53,7 @@
     "why kill cobrahn",
     "leaders of the fang cobrahn"
    ],
-   "answer": "He is one of the primary Fanglords leading the Druids of the Fang. He carries the Gem of Cobrahn, which the druid Nara Wildmane of Thunder Bluff seeks in order to break the Fang leaders' hold over the Barrens."
+   "answer": "Cobrahn leads the Druids of the Fang and carries the Gem of Cobrahn. Nara Wildmane of Thunder Bluff seeks the gem to break the Fang leaders' hold over the Barrens."
   },
   {
    "q": "What unique physical traits does he possess?",
@@ -61,7 +61,7 @@
     "what does cobrahn look like",
     "cobrahn appearance"
    ],
-   "answer": "Unlike ordinary night elves, Cobrahn is noticeably larger in stature, wields a sharp claw on his right hand, and can transform completely into an oversized, venomous snake during combat."
+   "answer": "Cobrahn is larger than ordinary night elves and bears a sharp claw on his right hand. In combat, he can transform completely into an oversized venomous snake."
   },
   {
    "q": "What is his connection to the other Druids of the Fang?",
@@ -69,21 +69,21 @@
     "druids of the fang leaders",
     "cobrahn and anacondra"
    ],
-   "answer": "Cobrahn is one of the four key Fanglords alongside Lady Anacondra and their kin. They are former druids of Naralex's noble order who entered the caverns with Naralex and jointly fell to the twisting corruption of the nightmare."
+   "answer": "Cobrahn is one of the four Fanglords, alongside Lady Anacondra and their kin. All were druids in Naralex's order, entered the caverns with him, and fell together to the nightmare's twisting corruption."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Cobrahn serves as a grim warning of how druidic shapeshifting can be perverted when connected to the nightmare rather than natural balance."
+   "text": "For druids, Cobrahn shows how the nightmare can warp shapeshifting away from natural balance."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves, Cobrahn's fall is a bitter tragedy, seeing a skilled brother of the Cenarion Circle abandon his heritage to lead monsters in the subterranean depths."
+   "text": "For night elves, Cobrahn's fall is a bitter tragedy. A skilled brother of the Cenarion Circle abandoned his heritage and now leads monsters in the subterranean depths."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers seek Cobrahn to end the foul corruption leaking into the Barrens and protect the fragile ecosystem of Kalimdor's plains."
+   "text": "As a Horde adventurer, you seek Cobrahn to end the foul corruption leaking into the Barrens and protect Kalimdor's fragile plains."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Lord Cobrahn"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:306"
   ]
  },
- "summary": "At the Whelgar's Excavation site, Merrin Rockweaver sends an urgent message from the Wetlands. Raptors have overrun the dig, but Merrin assures her loved ones that she survived.",
+ "summary": "At Whelgar's Excavation, Merrin Rockweaver sends urgent word from the Wetlands. Raptors have overrun the dig, but she tells her loved ones she survived.",
  "sections": [
   {
    "title": "A Dispatch from the Ruins",
-   "body": "Merrin Rockweaver writes from the ruined dig at Whelgar's Excavation in the Wetlands. The dwarven expedition had been uncovering enormous prehistoric fossils and relics when they disturbed a nest of Mottled Raptors. The beasts swarmed the trenches, killed several workers, and cut off the surviving researchers. Amid the chaos, Merrin sends word to her husband Tarrel at Menethil Harbor. She, Prospector Whelgar, and Ormer Ironbraid survived behind a barricaded shelter.",
+   "body": "Merrin Rockweaver writes from the ruined dig at Whelgar's Excavation in the Wetlands. The dwarven expedition had been uncovering enormous prehistoric fossils and relics when they disturbed a nest of Mottled Raptors. The beasts swarmed the trenches, killed several workers, and cut off the surviving researchers.\n\nAmid the chaos, Merrin sends word to her husband Tarrel at Menethil Harbor. She, Prospector Whelgar, and Ormer Ironbraid survived behind a barricaded shelter.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "what happened to the dig",
     "why did the expedition fail"
    ],
-   "answer": "Mottled Raptors overran the archaeological team while it uncovered massive fossilized bones. Many dwarven workers were killed, and only a handful survived behind barricades in a makeshift camp."
+   "answer": "Mottled Raptors overran the archaeological team as it uncovered massive fossilized bones. Many dwarven workers were killed, and only a handful survived behind barricades in a makeshift camp."
   },
   {
    "q": "Who helped Merrin survive the attack?",
@@ -55,11 +55,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For a dwarf, Merrin's letter shows the personal cost the Explorers' League pays to uncover ancient history in the dangerous wilds of Khaz Modan."
+   "text": "As a dwarf, you can see the personal cost the Explorers' League pays to uncover ancient history in the dangerous wilds of Khaz Modan."
   },
   {
    "target": "faction:Alliance",
-   "text": "For an Alliance traveler, delivering the note brings vital intelligence and bittersweet comfort to the sentries watching the Wetlands highway."
+   "text": "As an Alliance traveler, you bring vital intelligence and bittersweet comfort to the sentries watching the Wetlands highway when you deliver the note."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
   "Merrin's Letter",
   "In Search of The Excavation Team (2)"
  ],
- "style": 1
+ "style": 2
 }

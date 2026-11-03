@@ -30,21 +30,21 @@
   ],
   "category": "Desolace"
  },
- "summary": "Dalinda Malem tells you the orcs slaughtered all their guards and servants before bringing her and Tyranis here. Tyranis tried to speak to them, and she cannot leave until she knows what has become of her brother. She asks you to find him and come back when his fate is known.",
+ "summary": "At Thunder Axe Fortress, Dalinda Malem waits to learn what became of Tyranis. Orcs killed their guards and servants before bringing the siblings there. Tyranis tried to speak with his captors, and Dalinda asks you to find him and return once you know his fate.",
  "sections": [
   {
    "title": "A Brother Taken",
-   "body": "Dalinda tells you that orcs killed every guard and servant of theirs before dragging her and Tyranis to this place. She expected to die at once, yet the orcs clearly had other designs. Tyranis tried talking to them, perhaps hoping his arcane learning would impress them, though she cannot say why. She will not escape until she knows his fate, so she asks you to find him and return when you do. He is in a building left of the fortress entrance.",
+   "body": "Orcs killed every guard and servant before dragging Dalinda and Tyranis to Thunder Axe Fortress. She expected them to die at once, but their captors had other designs. Tyranis tried speaking with the orcs, perhaps hoping his arcane learning would impress them. Dalinda cannot say why. She will not escape until she knows his fate, so she asks you to find him and return. He is in the building left of the fortress entrance.",
    "spoiler": 0
   },
   {
    "title": "Dalinda's Fear",
-   "body": "Dalinda dreads that Tyranis, if allowed, will seek the Burning Blade's secrets and become one of them. Power has always drawn him, as it does anyone magic seduces. To her people even studying such things is a grave crime, and she doubts she could face her family with word that his spirit toyed with that danger.",
+   "body": "Dalinda fears Tyranis will seek the Burning Blade's secrets and join them if he can. Power has always drawn him, as magic draws those it seduces. To Dalinda's people, even studying such things is a grave crime. She doubts she could face her family knowing her brother had toyed with that danger.",
    "spoiler": 0
   },
   {
    "title": "What Dalinda Learns",
-   "body": "When you come back, Dalinda calls it terrible but necessary. If your hand had not done it, her own people's would have. She asks pardon if her thanks sounds hollow. Knowing his fate, she is ready to escape and will accept your help if you are still willing.",
+   "body": "When you return, Dalinda calls what happened terrible but necessary. If your hand had not done it, someone from her own people would have. She asks you to pardon her if her thanks sounds hollow. Now that she knows Tyranis's fate, she is ready to escape and will accept your help if you are still willing.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "tyranis backstory",
     "tyranis malem"
    ],
-   "answer": "Dalinda's brother. He spoke to their captors, perhaps hoping to impress them with arcane learning, and she says the power of magic has always drawn him."
+   "answer": "Tyranis Malem is Dalinda's brother. He spoke to their captors, perhaps hoping his arcane learning would impress them. Dalinda says magic's power has always drawn him."
   },
   {
    "q": "Why does Dalinda refuse to leave yet?",
@@ -65,7 +65,7 @@
     "why does dalinda stay",
     "why wait to escape"
    ],
-   "answer": "She will not leave until she knows what has happened to her brother. She asks you to find him and come back for her when his fate is known."
+   "answer": "Dalinda refuses to leave until she knows what happened to her brother. She asks you to find him and return once his fate is known."
   },
   {
    "q": "What happened to the guards and servants?",
@@ -74,7 +74,7 @@
     "who was killed",
     "guards and servants"
    ],
-   "answer": "The orcs killed all of them, then took Dalinda and Tyranis alive, evidently with other plans."
+   "answer": "The orcs killed all the guards and servants, then took Dalinda and Tyranis alive with other designs."
   },
   {
    "q": "Where is Tyranis?",
@@ -82,7 +82,7 @@
     "where is tyranis",
     "tyranis location"
    ],
-   "answer": "At Thunder Axe Fortress in Desolace, in the building on the left as you enter."
+   "answer": "Tyranis is at Thunder Axe Fortress in Desolace, in the building on the left as you enter."
   },
   {
    "q": "What came before this step?",
@@ -91,7 +91,7 @@
     "quest progression",
     "vahlarriel quest chain"
    ],
-   "answer": "It follows the third part of Vahlarriel's Search, where Vahlarriel sent you to find Dalinda."
+   "answer": "This follows the third part of Vahlarriel's Search, where Vahlarriel sent you to find Dalinda."
   }
  ],
  "angles": [],
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Search for Tyranis"
- ]
+ ],
+ "style": 2
 }

@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Tanaris"
  },
- "summary": "Marvon Rivetseeker, a scientist and treasure hunter at heart, wants thirty ornaments left behind by the trolls who once lived in Tanaris. Marvon gives you a detector of their own invention to help find them.",
+ "summary": "In Tanaris, Marvon Rivetseeker searches for thirty ornaments left by its old trolls. He gives you a detector of his own making to help find them.",
  "sections": [
   {
    "title": "Relics of the Hydra God",
-   "body": "Long ago trolls occupied this land, and they made great numbers of ornaments in the likeness of Gahz'rilla, a hydra they revered as a god. Marvon Rivetseeker calls the element these were carved from Gahz'ridian, after the hydra god. Marvon has found a few and would like more to study.",
+   "body": "Long ago, trolls lived in Tanaris and carved ornaments in the likeness of Gahz'rilla, the hydra they revered as a god. Marvon Rivetseeker named the element in the carvings Gahz'ridian, after the hydra. He has found a few ornaments and wants more to study.",
    "spoiler": 0
   },
   {
    "title": "The Detector",
-   "body": "Marvon has invented a detector that makes finding Gahz'ridian simple, and gives it to you. Wearing it starts the search. Ornaments can be found nearly anywhere in Tanaris, though they gather thickest near Broken Pillar, the Eastmoon Ruins and the Southmoon Ruins.",
+   "body": "Marvon Rivetseeker gives you a detector he invented to make finding Gahz'ridian easier. Wear it, and the search begins. The ornaments may lie almost anywhere in Tanaris. They are thickest near Broken Pillar, the Eastmoon Ruins and the Southmoon Ruins.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who gives gahzridian",
     "quest giver"
    ],
-   "answer": "Marvon Rivetseeker is a scientist in Tanaris who is also a treasure hunter at heart. He studies the ornaments the old trolls made."
+   "answer": "Marvon Rivetseeker is a scientist in Tanaris who studies ornaments made by the old trolls and has a heart for treasure hunting."
   },
   {
    "q": "What is Gahz'ridian?",
@@ -48,7 +48,7 @@
     "gahzridian mineral",
     "gahzridian material"
    ],
-   "answer": "It is Marvon Rivetseeker's name for the element the trolls' hydra ornaments were carved from, taken from the hydra god."
+   "answer": "Gahz'ridian is the name Marvon Rivetseeker gave the element carved into the trolls' ornaments of the hydra god."
   },
   {
    "q": "Who is Gahz'rilla?",
@@ -57,7 +57,7 @@
     "hydra worship",
     "who is gahzrilla"
    ],
-   "answer": "Gahz'rilla is a hydra that the old trolls revered as a god. They made their ornaments in its likeness."
+   "answer": "Gahz'rilla is a hydra the old trolls revered as a god. They carved ornaments in its likeness."
   },
   {
    "q": "Where are Gahz'ridian ornaments found?",
@@ -66,7 +66,7 @@
     "best place for gahzridian",
     "gahzridian locations"
    ],
-   "answer": "Nearly anywhere in Tanaris, though the heaviest concentrations are around Broken Pillar and the Eastmoon and Southmoon Ruins."
+   "answer": "Gahz'ridian ornaments may be found almost anywhere in Tanaris, but they are thickest near Broken Pillar, the Eastmoon Ruins and the Southmoon Ruins."
   },
   {
    "q": "How do you find the ornaments?",
@@ -75,7 +75,7 @@
     "gahzridian detector",
     "finding gahzridian"
    ],
-   "answer": "Marvon has invented a detector for the purpose. Wearing it starts the search."
+   "answer": "Marvon Rivetseeker invented a detector to help find the ornaments. Wear it to begin the search."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Gahz'ridian (quest)"
- ]
+ ],
+ "style": 2
 }

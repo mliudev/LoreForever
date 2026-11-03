@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hive'Ashi"
  },
- "summary": "Hive'Ashi is a sprawling silithid colony dominating the northern sands of Silithus. As one of three major insectoid hives in the region, its creeping tunnels and towering mounds churn with countless hostile workers, defenders, and stingers.",
+ "summary": "Across northern Silithus, Hive'Ashi sends its silithid swarms through sand and tunnel. It is one of three great hives in the region, with workers, defenders, and stingers moving over towering mounds.",
  "sections": [
   {
    "title": "The Northern Mound",
-   "body": "Situated in northern Silithus, Hive'Ashi serves as a prime hive-complex for the re-emerging silithid swarms. Its chitinous spires carve out a distinct territory among the dunes, sending foraging workers and venomous defenders south and east toward the Swarming Pillar. Anyone seeking to understand the strange, coordinated intelligence stirring within the desert wastes inevitably finds their path leading directly into the dangerous, buzzing tunnels beneath these mounds.",
+   "body": "In northern Silithus, Hive'Ashi's chitinous spires mark the ground claimed by a silithid swarm rising again. Workers forage while venomous defenders move south and east toward the Swarming Pillar. Beneath the mounds, dangerous tunnels shelter the colony. To learn what stirs in the desert, travelers must enter them.",
    "spoiler": 0
   },
   {
    "title": "A Threat Unearthed",
-   "body": "Cenarion scouts stationed across Silithus monitor Hive'Ashi closely, commissioning brave combatants to thin its ranks and retrieve reconnaissance reports from deep within the colony. The glyphs and coordinated behavior documented within Ashi suggest that these mindless-looking insects share an eerie, singular will. As their numbers swell, the hive threatens to spill beyond northern Silithus entirely, making the eradication of its brood a top priority for those watching the southern borders.",
+   "body": "Cenarion scouts keep watch on Hive'Ashi. They send combatants to thin the swarm and bring back reports from deep in the colony. Glyphs and coordinated behavior found in Ashi suggest the insects share a single will, though they seem mindless. Their numbers are swelling, and those guarding the southern borders make destroying the brood a priority before it spreads beyond northern Silithus.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "hive ashi location",
     "what is ashi"
    ],
-   "answer": "Hive'Ashi is an active silithid hive-complex located in northern Silithus. It is home to thousands of burrowing insectoid creatures that hollow out the desert sands into interconnected tunnels and mounds."
+   "answer": "Hive'Ashi is an active silithid colony in northern Silithus. Thousands of burrowing insects hollow the desert into linked tunnels and mounds."
   },
   {
    "q": "What kinds of silithid live in Hive'Ashi?",
@@ -37,7 +37,7 @@
     "hive ashi creatures",
     "what silithid are here"
    ],
-   "answer": "The colony is populated by specialized castes of silithid, including Hive'Ashi workers, sandstalkers, venomous stingers, and heavily armored defenders."
+   "answer": "Hive'Ashi shelters workers, sandstalkers, venomous stingers, and heavily armored defenders."
   },
   {
    "q": "How does Hive'Ashi relate to the Swarming Pillar?",
@@ -45,7 +45,7 @@
     "swarming pillar connection",
     "ashi and swarming pillar"
    ],
-   "answer": "The silithid swarming around the nearby Swarming Pillar originate from Hive'Ashi, representing an outward push of the hive's brood across the desert floor."
+   "answer": "Silithids spread outward from Hive'Ashi across the desert floor and swarm around the nearby Swarming Pillar."
   },
   {
    "q": "Why are Cenarion scouts studying this hive?",
@@ -53,17 +53,17 @@
     "why scout hive ashi",
     "hive ashi scout report"
    ],
-   "answer": "The Cenarion Circle seeks to understand the rapid resurgence of the silithid and how their hives coordinate. Scouts monitor Ashi to decipher strange glyphs and track how quickly the hive is expanding."
+   "answer": "The Cenarion Circle studies the silithid resurgence and how the hives coordinate. Scouts watch Ashi's strange glyphs and track how quickly the colony expands."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As the Cenarion Circle watches the corrupted sands of Silithus, druids are called upon to study and suppress the insectoid menace churning out from Hive'Ashi before it engulfs the natural ecosystem."
+   "text": "The Cenarion Circle watches Silithus's corrupted sands. As a druid, you are called to study and suppress the insect menace pouring from Hive'Ashi before it engulfs the natural world."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance operatives moving through Silithus aid in gathering intelligence on Hive'Ashi to ensure these aggressive swarms do not threaten neighboring territories across southern Kalimdor."
+   "text": "As an Alliance operative in Silithus, you help gather intelligence on Hive'Ashi so its aggressive swarms do not threaten neighboring lands across southern Kalimdor."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Hive'Ashi"
- ]
+ ],
+ "style": 2
 }

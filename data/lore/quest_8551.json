@@ -15,21 +15,21 @@
   "previous": "",
   "next": ""
  },
- "summary": "Captain Hecklebury Smotts used to sail between Booty Bay and Ratchet in Kalimdor, until sea giants wrecked the ship, killed the crew and sent Smotts off in a lifeboat toward Booty Bay. The giant Gorlash took Smotts' Captain's Chest, and Smotts wants it back.",
+ "summary": "Smotts' lost chest lies with a sea giant after a wreck near Booty Bay. Captain Hecklebury Smotts once sailed between Booty Bay and Ratchet in Kalimdor. Sea giants wrecked his ship and killed the crew, then sent him toward Booty Bay in a lifeboat. Gorlash took his Captain's Chest, and now Smotts wants it back.",
  "sections": [
   {
    "title": "A Ruined Captain",
-   "body": "Smotts says the voyages to Ratchet in Kalimdor built a successful career and a fine reputation. The sea giants ended all that: they smashed the ship, killed the crew and sent Smotts off in a lifeboat toward Booty Bay.",
+   "body": "Captain Hecklebury Smotts once sailed between Booty Bay and Ratchet in Kalimdor, and earned a fine reputation. Then sea giants smashed his ship and killed the crew. They sent Smotts toward Booty Bay in a lifeboat, and he left his voyages and good name behind.",
    "spoiler": 0
   },
   {
    "title": "The Stolen Chest",
-   "body": "The giant Gorlash took Smotts' Captain's Chest, saying he wanted it as a snuffbox. The chest was Smotts' favorite, with a secret compartment where the greatest treasures were stored. Smotts has heard that Gorlash roams the shore east of Booty Bay.",
+   "body": "Gorlash took Smotts' Captain's Chest, saying he wanted it for a snuffbox. The chest was Smotts' favorite, and a secret compartment held his greatest treasures. Smotts has heard that Gorlash roams the shore east of Booty Bay.",
    "spoiler": 0
   },
   {
    "title": "Smotts' Thanks",
-   "body": "Smotts is overjoyed to have the chest back, and it takes some of the fire out of the anger, yet the revenge is not complete.",
+   "body": "Smotts is overjoyed to have his chest back, and its return takes some fire from his anger. His revenge is still not complete.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who is smotts",
     "hecklebury smotts"
    ],
-   "answer": "Smotts is a ship captain in Booty Bay who once sailed between there and Ratchet in Kalimdor, until sea giants smashed the ship and killed the crew."
+   "answer": "Captain Hecklebury Smotts is a ship captain in Booty Bay. He once sailed between Booty Bay and Ratchet in Kalimdor, until sea giants smashed his ship and killed the crew."
   },
   {
    "q": "Who took the chest?",
@@ -50,7 +50,7 @@
     "who has smotts chest",
     "gorlash"
    ],
-   "answer": "Gorlash, one of the sea giants, took it and said he wanted it as a snuffbox."
+   "answer": "Gorlash, one of the sea giants, took Smotts' chest and said he wanted it as a snuffbox."
   },
   {
    "q": "Where can Gorlash be found?",
@@ -59,7 +59,7 @@
     "gorlash location",
     "find gorlash"
    ],
-   "answer": "East of Booty Bay, along the shore. That is where Smotts has heard the giant roams."
+   "answer": "Along the shore east of Booty Bay, by Smotts's account."
   },
   {
    "q": "Why does Smotts want the chest back?",
@@ -67,7 +67,7 @@
     "what is in the chest",
     "why does smotts want the chest"
    ],
-   "answer": "It was Smotts' favorite chest, and its hidden compartment kept the greatest treasures."
+   "answer": "Smotts wants his chest back because it was his favorite, and its secret compartment held his greatest treasures."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Classic quest text: The Captain's Chest"
- ]
+ ],
+ "style": 2
 }

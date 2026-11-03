@@ -27,21 +27,21 @@
    "Broken Sigil"
   ]
  },
- "summary": "After you took the first sigil from the Syndicate, Zengu sends you after the remaining two, which the dug-in Stromgarde militia guards. Galen, son of Thoras Trollbane, broke the Sigil of Thoradin into pieces, and you are to carry them to the troll shaman Tor'gan in Hammerfall.",
+ "summary": "Zengu sends you to recover sigils from the Stromgarde militia. Galen, son of Thoras Trollbane, broke the Sigil of Thoradin into eleven pieces, and you carry them to Tor'gan in Hammerfall.",
  "sections": [
   {
    "title": "A Sigil in Pieces",
-   "body": "Three sigils guard the tomb of Thoras Trollbane, and you have already recovered the first from the Syndicate. The other two are harder to get, since the firmly entrenched Stromgarde militia holds them. Thoras' son, Galen, divided the Sigil of Thoradin into eleven pieces and dispersed them among the Stromgarde defenders.",
+   "body": "Three sigils guard Thoras Trollbane's tomb. You have taken the first from the Syndicate. The firmly entrenched Stromgarde militia holds the other two. Galen, Thoras' son, broke the Sigil of Thoradin into eleven pieces and scattered them among the defenders.",
    "spoiler": 0
   },
   {
    "title": "To Tor'gan",
-   "body": "Zengu tells you to retrieve the pieces from the defenders in Stromgarde and take them to Tor'gan, the troll shaman at Hammerfall, who can bind them into the whole sigil.",
+   "body": "Zengu asks you to gather the pieces from Stromgarde's defenders. Then carry them to Tor'gan, the troll shaman at Hammerfall. He can bind them into a whole sigil.",
    "spoiler": 0
   },
   {
    "title": "At Hammerfall",
-   "body": "Tor'gan says Zengu told him you needed his help. Seeing the pieces, he judges the work not too difficult, since all of them are present and the magical structure is easy to reform. He warns you to close your eyes, and soon declares the Sigil of Thoradin whole once again.",
+   "body": "Tor'gan says Zengu told him you needed help. He examines the pieces and judges the work manageable. All eleven are present, and the sigil's magical structure is easy to restore. Tor'gan tells you to close your eyes. Soon, he declares the Sigil of Thoradin whole again.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "broken sigil meaning",
     "what is the broken sigil"
    ],
-   "answer": "It is one of three sigils protecting Thoras Trollbane's tomb. His son Galen divided it into eleven pieces and dispersed them among the Stromgarde defenders."
+   "answer": "The Sigil of Thoradin is one of three sigils guarding Thoras Trollbane's tomb. Galen broke it into eleven pieces and scattered them among Stromgarde's defenders."
   },
   {
    "q": "Who divided the sigil?",
@@ -62,7 +62,7 @@
     "why is the sigil broken",
     "galen trollbane sigil"
    ],
-   "answer": "Galen, the son of Thoras Trollbane, divided the Sigil of Thoradin into eleven pieces and dispersed them among the Stromgarde defenders."
+   "answer": "Galen, son of Thoras Trollbane, broke the Sigil of Thoradin into eleven pieces and scattered them among Stromgarde's defenders."
   },
   {
    "q": "Where are the sigil fragments held?",
@@ -71,7 +71,7 @@
     "who has the fragments",
     "stromgarde defenders sigil"
    ],
-   "answer": "The pieces are with the defenders in Stromgarde, where the firmly entrenched militia holds the remaining sigils."
+   "answer": "Stromgarde's defenders hold the pieces among the firmly entrenched militia guarding the remaining sigils."
   },
   {
    "q": "Who can bind the broken sigil?",
@@ -80,7 +80,7 @@
     "torgan sigil",
     "who binds the fragments"
    ],
-   "answer": "Tor'gan, the troll shaman at Hammerfall, will be able to bind the pieces into the complete sigil."
+   "answer": "Tor'gan, the troll shaman at Hammerfall, can bind the pieces into a whole sigil."
   },
   {
    "q": "What came before this?",
@@ -89,7 +89,7 @@
     "what quest comes before the broken sigil",
     "sigil chain start"
    ],
-   "answer": "It follows Sigil of Strom, in which you retrieved the first sigil from the Syndicate."
+   "answer": "It follows Sigil of Strom, where you recovered the first sigil from the Syndicate."
   }
  ],
  "angles": [],
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Broken Sigil"
- ]
+ ],
+ "style": 2
 }

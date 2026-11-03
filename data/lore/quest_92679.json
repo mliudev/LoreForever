@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "Alvarion Windfield is a Skyborne farmer whose physical suffering and desperate call for aid highlight the struggles everyday Skyborne face beyond the settlement of Valanaar."
+   "text": "As a Skyborne farmer, Alvarion Windfield suffers and calls desperately for aid. His hardship shows what Skyborne face beyond Valanaar."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "alvarion windfield lore",
     "who gives blood tithe"
    ],
-   "answer": "Alvarion Windfield is a Skyborne farmer who has come to Valanaar seeking capable fighters to help protect his home. Despite suffering from severe physical pain, he manages to direct adventurers to his wife, Aamelia, at their orchard.",
+   "answer": "Alvarion Windfield is a Skyborne farmer in Valanaar who seeks fighters to protect his home. Though severe pain troubles him, he sends travelers to his wife, Aamelia, at their orchard.",
    "q": "Who is Alvarion Windfield?"
   },
   {
@@ -33,7 +33,7 @@
     "aamelia windfield location",
     "how to find the orchard"
    ],
-   "answer": "Windfield Orchard is situated to the west of Valanaar, down in the lowlands. Alvarion sends adventurers there to meet his wife, Aamelia Windfield, who oversees the farm's immediate defense.",
+   "answer": "The Windfield Orchard lies in the lowlands west of Valanaar. Alvarion directs travelers there to find his wife, Aamelia Windfield, who oversees the farm's defense.",
    "q": "Where is the Windfield Orchard located?"
   },
   {
@@ -42,7 +42,7 @@
     "what is wrong with alvarion",
     "alvarion pain"
    ],
-   "answer": "While the exact affliction is unstated when meeting him, Alvarion is visibly suffering from intense, debilitating pain as he speaks, adding urgency to his plea for help.",
+   "answer": "Alvarion's affliction is unknown when travelers meet him. Intense, debilitating pain troubles him as he speaks, lending urgency to his plea for help.",
    "q": "Why is Alvarion in pain?"
   },
   {
@@ -51,7 +51,7 @@
     "aamelia windfield lore",
     "alvarion wife"
    ],
-   "answer": "Aamelia Windfield is Alvarion's wife, stationed at the family orchard west of Valanaar. Alvarion directs willing adventurers to her to organize the defense of their land.",
+   "answer": "Aamelia Windfield is Alvarion's wife and tends their family orchard west of Valanaar. He sends willing travelers to help her defend their land.",
    "q": "Who is Aamelia Windfield?"
   },
   {
@@ -60,7 +60,7 @@
     "what is blood tithe about",
     "farm under attack valanaar"
    ],
-   "answer": "Blood Tithe begins with Alvarion Windfield recruiting travelers in Valanaar to assist his struggling farm. Adventurers must listen to his request and seek out his wife Aamelia at their lowland orchard.",
+   "answer": "Alvarion Windfield seeks help in Valanaar for his struggling farm. He asks you to find his wife, Aamelia, at their lowland orchard.",
    "q": "What is the task in Blood Tithe?"
   },
   {
@@ -69,7 +69,7 @@
     "where does blood tithe take place",
     "what is valanaar"
    ],
-   "answer": "Valanaar is a settlement where travelers and Skyborne gather. Alvarion visits this hub specifically to find hired help and adventurers capable of rescuing his orchard from peril.",
+   "answer": "Valanaar is a settlement where travelers and Skyborne gather. Alvarion comes there seeking capable fighters to save his orchard from peril.",
    "q": "What is Valanaar's significance here?"
   }
  ],
@@ -87,18 +87,19 @@
  ],
  "sections": [
   {
-   "body": "In the settlement of Valanaar, an injured Skyborne man named Alvarion Windfield desperately searches for capable adventurers. Wracked with visible pain, Alvarion has traveled from his homestead into town to hire fighters who can help save his livelihood. Rather than tasking travelers on the spot, he implores those willing to help to journey westward into the lowlands, where his wife Aamelia maintains their family orchard.",
+   "body": "Alvarion Windfield has come from his homestead to Valanaar in search of capable fighters. Pain leaves him visibly injured, and he fears for the livelihood his farm provides. He asks you to travel west into the lowlands, where his wife Aamelia tends their family orchard.",
    "spoiler": 0,
    "title": "A Plea in Valanaar"
   },
   {
-   "body": "The Windfield Orchard lies situated in the lowlands to the west of Valanaar. With Alvarion incapacitated by intense suffering, the burden of holding the farm falls upon Aamelia Windfield. Adventurers taking up Alvarion's offer must make their way into the western valley to discover what threatens the orchard and lend their strength to the embattled family.",
+   "body": "The Windfield Orchard lies in the lowlands west of Valanaar. Alvarion is too ill to tend the farm, so Aamelia Windfield bears its burdens alone. Reach the western valley, learn what threatens the orchard, and lend the family your strength.",
    "spoiler": 0,
    "title": "Trouble in the Lowlands"
   }
  ],
- "summary": "Blood Tithe is a quest initiated by Alvarion Windfield, an ailing Skyborne farmer seeking aid in the settlement of Valanaar. Desperate to protect his livelihood, he recruits adventurers to travel west to his lowland orchard and assist his wife, Aamelia.",
+ "summary": "In Valanaar, Alvarion Windfield seeks aid for the orchard that sustains his family. Pain keeps the Skyborne farmer from his work, so he sends travelers west to his wife, Aamelia, who tends their lowland farm.",
  "attribution": [
   "In-game quest text: Blood Tithe"
- ]
+ ],
+ "style": 2
 }

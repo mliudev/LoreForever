@@ -17,16 +17,16 @@
   "wiki": "Messenger to Darkshire",
   "chain": []
  },
- "summary": "In Lakeshire, Magistrate Solomon sends an urgent plea to Darkshire for aid. Blackrock orcs and gnolls threaten Redridge, and Solomon turns to his neighbor for military support. A courier must cross Duskwood's shadowed roads to deliver the letter to Lord Ello Ebonlocke, Darkshire's mayor.",
+ "summary": "In Lakeshire, Magistrate Solomon sends an urgent plea to Darkshire for aid. Blackrock orcs and gnolls threaten Redridge, and Solomon seeks military support from his neighbor. A courier must cross Duskwood to deliver the letter to Lord Ello Ebonlocke, Darkshire's mayor.",
  "sections": [
   {
    "title": "A Desperate Call for Aid",
-   "body": "Redridge faces growing pressure from Blackrock orcs and gnoll packs, and Lakeshire's guards are stretched thin. Stormwind's royal court has ignored Magistrate Solomon's pleas, while Westfall is caught up in its own insurrection. With little help nearby, Solomon writes to Mayor Ello Ebonlocke in Duskwood, hoping Darkshire can lend or hire its Night Watch to strengthen Lakeshire's defenses.",
+   "body": "Blackrock orcs and gnoll packs press Redridge, while Lakeshire's guards are stretched thin. Stormwind's royal court has ignored Magistrate Solomon's pleas, and Westfall is caught in its own insurrection. With little help nearby, Solomon writes to Mayor Ello Ebonlocke in Duskwood. He hopes Darkshire can lend or hire its Night Watch to strengthen Lakeshire's defenses.",
    "spoiler": 0
   },
   {
    "title": "The Road into the Gloom",
-   "body": "Solomon's letter must travel south through Duskwood, a forest under supernatural gloom. He warns you to keep to the roads, since the wilderness between Lakeshire and Darkshire is perilous. The letter is bound for Town Hall, where Lord Ebonlocke can receive it. Whether Duskwood can spare any forces is another matter.",
+   "body": "Solomon's letter travels south through Duskwood, a forest under supernatural gloom. He warns you to keep to the roads because the wilderness between Lakeshire and Darkshire is perilous. The letter is bound for Town Hall, where Lord Ebonlocke can receive it. Whether Duskwood can spare any forces remains uncertain.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why darkshire",
     "solomon darkshire plea"
    ],
-   "answer": "Stormwind has withheld formal military aid, leaving Lakeshire to face threats such as the Blackrock orcs alone. Magistrate Solomon is asking nearby allies for help and hopes Darkshire's Night Watch can lend trained fighters."
+   "answer": "Stormwind has withheld formal military aid, leaving Lakeshire to face threats such as the Blackrock orcs alone. Magistrate Solomon asks nearby allies for help and hopes Darkshire's Night Watch can lend trained fighters."
   },
   {
    "q": "Who is Lord Ello Ebonlocke?",
@@ -71,7 +71,7 @@
     "previous quest",
     "messenger quest order"
    ],
-   "answer": "Magistrate Solomon's series of urgent letters began with his plea to Gryan Stoutmantle in Westfall. He is continuing his effort to find help for Lakeshire."
+   "answer": "Magistrate Solomon's urgent letters began with his plea to Gryan Stoutmantle in Westfall. He continues his effort to find help for Lakeshire."
   },
   {
    "q": "Does Darkshire actually have guards to spare?",
@@ -79,7 +79,7 @@
     "will darkshire help",
     "does ebonlocke send guards"
    ],
-   "answer": "Duskwood faces its own crisis, with risen dead, rogue worgen, and lurking monstrosities. The Night Watch has barely enough fighters to defend Darkshire, so Solomon's plea is a long shot."
+   "answer": "Duskwood faces its own crisis, with risen dead, rogue worgen, and lurking monstrosities. The Night Watch has barely enough fighters to defend Darkshire, making Solomon's plea a long shot."
   }
  ],
  "angles": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Messenger to Darkshire"
  ],
- "style": 1
+ "style": 2
 }

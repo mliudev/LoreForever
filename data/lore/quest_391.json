@@ -21,17 +21,17 @@
  "sections": [
   {
    "title": "Blood on the Stone",
-   "body": "Deep beneath the Mage Quarter's cobblestones, the Stockade has fallen into lawlessness. Criminals, Defias insurgents, and violent cutthroats have broken containment and seized the cell blocks, making the prison an impenetrable war zone. Warden Thelwater and his guards cling desperately to the entrance, unable to push inside and restore order by ordinary means.",
+   "body": "Beneath the Mage Quarter's cobblestones, the Stockade has fallen into lawlessness. Criminals, Defias insurgents, and violent cutthroats have broken containment and seized the cell blocks. The prison is now an impenetrable war zone. Warden Thelwater and his guards hold desperately to the entrance, unable to push inside and restore order by ordinary means.",
    "spoiler": 0
   },
   {
    "title": "The Price of Trust",
-   "body": "Warden Thelwater distrusts anyone asking after Bazil Thredd, so he demands proof of your allegiance. He orders you through the riot-torn cell blocks to slay Thredd in his cell and return with the rebel leader's severed head. Only by killing the uprising's figurehead can an outsider show they are not secretly allied with the rebellion.",
+   "body": "Warden Thelwater distrusts anyone who asks after Bazil Thredd. He demands proof of your allegiance and orders you through the riot-torn cell blocks to slay Thredd in his cell. Then you are to return with the rebel leader's severed head. Only by killing the uprising's figurehead can an outsider show they are not secretly allied with the rebellion.",
    "spoiler": 1
   },
   {
    "title": "A Severed Thread",
-   "body": "Bazil Thredd leads the riot, and his death deals the uprising's organization a decisive blow. It also silences any direct answers he might have given about the conspiracy gripping Stormwind. When Warden Thelwater sees Thredd's head, he is surprised and admits the prison may become manageable again. He also offers clues about Thredd's secret contacts before the insurrection.",
+   "body": "Bazil Thredd leads the riot, and his death deals the uprising's organization a decisive blow. It also silences any direct answers he might have given about the conspiracy gripping Stormwind.\n\nWhen Warden Thelwater sees Thredd's head, he is surprised and admits the prison may become manageable again. He also offers clues about Thredd's secret contacts before the insurrection.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "stockade riots objective",
     "how to beat stockade riots"
    ],
-   "answer": "You must enter the prison dungeon, find ringleader Bazil Thredd in the eastern cell block, kill him, and return his severed head to Warden Thelwater."
+   "answer": "Enter the prison, find ringleader Bazil Thredd in the eastern cell block, kill him, and return his severed head to Warden Thelwater."
   },
   {
    "q": "Where is Bazil Thredd located inside the Stockade?",
@@ -68,7 +68,7 @@
     "why kill thredd",
     "why thelwater wants thredd dead"
    ],
-   "answer": "Bazil Thredd is the uprising's primary ringleader. Warden Thelwater believes killing him is the only way for the guards to regain control of the rioting cell blocks, and it also tests whether you are secretly working with the rebels."
+   "answer": "Bazil Thredd is the uprising's primary ringleader. Warden Thelwater believes killing him is the only way for the guards to regain control of the rioting cell blocks. It also tests whether you are secretly working with the rebels."
   },
   {
    "q": "What happens after completing The Stockade Riots?",
@@ -84,7 +84,7 @@
     "is stockade riots alliance only",
     "horde stockade riots"
    ],
-   "answer": "No. The Stockade is a dungeon deep inside Stormwind, the Alliance capital, so Horde players cannot obtain this."
+   "answer": "No. The Stockade lies deep inside Stormwind, the Alliance capital, so Horde players cannot obtain this."
   }
  ],
  "angles": [
@@ -94,11 +94,11 @@
   },
   {
    "target": "race:Human",
-   "text": "Many rioters are Defias operatives and disgruntled stonemasons who turned against their kingdom after the reconstruction dispute."
+   "text": "As a human, you know many rioters are Defias operatives and disgruntled stonemasons who turned against their kingdom after the reconstruction dispute."
   },
   {
    "target": "class:Rogue",
-   "text": "Infiltrating the riot shows how far the Defias Brotherhood's clandestine underground network can go when it loses all restraint."
+   "text": "As a rogue, you can see how far the Defias Brotherhood's clandestine underground network can go when it loses all restraint."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "The Stockade Riots"
  ],
- "style": 1
+ "style": 2
 }

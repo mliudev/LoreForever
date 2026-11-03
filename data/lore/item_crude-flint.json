@@ -10,16 +10,16 @@
    "quest:277"
   ]
  },
- "summary": "Across the Wetlands, Mosshide gnolls carry Crude Flint to kindle fires with freshly hewn marsh timber. Their fires anger Rethiel the Greenwarden, protector of the marsh.",
+ "summary": "Across the Wetlands, Mosshide gnolls burn living marsh timber, and Rethiel the Greenwarden means to stop them. They carry Crude Flint to kindle their fires.",
  "sections": [
   {
    "title": "Kindling in the Mire",
-   "body": "In the Wetlands, Mosshide gnolls use Crude Flint to strike sparks for warmth and to cook meat in the damp bogs. They cut down living timber for their hearths and bonfires. Rethiel the Greenwarden sees each spark as an assault on the marsh's natural balance.",
+   "body": "Mosshide gnolls strike Crude Flint for warmth and to cook meat in the damp Wetlands. They cut down living timber for their hearths and bonfires. Rethiel the Greenwarden sees every spark as an assault on the marsh's natural balance.",
    "spoiler": 1
   },
   {
    "title": "The Greenwarden's Retribution",
-   "body": "Rethiel the Greenwarden seeks to stop the Mosshide gnolls from cutting down the marsh's trees. He asks passing adventurers to take the firestones from the pack. Rethiel plans to smash each flint to dust and cast the fragments into the sea, so the gnolls can no longer burn the Wetlands' living wood.",
+   "body": "Rethiel the Greenwarden seeks to stop the Mosshide gnolls from cutting down the marsh's trees. He asks passing adventurers to take the firestones from the pack. Then he plans to smash each flint to dust and cast the fragments into the sea, so the gnolls can no longer burn the Wetlands' living wood.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does crude flint do",
     "crude flint purpose"
    ],
-   "answer": "Mosshide gnolls use Crude Flint to strike sparks for warmth and cooking. Rethiel the Greenwarden asks travelers to gather the flints to stop the gnolls from setting living trees aflame."
+   "answer": "Mosshide gnolls strike Crude Flint for sparks to keep warm and cook meat. Rethiel the Greenwarden asks travelers to gather the flints and stop them from setting living trees aflame."
   },
   {
    "q": "Which creatures carry Crude Flint?",
@@ -40,7 +40,7 @@
     "where to get crude flint",
     "which gnolls have flint"
    ],
-   "answer": "Most adult and specialized Mosshide gnolls carry Crude Flint, including Mosshide Brutes, Trappers, Fenrunners, Mistweavers, Mystics, Alphas, and Gnawbone. Smaller Mosshide gnolls and mongrels do not carry it."
+   "answer": "Most adult and specialized Mosshide gnolls carry Crude Flint. They include Mosshide Brutes, Trappers, Fenrunners, Mistweavers, Mystics, Alphas, and Gnawbone. Smaller Mosshide gnolls and mongrels do not carry it."
   },
   {
    "q": "Why does Rethiel want the flints destroyed?",
@@ -57,13 +57,13 @@
     "can i use crude flint in blacksmithing",
     "is crude flint crafting material"
    ],
-   "answer": "No. Crude Flint is a rough stone suited only to sparking a crude flame; it lacks the purity and shape smiths and engineers need."
+   "answer": "No. Crude Flint is a rough stone suited only to sparking a crude flame. It lacks the purity and shape smiths and engineers need."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you know that cutting down living plants for gnoll comfort offends the tenets of nature. Taking and shattering the firestones is a natural duty for a guardian of the wild."
+   "text": "As a druid, you know that cutting down living plants for gnoll comfort offends nature's tenets. Taking and shattering the firestones is a natural duty for a guardian of the wild."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Crude Flint",
   "Fire Taboo"
  ],
- "style": 1
+ "style": 2
 }

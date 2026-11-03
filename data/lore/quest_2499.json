@@ -17,16 +17,16 @@
   "wiki": "Oakenscowl (Classic)",
   "chain": []
  },
- "summary": "Along Lake Al'Ameth, blight spreads from a corrupted timberling called Oakenscowl. Denalan asks you to end the threat. The maddened creature dwells in a cave on the lake's southern bank.",
+ "summary": "At Lake Al'Ameth, blight spreads from Oakenscowl, once a guardian of Teldrassil. Denalan asks you to end the threat. The maddened timberling dwells in a cave on the lake's southern bank.",
  "sections": [
   {
    "title": "A Fallen Guardian",
-   "body": "Timberlings tend the boughs of Teldrassil, and Oakenscowl once led them. Now corruption runs through the world tree, reaching humble wildlife and ancient protectors alike. A massive growth swells across Oakenscowl's bark, driving the timberling mad. Where it once guarded the forest, blight now takes hold.",
+   "body": "Timberlings tend Teldrassil's boughs, and Oakenscowl once led them. Now corruption reaches the world tree's humble wildlife and ancient protectors alike. A massive growth swells across Oakenscowl's bark and drives the timberling mad. Its old duty was to guard the forest. Now blight takes hold.",
    "spoiler": 0
   },
   {
    "title": "Purging Lake Al'Ameth",
-   "body": "Oakenscowl hides in a cavern on Lake Al'Ameth's southern shore. Its presence poisons the nearby water and woodland beasts. Denalan cannot face the creature alone, so he seeks its destruction to cut off the corruption and study the strange growth afflicting the lake's spirits.",
+   "body": "Oakenscowl hides in a cavern on Lake Al'Ameth's southern shore. From there, it poisons nearby water and woodland beasts. Denalan cannot face the creature alone, so he seeks its destruction. He hopes to cut off the corruption and study the strange growth afflicting the lake's spirits.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "oakenscowl lore",
     "what kind of creature is oakenscowl"
    ],
-   "answer": "Oakenscowl is a massive timberling, a forest spirit tied to Teldrassil's plant life. The timberling once led its kind before a malignant growth took hold."
+   "answer": "Oakenscowl is a massive timberling, a forest spirit tied to Teldrassil's plant life. It once led its kind before a malignant growth took hold."
   },
   {
    "q": "Why must Oakenscowl be destroyed?",
@@ -70,7 +70,7 @@
     "why do timberlings have tumors",
     "source of corruption"
    ],
-   "answer": "The tumor points to a deeper sickness spreading through Teldrassil's soil and roots, corrupting nature spirits from within."
+   "answer": "Oakenscowl's tumor points to a deeper sickness spreading through Teldrassil's soil and roots. It corrupts nature spirits from within."
   },
   {
    "q": "Is Oakenscowl beyond saving?",
@@ -78,21 +78,21 @@
     "can oakenscowl be healed",
     "cure oakenscowl"
    ],
-   "answer": "Oakenscowl's affliction has gone too far by the time adventurers find it. The growth has completely warped the timberling, leaving Denalan to call for a mercy kill."
+   "answer": "By the time adventurers find Oakenscowl, its affliction has gone too far. The growth has completely warped the timberling, and Denalan calls for a mercy kill."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, seeing a guardian timberling warped by strange growths shows how deeply unwell Teldrassil's young ecosystem has become."
+   "text": "As a druid, you see a guardian timberling warped by strange growths. Teldrassil's young ecosystem is deeply unwell."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, Oakenscowl's fall threatens Lake Al'Ameth, just south of Dolanaar, close to the heart of your people."
+   "text": "As a night elf, you see Oakenscowl's fall threaten Lake Al'Ameth, just south of Dolanaar and close to the heart of your people."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you can see how unseen rot twists plant life into malignant, mossy blights while helping Denalan."
+   "text": "As an herbalist, you see how unseen rot twists plant life into malignant, mossy blights as you help Denalan."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Oakenscowl (Classic)"
  ],
- "style": 1
+ "style": 2
 }

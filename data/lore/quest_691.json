@@ -24,16 +24,16 @@
    "Malin's Request"
   ]
  },
- "summary": "At Refuge Pointe, Apprentice Kryten is after Witherbark tusks, medicine pouches and a shadow hunter's knife, all reagents for Archmage Malin, who sent him and Skuerto to gather them. He asks you to seek them among the Witherbark trolls in the southeast of Arathi.",
+ "summary": "At Refuge Pointe, Apprentice Kryten needs reagents for Archmage Malin. He asks you to gather tusks, medicine pouches and a shadow hunter's knife from the Witherbark trolls of southeastern Arathi.",
  "sections": [
   {
    "title": "Malin's Reagents",
-   "body": "Archmage Malin sent Kryten and Skuerto to Arathi to collect reagents, and Kryten had no idea how to gather them until you arrived. He needs ten Witherbark tusks, four medicine pouches and one shadow hunter knife. The Witherbark trolls make their home in the southeast of Arathi.",
+   "body": "Archmage Malin sent Kryten and Skuerto to Arathi for reagents. Kryten was unsure how to gather them until you arrived. He needs ten Witherbark tusks, four medicine pouches and one shadow hunter knife. The Witherbark trolls live in southeastern Arathi.",
    "spoiler": 0
   },
   {
    "title": "What the Witherbark Carry",
-   "body": "By Kryten's research, any Witherbark troll should have tusks, and the witch doctors carry the medicine pouches. The knife belongs to the mightiest shadow hunters, handed to them after they finish their rites of passage. Only battle will show which of them has one.",
+   "body": "Kryten's research says every Witherbark troll should have tusks. The witch doctors carry medicine pouches. The knife belongs to the mightiest shadow hunters, who receive it after completing their rites of passage. Only battle will show which one carries it.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "kryten master",
     "why is kryten in arathi"
    ],
-   "answer": "Archmage Malin sent Kryten and Skuerto to Arathi to collect reagents for him."
+   "answer": "Archmage Malin sent Kryten and Skuerto to Arathi to gather reagents for him."
   },
   {
    "q": "Where are the Witherbark trolls located?",
@@ -54,7 +54,7 @@
     "where to find witherbark",
     "witherbark village location"
    ],
-   "answer": "In the southeast of Arathi, where the Witherbark trolls make their home."
+   "answer": "In the southeast of Arathi, where the Witherbark make their home."
   },
   {
    "q": "Which trolls carry the medicine pouches?",
@@ -63,7 +63,7 @@
     "who has medicine pouches",
     "witherbark medicine pouch"
    ],
-   "answer": "Kryten's research says it is the Witherbark witch doctors who carry medicine pouches, while any Witherbark troll should have tusks."
+   "answer": "Kryten's research says the Witherbark witch doctors carry medicine pouches. Any Witherbark troll should have tusks."
   },
   {
    "q": "How do you find the shadow hunter knife?",
@@ -72,7 +72,7 @@
     "who drops shadow hunter knife",
     "rite of passage knife"
    ],
-   "answer": "The mightiest Witherbark shadow hunters should have it, a blade handed to them after their rites of passage. Which of them carries one only battle will reveal."
+   "answer": "The mightiest Witherbark shadow hunters carry the knife, given to them after their rites of passage. Only battle will reveal which one has it."
   }
  ],
  "angles": [],
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Worth Its Weight in Gold (Classic)"
- ]
+ ],
+ "style": 2
 }

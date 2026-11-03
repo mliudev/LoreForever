@@ -8,16 +8,16 @@
   "wiki": "Menara Voidrender",
   "refs": 5
  },
- "summary": "In Ratchet, Menara Voidrender teaches warlocks from both factions the dark arts. The human warlock shares her knowledge of demon-binding artifacts and arcane craft from a refuge in Kalimdor, far from orthodox authorities.",
+ "summary": "In Ratchet, Menara Voidrender teaches warlocks of both factions the dark arts. From this refuge in Kalimdor, the human warlock shares her knowledge of demon-binding artifacts and arcane craft, far from orthodox authorities.",
  "sections": [
   {
    "title": "A Refuge in Ratchet",
-   "body": "Menara Voidrender works from Ratchet, the neutral goblin port in the Barrens. Many warlocks in the Eastern Kingdoms study in cellars or hidden slaughterhouses beneath their cities, but Ratchet keeps Menara away from the Kirin Tor, Stormwind's guards, and Orgrimmar's overseers. There, she can pursue occult studies in plain sight. She teaches any capable apprentice, whatever their faction, making her a rare meeting point for practitioners of the dark arts.",
+   "body": "Menara Voidrender works from Ratchet, the neutral goblin port in the Barrens. Many warlocks in the Eastern Kingdoms study in cellars or hidden slaughterhouses beneath their cities. Ratchet keeps Menara far from the Kirin Tor, Stormwind's guards, and Orgrimmar's overseers, so she can pursue occult studies in plain sight. She teaches any capable apprentice, whatever their faction, and gives practitioners of the dark arts a rare place to meet.",
    "spoiler": 0
   },
   {
    "title": "Mistress of Binding",
-   "body": "Veteran conjurers know Menara as an authority on orbs that imprison and harness demonic spirits. She works with intricate reagents and guides apprentices through demanding rituals to make enchanted attire and binding implements. Her skill is known as far as Ironforge and the Undercity, and senior warlocks across Azeroth send their most promising students across the sea to seek her counsel.",
+   "body": "Veteran conjurers know Menara as an authority on orbs that imprison and harness demonic spirits. She works with intricate reagents and guides apprentices through demanding rituals to make enchanted attire and binding implements. Her skill is known as far as Ironforge and the Undercity. Senior warlocks across Azeroth send their most promising students across the sea to seek her counsel.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "menara voidrender lore",
     "who is the warlock in ratchet"
    ],
-   "answer": "Menara Voidrender is a human warlock in Ratchet, the neutral port in the Barrens. She instructs developing warlocks in crafting rituals and demon-binding sorcery."
+   "answer": "Menara Voidrender is a human warlock in Ratchet, the neutral port in the Barrens. She teaches developing warlocks crafting rituals and demon-binding sorcery."
   },
   {
    "q": "Why is a human warlock living in the Barrens?",
@@ -61,7 +61,7 @@
     "how does she know tabetha",
     "tabetha connection"
    ],
-   "answer": "Menara and Tabetha share a past connection. Tabetha lives in seclusion in Dustwallow Marsh and practices traditional wizardry; warlocks seeking knowledge of the Orb of Orahil find that the two women know each other's talents."
+   "answer": "Menara and Tabetha share a past connection. Tabetha lives in seclusion in Dustwallow Marsh and practices traditional wizardry. Warlocks seeking knowledge of the Orb of Orahil find that the two women know each other's talents."
   },
   {
    "q": "Does Menara favor the Alliance or the Horde?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Menara Voidrender"
  ],
- "style": 1
+ "style": 2
 }

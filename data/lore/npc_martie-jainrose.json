@@ -8,11 +8,11 @@
   "wiki": "Martie Jainrose",
   "refs": 2
  },
- "summary": "In Lakeshire, Martie Jainrose tends a garden beside Lake Everstill. She gathers herbs and flowers for the town while wild beasts threaten her plots, and she seems fond of Guard Parker.",
+ "summary": "In Lakeshire, Martie Jainrose tends her garden beside Lake Everstill. She gathers herbs and flowers for the town, though wild beasts threaten her plots. She seems fond of Guard Parker.",
  "sections": [
   {
    "title": "A Garden by the Lake",
-   "body": "Martie Jainrose tends herbs and flowers for Lakeshire as its herbalist. Blackrock orcs, gnolls, and local brigands threaten the Redridge Mountains, but Martie keeps the town supplied with fresh herbs and floral arrangements. Wild animals disrupt her work, especially Bellygrub, a monstrous boar that often ravages her garden beds. Martie also seems fond of Guard Parker. Parker is courting Darcy, who calls Martie a jealous rival.",
+   "body": "Lakeshire's herbalist, Martie Jainrose, gathers herbs and flowers for the town. Blackrock orcs, gnolls, and local brigands threaten the Redridge Mountains, yet she keeps Lakeshire supplied with fresh herbs and floral arrangements. Wild animals trouble her work, especially Bellygrub, a monstrous boar that often ravages her garden beds.\n\nMartie also seems fond of Guard Parker. Parker is courting Darcy, who calls Martie a jealous rival.",
    "spoiler": 0
   }
  ],
@@ -48,11 +48,11 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist traveling through Redridge, you share Martie's care for fragile plants, even as wild boars and encroaching enemies threaten them."
+   "text": "As an herbalist traveling through Redridge, you share Martie's care for fragile plants. Wild boars and encroaching enemies threaten them."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can see Martie's persistence in Lakeshire. Redridge's people keep up ordinary life while Stormwind leaves the town largely to fend for itself."
+   "text": "As an Alliance traveler, you see Martie's persistence in Lakeshire. Redridge's people keep up ordinary life while Stormwind leaves the town largely to fend for itself."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Martie Jainrose"
  ],
- "style": 1
+ "style": 2
 }

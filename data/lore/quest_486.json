@@ -17,21 +17,21 @@
   "wiki": "Ursal the Mauler (quest)",
   "chain": []
  },
- "summary": "In Teldrassil, Athridas Bearmantle seeks to wake the Druids of the Talon from their unnatural sleep. Their kin remain trapped in the Barrow Den, and the corrupted Gnarlpine chief behind the disturbance must be slain.",
+ "summary": "In Teldrassil, Athridas Bearmantle seeks to rouse the Druids of the Talon from an unnatural sleep. Their kin are trapped in the Barrow Den, and Ursal the Mauler's corruption must be broken.",
  "sections": [
   {
    "title": "A Slumber Turned Nightmare",
-   "body": "The Druids of the Talon withdrew to the Barrow Den of Ban'ethil to sleep and commune with the Emerald Dream. Their peaceful trance became a prison with no way back to waking. Athridas Bearmantle traced the trouble to the gnarlpine furbolgs, and to their vicious leader, Ursal the Mauler, who meddled with the druids' sacred ritual. The sleepers remain caught between waking and the Dream.",
+   "body": "The Druids of the Talon went to the Barrow Den of Ban'ethil to sleep and commune with the Emerald Dream. Their peaceful trance became a prison, with no path back to waking. Athridas Bearmantle traced the trouble to the gnarlpine furbolgs and their vicious leader, Ursal the Mauler. Ursal meddled with the druids' sacred rite, leaving them caught between waking and the Dream.",
    "spoiler": 0
   },
   {
    "title": "The Den in Gnarlpine Hold",
-   "body": "Athridas needs more than the Relics of Wakening to reach the druids through the spiritual fog. The source of the interference must be ended. Ursal the Mauler makes his lair in Gnarlpine Hold, the tribe's home in far southwestern Teldrassil. Striking down the furbolg warlord breaks his hold on the sleepers' minds.",
+   "body": "The Relics of Wakening alone cannot carry Athridas through the spiritual fog to the druids. The source of the interference must end. Ursal the Mauler lairs in Gnarlpine Hold, home to the tribe in far southwestern Teldrassil. Slaying the furbolg warlord breaks his hold on the sleepers' minds.",
    "spoiler": 0
   },
   {
    "title": "A Symptom of Deeper Rot",
-   "body": "Athridas can perform the ritual and rescue the Druids of the Talon once Ursal is dead, but Teldrassil's sickness remains. The Gnarlpine tribe is still maddened by corruption, and no one knows what is spreading through the World Tree's boughs.",
+   "body": "Athridas can perform the rite and rescue the Druids of the Talon once Ursal is dead, yet Teldrassil's sickness remains. The Gnarlpine tribe is still maddened by corruption, and no one knows what spreads through the World Tree's boughs.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "why does ursal need to die",
     "relilcs of wakening purpose"
    ],
-   "answer": "Athridas Bearmantle has the Relics of Wakening, but his ritual cannot reach the druids while Ursal lives. The furbolg's interference anchors them in slumber and keeps their spirits from returning to their bodies."
+   "answer": "Athridas Bearmantle has the Relics of Wakening, but his rite cannot reach the druids while Ursal lives. The furbolg's interference anchors them in slumber and keeps their spirits from returning to their bodies."
   },
   {
    "q": "Where can Ursal the Mauler be found?",
@@ -70,7 +70,7 @@
     "did we save the furbolgs",
     "is teldrassil saved"
    ],
-   "answer": "No. Ursal's death frees the sleeping druids, but the Gnarlpine furbolgs remain corrupted, and sickness continues to spread through Teldrassil's forests."
+   "answer": "No. Ursal's death frees the sleeping druids, but the Gnarlpine furbolgs remain corrupted. Sickness still spreads through Teldrassil's forests."
   },
   {
    "q": "Who are the Druids of the Talon?",
@@ -102,7 +102,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help secure Teldrassil's interior roads and restore its circle of druids, strengthening the night elves' stronghold as they join the wider Alliance."
+   "text": "As an Alliance member, you help secure Teldrassil's interior roads and restore its circle of druids. This strengthens the night elves' stronghold as they join the wider Alliance."
   }
  ],
  "keywords": [
@@ -129,5 +129,5 @@
  "attribution": [
   "Ursal the Mauler (quest)"
  ],
- "style": 1
+ "style": 2
 }

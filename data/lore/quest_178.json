@@ -22,16 +22,16 @@
    "Morganth (quest)"
   ]
  },
- "summary": "In Redridge, an adventurer finds a gnoll pendant and hears a voice through it. The voice belongs to Theocritus, High Mage of Tower of Azora, who has intercepted the gnolls' mystical network and urgently asks for the pendant to study.",
+ "summary": "In Redridge, a strange voice reaches across the mountains through a Shadowhide Pendant. The speaker is Theocritus, High Mage of Tower of Azora, who has intercepted the gnolls' mystical network and urgently asks for the pendant to study.",
  "sections": [
   {
    "title": "A Voice in the Stone",
-   "body": "Across the Redridge Mountains, travelers fighting the savage Shadowhide gnolls sometimes find a Shadowhide Pendant. Touching the enchanted trinket brings a calm, distant voice instead of barking or curses. The speaker is Theocritus, a human mage at Tower of Azora, across the border in Elwynn Forest. His message comes from long research into breaking the dark sorceries that direct the gnoll packs.",
+   "body": "Travelers who fight the savage Shadowhide gnolls in the Redridge Mountains sometimes find a Shadowhide Pendant. Touch the enchanted trinket, and a calm, distant voice answers instead of barking or curses. The speaker is Theocritus, a human mage at Tower of Azora, across the border in Elwynn Forest. His message comes from long study of ways to break the dark sorceries that direct the gnoll packs.",
    "spoiler": 0
   },
   {
    "title": "Subverting Morganth's Network",
-   "body": "The Shadowhide gnolls obey Morganth, a rogue dark caster hidden in the mountains, as well as their own instincts. Morganth makes enchanted pendants to send commands to his gnoll followers. Theocritus spent months unraveling the frequency of Morganth's sending spells. When you bring the faded pendant to Tower of Azora, Theocritus confirms his scrying reached it. Now he can study how to reverse the magic and disable the gnolls.",
+   "body": "The Shadowhide gnolls obey Morganth, a rogue dark caster hidden in the mountains, as well as their own instincts. Morganth makes enchanted pendants to send commands to his gnoll followers. Theocritus spent months unraveling the frequency of Morganth's sending spells.\n\nWhen you bring the faded pendant to Tower of Azora, Theocritus confirms his scrying reached it. Now he can study how to reverse the magic and disable the gnolls.",
    "spoiler": 1
   }
  ],
@@ -61,7 +61,7 @@
     "why did theocritus take weeks",
     "faded pendant delay"
    ],
-   "answer": "Theocritus sent his message weeks before you found the stone, and first believed the spell had faded without reaching it. Breaking through Morganth's dark wards and linking across such a vast distance delayed the message."
+   "answer": "Theocritus sent his message weeks before you found the stone. At first, he believed the spell had faded without reaching it. Breaking through Morganth's dark wards and linking across such a vast distance delayed the message."
   },
   {
    "q": "What does Theocritus hope to achieve with the retrieved pendant?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you can see ingenious use of abjuration and divination in Theocritus's work: he breaks into another sorcerer's network to send counterspells across vast distances."
+   "text": "As a mage, you can see the ingenious use of abjuration and divination in Theocritus's work. He breaks into another sorcerer's network to send counterspells across vast distances."
   },
   {
    "target": "faction:Alliance",
@@ -114,5 +114,5 @@
  "attribution": [
   "Theocritus' Retrieval"
  ],
- "style": 1
+ "style": 2
 }

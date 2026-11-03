@@ -27,16 +27,16 @@
    "Razzeric's Tweaking"
   ]
  },
- "summary": "Razzeric has found that Shreev left the safety on the seaforium booster. It caps the power Razzeric gets out of the booster, and Razzeric had asked for it to be taken off. You are sent to Shreev in Gadgetzan, in Tanaris.",
+ "summary": "Razzeric sends you south with a seaforium booster, bound for Shreev in Gadgetzan. Its safety is still on, though Razzeric asked for it to be removed.",
  "sections": [
   {
    "title": "A Safety Nobody Wanted",
-   "body": "Razzeric looks over the seaforium booster and finds the safety still on. It caps the power the booster can give, and Razzeric had told Shreev it should be off. Razzeric gives you the booster and sends you south of the Shimmering Flats into the Tanaris desert, to the Gadgetzan Gizmorium, to have Shreev remove the safety.",
+   "body": "Razzeric finds the safety still on his seaforium booster. It limits the power the booster can deliver, though he had asked Shreev to remove it. So he gives you the booster and sends you south of the Shimmering Flats, into the Tanaris desert. Shreev can remove the safety at the Gadgetzan Gizmorium.",
    "spoiler": 0
   },
   {
    "title": "Shreev's Answer",
-   "body": "The Gizmorium offers to service all of your tinkering needs. When you hand over the booster, Shreev denies putting any safety lock on it. By Shreev's account the booster is almost entirely seaforium explosive, already altered so more of its payload is delivered when used. Razzeric, Shreev says, is never content unless he goes all the way to eleven.",
+   "body": "At the Gizmorium, Shreev denies putting a safety lock on the booster. He says it is almost entirely seaforium explosive, already altered to deliver more of its payload when used. Razzeric, Shreev says, is never content unless he goes all the way to eleven.",
    "spoiler": 1
   }
  ],
@@ -57,7 +57,7 @@
     "booster problem",
     "what is wrong with the booster"
    ],
-   "answer": "Shreev left the safety on. It caps the power Razzeric gets out of the booster, and Razzeric had asked for it to be removed."
+   "answer": "The safety Shreev left on the booster limits its power, though Razzeric asked for it to be removed."
   },
   {
    "q": "Where can Shreev be found?",
@@ -66,7 +66,7 @@
     "where is shreev",
     "gadgetzan gizmorium location"
    ],
-   "answer": "Shreev is in Gadgetzan, at the Gizmorium, out in the Tanaris desert south of the Shimmering Flats."
+   "answer": "Shreev is at the Gizmorium in Gadgetzan, in the Tanaris desert south of the Shimmering Flats."
   },
   {
    "q": "What item are you carrying to Gadgetzan?",
@@ -75,7 +75,7 @@
     "booster item",
     "what do you bring to shreev"
    ],
-   "answer": "You carry Razzeric's seaforium booster, which Razzeric gives you to bring to Shreev."
+   "answer": "You carry Razzeric's seaforium booster, which he gives you to bring to Shreev."
   },
   {
    "q": "What comes after this delivery?",
@@ -84,7 +84,7 @@
     "what follows safety first",
     "safety first continuation"
    ],
-   "answer": "The chain continues with a second part, also called Safety First."
+   "answer": "A second part of the chain follows, also called Safety First."
   }
  ],
  "angles": [],
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Safety First (Thousand Needles)"
- ]
+ ],
+ "style": 2
 }

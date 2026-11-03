@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The Kirin Tor's secluded magical experiments and Dalaran's botany have long intrigued scholars, though unexpected corruption hints at hidden troubles within the mage enclave."
+   "text": "As a Mage, you know scholars have long been intrigued by the Kirin Tor’s secluded experiments and Dalaran’s botany. Unexpected corruption hints at hidden troubles within the mage enclave."
   },
   {
    "target": "class:Rogue",
-   "text": "Shylamiir specifically enlists someone comfortable trespassing where they are not welcome to slip past the Kirin Tor's defenses."
+   "text": "As a Rogue, you know how to slip past defenses and enter places where you are not welcome. That is why Shylamiir seeks your help."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Gathering exotic flora from Dalaran's central garden reveals that unnatural energies are corrupting ordinary vegetation into fel-infused blossoms."
+   "text": "As a practitioner of Herbalism, you learn that unnatural energies can corrupt ordinary vegetation into fel-infused blossoms in Dalaran’s central garden."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "quest giver green sample",
     "shylamiir location"
    ],
-   "answer": "The quest is offered by Shylamiir in Stormwind City, who seeks an outsider daring enough to infiltrate Dalaran and gather botanic specimens.",
+   "answer": "In Stormwind City, Shylamiir asks an outsider to enter Dalaran and gather a plant sample.",
    "q": "Who gives the quest A Green Sample?"
   },
   {
@@ -41,7 +41,7 @@
     "a green sample objective",
     "green sample item"
    ],
-   "answer": "Shylamiir tasks the player with finding a way into Dalaran to retrieve vegetation growing in the city's central garden, expecting a sample of mana-infused plant life.",
+   "answer": "Shylamiir asks you to retrieve vegetation from Dalaran’s central garden, expecting a mana-infused plant.",
    "q": "What does Shylamiir ask you to retrieve?"
   },
   {
@@ -50,7 +50,7 @@
     "how to get fel infused blossom",
     "dalaran garden location"
    ],
-   "answer": "The sample comes from the central garden located within Dalaran, a secluded magocracy that strictly guards its borders from outside intrusion.",
+   "answer": "The requested sample grows in Dalaran’s central garden, within the secluded magocracy that guards its borders from outsiders.",
    "q": "Where is the requested sample found?"
   },
   {
@@ -59,7 +59,7 @@
     "is dalaran fel corrupted",
     "dalaran plant fel"
    ],
-   "answer": "Instead of healthy mana-infused vegetation, you discover a Fel Infused Blossom. Upon receiving it, Shylamiir realizes the Kirin Tor are dealing with far darker and more turbulent forces than expected.",
+   "answer": "The sample is a Fel Infused Blossom, its fel taint in place of healthy mana-infused growth. Shylamiir sees the corruption as a sign that the Kirin Tor face darker troubles than expected.",
    "q": "Why is the blossom fel-infused instead of mana-infused?"
   },
   {
@@ -67,7 +67,7 @@
     "why does shylamiir want dalaran plants",
     "dalaran botany reason"
    ],
-   "answer": "Shylamiir notes that despite being a magocracy, Dalaran maintains a surprising interest in botany, and seeks to study how the Kirin Tor nurture their mana-infused flora.",
+   "answer": "Shylamiir is interested in how the Kirin Tor tend mana-infused plants. Dalaran’s interest in botany is unusual for a magocracy.",
    "q": "Why is Shylamiir interested in Dalaran's flora?"
   },
   {
@@ -75,7 +75,7 @@
     "how does shylamiir react",
     "green sample turn in"
    ],
-   "answer": "Though startled that the sample is corrupted by fel energy rather than arcane mana, Shylamiir is intrigued by the revelation and praises the adventurer for completing the dangerous errand.",
+   "answer": "The blossom’s fel taint startles Shylamiir, yet also intrigues them. Shylamiir praises you for completing the dangerous errand.",
    "q": "What is Shylamiir's reaction to the delivered blossom?"
   }
  ],
@@ -97,18 +97,19 @@
  ],
  "sections": [
   {
-   "body": "In Stormwind City, the enigmatic Shylamiir seeks an adventurous traveler willing to run a discreet errand into restricted lands. Intrigued by the Kirin Tor's unusual pursuit of botany, Shylamiir desires a living specimen of the mana-infused vegetation cultivated within Dalaran's central garden. Because the secretive sorcerers keep their borders closed to outsiders, obtaining such flora requires someone adept at slipping into places uninvited.",
+   "body": "Shylamiir in Stormwind City seeks a traveler willing to enter restricted lands. The Kirin Tor’s interest in botany has caught Shylamiir’s attention, and a living plant from Dalaran’s central garden is wanted for study. The secluded sorcerers keep their borders closed to outsiders. Reaching the garden calls for someone able to slip past their defenses.",
    "spoiler": 0,
    "title": "An Errand to Dalaran"
   },
   {
-   "body": "Infiltrating the magocracy's central garden yields a shocking discovery: the flora has not merely absorbed pure arcane energy, but has mutated into a Fel Infused Blossom. When presented with the tainted cutting, Shylamiir is caught off guard, recognizing that the secretive Kirin Tor are contending with darker turmoil than outward appearances suggest. Nonetheless, the unexpected fel taint proves even more captivating to study than ordinary arcane herbs.",
+   "body": "The cutting from Dalaran’s central garden is a Fel Infused Blossom. Fel taint has touched its growth, where pure arcane energy was expected. The discovery catches Shylamiir off guard and suggests the Kirin Tor face darker troubles than their outward appearance reveals. That taint makes the blossom more compelling to study than ordinary arcane herbs.",
    "spoiler": 1,
    "title": "Tainted Roots"
   }
  ],
- "summary": "A Green Sample is an errand offered by Shylamiir in Stormwind City, directing adventurers to infiltrate the secluded magical city of Dalaran. Expecting a pristine specimen of mana-infused vegetation from the central garden, the expedition uncovers unexpected demonic taint among the Kirin Tor's flora.",
+ "summary": "In Stormwind City, Shylamiir seeks a living plant from Dalaran’s guarded garden. The cutting is wanted for study of mana-fed growth, but it brings back a darker surprise.",
  "attribution": [
   "In-game quest text: A Green Sample"
- ]
+ ],
+ "style": 2
 }

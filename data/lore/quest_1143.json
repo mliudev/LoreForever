@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx (8)",
   "chain": []
  },
- "summary": "At the Tower of Althalaxx, demonic rites threaten northern Darkshore. Balthule Shadowstrike directs an Alliance assault on Athrikus Narassin, the ancient sorcerer who commands the cult from the tower’s peak.",
+ "summary": "Dark rites at the Tower of Althalaxx threaten northern Darkshore. Balthule Shadowstrike leads an Alliance assault on Athrikus Narassin, the ancient sorcerer who commands the cult from the tower’s peak.",
  "sections": [
   {
    "title": "Breaching the Summit",
-   "body": "In northern Darkshore, the ruined Tower of Althalaxx shelters demonic summoning. Balthule Shadowstrike watches the tower from nearby and sees that the threat must be faced now. Athrikus Narassin dwells at the summit, an ancient night elf warlock who directs the dark rituals beneath the shattered roof.",
+   "body": "In northern Darkshore, the ruined Tower of Althalaxx shelters demonic rites. Balthule Shadowstrike watches from nearby and sees the danger must be faced now. Athrikus Narassin, an ancient night elf warlock, dwells at the summit. Beneath the shattered roof, he directs the dark rituals.",
    "spoiler": 0
   },
   {
    "title": "A Decisive Strike",
-   "body": "Athrikus Narassin is protected by loyal warlocks and dark magic more dangerous than the cultists on the slopes. To reach him, you must cut through his inner circle and take his severed head as proof. Balthule warns that demonic forces may regroup, but Athrikus’s death leaves the cult without its commander and brings Darkshore precious safety.",
+   "body": "Athrikus Narassin is guarded by loyal warlocks and magic more dangerous than that of the cultists on the slopes. You must cut through his inner circle and take his severed head as proof. Balthule warns the demonic forces may gather again. Yet Athrikus’s death leaves the cult without its commander and brings Darkshore a measure of safety.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is athrikus",
     "boss of althalaxx"
    ],
-   "answer": "Athrikus Narassin is an ancient night elf warlock who commands the cultists at the Tower of Althalaxx. He directs dark summonings and demonic rites in the northern Darkshore ruins."
+   "answer": "Athrikus Narassin is an ancient night elf warlock who commands the cultists at the Tower of Althalaxx. He directs dark summonings and demonic rites among the ruins of northern Darkshore."
   },
   {
    "q": "Where can Athrikus Narassin be found?",
@@ -47,7 +47,7 @@
     "athrikus location",
     "top of althalaxx"
    ],
-   "answer": "Athrikus Narassin dwells at the summit of the Tower of Althalaxx, guarded by seasoned warlocks and summoned minions."
+   "answer": "Athrikus Narassin dwells at the summit of the Tower of Althalaxx. Seasoned warlocks and summoned minions guard him."
   },
   {
    "q": "Who gives this quest?",
@@ -64,7 +64,7 @@
     "delgren",
     "delgren the purifier"
    ],
-   "answer": "Delgren the Purifier is an Alliance ally nearby. He sent you to coordinate with Balthule against the demonic cabal."
+   "answer": "Delgren the Purifier is a nearby Alliance ally. He sent you to coordinate with Balthule against the demonic cabal."
   },
   {
    "q": "What happens after Athrikus is defeated?",
@@ -72,7 +72,7 @@
     "after athrikus",
     "tower of althalaxx ending"
    ],
-   "answer": "Athrikus Narassin’s death deals a critical blow to demonic operations in the area, though Balthule warns that the dark forces may regroup."
+   "answer": "Athrikus Narassin’s death deals a critical blow to demonic operations in the area. Balthule warns that the dark forces may gather again."
   },
   {
    "q": "Why is the Tower of Althalaxx dangerous to Darkshore?",
@@ -80,17 +80,17 @@
     "why clean tower",
     "althalaxx threat"
    ],
-   "answer": "Cultists and warlocks in the tower practice fel sorcery and summon demons into night elven lands, threatening the wilderness and nearby settlements."
+   "answer": "Cultists and warlocks in the tower practice fel sorcery and summon demons into night elven lands. They threaten the wilderness and nearby settlements."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, confronting Athrikus Narassin recalls the arcane and demonic corruption that once devastated your people."
+   "text": "As a night elf, facing Athrikus Narassin recalls the arcane and demonic corruption that once devastated your people."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, Athrikus’s potent demonic magic at the summit of Althalaxx shows the danger of unbound fel worship."
+   "text": "As a warlock, you see in Athrikus’s potent demonic magic at Althalaxx’s summit the danger of unbound fel worship."
   },
   {
    "target": "faction:Alliance",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Tower of Althalaxx (8)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Weathered Nook"
  },
- "summary": "Tucked away along the northern cliffside of Thousand Needles, the Weathered Nook is a secluded cleft and shelter perched high above the canyon floor. Overlooking the vast sea of stone spires, it serves as a modest home and retreat for solitary tauren dwellers seeking quiet contemplation away from bustling settlements.",
+ "summary": "High above Thousand Needles, Dorn Plainstalker and Prate Cloudseer make their home in a quiet cliffside shelter. From there, they look out across the stone spires, far from the canyon floor.",
  "sections": [
   {
    "title": "Haven on the Cliffs",
-   "body": "Carved into the sheer sandstone wall north of Freewind Post, the Weathered Nook is easily missed by travelers passing along the canyon basin below. A natural ramp winds up the cliff face, leading to a sheltered ledge and cave out of the prevailing winds. Rather than housing a military outpost or large settlement, the nook serves as a humble homestead for solitary wanderers like Dorn Plainstalker and Prate Cloudseer, offering safety, seclusion, and a sweeping view across the windswept needle plateaus.",
+   "body": "North of Freewind Post, a narrow ramp climbs the sandstone cliff to a sheltered ledge and cave. From below, travelers can easily miss the Weathered Nook high above the canyon basin. Dorn Plainstalker and Prate Cloudseer live here, away from any large settlement or military post. The ledge shelters them from the prevailing winds and gives them a broad view across the needle plateaus.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "weathered nook location",
     "where is nook"
    ],
-   "answer": "The nook is nestled along the northern cliff wall of Thousand Needles. From Freewind Post, travel north until you reach the towering rock face, then follow the cliffs east until you find a winding ramp leading up the mesa wall."
+   "answer": "The Weathered Nook lies along Thousand Needles' northern cliff wall. From Freewind Post, travel north to the towering rock face, then follow the cliffs east to a winding ramp up the mesa wall."
   },
   {
    "q": "Who lives in the Weathered Nook?",
@@ -32,7 +32,7 @@
     "weathered nook residents",
     "npcs in nook"
    ],
-   "answer": "The shelter is home to Dorn Plainstalker and Prate Cloudseer, solitary tauren who have chosen this remote ledge above the canyon rather than dwelling atop the crowded towers of Freewind Post."
+   "answer": "Dorn Plainstalker and Prate Cloudseer live in the Weathered Nook. The two solitary tauren dwell on this remote ledge above the canyon, rather than atop Freewind Post's crowded towers."
   },
   {
    "q": "Is the Weathered Nook affiliated with the Horde?",
@@ -40,17 +40,17 @@
     "is this a horde camp",
     "horde weathered nook"
    ],
-   "answer": "While the residents are tauren and align naturally with their kindred, the nook is not a formal Horde garrison. It is a humble personal camp and dwelling tucked quietly into the wilderness."
+   "answer": "The Weathered Nook is a personal camp and wilderness home, not a formal Horde garrison. Its residents are tauren among their own kindred."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren travelers, the Weathered Nook represents the quiet spirit of self-reliance, offering a peaceful vantage point across the canyon to commune with the elements away from the busy bridges of Freewind Post."
+   "text": "As a tauren, you can find a quiet place for self-reliance at the Weathered Nook. The ledge offers a peaceful view across the canyon, away from Freewind Post's busy bridges."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde wanderers exploring the heights of the canyon walls will find friendly kindred sheltering here along the northern cliffs."
+   "text": "As a Horde wanderer, you can find friendly kindred sheltering along the canyon's northern cliffs."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Weathered Nook"
- ]
+ ],
+ "style": 2
 }

@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "Gathering vibrant hippogryph down feathers allows the Skyborne of Zephras to adorn their hair with soft plumes, maintaining their cultural customs and finding small joys despite hardship."
+   "text": "As a Skyborne, you can gather vibrant hippogryph down to adorn your hair with soft plumes. This custom brings small joys to Zephras through hardship."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "what are feathers for",
     "feather purpose"
    ],
-   "answer": "The down feathers of wild hippogryphs are collected to create decorative hair adornments for the local Skyborne. Although hippogryphs near the settlement can be a nuisance, their fallen plumes are prized for being remarkably silky soft and vibrant.",
+   "answer": "The Skyborne gather wild hippogryph down to make hair adornments. The vibrant, silky soft plumes have fallen from the birds, which can trouble travelers near the settlement.",
    "q": "Why are hippogryph feathers being collected?"
   },
   {
@@ -33,7 +33,7 @@
     "what town is this",
     "where does this happen"
    ],
-   "answer": "Zephras is Zephras Isle, the island home of the Skyborne where this quest takes place. The local artisan crafts hair adornments from the gathered plumage in an effort to bring happiness and lighthearted moments to the residents living there.",
+   "answer": "Zephras is the island home of the Skyborne. Its artisan crafts hair adornments from gathered feathers to bring happiness and lighthearted moments to residents.",
    "q": "What is Zephras?"
   },
   {
@@ -42,7 +42,7 @@
     "where are hippogryphs",
     "shendar highlands location"
    ],
-   "answer": "The wild hippogryphs nest southwest of the village in the Shen'dar Highlands. Because wild hippogryphs are extremely territorial and do not tolerate unwanted guests, gathering fallen feathers around their nesting grounds requires caution.",
+   "answer": "Wild hippogryphs nest southwest of the village in the Shen'dar Highlands. They are territorial and keep unwanted guests away from their nesting grounds.",
    "q": "Where do the hippogryphs nest?"
   },
   {
@@ -51,7 +51,7 @@
     "why hair decorations",
     "vain triviality"
    ],
-   "answer": "While adorning hair with feathers might seem like a vain triviality, the questgiver explains that embracing small joys and beauty is vital, especially during difficult times. Bringing a moment of happiness to others makes the effort worthwhile.",
+   "answer": "The artisan believes small joys and beauty matter, especially in difficult times. Bringing happiness to others makes the effort worthwhile.",
    "q": "Why are small luxuries like hair adornments important in times like these?"
   },
   {
@@ -59,7 +59,7 @@
     "why hippogryphs dangerous",
     "are hippogryphs wild"
    ],
-   "answer": "The hippogryphs living southwest of the village are wild creatures. They consider their nesting grounds their territory and will not tolerate intruders, making collecting their fallen down feathers hazardous for unwary travelers.",
+   "answer": "The wild hippogryphs southwest of the village defend their nesting grounds from intruders. Gathering their fallen feathers can be hazardous for unwary travelers.",
    "q": "Are the hippogryphs hostile to visitors?"
   },
   {
@@ -67,7 +67,7 @@
     "skyborne feathers",
     "do skyborne wear feathers"
    ],
-   "answer": "Yes, many Skyborne enjoy weaving vibrant plumes into their hair as personal adornments. The exceptionally soft down feathers of hippogryphs make ideal materials for these decorative ornaments.",
+   "answer": "Yes, many Skyborne weave vibrant plumes into their hair. Hippogryph down is exceptionally soft and well suited to these adornments.",
    "q": "Is decorating hair with feathers common among the Skyborne?"
   }
  ],
@@ -86,18 +86,19 @@
  ],
  "sections": [
   {
-   "body": "On Zephras Isle, southwest of the village, wild hippogryphs have established nesting grounds in the Shen'dar Highlands. While these territorial beasts can be an unruly nuisance to nearby travelers, they shed exceptionally vibrant and silky soft down feathers. For the local Skyborne, collecting these discarded plumes presents an opportunity to craft exquisite ornaments woven directly into their hair.",
+   "body": "Wild hippogryphs nest on Zephras Isle, southwest of the village in the Shen'dar Highlands. They are territorial and can trouble travelers nearby. Yet they shed vibrant, silky soft down, which the Skyborne gather to weave into hair ornaments.",
    "spoiler": 0,
    "title": "Plumes of the Highlands"
   },
   {
-   "body": "Though collecting decorative feathers for hair might appear to be nothing more than vanity, the artisan in Zephras views it as an essential pursuit. Even when circumstances are harsh, finding and sharing small everyday joys helps sustain the spirit of the community. Bringing beauty into the lives of the villagers ensures that each day holds something worth celebrating.",
+   "body": "For Zephras's artisan, gathering feathers for hair is more than vanity. Even in hard times, small joys shared with others help keep the community's spirit alive. Beauty gives each day in the village something to celebrate.",
    "spoiler": 0,
    "title": "Finding Joy in Small Things"
   }
  ],
- "summary": "A Little Beauty is a local task in the Shen'dar Highlands where travelers gather soft hippogryph down feathers near Zephras. The colorful plumes are used by the Skyborne to adorn their hair, bringing a touch of simple joy and beauty to the village during challenging times.",
+ "summary": "In the Shen'dar Highlands, the Skyborne gather hippogryph down near Zephras. Its bright plumes bring beauty and small joys to the village through hard times.",
  "attribution": [
   "In-game quest text: A Little Beauty"
- ]
+ ],
+ "style": 2
 }

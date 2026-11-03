@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Grol'dom Farm"
  },
- "summary": "Along the road from Durotar to the Crossroads, Grol'dom Farm raises swine in the northern Barrens. Kranal Fiss and his family work the homestead, despite constant harassment from aggressive local quilboars.",
+ "summary": "Along the road from Durotar to the Crossroads, Grol'dom Farm raises swine in the northern Barrens. Kranal Fiss and his family work the homestead under constant harassment from aggressive quilboars.",
  "sections": [
   {
    "title": "A Swine Farm in the Savannah",
-   "body": "Established after Durotar was settled, Grol'dom Farm is an early Horde effort to farm the dry Barrens. Kranal Fiss and his children tend the homestead and raise pigs, while Razormane quilboar raiders prowl the nearby ridges. The farm supplies sustenance to the emerging orcish nation, though life here remains lonely and rugged.",
+   "body": "After Durotar was settled, the Horde began farming the dry Barrens at Grol'dom Farm. Kranal Fiss and his children tend the homestead and raise pigs. Razormane quilboar raiders prowl the nearby ridges, making life here lonely and rugged. Still, the farm feeds the emerging orcish nation.",
    "spoiler": 0
   },
   {
    "title": "A Beacon for Young Shaman",
-   "body": "Grol'dom Farm is a pig farm, but its purpose reaches beyond that daily work. Kranal Fiss knows the elemental rites and plays a key part in guiding young shaman through their trials. Horde initiates on the spiritual path hold the farm in quiet regard, and seekers traveling west from Orgrimmar are regularly directed here to learn how to commune with the primal spirits of fire.",
+   "body": "Kranal Fiss tends pigs at Grol'dom Farm and knows the elemental rites. He guides young shaman through their trials, so Horde initiates on the spiritual path hold the farm in quiet regard. Seekers traveling west from Orgrimmar are regularly sent here to learn how to commune with the primal spirits of fire.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place barrens",
     "orc pig farm"
    ],
-   "answer": "Grol'dom Farm is an orcish swine farm in the northern Barrens, along the road between Durotar and the Crossroads. Established after Orgrimmar was founded, it is a remote homestead worked by Kranal Fiss and his children."
+   "answer": "Grol'dom Farm raises swine in the northern Barrens, along the road between Durotar and the Crossroads. Established after Orgrimmar was founded, this remote homestead is worked by Kranal Fiss and his children."
   },
   {
    "q": "Who lives at Grol'dom Farm?",
@@ -46,7 +46,7 @@
     "why come to groldom",
     "kranal fiss shaman"
    ],
-   "answer": "Kranal Fiss knows the elemental rites, and orc and tauren shaman are routinely sent to speak with him during their early training. He guides them through trials needed to earn their Call of Fire and manifest the Fire Totem."
+   "answer": "Kranal Fiss knows the elemental rites, and orc and tauren shaman are routinely sent to him during their early training. He guides them through trials to earn their Call of Fire and manifest the Fire Totem."
   },
   {
    "q": "What threats face the farm?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman initiate walking the elemental path, you come to Grol'dom Farm to face the dangerous rites Kranal Fiss guides you through, rites needed to commune with the spirits of fire."
+   "text": "As a shaman initiate walking the elemental path, you come to Grol'dom Farm for the dangerous rites Kranal Fiss guides you through. These rites teach you to commune with the spirits of fire."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can see in Grol'dom Farm the grit early settlers need to make a sustainable life in the harsh, untamed Barrens."
+   "text": "As a member of the Horde, you can see the grit early settlers need to make a sustainable life at Grol'dom Farm in the harsh, untamed Barrens."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Grol'dom Farm"
  ],
- "style": 1
+ "style": 2
 }

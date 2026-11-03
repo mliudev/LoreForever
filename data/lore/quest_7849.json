@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Hinterlands"
  },
- "summary": "Huntsman Markhor in Revantusk Village has lost his twin brother Malkhor, taken by the Vilebranch in the same raid that took Torntusk's mate. Malkhor met a swift, brutal end, and his remains were fed to the Vilebranch's oozes and wolves. Markhor says his brother's life is beyond saving, yet his soul can still be rescued, and he asks you to recover the remains.",
+ "summary": "Huntsman Markhor grieves for his twin, Malkhor, in Revantusk Village. The Vilebranch took Malkhor in the raid that took Torntusk's mate. Markhor believes Malkhor's soul can still be rescued, though his life is beyond saving. So he asks you to recover the remains.",
  "sections": [
   {
    "title": "A Twin's Loss",
-   "body": "Markhor says that many in the village have lost loved ones to the wilds, and his own loss is Malkhor, his twin. The Vilebranch took Malkhor during the raid that took Torntusk's mate. Malkhor was not fated to live, and his captors put him to a swift, brutal death.",
+   "body": "Many in Revantusk Village have lost loved ones to the wilds, Markhor says. His own grief is for his twin brother, Malkhor. The Vilebranch took Malkhor in the raid that took Torntusk's mate. His captors killed him swiftly and brutally; he was not fated to live.",
    "spoiler": 0
   },
   {
    "title": "Where the Remains Lie",
-   "body": "The Vilebranch fed what was left of Malkhor to their oozes and wolves. A refuse pit filled with oozes and a wolf den both lie near the top of the temple of Jintha'alor. His bones rest in the midst of a sludge pit close to the top tier, and his skull lies on the top tier itself. Markhor means to carry the remains to Yayo'jin, who will prepare them for a proper burial.",
+   "body": "The Vilebranch fed Malkhor's remains to their oozes and wolves. Near the top of the temple of Jintha'alor are a refuse pit filled with oozes and a wolf den. His bones rest in a sludge pit near the top tier, while his skull lies on the tier itself. Markhor plans to carry the remains to Yayo'jin, who will prepare them for a proper burial.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "markhors brother",
     "malkhor lore"
    ],
-   "answer": "Malkhor was the twin brother of Huntsman Markhor. The Vilebranch took him during the raid that also took Torntusk's mate, and put him to a swift, brutal death."
+   "answer": "Malkhor was Huntsman Markhor's twin brother. The Vilebranch took him in the raid that also took Torntusk's mate, then killed him swiftly and brutally."
   },
   {
    "q": "Where were Malkhor's remains taken?",
@@ -48,7 +48,7 @@
     "where is malkhors skull",
     "jintha'alor remains"
    ],
-   "answer": "The Vilebranch fed his remains to their oozes and wolves. His skull lies on the top tier of Jintha'alor, and his bones sit in a sludge pit near that top tier."
+   "answer": "The Vilebranch fed Malkhor's remains to their oozes and wolves. His skull lies on Jintha'alor's top tier, while his bones rest in a sludge pit near that tier."
   },
   {
    "q": "Who will prepare Malkhor for burial?",
@@ -57,7 +57,7 @@
     "who is yayojin",
     "yayo'jin"
    ],
-   "answer": "Markhor says he will take the remains to Yayo'jin, who will prepare them for a proper burial."
+   "answer": "Markhor will take Malkhor's remains to Yayo'jin, who will prepare them for a proper burial."
   },
   {
    "q": "Why does Markhor need the bones returned?",
@@ -66,7 +66,7 @@
     "save malkhors soul",
     "saving his soul"
    ],
-   "answer": "Markhor cannot save his brother's life any more, but he says his brother's soul can still be saved. For that, he wants the remains recovered."
+   "answer": "Markhor says Malkhor's life is beyond saving, but his soul can still be rescued. He wants the remains recovered so that Malkhor's soul may be saved."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Wowpedia: Separation Anxiety (quest)"
- ]
+ ],
+ "style": 2
 }

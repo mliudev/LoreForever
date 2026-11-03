@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Starbreeze Village"
  },
- "summary": "Gnarlpine furbolgs have overrun Starbreeze Village, east of Dolanaar in Teldrassil. Once a quiet night elf hamlet, it now lies in ruins beneath the spreading corruption of the World Tree.",
+ "summary": "Gnarlpine furbolgs have overrun Starbreeze Village, east of Dolanaar in Teldrassil. The once quiet night elf hamlet lies in ruins beneath the corruption spreading through the World Tree.",
  "sections": [
   {
    "title": "A Fallen Hamlet",
-   "body": "Starbreeze Village lies southeast of Shadowglen, just down the road from Dolanaar. Peaceful night elf families once lived beneath Teldrassil’s boughs, but the village now lies in shambles. Aggressive Gnarlpine furbolgs have overrun its wooden homes. Driven wild by corruption afflicting the World Tree’s boughs, they drove out the elven residents and fiercely defend the ruined grounds.",
+   "body": "Southeast of Shadowglen, just down the road from Dolanaar, Starbreeze Village lies in shambles. Night elf families once lived peacefully beneath Teldrassil’s boughs. Now aggressive Gnarlpine furbolgs occupy the wooden homes. Corruption afflicting the World Tree’s boughs has driven them wild. They drove out the elven residents and fiercely defend the ruined grounds.",
    "spoiler": 0
   },
   {
    "title": "The Threat of Ferocitas",
-   "body": "Ferocitas the Dream Eater lurks on the settlement’s outskirts, where the Gnarlpine presence is more than an ordinary territorial raid. This enigmatic, corrupted entity suggests foul magic is driving the furbolgs mad. Hulking beasts like Uruson prowl the paths with them, making Starbreeze an active danger to travelers crossing eastern Teldrassil.",
+   "body": "Ferocitas the Dream Eater lurks on the settlement’s outskirts. The Gnarlpine presence there is more than an ordinary territorial raid. This enigmatic, corrupted entity points to foul magic driving the furbolgs mad. Hulking beasts like Uruson prowl the paths alongside them, making Starbreeze an active danger to travelers crossing eastern Teldrassil.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why is starbreeze ruined",
     "starbreeze empty"
    ],
-   "answer": "Gnarlpine furbolgs overran the village after falling prey to a spreading corruption within Teldrassil. Driven mad and violent, they attacked the night elf inhabitants and forced them to flee their homes."
+   "answer": "Gnarlpine furbolgs overran the village after falling prey to corruption spreading within Teldrassil. Driven mad and violent, they attacked the night elf inhabitants and forced them from their homes."
   },
   {
    "q": "Who lives in Starbreeze Village now?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Starbreeze Village"
  ],
- "style": 1
+ "style": 2
 }

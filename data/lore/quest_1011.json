@@ -20,16 +20,16 @@
    "Insane Druids (Classic)"
   ]
  },
- "summary": "In eastern Ashenvale, Kayneth Stillwind watches the Forsaken draw nearer. He fears they are brewing blights to ravage sacred elven lands, and sends Alliance champions toward a camp near Dor'Danil Barrow Den to seize a sample.",
+ "summary": "Kayneth Stillwind watches the Forsaken draw nearer in eastern Ashenvale. He fears they are brewing blights to ravage sacred elven lands, so he sends Alliance champions to a camp near Dor'Danil Barrow Den to seize a sample.",
  "sections": [
   {
    "title": "A Plague on the Forests",
-   "body": "Ashenvale's night elves have long faced satyrs, raging elementals, and orcish logging crews. The Forsaken bring a darker threat. The undead arm of the Horde is taking root near ancient ruins and sacred barrow dens. Their presence brings war and the fear of alchemical plague spreading through Kaldorei groves.",
+   "body": "Ashenvale's night elves have long contended with satyrs, raging elementals, and orcish logging crews. Now the Forsaken bring a darker danger. The undead arm of the Horde is taking root near ancient ruins and sacred barrow dens. Their presence brings war and fear that alchemical plague may spread through Kaldorei groves.",
    "spoiler": 0
   },
   {
    "title": "Infiltration at Dor'Danil",
-   "body": "South of Forest Song, near Dor'Danil Barrow Den, Forsaken apothecaries and scouts have fortified a camp. They bottle untested toxins among brewing caldrons and foul reagents. Kayneth Stillwind sends scouts inside to recover an intact Bottle of Disease, so its volatile contents can be studied before the Forsaken unleash it across the forest.",
+   "body": "South of Forest Song, near Dor'Danil Barrow Den, Forsaken apothecaries and scouts have fortified a camp. They bottle untested toxins among brewing caldrons and foul reagents. Kayneth Stillwind sends scouts inside to recover an intact Bottle of Disease. Its volatile contents can then be studied before the Forsaken unleash it across the forest.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives forsaken diseases",
     "forest song questgiver"
    ],
-   "answer": "Kayneth Stillwind is a night elf keeping watch from the ruins of Forest Song in eastern Ashenvale. He tracks hostile movements across the region, especially the Forsaken and corrupting influences near the barrow dens."
+   "answer": "Kayneth Stillwind is a night elf who keeps watch from the ruins of Forest Song in eastern Ashenvale. He tracks hostile movements across the region, especially the Forsaken and corrupting influences near the barrow dens."
   },
   {
    "q": "Where is the Forsaken camp located?",
@@ -126,5 +126,5 @@
  "attribution": [
   "Forsaken Diseases"
  ],
- "style": 1
+ "style": 2
 }

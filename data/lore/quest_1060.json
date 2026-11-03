@@ -22,16 +22,16 @@
    "Letter to Jin'Zil (quest)"
   ]
  },
- "summary": "Darsok Swiftdagger sends you from the northern Barrens into Stonetalon Mountains with news for his old friend, Witch Doctor Jin'Zil. Serena Bloodfeather has fallen, and Darsok wants Jin'Zil to know.",
+ "summary": "Darsok Swiftdagger sends you into Stonetalon Mountains with news for his old friend, Witch Doctor Jin'Zil. Serena Bloodfeather has fallen, and Darsok wants Jin'Zil to hear of her death.",
  "sections": [
   {
    "title": "A Message into the Mountains",
-   "body": "Darsok Swiftdagger sends you into Stonetalon Mountains after Serena Bloodfeather falls. The Witchwing and Bloodfeather broods came from the rugged ridges northwest of the northern Barrens, not the scrublands. Now that you have defeated Serena, Darsok asks you to carry the news of her death to his old acquaintance, Witch Doctor Jin'Zil. Jin'Zil lives at the troll settlement of Malaka'jin, in the dangerous mountain peaks.",
+   "body": "After Serena Bloodfeather falls, Darsok Swiftdagger sends you into Stonetalon Mountains. The Witchwing and Bloodfeather broods came from the rugged ridges northwest of the northern Barrens, not the scrublands. You have defeated Serena, and Darsok asks you to carry news of her death to Witch Doctor Jin'Zil, an old acquaintance. Jin'Zil lives at Malaka'jin, a troll settlement in the dangerous mountain peaks.",
    "spoiler": 0
   },
   {
    "title": "Echoes of the Bloodfury Claws",
-   "body": "Witch Doctor Jin'Zil remembers an earlier campaign when he hears that Serena Bloodfeather has fallen. The shadow hunter Rokhan and the wandering Beastmaster Rexxar slew Serena's elder sister, Bloodfeather. Serena's death brings a sense of finality to the long feud between the Horde's frontier outposts and Kalimdor's bloodthirsty harpies.",
+   "body": "Witch Doctor Jin'Zil remembers an earlier campaign when he hears of Serena Bloodfeather's fall. The shadow hunter Rokhan and the wandering Beastmaster Rexxar slew Serena's elder sister, Bloodfeather. Serena's death brings finality to the long feud between the Horde's frontier outposts and Kalimdor's bloodthirsty harpies.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "jin'zil location",
     "malaka'jin location"
    ],
-   "answer": "Witch Doctor Jin'Zil lives in a cave at Malaka'jin, a Darkspear troll encampment just off the main path into Stonetalon Mountains from the Barrens."
+   "answer": "Witch Doctor Jin'Zil lives in a cave at Malaka'jin, a Darkspear troll encampment just off the main path from the Barrens into Stonetalon Mountains."
   },
   {
    "q": "Why does Darsok send you to Stonetalon Mountains?",
@@ -92,7 +92,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a Horde warrior, you carry the effort to secure the Barrens' internal trade routes into the contested Stonetalon Mountains."
+   "text": "As a Horde warrior, you carry the effort to secure the Barrens' internal trade routes into contested Stonetalon Mountains."
   },
   {
    "target": "race:Troll",
@@ -122,5 +122,5 @@
  "attribution": [
   "Letter to Jin'Zil (quest)"
  ],
- "style": 1
+ "style": 2
 }

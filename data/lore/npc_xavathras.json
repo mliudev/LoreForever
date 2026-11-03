@@ -8,11 +8,11 @@
   "wiki": "Xavathras",
   "refs": 2
  },
- "summary": "Xavathras is a vicious satyr commander residing among the tents at the Ruins of Constellas in Felwood. Leading a band of Jadefire satyrs, he oversees the corruption of an ancient moonwell in service to his master, Xavaric.",
+ "summary": "Among the ruins at Constellas, Xavathras directs the Jadefire satyrs' work. He serves Xavaric and corrupts an ancient moonwell in Felwood.",
  "sections": [
   {
    "title": "Corruptor of Constellas",
-   "body": "Within the tainted glades of Felwood, the Ruins of Constellas have fallen into the clutches of the Jadefire satyrs. Stationed in an encampment pitched amidst the elven stonework, Xavathras directs the defilement of a nearby moonwell on behalf of another cruel satyr, Xavaric. By poisoning the pure waters with demonic energy, Xavathras deepens the corruption that grips the forest. His presence poses a direct threat to any attempts to restore the woodland, earning the ire of night elves like Eridan Bluewind who mark him for death.",
+   "body": "At the Ruins of Constellas in Felwood, Xavathras commands the Jadefire satyrs. Their tents stand among old elven stonework, beside a moonwell he seeks to defile for Xavaric, another satyr. Xavathras poisons its pure waters with demonic energy, deepening the corruption gripping the forest. Night elves such as Eridan Bluewind seek his death, for his work threatens any effort to restore the woodland.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "xavathras lore",
     "who is the satyr boss constellas"
    ],
-   "answer": "Xavathras is a cruel satyr leader who commands the Jadefire satyrs entrenched in the Ruins of Constellas within Felwood. He serves Xavaric and is tasked with corrupting the ancient elven moonwell located among the ruins."
+   "answer": "At the Ruins of Constellas in Felwood, Xavathras commands the Jadefire satyrs. He serves Xavaric and works to corrupt the ancient elven moonwell among the ruins."
   },
   {
    "q": "Where can Xavathras be found?",
@@ -33,14 +33,14 @@
     "where is xavathras",
     "ruins of constellas satyr"
    ],
-   "answer": "Xavathras makes his camp among the satyr tents at the Ruins of Constellas, an ancient night elf site located in southern-central Felwood."
+   "answer": "Xavathras camps among the satyr tents at the Ruins of Constellas, an ancient night elf site in southern-central Felwood."
   },
   {
    "q": "Why does Eridan Bluewind want Xavathras dead?",
    "aliases": [
     "why kill xavathras"
    ],
-   "answer": "Eridan Bluewind seeks to defend Felwood and halt the rampant spread of demonic defilement. Xavathras is actively cultivating a corrupted moonwell, making his elimination a top priority for those attempting to cleanse the land."
+   "answer": "Eridan Bluewind wants Xavathras dead because he is corrupting a moonwell and worsening Felwood's demonic defilement. Eridan seeks to defend the forest and halt its corruption."
   },
   {
    "q": "Who is Xavathras working for?",
@@ -48,17 +48,17 @@
     "who is xavathras master",
     "xavaric xavathras"
    ],
-   "answer": "Xavathras works on behalf of Xavaric, another cruel and powerful satyr operating within Felwood to further the Legion's lingering grasp on the corrupted forest."
+   "answer": "Xavathras works for Xavaric, another satyr in Felwood who seeks to further the Legion's lingering grasp on the corrupted forest."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Xavathras represents the tragedy of their ancient kin turned demonic beasts, as well as an active desecrator of their sacred moonwells."
+   "text": "As a night elf, you see in Xavathras what became of ancient kin turned demonic beasts. He also desecrates sacred moonwells."
   },
   {
    "target": "class:Druid",
-   "text": "Druids seeking to undo the demonic blighting of Felwood view Xavathras's deliberate poisoning of pure waters as an affront to nature that must be stopped."
+   "text": "As a druid, you know Xavathras's poisoning of pure waters affronts nature and threatens Felwood. His work must be stopped."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Xavathras"
- ]
+ ],
+ "style": 2
 }

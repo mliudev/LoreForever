@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dreamer's Rock"
  },
- "summary": "Dreamer's Rock is a secluded natural sanctuary tucked deep within the Wailing Caverns past the Screaming Gully. Here lies the sleeping night elf druid Naralex, whose noble effort to revive the Barrens has instead birthed a living nightmare. It serves as both a sacred barrow chamber and the epicenter of the corruption mutating the surrounding subterranean ecosystem.",
+ "summary": "At Dreamer's Rock, Naralex sleeps while the Barrens still wait for renewal. He came to restore the land through the Emerald Dream, but his communion now feeds a nightmare.",
  "sections": [
   {
    "title": "The Slumber of Naralex",
-   "body": "Located in the heart of the Wailing Caverns, Dreamer's Rock functions much like an improvised barrow den. Here, the night elf druid Naralex entered a deep trance to tap the underground springs and channel the Emerald Dream into the arid soil of the Barrens. Instead of bringing life, his connection was seized by dark forces. The nightmare twisting his thoughts now spills physically into this chamber, twisting the local wildlife, turning his followers into the venomous Druids of the Fang, and manifesting terrifying aberrations into the waking world.",
+   "body": "At the heart of the Wailing Caverns, Naralex lies in a chamber like a night elf barrow den. He entered a deep trance to reach the underground springs and channel the Emerald Dream into the Barrens' dry soil. Dark forces seized that connection, and his nightmare now twists the chamber's wildlife. His followers became the venomous Druids of the Fang, and terrible aberrations spill into the waking world.",
    "spoiler": 0
   },
   {
    "title": "The Awakening Ritual",
-   "body": "Only by ending the corruption of the Fanglords can a surviving Disciple of Naralex venture to Dreamer's Rock to perform the ritual of waking. The process is fraught with peril: as the chant begins, Naralex's lingering nightmare manifests monstrosities to defend its hold over his sleeping mind. The ultimate culmination of this psychic torment is Mutanus the Devourer, a vile aberration that materializes directly from the depths of the dreamer's subconscious to consume all who seek to free him.",
+   "body": "A surviving Disciple of Naralex can reach Dreamer's Rock and perform the waking ritual once the corruption of the Fanglords ends. As the chant begins, Naralex's lingering nightmare sends monstrosities to guard its hold on his sleeping mind. Mutanus the Devourer is the final horror of this psychic torment. The aberration rises from the depths of the dreamer's subconscious to consume those who seek to free him.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is naralex",
     "dreamer identity"
    ],
-   "answer": "Naralex, a powerful night elf druid, lies in slumber here. He came to the Wailing Caverns hoping to harness its subterranean water channels to restore lush life to the Barrens, but his communion with the Emerald Dream was hijacked by terrible nightmares."
+   "answer": "Naralex, a night elf druid, sleeps at Dreamer's Rock. He came to the Wailing Caverns to use its underground water channels to restore life to the Barrens, but nightmares seized his communion with the Emerald Dream."
   },
   {
    "q": "Why is this chamber called Dreamer's Rock?",
@@ -38,7 +38,7 @@
     "dreamers rock name meaning",
     "name origin"
    ],
-   "answer": "The chamber is named for Naralex himself, 'the Dreamer.' Acting much like a traditional night elf barrow den, it provides the physical resting place for his body while his spirit traverses the Dream."
+   "answer": "The chamber takes its name from Naralex, known as 'the Dreamer.' Like a night elf barrow den, it holds his resting body while his spirit travels through the Dream."
   },
   {
    "q": "What happens when you try to wake Naralex?",
@@ -47,7 +47,7 @@
     "disciple ritual",
     "naralex event"
    ],
-   "answer": "A surviving Disciple of Naralex attempts an awakening ritual after the Fanglords have been defeated. The outcome and manifestations encountered during the ritual are revealed when it is performed."
+   "answer": "After the Fanglords are defeated, a surviving Disciple of Naralex attempts the waking ritual. The ritual brings horrors from Naralex's nightmare to guard his sleeping mind."
   },
   {
    "q": "Why did Naralex's followers turn hostile?",
@@ -56,17 +56,17 @@
     "why are the druids evil",
     "corrupted druids"
    ],
-   "answer": "As Naralex's communion turned into a nightmare, the dark visions warped the minds of his acolytes. Abandoning their Cenarion vows, they embraced serpent aspects, becoming the Druids of the Fang and zealously defending their master's tormented, unending sleep."
+   "answer": "Naralex's nightmare warped his followers' minds. They abandoned their Cenarion vows, embraced serpent aspects, and became the Druids of the Fang, guarding their master's tormented, unending sleep."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Dreamer's Rock stands as a grim warning of the dangers lurking within the Emerald Dream, showing how easily noble intentions can be subverted by slumbering horrors."
+   "text": "As a druid, you can see the danger in Naralex's attempt to reach the Emerald Dream. Noble intent can meet horrors that slumber within."
   },
   {
    "target": "race:NightElf",
-   "text": "Finding a sacred barrow-style resting chamber corrupted beneath the arid Barrens is a somber reminder of the tragic risks Naralex and his followers took far from Kalimdor's northern forests."
+   "text": "As a night elf, you find a sacred barrow-style chamber corrupted beneath the arid Barrens. Naralex and his followers took tragic risks far from Kalimdor's northern forests."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Dreamer's Rock"
- ]
+ ],
+ "style": 2
 }

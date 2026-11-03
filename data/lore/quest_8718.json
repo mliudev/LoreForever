@@ -17,16 +17,16 @@
   "wiki": "Bladeswift the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, Bladeswift the Elder's ancient spirit is honored in Darnassus. In the Cenarion Enclave, travelers seek his wisdom beneath the stars and a blessing tied to night elven tradition.",
+ "summary": "During the Lunar Festival, Bladeswift the Elder is honored beneath the boughs of Darnassus. Travelers seek his wisdom in the Cenarion Enclave and receive a blessing rooted in night elf tradition.",
  "sections": [
   {
    "title": "A Spirit of the Boughs",
-   "body": "During the Lunar Festival, revered ancestral spirits appear across Azeroth to share wisdom and bless travelers. In Darnassus, Bladeswift the Elder appears among the boughs of the Cenarion Enclave. This ancient spirit turns his gaze to the night sky and its mysteries, while the living face the trials of the present.",
+   "body": "During the Lunar Festival, ancestral spirits appear across Azeroth to share wisdom and bless travelers. In Darnassus, Bladeswift the Elder appears among the boughs of the Cenarion Enclave. He looks to the night sky and its mysteries while the living face the trials of the present.",
    "spoiler": 0
   },
   {
    "title": "Starlight and Ancient Truths",
-   "body": "Night elves have long looked to the heavens as reflections of Elune and signs of deeper truths. Bladeswift urges the wise and fortunate to seek answers among the stars. Those who honor him receive a Coin of Ancestry and join a ceremony that links the living with spirits of the past.",
+   "body": "Night elves have long read the heavens as reflections of Elune and signs of deeper truths. Bladeswift urges the wise and fortunate to seek answers among the stars. Those who honor him receive a Coin of Ancestry and join a ceremony linking the living with spirits of the past.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "lunar festival elders purpose",
     "visiting elders"
    ],
-   "answer": "Visiting the elders is a core tradition of the Lunar Festival. Paying respects to these ancient spirits across the world honors the wisdom of the past and earns Coins of Ancestry and seasonal goodwill."
+   "answer": "Visiting the elders is a core Lunar Festival tradition. Paying respect to these ancient spirits across the world honors the wisdom of the past and earns Coins of Ancestry and seasonal goodwill."
   },
   {
    "q": "What does Bladeswift teach those who speak with him?",
@@ -73,7 +73,7 @@
     "horde bladeswift elder",
     "bladeswift alliance only"
    ],
-   "answer": "Bladeswift resides deep inside Darnassus, an Alliance capital guarded by vigilant Sentinels. He welcomes any respectful traveler, though Horde visitors must brave hostile guards to reach him."
+   "answer": "Bladeswift lives deep inside Darnassus, an Alliance capital guarded by vigilant Sentinels. He welcomes any respectful traveler, though Horde visitors must brave hostile guards to reach him."
   },
   {
    "q": "Why is an elder present on Teldrassil if it is a new World Tree?",
@@ -81,7 +81,7 @@
     "why is bladeswift in darnassus",
     "teldrassil elder lore"
    ],
-   "answer": "Teldrassil was grown only recently after the Third War, yet the spirits of Kaldorei ancestors are drawn to the living heart of their people. They appear near their kin to observe the festival."
+   "answer": "Teldrassil was grown only recently after the Third War, yet Kaldorei ancestral spirits are drawn to the living heart of their people. They appear near their kin to observe the festival."
   }
  ],
  "angles": [
@@ -91,7 +91,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you share a deep cultural and spiritual duty to honor ancient spirits like Bladeswift as a steward of nature aligned with the Cenarion Circle."
+   "text": "As a druid, you share a deep cultural and spiritual duty to honor ancient spirits like Bladeswift. You are a steward of nature aligned with the Cenarion Circle."
   },
   {
    "target": "faction:Alliance",
@@ -112,5 +112,5 @@
  "attribution": [
   "Bladeswift the Elder"
  ],
- "style": 1
+ "style": 2
 }

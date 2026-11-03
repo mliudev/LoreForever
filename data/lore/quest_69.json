@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (4)",
   "chain": []
  },
- "summary": "A scratched entry in Darkshire points the search for Stalvan Mistmantle toward Goldshire.",
+ "summary": "In Darkshire, a scratched registry entry sends the search for Stalvan Mistmantle toward Goldshire.",
  "sections": [
   {
    "title": "A Clue in the Ledger",
-   "body": "Clerk Daltry finds another destination beneath Stalvan Mistmantle's earlier entry in Darkshire's town registry. The hurried note is partly scratched out, as if someone meant to hide the route or changed their mind. It points northwest, toward the Lion's Pride Inn in Elwynn Forest.",
+   "body": "Clerk Daltry finds another destination beneath Stalvan Mistmantle's earlier entry in Darkshire's town registry. The hurried note is partly scratched out. Someone meant to hide the route or changed their mind. It points northwest toward the Lion's Pride Inn in Elwynn Forest.",
    "spoiler": 0
   },
   {
    "title": "Crossing into Elwynn",
-   "body": "You leave Duskwood's shadowed groves for Goldshire's sunny roads, but Stalvan's trail reaches here too. The Lion's Pride Inn stands at Elwynn Forest's crossroads, where travelers, merchants, and soldiers gather. Innkeeper Farley runs the busy taproom and may know of an educated wanderer looking for a room.",
+   "body": "You leave Duskwood's shadowed groves for Goldshire's sunny roads, where Stalvan's trail reaches too. The Lion's Pride Inn stands at Elwynn Forest's crossroads, where travelers, merchants, and soldiers gather. Innkeeper Farley runs the busy taproom and may know of an educated wanderer looking for a room.",
    "spoiler": 0
   }
  ],
@@ -79,17 +79,17 @@
     "lions pride inn",
     "goldshire inn"
    ],
-   "answer": "The Lion's Pride Inn is Goldshire's central gathering place in Elwynn Forest. Travelers use it as a resting point on the roads between Stormwind City, Westfall, and Duskwood."
+   "answer": "The Lion's Pride Inn is Goldshire's central gathering place in Elwynn Forest. Travelers rest there on the roads between Stormwind City, Westfall, and Duskwood."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "You retrace Stalvan's steps through the heart of the Kingdom of Stormwind, from Duskwood's haunted frontier to familiar Elwynn Forest."
+   "text": "From Duskwood's haunted frontier, Stalvan's trail crosses the heart of the Kingdom of Stormwind toward familiar Elwynn Forest."
   },
   {
    "target": "faction:Alliance",
-   "text": "You follow local histories and cold trails across the southern Alliance, traveling between frontier outposts like Darkshire and hamlets like Goldshire."
+   "text": "Local histories and cold trails lead across the southern Alliance, between frontier outposts like Darkshire and hamlets like Goldshire."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
  "attribution": [
   "The Legend of Stalvan (4)"
  ],
- "style": 1
+ "style": 2
 }

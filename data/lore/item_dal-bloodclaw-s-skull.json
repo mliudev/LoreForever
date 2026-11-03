@@ -10,11 +10,11 @@
    "quest:1054"
   ]
  },
- "summary": "In northern Ashenvale, Dal Bloodclaw's Skull marks the end of a threat to Astranaar. Raene Wolfrunner receives it as proof that an attack on the night elf settlement has been averted.",
+ "summary": "In northern Ashenvale, Raene Wolfrunner awaits proof that Astranaar is safe from attack. Dal Bloodclaw's Skull carries that proof.",
  "sections": [
   {
    "title": "A Chieftain's Downfall",
-   "body": "The Thistlefur furbolgs north of Astranaar have grown in number and aggression. Like much of Ashenvale's ancient forest, they have been corrupted. Raene Wolfrunner, a night elf sentinel, fears they will soon march on Astranaar. She orders their ranks culled and their leader, Dal Bloodclaw, slain. His skull gives grim proof that the tribe's leadership has been shattered, buying Astranaar's defenders precious time.",
+   "body": "The Thistlefur furbolgs north of Astranaar have grown more numerous and aggressive. Like much of Ashenvale's ancient forest, they have fallen to corruption. Raene Wolfrunner, a night elf sentinel, fears they will soon march on Astranaar. So she orders their ranks culled and their leader, Dal Bloodclaw, slain. His skull proves their chieftain is dead and buys Astranaar's defenders time.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is bloodclaw",
     "thistlefur chief"
    ],
-   "answer": "Dal Bloodclaw led the Thistlefur furbolgs at Thistlefur Hold, just north of Astranaar. The hostile tribe grew rapidly under his leadership and threatened the nearby night elf outpost."
+   "answer": "Dal Bloodclaw led the Thistlefur furbolgs at Thistlefur Hold, just north of Astranaar. Under his leadership, the hostile tribe grew rapidly and threatened the nearby night elf outpost."
   },
   {
    "q": "Why does Raene Wolfrunner want the skull?",
@@ -44,13 +44,13 @@
     "furbolg corruption",
     "thistlefur mad"
    ],
-   "answer": "Like many furbolg tribes in Ashenvale, the Thistlefurs have succumbed to corruption spreading through the forest. They have become violent and territorial, threatening those who once lived beside them."
+   "answer": "Like many furbolg tribes in Ashenvale, the Thistlefurs have succumbed to corruption spreading through the forest. They have grown violent and territorial, threatening those who once lived beside them."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you may see the sorrow in defeating fallen furbolg leaders. Corruption has twisted ancient allies, and they now threaten settlements such as Astranaar."
+   "text": "As a night elf, you may grieve when fallen furbolg leaders are defeated. Corruption has twisted these ancient allies, and now they threaten settlements such as Astranaar."
   },
   {
    "target": "faction:Alliance",
@@ -80,5 +80,5 @@
   "Dal Bloodclaw's Skull",
   "Culling the Threat"
  ],
- "style": 1
+ "style": 2
 }

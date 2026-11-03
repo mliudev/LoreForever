@@ -17,16 +17,16 @@
   "wiki": "Beached Sea Creature (2)",
   "chain": []
  },
- "summary": "Along Darkshore, a giant sea mammal lies washed ashore beside an abandoned dig site. Its carcass and scattered tools draw murlocs and passing travelers.",
+ "summary": "Along Darkshore, a giant sea mammal lies washed ashore beside an abandoned dig site. Its carcass and scattered tools draw murlocs and travelers.",
  "sections": [
   {
    "title": "A Halted Excavation",
-   "body": "A giant sea mammal lies on Darkshore's sand, partly gutted and worn by the sea. A rusted wheelbarrow and discarded tools mark the place where an organized study began. The researchers left before they could finish.",
+   "body": "On Darkshore's sand lies a giant sea mammal, partly gutted and worn by the sea. A rusted wheelbarrow and discarded tools mark where an orderly study began. The researchers left before they could finish.",
    "spoiler": 0
   },
   {
    "title": "The League and the Murlocs",
-   "body": "Dwarven field researchers from the Explorer's League were studying the carcass in Darkshore. Their work stopped when local murlocs swarmed the site to scavenge. Gwennyth Bly'Leggonde in Auberdine acts for the Temple of the Moon and accepts salvaged bone samples to help study the unnatural wash-ups along the coast.",
+   "body": "Dwarven field researchers from the Explorer's League were studying the carcass in Darkshore. Their work stopped when local murlocs swarmed the site to scavenge. In Auberdine, Gwennyth Bly'Leggonde acts for the Temple of the Moon. She accepts salvaged bone samples to help study the unnatural wash-ups along the coast.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this carcass",
     "what died here"
    ],
-   "answer": "It is the remains of a giant sea mammal washed ashore on Darkshore. No one has identified its species, but its size has drawn scavenging murlocs and dwarven researchers."
+   "answer": "The remains are those of a giant sea mammal washed ashore on Darkshore. No one has identified its species. Its size has drawn scavenging murlocs and dwarven researchers."
   },
   {
    "q": "Who left the tools and wheelbarrow behind?",
@@ -47,7 +47,7 @@
     "abandoned wheelbarrow darkshore",
     "who was digging here"
    ],
-   "answer": "Dwarven members of the Explorer's League left the tools. They began an excavation to study the beached creature, but hostile coastal murlocs drove them away before they could finish."
+   "answer": "Dwarven members of the Explorer's League left the tools. They began studying the beached creature, but hostile coastal murlocs drove them away before they could finish."
   },
   {
    "q": "Why does Gwennyth Bly'Leggonde want these bones?",
@@ -83,7 +83,7 @@
     "other carcasses darkshore",
     "multiple beached sea creatures"
    ],
-   "answer": "Yes. Enormous marine beasts and skeletal remains have washed ashore along Darkshore's beaches, pointing to widespread disturbance in the waters off Kalimdor."
+   "answer": "Yes. Enormous marine beasts and skeletal remains have washed ashore along Darkshore's beaches. They point to widespread disturbance in the waters off Kalimdor."
   }
  ],
  "angles": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Beached Sea Creature (2)"
  ],
- "style": 1
+ "style": 2
 }

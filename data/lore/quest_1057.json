@@ -20,21 +20,21 @@
    "Reclaiming the Charred Vale (2)"
   ]
  },
- "summary": "At Stonetalon Peak, Keeper Albagorm sends Alliance fighters to clear the Bloodfury harpies from the ruined Charred Vale. Their removal will open a path for druids and caretakers to begin healing the scorched land.",
+ "summary": "Keeper Albagorm sends Alliance fighters from Stonetalon Peak to drive Bloodfury harpies from the ruined Charred Vale. Their removal will clear the way for druids and caretakers to heal the scorched land.",
  "sections": [
   {
    "title": "The Wounded Valley",
-   "body": "South of Stonetalon Peak, the Charred Vale lies in ash and smoldering ruins where a lush alpine haven once stood. A mechanized logging and mining army swept through the sacred crags, stripping trees and setting uncontrolled fires. For the guardians around Stonetalon, ancient woodland lost to industrial greed is a wound they cannot ignore.",
+   "body": "South of Stonetalon Peak, the Charred Vale lies in ash and smoldering ruins. A lush alpine haven once stood there. A mechanized logging and mining army stripped the trees and let fires rage unchecked. For the guardians of Stonetalon, the woodland's loss to industrial greed is a wound they cannot ignore.",
    "spoiler": 0
   },
   {
    "title": "The Harpy Menace",
-   "body": "Bloodfury harpies took hold in the ashes left by the mechanical fires. Opportunistic and vicious, they swarm the smoking lowlands, nest there, and aggressively ambush anyone who approaches the valley. Keeper Albagorm and his allies cannot walk the soil to sow seeds of renewal; the harpies violently bar passage to every outsider.",
+   "body": "Bloodfury harpies claimed the ashes left by the mechanical fires. They swarm the smoking lowlands, nest there, and ambush anyone who approaches. Keeper Albagorm and his allies cannot cross the soil to sow seeds of renewal. The harpies bar every outsider's way.",
    "spoiler": 0
   },
   {
    "title": "Clearing the Path to Renewal",
-   "body": "Restoration cannot begin until the Bloodfury roosts are broken. Albagorm sends seasoned Alliance fighters deep among the tribe to slay its hunters, ambushers, and roguefeathers. Thinning their predatory flock is the first step toward reclaiming the land for nature and giving the forest spirits room to breathe once more.",
+   "body": "The Bloodfury roosts must be broken before restoration can begin. Keeper Albagorm sends seasoned Alliance fighters deep among the tribe to slay its hunters, ambushers, and roguefeathers. Their numbers must fall before the land can be reclaimed for nature and the forest spirits can breathe freely again.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "what happened to charred vale",
     "why is it burned"
    ],
-   "answer": "The Charred Vale lies in the southwestern heights of the Stonetalon Mountains. Fire consumed the once-lush forest and scorched it to bedrock as industrial logging forces exploited the land without restraint."
+   "answer": "The Charred Vale lies in the southwestern heights of the Stonetalon Mountains. Fire consumed its once-lush forest and scorched it to bedrock. Industrial logging forces exploited the land without restraint."
   },
   {
    "q": "Who is Keeper Albagorm?",
@@ -82,7 +82,7 @@
     "reclaiming the charred vale part 2",
     "what happens next"
    ],
-   "answer": "Once the Bloodfury numbers are curbed, Keeper Albagorm turns to planting seeds and channeling restorative magic to coax new life from the scorched soil."
+   "answer": "Once Bloodfury numbers are curbed, Keeper Albagorm turns to planting seeds and channeling restorative magic to coax new life from the scorched soil."
   },
   {
    "q": "Is this quest available to Horde adventurers?",
@@ -90,7 +90,7 @@
     "can horde do this quest",
     "horde reclaiming charred vale"
    ],
-   "answer": "No. Keeper Albagorm works from the Alliance redoubt atop Stonetalon Peak, so Alliance heroes alone can clear the Bloodfury harpies for him."
+   "answer": "No. Keeper Albagorm works from the Alliance redoubt atop Stonetalon Peak, so only Alliance heroes can clear the Bloodfury harpies for him."
   }
  ],
  "angles": [
@@ -104,7 +104,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance hero, you help secure the high passes and southern valleys, protecting vulnerable night elf settlements and sanctuaries across Stonetalon Peak from predatory threats."
+   "text": "As an Alliance hero, you help secure the high passes and southern valleys. You protect vulnerable night elf settlements and sanctuaries across Stonetalon Peak from predatory threats."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Reclaiming the Charred Vale"
  ],
- "style": 1
+ "style": 2
 }

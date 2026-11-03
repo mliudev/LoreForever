@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Render's Valley"
  },
- "summary": "Blackrock orcs hold a small camp in the southeastern Redridge Mountains at Render's Valley. It threatens nearby travelers and keeps captives taken from surrounding lands.",
+ "summary": "Blackrock orcs hold a camp in southeastern Redridge at Render's Valley. Their raids threaten travelers, and captives from nearby lands remain under guard.",
  "sections": [
   {
    "title": "A Foothold in the Southeast",
-   "body": "Render's Valley lies among rocky ridges southeast of Lake Everstill, where Blackrock orcs keep an auxiliary camp for their operations in Redridge. Unlike the fortified keeps and stone towers on the northern cliffs, this camp gathers around war tents, banners, and sentry posts. Its warriors are smaller in number and less armed than the clan's core forces, but they still raid local roads and harass travelers. Captured prisoners remain in crude cages under guard.",
+   "body": "Among rocky ridges southeast of Lake Everstill, Blackrock orcs keep an auxiliary camp for their work in Redridge. War tents, banners, and sentry posts mark the valley, unlike the keeps and stone towers on the northern cliffs.\n\nFewer warriors serve here, and they carry less armor than the clan's main forces. Still, they raid local roads and harass travelers. Captured prisoners wait in crude cages under guard.",
    "spoiler": 0
   },
   {
    "title": "Secret Paths and Captives",
-   "body": "Scouts who reach Render's Valley find unexpected points of interest beyond the war parties roaming its dirt paths. Human prisoners have been seen in the camp, including a servant connected to the Tower of Azora who traded specialist goods under his captors' noses. Unmarked paths cross the high southern bluffs behind the valley, letting daring travelers slip into the murky bogs of the Swamp of Sorrows.",
+   "body": "Scouts who reach Render's Valley find more than war parties on its dirt paths. Human prisoners are held in the camp, including a servant from the Tower of Azora in Elwynn Forest. He traded specialist goods beneath his captors' noses.\n\nUnmarked paths cross the high southern bluffs behind the valley. Daring travelers can follow them into the murky bogs of the Swamp of Sorrows.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "servant of azora redridge",
     "renders valley tailor"
    ],
-   "answer": "A servant affiliated with the Tower of Azora in Elwynn Forest is held in a cage after being captured by the Blackrock clan. Those who reach him can acquire specialized tailoring supplies."
+   "answer": "A servant affiliated with the Tower of Azora in Elwynn Forest is held in a cage after the Blackrock clan captured him. Those who reach him can acquire specialized tailoring supplies."
   },
   {
    "q": "Can you reach the Swamp of Sorrows from here?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Render's Valley is a secondary Blackrock raiding outpost threatening southern Redridge. Clearing it helps secure trade and travel in Lakeshire."
+   "text": "Render's Valley is a Blackrock raiding outpost that threatens southern Redridge. Clearing it helps secure trade and travel in Lakeshire."
   },
   {
    "target": "profession:Tailoring",
@@ -82,5 +82,5 @@
  "attribution": [
   "Render's Valley"
  ],
- "style": 1
+ "style": 2
 }

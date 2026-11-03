@@ -17,16 +17,16 @@
   "wiki": "Messenger to Westfall",
   "chain": []
  },
- "summary": "Magistrate Solomon sends a plea from Lakeshire to Westfall for help against the Blackrock orcs and gnolls. With Stormwind's forces absent, he hopes Gryan Stoutmantle's People's Militia can lend aid.",
+ "summary": "In Lakeshire, Magistrate Solomon sends word west for help against the Blackrock orcs and gnolls. With Stormwind's forces absent, he hopes Gryan Stoutmantle's People's Militia can aid Redridge.",
  "sections": [
   {
    "title": "A Desperate Appeal",
-   "body": "Blackrock orcs and gnolls besiege Lakeshire, and the Stormwind Army has not arrived in force. Magistrate Solomon knows the town guards and irregulars cannot hold the Redridge Mountains alone. With no royal reserves in sight, he writes a formal plea for help. Word has reached him of a citizen defense group forming west of Elwynn Forest, so he sends his appeal there.",
+   "body": "Blackrock orcs and gnolls besiege Lakeshire, but the Stormwind Army has not arrived in force. Magistrate Solomon knows the town guards and irregulars cannot hold the Redridge Mountains alone. No royal reserves are in sight, so he writes a formal plea for help. Word has reached him of a citizen defense group forming west of Elwynn Forest, and he sends his appeal there.",
    "spoiler": 0
   },
   {
    "title": "Reaching Across Borders",
-   "body": "Gryan Stoutmantle is a veteran commander rallying volunteer fighters under the People's Militia banner. Solomon sends his dispatch across the kingdom, hoping Westfall's volunteers can reinforce Lakeshire's borders until the Crown's armies mobilize. But Westfall is fighting its own desperate struggle against the Defias Brotherhood.",
+   "body": "Gryan Stoutmantle is a veteran commander rallying volunteer fighters under the People's Militia banner. Solomon sends his dispatch across the kingdom, hoping Westfall's volunteers can reinforce Lakeshire's borders until the Crown's armies mobilize. Yet Westfall is fighting its own desperate struggle against the Defias Brotherhood.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "solomons plea",
     "why ask gryan"
    ],
-   "answer": "Stormwind has not sent the reinforcements Lakeshire needs against the orcs and gnolls. Solomon has heard that an armed citizen force is gathering in Westfall, and hopes Gryan Stoutmantle can spare troops for Redridge."
+   "answer": "Stormwind has not sent the reinforcements Lakeshire needs against the orcs and gnolls. Solomon has heard an armed citizen force is gathering in Westfall, and hopes Gryan Stoutmantle can spare troops for Redridge."
   },
   {
    "q": "Who is Gryan Stoutmantle?",
@@ -65,7 +65,7 @@
     "where are royal guards",
     "stormwind army missing"
    ],
-   "answer": "Magistrate Solomon says something is amiss with the army, since promised troops have not arrived. The king is absent and Highlord Bolvar Fordragon rules as regent, while outlying territories are left to fend for themselves without the expected reserves."
+   "answer": "Magistrate Solomon says something is amiss with the army because promised troops have not arrived. The king is absent and Highlord Bolvar Fordragon rules as regent, while outlying territories are left without the expected reserves."
   },
   {
    "q": "Can Westfall actually spare any troops for Redridge?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This dispatch shows how little central defense remains in the Kingdom of Stormwind, leaving border towns to seek mutual aid on their own."
+   "text": "This dispatch shows how little central defense remains in the Kingdom of Stormwind. Border towns must seek mutual aid on their own."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you share the hardships of settlers in Redridge and Westfall, who rely on volunteers and mercenaries while the capital sits idle."
+   "text": "As a human, you share the hardships of settlers in Redridge and Westfall. They rely on volunteers and mercenaries while the capital sits idle."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Messenger to Westfall"
  ],
- "style": 1
+ "style": 2
 }

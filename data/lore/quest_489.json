@@ -17,21 +17,21 @@
   "wiki": "Seek Redemption!",
   "chain": []
  },
- "summary": "In Dolanaar, you face the Council of the Forest's demand for atonement. Adventurers were duped into doing Zenn Foulhoof's dirty work, and now the council sends you to trick the satyr into eating corrupted fel cones.",
+ "summary": "In Dolanaar, the Council of the Forest demands that you make amends. Adventurers were tricked into doing Zenn Foulhoof's bidding, and the council now sends you to fool him into eating corrupted fel cones.",
  "sections": [
   {
    "title": "A Fool's Errand Undone",
-   "body": "Just outside Dolanaar, solitary satyr Zenn Foulhoof uses deceit to make passersby do his bidding. Adventurers who unwittingly slaughtered nightsabers, strigid owls, and webwood spiders to satisfy his twisted appetites draw the Council of the Forest's sharp disapproval. The council will not accept harm to nature, especially from its own allies.",
+   "body": "Just outside Dolanaar, the solitary satyr Zenn Foulhoof tricks passersby into doing his bidding. Adventurers who unknowingly killed nightsabers, strigid owls, and webwood spiders to satisfy his twisted appetites have drawn the Council of the Forest's sharp disapproval. The council will not accept harm to nature, least of all from its own allies.",
    "spoiler": 0
   },
   {
    "title": "The Price of Atonement",
-   "body": "Syral Bladeleaf, Sentinel Kyra Starsong, or Sentinel Shayla Nightbreeze warns you that you must make amends to remain welcome in Teldrassil. Dolanaar's guardians tell you to turn Foulhoof's wicked gluttony against him instead of facing him with steel. Gather the billowing, corrupted fel cones from the forest floor, then offer the unsuspecting satyr a taste of his own foul medicine.",
+   "body": "Syral Bladeleaf, Sentinel Kyra Starsong, or Sentinel Shayla Nightbreeze warns you to make amends if you wish to remain welcome in Teldrassil. Dolanaar's guardians tell you to turn Foulhoof's wicked gluttony against him instead of meeting him with steel. Gather the billowing, corrupted fel cones from the forest floor, then offer the unsuspecting satyr a taste of his own foul medicine.",
    "spoiler": 0
   },
   {
    "title": "A Croaking Retribution",
-   "body": "You hand Zenn Foulhoof the noxious cones, posing as a loyal errand-runner with a sweet snack. Unaware of the druidic snare, the satyr eagerly devours them and is promptly changed into a helpless frog, humbled before the wilderness he sought to taint.",
+   "body": "You bring Zenn Foulhoof the noxious cones, pretending to be a loyal errand-runner with a sweet snack. The satyr knows nothing of the druidic snare. He eagerly devours them and is promptly changed into a helpless frog, humbled before the wilderness he sought to taint.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "seek redemption why",
     "why do i need redemption"
    ],
-   "answer": "You followed Zenn Foulhoof's earlier bidding and unwittingly slaughtered nightsabers, strigid owls, and spiders. The Council of the Forest sees that needless killing as a defilement of Teldrassil and demands atonement."
+   "answer": "You followed Zenn Foulhoof's earlier bidding and unknowingly killed nightsabers, strigid owls, and spiders. The Council of the Forest sees that needless killing as a defilement of Teldrassil and demands atonement."
   },
   {
    "q": "Who can give me this quest?",
@@ -79,7 +79,7 @@
     "satyr in dolanaar",
     "zenn foulhoof lore"
    ],
-   "answer": "Zenn Foulhoof keeps to a hollowed clearing just outside Dolanaar and hides his malice behind false pleasantries. Satyrs across Kalimdor are ancient servants of the Burning Legion, and his presence shows how far corruption reaches into the young World Tree."
+   "answer": "Zenn Foulhoof lives in a hollowed clearing just outside Dolanaar and hides his malice behind false pleasantries. Satyrs across Kalimdor are ancient servants of the Burning Legion, and his presence shows how far corruption reaches into the young World Tree."
   },
   {
    "q": "Can you skip or abandon this quest without ruining your standing?",
@@ -125,5 +125,5 @@
  "attribution": [
   "Seek Redemption!"
  ],
- "style": 1
+ "style": 2
 }

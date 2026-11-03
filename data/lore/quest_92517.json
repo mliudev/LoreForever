@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Operating out of a hidden waterfall cave is classic bandit tradecraft, but \"Badwind\" Bennic and his crew lack the finesse or discretion to avoid drawing local retribution."
+   "text": "As a rogue, you know hidden caves behind waterfalls make familiar bandit hideouts. \"Badwind\" Bennic and his crew lack the care to stay out of the locals' sight and escape their anger."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "bennic",
     "badwind"
    ],
-   "answer": "\"Badwind\" Bennic is the leader of the Highlands Bandits operating out of a hidden cave behind a waterfall in the Shen'dar Highlands. His gang has long plagued the area, turning into an even greater terror amid recent regional turmoil.",
+   "answer": "\"Badwind\" Bennic leads the Highlands Bandits from a hidden cave behind a waterfall in the Shen'dar Highlands. His gang has long plagued the area, and the recent turmoil has made them an even greater terror.",
    "q": "Who is \"Badwind\" Bennic?"
   },
   {
@@ -33,7 +33,7 @@
     "bandit cave location",
     "waterfall cave"
    ],
-   "answer": "The bandits make their lair in a secluded cave tucked behind a waterfall located just to the north in the Shen'dar Highlands.",
+   "answer": "The Highlands Bandits hide in a cave behind a waterfall to the north in the Shen'dar Highlands.",
    "q": "Where are the Highlands Bandits hiding?"
   },
   {
@@ -42,7 +42,7 @@
     "cult connection",
     "who is the cult"
    ],
-   "answer": "The cult is a newer, alarming faction whose followers gather at Falaath Village to the south, their numbers growing. While the bandits operated long before the cult's arrival, its presence has exacerbated local danger. There are lingering concerns that surviving bandits may seek refuge and bolster the cult's ranks once their leadership is broken.",
+   "answer": "The cult is a new and alarming faction whose followers gather at Falaath Village to the south, and whose numbers are growing. The bandits were here before the cult arrived, but its presence has made the region more dangerous. Local forces worry that surviving bandits may seek refuge with the cult and strengthen its ranks.",
    "q": "What is the cult mentioned in the area?"
   },
   {
@@ -50,7 +50,7 @@
     "why kill the bandits",
     "bandit problem"
    ],
-   "answer": "Local forces lack the manpower to clear the bandits themselves while dealing with the emerging cult. Eliminating Bennic and dispersing his gang removes an active threat preying on the region.",
+   "answer": "Local forces are stretched thin by the emerging cult and lack the manpower to clear out the bandits. Bringing Bennic down and scattering his gang removes an active threat from the region.",
    "q": "Why can't local forces handle the bandits themselves?"
   },
   {
@@ -58,7 +58,7 @@
     "what happens to surviving bandits",
     "did all bandits die"
    ],
-   "answer": "Though Bennic falls and his hideout is scattered, concerns remain that surviving outlaws will turn to the nearby cult for protection, swelling the cultists' already alarming numbers.",
+   "answer": "With Bennic defeated, the bandits' hideout is scattered, but surviving outlaws may seek protection with the nearby cult and swell its already alarming numbers.",
    "q": "What happens to the bandits after Bennic is defeated?"
   },
   {
@@ -66,7 +66,7 @@
     "where is shendar highlands",
     "shen'dar highlands"
    ],
-   "answer": "The Shen'dar Highlands is the rugged region where the Highlands Bandits roam and maintain their hidden waterfall redoubt.",
+   "answer": "The Highlands Bandits roam the Shen'dar Highlands, where they keep a hidden cave behind a waterfall.",
    "q": "Where does this conflict take place?"
   }
  ],
@@ -82,18 +82,19 @@
  "related": [],
  "sections": [
   {
-   "body": "In the Shen'dar Highlands, a den of outlaws known as the Highlands Bandits has entrenched itself inside a hidden cave concealed behind a northern waterfall. Led by the notorious \"Badwind\" Bennic, the cutthroats were already a persistent nuisance to locals before an enigmatic cult arrived in the highlands, after which their lawlessness escalated into an outright terror. With local defenders stretched thin and unable to spare forces, adventurers are tasked with infiltrating the waterfall redoubt, breaking the gang's ranks, and eliminating Bennic.",
+   "body": "The Highlands Bandits have made their den in a hidden cave behind a northern waterfall in the Shen'dar Highlands. Their leader, \"Badwind\" Bennic, commands cutthroats who troubled the locals long before an enigmatic cult arrived. Since then, their lawlessness has grown into terror. Local defenders are stretched thin and cannot spare forces, so you are sent to break the gang and bring Bennic down.",
    "spoiler": 0,
    "title": "Outlaws Behind the Falls"
   },
   {
-   "body": "Although eliminating \"Badwind\" Bennic successfully shatters the bandit enclave and brings temporary relief, it introduces a fresh strategic complication. Local authorities worry that without their commander, the surviving outlaws will seek shelter with the nearby cult. Absorbing desperate, seasoned highwaymen into the cult's ranks threatens to further swell the numbers of an already alarming regional threat.",
+   "body": "After \"Badwind\" Bennic is eliminated, the Highlands Bandits lose their hold and the locals gain a brief respite. Yet surviving outlaws may seek shelter with the nearby cult. If it takes in these seasoned highwaymen, its ranks could swell and deepen the threat across the region.",
    "spoiler": 1,
    "title": "A Shift in the Shadows"
   }
  ],
- "summary": "The Criminal Element involves striking against the Highlands Bandits and their leader, \"Badwind\" Bennic, who operate out of a concealed cave behind a waterfall in the Shen'dar Highlands. With local forces overwhelmed by the recent arrival of a menacing cult, outside help is required to eliminate Bennic and disrupt the outlaw gang.",
+ "summary": "The Highlands Bandits terrorize the Shen'dar Highlands from a cave behind a waterfall. A new cult has arrived, and local defenders are stretched thin. So outside help is needed against the gang's leader, \"Badwind\" Bennic.",
  "attribution": [
   "In-game quest text: The Criminal Element"
- ]
+ ],
+ "style": 2
 }

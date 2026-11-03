@@ -31,16 +31,16 @@
    "Passing Word of a Threat"
   ]
  },
- "summary": "Historian Karnik wants Ambassador Infernus of Angor Fortress put down. You are to go back into the Badlands, and carry proof of the kill to Advisor Belgrum in Ironforge.",
+ "summary": "In the Badlands, Historian Karnik sends you after Ambassador Infernus. He wants you to carry proof of the kill to Advisor Belgrum in Ironforge.",
  "sections": [
   {
    "title": "The Ambassador in Angor Fortress",
-   "body": "Ragnaros himself sent Ambassador Infernus to Angor Fortress to oversee the Shadowforge as they hunt for lost artifacts in Uldaman. The toll in dwarven lives has already been heavy and is worsening. Karnik dares not guess how many artifacts the Shadowforge might find and use against Ironforge. You are to go back to the Badlands, destroy Infernus, and bring Belgrum proof of your victory. Time presses, since Ragnaros will not wait for them to prepare.",
+   "body": "Ragnaros sent Ambassador Infernus to Angor Fortress to oversee the Shadowforge's hunt for lost artifacts in Uldaman. The search has already cost many dwarven lives, and more are dying. Karnik fears the Shadowforge could turn the artifacts against Ironforge. So he sends you back into the Badlands to destroy Infernus and carry Belgrum proof of your victory. Time is short. Ragnaros will not wait for the Shadowforge to prepare.",
    "spoiler": 0
   },
   {
    "title": "Belgrum's Thanks",
-   "body": "Belgrum praises your dedication to Ironforge and the dwarven people, and will send word of your success to Karnik. Help will also be sent to the Badlands to retake the excavation site. Belgrum has one thing more to ask of you, in King Bronzebeard's name.",
+   "body": "Advisor Belgrum praises your devotion to Ironforge and its people. He will send word of your success to Karnik, and help will go to the Badlands to retake the excavation site. In King Bronzebeard's name, Belgrum has one more request for you.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "infernus lore",
     "ambassador infernus background"
    ],
-   "answer": "Ragnaros himself sent Infernus to Angor Fortress to oversee the Shadowforge as they hunt for lost artifacts in Uldaman."
+   "answer": "Ragnaros sent Infernus to Angor Fortress to oversee the Shadowforge's hunt for lost artifacts in Uldaman."
   },
   {
    "q": "Where is Ambassador Infernus?",
@@ -61,7 +61,7 @@
     "ambassador infernus location",
     "where is infernus"
    ],
-   "answer": "In Angor Fortress, in the Badlands."
+   "answer": "Ambassador Infernus is in Angor Fortress, in the Badlands."
   },
   {
    "q": "Why does Karnik want Ambassador Infernus destroyed?",
@@ -70,7 +70,7 @@
     "what is infernus doing in uldaman",
     "ironforge threat badlands"
    ],
-   "answer": "The Shadowforge's search in Uldaman has already cost many dwarven lives, and Karnik fears the artifacts they find could be used against Ironforge."
+   "answer": "The Shadowforge's search in Uldaman has already cost many dwarven lives. Karnik fears the artifacts they find could be used against Ironforge."
   },
   {
    "q": "Who gives and ends this quest?",
@@ -79,7 +79,7 @@
     "who turns in ambassador of evil",
     "ambassador of evil quest giver"
    ],
-   "answer": "Historian Karnik in Ironforge gives it, and you bring proof of victory to Advisor Belgrum in Ironforge."
+   "answer": "Historian Karnik in Ironforge sends you after Infernus. You carry proof of victory to Advisor Belgrum in Ironforge."
   },
   {
    "q": "What proof is wanted?",
@@ -88,7 +88,7 @@
     "ambassador infernus proof",
     "infernus bracer"
    ],
-   "answer": "Ambassador Infernus' Bracer, shown to Advisor Belgrum as proof of your victory."
+   "answer": "Advisor Belgrum wants Ambassador Infernus' Bracer as proof of your victory."
   }
  ],
  "angles": [],
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "An Ambassador of Evil"
- ]
+ ],
+ "style": 2
 }

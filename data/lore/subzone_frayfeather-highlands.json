@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Frayfeather Highlands"
  },
- "summary": "The Frayfeather Highlands form an elevated wilderness in the dense forests of Feralas. This remote plateau is the ancestral roost and nesting ground of the wild Frayfeather hippogryphs. Intrepid scavengers and naturalists often brave its territorial flocks in search of intact hippogryph eggs.",
+ "summary": "In Feralas, Frayfeather hippogryphs defend their ancestral roosts. Scavengers and naturalists brave the flocks in search of intact eggs.",
  "sections": [
   {
    "title": "Aerie of the Hippogryphs",
-   "body": "Rising above the surrounding forest floor of Feralas, the Frayfeather Highlands are dominated by steep slopes and crags where wild hippogryphs raise their broods. The local flocks are notoriously aggressive toward intruders, fiercely defending the scattered nests tucked among the rock shelves. Because these beasts are so well adapted to the rugged cliffs, their nesting grounds have drawn significant interest from outsiders\u2014most notably goblin entrepreneurs in distant Gadgetzan who seek unhatched eggs for study and profit.",
+   "body": "Wild hippogryphs raise their broods on steep slopes and crags above Feralas's forest floor. The flocks defend their scattered nests among the rock shelves with fierce aggression. Their mastery of the rugged cliffs draws outsiders to the nesting grounds. Goblin entrepreneurs in distant Gadgetzan seek unhatched eggs for study and profit.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is here",
     "frayfeather beasts"
    ],
-   "answer": "The highlands are primarily home to large flocks of wild Frayfeather hippogryphs, which nest across the high rock faces and aggressively defend their territory from trespassers."
+   "answer": "Large flocks of wild Frayfeather hippogryphs nest across the high rock faces. They defend their territory fiercely against trespassers."
   },
   {
    "q": "Why are travelers interested in the hippogryph nests?",
@@ -32,7 +32,7 @@
     "egg quest",
     "why steal eggs"
    ],
-   "answer": "The nests contain rare hippogryph eggs. Adventurers collect these viable eggs and deliver them across Tanaris to Gadgetzan, where goblins process them in the Super Egg-O-Matic for research and profit."
+   "answer": "Rare hippogryph eggs lie in the nests. Adventurers carry viable eggs across Tanaris to Gadgetzan, where goblins process them in the Super Egg-O-Matic for research and profit."
   },
   {
    "q": "Where are the Frayfeather Highlands located?",
@@ -41,17 +41,17 @@
     "where is frayfeather highlands",
     "how to find frayfeather"
    ],
-   "answer": "The highlands are situated in the southern reaches of Feralas, elevated above the primary jungle canopy and characterized by craggy hillsides and open nesting perches."
+   "answer": "The highlands rise in southern Feralas above the main jungle canopy. Their craggy hillsides offer open perches for nesting."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Night elves revere hippogryphs as sacred companions of Elune, making the wild nests in Feralas an important natural habitat worthy of preservation from reckless exploitation."
+   "text": "As a night elf, you revere hippogryphs as sacred companions of Elune. Their wild nests in Feralas deserve protection from reckless exploitation."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold the wild beasts of Kalimdor in high regard and view the undisturbed aeries of the Frayfeather Highlands as a pure reflection of the forest's primal vitality."
+   "text": "As a druid, you hold Kalimdor's wild beasts in high regard. The undisturbed aeries of the Frayfeather Highlands reflect the forest's primal vitality."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Frayfeather Highlands"
- ]
+ ],
+ "style": 2
 }

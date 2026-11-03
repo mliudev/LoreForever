@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ghost Walker Post"
  },
- "summary": "Ghost Walker Post is a modest tauren settlement situated in the heart of Desolace right beside the ancient Kodo Graveyard. Far more exposed to regional dangers than Shadowprey Village on the western coast, it serves as a frontline Horde staging ground against centaur clans and the Burning Blade.",
+ "summary": "In central Desolace, Ghost Walker Post holds its ground beside the Kodo Graveyard. Tauren and orcs defend the Horde outpost from centaur clans and the Burning Blade, while its shamans tend dying kodos and their spirits.",
  "sections": [
   {
    "title": "A Watch on the Wastes",
-   "body": "Perched on the dusty flats of central Desolace, Ghost Walker Post provides the Horde with an austere foothold in a hostile territory. Unlike the sheltered coastal fishing haven of Shadowprey Village, this post directly faces roaming centaur marauders and demon-worshiping cultists of the Burning Blade. Facilities are spartan, offering only the bare essentials for travelers, with no inn or flight master in sight. Despite the harsh conditions, a garrison of tauren and an orcish detachment sent by Warchief Thrall keep vigilant watch over the badlands.",
+   "body": "Ghost Walker Post gives the Horde a foothold on central Desolace’s dusty flats. Centaur marauders and Burning Blade cultists roam nearby, keeping the post in danger. Its facilities offer only the bare essentials. There is no inn or flight master. Tauren guards and an orcish detachment sent by Warchief Thrall keep watch over the badlands.",
    "spoiler": 0
   },
   {
    "title": "Guardians of the Graveyard",
-   "body": "Led by the tauren shaman Gurda Wildmane, the spiritual heart of the outpost is closely entwined with the neighboring Kodo Graveyard. Shamans stationed here tend to the dying beasts that wander in to perish, helping ease them into the next life and communing with their lingering spirits. Between spiritual communion and constant military readiness, the defenders of the post honor the ancient bond between the tauren and the mighty kodo amid the ashes of Desolace.",
+   "body": "Gurda Wildmane, a tauren shaman, leads Ghost Walker Post beside the Kodo Graveyard. Shamans tend the dying kodos who come there to perish. They ease the beasts into the next life and commune with their lingering spirits.\n\nThe post’s defenders stay ready against threats. Here, the tauren honor their ancient bond with the mighty kodo.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this camp",
     "horde camp desolace"
    ],
-   "answer": "It is a small, rugged Horde outpost located in central Desolace, established primarily by tauren with support from an orcish garrison."
+   "answer": "Ghost Walker Post is a small, rugged Horde outpost in central Desolace, held mainly by tauren with support from an orcish garrison."
   },
   {
    "q": "Who leads Ghost Walker Post?",
@@ -37,7 +37,7 @@
     "ghost walker leader",
     "gurda wildmane"
    ],
-   "answer": "The post is led by Gurda Wildmane, a tauren shaman who tends to the camp's defenses and the neighboring Kodo Graveyard."
+   "answer": "Gurda Wildmane, a tauren shaman, leads Ghost Walker Post and tends its defenses and the neighboring Kodo Graveyard."
   },
   {
    "q": "Why is the post located near the Kodo Graveyard?",
@@ -46,7 +46,7 @@
     "kodo spirits camp",
     "shaman kodo graveyard"
    ],
-   "answer": "Gurda Wildmane and fellow tauren shamans reside here to help ease dying kodo into their next lives and to commune with the spirits of the fallen beasts."
+   "answer": "Gurda Wildmane and fellow tauren shamans live at the post to ease dying kodos into the next life and commune with the spirits of fallen beasts."
   },
   {
    "q": "What enemies does Ghost Walker Post fight?",
@@ -55,7 +55,7 @@
     "who attacks ghost walker post",
     "post threats"
    ],
-   "answer": "The garrison wages constant war against the local hostile centaur tribes and the sinister forces of the Burning Blade operating across Desolace."
+   "answer": "The garrison fights hostile centaur clans and Burning Blade forces operating across Desolace."
   },
   {
    "q": "Can I get a flight path or rest at an inn here?",
@@ -64,7 +64,7 @@
     "innkeeper ghost walker",
     "fp here?"
    ],
-   "answer": "No. The outpost provides only the bare necessities for adventurers and lacks both an innkeeper and a wind rider master. Travelers must seek transport elsewhere, such as Shadowprey Village."
+   "answer": "No. Ghost Walker Post has neither an inn nor a flight master. Travelers must seek transport elsewhere, such as Shadowprey Village."
   },
   {
    "q": "How does it compare to Shadowprey Village?",
@@ -72,17 +72,17 @@
     "shadowprey vs ghost walker",
     "other horde camp desolace"
    ],
-   "answer": "While Shadowprey Village is a protected troll enclave on the western coast, Ghost Walker Post is inland, heavily exposed to surrounding threats, and focused on frontier defense and spiritual duties."
+   "answer": "Shadowprey Village is a protected troll enclave on Desolace’s western coast. Ghost Walker Post lies inland, exposed to nearby threats, and focuses on frontier defense and spiritual duties."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The camp reflects the tauren's deep sacred duty to the natural world, standing as guardians beside the ancestral resting grounds of the kodo."
+   "text": "As a tauren, you see your people’s sacred duty to the natural world in their guardianship beside the kodo’s ancestral resting grounds."
   },
   {
    "target": "class:Shaman",
-   "text": "Under Gurda Wildmane, the shamans here perform the sacred work of speaking with ancient spirits and easing dying beasts into the spirit world."
+   "text": "Under Gurda Wildmane, the shamans here speak with ancient spirits and ease dying beasts into the spirit world."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Ghost Walker Post"
- ]
+ ],
+ "style": 2
 }

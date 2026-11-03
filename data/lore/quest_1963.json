@@ -21,16 +21,16 @@
    "The Shattered Hand (2)"
   ]
  },
- "summary": "Therzok tests rogues in Orgrimmar who seek entry to the secretive Shattered Hand. Their trial sends them after Tazan, a troll smuggler, and his locked satchel.",
+ "summary": "In Orgrimmar, Therzok tests rogues who seek entry to the secretive Shattered Hand. Their trial sends them after Tazan, a troll smuggler, and his locked satchel.",
  "sections": [
   {
    "title": "Shadows in the Cleft",
-   "body": "The Shattered Hand works from the Cleft of Shadow beneath Orgrimmar. The order of assassins and thieves follows old orcish traditions. Warchief Thrall rules the young Horde with honor, diplomacy, and caution, but the Shattered Hand's leaders believe restraint weakens their people. They seek to restore martial supremacy through covert violence, using knives and poison when a battlefield charge may fail.",
+   "body": "The Shattered Hand works from the Cleft of Shadow beneath Orgrimmar. This order of assassins and thieves keeps to old orcish traditions. Warchief Thrall rules the young Horde with honor, diplomacy, and caution. Yet the Shattered Hand's leaders believe restraint weakens their people, so they seek to restore martial supremacy through covert violence. They use knives and poison when a battlefield charge may fail.",
    "spoiler": 0
   },
   {
    "title": "A Smuggler's Fate",
-   "body": "Therzok tests rogues with a contract to kill Tazan, a troll who operates near Ratchet in the Barrens. Tazan trades with coastal pirates and carries intelligence the guild wants. Recovering his locked satchel proves a rogue can stalk prey beyond the city walls, though opening it calls for further skill.",
+   "body": "Therzok tests rogues by sending them after Tazan, a troll who operates near Ratchet in the Barrens. Tazan trades with coastal pirates and carries intelligence the guild wants. Recovering his locked satchel proves a rogue can stalk prey beyond the city walls. Opening it calls for another skill.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "shattered hand rogues",
     "shattered hand purpose"
    ],
-   "answer": "The Shattered Hand is a covert Horde guild of rogues, scouts, and assassins based in Orgrimmar's Cleft of Shadow. Once an old orcish clan known for brutal self-mutilation, it now gathers intelligence and carries out killings, favoring ruthless pragmatism over Thrall's cautious diplomacy."
+   "answer": "The Shattered Hand is a covert Horde guild of rogues, scouts, and assassins based in Orgrimmar's Cleft of Shadow. Once an old orcish clan known for brutal self-mutilation, it now gathers intelligence and carries out killings. Its members favor ruthless pragmatism over Thrall's cautious diplomacy."
   },
   {
    "q": "Who is Therzok?",
@@ -60,7 +60,7 @@
     "tazan lore",
     "what did tazan do"
    ],
-   "answer": "Tazan is a troll smuggler trading with the Southsea pirates near Ratchet. He carries information in a satchel that the Shattered Hand wants for its covert work."
+   "answer": "Tazan is a troll smuggler who trades with the Southsea pirates near Ratchet. He carries information in a satchel that the Shattered Hand wants for its covert work."
   },
   {
    "q": "Where is Tazan located?",
@@ -78,7 +78,7 @@
     "locked satchel",
     "what to do with satchel"
    ],
-   "answer": "Therzok finds the satchel locked when it is returned. Though pleased by Tazan's death, he needs the intelligence inside and makes opening it another test of the rogue's lockpicking skill."
+   "answer": "Therzok finds the satchel locked when it is returned. Pleased by Tazan's death, he still needs the intelligence inside, so opening it becomes another test of the rogue's lockpicking skill."
   },
   {
    "q": "Does Thrall know about the Shattered Hand's methods?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see the Shattered Hand's quiet challenge to Thrall's cautious vision for the young Horde."
+   "text": "As a member of the Horde, you see the Shattered Hand quietly challenge Thrall's cautious vision for the young Horde."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "The Shattered Hand (Classic)"
  ],
- "style": 1
+ "style": 2
 }

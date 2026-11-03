@@ -17,16 +17,16 @@
   "wiki": "Treats for Great-father Winter",
   "chain": []
  },
- "summary": "At the Smokywood Pastures display in Orgrimmar, the Greatfather Winter performer is worn out from hearing holiday wishes. He asks you for gingerbread cookies and milk.",
+ "summary": "At Smokywood Pastures' display in Orgrimmar, the Greatfather Winter performer is tired of hearing holiday wishes. He asks you for gingerbread cookies and milk.",
  "sections": [
   {
    "title": "A Weary Patron of Winter",
-   "body": "The Greatfather Winter who greets visitors in the Valley of Strength works for Smokywood Pastures. Long hours listening to citizens speak of festive treats leave him hungry. He turns to passing travelers for warm baking and a cold drink.",
+   "body": "The Greatfather Winter who greets visitors in the Valley of Strength works for Smokywood Pastures. Long hours of hearing citizens speak of festive treats leave him hungry. So he asks passing travelers for warm baking and a cold drink.",
    "spoiler": 0
   },
   {
    "title": "Culinary Holiday Spirit",
-   "body": "You can bake the cookies with Holiday Spices sold by Smokywood Pastures peddlers and Small Eggs gathered from wild birds. Bring them together with Ice Cold Milk from a local tavern, and the feast's organizers offer you festive cheer and a small token of gratitude.",
+   "body": "Holiday Spices from Smokywood Pastures peddlers and Small Eggs from wild birds make the cookies. Bring them together with Ice Cold Milk from a local tavern. Then the feast's organizers offer festive cheer and a small token of gratitude.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "orgrimmar greatfather winter",
     "is he the real winter father"
    ],
-   "answer": "In Orgrimmar, Greatfather Winter is an actor hired by Smokywood Pastures to portray the legendary figure during the Feast of Winter Veil. He sits near the holiday trade display in the Valley of Strength, greeting Horde citizens and listening to their festive requests."
+   "answer": "In Orgrimmar, Greatfather Winter is an actor hired by Smokywood Pastures to portray the legendary figure during the Feast of Winter Veil. Near the holiday trade display in the Valley of Strength, he greets Horde citizens and hears their festive requests."
   },
   {
    "q": "What treats does Greatfather Winter ask for?",
@@ -47,7 +47,7 @@
     "treats requested",
     "what cookies does he need"
    ],
-   "answer": "He asks you for five Gingerbread Cookies and one serving of Ice Cold Milk to help him through a long day of greeting holiday visitors."
+   "answer": "He asks you for five Gingerbread Cookies and one serving of Ice Cold Milk to sustain him through a long day of greeting holiday visitors."
   },
   {
    "q": "How do you make Gingerbread Cookies?",
@@ -56,7 +56,7 @@
     "gingerbread cookie recipe",
     "cookie ingredients"
    ],
-   "answer": "Smokywood Pastures vendors around the holiday display sell the recipe and Holiday Spices. Combine the spices with Small Eggs gathered from wild birds, then bake the cookies over a cooking fire."
+   "answer": "Smokywood Pastures vendors around the holiday display sell the recipe and Holiday Spices. Gather Small Eggs from wild birds, combine them with the spices, and bake the cookies over a cooking fire."
   },
   {
    "q": "Where can Ice Cold Milk be found?",
@@ -65,7 +65,7 @@
     "buy milk",
     "milk vendor"
    ],
-   "answer": "You can buy Ice Cold Milk from food and drink vendors, innkeepers, or barkeeps throughout Orgrimmar and other major settlements."
+   "answer": "Food and drink vendors, innkeepers, and barkeeps sell Ice Cold Milk throughout Orgrimmar and other major settlements."
   },
   {
    "q": "Why is Greatfather Winter asking for food himself?",
@@ -73,7 +73,7 @@
     "why does he want treats",
     "is greatfather winter hungry"
    ],
-   "answer": "Listening to children and citizens talk about food, gifts, and festivities all day leaves the Greatfather Winter performer hungry. Since he cannot easily leave his post in the Valley of Strength, he asks passing travelers for a quick snack."
+   "answer": "Listening all day as children and citizens speak of food, gifts, and festivities leaves the Greatfather Winter performer hungry. Since he cannot easily leave his post in the Valley of Strength, he asks passing travelers for a quick snack."
   },
   {
    "q": "Does this quest have an Alliance counterpart?",
@@ -111,5 +111,5 @@
  "attribution": [
   "Treats for Great-father Winter"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lakeshire Inn"
  },
- "summary": "At Lakeshire Inn, travelers and townsfolk seek shelter as danger closes around Lakeshire. On Lake Everstill, the inn offers food, drink, and a place to hear news amid the town’s troubles.",
+ "summary": "At Lakeshire Inn, travelers and townsfolk seek shelter as danger closes around Lakeshire. The inn on Lake Everstill offers food, drink, and a place to hear news amid the town’s troubles.",
  "sections": [
   {
    "title": "A Beacon of Warmth",
-   "body": "On the shore of Lake Everstill, Lakeshire Inn offers a short rest from the gnoll bands and Blackrock orcs pressing against the town. Though Lakeshire’s military position grows more desperate, the tavern remains warm and welcoming. Barkeep Daniels and Innkeeper Brianna serve ale, wine, and hot meals to locals and travelers. Townspeople gather to trade news, ease their sorrows, and seek hired blades to defend the kingdom’s eastern border.",
+   "body": "Lakeshire Inn stands on the shore of Lake Everstill, offering a brief rest from the gnoll bands and Blackrock orcs pressing against the town. Lakeshire’s military position grows more desperate, yet the tavern remains warm and welcoming. Barkeep Daniels and Innkeeper Brianna serve ale, wine, and hot meals to locals and travelers. Townspeople gather to trade news, ease their sorrows, and find hired blades to defend the kingdom’s eastern border.",
    "spoiler": 0
   },
   {
    "title": "Patrons and Whispers",
-   "body": "Wiley the Black watches the room from a table, keeping his thoughts to himself and an eye on dangers in the region. Traveling brewers such as Yorus Barleybrew stop at the inn, and Darcy Parker and other townsfolk visit the common room. For those bound for the jagged peaks or south toward Duskwood, Lakeshire Inn is the last safe haven before the contested wilderness.",
+   "body": "Wiley the Black watches the room from a table, keeping his thoughts to himself while watching for dangers in the region. Traveling brewers such as Yorus Barleybrew stop at the inn, as do Darcy Parker and other townsfolk. For those bound for the jagged peaks or south toward Duskwood, Lakeshire Inn is the last safe haven before the contested wilderness.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what can I do at lakeshire inn",
     "innkeeper lakeshire"
    ],
-   "answer": "Innkeeper Brianna binds hearthstones and rents rooms, while Barkeep Daniels provides food, drink, and refreshments for the road."
+   "answer": "Innkeeper Brianna binds hearthstones and rents rooms. Barkeep Daniels provides food, drink, and refreshments for the road."
   },
   {
    "q": "Why is the inn so crowded despite the nearby attacks?",
@@ -37,7 +37,7 @@
     "lakeshire refugees inn",
     "redridge tavern crowd"
    ],
-   "answer": "Blackrock orcs descend from the northern crags, and gnolls raid local farms, driving townspeople and displaced settlers toward safety in the town center. The tavern offers shelter and a place to share news of the defense."
+   "answer": "Blackrock orcs descend from the northern crags, while gnolls raid local farms. Their attacks drive townspeople and displaced settlers toward safety in the town center. The tavern offers shelter and a place to share news of the defense."
   },
   {
    "q": "Who is Wiley the Black?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Lakeshire Inn"
  ],
- "style": 1
+ "style": 2
 }

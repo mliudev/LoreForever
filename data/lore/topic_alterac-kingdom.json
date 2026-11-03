@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Alterac (kingdom)"
  },
- "summary": "Alterac was one of the seven historic human kingdoms, nestled high in the rugged Alterac Mountains. During the Second War, its ruler, King Aiden Perenolde, made a treacherous pact with the Old Horde to spare his realm, leading to the kingdom's military downfall and total collapse. Today, its ruined capital lies abandoned in the snow, while dispossessed nobles and outlaws wage a guerrilla war under the banner of the Syndicate.",
+ "summary": "In the years after the Second War, Alterac lies broken and its capital stands abandoned in the snow. Once one of seven human kingdoms in the Alterac Mountains, it fell when King Aiden Perenolde secretly aided the Old Horde. Now dispossessed nobles and outlaws fight beneath the Syndicate's banner.",
  "sections": [
   {
    "title": "A Nation in the Crags",
-   "body": "Alterac arose thousands of years ago as an Arathorian city-state following the Troll Wars. Settlers capitalized on strategic mountain passes and trading outposts, eventually establishing an independent realm when the empire fractured. Though rugged and mountainous, Alterac bordered the prosperous lands of Lordaeron and Stromgarde. Historically, it fielded tough mountain fighters, but enduring border friction with Thoras Trollbane's Stromgarde left the kingdom politically isolated from its neighbors long before the Dark Portal ever opened.",
+   "body": "Alterac began as an Arathorian city-state after the Troll Wars, thousands of years ago. Its settlers held mountain passes and trading outposts. When the empire fractured, they formed an independent realm. Rugged Alterac bordered the prosperous lands of Lordaeron and Stromgarde. Its mountain fighters were tough, yet friction along the border with Thoras Trollbane's Stromgarde left the kingdom isolated long before the Dark Portal opened.",
    "spoiler": 0
   },
   {
    "title": "The Great Betrayal",
-   "body": "When Sir Anduin Lothar forged the Alliance of Lordaeron, King Aiden Perenolde joined only with deep reluctance. As Orgrim Doomhammer's Horde swept north, Perenolde concluded humanity was doomed and secretly struck a deal with the Warchief. In exchange for the safety of Alterac, Perenolde opened fortified mountain passes, conspired against Alliance forces, and even dispatched soldiers and sailors to assist the Horde's siege of Lordaeron. The treachery allowed the orcs to reach Capital City far ahead of schedule, shaking the Alliance to its core when the truth was laid bare.",
+   "body": "Sir Anduin Lothar forged the Alliance of Lordaeron, and King Aiden Perenolde joined with deep reluctance. As Orgrim Doomhammer's Horde swept north, Perenolde believed humanity was doomed. So he secretly made a pact with the Warchief.\n\nIn return for Alterac's safety, Perenolde opened fortified mountain passes, plotted against Alliance forces, and sent soldiers and sailors to help the Horde besiege Lordaeron. The betrayal let the orcs reach Capital City far ahead of schedule. When the truth came to light, it shook the Alliance to its core.",
    "spoiler": 0
   },
   {
    "title": "Ruin and the Syndicate",
-   "body": "Retribution was swift. Stromgarde's forces marched into the mountains, exposing Perenolde's treason and breaking Alterac's military. King Terenas Menethil II placed the fallen nation under martial law, while arguments over who should inherit the throne paralyzed Alliance diplomats for years. Following the kingdom's collapse, King Perenolde died in disgrace. His son, Lord Aliden Perenolde, rallied the bitter, displaced nobility to form the Syndicate. Wearing the orange cloth of their fallen homeland, these bandits and mercenaries now fight ruthlessly to reclaim their ancestral holdings across Hillsbrad and Alterac.",
+   "body": "Stromgarde's forces marched into the mountains, exposed Perenolde's treason, and broke Alterac's military. King Terenas Menethil II placed the fallen nation under martial law. For years, Alliance diplomats argued over who should inherit the throne. After the kingdom collapsed, King Perenolde died in disgrace.\n\nHis son, Lord Aliden Perenolde, gathered the bitter, displaced nobles and formed the Syndicate. In orange cloth from their fallen homeland, its bandits and mercenaries now fight ruthlessly to reclaim their ancestral holdings across Hillsbrad and Alterac.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "fate of alterac",
     "who destroyed alterac"
    ],
-   "answer": "Alterac collapsed during the Second War after its king, Aiden Perenolde, betrayed humanity to side with the Old Horde. Alliance armies, spearheaded by Stromgarde, marched in and dismantled the kingdom's military. The crown was dissolved, the realm was placed under martial law, and its people fragmented into ruin."
+   "answer": "Alterac collapsed during the Second War after King Aiden Perenolde betrayed humanity and sided with the Old Horde. Stromgarde's forces broke the kingdom's military. The crown was dissolved, martial law followed, and Alterac's people were scattered among its ruins."
   },
   {
    "q": "Why did King Perenolde betray the Alliance?",
@@ -43,7 +43,7 @@
     "perenolde motive",
     "alterac betrayal reason"
    ],
-   "answer": "Aiden Perenolde believed the Alliance could not defeat the invading Horde. Fearing the total destruction of his mountain realm, he secretly allied with Warchief Orgrim Doomhammer. Doomhammer promised that Alterac would be left untouched and granted sovereign protection once Lordaeron fell, in exchange for open passage through the mountains."
+   "answer": "Aiden Perenolde believed the Alliance could not defeat the invading Horde. Fearing the destruction of his mountain realm, he secretly allied with Warchief Orgrim Doomhammer. Doomhammer promised to spare Alterac and grant it sovereign protection after Lordaeron fell, in return for passage through the mountains."
   },
   {
    "q": "How does the Syndicate relate to Alterac?",
@@ -52,7 +52,7 @@
     "who leads the syndicate",
     "why orange masks"
    ],
-   "answer": "The Syndicate is the criminal continuation of Alterac's nobility, founded by King Perenolde's son, Lord Aliden Perenolde. The organization seeks to take back their family estates and land across Hillsbrad and Alterac by force. Their signature orange masks match the historic national color of Alterac."
+   "answer": "The Syndicate grew from Alterac's nobility under Lord Aliden Perenolde, son of King Perenolde. It seeks to take back family estates and land across Hillsbrad and Alterac by force. Its orange masks recall Alterac's historic national color."
   },
   {
    "q": "What are Alterac's traditional colors and symbols?",
@@ -60,7 +60,7 @@
     "alterac flag",
     "alterac color"
    ],
-   "answer": "Alterac's national color is orange. This crest and color scheme were worn by its royal military during the Second War and are preserved today by the Syndicate, whose members wear orange masks and hoods."
+   "answer": "Alterac's national color is orange. Its royal military wore that color scheme during the Second War. The Syndicate preserves it today with orange masks and hoods."
   },
   {
    "q": "Who controls Alterac City right now?",
@@ -69,21 +69,21 @@
     "alterac city ruins",
     "who lives in alterac city"
    ],
-   "answer": "The ruined capital of Alterac City has no recognized monarch or lawful government. It is largely a shattered ruin overrun by Syndicate outlaws, ogres, and wild mountain beasts, with no formal Alliance garrison capable of holding the high passes."
+   "answer": "Alterac City has no recognized monarch or lawful government. Syndicate outlaws, ogres, and wild mountain beasts overrun much of the ruined capital. No formal Alliance garrison can hold the high passes."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "To the Alliance, Alterac is a bitter reminder of treason that nearly cost humanity everything during the Second War. Its memory fuels ongoing hostility toward the Syndicate bandits attempting to reclaim their ancestral estates."
+   "text": "To the Alliance, Alterac's fall recalls the treason that nearly cost humanity everything during the Second War. That memory feeds hostility toward Syndicate bandits trying to reclaim their ancestral estates."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the northern kingdoms, Alterac's fall is a tragic lesson in cowardice and division, showing how easily fear can shatter the unity forged against foreign invaders."
+   "text": "As a human of the northern kingdoms, you know Alterac's fall as a tragic lesson in cowardice and division. Fear can shatter the unity forged against foreign invaders."
   },
   {
    "target": "class:Rogue",
-   "text": "The mountain valleys of former Alterac are a cutthroat haven for covert operatives, split between the highborn thugs of the Syndicate and the secretive assassins of Ravenholdt Manor."
+   "text": "As a rogue, you find the mountain valleys of former Alterac claimed by covert operatives. The highborn thugs of the Syndicate share the region with the secretive assassins of Ravenholdt Manor."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Alterac (kingdom)"
- ]
+ ],
+ "style": 2
 }

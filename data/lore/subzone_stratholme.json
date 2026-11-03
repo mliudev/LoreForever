@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stratholme"
  },
- "summary": "Stratholme was once the jewel of the Eastweald and the second greatest city in the Kingdom of Lordaeron. During the Third War, it became the site of Prince Arthas Menethil's infamous culling after its citizens consumed grain tainted by the Plague of Undeath. Today, the ruined metropolis still burns, serving as the Scourge's primary stronghold in northern Lordaeron.",
+ "summary": "Scourge forces hold Stratholme, and its ruins still burn. Once the jewel of the Eastweald and Lordaeron’s second greatest city, it became the place where Prince Arthas Menethil ordered the culling of citizens who had eaten grain tainted by the Plague of Undeath.",
  "sections": [
   {
    "title": "Cradle of Paladins and Trade",
-   "body": "Long before its downfall, Stratholme stood as a cornerstone of northern civilization. Emerging centuries ago from the Arathi expansion into the Eastweald, it flourished into Lordaeron's second-largest settlement, renowned for holy shrines and sacred water capable of resisting dark sorcery. Prior to the Second War, Archbishop Alonsus Faol gathered at the city's chapel to establish the Order of the Knights of the Silver Hand, ordaining legends like Uther the Lightbringer. Throughout that war, Stratholme served as a vital port, supply hub, and northern oil refinery for the Alliance of Lordaeron, enduring an assault by the Old Horde before rebuilding in victory.",
+   "body": "Stratholme rose with the Arathi expansion into the Eastweald centuries ago. It became Lordaeron’s second-largest settlement, famed for holy shrines and sacred water that resisted dark sorcery. Before the Second War, Archbishop Alonsus Faol gathered at the city’s chapel and founded the Order of the Knights of the Silver Hand.\n\nAmong its first legends was Uther the Lightbringer. During the Second War, Stratholme served the Alliance of Lordaeron as a vital port, supply hub, and northern oil refinery. The Old Horde assaulted it, but victory brought the city’s rebuilding.",
    "spoiler": 0
   },
   {
    "title": "The Culling and Eternal Ruin",
-   "body": "Stratholme's fate was sealed when the Cult of the Damned funneled shipments of infected grain from Andorhal into the city's markets. Unaware, thousands ate the tainted flour. When Prince Arthas arrived alongside Uther and Jaina Proudmoore, he discovered the infection had spread too far to cure. Deeming slaughter the only way to deny Mal'Ganis an entire army, Arthas ordered the purge of every citizen\u2014an atrocity that drove Uther and Jaina away and began the prince's descent into madness. The city was put to the torch, and in the aftermath, the Scourge moved into the smoking ruins to make it their regional capital.",
+   "body": "The Cult of the Damned carried infected grain from Andorhal into Stratholme’s markets. Unaware of the taint, thousands ate the flour. Prince Arthas arrived with Uther and Jaina Proudmoore, but the infection had spread too far to cure.\n\nHe judged slaughter the only way to deny Mal'Ganis an entire army and ordered every citizen killed. The atrocity drove Uther and Jaina away and began the prince’s descent into madness. His forces set the city ablaze. Then the Scourge took its smoking ruins for their regional capital.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "fire in stratholme",
     "stratholme smoke"
    ],
-   "answer": "When Prince Arthas purged the city during the Third War, his forces set fire to homes and streets to eradicate the infected populace and halt the spread of undeath. The unnatural, plague-tainted blaze has lingered ever since, fed by dark necromantic energies and the rampant Scourge infestation."
+   "answer": "During the Third War, Prince Arthas’s forces set Stratholme’s homes and streets ablaze to kill the infected and halt the spread of undeath. The plague-tainted fire has burned ever since, fed by dark necromantic energies and the Scourge infestation."
   },
   {
    "q": "What was the Culling of Stratholme?",
@@ -37,7 +37,7 @@
     "arthas purge",
     "purge of stratholme"
    ],
-   "answer": "The Culling was the wholesale slaughter of Stratholme's populace by Prince Arthas Menethil. After the city consumed grain infected with the Plague of Undeath, Arthas chose to execute every inhabitant\u2014sick or healthy\u2014before they could rise as soldiers for the Scourge, a decision that fractured his alliances and broke his moral compass."
+   "answer": "The Culling of Stratholme was Prince Arthas Menethil’s slaughter of the city’s people. After they ate grain infected with the Plague of Undeath, he ordered every inhabitant killed, sick or healthy, before they could rise as Scourge soldiers. His choice broke his alliances and his moral compass."
   },
   {
    "q": "What historic role did Stratholme play for the Silver Hand?",
@@ -46,7 +46,7 @@
     "alonsus chapel",
     "order of the silver hand stratholme"
    ],
-   "answer": "Stratholme is the birthplace of the Knights of the Silver Hand. In the city's Alonsus Chapel, Archbishop Alonsus Faol founded the paladin order before the Second War and anointed its first five members, including Uther the Lightbringer, Turalyon, and Saidan Dathrohan."
+   "answer": "Archbishop Alonsus Faol founded the Knights of the Silver Hand in Stratholme’s Alonsus Chapel before the Second War. He anointed its first five members, including Uther the Lightbringer, Turalyon, and Saidan Dathrohan."
   },
   {
    "q": "What happened to Tirion Fordring here?",
@@ -55,17 +55,17 @@
     "tirion trial stratholme",
     "eitrigg trial"
    ],
-   "answer": "Years after the Second War, Lord Tirion Fordring was tried for treason in Stratholme's Hall of Justice for defending the honorable orc hermit Eitrigg. Judged by Uther and Alliance leaders, Tirion was stripped of his title and exiled. He later freed Eitrigg amidst an attack on the city led by Thrall."
+   "answer": "Years after the Second War, Lord Tirion Fordring stood trial for treason in Stratholme’s Hall of Justice after defending the honorable orc hermit Eitrigg. Uther and Alliance leaders judged him, stripped him of his title, and exiled him. Tirion later freed Eitrigg during an attack on the city led by Thrall."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For paladins, Stratholme is hallowed ground transformed into tragedy; it is the site where the Order of the Silver Hand was born, and where Arthas shattered that same brotherhood by demanding the slaughter of innocent citizens."
+   "text": "As a paladin, you can look to Stratholme as hallowed ground turned tragic. The Order of the Silver Hand began here, and Arthas shattered that brotherhood when he demanded the slaughter of innocent citizens."
   },
   {
    "target": "faction:Alliance",
-   "text": "The ruined city stands as a haunting monument to Lordaeron's fall, reminding Alliance travelers of the devastating price paid when the northern kingdoms collapsed to plague and treachery."
+   "text": "As an Alliance traveler, you see a ruined city that recalls Lordaeron’s fall and the heavy price the northern kingdoms paid to plague and treachery."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Stratholme"
- ]
+ ],
+ "style": 2
 }

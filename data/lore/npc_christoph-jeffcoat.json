@@ -8,11 +8,11 @@
   "wiki": "Christoph Jeffcoat",
   "refs": 1
  },
- "summary": "At Tarren Mill, Christoph Jeffcoat supplies the Forsaken with goods for trade and travel. His wares help crafters and travelers in Hillsbrad Foothills, where the Alliance and the Syndicate contest the land.",
+ "summary": "At Tarren Mill, Christoph Jeffcoat supplies the Forsaken with goods for trade and travel. His wares serve crafters and travelers in Hillsbrad Foothills, where the Alliance and the Syndicate contest the land.",
  "sections": [
   {
    "title": "A Merchant on the Front Lines",
-   "body": "Christoph Jeffcoat tends to the practical needs of Tarren Mill, the Forsaken stronghold in Hillsbrad Foothills. He sells reagents, tools, threads, and spices to soldiers and traveling artisans. His goods include the spices used in turtle bisque, rare schematics, and alchemical vials. Horde forces passing through southern Lordaeron rely on such supplies as they face Southshore and the dangers of the region.",
+   "body": "At Tarren Mill, Christoph Jeffcoat supplies the Forsaken stronghold with what its people need. He sells reagents, tools, threads, and spices to soldiers and traveling artisans. Among his goods are spices for turtle bisque, rare schematics, and alchemical vials. Horde forces crossing southern Lordaeron rely on such supplies as they face Southshore and the region's dangers.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is jeffcoat",
     "tarren mill trade vendor"
    ],
-   "answer": "Christoph Jeffcoat is in Tarren Mill, the main Forsaken and Horde stronghold in the northern Hillsbrad Foothills."
+   "answer": "You can find Christoph Jeffcoat in Tarren Mill, the main Forsaken and Horde stronghold in northern Hillsbrad Foothills."
   },
   {
    "q": "What kinds of goods does he sell?",
@@ -74,5 +74,5 @@
  "attribution": [
   "Christoph Jeffcoat"
  ],
- "style": 1
+ "style": 2
 }

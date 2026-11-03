@@ -8,16 +8,16 @@
   "wiki": "Deino",
   "refs": 3
  },
- "summary": "In Orgrimmar's Valley of Spirits, Deino trains Horde mages in the arcane arts. She teaches spellcasters to master arcane and elemental forces, and sends seasoned mages across Kalimdor to study ancient magic and seek remote tutors.",
+ "summary": "In Orgrimmar's Valley of Spirits, Deino guides Horde mages in their studies. She teaches them to master arcane and elemental forces, then sends seasoned spellcasters across Kalimdor to study ancient magic and seek distant tutors.",
  "sections": [
   {
    "title": "The Valley's Arcanist",
-   "body": "Deino trains Horde mages in Orgrimmar's Valley of Spirits. Totems, huts, and quiet waters surround the raised platforms where she teaches. Troll spellcasters balance spiritual reverence with arcane mastery, a path Deino shares with fellow instructors Enyo and Pephredo.",
+   "body": "Deino trains Horde mages on raised platforms in Orgrimmar's Valley of Spirits. Totems, huts, and quiet waters surround her place of teaching. Troll spellcasters honor spiritual traditions as they master the arcane. Deino follows this path alongside fellow instructors Enyo and Pephredo.",
    "spoiler": 0
   },
   {
    "title": "Unraveling Arcane Mysteries",
-   "body": "Deino sends promising mages beyond Durotar to study arcane mysteries. In Ashenvale's corrupted wilds, they gather tainted Waters of Xavian and enchanted hair from the Laughing Sisters. When a student's power outgrows Orgrimmar's instruction, Deino directs them to remote masters, including Tabetha, a hermit sorceress in Dustwallow's swamplands.",
+   "body": "Deino sends promising mages beyond Durotar to study arcane mysteries. In Ashenvale's corrupted wilds, they gather tainted Waters of Xavian and enchanted hair from the Laughing Sisters. When a student's skill outgrows Orgrimmar's teaching, Deino sends them to remote masters. One is Tabetha, a hermit sorceress in Dustwallow's swamplands.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is deino",
     "deino orgrimmar"
    ],
-   "answer": "Deino stands on raised platforms in the Valley of Spirits, in southwestern Orgrimmar. Fellow troll mage trainers Enyo and Pephredo stand with her."
+   "answer": "Deino stands on raised platforms in southwestern Orgrimmar's Valley of Spirits. Fellow troll mage trainers Enyo and Pephredo stand with her."
   },
   {
    "q": "What does Deino teach?",
@@ -45,7 +45,7 @@
     "waters of xavian quest",
     "why xavian"
    ],
-   "answer": "Xavian is an ancient city in eastern Ashenvale, now held by satyrs. Its waters are said to hold great magical power, and Deino wants a sample from the bottom of its highest waterfall for study."
+   "answer": "Xavian is an ancient city in eastern Ashenvale, now held by satyrs. Its waters are said to hold great magical power. Deino wants a sample from the bottom of its highest waterfall for study."
   },
   {
    "q": "Who are the trainers standing with Deino?",
@@ -76,15 +76,15 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you can learn spells and portal magic from Deino in Orgrimmar, then study in Ashenvale and Dustwallow Marsh."
+   "text": "As a mage, you can learn spells and portal magic from Deino in Orgrimmar. Then you can study in Ashenvale and Dustwallow Marsh."
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you can see how the Darkspear combine scholarly arcane magic with the traditions of the Valley of Spirits."
+   "text": "As a troll, you can see how the Darkspear join scholarly arcane magic with the traditions of the Valley of Spirits."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can find Deino in Orgrimmar's spiritual district, where she trains the faction's spellcasters alongside its shamans and warlocks."
+   "text": "As a member of the Horde, you can find Deino in Orgrimmar's spiritual district. There she trains the faction's spellcasters alongside its shamans and warlocks."
   }
  ],
  "keywords": [
@@ -111,5 +111,5 @@
  "attribution": [
   "Deino"
  ],
- "style": 1
+ "style": 2
 }

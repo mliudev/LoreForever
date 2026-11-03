@@ -27,11 +27,11 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "Deep in the jungle at Nesingwary's Expedition, Ajeck Rouack raises the stakes of his hunting trials. He demands the death of ten elder Stranglethorn tigers to prove your prowess before the final test.",
+ "summary": "At Nesingwary's Expedition, Ajeck Rouack sends you after ten elder Stranglethorn tigers. Their deaths will prove your skill before the final test.",
  "sections": [
   {
    "title": "A Test of Skill",
-   "body": "Following the earlier hunts, Ajeck Rouack asks you to pursue ten elder Stranglethorn tigers across the wilds. He considers these beasts both the most elusive to track and the fiercest to overcome. Felling ten of them serves as the prelude to a concluding trial, after which he promises to proclaim you a master tiger hunter before Master Nesingwary.",
+   "body": "Ajeck Rouack sends you into the wilds to hunt ten elder Stranglethorn tigers. He says they are the hardest cats to track and the fiercest to overcome. Their deaths prepare you for a final trial. After it, he promises to proclaim you a master tiger hunter before Master Nesingwary.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "ajeck rouack quest",
     "quest giver"
    ],
-   "answer": "Ajeck Rouack offers this trial from the camp of Nesingwary's Expedition in northern Stranglethorn Vale."
+   "answer": "Ajeck Rouack assigns the trial at Nesingwary's Expedition camp in northern Stranglethorn Vale."
   },
   {
    "q": "What quarry are you tracking?",
@@ -52,7 +52,7 @@
     "which tigers",
     "tiger mastery targets"
    ],
-   "answer": "You must hunt down ten elder Stranglethorn tigers."
+   "answer": "You are hunting ten elder Stranglethorn tigers."
   },
   {
    "q": "Why are elder Stranglethorn tigers singled out?",
@@ -60,7 +60,7 @@
     "why elder tigers",
     "elder tiger difficulty"
    ],
-   "answer": "Ajeck Rouack notes that elder Stranglethorn tigers are the hardest to find and the most ferocious to defeat among the local cats."
+   "answer": "Ajeck Rouack says elder Stranglethorn tigers are the hardest local cats to find and the most ferocious to defeat."
   },
   {
    "q": "What comes before this hunt?",
@@ -68,7 +68,7 @@
     "previous quest",
     "prerequisite"
    ],
-   "answer": "This trial directly follows the second stage of Ajeck Rouack's Tiger Mastery series."
+   "answer": "This hunt follows the second stage of Ajeck Rouack's Tiger Mastery series."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Tiger Mastery (3)"
- ]
+ ],
+ "style": 2
 }

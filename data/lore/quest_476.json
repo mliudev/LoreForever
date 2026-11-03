@@ -17,16 +17,16 @@
   "wiki": "Gnarlpine Corruption (Classic)",
   "chain": []
  },
- "summary": "Near Starbreeze Village, Gnarlpine Corruption threatens Teldrassil. Wounded Great Warden Gaerolas Talvethren sends word to the night elf leadership in Dolanaar: Gnarlpine furbolgs have overrun the village and fallen to demonic corruption. Their violence may reach the sleeping druids of Ban'ethil Barrow Den.",
+ "summary": "Near Starbreeze Village, Gnarlpine Corruption threatens Teldrassil. Wounded Great Warden Gaerolas Talvethren sends word to Dolanaar. Gnarlpine furbolgs have overrun the village and fallen to demonic corruption. Their violence may reach the sleeping druids of Ban'ethil Barrow Den.",
  "sections": [
   {
    "title": "A Desperate Warning",
-   "body": "Near the ruins of Starbreeze Village, Gaerolas Talvethren lies grievously wounded after an ambush by his former allies. The Gnarlpine furbolgs were long regarded as peaceful neighbors and stewards of the wild, but now they have turned feral. Too injured to carry the warning himself, Gaerolas entrusts you with bringing word to Athridas Bearmantle in Dolanaar before the madness spreads farther through Teldrassil.",
+   "body": "Near the ruins of Starbreeze Village, Gaerolas Talvethren lies grievously wounded. His former allies, the Gnarlpine furbolgs, ambushed him. Once peaceful neighbors and stewards of the wild, they have turned feral.\n\nToo badly hurt to carry warning himself, Gaerolas sends you to Athridas Bearmantle in Dolanaar. He fears the madness will spread farther through Teldrassil.",
    "spoiler": 0
   },
   {
    "title": "The Scourge of Fel Moss",
-   "body": "In Dolanaar, Athridas Bearmantle learns the Gnarlpine furbolgs are being subjected to fel magic. Their chieftain, Ursal the Mauler, has harnessed the corrupted Fel Moss festering within the World Tree, driving his people into a violent frenzy. The tribe threatens settlements such as Starbreeze, and Ban'ethil Barrow Den lies nearby, where sleeping druids remain defenseless.",
+   "body": "In Dolanaar, Athridas Bearmantle learns that fel magic has seized the Gnarlpine furbolgs. Their chieftain, Ursal the Mauler, has harnessed the corrupted Fel Moss festering within the World Tree. Its power drives his people into a violent frenzy.\n\nThe tribe threatens settlements such as Starbreeze. Nearby, sleeping druids lie defenseless in Ban'ethil Barrow Den.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "starbreeze village attacked",
     "who destroyed starbreeze"
    ],
-   "answer": "Gnarlpine furbolgs overran and pillaged Starbreeze Village after fel magic corrupted them. Their sudden ambush drove out or slaughtered the inhabitants, leaving Gaerolas Talvethren trapped and wounded near the village ruins."
+   "answer": "Fel magic drove the Gnarlpine furbolgs to overrun and pillage Starbreeze Village. Their sudden ambush drove out or slaughtered its inhabitants. Gaerolas Talvethren was left trapped and wounded near the ruins."
   },
   {
    "q": "Why have the Gnarlpine furbolgs turned violent?",
@@ -47,7 +47,7 @@
     "gnarlpine madness",
     "why attack furbolgs"
    ],
-   "answer": "The Gnarlpine furbolgs have turned violent under their chieftain, Ursal the Mauler, who wields the evil power of Fel Moss found on Teldrassil. Its dark magic has driven the tribe into an uncontrollable frenzy against their former night elf allies."
+   "answer": "Ursal the Mauler has turned the Gnarlpine furbolgs against their former night elf allies. Their chieftain wields the evil power of Fel Moss found on Teldrassil, and its dark magic drives the tribe into an uncontrollable frenzy."
   },
   {
    "q": "Who is Gaerolas Talvethren?",
@@ -55,7 +55,7 @@
     "gaerolas",
     "injured night elf starbreeze"
    ],
-   "answer": "Gaerolas Talvethren is the night elf Great Warden of the sleeping Druids of the Talon. Gnarlpine furbolgs ambushed him while he traveled toward Ban'ethil Barrow Den, and his wounds leave him relying on travelers to carry news of the catastrophe to Dolanaar."
+   "answer": "Gaerolas Talvethren is the night elf Great Warden of the sleeping Druids of the Talon. Gnarlpine furbolgs ambushed him as he traveled toward Ban'ethil Barrow Den. Wounded, he relies on travelers to carry news of the catastrophe to Dolanaar."
   },
   {
    "q": "Who is Athridas Bearmantle?",
@@ -72,7 +72,7 @@
     "why ban'ethil barrow den matters",
     "sleeping druids danger"
    ],
-   "answer": "Ban'ethil Barrow Den holds many druids deep in the Emerald Dream. If the frenzied Gnarlpine furbolgs reach the barrows, the sleeping night elves will be defenseless against them."
+   "answer": "Ban'ethil Barrow Den holds many druids deep in the Emerald Dream. If the frenzied Gnarlpine furbolgs reach the barrows, the sleeping night elves will be defenseless."
   },
   {
    "q": "What is Fel Moss?",
@@ -86,11 +86,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you face a tragic shock in Starbreeze Village's fall: even the newly grown World Tree is vulnerable to the demonic taint your people fought so hard to eradicate."
+   "text": "As a night elf, you face a tragic shock in Starbreeze Village's fall. Even the newly grown World Tree is vulnerable to the demonic taint your people fought so hard to eradicate."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you face an urgent threat to Ban'ethil Barrow Den and the Cenarion Circle, with sleeping brothers vulnerable to the corrupted Gnarlpine tribe."
+   "text": "As a druid, you face an urgent threat to Ban'ethil Barrow Den and the Cenarion Circle. Your sleeping brothers are vulnerable to the corrupted Gnarlpine tribe."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Gnarlpine Corruption (Classic)"
  ],
- "style": 1
+ "style": 2
 }

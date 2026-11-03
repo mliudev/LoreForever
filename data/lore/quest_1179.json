@@ -17,16 +17,16 @@
   "wiki": "The Brassbolts Brothers",
   "chain": []
  },
- "summary": "Pilot Longbeard in Ironforge needs a courier to deliver a crate of reinforced siege engine helmets across the sea to Kalimdor. His friends, the Brassbolts brothers, are testing high-speed rocket cars in the Shimmering Flats and urgently need head protection for their accident-prone test drivers.",
+ "summary": "Pilot Longbeard in Ironforge needs a traveler to carry helmets to the Brassbolts Brothers. Their test drivers keep crashing rocket cars at the Shimmering Flats, so the gnomes need head protection.",
  "sections": [
   {
    "title": "A Long-Distance Favor",
-   "body": "While stationed among his aerial machinery in Ironforge, the dwarven aviator Pilot Longbeard received an urgent request from the Shimmering Flats in southern Kalimdor. His friends, a pair of inventive gnomes known as the Brassbolts brothers, had taken up residence on the vast salt pans to race experimental machinery. Longbeard is tied down by military and piloting duties, leaving him unable to deliver the supplies himself.",
+   "body": "Pilot Longbeard, a dwarven aviator in Ironforge, has an urgent request from the Shimmering Flats in southern Kalimdor. His friends, the inventive gnome Brassbolts brothers, have settled on its vast salt pans to race experimental machines. Longbeard's military and piloting duties keep him busy, so he cannot carry their supplies himself.",
    "spoiler": 0
   },
   {
    "title": "Safety at High Velocity",
-   "body": "The Brassbolts' rocket car has turned out to be extraordinarily fast\u2014so fast that their test drivers keep wiping out across the salt beds and suffering severe concussions. Longbeard procures a crate of heavy-duty dwarven Siege Engine helmets to protect their craniums. Delivering the crate gives the gnomes the leverage they need to coax reluctant pilots back behind the wheel of their volatile speed machine.",
+   "body": "The Brassbolts' rocket car races across the salt beds at extraordinary speed. Yet its test drivers keep crashing and suffering severe concussions. Longbeard has gathered a crate of heavy-duty dwarven Siege Engine helmets to protect them. You carry the crate across the sea to Kalimdor, giving the gnomes the protection they need to bring reluctant pilots back behind the wheel.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "who gives this quest"
    ],
-   "answer": "Pilot Longbeard is a dwarven aviator located in Ironforge. An acquaintance of the Brassbolts brothers, he acts as their supply contact back in the Eastern Kingdoms, procuring heavy dwarven gear they cannot easily manufacture out in the field."
+   "answer": "Pilot Longbeard is a dwarven aviator in Ironforge. He is a friend and supply contact for the Brassbolts brothers in the Eastern Kingdoms, where he can obtain heavy dwarven gear they cannot easily make in the field."
   },
   {
    "q": "Who are the Brassbolts brothers?",
@@ -47,7 +47,7 @@
     "wizzle brassbolts",
     "gnome brothers"
    ],
-   "answer": "The Brassbolts brothers, including Wizzle Brassbolts, are ambitious gnomish engineers who established a presence at the Mirage Raceway in the Shimmering Flats. They spend their days designing and tuning cutting-edge rocket cars to outrace goblin competitors."
+   "answer": "The Brassbolts brothers are ambitious gnomish engineers, including Wizzle Brassbolts. At the Mirage Raceway in the Shimmering Flats, they design and tune rocket cars to outrun goblin competitors."
   },
   {
    "q": "Where is the Shimmering Flats?",
@@ -56,7 +56,7 @@
     "where to deliver",
     "where is race track"
    ],
-   "answer": "The Shimmering Flats is an expansive, sun-baked salt plain located in southern Kalimdor, past the tall canyon pillars of Thousand Needles. Its sheer, obstacle-free expanse makes it an ideal proving ground for experimental high-speed vehicles."
+   "answer": "The Shimmering Flats is a vast, sun-baked salt plain in southern Kalimdor, beyond the tall canyon pillars of Thousand Needles. Its broad, obstacle-free stretch suits the testing of fast experimental vehicles."
   },
   {
    "q": "Why do the gnomes need Siege Engine helmets?",
@@ -65,7 +65,7 @@
     "crash helmets",
     "rocket car crashes"
    ],
-   "answer": "The Brassbolts' rocket car achieves immense speeds, but its steering and stability leave much to be desired. Driver crashes and concussions became so frequent that no test pilots were willing to get behind the wheel without substantial dwarven head protection."
+   "answer": "The Brassbolts need Siege Engine helmets because their rocket car is extremely fast, while its steering and stability are poor. Crashes and concussions became so common that no test pilots would drive without substantial dwarven head protection."
   },
   {
    "q": "Why doesn't Longbeard deliver them himself?",
@@ -73,7 +73,7 @@
     "why not longbeard",
     "longbeard duties"
    ],
-   "answer": "Pilot Longbeard is tied down by his military obligations and duties in Ironforge. Because making the long voyage across the Great Sea to southern Kalimdor would abandon his post, he relies on traveling adventurers to haul the heavy crate."
+   "answer": "Pilot Longbeard is occupied with military duties in Ironforge. The long voyage across the Great Sea to southern Kalimdor would mean abandoning his post, so he relies on travelers to carry the heavy crate."
   },
   {
    "q": "Can Horde players complete this task?",
@@ -82,21 +82,21 @@
     "horde version",
     "faction"
    ],
-   "answer": "No. This quest originates with Pilot Longbeard in the Alliance capital of Ironforge and is exclusive to Alliance couriers, although the Mirage Raceway itself welcomes both factions."
+   "answer": "No. Pilot Longbeard offers this work in Ironforge, the Alliance capital, so only Alliance couriers can take it. The Mirage Raceway itself welcomes both factions."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "The Brassbolts' pursuit of pure velocity showcases classic gnomish ambition, where mechanical innovation takes absolute precedence over minor details like braking and driver longevity."
+   "text": "As a gnome, you can see the Brassbolts prize mechanical innovation above details like braking and their drivers' longevity."
   },
   {
    "target": "race:Dwarf",
-   "text": "Only sturdy dwarven Siege Engine armor is thick enough to survive a full-throttle gnomish rocket collision out on the salt flats."
+   "text": "As a dwarf, you know sturdy dwarven Siege Engine armor is thick enough to withstand a full-throttle collision on the salt flats."
   },
   {
    "target": "profession:Engineering",
-   "text": "A quintessential engineering supply run, bridging dwarven heavy-armor craftsmanship with gnomish high-velocity propulsion experiments."
+   "text": "As an engineer, you can appreciate how this supply run joins dwarven heavy-armor craftsmanship with gnomish high-velocity experiments."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "The Brassbolts Brothers"
- ]
+ ],
+ "style": 2
 }

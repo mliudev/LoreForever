@@ -27,16 +27,16 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "At the northern safari camp in Stranglethorn Vale, the hunter Ajeck Rouack offers to train adventurers in the discipline of big cat stalking. She starts newcomers against the younger tigers prowling near the camp to test basic hunting and tracking prowess.",
+ "summary": "At Nesingwary's Expedition, Ajeck Rouack trains hunters to track big cats. She begins with young tigers near the northern camp, testing a newcomer's hunting and tracking skills.",
  "sections": [
   {
    "title": "First Lessons in the Jungle",
-   "body": "Having learned the art of hunting tigers from her father when she was a girl, Ajeck Rouack shares his craft with travelers who reach Nesingwary's Expedition following Welcome to the Jungle. She insists that tracking and slaying the youngest felines is the essential foundation before any hunter can advance to greater quarry.",
+   "body": "Ajeck Rouack learned to hunt tigers from her father when she was a girl. Now she shares his craft with travelers who reach Nesingwary's Expedition after Welcome to the Jungle. Young tigers are the first quarry. Tracking and hunting them prepare you to pursue greater prey.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Prowlers",
-   "body": "Young Stranglethorn tigers are often found in the jungle close to the expedition camp. Rouack demands that ten of these beasts be hunted down to prove sufficient skill before she agrees to provide any further training.",
+   "body": "Young Stranglethorn tigers prowl the jungle near the expedition camp. Ajeck Rouack asks you to hunt ten. She wants proof of your skill before she offers further training.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "ajeck rouack quest",
     "tiger quest giver"
    ],
-   "answer": "Ajeck Rouack, a seasoned hunter stationed at Nesingwary's Expedition in northern Stranglethorn Vale, offers the training."
+   "answer": "Ajeck Rouack offers to train you in tiger hunting at Nesingwary's Expedition in northern Stranglethorn Vale."
   },
   {
    "q": "Why does Ajeck Rouack target young tigers first?",
@@ -56,7 +56,7 @@
     "why young tigers",
     "why start easy tiger mastery"
    ],
-   "answer": "Rouack considers the younger felines far easier to track and slay, making them an ideal initial trial to test a hunter's tracking skills before attempting more dangerous quarry."
+   "answer": "Ajeck Rouack begins with young tigers because she considers them easier to track and hunt. They test your tracking skills before you pursue more dangerous quarry."
   },
   {
    "q": "Where are the young tigers found?",
@@ -64,7 +64,7 @@
     "where are young stranglethorn tigers",
     "young tiger location"
    ],
-   "answer": "Young Stranglethorn tigers can commonly be found stalking the jungle grounds right near the expedition's camp."
+   "answer": "Young Stranglethorn tigers prowl the jungle near Nesingwary's Expedition camp."
   },
   {
    "q": "What comes before this hunt?",
@@ -72,7 +72,7 @@
     "tiger mastery prerequisite",
     "tiger mastery previous quest"
    ],
-   "answer": "This hunting trial follows the arrival quest Welcome to the Jungle, which introduces travelers to the safari camp."
+   "answer": "You arrive at the safari camp after Welcome to the Jungle, which introduces you to the camp."
   }
  ],
  "angles": [],
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Tiger Mastery (Classic)"
- ]
+ ],
+ "style": 2
 }

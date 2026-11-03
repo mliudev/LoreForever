@@ -28,16 +28,16 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "In Tarren Mill, Krusk has at last heard word and rumor of Gol'dir. The Syndicate keeps moving the orc prisoner, and Krusk sends you to its large camp just north of town to bring back whatever information you can find.",
+ "summary": "In Tarren Mill, Krusk seeks word of Gol'dir, the orc prisoner the Syndicate keeps moving. He sends you to its large camp just north of town for any information you can bring back.",
  "sections": [
   {
    "title": "Word of Gol'dir",
-   "body": "Krusk has at last heard word and rumor of Gol'dir, an orc prisoner held by the Syndicate. Its humans keep moving him, but the search has narrowed to their large camp just north of Tarren Mill. Krusk sends you there to find whatever information you can and carry it back. With each day, he fears Gol'dir's prospects grow darker.",
+   "body": "Krusk has heard word and rumor of Gol'dir, an orc prisoner held by the Syndicate. Its human captors keep moving him, but the search has narrowed to their large camp just north of Tarren Mill. Krusk sends you there to find what you can and carry it back. Each day, he fears Gol'dir's prospects grow darker.",
    "spoiler": 0
   },
   {
    "title": "News for Krusk",
-   "body": "The information you bring back tells Krusk where Gol'dir is held. The camp lies not far from Tarren Mill, and Krusk hopes its defenders are less prepared than the captors who took him and the others the first time.",
+   "body": "The information you bring back tells Krusk where Gol'dir is held. The camp lies not far from Tarren Mill. Krusk hopes its defenders are less prepared than the captors who took Gol'dir and the others the first time.",
    "spoiler": 1
   }
  ],
@@ -67,7 +67,7 @@
     "what item is krusk looking for",
     "what is the missive"
    ],
-   "answer": "Anything that shows where Gol'dir is can help locate him. A Syndicate missive is what you bring back to Krusk."
+   "answer": "Anything that shows where Gol'dir is can help locate him. You bring back a Syndicate missive to Krusk."
   },
   {
    "q": "Who is holding Gol'dir?",
@@ -100,5 +100,5 @@
  "attribution": [
   "Infiltration (Classic)"
  ],
- "style": 1
+ "style": 2
 }

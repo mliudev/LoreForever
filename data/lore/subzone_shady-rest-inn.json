@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Shady Rest Inn"
  },
- "summary": "The Shady Rest Inn was once a welcoming human-built waystation sitting just off the road between the Barrens and Theramore Isle. Today, only charred timbers and smoldering ashes remain following a sudden and violent arson attack. The tragedy left the innkeeper shattered and sparked tension across the marsh as investigators sift through the wreckage for clues.",
+ "summary": "At the Shady Rest Inn, smoke and blackened beams mark the place where travelers once stopped between the Barrens and Theramore Isle. Fire left the inn in ruins and its keeper shattered. Theramore's investigators search the wreckage for clues.",
  "sections": [
   {
    "title": "Ashes on the Border",
-   "body": "Built to serve travelers navigating the treacherous crossing between Dustwallow Marsh and the Barrens, the Shady Rest Inn stood as an outpost of civilized comfort in a harsh wilderness. That ended when the inn was abruptly razed to the ground in a devastating fire. Innkeeper James Hyal managed to survive the inferno, but the blaze claimed the lives of his wife and child. Traumatized and grief-stricken, Hyal was left with nothing as the ruins became an active crime scene, drawing scrutiny from Theramore authorities desperate to identify who ignited the flames.",
+   "body": "Travelers once found shelter at the Shady Rest Inn between Dustwallow Marsh and the Barrens. Then a sudden fire burned it to the ground. Innkeeper James Hyal survived, but his wife and child died in the blaze. Grief and trauma have left him with nothing. Now Theramore's authorities search the ruins for whoever lit the fire.",
    "spoiler": 0
   },
   {
    "title": "A Web of Suspicion",
-   "body": "Initial inquiries into the arson pointed toward human deserters and suspicious soldiers, with figures such as Paval Reethe and Lieutenant Caldwell falling under heavy suspicion before meeting untimely ends. However, physical evidence recovered from the ashes\u2014including distinctive hoofprints and ritual badges\u2014revealed that the attack was not merely an act of internal treachery. The arson was carried out by the ruthless Grimtotem tauren, who strike from the deep marsh to sow discord between Theramore and its neighbors.",
+   "body": "Early inquiries blamed human deserters and suspicious soldiers. Paval Reethe and Lieutenant Caldwell drew heavy suspicion, then met untimely ends. Hoofprints and ritual badges in the ashes revealed the attackers: ruthless Grimtotem tauren. They struck from the deep marsh to sow discord between Theramore and its neighbors.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what happened to the inn",
     "who burned shady rest"
    ],
-   "answer": "The inn was attacked and burned to the ground. Deserters and rogue Alliance soldiers were initially suspected, and investigators are still sifting the ashes for clues to who was truly behind the arson."
+   "answer": "An attack burned the Shady Rest Inn to the ground. Investigators first suspected deserters and rogue Alliance soldiers, and still search the ashes for clues to the arsonists."
   },
   {
    "q": "Who owned and operated the inn?",
@@ -37,7 +37,7 @@
     "who ran shady rest",
     "james hyal"
    ],
-   "answer": "James Hyal ran the Shady Rest Inn. He survived the blaze, but his wife and child perished in the flames, leaving him deeply traumatized."
+   "answer": "James Hyal ran the Shady Rest Inn. He survived the blaze, but his wife and child died in the flames, leaving him deeply traumatized."
   },
   {
    "q": "Where is the Shady Rest Inn located?",
@@ -45,7 +45,7 @@
     "shady rest location",
     "where is shady rest inn"
    ],
-   "answer": "The ruins lie along the main road in western Dustwallow Marsh, right near the border where the marsh gives way to the Barrens."
+   "answer": "The Shady Rest Inn's ruins lie beside the main road in western Dustwallow Marsh, near the border with the Barrens."
   },
   {
    "q": "Who are Paval Reethe and Lieutenant Caldwell?",
@@ -54,17 +54,17 @@
     "lieutenant caldwell shady rest",
     "reethe and caldwell"
    ],
-   "answer": "They were human suspects implicated during the early investigation into the fire. Both died before investigators could extract confessions or definitively uncover the full extent of their involvement."
+   "answer": "Paval Reethe and Lieutenant Caldwell were human suspects in the early fire investigation. Both died before investigators could get confessions or learn the full extent of their involvement."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The destruction of the inn represents a severe security breach on the main overland route to Theramore Isle, threatening travelers and inflaming fears of hidden enemies."
+   "text": "The inn's destruction left a breach in security along the main overland route to Theramore Isle. Travelers face danger, and fears of hidden enemies are rising."
   },
   {
    "target": "race:Tauren",
-   "text": "Suspicion over who burned the inn threatens to shatter the fragile peace between the Horde and Jaina Proudmoore's forces in Dustwallow Marsh."
+   "text": "Suspicion over the inn fire threatens the fragile peace between the Horde and Jaina Proudmoore's forces in Dustwallow Marsh."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Shady Rest Inn"
- ]
+ ],
+ "style": 2
 }

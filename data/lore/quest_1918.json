@@ -22,16 +22,16 @@
    "Je'neu of the Earthen Ring (quest)"
   ]
  },
- "summary": "Around Mystral Lake, you find glowing globes of tainted water among the slain elementals. You carry a specimen to Mastok Wrilehiss at Splintertree Post to learn what has poisoned the lake and its spirits.",
+ "summary": "At Mystral Lake, its water spirits leave glowing globes of tainted water among the slain. You carry one to Mastok Wrilehiss at Splintertree Post to learn what has poisoned the lake and its spirits.",
  "sections": [
   {
    "title": "Tainted Waters of Mystral Lake",
-   "body": "Mystral Lake lies in south-central Ashenvale, and its water elementals have grown violently aggressive and visibly corrupted. When slain, they leave strange, intensely glowing spheres of putrid fluid instead of pure elemental essence. The globes hold the corruption that has settled over the lake, showing that something more than natural territorial aggression is at work.",
+   "body": "In south-central Ashenvale, Mystral Lake's water elementals have grown violent and visibly corrupted. When slain, they leave strange, glowing spheres of putrid fluid instead of pure elemental essence. The globes hold the corruption that has settled over the lake. Something beyond natural territorial aggression is at work.",
    "spoiler": 0
   },
   {
    "title": "Seeking Splintertree's Counsel",
-   "body": "Horde scouts seek guidance at Splintertree Post, where Mastok Wrilehiss oversees the outpost. He is disgusted by the vile specimen. A soldier rather than a scholar, Mastok knows mundane steel cannot cure diseased water, so he points you toward the elemental specialists of the Earthen Ring.",
+   "body": "At Splintertree Post, Horde scouts seek guidance from Mastok Wrilehiss, who oversees the outpost. Disgusted by the vile specimen, Mastok admits he is a soldier, not a scholar. Mundane steel cannot cure diseased water, so he points you toward the elemental specialists of the Earthen Ring.",
    "spoiler": 1
   }
  ],
@@ -116,5 +116,5 @@
  "attribution": [
   "The Befouled Element"
  ],
- "style": 1
+ "style": 2
 }

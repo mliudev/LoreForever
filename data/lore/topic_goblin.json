@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Goblin"
  },
- "summary": "Goblins are diminutive, cunning humanoids originating from the Isle of Kezan, renowned across Azeroth for their relentless pursuit of profit, explosive engineering, and aggressive trade cartels. While most maintain a stance of strict neutrality to maximize commerce between the Alliance and Horde, mercenary and cutthroat outfits like the Venture Company and Steamwheedle Cartel leave an indelible mark on every corner of the world.",
+ "summary": "Across Azeroth, goblins bargain, build, and trade for profit. Their cartels began on the Isle of Kezan, and their craft and hunger for gain now reach far beyond it. Most keep neutral so they can trade with both Alliance and Horde, while the Venture Company and Steamwheedle Cartel leave their mark across the world.",
  "sections": [
   {
    "title": "Cartels of Kezan",
-   "body": "Goblins hail from the Isle of Kezan in the South Seas, where their society long ago divided into competing economic syndicates known as cartels. Rather than building kingdoms or armies of their own, goblin leaders channeled their ambitions into cutthroat mercantilism, volatile engineering, and industrial ventures that now reach every corner of the world.",
+   "body": "Goblins come from the Isle of Kezan in the South Seas. Long ago, rival economic cartels divided their society. Their leaders sought profit through hard bargaining, volatile engineering, and industry. They built neither kingdoms nor armies, and their ventures now reach across the world.",
    "spoiler": 0
   },
   {
    "title": "Mercenaries and Mercantilism",
-   "body": "During the Second War, Trade Prince Steamwheedle allied his cartel with Orgrim Doomhammer's Horde, supplying maps, siege craft, and fleet-building expertise in exchange for Stormwind's captured plunder. Following the Horde's eventual defeat, the cartels learned that open allegiance cost them lucrative markets. In the modern era, the major cartels claim official neutrality, maintaining bustling trade havens like Booty Bay in Stranglethorn Vale and Gadgetzan in the Tanaris desert. Here, Alliance and Horde travelers cross paths without blades drawn\u2014so long as port bruisers keep the peace.",
+   "body": "During the Second War, Trade Prince Steamwheedle joined his cartel to Orgrim Doomhammer's Horde. Goblins supplied maps, siege craft, and knowledge of fleet-building in return for plunder taken from Stormwind. After the Horde fell, the cartels learned that open allegiance cost them profitable markets.\n\nToday, the major cartels claim neutrality and keep trade havens such as Booty Bay in Stranglethorn Vale and Gadgetzan in the Tanaris desert. Alliance and Horde travelers meet there without drawn blades, while port bruisers keep the peace.",
    "spoiler": 0
   },
   {
    "title": "Hired Hands and Industry",
-   "body": "A goblin's primary loyalty belongs to gold, and many operate outside the neutral cartels as hired specialists or ruthless corporate barons. The Venture Company pursues unchecked deforestation and resource stripping across continents, heedless of local populations. Elsewhere, skilled artificers sell their talents directly to criminal enterprises: deep inside the Deadmines, goblin engineers like Sneed, Gilnid, and Captain Greenskin oversee smelters and shipwrights constructing a massive ironclad juggernaut for the Defias Brotherhood.",
+   "body": "For many goblins, gold comes before every other loyalty. Some serve beyond the neutral cartels as hired specialists or ruthless industrial barons. The Venture Company cuts forests and strips resources across continents, heedless of local people.\n\nIn the Deadmines, goblin engineers Sneed, Gilnid, and Captain Greenskin serve criminal enterprises. They oversee smelters and shipwrights building a massive ironclad juggernaut for the Defias Brotherhood.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "goblin faction",
     "who do goblins fight for"
    ],
-   "answer": "Neither. The primary trade syndicates, including the Steamwheedle Cartel, adhere to strict neutrality to trade freely with both sides. Individual goblins and private enterprises happily contract out their services to the Horde, Alliance, or third parties like the Defias Brotherhood for the right price."
+   "answer": "Neither. The major trade cartels, including the Steamwheedle Cartel, claim neutrality so they can trade with both sides. Individual goblins and private firms sell their services to the Horde, Alliance, or groups such as the Defias Brotherhood for the right price."
   },
   {
    "q": "Why are goblin inventions so prone to exploding?",
@@ -42,7 +42,7 @@
     "why do goblin machines blow up",
     "goblin vs gnome tech"
    ],
-   "answer": "Goblin engineering prizes raw power, haste, cheap production, and high explosive yields over structural safety, so their devices deliver spectacular results and spectacular explosions in roughly equal measure."
+   "answer": "Goblin engineers favor raw power, speed, cheap production, and strong explosive force over structural safety. Their devices can bring spectacular results and blasts in equal measure."
   },
   {
    "q": "What is the Steamwheedle Cartel?",
@@ -51,7 +51,7 @@
     "who rules booty bay",
     "goblin ports"
    ],
-   "answer": "The Steamwheedle Cartel is the most influential mercantile cartel operating on the mainland. They manage vital neutral trading ports and cross-continental transit hubs, including Booty Bay in southern Stranglethorn and Gadgetzan in the Tanaris desert."
+   "answer": "The Steamwheedle Cartel is the mainland's most influential trading cartel. It runs important neutral ports and routes between continents, including Booty Bay in southern Stranglethorn and Gadgetzan in the Tanaris desert."
   },
   {
    "q": "What is the Venture Company?",
@@ -60,7 +60,7 @@
     "who are venture company",
     "what is venture co"
    ],
-   "answer": "The Venture Company is a ruthless goblin-run industrial conglomerate notorious for aggressive deforestation, strip-mining, and oil extraction. Unlike the Steamwheedle Cartel, they operate with little regard for local law or environmental balance, often clashing violently with native populations."
+   "answer": "The Venture Company is a ruthless goblin-run industrial power known for cutting forests, strip-mining, and extracting oil. It pays little heed to local law or the land's balance, and often clashes violently with native peoples."
   },
   {
    "q": "Why are there goblins working with the Defias in the Deadmines?",
@@ -69,7 +69,7 @@
     "why are goblins in deadmines",
     "gilnid sneed deadmines"
    ],
-   "answer": "The Defias Brotherhood possessed abundant plundered coin and raw ore from the Moonbrook mines, allowing them to hire top goblin specialists. Craftsmen like Sneed, Gilnid, and Captain Greenskin were contracted to oversee heavy smelting and build Edwin VanCleef's ironclad juggernaut."
+   "answer": "The Defias Brotherhood had plenty of plundered coin and raw ore from the Moonbrook mines, so it could hire skilled goblin specialists. Sneed, Gilnid, and Captain Greenskin took contracts to oversee heavy smelting and build Edwin VanCleef's ironclad juggernaut."
   },
   {
    "q": "Where is the goblin homeland?",
@@ -78,25 +78,25 @@
     "goblin home island",
     "kezan"
    ],
-   "answer": "Goblins hail from the tropical Isle of Kezan in the South Seas. It was there that their great trading cartels first rose, building an empire of commerce and industrial smog."
+   "answer": "Goblins come from the Isle of Kezan in the South Seas. Their great trading cartels first rose there, building an empire of commerce and industrial smog."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Goblin engineering prioritizes extreme explosive force, offensive gadgetry, and high-risk mechanical contraptions, standing in sharp contrast to the precise, defensive designs favored by gnomes."
+   "text": "As an engineer, you can favor explosive force, offensive gadgets, and risky mechanical devices. Gnomes favor precise, defensive designs."
   },
   {
    "target": "profession:Mining",
-   "text": "Mining fuels the goblin cartels' industry and trade, and they remain fiercely protective of valuable mineral claims across Kalimdor and the Eastern Kingdoms."
+   "text": "As a miner, you help fuel goblin industry and trade. Goblin cartels fiercely guard valuable mineral claims across Kalimdor and the Eastern Kingdoms."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance authorities remain deeply suspicious of goblin neutrality, remembering well their mercenary service providing warships and sappers to the Old Horde during the Second War."
+   "text": "As an Alliance member, you may distrust goblin neutrality. The cartels once served the Old Horde as mercenaries, supplying warships and sappers during the Second War."
   },
   {
    "target": "faction:Horde",
-   "text": "While Thrall's Horde utilizes goblin mechanics and trades with neutral hubs, memory remains fresh of the mercenary contracts forged between Orgrim Doomhammer and Trade Prince Steamwheedle."
+   "text": "As a member of Thrall's Horde, you can use goblin mechanics and trade through neutral hubs. The mercenary contracts between Orgrim Doomhammer and Trade Prince Steamwheedle remain fresh in memory."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Goblin"
- ]
+ ],
+ "style": 2
 }

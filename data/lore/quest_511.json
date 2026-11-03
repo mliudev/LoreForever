@@ -26,16 +26,16 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "Among the Syndicate documents, one of the letters on a table is encrypted and inscrutable. Loremaster Dibbs in Southshore is the one to show it to.",
+ "summary": "Among the Syndicate papers, one letter cannot be read. You take it to Loremaster Dibbs in Southshore.",
  "sections": [
   {
    "title": "A Letter No One Can Read",
-   "body": "Among the Syndicate documents lies a table of letters, and one of them is encrypted and inscrutable. Loremaster Dibbs in Southshore is the one to show it to.",
+   "body": "Among the Syndicate documents, one letter is written in a cipher no one can read. You bring it to Loremaster Dibbs in Southshore.",
    "spoiler": 0
   },
   {
    "title": "What Dibbs Makes of It",
-   "body": "Dibbs takes a closer look and admits never having seen this form of encryption before. Dibbs confesses that such learning is by no means complete.",
+   "body": "Loremaster Dibbs has never seen this kind of cipher before. He still has much to learn before he can understand it.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "where find letter",
     "encrypted letter start"
    ],
-   "answer": "It is one of the letters on a table among the Syndicate documents, and this one is encrypted."
+   "answer": "The letter is one of several on a table among the Syndicate documents, and its meaning is unreadable."
   },
   {
    "q": "Who is the letter taken to?",
@@ -56,7 +56,7 @@
     "who can decipher it",
     "dibbs letter"
    ],
-   "answer": "Loremaster Dibbs in Southshore."
+   "answer": "You take the letter to Loremaster Dibbs in Southshore."
   }
  ],
  "angles": [],
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Encrypted Letter (Hillsbrad Foothills)"
- ]
+ ],
+ "style": 2
 }

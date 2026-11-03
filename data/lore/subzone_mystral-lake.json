@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mystral Lake"
  },
- "summary": "Travelers from both factions reach Mystral Lake in south-central Ashenvale. Its deep waters draw them beneath the watch of the night elves.",
+ "summary": "Travelers from the Horde and Alliance come to Mystral Lake in south-central Ashenvale. Its deep waters draw them beneath the night elves’ watch.",
  "sections": [
   {
    "title": "The Forest's Great Lake",
-   "body": "Mystral Lake draws travelers to its shores in southern Ashenvale. The vast lake lies south of Silverwind Refuge and east of Talondeep Vale, the largest lake in the forest. Night elves keep watch from their outpost on its northern shore. Travelers from both the Horde and the Alliance often find their journeys bringing them to its banks.",
+   "body": "Mystral Lake draws travelers to its shores in southern Ashenvale. It lies south of Silverwind Refuge and east of Talondeep Vale, and no lake in the forest is larger. Night elves keep watch from their outpost on the northern shore. Travelers of both the Horde and the Alliance often find their journeys bringing them here.",
    "spoiler": 0
   },
   {
    "title": "Spiritual Crossroads",
-   "body": "Horde shaman come to Mystral Lake during trials of elemental communion. In its deep waters, they seek to understand the element of water. The lake’s raw primal resonance makes it an essential pilgrimage site for those learning to bind and respect the tidal spirits.",
+   "body": "Horde shaman come to Mystral Lake during trials of elemental communion. In its deep waters, they seek to understand the element of water. The lake’s primal resonance makes it an essential pilgrimage for those learning to bind and respect the tidal spirits.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you come to Mystral Lake during the Call of Water, where you confront local spirits to master your elemental craft."
+   "text": "As a shaman, you come to Mystral Lake during the Call of Water. There, you confront local spirits to master your elemental craft."
   },
   {
    "target": "race:NightElf",
@@ -76,5 +76,5 @@
  "attribution": [
   "Mystral Lake"
  ],
- "style": 1
+ "style": 2
 }

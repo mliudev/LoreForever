@@ -22,21 +22,21 @@
    "Plea To The Alliance"
   ]
  },
- "summary": "After a blast shatters the northern crossing, Rhag Garmason asks travelers to search for a missing dwarf scout. The Dark Iron clan has attacked Dun Modr, cutting off communication and stranding its defenders without reinforcements. Ol' Rustlocke may hold a clue to the sabotage.",
+ "summary": "At the Thandol Span, Rhag Garmason seeks a missing dwarf scout after a blast destroys the northern crossing. The Dark Iron clan has attacked Dun Modr, cutting off word and leaving its defenders without reinforcements. Ol' Rustlocke may know what caused the blast.",
  "sections": [
   {
    "title": "Thunder Over the Span",
-   "body": "A blast has torn through the bridge between Wetlands and the Arathi Highlands. Bronzebeard soldiers at the border were caught in the devastation when Dark Iron dwarves attacked Dun Modr. Their ranks are thinned, and their strongholds are under siege. The survivors, led by Longbraid the Grim, hold their ground against the attackers.",
+   "body": "A blast has torn through the bridge between Wetlands and the Arathi Highlands. Bronzebeard soldiers at the border were caught in the destruction when Dark Iron dwarves attacked Dun Modr. Their ranks are thin, and their strongholds are under siege. Longbraid the Grim leads the survivors as they hold their ground against the attackers.",
    "spoiler": 0
   },
   {
    "title": "A Scout Sent East",
-   "body": "Longbraid sent veteran scout Ebenezer Rustlocke to inspect the eastern span and see whether a crossing or a northern route remained usable. Days have passed without a report. Dun Modr is under siege, and Rhag Garmason and the garrison have too few soldiers to search the enemy-held rubble for him.",
+   "body": "Longbraid sent veteran scout Ebenezer Rustlocke to inspect the eastern span. He was to learn whether a crossing or northern route remained usable. Days have passed without word from him. Dun Modr is under siege, and Rhag Garmason and the garrison have too few soldiers to search the enemy-held rubble.",
    "spoiler": 0
   },
   {
    "title": "Grim Discovery",
-   "body": "Ol' Rustlocke lies dead among the eastern bridge's debris. His body and the parchment in his fist show that he fell into a Dark Iron ambush while scouting. The Dark Irons still threaten the route between Khaz Modan and Lordaeron.",
+   "body": "Ebenezer Rustlocke lies dead among the eastern bridge's debris. His body and the parchment in his fist show that a Dark Iron ambush killed him while he scouted. The Dark Irons still threaten the route between Khaz Modan and Lordaeron.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "what is thandol bridge",
     "wetlands bridge"
    ],
-   "answer": "The Thandol Span crosses the chasm between northern Wetlands and the Arathi Highlands. This dwarven bridge is the main land route from Khaz Modan to the northern lands of Lordaeron."
+   "answer": "The Thandol Span crosses the chasm between northern Wetlands and the Arathi Highlands. This dwarven bridge is the main land route from Khaz Modan to Lordaeron's northern lands."
   },
   {
    "q": "Who attacked the Thandol Span?",
@@ -66,7 +66,7 @@
     "who is rustlocke",
     "missing scout"
    ],
-   "answer": "Ebenezer Rustlocke was a trusted dwarven scout serving Longbraid the Grim. He was sent to inspect the eastern bridge after the explosion and was killed by Dark Iron forces during his mission."
+   "answer": "Ebenezer Rustlocke was a trusted dwarven scout serving Longbraid the Grim. Longbraid sent him to inspect the eastern bridge after the explosion, and Dark Iron forces killed him during his mission."
   },
   {
    "q": "Where is Rhag Garmason located?",
@@ -99,7 +99,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you may see the destruction of the Thandol Span as an insult to dwarven stonework and a blow against Khaz Modan by your hated Dark Iron kin."
+   "text": "As a dwarf, you may see the Thandol Span's destruction as an insult to dwarven stonework and a blow against Khaz Modan by your hated Dark Iron kin."
   },
   {
    "target": "faction:Alliance",
@@ -126,5 +126,5 @@
  "attribution": [
   "The Thandol Span"
  ],
- "style": 1
+ "style": 2
 }

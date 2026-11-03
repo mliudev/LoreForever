@@ -17,16 +17,16 @@
   "wiki": "Flawed Power Stone (quest)",
   "chain": []
  },
- "summary": "Across the Barrens, Flawed Power Stone rests on arcane tables, charged with arcane energy. Its makers left it fatally flawed, so it consumes its own power soon after it is moved.",
+ "summary": "Across the Barrens, flawed stones sit charged with arcane energy on ritual tables. Their makers left them unstable, and they consume their power soon after they are moved.",
  "sections": [
   {
    "title": "Volatile Craftsmanship",
-   "body": "In the Barrens, flawed power stones hold arcane essence within compromised structures. Their makers deliberately left them unstable, so they decay into inert matter moments after someone handles them.",
+   "body": "Across the Barrens, flawed power stones hold arcane essence in compromised structures. Their makers left them unstable, so they decay into inert matter moments after someone handles them.",
    "spoiler": 0
   },
   {
    "title": "Self-Consuming Energy",
-   "body": "A stone begins consuming its power as soon as it leaves the ritual table where it rests. Its energy burns away too quickly for anyone to carry it far.",
+   "body": "A stone starts consuming its power as soon as it leaves the ritual table where it rests. Its energy burns away too quickly for anyone to carry it far.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this stone",
     "power stone lore"
    ],
-   "answer": "Flawed Power Stone holds raw magical power, but its deliberate flaws make it consume itself rapidly once moved."
+   "answer": "The stone holds raw magical power, but its deliberate flaws make it consume itself rapidly once moved."
   },
   {
    "q": "Can the stones be preserved permanently?",
@@ -70,7 +70,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you keep watch over arcane oddities scattered across the Barrens, wary of rogue sorcery that could threaten your supply routes."
+   "text": "As a member of the Horde, you keep watch over arcane oddities scattered across the Barrens. Rogue sorcery could threaten your supply routes."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Flawed Power Stone (quest)"
  ],
- "style": 1
+ "style": 2
 }

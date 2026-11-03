@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Beezil's Wreck"
  },
- "summary": "Beezil's Wreck marks the crash site of an unfortunate goblin zeppelin deep within the quagmires of Dustwallow Marsh. Resting east of Tabetha's Farm, the shattered vessel's cargo holds scattered supplies and volatile engineering components that attract scavengers.",
+ "summary": "East of Tabetha's Farm, Beezil's Wreck draws scavengers to its broken zeppelin and scattered cargo.",
  "sections": [
   {
    "title": "A Calamitous Landing",
-   "body": "Hidden away in the humid muck east of Tabetha's Farm lies the splintered skeleton of a goblin zeppelin known as Beezil's Wreck. The craft was hauling cargo southward across Kalimdor before suffering a disastrous plunge into the swamp. While the wreckage still smolders amid tangled reeds, its eccentric captain, Beezil, has seemingly vanished from the marsh, leaving behind scattered crates and ticking machinery to slowly rot in the brine.",
+   "body": "East of Tabetha's Farm, the goblin zeppelin lies split apart in the muck. It carried cargo south across Kalimdor before plunging into the swamp. Captain Beezil is gone from the marsh. Crates and ticking machinery lie among the reeds, rotting in the brine.",
    "spoiler": 0
   },
   {
    "title": "Salvage in the Muck",
-   "body": "Despite the harsh environment, the crash site remains a prime target for opportunistic explorers. The airship carried a payload of volatile goods, notably Seaforium boosters and heavy crates that survived the impact. Scavengers daring enough to wade through the surrounding beasts often risk life and limb to secure what is left of the lost shipment before corrosive marsh water ruins the haul entirely.",
+   "body": "Beasts prowl around the crash site, but scavengers still brave them for the cargo that survived. The zeppelin carried volatile goods, including Seaforium boosters and heavy crates. They risk their lives to salvage what remains before marsh water corrodes it.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "crashed zeppelin dustwallow",
     "what is this wreck"
    ],
-   "answer": "Beezil's Wreck is the crash site of a goblin zeppelin situated deep in Dustwallow Marsh, directly east of Tabetha's Farm. The airship came down while transporting cargo across the marsh."
+   "answer": "Beezil's Wreck lies deep in Dustwallow Marsh, east of Tabetha's Farm, where a goblin zeppelin crashed. It went down while carrying cargo south across Kalimdor."
   },
   {
    "q": "Where is the pilot, Beezil?",
@@ -37,7 +37,7 @@
     "who is beezil",
     "beezil location"
    ],
-   "answer": "The pilot, Beezil, is nowhere to be found around the crash site. Whether he escaped into the treacherous wilderness or fled the marsh entirely remains a mystery to those searching the hull."
+   "answer": "Beezil is nowhere around the crash site. Searchers do not know whether he escaped into the wilderness or left the marsh."
   },
   {
    "q": "What valuable cargo was the zeppelin carrying?",
@@ -46,17 +46,17 @@
     "seaforium boosters",
     "wreck cargo"
    ],
-   "answer": "The zeppelin was loaded with trade goods and volatile goblin technology, including Seaforium boosters. These valuable engineering components make the site a frequent target for adventurers and salvagers."
+   "answer": "The zeppelin carried trade goods and volatile goblin engineering components, including Seaforium boosters. Scavengers seek what survived the crash."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The twisted wreckage of a goblin zeppelin holds volatile mechanical components, particularly Seaforium boosters that any tinkerer would covet."
+   "text": "As an engineer, you can find volatile mechanical parts in the wreck, especially Seaforium boosters any tinkerer would covet."
   },
   {
    "target": "race:Gnome",
-   "text": "Examining the smoking remains of rival goblin aviation offers a morbid reminder of the perils inherent in non-gnomish aerial design."
+   "text": "As a gnome, you see the smoking goblin wreck as a grim reminder of the dangers of non-gnomish aerial design."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Beezil's Wreck"
- ]
+ ],
+ "style": 2
 }

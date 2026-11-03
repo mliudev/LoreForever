@@ -10,16 +10,16 @@
    "quest:848"
   ]
  },
- "summary": "Around the Barrens' oases, Fungal Spores gather in swollen mushrooms. The waters quicken the life around them, and the Royal Apothecary Society seeks the spores for its alchemy.",
+ "summary": "At the Barrens' oases, Fungal Spores swell within mushrooms along the shores. The waters quicken nearby life, and the Royal Apothecary Society gathers the spores for its alchemy.",
  "sections": [
   {
    "title": "Vitality of the Oases",
-   "body": "The Barrens' oases bring unusual life to the dry plains. At the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis, the water does more than ease thirst. It quickens and changes the plants and wildlife nearby. Mushrooms along the damp shores swell with spores, carrying the waters' concentrated power to spur growth. Naturalists study this change, while the Royal Apothecary Society gathers the mushrooms for its alchemy.",
+   "body": "The Barrens' oases bring unusual life to the dry plains. At the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis, the water does more than ease thirst. It quickens and changes nearby plants and wildlife. Along the damp shores, mushrooms swell with spores that carry the waters' concentrated power and spur growth. Naturalists study the change, while the Royal Apothecary Society gathers the mushrooms for its alchemy.",
    "spoiler": 0
   },
   {
    "title": "Forsaken Alchemy",
-   "body": "Apothecaries abroad gather unusual local ingredients for their laboratories and colleagues. At the Crossroads, Apothecary Helbrim sends such reagents onward, including to Apothecary Zamah in Thunder Bluff. The spores are valuable for brewing potent chemical mixtures. Their natural properties have already been altered by the mysterious forces beneath Kalimdor's soil, making them useful to the Forsaken.",
+   "body": "Apothecaries abroad gather unusual local ingredients for their laboratories and colleagues. At the Crossroads, Apothecary Helbrim sends reagents onward, including to Apothecary Zamah in Thunder Bluff. The spores are valuable for brewing potent chemical mixtures. Mysterious forces beneath Kalimdor's soil have altered their natural properties, making them useful to the Forsaken.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to find fungal spores",
     "laden mushroom locations"
    ],
-   "answer": "You find Fungal Spores in swollen mushrooms along the shores of the Barrens' major oases: the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis."
+   "answer": "Fungal Spores grow in swollen mushrooms along the shores of the Barrens' major oases: the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis."
   },
   {
    "q": "Why are the Forsaken interested in them?",
@@ -49,7 +49,7 @@
     "oasis water effect",
     "oasis mystery"
    ],
-   "answer": "The waters at the Barrens' oases carry unusual life energy that changes nearby plants and animals. Fungi along the shores swell with altered spores."
+   "answer": "Unusual life energy in the Barrens' oasis waters changes nearby plants and animals. Fungi along the shores swell with altered spores."
   },
   {
    "q": "Who asks for the spores?",
@@ -58,7 +58,7 @@
     "spore quest giver",
     "apothecary helbrim"
    ],
-   "answer": "Apothecary Helbrim, a Forsaken alchemist at the Crossroads in the Barrens, asks adventurers to gather spores for his research."
+   "answer": "At the Crossroads in the Barrens, Apothecary Helbrim asks adventurers to gather spores for his research."
   }
  ],
  "angles": [
@@ -96,5 +96,5 @@
   "Fungal Spores",
   "Fungal Spores (Classic)"
  ],
- "style": 1
+ "style": 2
 }

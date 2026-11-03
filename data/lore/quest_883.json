@@ -17,16 +17,16 @@
   "wiki": "Lakota'mani (quest)",
   "chain": []
  },
- "summary": "At Camp Taurajo, hunters bring Lakota'mani's hoof to Jorn Skyseer after the hunt. The offering honors the mighty kodo's spirit and marks the hunter as an equal to its strength.",
+ "summary": "At Camp Taurajo, hunters bring Lakota'mani's hoof to Jorn Skyseer after the hunt. The offering honors the kodo's spirit and marks the hunter as an equal to its strength.",
  "sections": [
   {
    "title": "The Earthshaker",
-   "body": "Among the Barrens herds, Lakota'mani is a kodo of great size and endurance. In Taur-ahe, the tauren tongue, his name means “Earthshaker,” and his steps rumble across the plains. Tauren hunters track and defeat such a beast not for slaughter, but to meet the raw vigor of Kalimdor's wildlife in a sacred hunt.",
+   "body": "Across the Barrens, Lakota'mani moves among the kodo herds, famed for great size and endurance. In Taur-ahe, the tauren tongue, his name means “Earthshaker.” Each step rumbles across the plains. Tauren hunters track and defeat such a beast not for slaughter, but to meet the raw vigor of Kalimdor's wildlife in a sacred hunt.",
    "spoiler": 0
   },
   {
    "title": "A Hunt Honored at Camp Taurajo",
-   "body": "When you bring Lakota'mani's hoof to Jorn Skyseer at Camp Taurajo, the hunt reaches its close. Jorn sees a new power and stride in hunters who return from the encounter. Presenting the trophy earns his blessing, honoring Lakota'mani's courage and primal spirit as companions on your path.",
+   "body": "When you bring Lakota'mani's hoof to Jorn Skyseer at Camp Taurajo, the hunt reaches its close. Jorn sees new power and a stronger stride in hunters who return from the encounter. The trophy earns his blessing. It honors Lakota'mani's courage and primal spirit as companions on your path.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "lakota'mani translation",
     "what does lakotamani mean in taurahe"
    ],
-   "answer": "Lakota'mani means “Earthshaker” in Taur-ahe, the tauren tongue. The name fits the beast's immense size and the thunderous rumble of his steps across the plains."
+   "answer": "In Taur-ahe, the tauren tongue, Lakota'mani means “Earthshaker.” The name fits his great size and the rumble of his steps across the plains."
   },
   {
    "q": "Who is Jorn Skyseer?",
@@ -65,7 +65,7 @@
     "lakota'mani location",
     "how to find lakotamani"
    ],
-   "answer": "Lakota'mani roams the open savanna of the central and southern Barrens, among the lesser kodo herds, until an attentive hunter tracks him down."
+   "answer": "Lakota'mani roams the open savanna of the central and southern Barrens among lesser kodo herds. An attentive hunter can track him down."
   },
   {
    "q": "Why does Jorn call the hunter 'Earthshaker'?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren hunter, defeating Lakota'mani fulfills an ancient hunting tradition and earns reverence and the proud title of Earthshaker from your elders."
+   "text": "As a tauren hunter, defeating Lakota'mani fulfills an ancient hunting tradition. Your elders honor you with reverence and the proud title of Earthshaker."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking a legendary solitary kodo across the vast savanna tests your tracking skill, endurance, and field combat in the heart of Kalimdor."
+   "text": "As a hunter, tracking a legendary solitary kodo across the vast savanna tests your skill at tracking, your endurance, and your field combat in the heart of Kalimdor."
   },
   {
    "target": "faction:Horde",
@@ -115,5 +115,5 @@
  "attribution": [
   "Lakota'mani (quest)"
  ],
- "style": 1
+ "style": 2
 }

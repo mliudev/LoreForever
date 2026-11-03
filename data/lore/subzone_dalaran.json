@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dalaran"
  },
- "summary": "Dalaran was once the shining magocratic capital of the Kirin Tor, nestled on the southern shore of Lordamere Lake. Shattered by the Scourge and the demon lord Archimonde during the Third War, its surviving magi are rebuilding the city, having removed its protective violet shield early in the reconstruction.",
+ "summary": "On Lordamere Lake, Dalaran's surviving magi are rebuilding their shattered city. Once the shining capital of the Kirin Tor, it fell to the Scourge and Archimonde during the Third War. Its protective violet shield has been removed.",
  "sections": [
   {
    "title": "Fall of the Magocracy",
-   "body": "Founded after the ancient Troll Wars by sorcerers of the Arathorian Empire, Dalaran stood for centuries as humanity's premier sanctuary for arcane study. Under the leadership of the Council of Six, the Kirin Tor amassed vast magical archives and guarded powerful artifacts within the Violet Citadel. That age of splendor ended abruptly during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh, and soon after, the demon lord Archimonde crushed Dalaran's soaring spires into rubble.",
+   "body": "Dalaran began as a sanctuary for arcane study, founded by sorcerers of the Arathorian Empire after the ancient Troll Wars. For centuries, it was humanity's foremost center of magic. The Council of Six led the Kirin Tor, keeping vast archives and powerful artifacts in the Violet Citadel.\n\nThat age ended during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh. Soon after, the demon lord Archimonde crushed Dalaran's soaring spires into rubble.",
    "spoiler": 0
   },
   {
    "title": "Rebuilding the Magocracy",
-   "body": "In the aftermath of the Legion's defeat, the surviving wizards of the Kirin Tor returned to their devastated homeland. Refusing to surrender their ancestral ground to the Scourge or scavengers, they erected an impassable, shimmering violet barrier over the city's heart. The shield has since been removed, though reconstruction continues. The magi continue rebuilding their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel.",
+   "body": "After the Legion's defeat, the Kirin Tor's surviving wizards returned to their devastated homeland. They would not yield their ancestral ground to the Scourge or scavengers, and raised a shimmering violet barrier over the city's heart. The shield has since been removed, while rebuilding continues. The magi are restoring their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "what is the dome",
     "dalaran dome"
    ],
-   "answer": "The Kirin Tor erected a magical shield over Dalaran after its destruction in the Third War. The shield has since been removed, and the city is still being rebuilt."
+   "answer": "After Dalaran's destruction in the Third War, the Kirin Tor raised a magical shield over the city. The shield has since been removed, and rebuilding continues."
   },
   {
    "q": "Can players enter Dalaran?",
@@ -38,7 +38,7 @@
     "how to enter dalaran",
     "get past dalaran shield"
    ],
-   "answer": "Yes, while reconstruction is still underway, and Archmage Ansirem Runeweaver resides in the Violet Citadel. The Kirin Tor side with the Alliance, though: the Horde is Hated by them and attacked on sight in the city, but Horde groups can still run the City of Dalaran dungeon."
+   "answer": "Yes. Reconstruction is underway, and Archmage Ansirem Runeweaver resides in the Violet Citadel. The Kirin Tor sides with the Alliance, and the Horde is Hated by them and attacked on sight in the city. Horde groups can still enter the City of Dalaran dungeon."
   },
   {
    "q": "Who destroyed Dalaran?",
@@ -47,7 +47,7 @@
     "who blew up dalaran",
     "why is dalaran in ruins"
    ],
-   "answer": "Dalaran was attacked by Prince Arthas and his Scourge army, who stole the Book of Medivh from its vaults. Shortly after, the demon lord Archimonde summoned dark sorcery to pulverize the city into ruins."
+   "answer": "Prince Arthas and his Scourge army attacked Dalaran and stole the Book of Medivh from its vaults. Soon after, the demon lord Archimonde used dark sorcery to pulverize the city into ruins."
   },
   {
    "q": "Who rules Dalaran?",
@@ -56,17 +56,17 @@
     "dalaran leadership",
     "who leads kirin tor"
    ],
-   "answer": "The city is governed by the Kirin Tor, an elite magocratic order led by a ruling assembly known as the Council of Six."
+   "answer": "The Kirin Tor governs Dalaran through its ruling assembly, the Council of Six."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Dalaran is the historical cradle of human and high elven wizardry. Seeing its legendary spires still being rebuilt serves as a solemn reminder of the devastating losses mages suffered in the Third War."
+   "text": "As a mage, you look to Dalaran as the historic cradle of human and high elven wizardry. Its legendary spires are still being rebuilt, a solemn reminder of the losses mages suffered in the Third War."
   },
   {
    "target": "faction:Alliance",
-   "text": "Dalaran was one of the seven founding kingdoms of the original Alliance of Lordaeron, and the Kirin Tor is rebuilding its devastated capital."
+   "text": "As an Alliance member, you can trace Dalaran's place in your history to its role as one of the seven founding kingdoms of the original Alliance of Lordaeron. The Kirin Tor is rebuilding its devastated capital."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Dalaran"
- ]
+ ],
+ "style": 2
 }

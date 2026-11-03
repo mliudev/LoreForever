@@ -8,16 +8,16 @@
   "wiki": "Lord Jorach Ravenholdt",
   "refs": 2
  },
- "summary": "Lord Jorach Ravenholdt is the master of Ravenholdt, an elite guild of rogues and assassins operating out of a secluded estate in the Alterac Mountains. He directs the league's clandestine operations, training promising operatives while waging a bitter war against the regional bandits of the Syndicate.",
+ "summary": "At Ravenholdt Manor, Lord Jorach Ravenholdt trains rogues and directs a war against the Syndicate. His estate lies in the Alterac Mountains.",
  "sections": [
   {
    "title": "Master of the Assassin's League",
-   "body": "Lord Jorach Ravenholdt presides over the Assassin's League from his hidden manor nestled in the crags between Alterac and Hillsbrad. A nobleman of mysterious heritage, he opens his halls to outlaws, cutpurses, and assassins regardless of allegiance, provided they exhibit exceptional skill and respect his authority. Under his command, the league acts as both a fraternity for master thieves and an independent syndicate for wetwork and espionage. Ravenholdt harbors a fierce hatred for the Syndicate\u2014the band of disgraced Alterac nobles turned outlaws\u2014and routinely directs his subordinates and visiting freelancers to sabotage their camps and plunder their assets.",
+   "body": "Lord Jorach Ravenholdt commands the Assassin's League from a manor hidden among the crags between Alterac and Hillsbrad. A nobleman of mysterious heritage, he welcomes outlaws, cutpurses, and assassins of any allegiance, provided they show great skill and respect his authority. The league joins master thieves in espionage and killings for hire.\n\nRavenholdt despises the Syndicate, whose members are disgraced Alterac nobles turned outlaws. He sends his followers and visiting rogues to sabotage their camps and plunder their goods.",
    "spoiler": 0
   },
   {
    "title": "Secrets in the Shadows",
-   "body": "While ostensibly preoccupied with local skirmishes, Lord Ravenholdt directs far-reaching operations across Azeroth. Rogues who prove their loyalty are enlisted in intricate, continent-spanning tasks to retrieve guarded artifacts. Among these was the recovery of a mysterious Sealed Azure Bag, stolen from him and ferried to furbolgs in Azshara, which required the arcane decoding of Archmage Xylem and an Azure Key wrested from the Sunken Temple. Ravenholdt also coordinates the development of lethal new compounds, dispatching his scouts to gather lethal venom from ancient horrors across the realm.",
+   "body": "Lord Jorach Ravenholdt directs operations across Azeroth while the fighting near his manor holds his attention. Rogues who prove loyal take on intricate work across continents to recover guarded artifacts. One effort sought a mysterious Sealed Azure Bag, stolen from Ravenholdt and carried to furbolgs in Azshara.\n\nTo recover it, Archmage Xylem had to decode its secrets, and an Azure Key had to be taken from the Sunken Temple. Ravenholdt also oversees the making of lethal compounds. He sends scouts across the realm to gather venom from ancient horrors.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "ravenholdt leader",
     "jorach lore"
    ],
-   "answer": "He is the aristocratic leader of the Assassin's League, a covert society of rogues headquartered at Ravenholdt Manor in the mountains above Hillsbrad Foothills. He trains master stealth operatives and coordinates discrete assassinations and intelligence gathering."
+   "answer": "Lord Jorach Ravenholdt leads the Assassin's League, a covert society of rogues based at Ravenholdt Manor in the mountains above Hillsbrad Foothills. He trains master operatives in stealth and directs assassinations and intelligence gathering."
   },
   {
    "q": "Why does Ravenholdt hate the Syndicate?",
@@ -38,7 +38,7 @@
     "ravenholdt vs syndicate",
     "syndicate rivalry"
    ],
-   "answer": "Ravenholdt's estate sits directly within territory contested by the Syndicate, a network of former Alterac nobles turned ruthless outlaws. He views their crude banditry as an infection across the highlands and uses his guild's assassins to actively purge their strongholds."
+   "answer": "Ravenholdt's estate lies in land contested by the Syndicate, a network of former Alterac nobles turned outlaws. He opposes their banditry and sends his assassins against their strongholds."
   },
   {
    "q": "Is Lord Ravenholdt affiliated with the Alliance or Horde?",
@@ -47,7 +47,7 @@
     "is jorach horde",
     "ravenholdt faction"
    ],
-   "answer": "Ravenholdt operates strictly as an independent organization. Lord Jorach accepts rogues of both the Alliance and the Horde into his manor, caring only for professional prowess, stealth discipline, and absolute discretion rather than racial politics."
+   "answer": "Lord Jorach Ravenholdt's organization is independent. He welcomes rogues from both the Alliance and Horde at his manor, judging them by skill, discipline in stealth, and discretion rather than allegiance."
   },
   {
    "q": "What is inside the Sealed Azure Bag Jorach seeks?",
@@ -56,13 +56,13 @@
     "azure bag mystery",
     "what did jorach get"
    ],
-   "answer": "The contents remain an intensely guarded secret. When presented with the Azure Key to finally unlock the enchanted satchel, Lord Jorach was bathed in an eerie golden light, staring inside with astonishment before swiftly stowing it away."
+   "answer": "What lies inside the Sealed Azure Bag remains a guarded secret. When Lord Jorach Ravenholdt receives the Azure Key and unlocks the enchanted satchel, eerie golden light washes over him. He stares inside in astonishment, then quickly puts it away."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Lord Ravenholdt is the preeminent patron of master rogues across Azeroth, offering elite training, poisons, and prestigious contracts to those who earn his trust."
+   "text": "As a rogue, you can seek Lord Jorach Ravenholdt's patronage. He offers training, poisons, and contracts to rogues who earn his trust."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Lord Jorach Ravenholdt"
- ]
+ ],
+ "style": 2
 }

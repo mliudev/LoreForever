@@ -10,11 +10,11 @@
    "quest:3521"
   ]
  },
- "summary": "In Shadowglen, Webwood spiders carry venom that has left Iverron gravely ill. Dirania Silvershine needs their ichor, hyacinth mushrooms, and moonpetal lilies to brew an antidote.",
+ "summary": "In Shadowglen, Webwood Ichor is needed to save Iverron from spider venom. Dirania Silvershine needs it with hyacinth mushrooms and moonpetal lilies to brew an antidote.",
  "sections": [
   {
    "title": "A Toxic Cure",
-   "body": "Webwood spiders in Shadowglen carry venom that has left Iverron gravely ill. Dirania Silvershine asks for their ichor, hyacinth mushrooms, and moonpetal lilies to prepare an antidote.",
+   "body": "Webwood spiders in Shadowglen carry venom that has left Iverron gravely ill. Dirania Silvershine asks for their ichor, hyacinth mushrooms, and moonpetal lilies to brew an antidote.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does webwood ichor do",
     "why get ichor"
    ],
-   "answer": "Dirania Silvershine in Shadowglen needs Webwood Ichor, hyacinth mushrooms, and moonpetal lilies to prepare an antidote for Iverron, the poisoned night elf."
+   "answer": "In Shadowglen, Dirania Silvershine needs Webwood Ichor, hyacinth mushrooms, and moonpetal lilies for an antidote. It is meant to save Iverron, the poisoned night elf."
   },
   {
    "q": "Where does Webwood Ichor come from?",
@@ -43,13 +43,13 @@
     "spider poison cure",
     "why venom for antidote"
    ],
-   "answer": "Dirania requests Webwood Ichor as one ingredient for Iverron's antidote. She does not explain how the ichor works in the mixture."
+   "answer": "Dirania requests Webwood Ichor as one ingredient in Iverron's antidote. She does not explain how the ichor works in the mixture."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf defending Aldrassil, gathering Webwood ichor teaches you that Teldrassil's deadliest poisons can harbor their own cures."
+   "text": "As a young night elf defending Aldrassil, you gather Webwood Ichor and learn that Teldrassil's deadliest poisons can harbor their own cures."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
   "Webwood Ichor",
   "Iverron's Antidote (Classic)"
  ],
- "style": 1
+ "style": 2
 }

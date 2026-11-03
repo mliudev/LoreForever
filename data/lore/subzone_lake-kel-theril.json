@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Lake Kel'Theril"
  },
- "summary": "Lake Kel'Theril is a vast, frozen lake nestled in the heart of Winterspring. Along its ice-locked shores stand ancient kaldorei ruins haunted by restless spirits who have lingered since the Great Sundering.",
+ "summary": "Beneath Lake Kel'Theril's ice, ancient ruins hold the spirits of the kaldorei who once lived there. Snow and frozen water cover the remains of their outpost from before the Great Sundering.",
  "sections": [
   {
    "title": "A Frozen Tomb of the Highborne",
-   "body": "Lake Kel'Theril is shrouded in eternal cold, its waters sealed under thick sheets of ice. Scattered across its surface and snowy banks are the shattered pillars and arches of ancient elven architecture. These are the remnants of Kel'Theril, once an outpost of the ancient Highborne civilization before the Great Sundering shattered Kalimdor. Rather than finding rest in death, the spirits of the fallen aristocracy wander the ice as tormented ghosts and specters, forever tethered to the tragic remnants of their former glory.",
+   "body": "Lake Kel'Theril lies frozen beneath Winterspring's bitter cold. Shattered pillars and arches rise through the ice and along the snowy banks. They are all that remains of Kel'Theril, an outpost of the ancient Highborne before the Great Sundering broke Kalimdor apart. Even in death, the fallen aristocracy found no rest. Their ghosts and specters still wander the lake, bound to the ruins of their former home.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why are there spirits here",
     "winterspring lake ghosts"
    ],
-   "answer": "The spirits wandering Lake Kel'Theril are the tormented ghosts of ancient Highborne. When the Great Sundering tore Kalimdor apart ten thousand years ago, the catastrophic collapse of their civilization left their souls bound to the icy ruins of their former settlement."
+   "answer": "The spirits haunting Lake Kel'Theril are tormented ghosts of the ancient Highborne. When the Great Sundering tore Kalimdor apart ten thousand years ago, their civilization collapsed. Their souls remain bound to the icy ruins of their settlement."
   },
   {
    "q": "What ruins stand along the lake's shores?",
@@ -31,13 +31,13 @@
     "ruins in the lake",
     "what are the keltheril ruins"
    ],
-   "answer": "The crumbling pillars and stonework belong to the Ruins of Kel'Theril, an ancient kaldorei settlement that thrived during the reign of the Highborne prior to the War of the Ancients."
+   "answer": "The crumbling pillars and stonework along the lake belong to the Ruins of Kel'Theril. The ancient kaldorei settlement thrived under the Highborne before the War of the Ancients."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The tragic specters walking Lake Kel'Theril serve as a chilling reminder of the ruin brought about by the reckless arrogance of the ancient Highborne."
+   "text": "As a night elf, you can see Lake Kel'Theril's specters as a reminder of the ruin wrought by the ancient Highborne's arrogance."
   }
  ],
  "keywords": [
@@ -56,5 +56,6 @@
  ],
  "attribution": [
   "Lake Kel'Theril"
- ]
+ ],
+ "style": 2
 }

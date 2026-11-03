@@ -17,21 +17,21 @@
   "wiki": "Call of Water (6)",
   "chain": []
  },
- "summary": "Brine's water reaches Islen Waterseer on the eastern Barrens coast, where the next part of the shamanic trial begins. The vial holds water Brine prepared and blessed, the base for a sapta that lets an initiate see water spirits in Silverpine Forest.",
+ "summary": "The water Brine prepared now reaches Islen Waterseer on the eastern Barrens coast. There it begins the next part of the shamanic trial, and will form the base of a sapta that lets an initiate see water spirits in Silverpine Forest.",
  "sections": [
   {
    "title": "Return to the Shore",
-   "body": "After the trials in the southern Barrens, Brine gives the shaman initiate a Vial of Purest Water. The water comes from pure springs and has been consecrated by Brine's rites. The initiate carries it back to the eastern coast, where Islen Waterseer keeps watch. The water links Brine's teachings with the rites of the totem.",
+   "body": "After the trials in the southern Barrens, Brine gives you a Vial of Purest Water. It comes from pure springs and has been consecrated by Brine's rites. You carry it back to the eastern coast, where Islen Waterseer keeps watch. The water joins Brine's teachings to the rites of the totem.",
    "spoiler": 0
   },
   {
    "title": "The Purpose of the Sapta",
-   "body": "Islen explains that mortal eyes cannot easily see water spirits. To meet them, an initiate drinks a brew called a sapta. The water from Brine will form the base of that draught and open the shaman's senses to what ordinary sight cannot find. Seeing the spirits is only part of the journey; they will test the initiate.",
+   "body": "Islen explains that mortal eyes cannot easily see water spirits. To meet them, you drink a brew called a sapta. Brine's water forms the base of that draught and opens your senses to what ordinary sight cannot find. Seeing the spirits is only part of the journey. They will test you.",
    "spoiler": 0
   },
   {
    "title": "A Crossing to Lordaeron",
-   "body": "Islen sends the shaman beyond Kalimdor, across the sea to Silverpine Forest, south of the Undercity. Beside an isolated shrine, the initiate must drink the sapta and face the elementals directly. Only then can the shaman earn the right to manifest the Water Totem.",
+   "body": "Islen sends you beyond Kalimdor, across the sea to Silverpine Forest, south of the Undercity. Beside an isolated shrine, you drink the sapta and face the elementals directly. Only then can you earn the right to manifest the Water Totem.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "brine's water",
     "what did brine give me"
    ],
-   "answer": "The Vial of Purest Water holds water gathered from pure springs and consecrated by Brine's rites. It is the essential base for brewing a sapta, which lets a shaman communicate with water spirits."
+   "answer": "The Vial of Purest Water holds water gathered from pure springs and consecrated by Brine's rites. It is the base for brewing a sapta, which lets a shaman communicate with water spirits."
   },
   {
    "q": "Who is Islen Waterseer?",
@@ -70,7 +70,7 @@
     "silverpine water totem",
     "shrine in silverpine"
    ],
-   "answer": "The shrine for this communion lies in Silverpine Forest's coastal waters, south of the Undercity in the Eastern Kingdoms. The spirits there require a shaman to meet them and face a final trial before gaining mastery over water."
+   "answer": "The shrine for this communion lies in Silverpine Forest's coastal waters, south of the Undercity in the Eastern Kingdoms. The spirits there require you to meet them and face a final trial before gaining mastery over water."
   },
   {
    "q": "Where does Brine live?",
@@ -88,7 +88,7 @@
     "is sapta required",
     "shaman vision quest"
    ],
-   "answer": "No. The communion rites require a shaman's spirit to be attuned to the unseen world. Without a sapta to open that way, the water spirits at the shrine cannot be met or challenged."
+   "answer": "No. The communion rites require your spirit to be attuned to the unseen world. Without a sapta to open that way, you cannot meet or challenge the water spirits at the shrine."
   }
  ],
  "angles": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Call of Water (6)"
  ],
- "style": 1
+ "style": 2
 }

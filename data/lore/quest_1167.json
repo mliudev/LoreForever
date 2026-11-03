@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx (7)",
   "chain": []
  },
- "summary": "Delgren sends you north to meet Balthule Shadowstrike before the assault on Athrikus Narassin. The scout has watched the Tower of Althalaxx and can report what has changed there.",
+ "summary": "Before you face Athrikus Narassin, Delgren sends you north to speak with Balthule Shadowstrike. The scout has watched the Tower of Althalaxx and can tell you what has changed there.",
  "sections": [
   {
    "title": "A Scout's Report",
-   "body": "Delgren the Purifier sends you north to speak with Balthule Shadowstrike, his sentinel partner. You have purified corrupted relics and weakened the cult's hold along Darkshore's border. Before you confront the sorcerer Athrikus, Delgren wants fresh intelligence from Balthule, who has kept watch from the ruins overlooking the tower.",
+   "body": "Delgren the Purifier sends you north to meet Balthule Shadowstrike, his sentinel partner. You have purified corrupted relics and weakened the cult's hold along Darkshore's border. Before you confront Athrikus, Delgren wants fresh intelligence from Balthule. The sentinel has kept watch from the ruins overlooking the tower.",
    "spoiler": 0
   },
   {
    "title": "Disturbances in the Spire",
-   "body": "Balthule Shadowstrike reports strange disturbances in the tower's upper sanctum. Blinding flashes, agonizing screams, and erratic lightning now shake the ancient elven spire. What is happening inside threatens to make the approach to Athrikus more dangerous.",
+   "body": "Balthule Shadowstrike reports strange disturbances in the tower's upper sanctum. Blinding flashes and agonizing screams now shake the ancient elven spire, with erratic lightning in its halls. What is happening inside threatens to make the approach to Athrikus more dangerous.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "talk to balthule",
     "delgren orders"
    ],
-   "answer": "Delgren sends you to Balthule because he wants fresh information before you confront Athrikus. Balthule has watched the Tower of Althalaxx and can report what he has seen there."
+   "answer": "Delgren sends you to Balthule for fresh information before you confront Athrikus. Balthule has watched the Tower of Althalaxx and can report what he has seen there."
   },
   {
    "q": "Where is Balthule Shadowstrike located?",
@@ -47,7 +47,7 @@
     "find balthule",
     "where is balthule"
    ],
-   "answer": "Balthule Shadowstrike keeps an observation campsite on the hills just west of the Tower of Althalaxx, watching the ruins in northern Darkshore."
+   "answer": "Balthule Shadowstrike keeps an observation campsite on the hills just west of the Tower of Althalaxx. From there, he watches the ruins in northern Darkshore."
   },
   {
    "q": "What recent events did Balthule witness at the tower?",
@@ -56,7 +56,7 @@
     "balthule screams",
     "tower flash"
    ],
-   "answer": "Balthule saw a blinding flash from the tower's highest chamber, then heard wretched screams carry across the coast and saw erratic lightning bolts strike the ground."
+   "answer": "Balthule saw a blinding flash from the tower's highest chamber. Then he heard wretched screams carry across the coast and saw erratic lightning bolts strike the ground."
   },
   {
    "q": "Who is Athrikus?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Delgren and Balthule work together to protect northern Kalimdor, joining human paladins with night elf scouts."
+   "text": "Delgren and Balthule work together to protect northern Kalimdor. Human paladins and night elf scouts stand together there."
   },
   {
    "target": "class:Paladin",
-   "text": "Delgren studies the danger before acting, showing the discipline expected of a warrior of the Light."
+   "text": "Delgren studies the danger before he acts. That is the discipline expected of a warrior of the Light."
   },
   {
    "target": "race:NightElf",
-   "text": "Balthule Shadowstrike defends ancestral lands from sorcery like the reckless arcane excesses that ruined night elf civilization ten millennia ago."
+   "text": "Balthule Shadowstrike defends ancestral lands from sorcery. It recalls the reckless arcane excesses that ruined night elf civilization ten millennia ago."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "The Tower of Althalaxx (7)"
  ],
- "style": 1
+ "style": 2
 }

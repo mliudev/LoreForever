@@ -26,21 +26,21 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "At Neeru Fireblade's circle in Orgrimmar, a warlock faces the trial of binding a succubus. Dogran's Pendant draws the demon from the Twisting Nether, where spellcraft and force of arms must break its will.",
+ "summary": "At Neeru Fireblade's circle in Orgrimmar, you face the trial of binding a succubus. Dogran's Pendant draws the demon from the Twisting Nether, where you must overcome it by spellcraft and force of arms.",
  "sections": [
   {
    "title": "A Demon's Anchor",
-   "body": "Dogran's Pendant binds memory to the summoning. The maimed orc gave it up, but it had been a keepsake of his love for Zankaja, carried through captivity and torment. That devotion gives the pendant the force to reach across realms, bridge the Twisting Nether, and seize a succubus's attention.",
+   "body": "Dogran's Pendant carries memory into the summoning. The maimed orc gave it up, though it had been a keepsake of his love for Zankaja. He carried it through captivity and torment. Their devotion gives the pendant the strength to reach across realms, bridge the Twisting Nether, and seize a succubus's attention.",
    "spoiler": 1
   },
   {
    "title": "The Circle in the Shadows",
-   "body": "Beneath the clefts of Orgrimmar, Neeru Fireblade keeps a tent with a circle prepared for dangerous rites. Under Gan'rul Bloodeye's guidance, you activate its runes and face the summoned succubus in battle. Calling a demon is only the beginning; you must overpower it alone and bend its spirit to your will.",
+   "body": "Beneath the clefts of Orgrimmar, Neeru Fireblade keeps a tent with a circle prepared for dangerous rites. Under Gan'rul Bloodeye's guidance, you activate its runes and face the summoned succubus in battle. Calling a demon is only the beginning. You must overpower it alone and bend its spirit to your will.",
    "spoiler": 0
   },
   {
    "title": "Wiles and Willpower",
-   "body": "Gan'rul Bloodeye warns that succubi can make dangerous thralls. Their presence intoxicates and tempts the senses, while they drain the vitality and spirit of careless masters. He tells you to remember Dogran and Zankaja's sorrow, lest pride and overconfidence leave you open to the demon's wiles. Only an unyielding will can resist its allure.",
+   "body": "Gan'rul Bloodeye warns that succubi can make dangerous thralls. Their presence intoxicates and tempts the senses, while they drain the vitality and spirit of careless masters. Remember Dogran and Zankaja's sorrow, he tells you, lest pride and overconfidence leave you open to the demon's wiles. Only an unyielding will can resist its allure.",
    "spoiler": 1
   }
  ],
@@ -97,7 +97,7 @@
     "why are succubi risky",
     "succubus lore"
    ],
-   "answer": "Succubi charm mortals and play on their desires. An overconfident warlock risks having their soul slowly siphoned away, until the demon's guile overcomes their command."
+   "answer": "Succubi charm mortals and play on their desires. An overconfident warlock risks having their soul slowly siphoned away until the demon's guile overcomes their command."
   }
  ],
  "angles": [
@@ -139,5 +139,5 @@
  "attribution": [
   "The Binding (Succubus, Orgrimmar)"
  ],
- "style": 1
+ "style": 2
 }

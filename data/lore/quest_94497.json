@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Seeking the sapta requires understanding the nature of water across different lands, attuning the spirit to its various manifestations."
+   "text": "As a shaman, you seek the sapta by learning water's nature across different lands. You attune your spirit to its many forms."
   },
   {
    "target": "race:Dwarf",
-   "text": "Hervdana laments the lingering division between the dwarf clans, especially as Dark Iron dwarves encroach as far north as the Wetlands."
+   "text": "As a dwarf, you hear Hervdana lament the division between the clans. Dark Iron dwarves press north as far as the Wetlands."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "sapta meaning",
     "why seek sapta"
    ],
-   "answer": "The sapta is a sacred draught used to commune with the elemental spirits. To earn it, an initiate must seek out water in its various states and understand how it shapes the land and nourishes living things.",
+   "answer": "The sapta is a sacred draught that lets an initiate commune with elemental spirits. To earn it, an initiate seeks water in its many forms and learns how it shapes the land and nourishes life.",
    "q": "What is the sapta?"
   },
   {
@@ -37,7 +37,7 @@
     "where is hervdana",
     "hervdana cave"
    ],
-   "answer": "Hervdana gives the task from her cave situated above the waterfalls in the Wetlands. She acts as a guide in gathering water samples to attune an initiate to the element.",
+   "answer": "Hervdana guides initiates from her cave above the Wetlands waterfalls. She directs them to gather water samples and attune themselves to the element.",
    "q": "Who is Hervdana?"
   },
   {
@@ -46,7 +46,7 @@
     "brackish water wetlands",
     "fresh meets salt"
    ],
-   "answer": "Estuary water represents a special confluence where highland snowmelt and fresh springs mix with ocean tides. This meeting of fresh and mineral-rich saltwater carries unique sediment and spiritual wisdom.",
+   "answer": "At the estuary, highland snowmelt and springwater meet ocean tides. Their waters carry sediment, minerals, and spiritual wisdom.",
    "q": "Why gather water where the fresh meets the brackish?"
   },
   {
@@ -55,7 +55,7 @@
     "why are dark iron dwarves here",
     "dark iron threat"
    ],
-   "answer": "Dark Iron dwarves have crept northward into the Wetlands, posing an active hazard to travelers and elemental seekers trying to reach the marshes and waterfalls.",
+   "answer": "Dangerous marsh creatures and Dark Iron dwarves threaten travelers near the waterfalls. The dwarves have pushed north into the Wetlands.",
    "q": "What dangers lurk near the waterfalls?"
   },
   {
@@ -63,7 +63,7 @@
     "what is a vessel",
     "vessel of water"
    ],
-   "answer": "A vessel is an initiate who has begun actively seeking the waters' wisdom, carrying offerings of nature's waters to develop deeper elemental harmony.",
+   "answer": "A vessel is an initiate who seeks wisdom in the waters and carries offerings gathered from nature to deepen elemental harmony.",
    "q": "What does it mean to become a vessel?"
   },
   {
@@ -71,7 +71,7 @@
     "empty brown waterskin use",
     "what skin is used"
    ],
-   "answer": "The Empty Brown Waterskin is the vessel provided by Hervdana to collect the brackish sample from the base of the marsh waterfalls.",
+   "answer": "Hervdana provides the Empty Brown Waterskin to collect a brackish sample at the base of the waterfalls in the marsh.",
    "q": "What is the Empty Brown Waterskin used for?"
   }
  ],
@@ -90,23 +90,24 @@
  ],
  "sections": [
   {
-   "body": "To earn the sapta and commune with the spirits, an initiate must seek water in its various forms. Hervdana guides seekers to observe how water moves, changes lives, and sustains the land. The journey begins with understanding estuary waters where ocean tide meets fresh highland runoff.",
+   "body": "Hervdana guides initiates through the search for water in its many forms. They learn how it moves, changes lives, and sustains the land. Their path toward the sapta and communion with the spirits begins at an estuary, where ocean tides meet fresh runoff from the highlands.",
    "spoiler": 0,
    "title": "The Way of the Sapta"
   },
   {
-   "body": "At the base of the waterfalls beneath Hervdana's cave, highland springwater descends into the marsh to collide with saltwater brought inland by coastal tides. Ocean tides carry sediment, minerals, and energies vastly different from clear mountain snowmelt, making the estuary a wellspring of natural wisdom.",
+   "body": "Below Hervdana's cave, waterfalls carry highland springwater into the marsh. There it meets saltwater pushed inland by the coastal tides. The ocean brings sediment, minerals, and energies unlike those in clear mountain snowmelt. An initiate can find wisdom in the land's natural ways where these waters meet.",
    "spoiler": 0,
    "title": "Where Fresh Meets Brackish"
   },
   {
-   "body": "Gathering water in the Wetlands is not without peril. In addition to the dangerous marsh fauna, Dark Iron dwarves have pushed uncomfortably far north. Hervdana observes with regret the ongoing hostility among the dwarven clans, noting how much dwarfkind could achieve if they ever set aside their feuds.",
+   "body": "Dangerous marsh creatures make gathering water risky. Dark Iron dwarves have also pushed far north into the Wetlands. Hervdana regrets the hostility between the dwarven clans. She sees how much dwarfkind might achieve if they set aside their feuds.",
    "spoiler": 0,
    "title": "Shadows in the Marsh"
   }
  ],
- "summary": "Call of Water is a spiritual quest in the Wetlands guiding an initiate on the path to earning the sapta. By gathering brackish estuary water where mountain falls meet sea tides, the seeker learns the vital energies of water while navigating the hazards of the marsh.",
+ "summary": "In the Wetlands, an initiate gathers water to earn the sapta through Call of Water. The marsh is dangerous, but its waters show how water's energies shape and sustain the land.",
  "attribution": [
   "In-game quest text: Call of Water"
- ]
+ ],
+ "style": 2
 }

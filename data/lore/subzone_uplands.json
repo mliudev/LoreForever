@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Uplands"
  },
- "summary": "The Uplands is a rolling, elevated territory in the northeastern Alterac Mountains that once served as the agricultural heartland of the fallen Kingdom of Alterac. Following the kingdom's collapse, the fertile hills fell entirely under the sway of the Syndicate. Today, the criminal organization maintains its strongest base of power here, fortifying multiple encampments across the slopes.",
+ "summary": "In the northeastern Alterac Mountains, the Syndicate holds the Uplands and its camps. These hills once fed Alterac's mountain fortresses, but now shelter the band's strongest base.",
  "sections": [
   {
    "title": "Breadbasket to Bandit Stronghold",
-   "body": "Before the Second War broke Alterac apart, the hills of the Uplands were celebrated as the kingdom's breadbasket, providing grain and livestock to feed its mountain fortresses. When the core of the realm fell to ruin and infamy, the farming estates were abandoned by honest folk. In their place rose the Syndicate, led by dispossessed Alterac nobles and cutthroats determined to reclaim their stolen inheritance through force. The Uplands now represents the Syndicate's most heavily concentrated territory in the region, dotted with camps, patrols, and outposts like Dandred's Fold along its western borders.",
+   "body": "Before the Second War broke Alterac apart, grain and livestock from the Uplands fed its mountain fortresses. When the kingdom fell into ruin, honest folk left their farms behind. Dispossessed nobles and cutthroats formed the Syndicate, set on taking back what they believed was stolen from them by force. Its camps, patrols, and outposts now fill the hills. Dandred's Fold lies along the western borders.",
    "spoiler": 0
   },
   {
    "title": "A Seat of Shadows",
-   "body": "Because the Syndicate commands these hills in force, high-ranking conspirators often oversee operations from the Uplands. Figures such as Baron Vardus, aligned with the shadowy leadership steering the remnants of Alterac's nobility, coordinate brigand movements, raids on neighboring valleys, and resistance against both the Alliance and Horde. Travelers crossing into the northeastern ridges face immediate hostility from entrenched highwaymen who view the entire range as their sovereign soil.",
+   "body": "The Syndicate keeps its strongest forces in the Uplands. There, high-ranking conspirators oversee its operations, including Baron Vardus, who is aligned with the shadowy leaders guiding Alterac's remaining nobility. From these hills they direct brigands, raid neighboring valleys, and resist both the Alliance and Horde. Travelers on the northeastern ridges meet entrenched highwaymen who claim the range as their sovereign soil.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what used to be here",
     "uplands purpose"
    ],
-   "answer": "The Uplands was historically the primary agricultural region of the Kingdom of Alterac. Its rolling hills served as the kingdom's breadbasket before war and betrayal brought about the nation's downfall."
+   "answer": "The Uplands once fed Alterac's mountain fortresses with grain and livestock. It was the kingdom's main agricultural region before war and betrayal brought its downfall."
   },
   {
    "q": "Who controls the Uplands now?",
@@ -37,7 +37,7 @@
     "who holds the uplands",
     "uplands factions"
    ],
-   "answer": "The Uplands is held by the Syndicate. Alterac's former nobility and their network of bandits have established multiple camps throughout these hills, making it the area where their presence is strongest."
+   "answer": "The Syndicate controls the Uplands. Alterac's former nobles and their bandit network have built several camps here, where their forces are strongest."
   },
   {
    "q": "Where is the Uplands located?",
@@ -46,7 +46,7 @@
     "where is uplands",
     "how to find uplands"
    ],
-   "answer": "The Uplands spans the northeastern highlands of the Alterac Mountains, bordering Dandred's Fold along its western edge."
+   "answer": "The Uplands lies in the northeastern highlands of the Alterac Mountains. Dandred's Fold sits along its western edge."
   },
   {
    "q": "Who is Baron Vardus?",
@@ -55,17 +55,17 @@
     "who is vardus",
     "uplands baron"
    ],
-   "answer": "Baron Vardus is an influential noble and leader within the Syndicate who oversees operations in the Uplands, directing the bandits and conspirators seeking to reclaim Alterac."
+   "answer": "Baron Vardus is an influential Syndicate noble who oversees operations in the Uplands. He directs bandits and conspirators seeking to reclaim Alterac."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The Uplands serves as the primary seat of power for the Syndicate, making it a crucial study in how displaced nobility turned an entire regional network of bandits into an organized, lethal cartel."
+   "text": "As a rogue, you can see how displaced nobles organized the Syndicate's bandit network into a lethal force."
   },
   {
    "target": "race:Human",
-   "text": "These hills are a grim reminder of Alterac's fall; what was once a flourishing agricultural breadbasket for humanity is now choked with cutthroats and ruined ambitions."
+   "text": "As a human, you see Alterac's fall in these hills. Once they fed a flourishing kingdom; now cutthroats and ruined ambitions hold them."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Uplands"
- ]
+ ],
+ "style": 2
 }

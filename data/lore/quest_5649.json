@@ -20,16 +20,16 @@
    "Garments of Spirituality"
   ]
  },
- "summary": "Young Darkspear priests leave the Valley of Trials under Ken'jai's direction. They report to Tai'jin in Razor Hill and take their first steps into Durotar's wider challenges. Their path balances ancestral troll heritage with life in the Horde.",
+ "summary": "In the Valley of Trials, young Darkspear priests begin their lives beyond the training grounds. Under Ken'jai's direction, they travel to Tai'jin in Razor Hill and meet Durotar's wider challenges. Their path holds both ancestral troll ways and service in the Horde.",
  "sections": [
   {
    "title": "Leaving the Red Canyon",
-   "body": "Darkspear acolytes leave the Valley of Trials after learning their basic rites under Ken'jai. The paths out of the secluded training grounds lead to Razor Hill, a crossroads settlement in Durotar. For a young priest, the journey marks a step beyond basic survival drills and toward the spiritual and cultural responsibilities of the tribe.",
+   "body": "Darkspear acolytes leave the Valley of Trials after learning their basic rites from Ken'jai. The road from those secluded grounds leads to Razor Hill, a crossroads settlement in Durotar. There, a young priest steps beyond survival drills and begins to shoulder the spiritual and cultural duties of the tribe.",
    "spoiler": 0
   },
   {
    "title": "Old Faiths and New Alliances",
-   "body": "Ken'jai speaks plainly about the Darkspear's place in Thrall's Horde. The trolls value the orcs' loyalty and lessons of honor, yet some ancestral traditions sit uneasily among their allies. Darkspear spiritual leaders teach their pupils to preserve their heritage quietly while serving the Horde. At Razor Hill, Tai'jin welcomes the acolytes and guides them toward self-sufficiency and strength within the community.",
+   "body": "Ken'jai speaks plainly about the Darkspear's place in Thrall's Horde. The trolls value the orcs' loyalty and lessons of honor, though some ancestral traditions sit uneasily among their allies. So Darkspear spiritual leaders teach their pupils to preserve their heritage quietly while serving the Horde.\n\nAt Razor Hill, Tai'jin welcomes the acolytes. He guides them toward self-sufficiency and strength within the community.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver in favor of spirituality",
     "kenjai priest quest"
    ],
-   "answer": "Ken'jai, the troll priest trainer in the Den in the Valley of Trials, gives it to you."
+   "answer": "Ken'jai, the troll priest trainer in the Den, directs you from the Valley of Trials."
   },
   {
    "q": "Where can I find Tai'jin?",
@@ -59,7 +59,7 @@
     "who can take in favor of spirituality",
     "priest class quest razor hill"
    ],
-   "answer": "Only troll priests beginning their journey in Durotar can accept it."
+   "answer": "Only troll priests beginning their journey in Durotar can take this path."
   },
   {
    "q": "Why does Ken'jai emphasize keeping some traditions secret?",
@@ -77,7 +77,7 @@
     "what does tai jin say",
     "darkspear adaptation"
    ],
-   "answer": "Tai'jin teaches that the Darkspear grew stronger by adapting to life in the Horde. Rather than waiting to draw strength directly from fallen foes, the tribe prepares beforehand and enters battle already empowered."
+   "answer": "Tai'jin teaches that the Darkspear grew stronger by adapting to life in the Horde. The tribe prepares beforehand and enters battle already empowered, rather than waiting to draw strength directly from fallen foes."
   },
   {
    "q": "What quest immediately follows In Favor of Spirituality?",
@@ -86,7 +86,7 @@
     "in favor of spirituality follow up",
     "next priest quest after taijin"
    ],
-   "answer": "When you turn this in, Tai'jin offers Garments of Spirituality, which sends you to help a wounded Horde soldier in the field."
+   "answer": "After you report to Tai'jin, he offers Garments of Spirituality. You go to help a wounded Horde soldier in the field."
   }
  ],
  "angles": [
@@ -126,5 +126,5 @@
  "attribution": [
   "In Favor of Spirituality"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Margoz (Classic)",
   "chain": []
  },
- "summary": "In northern Durotar, Margoz watches for the Burning Blade's growing threat. After the clash with fel corruption at Thunder Ridge, Orgnil Soulscar sends champions to seek the isolated orc shaman before they strike a nearby cultist stronghold. Margoz's counsel reveals Skull Rock, the Burning Blade's concealed cavern base.",
+ "summary": "In northern Durotar, Margoz keeps watch for the Burning Blade's growing threat. After the clash with fel corruption at Thunder Ridge, Orgnil Soulscar sends champions to seek the shaman at his lonely camp before they strike a nearby cultist stronghold. Margoz's counsel reveals Skull Rock as the Burning Blade's concealed cavern base.",
  "sections": [
   {
    "title": "A Hermit's Vigil",
-   "body": "After Thunder Ridge revealed the depth of fel taint, Orgnil Soulscar sees that strength alone cannot cleanse Durotar. He sends champions to Margoz, an experienced orc shaman keeping a lonely camp in the crags northeast of Razor Hill. Between Drygulch Ravine and the eastern sea, Margoz watches the northern reaches for dark omens that Orgrimmar's busy warriors often miss.",
+   "body": "After Thunder Ridge revealed the depth of fel taint, Orgnil Soulscar sees that strength alone cannot cleanse Durotar. So he sends champions to Margoz, an experienced orc shaman at a lonely camp in the crags northeast of Razor Hill. Between Drygulch Ravine and the eastern sea, Margoz watches the northern reaches for dark omens that Orgrimmar's busy warriors often miss.",
    "spoiler": 0
   },
   {
    "title": "The Threat of Skull Rock",
-   "body": "Margoz knows the Burning Blade's power base in northern Durotar: Skull Rock, a concealed cavern system carved into the mountain cliffs outside Orgrimmar's southern gates. The cultists are closer to Thrall's capital than the Warchief's guards realize, and Skull Rock's hidden passages can conceal a demonic ambush. Margoz gives those sent against the coven counsel so they do not enter blindly.",
+   "body": "Margoz knows where the Burning Blade has built its power in northern Durotar: Skull Rock, a concealed cavern system carved into the mountain cliffs outside Orgrimmar's southern gates. The cultists are closer to Thrall's capital than the Warchief's guards realize. Hidden passages there could shelter a demonic ambush, so Margoz gives counsel to those sent against the coven before they enter.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is margoz",
     "margoz npc"
    ],
-   "answer": "Margoz is an experienced orc shaman loyal to the Horde, keeping a secluded camp in northeastern Durotar. He studies dark magic and watches the demonic corruption spreading through the region."
+   "answer": "Margoz is an experienced orc shaman loyal to the Horde, keeping a lonely camp in northeastern Durotar. He studies dark magic and watches the demonic corruption spreading through the region."
   },
   {
    "q": "Where do I find Margoz?",
@@ -55,7 +55,7 @@
     "why speak with margoz",
     "orgnil soulscar margoz"
    ],
-   "answer": "Orgnil Soulscar sends you to Margoz because the shaman has studied the local Burning Blade cultists. Before you assault their stronghold, Orgnil wants you to receive Margoz's spiritual wisdom and practical counsel."
+   "answer": "Orgnil Soulscar sends you to Margoz because the shaman has studied the local Burning Blade cultists. Before you assault their stronghold, Orgnil wants you to hear Margoz's spiritual wisdom and practical counsel."
   },
   {
    "q": "What is Skull Rock?",
@@ -63,7 +63,7 @@
     "skull rock lore",
     "what is skull rock"
    ],
-   "answer": "Skull Rock is a concealed system of mountain caves just south of Orgrimmar's eastern walls. It is a fortified Burning Blade coven where demon-worshiping cultists conduct rituals close to the Horde's capital."
+   "answer": "Skull Rock is a concealed system of mountain caves just south of Orgrimmar's eastern walls. There, Burning Blade cultists worship demons and conduct rituals close to the Horde's capital."
   },
   {
    "q": "What happens after finding Margoz?",
@@ -79,21 +79,21 @@
     "is margoz evil",
     "is margoz a cultist"
    ],
-   "answer": "No. Margoz is a devoted Horde shaman who works to purge demonic influence and keep young champions on an honorable, uncorrupted path."
+   "answer": "No. Margoz is a devoted Horde shaman who works to purge demonic influence and guide young champions along an honorable, uncorrupted path."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can see Margoz's patient wisdom in his watch on the wilderness margins, where he senses spiritual corruption before it becomes war."
+   "text": "As a shaman, you can see Margoz's patient wisdom in his watch along the wilderness margins. He senses spiritual corruption before it becomes war."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can hear Margoz's warning: demon cults lurk within striking distance of Orgrimmar."
+   "text": "As a member of the Horde, you hear Margoz's warning: demon cults lurk within striking distance of Orgrimmar."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, meeting Margoz reminds you of fel power's lingering temptation and urges the new generation toward a pure, honorable path."
+   "text": "As an orc, meeting Margoz reminds you that fel power still tempts your people. He urges the new generation toward a pure, honorable path."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Margoz (Classic)"
  ],
- "style": 1
+ "style": 2
 }

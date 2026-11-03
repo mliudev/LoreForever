@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ruins of Constellas"
  },
- "summary": "The Ruins of Constellas are the shattered remnants of an ancient night elf settlement in Felwood, nestled near the roots of Mount Hyjal. Today, the once-sacred grounds are overrun by the Jadefire satyrs, who have violently profaned the settlement's moonwell with demonic fel magic.",
+ "summary": "At Mount Hyjal’s roots, Jadefire satyrs hold the Ruins of Constellas in Felwood. Their fel magic has corrupted the settlement’s moonwell.",
  "sections": [
   {
    "title": "A Defiled Sanctuary",
-   "body": "The classical stone arches and crumbling plazas of Constellas reveal that this was once an idyllic night elven community. During the Third War, the Burning Legion's march through Felwood shattered the haven, leaving it exposed to lingering demonic corruption. Now, the foul Jadefire satyrs hold dominion over the stones. Led by Xavathras, they actively tend to a defiled moonwell, transforming pure waters into a font of noxious fel power on behalf of their master, Lord Xavaric.",
+   "body": "Broken arches and crumbling plazas mark the night elf settlement that once stood at Constellas. The Burning Legion marched through Felwood during the Third War and shattered the haven. Demonic corruption followed. Now Jadefire satyrs hold the ruins.\n\nXavathras leads the satyrs as they tend the defiled moonwell. They turn its pure waters into fel power for their master, Lord Xavaric.",
    "spoiler": 0
   },
   {
    "title": "The Struggle for Cleansing",
-   "body": "The defilement of Constellas weighs heavily on all who would heal Felwood. To those working to cleanse the forest, Xavathras and his Jadefire are among its foulest corrupters, and the satyrs fiercely guard their tents among the ruins and the tainted moonwell at their heart against any who come to end their work.",
+   "body": "Those who work to cleanse Felwood face a foul corruption at Constellas. Xavathras and his Jadefire satyrs guard their tents among the ruins. At the heart of the settlement lies the tainted moonwell. The satyrs fight to keep their work safe from anyone who would end it.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what was constellas",
     "who built constellas"
    ],
-   "answer": "Constellas was an ancient night elf settlement near the base of Mount Hyjal. Its architecture and moonwell indicate it served as a serene grove dedicated to Elune and nature before the Burning Legion invaded the forest during the Third War."
+   "answer": "Constellas was an ancient night elf settlement near Mount Hyjal’s base. Its architecture and moonwell suggest a serene grove devoted to Elune and nature before the Burning Legion invaded Felwood during the Third War."
   },
   {
    "q": "Who controls the ruins now?",
@@ -37,7 +37,7 @@
     "who rules constellas",
     "jadefire satyrs constellas"
    ],
-   "answer": "The ruins are occupied by the Jadefire satyrs, led on-site by Xavathras. They cultivate demonic energies throughout the area under the overarching commands of Lord Xavaric."
+   "answer": "Jadefire satyrs occupy the ruins, led by Xavathras. They cultivate demonic energies throughout the area under Lord Xavaric’s command."
   },
   {
    "q": "What happened to the moonwell in Constellas?",
@@ -46,7 +46,7 @@
     "constellas moonwell",
     "why is the well green"
    ],
-   "answer": "The moonwell was seized by the Jadefire satyrs and corrupted with fel magic. Instead of channeling the soothing blessings of Elune, it has been twisted into a toxic source of fel energy cultivated by Xavathras."
+   "answer": "Jadefire satyrs seized the moonwell and corrupted it with fel magic. Xavathras tends it as a toxic source of fel energy instead of a wellspring of Elune’s soothing blessings."
   },
   {
    "q": "Who is Xavaric?",
@@ -54,17 +54,17 @@
     "xavaric",
     "who does xavathras serve"
    ],
-   "answer": "Xavaric is another cruel satyr of the Jadefire, and the one Xavathras serves. The corrupted moonwell at Constellas is cultivated on his behalf."
+   "answer": "Xavaric is a cruel Jadefire satyr served by Xavathras. The satyrs tend Constellas’s corrupted moonwell on Xavaric’s behalf."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of Constellas and its corrupted moonwell is an egregious affront to Elune, demanding that night elves drive out the Jadefire satyrs."
+   "text": "As a night elf, you may see Constellas’s desecration and its corrupted moonwell as an affront to Elune. Driving out the Jadefire satyrs would restore what they defiled."
   },
   {
    "target": "class:Druid",
-   "text": "A once-sacred moonwell now tended by demons makes Constellas a stark reminder of the druidic vow to restore balance to Felwood."
+   "text": "As a druid, you may see Constellas’s defiled moonwell as a reminder of your vow to restore balance to Felwood."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Ruins of Constellas"
- ]
+ ],
+ "style": 2
 }

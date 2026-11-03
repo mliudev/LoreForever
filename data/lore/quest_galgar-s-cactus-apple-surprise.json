@@ -17,16 +17,16 @@
   "wiki": "Galgar's Cactus Apple Surprise",
   "chain": []
  },
- "summary": "In the Valley of Trials, Galgar sends fresh recruits to gather cactus apples for his cooling treat. The work teaches them to forage and survive in Durotar's arid land.",
+ "summary": "In the Valley of Trials, Galgar sends new recruits to gather cactus apples for a cooling treat. Foraging helps them learn to live in Durotar's dry land.",
  "sections": [
   {
    "title": "Surviving the Red Wastes",
-   "body": "Young orcs and Darkspear trolls take their first steps as defenders of the Horde in the Valley of Trials. Combat drills and fierce trials against native beasts quickly bring exhaustion and thirst. Learning to live off the land matters as much as learning to swing an axe. Cacti across the valley bear ripe, water-rich apples that offer relief from the desert sun.",
+   "body": "Young orcs and Darkspear trolls begin their work as defenders of the Horde in the Valley of Trials. Combat drills and fierce trials against native beasts leave them tired and thirsty. Learning to live off the land matters as much as learning to swing an axe. Across the valley, cacti bear ripe apples rich with water, a welcome relief from the desert sun.",
    "spoiler": 0
   },
   {
    "title": "A Valley Delicacy",
-   "body": "Galgar tends his cooking in the training grounds, where he has made an art of foraging. His Cactus Apple Surprise is known among the valley's people for cooling a person faster than a plunge into river water. He sends eager recruits to gather prickly fruit from nearby cacti, keeping his kitchen stocked and ensuring new wanderers do not set out into Durotar hungry.",
+   "body": "Galgar cooks in the training grounds and knows how to forage. His Cactus Apple Surprise is said to cool a person faster than a plunge into river water. He sends eager recruits to gather prickly fruit from nearby cacti. That keeps his kitchen stocked and ensures new wanderers do not set out into Durotar hungry.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what is the surprise",
     "galgars recipe"
    ],
-   "answer": "Cactus Apple Surprise is a popular local confection Galgar makes with fresh apples gathered from wild desert cacti. Trainees prize the refreshing snack for quick relief and hydration beneath Durotar's blistering sun."
+   "answer": "Cactus Apple Surprise is a popular local sweet Galgar makes with fresh apples gathered from wild desert cacti. Trainees prize the refreshing snack for quick relief and hydration beneath Durotar's blistering sun."
   },
   {
    "q": "Where are cactus apples found?",
@@ -64,7 +64,7 @@
     "why gather cactus apples",
     "why does galgar need apples"
    ],
-   "answer": "The Valley of Trials is intensely hot, and Galgar cannot leave his post to search the desert himself. He offers portions of his prized treat to any passing novice willing to gather its raw ingredients from the brush."
+   "answer": "The Valley of Trials is intensely hot, and Galgar cannot leave his post to search the desert himself. He offers portions of his prized treat to passing novices who gather its raw ingredients from the brush."
   },
   {
    "q": "Does this quest connect to a larger storyline?",
@@ -73,7 +73,7 @@
     "cactus apple follow up",
     "what comes after cactus apple surprise"
    ],
-   "answer": "No. The foraging task acquaints new recruits with gathering local resources as they complete their initial trials for the Horde."
+   "answer": "No. The foraging acquaints new recruits with gathering local resources as they complete their first trials for the Horde."
   },
   {
    "q": "Why is foraging important in the Valley of Trials?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Galgar's Cactus Apple Surprise"
  ],
- "style": 1
+ "style": 2
 }

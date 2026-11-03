@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Golakka Hot Springs"
  },
- "summary": "Golakka Hot Springs is a geothermal basin in western Un'Goro Crater, nestled just north of Terror Run. Its bubbling pools and erupting geysers are fueled by the intense volcanic activity of nearby Fire Plume Ridge. The mineral-rich waters attract eccentric researchers, alchemists in search of exotic reagents, and wandering water elementals known as Steaming Furies.",
+ "summary": "In western Un'Goro Crater, Golakka Hot Springs send geysers skyward north of Terror Run. Fire Plume Ridge's heat draws researchers and alchemists to the steaming pools.",
  "sections": [
   {
    "title": "Boiling Waters and Volcanic Steam",
-   "body": "Situated in the western reaches of Un'Goro Crater, the Golakka Hot Springs are a direct product of the subterranean heat radiating from Fire Plume Ridge. Scalding water bubbles continuously to the surface, shaping tiered mineral terraces and violently erupting geysers. The environment is heavily prowled by Steaming Furies, elemental manifestations born from the convergence of subterranean groundwater and volcanic heat. Despite the danger, the springs frequently draw explorers, herbalists, and researchers fascinated by the crater's unique geology.",
+   "body": "Golakka Hot Springs bubble north of Terror Run in western Un'Goro Crater. Heat from Fire Plume Ridge drives scalding water up through the ground. It leaves mineral terraces, and geysers break across the basin. Steaming Furies prowl the pools where groundwater meets volcanic heat. Explorers, herbalists, and researchers still come to study the crater's unusual geology.",
    "spoiler": 0
   },
   {
    "title": "Curious Inhabitants and Strange Chemistry",
-   "body": "The unique properties of Golakka's waters have drawn interest beyond simple sightseeing. Alchemists value the geothermally enriched spring water as a potent catalytic reagent, even utilizing it in delicate concotions such as love potions. The geothermal vent also hosts quirky visitors, such as Spark Nilminer perched atop the central geyser vent, and draws the researcher Krakle, who seeks to decipher how the hot springs directly tap into the volcanic heart of the crater.",
+   "body": "Alchemists prize Golakka's spring water as a strong catalyst. They use it even in delicate concoctions such as love potions. Spark Nilminer, a curious visitor, perches atop the central geyser vent. Researcher Krakle comes to study how the springs reach into the crater's volcanic heart.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "geothermal heat un'goro",
     "fire plume connection"
    ],
-   "answer": "The hot springs are heated by the intense volcanic system beneath Un'Goro Crater, tied directly to Fire Plume Ridge. Magma beneath the crater floor superheats subterranean water reserves, forcing boiling, mineral-rich water and steam up through geysers and terraced pools."
+   "answer": "Fire Plume Ridge's volcanic system heats the springs beneath Un'Goro Crater. Magma superheats underground water, sending boiling, mineral-rich water and steam through the geysers and terraced pools."
   },
   {
    "q": "What creatures live in Golakka Hot Springs?",
@@ -37,7 +37,7 @@
     "what lives in golakka",
     "steaming fury"
    ],
-   "answer": "The most prominent creatures patrolling the shores and pools are Steaming Furies. These are elemental spirits of living water transformed by the searing heat of the volcanic vents into roiling, volatile steam."
+   "answer": "Steaming Furies prowl the shores and pools. Volcanic heat transforms living water into roiling, volatile steam."
   },
   {
    "q": "What is the water from the hot springs used for?",
@@ -46,7 +46,7 @@
     "hot springs love potion",
     "hot springs reagents"
    ],
-   "answer": "The mineral-infused water is prized by alchemists and eccentric brewers for its unique chemical properties. Notably, pristine samples taken from the springs are sought after as a vital reagent in brewing specialized concotions, including potent love potions."
+   "answer": "Alchemists and eccentric brewers value the water for its unusual chemical properties. Pristine spring water goes into special brews, including potent love potions."
   },
   {
    "q": "Who is Krakle and what was he doing here?",
@@ -55,17 +55,17 @@
     "krakle hot springs",
     "researcher at the hot springs"
    ],
-   "answer": "Krakle is a researcher studying the geothermal relationship between Golakka Hot Springs and Fire Plume Ridge, gathering observations and temperature readings around the springs."
+   "answer": "Krakle studies the geothermal link between Golakka Hot Springs and Fire Plume Ridge. He gathers observations and temperature readings around the springs."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "The extreme geological activity provides endless fascination for gnomes like Spark Nilminer, who braves the scalding pressure vents to observe geothermal mechanics up close."
+   "text": "As a gnome, you may share Spark Nilminer's fascination with the fierce geology here. He braves the scalding pressure vents to watch geothermal forces at work."
   },
   {
    "target": "class:Shaman",
-   "text": "The hot springs showcase an intense interplay between fire and water, where the elemental clash gives rise to boiling Steaming Furies along the mineral banks."
+   "text": "As a shaman, you can see fire and water clash in the hot springs. Their meeting gives rise to boiling Steaming Furies along the mineral banks."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Golakka Hot Springs"
- ]
+ ],
+ "style": 2
 }

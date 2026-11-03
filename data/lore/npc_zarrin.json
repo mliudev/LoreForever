@@ -8,11 +8,11 @@
   "wiki": "Zarrin",
   "refs": 1
  },
- "summary": "Behind Dolanaar's inn, Zarrin teaches the ways of Kaldorei cooking. He tends an open hearth on Teldrassil, where young night elves and visitors learn to prepare meals from the tree's native flora and fauna.",
+ "summary": "Behind Dolanaar's inn, Zarrin teaches young night elves and visitors to cook with Teldrassil's native plants and animals. He tends an open hearth where they learn to prepare meals.",
  "sections": [
   {
    "title": "Hearthkeeper of Dolanaar",
-   "body": "Behind Dolanaar's inn, Zarrin tends an open cooking fire and teaches Kaldorei culinary arts. Teldrassil's native plants and animals provide food for those who live here. Zarrin shows visitors how to forage and prepare meals at home.",
+   "body": "Behind Dolanaar's inn, Zarrin tends an open cooking fire and teaches Kaldorei cooking. Teldrassil's native plants and animals feed those who live here. Zarrin shows visitors how to forage and prepare meals at home.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "zarrin trainer",
     "what does zarrin teach"
    ],
-   "answer": "Zarrin teaches the basics of cooking and traditional night elf recipes to novices."
+   "answer": "Zarrin teaches beginners the basics of cooking and traditional night elf recipes."
   },
   {
    "q": "What tasks does Zarrin offer?",
@@ -40,7 +40,7 @@
     "zarrin quest",
     "recipe of the kaldorei quest"
    ],
-   "answer": "Zarrin asks travelers to help prepare traditional dishes through Recipe of the Kaldorei, teaching newcomers local cooking practices."
+   "answer": "Zarrin asks travelers to help prepare traditional dishes through Recipe of the Kaldorei, where newcomers learn local cooking practices."
   }
  ],
  "angles": [
@@ -50,7 +50,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "Zarrin keeps everyday Kaldorei foodways alive, passing traditional tastes and methods on beneath the World Tree's canopy."
+   "text": "As a night elf, you know Zarrin keeps Kaldorei foodways alive, passing on traditional tastes and methods beneath the World Tree's canopy."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Zarrin"
  ],
- "style": 1
+ "style": 2
 }

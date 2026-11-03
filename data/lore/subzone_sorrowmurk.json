@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Sorrowmurk"
  },
- "summary": "The Sorrowmurk is the treacherous wetland expanse lying directly east of the Pool of Tears in the Swamp of Sorrows. Long dominated by patrolling green dragonkin guarding the approach to the Sunken Temple, it remains one of the most perilous regions in the eastern marshes.",
+ "summary": "Green dragonkin guard the way to the Sunken Temple in Sorrowmurk. East of the Pool of Tears, this wetland remains one of the most perilous reaches of the eastern marshes.",
  "sections": [
   {
    "title": "A Perilous Border",
-   "body": "Stretching out along the eastern edge of the Pool of Tears, the Sorrowmurk is a dense and murky mire that borders the Forbidding Sea. For years, the waters and tangled boughs have crawled with ferocious green dragonspawn and towering drakes, remnants of the brood sent to watch over the submerged temple of Atal'Hakkar. Their presence ensures that only seasoned travelers dare wander through its sodden reaches.",
+   "body": "Along the eastern edge of the Pool of Tears, you reach Sorrowmurk where the mire meets the Forbidding Sea. Green dragonspawn and towering drakes patrol its waters and tangled boughs. They are remnants of the brood sent to watch over the submerged Temple of Atal'Hakkar. Their presence makes these sodden reaches perilous for any traveler.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is sorrowmurk",
     "sorrowmurk map"
    ],
-   "answer": "The Sorrowmurk lies in the easternmost section of the Swamp of Sorrows, just beyond the Pool of Tears and the sunken ruins of the Temple of Atal'Hakkar, bordering the coast."
+   "answer": "Sorrowmurk lies along the coast in the easternmost Swamp of Sorrows, beyond the Pool of Tears and the sunken ruins of the Temple of Atal'Hakkar."
   },
   {
    "q": "What creatures inhabit the Sorrowmurk?",
@@ -32,7 +32,7 @@
     "what lives in sorrowmurk",
     "sorrowmurk enemies"
    ],
-   "answer": "The region is notorious for green dragonkin, including aggressive dragonspawn and large drakes that fiercely patrol the marsh around the temple waters."
+   "answer": "Green dragonkin inhabit Sorrowmurk. Aggressive dragonspawn and large drakes patrol the marsh around the temple waters."
   },
   {
    "q": "Why are there green dragons in the Sorrowmurk?",
@@ -41,13 +41,13 @@
     "green dragonflight swamp of sorrows",
     "temple dragons"
    ],
-   "answer": "The Green Dragonflight was tasked by Ysera to watch over the Pool of Tears and ensure that the evil sunken within the Temple of Atal'Hakkar remained contained."
+   "answer": "Ysera tasked the Green Dragonflight with watching over the Pool of Tears and keeping the evil sunken within the Temple of Atal'Hakkar contained."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The sorrowful corruption touching the Emerald Dream's guardians in these wetlands makes the green dragonkin here a tragic sight for any servant of nature."
+   "text": "As a druid, you may find the green dragonkin here a tragic sight. Corruption touches the Emerald Dream's guardians in these wetlands."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Sorrowmurk"
- ]
+ ],
+ "style": 2
 }

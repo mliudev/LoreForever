@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Northshire Valley serves as the training ground and sanctuary for fledgling Alliance champions, where keeping peace and recovering stolen goods from encroaching vermin is vital work."
+   "text": "As an Alliance champion, you help keep Northshire Valley peaceful and recover stolen goods from the encroaching vermin."
   },
   {
    "target": "race:Human",
-   "text": "Northshire Abbey is the cradle for newly recruited human adventurers stepping into service to protect Stormwind's outlying territories."
+   "text": "As a human adventurer, you begin your service at Northshire Abbey, protecting Stormwind's outlying territories."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "shinyfinder narf lore",
     "narf kobold"
    ],
-   "answer": "Shinyfinder Narf is a kobold leader located deep in the back of the mine near Northshire Valley. He has been hoarding stolen books and calling out for picture books, prompting local authorities to order his cache recovered.",
+   "answer": "Shinyfinder Narf leads kobolds deep in the mine near Northshire Valley. He hoards stolen books and calls for picture books, so local authorities have ordered his cache recovered.",
    "q": "Who is Shinyfinder Narf?"
   },
   {
@@ -37,7 +37,7 @@
     "what is picture for narf",
     "why books stolen"
    ],
-   "answer": "Kobolds venturing from the mine have been seen shouting 'Picture for Narf!' while snatching reading material. Rather than scholarly interest, Narf appears obsessed with gathering illustrated works, stuffing them into a sack deep within the tunnels.",
+   "answer": "Kobolds from the mine have been seen shouting, “Picture for Narf!” as they snatch books. Narf seeks illustrated works and keeps them in a sack deep in the tunnels.",
    "q": "Why are the kobolds stealing books?"
   },
   {
@@ -45,7 +45,7 @@
     "who is brother paxton",
     "paxton books"
    ],
-   "answer": "Brother Paxton is a resident of Northshire Abbey to whom the stolen books belong. Once the recovered sack of books reaches Marshal McBride, they are arranged to be returned directly to Brother Paxton's collection.",
+   "answer": "The stolen books belong to Brother Paxton, who lives at Northshire Abbey. Marshal McBride receives the recovered sack and arranges for the books to return to Brother Paxton's collection.",
    "q": "Whose books were stolen?"
   },
   {
@@ -53,7 +53,7 @@
     "who is marshal mcbride",
     "where is mcbride"
    ],
-   "answer": "Marshal McBride is the local law enforcement officer stationed just inside Northshire Abbey, responsible for maintaining order, protecting the abbey grounds, and organizing defense against the local kobold menace.",
+   "answer": "Marshal McBride is the law enforcement officer stationed just inside Northshire Abbey. He keeps order, protects the abbey grounds and organizes defense against the local kobolds.",
    "q": "Who is Marshal McBride?"
   },
   {
@@ -62,7 +62,7 @@
     "where to find narf",
     "mine location"
    ],
-   "answer": "Narf resides in the deeper, more dangerous recesses of the local mine in Northshire Valley, surrounded by meaner kobolds who defend their scavenged hoard.",
+   "answer": "Shinyfinder Narf lives in the deeper, more dangerous reaches of the mine in Northshire Valley. Meaner kobolds surround him and guard his hoard.",
    "q": "Where can Shinyfinder Narf be found?"
   },
   {
@@ -70,7 +70,7 @@
     "is narf dangerous",
     "can you solo narf"
    ],
-   "answer": "While common kobolds outside the mine are nuisance scavengers, the kobolds dwelling deeper in the tunnels alongside Narf are far meaner and more hostile, making Narf and his den dangerous for solitary adventurers.",
+   "answer": "The kobolds deeper in the mine with Narf are meaner and more hostile than the common scavengers outside. Narf and his den are dangerous for anyone traveling alone.",
    "q": "How dangerous is the mine where Narf lives?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "A peculiar incident has disrupted the peace of Northshire Valley: kobolds lurking around the region have been seen scurrying away with books, crying out 'Picture for Narf!' While kobolds are typically infamous for scavenging candles and shiny trinkets, one particular cave-dweller known as Shinyfinder Narf has developed an appetite for illustrated tomes, accumulating a whole sack of them in his subterranean hideout.",
+   "body": "Kobolds in Northshire Valley have been seen fleeing with books and crying, “Picture for Narf!” Most gather candles and shiny trinkets, but Shinyfinder Narf seeks illustrated tomes. He has collected a sack of them in his hideout beneath the mine.",
    "spoiler": 0,
    "title": "The Kobold Book Thief"
   },
   {
-   "body": "The deeper shafts of the mine shelter the tougher, meaner breeds of kobold who fiercely guard Narf and his odd hoard. Recovering the stolen literature requires braving these darker tunnels to confront Narf directly. Once pried from the creature's clutches, the sack of books is brought to Marshal McBride at Northshire Abbey, who ensures the valuable volumes are safely returned to Brother Paxton.",
+   "body": "The deeper shafts hold tougher, meaner kobolds who guard Narf and his strange hoard. To recover the stolen books, you face those darker tunnels and confront him. Then the sack goes to Marshal McBride at Northshire Abbey, who sees that the valuable volumes return to Brother Paxton.",
    "spoiler": 1,
    "title": "Recovering the Abbey's Tomes"
   }
  ],
- "summary": "The Big Picture is a Northshire Valley task concerning a thieving kobold named Shinyfinder Narf, who has been hoarding stolen books deep within the local mine. Adventurers are dispatched by local authorities to recover the illustrated volumes and return them to Marshal McBride at Northshire Abbey.",
+ "summary": "In Northshire Valley, kobolds carry stolen illustrated books into the mine for Shinyfinder Narf. The volumes are to be returned to Marshal McBride at Northshire Abbey.",
  "attribution": [
   "In-game quest text: The Big Picture"
- ]
+ ],
+ "style": 2
 }

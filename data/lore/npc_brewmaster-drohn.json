@@ -8,16 +8,16 @@
   "wiki": "Brewmaster Drohn",
   "refs": 3
  },
- "summary": "Above Ratchet's docks, Brewmaster Drohn tends his brewing craft. The orc lives just uphill from the port, making potent drinks with methods tied to the wandering pandaren Chen Stormstout. Travelers who find discarded kegs across Kalimdor are sent to Drohn's porch.",
+ "summary": "On the hill above Ratchet, Brewmaster Drohn tends his brewing craft. The orc lives just uphill from the port, using methods linked to the wandering pandaren Chen Stormstout. Travelers who find discarded kegs across Kalimdor are sent to Drohn's porch.",
  "sections": [
   {
    "title": "A Master of the Craft in Ratchet",
-   "body": "Brewmaster Drohn brews from his home on the hill above Ratchet's goblin docks. Rather than devote himself to combat, the orc has given his craft to brewing. He lives peacefully in the neutral haven established by Gazlowe's Steamwheedle cartel. While many orcs favor coarse grog or simple spirits, Drohn works with rare ingredients, carefully balanced flavors, and methods seldom practiced among his kin.",
+   "body": "Brewmaster Drohn brews at his home on the hill above Ratchet's goblin docks. The orc chose brewing over combat and lives in the neutral haven Gazlowe's Steamwheedle cartel established. Many orcs favor coarse grog or simple spirits. Drohn instead works with rare ingredients, balanced flavors and methods seldom practiced among his kin.",
    "spoiler": 0
   },
   {
    "title": "The Pandaren Connection",
-   "body": "Brewmaster Drohn learned brewing through a mentor who studied under Chen Stormstout, the pandaren wanderer who fought beside Rexxar and the Horde during the founding of Durotar. Chen also taught Drohn to make Trogg Ale. When travelers find Chen's discarded kegs in the wilds, Drohn is the only local authority who can identify their ingredients and recreate the wanderer's potent brews.",
+   "body": "Brewmaster Drohn learned brewing from a mentor who studied under Chen Stormstout. The pandaren wanderer fought beside Rexxar and the Horde during the founding of Durotar. Chen also taught Drohn to make Trogg Ale. When travelers find Chen's discarded kegs in the wilds, Drohn is the local authority who can identify their ingredients and recreate the wanderer's potent brews.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how does he know chen",
     "drohn and chen"
    ],
-   "answer": "Drohn learned from a mentor who was taught to brew Stormstout by Chen Stormstout. Chen later taught Drohn how to make Trogg Ale."
+   "answer": "Drohn learned from a mentor who was taught to brew Stormstout by Chen Stormstout. Chen also taught Drohn how to make Trogg Ale."
   },
   {
    "q": "What should I do if I find Chen's Empty Keg?",
@@ -64,7 +64,7 @@
     "drohn recipes",
     "drohns distillery brews"
    ],
-   "answer": "Drohn makes potent brews, including Trogg Ale and Chen Stormstout's namesake Stormstout. They call for tusks, glands, and other parts from beasts found across the Barrens."
+   "answer": "Drohn makes potent brews, including Trogg Ale and Chen Stormstout's namesake Stormstout. They call for tusks, glands and other parts from beasts found across the Barrens."
   },
   {
    "q": "Where exactly is Drohn located?",
@@ -79,11 +79,11 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "If you practice cooking, Drohn's skill lies in blending rare flora and fauna into fine drinks in the desert."
+   "text": "If you practice cooking, Drohn blends rare flora and fauna into fine drinks in the desert."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you may see Drohn's brewing as one way to turn the peace of Durotar and the Barrens into a craft, unlike the fortresses many warriors built after following Thrall to Kalimdor."
+   "text": "As an orc, you may see Drohn's brewing as one way to make a craft of the peace in Durotar and the Barrens. Many warriors built fortresses after following Thrall to Kalimdor."
   },
   {
    "target": "faction:Alliance",
@@ -108,5 +108,5 @@
  "attribution": [
   "Brewmaster Drohn"
  ],
- "style": 1
+ "style": 2
 }

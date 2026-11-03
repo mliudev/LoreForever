@@ -22,16 +22,16 @@
    "Counterattack! (Classic)"
   ]
  },
- "summary": "At Regthar Deathgate’s outpost west of the Crossroads, Kolkar warriors strike back after their leaders fall. They have crossed from Desolace, and Warlord Krom'zar leads their charge.",
+ "summary": "At Regthar Deathgate’s outpost west of the Crossroads, Kolkar warriors strike back for their fallen leaders. Reinforcements have crossed from Desolace under Warlord Krom'zar.",
  "sections": [
   {
    "title": "Vengeance from Desolace",
-   "body": "The Kolkar have suffered a deep humiliation in the Barrens. Barak Kodobane, Verog the Dervish, and Hezrul Bloodmark are dead, leaving the remaining centaur shattered and without direction. Word of their defeat travels west across the mountains to their ancestral homeland in Desolace. There, a fresh force of hardened Kolkar warriors rallies instead of scattering into the scrubland. Burning for blood and retribution, they cross into the Barrens and march against the young Horde encampments.",
+   "body": "The Kolkar have been humiliated in the Barrens. Barak Kodobane, Verog the Dervish, and Hezrul Bloodmark are dead, leaving the remaining centaur shattered and without direction. News of their defeat crosses the mountains to Desolace, their ancestral homeland. There, hardened Kolkar warriors rally instead of scattering into the scrubland. Burning for blood and retribution, they enter the Barrens and march against the young Horde encampments.",
    "spoiler": 0
   },
   {
    "title": "Defense of the Bunkers",
-   "body": "Kolkar warriors assault the fortified Horde bunkers west of the Crossroads, where Regthar Deathgate commands the defense. Waves of invaders clash with the Horde grunts stationed there. Warlord Krom'zar leads the warband, his banner rallying the centaur as they charge. The defenders must hold the line, fell Krom'zar, and tear down his war banner to break the centaur threat across the central plains.",
+   "body": "Kolkar warriors assault the Horde bunkers west of the Crossroads, where Regthar Deathgate commands the defense. Waves of invaders clash with the Horde grunts stationed there. Warlord Krom'zar leads the warband, and his banner rallies the centaur as they charge. The defenders must hold the line, kill Krom'zar, and tear down his banner to break the centaur threat across the central plains.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "kolkar reinforcements source",
     "desolace centaur"
    ],
-   "answer": "The reinforcements cross the western mountain passes from Desolace, the rugged homeland where most centaur clans dwell."
+   "answer": "The reinforcements cross the western mountain passes from Desolace, the rugged homeland of most centaur clans."
   },
   {
    "q": "Who is Warlord Krom'zar?",
@@ -61,7 +61,7 @@
     "krom'zar lore",
     "warlord kromzar"
    ],
-   "answer": "Warlord Krom'zar leads the Kolkar warband from Desolace. He charges Regthar’s bunkers beneath his war banner, which Horde defenders tear down after killing him."
+   "answer": "Warlord Krom'zar leads the Kolkar warband from Desolace. He charges Regthar’s bunkers beneath his war banner. Horde defenders kill him and tear it down."
   },
   {
    "q": "Does Thrall learn about this battle?",
@@ -88,7 +88,7 @@
     "banner piece quest item",
     "why take banner"
    ],
-   "answer": "A torn piece of Krom'zar’s banner is physical proof that the warlord is dead. It also marks the collapse of the centaur invasion."
+   "answer": "A torn piece of Krom'zar’s banner proves that the warlord is dead. It also marks the collapse of the centaur invasion."
   }
  ],
  "angles": [
@@ -130,5 +130,5 @@
  "attribution": [
   "Counterattack! (Classic)"
  ],
- "style": 1
+ "style": 2
 }

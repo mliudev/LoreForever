@@ -20,16 +20,16 @@
    "The Essence of Aku'Mai (Classic)"
   ]
  },
- "summary": "Je'neu Sancrea has found the naga harvesting sapphires in Blackfathom Deeps. At Zoram'gar Outpost, the shaman asks Horde adventurers to recover them before their power is misused.",
+ "summary": "At Zoram'gar Outpost, Je'neu Sancrea asks Horde adventurers to stop the naga's sapphire harvest in Blackfathom Deeps. He fears they will misuse the gems' power.",
  "sections": [
   {
    "title": "A Threat in the Depths",
-   "body": "Je'neu Sancrea watches over the Kaldorei ruins from the Zoram Strand. Naga now mine sapphire clusters in the submerged chambers of Blackfathom Deeps, where the gems grow along damp cavern walls. Sancrea senses the serpentine invaders mean to harness their power and seeks to stop the harvest before they can use it.",
+   "body": "From the Zoram Strand, Je'neu Sancrea watches over the Kaldorei ruins. Naga now mine sapphire clusters in the submerged chambers of Blackfathom Deeps, where the gems grow along damp cavern walls. Sancrea senses the serpentine invaders mean to harness their power, so he seeks to stop the harvest before they can use it.",
    "spoiler": 0
   },
   {
    "title": "Water Spirits and Arcane Power",
-   "body": "The Sapphires of Aku'mai carry elemental water energy and hold clinging water spirits. Adept sorcerers could use them to fuel dangerous arcane rituals or strengthen Aku'mai, the shadowy hydra whose presence fills the subterranean temple. Recovering the clusters keeps this potent reagent from the naga and helps guard the coastline against unchecked elemental magic.",
+   "body": "The Sapphires of Aku'mai carry elemental water energy and hold clinging water spirits. Adept sorcerers could fuel dangerous arcane rituals with them or strengthen Aku'mai, the shadowy hydra whose presence fills the subterranean temple. Recovering the clusters keeps this potent reagent from the naga and helps guard the coastline against unchecked elemental magic.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who starts essence of akumai",
     "jeneu sancrea location"
    ],
-   "answer": "Je'neu Sancrea, a Darkspear troll shaman, gives the request at Zoram'gar Outpost on the Zoram Strand in north-western Ashenvale."
+   "answer": "At Zoram'gar Outpost on the Zoram Strand in north-western Ashenvale, Je'neu Sancrea, a Darkspear troll shaman, makes the request."
   },
   {
    "q": "Why do the naga want the Sapphires of Aku'Mai?",
@@ -50,7 +50,7 @@
     "what are the crystals for",
     "sapphire purpose"
    ],
-   "answer": "The naga's exact purpose is unknown, but the sapphires hold potent elemental water energy and raw magical power that could fuel their spells."
+   "answer": "The naga's exact purpose is unknown. The sapphires hold potent elemental water energy and raw magical power that could fuel their spells."
   },
   {
    "q": "Where are the sapphire clusters found?",
@@ -59,7 +59,7 @@
     "sapphire of akumai location",
     "crystal spawns"
    ],
-   "answer": "Sapphire clusters line the cavern walls and floors in Blackfathom Deeps' outer tunnels and flooded passages, just inside the ruined underground entrance along the Zoram Strand."
+   "answer": "Sapphire clusters line the cavern walls and floors in Blackfathom Deeps' outer tunnels and flooded passages. They lie just inside the ruined underground entrance along the Zoram Strand."
   },
   {
    "q": "What is Aku'mai?",
@@ -92,15 +92,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can sense the restless water spirits bound within the crystals, a warning of corrupted elemental forces beneath the temple."
+   "text": "As a shaman, you can sense the restless water spirits bound within the crystals. They warn of corrupted elemental forces beneath the temple."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help guard the perilous foothold at Zoram'gar Outpost by keeping nearby naga from gaining raw magical power."
+   "text": "As a member of the Horde, you help guard the perilous foothold at Zoram'gar Outpost. Keeping nearby naga from gaining raw magical power helps defend it."
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you can look to Je'neu Sancrea, an observant Darkspear mystic who relies on communion with the spirits and ancestral wisdom to face the strange threats of Kalimdor."
+   "text": "As a troll, you can look to Je'neu Sancrea, an observant Darkspear mystic. He relies on communion with the spirits and ancestral wisdom to face Kalimdor's strange threats."
   }
  ],
  "keywords": [
@@ -125,5 +125,5 @@
  "attribution": [
   "The Essence of Aku'Mai (Classic)"
  ],
- "style": 1
+ "style": 2
 }

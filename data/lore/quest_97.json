@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (12)",
   "chain": []
  },
- "summary": "In Darkshire, Clerk Daltry matches the recovered handwriting to Stalvan Mistmantle. His report to Commander Althea Ebonlocke turns the Night Watch's suspicion into fact.",
+ "summary": "In Darkshire, Clerk Daltry matches the recovered handwriting to Stalvan Mistmantle. His report makes the Night Watch's suspicion certain.",
  "sections": [
   {
    "title": "A Match in the Records",
-   "body": "Back in Darkshire's town hall, Clerk Daltry compares the bloodstained journal page with signatures in the Town Registry. The handwriting is an exact match for Stalvan Mistmantle. After a trail through manors, inns, and civic records across the human kingdoms, the Night Watch now has the evidence to treat the danger as an urgent local threat.",
+   "body": "Back in Darkshire's town hall, Clerk Daltry compares the bloodstained journal page with signatures in the Town Registry. The handwriting matches Stalvan Mistmantle exactly. After the trail led through manors, inns, and civic records across the human kingdoms, the Night Watch now has proof that the danger is close at hand.",
    "spoiler": 0
   },
   {
    "title": "The Night Watch's Suspicions",
-   "body": "Commander Althea Ebonlocke has feared Stalvan from the start of the inquiry. Duskwood already faces feral worgen, skeletal undead, and lurking necromancers. An unaccounted-for murderer in the woods is another danger she cannot ignore. Daltry's confirmation sets the Night Watch on a course to find Stalvan and neutralize him once and for all.",
+   "body": "Commander Althea Ebonlocke has feared Stalvan from the beginning. Duskwood already faces feral worgen, skeletal undead, and lurking necromancers. She cannot ignore another danger: an unaccounted-for murderer in the woods. Daltry's confirmation sets the Night Watch on a course to find Stalvan and stop him for good.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "daltry handwriting match",
     "stalvan handwriting proof"
    ],
-   "answer": "Clerk Daltry compared the bloodstained journal page with signatures in Darkshire's Town Registry. The handwriting was an exact match for Stalvan Mistmantle, just as Commander Ebonlocke suspected."
+   "answer": "Clerk Daltry compared the bloodstained journal page with signatures in Darkshire's Town Registry. The handwriting matched Stalvan Mistmantle exactly, as Commander Ebonlocke suspected."
   },
   {
    "q": "Why does Commander Althea Ebonlocke care so much about Stalvan?",
@@ -47,7 +47,7 @@
     "ebonlocke investigation",
     "night watch stalvan"
    ],
-   "answer": "Commander Althea Ebonlocke leads the Night Watch, Darkshire's beleaguered militia. With terrors already threatening the land, she cannot let a violent, shadowy figure with a dark past remain loose and unaccounted for in Duskwood."
+   "answer": "Commander Althea Ebonlocke leads the Night Watch, Darkshire's beleaguered militia. With terrors already threatening the land, she cannot leave a violent, shadowy figure with a dark past loose and unaccounted for in Duskwood."
   },
   {
    "q": "Where does this step take place?",
@@ -56,7 +56,7 @@
     "quest location",
     "darkshire stalvan turn in"
    ],
-   "answer": "The whole step takes place within Darkshire. Clerk Daltry is in the town hall, while Commander Althea Ebonlocke patrols nearby on the town's central roads."
+   "answer": "This step takes place entirely within Darkshire. Clerk Daltry is in the town hall, while Commander Althea Ebonlocke patrols nearby on the town's central roads."
   },
   {
    "q": "What happens after reporting the handwriting match?",
@@ -65,7 +65,7 @@
     "after daltry match",
     "next step stalvan chain"
    ],
-   "answer": "After Clerk Daltry confirms the match, the investigation turns to actively hunting down Stalvan's whereabouts in Duskwood's haunted wilds."
+   "answer": "After Clerk Daltry confirms the match, the investigation turns to hunting for Stalvan's whereabouts in Duskwood's haunted wilds."
   },
   {
    "q": "Who was Stalvan Mistmantle originally?",
@@ -74,7 +74,7 @@
     "stalvan background",
     "stalvan mistmantle story"
    ],
-   "answer": "Stalvan Mistmantle once taught at the Moonbrook schoolhouse and later worked as a private tutor to the Flintridge family's children. His letters and journal pages lead from Moonbrook and Goldshire back to Duskwood, where he lives as a dangerous recluse in the woods."
+   "answer": "Stalvan Mistmantle once taught at the Moonbrook schoolhouse and later tutored the Flintridge family's children privately. His letters and journal pages lead from Moonbrook and Goldshire back to Duskwood, where he lives as a dangerous recluse in the woods."
   },
   {
    "q": "Why was handwriting analysis necessary?",
@@ -83,17 +83,17 @@
     "why did daltry check writing",
     "proving stalvan identity"
    ],
-   "answer": "Events and accusations about Stalvan span Moonbrook and Goldshire, leaving official records scattered. Darkshire's civic registry holds verified local samples that can definitively tie the foreign clues to this specific man."
+   "answer": "Events and accusations about Stalvan span Moonbrook and Goldshire, so official records are scattered. Darkshire's civic registry holds verified local samples that can definitively tie those foreign clues to this specific man."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance investigators, Stalvan's trail shows how Darkshire's battered leadership and wandering adventurers must work together to keep the southern territories secure."
+   "text": "For Alliance investigators, Stalvan's trail shows how Darkshire's battered leaders and wandering adventurers must work together to keep the southern territories secure."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you see the decay of your society reflected in respected tutors and rural towns slipping from civilization into madness and isolation."
+   "text": "As a human, you see your society's decay in respected tutors and rural towns slipping from civilization into madness and isolation."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "The Legend of Stalvan (12)"
  ],
- "style": 1
+ "style": 2
 }

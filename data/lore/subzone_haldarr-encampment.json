@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Haldarr Encampment"
  },
- "summary": "The Haldarr Encampment is a corrupted satyr outpost nestled in western Azshara, situated northeast of the Shadowsong Shrine and southwest of Valormok. Densely inhabited by the vicious Haldarr satyrs, it stands as a dangerous blight among the ancient elven ruins. It is also where an injured Night Elf Sentinel, Keldara Sunblade, can be found.",
+ "summary": "In western Azshara, Haldarr satyrs hold a corrupted outpost northeast of Shadowsong Shrine and southwest of Valormok. Their camp blights ancient elven ruins, and the injured Night Elf Sentinel Keldara Sunblade lies among them.",
  "sections": [
   {
    "title": "A Den of Demon-Spawn",
-   "body": "Perched among the broken stones of western Azshara, the Haldarr Encampment serves as a gathering ground for the Haldarr clan of satyrs. These twisted creatures, ancient remnants of the Highborne cursed by demonic corruption during the Sundering, actively hunt and harass any who traverse the autumn forests. The dense settlement poses an ongoing threat to both the Horde forces stationed at nearby Valormok and the dwindling Night Elf sentinels trying to monitor the region.",
+   "body": "Broken stones mark the Haldarr satyrs’ camp in western Azshara. These twisted creatures descend from the Highborne and were cursed by demonic corruption during the Sundering. They hunt and harass anyone crossing the autumn forests. Their crowded settlement threatens the Horde forces at nearby Valormok and the dwindling Night Elf sentinels watching the region.",
    "spoiler": 0
   },
   {
    "title": "The Captured Sentinel",
-   "body": "Amid the encampment's fiendish inhabitants lies Sentinel Keldara Sunblade, injured in the heart of enemy territory. Why she lingers among the satyrs is not recorded.",
+   "body": "Sentinel Keldara Sunblade lies injured among the satyrs, deep in enemy territory. No account tells why she remains there.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is haldarr",
     "who lives in haldarr encampment"
    ],
-   "answer": "The Haldarr Encampment is a corrupted settlement in western Azshara controlled by the Haldarr clan of satyrs. It lies southwest of the Horde outpost of Valormok and northeast of Shadowsong Shrine."
+   "answer": "Haldarr satyrs control a corrupted settlement in western Azshara, northeast of Shadowsong Shrine and southwest of Valormok."
   },
   {
    "q": "Who are the Haldarr?",
@@ -36,7 +36,7 @@
     "haldarr satyrs",
     "who are the satyrs here"
    ],
-   "answer": "The Haldarr are a vicious sect of satyrs inhabiting Azshara. Like all satyrs, they descend from ancient Night Elves who embraced demonic pacts during the War of the Ancients, cursed into goat-legged fiends serving the remnants of the Burning Legion's will."
+   "answer": "The Haldarr are a vicious sect of satyrs living in Azshara. Like all satyrs, they descend from ancient Night Elves who embraced demonic pacts during the War of the Ancients. They were cursed into goat-legged fiends who serve the remnants of the Burning Legion’s will."
   },
   {
    "q": "Who is Sentinel Keldara Sunblade?",
@@ -45,7 +45,7 @@
     "injured night elf",
     "who is the captive here"
    ],
-   "answer": "Sentinel Keldara Sunblade is a wounded Night Elf Sentinel found inside the Haldarr Encampment, surrounded by hostile satyrs. Why she is there is not recorded."
+   "answer": "Sentinel Keldara Sunblade is a wounded Night Elf Sentinel inside the Haldarr Encampment, surrounded by hostile satyrs. No account tells why she is there."
   },
   {
    "q": "Why is this camp dangerous to nearby travelers?",
@@ -53,17 +53,17 @@
     "is haldarr dangerous",
     "why clear haldarr"
    ],
-   "answer": "The camp is densely populated by aggressive satyrs who actively patrol and threaten the surrounding paths, endangering both Horde operations out of Valormok and any wandering scouts in the area."
+   "answer": "Aggressive satyrs crowd the camp and threaten the surrounding paths. They endanger Horde operations from Valormok and any wandering scouts in the area."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, the Haldarr satyrs are a shameful, enduring reminder of the ancient Highborne's descent into demonic madness."
+   "text": "For the Kaldorei, the Haldarr satyrs remain a shameful reminder of the ancient Highborne’s descent into demonic madness."
   },
   {
    "target": "faction:Horde",
-   "text": "Positioned just southwest of Valormok, this dense nest of demons poses an immediate threat to Horde scouts and supply lines pushing across Azshara's cliffs."
+   "text": "Just southwest of Valormok, this dense nest of demons threatens Horde scouts and supply lines pushing across Azshara’s cliffs."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Haldarr Encampment"
- ]
+ ],
+ "style": 2
 }

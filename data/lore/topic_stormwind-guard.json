@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Stormwind Guard"
  },
- "summary": "The Stormwind Guard comprises the regional garrisons and sentries tasked with enforcing the kingdom's laws and defending its surrounding territories. Stretched perilously thin by political gridlock and distant military campaigns, its scattered marshals struggle to hold back gnolls, orcs, and bandits across Elwynn and Redridge.",
+ "summary": "Across Elwynn and Redridge, the Stormwind Guard struggles to hold its ground. Political gridlock and distant campaigns leave scattered marshals short of aid as gnolls, orcs, and bandits press the kingdom's borders.",
  "sections": [
   {
    "title": "Shield of the Crown",
-   "body": "Operating as a vital branch of the Stormwind Army, the Stormwind Guard patrols the highways, crossroads, and stone watchtowers that bind the kingdom together. In outlying settlements, governance and defense fall to appointed marshals\u2014such as Marshal McBride in Northshire Valley, Marshal Dughan in Goldshire, and Marshal Marris in Lakeshire. These officers muster recruits and maintain order, relying on trusty brown horses known for stamina to cover ground between fortified outposts like Westbrook Garrison.",
+   "body": "The Stormwind Guard patrols the roads and watchtowers that bind the kingdom together. Appointed marshals defend the outlying settlements: Marshal McBride in Northshire Valley, Marshal Dughan in Goldshire, and Marshal Marris in Lakeshire. They gather recruits and keep order. Between posts such as Westbrook Garrison, they ride brown horses prized for their stamina.",
    "spoiler": 0
   },
   {
    "title": "A Border Stretched Thin",
-   "body": "Following the Third War, the Guard successfully kept Elwynn Forest safe and quiet, but recent years have brought crisis. With King Varian Wrynn vanished and the kingdom's standing army tied down abroad, regional garrisons have received little aid. At Westbrook Garrison, Deputy Rainer can barely hold the western border against Riverpaw gnolls and Defias thieves, forcing local commanders to outsource crucial security tasks and bounties to visiting adventurers.",
+   "body": "Since the Third War, the Guard has kept Elwynn Forest safe and quiet. In recent years, though, crisis has come. King Varian Wrynn has vanished, and the kingdom's standing army is tied down abroad, leaving regional garrisons with little aid. At Westbrook Garrison, Deputy Rainer struggles to hold the western border against Riverpaw gnolls and Defias thieves. Local commanders now depend on visiting adventurers for crucial security work and bounties.",
    "spoiler": 0
   },
   {
    "title": "The Abandoned Territories",
-   "body": "The Guard's true crisis stems from decisions made within the capital's royal court. Under the influence of Lady Katrana Prestor, the kingdom deemed Westfall too costly to garrison, pulling its troops out entirely and allowing Edwin VanCleef's Defias Brotherhood to seize the region. Duskwood suffered the same fate; its soldiers were withdrawn to Darkshire's despair, forcing the abandoned locals to establish the ragtag Night Watch for self-defense.",
+   "body": "Royal court decisions have deepened the Guard's crisis. Under Lady Katrana Prestor's influence, the kingdom judged Westfall too costly to garrison and withdrew its troops. Edwin VanCleef's Defias Brotherhood then seized the region. Duskwood met the same fate. Soldiers were withdrawn, to Darkshire's despair, and abandoned locals formed the ragtag Night Watch to defend themselves.",
    "spoiler": 1
   },
   {
    "title": "The Siege in the East",
-   "body": "While Duskwood and Westfall were abandoned, the crown kept a tenuous military presence in the Redridge Mountains. Even so, the guard's position is desperate. Overwhelmed by Shadowhide gnolls and Blackrock orcs descending from the Burning Steppes, soldiers were forced to cede Stonewatch Keep. In Lakeshire, blacksmith Verner Osgood burns through iron merely keeping guards outfitted, while exhausted sentries scan the road waiting for a 2nd Battalion that never arrives.",
+   "body": "The crown kept a tenuous military presence in the Redridge Mountains, even as Duskwood and Westfall were abandoned. The Guard's position there is desperate. Shadowhide gnolls and Blackrock orcs from the Burning Steppes overwhelmed the soldiers and drove them from Stonewatch Keep. In Lakeshire, blacksmith Verner Osgood uses iron to keep guards equipped. Exhausted sentries watch the road for the 2nd Battalion, which never arrives.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "are they the same guards",
     "city guard"
    ],
-   "answer": "While the Stormwind City Guard polices the capital inside its fortified walls, the Stormwind Guard\u2014often organized as regional garrisons\u2014is responsible for defending the crown's outer territories, patrolling the roads, and holding watchtowers across Elwynn Forest and Redridge."
+   "answer": "The Stormwind City Guard polices the capital within its walls. The Stormwind Guard defends the crown's outer territories, with regional garrisons patrolling roads and holding watchtowers across Elwynn Forest and Redridge."
   },
   {
    "q": "Why aren't there any Stormwind Guards in Westfall?",
@@ -47,7 +47,7 @@
     "westfall army",
     "where are westfall guards"
    ],
-   "answer": "Influenced by Lady Katrana Prestor's counsel regarding state expenses, the royal court decided the upkeep was too burdensome and withdrew all official garrisons. This complete absence of military protection allowed Edwin VanCleef's Defias Brotherhood to rapidly overrun the territory's farms and roads."
+   "answer": "Lady Katrana Prestor's counsel on state expenses influenced the royal court to judge Westfall too costly to garrison, so all official troops withdrew. Without military protection, Edwin VanCleef's Defias Brotherhood quickly overran the territory's farms and roads."
   },
   {
    "q": "Why did the guard leave Duskwood?",
@@ -56,7 +56,7 @@
     "why did stormwind abandon darkshire",
     "darkshire garrison"
    ],
-   "answer": "Much like Westfall, Duskwood saw its royal garrisons recalled back toward the capital as resources dried up. Stripped of official crown protection amid rising dark magic and horrors, the remaining townsfolk of Darkshire had to form their own militia, the Night Watch, to survive."
+   "answer": "Royal garrisons left Duskwood as resources dwindled. With crown protection gone amid rising dark magic and horrors, Darkshire's townsfolk formed the Night Watch to survive."
   },
   {
    "q": "Who leads the local garrisons?",
@@ -65,7 +65,7 @@
     "guard leaders",
     "marshals"
    ],
-   "answer": "Local defense is governed by appointed regional marshals. Marshal McBride oversees Northshire Valley, Marshal Dughan commands the forces centered in Goldshire, and Marshal Marris directs the desperate defense of Lakeshire in the Redridge Mountains."
+   "answer": "Appointed regional marshals lead local defense. Marshal McBride oversees Northshire Valley, Marshal Dughan commands the forces centered in Goldshire, and Marshal Marris directs Lakeshire's desperate defense in the Redridge Mountains."
   },
   {
    "q": "Why are the guards in Lakeshire in such bad shape?",
@@ -74,7 +74,7 @@
     "what happened at stonewatch",
     "lakeshire garrison trouble"
    ],
-   "answer": "The Redridge garrison was routed from Stonewatch Keep by invading Blackrock orcs and local gnolls. Trapped in Lakeshire, they suffer from acute equipment shortages\u2014blacksmith Verner Osgood consumes nearly all available iron just rearming sentries\u2014and are waiting for promised reinforcements that royal leaders have delayed."
+   "answer": "Blackrock orcs and local gnolls drove the Redridge garrison from Stonewatch Keep. Trapped in Lakeshire, the guards lack equipment, and blacksmith Verner Osgood uses nearly all available iron to rearm sentries. They wait for reinforcements promised by royal leaders, but those reinforcements are delayed."
   },
   {
    "q": "Who is Marshal Haggard?",
@@ -83,25 +83,25 @@
     "retired marshal",
     "old guard marshal"
    ],
-   "answer": "Marshal Haggard is a venerable retired commander who once led the Stormwind Guard during calmer days, when off-duty soldiers could still travel south to drink together at the Scarlet Raven Tavern in Darkshire."
+   "answer": "Marshal Haggard is a retired commander who once led the Stormwind Guard in calmer days. Back then, off-duty soldiers could travel south to drink together at the Scarlet Raven Tavern in Darkshire."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Stormwind Guard represents the kingdom's front line, but its abandonment of sister settlements exposes the deep political cracks threatening the heart of the Alliance."
+   "text": "The Stormwind Guard is the kingdom's front line. Its abandoned sister settlements reveal deep political cracks threatening the heart of the Alliance."
   },
   {
    "target": "race:Human",
-   "text": "For humans of the southern farmlands, the guard's blue tabards once signified absolute safety, making their sudden absence in Westfall and Duskwood feel like a bitter betrayal."
+   "text": "As a human of the southern farmlands, you may know the guard's blue tabards as a sign of safety. Their sudden absence in Westfall and Duskwood can feel like a bitter betrayal."
   },
   {
    "target": "class:Warrior",
-   "text": "From Northshire recruits to hardened veterans at Westbrook Garrison, human warriors cut their teeth marching alongside regional marshals against gnolls and bandits."
+   "text": "As a warrior, you may begin as a Northshire recruit and become a hardened veteran at Westbrook Garrison, marching with regional marshals against gnolls and bandits."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "A guard garrison is only as tough as its armor; in places like Lakeshire, local smiths exhaust entire iron reserves merely keeping the garrison's blades and shields serviceable."
+   "text": "As a blacksmith, you know a garrison depends on its armor. In places like Lakeshire, local smiths use entire iron reserves just to keep blades and shields serviceable."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "Stormwind Guard"
- ]
+ ],
+ "style": 2
 }

@@ -29,21 +29,21 @@
   ],
   "category": "Feralas"
  },
- "summary": "Latronicus Moonspear at Feathermoon Stronghold wants to meet the Hatecrest naga head-on rather than wait for them. He asks you for ten Hatecrest Scales in good condition.",
+ "summary": "At Feathermoon Stronghold, Latronicus Moonspear means to face the Hatecrest naga before they make their move. He asks you to bring him ten Hatecrest Scales in good condition.",
  "sections": [
   {
    "title": "Acting Before It Is Too Late",
-   "body": "Whatever the naga are up to, Latronicus Moonspear assumes they will eventually try to claim the island for themselves, and aggressive steps are needed before it is too late. He wants ten Hatecrest Scales in good condition, and expects you to see for yourself how to get them. He counts on it weakening the naga presence on Sardor Isle and on it being your first time cutting your teeth on the naga.",
+   "body": "Latronicus Moonspear expects the naga to try to claim the island someday. He wants to act before they can, so he asks you to bring ten Hatecrest Scales in good condition. You will have to see for yourself how to get them. He hopes gathering the scales will weaken the naga presence on Sardor Isle and give you your first taste of fighting naga.",
    "spoiler": 0
   },
   {
    "title": "Peace and Duty",
-   "body": "Latronicus is clear that night elves are not warmongers and are devoted to peace and harmony. That does not mean they will leave their own interests unguarded, he says, and guarding them is his duty to General Feathermoon and the stronghold.",
+   "body": "Latronicus says night elves cherish peace and harmony, not war. Still, he will not leave their interests unguarded. Protecting them is his duty to General Feathermoon and the stronghold.",
    "spoiler": 0
   },
   {
    "title": "Afterwards",
-   "body": "Latronicus pronounces the scales more than satisfactory and means to send them down to Pratt, in case something useful can be crafted from them. He has something else for you to do as well.",
+   "body": "Latronicus finds the scales more than satisfactory. He plans to send them to Pratt in case anything useful can be crafted from them. He also has another task for you.",
    "spoiler": 1
   }
  ],
@@ -55,7 +55,7 @@
     "latronicus moonspear location",
     "where to turn in against the hatecrest"
    ],
-   "answer": "Latronicus Moonspear, at Feathermoon Stronghold, both asks for the scales and receives them."
+   "answer": "Latronicus Moonspear asks for the scales and receives them at Feathermoon Stronghold."
   },
   {
    "q": "Why does Latronicus Moonspear want Hatecrest scales?",
@@ -64,7 +64,7 @@
     "hatecrest scale purpose",
     "why collect naga scales"
    ],
-   "answer": "He assumes the naga will eventually move to secure Sardor Isle, and wants aggressive steps taken first. Gathering scales means weakening them there."
+   "answer": "Latronicus expects the naga to try to secure Sardor Isle someday, so he wants to act first. Gathering scales may weaken their presence there."
   },
   {
    "q": "How many scales are needed?",
@@ -72,7 +72,7 @@
     "how many scales",
     "scale count"
    ],
-   "answer": "Ten Hatecrest Scales, in good condition."
+   "answer": "You need ten Hatecrest Scales in good condition."
   },
   {
    "q": "Where are the Hatecrest naga found?",
@@ -103,5 +103,6 @@
  ],
  "attribution": [
   "Against the Hatecrest (2)"
- ]
+ ],
+ "style": 2
 }

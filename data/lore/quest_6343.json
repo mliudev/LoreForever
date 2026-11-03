@@ -17,16 +17,16 @@
   "wiki": "Return to Nessa",
   "chain": []
  },
- "summary": "You carry Laird's findings from Auberdine back to Nessa Shadowsong in Rut'theran Village. The journey is an introductory errand that teaches young travelers how to cross between Kalimdor and Teldrassil.",
+ "summary": "Laird sends you from Auberdine to Nessa Shadowsong in Rut'theran Village with his findings. This introductory errand teaches young travelers to cross between Kalimdor and Teldrassil.",
  "sections": [
   {
    "title": "A Messenger Across the Sea",
-   "body": "Laird sends you back across the water with his written observations. He has found stark differences between the fish caught off Darkshore and those near Teldrassil, and suspects the great World Tree changes the local marine life. You can return to Rut'theran Village by hiring a flight from Caylais Moonfeather, the hippogryph master, or by boarding the regular ferry at Auberdine's pier.",
+   "body": "Laird sends you back across the water with his written observations. Fish caught off Darkshore differ sharply from those near Teldrassil. He suspects the great World Tree changes the life in these waters. You can hire a flight from Caylais Moonfeather, the hippogryph master, or take the regular ferry from Auberdine's pier to Rut'theran Village.",
    "spoiler": 0
   },
   {
    "title": "Curious Bounties",
-   "body": "Nessa Shadowsong receives Laird's reply at Rut'theran Village and is fascinated by the difference in marine life. Fish near the World Tree grow so large that they bring an immediate boon to local fishermen, though the Kaldorei still do not know why. Nessa plans to share the findings with her fellow villagers. For now, she is content to harvest the abundant sea life and watch for whatever forces may be responsible.",
+   "body": "At Rut'theran Village, Nessa Shadowsong receives Laird's reply and is fascinated by the difference in marine life. Fish near the World Tree grow so large that local fishermen benefit at once, though the Kaldorei do not know why. Nessa plans to share the findings with her fellow villagers. For now, she harvests the abundant sea life and watches for whatever forces may be responsible.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "travel to ruttheran",
     "ferry or hippogryph"
    ],
-   "answer": "You can fly with Caylais Moonfeather, the hippogryph master in Auberdine, or board the regular passenger ferry from the long pier to Rut'theran Village."
+   "answer": "You can fly with Caylais Moonfeather, the hippogryph master in Auberdine, or take the regular passenger ferry from the long pier to Rut'theran Village."
   },
   {
    "q": "Why is Laird studying the fish?",
@@ -64,7 +64,7 @@
     "why are fish big",
     "teldrassil fish mystery"
    ],
-   "answer": "Nessa does not learn why the fish are so strange immediately. She notes the difference and agrees it deserves further investigation, while sharing the report with the villagers and enjoying the abundant catches for now."
+   "answer": "Nessa does not learn why the fish are so strange right away. She notes the difference and agrees it deserves further study. She shares the report with the villagers and enjoys the abundant catches for now."
   },
   {
    "q": "What comes before this quest?",
@@ -73,7 +73,7 @@
     "previous quest",
     "flight to auberdine"
    ],
-   "answer": "'Flight to Auberdine' comes before this journey, carrying Nessa's original letter from Rut'theran Village to Laird in Darkshore."
+   "answer": "'Flight to Auberdine' comes before this journey. It carries Nessa's original letter from Rut'theran Village to Laird in Darkshore."
   },
   {
    "q": "What is the purpose of this quest chain?",
@@ -81,17 +81,17 @@
     "why do this quest",
     "travel quest"
    ],
-   "answer": "The chain introduces Teldrassil's mysterious influence on local wildlife and teaches young night elf adventurers how to travel between their island home and the Kalimdor mainland by ship and flight master."
+   "answer": "The chain introduces Teldrassil's mysterious influence on local wildlife. It teaches young night elf adventurers how to cross between their island home and the Kalimdor mainland by ship and flight master."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf leaving Teldrassil's boughs for the first time, you take part in your first official errand linking the island haven with the ancient mainland of Darkshore."
+   "text": "As a night elf leaving Teldrassil's boughs for the first time, you take part in your first official errand between the island haven and the ancient mainland of Darkshore."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you pass between Auberdine and Rut'theran Village, a maritime gateway linking northern Kalimdor's night elf settlements with Alliance interests across Azeroth."
+   "text": "As an Alliance traveler, you pass between Auberdine and Rut'theran Village. The maritime gateway links northern Kalimdor's night elf settlements with Alliance interests across Azeroth."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Return to Nessa"
  ],
- "style": 1
+ "style": 2
 }

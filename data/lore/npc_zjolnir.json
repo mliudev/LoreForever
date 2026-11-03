@@ -8,11 +8,11 @@
   "wiki": "Zjolnir",
   "refs": 2
  },
- "summary": "In Sen'jin Village, Zjolnir raises raptors for Darkspear riders and trusted Horde champions. His trained mounts carry deep cultural pride for troll riders.",
+ "summary": "In Sen'jin Village, Zjolnir raises raptors for Darkspear riders and trusted Horde champions. These trained mounts carry deep cultural pride for troll riders.",
  "sections": [
   {
    "title": "Breeder of the Darkspear Raptors",
-   "body": "Near Sen'jin Village's pens, Zjolnir raises the fierce raptors the Darkspear favor as mounts. Predatory and temperamental, they need an expert hand before they can be raised and saddled for war. Zjolnir freely gives these prized mounts to fellow trolls who have learned the riding arts. Other Horde members must first earn the Darkspear tribe's exalted trust before he will entrust them with one of his raptors.",
+   "body": "Near Sen'jin Village, Zjolnir tends the pens where he raises the fierce raptors favored by the Darkspear. Their wild nature calls for an expert hand before they can be raised and saddled for war.\n\nHe gives these prized mounts freely to fellow trolls who have learned the riding arts. Other Horde members must first earn exalted trust with the Darkspear tribe before he will entrust them with a raptor.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what does he sell",
     "troll mount vendor"
    ],
-   "answer": "Zjolnir sells whistle-summoned raptors, the Darkspear trolls' racial mounts. His stock includes several breeds and colors for newly trained riders and seasoned veterans."
+   "answer": "Zjolnir sells whistle-summoned raptors, the Darkspear trolls' racial mounts. He offers several breeds and colors for newly trained riders and seasoned veterans."
   },
   {
    "q": "Can non-trolls buy raptors from him?",
@@ -42,13 +42,13 @@
     "who can buy mounts from zjolnir",
     "horde raptor mount"
    ],
-   "answer": "Yes. Non-trolls must earn exalted standing with the Darkspear Trolls before Zjolnir will sell to them. Trolls may buy once they have the required riding skill."
+   "answer": "Yes. Non-trolls must earn exalted standing with the Darkspear Trolls before Zjolnir will sell them a raptor. Trolls may buy once they have the required riding skill."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, you can ride the swift, clawed beasts central to your heritage and fighting traditions. Zjolnir provides them for your people."
+   "text": "As a Darkspear troll, you can ride the swift, clawed beasts at the heart of your heritage and fighting traditions. Zjolnir provides raptors for your people."
   },
   {
    "target": "faction:Horde",
@@ -72,5 +72,5 @@
  "attribution": [
   "Zjolnir"
  ],
- "style": 1
+ "style": 2
 }

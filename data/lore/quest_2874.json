@@ -25,16 +25,16 @@
   ],
   "category": "Tanaris"
  },
- "summary": "Stoley hands you a bottle of Steamwheedle bilge rum for MacKinley, the \"Sea Wolf\" of Booty Bay, to put an end to MacKinley's beliefs about Booty Bay booze.",
+ "summary": "At Steamwheedle Port, Stoley gives you bilge rum for MacKinley in Booty Bay. The Sea Wolf can judge whether the drink settles his beliefs about Booty Bay booze.",
  "sections": [
   {
    "title": "A Bottle to Carry",
-   "body": "After the help you gave with the shipment, Stoley gives you a bottle of Steamwheedle bilge rum. You are to take it to MacKinley, in Booty Bay, so that he can finally let go of his crazy beliefs about the booze there.",
+   "body": "After you help with the shipment, Stoley gives you a bottle of Steamwheedle bilge rum. You carry it to MacKinley in Booty Bay, where he can finally set aside his beliefs about the booze there.",
    "spoiler": 0
   },
   {
    "title": "MacKinley's Verdict",
-   "body": "MacKinley tries the rum and cannot believe how awful it is, which delights him. Stoley kept his word about the bilge rum, so he need not pay the money he owes. MacKinley calls the stuff thick as gravel and burning like lava.",
+   "body": "MacKinley tastes the rum and delights in its awfulness. Stoley kept his word about the bilge rum, so MacKinley need not pay the money he owes. He calls it thick as gravel and burning like lava.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who starts deliver to mackinley",
     "deliver to mackinley quest giver"
    ],
-   "answer": "Stoley, at Steamwheedle Port."
+   "answer": "Stoley gives you the bottle at Steamwheedle Port."
   },
   {
    "q": "Who receives the bottle of rum?",
@@ -54,7 +54,7 @@
     "who gets the rum",
     "mackinley location"
    ],
-   "answer": "\"Sea Wolf\" MacKinley, in Booty Bay."
+   "answer": "The bottle goes to “Sea Wolf” MacKinley in Booty Bay."
   },
   {
    "q": "What kind of alcohol is being delivered?",
@@ -70,7 +70,7 @@
     "what comes before deliver to mackinley",
     "deliver to mackinley quest chain"
    ],
-   "answer": "It follows Stoley's Debt and Stoley's Shipment."
+   "answer": "This follows Stoley's Debt and Stoley's Shipment."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Deliver to MacKinley"
- ]
+ ],
+ "style": 2
 }

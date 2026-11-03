@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Quagmire"
  },
- "summary": "The Quagmire comprises the sprawling, treacherous heart of central Dustwallow Marsh. Bound by Brackenwall Village to the north and the Dragonmurk to the south, its waterlogged flats are notoriously difficult to navigate. Hostile beasts and ravenous oozes make any journey through this central fen perilous.",
+ "summary": "In central Dustwallow Marsh, the Quagmire is a perilous stretch of fen. Brackenwall Village lies north and the Dragonmurk south. Waterlogged flats, hostile beasts, and ravenous oozes make crossing it dangerous.",
  "sections": [
   {
    "title": "Heart of the Fen",
-   "body": "Occupying the wide expanse between Lost Point in the west and Dustwallow Bay in the east, the Quagmire represents the wild core of the marsh. Footing is unreliable at best, with solid earth constantly giving way to murky water and clinging mud. Travelers must contend with predatory crocolisks lurking beneath the scum, aggressive spiders nesting in the dead brush, and strange oozes that seep through the muck.",
+   "body": "The Quagmire runs from Lost Point in the west to Dustwallow Bay in the east, through the marsh’s wild heart. Solid ground can give way to murky water and clinging mud without warning. Crocolisks wait beneath the scum, aggressive spiders nest in dead brush, and strange oozes seep through the muck.",
    "spoiler": 0
   },
   {
    "title": "Encroaching Clashes",
-   "body": "Beyond its natural hazards, the Quagmire serves as an unpredictable crossroads for the sentient powers contesting the swamp. Tucked away within the bog lies Tabetha's Farm, a lonely refuge for practitioners seeking hermit wisdom amid the dangers of the swamp.",
+   "body": "The Quagmire lies where sentient powers contest the swamp, an unpredictable crossing in their struggles. Tabetha's Farm stands in the bog as a lonely refuge. There, practitioners seek wisdom from a hermit amid the swamp’s dangers.",
    "spoiler": 0
   }
  ],
@@ -28,13 +28,13 @@
     "where is the quagmire",
     "quagmire map"
    ],
-   "answer": "The Quagmire covers the central portion of Dustwallow Marsh. It stretches west toward Lost Point, east toward Dustwallow Bay, north to the borders of Brackenwall Village, and south where the land descends into the Dragonmurk."
+   "answer": "The Quagmire covers central Dustwallow Marsh, from Lost Point in the west to Dustwallow Bay in the east. Brackenwall Village lies north, while the land descends into the Dragonmurk to the south."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Deep in the fen lies Tabetha's Farm, a vital destination for aspiring mages seeking esoteric training far from the scrutiny of the Kirin Tor."
+   "text": "Deep in the fen, Tabetha's Farm draws aspiring mages seeking esoteric training beyond the Kirin Tor's scrutiny."
   }
  ],
  "keywords": [
@@ -55,5 +55,6 @@
  ],
  "attribution": [
   "Quagmire"
- ]
+ ],
+ "style": 2
 }

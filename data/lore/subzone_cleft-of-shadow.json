@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Cleft of Shadow"
  },
- "summary": "Rogues, warlocks, and their teachers gather in the Cleft of Shadow beneath Orgrimmar. The caverns give them room to practice their arts under the Horde's watch.",
+ "summary": "Rogues, warlocks, and their teachers gather in Orgrimmar's Cleft of Shadow. There they practice their arts beneath the Horde's watch.",
  "sections": [
   {
    "title": "A Subterranean Sanctuary",
-   "body": "Below Orgrimmar, the Cleft of Shadow holds rogues of the Shadowswift Brotherhood and warlocks of the Darkfire Enclave. Thrall's Horde honors shamanism and strength of arms, yet its leaders make room for subtler arts. In these caverns, practitioners of poison and fel energy work away from the valley districts and under Orgrimmar's watch.",
+   "body": "Beneath Orgrimmar, the Cleft shelters rogues of the Shadowswift Brotherhood and warlocks of the Darkfire Enclave. Thrall's Horde honors shamanism and strength of arms, yet its leaders leave room for subtler arts. So practitioners of poison and fel energy work apart from the valley districts, beneath Orgrimmar's watch.",
    "spoiler": 0
   },
   {
    "title": "A Dangerous Threshold",
-   "body": "At the Cleft's lowest point, a passage opens into Ragefire Chasm. Volcanic caves honeycomb the ground beneath Orgrimmar, and their danger draws defenders and sinister cultists to the cavern's edge.",
+   "body": "At the cavern's lowest point, a passage leads into Ragefire Chasm. Volcanic caves honeycomb the ground below Orgrimmar. Their danger draws defenders and sinister cultists to the cavern's edge.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why warlocks underground orgrimmar",
     "cleft of shadow lore"
    ],
-   "answer": "Thrall seeks to unite the Horde through honorable shamanic and warrior traditions, while many orcs distrust the arts of rogues and warlocks. The caverns keep their dangerous fel workings and illicit practices contained and watched."
+   "answer": "Thrall seeks to unite the Horde through honorable shamanic and warrior traditions. Many orcs distrust the arts of rogues and warlocks, so the caverns keep their dangerous fel workings and illicit practices contained and watched."
   },
   {
    "q": "What major trainers and services can be found in the Cleft of Shadow?",
@@ -36,7 +36,7 @@
     "trainers in cleft of shadow",
     "who is in cleft of shadow"
    ],
-   "answer": "Rogue and warlock trainers work in the Cleft, alongside poison suppliers, reagent vendors, and merchants who sell wands and staffs."
+   "answer": "Rogue and warlock trainers work in the Cleft, alongside poison suppliers, reagent vendors, and merchants selling wands and staffs."
   },
   {
    "q": "What is the entrance at the bottom of the cavern?",
@@ -51,11 +51,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a Horde warlock, you can summon demons and bind fel energy in the Darkfire Enclave beneath Orgrimmar, away from the immediate wrath of shaman and warriors."
+   "text": "As a Horde warlock, you can summon demons and bind fel energy in the Darkfire Enclave beneath Orgrimmar. There, you are away from the immediate wrath of shaman and warriors."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you find the Shadowswift Brotherhood, poison merchants, and lockpickers in this dark recess, the Horde's main gathering place for stealth operatives."
+   "text": "As a rogue, you find the Shadowswift Brotherhood, poison merchants, and lockpickers in this dark recess. It is the Horde's main gathering place for stealth operatives."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Cleft of Shadow"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Supplies for the Crossroads (Classic)",
   "chain": []
  },
- "summary": "Thork needs supplies back at the Crossroads after Razormane quilboar raids. The stolen crates hold provisions the outpost needs amid conflict across the Barrens.",
+ "summary": "Thork needs supplies back at the Crossroads after Razormane quilboar raids. The stolen crates carry provisions the outpost needs as conflict spreads across the Barrens.",
  "sections": [
   {
    "title": "A Lifeline Under Siege",
-   "body": "Thork needs provisions restored to the Crossroads after a supply caravan is ambushed. The outpost links Horde travel, trade, and defense across the Barrens, and cargo arrives from Durotar and Mulgore. Without it, shortages of provisions, tools, and arms threaten daily life in the harsh wilderness.",
+   "body": "Thork needs provisions returned to the Crossroads after a supply caravan is ambushed. The outpost links Horde travel, trade, and defense across the Barrens. Its cargo comes from Durotar and Mulgore. Without those goods, shortages of provisions, tools, and arms threaten daily life in the harsh wilderness.",
    "spoiler": 0
   },
   {
    "title": "Thieving Quilboar",
-   "body": "Razormane quilboar have taken the crates. These swine-beasts contest Horde control across central Kalimdor. They hauled the cargo to their thorn-bush camps and keep it there. Thork sends trusted warriors into Razormane territory to recover the supplies for the Horde.",
+   "body": "Razormane quilboar have taken the crates. These swine-beasts contest Horde control across central Kalimdor. They hauled the cargo to their thorn-bush camps and keep it there. Thork sends trusted warriors into Razormane territory to recover supplies for the Horde.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "thork quest",
     "who starts supplies for the crossroads"
    ],
-   "answer": "Thork, the Horde officer overseeing the Crossroads' defense and operations, gives the request."
+   "answer": "Thork gives the request. He is the Horde officer who oversees the Crossroads' defense and operations."
   },
   {
    "q": "Why were the supplies stolen in the first place?",
@@ -47,7 +47,7 @@
     "why stolen",
     "what happened to the supplies"
    ],
-   "answer": "Razormane quilboar ambushed a supply caravan headed toward the Crossroads and hauled the crates to their nearby camps."
+   "answer": "Razormane quilboar ambushed a supply caravan bound for the Crossroads and hauled the crates to nearby camps."
   },
   {
    "q": "Where can the stolen crates be found?",
@@ -74,7 +74,7 @@
     "prev quest",
     "disrupt the attacks"
    ],
-   "answer": "This follows 'Disrupt the Attacks', in which adventurers struck at Razormane forces to weaken their attacks on Horde travel routes."
+   "answer": "This follows 'Disrupt the Attacks'. There, adventurers struck Razormane forces to weaken their attacks on Horde travel routes."
   },
   {
    "q": "Who are the Razormane?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, holding the Crossroads links the capitals in Durotar and Mulgore. Recovering ambushed freight keeps the frontier outpost supplied."
+   "text": "For the Horde, the Crossroads links the capitals in Durotar and Mulgore. Recovering ambushed freight keeps the frontier outpost supplied."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, protecting Horde supply lines from quilboar helps guard the new Horde's expanding settlements."
+   "text": "As an orc, you help guard the new Horde's expanding settlements by protecting its supply lines from quilboar."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Supplies for the Crossroads (Classic)"
  ],
- "style": 1
+ "style": 2
 }

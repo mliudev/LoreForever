@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "The Recluse of Tarren Mill",
-   "body": "Inside Tarren Mill's chapel, now a laboratory, Apothecary Lydon carries out the cold work of the Royal Apothecary Society. Flowers in bloom and Hillsbrad Foothills' crisp air only deepen his languid melancholy. Deathcraft is the one diversion that lifts his gloom. Left alone, he poisons, dissects, and reanimates his pet frog, Umpi, again and again while he waits for new reagents.",
+   "body": "In Tarren Mill's chapel, now a laboratory, Apothecary Lydon does the cold work of the Royal Apothecary Society. The flowers and crisp air of Hillsbrad Foothills deepen his melancholy. Deathcraft alone lifts his gloom. Left to himself, he poisons, dissects, and reanimates his pet frog, Umpi, again and again as he waits for new reagents.",
    "spoiler": 0
   },
   {
    "title": "Concoctions of Agony",
-   "body": "With Master Apothecary Faranell in the Undercity, Lydon runs field experiments across Hillsbrad. His work advances from the Elixir of Suffering to the virulent Elixir of Agony. He sends adventurers to test the brews on local wildlife, domesticated animals, and captured human farmers. His loyalty belongs wholly to the Dark Lady, and he longs for their finished New Plague to cleanse the living world.",
+   "body": "With Master Apothecary Faranell in the Undercity, Lydon tests his work across Hillsbrad. His experiments advance from the Elixir of Suffering to the virulent Elixir of Agony. He sends adventurers to try the brews on local wildlife, domesticated animals, and captured human farmers. His loyalty belongs wholly to the Dark Lady. He longs for their finished New Plague to cleanse the living world.",
    "spoiler": 1
   },
   {
@@ -34,7 +34,7 @@
     "lydon tarren mill",
     "apothecary lydon lore"
    ],
-   "answer": "From Tarren Mill in Hillsbrad Foothills, Lydon works as an alchemist of the Royal Apothecary Society. He oversees experimental plagues and toxins for Lady Sylvanas Windrunner."
+   "answer": "From Tarren Mill in Hillsbrad Foothills, Lydon works as an alchemist for the Royal Apothecary Society. He oversees experimental plagues and toxins for Lady Sylvanas Windrunner."
   },
   {
    "q": "Why is Lydon so depressed?",
@@ -61,7 +61,7 @@
     "what is elixir of agony",
     "lydon elixir"
    ],
-   "answer": "The Elixir of Agony is an experimental poison Lydon brews from Mudsnout Blossoms, then refines with Master Apothecary Faranell's colloid of decay. He activates it with a strong troll's blood potion, daggerspine scales, and torn fin eyes, then laces a keg of stout stolen from the dwarves of Dun Garok and tests it on captive farmers in Hillsbrad."
+   "answer": "The Elixir of Agony is an experimental poison Lydon brews from Mudsnout Blossoms, then refines with Master Apothecary Faranell's colloid of decay. He activates it with a strong troll's blood potion, daggerspine scales, and torn fin eyes. Then he laces a keg of stout stolen from the dwarves of Dun Garok and tests it on captive farmers in Hillsbrad."
   },
   {
    "q": "How did Lydon become Forsaken?",
@@ -70,7 +70,7 @@
     "was lydon human",
     "lydon third war"
    ],
-   "answer": "No record tells how Lydon died or rose. Like the other Forsaken, he broke free of the Lich King's control under Sylvanas and now devotes his undead existence to the Dark Lady and her New Plague."
+   "answer": "No record tells how Lydon died or rose. Like the other Forsaken, he broke free of the Lich King's control under Sylvanas. Now he devotes his undead existence to the Dark Lady and her New Plague."
   },
   {
    "q": "What does Lydon send to the Undercity?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "profession:Herbalism",
-   "text": "Lydon's workshop holds reagents, cauldrons, and rotting flora, showing how the Apothecary Society turns traditional gathering arts toward its work."
+   "text": "Lydon's workshop holds reagents, cauldrons, and rotting flora. There, the Apothecary Society turns traditional gathering arts toward its work."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Master Apothecary Lydon"
  ],
- "style": 1
+ "style": 2
 }

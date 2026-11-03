@@ -21,16 +21,16 @@
    "The Warsong Reports"
   ]
  },
- "summary": "At Malaka'jin, Darn Talongrip sends Horde warriors north to Kadrak's watch post. The dispatch carries them from defending Stonetalon's crags to the campaign in Ashenvale, where the Horde holds outposts at Splintertree Post and the Zoram Strand.",
+ "summary": "At Malaka'jin, Darn Talongrip sends Horde warriors north to Kadrak's watch post. The journey leads from Stonetalon's crags to Ashenvale, where the Horde holds outposts at Splintertree Post and the Zoram Strand.",
  "sections": [
   {
    "title": "A Call to the Northern Front",
-   "body": "Darn Talongrip watches the Horde's southern and mountain frontiers from Malaka'jin. The orc sees capable fighters passing through Stonetalon and directs them toward the northern Barrens watch tower. Ashenvale is the greater pressure point, where night elf sentinels clash with Warsong lumber gatherers. The Horde needs fighters there as the struggle over the forest continues.",
+   "body": "Darn Talongrip watches the Horde's southern and mountain frontiers from Malaka'jin. The orc sends capable fighters passing through Stonetalon toward the northern Barrens watch tower. Ashenvale is the greater pressure point. There, night elf sentinels clash with Warsong lumber gatherers, and the Horde needs fighters as the struggle for the forest continues.",
    "spoiler": 0
   },
   {
    "title": "Kadrak's Watch",
-   "body": "Kadrak oversees Horde troop movements from a watch tower in the northern Barrens, where the savannah meets Ashenvale. The Horde holds outposts at the Zoram Strand in the west and Splintertree Post to the north. Kadrak coordinates supplies, troops, and urgent reports across the contested forest.",
+   "body": "Kadrak oversees Horde troop movements from a watch tower in the northern Barrens, where the savannah meets Ashenvale. The Horde holds outposts at the Zoram Strand in the west and Splintertree Post to the north. Kadrak coordinates supplies and troops, and sends urgent reports across the contested forest.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who starts report to kadrak stonetalon",
     "darn talongrip quest"
    ],
-   "answer": "Darn Talongrip, an orc at the Horde outpost of Malaka'jin in the Stonetalon Mountains, sends capable adventurers toward the forest border."
+   "answer": "Darn Talongrip, an orc at the Horde outpost of Malaka'jin in the Stonetalon Mountains, sends capable fighters toward the forest border."
   },
   {
    "q": "Where is Kadrak located?",
@@ -78,7 +78,7 @@
     "two report to kadrak quests",
     "kadrak breadcrumb duplicate"
    ],
-   "answer": "Both dispatches send you to Kadrak at the Ashenvale border. One comes from Crossroads in the Barrens, the other from the Stonetalon Mountains, and either leads into the Ashenvale campaign."
+   "answer": "Both dispatches send you to Kadrak at the Ashenvale border. One comes from Crossroads in the Barrens, and the other from the Stonetalon Mountains. Either leads into the Ashenvale campaign."
   },
   {
    "q": "What is the Zoram Strand mentioned in the briefing?",
@@ -93,7 +93,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a Horde warrior, you join the Warchief's wider war effort, sent from the frontier into the struggle for Ashenvale's resources."
+   "text": "As a Horde warrior, you join the Warchief's wider war effort. You leave the frontier for the struggle over Ashenvale's resources."
   },
   {
    "target": "race:Orc",
@@ -127,5 +127,5 @@
  "attribution": [
   "Report to Kadrak (Stonetalon Mountains)"
  ],
- "style": 1
+ "style": 2
 }

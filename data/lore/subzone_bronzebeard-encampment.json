@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bronzebeard Encampment"
  },
- "summary": "Bronzebeard Encampment is a rugged dwarven outpost perched in southern Silithus, just east of the massive Scarab Wall. Staffed by hardy explorers and researchers from the Explorer's League, the camp serves as an operational base for investigating ancient silithid glyphs and the lingering mysteries buried beneath the desert sands.",
+ "summary": "In southern Silithus, Bronzebeard Encampment keeps a dwarven foothold east of the Scarab Wall. Explorer's League researchers study ancient silithid glyphs and mysteries buried beneath the desert.",
  "sections": [
   {
    "title": "A Foothold in the Shifting Sands",
-   "body": "Positioned against the desolate southern bluffs of Silithus, Bronzebeard Encampment offers a rare refuge of dwarven grit in an otherwise hostile wasteland. Founded under the auspices of Ironforge's archaeological pursuits, the camp sits within sight of the towering Scarab Wall. Here, researchers like Rutgar Glyphshaper and Frankal Stonebridge braved scorching heat, scorpids, and encroaching silithid swarms to study the peculiar inscriptions and monuments left behind by forgotten civilizations.",
+   "body": "Bronzebeard Encampment stands near Silithus's southern bluffs, within sight of the Scarab Wall. Ironforge founded the camp for archaeological work. Researchers Rutgar Glyphshaper and Frankal Stonebridge study inscriptions and monuments left by forgotten civilizations. Scorching heat, scorpids, and silithid swarms make their work dangerous.",
    "spoiler": 0
   },
   {
    "title": "Glyphs and Desperation",
-   "body": "Life in the encampment is far from a quiet dig. With the silithid menace spreading out of subterranean hives across the wastes and dangerous horrors like the monstrous scorpid Deathclasp prowling nearby sands, the outpost balances rigorous scholarship with sheer survival. The researchers rely heavily on visiting adventurers to retrieve rubbings of obscure glyphs, decipher ancient insectoid tongues, and search for lost companions who ventured too deep into the madness of the desert.",
+   "body": "At Bronzebeard Encampment, study goes hand in hand with survival. Silithid threats spread from underground hives, and the monstrous scorpid Deathclasp prowls nearby. Researchers rely on visiting adventurers to bring back rubbings of obscure glyphs, decipher ancient insectoid tongues, and find companions lost in the desert.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "bronzebeard camp location",
     "how to find bronzebeard encampment"
    ],
-   "answer": "The encampment is located in southern Silithus, situated east of the colossal Scarab Wall and north of the southern mountain ridge."
+   "answer": "Bronzebeard Encampment lies in southern Silithus, east of the Scarab Wall and north of the southern mountain ridge."
   },
   {
    "q": "Who runs the Bronzebeard Encampment?",
@@ -37,7 +37,7 @@
     "bronzebeard camp npcs",
     "who leads bronzebeard camp"
    ],
-   "answer": "The camp is staffed by members and associates of the dwarven Explorer's League, including the glyph researcher Rutgar Glyphshaper, Frankal Stonebridge, and their companion Glibb."
+   "answer": "Members and associates of the dwarven Explorer's League staff the camp. They include glyph researcher Rutgar Glyphshaper, Frankal Stonebridge, and their companion Glibb."
   },
   {
    "q": "What are the dwarves studying here?",
@@ -46,7 +46,7 @@
     "what is rutgar studying",
     "purpose of bronzebeard encampment"
    ],
-   "answer": "The researchers are dedicated to deciphering ancient stone glyphs, understanding the silithid communication system, and unearthing the long-buried secrets of southern Kalimdor."
+   "answer": "The researchers study ancient stone glyphs, the silithid communication system, and long-buried secrets of southern Kalimdor."
   },
   {
    "q": "What threats lurk near the encampment?",
@@ -55,17 +55,17 @@
     "deathclasp location",
     "bronzebeard camp monsters"
    ],
-   "answer": "The surrounding desert is prowled by aggressive silithid bugs, sand scorpions, and the notorious giant scorpid known as Deathclasp, Terror of the Sands, which nests just to the southeast."
+   "answer": "Aggressive silithid bugs, sand scorpions, and Deathclasp prowl the surrounding desert. Deathclasp is the giant scorpid known as Terror of the Sands, and nests just to the southeast."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The outpost showcases the unwavering tenacity of the Explorer's League, proving that no barren desert is too hostile for Ironforge dwarves seeking historical truth."
+   "text": "As a dwarf, you can see the Explorer's League's tenacity at work in this harsh desert. Ironforge researchers seek historical truth here."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers navigating the grim expanse of Silithus, this remote camp provides a welcome friendly outpost far south of Cenarion Hold."
+   "text": "As an Alliance traveler in Silithus, you can find a friendly camp far south of Cenarion Hold."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Bronzebeard Encampment"
- ]
+ ],
+ "style": 2
 }

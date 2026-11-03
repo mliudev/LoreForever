@@ -22,21 +22,21 @@
    "Look To The Stars (4)"
   ]
  },
- "summary": "In Darkshire, Viktori Prism'Antras seeks a mirror for the telescope he is building from Cog's blueprints. He sends you into southern Duskwood to find Mary, remembered for carrying a looking glass.",
+ "summary": "Viktori Prism'Antras needs a mirror for the telescope he is building in Darkshire from Cog's blueprints. He sends you south to find Mary, known for carrying a looking glass.",
  "sections": [
   {
    "title": "A Reflective Surface",
-   "body": "Viktori Prism'Antras has the bronze tube for his telescope. Now he needs a mirror to guide and reflect light through it, as Cog's blueprints require. Fine silvered glass is hard to make while Darkshire faces shortages, so Viktori recalls Mary, a local woman known across the region for carrying a looking glass.",
+   "body": "Viktori Prism'Antras has the bronze tube for his telescope. Cog's blueprints call for a mirror to guide and reflect light through it. Fine silvered glass is hard to make while Darkshire faces shortages. So Viktori recalls Mary, a local woman known across the region for carrying a looking glass.",
    "spoiler": 0
   },
   {
    "title": "Searching the South",
-   "body": "Mary's old home lies deep in southern Duskwood, just north of Tranquil Gardens Cemetery. To reach it, you pass beyond the Night Watch's safe patrols and enter blighted groves where ravenous wolves, feral spiders, and wandering undead roam.",
+   "body": "Mary's old home lies deep in southern Duskwood, just north of Tranquil Gardens Cemetery. To reach it, you pass beyond the Night Watch's safe patrols. Blighted groves lie ahead, where ravenous wolves, feral spiders, and wandering undead roam.",
    "spoiler": 0
   },
   {
    "title": "A Tragic Resident",
-   "body": "Mary's shack in the south reveals what became of the woman Viktori remembered. She is Blind Mary, a wandering spirit near her old home and the cemetery, bound to memories and possessions from her former life.",
+   "body": "Blind Mary is a wandering spirit near her old home and the cemetery. Her shack in the south reveals what became of the woman Viktori remembered. Bound to memories and possessions from her former life, she remains near the place she once called home.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "look to the stars project",
     "what is viktori making"
    ],
-   "answer": "Viktori is building an astronomical telescope in his hut up the hill in Darkshire, following designs made by Cog, a tinker."
+   "answer": "Viktori is building an astronomical telescope in his hut up the hill in Darkshire. He follows designs made by Cog, a tinker."
   },
   {
    "q": "Why does Viktori need a looking glass?",
@@ -73,7 +73,7 @@
     "who is blind mary",
     "blind mary backstory"
    ],
-   "answer": "Mary lived in southern Duskwood before the land fell into cursed darkness, and people around Darkshire knew her for carrying a looking glass. You can learn what became of her at her old home near Tranquil Gardens Cemetery."
+   "answer": "Mary lived in southern Duskwood before the land fell into cursed darkness. People around Darkshire knew her for carrying a looking glass. At her old home near Tranquil Gardens Cemetery, you can learn what became of her."
   },
   {
    "q": "Does Mary still have her looking glass?",
@@ -89,17 +89,17 @@
     "hazards near mary",
     "tranquil gardens cemetery threats"
    ],
-   "answer": "Undead, feral duskbats, venom web spiders, and rabid wolves prowl the southeastern woods and Tranquil Gardens Cemetery, preying on travelers who venture south of Darkshire."
+   "answer": "Undead, feral duskbats, venom web spiders, and rabid wolves prowl the southeastern woods and Tranquil Gardens Cemetery. They prey on travelers who venture south of Darkshire."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Helping Viktori build his telescope brings a rare glimmer of curiosity and progress to a town consumed by terror and rot."
+   "text": "As an Alliance member, helping Viktori build his telescope brings a rare glimmer of curiosity and progress to a town consumed by terror and rot."
   },
   {
    "target": "profession:Engineering",
-   "text": "Telescope assembly follows precise optical plans, using gnomish blueprints to reflect and magnify faint starlight."
+   "text": "As an engineer, you follow precise optical plans for telescope assembly. Gnomish blueprints guide the work of reflecting and magnifying faint starlight."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Look To The Stars (2)"
  ],
- "style": 1
+ "style": 2
 }

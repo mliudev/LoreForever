@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dalson's Tears"
  },
- "summary": "Dalson's Tears is a blighted farmstead located in the heart of the Western Plaguelands. Once known as Dalson's Orchard, the land was overrun during the Third War and converted into a staging ground for one of the Scourge's noxious plague cauldrons. The undead remains of the former owners still haunt the fields and outbuildings.",
+ "summary": "At Dalson's Tears, a Scourge cauldron poisons the fields of the Western Plaguelands. Once Dalson's Orchard, this farm became a Scourge staging ground during the Third War. Its former owners still haunt the fields and outbuildings.",
  "sections": [
   {
    "title": "A Poisoned Harvest",
-   "body": "Before the Third War, this estate flourished as Dalson's Orchard, a productive farm in the breadbasket of Lordaeron. Today, the fields are choked with decay and rechristened Dalson's Tears. At the center of the ruined property stands a massive iron cauldron, constantly billowing virulent green plague vapors across the landscape. The device is overseen by Cauldron Lord Malvinious and defended by a pack of blighted zombies, rotting cadavers, and skeletal horrors serving the Lich King.",
+   "body": "Dalson's Tears was once Dalson's Orchard, a productive farm in Lordaeron's breadbasket. Decay now chokes the fields, while a great iron cauldron at their center sends green plague vapors across the land. Cauldron Lord Malvinious oversees it. Blighted zombies, rotting cadavers, and skeletal horrors guard the device in the Lich King's service.",
    "spoiler": 0
   },
   {
    "title": "The Fate of the Dalsons",
-   "body": "The farm's original occupants met a tragic end when the plague swept through the region, yet death brought no release. Mrs. Dalson wanders the poisoned soil as a mindless skeleton, clutching a key to the farm's outhouse. Inside that small shack lurks the horrifying ghoul that was once Farmer Dalson himself, locked away by his desperate wife before both succumbed completely to the Scourge's curse.",
+   "body": "The Dalson family fell to the plague, and death brought them no release. Mrs. Dalson, Farmer Dalson's wife, wanders the poisoned soil as a mindless skeleton with the key to the farm's outhouse. Inside the locked shack waits the ghoul who was once Farmer Dalson. His desperate wife locked him away before both fell to the Scourge's curse.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "original name",
     "what was this farm called"
    ],
-   "answer": "Before the Third War devastated Lordaeron, this property was a prosperous agricultural plot known as Dalson's Orchard."
+   "answer": "Before the plague, the farm was called Dalson's Orchard, a prosperous plot in Lordaeron. The Third War devastated the land."
   },
   {
    "q": "Why is there a giant cauldron in the middle of the farm?",
@@ -37,7 +37,7 @@
     "green smoke kettle",
     "why is there a cauldron here"
    ],
-   "answer": "The Scourge erected massive plague cauldrons across Lordaeron's farmland to continuously boil virulent toxins. The vapors drift across the region, blighting the earth, poisoning water supplies, and corrupting any living creature exposed to them."
+   "answer": "The Scourge built great plague cauldrons across Lordaeron's farmland to boil toxins without pause. Their vapors drift across the region, blighting earth, poisoning water supplies, and corrupting living creatures exposed to them."
   },
   {
    "q": "Who guards the cauldron at Dalson's Tears?",
@@ -46,7 +46,7 @@
     "who is the boss here",
     "cauldron lord malvinious"
    ],
-   "answer": "The plague cauldron is protected by Cauldron Lord Malvinious, an undead commander serving the Scourge, flanked by hordes of blighted zombies, skeletal terrors, and rotting cadavers."
+   "answer": "Cauldron Lord Malvinious protects the plague cauldron. The Scourge serves him, with blighted zombies, skeletal terrors, and rotting cadavers at his side."
   },
   {
    "q": "What is known about the locked outhouse?",
@@ -55,17 +55,17 @@
     "who is in the outhouse",
     "farmer dalson"
    ],
-   "answer": "The locked outhouse is part of the abandoned farm. Mrs. Dalson's diary offers clues for anyone investigating what happened to the family."
+   "answer": "The locked outhouse is part of the abandoned farm. Mrs. Dalson's diary offers clues to the family's fate."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The ruined homestead is a stark reminder of the fate shared by many people of Lordaeron before Sylvanas Windrunner broke the Lich King's control over the Forsaken."
+   "text": "For the Forsaken, this ruined homestead recalls the fate of many people of Lordaeron. Sylvanas Windrunner broke the Lich King's control over them."
   },
   {
    "target": "class:Paladin",
-   "text": "The desecrated fields and suffering souls of the Dalson family demonstrate the lingering evil that holy warriors of the Light are sworn to cleanse from Lordaeron."
+   "text": "As a paladin, you can see the lingering evil in the desecrated fields and the suffering souls of the Dalson family. The Light's holy warriors are sworn to cleanse that evil from Lordaeron."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Dalson's Tears"
- ]
+ ],
+ "style": 2
 }

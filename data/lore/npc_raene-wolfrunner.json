@@ -8,21 +8,21 @@
   "wiki": "Raene Wolfrunner",
   "refs": 13
  },
- "summary": "In Astranaar, Raene Wolfrunner directs the Sentinels’ defense of Ashenvale. Her wolf and saber cat companions stay close as she faces Horde forces and corrupted furbolg tribes.",
+ "summary": "In Astranaar, Raene Wolfrunner directs the Sentinels as Ashenvale faces threats from the Horde and corrupted furbolg tribes. Korra, her saber cat, and Dagri, her wolf, remain close at hand.",
  "sections": [
   {
    "title": "Defender of Astranaar",
-   "body": "Raene Wolfrunner keeps watch in Astranaar with Korra, her saber cat, and Dagri, her wolf. A Sentinel officer, she oversees patrols across Ashenvale and coordinates intelligence from beyond the forest. She sends scouts such as Kaela Shadowspear into neighboring regions, including the Stonetalon Mountains.",
+   "body": "Raene Wolfrunner keeps watch in Astranaar with Korra, her saber cat, and Dagri, her wolf. As a Sentinel officer, she oversees patrols throughout Ashenvale and gathers intelligence from beyond the forest. She sends scouts such as Kaela Shadowspear into neighboring regions, including the Stonetalon Mountains.",
    "spoiler": 0
   },
   {
    "title": "Stemming the Forest's Corruption",
-   "body": "Raene also works to counter the corruption sickening Ashenvale’s native denizens. She directs campaigns against hostile furbolg tribes, including strikes on Foulweald camps that harass travelers and efforts to remove rising Thistlefur leaders. Her scouts watch for changes in furbolg behavior. Under Raene’s command, they protect local settlements and passing travelers from coordinated ambushes.",
+   "body": "Raene works to halt the corruption spreading among Ashenvale’s native denizens. She directs campaigns against hostile furbolg tribes, including strikes on Foulweald camps that harass travelers and efforts to remove rising Thistlefur leaders. Her scouts watch for changes in furbolg behavior. Under her command, they guard local settlements and passing travelers against coordinated ambushes.",
    "spoiler": 0
   },
   {
    "title": "Dartol's Rod",
-   "body": "Raene’s personal cause is Dartol’s Rod, an ancient relic tied to furbolg purification. Her longtime friend Teronis was slain while seeking its missing gemstone. Raene ordered his body recovered and pledged to complete his research. With the dryad Shael'dryn, she helps champions assemble the relic. It lets an adventurer take furbolg guise and speak with chieftain Krolg, then defeat the tainted leader Ran Bloodtooth and purge the regional threat.",
+   "body": "Dartol’s Rod is an ancient relic tied to the purification of furbolgs, and Raene has made finding it her cause. Her longtime friend Teronis was slain while seeking its missing gemstone. Raene ordered his body recovered and pledged to finish his research. With the dryad Shael'dryn, she helps champions assemble the relic.\n\nDartol’s Rod lets an adventurer take furbolg guise and speak with chieftain Krolg. That opens the way to defeat the tainted leader Ran Bloodtooth and purge the regional threat.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "where is raene",
     "raene astranaar spot"
    ],
-   "answer": "Raene Wolfrunner is in Astranaar, Ashenvale’s central night elf town. She stands outdoors with her two animal companions."
+   "answer": "Raene Wolfrunner can be found outdoors in Astranaar, Ashenvale’s central night elf town. Her two animal companions stand beside her."
   },
   {
    "q": "Who are the animals standing next to Raene?",
@@ -52,7 +52,7 @@
     "is raene an officer",
     "raene sentinel role"
    ],
-   "answer": "Raene is a ranking Sentinel officer in central Ashenvale. She issues orders to scouts, manages outposts, and coordinates operations against local threats."
+   "answer": "Raene is a ranking Sentinel officer in central Ashenvale. She orders scouts, manages outposts, and coordinates operations against local threats."
   },
   {
    "q": "What happened to Raene's friend Teronis?",
@@ -61,7 +61,7 @@
     "raene friend teronis",
     "teronis death"
    ],
-   "answer": "Teronis was seeking a gemstone needed for Dartol’s Rod when he was slain in the field. Raene arranged to recover his remains and complete his mission."
+   "answer": "Teronis was seeking a gemstone for Dartol’s Rod when he was slain in the field. Raene arranged for his remains to be recovered and pledged to complete his research."
   },
   {
    "q": "Why is Raene focusing so heavily on the furbolgs?",
@@ -89,11 +89,11 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can see Raene’s dedication to Elune and Kalimdor’s wilderness in her defense of Ashenvale’s woodland sanctuaries."
+   "text": "As a night elf, you can see Raene’s devotion to Elune and Kalimdor’s wilderness in her defense of Ashenvale’s woodland sanctuaries."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you may recognize Raene’s mastery of the wilderness and bond with beasts. She commands a wolf and a saber cat."
+   "text": "As a hunter, you may recognize Raene’s mastery of the wilderness and her bond with beasts. She commands a wolf and a saber cat."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Raene Wolfrunner"
  ],
- "style": 1
+ "style": 2
 }

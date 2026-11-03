@@ -10,16 +10,16 @@
    "quest:489"
   ]
  },
- "summary": "Beneath Teldrassil's boughs, Fel Cones carry corruption into the forest. Night elf defenders put the pods to use against nearby tricksters.",
+ "summary": "In Teldrassil, Fel Cones carry corruption beneath the tree's boughs. Night elf defenders use the pods against nearby tricksters.",
  "sections": [
   {
    "title": "Blight in the Canopy",
-   "body": "Beneath Teldrassil's boughs, Fel Cones show that corruption has reached the young tree. Gnarled and fallen, the pine cones billow foul green smoke. They lie scattered just east of Dolanaar. Tainted magic has warped the surrounding flora, and the pods are dangerous to touch or eat without caution.",
+   "body": "Beneath Teldrassil's boughs, Fel Cones mark corruption in the young tree. The gnarled pine cones have fallen and billow foul green smoke. They lie scattered just east of Dolanaar. Tainted magic has warped the surrounding plants, and the pods are dangerous to touch or eat without care.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Medicine",
-   "body": "Zenn Foulhoof is a satyr who tricks passersby into doing his bidding. When travelers fall for his wiles, Syral Bladeleaf and the Sentinels direct them to gather Fel Cones and offer them to Foulhoof as an innocent snack. The corruption in a cone briefly transforms the satyr into a harmless frog.",
+   "body": "Zenn Foulhoof tricks passersby into doing his bidding. When travelers fall for his wiles, Syral Bladeleaf and the Sentinels direct them to gather Fel Cones and offer them to Foulhoof as an innocent snack. A cone's corruption briefly turns the satyr into a harmless frog.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "fel cone lore",
     "what is fel cone"
    ],
-   "answer": "A Fel Cone is a corrupted pine cone that falls from Teldrassil's boughs. Tainted by unnatural magic, it gives off eerie green smoke and holds volatile, transformative power."
+   "answer": "A Fel Cone is a corrupted pine cone fallen from Teldrassil's boughs. Tainted by unnatural magic, it gives off eerie green smoke and holds volatile power that can transform."
   },
   {
    "q": "Where can Fel Cones be found?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know Fel Cones signal sickness deep within Teldrassil's roots. Even the young World Tree is not safe from demonic corruption."
+   "text": "As a night elf, you know Fel Cones signal sickness deep within Teldrassil's roots. Even the young World Tree is vulnerable to demonic corruption."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you see wholesome woodland seed pods become smoking fel remnants. Their corruption shows how fragile Teldrassil's balance is."
+   "text": "As a druid, you see wholesome woodland seed pods turned into smoking fel remnants. Their corruption shows how fragile Teldrassil's balance is."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Fel Cone",
   "Seek Redemption!"
  ],
- "style": 1
+ "style": 2
 }

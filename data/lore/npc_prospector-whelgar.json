@@ -8,11 +8,11 @@
   "wiki": "Prospector Whelgar",
   "refs": 1
  },
- "summary": "At Whelgar's Excavation Site, Prospector Whelgar's search for titan relics has stalled. Vicious raptors overran the dig, and he seeks hardy adventurers to recover ancient artifacts.",
+ "summary": "At Whelgar's Excavation Site in the Wetlands, Prospector Whelgar's search for titan relics has stalled. Raptors have overrun the dig, and he seeks hardy adventurers to recover ancient artifacts.",
  "sections": [
   {
    "title": "A Dig Under Siege",
-   "body": "Prospector Whelgar leads a dwarven dig in the Wetlands. His camp, Whelgar's Excavation Site, lies east of Menethil Harbor, where he searches for the history of the dwarven race. Ancient stone relics once filled the valley, but territorial raptors drove his team into hiding. Whelgar refuses to leave his duty unfinished. He still hopes to recover valuable relics, including the Goaz Stone, before predators or rival scoundrels ruin the site.",
+   "body": "Prospector Whelgar leads an Ironforge dwarf expedition in the Wetlands. His camp lies east of Menethil Harbor, where he searches for the history of the dwarven race. Ancient stone relics once filled the valley, but territorial raptors drove his team into hiding. Still, Whelgar refuses to leave his duty unfinished.\n\nHe hopes to recover valuable relics before predators or rival scoundrels ruin the site. The Goaz Stone is among them.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is whelgar",
     "whelgar wetlands map"
    ],
-   "answer": "You can find Prospector Whelgar sheltering on a ridge above Whelgar's Excavation Site, east of Menethil Harbor and southwest of Dun Modr in the Wetlands."
+   "answer": "You can find Prospector Whelgar sheltering on a ridge above Whelgar's Excavation Site. The site lies east of Menethil Harbor and southwest of Dun Modr in the Wetlands."
   },
   {
    "q": "Why is Whelgar having trouble at the dig site?",
@@ -61,7 +61,7 @@
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can find rich mineral veins in the craggy ridges around Whelgar's dig site. Raptors also roam the area and plague his team."
+   "text": "As a miner, you can find rich mineral veins in the craggy ridges around Whelgar's dig site. Raptors roam the area and plague his team."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Prospector Whelgar"
  ],
- "style": 1
+ "style": 2
 }

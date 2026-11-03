@@ -23,16 +23,16 @@
    "Plundering the Plunderers"
   ]
  },
- "summary": "In Orgrimmar, the Shattered Hand awaits a promising Forsaken rogue from Tirisfal Glades. The Deathstalkers send the initiate across the sea to Durotar to learn specialized arts from the clan.",
+ "summary": "A Forsaken rogue from Tirisfal Glades is bound for Orgrimmar, where the Shattered Hand awaits. The Deathstalkers send the promising initiate across the sea to Durotar to learn the clan’s specialized arts.",
  "sections": [
   {
    "title": "A League of Shadows",
-   "body": "Mennet Carkad has seen a rogue prove their worth in Tirisfal Glades. The Forsaken train their own covert order, the Deathstalkers, and their alliance with the Horde opens a path to learn darker arts. He directs promising rogues to seek the Shattered Hand in Orgrimmar, joining Lordaeron’s undead operatives with Kalimdor’s orcish assassins.",
+   "body": "Mennet Carkad has seen a rogue prove their worth in Tirisfal Glades. The Forsaken train their own covert order, the Deathstalkers. Their alliance with the Horde opens a path to darker arts. So Mennet directs promising rogues to the Shattered Hand in Orgrimmar, joining Lordaeron’s undead operatives with Kalimdor’s orcish assassins.",
    "spoiler": 0
   },
   {
    "title": "Into the Cleft of Shadow",
-   "body": "The journey ends beneath Orgrimmar in the Cleft of Shadow, where warlocks, rogues, and demon-binders work out of sight. Shenthul, a Shattered Hand trainer, awaits there. The gruff troll judges the newly arrived undead agent with harsh skepticism. Reputation alone will not satisfy him; he wants to see whether the envoy has real cunning or has wasted the voyage across the Great Sea.",
+   "body": "The journey ends beneath Orgrimmar in the Cleft of Shadow. Warlocks, rogues, and demon-binders work out of sight there. Shenthul, a Shattered Hand trainer, awaits the newly arrived undead agent. The gruff troll greets the envoy with harsh skepticism. Reputation alone will not satisfy him; he wants to see whether the envoy has real cunning or has wasted the voyage across the Great Sea.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "mennet carkad quest",
     "who sends me to orgrimmar"
    ],
-   "answer": "Mennet Carkad, a Deathstalker trainer in the Rogues' Quarter of the Undercity, sends you once you prove your basic skills in Tirisfal Glades."
+   "answer": "Mennet Carkad, a Deathstalker trainer in the Rogues' Quarter of the Undercity, sends you after you prove your basic skills in Tirisfal Glades."
   },
   {
    "q": "Where is Shenthul located?",
@@ -62,7 +62,7 @@
     "forsaken rogues orc rogues",
     "why sent to orgrimmar"
    ],
-   "answer": "The Deathstalkers are the Forsaken's intelligence network and assassination guild, while the Shattered Hand fills a similar role for the Horde in Orgrimmar. They are formal allies who share advanced training and clandestine contracts across the Horde."
+   "answer": "The Deathstalkers are the Forsaken's intelligence network and assassination guild. The Shattered Hand fills a similar role for the Horde in Orgrimmar. The two orders are formal allies who share advanced training and clandestine contracts across the Horde."
   },
   {
    "q": "Why does Shenthul call me uninspiring?",
@@ -95,15 +95,15 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you move from local training into the Horde's wider criminal and covert network, meeting the underworld trainers in Kalimdor."
+   "text": "As a rogue, you move from local training into the Horde's wider criminal and covert network. In Kalimdor, you meet the underworld trainers."
   },
   {
    "target": "race:Undead",
-   "text": "As a young Forsaken rogue, you leave local Scourge remnants in Lordaeron behind and join the Horde's heartland in Durotar."
+   "text": "As a young Forsaken rogue, you leave the Scourge remnants of Lordaeron behind and join the Horde's heartland in Durotar."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see cooperation between Orgrimmar's and Undercity's secret services, beyond the frontline grunts and shamans."
+   "text": "As a member of the Horde, you see cooperation between the secret services of Orgrimmar and Undercity, beyond the frontline grunts and shamans."
   }
  ],
  "keywords": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Find the Shattered Hand"
  ],
- "style": 1
+ "style": 2
 }

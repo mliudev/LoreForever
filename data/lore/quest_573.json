@@ -24,16 +24,16 @@
    "Mok'thardin's Enchantment"
   ]
  },
- "summary": "Far Seer Mok'thardin requires one final sacred component to complete the enchantment of a ceremonial choker at Grom'gol Base Camp. He directs you to an elevated Holy Spring along the southern bluffs near the western sea, which has drawn the attention of a hostile naga expedition.",
+ "summary": "At Grom'gol Base Camp, Far Seer Mok'thardin seeks the last sacred water for a ceremonial choker. He sends you to a Holy Spring on the southern bluffs near the western sea, where naga explorers have arrived.",
  "sections": [
   {
    "title": "A Contested Spring",
-   "body": "Following the earlier stages of Mok'thardin's enchantment, the far seer seeks water from a Holy Spring situated high above the bluffs in the southern reaches of Stranglethorn Vale, near the western coast. The site is a point of contention among scholars of the mystic and divine, with every race across Azeroth claiming the holy waters were sanctified specifically for their own people.",
+   "body": "Far Seer Mok'thardin needs water from a Holy Spring high above Stranglethorn Vale's southern bluffs, near the western coast. You have helped with the earlier stages of the enchantment. Scholars of the mystic and divine dispute who the spring was sanctified for. Every race across Azeroth claims its holy waters were meant for its own people.",
    "spoiler": 0
   },
   {
    "title": "The Naga Incursion",
-   "body": "A party of naga explorers has moved up to the spring and must be dealt with as well. Mok'thardin requires ten of these serpent intruders slain alongside a draught of the spring water to finish preparing the ceremonial choker in the name of the Warchief.",
+   "body": "Naga explorers have reached the spring, and Mok'thardin needs you to drive them away. Bring him a draught of the water and slay ten of the serpent intruders. He needs both to finish the ceremonial choker in the Warchief's name.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "where is holy spring water",
     "holy spring bluffs"
    ],
-   "answer": "The Holy Spring sits high atop the bluffs toward the western coast in the southern region of Stranglethorn Vale."
+   "answer": "The Holy Spring sits high on the bluffs near the western coast, in southern Stranglethorn Vale."
   },
   {
    "q": "Why is the Holy Spring considered important?",
@@ -53,7 +53,7 @@
     "why is the spring holy",
     "holy spring significance"
    ],
-   "answer": "Religious and mystical scholars argue fiercely over the spring, as every race across Azeroth maintains that its divine waters were sanctified especially for them."
+   "answer": "Scholars of the mystic and divine dispute the spring's importance. Every race across Azeroth claims its divine waters were sanctified for its own people."
   },
   {
    "q": "Who is contesting the Holy Spring?",
@@ -61,7 +61,7 @@
     "who attacks the spring",
     "holy spring enemies"
    ],
-   "answer": "An expedition of naga explorers has advanced onto the bluffs surrounding the Holy Spring, menacing the area."
+   "answer": "An expedition of naga explorers has reached the bluffs around the Holy Spring and menaces the area."
   },
   {
    "q": "What is the water being used for?",
@@ -69,13 +69,13 @@
     "why need holy spring water",
     "holy spring water purpose"
    ],
-   "answer": "The water serves as the final reagent required by Far Seer Mok'thardin to prepare and enchant a ceremonial choker in defense of the Horde."
+   "answer": "Far Seer Mok'thardin needs the water as the final reagent to prepare and enchant a ceremonial choker in defense of the Horde."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Far Seer Mok'thardin asks Horde champions to help finish a ceremonial choker meant to honor the Warchief and protect the Horde."
+   "text": "As a Horde champion, you can help Far Seer Mok'thardin finish a ceremonial choker to honor the Warchief and protect the Horde."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Mok'thardin's Enchantment (4)"
- ]
+ ],
+ "style": 2
 }

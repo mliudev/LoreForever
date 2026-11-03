@@ -10,16 +10,16 @@
    "quest:178"
   ]
  },
- "summary": "A voice now comes from the Faded Shadowhide Pendant, found in the Redridge Mountains. The Shadowhide gnolls wore it to receive orders from Morganth, and the delayed message is a spell cast by Theocritus.",
+ "summary": "In Redridge, a voice now sounds from the Faded Shadowhide Pendant. The Shadowhide gnolls wore it to receive Morganth’s orders, and the voice carries Theocritus’s delayed spell.",
  "sections": [
   {
    "title": "A Broken Network",
-   "body": "The Shadowhide gnolls of the Redridge Mountains follow Morganth and coordinate their movements through enchanted pendants. From his sanctuary at Tower Azora, High Mage Theocritus studied the talismans and devised a spell to breach their magical link. His broadcast took weeks to appear. This faded pendant proves the gnolls’ communication can be intercepted, giving Theocritus a way to disrupt Morganth’s reach.",
+   "body": "The Shadowhide gnolls of the Redridge Mountains follow Morganth and use enchanted pendants to coordinate their movements. From his sanctuary at Tower Azora, High Mage Theocritus studied the talismans and devised a spell to break into their link. Weeks passed before his broadcast appeared. Now this faded pendant proves the gnolls’ messages can be intercepted, giving Theocritus a way to hinder Morganth’s reach.",
    "spoiler": 0
   },
   {
    "title": "The Mage's Ambition",
-   "body": "Theocritus wants to study the pendant and learn how its enchantment endured his intrusion. He hopes to refine his sorcery until he can send disabling attacks through matching amulets worn across Redridge. The pendant must be brought to Tower Azora in Elwynn Forest so he can begin his work against Morganth’s hold over the region’s gnolls.",
+   "body": "Theocritus wants to study the pendant and learn how its enchantment endured his intrusion. He hopes to refine his sorcery and send disabling attacks through matching amulets worn across Redridge. The pendant must reach Tower Azora in Elwynn Forest, where he can begin his work against Morganth’s hold over the region’s gnolls.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is this pendant",
     "theocritus pendant"
    ],
-   "answer": "The Faded Shadowhide Pendant was worn by Shadowhide gnolls in the Redridge Mountains to receive orders from Morganth. High Mage Theocritus’s broadcast spell has altered this pendant."
+   "answer": "Shadowhide gnolls in the Redridge Mountains wore the Faded Shadowhide Pendant to receive Morganth’s orders. High Mage Theocritus’s broadcast spell has altered it."
   },
   {
    "q": "Why does a voice speak from the pendant?",
@@ -40,7 +40,7 @@
     "disembodied voice",
     "theocritus voice"
    ],
-   "answer": "The voice is an echo of a spell High Mage Theocritus cast weeks ago. After months of study, he found a way to breach the pendants’ communication link, and the message shows his spell reached the gnolls’ network."
+   "answer": "The voice echoes a spell High Mage Theocritus cast weeks ago. After months of study, he found a way into the pendants’ communication link, and the message shows his spell reached the gnolls’ network."
   },
   {
    "q": "Who is Theocritus?",
@@ -73,7 +73,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a Mage, you can see how magical interception can reach even crude or dark enchantments. A disciplined wizard can decode and hijack them."
+   "text": "As a Mage, you can see magical interception reach even crude or dark enchantments. A disciplined wizard can decode and hijack them."
   },
   {
    "target": "faction:Alliance",
@@ -104,5 +104,5 @@
   "Faded Shadowhide Pendant",
   "Theocritus' Retrieval"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:888"
   ]
  },
- "summary": "Gazlowe needs the Telescopic Lens to finish the observatory telescope above Ratchet’s harbor. Southsea pirates took it from a ship, and the lens remains in their camp south of town.",
+ "summary": "Above Ratchet’s harbor, Gazlowe needs the Telescopic Lens to complete his observatory telescope. Southsea pirates took the lens from a ship, and it remains in their camp south of town.",
  "sections": [
   {
    "title": "Eyes on the Sky",
-   "body": "Ratchet is known chiefly for ruthless commerce, but its overseer and chief engineer, Gazlowe, has greater mechanical ambitions. His observatory rises above the harbor to house a telescope for watching maritime traffic and the stars. The larger lens came safely overland from Durotar. The smaller, vital lens traveled by sea, where Southsea Freebooters prey on merchant lanes off the Barrens coast.",
+   "body": "Ratchet is known for ruthless commerce, yet Gazlowe, its overseer and chief engineer, has greater mechanical ambitions. His observatory rises above the harbor, built to watch maritime traffic and the stars. The larger lens came safely overland from Durotar. The smaller, vital lens traveled by sea, where Southsea Freebooters prey on merchant lanes off the Barrens coast.",
    "spoiler": 0
   },
   {
    "title": "Pirate Plunder",
-   "body": "The Southsea Freebooters took anything of value when they raided the transport ship, including the delicate optics. The pirates may have left the lens among the clutter of their beachside camp south of Ratchet because they could not appreciate its craft or did not know how to pawn it. Gazlowe needs the unblemished glass brought back so his observation deck can come into focus.",
+   "body": "When the Southsea Freebooters raided the transport ship, they took anything valuable, including the delicate optics. The lens may lie among the clutter of their beachside camp south of Ratchet. The pirates might not value its craft, or know how to pawn it. Gazlowe needs the unblemished glass returned so his observation deck can come into focus.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is the lens for",
     "why telescope lens"
    ],
-   "answer": "Gazlowe needs the Telescopic Lens to finish the telescope in Ratchet’s observatory. The larger lens arrived overland from Durotar, but the smaller lens was lost at sea."
+   "answer": "Gazlowe needs the Telescopic Lens to complete the telescope in Ratchet’s observatory. The larger lens arrived overland from Durotar, but the smaller one was lost at sea."
   },
   {
    "q": "Who stole the Telescopic Lens?",
@@ -40,7 +40,7 @@
     "who has the lens",
     "telescopic lens location"
    ],
-   "answer": "Southsea Freebooters stole the Telescopic Lens. They are opportunistic human and goblin pirates who prey on merchant ships near the Merchant Coast, and they keep the lens in a marked crate at their coastal camp south of Ratchet."
+   "answer": "Southsea Freebooters stole the Telescopic Lens. These human and goblin pirates prey on merchant ships near the Merchant Coast. They keep the lens in a marked crate at their coastal camp south of Ratchet."
   },
   {
    "q": "Where did the lens originally come from?",
@@ -49,7 +49,7 @@
     "lens origin",
     "where did gazlowe order lens"
    ],
-   "answer": "The Telescopic Lens was shipped by sea to Ratchet, while its counterpart came overland from Durotar. Inbound shipments to the port often come from across the Great Sea or from southern goblin holdings such as Booty Bay."
+   "answer": "The Telescopic Lens traveled by sea to Ratchet, while its counterpart came overland from Durotar. Ships arriving at the port often come from across the Great Sea or from southern goblin holdings such as Booty Bay."
   },
   {
    "q": "Is the lens undamaged despite being stolen?",
@@ -57,17 +57,17 @@
     "is the lens broken",
     "fragile do not drop crate"
    ],
-   "answer": "Miraculously, the lens survived unharmed. A crate marked “Fragile - Do Not Drop” protected the precision glass from the pirates’ rough handling."
+   "answer": "The lens survived unharmed. A crate marked “Fragile - Do Not Drop” protected the precision glass from the pirates’ rough handling."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see the fine optical craft in this lens. It is needed to focus long-range observation mechanisms without spherical aberration."
+   "text": "As an engineer, you can see the fine optical craft in this lens. It focuses long-range observation mechanisms without spherical aberration."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you may scoff at goblin rocketry, but Gazlowe’s devotion to optical astronomy shows goblin engineering is not all about high explosives."
+   "text": "As a gnome, you may scoff at goblin rocketry. Yet Gazlowe’s devotion to optical astronomy shows that goblin engineering is not all about high explosives."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Telescopic Lens",
   "Stolen Booty"
  ],
- "style": 1
+ "style": 2
 }

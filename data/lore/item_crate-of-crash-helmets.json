@@ -10,11 +10,11 @@
    "quest:1179"
   ]
  },
- "summary": "A heavy supply shipment of dwarven Siege Engine headgear destined for the Shimmering Flats in Thousand Needles. The sturdy helmets are urgently required by the Brassbolts brothers to protect test drivers from concussions caused by their experimental rocket cars.",
+ "summary": "At the Shimmering Flats, Wizzle Brassbolts and his brother need helmets for their rocket car test drivers. Heavy dwarven Siege Engine headgear is bound for Thousand Needles to guard pilots against concussions.",
  "sections": [
   {
    "title": "Safety at High Speeds",
-   "body": "Out across the blinding white expanse of the Shimmering Flats, gnome engineers test the absolute limits of mechanical propulsion. Unfortunately for the test pilots, the experimental rocket cars designed by the Brassbolts brothers move far faster than their steering can reliably handle. With drivers routinely suffering violent crashes and head trauma, ordinary leather caps no longer suffice. To prevent their roster of willing daredevils from vanishing entirely, heavy-duty dwarven Siege Engine helmets are packed and dispatched across the sea to keep drivers conscious\u2014and alive.",
+   "body": "Gnome engineers race rocket cars across the Shimmering Flats. Wizzle Brassbolts and his brother build machines that outrun their drivers’ ability to steer. Crashes leave test pilots with head injuries, and leather caps no longer suffice. So heavy dwarven Siege Engine helmets are shipped across the sea to keep the drivers conscious and alive.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what helmets are these",
     "crash helmets type"
    ],
-   "answer": "The crate contains heavy Siege Engine helmets acquired from dwarven military stocks. Built to withstand concussive explosions and violent vehicle impacts, they offer the thickest head protection available for high-speed trials."
+   "answer": "The crate holds heavy Siege Engine helmets taken from dwarven military stocks. Their thick protection guards against concussive blasts and hard impacts during high-speed trials."
   },
   {
    "q": "Who needs these helmets?",
@@ -35,7 +35,7 @@
     "who is the crate for",
     "helmet destination"
    ],
-   "answer": "They are sent to Wizzle Brassbolts and his brother out at the Mirage Raceway in the Shimmering Flats. Their reckless vehicle designs repeatedly knock out test pilots, creating an acute need for serious head protection."
+   "answer": "Wizzle Brassbolts and his brother need the helmets at the Mirage Raceway in the Shimmering Flats. Their designs leave test pilots with head injuries, so the drivers need serious protection."
   },
   {
    "q": "Why are the Brassbolts brothers crashing so much?",
@@ -44,7 +44,7 @@
     "rocket car problems",
     "gnome racing crashes"
    ],
-   "answer": "Gnomish vehicle design prioritizes raw speed and technological boundary-pushing over stable handling. The brothers built an exceptionally fast rocket car, but its sheer velocity makes collisions on the salt flats almost unavoidable."
+   "answer": "The Brassbolts brothers build for speed and push the limits of gnomish engineering, with little regard for stable handling. Their rocket car moves so fast that collisions on the salt flats are almost unavoidable."
   },
   {
    "q": "Where are the helmets being delivered?",
@@ -53,17 +53,17 @@
     "where is wizzle",
     "where do these go"
    ],
-   "answer": "The shipment must be brought down to the Shimmering Flats, the vast salt plain resting in the southeastern reaches of Thousand Needles in Kalimdor."
+   "answer": "The helmets are bound for the Shimmering Flats, a vast salt plain in southeastern Thousand Needles, Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Any engineer understands the delicate balance between maximum propulsion and catastrophic failure\u2014and the absolute necessity of heavy armor when safety features are an afterthought."
+   "text": "Engineers know the balance between propulsion and failure. They know how much heavy armor matters when safety features come second."
   },
   {
    "target": "race:Gnome",
-   "text": "For gnomes at the Mirage Raceway, pilot concussions are simply the cost of doing business when out-innovating goblin rivals on the salt flats."
+   "text": "As a gnome at the Mirage Raceway, you see pilot concussions come with the work of out-innovating goblin rivals on the salt flats."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  "attribution": [
   "Crate of Crash Helmets",
   "The Brassbolts Brothers"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Plainstrider Menace (Classic)",
   "chain": []
  },
- "summary": "At the Crossroads, Sergra Darkthorn sends new Horde adventurers after plainstriders east of the outpost. The birds threaten its food supplies, and the hunt gives newcomers a first measure of the Barrens.",
+ "summary": "East of the Crossroads, plainstriders threaten the outpost’s food stores. Sergra Darkthorn sends new Horde arrivals to hunt them, giving the newcomers their first measure of the Barrens.",
  "sections": [
   {
    "title": "Securing the Crossroads",
-   "body": "The Crossroads coordinates supplies across Kalimdor, but plainstriders east of the outpost have begun picking at its food crates. Sergra Darkthorn, an orc shaman, sends newly arrived Horde adventurers to hunt the birds before they damage the stores. Their attacks threaten provisions the settlement depends on.",
+   "body": "The Crossroads coordinates supplies across Kalimdor. Now plainstriders east of the outpost are picking at its food crates. Sergra Darkthorn, an orc shaman, sends newly arrived Horde adventurers to hunt the birds before they damage the stores. The settlement depends on those provisions.",
    "spoiler": 0
   },
   {
    "title": "The First Hunt",
-   "body": "Sergra Darkthorn uses the hunt to measure newcomers as well as protect supplies. She sees the plainstriders as simple prey, fit to teach young hunters to endure the elements and track quarry across the sun-baked plains. Bringing back their sharp beaks shows a hunter has patience and the basic martial skill needed to face fiercer beasts of the Barrens.",
+   "body": "Sergra Darkthorn uses the hunt to test newcomers and protect the settlement’s supplies. To her, plainstriders are simple prey, fit to teach young hunters to endure the elements and track quarry across the sun-baked plains. Bringing back their sharp beaks shows patience and the basic martial skill needed to face fiercer beasts of the Barrens.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "plainstrider problem",
     "what did plainstriders do"
    ],
-   "answer": "Plainstriders east of the Crossroads have grown bold, raiding food supplies and harassing passing supply lines. Sergra Darkthorn orders them hunted to protect the settlement's provisions."
+   "answer": "Plainstriders east of the Crossroads have grown bold, raiding food supplies and harassing passing supply lines. Sergra Darkthorn orders the hunt to protect the settlement’s provisions."
   },
   {
    "q": "Who is Sergra Darkthorn?",
@@ -55,7 +55,7 @@
     "why plainstrider beaks",
     "plainstrider beak proof"
    ],
-   "answer": "A plainstrider uses its tough, sharp beak as both its primary weapon and a tool for scavenging. Bringing back the beak proves the bird has been slain."
+   "answer": "A plainstrider uses its tough, sharp beak as its main weapon and a tool for scavenging. Bringing back the beak proves the bird has been slain."
   },
   {
    "q": "What comes after this hunt?",
@@ -73,7 +73,7 @@
     "plainstrider locations",
     "hunting grounds"
    ],
-   "answer": "Plainstriders wander the savanna grasslands east and southeast of the Crossroads, foraging along the trade roads."
+   "answer": "Plainstriders roam the savanna grasslands east and southeast of the Crossroads, foraging along the trade roads."
   },
   {
    "q": "Is this part of a larger hunting series?",
@@ -81,17 +81,17 @@
     "barrens hunting chain",
     "sergra quest chain"
    ],
-   "answer": "Yes. This begins Sergra Darkthorn's hunting trials in the Barrens, which grow more dangerous as they turn to fiercer beasts across the savanna."
+   "answer": "Yes. This begins Sergra Darkthorn’s hunting trials in the Barrens. The trials grow more dangerous as they turn to fiercer beasts across the savanna."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a young hunter, you learn to stalk, track, and put down quarry in the wide-open savanna."
+   "text": "As a young hunter, you learn to stalk, track, and bring down quarry in the wide-open savanna."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help protect the Crossroads, an essential logistics junction, and secure its food supplies so the Horde can maintain its foothold across Kalimdor."
+   "text": "As a member of the Horde, you help protect the Crossroads, a vital supply junction, and secure its food so the Horde can hold its ground across Kalimdor."
   },
   {
    "target": "race:Orc",
@@ -116,5 +116,5 @@
  "attribution": [
   "Plainstrider Menace (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "Revenge of Gann (2)"
   ]
  },
- "summary": "In the southern Barrens, Gann Stonespire prepares to strike back at the Bael Modan dwarves. After Prospector Khazgorm's death, he sends Horde allies into the fortress for volatile munitions to fuel his attack.",
+ "summary": "In the southern Barrens, Gann Stonespire prepares to strike back at the Bael Modan dwarves. After Prospector Khazgorm's death, he sends Horde allies into the fortress to seize volatile munitions for his attack.",
  "sections": [
   {
    "title": "A Taste of Their Own Medicine",
-   "body": "Gann Stonespire knows Prospector Khazgorm's death only slowed the Bael Modan dig site. Dwarven work will resume, and another foreman will soon oversee the machines tearing through Gann's ancestral land. He refuses to watch the earth suffer more excavation. Instead, Gann plans to turn the invaders' demolitions gear against them and rupture their stronghold from within.",
+   "body": "Gann Stonespire knows Prospector Khazgorm's death has only slowed the Bael Modan dig site. The dwarves will return to work, and another foreman will soon direct the machines cutting through Gann's ancestral land. He will not watch the earth suffer more excavation. So Gann means to turn the invaders' demolitions gear against them and rupture their stronghold from within.",
    "spoiler": 0
   },
   {
    "title": "Raiding the Keep",
-   "body": "Bael Modan's fortress holds an excavation base and a garrison of soldiers, riflemen, and officers protecting dwarven interests in the Barrens. Gann has learned that its defenders carry nitroglycerin, wood pulp, and sodium nitrate, materials used in industrial demolition. He sends Horde allies past the perimeter to take these volatile supplies from the dwarves. With enough gathered, he can assemble a powerful satchel charge.",
+   "body": "Bael Modan's fortress guards an excavation base and a garrison of soldiers, riflemen, and officers who protect dwarven interests in the Barrens. Its defenders carry nitroglycerin, wood pulp, and sodium nitrate for industrial demolition. Gann sends Horde allies past the perimeter to take these volatile supplies. With enough in hand, he can assemble a powerful satchel charge.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "gann stonespire motive",
     "what did dwarves do to gann"
    ],
-   "answer": "The Ironforge dwarves at Bael Modan overran Gann's ancestral homeland, desecrated the soil, and drove his people out to establish their excavation site. After killing the chief prospector and recovering his journal, Gann seeks to stop the destruction for good."
+   "answer": "The Ironforge dwarves at Bael Modan overran Gann's ancestral homeland, desecrated its soil, and drove his people out to establish their excavation site. After killing the chief prospector and recovering his journal, Gann seeks to end the destruction for good."
   },
   {
    "q": "Where are the explosive materials found?",
@@ -68,7 +68,7 @@
     "what next revenge of gann",
     "after gathering ingredients"
    ],
-   "answer": "When you return the raw components, Gann assembles an explosive charge and sends you to destroy the dwarves' flying machine at the Bael Modan excavation, a key part of the site's infrastructure."
+   "answer": "When you return the raw components, Gann assembles an explosive charge and sends you to destroy the dwarves' flying machine at the Bael Modan excavation. It is a key part of the site's infrastructure."
   },
   {
    "q": "Why doesn't slaying Khazgorm end the dwarven threat?",
@@ -76,7 +76,7 @@
     "why didn't khazgorm death work",
     "is bael modan stopped"
    ],
-   "answer": "Khazgorm was only the lead prospector. Bael Modan's dwarven forces are entrenched behind defensive walls and supply lines, and Ironforge can send another foreman to continue digging unless the base suffers a catastrophic blow."
+   "answer": "Khazgorm was only the lead prospector. Bael Modan's dwarven forces are entrenched behind defensive walls and supply lines. Ironforge can send another foreman to continue digging unless the base suffers a catastrophic blow."
   },
   {
    "q": "What is Bael Modan's strategic threat to the Horde?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help keep the Alliance from establishing a military foothold in the southern Barrens that could sever travel between Mulgore, Crossroads, and the southern frontier."
+   "text": "As a member of the Horde, you help keep the Alliance from establishing a military foothold in the southern Barrens. Such a foothold could sever travel between Mulgore, Crossroads, and the southern frontier."
   },
   {
    "target": "profession:Engineering",
@@ -122,5 +122,5 @@
  "attribution": [
   "Revenge of Gann"
  ],
- "style": 1
+ "style": 2
 }

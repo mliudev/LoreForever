@@ -17,16 +17,16 @@
   "wiki": "Iverron's Antidote (2)",
   "chain": []
  },
- "summary": "In Shadowglen, Iverron waits for medicine before its strength fades. Poisoned by Webwood spiders, the night elf scout depends on Dirania Silvershine's brew, which must reach him within five minutes.",
+ "summary": "In Shadowglen, Iverron waits for a cure before the poison takes hold. Webwood spiders have poisoned the night elf scout, and Dirania Silvershine's brew must reach him within five minutes.",
  "sections": [
   {
    "title": "A Race Against the Clock",
-   "body": "Dirania Silvershine brews the cure from fresh venom sacs, lily roots, and hyacinth fungi. The unstable mixture keeps its strength for only five minutes after it is distilled. Whoever carries the vial must sprint straight from the glade toward the northern heights without hesitation.",
+   "body": "Dirania Silvershine makes the cure from fresh venom sacs, lily roots, and hyacinth fungi. Once distilled, the unstable brew holds its strength for only five minutes. Carry the vial straight from the glade toward the northern heights, without delay.",
    "spoiler": 0
   },
   {
    "title": "A Habit of Trouble",
-   "body": "Webwood spiders around Shadowglen's barrows and caves have poisoned Iverron. He admits he has a habit of stumbling into danger and often depends on Dirania's herbal skill to save him. Even after drinking the antidote, his recovery is fragile. The hostile spiders still guard his way home, and he remains wary of them.",
+   "body": "Webwood spiders near Shadowglen's barrows and caves poisoned Iverron. He admits he often stumbles into danger and relies on Dirania's herbal skill to save him. Even after he drinks the antidote, he remains frail. Hostile spiders still guard his way home, and he fears them.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "antidote timer",
     "timed quest"
    ],
-   "answer": "Dirania Silvershine's antidote loses its healing strength quickly because it is made from fresh natural ingredients and venom. It is useless if Iverron does not drink it within five minutes of leaving her care."
+   "answer": "Dirania Silvershine's antidote quickly loses its healing strength because it is made from fresh plants and venom. Iverron must drink it within five minutes of its leaving her care."
   },
   {
    "q": "Where is Iverron located?",
@@ -47,7 +47,7 @@
     "iverron location",
     "find iverron"
    ],
-   "answer": "Iverron waits against the rocks outside the northern cave in Shadowglen, north of the grove's main path."
+   "answer": "Iverron waits against the rocks outside Shadowglen's northern cave, north of the grove's main path."
   },
   {
    "q": "How was Iverron poisoned?",
@@ -56,7 +56,7 @@
     "why is iverron sick",
     "iverron poison"
    ],
-   "answer": "Webwood spiders poisoned Iverron. They live on Shadowglen's northern outskirts, where they have multiplied around Teldrassil's roots and caves."
+   "answer": "Webwood spiders poisoned Iverron. They live on Shadowglen's northern outskirts and have multiplied around Teldrassil's roots and caves."
   },
   {
    "q": "What happens after Iverron drinks the antidote?",
@@ -65,7 +65,7 @@
     "after iverron antidote",
     "iverron follow up"
    ],
-   "answer": "The antidote neutralizes the poison, but Iverron remains too weak and shaken to travel safely alone. He asks for help clearing the nearby Webwood spiders that block his way back to safety."
+   "answer": "The antidote neutralizes the poison, but Iverron remains too weak and shaken to travel safely alone. He asks for help clearing the nearby Webwood spiders that block his way to safety."
   },
   {
    "q": "What relationship do Dirania and Iverron have?",
@@ -74,7 +74,7 @@
     "who is dirania to iverron",
     "are they friends"
    ],
-   "answer": "Dirania Silvershine is an herbalist and healer in Shadowglen who often rescues Iverron from trouble. He admits that he keeps getting into danger and that Dirania is always helping him out."
+   "answer": "Dirania Silvershine is an herbalist and healer in Shadowglen who often rescues Iverron from trouble. He admits he keeps getting into danger and Dirania is always helping him out."
   },
   {
    "q": "What happens if the antidote expires before reaching him?",
@@ -83,17 +83,17 @@
     "failed timer",
     "lost antidote"
    ],
-   "answer": "If the brew spoils before it reaches Iverron, you need a fresh dose from Dirania Silvershine in Shadowglen and must make the run again."
+   "answer": "If the brew spoils before reaching Iverron, get a fresh dose from Dirania Silvershine in Shadowglen and make the run again."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf training in Shadowglen, you see Iverron's rescue as a sobering reminder of the corruption and aggression stirring among Teldrassil's native wildlife."
+   "text": "As a young night elf training in Shadowglen, you see Iverron's rescue as a sobering sign of the corruption and aggression stirring among Teldrassil's native wildlife."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you know raw woodland plants can be difficult to work with. Their concoctions lose vital properties almost at once without proper preservation."
+   "text": "As an herbalist, you know raw woodland plants can be hard to work with. Without proper preservation, their brews quickly lose their vital properties."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Iverron's Antidote (2)"
  ],
- "style": 1
+ "style": 2
 }

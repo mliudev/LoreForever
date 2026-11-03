@@ -8,11 +8,11 @@
   "wiki": "Rezlak",
   "refs": 2
  },
- "summary": "Along Durotar's roads south of Orgrimmar, Rezlak waits for help with his supply lines. The goblin entrepreneur belongs to the Tinkers' Union and hires travelers to recover missing supplies and drive off harpies.",
+ "summary": "Along Durotar’s roads south of Orgrimmar, Rezlak waits for help keeping his supplies moving. The goblin belongs to the Tinkers’ Union and hires travelers to recover lost goods and drive off harpies.",
  "sections": [
   {
    "title": "A Pragmatic Tinkers' Union Agent",
-   "body": "Rezlak waits beside the canyon road between Razor Hill and Orgrimmar. He represents the Tinkers' Union, a goblin syndicate focused on engineering, supply lines, and practical business. The factional tensions of Kalimdor matter little to him while trade runs smoothly. Dustwind harpies have raided his cargo caravans and made the routes unsafe. Rezlak remains at his post and hires passersby willing to earn a profit by recovering supplies and dealing with the harpies.",
+   "body": "Rezlak waits beside the canyon road between Razor Hill and Orgrimmar. He represents the Tinkers’ Union, a goblin syndicate devoted to engineering, supply lines, and practical business. While trade runs smoothly, the factional tensions of Kalimdor matter little to him. Dustwind harpies have raided his cargo caravans and made the routes unsafe. So Rezlak stays at his post and hires passersby to recover supplies and deal with the harpies for profit.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is rezlak",
     "rezlak durotar"
    ],
-   "answer": "Rezlak is a goblin merchant and engineer with the Tinkers' Union. One of Gazlowe's men, he was sent to help the orcs of Durotar. He waits along the main northern road for help securing supply lines and reclaiming gear from local pests."
+   "answer": "Rezlak is a goblin merchant and engineer with the Tinkers’ Union. One of Gazlowe’s men, he was sent to help the orcs of Durotar. He waits along the main northern road for help securing supply lines and reclaiming gear from local pests."
   },
   {
    "q": "What is Rezlak doing in Durotar?",
@@ -33,7 +33,7 @@
     "rezlak purpose",
     "rezlak mission"
    ],
-   "answer": "Rezlak works along the trade routes between the central plains and the canyon pass to Orgrimmar. Dustwind harpies ambushed his caravans, scattering cargo across the arid canyons and making the routes unsafe."
+   "answer": "Rezlak works along the trade routes between the central plains and the canyon pass to Orgrimmar. Dustwind harpies ambushed his caravans and scattered cargo across the arid canyons, making the routes unsafe."
   },
   {
    "q": "Which quests does Rezlak offer?",
@@ -41,7 +41,7 @@
     "rezlak quests",
     "what quests does rezlak give"
    ],
-   "answer": "Rezlak offers two tasks: 'Winds in the Desert' asks you to recover sacks of lost supplies scattered across the canyon floor, and 'Securing the Lines' asks you to thin the nearby Dustwind harpies."
+   "answer": "Rezlak offers two jobs. ‘Winds in the Desert’ asks you to recover sacks of lost supplies scattered across the canyon floor. ‘Securing the Lines’ asks you to thin the nearby Dustwind harpies."
   },
   {
    "q": "What is the Tinkers' Union?",
@@ -49,17 +49,17 @@
     "tinkers union",
     "rezlak faction"
    ],
-   "answer": "The Tinkers' Union is a goblin trade organization for mechanics, inventors, and logistical work. Like other goblin cartels and guilds, its members put profitable trade and practical solutions ahead of political loyalty."
+   "answer": "The Tinkers’ Union is a goblin trade organization for mechanics, inventors, and logistical work. Like other goblin cartels and guilds, its members put profitable trade and practical solutions ahead of political loyalty."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can understand why Rezlak prizes mechanical efficiency, useful tools, and salvaged components."
+   "text": "As an engineer, you understand why Rezlak prizes mechanical efficiency, useful tools, and salvaged components."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you meet Rezlak just outside Orgrimmar, where his dealings reflect the transactional ties between neutral goblin guilds and the fledgling Horde."
+   "text": "As a member of the Horde, you meet Rezlak just outside Orgrimmar. His dealings reflect the transactional ties between neutral goblin guilds and the fledgling Horde."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Rezlak"
  ],
- "style": 1
+ "style": 2
 }

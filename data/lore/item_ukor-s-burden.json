@@ -10,11 +10,11 @@
    "quest:2161"
   ]
  },
- "summary": "At the Valley of Trials, Ukor's food is turned away, and he needs help bringing it back to Razor Hill.",
+ "summary": "At the Valley of Trials, Ukor’s rejected provisions leave him needing help to carry them back to Razor Hill.",
  "sections": [
   {
    "title": "A Well-Intentioned Mistake",
-   "body": "Ukor, an orc peon, rarely acts on his own, but he carried provisions from the inn in Razor Hill to help young recruits in the Valley of Trials. The journey led him through Durotar's red dust and dangerous wildlife. The overseers and instructors refused the food, believing hardship and hunger make true warriors. Now Ukor waits outside the canyon's mouth, afraid of the beasts along the trail back. He has entrusted the sack to passing travelers, asking them to return it to Innkeeper Grosk.",
+   "body": "Ukor, an orc peon, rarely acts on his own. Yet he carried provisions from the inn in Razor Hill to feed young recruits in the Valley of Trials. The journey took him through Durotar’s red dust and dangerous wildlife.\n\nThe overseers and instructors refused the food, believing hardship and hunger make true warriors. Now Ukor waits outside the canyon’s mouth, afraid of the beasts on the trail back. He has entrusted the sack to passing travelers and asks them to return it to Innkeeper Grosk.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "ukors burden contents",
     "what food is it"
    ],
-   "answer": "Ukor's Burden holds food and supplies from the Razor Hill inn. Ukor hoped to feed the young orcs and trolls in training, but outside provisions are not welcome in the Valley of Trials."
+   "answer": "Ukor’s Burden holds food and supplies from the Razor Hill inn. Ukor hoped to feed the young orcs and trolls in training, but the Valley of Trials refuses outside provisions."
   },
   {
    "q": "Why did the Valley of Trials reject the food?",
@@ -35,7 +35,7 @@
     "why didnt they want the food",
     "why wasnt the food needed"
    ],
-   "answer": "The Valley of Trials' overseers believe hardship and hunger build character in young warriors. Innkeeper Grosk says that hunger gives recruits spirit, so they refuse outside charity."
+   "answer": "The overseers in the Valley of Trials believe hardship and hunger build character in young warriors. Innkeeper Grosk says hunger gives recruits spirit, so they refuse outside charity."
   },
   {
    "q": "Where does the burden need to go?",
@@ -50,7 +50,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see how Durotar's harsh trials shape new soldiers. Even a kind offer must yield to the demands of their training."
+   "text": "As a member of the Horde, you see how Durotar’s harsh trials shape new soldiers. Even a kind offer must yield to the demands of their training."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
   "Ukor's Burden",
   "A Peon's Burden"
  ],
- "style": 1
+ "style": 2
 }

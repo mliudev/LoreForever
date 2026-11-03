@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Balia'mah Ruins"
  },
- "summary": "The Balia'mah Ruins are the moss-covered remnants of an ancient Gurubashi settlement in northern Stranglethorn Vale. Located east of Grom'gol Base Camp across the river, the crumbling stone tiers are currently claimed and guarded by warriors of the hostile Skullsplitter troll tribe.",
+ "summary": "Skullsplitter warriors hold the Balia'mah Ruins in northern Stranglethorn Vale. Across the river east of Grom'gol Base Camp, the old Gurubashi settlement's stone tiers crumble under the jungle.",
  "sections": [
   {
    "title": "A Shattered Heritage",
-   "body": "Like many of the stone edifices dotting the jungle, Balia'mah stands as a remnant of the sprawling Gurubashi Empire that once ruled much of the southern Eastern Kingdoms. Following the fall of their ancient capital, Gurubashi territory splintered into warring factions. Today, the ruins serve as a stronghold for the Skullsplitter tribe, who fiercely defend the stone terraces against wandering beasts, neighboring ogres from the Mosh'Ogg mound, and any outsiders foolish enough to cross the river.",
+   "body": "Balia'mah's stone terraces recall the Gurubashi Empire, which once ruled much of the southern Eastern Kingdoms. When its ancient capital fell, Gurubashi lands split among warring factions. Now the Skullsplitter tribe holds the ruins. They defend them from beasts, ogres from the Mosh'Ogg mound, and outsiders crossing the river.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is balia mah",
     "baliamah ruins map"
    ],
-   "answer": "The ruins lie in northern Stranglethorn Vale, east-southeast across the river from the Horde outpost of Grom'gol Base Camp and southwest of the Mosh'Ogg Ogre Mound."
+   "answer": "The Balia'mah Ruins lie in northern Stranglethorn Vale, east-southeast across the river from Grom'gol Base Camp and southwest of the Mosh'Ogg Ogre Mound."
   },
   {
    "q": "Who controls the ruins right now?",
@@ -32,7 +32,7 @@
     "what mobs are at balia mah",
     "balia mah enemies"
    ],
-   "answer": "The ruins are currently occupied by the Skullsplitter tribe, a hostile faction of jungle trolls that aggressively guards the ancient stone terraces."
+   "answer": "The Skullsplitter tribe occupies the ruins and guards the ancient stone terraces."
   },
   {
    "q": "What is the history of Balia'mah?",
@@ -40,7 +40,7 @@
     "balia mah lore",
     "who built balia mah"
    ],
-   "answer": "The complex was constructed during the height of the Gurubashi Empire. After the empire collapsed, the site fell into decay, eventually being reclaimed by jungle overgrowth and surviving troll tribes."
+   "answer": "The Gurubashi built the complex at the height of their empire. After the empire fell, the site decayed, then jungle growth and surviving troll tribes reclaimed it."
   },
   {
    "q": "Are the Skullsplitters at Balia'mah connected to other troll camps?",
@@ -48,17 +48,17 @@
     "skullsplitters in stranglethorn",
     "baliamah skullsplitters"
    ],
-   "answer": "Yes. The Skullsplitter tribe maintains several encampments and ruins throughout northern and central Stranglethorn Vale, engaged in constant territorial warfare against rival tribes such as the Bloodscalp."
+   "answer": "Yes. The Skullsplitter tribe keeps several camps and ruins across northern and central Stranglethorn Vale. There, it fights rival tribes such as the Bloodscalp for territory."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear, walking these ancient stone tiers is a reminder of the proud Gurubashi civilization their ancestors shared, as well as the dark factionalism that tore jungle troll society apart."
+   "text": "As a Darkspear, these ancient stone terraces recall the proud Gurubashi civilization your ancestors shared. Factionalism later divided jungle troll society."
   },
   {
    "target": "faction:Horde",
-   "text": "Perched just across the river from Grom'gol Base Camp, the hostile Skullsplitters at Balia'mah present a constant perimeter threat to Horde scouts and supply lines."
+   "text": "Across the river from Grom'gol Base Camp, hostile Skullsplitters at Balia'mah threaten Horde scouts and supply lines."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Balia'mah Ruins"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Elixir of Agony",
   "chain": []
  },
- "summary": "In Hillsbrad Foothills, you gather toxic fungi from an overrun farmstead for Apothecary Lydon in Tarren Mill. The Mudsnout Blossoms will fuel the Royal Apothecary Society’s experiments, as Lady Sylvanas seeks a plague against the living and the Scourge.",
+ "summary": "In Hillsbrad, the Elixir of Agony is part of Lydon's work against the living and the Scourge. In Tarren Mill, you gather Mudsnout Blossoms for the Royal Apothecary Society's experiments under Lady Sylvanas.",
  "sections": [
   {
    "title": "A Plague in the Making",
-   "body": "The Scourge ravages the north, while the Alliance clings to towns like Southshore. In Tarren Mill, Apothecary Lydon works under the Dark Lady’s command to develop a plague against both. He finds alchemy tedious, yet gathers potent organic toxins from the countryside to brew elixirs meant to hasten the destruction of Sylvanas’s enemies.",
+   "body": "The Scourge ravages the north, while the Alliance clings to towns such as Southshore. In Tarren Mill, Apothecary Lydon works under the Dark Lady's command to develop a plague against both. He finds alchemy tedious, yet gathers potent organic toxins from the countryside. With them, he brews elixirs meant to hasten the destruction of Sylvanas's enemies.",
    "spoiler": 0
   },
   {
    "title": "The Fields of Nethander Stead",
-   "body": "Nethander Stead lies south of Tarren Mill and east of the river. The abandoned human farmstead is overrun by vicious Mudsnout gnolls. Mudsnout Blossoms, foul-smelling mushrooms, grow among its filth and neglected soil. Their concentrated organic poisons are prized by the Royal Apothecary Society. You can cut through the gnoll packs or weave quietly past their ramshackle camps to gather them.",
+   "body": "Nethander Stead lies south of Tarren Mill and east of the river. The abandoned human farmstead is overrun by vicious Mudsnout gnolls, and Mudsnout Blossoms grow among its filth and neglected soil. These foul-smelling mushrooms hold concentrated organic poisons prized by the Royal Apothecary Society. You can cut through the gnoll packs or weave quietly past their ramshackle camps to gather them.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is lydon",
     "apothecary lydon lore"
    ],
-   "answer": "Apothecary Lydon is a Royal Apothecary Society alchemist stationed at Tarren Mill in Hillsbrad Foothills. He serves Lady Sylvanas Windrunner, refining lethal mixtures and developing a new plague to defeat the living and the Scourge."
+   "answer": "Apothecary Lydon is a Royal Apothecary Society alchemist stationed at Tarren Mill in Hillsbrad Foothills. He serves Lady Sylvanas Windrunner, refining lethal mixtures and developing a plague to defeat the living and the Scourge."
   },
   {
    "q": "What are Mudsnout Blossoms used for?",
@@ -47,7 +47,7 @@
     "what are the mushrooms for",
     "blossom use"
    ],
-   "answer": "Mudsnout Blossoms are foul-smelling mushrooms from Nethander Stead. Lydon uses their potent natural toxins to brew the Elixir of Agony, part of the Forsaken’s chemical and biological warfare research."
+   "answer": "Mudsnout Blossoms are foul-smelling mushrooms from Nethander Stead. Lydon uses their potent natural toxins to brew the Elixir of Agony, part of the Forsaken's chemical and biological warfare research."
   },
   {
    "q": "Where is Nethander Stead located?",
@@ -65,7 +65,7 @@
     "forsaken plague reason",
     "sylvanas plague"
    ],
-   "answer": "Lady Sylvanas and the Forsaken seek a weapon to eliminate both the Scourge and the Alliance’s hostile living races. The Royal Apothecary Society works to secure the Forsaken’s sovereignty and survival in Lordaeron with a plague of their own."
+   "answer": "Lady Sylvanas and the Forsaken seek a weapon to eliminate both the Scourge and the Alliance's hostile living races. The Royal Apothecary Society works to secure the Forsaken's sovereignty and survival in Lordaeron with a plague of their own."
   },
   {
    "q": "Why does Lydon complain about having to brew these elixirs?",
@@ -73,7 +73,7 @@
     "lydon attitude",
     "why is lydon cynical"
    ],
-   "answer": "Lydon is weary and morbid; he observes that humans and the Scourge already slaughter one another without help. Still, he obeys Lady Sylvanas’s wish to hasten their mutual destruction and continues brewing deadly mixtures."
+   "answer": "Lydon is weary and morbid; he observes that humans and the Scourge already slaughter one another without help. Still, he obeys Lady Sylvanas's wish to hasten their mutual destruction and continues brewing deadly mixtures."
   },
   {
    "q": "What happens after collecting the blossoms?",
@@ -81,7 +81,7 @@
     "next quest",
     "what follows elixir of agony"
    ],
-   "answer": "After Lydon receives the Mudsnout Blossoms, he brews the toxic mixture and soon needs more ingredients and field testing to make the elixir as lethal as possible."
+   "answer": "After Lydon receives the Mudsnout Blossoms, he brews the toxic mixture. Soon he needs more ingredients and field testing to make the elixir as lethal as possible."
   }
  ],
  "angles": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Elixir of Agony"
  ],
- "style": 1
+ "style": 2
 }

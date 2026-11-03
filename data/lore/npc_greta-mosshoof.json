@@ -8,16 +8,16 @@
   "wiki": "Greta Mosshoof",
   "refs": 2
  },
- "summary": "Greta Mosshoof is a tauren druid allied with the Emerald Circle at the Emerald Sanctuary in southern Felwood. Alongside night elves and fellow guardians of nature, she investigates the foul taint creeping across the ancient forest and directs scouts into the Shadow Council stronghold of Jaedenar.",
+ "summary": "At the Emerald Sanctuary, Greta Mosshoof works to stop the corruption spreading through Felwood. She stands with the Emerald Circle and other guardians of nature, studying the taint and sending scouts into Jaedenar.",
  "sections": [
   {
    "title": "Guardian of the Forest",
-   "body": "Stationed at the Emerald Sanctuary on the southern boundary of Felwood, Greta Mosshoof works alongside the Emerald Circle to combat the pervasive corruption consuming the ancient woods. Rather than surrendering the blighted lands to the demonic taint left in the wake of the Third War, she coordinates efforts to understand and push back the spreading rot. Her investigations zero in on the poisoned waters of Felwood and the foul cultists burrowed within Jaedenar.",
+   "body": "At Felwood’s southern edge, Greta Mosshoof works from the Emerald Sanctuary with the Emerald Circle. Corruption is consuming the ancient woods. Greta and her allies seek to understand the spreading rot and push it back. Her investigations follow Felwood’s poisoned waters and the foul cultists hidden within Jaedenar.",
    "spoiler": 0
   },
   {
    "title": "Striking at the Shadow Council",
-   "body": "Greta Mosshoof is instrumental in uncovering the machinations of the Shadow Council operating from the depths of Jaedenar. Recognizing that the corrupted springs and foul wards in the chasm directly feed the sickness choking the land, she enlists travelers to sample the tainted waters, seek the assistance of shamans like Islen Waterseer on the distant coast, and dismantle the ritual braziers that protect the demonic cabal from intrusion.",
+   "body": "Greta Mosshoof directs efforts against the Shadow Council in Jaedenar. Its corrupted springs and foul wards feed the sickness choking Felwood. She sends travelers to sample the tainted waters and seek help from Islen Waterseer on the distant coast. They must also destroy the ritual braziers that shield the demonic cabal from intrusion.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is greta mosshoof",
     "greta felwood"
    ],
-   "answer": "Greta Mosshoof is a tauren member of the Emerald Circle stationed at the Emerald Sanctuary in Felwood. She aids travelers and druids in investigating and undoing the demonic blight poisoning the forest."
+   "answer": "Greta Mosshoof works with the Emerald Circle at the Emerald Sanctuary in Felwood. She aids travelers and druids investigating and undoing the demonic blight poisoning the forest."
   },
   {
    "q": "What faction does Greta Mosshoof belong to?",
@@ -38,7 +38,7 @@
     "greta mosshoof reputation",
     "greta faction"
    ],
-   "answer": "Greta Mosshoof is a member of the Emerald Circle, a neutral organization dedicated to healing nature. As such, she offers guidance and quests to both Alliance and Horde adventurers."
+   "answer": "Greta Mosshoof belongs to the Emerald Circle, a neutral organization devoted to healing nature. She guides both Alliance and Horde adventurers."
   },
   {
    "q": "Why is Greta sending adventurers into Jaedenar?",
@@ -47,7 +47,7 @@
     "greta mosshoof jaedenar",
     "forces of jaedenar reason"
    ],
-   "answer": "Jaedenar is the stronghold of the Shadow Council in Felwood, responsible for pumping demonic bile into the land's waterways and maintaining wards that shelter demons. Greta directs strikes against Jaedenar to dismantle their rituals and purify the blighted springs."
+   "answer": "Jaedenar is the Shadow Council’s stronghold in Felwood. The council pumps demonic bile into the waterways and maintains wards that shelter demons. Greta sends travelers to break its rituals and purify the blighted springs."
   },
   {
    "q": "What is Greta Mosshoof's connection to Islen Waterseer?",
@@ -55,17 +55,17 @@
     "greta and islen",
     "islen waterseer connection"
    ],
-   "answer": "Greta is friends with Islen Waterseer, a wise shaman residing along the coast of the Barrens. When Greta discovers corrupt water samples from Felwood, she directs adventurers to seek Islen's spiritual mastery to purify the fluid so it can cleanse the poisoned springs."
+   "answer": "Greta Mosshoof is friends with Islen Waterseer, a wise shaman who lives along the coast of the Barrens. After Greta finds corrupt water samples from Felwood, she sends travelers to seek Islen’s spiritual mastery and purify the fluid. Then it can cleanse the poisoned springs."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids working to purge the scars of the Burning Legion, Greta Mosshoof represents the cooperative spirit of the Cenarion circle, setting aside faction ties to restore Kalimdor's wilderness."
+   "text": "As a druid, you see how the Cenarion Circle sets faction ties aside to restore Kalimdor’s wilderness and heal the scars of the Burning Legion."
   },
   {
    "target": "race:Tauren",
-   "text": "Greta demonstrates the dedication of the tauren to healing the Earth Mother's wounds, even far to the north in lands once guarded solely by the night elves."
+   "text": "As a tauren, you see Greta’s devotion to healing the Earth Mother’s wounds, even far north in lands once guarded solely by the night elves."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Greta Mosshoof"
- ]
+ ],
+ "style": 2
 }

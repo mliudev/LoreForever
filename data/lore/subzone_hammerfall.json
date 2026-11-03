@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hammerfall"
  },
- "summary": "Hammerfall is the Horde's primary fortified outpost in the Arathi Highlands, built upon the ruins of a notorious Alliance internment camp. It honors the legendary former Warchief Orgrim Doomhammer, who fell nearby while fighting to liberate his captive people. Today, orcs and Forsaken garrison the settlement against hostile Boulderfist ogres, Witherbark trolls, and the League of Arathor.",
+ "summary": "Horde forces hold Hammerfall in the Arathi Highlands, where old losses and a hard-won freedom shape the outpost. Orcs and Forsaken defend it against Boulderfist ogres, Witherbark trolls, and the League of Arathor.",
  "sections": [
   {
    "title": "A Legacy of Liberation",
-   "body": "Following the Second War, the human Alliance built vast internment camps across Lordaeron to contain the defeated orcs. The compound that once stood here was among the largest. Years later, Thrall and Orgrim Doomhammer assaulted the camp to liberate the lethargic captives. During the chaos of their retreat, a charging Alliance knight drove a lance through Doomhammer's backplate, mortally wounding the legendary Warchief. Following the Third War, the new Horde reclaimed the ruined ground and established an outpost here, naming it Hammerfall in memory of their fallen leader.",
+   "body": "Beneath Hammerfall lie the ruins of an Alliance internment camp. After the Second War, the human Alliance built vast camps across Lordaeron for defeated orcs, and this was among the largest. Years later, Thrall and Orgrim Doomhammer struck at the camp to free its lethargic captives.\n\nAs they retreated, an Alliance knight charged and drove a lance through Doomhammer's backplate. The Warchief was mortally wounded. After the Third War, the new Horde reclaimed the ruins and named its outpost Hammerfall in his memory.",
    "spoiler": 0
   },
   {
    "title": "A Foothold in the Highlands",
-   "body": "Today, Hammerfall serves as the Horde's lifeline in Arathi. Positioned against hostile surroundings, the garrison contends with aggressive Boulderfist ogres from Boulder'gor and Boulderfist Hall, as well as the native Witherbark trolls. Furthermore, Forsaken Defilers have made the outpost their staging ground to claim the contested resources of the Arathi Basin against the Alliance's League of Arathor.",
+   "body": "Hammerfall gives the Horde a foothold in Arathi. Its garrison faces aggressive Boulderfist ogres from Boulder'gor and Boulderfist Hall, as well as the native Witherbark trolls. Forsaken Defilers use the outpost to claim resources in the contested Arathi Basin. There they oppose the Alliance's League of Arathor.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "hammerfall name origin",
     "who died at hammerfall"
    ],
-   "answer": "It is named in honor of former Warchief Orgrim Doomhammer, who was mortally wounded on this ground by an Alliance knight's lance during the liberation of the orc internment camp."
+   "answer": "The base honors Orgrim Doomhammer, who was mortally wounded by an Alliance knight's lance while freeing orcs from the internment camp."
   },
   {
    "q": "What was Hammerfall before the Horde rebuilt it?",
@@ -37,7 +37,7 @@
     "what was hammerfall before",
     "internment camp arathi"
    ],
-   "answer": "It was one of the largest Alliance of Lordaeron internment camps, constructed after the Second War to imprison captive orcs."
+   "answer": "Before the Horde rebuilt it, the site held one of the largest Alliance of Lordaeron internment camps. It was built after the Second War to imprison captive orcs."
   },
   {
    "q": "Who leads the defense of Hammerfall right now?",
@@ -46,7 +46,7 @@
     "who is in charge of hammerfall",
     "tallow drum fel"
    ],
-   "answer": "The orc Drum Fel rules Hammerfall and coordinates the outpost's defense, directing Horde champions against the encroaching Boulderfist ogres and Witherbark forest trolls. Tallow, a Forsaken warrior at Tarren Mill, first sends recruits to strike at the Boulderfist ogres of Boulder'gor."
+   "answer": "Orc Drum Fel rules Hammerfall and directs its defense against the Boulderfist ogres and Witherbark forest trolls. Tallow, a Forsaken warrior at Tarren Mill, first sends recruits to attack the Boulderfist ogres of Boulder'gor."
   },
   {
    "q": "Why are the Forsaken stationed here?",
@@ -55,17 +55,17 @@
     "why are undead in hammerfall",
     "defilers arathi"
    ],
-   "answer": "The Forsaken Defilers operate out of Hammerfall to secure vital supplies from the Arathi Basin and counter the Alliance's League of Arathor."
+   "answer": "Forsaken Defilers operate from Hammerfall to secure supplies from the Arathi Basin. They oppose the Alliance's League of Arathor."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Hammerfall is hallowed ground for orcs, marking the place where Orgrim Doomhammer gave his life to free captive clanmates and pass the mantle of Warchief to Thrall."
+   "text": "For orcs, Hammerfall is hallowed ground. Orgrim Doomhammer gave his life here freeing captive clanmates and passing the mantle of Warchief to Thrall."
   },
   {
    "target": "faction:Horde",
-   "text": "Surrounded by hostile ogres, forest trolls, and remnants of the Alliance, Hammerfall is the Horde's sole fortress ensuring control over the central Arathi Highlands."
+   "text": "For the Horde, Hammerfall is its fortress in the central Arathi Highlands. Hostile ogres, forest trolls, and remnants of the Alliance surround it."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Hammerfall"
- ]
+ ],
+ "style": 2
 }

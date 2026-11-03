@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Uldum"
  },
- "summary": "Uldum is a massive, sealed Titan research installation tucked behind colossal stone gates in the southernmost cliffs of Tanaris. Long hidden away behind ancient wards and forgotten machinery, it remains inaccessible to modern explorers.",
+ "summary": "In Tanaris’s southern mountains, Uldum’s colossal gates remain sealed. Ancient wards and machinery hide the Titan research compound from explorers.",
  "sections": [
   {
    "title": "The Gates of the Makers",
-   "body": "Carved into the rugged southern mountain range bordering the Tanaris desert, the monumental gateway to Uldum stands silent and impassable. Built during the ordering of ancient Kalimdor, the compound served as an advanced Titan facility tied to their mysterious efforts to shape and oversee the planet's biosphere. Titanic wardens and defensive constructs once maintained the perimeter, leaving modern mortals only monumental stone carved arches and buried secrets that have defied all mundane attempts at entry.",
+   "body": "Uldum’s great stone gateway still bars the way in the southern mountains of Tanaris. The Titans built the compound while ordering ancient Kalimdor. It was a vast facility for shaping and overseeing the planet’s biosphere. Titan wardens and defensive constructs once guarded its bounds. Today, only the massive arches can be seen; what lies beyond remains out of mortal reach.",
    "spoiler": 0
   },
   {
    "title": "The Sealed Secrets",
-   "body": "The site's unmistakable Titan craftsmanship draws the curiosity of dwarven scholars, yet no mechanism or key has been found that might unlock the ancient complex. Legend claims that true insight into the secrets locked within requires the lost Plates of Uldum, leaving the dwarven scholars peering through the keyhole of an empire they cannot yet breach.",
+   "body": "Dwarven scholars study the clear signs of Titan craft at Uldum, but they have found no key or mechanism to open the complex. Legend points to the lost Plates of Uldum as the means to reach its secrets. For now, the scholars can only look toward an empire they cannot enter.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "open uldum door",
     "enter uldum"
    ],
-   "answer": "No. The massive stone gates leading into the mountain pass are completely sealed and shut fast against any mortal intrusion. No mechanism or key exists in the surrounding desert to unlock them."
+   "answer": "No. Massive stone gates bar the mountain pass, and no mechanism or key in the surrounding desert opens them."
   },
   {
    "q": "What is inside Uldum?",
@@ -37,7 +37,7 @@
     "purpose of uldum",
     "inside uldum"
    ],
-   "answer": "According to ancient records and Titan lore, Uldum is a vast research facility constructed by the Titans to study and enhance the biosphere of Azeroth. However, exact details remain locked away behind Titan security measures."
+   "answer": "Ancient records and Titan lore describe Uldum as a vast research facility built by the Titans to study and enhance Azeroth’s biosphere. Titan safeguards keep the exact details hidden."
   },
   {
    "q": "What are the Plates of Uldum?",
@@ -46,17 +46,17 @@
     "discs of uldum",
     "uldum tablets"
    ],
-   "answer": "The Plates of Uldum are ancient data discs created by the Titans. According to lore preserved by ancient stone keepers, specific knowledge regarding the work and facilities inside Uldum can only be accessed through these sacred plates."
+   "answer": "The Plates of Uldum are ancient data discs made by the Titans. Lore preserved by ancient stone keepers says the plates hold the knowledge needed to reach Uldum’s work and facilities."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves pursuing their Titan heritage through the Explorers' League, the colossal gates of Uldum represent one of the greatest uncracked mysteries on the continent of Kalimdor."
+   "text": "As a dwarf pursuing your Titan heritage through the Explorers’ League, you can see Uldum’s colossal gates as one of Kalimdor’s greatest unsolved mysteries."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance scholars hope to beat any rival power to whatever Titan secrets lie concealed in the southern mountains."
+   "text": "Alliance scholars hope to reach the Titan secrets hidden in the southern mountains before a rival power does."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Uldum"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:488"
   ]
  },
- "summary": "Strigid Owl Feathers are gathered from the owls in Teldrassil's boughs. Zenn Foulhoof seeks them for his covert dealings.",
+ "summary": "In Teldrassil's boughs, owls leave Strigid Owl Feathers for the taking. Zenn Foulhoof seeks them for his covert dealings.",
  "sections": [
   {
    "title": "Forest Plumage and Dark Dealings",
-   "body": "Strigid owls and screechers hunt through the Crown of the Earth. Their feathers and down lie across the forest floor. Outside Dolanaar, the renegade satyr Zenn Foulhoof sends inexperienced travelers down the road from Shadowglen to gather strigid feathers, spider silk, and nightsaber fangs for his shady business.",
+   "body": "Strigid owls and screechers hunt through the Crown of the Earth, leaving feathers and down across the forest floor. Outside Dolanaar, the renegade satyr Zenn Foulhoof sends inexperienced travelers along the road from Shadowglen. He asks them to gather strigid feathers, spider silk, and nightsaber fangs for his shady business.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "where do strigid owl feathers drop",
     "owl feather farm"
    ],
-   "answer": "Strigid owls and strigid screechers live in the woodlands around Dolanaar and across Teldrassil, where you can gather their feathers."
+   "answer": "Strigid owls and strigid screechers live in the woodlands around Dolanaar and across Teldrassil. You can gather their feathers there."
   },
   {
    "q": "Who wants Strigid Owl Feathers?",
@@ -43,7 +43,7 @@
     "why does zenn want feathers",
     "zenn reagent purpose"
    ],
-   "answer": "Zenn says the feathers are reagents for his secret business in the forest. He also takes pleasure in tricking unsuspecting recruits into doing his dirty work."
+   "answer": "Zenn says the feathers are reagents for his secret business in the forest. He also enjoys tricking unsuspecting recruits into doing his dirty work."
   }
  ],
  "angles": [
@@ -79,5 +79,5 @@
   "Strigid Owl Feather",
   "Zenn's Bidding"
  ],
- "style": 1
+ "style": 2
 }

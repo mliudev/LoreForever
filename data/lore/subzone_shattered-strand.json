@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shattered Strand"
  },
- "summary": "The Shattered Strand is a wild, rugged coastline flanking the northern rim of the Bay of Storms in Azshara. Dominated by crashing surf and crumbling ancient ruins, the beach crawls with hazardous marine beasts and tribal aquatic creatures.",
+ "summary": "Waves batter Shattered Strand along Azshara’s northern coast, where ancient ruins overlook the shore. Sea beasts and aquatic tribes prowl the shallows.",
  "sections": [
   {
    "title": "A Treacherous Coastline",
-   "body": "Stretching along the northern edge of the Bay of Storms, the Shattered Strand is far from a peaceful shoreline. The rocky beaches and tidal shallows are heavily inhabited by aggressive wildlife, including towering sea giants, multi-headed hydras, and snapping makrura, alongside encampments of coastal murlocs. Crumbling elven architecture overlooks the waves, anchored by landmarks such as the ancient Temple of Arkkoran and the solitary Tower of Eldara. For travelers navigating Azshara's treacherous cliffs, descending to this isolated strip of coast means confronting some of the region's deadliest amphibious threats.",
+   "body": "The Shattered Strand runs along the northern edge of the Bay of Storms. Rocky beaches and tidal shallows teem with danger. Sea giants, hydras, and snapping makrura roam beside coastal murloc camps. Ruined elven buildings overlook the waves, including the ancient Temple of Arkkoran and the lone Tower of Eldara. Travelers who descend Azshara’s cliffs reach an isolated coast held by deadly amphibious creatures.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is shattered strand",
     "shattered strand map"
    ],
-   "answer": "The Shattered Strand forms the northern coast of the Bay of Storms, situated in the eastern reaches of Azshara beneath the zone's towering clifftops."
+   "answer": "The Shattered Strand runs along the northern coast of the Bay of Storms in eastern Azshara, beneath the zone’s high cliffs."
   },
   {
    "q": "What creatures inhabit the Shattered Strand?",
@@ -32,7 +32,7 @@
     "what lives on shattered strand",
     "shattered strand beasts"
    ],
-   "answer": "The shoreline is heavily prowled by vicious hydras, massive sea giants, armored makrura, and clusters of hostile murlocs patrolling the tidal flats."
+   "answer": "Hydras, sea giants, makrura, and hostile murlocs prowl the shore and tidal flats."
   },
   {
    "q": "What notable ruins can be found along the beach?",
@@ -41,7 +41,7 @@
     "buildings on shattered strand",
     "landmarks shattered strand"
    ],
-   "answer": "The coast is home to ancient highborne architecture, most prominently the Temple of Arkkoran and the nearby Tower of Eldara overlooking the bay."
+   "answer": "The ancient Temple of Arkkoran and the nearby Tower of Eldara overlook the bay."
   },
   {
    "q": "Is the Shattered Strand safe for casual exploration?",
@@ -49,13 +49,13 @@
     "is shattered strand dangerous",
     "shattered strand level"
    ],
-   "answer": "No. The beach is isolated, difficult to escape quickly due to the surrounding sheer cliffs, and tightly packed with predatory aquatic beasts and powerful giants."
+   "answer": "No. The isolated beach lies below sheer cliffs and teems with predatory aquatic beasts and powerful giants, making a quick escape difficult."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The strand offers an untamed proving ground filled with formidable hydras and coastal beasts, ideal for those seeking powerful beasts or studying the predatory fauna of the Kalimdor coast."
+   "text": "As a hunter, you can test yourself against hydras and other coastal beasts along this wild shore, or study the predatory wildlife of Kalimdor’s coast."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Shattered Strand"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:997"
   ]
  },
- "summary": "At Dolanaar, Rare Earth waits for delivery to Denalan's camp near Lake Al'Ameth. The mineral-rich soil came from Darnassus for his botanical experiments on Teldrassil.",
+ "summary": "At Dolanaar, Rare Earth awaits a traveler bound for Denalan's camp near Lake Al'Ameth. The soil came from Darnassus for his botanical experiments on Teldrassil.",
  "sections": [
   {
    "title": "Soil of Darnassus",
-   "body": "Rare Earth is late reaching Dolanaar from Darnassus. Denalan, an eccentric botanist on Lake Al'Ameth's eastern shore, requested the parcel to study plants in Teldrassil's young ecosystem. Herbalist Syral Bladeleaf now entrusts the soil to travelers heading south, hoping it reaches Denalan before its potency fades.",
+   "body": "Rare Earth has arrived late in Dolanaar from Darnassus. Denalan, an eccentric botanist on Lake Al'Ameth's eastern shore, requested it to study plants in Teldrassil's young ecosystem. Herbalist Syral Bladeleaf now entrusts the soil to travelers heading south. She hopes it reaches Denalan before its potency fades.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does denalan do with rare earth",
     "rare earth purpose"
    ],
-   "answer": "Denalan, an herbalist and botanical researcher at Lake Al'Ameth, will use Rare Earth in his experiments. He cultivates Teldrassil's native plants with mineral compounds and enriched soils from Darnassus."
+   "answer": "At Lake Al'Ameth, Denalan uses Rare Earth in his botanical experiments. He cultivates Teldrassil's native plants with mineral compounds and enriched soils from Darnassus."
   },
   {
    "q": "Who sends the Rare Earth to Denalan?",
@@ -44,13 +44,13 @@
     "denalan fresh earth",
     "why late earth"
    ],
-   "answer": "The shipment was delayed on its way to Dolanaar, leaving Denalan waiting by the lake. When it arrives, he worries that the soil may have lost the freshness his experiments need."
+   "answer": "The shipment was delayed on its way to Dolanaar, leaving Denalan waiting by the lake. When it arrives, he worries the soil may have lost the freshness his experiments need."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists can look to Syral Bladeleaf and Denalan, who study how specialized earth changes the growth and properties of Teldrassil's saplings."
+   "text": "As an herbalist, you can look to Syral Bladeleaf and Denalan, who study how specialized earth changes the growth and properties of Teldrassil's saplings."
   },
   {
    "target": "race:NightElf",
@@ -80,5 +80,5 @@
   "Rare Earth",
   "Denalan's Earth"
  ],
- "style": 1
+ "style": 2
 }

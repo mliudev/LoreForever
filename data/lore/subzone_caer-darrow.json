@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Caer Darrow"
  },
- "summary": "Caer Darrow is a fortified island situated in Darrowmere Lake in the Western Plaguelands. Formerly the aristocratic seat of the noble House Barov, the island's keep was secretly sold to Kel'Thuzad and transformed into the necromantic school of Scholomance, leaving the above-ground town plagued by wandering phantoms.",
+ "summary": "Phantoms haunt Caer Darrow above Darrowmere Lake in the Western Plaguelands. House Barov once ruled from its keep, now sold to Kel'Thuzad and remade as Scholomance.",
  "sections": [
   {
    "title": "A Legacy of War and Betrayal",
-   "body": "Long before the Scourge, Caer Darrow was a strategic stronghold of Lordaeron that housed an ancient elven runestone. During the Second War, the Horde sacked the fortress and carved up the runestone to craft Gul'dan's Altars of Storms. When Lord Uther the Lightbringer sailed to offer relief to the survivors, his fleet was ambushed by Alterac privateers\u2014an act of treachery that exposed Alterac's betrayal to the Alliance.",
+   "body": "Caer Darrow guarded Lordaeron and held an ancient elven runestone long before the Scourge. During the Second War, the Horde sacked the fortress and broke the stone apart for Gul'dan's Altars of Storms. Lord Uther the Lightbringer sailed to aid the survivors, but Alterac privateers ambushed his fleet. Their treachery exposed Alterac's betrayal to the Alliance.",
    "spoiler": 0
   },
   {
    "title": "The Fall of House Barov",
-   "body": "Rebuilt after the Second War, Caer Darrow served as the opulent estate of the Barov family, who held vast land deeds spanning Brill, Tarren Mill, and Southshore. Desperate to preserve their wealth and mortality as age encroached, the Barovs struck a bargain with Kel'Thuzad. The Cult of the Damned took root beneath the fortress, establishing Scholomance. Before the Third War even swept Lordaeron, a preliminary plague was loosed upon the island's servants and townsfolk. The populace perished, cursed to haunt the ruined keep as lingering echoes.",
+   "body": "After the Second War, Caer Darrow rose again as the Barov family's grand estate. Their vast land deeds reached across Brill, Tarren Mill, and Southshore. When age threatened their wealth and mortality, the Barovs bargained with Kel'Thuzad. The Cult of the Damned took root beneath the fortress and founded Scholomance.\n\nBefore the Third War swept across Lordaeron, a preliminary plague struck the island's servants and townsfolk. They perished, doomed to haunt the ruined keep as lingering echoes.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place",
     "caer darrow lore"
    ],
-   "answer": "Caer Darrow is an island fortress in Darrowmere Lake within the Western Plaguelands. Once the proud ancestral manor of the wealthy Barov family, it is now an eerie ruin whose catacombs house the necromantic academy known as Scholomance."
+   "answer": "Caer Darrow rises as an island fortress in Darrowmere Lake, within the Western Plaguelands. Once the ancestral manor of the wealthy Barov family, it is now a ruin above Scholomance's catacombs, a necromantic academy."
   },
   {
    "q": "Why is the town abandoned and ruined?",
@@ -37,7 +37,7 @@
     "what happened to caer darrow",
     "caer darrow history"
    ],
-   "answer": "The Barov family bargained with Kel'Thuzad, trading their estate to the Cult of the Damned in exchange for immortality. The cult used the keep's servants for early necromantic experiments, eventually unleashing a fatal plague upon the entire settlement before the wider invasion of Lordaeron began."
+   "answer": "Caer Darrow was abandoned after the Barov family bargained with Kel'Thuzad and gave their estate to the Cult of the Damned in exchange for immortality. The cult loosed a fatal plague upon the settlement before Lordaeron's wider invasion began."
   },
   {
    "q": "Why can't I see the ghosts in the town?",
@@ -46,7 +46,7 @@
     "invisible people caer darrow",
     "how to see ghosts"
    ],
-   "answer": "The murdered inhabitants of Caer Darrow linger as restless spirits caught in their final moments. They cannot be seen by normal eyes without special magical sight, such as using a Spectral Essence provided by the spirits of Eva and Lucien Sarkhoff."
+   "answer": "The murdered inhabitants of Caer Darrow linger as restless spirits, caught in their final moments. Ordinary eyes cannot see them without special magical sight, such as the Spectral Essence provided by the spirits of Eva and Lucien Sarkhoff."
   },
   {
    "q": "What was the runestone that used to be here?",
@@ -55,7 +55,7 @@
     "elven runestone",
     "altar of storms stone"
    ],
-   "answer": "During the Second War, Caer Darrow housed an ancient high elven runestone. The Horde raided the island and chiseled the sacred stone into pieces, which Gul'dan used to construct the Altars of Storms to channel magic into ogre mages."
+   "answer": "During the Second War, Caer Darrow held an ancient high elven runestone. The Horde raided the island and chiseled the sacred stone into pieces. Gul'dan used them to build the Altars of Storms and channel magic into ogre mages."
   },
   {
    "q": "What is underneath the fortress?",
@@ -64,17 +64,17 @@
     "what is in the basement",
     "dungeon under caer darrow"
    ],
-   "answer": "Beneath the keep lies Scholomance, the headquarters and training academy of the Cult of the Damned. Led by Darkmaster Gandling, necromancers and acolytes inside study the dark arts and conduct experiments on the dead."
+   "answer": "Scholomance lies beneath the keep as the Cult of the Damned's headquarters and training academy. Led by Darkmaster Gandling, its necromancers and acolytes study the dark arts and experiment on the dead."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Caer Darrow represents two profound betrayals: the ambush by Alterac privateers during the Second War that exposed King Perenolde's treason, and House Barov selling their ancestral home to Kel'Thuzad."
+   "text": "For the Alliance, Caer Darrow recalls two betrayals. Alterac privateers ambushed Lord Uther the Lightbringer's fleet during the Second War, exposing King Perenolde's treason. Later, House Barov sold its ancestral home to Kel'Thuzad."
   },
   {
    "target": "race:Human",
-   "text": "Human travelers will recognize the island as the former seat of House Barov, once one of Lordaeron's wealthiest noble families before their greed led them into pacts with the Cult of the Damned."
+   "text": "As a human, you can recognize Caer Darrow as the former seat of House Barov, once among Lordaeron's wealthiest noble families. Their greed led them to make pacts with the Cult of the Damned."
   }
  ],
  "keywords": [
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Caer Darrow"
- ]
+ ],
+ "style": 2
 }

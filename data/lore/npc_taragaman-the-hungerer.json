@@ -8,16 +8,16 @@
   "wiki": "Taragaman the Hungerer",
   "refs": 5
  },
- "summary": "Beneath Orgrimmar, Taragaman the Hungerer prowls the molten caverns of Ragefire Chasm. The Horde seeks to destroy the hulking felguard, feared as the demonic master behind the Searing Blade cult, and end the demonic taint beneath the city.",
+ "summary": "Beneath Orgrimmar, Taragaman the Hungerer prowls Ragefire Chasm and threatens the city above. The Horde seeks his death to end the demonic taint below its capital.",
  "sections": [
   {
    "title": "The Beast Below",
-   "body": "Taragaman the Hungerer prowls among Ragefire Chasm's magma pools, threatening Orgrimmar below. Scouts and young warriors sent into the dark caverns see the demonic felguard as the Searing Blade cult's leader. With infernal strength, he bends the weak-willed and corrupts the passages beneath Thrall's fortress.",
+   "body": "Taragaman the Hungerer prowls among Ragefire Chasm's magma pools, threatening Orgrimmar. Scouts and young warriors sent into the dark caverns see the demonic felguard as the Searing Blade cult's leader. With infernal strength, he bends the weak-willed and corrupts the passages beneath Thrall's fortress.",
    "spoiler": 0
   },
   {
    "title": "Lethal Decoy",
-   "body": "Taragaman the Hungerer commands the cult's fear, but its true leaders are the satyr Bazzalan and the warlock Jergosh the Invoker. The schemers use the towering felguard as expendable bait, a monstrous distraction that draws Horde defenders into the searing volcanic depths, where they can be slaughtered.",
+   "body": "Taragaman the Hungerer commands the cult's fear, but the true leaders are the satyr Bazzalan and the warlock Jergosh the Invoker. The schemers use the towering felguard as expendable bait. He draws Horde defenders into the searing volcanic depths, where they can be slaughtered.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "slaying the beast quest lore",
     "taragaman orgrimmar threat"
    ],
-   "answer": "The Horde wants Taragaman dead because an active demonic presence festers beneath its capital. His infernal corruption threatens Orgrimmar from within, and killing him is vital to securing the cavern passages beneath the streets."
+   "answer": "The Horde wants Taragaman dead because a demonic presence festers beneath its capital. His infernal corruption threatens Orgrimmar from within, and killing him is vital to securing the cavern passages beneath the streets."
   },
   {
    "q": "Where can Taragaman be found?",
@@ -74,21 +74,21 @@
     "taragaman boss fight",
     "taragaman mechanics"
    ],
-   "answer": "Taragaman attacks with crushing physical blows, a powerful uppercut that sends foes through the air, and occasional bursts of Fire Nova that scorch those nearby."
+   "answer": "Taragaman attacks with crushing physical blows and a powerful uppercut that sends foes through the air. At times, bursts of Fire Nova scorch those nearby."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For young Horde warriors and spellcasters, slaying Taragaman beneath Orgrimmar is a proving ground and helps protect the capital from demonic corruption."
+   "text": "For young Horde warriors and spellcasters, slaying Taragaman beneath Orgrimmar is a proving ground. It also helps protect the capital from demonic corruption."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you practice dark arts in the Cleft of Shadow above, while a wild, hostile felguard like Taragaman threatens the secrecy and safety of your craft."
+   "text": "As a warlock, you practice dark arts in the Cleft of Shadow above. A wild, hostile felguard like Taragaman threatens the secrecy and safety of your craft."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you must stand firm against Taragaman's crushing blows and avoid being tossed into the lava by his brutal uppercuts."
+   "text": "As a warrior, you must stand firm against Taragaman's crushing blows. Avoid being tossed into the lava by his brutal uppercuts."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Taragaman the Hungerer"
  ],
- "style": 1
+ "style": 2
 }

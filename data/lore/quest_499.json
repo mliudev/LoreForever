@@ -20,16 +20,16 @@
    "Elixir of Suffering (2)"
   ]
  },
- "summary": "In Tarren Mill, Apothecary Lydon prepares a poison for the Royal Apothecary Society. He wants to know how swiftly it kills before using it more widely.",
+ "summary": "In Tarren Mill, Apothecary Lydon tests a poison for the Royal Apothecary Society. He wants to learn how quickly it kills before it is used more widely.",
  "sections": [
   {
    "title": "A Toxic Test",
-   "body": "Apothecary Lydon works in Tarren Mill to make chemical weapons for the Dark Lady's ambitions. His blight is meant to destroy both the living humans of the Alliance and the undead horrors of the Scourge. Once he has the needed reagents, Lydon mixes them into a foul brew he calls the Elixir of Suffering. He is eager to see its power before the Society uses it on a wider scale.",
+   "body": "Apothecary Lydon works in Tarren Mill, making chemical weapons for the Dark Lady's ambitions. His blight is meant to destroy the Alliance's living humans and the Scourge's undead horrors. Once he has the needed reagents, Lydon mixes them into a foul brew called the Elixir of Suffering. He wants to see its power before the Society uses it more widely.",
    "spoiler": 0
   },
   {
    "title": "The Fate of Umpi",
-   "body": "Apothecary Lydon turns to the creature beside him for a trial. He asks you to give the fresh poison to his assistant, Umpi, a harmless toad sitting at his feet. One dose kills the amphibian on the spot, showing Lydon that his formula works as intended.",
+   "body": "Apothecary Lydon chooses the creature beside him for a trial. He asks you to give his fresh poison to Umpi, his harmless toad assistant sitting at his feet. One dose kills the amphibian on the spot. The result shows Lydon that his formula works as intended.",
    "spoiler": 1
   }
  ],
@@ -58,7 +58,7 @@
     "what does the elixir do",
     "why make elixir of suffering"
    ],
-   "answer": "The Elixir of Suffering is an experimental chemical weapon meant to test toxins designed to eradicate living humans and the undead Scourge for Lady Sylvanas Windrunner."
+   "answer": "The Elixir of Suffering is an experimental chemical weapon for testing toxins meant to eradicate living humans and the undead Scourge for Lady Sylvanas Windrunner."
   },
   {
    "q": "What happens when you feed the potion to Umpi?",
@@ -66,7 +66,7 @@
     "does umpi die",
     "what happens to the toad"
    ],
-   "answer": "Lydon asks you to give Umpi a taste of the newly mixed elixir. The test reveals whether it has the intended effect."
+   "answer": "Lydon asks you to give Umpi a taste of the freshly mixed elixir. The test reveals whether it has the intended effect."
   },
   {
    "q": "Where does this test take place?",
@@ -74,7 +74,7 @@
     "where is lydon located",
     "where do i find umpi"
    ],
-   "answer": "The test takes place at Lydon's brewing station in Tarren Mill, a Forsaken town in northern Hillsbrad Foothills."
+   "answer": "The test takes place at Lydon's brewing station in Tarren Mill, a Forsaken town in the northern Hillsbrad Foothills."
   },
   {
    "q": "Why does the Royal Apothecary Society test poisons on small animals?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Elixir of Suffering (2)"
  ],
- "style": 1
+ "style": 2
 }

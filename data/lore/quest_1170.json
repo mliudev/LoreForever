@@ -29,16 +29,16 @@
    "Identifying the Brood"
   ]
  },
- "summary": "Draz'Zilb tells of the brood of Onyxia invading Stonemaul Village, and wonders why Deathwing's daughter would come to these lands. You are sent to bring word to Overlord Mok'Morokk in Brackenwall Village.",
+ "summary": "Draz'Zilb fears Onyxia's brood has come for more than a siege against a few ogres.",
  "sections": [
   {
    "title": "A Troubling Presence",
-   "body": "Stonemaul Village was invaded by Onyxia's brood, and Draz'Zilb finds it troubling that the daughter of Deathwing would descend upon these lands. Draz'Zilb feels certain Onyxia came for more than a siege on a few ogres, and wants Overlord Mok'Morokk told at once in Brackenwall Village so action can be taken.",
+   "body": "Draz'Zilb reports that Onyxia's brood has invaded Stonemaul Village. Onyxia is Deathwing's daughter, and her arrival troubles him. He is certain the brood seeks more than a siege against a few ogres. So you carry word to Overlord Mok'Morokk in Brackenwall Village, where he can take action.",
    "spoiler": 0
   },
   {
    "title": "Word at Brackenwall",
-   "body": "Mok'Morokk does not welcome the news. The Overlord dislikes dragons, likes it in Brackenwall Village and says there are no dragons here.",
+   "body": "Overlord Mok'Morokk does not welcome news of the brood at Stonemaul Village. He dislikes dragons, so he prefers Brackenwall Village and insists there are no dragons here.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who starts the brood of onyxia",
     "brood of onyxia quest giver"
    ],
-   "answer": "Draz'Zilb sends you, after the brood of Onyxia has invaded Stonemaul Village."
+   "answer": "Draz'Zilb sends you to Overlord Mok'Morokk after Onyxia's brood invades Stonemaul Village."
   },
   {
    "q": "Where can Overlord Mok'Morokk be found?",
@@ -58,7 +58,7 @@
     "where is mok'morokk",
     "overlord mok'morokk dustwallow"
    ],
-   "answer": "You will find Overlord Mok'Morokk in Brackenwall Village."
+   "answer": "Overlord Mok'Morokk can be found in Brackenwall Village."
   },
   {
    "q": "Why is Draz'Zilb concerned about Onyxia's brood?",
@@ -66,7 +66,7 @@
     "why does draz'zilb care about dragons",
     "draz'zilb onyxia concern"
    ],
-   "answer": "Draz'Zilb wonders why Deathwing's daughter would come to these lands, and feels certain it was for more than a siege on a small band of ogres."
+   "answer": "Draz'Zilb wonders why Deathwing's daughter came to these lands. He is certain she came for more than a siege against a small band of ogres."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "The Brood of Onyxia"
- ]
+ ],
+ "style": 2
 }

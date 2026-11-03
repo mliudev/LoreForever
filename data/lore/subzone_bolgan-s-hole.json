@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bolgan's Hole"
  },
- "summary": "Bolgan's Hole is a subterranean cavern nestled in the southern cliffs of Gelkis Village in Desolace. It serves as the inner sanctum of the Gelkis centaur clan, housing their highest chieftains and sacred earth relics.",
+ "summary": "In southern Desolace, the Gelkis keep their power and sacred crystals within Bolgan's Hole. Their khan and shamans guard the cavern.",
  "sections": [
   {
    "title": "The Gelkis Seat of Power",
-   "body": "Carved deep into the craggy bluffs overlooking the Gelkis encampment, Bolgan's Hole functions as the command center for the tribe. It is here that the ruling khan holds court, surrounded by veteran guards and the tribe's most influential shamans. The cavern offers natural fortification against rival clans, most notably the bloodthirsty Magram centaur to the east.",
+   "body": "Above the Gelkis encampment, the khan holds court in a cavern cut into the bluffs. Veteran guards and influential shamans gather around their ruler. The cliffs defend the clan from its rivals, especially the Magram centaur to the east.",
    "spoiler": 0
   },
   {
    "title": "Tears of the Earth Princess",
-   "body": "Beyond its military importance, the cave possesses profound religious significance to the Gelkis. Luminous blue mineral formations known as the tears of Theradras sprout from the damp stone walls. Gelkis shamans obsessively harvest and guard these crystals, revering them as divine blessings that confer the subterranean protection of Princess Theradras, the primal earth elemental mother of the centaur race.",
+   "body": "Blue crystals gleam in the damp stone walls of Bolgan's Hole. The Gelkis call them the tears of Theradras and honor them as sacred blessings. Their shamans harvest and guard the crystals. They believe the stones bring protection from Princess Theradras, the primal earth elemental mother of the centaur race.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is bolgan's hole",
     "bolgan cave entrance"
    ],
-   "answer": "Bolgan's Hole is a cave situated in the southern part of Gelkis Village, tucked into the hills of southern Desolace."
+   "answer": "Bolgan's Hole lies in the southern cliffs of Gelkis Village, in southern Desolace."
   },
   {
    "q": "Who lives inside Bolgan's Hole?",
@@ -37,7 +37,7 @@
     "bolgans hole boss",
     "gelkis khan location"
    ],
-   "answer": "The cave houses the high leadership of the Gelkis centaur, including their clan khan\u2014such as Khan Shaka\u2014as well as their inner circle of protectors and mystical shamans."
+   "answer": "The cavern shelters the Gelkis clan's high leaders, including its khan, along with their protectors and shamans."
   },
   {
    "q": "What are the glowing blue crystals inside the cave?",
@@ -46,7 +46,7 @@
     "tears of theradras",
     "bolgan's hole rocks"
    ],
-   "answer": "The crystals are known as the tears of Theradras. The Gelkis revere them as physical manifestations of their earth mother's favor, believing the stones grant mystical protection to those who possess them."
+   "answer": "The glowing blue crystals are called the tears of Theradras. The Gelkis revere them as signs of their earth mother's favor and believe they protect whoever possesses them."
   },
   {
    "q": "Can players enter Bolgan's Hole safely?",
@@ -55,13 +55,13 @@
     "friendly to gelkis",
     "can i go inside bolgans hole"
    ],
-   "answer": "By default, the Gelkis centaur inside are aggressively hostile to outsiders. However, travelers who align themselves with the Gelkis by slaughtering their hated rivals, the Magram clan, can earn standing to walk the cave in peace."
+   "answer": "The Gelkis centaur inside are hostile to outsiders. Travelers who slaughter the Gelkis' hated rivals, the Magram clan, can earn enough standing to walk through the cavern in peace."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The cavern offers a grim demonstration of how earth worship can be corrupted when tied to the violent legacy of Princess Theradras rather than the natural balance of the spirits."
+   "text": "As a shaman, you can see how the Gelkis bind their worship of earth to Princess Theradras and the centaur race's violent legacy."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Bolgan's Hole"
- ]
+ ],
+ "style": 2
 }

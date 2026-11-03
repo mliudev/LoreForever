@@ -22,16 +22,16 @@
    "Letter to Jin'Zil (quest)"
   ]
  },
- "summary": "Across the northern Barrens, harpy raids threaten the Crossroads supply lines. Serena Bloodfeather leads the Witchwing flock, driven by a blood feud with the Horde after Rexxar slew her sister. Ending her campaign could break the harpies’ coordination.",
+ "summary": "Across the northern Barrens, harpy attacks threaten the Crossroads supply lines. Serena Bloodfeather leads the Witchwing flock against the Horde, driven by vengeance for her sister, whom Rexxar slew during Durotar’s founding. Breaking the flock’s coordination could open the trails again.",
  "sections": [
   {
    "title": "A Legacy of Vengeance",
-   "body": "Witchwing harpies strike the trails northwest of the Crossroads under Serena Bloodfeather’s command. Their attacks are driven by more than hunger: Serena seeks vengeance against the Horde. During Durotar’s founding, the beastmaster Rexxar slew her sister, the notorious matriarch Bloodfeather. Serena has rallied her flock to attack supply trains, scouts, and merchants traveling the arid trails.",
+   "body": "Witchwing harpies strike the trails northwest of the Crossroads under Serena Bloodfeather’s command. Hunger is not their only cause. Serena seeks vengeance against the Horde for her sister, the notorious matriarch Bloodfeather, whom the beastmaster Rexxar slew during Durotar’s founding. Now Serena rallies her flock against supply trains, scouts, and merchants on the arid trails.",
    "spoiler": 0
   },
   {
    "title": "Cutting Off the Head",
-   "body": "Darsok Swiftdagger at the Crossroads has led the effort to cull the harpies, from petty raiders to seasoned lieutenants. He now calls for Serena’s head as proof of her death and as a trophy for the next outgoing caravan. The Horde hopes that showing the surviving harpies their matriarch’s fate will frighten them away from the Barrens’ supply lines.",
+   "body": "Darsok Swiftdagger at the Crossroads has led the effort against the harpies, from petty raiders to seasoned lieutenants. Now he calls for Serena’s head as proof of her death and a trophy for the next outgoing caravan. The Horde hopes the surviving harpies will see their matriarch’s fate and fear to return to the Barrens’ supply lines.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "serena motivation",
     "why serena mad"
    ],
-   "answer": "Serena attacks Horde caravans to avenge her sister. The beastmaster Rexxar slew the harpy matriarch Bloodfeather during Durotar’s founding, and Serena now turns her flock against Horde supply wagons and travelers."
+   "answer": "Serena attacks Horde caravans to avenge her sister. During Durotar’s founding, the beastmaster Rexxar slew Bloodfeather, and Serena now turns her flock against Horde supply wagons and travelers."
   },
   {
    "q": "Who was Bloodfeather?",
@@ -52,7 +52,7 @@
     "original bloodfeather",
     "rexxar bloodfeather"
    ],
-   "answer": "Bloodfeather was a notorious harpy leader who terrorized the borders of Durotar and the Barrens. Rexxar slew her while serving Warchief Thrall. Serena, her surviving sister, took up her mantle and grudge."
+   "answer": "Bloodfeather was a notorious harpy leader who terrorized the borders of Durotar and the Barrens. Rexxar slew her while serving Warchief Thrall. Her surviving sister Serena took up her mantle and grudge."
   },
   {
    "q": "Why does Darsok Swiftdagger want her head?",
@@ -69,7 +69,7 @@
     "where is serena",
     "serena spawn"
    ],
-   "answer": "Serena is among the rugged cliffs and wind-carved crags northwest of the Crossroads, surrounded by Witchwing lieutenants and guards."
+   "answer": "Serena can be found among the rugged cliffs and wind-carved crags northwest of the Crossroads, surrounded by Witchwing lieutenants and guards."
   },
   {
    "q": "What happens after Serena is defeated?",
@@ -125,5 +125,5 @@
  "attribution": [
   "Serena Bloodfeather (Classic)"
  ],
- "style": 1
+ "style": 2
 }

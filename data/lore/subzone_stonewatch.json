@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stonewatch"
  },
- "summary": "Blackrock orcs hold Stonewatch above the approaches from the Burning Steppes, threatening Lakeshire. The fortress once guarded Redridge against northern invasions.",
+ "summary": "Blackrock orcs hold Stonewatch above the approaches from the Burning Steppes, and Lakeshire faces their threat. The fortress once guarded Redridge against invasions from the north.",
  "sections": [
   {
    "title": "A Bastion Overrun",
-   "body": "Stonewatch overlooks the cliffs near Stonewatch Falls, where its tower and keep guard the approaches from the Burning Steppes. Lakeshire's defenders first held the fortress. Then Morganth, a rogue warlock, allied with the Blackrock clan. Dark magic helped the orcs overwhelm the 12th Sabre Regiment and seize the keep. Morganth later turned against his allies and withdrew to the nearby Tower of Ilgalar with an army of Shadowhide gnolls. The Blackrock orcs kept their hold under Warlord Gath'Ilzogg and Lieutenant Tharil'zun.",
+   "body": "Stonewatch overlooks the cliffs near Stonewatch Falls. Its tower and keep command the approaches from the Burning Steppes. Lakeshire's defenders held the fortress first, until Morganth, a rogue warlock, allied with the Blackrock clan. With dark magic, the orcs overwhelmed the 12th Sabre Regiment and seized the keep.\n\nMorganth then turned against his allies and withdrew to the nearby Tower of Ilgalar with an army of Shadowhide gnolls. The Blackrock orcs held Stonewatch under Warlord Gath'Ilzogg and Lieutenant Tharil'zun.",
    "spoiler": 0
   },
   {
    "title": "The Threat to Lakeshire",
-   "body": "Blackrock orcs hold Stonewatch, leaving Lakeshire exposed to conquest. Stormwind's House of Nobles has provided no substantial military reinforcements, whether through indifference or paralysis. Magistrate Solomon and Marshal Marris have had to hire mercenaries and call for volunteers. Their best hope of lifting the threat over the region is to strike at the fortress's leaders, Tharil'zun and Gath'Ilzogg.",
+   "body": "Blackrock orcs hold Stonewatch, leaving Lakeshire open to conquest. Stormwind's House of Nobles has sent no substantial military reinforcements, whether from indifference or paralysis. Magistrate Solomon and Marshal Marris have had to hire mercenaries and call for volunteers.\n\nTheir best hope of lifting the threat over the region is to strike at the fortress's leaders, Tharil'zun and Gath'Ilzogg.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who holds stonewatch",
     "stonewatch enemies"
    ],
-   "answer": "The Blackrock clan holds Stonewatch under Warlord Gath'Ilzogg and his lieutenant, Tharil'zun. They drove out the kingdom's garrison and use the stronghold to stage attacks across Redridge."
+   "answer": "The Blackrock clan holds Stonewatch under Warlord Gath'Ilzogg and his lieutenant, Tharil'zun. They drove out the kingdom's garrison and use the stronghold to launch attacks across Redridge."
   },
   {
    "q": "How did the humans lose Stonewatch?",
@@ -45,7 +45,7 @@
     "why no stormwind help",
     "lakeshire reinforcements"
    ],
-   "answer": "Stormwind has not sent enough troops to the border regions, leaving Magistrate Solomon and Marshal Marris to defend Redridge. Lakeshire depends on visiting adventurers and mercenaries for counterattacks against Stonewatch."
+   "answer": "Stormwind has sent too few troops to the border regions, leaving Magistrate Solomon and Marshal Marris to defend Redridge. Lakeshire depends on visiting adventurers and mercenaries for counterattacks against Stonewatch."
   },
   {
    "q": "What is the relationship between Stonewatch and the Tower of Ilgalar?",
@@ -63,7 +63,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, the slaughter of the 12th Sabre Regiment and the fall of Stonewatch show how vulnerable Lakeshire is and how little help Stormwind's leaders have given it."
+   "text": "As a human, you can see how the slaughter of the 12th Sabre Regiment and the fall of Stonewatch leave Lakeshire vulnerable, with little help from Stormwind's leaders."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Stonewatch"
  ],
- "style": 1
+ "style": 2
 }

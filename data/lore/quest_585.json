@@ -27,16 +27,16 @@
    "Fate of Yenniku"
   ]
  },
- "summary": "After defeating the Bloodscalp witch doctor, his severed head speaks from the bubbling cauldron at Grom'gol Base Camp. He claims to know where the lost Darkspear child was taken, but he refuses to give up the secret without a grim tribute.",
+ "summary": "At Grom'gol Base Camp, Nezzliok's severed head speaks from a bubbling cauldron. The Bloodscalp witch doctor knows where Yenniku was taken, but demands a grim tribute before he tells you.",
  "sections": [
   {
    "title": "A Spirit's Price",
-   "body": "Though bound within the bubbling cauldron following the hunt for Bloodscalp Clan Heads, Nezzliok is far from cooperative. He admits knowing where Yenniku was taken, yet he demands appeasement before parting with the information. He commands that three trophy skulls be taken from the rival Skullsplitter tribe and brought to his resting place, ensuring his departed spirit will command thralls in the Nether.",
+   "body": "Nezzliok remains bound in the bubbling cauldron after the hunt for Bloodscalp Clan Heads. He knows where Yenniku was taken, but gives up nothing freely. Bring three trophy skulls from the rival Skullsplitter tribe to his resting place. Then his departed spirit can command thralls in the Nether.",
    "spoiler": 0
   },
   {
    "title": "Skulls of the Rivals",
-   "body": "Nezzliok demands one skull taken directly from the Skullsplitter trophy pile at Balia'mah, a second from Ziata'jai, and a third from Zul'Mamwe. Only when all three offerings rest alongside his own head will the dead witch doctor consider his spirit satisfied.",
+   "body": "Nezzliok demands one skull from the Skullsplitter trophy pile at Balia'mah, one from Ziata'jai, and one from Zul'Mamwe. All three offerings must lie beside his own head before the dead witch doctor will consider his spirit satisfied.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "witch doctor nezzliok",
     "nezzliok lore"
    ],
-   "answer": "Nezzliok was a witch doctor of the Bloodscalp tribe. After falling in battle, his severed head was placed into a bubbling cauldron at Grom'gol Base Camp, where his bound spirit continues to speak."
+   "answer": "Nezzliok was a witch doctor of the Bloodscalp tribe. After he fell in battle, his severed head was placed in a bubbling cauldron at Grom'gol Base Camp. His bound spirit still speaks there."
   },
   {
    "q": "What does Nezzliok demand?",
@@ -57,7 +57,7 @@
     "nezzliok trophies",
     "speaking with nezzliok objective"
    ],
-   "answer": "He demands three trophy skulls stolen from the camps of his hated rivals, the Skullsplitters: one from Balia'mah, one from Ziata'jai, and one from Zul'Mamwe."
+   "answer": "Nezzliok demands three trophy skulls from the camps of his hated rivals, the Skullsplitters. Take one from Balia'mah, one from Ziata'jai, and one from Zul'Mamwe."
   },
   {
    "q": "Why does Nezzliok want Skullsplitter trophies?",
@@ -65,7 +65,7 @@
     "why trophy skulls",
     "why nezzliok wants skulls"
    ],
-   "answer": "Nezzliok wants the trophy skulls placed with him so that when his spirit passes into the Nether, he will possess three servants bound to him in death."
+   "answer": "Nezzliok wants the trophy skulls placed beside him so that, when his spirit passes into the Nether, he will have three servants bound to him in death."
   },
   {
    "q": "Where does this happen?",
@@ -73,17 +73,17 @@
     "where is nezzliok",
     "bubbling cauldron location"
    ],
-   "answer": "The encounter takes place at the bubbling cauldron situated in Grom'gol Base Camp, deep in Stranglethorn Vale."
+   "answer": "The encounter takes place at the bubbling cauldron in Grom'gol Base Camp, deep in Stranglethorn Vale."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde relies on bargaining with a bound enemy spirit at Grom'gol Base Camp to unravel the disappearance of Yenniku, the son of the Darkspear chieftain."
+   "text": "As a member of the Horde, you bargain with a bound enemy spirit at Grom'gol Base Camp to learn what happened to Yenniku, the son of the Darkspear chieftain."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls must barter with the severed head of a hostile Bloodscalp witch doctor to uncover what became of their chieftain's stolen son."
+   "text": "As a Darkspear troll, you bargain with the severed head of a hostile Bloodscalp witch doctor to learn what became of your chieftain's stolen son."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Speaking with Nezzliok (Classic)"
- ]
+ ],
+ "style": 2
 }

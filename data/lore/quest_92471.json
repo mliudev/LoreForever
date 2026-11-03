@@ -17,16 +17,16 @@
   "wiki": "Aetheen of the Gales (quest)",
   "chain": []
  },
- "summary": "This quest marks a rite of passage for young adventurers on Zephras Isle, directing them to report to one of the island's leading authorities. After completing early trials under Rorian the Dayseeker, promising youths are sent into Thendal Grove to meet Aetheen of the Gales, an elder who reads the winds and evaluates the next generation.",
+ "summary": "On Zephras Isle, young adventurers who pass their first trials go to meet Aetheen of the Gales at Thendal Grove. There, the next generation faces her judgment.",
  "sections": [
   {
    "title": "A Measure of Potential",
-   "body": "The early tasks set before novitiates on Zephras Isle are not merely mundane chores; they serve as informal tests to evaluate whether rising youths possess the grit and spirit needed to defend their homeland. Recognizing that island life faces growing trials, mentors such as Rorian the Dayseeker keep a watchful eye on candidates who prove capable of handling greater responsibility.",
+   "body": "Young novices on Zephras Isle take on early duties that test their grit and spirit. The island's mentors watch for those ready to help defend their home. Rorian the Dayseeker notices youths prepared for greater responsibility.",
    "spoiler": 0
   },
   {
    "title": "The Wind-Reader of Thendal Grove",
-   "body": "Deep within Thendal Grove sits Aetheen of the Gales, a respected member of the Council of Elders governing Zephras Isle. Aetheen spends her time reading the currents of the air and assessing young shen'dorei as they come of age. Stepping before her signifies that an initiate has outgrown minor perimeter duties and is ready to tackle direct threats facing the community.",
+   "body": "At Thendal Grove, Aetheen of the Gales reads the currents of the air. She belongs to the Council of Elders, which governs Zephras Isle, and assesses young shen'dorei as they come of age. Reporting to her takes you beyond minor duties along the island's perimeter and toward threats facing the community.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "aetheen of the gales role",
     "aetheen zephras"
    ],
-   "answer": "Aetheen of the Gales is a leader on Zephras Isle and a seated member of the Council of Elders. She monitors the winds in Thendal Grove and personally assesses young shen'dorei who come of age to ensure they are prepared to defend their home."
+   "answer": "Aetheen of the Gales leads on Zephras Isle and serves on its Council of Elders. At Thendal Grove, she reads the winds and assesses young shen'dorei coming of age, judging whether they are ready to defend their home."
   },
   {
    "q": "Why does Rorian send players to meet Aetheen?",
@@ -47,7 +47,7 @@
     "rorian sends to aetheen",
     "purpose of this quest"
    ],
-   "answer": "Rorian the Dayseeker evaluates novice adventurers through their early duties. Once an adventurer proves their capability and resilience, Rorian directs them to Aetheen so their skills can be judged and directed toward higher-level challenges facing the island."
+   "answer": "After their early duties, Rorian the Dayseeker sends capable and resilient novices to Aetheen. She judges their skills and directs them toward greater challenges facing the island."
   },
   {
    "q": "Where can Aetheen of the Gales be found?",
@@ -56,7 +56,7 @@
     "where is aetheen",
     "thendal grove aetheen"
    ],
-   "answer": "She can be found residing within Thendal Grove on Zephras Isle, where she studies the flow of the winds and oversees coming-of-age trials for local youths."
+   "answer": "Aetheen of the Gales can be found in Thendal Grove on Zephras Isle. There she reads the winds and oversees coming-of-age trials for local youths."
   },
   {
    "q": "What is the Council of Elders?",
@@ -64,7 +64,7 @@
     "council of elders zephras",
     "who rules zephras"
    ],
-   "answer": "The Council of Elders is the governing body guiding the shen'dorei on Zephras Isle. Leaders like Aetheen sit on this council to oversee the survival, leadership, and readiness of their community."
+   "answer": "The Council of Elders governs the shen'dorei on Zephras Isle. Aetheen and the other council leaders guide their community's survival, leadership, and readiness."
   },
   {
    "q": "What happens after reporting to Aetheen?",
@@ -72,7 +72,7 @@
     "next quest after aetheen",
     "what does aetheen want"
    ],
-   "answer": "Upon confirming a young adventurer's willingness to serve Zephras Isle, Aetheen assigns serious tasks to address local wilderness dangers, beginning with threats like aggressive wildlife and foul matriarchs."
+   "answer": "Once Aetheen judges a young adventurer ready to serve Zephras Isle, she assigns serious work against dangers in the local wilderness, including aggressive wildlife and foul matriarchs."
   },
   {
    "q": "What does 'coming of age' mean for shen'dorei on Zephras Isle?",
@@ -80,7 +80,7 @@
     "shen'dorei coming of age",
     "zephras coming of age"
    ],
-   "answer": "For youths on Zephras Isle, coming of age involves proving oneself through physical and magical trials. Rather than a mere ceremony, it demands that young shen'dorei demonstrate practical capability to an island elder like Aetheen before stepping into service."
+   "answer": "For young shen'dorei on Zephras Isle, coming of age means proving themselves through physical and magical trials. They show an island elder like Aetheen that they can serve before taking on that duty."
   }
  ],
  "angles": [],
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Aetheen of the Gales (quest)"
- ]
+ ],
+ "style": 2
 }

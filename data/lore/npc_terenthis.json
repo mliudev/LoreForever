@@ -8,16 +8,16 @@
   "wiki": "Terenthis",
   "refs": 9
  },
- "summary": "Terenthis watches the corruption spreading through Darkshore from Auberdine. The Cenarion Circle sent the night elf druid to investigate its reach from Teldrassil and seek help from travelers and local allies.",
+ "summary": "In Auberdine, Terenthis tracks corruption spreading into Darkshore. The Cenarion Circle sent the night elf druid from Teldrassil to learn how far it has reached and seek help from travelers and local allies.",
  "sections": [
   {
    "title": "Investigating the Taint",
-   "body": "Terenthis investigates Fel Moss and other corruption in Darkshore. The Cenarion Circle sent him to Auberdine to track the blight spreading from Teldrassil. Night elves fear it may shatter the balance of northern Kalimdor. Terenthis seeks the cause of the rot and ways to stop it before it consumes the forests.",
+   "body": "Terenthis searches Darkshore for Fel Moss and other signs of corruption. The Cenarion Circle sent him to Auberdine to follow the blight spreading from Teldrassil. Night elves fear it may break the balance of northern Kalimdor. He seeks the rot's cause and a way to stop it before it consumes the forests.",
    "spoiler": 0
   },
   {
    "title": "A Plea from Grimclaw",
-   "body": "Grimclaw reaches Auberdine wounded and alone, seeking help from Terenthis. The druid recognizes that the bear’s master, Volcor, is in grave trouble. Unable to leave his post, Terenthis sends travelers into the wilderness to find Volcor, pinned down after an ambush by aggressive furbolg tribes.",
+   "body": "Grimclaw reaches Auberdine wounded and alone, seeking Terenthis's help. Terenthis recognizes that the bear's master, Volcor, is in grave trouble. Bound to his post, Terenthis sends travelers into the wilderness to find Volcor. Aggressive furbolg tribes have pinned the druid down after an ambush.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is terenthis",
     "terenthis auberdine"
    ],
-   "answer": "Terenthis is a night elf druid of the Cenarion Circle, stationed in Auberdine, Darkshore."
+   "answer": "Terenthis serves the Cenarion Circle as a night elf druid stationed in Auberdine, Darkshore."
   },
   {
    "q": "Why is Terenthis in Auberdine?",
@@ -38,7 +38,7 @@
     "terenthis purpose",
     "why is terenthis here"
    ],
-   "answer": "The Cenarion Circle sent Terenthis to Auberdine to investigate Fel Moss and magical corruption spreading from Teldrassil into Darkshore, and to find a way to stop it."
+   "answer": "The Cenarion Circle sent Terenthis to Auberdine to investigate Fel Moss and magical corruption spreading from Teldrassil into Darkshore. He seeks a way to stop it."
   },
   {
    "q": "What is the bear beside Terenthis doing there?",
@@ -47,7 +47,7 @@
     "grimclaw",
     "why is there a bear in auberdine"
    ],
-   "answer": "Grimclaw came to Terenthis in Auberdine wounded and alone after his master, the druid Volcor, was ambushed and pinned down by aggressive furbolgs."
+   "answer": "Grimclaw came to Terenthis in Auberdine wounded and alone. His master, the druid Volcor, was ambushed and pinned down by aggressive furbolgs."
   },
   {
    "q": "What organization does Terenthis belong to?",
@@ -64,7 +64,7 @@
     "fel moss threat",
     "terenthis concerns"
    ],
-   "answer": "Terenthis fears the spread of Fel Moss corruption and the growing hostility of furbolg tribes, which threaten travelers and druids."
+   "answer": "Terenthis fears Fel Moss corruption and the growing hostility of furbolg tribes, which threaten travelers and druids."
   },
   {
    "q": "Does Terenthis offer any tasks to adventurers?",
@@ -82,7 +82,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you share Terenthis’s concern for purifying your sacred lands of fel taint and protecting innocent forest life."
+   "text": "As a night elf, you share Terenthis's concern for purifying your sacred lands of fel taint and protecting innocent forest life."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Terenthis"
  ],
- "style": 1
+ "style": 2
 }

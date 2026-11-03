@@ -20,16 +20,16 @@
    "Journey to Astranaar"
   ]
  },
- "summary": "Fiora Longears sends Alliance travelers from Theramore north to Astranaar. There, they report to Shindrell Swiftfire in Ashenvale, where the night elves face war and unrest.",
+ "summary": "From Theramore, Fiora Longears sends Alliance travelers north to Astranaar. There, they report to Shindrell Swiftfire as war and unrest trouble Ashenvale.",
  "sections": [
   {
    "title": "From the Coast into the Woods",
-   "body": "Alliance travelers arrive in Dustwallow Marsh aboard the ferry from Menethil Harbor, often seeking purpose in northern Kalimdor. At Theramore, Fiora Longears directs capable hands inland toward Astranaar, Ashenvale's main night elven settlement. The route winds beneath ancient, shadowed canopies and leads into a forest strained by war and unrest.",
+   "body": "Alliance travelers reach Dustwallow Marsh by ferry from Menethil Harbor, often seeking purpose in northern Kalimdor. At Theramore, Fiora Longears sends capable hands inland to Astranaar, Ashenvale's main night elven settlement. The road passes beneath ancient, shadowed canopies and enters a forest strained by war and unrest.",
    "spoiler": 0
   },
   {
    "title": "An Unspoken Recommendation",
-   "body": "Fiora tells travelers not to mention her name in Astranaar because Shindrell Swiftfire does not know her. Fiora's role is to direct fresh Alliance talent where it is needed. Shindrell welcomes able-bodied defenders when they arrive. Ashenvale remains breathtaking, but it is no longer the peaceful sanctuary it once was.",
+   "body": "Fiora asks travelers not to mention her name in Astranaar, because Shindrell Swiftfire does not know her. Fiora directs fresh Alliance talent to places where help is needed, and Shindrell welcomes able-bodied defenders when they arrive. Ashenvale remains breathtaking, though it is no longer the peaceful sanctuary it once was.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "journey to astranaar start",
     "where to pick up journey to astranaar"
    ],
-   "answer": "The journey begins with Fiora Longears in Theramore, on the coast of Dustwallow Marsh. She offers it to Alliance travelers from the Eastern Kingdoms who seek to help in Kalimdor."
+   "answer": "Fiora Longears sends Alliance travelers from Theramore, on the coast of Dustwallow Marsh. She welcomes those arriving from the Eastern Kingdoms who seek to help in Kalimdor."
   },
   {
    "q": "Who do I need to talk to in Astranaar?",
@@ -50,7 +50,7 @@
     "journey to astranaar end npc",
     "who is shindrell swiftfire"
    ],
-   "answer": "Speak with Shindrell Swiftfire, a night elf in Astranaar, the central Alliance town in Ashenvale."
+   "answer": "Speak with Shindrell Swiftfire, a night elf in Astranaar, Ashenvale's central Alliance town."
   },
   {
    "q": "Why does Fiora say not to mention her name?",
@@ -58,7 +58,7 @@
     "why not mention fiora",
     "fiora longears connection to shindrell"
    ],
-   "answer": "Fiora says not to mention her name because Shindrell does not know her personally. She directs eager newcomers to an outpost in need of assistance."
+   "answer": "Fiora asks you not to mention her because Shindrell does not know her personally. She directs eager newcomers to an outpost that needs help."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -66,7 +66,7 @@
     "why do journey to astranaar",
     "journey to astranaar lore purpose"
    ],
-   "answer": "It leads Alliance travelers from Dustwallow Marsh into Ashenvale and introduces them to Astranaar, their main base in the forest."
+   "answer": "The journey takes Alliance travelers from Dustwallow Marsh into Ashenvale and brings them to Astranaar, their main base in the forest."
   },
   {
    "q": "What kind of trouble is happening in Ashenvale?",
@@ -74,7 +74,7 @@
     "why does astranaar need help",
     "ashenvale troubles lore"
    ],
-   "answer": "Ashenvale is no longer tranquil. Horde incursions, demonic corruption lingering from the Third War, and local wildlife stirred by recent conflicts trouble the forest."
+   "answer": "Ashenvale is no longer tranquil. Horde incursions, demonic corruption left by the Third War, and local wildlife stirred by recent conflicts trouble the forest."
   },
   {
    "q": "What quest leads into Journey to Astranaar?",
@@ -82,7 +82,7 @@
     "journey to astranaar prerequisite",
     "fiora longears chain"
    ],
-   "answer": "The journey follows a short introduction called Fiora Longears, which directs travelers arriving in Dustwallow Marsh to speak with her in Theramore."
+   "answer": "A short introduction called Fiora Longears sends travelers arriving in Dustwallow Marsh to speak with her in Theramore."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Journey to Astranaar"
  ],
- "style": 1
+ "style": 2
 }

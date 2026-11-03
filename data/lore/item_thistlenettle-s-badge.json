@@ -10,16 +10,16 @@
    "quest:167"
   ]
  },
- "summary": "Foreman Thistlenettle's badge is all that remains after the collapse in the Deadmines.",
+ "summary": "In the Deadmines, Thistlenettle's Badge is all that remains after a tunnel collapse.",
  "sections": [
   {
    "title": "The Explorers' League in the Deadmines",
-   "body": "Before the Defias Brotherhood sealed Moonbrook and the tunnels beneath it, dwarven prospectors from Ironforge's Explorers' League worked the old gold mines of Westfall. Foreman Thistlenettle and his crew were deep underground when a tunnel collapsed and split them apart. His brother Wilder escaped to Stormwind City, but the foreman and several laborers were left trapped below.",
+   "body": "Before the Defias Brotherhood sealed Moonbrook and the tunnels beneath it, prospectors from Ironforge's Explorers' League worked Westfall's old gold mines. Foreman Thistlenettle and his crew were deep below when a tunnel collapsed and split them apart. His brother Wilder escaped to Stormwind City, but the foreman and several laborers remained trapped underground.",
    "spoiler": 0
   },
   {
    "title": "A Grim Confirmation",
-   "body": "Foreman Thistlenettle died in the unsealed tunnels and rose as mindless undead among the collapsed shafts outside the main foundry. His Explorers' League Badge remained with him. Recovered and brought to his grieving brother, it proves the foreman's death.",
+   "body": "Foreman Thistlenettle died in the unsealed tunnels and rose as mindless undead among the collapsed shafts outside the main foundry. His Explorers' League Badge stayed with him. Wilder, his grieving brother, receives the badge, and it proves the foreman is dead.",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "who owned thistlenettle badge",
     "thistlenettle badge owner"
    ],
-   "answer": "The badge belonged to Foreman Thistlenettle, a dwarven miner and member of the Explorers' League. A sudden tunnel collapse trapped him deep underground beneath Westfall."
+   "answer": "The badge belonged to Foreman Thistlenettle, a dwarven miner and member of the Explorers' League. A tunnel collapse trapped him deep underground beneath Westfall."
   },
   {
    "q": "Where is the badge found?",
@@ -39,7 +39,7 @@
     "how to get thistlenettles badge",
     "where to find thistlenettle"
    ],
-   "answer": "Foreman Thistlenettle carries the badge in the monster-infested upper corridors of the Deadmines, outside the main entrance to the Defias stronghold."
+   "answer": "Foreman Thistlenettle carries the badge in the Deadmines' monster-infested upper corridors, outside the main entrance to the Defias stronghold."
   },
   {
    "q": "Who wants Thistlenettle's Badge?",
@@ -48,7 +48,7 @@
     "who turns in oh brother",
     "wilder thistlenettle location"
    ],
-   "answer": "Wilder Thistlenettle wants the badge. He is the foreman's brother and lives in Stormwind City's Dwarven District, awaiting word of his kin's fate."
+   "answer": "Wilder Thistlenettle wants the badge. The foreman's brother lives in Stormwind City's Dwarven District and awaits word of his kin's fate."
   },
   {
    "q": "Why were the Thistlenettle brothers in the Deadmines?",
@@ -93,5 +93,5 @@
   "Thistlenettle's Badge",
   "Oh Brother. . ."
  ],
- "style": 1
+ "style": 2
 }

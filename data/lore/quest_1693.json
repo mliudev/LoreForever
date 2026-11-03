@@ -17,16 +17,16 @@
   "wiki": "Weapons of Elunite",
   "chain": []
  },
- "summary": "In Darnassus, Weapons of Elunite brings a young warrior's early rite of passage to its close. After recovering ore blessed by Elune, you bring it to Mathiel to forge arms for a defender of Kalimdor.",
+ "summary": "In Darnassus, Weapons of Elunite brings a young warrior's rite of passage to its end. You carry ore blessed by Elune to Mathiel, who forges it into arms for a defender of Kalimdor.",
  "sections": [
   {
    "title": "A Sacred Forge",
-   "body": "Night elf warriors defend Teldrassil and the kaldorei people. Promising young warriors gather elunite, a mineral blessed by the Moon Goddess, rather than relying on mundane steel alone. Its ore calls for a smith skilled in metalcraft and mindful of Elune's gift.",
+   "body": "Night elf warriors defend Teldrassil and the kaldorei people. Promising young warriors gather elunite, a mineral blessed by the Moon Goddess, to arm themselves beyond ordinary steel. Its ore needs a smith skilled in metalcraft and mindful of Elune's gift.",
    "spoiler": 0
   },
   {
    "title": "Mathiel's Craft",
-   "body": "Smith Mathiel works in Darnassus, shaping blessed elunite into weapons of war. He considers the work an honor, not routine metalcraft. When you bring him the ore, he fashions arms to suit your style and rewards your service with weapons blessed by your goddess.",
+   "body": "Mathiel works in Darnassus, shaping blessed elunite into weapons of war. He considers the work an honor, not routine metalcraft. Bring him the ore, and he forges arms to suit your style. For your service, he gives you weapons blessed by your goddess.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why do this quest",
     "warrior level 10 darnassus"
    ],
-   "answer": "This rite of passage for a young warrior in Darnassus reaches its end when you bring elunite ore to Smith Mathiel. He forges weapons blessed by Elune to aid your journey across Kalimdor."
+   "answer": "A young warrior's rite of passage in Darnassus ends when you bring elunite ore to Smith Mathiel. He forges weapons blessed by Elune to aid your journey across Kalimdor."
   },
   {
    "q": "Who is Mathiel?",
@@ -47,7 +47,7 @@
     "who is mathiel",
     "darnassus smith"
    ],
-   "answer": "Mathiel is a skilled night elf smith who lives in Darnassus. He knows how to forge elunite into balanced arms for the city's defenders."
+   "answer": "Mathiel is a skilled night elf smith who lives in Darnassus. He can forge elunite into balanced arms for the city's defenders."
   },
   {
    "q": "What is elunite?",
@@ -63,7 +63,7 @@
     "who gets weapons of elunite",
     "is this warrior only"
    ],
-   "answer": "This undertaking is for Alliance warriors training near Darnassus who have completed the earlier work of finding and gathering elunite for Smith Mathiel."
+   "answer": "Alliance warriors training near Darnassus can undertake this after finding and gathering elunite for Smith Mathiel."
   },
   {
    "q": "Where does this quest take place?",
@@ -79,7 +79,7 @@
     "why is mathiel honored",
     "mathiel dialogue"
    ],
-   "answer": "Mathiel thanks you because shaping elunite is both a sacred honor and a personal pleasure. Few smiths receive the privilege of working ore tied to Elune, so your delivery is a boon to him."
+   "answer": "Mathiel thanks you because shaping elunite is both a sacred honor and a personal pleasure. Few smiths have the privilege of working ore tied to Elune, so your delivery is a boon to him."
   }
  ],
  "angles": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Weapons of Elunite"
  ],
- "style": 1
+ "style": 2
 }

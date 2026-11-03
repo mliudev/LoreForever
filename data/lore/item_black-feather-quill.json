@@ -10,16 +10,16 @@
    "quest:483"
   ]
  },
- "summary": "The Black Feather Quill lies in Ban'ethil Barrow Den, needed to wake the Druids of the Talon.",
+ "summary": "In Ban'ethil Barrow Den, the Black Feather Quill is needed to wake the Druids of the Talon.",
  "sections": [
   {
    "title": "A Vessel of Wakening",
-   "body": "The Black Feather Quill is one of four sacred focuses used to wake the Druids of the Talon from hibernation. The others are the Raven Claw Talisman, the Sapphire of Sky, and the Rune of Nesting. The rite calls slumbering druids back from the Emerald Dream. Without these items, a druid may remain trapped in the Dream and unable to return to their waking body.",
+   "body": "The Black Feather Quill is one of four sacred focuses that wake the Druids of the Talon from hibernation. The others are the Raven Claw Talisman, the Sapphire of Sky, and the Rune of Nesting. Together, the focuses call slumbering druids back from the Emerald Dream. Without them, a druid may remain trapped in the Dream, unable to return to their waking body.",
    "spoiler": 0
   },
   {
    "title": "The Threat in Ban'ethil",
-   "body": "Corrupted Gnarlpine furbolgs overran Ban'ethil Barrow Den, putting the chests that held the relics in danger. Athridas Bearmantle in Dolanaar ordered their swift recovery, before the captive druids were lost to the Dream.",
+   "body": "Corrupted Gnarlpine furbolgs overran Ban'ethil Barrow Den and threatened the chests that held the relics. Athridas Bearmantle in Dolanaar ordered their swift recovery. The captive druids had to be freed before they were lost to the Dream.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why need black feather quill",
     "what does the quill do"
    ],
-   "answer": "The Black Feather Quill is one of four Relics of Wakening used to wake the Druids of the Talon from ritual hibernation in the Emerald Dream."
+   "answer": "The Black Feather Quill is one of four sacred focuses used to wake the Druids of the Talon from hibernation in the Emerald Dream."
   },
   {
    "q": "Where is the Black Feather Quill kept?",
@@ -56,7 +56,7 @@
     "who needs the quill",
     "black feather quill quest giver"
    ],
-   "answer": "Athridas Bearmantle in Dolanaar directs adventurers to recover the Black Feather Quill and the other Relics of Wakening to rescue the imperiled druids."
+   "answer": "Athridas Bearmantle in Dolanaar directs adventurers to recover the Black Feather Quill and the other sacred focuses to rescue the imperiled druids."
   }
  ],
  "angles": [
@@ -92,5 +92,5 @@
   "Black Feather Quill",
   "The Relics of Wakening"
  ],
- "style": 1
+ "style": 2
 }

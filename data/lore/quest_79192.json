@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "24"
  },
- "summary": "A weathered note in the Barrens points travelers toward Stepping Stones, a mountain refuge near Desolace. It says two couriers made deliveries for the New Plague, and calls what happened to them simple apothecary accidents.",
+ "summary": "At a backcountry camp in the Barrens, a weathered note points toward Stepping Stones, a mountain refuge near Desolace. It says two couriers made deliveries for the New Plague, and calls their sudden ends simple apothecary accidents.",
  "sections": [
   {
    "title": "A Note in the Wilds",
-   "body": "A torn message hangs from a wooden plank at a backcountry camp in the Barrens. Mercenaries, cutthroats, and drifters pass through such camps for brief shelter, far from the eyes of the Crossroads or Ratchet. Among the wilds' ordinary signs, the note offers a reason to look beyond the camp and toward the mountains.",
+   "body": "A torn message hangs from a wooden plank at a backcountry camp in the Barrens. Mercenaries, cutthroats, and drifters stop at such camps for brief shelter, far from the eyes of the Crossroads or Ratchet. Among the ordinary signs of the wilds, the note gives you reason to look beyond the camp toward the mountains.",
    "spoiler": 0
   },
   {
    "title": "Whispers of the New Plague",
-   "body": "The anonymous writer says two agents made deliveries for the New Plague, then calls what happened to them simple apothecary accidents. The note invites you to meet at a mountain refuge between the Barrens and Desolace, where the matter can be discussed in safety.",
+   "body": "The anonymous writer says two agents made deliveries for the New Plague, then calls their sudden ends simple apothecary accidents. The note invites you to meet at a mountain refuge between the Barrens and Desolace, where you can discuss the matter in safety.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "royal apothecary plague",
     "apothecary deliveries"
    ],
-   "answer": "The New Plague is a deadly concoction developed in Undercity by the Forsaken's Royal Apothecary Society. It is meant to destroy both the Scourge and living enemies, and its testing and courier runs across the continents carry secrecy and fatal danger."
+   "answer": "The New Plague is a deadly concoction developed in Undercity by the Forsaken's Royal Apothecary Society. It is meant to destroy both the Scourge and living enemies. Its testing and courier runs across the continents bring secrecy and fatal danger."
   },
   {
    "q": "Who wrote the note pinned to the plank?",
@@ -69,7 +69,7 @@
     "why new plague in kalimdor",
     "apothecaries in the barrens"
    ],
-   "answer": "Forsaken apothecaries gather exotic venoms, spores, and reagents from Kalimdor's flora and fauna, then coordinate shipments through Horde outposts and wilderness routes."
+   "answer": "Forsaken apothecaries gather exotic venoms, spores, and reagents from Kalimdor's flora and fauna. They coordinate shipments through Horde outposts and wilderness routes."
   },
   {
    "q": "Why are backcountry camps used for notes like this?",
@@ -77,17 +77,17 @@
     "backcountry camp lore",
     "mercenary camps barrens"
    ],
-   "answer": "Outside major settlements, the Barrens is sprawling and loosely governed. Neutral waystations, mercenary rest spots, and rogue camps let travelers, smugglers, and informers leave word discreetly, away from the Horde and regional watch posts."
+   "answer": "The Barrens sprawls beyond major settlements and is loosely governed. Neutral waystations, mercenary rest spots, and rogue camps give travelers, smugglers, and informers a discreet place to leave word, away from the Horde and regional watch posts."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For Forsaken travelers, a rogue mention of the Royal Apothecary Society and its blight research is an urgent security matter, or a dangerous conspiracy from within."
+   "text": "For Forsaken travelers, a rogue mention of the Royal Apothecary Society and its blight research may be an urgent security matter, or a dangerous conspiracy from within."
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde wanderer in the Barrens, you must weigh whether reports of lethal plague deliveries on Kalimdor soil threaten your lands and alliances."
+   "text": "As a Horde wanderer in the Barrens, you weigh whether reports of lethal plague deliveries on Kalimdor soil threaten your lands and alliances."
   },
   {
    "target": "class:Rogue",
@@ -113,5 +113,5 @@
   "In-game quest text: Stepping Stones",
   "Stepping Stones"
  ],
- "style": 1
+ "style": 2
 }

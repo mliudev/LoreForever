@@ -27,16 +27,16 @@
    "The Karnitol Shipwreck (4)"
   ]
  },
- "summary": "Kreldig Ungor still thinks Karnitol's belongings can be found. Up the same coast, by Ranazjar Isle, the Slitherblade naga hold a place among night elf ruins that lie at the bottom of the sea, and Kreldig reckons the satchel is most likely there.",
+ "summary": "Near Ranazjar Isle, Kreldig Ungor still hopes Karnitol's belongings can be found. The Slitherblade naga live among night elf ruins beneath the sea, where Kreldig thinks the satchel is most likely to be.",
  "sections": [
   {
    "title": "Ruins in the Deep",
-   "body": "Following the second part of the Karnitol shipwreck search, Kreldig Ungor tells you hope is not lost. Along the same coast but farther north, close to Ranazjar Isle, sunken night elf ruins lie on the ocean floor, and the Slitherblade naga call them home. Kreldig judges it the likeliest place for Karnitol's satchel. A Recovery Diver's Potion is provided.",
+   "body": "Kreldig Ungor says there is still hope of finding Karnitol's belongings. Farther north along the coast, sunken night elf ruins lie on the ocean floor near Ranazjar Isle. The Slitherblade naga live there, and Kreldig believes it is the likeliest place to find Karnitol's satchel. He gives you a Recovery Diver's Potion.",
    "spoiler": 0
   },
   {
    "title": "The Stronger Naga",
-   "body": "Kreldig figures a scouting party that came so far south had to be a strong one. So in looking for Karnitol's belongings, Kreldig would try the more powerful naga first, the tidehunters and the sea witches.",
+   "body": "Kreldig believes the scouting party that traveled so far south must have been strong. He would search the mightier naga first: the tidehunters and sea witches.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "quest giver karnitol satchel",
     "who is kreldig ungor"
    ],
-   "answer": "Kreldig Ungor, in Desolace."
+   "answer": "Kreldig Ungor asks you to find Karnitol's satchel in Desolace."
   },
   {
    "q": "Where does Kreldig think the belongings are?",
@@ -57,7 +57,7 @@
     "satchel location",
     "where are the slitherblade naga"
    ],
-   "answer": "Among the sunken night elf ruins north along the coast, near Ranazjar Isle, which the Slitherblade naga make their home."
+   "answer": "Kreldig thinks Karnitol's belongings lie among the sunken night elf ruins north along the coast near Ranazjar Isle. The Slitherblade naga make their home there."
   },
   {
    "q": "Which naga does Kreldig suggest searching first?",
@@ -66,7 +66,7 @@
     "which naga have it",
     "tidehunter or sea witch"
    ],
-   "answer": "The tidehunters and sea witches, the stronger naga. Kreldig reasons that a scouting party that went so far south would have been powerful."
+   "answer": "Kreldig suggests searching the tidehunters and sea witches first. He reasons that a scouting party that traveled so far south must have been powerful."
   },
   {
    "q": "What came before this?",
@@ -74,7 +74,7 @@
     "karnitol shipwreck quest chain",
     "what quest comes before this"
    ],
-   "answer": "The second part of the Karnitol shipwreck search comes before this."
+   "answer": "The second part of the Karnitol shipwreck search came before this."
   }
  ],
  "angles": [],
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "The Karnitol Shipwreck (3)"
- ]
+ ],
+ "style": 2
 }

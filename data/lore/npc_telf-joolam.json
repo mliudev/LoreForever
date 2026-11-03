@@ -8,16 +8,16 @@
   "wiki": "Telf Joolam",
   "refs": 3
  },
- "summary": "At the Shrine of the Dormant Flame, Telf Joolam guides Horde initiates through the trials of fire. The Darkspear shaman teaches them to commune with and command the volatile element.",
+ "summary": "At the Shrine of the Dormant Flame, Telf Joolam guides Horde initiates in the ways of fire. The Darkspear shaman teaches them to commune with and command this volatile element.",
  "sections": [
   {
    "title": "Keeper of the Flame",
-   "body": "Telf Joolam tends the Shrine of the Dormant Flame among the crags overlooking the borderlands. Fire spirits demand sharp discipline and unwavering focus, unlike the calm certainty of earth or the patient depth of water. Telf prepares young shamans for trials that test their worth before the wild embers consume them.",
+   "body": "Among the crags above the borderlands, Telf Joolam tends the Shrine of the Dormant Flame. Fire spirits call for sharp discipline and a steady mind. Earth offers calm certainty, and water asks for patience. Telf prepares young shamans for trials where wild embers can consume the unready.",
    "spoiler": 0
   },
   {
    "title": "The Path of Fire",
-   "body": "Under Telf's direction, initiates brew and drink a ritual Fire Sapta, opening their mortal eyes to the unseen elemental planes. He sends them up the rocky summits to face burning spirits. Those who earn the flame must respect its ravenous hunger and resist reckless pride.",
+   "body": "Under Telf's guidance, initiates brew and drink a ritual Fire Sapta. It opens their mortal eyes to the unseen elemental planes. Then he sends them up the rocky summits to face burning spirits. Those who earn the flame must honor its ravenous hunger and master their pride.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is telf",
     "shrine of dormant flame troll"
    ],
-   "answer": "Telf Joolam is a Darkspear troll shaman who tends the Shrine of the Dormant Flame. He mentors young shamans seeking to commune with fire."
+   "answer": "Telf Joolam, a Darkspear troll shaman, tends the Shrine of the Dormant Flame. He guides young shamans who seek communion with fire."
   },
   {
    "q": "Where can Telf Joolam be found?",
@@ -38,7 +38,7 @@
     "where is telf",
     "how to find telf joolam"
    ],
-   "answer": "Telf Joolam can be found at the Shrine of the Dormant Flame, high along the rocky ridge between Durotar and the Barrens."
+   "answer": "Telf Joolam can be found at the Shrine of the Dormant Flame, high on the rocky ridge between Durotar and the Barrens."
   },
   {
    "q": "What is the purpose of the Fire Sapta he asks for?",
@@ -47,7 +47,7 @@
     "fire sapta use",
     "why drink sapta"
    ],
-   "answer": "The Fire Sapta opens an initiate's spiritual vision, letting them perceive and speak with elemental fire spirits invisible to mortal senses."
+   "answer": "The Fire Sapta opens an initiate's spiritual vision, so they can perceive and speak with elemental fire spirits unseen by mortal eyes."
   },
   {
    "q": "What element does Telf Joolam teach?",
@@ -56,7 +56,7 @@
     "telf joolam element",
     "fire totem quest guy"
    ],
-   "answer": "Telf Joolam teaches the element of fire, testing shamans' strength and will to control flame without falling to its destructive nature."
+   "answer": "Telf Joolam teaches fire. He tests shamans' strength and will, so they can control flame without yielding to its destructive nature."
   },
   {
    "q": "Why is a troll overseeing shamanic rites here?",
@@ -64,7 +64,7 @@
     "why troll shaman",
     "darkspear shamanism"
    ],
-   "answer": "Since joining Thrall's Horde, many Darkspear trolls have taken up shamanism alongside orcs and tauren. Experienced shamans like Telf guide the next generation."
+   "answer": "Since joining Thrall's Horde, many Darkspear trolls have taken up shamanism alongside orcs and tauren. Experienced shamans such as Telf guide the next generation."
   },
   {
    "q": "What happens after completing Telf Joolam's tasks?",
@@ -72,7 +72,7 @@
     "call of fire reward",
     "what does telf give you"
    ],
-   "answer": "After proving mastery over the flame spirits on the nearby peak, initiates gain the knowledge and blessing needed to forge their permanent Fire Totem."
+   "answer": "After proving mastery over the flame spirits on the nearby peak, initiates gain the knowledge and blessing to forge their permanent Fire Totem."
   }
  ],
  "angles": [
@@ -82,11 +82,11 @@
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you see a Darkspear elder guiding initiates in the shamanic ways shared across the Horde."
+   "text": "As a troll, you see a Darkspear elder guiding initiates in shamanic ways shared across the Horde."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see elders like Telf safeguard sacred elemental shrines throughout the borderlands, strengthening the Horde's spiritual roots."
+   "text": "As a member of the Horde, you see elders like Telf guard sacred elemental shrines throughout the borderlands and strengthen the Horde's spiritual roots."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Telf Joolam"
  ],
- "style": 1
+ "style": 2
 }

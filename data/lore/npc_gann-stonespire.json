@@ -8,16 +8,16 @@
   "wiki": "Gann Stonespire",
   "refs": 2
  },
- "summary": "Along the southern Barrens road near Bael Modan, Gann Stonespire seeks retaliation for his people’s displacement. The tauren nomad’s tribe hunted on land now occupied by a dwarven excavation.",
+ "summary": "Along the southern Barrens road near Bael Modan, Gann Stonespire seeks to answer the loss of his people’s homeland. His tribe hunted there before a dwarven excavation took the land.",
  "sections": [
   {
    "title": "Displaced from Bael Modan",
-   "body": "Gann Stonespire camps beside the southern Barrens road after the dwarven expedition arrived from Ironforge and built Bael Modan. The surrounding land had been his tribe’s ancestral territory and hunting grounds. Dwarven miners drove the tauren from their soil with pickaxes, firearms, and heavy machinery, and refused peaceful overtures. Gann will not surrender his heritage quietly. He calls on travelers to strike back at the excavators.",
+   "body": "Gann Stonespire camps beside the southern Barrens road. The dwarven expedition came from Ironforge and built Bael Modan on his tribe’s ancestral land and hunting grounds. Its miners drove the tauren from their soil with pickaxes, firearms, and heavy machinery. They refused peaceful overtures, so Gann calls on travelers to strike back at the excavators rather than surrender his heritage quietly.",
    "spoiler": 0
   },
   {
    "title": "Reclamation and Sabotage",
-   "body": "Gann directs Horde operatives to break the dwarves’ hold over the dig site after peaceful diplomacy fails. His retaliation targets expedition leaders, including Prospector Khazgorm. He then has dwarven blasting powder and ordnance made into an explosive charge. Gann intends to detonate it beneath the dwarven flying machine, crippling their technological advantage and reclaiming honor for his displaced people.",
+   "body": "Gann Stonespire directs Horde operatives to break the dwarves’ hold over the dig site after peaceful diplomacy fails. He targets expedition leaders, including Prospector Khazgorm. Then he turns dwarven blasting powder and ordnance into an explosive charge. He means to detonate it beneath the dwarven flying machine, crippling their technological advantage and reclaiming honor for his displaced people.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "gann stonespire lore",
     "tauren outside bael modan"
    ],
-   "answer": "Gann Stonespire is a tauren warrior whose tribe once lived on the lands now occupied by Bael Modan. The dwarves displaced them when they established their dig site, and Gann now waits by a roadside in the southern Barrens, seeking vengeance and the reclamation of his people’s homeland."
+   "answer": "Gann Stonespire is a tauren warrior whose tribe once lived on the land now occupied by Bael Modan. The dwarves displaced them when they established their dig site. Now Gann waits by a roadside in the southern Barrens, seeking vengeance and the reclamation of his people’s homeland."
   },
   {
    "q": "Why is Gann fighting the dwarves of Bael Modan?",
@@ -38,7 +38,7 @@
     "why attack bael modan",
     "gann bael modan conflict"
    ],
-   "answer": "The Bael'dun dwarven expedition arrived in the southern Barrens and forced local tauren from their ancestral hunting grounds to build an excavation fortress. After the dwarves rejected diplomatic efforts, Gann chose to dismantle their operation by force."
+   "answer": "The Bael'dun dwarven expedition came to the southern Barrens and forced local tauren from their ancestral hunting grounds to build an excavation fortress. When the dwarves rejected diplomatic efforts, Gann chose to dismantle their operation by force."
   },
   {
    "q": "What is Gann's plan against the excavation?",
@@ -47,7 +47,7 @@
     "what does gann do",
     "bael modan bomb"
    ],
-   "answer": "Gann commissions the deaths of dwarven overseers, including Prospector Khazgorm, to seize excavation records. Then he has stolen dwarven ordnance and blasting supplies made into a bomb intended to destroy the expedition’s flying machine and disrupt its technological dominance."
+   "answer": "Gann targets dwarven overseers, including Prospector Khazgorm. He then has stolen dwarven ordnance and blasting supplies made into a bomb meant to destroy the expedition’s flying machine and disrupt its technological dominance."
   },
   {
    "q": "Where does Gann Stonespire make his camp?",
@@ -55,13 +55,13 @@
     "where is gann",
     "gann stonespire location"
    ],
-   "answer": "Gann Stonespire wanders the road just west of Bael Modan in the southern Barrens, outside the excavation site’s perimeter."
+   "answer": "Gann Stonespire camps beside the road just west of Bael Modan in the southern Barrens, outside the excavation site’s perimeter."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you share the plight of nomads whose ancestral ranges and sacred earth are repeatedly desecrated by foreign Alliance expeditions."
+   "text": "As a tauren, you share the plight of nomads whose ancestral ranges and sacred earth foreign Alliance expeditions repeatedly desecrate."
   },
   {
    "target": "faction:Horde",
@@ -87,5 +87,5 @@
  "attribution": [
   "Gann Stonespire"
  ],
- "style": 1
+ "style": 2
 }

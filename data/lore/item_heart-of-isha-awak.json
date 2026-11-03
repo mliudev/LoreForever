@@ -10,11 +10,11 @@
    "quest:873"
   ]
  },
- "summary": "Hunters seek Isha Awak’s heart along the Merchant Coast south of Ratchet. Mahren Skyseer wants it as proof that the Deep Doom has been overcome.",
+ "summary": "Along the Merchant Coast south of Ratchet, hunters seek Isha Awak’s heart. Mahren Skyseer wants it as proof that the Deep Doom has been overcome.",
  "sections": [
   {
    "title": "Trophy of the Deep Doom",
-   "body": "Isha Awak prowls the sea off the Merchant Coast, south of Ratchet. Sailors and coastal folk revere and fear the massive thresher, known as the Deep Doom. It has killed many human trespassers along the shore. Mahren Skyseer, a tauren mystic, sees an honorable predator, not a mindless menace. She believes its fierce spirit dwells in its heart. Mahren charges brave hunters to plunge into the waves, defeat Isha Awak in its own domain, and claim the heart as both trophy and spiritual offering.",
+   "body": "Isha Awak prowls the sea off the Merchant Coast, south of Ratchet. Sailors and coastal folk both revere and fear the massive thresher called the Deep Doom. It has killed many human trespassers along the shore.\n\nMahren Skyseer, a tauren mystic, sees an honorable predator rather than a mindless menace. She believes its fierce spirit dwells in its heart. So she sends brave hunters into the waves to defeat Isha Awak in its own domain and claim the heart as a trophy and spiritual offering.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "isha awak heart",
     "what is this heart"
    ],
-   "answer": "The Heart of Isha Awak is the heart of the giant thresher that prowls the waters south of Ratchet. Hunters claim it as proof of overcoming the Deep Doom for Mahren Skyseer."
+   "answer": "Isha Awak’s heart comes from the giant thresher that prowls the waters south of Ratchet. Hunters claim it as proof that they have overcome the Deep Doom for Mahren Skyseer."
   },
   {
    "q": "Who wants the Heart of Isha Awak?",
@@ -35,7 +35,7 @@
     "who do i give the heart to",
     "mahren skyseer"
    ],
-   "answer": "Mahren Skyseer, a tauren seer camped along the Merchant Coast south of Ratchet, wants hunters to retrieve the heart. She seeks to honor the beast’s power and absorb its spirit."
+   "answer": "Mahren Skyseer, a tauren seer camped along the Merchant Coast south of Ratchet, wants hunters to retrieve the heart. She seeks to honor the beast’s power and take its spirit into herself."
   },
   {
    "q": "Where is Isha Awak found?",
@@ -52,17 +52,17 @@
     "why kill isha awak",
     "why does mahren want the heart"
    ],
-   "answer": "Mahren Skyseer considers Isha Awak an honorable hunter and worthy adversary. By slaying the beast and holding its heart, a hunter takes the sea creature’s spirit into themselves."
+   "answer": "Mahren Skyseer considers Isha Awak an honorable hunter and worthy adversary. By slaying the beast and holding its heart, a hunter takes the sea creature’s spirit within."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren hunter, you pursue Isha Awak as an act of spiritual communion with nature’s fiercest predators, guided by the elder Mahren Skyseer."
+   "text": "As a tauren hunter, you pursue Isha Awak in communion with nature’s fiercest predators, guided by the elder Mahren Skyseer."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you face an ultimate test of courage when tracking and conquering the Deep Doom beneath the Merchant Coast’s waves."
+   "text": "As a hunter, you face a test of courage as you track and conquer the Deep Doom beneath the Merchant Coast’s waves."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
   "Heart of Isha Awak",
   "Isha Awak (quest)"
  ],
- "style": 1
+ "style": 2
 }

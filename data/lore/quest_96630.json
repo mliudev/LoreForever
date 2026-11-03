@@ -17,16 +17,16 @@
   "wiki": "The Adventurer (Teldrassil)",
   "chain": []
  },
- "summary": "In Teldrassil, a lost journal waits to be carried to Lyreena Duskblade near Dolanaar. Its pages record an unknown traveler's simple journeys and camping outings.",
+ "summary": "In Teldrassil, you find a lost journal meant for Lyreena Duskblade near Dolanaar. Its pages follow an unknown traveler's quiet journeys and camping outings.",
  "sections": [
   {
    "title": "A Wanderer's Journal",
-   "body": "You find a journal among Teldrassil's boughs and roots. Its nameless writer records modest wanderings and the simple pleasure of making camp beneath the twilight canopy.",
+   "body": "Among Teldrassil's boughs and roots, you find a journal left behind. Its nameless writer tells of modest wanderings and the simple pleasure of camping beneath the twilight canopy.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Dolanaar",
-   "body": "The journal can be carried toward Dolanaar instead of left in the wilderness. Lyreena Duskblade waits near the night elf settlement to receive the lost pages.",
+   "body": "You can carry the journal toward Dolanaar instead of leaving it in the wilderness. Lyreena Duskblade waits near the night elf settlement to receive its lost pages.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "where is lyreena duskblade",
     "turn in npc"
    ],
-   "answer": "Lyreena Duskblade is a night elf near Dolanaar, and the lost journal is meant for her."
+   "answer": "Lyreena Duskblade is a night elf waiting near Dolanaar to receive the lost journal."
   },
   {
    "q": "Where does this quest take place?",
@@ -55,7 +55,7 @@
     "where is the adventurer quest",
     "quest zone"
    ],
-   "answer": "The story takes place in Teldrassil, in the wilderness around Dolanaar."
+   "answer": "The story takes place in Teldrassil's wilderness around Dolanaar."
   },
   {
    "q": "Does the journal describe dangerous monsters or battles?",
@@ -72,7 +72,7 @@
     "can horde do this",
     "alliance quest"
    ],
-   "answer": "Alliance members exploring Teldrassil, especially novice night elves near Dolanaar, can complete it."
+   "answer": "Alliance members exploring Teldrassil can return the journal, especially novice night elves near Dolanaar."
   },
   {
    "q": "Why turn the journal in to Dolanaar?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf patrolling Teldrassil, you may find signs of travelers and carry lost keepsakes to wanderers like Lyreena Duskblade."
+   "text": "As a young night elf patrolling Teldrassil, you may find travelers' signs and carry lost keepsakes to wanderers like Lyreena Duskblade."
   },
   {
    "target": "faction:Alliance",
@@ -109,5 +109,5 @@
  "attribution": [
   "The Adventurer (Teldrassil)"
  ],
- "style": 1
+ "style": 2
 }

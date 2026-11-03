@@ -17,16 +17,16 @@
   "wiki": "A Gnome's Respite",
   "chain": []
  },
- "summary": "At Windshear Crag, Gaxim Rustfizzle struggles to slow the Venture Company's push into the forest. He asks travelers to drive back its workers so he can prepare new defenses.",
+ "summary": "At Windshear Crag, the Venture Company presses into the forest while Gaxim Rustfizzle struggles to slow its advance. He asks travelers to drive back its workers so he can prepare new defenses.",
  "sections": [
   {
    "title": "A Clashing Alliance",
-   "body": "Gaxim Rustfizzle represents the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences. Among Stonetalon's ancient groves, he is meant to show the nature-worshipping night elves that gnomish invention can protect their threatened lands. He combines magic, chemical brews and mechanics, but the Venture Company's relentless pace leaves him little time to build defensive devices.",
+   "body": "Gaxim Rustfizzle represents the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences. In Stonetalon's ancient groves, he hopes to show the nature-worshipping night elves that gnomish invention can defend their threatened lands. He joins magic, chemical brews and mechanics, yet the Venture Company's relentless pace leaves him little time to build defenses.",
    "spoiler": 0
   },
   {
    "title": "Buying Time in Windshear Crag",
-   "body": "Gaxim sends travelers into the smoking works at Windshear Crag to turn back the Venture Co. Loggers and Deforesters. Their retreat would give him time to organize his workshop and devise his next defense: controlled, strategic high explosives.",
+   "body": "At Windshear Crag, Gaxim sends travelers into the smoking works to turn back the Venture Co. Loggers and Deforesters. If they retreat, he will have time to organize his workshop and devise his next defense: controlled, strategic high explosives.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why help night elves",
     "gnome ecology"
    ],
-   "answer": "Gaxim believes he must prove to skeptical night elves that gnomish sciences can coexist with nature and defend their wilderness. He draws on arcanology, alchemy and engineering against unchecked industrial exploitation."
+   "answer": "Gaxim believes he must prove to skeptical night elves that gnomish sciences can live alongside nature and defend their wilderness. He draws on arcanology, alchemy and engineering against unchecked industrial exploitation."
   },
   {
    "q": "Who are the Venture Company in Windshear Crag?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see Gaxim's ambition at work: he seeks to meet the conflict between nature and civilization with ingenuity and high explosives."
+   "text": "As a gnome, you can see Gaxim's ambition: he seeks to meet the conflict between nature and civilization with ingenuity and high explosives."
   },
   {
    "target": "race:NightElf",
@@ -120,5 +120,5 @@
  "attribution": [
   "A Gnome's Respite"
  ],
- "style": 1
+ "style": 2
 }

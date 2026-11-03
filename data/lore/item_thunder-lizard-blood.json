@@ -10,11 +10,11 @@
    "quest:907"
   ]
  },
- "summary": "In the southern Barrens, hunters bring back Thunder Lizard Blood as proof of survival. The blood comes from the great beasts that roam the plains.",
+ "summary": "Hunters return with Thunder Lizard Blood from the southern Barrens. It comes from the great beasts roaming the plains.",
  "sections": [
   {
    "title": "Trophy of the Hunt",
-   "body": "Thunder lizards go by the names Stormsnouts, Stormhides, and Thunderheads across the plains. Their heavy steps shake the earth, and their crushing weight can flatten unwary hunters. Bringing back their blood shows the skill to hunt them and the endurance to survive beneath their thundering feet.",
+   "body": "Stormsnouts, Stormhides, and Thunderheads are the names given to thunder lizards across the plains. Their heavy steps shake the earth, and their crushing weight can flatten an unwary hunter. Bringing back their blood shows the skill to hunt them and the strength to survive beneath their thundering feet.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "thunder lizard locations",
     "where are stormsnouts"
    ],
-   "answer": "Thunder lizards roam the grasslands north, east, and south of Camp Taurajo, grazing alongside the other large animals of the southern Barrens."
+   "answer": "Thunder lizards roam the grasslands north, east, and south of Camp Taurajo. There, they graze alongside the other large animals of the southern Barrens."
   }
  ],
  "angles": [
@@ -52,7 +52,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren hunter from Camp Taurajo, you face thunder lizards in a traditional test of survival alongside the formidable giants of your homeland."
+   "text": "As a tauren hunter from Camp Taurajo, you face thunder lizards in a traditional test of survival among the formidable giants of your homeland."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
   "Thunder Lizard Blood",
   "Enraged Thunder Lizards"
  ],
- "style": 1
+ "style": 2
 }

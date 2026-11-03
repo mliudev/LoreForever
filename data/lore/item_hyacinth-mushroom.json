@@ -10,11 +10,11 @@
    "quest:3521"
   ]
  },
- "summary": "In Shadowglen, Hyacinth Mushrooms grow at the roots of trees across Teldrassil. Night elf herbalists use them for medicine, and grell and grellkin forage for them.",
+ "summary": "In Shadowglen, Hyacinth Mushrooms grow among Teldrassil’s trees and roots. Night elf herbalists use them in medicine, while grell and grellkin forage for them.",
  "sections": [
   {
    "title": "Flora of Shadowglen",
-   "body": "Hyacinth Mushrooms grow in Shadowglen among the trees and roots of Aldrassil. Forest healers use them in remedies for young night elf sentinels and trainees harmed by venomous creatures. The spiders of Shadowthread Cave are among the dangers they face, and the mushrooms go into soothing draughts and antivenoms. Corrupted grell also hoard them.",
+   "body": "Among the trees and roots of Aldrassil in Shadowglen, Hyacinth Mushrooms help forest healers treat young night elf sentinels and trainees harmed by venomous creatures. The spiders of Shadowthread Cave are among the dangers they face. Healers use the mushrooms in soothing draughts and antivenoms. Corrupted grell also hoard them.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "where to find hyacinth mushroom",
     "shadowglen mushrooms"
    ],
-   "answer": "Hyacinth Mushrooms grow on the ground near large tree trunks and roots, and beside boulders in Shadowglen on Teldrassil."
+   "answer": "In Shadowglen on Teldrassil, Hyacinth Mushrooms grow on the ground near large tree trunks and roots, and beside boulders."
   },
   {
    "q": "Why do the grell carry Hyacinth Mushrooms?",
@@ -44,7 +44,7 @@
     "why do grell have them",
     "grellkin mushrooms"
    ],
-   "answer": "Grell and grellkin in southern Shadowglen forage for Hyacinth Mushrooms and hoard them in their camps."
+   "answer": "Grell and grellkin forage for Hyacinth Mushrooms in southern Shadowglen and hoard them in their camps."
   },
   {
    "q": "Are Hyacinth Mushrooms poisonous themselves?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Gathering these fungi in Shadowglen takes no formal training. A fledgling herbalist can learn how they help counter forest toxins."
+   "text": "You need no formal training to gather these fungi in Shadowglen. As a fledgling herbalist, you can learn how they help counter forest toxins."
   },
   {
    "target": "race:NightElf",
@@ -89,5 +89,5 @@
   "Hyacinth Mushroom",
   "Iverron's Antidote (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "Chen's Empty Keg (3)"
   ]
  },
- "summary": "A keg bearing Chen Stormstout’s mark lies abandoned in the Barrens. Its discovery points toward the wandering brewmaster’s old ties to Durotar.",
+ "summary": "In the Barrens, Chen Stormstout’s marked keg lies abandoned. Its discovery recalls the brewmaster’s old ties to Durotar.",
  "sections": [
   {
    "title": "A Wandering Relic",
-   "body": "Travelers sometimes find an abandoned wooden barrel across the dry Barrens. Razormane quilboar and Kolkar centaur leave ordinary casks behind, but this barrel is carefully made and bears a plaque: “Chen Stormstout - May your spirit be raised and always raise your spirits.” It is an odd relic beneath Kalimdor’s sun. To learn how it came to the Barrens, you seek someone who knows brewing.",
+   "body": "Across the dry Barrens, travelers sometimes find an abandoned wooden barrel. Razormane quilboar and Kolkar centaur leave ordinary casks behind, but this one is carefully made and bears a plaque: “Chen Stormstout - May your spirit be raised and always raise your spirits.” It is an odd relic beneath Kalimdor’s sun. To learn how it came here, you seek someone who knows brewing.",
    "spoiler": 0
   },
   {
    "title": "Echoes of Durotar's Founding",
-   "body": "Brewmaster Drohn in Ratchet recognizes the keg’s craftsmanship and names Chen Stormstout as its owner. Chen, a wandering Pandaren, traveled with Rexxar during the battles that secured Durotar for Thrall’s Horde. Years have passed since Chen walked Kalimdor’s red earth, yet seasoned brewers still remember his recipes and wandering spirit.",
+   "body": "In Ratchet, Brewmaster Drohn recognizes the keg’s craft and names Chen Stormstout as its owner. Chen is a wandering Pandaren who traveled with Rexxar during the battles that secured Durotar for Thrall’s Horde. Years have passed since Chen walked Kalimdor’s red earth. Yet seasoned brewers still remember his recipes and wandering spirit.",
    "spoiler": 0
   }
  ],
@@ -115,5 +115,5 @@
  "attribution": [
   "Chen's Empty Keg (quest)"
  ],
- "style": 1
+ "style": 2
 }

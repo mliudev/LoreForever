@@ -10,11 +10,11 @@
    "quest:1016"
   ]
  },
- "summary": "At Silverwind Refuge, Sentinel Velene Starstrike gives investigators the Divining Scroll to trace the corrupted elementals to their creator.",
+ "summary": "At Silverwind Refuge, Sentinel Velene Starstrike gives investigators the Divining Scroll to find who summoned the corrupted elementals.",
  "sections": [
   {
    "title": "Tracing Unnatural Elementals",
-   "body": "Corrupt water elementals rise from Ashenvale’s pools, and the Sentinels know the disturbance is unnatural. Sentinel Velene Starstrike obtains a scroll to find who is responsible. With intact elemental bracers as a focus, its magic draws out the summoner’s signature. The blank parchment becomes a Divined Scroll and names the guilty party.",
+   "body": "Corrupt water elementals rise from Ashenvale’s pools, and the Sentinels know the disturbance is unnatural. Sentinel Velene Starstrike obtains a scroll to find who is responsible. With five intact elemental bracers as a focus, its magic draws out the summoner’s signature. The blank parchment becomes a Divined Scroll and names the guilty party.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "divining scroll purpose",
     "why use divining scroll"
    ],
-   "answer": "The Divining Scroll identifies who created the corrupt water elementals in Ashenvale. Intact elemental bracers focus its magic, which reads the caster’s aura and records their identity."
+   "answer": "The Divining Scroll identifies who created the corrupt water elementals in Ashenvale. Five intact elemental bracers focus its magic, which reads the caster’s aura and records their identity."
   },
   {
    "q": "Who provides the Divining Scroll?",
@@ -88,5 +88,5 @@
   "Divining Scroll",
   "Elemental Bracers (quest)"
  ],
- "style": 1
+ "style": 2
 }

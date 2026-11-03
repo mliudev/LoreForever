@@ -14,11 +14,11 @@
   "previous": "",
   "next": ""
  },
- "summary": "You have come into a gigantic, ornate pillow that once belonged to Chambermaid Pillaclencher. Evonice Sootsmoker, in the Searing Gorge, is bound to want it.",
+ "summary": "In the Searing Gorge, you have a gigantic, ornate pillow once kept by Chambermaid Pillaclencher. Evonice Sootsmoker is sure to want it.",
  "sections": [
   {
    "title": "A Pillow for Evonice",
-   "body": "The pillow Chambermaid Pillaclencher kept is now yours. Evonice Sootsmoker will surely be eager to get hold of it. Bring it to her in the Searing Gorge and see what she offers you for the trouble.",
+   "body": "Evonice Sootsmoker is sure to want Chambermaid Pillaclencher's gigantic, ornate pillow. Bring it to her in the Searing Gorge and see what she offers for your trouble.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "evonice sootsmoker pillow",
     "where does the pillow go"
    ],
-   "answer": "Evonice Sootsmoker, in the Searing Gorge, expected to want it badly."
+   "answer": "Evonice Sootsmoker in the Searing Gorge is sure to want Chambermaid Pillaclencher's pillow."
   },
   {
    "q": "Where does this pillow come from?",
@@ -39,7 +39,7 @@
     "who drops the pillow",
     "chambermaid pillow"
    ],
-   "answer": "It belonged to Chambermaid Pillaclencher, and is gigantic and ornate."
+   "answer": "The gigantic, ornate pillow once belonged to Chambermaid Pillaclencher."
   },
   {
    "q": "Where can Evonice Sootsmoker be found?",
@@ -48,7 +48,7 @@
     "where is evonice sootsmoker",
     "evonice searing gorge"
    ],
-   "answer": "In the Searing Gorge."
+   "answer": "Evonice Sootsmoker is in the Searing Gorge."
   }
  ],
  "angles": [],
@@ -64,5 +64,6 @@
  ],
  "attribution": [
   "Classic quest text: Look at the Size of It!"
- ]
+ ],
+ "style": 2
 }

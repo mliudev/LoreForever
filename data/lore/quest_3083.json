@@ -17,16 +17,16 @@
   "wiki": "Encrypted Tablet (quest)",
   "chain": []
  },
- "summary": "In the Valley of Trials, Gornek gives a coded summons to aspiring rogues. It sends them to Rwag in the Den, where rogue instruction meets the Shattered Hand.",
+ "summary": "In the Valley of Trials, Gornek sends new rogues to Rwag with a coded message. The summons leads them into the Den, where rogue training is bound to the Shattered Hand.",
  "sections": [
   {
    "title": "A Coded Summons",
-   "body": "Gornek gives an Encrypted Tablet to each initiate who proves their mettle against the local wildlife. Its message is written in cipher, a fitting test and precaution for those trained in stealth, poison, and subterfuge. The summons directs the recruit into the Den to meet Rwag, who trains the Horde’s rogues, thieves, and cutpurses.",
+   "body": "Gornek gives the Encrypted Tablet to initiates who prove their mettle against the local wildlife. Its message is written in cipher, a test and safeguard for those trained in stealth, poison, and subterfuge. The summons sends each recruit into the Den to meet Rwag, trainer of the Horde’s rogues, thieves, and cutpurses.",
    "spoiler": 0
   },
   {
    "title": "The Shadow of the Hand",
-   "body": "Inside the Den, initiates find Rwag, an agent aligned with the Shattered Hand. He tells new rogues the guild will not dictate their every breath, but the Hand holds him accountable if an apprentice fails to perform. The fledgling Horde is surrounded by foes and relies heavily on silent scouts and agile cutpurses to gather intelligence and eliminate threats from the shadows.",
+   "body": "Inside the Den, Rwag trains new rogues as an agent aligned with the Shattered Hand. He says the guild will not dictate every breath, yet the Hand holds him to account if an apprentice fails to perform. The fledgling Horde is surrounded by foes, so it depends on silent scouts and agile cutpurses to gather intelligence and strike from the shadows.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "tablet quest giver",
     "gornek tablet"
    ],
-   "answer": "Gornek, who oversees trials in the valley, gives you the tablet after you complete your first combat trial by killing Mottled Boars."
+   "answer": "Gornek, who oversees trials in the valley, gives you the tablet after you prove yourself in your first combat trial by killing Mottled Boars."
   },
   {
    "q": "Where can Rwag be found?",
@@ -56,7 +56,7 @@
     "where is rwag",
     "find rwag"
    ],
-   "answer": "Rwag is deep inside the Den, the cavern complex along the northern cliffside of the Valley of Trials."
+   "answer": "Rwag can be found deep inside the Den, the cavern complex along the Valley of Trials’ northern cliffside."
   },
   {
    "q": "What is 'the Hand' mentioned by Rwag?",
@@ -74,7 +74,7 @@
     "why cipher",
     "rogue tablet code"
    ],
-   "answer": "The cipher hides sensitive rogue business and the identities of their handlers from prying eyes. It also tests whether an initiate can handle discreet messages."
+   "answer": "The cipher hides sensitive rogue business and handlers’ identities from prying eyes. It also tests whether an initiate can handle discreet messages."
   },
   {
    "q": "Can any class undertake this quest?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you meet your first mentor, Rwag, through this tablet and encounter the Shattered Hand’s reach in Durotar."
+   "text": "As a rogue, you meet your first mentor, Rwag, through the tablet and encounter the Shattered Hand’s reach in Durotar."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you come from a culture that honors open battlefield combat, while orc rogues serve the modern Horde as scouts and infiltrators."
+   "text": "As an orc, you come from a culture that honors open battlefield combat. Orc rogues serve the modern Horde as scouts and infiltrators."
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you bring jungle tracking instincts to the bladecraft taught by mentors in the Den, establishing your quiet utility among your orc allies."
+   "text": "As a troll, you bring jungle tracking instincts to the bladecraft taught by mentors in the Den. This gives you quiet utility among your orc allies."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Encrypted Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

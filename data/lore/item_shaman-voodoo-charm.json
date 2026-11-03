@@ -10,16 +10,16 @@
    "quest:2541"
   ]
  },
- "summary": "In Ban'ethil Barrow Den, Gnarlpine shamans wield the Shaman Voodoo Charm. Its vile magic can sever a sleeping druid's spirit from the body.",
+ "summary": "In Ban'ethil Barrow Den, Gnarlpine shamans wield the Shaman Voodoo Charm. Its magic can sever a sleeping druid's spirit from the body.",
  "sections": [
   {
    "title": "A Perverted Magic",
-   "body": "The Gnarlpine tribe has fallen into madness and corruption on Teldrassil. Within Ban'ethil Barrow Den, its shamans wield magic beyond ordinary wilderness sorcery. Their voodoo charms let them tear a sleeping druid's consciousness from the mortal realm and trap it in the Emerald Dream. The furbolgs then animate the empty body. Night elf protectors become mindless guardians, killing anyone who enters the barrows.",
+   "body": "On Teldrassil, the Gnarlpine tribe has fallen into madness and corruption. In Ban'ethil Barrow Den, its shamans wield magic beyond ordinary wilderness sorcery. Their charms tear a sleeping druid's consciousness from the mortal realm and trap it in the Emerald Dream. The furbolgs then animate the empty body. Night elf protectors become mindless guardians who kill anyone entering the barrows.",
    "spoiler": 0
   },
   {
    "title": "Unraveling the Curse",
-   "body": "Oben Rageclaw fell victim to the ritual. His spirit is trapped in the Emerald Dream while his animated body terrorizes the deep barrows. Reaching through the veil, Oben asked adventurers to slay the Gnarlpine shamans and bring back one of their charms. He hoped to study its vile enchantment, understand the furbolgs' twisted craft, and find a way to free his stolen flesh.",
+   "body": "Oben Rageclaw fell victim to the ritual. His spirit remains trapped in the Emerald Dream while his animated body terrorizes the deep barrows. Reaching through the veil, Oben asked adventurers to slay the Gnarlpine shamans and bring back one of their charms. He hoped to study its vile enchantment, understand the furbolgs' twisted craft, and find a way to free his stolen flesh.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does the charm do",
     "shaman charm use"
    ],
-   "answer": "Gnarlpine shamans use the charm to sever a sleeping druid's spirit from the body and trap it in the Emerald Dream. The charm's magic animates the empty flesh to attack intruders."
+   "answer": "Gnarlpine shamans use the charm to sever a sleeping druid's spirit from the body and trap it in the Emerald Dream. Its magic animates the empty flesh to attack intruders."
   },
   {
    "q": "Who carries these charms?",
@@ -40,7 +40,7 @@
     "where to find shaman voodoo charm",
     "gnarlpine shaman charm"
    ],
-   "answer": "Gnarlpine shamans in the depths of Ban'ethil Barrow Den in Teldrassil carry these charms."
+   "answer": "Gnarlpine shamans carry these charms in the depths of Ban'ethil Barrow Den on Teldrassil."
   },
   {
    "q": "Why does Oben Rageclaw need one?",
@@ -57,7 +57,7 @@
     "why do furbolgs use voodoo",
     "furbolg voodoo lore"
    ],
-   "answer": "Corruption has driven the Gnarlpine shamans on Teldrassil to practice dark magic. Their charms carry a vile, unnatural aura, unlike traditional furbolg reverence for nature spirits and the elements."
+   "answer": "Corruption has driven the Gnarlpine shamans on Teldrassil to practice dark magic. Their charms carry a vile, unnatural aura, unlike the furbolgs' traditional reverence for nature spirits and the elements."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
   "Shaman Voodoo Charm",
   "The Sleeping Druid"
  ],
- "style": 1
+ "style": 2
 }

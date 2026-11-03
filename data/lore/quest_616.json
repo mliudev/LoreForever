@@ -24,16 +24,16 @@
    "Stone of the Tides"
   ]
  },
- "summary": "Krazek keeps his ears open for unusual rumors throughout Booty Bay on behalf of Baron Revilgaz. A tale shared by tavern sailors speaks of a haunted island off the coast, inhabited by water elementals and the ghost of a raving goblin. Delivering this rumor to Revilgaz piques the baron's interest in an ancient troll legend.",
+ "summary": "In Booty Bay, Krazek hears a tale of an isle haunted by a goblin ghost. He gathers unusual rumors for Baron Revilgaz, and this one recalls an old troll legend.",
  "sections": [
   {
    "title": "Tavern Tales in Booty Bay",
-   "body": "In the bustling port of Booty Bay, Krazek gathers word of anything unusual happening throughout Stranglethorn Vale at the request of Baron Revilgaz. While Krazek normally pays little heed to spectral gossip, stories told by sailors drinking in the local tavern caught his attention. They speak of an offshore isle occupied by water elementals and haunted by a raving goblin ghost, so he asks you to relay the story to the baron.",
+   "body": "Krazek gathers reports of strange happenings throughout Stranglethorn Vale for Baron Revilgaz. In a Booty Bay tavern, sailors tell him of an isle off the coast where water elementals dwell. They say the ghost of a raving goblin haunts it. Krazek gives little heed to spectral gossip, but this tale catches his attention. He asks you to carry it to the baron.",
    "spoiler": 0
   },
   {
    "title": "A Troll Legend",
-   "body": "Upon hearing Krazek's report of the haunted isle, Baron Revilgaz recalls an old troll legend he once read about in a book. The presence of water elementals and the goblin apparition leads the baron to suspect that an ancient relic, the Stone of the Tides, might finally be within his grasp to add to his personal collection of artifacts.",
+   "body": "Baron Revilgaz remembers an old troll legend from a book when he hears Krazek's report. The water elementals and goblin apparition make him suspect that the Stone of the Tides may be within his grasp. He hopes to add the ancient relic to his personal collection of artifacts.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "haunted isle quest giver",
     "krazek rumor"
    ],
-   "answer": "Krazek asks you to deliver the rumor to Baron Revilgaz after overhearing an unsettling tale from local sailors in the Booty Bay tavern."
+   "answer": "Krazek asks you to carry the rumor to Baron Revilgaz after hearing sailors tell an unsettling tale in a Booty Bay tavern."
   },
   {
    "q": "What rumors did the sailors share?",
@@ -54,7 +54,7 @@
     "haunted island rumor",
     "sailor stories"
    ],
-   "answer": "The sailors reported an island off the coast that is overrun with water elementals and haunted by the ghost of a raving goblin."
+   "answer": "The sailors tell of an isle off the coast where water elementals dwell and the ghost of a raving goblin haunts it."
   },
   {
    "q": "Why does Baron Revilgaz care about a ghost story?",
@@ -63,7 +63,7 @@
     "revilgaz reaction",
     "stone of the tides interest"
    ],
-   "answer": "The baron remembers a troll legend recorded in an old book. The bizarre accounts from the island suggest that an ancient relic called the Stone of the Tides might actually be located there."
+   "answer": "Baron Revilgaz remembers an old troll legend from a book. The reports suggest that the ancient Stone of the Tides may be on the isle."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -72,7 +72,7 @@
     "haunted isle follow up",
     "next step after haunted isle"
    ],
-   "answer": "Baron Revilgaz directs your attention toward the ancient relic itself, continuing the pursuit in the next step, The Stone of the Tides."
+   "answer": "Baron Revilgaz points you toward the Stone of the Tides, carrying the pursuit forward."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "The Haunted Isle"
- ]
+ ],
+ "style": 2
 }

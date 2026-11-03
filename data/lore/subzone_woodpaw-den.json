@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Woodpaw Den"
  },
- "summary": "Woodpaw Den is a rugged gnoll stronghold nestled in southern Feralas, just north of the ancient Darkmist Ruins. The settlement serves as a major gathering point for the Woodpaw gnolls and their fiercest pack alphas, making it a dangerous pocket of wilderness within the dense canopy.",
+ "summary": "Woodpaw gnolls hold their den beneath Feralas’s dense canopy, just north of Darkmist Ruins. Their fiercest alphas guard the pack’s home, and travelers crossing the southern wilderness face their threat.",
  "sections": [
   {
    "title": "Heart of the Pack",
-   "body": "Situated amidst the towering boughs of Feralas, Woodpaw Den stands as the fortified heartland of the local Woodpaw gnolls. Unlike smaller scout camps scattered along the jungle tracks, this encampment is heavily guarded by the pack's seasoned Alphas. The gnolls here defend their territory fiercely against both intruding adventurers and the encroaching wilderness. Located just north of the elven remnants at Darkmist Ruins, the den represents an ever-present predatory threat to travelers attempting to traverse the central wilderness of the region.",
+   "body": "Woodpaw Den is held by the seasoned alphas of the local gnoll pack. Unlike the smaller scout camps along the jungle tracks, this encampment is defended in force. The gnolls fight to keep their territory from intruders and the encroaching wilderness. Just north of the elven remnants at Darkmist Ruins, the den threatens travelers crossing this part of Feralas.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "gnoll camp feralas",
     "where is woodpaw den"
    ],
-   "answer": "Woodpaw Den is a prominent settlement and encampment of the Woodpaw gnolls in southern Feralas, situated just north of the Darkmist Ruins. It is heavily inhabited by the pack's dangerous Alphas."
+   "answer": "Woodpaw Den houses Woodpaw gnolls in southern Feralas, just north of Darkmist Ruins. The pack’s dangerous alphas live there."
   },
   {
    "q": "What creatures live here?",
@@ -32,7 +32,7 @@
     "woodpaw den mobs",
     "what enemies are in woodpaw den"
    ],
-   "answer": "The den is populated primarily by the Woodpaw clan of gnolls, particularly the formidable Woodpaw Alphas who lead and protect the pack from outsiders."
+   "answer": "Woodpaw gnolls live at the den. Their formidable alphas lead and defend the pack against outsiders."
   },
   {
    "q": "What landmarks are nearby?",
@@ -40,17 +40,17 @@
     "landmarks near woodpaw den",
     "what is next to woodpaw den"
    ],
-   "answer": "Immediately to the south lie the ancient Night Elven ruins known as Darkmist Ruins. The encampment itself is bordered by the dense rainforests characteristic of central Feralas."
+   "answer": "Darkmist Ruins lie just south of the encampment. Dense rainforests border the den."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei based out of Feathermoon Stronghold, the feral expansion of gnoll packs near ancient ancestral sites like Darkmist Ruins is a constant nuisance requiring watchful containment."
+   "text": "As a Kaldorei at Feathermoon Stronghold, you face expanding gnoll packs near ancestral sites like Darkmist Ruins. They call for watchful containment."
   },
   {
    "target": "race:Tauren",
-   "text": "Camp Mojache huntsmen view the vicious Woodpaw clan as dangerous competitors for game and territory within the primeval woods of Feralas."
+   "text": "As a huntsman at Camp Mojache, you know the vicious Woodpaw clan competes for game and territory in Feralas’s primeval woods."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Woodpaw Den"
- ]
+ ],
+ "style": 2
 }

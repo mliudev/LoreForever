@@ -10,11 +10,11 @@
    "quest:1536"
   ]
  },
- "summary": "In Tarren Mill, a well gives clear spring water for a shaman’s trial. The Filled Red Waterskin carries water drawn from the village well, amid ruins held by the Forsaken.",
+ "summary": "In Tarren Mill, a well gives clear spring water for a shaman’s trial. The Filled Red Waterskin bears water drawn from the village well, amid ruins held by the Forsaken.",
  "sections": [
   {
    "title": "A Beacon in Blighted Lands",
-   "body": "Brine, a hermit in the Barrens, sends shaman initiates to Tarren Mill for water training. The journey leads to the Hillsbrad Foothills, where decay and the dead surround the town. Yet the central well still draws clear spring water. Brine sees this pure water as a sign of endurance in an unhallowed land. She compares the uncorrupted spring with Warchief Thrall’s resolve through hardship. Gathering the water tests an initiate’s respect for its purity, even in hostile surroundings.",
+   "body": "Brine sends shaman initiates from her hermitage in the Barrens to Tarren Mill to train with water. The journey leads into the Hillsbrad Foothills, where decay and the dead surround the town. Yet the well at its heart still gives clear spring water.\n\nTo Brine, that pure water endures as a sign of life in an unhallowed land. She likens the spring, untouched by corruption, to Warchief Thrall’s resolve through hardship. Gathering the water tests whether an initiate honors its purity, even in hostile surroundings.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "tarren mill water",
     "red waterskin contents"
    ],
-   "answer": "The Filled Red Waterskin holds pure spring water drawn from the public well in the center of Tarren Mill."
+   "answer": "The Filled Red Waterskin holds pure spring water drawn from the public well at the center of Tarren Mill."
   },
   {
    "q": "Why does Brine want water from Tarren Mill?",
@@ -44,7 +44,7 @@
     "is tarren mill well poisoned",
     "holy well tarren mill"
    ],
-   "answer": "No one knows why the spring has remained untouched by the plague around it. Brine says the Forsaken in Tarren Mill may not recognize or value the purity of the holy spring among them."
+   "answer": "No one knows why the spring has stayed untouched by the plague around it. Brine says the Forsaken in Tarren Mill may not recognize or value the purity of the holy spring among them."
   },
   {
    "q": "How does Thrall relate to this quest?",
@@ -88,5 +88,5 @@
   "Filled Red Waterskin",
   "Call of Water (4)"
  ],
- "style": 1
+ "style": 2
 }

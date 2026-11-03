@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx (9)",
   "chain": []
  },
- "summary": "At the Tower of Althalaxx, the Cult of the Dark Strand's hold has been broken. Word of the victory travels south to Delgren the Purifier in Ashenvale, closing the campaign against the cult in Darkshore.",
+ "summary": "Beneath the tower's shadow, the Cult of the Dark Strand has been broken. Word of victory travels south to Delgren the Purifier in Ashenvale, closing the campaign against the cult in Darkshore.",
  "sections": [
   {
    "title": "A Threat Severed",
-   "body": "For weeks, the Tower of Althalaxx was a festering wound in northern Darkshore, held by the fanatical Cult of the Dark Strand and its shadowy masters. Tracking, gathered intelligence, and violent skirmishes dismantled the cult's operations. Its sorcerers are slain and its dark rituals broken, ending the immediate danger of demonic infiltration in Darkshore.",
+   "body": "For weeks, the Cult of the Dark Strand held the Tower of Althalaxx in northern Darkshore. Tracking its movements, gathering intelligence, and meeting it in violent skirmishes dismantled its work. The cult's sorcerers are slain, and its dark rituals are broken. The immediate danger of demonic infiltration in Darkshore has ended.",
    "spoiler": 0
   },
   {
    "title": "Report to Maestra's Post",
-   "body": "After the cult leader's death, Balthule Shadowstrike sends you south to Maestra's Post, beneath the Ashenvale canopy. Delgren the Purifier waits there, a devoted warrior of the Holy Light who oversaw the fight against Althalaxx's wicked occupants. Your report of the cult's collapse brings peace of mind to the regional defenders, and Delgren gives you his lasting blessing and gratitude.",
+   "body": "After the cult leader's death, Balthule Shadowstrike sends you south to Maestra's Post beneath the Ashenvale canopy. Delgren the Purifier waits there. A devoted warrior of the Holy Light, he oversaw the fight against the tower's wicked occupants. Your report of the cult's collapse eases the regional defenders' minds. Delgren gives you his lasting blessing and gratitude.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "turn in tower of althalaxx",
     "where to turn in quest 981"
    ],
-   "answer": "You travel from the Tower of Althalaxx's vicinity to Maestra's Post in Ashenvale and report your victory to Delgren the Purifier. This is the final report in the long campaign against the tower's cult."
+   "answer": "You travel from near the Tower of Althalaxx to Maestra's Post in Ashenvale and report your victory to Delgren the Purifier. Your report closes the long campaign against the tower's cult."
   },
   {
    "q": "Who is Delgren the Purifier?",
@@ -83,17 +83,17 @@
     "dark strand destroyed",
     "did we kill the cult"
    ],
-   "answer": "The cult's leadership at the Tower of Althalaxx has been executed and its primary ritual broken, but scattered cultists and remnants still haunt isolated corners of Kalimdor. Its organized threat in Darkshore has been shattered."
+   "answer": "The cult's leadership at the Tower of Althalaxx has been executed, and its primary ritual is broken. Scattered cultists and remnants still haunt isolated corners of Kalimdor, but the cult's organized threat in Darkshore has been shattered."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Reporting to Delgren the Purifier carries special meaning for you as a paladin, since you share his holy mission to cleanse the world of demonic corruption and wicked cults."
+   "text": "As a paladin, reporting to Delgren the Purifier carries special meaning. You share his holy mission to cleanse the world of demonic corruption and wicked cults."
   },
   {
    "target": "faction:Alliance",
-   "text": "The cult's defeat protects the overland road connecting Darkshore and Ashenvale, keeping Alliance scouts and travelers safe from demonic ambushes."
+   "text": "The cult's defeat protects the overland road between Darkshore and Ashenvale. Alliance scouts and travelers can pass without fear of demonic ambushes."
   },
   {
    "target": "race:NightElf",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Tower of Althalaxx (9)"
  ],
- "style": 1
+ "style": 2
 }

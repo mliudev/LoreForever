@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Southmoon Ruins"
  },
- "summary": "The Southmoon Ruins are ancient stone remains situated in southern Tanaris, just north of the Valley of the Watchers. Long claimed by the brutish Dunemaul ogres, the crumbling stonework preserves remnants of the ancient troll civilization that dominated the desert before the sands swallowed it.",
+ "summary": "Dunemaul ogres camp among the Southmoon Ruins in southern Tanaris, north of the Valley of the Watchers. Their stones preserve the remains of an ancient troll civilization that once ruled the desert.",
  "sections": [
   {
    "title": "Stones in the Shifting Sands",
-   "body": "Rising out of the blistering wastes of southern Tanaris, the Southmoon Ruins stand as a weathered testament to the ancient troll empires that once ruled Kalimdor's southern reaches. Like nearby Eastmoon and Noonshade, its stone pillars and altars have weathered thousands of years of wind and abrasive grit. The site has often served as a squalid camp for the Dunemaul ogres, who show little reverence for the craftsmanship of the past, using the ancient structures purely for shelter and territory.",
+   "body": "Weathered pillars and altars rise from the sands at Southmoon in southern Tanaris. Nearby Eastmoon and Noonshade share their age, their stones worn by thousands of years of wind and grit. Dunemaul ogres have often camped among these old structures. They claim the stones for shelter and territory, with little regard for the craft that shaped them.",
    "spoiler": 0
   },
   {
    "title": "Secrets Beneath the Rubble",
-   "body": "The architectural remnants are unmistakably trollish, but little is recorded of the people who raised Southmoon's stones or why they abandoned them. Whatever they left behind lies buried beneath the drifting sand, and the ogres who squat among the pillars care nothing for it.",
+   "body": "Southmoon’s stones are unmistakably trollish, though little is recorded of who raised them or why they left. Whatever remains lies beneath the drifting sand. The Dunemaul ogres camp among the pillars without concern for it.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "southmoon history",
     "are these troll ruins"
    ],
-   "answer": "The Southmoon Ruins are ancient troll ruins, weathered remnants of the troll civilization that once held the southern reaches of what is now the Tanaris desert."
+   "answer": "The Southmoon Ruins preserve remnants of the ancient troll civilization that once held the southern reaches of what is now the Tanaris desert."
   },
   {
    "q": "Who inhabits the ruins currently?",
@@ -37,7 +37,7 @@
     "southmoon mobs",
     "dunemaul at southmoon"
    ],
-   "answer": "The ruins have traditionally been occupied by the Dunemaul ogres, who wandered down into Tanaris and claimed various crumbling ancient outposts as their encampments, driving off other scavengers."
+   "answer": "Dunemaul ogres traditionally inhabit the ruins. They wandered into Tanaris, claimed crumbling ancient outposts as camps, and drove off other scavengers."
   },
   {
    "q": "Where are the Southmoon Ruins located?",
@@ -46,17 +46,17 @@
     "where is southmoon ruins",
     "how to find southmoon"
    ],
-   "answer": "They lie in the southern half of Tanaris, situated northwest of the Valley of the Watchers and south of the central desert wastes."
+   "answer": "The Southmoon Ruins lie in southern Tanaris, northwest of the Valley of the Watchers and south of the central desert wastes."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarven travelers crossing southern Tanaris find little at Southmoon beyond weathered troll stonework and the Dunemaul ogres camped among it."
+   "text": "As a dwarf crossing southern Tanaris, you find weathered troll stonework at Southmoon, with Dunemaul ogres camped among it."
   },
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, these broken columns are a sobering look at the fallen grandeur of their distant troll cousins, reduced to squalor beneath the desert sun."
+   "text": "As a Darkspear troll, you see the fallen grandeur of distant troll cousins in these broken columns, now reduced to squalor beneath the desert sun."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Southmoon Ruins"
- ]
+ ],
+ "style": 2
 }

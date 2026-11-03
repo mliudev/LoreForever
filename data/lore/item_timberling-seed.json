@@ -11,16 +11,16 @@
    "quest:922"
   ]
  },
- "summary": "Across Teldrassil, Timberling Seeds are gathered from plant spirits that have grown hostile. Naturalists and druids study them to learn why the forest's plant life has turned aggressive.",
+ "summary": "Across Teldrassil, Timberling Seed is gathered from plant spirits grown hostile. Naturalists and druids study the seeds to learn why the forest's plants have turned aggressive.",
  "sections": [
   {
    "title": "Seeds of a Restless Forest",
-   "body": "Timberlings are nature elementals of Teldrassil, and their temper reflects the World Tree's balance. Lately they have grown hostile and angry, troubling the night elves who tend the boughs. Herbalists such as Denalan at Lake Al'Ameth suspect trouble in the soil. They gather seeds from wild timberlings, hoping that purified, carefully tended soil might let docile offspring sprout.",
+   "body": "Timberlings are nature elementals of Teldrassil, and their temper reflects the World Tree's balance. Lately they have grown angry and hostile, troubling the night elves who tend the boughs. Herbalists such as Denalan at Lake Al'Ameth suspect trouble in the soil. They gather seeds from wild timberlings, hoping purified, carefully tended soil might let docile offspring sprout.",
    "spoiler": 0
   },
   {
    "title": "A Rooted Corruption",
-   "body": "Seeds from wild timberlings carry the taint of their corrupted parents. Cenarion scholars such as Rellian Greenspyre in Darnassus find that the trouble runs deeper than poor growth. Corruption has taken hold among Teldrassil's plant spirits and throughout the great tree's ecosystem.",
+   "body": "Seeds from wild timberlings carry the taint of their corrupted parents. Cenarion scholars such as Rellian Greenspyre in Darnassus find the trouble runs deeper than poor growth. Corruption has taken hold among Teldrassil's plant spirits and throughout the great tree's ecosystem.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "why collect seeds",
     "denalan's plan"
    ],
-   "answer": "Denalan suspects poor soil is driving the timberlings to rage. He hopes specially prepared soil will let wild seeds sprout into docile, uncorrupted timberlings."
+   "answer": "Denalan suspects poor soil is driving timberlings to rage. He hopes specially prepared soil will let wild seeds sprout into docile, uncorrupted timberlings."
   },
   {
    "q": "What does Rellian Greenspyre discover about the seeds?",
@@ -59,7 +59,7 @@
     "what did rellian find",
     "are seeds tainted"
    ],
-   "answer": "Rellian finds that the seeds carry the taint of their corrupted parents. The corruption is beyond his ability to mend, leaving hope with Denalan's horticultural experiments."
+   "answer": "Rellian finds the seeds carry the taint of their corrupted parents. The corruption is beyond his ability to mend, leaving hope with Denalan's horticultural experiments."
   }
  ],
  "angles": [
@@ -96,5 +96,5 @@
   "Timberling Seeds (Classic)",
   "Rellian Greenspyre (Classic)"
  ],
- "style": 1
+ "style": 2
 }

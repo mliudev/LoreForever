@@ -24,11 +24,11 @@
    "City of Dalaran quests"
   ]
  },
- "summary": "In Tarren Mill, Magus Wordeen Voidglare turns his attention to Dalaran's outskirts. Beyond the city's great dome, ruined streets may hold treasures of magical worth, but wizards and their elemental slaves patrol them. Voidglare wants the patrols thinned.",
+ "summary": "In Tarren Mill, Magus Wordeen Voidglare turns his gaze toward Dalaran’s outskirts. Beyond the great dome, ruined streets may hold treasures of magical worth, but wizards and their elemental slaves patrol them. Voidglare wants those patrols thinned.",
  "sections": [
   {
    "title": "Treasures in the Ruins",
-   "body": "After Prison Break In, Voidglare turns his attention to the wizards of Dalaran. They raised a great dome of magic over their city's heart. Some say it protects them from the violence of the age; others say they sought solitude to study and plot. Voidglare cares nothing for their reason. Beyond the dome, the ruined outskirts may hold treasures of real magical worth, but wizards and their elemental slaves patrol the area. You are sent to hunt six Dalaran Summoners and twelve Elemental Slaves, then return to Voidglare in Tarren Mill.",
+   "body": "After Prison Break In, Voidglare turns his attention to Dalaran’s wizards. They raised a great dome of magic over the heart of their city. Some say it shields them from the violence of the age. Others say they sought solitude to study and plot. Voidglare cares nothing for their reason.\n\nBeyond the dome, the ruined outskirts may hold treasures of real magical worth. Yet wizards and their elemental slaves patrol those streets. You are sent to hunt six Dalaran Summoners and twelve Elemental Slaves, then return to Voidglare in Tarren Mill.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "magus voidglare goal",
     "dalaran patrols motive"
    ],
-   "answer": "Voidglare believes the ruined outskirts beyond Dalaran's dome may hold treasures of real magical worth, but wizards and their elemental slaves patrol the area."
+   "answer": "Voidglare believes the ruined outskirts beyond Dalaran’s dome may hold treasures of real magical worth. Wizards and their elemental slaves patrol the area."
   },
   {
    "q": "What is the magical dome around Dalaran?",
@@ -49,7 +49,7 @@
     "why is dalaran in a bubble",
     "dalaran shield"
    ],
-   "answer": "The wizards of Dalaran raised a great dome of magic over their city's heart. Some say it shields them from the violence of the age; others say they sought solitude to study and plot."
+   "answer": "The wizards of Dalaran raised a great dome of magic over their city’s heart. Some say it shields them from the violence of the age. Others say they sought solitude to study and plot."
   },
   {
    "q": "What patrols the outskirts of Dalaran?",
@@ -66,7 +66,7 @@
     "previous quest",
     "what comes before dalaran patrols"
    ],
-   "answer": "Prison Break In came before this, and it also came from Voidglare in Tarren Mill."
+   "answer": "Prison Break In came before this, and Voidglare gave it to you in Tarren Mill."
   }
  ],
  "angles": [],
@@ -88,5 +88,5 @@
  "attribution": [
   "Dalaran Patrols"
  ],
- "style": 1
+ "style": 2
 }

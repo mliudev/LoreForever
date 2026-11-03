@@ -29,16 +29,16 @@
   ],
   "category": "Badlands"
  },
- "summary": "Prospector Ironband has not heard from Prospector Agmond in weeks. Agmond was in charge of the excavation sites in the Badlands, and Ironband wants Agmond found so the report can be collected.",
+ "summary": "Weeks have passed without word from Prospector Agmond at the Badlands digs. Prospector Ironband now needs you to find Agmond and bring back his report.",
  "sections": [
   {
    "title": "A Silent Prospector",
-   "body": "Agmond ran the excavations in the Badlands, to the southwest. Ironband says \"ran\" on purpose, for there has been no word from Agmond in weeks. Ironband wants Agmond found, and the report with him. Agmond was last heard of at the farthest-south dig of the Badlands, a small outfit beyond Angor Fortress, and that is where the search should begin.",
+   "body": "Prospector Agmond oversaw the Badlands excavations southwest of Ironband. Ironband calls him a prospector no longer, for weeks have passed without word. He needs you to find Agmond and recover the report. Agmond was last heard from at the southernmost dig, a small outfit beyond Angor Fortress. Begin there.",
    "spoiler": 0
   },
   {
    "title": "Where the Trail Ends",
-   "body": "At the end of the search you find a skeleton, which must be what is left of Agmond. The body is broken and battered, and the bones have been picked clean.",
+   "body": "At the end of your search, you find a skeleton that must be what remains of Agmond. The body is broken and battered, and the bones have been picked clean.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "who agmond",
     "agmond lore"
    ],
-   "answer": "Agmond ran the excavations in the Badlands, southwest of Prospector Ironband."
+   "answer": "Prospector Agmond oversaw the excavations in the Badlands, southwest of Prospector Ironband."
   },
   {
    "q": "Why is Prospector Ironband looking for Agmond?",
@@ -58,7 +58,7 @@
     "why find agmond",
     "ironband looking for agmond"
    ],
-   "answer": "Ironband has not heard from Agmond in weeks and wants to get Agmond's report."
+   "answer": "Prospector Ironband has heard nothing from Agmond in weeks and needs his report."
   },
   {
    "q": "Where was Prospector Agmond last known to be?",
@@ -67,7 +67,7 @@
     "where is agmond dig site",
     "where was agmond"
    ],
-   "answer": "At the farthest-south dig of the Badlands, a small outfit beyond Angor Fortress."
+   "answer": "Agmond was last heard from at the southernmost Badlands dig, a small outfit beyond Angor Fortress."
   },
   {
    "q": "What comes before this in the chain?",
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Find Agmond"
- ]
+ ],
+ "style": 2
 }

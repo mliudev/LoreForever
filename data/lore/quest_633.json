@@ -22,16 +22,16 @@
    "Plea To The Alliance"
   ]
  },
- "summary": "On the Thandol Span, a murder exposes a threat to Ironforge's northern road. Ebenezer Rustlocke has been killed, and Rhag Garmason finds that Kam Deepfury has hidden explosives to cut that route.",
+ "summary": "On the Thandol Span, a murder puts Ironforge’s northern road at risk. Ebenezer Rustlocke is dead, and Rhag Garmason has found explosives hidden by Kam Deepfury.",
  "sections": [
   {
    "title": "A Plot Revealed",
-   "body": "A recovered document reveals what happened beneath the Thandol Span. Ebenezer Rustlocke was murdered in its substructure, and the papers expose a further act of sabotage. Kam Deepfury, the Dark Iron agitator who first destroyed part of the bridge, has not stopped. His network planted a second cache of heavy munitions just across the northern border in the Arathi Highlands, ready to finish the destruction.",
+   "body": "A recovered document lays bare the crime beneath the Thandol Span. Ebenezer Rustlocke was murdered in the bridge’s substructure. The papers reveal more: Kam Deepfury, the Dark Iron agitator who first destroyed part of the bridge, has not stopped. His network planted another cache of heavy munitions just across the northern border in the Arathi Highlands, ready to finish the destruction.",
    "spoiler": 0
   },
   {
    "title": "Saving the Lifeline",
-   "body": "The Span links the southern kingdoms of Khaz Modan and Stormwind to the north's war-torn lands. Rhag Garmason orders an immediate strike against the sabotage cache in Arathi, before Deepfury's conspirators can use it. Destroying the munitions ends the immediate danger and preserves Ironforge's access to the north. Garmason still has too few troops to defend the gap.",
+   "body": "The Span links Khaz Modan and Stormwind to the war-torn lands in the north. Rhag Garmason orders an immediate strike against the sabotage cache in Arathi, before Deepfury’s conspirators can use it. Destroying the munitions ends the immediate danger and keeps Ironforge’s road north open. Yet Garmason still has too few troops to defend the gap.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who bombed thandol span",
     "thandol span mastermind"
    ],
-   "answer": "Kam Deepfury is the Dark Iron dwarf mastermind behind the sabotage of the Thandol Span. After collapsing the first arch, he cached more explosives across the chasm in the Arathi Highlands to destroy the remaining bridge."
+   "answer": "Kam Deepfury is the Dark Iron dwarf mastermind behind the Thandol Span sabotage. After collapsing the first arch, he hid more explosives across the chasm in the Arathi Highlands to destroy the rest of the bridge."
   },
   {
    "q": "Why is the Thandol Span so strategically vital?",
@@ -59,7 +59,7 @@
     "ebon rustlocke death",
     "who was rustlocke"
    ],
-   "answer": "Ebenezer Rustlocke was an Ironforge defender murdered beneath the bridge. His investigation and recovered papers led Rhag Garmason to uncover Deepfury's hidden explosive cache."
+   "answer": "Ebenezer Rustlocke was an Ironforge defender murdered beneath the bridge. His investigation and recovered papers led Rhag Garmason to uncover Deepfury’s hidden explosive cache."
   },
   {
    "q": "Where is the cache of explosives hidden?",
@@ -68,7 +68,7 @@
     "where are the explosives",
     "cache location"
    ],
-   "answer": "The explosives were hidden in a cache just across the Span, on the Arathi Highlands side. Deepfury's conspirators could quickly carry them to the surviving span structure."
+   "answer": "The explosives were hidden just across the Span, on the Arathi Highlands side. Deepfury’s conspirators could carry them quickly to the surviving bridge structure."
   },
   {
    "q": "Who gives the order to destroy the explosives?",
@@ -76,7 +76,7 @@
     "who starts this quest",
     "rhag garmason"
    ],
-   "answer": "Rhag Garmason, a dwarf officer stationed on the Wetlands side of the Thandol Span, orders the cache found and demolished to honor Rustlocke's sacrifice and protect the remaining bridge."
+   "answer": "Rhag Garmason, a dwarf officer stationed on the Wetlands side of the Thandol Span, orders the cache found and demolished. He means to honor Rustlocke’s sacrifice and protect the remaining bridge."
   },
   {
    "q": "What happens after the munitions are destroyed?",
@@ -84,21 +84,21 @@
     "what next after thandol span",
     "plea to the alliance quest"
    ],
-   "answer": "After the munitions are destroyed, the immediate sabotage threat is over, but Rhag Garmason knows his garrison cannot hold the damaged bridge indefinitely without help. While waiting for Ironforge's reserves, he sends a plea for reinforcements to Captain Nials at the Alliance camp in Refuge Pointe, in the Arathi Highlands."
+   "answer": "With the munitions destroyed, the immediate sabotage threat is over. Rhag Garmason knows his garrison cannot hold the damaged bridge indefinitely without help. While he waits for Ironforge’s reserves, he sends a plea for reinforcements to Captain Nials at the Alliance camp in Refuge Pointe, in the Arathi Highlands."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For the sons of Ironforge, defending the Thandol Span protects King Magni's lifeline to northern allies and strikes a blow against traitorous Dark Iron infiltrators."
+   "text": "For the sons of Ironforge, defending the Thandol Span protects King Magni’s lifeline to northern allies. It also strikes a blow against Dark Iron infiltrators who have betrayed their kin."
   },
   {
    "target": "faction:Alliance",
-   "text": "Holding the Span is essential for the safety of the continent. If the crossing falls, moving Alliance armies and resources into Arathi and Lordaeron becomes exponentially more dangerous."
+   "text": "Holding the Span is vital to the continent’s safety. If the crossing falls, moving Alliance armies and supplies into Arathi and Lordaeron becomes far more dangerous."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can appreciate the destructive power of Deepfury's munitions cache, built to demolish colossal titan-style dwarven stonework."
+   "text": "As an engineer, you can see the destructive power of Deepfury’s munitions cache. It was built to demolish colossal dwarven stonework made in the style of the titans."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "The Thandol Span (3)"
  ],
- "style": 1
+ "style": 2
 }

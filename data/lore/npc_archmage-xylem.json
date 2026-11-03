@@ -8,16 +8,16 @@
   "wiki": "Archmage Xylem",
   "refs": 4
  },
- "summary": "Archmage Xylem is an eccentric and reclusive human wizard dwelling in an isolated tower atop the cliffs of northern Azshara. Known for his volatile temperament and dangerous experiments, he has withdrawn from worldly affairs to pursue esoteric arcane research. Reaching him requires magical teleportation, and he only entertains adventurers who can assist in his peculiar studies or aid his personal vendettas.",
+ "summary": "In northern Azshara, Archmage Xylem keeps apart from the world. He pursues arcane research in an isolated tower and receives only those who can aid his studies or settle his vendettas.",
  "sections": [
   {
    "title": "A Recluse Above the Coast",
-   "body": "Perched high upon the jagged cliffs of northern Azshara, Archmage Xylem makes his home in a secluded spire overlooking the ruined elven coastline. Rather than building a road or trail, the wizard isolated his sanctuary entirely, relying on his servant Sanath Lim-yo to magically transport approved visitors up the cliff face. Observers across Kalimdor consider him profoundly eccentric and perilous to deal with; even fellow scholars treat him with deep caution, noting that he behaves unlike almost any other human mage.",
+   "body": "Archmage Xylem lives in a secluded spire above northern Azshara's ruined elven coast. No road or trail reaches his sanctuary. His servant Sanath Lim-yo magically carries approved visitors up the cliffs.\n\nAcross Kalimdor, people know Xylem as profoundly eccentric and dangerous to approach. Even fellow scholars treat him with caution. He behaves unlike almost any other human mage.",
    "spoiler": 0
   },
   {
    "title": "A Grudge Against Morphaz",
-   "body": "Xylem's seclusion is not entirely peaceful; he harbors an intense grudge against the green dragonflight, specifically a drake named Morphaz. In the past, the beast devoured one of Xylem's unfortunate apprentices whole\u2014swallowing an arcane shard of immense power along with the student. Rather than mourning the apprentice, the vengeful archmage remains fixated on hunting down Morphaz to extract the prized artifact from the dragon's belly.",
+   "body": "Archmage Xylem holds a fierce grudge against the green dragonflight, especially the drake Morphaz. The dragon once swallowed one of Xylem's apprentices whole, along with an arcane shard of immense power.\n\nXylem does not mourn the apprentice. He remains intent on hunting Morphaz and taking the prized artifact from the dragon's belly.",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "teleport to xylem",
     "xylem location"
    ],
-   "answer": "Archmage Xylem's tower is set atop an inaccessible cliff in northern Azshara with no walkable path leading up. To reach him, you must locate his servant, Sanath Lim-yo, who stands near the base of the cliffs and can magically teleport travelers up to the tower grounds."
+   "answer": "No walkable path reaches Archmage Xylem's tower atop a cliff in northern Azshara. Find his servant, Sanath Lim-yo, near the cliffs' base. He can magically carry you to the tower grounds."
   },
   {
    "q": "Who is Archmage Xylem?",
@@ -39,7 +39,7 @@
     "archmage xylem lore",
     "xylem background"
    ],
-   "answer": "He is an eccentric human archmage who lives in an isolated clifftop tower in northern Azshara, conducting dangerous arcane experiments away from civilization."
+   "answer": "In northern Azshara, Archmage Xylem lives in an isolated tower and conducts dangerous arcane experiments away from civilization. The eccentric human archmage keeps apart from the world."
   },
   {
    "q": "Why does Xylem want the dragon Morphaz dead?",
@@ -48,7 +48,7 @@
     "why kill morphaz",
     "morphaz shard"
    ],
-   "answer": "The green drake Morphaz attacked Xylem's followers and swallowed one of his apprentices whole. The apprentice was carrying a shard of vast arcane power, and Xylem seeks the drake's demise so the relic can be recovered from its stomach."
+   "answer": "Morphaz swallowed one of Archmage Xylem's apprentices whole, along with a shard of immense arcane power. Xylem wants the green drake dead so he can recover the relic from its stomach."
   },
   {
    "q": "Why do people say Xylem is dangerous?",
@@ -57,7 +57,7 @@
     "xylem crazy",
     "xylem personality"
    ],
-   "answer": "Local contacts like Jediga warn travelers that Xylem is unpredictable, detached, and distinctly odd compared to other humans."
+   "answer": "Jediga and other local contacts warn that Archmage Xylem is unpredictable, detached, and distinctly odd compared with other humans."
   },
   {
    "q": "Does Xylem belong to the Alliance or the Kirin Tor?",
@@ -66,21 +66,21 @@
     "is xylem alliance",
     "xylem kirin tor"
    ],
-   "answer": "Xylem operates as a thoroughly independent hermit. He does not actively serve the Alliance military and will readily deal with any adventurer willing to do his bidding, regardless of faction."
+   "answer": "Archmage Xylem lives as an independent hermit. He does not serve the Alliance military and will deal with any adventurer willing to do his bidding, whatever their faction."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For practitioners of the arcane, Xylem represents both supreme mastery and the unsettling consequence of total isolation in pursuit of magical power."
+   "text": "As a mage, you can see Xylem's supreme mastery of the arcane. His pursuit of magical power in total isolation brings its own unease."
   },
   {
    "target": "faction:Horde",
-   "text": "Though human, the reclusive wizard is surprisingly willing to parley with Horde champions who can help with his studies."
+   "text": "Though human, Xylem will parley with Horde champions who can help with his studies."
   },
   {
    "target": "race:Human",
-   "text": "Unlike the formal wizards of Dalaran or Stormwind, Xylem has entirely abandoned human society to live unbothered atop the wilds of Azshara."
+   "text": "As a human, you can see how Xylem has left human society behind. He lives undisturbed atop the wilds of Azshara."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Archmage Xylem"
- ]
+ ],
+ "style": 2
 }

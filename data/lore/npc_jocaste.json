@@ -8,11 +8,11 @@
   "wiki": "Jocaste",
   "refs": 1
  },
- "summary": "In Darnassus, Jocaste trains night elf hunters arriving from the wilds of Teldrassil.",
+ "summary": "In Darnassus, Jocaste teaches hunters who have come in from Teldrassil's wilds.",
  "sections": [
   {
    "title": "A Mentor in the Enclave",
-   "body": "Jocaste trains night elf hunters in Darnassus's Cenarion Enclave. Young trackers come to her after their first training in Shadowglen, ready to take up the hunt in the capital. She teaches marksmanship and survival in the wild, along with the bond between a hunter and the beasts of Kalimdor.",
+   "body": "Jocaste trains night elf hunters in the Cenarion Enclave of Darnassus. Young trackers arrive after their first lessons in Shadowglen, ready to hunt in the capital. She teaches marksmanship and survival in the wild, and the bond between a hunter and the beasts of Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is jocaste",
     "jocaste darnassus"
    ],
-   "answer": "Jocaste trains night elf hunters in the Cenarion Enclave of Darnassus."
+   "answer": "Jocaste trains night elf hunters in Darnassus's Cenarion Enclave."
   },
   {
    "q": "Where can I find Jocaste?",
@@ -33,7 +33,7 @@
     "where is jocaste",
     "jocaste spot"
    ],
-   "answer": "Find Jocaste in the Cenarion Enclave, in northwest Darnassus on the boughs of Teldrassil."
+   "answer": "Find Jocaste in the Cenarion Enclave, in northwest Darnassus on Teldrassil's boughs."
   },
   {
    "q": "What role does she play for young hunters?",
@@ -42,7 +42,7 @@
     "the hunter's path jocaste",
     "training the beast"
    ],
-   "answer": "Young hunters come to Jocaste in Darnassus to advance their discipline through The Hunter's Path and learn to train and master wild beasts."
+   "answer": "Young hunters come to Jocaste in Darnassus to advance their discipline through The Hunter's Path. She teaches them to train and master wild beasts."
   },
   {
    "q": "Is Jocaste affiliated with the Cenarion Circle?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a night elf hunter arriving in Darnassus, Jocaste can refine your combat skills and help strengthen your bond with your animal companion."
+   "text": "As a night elf hunter arriving in Darnassus, Jocaste can sharpen your combat skills and strengthen your bond with your animal companion."
   },
   {
    "target": "race:NightElf",
@@ -83,5 +83,5 @@
  "attribution": [
   "Jocaste"
  ],
- "style": 1
+ "style": 2
 }

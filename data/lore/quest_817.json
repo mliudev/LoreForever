@@ -17,16 +17,16 @@
   "wiki": "Practical Prey",
   "chain": []
  },
- "summary": "Vel'rin Fang needs hunters to bring tiger hides from the Echo Isles to Sen'jin Village. The Darkspear need the supplies as their numbers grow and their stores run low.",
+ "summary": "Vel'rin Fang calls for tiger hides from the Echo Isles to supply Sen'jin Village. The Darkspear's numbers grow, and their stores run low.",
  "sections": [
   {
    "title": "A Matter of Survival",
-   "body": "The Darkspear in Sen'jin Village have to make every resource last along Durotar's harsh coast. Tiger pelts can be made into tents, blankets and armor. As refugees arrive and scouts return, the village's stores have thinned, and leatherworker Vel'rin Fang has sent hunters out for more hides.",
+   "body": "Along Durotar's harsh coast, the Darkspear of Sen'jin Village make every resource last. Tiger pelts become tents, blankets and armor. Refugees arrive and scouts return, thinning the village stores. So leatherworker Vel'rin Fang sends hunters to bring back more hides.",
    "spoiler": 0
   },
   {
    "title": "Balance and the Hunt",
-   "body": "The Darkspear leave the tigers of Durotar largely undisturbed, hunting them only when the tribe needs more supplies. Hunters cross the water to the Echo Isles to track the predators. For the trolls, the hunt also tests patience, discipline and skill in the wild.",
+   "body": "The Darkspear hunt Durotar's tigers only when the tribe needs more supplies. Their hunters cross the water to the Echo Isles and track the predators there. For the trolls, each hunt also tests patience, discipline and skill in the wild.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives practical prey",
     "velrin fang"
    ],
-   "answer": "Vel'rin Fang is a Darkspear leatherworker in Sen'jin Village. He sends hunters to gather hides the tribe needs for clothing, shelter and gear."
+   "answer": "Vel'rin Fang is a Darkspear leatherworker in Sen'jin Village. He sends hunters for the hides the tribe needs to make clothing, shelter and gear."
   },
   {
    "q": "Why does Sen'jin Village need tiger furs?",
@@ -47,7 +47,7 @@
     "practical prey purpose",
     "what are furs used for"
    ],
-   "answer": "Sen'jin Village needs tiger pelts for tents, blankets and armor. The growing population has strained the village's stores."
+   "answer": "Sen'jin Village uses tiger pelts for tents, blankets and armor. As the population grows, the village stores have come under strain."
   },
   {
    "q": "Where are the Durotar tigers found?",
@@ -56,7 +56,7 @@
     "tiger location",
     "echo isles tigers"
    ],
-   "answer": "Durotar's tigers roam the Echo Isles, just off the southeastern coast of Durotar."
+   "answer": "Durotar's tigers roam the Echo Isles, just off the region's southeastern coast."
   },
   {
    "q": "Why don't the trolls hunt all the tigers nearby?",
@@ -64,7 +64,7 @@
     "why let tigers thrive",
     "culling the flock"
    ],
-   "answer": "The Darkspear leave the tigers alone until the tribe needs more supplies. They hunt only enough to meet those needs while allowing the predators to thrive."
+   "answer": "The Darkspear leave the tigers alone until they need more supplies. They take only what the tribe needs, allowing the predators to thrive."
   },
   {
    "q": "Is hunting tigers significant to Darkspear culture?",
@@ -72,7 +72,7 @@
     "tiger hunt tradition",
     "first tiger hunt"
    ],
-   "answer": "Yes. The Darkspear see tiger hunting as a test of patience and cunning. Vel'rin once waited nearly a day in the Echo Isles before claiming his first major hunting victory."
+   "answer": "Yes. The Darkspear see tiger hunting as a test of patience and cunning. Vel'rin once waited nearly a day in the Echo Isles before claiming his first great hunting victory."
   },
   {
    "q": "Why must hunters travel to the Echo Isles if Zalazane holds them?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, you hunt across the Echo Isles, a bitter reminder of the home Zalazane took from your people as you provide for the clan."
+   "text": "As a Darkspear troll, you hunt across the Echo Isles and provide for your clan. The islands remind you bitterly of the home Zalazane took from your people."
   },
   {
    "target": "class:Hunter",
@@ -118,5 +118,5 @@
  "attribution": [
   "Practical Prey"
  ],
- "style": 1
+ "style": 2
 }

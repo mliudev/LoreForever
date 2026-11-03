@@ -10,16 +10,16 @@
    "quest:299"
   ]
  },
- "summary": "At Whelgar's Excavation in the Wetlands, Ados Fragment lies among three lost pieces of the Goaz Stone. Together, the four shards make an ancient relic carved with Titan inscriptions.",
+ "summary": "At Whelgar's Excavation, Ados Fragment lies among three lost pieces of the Goaz Stone. The four shards together form an ancient relic carved with Titan inscriptions.",
  "sections": [
   {
    "title": "A Piece of the Goaz Stone",
-   "body": "The Ados Fragment is one of four pieces Prospector Whelgar needs to restore the Goaz Stone at Whelgar's Excavation. Before raptors overran the dig site, Whelgar began translating the main tablet and found its inscriptions broke off at crucial moments. The four pieces, named Ados, Modr, Golm, and Neru, were lost across the ruins in ancient containers and dirt mounds, among prowling beasts.",
+   "body": "Ados Fragment is one of four pieces Prospector Whelgar needs to restore the Goaz Stone at Whelgar's Excavation. Before raptors overran the dig site, Whelgar began translating the main tablet. Its inscriptions broke off at crucial moments. The four pieces are named Ados, Modr, Golm, and Neru. They were lost across the ruins in ancient containers and dirt mounds, among prowling beasts.",
    "spoiler": 0
   },
   {
    "title": "The Titan Script",
-   "body": "Prospector Whelgar can read the full Titan script carved into the Goaz Stone once he joins Ados Fragment with the other three pieces. The completed text speaks of a grand divine plan and a doomed prophecy, then declares, “Old Gods... Chained Beneath the Land.” It reveals that the Titans imprisoned primordial entities beneath Azeroth in ages past.",
+   "body": "Prospector Whelgar can read the full Titan script carved into the Goaz Stone once he joins Ados Fragment with the other three pieces. The completed text speaks of a grand divine plan and a doomed prophecy. Then it declares, “Old Gods... Chained Beneath the Land.” The words reveal that the Titans imprisoned primordial entities beneath Azeroth in ages past.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "ados location",
     "how to find ados"
    ],
-   "answer": "The fragment lies across Whelgar's Excavation, east of Menethil Harbor in the Wetlands. It is usually inside ancient relics or loose soil patches, with territorial raptors nearby."
+   "answer": "Ados Fragment lies across Whelgar's Excavation, east of Menethil Harbor in the Wetlands. It is usually inside ancient relics or loose soil patches, with territorial raptors nearby."
   },
   {
    "q": "What does the fragment say?",
@@ -91,5 +91,5 @@
   "Ados Fragment",
   "Uncovering the Past"
  ],
- "style": 1
+ "style": 2
 }

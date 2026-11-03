@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Silverwing Outpost"
  },
- "summary": "Silverwing Outpost guards the eastern bank of the Falfarren River in south-central Ashenvale. Duriel Moonfire commands the garrison, the Alliance's easternmost hold against the Horde in the contested woodland.",
+ "summary": "At Silverwing Outpost, Duriel Moonfire commands the Alliance’s easternmost hold against the Horde in contested Ashenvale. The garrison guards the eastern bank of the Falfarren River in the forest’s south-central reaches.",
  "sections": [
   {
    "title": "East of the Falfarren",
-   "body": "Silverwing Outpost lies southwest of Splintertree Post and just north of the Barrens border. Its place on the eastern bank of the Falfarren River puts it in territory the Horde contests and patrols. From here, the garrison shields night elf holdings deeper in the forest. Duriel Moonfire and her Silverwing Sentinels face constant attacks from nearby orcs seeking to drive night elf forces from the area.",
+   "body": "Southwest of Splintertree Post and just north of the Barrens border, Silverwing Outpost holds the eastern bank of the Falfarren River. The Horde contests and patrols this ground. From here, the garrison shields night elf holdings deeper in the forest. Duriel Moonfire and her Silverwing Sentinels face constant attacks from nearby orcs seeking to drive night elf forces away.",
    "spoiler": 0
   },
   {
    "title": "The Constant Front",
-   "body": "Fierce skirmishes rage around Silverwing Outpost. Orcish war parties from Splintertree Post, including raiders led by Torek, ambush the garrison at its walls. The Horde seeks to neutralize the outpost, secure the road, and expand its resource operations without Sentinel counterattacks.",
+   "body": "Fierce skirmishes rage around Silverwing Outpost. Orcish war parties from Splintertree Post ambush the garrison at its walls, among them raiders led by Torek. The Horde seeks to neutralize the outpost and secure the road. Then its forces could expand their resource operations without Sentinel counterattacks.",
    "spoiler": 1
   }
  ],
@@ -90,5 +90,5 @@
  "attribution": [
   "Silverwing Outpost"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "A Warden of the Horde",
   "chain": []
  },
- "summary": "In Orgrimmar, Children's Week ends with Grunth's return to Orphan Matron Battlewail. After seeing the world with his guardian, the young orphan hopes to become a hero himself.",
+ "summary": "In Orgrimmar, Grunth returns to Orphan Matron Battlewail as Children's Week ends. After seeing the world with you, the young orphan hopes to become a hero himself.",
  "sections": [
   {
    "title": "An Orphan's Farewell",
-   "body": "After the adventures of Children's Week, Grunth thanks you for showing him more than he ever dreamed he would see. He remembers his parents' advice to rise above hardship and hopes to become a hero like you. His final request is to return home and tell the matron about your time together.",
+   "body": "After your travels together, Grunth thanks you for showing him more than he ever dreamed he would see. He recalls his parents' advice to rise above hardship and hopes to become a hero like you. Now he asks to return home and tell the matron about your time together.",
    "spoiler": 0
   },
   {
    "title": "Home to the Valley of Honor",
-   "body": "You return Grunth to Orphan Matron Battlewail at the orphanage in the Valley of Honor. In the new Horde, caring for the young is a profound duty, since war has left countless children without parents. Battlewail praises your compassion as the true measure of a Horde hero. Grunth parts with a beloved pet so you will remember the bond formed during your travels.",
+   "body": "You bring Grunth back to Orphan Matron Battlewail at the orphanage in the Valley of Honor. In the new Horde, caring for the young is a solemn duty, for war has left countless children without parents. Battlewail praises your compassion as the true measure of a Horde hero. Grunth gives you a beloved pet so you will remember the bond formed on your travels.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "warden of the horde summary",
     "childrens week ending horde"
    ],
-   "answer": "This brings the Horde's Children's Week festivities to a close. Return Grunth and the Orcish Orphan Whistle to Orphan Matron Battlewail in the Valley of Honor."
+   "answer": "Children's Week ends when you return Grunth and the Orcish Orphan Whistle to Orphan Matron Battlewail in the Valley of Honor."
   },
   {
    "q": "Who is Grunth?",
@@ -61,7 +61,7 @@
     "orphan matron horde",
     "who runs the orphanage"
    ],
-   "answer": "Orphan Matron Battlewail oversees the Orgrimmar Orphanage in the Valley of Honor, where she devotes her life to sheltering and raising the Horde's war orphans."
+   "answer": "Orphan Matron Battlewail oversees the Orgrimmar Orphanage in the Valley of Honor. She devotes her life to sheltering and raising the Horde's war orphans."
   },
   {
    "q": "Why does Grunth want to return home?",
@@ -69,7 +69,7 @@
     "grunth return home",
     "children week farewell"
    ],
-   "answer": "His Children's Week outings are over, and Grunth wants to tell the matron about his adventures and the kind guardian who took him along."
+   "answer": "Grunth wants to tell the matron about his adventures and the kind guardian who took him along. His Children's Week outings are over."
   },
   {
    "q": "Why is Children's Week important to the Horde?",
@@ -77,13 +77,13 @@
     "childrens week lore",
     "why care for orphans horde"
    ],
-   "answer": "Decades of relentless warfare against demons, humans, and centaur have left countless Horde children without families. Children's Week gives warriors time away from the battlefield to honor the future generations of Durotar and beyond."
+   "answer": "Relentless warfare against demons, humans, and centaur has left countless Horde children without families. Children's Week gives warriors time away from battle to honor the future generations of Durotar and beyond."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, strength means more than skill in battle. It also means protecting and uplifting the vulnerable who will one day carry the Warchief's banner."
+   "text": "For the Horde, strength means more than skill in battle. It means protecting and uplifting the vulnerable who will one day carry the Warchief's banner."
   },
   {
    "target": "race:Orc",
@@ -108,5 +108,5 @@
  "attribution": [
   "A Warden of the Horde"
  ],
- "style": 1
+ "style": 2
 }

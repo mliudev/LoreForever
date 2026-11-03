@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Mining allows you to unearth raw minerals and craft specialized field utilities like a Lodestone to support your allies at camp."
+   "text": "As a miner, you can unearth raw minerals and make field gear such as a Lodestone to support your allies at camp."
   },
   {
    "target": "profession:Cooking",
-   "text": "Cooking instructors provide the foundational knowledge needed to build a basic campfire, the centerpiece of any functional wilderness campsite."
+   "text": "As a cook, you can learn from cooking instructors to build the basic campfire at the heart of a wilderness campsite."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde miners travelling through Durotar can report to Krunn in Razor Hill to learn the craft of lodging lodestones for their expeditions."
+   "text": "As a Horde miner traveling through Durotar, you can visit Krunn in Razor Hill to learn how to make Lodestones for your expeditions."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "camping mining quest",
     "mining lodestone quest"
    ],
-   "answer": "Camping 101: Mining is an introductory training quest directed at miners. It directs miners who have proven their proficiency to seek out Krunn in Razor Hill to learn how to craft a campsite utility known as a Lodestone.",
+   "answer": "Skilled miners can seek Krunn in Razor Hill and learn to craft a Lodestone for a campsite.",
    "q": "What is Camping 101: Mining?"
   },
   {
@@ -41,7 +41,7 @@
     "where is krunn",
     "razor hill trainer"
    ],
-   "answer": "Krunn is a trainer located in Razor Hill within Durotar. He instructs skilled miners in how to fashion camp items such as the Lodestone once they display sufficient trade proficiency.",
+   "answer": "Krunn trains skilled miners in Razor Hill, in Durotar. Once they show enough skill, he teaches them to make camp items such as the Lodestone.",
    "q": "Who is Krunn?"
   },
   {
@@ -50,7 +50,7 @@
     "lodestone benefit",
     "why craft lodestone"
    ],
-   "answer": "A Lodestone is a craftable camp fixture created by miners. When placed at a wilderness campfire, it grants physical combatants who gather around the fire extra martial prowess to bolster their fighting strength.",
+   "answer": "Miners make Lodestones to place beside a wilderness campfire. Physical fighters gathered around it gain greater martial strength.",
    "q": "What is a Lodestone used for?"
   },
   {
@@ -59,7 +59,7 @@
     "why cant i camp in razor hill",
     "camping inside cities"
    ],
-   "answer": "Townspeople and settlement authorities do not take kindly to campsites pitched in the middle of populated streets. You must venture out into the surrounding wilderness to pitch a camp and place your lodestone.",
+   "answer": "No. Townsfolk and settlement authorities frown on camps in populated streets. Head into the surrounding wilderness to pitch camp and place your Lodestone.",
    "q": "Can you set up camp inside Razor Hill?"
   },
   {
@@ -68,7 +68,7 @@
     "how to start camp",
     "fire requirement camping"
    ],
-   "answer": "Every functional campsite requires a campfire as its center. Basic campfire construction is taught by culinary trainers, making cooking an essential complementary skill for campers setting out into the wilds.",
+   "answer": "A campfire forms the center of a working campsite. Cooking instructors teach you to build a basic fire, and cooking helps prepare you for camps in the wild.",
    "q": "Why do you need a campfire before setting up camp?"
   },
   {
@@ -76,7 +76,7 @@
     "who can make lodestones",
     "can anyone make a lodestone"
    ],
-   "answer": "Crafting a Lodestone requires training in the mining profession. Miners who demonstrate sufficient skill in their craft can learn the technique directly from Krunn in Razor Hill.",
+   "answer": "Miners who show enough skill can learn to craft a Lodestone from Krunn in Razor Hill.",
    "q": "Who can learn to craft a Lodestone?"
   }
  ],
@@ -96,23 +96,24 @@
  ],
  "sections": [
   {
-   "body": "Mining offers an honest living that provides practical materials for exploration and survival in the wild. As miners develop their trade and demonstrate proficiency with pick and ore, they can learn to craft specialized campsite equipment. In Durotar, skilled miners are pointed toward Krunn in the settlement of Razor Hill to discover how to forge a Lodestone for their travels.",
+   "body": "Mining yields materials for travel and survival in the wild. With skill in pick and ore, you can learn to make gear for a campsite. In Durotar, Krunn in Razor Hill teaches skilled miners to forge a Lodestone for their travels.",
    "spoiler": 0,
    "title": "The Miner's Camp"
   },
   {
-   "body": "A Lodestone serves as an attractive centerpiece for adventurers resting in the wilderness. When set up beside a camp, it provides martial fighters gathering by the fire with an added edge to their combat prowess. However, proper camp etiquette requires leaving civilized settlements behind: townsfolk frown upon camps being erected in city squares, meaning travelers must seek the open wild to test their craftsmanship.",
+   "body": "At a wilderness camp, a Lodestone gives the gathered fighters greater strength in battle. Set it beside the campfire, and martial fighters around the flames gain an edge. Townsfolk frown on tents pitched in city squares, so you need the open wild to put your craft to use.",
    "spoiler": 0,
    "title": "Campfire Camaraderie"
   },
   {
-   "body": "Even the sturdiest lodestone is useless without a proper fire to anchor the camp. A basic campfire is necessary before establishing any resting spot, and those unfamiliar with building fires are encouraged to seek out a culinary instructor. Training in the cooking arts ensures that wilderness expeditions have the warmth and basic sustenance required to survive outside town walls.",
+   "body": "A sturdy Lodestone needs a fire at the heart of camp. You need a basic campfire before setting up a resting place. If you do not know how to build one, seek a cooking instructor. Cooking teaches the basics for warmth and sustenance on expeditions beyond town walls.",
    "spoiler": 0,
    "title": "Fire and Fieldcraft"
   }
  ],
- "summary": "Camping 101: Mining is an instructional trade quest directing budding miners to Krunn in Razor Hill. By demonstrating proficiency in their trade, miners learn to forge a Lodestone, a specialized camp fixture that enhances the combat prowess of warriors gathered around a wilderness fire.",
+ "summary": "In Durotar, skilled miners can learn to forge a Lodestone for camps in the wild. Krunn in Razor Hill teaches the craft.",
  "attribution": [
   "In-game quest text: Camping 101: Mining"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Sprouted Fronds",
   "chain": []
  },
- "summary": "At Denalan's garden by Lake Al'Ameth, the planted frond has taken root and sprouted. Travelers can see the new growth among the garden beds.",
+ "summary": "At Denalan's garden by Lake Al'Ameth, the planted frond has taken root and sprouted. Its new growth now shows among the garden beds.",
  "sections": [
   {
    "title": "A Garden by Lake Al'Ameth",
-   "body": "You find Denalan's garden near Lake Al'Ameth, where the botanist studies Teldrassil's peculiar plants. After a shimmering frond is planted, new fronds rise from the soil in his planter, ready to be gathered and examined.",
+   "body": "You find Denalan's garden near Lake Al'Ameth. There the botanist studies Teldrassil's peculiar plants. After a shimmering frond is planted, new fronds rise from the soil in his planter, ready for gathering and study.",
    "spoiler": 0
   },
   {
    "title": "The Strange Flora of the World Tree",
-   "body": "Teldrassil is young and vast, and its plant life grows quickly. Night elf herbalists find that growth fascinating and troubling. The shimmering fronds and their offshoots show how quickly life takes hold on the World Tree's boughs, though its vitality can be hard to predict.",
+   "body": "Young Teldrassil is vast, and its plants grow quickly. Night elf herbalists find that growth fascinating and troubling. The shimmering fronds and their offshoots show how quickly life takes hold on the World Tree's boughs. Yet its vitality can be hard to predict.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what are these plants",
     "denalans fronds"
    ],
-   "answer": "They are the plants that sprouted after Denalan planted a shimmering frond at his camp by Lake Al'Ameth. The peculiar fronds grow from it and tremble when they are ready to be gathered."
+   "answer": "They are the plants that sprouted after Denalan planted a shimmering frond at his camp by Lake Al'Ameth. The peculiar fronds tremble when they are ready to be gathered."
   },
   {
    "q": "Where is Denalan's garden located?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Denalan's research shows the practical work of gathering and studying Teldrassil's plants, and how quickly local seeds adapt to tended soil."
+   "text": "Denalan's research shows the work of gathering and studying Teldrassil's plants. It also shows how quickly local seeds adapt to tended soil."
   },
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you help watch over and nurture the life taking root across your young World Tree."
+   "text": "As a kaldorei, you help watch over and nurture life taking root across your young World Tree."
   },
   {
    "target": "class:Druid",
@@ -116,5 +116,5 @@
  "attribution": [
   "The Sprouted Fronds"
  ],
- "style": 1
+ "style": 2
 }

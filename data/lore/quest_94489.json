@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As druidic caretakers of the wilds, seeing fellow practitioners\u2014specifically the scarce shen'dorei druids\u2014succumb to betrayal and grievous injury carries a heavy, personal weight."
+   "text": "As a druid, you know the weight of seeing fellow caretakers of the wilds suffer betrayal and grievous injury. The shen'dorei druids are few."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves revere the druidic traditions, making the suffering of kindred druids in Shadowgale Forest and the struggle against treachery deeply resonant."
+   "text": "As a night elf, you revere druidic traditions. The suffering of kindred druids in Shadowgale Forest and their struggle against treachery may weigh heavily on you."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "quest giver the wounds of betrayal",
     "who is elegael"
    ],
-   "answer": "The quest is given by Elegael, a shen'dorei druid desperately trying to tend to her wounded brethren following a violent attack in Shadowgale Forest.",
+   "answer": "Elegael, a shen'dorei druid, asks you to tend her wounded brethren after a violent attack in Shadowgale Forest.",
    "q": "Who gives the quest The Wounds of Betrayal?"
   },
   {
@@ -37,7 +37,7 @@
     "nightfang den location",
     "where are the wounded druids"
    ],
-   "answer": "Nightfang Den is a cave situated north just across the clearing in Shadowgale Forest, where injured shen'dorei druids have retreated seeking refuge.",
+   "answer": "Nightfang Den lies north across the clearing in Shadowgale Forest. Injured shen'dorei druids have taken refuge in the cave.",
    "q": "Where is Nightfang Den located?"
   },
   {
@@ -46,7 +46,7 @@
     "jorel windsinger fate",
     "where is jorel"
    ],
-   "answer": "Jorel Windsinger is the mate of Elegael. He was severely injured in the attack and remained inside Nightfang Den, where the player discovers his tragic fate.",
+   "answer": "Jorel Windsinger is Elegael's mate. Badly injured in the attack, he remained in Nightfang Den, where you learn his fate.",
    "q": "Who is Jorel Windsinger?"
   },
   {
@@ -55,7 +55,7 @@
     "who are shendorei druids",
     "shendorei druid lore"
    ],
-   "answer": "The shen'dorei are a rare group with very few druidic practitioners among them. Because their numbers are so small, Elegael emphasizes that every single surviving life among them is precious.",
+   "answer": "The shen'dorei are a rare people with few druids among them. Elegael says every survivor is precious.",
    "q": "What are the shen'dorei druids?"
   },
   {
@@ -64,7 +64,7 @@
     "al aketh",
     "why does elegael hate al aketh"
    ],
-   "answer": "The Al'Aketh are enemies responsible for or allied with those who attacked the druids. Upon learning of Jorel's fate and the devastation of her order, Elegael vows vengeance against the Al'Aketh and anyone allied with them.",
+   "answer": "The Al'Aketh are enemies responsible for the attack on the druids, or allies of those responsible. After learning Jorel's fate and seeing the devastation, Elegael vows vengeance on them and anyone allied with them.",
    "q": "Who are the Al'Aketh?"
   },
   {
@@ -73,7 +73,7 @@
     "does jorel live",
     "jorel outcome"
    ],
-   "answer": "When you locate Jorel Windsinger in the den, you discover that his condition took a tragic turn. Returning to Elegael with news of his fate and the dire state of the surviving druids drives her to grief and a furious vow of revenge.",
+   "answer": "When you find Jorel Windsinger in Nightfang Den, his condition has taken a tragic turn. News of his fate and the surviving druids' dire state leaves Elegael grief-stricken and furious, and she vows revenge.",
    "q": "What happens to Jorel Windsinger in the quest?"
   }
  ],
@@ -92,23 +92,24 @@
  ],
  "sections": [
   {
-   "body": "The Wounds of Betrayal begins with Elegael, a shen'dorei druid tending to the aftermath of a catastrophic assault in Shadowgale Forest. Having hastily prepared medicinal poultices, she urgently seeks an adventurer to deliver aid to her brethren taking shelter in the nearby Nightfang Den, just north across the clearing. The shen'dorei druids are exceedingly few in number, making the survival of every single member vital to their fragile enclave.",
+   "body": "Elegael tends the shen'dorei druids hurt in the assault on Shadowgale Forest. She has prepared poultices for her brethren sheltering in Nightfang Den, just north across the clearing. Few shen'dorei druids remain, and every survivor matters to their fragile enclave.",
    "spoiler": 0,
    "title": "Aid for the Shen'dorei"
   },
   {
-   "body": "Beyond delivering emergency care to the seven battered druids in the cave, Elegael carries a personal plea close to her heart: finding her mate, Jorel Windsinger. When she fled the fighting to prepare medicines, Jorel was already clinging to life. Venturing into the dark recesses of Nightfang Den reveals the true devastation wrought upon the sanctuary and the grim fate that befell Jorel.",
+   "body": "Elegael asks you to find her mate, Jorel Windsinger, and bring care to the seven battered druids in the cave. When she fled the fighting to prepare medicines, Jorel was already clinging to life. Nightfang Den holds the full devastation wrought upon the sanctuary, and Jorel's fate lies in its dark recesses.",
    "spoiler": 1,
    "title": "The Search for Jorel Windsinger"
   },
   {
-   "body": "Upon hearing of Jorel's tragic end and the horrific toll on her brethren, Elegael's composure shatters into grief and fury. Gritting her teeth with a pained snarl, she renounces despair in favor of outright retribution, swearing that anyone allied with the shadowy Al'Aketh will suffer her unrelenting wrath for the slaughter of her people.",
+   "body": "After learning Jorel's end and seeing the terrible toll on her brethren, Elegael's grief turns to fury. She casts off despair and chooses retribution. Anyone allied with the Al'Aketh will face her unrelenting wrath for the slaughter of her people.",
    "spoiler": 2,
    "title": "A Vow of Retribution"
   }
  ],
- "summary": "The Wounds of Betrayal is a quest in Shadowgale Forest centering on the aftermath of a tragic assault against the rare shen'dorei druids. Players are sent by Elegael to deliver urgent poultices to her wounded brethren in Nightfang Den and search for her missing mate, Jorel Windsinger. The mission quickly exposes the bitter costs of betrayal and fuels a vengeful conflict against the Al'Aketh.",
+ "summary": "In Shadowgale Forest, Elegael cares for the shen'dorei druids wounded in a terrible assault. Poultices are ready for Nightfang Den, north across the clearing, while her mate Jorel Windsinger is missing.",
  "attribution": [
   "In-game quest text: The Wounds of Betrayal"
- ]
+ ],
+ "style": 2
 }

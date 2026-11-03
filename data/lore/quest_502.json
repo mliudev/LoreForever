@@ -20,21 +20,21 @@
    "Elixir of Pain (2)"
   ]
  },
- "summary": "In Tarren Mill, Apothecary Lydon prepares the Elixir of Pain for a field trial. Stanley, Farmer Ray’s dog in Hillsbrad Fields, is the chosen subject.",
+ "summary": "In Tarren Mill, the Elixir of Pain is ready for a trial on Farmer Ray’s dog, Stanley. Apothecary Lydon prepares the draught for the Royal Apothecary Society.",
  "sections": [
   {
    "title": "Apothecary Science",
-   "body": "Apothecary Lydon works in Tarren Mill for the Royal Apothecary Society and Lady Sylvanas Windrunner. He gathers fresh blood from local wildlife and uses it to brew a volatile mixture called the Elixir of Pain. The Society seeks field evidence of how its experimental poisons and mutagens affect living bodies.",
+   "body": "Apothecary Lydon serves the Royal Apothecary Society and Lady Sylvanas Windrunner from Tarren Mill. He gathers fresh blood from local wildlife and brews it into the volatile Elixir of Pain. The Society seeks proof in the field of how its experimental poisons and mutagens affect living bodies.",
    "spoiler": 0
   },
   {
    "title": "Testing on Stanley",
-   "body": "Lydon sends his agents to the northern farm in Hillsbrad Fields, away from the human defenders. Farmer Ray keeps a pet dog there named Stanley. With the draught poured into an open hand, an agent offers it to the unsuspecting dog as an ordinary treat.",
+   "body": "Lydon sends his agents to the northern farm in Hillsbrad Fields, beyond the human defenders. Farmer Ray keeps his dog Stanley there. An agent pours the draught into an open hand and offers it as an ordinary treat. Stanley does not know what he is being given.",
    "spoiler": 0
   },
   {
    "title": "Violent Mutation",
-   "body": "The Elixir of Pain brings Stanley immediate agony and a violent change. The brew is a mutagen, not a simple lethal toxin: it warps the dog into a savage, enraged wolf. The beast attacks whatever is nearby, revealing the force of Lydon’s alchemical formula.",
+   "body": "The Elixir of Pain brings Stanley immediate agony and a violent change. The mutagen warps him into a savage, enraged wolf rather than killing him with a simple toxin. The beast attacks whatever is nearby, showing the force of Lydon’s formula.",
    "spoiler": 1
   }
  ],
@@ -55,7 +55,7 @@
     "farmer ray dog",
     "stanley the dog"
    ],
-   "answer": "Stanley is Farmer Ray’s pet dog, living outside the large farmhouse at the northern end of Hillsbrad Fields."
+   "answer": "Stanley is Farmer Ray’s pet dog. He lives outside the large farmhouse at the northern end of Hillsbrad Fields."
   },
   {
    "q": "What happens when you feed Stanley the elixir?",
@@ -64,7 +64,7 @@
     "what does elixir do to dog",
     "stanley wolf"
    ],
-   "answer": "Lydon wants to see how Stanley likes his “treat.” The elixir’s effect becomes clear when Stanley eats it."
+   "answer": "Lydon wants to see how Stanley likes his “treat.” The elixir’s effect becomes clear after Stanley eats it."
   },
   {
    "q": "Where is Stanley located?",
@@ -82,7 +82,7 @@
     "who gives elixir of pain",
     "apothecary lydon quest"
    ],
-   "answer": "Apothecary Lydon, in the Forsaken settlement of Tarren Mill in the Hillsbrad Foothills, asks you to test the elixir after you gather the needed reagents."
+   "answer": "Apothecary Lydon asks you to test the elixir in Tarren Mill, the Forsaken settlement in the Hillsbrad Foothills. He does so after you gather the needed reagents."
   },
   {
    "q": "Why test the potion on a farmer's dog instead of humans?",
@@ -91,13 +91,13 @@
     "why stanley",
     "why poison dog"
    ],
-   "answer": "A domestic pet in Hillsbrad Fields offers a quiet, accessible trial without immediately alerting the town militia or armed guards to the alchemical test."
+   "answer": "A domestic pet in Hillsbrad Fields offers a quiet, accessible trial. The test can proceed without immediately alerting the town militia or armed guards."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an undead, you see the Royal Apothecary Society’s ruthless approach: it seeks biological weapons for Forsaken survival, whatever the collateral damage."
+   "text": "As an undead, you see the Royal Apothecary Society’s ruthless approach. It seeks biological weapons for Forsaken survival, whatever the collateral damage."
   },
   {
    "target": "faction:Horde",
@@ -105,7 +105,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you see how little Forsaken alchemists care for the beasts caught in their trials when they feed an experimental brew to a farmer’s trusting dog."
+   "text": "As a hunter, you see how little Forsaken alchemists care for beasts caught in their trials. They feed an experimental brew to a farmer’s trusting dog."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Elixir of Pain (2)"
  ],
- "style": 1
+ "style": 2
 }

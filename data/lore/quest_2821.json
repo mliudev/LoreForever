@@ -21,21 +21,21 @@
   ],
   "category": "Feralas"
  },
- "summary": "At Feathermoon Stronghold, the leatherworker Pratt McGrubben will not compromise on quality. Pratt has come across thick yeti hides and wants a stack of ten.",
+ "summary": "At Feathermoon Stronghold, Pratt McGrubben seeks ten thick yeti hides and offers a choice of leather goods.",
  "sections": [
   {
    "title": "Pratt's Philosophy",
-   "body": "Pratt McGrubben will not compromise on leatherwork: only the finest will do. While hunting for fine materials, Pratt came across thick yeti hides. The yetis are native to Feralas, with many around Feral Scar Vale, just inland of the Forgotten Coast.",
+   "body": "Pratt McGrubben, a leatherworker at Feathermoon Stronghold, insists on the finest work. In search of fine materials, he found thick yeti hides. Yetis are native to Feralas, and many live around Feral Scar Vale, just inland of the Forgotten Coast.",
    "spoiler": 0
   },
   {
    "title": "The Offer",
-   "body": "For a stack of ten hides, Pratt will let you choose one of the leather goods Pratt has crafted. Bring them back to Feathermoon Stronghold.",
+   "body": "Bring Pratt a stack of ten hides at Feathermoon Stronghold. In return, you may choose one of the leather goods he has crafted.",
    "spoiler": 0
   },
   {
    "title": "Pratt's Thoughts on the Hides",
-   "body": "Pratt asks whether you stopped to feel the texture of the hides. Properly treated, they could prove tougher than iron, and few people know of them. With a wide knowledge of treating solutions, Pratt hopes to make pieces that carry a true mark of quality.",
+   "body": "Pratt McGrubben asks whether you felt the hides’ texture. Properly treated, they could prove tougher than iron, and few people know of them. Pratt knows many treating solutions. He hopes to shape the hides into pieces worthy of a true mark of quality.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "pratt mcgrubben",
     "who gives the mark of quality"
    ],
-   "answer": "Pratt McGrubben, a leatherworker at Feathermoon Stronghold."
+   "answer": "Pratt McGrubben, the leatherworker at Feathermoon Stronghold, asks for the hides."
   },
   {
    "q": "Where can the yetis be found?",
@@ -56,7 +56,7 @@
     "where are yetis",
     "feral scar vale"
    ],
-   "answer": "Yetis are native to Feralas, and many are found around Feral Scar Vale, just inland of the Forgotten Coast."
+   "answer": "Around Feral Scar Vale, just inland of the Forgotten Coast, where many of Feralas's native yetis live."
   },
   {
    "q": "How many hides does Pratt want?",
@@ -64,7 +64,7 @@
     "how many yeti hides",
     "hide count"
    ],
-   "answer": "Ten of them, as one stack."
+   "answer": "Pratt wants ten hides in one stack."
   },
   {
    "q": "What do I get for the hides?",
@@ -72,7 +72,7 @@
     "what does pratt give",
     "mark of quality payment"
    ],
-   "answer": "Pratt offers a choice among the leather goods Pratt has crafted, in exchange for the stack."
+   "answer": "Pratt offers your choice of one of the leather goods he has crafted in exchange for the stack."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "The Mark of Quality (Classic Alliance)"
- ]
+ ],
+ "style": 2
 }

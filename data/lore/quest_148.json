@@ -17,16 +17,16 @@
   "wiki": "Supplies from Darkshire (Classic)",
   "chain": []
  },
- "summary": "Abercrombie in western Duskwood asks travelers to fetch a rare thread from Darkshire. The hermit claims he is too frail to cross the haunted woods and asks for Ghost Hair Thread from Madame Eva.",
+ "summary": "Abercrombie in western Duskwood asks you to fetch a rare thread from Darkshire. He says he is too frail to cross the haunted woods and asks for Ghost Hair Thread from Madame Eva.",
  "sections": [
   {
    "title": "A Feeble Request",
-   "body": "North of Raven Hill Cemetery, Abercrombie lives alone in a shack in western Duskwood. He tells travelers that age and frailty keep him from making the dangerous journey through the woods to buy goods in Darkshire. His request seems simple: go to the township's town square and speak with Madame Eva for a spool of Ghost Hair Thread.",
+   "body": "North of Raven Hill Cemetery, you find Abercrombie alone in a shack in western Duskwood. Age and frailty keep him from making the dangerous journey through the woods to buy goods in Darkshire. So he asks you to go to the township's town square and speak with Madame Eva for a spool of Ghost Hair Thread.",
    "spoiler": 0
   },
   {
    "title": "A Curious Material",
-   "body": "In Darkshire, Madame Eva has no Ghost Hair Thread ready. The local diviner spins strange artifacts, but this thread is no ordinary sewing supply. To make it, she needs ghost hair from Blind Mary, a sorrowful spirit haunting a farmhouse south of Darkshire. The errand now depends on gathering what Madame Eva needs.",
+   "body": "In Darkshire, Madame Eva has no Ghost Hair Thread ready. The local diviner spins strange artifacts, and this thread is no ordinary sewing supply. To make it, she needs ghost hair from Blind Mary, a sorrowful spirit haunting a farmhouse south of Darkshire. So gathering what Madame Eva needs comes first.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who starts supplies from darkshire",
     "abercrombie errand"
    ],
-   "answer": "Abercrombie, a hermit in a shack north of Raven Hill Cemetery in western Duskwood, asks for help."
+   "answer": "Abercrombie, a hermit in a shack north of Raven Hill Cemetery in western Duskwood, asks for your help."
   },
   {
    "q": "Who do I speak with in Darkshire to get the supplies?",
@@ -64,7 +64,7 @@
     "does eva have thread",
     "supplies from darkshire completion"
    ],
-   "answer": "No. Madame Eva has none in stock when you arrive. She agrees to spin it if you gather the spectral materials she needs from nearby spirits."
+   "answer": "No. Madame Eva has none ready when you arrive. She agrees to spin it if you gather the spectral materials she needs from nearby spirits."
   },
   {
    "q": "What quest precedes Supplies from Darkshire?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer, you may find yourself carrying messages and goods for hermits on the hazardous backroads around Darkshire."
+   "text": "As an Alliance adventurer, you may carry messages and goods for hermits along the hazardous backroads around Darkshire."
   },
   {
    "target": "profession:Tailoring",
@@ -112,5 +112,5 @@
  "attribution": [
   "Supplies from Darkshire (Classic)"
  ],
- "style": 1
+ "style": 2
 }

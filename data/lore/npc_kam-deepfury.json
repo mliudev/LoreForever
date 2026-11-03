@@ -8,21 +8,21 @@
   "wiki": "Kam Deepfury",
   "refs": 5
  },
- "summary": "In Stormwind's Stockade, Kam Deepfury waits apart from the Defias rebels. The Dark Iron dwarf was captured after arranging the blast that shattered the Thandol Span, far to the north.",
+ "summary": "In Stormwind's Stockade, Kam Deepfury waits apart from the Defias rebels. Captured after arranging the blast that shattered the Thandol Span far to the north, the Dark Iron dwarf is held far from his kin.",
  "sections": [
   {
    "title": "A Saboteur Far from Home",
-   "body": "Kam Deepfury is a Dark Iron dwarf held deep in the Stormwind Stockade. Most prisoners there are disgruntled Stonemasons or Defias rebels, but he belongs to neither. Captured and brought to Stormwind after an operation crippled vital northern infrastructure, he remains cut off from his kin beneath Blackrock Mountain. Like the rebels who share the corridors, he is hostile to the Alliance.",
+   "body": "Kam Deepfury is a Dark Iron dwarf held deep in the Stormwind Stockade. Most prisoners there are disgruntled Stonemasons or Defias rebels, but he is neither. Captured after an operation crippled vital northern infrastructure, he remains cut off from his kin beneath Blackrock Mountain. Like the rebels sharing the corridors, he is hostile to the Alliance.",
    "spoiler": 0
   },
   {
    "title": "The Thandol Span Sabotage",
-   "body": "Alliance intelligence at Dun Modr, near the Wetlands' northern border, named Kam Deepfury as the chief architect of the blast that shattered the Thandol Span. The explosion severed one of the massive stone bridges linking the Wetlands and the Arathi Highlands. It crippled a vital trade and military route for Ironforge and the Alliance, and killed a kin of the dwarf commander Longbraid the Grim.",
+   "body": "Alliance intelligence at Dun Modr, near the Wetlands' northern border, named Kam Deepfury as the chief architect of the blast that shattered the Thandol Span. The explosion severed one of the massive stone bridges between the Wetlands and the Arathi Highlands. It crippled a vital trade and military route for Ironforge and the Alliance. It also killed a kin of Longbraid the Grim, the dwarf commander.",
    "spoiler": 0
   },
   {
    "title": "A Score to Settle",
-   "body": "Motley Garmason and the grieving Longbraid the Grim seek mercenaries in the Wetlands to reach Kam Deepfury in Stormwind's riot-torn Stockade. The Dark Iron insurrectionist has found brief shelter from his victims' relatives in prison. Those seeking him want his head, to settle a bloody grudge begun hundreds of miles to the north.",
+   "body": "Motley Garmason and the grieving Longbraid the Grim seek mercenaries in the Wetlands to reach Kam Deepfury in Stormwind's riot-torn Stockade. The Dark Iron insurrectionist has found brief shelter in prison from the relatives of his victims. Those seeking him want his head. They mean to settle a bloody grudge begun hundreds of miles to the north.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "kam deepfury lore",
     "who is the dwarf in stockades"
    ],
-   "answer": "Kam Deepfury is a Dark Iron dwarf prisoner held in the Stormwind Stockade. He is known for arranging the sabotage of the Thandol Span and has no allegiance to the Defias rebels imprisoned beside him."
+   "answer": "Kam Deepfury is a Dark Iron dwarf held in the Stormwind Stockade. He arranged the sabotage of the Thandol Span and has no allegiance to the Defias rebels imprisoned beside him."
   },
   {
    "q": "Why is a Dark Iron dwarf locked in the Stormwind Stockade?",
@@ -52,7 +52,7 @@
     "kam deepfury defias",
     "is deepfury working with vancleef"
    ],
-   "answer": "No. Kam Deepfury is a Dark Iron dwarf, not a member of the Defias Brotherhood. He is imprisoned alongside the rebels but shares their hostility toward the Alliance."
+   "answer": "No. Kam Deepfury is a Dark Iron dwarf, not a member of the Defias Brotherhood. He is imprisoned alongside the rebels and shares their hostility toward the Alliance."
   },
   {
    "q": "Who wants Kam Deepfury dead?",
@@ -60,7 +60,7 @@
     "who gave the quest for deepfury",
     "who wants deepfury killed"
    ],
-   "answer": "Motley Garmason and Longbraid the Grim seek Kam Deepfury's death. The bombing of the Thandol Span killed a kin of Longbraid the Grim, and the two seek mercenaries to reach Deepfury in Stormwind's Stockade."
+   "answer": "Motley Garmason and Longbraid the Grim seek Kam Deepfury's death. The Thandol Span bombing killed a kin of Longbraid the Grim, and the two seek mercenaries to reach Deepfury in Stormwind's Stockade."
   },
   {
    "q": "Where did Kam Deepfury commit his crime?",
@@ -83,7 +83,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf of Ironforge, you know Kam Deepfury as the saboteur who shattered the Thandol Span and killed a kin of Longbraid the Grim. Avenge that loss in the name of honor."
+   "text": "As a dwarf of Ironforge, you know Kam Deepfury as the saboteur who shattered the Thandol Span and killed a kin of Longbraid the Grim. Avenge that loss in honor's name."
   },
   {
    "target": "faction:Alliance",
@@ -114,5 +114,5 @@
  "attribution": [
   "Kam Deepfury"
  ],
- "style": 1
+ "style": 2
 }

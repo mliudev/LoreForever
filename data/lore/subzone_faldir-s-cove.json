@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Faldir's Cove"
  },
- "summary": "Faldir's Cove is a secluded natural harbor nestled along the southern coastline of the Arathi Highlands. Steeped in human history, it is traditionally remembered as the departure point from which early settlers sailed south to found Stormwind. Today, it serves as an emergency shelter for stranded Blackwater Raiders whose fleet ran afoul of local hazards.",
+ "summary": "Blackwater Raiders now shelter at Faldir's Cove after disaster struck their fleet on the Arathi coast. The harbor also recalls the early settlers who sailed south from here to found Stormwind.",
  "sections": [
   {
    "title": "A Gateway South and a Pirate Haven",
-   "body": "Tucked away behind the rugged bluffs south of Stromgarde Keep, Faldir's Cove is linked to the mainland by a concealed cave tunnel. The cove honors the memory of Faldir, the ancient Arathor explorer whose expedition set sail from these very shores to cross the Great Sea and establish the southern kingdom of Stormwind. In the present day, however, its quiet waters house a very different crowd: an expedition of Blackwater Raiders from Booty Bay, led by Captains Steelgut and O'Breen, who sailed north pursuing ancient elven treasures only to end up trapped in the bay.",
+   "body": "South of Stromgarde Keep, Faldir's Cove lies behind the bluffs, reached through a hidden tunnel beneath the ground. The harbor bears the name of Faldir, an ancient Arathor explorer whose expedition sailed across the Great Sea to establish Stormwind. Now Blackwater Raiders from Booty Bay shelter in its waters. Captains Steelgut and O'Breen led them north in search of ancient elven treasures, but their expedition became trapped in the bay.",
    "spoiler": 0
   },
   {
    "title": "The Wreck of the Blackwater Fleet",
-   "body": "The Blackwater venture turned catastrophic upon reaching the Arathi coast. Strange and unnatural tides conjured by the territorial naga dwelling on the offshore Drowned Reef shattered two of their three vessels. Only the Harbinger survived intact, limping into Faldir's Cove. With the naga prowling the waters and their navigation charts resting beneath the waves, the surviving pirates and their gnomish researchers find themselves marooned, reliant on neutral travelers to battle the aquatic horrors and recover sunken salvage.",
+   "body": "The Blackwater expedition met disaster on the Arathi coast. Unnatural tides, stirred by territorial naga on the offshore Drowned Reef, shattered two of their three ships. Only the Harbinger reached Faldir's Cove intact. With naga prowling the waters and their navigation charts lost beneath the waves, the surviving pirates and gnomish researchers are stranded. They rely on travelers to fight the aquatic horrors and recover salvage from the seabed.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is faldir",
     "faldir founder"
    ],
-   "answer": "Faldir was an ancient pioneer from the early human empire of Arathor. He and his followers embarked from this coastal haven to sail across the seas, journeying south to establish the settlements that eventually became the kingdom of Stormwind."
+   "answer": "Faldir was an ancient pioneer from the human empire of Arathor. He and his followers sailed south from this coast across the sea to establish the settlements that became Stormwind."
   },
   {
    "q": "How do you reach Faldir's Cove?",
@@ -37,7 +37,7 @@
     "faldir cove entrance",
     "cave to faldirs cove"
    ],
-   "answer": "The cove is reached by finding a hidden tunnel passage located just southeast of the outer southern walls of Stromgarde Keep. Walking through this subterranean tunnel brings travelers directly out onto the secluded shore."
+   "answer": "Reach Faldir's Cove through a hidden tunnel just southeast of Stromgarde Keep's outer southern walls. The passage runs beneath the ground and opens onto the secluded shore."
   },
   {
    "q": "Why are the Blackwater Raiders here?",
@@ -46,7 +46,7 @@
     "blackwater raiders arathi",
     "what are the pirates doing"
    ],
-   "answer": "Captain Steelgut and Captain O'Breen led an expedition north from Booty Bay in search of sunken elven treasures. Along with gnomish inventors who designed gem-detecting apparatuses, they aimed to salvage precious relics calcified within the offshore reefs."
+   "answer": "Captain Steelgut and Captain O'Breen led the Blackwater Raiders north from Booty Bay to seek sunken elven treasures. Gnomish inventors came with them, carrying devices designed to detect gems in the offshore reefs."
   },
   {
    "q": "What happened to their ships?",
@@ -55,17 +55,17 @@
     "sunken ships arathi",
     "who sank the ships"
    ],
-   "answer": "Two of the expedition's three vessels were destroyed by unnatural tides stirred up by hostile naga inhabiting the Drowned Reef. Only the flagship Harbinger safely made port in the cove, leaving the crew stranded without their sunken charts."
+   "answer": "Hostile naga on the Drowned Reef stirred unnatural tides that destroyed two of the expedition's three vessels. The flagship Harbinger reached the cove, but the crew's charts sank beneath the waves."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Standing upon these shores connects humans to their early heritage, marking the historic launching point where the ancestors of Stormwind parted from the ancient empire of Arathor."
+   "text": "As a human, you stand on the coast where your ancestors left Arathor and sailed south toward the settlements that became Stormwind."
   },
   {
    "target": "race:Gnome",
-   "text": "The camp features Doctor Draxlegauge and Professor Phizzlethorpe, who have deployed ingenious engineering contraptions to analyze and extract elven gems from calcified coastal reefs."
+   "text": "As a gnome, you can find Doctor Draxlegauge and Professor Phizzlethorpe at the camp, using engineering devices to study and extract elven gems from the calcified coastal reefs."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Faldir's Cove"
- ]
+ ],
+ "style": 2
 }

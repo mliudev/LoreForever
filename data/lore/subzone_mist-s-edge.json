@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mist's Edge"
  },
- "summary": "North of Auberdine, Mist's Edge follows Darkshore's western shore beneath ocean fog. Gray beaches hold shipwrecks, great sea creature remains, crabs, and murlocs.",
+ "summary": "North of Auberdine, Mist's Edge follows Darkshore's western shore under ocean fog. Gray beaches hold wrecks, the remains of great sea creatures, crabs, and murlocs.",
  "sections": [
   {
    "title": "A Fog-Shrouded Shore",
-   "body": "Mist's Edge runs along Darkshore's western edge, where damp sand and rocky tidepools lie beneath coastal fog. Shattered vessels, drift timber, and the remains of huge sea creatures litter the beach. Crabs forage along the shore, while murloc tribes make their homes in the surf.",
+   "body": "Along Darkshore's western edge, Mist's Edge is a shore of damp sand and rocky tidepools beneath coastal fog. Shattered vessels and drift timber lie among the remains of huge sea creatures. Crabs forage along the beach, while murloc tribes make their homes in the surf.",
    "spoiler": 0
   },
   {
    "title": "Wrecks and Scavengers",
-   "body": "Wreckage and discarded cargo line the sands where vessels have been lost in the waters off Darkshore. Night elf sentinels and scavengers watch the coast, as murloc encampments menace travelers making their way along the shore from Auberdine.",
+   "body": "Lost vessels leave wreckage and discarded cargo along these sands. Night elf sentinels and scavengers watch the coast. Yet murloc encampments menace travelers making their way along the shore from Auberdine.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "darkshore beach",
     "what is mists edge"
    ],
-   "answer": "Mist's Edge runs north from Auberdine along Darkshore's western shore, where ocean fog hangs over shipwrecks and beached sea creatures."
+   "answer": "North from Auberdine, Mist's Edge follows Darkshore's western shore beneath ocean fog, past shipwrecks and beached sea creatures."
   },
   {
    "q": "What threats wander this coast?",
@@ -37,7 +37,7 @@
     "what attacks you on the beach",
     "darkshore coast dangers"
    ],
-   "answer": "Hostile crabs and aggressive murloc packs wander the shoreline, with murlocs living in primitive camps beside the water."
+   "answer": "Hostile crabs and aggressive murloc packs roam the shoreline. Murlocs live in primitive camps beside the water."
   },
   {
    "q": "Why are there so many shipwrecks and skeletons here?",
@@ -73,5 +73,5 @@
  "attribution": [
   "Mist's Edge"
  ],
- "style": 1
+ "style": 2
 }

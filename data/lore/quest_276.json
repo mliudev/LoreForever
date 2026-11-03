@@ -17,16 +17,16 @@
   "wiki": "Tramping Paws",
   "chain": []
  },
- "summary": "At Greenwarden's Grove in the Wetlands, Rethiel watches the Mosshide numbers rise near the Gate of Algaz. Their fires and trampling threaten the bog, and Rethiel asks travelers to thin their ranks.",
+ "summary": "At Greenwarden's Grove in the Wetlands, Rethiel sees the Mosshide numbers rise near the Gate of Algaz. Their fires and trampling threaten the bog, so Rethiel asks travelers to thin their ranks.",
  "sections": [
   {
    "title": "A Swelling Fen Menace",
-   "body": "Mosshide gnolls lived in the Wetlands for many years without overwhelming the natural order. Now their numbers have surged south toward the pass of Dun Algaz. Their heavy boots and paws crush rare fen plants, while their logging strips groves for campsite fires. If the packs keep growing, the fragile marsh will suffer.",
+   "body": "Mosshide gnolls lived in the Wetlands for many years without overwhelming the natural order. Now their numbers have surged south toward the pass of Dun Algaz. Their heavy boots and paws crush rare fen plants, and their logging strips groves for campsite fires. If the packs keep growing, the fragile marsh will suffer.",
    "spoiler": 0
   },
   {
    "title": "The Greenwarden's Judgment",
-   "body": "Rethiel the Greenwarden watches the marsh for signs of imbalance. The gnolls' existence is not the trouble; their numbers have grown beyond what the Wetlands can support. Thinning the Mosshide gnolls and mongrels helps preserve the fen, and may earn the approval of its ancient guardian.",
+   "body": "Rethiel the Greenwarden watches the marsh for signs of imbalance. The gnolls' existence is not the trouble; their numbers have grown beyond what the Wetlands can support. Thinning the Mosshide gnolls and mongrels helps preserve the fen and may earn the approval of its ancient guardian.",
    "spoiler": 0
   }
  ],
@@ -107,5 +107,5 @@
  "attribution": [
   "Tramping Paws"
  ],
- "style": 1
+ "style": 2
 }

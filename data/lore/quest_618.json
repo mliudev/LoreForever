@@ -26,16 +26,16 @@
   "qtype": "Group",
   "category": "Stranglethorn Vale"
  },
- "summary": "Following the trail of Captain Hecklebury Smotts' lost weapon, Sprogger reveals a plan to bait the giant Negolash using the creature's favorite delicacies. By staging a banquet in a wrecked lifeboat on the coast of Stranglethorn Vale, adventurers can confront the brute and reclaim the captain's stolen cutlass.",
+ "summary": "Along Stranglethorn Vale's coast, a stolen cutlass sets events in motion. Sprogger knows how to draw Negolash out with the giant's favorite food and drink.",
  "sections": [
   {
    "title": "A Hungry Giant",
-   "body": "When giants smashed Captain Smotts' vessel, one brute named Negolash headed straight for the galley. Unlike his brethren, he wasn't hungry for the crew. Sprogger saw that Negolash wanted wine and Barbecued Buzzard Wings, Sprogger's own specialty, whose recipe he had to travel to the Badlands to get.",
+   "body": "When giants wrecked Captain Smotts' vessel, Negolash headed for the galley. He left the crew alone and went after wine and Barbecued Buzzard Wings, Sprogger's specialty. Sprogger had traveled to the Badlands to learn the recipe.",
    "spoiler": 0
   },
   {
    "title": "The Trap in the Lifeboat",
-   "body": "To lure the giant, Sprogger devises an irresistible feast. Adventurers must haul ten helpings of the wings alongside five bottles of wine into the captain's ruined lifeboat down the southeastern shoreline. Drawn by the smell of the banquet, Negolash can be cornered, slain, and stripped of the captain's prize blade.",
+   "body": "Sprogger plans to lure Negolash with a feast. You carry ten servings of wings and five bottles of wine to Captain Smotts' ruined lifeboat on the southeastern shore. The banquet draws the giant near. Then you can confront him and reclaim the captain's cutlass.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who is the giant",
     "negolash lore"
    ],
-   "answer": "Negolash is a hungry giant who helped wreck Captain Smotts' ship. Instead of hunting the sailors, he ransacked the vessel's galley for food and drink."
+   "answer": "Negolash is a giant who helped wreck Captain Smotts' ship. He ransacked the galley for food and drink instead of hunting the sailors."
   },
   {
    "q": "Why does Sprogger know how to lure Negolash?",
@@ -56,7 +56,7 @@
     "why buzzard wings",
     "negolash food"
    ],
-   "answer": "Sprogger witnessed the giant raid his kitchen during the shipwreck. Negolash showed an obsession with Sprogger's Barbecued Buzzard Wings and bottles of Junglevine Wine, making those exact provisions the ideal bait."
+   "answer": "Sprogger saw Negolash raid his kitchen during the shipwreck. The giant favored Sprogger's Barbecued Buzzard Wings and bottles of Junglevine Wine, so those provisions make suitable bait."
   },
   {
    "q": "Where does the confrontation take place?",
@@ -65,7 +65,7 @@
     "where to place the food",
     "lifeboat location"
    ],
-   "answer": "The banquet must be placed in Captain Smotts' old ruined lifeboat, which sits stranded along the coast southeast of Sprogger's position."
+   "answer": "The confrontation takes place in Captain Smotts' ruined lifeboat, stranded on the coast southeast of Sprogger."
   },
   {
    "q": "What came before this task?",
@@ -74,13 +74,13 @@
     "facing negolash previous quest",
     "prereqs for negolash"
    ],
-   "answer": "This confrontation is the conclusion of a trail that begins with The Monogrammed Sash and continues through The Captain's Cutlass."
+   "answer": "The trail begins with The Monogrammed Sash and continues through The Captain's Cutlass before this confrontation."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The entire plan relies on Sprogger's culinary craft, specifically a specialized recipe for Barbecued Buzzard Wings that he traveled all the way to the Badlands to learn."
+   "text": "As a cook, you can appreciate Sprogger's craft. He traveled to the Badlands to learn the specialized recipe for Barbecued Buzzard Wings at the heart of his plan."
   }
  ],
  "keywords": [
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "Facing Negolash"
- ]
+ ],
+ "style": 2
 }

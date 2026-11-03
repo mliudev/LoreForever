@@ -10,16 +10,16 @@
    "quest:556"
   ]
  },
- "summary": "Across the Alterac Mountains, Worn Stone Token enchantments have faded, though Dalaran crafted them to command elementals. The tokens remain with Dalaran personnel, from mages to laborers.",
+ "summary": "Across the Alterac Mountains, Worn Stone Tokens still bear the faded enchantments Dalaran made to command elementals. They remain in the hands of Dalaran's people, from mages to laborers.",
  "sections": [
   {
    "title": "Tokens of Elemental Mastery",
-   "body": "Dalaran’s magi command elementals with talismans that bend beings from other realms to their will. Worn Stone Tokens are depleted versions of these implements. Theurgists and summoners carry them, as do Dalaran laborers and guards stationed around the ruins and internment camps of Alterac. Their presence shows how deeply elemental binding reaches into Dalaran’s daily work.",
+   "body": "Dalaran's magi use talismans to bend elementals from other realms to their will. Worn Stone Tokens are spent examples of these tools. Theurgists and summoners carry them, along with Dalaran laborers and guards stationed around the ruins and internment camps of Alterac. Elemental binding reaches deep into Dalaran's daily work.",
    "spoiler": 0
   },
   {
    "title": "Forsaken Curiosity",
-   "body": "At Tarren Mill, the Forsaken watch the nearby wizards. Magus Voidglare seeks Worn Stone Tokens to study Dalaran’s methods of enslaving elementals. Keeper Bel'varil directs agents to gather worn, inert tokens first. These let the Magus examine basic enchanting techniques safely before attempting more potent, volatile conduits.",
+   "body": "At Tarren Mill, the Forsaken watch the nearby wizards. Magus Voidglare wants Worn Stone Tokens to study how Dalaran enslaves elementals. Keeper Bel'varil directs agents to gather worn, inert tokens first. They let the Magus examine basic enchanting safely before trying more potent, volatile conduits.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what are stone tokens",
     "why do dalaran carry tokens"
    ],
-   "answer": "Dalaran’s wizards use the stone tokens to bind and command elementals summoned from other realms, setting them to work as laborers, guards, and defenders."
+   "answer": "Dalaran's wizards use stone tokens to bind and command elementals summoned from other realms. They set the elementals to work as laborers, guards, and defenders."
   },
   {
    "q": "Why are the tokens described as worn?",
@@ -40,7 +40,7 @@
     "are tokens magical",
     "inert tokens"
    ],
-   "answer": "The tokens’ active enchantments have faded with time and heavy use. Keeper Bel'varil considers inert specimens safer for Magus Voidglare’s first study of Dalaran’s binding rituals."
+   "answer": "The tokens' active enchantments have faded with time and heavy use. Keeper Bel'varil considers inert specimens safer for Magus Voidglare's first study of Dalaran's binding rituals."
   },
   {
    "q": "Who carries these tokens?",
@@ -57,7 +57,7 @@
     "why does belvaril want tokens",
     "magus voidglare tokens"
    ],
-   "answer": "Magus Voidglare wants to study Dalaran’s arcane control of elementals and unravel its arts of summoning and subjugation."
+   "answer": "Magus Voidglare wants to study Dalaran's arcane control of elementals and unravel its arts of summoning and subjugation."
   }
  ],
  "angles": [
@@ -92,5 +92,5 @@
   "Worn Stone Token",
   "Stone Tokens"
  ],
- "style": 1
+ "style": 2
 }

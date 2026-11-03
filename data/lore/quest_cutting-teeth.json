@@ -17,16 +17,16 @@
   "wiki": "Cutting Teeth",
   "chain": []
  },
- "summary": "In the Valley of Trials, fresh recruits face a first test against mottled boars. Overseer Gornek sends aspiring warriors and spellcasters to thin the boars around the cactus dirt farms, where they can prove their fighting skill and readiness to serve the Horde.",
+ "summary": "In the Valley of Trials, fresh recruits face their first test against mottled boars. Overseer Gornek sends warriors and spellcasters to thin the herds around the cactus dirt farms and prove they can fight for the Horde.",
  "sections": [
   {
    "title": "A Measure of Backbone",
-   "body": "The Valley of Trials leaves little room for grand dreams. Young recruits may imagine hunting great beasts in the Barrens or winning glory on a battlefield, but overseer Gornek begins with the farms. Thinning the mottled boars is a grounded test of a recruit’s first skills with a weapon or spell. It shows whether they can face a wild attacker and have the sense to survive their first skirmish.",
+   "body": "Young recruits may dream of hunting great beasts in the Barrens or winning glory on a battlefield. Overseer Gornek starts them at the farms instead. Thinning the mottled boars tests their first skill with a weapon or spell. It shows whether they can face a wild attacker and survive their first skirmish.",
    "spoiler": 0
   },
   {
    "title": "Taming the Red Dust",
-   "body": "Feral swine roam the red desert settlement’s dirt farms north and northeast of camp. They root through cactus patches and threaten the few supplies grown in Durotar’s harsh soil. Sending aspirants to clear them keeps local pests in check while shaping young orcs and trolls into defenders of the new nation.",
+   "body": "Feral swine roam the dirt farms north and northeast of camp. They root through cactus patches and threaten the few supplies grown in Durotar’s harsh soil. Clearing them keeps local pests in check. It also shapes young orcs and trolls into defenders of their new nation.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why kill boars",
     "gornek boar hunt"
    ],
-   "answer": "Gornek sends recruits after boars because the Horde needs them alive. The Barrens hold mighty kodo and predators, but an untried recruit sent against them could be needlessly killed. Boars offer a sound test of basic fighting skill without throwing lives away."
+   "answer": "Gornek sends recruits after boars because the Horde needs them alive. The Barrens hold mighty kodo and predators, but an untried recruit could be needlessly killed facing them. Boars test basic fighting skill without throwing lives away."
   },
   {
    "q": "Where are the mottled boars located?",
@@ -80,13 +80,13 @@
     "boar problem",
     "valley of trials boars"
    ],
-   "answer": "Feral boars roam the local dirt farms and brush patches, endangering workers and eating the few hardy crops, such as cactus fruit, that sustain the encampment."
+   "answer": "Feral boars roam the local dirt farms and brush patches. They endanger workers and eat the few hardy crops, such as cactus fruit, that sustain the encampment."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Every young champion who enters Durotar starts in the dirt, proving that the Horde’s future rests on their blood and sweat, not unearned prestige."
+   "text": "Every young champion who enters Durotar starts in the dirt. The Horde’s future rests on their blood and sweat, not unearned prestige."
   },
   {
    "target": "race:Orc",
@@ -117,5 +117,5 @@
  "attribution": [
   "Cutting Teeth"
  ],
- "style": 1
+ "style": 2
 }

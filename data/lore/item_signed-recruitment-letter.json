@@ -10,16 +10,16 @@
    "quest:842"
   ]
  },
- "summary": "Kargal Battlescar sends the Signed Recruitment Letter west from the Far Watch Post. His mark directs new recruits to report for duty at the Crossroads.",
+ "summary": "From the Far Watch Post, Kargal Battlescar sends a signed letter west with recruits ready for duty. It directs them to report to Sergra Darkthorn at the Crossroads.",
  "sections": [
   {
    "title": "A Conscript's Transfer",
-   "body": "At the Far Watch Post, Kargal Battlescar prepares recruits for service in the Barrens. The post stands east of the Southfury River, where newcomers cross from Durotar. When a conscript proves ready to Kargal, he stamps and signs a letter of introduction. The orders send recruits west along the road to the Crossroads. There, Sergra Darkthorn coordinates supplies and the defense of the dry plains.",
+   "body": "At the Far Watch Post, Kargal Battlescar prepares recruits for service in the Barrens. The post lies east of the Southfury River, where newcomers cross from Durotar. When a conscript proves ready, Kargal stamps and signs a letter of introduction. Its orders send recruits west along the road to the Crossroads, where Sergra Darkthorn coordinates supplies and the defense of the dry plains.",
    "spoiler": 0
   },
   {
    "title": "Tension at the Outposts",
-   "body": "Kargal's orders carry his personal contempt for the officer who awaits the recruit. He calls Sergra Darkthorn an abrasive shaman who talks in circles around soldiers. Kargal openly questions Warchief Thrall's high opinion of her. Even so, the dispatch must reach Sergra's hands before any further assignments at the Crossroads are granted.",
+   "body": "Kargal's orders carry his contempt for the officer awaiting the recruit. He calls Sergra Darkthorn an abrasive shaman who talks in circles around soldiers. Kargal openly questions Warchief Thrall's high opinion of her. Even so, the dispatch must reach Sergra before any further assignments at the Crossroads are granted.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "kargal letter",
     "who signed this"
    ],
-   "answer": "Kargal Battlescar signs the letter. The orc veteran oversees the Far Watch Post on the border between Durotar and the Barrens, and signs after a recruit completes initial duties there."
+   "answer": "Kargal Battlescar signs the letter. The orc veteran oversees the Far Watch Post on the border between Durotar and the Barrens. He signs after a recruit completes initial duties there."
   },
   {
    "q": "Who do I deliver the letter to?",
@@ -94,5 +94,5 @@
   "Signed Recruitment Letter",
   "Crossroads Conscription"
  ],
- "style": 1
+ "style": 2
 }

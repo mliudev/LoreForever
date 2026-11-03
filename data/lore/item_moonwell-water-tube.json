@@ -10,16 +10,16 @@
    "quest:4812"
   ]
  },
- "summary": "At Auberdine, water from the moonwell carries purifying nature magic. The vial is used to test a mysterious red crystal set among Darkshore’s eastern ridges.",
+ "summary": "In Auberdine, moonwell water carries purifying nature magic. The tube is used to test a mysterious red crystal among Darkshore’s eastern ridges.",
  "sections": [
   {
    "title": "A Vessel of Purifying Waters",
-   "body": "Water from Auberdine’s moonwell fills the tube. The sacred pool is tied to Elune and holds restorative, purifying magic. Even a small amount can be used against corruption or to test strange mystical forces.",
+   "body": "Water from Auberdine’s moonwell fills the tube. The sacred pool is tied to Elune and holds restorative, purifying magic. Even a little can be used against corruption or to test strange mystical forces.",
    "spoiler": 0
   },
   {
    "title": "Investigating the Red Crystal",
-   "body": "Researchers prepared the tube to test a huge red crystal that appeared along Darkshore’s eastern cliffside. Felwood’s corrupted heights loom above the mountain wall, so they feared the crystal shared that dark origin. When the blessed water runs over its facets, the opaque stone briefly turns transparent, exposing the mysteries humming within.",
+   "body": "Researchers prepared the tube to test a huge red crystal that appeared along Darkshore’s eastern cliffside. Felwood’s corrupted heights loom above the mountain wall, so they feared the crystal shared that dark origin. When blessed water runs over its facets, the opaque stone briefly turns transparent and reveals the mysteries within.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "purpose of the water tube",
     "what does the water do"
    ],
-   "answer": "Moonwell water carries concentrated nature and lunar magic. Poured onto the strange red crystal, it tests the stone’s mystical nature and makes its opaque surface briefly clear."
+   "answer": "Moonwell water carries concentrated nature and lunar magic. Poured onto the strange red crystal, it tests the stone’s mystical nature and briefly clears its opaque surface."
   },
   {
    "q": "Why are the researchers concerned about the crystal?",
@@ -49,7 +49,7 @@
     "red crystal danger",
     "felwood connection"
    ],
-   "answer": "The crystal lies beneath the eastern mountains that border Felwood. Its deep demonic taint has led scholars to fear that the alien formation carries corruption down into Darkshore."
+   "answer": "The crystal lies beneath the eastern mountains that border Felwood. Its deep demonic taint has led scholars to fear the alien formation carries corruption down into Darkshore."
   }
  ],
  "angles": [
@@ -84,5 +84,5 @@
   "Moonwell Water Tube",
   "As Water Cascades"
  ],
- "style": 1
+ "style": 2
 }

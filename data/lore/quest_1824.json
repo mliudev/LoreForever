@@ -17,16 +17,16 @@
   "wiki": "Trial at the Field of Giants",
   "chain": []
  },
- "summary": "At Camp Taurajo, Ruga Ragetotem sends warrior aspirants south to face an unfamiliar foe. They must slay silithid in the Field of Giants and return with several twitching antennae within half an hour.",
+ "summary": "At Camp Taurajo, Ruga Ragetotem sends warrior aspirants south to face an unfamiliar foe. They have half an hour to slay silithid in the Field of Giants and return with several twitching antennae.",
  "sections": [
   {
    "title": "A Test of Speed and Steel",
-   "body": "At Camp Taurajo, Ruga Ragetotem challenges growing warriors to prove themselves against an unfamiliar adversary. The Horde's warrior trainers test more than combat skill: aspirants must slay the creatures and bring back fresh antennae within half an hour. The run across the southern Barrens tests their speed and resolve, while the antennae must still twitch when they reach Taurajo.",
+   "body": "Ruga Ragetotem tests growing warriors at Camp Taurajo against an unfamiliar foe. Horde warrior trainers demand more than skill in battle: aspirants must slay the creatures and bring fresh antennae back within half an hour. The run across the southern Barrens tests their speed and resolve. The antennae must still twitch when they reach Taurajo.",
    "spoiler": 0
   },
   {
    "title": "Unwelcome Intruders",
-   "body": "Silithid hives rise in the Field of Giants, beneath massive fossilized ribcages. The bizarre, crawling insects are recent arrivals in the Barrens, disturbing tauren hunters and shamans who watch the savannas. Ruga says their presence bodes ill for Kalimdor. The trial tests a young warrior's instincts in combat and gathers intelligence on a growing threat to the land.",
+   "body": "Silithid hives rise in the Field of Giants beneath massive fossilized ribcages. These strange, crawling insects arrived in the Barrens recently, disturbing tauren hunters and shamans who watch the savannas. Ruga says their presence bodes ill for Kalimdor. The trial tests a young warrior's instincts in battle and gathers intelligence on a growing threat to the land.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "twitching antennae timer",
     "how much time"
    ],
-   "answer": "Ruga Ragetotem requires the antennae to still twitch when warriors bring them to Camp Taurajo, giving them only thirty minutes for the hunt and return. Their freshness proves the aspirant slew a silithid in direct combat rather than scavenging a dead one."
+   "answer": "Ruga Ragetotem requires antennae to still twitch when warriors bring them to Camp Taurajo. That gives them only thirty minutes for the hunt and return. Their freshness proves the aspirant slew a silithid in direct combat rather than scavenging a dead one."
   },
   {
    "q": "What creatures live at the Field of Giants?",
@@ -47,7 +47,7 @@
     "field of giants mobs",
     "what are silithid"
    ],
-   "answer": "Bizarre, aggressive silithid burrowers live in the Field of Giants. They have excavated massive mounds and hives beneath ancient fossils, disturbing the local ecology and alarming the Horde."
+   "answer": "Bizarre, aggressive silithid burrowers live in the Field of Giants. They have dug massive mounds and hives beneath ancient fossils, disturbing the local ecology and alarming the Horde."
   },
   {
    "q": "Who is Ruga Ragetotem?",
@@ -74,7 +74,7 @@
     "what comes after",
     "warrior chain continuation"
    ],
-   "answer": "After the warrior returns the twitching antennae in time, Ruga sends them to Thun'grim Firegaze, an elder orc blacksmith who lives atop a hill east of the Crossroads. Thun'grim will craft armor for proven warriors."
+   "answer": "Once a warrior returns the twitching antennae in time, Ruga sends them to Thun'grim Firegaze, an elder orc blacksmith who lives atop a hill east of the Crossroads. Thun'grim will craft armor for proven warriors."
   },
   {
    "q": "Why are the tauren concerned about the insects?",
@@ -83,13 +83,13 @@
     "insect herald",
     "silithid threat"
    ],
-   "answer": "Ruga says the silithid are unnatural newcomers to the Barrens and that their arrival bodes ill for the land. He suspects their aggressive burrowing and expansion point to a greater danger beneath the sands."
+   "answer": "Ruga says silithid are unnatural newcomers to the Barrens and their arrival bodes ill for the land. He suspects their aggressive burrowing and expansion point to a greater danger beneath the sands."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you face this rite of passage around level twenty. It tests how quickly you can overcome swarming foes and endure a strict time limit."
+   "text": "As a warrior, you face this rite of passage around your twentieth level. It tests how quickly you can overcome swarming foes and endure a strict time limit."
   },
   {
    "target": "race:Tauren",
@@ -119,5 +119,5 @@
  "attribution": [
   "Trial at the Field of Giants"
  ],
- "style": 1
+ "style": 2
 }

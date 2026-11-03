@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "A Bastion of Dark Sorcery",
-   "body": "Dark Iron dwarves hold the northeastern Wetlands hill under Balgaras the Foul, a Dark Iron dwarf warlock. Their encampment lies southeast of Dun Modr.",
+   "body": "Balgaras the Foul commands the Dark Iron dwarves on Direforge Hill. Their encampment lies southeast of Dun Modr, in the northeastern Wetlands.",
    "spoiler": 0
   },
   {
    "title": "The Threat to the Wetlands",
-   "body": "Travelers crossing the northeastern Wetlands face the hostile Dark Iron encampment on Direforge Hill. Balgaras the Foul commands the dwarves there.",
+   "body": "Travelers crossing the northeastern Wetlands must pass near the hostile Dark Iron encampment on Direforge Hill. Balgaras the Foul commands the dwarves there.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is direforge hill",
     "direforge wetlands"
    ],
-   "answer": "Direforge Hill stands in the northeastern Wetlands, southeast of Dun Modr and northeast of the Green Belt. It lies northwest of the rocky bluffs of Raptor Ridge."
+   "answer": "Direforge Hill rises in the northeastern Wetlands, southeast of Dun Modr and northeast of the Green Belt. It lies northwest of the rocky bluffs of Raptor Ridge."
   },
   {
    "q": "Who controls Direforge Hill right now?",
@@ -37,7 +37,7 @@
     "who lives at direforge hill",
     "direforge hill mobs"
    ],
-   "answer": "Hostile Dark Iron dwarves occupy Direforge Hill under the command of Balgaras the Foul, a warlock."
+   "answer": "Hostile Dark Iron dwarves hold Direforge Hill under Balgaras the Foul, a warlock."
   },
   {
    "q": "Why is Direforge Hill significant to the Wetlands?",
@@ -46,7 +46,7 @@
     "direforge threat",
     "what is happening at direforge hill"
    ],
-   "answer": "Direforge Hill holds a hostile Dark Iron campsite in the northeastern Wetlands. Balgaras the Foul and his dwarves threaten travelers through the region."
+   "answer": "Direforge Hill holds a hostile Dark Iron encampment in the northeastern Wetlands. Balgaras the Foul and his dwarves threaten travelers crossing the region."
   },
   {
    "q": "Who is Balgaras the Foul?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a Bronzebeard dwarf of Ironforge, seeing the Dark Iron clan's treachery reach the Wetlands, especially under warlocks like Balgaras, is an outrage answered with cold steel."
+   "text": "As a Bronzebeard dwarf of Ironforge, you see the Dark Iron clan's treachery reach the Wetlands. Warlocks like Balgaras answer for it in cold steel."
   },
   {
    "target": "class:Druid",
@@ -88,5 +88,5 @@
  "attribution": [
   "Direforge Hill"
  ],
- "style": 1
+ "style": 2
 }

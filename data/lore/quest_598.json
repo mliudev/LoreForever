@@ -21,16 +21,16 @@
    "Bloody Bone Necklaces"
   ]
  },
- "summary": "Kin'weelay at Grom'gol Base Camp calls upon Horde allies to hunt the Skullsplitter tribe living to the southeast. Although the Darkspears left Stranglethorn Vale behind, their ancient conflict with these jungle rivals remains unresolved. Returning with twenty-five split bone trophies aids the Darkspears in their war and earns their friendship.",
+ "summary": "Kin'weelay at Grom'gol Base Camp sends you southeast to hunt the Skullsplitters. The Darkspears left Stranglethorn Vale, yet their old feud with these jungle rivals continues. Bring back twenty-five split bone trophies to aid the Darkspears and earn their friendship.",
  "sections": [
   {
    "title": "An Unbroken Feud",
-   "body": "Following the collection of Bloodscalp trophies, Kin'weelay turns his attention toward another longstanding enemy. The Skullsplitter tribe dwells to the southeast of Grom'gol Base Camp, where they have clashed with the Darkspears across many years. Even though the Darkspears no longer reside within the jungles of Stranglethorn Vale, they remain bound to this enduring war.",
+   "body": "After the Bloodscalp hunt, Kin'weelay turns to another old enemy. Southeast of Grom'gol Base Camp, the Skullsplitter tribe has fought the Darkspears for many years. The Darkspears no longer live in Stranglethorn Vale, yet they remain bound to this war.",
    "spoiler": 0
   },
   {
    "title": "Trophies of War",
-   "body": "To earn the friendship and respect of the Darkspear tribe, an adventurer must march into Skullsplitter territory and claim twenty-five of their distinctive split bone necklaces. Kin'weelay takes pride in seeing these hostile trolls cut down like young saplings by a basilisk, counting every retrieved trophy as a victory for his people.",
+   "body": "You travel into Skullsplitter territory to claim twenty-five split bone necklaces and earn the Darkspears' friendship and respect. Kin'weelay takes pride in seeing these hostile trolls cut down like young saplings by a basilisk. Each trophy you bring back counts as a victory for his people.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "kinweelay location",
     "quest giver split bone necklace"
    ],
-   "answer": "Kin'weelay offers the hunt from Grom'gol Base Camp, a Horde outpost on the western coast of Stranglethorn Vale."
+   "answer": "Kin'weelay offers the hunt from Grom'gol Base Camp, a Horde outpost on Stranglethorn Vale's western coast."
   },
   {
    "q": "What came before this task?",
@@ -51,7 +51,7 @@
     "prior quest to split bone necklace",
     "previous step"
    ],
-   "answer": "This assignment follows Bloody Bone Necklaces, an earlier hunt wherein Kin'weelay tasked adventurers with collecting trophies from the Bloodscalp tribe."
+   "answer": "This hunt follows Bloody Bone Necklaces, when Kin'weelay sent adventurers after trophies from the Bloodscalp tribe."
   },
   {
    "q": "Why do the Darkspears fight the Skullsplitters if they left Stranglethorn Vale?",
@@ -60,7 +60,7 @@
     "skullsplitter war lore",
     "darkspear skullsplitter conflict"
    ],
-   "answer": "The Darkspears and Skullsplitters waged war against each other for years in the jungle. Even though the Darkspear tribe has migrated away from Stranglethorn Vale, Kin'weelay explains that they remain bound to the conflict and intend to see their foes regret ever starting it."
+   "answer": "The Darkspears and Skullsplitters fought for years in the jungle. Though the Darkspears left Stranglethorn Vale, Kin'weelay says they remain bound to the conflict and mean to make their foes regret starting it."
   },
   {
    "q": "Where can the Skullsplitter tribe be found?",
@@ -69,7 +69,7 @@
     "where are skullsplitters",
     "skullsplitter camps"
    ],
-   "answer": "The Skullsplitters inhabit territories located to the southeast of Grom'gol Base Camp in Stranglethorn Vale."
+   "answer": "The Skullsplitter tribe lives southeast of Grom'gol Base Camp in Stranglethorn Vale."
   },
   {
    "q": "What proof does Kin'weelay demand from the hunt?",
@@ -78,17 +78,17 @@
     "split bone necklace item",
     "how many necklaces"
    ],
-   "answer": "Kin'weelay requires twenty-five Split Bone Necklaces taken directly from fallen Skullsplitter trolls."
+   "answer": "Kin'weelay asks for twenty-five Split Bone Necklaces taken from fallen Skullsplitter trolls."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Aiding Kin'weelay in Grom'gol Base Camp in the war against the Skullsplitters earns the friendship of the Darkspears."
+   "text": "As a Horde ally, helping Kin'weelay at Grom'gol Base Camp in the war against the Skullsplitters earns the Darkspears' friendship."
   },
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, taking trophies from the Skullsplitters carries on a long war that did not end when the tribe left Stranglethorn."
+   "text": "As a Darkspear troll, taking trophies from the Skullsplitters carries on a long war that did not end when your tribe left Stranglethorn."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Split Bone Necklace (quest)"
- ]
+ ],
+ "style": 2
 }

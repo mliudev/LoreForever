@@ -10,16 +10,16 @@
    "quest:89"
   ]
  },
- "summary": "Iron Rivet shipments from Stormwind now lie in gnoll camps north of Lake Everstill. Foreman Oslow needs them to mend Lakeshire's damaged bridge.",
+ "summary": "North of Lake Everstill, Iron Rivet shipments from Stormwind lie in gnoll camps. Foreman Oslow needs them to mend Lakeshire's damaged bridge.",
  "sections": [
   {
    "title": "Stolen Caravan Cargo",
-   "body": "Lakeshire's iron stores went into weapons and armor when Blackrock orcs attacked. After the assaults eased, Foreman Oslow asked Stormwind for supplies to mend the damaged Everstill Bridge. Redridge gnolls ambushed the caravan before it reached town. They dragged its wagons and pack beasts into the hills north of Lake Everstill, scattering iron rivets and pikes among their camps.",
+   "body": "Lakeshire spent its iron making weapons and armor when Blackrock orcs attacked. After the assaults eased, Foreman Oslow asked Stormwind for supplies to mend the damaged Everstill Bridge. Redridge gnolls ambushed the caravan before it reached town. They hauled its wagons and pack beasts into the hills north of Lake Everstill, scattering iron rivets and pikes among their camps.",
    "spoiler": 0
   },
   {
    "title": "Mending the Bridge",
-   "body": "The Everstill Bridge needs heavy iron rivets to hold its stone and timber framework together under the weight of carts and travelers. Foreman Oslow cannot safely carry out repairs without them. The bridge links Lakeshire to the western valleys, and its repair will help secure the town's perimeter against further incursions.",
+   "body": "Heavy iron rivets hold the Everstill Bridge's stone and timber frame together under carts and travelers. Foreman Oslow cannot safely repair it without them. The bridge links Lakeshire to the western valleys. Mending it will help secure the town's perimeter against further incursions.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why need iron rivets",
     "what are iron rivets for"
    ],
-   "answer": "Foreman Oslow needs the iron rivets to repair the damaged Everstill Bridge in Lakeshire. Its original iron was melted down during the fighting with the Blackrock orcs."
+   "answer": "Foreman Oslow needs the iron rivets to repair Lakeshire's damaged Everstill Bridge. The town's original iron was melted down during the fighting with the Blackrock orcs."
   },
   {
    "q": "Why do the gnolls have these rivets?",
@@ -40,7 +40,7 @@
     "how gnolls got iron rivets",
     "who stole the rivets"
    ],
-   "answer": "Redridge gnolls ambushed a supply caravan from Stormwind and took its construction cargo. The rivets and iron pikes are now in their camps north of Lakeshire."
+   "answer": "Redridge gnolls ambushed a Stormwind supply caravan and took its construction cargo. The rivets and iron pikes are now in their camps north of Lakeshire."
   },
   {
    "q": "Why was Lakeshire short on iron to begin with?",
@@ -48,7 +48,7 @@
     "lakeshire iron shortage",
     "why no iron in lakeshire"
    ],
-   "answer": "Lakeshire's defenders melted down the town's stored iron to make swords, bullets, and armor during the orc invasion."
+   "answer": "Lakeshire's defenders melted the town's stored iron to make swords, bullets, and armor during the orc invasion."
   },
   {
    "q": "Who is looking for these rivets?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "These heavy fasteners were forged in Stormwind for major building work, including stone and timber bridges."
+   "text": "Stormwind forged these heavy fasteners for major building work, including stone and timber bridges."
   },
   {
    "target": "faction:Alliance",
@@ -92,5 +92,5 @@
   "Iron Rivet",
   "The Everstill Bridge"
  ],
- "style": 1
+ "style": 2
 }

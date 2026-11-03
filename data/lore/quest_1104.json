@@ -17,16 +17,16 @@
   "wiki": "Salt Flat Venom",
   "chain": []
  },
- "summary": "Out on the blinding salt expanse of the Shimmering Flats, gnome engineer Fizzle Brassbolts searches for unusual ingredients to supercharge his rocket car. Convinced that the intensely saline venom of local scorpids will produce an ultra-hot burning propellant, he tasks passing adventurers with braving the stinging beasts.",
+ "summary": "At the Mirage Raceway, Fizzle Brassbolts seeks hotter fuel for his rocket car. He believes scorpid venom from the Shimmering Flats can give it the fierce burn he needs.",
  "sections": [
   {
    "title": "A Volatile Recipe",
-   "body": "The Mirage Raceway is an endless battle of high-speed technical supremacy between gnomish precision and goblin audacity. For Fizzle Brassbolts, standard hydrocarbons and clockwork parts simply are not enough to outpace the competition. He envisions a custom fuel mixture tailored to burn far hotter than conventional propellants, driving their rocket cars across the dried salt lake at blistering speeds.",
+   "body": "At the Mirage Raceway, gnomish precision meets goblin audacity in contests of speed and invention. Fizzle Brassbolts wants more from fuel and clockwork parts. He seeks a mixture that burns hotter than common propellants and sends rocket cars racing across the dry salt lake at blistering speed.",
    "spoiler": 0
   },
   {
    "title": "Saline Venom of the Salt Flats",
-   "body": "Fizzle's breakthrough relies on the dangerous native fauna of the Shimmering Flats. The local scorpids have evolved to survive in an arid, salt-encrusted wasteland, resulting in an exceptionally saline venom. Rather than fearing its deadly toxicity, Fizzle sees it as a raw chemical payload. Once boiled, refined, and treated with exotic catalytic agents, he believes the salty venom will deliver the explosive combustion required to leave the goblin pit crews in the dust.",
+   "body": "Scorpids in the Shimmering Flats may hold the key to Fizzle's new fuel. They endure an arid wasteland crusted with salt, and their venom carries an unusual amount of it. Fizzle sees a useful chemical payload in their deadly sting. He believes boiling and refining the venom, then treating it with exotic catalysts, can create the fierce combustion needed to leave the goblin pit crews behind.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is venom for",
     "fizzle fuel recipe"
    ],
-   "answer": "Fizzle is inventing a new rocket car fuel that burns extremely hot. He believes the unusually high salt content found in the venom of native Shimmering Flats scorpids is the vital chemical component needed to complete his explosive mixture."
+   "answer": "Fizzle Brassbolts wants scorpid venom for rocket car fuel that burns extremely hot. He believes the unusual salt content in Shimmering Flats scorpids' venom is vital to his explosive mixture."
   },
   {
    "q": "Where can the necessary scorpids be found?",
@@ -47,7 +47,7 @@
     "where are scorpids",
     "salt flat venom mobs"
    ],
-   "answer": "Scorpids wander all across the open expanses of the Shimmering Flats, particularly prowling the western flats and the desert sands away from the central racetrack."
+   "answer": "Scorpids roam the open Shimmering Flats, especially the western flats and desert sands away from the central racetrack."
   },
   {
    "q": "What will Fizzle do with the venom once collected?",
@@ -55,7 +55,7 @@
     "how is venom turned to fuel",
     "fuel process"
    ],
-   "answer": "Fizzle intends to boil down the venom, treat it with a skipper-otomer, and blend it with a nega-catalyst to produce his high-octane rocket propellant\u2014assuming he can find where he misplaced his notes."
+   "answer": "Fizzle plans to boil down the venom, treat it with a skipper-otomer, and mix it with a nega-catalyst for rocket propellant. He has misplaced his notes."
   },
   {
    "q": "Can members of both the Alliance and Horde help Fizzle?",
@@ -63,7 +63,7 @@
     "is this quest neutral",
     "horde or alliance"
    ],
-   "answer": "Yes. The Mirage Raceway is managed under a neutral truce between the gnomes and goblins, allowing adventurers of either faction to assist the pit crews without political interference."
+   "answer": "Yes. Gnomes and goblins manage the Mirage Raceway under a neutral truce, so adventurers from either faction can help the pit crews without political interference."
   },
   {
    "q": "Why are gnomes and goblins racing in Thousand Needles?",
@@ -71,7 +71,7 @@
     "why raceway here",
     "why mirage raceway"
    ],
-   "answer": "The Shimmering Flats provide a vast, perfectly flat, and unobstructed bed of hard-packed salt, making it the ideal proving ground for experimental, high-speed rocket cars and dragsters."
+   "answer": "The Shimmering Flats offer a vast, flat stretch of hard-packed salt without obstructions. That makes them a proving ground for experimental, high-speed rocket cars and dragsters."
   },
   {
    "q": "Does the fuel actually make the car fly?",
@@ -79,17 +79,17 @@
     "does car fly",
     "fizzle rocket car result"
    ],
-   "answer": "While Fizzle enthusiastically claims the car will 'fly,' gnomish rocket vehicles on the salt flats are designed to skim the ground at breakneck speeds, though catastrophic liftoffs and crashes are never out of the question."
+   "answer": "Fizzle eagerly says the car will “fly,” but gnomish rocket vehicles on the salt flats are built to skim the ground at breakneck speed. Catastrophic liftoffs and crashes remain possible."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Fizzle represents classic gnomish ambition: relentless tinkering, questionable chemical safety, misplaced notes, and the constant urge to outshine goblin mechanics."
+   "text": "As a gnome, you may recognize Fizzle's familiar ambition: relentless tinkering, risky chemistry, misplaced notes, and the urge to outshine goblin mechanics."
   },
   {
    "target": "profession:Engineering",
-   "text": "Using organic toxins treated with catalysts like skipper-otomers highlights the creative and volatile experiments common in competitive vehicle engineering."
+   "text": "As an engineer, you can see how organic toxins and catalysts like skipper-otomers fuel the creative, volatile experiments of competitive vehicle craft."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Salt Flat Venom"
- ]
+ ],
+ "style": 2
 }

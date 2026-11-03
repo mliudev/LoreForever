@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hidden Path"
  },
- "summary": "In Durotar, the Hidden Path climbs above the Valley of Trials toward Spirit Rock. Young shaman follow it to prove their awareness and discipline, while its high reaches look west toward the Barrens.",
+ "summary": "In Durotar, young shaman climb the Hidden Path toward Spirit Rock. Its high reaches look west across the Barrens.",
  "sections": [
   {
    "title": "A Sacred Ascent",
-   "body": "The Hidden Path climbs through red peaks above the Valley of Trials, hard to spot from the canyon floor. Mentors send young shaman along it to test their awareness and discipline before they commune with the spirits at Spirit Rock. From the highest reaches, you can see west across the rolling savannas of the Barrens.",
+   "body": "Above the Valley of Trials, the Hidden Path climbs through red peaks and is hard to see from the canyon floor. Mentors send young shaman along it to test their awareness and discipline. Then they commune with the spirits at Spirit Rock. From the highest reaches, you can see west across the rolling savannas of the Barrens.",
    "spoiler": 0
   },
   {
    "title": "Strategic Vulnerability",
-   "body": "The Hidden Path also cuts through the natural defenses around the valley. A low pass leads toward Ratchet and the road to Orgrimmar. It bypasses the usual canyon checkpoints, leaving defenders wary that Alliance infiltrators could use the quiet trail to reach the Horde's proving grounds.",
+   "body": "The Hidden Path cuts through the natural defenses around the valley. A low pass leads toward Ratchet and the road to Orgrimmar. It goes around the usual canyon checkpoints. So defenders fear Alliance infiltrators could take the quiet trail to the Horde's proving grounds.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "spirit rock path",
     "shaman quest path"
    ],
-   "answer": "Young shaman in the Valley of Trials seek the Hidden Path as part of their early elemental trials. The climb leads to Spirit Rock, where they drink Sapta to commune with the spirits."
+   "answer": "Young shaman in the Valley of Trials take the Hidden Path as part of their early elemental trials. The climb leads to Spirit Rock, where they drink Sapta to commune with the spirits."
   },
   {
    "q": "Could enemies use the Hidden Path to attack the Valley of Trials?",
@@ -46,7 +46,7 @@
     "is valley of trials vulnerable",
     "valley of trials back door"
    ],
-   "answer": "Yes. Low gaps along the Hidden Path bypass the valley's usual guarded entrances. An Alliance strike force coming from Ratchet or the coast could use the trail to slip past Horde scouts and enter the training grounds unseen."
+   "answer": "Yes. Low gaps along the Hidden Path go around the valley's usual guarded entrances. An Alliance strike force from Ratchet or the coast could slip past Horde scouts and enter the training grounds unseen."
   },
   {
    "q": "What can you see from the top of the path?",
@@ -54,7 +54,7 @@
     "hidden path view",
     "lookout point hidden path"
    ],
-   "answer": "From the Hidden Path's highest point, you can look west over the Barrens and across the red canyons of Durotar."
+   "answer": "From the Hidden Path's highest point, you can look west over the Barrens and across Durotar's red canyons."
   }
  ],
  "angles": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Hidden Path"
  ],
- "style": 1
+ "style": 2
 }

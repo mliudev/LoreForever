@@ -10,16 +10,16 @@
    "quest:1275"
   ]
  },
- "summary": "In Blackfathom Deeps and along Ashenvale's coast, Corrupted Brain Stem specimens come from twisted naga and satyrs. Gershala Nightwhisper of Auberdine studies the deformities caused by reckless magic. Night elf scholars hope the findings can help keep the blood elves from suffering the same fate.",
+ "summary": "In Blackfathom Deeps and along Ashenvale’s coast, Corrupted Brain Stem specimens come from naga and satyrs twisted by magic. Gershala Nightwhisper of Auberdine studies their deformities, hoping night elf scholars can learn how to keep the blood elves from the same fate.",
  "sections": [
   {
    "title": "Anatomy of Transformation",
-   "body": "Naga and satyrs bear the marks of forbidden magic and demonic pacts. Long ago, reckless kaldorei highborne became serpent-like aquatic beasts and demonic horned fiends. Their brain stems show heavy physical mutation, proof of how deeply corruptive energies altered the nervous systems of beings who were once elves.",
+   "body": "Forbidden magic and demonic pacts mark the naga and satyrs. Long ago, reckless kaldorei highborne became serpent-like aquatic beasts and demonic horned fiends. Their brain stems bear heavy mutations, showing how deeply corruptive energies altered the nervous systems of beings once known as elves.",
    "spoiler": 0
   },
   {
    "title": "Gershala's Warning",
-   "body": "Gershala Nightwhisper watches troubling rumors about the blood elves of the Eastern Kingdoms from Auberdine. He fears their use of demonic sorcery will create another generation of monsters on Azeroth, so he sends adventurers into Blackfathom Deeps. By examining naga and satyr tissues, he hopes to trace magical degeneration before another elven culture is lost.",
+   "body": "From Auberdine, Gershala Nightwhisper watches troubling rumors about the blood elves of the Eastern Kingdoms. He fears their demonic sorcery will create another generation of monsters on Azeroth. So he sends adventurers into Blackfathom Deeps to examine naga and satyr tissues. He hopes to trace magical degeneration before another elven culture is lost.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "corrupted brain stem drop",
     "where to get brain stems"
    ],
-   "answer": "Naga and satyrs in Blackfathom Deeps and along the Ashenvale coast yield them, including Blackfathom oracles, sea witches, and Fallenroot satyrs."
+   "answer": "Naga and satyrs in Blackfathom Deeps and along the Ashenvale coast yield Corrupted Brain Stems. They include Blackfathom oracles, sea witches, and Fallenroot satyrs."
   },
   {
    "q": "Who wants these brain stems and why?",
@@ -95,5 +95,5 @@
   "Corrupted Brain Stem",
   "Researching the Corruption (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Reagents for Reclaimers Inc."
   ]
  },
- "summary": "Next on Leftwitch's list for Kreldig Ungor is venom from the scorpashi and hides from aged kodo. Kreldig cannot say where to find either, since he does not know Desolace well.",
+ "summary": "In Desolace, Leftwitch's list sends Kreldig Ungor after scorpashi venom and aged kodo hides. He barely knows the land and cannot point you toward either creature.",
  "sections": [
   {
    "title": "The Next Items",
-   "body": "Following the first part of Leftwitch's list, Kreldig Ungor turns to the next items. They look simple enough, but the instructions are exact. The mage wants venom from the scorpashi, any of them will do, and hides from kodo, but only aged kodo. Dying and ancient kodo are no use. Kreldig wants seven vials of venom and three hides. Mages, Kreldig muses, ask for some odd things.",
+   "body": "Kreldig Ungor reaches the next items on Leftwitch's list. She asks for seven vials of venom from any scorpashi and three hides from aged kodo. Dying and ancient kodo will not do. The instructions are plain, though Kreldig muses that mages ask for odd things.",
    "spoiler": 0
   },
   {
    "title": "Unfamiliar Ground",
-   "body": "Kreldig has no idea where the kodo and the scorpashi roam. Kreldig barely knows the area and has had no time to explore it.",
+   "body": "Kreldig cannot tell you where the kodo or scorpashi roam. He barely knows Desolace and has had no time to explore it.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "who is leftwitch",
     "kreldig boss"
    ],
-   "answer": "Leftwitch, a mage, whose list Kreldig Ungor is working through."
+   "answer": "Leftwitch, a mage, made the list Kreldig Ungor is working through."
   },
   {
    "q": "Why does Kreldig need help finding these creatures?",
@@ -56,7 +56,7 @@
     "why cant kreldig get them",
     "kreldig territory knowledge"
    ],
-   "answer": "Kreldig barely knows Desolace and has had no time to explore it, so cannot say where the kodo and the scorpashi roam."
+   "answer": "Kreldig barely knows Desolace and has had no time to explore it, so he cannot say where the kodo or scorpashi roam."
   },
   {
    "q": "Can hides from any kodo be used?",
@@ -65,7 +65,7 @@
     "ancient kodo hide",
     "dying kodo hide"
    ],
-   "answer": "No. Leftwitch's directions call for aged kodo only; dying and ancient ones do not count."
+   "answer": "No. Leftwitch asks for aged kodo hides. Dying and ancient kodo do not count."
   },
   {
    "q": "What are the scorpashi?",
@@ -73,7 +73,7 @@
     "scorpashi venom",
     "where are scorpashi"
    ],
-   "answer": "They are the scorpions found throughout Desolace. Leftwitch says venom from any of them will do."
+   "answer": "Scorpashi are scorpions found throughout Desolace. Leftwitch says venom from any of them will do."
   },
   {
    "q": "Where do the aged kodo roam?",
@@ -81,7 +81,7 @@
     "aged kodo location",
     "where are aged kodo"
    ],
-   "answer": "Herds of them follow the trails, chiefly in the south and west, and many end up near the Kodo Graveyard."
+   "answer": "Aged kodo follow the trails, chiefly in the south and west. Many end up near the Kodo Graveyard."
   }
  ],
  "angles": [],
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Reagents for Reclaimers Inc. (2)"
- ]
+ ],
+ "style": 2
 }

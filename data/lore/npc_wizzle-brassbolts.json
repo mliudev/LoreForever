@@ -8,16 +8,16 @@
   "wiki": "Wizzle Brassbolts",
   "refs": 2
  },
- "summary": "Wizzle Brassbolts is a gnome engineer stationed alongside his fellow tinkerers out on the salt flats of Thousand Needles. Working with the gnomish racing team at the Mirage Raceway, he seeks durable local materials to reinforce their experimental rocket cars.",
+ "summary": "At the Mirage Raceway, Wizzle Brassbolts gathers local materials for the gnomish team's experimental rocket cars. He works with fellow tinkerers on the salt flats of Thousand Needles.",
  "sections": [
   {
    "title": "Tinkering on the Salt Flats",
-   "body": "Out in the shimmering heat of the Shimmering Flats, the rivalry between gnomish and goblin engineering takes the form of high-speed rocket car races. Wizzle Brassbolts works as part of the gnomish raceway crew, striving to keep their vehicles intact against blistering speeds and abrasive salt. To bolster their machines, he recruits adventurers to hunt the local wildlife\u2014such as the sturdy turtles wandering the basin\u2014harvesting their hard shells to build new fuel tanks strong enough to hold his brother's corrosive new rocket fuel.",
+   "body": "On the Shimmering Flats, gnomish and goblin engineers race rocket cars at high speed. Wizzle Brassbolts works with the gnomish crew to keep their machines whole against speed and abrasive salt. He asks travelers to hunt local wildlife, including sturdy turtles in the basin. Their hard shells may make fuel tanks strong enough to hold his brother's corrosive new rocket fuel.",
    "spoiler": 0
   },
   {
    "title": "Friends in Distant Places",
-   "body": "Wizzle maintains close ties with friends across the continents, including Pilot Longbeard, who sends couriers out with racing helmets for the brothers. With help like that, Wizzle keeps the gnomish team supplied despite their remote, inhospitable testing ground on the Shimmering Flats.",
+   "body": "Wizzle keeps in touch with friends across the continents. Pilot Longbeard sends couriers with racing helmets for the brothers. Their help keeps the gnomish team supplied at its remote testing ground on the Shimmering Flats.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is wizzle brassbolts",
     "wizzle brassbolts map"
    ],
-   "answer": "Wizzle Brassbolts is located at the Mirage Raceway on the Shimmering Flats, in the southeastern reaches of Thousand Needles. He stands among the gnomish pit crew and their machinery."
+   "answer": "Wizzle Brassbolts works at the Mirage Raceway on the Shimmering Flats, in southeastern Thousand Needles. He can be found among the gnomish pit crew and their machinery."
   },
   {
    "q": "Why is Wizzle collecting turtle shells?",
@@ -38,7 +38,7 @@
     "why does wizzle want shells",
     "turtle shells raceway"
    ],
-   "answer": "His brother is designing a new rocket fuel so strong it could eat right through the car's chassis. Wizzle uses the rock-hard shells of the tortoises on the Shimmering Flats to build new fuel tanks that can hold it."
+   "answer": "Wizzle collects turtle shells to make tanks for his brother's new rocket fuel, which can eat through a car's chassis. The hard shells of the Shimmering Flats tortoises can hold it."
   },
   {
    "q": "Who are the Brassbolts brothers?",
@@ -47,7 +47,7 @@
     "the brassbolts brothers",
     "wizzle brothers"
    ],
-   "answer": "The Brassbolts brothers are Wizzle and his brothers Fizzle and Rizzle, gnomish tinkerers who run the gnome rocket car team at the Mirage Raceway, racing against the goblins. Pilot Longbeard is a friend of theirs."
+   "answer": "Wizzle, Fizzle, and Rizzle Brassbolts are gnomish brothers who run the rocket car team at the Mirage Raceway and race against the goblins. Pilot Longbeard is their friend."
   },
   {
    "q": "Is Wizzle friendly to Horde players?",
@@ -55,17 +55,17 @@
     "can horde talk to wizzle",
     "wizzle brassbolts horde"
    ],
-   "answer": "Yes. The Mirage Raceway is neutral ground, and Wizzle's own tasks, such as gathering hardened tortoise shells, are open to Horde and Alliance adventurers alike."
+   "answer": "Yes. The Mirage Raceway is neutral ground, and Wizzle's work gathering hardened tortoise shells welcomes Horde and Alliance adventurers alike."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Wizzle exemplifies the gnomish engineering philosophy: pushing high-velocity machines to their limits and relying on unusual structural reinforcements when metal sheets fail."
+   "text": "Wizzle shows the gnomish way of engineering: push fast machines to their limits, and use unusual reinforcements when metal sheets fail."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomes visiting the Shimmering Flats will find in Wizzle a kindred spirit, stubbornly determined to defeat the reckless contraptions of the Steamwheedle goblins using superior craft."
+   "text": "As a gnome visiting the Shimmering Flats, you may recognize Wizzle's resolve to beat the Steamwheedle goblins' reckless machines through superior craft."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Wizzle Brassbolts"
- ]
+ ],
+ "style": 2
 }

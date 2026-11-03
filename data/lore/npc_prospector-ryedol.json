@@ -8,11 +8,11 @@
   "wiki": "Prospector Ryedol",
   "refs": 2
  },
- "summary": "Prospector Ryedol is an Explorers' League surveyor stationed on a dusty rise overlooking the eastern Badlands. Watching over the perilous excavations below, he strives to recover lost dwarven relics and maintain hope in a barren wasteland overrun by troggs and beasts.",
+ "summary": "South of Hammertoe's Digsite, Prospector Ryedol watches over the Explorers' League's work in the Badlands. He searches for dwarven relics and keeps hope alive amid troggs and beasts.",
  "sections": [
   {
    "title": "Watching Over the Digs",
-   "body": "Perched upon a rugged hill just south of Hammertoe's Digsite, Prospector Ryedol represents the ongoing efforts of Ironforge's Explorers' League in the Badlands. The arid valley is rich in ancient titan secrets and earthen heritage, but field expeditions here are constantly beleaguered by savage troggs, ravenous coyotes, and territorial drakes. Ryedol coordinates retrieval efforts for dwarven gear stolen by the Dark Iron dwarves and seeks signs of hope amid the ruined outposts, determined not to let the League's sacrifices in the wastes be in vain.",
+   "body": "From a hill south of Hammertoe's Digsite, Prospector Ryedol directs the Explorers' League's work. The dry valley holds ancient titan secrets and traces of dwarven heritage, yet troggs, coyotes, and drakes threaten the expeditions. Dark Iron dwarves have stolen dwarven gear, so Ryedol sends out efforts to recover it. The League has lost much in these wastes, and he searches ruined outposts for signs of hope.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is ryedol",
     "prospector ryedol location"
    ],
-   "answer": "Ryedol is a dwarven field researcher for the Explorers' League. He has made his camp on a high hill overlooking Hammertoe's Digsite in the eastern Badlands, where he helps direct salvage and recovery missions."
+   "answer": "Ryedol is a dwarven field researcher for the Explorers' League. His camp sits on a high hill overlooking Hammertoe's Digsite in the eastern Badlands, where he directs salvage and recovery work."
   },
   {
    "q": "What is Ryedol doing in the Badlands?",
@@ -33,7 +33,7 @@
     "ryedol's mission",
     "why is ryedol here"
    ],
-   "answer": "He is stationed in the Badlands to support the Explorers' League's archaeological ventures. With several nearby digsites compromised or overrun by Dark Iron dwarves and troggs, he works with travelers to secure recovered relics, track lost tools, and verify the fate of his fellow dwarves."
+   "answer": "Ryedol supports the Explorers' League's archaeological work in the Badlands. Dark Iron dwarves and troggs have overrun or compromised nearby digsites, so he works with travelers to recover relics, find lost tools, and learn what happened to his fellow dwarves."
   },
   {
    "q": "What is Ryedol's Hammer?",
@@ -41,17 +41,17 @@
     "ryedol hammer",
     "dwarf and his tools"
    ],
-   "answer": "Ryedol's Hammer is a reward for recovering his Lucky Pick from the Dark Iron dwarves who attacked Hammertoe's Digsite. The stolen item is his pick, not the reward hammer."
+   "answer": "Ryedol's Hammer is given for recovering his Lucky Pick from the Dark Iron dwarves who attacked Hammertoe's Digsite. The stolen item is his pick, not the hammer."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Ryedol represents Ironforge's unyielding drive to uncover the origins of the dwarven race, even when digging in the harshest reaches of Khaz Modan."
+   "text": "As a dwarf, you see Ryedol carry Ironforge's drive to uncover the origins of your people, even in Khaz Modan's harshest reaches."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance adventurers traversing the dangerous wastes of the Badlands, Ryedol provides a friendly face and an urgent set of tasks in support of the Explorers' League."
+   "text": "As an Alliance traveler crossing the Badlands, you find a friendly face in Ryedol and urgent work supporting the Explorers' League."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Prospector Ryedol"
- ]
+ ],
+ "style": 2
 }

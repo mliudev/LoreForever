@@ -20,21 +20,21 @@
    "The Escape (Classic)"
   ]
  },
- "summary": "You help Wizzlecrank flee the Venture Company drill site at the Sludge Fen in the northern Barrens. Trapped in a stolen prototype shredder, the goblin pilot needs protection from company mercenaries as he climbs from the industrial pit. Afterward, you report to his contact, Sputtervalve, in Ratchet.",
+ "summary": "At the Sludge Fen in northern Barrens, Wizzlecrank fights his way out of a Venture Company drill site. Trapped in a stolen prototype shredder, the goblin pilot needs your protection from company mercenaries. Then you carry word to his contact, Sputtervalve, in Ratchet.",
  "sections": [
   {
    "title": "A Clumsy Getaway",
-   "body": "Wizzlecrank struggles to control the stolen shredder at the Sludge Fen. He has lit the prototype deep inside the Venture Company drill site, but knows little of its levers and switches. The heavy machine lurches across the muddy quarry floor, and its erratic driving and roaring joints alert nearby laborers and armed guards. A stealthy escape becomes a running battle up the excavation pit’s western ramp.",
+   "body": "At the Sludge Fen, Wizzlecrank struggles to control the stolen shredder. He lit the prototype deep inside the Venture Company drill site, but knows little of its levers and switches. The heavy machine lurches across the muddy quarry floor. Its erratic driving and roaring joints alert nearby laborers and armed guards, turning a stealthy escape into a running battle up the excavation pit’s western ramp.",
    "spoiler": 0
   },
   {
    "title": "Venture Company Pursuit",
-   "body": "The Venture Company sends mercenaries to stop the stolen prototype. As the machine claws up the slope toward open ground, squads move to intercept and disable it. The shredder lashes out, but cannot withstand their sabotage without your protection. It clears the rim and staggers from the main drilling depression, though the machine soon suffers a critical failure.",
+   "body": "Venture Company mercenaries move to stop the stolen prototype. As the machine claws up the slope toward open ground, squads try to intercept and disable it. The shredder lashes out, but cannot withstand their sabotage without your protection. It clears the rim and staggers from the main drilling depression. Soon, the machine suffers a critical failure.",
    "spoiler": 0
   },
   {
    "title": "Salvage and Payoff",
-   "body": "Wizzlecrank escapes the wrecked prototype shredder alive. Once clear of immediate danger, the machine breaks down and collapses on the savanna turf. Wizzlecrank scrambles out and tells you to report to Sputtervalve in Ratchet while he stays with the wreckage. Eager to study the Venture Company's designs before his opportunity closes, Sputtervalve immediately sends a goblin salvage squad to haul the intact mechanisms back to port.",
+   "body": "Wizzlecrank escapes the wrecked prototype shredder alive. Clear of immediate danger, the machine breaks down and collapses on the savanna turf. Wizzlecrank scrambles out and tells you to report to Sputtervalve in Ratchet while he stays with the wreckage.\n\nEager to study the Venture Company's designs before his opportunity closes, Sputtervalve immediately sends a goblin salvage squad to haul the intact mechanisms back to port.",
    "spoiler": 1
   }
  ],
@@ -55,7 +55,7 @@
     "escape location",
     "sludge fen escort"
    ],
-   "answer": "The escape begins deep inside the Sludge Fen, a fouled industrial drilling site run by the Venture Company in the northern Barrens, just north of the dry savanna basin."
+   "answer": "The escape begins deep inside the Sludge Fen, an industrial drilling site run by the Venture Company in northern Barrens, just north of the dry savanna basin."
   },
   {
    "q": "Do you have to escort the shredder all the way to Ratchet?",
@@ -97,7 +97,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The prototype shredder shows Venture Company pneumatics and cockpit designs, giving engineers valuable insight to study in its salvage."
+   "text": "The prototype shredder reveals Venture Company pneumatics and cockpit designs. Engineers can study them in the salvage."
   },
   {
    "target": "race:Gnome",
@@ -133,5 +133,5 @@
  "attribution": [
   "The Escape (Classic)"
  ],
- "style": 1
+ "style": 2
 }

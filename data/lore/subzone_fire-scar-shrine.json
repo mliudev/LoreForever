@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fire Scar Shrine"
  },
- "summary": "At Fire Scar Shrine, fel corruption scars the forest southwest of Astranaar. Once a night elf place of worship, the shrine now draws demons to its altar stones.",
+ "summary": "At Fire Scar Shrine, fel corruption has seized the old night elf place of worship southwest of Astranaar. Demons now gather among its altar stones.",
  "sections": [
   {
    "title": "A Blight in the Forest",
-   "body": "Fire Scar Shrine lies southwest of Astranaar and west of the Ruins of Stardust. Demonic corruption has seized the shrine, fed by servants of the Cult of the Dark Strand and the Shadow Council. Fel magic has scorched the earth around it, and demons gather openly among the trees, defying the forest's defenders.",
+   "body": "Southwest of Astranaar and west of the Ruins of Stardust, Fire Scar Shrine lies beneath a spreading blight. Servants of the Cult of the Dark Strand and the Shadow Council feed its corruption. Fel magic has scorched the earth, and demons gather openly among the trees. The forest's defenders face them there.",
    "spoiler": 0
   },
   {
    "title": "Shadows of the Dark Strand",
-   "body": "Agents of the Cult of the Dark Strand and the Shadow Council brought corruption to Fire Scar Shrine. The orc warlock Ilkrud Magthrull acted under Athrikus Narassin's orders. Summoned fiends now patrol the altar stones unchecked. A tear in the veil sometimes draws greater horrors, including the towering doomguard Akkrilus.",
+   "body": "Ilkrud Magthrull, an orc warlock, brought corruption to Fire Scar Shrine under Athrikus Narassin's orders. He served the Cult of the Dark Strand, alongside agents of the Shadow Council. Summoned fiends now patrol the altar stones unchecked. A tear in the veil sometimes draws greater horrors, including the towering doomguard Akkrilus.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "what corrupted fire scar shrine",
     "who summoned the demons"
    ],
-   "answer": "Agents of the Shadow Council and the Cult of the Dark Strand corrupted Fire Scar Shrine, with the orc warlock Ilkrud Magthrull among them. Their rituals summoned demons and left fel taint on the sacred ground."
+   "answer": "Agents of the Shadow Council and the Cult of the Dark Strand corrupted Fire Scar Shrine. The orc warlock Ilkrud Magthrull was among them. Their rituals summoned demons and left fel taint on the sacred ground."
   },
   {
    "q": "Who is Akkrilus?",
@@ -46,7 +46,7 @@
     "doomguard at fire scar",
     "rare demon fire scar shrine"
    ],
-   "answer": "Akkrilus is a doomguard that sometimes appears around Fire Scar Shrine, drawn by the demonic energies gathered around its corrupted stones."
+   "answer": "Akkrilus is a doomguard sometimes drawn to Fire Scar Shrine by the demonic energies around its corrupted stones."
   },
   {
    "q": "What connection does this place have to the Cult of the Dark Strand?",
@@ -55,17 +55,17 @@
     "dark strand connection",
     "athrikus narassin fire scar"
    ],
-   "answer": "Ilkrud Magthrull, the orc warlock who operated at Fire Scar Shrine, served Athrikus Narassin, leader of the Cult of the Dark Strand. They used the shrine as a foothold for demonic summoning and their ambitions in Ashenvale."
+   "answer": "Ilkrud Magthrull, the orc warlock at Fire Scar Shrine, served Athrikus Narassin, leader of the Cult of the Dark Strand. They used the shrine as a foothold for demonic summoning and their ambitions in Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, the desecration of Fire Scar Shrine so near Astranaar calls for swift retribution against the demons sullying the forest."
+   "text": "As a night elf, you have cause to seek swift retribution for the demons desecrating Fire Scar Shrine so near Astranaar."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can read the Shadow Council's mark in the fel scars and wild demonic summons at Fire Scar Shrine, signs of its infiltrations across Kalimdor."
+   "text": "As a warlock, you can read the Shadow Council's mark in Fire Scar Shrine's fel scars and wild demonic summons. They point to the Council's infiltrations across Kalimdor."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Fire Scar Shrine"
  ],
- "style": 1
+ "style": 2
 }

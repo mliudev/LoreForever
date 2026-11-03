@@ -17,21 +17,21 @@
   "wiki": "The Legend of Stalvan (2)",
   "chain": []
  },
- "summary": "In Darkshire, Clerk Daltry searches the town records for Stalvan Mistmantle. The oldest entry points west to the abandoned schoolhouse in Moonbrook, Westfall, where the search for Stalvan’s past begins.",
+ "summary": "In Darkshire, Clerk Daltry searches the town records for Stalvan Mistmantle. An old address points west to Moonbrook in Westfall, where the search for Stalvan’s past begins.",
  "sections": [
   {
    "title": "The Town Clerk's Request",
-   "body": "After your inquiries in Darkshire, Clerk Daltry searches the town registry for Stalvan Mistmantle. The ledger has not been updated in years, and it gives Stalvan’s last known home as the schoolhouse in Moonbrook, far to the west. Daltry treats the old address as routine record keeping. He asks you to look into it and bring back any records that might bring Darkshire’s dusty archives up to date.",
+   "body": "After your inquiries in Darkshire, Clerk Daltry searches the town registry for Stalvan Mistmantle. The ledger has gone years without an update, and lists Stalvan’s last known home as the schoolhouse in Moonbrook, far to the west. Daltry takes the old address as routine record keeping. He asks you to investigate and bring back any records that could bring Darkshire’s archives up to date.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Moonbrook",
-   "body": "The trail leads from Duskwood into Westfall, where Defias Brotherhood outlaws hold Moonbrook. The town was once a thriving farming settlement. Near its center stands the abandoned schoolhouse, quiet amid the bandit occupation. Inside, an old footlocker holds the first clear clues to Stalvan’s former life as an educator. A restless sorrow also lingers around the chest.",
+   "body": "The trail runs from Duskwood into Westfall, where the Defias Brotherhood holds Moonbrook. Once a thriving farming settlement, the town is now under outlaw control. Near its center stands the abandoned schoolhouse. Inside, an old footlocker holds the first clear clues to Stalvan’s former life as an educator. A sorrow still lingers around the chest.",
    "spoiler": 0
   },
   {
    "title": "A Tragic Haunting",
-   "body": "Opening the old footlocker summons a Forlorn Spirit, which attacks anyone who uncovers Stalvan’s past. Its mournful magic curses intruders and points to an unresolved tragedy connected to the schoolmaster’s departure from Westfall. The search for old records has become a haunting.",
+   "body": "Opening the old footlocker summons a Forlorn Spirit. It attacks anyone who uncovers Stalvan’s past, using mournful magic to curse intruders. The spirit points to an unresolved tragedy tied to the schoolmaster’s departure from Westfall. The search for old records has become a haunting.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "darkshire clerk",
     "who starts legend of stalvan 2"
    ],
-   "answer": "Clerk Daltry keeps the town records in Darkshire Town Hall, in Duskwood. He searches the registry for Stalvan Mistmantle and finds entries that have not been updated in years."
+   "answer": "Clerk Daltry keeps Darkshire’s town records in the Town Hall of Duskwood. He searches the registry for Stalvan Mistmantle and finds entries left unchanged for years."
   },
   {
    "q": "Where is the Moonbrook Schoolhouse?",
@@ -52,7 +52,7 @@
     "where is the schoolhouse",
     "where is stalvan footlocker"
    ],
-   "answer": "The Moonbrook Schoolhouse is in the center of Moonbrook, in southwestern Westfall. Its architecture resembles Darkshire Town Hall, and Defias bandits surround it."
+   "answer": "The Moonbrook Schoolhouse stands in the center of Moonbrook, in southwestern Westfall. Its architecture resembles Darkshire Town Hall, and Defias bandits surround it."
   },
   {
    "q": "What is inside the Old Footlocker?",
@@ -69,7 +69,7 @@
     "why does a ghost spawn",
     "curse of stalvan ghost"
    ],
-   "answer": "Opening the footlocker summons a Forlorn Spirit, which attacks with polymorph and curses. The restless spirit is bound to the tragedy surrounding Stalvan’s past and his departure from Moonbrook."
+   "answer": "Opening the footlocker summons a Forlorn Spirit, which attacks with polymorph and curses. The spirit is bound to the tragedy around Stalvan’s past and his departure from Moonbrook."
   },
   {
    "q": "Why did Stalvan leave Westfall?",
@@ -77,7 +77,7 @@
     "why did stalvan leave moonbrook",
     "stalvan moonbrook history"
    ],
-   "answer": "Stalvan was a schoolmaster in Moonbrook before he left to seek private tutoring work elsewhere in the kingdom. His belongings remained locked in the old schoolhouse."
+   "answer": "Stalvan was a schoolmaster in Moonbrook before leaving to seek private tutoring work elsewhere in the kingdom. His belongings remained locked in the old schoolhouse."
   },
   {
    "q": "Is Moonbrook safe to enter?",
@@ -91,7 +91,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This part of the search shows how far the kingdom’s rural towns have fractured. You must cross Defias-held Westfall just to follow a Darkshire town registry entry."
+   "text": "This search shows how far the kingdom’s rural towns have fractured. You must cross Defias-held Westfall to follow a Darkshire registry entry."
   },
   {
    "target": "class:Mage",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Legend of Stalvan (2)"
  ],
- "style": 1
+ "style": 2
 }

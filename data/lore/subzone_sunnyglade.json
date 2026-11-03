@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sunnyglade"
  },
- "summary": "Sunnyglade was once a wealthy, prosperous human settlement belonging to the kingdom of Stormwind during the First War. Devastated and eventually abandoned as the front lines collapsed, the ruined settlement now languishes under the dark influence of the Twilight's Hammer cult.",
+ "summary": "Twilight's Hammer zealots now occupy Sunnyglade's ruins in the Riverglades. Once a wealthy human settlement under Stormwind, it was devastated during the First War and abandoned as the Horde advanced.",
  "sections": [
   {
    "title": "Fall of a Golden Town",
-   "body": "Before the First War tore southern Azeroth apart, Sunnyglade was celebrated for its wealth and comfortable prosperity. That peace was violently shattered when the Old Horde invaded. Orc raiding parties attacked the town and enslaved its surviving residents, leaving only a lone wizard's tower intact to study the arcane arts of human conjurers. Though Stormwind forces mounted an effort to rescue the captive peasants and rebuild the settlement, the surrounding Riverglades were steadily swallowed by the advancing Horde. Deeming the outer province lost, Stormwind's commanders eventually withdrew their resources to defend the homeland, leaving Sunnyglade to ruin.",
+   "body": "Before the First War, Sunnyglade was a wealthy human town. Then the Old Horde invasion shattered its peace. Orc raiders attacked and enslaved the residents who survived. Only a wizard's tower remained intact, for human conjurers to study the arcane arts.\n\nStormwind forces tried to free the captive peasants and rebuild Sunnyglade. But the Horde kept advancing through the Riverglades. Stormwind's commanders judged the outer province lost and drew resources back to defend the homeland. The town was left in ruins.",
    "spoiler": 0
   },
   {
    "title": "A Blighted Refuge",
-   "body": "Today, Sunnyglade lies far beyond the safe borders of Stormwind's reestablished realm. While the iconic stone mage tower remarkably weathered the First War and the years of abandonment that followed, the peaceful township around it is gone. Instead, the secluded ruins have been occupied by zealots of the Twilight's Hammer cult, who turn the once-prosperous valley to their own sinister designs.",
+   "body": "Sunnyglade lies far beyond the safe borders of Stormwind's restored realm. Its stone mage tower survived the First War and the years of abandonment. The peaceful township around it is gone, and Twilight's Hammer zealots now occupy the secluded ruins. They use the once-prosperous valley for their own designs.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "sunnyglade history",
     "why is sunnyglade destroyed"
    ],
-   "answer": "Sunnyglade was attacked and sacked by the Old Horde during the First War. Although human forces managed to liberate captive peasants and attempted to rebuild, Stormwind ultimately abandoned the Riverglades region to focus on defending its core territories."
+   "answer": "The Old Horde attacked and sacked Sunnyglade during the First War, enslaving its surviving residents. Human forces freed captive peasants and tried to rebuild, but Stormwind later abandoned the Riverglades to defend its homeland."
   },
   {
    "q": "Who controls Sunnyglade now?",
@@ -37,7 +37,7 @@
     "sunnyglade enemies",
     "sunnyglade twilight"
    ],
-   "answer": "The ruins of Sunnyglade are currently occupied by the Twilight's Hammer cult, who have set up camp amidst the broken houses and ancient wizard's tower."
+   "answer": "Twilight's Hammer cultists occupy Sunnyglade's ruins, including its broken houses and ancient wizard's tower."
   },
   {
    "q": "Why did the orcs leave the mage tower standing during the First War?",
@@ -45,7 +45,7 @@
     "orc mage tower sunnyglade",
     "sunnyglade tower lore"
    ],
-   "answer": "When the Old Horde sacked Sunnyglade, they deliberately spared the town's arcane tower so their warlocks and commanders could study human magic and unravel its secrets."
+   "answer": "The Old Horde spared Sunnyglade's arcane tower so its warlocks and commanders could study human magic and seek to unravel its secrets."
   },
   {
    "q": "Why didn't Stormwind reclaim the town after the war?",
@@ -53,17 +53,17 @@
     "why abandoned",
     "stormwind sunnyglade"
    ],
-   "answer": "As the First War intensified, Stormwind leadership judged the Riverglades to be lost territory and redirected all military focus toward the kingdom's central defense, leaving Sunnyglade behind."
+   "answer": "Stormwind's leaders judged the Riverglades lost as the First War intensified and redirected military resources to defend the homeland, leaving Sunnyglade behind."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The solitary wizard's tower of Sunnyglade is an eerie reminder of early human spellcraft, once spared by the Old Horde solely so they could dissect human arcane knowledge."
+   "text": "As a mage, Sunnyglade's lone wizard's tower recalls early human spellcraft. The Old Horde spared it so they could study human arcane knowledge."
   },
   {
    "target": "race:Human",
-   "text": "The overgrown stones of Sunnyglade serve as a somber monument to the outer settlements abandoned when Stormwind was forced to pull back during the First War."
+   "text": "As a human, Sunnyglade's overgrown stones recall the outer settlements Stormwind abandoned when it pulled back during the First War."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Sunnyglade"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:817"
   ]
  },
- "summary": "Across the Echo Isles off Durotar's southeastern coast, tigers supply fur for the Darkspear, whose refugee population keeps growing. The trolls use the pelts for blankets, tents, and armor.",
+ "summary": "Across the Echo Isles off Durotar's southeastern coast, Durotar Tiger Fur helps the growing Darkspear settlement endure. The trolls make blankets, tents, and armor from the pelts.",
  "sections": [
   {
    "title": "A Vital Resource for the Darkspear",
-   "body": "In Sen'jin Village, the Darkspear must make scarce supplies last. They let the local tigers thrive until their growing needs call for a cull. Trolls cure the thick hides into goods their settlement needs, including protective armor and warm blankets for changing seasonal weather.",
+   "body": "In Sen'jin Village, the Darkspear must make scarce supplies last. So they let local tigers thrive until their needs call for a cull. Trolls cure the thick hides into goods their settlement needs, including armor and warm blankets for changing seasonal weather.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Echo Isles",
-   "body": "The Echo Isles lie south of Durotar, across open water. The Darkspear once called the archipelago home, until the witch doctor Zalazane drove them out. Hunters face dangers from Zalazane's thralls and from tigers waiting among the thick foliage. Experienced hunters such as Vel'rin Fang speak of spending entire days motionless in the jungle brush to secure a single clean kill.",
+   "body": "The Echo Isles lie south of Durotar, across open water. The Darkspear once called the islands home, until the witch doctor Zalazane drove them out. Hunters face danger from Zalazane's thralls and from tigers among the thick foliage. Experienced hunters such as Vel'rin Fang speak of spending entire days motionless in the jungle brush to secure a single clean kill.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who needs tiger fur",
     "practical prey purpose"
    ],
-   "answer": "Vel'rin Fang gathers the fur for the growing Darkspear settlement, where the trolls use it to make blankets, tents, and protective leather armor against seasonal weather."
+   "answer": "Vel'rin Fang gathers fur for the growing Darkspear settlement. The trolls use it to make blankets, tents, and protective leather armor against seasonal weather."
   },
   {
    "q": "Why don't the trolls overhunt the tigers?",
@@ -48,17 +48,17 @@
     "tiger conservation",
     "cull the flock"
    ],
-   "answer": "The Darkspear let the tiger population thrive and cull only when growing community needs strain supplies of shelter and clothing."
+   "answer": "The Darkspear let the tiger population thrive and cull only when their growing community's needs strain supplies of shelter and clothing."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear, tiger hides mean survival in Sen'jin Village and recall the painful loss of their homeland on the Echo Isles."
+   "text": "For the Darkspear, tiger hides mean survival in Sen'jin Village. They also recall the painful loss of their homeland on the Echo Isles."
   },
   {
    "target": "class:Hunter",
-   "text": "As a Hunter, stalking the Echo Isles tigers mirrors classic troll hunting rites, demanding patience and camouflage to ambush the stealthy island predators."
+   "text": "As a Hunter, stalking tigers in the Echo Isles calls for patience and camouflage. The hunt echoes classic troll hunting rites as you ambush the stealthy island predators."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
   "Durotar Tiger Fur",
   "Practical Prey"
  ],
- "style": 1
+ "style": 2
 }

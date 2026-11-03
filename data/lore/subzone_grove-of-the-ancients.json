@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Grove of the Ancients"
  },
- "summary": "Nature spirits and kaldorei gather at the Grove of the Ancients, beside old temple ruins in southeastern Darkshore. Onu, an Ancient of Lore, watches over this sacred sanctuary near the Wildbend River.",
+ "summary": "Nature spirits and kaldorei gather in the Grove of the Ancients, where Onu, an Ancient of Lore, keeps watch. Old temple ruins stand beside the Wildbend River in southeastern Darkshore.",
  "sections": [
   {
    "title": "Sanctuary of the Wildbend",
-   "body": "In southeastern Darkshore, old temple stones surround the Grove of the Ancients. The Wildbend River runs through its heart, a quiet refuge amid a coastline troubled by corruption and restless wildlife. Nature spirits and kaldorei gather here as the Circle of Ancients, tending to the forest’s balance.",
+   "body": "Old temple stones ring the Grove of the Ancients in southeastern Darkshore. The Wildbend River runs through its heart, offering refuge from a troubled coastline. Nature spirits and kaldorei gather here as the Circle of Ancients. Together, they tend to the forest’s balance.",
    "spoiler": 0
   },
   {
    "title": "Keepers and Watchers",
-   "body": "Onu, a towering Ancient of Lore, watches the land’s changing fortunes and offers wisdom to travelers. Wandering merchants and slumbering druids rest beneath the boughs. Territorial furbolg camps lie to the southeast, and Alliance sentinels and druids watch the southern reaches of Darkshore from this frontier outpost.",
+   "body": "Onu, an Ancient of Lore, watches the land’s changing fortunes and offers wisdom to travelers. Wandering merchants and slumbering druids rest beneath the boughs. To the southeast, territorial furbolg camps hold their ground. Alliance sentinels and druids watch the southern reaches of Darkshore from this frontier outpost.",
    "spoiler": 0
   }
  ],
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you can seek the wisdom of Onu, the Ancient of Lore, and the spirits of the forest at this revered sanctuary."
+   "text": "As a druid, you can seek wisdom from Onu, the Ancient of Lore, and the spirits of the forest at this revered sanctuary."
   },
   {
    "target": "race:NightElf",
@@ -86,5 +86,5 @@
  "attribution": [
   "Grove of the Ancients"
  ],
- "style": 1
+ "style": 2
 }

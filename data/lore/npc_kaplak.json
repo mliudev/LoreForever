@@ -8,11 +8,11 @@
   "wiki": "Kaplak",
   "refs": 2
  },
- "summary": "In Razor Hill, Kaplak trains young orc and troll rogues for the Horde. He teaches stealth, subterfuge, and bladecraft before sending them to Orgrimmar.",
+ "summary": "In Razor Hill, Kaplak prepares young rogues for the Horde's quieter work. He teaches orc and troll students before sending them north to Orgrimmar.",
  "sections": [
   {
    "title": "A Mentor in the Shadows",
-   "body": "Kaplak trains new Horde rogues in Razor Hill. Orcish custom favors open combat and roaring charges, but he teaches the quieter skills needed to survive: stalking unseen, picking locks, and striking from behind. When his students outgrow his training in Durotar's dusty red ravines, he sends them north to Orgrimmar, where senior guild operatives can deepen their craft.",
+   "body": "Kaplak trains new Horde rogues in Razor Hill. Though orcish custom favors open combat and roaring charges, he teaches skills that call for patience. His students learn to stalk unseen, pick locks, and strike from behind.\n\nWhen they outgrow his lessons in Durotar's red ravines, Kaplak sends them north to Orgrimmar. There, senior guild operatives can deepen their craft.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "kaplak lore",
     "kaplak razor hill"
    ],
-   "answer": "Kaplak is an orc rogue trainer in Razor Hill, Durotar. He trains young orc and troll rogues from the Valley of Trials in early rogue skills, then sends them to higher trainers in Orgrimmar."
+   "answer": "Kaplak is an orc rogue trainer in Razor Hill, Durotar. He teaches early rogue skills to young orc and troll rogues from the Valley of Trials, then sends them to higher trainers in Orgrimmar."
   },
   {
    "q": "Where can Kaplak be found?",
@@ -33,7 +33,7 @@
     "kaplak location",
     "find kaplak"
    ],
-   "answer": "Kaplak can be found in Razor Hill, the central settlement of Durotar. He is usually resting in or around the local barracks with other class trainers."
+   "answer": "Kaplak can be found in Razor Hill, Durotar's central settlement. He usually rests in or around the local barracks with other class trainers."
   },
   {
    "q": "What quests does Kaplak offer?",
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a young orc or troll rogue leaving the Valley of Trials, you can learn your first trade from Kaplak before he directs you to the covert networks in Orgrimmar."
+   "text": "As a young orc or troll rogue leaving the Valley of Trials, you can learn your first trade from Kaplak. Then he directs you to the covert networks in Orgrimmar."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can count on Kaplak to train scouts, spies, and assassins who guard Durotar and work beyond ordinary battle lines."
+   "text": "As a member of the Horde, you can count on Kaplak to train scouts, spies, and assassins. They guard Durotar and work beyond ordinary battle lines."
   }
  ],
  "keywords": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Kaplak"
  ],
- "style": 1
+ "style": 2
 }

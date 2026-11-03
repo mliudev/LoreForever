@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Monty's eccentric delusions and pirate affectations stem directly from the trauma of the Gnomeregan incident, showing the deep personal toll the fall of their city took on surviving gnomes."
+   "text": "Monty's pirate manner and eccentric delusions come from the trauma of the Gnomeregan incident. They show the personal toll the city's fall took on surviving gnomes."
   },
   {
    "target": "profession:Cooking",
-   "text": "Nipsy's culinary venture revolves around skewering fresh Deeprun rats into edible kabobs for commuters traveling between Ironforge and Stormwind."
+   "text": "Nipsy skewers fresh Deeprun rats into kabobs for travelers between Ironforge and Stormwind."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Deeprun Tram serves as an essential, high-speed engineering marvel linking Stormwind and Ironforge, complete with quirky local vendors serving travelers at either depot."
+   "text": "The Deeprun Tram links Stormwind and Ironforge with a high-speed route. Local vendors serve travelers at both depots."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "who is monty",
     "monty tram"
    ],
-   "answer": "Monty is an eccentric gnome found on the Ironforge side of the Deeprun Tram. Affected deeply by the catastrophe at Gnomeregan, Monty has adopted the speech and mannerisms of a pirate despite having never seen an ocean, catching live rats to ship across the tramline.",
+   "answer": "Monty is an eccentric gnome at the Ironforge side of the Deeprun Tram. Deeply affected by Gnomeregan's catastrophe, he has taken up a pirate's speech and manner, though he has never seen an ocean. He catches live rats to send across the tramline.",
    "q": "Who gives the quest Me Brother, Nipsy?"
   },
   {
@@ -41,7 +41,7 @@
     "where is nipsy",
     "nipsy location"
    ],
-   "answer": "Nipsy is Monty's brother who operates a food stall at the Stormwind Deeprun Tram Depot. He relies on Monty to send shipments of live rats across the tram tunnel to keep his rat kabob business supplied with fresh ingredients.",
+   "answer": "Nipsy is Monty's brother and runs a food stall at the Stormwind Deeprun Tram Depot. He relies on Monty to send live rats across the tram tunnel for his rat kabob business.",
    "q": "Who is Nipsy?"
   },
   {
@@ -50,7 +50,7 @@
     "mystery meat crate",
     "what is in the box"
    ],
-   "answer": "Despite the tongue-in-cheek label of Mystery Meat, the crate is filled with live, twitching Deeprun rats caught by Monty. Nipsy insists they arrive alive and kicking so that the meat does not spoil before being skewered into kabobs.",
+   "answer": "The Carton of Mystery Meat holds live Deeprun rats caught by Monty. Nipsy needs them to arrive alive so they will not spoil before he makes them into kabobs.",
    "q": "What is inside the Carton of Mystery Meat?"
   },
   {
@@ -59,7 +59,7 @@
     "is monty a pirate",
     "monty pirate lore"
    ],
-   "answer": "Monty talks like a pirate because the trauma of the Gnomeregan disaster shattered his mind. As his brother Nipsy laments, Monty has never even seen an ocean, yet he clings to pirate affectations and warns travelers against losing limbs over the tram rails.",
+   "answer": "Monty speaks like a pirate to cope with the trauma of the Gnomeregan disaster. Nipsy says Monty has never seen an ocean, though he clings to pirate mannerisms and warns travelers about losing limbs on the tram rails.",
    "q": "Why does Monty speak like a pirate?"
   },
   {
@@ -68,7 +68,7 @@
     "rat kabob operation",
     "nipsy food"
    ],
-   "answer": "Nipsy prepares and sells rat kabobs to commuters passing through the Stormwind depot. Keeping a steady supply of fresh, twitching critters arriving on the tram is what keeps his unconventional underground eatery running.",
+   "answer": "Nipsy makes and sells rat kabobs to travelers at the Stormwind depot. Fresh Deeprun rats arriving by tram keep his stall supplied.",
    "q": "What does Nipsy do with the rats?"
   },
   {
@@ -77,7 +77,7 @@
     "where do i take the meat",
     "tram ride to nipsy"
    ],
-   "answer": "You take the shipment across the Deeprun Tram from the Ironforge depot to the Stormwind terminal. Stepping aboard one of the high-speed tram cars carries you through the underwater tunnel straight to Nipsy's station on the Stormwind side.",
+   "answer": "You carry the shipment on the Deeprun Tram from the Ironforge depot to the Stormwind terminal. The tram runs through the underwater tunnel to Nipsy's station on the Stormwind side.",
    "q": "Where do you deliver the shipment?"
   }
  ],
@@ -100,23 +100,24 @@
  ],
  "sections": [
   {
-   "body": "Me Brother, Nipsy is a brief courier errand that introduces commuters to the wonders\u2014and hazards\u2014of the Deeprun Tram. Stationed on the Ironforge side of the tramway, an odd gnome named Monty tasks travelers with ferrying a carton of fresh critters through the subterranean transit corridor to his brother Nipsy at the Stormwind depot. The delivery highlights the bizarre everyday commerce taking place beneath the mountains connecting the dwarven and human capitals.",
+   "body": "At the Ironforge station, Monty asks you to carry live rats through the Deeprun Tram to his brother Nipsy at the Stormwind depot. The short trip links the dwarven and human capitals beneath the mountains. Curious trades carry on along the way.",
    "spoiler": 0,
    "title": "A Subterranean Delivery"
   },
   {
-   "body": "While labeled as a Carton of Mystery Meat, the parcel is actually packed with live, squirming Deeprun rats. Nipsy operates a rat kabob enterprise at the Stormwind terminal and requires his stock delivered before it goes bad. When the crate arrives intact and twitching, Nipsy is relieved to keep his culinary operation stocked for hungry travelers passing through the transit hub.",
+   "body": "The crate is labeled Carton of Mystery Meat, but inside are live Deeprun rats. Nipsy runs a rat kabob stall at the Stormwind terminal and needs the rats before they spoil. When the crate arrives intact and twitching, he is relieved to have food for travelers passing through the station.",
    "spoiler": 0,
    "title": "The Rat Kabob Trade"
   },
   {
-   "body": "Beneath the humorous delivery lies a somber glimpse into the displaced gnomes of Ironforge. Monty speaks in exaggerated pirate slang, warning travelers to keep their limbs aboard lest they end up peglegged. Upon receiving the rats, Nipsy laments that Monty has never seen an ocean in his life; his eccentric pirate persona is merely a coping mechanism born from the lingering trauma of the radioactive fall of Gnomeregan.",
+   "body": "Monty speaks in exaggerated pirate slang and warns travelers to keep their limbs aboard the tram. Nipsy says Monty has never seen an ocean in his life. Monty uses his pirate manner to cope with the lingering trauma of Gnomeregan's radioactive fall.",
    "spoiler": 1,
    "title": "Scars of Gnomeregan"
   }
  ],
- "summary": "Me Brother, Nipsy is an Alliance delivery quest that takes travelers across the Deeprun Tram between Ironforge and Stormwind. A gnome named Monty tasks commuters with transporting a crate of live rats to his brother Nipsy, who runs a rat kabob stall at the opposite terminal. Beneath the quirky errand lies a touching look at Monty's fractured mind following the tragedy of Gnomeregan.",
+ "summary": "On the Deeprun Tram, Monty sends live rats to his brother Nipsy in Stormwind. Nipsy runs a rat kabob stall at the far terminal, while Monty's odd manner hints at Gnomeregan's tragedy.",
  "attribution": [
   "In-game quest text: Me Brother, Nipsy"
- ]
+ ],
+ "style": 2
 }

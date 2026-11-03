@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Calmbreeze Inn"
  },
- "summary": "Calmbreeze Inn refers to the primary establishments offering shelter and services across Zephras Isle, found in both Shen'dar Village and Valaanar. They serve as essential rest stops for travelers exploring the island, housing local trade trainers, innkeepers, and historical artifacts.",
+ "summary": "In Shen'dar Village and Valaanar, Calmbreeze Inns offer travelers rest on Zephras Isle. Both provide shelter and local services.",
  "sections": [
   {
    "title": "Rest on the Isle",
-   "body": "The Calmbreeze Inns provide sanctuary amid the winding trails of Zephras Isle. In Shen'dar Village, the inn operates under Coriella Calmbreeze and doubles as a central hub where island tradesfolk gather, including mentors in herbalism, skinning, and enchanting. Across the way in Valaanar, another Calmbreeze Inn accommodates local wayfarers and shelters rare curios, including an audio crystal recording the history of the ancient rebellion in Eldre'Thalas.",
+   "body": "Travelers can rest at the Calmbreeze Inns on Zephras Isle. Coriella Calmbreeze runs the inn in Shen'dar Village, where island tradesfolk gather. There, you can find mentors in herbalism, skinning, and enchanting.\n\nAcross the way, the Valaanar inn welcomes local wayfarers and shelters rare curios. Upstairs, an audio crystal holds a recording of the ancient rebellion in Eldre'Thalas.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is calmbreeze inn",
     "calmbreeze inn map"
    ],
-   "answer": "Calmbreeze Inn locations can be found in both Shen'dar Village and Valaanar on Zephras Isle."
+   "answer": "Calmbreeze Inns are found in Shen'dar Village and Valaanar on Zephras Isle."
   },
   {
    "q": "Who runs the inn in Shen'dar Village?",
@@ -31,7 +31,7 @@
     "calmbreeze innkeeper",
     "who runs calmbreeze inn"
    ],
-   "answer": "The Shen'dar Village location is maintained by Innkeeper Coriella Calmbreeze, offering hospitality to island residents and travelers alike."
+   "answer": "Innkeeper Coriella Calmbreeze runs the Shen'dar Village inn and welcomes island residents and travelers."
   },
   {
    "q": "What trainers can be found at the inn?",
@@ -39,7 +39,7 @@
     "calmbreeze trainers",
     "shen'dar inn trainers"
    ],
-   "answer": "In Shen'dar Village, the inn houses Halassa Fernbreeze for Herbalism, Mendalass Tattermend for Skinning, Nasalanna Windsinger for Enchanting, and Miriann Mistblade for Rogue training."
+   "answer": "At the Shen'dar Village inn, Halassa Fernbreeze teaches Herbalism, Mendalass Tattermend teaches Skinning, Nasalanna Windsinger teaches Enchanting, and Miriann Mistblade teaches Rogue training."
   },
   {
    "q": "What is the audio crystal found upstairs in Valaanar?",
@@ -47,17 +47,17 @@
     "valaanar audio crystal",
     "the rebellion in eldre'thalas crystal"
    ],
-   "answer": "Upstairs in the Valaanar inn rests an audio crystal containing Part 3 of 'The Rebellion In Eldre'Thalas', chronicling historic events from the ancient Highborne city."
+   "answer": "Upstairs in the Valaanar inn, an audio crystal holds Part 3 of 'The Rebellion In Eldre'Thalas', recounting events from the ancient Highborne city."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists visiting Shen'dar Village can seek out Halassa Fernbreeze inside the Calmbreeze Inn to hone their gathering craft."
+   "text": "As an herbalist in Shen'dar Village, you can find Halassa Fernbreeze inside the Calmbreeze Inn and hone your gathering craft."
   },
   {
    "target": "class:Rogue",
-   "text": "Miriann Mistblade offers rogue instruction from the hearth of the Shen'dar Village Calmbreeze Inn."
+   "text": "As a rogue in Shen'dar Village, you can seek instruction from Miriann Mistblade at the Calmbreeze Inn hearth."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Calmbreeze Inn"
- ]
+ ],
+ "style": 2
 }

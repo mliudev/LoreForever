@@ -20,16 +20,16 @@
    "Je'neu of the Earthen Ring (quest)"
   ]
  },
- "summary": "At Zoram'gar Outpost, Je'neu of the Earthen Ring studies a spreading corruption. Horde travelers bring him a corrupted water globe recovered from Ashenvale's elementals. As a shaman devoted to elemental harmony, he seeks to understand the blight along the Zoram Strand and within Blackfathom Deeps, in hope of halting the poison in the region's waters.",
+ "summary": "At Zoram'gar Outpost, Je'neu of the Earthen Ring studies a corruption spreading through the region. Horde travelers bring him a corrupted water globe taken from Ashenvale's elementals. He seeks to understand the blight along the Zoram Strand and in Blackfathom Deeps, hoping to halt the poison in the waters.",
  "sections": [
   {
    "title": "A Messenger for the Elements",
-   "body": "Mastok Wrilehiss sends you to Je'neu Sancrea with a corrupted water globe recovered from Ashenvale's elementals. Strange elementals have surfaced across the region, animated by unnatural power that scouts cannot explain. Among their remains, the intact globe pulses with corrupted magic. Mastok knows soldiers and scouts lack the spiritual insight to understand it, so he directs Horde travelers to someone versed in ancient legends and elemental lore.",
+   "body": "Mastok Wrilehiss sends you to Je'neu Sancrea with a corrupted water globe recovered from Ashenvale's elementals. Strange elementals have appeared across the region, driven by power the scouts cannot explain. Among their remains, one intact globe pulses with corrupted magic.\n\nMastok knows soldiers and scouts lack the spiritual insight to understand it. So he directs Horde travelers to someone versed in ancient legends and elemental lore.",
    "spoiler": 0
   },
   {
    "title": "The Eyes of the Earthen Ring",
-   "body": "Je'neu Sancrea serves the Earthen Ring, an order of shamans devoted to balance among Azeroth's primal forces. Horde forces guard the Zoram Strand frontier while he studies the spiritual wound in Blackfathom Deeps' nearby temple ruins. To Je'neu, an elemental drawing strength from a tainted vessel is no isolated threat. It is an alarming omen: unseen, ancient powers are perverting the natural order.",
+   "body": "Je'neu Sancrea serves the Earthen Ring, an order of shamans devoted to balance among Azeroth's primal forces. Horde forces guard the Zoram Strand frontier while he studies the spiritual wound in the nearby temple ruins of Blackfathom Deeps.\n\nTo Je'neu, an elemental drawing strength from a tainted vessel is no isolated threat. It is an alarming omen: unseen ancient powers are perverting the natural order.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "who are earthen ring",
     "earthen ring lore"
    ],
-   "answer": "The Earthen Ring is an order of shamans devoted to keeping Azeroth's primal elements in harmony. Its members study ancient lore, forgotten spirits, and old legends to mend elemental chaos and heal spiritual corruption across the world."
+   "answer": "The Earthen Ring is an order of shamans devoted to keeping Azeroth's primal elements in harmony. Its members study ancient lore, forgotten spirits and old legends to mend elemental chaos and heal spiritual corruption across the world."
   },
   {
    "q": "Where can Je'neu Sancrea be found?",
@@ -68,7 +68,7 @@
     "befouled globe lore",
     "water globe"
    ],
-   "answer": "The Befouled Water Globe is a magical conduit through which powerful water elementals channel their strength. Its corrupted, intact state suggests dark forces are deliberately twisting and enslaving the local spirits."
+   "answer": "The Befouled Water Globe is a magical conduit through which powerful water elementals channel their strength. Its corrupted yet intact state suggests dark forces are deliberately twisting and enslaving the local spirits."
   },
   {
    "q": "Who sends you to speak with Je'neu?",
@@ -76,7 +76,7 @@
     "who starts this quest",
     "mastok quest"
    ],
-   "answer": "Mastok Wrilehiss, a Horde officer stationed in Ashenvale, directs adventurers to deliver the tainted relic to Je'neu. The army cannot decipher its strange magical nature."
+   "answer": "Mastok Wrilehiss, a Horde officer stationed in Ashenvale, directs travelers to deliver the tainted relic to Je'neu. The army cannot decipher its strange magical nature."
   },
   {
    "q": "What will Je'neu do with the globe?",
@@ -84,7 +84,7 @@
     "what happens to the globe",
     "cure the corruption"
    ],
-   "answer": "Je'neu takes custody of the vessel for the Earthen Ring to study its blight. He hopes that study will reveal how to cleanse the waters and restore peace to the region's troubled elementals."
+   "answer": "Je'neu takes custody of the vessel for the Earthen Ring to study its blight. He hopes the study will reveal how to cleanse the waters and restore peace to the region's troubled elementals."
   }
  ],
  "angles": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Je'neu of the Earthen Ring (quest)"
  ],
- "style": 1
+ "style": 2
 }

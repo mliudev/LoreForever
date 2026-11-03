@@ -16,16 +16,16 @@
   "wiki": null,
   "previous": ""
  },
- "summary": "Something gleams beneath the rubble: a badge bearing Theramore's sign, a golden anchor over white enamel, with the name Lieutenant Paval Reethe embossed under the anchor. Captain Garran Vimes in Theramore is the one to bring it to.",
+ "summary": "At the Shady Rest Inn, Lieutenant Paval Reethe's badge lies beneath the rubble, marked with Theramore's sign. Bring it to Captain Garran Vimes in Theramore.",
  "sections": [
   {
    "title": "A Glint in the Rubble",
-   "body": "Something gleams beneath the rubble. Brushing off the ash and debris reveals a badge showing the sign of Theramore, with Lieutenant Paval Reethe's name embossed below it. Captain Garran Vimes in Theramore should see it, and will ask what turned up in the ruins of the Shady Rest Inn.",
+   "body": "Ash and debris bury a badge in the Shady Rest Inn ruins. Beneath it, Lieutenant Paval Reethe's name lies below Theramore's sign. Captain Garran Vimes in Theramore asks what you found, and the badge belongs in his hands.",
    "spoiler": 0
   },
   {
    "title": "The Captain's Reply",
-   "body": "Vimes says a guard's badge brought in is never good news. Some guards fall in battle, and Vimes must carry the word to their grieving families. For others, nobody ever learns what became of them, and sometimes the truth is worse still.",
+   "body": "Captain Garran Vimes says a guard's badge brings grim news. Some guards fall in battle, and he must carry word to their grieving families. Others vanish, leaving their fate unknown. At times, the truth is worse still.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "where to find reethe badge",
     "shady rest inn badge"
    ],
-   "answer": "It lies beneath rubble, caked in ash and debris. Captain Garran Vimes will ask what turned up in the ruins of the Shady Rest Inn."
+   "answer": "The badge lies beneath rubble, ash, and debris in the Shady Rest Inn ruins. Captain Garran Vimes asks what you found there."
   },
   {
    "q": "Whose name is on the badge?",
@@ -46,7 +46,7 @@
     "name on badge",
     "who lost the badge"
    ],
-   "answer": "The name embossed beneath the anchor is Lieutenant Paval Reethe."
+   "answer": "Lieutenant Paval Reethe's name is embossed beneath the anchor."
   },
   {
    "q": "Who gets the badge?",
@@ -55,7 +55,7 @@
     "where to turn in badge",
     "captain garran vimes location"
    ],
-   "answer": "Captain Garran Vimes, in Theramore, is who should see it."
+   "answer": "Captain Garran Vimes in Theramore should see the badge."
   },
   {
    "q": "What does the badge look like?",
@@ -64,7 +64,7 @@
     "guard badge appearance",
     "what does the badge look like"
    ],
-   "answer": "A gold anchor over white enamel, which is the sign of Theramore."
+   "answer": "The badge bears a gold anchor over white enamel, Theramore's sign."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Classic quest text: Lieutenant Paval Reethe"
- ]
+ ],
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Torch of Retribution"
   ]
  },
- "summary": "Squire Maltrake tells you the four towers of Searing Gorge can never be destroyed, but the Torch of Retribution can set them burning for a very long time. While they burn, no guard or sentry can hold the watch posts, and the Dark Irons lose their first line of defense.",
+ "summary": "In Searing Gorge, you carry Maltrake’s torch to the four sentry towers. Its flames cannot be subdued, and the towers cannot be destroyed. While they burn, guards and sentries abandon their posts, leaving the Dark Irons without their first line of defense.",
  "sections": [
   {
    "title": "A Fire No Force Can Subdue",
-   "body": "The flames the torch lights cannot be put out by any element or force. Maltrake sends you inside each of the four sentry towers, North, South, East and West, to use the torch within their walls. The Dark Irons have posted lookouts at the towers, and Maltrake warns you to beware of them.",
+   "body": "The Torch of Retribution burns beyond the power of any element or force to subdue. Maltrake sends you into each of the four sentry towers, North, South, East and West, to use it within the walls. Dark Iron lookouts keep watch there, so Maltrake warns you to beware.",
    "spoiler": 0
   },
   {
    "title": "After the Last Flame",
-   "body": "Back with Maltrake after the last tower is ablaze, you hear him cry out in triumph to a master. Velarok the Deceiver answers, and he shows himself as a drake of the black dragonflight. His plan, he gloats, has worked perfectly, for you would never have helped the Blackrock legion had they simply asked. When Maltrake wonders what to do with you now, Velarok silences him: you will live to watch the Blackrock legion invade the gorge. He has Maltrake hand over trinkets, speaks of a molt, and flies off toward the gorge.",
+   "body": "When you return to Maltrake after the last tower burns, he cries out in triumph to his master. Velarok the Deceiver answers, revealing himself as a drake of the black dragonflight. His plan has worked perfectly, he gloats, because you would never have aided the Blackrock legion if they had simply asked.\n\nMaltrake wonders what to do with you, but Velarok silences him. You will live to watch the Blackrock legion invade the gorge. Velarok has Maltrake hand over trinkets, speaks of a molt, then flies toward the gorge.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "set them ablaze quest giver",
     "maltrake quest"
    ],
-   "answer": "Squire Maltrake does, and he provides the Torch of Retribution for the job."
+   "answer": "Squire Maltrake sends you to the towers and gives you the Torch of Retribution."
   },
   {
    "q": "Which towers must be ignited?",
@@ -57,7 +57,7 @@
     "sentry tower locations",
     "set them ablaze towers"
    ],
-   "answer": "The four sentry towers: North, South, East and West. Each must be entered, and the torch used inside."
+   "answer": "Enter and ignite the four sentry towers: North, South, East and West."
   },
   {
    "q": "Why use the Torch of Retribution instead of tearing down the towers?",
@@ -65,7 +65,7 @@
     "why torch",
     "destroy sentry towers"
    ],
-   "answer": "The towers can never be destroyed. Instead, the torch sets them burning for ages, with flames no element or force can subdue."
+   "answer": "The towers cannot be destroyed. The Torch of Retribution keeps them burning for ages, and no element or force can subdue its flames."
   },
   {
    "q": "What was the previous step before this one?",
@@ -73,7 +73,7 @@
     "set them ablaze prerequisite",
     "prior quest"
    ],
-   "answer": "Speaking with Squire Maltrake, who then gives you this undertaking."
+   "answer": "You spoke with Squire Maltrake, who then gave you this undertaking."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Set Them Ablaze! (Classic)"
- ]
+ ],
+ "style": 2
 }

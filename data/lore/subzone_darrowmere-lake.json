@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Darrowmere Lake"
  },
- "summary": "Darrowmere Lake is an expansive freshwater lake situated in the southeastern reaches of the Western Plaguelands. At its heart lies the fortress island of Caer Darrow, whose ruined halls conceal the Cult of the Damned's dread necromantic academy, Scholomance.",
+ "summary": "At the heart of the Western Plaguelands, Darrowmere Lake surrounds Caer Darrow. The island fortress holds ruined halls above Scholomance, the Cult of the Damned's academy of necromancy.",
  "sections": [
   {
    "title": "A Storied Inland Sea",
-   "body": "Darrowmere Lake is among the largest inland bodies of water in the Eastern Kingdoms, bordered by the blight-stricken forests of Lordaeron and fed by the Thondroril and Darrowmere rivers. During the Second War, these deep waters saw intense naval skirmishes between the Horde and Grand Admiral Daelin Proudmoore's fleet. The Horde also struck the island fortress of Caer Darrow at the lake's heart, sacking it and carrying off its ancient runestone. Once a thriving waterway and trade artery for the House of Barov, the lake is now a grim, mist-veiled basin in the heart of the Plaguelands.",
+   "body": "Darrowmere Lake is among the largest inland waters in the Eastern Kingdoms. The Thondroril and Darrowmere rivers feed its deep waters, beneath the blighted forests of Lordaeron. During the Second War, the Horde and Grand Admiral Daelin Proudmoore's fleet fought naval skirmishes here.\n\nThe Horde sacked Caer Darrow on the central island and carried away its ancient runestone. Once, the thriving House of Barov sent trade across the lake. Now a grim basin lies veiled in mist at the heart of the Plaguelands.",
    "spoiler": 0
   },
   {
    "title": "The Shadow on the Waters",
-   "body": "Dominating the center of the lake is Caer Darrow, once the proud ancestral seat of the Barov family. Beneath its broken foundations lies Scholomance, the Scourge's primary academy for necromancy and dark arts. The waters surrounding the island are stagnant and fraught with danger, reflecting the dark legacy of the Cult of the Damned. Adventurers venturing across its surface must brave not only the perils of the blighted countryside but the pervasive dread cast by the fortress at its core.",
+   "body": "Caer Darrow rises from the center of Darrowmere Lake. It was once the proud ancestral seat of the Barov family. Beneath its broken foundations lies Scholomance, the Scourge's chief academy of necromancy and dark arts. The waters around the island are stagnant, reflecting the Cult of the Damned's dark legacy. To reach the fortress at the lake's heart, you must cross those waters through the dangers of the blighted countryside.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is darrowmere lake",
     "how to get to darrowmere"
    ],
-   "answer": "Darrowmere Lake is located in the southeastern corner of the Western Plaguelands, connecting the Thondroril River to the north and the Darrowmere River flowing to the south."
+   "answer": "Darrowmere Lake lies in the southeastern corner of the Western Plaguelands. It joins the Thondroril River to the north with the Darrowmere River flowing south."
   },
   {
    "q": "What is on the island in the center of the lake?",
@@ -37,7 +37,7 @@
     "what is on the island",
     "caer darrow location"
    ],
-   "answer": "The island holds Caer Darrow, an ancient settlement once ruled by the noble House of Barov. Beneath the ruined town lies Scholomance, a sprawling school of dark magic operated by the Cult of the Damned."
+   "answer": "Caer Darrow, an ancient settlement once ruled by the noble House of Barov, occupies the island. Beneath the ruined town lies Scholomance, a sprawling school of dark magic run by the Cult of the Damned."
   },
   {
    "q": "What role did Darrowmere Lake play in the Second War?",
@@ -46,7 +46,7 @@
     "naval battles darrowmere",
     "darrowmere history"
    ],
-   "answer": "The lake was a contested waterway where the Proudmoore fleet fought naval battles against the Horde. The Horde also raided Caer Darrow on the lake's central island, sacking the fortress and seizing its ancient runestone."
+   "answer": "During the Second War, Darrowmere Lake was a contested waterway. The Proudmoore fleet fought naval battles against the Horde, which also sacked Caer Darrow and seized its ancient runestone."
   },
   {
    "q": "Can ships still sail into Darrowmere Lake?",
@@ -54,17 +54,17 @@
     "darrowmere boat access",
     "can ships reach darrowmere"
    ],
-   "answer": "While massive naval fleets navigated the lake during the Second War, the connecting rivers now feature steep waterfalls and shallow passages, preventing large vessels from sailing in from the sea."
+   "answer": "Large vessels can no longer reach Darrowmere Lake from the sea. The connecting rivers have steep waterfalls and shallow passages, though massive fleets sailed the lake during the Second War."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance veterans, Darrowmere Lake is remembered as a key naval front where Proudmoore's fleet fought the Old Horde during the Second War."
+   "text": "For Alliance veterans, Darrowmere Lake recalls a key naval front. Proudmoore's fleet fought the Old Horde here during the Second War."
   },
   {
    "target": "race:Undead",
-   "text": "The lake marks the threshold of Caer Darrow, where the living Barovs bargained away their mortal home to the Lich King to create the dread academy of Scholomance."
+   "text": "As an undead, you know Darrowmere Lake marks the threshold of Caer Darrow. There, the living Barovs bargained away their mortal home to the Lich King to create Scholomance, the dread academy."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Darrowmere Lake"
- ]
+ ],
+ "style": 2
 }

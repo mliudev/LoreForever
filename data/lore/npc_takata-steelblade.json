@@ -8,16 +8,16 @@
   "wiki": "Takata Steelblade",
   "refs": 5
  },
- "summary": "Takata Steelblade is an orc warrior stationed at Ghost Walker Post in Desolace. Dispatched from Orgrimmar by Keldran alongside Maurin Bonesplitter, he spearheads the Horde's local campaign against demonic corruption. His primary focus is eradicating the regional satyr population affiliated with the sinister Burning Blade.",
+ "summary": "At Ghost Walker Post, Takata Steelblade leads the Horde's fight against demonic corruption in Desolace. Keldran sent him from Orgrimmar with Maurin Bonesplitter, and Takata now hunts satyrs allied with the Burning Blade.",
  "sections": [
   {
    "title": "Sent to Desolace",
-   "body": "Takata Steelblade was sent from the capital to Desolace under direct orders from Keldran, an influential figure in Orgrimmar committed to uncovering and purging demonic subversion. Operating out of the isolated Tauren encampment of Ghost Walker Post, Takata coordinates military efforts against the Legion-aligned forces plaguing the barren wastes.",
+   "body": "Keldran sent Takata Steelblade from Orgrimmar to Desolace to uncover and purge demonic subversion. Takata works from Ghost Walker Post, an isolated Tauren encampment. From there, he coordinates the fight against Legion-aligned forces in the wastes.",
    "spoiler": 0
   },
   {
    "title": "Scourge of the Satyrs",
-   "body": "While his companion Maurin Bonesplitter attempts to track and dismantle the clandestine Burning Blade cultists directly, Takata focuses on their demonic allies: the satyrs. Takata has orchestrated aggressive strikes against Desolace's corrupted satyrs, decimating their ranks to break the cult's local power structure and halt their spreading taint.",
+   "body": "Maurin Bonesplitter tracks and attacks the Burning Blade cultists. Takata turns his forces against their demonic allies, the satyrs. His strikes have devastated Desolace's corrupted satyrs, aiming to break the cult's local power and stop its taint from spreading.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "takata lore",
     "who is takata"
    ],
-   "answer": "Takata Steelblade is a veteran orc warrior stationed at Ghost Walker Post in Desolace. He directs operations against demonic forces and satyrs allied with the Burning Blade."
+   "answer": "Takata Steelblade is an orc warrior at Ghost Walker Post in Desolace. He directs the fight against demonic forces and satyrs allied with the Burning Blade."
   },
   {
    "q": "Who sent Takata to Desolace?",
@@ -38,7 +38,7 @@
     "keldran connection",
     "takata orders"
    ],
-   "answer": "He was sent by Keldran from Orgrimmar to eliminate the threat posed by the Burning Blade and their demonic allies throughout the region."
+   "answer": "Keldran sent Takata from Orgrimmar to fight the Burning Blade and its demonic allies in Desolace."
   },
   {
    "q": "What is the relationship between Takata and Maurin Bonesplitter?",
@@ -46,7 +46,7 @@
     "takata and maurin",
     "maurin bonesplitter"
    ],
-   "answer": "Both were dispatched together by Keldran. While Maurin attempts to counter the Burning Blade cultists directly, Takata focuses his military strikes on the satyrs allied with them."
+   "answer": "Keldran sent Takata and Maurin Bonesplitter together. Maurin targets the Burning Blade cultists, while Takata strikes their satyr allies."
   },
   {
    "q": "Why is Takata hunting satyrs?",
@@ -55,7 +55,7 @@
     "takata satyr",
     "befouled by satyr"
    ],
-   "answer": "The satyrs in Desolace are actively allied with the Burning Blade cult, spreading demonic taint and threatening the Horde's foothold across the region."
+   "answer": "Takata hunts the satyrs because they are allied with the Burning Blade. They spread demonic taint and threaten the Horde's foothold in Desolace."
   },
   {
    "q": "Where can Takata Steelblade be found?",
@@ -63,21 +63,21 @@
     "takata location",
     "where is takata steelblade"
    ],
-   "answer": "He is located at Ghost Walker Post, a Horde camp in north-central Desolace."
+   "answer": "Takata Steelblade is at Ghost Walker Post, a Horde camp in north-central Desolace."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Takata coordinates regional Horde defense in Desolace, working out of Ghost Walker Post to purge demonic infiltrators."
+   "text": "As a member of the Horde, you can find Takata coordinating its defense from Ghost Walker Post. He fights demonic infiltrators in Desolace."
   },
   {
    "target": "race:Orc",
-   "text": "Acting under orders from Orgrimmar's leadership, Takata embodies the orcish duty to stamp out any remnant of demonic servitude."
+   "text": "As an orc, you can see Takata carrying out orders from Orgrimmor's leadership to root out demonic servitude."
   },
   {
    "target": "class:Warrior",
-   "text": "A master swordsman, Takata's campaign emphasizes decisive martial force to cut down demonic infiltrators."
+   "text": "As a warrior, you can see Takata rely on decisive force to strike down demonic infiltrators."
   }
  ],
  "keywords": [
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "Takata Steelblade"
- ]
+ ],
+ "style": 2
 }

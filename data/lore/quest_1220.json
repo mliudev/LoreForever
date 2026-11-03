@@ -21,11 +21,11 @@
   ],
   "category": "Dustwallow Marsh"
  },
- "summary": "Lieutenant Aden sends you with the orc report you found to Captain Garran Vimes, who reads orcish better than most. News of Horde spies near Theramore is to go with it.",
+ "summary": "Near Theramore, Lieutenant Aden sends you to Captain Garran Vimes with an orc report and word of Horde spies.",
  "sections": [
   {
    "title": "A Report for the Captain",
-   "body": "Lieutenant Aden thinks the orc report you found belongs in the hands of Captain Garran Vimes, who reads orcish better than most. Aden also wants the captain told that Horde spies are lurking close to Theramore. You will find Vimes at the barracks on Theramore Isle's northeastern side.",
+   "body": "Lieutenant Aden sends you to Captain Garran Vimes with the orc report you found. Vimes reads orcish better than most, so Aden wants him to know that Horde spies are close to Theramore. You’ll find Vimes at the barracks on the northeastern side of Theramore Isle.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "who starts captain vimes",
     "where do i get captain vimes"
    ],
-   "answer": "Lieutenant Aden, who wants the captain to see the orc report you found."
+   "answer": "Lieutenant Aden sends you, hoping Captain Vimes will read the orc report you found."
   },
   {
    "q": "Where is Captain Garran Vimes located?",
@@ -45,7 +45,7 @@
     "captain vimes location",
     "vimes barracks"
    ],
-   "answer": "At the barracks, on Theramore Isle's northeastern side."
+   "answer": "Captain Garran Vimes is at the barracks on Theramore Isle’s northeastern side."
   },
   {
    "q": "Why does Captain Vimes need to see the report?",
@@ -53,7 +53,7 @@
     "why captain vimes",
     "why does vimes need the report"
    ],
-   "answer": "Aden says Vimes reads orcish better than most, and should hear that Horde spies are close to Theramore."
+   "answer": "Aden says Vimes reads orcish better than most. He wants Vimes to hear that Horde spies are close to Theramore."
   }
  ],
  "angles": [],
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Captain Vimes"
- ]
+ ],
+ "style": 2
 }

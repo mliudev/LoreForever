@@ -10,16 +10,16 @@
    "quest:973"
   ]
  },
- "summary": "At Fire Scar Shrine, Ilkrud Magthrull's Tome draws Delgren the Purifier's attention. Its pages connect the warlock to the cultists at the Tower of Althalaxx.",
+ "summary": "At Fire Scar Shrine, Delgren the Purifier turns his attention to Ilkrud Magthrull's Tome. Its pages link the warlock to the cultists at the Tower of Althalaxx.",
  "sections": [
   {
    "title": "A Grimoire of Corruption",
-   "body": "Ilkrud Magthrull holds the Fire Scar Shrine in southwestern Ashenvale, where demonic influence has poisoned the site. The formidable orc warlock is surrounded by summoned minions. His personal tome records foul rituals and shadowy communications. The Argent Dawn paladin Delgren the Purifier has long known of Magthrull's presence, but the ties between the warlock and the dark cultists gathering at the Tower of Althalaxx make the book urgent to recover.",
+   "body": "At Fire Scar Shrine in southwestern Ashenvale, Ilkrud Magthrull holds ground poisoned by demonic influence. The formidable orc warlock is surrounded by summoned minions. His personal tome records foul rituals and shadowy communications. Delgren the Purifier, an Argent Dawn paladin, has long known Magthrull is there. The book is urgent to recover because it links the warlock to the dark cultists gathering at the Tower of Althalaxx.",
    "spoiler": 0
   },
   {
    "title": "Unraveling the Cult",
-   "body": "After Magthrull is slain, his tome is brought to Delgren at Maestra's Post. Delgren works to decipher the warlock's writings and understand the network coordinating demonic activity across the borders of Darkshore and Ashenvale. The text offers vital intelligence on the shadowy conspirators directing the corruption spreading through northern Kalimdor.",
+   "body": "After Magthrull is slain, his tome is brought to Delgren at Maestra's Post. Delgren studies the warlock's writings to understand the network coordinating demonic activity across the borders of Darkshore and Ashenvale. The text offers vital intelligence on the shadowy conspirators directing the corruption spreading through northern Kalimdor.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who wrote the tome",
     "ilkrud magthrull"
    ],
-   "answer": "Ilkrud Magthrull owns the tome. He is a powerful orc warlock established among the demonic ruins of Fire Scar Shrine in southwestern Ashenvale."
+   "answer": "Ilkrud Magthrull owns the tome. The powerful orc warlock is established among the demonic ruins of Fire Scar Shrine in southwestern Ashenvale."
   },
   {
    "q": "Where is the tome found?",
@@ -49,7 +49,7 @@
     "what is in the tome",
     "delgren book purpose"
    ],
-   "answer": "Delgren seeks to study Magthrull's writings and uncover the ties between local demon-worshipers and the cultists inhabiting the Tower of Althalaxx."
+   "answer": "Delgren seeks to study Magthrull's writings and uncover the ties between local demon-worshipers and the cultists at the Tower of Althalaxx."
   },
   {
    "q": "What happens after the tome is recovered?",
@@ -57,17 +57,17 @@
     "turn in tome",
     "what does delgren do with the book"
    ],
-   "answer": "Delgren examines the text at Maestra's Post, seeking to decipher Magthrull's demonic communications and determine how to dismantle the cult's network."
+   "answer": "At Maestra's Post, Delgren examines the text to decipher Magthrull's demonic communications and learn how to dismantle the cult's network."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you help Brother Delgren, a fellow warrior of the Holy Light who stands against shadow and corruption in Ashenvale's wilderness."
+   "text": "As a paladin, you help Brother Delgren, a fellow warrior of the Holy Light who opposes shadow and corruption in Ashenvale's wilderness."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can study Magthrull's grimoire, a record of dark bindings and the subjugation of voidwalkers and succubi at the tainted Fire Scar Shrine."
+   "text": "As a warlock, you can study Magthrull's grimoire, which records dark bindings and the subjugation of voidwalkers and succubi at the tainted Fire Scar Shrine."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Ilkrud Magthrull's Tome",
   "The Tower of Althalaxx (5)"
  ],
- "style": 1
+ "style": 2
 }

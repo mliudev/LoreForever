@@ -10,16 +10,16 @@
    "quest:181"
   ]
  },
- "summary": "In southern Duskwood, Zzarc'Vul wears an immense monocle. Its lens has the exact dimensions Viktori Prism'Antras needs for a stargazing telescope in Darkshire.",
+ "summary": "In southern Duskwood, Zzarc'Vul wears a monocle Viktori Prism'Antras needs for a telescope. Its lens has the size and curve to focus light through the stargazing instrument in Darkshire.",
  "sections": [
   {
    "title": "A Curious Lens",
-   "body": "Zzarc'Vul, an ogre, wears a huge monocle tailored to his massive stature. When Viktori Prism'Antras of Darkshire began building a stargazing instrument from blueprints by the gnome engineer Cog, ordinary lenses proved too small. Zzarc'Vul's eyewear is the only polished glass in the region with the size and curve needed to focus light through the finished telescope.",
+   "body": "Zzarc'Vul, an ogre, wears a monocle made for his massive stature. When Viktori Prism'Antras of Darkshire began building a stargazing instrument from the gnome engineer Cog's blueprints, ordinary lenses proved too small. Zzarc'Vul's eyewear is the only polished glass in the region with the size and curve to focus light through the finished telescope.",
    "spoiler": 0
   },
   {
    "title": "Prying It from Vul'Gol",
-   "body": "The Vul'Gol Ogre Mound lies in the shadow of southern Duskwood, where Zzarc'Vul lives among his brute brethren. The brute shows little wish to give up his distinctive accessory. To claim the lens, you must defeat him on his own ground, then carry the glass back to Darkshire so Viktori can turn his gaze to the night skies.",
+   "body": "At the Vul'Gol Ogre Mound in southern Duskwood, Zzarc'Vul lives among his brute brethren. He shows little wish to give up his distinctive accessory. You must defeat him on his own ground to claim the lens, then carry it back to Darkshire so Viktori can turn his gaze to the night skies.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who has the ogre monocle",
     "zzarc'vul item"
    ],
-   "answer": "Zzarc'Vul, an ogre in southern Duskwood, carries the monocle at the Vul'Gol Ogre Mound."
+   "answer": "Zzarc'Vul, an ogre, carries the monocle at the Vul'Gol Ogre Mound in southern Duskwood."
   },
   {
    "q": "Why does Viktori Prism'Antras need an ogre's eyepiece?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Cog's blueprint shows typical gnomish ambition: using giant eyewear when precision-ground lenses are unavailable in the field."
+   "text": "Cog's blueprint shows typical gnomish ambition: when precision-ground lenses are unavailable in the field, giant eyewear must do."
   },
   {
    "target": "faction:Alliance",
@@ -89,5 +89,5 @@
   "Ogre's Monocle",
   "Look To The Stars (4)"
  ],
- "style": 1
+ "style": 2
 }

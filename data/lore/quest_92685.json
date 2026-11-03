@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "Aamelia jokes darkly about stitching a blanket out of blood-stained bandit masks for Ferauu, showing a rather gruesome appreciation for needlecraft."
+   "text": "Aamelia grimly jokes about stitching a blanket from blood-stained bandit masks for Ferauu."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "what is this quest",
     "what is the hills have eyes"
    ],
-   "answer": "\"The Hills Have Eyes\" is a defense quest given by Aamelia at her farm. Facing an imminent raid by Ferauu's gang of highwaymen, she directs adventurers into the northern hills to ambush the bandits and retrieve their blood-stained masks before they can strike.",
+   "answer": "Aamelia asks travelers to strike a bandit camp in the northern hills before Ferauu’s highwaymen attack her farm. She also asks for blood-stained masks from the fallen bandits.",
    "q": "What is The Hills Have Eyes?"
   },
   {
@@ -33,7 +33,7 @@
     "who is aamelia",
     "quest giver aamelia"
    ],
-   "answer": "Aamelia is a farmstead defender who has spent weeks in dread waiting for bandits to overrun her homestead. Striking back at the highwaymen gives her renewed hope to face Ferauu's looming raid.",
+   "answer": "Aamelia gives the request from her farm in the Gustberry Lowlands. Weeks of waiting for the bandits have left her dreading their attack.",
    "q": "Who gives the quest The Hills Have Eyes?"
   },
   {
@@ -42,7 +42,7 @@
     "ferauu boss",
     "bandit leader ferauu"
    ],
-   "answer": "Ferauu is the leader of the highwayman bandits operating around the Gustberry Lowlands. He and his thugs have been threatening Aamelia's farm and are poised to launch an attack.",
+   "answer": "Ferauu leads the highwayman bandits around the Gustberry Lowlands. His gang threatens Aamelia’s farm and is preparing to attack.",
    "q": "Who is Ferauu?"
   },
   {
@@ -51,7 +51,7 @@
     "where are the bandits",
     "bandit camp hills"
    ],
-   "answer": "The Highwayman Bandits inhabit camps throughout the Gustberry Lowlands, including a small encampment perched in the hills directly north of Aamelia's farm.",
+   "answer": "Highwayman Bandits have camps throughout the Gustberry Lowlands, including a small camp in the hills directly north of Aamelia’s farm.",
    "q": "Where are the highwayman bandits located?"
   },
   {
@@ -60,7 +60,7 @@
     "why blood stained masks",
     "what are the masks for"
    ],
-   "answer": "Aamelia demands blood-stained masks as proof that the bandits were made to suffer and caught off guard. Taking them down beforehand helps even the odds against Ferauu's impending raid.",
+   "answer": "Aamelia asks for blood-stained masks as proof of the ambush. The strike on the bandits’ camp helps even the odds before Ferauu’s attack.",
    "q": "Why does Aamelia want blood-stained bandit masks?"
   },
   {
@@ -69,7 +69,7 @@
     "next quest aamelia",
     "ferauu attack"
    ],
-   "answer": "After decimating the hill camp, Aamelia feels hope returning to her farm. However, Ferauu and his remaining thugs are due to arrive at any moment, setting the stage for a final stand.",
+   "answer": "After the hill camp is struck, Aamelia finds hope for her farm. Ferauu and his remaining bandits are due to arrive at any moment, and she must face their attack.",
    "q": "What happens after completing the quest?"
   }
  ],
@@ -85,18 +85,19 @@
  "related": [],
  "sections": [
   {
-   "body": "In the Gustberry Lowlands, a farmer named Aamelia faces an impending assault from a ring of outlaws led by Ferauu. Rather than waiting passively for doom to arrive at her doorstep, she urges travelers to launch a preemptive strike against a bandit encampment in the hills to the north. By taking out the highwaymen before they muster their attack, she aims to thin their ranks and buy precious time.",
+   "body": "Aamelia faces an approaching attack in the Gustberry Lowlands. Ferauu leads the outlaws threatening her farm. She asks you to strike their camp in the hills to the north. Thin the highwaymen’s ranks before they gather, and Aamelia hopes to weaken their attack and gain time before they arrive.",
    "spoiler": 0,
    "title": "A Preemptive Strike"
   },
   {
-   "body": "As proof of the ambush, Aamelia asks for blood-stained masks stripped from the fallen highwaymen. She jokes grimly about stitching them into a blanket to present to Ferauu, reveling in the knowledge that her tormentors were met with fierce resistance. Thinning the northern camp shatters weeks of hopeless waiting, giving her the courage to make a stand when Ferauu and his main band finally arrive.",
+   "body": "Aamelia asks you to bring back blood-stained masks from the fallen highwaymen as proof of the ambush. Grimly, she jokes about stitching them into a blanket for Ferauu. She is glad her tormentors met fierce resistance.\n\nThe strike on the northern camp ends weeks of hopeless waiting. Aamelia has new courage to face Ferauu and his main band when they arrive.",
    "spoiler": 1,
    "title": "Renewed Hope and Retribution"
   }
  ],
- "summary": "\"The Hills Have Eyes\" is a quest in the Gustberry Lowlands where the beleaguered farmer Aamelia takes a stand against highwayman bandits. Adventurers launch a preemptive strike on an encampment in the northern hills to diminish the bandit forces before their leader, Ferauu, launches a raid.",
+ "summary": "Aamelia faces a bandit assault in the Gustberry Lowlands, and Ferauu’s raid draws near. She sends travelers to strike a camp in the northern hills before the bandits gather.",
  "attribution": [
   "In-game quest text: The Hills Have Eyes"
- ]
+ ],
+ "style": 2
 }

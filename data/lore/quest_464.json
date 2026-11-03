@@ -17,21 +17,21 @@
   "wiki": "War Banners",
   "chain": []
  },
- "summary": "At Menethil Harbor, Captain Stoutfist sends Alliance champions against Dragonmaw orcs gathering strength in the Wetlands. He wants their war banners claimed from a camp northeast of town.",
+ "summary": "At Menethil Harbor, Captain Stoutfist sends Alliance champions against Dragonmaw orcs gathering strength in the Wetlands. He wants their banners taken from a camp northeast of town.",
  "sections": [
   {
    "title": "Remnants of the Dragonmaw",
-   "body": "The Dragonmaw clan once held the red dragonflight captive at Grim Batol during the Second War. When that control broke, the freed dragons hunted their captors nearly to extinction. The few orcs who survived fled Grim Batol into the high mountains east of Whelgar's Excavation, hiding from the red flight's wrath.",
+   "body": "During the Second War, the Dragonmaw clan held the red dragonflight captive at Grim Batol. When their control broke, the freed dragons hunted their captors nearly to extinction. The few orcs who survived fled Grim Batol into the high mountains east of Whelgar's Excavation, hiding from the red flight's wrath.",
    "spoiler": 0
   },
   {
    "title": "A Rising Encampment",
-   "body": "Dragonmaw survivors have gathered again northeast of Menethil Harbor. They have raised a war camp and planted crimson standards in the marsh. Captain Stoutfist sees danger in an armed orc force so near the harbor town. He wants their ranks cut down and their banners torn away as proof of defeat.",
+   "body": "Dragonmaw survivors have gathered again northeast of Menethil Harbor. They have raised a war camp and planted crimson standards in the marsh. Captain Stoutfist sees danger in an armed orc force so near the harbor town. He wants their ranks thinned and their banners torn down as proof of defeat.",
    "spoiler": 0
   },
   {
    "title": "The Legacy of Nekros",
-   "body": "Nek'rosh leads the regrouped Dragonmaw orcs. He is the son of Nekros, the warlock who once commanded captive red dragons through dark sorcery. When that magic failed, Nekros was torn apart by the dragons he had held. His son now commands the survivors, consumed by vengeance against the great beasts that killed his father.",
+   "body": "Nek'rosh leads the regrouped Dragonmaw orcs. He is the son of Nekros, the warlock who once commanded captive red dragons through dark sorcery. When that magic failed, the dragons tore Nekros apart. Now his son commands the survivors, consumed by vengeance against the great beasts that killed his father.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who are dragonmaw",
     "wetlands orcs"
    ],
-   "answer": "The Dragonmaw orcs in the Wetlands are survivors of a clan that enslaved the red dragonflight during the Second War. The freed dragons hunted them, scattering those who survived Grim Batol into the mountains and marshes."
+   "answer": "The Dragonmaw orcs in the Wetlands are survivors of a clan that enslaved the red dragonflight during the Second War. The freed dragons hunted them, scattering survivors of Grim Batol into the mountains and marshes."
   },
   {
    "q": "Why does Captain Stoutfist want their war banners?",
@@ -75,7 +75,7 @@
     "where did dragonmaw hide",
     "dragonmaw refuge"
    ],
-   "answer": "After fleeing Grim Batol, the surviving orcs hid in the rugged mountains east of Whelgar's Excavation. They later entered the Wetlands marsh and built their camp."
+   "answer": "After fleeing Grim Batol, the surviving orcs hid in the rugged mountains east of Whelgar's Excavation. Later they entered the Wetlands marsh and built their camp."
   },
   {
    "q": "Are these Dragonmaw orcs affiliated with Thrall's Horde?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know the Dragonmaw defiled the ancient stronghold of Grim Batol and brought war to the mountains around it. Each Dragonmaw warrior who falls brings a measure of long-delayed justice."
+   "text": "As a dwarf, you know the Dragonmaw defiled the ancient stronghold of Grim Batol and brought war to the mountains around it. Each fallen Dragonmaw warrior brings a measure of long-delayed justice."
   },
   {
    "target": "class:Warrior",
@@ -121,5 +121,5 @@
  "attribution": [
   "War Banners"
  ],
- "style": 1
+ "style": 2
 }

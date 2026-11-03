@@ -17,16 +17,16 @@
   "wiki": "Call of Water (3)",
   "chain": []
  },
- "summary": "Brine sends shamans into the Barrens to gather water for a sapta. The trial begins with a sample from the guarded pool below her hill, where water means survival.",
+ "summary": "Brine sends shamans across the Barrens to gather water for a sapta. Below her hill, a guarded pool provides the first sample, and water means survival.",
  "sections": [
   {
    "title": "A Lesson in the Desert",
-   "body": "Brine asks shaman initiates to study water in all its forms before she grants the water sapta that lets them commune with the spirits. In the arid Barrens, water means the difference between survival and starvation. She asks them to notice what water makes possible: forests flourish where it flows, deserts starve where it is absent, and living beings will kill to protect even the humblest spring.",
+   "body": "Brine asks shaman initiates to study water in all its forms before she grants the water sapta. The sapta opens an initiate’s perception and lets them commune with the spirits. In the dry Barrens, water means survival. Forests flourish where it flows, while deserts starve without it. Living beings will kill to protect even the humblest spring.",
    "spoiler": 0
   },
   {
    "title": "The Quilboar's Hoard",
-   "body": "Native quilboar fiercely guard the watering hole beneath Brine's hill. They treat every pool as a priceless hoard and feast whenever rain comes. Brine regrets the violence their hoarding brings, but their insular greed and divided clans keep their threat contained. For the other races surviving on the plains, that leaves a precarious balance.",
+   "body": "Quilboar fiercely guard the watering hole beneath Brine’s hill. They treat every pool as a priceless hoard and feast when rain comes. Brine regrets the violence their hoarding brings. Yet their greed and divided clans keep their threat contained, leaving the other races on the plains in a precarious balance.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "brine water task",
     "call of water quest 3 purpose"
    ],
-   "answer": "Brine needs samples of pure water from distinct corners of the world to brew a ceremonial water sapta. The draught opens an initiate's perception, allowing communion with elemental water spirits."
+   "answer": "Brine needs samples of pure water from distinct corners of the world to brew a ceremonial water sapta. The draught opens an initiate’s perception and allows communion with elemental water spirits."
   },
   {
    "q": "Why is the watering hole below Brine so heavily contested?",
@@ -47,7 +47,7 @@
     "quilboar pond",
     "water hole barrens"
    ],
-   "answer": "In the parched Barrens, water is the most precious resource. Local quilboar treat every pool as sacred treasure and fight fiercely against anyone who tries to draw from it."
+   "answer": "Water is the most precious resource in the parched Barrens. Local quilboar treat every pool as sacred treasure and fight fiercely against anyone who tries to draw from it."
   },
   {
    "q": "Who is Brine?",
@@ -73,7 +73,7 @@
     "brine quilboar commentary",
     "why quilboar fighting each other"
    ],
-   "answer": "Brine sees the quilboar's territorial ways and clan rivalries as causes of their misery. If they united instead of fighting over isolated springs, they would threaten the rest of the Barrens far more."
+   "answer": "Brine sees the quilboar’s territorial ways and clan rivalries as causes of their misery. If they united instead of fighting over isolated springs, they would threaten the rest of the Barrens far more."
   },
   {
    "q": "What is a sapta?",
@@ -81,7 +81,7 @@
     "what is sapta",
     "water sapta meaning"
    ],
-   "answer": "A sapta is a mystical elixir shamans prepare from gathered reagents and waters aligned with the elements. Drinking it expands spiritual sight, revealing elemental beings usually hidden from mortal eyes."
+   "answer": "A sapta is a mystical elixir shamans prepare from gathered reagents and waters aligned with the elements. Drinking it expands spiritual sight and reveals elemental beings usually hidden from mortal eyes."
   }
  ],
  "angles": [
@@ -91,7 +91,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face the challenge of controlling and sharing water in the Barrens, where tribes and beasts constantly fight over every trickle."
+   "text": "As a member of the Horde, you face the challenge of controlling and sharing water in the Barrens, where tribes and beasts fight over every trickle."
   }
  ],
  "keywords": [
@@ -111,5 +111,5 @@
  "attribution": [
   "Call of Water (3)"
  ],
- "style": 1
+ "style": 2
 }

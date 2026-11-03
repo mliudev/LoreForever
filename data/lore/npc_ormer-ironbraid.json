@@ -8,16 +8,16 @@
   "wiki": "Ormer Ironbraid",
   "refs": 3
  },
- "summary": "At Whelgar's Excavation Site, Ormer Ironbraid faces a raptor threat that has driven the dwarven workers away. He remains at the dig, seeking allies to reclaim it.",
+ "summary": "At Whelgar's Excavation Site, Ormer Ironbraid holds his ground against the raptors that drove the dwarven workers away. He seeks allies to reclaim the dig.",
  "sections": [
   {
    "title": "A Dig Derailed",
-   "body": "Ormer Ironbraid came to the Wetlands with the dwarven effort to uncover Titan relics and ancient history at Whelgar's Excavation Site. The work stirred packs of fierce Wetlands raptors, or at least drew them to the dig. Now beasts prowl among the ruins where Ormer's team hoped to study ancient earthenware and tablets. The raptors have disrupted their work, and Ormer's anger toward them runs deep.",
+   "body": "Ormer Ironbraid came to the Wetlands with the dwarves who seek Titan relics and ancient history at Whelgar's Excavation Site. Their work stirred fierce raptors, or drew the beasts to the dig. Now raptors prowl the ruins where Ormer's team hoped to study ancient earthenware and tablets. Their presence has halted the work, and Ormer's anger runs deep.",
    "spoiler": 0
   },
   {
    "title": "A Bitter Feud with Claws",
-   "body": "Ormer will not abandon the dig, though he cannot drive the raptors out alone. He asks passing travelers to kill the beasts, beginning with smaller ones and taking on larger, fiercer raptors in turn. Reclaiming the excavation means recovering the artifacts, but the fight has become personal: Ormer wants vengeance for the work the raptors disrupted and the dwarven pride wounded by their presence.",
+   "body": "Ormer will not leave the dig, though he cannot drive out the raptors alone. He asks travelers to kill them, starting with the smaller beasts and moving on to larger, fiercer ones. The artifacts remain to be recovered, but the fight is personal now. Ormer wants vengeance for the work disrupted and the dwarven pride wounded by the raptors' presence.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
     "strike the earth",
     "ormers revenge quest"
    ],
-   "answer": "Ormer offers a three-part chain called 'Ormer's Revenge,' asking travelers to kill ever-larger raptors at the excavation."
+   "answer": "Ormer asks travelers to kill ever-larger raptors at the excavation in a three-part chain called 'Ormer's Revenge.'"
   },
   {
    "q": "Is Ormer affiliated with the Explorers' League?",
@@ -79,7 +79,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, Ormer's refusal to yield the ancient grounds to a pack of overgrown lizards speaks to dwarven tenacity."
+   "text": "As a dwarf, you know the tenacity it takes to refuse ground to a pack of overgrown lizards."
   },
   {
    "target": "faction:Alliance",
@@ -109,5 +109,5 @@
  "attribution": [
   "Ormer Ironbraid"
  ],
- "style": 1
+ "style": 2
 }

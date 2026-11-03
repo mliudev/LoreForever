@@ -21,16 +21,16 @@
    "Revenge of Gann (2)"
   ]
  },
- "summary": "At Bael Modan, Gann Stonespire turns the dwarves’ own plans against their flying machine. The Horde agent seeks revenge for the fallen Stonespire tribe.",
+ "summary": "At Bael Modan, Gann Stonespire turns the dwarves’ plans against their flying machine. The Horde agent seeks revenge for his fallen tribe.",
  "sections": [
   {
    "title": "A Symbol of Domination",
-   "body": "At Bael Modan, the dwarven excavation sits atop the ancestral grounds of the displaced Stonespire tauren. The Prospectors rely on a gyrocopter for their reach and military strength. It is stationed on a watchtower above the dig, where it surveys the surrounding Barrens and protects the dwarves’ supply lines. For Gann, the machine also marks the Alliance’s intrusion into kalimdorian soil.",
+   "body": "Bael Modan’s dwarven excavation covers ancestral grounds of the displaced Stonespire tauren. The Prospectors depend on a gyrocopter for reach and military strength. It waits on a watchtower above the dig, surveying the Barrens and guarding the dwarves’ supply lines. To Gann, the machine also marks the Alliance’s intrusion into kalimdorian soil.",
    "spoiler": 0
   },
   {
    "title": "Turned Upon Its Makers",
-   "body": "After recovering Prospector Khazgorm’s plans, Gann Stonespire makes a specialized charge called the Explosive Stick of Gann. Planting it on the flying machine turns the dwarves’ own invention against them. The blast destroys a vital military asset, humiliates the Bael'dun contingent, and honors the spirits of Gann’s lost tribe.",
+   "body": "After recovering Prospector Khazgorm’s plans, Gann Stonespire makes a specialized charge called the Explosive Stick of Gann. He plants it on the flying machine and turns the dwarves’ invention against them. The blast destroys a vital military asset and humiliates the Bael'dun contingent. It also honors the spirits of Gann’s lost tribe.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "flying machine purpose",
     "why target flying machine"
    ],
-   "answer": "The flying machine aids Bael Modan’s infrastructure and gives the dwarves aerial reconnaissance. To Gann, it also embodies dwarven power and looms over land his slaughtered tribe once called home."
+   "answer": "The flying machine supports Bael Modan’s infrastructure and gives the dwarves aerial reconnaissance. To Gann, it embodies dwarven power and looms over land his slaughtered tribe once called home."
   },
   {
    "q": "Where is the flying machine located at Bael Modan?",
@@ -60,7 +60,7 @@
     "explosive stick origin",
     "khazgorm plans explosive"
    ],
-   "answer": "Gann made the Explosive Stick of Gann from technical schematics and engineering plans recovered from Prospector Khazgorm, using the dwarves’ own designs against them."
+   "answer": "Gann made the Explosive Stick of Gann from technical schematics and engineering plans recovered from Prospector Khazgorm. He turned the dwarves’ own designs against them."
   },
   {
    "q": "What tribe does Gann belong to?",
@@ -78,7 +78,7 @@
     "does bael modan fall",
     "did gann win"
    ],
-   "answer": "Destroying the machine cripples Bael Modan’s air strength and infrastructure and gives Gann personal revenge. The heavily entrenched dwarven diggers and fortress remain an active Alliance stronghold in the region."
+   "answer": "Destroying the machine cripples Bael Modan’s air strength and infrastructure, and gives Gann personal revenge. The heavily entrenched dwarven diggers and fortress remain an active Alliance stronghold in the region."
   },
   {
    "q": "What recognition does Gann offer upon finishing this mission?",
@@ -93,15 +93,15 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Destroying dwarven war machines to avenge the Stonespire clan resonates with any tauren defending their ancestral homeland from desecration."
+   "text": "For a tauren, destroying dwarven war machines to avenge the Stonespire clan echoes the defense of ancestral ground from desecration."
   },
   {
    "target": "faction:Horde",
-   "text": "Crippling Bael Modan’s flying machine weakens an Alliance aerial weapon that can scout and strike deep into the southern Barrens."
+   "text": "For the Horde, crippling Bael Modan’s flying machine weakens an Alliance weapon that can scout and strike deep into the southern Barrens."
   },
   {
    "target": "profession:Engineering",
-   "text": "The explosive turns Ironforge blueprints against a gyrocopter, making it a clever act of field sabotage."
+   "text": "For an engineer, the explosive turns Ironforge blueprints against a gyrocopter in a clever act of field sabotage."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Revenge of Gann (2)"
  ],
- "style": 1
+ "style": 2
 }

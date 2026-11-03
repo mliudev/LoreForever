@@ -27,16 +27,16 @@
    "Help Watcher Biggs"
   ]
  },
- "summary": "Watcher Biggs was bound for the eastern coast with a caravan when the lost ones attacked. Biggs alone survived, and now wild creatures skulk near the camp. Biggs asks for your help defending it. This follows Help Watcher Biggs.",
+ "summary": "After Lost Ones wreck Watcher Biggs's caravan, wild creatures prowl near his camp. Biggs alone survives and asks you to help defend the supplies that remain. This follows Help Watcher Biggs.",
  "sections": [
   {
    "title": "A Camp Under Watch",
-   "body": "The caravan of Watcher Biggs was bound for the eastern coast, but it never arrived. Lost Ones attacked, killing the guards and smashing the supplies, and Biggs alone survived. Biggs has sworn to protect what supplies remain, yet wild creatures skulk close to the camp. Biggs wants you to help defend it.",
+   "body": "Watcher Biggs's caravan set out for the eastern coast, but never arrived. Lost Ones attacked, killing the guards and smashing the supplies. Biggs alone survived, and he has sworn to protect what remains. Now wild creatures skulk near the camp, and Biggs asks you to help defend it.",
    "spoiler": 0
   },
   {
    "title": "The Creatures Nearby",
-   "body": "Biggs names three kinds of creature pressing near the camp: young sawtooth crocolisks, sorrow spinners and swamp jaguars. Eight crocolisks, ten spinners and ten jaguars are to be slain.",
+   "body": "Young sawtooth crocolisks, sorrow spinners and swamp jaguars press close to the camp. Biggs names eight crocolisks, ten spinners and ten jaguars to be slain.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "caravan destination",
     "biggs caravan route"
    ],
-   "answer": "To the eastern coast, but the caravan never reached its goal."
+   "answer": "Watcher Biggs's caravan was bound for the eastern coast, but it never arrived."
   },
   {
    "q": "Who attacked Watcher Biggs's caravan?",
@@ -57,7 +57,7 @@
     "who destroyed the caravan",
     "caravan ambush"
    ],
-   "answer": "Lost Ones. They killed the guards and smashed the supplies, and Biggs alone survived."
+   "answer": "Lost Ones attacked the caravan, killing the guards and smashing the supplies. Watcher Biggs alone survived."
   },
   {
    "q": "What beasts threaten the camp?",
@@ -66,7 +66,7 @@
     "what animals attack biggs",
     "swamp beasts"
    ],
-   "answer": "Young sawtooth crocolisks, sorrow spinners and swamp jaguars skulk near it."
+   "answer": "Young sawtooth crocolisks, sorrow spinners and swamp jaguars skulk near the camp."
   },
   {
    "q": "Why does Watcher Biggs remain at the camp?",
@@ -75,7 +75,7 @@
     "why not flee",
     "biggs supplies"
    ],
-   "answer": "Biggs has sworn to protect the supplies that remain from the caravan."
+   "answer": "Watcher Biggs has sworn to protect the supplies that remain from the caravan."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Encroaching Wildlife"
- ]
+ ],
+ "style": 2
 }

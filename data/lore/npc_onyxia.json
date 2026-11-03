@@ -8,16 +8,16 @@
   "wiki": "Onyxia",
   "refs": 1
  },
- "summary": "Onyxia is the broodmother of the black dragonflight and the devious daughter of Deathwing. From her lair in Dustwallow Marsh, she schemes to restore the black dragonflight's dominion over the mortal kingdoms.",
+ "summary": "In Dustwallow Marsh, Onyxia tends her brood and schemes to bring the mortal realms under black dragonflight rule. She is Deathwing’s daughter, while her brother Nefarian gathers armies in Blackrock Spire.",
  "sections": [
   {
    "title": "The Broodmother in the Court",
-   "body": "While her brother Nefarian consolidates his armies within Blackrock Spire, Onyxia pursues power through guile. Taking the guise of Lady Katrana Prestor, she has wormed her way into the highest echelons of Stormwind's nobility. By posing as a trusted adviser to the House of Nobles, she systematically undercuts the kingdom's military efforts, intentionally withholding soldiers and resources from outposts in Westfall, Redridge, and the Burning Steppes to leave mortal realms defenseless.",
+   "body": "Onyxia seeks power through guile while her brother Nefarian gathers armies in Blackrock Spire. Disguised as Lady Katrana Prestor, she has entered Stormwind’s highest noble circles. Trusted by the House of Nobles, she withholds soldiers and supplies from outposts in Westfall, Redridge, and the Burning Steppes. Her choices weaken the kingdom’s military and leave the mortal realms defenseless.",
    "spoiler": 1
   },
   {
    "title": "Architect of Ruin",
-   "body": "Behind the painted smiles of Lady Prestor lies a predatory mastermind. With King Varian missing en route to a peace summit at Theramore, Prestor exerts deep influence over the young boy-king Anduin and ensnares Highlord Bolvar Fordragon, bringing the throne teetering on the edge of her talons.",
+   "body": "Lady Katrana Prestor hides a predator’s cunning behind a painted smile. King Varian has gone missing on the way to a peace summit at Theramore. Prestor now holds deep influence over the young boy-king Anduin and has ensnared Highlord Bolvar Fordragon. The throne lies at the edge of her talons.",
    "spoiler": 2
   }
  ],
@@ -29,7 +29,7 @@
     "who is prestor",
     "katrana prestor real identity"
    ],
-   "answer": "Lady Katrana Prestor is a Stormwind noblewoman and a trusted advisor at court. With King Varian missing, she stands beside the boy-king Anduin and Highlord Bolvar Fordragon in Stormwind Keep, and her counsel carries great weight with the House of Nobles."
+   "answer": "Lady Katrana Prestor is a noblewoman of Stormwind and a trusted adviser at court. With King Varian missing, she stands beside the boy-king Anduin and Highlord Bolvar Fordragon in Stormwind Keep. Her counsel carries great weight with the House of Nobles."
   },
   {
    "q": "Why does Onyxia target Stormwind?",
@@ -38,7 +38,7 @@
     "why attack stormwind",
     "prestor motive"
    ],
-   "answer": "Onyxia aims to bring the kingdom of Stormwind under the black dragonflight's sway, neutralize its military power, and aid her brother Nefarian's dominion over the region."
+   "answer": "Onyxia seeks to bring Stormwind under the black dragonflight’s sway, weaken its military power, and aid her brother Nefarian’s dominion over the region."
   },
   {
    "q": "Where does Onyxia live?",
@@ -47,7 +47,7 @@
     "onyxia location",
     "onyxia lair location"
    ],
-   "answer": "Onyxia's home is a subterranean lair nestled in the swamps of Dustwallow Marsh, where she tends to the clutches of her black dragonflight."
+   "answer": "Onyxia lives in a subterranean lair in the swamps of Dustwallow Marsh, where she tends the clutches of her black dragonflight."
   },
   {
    "q": "What is her connection to Nefarian and Deathwing?",
@@ -56,7 +56,7 @@
     "onyxia father",
     "onyxia family"
    ],
-   "answer": "Onyxia is the daughter of the Aspect Deathwing. She is also the younger sister of Nefarian, working closely with him to restore the black dragonflight's supremacy across Azeroth."
+   "answer": "Onyxia is Deathwing’s daughter and Nefarian’s younger sister. She works closely with him to restore the black dragonflight’s supremacy across Azeroth."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Onyxia"
- ]
+ ],
+ "style": 2
 }

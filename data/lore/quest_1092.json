@@ -20,16 +20,16 @@
    "Gerenzo's Orders (2)"
   ]
  },
- "summary": "Piznik sends Gerenzo's Orders ore sample to Ziz Fizziks, his contact beyond the dig site. The delivery closes a dangerous act of espionage inside the Venture Company workings at Windshear Crag.",
+ "summary": "At Windshear Crag, Piznik sends an ore sample from the Venture Company workings to Ziz Fizziks, his contact beyond the dig site. The delivery ends a dangerous act of espionage.",
  "sections": [
   {
    "title": "A Ticket Out",
-   "body": "Piznik's cover at Windshear Crag is blown, and he knows he cannot stay with the Venture Company crew. Management in Undermine punishes sabotage within its ranks, so the nervous goblin arranges to slip away and find another employer. Before he goes, he gives an outsider the Unidentified Ore mined under Gerenzo's orders. The specimen must reach its destination without drawing suspicion to Piznik.",
+   "body": "Piznik's cover at Windshear Crag is blown, and he can no longer stay with the Venture Company crew. Management in Undermine punishes sabotage within its ranks, so the nervous goblin plans to slip away and find another employer.\n\nBefore he leaves, Piznik gives an outsider the Unidentified Ore mined under Gerenzo's orders. The sample must reach its destination without drawing suspicion to him.",
    "spoiler": 0
   },
   {
    "title": "Corporate Curiosities",
-   "body": "Ziz Fizziks waits at a secret outpost on the western rim of Windshear Crag. He sees value in the mineral and plans to send it south to Undermine engineers, while quietly keeping a valuable portion for himself. His plan reflects the fierce trade and engineering disputes simmering beneath the Stonetalon Mountains.",
+   "body": "Ziz Fizziks waits at a secret outpost on Windshear Crag's western rim. He sees value in the mineral and plans to send it south to Undermine engineers, while quietly keeping a valuable portion for himself.\n\nHis plan reflects the fierce trade and engineering disputes simmering beneath the Stonetalon Mountains.",
    "spoiler": 1
   }
  ],
@@ -91,7 +91,7 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The Unidentified Ore mined under Gerenzo's orders shows that the Venture Company's work in Windshear Crag reaches beyond deforestation: it also searches the mountains for unknown subterranean wealth."
+   "text": "The Unidentified Ore mined under Gerenzo's orders shows that the Venture Company's work in Windshear Crag reaches beyond deforestation. It also searches the mountains for unknown subterranean wealth."
   },
   {
    "target": "profession:Engineering",
@@ -118,5 +118,5 @@
  "attribution": [
   "Gerenzo's Orders (2)"
  ],
- "style": 1
+ "style": 2
 }

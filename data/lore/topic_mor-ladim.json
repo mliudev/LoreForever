@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Mor'Ladim"
  },
- "summary": "Mor'Ladim stalks the grounds of Raven Hill Cemetery in Duskwood, a vengeful skeletal warrior. He was once Morgan Ladimore, a noble knight who lost his family and was overcome by grief and madness, rising in undeath to kill those who cross his path.",
+ "summary": "At Raven Hill Cemetery, Mor'Ladim stalks the grounds as a vengeful skeletal warrior. Once Morgan Ladimore, he lost his family to Duskwood's ruin, then grief and madness drove him to rise in undeath and kill those who cross his path.",
  "sections": [
   {
    "title": "A Knight of the Silver Hand",
-   "body": "Before Raven Hill feared his name, Morgan Ladimore defended the helpless from Grand Hamlet, now called Darkshire. He married Lys at eighteen, and they raised three children in peace until war called him north. During the Third War, Morgan marched with Uther the Lightbringer to Lordaeron. There he witnessed the fall of the Knights of the Silver Hand, the spread of Kel'Thuzad's plague, and Uther's death.",
+   "body": "Before Raven Hill feared his name, Morgan Ladimore defended the helpless from Grand Hamlet, now called Darkshire. He married Lys at eighteen, and they raised three children in peace. Then war called him north. During the Third War, Morgan marched with Uther the Lightbringer to Lordaeron. There he witnessed the fall of the Knights of the Silver Hand, the spread of Kel'Thuzad's plague, and Uther's death.",
    "spoiler": 0
   },
   {
    "title": "The Fall of Morgan Ladimore",
-   "body": "After the war, Morgan returned to a Duskwood darkened and a homestead in ruins. He searched among the headstones at Raven Hill Cemetery and found the graves of Lys and two of their children. Grief and fury overtook him, and he struck at the stones. When cemetery attendants tried to calm him, Morgan killed them in a blind frenzy. Clarity returned, and horror at what he had done drove him to plunge his own blade into his heart. Ashamed, the townsfolk buried him in a remote, unmarked corner of the cemetery.",
+   "body": "After the war, Morgan returned to a darkened Duskwood and found his homestead in ruins. Among the headstones at Raven Hill Cemetery, he found the graves of Lys and two of their children. Grief and fury overtook him, and he struck at the stones. When cemetery attendants tried to calm him, Morgan killed them in a blind frenzy.\n\nClarity returned, and horror at what he had done drove Morgan to plunge his own blade into his heart. Ashamed, the townsfolk buried him in a remote, unmarked corner of the cemetery.",
    "spoiler": 1
   },
   {
    "title": "The Scourge of Raven Hill",
-   "body": "Morgan found no peace in the grave. Guilt over the innocent blood he had shed and suffocating grief stirred his corrupted remains from the earth as a hulking skeletal revenant. Travelers and the Night Watch soon learned to fear the name Mor'Ladim. With his ancestral blade Archeus, he patrols the misty graves, cutting down beasts and unwary travelers who stray near his resting place.",
+   "body": "Guilt over the innocent blood Morgan had shed and his suffocating grief stirred his corrupted remains from the earth. He rose as a hulking skeletal revenant, finding no peace in the grave. Travelers and the Night Watch soon learned to fear the name Mor'Ladim. With his ancestral blade Archeus, he patrols the misty graves, cutting down beasts and unwary travelers who stray near his resting place.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "why is he angry",
     "morladim madness"
    ],
-   "answer": "Grief drove Morgan mad when he found his family's graves. After killing innocent cemetery attendants and taking his own life, guilt and anguish bound his soul to his body, raising him as a murderous undead warrior."
+   "answer": "Grief drove Morgan mad when he found his family's graves. After killing innocent cemetery attendants and taking his own life, guilt and anguish bound his soul to his body. He rose as a murderous undead warrior."
   },
   {
    "q": "Where does Mor'Ladim roam?",
@@ -79,7 +79,7 @@
     "night watch morladim",
     "althea ebonlocke morladim"
    ],
-   "answer": "Commander Althea Ebonlocke and the Night Watch of Darkshire seek Mor'Ladim's destruction to protect patrols and travelers from his ambushes in western Duskwood."
+   "answer": "Commander Althea Ebonlocke and the Night Watch of Darkshire seek Mor'Ladim's destruction. They aim to protect patrols and travelers from his ambushes in western Duskwood."
   }
  ],
  "angles": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Mor'Ladim"
  ],
- "style": 1
+ "style": 2
 }

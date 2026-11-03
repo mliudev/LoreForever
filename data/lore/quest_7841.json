@@ -26,16 +26,16 @@
   "qtype": "PvP",
   "category": "Hinterlands"
  },
- "summary": "At Revantusk Village in the Hinterlands, Otho Moji'ko says the Wildhammer are striking deals with the trolls' enemies, and this time the high elves are their partners. Otho wants a message sent to the Wildhammer dwarves in the blood of the Highvale high elves at Quel'Danil Lodge.",
+ "summary": "At Revantusk Village, Otho Moji'ko wants a message carried to the Wildhammer dwarves. Their new allies include the high elves, and Otho wants his warning written in the blood of the Highvale high elves at Quel'Danil Lodge.",
  "sections": [
   {
    "title": "A Message in Blood",
-   "body": "The Wildhammer are forging new alliances with the trolls' enemies, and this time the high elves are their partners. Otho Moji'ko spits at the thought. A message is owed to the dwarves, written in the blood of their new friends: slaughter every Highvale high elf you come across and leave the bodies as a warning. Highvale Outrunners, Scouts, Marksmen and Rangers gather at Quel'Danil Lodge, in the Hinterlands' northwest.",
+   "body": "The Wildhammer are making alliances with the trolls' enemies, and now the high elves stand with them. Otho Moji'ko spits at the thought. He wants the dwarves warned in the blood of their new friends. Slaughter every Highvale high elf you find and leave the bodies as a warning.\n\nHighvale Outrunners, Scouts, Marksmen and Rangers gather at Quel'Danil Lodge, in the northwest of the Hinterlands.",
    "spoiler": 0
   },
   {
    "title": "Word at Revantusk Village",
-   "body": "When you return, Otho declares that the Revantusk are forging new alliances as well, and praises your work.",
+   "body": "When you return to Revantusk Village, Otho declares that the Revantusk are making new alliances too. He praises your work.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "who gives message to the wildhammer",
     "otho mojiko quest"
    ],
-   "answer": "Otho Moji'ko, who stands in Revantusk Village."
+   "answer": "Otho Moji'ko offers it from Revantusk Village."
   },
   {
    "q": "Where are the Highvale high elves located?",
@@ -55,7 +55,7 @@
     "where are highvale elves",
     "where to find highvale scouts"
    ],
-   "answer": "They gather at Quel'Danil Lodge, in the Hinterlands' northwest."
+   "answer": "The Highvale high elves gather at Quel'Danil Lodge, in the northwest of the Hinterlands."
   },
   {
    "q": "Why does Otho Moji'ko want the high elves attacked?",
@@ -63,7 +63,7 @@
     "why attack quel danil",
     "why kill high elves hinterlands"
    ],
-   "answer": "Otho says the Wildhammer are striking deals with the trolls' enemies, and now they are working with the high elves. Otho wants a message sent to the Wildhammer dwarves, written in the blood of the high elves."
+   "answer": "Otho says the Wildhammer are striking deals with the trolls' enemies, and now they are working with the high elves. He wants a message carried to the Wildhammer dwarves, written in the blood of the high elves."
   },
   {
    "q": "Which Highvale elves does Otho want slaughtered?",
@@ -72,7 +72,7 @@
     "highvale marksman",
     "highvale ranger"
    ],
-   "answer": "Highvale Outrunners, Scouts, Marksmen and Rangers at Quel'Danil Lodge."
+   "answer": "Otho wants the Highvale Outrunners, Scouts, Marksmen and Rangers at Quel'Danil Lodge slaughtered."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Wowpedia: Message to the Wildhammer"
- ]
+ ],
+ "style": 2
 }

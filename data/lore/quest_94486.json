@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists and natural healers can appreciate the careful balance of combining moss, antiseptic tree sap, and insulating feathers to craft an effective field dressing or medicinal poultice."
+   "text": "Herbalists and natural healers can value the balance of moss, antiseptic tree sap, and insulating feathers in a field dressing or medicinal poultice."
   },
   {
    "target": "class:Druid",
-   "text": "Druids may share the questgiver's sorrow over slaying young woodland beasts, even when rising aggression and urgent medical necessity leave few other alternatives."
+   "text": "As a druid, you may share the caretakers’ sorrow over slaying young woodland beasts, even when rising aggression and urgent medical need leave few alternatives."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "why shriekling feathers",
     "poultice feathers"
    ],
-   "answer": "The feathers of juvenile Shadowgale shrieklings possess natural insulative qualities. Placed over a layer of moss, they serve as a protective binding that prevents antiseptic sap from drying out while shielding wounds against harsh environmental elements.",
+   "answer": "Young Shadowgale shrieklings’ feathers insulate the poultice. Laid over moss and antiseptic sap, they keep the sap from drying and shield wounds from harsh weather.",
    "q": "Why are Shadowgale shriekling feathers needed for the poultice?"
   },
   {
@@ -37,7 +37,7 @@
     "are shrieklings dangerous",
     "shriekling aggression"
    ],
-   "answer": "Although Shadowgale shrieklings are normally docile creatures, they have recently become unusually hostile. Despite their young age, they possess large, vicious talons capable of disemboweling an unwary traveler.",
+   "answer": "Shadowgale shrieklings are usually docile, but lately they have grown unusually hostile. Even the young have large, vicious talons that can disembowel an unwary traveler.",
    "q": "How dangerous are the juvenile shrieklings?"
   },
   {
@@ -45,7 +45,7 @@
     "why kill young shrieklings",
     "killing young shrieklings"
    ],
-   "answer": "The questgiver expresses genuine remorse over culling young beasts. However, because of their sudden spike in hostility and the need to manage competing wilderness emergencies, thinning their numbers while harvesting needed medicine is deemed a painful necessity.",
+   "answer": "The caretakers regret culling young shrieklings, but their sudden aggression and competing wilderness emergencies make thinning their numbers a painful necessity. Gathering their feathers also helps meet urgent medical needs.",
    "q": "Why must juvenile shrieklings be hunted instead of adults?"
   },
   {
@@ -54,7 +54,7 @@
     "shriekling location",
     "where are shrieklings"
    ],
-   "answer": "Shadowgale shrieklings roam the canopies and underbrush of Shadowgale Forest, where travelers must venture carefully through the woods to track them down.",
+   "answer": "Shadowgale shrieklings roam the canopies and underbrush of Shadowgale Forest. Travelers must venture carefully through the woods to find them.",
    "q": "Where are the Shadowgale shrieklings found?"
   },
   {
@@ -62,7 +62,7 @@
     "poultice ingredients",
     "what is in the poultice"
    ],
-   "answer": "The poultice consists of local moss layered with antiseptic sap, which is then bound and insulated using the downy feathers harvested from juvenile shrieklings.",
+   "answer": "The poultice uses local moss and antiseptic sap, bound and insulated with feathers from young shrieklings.",
    "q": "What other ingredients are being used alongside these feathers?"
   },
   {
@@ -70,7 +70,7 @@
     "why are shrieklings angry",
     "what caused shriekling aggression"
    ],
-   "answer": "The exact cause of their sudden hostility is unclear, but the normally peaceful young creatures have become uncharacteristically aggressive, adding to the growing list of crises confronting local caretakers.",
+   "answer": "No one knows the exact cause of the shrieklings’ sudden hostility. The normally peaceful young creatures have grown aggressive, adding to the crises facing local caretakers.",
    "q": "Why have the shrieklings become so hostile lately?"
   }
  ],
@@ -86,23 +86,24 @@
  "related": [],
  "sections": [
   {
-   "body": "In the depths of Shadowgale Forest, preparing field medicine often demands resourcefulness from the land. When treating grave injuries, herbalists and healers turn to a specialized poultice built on moss and antiseptic tree sap. To ensure the sap does not rapidly dry out or lose its potency to harsh weather, durable insulative bindings are required. The juvenile feathers of Shadowgale shrieklings provide an ideal natural barrier, shielding the wound while sealing in the medicinal treatment.",
+   "body": "Field healers in Shadowgale Forest treat grave injuries with moss and antiseptic tree sap. Harsh weather can dry the sap or rob it of its strength. So they bind the poultice with young Shadowgale shrieklings’ feathers, which shield the wound and hold the medicine in place.",
    "spoiler": 0,
    "title": "Remedies of the Forest"
   },
   {
-   "body": "Procuring these downy feathers has become unexpectedly perilous. Under ordinary circumstances, young Shadowgale shrieklings are docile woodland dwellers. In recent times, however, an inexplicable spike in aggression has swept through their ranks. Wielding formidable talons capable of inflicting lethal wounds, these young predators now strike aggressively at passersby. Harvesting their plumage requires adventurers to face a creature transformed from a harmless fledgling into a genuine hazard.",
+   "body": "Gathering the soft feathers has grown dangerous. Young Shadowgale shrieklings are usually docile woodland dwellers, but lately they have turned inexplicably aggressive. Their strong talons can inflict lethal wounds. Now the fledglings strike at passersby.",
    "spoiler": 0,
    "title": "Uncharacteristic Hostility"
   },
   {
-   "body": "Asking travelers to hunt juvenile creatures weighs heavily on the local caretakers, who openly mourn the necessity of the cull. Yet with multiple emergencies threatening the region and the beasts growing increasingly dangerous, thinning their numbers serves a dual purpose: gathering vital curative materials while suppressing a burgeoning threat to the forest's paths. Every feather gathered is treated with respect, ensuring their sacrifice is not wasted.",
+   "body": "Local caretakers mourn the need to cull young beasts. Yet emergencies threaten the region, and the shrieklings grow more dangerous. Thinning their numbers gathers vital curative materials and curbs a rising threat along forest paths. Each feather is treated with respect, so the beasts’ sacrifice is not wasted.",
    "spoiler": 0,
    "title": "A Regrettable Necessity"
   }
  ],
- "summary": "Feathers for Binding is a quest in Shadowgale Forest centered on gathering insulating plumage from young shrieklings to craft a protective medicinal poultice. While these normally docile creatures have grown dangerously aggressive, their feathers remain essential for preserving antiseptic salves against the elements. Adventurers must brave the hostile fledglings to secure the materials needed for regional care.",
+ "summary": "In Shadowgale Forest, healers need young shrieklings’ feathers to bind a healing poultice. The usually docile birds now attack travelers, making the plumage dangerous to gather.",
  "attribution": [
   "In-game quest text: Feathers for Binding"
- ]
+ ],
+ "style": 2
 }

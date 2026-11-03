@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Swamplight Manor"
  },
- "summary": "Swamplight Manor is an ironically named, ramshackle wooden shack nestled deep within Witch Hill in Dustwallow Marsh. It serves as the eccentric home and kitchen of 'Swamp Eye' Jarl, an isolated recluse known across the mire for his strange culinary appetites. Despite its humble, eerie isolation, the surrounding garden conceals intrigue that catches the attention of both Theramore and Brackenwall Village.",
+ "summary": "In Witch Hill, 'Swamp Eye' Jarl cooks strange fare at Swamplight Manor. The crooked shack is his home, and his unusual tastes are known across the mire. Its garden draws the attention of Theramore and Brackenwall Village.",
  "sections": [
   {
    "title": "A Hermit's Respite in the Mire",
-   "body": "Despite what its grandiose title suggests, Swamplight Manor is far from a lordly estate. It is merely a crooked, weather-beaten shack tucked into the haunted wetlands of Witch Hill. Its lone resident, the odd recluse known as 'Swamp Eye' Jarl, lives a solitary existence surrounded by fog, muck, and restless marsh ghosts. Jarl spends his days concocting unusual regional delicacies out of local wildlife, frequently recruiting wandering adventurers to hunt down bizarre ingredients like marsh frog legs and creature eyes to satisfy his strange craft.",
+   "body": "In Witch Hill, a crooked wooden shack shelters the recluse 'Swamp Eye' Jarl. Fog, muck, and restless marsh ghosts surround his home, far from any lordly estate. Jarl lives alone and spends his days making strange local dishes from marsh creatures.\n\nTravelers come for his eccentric cooking or shelter from the spirits. Jarl also recruits them to hunt unusual ingredients, including marsh frog legs and creature eyes.",
    "spoiler": 0
   },
   {
    "title": "Secrets in the Garden",
-   "body": "While travelers usually stumble upon the manor seeking eccentric cooking or shelter from the spirits of Witch Hill, the grounds conceal a much darker border conflict. Buried under a loose pile of dirt in Jarl's makeshift garden lies a discarded orcish spy's report, complete with a severed head nearby. Both the Theramore guards under Captain Garran Vimes and the Horde forces at Brackenwall Village have keen interests in recovering these documents, making the hermit's patch of overgrown soil an unexpected flashpoint in the regional cold war.",
+   "body": "Travelers seek Jarl's cooking or shelter from Witch Hill's spirits. In his makeshift garden, a loose pile of dirt covers a discarded orcish spy's report, with a severed head nearby.\n\nTheramore's guards under Captain Garran Vimes and Horde forces at Brackenwall Village both seek the documents. The hermit's overgrown patch has become a point of tension between them.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why manor",
     "is swamplight a real manor"
    ],
-   "answer": "The name is purely ironic. The structure is little more than a soggy, rundown wooden hovel, named with a touch of eccentricity by its reclusive inhabitant, 'Swamp Eye' Jarl, to contrast with the dreary gloom of Witch Hill."
+   "answer": "The name is ironic: Swamplight Manor is a soggy, rundown wooden shack. Its reclusive inhabitant, 'Swamp Eye' Jarl, gave it the grand name against Witch Hill's dreary gloom."
   },
   {
    "q": "Who lives at Swamplight Manor?",
@@ -37,7 +37,7 @@
     "swamplight manor resident",
     "who lives here"
    ],
-   "answer": "'Swamp Eye' Jarl lives here alone. He is an infamous, half-crazed hermit and cook who chooses to dwell isolated in the haunted mire, hiring passing travelers to supply him with peculiar culinary ingredients and aid with the local spirits."
+   "answer": "'Swamp Eye' Jarl lives alone at Swamplight Manor. The half-crazed hermit cooks strange local dishes and hires passing travelers to find peculiar ingredients and help with the local spirits."
   },
   {
    "q": "What is buried in the garden outside?",
@@ -46,7 +46,7 @@
     "loose dirt swamplight",
     "orc spy report"
    ],
-   "answer": "Hidden in a pile of disturbed earth in Jarl's yard is a lost spy report penned by an orc, along with a severed head. Both Alliance authorities in Theramore and Horde scouts from Brackenwall Village are anxious to secure this intelligence."
+   "answer": "A discarded spy report penned by an orc lies beneath disturbed earth in Jarl's yard, with a severed head nearby. Theramore's Alliance authorities and Horde scouts from Brackenwall Village both seek the intelligence."
   },
   {
    "q": "Can both Alliance and Horde players visit Jarl?",
@@ -55,17 +55,17 @@
     "can horde talk to swamp eye jarl",
     "swamplight faction"
    ],
-   "answer": "Yes. Jarl lives so far removed from civilization that he maintains neutrality, gladly accepting help or trading recipes with both Alliance and Horde travelers."
+   "answer": "Yes. Jarl lives far from civilization and keeps neutral. He accepts help and trades recipes with Alliance and Horde travelers alike."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For culinarians braving the marshlands, Jarl represents the eccentric pinnacle of swamp foraging, crafting regional meals out of creatures most chefs would dread to touch."
+   "text": "For cooks who brave the marsh, Jarl is an eccentric master of swamp foraging. He makes regional meals from creatures most chefs would dread to touch."
   },
   {
    "target": "faction:Alliance",
-   "text": "Theramore scouts sent by Captain Garran Vimes keep a watchful eye on rumors surrounding the manor, particularly concerning missing scouts and intercepted Horde correspondence."
+   "text": "Theramore scouts sent by Captain Garran Vimes watch rumors around the manor, especially reports of missing scouts and intercepted Horde correspondence."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Swamplight Manor"
- ]
+ ],
+ "style": 2
 }

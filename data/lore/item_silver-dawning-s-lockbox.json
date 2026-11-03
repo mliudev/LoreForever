@@ -10,11 +10,11 @@
    "quest:982"
   ]
  },
- "summary": "Off the Darkshore coast, Silver Dawning's Lockbox lies in the wreck of a ship lost to coastal murlocs. Inside are the fallen captain's personal effects and ship log.",
+ "summary": "Off the Darkshore coast, Silver Dawning's Lockbox lies in a wreck north of Auberdine. Coastal murlocs sank the ship, and the box holds its captain's personal effects and ship log.",
  "sections": [
   {
    "title": "Sunken Remnants",
-   "body": "The Silver Dawning sailed across the sea toward Auberdine when coastal murlocs attacked. They drove the ship beneath the waves north of the harbor, and the captain died in the assault. The flooded hull still holds the captain's personal lockbox, with the ship's log and private belongings inside. Recovering them could bring a final measure of peace to the surviving crew ashore.",
+   "body": "The Silver Dawning was sailing toward Auberdine when coastal murlocs attacked. They drove the ship beneath the waves north of the harbor, and the captain died in the assault. The flooded hull still holds the captain's lockbox, with the ship's log and private belongings inside. Recovering them may bring some peace to the surviving crew ashore.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is silver dawning box",
     "silver dawning wreck"
    ],
-   "answer": "The lockbox rests inside the overturned, submerged wreck of the Silver Dawning, on the ocean floor north of Auberdine, off the Darkshore coast."
+   "answer": "The lockbox rests inside the submerged wreck of the Silver Dawning, on the ocean floor north of Auberdine off the Darkshore coast."
   },
   {
    "q": "What happened to the Silver Dawning?",
@@ -35,7 +35,7 @@
     "silver dawning backstory",
     "how did ship wreck"
    ],
-   "answer": "Coastal murlocs ambushed the Silver Dawning as it sailed toward Auberdine. They overwhelmed the vessel, and it sank beneath the waves with its captain."
+   "answer": "Coastal murlocs attacked the Silver Dawning as it sailed toward Auberdine. They overwhelmed the ship, and it sank beneath the waves with its captain."
   },
   {
    "q": "What is inside the lockbox?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The lockbox preserves the final writings and belongings of a kaldorei captain who died defending their vessel off the shores of northern Kalimdor."
+   "text": "The lockbox holds the final writings and belongings of a kaldorei captain who died defending their vessel off the shores of northern Kalimdor."
   },
   {
    "target": "race:Dwarf",
@@ -86,5 +86,5 @@
   "Silver Dawning's Lockbox",
   "Deep Ocean, Vast Sea"
  ],
- "style": 1
+ "style": 2
 }

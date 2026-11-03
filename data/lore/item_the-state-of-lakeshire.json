@@ -10,16 +10,16 @@
    "quest:120"
   ]
  },
- "summary": "In Lakeshire, Magistrate Solomon's report calls for help before the town falls. It urges General Marcus Jonathan in Stormwind to send royal army reinforcements against the crisis in Redridge.",
+ "summary": "Lakeshire's defenders face attacks, and Magistrate Solomon calls on Stormwind for aid. His report urges General Marcus Jonathan to send royal reinforcements against the crisis in Redridge.",
  "sections": [
   {
    "title": "A Cry for Aid",
-   "body": "Magistrate Solomon writes of the attacks threatening Lakeshire. Blackrock orcs and gnolls press the town, whose defenders cannot hold the borders indefinitely. Couriers carry his dispatch west along the road to Elwynn Forest. Solomon asks the Stormwind Army to intervene and protect the kingdom's eastern reach.",
+   "body": "Magistrate Solomon writes that attacks threaten Lakeshire. Blackrock orcs and gnolls press the town, and its defenders cannot hold the borders forever. Couriers carry his dispatch west along the road to Elwynn Forest. Solomon asks the Stormwind Army to protect the kingdom's eastern reach.",
    "spoiler": 0
   },
   {
    "title": "Bureaucracy and Deadlock",
-   "body": "General Marcus Jonathan receives Solomon's report at Stormwind's gates. He respects the magistrate's standing and understands the danger, but cannot move the army on his own. Deployments need the crown's consent, so Lakeshire's plea must wait for a council with the young King and regent Bolvar Fordragon.",
+   "body": "At Stormwind's gates, General Marcus Jonathan receives Solomon's report. He respects the magistrate's standing and understands the danger, but cannot move the army alone. Deployments need the crown's consent. So Lakeshire's plea must wait for a council with the young King and regent Bolvar Fordragon.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is this report",
     "solomon's message"
    ],
-   "answer": "The State of Lakeshire is Magistrate Solomon's official dispatch about the military danger facing Lakeshire, asking Stormwind for troop reinforcements."
+   "answer": "Magistrate Solomon's official dispatch describes the military danger facing Lakeshire and asks Stormwind for troop reinforcements."
   },
   {
    "q": "Who is supposed to receive this dispatch?",
@@ -48,7 +48,7 @@
     "why is lakeshire in danger",
     "what threatens redridge"
    ],
-   "answer": "Lakeshire needs royal reinforcements because Blackrock orcs, Shadowhide gnolls, and local murlocs keep besieging the settlement, overwhelming its town guard."
+   "answer": "Blackrock orcs, Shadowhide gnolls, and local murlocs keep besieging Lakeshire, overwhelming its town guard. The settlement needs royal reinforcements."
   },
   {
    "q": "Does General Marcus Jonathan send help immediately?",
@@ -56,7 +56,7 @@
     "does stormwind help",
     "does jonathan send troops"
    ],
-   "answer": "No. General Marcus Jonathan agrees the crisis is severe, but he needs the King's formal approval to deploy the army. The request must first go through royal review."
+   "answer": "No. General Marcus Jonathan agrees the crisis is severe, but needs the King's formal approval to deploy the army. The request must first go through royal review."
   }
  ],
  "angles": [
@@ -92,5 +92,5 @@
   "The State of Lakeshire",
   "Messenger to Stormwind"
  ],
- "style": 1
+ "style": 2
 }

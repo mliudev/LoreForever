@@ -24,16 +24,16 @@
    "Cortello's Riddle"
   ]
  },
- "summary": "A cryptic musty scroll provides the final set of verse left behind by Cortello. The rhyming instructions direct treasure hunters far north to the troubled continent of Lordaeron, where the trail reaches its conclusion along the coastal waterfalls of the Hinterlands.",
+ "summary": "In the Hinterlands, the final verses of Cortello's Riddle draw treasure hunters to the coast. A musty scroll points north from the southern tropics, and the trail ends beneath the waterfalls.",
  "sections": [
   {
    "title": "The Final Clue",
-   "body": "Following the earlier scrolls, this weathered text points away from the southern tropics toward the embattled lands of Lordaeron. The riddle bids searchers to seek out the great turmoil in the north, promising that the long chase ends by braving that unrest and pursuing the coastline.",
+   "body": "The weathered verse turns the search north, away from the southern tropics and toward Lordaeron. There, amid the great turmoil of the embattled lands, the long chase reaches its end along the coast.",
    "spoiler": 0
   },
   {
    "title": "Beneath the Cascade",
-   "body": "The verse specifies that the final hoard lies along the shore of the Hinterlands. At the base of the great falls, the treasure lies underwater.",
+   "body": "The final hoard lies along the Hinterlands shore. Search underwater at the foot of the great falls.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "where do i go for cortello riddle 3",
     "cortello hinterlands location"
    ],
-   "answer": "The verse leads to the coast of the Hinterlands in Lordaeron, directing seekers to look underwater at the base of the great waterfall cascading from the cliffs."
+   "answer": "The verse leads to the coast of the Hinterlands in Lordaeron. Search underwater at the foot of the great waterfall pouring from the cliffs."
   },
   {
    "q": "What starts this part of the search?",
@@ -53,7 +53,7 @@
     "how to start cortellos riddle part 3",
     "where do i get the scroll"
    ],
-   "answer": "This final riddle is read from a musty scroll uncovered during the earlier steps of Cortello's treasure hunt."
+   "answer": "A musty scroll found during the earlier search for Cortello's treasure holds the final riddle."
   },
   {
    "q": "Who wrote these verses?",
@@ -61,7 +61,7 @@
     "who is cortello",
     "who made cortellos riddle"
    ],
-   "answer": "The riddles and hidden scrolls were left behind by a figure named Cortello, leading searchers to his hidden treasure."
+   "answer": "Cortello left the riddles and hidden scrolls that lead searchers to his treasure."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Cortello's Riddle (3)"
- ]
+ ],
+ "style": 2
 }

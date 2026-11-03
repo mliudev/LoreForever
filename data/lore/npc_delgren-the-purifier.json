@@ -8,21 +8,21 @@
   "wiki": "Delgren the Purifier",
   "refs": 9
  },
- "summary": "At Maestra's Post, Delgren the Purifier aids the night elves against demonic and shadow magic on Ashenvale's northern edge. He works with Balthule Shadowstrike and Feero Ironhand to guard the frontier.",
+ "summary": "At Maestra's Post, Delgren the Purifier helps the night elves resist demonic and shadow magic on Ashenvale's northern edge. He stands watch with Balthule Shadowstrike and Feero Ironhand.",
  "sections": [
   {
    "title": "A Crusader on the Kaldorei Frontier",
-   "body": "Delgren the Purifier keeps watch over travelers heading south from Auberdine. Human paladins are rare in Kalimdor's ancient forests, but he came west with a band of holy warriors from the Argent Dawn. They set out to help the Alliance's new night elf allies face demons and undead remnants left by the Third War. Delgren is stationed near the border of Darkshore and Ashenvale, where that danger reaches the road.",
+   "body": "Delgren the Purifier watches the road south from Auberdine. Human paladins are rare in Kalimdor's ancient forests, yet he came west with holy warriors of the Argent Dawn. They set out to help the Alliance's new night elf allies face demons and undead remnants left by the Third War. Delgren now guards the border of Darkshore and Ashenvale, where danger reaches the road.",
    "spoiler": 0
   },
   {
    "title": "Purging the Dark Strand",
-   "body": "Delgren and Balthule Shadowstrike confront the Cult of the Dark Strand around the Tower of Althalaxx in northern Darkshore. The cult's dark rituals threaten the frontier. Delgren sends adventurers into its territory to strike down cultists, shatter their summoning focuses, and hunt warlocks who traffic with demonic shadow.",
+   "body": "Delgren and Balthule Shadowstrike confront the Cult of the Dark Strand near the Tower of Althalaxx in northern Darkshore. Its dark rites threaten the frontier. Delgren sends adventurers into cult territory to strike down cultists and shatter their summoning focuses. He also sends them to hunt warlocks who traffic with demonic shadow.",
    "spoiler": 1
   },
   {
    "title": "An Unorthodox Mind",
-   "body": "Delgren's devotion to the Holy Light has not kept him from studying Kalimdor's tangled politics. He learned Orcish, to the annoyance and disdain of his conservative superiors. The language gives him a way to understand the enemies and neighbors who share this untamed continent, beyond the teachings of his order.",
+   "body": "Delgren's devotion to the Holy Light has not kept him from studying Kalimdor's tangled politics. He learned Orcish, to the annoyance and disdain of his conservative superiors. The language helps him understand the enemies and neighbors who share this untamed continent, beyond his order's teachings.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "delgren lore",
     "who is the paladin at maestras post"
    ],
-   "answer": "Delgren is a human paladin at Maestra's Post, along the road in northern Ashenvale. He serves with the Argent Dawn and aids the night elves against demonic corruption, cultists, and shadows left by the Legion's invasion."
+   "answer": "Delgren is a human paladin serving with the Argent Dawn at Maestra's Post in northern Ashenvale. He aids the night elves against demonic corruption, cultists, and shadows left by the Legion's invasion."
   },
   {
    "q": "Where can I find Delgren?",
@@ -43,7 +43,7 @@
     "delgren location",
     "delgren coordinates"
    ],
-   "answer": "Delgren stands at Maestra's Post, a small night elven outpost in northwestern Ashenvale, just south of the trail leading into Darkshore."
+   "answer": "Delgren stands at Maestra's Post, a small night elven outpost in northwestern Ashenvale, just south of the trail into Darkshore."
   },
   {
    "q": "Why is a human paladin all the way out in Ashenvale?",
@@ -52,7 +52,7 @@
     "why are there humans in ashenvale",
     "delgren mission"
    ],
-   "answer": "Delgren traveled west with a company of Argent Dawn paladins to aid the Alliance's night elven allies. They work to purge demons, undead remnants, and dark cults threatening northern Kalimdor."
+   "answer": "Delgren traveled west with a company of Argent Dawn paladins to aid the Alliance's night elf allies. They work to purge demons, undead remnants, and dark cults threatening northern Kalimdor."
   },
   {
    "q": "What is Delgren's connection to the Tower of Althalaxx?",
@@ -70,7 +70,7 @@
     "does delgren speak orcish",
     "delgren orc language"
    ],
-   "answer": "Delgren learned Orcish to better understand Kalimdor and its inhabitants. His superiors in the order disapproved."
+   "answer": "Delgren learned Orcish to better understand Kalimdor and its inhabitants. His order's superiors disapproved."
   },
   {
    "q": "Who does Delgren work with at Maestra's Post?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, Delgren shows how the Holy Light reaches Kalimdor. His crusade against demons and dark magic carries far beyond the Eastern Kingdoms."
+   "text": "As a paladin, you can see how the Holy Light reaches Kalimdor. Delgren's crusade against demons and dark magic reaches far beyond the Eastern Kingdoms."
   },
   {
    "target": "faction:Alliance",
@@ -92,7 +92,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you may distrust foreign creeds, but Delgren's company fights the demonic cults troubling ancient ruins."
+   "text": "As a night elf, you may distrust foreign creeds. Delgren's company fights the demonic cults troubling ancient ruins."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Delgren the Purifier"
  ],
- "style": 1
+ "style": 2
 }

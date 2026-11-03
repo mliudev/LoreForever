@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As children of the stars, kaldorei inherit the direct blessings of Elune, utilizing moonlight to reveal unseen paths and concealment to blend into shadows."
+   "text": "As a night elf, you inherit Elune’s blessings: moonlight to reveal hidden paths and shadows to conceal your presence."
   },
   {
    "target": "faction:Alliance",
-   "text": "Following the battle at Mount Hyjal, the night elves ended their long isolation and joined the Alliance, offering their sacred lunar powers in service of mutual defense."
+   "text": "After the battle at Mount Hyjal, the night elves ended their long isolation and joined the Alliance. You share your people’s lunar powers in service of mutual defense."
   },
   {
    "target": "class:Priest",
-   "text": "Priesthood among the kaldorei is devoted to Mother Moon, channeling Elune's grace directly as guiding radiance and divine protection."
+   "text": "As a kaldorei priest, you devote yourself to Mother Moon and channel Elune’s grace as guiding radiance and divine protection."
   }
  ],
  "faq": [
@@ -31,7 +31,7 @@
     "what is the goddess provides",
     "the goddess provides quest"
    ],
-   "answer": "The Goddess Provides is an introductory rite for young night elves nestled within the boughs of Teldrassil. It instructs kaldorei in recognizing and demonstrating the innate blessings granted to them by the moon goddess Elune.",
+   "answer": "Young night elves learn to recognize and demonstrate Elune’s blessings in a rite beneath Teldrassil’s boughs.",
    "q": "What is The Goddess Provides?"
   },
   {
@@ -40,7 +40,7 @@
     "who is mother moon",
     "night elf goddess"
    ],
-   "answer": "The goddess is Elune, also revered by the kaldorei as Mother Moon. She is the central deity of night elf culture and spiritual life, believed to bestow lunar blessings of protection, clarity, and stealth upon her children.",
+   "answer": "The goddess is Elune, whom the kaldorei call Mother Moon. She is central to night elf culture and spiritual life, and they believe she grants her children protection, clarity, and stealth.",
    "q": "Who is the goddess referenced in this quest?"
   },
   {
@@ -49,7 +49,7 @@
     "elune racial abilities",
     "elune powers"
    ],
-   "answer": "Elune grants grace that can illuminate a warrior's strikes to help them hit true, as well as the ability to melt into the surrounding shadows just as the moon conceals the sun during an eclipse.",
+   "answer": "Elune grants radiance that guides a warrior’s strikes and the power to blend into surrounding shadows.",
    "q": "What gifts does Elune provide to the kaldorei?"
   },
   {
@@ -57,7 +57,7 @@
     "what was the long vigil",
     "why did the long vigil end"
    ],
-   "answer": "The Long Vigil was the thousands of years of guarded isolation maintained by the night elves to watch over Kalimdor. It concluded after the climactic defense of Mount Hyjal against the Burning Legion, leading the kaldorei to finally open their borders.",
+   "answer": "The Long Vigil was the thousands of years when the night elves guarded Kalimdor in isolation. It ended after they defended Mount Hyjal against the Burning Legion, and the kaldorei then opened their borders.",
    "q": "What was the Long Vigil?"
   },
   {
@@ -65,7 +65,7 @@
     "why did night elves join alliance",
     "kaldorei alliance"
    ],
-   "answer": "After the defense of Mount Hyjal brought an end to their solitary isolation, the kaldorei chose to forge ties with mortal races across the sea, entering into the Grand Alliance for mutual survival and camaraderie.",
+   "answer": "After defending Mount Hyjal, the night elves ended their long isolation and chose to forge ties with mortal races across the sea. They joined the Grand Alliance for mutual survival and camaraderie.",
    "q": "Why have the night elves joined the Alliance?"
   },
   {
@@ -73,7 +73,7 @@
     "where is teldrassil",
     "what is teldrassil"
    ],
-   "answer": "Teldrassil is the massive Great Tree situated off the northern coast of Kalimdor. Its high, sheltered boughs serve as the new home and sanctuary for the night elven people following the Third War.",
+   "answer": "Teldrassil is a Great Tree off Kalimdor’s northern coast. After the Third War, its sheltered boughs became the night elves’ new home and sanctuary.",
    "q": "Where does this instruction take place?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "For millennia following the Sundering, the kaldorei maintained their solitary Long Vigil, watching over Kalimdor and guarding the sacred peaks of Mount Hyjal. The devastation of the Third War and the climactic defense of the World Tree forced an end to that ancient seclusion. Now relocated to the sheltering boughs of Teldrassil, the night elves face an unfamiliar world, stepping onto the broader stage of Azeroth by aligning themselves with distant allies across the ocean.",
+   "body": "For millennia after the Sundering, the kaldorei kept apart from other peoples. During the Long Vigil, they watched over Kalimdor and guarded the sacred peaks of Mount Hyjal. The Third War brought devastation, and the defense of the World Tree ended their ancient seclusion.\n\nNow the night elves dwell beneath Teldrassil’s boughs and face an unfamiliar world. They reach across the ocean to make allies and take their place among Azeroth’s peoples.",
    "spoiler": 0,
    "title": "A Vigil Concluded"
   },
   {
-   "body": "Even amidst shifting allegiances and new dwellings, the foundation of kaldorei identity remains rooted in the worship of Elune, the Mother Moon. Night elves are taught from their earliest days to call upon her dual aspects: radiance to guide martial strikes and clarify purpose, and shadow to cloak one's presence from enemy sight. Calling upon these hereditary gifts serves as both spiritual communion and practical preparation for the perils beyond the Great Tree.",
+   "body": "Elune, the Mother Moon, remains at the heart of kaldorei faith, though the night elves now dwell in a new home and form new ties. From their earliest days, they learn to call on her gifts. Her radiance guides their strikes and clarifies their purpose. Her shadow hides them from enemy sight.\n\nThese inherited blessings bind the kaldorei to their goddess and prepare them for dangers beyond the Great Tree.",
    "spoiler": 0,
    "title": "Blessings of Mother Moon"
   }
  ],
- "summary": "The Goddess Provides is an introductory kaldorei quest centered on recognizing Elune's divine gifts. Set in the boughs of Teldrassil following the end of the Long Vigil, it teaches young night elves to embrace the lunar guidance and cloaking shadows bestowed by Mother Moon.",
+ "summary": "Beneath Teldrassil, young night elves begin a rite that teaches them to know Elune’s gifts. After the Long Vigil, they seek guidance in her radiance and shelter in her shadow.",
  "attribution": [
   "In-game quest text: The Goddess Provides"
- ]
+ ],
+ "style": 2
 }

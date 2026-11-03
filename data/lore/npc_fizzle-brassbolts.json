@@ -8,16 +8,16 @@
   "wiki": "Fizzle Brassbolts",
   "refs": 3
  },
- "summary": "Fizzle Brassbolts is a prominent gnomish engineer stationed out on the baked salt flats of the Mirage Raceway in Thousand Needles. Alongside his rival, the goblin Pozzik, Fizzle co-founded the raceway to pit gnomish precision engineering against reckless goblin ingenuity in high-speed rocket car races. He constantly seeks parts, fuel, and strange desert reagents to keep his racing team running.",
+ "summary": "At the Mirage Raceway, Fizzle Brassbolts works on the salt flats of Thousand Needles. He and Pozzik founded the raceway to pit gnomish precision against goblin ingenuity in rocket car races. Fizzle seeks parts, fuel, and desert reagents for his team.",
  "sections": [
   {
    "title": "A Matter of Principle and Pistons",
-   "body": "Out in the shimmering heat of the Shimmering Flats, political alliances and ancient grudges yield to the roar of motorized engines. Fizzle Brassbolts arrived here with one goal in mind: proving once and for all that gnomish craftsmanship is vastly superior to crude goblin tinkering. Together with his goblin counterpart Pozzik, he helped lay out the Mirage Raceway, bringing race cars, pit crews, and spectators to an otherwise desolate basin.",
+   "body": "Fizzle Brassbolts came to the Shimmering Flats to prove gnomish craftsmanship superior to goblin tinkering. With the goblin engineer Pozzik, he laid out the Mirage Raceway. Race cars, pit crews, and spectators soon filled the basin.",
    "spoiler": 0
   },
   {
    "title": "Tinkering on the Flats",
-   "body": "Racing across dry salt beds at breakneck speeds requires constant improvisation, and Fizzle does not shy away from unorthodox experiments. Whether testing volatile mixtures concocted from local creature venom or contracting travelers to fetch replacement mechanical parts, Fizzle is determined to keep his driver's wheels turning faster than any explosive goblin contraption.",
+   "body": "The dry salt beds keep Fizzle improvising. He tests mixtures made with local creature venom and contracts travelers to find replacement mechanical parts. His aim is to keep his driver's wheels turning faster than any goblin contraption.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "fizzle brassbolts lore",
     "gnome at raceway"
    ],
-   "answer": "Fizzle Brassbolts is a master gnomish engineer and lead organizer for the gnomish racing crew stationed at the Mirage Raceway in Thousand Needles."
+   "answer": "Fizzle Brassbolts leads the gnomish racing crew at the Mirage Raceway in Thousand Needles. He is a master gnomish engineer."
   },
   {
    "q": "Why did Fizzle come to the Shimmering Flats?",
@@ -38,7 +38,7 @@
     "raceway purpose",
     "why raceway built"
    ],
-   "answer": "He came to settle a technical debate with the goblin engineer Pozzik over whose race boasts superior engineering. Together, they established the Mirage Raceway to test their rocket cars head-to-head on the flat salt basin."
+   "answer": "Fizzle came to the Shimmering Flats to settle a technical debate with the goblin engineer Pozzik over whose racecars have superior engineering. Together they established the Mirage Raceway, where their rocket cars compete head-to-head on the flat salt basin."
   },
   {
    "q": "Who are the Brassbolts brothers?",
@@ -56,7 +56,7 @@
     "venom racing fuel",
     "why does he need venom"
    ],
-   "answer": "Fizzle experiments constantly with local reagents to formulate powerful engine fluids, additives, and accelerants capable of giving his rocket cars an edge over Pozzik's machines."
+   "answer": "Fizzle tests local reagents to make engine fluids, additives, and accelerants that might give his rocket cars an edge over Pozzik's machines."
   },
   {
    "q": "Does Fizzle fight against the goblins?",
@@ -64,7 +64,7 @@
     "is fizzle hostile to goblins",
     "fizzle pozzik fight"
    ],
-   "answer": "Not with weapons. While deep professional jealousy exists between them, Fizzle and Pozzik maintain an uneasy, neutral truce at the raceway to focus purely on high-speed competition."
+   "answer": "Fizzle does not fight the goblins with weapons. He and Pozzik maintain an uneasy, neutral truce at the raceway so they can focus on high-speed competition."
   },
   {
    "q": "Who is Pilot Longbeard?",
@@ -72,21 +72,21 @@
     "pilot longbeard connection",
     "fizzle pilot friend"
    ],
-   "answer": "Pilot Longbeard is a dwarven siege engine pilot of the Ironforge Siege Brigade and a friend of the Brassbolts brothers who shares their fondness for dangerous machinery."
+   "answer": "Pilot Longbeard is a dwarven siege engine pilot with the Ironforge Siege Brigade. He is a friend of the Brassbolts brothers and shares their fondness for dangerous machinery."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Fizzle carries the honor of all Gnomeregan into the desert, dead-set on proving gnomish precision outperforms goblin recklessness."
+   "text": "As a gnome, you carry Gnomeregan's honor into the desert, seeking to prove gnomish precision outperforms goblin recklessness."
   },
   {
    "target": "profession:Engineering",
-   "text": "Fellow engineers will appreciate Fizzle's dedication to optimizing rocket propulsion and drafting cutting-edge automotive designs under harsh desert conditions."
+   "text": "As an engineer, you can appreciate Fizzle's efforts to improve rocket propulsion and draw up advanced automotive designs in harsh desert conditions."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though operating in a neutral speed zone, Fizzle provides a friendly face and mechanical work for Alliance wanderers passing south toward Tanaris."
+   "text": "As an Alliance wanderer, you can find a friendly face and mechanical work with Fizzle in the neutral speed zone as you travel south toward Tanaris."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Fizzle Brassbolts"
- ]
+ ],
+ "style": 2
 }

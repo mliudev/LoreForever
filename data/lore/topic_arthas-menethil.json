@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Arthas Menethil"
  },
- "summary": "Once the golden prince of Lordaeron and a celebrated paladin of the Silver Hand, Arthas Menethil fell from grace during the Third War while pursuing the demonic orchestrators of the plague. After claiming the cursed runeblade Frostmourne in the frozen north, he surrendered his soul, murdered his father King Terenas, and spearheaded the destruction of his own homeland as the Scourge's dark champion.",
+ "summary": "As plague spreads through Lordaeron, Arthas Menethil leaves his place as its golden prince to hunt those behind it. A paladin of the Silver Hand, he claims Frostmourne in the frozen north, loses his soul, kills King Terenas, and turns against his homeland as the Scourge's champion.",
  "sections": [
   {
    "title": "The Golden Prince",
-   "body": "Born to King Terenas Menethil II, Arthas was raised to embody the ideals of the Alliance of Lordaeron. Trained in combat by Muradin Bronzebeard and inducted into the Order of the Silver Hand under the tutelage of Uther the Lightbringer, he was revered by high and low alike as the future of humanity. Bold, skilled, and fiercely protective of his people, he fought tenaciously against Blackrock clan orc incursions and forest troll warbands. Yet beneath his radiant exterior lay an uncompromising pride and an obsessive dread of failure.",
+   "body": "Arthas grew up heir to King Terenas Menethil II, expected to uphold the ideals of the Alliance of Lordaeron. Muradin Bronzebeard trained him in combat, while Uther the Lightbringer guided him into the Order of the Silver Hand. High and low alike looked to him as humanity's future. Bold, skilled, and fiercely protective of his people, he fought Blackrock clan orc incursions and forest troll warbands. Beneath that bright name lived pride and a deep fear of failure.",
    "spoiler": 0
   },
   {
    "title": "The Scourge and the Culling",
-   "body": "When the mysterious Plague of Undeath gripped northern Lordaeron, Arthas raced across the countryside alongside the sorceress Jaina Proudmoore to stem its spread. Tracing the tainted grain from Brill to Andorhal, he slew the necromancer Kel'Thuzad, only to discover a vast conspiracy orchestrated by the dreadlord Mal'Ganis. Confronting the infected populace at Stratholme, Arthas chose pragmatic cruelty over moral restraint, commanding the wholesale slaughter of the city's inhabitants before they could turn. Repulsed by his madness, Uther and Jaina abandoned him as the city burned.",
+   "body": "When the Plague of Undeath took hold in northern Lordaeron, Arthas rode with the sorceress Jaina Proudmoore to stop it spreading. They followed tainted grain from Brill to Andorhal, where Arthas killed the necromancer Kel'Thuzad and learned of the wider plot led by the dreadlord Mal'Ganis. At Stratholme, he found its people infected and chose to kill them before they could turn. He ordered the city's inhabitants slain. Horrified, Uther and Jaina left as Stratholme burned.",
    "spoiler": 1
   },
   {
    "title": "The Fall and Ascendance",
-   "body": "Fixated on vengeance, Arthas tracked Mal'Ganis to the frozen wastes of Northrend. There he reunited with Muradin and uncovered the runeblade Frostmourne, ignoring its dreadful curse to defeat the demon. The blade severed Arthas's soul, leaving him a puppet of the Lich King. Returning to Capital City as a Death Knight, Arthas drove the runeblade through his father's heart and drowned Lordaeron in ash and undeath. He crushed the Silver Hand, besieged Dalaran, and carved a bloody path through Quel'Thalas before journeying back to the Frozen Throne to fuse directly with his dark master.",
+   "body": "Vengeance drove Arthas into Northrend's frozen wastes, where he met Muradin again and found Frostmourne. He took the runeblade despite its curse and defeated Mal'Ganis. But Frostmourne severed his soul and made him the Lich King's puppet.\n\nAs a Death Knight, Arthas returned to Capital City and killed King Terenas with the blade. Lordaeron was left to ash and undeath. He crushed the Silver Hand, besieged Dalaran, and cut through Quel'Thalas. Then he returned to the frozen throne and joined his dark master.",
    "spoiler": 2
   }
  ],
@@ -33,7 +33,7 @@
     "who was prince arthas",
     "arthas prince of lordaeron"
    ],
-   "answer": "Arthas was the Crown Prince of the Kingdom of Lordaeron and heir to King Terenas Menethil II. He was inducted into the Knights of the Silver Hand at nineteen and was widely considered one of the finest young paladins and swordsmen of the realm."
+   "answer": "Before his fall, Arthas was Crown Prince of Lordaeron and heir to King Terenas Menethil II. At nineteen, he joined the Knights of the Silver Hand and was counted among the realm's finest young paladins and swordsmen."
   },
   {
    "q": "Why did Arthas purge Stratholme?",
@@ -42,7 +42,7 @@
     "culling of stratholme",
     "stratholme purge"
    ],
-   "answer": "The city's citizens had already consumed grain contaminated by the Plague of Undeath, ensuring they would rise as mindless undead under Mal'Ganis's control. Believing mercy was impossible, Arthas ordered the immediate slaughter of the entire populace to prevent an army of Scourge from rising."
+   "answer": "Stratholme's citizens had eaten grain tainted by the Plague of Undeath, and Arthas believed they would rise as mindless undead under Mal'Ganis's control. Convinced no mercy remained, he ordered the whole city slaughtered to prevent a Scourge army from rising."
   },
   {
    "q": "How did Arthas become corrupted?",
@@ -51,7 +51,7 @@
     "arthas corruption",
     "why did arthas become death knight"
    ],
-   "answer": "Obsessed with destroying Mal'Ganis, Arthas journeyed to Northrend and claimed Frostmourne, a cursed runeblade forged by the Lich King. The blade drained his soul and bound his mind to Ner'zhul, transforming him into the vanguard death knight of the Scourge."
+   "answer": "Arthas pursued Mal'Ganis to Northrend and claimed Frostmourne, a cursed runeblade forged by the Lich King. It drained his soul and bound his mind to ner'zhul, making him the Scourge's vanguard death knight."
   },
   {
    "q": "What happened to King Terenas?",
@@ -60,7 +60,7 @@
     "death of king terenas",
     "what happened to terenas"
    ],
-   "answer": "After succumbing to Frostmourne, Arthas returned to Capital City under the guise of a returning conqueror. In the throne room, amid ringing bells and falling rose petals, he drew his runeblade and impaled his own father."
+   "answer": "After Frostmourne claimed Arthas, he returned to Capital City as a conqueror come home. In the throne room, bells rang and rose petals fell as he drew the runeblade and drove it through his father, King Terenas."
   },
   {
    "q": "What was Arthas's relationship with Jaina Proudmoore?",
@@ -69,7 +69,7 @@
     "did jaina love arthas",
     "arthas romance"
    ],
-   "answer": "Jaina Proudmoore and Arthas shared a romance in their youth, and she rode at his side as he fought to contain the plague. His descent into cruelty at Stratholme drove her away."
+   "answer": "In their youth, Arthas and Jaina Proudmoore shared a romance, and she rode beside him as he fought the plague. His cruelty at Stratholme drove her away."
   },
   {
    "q": "Where is Arthas right now?",
@@ -78,25 +78,25 @@
     "current status of arthas",
     "is arthas alive"
    ],
-   "answer": "Following the defense of the Frozen Throne against the demon hunter Illidan, Arthas ascended Icecrown, shattered the icy prison of the Lich King, and merged his essence with Ner'zhul, ruling the Scourge from Northrend."
+   "answer": "Arthas now rules the Scourge from Northrend. After the defense of the frozen throne against the demon hunter Illidan, he ascended icecrown, broke the Lich King's icy prison, and joined his essence with ner'zhul."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Arthas is the greatest tragedy and shame of the Silver Hand; his fall corrupted the very tenets of justice and protection that Uther strove to instill."
+   "text": "For the Silver Hand, Arthas is its greatest tragedy and shame. His fall corrupted the ideals of justice and protection Uther tried to teach him."
   },
   {
    "target": "race:Human",
-   "text": "The destruction of Lordaeron broke the human race in two, scattering refugees across the globe and leaving Stormwind as humanity's final great seat of power."
+   "text": "Lordaeron's destruction split the human race in two. Refugees scattered across the globe, leaving Stormwind as humanity's last great seat of power."
   },
   {
    "target": "race:Undead",
-   "text": "The Forsaken view Arthas with unmatched hatred, having broken free from the dark prince's mental thrall under Queen Sylvanas to seek vengeance for their damnation."
+   "text": "The Forsaken hate Arthas above all. Under Queen Sylvanas, they broke free of the dark prince's mental thrall and seek vengeance for their damnation."
   },
   {
    "target": "faction:Alliance",
-   "text": "Arthas's treason cost the Alliance of Lordaeron its greatest kingdom, its capital city, and the legendary paladin order that once anchored human faith."
+   "text": "Arthas's treason cost the Alliance of Lordaeron its greatest kingdom, its capital, and the legendary paladin order that had anchored human faith."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Arthas Menethil"
- ]
+ ],
+ "style": 2
 }

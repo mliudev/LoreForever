@@ -25,16 +25,16 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "In Camp Taurajo, Mangletooth offers travelers a blood shard ritual. The captive quilboar channels the power of his ancient boar god, blessing those who bring him shards from the Barrens with swift movement and sure aim.",
+ "summary": "In Camp Taurajo, Mangletooth offers a blood shard ritual. The captive quilboar channels his ancient boar god's power, blessing those who bring him shards from the Barrens with swift movement and sure aim.",
  "sections": [
   {
    "title": "The Power of Blood Shards",
-   "body": "Crimson blood shards jut from the Barrens soil, especially near quilboar encampments and colossal brambles. Quilboar tradition says the crystals formed from Agamaggan's spilled blood. The Great Boar Ancient fell fighting the Burning Legion in the War of the Ancients. Even locked in a wooden cage at Camp Taurajo, the elder quilboar Mangletooth knows how to channel the stones' dormant divine power for anyone who brings them.",
+   "body": "Crimson blood shards jut from the Barrens soil, especially near quilboar camps and great brambles. Quilboar tradition says the crystals formed from Agamaggan's spilled blood. The Great Boar Ancient fell fighting the Burning Legion in the War of the Ancients. Though caged in Camp Taurajo, elder quilboar Mangletooth can channel the stones' divine power for anyone who brings him shards.",
    "spoiler": 0
   },
   {
    "title": "Blessing of the Boar Scouts",
-   "body": "Quilboar hunters and scouts prize ruthless accuracy and blinding quickness in the scrublands. For four blood shards, Mangletooth calls on the fallen demi-god's latent energy, lending the petitioner the instincts and supple grace of his people's best stalkers. He grunts with disdain at outsiders, yet honors his pact and weaves Agamaggan's power into a temporary mantle of agility.",
+   "body": "Quilboar hunters and scouts prize ruthless accuracy and blinding quickness in the scrublands. For four blood shards, Mangletooth calls on the fallen demi-god's power. He lends the petitioner the instincts and supple grace of his people's finest stalkers. Mangletooth grunts at outsiders, yet honors his pact and weaves Agamaggan's power into a temporary mantle of agility.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "quest giver",
     "where is mangletooth"
    ],
-   "answer": "Mangletooth, a Razormane quilboar, offers the ritual from a cage at Camp Taurajo in the southern Barrens. Though the Horde keeps him captive, he bargains with travelers who bring him blood shards."
+   "answer": "Mangletooth, a Razormane quilboar, offers the ritual from a cage in Camp Taurajo in the southern Barrens. Though the Horde holds him captive, he bargains with travelers who bring him blood shards."
   },
   {
    "q": "What are blood shards?",
@@ -55,7 +55,7 @@
     "what is a blood shard",
     "red crystals in barrens"
    ],
-   "answer": "Blood shards are crystalline stones found throughout the Barrens. They are gathered chiefly from slain quilboar and mineral outcrops near thorn thickets. Quilboar lore says they formed millennia ago when the blood of the Great Boar Ancient Agamaggan drenched the earth."
+   "answer": "Blood shards are crystalline stones found throughout the Barrens. They are gathered chiefly from slain quilboar and mineral outcrops near thorn thickets. Quilboar lore says they formed long ago when the Great Boar Ancient Agamaggan's blood drenched the earth."
   },
   {
    "q": "Why is a captive quilboar helping Horde members?",
@@ -82,7 +82,7 @@
     "boar god",
     "great boar"
    ],
-   "answer": "Agamaggan was a colossal boar Ancient who walked Kalimdor in the ancient mythic era. During the War of the Ancients ten thousand years ago, he fought and fell against the demons of the Burning Legion. His blood nourished the Barrens, giving rise to its impenetrable razor thorns and the quilboar race."
+   "answer": "Agamaggan was a colossal boar Ancient who walked Kalimdor in the ancient mythic era. During the War of the Ancients ten thousand years ago, he fought the demons of the Burning Legion and fell. His blood nourished the Barrens' razor thorns, making them impenetrable, and gave rise to the quilboar race."
   },
   {
    "q": "What other blessings does Mangletooth provide?",
@@ -91,7 +91,7 @@
     "other buffs",
     "mangletooth rewards"
    ],
-   "answer": "Mangletooth offers rites honoring other aspects of Agamaggan as well. For blood shards, he can bless you with greater physical strength, intellectual wisdom, faster running, or skin as thick as razorhide."
+   "answer": "Mangletooth offers rites honoring other aspects of Agamaggan. For blood shards, he can bless you with greater physical strength, intellectual wisdom, faster running, or skin as thick as razorhide."
   }
  ],
  "angles": [
@@ -109,7 +109,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you find Mangletooth kept at Camp Taurajo, where Horde forces tolerate his presence and blood shard bargains because the boar god's residual power aids their hard-fought campaign across the Barrens."
+   "text": "As a member of the Horde, you know its forces tolerate Mangletooth's presence and blood shard bargains because the boar god's residual power aids their hard-fought campaign across the Barrens."
   }
  ],
  "keywords": [
@@ -134,5 +134,5 @@
  "attribution": [
   "Agamaggan's Agility"
  ],
- "style": 1
+ "style": 2
 }

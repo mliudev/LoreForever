@@ -25,16 +25,16 @@
   ],
   "category": "Tanaris"
  },
- "summary": "\"Sea Wolf\" MacKinley has a bet with his old friend Stoley, who tends the bar at Steamwheedle Port, over whose rum is stronger. Stoley seems to be dodging it, so MacKinley asks you to go and talk to him.",
+ "summary": "At Steamwheedle Port, “Sea Wolf” MacKinley wants the rum Stoley wagered with him. He asks you to speak with the barkeep about it.",
  "sections": [
   {
    "title": "A Matter of Rum and Coin",
-   "body": "Stoley owes \"Sea Wolf\" MacKinley a very special bottle of rum. Stoley boasted that the rum at Steamwheedle Port is stronger than anything in Booty Bay, and said the money owed would be doubled if MacKinley tried it and disagreed. Now MacKinley thinks Stoley has lost his nerve about handing it over, but MacKinley never backs away from a wager. You are asked to go and speak to Stoley at the Steamwheedle Port bar.",
+   "body": "“Sea Wolf” MacKinley says Stoley owes him a special bottle of rum. Stoley boasted that Steamwheedle Port’s rum was stronger than anything in Booty Bay. He promised to double the money he owes MacKinley if MacKinley tried it and disagreed.\n\nNow MacKinley thinks Stoley has lost his nerve about handing over the bottle. But MacKinley never backs away from a wager, so he asks you to speak with Stoley at the Steamwheedle Port bar.",
    "spoiler": 0
   },
   {
    "title": "Stoley's Answer",
-   "body": "Stoley is not afraid to hand over Steamwheedle Bilge Rum, and says so. The trouble is that there is no rum left to give.",
+   "body": "Stoley says he is not afraid to hand over Steamwheedle Bilge Rum. But there is no rum left to give.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "sea wolf mackinley",
     "who gives stoleys debt"
    ],
-   "answer": "A friend of Stoley's who has a wager with him about whose rum is stronger. He mentions Booty Bay as the place to compare it to."
+   "answer": "“Sea Wolf” MacKinley is Stoley’s old friend. They have a wager over whose rum is stronger."
   },
   {
    "q": "Where is Stoley located?",
@@ -55,7 +55,7 @@
     "stoley location",
     "find stoley"
    ],
-   "answer": "Stoley is the barkeep at Steamwheedle Port in Tanaris."
+   "answer": "Stoley tends the bar at Steamwheedle Port in Tanaris."
   },
   {
    "q": "What bet did Stoley make with MacKinley?",
@@ -64,7 +64,7 @@
     "what bet",
     "stoley wager"
    ],
-   "answer": "Stoley boasted that the rum at Steamwheedle Port beats anything in Booty Bay. If MacKinley tried it and disagreed, Stoley would double the money he owes him."
+   "answer": "That Steamwheedle Port’s rum beats anything in Booty Bay. Stoley swore it was stronger, and promised MacKinley double the money owed if MacKinley tried it and disagreed."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Stoley's Debt"
- ]
+ ],
+ "style": 2
 }

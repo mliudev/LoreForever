@@ -17,16 +17,16 @@
   "wiki": "A Dark Threat Looms (4)",
   "chain": []
  },
- "summary": "At the Stonewrought Dam, suspicious powder puts Loch Modan and Ironforge in danger. Ashlan Stonesmirk in Dun Modr identifies it as unstable Seaforium, which can explode catastrophically when it touches water.",
+ "summary": "At Stonewrought Dam, strange powder puts Loch Modan and Ironforge at risk. Ashlan Stonesmirk in Dun Modr identifies it as unstable Seaforium, which can explode when it touches water.",
  "sections": [
   {
    "title": "A Volatile Discovery",
-   "body": "Ashlan Stonesmirk recognizes the silver crystals and distinct odor in samples from the Stonewrought Dam as Seaforium. It stays inert while dry, but moisture makes it react violently. An unchecked explosion could blow Ironforge out of the mountain, Ashlan warns.",
+   "body": "Ashlan Stonesmirk recognizes the silver crystals and sharp odor in samples from Stonewrought Dam. The powder is Seaforium. It stays inert while dry, but moisture makes it react violently. An unchecked blast could blow Ironforge out of the mountain, Ashlan warns.",
    "spoiler": 0
   },
   {
    "title": "Racing the Clock",
-   "body": "Ashlan Stonesmirk prepares a disarming colloid to counter the explosive. Neutralizing it requires the colloid, lurker venom, crushed Mo'Grosh crystal, and a crocolisk tear. Chief Engineer Hinderweir VII must be warned at once, before moisture triggers disaster.",
+   "body": "Ashlan Stonesmirk prepares a disarming colloid to counter the explosive. To neutralize the Seaforium, you need the colloid, lurker venom, crushed Mo'Grosh crystal, and a crocolisk tear. Chief Engineer Hinderweir the Seventh must be warned at once, before moisture brings disaster.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what is the powder",
     "seaforium powder"
    ],
-   "answer": "Ashlan Stonesmirk identifies the powder from the dam as Seaforium, marked by silver crystals and a pungent chemical smell."
+   "answer": "Ashlan Stonesmirk identifies the powder from the dam as Seaforium, marked by silver crystals and a sharp chemical smell."
   },
   {
    "q": "Why is Seaforium so dangerous here?",
@@ -46,7 +46,7 @@
     "why is seaforium dangerous",
     "what makes seaforium explode"
    ],
-   "answer": "Seaforium is relatively harmless while dry, but explodes catastrophically when exposed to water. That makes the Stonewrought Dam, which holds back Loch Modan's waters, an extraordinarily hazardous place for it."
+   "answer": "Seaforium is relatively harmless while dry, but explodes catastrophically when exposed to water. At Stonewrought Dam, which holds back Loch Modan's waters, it poses an extraordinary danger."
   },
   {
    "q": "Who is Ashlan Stonesmirk?",
@@ -54,7 +54,7 @@
     "who is ashlan",
     "ashlan stonesmirk identity"
    ],
-   "answer": "Ashlan Stonesmirk is an Alliance dwarven specialist living in the Wetlands. Ashlan has the engineering and chemical expertise to analyze mysterious powders and craft neutralizers."
+   "answer": "Ashlan Stonesmirk is an Alliance dwarven specialist who lives in the Wetlands. Ashlan's engineering and chemical skill allows them to study mysterious powders and make neutralizers."
   },
   {
    "q": "Who is Chief Engineer Hinderweir VII?",
@@ -62,7 +62,7 @@
     "who is hinderweir",
     "chief engineer hinderweir"
    ],
-   "answer": "Chief Engineer Hinderweir VII oversees engineering and defense concerns in the region from the Stonewrought Dam in Loch Modan, safeguarding dwarven infrastructure."
+   "answer": "Chief Engineer Hinderweir VII oversees engineering and defense in the region from Stonewrought Dam in Loch Modan. The engineer safeguards dwarven infrastructure."
   },
   {
    "q": "How can the Seaforium be neutralized?",
@@ -79,17 +79,17 @@
     "is ironforge in danger",
     "how is ironforge threatened"
    ],
-   "answer": "Ashlan warns that an uncontrolled detonation could cause seismic failure in the surrounding mountain systems, blowing Ironforge out of the mountain."
+   "answer": "Ashlan warns that an uncontrolled detonation could cause seismic failure in the surrounding mountain systems and blow Ironforge out of the mountain."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers will recognize Seaforium as an extremely potent volatile compound. It demands delicate handling and precise chemical countermeasures to prevent massive shockwaves."
+   "text": "Engineers will recognize Seaforium as an extremely potent volatile compound. It needs delicate handling and precise chemical countermeasures to prevent massive shockwaves."
   },
   {
    "target": "race:Dwarf",
-   "text": "For the dwarves of Khaz Modan, volatile Seaforium in the hands of explosive saboteurs near the gateway to Dun Morogh and Ironforge is an existential threat."
+   "text": "For the dwarves of Khaz Modan, volatile Seaforium near the gateway to Dun Morogh and Ironforge is an existential threat when explosive saboteurs hold it."
   },
   {
    "target": "faction:Alliance",
@@ -115,5 +115,5 @@
  "attribution": [
   "A Dark Threat Looms (4)"
  ],
- "style": 1
+ "style": 2
 }

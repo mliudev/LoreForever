@@ -17,16 +17,16 @@
   "wiki": "Falling With Style (Skyborne)",
   "chain": []
  },
- "summary": "\"Falling With Style\" is an introductory rite of passage for young Skyborne in Thendal Village. Offered atop the local watchtower by the mischievous Myriaal Mistwake, it challenges novices to test their innate slow-fall ability by leaping from the platform toward Rorian the Dayseeker below.",
+ "summary": "At Thendal Village, Myriaal Mistwake sends young Skyborne from a watchtower to test their falling skill. They glide down to Rorian the Dayseeker below.",
  "sections": [
   {
    "title": "A Leap from the Tower",
-   "body": "Perched high above Thendal Village on Zephras Isle, Myriaal Mistwake invites young Skyborne to test their heritage through a game of daring. Rather than treating their innate magical gifts as sacred relics kept under strict restraint, Myriaal encourages newcomers to leap into the open air from the watchtower ledge. The purpose is practical as well as playful: mastering the instinctive art of walking upon air before life beyond the grove demands it in perilous situations.",
+   "body": "High above Thendal Village on Zephras Isle, Myriaal Mistwake invites young Skyborne to test their heritage with a daring leap. She urges newcomers to step from the watchtower ledge and trust their gift for slowing a fall. The practice is playful, yet it prepares them to walk on air when danger comes beyond the grove.",
    "spoiler": 0
   },
   {
    "title": "A Difference in Temperament",
-   "body": "The exercise serves as a vivid demonstration of two contrasting Skyborne attitudes. While Myriaal delights in sudden descents and startles onlookers for amusement, Rorian the Dayseeker embodies traditional caution. When novices glide down to land squarely before him, Rorian admonishes the reckless display, warning that thoughtlessly exhausting one's magical gifts can leave a traveler helpless when danger strikes. Even so, he concedes that controlled practice within the safety of the village has its place.",
+   "body": "Myriaal delights in sudden descents that startle onlookers, while Rorian the Dayseeker favors caution. As novices glide down to land before him, he warns that careless use of their magic may leave travelers helpless in danger. Still, he accepts that controlled practice within the village has its place.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "falling with style purpose",
     "why do this quest"
    ],
-   "answer": "The quest teaches novice Skyborne how to handle their innate Walk on Air ability, familiarizing them with controlling slow descents from elevated heights."
+   "answer": "The leap lets novice Skyborne practice controlling a slow descent from a height with their natural magic."
   },
   {
    "q": "Who gives the quest and where?",
@@ -47,7 +47,7 @@
     "where to start falling with style",
     "who gives falling with style"
    ],
-   "answer": "It is given by Myriaal Mistwake, who waits atop the wooden watchtower overlooking Thendal Village on Zephras Isle."
+   "answer": "Myriaal Mistwake gives it from the wooden watchtower above Thendal Village on Zephras Isle."
   },
   {
    "q": "Who do you land in front of?",
@@ -56,7 +56,7 @@
     "who is rorian",
     "falling with style turn in"
    ],
-   "answer": "You land near Rorian the Dayseeker, whom Myriaal hopes to startle with the jump."
+   "answer": "You land near Rorian the Dayseeker, whom Myriaal hopes to startle with the leap."
   },
   {
    "q": "Why is Rorian upset by the jump?",
@@ -65,7 +65,7 @@
     "rorian reaction",
     "why does rorian scold you"
    ],
-   "answer": "Rorian believes innate magical gifts should be conserved and treated with discipline, rather than wasted on practical jokes that startle people."
+   "answer": "Rorian believes Skyborne should use their natural magic with discipline, not waste it on practical jokes that startle people."
   },
   {
    "q": "What ability is being practiced?",
@@ -74,7 +74,7 @@
     "walk on air quest",
     "skyborne racial ability"
    ],
-   "answer": "It teaches the use of Walk on Air, an innate Skyborne ability that slows a character's descent and prevents falling damage."
+   "answer": "You practice Walk on Air, the skyborne gift that slows a fall and prevents injury from landing."
   },
   {
    "q": "Where does this take place?",
@@ -83,13 +83,13 @@
     "where is thendal village",
     "what zone is this"
    ],
-   "answer": "The exercise takes place in Thendal Village, located on Zephras Isle, the ancestral starting grounds of the Skyborne."
+   "answer": "The practice takes place in Thendal Village on Zephras Isle, the Skyborne's ancestral starting grounds."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "This early trial introduces Skyborne novices to the practical mechanics and cultural debates surrounding their innate wind-walking magic."
+   "text": "As a Skyborne, you learn to slow your fall and hear the debate over how carefully to use your natural wind-walking magic."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Falling With Style (Skyborne)"
- ]
+ ],
+ "style": 2
 }

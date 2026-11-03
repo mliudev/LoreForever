@@ -17,21 +17,21 @@
   "wiki": "Gerenzo Wrenchwhistle (quest)",
   "chain": []
  },
- "summary": "High above Cragpool Lake, Gerenzo Wrenchwhistle awaits a bounty in the Stonetalon Mountains. The rogue gnome overseer has replaced much of his decaying flesh with gears, clockwork machinery, and artificial limbs. Ziz Fizziks wants his mechanical arm as proof of his death, hoping it will win him a promotion.",
+ "summary": "Above Cragpool Lake, Gerenzo Wrenchwhistle awaits a bounty in the Stonetalon Mountains. The rogue gnome overseer has replaced much of his rotting flesh with gears, clockwork machinery, and artificial limbs. Ziz Fizziks wants his mechanical arm as proof of his death, hoping it will win him a promotion.",
  "sections": [
   {
    "title": "A Monstrous Hybrid",
-   "body": "Gerenzo’s body bears the marks of his transformations. Those who have seen him say his natural flesh is rotting beneath grafted gears, iron plating, and whirring clockwork limbs. He watches operations from near the great water wheel above Cragpool Lake, with no concern for his failing flesh.",
+   "body": "Gerenzo’s body bears the marks of his transformations. Those who have seen him say his natural flesh rots beneath grafted gears, iron plating, and whirring clockwork limbs. Near the great water wheel above Cragpool Lake, he watches the operations. His failing flesh does not concern him.",
    "spoiler": 0
   },
   {
    "title": "Goblin Ambitions",
-   "body": "Ziz Fizziks works for Sputtervalve and hopes Gerenzo’s fall will carry him out of Stonetalon. Ziz cannot climb the cliffs and defeat the augmented overseer himself, so he asks you to bring back Gerenzo’s mechanical arm. With it, he hopes to prove his worth and earn a transfer to the Tinkers’ Union workshops in Gadgetzan or Undermine.",
+   "body": "Ziz Fizziks works for Sputtervalve and hopes Gerenzo’s death will carry him out of Stonetalon. Ziz cannot climb the cliffs and defeat the augmented overseer alone, so he asks you to bring back Gerenzo’s mechanical arm. He hopes the arm will prove his worth and earn him a transfer to the Tinkers’ Union workshops in Gadgetzan or Undermine.",
    "spoiler": 0
   },
   {
    "title": "Clashing Philosophies",
-   "body": "Gerenzo’s mechanical arm reflects a sharp divide between gnome and goblin engineering. He cut away failing flesh to make room for complex prosthetics, a choice goblins find baffling. As Ziz sees it, goblin ingenuity would keep the natural limb and add an explosive third arm beside it.",
+   "body": "Gerenzo’s mechanical arm reflects a sharp divide between gnome and goblin engineering. He cut away failing flesh to make room for complex prosthetics, a choice goblins find baffling. Ziz believes goblin ingenuity would keep the natural limb and add an explosive third arm beside it.",
    "spoiler": 0
   }
  ],
@@ -61,7 +61,7 @@
     "ziz motive",
     "ziz fizziks goal"
    ],
-   "answer": "Sputtervalve has ordered Ziz Fizziks to eliminate Gerenzo. Ziz hopes that proving his competence will earn him a transfer to a Tinkers’ Union workshop in Gadgetzan or Undermine."
+   "answer": "Sputtervalve ordered Ziz Fizziks to eliminate Gerenzo. Ziz hopes proof of his competence will earn him a transfer to a Tinkers’ Union workshop in Gadgetzan or Undermine."
   },
   {
    "q": "What proof does Ziz require?",
@@ -93,11 +93,11 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Gerenzo’s mechanical arm shows how far gnomish bionic engineering can go, in sharp contrast with goblin practical design."
+   "text": "Gerenzo’s mechanical arm shows how far gnomish bionic engineering can go, sharply unlike goblin practical design."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, Gerenzo takes eccentric and macabre measures to preserve his failing body with radical self-augmentation."
+   "text": "As a gnome, Gerenzo takes eccentric and macabre measures to preserve his failing body through radical self-augmentation."
   },
   {
    "target": "faction:Horde",
@@ -126,5 +126,5 @@
  "attribution": [
   "Gerenzo Wrenchwhistle (quest)"
  ],
- "style": 1
+ "style": 2
 }

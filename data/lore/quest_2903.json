@@ -22,16 +22,16 @@
    "Zukk'ash Infestation (Classic)"
   ]
  },
- "summary": "You have the gnolls' battle plans. What is left is to carry them back to Hadoken Swiftstrider at Camp Mojache, where he or someone there may puzzle out what the gnolls are after.",
+ "summary": "You carry the Woodpaw battle plans toward Camp Mojache, where Hadoken Swiftstrider hopes to learn what the gnolls intend.",
  "sections": [
   {
    "title": "Back to Camp Mojache",
-   "body": "After Woodpaw Investigation, you hold the Woodpaw battle plans, and the only step left is returning them to Hadoken Swiftstrider at the camp. Hadoken is looking for solid evidence of the gnolls' intentions.",
+   "body": "After Woodpaw Investigation, you bring the Woodpaw battle plans back to Hadoken Swiftstrider at Camp Mojache. He needs firm evidence of what the gnolls intend.",
    "spoiler": 0
   },
   {
    "title": "Hadoken's Reading",
-   "body": "Hadoken says this is just what they needed. Most of the scrawl is beyond him, but he has seen enough battle plans to read the situation: the gnolls fight on two fronts. The camp is one, yet the bulk of their strength is turned on an enemy to the south. He senses something bigger behind it all, and thinks it is time to learn who that second enemy is.",
+   "body": "Hadoken Swiftstrider says the plans are just what they needed. Most of the scrawl is beyond him, but he has read enough battle plans to see the gnolls fight on two fronts. One front is Camp Mojache. Most of their strength is turned against an enemy to the south. Hadoken senses something larger behind the fighting and believes they need to learn who that second enemy is.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where to turn in the battle plans",
     "the battle plans turn in"
    ],
-   "answer": "To Hadoken Swiftstrider at Camp Mojache."
+   "answer": "Take the plans to Hadoken Swiftstrider at Camp Mojache."
   },
   {
    "q": "What came before this step?",
@@ -52,7 +52,7 @@
     "what leads to battle plans",
     "battle plans prerequisite"
    ],
-   "answer": "Woodpaw Investigation, the search for the gnolls' plans."
+   "answer": "Woodpaw Investigation came before this, when you searched for the gnolls' plans."
   },
   {
    "q": "Where did the battle plans come from?",
@@ -61,7 +61,7 @@
     "which gnolls made the plans",
     "woodpaw plans origin"
    ],
-   "answer": "They are the gnolls' own plans, turned up in the gnoll camps south of Camp Mojache during Woodpaw Investigation."
+   "answer": "The plans belong to the gnolls. You found them in gnoll camps south of Camp Mojache during Woodpaw Investigation."
   }
  ],
  "angles": [],
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Classic quest text: The Battle Plans"
- ]
+ ],
+ "style": 2
 }

@@ -27,11 +27,11 @@
    "Sunken Treasure"
   ]
  },
- "summary": "Doctor Draxlegauge hands you the elven gems and sends you to carry them to Captain O'Breen. After a few weeks among pirates, he and the professor know that holding on to their treasure is unhealthy.",
+ "summary": "Doctor Draxlegauge sends you to Captain O'Breen, who waits at the bridge for the elven gems. After weeks among pirates, the doctor and the professor have learned that keeping pirate treasure is bad for their health.",
  "sections": [
   {
    "title": "Treasure for the Captain",
-   "body": "Doctor Draxlegauge does not want Captain O'Breen kept waiting, since the captain will want to see the elven gems for himself. After weeks among these pirates, the doctor and the professor have learned that being caught holding on to pirate treasure is bad for their health. He hands you the gems to carry to O'Breen, who waits at the bridge.",
+   "body": "Doctor Draxlegauge is eager to bring Captain O'Breen the elven gems. The captain waits at the bridge and wants to see them for himself. After weeks among these pirates, the doctor and the professor have learned that keeping pirate treasure is bad for their health. So Draxlegauge gives you the gems to carry to O'Breen.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who gives sunken treasure 3",
     "draxlegauge quest"
    ],
-   "answer": "Doctor Draxlegauge gives you the elven gems and asks you to take them to Captain O'Breen."
+   "answer": "Doctor Draxlegauge gives you the elven gems to carry to Captain O'Breen."
   },
   {
    "q": "Why is Doctor Draxlegauge so eager to give up the gems?",
@@ -50,7 +50,7 @@
     "why hand over elven gems",
     "why give gems to pirate"
    ],
-   "answer": "After a few weeks among these pirates, he and the professor have decided that being caught hanging on to the pirates' treasure would be bad for their health."
+   "answer": "After weeks among these pirates, Doctor Draxlegauge and the professor have learned that keeping pirate treasure is bad for their health."
   },
   {
    "q": "Where does this fall in the chain?",
@@ -58,7 +58,7 @@
     "sunken treasure chain position",
     "what comes before sunken treasure 3"
    ],
-   "answer": "It follows the second part of Sunken Treasure, and a fourth part comes after it."
+   "answer": "This follows the second part of Sunken Treasure, and a fourth part comes after it."
   }
  ],
  "angles": [],
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Sunken Treasure (3)"
- ]
+ ],
+ "style": 2
 }

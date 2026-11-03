@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Badlands"
  },
- "summary": "Rigglefuzz swears by barbecued buzzard wings, a rich sauce on tangy meat. Everything for a batch is on hand except the wings themselves. Fetch enough of them and Rigglefuzz may part with the recipe.",
+ "summary": "Rigglefuzz has every ingredient for his barbecued buzzard wings except the wings themselves.",
  "sections": [
   {
    "title": "A Local Favorite",
-   "body": "Rigglefuzz is proud of barbecued buzzard wings. The sauce is rich, the meat tangy, and the aroma carries to hungry folk a long way off. Every ingredient for a batch is already in hand, all but the wings. Bring four buzzard wings, and Rigglefuzz might share the recipe.",
+   "body": "Rigglefuzz takes pride in his barbecued buzzard wings. He coats the tangy meat in rich sauce, and its aroma carries to hungry folk nearby. He has all the ingredients for a batch but the wings. Bring him four buzzard wings, and he may share the recipe.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is rigglefuzz",
     "quest giver"
    ],
-   "answer": "Rigglefuzz wants buzzard wings to cook a batch of barbecued buzzard wings."
+   "answer": "Rigglefuzz wants buzzard wings for a batch of his barbecued wings."
   },
   {
    "q": "What does Rigglefuzz offer in return for the wings?",
@@ -43,7 +43,7 @@
     "what do i get",
     "recipe reward"
    ],
-   "answer": "Rigglefuzz hints at sharing the recipe if you bring enough wings."
+   "answer": "Rigglefuzz may share the recipe in return for enough wings."
   },
   {
    "q": "Why does Rigglefuzz need buzzard wings?",
@@ -52,7 +52,7 @@
     "rigglefuzz motive",
     "why does rigglefuzz want wings"
    ],
-   "answer": "Rigglefuzz has everything else needed for a batch of barbecued buzzard wings, and only the wings are missing."
+   "answer": "Rigglefuzz has every ingredient for the dish except the wings."
   },
   {
    "q": "How many wings does Rigglefuzz want?",
@@ -60,13 +60,13 @@
     "how many buzzard wings",
     "buzzard wing count"
    ],
-   "answer": "Four buzzard wings."
+   "answer": "Rigglefuzz wants four buzzard wings."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Cooks take note: the recipe for the dish is on offer."
+   "text": "Cooks can learn the recipe for the dish from Rigglefuzz."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Barbecued Buzzard Wings"
- ]
+ ],
+ "style": 2
 }

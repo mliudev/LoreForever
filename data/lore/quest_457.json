@@ -20,16 +20,16 @@
    "The Balance of Nature (2)"
   ]
  },
- "summary": "Conservator Ilthalaine sends defenders into Shadowglen to thin its growing wildlife. Mature thistle boars and mangy nightsabers threaten the glade's balance.",
+ "summary": "In Shadowglen, Conservator Ilthalaine sends defenders to thin its growing wildlife. Mature thistle boars and mangy nightsabers threaten the glade's balance.",
  "sections": [
   {
    "title": "A Burden of Stewardship",
-   "body": "Shadowglen's adult animals now threaten the World Tree's ecosystem. Conservator Ilthalaine sends young defenders deeper into the forest to hunt mature thistle boars and older, mangy nightsabers. Their appetites can exhaust the land's limited plants and game.",
+   "body": "Adult animals now threaten Shadowglen and the World Tree's ecosystem. Conservator Ilthalaine sends young defenders deeper into the forest to hunt mature thistle boars and older, mangy nightsabers. Their appetites can exhaust the land's limited plants and game.",
    "spoiler": 0
   },
   {
    "title": "Predator and Prey",
-   "body": "North of Aldrassil, younger cubs give way to mottled nightsabers and aggressive boars that root through the soil. For kaldorei, controlled hunting is a grim duty, but it protects the whole forest from collapse.",
+   "body": "North of Aldrassil, younger cubs give way to mottled nightsabers and aggressive boars rooting through the soil. For kaldorei, controlled hunting is a grim duty. It protects the whole forest from collapse.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "thistle boar location",
     "where to find them"
    ],
-   "answer": "The mangy nightsabers and thistle boars roam northern Shadowglen, past Aldrassil's boughs. Look for spotted coats on the nightsabers; younger cubs closer to the sanctuary have stripes."
+   "answer": "Mangy nightsabers and thistle boars roam northern Shadowglen, past Aldrassil's boughs. Look for spotted coats on the nightsabers; younger cubs closer to the sanctuary have stripes."
   },
   {
    "q": "Who is Conservator Ilthalaine?",
@@ -67,7 +67,7 @@
     "why druids kill animals",
     "kaldorei balance"
    ],
-   "answer": "Night elves honor nature, and stewardship means managing overgrowth. When one species grows too numerous and starves out others, the whole forest suffers; culling is a sorrowful but vital duty."
+   "answer": "Night elves honor nature, and stewardship means managing overgrowth. When one species grows too numerous and starves out others, the whole forest suffers. Culling is a sorrowful but vital duty."
   },
   {
    "q": "Is this the end of the Balance of Nature chain?",
@@ -75,7 +75,7 @@
     "does balance of nature continue",
     "what comes after balance of nature"
    ],
-   "answer": "This is the second and final step in the initial Balance of Nature chain. Other work soon addresses the deeper, more unnatural corruption troubling Teldrassil's wildlife."
+   "answer": "The Balance of Nature has a second and final step in its initial chain. Other work soon addresses the deeper, more unnatural corruption troubling Teldrassil's wildlife."
   },
   {
    "q": "Why are the nightsabers described as mangy?",
@@ -93,11 +93,11 @@
   },
   {
    "target": "class:Druid",
-   "text": "Druidic teachings prize harmony over sentiment. Thinning overgrown packs preserves the great web of life."
+   "text": "As a druid, you learn that harmony calls for hard choices. Thinning overgrown packs preserves the great web of life."
   },
   {
    "target": "class:Hunter",
-   "text": "Taking down swift sabers and stubborn boars teaches you to track and thin their numbers, skills needed to keep nature in balance."
+   "text": "As a hunter, you learn to track swift sabers and stubborn boars and thin their numbers. These skills help keep nature in balance."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "The Balance of Nature (2)"
  ],
- "style": 1
+ "style": 2
 }

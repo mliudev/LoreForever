@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Field of Giants"
  },
- "summary": "The Field of Giants spreads across the southern Barrens, from Camp Taurajo to Dustwallow's marshes. Towering kodo, thunder lizards, and other great beasts graze its dry scrub, while silithids make the plain more dangerous.",
+ "summary": "Across the southern Barrens, great beasts graze the Field of Giants while silithids threaten the plain. The wild country stretches from Camp Taurajo to Dustwallow's marshes.",
  "sections": [
   {
    "title": "A Wild Frontier in the South",
-   "body": "The Field of Giants follows the southern Gold Road, far from the Barrens' better-defended north. Wooden watchtowers along the road sit largely abandoned, while great herds roam the open flats. Hunters and naturalists come to see Kalimdor's enormous beasts, but the land is not safe. Dwarven excavators from Bael Modan dig aggressively to the south, and a more sinister threat has begun burrowing underground.",
+   "body": "The southern Gold Road crosses the Field of Giants, far from the better-defended north. Its wooden watchtowers stand largely abandoned, and great herds roam the open flats. Hunters and naturalists come to see Kalimdor's enormous beasts, but danger also waits here. Dwarven excavators from Bael Modan dig aggressively to the south, while a more sinister threat has begun burrowing underground.",
    "spoiler": 0
   },
   {
@@ -27,7 +27,7 @@
     "field of giants name origin",
     "why field of giants"
    ],
-   "answer": "The plain takes its name from its enormous wildlife. Great herds of towering kodo and thunder lizards graze here, alongside other massive Kalimdorean beasts."
+   "answer": "The plain takes its name from its enormous wildlife. Great herds of towering kodo and thunder lizards graze here alongside other massive Kalimdorean beasts."
   },
   {
    "q": "What are those bug mounds in the ground?",
@@ -52,13 +52,13 @@
     "abandoned towers gold road",
     "southern barrens watchtowers"
    ],
-   "answer": "The Horde concentrates its forces along the northern Gold Road near the Crossroads, so the southern reaches receive fewer patrols. The towers have been neglected amid silithid threats and aggressive wildlife."
+   "answer": "The Horde concentrates its forces along the northern Gold Road near the Crossroads, leaving the southern reaches with fewer patrols. The towers have been neglected amid silithid threats and aggressive wildlife."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Thunder lizards and massive kodo roam the Field of Giants, making it one of the Barrens' premier hunting grounds for hunters seeking formidable beasts."
+   "text": "Thunder lizards and massive kodo roam the Field of Giants, making it one of the Barrens' finest hunting grounds for hunters seeking formidable beasts."
   },
   {
    "target": "faction:Horde",
@@ -89,5 +89,5 @@
  "attribution": [
   "Field of Giants"
  ],
- "style": 1
+ "style": 2
 }

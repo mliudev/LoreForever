@@ -8,16 +8,16 @@
   "wiki": "Tonga Runetotem",
   "refs": 9
  },
- "summary": "At the Crossroads, Tonga Runetotem watches the Barrens' oases grow sick. Sent from Thunder Bluff, the tauren druid studies a corruption harming the region's wildlife and seeks its source before the fragile ecosystem fails.",
+ "summary": "At the Crossroads, Tonga Runetotem seeks the sickness harming the Barrens' oases. Sent from Thunder Bluff, the tauren druid studies the corruption spreading through the region's wildlife before the fragile ecosystem fails.",
  "sections": [
   {
    "title": "Watcher at the Crossroads",
-   "body": "At the Crossroads, Tonga Runetotem studies the Barrens' changing land. His elders in Thunder Bluff sent him from Mulgore, and he knows the dry savannah well. Where travelers see scrub and predators, Tonga watches for signs of the land's health. Lately, those signs have turned troubling. He seeks travelers who can help him investigate the scattered oases, the heart of life across the savannah.",
+   "body": "At the Crossroads, Tonga Runetotem studies the changing land of the Barrens. His elders sent him from Mulgore, and he knows the dry savannah well. Travelers see scrub and predators, but Tonga watches for signs of the land's health. Lately, those signs have grown troubling. He seeks travelers to help investigate the scattered oases, the heart of life across the savannah.",
    "spoiler": 0
   },
   {
    "title": "Tainted Waters and Warped Beasts",
-   "body": "Water is scarce in the Barrens, and the Forgotten Pools and Stagnant Oasis have turned volatile. Strange magical vapors bubble up, and creatures that drink from the waters are changing into aggressive, unnatural forms. Tonga gathers plant and creature samples to learn whether the sickness comes from natural decay or an outside power. His findings point toward deep fissures beneath the ground, linking the poisoned pools to the passages of the Wailing Caverns.",
+   "body": "Water is scarce in the Barrens, and the Forgotten Pools and Stagnant Oasis have grown volatile. Strange magical vapors bubble up, and creatures drinking from the waters change into aggressive, unnatural forms. Tonga gathers plant and creature samples to learn whether the sickness comes from natural decay or an outside power. His findings point to deep fissures beneath the ground. They link the poisoned pools to passages of the Wailing Caverns.",
    "spoiler": 1
   },
   {
@@ -34,7 +34,7 @@
     "who is tonga",
     "crossroads druid"
    ],
-   "answer": "Tonga Runetotem is a tauren druid near the inn at the Crossroads in the Barrens. His elders in Thunder Bluff sent him to investigate strange corruption spreading across the savannah."
+   "answer": "Tonga Runetotem is a tauren druid near the inn at the Crossroads in the Barrens. His elders in Thunder Bluff sent him to investigate corruption spreading across the savannah."
   },
   {
    "q": "What is Tonga investigating in the Barrens?",
@@ -43,7 +43,7 @@
     "tonga quest goal",
     "why investigate oases"
    ],
-   "answer": "Tonga investigates strange vapors, mutated beasts, and tainted waters in the Barrens' oases, including the Forgotten Pools and the Stagnant Oasis."
+   "answer": "Tonga investigates strange vapors, changed beasts, and tainted waters in the Barrens' oases, including the Forgotten Pools and the Stagnant Oasis."
   },
   {
    "q": "Where does Tonga believe the corruption is coming from?",
@@ -52,7 +52,7 @@
     "where is the taint from",
     "wailing caverns connection"
    ],
-   "answer": "Tonga's study of altered creatures and water fissures leads him to believe the magical taint comes from deep underground in the Wailing Caverns."
+   "answer": "Tonga's study of altered creatures and water fissures leads him to believe the magical taint rises from deep underground in the Wailing Caverns."
   },
   {
    "q": "Is Tonga related to Hamuul Runetotem?",
@@ -88,7 +88,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you share Tonga's duty to the Earth Mother as he works to protect the scarce waters that sustain life across the dry plains."
+   "text": "As a tauren, you share Tonga's duty to the Earth Mother as he protects the scarce waters that sustain life across the dry plains."
   },
   {
    "target": "faction:Horde",
@@ -119,5 +119,5 @@
  "attribution": [
   "Tonga Runetotem"
  ],
- "style": 1
+ "style": 2
 }

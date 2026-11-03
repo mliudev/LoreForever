@@ -10,11 +10,11 @@
    "quest:2499"
   ]
  },
- "summary": "In Teldrassil, a great growth was torn from Oakenscowl, the corrupted timberling by Lake Al'Ameth. The tumor bears witness to sickness spreading among the creatures there.",
+ "summary": "In Teldrassil, a great growth was cut from Oakenscowl near Lake Al'Ameth. Its blight marks the sickness spreading among the creatures there.",
  "sections": [
   {
    "title": "Blight Upon the Lake",
-   "body": "Oakenscowl lurks in a cavern near Lake Al'Ameth's southern bank. Once a noble timberling elder, the creature has fallen to a vile affliction. A huge growth poisoned Oakenscowl, warped its behavior, and spread taint through the surrounding wildlife. The tumor was severed to end the beast's rampage and give local researchers a chance to examine the blight. They hope to learn how the malady took root in the boughs of the newly grown World Tree.",
+   "body": "Oakenscowl lurks in a cavern near the southern bank of Lake Al'Ameth. Once a noble timberling elder, it has fallen to a vile affliction. A huge growth poisoned Oakenscowl and warped its behavior. The tumor also spread taint through the surrounding wildlife.\n\nThe growth was severed to end Oakenscowl's rampage and give local researchers a chance to study the blight. They hope to learn how the malady took root in the boughs of the newly grown World Tree.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "timberling sickness",
     "lake al'ameth corruption"
    ],
-   "answer": "The tumor is a visible sign of the strange corruption poisoning timberlings and wildlife around Lake Al'Ameth. Oakenscowl was once a grand leader of its kind, but the growth overcame it."
+   "answer": "The tumor marks the strange corruption poisoning timberlings and wildlife around Lake Al'Ameth. Oakenscowl was once a grand leader of its kind, but the growth overcame it."
   },
   {
    "q": "Who wants to study this tumor?",
@@ -44,13 +44,13 @@
     "turn in gargantuan tumor",
     "oakenscowl quest turn in"
    ],
-   "answer": "Investigators in the area want the tumor to study the strange rot afflicting local timberlings and learn how to treat or halt the blight."
+   "answer": "Local investigators want to study the tumor and learn how to treat or halt the strange rot afflicting timberlings nearby."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid tending Teldrassil's young boughs, you can see in the tumor how vulnerable nature there is to corruption."
+   "text": "As a druid tending Teldrassil's young boughs, you can see how vulnerable nature there is to corruption in the tumor."
   },
   {
    "target": "race:NightElf",
@@ -75,5 +75,5 @@
   "Gargantuan Tumor",
   "Oakenscowl (Classic)"
  ],
- "style": 1
+ "style": 2
 }

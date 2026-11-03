@@ -20,16 +20,16 @@
    "Horde Presence"
   ]
  },
- "summary": "A silvery ribbon marks the Runed Scroll found in Kalimdor's wilds as a formal message from across the border. Finding it sends Horde scouts to the Mor'shan Rampart to warn its guards of activity to the north.",
+ "summary": "Found in Kalimdor's wilds, The Runed Scroll bears a formal message from across the border. Its discovery sends Horde scouts to warn the guards at Mor'shan Rampart of activity to the north.",
  "sections": [
   {
    "title": "A Silvery Ribbon",
-   "body": "A fine silvery ribbon binds the scroll, unlike the rough leathers and parchment common in the Barrens. Its craft and script point to the night elves beneath Ashenvale's canopies to the north. With every ridge and road contested, a message taken from the enemy could matter greatly to the Horde's front lines.",
+   "body": "A silvery ribbon binds the scroll, unlike the rough leathers and parchment common in the Barrens. Its craft and script point north, to the night elves beneath Ashenvale's canopies. The ridges and roads are contested, so a message taken from the enemy could matter greatly to the Horde's front lines.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the Northern Border",
-   "body": "The scroll belongs with local command, not at the Warchief's hall in Orgrimmar. Kadrak, an orc warrior, watches the border from the Mor'shan Rampart, where the Barrens' red earth meets Ashenvale's forests. Bringing the scroll to this outpost gives its guards word of night elf troop movements.",
+   "body": "The scroll belongs with local command, not in the Warchief's hall in Orgrimmar. Kadrak, an orc warrior, watches the border from Mor'shan Rampart, where the Barrens' red earth meets Ashenvale's forests. Bring the scroll to this outpost, and its guards will learn of night elf troop movements.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "runed scroll lore",
     "silver ribbon scroll"
    ],
-   "answer": "The Runed Scroll is a finely made document bound with a silvery ribbon, and its form points to night elf origins. It carries intelligence about their movements or plans along the Barrens border."
+   "answer": "The Runed Scroll is finely made and bound with a silvery ribbon, its form pointing to night elf origins. It carries intelligence about their movements or plans along the Barrens border."
   },
   {
    "q": "Where should I take the scroll?",
@@ -50,7 +50,7 @@
     "scroll turn in",
     "who wants the scroll"
    ],
-   "answer": "Take the scroll to Kadrak at the Mor'shan Rampart, the northern border post between the Barrens and Ashenvale."
+   "answer": "Take the scroll to Kadrak at Mor'shan Rampart, the northern border post between the Barrens and Ashenvale."
   },
   {
    "q": "Who is Kadrak?",
@@ -58,7 +58,7 @@
     "kadrak",
     "orc at the tower"
    ],
-   "answer": "Kadrak is a Horde scout and guard atop a defensive tower at the Mor'shan Rampart, where he watches for threats from Ashenvale."
+   "answer": "Kadrak is a Horde scout and guard atop a defensive tower at Mor'shan Rampart. He watches for threats from Ashenvale."
   },
   {
    "q": "Why would the night elves drop a scroll in the Barrens?",
@@ -66,7 +66,7 @@
     "why is the scroll here",
     "night elves in the barrens"
    ],
-   "answer": "Night elf sentinels and scouts patrol Ashenvale's borders and fringes, sometimes venturing south to test Horde defenses or ambush supply lines headed north."
+   "answer": "Night elf sentinels and scouts patrol Ashenvale's borders and fringes. They sometimes venture south to test Horde defenses or ambush supply lines headed north."
   },
   {
    "q": "What happens after giving the scroll to Kadrak?",
@@ -82,17 +82,17 @@
     "importance of runed scroll",
     "horde interest in scroll"
    ],
-   "answer": "Tensions between the Horde and night elves simmer over logging and borders. Intercepted messages can warn the Horde of Alliance ambushes against the Mor'shan Rampart."
+   "answer": "Tensions between the Horde and night elves simmer over logging and borders. Intercepted messages can warn the Horde of Alliance ambushes against Mor'shan Rampart."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Each intercepted piece of Alliance intelligence helps protect the lumber crews and border sentries guarding the gateway into Ashenvale."
+   "text": "As a member of the Horde, you know intercepted Alliance intelligence helps protect the lumber crews and border sentries guarding the gateway into Ashenvale."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know the Warsong Clan's expansion into Ashenvale relies on the Mor'shan Rampart's defenses, so night elf messages carry vital news."
+   "text": "As an orc, you know the Warsong Clan's expansion into Ashenvale depends on Mor'shan Rampart's defenses. Night elf messages carry vital news."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "The Runed Scroll"
  ],
- "style": 1
+ "style": 2
 }

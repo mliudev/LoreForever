@@ -10,11 +10,11 @@
    "quest:899"
   ]
  },
- "summary": "Across the northern and central Barrens, Bristleback Quilboar Tusks are taken from slain quilboar. Mankrik gathers them as proof of slaughter and tokens of vengeance.",
+ "summary": "Across the northern and central Barrens, Bristleback Quilboar Tusk are taken from slain quilboar. Mankrik gathers them as proof of slaughter and tokens of vengeance.",
  "sections": [
   {
    "title": "Trophies of Vengeance",
-   "body": "Bristleback quilboar defend their territory across the Barrens against Horde expansion. Their jagged ivory tusks serve as weapons in close combat. Mankrik, a veteran orc warrior stationed at the Crossroads, lost his wife in a vicious quilboar ambush. He gathers dozens of tusks as retribution, a bloody count of the suffering he means to return to the Bristlebacks.",
+   "body": "Bristleback quilboar defend their territory across the Barrens from Horde expansion. Their jagged ivory tusks are weapons in close combat. Mankrik, a veteran orc warrior stationed at the Crossroads, lost his wife in a vicious quilboar ambush. He gathers dozens of tusks in retribution, counting the suffering he means to return to the Bristlebacks.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "why does mankrik want tusks",
     "mankrik revenge"
    ],
-   "answer": "After quilboar raiders overwhelmed Mankrik and left him for dead, he was consumed by grief and fury. Sixty tusks give him proof that the Bristleback tribe is being culled in return."
+   "answer": "Quilboar raiders overwhelmed Mankrik and left him for dead. Grief and fury took hold, and sixty tusks give him proof that the Bristleback tribe is being culled in return."
   },
   {
    "q": "Which quilboar carry these tusks?",
@@ -51,7 +51,7 @@
     "bristleback tusk uses",
     "can you craft with quilboar tusks"
    ],
-   "answer": "Mankrik gathers these trophies solely for vengeance. Quilboar tusks can sometimes become tribal trinkets or trade goods, but these are not put to those uses."
+   "answer": "Mankrik gathers these trophies solely for vengeance. Quilboar tusks can sometimes become tribal trinkets or trade goods, but he puts these to neither use."
   }
  ],
  "angles": [
@@ -84,5 +84,5 @@
   "Bristleback Quilboar Tusk",
   "Consumed by Hatred (Classic)"
  ],
- "style": 1
+ "style": 2
 }

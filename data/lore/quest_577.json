@@ -21,16 +21,16 @@
   ],
   "wiki": null
  },
- "summary": "In Booty Bay, Drizzlik reports that the boots are taking shape, but the skins you supplied will not cover the inner layers. Drizzlik proposes filling them out with cheaper, thicker hides from crocolisks near Lake Nazferiti.",
+ "summary": "In Booty Bay, Drizzlik says the Excelsior boots are coming along, but the skins you brought will not cover their insides. He plans to use cheaper, thicker hides from crocolisks near Lake Nazferiti for those hidden layers.",
  "sections": [
   {
    "title": "Filling the Boots",
-   "body": "Drizzlik has settled the rough form of the boots and says they are coming along nicely, yet the skins from Supply and Demand do not go far enough for the insides. Nobody will ever see those layers, so Drizzlik will make do with thicker, cheaper hides from the crocolisks near Lake Nazferiti.",
+   "body": "Drizzlik says the Excelsior boots are coming along nicely. The skins from Supply and Demand will not cover their insides. Since no one will see those layers, he plans to use thicker, cheaper hides from the crocolisks near Lake Nazferiti.",
    "spoiler": 0
   },
   {
    "title": "The Sales Pitch",
-   "body": "Drizzlik's sales pitch promises the finest workmanship and boots of pure, top-grade saltwater crocolisk hide. Drizzlik likens the boots to sausages: they look great, they taste great, and they are said to hold only the finest ingredients. It is safer, and more enjoyable, to trust the maker and not look too closely at what is really inside.",
+   "body": "Drizzlik promises fine workmanship and boots made of pure, top-grade saltwater crocolisk hide. He compares the boots to sausages: they look and taste great, and are said to hold only the finest ingredients. Trusting the maker without looking too closely at what is inside may be safer and more enjoyable.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who gives some assembly required",
     "drizzlik location"
    ],
-   "answer": "Drizzlik in Booty Bay, who is working on the Excelsior boots and needs more skins after those delivered in Supply and Demand."
+   "answer": "Drizzlik in Booty Bay is working on the Excelsior boots. He needs more skins after those delivered in Supply and Demand."
   },
   {
    "q": "What skins does Drizzlik need?",
@@ -51,7 +51,7 @@
     "crocolisk skin type",
     "which crocs"
    ],
-   "answer": "Five snapjaw crocolisk skins."
+   "answer": "Drizzlik needs five snapjaw crocolisk skins."
   },
   {
    "q": "Where are the required crocolisks found?",
@@ -69,7 +69,7 @@
     "why snapjaw hides",
     "boot padding"
    ],
-   "answer": "The insides of the boots stay hidden from every eye, so Drizzlik is happy to fill them out with thicker, cheaper skins."
+   "answer": "The insides of the boots stay hidden from every eye. So Drizzlik is willing to fill them with thicker, cheaper skins."
   }
  ],
  "angles": [],
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Classic quest text: Some Assembly Required"
- ]
+ ],
+ "style": 2
 }

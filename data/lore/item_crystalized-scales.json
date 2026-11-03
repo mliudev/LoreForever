@@ -10,16 +10,16 @@
    "quest:1078"
   ]
  },
- "summary": "Basilisks in harsh Kalimdor lands yield Crystalized Scales for arcane work. The mineralized hides come from the Charred Vale and Thousand Needles, and Collin Mauren seeks them in Stormwind.",
+ "summary": "In Kalimdor, basilisks yield Crystalized Scales for arcane work. Their mineralized hides come from the Charred Vale and Thousand Needles, and Collin Mauren seeks them in Stormwind.",
  "sections": [
   {
    "title": "A Rare Kalimdor Reagent",
-   "body": "Basilisks endure heat and ash in Stonetalon's Charred Vale and the salt flats of Thousand Needles. Their hides harden beneath a crystal crust, and the scales hold latent arcane resonance. Wizards across the Great Sea prize them for experiments in rare spellcraft.",
+   "body": "Basilisks endure heat and ash in Stonetalon's Charred Vale and the salt flats of Thousand Needles. In both places, their hides harden beneath a crystal crust. The scales hold latent arcane resonance, and wizards across the Great Sea prize them for experiments in rare spellcraft.",
    "spoiler": 0
   },
   {
    "title": "Mauren's Arcane Work",
-   "body": "In Stormwind, the mage Collin Mauren seeks travelers bound for Kalimdor to bring him these scales. Mauren pulverizes their crystalline mineral layers into dust, then uses the powder as a reagent for newly conceived spells and his own arcane research.",
+   "body": "In Stormwind, the mage Collin Mauren seeks travelers bound for Kalimdor to bring him these scales. He pulverizes their crystalline mineral layers into dust, then uses the powder as a reagent for newly conceived spells and his own arcane research.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who drops crystalized scales",
     "basilisk scales source"
    ],
-   "answer": "Basilisks adapted to harsh regions yield Crystalized Scales, including the scorched, singed, and blackened basilisks of Stonetalon's Charred Vale and the saltstone basilisks of Thousand Needles."
+   "answer": "Basilisks adapted to harsh regions yield Crystalized Scales. They include the scorched, singed, and blackened basilisks of Stonetalon's Charred Vale, as well as the saltstone basilisks of Thousand Needles."
   },
   {
    "q": "Who is seeking these scales in Stormwind?",
@@ -48,7 +48,7 @@
     "why are crystalized scales magic",
     "scale spell reagent"
    ],
-   "answer": "Mauren pulverizes the crystalline scales into fine dust, which provides a potent reagent for specialized spells of his own creation."
+   "answer": "Mauren pulverizes the crystalline scales into fine dust. He uses the dust as a potent reagent for specialized spells of his own creation."
   },
   {
    "q": "Can crystalized scales only be found in Stonetalon?",
@@ -56,7 +56,7 @@
     "thousand needles scales",
     "other places to get scales"
    ],
-   "answer": "Mauren asks travelers bound for the Charred Vale in Stonetalon to seek the scales, and saltstone basilisks in Thousand Needles bear similar crystalline hides."
+   "answer": "Mauren asks travelers bound for the Charred Vale in Stonetalon to seek the scales. Saltstone basilisks in Thousand Needles bear similar crystalline hides."
   }
  ],
  "angles": [
@@ -91,5 +91,5 @@
   "Crystalized Scales",
   "Retrieval for Mauren"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx (2)",
   "chain": []
  },
- "summary": "Warlocks gather at the Tower of Althalaxx in northern Darkshore, drawing the scout Balthule Shadowstrike’s attention. He asks travelers to recover parchment scraps from the fanatics camped outside the ruins, hoping to learn who they are and what they seek.",
+ "summary": "Warlocks gather at the Tower of Althalaxx in northern Darkshore, drawing Balthule Shadowstrike's watchful eye. He asks travelers to recover scraps of parchment from the fanatics camped outside the ruins, hoping to learn who they are and what they seek.",
  "sections": [
   {
    "title": "Eyes in the Shallows",
-   "body": "Balthule Shadowstrike watches the misty shore of northern Darkshore, keeping sight of the ancient Tower of Althalaxx. Auberdine sent him to monitor the ruin and warn Delgren the Purifier if danger grew. But leaving his post to report might mean missing the dark spellcasters moving among the stones. So Balthule asks passing travelers to scout the camps around the tower.",
+   "body": "Balthule Shadowstrike watches the misty shore of northern Darkshore and keeps the ancient Tower of Althalaxx in sight. Auberdine sent him to watch the ruin and warn Delgren the Purifier if danger grows. Yet leaving his post to report might let the dark spellcasters among the stones slip from view. So Balthule asks passing travelers to scout the camps around the tower.",
    "spoiler": 0
   },
   {
    "title": "Deciphering the Cult",
-   "body": "The lesser followers at the ruined grounds carry scraps of scrolls and notes. From several worn parchments recovered from these outer cultists, Balthule learns their name: the Cult of the Dark Strand. He has never heard of the sect, and now sees that more than a band of rogue warlocks is at work. Delgren needs warning at once.",
+   "body": "The lesser followers at the ruined grounds carry scraps of scrolls and notes. Several worn parchments tell Balthule their name: the Cult of the Dark Strand. He has never heard of the sect, and now knows more than a band of rogue warlocks is at work. Delgren needs warning at once.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is balthule",
     "balthule darkshore"
    ],
-   "answer": "Balthule Shadowstrike is an Alliance scout stationed on the road near the Tower of Althalaxx in northern Darkshore. Auberdine’s leaders sent him to watch the suspicious gatherings and report to the paladin Delgren the Purifier."
+   "answer": "Balthule Shadowstrike is an Alliance scout stationed on the road near the Tower of Althalaxx in northern Darkshore. Auberdine's leaders sent him to watch the suspicious gatherings and report to Delgren the Purifier."
   },
   {
    "q": "What is the Tower of Althalaxx?",
@@ -47,7 +47,7 @@
     "what is althalaxx",
     "darkshore ruined tower"
    ],
-   "answer": "The Tower of Althalaxx is an ancient elven ruin in northern Darkshore. Sinister warlocks and their cultist thralls have occupied the grounds around it and its interior, performing dark rituals beyond Auberdine’s watch."
+   "answer": "The Tower of Althalaxx is an ancient elven ruin in northern Darkshore. Sinister warlocks and their cultist thralls have occupied the grounds around it and its interior, performing dark rituals beyond Auberdine's watch."
   },
   {
    "q": "Who are the cultists surrounding the tower?",
@@ -74,7 +74,7 @@
     "worn parchment lore",
     "cult notes"
    ],
-   "answer": "Scraps carried by the cult’s fanatics reveal the group’s name: the Cult of the Dark Strand. Balthule learns that the occupants are an organized sect whose presence threatens the region."
+   "answer": "Scraps carried by the cult's fanatics reveal the group's name: the Cult of the Dark Strand. Balthule learns that the occupants are an organized sect whose presence threatens the region."
   },
   {
    "q": "Who is Delgren the Purifier?",
@@ -83,21 +83,21 @@
     "who is delgren",
     "delgren the purifier"
    ],
-   "answer": "Delgren the Purifier is an Alliance paladin stationed at Maestra’s Post in Ashenvale who works to cleanse demonic and corrupt influences. He suspects malicious activity is taking root at the Tower of Althalaxx and relies on scouts like Balthule for intelligence."
+   "answer": "Delgren the Purifier is an Alliance paladin stationed at Maestra's Post in Ashenvale who works to cleanse demonic and corrupt influences. He suspects malicious activity is taking root at the Tower of Althalaxx and relies on scouts like Balthule for intelligence."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you can aid Delgren the Purifier’s crusade against fel and demonic corruption by helping uncover a dark cult in northern Darkshore."
+   "text": "As a paladin, you can aid Delgren the Purifier's crusade against fel and demonic corruption by helping uncover a dark cult in northern Darkshore."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can see how covens beyond Alliance and Horde authority seize ancient ruins to perform their summonings."
+   "text": "As a warlock, you can see how covens beyond Alliance and Horde authority seize ancient ruins for their summonings."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see the dark cultists’ desecration of the Tower of Althalaxx as another defilement of ancient elven heritage along Kalimdor’s shores."
+   "text": "As a night elf, you see the dark cultists' desecration of the Tower of Althalaxx as another defilement of ancient elven heritage along Kalimdor's shores."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "The Tower of Althalaxx (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Scarlet Crusade"
  },
- "summary": "Born from the shattered remnants of the Knights of the Silver Hand, the Scarlet Crusade is a fanatical holy order obsessed with purging the undead from Lordaeron. Blighted by paranoia and radical zealotry, they view anyone outside their ranks as carriers of the plague and shoot outsiders on sight. From strongholds across Tirisfal Glades and the Plaguelands, their crimson banners wage a ruthless war against Scourge and living alike.",
+ "summary": "Across Tirisfal Glades and the Plaguelands, crimson banners mark the Scarlet Crusade's war on the undead. The crusaders rose from the broken Knights of the Silver Hand to reclaim Lordaeron. Paranoia blinds them to anyone beyond their ranks, whom they brand plague carriers and shoot on sight.",
  "sections": [
   {
    "title": "Rise from the Ashes",
-   "body": "When Prince Arthas betrayed Lordaeron and murdered King Terenas Menethil II, the Order of the Silver Hand was broken. Surviving paladins and priests rallied under leaders like Alexandros Mograine, Saidan Dathrohan, and General Abbendis to reclaim their ruined homeland. Reorganizing their forces at Hearthglen and Tyr's Hand, they swore to cleanse the undead scourge with holy fire. Yet as the war dragged on, tragedy and suspicion festered within their ranks. What began as a desperate resistance soon devolved into an unyielding, xenophobic crusade.",
+   "body": "After Prince Arthas betrayed Lordaeron and murdered King Terenas Menethil II, the Order of the Silver Hand broke apart. Surviving paladins and priests rallied around leaders such as Alexandros Mograine, saidan dathrohan, and General Abbendis.\n\nThey gathered at Hearthglen and Tyr's Hand to reclaim their ruined homeland, then swore to burn away the undead scourge with holy fire. As the war dragged on, tragedy and suspicion took hold. Their desperate resistance hardened into an unyielding, xenophobic crusade.",
    "spoiler": 0
   },
   {
    "title": "The Great Schism",
-   "body": "As the Crusade's dogma hardened into religious madness, moderate commanders recoiled. Lord Maxwell Tyrosus and his followers argued that retaking the north required alliances across Azeroth, seeking aid from the dwarves, gnomes, and night elves. Rejected by the zealots, Tyrosus and other disillusioned knights abandoned the order to form the Argent Dawn, remaining faithful to the pure, inclusive tenets of the Holy Light. Meanwhile, the Scarlet Crusade seized the Scarlet Monastery in Tirisfal Glades as their heart of power, slaughtering travelers and refugees under the hysterical belief that all who walk the Plaguelands carry the Scourge's contagion.",
+   "body": "As the Crusade's teachings hardened into madness, moderate commanders recoiled. Lord Maxwell Tyrosus and his followers argued that reclaiming the north required allies across Azeroth, and sought aid from dwarves, gnomes, and night elves. The zealots refused, so Tyrosus and other disillusioned knights left to form the Argent Dawn, devoted to the Holy Light's pure and inclusive tenets.\n\nThe Scarlet Crusade made the Scarlet Monastery in Tirisfal Glades its center of power. There, they slaughter travelers and refugees, convinced that all who walk the Plaguelands carry the Scourge's contagion.",
    "spoiler": 0
   },
   {
    "title": "A Puppet in Crimson",
-   "body": "The Crusade's extreme descent into butchery was not entirely of their own making. During an assault on Stratholme, Grand Crusader Saidan Dathrohan was separated from his men and quietly murdered by the dreadlord Balnazzar. Possessing Dathrohan's corpse, the demon assumed direct control over the Scarlet ranks. Balnazzar subtly fueled their paranoia, orchestrating the murder of Highlord Alexandros Mograine through the jealousy of his son Renault. Behind grand speeches of purity and righteous fury, the crusaders serve as unknowing puppets to the very demonic darkness they believe the Light calls them to destroy.",
+   "body": "The Scarlet Crusade's descent into butchery was not entirely its own. During an assault on Stratholme, Grand Crusader saidan dathrohan became separated from his men. The dreadlord Balnazzar quietly murdered him, took possession of his corpse, and seized direct control of the Scarlet ranks.\n\nBalnazzar fed their paranoia and arranged for Highlord alexandros mograine to be murdered through the jealousy of his son renault. Beneath speeches of purity and righteous fury, the crusaders unknowingly serve the demonic darkness they believe the Light commands them to destroy.",
    "spoiler": 2
   }
  ],
@@ -33,7 +33,7 @@
     "are scarlets bad guys",
     "why does scarlet crusade attack me"
    ],
-   "answer": "The Crusade has succumbed to extreme paranoia after the fall of Lordaeron. They believe that anyone who has spent time in northern Lordaeron without being cleansed by their order is an active or latent carrier of the plague of undeath. To preserve their vision of pure humanity, they execute all outsiders on sight."
+   "answer": "The Scarlet Crusade's paranoia grew after Lordaeron fell. They believe anyone who has spent time in northern Lordaeron without their order's cleansing carries the plague of undeath, whether openly or in wait. To preserve their vision of pure humanity, they execute outsiders on sight."
   },
   {
    "q": "Where did the Scarlet Crusade come from?",
@@ -42,7 +42,7 @@
     "who founded scarlet crusade",
     "scarlet crusade history"
    ],
-   "answer": "They originated from surviving knights and priests of the Knights of the Silver Hand after Lordaeron fell during the Third War. Regrouping in Hearthglen and the Scarlet Monastery under figures like Saidan Dathrohan and Alexandros Mograine, they pledged to eradicate the Scourge by any means necessary."
+   "answer": "The Scarlet Crusade arose from surviving knights and priests of the Knights of the Silver Hand after Lordaeron fell during the Third War. They regrouped at Hearthglen and the Scarlet Monastery under leaders such as saidan dathrohan and alexandros mograine. They pledged to eradicate the Scourge by any means."
   },
   {
    "q": "How is the Scarlet Crusade different from the Argent Dawn?",
@@ -50,7 +50,7 @@
     "argent dawn vs scarlet crusade",
     "difference between scarlet and argent dawn"
    ],
-   "answer": "Both orders splintered from the original Silver Hand, but while the Argent Dawn accepts all races and remains true to the compassionate virtues of the Light, the Scarlet Crusade became a fanatical, human-supremacist cult that massacres refugees and travelers under the guise of holy cleansing."
+   "answer": "Both orders broke from the original Silver Hand. The Argent Dawn welcomes all races and follows the Light's compassionate virtues. The Scarlet Crusade became a fanatical, human-supremacist cult that massacres refugees and travelers in the name of holy cleansing."
   },
   {
    "q": "Where are the Scarlet Crusade's main bases located?",
@@ -59,7 +59,7 @@
     "scarlet locations",
     "where are scarlet crusaders"
    ],
-   "answer": "Their primary bastion is the Scarlet Monastery in northeastern Tirisfal Glades. They also control the fortified town of Hearthglen in the Western Plaguelands, Tyr's Hand in the east, and the Scarlet Bastion inside the ruins of Stratholme, alongside numerous scout towers across the region."
+   "answer": "The Scarlet Monastery in northeastern Tirisfal Glades is the Crusade's chief stronghold. They also control Hearthglen in the Western Plaguelands, Tyr's Hand in the east, and the Scarlet Bastion in Stratholme's ruins. Scout towers stand across the region."
   },
   {
    "q": "Who actually leads the Scarlet Crusade?",
@@ -67,7 +67,7 @@
     "who is leader of scarlet crusade",
     "scarlet crusade grand crusader"
    ],
-   "answer": "Outwardly, Grand Crusader Saidan Dathrohan commands the Crusade from Stratholme, supported by High Inquisitor Whitemane and Scarlet Commander Mograine at the Monastery."
+   "answer": "Grand Crusader saidan dathrohan appears to command the Crusade from Stratholme. High Inquisitor Whitemane and Scarlet Commander Mograine support him at the Monastery."
   },
   {
    "q": "Can the Scarlet Crusaders still use the Holy Light if they are evil?",
@@ -76,25 +76,25 @@
     "scarlet crusade paladins light",
     "do scarlets have the light"
    ],
-   "answer": "Yes. In the cosmology of the Light, wielding its power does not require moral goodness, but absolute, unwavering conviction and faith. The crusaders genuinely believe their brutal crusade is pure and just, allowing them to channel holy wrath despite their cruelty."
+   "answer": "Yes. The Light answers absolute conviction and faith, not moral goodness. The crusaders believe their brutal cause is pure and just, and that belief lets them wield holy wrath despite their cruelty."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The Scarlet Crusade represents the darkest perversion of the Silver Hand's teachings, demonstrating how righteous conviction can twist into tyrannical fanaticism without humility and compassion."
+   "text": "As a paladin, you can see how the Scarlet Crusade twists the Silver Hand's teachings. Righteous conviction without humility or compassion can become tyranny."
   },
   {
    "target": "race:Undead",
-   "text": "The Scarlet Crusade is the Forsaken's most immediate living nemesis, contesting the borders of Tirisfal Glades and actively hunting any undead who break free from the Lich King's grasp."
+   "text": "As an undead, you face the Scarlet Crusade as the Forsaken's nearest living enemy. They contest Tirisfal Glades' borders and hunt undead who have escaped the Lich King's grasp."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though they wear the armor and speak the language of fallen Lordaeron, the Scarlet Crusade considers the modern Alliance compromised and executes Alliance emissaries without hesitation."
+   "text": "As an Alliance member, you may wear Lordaeron's armor and speak its tongue, but the Scarlet Crusade considers the modern Alliance compromised. They execute Alliance emissaries without hesitation."
   },
   {
    "target": "class:Priest",
-   "text": "Studying the Crusade reveals the terrifying potency of faith stripped of moral restraint, where holy scripture is used to justify ruthless inquisitions and village purges."
+   "text": "As a priest, you can see how faith loses its bounds without moral restraint. The Crusade's followers use holy scripture to justify ruthless inquisitions and village purges."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Scarlet Crusade"
- ]
+ ],
+ "style": 2
 }

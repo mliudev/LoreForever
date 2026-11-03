@@ -17,16 +17,16 @@
   "wiki": "At Home in the Shadows",
   "chain": []
  },
- "summary": "\"At Home in the Shadows\" is an introductory rogue quest on Zephras Isle. After aiding Rorian the Dayseeker in Thendal Grove, budding rogues are directed to read a summons and meet their local class mentor, Akeri Duskblade. The quest marks the moment young rogues transition from general village chores to serious stealth and combat training.",
+ "summary": "Rorian sends you to meet Akeri Duskblade in Thendal Grove, where rogue training begins. The summons marks a change from village chores to stealth and combat.",
  "sections": [
   {
    "title": "A Shady Invitation",
-   "body": "While handling basic threats around Thendal Grove, young rogues draw the attention of Akeri Duskblade, the grove's resident rogue trainer. Rather than mingling openly in the settlement, Akeri passes a simple note through Rorian the Dayseeker. Rorian recognizes that despite Akeri's suspicious demeanor, the mentor understands the practical skills needed to survive outside the grove's sheltered boundaries.",
+   "body": "Akeri Duskblade has noticed young rogues dealing with threats around Thendal Grove. The grove's rogue trainer avoids an open meeting in the settlement, so he sends a note through Rorian the Dayseeker. Though Akeri keeps his reasons close, Rorian sees that he knows the skills a rogue needs beyond the grove's sheltered bounds.",
    "spoiler": 0
   },
   {
    "title": "Lessons in the Watchtower",
-   "body": "Tucked away inside the village watchtower, Akeri Duskblade wastes no time mincing words. He evaluates every newcomer's footing and awareness immediately upon their arrival, warning that sloppy footwork outside Thendal Grove leads straight to an early grave. By surviving Akeri's scrutiny, a rogue takes their first formal step into mastering stealth, precision, and survival on Zephras Isle.",
+   "body": "Akeri Duskblade waits in the Thendal Grove village watchtower. He judges each newcomer’s footing and awareness, then warns that careless steps beyond the grove can lead to an early grave. Passing his scrutiny begins formal training in stealth, precision, and survival on Zephras Isle.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver at home in the shadows",
     "rorian quest"
    ],
-   "answer": "Rorian the Dayseeker offers the quest in Thendal Grove on Zephras Isle after you complete \"Harmony in Balance.\""
+   "answer": "Rorian the Dayseeker gives you Akeri's summons in thendal grove on zephras isle after you complete Harmony in Balance."
   },
   {
    "q": "Where can I find Akeri Duskblade?",
@@ -47,7 +47,7 @@
     "where is akeri duskblade",
     "find akeri"
    ],
-   "answer": "Akeri Duskblade is located inside the village watchtower in Thendal Grove on Zephras Isle."
+   "answer": "Akeri Duskblade waits inside the village watchtower in thendal grove on zephras isle."
   },
   {
    "q": "What is the Simple Note given during the quest?",
@@ -56,7 +56,7 @@
     "what is the note",
     "read simple note"
    ],
-   "answer": "The Simple Note is a message left by Akeri Duskblade requesting an audience with promising rogues. You must read it before speaking to Akeri to complete your objective."
+   "answer": "Akeri Duskblade's Simple Note asks promising rogues to meet him. Read it before you speak with Akeri."
   },
   {
    "q": "Is this quest available to all classes?",
@@ -65,7 +65,7 @@
     "is at home in the shadows rogue only",
     "class requirement"
    ],
-   "answer": "No, this quest is specifically intended for rogues learning their trade in Thendal Grove."
+   "answer": "No. The training is for rogues learning their trade in Thendal Grove."
   },
   {
    "q": "What does Akeri Duskblade teach?",
@@ -74,7 +74,7 @@
     "who is akeri",
     "rogue trainer thendal grove"
    ],
-   "answer": "Akeri Duskblade serves as the local rogue trainer in Thendal Grove, providing instruction in stealth, cunning, and bladecraft for novices beginning their journey across Zephras Isle."
+   "answer": "Akeri Duskblade teaches local rogues in Thendal Grove stealth, cunning, and bladecraft as they begin their journey across Zephras Isle."
   },
   {
    "q": "What prerequisite quest must be completed first?",
@@ -83,13 +83,13 @@
     "previous quest",
     "unlock at home in the shadows"
    ],
-   "answer": "You must first complete \"Harmony in Balance\" for Rorian the Dayseeker before he hands you Akeri's note."
+   "answer": "Complete Harmony in Balance for Rorian the Dayseeker first. Then he gives you Akeri's note."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This quest establishes your formal rogue training on Zephras Isle, introducing you to Akeri Duskblade in the Thendal Grove watchtower."
+   "text": "As a rogue, you begin formal training on Zephras Isle when you meet Akeri Duskblade in the Thendal Grove watchtower."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "At Home in the Shadows"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lordamere Lake"
  },
- "summary": "Lordamere Lake lies between Tirisfal Glades, Silverpine Forest, and the Alterac Mountains, its waters now shadowed by the undead. Once the northern heart of human life, its cold waters and islands are haunted by Scourge necromancers and feral murlocs.",
+ "summary": "Between Tirisfal Glades, Silverpine Forest, and the Alterac Mountains, Lordamere Lake lies under the shadow of the undead. Once the northern heart of human life, its cold waters and islands are now haunted by Scourge necromancers and feral murlocs.",
  "sections": [
   {
    "title": "Heart of the Fallen Kingdoms",
-   "body": "Lordamere Lake once joined the centers of human power in the north. The Capital City of Lordaeron guarded its northern shores, Dalaran rose near the southern reach, and Alterac lined the eastern edge beneath its mountains. Merchant vessels and fishing boats crossed the broad lake without fear. After the devastation of the Third War, the lake became a natural barrier between the Forsaken-held lands of Tirisfal and Silverpine and the treacherous heights of Alterac.",
+   "body": "Lordamere Lake once joined the northern centers of human power. The Capital City of Lordaeron guarded its northern shores, Dalaran rose near its southern reach, and Alterac lined its eastern edge beneath the mountains. Merchant vessels and fishing boats crossed the broad lake without fear. After the devastation of the Third War, the lake became a natural barrier between Forsaken-held Tirisfal and Silverpine and the treacherous heights of Alterac.",
    "spoiler": 0
   },
   {
    "title": "A Contested Expanse",
-   "body": "Dark waters make travel across Lordamere Lake perilous. Fenris Isle lies at its center, where the Scourge necromancer Thule Ravenclaw and his Rot Hide gnolls hold out against the Forsaken. Farther east, aggressive Vile Fin murlocs overrun the Dawning Isles. From the ruins around Dalaran to the shoreline of the Undercity, the lake is now a drowned frontier contested by remnant monsters and the armies of the dead.",
+   "body": "Travel across Lordamere Lake is perilous beneath its dark waters. At the lake's center, Thule Ravenclaw, a Scourge necromancer, and his Rot Hide gnolls hold out against the Forsaken. Farther east, aggressive Vile Fin murlocs overrun the Dawning Isles. From the ruins around Dalaran to the Undercity's shoreline, the lake is a drowned frontier contested by remnant monsters and the armies of the dead.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "lordamere lake history",
     "kingdoms around lordamere"
    ],
-   "answer": "During the height of the Alliance of Lordaeron, the Kingdom of Lordaeron bordered the lake to the north and west, Dalaran to the south, and Alterac along its eastern mountain bluffs."
+   "answer": "During the height of the Alliance of Lordaeron, the Kingdom of Lordaeron bordered the lake to the north and west. Dalaran lay to the south, and Alterac lined its eastern mountain bluffs."
   },
   {
    "q": "Who controls Fenris Isle in the middle of the lake?",
@@ -37,7 +37,7 @@
     "fenris island lordamere",
     "fenris isle ruler"
    ],
-   "answer": "Rot Hide gnolls hold Fenris Isle under the command of the Scourge necromancer Thule Ravenclaw, and the Forsaken assault them relentlessly."
+   "answer": "Rot Hide gnolls hold Fenris Isle under the command of Thule Ravenclaw, the Scourge necromancer. The Forsaken assault them relentlessly."
   },
   {
    "q": "What are the Dawning Isles?",
@@ -54,7 +54,7 @@
     "lordamere name origin",
     "why is it called lordamere"
    ],
-   "answer": "The lake's name echoes that of the surrounding kingdom of Lordaeron, whose Capital City stands nearby. The records say little more about how it was named."
+   "answer": "Lordamere Lake's name echoes that of the surrounding kingdom of Lordaeron, whose Capital City stands nearby. The records say little more about how it was named."
   }
  ],
  "angles": [
@@ -64,7 +64,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, you see in Lordamere's quiet, foggy waters a reminder of the northern human kingdoms' ruined glory. They once traded freely across its shores."
+   "text": "As a human, you see in Lordamere's quiet, foggy waters a reminder of the ruined glory of the northern human kingdoms. They once traded freely across its shores."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Lordamere Lake"
  ],
- "style": 1
+ "style": 2
 }

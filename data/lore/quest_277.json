@@ -17,16 +17,16 @@
   "wiki": "Fire Taboo",
   "chain": []
  },
- "summary": "Along the marsh roads of the Wetlands, Fire Taboo puts Rethiel's concern for the forest into action. The bog beast asks travelers to take the crude flints Mosshide gnolls use to burn living trees, hoping to spare the ancient boughs.",
+ "summary": "In the Wetlands, Rethiel turns concern for the forest into action. The bog beast asks travelers to take the crude flints Mosshide gnolls use to burn living trees, hoping to spare the ancient boughs.",
  "sections": [
   {
    "title": "A Greenwarden's Anguish",
-   "body": "Rethiel the Greenwarden feels the Wetlands' trees as kin. Rot and renewal belong to the swamp, but the Mosshide gnolls cut living timber and cast it into their hearthfires. The groans of those boughs weigh on Rethiel, who can no longer watch the trees suffer in silence.",
+   "body": "Rethiel the Greenwarden feels the Wetlands' trees as kin. Rot and renewal belong to the swamp, yet the Mosshide gnolls cut living timber and feed it to their hearthfires. The groans of those boughs weigh on Rethiel. The Greenwarden can no longer watch the trees suffer in silence.",
    "spoiler": 0
   },
   {
    "title": "Extinguishing the Mosshides",
-   "body": "The Mosshide pack cuts green trees for warmth and territory instead of gathering deadwood. Rethiel seeks to curb their spread without a long war, so the bog beast asks you to take the crude flints carried by stronger gnolls. Without those tools, the pack cannot burn the timber it fells. Rethiel smashes each stone and casts its dust into the sea, where it can never spark the forest again.",
+   "body": "Mosshide gnolls cut green trees for warmth and territory instead of gathering deadwood. Rethiel hopes to curb their spread without a long war, so the bog beast asks you to take the crude flints carried by stronger gnolls. Without those tools, the pack cannot burn the timber it fells.\n\nRethiel smashes each stone and casts its dust into the sea. There, it can never spark the forest again.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why take flints",
     "crude flint purpose"
    ],
-   "answer": "Rethiel sees burning living wood as an unpardonable violation. Taking the flints keeps the gnolls from lighting fires against the wetland trees and ends the destruction of living wood."
+   "answer": "Rethiel sees the burning of living wood as an unpardonable violation. Taking the flints keeps the gnolls from lighting fires against the wetland trees and ends the destruction of living wood."
   },
   {
    "q": "What happens to the flints once they are turned in?",
@@ -55,7 +55,7 @@
     "what does she do with flints",
     "flint destruction"
    ],
-   "answer": "Rethiel smashes the flints and casts their remains into the sea, so they can never spark against living timber again."
+   "answer": "Rethiel smashes the flints and casts their remains into the sea, where they can never spark against living timber again."
   },
   {
    "q": "Which gnolls carry the flints?",
@@ -63,7 +63,7 @@
     "who drops flints",
     "which gnolls have crude flint"
    ],
-   "answer": "The stronger Mosshide gnolls carry the crude flints. Smaller Mosshides and weaker mongrels are not trusted with fire-making tools and carry none."
+   "answer": "The stronger Mosshide gnolls carry the crude flints. Smaller Mosshides and weaker mongrels are not trusted with tools for making fire and carry none."
   },
   {
    "q": "Why are the Mosshides cutting down trees?",
@@ -71,7 +71,7 @@
     "why gnolls cut trees",
     "mosshide woodcutting"
    ],
-   "answer": "The Mosshide gnolls cut living trees to fuel their campfires and keep warm in the damp swamp, rather than use dry, fallen timber."
+   "answer": "The Mosshide gnolls cut living trees to fuel their campfires and keep warm in the damp swamp. They use green timber instead of dry, fallen wood."
   },
   {
    "q": "What comes next after gathering the flints?",
@@ -79,7 +79,7 @@
     "what quest is after fire taboo",
     "next quest after flints"
    ],
-   "answer": "After you take the flints and deprive the gnolls of fire, Rethiel sends you to deal with another blight afflicting the marshes in the follow-up, Blisters on The Land."
+   "answer": "After you take the flints and deprive the gnolls of fire, Rethiel sends you to deal with another blight afflicting the marshes. It is called Blisters on The Land."
   }
  ],
  "angles": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Fire Taboo"
  ],
- "style": 1
+ "style": 2
 }

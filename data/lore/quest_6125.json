@@ -17,16 +17,16 @@
   "wiki": "Power over Poison (Alliance)",
   "chain": []
  },
- "summary": "In Darnassus, a young druid returns to complete Power over Poison. The Cenarion Circle's trial began in Darkshore, where the initiate learned to brew a remedy by hand.",
+ "summary": "In Darnassus, Power over Poison brings a young druid back to finish the Cenarion Circle's trial. It began in Darkshore, where the initiate learned to brew a remedy by hand.",
  "sections": [
   {
    "title": "The Student's Humility",
-   "body": "In Darkshore, Alanndarian Nightsong asks young druids to gather Earthroot and Lunar Fungus by hand. They brew a salve to heal stricken wildlife. Before granting the magic to purge toxins, the Cenarion Circle wants initiates to know the hardship of treating poison without spiritual aid. The work teaches them what common folk face when venom strikes, and why a druid must meet their suffering with care.",
+   "body": "In Darkshore, Alanndarian Nightsong sends young druids to gather Earthroot and Lunar Fungus by hand. They use them to brew a salve for stricken wildlife. Before teaching the magic that purges toxins, the Cenarion Circle asks initiates to learn the hardship of treating poison without spiritual aid. That work shows them what common folk endure when venom strikes, and why a druid must meet their suffering with care.",
    "spoiler": 0
   },
   {
    "title": "Return to the Enclave",
-   "body": "After the remedy proves effective in Auberdine, Starblaze sends the druid across the sea to Darnassus. Mathrengyl Bearwalker awaits in the Cenarion Enclave. Pleased with the initiate's grace under pressure, he teaches the art of cleansing toxins through nature's power. But virulent poisons in the wilds around Auberdine trouble him, for they point to an unnatural blight disturbing the land's balance.",
+   "body": "The remedy proves effective in Auberdine, and Starblaze sends the druid across the sea to Darnassus. Mathrengyl Bearwalker waits in the Cenarion Enclave. Pleased by the initiate's grace under pressure, he teaches them to cleanse toxins through nature's power. Yet virulent poisons in the wilds around Auberdine trouble him. They point to an unnatural blight that disturbs the land's balance.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "power over poison objective",
     "cure poison quest"
    ],
-   "answer": "The trial teaches a druid to cure poison with magic after first preparing a salve by hand. The student returns from Darkshore to Mathrengyl Bearwalker in Darnassus to learn Cure Poison."
+   "answer": "The trial prepares a druid to cure poison with magic after first making a salve by hand. From Darkshore, the student returns to Mathrengyl Bearwalker in Darnassus to learn Cure Poison."
   },
   {
    "q": "Who is Dendrite Starblaze?",
@@ -46,7 +46,7 @@
     "dendrite starblaze role",
     "who gives power over poison"
    ],
-   "answer": "Dendrite Starblaze is an elder druid at Nighthaven in Moonglade. He guides initiates through spiritual trials, testing their patience and dedication to nature before sending them to their home trainers."
+   "answer": "Dendrite Starblaze is an elder druid at Nighthaven in Moonglade. He guides initiates through spiritual trials that test their patience and dedication to nature, then sends them to their home trainers."
   },
   {
    "q": "Who is Mathrengyl Bearwalker?",
@@ -54,7 +54,7 @@
     "mathrengyl bearwalker lore",
     "bearwalker darnassus"
    ],
-   "answer": "Mathrengyl Bearwalker is a master druid trainer in the Cenarion Enclave in Darnassus. He trains night elf druids in forms, restorative arts, and the duties of the Cenarion Circle beneath Teldrassil's boughs."
+   "answer": "Mathrengyl Bearwalker is a master druid trainer in Darnassus's Cenarion Enclave. Beneath Teldrassil's boughs, he trains night elf druids in forms, restorative arts, and the duties of the Cenarion Circle."
   },
   {
    "q": "Why was the druid required to make a cure by hand first?",
@@ -62,7 +62,7 @@
     "why make herbal cure",
     "lesson of power over poison"
    ],
-   "answer": "Dendrite Starblaze teaches that druids should understand poison's physical toll and the work of treating it without magic. Gathering ordinary ingredients and tending the sick by hand teaches humility and appreciation for the natural gifts they are about to receive."
+   "answer": "Dendrite Starblaze teaches druids to understand poison's physical toll and the work of treating it without magic. Gathering ordinary ingredients and tending the sick by hand teaches humility and gratitude for the natural gifts they are about to receive."
   },
   {
    "q": "What concerns Mathrengyl about the situation in Auberdine?",
@@ -70,7 +70,7 @@
     "auberdine poison lore",
     "mathrengyl concern"
    ],
-   "answer": "Mathrengyl finds the lethal toxins in the Darkshore wilds around Auberdine unnatural. Their effect on native wildlife and plants threatens the land's balance and suggests a corrupting influence along the coast."
+   "answer": "Mathrengyl finds the lethal toxins in the Darkshore wilds around Auberdine unnatural. Their effects on native wildlife and plants threaten the land's balance and point to a corrupting influence along the coast."
   }
  ],
  "angles": [
@@ -80,7 +80,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you undertake this trial in Darnassus's Cenarion Enclave, where it reflects Kaldorei reverence for balance and stewardship of their ancient forests."
+   "text": "As a night elf, you undertake this trial in the Cenarion Enclave in Darnassus. It reflects Kaldorei reverence for balance and care for their ancient forests."
   }
  ],
  "keywords": [
@@ -104,5 +104,5 @@
  "attribution": [
   "Power over Poison (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Hinterlands"
  },
- "summary": "Primal Torntusk has ordered Vile Priestess Hexx and her minions brought to justice, and a grand prize awaits anyone who slays the priestess and her elite Aman'zasi guard. You will find them atop Jintha'alor in the Hinterlands.",
+ "summary": "Primal Torntusk has sent you to Jintha'alor to bring Vile Priestess Hexx and her minions to justice. He offers a grand prize for slaying Hexx and her elite Aman'zasi guard.",
  "sections": [
   {
    "title": "A Strike at Jintha'alor",
-   "body": "Primal Torntusk has ordered that Vile Priestess Hexx and her minions be brought to justice. The targets are the priestess herself and the Aman'zasi guards, her elite. Atop Jintha'alor, in the Hinterlands, is where they are found. Once they are slain, you report back to Torntusk at Revantusk Village.",
+   "body": "Primal Torntusk sends you after Vile Priestess Hexx and her minions. They are atop Jintha'alor in the Hinterlands, where Hexx's elite Aman'zasi guards stand with her. Slay them, then report to Torntusk at Revantusk Village.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who gave this bounty",
     "priestess hexx quest giver"
    ],
-   "answer": "The call to arms was issued by order of Primal Torntusk, and a grand prize is offered to whoever slays the priestess and her guard."
+   "answer": "Primal Torntusk ordered the bounty and offers a grand prize for slaying the priestess and her guard."
   },
   {
    "q": "Where can Vile Priestess Hexx and her guards be found?",
@@ -43,7 +43,7 @@
     "vile priestess hexx location",
     "amanzasi guards location"
    ],
-   "answer": "They are found atop Jintha'alor in the Hinterlands."
+   "answer": "Vile Priestess Hexx and her guards are atop Jintha'alor in the Hinterlands."
   },
   {
    "q": "Who must be slain to fulfill the bounty?",
@@ -51,7 +51,7 @@
     "hexx bounty objectives",
     "who to kill for hexx"
    ],
-   "answer": "The priestess Hexx herself, along with her Aman'zasi elite guard of the Vilebranch."
+   "answer": "Slay Priestess Hexx and her elite Aman'zasi guard of the Vilebranch."
   },
   {
    "q": "Where is the bounty turned in?",
@@ -59,7 +59,7 @@
     "where to turn in hexx bounty",
     "primal torntusk location"
    ],
-   "answer": "Report to Primal Torntusk at Revantusk Village once the priestess and her guard are slain."
+   "answer": "After slaying the priestess and her guard, report to Primal Torntusk at Revantusk Village."
   }
  ],
  "angles": [],
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Wowpedia: Wanted: Vile Priestess Hexx and Her Minions"
- ]
+ ],
+ "style": 2
 }

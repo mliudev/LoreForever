@@ -28,16 +28,16 @@
   ],
   "category": "Hinterlands"
  },
- "summary": "Elder Torntusk is held at Jintha'alor in shackles. He says Hitah'ya the Keeper has the key to his bindings and is in the nearby cave, well guarded, and he asks you to kill her and bring it back.",
+ "summary": "At Jintha'alor, Elder Torntusk is shackled and asks you to free him. Hitah'ya the Keeper holds his key in a guarded cave nearby.",
  "sections": [
   {
    "title": "The Keeper's Cave",
-   "body": "After Kidnapped Elder Torntusk!, you find Elder Torntusk bound in shackles at Jintha'alor. Hitah'ya the Keeper holds the key to his bindings and is in the nearby cave, well guarded. Elder Torntusk asks you to kill her and fetch the key so his shackles come loose, for only then can he go home.",
+   "body": "After Kidnapped Elder Torntusk!, you find Elder Torntusk shackled at Jintha'alor. Hitah'ya the Keeper keeps the key to his bindings in a nearby cave, where she is well guarded. Elder Torntusk asks you to kill her and bring back the key. Then he can loosen his shackles and return home.",
    "spoiler": 0
   },
   {
    "title": "Elder Torntusk's Thanks",
-   "body": "With the key in hand, Elder Torntusk rises to his feet. He thanks you and says the Revantusk will know your deeds.",
+   "body": "With the key, Elder Torntusk gets to his feet. He thanks you and says the Revantusk will hear of your deeds.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "hitahya the keeper",
     "where is the shackle key"
    ],
-   "answer": "Hitah'ya the Keeper holds the key. Elder Torntusk says she is in the nearby cave and is guarded well."
+   "answer": "Hitah'ya the Keeper holds the key to Elder Torntusk's shackles. He says she is in a nearby cave, where she is well guarded."
   },
   {
    "q": "Where is Elder Torntusk held?",
@@ -66,7 +66,7 @@
     "why the shackle key",
     "what is the key for"
    ],
-   "answer": "The key opens the shackles on his bindings. Only then, he says, will he be free to return home."
+   "answer": "The key opens Elder Torntusk's shackles. He says he can return home once he is free."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Wowpedia: Recover the Key!"
- ]
+ ],
+ "style": 2
 }

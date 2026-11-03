@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bloodvenom Falls"
  },
- "summary": "Bloodvenom Falls is a towering, foul waterfall plunging down the corrupted cliffs of northern Felwood. Its toxic flow feeds the Bloodvenom River, spreading demon-spawned rot down the mountains and into downstream lands.",
+ "summary": "Toxic water pours over Felwood’s northern cliffs at Bloodvenom Falls. It feeds the Bloodvenom River, carrying demon-spawned rot down the mountains and beyond.",
  "sections": [
   {
    "title": "A Fountain of Rot",
-   "body": "Pouring over the bluffs in Felwood, Bloodvenom Falls represents one of the most vivid wounds inflicted upon the ancient forests of Kalimdor. Once a pristine mountain cascade, the waters were warped into a virulent sludge during the Third War by demonic magics and the remnants of the Burning Legion. The falls feed directly into the Bloodvenom River, which weaves through the heart of Felwood. From there, the tainted torrent rushes down the mountain slopes to become the foul Wildbend River in Darkshore, carrying blight far beyond Felwood's blighted borders.",
+   "body": "Bloodvenom Falls pours over the bluffs in Felwood, a vivid wound in Kalimdor’s ancient forests. Once pristine, the water was warped by demonic magic and the Burning Legion’s remnants during the Third War. The falls feed the Bloodvenom River, which winds through the heart of Felwood. Then the tainted torrent rushes down the mountain slopes and becomes the foul Wildbend River in Darkshore, carrying blight beyond Felwood’s borders.",
    "spoiler": 0
   },
   {
    "title": "Ecological Poison",
-   "body": "The virulent runoff from Bloodvenom Falls does not merely discolor the riverbed; it warps everything it touches. The swampy banks surrounding its spray breed twisted treants, sickening beasts, and aggressive slimes. For druids and wardens attempting to contain Felwood's rot, the falls are a chilling reminder that northern Kalimdor's waters remain deeply sickened at their source.",
+   "body": "Runoff from Bloodvenom Falls stains the riverbed and warps all it touches. Twisted treants, sickening beasts, and aggressive slimes breed along the swampy banks around its spray. To druids and wardens trying to contain Felwood’s rot, the falls show how deeply northern Kalimdor’s waters remain sickened at their source.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "bloodvenom falls river path",
     "where does it drain"
    ],
-   "answer": "The falls feed directly into the Bloodvenom River. The river cuts across Felwood before cascading down the mountains into Darkshore, where it becomes the corrupted Wildbend River."
+   "answer": "The falls feed the Bloodvenom River, which winds across Felwood. It then cascades down the mountains into Darkshore and becomes the corrupted Wildbend River."
   },
   {
    "q": "Why is the waterfall corrupted?",
@@ -37,7 +37,7 @@
     "why is the water poisoned",
     "what corrupted bloodvenom falls"
    ],
-   "answer": "During the Third War, the Burning Legion's demonic magic saturated the region, corrupting the wild forests of Felwood. The springs and high mountain streams feeding the falls absorbed this fel blight, transforming the water into toxic muck."
+   "answer": "During the Third War, the Burning Legion’s demonic magic saturated the region and corrupted Felwood’s wild forests. Fel blight entered the springs and high mountain streams that feed the falls, turning their water into toxic muck."
   },
   {
    "q": "Does the corruption at the falls affect other zones?",
@@ -46,7 +46,7 @@
     "how does it affect darkshore",
     "darkshore river pollution"
    ],
-   "answer": "Yes. The waters plunge from Felwood down the western mountain crests into Darkshore, emerging as the contaminated Wildbend River and spreading rot toward the coast."
+   "answer": "Yes. The waters plunge from Felwood down the western mountain crests into Darkshore. There they emerge as the contaminated Wildbend River and carry rot toward the coast."
   },
   {
    "q": "Can the waters of Bloodvenom Falls be purified?",
@@ -55,17 +55,17 @@
     "is bloodvenom falls cleansable",
     "cleaning the waterfall"
    ],
-   "answer": "The Cenarion Circle continues to seek ways to cleanse Felwood, but the sheer volume and deep saturation of demonic taint in the river makes curing the falls a monumental struggle that remains unresolved."
+   "answer": "The Cenarion Circle keeps seeking ways to cleanse Felwood, but the river holds a vast volume of deeply saturated demonic taint. Curing the falls remains a monumental struggle, and the corruption is unresolved."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The polluted plunge of Bloodvenom Falls is a bitter sight for the Cenarion Circle, serving as a primary conduit carrying Felwood's vile sickness into the lands below."
+   "text": "As a druid, you see Bloodvenom Falls as a bitter sight for the Cenarion Circle. Its waters carry Felwood’s vile sickness into the lands below."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves, the sight of Bloodvenom Falls feeding the poisoned Wildbend River in Darkshore is a direct threat to ancestral homes and coastal sanctuaries."
+   "text": "As a night elf, you see Bloodvenom Falls feeding the poisoned Wildbend River in Darkshore. Its waters threaten ancestral homes and coastal sanctuaries."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Bloodvenom Falls"
- ]
+ ],
+ "style": 2
 }

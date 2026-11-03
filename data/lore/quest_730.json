@@ -17,21 +17,21 @@
   "wiki": "Trouble in Darkshore?",
   "chain": []
  },
- "summary": "In Darnassus, Chief Archaeologist Greywhisker seeks help for his missing crew. His introductory appeal sends travelers across the sea to Auberdine, where the dwarven expedition met Darkshore's wild, shadowy coast.",
+ "summary": "In Darnassus, Chief Archaeologist Greywhisker needs help finding his missing crew. His appeal sends you across the sea to Auberdine, where the dwarven expedition met trouble along Darkshore’s wild coast.",
  "sections": [
   {
    "title": "A Silent Expedition",
-   "body": "Darnassus, the grand night elven capital, is home to dwarven researchers from Ironforge studying Kalimdor's ancient mysteries. Chief Archaeologist Greywhisker sent an excavation party across the water to Darkshore to unearth artifacts of antiquity. Weeks have passed without a message or progress report, and Greywhisker fears his field crew has met dangers they could not survive alone.",
+   "body": "Darnassus is the grand night elven capital, and home to dwarven researchers from Ironforge who study Kalimdor’s ancient mysteries. Chief Archaeologist Greywhisker sent an excavation party across the water to Darkshore to uncover ancient artifacts. Weeks have passed without word or a progress report. Greywhisker fears dangers have overtaken his field crew.",
    "spoiler": 0
   },
   {
    "title": "Threats Unburied",
-   "body": "Greywhisker laments that many in the Alliance dismiss dwarven archaeology as an eccentric hobby. Findings in Khaz Modan have convinced his colleagues that an ancient, terrifying force threatens Azeroth from Lordaeron to Kalimdor. The work in Darkshore's ruins is more than scholarship: it seeks to understand historic cataclysms and the deep-seated menaces buried beneath ancient soil.",
+   "body": "Greywhisker laments that many in the Alliance dismiss dwarven archaeology as an eccentric hobby. Discoveries in Khaz Modan have convinced his colleagues that a terrifying ancient force threatens Azeroth from Lordaeron to Kalimdor. So the work in Darkshore’s ruins is more than scholarship. The expedition seeks to understand historic cataclysms and the deep-seated dangers buried beneath ancient soil.",
    "spoiler": 0
   },
   {
    "title": "Contact at Auberdine",
-   "body": "Sail across the channel from Teldrassil to Auberdine, the coastal haven, where Archaeologist Hollee waits in town. Relieved that Greywhisker sent help, Hollee says the expedition is in dire straits. The crew ran into trouble farther down the coast while searching for ancient relics.",
+   "body": "You sail from Teldrassil across the channel to Auberdine, the coastal haven. Archaeologist Hollee waits in town, relieved that Greywhisker has sent help. Hollee says the expedition is in dire straits. Farther down the coast, the crew ran into trouble while searching for ancient relics.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "quest giver trouble in darkshore",
     "where to get trouble in darkshore"
    ],
-   "answer": "Chief Archaeologist Greywhisker offers this introductory appeal in Darnassus, seeking travelers to check on his missing crew."
+   "answer": "Chief Archaeologist Greywhisker makes the appeal in Darnassus, seeking travelers to check on his missing crew."
   },
   {
    "q": "Where do I need to go to complete this quest?",
@@ -70,7 +70,7 @@
     "follow up quest",
     "next quest"
    ],
-   "answer": "Speaking with Archaeologist Hollee in Auberdine leads into 'The Absent Minded Prospector', which asks you to search Darkshore's wilderness for Prospector Remtravel."
+   "answer": "Speaking with Archaeologist Hollee in Auberdine leads into 'The Absent Minded Prospector'. That follow-up asks you to search Darkshore’s wilderness for Prospector Remtravel."
   },
   {
    "q": "Why hasn't the excavation crew reported back?",
@@ -88,13 +88,13 @@
     "greywhisker warning",
     "khaz modan threat"
    ],
-   "answer": "Greywhisker points to discoveries in Khaz Modan that suggest an ancient, pervasive danger lies deep within Azeroth's historic ruins."
+   "answer": "Greywhisker points to discoveries in Khaz Modan that suggest an ancient, pervasive danger lies deep within Azeroth’s historic ruins."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you see the Explorer's League tradition of studying titan lore and ancient history carried to new continents."
+   "text": "As a dwarf, you see the Explorer’s League tradition of studying titan lore and ancient history carried to new continents."
   },
   {
    "target": "race:NightElf",
@@ -127,5 +127,5 @@
  "attribution": [
   "Trouble in Darkshore?"
  ],
- "style": 1
+ "style": 2
 }

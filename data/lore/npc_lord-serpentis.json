@@ -8,21 +8,21 @@
   "wiki": "Lord Serpentis",
   "refs": 5
  },
- "summary": "Lord Serpentis is a corrupted night elf druid who stands as one of the four leaders of the rogue Druids of the Fang within the Wailing Caverns. Once a druid of great power and prestige in the order of Naralex, he was twisted into madness when Naralex's dream became a nightmare within the subterranean springs. Now, he helps command the serpent-worshipping sect deep in the caverns where the corrupted Naralex lies slumbering.",
+ "summary": "Deep in the Wailing Caverns, Lord Serpentis leads the Druids of the Fang. Once a mighty druid in Naralex's order, he fell to madness when Naralex's dream soured in the cavern springs. Now he helps command the serpent-worshipping sect near the corrupted Naralex, who lies slumbering.",
  "sections": [
   {
    "title": "From Noble Druid to Serpent Lord",
-   "body": "Before darkness overtook the cavern springs, Serpentis was a druid of great power and prestige, one of the noble order led by Naralex that hoped to use the caverns' springs and the Emerald Dream to heal the Barrens. However, when Naralex's vision became a corrupting nightmare, Serpentis was among the druids whose minds fell to the emerging madness.",
+   "body": "Before the cavern springs darkened, Serpentis held great power and prestige as a druid. He belonged to the noble order led by Naralex. Together, they hoped to heal the Barrens with the springs and the Emerald Dream. But Naralex's vision became a corrupting nightmare, and its rising madness took hold of Serpentis and the other druids.",
    "spoiler": 0
   },
   {
    "title": "A Lord of the Fang",
-   "body": "Succumbing completely to the corruption radiating from Naralex's twisted dreams, Serpentis and his fellow druids became the Druids of the Fang. Forsaking traditional Cenarion balance and the totem animals of old, they now seek to remake the Barrens to match their own twisted dreams rather than heal it. Serpentis rules the sect as one of its four leaders, alongside Lady Anacondra, Lord Cobrahn and Lord Pythas.",
+   "body": "Naralex's twisted dreams spread corruption through his followers. Serpentis and the others became the Druids of the Fang, abandoning Cenarion balance and the totem animals of old. Now they seek to remake the Barrens in the image of their twisted dreams instead of healing it. Serpentis shares leadership with Lady Anacondra, Lord Cobrahn and Lord Pythas.",
    "spoiler": 0
   },
   {
    "title": "The Final Obstacle",
-   "body": "Perched deep inside the winding caverns, Lord Serpentis is one of the four leaders of the rogue sect, each of whom carries a dream gem. Those seeking to wake the trapped master or reclaim the waters of the Oasis must strike down Serpentis and claim the gem he carries, breaking the serpent's hold over the labyrinth.",
+   "body": "Deep in the winding caverns, Lord Serpentis guards one of the four dream gems carried by the rogue sect's leaders. To wake the trapped master or reclaim the waters of the Oasis, Serpentis must be defeated and his gem taken. Only then can the serpent's hold over the labyrinth be broken.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "lord serpentis lore",
     "serpentis background"
    ],
-   "answer": "Lord Serpentis is one of the four leaders of the Druids of the Fang, located deep within the Wailing Caverns. Once a night elf druid of great power and prestige in Naralex's order, he was corrupted by Naralex's nightmare along with his fellow druids."
+   "answer": "Deep in the Wailing Caverns, Lord Serpentis leads the Druids of the Fang. Once a night elf druid of great power and prestige in Naralex's order, he fell to Naralex's nightmare along with his fellow druids."
   },
   {
    "q": "Why did Serpentis turn evil?",
@@ -43,7 +43,7 @@
     "serpentis corruption",
     "why is serpentis bad"
    ],
-   "answer": "When Naralex's attempt to heal the Barrens through the Emerald Dream turned into a nightmare, its corruption spread to the druids who followed him, turning Serpentis's mind toward madness and serpent worship."
+   "answer": "Naralex's attempt to heal the Barrens through the Emerald Dream became a nightmare. Its corruption spread among the druids who followed him, turning Serpentis toward madness and serpent worship."
   },
   {
    "q": "What is his relationship to Naralex?",
@@ -52,7 +52,7 @@
     "is serpentis related to naralex",
     "naralex apprentice"
    ],
-   "answer": "Serpentis was once one of the noble druids who followed Naralex into the caverns. Rather than aiding in his master's recovery, he became a leader of the Druids of the Fang, who now seek to remake the Barrens to match their own twisted dreams."
+   "answer": "Serpentis once followed Naralex into the caverns as one of his noble druids. He became a leader of the Druids of the Fang, who now seek to remake the Barrens in the image of their twisted dreams."
   },
   {
    "q": "Why do players need to kill him?",
@@ -61,7 +61,7 @@
     "leaders of the fang serpentis",
     "gem of serpentis"
    ],
-   "answer": "Serpentis is one of the four leaders of the Druids of the Fang. Eliminating him is essential to break the sect's grip on the Wailing Caverns, secure his gem for the quest Leaders of the Fang, and clear a path toward awakening Naralex."
+   "answer": "Serpentis leads the Druids of the Fang. Defeating him breaks the sect's grip on the Wailing Caverns, secures his gem and clears a path toward awakening Naralex."
   },
   {
    "q": "Who are the Druids of the Fang?",
@@ -70,21 +70,21 @@
     "what are druids of the fang",
     "fang druids"
    ],
-   "answer": "They are a renegade faction of night elf druids who followed Naralex into the Wailing Caverns. Corrupted by the Emerald Nightmare, they abandoned traditional druidic forms to adopt the aspects, venoms, and behaviors of serpents under the command of Serpentis and their other fanglords."
+   "answer": "The Druids of the Fang are renegade night elf druids who followed Naralex into the Wailing Caverns. Corrupted by the Emerald Nightmare, they abandoned traditional druidic forms for the aspects, venoms and behaviors of serpents. Serpentis and the other fanglords lead them."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Serpentis represents the tragic danger lurking within the Emerald Dream, showcasing how even a druid of great power can be twisted when a noble vision becomes a nightmare."
+   "text": "As a druid, Serpentis shows the danger within the Emerald Dream. Even a druid of great power can be twisted when a noble vision becomes a nightmare."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves, Serpentis and his followers are a painful disgrace\u2014kaldorei scholars of great renown who threw away their sacred duty to nature to become monstrous serpent lords."
+   "text": "For night elves, Serpentis and his followers bring painful disgrace. They were kaldorei scholars of great renown, but abandoned their sacred duty to nature and became monstrous serpent lords."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren see the corruption of Serpentis as a foul desecration of the Earth Mother's balance, threatening the fragile ecosystem of the Barrens with unnatural madness."
+   "text": "For tauren, Serpentis's corruption desecrates the Earth Mother's balance. It threatens the Barrens' fragile ecosystem with unnatural madness."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Lord Serpentis"
- ]
+ ],
+ "style": 2
 }

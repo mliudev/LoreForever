@@ -10,16 +10,16 @@
    "quest:145"
   ]
  },
- "summary": "Magistrate Solomon asks Darkshire for aid as Lakeshire faces mounting threats. His urgent letter to Lord Ello Ebonlocke requests the Night Watch to help defend Redridge.",
+ "summary": "Lakeshire turns to Darkshire as threats close in. Magistrate Solomon asks Lord Ello Ebonlocke to send the Night Watch north and help defend Redridge.",
  "sections": [
   {
    "title": "A Desperate Call for Aid",
-   "body": "Lakeshire faces attacks from Blackrock orcs, gnolls, and murlocs, with few reinforcements arriving from Stormwind. Magistrate Solomon sends a formal plea to Mayor Ello Ebonlocke in Darkshire, asking him to send Night Watch militia north into Redridge. With central military support failing across southern Azeroth, human settlements must seek help from one another to survive.",
+   "body": "Blackrock orcs, gnolls, and murlocs attack Lakeshire, while few reinforcements come from Stormwind. Magistrate Solomon sends a formal plea to Mayor Ello Ebonlocke in Darkshire, asking him to send Night Watch militia north into Redridge. With central military support failing across southern Azeroth, human settlements must seek help from one another to survive.",
    "spoiler": 0
   },
   {
    "title": "Darkshire's Grim Plight",
-   "body": "Darkshire is already struggling to hold its borders against undead, ravenous beasts, and the darkness gripping Duskwood. The Night Watch is stretched thin, leaving the town unable to spare defenders for Redridge when Solomon’s plea arrives.",
+   "body": "Darkshire struggles to hold its borders against undead, ravenous beasts, and the darkness gripping Duskwood. The Night Watch is stretched thin, so the town cannot spare defenders for Redridge when Solomon’s plea arrives.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is solomons plea",
     "lakeshire letter to duskwood"
    ],
-   "answer": "Solomon’s Plea to Darkshire is Magistrate Solomon’s urgent letter to Lord Ello Ebonlocke, Darkshire’s mayor. It asks the Night Watch to help defend Redridge against Blackrock orcs and gnolls."
+   "answer": "Magistrate Solomon’s urgent letter to Lord Ello Ebonlocke asks the Night Watch to help defend Redridge against Blackrock orcs and gnolls."
   },
   {
    "q": "Why is Lakeshire asking Darkshire for military help instead of Stormwind?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Solomon’s plea shows how southern settlements must seek one another’s help while Stormwind gives little support."
+   "text": "For the Alliance, Solomon’s plea shows southern settlements seeking one another’s help while Stormwind gives little support."
   },
   {
    "target": "race:Human",
@@ -96,5 +96,5 @@
   "Solomon's Plea to Darkshire",
   "Messenger to Darkshire"
  ],
- "style": 1
+ "style": 2
 }

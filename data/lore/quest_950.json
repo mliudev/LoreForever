@@ -17,16 +17,16 @@
   "wiki": "Return to Onu",
   "chain": []
  },
- "summary": "You carry a page from the Twilight Tome back to Onu in Darkshore. The scribbles are all you could bear to take from the cultists’ book.",
+ "summary": "You bring a torn page from the Twilight Tome to Onu in Darkshore. The cultists' writing is all you could bear to take from their book.",
  "sections": [
   {
    "title": "A Glimpse into Madness",
-   "body": "The Twilight Tome overwhelms anyone who tries to read it. Its words swim across the page, and its ornate scrollwork twists into grotesque figures. You tear out a single page of scribbles before the strain brings on vertigo.",
+   "body": "The Twilight Tome overwhelms anyone who tries to read it. Its words swim across the page, and its ornate scrollwork twists into grotesque figures. You tear out a page of scribbles before the strain brings on vertigo.",
    "spoiler": 0
   },
   {
    "title": "Ancient Suspicions",
-   "body": "Onu, the Ancient of Lore, recognizes a strange aura in the page you bring him. Its chaotic, primal magic points to ancient, shadowy forces buried beneath the earth. The writing is hard to decipher, but it shows the Twilight's Hammer in Darkshore is pursuing more than banditry.",
+   "body": "Onu, the Ancient of Lore, recognizes a strange aura in the page you bring him. Its chaotic, primal magic points to ancient, shadowy forces buried beneath the earth. Though the writing is hard to decipher, it shows the Twilight's Hammer in Darkshore pursues more than banditry.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what are the scribbles",
     "twilight tome page"
    ],
-   "answer": "Insane Scribbles is a torn page from the Twilight Tome, the cult's sacred book. Its shifting script causes severe mental distress."
+   "answer": "Insane Scribbles is a torn page from the Twilight Tome, the cult's sacred book. Its shifting script brings severe mental distress."
   },
   {
    "q": "Who is Onu?",
@@ -63,7 +63,7 @@
     "cultists in darkshore",
     "why twilight hammer here"
    ],
-   "answer": "The Twilight's Hammer came to Darkshore to excavate ruined elven sites and uncover traces of ancient power linked to primeval darkness and the Old Gods. The land's chaos helps hide their rites."
+   "answer": "The Twilight's Hammer came to Darkshore to excavate ruined elven sites and uncover traces of ancient power linked to primeval darkness and the Old Gods. Chaos in the land helps hide their rites."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Return to Onu"
  ],
- "style": 1
+ "style": 2
 }

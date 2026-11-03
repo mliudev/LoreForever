@@ -10,11 +10,11 @@
    "quest:1083"
   ]
  },
- "summary": "In the Charred Vale, Smoldering Embers remain after fire elementals are extinguished. Night elf Sentinels gather them as proof that the fires are being subdued.",
+ "summary": "In the Charred Vale, Smoldering Embers remain when fire elementals are extinguished. Night elf Sentinels gather them as proof that the fires are being subdued.",
  "sections": [
   {
    "title": "Remnants of the Charred Vale",
-   "body": "Venture Company logging and industry set the Charred Vale ablaze and stirred destructive forces from deep within the earth. Burning Ravagers, Burning Destroyers, and Rogue Flame Spirits then swept across the scorched basin. When an elemental is extinguished, its ash-covered core remains as a Smoldering Ember. These cinders show that the fires overrunning the vale are being brought under control.",
+   "body": "Venture Company logging and industry set the Charred Vale ablaze. Their work stirred destructive forces from deep within the earth. Burning Ravagers, Burning Destroyers, and Rogue Flame Spirits swept across the scorched basin. When a fire elemental is extinguished, an ash-covered core remains. That cinder is a Smoldering Ember, proof that the fires overrunning the vale are being brought under control.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "kaela shadowspear embers",
     "enraged spirits goal"
    ],
-   "answer": "Kaela Shadowspear wants the embers as proof that the fire elementals in the Charred Vale are being culled. She believes the scarred land cannot heal under Elune's grace while violent spirits roam unchecked."
+   "answer": "Kaela Shadowspear wants the embers as proof that the fire elementals in the Charred Vale are being culled. She believes the scarred land cannot heal beneath Elune's grace while violent spirits roam unchecked."
   },
   {
    "q": "What caused the fire elementals to appear in the Charred Vale?",
@@ -44,13 +44,13 @@
     "why are there fire elementals in stonetalon",
     "venture co fire spirits"
    ],
-   "answer": "The Venture Company brought fire elementals to the Charred Vale by clearing the ancient forest with aggressive machinery and indiscriminate burning. Its reckless exploitation destabilized the land and unleashed hostile elementals of flame and stone, which drove the goblins out."
+   "answer": "The Venture Company brought fire elementals to the Charred Vale by clearing the ancient forest with aggressive machinery and indiscriminate burning. Its reckless work destabilized the land and unleashed hostile elementals of flame and stone. Those forces drove the goblins out."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, the Charred Vale burning is a wound upon Kalimdor. Gathering its embers is a solemn duty to purge foreign desecration and restore peace beneath Elune's gaze."
+   "text": "For night elves, the burning of the Charred Vale is a wound upon Kalimdor. Gathering its embers is a solemn duty to purge foreign desecration and restore peace beneath Elune's gaze."
   },
   {
    "target": "class:Druid",
@@ -80,5 +80,5 @@
   "Smoldering Embers",
   "Enraged Spirits"
  ],
- "style": 1
+ "style": 2
 }

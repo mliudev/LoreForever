@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Monastery Cathedral"
  },
- "summary": "The Cathedral is the spiritual and military heart of the Scarlet Monastery, housing the Crusade's inner sanctum. Once a serene hall of worship for Lordaeron's priesthood, it now serves as the command seat for High Inquisitor Whitemane and Scarlet Commander Mograine, guarded by the Crusade's most devoted zealots.",
+ "summary": "Within Scarlet Monastery Cathedral, the Crusade keeps its inner sanctum and command seat.",
  "sections": [
   {
    "title": "Sanctum of Zeal",
-   "body": "Once a peaceful center of enlightenment and prayer for the priesthood of Lordaeron, the Cathedral fell into madness in the wake of the Third War. Following the fall of the kingdom to the Scourge, surviving zealots transformed the complex into a fortress of unyielding hatred. Beyond the manicured cloister of the Chapel Gardens lies the grand Crusader's Chapel, where priests and warriors gather in devotion to their crusade. They view all outsiders\u2014regardless of race or faction\u2014as carriers of the undead plague who must be cleansed by blade and holy fire.",
+   "body": "After the Third War, hatred took hold of the Cathedral. The Scourge destroyed Lordaeron, and its surviving zealots turned the complex from a peaceful place of prayer and learning into a stronghold. Beyond the Chapel Gardens stands the grand Crusader's Chapel. There, priests and warriors gather in devotion to their cause. They see every outsider, whatever their race or faction, as a bearer of the undead plague, to be purged by blade and holy fire.",
    "spoiler": 0
   },
   {
    "title": "The High Inquisitor and Her Commander",
-   "body": "The forces stationed within the Cathedral answer directly to Scarlet Commander Mograine, who directs the garrison with iron discipline. Yet the true heart of the enclave's fanaticism is High Inquisitor Whitemane. A formidable wielder of the Light, Whitemane's divine devotion enables her to resurrect fallen champions in the heat of battle. Together, she and Mograine hold the inner chapel against any who dare breach the monastery gates, proving that the Crusade's grip on northern Lordaeron remains lethally intact.",
+   "body": "Scarlet Commander Mograine directs the Cathedral's garrison with iron discipline. High Inquisitor Whitemane is the heart of its fanaticism and a formidable wielder of the Light. Her divine devotion lets her raise fallen champions in battle. Together, Whitemane and Mograine hold the inner chapel against anyone who breaches the monastery gates, keeping the Crusade's grip on northern Lordaeron deadly.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why visit cathedral",
     "what is this place"
    ],
-   "answer": "It serves as the inner redoubt and sacred high seat of the Scarlet Crusade within the Monastery. Here, the organization's highest leaders conduct religious services and direct their military campaigns across Tirisfal Glades."
+   "answer": "The Cathedral holds the Scarlet Crusade's inner sanctum and sacred seat of power within the Monastery. Its leaders conduct religious services and direct military campaigns across Tirisfal Glades."
   },
   {
    "q": "Who leads the Scarlet Crusade here?",
@@ -37,7 +37,7 @@
     "cathedral bosses",
     "whitemane mograine"
    ],
-   "answer": "The garrison is commanded by Scarlet Commander Mograine, while the spiritual authority belongs to High Inquisitor Whitemane, a formidable and zealous priestess."
+   "answer": "Scarlet Commander Mograine commands the garrison, while High Inquisitor Whitemane holds spiritual authority as a formidable, zealous priestess."
   },
   {
    "q": "Why is the door to the Cathedral locked?",
@@ -46,7 +46,7 @@
     "how to open cathedral",
     "where is the key"
    ],
-   "answer": "The heavy gates into the Cathedral wing are locked to keep intruders from storming the inner sanctum. Entering requires the Scarlet Key, which is guarded inside the Monastery's Library wing."
+   "answer": "Heavy gates bar intruders from the Cathedral's inner sanctum. Entry requires the Scarlet Key, kept under guard in the Monastery's Library wing."
   },
   {
    "q": "Why are the Crusaders attacking other living humans?",
@@ -55,17 +55,17 @@
     "scarlet crusade evil",
     "why crusade hostile"
    ],
-   "answer": "Driven to paranoid madness by the Scourge's destruction of Lordaeron, the Crusade believes that all outsiders are carriers of the plague of undeath. They refuse contact with external factions and execute anyone who approaches their fortresses."
+   "answer": "The Scourge destroyed Lordaeron, and the Crusade now sees every outsider as a carrier of undeath. Its zealots shun other factions and execute anyone who approaches their fortresses."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, the Crusade represents a tragic, corrupt perversion of the Holy Light and Lordaeron's proud heritage, prompting commanders in Southshore to dispatch champions to end their madness."
+   "text": "For the Alliance, the Crusade twists the Holy Light and Lordaeron's proud heritage into something corrupt. Commanders in Southshore send champions to end its madness."
   },
   {
    "target": "faction:Horde",
-   "text": "Perched dangerously close to the Undercity, the Cathedral houses zealots dedicated to the utter extermination of the Forsaken and any Horde allies who stand with them."
+   "text": "The Cathedral lies dangerously close to the Undercity. Its zealots seek to exterminate the Forsaken and any Horde allies who stand with them."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Scarlet Monastery Cathedral"
- ]
+ ],
+ "style": 2
 }

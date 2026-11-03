@@ -10,16 +10,16 @@
    "quest:1001"
   ]
  },
- "summary": "Along Darkshore, Wizbang Cranktoggle wants Thresher Eyes for his Buzzboxes. He uses them to repair Buzzbox 411 on the beach north of Auberdine.",
+ "summary": "Along Darkshore, Wizbang Cranktoggle needs Thresher Eyes for his Buzzboxes. He uses them to repair Buzzbox 411, a communication machine on the beach north of Auberdine.",
  "sections": [
   {
    "title": "Ecological Samples for Gnomish Gadgets",
-   "body": "Darkshore Threshers hunt the surf and outer shallows off Darkshore. They threaten local fishermen and travelers, and their large eyes have caught the interest of Wizbang Cranktoggle. The gnome engineer is stationed nearby and fond of crawler wine. He needs the eyes to repair Buzzbox 411, a far-speaking communication machine on the beach north of Auberdine.",
+   "body": "Darkshore Threshers hunt the surf and outer shallows off Darkshore. They threaten local fishermen and travelers, and their large eyes have drawn the interest of Wizbang Cranktoggle. The gnome engineer is stationed nearby and fond of crawler wine. He needs the eyes to repair Buzzbox 411, a communication machine on the beach north of Auberdine.",
    "spoiler": 0
   },
   {
    "title": "The Purpose of the Eyes",
-   "body": "Wizbang does not explain how the slimy eyes repair delicate machinery. They might serve as crude lenses, chemical agents, or biological gears. Whatever the method, three eyes placed in Buzzbox 411's maintenance hatch restore its communication link, and Wizbang sends supplies through static-choked transmissions.",
+   "body": "Wizbang does not explain how slimy eyes repair delicate machinery. They might serve as crude lenses, chemical agents, or biological gears. Whatever the method, three eyes placed in Buzzbox 411's maintenance hatch restore its communication link. Wizbang then sends supplies through transmissions choked with static.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "buzzbox 411 eyes",
     "what are thresher eyes for"
    ],
-   "answer": "Wizbang wants the eyes to repair Buzzbox 411, a gnomish machine on the shoreline north of Auberdine. Placing them in its hatch restores the machine's systems."
+   "answer": "Wizbang wants Thresher Eyes for his Buzzboxes. He uses them to repair Buzzbox 411, a gnomish communication machine on the shoreline north of Auberdine. Placing the eyes in its hatch restores the machine's systems."
   },
   {
    "q": "How does an eye fix a machine?",
@@ -48,7 +48,7 @@
     "why eyes for a machine",
     "gnome machine biological parts"
    ],
-   "answer": "Wizbang Cranktoggle does not explain how an eye repairs a machine. The device accepts the eyes and powers back on, though whether he uses their retinas for focusing or builds with the organic parts remains unclear."
+   "answer": "Wizbang Cranktoggle does not explain how an eye repairs a machine. Buzzbox 411 accepts the eyes and powers back on, though whether he uses their retinas for focusing or builds with their organic parts remains unclear."
   },
   {
    "q": "What is Buzzbox 411?",
@@ -66,7 +66,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Wizbang Cranktoggle represents a wilder edge of gnomish ingenuity, tinkering with field machinery in Kalimdor's wilderness between cups of crawler wine."
+   "text": "As a gnome, you can see a wilder edge of gnomish ingenuity in Wizbang Cranktoggle. He tinkers with field machinery in Kalimdor's wilderness between cups of crawler wine."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Thresher Eye",
   "Buzzbox 411 (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Lifting the Curse (Classic)",
   "chain": []
  },
- "summary": "First Mate Fitzsimmons seeks to free his fallen crewmates from a restless curse. He believes a dark artifact aboard the wrecked Intrepid binds them, and Captain Halyndor's ghost guards the key to its strongbox.",
+ "summary": "First Mate Fitzsimmons asks you to free his fallen crewmates from a restless curse. He believes an artifact aboard the wrecked Intrepid binds them, and Captain Halyndor’s ghost guards the strongbox key.",
  "sections": [
   {
    "title": "A Captain's Burden",
-   "body": "First Mate Fitzsimmons survived the Third Fleet's fate, but memories of his comrades haunt him by day and by night. He believes an evil object locked in the Intrepid's strongbox is tied to the undeath gripping his shipmates. The wreck is watched by Captain Halyndor, whose ghost guards the key to the strongbox.",
+   "body": "First Mate Fitzsimmons survived the Third Fleet’s fate, yet memories of his comrades haunt him day and night. He believes an evil object locked in the Intrepid’s strongbox is tied to the undeath gripping his shipmates. Captain Halyndor’s ghost watches the wreck and guards the strongbox key.",
    "spoiler": 0
   },
   {
    "title": "Unlocking the Depths",
-   "body": "The Third Fleet's broken ships lie off the northern Wetlands coast. Inside the flooded hull of the Intrepid, a locked strongbox holds the relic at the heart of the crew's misery. To reach it, you face Halyndor's ghost on deck, take the rusted key, and enter the flooded hull. The artifact must be recovered so holy hands can cleanse it.",
+   "body": "The Third Fleet’s broken ships lie off the northern Wetlands coast. The Intrepid’s flooded hull holds a locked strongbox and the relic at the heart of the crew’s misery. On deck, Halyndor’s ghost guards the rusted key. Take it, enter the flooded hull, and recover the artifact so holy hands can cleanse it.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "who is halyndor",
     "captain halyndor lore"
    ],
-   "answer": "Captain Halyndor commanded the Intrepid. His restless ghost haunts the ruined ship's deck and guards the key to its strongbox."
+   "answer": "Captain Halyndor commanded the Intrepid. His restless ghost haunts the ruined ship’s deck and guards the key to its strongbox."
   },
   {
    "q": "Why does First Mate Fitzsimmons want the strongbox opened?",
@@ -55,7 +55,7 @@
     "why open strongbox",
     "purpose of quest"
    ],
-   "answer": "Fitzsimmons believes a cursed object in the strongbox traps his fellow sailors' spirits in torment. He wants it opened so the artifact can be recovered and purified."
+   "answer": "Fitzsimmons believes a cursed object in the strongbox traps his fellow sailors’ spirits in torment. He wants it opened so the artifact can be recovered and purified."
   },
   {
    "q": "Where is the Intrepid's strongbox located?",
@@ -64,7 +64,7 @@
     "where is the chest",
     "how to find strongbox"
    ],
-   "answer": "The Intrepid's strongbox lies submerged in the lower hull, reached through a breach in the wreck's side beneath the waves."
+   "answer": "The Intrepid’s strongbox lies submerged in the lower hull. You reach it through a breach in the wreck’s side beneath the waves."
   },
   {
    "q": "Who can cleanse the cursed object once it is recovered?",
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you have the spiritual authority to address afflictions and cleanse tainted relics. Fitzsimmons entrusts the strongbox's contents to the priesthood for purification."
+   "text": "As a priest, you have the spiritual authority to address afflictions and cleanse tainted relics. Fitzsimmons entrusts the strongbox’s contents to the priesthood for purification."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you honor the sailors who served the Alliance in life by helping lay their tortured souls to rest while traveling through Menethil Harbor."
+   "text": "As an Alliance champion, you honor the sailors who served the Alliance in life. Help lay their tortured souls to rest as you travel through Menethil Harbor."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Lifting the Curse (Classic)"
  ],
- "style": 1
+ "style": 2
 }

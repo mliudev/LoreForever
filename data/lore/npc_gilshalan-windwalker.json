@@ -8,21 +8,21 @@
   "wiki": "Gilshalan Windwalker",
   "refs": 3
  },
- "summary": "At Aldrassil's roots in Shadowglen, Gilshalan Windwalker studies the corruption spreading through Teldrassil. His work begins with the Webwood spiders and their growing aggression.",
+ "summary": "At Aldrassil's roots in Shadowglen, Gilshalan Windwalker studies the corruption spreading through Teldrassil. He begins with the Webwood spiders and their growing aggression.",
  "sections": [
   {
    "title": "A Scholar at the Roots",
-   "body": "Gilshalan Windwalker watches Shadowglen from the stone steps at Aldrassil's entrance. Teldrassil was planted to restore the night elves' lost sanctuary and their harmony with nature, yet signs of spiritual malaise appeared almost at once. Gilshalan studies how the corruption affects the local beasts, beginning with the venomous spiders weaving webs nearby.",
+   "body": "From the stone steps at Aldrassil's entrance, Gilshalan Windwalker watches over Shadowglen. Teldrassil was planted to restore the night elves' lost sanctuary and their harmony with nature. Yet signs of spiritual malaise appeared almost at once. Gilshalan studies how the corruption affects local beasts, beginning with the venomous spiders weaving webs nearby.",
    "spoiler": 0
   },
   {
    "title": "The Webwood Menace",
-   "body": "Gilshalan studies the Webwood spiders in Shadowthread Cave, north of Shadowglen. Once part of the forest's balance, the spiders have grown hostile and tainted. He sends young novices to gather venom sacs and intact eggs. By studying them, he hopes to learn how the venom has changed and whether the corruption passes through generations or spreads from Teldrassil's soil.",
+   "body": "North of Shadowglen, Gilshalan studies the Webwood spiders in Shadowthread Cave. Once part of the forest's balance, they have grown hostile and tainted. He sends young novices to gather venom sacs and intact eggs. Through these, he hopes to learn how the venom has changed and whether the corruption passes through generations or spreads from Teldrassil's soil.",
    "spoiler": 0
   },
   {
    "title": "Word to the Archdruid",
-   "body": "Gilshalan believes the spiders' venom may bear signs of the new World Tree's recent growth. He arranges to send the venom and an egg to Darnassus, where he will continue his studies. He also tells promising protectors that Tenaron Stormgrip seeks them in Aldrassil's highest room, where the druidic leadership watches over the young World Tree.",
+   "body": "Gilshalan believes the Webwood spiders' venom may bear signs of the new World Tree's recent growth. He arranges to send venom and an egg to Darnassus, where he will continue his studies. He also tells promising protectors that Tenaron Stormgrip seeks them in Aldrassil's highest room. There, the druidic leadership watches over the young World Tree.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is gilshalan",
     "windwalker night elf"
    ],
-   "answer": "Gilshalan Windwalker studies the wildlife at Aldrassil in Shadowglen. The night elf scholar investigates the corruption affecting Teldrassil's creatures."
+   "answer": "At Aldrassil in Shadowglen, Gilshalan Windwalker studies the wildlife. The night elf scholar investigates the corruption affecting Teldrassil's creatures."
   },
   {
    "q": "Why does Gilshalan want Webwood venom?",
@@ -43,7 +43,7 @@
     "webwood venom quest",
     "spider venom gilshalan"
    ],
-   "answer": "Gilshalan wants Webwood venom to study how it has changed and why the spiders have grown so aggressive and tainted."
+   "answer": "Gilshalan wants Webwood venom to learn how it has changed and why the spiders have grown so aggressive and tainted."
   },
   {
    "q": "What does he do with the Webwood egg?",
@@ -52,7 +52,7 @@
     "why spider eggs",
     "egg of webwood"
    ],
-   "answer": "Gilshalan sends the Webwood egg to Darnassus with the venom so he can study the specimens there. An unhatched egg is easier to transport than a grown giant spider, which is too dangerous to capture."
+   "answer": "Gilshalan sends the Webwood egg to Darnassus with the venom so he can study both specimens there. An unhatched egg is easier to transport than a grown giant spider, which is too dangerous to capture."
   },
   {
    "q": "Where does Gilshalan send adventurers next?",
@@ -61,7 +61,7 @@
     "who do i see after gilshalan",
     "after webwood egg"
    ],
-   "answer": "Gilshalan tells adventurers that Tenaron Stormgrip seeks them in Aldrassil's highest room, and sends them there."
+   "answer": "Gilshalan sends adventurers to Aldrassil's highest room, where Tenaron Stormgrip seeks them."
   },
   {
    "q": "Where is Gilshalan Windwalker located?",
@@ -70,7 +70,7 @@
     "where is windwalker",
     "find gilshalan"
    ],
-   "answer": "Gilshalan sits on the stone pathway at Aldrassil's northern base, outside the hollow entrance to the central tree in Shadowglen."
+   "answer": "Gilshalan Windwalker sits on the stone pathway at Aldrassil's northern base in Shadowglen, outside the hollow entrance to the central tree."
   },
   {
    "q": "Why is the wildlife in Teldrassil aggressive?",
@@ -79,17 +79,17 @@
     "teldrassil corruption",
     "corrupted beasts shadowglen"
    ],
-   "answer": "The cause of Teldrassil's aggressive wildlife is unknown. A blight seeping through the tree's roots and soil corrupts the creatures' minds and nature, drawing concern from residents like Gilshalan."
+   "answer": "The cause of Teldrassil's aggressive wildlife is unknown. A blight seeping through the tree's roots and soil corrupts the creatures' minds and nature, worrying residents like Gilshalan."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see Gilshalan's early effort to understand why the young World Tree already bears violent, afflicted wildlife."
+   "text": "As a night elf, you see Gilshalan's early effort to understand why violent, afflicted wildlife already lives around the young World Tree."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you see how Gilshalan's research aids the Cenarion Circle's effort to diagnose the ecological imbalance in Shadowglen's boughs."
+   "text": "As a druid, you see how Gilshalan's research helps the Cenarion Circle diagnose the ecological imbalance in Shadowglen's boughs."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Gilshalan Windwalker"
  ],
- "style": 1
+ "style": 2
 }

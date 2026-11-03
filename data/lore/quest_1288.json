@@ -21,11 +21,11 @@
   ],
   "category": "Dustwallow Marsh"
  },
- "summary": "Captain Garran Vimes rates your work as the best Vimes has seen from an amateur. Lady Jaina Proudmoore asked Vimes to keep her apprised of a delicate situation, and Vimes gives you the report to bring to her in Theramore.",
+ "summary": "Captain Garran Vimes praises your work as the finest he has seen from an amateur. Now you carry his report to Theramore for Lady Jaina Proudmoore.",
  "sections": [
   {
    "title": "A Report for Lady Proudmoore",
-   "body": "Lady Proudmoore asked Captain Vimes to keep her apprised of a delicate situation, and Vimes has not spoken with her for some time. Vimes meant to deliver the report later, but now judges it more fitting for you to speak with her about it, since you may well have better answers for her questions than Vimes would.",
+   "body": "Lady Jaina Proudmoore asked Captain Vimes to keep her informed about a delicate situation. He has not spoken with her for some time. He planned to deliver the report later, but now sends you in his place. You may have better answers to her questions than he does.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who gives the report",
     "who wrote vimes report"
    ],
-   "answer": "Captain Garran Vimes hands you Vimes's report to carry to Lady Jaina Proudmoore in Theramore."
+   "answer": "Captain Garran Vimes gives you his report for Lady Jaina Proudmoore in Theramore."
   },
   {
    "q": "Why does Captain Vimes send you instead of going himself?",
@@ -46,7 +46,7 @@
     "why not vimes deliver it",
     "why jaina report"
    ],
-   "answer": "Vimes has not spoken with Lady Proudmoore for some time, and thinks it more fitting that you go instead. Vimes believes you may have better answers for her questions."
+   "answer": "Vimes has not spoken with Lady Proudmoore for some time, so he sends you in his place. He thinks you may have better answers to her questions."
   },
   {
    "q": "Where does the report need to go?",
@@ -55,7 +55,7 @@
     "where is jaina proudmoore",
     "report destination"
    ],
-   "answer": "To Lady Jaina Proudmoore in Theramore."
+   "answer": "Take the report to Lady Jaina Proudmoore in Theramore."
   }
  ],
  "angles": [],
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Wowpedia: Vimes's Report"
- ]
+ ],
+ "style": 2
 }

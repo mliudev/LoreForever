@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dry Hills"
  },
- "summary": "Witchwing harpies menace the Dry Hills, where greener slopes rise above the Barrens.",
+ "summary": "Witchwing harpies rule the green Dry Hills above the Barrens.",
  "sections": [
   {
    "title": "A Green Haven for Harpies",
-   "body": "The Dry Hills grow greener than the dry plains below, on the Barrens' northwestern edge beneath the Stonetalon Mountains. Travelers find little safety among the bluffs. Serena Bloodfeather leads the Witchwing harpies from their roosts along the crags. Their raiding parties swoop down on supply caravans along the northern Gold Road. Abandoned orcish fortifications and derelict siege engines lie rotting in the brush.",
+   "body": "The Dry Hills rise along the Barrens’ northwestern edge, beneath the Stonetalon Mountains. Their slopes are greener than the dry plains below, but the bluffs offer travelers little safety. Serena Bloodfeather leads the Witchwing harpies from roosts along the crags. Their raiders swoop on supply caravans traveling the northern Gold Road. Abandoned orcish fortifications and derelict siege engines rot in the brush.",
    "spoiler": 0
   },
   {
    "title": "Threat to the Crossroads",
-   "body": "Witchwing harpies strike out from the hills to bleed trade routes and harass nearby settlements, so the Horde keeps a standing bounty on their feathers. In the rocky ravines, their nests and roosts are heavily defended. Hecklefang hyenas prowl there, and fierce Sunscale raptors hunt across the highlands.",
+   "body": "Witchwing harpies strike from the hills to bleed trade routes and harass nearby settlements. So the Horde keeps a standing bounty on their feathers. Their nests and roosts are heavily defended in the rocky ravines. Hecklefang hyenas prowl there, while fierce Sunscale raptors hunt across the highlands.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "dry hills green",
     "dry hills terrain"
    ],
-   "answer": "Despite their name, the Dry Hills are noticeably greener than the surrounding Barrens. No record explains the name or this local contrast."
+   "answer": "Despite their name, the Dry Hills are noticeably greener than the surrounding Barrens. No record explains the name or the local contrast."
   },
   {
    "q": "Who lives in the Dry Hills?",
@@ -37,7 +37,7 @@
     "dry hills inhabitants",
     "harpies dry hills"
    ],
-   "answer": "The Witchwing tribe of harpies controls almost all of the hills, under Serena Bloodfeather's rule. Hecklefang hyenas and Sunscale raptors also roam the rocky slopes."
+   "answer": "The Witchwing tribe of harpies controls almost all the hills under Serena Bloodfeather’s rule. Hecklefang hyenas and Sunscale raptors also roam the rocky slopes."
   },
   {
    "q": "Why is the Horde interested in this area?",
@@ -46,7 +46,7 @@
     "why fight harpies here",
     "dry hills quests"
    ],
-   "answer": "Witchwing raiders strike out from the hills to plunder supply caravans along the northern Gold Road. Horde commanders issue bounties to cull their numbers and eliminate their leaders."
+   "answer": "Witchwing raiders strike from the hills to plunder supply caravans on the northern Gold Road. Horde commanders issue bounties to cull their numbers and eliminate their leaders."
   },
   {
    "q": "What are the ruined towers and catapults in the middle of the hills?",
@@ -55,7 +55,7 @@
     "abandoned catapults dry hills",
     "orc ruins dry hills"
    ],
-   "answer": "The towers and catapults are remains of an abandoned orcish outpost. The surviving structures do not establish its original mission or why it was deserted."
+   "answer": "The towers and catapults are the remains of an abandoned orcish outpost. The surviving structures do not reveal its original mission or why it was deserted."
   }
  ],
  "angles": [
@@ -65,7 +65,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "The rugged uplands offer rich hunting grounds, with swift Hecklefang hyenas, predatory Sunscale scytheclaws, and fierce harpies."
+   "text": "The rugged uplands offer rich hunting grounds. Swift Hecklefang hyenas, predatory Sunscale scytheclaws, and fierce harpies roam there."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Dry Hills"
  ],
- "style": 1
+ "style": 2
 }

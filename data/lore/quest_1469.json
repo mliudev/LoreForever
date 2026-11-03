@@ -24,16 +24,16 @@
    "Into The Temple of Atal'Hakkar"
   ]
  },
- "summary": "After Rhapsody Shindigger gets his Kalimdor Kocktail, he finally tells his tale of the flight with Brohann Caskbelly. He hands over an Atal'ai Tablet Fragment and asks that it be taken to Brohann in Stormwind.",
+ "summary": "After Rhapsody Shindigger gets his Kalimdor Kocktail, he tells of the flight with Brohann Caskbelly. He gives you an Atal'ai Tablet Fragment to take to Brohann in Stormwind.",
  "sections": [
   {
    "title": "A Fragment for Brohann",
-   "body": "With the kocktail in him, Rhapsody Shindigger finally talks. Before the flight he drank a whole keg of stout, and Brohann followed him through the sky. What he kept from it is a troll souvenir, an Atal'ai Tablet Fragment, and he wants it taken to Brohann Caskbelly in Stormwind.",
+   "body": "Rhapsody Shindigger tells you what happened after the kocktail. Before the flight, he drank a whole keg of stout while Brohann followed him through the sky. Rhapsody kept a troll souvenir, an Atal'ai Tablet Fragment. Now he asks you to take it to Brohann Caskbelly in Stormwind.",
    "spoiler": 0
   },
   {
    "title": "Where the Flight Ended",
-   "body": "Rhapsody saw no temple from the air. Then, a little too tipsy, he fell off his mount and plunged into the water. He was sucked down and found himself among creepy trolls, and swam out fast, carrying off a souvenir. So Brohann's temple is down there after all.",
+   "body": "Rhapsody saw no temple from the air. A little too tipsy, he fell from his mount and plunged into the water. The current pulled him down among creepy trolls, and he swam out fast with a souvenir. Brohann's temple lies below the water.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "brohann location",
     "where does tablet go"
    ],
-   "answer": "Rhapsody asks that it be brought to Brohann Caskbelly in Stormwind."
+   "answer": "Take the Atal'ai Tablet Fragment to Brohann Caskbelly in Stormwind."
   },
   {
    "q": "What does Rhapsody remember of the flight with Brohann?",
@@ -53,7 +53,7 @@
     "why did rhapsody fly",
     "brohann and rhapsody"
    ],
-   "answer": "Rhapsody drank a whole keg of stout before the flight, then zipped around the sky with Brohann following behind."
+   "answer": "Before the flight, Rhapsody drank a whole keg of stout, then flew through the sky with Brohann following behind."
   },
   {
    "q": "What came before this step?",
@@ -61,7 +61,7 @@
     "previous quest",
     "prereq rhapsody's tale"
    ],
-   "answer": "Rhapsody's Kalimdor Kocktail came first. Rhapsody would not tell the tale until that drink had been made."
+   "answer": "Rhapsody's Kalimdor Kocktail came first. He would not tell the tale until the drink was made."
   }
  ],
  "angles": [],
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Wowpedia: Rhapsody's Tale"
- ]
+ ],
+ "style": 2
 }

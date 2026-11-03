@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dun Modr"
  },
- "summary": "Dun Modr has fallen to Dark Iron dwarves, leaving the Thandol Span's southern approach in hostile hands. The fortress once changed hands in a fierce struggle during the Second War.",
+ "summary": "Dark Iron dwarves hold Dun Modr and the southern approach to the Thandol Span. The fortress changed hands in a fierce struggle during the Second War.",
  "sections": [
   {
    "title": "A Contested Bastion",
-   "body": "At Wetlands' northern edge, Dun Modr commands the main road between Khaz Modan and the northern human kingdoms. That route has drawn armies to the fortress across the decades. During the Second War, the Orcish Horde seized the dwarven stronghold and used it to launch raids and resist Alliance armies. Stromgarde warriors sailed from Tol Barad to reclaim it, and the Orcs struck back in a bloody struggle. Alliance forces under Lord Anduin Lothar eventually drove the invaders south across the Thandol Span, returning the fortress to dwarven hands.",
+   "body": "At Wetlands' northern edge, Dun Modr guards the main road between Khaz Modan and the northern human kingdoms. Armies have fought for that route across the decades. During the Second War, the Orcish Horde seized the dwarven stronghold and used it to launch raids and resist Alliance armies.\n\nStromgarde warriors sailed from Tol Barad to reclaim it, but the Orcs struck back in a bloody struggle. At last, Alliance forces under Lord Anduin Lothar drove the invaders south across the Thandol Span and returned the fortress to dwarven hands.",
    "spoiler": 0
   },
   {
    "title": "The Dark Iron Incursion",
-   "body": "Dun Modr lay exposed while Ironforge's attention was divided and many of its finest mountaineers served the Alliance abroad. Dark Iron invaders took advantage, sabotaged the Thandol Span with explosives, then swarmed the fortress. Led by the warlock Balgaras the Foul, they overcame the defenders and drove out the Bronzebeard garrison. Mountaineers now hold a grim perimeter just down the road, seeking aid to drive out the occupiers.",
+   "body": "With Ironforge's attention divided and many of its finest mountaineers serving the Alliance abroad, Dun Modr lay exposed. Dark Iron invaders took their chance. They sabotaged the Thandol Span with explosives, then swarmed the fortress. Led by the warlock Balgaras the Foul, they overcame the defenders and drove out the Bronzebeard garrison. Now mountaineers hold a grim perimeter just down the road, seeking aid to drive out the occupiers.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "importance of dun modr",
     "dun modr strategic value"
    ],
-   "answer": "Dun Modr commands the main northern road through the Wetlands to the Thandol Span. Whoever holds the fortress can control overland traffic, supplies, and military movement between Khaz Modan and northern Lordaeron."
+   "answer": "Dun Modr guards the main northern road through the Wetlands to the Thandol Span. Whoever holds the fortress can control overland traffic, supplies, and military movement between Khaz Modan and northern Lordaeron."
   },
   {
    "q": "Who controls Dun Modr right now?",
@@ -37,7 +37,7 @@
     "who runs dun modr",
     "who lives in dun modr"
    ],
-   "answer": "Dark Iron dwarves hold Dun Modr, led there by the warlock Balgaras the Foul. Bronzebeard Mountaineers loyal to Ironforge watch from a nearby camp and hope to reclaim the fortress."
+   "answer": "Dark Iron dwarves hold Dun Modr under the warlock Balgaras the Foul. Bronzebeard Mountaineers loyal to Ironforge watch from a nearby camp and hope to reclaim the fortress."
   },
   {
    "q": "What happened to Dun Modr during the Second War?",
@@ -46,7 +46,7 @@
     "orcs in dun modr",
     "did horde take dun modr"
    ],
-   "answer": "The Orcish Horde seized Dun Modr and used it as a forward base. Stromgarde forces attacked from Tol Barad, and fierce clashes followed until Anduin Lothar's Alliance forces drove the Horde from the region."
+   "answer": "The Orcish Horde seized Dun Modr and used it as a forward base. Stromgarde forces attacked from Tol Barad, and fierce clashes followed. Anduin Lothar's Alliance forces finally drove the Horde from the region."
   },
   {
    "q": "Who is Balgaras the Foul?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, seeing a storied Bronzebeard mountain settlement in Dark Iron hands is a bitter insult, and calls for vengeance."
+   "text": "As a dwarf, you may see a storied Bronzebeard mountain settlement in Dark Iron hands as a bitter insult. Vengeance calls."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you face a threat to the route across the Thandol Span, which links Ironforge with the northern Alliance remnants."
+   "text": "As an Alliance member, you face a threat to the route across the Thandol Span. It links Ironforge with the northern Alliance remnants."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Dun Modr"
  ],
- "style": 1
+ "style": 2
 }

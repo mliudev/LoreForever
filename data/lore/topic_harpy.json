@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Harpy"
  },
- "summary": "Harpies are predatory, avian humanoids resembling winged night elves who dwell in foul-smelling roosts across Kalimdor and the high mountain passes of Alterac. Infamous for their shrill shrieks and tempestuous elemental magic, they raid unwary travelers and blight the environments they inhabit. Night elf folklore links them to cursed betrayers of Queen Azshara, though their true origins remain uncertain.",
+ "summary": "Across Kalimdor and Alterac's high passes, Harpies foul their roosts and hunt travelers. Their shrieks and storm magic are feared, while night elf tales link them to Azshara's cursed betrayers. Their true origins remain uncertain.",
  "sections": [
   {
    "title": "Winged Scourge of Kalimdor",
-   "body": "Harpies bear the upper torsos and heads of night elf women, joined to broad feathered wings and wicked talons. Despite their delicate, elven visage\u2014which ironically grows more striking as they age\u2014their nature is thoroughly savage. Originally roosting among the crags of the Stonetalon Mountains, they have aggressively migrated across Kalimdor, terrorizing the arid canyons of Durotar, the sacred boughs of Teldrassil, and the heights of Mulgore. Unlike the wild creatures they hunt, harpies do not live in harmony with nature; they despoil surrounding flora and fauna, turning their nesting grounds into foul, fetid middens littered with the picked-clean bones of their prey.",
+   "body": "Harpies spread from the crags of the Stonetalon Mountains across Kalimdor. Their heads and upper bodies resemble night elf women, with broad feathered wings and wicked talons. Age makes their elven faces more striking, but their nature is savage. They terrorize Durotar's arid canyons, Teldrassil's sacred boughs, and the heights of Mulgore. Around their roosts, they despoil plant and animal life, leaving the picked-clean bones of their prey.",
    "spoiler": 0
   },
   {
    "title": "Avian Lineage and Dark Nature",
-   "body": "Night elf myth often claims harpies originated as treacherous handmaidens cursed by Queen Azshara before the Great Sundering, though no one can say for certain where they truly came from. Whatever their origins, harpies today operate as ruthless matriarchies, where aspiring queens must betray, slaughter, and torment rivals to maintain command.",
+   "body": "Night elf tales say harpies began as handmaidens who betrayed Queen Azshara and were cursed before the Great Sundering. Their true origins remain uncertain. Today, ruthless matriarchies rule the harpies. Those who seek command betray, slaughter, and torment their rivals to hold it.",
    "spoiler": 0
   },
   {
    "title": "Tempest Magic and Wicked Habits",
-   "body": "Beyond rending flesh with razor-sharp claws, harpies command dangerous wind and lightning magic, channeling shrieking gales to batter foes from above. They are deeply cunning hunters capable of spoken language, occasionally trading scavenged oddities with subterranean creatures like kobolds in exchange for bright gems and shiny trinkets. Unwary explorers are sometimes beguiled by their elven forms, but physical contact carries grave danger: a harpy's kiss is venomous, rapidly inflicting a violent, wasting fever upon those foolish enough to let their guard down.",
+   "body": "Harpies tear flesh with razor-sharp claws and wield dangerous wind and lightning magic. From above, their shrieking gales batter their foes. Cunning hunters, they can speak and sometimes trade scavenged oddities with subterranean creatures such as kobolds for bright gems and shiny trinkets. Their elven forms can beguile unwary explorers, but their kiss is venomous and swiftly brings a violent, wasting fever.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "harpy homeland",
     "where do harpies live"
    ],
-   "answer": "Harpies originally hailed from the jagged peaks of the Stonetalon Mountains in central Kalimdor. From these ancestral heights, their populations expanded rapidly, establishing nests in Teldrassil, the Barrens, Durotar, Mulgore, Feralas, the Thousand Needles, and even across the Great Sea in the snowy crags of Alterac Valley."
+   "answer": "Harpies first roosted among the jagged peaks of the Stonetalon Mountains in central Kalimdor. From there, they spread to Teldrassil, the Barrens, Durotar, Mulgore, Feralas, and the Thousand Needles. They also crossed the Great Sea to Alterac Valley's snowy crags."
   },
   {
    "q": "Are harpies actually related to night elves?",
@@ -42,7 +42,7 @@
     "harpy night elf connection",
     "curse of azshara"
    ],
-   "answer": "Kalimdor folklore claims they were once night elf women cursed for betraying Queen Azshara, which would explain their elven features. Whether the tale is true remains unknown."
+   "answer": "Kalimdor folklore says harpies were night elf women cursed for betraying Queen Azshara. Their elven features fit the tale, but no one knows whether it is true."
   },
   {
    "q": "Why are harpy nests so infamous?",
@@ -51,7 +51,7 @@
     "what are harpy nests like",
     "harpy roosts"
    ],
-   "answer": "Unlike wild birds, harpies defile the land around them. Their nests are filthy, stench-ridden middens composed of trampled foliage, noxious waste, and the butchered bones and remnants of unwary travelers and beasts they drag from nearby trails."
+   "answer": "Harpies foul the land around their nests, leaving stench-ridden middens of trampled foliage and noxious waste. They also leave butchered bones and remnants of travelers and beasts dragged from nearby trails."
   },
   {
    "q": "How do harpy covens choose their leaders?",
@@ -60,7 +60,7 @@
     "harpy queen",
     "who leads harpies"
    ],
-   "answer": "Harpy leadership is fiercely contested. To claim and hold the title of queen or matriarch, a harpy must prove herself far more ruthless than her roost-mates, employing betrayal, murder, and relentless cruelty against enemies and rivals alike."
+   "answer": "Harpies fiercely contest leadership. To claim and hold command as queen or matriarch, one must prove more ruthless than her roost-mates through betrayal, murder, and relentless cruelty toward enemies and rivals."
   },
   {
    "q": "What powers and combat tactics do harpies use?",
@@ -69,7 +69,7 @@
     "harpy magic",
     "how do harpies fight"
    ],
-   "answer": "Common harpies dive from above using crude weapons or razor-sharp talons. Their spellcasters, however, wield tempestuous storm magic, striking foes with crackling lightning, swirling wind gusts, and shrill, disorienting shrieks."
+   "answer": "Harpies attack with crude weapons or razor-sharp talons, often diving from above. Their spellcasters wield storm magic, striking with crackling lightning, swirling gusts of wind, and shrill, disorienting shrieks."
   },
   {
    "q": "Is it true that a harpy's kiss is dangerous?",
@@ -78,25 +78,25 @@
     "harpy poison",
     "harpy fever"
    ],
-   "answer": "Yes. Beyond their claws and storm magic, harpies carry a toxic kiss. Travelers who are lured by their elven features into letting one close risk suffering from a potent poison that induces a sudden, debilitating fever."
+   "answer": "Yes. A harpy's kiss is toxic. Travelers beguiled by her elven features risk potent poison if they let her close, and it swiftly brings a sudden, debilitating fever."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Though they bear an uncanny resemblance to night elf women, harpies represent a perversion of the natural skies, despoiling sacred boughs around Teldrassil's Oracle Glade."
+   "text": "Harpies resemble night elf women, yet they despoil the sacred boughs around Teldrassil's Oracle Glade."
   },
   {
    "target": "race:Tauren",
-   "text": "The Windfury harpies of Mulgore and the Screeching brood of Thousand Needles have plagued tauren caravans and blighted the plains for generations, making them reviled enemies of the tribes."
+   "text": "The Windfury harpies of Mulgore and the Screeching brood of Thousand Needles have plagued tauren caravans and blighted the plains for generations. The tribes revile them as enemies."
   },
   {
    "target": "race:Orc",
-   "text": "The Dustwind harpies roosting in Drygulch Ravine and Razorwind Canyon persistently menace supply routes between Sen'jin Village, Razor Hill, and Orgrimmar, requiring constant armed patrols."
+   "text": "Dustwind harpies roost in Drygulch Ravine and Razorwind Canyon, where they menace supply routes between Sen'jin Village, Razor Hill, and Orgrimmar. Constant armed patrols are needed."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold particular anger toward harpies, who scorn nature's balance and pollute the wilderness with tempest magic and foul nests."
+   "text": "Harpies scorn nature's balance and foul the wilderness with tempest magic and filthy nests."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Harpy"
- ]
+ ],
+ "style": 2
 }

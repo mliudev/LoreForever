@@ -20,11 +20,11 @@
    "The Kolkar of Desolace"
   ]
  },
- "summary": "In the Barrens, Regthar Deathgate calls seasoned Horde fighters west. The veteran warrior is gathering volunteers for a campaign across the mountains into Desolace, where centaur clans terrorize the frontier.",
+ "summary": "In the Barrens, Regthar Deathgate calls seasoned Horde fighters west. He is gathering volunteers for a campaign across the mountains into Desolace, where centaur clans terrorize the frontier.",
  "sections": [
   {
    "title": "Call of the Warchief's Lieutenants",
-   "body": "Horde leaders watch the borders for threats. In the Barrens, Regthar Deathgate has set up a defensive post guarding the western passes. Horde officers send proven adventurers west of the Crossroads to answer his call for hardened fighters.",
+   "body": "Horde leaders watch their borders for threats. In the Barrens, Regthar Deathgate has raised a defensive post to guard the western passes. So Horde officers send proven fighters west of the Crossroads to answer his call.",
    "spoiler": 0
   },
   {
@@ -50,7 +50,7 @@
     "regthar location",
     "find regthar deathgate"
    ],
-   "answer": "Regthar Deathgate is in the Barrens, inside the Horde bunkers on the hill path west of the Crossroads, overlooking the western mountain pass."
+   "answer": "Regthar Deathgate is in the Barrens, inside the Horde bunkers on the hill path west of the Crossroads. From there, he overlooks the western mountain pass."
   },
   {
    "q": "Who gives the quest to seek out Regthar?",
@@ -58,7 +58,7 @@
     "who starts regthar deathgate",
     "where to get regthar quest"
    ],
-   "answer": "Shadow Hunter Vol'jin, Nazgrel, Belgrom Rockmaul, and Krusk offer the call to seek Regthar. Vol'jin, Nazgrel, and Belgrom Rockmaul are in Orgrimmar; Krusk is in Tarren Mill."
+   "answer": "Shadow Hunter Vol'jin, Nazgrel, Belgrom Rockmaul, and Krusk call you to seek Regthar. Vol'jin, Nazgrel, and Belgrom Rockmaul are in Orgrimmar; Krusk is in Tarren Mill."
   },
   {
    "q": "What is the primary objective of Regthar's mission?",
@@ -82,17 +82,17 @@
     "next quest after regthar",
     "regthar follow up"
    ],
-   "answer": "After you report to Regthar, he briefs you on the lands beyond the western mountains and sends you on your first strike across the border against the Kolkar."
+   "answer": "When you report to Regthar, he briefs you on the lands beyond the western mountains. Then he sends you across the border for your first strike against the Kolkar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde is trying to secure its frontier by subduing centaur in neighboring Desolace before they can raid deeper into the Barrens."
+   "text": "The Horde seeks to secure its frontier by subduing the centaur in neighboring Desolace before they can raid deeper into the Barrens."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you have a personal stake in helping Regthar strike against the Kolkar, after generations of conflict with the centaur across central Kalimdor."
+   "text": "As a tauren, you have a personal stake in helping Regthar strike the Kolkar after generations of conflict with centaur across central Kalimdor."
   },
   {
    "target": "class:Warrior",
@@ -121,5 +121,5 @@
  "attribution": [
   "Regthar Deathgate (quest)"
  ],
- "style": 1
+ "style": 2
 }

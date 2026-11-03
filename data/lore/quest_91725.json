@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Maintaining a secure supply route to the Tower of Azora keeps Stormwind's frontline mages equipped against threats in Elwynn Forest and beyond."
+   "text": "Keeping the supply route to the Tower of Azora secure helps Stormwind's frontline mages stay equipped against threats in Elwynn Forest and beyond."
   },
   {
    "target": "class:Mage",
-   "text": "The arcane research conducted at the Tower of Azora demands delicate materials, making recovered enchanting reagents vital to mages studying under Master Theocritus."
+   "text": "The Tower of Azora's arcane research depends on delicate materials. Recovered enchanting reagents matter to mages studying under Master Theocritus."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnome apprentices like Blixie Fitzwink often find themselves handling menial tasks for human archmages, where mistakes can lead to humiliating chore duty."
+   "text": "As a gnome apprentice, you may find yourself doing menial work for human archmages. A mistake can bring humiliating chore duty."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "who is blixie fitzwink",
     "quest giver blixie"
    ],
-   "answer": "Blixie Fitzwink offers this task near the Tower of Azora. She is an assistant running errands for Master Theocritus who was ambushed by gnolls while transporting essential supplies back from a local trading post.",
+   "answer": "Blixie Fitzwink asks for help near the Tower of Azora. She assists Master Theocritus and was ambushed by gnolls while carrying supplies back from a local trading post.",
    "q": "Who gives the quest Stolen Enchanting Supplies?"
   },
   {
@@ -41,7 +41,7 @@
     "theocritus role",
     "tower of azora mage"
    ],
-   "answer": "Master Theocritus is a senior human wizard residing at the Tower of Azora in eastern Elwynn Forest. He oversees arcane investigations in the region and relies on assistants to retrieve enchanting reagents and research materials.",
+   "answer": "Master Theocritus is a senior human wizard who lives at the Tower of Azora in eastern Elwynn Forest. He oversees arcane investigations in the region and relies on assistants to bring him enchanting reagents and research materials.",
    "q": "Who is Master Theocritus?"
   },
   {
@@ -50,7 +50,7 @@
     "what did gnolls steal",
     "enchanting reagents"
    ],
-   "answer": "The package contains enchanting reagents collected from a trading post for Master Theocritus's arcane work. After an ambush scattered the cargo, the items were taken to gnoll camps around Stone Cairn Lake.",
+   "answer": "The gnolls took enchanting reagents gathered at a trading post for Master Theocritus's arcane work. The ambush scattered the cargo, and the items ended up in gnoll camps around Stone Cairn Lake.",
    "q": "What supplies were taken by the gnolls?"
   },
   {
@@ -59,7 +59,7 @@
     "where are gnolls holding supplies",
     "lake gnolls elwynn"
    ],
-   "answer": "Stone Cairn Lake lies in eastern Elwynn Forest, north of the Tower of Azora. Gnoll packs have established camps along its shores and surrounding islands, posing a regular hazard to travelers on nearby roads.",
+   "answer": "Stone Cairn Lake lies in eastern Elwynn Forest, north of the Tower of Azora. Gnoll packs camp along its shores and on surrounding islands, threatening travelers on nearby roads.",
    "q": "Where did the gnolls take the supplies?"
   },
   {
@@ -68,7 +68,7 @@
     "blixie punishment",
     "polymorph cleanup"
    ],
-   "answer": "Blixie fears Master Theocritus will punish her with weeks of cleaning up after polymorph experiments. Apprentices at the tower are given mundane or messy chores whenever errands or magical duties go awry.",
+   "answer": "Blixie fears Master Theocritus will give her weeks of cleaning duty after his polymorph experiments. Apprentices at the tower face mundane or messy chores when errands or magical duties go wrong.",
    "q": "Why is Blixie Fitzwink worried about losing the package?"
   },
   {
@@ -77,7 +77,7 @@
     "gnoll threat elwynn",
     "riverpaw stone cairn lake"
    ],
-   "answer": "Gnoll packs prowl eastern Elwynn Forest, setting up hostile camps around Stone Cairn Lake and raiding nearby roads. Their presence disrupts trade and ambushes isolated travelers moving between settlements and arcane outposts.",
+   "answer": "Gnoll packs prowl eastern Elwynn Forest, with hostile camps around Stone Cairn Lake and raids on nearby roads. They disrupt trade and ambush travelers moving between settlements and arcane outposts.",
    "q": "Why are gnolls attacking travelers in eastern Elwynn?"
   }
  ],
@@ -99,18 +99,19 @@
  ],
  "sections": [
   {
-   "body": "A routine supply run turns perilous when Blixie Fitzwink, an apprentice assisting Master Theocritus, is ambushed by hostile gnolls between the trading post and the Tower of Azora. Fleeing for her life, she drops her cargo, leaving valuable enchanting reagents scattered among the gnoll camps dotting the shores of Stone Cairn Lake. Desperate to avoid weeks of disciplinary cleanup duty following arcane polymorph experiments, she appeals to passing adventurers to recover the missing goods.",
+   "body": "Blixie Fitzwink was carrying supplies from a trading post to the Tower of Azora when gnolls ambushed her on the road. She fled, leaving the cargo scattered among their camps along Stone Cairn Lake. The valuable reagents were meant for Master Theocritus, whom Blixie assists. Now she asks travelers to recover them, fearing weeks of cleanup duty after her arcane polymorph experiments.",
    "spoiler": 0,
    "title": "An Ambush on the Road"
   },
   {
-   "body": "The Tower of Azora serves as an arcane bastion in eastern Elwynn Forest, where Master Theocritus conducts sensitive magical research. Sourcing delicate reagents requires regular traffic with local trading posts, but the rising boldness of gnoll packs around Stone Cairn Lake makes transport hazardous. Recovering the lost supplies ensures that Theocritus's studies continue uninterrupted while keeping his beleaguered assistant out of trouble.",
+   "body": "Master Theocritus conducts sensitive magical research at the Tower of Azora in eastern Elwynn Forest. His work depends on delicate reagents brought from local trading posts. Gnoll packs around Stone Cairn Lake have grown bolder, making the route dangerous. The lost supplies could interrupt his studies, while their return may spare his beleaguered assistant further trouble.",
    "spoiler": 0,
    "title": "Arcane Errands and Local Hazards"
   }
  ],
- "summary": "Stolen Enchanting Supplies is an errand undertaken near the Tower of Azora in eastern Elwynn Forest. An apprentice named Blixie Fitzwink lost a shipment of magical reagents during a gnoll ambush, and adventurers must retrieve the stolen goods from camps around Stone Cairn Lake. Recovering the materials spares the apprentice severe chore duty and keeps Master Theocritus's arcane studies supplied.",
+ "summary": "Near the Tower of Azora, Blixie Fitzwink has lost the supplies she was carrying after a gnoll ambush. The enchanting reagents are scattered among camps around Stone Cairn Lake. Their return could spare her weeks of chore duty and keep Master Theocritus's arcane studies supplied.",
  "attribution": [
   "In-game quest text: Stolen Enchanting Supplies"
- ]
+ ],
+ "style": 2
 }

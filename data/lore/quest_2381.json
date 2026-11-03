@@ -23,16 +23,16 @@
    "Plundering the Plunderers"
   ]
  },
- "summary": "Wrenix the Wretched sends new Shattered Hand rogues against the Southsea Freebooters near Ratchet. Aboard the Tide Razor, they face pirates, locked strongboxes, and a dangerous guardian before claiming the Southsea Treasure.",
+ "summary": "Near Ratchet, Wrenix the Wretched sends new Shattered Hand rogues against the Southsea Freebooters. Aboard the Tide Razor, they face pirates, locked strongboxes, and a dangerous guardian before claiming the Southsea Treasure.",
  "sections": [
   {
    "title": "A Test of Stealth and Steel",
-   "body": "Wrenix the Wretched, a goblin contact in Ratchet, tests aspiring Shattered Hand operatives. He sends rogues south along the Barrens coast to a cove where the Tide Razor lies at anchor, crewed by Southsea Freebooters. They must board without being seen, enter the pirates’ den where cutpurses train, pick the strongboxes in the hold, and bring back the plunder.",
+   "body": "Wrenix the Wretched tests aspiring Shattered Hand operatives in Ratchet. He sends rogues south along the Barrens coast to a cove where the Tide Razor lies at anchor. Southsea Freebooters crew the ship. Rogues must board unseen and enter the pirates’ den, where cutpurses train. Then they pick the strongboxes in the hold and bring back the plunder.",
    "spoiler": 0
   },
   {
    "title": "Polly and the Gizmo",
-   "body": "Wrenix warns that earlier thieves were returned to him in pieces. A savage parrot named Polly guards the vessel’s lowest hold. To help a rogue face the bird, Wrenix provides an experimental E.C.A.C. Hurl it at Polly after cracking the pirate strongbox; the device disorients and weakens the bird, making the fight winnable.",
+   "body": "Wrenix warns that earlier thieves returned to him in pieces. A savage parrot named Polly guards the vessel’s lowest hold. To help a rogue face the bird, Wrenix provides an experimental E.C.A.C. After cracking the pirate strongbox, hurl the device at Polly. It disorients and weakens the bird, making the fight winnable.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "where is pirate ship",
     "where are the southsea pirates"
    ],
-   "answer": "The Tide Razor is anchored south of Ratchet along the Barrens’ eastern coast, in a Southsea Freebooter cove. The ship is a base and training den for the pirates."
+   "answer": "The Tide Razor is anchored south of Ratchet along the Barrens’ eastern coast, in a Southsea Freebooter cove. The ship is the pirates’ base and training den."
   },
   {
    "q": "What is an E.C.A.C. and how do I use it?",
@@ -62,7 +62,7 @@
     "what is ecac",
     "how to beat polly"
    ],
-   "answer": "The E.C.A.C. is an experimental goblin device dispensed by Wrenix’s Gizmotronic Apparatus. Use it against Polly, the giant parrot guarding the Southsea Treasure in the Tide Razor’s hold, to weaken the bird so it can be defeated."
+   "answer": "The E.C.A.C. is an experimental goblin device dispensed by Wrenix’s Gizmotronic Apparatus. Use it against Polly, the giant parrot guarding the Southsea Treasure in the Tide Razor’s hold. It weakens the bird so it can be defeated."
   },
   {
    "q": "Why is the lockpicking area on the ship significant?",
@@ -80,7 +80,7 @@
     "why do plundering the plunderers",
     "rogue quest reward"
    ],
-   "answer": "Completing the heist proves a rogue’s worth to the Shattered Hand network. Wrenix gives you Thistle Tea as your share, a brew that quickly restores a rogue’s combat energy."
+   "answer": "The heist proves a rogue’s worth to the Shattered Hand network. Wrenix gives you Thistle Tea as your share, a brew that quickly restores a rogue’s combat energy."
   },
   {
    "q": "Who is Polly?",
@@ -89,7 +89,7 @@
     "giant parrot",
     "tide razor boss"
    ],
-   "answer": "Polly is a vicious parrot guarding the lower hold of the Tide Razor for the Southsea Freebooters. Without goblin technology to weaken the bird, it is lethal to inexperienced infiltrators."
+   "answer": "Polly is a vicious parrot guarding the Tide Razor’s lower hold for the Southsea Freebooters. Without goblin technology to weaken the bird, Polly is lethal to inexperienced infiltrators."
   }
  ],
  "angles": [
@@ -131,5 +131,5 @@
  "attribution": [
   "Plundering the Plunderers"
  ],
- "style": 1
+ "style": 2
 }

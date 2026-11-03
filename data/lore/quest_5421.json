@@ -21,11 +21,11 @@
    "Shadowprey Village"
   ]
  },
- "summary": "Jinar'Zillen of Shadowprey Village in Desolace likes to do as little as possible. Many shellfish traps sit below the village docks, and anyone who gathers the shellfish from them will be repaid with something worth having.",
+ "summary": "In Shadowprey Village, Jinar'Zillen leaves the shellfish gathering to others. The traps lie below the docks, and he offers a Bloodbelly fish for every five shellfish.",
  "sections": [
   {
    "title": "Work Done by Someone Else",
-   "body": "Jinar'Zillen keeps many shellfish traps below the docks of Shadowprey Village, and would far rather someone else did the collecting. Anyone willing to take on that work is promised something they want in return: one fine Bloodbelly fish for every five shellfish brought in.",
+   "body": "Jinar'Zillen keeps many shellfish traps below the docks of Shadowprey Village. He would rather someone else gather from them, and offers a fine Bloodbelly fish for every five shellfish brought in.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "jinar'zillen",
     "quest giver"
    ],
-   "answer": "Jinar'Zillen, in Shadowprey Village in Desolace."
+   "answer": "Jinar'Zillen offers the trade in Shadowprey Village, in Desolace."
   },
   {
    "q": "Where are the shellfish traps?",
@@ -46,7 +46,7 @@
     "where to find shellfish",
     "shellfish traps"
    ],
-   "answer": "Below the docks of Shadowprey Village."
+   "answer": "The shellfish traps lie below the docks of Shadowprey Village."
   },
   {
    "q": "Why does Jinar'Zillen want someone else to gather the shellfish?",
@@ -54,7 +54,7 @@
     "why does he need shellfish",
     "jinar'zillen motive"
    ],
-   "answer": "Jinar'Zillen enjoys doing as little as possible, so anyone who collects from the traps is promised something in return."
+   "answer": "Jinar'Zillen likes to do as little as possible, so he promises a return to anyone who gathers from the traps."
   },
   {
    "q": "What does Jinar'Zillen give in return for the shellfish?",
@@ -62,7 +62,7 @@
     "fish in a bucket reward",
     "what do i get"
    ],
-   "answer": "One fine Bloodbelly fish for every five shellfish."
+   "answer": "Jinar'Zillen gives one fine Bloodbelly fish for every five shellfish."
   }
  ],
  "angles": [],
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Fish in a Bucket"
- ]
+ ],
+ "style": 2
 }

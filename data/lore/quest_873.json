@@ -17,16 +17,16 @@
   "wiki": "Isha Awak (quest)",
   "chain": []
  },
- "summary": "Along the Merchant Coast, Mahren Skyseer calls you to a hunt in the Great Sea. You are to slay Isha Awak, the Deep Doom, and bring back its heart for a rite of spirit and respect.",
+ "summary": "Along the Merchant Coast, Mahren Skyseer sends you hunting in the Great Sea. Slay Isha Awak, the Deep Doom, and bring back its heart for a rite of spirit and respect.",
  "sections": [
   {
    "title": "The Deep Doom",
-   "body": "South of Ratchet, Isha Awak prowls beneath the waves. Known as the Deep Doom, this immense sea creature commands the coastal waters with great strength. Human forces camped along the shore fear those waters after losing many scouts and soldiers to the predator's hunger.",
+   "body": "South of Ratchet, Isha Awak prowls beneath the waves. The immense sea creature is known as the Deep Doom and holds the coastal waters by force. Human forces camped along the shore fear those waters. They have lost many scouts and soldiers to the predator.",
    "spoiler": 0
   },
   {
    "title": "A Hunt of Spirit",
-   "body": "Mahren Skyseer reveres the leviathan, unlike the humans who fear it. To the tauren mystic, Isha Awak is no curse or mere pest, but a worthy foe whose might tests a hunter's resolve. Slaying the beast is an act of spiritual communion. Its heart holds the beast's essence, and claiming it lets the hunter carry that untamed spirit forward.",
+   "body": "Mahren Skyseer reveres the leviathan, while the humans fear it. To the tauren mystic, Isha Awak is no curse or mere pest. It is a worthy foe whose might tests a hunter's resolve. Slaying the beast brings spiritual communion. Its heart holds the beast's essence, and claiming it lets the hunter carry that untamed spirit forward.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why kill isha awak",
     "mahren skyseer motivation"
    ],
-   "answer": "Mahren Skyseer sees Isha Awak as a worthy, honorable opponent and a spiritual challenge. She believes that overcoming the beast lets a hunter absorb its strength and commune with its wild spirit."
+   "answer": "Mahren Skyseer sees Isha Awak as a worthy and honorable opponent, and a spiritual challenge. She believes overcoming the beast lets a hunter absorb its strength and commune with its wild spirit."
   },
   {
    "q": "Where can Isha Awak be found?",
@@ -55,7 +55,7 @@
     "where to find isha awak",
     "isha awak spawn"
    ],
-   "answer": "Isha Awak swims in the Great Sea along the Merchant Coast in the eastern Barrens, south of Ratchet and near the human-inhabited shore."
+   "answer": "Isha Awak swims in the Great Sea along the Merchant Coast in the eastern Barrens. It is south of Ratchet and near the human-inhabited shore."
   },
   {
    "q": "What happens when you bring back the heart?",
@@ -63,7 +63,7 @@
     "heart of isha awak purpose",
     "why heart of isha awak"
    ],
-   "answer": "Mahren Skyseer believes the creature's essence and fate rest in its heart. By bringing it to her, you bind yourself in spirit to the fallen leviathan and carry a portion of Isha Awak's strength and predatory sight."
+   "answer": "Mahren Skyseer believes the creature's essence and fate rest in its heart. Bringing it to her binds you in spirit to the fallen leviathan, so you carry a portion of Isha Awak's strength and predatory sight."
   },
   {
    "q": "Who are the humans mentioned by Mahren?",
@@ -90,11 +90,11 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you track a legendary aquatic beast into the Great Sea, testing your patience, cunning, and marksmanship in its own territory."
+   "text": "As a hunter, you track a legendary aquatic beast into the Great Sea. There, your patience, cunning, and marksmanship face a test in its own territory."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face the Deep Doom along the Merchant Coast, where it has terrorized local Alliance outposts."
+   "text": "As a member of the Horde, you face the Deep Doom along the Merchant Coast. It has terrorized local Alliance outposts."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Isha Awak (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "A Bundle of Hides (Classic)",
   "chain": []
  },
- "summary": "Jahan Hawkwing sends cured hides from the Crossroads to Thunder Bluff for leatherworking. The delivery takes you across central Kalimdor and introduces the Crossroads wind rider roost.",
+ "summary": "Jahan Hawkwing sends cured hides from the Crossroads to Thunder Bluff for leatherworking. You carry them across central Kalimdor and see how the Crossroads wind rider roost links Horde settlements.",
  "sections": [
   {
    "title": "Trade Across the Savanna",
-   "body": "Hunters bring game hides and meat to the Crossroads, where Jahan Hawkwing gathers pelts from across the Barrens. The outposts cannot process every raw hide, so he asks travelers to carry them west to Thunder Bluff. Master leatherworkers there can turn the pelts into gear for the Horde.",
+   "body": "Hunters bring hides and meat to the Crossroads. There, Jahan Hawkwing gathers pelts from across the Barrens. The outposts cannot work every raw hide, so he asks you to carry them west to Thunder Bluff. Its master leatherworkers can make the pelts into gear for the Horde.",
    "spoiler": 0
   },
   {
    "title": "Taking to the Skies",
-   "body": "The trail across the Barrens and into Mulgore is rough, and quilboar and predators threaten anyone carrying cargo on foot. Jahan sends you to Devrak, the Crossroads wind rider master. He can take the goods by air aboard a trained wyvern, linking the Horde’s scattered settlements.",
+   "body": "The trail through the Barrens and into Mulgore is rough. Quilboar and predators threaten anyone carrying cargo on foot. So Jahan sends you to Devrak, the Crossroads wind rider master. A trained wyvern can carry the goods through the air and link the Horde’s scattered settlements.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts a bundle of hides",
     "where to get bundle of hides"
    ],
-   "answer": "Jahan Hawkwing, a tauren at the Crossroads in the Barrens, gives you the hides to carry. He has gathered pelts from local beasts and needs a reliable courier to take them toward Thunder Bluff."
+   "answer": "Jahan Hawkwing, a tauren at the Crossroads in the Barrens, gives you hides to carry. He has gathered pelts from local beasts and needs a reliable courier to bring them toward Thunder Bluff."
   },
   {
    "q": "Who should I bring the bundle of hides to?",
@@ -47,7 +47,7 @@
     "where to take hides",
     "who do i talk to"
    ],
-   "answer": "Bring the bundle to Devrak, the orc wind rider master at the Crossroads perch. He handles air travel between the Crossroads and other major Horde hubs."
+   "answer": "Bring the hides to Devrak, the orc wind rider master at the Crossroads perch. He handles air travel between the Crossroads and other major Horde hubs."
   },
   {
    "q": "What happens after giving the hides to Devrak?",
@@ -65,7 +65,7 @@
     "ahanu hides",
     "what are hides for"
    ],
-   "answer": "Jahan Hawkwing works with Ahanu in Thunder Bluff, who turns pelts from Barrens game into leather armor and goods for the tauren and their Horde allies."
+   "answer": "Jahan Hawkwing works with Ahanu in Thunder Bluff. Ahanu turns pelts from Barrens game into leather armor and goods for the tauren and their Horde allies."
   },
   {
    "q": "Why use a wind rider instead of walking?",
@@ -73,7 +73,7 @@
     "why fly to thunder bluff",
     "wind rider travel"
    ],
-   "answer": "Walking across the Barrens and climbing Thunder Bluff’s great mesa takes time and risks danger from wildlife and quilboar packs. A wind rider carries you swiftly above them."
+   "answer": "Walking across the Barrens and climbing Thunder Bluff’s great mesa takes time. Wildlife and quilboar packs make the journey dangerous, while a wind rider carries you swiftly above them."
   },
   {
    "q": "Does this require prior flight master experience?",
@@ -81,17 +81,17 @@
     "flight path requirement",
     "do i need flight path"
    ],
-   "answer": "You can learn to use the flight master system on this early delivery. Devrak’s roost shows you how wind riders connect distant regions."
+   "answer": "You can learn to use the flight master system on this early delivery. Devrak’s roost shows how wind riders connect distant regions."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren traveler, you carry hides between hunters in the ancestral Barrens and craftsmen on Thunder Bluff’s great mesas."
+   "text": "As a tauren traveler, you carry hides from hunters in the ancestral Barrens to craftsmen on Thunder Bluff’s great mesas."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you rely on links between Kalimdor’s bases. Orcish beast masters like Devrak help bridge the distance between allied territories."
+   "text": "As a member of the Horde, you rely on links between Kalimdor’s bases. Orcish beast masters like Devrak bridge the distance between allied territories."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "A Bundle of Hides (Classic)"
  ],
- "style": 1
+ "style": 2
 }

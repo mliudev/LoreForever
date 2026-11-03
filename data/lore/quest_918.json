@@ -17,16 +17,16 @@
   "wiki": "Timberling Seeds (Classic)",
   "chain": []
  },
- "summary": "At Lake Al'Ameth, botanist Denalan studies the growing hostility of Teldrassil's nature elementals. He seeks to harvest Timberling Seeds and test whether enriched soil can help them grow calmer. His work is one quiet effort by night elf herbalists to understand the subtle afflictions troubling the World Tree.",
+ "summary": "At Lake Al'Ameth, botanist Denalan studies the growing hostility of Teldrassil's nature elementals. He seeks Timberling Seeds to test whether enriched soil can help them grow calmer. His work joins the quiet efforts of night elf herbalists to understand the subtle afflictions troubling the World Tree.",
  "sections": [
   {
    "title": "Restless Nature",
-   "body": "Timberlings are nature elementals native to Teldrassil's boughs, closely bound to the health and vitality of the surrounding flora. They are usually peaceful reflections of the forest's balance, but their recent hostility has alarmed the local night elves, and no cause is known. Botanist Denalan hopes to learn what has stirred them rather than simply cull them.",
+   "body": "Timberlings are nature elementals native to Teldrassil's boughs, bound closely to the health of the surrounding flora. Usually they reflect the forest's balance in peaceful form. Their recent hostility alarms the local night elves, though no cause is known. Botanist Denalan seeks to learn what stirred them before choosing to cull them.",
    "spoiler": 0
   },
   {
    "title": "Seeds of a New Growth",
-   "body": "Denalan suspects the blemish lies deep in the ground. He hopes to sprout fresh timberlings, a gentler generation of elementals, in enriched and carefully treated loam. By harvesting seeds from wandering timberlings near Lake Al'Ameth, he aims to learn whether the land's corruption can be countered from the roots up.",
+   "body": "Denalan suspects the blemish lies deep in the ground. He hopes to raise a gentler generation of timberlings in enriched, carefully treated loam. By gathering seeds from wandering timberlings near Lake Al'Ameth, he will test whether the land's corruption can be countered from the roots up.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "timberling hostility",
     "angry timberlings"
    ],
-   "answer": "Denalan suspects a flaw or contamination in Teldrassil's soil. As elemental manifestations of the tree's ecology, timberlings reflect the growing corruption spreading through the island."
+   "answer": "Denalan suspects a flaw or contamination in Teldrassil's soil. As manifestations of the tree's ecology, timberlings reflect the corruption spreading through the island."
   },
   {
    "q": "Who is Denalan?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Timberling Seeds (Classic)"
  ],
- "style": 1
+ "style": 2
 }

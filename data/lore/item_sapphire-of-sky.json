@@ -10,16 +10,16 @@
    "quest:483"
   ]
  },
- "summary": "In Ban'ethil Barrow Den, Sapphire of Sky helps call sleeping Druids of the Talon back from the Emerald Dream. It is one of four sacred Relics of Wakening kept by the night elves.",
+ "summary": "In Ban'ethil Barrow Den, Sapphire of Sky helps call sleeping Druids of the Talon back from the Emerald Dream. Night elves keep it as one of four sacred Relics of Wakening.",
  "sections": [
   {
    "title": "The Wakening Ritual",
-   "body": "Druids of the Talon sleep in hibernation within Ban'ethil Barrow Den, deep among Teldrassil's roots, while they commune with the wilds. Waking from that deep trance is perilous. Four sacred relics protect the passage: the Black Feather Quill, the Raven Claw Talisman, the Rune of Nesting, and the Sapphire of Sky. The gem completes the harmony needed to call the sleeping spirits back from the Emerald Dream. Without it, they risk being trapped there forever.",
+   "body": "Druids of the Talon sleep in hibernation within Ban'ethil Barrow Den, deep among Teldrassil's roots. There, they commune with the wilds. Waking from that deep trance is perilous, so four sacred relics guard the passage: the Black Feather Quill, the Raven Claw Talisman, the Rune of Nesting, and the Sapphire of Sky. The gem completes the harmony needed to call the sleeping spirits back from the Emerald Dream. Without it, they may be trapped there forever.",
    "spoiler": 0
   },
   {
    "title": "The Threat in Ban'ethil",
-   "body": "Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, leaving the sacred relics in their repositories. The Sapphire of Sky is secured inside the Chest of the Sky, along the winding underground corridors. The druids still sleep as the furbolgs rampage around them. Athridas Bearmantle in Dolanaar needs the sapphire and its companion relics to wake the sleepers before they are lost forever.",
+   "body": "Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, leaving the sacred relics in their repositories. The Sapphire of Sky lies inside the Chest of the Sky, along the winding underground corridors. The druids still sleep as the furbolgs rampage around them. Athridas Bearmantle in Dolanaar needs the sapphire and its companion relics to wake the sleepers before they are lost forever.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "why get the sapphire",
     "relics of wakening purpose"
    ],
-   "answer": "Corrupted Gnarlpine furbolgs have invaded Ban'ethil Barrow Den and put the sleeping druids in grave danger. Deep in trance, the druids cannot simply wake on their own. Athridas Bearmantle needs the sapphire and the other relics for the delicate wakening ritual before the sleepers are lost forever."
+   "answer": "Corrupted Gnarlpine furbolgs have invaded Ban'ethil Barrow Den and placed the sleeping druids in grave danger. Deep in trance, they cannot simply wake on their own. Athridas Bearmantle needs the sapphire and the other relics for the delicate wakening ritual before the sleepers are lost forever."
   },
   {
    "q": "Who uses this artifact?",
@@ -92,5 +92,5 @@
   "Sapphire of Sky",
   "The Relics of Wakening"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Hillsbrad Fields"
  },
- "summary": "In Hillsbrad Fields, farmers and militia face constant attacks from nearby Tarren Mill. The settlement in western Hillsbrad Foothills is one of the few human communities in former Lordaeron to resist the Scourge and the Scarlet Crusade.",
+ "summary": "In western Hillsbrad Foothills, Hillsbrad Fields face constant attacks from nearby Tarren Mill. Farmers and militia defend one of the few human communities in former Lordaeron to resist the Scourge and the Scarlet Crusade.",
  "sections": [
   {
    "title": "A Defiant Bastion of Lordaeron",
-   "body": "Hillsbrad Fields stretch from Darrow Hill to the Azurelode Mine, where orchards, pumpkin patches, and pastures supply Southshore and the surviving Alliance resistance. The people endured while much of Lordaeron fell to undeath, keeping the royal tabard and heraldry of their fallen kingdom. Magistrate Burnside and the Council of Hillsbrad lead the township as an independent civic body under constant siege. Verringtan, the local blacksmith, and his apprentices arm the people, so farmers and laborers can defend their land.",
+   "body": "Hillsbrad Fields stretch from Darrow Hill to the Azurelode Mine. Orchards, pumpkin patches, and pastures there supply Southshore and the surviving Alliance resistance. While much of Lordaeron fell to undeath, the people endured and kept the royal tabard and heraldry of their fallen kingdom.\n\nMagistrate Burnside and the Council of Hillsbrad lead the township as an independent civic body under constant siege. Verringtan, the local blacksmith, and his apprentices arm farmers and laborers to defend their land.",
    "spoiler": 0
   },
   {
    "title": "Front Line of the Undead Advance",
-   "body": "High Executor Darthalia and the Forsaken forces at Tarren Mill target Hillsbrad's fertile fields. The Undercity sees the thriving human settlement as a threat on its southern flank and directs constant raids against its crops, livestock, councilors, and farmers. Hillsbrad's defenders have formed a hardened militia in response. Farmer Ray and Farmer Getz organize ambushes and fight the undead to protect their homes.",
+   "body": "High Executor Darthalia and the Forsaken forces at Tarren Mill target Hillsbrad's fertile fields. The Undercity sees the thriving human settlement as a threat on its southern flank, so it directs constant raids against crops, livestock, councilors, and farmers. Hillsbrad's defenders have formed a hardened militia in response. Farmer Ray and Farmer Getz organize ambushes and fight the undead to protect their homes.",
    "spoiler": 0
   }
  ],
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Hillsbrad Fields supply food and stand as a symbol of Lordaeron's enduring spirit. Protect them from the Forsaken's attacks."
+   "text": "Hillsbrad Fields supply food and stand as a sign of Lordaeron's enduring spirit. Protect them from the Forsaken's attacks."
   },
   {
    "target": "faction:Horde",
@@ -93,5 +93,5 @@
  "attribution": [
   "Hillsbrad Fields"
  ],
- "style": 1
+ "style": 2
 }

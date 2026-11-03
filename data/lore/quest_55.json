@@ -17,21 +17,21 @@
   "wiki": "Morbent Fel (quest)",
   "chain": []
  },
- "summary": "Above Raven Hill Cemetery, Morbent Fel's wards keep him beyond ordinary steel. Sven Yorgen sends you with Morbent's Bane to break those wards and end the necromancer's terror in western Duskwood.",
+ "summary": "Above Raven Hill Cemetery, Morbent Fel's wards keep ordinary steel from reaching him. Sven Yorgen sends you with Morbent's Bane to break them and end the necromancer's terror in western Duskwood.",
  "sections": [
   {
    "title": "The Perch Above the Dead",
-   "body": "Morbent Fel haunts an abandoned house atop a rocky ridge just east of Sven's camp. The house looks over the sprawl of Raven Hill Cemetery. From there, the necromancer sends waves of undead through the surrounding forest and defiles Duskwood's graves. Dark magic and loyal undead thralls have kept ordinary steel from reaching him.",
+   "body": "Morbent Fel haunts an abandoned house atop a rocky ridge just east of Sven's camp. The house looks over the sprawl of Raven Hill Cemetery. From there, the necromancer sends undead through the surrounding forest and defiles Duskwood's graves. Dark magic and loyal undead thralls keep ordinary steel from reaching him.",
    "spoiler": 0
   },
   {
    "title": "Sven's Vengeance",
-   "body": "Dark forces butchered Sven Yorgen's family and drove him into hiding, leaving him mad with grief. Sven knows the enigmatic Dark Riders of Karazhan were responsible for the massacre at his farm. Morbent Fel's vile sorcery has kept the region's nightmare alive. Striking down the necromancer offers Sven the only tangible shred of justice left in this blighted land.",
+   "body": "Dark forces butchered Sven Yorgen's family and drove him into hiding, leaving him mad with grief. Sven knows the Dark Riders of Karazhan were responsible for the massacre at his farm. Morbent Fel's vile sorcery keeps the region's nightmare alive. Striking down the necromancer offers Sven the only tangible shred of justice left in this blighted land.",
    "spoiler": 1
   },
   {
    "title": "Morbent's Bane",
-   "body": "Morbent Fel's wards turn a direct assault into suicide, deflecting conventional attacks. Sven entrusts you with Morbent's Bane, an enchanted artifact made to unravel that magical shielding. Invoke the relic and the barrier collapses, leaving Fel open to a mortal strike.",
+   "body": "Morbent Fel's wards turn a direct assault into suicide and deflect conventional attacks. Sven entrusts you with Morbent's Bane, an enchanted artifact made to unravel that magical shielding. Invoke the relic and the barrier collapses. Then Fel is open to a mortal strike.",
    "spoiler": 0
   }
  ],
@@ -61,7 +61,7 @@
     "sven yorgen morbent fel",
     "sven revenge"
    ],
-   "answer": "Dark entities stalking Duskwood took Sven Yorgen's family and farm from him. Sven knows the mysterious Dark Riders were responsible for the slaughter, while Morbent Fel's necromantic grip on the countryside embodies the evil plaguing western Duskwood. Destroying Fel gives Sven a target for his vengeance."
+   "answer": "The Dark Riders were responsible for slaughtering Sven Yorgen's family at their farm. Morbent Fel did not commit that massacre, but his necromantic grip on the countryside embodies the evil plaguing western Duskwood. Destroying Fel gives Sven a target for his vengeance."
   },
   {
    "q": "Where can Morbent Fel be found?",
@@ -70,7 +70,7 @@
     "where is morbent fel",
     "morbent house"
    ],
-   "answer": "Morbent Fel lives on the upper floor of a decrepit, ruined house on a hill directly east of Sven Yorgen's camp, overlooking the western side of Raven Hill Cemetery."
+   "answer": "Morbent Fel lives on the upper floor of a decrepit, ruined house on a hill directly east of Sven Yorgen's camp. The house overlooks the western side of Raven Hill Cemetery."
   },
   {
    "q": "Did Morbent Fel kill Sven's family?",
@@ -123,5 +123,5 @@
  "attribution": [
   "Morbent Fel (quest)"
  ],
- "style": 1
+ "style": 2
 }

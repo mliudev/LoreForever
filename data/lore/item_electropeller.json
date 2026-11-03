@@ -10,11 +10,11 @@
    "quest:1580"
   ]
  },
- "summary": "In Darkshore, Wizbang Cranktoggle's electropellers lie scattered in freshwater rivers after a failed night outing.",
+ "summary": "In Darkshore, Electropeller parts lie scattered through freshwater after a night outing went wrong.",
  "sections": [
   {
    "title": "Mishaps along the Riverbank",
-   "body": "Wizbang Cranktoggle built the electropeller to propel an experimental exploding duck decoy. The gnome inventor works out of Auberdine. While scouting Darkshore's waterways after too many drinks, he blacked out. Hours later, he woke with singed hair and an empty pack. His electropellers had tumbled into Darkshore's freshwater currents, where they remain scattered through rivers and lakes until patient anglers recover them.",
+   "body": "Wizbang Cranktoggle built the electropellers to propel an experimental exploding duck decoy. The gnome inventor works out of Auberdine. After too many drinks, he went scouting along Darkshore's waterways and blacked out. Hours later, he woke with singed hair and an empty pack. His electropellers had tumbled into the freshwater currents, where they remain scattered through rivers and lakes until patient anglers recover them.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "how did electropellers get lost",
     "cranktoggle mistake"
    ],
-   "answer": "While scouting Darkshore at night after too many drinks, Wizbang Cranktoggle blacked out. He woke hours later with singed hair and an empty pack; his electropellers had tumbled into the freshwater currents."
+   "answer": "After too many drinks, Wizbang Cranktoggle went scouting in Darkshore at night and blacked out. Hours later, he woke with singed hair and an empty pack. His electropellers had tumbled into the freshwater currents."
   },
   {
    "q": "Where can electropellers be recovered?",
@@ -90,5 +90,5 @@
   "Electropeller",
   "Electropellers"
  ],
- "style": 1
+ "style": 2
 }

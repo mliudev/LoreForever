@@ -10,16 +10,16 @@
    "quest:791"
   ]
  },
- "summary": "At Razor Hill, Furl Scornbrow gathers Canvas Scraps to make travel sacks for new Horde recruits. The cloth comes from human invaders and centaur tribes in Durotar.",
+ "summary": "At Razor Hill, Canvas Scraps go to Furl Scornbrow for travel sacks for new Horde recruits. The cloth comes from human invaders and centaur tribes in Durotar.",
  "sections": [
   {
    "title": "Trophies of Durotar's Enemies",
-   "body": "Kul Tiras marines and sailors carry canvas along Durotar’s eastern shore. Their gear and sails leave scraps behind. Inland, Kolkar centaur reuse coarse cloth taken from supply caravans and past conflicts. Their camps and gear hold scraps that can be salvaged.",
+   "body": "Kul Tiras marines and sailors carry canvas along Durotar’s eastern shore. Their gear and sails leave scraps behind. Inland, Kolkar centaur reuse coarse cloth taken from supply caravans and past conflicts. Their camps and gear hold scraps for salvage.",
    "spoiler": 0
   },
   {
    "title": "A Veteran's Craft",
-   "body": "Furl Scornbrow watches for invaders from the Razor Hill watchtower. The aging veteran has left his fighting days behind, but puts salvaged enemy cloth to use. He stitches it into sturdy carrying bags for younger soldiers, helping the new generation defend the Horde’s borders.",
+   "body": "Furl Scornbrow watches for invaders from the Razor Hill watchtower. The aging veteran has left his fighting days behind, but puts cloth taken from enemies to use. He stitches it into sturdy carrying bags for younger soldiers. The bags help the new generation defend the Horde’s borders.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "what are canvas scraps used for",
     "furl scornbrow canvas"
    ],
-   "answer": "Furl Scornbrow is an aging Orc veteran in the Razor Hill watchtower who can no longer fight on the front lines. He sews the salvaged cloth into traveling sacks for young adventurers."
+   "answer": "Furl Scornbrow is an aging Orc veteran in the Razor Hill watchtower who can no longer fight on the front lines. He sews salvaged cloth into traveling sacks for young adventurers."
   },
   {
    "q": "Why do the Kul Tiras troops and centaur carry canvas?",
@@ -84,5 +84,5 @@
   "Canvas Scraps",
   "Carry Your Weight"
  ],
- "style": 1
+ "style": 2
 }

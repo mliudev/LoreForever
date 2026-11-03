@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Grommash Hold"
  },
- "summary": "In Orgrimmar's Valley of Wisdom, Grommash Hold commands the red cliffs as Thrall's seat. Named for Grommash Hellscream's sacrifice, it is the political heart of the new Horde.",
+ "summary": "In the Valley of Wisdom, Grommash Hold commands the red cliffs as Thrall's seat. Named for Grommash Hellscream's sacrifice, it is the political heart of the new Horde.",
  "sections": [
   {
    "title": "The Seat of the Warchief",
-   "body": "Grommash Hold rises from the cliffs of the Valley of Wisdom, where Thrall receives emissaries, petitioners, and warlords. Its thick stone halls stay dim and chilly, a choice meant to keep those who attend his audiences alert and sober. Thrall weighs the defense of Kalimdor with veteran counselors such as Eitrigg, while racial chieftains like Vol'jin visit the hold.",
+   "body": "Grommash Hold rises from the cliffs of the Valley of Wisdom. Thrall receives emissaries, petitioners, and warlords in its halls. The thick stone rooms stay dim and chilly so those attending his audiences remain alert and sober. With veteran counselors such as Eitrigg, Thrall weighs the defense of Kalimdor. Racial chieftains like Vol'jin visit the hold.",
    "spoiler": 0
   },
   {
    "title": "The Monument to Freedom",
-   "body": "Outside the fortress, Mannoroth's shattered armor and horned skull hang from the trunk of an ancient tree. The memorial honors Grom Hellscream, who gave his life to slay the pit lord in Ashenvale. It recalls the orcs' freedom from the demonic blood curse and warns against returning to reckless savagery.",
+   "body": "Outside the fortress, Mannoroth's shattered armor and horned skull hang from an ancient tree. The memorial honors Grom Hellscream, who gave his life to slay the pit lord in Ashenvale. His sacrifice freed the orcs from the demonic blood curse. The remains also warn against a return to reckless savagery.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who lives in grommash hold",
     "who rules here"
    ],
-   "answer": "Warchief Thrall holds court in Grommash Hold with Horde leaders and advisors, including the orcish elder Eitrigg, Darkspear leader Vol'jin, and warrior Nazgrel."
+   "answer": "Warchief Thrall holds court in Grommash Hold with Horde leaders and advisors. Among them are the orcish elder Eitrigg, Darkspear leader Vol'jin, and warrior Nazgrel."
   },
   {
    "q": "Why is it named Grommash Hold?",
@@ -46,7 +46,7 @@
     "mannoroth skull",
     "bones in front"
    ],
-   "answer": "The giant skull and armor belong to Mannoroth, whose blood first enslaved the orcs on Draenor. The remains were brought from Ashenvale and mounted on a tree trunk outside the hold to honor the Horde's freedom."
+   "answer": "The giant skull and armor outside the hold belong to Mannoroth, whose blood first enslaved the orcs on Draenor. Brought from Ashenvale, the remains were mounted on a tree trunk to honor the Horde's freedom."
   },
   {
    "q": "Why do some city signs call it Thrall's Fortress?",
@@ -55,7 +55,7 @@
     "thralls fortress",
     "hold vs fortress"
    ],
-   "answer": "Orcish guards and older directional signs still call the structure Thrall's Fortress, after the warchief who holds court inside."
+   "answer": "Orcish guards and older directional signs call the structure Thrall's Fortress, after the warchief who holds court inside."
   }
  ],
  "angles": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Grommash Hold"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "The Legend of Stalvan (3)",
   "chain": []
  },
- "summary": "In Moonbrook, The Legend of Stalvan leads back to Darkshire's records. A dusty, unsent letter from an old footlocker proves Stalvan Mistmantle stayed there before his trail went cold.",
+ "summary": "In Moonbrook, The Legend of Stalvan leads you back to Darkshire's records. A dusty, unsent letter from an old footlocker proves Stalvan Mistmantle stayed there before his trail went cold.",
  "sections": [
   {
    "title": "A Forgotten Trace in Moonbrook",
-   "body": "You find a dusty, unsent letter in an old footlocker while tracing Stalvan Mistmantle's past. Moonbrook was once an agricultural settlement, but now lies in ruin, crowded with outlaws and restless specters. Few remember Stalvan's brief stay, yet the letter places him in the hamlet.",
+   "body": "You find a dusty, unsent letter in an old footlocker while tracing Stalvan Mistmantle's past. Moonbrook was once an agricultural settlement, but now lies in ruin, crowded with outlaws and restless specters. Few remember his brief stay, yet the letter places him in the hamlet.",
    "spoiler": 0
   },
   {
    "title": "A Haunting at the Footlocker",
-   "body": "Disturbing the footlocker draws a Forlorn Spirit from the shadows to guard what remains. The spirit attacks with bewitching magic and the debilitating Curse of Stalvan. Sorrow and dark enchantment still cling to Stalvan's belongings.",
+   "body": "Disturbing the footlocker draws a Forlorn Spirit from the shadows to guard what remains. It attacks with bewitching magic and the debilitating Curse of Stalvan. Sorrow and dark enchantment still cling to Stalvan's belongings.",
    "spoiler": 1
   },
   {
    "title": "Updating the Town Registry",
-   "body": "You carry the letter across the border to Darkshire, where Clerk Daltry needs it for the town records. He finds it strange that the letter was never mailed, but the evidence confirms Stalvan's connection to Moonbrook. The records can now point toward where Stalvan fled next.",
+   "body": "You carry the letter across the border to Darkshire, where Clerk Daltry keeps the town records. He finds it strange that the letter was never mailed, but the evidence confirms Stalvan's connection to Moonbrook. The records can now point toward where Stalvan fled next.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "footlocker contents",
     "stalvan letter"
    ],
-   "answer": "The footlocker holds a Dusty Unsent Letter from Stalvan Mistmantle's stay in Moonbrook. It confirms he lived in the town before disappearing."
+   "answer": "The old footlocker holds a Dusty Unsent Letter from Stalvan Mistmantle's stay in Moonbrook. It confirms he lived there before disappearing."
   },
   {
    "q": "Why does a spirit attack when the chest is opened?",
@@ -61,7 +61,7 @@
     "why daltry",
     "darkshire town hall"
    ],
-   "answer": "Clerk Daltry oversees Darkshire's town records and registry. He needs documentation of Stalvan's past whereabouts before he can help track him further."
+   "answer": "Clerk Daltry oversees Darkshire's town records and registry. He needs proof of Stalvan's past whereabouts before he can help track him further."
   },
   {
    "q": "Why is it significant that the letter was never sent?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you can see how a Forlorn Spirit bound to a simple chest of keepsakes carries an emotional burden that did not end in death."
+   "text": "As a priest, you can see how a Forlorn Spirit bound to a simple chest of keepsakes bears an emotional burden that did not end in death."
   },
   {
    "target": "class:Mage",
@@ -123,5 +123,5 @@
  "attribution": [
   "The Legend of Stalvan (3)"
  ],
- "style": 1
+ "style": 2
 }

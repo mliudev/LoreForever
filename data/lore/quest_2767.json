@@ -24,16 +24,16 @@
    "Oglethorpe's Homing Robots"
   ]
  },
- "summary": "After finding the homing robot OOX-22/FE in Feral Scar Vale, you hear the gnome's voice crackle from it once more. The robot is to be escorted to the Forgotten Coast dock, and afterwards Oglethorpe Obnoticus wants a word with you in Booty Bay.",
+ "summary": "In Feral Scar Vale, OOX-22/FE! waits for your help on the way to the Forgotten Coast dock. Once it arrives, Oglethorpe Obnoticus wants to speak with you in Booty Bay.",
  "sections": [
   {
    "title": "A Safe Place to Take Off",
-   "body": "The gnome's voice says OOX-22/FE needs somewhere open and safe where a lengthy take-off can begin. The robot has built-in cloaking, but Oglethorpe Obnoticus needs time to make it work again. Oglethorpe suggests the Forgotten Coast dock, long enough for getting everything running, so the robot is to be walked there from where it stands.",
+   "body": "OOX-22/FE needs an open, safe place for its lengthy take-off. The gnome's voice crackles through the robot as he explains that its built-in cloaking needs time before it works again. Oglethorpe Obnoticus also needs time to make it work. He suggests the Forgotten Coast dock, where everything can be brought online. You escort the robot there from where it stands.",
    "spoiler": 0
   },
   {
    "title": "Afterwards, Booty Bay",
-   "body": "Once the robot is safely at the dock, Oglethorpe Obnoticus wants you to come and talk in Booty Bay.",
+   "body": "Once OOX-22/FE reaches the dock safely, Oglethorpe Obnoticus wants you to speak with him in Booty Bay.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "oox-22/fe destination",
     "feralas chicken escort path"
    ],
-   "answer": "The dock along the Forgotten Coast. It is escorted there from Feral Scar Vale, where you found it."
+   "answer": "OOX-22/FE needs to reach the dock along the Forgotten Coast. You escort it from Feral Scar Vale, where you found it."
   },
   {
    "q": "Who is Oglethorpe Obnoticus?",
@@ -54,7 +54,7 @@
     "who is oglethorpe obnoticus",
     "chicken inventor"
    ],
-   "answer": "A master inventor whose homing robot series includes OOX-22/FE. Oglethorpe speaks through the robot and is found in Booty Bay."
+   "answer": "Oglethorpe Obnoticus is a master inventor whose homing robot series includes OOX-22/FE. He speaks through the robot and can be found in Booty Bay."
   },
   {
    "q": "Why does the robot need to reach the dock?",
@@ -62,7 +62,7 @@
     "why escort oox-22",
     "why walk to the dock"
    ],
-   "answer": "A lengthy take-off needs an open, safe place, and Oglethorpe says the dock is long enough to get things online. The robot's built-in cloaking needs time before it works again."
+   "answer": "The dock offers an open, safe place for the lengthy take-off, and Oglethorpe says there is enough room to get everything online. The robot's built-in cloaking needs time before it works again."
   },
   {
    "q": "Where do I report afterwards?",
@@ -71,7 +71,7 @@
     "turn in location",
     "who do i talk to after"
    ],
-   "answer": "Once the robot is safely at the dock, speak to Oglethorpe Obnoticus in Booty Bay."
+   "answer": "Once OOX-22/FE reaches the dock safely, speak to Oglethorpe Obnoticus in Booty Bay."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Rescue OOX-22/FE!"
- ]
+ ],
+ "style": 2
 }

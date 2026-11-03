@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stonemaul Ruins"
  },
- "summary": "The Stonemaul Ruins are the shattered remnants of Stonemaul Village, once the proud Kalimdor settlement of the Stonemaul ogres. After being driven out by the black dragonflight, the clan fled north, leaving their former home overrun by Firemane dragonspawn.",
+ "summary": "Firemane dragonspawn hold Stonemaul Ruins, the old home of the Stonemaul ogres. Driven out by the black dragonflight, the clan fled north and left its village to the brood.",
  "sections": [
   {
    "title": "Rise and Fall of the Clan Home",
-   "body": "Following their migration to Kalimdor, the Stonemaul ogres founded their settlement amid the murky swamps of Dustwallow Marsh. The village became famous when the beastmaster Rexxar braved the clan's lethal trials, slew their brutal chieftain Kor'gall, and rallied the ogres to defend the nascent Horde against Admiral Proudmoore's forces. After the war, Rexxar left the ogre Mok'Morokk in command. Under Mok'Morokk's selfish rule, the village fell into decline and was ultimately ambushed and shattered by the black dragonflight. The surviving ogres fled north to establish Brackenwall Village, while Onyxia's brood took complete possession of the ruins.",
+   "body": "Stonemaul Village rose in the swamps of Dustwallow Marsh after the ogres came to Kalimdor. The beastmaster Rexxar won their respect by surviving the clan's deadly trials, killing their chieftain Kor'gall, and rallying the ogres to defend the young Horde against Admiral Proudmoore's forces.\n\nAfter the war, Rexxar left Mok'Morokk in command. But the ogre ruled for himself, and the village fell. Then the black dragonflight ambushed and shattered it. The survivors fled north and founded Brackenwall Village. Onyxia's brood claimed the ruins.",
    "spoiler": 0
   },
   {
    "title": "The Struggle for Reclamation",
-   "body": "Today, the ruins are firmly ensconced within Dragonmurk and crawl with Firemane dragonspawn tending the brood's nearby nesting grounds. While Overlord Mok'Morokk grew cowardly and content to languish in Brackenwall, older and prouder clan members like Tharg and Draz'Zilb refuse to abandon their homeland. Operating out of Brackenwall, they urge Horde champions to slaughter the occupying dragonspawn and smash the dragonflight's eggs in hopes that the Stonemaul may one day march back and reclaim their ancestral village.",
+   "body": "Firemane dragonspawn now infest the ruins in Dragonmurk and tend the brood's nearby nesting grounds. Overlord Mok'Morokk has grown cowardly and is content to remain in Brackenwall. Older, prouder clan members Tharg and Draz'Zilb refuse to give up their homeland. From Brackenwall, they urge Horde champions to kill the dragonspawn and smash the dragonflight's eggs. They hope the Stonemaul will march back and reclaim their ancestral village.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "stonemaul ruins history",
     "who built stonemaul village"
    ],
-   "answer": "The Stonemaul clan of ogres built and inhabited the settlement, then known as Stonemaul Village, after arriving on Kalimdor."
+   "answer": "The Stonemaul ogres built and lived in the settlement, then called Stonemaul Village, after they came to Kalimdor."
   },
   {
    "q": "Why was the village abandoned?",
@@ -37,7 +37,7 @@
     "what happened to stonemaul village",
     "who attacked stonemaul"
    ],
-   "answer": "Onyxia's black dragonflight assaulted the settlement and drove the ogres out, turning the village into a nesting outpost for Firemane dragonspawn."
+   "answer": "Onyxia's black dragonflight attacked the village and drove out the ogres. Firemane dragonspawn now use the ruins as a nesting outpost."
   },
   {
    "q": "Where did the surviving ogres go?",
@@ -45,7 +45,7 @@
     "where are the ogres now",
     "stonemaul ogre location"
    ],
-   "answer": "The survivors retreated north into Dustwallow Marsh under Overlord Mok'Morokk and established Brackenwall Village as their temporary stronghold."
+   "answer": "The survivors fled north into Dustwallow Marsh and founded Brackenwall Village under Overlord Mok'Morokk."
   },
   {
    "q": "What was Rexxar's connection to this place?",
@@ -53,7 +53,7 @@
     "rexxar stonemaul",
     "rexxar ogre chieftain"
    ],
-   "answer": "Rexxar came here to enlist the ogres against Kul Tiras. He bested their trial, slew their tyrannical warlord Kor'gall in combat, and briefly served as chieftain before passing leadership to Mok'Morokk."
+   "answer": "Rexxar came to enlist the ogres against Kul Tiras. He passed their trial, killed their tyrannical warlord Kor'gall, and briefly led the clan before handing command to Mok'Morokk."
   },
   {
    "q": "Do the ogres plan to retake the ruins?",
@@ -61,13 +61,13 @@
     "will the ogres go back",
     "retaking stonemaul"
    ],
-   "answer": "Yes. While Mok'Morokk was afraid to act, other Stonemaul leaders like Tharg and Draz'Zilb actively recruit Horde adventurers to culled the Firemane dragonspawn and prepare for retaking their home."
+   "answer": "Yes. Though Mok'Morokk is afraid to act, Stonemaul leaders Tharg and Draz'Zilb recruit Horde adventurers to kill the Firemane dragonspawn and prepare to retake their home."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Stonemaul ogres are staunch allies who shed blood alongside Thrall's Horde against Kul Tiras. Helping them strike back against the black dragonflight honors that pact."
+   "text": "As a member of the Horde, you stand with Stonemaul ogres who fought beside Thrall's Horde against Kul Tiras. Helping them strike back at the black dragonflight honors that pact."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Stonemaul Ruins"
- ]
+ ],
+ "style": 2
 }

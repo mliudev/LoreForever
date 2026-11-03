@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Acquiring Yagyin's Digest to establish a new flock represents a pivotal step in expanding the reach and occult mastery of your dark order."
+   "text": "As a warlock, you seek Yagyin's Digest to gather a new flock and extend your order's occult mastery."
   },
   {
    "target": "race:Undead",
-   "text": "Operating out of the Undercity, Keeper Bel'dugur guides Forsaken practitioners seeking to delve deeper into forbidden rites under the city's shadowed spires."
+   "text": "As an undead, you find Keeper Bel'dugur in the Undercity, where he guides Forsaken practitioners seeking forbidden rites."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "bel'dugur role",
     "beldugur undercity"
    ],
-   "answer": "Keeper Bel'dugur is an occult figure residing in the Undercity who assists members of his dark brotherhood. He guards potent lore and requires candidates to prove their competence before entrusting them with sacred texts.",
+   "answer": "Keeper Bel'dugur lives in the Undercity and aids members of his dark brotherhood. He guards potent lore and asks candidates to prove their worth before entrusting them with sacred texts.",
    "q": "Who is Keeper Bel'dugur?"
   },
   {
@@ -37,7 +37,7 @@
     "yagyins digest purpose",
     "yagyin digest book"
    ],
-   "answer": "Yagyin's Digest is a specialized instructional text necessary for founding and leading a new chapter or gathering a fresh flock within a secretive occult order.",
+   "answer": "Yagyin's Digest is a work of ritual lore needed to found a new chapter or gather followers within a secretive occult order.",
    "q": "What is Yagyin's Digest?"
   },
   {
@@ -46,7 +46,7 @@
     "beldugurs note items",
     "three items of power"
    ],
-   "answer": "Bel'dugur requires three specific items of power. Because their names are too forbidden or perilous to utter aloud, he sets them down quietly in a written note for the petitioner to recover.",
+   "answer": "Bel'dugur asks for three items of power. He writes their names on a private note because he will not speak them aloud.",
    "q": "What items does Keeper Bel'dugur ask for?"
   },
   {
@@ -55,7 +55,7 @@
     "cannot utter names",
     "unspoken item names"
    ],
-   "answer": "Keeper Bel'dugur explicitly notes that he cannot utter the names of these three relics aloud, indicating they possess dark, sacred, or volatile power that demands discretion.",
+   "answer": "Bel'dugur will not speak the names of the three relics aloud. Their peril or sacred significance calls for discretion.",
    "q": "Why are the names of the requested items not spoken aloud?"
   },
   {
@@ -64,7 +64,7 @@
     "opening a chapter",
     "our order chapter"
    ],
-   "answer": "Gathering a flock refers to recruiting followers and establishing a functioning independent chapter of their brotherhood, proving one's readiness to guide other practitioners of the craft.",
+   "answer": "Gathering a flock means recruiting followers and founding an independent chapter of the brotherhood, ready to guide other practitioners.",
    "q": "What does it mean to gather another flock?"
   },
   {
@@ -73,7 +73,7 @@
     "bel'dugur location",
     "quest hand in location"
    ],
-   "answer": "The quest centers around Keeper Bel'dugur, who is stationed within the subterranean Forsaken capital of the Undercity.",
+   "answer": "The story centers on Keeper Bel'dugur in the Undercity, the subterranean Forsaken capital.",
    "q": "Where is this quest centered?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Within the shadowed corridors of the Undercity, ambitious practitioners seeking to lead their own circle turn to Keeper Bel'dugur. To establish a new flock and open a chapter of their order, an aspiring leader requires Yagyin's Digest, an authoritative text of ritual lore guarded by the keeper. Bel'dugur stands ready to support his fellow brother, but demands proof of worthiness before yielding such authority.",
+   "body": "Practitioners who hope to lead their own circle come to Keeper Bel'dugur in the Undercity. To found a chapter and gather followers, they need Yagyin's Digest, a work of ritual lore in his keeping. Bel'dugur will aid a brother, but first he asks for proof of worthiness before entrusting him with such knowledge.",
    "spoiler": 0,
    "title": "A Test of Brotherhood"
   },
   {
-   "body": "Keeper Bel'dugur will not part with Yagyin's Digest lightly. He requires three distinct items of power to fulfill his side of the exchange. These relics carry such perilous or sacred significance that their names cannot even be spoken aloud; Bel'dugur instead pens them onto a private note. Only a practitioner capable of tracking down and retrieving all three unspoken artifacts proves worthy of founding their own chapter.",
+   "body": "Keeper Bel'dugur asks for three items of power in exchange for Yagyin's Digest. Their names carry peril or sacred weight, so he will not speak them aloud. Instead, he writes them on a private note. Finding all three proves a practitioner worthy of founding a chapter of their own.",
    "spoiler": 0,
    "title": "The Unspoken Relics"
   }
  ],
- "summary": "The Star, the Hand and the Heart is an Undercity quest wherein Keeper Bel'dugur tests an aspiring leader seeking to establish a new chapter of their order. To earn the essential Yagyin's Digest, the petitioner must track down three items of power whose names Bel'dugur dares not speak aloud.",
+ "summary": "In the Undercity, Keeper Bel'dugur tests those who seek to lead their own circle. To found a new chapter, they need Yagyin's Digest, but he asks for three unnamed items of power.",
  "attribution": [
   "In-game quest text: The Star, the Hand and the Heart"
- ]
+ ],
+ "style": 2
 }

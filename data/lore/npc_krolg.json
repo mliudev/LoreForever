@@ -8,16 +8,16 @@
   "wiki": "Krolg",
   "refs": 3
  },
- "summary": "South of Mystral Lake, Krolg lives uncorrupted in an isolated hut in Ashenvale. Cast out from the Foulweald tribe, he kept his sanity when his kin fell to demonic madness. He speaks only with those who appear to be furbolgs.",
+ "summary": "In a hut south of Mystral Lake, Krolg keeps his mind while his kin fall to madness. Cast out from the Foulweald tribe, he speaks only with those who appear to be furbolgs.",
  "sections": [
   {
    "title": "A Mind Unbroken",
-   "body": "South of Mystral Lake, Krolg remains lucid and untouched by madness. Most Foulweald furbolgs in Ashenvale have succumbed to the demonic taint left by the Burning Legion. In his secluded shelter, Krolg keeps a cautious vigil over the forest. He witnessed his brethren descend into senseless violence, and now speaks only with beings who appear to be kin.",
+   "body": "South of Mystral Lake, Krolg watches the forest from his secluded shelter. He remains lucid while most Foulweald furbolgs in Ashenvale succumb to the demonic taint left by the Burning Legion. He saw his brethren descend into senseless violence. Now he speaks only with those who appear to be kin.",
    "spoiler": 0
   },
   {
    "title": "Dartol's Legacy",
-   "body": "Dartol's Rod of Transformation lets Alliance travelers take the shape of furbolgs. Seeing what seems to be a friendly kindred spirit, Krolg shares ways to cleanse the land. He sends heroes against Ran Bloodtooth and his guards, whose corruption and hatred threaten the forest.",
+   "body": "Dartol's Rod of Transformation lets Alliance travelers appear as furbolgs. Seeing what seems to be a friendly kindred spirit, Krolg shares ways to cleanse the land. He sends heroes against Ran Bloodtooth and his guards. Their corruption and hatred threaten the forest.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "cant talk to krolg",
     "why is krolg silent"
    ],
-   "answer": "Krolg distrusts outsiders and fears the violent chaos consuming the forest. He ignores you unless Dartol's Rod of Transformation has made you appear to be a furbolg during Raene's Cleansing."
+   "answer": "Krolg distrusts outsiders and fears the violence consuming the forest. He ignores you unless Dartol's Rod of Transformation makes you appear to be a furbolg during Raene's Cleansing."
   },
   {
    "q": "Where can Krolg be found?",
@@ -46,7 +46,7 @@
     "krolg tribe",
     "is krolg foulweald"
    ],
-   "answer": "Krolg was once part of the Foulweald tribe. His kin fell to corruption and demonic frenzy, but he kept his sanity and was cast out."
+   "answer": "Krolg once belonged to the Foulweald tribe. His kin fell to corruption and demonic frenzy, but he kept his sanity and was cast out."
   },
   {
    "q": "Is Krolg hostile to players?",
@@ -109,5 +109,5 @@
  "attribution": [
   "Krolg"
  ],
- "style": 1
+ "style": 2
 }

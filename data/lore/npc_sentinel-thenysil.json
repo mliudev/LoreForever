@@ -8,21 +8,21 @@
   "wiki": "Sentinel Thenysil",
   "refs": 3
  },
- "summary": "In Astranaar, Sentinel Tara Thenysil watches Ashenvale and the southern road into Stonetalon. She tracks military movements and keeps scouts watching neighboring lands, with special attention on allied forces moving south.",
+ "summary": "In Astranaar, Sentinel Thenysil watches Ashenvale and the road south into Stonetalon. She tracks military movements and keeps scouts in neighboring lands, especially where allied forces move south.",
  "sections": [
   {
    "title": "Watching the Borders",
-   "body": "At her post in Astranaar, Sentinel Thenysil helps guard Ashenvale as hostility grows. Night elf lands across the region face steady encroachment, so outposts must stay in contact. While much of the garrison defends the forest road, Thenysil sends Alliance volunteers beyond Ashenvale to support distant allies.",
+   "body": "At her post in Astranaar, Sentinel Thenysil helps guard Ashenvale as hostility grows. Night elf lands across the region face steady encroachment, so the outposts must keep in touch. Much of the garrison defends the forest road. Thenysil sends Alliance volunteers beyond Ashenvale to aid distant allies.",
    "spoiler": 0
   },
   {
    "title": "Ties to Stonetalon",
-   "body": "Sentinel Thenysil shares a close friendship and military bond with Kaela Shadowspear, an operative sent south into the Stonetalon Mountains. When she learns Kaela was sent with an eccentric gnome mage, Thenysil takes the strange pairing as a sign of serious trouble in the peaks. Concerned for her comrade, she sends capable travelers south with support and asks them to report on the mission.",
+   "body": "Sentinel Thenysil shares a close friendship and military bond with Kaela Shadowspear, an operative sent into the Stonetalon Mountains. When Thenysil learns Kaela was sent with an eccentric gnome mage, she takes the strange pairing as a sign of serious trouble in the peaks. Concerned for her comrade, she sends capable travelers south to support them and asks for a report on the mission.",
    "spoiler": 0
   },
   {
    "title": "Audience in the Canopy",
-   "body": "Scouts return from Stonetalon with word that their strikes have driven back the Venture Company’s defiling operations. Sentinel Thenysil knows that halting the company’s mechanized exploitation protects the neighboring wilds as well. She commends the heroes and sends them to the Temple of the Moon in Darnassus, where High Priestess Tyrande Whisperwind will receive them.",
+   "body": "Scouts return from Stonetalon with word that their strikes have driven back the Venture Company’s defiling operations. Sentinel Thenysil knows that stopping the company’s mechanized exploitation also protects the neighboring wilds. She commends the heroes, then sends them to the Temple of the Moon in Darnassus. There, High Priestess Tyrande Whisperwind will receive them.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "where is sentinel thenysil",
     "thenysil astranaar"
    ],
-   "answer": "Sentinel Thenysil is stationed in Astranaar, the main night elf stronghold along Ashenvale’s central road."
+   "answer": "Sentinel Thenysil is stationed in Astranaar, the main night elf stronghold on Ashenvale’s central road."
   },
   {
    "q": "Why does Thenysil send travelers to Stonetalon Mountains?",
@@ -43,7 +43,7 @@
     "thenysil quest stonetalon",
     "on guard in stonetalon why"
    ],
-   "answer": "Thenysil sends travelers south because her friend Kaela Shadowspear was deployed to Stonetalon with a gnome mage. She sees the unusual pairing as a sign of danger and sends dependable travelers to support Kaela’s mission."
+   "answer": "Thenysil sends travelers south because her friend Kaela Shadowspear was sent to Stonetalon with a gnome mage. She takes the unusual pairing as a sign of danger and sends dependable travelers to support Kaela’s mission."
   },
   {
    "q": "Who is Kaela Shadowspear?",
@@ -70,7 +70,7 @@
     "why see tyrande",
     "thenysil darnassus referral"
    ],
-   "answer": "After travelers help Kaela Shadowspear halt the Venture Company’s schemes, Thenysil sends them to Darnassus. High Priestess Tyrande Whisperwind will personally acknowledge their service to the night elves."
+   "answer": "After travelers help Kaela Shadowspear halt the Venture Company’s schemes, Thenysil sends them to Darnassus. High Priestess Tyrande Whisperwind will acknowledge their service to the night elves."
   },
   {
    "q": "What is Sentinel Thenysil's role in Astranaar?",
@@ -79,7 +79,7 @@
     "what does thenysil do",
     "sentinel thenysil duties"
    ],
-   "answer": "Thenysil watches regional intelligence and the borders from Astranaar, and sends reliable Alliance recruits to support distant garrisons."
+   "answer": "From Astranaar, Thenysil watches regional intelligence and the borders. She sends reliable Alliance recruits to support distant garrisons."
   }
  ],
  "angles": [
@@ -89,7 +89,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer, you may find in Thenysil a link between Ashenvale and Stonetalon, with a chance to earn favor with Darnassus’s leaders."
+   "text": "As an Alliance adventurer, you may find in Thenysil a link between Ashenvale and Stonetalon, and a chance to earn favor with Darnassus’s leaders."
   },
   {
    "target": "race:Gnome",
@@ -119,5 +119,5 @@
  "attribution": [
   "Sentinel Thenysil"
  ],
- "style": 1
+ "style": 2
 }

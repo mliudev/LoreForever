@@ -17,16 +17,16 @@
   "wiki": "Washte Pawne (quest)",
   "chain": []
  },
- "summary": "Across the southern Barrens, Washte Pawne's quill leaves a sting that hunters carry to Jorn Skyseer at Camp Taurajo. Its pain makes the hunt a trial of regret for the tauren.",
+ "summary": "Across the southern Barrens, Washte Pawne's feather leaves hunters with a pain they carry to Jorn Skyseer at Camp Taurajo. For the tauren, the hunt becomes a trial of regret.",
  "sections": [
   {
    "title": "The Spirit Biter",
-   "body": "Thunderhawks are elusive creatures of the Barrens, and wandering nomadic tribes treat them with reverence. Washte Pawne means “Spirit Biter” in Taurahe and holds a special place among them. Its death is no ordinary hunt: shamans whisper that striking down a thunderhawk can bring omens of triumph or misfortune.",
+   "body": "Thunderhawks are hard to find in the Barrens, and the nomadic tribes honor them. In Taurahe, Washte Pawne means “Spirit Biter.” Its death is no ordinary hunt. Shamans whisper that striking down a thunderhawk may bring triumph or misfortune.",
    "spoiler": 0
   },
   {
    "title": "A Lesson in Regret",
-   "body": "After Washte Pawne falls, its feather burns with a pain that lingers on the skin. Jorn Skyseer at Camp Taurajo explains that the ache is not poison, but regret. Taking a magnificent life bears a burden. The hunter must face that sorrow and turn it into lasting wisdom.",
+   "body": "After Washte Pawne falls, its feather burns against the skin with a pain that lingers. At Camp Taurajo, Jorn Skyseer explains that the ache is regret, not poison. Taking a magnificent life carries a burden. The hunter must face that sorrow and turn it into lasting wisdom.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is washte pawne",
     "taurahe meaning spirit biter"
    ],
-   "answer": "In Taurahe, the language spoken by the tauren, Washte Pawne means “Spirit Biter.” It is the name of a rare thunderhawk that soars over the southern Barrens."
+   "answer": "In Taurahe, the language of the tauren, Washte Pawne means “Spirit Biter.” The name belongs to a rare thunderhawk that soars over the southern Barrens."
   },
   {
    "q": "Why does Washte Pawne's feather cause pain?",
@@ -46,7 +46,7 @@
     "why does feather hurt",
     "washte pawne feather sting"
    ],
-   "answer": "Jorn Skyseer says the feather’s sting is the sharp pain of regret. It reflects the spiritual cost of ending the life of a magnificent creature."
+   "answer": "Jorn Skyseer says the feather's sting is the sharp pain of regret. It reflects the spiritual cost of ending a magnificent creature's life."
   },
   {
    "q": "Who do I bring Washte Pawne's Feather to?",
@@ -62,7 +62,7 @@
     "thunderhawk omen",
     "is killing thunderhawks bad"
    ],
-   "answer": "Tauren tradition says a thunderhawk’s death can herald great fortune or immense doom. Jorn says Washte Pawne’s fall brings neither fate on its own; the hunter must make wisdom from remorse."
+   "answer": "Tauren tradition says a thunderhawk's death can herald great fortune or immense doom. Jorn says Washte Pawne's fall brings neither fate by itself; the hunter must make wisdom from remorse."
   },
   {
    "q": "Where is Washte Pawne found?",
@@ -78,13 +78,13 @@
     "jorn skyseer reaction",
     "does jorn get mad"
    ],
-   "answer": "Jorn does not condemn you. He sees that enduring the quill’s pain means you have mastered regret, turning spiritual grief into strength and understanding."
+   "answer": "Jorn does not condemn you. He sees that bearing the quill's pain means you have mastered regret and turned spiritual grief into strength and understanding."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the Shu'halo, taking Spirit Biter's life is a sacred lesson in respecting nature's balance. It teaches you to turn regret into inner wisdom."
+   "text": "For the Shu'halo, taking Spirit Biter's life teaches respect for nature's balance. It asks you to turn regret into inner wisdom."
   },
   {
    "target": "class:Hunter",
@@ -92,11 +92,11 @@
   },
   {
    "target": "class:Shaman",
-   "text": "The lingering sting of the thunderhawk's feather reveals the wild's spiritual force, a resonance you can recognize as a shaman who studies elemental harmonies."
+   "text": "The thunderhawk's lingering sting reveals the wild's spiritual force. As a shaman, you can recognize its resonance with elemental harmonies."
   },
   {
    "target": "faction:Horde",
-   "text": "At Camp Taurajo, you find a spiritual and hunting crossroads for the Horde, where young warriors face tests of conscience and martial skill."
+   "text": "At Camp Taurajo, you find a spiritual and hunting crossroads for the Horde. Young warriors face tests of conscience and martial skill."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Washte Pawne (quest)"
  ],
- "style": 1
+ "style": 2
 }

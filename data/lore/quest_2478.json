@@ -17,21 +17,21 @@
   "wiki": "Mission: Possible But Not Probable",
   "chain": []
  },
- "summary": "In the northern Barrens, Horde rogues face a Venture Company outpost that tests stealth, theft, and combat. They infiltrate an oil tower, kill Grand Foreman Puzik Gallywix, and take a potent chemical brew for the Shattered Hand.",
+ "summary": "In the northern Barrens, Horde rogues infiltrate a Venture Company outpost to steal a potent brew for the Shattered Hand. Their work tests stealth, theft, and combat.",
  "sections": [
   {
    "title": "Infiltration of the Venture Co.",
-   "body": "North of the Sludge Fen oil rigs, the Venture Company keeps an isolated drilling tower. Taskmaster Fizzule, a Shattered Hand operative posing as a Venture Company supervisor, orders rogues to rely on underworld craft instead of an open assault. He asks them to pick the key from Foreman Silixiz and keep it for him. Then they climb past workers and sentries changed by the tower’s experiments.",
+   "body": "North of the Sludge Fen oil rigs, the Venture Company keeps an isolated drilling tower. Taskmaster Fizzule, a Shattered Hand operative posing as a Venture Company supervisor, sends rogues to use underworld craft instead of attacking openly. He asks them to pick the key from Foreman Silixiz and keep it for him. Then they climb past workers and sentries changed by the tower’s experiments.",
    "spoiler": 0
   },
   {
    "title": "A Chemical Catastrophe",
-   "body": "An experimental substance called Zanzil's Altered Mixture has changed the tower’s inhabitants. The venom weakens the guards, leaving them open to swift strikes, bleeding attacks, and sudden ambushes. It has also made the facility volatile. At the summit, Grand Foreman Puzik Gallywix guards a lockbox holding the brew.",
+   "body": "Zanzil's Altered Mixture has changed the tower’s inhabitants. Its venom weakens the guards, leaving them open to swift strikes, bleeding attacks, and sudden ambushes. The substance has also made the facility volatile. At the summit, Grand Foreman Puzik Gallywix guards a lockbox holding the brew.",
    "spoiler": 1
   },
   {
    "title": "The Price of Duty",
-   "body": "The altered mixture’s vapors escape when the rogue opens Gallywix’s lockbox. They break stealth, sap vitality, and leave a debilitating affliction that lasts a long time. Back in Orgrimmar, Shenthul, the Shattered Hand mentor, receives Gallywix’s head and the chemical sample. He mourns Fizzule’s compromised position and sends the dying agent to seek a cure.",
+   "body": "The altered mixture’s vapors escape when you open Gallywix’s lockbox. They break your stealth, sap your vitality, and leave a debilitating affliction that lasts a long time. Back in Orgrimmar, Shenthul, the Shattered Hand mentor, receives Gallywix’s head and the chemical sample. He mourns Fizzule’s compromised position and sends the dying agent to seek a cure.",
    "spoiler": 2
   }
  ],
@@ -52,7 +52,7 @@
     "how to get tower key",
     "where is the key"
    ],
-   "answer": "Foreman Silixiz carries the tower key and wanders the grounds outside its base. Pick his pocket while hidden to take it; killing him will not yield the key."
+   "answer": "Foreman Silixiz carries the tower key and wanders the grounds outside its base. Pick his pocket while hidden to take it. Killing him will not yield the key."
   },
   {
    "q": "What is Zanzil's Altered Mixture?",
@@ -61,7 +61,7 @@
     "what is the poison",
     "altered mixture"
    ],
-   "answer": "Zanzil's Altered Mixture is an alchemical brew drawn from the formulas of the notorious troll witch doctor Zanzil. The Venture Company acquired it, and its unstable fumes poisoned the tower’s workforce, leaving them sickly, mutated, and vulnerable to rogue combat arts."
+   "answer": "Zanzil's Altered Mixture is an alchemical brew drawn from the formulas of the notorious troll witch doctor Zanzil. The Venture Company acquired it, and its unstable fumes poisoned the tower’s workforce. They left the workers sickly, mutated, and vulnerable to rogue combat arts."
   },
   {
    "q": "Why am I unable to stealth after opening the lockbox?",
@@ -80,7 +80,7 @@
     "who gave this quest",
     "fizzule lore"
    ],
-   "answer": "Taskmaster Fizzule is a deep-cover operative for the Shattered Hand, the Horde’s rogue guild. The Dark Iron dwarf poses as a ruthless Venture Company taskmaster in the Barrens and directs recruits to sabotage the company’s assets without exposing himself."
+   "answer": "Taskmaster Fizzule is a deep-cover operative for the Shattered Hand, the Horde’s rogue guild. The Dark Iron dwarf poses as a ruthless Venture Company taskmaster in the Barrens. He directs recruits to sabotage the company’s assets without exposing himself."
   },
   {
    "q": "Who is Grand Foreman Puzik Gallywix?",
@@ -127,5 +127,5 @@
  "attribution": [
   "Mission: Possible But Not Probable"
  ],
- "style": 1
+ "style": 2
 }

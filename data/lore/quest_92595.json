@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Illaya notes that while trained shamans naturally commune with the elements, the gift of skysight can manifest in others as well, highlighting the Windshapers' shared spiritual duty with elemental callers."
+   "text": "As a shaman, you may commune with the elements through training, but skysight can appear in others too. The Windshapers share this spiritual duty with elemental callers."
   },
   {
    "target": "race:Skyborne",
-   "text": "The Windshapers fight for the very survival and home of the Shen'dorei amidst the precarious heights of Skywall and Zephras."
+   "text": "As a Skyborne, you know the Windshapers fight for the Shen'dorei's survival and home amid the perils of Skywall and Zephras."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "windshapers faction",
     "what do windshapers do"
    ],
-   "answer": "The Windshapers are a group dedicated to communing with the spirits of the winds and safeguarding their people, the Shen'dorei. Guided by leaders like Illaya Amberwind, they seek out individuals gifted with skysight to restore dialogue with the wind spirits and preserve their imperiled homeland.",
+   "answer": "The Windshapers commune with the wind spirits and protect the Shen'dorei. Guided by Illaya Amberwind, they seek people gifted with skysight to restore their bond with the spirits and preserve their imperiled homeland.",
    "q": "Who are the Windshapers?"
   },
   {
@@ -36,7 +36,7 @@
     "what is skysight",
     "skysight lore"
    ],
-   "answer": "Skysight is an innate spiritual sensitivity or gift that allows individuals to connect with the aerial elements. As Illaya explains, a person does not need formal training as a shaman to possess skysight, though commanding it is essential for reaching the spirits of the winds.",
+   "answer": "Skysight is an inborn spiritual sensitivity that lets a person connect with the aerial elements. Formal shaman training is not needed, but commanding skysight is essential to reaching the spirits of the winds.",
    "q": "What is skysight?"
   },
   {
@@ -44,7 +44,7 @@
     "who is illaya",
     "illaya amberwind"
    ],
-   "answer": "Illaya Amberwind is a Windshaper mentor who recognizes spiritual gifts in travelers. She welcomes those possessing skysight, explaining the mandate of the Windshapers, the peril facing Zephras, and the trials confronting the Shen'dorei.",
+   "answer": "Illaya Amberwind guides the Windshapers and recognizes spiritual gifts in travelers. She welcomes those with skysight and explains the order's work, the peril facing Zephras, and the trials confronting the Shen'dorei.",
    "q": "Who is Illaya Amberwind?"
   },
   {
@@ -52,7 +52,7 @@
     "what is zephras",
     "zephras lore"
    ],
-   "answer": "Zephras is an aerial land or settlement enduring severe hardships and internal unrest. The Windshapers are actively struggling to protect Zephras and preserve a future for their people there.",
+   "answer": "Zephras is an aerial land or settlement enduring severe hardships and internal unrest. The Windshapers struggle to protect it and preserve a future for their people there.",
    "q": "What is Zephras?"
   },
   {
@@ -60,7 +60,7 @@
     "who are the al'aketh",
     "alaketh threat"
    ],
-   "answer": "The Al'Aketh are an internal hostile faction or threat troubling the Windshapers and the Shen'dorei, compounding the dangers of surviving within Skywall.",
+   "answer": "The Al'Aketh are a hostile faction within, troubling the Windshapers and the Shen'dorei. Their threat adds to the dangers of surviving within Skywall.",
    "q": "Who are the Al'Aketh?"
   },
   {
@@ -68,7 +68,7 @@
     "who are shendorei",
     "shen'dorei lore"
    ],
-   "answer": "The Shen'dorei are the people represented by the Windshapers. Facing internal threats like the Al'Aketh and precarious conditions in Skywall, their survival hinges on the Windshapers restoring balance with the winds.",
+   "answer": "The Shen'dorei are the people the Windshapers seek to protect. The Al'Aketh and perilous conditions in Skywall threaten their survival, so the Windshapers seek to secure it by restoring balance with the winds.",
    "q": "Who are the Shen'dorei?"
   }
  ],
@@ -87,18 +87,19 @@
  ],
  "sections": [
   {
-   "body": "The Windshapers are an order dedicated to communing with the wind spirits and protecting the Shen'dorei. Welcoming those with innate spiritual perception, they seek to bridge the growing rift between their people and the elemental forces that sustain their aerial realm. Illaya Amberwind guides new recruits into understanding the heavy burdens the order carries.",
+   "body": "Illaya Amberwind welcomes new recruits into the Windshapers, who commune with the wind spirits and protect the Shen'dorei. The order seeks those born with spiritual perception. They hope to mend the growing rift between their people and the elemental forces that sustain their aerial realm. Every Windshaper bears that burden.",
    "spoiler": 0,
    "title": "Mandate of the Windshapers"
   },
   {
-   "body": "Survival in Skywall is far from assured. The Windshapers must navigate treacherous internal turmoil caused by the Al'Aketh while enduring the wider perils of the elemental plane. Re-establishing dialogue with the spirits of the winds is deemed vital if Zephras is to endure and the Shen'dorei are to weather the storm.",
+   "body": "The Al'Aketh bring turmoil within Skywall, and the elemental plane holds dangers of its own. The Windshapers believe Zephras can endure and the Shen'dorei can weather the storm only if they restore their bond with the spirits of the winds.",
    "spoiler": 0,
    "title": "Trials on Zephras"
   }
  ],
- "summary": "\"The Windshapers\" is a quest in which Illaya Amberwind introduces the player to the Windshapers and their spiritual mission. Tasked with reconnecting with the wind spirits, the order strives to protect Zephras and ensure the survival of the Shen'dorei amidst threats within Skywall.",
+ "summary": "Among the wind spirits, The Windshapers seek a way to keep Zephras and the Shen'dorei alive. Illaya Amberwind welcomes new recruits to their work, as dangers gather in Skywall.",
  "attribution": [
   "In-game quest text: The Windshapers"
- ]
+ ],
+ "style": 2
 }

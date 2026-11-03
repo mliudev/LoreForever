@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Vessel of Dark Sorcery",
-   "body": "Northeast of Maestra's Post, the ruins of Ordil'Aran shelter members of the Cult of the Dark Strand and their shadowy masters. The cult's operatives carry Glowing Soul Gems, enchanted vessels that trap and torment the souls of the dead. These stones channel magical energy and bind spirits to the cult's ends.",
+   "body": "Northeast of Maestra's Post, the ruins of Ordil'Aran shelter the Cult of the Dark Strand and its shadowy masters. The cult's operatives carry Glowing Soul Gems, enchanted vessels that trap and torment the souls of the dead. The stones channel magical energy and bind spirits to the cult's ends.",
    "spoiler": 0
   },
   {
    "title": "The Secrets of Ordil'Aran",
-   "body": "At Maestra's Post, Delgren the Purifier investigates the gems to weaken the Dark Strand's influence across northern Kalimdor. Deciphering a Glowing Soul Gem's enchantments reveals dark arcane formulas and an imprisoned soul crying out from within. The formulas expose experiments linking the cultists in Ashenvale to their kin at the Tower of Althalaxx.",
+   "body": "At Maestra's Post, Delgren the Purifier studies the gems to weaken the Dark Strand's influence across northern Kalimdor. Their enchantments hold dark arcane formulas and an imprisoned soul crying out from within. The formulas reveal experiments linking the cultists in Ashenvale to their kin at the Tower of Althalaxx.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "soul gem darkshore",
     "glowing soul gem lore"
    ],
-   "answer": "The Cult of the Dark Strand uses the Glowing Soul Gem as an enchanted soulstone. Shadow magic traps spirits inside, so the cult can harness their essence for its sorcery."
+   "answer": "The Cult of the Dark Strand uses the Glowing Soul Gem as an enchanted soulstone. Shadow magic traps spirits inside, letting the cult harness their essence for sorcery."
   },
   {
    "q": "Where does this soul gem come from?",
@@ -40,7 +40,7 @@
     "glowing soul gem location",
     "ordil'aran gem"
    ],
-   "answer": "Members of the Cult of the Dark Strand carry the gem from the ruins of Ordil'Aran in northern Ashenvale. Its bearers include cultists, assassins, enforcers, and adepts."
+   "answer": "Members of the Cult of the Dark Strand carry the gem from the ruins of Ordil'Aran in northern Ashenvale. Its bearers include cultists, assassins, enforcers and adepts."
   },
   {
    "q": "Who wants this soul gem and why?",
@@ -49,7 +49,7 @@
     "why delgren wants soul gem",
     "maestra's post soul gem"
    ],
-   "answer": "Delgren the Purifier at Maestra's Post seeks the gem. He believes its enchantments will reveal the secret source of the cult's power and what they are plotting."
+   "answer": "At Maestra's Post, Delgren the Purifier seeks the gem. He believes its enchantments will reveal the secret source of the cult's power and what they are plotting."
   },
   {
    "q": "What happens when the soul gem is deciphered?",
@@ -91,5 +91,5 @@
   "Glowing Soul Gem",
   "The Tower of Althalaxx (4)"
  ],
- "style": 1
+ "style": 2
 }

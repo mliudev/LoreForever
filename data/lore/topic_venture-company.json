@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Venture Company"
  },
- "summary": "The Venture Company is a notoriously ruthless goblin cartel focused on aggressive resource extraction, heavy industrial machinery, and logging. Unaligned with the major goblin ports like Booty Bay or Ratchet, the cartel strip-mines and clear-cuts territories across Kalimdor and the Eastern Kingdoms without regard for local populations or the natural world.",
+ "summary": "Across Kalimdor and the Eastern Kingdoms, Venture Company crews strip-mine and clear-cut land, heedless of its people and nature. Mogul Razdunk directs the ruthless goblin cartel from afar. Its crews seek raw materials with heavy machinery, away from major goblin ports like Booty Bay and Ratchet.",
  "sections": [
   {
    "title": "Industrial Plunder",
-   "body": "Led overall by Mogul Razdunk from afar, the Venture Company operates by a simple corporate philosophy: if it can be chopped down, drilled into, or blasted out of a mountain, they will exploit it. The cartel deploys some of the most advanced heavy machinery on Azeroth, including massive lumber-harvesting shredders, drilling rigs, and industrial refineries. Unlike traditional merchant houses that focus on shipping or retail, the Venture Company specializes in seizing raw resources by force, ignoring treaties, borders, and local sovereign rights.",
+   "body": "Venture Company crews tear into the land for raw materials. Mogul Razdunk directs the cartel from afar, and workers wield heavy machinery across Azeroth. Shredders harvest timber, drilling rigs bore into the earth, and refineries process what they find. The cartel takes resources by force, ignoring treaties, borders, and local rights.",
    "spoiler": 0
   },
   {
    "title": "Encroaching on Kalimdor",
-   "body": "The cartel's rapid expansion into Kalimdor has earned them widespread enmity. In Mulgore, Supervisor Fizsprocket pushed drilling and mining rigs into the eastern bluffs despite being formally denied mineral rights by the tauren, polluting pristine water wells across the plains. Farther north, the company turned the Barrens' Sludge Fen into a chemical sewer to power oil pumps, while claiming the Horde's former Boulder Lode Mine and running foul experiments with samophlanges and toxic brews. In Stonetalon's Windshear Crag, logging operations under the mad leper gnome Gerenzo Wrenchwhistle have decimated whole groves with colossal Super Reaper 6000 machines.",
+   "body": "Across Kalimdor, Venture Company crews have made enemies. In Mulgore, Supervisor Fizsprocket sent drills and mining rigs into the eastern bluffs, though the tauren had denied the cartel mineral rights. The work polluted water wells across the plains. Farther north, the cartel turned the Barrens' Sludge Fen into a chemical sewer for its oil pumps. It also claimed the Horde's former Boulder Lode Mine, where it conducted dangerous experiments with samophlanges and toxic brews.\n\nAt Windshear Crag in Stonetalon, Gerenzo Wrenchwhistle directs the logging crews. The mad leper gnome's colossal Super Reaper 6000 machines have felled whole groves.",
    "spoiler": 1
   },
   {
    "title": "Corporate Rivalries and Shady Contracts",
-   "body": "The Venture Company is widely despised even by fellow goblins. Baron Revilgaz of Booty Bay frequently contracts out strikes against their base camp and oil rig at Lake Nazferiti, seeking both to thwart their territorial encroachment and steal their cutting-edge shredder fuel regulators. The Tinkers' Union in Ratchet openly runs corporate espionage against them to pilfer engineering blueprints. Worse still, SI:7 and the Shattered Hand have discovered the company trafficking dangerous alchemical compounds: selling Zanzil's deadly mind-altering poisons to Defias necromancers in Westfall and utilizing toxic fumes to breed mutated drone laborers.",
+   "body": "Venture Company has angered fellow goblins and made other enemies. Baron Revilgaz of Booty Bay often hires crews to strike the cartel's base camp and oil rig at Lake Nazferiti. He means to halt their encroachment and take their advanced shredder fuel regulators. Ratchet's Tinkers' Union spies on the cartel to steal engineering plans.\n\nSI:7 and the Shattered Hand have uncovered the cartel's trade in dangerous alchemical compounds. It sells Zanzil's mind-altering poisons to Defias necromancers in Westfall. Toxic fumes also help it breed mutated drone laborers.",
    "spoiler": 2
   }
  ],
@@ -34,7 +34,7 @@
     "who runs venture co",
     "mogul razdunk"
    ],
-   "answer": "The president of the cartel is Mogul Razdunk, who governs the organization's overarching corporate ventures from afar. Day-to-day work sites across Azeroth are overseen by regional supervisors, foremen, and hired overseers such as Supervisor Fizsprocket in Mulgore, Supervisor Lugwizzle at the Sludge Fen, and Gerenzo Wrenchwhistle in Stonetalon."
+   "answer": "Mogul Razdunk leads Venture Company from afar and directs its larger ventures. Regional supervisors, foremen, and hired overseers run work sites across Azeroth. They include Supervisor Fizsprocket in Mulgore, Supervisor Lugwizzle at the Sludge Fen, and Gerenzo Wrenchwhistle in Stonetalon."
   },
   {
    "q": "Why does the Horde hate the Venture Company?",
@@ -43,7 +43,7 @@
     "why horde hate venture co",
     "mulgore venture company"
    ],
-   "answer": "The cartel operates illegal, aggressive resource sites on ancestral Horde lands. In Mulgore, they invaded the eastern mountains without permission and fouled the sacred water wells of the tauren. In the Barrens, they seized the Horde's Boulder Lode Mine and polluted the Sludge Fen into a noxious oil slick."
+   "answer": "The Horde hates Venture Company for exploiting lands it considers ancestral. In Mulgore, the cartel entered the eastern mountains without permission and fouled the tauren's sacred water wells. In the Barrens, it seized the Horde's Boulder Lode Mine and fouled the Sludge Fen with a noxious oil slick."
   },
   {
    "q": "Are they affiliated with the Steamwheedle Cartel or Booty Bay?",
@@ -52,7 +52,7 @@
     "venture co booty bay",
     "ratchet venture co"
    ],
-   "answer": "No. The Venture Company is a separate, predatory organization. They are fierce corporate enemies of the Steamwheedle Cartel; Baron Revilgaz of Booty Bay frequently hires mercenaries to disrupt their logging in Stranglethorn Vale, and Sputtervalve of Ratchet regularly sends operatives to sabotage their shredders and steal their blueprints."
+   "answer": "No. Venture Company is separate from the Steamwheedle Cartel, and the two are fierce corporate enemies. Baron Revilgaz of Booty Bay often hires mercenaries to disrupt its logging in Stranglethorn Vale. Sputtervalve of Ratchet sends operatives to sabotage its shredders and steal its blueprints."
   },
   {
    "q": "Why is a leper gnome running operations in Windshear Crag?",
@@ -61,7 +61,7 @@
     "gnome in stonetalon",
     "why leper gnome venture"
    ],
-   "answer": "Gerenzo Wrenchwhistle was hired by the Venture Company for his ruthless mechanical genius, designing the massive Super Reaper 6000 logging machine. His hiring caused an uproar among the cartel's goblin engineers, such as Ziz Fizziks, and even angered the Trade Princes in Undermine, who disapproved of Razdunk consorting with the outcast gnome."
+   "answer": "Venture Company hired Gerenzo Wrenchwhistle for his ruthless mechanical skill and his design of the massive Super Reaper 6000. His hiring angered goblin engineers such as Ziz Fizziks and the Trade Princes in Undermine. They disapproved of Razdunk dealing with the outcast gnome."
   },
   {
    "q": "What is the Venture Company doing in Westfall?",
@@ -70,7 +70,7 @@
     "klaven mortwake venture co",
     "venture defias"
    ],
-   "answer": "The Venture Company had an illicit trading arrangement with the Defias Brotherhood. They acquired Zanzilli poisons and sold the mixture to Defias operative Klaven Mortwake in Westfall, who used the toxic concoctions to manufacture mindless Defias Drones similar to the laborers found in Venture Company operations."
+   "answer": "Venture Company traded illicitly with the Defias Brotherhood. The cartel acquired Zanzilli poisons and sold the mixture to Defias operative Klaven Mortwake in Westfall. He used it to make mindless Defias Drones like the laborers found at Venture Company sites."
   },
   {
    "q": "What is being produced at the Sludge Fen?",
@@ -79,25 +79,25 @@
     "barrens venture co oil rig",
     "samophlange sludge fen"
    ],
-   "answer": "The cartel erected an industrial drilling rig directly atop what used to be a clear natural spring, pumping and refining oil while dumping toxic sludge across the northern Barrens. In addition to oil, researchers there conduct tests on complex mechanical samophlanges and synthesize toxic mixtures."
+   "answer": "Venture Company built an industrial drilling rig over a spring that was once clear. It pumps and refines oil while dumping toxic sludge across the northern Barrens. Researchers there also test complex mechanical samophlanges and synthesize toxic mixtures."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Venture Company invaded the sacred hills of Mulgore without permission, poisoning ancestral water wells and clear-cutting timber in defiance of the Earth Mother."
+   "text": "As a tauren, you know Venture Company invaded Mulgore's sacred hills without permission. Its crews poisoned ancestral wells and cut timber against the Earth Mother's will."
   },
   {
    "target": "class:Druid",
-   "text": "Their heavy clear-cutting in Stonetalon Mountains and industrial pollution of natural springs in Mulgore and the Barrens represent blatant, unchecked desecration of the land."
+   "text": "As a druid, you see the harm in Venture Company's heavy logging in Stonetalon and its pollution of natural springs in Mulgore and the Barrens."
   },
   {
    "target": "class:Rogue",
-   "text": "Both the Shattered Hand and SI:7 keep close watch on the cartel's poison trafficking, infiltrating their towers and sabotaging their high-level foremen to acquire their deadly chemical mixtures."
+   "text": "As a rogue, you know the Shattered Hand and SI:7 watch Venture Company's poison trade closely. Their agents infiltrate its towers and sabotage high-ranking foremen to seize deadly chemical mixtures."
   },
   {
    "target": "profession:Engineering",
-   "text": "The cartel manufactures some of the finest, most advanced shredders and mechanical regulators on Azeroth, making their blueprints prized targets for corporate theft."
+   "text": "As an engineer, you know Venture Company builds some of Azeroth's finest shredders and mechanical regulators. Other companies prize its blueprints and seek to steal them."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Venture Company"
- ]
+ ],
+ "style": 2
 }

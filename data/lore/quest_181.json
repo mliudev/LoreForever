@@ -22,16 +22,16 @@
    "Look To The Stars (4)"
   ]
  },
- "summary": "Viktori Prism'Antras needs one final piece for his telescope in Darkshire. Its frame is built, but no local glass is large enough for the lens his plans require.",
+ "summary": "In Darkshire, Viktori Prism'Antras seeks the last piece for his telescope. Its frame is ready, but no local glass is large enough for the lens his plans require.",
  "sections": [
   {
    "title": "The Final Piece",
-   "body": "Viktori Prism'Antras is building a telescope in Darkshire from plans by the gnome engineer Cog Glitzspinner. He has gathered brass tubes and sturdy mountings from local supplies, but the design calls for an unusually large focusing lens. Magnifying glasses and optical parts from Stormwind traders are too small, so Viktori looks beyond ordinary materials for the piece he needs.",
+   "body": "Viktori Prism'Antras is building a telescope in Darkshire from plans by Cog Glitzspinner, a gnome engineer. He has gathered brass tubes and sturdy mountings from local supplies. But the design calls for an unusually large focusing lens. Magnifying glasses and optical parts from Stormwind traders are too small, so Viktori searches beyond ordinary materials for the piece he needs.",
    "spoiler": 0
   },
   {
    "title": "The Ogre's Eyepiece",
-   "body": "Vul'Gol Ogre Mound lies in the shadow of the southern hills, crowded with hostile ogres. Zzarc'Vul, one of them, wears a glass monocle large enough for Viktori's telescope. Taking it from Zzarc'Vul would give Viktori the lens Cog's plans call for, letting him finish the telescope and look into the heavens above Duskwood's shadowed canopy.",
+   "body": "At Vul'Gol Ogre Mound, hostile ogres crowd the southern hills. One of them, Zzarc'Vul, wears a glass monocle large enough for Viktori's telescope. Taking it from Zzarc'Vul would give Viktori the lens Cog's plans call for. Then he could finish the telescope and look into the heavens above Duskwood's shadowed canopy.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who is viktori",
     "viktori prism'antras"
    ],
-   "answer": "Viktori Prism'Antras is an astronomer and scholar who lives in a hut up the hill in Darkshire. Though Duskwood lies under a gloom, he remains devoted to finishing his telescope and studying the stars."
+   "answer": "Viktori Prism'Antras is an astronomer and scholar who lives in a hut up the hill in Darkshire. Though gloom lies over Duskwood, he remains devoted to finishing his telescope and studying the stars."
   },
   {
    "q": "Where can I find Zzarc'Vul?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Look To The Stars (4)"
  ],
- "style": 1
+ "style": 2
 }

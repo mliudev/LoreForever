@@ -20,16 +20,16 @@
    "Sarkoth (2)"
   ]
  },
- "summary": "In the Valley of Trials, Hana'zua waits for help after Sarkoth's venom leaves him stranded. You have slain the scorpid that wounded him; now Gornek needs word at the Den so aid can reach the scout.",
+ "summary": "On the Valley of Trials' high bluffs, Hana'zua waits for help after Sarkoth's venom leaves him stranded. You have slain the scorpid that wounded him. Now Gornek needs word at the Den so aid can reach the scout.",
  "sections": [
   {
    "title": "A Scout's Plight",
-   "body": "Hana'zua, a Darkspear scout, lies stranded on the high bluffs of the Valley of Trials. Sarkoth's venom has left him too weak to descend the treacherous paths alone. You have avenged him by slaying the scorpid, but he still cannot cross the arid stones without help. A passing initiate must carry word down to the training encampment.",
+   "body": "Hana'zua, a Darkspear scout, lies stranded on the high bluffs of the Valley of Trials. Sarkoth's venom has left him too weak to descend the treacherous paths alone. You have avenged him by slaying the scorpid, but he still cannot cross the arid stones without help. So a passing initiate must carry word down to the training encampment.",
    "spoiler": 0
   },
   {
    "title": "Honor in the Den",
-   "body": "Gornek waits at the Den for your report. Once he hears of Hana'zua's plight, he recognizes the danger from Sarkoth and organizes aid for the scout. Horde commanders honor those who set aside their own training to defend and rescue a fallen stranger. Such conduct proves an initiate's worth before they march into Durotar proper.",
+   "body": "Gornek waits at the Den for your report. When he hears of Hana'zua's plight, he recognizes the danger from Sarkoth and organizes aid for the scout. Horde commanders honor those who set aside their own training to defend and rescue a fallen stranger. Such conduct proves an initiate's worth before they march into Durotar proper.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is hanazua",
     "why is the troll hurt"
    ],
-   "answer": "Hana'zua is a young Darkspear troll scout stranded in the high reaches of the Valley of Trials. Sarkoth ambushed and poisoned him, leaving him too weak to climb down alone."
+   "answer": "Hana'zua is a young Darkspear troll scout stranded in the Valley of Trials' high reaches. Sarkoth ambushed and poisoned him, leaving him too weak to climb down alone."
   },
   {
    "q": "Who is Gornek?",
@@ -58,7 +58,7 @@
     "sarkoth beast",
     "what kind of monster is sarkoth"
    ],
-   "answer": "Sarkoth prowls the rocky bluffs above the Valley of Trials as a notorious, overgrown scorpid. Its venom and ferocity make it a legendary danger to young orcs and trolls in the trials."
+   "answer": "Above the Valley of Trials, Sarkoth prowls the rocky bluffs as a notorious, overgrown scorpid. Its venom and ferocity make it a legendary danger to young orcs and trolls in the trials."
   },
   {
    "q": "Does Hana'zua survive his wounds?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Sarkoth (2)"
  ],
- "style": 1
+ "style": 2
 }

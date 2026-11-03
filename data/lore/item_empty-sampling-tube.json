@@ -10,16 +10,16 @@
    "quest:4762"
   ]
  },
- "summary": "Thundris Windweaver gives an Empty Sampling Tube in Auberdine to gather water from the Cliffspring River. Night elf scholars study the taint threatening Darkshore.",
+ "summary": "In Auberdine, Thundris Windweaver gives you an Empty Sampling Tube to test the Cliffspring River. Night elf scholars study the taint threatening Darkshore.",
  "sections": [
   {
    "title": "Testing the Waters",
-   "body": "Darkshore's waterways are turning foul as blight spreads through the wilderness. Thundris Windweaver, an investigator in Auberdine, gives you an empty glass tube to collect water from the Cliffspring River. Take the sample from the pool beneath the first waterfall north of town. Night elf naturalists examine it to learn about the corruption flowing toward Mist's Edge.",
+   "body": "Darkshore's waterways are turning foul as blight spreads through the wilderness. In Auberdine, Thundris Windweaver investigates the change. He gives you an empty glass tube for water from the Cliffspring River. Take the sample from the pool beneath the first waterfall north of town. Night elf naturalists will examine it to learn about the corruption flowing toward Mist's Edge.",
    "spoiler": 0
   },
   {
    "title": "Tracing the Source",
-   "body": "Blackwood furbolgs live in camps along the riverbanks, but Windweaver suspects they suffer from the rot and spread it rather than cause it. The water sample confirms that the contamination flows from Felwood's tainted heights to the east. The specimen may help shape a cure and guide a direct response to the blight.",
+   "body": "Blackwood furbolgs live in camps along the riverbanks. Windweaver suspects they suffer from the rot and spread it, rather than cause it. The sample confirms that contamination flows from Felwood's tainted heights to the east. It may help shape a cure and guide a direct response to the blight.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does the sampling tube do",
     "tube purpose"
    ],
-   "answer": "The Empty Sampling Tube collects a water sample from the corrupted Cliffspring River north of Auberdine. Bring it to Thundris Windweaver so he can study the foul substances spreading through Darkshore."
+   "answer": "Use the Empty Sampling Tube to collect water from the corrupted Cliffspring River north of Auberdine. Bring the sample to Thundris Windweaver, who studies the foul substances spreading through Darkshore."
   },
   {
    "q": "Where is the water sample supposed to be taken?",
@@ -58,7 +58,7 @@
     "what corrupted the water",
     "cliffspring taint"
    ],
-   "answer": "Blackwood furbolgs live along the riverbanks and add to the filth, but the taint flows from the corrupted woodland of Felwood, high in the mountains to the east."
+   "answer": "Blackwood furbolgs live along the riverbanks and add to the filth. Yet the taint flows from Felwood's corrupted woodland, high in the mountains to the east."
   }
  ],
  "angles": [
@@ -94,5 +94,5 @@
   "Empty Sampling Tube",
   "The Cliffspring River"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:391"
   ]
  },
- "summary": "Warden Thelwater demands proof that the Stockade uprising has been crushed. The severed head of Bazil Thredd is meant to show that the rebellion's leader is dead and Defias control of Stormwind's prison has ended.",
+ "summary": "Warden Thelwater demands proof that the Stockade uprising has been crushed. Bazil Thredd’s severed head is meant to prove the rebel leader is dead and Defias control of Stormwind’s prison has ended.",
  "sections": [
   {
    "title": "Proof of Treason's End",
-   "body": "Bazil Thredd led the uprising in the Stockade beneath Stormwind City. From his cell block, he directed the riots with the help of loyal Defias inmates. Warden Thelwater distrusts outsiders and struggles to keep order. He demands Thredd's head as proof that the ringleader is dead and to test the adventurer's allegiance to Stormwind.",
+   "body": "Bazil Thredd led the uprising in the Stockade beneath Stormwind City. From his cell block, he directed the riots with help from loyal Defias inmates. Warden Thelwater distrusts outsiders and struggles to keep order. He demands Thredd’s head to prove the ringleader is dead and test the adventurer’s allegiance to Stormwind.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to turn in thredd head",
     "thredd head questgiver"
    ],
-   "answer": "Warden Thelwater, at the Stockade entrance, demands Bazil Thredd's head. He wants proof that the ringleader is dead before sharing what he knows about Thredd's conspirators."
+   "answer": "At the Stockade entrance, Warden Thelwater demands Bazil Thredd’s head. He wants proof the ringleader is dead before sharing what he knows about Thredd’s conspirators."
   },
   {
    "q": "Who was Bazil Thredd?",
@@ -50,7 +50,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Thredd's severed head calms immediate panic in the capital and proves the crown's justice can reach the rebellious Stockade."
+   "text": "For the Alliance, Thredd’s severed head calms immediate panic in the capital. It proves the crown’s justice can reach the rebellious Stockade."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
   "Head of Bazil Thredd",
   "The Stockade Riots"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Foggy MacKreel",
   "refs": 1
  },
- "summary": "On the broken Thandol Span, Foggy MacKreel worries about a moonshine delivery bound for Southshore. Stranded on ruined lower masonry above a dizzying drop, the dwarf keeps his mind on the task.",
+ "summary": "On the broken Thandol Span, Foggy MacKreel is stranded above a dizzying drop with a moonshine delivery bound for Southshore on his mind.",
  "sections": [
   {
    "title": "Stranded on the Span",
-   "body": "Foggy MacKreel waits on broken pylons beneath the Thandol Span, calm despite his dangerous perch. Dark Iron sabotage and war damage shattered the bridge between the Wetlands and the Arathi Highlands. MacKreel gives little thought to rescue; he wants his potent moonshine delivered to the patrons of Southshore in the Hillsbrad Foothills. He hires passing travelers nimble enough to reach his ledge and finish the delivery for him.",
+   "body": "Foggy MacKreel waits on broken pylons beneath the Thandol Span, calm on his dangerous perch. Dark Iron sabotage and war damage shattered the bridge between the Wetlands and the Arathi Highlands. Rescue can wait; MacKreel wants his potent moonshine delivered to the patrons of Southshore in the Hillsbrad Foothills. So he hires passing travelers nimble enough to reach his ledge and finish the delivery.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is foggy",
     "mackreel npc"
    ],
-   "answer": "Foggy MacKreel is a dwarf courier stranded on ruined stone pillars beneath the broken Thandol Span. The drop does not trouble him; he is focused on getting his moonshine delivered."
+   "answer": "Foggy MacKreel is a dwarf courier stranded on ruined stone pillars beneath the broken Thandol Span. The drop does not trouble him; he is focused on delivering his moonshine."
   },
   {
    "q": "Where can I find Foggy MacKreel?",
@@ -33,7 +33,7 @@
     "foggy mackreel location",
     "how to find mackreel"
    ],
-   "answer": "Foggy MacKreel waits on a stone platform midway down the broken central span of the Thandol Span. Reach him by carefully jumping down from the bridge structure on the Arathi Highlands side."
+   "answer": "Foggy MacKreel waits on a stone platform midway down the broken central span of the Thandol Span. Carefully jump down from the bridge structure on the Arathi Highlands side to reach him."
   },
   {
    "q": "Why is Foggy MacKreel down there?",
@@ -42,7 +42,7 @@
     "how did mackreel get there",
     "why is he on the bridge"
    ],
-   "answer": "Foggy MacKreel became stuck in the Thandol Span wreckage during his travels. His main concern is finding someone to carry his moonshine the rest of the way to Southshore."
+   "answer": "Foggy MacKreel became stuck in the Thandol Span wreckage during his travels. His chief concern is finding someone to carry his moonshine the rest of the way to Southshore."
   },
   {
    "q": "What quest does Foggy MacKreel offer?",
@@ -51,17 +51,17 @@
     "mackreel moonshine quest",
     "what quest does foggy give"
    ],
-   "answer": "Foggy MacKreel offers MacKreel's Moonshine, asking travelers to take a jug of his potent brew to the tavern in Southshore across the Arathi Highlands."
+   "answer": "Foggy MacKreel offers MacKreel's Moonshine and asks travelers to carry a jug of his potent brew to the tavern in Southshore, across the Arathi Highlands."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you may recognize MacKreel's stubborn grit and peculiar priorities: he values delivering strong liquor on time above being marooned over a fatal chasm."
+   "text": "As a dwarf, you may know MacKreel's stubborn grit and peculiar priorities. He cares more about delivering strong liquor on time than being stranded over a fatal chasm."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance courier traveling between Ironforge and Southshore, you may cross paths with Foggy and carry his stranded cargo to help a fellow subject of the Alliance."
+   "text": "As an Alliance courier traveling between Ironforge and Southshore, you may cross paths with Foggy and carry his stranded cargo for a fellow subject of the Alliance."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Foggy MacKreel"
  ],
- "style": 1
+ "style": 2
 }

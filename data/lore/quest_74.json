@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (7)",
   "chain": []
  },
- "summary": "Beside Stormwind City's canals, the Flintridge crate yields a clue to Stalvan Mistmantle's past. The torn journal page leads to Marshal Haggard in Elwynn Forest.",
+ "summary": "Beside Stormwind City's canals, you find a clue to Stalvan Mistmantle's past in the Flintridge crate. Its torn journal page points toward Marshal Haggard in Elwynn Forest.",
  "sections": [
   {
    "title": "Unearthing the Past",
-   "body": "A torn page from Stalvan Mistmantle's journal lies beneath a ceramic vase in a sealed crate. The crate holds musty Flintridge heirlooms, old hunting trophies, and family portraits. Stalvan's own hand offers a glimpse of the reclusive scholar before tragedy struck.",
+   "body": "Beneath a ceramic vase in the sealed crate lies a torn page from Stalvan Mistmantle's journal. Musty Flintridge heirlooms, old hunting trophies, and family portraits fill the crate. Stalvan's own hand offers a glimpse of the reclusive scholar before tragedy struck.",
    "spoiler": 0
   },
   {
    "title": "A Marshal's Fading Sight",
-   "body": "Marshal Haggard struggles to read the battered parchment through his failing sight. Its distinctive handwriting stirs his memory of documents and incidents from years past, before darkness took his sight.",
+   "body": "Marshal Haggard strains to read the battered parchment through his failing sight. Its distinctive handwriting stirs memories of documents and incidents from years past, before darkness took his sight.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is crate",
     "haggard crate"
    ],
-   "answer": "The sealed crate sits beside the Canals of Stormwind City, directly behind Caretaker Folsom. The Flintridge family's belongings are packed there, and the page found in the crate is taken to Marshal Haggard in southeastern Elwynn Forest."
+   "answer": "The sealed crate sits beside the Canals of Stormwind City, directly behind Caretaker Folsom. Inside are the Flintridge family's belongings, and the page from it goes to Marshal Haggard in southeastern Elwynn Forest."
   },
   {
    "q": "What is inside the sealed crate?",
@@ -56,7 +56,7 @@
     "marshal haggard lore",
     "old marshal elwynn"
    ],
-   "answer": "Marshal Haggard is an elderly, retired Stormwind officer who lives alone in southern Elwynn Forest. Though his sight is failing and he is frail, his memories of old records and travelers make him a crucial witness to past events."
+   "answer": "Marshal Haggard is an elderly, retired Stormwind officer who lives alone in southern Elwynn Forest. His sight is failing and he is frail, but his memories of old records and travelers make him a crucial witness to past events."
   },
   {
    "q": "Why is this journal page important?",
@@ -65,7 +65,7 @@
     "journal page clue",
     "stalvan journal"
    ],
-   "answer": "The torn page is direct evidence written by Stalvan Mistmantle himself. Its distinctive handwriting and lingering thoughts connect accounts across Duskwood and Elwynn to his personal downfall."
+   "answer": "The torn page is direct evidence in Stalvan Mistmantle's own hand. Its distinctive writing and lingering thoughts connect accounts across Duskwood and Elwynn to his personal downfall."
   },
   {
    "q": "What happens when the crate is opened?",
@@ -74,7 +74,7 @@
     "ghost after crate",
     "why did a ghost attack me"
    ],
-   "answer": "Disturbing the remnants of Stalvan's past stirs the restless dead. A vengeful Forlorn Spirit manifests and strikes at those trying to unravel the tragedy."
+   "answer": "Disturbing the remnants of Stalvan's past stirs the restless dead. A vengeful Forlorn Spirit appears and strikes at those trying to unravel the tragedy."
   },
   {
    "q": "Where does the investigation lead next?",
@@ -83,7 +83,7 @@
     "after torn page",
     "where do I go next"
    ],
-   "answer": "After the torn page reaches Marshal Haggard, his memory of the handwriting guides the investigation toward more surviving fragments of Stalvan's history."
+   "answer": "Once the torn page reaches Marshal Haggard, his memory of the handwriting guides the investigation toward more surviving fragments of Stalvan's history."
   }
  ],
  "angles": [
@@ -114,5 +114,5 @@
  "attribution": [
   "The Legend of Stalvan (7)"
  ],
- "style": 1
+ "style": 2
 }

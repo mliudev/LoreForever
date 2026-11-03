@@ -17,16 +17,16 @@
   "wiki": "Centaur Bracers (Classic)",
   "chain": []
  },
- "summary": "West of the Crossroads, Regthar Deathgate calls for Centaur Bracers. Kolkar centaurs contest the central Barrens, threatening Horde control of the plains.",
+ "summary": "West of the Crossroads, Regthar Deathgate seeks proof against the Kolkar. Their raids threaten Horde control of the central Barrens.",
  "sections": [
   {
    "title": "Securing the Plains",
-   "body": "The young Horde is fighting to secure territory across Kalimdor. The Barrens lie between Durotar and Mulgore, but Kolkar centaurs contest its watering holes and open plains. They attack supply trains and scouting parties. Regthar Deathgate, an orc warrior, directs the defense from his bunker west of the Crossroads.",
+   "body": "The young Horde is still securing its lands across Kalimdor. The Barrens stretch between Durotar and Mulgore, where Kolkar centaurs contest the watering holes and open plains. Their attacks fall on supply trains and scouting parties. From his bunker west of the Crossroads, the orc warrior Regthar Deathgate directs the defense.",
    "spoiler": 0
   },
   {
    "title": "A Gruesome Accounting",
-   "body": "Regthar asks for proof that Kolkar warriors have fallen. Soldiers who enter Kolkar territory bring back bracers taken from slain centaurs. The trophies verify claims for Horde bounties and are meant to frighten surviving Kolkar raiders.",
+   "body": "Regthar asks for proof that Kolkar warriors have fallen. Soldiers who enter Kolkar territory return with bracers taken from slain centaurs. These trophies support claims for Horde bounties, and Regthar hopes they will frighten the surviving raiders.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "regthar deathgate lore",
     "who gives centaur bracers"
    ],
-   "answer": "Regthar Deathgate is an orc commander in a fortified bunker west of the Crossroads. He leads the Horde's efforts to suppress centaur raiders across the Barrens."
+   "answer": "Regthar Deathgate is an orc commander in a fortified bunker west of the Crossroads. He leads the Horde effort to suppress centaur raiders across the Barrens."
   },
   {
    "q": "Why does the Horde want centaur bracers?",
@@ -47,7 +47,7 @@
     "what are centaur bracers for",
     "why collect bracers"
    ],
-   "answer": "Centaur bracers prove that enemy warriors were slain in the field. Regthar uses them to ensure bounties go only to those who inflict actual casualties on the hostile Kolkar tribes."
+   "answer": "Centaur bracers prove enemy warriors fell in the field. Regthar uses them to ensure bounties go only to those who inflict actual casualties on the hostile Kolkar tribes."
   },
   {
    "q": "Why are the Kolkar attacking the Horde?",
@@ -73,7 +73,7 @@
     "did centaur bracers work",
     "do the centaur stop"
    ],
-   "answer": "No. Regthar hopes the losses will frighten surviving raiders, but he doubts the Kolkar will willingly stop their attacks."
+   "answer": "No. Regthar hopes the losses will frighten the surviving raiders, but he doubts the Kolkar will willingly stop their attacks."
   },
   {
    "q": "What is the strategic value of the Crossroads?",
@@ -87,15 +87,15 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Clearing Kolkar protects supply links between Orgrimmar and Thunder Bluff."
+   "text": "Clearing the Kolkar protects supply links between Orgrimmar and Thunder Bluff."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you know the centaur have devastated and committed genocide against tauren tribes for centuries. Thinning their numbers in the Barrens is personal retribution."
+   "text": "As a tauren, you know the centaur have devastated tauren tribes and committed genocide against them for centuries. Thinning their numbers in the Barrens is personal retribution."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, securing Durotar's borders against nomadic raiders helps establish a permanent, stable homeland."
+   "text": "As an orc, you help secure Durotar's borders against nomadic raiders and establish a permanent, stable homeland."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Centaur Bracers (Classic)"
  ],
- "style": 1
+ "style": 2
 }

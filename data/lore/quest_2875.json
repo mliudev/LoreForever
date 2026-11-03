@@ -18,21 +18,21 @@
   "chain": [],
   "category": "Tanaris"
  },
- "summary": "A wanted notice in Gadgetzan and Steamwheedle Port names the pirate Andre Firebeard, who stands accused of crimes against Steamwheedle and Gadgetzan. The notice declares that his head, delivered to Security Chief Bilgewhizzle at Steamwheedle Port, counts as a binding contract.",
+ "summary": "In Gadgetzan and Steamwheedle Port, a wanted notice names Andre Firebeard and accuses him of crimes against both places. Deliver his head to Security Chief Bilgewhizzle at Steamwheedle Port, and it counts as a binding contract.",
  "sections": [
   {
    "title": "The Decree",
-   "body": "The notice calls Andre Firebeard a vile pirate, accused of crimes against Steamwheedle and Gadgetzan. The governing counsel has decreed that anyone who reads it may use lethal force in capturing Andre and those who aid him. He is to be found at the pirate enclave a way south along the coast from Steamwheedle Port, where he stands by a campfire inside the walls.",
+   "body": "A notice condemns Andre Firebeard as a vile pirate accused of crimes against Steamwheedle and Gadgetzan. The governing counsel allows anyone who reads it to use lethal force to capture Andre and those who aid him. He can be found at the pirate enclave south along the coast from Steamwheedle Port, standing by a campfire inside its walls.",
    "spoiler": 0
   },
   {
    "title": "The Head as Proxy",
-   "body": "A further decree says that if Andre is dead or otherwise unable to attend when his hearing comes, his head can act in his place. Delivered to Security Chief Bilgewhizzle at Steamwheedle Port, it counts as a binding contract.",
+   "body": "A further decree says Andre's head may speak for him if he is dead or otherwise unable to attend his hearing. Delivered to Security Chief Bilgewhizzle at Steamwheedle Port, it counts as a binding contract.",
    "spoiler": 0
   },
   {
    "title": "Terms of Payment",
-   "body": "Bilgewhizzle is pleased that Andre will make his trial after all. Payment is issued once you sign, and Bilgewhizzle waves off the small print as harmless, adding that it is too small for any magnifying glass to read.",
+   "body": "Bilgewhizzle is pleased that Andre will make his trial after all. Payment comes once you sign. He waves off the small print as harmless, saying it is too small for any magnifying glass to read.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who is andre",
     "firebeard tanaris"
    ],
-   "answer": "A pirate accused of crimes against Steamwheedle and Gadgetzan."
+   "answer": "Andre Firebeard is a pirate accused of crimes against Steamwheedle and Gadgetzan."
   },
   {
    "q": "Where can the wanted notice be found?",
@@ -53,7 +53,7 @@
     "wanted poster location",
     "wanted andre firebeard poster"
    ],
-   "answer": "In Gadgetzan and at Steamwheedle Port."
+   "answer": "The wanted notice is posted in Gadgetzan and at Steamwheedle Port."
   },
   {
    "q": "Where is Andre Firebeard located?",
@@ -62,7 +62,7 @@
     "where is firebeard",
     "find andre firebeard"
    ],
-   "answer": "At a campfire inside the walls of the pirate enclave, a way south along the coast from Steamwheedle Port."
+   "answer": "Andre Firebeard is at a campfire inside the walls of the pirate enclave south along the coast from Steamwheedle Port."
   },
   {
    "q": "Who receives the head once Andre is dealt with?",
@@ -71,7 +71,7 @@
     "bilgewhizzle location",
     "where to turn in firebeard head"
    ],
-   "answer": "Security Chief Bilgewhizzle, in Steamwheedle Port."
+   "answer": "Security Chief Bilgewhizzle receives the head at Steamwheedle Port."
   },
   {
    "q": "Why is his head required?",
@@ -80,7 +80,7 @@
     "head as proxy",
     "trial proxy"
    ],
-   "answer": "A decree lets it act in his place if he is dead or otherwise unable to attend when his hearing comes."
+   "answer": "A decree lets his head act in Andre's place if he is dead or otherwise unable to attend his hearing."
   }
  ],
  "angles": [],
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "WANTED: Andre Firebeard"
- ]
+ ],
+ "style": 2
 }

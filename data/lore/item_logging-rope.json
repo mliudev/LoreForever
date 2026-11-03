@@ -10,16 +10,16 @@
    "quest:6571"
   ]
  },
- "summary": "At the Warsong Lumber Camp, Logging Rope keeps the mills and machinery supplied. Furbolg tribes have stolen shipments across Ashenvale, leaving the Warsong to recover the line they need.",
+ "summary": "At the Warsong Lumber Camp, Logging Rope keeps the mills and machinery supplied. Furbolg tribes have stolen shipments across Ashenvale, and the Warsong must recover the line they need.",
  "sections": [
   {
    "title": "Stolen Lines",
-   "body": "Logging Rope shipments meant for the Warsong Lumber Camp have been stolen. The Foulweald and Thistlefur furbolgs intercepted the line before it reached the loggers. The tribes keep the ropes in their encampments across northern and central Ashenvale. Corruption has driven the furbolgs mad, and they fiercely defend their ancestral woods.",
+   "body": "Foulweald and Thistlefur furbolgs have stolen Logging Rope shipments meant for the Warsong Lumber Camp. They intercepted the line before it could reach the loggers. The ropes are kept in village dens and encampments across northern and central Ashenvale. Corruption has driven the furbolgs mad, and they fiercely defend their ancestral woods.",
    "spoiler": 0
   },
   {
    "title": "Supplying the War Effort",
-   "body": "Locke Okarr at Splintertree Post seeks to recover the stolen supplies before work at the Warsong Lumber Camp stops. The heavy rope lets the Horde secure timber, bind logs, and rig saw machinery. Furbolg resistance continues across the forest.",
+   "body": "At Splintertree Post, Locke Okarr seeks to recover the stolen supplies before work at the Warsong Lumber Camp stops. The heavy rope secures timber, binds logs, and rigs saw machinery. Furbolg resistance continues across the forest.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "rope thief",
     "which furbolgs have rope"
    ],
-   "answer": "The Foulweald and Thistlefur furbolgs stole the logging rope and keep it in their village dens and encampments across Ashenvale."
+   "answer": "The Foulweald and Thistlefur furbolgs stole the logging rope. They keep it in their village dens and encampments across Ashenvale."
   },
   {
    "q": "Who wants this rope back?",
@@ -93,5 +93,5 @@
   "Logging Rope",
   "Warsong Supplies (quest)"
  ],
- "style": 1
+ "style": 2
 }

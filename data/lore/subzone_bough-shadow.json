@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Gateway to the Dream",
-   "body": "Bough Shadow gathers beneath a Great Tree whose roots wind around a natural crossing into the Emerald Dream. The Green Dragonflight guards the quiet grove. Emerald drakes such as Phantim and Dreamstalker circle above the canopy, while Emeraldon dragonspawn and oracles patrol the swirling green portal at the tree’s base. Mortals who approach without permission are turned away.",
+   "body": "At Bough Shadow, the Great Tree’s roots wind around a natural crossing into the Emerald Dream. The Green Dragonflight guards the quiet grove. Emerald drakes such as Phantim and Dreamstalker circle above the canopy. Emeraldon dragonspawn and oracles patrol the swirling green portal at the tree’s base. Mortals who approach without permission are turned away.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "enter bough shadow portal",
     "how to enter dream portal"
    ],
-   "answer": "No. The gateway is sealed to mortals, and the elite dragonkin guards will attack anyone who comes too close."
+   "answer": "No. The gateway is sealed to mortals, and the elite dragonkin guards attack anyone who comes too close."
   }
  ],
  "angles": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Bough Shadow"
  ],
- "style": 1
+ "style": 2
 }

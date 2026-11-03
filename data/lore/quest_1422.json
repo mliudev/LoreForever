@@ -27,16 +27,16 @@
    "Lack of Surplus"
   ]
  },
- "summary": "After Lack of Surplus, Tok'Kar begins work on your weapon and tells you to speak with Katar in the Swamp of Sorrows. Katar has said patrols along the beach could use some help.",
+ "summary": "Tok'Kar works on your weapon while Katar reports the beach patrols could use help.",
  "sections": [
   {
    "title": "A Word with Katar",
-   "body": "While working on your weapon, Tok'Kar suggests you talk to Katar, who has said patrols along the beach could use some help. Tok'Kar shares the camp with some louses who drink, and would rather see you keep your wits sharp and your weapons ready than join them.",
+   "body": "Tok'Kar works on your weapon and sends you to Katar. Katar says the beach patrols could use help. Some louses at camp drink, but Tok'Kar would rather you keep your wits sharp and your weapons ready than join them.",
    "spoiler": 0
   },
   {
    "title": "Over the Roar of the Sea",
-   "body": "Katar asks you for a moment of silence. Above the sea's dull roar, the disgusting gurgling of the fish men can still be heard.",
+   "body": "Katar asks you for a moment of silence. Over the sea's dull roar, you can hear the fish men's disgusting gurgling.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "tok'kar reason",
     "why visit katar"
    ],
-   "answer": "Tok'Kar is busy with your weapon, and would rather you kept your wits and arms ready than got drunk with the louses sharing the camp."
+   "answer": "Tok'Kar is busy with your weapon, so he sends you to Katar and wants you to keep your wits and weapons ready instead of drinking with the louses at camp."
   },
   {
    "q": "What does Katar need assistance with?",
@@ -57,7 +57,7 @@
     "what does katar want",
     "katar patrol"
    ],
-   "answer": "Katar has remarked that the patrols along the beach could use some help, and that is what Katar is after."
+   "answer": "Katar says the patrols along the beach could use some help."
   },
   {
    "q": "What came before this step?",
@@ -66,7 +66,7 @@
     "prereq",
     "threat from the sea chain"
    ],
-   "answer": "It follows Lack of Surplus, after which Tok'Kar begins work on your weapon."
+   "answer": "After Lack of Surplus, Tok'Kar begins work on your weapon."
   }
  ],
  "angles": [],
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Threat From the Sea"
- ]
+ ],
+ "style": 2
 }

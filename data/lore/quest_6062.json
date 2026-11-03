@@ -23,16 +23,16 @@
    "Training the Beast (Orc and Troll)"
   ]
  },
- "summary": "In Razor Hill, Taming the Beast begins a young Horde hunter’s training with a taming rod. Thotar guides aspiring hunters as they face a vicious dire mottled boar.",
+ "summary": "In Razor Hill, Taming the Beast puts young Horde hunters to their first test with a taming rod. Thotar sends them to face a fierce dire mottled boar.",
  "sections": [
   {
    "title": "A Hunter's Rite of Passage",
-   "body": "Orc and Darkspear troll hunters in Durotar must learn to command the wild as well as survive it. Thotar, the veteran hunter trainer, gives young hunters an enchanted taming rod and sends them to face a fierce wild boar. They must subdue the beast without killing it, then make it a loyal ally.",
+   "body": "In Durotar, orc and Darkspear troll hunters must learn to command the wild as well as survive it. Thotar gives young hunters an enchanted taming rod and sends them against a fierce wild boar. They must subdue the beast without killing it, then make it a loyal ally.",
    "spoiler": 0
   },
   {
    "title": "The Boars of Durotar",
-   "body": "Dire mottled boars roam the dry brush around Razor Hill. Their strength and temper make them a fitting first test for young hunters. The rod can subdue a charging boar, but using it takes patience and resolve, qualities every Horde tracker needs.",
+   "body": "Dire mottled boars roam the dry brush around Razor Hill. Their strength and temper make them a fitting first test for young hunters. The rod can subdue a charging boar, but using it takes patience and resolve. Every Horde tracker needs those qualities.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "boar taming quest reason",
     "taming the beast point"
    ],
-   "answer": "The trial gives young hunters in Durotar their first practical lesson in using a taming rod to subdue a wild creature instead of killing it."
+   "answer": "The trial gives young hunters in Durotar their first practical lesson with a taming rod. They learn to subdue a wild creature instead of killing it."
   },
   {
    "q": "Who gives this quest?",
@@ -89,7 +89,7 @@
     "what does the rod do",
     "lore of taming rod"
    ],
-   "answer": "Novice hunters have not yet gained the spiritual and physical discipline to bond with beasts directly. The enchanted rod focuses their will on a wild beast’s spirit until they master the art."
+   "answer": "Novice hunters have not yet gained the spiritual and physical discipline to bond directly with beasts. The enchanted rod focuses their will on a wild beast’s spirit until they master the art."
   }
  ],
  "angles": [
@@ -127,5 +127,5 @@
  "attribution": [
   "Taming the Beast (Orc and Troll 1)"
  ],
- "style": 1
+ "style": 2
 }

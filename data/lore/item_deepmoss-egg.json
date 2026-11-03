@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Delicacy of the Crags",
-   "body": "Deepmoss spiders nest across the Stonetalon Mountains, especially in Sishir Canyon and beneath the surviving trees of Windshear Crag. They leave clustered clutches of viable eggs in thick webbed sacks, sheltered by damp mountain moss. Most travelers have little use for them, but goblin traders see a chance to profit.",
+   "body": "Deepmoss spiders nest across the Stonetalon Mountains, especially in Sishir Canyon and beneath the surviving trees of Windshear Crag. There, they leave clustered clutches of viable eggs in thick webbed sacks, sheltered by damp mountain moss. Most travelers have little use for them, but goblin traders see a chance to profit.",
    "spoiler": 0
   },
   {
    "title": "Booty Bay's Culinary Fad",
-   "body": "Booty Bay has taken to spider egg omelettes, an eccentric culinary fad among wealthy pirates and adventurous diners. Local supplies cannot satisfy their appetite, so Mebok Mizzyrix of Ratchet arranges shipments through Wharfmaster Dizzywig. Collectors brave Stonetalon's venomous broods for fresh clutches, which become valuable cargo.",
+   "body": "Booty Bay has taken to spider egg omelettes, an eccentric fad among wealthy pirates and adventurous diners. Local supplies cannot satisfy their appetite, so Mebok Mizzyrix of Ratchet arranges shipments through Wharfmaster Dizzywig. Collectors brave Stonetalon's venomous broods for fresh clutches, and the eggs become valuable cargo.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "why collect spider eggs",
     "spider omelettes"
    ],
-   "answer": "The eggs go to Booty Bay, where spider egg omelettes have become a popular, if bizarre, culinary fad among pirates and other diners."
+   "answer": "The eggs go to Booty Bay, where spider egg omelettes have become a popular, if bizarre, fad among pirates and other diners."
   },
   {
    "q": "Why is Sishir Canyon warned about when gathering them?",
@@ -57,13 +57,13 @@
     "sishir canyon warning",
     "weak stomach sishir"
    ],
-   "answer": "Sishir Canyon is a breeding ground crowded with mature spiders, webs, and devoured prey. Mebok advises anyone with a delicate stomach to gather eggs beneath Windshear Crag's sparse trees instead."
+   "answer": "Sishir Canyon is crowded with mature spiders, webs, and devoured prey. Mebok advises anyone with a delicate stomach to gather eggs beneath Windshear Crag's sparse trees instead."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you may hesitate to use spider eggs, but Booty Bay diners prize whipped eggs as an adventurous delicacy and pay goblin prices for them."
+   "text": "As a cook, you may hesitate to use spider eggs. Booty Bay diners prize whipped eggs as an adventurous delicacy and pay goblin prices for them."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Deepmoss Egg",
   "Deepmoss Spider Eggs"
  ],
- "style": 1
+ "style": 2
 }

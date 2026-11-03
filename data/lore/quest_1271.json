@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Dustwallow Marsh"
  },
- "summary": "Your work for Morgan Stern in Dustwallow Marsh, ending with ... and Bugs, leads you back to Angus Stern at the Blue Recluse.",
+ "summary": "In Dustwallow Marsh, you finish your work for Morgan Stern with ... and Bugs, then return to Angus Stern at the Blue Recluse.",
  "sections": [
   {
    "title": "Back to the Blue Recluse",
-   "body": "Angus Stern is the uncle of Morgan Stern, whose recipe research you helped with in Dustwallow Marsh. Your road now leads back to Angus at the Blue Recluse.",
+   "body": "Angus Stern is Morgan Stern's uncle. You return to Angus at the Blue Recluse after helping Morgan research recipes in Dustwallow Marsh.",
    "spoiler": 0
   },
   {
    "title": "What Angus Has Heard",
-   "body": "Angus has heard from the nephew that you aided his research, and that you helped one of his associates out of a tight spot. The Sterns look after their own friends, and a party in your honor is about to begin.",
+   "body": "Angus has heard from Morgan that you aided his research and helped one of his associates out of a tight spot. The Sterns look after their friends, and a party in your honor is about to begin.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "blue recluse host",
     "who throws the feast"
    ],
-   "answer": "Angus Stern is the uncle of Morgan Stern, who gathers recipes in Theramore, and is connected to the Blue Recluse."
+   "answer": "Angus Stern is Morgan Stern's uncle and is connected to the Blue Recluse."
   },
   {
    "q": "How is Angus Stern connected to Morgan Stern?",
@@ -48,7 +48,7 @@
     "stern family",
     "is morgan angus nephew"
    ],
-   "answer": "Angus is Morgan's uncle. Angus sent Morgan to Theramore to gather recipes for the Blue Recluse's new bayou-themed menu."
+   "answer": "Angus is Morgan's uncle. He sent Morgan to Theramore to gather recipes for the Blue Recluse's new bayou-themed menu."
   },
   {
    "q": "What comes before this quest?",
@@ -56,7 +56,7 @@
     "previous quest",
     "what comes before feast"
    ],
-   "answer": "It follows ... and Bugs, the last of the work you did for Morgan Stern in Theramore."
+   "answer": "It follows ... and Bugs, the last of your work for Morgan Stern in Theramore."
   }
  ],
  "angles": [],
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Feast at the Blue Recluse"
- ]
+ ],
+ "style": 2
 }

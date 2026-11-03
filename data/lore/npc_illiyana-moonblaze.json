@@ -8,16 +8,16 @@
   "wiki": "Illiyana Moonblaze",
   "refs": 3
  },
- "summary": "At Silverwing Grove, Illiyana Moonblaze supplies the Alliance champions fighting the Warsong Outriders. She works alongside the Silverwing Sentinels in Ashenvale.",
+ "summary": "At Silverwing Grove, Illiyana Moonblaze supplies Alliance champions bound for the fight against the Warsong Outriders. She works beside the Silverwing Sentinels in Ashenvale.",
  "sections": [
   {
    "title": "Silverwing Supply Officer",
-   "body": "Illiyana Moonblaze keeps supplies for the Silverwing Sentinels at Silverwing Grove. Her post is near the path into Warsong Gulch, where she outfits defenders holding Ashenvale's southern woods against the Warsong clan.",
+   "body": "At Silverwing Grove, Illiyana Moonblaze keeps the Silverwing Sentinels supplied. Her post lies near the path into Warsong Gulch. From there, she outfits defenders holding Ashenvale's southern woods against the Warsong clan.",
    "spoiler": 0
   },
   {
    "title": "Supplies for the Front Lines",
-   "body": "Illiyana equips Alliance volunteers preparing to fight the Warsong clan in Warsong Gulch. As champions earn favor with the Silverwing Sentinels, she provides custom rations, specialized draughts, and fine weapons for woodland skirmishes. She also repairs weapons and armor for weary fighters returning from the front, keeping the Sentinels supplied for war.",
+   "body": "Illiyana equips Alliance volunteers preparing to fight the Warsong clan in Warsong Gulch. As champions earn favor with the Silverwing Sentinels, she provides custom rations, specialized draughts, and fine weapons for woodland skirmishes. Weary fighters return from the front for repairs to their weapons and armor, keeping the Sentinels ready for war.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is illiyana",
     "silverwing quartermaster location"
    ],
-   "answer": "Illiyana Moonblaze is at Silverwing Grove in southeastern Ashenvale, near the staging grounds and portal leading into Warsong Gulch."
+   "answer": "You can find Illiyana Moonblaze at Silverwing Grove in southeastern Ashenvale. She is near the staging grounds and portal leading into Warsong Gulch."
   },
   {
    "q": "Is Illiyana Moonblaze a member of the Sentinels?",
@@ -38,7 +38,7 @@
     "illiyana rank",
     "illiyana faction"
    ],
-   "answer": "Illiyana Moonblaze works alongside the Silverwing Sentinels as their supply officer, outfitting Alliance champions who fight beside them."
+   "answer": "Illiyana Moonblaze works alongside the Silverwing Sentinels as their supply officer. She outfits Alliance champions fighting beside them."
   },
   {
    "q": "What does Illiyana offer to Alliance champions?",
@@ -56,7 +56,7 @@
     "silverwing repair vendor",
     "repair in silverwing grove"
    ],
-   "answer": "Yes. Illiyana Moonblaze repairs weapons and armor for Alliance defenders resting at the grove, as well as supplying specialized military gear."
+   "answer": "Yes. Illiyana Moonblaze repairs weapons and armor for Alliance defenders resting at the grove. She also supplies specialized military gear."
   },
   {
    "q": "What care packages does she hand out?",
@@ -65,7 +65,7 @@
     "illiyana quests",
     "warsong gulch packages"
    ],
-   "answer": "Illiyana Moonblaze gives Alliance fighters Sentinel Basic, Standard, and Advanced Care Packages through her supply work, providing frontline defenders with essential battlefield provisions."
+   "answer": "Illiyana Moonblaze gives Alliance fighters Sentinel Basic, Standard, and Advanced Care Packages. Her supplies provide frontline defenders with essential battlefield provisions."
   }
  ],
  "angles": [
@@ -96,5 +96,5 @@
  "attribution": [
   "Illiyana Moonblaze"
  ],
- "style": 1
+ "style": 2
 }

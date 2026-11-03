@@ -17,16 +17,16 @@
   "wiki": "Enraged Thunder Lizards",
   "chain": []
  },
- "summary": "In the southern Barrens, thunder lizards roam the plains around Camp Taurajo. Jorn Skyseer calls hunters to face the great beasts and bring back their blood as part of a wider rite of passage.",
+ "summary": "In the southern Barrens, thunder lizards roam the plains around Camp Taurajo. Jorn Skyseer calls hunters to face the great beasts and bring back their blood for a wider rite of passage.",
  "sections": [
   {
    "title": "A Test of the Southern Plains",
-   "body": "After defeating the raptor Ishamuhale, you return to Camp Taurajo. The tauren elder Jorn Skyseer now tests your strength against the largest grazers of the land. Stormsnouts and Thunderheads roam the southern Barrens, their heavy strides able to crush an unwary hunter beneath them.",
+   "body": "After defeating the raptor Ishamuhale, you return to Camp Taurajo. Jorn Skyseer, the tauren elder, now tests your strength against the land's largest grazers. Stormsnouts and Thunderheads roam the southern Barrens. Their heavy strides can crush an unwary hunter beneath them.",
    "spoiler": 0
   },
   {
    "title": "The Way of the Predator",
-   "body": "Tauren and orc hunters prize poise, position, and strength when facing a thunder lizard. Jorn asks you to bring back samples of their potent blood, proof that you stood in the path of the rumbling beasts and survived with your bones unbroken. The trophy opens the way to Jorn's final quarry in the skies.",
+   "body": "Tauren and orc hunters prize poise, position, and strength against a thunder lizard. Jorn asks you to bring back samples of their potent blood. They prove you stood before the rumbling beasts and survived with your bones unbroken. That trophy opens the way to Jorn's final quarry in the skies.",
    "spoiler": 0
   }
  ],
@@ -85,15 +85,15 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a Shu'halo, you honor the ancestral plains through the traditional hunt for great thunder lizards around Camp Taurajo. It tests your fortitude and balance."
+   "text": "As a Shu'halo, you honor the ancestral plains through the traditional hunt for great thunder lizards around Camp Taurajo. The hunt tests your fortitude and balance."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you test your footwork against a thunder lizard, keeping clear of its crushing stomps while wearing down its immense hide."
+   "text": "As a hunter, you test your footwork against a thunder lizard. Keep clear of its crushing stomps as you wear down its immense hide."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help clear enraged beasts from the paths around Camp Taurajo, protecting caravans and traveling warriors in the southern Barrens."
+   "text": "As a member of the Horde, you help clear enraged beasts from the paths around Camp Taurajo. You protect caravans and traveling warriors in the southern Barrens."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Enraged Thunder Lizards"
  ],
- "style": 1
+ "style": 2
 }

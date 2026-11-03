@@ -20,21 +20,21 @@
    "Smart Drinks"
   ]
  },
- "summary": "In Ratchet, Mebok Mizzyrix wants intact raptor horns for a scheme of his own. The goblin believes the cunning of Barrens raptors lies in their horns and hires travelers to hunt Sunscale Scytheclaws.",
+ "summary": "In Ratchet, Mebok Mizzyrix seeks intact raptor horns for a scheme of his own. He believes the Barrens raptors owe their cunning to their horns, and pays travelers to hunt Sunscale Scytheclaws.",
  "sections": [
   {
    "title": "Goblin Entrepreneurship",
-   "body": "Mebok Mizzyrix looks for fortune in Ratchet, where goblins chase one scheme after another. He has watched the Barrens raptors act with unusual craft and coordination compared with beasts elsewhere. Mebok decided their intelligence must be held in their horns. He has no formal inquiry in mind; he wants to put this idea to profit.",
+   "body": "Mebok Mizzyrix chases fortune in Ratchet, where goblins are forever trying one scheme after another. He has watched the Barrens raptors act with more craft and coordination than beasts elsewhere. So Mebok decided their intelligence must lie in their horns. He seeks no formal inquiry. He means to turn the idea to profit.",
    "spoiler": 0
   },
   {
    "title": "The Sunscale Scytheclaws",
-   "body": "Mebok wants undamaged horns from Sunscale Scytheclaws, among the Barrens' deadliest predators. They prowl the southern stretches of the Barrens and the northern borders near Ashenvale. The raptors hunt in packs and defend their territory fiercely, so bringing down one and taking its horns intact calls for considerable skill in battle.",
+   "body": "Mebok wants undamaged horns from Sunscale Scytheclaws, among the Barrens' deadliest predators. They prowl the southern stretches of the Barrens and the northern borders near Ashenvale. These raptors hunt in packs and defend their territory fiercely. Bringing one down and taking its horns intact calls for skill in battle.",
    "spoiler": 0
   },
   {
    "title": "A Recipe for Riches",
-   "body": "Mebok plans to grind the intact horns into fine powder and brew the powder into drinks. He calls the concoctions “smart drinks” and hopes to sell them to patrons eager to buy wit in a bottle. Mebok is convinced the scheme will make him wealthy overnight.",
+   "body": "Mebok Mizzyrix plans to grind the intact horns into fine powder, then brew it into drinks. He calls them “smart drinks” and hopes patrons will buy wit in a bottle. Mebok is convinced the scheme will make him wealthy overnight.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "mebok goal",
     "what does mebok want"
    ],
-   "answer": "Mebok believes the cunning of Barrens raptors is stored in their horns. He plans to grind them into powder, brew “smart drinks,” and sell them for profit."
+   "answer": "Mebok believes the cunning of Barrens raptors lies in their horns. He plans to grind the horns into powder, brew “smart drinks,” and sell them for profit."
   },
   {
    "q": "Where are Sunscale Scytheclaws located?",
@@ -64,7 +64,7 @@
     "are raptors smart",
     "raptor intelligence lore"
    ],
-   "answer": "Mebok's claim that raptor horns hold their wit is goblin pseudoscience driven by profit. The Barrens raptors are cunning, but the entry gives no grounds to call their horns magical or mind-enhancing."
+   "answer": "Mebok's claim that raptor horns hold their wit is goblin pseudoscience driven by profit. The Barrens raptors are cunning, but nothing here shows their horns are magical or mind-enhancing."
   },
   {
    "q": "Who is Mebok Mizzyrix?",
@@ -91,13 +91,13 @@
     "alliance raptor horns",
     "can alliance do raptor horns"
    ],
-   "answer": "Yes. Ratchet is an open port managed by the Steamwheedle Cartel, and Mebok is a neutral goblin who does business with both the Horde and the Alliance."
+   "answer": "Yes. Ratchet is an open port managed by the Steamwheedle Cartel. Mebok is a neutral goblin who does business with both the Horde and the Alliance."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter familiar with Kalimdor's raptor packs, you know their deadly cunning. Mebok's belief that their wit can be bottled is goblin quackery."
+   "text": "As a hunter familiar with Kalimdor's raptor packs, you know how cunning and deadly they can be. Mebok's belief that their wit can be bottled is goblin quackery."
   },
   {
    "target": "faction:Alliance",
@@ -124,5 +124,5 @@
  "attribution": [
   "Raptor Horns"
  ],
- "style": 1
+ "style": 2
 }

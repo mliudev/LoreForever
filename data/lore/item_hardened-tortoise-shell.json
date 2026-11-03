@@ -10,11 +10,11 @@
    "quest:1105"
   ]
  },
- "summary": "Hardened Tortoise Shells are remarkably durable carapaces harvested from the sparkleshell tortoises wandering the Shimmering Flats. Coveted by gnomish racers at the Mirage Raceway, these rugged organic plates offer unmatched resistance against volatile and corrosive experimental fuels.",
+ "summary": "Across the Shimmering Flats, racers seek shells tough enough for dangerous fuel. Gnomish racers at the Mirage Raceway prize Hardened Tortoise Shells from sparkleshell tortoises because they resist volatile, corrosive experimental fuels.",
  "sections": [
   {
    "title": "Natural Armor for High-Speed Hazards",
-   "body": "The sun-scorched expanse of the Shimmering Flats is home to various breeds of sparkleshell tortoises, including snappers and borers, whose carapaces have evolved into exceptionally tough defenses against the harsh desert salt and wandering predators. Out on the salt flats, standard metal alloy fuel tanks frequently corrode or rupture under the strain of gnomish experimental chemistry. Mechanics like Wizzle Brassbolts prize these shells not for armor or shields, but as organic raw material tough enough to be retrofitted into makeshift, acid-resistant fuel tanks capable of containing volatile rocket propellants.",
+   "body": "Sparkleshell tortoises, from snappers to borers, roam the salt flats. Their carapaces shield them from the salt and wandering predators. Gnomish experimental chemistry can corrode or rupture metal fuel tanks. So mechanics such as Wizzle Brassbolts prize the shells as raw material for makeshift tanks that resist acid and hold volatile rocket propellants.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hardened shell location",
     "sparkleshell location"
    ],
-   "answer": "They are gathered from sparkleshell tortoises\u2014specifically Sparkleshell Snappers, Borers, and common Sparkleshell Tortoises\u2014wandering across the open salt expanses of the Shimmering Flats in Thousand Needles."
+   "answer": "Across the open salt expanses of the Shimmering Flats in Thousand Needles, you can find Hardened Tortoise Shells on Sparkleshell Snappers, Borers, and common Sparkleshell Tortoises."
   },
   {
    "q": "Why does Wizzle Brassbolts want these shells?",
@@ -35,7 +35,7 @@
     "wizzle shells use",
     "what are shells for"
    ],
-   "answer": "Wizzle's brother is designing an extremely powerful, corrosive rocket fuel that threatens to melt straight through their race car's chassis. Wizzle intends to hollow out and reinforce the tortoises' exceptionally durable carapaces to use as chemically resistant fuel tanks."
+   "answer": "Wizzle Brassbolts wants the shells for fuel tanks. Wizzle's brother is designing an extremely powerful, corrosive rocket fuel that threatens to melt their race car's chassis. Wizzle plans to hollow out and reinforce the durable carapaces."
   },
   {
    "q": "Can standard workshop tools easily shape them?",
@@ -43,17 +43,17 @@
     "are shells hard to craft",
     "bending tools shell"
    ],
-   "answer": "No. The carapaces are so unnaturally hard that gnomish mechanics expect to bend and ruin an entire toolbox worth of metal implements just trying to carve, drill, and shape them into tanks."
+   "answer": "No. The carapaces are unnaturally hard. Gnomish mechanics expect to ruin a toolbox worth of metal implements carving, drilling, and shaping them into tanks."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Using organic carapaces as high-pressure fuel tanks is unconventional, but when gnome-brewed fuel melts standard alloy piping, high-durability natural materials often step in."
+   "text": "As an engineer, you can see why organic carapaces might suit high-pressure fuel tanks. When gnome-brewed fuel melts standard alloy piping, durable natural materials can take its place."
   },
   {
    "target": "race:Gnome",
-   "text": "Only gnomish ingenuity would see a desert tortoise and immediately think of a lightweight, highly resilient container for dangerous rocket fuel."
+   "text": "As a gnome, you might look at a desert tortoise and see a lightweight, resilient container for dangerous rocket fuel."
   }
  ],
  "keywords": [
@@ -75,5 +75,6 @@
  "attribution": [
   "Hardened Tortoise Shell",
   "Hardened Shells"
- ]
+ ],
+ "style": 2
 }

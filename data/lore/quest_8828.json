@@ -18,16 +18,16 @@
   "wiki": "Winter's Presents (Horde)",
   "chain": []
  },
- "summary": "In Orgrimmar, Winter's Presents await beneath the festive tree during the Feast of Winter Veil. Holiday organizers and goblin apparatus tenders direct Horde heroes to Great-father Winter, where gifts have been prepared for them.",
+ "summary": "The Feast of Winter Veil brings gifts beneath Orgrimmar’s festive tree. Holiday organizers and goblin apparatus tenders send Horde heroes to Great-father Winter to receive them.",
  "sections": [
   {
    "title": "Season of Generosity",
-   "body": "The Feast of Winter Veil brings a pause for celebration to Orgrimmar as the chill winds of late year sweep across Durotar. Promoters from Smokywood Pastures and holiday enthusiasts spread word through the capital that gifts wait beneath the decorated tree. Warriors, hunters, and wanderers resting in the city are all invited to share in the season’s generosity.",
+   "body": "Late-year winds sweep across Durotar as Orgrimmar pauses for the Feast of Winter Veil. Promoters from Smokywood Pastures and holiday enthusiasts spread word through the capital that gifts wait beneath the decorated tree. Warriors, hunters, and wanderers resting in the city are invited to share in the season’s generosity.",
    "spoiler": 0
   },
   {
    "title": "The Patron and the Peddlers",
-   "body": "Great-father Winter sits among holiday ribbons and packaged cartons near the Smokywood Pastures market. The ancient figure marks the season’s renewal, while goblin merchants nearby offer seasonal wares and festive treats to visitors.",
+   "body": "Great-father Winter sits near the Smokywood Pastures market among holiday ribbons and packaged cartons. The ancient figure marks the season’s renewal. Nearby, goblin merchants offer seasonal wares and festive treats to visitors.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "turn in location",
     "presents hand in"
    ],
-   "answer": "You find Great-father Winter near the Smokywood Pastures festive area and decorated tree in the Valley of Strength in Orgrimmar."
+   "answer": "You find Great-father Winter near the Smokywood Pastures festive area and decorated tree in Orgrimmar’s Valley of Strength."
   },
   {
    "q": "Who sends you to see Great-father Winter?",
@@ -56,7 +56,7 @@
     "smokywood pastures lore",
     "who are smokywood pastures"
    ],
-   "answer": "Smokywood Pastures is a goblin merchant organization that sponsors and supplies the Winter Veil festivities, food, treats, and gifts across major capitals."
+   "answer": "Smokywood Pastures is a goblin merchant organization that sponsors and supplies Winter Veil festivities, food, treats, and gifts across major capitals."
   },
   {
    "q": "What does Great-father Winter do once you speak with him?",
@@ -72,7 +72,7 @@
     "horde winter veil lore",
     "why orcs celebrate winter veil"
    ],
-   "answer": "The Horde celebrates Winter Veil as a time for respite, feasting, and community while struggling to build a new home in Kalimdor. The modern festival has roots in ancient legends of winter’s renewal."
+   "answer": "The Horde celebrates Winter Veil as a time for respite, feasting, and community while striving to build a new home in Kalimdor. The modern festival has roots in ancient legends of winter’s renewal."
   },
   {
    "q": "What is the PX-238 Winter Wondervolt mentioned by the operator?",
@@ -86,11 +86,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, Orgrimmar’s holiday camp offers a joyful, warm gathering spot amid the ongoing border conflicts across Kalimdor."
+   "text": "For the Horde, Orgrimmar’s holiday camp offers a joyful, warm gathering place amid ongoing border conflicts across Kalimdor."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you can pause your duties even in the Warchief’s austere seat to share winter feasts and accept hospitality beneath the Winter Veil tree’s boughs."
+   "text": "As an orc, you can pause your duties in the Warchief’s austere seat to share winter feasts and accept hospitality beneath the Winter Veil tree’s boughs."
   }
  ],
  "keywords": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Winter's Presents (Horde)"
  ],
- "style": 1
+ "style": 2
 }

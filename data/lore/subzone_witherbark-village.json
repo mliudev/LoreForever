@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Witherbark Village"
  },
- "summary": "Witherbark Village is a forest troll settlement nestled around a secluded lake in the southeastern hills of the Arathi Highlands. Inhabited by the hostile Witherbark tribe, it serves as a staging ground for troll raiders contesting both the Alliance remnants of Stromgarde and the Horde outpost at Hammerfall.",
+ "summary": "In the southeastern Arathi Highlands, Witherbark Village shelters hostile forest trolls beside a secluded lake. The tribe raids Stromgarde's Alliance remnants and the Horde outpost at Hammerfall.",
  "sections": [
   {
    "title": "Stronghold of the Forest Trolls",
-   "body": "Built along the shores of a quiet mountain lake, Witherbark Village houses the fierce forest trolls of the Witherbark tribe. While fishers, axe throwers, and witch doctors occupy the hut-lined waterfront, tribal leaders such as Zalas Witherbark and deadly shadow hunters oversee operations from a massive cavern cavern tucked behind the settlement. The Witherbark maintain an opportunistic alliance with the Boulderfist ogres of Arathi, working together to carve out territory across the highlands\u2014even establishing a firm foothold amidst the ruins of Stromgarde Keep. Fiercely territorial, they lash out at any outsider venturing into their corner of the basin.",
+   "body": "Witherbark trolls hold the shore and paths around their mountain lake. Fishers, axe throwers, and witch doctors live in huts along the water. Zalas Witherbark and the tribe's shadow hunters direct their people from a great cavern behind the settlement.\n\nThe Witherbark have joined forces with the Boulderfist ogres to claim more of the highlands. They have also taken a firm foothold in the ruins of Stromgarde Keep. Any outsider who enters their territory risks a fierce attack.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "witherbark trolls",
     "who controls witherbark village"
    ],
-   "answer": "The settlement is held by the Witherbark tribe, a faction of forest trolls indigenous to the region. They field headhunters, axe throwers, fishers, and witch doctors who defend the lake and surrounding paths."
+   "answer": "The Witherbark tribe, forest trolls native to the region, holds the settlement. Headhunters, axe throwers, fishers, and witch doctors defend the lake and its surrounding paths."
   },
   {
    "q": "What is inside the large cave behind the village?",
@@ -32,7 +32,7 @@
     "cave behind witherbark village",
     "zalas witherbark location"
    ],
-   "answer": "The cavern serves as the seat of tribal leadership. Chieftain Zalas Witherbark and dangerous shadow hunters coordinate the tribe's raids and defenses from deep within its tunnels."
+   "answer": "The great cavern holds the tribe's leaders. Chieftain Zalas Witherbark and the shadow hunters direct the tribe's raids and defenses from within its tunnels."
   },
   {
    "q": "Why are the Witherbark trolls working with ogres?",
@@ -41,7 +41,7 @@
     "trolls and boulderfist",
     "why are trolls allied with ogres"
    ],
-   "answer": "The Witherbark have struck a loose alliance of convenience with the local Boulderfist ogres. Combining their strength allows them to press against the weakened human defenders of Stromgarde and threaten regional rivals like the Horde in Hammerfall."
+   "answer": "The Witherbark have formed a loose alliance of convenience with the local Boulderfist ogres. Together, they can press Stromgarde's weakened human defenders and threaten rivals such as the Horde at Hammerfall."
   },
   {
    "q": "Are the Witherbark friendly to the Horde?",
@@ -50,17 +50,17 @@
     "can horde talk to witherbark",
     "witherbark reputation"
    ],
-   "answer": "No. Like most Amani-descended forest trolls, the Witherbark harbor bitter resentment toward the modern Horde and its Darkspear trolls, and they fight the Horde at Hammerfall. They will attack Horde travelers on sight."
+   "answer": "No. The Witherbark resent the modern Horde and its Darkspear trolls, and they fight the Horde at Hammerfall. They attack Horde travelers on sight."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Witherbark show no deference to the new Horde, frequently clashing with scouts from Hammerfall and threatening travel through the eastern passes."
+   "text": "The Witherbark give no deference to the new Horde. They often clash with scouts from Hammerfall and threaten travel through the eastern passes."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls will find no kinship here; the forest trolls of the Witherbark view jungle trolls and the Horde with deep-seated hostility."
+   "text": "As a Darkspear troll, you will find no kinship with the Witherbark. These forest trolls regard jungle trolls and the Horde with deep hostility."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Witherbark Village"
- ]
+ ],
+ "style": 2
 }

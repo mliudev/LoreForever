@@ -10,16 +10,16 @@
    "quest:934"
   ]
  },
- "summary": "Corithras Moonrage entrusts the Amethyst Phial to travelers in Dolanaar. They carry it to the Oracle Glade to gather water from the moonwell beneath the Oracle Tree.",
+ "summary": "In Dolanaar, Corithras Moonrage entrusts travelers with the Amethyst Phial. They take it to the Oracle Glade and gather water from the moonwell beneath the Oracle Tree.",
  "sections": [
   {
    "title": "Vessel of Sacred Waters",
-   "body": "Corithras Moonrage entrusts the Amethyst Phial to travelers on Teldrassil. It is the final vessel used in the Crown of the Earth pilgrimage. They carry it to the far northwest of the boughs, to the Oracle Glade. Beneath the ancient canopy of the Oracle Tree lies the island’s first and most potent moonwell. The phial is dipped into its radiant waters to gather the essence of Elune’s grace. Druids and priestesses study and tend to the World Tree’s unpredictable growth with that water.",
+   "body": "Corithras Moonrage gives travelers on Teldrassil the Amethyst Phial. It is the final vessel in the Crown of the Earth pilgrimage. They carry it to the Oracle Glade in the far northwest of the boughs.\n\nBeneath the Oracle Tree’s ancient canopy lies the island’s first and most potent moonwell. Travelers dip the phial into its radiant waters to gather the essence of Elune’s grace. Druids and priestesses study and tend the World Tree’s unpredictable growth with that water.",
    "spoiler": 0
   },
   {
    "title": "A Burden of Unblessed Growth",
-   "body": "Teldrassil was raised under the guidance of Arch Druid Fandral Staghelm, without the blessings of the Dragon Aspects. They refused to endorse what they considered an act of arrogance. As a consequence, the boughs suffer from unsettling corruption, and the kaldorei remain mortal. Filling the Amethyst Phial is both a spiritual rite and an ongoing survey. Researchers in Dolanaar scrutinize the purity of Teldrassil’s sacred waters.",
+   "body": "Arch Druid Fandral Staghelm guided the raising of Teldrassil, but the Dragon Aspects refused to bless it. They considered the act arrogant. As a consequence, corruption troubles the boughs and the kaldorei remain mortal.\n\nFilling the Amethyst Phial is both a spiritual rite and an ongoing survey. Researchers in Dolanaar scrutinize the purity of Teldrassil’s sacred waters.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what do i do with amethyst phial",
     "amethyst phial use"
    ],
-   "answer": "Corithras Moonrage gives the phial to travelers to gather water from Teldrassil’s first and most potent moonwell, beneath the Oracle Tree in the Oracle Glade."
+   "answer": "Corithras Moonrage gives you the phial to gather water from Teldrassil’s first and most potent moonwell, beneath the Oracle Tree in the Oracle Glade."
   },
   {
    "q": "Where do I fill the Amethyst Phial?",
@@ -40,7 +40,7 @@
     "amethyst phial location",
     "oracle glade moonwell"
    ],
-   "answer": "Fill it in the moonwell far northwest of Dolanaar, north of the entrance to Darnassus, in the Oracle Glade."
+   "answer": "Fill the phial at the moonwell far northwest of Dolanaar, north of the entrance to Darnassus, in the Oracle Glade."
   },
   {
    "q": "Why is the water from the Oracle Glade so important?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you take on a solemn duty when you fill the phial, confronting the flaws in Teldrassil’s unblessed creation."
+   "text": "As a kaldorei, you take on a solemn duty when you fill the phial and confront the flaws in Teldrassil’s unblessed creation."
   },
   {
    "target": "class:Druid",
@@ -96,5 +96,5 @@
   "Crown of the Earth (5)",
   "Teldrassil: The Burden of the Kaldorei"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Thom's opportunistic nature and clumsy cover stories highlight a less-than-scholarly side of gnome curiosity when valuable relics are on the line."
+   "text": "As a gnome, Thom's clumsy cover story shows how curiosity can turn toward valuable relics."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven adventurers may view Thom's sudden interest in salvaging ancestral relics with deep skepticism, especially given his slips of the tongue regarding loot and appraisal."
+   "text": "As a dwarf, you may doubt Thom's sudden interest in ancestral relics when he keeps slipping into talk of loot and appraisal."
   },
   {
    "target": "class:Rogue",
-   "text": "A rogue easily sees right through Thom's flimsy excuse of 'patrolling' the vaults, recognizing a fellow scavenger caught off guard by an underground invasion."
+   "text": "As a rogue, you can see through Thom's claim that he was patrolling the vaults. He is a scavenger caught off guard by an underground invasion."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "who is thom",
     "quest giver"
    ],
-   "answer": "The quest is given by Thom, an enterprising gnome found near the vaults. His nervous slips of the tongue suggest he is far more interested in lucrative plunder than legitimate vault security.",
+   "answer": "Thom is a nervous gnome near the vaults who asks for help retrieving relics. His slips about loot and appraisal suggest he cares more for plunder than vault security.",
    "q": "Who is Thom?"
   },
   {
@@ -40,7 +40,7 @@
     "what is hall of thanes",
     "where is hall of thanes"
    ],
-   "answer": "The Hall of Thanes is an underground dwarven vault containing ancient cultural relics and heirlooms, which has recently been breached by Dark Iron subterranean forces.",
+   "answer": "The Hall of Thanes is an underground dwarven vault holding ancient cultural relics and heirlooms. Dark Iron forces have breached it.",
    "q": "What is the Hall of Thanes?"
   },
   {
@@ -48,7 +48,7 @@
     "why dark iron there",
     "dark iron mole machines"
    ],
-   "answer": "A strike force of Dark Iron dwarves breached the vaults directly from the depths using tunneling mole machines, throwing the area into chaos for unknown purposes.",
+   "answer": "Dark Iron dwarves tunneled into the vaults from below in mole machines. Their purpose is unknown.",
    "q": "Why are Dark Iron dwarves in the vaults?"
   },
   {
@@ -57,7 +57,7 @@
     "does thom steal",
     "thom trustworthy"
    ],
-   "answer": "Thom constantly slips up, referring to sneaking as 'patrolling,' heirlooms as 'loot' and 'haul,' and cataloging as 'appraising.' While he pays his promised reward, his claims of returning the relics to places of honor are highly suspect.",
+   "answer": "Thom says he will return the relics to places of honor, but his words raise doubts. He calls lurking patrol and cataloguing appraisal, and speaks of loot and a haul.",
    "q": "Is Thom really returning the heirlooms?"
   },
   {
@@ -65,7 +65,7 @@
     "what are the heirlooms",
     "dwarven heirlooms lore"
    ],
-   "answer": "They are ancient dwarven cultural relics housed within the Hall of Thanes, considered priceless treasures by historians\u2014and lucrative loot by opportunists like Thom.",
+   "answer": "The Dwarven Heirlooms are ancient cultural relics kept in the Hall of Thanes. Historians prize them, while opportunists such as Thom see valuable loot.",
    "q": "What are the Dwarven Heirlooms?"
   },
   {
@@ -73,7 +73,7 @@
     "why does thom need help",
     "why help thom"
    ],
-   "answer": "Thom was caught off guard by the sudden arrival of Dark Iron mole machines while lurking in the vaults, leaving him unable to safely scavenge the relics himself without an adventurer's protection.",
+   "answer": "Dark Iron mole machines caught Thom off guard while he was lurking in the vaults. He cannot safely gather the relics without an adventurer's protection.",
    "q": "Why can't Thom retrieve the heirlooms himself?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "While exploring the subterranean vaults of the Hall of Thanes, an enterprising gnome named Thom was interrupted by the sudden arrival of Dark Iron dwarves tunneling upward in mole machines. Unable to secure the area himself, Thom recruits passing adventurers to brave the hostile dig site and retrieve valuable dwarven relics scattered across the chambers before the invaders seize or destroy them.",
+   "body": "Thom is a gnome caught in the Hall of Thanes when Dark Iron dwarves tunnel up in mole machines. He cannot secure the vaults alone, so he asks passing adventurers to enter the hostile dig site. The dwarven relics lie scattered through the chambers. The invaders may seize or destroy them.",
    "spoiler": 0,
    "title": "Trouble in the Vaults"
   },
   {
-   "body": "Despite Thom's insistence that he was merely on patrol and wishes to catalogue the relics for preservation, his constant slips about 'priceless loot' and 'appraising the haul' suggest far more self-serving motives. Adventurers are handsomely compensated for their bravery, though whether these ancient dwarven treasures will ever see a museum or an auction block remains an open question.",
+   "body": "Thom says he was patrolling and wants to catalogue the relics for preservation. Yet he lets slip talk of priceless loot and appraising the haul. He pays you well to face the danger, but whether the treasures will reach a museum or an auction block remains unclear.",
    "spoiler": 1,
    "title": "Cultural Preservation or Lucrative Plunder?"
   }
  ],
- "summary": "Important Heirlooms is a quest where an adventurer aids a nervous gnome named Thom, who was caught lurking in the Hall of Thanes when Dark Iron dwarves breached the vaults in subterranean mole machines. The task involves retrieving scattered dwarven relics under the dubious guise of historic preservation.",
+ "summary": "In the Hall of Thanes, Dark Iron dwarves break into the vaults while Thom is caught inside. The nervous gnome asks you to gather the scattered dwarven relics before the invaders reach them.",
  "attribution": [
   "In-game quest text: Important Heirlooms"
- ]
+ ],
+ "style": 2
 }

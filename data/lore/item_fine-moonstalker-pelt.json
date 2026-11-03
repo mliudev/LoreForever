@@ -10,11 +10,11 @@
    "quest:986"
   ]
  },
- "summary": "In southern Darkshore, mature moonstalkers carry the hides Terenthis needs. Their Fine Moonstalker Pelt is thick and healthy enough for an enchanted cloak that helps searchers pass the region’s hostile beasts unnoticed.",
+ "summary": "In southern Darkshore, Terenthis seeks the hides of mature moonstalkers. Their thick, healthy pelts can help make an enchanted cloak for those searching for Volcor.",
  "sections": [
   {
    "title": "Hides of the Pack Leaders",
-   "body": "Moonstalker sires and matriarchs have coats dense and healthy enough to yield a fine pelt. They hold territories along the Wildbend River and farther south toward Ashenvale’s borders, where they hunt with patience. Common moonstalkers prowl across Darkshore’s forests, but their hides are not fine enough.",
+   "body": "Moonstalker sires and matriarchs have coats dense and healthy enough to yield a fine pelt. They keep territory along the Wildbend River and farther south toward Ashenvale’s borders. There, they hunt with patience. Common moonstalkers roam Darkshore’s forests, but their hides are not fine enough.",
    "spoiler": 0
   },
   {
@@ -49,7 +49,7 @@
     "why collect moonstalker pelts",
     "terenthis pelt quest"
    ],
-   "answer": "Terenthis needs five pelts to make an enchanted cloak for travelers searching for the missing night elf Volcor. Its magic conceals a rescuer from predatory beasts."
+   "answer": "Terenthis needs five pelts to make an enchanted cloak for travelers searching for the missing night elf Volcor. Its magic conceals the wearer from predatory beasts."
   },
   {
    "q": "Does the finished cloak make you completely invisible?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking sires and matriarchs near the Wildbend River tests your skills against some of coastal Kalimdor’s fiercest predators."
+   "text": "As a hunter, tracking sires and matriarchs near the Wildbend River tests your skill against some of coastal Kalimdor’s fiercest predators."
   },
   {
    "target": "race:NightElf",
@@ -95,5 +95,5 @@
   "Fine Moonstalker Pelt",
   "A Lost Master"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,21 +8,21 @@
   "wiki": "High Inquisitor Fairbanks",
   "refs": 5
  },
- "summary": "High Inquisitor Fairbanks was once a revered priest of the Knights of the Silver Hand and the most trusted advisor to Highlord Alexandros Mograine. Betrayed, executed, and hidden away behind a secret door in the Scarlet Monastery Cathedral, his rotting, undead form stands as a grim monument to the Scarlet Crusade's dark descent.",
+ "summary": "In the Scarlet Crusade, High Inquisitor Fairbanks's fate remains bound to the order's dark descent. Before Lordaeron fell, he was a revered priest and a trusted advisor to Highlord Alexandros Mograine.",
  "sections": [
   {
    "title": "Advisor to the Ashbringer",
-   "body": "Before the fall of Lordaeron, Fairbanks was a respected holy man among the Knights of the Silver Hand and the most trusted advisor of Highlord Alexandros Mograine, the bearer of the legendary Ashbringer. He stood beside the Highlord when Mograine, High General Abbendis and Grand Inquisitor Isillien founded the Scarlet Crusade, at first a noble order sworn to destroy the Scourge.",
+   "body": "Before Lordaeron fell, Fairbanks was a respected priest of the Knights of the Silver Hand. Highlord Alexandros Mograine trusted him above all others. Mograine bore the Ashbringer. Fairbanks stood beside Mograine, High General Abbendis and Grand Inquisitor Isillien when they founded the Scarlet Crusade, an order sworn to destroy the Scourge.",
    "spoiler": 0
   },
   {
    "title": "Betrayal at Stratholme",
-   "body": "Fairbanks accompanied Alexandros Mograine when the Highlord's eldest son, Renault, led them into a terrible Scourge ambush outside Stratholme. Fairbanks fell early under the press of undead claws, buried beneath piles of rotting corpses. From this horrific vantage, he silently witnessed Renault seize the fallen Ashbringer and plunge it into his own father's heart, corrupting the holy blade with patricide. Surviving the slaughter, Fairbanks clawed his way out from under the dead and returned to the Scarlet Monastery to expose Renault's treachery.",
+   "body": "Fairbanks accompanied Alexandros Mograine when Renault, the Highlord’s eldest son, led them into a Scourge ambush outside Stratholme. Undead claws brought Fairbanks down early, and heaps of rotting corpses buried him. Beneath them, he saw Renault take the fallen Ashbringer and drive it into his father’s heart. The patricide corrupted the holy blade.\n\nFairbanks survived the slaughter and clawed free of the dead. He returned to the Scarlet Monastery to expose Renault’s treachery.",
    "spoiler": 1
   },
   {
    "title": "Execution and Exile",
-   "body": "Fairbanks's desperate warnings shattered the remaining defenders of Lordaeron. Those who believed his horrific account abandoned the fanatical order to form the Argent Dawn. Those who remained loyal to Renault and Saidan Dathrohan branded Fairbanks a blasphemer and a lunatic. Fairbanks was quietly executed by the Scarlet Crusade. Rather than granting him a holy burial, the crusaders discarded his body in a hidden chamber behind the Cathedral's altar, where he eventually rose as the very monstrosity they swore to cleanse.",
+   "body": "Fairbanks’s warnings split Lordaeron’s remaining defenders. Those who believed him left the fanatical order and formed the Argent Dawn. Those still loyal to Renault and Saidan Dathrohan branded him a blasphemer and lunatic.\n\nThe Scarlet Crusade executed Fairbanks in secret. The crusaders denied him a holy burial and cast his body into a hidden chamber behind the Cathedral’s altar. There, he eventually rose as the very monstrosity they had sworn to cleanse.",
    "spoiler": 2
   }
  ],
@@ -35,7 +35,7 @@
     "fairbanks secret room",
     "monastery secret door"
    ],
-   "answer": "Fairbanks is hidden inside the Cathedral wing of the Scarlet Monastery. To reach him, enter the side chapel to the right of the main altar and pull a concealed wall torch, which swings open a secret stone doorway leading into a secluded crypt."
+   "answer": "Fairbanks lies hidden in the Cathedral wing of the Scarlet Monastery. Enter the side chapel to the right of the main altar and pull the concealed wall torch. It opens a secret stone doorway into a secluded crypt."
   },
   {
    "q": "Why is Fairbanks an undead creature?",
@@ -44,7 +44,7 @@
     "is fairbanks scourge",
     "why is fairbanks undead"
    ],
-   "answer": "No one has explained exactly how he rose. During the ambush at Stratholme, Fairbanks lay buried beneath piles of Scourge corpses, and after the Scarlet Crusade executed him for his accusations against its leaders, his cast-aside body was left hidden in a secret chamber, where it eventually rose as one of the undead."
+   "answer": "No one has explained exactly how Fairbanks rose. At Stratholme, he lay buried beneath piles of Scourge corpses. After the Scarlet Crusade executed him for accusing its leaders, they cast his body into a hidden chamber, where it eventually rose as undead."
   },
   {
    "q": "Who was Fairbanks before he was executed?",
@@ -53,7 +53,7 @@
     "who is high inquisitor fairbanks",
     "fairbanks lore"
    ],
-   "answer": "Fairbanks was a devout priest of the Knights of the Silver Hand and the chief counselor to Highlord Alexandros Mograine, the Ashbringer. He stood as one of the original spiritual leaders of Lordaeron's surviving defenders."
+   "answer": "Before his execution, Fairbanks was a devout priest of the Knights of the Silver Hand and chief counselor to Highlord Alexandros Mograine, bearer of the Ashbringer. He was among the original spiritual leaders of Lordaeron’s surviving defenders."
   },
   {
    "q": "What caused the split between the Scarlet Crusade and the Argent Dawn?",
@@ -62,7 +62,7 @@
     "why did argent dawn split",
     "fairbanks argent dawn"
    ],
-   "answer": "When Fairbanks returned from Stratholme and reported what he had witnessed there, the order fractured. Those who believed Fairbanks and rejected Renault's fanaticism walked away to establish the Argent Dawn, while Renault's zealots stayed with the Scarlet Crusade."
+   "answer": "Fairbanks’s account of what he witnessed at Stratholme fractured the order. Those who believed him and rejected Renault’s fanaticism left to establish the Argent Dawn. Renault’s zealots remained with the Scarlet Crusade."
   },
   {
    "q": "Why did the Scarlet Crusade kill Fairbanks?",
@@ -71,7 +71,7 @@
     "who killed fairbanks",
     "fairbanks execution"
    ],
-   "answer": "The leadership of the Scarlet Crusade branded his testimony of what happened at Stratholme as malicious blasphemy. The crusaders executed him to silence the truth."
+   "answer": "The Scarlet Crusade’s leaders called Fairbanks’s testimony about Stratholme malicious blasphemy. They executed him to silence the truth."
   },
   {
    "q": "Who replaced Fairbanks as High Inquisitor?",
@@ -80,25 +80,25 @@
     "fairbanks replacement",
     "who succeeded fairbanks"
    ],
-   "answer": "Following Fairbanks's execution and secret imprisonment, Whitemane ascended to the role of High Inquisitor, presiding over the Scarlet Monastery's inquisitorial interrogations alongside Commander Renault Mograine."
+   "answer": "After Fairbanks’s execution and secret imprisonment, Whitemane became High Inquisitor. She led the Scarlet Monastery’s inquisitorial interrogations alongside Commander Renault Mograine."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Fairbanks witnessed the darkest hour of the Silver Hand: the day an honored paladin turned a legendary holy blade against his own father."
+   "text": "Fairbanks witnessed the Silver Hand’s darkest hour, when an honored paladin turned a legendary holy blade against his own father."
   },
   {
    "target": "class:Priest",
-   "text": "Before his fall, Fairbanks was a priest of the Light and the closest counselor of Highlord Mograine, the Ashbringer."
+   "text": "Before his fall, Fairbanks was a priest of the Light and Highlord Mograine’s closest counselor."
   },
   {
    "target": "race:Undead",
-   "text": "Fairbanks proves the ultimate hypocrisy of the Scarlet Crusade: hiding one of their own dead behind an altar while burning innocent Forsaken."
+   "text": "Fairbanks reveals the Scarlet Crusade’s hypocrisy: they hid one of their own dead behind an altar while burning innocent Forsaken."
   },
   {
    "target": "faction:Alliance",
-   "text": "Fairbanks's tragedy traces back to the fallen kingdom of Lordaeron, where the remnants of the Grand Alliance split into zealots and outcasts."
+   "text": "Fairbanks’s tragedy began in fallen Lordaeron, where the Grand Alliance’s remnants split into zealots and outcasts."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "High Inquisitor Fairbanks"
- ]
+ ],
+ "style": 2
 }

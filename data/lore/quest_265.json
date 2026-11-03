@@ -17,16 +17,16 @@
   "wiki": "The Shadowy Search Continues",
   "chain": []
  },
- "summary": "In Duskwood, the search for the journal’s origins leads from Madame Eva to Clerk Daltry in Darkshire. The journal came from the ruins of Sven Yorgen’s ransacked farmstead.",
+ "summary": "In Duskwood, you trace the journal from Madame Eva to Clerk Daltry in Darkshire. It came from the ruins of Sven Yorgen’s ransacked farmstead.",
  "sections": [
   {
    "title": "Tracing the Binding",
-   "body": "Madame Eva discerned that the journal’s author was an outsider, but its binding came from within Darkshire. Clerk Daltry often sells blank ledgers and tomes to traveling scholars, spellcasters, and record-keepers. The search follows those local sales for a clue to the sinister trespasser in Duskwood’s groves.",
+   "body": "Madame Eva found that the journal’s author was an outsider, though its binding came from Darkshire. Clerk Daltry sells blank ledgers and tomes to traveling scholars, spellcasters, and record-keepers. So you follow those local sales for a clue to the sinister trespasser in Duskwood’s groves.",
    "spoiler": 0
   },
   {
    "title": "A Jittery Buyer",
-   "body": "Clerk Daltry remembers the sale despite the many records that pass through Darkshire’s town hall. About a month ago, a nervous traveler bought the blank book without giving a name. The furtive buyer kept glancing over his shoulder, leaving a clear impression on the clerk. The shadowy figure Sven glimpsed had walked openly among Darkshire’s citizens.",
+   "body": "Clerk Daltry remembers the sale, though many records pass through Darkshire’s town hall. About a month ago, a nervous traveler bought the blank book and gave no name. The furtive buyer kept glancing over his shoulder, leaving a clear impression on the clerk. Sven’s shadowy figure had walked openly among Darkshire’s citizens.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who sold the book",
     "book source"
    ],
-   "answer": "Madame Eva says the author is a stranger to Darkshire, but the book was bought in town. Clerk Daltry sells blank books and may remember who bought it."
+   "answer": "Madame Eva says the author was an outsider, but the book was bought in Darkshire. Clerk Daltry sells blank books and may remember who bought it."
   },
   {
    "q": "Why does Madame Eva send you to Clerk Daltry?",
@@ -47,7 +47,7 @@
     "eva daltry connection",
     "who made the book"
    ],
-   "answer": "Madame Eva discerned that the book’s binding and materials came from a local purchase. Clerk Daltry sells blank ledgers and journals to locals and traveling scholars."
+   "answer": "Madame Eva found that the book’s binding and materials came from a local purchase. Clerk Daltry sells blank ledgers and journals to locals and traveling scholars."
   },
   {
    "q": "What does Clerk Daltry remember about the buyer?",
@@ -65,7 +65,7 @@
     "why are we looking",
     "sven yorgen"
    ],
-   "answer": "The book was salvaged from Sven Yorgen’s destroyed farm in southern Duskwood, left behind after the murderous raid that wiped out his family."
+   "answer": "The book was salvaged from Sven Yorgen’s destroyed farm in southern Duskwood. It was left behind after a murderous raid wiped out his family."
   },
   {
    "q": "Where does the investigation lead next?",
@@ -74,7 +74,7 @@
     "after daltry",
     "next clue"
    ],
-   "answer": "The search continues at Darkshire’s Scarlet Raven Tavern, where someone may have seen where the nervous stranger stayed or whom he spoke with."
+   "answer": "The search continues at Darkshire’s Scarlet Raven Tavern. Someone there may know where the nervous stranger stayed or whom he spoke with."
   },
   {
    "q": "Is Clerk Daltry in danger?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you know how purchase records and a merchant’s memory can help track a nervous target through town."
+   "text": "As a rogue, you know purchase records and a merchant’s memory can help track a nervous target through town."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "The Shadowy Search Continues"
  ],
- "style": 1
+ "style": 2
 }

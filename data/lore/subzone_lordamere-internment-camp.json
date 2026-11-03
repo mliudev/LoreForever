@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lordamere Internment Camp"
  },
- "summary": "Lordamere Internment Camp is a former Second War detention facility perched on the heights overlooking Dalaran. Once built to confine lethargic orcs, the camp is now occupied by surviving Dalaran magi and guards alongside a treacherous band of Forsaken defectors.",
+ "summary": "Surviving Dalaran magi and guards hold Lordamere Internment Camp above Dalaran. The old prison also shelters Forsaken defectors.",
  "sections": [
   {
    "title": "From Prison to Research Outpost",
-   "body": "Following the Second War, the Alliance constructed internment camps across the northern kingdoms to contain the defeated orcish Horde. Lordamere was unique as the sole camp established within the Alterac Mountains, placed under Dalaran's jurisdiction. With the orcs long since liberated or fled, the camp today functions under Warden Belamoore as an outpost for Dalaran remnants studying dangerous magical relics.",
+   "body": "Lordamere Internment Camp now serves Dalaran’s remnants as a research outpost. After the Second War, the Alliance built camps across the northern kingdoms to hold the defeated orcish Horde. Lordamere was the only camp in the Alterac Mountains, and Dalaran oversaw it. The orcs have long since been freed or fled. Warden Belamoore leads the camp, where Dalaran’s survivors study dangerous magical relics.",
    "spoiler": 0
   },
   {
    "title": "Forsaken Defectors",
-   "body": "The camp has become entangled in the politics of Lordaeron's undead. Four Forsaken renegades\u2014Kegan Darkmar and his compatriots\u2014stole powerful Bloodstone artifacts from the Undercity and fled here, trading them to Warden Belamoore in exchange for sanctuary behind Dalaran's lines. The magi gladly accepted the artifacts for arcane study, while executors in Tarren Mill dispatch loyal Horde operatives to hunt the defectors down and recover the stolen bloodstones before Dalaran unlocks their power.",
+   "body": "Four Forsaken renegades, including Kegan Darkmar, fled to Lordamere with Bloodstone artifacts stolen from the Undercity. They traded the relics to Warden Belamoore for sanctuary behind Dalaran’s lines. The magi accepted them for arcane study. In Tarren Mill, executors send loyal Horde operatives to hunt the defectors and recover the stolen Bloodstones before Dalaran unlocks their power.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why is there a camp here",
     "what is this place"
    ],
-   "answer": "It was established by the Alliance after the Second War to imprison captive orcs who had succumbed to lethargy after losing their demonic bloodlust. Dalaran manned the watchtowers and maintained oversight over the camp due to its close proximity to the magi's city."
+   "answer": "After the Second War, the Alliance built the camp to imprison orcs who had grown lethargic after losing their demonic bloodlust. Dalaran manned its watchtowers and oversaw it because it stood so close to the magi’s city."
   },
   {
    "q": "Who controls the camp right now?",
@@ -37,7 +37,7 @@
     "who runs the camp",
     "who is warden belamoore"
    ],
-   "answer": "Warden Belamoore and a detachment of Dalaran guards and magi hold the camp. Though Dalaran itself was heavily damaged, these survivors continue their research from the fortified hilltop."
+   "answer": "Warden Belamoore and a detachment of Dalaran guards and magi hold the camp. Though Dalaran suffered heavy damage, its survivors continue their research from the fortified hilltop."
   },
   {
    "q": "Why are there undead Forsaken inside the camp?",
@@ -46,17 +46,17 @@
     "kegan darkmar",
     "forsaken deserters"
    ],
-   "answer": "They are deserters from the Undercity led by Kegan Darkmar. Having betrayed Queen Sylvanas and stolen sacred Bloodstone artifacts, they traded the relics to Warden Belamoore in exchange for Dalaran's protection against Forsaken retribution."
+   "answer": "Kegan Darkmar leads the deserters from the Undercity. They betrayed Queen Sylvanas and stole sacred Bloodstone artifacts, then traded the relics to Warden Belamoore for protection from Forsaken retribution."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The deserters holed up in Lordamere represent a direct betrayal of the Dark Lady. Hunting down Kegan Darkmar and recovering the Bloodstones is vital to keeping Forsaken secrets out of human hands."
+   "text": "The deserters at Lordamere have betrayed the Dark Lady. Hunting Kegan Darkmar and recovering the Bloodstones is vital to keeping Forsaken secrets from human hands."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, visiting this camp is a grim reminder of the post-Second War era when thousands of their kin withered in captivity before Thrall rallied their people."
+   "text": "For orcs, Lordamere recalls the years after the Second War, when thousands of their kin withered in captivity before Thrall rallied their people."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Lordamere Internment Camp"
- ]
+ ],
+ "style": 2
 }

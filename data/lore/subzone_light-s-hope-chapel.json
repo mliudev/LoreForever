@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Light's Hope Chapel"
  },
- "summary": "Light's Hope Chapel is a sacred sanctuary situated in the eastern reaches of the Plaguelands, serving as the primary redoubt and headquarters for the Argent Dawn. Once a secluded shrine of the Church of the Holy Light in the Eastweald, it now stands as an enduring bulwark against the Scourge.",
+ "summary": "At Light's Hope Chapel, the Argent Dawn holds its chief redoubt against the Scourge. In the eastern Plaguelands, the Church of the Holy Light's secluded Eastweald chapel has become the order's headquarters.",
  "sections": [
   {
    "title": "A Bastion in the Plaguelands",
-   "body": "Originally a chapel of the Church of the Holy Light within the verdant Eastweald, Light's Hope Chapel endured the fall of Lordaeron to become a vital shelter in a blighted realm. When the zealous extremists among the survivors splintered to form the Scarlet Crusade, more temperate knights and priests banded together to establish the Argent Dawn. Choosing this secluded, hallowed site as their forward base of operations, the Dawn opened its doors to all races and factions\u2014Alliance and Horde alike\u2014united in the common crusade to purge the Scourge and reclaim the northern lands.",
+   "body": "Light's Hope Chapel began as a secluded chapel of the Church of the Holy Light in the Eastweald. It survived Lordaeron's fall and now shelters those in a blighted land. Among the survivors, zealous extremists broke away to form the Scarlet Crusade. More temperate knights and priests joined to establish the Argent Dawn, which chose the hallowed chapel as its forward base.\n\nThe order opens its doors to every race and faction. Alliance and Horde fighters stand together there, seeking to purge the Scourge and reclaim the northern lands.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "argent dawn neutral",
     "cross faction base"
    ],
-   "answer": "The Argent Dawn views the Scourge as an existential threat to all living beings, transcending the bitter politics of the Alliance and Horde. Unlike the fanatical and human-supremacist Scarlet Crusade, the Dawn actively recruits capable warriors, shamans, druids, and priests from any people willing to fight against the undead."
+   "answer": "The Argent Dawn sees the Scourge as a threat to every living being, beyond the bitter politics between the Alliance and Horde. Unlike the fanatical, human-supremacist Scarlet Crusade, the Dawn welcomes capable warriors, shamans, druids, and priests of any people willing to fight the undead."
   },
   {
    "q": "Who leads the defenders here?",
@@ -32,7 +32,7 @@
     "argent dawn leader",
     "lord tyrosus"
    ],
-   "answer": "Lord Maxwell Tyrosus leads the Argent Dawn from Light's Hope Chapel, directing the order's war against the Scourge across the Plaguelands."
+   "answer": "Lord Maxwell Tyrosus leads the Argent Dawn from Light's Hope Chapel. He directs the order's war against the Scourge across the Plaguelands."
   },
   {
    "q": "Why is this chapel so sacred?",
@@ -41,7 +41,7 @@
     "why does the scourge want lights hope",
     "sanctum beneath chapel"
    ],
-   "answer": "Light's Hope Chapel is a hallowed chapel of the Church of the Holy Light in the Eastweald. Its hallowed ground now shelters the Argent Dawn's headquarters, a rare beacon of the Light deep within the Scourge-held Plaguelands."
+   "answer": "Light's Hope Chapel is a hallowed chapel of the Church of the Holy Light in the Eastweald. Its sacred ground now shelters the Argent Dawn's headquarters, a rare beacon of the Light deep in the Scourge-held Plaguelands."
   },
   {
    "q": "What relationship does the chapel have with the Scarlet Crusade?",
@@ -50,17 +50,17 @@
     "scarlet crusade lights hope",
     "argent dawn vs scarlet crusade"
    ],
-   "answer": "While the Argent Dawn formed from paladins and priests who rejected the unhinged zealotry and isolationism of the Scarlet Crusade, the two orders still share a common enemy in the Scourge. The Dawn fights it on its own terms from the chapel, open to all who would stand against the undead."
+   "answer": "The Argent Dawn formed from paladins and priests who rejected the Scarlet Crusade's unhinged zealotry and isolationism. Both orders share the Scourge as an enemy, but the Dawn fights from Light's Hope Chapel on its own terms and welcomes all who would oppose the undead."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For holy warriors, Light's Hope Chapel is a sacred beacon in a sea of death, an ancient shrine of the Light held by the Argent Dawn."
+   "text": "As a holy warrior, you can look to Light's Hope Chapel as a sacred beacon amid death. The Argent Dawn holds this ancient chapel of the Light."
   },
   {
    "target": "faction:Horde",
-   "text": "Though situated deep in human territory and run by former Silver Hand knights, the chapel welcomes Horde fighters who prove their dedication to eradicating the undead."
+   "text": "Though Light's Hope Chapel lies deep in human territory and is run by former Silver Hand knights, Horde fighters are welcome if they prove their dedication to eradicating the undead."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Light's Hope Chapel"
- ]
+ ],
+ "style": 2
 }

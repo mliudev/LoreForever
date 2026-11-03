@@ -24,21 +24,21 @@
    "Reassignment"
   ]
  },
- "summary": "In Southshore, Lieutenant Farren Orinelle seeks a way back to Stormwind. He has compiled an exaggerated report of his deeds against the coastal naga and sends an adventurer to Stormwind Keep to deliver it to his former mentor, Major Samuelson.",
+ "summary": "In Southshore, Lieutenant Farren Orinelle seeks a way back to Stormwind. He sends an adventurer to Stormwind Keep with an exaggerated account of his deeds against the coastal naga, meant for his former mentor, Major Samuelson.",
  "sections": [
   {
    "title": "A Ticket Out of Southshore",
-   "body": "Lieutenant Farren Orinelle resents his posting in the Hillsbrad Foothills. In Southshore, far from the capital and under Marshal Redpath's stern watch, he spends his days plotting a transfer south. He takes credit for clearing out the nearby Daggerspine naga to make himself look like an indispensable, battle-hardened officer ready for promotion.",
+   "body": "Lieutenant Farren Orinelle resents his posting in the Hillsbrad Foothills. Southshore lies far from the capital, and Marshal Redpath keeps a stern watch over the town. So Farren spends his days plotting a transfer south. He claims credit for clearing out the nearby Daggerspine naga, hoping to look like an indispensable, battle-hardened officer ready for promotion.",
    "spoiler": 0
   },
   {
    "title": "Keep Connections",
-   "body": "Farren wants a transfer without drawing Marshal Redpath's suspicion, so he goes around the local chain of command. He turns to Major Samuelson, a senior officer in Stormwind Keep who mentored him in the past. A report delivered straight to Samuelson puts Farren's claimed deeds before someone with authority over garrison assignments.",
+   "body": "Farren wants a transfer without arousing Marshal Redpath's suspicion, so he goes around the local chain of command. He turns to Major Samuelson, a senior officer in Stormwind Keep who mentored him in the past. A report sent straight to Samuelson puts Farren's claimed deeds before an officer with authority over garrison assignments.",
    "spoiler": 0
   },
   {
    "title": "Bureaucracy at Work",
-   "body": "Major Samuelson receives the dossier in Stormwind Keep and gives mild approval to his former pupil's initiative against the naga menace. But military decisions move slowly. He promises only to weigh the report during next month's routine personnel review, leaving Farren's future in Southshore uncertain.",
+   "body": "Major Samuelson receives the dossier in Stormwind Keep and gives mild approval to his former pupil's initiative against the naga menace. Yet military decisions move slowly. He promises only to weigh the report during next month's routine personnel review, leaving Farren's future in Southshore uncertain.",
    "spoiler": 1
   }
  ],
@@ -96,11 +96,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The delivery shows the everyday politics of the Alliance military, where frontier garrisons such as Southshore can be far from the ambitions of officers hoping to return to Stormwind."
+   "text": "The delivery shows the everyday politics of the Alliance military. Frontier garrisons such as Southshore can be far from the ambitions of officers hoping to return to Stormwind."
   },
   {
    "target": "race:Human",
-   "text": "The delivery shows the divide between human refugees and defenders holding the line in Lordaeron and the political maneuvering inside Stormwind Keep's high halls."
+   "text": "The delivery shows the divide between human refugees and defenders holding the line in Lordaeron, and the political maneuvering inside Stormwind Keep's high halls."
   }
  ],
  "keywords": [
@@ -125,5 +125,5 @@
  "attribution": [
   "Reassignment"
  ],
- "style": 1
+ "style": 2
 }

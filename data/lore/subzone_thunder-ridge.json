@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thunder Ridge"
  },
- "summary": "Thunder Ridge lies southwest of Orgrimmar, where thunder lizards roam a stripped canyon. Along the Southfury River in western Durotar, the former grove was ruined by human logging and dark sorcery. Agitated beasts and lingering cultists threaten nearby settlements.",
+ "summary": "Southwest of Orgrimmar, Thunder Ridge lies along the Southfury River in western Durotar. Thunder lizards roam its stripped canyon, where human logging and dark sorcery ruined a former grove. Agitated beasts and lingering cultists threaten nearby settlements.",
  "sections": [
   {
    "title": "A Scarred Sanctuary",
-   "body": "Thunder Ridge was once a green haven in arid Durotar, shaded by ancient trees. Shortly after the Third War, humans from Kul Tiras began felling its timber. The thunder lizards grew wild as their home was cut away. Then the Burning Blade used fel sorcery to destroy what remained of the canopy. Now the gorge lies barren and exposed, with angry, lightning-spewing beasts roaming through it.",
+   "body": "Once, ancient trees shaded Thunder Ridge and made it a green haven in arid Durotar. Shortly after the Third War, humans from Kul Tiras began felling its timber. As the trees fell, the thunder lizards grew wild. Then the Burning Blade used fel sorcery to destroy what remained of the canopy. Now the gorge lies barren and exposed, and angry beasts that spew lightning roam its crags.",
    "spoiler": 0
   },
   {
    "title": "Cultists and Tests of Strength",
-   "body": "Orgrimmar's people watch the ridge with care. The Burning Blade keeps a band of cultists there, led by the warlock Fizzle Darkclaw, whose demonic magic spreads chaos through Durotar. Horde veterans such as Orgnil Soulscar send scouts to hunt the cultists. Warrior trainers like Uzzek also send aspiring fighters into the crags to test themselves against the enraged thunder lizards.",
+   "body": "Orgrimmar's people watch Thunder Ridge with care. The Burning Blade keeps cultists there under the warlock Fizzle Darkclaw, whose demonic magic spreads chaos through Durotar. Horde veterans such as Orgnil Soulscar send scouts to hunt them. Warrior trainers like Uzzek also send aspiring fighters into the crags to test themselves against the enraged thunder lizards.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "thunder ridge forest",
     "deforestation thunder ridge"
    ],
-   "answer": "Thunder Ridge was once dense woodland, but two waves of destruction stripped it away. Shortly after Durotar was founded, Kul Tiran forces felled the ancient trees for lumber. Later, the Burning Blade used dark, demonic magic to raze the surviving groves and wipe out the forest."
+   "answer": "Thunder Ridge was once dense woodland, but two waves of destruction stripped away its trees. Shortly after Durotar was founded, Kul Tiran forces felled the ancient trees for lumber. Later, the Burning Blade used dark, demonic magic to raze the surviving groves and wipe out the forest."
   },
   {
    "q": "Why are the thunder lizards so aggressive here?",
@@ -45,7 +45,7 @@
     "who is darkclaw",
     "burning blade thunder ridge"
    ],
-   "answer": "Fizzle Darkclaw leads a Burning Blade cult and established an encampment in Thunder Ridge. He and his followers use dark rituals to destabilize the region, and Horde leaders such as Orgnil Soulscar have placed a bounty on his head."
+   "answer": "Fizzle Darkclaw leads a Burning Blade cult and established an encampment in Thunder Ridge. He and his followers use dark rituals to destabilize the region. Horde leaders such as Orgnil Soulscar have placed a bounty on his head."
   },
   {
    "q": "Did Rexxar fight in Thunder Ridge?",
@@ -53,7 +53,7 @@
     "rexxar thunder ridge",
     "drek'thar thunder ridge"
    ],
-   "answer": "Yes. Shortly after Durotar was founded, Rexxar came to Thunder Ridge to gather shimmerweed for the farseer Drek'Thar. He found the human lumber camp driving the lizards wild, then culled the frenzied beasts and salvaged their eggs for Drek'Thar to study."
+   "answer": "Yes. Shortly after Durotar was founded, Rexxar came to Thunder Ridge to gather shimmerweed for the farseer Drek'Thar. He found the human lumber camp driving the lizards wild. Then he culled the frenzied beasts and salvaged their eggs for Drek'Thar to study."
   }
  ],
  "angles": [
@@ -63,7 +63,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Just beyond Orgrimmar's western bluffs, Thunder Ridge must be kept clear of Burning Blade agents such as Fizzle Darkclaw, whose demonic schemes threaten the capital."
+   "text": "Just beyond Orgrimmar's western bluffs, Thunder Ridge must be kept clear of Burning Blade agents such as Fizzle Darkclaw. His demonic schemes threaten the capital."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Thunder Ridge"
  ],
- "style": 1
+ "style": 2
 }

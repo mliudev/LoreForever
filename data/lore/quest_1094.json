@@ -17,16 +17,16 @@
   "wiki": "Further Instructions",
   "chain": []
  },
- "summary": "Ziz Fizziks sends stolen Venture Company plans from Windshear Crag to Ratchet. The documents may give his rival Sputtervalve an edge.",
+ "summary": "Ziz Fizziks sends stolen Venture Company plans from Windshear Crag to Ratchet. They may give his rival Sputtervalve an edge.",
  "sections": [
   {
    "title": "Corporate Espionage",
-   "body": "After the Venture Company cast Ziz Fizziks out of its logging operations at Windshear Crag, he took sensitive documents, internal manuals, and technical schematics with him. Bitter over his dismissal, he sealed them in an envelope bound for Ratchet. Among the papers are blueprints for the experimental Super Reaper 6000. Fizziks hopes to find a buyer or ally willing to use what he stole.",
+   "body": "Ziz Fizziks carries the Venture Company’s secrets from Windshear Crag. The company cast him out of its logging operations, and he took sensitive documents with him. He sealed internal manuals and technical schematics in an envelope bound for Ratchet. Among them are blueprints for the experimental Super Reaper 6000. Bitter over his dismissal, Fizziks hopes to find a buyer or ally willing to use what he stole.",
    "spoiler": 0
   },
   {
    "title": "The Ratchet Connection",
-   "body": "Sputtervalve, an engineer, waits in the neutral port of Ratchet in the Barrens. He has little affection or trust for Fizziks, but the rivalry with the Venture Company makes the offer hard to refuse. The Steamwheedle-aligned goblins seek ways to weaken their ruthless competitor and eagerly reverse-engineer superior mechanical inventions they encounter.",
+   "body": "In Ratchet, the neutral port in the Barrens, engineer Sputtervalve waits. He has little trust or affection for Fizziks, yet their common rival makes the offer hard to refuse. The Steamwheedle-aligned goblins seek ways to weaken the ruthless Venture Company. They eagerly reverse-engineer superior mechanical inventions they come across.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is fizziks sending",
     "stolen documents"
    ],
-   "answer": "The envelope holds Venture Company documents, technical manuals, and blueprints for the Super Reaper 6000. Ziz Fizziks stole them when he was driven from the company's logging operation."
+   "answer": "The envelope holds Venture Company documents, technical manuals, and blueprints for the Super Reaper 6000. Ziz Fizziks stole them when the company drove him from its logging operation."
   },
   {
    "q": "Who is Sputtervalve?",
@@ -72,7 +72,7 @@
     "does sputtervalve trust fizziks",
     "fizziks and sputtervalve relationship"
    ],
-   "answer": "No. Sputtervalve admits he distrusts Fizziks, but the manuals and blueprints are worth more to him than his wariness of the messenger."
+   "answer": "No. Sputtervalve distrusts Fizziks, but the manuals and blueprints matter more to him than his wariness of the messenger."
   },
   {
    "q": "What is the Super Reaper 6000?",
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The envelope carries the marks of goblin industry: corporate espionage, patent theft, and reverse-engineering complex lumber harvesters."
+   "text": "The envelope bears the marks of goblin industry: corporate espionage, patent theft, and the reverse-engineering of complex lumber harvesters."
   },
   {
    "target": "faction:Horde",
@@ -116,5 +116,5 @@
  "attribution": [
   "Further Instructions"
  ],
- "style": 1
+ "style": 2
 }

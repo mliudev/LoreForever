@@ -17,16 +17,16 @@
   "wiki": "Hex of Weakness (Durotar)",
   "chain": []
  },
- "summary": "In Durotar, Hex of Weakness carries a young Darkspear priest from Razor Hill to Orgrimmar. Tai'jin sends an initiate north to Ur'kyo, who welcomes new students into the tribe's spiritual circle and teaches the loa's darker arts.",
+ "summary": "From Razor Hill to Orgrimmar, Hex of Weakness marks a young Darkspear priest’s next step. Tai'jin sends an initiate north to Ur'kyo, who welcomes new students into the tribe’s spiritual circle and teaches the loa’s darker arts.",
  "sections": [
   {
    "title": "A Summons to the Circle",
-   "body": "Young Darkspear priests continue their lessons in Razor Hill's barracks under Tai'jin's watch. Once an acolyte shows command of spiritual communion and shadow magic, the first lessons end. Tai'jin sends the promising priest north, across Durotar's red dirt canyons, toward the Horde capital. There, elder practitioners guide the tribe's wider magical traditions.",
+   "body": "Tai'jin watches over young Darkspear priests as they study in Razor Hill’s barracks. When an acolyte has mastered spiritual communion and shadow magic, those first lessons come to an end. Tai'jin sends the promising priest north across Durotar’s red dirt canyons to Orgrimmar, the Horde capital. There, elder practitioners teach the tribe’s wider magical traditions.",
    "spoiler": 0
   },
   {
    "title": "The Old Ways in the Valley of Spirits",
-   "body": "The Darkspear keep a distinct cultural sanctuary in Orgrimmar's Valley of Spirits, apart from the orcs' clanging forges and warrior grounds. Ur'kyo, an elder priest, waits there for new initiates. Joining his circle means embracing the ancestral traditions of the jungle trolls: honoring the loa while learning potent curses and hexes that sap an enemy's strength in battle.",
+   "body": "In Orgrimmar’s Valley of Spirits, the Darkspear keep a sanctuary apart from the orcs’ forges and warrior grounds. Ur'kyo, an elder priest, welcomes new initiates there. Joining his circle means honoring the loa and learning the ancestral ways of the jungle trolls. It also means mastering potent curses and hexes that sap an enemy’s strength in battle.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "hex of weakness purpose",
     "what does hex of weakness quest do"
    ],
-   "answer": "This rite marks an initiate's formal advancement in the Darkspear priesthood. Tai'jin sends developing troll priests from Durotar's coast to Ur'kyo in Orgrimmar and brings them into the tribe's inner circle of spiritual practitioners."
+   "answer": "The rite marks an initiate’s advancement in the Darkspear priesthood. Tai'jin sends developing troll priests from Durotar’s coast to Ur'kyo in Orgrimmar, where they join the tribe’s inner circle of spiritual practitioners."
   },
   {
    "q": "Who is Tai'jin?",
@@ -56,7 +56,7 @@
     "urkyo priest trainer",
     "ur-kyo"
    ],
-   "answer": "Ur'kyo is an elder troll priest trainer in Orgrimmar's Valley of Spirits. He oversees advanced spiritual training and passes tribal hexes and deep ancestral rites to Darkspear priests."
+   "answer": "Ur'kyo is an elder troll priest trainer in Orgrimmar’s Valley of Spirits. He oversees advanced spiritual training and teaches Darkspear priests tribal hexes and deep ancestral rites."
   },
   {
    "q": "Where is the Valley of Spirits?",
@@ -65,7 +65,7 @@
     "where is ur'kyo",
     "where to find ur'kyo"
    ],
-   "answer": "The Valley of Spirits is a secluded, swampy district in western Orgrimmar. It is the Darkspear trolls' main home within the orcish fortress-city, with their trainers, lodgings, and totems."
+   "answer": "The Valley of Spirits is a secluded, swampy district in western Orgrimmar. It is the Darkspear trolls’ main home within the orcish fortress city, with their trainers, lodgings, and totems."
   },
   {
    "q": "What kind of magic does this training focus on?",
@@ -74,7 +74,7 @@
     "what are the old ways",
     "hex lore"
    ],
-   "answer": "Darkspear priests draw on the loa and ancient jungle troll traditions. They balance restorative spirit magic with debilitating curses such as Hex of Weakness, rather than relying only on the Holy Light favored by humans or dwarves."
+   "answer": "Darkspear priests draw on the loa and ancient jungle troll traditions. They balance restorative spirit magic with weakening curses such as Hex of Weakness, rather than relying only on the Holy Light favored by humans or dwarves."
   },
   {
    "q": "Can non-trolls undertake this quest?",
@@ -82,21 +82,21 @@
     "can undead do this",
     "is this troll only"
    ],
-   "answer": "No. This rite belongs to the Darkspear trolls' cultural traditions and their unique spells. Undead priests go to their own mentors and shadow philosophies in Tirisfal and the Undercity."
+   "answer": "No. The rite belongs to Darkspear tradition and its unique spells. Undead priests go to their own mentors and shadow philosophies in Tirisfal and the Undercity."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a troll, you move from novice lessons in Razor Hill toward recognition as a Darkspear priest, learning ancient curses passed down through generations."
+   "text": "As a troll, you leave novice lessons in Razor Hill and travel toward recognition as a Darkspear priest, learning curses passed down through generations."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you draw on communion with primal spirits, weaving tribal hexes with shadow and restorative spells, unlike the dogma of the Holy Light or the Forgotten Shadow."
+   "text": "As a priest, you draw on communion with primal spirits, weaving tribal hexes with shadow and restorative spells. These traditions differ from the dogma of the Holy Light or the Forgotten Shadow."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see troll culture take root within the fortified walls of Thrall's growing capital as you travel from Razor Hill to the Valley of Spirits."
+   "text": "As a member of the Horde, you see troll culture take root within the fortified walls of Thrall’s growing capital as you travel from Razor Hill to the Valley of Spirits."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Hex of Weakness (Durotar)"
  ],
- "style": 1
+ "style": 2
 }

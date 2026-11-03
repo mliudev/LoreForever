@@ -27,16 +27,16 @@
   ],
   "category": "Tanaris"
  },
- "summary": "Marin Noggenfogger in Gadgetzan takes the Violet Powder to mix into the dew, and asks you to come back to him in a moment, once his fabulous elixir is perfected.",
+ "summary": "In Gadgetzan, Marin Noggenfogger works Violet Powder into the dew. He asks you to return in a moment, when his fabulous elixir should be ready.",
  "sections": [
   {
    "title": "Mixing the Elixir",
-   "body": "Marin, who has the dew and now the powder, sets about mixing the one into the other. You are to wait a short while and then speak to Marin again, when the Noggenfogger Elixir should be ready.",
+   "body": "Marin has the dew and the powder. He begins mixing them, and the Noggenfogger Elixir should be ready after a short wait. Then speak to him again.",
    "spoiler": 0
   },
   {
    "title": "Marin's Verdict",
-   "body": "When Marin is done, a drink is pressed on you and declared wonderful. Marin boasts of the millions the elixir will bring, asks you to stand aside so you are not blocking business, and laughs off Sprinkle's claim of a favor as a joke.",
+   "body": "When Marin finishes, he presses a drink on you and calls it wonderful. He boasts of the millions it will bring, then asks you to step aside so you are not blocking business. Sprinkle claims Marin owes a favor, but Marin laughs it off as a joke.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who gives noggenfogger elixir",
     "marin noggenfogger quest"
    ],
-   "answer": "Marin Noggenfogger, in Gadgetzan."
+   "answer": "Marin Noggenfogger offers it in Gadgetzan."
   },
   {
    "q": "What came before this step?",
@@ -57,7 +57,7 @@
     "previous quest for marin",
     "what comes before noggenfogger elixir"
    ],
-   "answer": "It follows Delivery for Marin. Before that came The Thirsty Goblin, In Good Taste and Sprinkle's Secret Ingredient."
+   "answer": "This follows Delivery for Marin. Before that came The Thirsty Goblin, In Good Taste and Sprinkle's Secret Ingredient."
   },
   {
    "q": "What ingredients does Marin combine here?",
@@ -66,7 +66,7 @@
     "what is marin mixing",
     "what is in the elixir"
    ],
-   "answer": "Marin mixes the Violet Powder from Sprinkle into the dew."
+   "answer": "Marin mixes Sprinkle's Violet Powder into the dew."
   }
  ],
  "angles": [],
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Noggenfogger Elixir (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:2478"
   ]
  },
- "summary": "In Orgrimmar, Gallywix's Head proves that a Venture Company overseer was executed. The Shattered Hand demands the trophy as proof of the killing.",
+ "summary": "In Orgrimmar, the Shattered Hand awaits proof that Puzik Gallywix has been killed. His head will show the Venture Company overseer was executed.",
  "sections": [
   {
    "title": "A Grim Proof of Elimination",
-   "body": "Grand Foreman Puzik Gallywix directed the Venture Company's work from its tower north of the Sludge Fen. When word arrived that the Venture Co. planned something on a grand scale, the Shattered Hand sent operatives to dismantle the facility. Bringing Gallywix's head to Shenthul in Orgrimmar proves the overseer was executed and secures the rogue's standing within the guild.",
+   "body": "Grand Foreman Puzik Gallywix directed the Venture Company's work from a tower north of the Sludge Fen. When word came that the Venture Co. planned something on a grand scale, the Shattered Hand sent operatives to dismantle the facility. Bring Gallywix's head to Shenthul in Orgrimmar. It proves the overseer was executed and secures the rogue's standing within the guild.",
    "spoiler": 0
   },
   {
    "title": "The Sludge Fen Incursion",
-   "body": "The order to take Gallywix's head also calls for a stolen cache of Zanzil's altered mixture and the slaughter of the tower's poisoned personnel. Operatives assassinate Gallywix atop his perch and return his head to the Cleft of Shadow. The deed confirms that the Venture Company's grand scheme in the Barrens has been broken.",
+   "body": "The order to take Gallywix's head also calls for a stolen cache of Zanzil's altered mixture and the slaughter of the tower's poisoned personnel. Operatives assassinate Gallywix atop his perch, then return his head to the Cleft of Shadow. The deed confirms the Venture Company's grand scheme in the Barrens has been broken.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "puzik gallywix",
     "gallywix head origin"
    ],
-   "answer": "The head belongs to Grand Foreman Puzik Gallywix, a goblin supervisor overseeing Venture Company operations at the Sludge Fen in the northern Barrens."
+   "answer": "The head belongs to Grand Foreman Puzik Gallywix, a goblin supervisor who oversees Venture Company operations at the Sludge Fen in the northern Barrens."
   },
   {
    "q": "Who wants Gallywix's Head?",
@@ -63,7 +63,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, retrieving Gallywix's Head proves your lethal skill in covert infiltration, stealth, and targeted assassination for the Shattered Hand."
+   "text": "As a rogue, retrieving Gallywix's Head proves your skill in covert infiltration, stealth, and targeted assassination for the Shattered Hand."
   },
   {
    "target": "faction:Horde",
@@ -94,5 +94,5 @@
   "Gallywix's Head",
   "Mission: Possible But Not Probable"
  ],
- "style": 1
+ "style": 2
 }

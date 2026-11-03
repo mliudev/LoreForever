@@ -10,11 +10,11 @@
    "quest:240"
   ]
  },
- "summary": "In Darkshire, Chef Grual prepares Dusky Crab Cakes for the hungry Jitters. The dish is a local delicacy, and Jitters finds it exquisite.",
+ "summary": "In Darkshire, Chef Grual makes Dusky Crab Cakes for the hungry Jitters. Jitters finds the local delicacy exquisite.",
  "sections": [
   {
    "title": "A Questionable Delicacy",
-   "body": "Chef Grual prepares Dusky Crab Cakes for Jitters, a terrified vagrant overcome by hunger. Duskwood offers few fresh provisions, so cooks make do with meat from the forest. Grual’s cakes look like ordinary seafood patties, but their secret ingredient comes from the legs of Duskwood’s monstrous arachnids. Jitters devours the cakes, unaware of what he is eating.",
+   "body": "Chef Grual makes Dusky Crab Cakes for Jitters, a terrified vagrant whose hunger has overcome him. Duskwood has few fresh provisions, so cooks make do with meat from the forest.\n\nThe cakes look like ordinary seafood patties, but Grual uses meat from the legs of Duskwood’s monstrous arachnids. Jitters devours them, unaware of what he is eating.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "what is in dusky crab cakes",
     "spider meat"
    ],
-   "answer": "Chef Grual keeps his recipe to himself. The cakes’ secret ingredient comes to light while supplies are gathered for him in Duskwood."
+   "answer": "Chef Grual keeps his recipe to himself. Its secret ingredient comes to light while supplies are gathered for him in Duskwood."
   },
   {
    "q": "Who eats the Dusky Crab Cakes?",
@@ -35,7 +35,7 @@
     "who are these for",
     "jitters food"
    ],
-   "answer": "Chef Grual prepares the cakes for Jitters, an anxious man sheltering at Raven Hill and complaining of a rumbling stomach."
+   "answer": "Chef Grual makes the cakes for Jitters, an anxious man sheltering at Raven Hill who complains of a rumbling stomach."
   },
   {
    "q": "How does Jitters react to the cakes?",
@@ -52,7 +52,7 @@
     "chef grual",
     "cook darkshire"
    ],
-   "answer": "Chef Grual, the cook at the Scarlet Raven Tavern in Darkshire, prepares the cakes from supplies gathered for him."
+   "answer": "Chef Grual, cook at the Scarlet Raven Tavern in Darkshire, prepares the cakes from supplies gathered for him."
   }
  ],
  "angles": [
@@ -80,5 +80,5 @@
   "Dusky Crab Cakes",
   "Return to Jitters"
  ],
- "style": 1
+ "style": 2
 }

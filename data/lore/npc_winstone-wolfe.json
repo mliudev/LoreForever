@@ -8,11 +8,11 @@
   "wiki": "Winstone Wolfe",
   "refs": 2
  },
- "summary": "At Ravenholdt Manor, Winstone Wolfe keeps watch over the estate grounds. The human operative belongs to Lord Jorach Ravenholdt's secretive organization, hidden between Hillsbrad and the Alterac Mountains.",
+ "summary": "At Ravenholdt Manor, Winstone Wolfe watches over the estate grounds. He serves Lord Jorach Ravenholdt's secretive organization, hidden between Hillsbrad and the Alterac Mountains.",
  "sections": [
   {
    "title": "A Fixer in the Mountains",
-   "body": "Winstone Wolfe works among Lord Jorach Ravenholdt's syndicate at Ravenholdt Manor. Quiet and watchful, he handles business around the manor and watches its grounds and groundskeepers. Only those with discretion and talent walk there undisturbed.",
+   "body": "Winstone Wolfe works with Lord Jorach Ravenholdt's syndicate at Ravenholdt Manor. Quiet and watchful, he handles business around the manor and keeps an eye on its grounds and groundskeepers. Only those with discretion and talent pass there undisturbed.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "winstone wolfe lore",
     "ravenholdt wolfe"
    ],
-   "answer": "Winstone Wolfe is a human rogue working within Ravenholdt Manor, the League of Assassins' secluded headquarters high above Hillsbrad Foothills and the Alterac Mountains."
+   "answer": "Winstone Wolfe is a human rogue working at Ravenholdt Manor, the League of Assassins' secluded headquarters high above Hillsbrad Foothills and the Alterac Mountains."
   },
   {
    "q": "Where can I find Winstone Wolfe?",
@@ -33,7 +33,7 @@
     "where is winstone wolfe",
     "find winstone wolfe"
    ],
-   "answer": "Winstone Wolfe is at Ravenholdt Manor, reached by a hidden path winding north through the mountains from the Durnholde Keep area in Hillsbrad Foothills."
+   "answer": "Winstone Wolfe can be found at Ravenholdt Manor. A hidden path winds north through the mountains from the Durnholde Keep area in Hillsbrad Foothills."
   },
   {
    "q": "What is his role in Ravenholdt?",
@@ -41,13 +41,13 @@
     "what does wolfe do",
     "wolfe purpose"
    ],
-   "answer": "Winstone Wolfe works as an operative and guard around the manor, watching its grounds and assisting with the syndicate's logistical affairs."
+   "answer": "Winstone Wolfe works as an operative and guard around the manor. He watches the grounds and helps with the syndicate's logistical affairs."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you may recognize Winstone Wolfe as an operative at Ravenholdt Manor, where rogues travel into the mountains to hone their craft with the syndicate."
+   "text": "As a rogue, you may recognize Winstone Wolfe as an operative at Ravenholdt Manor. Rogues travel into the mountains to hone their craft with the syndicate."
   }
  ],
  "keywords": [
@@ -67,5 +67,5 @@
  "attribution": [
   "Winstone Wolfe"
  ],
- "style": 1
+ "style": 2
 }

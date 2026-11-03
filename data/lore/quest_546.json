@@ -17,16 +17,16 @@
   "wiki": "Souvenirs of Death",
   "chain": []
  },
- "summary": "At Tarren Mill, Deathguard Samsa envies those sent against the human settlements of the Hillsbrad Foothills. He asks for thirty human skulls taken in battle for his collection.",
+ "summary": "At Tarren Mill, Deathguard Samsa watches others march against Hillsbrad's human settlements and longs to join them. He asks for thirty human skulls taken in battle for his collection.",
  "sections": [
   {
    "title": "A Guard's Envy",
-   "body": "High Executor Darthalia directs the Forsaken campaign against Hillsbrad's human settlements. Deathguard Samsa remains on sentry duty in Tarren Mill, while others are sent to raid, burn, and pillage. He envies their chance to slaughter the living, a privilege denied to a guard fixed in place.",
+   "body": "High Executor Darthalia directs the Forsaken campaign against Hillsbrad's human settlements. Deathguard Samsa keeps watch in Tarren Mill while others are sent to raid, burn, and pillage. He envies their chance to slaughter the living, denied to a guard held at his post.",
    "spoiler": 0
   },
   {
    "title": "A Gruesome Trophy",
-   "body": "Samsa hates the humans of Hillsbrad and collects the skulls of those slain in the campaign. He asks for thirty, not for an arcane rite or military plan, but as trophies from a war he longs to fight himself.",
+   "body": "Samsa hates the humans of Hillsbrad and collects the skulls of those slain in the campaign. He asks for thirty as trophies from a war he longs to fight himself. No arcane rite or military plan lies behind his request.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what items needed",
     "skulls required"
    ],
-   "answer": "Samsa asks for thirty Hillsbrad Human Skulls from human combatants and townsfolk across Hillsbrad Fields and the town of Hillsbrad."
+   "answer": "Samsa asks for thirty Hillsbrad Human Skulls taken from human combatants and townsfolk across Hillsbrad Fields and the town of Hillsbrad."
   },
   {
    "q": "Why does Samsa want human skulls?",
@@ -74,7 +74,7 @@
     "magic skulls",
     "necromancy use"
    ],
-   "answer": "No. Samsa's request is personal, unlike Royal Apothecary Society assignments that seek biological reagents for the New Plague. He finds the severed skulls beautiful and cherishes them as souvenirs of war."
+   "answer": "No. Samsa's request is personal, unlike Royal Apothecary Society assignments seeking biological reagents for the New Plague. He finds the severed skulls beautiful and cherishes them as souvenirs of war."
   },
   {
    "q": "Which humans provide the skulls?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a Horde champion, you take part in the push against Alliance strongholds in Lordaeron, securing northern supply routes for Tarren Mill."
+   "text": "As a Horde champion, you join the push against Alliance strongholds in Lordaeron and secure northern supply routes for Tarren Mill."
   },
   {
    "target": "race:Undead",
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you face the brutal, existential threat the Forsaken pose to Hillsbrad's surviving townsfolk, marked by their systematic collection of severed human heads."
+   "text": "As an Alliance champion, you face the Forsaken's brutal threat to Hillsbrad's surviving townsfolk, marked by their systematic collection of severed human heads."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Souvenirs of Death"
  ],
- "style": 1
+ "style": 2
 }

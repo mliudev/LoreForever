@@ -20,16 +20,16 @@
    "Apprentice's Duties"
   ]
  },
- "summary": "In Menethil Harbor, prominent tanner James Halloran needs fresh skins from young marsh crocolisks. Their cured hides are in demand across the sea, so steady hunting keeps his trade supplied. Bringing him the softer skins earns his trust and leads to more leatherworking chores.",
+ "summary": "In Menethil Harbor, James Halloran needs fresh skins from young marsh crocolisks. Their cured hides are wanted across the sea, keeping his trade supplied. Bring him the softer skins, and you earn his trust for more leatherworking work.",
  "sections": [
   {
    "title": "A Harbor's Export",
-   "body": "Menethil Harbor links the Eastern Kingdoms to distant continents, and its busy local economy draws on the surrounding marsh. James Halloran tans and cures hides from the region's abundant reptilian predators for trade across the sea. Merchants and ships carry his leather goods to distant ports, keeping pressure on his workshop to maintain a steady supply.",
+   "body": "Menethil Harbor links the Eastern Kingdoms with distant continents. Its trade draws on the surrounding marsh, where James Halloran tans and cures hides from the region's reptilian predators. Merchants and ships carry his leather goods to far ports, so his workshop needs a steady supply.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Young Marsh Lurkers",
-   "body": "Einar brings Halloran regular hauls of mature hides, but those are too firm for some luxury goods. Halloran relies on passing travelers to fill the shortage of softer leather by hunting young crocolisks in the shallow bogs just outside Menethil's palisades. The skins must stay intact for Halloran's careful curing process.",
+   "body": "Einar brings Halloran regular hauls of mature hides, but those are too firm for some luxury goods. Halloran turns to travelers to find softer leather in the shallow bogs just outside Menethil's palisades. The young crocolisks' skins must stay intact for his careful curing.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "softer skins",
     "crocolisk hides use"
    ],
-   "answer": "Young crocolisks have softer, more pliable hides than adults. Their skins suit luxury goods and fine leatherwork that the stiffer adult hides cannot provide."
+   "answer": "Young crocolisks have softer, more pliable hides than adults. Their skins suit luxury goods and fine leatherwork that stiffer adult hides cannot provide."
   },
   {
    "q": "Who is Einar?",
@@ -77,7 +77,7 @@
     "next quest after young crocolisk skins",
     "halloran next task"
    ],
-   "answer": "Impressed by the hides' quality, Halloran asks for help with other chores around his tanning operation. He gives you the usual work of an apprentice to keep his workshop moving."
+   "answer": "Pleased with the hides' quality, Halloran asks for help with other chores around his tanning operation. He gives you the usual work of an apprentice to keep his workshop moving."
   },
   {
    "q": "Why is crocolisk leather valuable in Menethil Harbor?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Young Crocolisk Skins"
  ],
- "style": 1
+ "style": 2
 }

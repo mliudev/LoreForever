@@ -27,16 +27,16 @@
    "Rise of the Silithid"
   ]
  },
- "summary": "With Scrimshank lost, Senior Surveyor Fizzledowser sets about going over the surveying gear and putting Scrimshank's personal effects in order, and asks you to call on Alchemist Pestlezugg in Gadgetzan about the insect parts.",
+ "summary": "In Gadgetzan, Fizzledowser needs word on the insect parts sent to Alchemist Pestlezugg. With Scrimshank lost, the Senior Surveyor is sorting his surveying gear and personal effects.",
  "sections": [
   {
    "title": "A Check-In at Gadgetzan",
-   "body": "Fizzledowser means to spend some time with Scrimshank's surveying gear and personal effects, and has a sneaking feeling that these bugs will claim more losses. You are asked to call on Alchemist Pestlezugg in Gadgetzan and learn whether the insect parts the surveyors sent have been processed yet. If they are ready, Fizzledowser wants them brought back.",
+   "body": "Senior Surveyor Fizzledowser is putting Scrimshank's surveying gear and personal effects in order. He fears the bugs will claim more lives, so he sends you to Alchemist Pestlezugg in Gadgetzan. Learn whether Pestlezugg has finished processing the insect parts the surveyors sent. If they are ready, bring them back to Fizzledowser.",
    "spoiler": 0
   },
   {
    "title": "What Pestlezugg Found",
-   "body": "Pestlezugg has the results, and they are unsettling. The first suspicion, that an outside force is controlling the bugs, is believed to be correct. That means a very powerful unknown force, and a malignant one. The bugs have been changed into pure ravagers, and Pestlezugg has never seen anything quite like it.",
+   "body": "Alchemist Pestlezugg has finished his work, and the results trouble him. He believes the first suspicion was right: an outside force controls the bugs. That points to a powerful force, unknown and malignant. Pestlezugg has never seen bugs changed into pure ravagers before.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who starts insect part analysis",
     "fizzledowser location"
    ],
-   "answer": "Senior Surveyor Fizzledowser, who is going over Scrimshank's gear and putting Scrimshank's belongings in order."
+   "answer": "Senior Surveyor Fizzledowser sends you while sorting through Scrimshank's surveying gear and personal effects."
   },
   {
    "q": "Where is Alchemist Pestlezugg located?",
@@ -57,7 +57,7 @@
     "pestlezugg location",
     "pestlezugg town"
    ],
-   "answer": "In Gadgetzan, where you are to check in about the insect parts."
+   "answer": "Alchemist Pestlezugg is in Gadgetzan, where you are sent to check on the insect parts."
   },
   {
    "q": "What came directly before this step?",
@@ -66,14 +66,14 @@
     "what quest comes first",
     "previous step"
    ],
-   "answer": "It follows The Scrimshank Redemption."
+   "answer": "The Scrimshank Redemption comes directly before this step."
   },
   {
    "q": "What are you sent to find out?",
    "aliases": [
     "what does pestlezugg have"
    ],
-   "answer": "Whether Pestlezugg has finished going through the insect parts the surveyors sent. If they are ready, they are to be brought to Fizzledowser."
+   "answer": "You are sent to learn whether Pestlezugg has finished processing the insect parts the surveyors sent. If they are ready, bring them back to Fizzledowser."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Insect Part Analysis"
- ]
+ ],
+ "style": 2
 }

@@ -24,16 +24,16 @@
    "Tier 0.5 quests"
   ]
  },
- "summary": "Mokvar has a use for the venom samples you collected: they are for an acquaintance, Mux Manascrambler, who is in Gadgetzan. Mux is working on a device for speaking with the dead, and Mokvar hopes it will help reach Anthion.",
+ "summary": "In Gadgetzan, Mokvar sends you with venom for an engineer studying the dead. Mux Manascrambler is building a device to speak with them, and Mokvar hopes it can reach Anthion.",
  "sections": [
   {
    "title": "Venom for an Engineer",
-   "body": "Mokvar remarks that you must be brave to have stayed on, and says there is more armor to be had for anyone still willing to help. The venom you gathered belongs with an acquaintance, Mux Manascrambler, an engineer who takes an interest in the supernatural. Mux's current project is a device for talking to the dead. Mokvar pins a last hope on it: reaching Anthion to learn more about Mokvar's own situation. You take the sealed container to Mux in Gadgetzan, in Tanaris.",
+   "body": "Mokvar says you have shown courage by staying on, and more armor awaits those still willing to help. The venom you gathered is for Mux Manascrambler, an engineer who studies the supernatural and knows Mokvar. Mux is building a device to speak with the dead. Mokvar hopes it can reach Anthion and reveal more about his own situation. Carry the sealed container to Mux in Gadgetzan, in Tanaris.",
    "spoiler": 0
   },
   {
    "title": "A Welcome Delivery",
-   "body": "Mux is pleased to receive the venom, as the supply was running low. Mux then asks whether Mokvar sent you.",
+   "body": "Mux Manascrambler is glad to receive the venom because the supply was running low. Then Mux asks whether Mokvar sent you.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "quest giver",
     "mokvar"
    ],
-   "answer": "Mokvar, who wants the sealed venom container taken to an acquaintance in Gadgetzan."
+   "answer": "Mokvar sends you with a sealed container of venom to an acquaintance in Gadgetzan."
   },
   {
    "q": "Where does the venom need to go?",
@@ -54,7 +54,7 @@
     "turn in location",
     "mux location"
    ],
-   "answer": "To Mux Manascrambler in Gadgetzan, in Tanaris."
+   "answer": "The venom goes to Mux Manascrambler in Gadgetzan, in Tanaris."
   },
   {
    "q": "Who is Mux Manascrambler?",
@@ -62,7 +62,7 @@
     "who is mux",
     "mux manascrambler lore"
    ],
-   "answer": "An engineer fascinated by the supernatural, and an acquaintance of Mokvar's."
+   "answer": "Mux Manascrambler is an engineer fascinated by the supernatural and an acquaintance of Mokvar."
   },
   {
    "q": "What is Mux building?",
@@ -71,7 +71,7 @@
     "what does mux build",
     "supernatural device"
    ],
-   "answer": "A device that lets you communicate with the dead. It is Mux's latest project."
+   "answer": "Mux is building a device that lets people speak with the dead. It is his latest project."
   },
   {
    "q": "Why does Mokvar want to reach the dead?",
@@ -80,7 +80,7 @@
     "who is anthion",
     "mokvar motive"
    ],
-   "answer": "Mokvar hopes to reach Anthion and learn more about Mokvar's own situation, and sees the device as a final chance."
+   "answer": "Mokvar hopes the device can reach Anthion and reveal more about his own situation. He sees it as a final chance."
   }
  ],
  "angles": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "A Supernatural Device (Horde)"
- ]
+ ],
+ "style": 2
 }

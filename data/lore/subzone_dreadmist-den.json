@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dreadmist Den"
  },
- "summary": "In the northern Barrens, Burning Blade cultists keep their rites beneath Dreadmist Peak. Red haze fills the cavern they use as a shrine to demons.",
+ "summary": "Burning Blade cultists keep their rites beneath Dreadmist Peak in the northern Barrens. Red haze fills the cavern they use as a shrine to demons.",
  "sections": [
   {
    "title": "A Den of Wicked Shadows",
-   "body": "Dreadmist Den cuts into the jagged slopes of Dreadmist Peak, where Burning Blade cultists gather in a dark sanctuary. Thick crimson vapor hangs through its stone tunnels, dimming the cavern in red twilight. Away from the Horde's watch in the plains below, the cult performs demonic rites, guards its blasphemous relics, and plots to spread corruption across Kalimdor.",
+   "body": "Dreadmist Den opens among the jagged slopes of Dreadmist Peak. Burning Blade cultists gather in its dark sanctuary, where thick crimson vapor dims the stone tunnels to red twilight. Beyond the Horde's watch on the plains below, the cult performs demonic rites and guards its blasphemous relics. It plots to spread corruption across Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "The Demon Seed",
-   "body": "Deep in Dreadmist Den, the Demon Seed rests above the Altar of Fire. The cult prizes the artifact for its fel power, and it is connected to the Burning Legion. Ak'Zeloth prepares a power stone to disrupt that connection. Horde scouts and aspiring warlocks who follow the Burning Blade's activity face danger in the cavern as they seek to learn how far demonic influence reaches in the Barrens.",
+   "body": "Deep in Dreadmist Den, the Demon Seed rests above the Altar of Fire. The Burning Blade prizes the artifact for its fel power, and it is connected to the Burning Legion. Ak'Zeloth prepares a power stone to disrupt that connection. Horde scouts and aspiring warlocks who follow the cult's activity face danger in the cavern as they seek to learn how far demonic influence reaches in the Barrens.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is dreadmist den",
     "barrens dreadmist cave"
    ],
-   "answer": "Dreadmist Den cuts beneath Dreadmist Peak in the northern Barrens. Burning Blade cultists use its caves as an enclave and a place for their rites."
+   "answer": "Dreadmist Den lies beneath Dreadmist Peak in the northern Barrens. Burning Blade cultists use its caves as an enclave and a place for their rites."
   },
   {
    "q": "What causes the red mist inside the den?",
@@ -37,7 +37,7 @@
     "crimson fog barrens",
     "red mist dreadmist den"
    ],
-   "answer": "Red haze shrouds Dreadmist Den and the peak above it. Burning Blade cultists perform demonic rites there, but the haze's exact cause is unknown."
+   "answer": "Red haze shrouds Dreadmist Den and the peak above it. Burning Blade cultists perform demonic rites there, though the haze's exact cause is unknown."
   },
   {
    "q": "What is the Demon Seed found inside?",
@@ -46,7 +46,7 @@
     "what is demon seed",
     "artifact in dreadmist den"
    ],
-   "answer": "The Demon Seed is a dark artifact kept deep within Dreadmist Den. The Burning Blade cult prizes it as a powerful focus for fel magic."
+   "answer": "The Demon Seed is a dark artifact kept deep within Dreadmist Den. The Burning Blade prizes it as a powerful focus for fel magic."
   },
   {
    "q": "Why does the Horde care about this cave?",
@@ -55,7 +55,7 @@
     "why clear dreadmist den",
     "orcs burning blade barrens"
    ],
-   "answer": "The Horde fears the Burning Blade's demon worship and its efforts to undermine the Horde across Kalimdor. A stronghold near Crossroads and Orgrimmar threatens the security of the Barrens."
+   "answer": "The Horde fears the Burning Blade's demon worship and its efforts to undermine the Horde across Kalimdor. A stronghold near Crossroads and Orgrimmar threatens the Barrens' security."
   }
  ],
  "angles": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Dreadmist Den"
  ],
- "style": 1
+ "style": 2
 }

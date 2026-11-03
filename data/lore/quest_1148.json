@@ -16,16 +16,16 @@
   "wiki": null,
   "previous": ""
  },
- "summary": "Turning a cracked silithid carapace over in Thousand Needles, you find its plating interwoven so tightly that it is remarkably strong, and the creature seems powerful and highly developed. Korran at the Crossroads would probably like to study more of them.",
+ "summary": "In Thousand Needles, you find a cracked silithid carapace and see how tightly its plating is woven. Korran at the Crossroads wants to study more of these creatures.",
  "sections": [
   {
    "title": "A Curious Carapace",
-   "body": "Closer inspection shows the chitin woven so tightly that it is unlike anything you have seen. The rest of the body tells the same tale of great strength and advanced development. It occurs to you that Korran, at the Crossroads, would relish examining more of these creatures to learn their nature and their origins. The specimens wanted are one silithid heart, five silithid talons and three intact silithid carapaces.",
+   "body": "You find silithid chitin woven tighter than anything you have seen. The creature's body shows great strength and advanced development. Korran at the Crossroads wants to learn more about the creatures and their origins. He asks for one silithid heart, five silithid talons and three intact silithid carapaces.",
    "spoiler": 0
   },
   {
    "title": "Specimens for Korran",
-   "body": "Korran is pleased, remarking that these specimens, along with the eggs found in the Field of Giants, make a good start toward understanding what manner of creatures the insects are and what they seek.",
+   "body": "Korran welcomes the specimens. Along with the eggs found in the Field of Giants, they give him a beginning in learning what manner of creatures the insects are and what they seek.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "turn in parts of the swarm",
     "who studies the silithid"
    ],
-   "answer": "Korran at the Crossroads, who would like to study more of these creatures."
+   "answer": "Korran at the Crossroads wants the silithid parts so he can study more of these creatures."
   },
   {
    "q": "Where does this begin?",
@@ -55,7 +55,7 @@
     "silithid parts list",
     "what do i gather"
    ],
-   "answer": "One silithid heart, five silithid talons and three intact silithid carapaces."
+   "answer": "Korran wants one silithid heart, five silithid talons and three intact silithid carapaces."
   },
   {
    "q": "Why would Korran want to study silithid?",
@@ -63,13 +63,13 @@
     "why study silithid",
     "what korran learns"
    ],
-   "answer": "Studying more of them might show the creatures' nature and origin."
+   "answer": "Studying more silithid might reveal the creatures' nature and origins."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This is a Horde matter: the specimens are Korran's to receive, at the Crossroads."
+   "text": "As a member of the Horde, you bring the specimens to Korran at the Crossroads."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Classic quest text: Parts of the Swarm"
- ]
+ ],
+ "style": 2
 }

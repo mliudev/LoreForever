@@ -28,16 +28,16 @@
    "Tier 0.5 quests"
   ]
  },
- "summary": "Mux Manascrambler in Gadgetzan is working on his extra-dimensional ghost revealer but has run out of funds and manpower. The first piece he needs is an ectoplasmic distiller, and he asks you for a list of costly materials and forty gold to build it.",
+ "summary": "In Gadgetzan, Mux Manascrambler lacks the funds and help to finish his extra-dimensional ghost revealer. He asks you for costly materials and forty gold to build its first piece, an ectoplasmic distiller.",
  "sections": [
   {
    "title": "What Mux Needs",
-   "body": "After A Supernatural Device, Mux Manascrambler welcomes your help with his ghost revealer, a machine meant to reach across dimensions. The first piece is a distiller, meant to gather the fabric of death itself, and he warns that building it will not be easy. He wants a delicate arcanite converter, four greater eternal essences, ten stonescale oil and twenty-five volcanic ash, plus forty gold. The ash is for a filter, and it must come from the lava pools of the Burning Steppes. Mux admits the materials are pricey, but swears every one will be needed.",
+   "body": "Mux Manascrambler welcomes your help with his ghost revealer, a machine meant to reach across dimensions. First, he needs a distiller to gather the fabric of death itself. Building it will be difficult. Mux asks for one delicate arcanite converter, four greater eternal essences, ten stonescale oil, twenty-five volcanic ash, and forty gold.\n\nThe volcanic ash must come from the lava pools of the Burning Steppes. It will make the distiller's filter. The materials are costly, but Mux says he needs every one.",
    "spoiler": 0
   },
   {
    "title": "Mux's Thanks",
-   "body": "Mux says these are exactly the materials he needed, and that you arrived at a timely moment. He promises to have your distiller ready in moments and gives you something for your trouble.",
+   "body": "Mux says you brought exactly the materials he needed, just in time. He promises the distiller will be ready in moments, and gives you something for your trouble.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who gives the quest",
     "who is mux"
    ],
-   "answer": "Mux Manascrambler in Gadgetzan, in Tanaris, who is building an extra-dimensional ghost revealer."
+   "answer": "Mux Manascrambler in Gadgetzan, Tanaris, asks for materials while building an extra-dimensional ghost revealer."
   },
   {
    "q": "What materials does Mux require?",
@@ -58,7 +58,7 @@
     "what do i need",
     "distiller materials"
    ],
-   "answer": "One delicate arcanite converter, four greater eternal essences, ten stonescale oil, twenty-five volcanic ash and forty gold."
+   "answer": "Mux needs one delicate arcanite converter, four greater eternal essences, ten stonescale oil, twenty-five volcanic ash, and forty gold."
   },
   {
    "q": "Where is the volcanic ash found?",
@@ -66,7 +66,7 @@
     "volcanic ash location",
     "where to get ash"
    ],
-   "answer": "Mux says to gather it at the lava pools of the Burning Steppes."
+   "answer": "Mux says to gather volcanic ash from the lava pools of the Burning Steppes."
   },
   {
    "q": "Why does Mux need these specific components?",
@@ -75,7 +75,7 @@
     "what is the ash for",
     "why the items"
    ],
-   "answer": "They go into an ectoplasmic distiller, a device to gather the stuff death is made of. The volcanic ash is for building its filter."
+   "answer": "The materials go into an ectoplasmic distiller, which gathers the stuff death is made of. The volcanic ash makes its filter."
   },
   {
    "q": "What comes after delivering the materials?",
@@ -84,7 +84,7 @@
     "what happens next",
     "next quest"
    ],
-   "answer": "Hunting for Ectoplasm is the next step."
+   "answer": "Hunting for Ectoplasm comes next."
   }
  ],
  "angles": [],
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "The Ectoplasmic Distiller"
- ]
+ ],
+ "style": 2
 }

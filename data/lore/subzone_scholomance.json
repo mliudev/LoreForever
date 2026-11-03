@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scholomance"
  },
- "summary": "Hidden deep within the crypts beneath Caer Darrow, Scholomance is the Scourge's premier academy of dark arts and necromancy. Here, mortals and undead alike study the Plague of Undeath and fleshcrafting under the sadistic guidance of Darkmaster Gandling and the watchful gaze of the lich Ras Frostwhisper.",
+ "summary": "Beneath Caer Darrow, Scholomance trains mortals and undead in necromancy and the dark arts. Darkmaster Gandling leads the studies, while Ras Frostwhisper watches over the halls.",
  "sections": [
   {
    "title": "A Pact of Ruin",
-   "body": "Before the Third War, Caer Darrow was the proud seat of House Barov, a wealthy aristocratic dynasty holding vast lands across Lordaeron, including Brill, Tarren Mill, and Southshore. Fearing the loss of their wealth and mortality, the Barovs succumbed to Kel'Thuzad's seductive promises of eternal life. They deeded their fortress and ancestral catacombs to the Cult of the Damned, who promptly repaid the nobles by butchering them and turning the sprawling crypts into a hidden necromantic training ground.",
+   "body": "Before the Third War, House Barov ruled from Caer Darrow and held vast lands across Lordaeron. Those lands included Brill, Tarren Mill, and Southshore. Fearing the loss of their wealth and mortal lives, the Barovs accepted Kel'Thuzad's promise of eternal life.\n\nThey deeded their fortress and ancestral catacombs to the Cult of the Damned. The cult repaid them by butchering the nobles and turning the crypts into a hidden place to train necromancers.",
    "spoiler": 0
   },
   {
    "title": "The School of Necromancy",
-   "body": "Beneath the haunted surface ruins of Caer Darrow lies a thriving center of Scourge industry. Within these damp halls, early plague strains were tested on the Barov family's own servants. Today, mortal acolytes flock here to hone their mastery over dark magic, supervised by Headmaster Darkmaster Gandling and the icy sentinel Ras Frostwhisper, while the restless undead remains of the Barov family linger in eternal torment.",
+   "body": "Beneath Caer Darrow's haunted ruins, Scholomance has become a center of Scourge industry. In its halls, early strains of the Plague of Undeath were tested on the Barov family's servants. Mortal acolytes now come to master dark magic under Darkmaster Gandling, while Ras Frostwhisper guards the school.\n\nThe Barov family remains as restless undead, trapped in torment.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "scholomance lore",
     "explain scholomance"
    ],
-   "answer": "Scholomance is a secret academy of necromancy run by the Cult of the Damned and the Scourge. Located beneath the island fortress of Caer Darrow, it serves as a training facility for mortal necromancers, plague researchers, and fleshcrafters."
+   "answer": "Beneath Caer Darrow, Scholomance trains mortal necromancers, plague researchers, and fleshcrafters. The Cult of the Damned and the Scourge run the secret academy."
   },
   {
    "q": "Who owns Caer Darrow and the crypts?",
@@ -37,7 +37,7 @@
     "house barov",
     "barov family"
    ],
-   "answer": "The keep originally belonged to House Barov, one of the wealthiest noble families in Lordaeron. Seeking immortality, they surrendered their ancestral home to Kel'Thuzad, only to be murdered and raised as undead thralls within their own halls."
+   "answer": "House Barov once owned Caer Darrow's keep and crypts, along with vast lands across Lordaeron. Seeking immortality, the family surrendered their ancestral home to Kel'Thuzad, who promised them eternal life. The cult butchered the Barovs and raised them as undead thralls within their own halls."
   },
   {
    "q": "Who runs the academy now?",
@@ -46,7 +46,7 @@
     "who leads scholomance",
     "headmaster"
    ],
-   "answer": "Darkmaster Gandling serves as the school's insidious mortal headmaster, overseeing instruction and torment. The site is also heavily guarded on behalf of the Scourge by the lich Ras Frostwhisper."
+   "answer": "Darkmaster Gandling runs Scholomance as its mortal headmaster, overseeing instruction and torment. The lich Ras Frostwhisper guards the academy on behalf of the Scourge."
   },
   {
    "q": "What horrors were developed here?",
@@ -55,17 +55,17 @@
     "experiments in scholomance",
     "abominations"
    ],
-   "answer": "Scholomance was an early crucible for the Cult of the Damned. While acolytes learned their craft in its halls, the cultists tested prototype variants of the Plague of Undeath on the Barov household servants."
+   "answer": "The Cult of the Damned tested early strains of the Plague of Undeath at Scholomance. Acolytes learned their craft there as cultists tested the plague on the Barov household servants."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The twisted lessons taught inside Scholomance represent the absolute perversion of arcane scholarship, where inquiry into magical theory has been replaced with rot, shadow, and unholy desecration."
+   "text": "As a Mage, you see Scholomance's lessons as a perversion of arcane scholarship. Magical inquiry has given way to rot, shadow, and unholy desecration."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken spellcasters view Scholomance with cold familiarity and disgust; many of the Scourge's foulest methods of enslavement and biological warfare were perfected in these very classrooms."
+   "text": "As Forsaken, you may regard Scholomance with cold familiarity and disgust. Many Scourge methods of enslavement and biological warfare were perfected in its classrooms."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Scholomance"
- ]
+ ],
+ "style": 2
 }

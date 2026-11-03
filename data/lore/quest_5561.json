@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Desolace"
  },
- "summary": "At Scrabblescrew's Camp in Desolace, Smeed Scrabblescrew is expecting a caravan and wants five tamed kodos ready for it. You carry Smeed's kodo kombobulator out among the ancient, aged and dying kodos, and lead the ones it tames back to the camp.",
+ "summary": "At Scrabblescrew's Camp, five tamed kodos are needed for a caravan due soon. You take Smeed Scrabblescrew's kodo kombobulator among Desolace's ancient, aged and dying kodos, then lead each tamed beast back to camp.",
  "sections": [
   {
    "title": "A Caravan on Its Way",
-   "body": "Bibbly believes no other goblin in Desolace knows how to turn a profit. Smeed Scrabblescrew disagrees: the one caravan willing to brave this land depends on Smeed, and Smeed has formed a partnership with Cork and Rigger. The caravan is due at the camp shortly.",
+   "body": "A caravan is due at Scrabblescrew's Camp shortly, and Smeed Scrabblescrew says it depends on him. Bibbly thinks no other goblin in Desolace knows how to make a profit. Smeed disagrees. He has formed a partnership with Cork and Rigger, and the caravan is willing to brave this land.",
    "spoiler": 0
   },
   {
    "title": "The Kodo Kombobulator",
-   "body": "Smeed built a device that can rejuvenate and bring under control aged and dying kodos. Aimed at an ancient, aged or dying kodo, it jolts the beast into a tamed kodo that follows you. You bring five of them back to Scrabblescrew's Camp, along with the device.",
+   "body": "Smeed built the kodo kombobulator to revive aged and dying kodos and bring them under control. Aim it at an ancient, aged or dying kodo, and the device jolts the beast into a tamed kodo that follows you. Bring five kodos and the device back to Scrabblescrew's Camp.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "smeed scrabblescrew lore",
     "scrabblescrew"
    ],
-   "answer": "Smeed Scrabblescrew is found at Scrabblescrew's Camp in Desolace. Smeed invented the kodo kombobulator and has a partnership with Cork and Rigger. Bibbly thinks no other goblin in Desolace knows how to make money, and Smeed does not agree."
+   "answer": "Smeed Scrabblescrew is at Scrabblescrew's Camp in Desolace. He invented the kodo kombobulator and partnered with Cork and Rigger. Bibbly thinks no other goblin in Desolace knows how to make money, but Smeed disagrees."
   },
   {
    "q": "Why does Smeed need tamed kodos?",
@@ -48,7 +48,7 @@
     "kodo roundup purpose",
     "why does smeed want kodos"
    ],
-   "answer": "The caravan that relies on Smeed is due at the camp shortly, and Smeed is waiting on five newly tamed kodos."
+   "answer": "Smeed is waiting for five newly tamed kodos. The caravan that depends on him is due at Scrabblescrew's Camp shortly."
   },
   {
    "q": "What is the Kodo Kombobulator?",
@@ -56,7 +56,7 @@
     "what does kombobulator do",
     "kodo kombobulator lore"
    ],
-   "answer": "It is Smeed's invention, made to revive and bring under control kodos that are aged or dying. Used on one, it jolts the beast into a tamed kodo that follows you."
+   "answer": "Smeed built the kodo kombobulator to revive aged or dying kodos and bring them under control. It jolts a targeted beast into a tamed kodo that follows you."
   },
   {
    "q": "Which kodos can you use the kombobulator on?",
@@ -64,7 +64,7 @@
     "which kodos to tame",
     "kodo roundup kodos"
    ],
-   "answer": "Ancient, aged and dying kodos. Once one is tamed, it follows you back to Scrabblescrew's Camp."
+   "answer": "You can use the kodo kombobulator on ancient, aged and dying kodos. Once tamed, each kodo follows you back to Scrabblescrew's Camp."
   },
   {
    "q": "Who is Bibbly?",
@@ -72,7 +72,7 @@
     "bibbly rival",
     "who is bibbly"
    ],
-   "answer": "Bibbly is a goblin in Desolace who thinks no other goblin there knows how to make money. Smeed Scrabblescrew has a different view."
+   "answer": "Bibbly is a goblin in Desolace who thinks no other goblin there knows how to make money. Smeed Scrabblescrew disagrees."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Kodo Roundup"
- ]
+ ],
+ "style": 2
 }

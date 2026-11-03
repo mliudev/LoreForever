@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stagnant Oasis"
  },
- "summary": "Kolkar centaur guard the Stagnant Oasis in the dry heart of the Barrens. Its waters lie between the Gold Road and Merchant Coast, drawing wildlife to its banks.",
+ "summary": "Kolkar centaur guard the Stagnant Oasis, where wildlife gathers around its waters in the dry Barrens. The pool lies between the Gold Road and Merchant Coast.",
  "sections": [
   {
    "title": "A Murky Haven in the Drought",
-   "body": "East of the Gold Road, inland from the Merchant Coast, the Stagnant Oasis breaks up the dusty scrub of the Barrens. Dense foliage grows around the pool, where aggressive snapjaw turtles prowl. Weakened kodos often stray here from the great herds of the Field of Giants. Kolkar centaur keep camps along the banks and fiercely guard the water from anyone entering their territory.",
+   "body": "East of the Gold Road and inland from the Merchant Coast, the Stagnant Oasis breaks through the Barrens' dusty scrub. Dense foliage rings the pool, where aggressive snapjaw turtles prowl. Weakened kodos sometimes stray here from the great herds of the Field of Giants. Kolkar centaur keep camps along the banks and fiercely guard the water from anyone entering their territory.",
    "spoiler": 0
   },
   {
    "title": "Strange Waters",
-   "body": "Strange life stirs in the pool, though its waters look still. Deviate Fish swim among other unusual creatures. Scholars and shamans watch the Barrens oases closely, studying the strange forces that affect local springheads and the wildlife that drinks from them.",
+   "body": "The pool looks still, yet strange life stirs beneath its surface. Deviate Fish swim among other unusual creatures. Scholars and shamans watch the Barrens oases closely. They study the strange forces that affect local springheads and the wildlife that drinks from them.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "stagnant oasis centaur",
     "enemies at stagnant oasis"
    ],
-   "answer": "Kolkar centaur have camps around the pool. Oasis Snapjaws and solitary, wandering kodos also roam the greenery nearby."
+   "answer": "Kolkar centaur keep camps around the pool. Oasis Snapjaws and solitary, wandering kodos also roam the nearby greenery."
   },
   {
    "q": "Why are the kodos here easier to hunt?",
@@ -74,7 +74,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Horde couriers and scouts traveling between Crossroads and Taurajo face a constant threat from the centaur camps at the oasis, which menace supply traffic on the Gold Road."
+   "text": "Horde couriers and scouts traveling between Crossroads and Taurajo face a constant threat from the centaur camps at the oasis. The camps menace supply traffic on the Gold Road."
   }
  ],
  "keywords": [
@@ -99,5 +99,5 @@
  "attribution": [
   "Stagnant Oasis"
  ],
- "style": 1
+ "style": 2
 }

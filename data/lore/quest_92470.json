@@ -17,16 +17,16 @@
   "wiki": "Foul Matriarch",
   "chain": []
  },
- "summary": "Foul Matriarch is a trial of survival assigned by Aetheen of the Gales to budding initiates in Thendal Village. The task demands delving into the southern caves to cull the scavenging ursera and slay their vicious den mother, Urs'anah. Completing the hunt proves that an adventurer possesses the resolve required to face greater perils across Zephras Isle.",
+ "summary": "In the caves south of Thendal Village, Aetheen of the Gales tests new initiates against the ursera. They must thin the packs and slay their den mother, Urs'anah, to prove they can face greater perils across Zephras Isle.",
  "sections": [
   {
    "title": "A Test of Resolve",
-   "body": "Aetheen of the Gales maintains a watchful eye on newcomers finding their footing around Thendal Village. Once an initiate demonstrates early competence, Aetheen issues a dangerous rite of passage: a direct assault against the predatory wildlife threatening the perimeter. Rather than simply fighting on the open paths, the initiate is sent directly into the dark caves to the south to thin the local ursera packs and confront their broodmother.",
+   "body": "Around Thendal Village, Aetheen of the Gales watches newcomers find their footing. When an initiate shows early skill, Aetheen sends them into the southern caves for a dangerous rite of passage. There, they thin the local ursera packs and face the broodmother who threatens the village's edge.",
    "spoiler": 0
   },
   {
    "title": "The Threat of Urs'anah",
-   "body": "The local rangers have long noted the ferocity of the ursera, but none poses a greater threat to the haven than Urs'anah, their formidable matriarch. Sheltered deep within Thendal Cave, she directs her scavengers and aggressively defends her lair. Bringing back her severed head serves as definitive proof that an adventurer is capable of handling ferocious beasts and is ready to push beyond the borders of the starting grove.",
+   "body": "Local rangers know the ursera are fierce, but Urs'anah is the greatest threat to the haven. Deep in Thendal Cave, the formidable matriarch directs her scavengers and guards her lair. Her severed head proves an adventurer can face ferocious beasts and is ready to venture beyond the starting grove.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "foul matriarch quest giver",
     "who is aetheen of the gales"
    ],
-   "answer": "Aetheen of the Gales offers the trial from Thendal Village. She monitors promising newcomers who have gained the notice of local figures like Rorian before testing their mettle with this dangerous hunt."
+   "answer": "Aetheen of the Gales assigns the trial from Thendal Village. Aetheen watches promising newcomers noticed by local figures like Rorian, then tests their mettle with a dangerous hunt."
   },
   {
    "q": "Where can Urs'anah and the ursera scavengers be found?",
@@ -48,7 +48,7 @@
     "ursera cave zephras",
     "thendal cave location"
    ],
-   "answer": "Urs'anah and the ursera scavengers reside in the caves situated to the south and southwest of Thendal Village, up in the hills within Thendal Grove. The matriarch herself makes her den in the deep recesses of the cavern."
+   "answer": "Urs'anah and the ursera scavengers dwell in caves south and southwest of Thendal Village, in the hills within Thendal Grove. The matriarch's den lies deep in the cavern."
   },
   {
    "q": "What is an ursera?",
@@ -57,7 +57,7 @@
     "ursera lore",
     "are ursera bears"
    ],
-   "answer": "Ursera are aggressive, bear-like predators indigenous to the wilder crags of Zephras Isle. Left unchecked, their scavenging packs establish dens dangerously close to populated settlements like Thendal Village."
+   "answer": "Ursera are aggressive, bear-like predators native to the wilder crags of Zephras Isle. Their scavenging packs can make dens dangerously close to settlements like Thendal Village."
   },
   {
    "q": "What does completing this hunt signify for an adventurer?",
@@ -65,17 +65,17 @@
     "why kill ursanah",
     "importance of foul matriarch"
    ],
-   "answer": "Slaying Urs'anah serves as a pivotal rite of passage. By overcoming both cultist interlopers and the grove's most dangerous wildlife, the hunter proves they are prepared to leave the sanctuary of Thendal Village and take on wider responsibilities across Zephras Isle."
+   "answer": "Slaying Urs'anah marks a rite of passage. By overcoming cultist interlopers and the grove's most dangerous wildlife, the hunter proves they are ready to leave Thendal Village's sanctuary and take on wider responsibilities across Zephras Isle."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "For Skyborne initiates, proving mastery over terrestrial predators like Urs'anah demonstrates ground-level self-sufficiency and readiness to venture beyond their secluded beginnings."
+   "text": "As a Skyborne initiate, mastering ground predators like Urs'anah shows you can fend for yourself on land. You are ready to venture beyond your secluded beginnings."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking a ferocious cave-dwelling matriarch like Urs'anah is an elemental test of beast-lore and martial resolve for emerging hunters."
+   "text": "As a Hunter, tracking a fierce matriarch in her cave tests your knowledge of beasts and your resolve."
   }
  ],
  "keywords": [
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Foul Matriarch"
- ]
+ ],
+ "style": 2
 }

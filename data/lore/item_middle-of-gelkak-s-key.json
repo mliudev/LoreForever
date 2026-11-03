@@ -10,11 +10,11 @@
    "quest:2098"
   ]
  },
- "summary": "Off Darkshore, Gelkak Gyromast’s key lies in three pieces after threshadons sank his ship. Greymist murlocs took the middle fragment from the shore.",
+ "summary": "Off Darkshore, threshadons sank Gelkak Gyromast’s ship and scattered his key in three pieces. Greymist murlocs took the middle fragment.",
  "sections": [
   {
    "title": "A Fragment in the Silt",
-   "body": "Gelkak Gyromast’s winding key broke when threshadons dragged his ship beneath the waves. The gnome pirate came ashore with his belongings shattered on the rocky shoals. The specialized key was made for his mechanical first mate, but the wreck split it into three pieces scattered along the strand. Coastal beasts carried off the top and bottom. Greymist murlocs prowling the Darkshore surf took the middle piece and kept it in their camps and among the wreckage they hold.",
+   "body": "Gelkak Gyromast’s winding key broke when threshadons dragged his ship beneath the waves. The gnome pirate came ashore with his belongings shattered on the rocky shoals. His specialized key was made for his mechanical first mate, but the wreck split it into three pieces scattered along the strand. Coastal beasts carried off the top and bottom pieces. Greymist murlocs prowling the Darkshore surf took the middle piece and kept it in their camps and among the wreckage they hold.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "middle of gelkaks key use",
     "why do i need this key"
    ],
-   "answer": "The Middle of Gelkak's Key is one of three pieces Gelkak Gyromast needs. Joined to the top and bottom, it makes the key that reactivates his mechanical first mate."
+   "answer": "Gelkak Gyromast needs the Middle of Gelkak's Key as one of three pieces. Joined to the top and bottom, it makes the key that reactivates his mechanical first mate."
   },
   {
    "q": "Where did this key piece end up?",
@@ -75,5 +75,5 @@
   "Middle of Gelkak's Key",
   "Gyromast's Retrieval"
  ],
- "style": 1
+ "style": 2
 }

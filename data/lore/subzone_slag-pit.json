@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Slag Pit"
  },
- "summary": "The Slag Pit is an extensive subterranean mining excavation nestled inside the Cauldron of Searing Gorge. Overseen by ruthless Dark Iron taskmasters and slavers, these fiery tunnels are driven by forced labor under the shadow of Blackrock Mountain. Trespassers must contend not only with hostile dwarf overseers, but also ravenous incendosaurs prowling the lower levels.",
+ "summary": "In the Cauldron, the Slag Pit drives the Dark Iron dwarves’ mining. Slavers force workers through the tunnels while incendosaurs prowl below.",
  "sections": [
   {
    "title": "Subterranean Toil",
-   "body": "Carved into the depths of the Cauldron, the Slag Pit represents the grinding industrial engine of the Dark Iron dwarves in Searing Gorge. Day and night, enslaved workers are driven to extract rich ores and minerals under the lash of brutal overseers and taskmasters. The environment is harsh and suffocating, dominated by scorching heat, choking dust, and the clatter of iron picks. The Dark Irons maintain ruthless discipline over their excavation, violently repelling any outside interference with their supply lines to Blackrock Depths.",
+   "body": "The Slag Pit cuts into the Cauldron, where Dark Iron dwarves force enslaved workers to mine ore and minerals. Overseers and taskmasters keep them digging day and night. Beneath Blackrock Mountain, the tunnels feed supply lines to Blackrock Depths. The Dark Irons guard those lines against anyone who interferes.",
    "spoiler": 0
   },
   {
    "title": "Depths of the Pit",
-   "body": "Beyond the cruelty of the slavers, the physical tunnels themselves pose a deadly hazard to workers and intruders alike. In the lower reaches of the excavation, the earth breaks open into scorching caverns inhabited by incendosaurs\u2014ferocious reptilian beasts native to the fiery underground. Despite the constant danger of being devoured by these subterranean predators, the Dark Iron masters continue to push their labor force deeper into the rock, entirely indifferent to the lives lost in the process.",
+   "body": "Below, the tunnels open into scorching caverns where incendosaurs roam. These fierce reptiles threaten workers and intruders alike. Still, the Dark Iron masters drive their laborers deeper into the rock, heedless of the lives lost.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is slag pit",
     "how to get to slag pit"
    ],
-   "answer": "The Slag Pit is located deep within the Cauldron, the massive excavation crater dominating the center of Searing Gorge. Its tunnels branch directly beneath the surface mining works."
+   "answer": "The Slag Pit lies deep inside the Cauldron, the great excavation crater at the center of Searing Gorge. Its tunnels run beneath the surface mining works."
   },
   {
    "q": "Who controls the Slag Pit?",
@@ -37,7 +37,7 @@
     "slag pit faction",
     "dark irons slag pit"
    ],
-   "answer": "The mine is entirely operated by the Dark Iron clan. Dark Iron slavers and taskmasters patrol the shafts, enforcing brutal discipline and driving their captives to dig around the clock."
+   "answer": "Dark Iron slavers and taskmasters control the Slag Pit. They patrol its shafts and drive their captives to dig around the clock."
   },
   {
    "q": "Why do the slave workers attack intruders?",
@@ -46,7 +46,7 @@
     "hostile slaves",
     "slave workers aggro"
    ],
-   "answer": "While the enslaved workers are not naturally aggressive toward outsiders, their fear of their Dark Iron masters runs deep. If a slaver or taskmaster is attacked nearby, the panicked laborers will rush to their overseer's defense to avoid severe punishment."
+   "answer": "Enslaved workers attack intruders to avoid punishment from their Dark Iron masters. When a nearby slaver or taskmaster is attacked, fear sends the laborers rushing to defend the overseer."
   },
   {
    "q": "What creatures live in the Slag Pit?",
@@ -55,17 +55,17 @@
     "incendosaurs",
     "slag pit beasts"
    ],
-   "answer": "In addition to the Dark Iron dwarves and their slaves, the deepest reaches of the pit are infested with incendosaurs\u2014aggressive, flame-scaled saurian predators that stalk the underground tunnels."
+   "answer": "Dark Iron dwarves, enslaved workers, and incendosaurs live in the Slag Pit. The incendosaurs prowl its deepest tunnels."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The deep shafts of the Slag Pit cut straight into the mineral-rich belly of Searing Gorge, making it a lucrative\u2014if exceptionally dangerous\u2014source of high-grade ores."
+   "text": "The Slag Pit’s deep shafts cut into Searing Gorge’s mineral-rich rock, where rich ore waits at great danger."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves of Ironforge, witnessing the cruelty of the Dark Iron slavers in the Slag Pit serves as a stark reminder of the bitter divide between the clans."
+   "text": "As a dwarf of Ironforge, you see the bitter divide between the clans in the cruelty of the Dark Iron slavers."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Slag Pit"
- ]
+ ],
+ "style": 2
 }

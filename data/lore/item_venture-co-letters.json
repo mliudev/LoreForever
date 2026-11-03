@@ -11,16 +11,16 @@
    "quest:1091"
   ]
  },
- "summary": "At Windshear Mine, Venture Co. Letters carry word of the cartel's work in Stonetalon Mountains. Recovered amid explosive distractions, they give the night elf Sentinels intelligence on goblin operations.",
+ "summary": "At Windshear Mine, Venture Co. Letters carry word of the cartel’s work in Stonetalon Mountains. Recovered during a covert operation, they give the night elf Sentinels intelligence on goblin operations.",
  "sections": [
   {
    "title": "Industrial Intelligence",
-   "body": "Venture Company machines cut timber and strip-mine the ancient woodland around Windshear Crag. Alliance operatives set off covert sabotage to distract the workers and enter Windshear Mine. The letters they recover hold private messages and logistical records of the company's local work. Sentinel leaders can learn how the defilers arrange their workforce and supply lines from those records.",
+   "body": "Venture Company machines cut timber and strip-mine the ancient woodland around Windshear Crag. Alliance operatives set off covert sabotage to distract the workers and enter Windshear Mine. There, they recover letters with private messages and logistical records of the company’s local work. Sentinel leaders can use them to learn how the defilers arrange their workforce and supply lines.",
    "spoiler": 0
   },
   {
    "title": "Delivery to the Sentinels",
-   "body": "The letters are carried from deep inside Windshear Mine to Sentinel commander Kaela Shadowspear. Goblin defilers and Horde incursions both pressure the Sentinels across Stonetalon. The stolen correspondence helps them anticipate the Venture Company's next moves and protect what remains of the sacred mountains.",
+   "body": "The letters reach Sentinel commander Kaela Shadowspear from deep inside Windshear Mine. Goblin defilers and Horde incursions pressure the Sentinels across Stonetalon. The stolen correspondence helps them anticipate the Venture Company’s next moves and protect what remains of the sacred mountains.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "who wants them",
     "turn in letters"
    ],
-   "answer": "Gnome operative Gaxim Rustfizzle oversees the effort to steal the letters, which are delivered to Kaela Shadowspear, leader of the local night elf Sentinels."
+   "answer": "Gnome operative Gaxim Rustfizzle oversees the effort to steal the letters. They are delivered to Kaela Shadowspear, leader of the local night elf Sentinels."
   },
   {
    "q": "Why do the Sentinels need this correspondence?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Goblin lumber machines desecrate Stonetalon's wilderness. Intelligence on Venture Company schemes matters greatly to the Sentinels."
+   "text": "Goblin lumber machines desecrate Stonetalon’s wilderness. Intelligence on Venture Company schemes matters greatly to the Sentinels."
   },
   {
    "target": "faction:Alliance",
@@ -95,5 +95,5 @@
   "Covert Ops - Beta",
   "Kaela's Update"
  ],
- "style": 1
+ "style": 2
 }

@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Feralas"
  },
- "summary": "Marli Wishrunner can send you up to see the sights from one of the twin colossals of Feralas, with a warning attached: the trip goes only one way.",
+ "summary": "Marli Wishrunner offers you a view from one of Feralas's twin colossals, with one warning: the way up is one way.",
  "sections": [
   {
    "title": "One Way Up",
-   "body": "Marli Wishrunner asks whether you would like to see the view from the top of one of the twin colossals, and can send you there. Marli adds a word of caution: think about how you will get down, because this is a one-way trip.",
+   "body": "Marli Wishrunner can send you to the top of one of Feralas's twin colossals for a view. She warns you to think about how you will get down. The journey goes only one way.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "to the top quest giver",
     "marli wishrunner"
    ],
-   "answer": "Marli Wishrunner can send you up to a view from one of the twin colossals."
+   "answer": "Marli Wishrunner, who can send you up one of Feralas's twin colossals to take in the view."
   },
   {
    "q": "Where does this journey lead?",
@@ -43,7 +43,7 @@
     "destination",
     "to the top location"
    ],
-   "answer": "To the top of one of the twin colossals."
+   "answer": "You reach the top of one of the twin colossals."
   },
   {
    "q": "Does Marli provide a way back down?",
@@ -52,7 +52,7 @@
     "is there a return trip",
     "way down from twin colossals"
    ],
-   "answer": "No. Marli warns that it is a one-way trip, so you should think about how you will get down."
+   "answer": "No. Marli warns that the journey goes only one way, so think about how you will get down."
   }
  ],
  "angles": [],
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "To the Top"
- ]
+ ],
+ "style": 2
 }

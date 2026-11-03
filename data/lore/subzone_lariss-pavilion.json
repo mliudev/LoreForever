@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lariss Pavilion"
  },
- "summary": "Lariss Pavilion is an ancient elven structure tucked into the wilderness of Feralas just north of Camp Mojache. While once a peaceful retreat of classical night elf architecture, the surrounding forest has grown dangerous due to corrupted dryads, and an exiled Highborne mage now bides his time within its shade.",
+ "summary": "At Lariss Pavilion, dryads attack those who draw near. The ancient retreat north of Camp Mojache now shelters an exiled Highborne mage.",
  "sections": [
   {
    "title": "A Ruin of the Highborne",
-   "body": "Standing quietly on the bluffs north of Camp Mojache, Lariss Pavilion showcases the graceful stonework and towering archways of the ancient kaldorei empire. In its prime, it served the great city of Eldre'Thalas, now known as Dire Maul. Today, it offers a sheltered overlook above the dense canopy of Feralas, but the peace here is frail: the once-gentle dryads wandering the surrounding glades have fallen to madness and corruption, turning fiercely hostile to anyone who draws near.",
+   "body": "You stand on the bluffs north of Camp Mojache, where graceful stonework and towering arches overlook Feralas's dense canopy. The kaldorei empire built Lariss Pavilion to serve Eldre'Thalas, the great city now called Dire Maul. Yet the glades around it offer no safe refuge. Dryads once wandered here gently, but madness and corruption have taken hold. Now they attack anyone who draws near.",
    "spoiler": 0
   },
   {
    "title": "Azj'Tordin and the Hidden Passage",
-   "body": "The pavilion's most notable resident is the elusive elf Azj'Tordin. Having broken away from Prince Tortheldrin's decadent rule within Dire Maul, Azj'Tordin escaped the ruins through a secret passage connecting the pavilion directly to the ancient city's underbelly. However, his quiet exile has been disrupted: an erratic imp named Pusillin stole his treasured book of incantations, leaving the exile seeking outside aid to recover it.",
+   "body": "Azj'Tordin, an elusive elf, has made his home at Lariss Pavilion. He broke from Prince Tortheldrin's decadent rule in Dire Maul and escaped through a secret passage linking the pavilion to the ancient city's underbelly. But his quiet exile was disturbed by Pusillin, an erratic imp who stole his treasured book of incantations. Now the Highborne seeks outside aid to recover it.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is lariss pavilion",
     "how to get to lariss pavilion"
    ],
-   "answer": "Lariss Pavilion is situated on the elevated forested terrain in eastern Feralas, just north of the Horde outpost of Camp Mojache."
+   "answer": "Lariss Pavilion rises above the forest in eastern Feralas, just north of Camp Mojache, the Horde outpost."
   },
   {
    "q": "Who is Azj'Tordin?",
@@ -37,7 +37,7 @@
     "who is the elf at lariss pavilion",
     "lariss pavilion quest giver"
    ],
-   "answer": "Azj'Tordin is an ancient Highborne sorcerer who fled the tyrant Prince Tortheldrin inside Dire Maul. He now camps at the pavilion, seeking adventurers to help reclaim a stolen book of incantations from a mischievous imp."
+   "answer": "Azj'Tordin is an ancient Highborne sorcerer who fled Prince Tortheldrin's tyrannical rule in Dire Maul. He now camps at the pavilion and seeks help reclaiming his stolen book of incantations from an imp."
   },
   {
    "q": "Why are the dryads around the pavilion hostile?",
@@ -46,7 +46,7 @@
     "why are dryads attacking",
     "corrupted dryads feralas"
    ],
-   "answer": "The dryads roaming the woods near the pavilion have succumbed to corruption creeping through the wilds of Feralas, transforming normally reclusive guardians of nature into vicious attackers."
+   "answer": "Corruption spreading through Feralas has overcome the dryads near the pavilion. These normally reclusive guardians of nature have become vicious attackers."
   },
   {
    "q": "How does the pavilion connect to Dire Maul?",
@@ -55,17 +55,17 @@
     "dire maul shortcut",
     "secret passage"
    ],
-   "answer": "A concealed backdoor at the base of Lariss Pavilion leads straight into Dire Maul, serving as the escape route Azj'Tordin used to slip away from his brethren."
+   "answer": "A concealed passage at the base of Lariss Pavilion leads into Dire Maul. Azj'Tordin used it to escape his brethren."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For practitioners of the arcane, the solitary Highborne Azj'Tordin represents a living relic of Eldre'Thalas's ancient, unchecked spellcraft."
+   "text": "As a mage, you can see in Azj'Tordin, the solitary Highborne, a living relic of Eldre'Thalas's ancient, unchecked spellcraft."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves will find the pavilion a bitter sight\u2014not only is its beauty shadowed by the legacy of Highborne hubris, but the surrounding dryad kin are suffering from dark corruption."
+   "text": "As a night elf, Lariss Pavilion may be a bitter sight. Highborne hubris shadows its beauty, and corruption afflicts the dryads who are your kin."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Lariss Pavilion"
- ]
+ ],
+ "style": 2
 }

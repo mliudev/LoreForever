@@ -8,16 +8,16 @@
   "wiki": "Hagar Lightninghoof",
   "refs": 2
  },
- "summary": "Hagar Lightninghoof is a tauren scout stationed high atop Freewind Post in Thousand Needles. Driven by rumors of a strange clutch hidden in the canyon depths, he investigates reports of an alien egg guarded fiercely by local wind serpents.",
+ "summary": "At Freewind Post, Hagar Lightninghoof investigates rumors of an unusual egg hidden deep in the canyon. Wind serpents guard it fiercely, and he wants to learn what lies within.",
  "sections": [
   {
    "title": "The Strange Clutch",
-   "body": "While stationed among the towering bluffs of Freewind Post, Hagar Lightninghoof caught wind of rumors regarding an unnatural egg nestled deep inside a cavern below. The local wind serpents guarded the nest with unusual ferocity, keeping curious scouts at bay. Seeking an adventurer bold enough to brave the serpents' den, Hagar hopes to study the specimen firsthand and discern what manner of beast could warrant such defensive instincts from the canyon's natural predators.",
+   "body": "Hagar Lightninghoof hears reports of an unnatural egg in a cavern below Freewind Post. Wind serpents guard the nest with unusual ferocity, keeping curious scouts away. So Hagar seeks an adventurer bold enough to brave their den and bring back the egg. He hopes to study it firsthand and learn what creature inspires such fierce protection from the canyon’s natural predators.",
    "spoiler": 0
   },
   {
    "title": "A Myth Hatched",
-   "body": "When an adventurer finally recovers the egg and brings it to Freewind Post, it hatches directly in front of Hagar, revealing a young wind serpent resembling the legendary Arikara—a revered spirit known in tauren folklore as the embodiment of vengeance. Realizing the grave cultural and spiritual significance of the creature's return, Hagar wastes no time dispatching the traveler to consult with the elder Motega Firemane.",
+   "body": "The egg reaches Freewind Post and hatches before Hagar Lightninghoof. A young wind serpent emerges, resembling Arikara, the revered spirit of vengeance in tauren folklore. Hagar recognizes the creature’s weight in tauren culture and spiritual life. Then he sends the traveler to consult the elder Motega Firemane.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "hagar lightninghoof role",
     "hagar lore"
    ],
-   "answer": "Hagar Lightninghoof is a tauren quest giver residing at Freewind Post in Thousand Needles. He investigates anomalous wildlife in the canyons, particularly an unusual wind serpent egg reported deep within a nearby cavern."
+   "answer": "Hagar Lightninghoof is a tauren scout at Freewind Post in Thousand Needles. He investigates reports of unusual wildlife, including an egg deep in a nearby cavern."
   },
   {
    "q": "Where can Hagar Lightninghoof be found?",
@@ -38,7 +38,7 @@
     "hagar lightninghoof location",
     "freewind post hagar"
    ],
-   "answer": "He is located atop Freewind Post, the central Horde outpost perched upon the massive rock needles of central Thousand Needles."
+   "answer": "Hagar Lightninghoof can be found atop Freewind Post, the central Horde outpost perched on the massive rock needles of central Thousand Needles."
   },
   {
    "q": "What is the 'alien egg' Hagar is looking for?",
@@ -47,7 +47,7 @@
     "what is the egg",
     "wind serpent egg"
    ],
-   "answer": "The alien egg is an unusual egg guarded by wind serpents in a subterranean den. Hagar asks adventurers to retrieve it so he can investigate its nature."
+   "answer": "The alien egg is an unusual egg guarded by wind serpents in a cavern below. Hagar asks an adventurer to retrieve it so he can study it."
   },
   {
    "q": "Who does Hagar consult about the egg?",
@@ -56,17 +56,17 @@
     "hagar follow up quest",
     "where to go after hagar"
    ],
-   "answer": "Hagar sends the adventurer to speak with Motega Firemane, an elder at Freewind Post who possesses deeper wisdom regarding tauren traditions."
+   "answer": "Hagar sends the adventurer to speak with Motega Firemane, an elder at Freewind Post with deeper wisdom about tauren traditions."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren travelers, assisting Hagar leads to the stirring realization that ancient legends of Arikara, the winged manifestation of vengeance, are living reality in the canyons below."
+   "text": "As a tauren, helping Hagar brings an ancient legend into the present: Arikara, the winged embodiment of vengeance, lives in the canyons below."
   },
   {
    "target": "faction:Horde",
-   "text": "Stationed high above the canyon floor at Freewind Post, Hagar relies on capable Horde warriors to brave perilous dens that normal scouts cannot safely breach."
+   "text": "As a Horde warrior, you can help Hagar reach perilous dens that ordinary scouts cannot safely enter."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Hagar Lightninghoof"
- ]
+ ],
+ "style": 2
 }

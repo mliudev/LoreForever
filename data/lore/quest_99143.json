@@ -19,7 +19,7 @@
     "what are bottles and baubles for",
     "shiny junk murloc"
    ],
-   "answer": "The questgiver believes that because murlocs resemble fish, their minds must function like fish as well. Under the theory that anything attracting a murloc will also attract fish beneath the water, adventurers are sent to scavenge trinkets and shiny refuse from their camps to repurpose as fishing bait.",
+   "answer": "The angler believes that whatever attracts a murloc may also attract fish beneath the water. Since murlocs look like fish, the angler reasons that their minds work alike, and shiny trinkets from their camps could make bait.",
    "q": "Why do you need to collect junk from murlocs?"
   },
   {
@@ -28,7 +28,7 @@
     "murloc camp location",
     "how to get shiny junk"
    ],
-   "answer": "The shiny junk can be found scattered around the nearby murloc encampment. Murlocs are notorious scavengers who hoard glittering debris, discarded trinkets, and glass along shorelines and waterways, which can be retrieved directly from their territory.",
+   "answer": "The shiny junk lies in a nearby murloc camp. Murlocs hoard glittering debris, discarded trinkets, and glass along shorelines and waterways.",
    "q": "Where is the shiny junk found?"
   },
   {
@@ -37,7 +37,7 @@
     "who is the questgiver",
     "quest turn in"
    ],
-   "answer": "The task is commissioned by a local angler looking to stock up on lures and bait. While their theories on murloc psychology are somewhat eccentric, they reward helpful scavengers with surplus angling gear to encourage beginners in the craft.",
+   "answer": "A local angler asks for the work, hoping to stock up on lures and bait. The angler offers surplus fishing gear to helpful scavengers and beginners.",
    "q": "Who gives this task and what do they want?"
   },
   {
@@ -46,7 +46,7 @@
     "murloc intellect",
     "are murlocs actually fish"
    ],
-   "answer": "Despite the questgiver's reasoning, murlocs are amphibious, tribal humanoids rather than simple mindless fish. However, like many creatures and predators, they are naturally drawn to gleaming items, polished shells, and bright trinkets, creating hoard piles that happen to hold glittering materials.",
+   "answer": "The angler believes murlocs think like fish, but murlocs are amphibious tribal humanoids. They are drawn to gleaming items, polished shells, and bright trinkets, while their hoard piles happen to hold glittering materials.",
    "q": "Do murlocs actually think like fish?"
   },
   {
@@ -55,7 +55,7 @@
     "is shiny junk bait",
     "does murloc junk work as bait"
    ],
-   "answer": "The collected junk consists of reflective glass, bits of metal, and polished odds and ends. The angler intends to fashion these reflective fragments into lures and improvised bait, hoping their sheen mimics small minnows or catches the curiosity of feeding fish.",
+   "answer": "The angler plans to fashion reflective glass, metal bits, and polished odds and ends into lures and improvised bait. Their sheen may mimic small minnows or catch the curiosity of feeding fish.",
    "q": "How will the murloc junk be used as bait?"
   },
   {
@@ -64,7 +64,7 @@
     "what do you get",
     "fishing supplies reward"
    ],
-   "answer": "Upon bringing back enough suitable shiny scraps, the questgiver hands over older personal angling supplies. These basic tools and provisions are aimed at helping aspiring fishermen find their footing and try their hand at the waters.",
+   "answer": "After you bring back enough suitable shiny scraps, the angler gives you older personal angling supplies. The basic tools and provisions help aspiring fishermen try their hand at the waters.",
    "q": "What does the questgiver offer as a reward?"
   }
  ],
@@ -82,18 +82,19 @@
  ],
  "sections": [
   {
-   "body": "Bottles and Baubles begins with a rather unusual theory of aquatic biology: that because murlocs are fish-like beings, their minds must function just like the fish swimming in the deep. Driven by this logic, an eccentric angler posits that whatever curious oddities catch a murloc's wandering eye will surely entice a hungry fish on a hook. Scavengers are tasked with venturing into a nearby murloc camp to rummage through their hoard piles and gather shiny discarded junk to test the hypothesis.",
+   "body": "An eccentric angler has a theory about murlocs and fish. Murlocs look like fish, so the angler reasons that their minds work alike. Whatever catches a murloc's eye may tempt a hungry fish on a hook. You search a nearby murloc camp, sifting through its hoards for shiny discarded junk to test the idea.",
    "spoiler": 0,
    "title": "Fish Logic and Shoreline Scavenging"
   },
   {
-   "body": "Murlocs along coastal waterways and riverbanks are notorious scavengers, hoarding bright stones, shells, bits of polished glass, and metal scraps in messy mounds around their huts. Sifting through these muddy collections yields all manner of glittering refuse that an opportunistic fisherman can fashion into crude lures and flashers. Once retrieved and handed over, the odd assortment proves satisfactory enough to earn the adventurer a set of starter fishing supplies.",
+   "body": "Along coasts and riverbanks, murlocs gather bright stones, shells, polished glass, and metal scraps in messy piles around their huts. Sifting through the muddy heaps turns up glittering refuse that an angler can shape into crude lures and flashers. The finds satisfy the angler enough to earn you starter fishing supplies.",
    "spoiler": 0,
    "title": "Gleaming Baubles as Bait"
   }
  ],
- "summary": "Bottles and Baubles is a quest built around the quirky logic that because murlocs look like fish, they must think like them. Adventurers are sent to rummage through a nearby murloc camp for glittering junk and discarded trinkets that an eager angler can fashion into fishing bait.",
+ "summary": "An angler wants to try a curious theory with murloc trinkets. Their shine may draw fish to the hook.",
  "attribution": [
   "In-game quest text: Bottles and Baubles"
- ]
+ ],
+ "style": 2
 }

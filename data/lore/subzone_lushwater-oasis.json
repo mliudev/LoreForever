@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Lushwater Oasis"
  },
- "summary": "South of the Crossroads, Lushwater Oasis is one of three life-giving watering holes in the Barrens. Kolkar centaur threaten travelers who come for its water, while the tainted pools draw anglers seeking Deviate Fish.",
+ "summary": "South of the Crossroads, travelers seek water at Lushwater Oasis, one of three life-giving pools in the Barrens. Kolkar centaur threaten those who come, while anglers cast into the tainted waters for Deviate Fish.",
  "sections": [
   {
    "title": "A Precarious Sanctuary",
-   "body": "Lushwater Oasis lies a short march south of the Crossroads, beneath the Barrens sun. Its palms and springs draw thirsty beasts, but Kolkar centaur hold the banks and ambush wildlife and travelers. The oasis also marks the entrance to the Wailing Caverns. Energies from its underground passages taint the pools, where unnatural creatures and strange mutations take hold.",
+   "body": "A short march south of the Crossroads, Lushwater Oasis offers palms and springs beneath the Barrens sun. Thirsty beasts gather there, but Kolkar centaur hold the banks and ambush wildlife and travelers.\n\nThe oasis marks the entrance to the Wailing Caverns. Energies from its underground passages taint the pools, where unnatural creatures and strange mutations take hold.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "wc cave entrance",
     "wailing caverns entrance"
    ],
-   "answer": "The entrance to the Wailing Caverns lies in the natural rock faces overlooking the eastern side of Lushwater Oasis."
+   "answer": "The entrance to the Wailing Caverns lies in natural rock faces overlooking the eastern side of Lushwater Oasis."
   },
   {
    "q": "Who controls Lushwater Oasis?",
@@ -49,7 +49,7 @@
     "thrall long march oasis",
     "orcs in barrens oasis"
    ],
-   "answer": "During the orcs' Long March through the Barrens with the tauren, Thrall led his troops through the scattered oases for drinking water while they fought off centaur ambushes."
+   "answer": "During the orcs' Long March through the Barrens with the tauren, Thrall led his troops through the scattered oases for drinking water. They fought off centaur ambushes along the way."
   }
  ],
  "angles": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Lushwater Oasis"
  ],
- "style": 1
+ "style": 2
 }

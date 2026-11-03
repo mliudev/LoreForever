@@ -17,16 +17,16 @@
   "wiki": "Testing an Enemy's Strength",
   "chain": []
  },
- "summary": "Magatha Grimtotem seeks retribution after troggs slaughter her emissaries beneath Orgrimmar. Rahauro on Thunder Bluff’s Elder Rise sends warriors into Ragefire Chasm to cull the troggs infesting it.",
+ "summary": "At Thunder Bluff, Rahauro answers the slaughter of Magatha Grimtotem's emissaries beneath Orgrimmar. He sends warriors into Ragefire Chasm to thin the troggs' ranks.",
  "sections": [
   {
    "title": "Diplomacy Meets Savagery",
-   "body": "Magatha Grimtotem sent tauren emissaries into the fiery depths beneath Orgrimmar to make peace with the troggs. The creatures slaughtered the delegates as soon as they arrived. Magatha saw the massacre as an insult to the tauren and a growing danger to the Horde. She resolved to answer it with force.",
+   "body": "Magatha Grimtotem sent tauren emissaries into the fiery depths beneath Orgrimmar to make peace with the troggs. The creatures slaughtered the delegates on arrival. Magatha took the massacre as an insult to the tauren and a growing danger to the Horde. So she resolved to answer with force.",
    "spoiler": 0
   },
   {
    "title": "The Threat Beneath Orgrimmar",
-   "body": "Rahauro carries out Magatha’s orders from Thunder Bluff. He directs warriors into Ragefire Chasm to find and kill trogg warriors and shamans. The Horde strikes deep into their underground home to thin their numbers before they can pour through their tunnels into Orgrimmar.",
+   "body": "From Thunder Bluff, Rahauro carries out Magatha’s orders. He sends warriors into Ragefire Chasm to find and kill trogg warriors and shamans. The Horde strikes deep into their underground home, thinning their numbers before they can pour through the tunnels into Orgrimmar.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest start thunder bluff",
     "rahauro location"
    ],
-   "answer": "The tauren leadership assigned the work in Thunder Bluff. Magatha Grimtotem sent diplomats into Ragefire Chasm to meet the troggs, and after they were slaughtered, her assistant Rahauro organized warriors on the Elder Rise to avenge them."
+   "answer": "Thunder Bluff's tauren leadership assigned the work. Magatha Grimtotem sent diplomats into Ragefire Chasm to meet the troggs. After the troggs slaughtered them, her assistant Rahauro gathered warriors on the Elder Rise to avenge them."
   },
   {
    "q": "Who is Rahauro?",
@@ -47,7 +47,7 @@
     "rahauro npc",
     "rahauro elder rise"
    ],
-   "answer": "Rahauro is a tauren who coordinates expeditions into Ragefire Chasm from the Elder Rise in Thunder Bluff. He acts for Magatha Grimtotem, sending warriors to kill troggs and recover relics lost during earlier failed diplomatic missions."
+   "answer": "Rahauro is a tauren who directs expeditions into Ragefire Chasm from Thunder Bluff's Elder Rise. He acts for Magatha Grimtotem, sending warriors to kill troggs and recover relics lost during earlier failed diplomatic missions."
   },
   {
    "q": "Why did Magatha Grimtotem attempt peace with troggs?",
@@ -56,7 +56,7 @@
     "magatha trogg diplomacy",
     "why negotiate with troggs"
    ],
-   "answer": "Magatha Grimtotem sent the emissaries as an act of goodwill, hoping to make relations with the subterranean beings instead of shedding blood. The troggs slaughtered her delegates when they arrived, showing no willingness to parley."
+   "answer": "Magatha Grimtotem sent the emissaries as an act of goodwill, hoping to make peace with the subterranean beings instead of shedding blood. The troggs slaughtered her delegates on arrival, showing no willingness to parley."
   },
   {
    "q": "What enemies need to be slain for this task?",
@@ -83,7 +83,7 @@
     "where do troggs come from",
     "why are troggs under orgrimmar"
    ],
-   "answer": "The troggs emerged from deep volcanic fissures beneath Durotar. When Rahauro speaks after the fighting, the Horde still knows little about where these cave dwellers came from or why they are digging upward into Orgrimmar now."
+   "answer": "The troggs emerged from deep volcanic fissures beneath Durotar. Even after the fighting, the Horde knows little about where these cave dwellers came from or why they are digging upward into Orgrimmar now."
   }
  ],
  "angles": [
@@ -127,5 +127,5 @@
  "attribution": [
   "Testing an Enemy's Strength"
  ],
- "style": 1
+ "style": 2
 }

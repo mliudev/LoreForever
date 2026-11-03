@@ -8,16 +8,16 @@
   "wiki": "Rhahk'Zor",
   "refs": 5
  },
- "summary": "Deep in the Deadmines, Rhahk'Zor drives the work forward by force. As head foreman, he keeps Defias laborers and miners in line while they build Edwin VanCleef's underground fortress.",
+ "summary": "In the Deadmines, Rhahk'Zor drives the work forward by force. As head foreman, he keeps Defias laborers and miners in line while they build Edwin VanCleef's underground fortress.",
  "sections": [
   {
    "title": "The Foreman of the Deep",
-   "body": "The Defias Brotherhood has turned Moonbrook's abandoned gold mines into an underground fortress. Rhahk'Zor was appointed head foreman to coordinate the work. He oversees the excavation crews and laborers as they carve tunnels and build VanCleef's secret projects.",
+   "body": "The Defias Brotherhood has made an underground fortress of Moonbrook's abandoned gold mines. Rhahk'Zor was appointed head foreman to direct the work. He oversees the crews and laborers as they carve tunnels and build VanCleef's secret projects.",
    "spoiler": 0
   },
   {
    "title": "Brute Motivation",
-   "body": "Rhahk'Zor keeps order with muscle and an immense stone-headed hammer. Defias diggers and goblin engineers know that defiance or falling behind schedule can bring a crushing blow from the towering foreman.",
+   "body": "Rhahk'Zor keeps order with his strength and an immense stone-headed hammer. Defias diggers and goblin engineers know the towering foreman may strike a crushing blow if they defy him or fall behind schedule.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is the ogre boss in deadmines",
     "deadmines first boss"
    ],
-   "answer": "Rhahk'Zor is an ogre and the Defias Brotherhood's foreman and enforcer in the Deadmines. He watches over the first excavation tunnels and keeps the workforce digging and in line."
+   "answer": "Rhahk'Zor is an ogre who foremans and enforces the Defias Brotherhood's will in the Deadmines. He watches over the first excavation tunnels and keeps the workforce digging and in line."
   },
   {
    "q": "Why is an ogre working for the Defias Brotherhood?",
@@ -37,7 +37,7 @@
     "why is there an ogre in deadmines",
     "rhahkzor defias"
    ],
-   "answer": "Edwin VanCleef's rebellion depends on the muscle and mercenary talent it can acquire. Rhahk'Zor's strength and intimidation make him a fit foreman for the grueling work of excavating the mines."
+   "answer": "Edwin VanCleef's rebellion depends on the muscle and mercenary talent it can acquire. Rhahk'Zor's strength and ability to intimidate make him fit to direct the grueling work of excavating the mines."
   },
   {
    "q": "What is Rhahk'Zor's job in the mines?",
@@ -45,7 +45,7 @@
     "what does rhahkzor do",
     "rhahkzor role"
    ],
-   "answer": "Rhahk'Zor oversees construction in the mines. He supervises miners, goblins, and Defias builders as they hollow out caverns, maintain equipment, and build fortifications for the Brotherhood."
+   "answer": "Rhahk'Zor oversees construction in the mines. He supervises miners, goblins and Defias builders as they hollow out caverns, maintain equipment and build fortifications for the Brotherhood."
   },
   {
    "q": "Where in the Deadmines is Rhahk'Zor located?",
@@ -53,7 +53,7 @@
     "rhahkzor location",
     "where is rhahkzor"
    ],
-   "answer": "Rhahk'Zor is past the first miner tunnels, in the early quarry chambers. He stands in front of the first heavy door leading deeper into the mine."
+   "answer": "Rhahk'Zor waits beyond the first miner tunnels, in the early quarry chambers. He stands before the first heavy door leading deeper into the mine."
   },
   {
    "q": "Does Rhahk'Zor have any connection to the ogres from the First War?",
@@ -75,11 +75,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance adventurers entering Moonbrook, Rhahk'Zor shows that the Defias Brotherhood has grown beyond petty highway banditry into a heavily fortified army."
+   "text": "For Alliance adventurers entering Moonbrook, Rhahk'Zor shows how the Defias Brotherhood has grown beyond petty highway banditry into a heavily fortified army."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, facing Rhahk'Zor tests your endurance on the front line against a massive ogre swinging a sledgehammer that shatters stone and bone."
+   "text": "As a warrior, you test your endurance on the front line against Rhahk'Zor, a massive ogre swinging a sledgehammer that shatters stone and bone."
   },
   {
    "target": "profession:Mining",
@@ -107,5 +107,5 @@
  "attribution": [
   "Rhahk'Zor"
  ],
- "style": 1
+ "style": 2
 }

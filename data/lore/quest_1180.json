@@ -27,16 +27,16 @@
    "Goblin Sponsorship"
   ]
  },
- "summary": "Gazlowe is back to the matter you came about: the fuel regulator promised to Pozzik has not reached Ratchet. Revilgaz in Booty Bay said he would have it shipped over, but it may have slipped through the cracks. Gazlowe sends you to Wharfmaster Lozgil there, who can check the cargo records.",
+ "summary": "Gazlowe in Ratchet still waits for the fuel regulator he promised Pozzik. Revilgaz in Booty Bay said he would ship it, but it has not arrived. So Gazlowe sends you to Wharfmaster Lozgil at the far northwestern end of the Booty Bay docks to check the cargo records.",
  "sections": [
   {
    "title": "A Part That Never Came",
-   "body": "Gazlowe admits he promised Pozzik a new fuel regulator and still has not received it. Revilgaz of Booty Bay said he would have it shipped over, but it may have slipped through the cracks. If so, there is not much to be done, but you can at least learn whether it left Booty Bay. Wharfmaster Lozgil, at the far northwestern end of the Booty Bay docks, can look through the cargo records.",
+   "body": "Gazlowe promised Pozzik a new fuel regulator, but it has not reached Ratchet. Revilgaz in Booty Bay said he would ship it over. Perhaps the part slipped through the cracks. If it never left, there may be little to do. Still, you can find out whether it departed Booty Bay. Wharfmaster Lozgil, at the far northwestern end of the docks, can search the cargo records.",
    "spoiler": 0
   },
   {
    "title": "The Wharfmaster's Records",
-   "body": "Lozgil checks the logbooks for shipments to Ratchet. The most recent was boots from Drizzlik, and otherwise there have been only building supplies and tools. There were no race parts.",
+   "body": "Wharfmaster Lozgil checks the logbooks for shipments to Ratchet. The latest entry is boots from Drizzlik. Earlier shipments carried building supplies and tools. No race parts appear in the records.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "why fuel regulator",
     "pozzik shipment"
    ],
-   "answer": "Gazlowe promised Pozzik a new fuel regulator, but Gazlowe has not received it yet."
+   "answer": "Gazlowe promised Pozzik a new fuel regulator, but it has not reached Gazlowe in Ratchet."
   },
   {
    "q": "Who said they would send the regulator to Ratchet?",
@@ -57,7 +57,7 @@
     "revilgaz part",
     "who has the fuel regulator"
    ],
-   "answer": "Revilgaz in Booty Bay said he would have it shipped over to Gazlowe in Ratchet."
+   "answer": "Revilgaz in Booty Bay said he would ship the regulator to Gazlowe in Ratchet."
   },
   {
    "q": "Who keeps the shipping records in Booty Bay?",
@@ -66,7 +66,7 @@
     "who is wharfmaster lozgil",
     "where is lozgil"
    ],
-   "answer": "Wharfmaster Lozgil, who can look through the cargo records. He is at the far northwestern end of the Booty Bay docks."
+   "answer": "Wharfmaster Lozgil keeps the shipping records in Booty Bay. He is at the far northwestern end of the Booty Bay docks."
   },
   {
    "q": "Where does this step fit in the chain?",
@@ -75,7 +75,7 @@
     "quest progression",
     "what comes before this"
    ],
-   "answer": "It follows the first Goblin Sponsorship, in which Pozzik sent you to Gazlowe, and the next step is Goblin Sponsorship (3)."
+   "answer": "This follows the first Goblin Sponsorship, when Pozzik sent you to Gazlowe. The next step is Goblin Sponsorship 3."
   }
  ],
  "angles": [],
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "Goblin Sponsorship (2)"
- ]
+ ],
+ "style": 2
 }

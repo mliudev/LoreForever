@@ -8,11 +8,11 @@
   "wiki": "Mupsi Shacklefridd",
   "refs": 1
  },
- "summary": "Outside Ratchet in the Barrens, Mupsi Shacklefridd helps travelers repair ties with the Steamwheedle Cartel.",
+ "summary": "Outside Ratchet in the Barrens, Mupsi Shacklefridd helps travelers mend their ties with the Steamwheedle Cartel.",
  "sections": [
   {
    "title": "On the Outskirts of Ratchet",
-   "body": "Mupsi Shacklefridd works along the coastal road just outside Ratchet. Steamwheedle guards patrol the port town's edge as merchants come and go. Travelers on poor terms with the goblins can seek a way back into the cartel's good graces through Mupsi, if they bring the supplies and labor it demands.",
+   "body": "Along the coastal road outside Ratchet, Mupsi Shacklefridd helps travelers regain favor with the Steamwheedle Cartel. Steamwheedle guards patrol the edge of the port town as merchants come and go. If the goblins have turned against you, Mupsi offers a way back into their good graces, provided you bring the supplies and labor they demand.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "ratchet reputation turn in",
     "mupsi quest"
    ],
-   "answer": "If you have angered the Steamwheedle Cartel, Mupsi can help you repair your reputation with supplies. This often follows trouble with goblins or siding with pirates."
+   "answer": "If you have angered the Steamwheedle Cartel, Mupsi can help you repair your standing with supplies. This often follows trouble with goblins or siding with pirates."
   }
  ],
  "angles": [],
@@ -63,5 +63,5 @@
  "attribution": [
   "Mupsi Shacklefridd"
  ],
- "style": 1
+ "style": 2
 }

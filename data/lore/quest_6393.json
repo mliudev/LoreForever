@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Shamans revere the balance of the elements, making this direct conflict between Neptulon's servants and fire elementals a vivid demonstration of primal elemental strife."
+   "text": "As a shaman, you witness primal forces clash as Neptulon’s servants fight the fire elementals."
   },
   {
    "target": "faction:Horde",
-   "text": "Given that Tsunaman is stationed at Sun Rock Retreat, Horde adventurers passing through Stonetalon Mountains are directly positioned to assist in this elemental clash."
+   "text": "As a member of the Horde, you can aid the elemental fight while passing through Stonetalon Mountains. Tsunaman is stationed at Sun Rock Retreat."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "tsunaman quest giver",
     "sun rock retreat elemental"
    ],
-   "answer": "Tsunaman is an emissary sent by the Tribunal of the Tides to Sun Rock Retreat in Stonetalon Mountains. Acting under the authority of Neptulon the Tidehunter, he seeks to wage war on fire elementals and recruits adventurers to help destroy them.",
+   "answer": "Tsunaman is an envoy of the Tribunal of the Tides at Sun Rock Retreat in Stonetalon Mountains. Under Neptulon the Tidehunter’s authority, he wages war on fire elementals and sends you to destroy them.",
    "q": "Who is Tsunaman?"
   },
   {
@@ -37,7 +37,7 @@
     "elemental war reason",
     "neptulon fire elementals"
    ],
-   "answer": "Neptulon the Tidehunter, the Elemental Lord of water, holds an ancient enmity against fire elementals and has taken a personal interest in extinguishing them. Tsunaman was dispatched by the Tribunal of the Tides to carry out this campaign in Stonetalon Mountains.",
+   "answer": "Neptulon the Tidehunter bears an ancient enmity toward fire elementals and seeks their destruction. The Tribunal of the Tides sent Tsunaman to carry out this campaign in Stonetalon Mountains.",
    "q": "Why does Neptulon want the fire elementals destroyed?"
   },
   {
@@ -46,7 +46,7 @@
     "fire elemental location stonetalon",
     "where to find incendrites"
    ],
-   "answer": "The Charred Vale is a devastated, ash-covered basin located in southern Stonetalon Mountains. It is overrun by fiery elemental creatures and other dangerous beasts born of flame and ruin.",
+   "answer": "The Charred Vale lies in southern Stonetalon Mountains. Fiery elementals and other dangerous beasts born of flame and ruin overrun its ash-covered basin.",
    "q": "Where is the Charred Vale located?"
   },
   {
@@ -55,7 +55,7 @@
     "fire elemental drops",
     "incendrite lore"
    ],
-   "answer": "Incendrites are burning remnants left behind when the fire elementals of the Charred Vale are extinguished. Tsunaman collects these cores as physical proof of their destruction to build favor with the Tribunal of the Tides.",
+   "answer": "Incendrites are burning remnants left when the fire elementals of the Charred Vale are destroyed. Tsunaman gathers these cores as proof of their destruction and to win favor with the Tribunal of the Tides.",
    "q": "What are Incendrites?"
   },
   {
@@ -64,7 +64,7 @@
     "who are tribunal of tides",
     "water elemental faction"
    ],
-   "answer": "The Tribunal of the Tides is an authority among water elementals serving Neptulon the Tidehunter. They direct elemental forces and envoys like Tsunaman to advance the Tidehunter's will against rival elemental domains.",
+   "answer": "The Tribunal of the Tides is an authority among water elementals that serves Neptulon the Tidehunter. It directs elemental forces and envoys such as Tsunaman to carry out the Tidehunter’s will against rival elemental domains.",
    "q": "What is the Tribunal of the Tides?"
   },
   {
@@ -73,7 +73,7 @@
     "water elemental lord",
     "neptulon tidehunter"
    ],
-   "answer": "Neptulon the Tidehunter is the Elemental Lord of water, ruling over the oceans, seas, and all water elementals. Like the other elemental lords, he wages an ancient, perpetual conflict against rival elements, especially fire.",
+   "answer": "Neptulon the Tidehunter is the Elemental Lord of water and ruler of the oceans, seas, and all water elementals. Like the other elemental lords, he wages an ancient, unending conflict against rival elements, especially fire.",
    "q": "Who is Neptulon the Tidehunter?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "In the rugged reaches of Stonetalon Mountains, an envoy named Tsunaman has arrived at Sun Rock Retreat on behalf of the Tribunal of the Tides. Acting under the supreme will of Neptulon the Tidehunter, the lord of water elementals, Tsunaman seeks to carry out an ancient vendetta against their fiery kin. Rather than a dispute over mortal borders, this conflict represents the unending clash of Azeroth's primal forces.",
+   "body": "At Sun Rock Retreat in Stonetalon Mountains, Tsunaman speaks for the Tribunal of the Tides. You carry out Neptulon the Tidehunter’s will against the fiery kin of his water elementals. Their enmity reaches far beyond mortal borders. It is an ancient struggle between the primal forces of Azeroth.",
    "spoiler": 0,
    "title": "Primal Rivalry in the Mountains"
   },
   {
-   "body": "The primary battleground for this struggle is the Charred Vale, a scarred wasteland smoldering in southern Stonetalon Mountains. Fire elementals thrive amidst the ashes, threatening the surrounding regions. Adventurers are enlisted to descend into the vale, snuff out these flame-wreathed entities, and gather Incendrites\u2014blazing remnants left behind upon an elemental's defeat\u2014to prove their destruction to the Tribunal.",
+   "body": "Southern Stonetalon Mountains hold the Charred Vale, where ash and smoke mark the land. Fire elementals gather there and threaten the surrounding regions. Tsunaman sends you to destroy them and gather the Incendrites they leave behind. These blazing cores prove to the Tribunal that the elementals are gone.",
    "spoiler": 0,
    "title": "The Ash and the Flame"
   }
  ],
- "summary": "Elemental War is a task undertaken for Tsunaman, an envoy of the water elementals residing at Sun Rock Retreat in Stonetalon Mountains. Guided by the will of Neptulon the Tidehunter, adventurers are sent into the scorched depths of the Charred Vale to extinguish blazing fire elementals and collect their smoldering Incendrite cores. It provides a rare glimpse into the ancient, perpetual rivalry that divides the elemental planes.",
+ "summary": "In Stonetalon Mountains, Tsunaman sends you against fire elementals in Neptulon’s name. The water envoy at Sun Rock Retreat asks you to enter the Charred Vale and gather Incendrite cores from the blazing elementals you destroy. Their struggle reaches beyond mortal borders, bound to the ancient rivalry between elemental forces.",
  "attribution": [
   "In-game quest text: Elemental War"
- ]
+ ],
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Gordunni Outpost"
  },
- "summary": "Tucked into the rugged cliffs north of Lariss Pavilion, the Gordunni Outpost serves as a fortified camp for the brutish Gordunni ogres of Feralas. The clan's corrupting influence has choked the once-vibrant wilderness here, leaving the surrounding earth dry, withered, and brown.",
+ "summary": "North of Lariss Pavilion, the Gordunni ogres hold a fortified camp in the cliffs. Their presence leaves the surrounding wilderness dry and withered.",
  "sections": [
   {
    "title": "A Blighted Foothold",
-   "body": "Carved into the northern mountains above the Lariss Pavilion, the Gordunni Outpost stands out as a stark scar against the lush canopy of Feralas. Wherever the Gordunni ogres settle, their reckless magical channeling and destructive habits sap the vitality of the wild, leaving the local flora dead and the hillsides barren. The outpost consists of dirt trails, a shallow entrance cave, and a larger ogre mound burrowed deep into the rear cliffs. Patrolled by heavily armed hillguards, cunning channelers, and ogre tamers, the camp also holds dangerous trophies\u2014including a captured sasquatch named Bigfist kept in crude confinement near the deeper den.",
+   "body": "Above Lariss Pavilion, Gordunni ogres patrol trails cut into Feralas's northern mountains. Their magic and destructive ways drain life from the wild. Plants die, and the hillsides lie bare.\n\nDirt paths lead to a shallow cave entrance and a larger mound burrowed into the rear cliffs. Hillguards, channelers, and tamers guard the camp. Near the deeper den, they keep Bigfist, a captured sasquatch, in crude confinement.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "dead grass feralas",
     "ogre corruption"
    ],
-   "answer": "The Gordunni clan exerts a harsh, corruptive toll on the surrounding environment. Their reckless sorcery and destructive occupation drain the natural vitality of the soil, causing the normally verdant jungle flora to wilt into dry brown scrubland."
+   "answer": "The Gordunni clan's sorcery and destructive occupation drain life from the surrounding soil. Jungle plants wither, and the ground turns dry and brown."
   },
   {
    "q": "What kinds of ogres occupy the Gordunni Outpost?",
@@ -32,7 +32,7 @@
     "gordunni types",
     "who lives here"
    ],
-   "answer": "The outpost is defended by Gordunni Hillguards, Gordunni Channelers wielding crude offensive magic, and Gordunni Tamers who watch over their camp and captive beasts."
+   "answer": "Gordunni Hillguards defend the outpost, Gordunni Channelers wield crude offensive magic, and Gordunni Tamers watch over the camp and its captive beasts."
   },
   {
    "q": "Who is Bigfist?",
@@ -41,7 +41,7 @@
     "who is bigfist",
     "ogre prisoner"
    ],
-   "answer": "Bigfist is a massive sasquatch held captive by the Gordunni ogres near the entrance of their rear cave. The ogre tamers keep him bound as a trophy or experimental quarry."
+   "answer": "Bigfist is a massive sasquatch held captive by the Gordunni ogres near the entrance to their rear cave. The tamers keep him bound as a trophy or for experiments."
   },
   {
    "q": "Where is the Gordunni Outpost located?",
@@ -50,17 +50,17 @@
     "outpost location",
     "how to get to gordunni outpost"
    ],
-   "answer": "The outpost is nestled high in the mountain ridge directly north of Lariss Pavilion in eastern Feralas."
+   "answer": "The Gordunni Outpost sits high in the mountain ridge north of Lariss Pavilion in eastern Feralas."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The Gordunni's presence is a grievous offense to nature, transforming the fertile jungle canopy into an unnaturally withered, barren wasteland."
+   "text": "As a druid, you see the Gordunni's presence harm nature. The fertile jungle canopy lies withered and barren."
   },
   {
    "target": "class:Hunter",
-   "text": "The outpost is occupied by ogre tamers who capture and abuse local mountain beasts, keeping creatures like the great sasquatch Bigfist bound in cages."
+   "text": "As a hunter, you see ogre tamers capture and abuse mountain beasts. They keep creatures such as the great sasquatch Bigfist bound in cages."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Gordunni Outpost"
- ]
+ ],
+ "style": 2
 }

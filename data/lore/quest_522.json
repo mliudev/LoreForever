@@ -24,16 +24,16 @@
   ],
   "category": "Alterac Mountains"
  },
- "summary": "A Shadowy Assassin in Hillsbrad Foothills carries a contract that orders the killing of Magistrate Henry Maleb. Red wax seals it, pressed with a distinctive signet ring, and you are to bring it to Maleb in Southshore.",
+ "summary": "In Hillsbrad Foothills, a Shadowy Assassin bears a contract naming Magistrate Henry Maleb for death. You are to carry it to Maleb in Southshore, where red wax bears a distinctive signet ring's mark.",
  "sections": [
   {
    "title": "A Marked Magistrate",
-   "body": "The paper orders the killing of Magistrate Henry Maleb. A seal of red wax closes it, pressed with a distinctive signet ring. A Shadowy Assassin in Hillsbrad Foothills carries it, and Maleb in Southshore is the one to show it to.",
+   "body": "A Shadowy Assassin carries a contract in Hillsbrad Foothills. It names Magistrate Henry Maleb for death, and a distinctive signet ring has marked the red wax. Bring the paper to Maleb in Southshore.",
    "spoiler": 0
   },
   {
    "title": "Maleb's Verdict",
-   "body": "Maleb looks over the contract and says it accounts for the recent attack on Southshore. Maleb is certain the Syndicate is after the magistrate's life, as it was after the previous magistrate's.",
+   "body": "Magistrate Henry Maleb reads the contract and says it explains Southshore's recent attack. He is certain the Syndicate wants his life, as it wanted the previous magistrate's.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "assassins contract details",
     "who is the target"
    ],
-   "answer": "It orders the killing of Magistrate Henry Maleb, and red wax seals it, pressed with a distinctive signet ring."
+   "answer": "The contract orders Magistrate Henry Maleb's killing. Red wax seals it, marked by a distinctive signet ring."
   },
   {
    "q": "Where does this contract originate?",
@@ -54,7 +54,7 @@
     "where to find contract",
     "shadowy assassin drop"
    ],
-   "answer": "It is carried by a Shadowy Assassin in Hillsbrad Foothills."
+   "answer": "A Shadowy Assassin carries the contract in Hillsbrad Foothills."
   },
   {
    "q": "To whom should the contract be delivered?",
@@ -63,7 +63,7 @@
     "where to turn in assassins contract",
     "maleb location"
    ],
-   "answer": "To Magistrate Henry Maleb in Southshore, the magistrate the contract marks for death."
+   "answer": "Bring the contract to Magistrate Henry Maleb in Southshore. He is the magistrate it names for death."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Assassin's Contract (quest)"
- ]
+ ],
+ "style": 2
 }

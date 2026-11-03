@@ -20,16 +20,16 @@
    "New Life"
   ]
  },
- "summary": "Tammra Windfield sends travelers west from Sun Rock Retreat to plant Gaea seeds in the Charred Vale. She hopes the scorched land can begin to heal.",
+ "summary": "Tammra Windfield sends travelers west from Sun Rock Retreat to begin healing the Charred Vale. She hopes Gaea seeds can help the scorched land recover.",
  "sections": [
   {
    "title": "Healing the Scorched Earth",
-   "body": "Tammra Windfield sends you into the Charred Vale, where soot, fire elementals, and harpies haunt the ruined ground. She trusts in the Earth Mother's resilience and asks you to find Gaea Dirt Mounds, where fertile soil survived the fire.",
+   "body": "Tammra Windfield asks you to enter the Charred Vale, where soot, fire elementals, and harpies haunt the ruined ground. She trusts the Earth Mother's resilience. Find the Gaea Dirt Mounds, where fertile soil survived the fire.",
    "spoiler": 0
   },
   {
    "title": "A Foothold for the Future",
-   "body": "Gaea seeds can take root despite the lingering elemental corruption. Their roots form an ecological anchor against decay and invite plants back into the valley. Tammra hopes that, as life reclaims the basin, the fire spirits will settle, the harpies will lose their desolate roost, and the Venture Company's logging will eventually be driven out.",
+   "body": "Gaea seeds can take root despite the lingering elemental corruption. Their roots hold back decay and give plants a place to return to the valley. Tammra hopes new growth will calm the fire spirits and drive the harpies from their desolate roost. She also hopes the Venture Company's logging will eventually be driven out.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "new life purpose",
     "what do gaea seeds do"
    ],
-   "answer": "The enchanted Gaea seeds can take root in the Charred Vale's scarred earth and resist corruption. They give plant life a foothold from which the forest can gradually regrow and heal."
+   "answer": "The enchanted Gaea seeds can take root in the Charred Vale's scarred earth and resist corruption. They give plants a foothold from which the forest can gradually regrow and heal."
   },
   {
    "q": "Where do I need to go to plant the seeds?",
@@ -50,7 +50,7 @@
     "where do i plant gaea seeds",
     "seed locations"
    ],
-   "answer": "Travel west from Sun Rock Retreat into the Charred Vale, where Gaea Dirt Mounds are scattered across the blackened basin."
+   "answer": "Travel west from Sun Rock Retreat into the Charred Vale. Gaea Dirt Mounds lie across the blackened basin."
   },
   {
    "q": "Who is Tammra Windfield?",
@@ -92,7 +92,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren, planting enchanted seeds in scarred soil joins them in communion with the Earth Mother and fulfills their sacred duty to heal wounded lands."
+   "text": "As a tauren, you join in communion with the Earth Mother by planting enchanted seeds in scarred soil. It fulfills your sacred duty to heal wounded lands."
   },
   {
    "target": "class:Druid",
@@ -100,11 +100,11 @@
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you know the agitated fire elementals will never find peace until the battered land begins to heal."
+   "text": "As a shaman, you know the agitated fire elementals will not find peace until the battered land begins to heal."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you appreciate the seeds' power to bring thriving vegetation from deadened soil."
+   "text": "As an herbalist, you appreciate how the seeds can bring thriving vegetation from deadened soil."
   }
  ],
  "keywords": [
@@ -130,5 +130,5 @@
  "attribution": [
   "New Life"
  ],
- "style": 1
+ "style": 2
 }

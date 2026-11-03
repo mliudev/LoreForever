@@ -8,11 +8,11 @@
   "wiki": "Argent Guard Manados",
   "refs": 1
  },
- "summary": "At the Craftsmen's Terrace in Darnassus, Argent Guard Manados watches for corruption across Kalimdor. He serves the Argent Dawn and sends adventurers toward Blackfathom Deeps.",
+ "summary": "At Darnassus, Argent Guard Manados keeps watch over corruption across Kalimdor. He serves the Argent Dawn and calls for aid against the Twilight's Hammer beneath Ashenvale's waves.",
  "sections": [
   {
    "title": "A Sentinel of the Dawn",
-   "body": "Argent Guard Manados keeps the Argent Dawn's watch in Darnassus. While most of the order guards Lordaeron against the Scourge, he stands among the artisans and tradefolk of the Craftsmen's Terrace. His post lets him watch for threats to northern Kalimdor's balance. When word reaches him that the Twilight's Hammer has gained a foothold beneath Ashenvale's waves, he calls on capable heroes to strike at Blackfathom Deeps and recover the cult's artifacts of dark devotion.",
+   "body": "Argent Guard Manados keeps the Argent Dawn's watch in Darnassus. Most of the order guards Lordaeron against the Scourge, while he stands among the artisans and tradefolk of the Craftsmen's Terrace. From there, he watches for threats to northern Kalimdor's balance. Word reaches him that the Twilight's Hammer has gained a foothold beneath Ashenvale's waves. So he calls on capable heroes to strike at Blackfathom Deeps and recover the cult's artifacts of dark devotion.",
    "spoiler": 0
   }
  ],
@@ -50,13 +50,13 @@
     "why argent dawn bfd",
     "argent dawn twilight cult"
    ],
-   "answer": "The Argent Dawn watches for malignant forces threatening Azeroth. The Twilight's Hammer cult has emerged in Ashenvale's submerged ruins, worshipping ancient, corrupt entities, and the order cannot ignore that peril."
+   "answer": "The Argent Dawn watches for malignant forces threatening Azeroth. The Twilight's Hammer has emerged in Ashenvale's submerged ruins, where the cult worships ancient, corrupt entities. The order cannot ignore that peril."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, Manados shows that duty can reach beyond the Cenarion Circle and the Sentinels. Some night elves serve neutral orders such as the Argent Dawn to preserve Azeroth."
+   "text": "As a night elf, you can see in Manados that duty reaches beyond the Cenarion Circle and the Sentinels. Some night elves serve neutral orders such as the Argent Dawn to preserve Azeroth."
   },
   {
    "target": "faction:Alliance",
@@ -83,5 +83,5 @@
  "attribution": [
   "Argent Guard Manados"
  ],
- "style": 1
+ "style": 2
 }

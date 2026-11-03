@@ -17,16 +17,16 @@
   "wiki": "Deep Cover",
   "chain": []
  },
- "summary": "Shenthul sends a promising Horde rogue to Sludge Fen to contact an agent hidden among the Venture Company. The Shattered Hand has spent a year placing Taskmaster Fizzule inside the company’s drilling grounds, where he watches their plans.",
+ "summary": "Shenthul sends a promising Horde rogue to Sludge Fen to meet an agent among the Venture Company. The Shattered Hand has spent a year placing Taskmaster Fizzule inside its drilling grounds, where he watches their plans.",
  "sections": [
   {
    "title": "A Spy Among Profiteers",
-   "body": "The Shattered Hand protects Orgrimmar’s interests through secret intelligence and assassination. For a year, its members worked to place an agent in the Venture Company’s ranks. Taskmaster Fizzule earned a place at their drilling outpost north of Sludge Fen, among the company’s mercenaries.",
+   "body": "The Shattered Hand guards Orgrimmar’s interests with secret intelligence and assassination. For a year, its members worked to place an agent among the Venture Company. Taskmaster Fizzule won a place at their drilling outpost north of Sludge Fen, among the company’s mercenaries.",
    "spoiler": 0
   },
   {
    "title": "Signs and Signals",
-   "body": "Fizzule must keep his hard-edged reputation to satisfy the Venture Company’s overseers. An unexpected visitor could bring an attack. Rogues who reach his tower must fire two flares from the signaling gun within sight, approach quietly, and give the Shattered Hand’s secret salute. Then Fizzule can share what he has learned about the company’s growing schemes.",
+   "body": "Fizzule must keep his harsh reputation to satisfy the Venture Company’s overseers. An unexpected visitor could bring an attack. If you reach his tower, fire two flares from the signaling gun within sight, approach quietly, and give the Shattered Hand’s secret salute. Then Fizzule can share what he has learned about the company’s growing schemes.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "fizzule hostile",
     "fizzule kills me"
    ],
-   "answer": "Fizzule keeps up the harsh manner expected of a Venture Company taskmaster. Without the two-flare signal and Shattered Hand salute, he takes an approaching stranger for a hostile intruder or rival agent and attacks to protect his disguise."
+   "answer": "Fizzule keeps the harsh manner expected of a Venture Company taskmaster. Without the two-flare signal and Shattered Hand salute, he takes an approaching stranger for a hostile intruder or rival agent and attacks to protect his disguise."
   },
   {
    "q": "Where is the Venture Company tower located?",
@@ -72,7 +72,7 @@
     "what next after deep cover",
     "after fizzule"
    ],
-   "answer": "After contact, Fizzule directs the rogue to enter the nearby Venture Company tower, kill its inhabitants, including Grand Foreman Puzik Gallywix, and take Zanzil's Altered Mixture to prove their worth to the guild."
+   "answer": "After you make contact, Fizzule directs you to enter the nearby Venture Company tower, kill its inhabitants, including Grand Foreman Puzik Gallywix, and take Zanzil's Altered Mixture to prove your worth to the guild."
   },
   {
    "q": "What is the Shattered Hand?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a Horde rogue, you are taking a step from street scouting toward trusted work in the field, coordinating in secret."
+   "text": "As a Horde rogue, you are moving from street scouting toward trusted work in the field, coordinating in secret."
   },
   {
    "target": "faction:Horde",
@@ -114,5 +114,5 @@
  "attribution": [
   "Deep Cover"
  ],
- "style": 1
+ "style": 2
 }

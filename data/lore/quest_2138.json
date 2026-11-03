@@ -21,16 +21,16 @@
    "Tharnariun's Hope (quest)"
   ]
  },
- "summary": "In Darkshore, Tharnariun Treetender faces a hard choice over the infected thistle bears. His attempt to cure one has failed, and he asks you to kill the rabid beasts before they harm other creatures or spread the sickness.",
+ "summary": "In Darkshore, Tharnariun Treetender asks you to stop the infected thistle bears. His attempt to cleanse one failed, and he fears the rabid beasts will harm other creatures and spread the sickness.",
  "sections": [
   {
    "title": "A Bitter Necessity",
-   "body": "Tharnariun Treetender has searched for a remedy to the sickness spreading through Darkshore's wildlife. He tried to cleanse a captured bear, but the thistle bears remain diseased and violent. Now he asks you to put them down. He fears they will maul other creatures and carry the sickness farther into the ancient woodlands.",
+   "body": "Tharnariun Treetender has searched for a remedy to the sickness in Darkshore's wildlife. He tried to cleanse a captured bear, but the thistle bears remain diseased and violent. So he asks you to put them down before they maul other creatures or carry the sickness farther into the ancient woodlands.",
    "spoiler": 0
   },
   {
    "title": "Containing the Wilds",
-   "body": "Tharnariun asks you to kill twenty rabid bears, though he knows it will not cure the plague. The killings buy time for Auberdine's defenders. Until anyone finds and severs the source of the forest's corruption, the settlement has no other way to hold back the aggressive herds and the danger they bring.",
+   "body": "Tharnariun asks you to kill twenty rabid bears, though he knows this will not cure the plague. The killings buy time for Auberdine's defenders. Until someone finds and severs the source of the forest's corruption, the settlement has no other way to hold back the aggressive herds and the danger they bring.",
    "spoiler": 1
   }
  ],
@@ -82,21 +82,21 @@
     "why are bears sick",
     "bear sickness darkshore"
    ],
-   "answer": "A mysterious taint sweeping through northern Kalimdor's woodlands has corrupted the bears, turning peaceful wildlife into frenzied, aggressive beasts that Tharnariun's attempted cure cannot heal."
+   "answer": "A mysterious taint sweeping through northern Kalimdor's woodlands has corrupted the bears. It turned peaceful wildlife into frenzied, aggressive beasts that Tharnariun's attempted cure cannot heal."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you bear the weight of ordering corrupted beasts killed. The sickness has reached deep into your ancestral homeland since the war."
+   "text": "As a kaldorei, you bear the weight of ordering corrupted beasts killed. Since the war, the sickness has reached deep into your ancestral homeland."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you may find Tharnariun's command especially painful. It is an act of mercy and care for the forest, not ordinary hunting."
+   "text": "As a druid, Tharnariun's command may pain you. It is an act of mercy and care for the forest, not ordinary hunting."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you know that culling diseased predators can protect the wider ecology, even when the cause remains unknown."
+   "text": "As a hunter, you know culling diseased predators can protect the wider ecology, even when the cause remains unknown."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Cleansing of the Infected"
  ],
- "style": 1
+ "style": 2
 }

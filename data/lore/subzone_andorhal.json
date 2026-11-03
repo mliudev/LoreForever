@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Andorhal"
  },
- "summary": "Once the thriving agricultural heart of northern Lordaeron, Andorhal became ground zero for the Kingdom's destruction during the Third War. It was here that Kel'Thuzad tainted the grain with the Plague of Undeath, unleashing horror across the region. Today, the ruined town is held firmly in the iron grip of the Scourge.",
+ "summary": "In Andorhal, the Scourge still holds the ruined town. Once northern Lordaeron's thriving agricultural heart, it became the place where Kel'Thuzad tainted the grain with the Plague of Undeath. During the Third War, that harvest carried horror across the region.",
  "sections": [
   {
    "title": "Ground Zero of the Plague",
-   "body": "Before the Third War, Andorhal was the prosperous granary of the Eastweald, gathering grain from across Lordaeron and distributing it eastward to Hearthglen and Stratholme. Because of this vast distribution network, Kel'Thuzad and the Cult of the Damned chose Andorhal as the staging ground for their horrific plot. By tainting the grain crates with the Plague of Undeath, the cult turned the breadbasket of the kingdom into an engine of necrosis, infecting countless citizens before the Crown even understood the threat.",
+   "body": "Before the Third War, Andorhal gathered grain from across Lordaeron and sent it east to Hearthglen and Stratholme. As the Eastweald's prosperous granary, it fed a vast network. Kel'Thuzad and the Cult of the Damned chose the town to begin their plot. They tainted crates of grain with the Plague of Undeath, turning the kingdom's breadbasket into a source of sickness. Countless citizens were infected before the Crown understood the danger.",
    "spoiler": 0
   },
   {
    "title": "The Fall of the Silver Hand",
-   "body": "Prince Arthas Menethil and Jaina Proudmoore initially confronted and slew Kel'Thuzad here, but the necromancer's death was not the end. When Arthas returned from Northrend as a champion of the Scourge, he marched back to Andorhal to reclaim Kel'Thuzad's remains. Uther the Lightbringer and the remnants of the Silver Hand made a desperate last stand in defense of King Terenas's ashes. The paladins were overwhelmed, Uther was slain by his former pupil, and the grand settlement was reduced to a blight-choked Scourge stronghold.",
+   "body": "Prince Arthas Menethil and Jaina Proudmoore first faced Kel'Thuzad in Andorhal and slew him. His death did not end the danger. After returning from Northrend as a champion of the Scourge, Arthas marched back to claim Kel'Thuzad's remains.\n\nUther the Lightbringer and the remaining Silver Hand paladins made a desperate stand to defend King Terenas's ashes. The paladins fell, and Arthas slew Uther, his former pupil. Now the once grand settlement is a blight-choked Scourge stronghold.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "andorhal grain plague",
     "why andorhal mattered"
    ],
-   "answer": "Andorhal was the central agricultural distribution hub for northern Lordaeron. Kel'Thuzad exploited this supply chain, infesting the grain silos with the Plague of Undeath and shipping the tainted harvest along the King's Road directly to Stratholme and neighboring towns."
+   "answer": "Andorhal gathered and distributed grain across northern Lordaeron. Kel'Thuzad used its network to spread the Plague of Undeath through the harvest, sending tainted grain along the King's Road to Stratholme and nearby towns."
   },
   {
    "q": "Who controls Andorhal right now?",
@@ -37,7 +37,7 @@
     "scourge in andorhal",
     "who is in charge of andorhal"
    ],
-   "answer": "The undead Scourge firmly controls the ruins of Andorhal. Skeletal sentries, necromancers, and ghouls stalk the scorched streets, guarding the epicenter of their original victory in the Western Plaguelands."
+   "answer": "The Scourge holds Andorhal's ruins. Skeletal sentries, necromancers, and ghouls patrol its scorched streets, guarding the place where their victory began in the Western Plaguelands."
   },
   {
    "q": "Did Uther the Lightbringer die here?",
@@ -46,17 +46,17 @@
     "uther death andorhal",
     "did arthas kill uther here"
    ],
-   "answer": "Yes. Following the fall of Capital City, Uther and his paladins protected the urn containing King Terenas's ashes on the outskirts of Andorhal. Arthas assaulted the procession to seize the urn for Kel'Thuzad's remains, ultimately dueling and slaying his mentor on the road."
+   "answer": "Yes. After Capital City fell, Uther and his paladins guarded the urn holding King Terenas's ashes on Andorhal's outskirts. Arthas attacked to seize it for Kel'Thuzad's remains, then dueled and slew his mentor on the road."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Andorhal is sacred ground consecrated by the blood of the Silver Hand; it was here that Uther the Lightbringer and his loyal knights made their tragic last stand against Arthas."
+   "text": "As a paladin, you walk ground marked by the Silver Hand's blood. Uther the Lightbringer and his loyal knights made their final stand against Arthas here."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the fields of Andorhal are a bitter reminder of their origin, marking the very place where the Cult of the Damned orchestrated the downfall of their mortal lives."
+   "text": "As one of the Forsaken, you can see Andorhal's fields as a bitter reminder of your origins. The Cult of the Damned began the fall of your mortal lives here."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Andorhal"
- ]
+ ],
+ "style": 2
 }

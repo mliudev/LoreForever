@@ -17,16 +17,16 @@
   "wiki": "Glyphic Tablet (quest)",
   "chain": []
  },
- "summary": "In the Valley of Trials, a Glyphic Tablet sends young Horde mages to Mai'ah. Gornek passes it to them after they prove their strength, and the troll trainer waits outside the Den.",
+ "summary": "In the Valley of Trials, a Glyphic Tablet calls young Horde mages to Mai'ah. Gornek gives it to them after they prove their strength, and the troll trainer waits outside the Den.",
  "sections": [
   {
    "title": "A Message in Inscribed Stone",
-   "body": "You have proved your strength against the Valley of Trials' wildlife, and Gornek gives you an inscribed tablet. Mai'ah, the valley's mage trainer, sent it. She asks you to find her by the Den's entrance when you are ready to begin your arcane studies.",
+   "body": "You have proved your strength against the Valley of Trials' wildlife. Gornek gives you an inscribed tablet sent by Mai'ah, the valley's mage trainer. When you are ready to begin your arcane studies, she asks you to meet her by the Den's entrance.",
    "spoiler": 0
   },
   {
    "title": "The Dangers of the Unseen",
-   "body": "Mai'ah speaks plainly about the power mages wield and the danger that comes with it. She warns that their greatest threat is magic's unseen pull toward corruption, not rival warriors or enemy races. Humility and patience matter, she says, because unchecked sorcery can make a mage believe they have mastered more than they have.",
+   "body": "Mai'ah speaks plainly about a mage's power and its danger. Magic's unseen pull toward corruption, she warns, is a greater threat than rival warriors or enemy races. Humility and patience matter. Without them, unchecked sorcery can make a mage believe they have mastered more than they have.",
    "spoiler": 0
   }
  ],
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you receive a formal welcome among Horde spellcasters from the valley's trainer. Mai'ah teaches the discipline needed to control raw magic."
+   "text": "As a mage, you receive a formal welcome among Horde spellcasters from the valley's trainer. Mai'ah teaches you the discipline needed to control raw magic."
   },
   {
    "target": "race:Troll",
@@ -119,5 +119,5 @@
  "attribution": [
   "Glyphic Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

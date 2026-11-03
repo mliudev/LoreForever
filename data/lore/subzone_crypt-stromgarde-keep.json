@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Crypt (Stromgarde Keep)"
  },
- "summary": "Deep within the ruins of Stromgarde Keep lies the royal crypt, situated past the sanctum chapel in the heart of the district held by the surviving Stromgarde defenders. It holds the tomb of the fallen King Thoras Trollbane and the ancestral treasures of his dynasty. Guarded closely by Prince Galen and faithful caretakers, the vault remains a sanctuary of royal honor amid a shattered kingdom.",
+ "summary": "In Stromgarde Keep, loyalists guard the royal crypt beneath the Sanctum. It holds King Thoras Trollbane’s tomb and the treasures of his line.",
  "sections": [
   {
    "title": "The Tomb of Thoras Trollbane",
-   "body": "Hidden beneath the Sanctum of Stromgarde Keep, this subterranean burial vault serves as the final resting place of King Thoras Trollbane, the warrior monarch who led Stromgarde through the Second War. Despite the devastation engulfing the city\u2014split among Syndicate rogues and Boulderfist ogres\u2014the remaining Stromgarde militia fiercely maintains their grip on this quarter. Prince Galen Trollbane personally watches over the crypts alongside dedicated royal caretakers, ensuring his father's body and legacy remain undisturbed by the scavengers and enemies outside.",
+   "body": "Beneath Stromgarde Keep’s Sanctum lies King Thoras Trollbane’s tomb. He led Stromgarde through the Second War. The city is in ruins, divided between Syndicate rogues and Boulderfist ogres, yet the surviving Stromgarde militia still holds this quarter.\n\nPrince Galen Trollbane watches over the crypt with the royal caretakers. They keep his father’s body and legacy safe from scavengers and enemies outside.",
    "spoiler": 0
   },
   {
    "title": "The Vault of Trol'kalar",
-   "body": "Beyond housing the royal dead, the crypt safeguards prized artifacts belonging to the Trollbane lineage. Chief among these relics is Trol'kalar, the ancient runed greatsword forged centuries ago to slay trolls. Entrusted to the sworn protection of caretakers such as Alaric, Nevlin, and Weston, the chamber and its treasures are secured with powerful safeguards. Galen and his loyalists guard the tomb relentlessly, well aware that rival factions and hostile trolls across Arathi would covet the blade's ancient power.",
+   "body": "The crypt guards artifacts of the Trollbane line. Among them is Trol'kalar, an ancient runed greatsword forged centuries ago to slay trolls. Sworn caretakers, including Alaric, Nevlin, and Weston, protect the chamber and its treasures with powerful safeguards.\n\nGalen and his loyalists keep watch. Rival factions and hostile trolls across Arathi covet the blade’s ancient power.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "whose tomb is this",
     "crypt tomb"
    ],
-   "answer": "King Thoras Trollbane, the late ruler of Stromgarde, is interred here. His son, Prince Galen Trollbane, keeps watch over the tomb amidst the ruined city."
+   "answer": "King Thoras Trollbane, Stromgarde’s late ruler, is buried in the crypt. His son, Prince Galen Trollbane, watches over the tomb amid the ruined city."
   },
   {
    "q": "What is Trol'kalar?",
@@ -37,7 +37,7 @@
     "trollbane sword",
     "what is trolkalar"
    ],
-   "answer": "Trol'kalar is an ancient heirloom blade belonging to the Trollbane family. Its name translates from the ancient tongue to mean 'troll slayer,' and it was originally forged to fight the forest trolls of the Arathi basin."
+   "answer": "Trol'kalar is an ancient heirloom blade of the Trollbane family. Its name means “troll slayer” in the ancient tongue. It was forged to fight the forest trolls of the Arathi basin."
   },
   {
    "q": "Who guards the crypt?",
@@ -46,7 +46,7 @@
     "who defends the crypt",
     "caretakers"
    ],
-   "answer": "The crypt is defended by Prince Galen Trollbane and the Stromgarde royal caretakers, including Alaric, Nevlin, and Weston. They protect the burial chamber from encroaching Syndicate thieves and Boulderfist ogres."
+   "answer": "Prince Galen Trollbane and Stromgarde’s royal caretakers guard the crypt, including Alaric, Nevlin, and Weston. They defend the burial chamber from Syndicate thieves and Boulderfist ogres."
   },
   {
    "q": "Where is the crypt located?",
@@ -55,17 +55,17 @@
     "how to find the crypt",
     "where is stromgarde crypt"
    ],
-   "answer": "It is located within Stromgarde Keep in the Arathi Highlands, found deep inside the Sanctum district behind the keep's chapel, in the sector still held by Stromgarde loyalists."
+   "answer": "The crypt lies within Stromgarde Keep in the Arathi Highlands, deep in the Sanctum district behind the keep’s chapel. It is in the quarter still held by Stromgarde loyalists."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of the Alliance, the tomb represents the tragic decline of Stromgarde, one of the seven great kingdoms, and the hallowed grave of one of the Alliance's fiercest wartime leaders."
+   "text": "As a human of the Alliance, you can see Stromgarde’s decline in this tomb. Here rests one of the Alliance’s fiercest wartime leaders, from one of its seven great kingdoms."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stromgarde's royal crypt stands as one of the last bastions of Alliance heritage in Arathi, guarded tenaciously against bandits, ogres, and the Horde."
+   "text": "As an Alliance member, you find one of Arathi’s last bastions of Alliance heritage in Stromgarde’s royal crypt. Its defenders hold off bandits, ogres, and the Horde."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Crypt (Stromgarde Keep)"
- ]
+ ],
+ "style": 2
 }

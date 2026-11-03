@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shrine of the Dormant Flame"
  },
- "summary": "At the Shrine of the Dormant Flame, Horde shaman seek communion with fire atop Durotar’s highest peak northwest of the Valley of Trials. Telf Joolam keeps the secluded sanctuary, where initiates climb to prove their spiritual mastery.",
+ "summary": "Horde shaman climb to the Shrine of the Dormant Flame, atop Durotar’s highest peak northwest of the Valley of Trials. Telf Joolam keeps this secluded sanctuary, where initiates prove their spiritual mastery.",
  "sections": [
   {
    "title": "A Summit of Trial and Flame",
-   "body": "A narrow trail winds up from the Southfury River, at the southwestern edge of the Southfury Watershed. The summit rises above Durotar’s red cliffs, with a commanding view and a precipice where one misstep means certain death. Telf Joolam, a solitary hermit, oversees the sacred rites here. Aspiring orc and troll shaman come for the ritual Call of Fire. At the shrine’s brazier, they use the ember of a defeated elemental to kindle the sleeping coals and prove they can commune with fire and respect its destructive spirits.",
+   "body": "A narrow trail climbs from the Southfury River at the Southfury Watershed’s southwestern edge. At the summit, Durotar’s red cliffs fall away beneath a wide view, and one misstep near the precipice means certain death. Telf Joolam, a solitary hermit, oversees the sacred rites here.\n\nOrc and troll shaman come to answer the Call of Fire. At the shrine’s brazier, they kindle sleeping coals with the ember of a defeated elemental. The trial proves they can commune with fire and respect its destructive spirits.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "path to dormant flame",
     "climb dormant flame mountain"
    ],
-   "answer": "Start along the Southfury River at the southwestern edge of the Southfury Watershed, just northwest of the Valley of Trials. A narrow, winding trail climbs around the peak to the summit."
+   "answer": "Begin at the Southfury River, on the southwestern edge of the Southfury Watershed, just northwest of the Valley of Trials. A narrow, winding trail climbs around the peak to the summit."
   },
   {
    "q": "Why is this shrine important to shaman?",
@@ -86,5 +86,5 @@
  "attribution": [
   "Shrine of the Dormant Flame"
  ],
- "style": 1
+ "style": 2
 }

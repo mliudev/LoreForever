@@ -17,16 +17,16 @@
   "wiki": "Blackfathom Villainy (Horde)",
   "chain": []
  },
- "summary": "Inside Blackfathom Deeps, Blackfathom Villainy reaches a wounded scout who cannot finish his mission alone. Argent Dawn scout Thaelrid asks passing Horde champions to end Twilight Lord Kelris's blood sacrifices to Aku'mai in the sunken ruins.",
+ "summary": "In Blackfathom Deeps, a wounded scout calls for help against the cult serving Aku'mai. Argent Dawn scout Thaelrid asks passing Horde champions to end Twilight Lord Kelris's blood sacrifices in the sunken ruins.",
  "sections": [
   {
    "title": "A Desperate Last Stand",
-   "body": "Argent Dawn scout Thaelrid lies wounded in the underground temple along the Ashenvale coast. His reconnaissance uncovered horrors beyond naga incursions, but his strength is spent and he cannot complete the mission alone. He calls on passing Horde champions to strike at the cult's leaders in the sunken halls.",
+   "body": "Argent Dawn scout Thaelrid lies wounded in the underground temple along the Ashenvale coast. His reconnaissance uncovered horrors beyond the naga incursions, but he has spent his strength and cannot finish his mission alone. So he calls on passing Horde champions to strike at the cult's leaders in the sunken halls.",
    "spoiler": 0
   },
   {
    "title": "Sacrifices to the Deep",
-   "body": "Twilight Lord Kelris leads the Twilight's Hammer cultists within the ruined Temple of the Moon. With the local naga, he performs dark rites over the defiled Moon Well. Captives are fed alive to Aku'mai, a ravenous hydra and beast of the Old Gods, as Kelris seeks cosmic power and primordial chaos.",
+   "body": "Twilight Lord Kelris leads the Twilight's Hammer cultists in the ruined Temple of the Moon. Alongside the local naga, he performs dark rites over the defiled Moon Well. Captives are fed alive to Aku'mai, a ravenous hydra and beast of the Old Gods. Kelris seeks cosmic power and primordial chaos.",
    "spoiler": 0
   },
   {
@@ -61,7 +61,7 @@
     "who is akumai",
     "aku'mai lore"
    ],
-   "answer": "Aku'mai is an ancient, monstrous hydra with many heads, regarded as a primordial servant of the Old Gods. It woke when corruption from deep underground tainted the temple's sacred waters, and now devours captives brought by the Twilight's Hammer."
+   "answer": "Aku'mai is an ancient, many-headed hydra regarded as a primordial servant of the Old Gods. It woke when corruption from deep underground tainted the temple's sacred waters. Now it devours captives brought by the Twilight's Hammer."
   },
   {
    "q": "Why turn the quest in to Bashana Runetotem?",
@@ -79,7 +79,7 @@
     "temple of elune ruins",
     "why is bfd corrupted"
    ],
-   "answer": "Blackfathom Deeps was once a subterranean temple sacred to the moon goddess Elune. Upheaval and ancient darkness seeping from the earth tainted the great Moon Well, and naga and doomsday cultists claimed the sunken sanctuaries for their dark master Aku'mai."
+   "answer": "Blackfathom Deeps was once a subterranean temple sacred to the moon goddess Elune. Upheaval and ancient darkness seeping from the earth tainted the great Moon Well. Naga and doomsday cultists claimed the sunken sanctuaries for their dark master Aku'mai."
   },
   {
    "q": "What is the goal of the Twilight's Hammer cult here?",
@@ -94,11 +94,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, joining forces with an Argent Dawn scout is an uncommon act of shared purpose against a cosmic blight, and earns the Dawn's early favor."
+   "text": "For the Horde, joining forces with an Argent Dawn scout is an uncommon act of shared purpose against a cosmic blight. It earns the Dawn's early favor."
   },
   {
    "target": "race:Tauren",
-   "text": "Bashana Runetotem sees Kelris's defeat as a defense of the Earthmother, cleansing an abomination that sought to drive the world's natural order into primeval chaos."
+   "text": "Bashana Runetotem sees Kelris's defeat as a defense of the Earthmother. It cleanses an abomination that sought to drive the world's natural order into primeval chaos."
   },
   {
    "target": "class:Druid",
@@ -134,5 +134,5 @@
  "attribution": [
   "Blackfathom Villainy (Horde)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Crown of the Earth (4)",
   "chain": []
  },
- "summary": "Corithras Moonrage sends you to the Pools of Arlithrien for water as Gnarlpine furbolgs turn violent. His account of Teldrassil begins with Malfurion Stormrage's disappearance after the Third War.",
+ "summary": "At the Pools of Arlithrien, Corithras Moonrage asks you to fetch water as Gnarlpine furbolgs turn violent. His account of Teldrassil begins with Malfurion Stormrage's disappearance after the Third War.",
  "sections": [
   {
    "title": "A Perilous Moonwell",
-   "body": "Corithras Moonrage sends you with a tourmaline phial to a moonwell southeast of Darnassus's entrance, along the Pools of Arlithrien. The Gnarlpine furbolgs, once peaceful, now lash out with sudden violence. They ambush travelers and harry Sentinel patrols across the region. What seemed like isolated skirmishes has become a threat to the night elves' new home.",
+   "body": "Corithras Moonrage gives you a tourmaline phial and sends you to a moonwell southeast of Darnassus's entrance, along the Pools of Arlithrien. The Gnarlpine furbolgs were once peaceful, but now they lash out without warning. They ambush travelers and harry Sentinel patrols across the region. These skirmishes have become a threat to the night elves' new home.",
    "spoiler": 0
   },
   {
    "title": "Fandral Staghelm's Ambition",
-   "body": "When you return with the filled phial, Corithras tells you how Teldrassil came to be. After the Third War, Shan'do Malfurion Stormrage vanished, leaving the Cenarion druids without a leader and divided. Arch Druid Fandral Staghelm took the mantle of leadership in his absence. He urged the Circle of Ancients in Darkshore to set aside their mourning. The night elves, he argued, had to regain their lost immortality and heal their civilization by planting a vast new World Tree.",
+   "body": "When you return with the filled phial, Corithras tells you how Teldrassil began. After the Third War, Shan'do Malfurion Stormrage vanished, leaving the Cenarion druids without a leader and divided. Arch Druid Fandral Staghelm took the mantle of leadership in his absence. He urged the Circle of Ancients in Darkshore to set aside their mourning. The night elves, he argued, had to regain their lost immortality and heal their civilization by planting a vast new World Tree.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "gnarlpine aggressive",
     "why furbolgs attack"
    ],
-   "answer": "The Gnarlpine furbolgs, once a peaceful kin of bear-men, have been consumed by a dark, mindless rage across Teldrassil. Sentinels first dismissed the attacks as isolated incidents, but they have spread into a constant danger to nearby settlements and patrols."
+   "answer": "The Gnarlpine furbolgs, once a peaceful kin of bear-men, now suffer a dark, mindless rage across Teldrassil. Sentinels first mistook the attacks for isolated incidents, but they have spread into a constant danger to nearby settlements and patrols."
   },
   {
    "q": "What happened to Malfurion Stormrage?",
@@ -65,17 +65,17 @@
     "staghelm world tree",
     "why was teldrassil grown"
    ],
-   "answer": "With Malfurion missing, Arch Druid Fandral Staghelm took the lead among the druids. He persuaded the Circle of Ancients in Darkshore to raise a new World Tree, saying the kaldorei needed it to rebuild and regain the immortality lost with Nordrassil's destruction."
+   "answer": "With Malfurion missing, Arch Druid Fandral Staghelm took the lead among the druids. He persuaded the Circle of Ancients in Darkshore to raise a new World Tree, arguing that the kaldorei needed it to rebuild and regain the immortality lost with Nordrassil's destruction."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you hear how Teldrassil came to be after Malfurion's sudden disappearance, and the political choice behind its planting."
+   "text": "As a night elf, you hear how Teldrassil began after Malfurion's sudden disappearance, and learn of the political choice behind its planting."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you hear how Fandral Staghelm's leadership left the Cenarion Circle divided as he pressed to regain the night elves' ancient immortality."
+   "text": "As a druid, you hear how Fandral Staghelm's leadership divided the Cenarion Circle as he pressed to regain the night elves' ancient immortality."
   }
  ],
  "keywords": [
@@ -100,5 +100,5 @@
  "attribution": [
   "Crown of the Earth (4)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:63"
   ]
  },
- "summary": "Tainted bracers lie on the coast of Silverpine Forest, remnants of a corrupted water elemental. Shaman initiates recover them during the Call of Water and cast them into the Brazier of Everfount with pure water to cleanse the shrine and summon a pure water spirit.",
+ "summary": "On Silverpine Forest’s coast, Corrupt Manifestation's Bracers remain from a corrupted water elemental. During the Call of Water, shaman initiates cast them into the Brazier of Everfount with pure water, cleansing the shrine and summoning a pure water spirit.",
  "sections": [
   {
    "title": "A Cleansing Offering",
-   "body": "The Scourge's plague reached the spirits of Lordaeron. Along Silverpine Forest's misty coast, west of the Sepulcher, a sacred water shrine fell to corruption. Its water manifestation became an aggressive shade. Shaman initiates must defeat it and recover its bracers. At the Brazier of Everfount, they cast the bindings into the flame with pure water, lifting the corruption and calling forth an unblemished water spirit.",
+   "body": "The Scourge’s plague reached Lordaeron’s spirits. Along Silverpine Forest’s coast, west of the Sepulcher, corruption overcame a sacred water shrine. Its water manifestation became an aggressive shade, and shaman initiates must defeat it to recover the bracers. At the Brazier of Everfount, they cast the bindings into the flame with pure water. The rite lifts the shrine’s corruption and calls forth an unblemished water spirit.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "call of water bracers",
     "corrupt bracers use"
    ],
-   "answer": "The bracers are cast into the Brazier of Everfount with pure water during a cleansing rite. The rite purges corruption from the Silverpine shrine and calls forth a pure water spirit."
+   "answer": "During a cleansing rite, the bracers are cast into the Brazier of Everfount with pure water. This purges corruption from the Silverpine shrine and calls forth a pure water spirit."
   },
   {
    "q": "Where do the bracers come from?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, recovering and purifying these bracers is the final trial of the Call of Water. It proves your power to soothe and restore distorted elements."
+   "text": "As a shaman, you recover and purify these bracers as the final trial of the Call of Water. The trial proves your power to soothe and restore distorted elements."
   }
  ],
  "keywords": [
@@ -72,5 +72,5 @@
   "Corrupt Manifestation's Bracers",
   "Call of Water (7)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Darkcloud Pinnacle"
  },
- "summary": "Darkcloud Pinnacle is a fortified tauren settlement perched atop several interconnected mesas east of the Great Lift in Thousand Needles. Held by the aggressive Grimtotem clan, the aerial stronghold serves as a base of operations for regional disruption and shady dealings.",
+ "summary": "Grimtotem tauren hold Darkcloud Pinnacle above the canyon east of the Great Lift. From their linked mesas, they disrupt the region and pursue secret dealings.",
  "sections": [
   {
    "title": "A Clifftop Stronghold",
-   "body": "Spanning three main mesas joined by rope bridges, Darkcloud Pinnacle commands the canyon basin below. The heights are accessible only by a steep natural slope leading from the canyon floor across wooden bridges, or via a high crossing near Razorfen Downs. From these windswept rocks, the Grimtotem watch the valley, safe from casual assault and isolated from the broader tauren tribes.",
+   "body": "Darkcloud Pinnacle rises above the canyon basin across three main mesas, joined by rope bridges. You can climb a steep natural slope from the canyon floor, then cross wooden bridges. A high crossing near Razorfen Downs offers another way up. From these windswept rocks, Grimtotem watchers survey the valley. The heights guard them from easy attack and leave them apart from the wider tauren tribes.",
    "spoiler": 0
   },
   {
    "title": "Schemes on the Mesas",
-   "body": "Commanded by leaders such as Arnak Grimtotem and Harb Foulmountain, the settlement is more than a simple outpost. Secret correspondence discovered on the mesa suggests the Grimtotem are actively coordinating with dark and unknown powers, pursuing ambitions far removed from the peace forged by Cairne Bloodhoof in Thunder Bluff.",
+   "body": "Arnak Grimtotem and Harb Foulmountain are among the leaders directing Darkcloud Pinnacle. Correspondence found on the mesa points to Grimtotem dealings with dark, unknown powers. Their ambitions reach beyond the peace Cairne Bloodhoof forged in Thunder Bluff.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "darkcloud pinnacle owners",
     "who is at darkcloud pinnacle"
    ],
-   "answer": "The stronghold belongs to the Grimtotem clan, an aggressive and reclusive tauren faction openly hostile to most outsiders and deeply suspicious of the Horde."
+   "answer": "The Grimtotem clan holds Darkcloud Pinnacle. These aggressive, reclusive tauren are hostile to most outsiders and deeply distrustful of the Horde."
   },
   {
    "q": "How do you reach Darkcloud Pinnacle?",
@@ -37,7 +37,7 @@
     "darkcloud pinnacle path",
     "entrance to darkcloud pinnacle"
    ],
-   "answer": "The pinnacle can be accessed by climbing a natural ramp up an adjacent mesa from the canyon floor and crossing wooden rope bridges, or via a bridge situated near Razorfen Downs."
+   "answer": "You can climb a natural ramp from the canyon floor to an adjacent mesa, then cross wooden rope bridges. Another route crosses a bridge near Razorfen Downs."
   },
   {
    "q": "Who leads the Grimtotem here?",
@@ -46,7 +46,7 @@
     "who leads darkcloud pinnacle",
     "grimtotem bosses"
    ],
-   "answer": "The settlement's operations are overseen by prominent Grimtotem figures, including Arnak Grimtotem and Harb Foulmountain."
+   "answer": "Arnak Grimtotem and Harb Foulmountain are among the prominent Grimtotem figures overseeing the settlement."
   },
   {
    "q": "What are the Grimtotem plotting here?",
@@ -54,17 +54,17 @@
     "what is happening at darkcloud pinnacle",
     "grimtotem conspiracy"
    ],
-   "answer": "The Grimtotem at the pinnacle maintain secret communications with an unknown dark influence, working toward shadowy goals that threaten the stability of Thousand Needles."
+   "answer": "The Grimtotem at Darkcloud Pinnacle keep secret communications with an unknown dark influence. Their shadowy goals threaten stability in Thousand Needles."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Grimtotem's treacherous behavior on these mesas stands in stark opposition to the unity and peace Cairne Bloodhoof strives to maintain among the tribes."
+   "text": "As a tauren, you see the Grimtotem's treachery on these mesas set against the unity and peace Cairne Bloodhoof seeks among the tribes."
   },
   {
    "target": "faction:Horde",
-   "text": "The Grimtotem occupying this mesa act as hostiles, menacing travelers passing from the Great Lift deeper into Thousand Needles."
+   "text": "As a member of the Horde, you find the Grimtotem hostile here. They menace travelers passing from the Great Lift into Thousand Needles."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Darkcloud Pinnacle"
- ]
+ ],
+ "style": 2
 }

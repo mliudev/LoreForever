@@ -27,21 +27,21 @@
    "Freedom for All Creatures"
   ]
  },
- "summary": "Agnar Beastamer will look after your egg for now, so that it is ready for the day it hatches. Sprite darters eat both meat and vegetation, and the young ones like flanks of meat, raw and juicy. Agnar wants Silvermane stalker flanks to feed the hatchling its first meal.",
+ "summary": "Agnar Beastamer will care for your egg until it hatches. Sprite darters eat meat and vegetation, and their young favor raw, juicy flanks. Agnar wants Silvermane stalker flanks for the hatchling.",
  "sections": [
   {
    "title": "A Hatchling's First Meal",
-   "body": "Agnar Beastamer says sprite darters are omnivores, so a hatchling will need something good to eat once it is out of its shell. Raw, juicy flanks of meat are good eating for the little ones. Agnar will care for the egg meanwhile and wants Silvermane stalker flanks to feed it. Without a good first meal, the newborn might not make it past its first week.",
+   "body": "Agnar Beastamer says sprite darters eat meat and vegetation. Their young favor raw, juicy flanks. Agnar will care for the egg until it hatches and wants Silvermane stalker flanks for the hatchling. Without a good first meal, the newborn might not live through its first week.",
    "spoiler": 0
   },
   {
    "title": "Elune's Plan",
-   "body": "Agnar never learned why sprite darters take to meat. All Agnar knows is that it is tied to Elune's plan for the elves, and wonders whether they were meant to be protectors, but cannot say for sure. Agnar also admits to being jealous that you were the one to get the egg.",
+   "body": "Agnar never learned why sprite darters eat meat. Agnar knows only that it is tied to Elune’s plan for the elves. Perhaps they were meant to be protectors, Agnar wonders, but cannot say for sure. Agnar also admits to being jealous that you got the egg.",
    "spoiler": 0
   },
   {
    "title": "Back with the Flanks",
-   "body": "When you return with the flanks, Agnar judges them good enough and says the egg looks just about ready to hatch. Agnar teases you about being a mother or father soon, since you did not expect that kind of responsibility.",
+   "body": "When you return with the flanks, Agnar judges them good enough. The egg looks just about ready to hatch. Agnar teases that you will soon be a mother or father, though you did not expect that kind of responsibility.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "what do sprite darters eat",
     "sprite dragon food"
    ],
-   "answer": "Sprite darters are omnivores, eating both meat and vegetation. Agnar Beastamer says flanks of raw, juicy meat are good eating for the young ones."
+   "answer": "Sprite darters eat meat and vegetation. Agnar Beastamer says raw, juicy flanks suit the young ones."
   },
   {
    "q": "Where is Agnar Beastamer caring for the egg?",
@@ -61,7 +61,7 @@
     "agnar beastamer location",
     "where is agnar"
    ],
-   "answer": "Agnar looks after the egg in the Hinterlands, and that is where the meat is brought."
+   "answer": "Agnar cares for the egg in the Hinterlands, where the meat is brought."
   },
   {
    "q": "What meat does Agnar want?",
@@ -70,7 +70,7 @@
     "food for baby meat",
     "stalker flanks"
    ],
-   "answer": "Agnar wants five Silvermane stalker flanks, to feed the hatchling once it is out of its shell."
+   "answer": "Agnar wants five Silvermane stalker flanks for the hatchling."
   },
   {
    "q": "How does Elune connect to sprite darters?",
@@ -78,7 +78,7 @@
     "elune sprite darter",
     "why meat elune"
    ],
-   "answer": "Agnar never found out why darters take to meat, only that it is tied to Elune's plan for the elves, and wonders whether they were meant to be protectors."
+   "answer": "Agnar never learned why darters eat meat, only that it is tied to Elune’s plan for the elves. Agnar wonders whether they were meant to be protectors."
   },
   {
    "q": "What happens if the hatchling has no good first meal?",
@@ -86,7 +86,7 @@
     "hatchling no food",
     "will the baby survive"
    ],
-   "answer": "Agnar warns that without a good first meal it might not make it past its first week."
+   "answer": "Without a good first meal, the hatchling might not live through its first week, Agnar warns."
   }
  ],
  "angles": [],
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Food for Baby"
- ]
+ ],
+ "style": 2
 }

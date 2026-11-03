@@ -24,16 +24,16 @@
    "Torch of Retribution"
   ]
  },
- "summary": "After Set Them Ablaze!, a chest called the Hoard of the Black Dragonflight waits for you in Searing Gorge. It looks locked.",
+ "summary": "After Set Them Ablaze!, you find the Hoard of the Black Dragonflight in Searing Gorge.",
  "sections": [
   {
    "title": "A Locked Chest",
-   "body": "The Hoard of the Black Dragonflight looks to be locked, and it is yours to open. The chest comes into being once the towers of Searing Gorge are burning.",
+   "body": "The Hoard of the Black Dragonflight waits in Searing Gorge after the towers burn. The chest looks locked, and it is yours to open.",
    "spoiler": 0
   },
   {
    "title": "At Your Touch",
-   "body": "The chest gives way at your touch, with no key needed. Inside lies a black dragonflight molt. A passing thought wonders how much cheese could be in there, and the only way to learn is to look.",
+   "body": "The chest opens at your touch without a key. Inside lies a black dragonflight molt. Could there be cheese in there? The only way to know is to look.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who owns the chest",
     "trinkets chest location"
    ],
-   "answer": "A chest in Searing Gorge that appears after Set Them Ablaze!. It looks to be locked."
+   "answer": "The Hoard of the Black Dragonflight is a chest in Searing Gorge that appears after Set Them Ablaze!. It looks locked."
   },
   {
    "q": "What comes before the chest?",
@@ -54,7 +54,7 @@
     "prior quest",
     "what leads to trinkets"
    ],
-   "answer": "Set Them Ablaze!, the fire-setting against the towers of Searing Gorge."
+   "answer": "Set Them Ablaze!, when you set fire to the towers of Searing Gorge."
   },
   {
    "q": "What are you asked to do with the chest?",
@@ -63,7 +63,7 @@
     "how to open the chest",
     "what to do with the chest"
    ],
-   "answer": "Open it. The chest looks locked, but opening it is all that is asked of you."
+   "answer": "You are asked to open the chest. It looks locked, but opening it is all that is asked of you."
   }
  ],
  "angles": [],
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Trinkets..."
- ]
+ ],
+ "style": 2
 }

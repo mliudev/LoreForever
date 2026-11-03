@@ -10,16 +10,16 @@
    "quest:89"
   ]
  },
- "summary": "In Lakeshire, Iron Pike supplies are needed to repair the Everstill Bridge. The shipment from Stormwind was seized by Redridge gnolls, leaving the town short of iron.",
+ "summary": "In Lakeshire, builders need Iron Pike supplies to repair the Everstill Bridge. Redridge gnolls seized the shipment from Stormwind, leaving the town short of iron.",
  "sections": [
   {
    "title": "Stolen Caravan Cargo",
-   "body": "Lakeshire spent its metal reserves forging armor, blades, and ammunition after recent attacks by the Blackrock orcs. Builders requested more iron from Stormwind City, but Redridge gnolls hijacked the caravan on the road. They carried crates of iron pikes and rivets north into the hills, stopping repairs on the Everstill Bridge.",
+   "body": "After Blackrock orc attacks, Lakeshire spent its metal reserves on armor, blades, and ammunition. Builders then asked Stormwind City for more iron, but Redridge gnolls hijacked the caravan on the road. They took crates of iron pikes and rivets north into the hills, and work on the Everstill Bridge stopped.",
    "spoiler": 0
   },
   {
    "title": "Rebuilding the Span",
-   "body": "Foreman Oslow oversees the bridge's reconstruction and needs the stolen hardware back. Without the heavy pikes to reinforce its stone and timber frame, the bridge leaves Lakeshire partly cut off from the northern road and open to further incursions.",
+   "body": "Foreman Oslow oversees the bridge's reconstruction and needs the stolen hardware. Without the heavy pikes to strengthen its stone and timber frame, the bridge leaves Lakeshire partly cut off from the northern road. It also leaves the town open to further incursions.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "why do gnolls have iron pikes",
     "where did gnolls get iron pikes"
    ],
-   "answer": "The gnolls ambushed a supply caravan traveling from Stormwind to Lakeshire, then scattered into the Redridge hills with crates of stolen construction supplies, including iron pikes and rivets."
+   "answer": "Redridge gnolls ambushed a supply caravan traveling from Stormwind to Lakeshire. They scattered into the Redridge hills with crates of stolen construction supplies, including iron pikes and rivets."
   },
   {
    "q": "Who needs these iron pikes in Lakeshire?",
@@ -38,7 +38,7 @@
     "who wants iron pikes",
     "foreman oslow iron pikes"
    ],
-   "answer": "Foreman Oslow needs the pikes to rebuild the Everstill Bridge across Lake Everstill. Lakeshire has no spare iron after melting its reserves into weapons and armor during recent orc attacks."
+   "answer": "Foreman Oslow needs the pikes to rebuild the Everstill Bridge across Lake Everstill. Recent orc attacks forced Lakeshire to melt its iron reserves into weapons and armor, leaving no spare iron."
   },
   {
    "q": "Where can these iron pikes be recovered?",
@@ -54,17 +54,17 @@
     "why did lakeshire order iron",
     "lakeshire iron shortage"
    ],
-   "answer": "Lakeshire used its local iron supply fighting the Blackrock orcs, melting the metal into swords, bullets, and protective gear. The town had to ask Stormwind for new iron for construction."
+   "answer": "Lakeshire used its local iron supply fighting the Blackrock orcs, melting it into swords, bullets, and protective gear. The town had to ask Stormwind for new iron for construction."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, recovering the stolen supplies helps secure Lakeshire's crossings and fortify Stormwind's eastern border against Blackrock aggression."
+   "text": "As an Alliance traveler, recovering the stolen supplies helps secure Lakeshire's crossings and strengthen Stormwind's eastern border against Blackrock aggression."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you can see how war strained local smiths: all their raw iron had to go toward weapons."
+   "text": "As a blacksmith, you can see how war strained local smiths: they had to use all their raw iron for weapons."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Iron Pike",
   "The Everstill Bridge"
  ],
- "style": 1
+ "style": 2
 }

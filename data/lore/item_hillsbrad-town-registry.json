@@ -10,11 +10,11 @@
    "quest:532"
   ]
  },
- "summary": "In Hillsbrad Fields, the town hall keeps a ledger of the settlement's surviving citizens and landowners. The Hillsbrad Town Registry records civic matters, and the Forsaken seek it during their offensive against the human stronghold.",
+ "summary": "In Hillsbrad Fields, the town hall keeps the names and land rights of those who remain. The Hillsbrad Town Registry records the town's civic order, and the Forsaken seek it as they attack the human stronghold.",
  "sections": [
   {
    "title": "A Record of Defiance",
-   "body": "The Hillsbrad Town Registry records the town's people and rights. It rests in the town hall near the podium of Magistrate Burnside. From Tarren Mill, the Forsaken press to break human resistance in the foothills. Darthalia sends Horde champions into the town hall to kill the council and seize the ledger. Its records cover Hillsbrad's population, households, and administrative rights. The registry would strip the town of its civic order and give the Undercity intelligence on the surviving population and their assets.",
+   "body": "The Hillsbrad Town Registry holds the town's names and rights. It lies in the town hall near Magistrate Burnside's podium. From Tarren Mill, the Forsaken press to break human resistance in the foothills. Darthalia sends Horde champions into the hall to kill the council and seize the ledger.\n\nIts pages record Hillsbrad's population, households, and administrative rights. The Forsaken would use them to undo the town's civic order and learn about its surviving people and their assets.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is town registry",
     "find hillsbrad registry"
    ],
-   "answer": "The registry is kept in a corner of the town hall at the Hillsbrad Fields, near the stairs leading to Magistrate Burnside's platform."
+   "answer": "The Hillsbrad Town Registry is kept in a corner of the town hall in Hillsbrad Fields, near the stairs to Magistrate Burnside's platform."
   },
   {
    "q": "Why do the Forsaken want to steal it?",
@@ -35,7 +35,7 @@
     "darthalia registry quest",
     "purpose of registry"
    ],
-   "answer": "High Executor Darthalia wants to dismantle human governance in the foothills. The registry holds records of the town's citizens, households, administrative rights, and property, and would give the Forsaken intelligence on the surviving community."
+   "answer": "High Executor Darthalia seeks to dismantle human rule in the foothills. The registry records the town's citizens, households, administrative rights, and property, giving the Forsaken knowledge of the surviving community."
   },
   {
    "q": "Who guards the registry?",
@@ -49,11 +49,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, capturing the town registry helps break human authority in the foothills and secure the Forsaken stronghold at Tarren Mill."
+   "text": "For the Horde, taking the town registry helps break human authority in the foothills and secure the Forsaken stronghold at Tarren Mill."
   },
   {
    "target": "race:Human",
-   "text": "As a human, the ledger records the formal existence and rights of Hillsbrad's remaining townsfolk. Its loss would strike the regional community hard."
+   "text": "As a human, you can see the ledger records the formal existence and rights of Hillsbrad's remaining townsfolk. Its loss would strike the regional community hard."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
   "Hillsbrad Town Registry",
   "Battle of Hillsbrad (4)"
  ],
- "style": 1
+ "style": 2
 }

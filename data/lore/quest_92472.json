@@ -17,16 +17,16 @@
   "wiki": "The Next Step (Skyborne)",
   "chain": []
  },
- "summary": "Following the resolution of the immediate beast threats near Thendal Village, Elder Aetheen of the Gales directs travelers southward toward Shen'dar Village. The journey marks a shift from clearing wild fauna to confronting the organized zealotry of the Al'Aketh Cult, who revere the Windlord Al'Akir.",
+ "summary": "Elder Aetheen turns south after the beasts near Thendal Village are dealt with. The Al'Aketh Cult's zealots threaten Shen'dar Village.",
  "sections": [
   {
    "title": "Leaving Thendal Village",
-   "body": "After proving capable against the local predators and the matriarchs plaguing the northern wilderness of Zephras Isle, adventurers are called to broader duties. Elder Aetheen of the Gales recognizes that simple pest control is secondary to the true peril taking root across the island. To protect the isle's inhabitants, capable defenders must be dispatched to support the outlying settlements.",
+   "body": "Elder Aetheen of the Gales sees danger growing across Zephras Isle. The predators and matriarchs of the northern wilderness have been dealt with, but that was only the lesser trouble. Outlying settlements still need defenders.",
    "spoiler": 0
   },
   {
    "title": "The Looming Shadow of the Cult",
-   "body": "The primary danger facing southern Zephras is the Al'Aketh Cult. Described as ruthless zealots, the cultists dedicate themselves to Al'Akir the Windlord, ruler of the elemental realm of Skywall. Their growing power poses an immediate menace to Shen'dar Village. In response, Aetheen sends travelers southward down the road, past lurking ambushers in the highlands, to reinforce Constable Aonda's local guard.",
+   "body": "The Al'Aketh Cult is the chief danger in southern Zephras. Its ruthless zealots worship Al'Akir the Windlord, ruler of Skywall in the elemental realm. Their growing power threatens Shen'dar Village. Aetheen sends travelers south along the road, past ambushers in the highlands, to aid Constable Aonda's local guard.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "next hub",
     "destination"
    ],
-   "answer": "The road leads south from Thendal Village into the Shen'dar Highlands and ends at Shen'dar Village, where Constable Aonda manages the local defense."
+   "answer": "The road runs south from Thendal Village through the Shen'dar Highlands to Shen'dar Village. Constable Aonda oversees the village's defense."
   },
   {
    "q": "Who is Constable Aonda?",
@@ -46,7 +46,7 @@
     "constable aonda",
     "who is aonda"
    ],
-   "answer": "Constable Aonda is the civic and military authority maintaining order in Shen'dar Village, currently tasked with protecting the town against escalating cultist threats."
+   "answer": "Constable Aonda holds civic and military authority in Shen'dar Village. The constable keeps order and protects the village from growing cultist threats."
   },
   {
    "q": "What is the Al'Aketh Cult?",
@@ -55,7 +55,7 @@
     "al'aketh cult lore",
     "cultists"
    ],
-   "answer": "The Al'Aketh are brutal zealots on Zephras Isle who worship Al'Akir the Windlord, the elemental lord of Skywall. Their aggressive growth poses a direct threat to the island's settlements."
+   "answer": "The Al'Aketh are ruthless zealots on Zephras Isle who worship Al'Akir the Windlord, ruler of Skywall. Their growing power threatens the island's settlements."
   },
   {
    "q": "Who is Al'Akir?",
@@ -64,7 +64,7 @@
     "windlord",
     "skywall ruler"
    ],
-   "answer": "Al'Akir the Windlord is the elemental ruler of the skies and master of Skywall, revered by air elementals and worshiped fanatically by the Al'Aketh Cult."
+   "answer": "Al'Akir the Windlord rules the skies and commands Skywall. Air elementals revere him, and the Al'Aketh Cult worships him fanatically."
   },
   {
    "q": "Why does Elder Aetheen send travelers away from Thendal?",
@@ -72,7 +72,7 @@
     "why leave thendal",
     "aetheen's goal"
    ],
-   "answer": "With immediate threats around Thendal handled, Aetheen directs proven defenders to Shen'dar Village, where the Al'Aketh Cult's aggressive advances present a much larger danger to the island as a whole."
+   "answer": "With the immediate threats around Thendal handled, Aetheen sends proven defenders to Shen'dar Village. The Al'Aketh Cult's advance endangers the island far more than the troubles around Thendal."
   },
   {
    "q": "What hazards are along the road to Shen'dar Village?",
@@ -81,17 +81,17 @@
     "traveling south",
     "highland danger"
    ],
-   "answer": "The trail south passes through the Shen'dar Highlands, where Al'Aketh Ambushers and rogue cult thugs harass travelers traveling between the island's settlements."
+   "answer": "The trail south crosses the Shen'dar Highlands. Al'Aketh Ambushers and rogue cult thugs harass travelers moving between the island's settlements."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "For the Skyborne, confronting the Al'Aketh represents a direct fight against elemental fanaticism threatening the safety of their home settlements across Zephras Isle."
+   "text": "For the Skyborne, facing the Al'Aketh means fighting elemental fanaticism that threatens settlements across their home on Zephras Isle."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman will recognize the danger of mortals blindly worshiping elemental lords like Al'Akir, whose volatile nature often demands servitude rather than balance."
+   "text": "As a shaman, you know the danger of mortals blindly worshiping elemental lords like Al'Akir. His volatile nature often demands servitude rather than balance."
   }
  ],
  "keywords": [
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "The Next Step (Skyborne)"
- ]
+ ],
+ "style": 2
 }

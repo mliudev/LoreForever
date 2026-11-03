@@ -17,16 +17,16 @@
   "wiki": "Lazy Peons",
   "chain": []
  },
- "summary": "Foreman Thazz'ril sends new Horde recruits across the Valley of Trials to wake sleeping peons. Their work keeps lumber moving to Durotar's settlements.",
+ "summary": "Foreman Thazz'ril sends new Horde recruits across the Valley of Trials to rouse sleeping peons. Their labor keeps timber moving to Durotar's settlements.",
  "sections": [
   {
    "title": "Slacking in the Sun",
-   "body": "Durotar's new homes need timber, stone, and hard labor. Peons, orcs with little skill in battle, carry much of that burden and keep the Horde supplied with workers. In the Valley of Trials, the heat and grueling work leave Foreman Thazz'ril's crews seeking shade beneath trees for unauthorized naps.",
+   "body": "Durotar's new homes need timber, stone, and hard labor. Peons have little skill in battle, so they carry much of that burden and keep the Horde supplied with workers. In the Valley of Trials, heat and grueling work drive Foreman Thazz'ril's crews beneath the trees for unauthorized naps.",
    "spoiler": 0
   },
   {
    "title": "A Swift Wake-Up Call",
-   "body": "Foreman Thazz'ril gives new Horde recruits his blackjack and sends them across the valley to wake the sleeping workers. The startled peons return to chopping wood, keeping lumber flowing for Durotar's survival.",
+   "body": "Foreman Thazz'ril gives new Horde recruits his blackjack and sends them across the valley to wake the sleeping workers. Startled, the peons return to chopping wood. Their labor keeps lumber flowing for Durotar's survival.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "sleeping peons",
     "peons sleeping on job"
    ],
-   "answer": "Gathering heavy lumber under Durotar's punishing sun is exhausting work. Peons slip beneath large trees to rest when no supervisor is nearby."
+   "answer": "Hauling heavy lumber beneath Durotar's punishing sun is exhausting work. When no supervisor is near, peons slip beneath large trees to rest."
   },
   {
    "q": "Who is Foreman Thazz'ril?",
@@ -56,7 +56,7 @@
     "peon club",
     "blackjack tool"
    ],
-   "answer": "The Foreman's Blackjack is a heavy leather sap that Thazz'ril uses to discipline slacking workers. A blow to the head wakes a sleeping peon without causing permanent injury."
+   "answer": "The Foreman's Blackjack is a heavy leather sap Thazz'ril uses to discipline workers who shirk their duties. A blow to the head wakes a sleeping peon without causing permanent injury."
   },
   {
    "q": "What role do peons have in the Horde?",
@@ -65,7 +65,7 @@
     "what are peons",
     "peon caste"
    ],
-   "answer": "Peons form the laboring class of orcish society. Though physically stout, they are considered unfit for war and work instead as builders, miners, and woodcutters for Horde settlements and its war machine."
+   "answer": "Peons make up the laboring class of orcish society. Though physically stout, they are considered unfit for war and instead build, mine, and cut wood for Horde settlements and its war machine."
   },
   {
    "q": "Where do I find the sleeping peons?",
@@ -74,7 +74,7 @@
     "where are lazy peons",
     "find sleeping peons"
    ],
-   "answer": "You can find sleeping peons throughout the Valley of Trials, north and south of the Den. Look beneath the wide tree canopies where workers seek shade."
+   "answer": "You can find sleeping peons throughout the Valley of Trials, both north and south of the Den. Look beneath wide tree canopies where workers seek shade."
   },
   {
    "q": "What happens after the peons are awakened?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "As a young orc coming of age, you learn the harsh realities and practical discipline of building a nation from the wilderness by disciplining your kin's workers."
+   "text": "As a young orc coming of age, you learn the hard truths and practical discipline of building a nation from the wilderness by disciplining your kin's workers."
   },
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll training alongside your allies, you see the brute strength and managerial exasperation behind orcish construction."
+   "text": "As a Darkspear troll training alongside your allies, you see the brute strength and exasperation behind orcish construction."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you know every Durotar outpost depends on peon-harvested timber, so keeping the workers on the job matters to all."
+   "text": "As a member of the Horde, you know every Durotar outpost depends on timber harvested by peons. Keeping the workers on the job matters to all."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Lazy Peons"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Tyr's Hand Abbey"
  },
- "summary": "Tyr's Hand Abbey is a well-maintained sanctuary nestled within the fortified bastion of Tyr's Hand in the southeastern Eastern Plaguelands. Controlled by the zealots of the Scarlet Crusade, it serves as an auxiliary house of worship and study alongside the grand Scarlet Basilica.",
+ "summary": "In Tyr's Hand, the Scarlet Crusade keeps the abbey for worship and study. The fortified city stands in the southeastern Eastern Plaguelands, where the abbey supports the grand Scarlet Basilica.",
  "sections": [
   {
    "title": "Sanctuary of the Zealots",
-   "body": "While the imposing Scarlet Basilica dominates the skyline of Tyr's Hand, the abbey provides a quieter, functional center of devotion and martial doctrine for the Scarlet Crusade. Its architecture closely mirrors traditional Holy Light foundations such as Northshire Abbey in Elwynn Forest, featuring a central Main Hall flanked by a Hall of Arms and a dedicated Library Wing. Despite the relentless horrors of the Plaguelands, the Crusade maintains the abbey with meticulous care, fiercely defending its cloisters from all outsiders.",
+   "body": "Tyr's Hand Abbey gives the Scarlet Crusade a quieter place for worship and martial teaching. The Scarlet Basilica rises over the city's skyline, while the abbey follows a design familiar from Northshire Abbey in Elwynn Forest. Its Main Hall stands between the Hall of Arms and Library Wing. Though horrors plague the land, the Crusade keeps the abbey in careful repair and guards its cloisters fiercely from outsiders.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "tyrs hand abbey purpose",
     "what happens in the abbey"
    ],
-   "answer": "It serves as a secondary religious and logistical facility for the Scarlet Crusade in Tyr's Hand. While the grand Basilica hosts major ceremonies, the abbey provides living, training, and study quarters with its Hall of Arms and Library Wing."
+   "answer": "The abbey gives the Scarlet Crusade in Tyr's Hand a place to worship, live, train, and study. The grand Basilica hosts major ceremonies, while the Hall of Arms and Library Wing support its other work."
   },
   {
    "q": "Why does it look like Northshire Abbey?",
@@ -32,7 +32,7 @@
     "why does it look like northshire",
     "abbey layout"
    ],
-   "answer": "Both structures were built following standard Lordaeron and Stormwind architectural designs for Church of the Holy Light monastic compounds, dividing the building into a main assembly hall, a martial training wing, and an archive of sacred texts."
+   "answer": "Northshire Abbey and Tyr's Hand Abbey follow familiar Lordaeron and Stormwind designs for Holy Light monasteries. Each has a main assembly hall, a martial training wing, and an archive of sacred texts."
   },
   {
    "q": "Who controls the abbey right now?",
@@ -40,17 +40,17 @@
     "who owns tyrs hand abbey",
     "is scarlet crusade here"
    ],
-   "answer": "The abbey is under the total control of the Scarlet Crusade. Like the rest of the heavily fortified city of Tyr's Hand, it is fiercely defended by crusader soldiers, priests, and paladins who attack anyone not bearing their colors."
+   "answer": "The Scarlet Crusade controls the abbey. Crusader soldiers, priests, and paladins fiercely defend Tyr's Hand, attacking anyone who does not bear their colors."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For holy warriors, the abbey represents the tragic corruption of the Silver Hand's legacy: a once-hallowed place of prayer turned into a bastion of fanaticism and bloodlust."
+   "text": "For a holy warrior, Tyr's Hand Abbey shows how the Silver Hand's legacy has been corrupted. A once-hallowed place of prayer now serves fanaticism and bloodlust."
   },
   {
    "target": "class:Priest",
-   "text": "The Library Wing holds remnants of classical Holy Light doctrine, though preserved through the skewed and obsessive filter of the Scarlet Crusade."
+   "text": "The Library Wing holds remnants of classical Holy Light doctrine, preserved through the Scarlet Crusade's skewed and obsessive view."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Tyr's Hand Abbey"
- ]
+ ],
+ "style": 2
 }

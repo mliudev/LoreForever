@@ -8,16 +8,16 @@
   "wiki": "Darkmaster Gandling",
   "refs": 2
  },
- "summary": "Darkmaster Gandling is the mortal headmaster of Scholomance, overseeing the instruction and training of necromancers for the Cult of the Damned. Operating from the depths of the ruined Keep of Caer Darrow, he serves the Scourge by orchestrating gruesome magical experiments upon the living and dead alike.",
+ "summary": "Beneath Caer Darrow, Darkmaster Gandling trains necromancers for the Scourge. From Scholomance, he serves the Cult of the Damned through experiments on the living and the dead.",
  "sections": [
   {
    "title": "The Headmaster's Domain",
-   "body": "Within the dark halls beneath Caer Darrow, Darkmaster Gandling governs Scholomance, the premier academy for the Scourge's aspiring necromancers. A living human serving the Cult of the Damned, Gandling worked alongside the lich Ras Frostwhisper to orchestrate atrocities against countless innocent captives taken from the surrounding lands. Students who enter his classrooms are instructed in plague brewing, reanimation, and flesh sculpting.",
+   "body": "Darkmaster Gandling rules Scholomance beneath Caer Darrow. The academy trains aspiring necromancers for the Scourge. Gandling is a living human of the Cult of the Damned. With the lich Ras Frostwhisper, he committed atrocities against innocent captives taken from the surrounding lands. In the classrooms, students learn to brew plagues, reanimate the dead, and sculpt flesh.",
    "spoiler": 0
   },
   {
    "title": "Master of the Reliquary",
-   "body": "Residing deep within the Headmaster's Study, Gandling commands the dark relics and spirits trapped inside the ancient school. He wields devastating arcane and shadow magic in conjunction with forbidden necromantic arts, cursing intruders and hurling them through shadow portals into the sealed chambers surrounding his study, where they must fight alone against the risen dead while Gandling shields himself from harm.",
+   "body": "In the Headmaster's Study, Gandling commands Scholomance's dark relics and trapped spirits. He joins arcane and shadow magic with forbidden necromancy. With these arts, he curses intruders and hurls them through shadow portals into sealed chambers around the study. There, they face the risen dead alone while Gandling shields himself from harm.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "darkmaster gandling lore",
     "scholomance boss"
    ],
-   "answer": "Darkmaster Gandling is a human necromancer belonging to the Cult of the Damned. He acts as the headmaster of Scholomance, running the dark school and training new necromancers to serve the Lich King."
+   "answer": "Darkmaster Gandling runs Scholomance, where he trains necromancers to serve the Lich King. He is a human of the Cult of the Damned."
   },
   {
    "q": "Is Gandling an undead or a living human?",
@@ -38,7 +38,7 @@
     "is gandling alive",
     "gandling race"
    ],
-   "answer": "Despite his mastery of death magic and allegiance to the Scourge, Gandling remains a living human mortal. He leads mortal acolytes and cultists within Scholomance, serving the Scourge willingly."
+   "answer": "Gandling is a living human mortal, though he commands death magic and serves the Scourge. He leads mortal acolytes and cultists within Scholomance."
   },
   {
    "q": "What is his connection to Ras Frostwhisper?",
@@ -46,7 +46,7 @@
     "frostwhisper gandling",
     "ras frostwhisper teacher"
    ],
-   "answer": "Ras Frostwhisper was Gandling's teacher. Together, the human headmaster and the powerful lich presided over Scholomance's dark instruction and supervised the horrors committed against innocent souls such as the Sarkhoffs within Caer Darrow."
+   "answer": "Ras Frostwhisper taught Gandling. The human headmaster and the powerful lich presided over Scholomance's dark instruction and oversaw horrors against innocent souls such as the Sarkhoffs within Caer Darrow."
   },
   {
    "q": "Where is Darkmaster Gandling found?",
@@ -55,17 +55,17 @@
     "where is gandling",
     "how to find gandling"
    ],
-   "answer": "Gandling resides in the Headmaster's Study at the very bottom of Scholomance, accessible through the catacombs beneath Caer Darrow in Darrowmere Lake."
+   "answer": "Gandling resides in the Headmaster's Study at the bottom of Scholomance. The catacombs beneath Caer Darrow in Darrowmere Lake lead to it."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Gandling represents the ultimate corruption of Dalaran's scholarly traditions, twisting academic rigor into a horrifying factory of undeath."
+   "text": "As a Mage, you may see Gandling twisting Dalaran's scholarly traditions toward the making of undeath."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Gandling is a hated overseer of Scourge indoctrination who binds free souls into eternal enslavement beneath Caer Darrow."
+   "text": "As an Undead, you may see Gandling as a hated overseer of Scourge indoctrination. Beneath Caer Darrow, he binds free souls into eternal enslavement."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Darkmaster Gandling"
- ]
+ ],
+ "style": 2
 }

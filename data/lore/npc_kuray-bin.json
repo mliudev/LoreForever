@@ -8,11 +8,11 @@
   "wiki": "Kuray'bin",
   "refs": 1
  },
- "summary": "Kuray'bin watches the forest trails outside Splintertree Post in Ashenvale. The Darkspear scout guards the Horde encampment from night elf scouts.",
+ "summary": "Outside Splintertree Post, Kuray'bin keeps watch over Ashenvale's forest trails. The Darkspear scout guards the Horde encampment from night elf scouts.",
  "sections": [
   {
    "title": "Eyes on the Forest Edge",
-   "body": "Outside Splintertree Post, Kuray'bin watches the forest for Alliance scouts. Silverwing Sentinels patrol the canopy and send swift outrunners across the border. Their task is to gather intelligence on Horde lumber operations and defenses. Kuray'bin sends Horde fighters to hunt the outrunners before they can report to Silverwing Outpost, since scouts left unchecked can become an ambushing force.",
+   "body": "Kuray'bin watches the forest outside Splintertree Post for Alliance scouts. Silverwing Sentinels patrol the canopy and send swift outrunners across the border. They gather intelligence on Horde lumber operations and defenses. Kuray'bin sends Horde fighters after the outrunners before they can report to Silverwing Outpost. Left unchecked, the scouts can become an ambushing force.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "why kill outrunners",
     "ashenvale outrunners quest lore"
    ],
-   "answer": "Silverwing Outrunners are Silverwing Sentinels scouting close to Splintertree Post. Kuray'bin wants them stopped before they can gather intelligence on Horde positions or coordinate surprise attacks."
+   "answer": "Silverwing Outrunners are Silverwing Sentinels scouting near Splintertree Post. Kuray'bin wants them stopped before they gather intelligence on Horde positions or coordinate surprise attacks."
   },
   {
    "q": "Does Kuray'bin offer any other tasks?",
@@ -48,7 +48,7 @@
     "kuraybin quests",
     "kuray bin task"
    ],
-   "answer": "No. Kuray'bin's duty at the outpost perimeter is to oversee the effort against the night elf outrunners."
+   "answer": "No. Kuray'bin oversees the effort against the night elf outrunners at the outpost perimeter."
   }
  ],
  "angles": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Kuray'bin"
  ],
- "style": 1
+ "style": 2
 }

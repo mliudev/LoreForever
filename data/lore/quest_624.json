@@ -24,16 +24,16 @@
    "Cortello's Riddle"
   ]
  },
- "summary": "A hidden parchment found aboard the Bloodsail Buccaneer vessels along the Wild Shore presents Cortello's cryptic verse. Deciphering the poem points travelers toward a clue waiting beneath an ornate bridge.",
+ "summary": "A parchment bearing Cortello's Riddle turns up aboard Bloodsail Buccaneer vessels along the Wild Shore. Its verse sends you toward a clue beneath an ornate bridge.",
  "sections": [
   {
    "title": "A Buccaneer's Riddle",
-   "body": "Scattered notes aboard the Bloodsail fleet anchored off the southern coast of Stranglethorn Vale carry a rhyme. Cortello's verse describes a finely worked, much-used bridge that lies east of Deadwind and south of Redridge. Anyone seeking to unravel the mystery must follow these poetic directions out of the jungle and into the marshes to find what waits underneath.",
+   "body": "Bloodsail Buccaneers anchored off Stranglethorn Vale's southern coast carry scattered notes with a rhyme. Cortello's verse describes a finely worked bridge, worn by many travelers. It lies east of Deadwind and south of Redridge. Follow the directions out of the jungle and into the marshes, where something waits below.",
    "spoiler": 0
   },
   {
    "title": "The Marsh Crossing",
-   "body": "Following the verse leads to the murky waters beneath an ornate bridge spanning the Swamp of Sorrows. Resting under the bridge lies a soggy parchment, waiting to reveal the next step in Cortello's puzzle.",
+   "body": "The verse leads beneath an ornate bridge spanning the Swamp of Sorrows. In the murky water below lies a soggy parchment with the next step in Cortello's puzzle.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "cortellos riddle start location",
     "where is cortello's riddle found"
    ],
-   "answer": "The riddle begins with a scrap of parchment found around the Bloodsail Buccaneers' fleet at anchor off the Wild Shore, south of Booty Bay."
+   "answer": "The mystery begins with a scrap of parchment among the Bloodsail Buccaneers' fleet, anchored off the Wild Shore south of Booty Bay."
   },
   {
    "q": "What location is described in the riddle?",
@@ -54,7 +54,7 @@
     "where is the riddle pointing",
     "bridge east of deadwind south of redridge"
    ],
-   "answer": "The rhyme points to a well-traveled, ornate bridge located in the Swamp of Sorrows, situated east of Deadwind Pass and south of the Redridge Mountains."
+   "answer": "The rhyme describes a well-traveled, ornate bridge in the Swamp of Sorrows, east of Deadwind Pass and south of the Redridge Mountains."
   },
   {
    "q": "What are you searching for beneath the bridge?",
@@ -63,7 +63,7 @@
     "cortello clue under bridge",
     "what is under the bridge"
    ],
-   "answer": "The riddle says something waits underneath the bridge, a hint or a clue that lies there for endless tomorrows."
+   "answer": "The riddle points to a hint waiting beneath the bridge."
   },
   {
    "q": "Who wrote the riddle?",
@@ -72,7 +72,7 @@
     "cortello lore",
     "who made cortello's riddle"
    ],
-   "answer": "The riddle goes by Cortello's name, though the parchment says nothing more about who he was."
+   "answer": "The riddle bears Cortello's name, but the parchment says nothing more about who he was."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Cortello's Riddle (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Felfire Hill"
  },
- "summary": "In eastern Ashenvale, Felfire Hill remains a blighted rise crawling with demons. Infernals struck it during the Third War, and its soil still burns with fel power. Horde guards hold the bridges leading to the hill, near their settlements.",
+ "summary": "In eastern Ashenvale, demons still crawl across the blighted rise of Felfire Hill. Infernals struck there during the Third War, and fel power still burns in the soil. Horde guards hold the bridges to the hill near their settlements.",
  "sections": [
   {
    "title": "A Scar of the Burning Legion",
-   "body": "During the Third War, the Burning Legion sent flaming meteors across Kalimdor, carrying its fearsome infernals. Several struck this ridge in Ashenvale, burning away the ancient woodland and corrupting the earth. The Legion fell at Mount Hyjal, but demons that survived its defeat still prowl the scorched slopes. Fel energy saturates the land they haunt.",
+   "body": "During the Third War, the Burning Legion sent flaming meteors across Kalimdor, carrying fearsome infernals. Several struck this ridge in Ashenvale. Their fires burned away the ancient woodland and corrupted the earth. The Legion fell at Mount Hyjal, yet demons that survived its defeat still prowl the scorched slopes. Fel energy saturates the land they haunt.",
    "spoiler": 0
   },
   {
    "title": "Guarding the Crossings",
-   "body": "Felfire Hill lies southeast of Splintertree Post and southwest of the Warsong Lumber Camp, close to vital Horde operations. Demonic remnants threaten to spill into the surrounding forest. Horde forces have raised fortified barricades and guard towers at both bridges leading to the hill, keeping the creatures within their blighted haven.",
+   "body": "Felfire Hill lies southeast of Splintertree Post and southwest of the Warsong Lumber Camp, near vital Horde operations. Demonic remnants threaten to spill into the surrounding forest. So Horde forces raised fortified barricades and guard towers at both bridges leading to the hill. The guards keep the creatures within their blighted haven.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "felfire hill lore",
     "what happened to felfire hill"
    ],
-   "answer": "During the Third War, infernals of the Burning Legion rained from the sky and struck Felfire Hill. Their impact and the fel contamination burned away the elven forest, leaving scarred rock and demonic energies that never dispersed."
+   "answer": "During the Third War, fearsome infernals of the Burning Legion rained from the sky and struck Felfire Hill. Their impact and fel contamination burned away the elven forest, leaving scarred rock and demonic energies that never dispersed."
   },
   {
    "q": "What creatures live on Felfire Hill?",
@@ -52,17 +52,17 @@
     "dor danil felfire hill",
     "barrow den demons"
    ],
-   "answer": "Felfire Hill lies menacingly northeast of the Dor'Danil Barrow Den, on ground once part of Ashenvale's sacred forest. Its spreading demonic taint and roaming fiends endanger the nearby slumbering grounds and surrounding wildlands."
+   "answer": "Felfire Hill lies northeast of the Dor'Danil Barrow Den, on ground once part of Ashenvale's sacred forest. Its spreading demonic taint and roaming fiends endanger the nearby slumbering grounds and surrounding wildlands."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde holds the fortified bridges around Felfire Hill to protect the transit road between Splintertree Post and the Warsong Lumber Camp from demonic raids."
+   "text": "As Horde, you hold the fortified bridges around Felfire Hill to protect the transit road between Splintertree Post and the Warsong Lumber Camp from demonic raids."
   },
   {
    "target": "class:Warlock",
-   "text": "Fel energy lingers on the ridge where the Legion's infernals landed, drawing the dangerous curiosity of those who practice dark magic."
+   "text": "As a warlock, you may feel dangerous curiosity about the fel energy lingering on the ridge where the Legion's infernals landed."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Felfire Hill"
  ],
- "style": 1
+ "style": 2
 }

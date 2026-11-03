@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Darrow Hill"
  },
- "summary": "In northern Hillsbrad, Darrow Hill's rugged grassland rises beneath the Headland. Mountain lions and stags roam its open slopes, while feral yetis lurk in the Foothill Caverns. Alterac Granite draws travelers into this dangerous frontier.",
+ "summary": "In northern Hillsbrad, Darrow Hill's rugged grassland rises beneath the Headland. Mountain lions and stags cross its open slopes, while feral yetis haunt the Foothill Caverns. Alterac Granite draws travelers into this dangerous frontier.",
  "sections": [
   {
    "title": "A Treacherous Frontier",
-   "body": "Darrow Hill stretches below the Headland, joining southern Hillsbrad's rolling pasture to Alterac's jagged, colder heights. Mountain lions and stags move through tall grasses on its rocky slopes, and towering yetis emerge from the Foothill Caverns. The cavern walls hold deposits of dense Alterac Granite, drawing quarry workers, miners, and adventurers into danger. Regional claims remain contentious, and travelers of either faction can be caught unaware on the trails.",
+   "body": "Below the Headland, Darrow Hill's rocky slopes join southern Hillsbrad's rolling pasture to Alterac's colder, jagged heights. Mountain lions and stags move through the tall grass, while towering yetis emerge from the Foothill Caverns.\n\nThe cavern walls hold dense Alterac Granite, drawing quarry workers, miners, and adventurers into danger. Regional claims remain contentious, and travelers of either faction may be caught unaware on the trails.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "darrow hill cave",
     "what is in the cave"
    ],
-   "answer": "Feral yetis infest the Foothill Caverns, whose rocky walls hold veins of Alterac Granite prized by those who seek it."
+   "answer": "Feral yetis infest the Foothill Caverns, whose rocky walls hold veins of Alterac Granite sought by those who mine it."
   },
   {
    "q": "Why is this area considered so dangerous for travelers?",
@@ -79,5 +79,5 @@
  "attribution": [
   "Darrow Hill"
  ],
- "style": 1
+ "style": 2
 }

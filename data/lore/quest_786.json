@@ -17,16 +17,16 @@
   "wiki": "Thwarting Kolkar Aggression",
   "chain": []
  },
- "summary": "Lar Prowltusk has found invasion plans in Kolkar Crag, west of Sen'jin Village. The Kolkar centaurs plan to strike Durotar's settlements and Orgrimmar.",
+ "summary": "Lar Prowltusk has uncovered a plan to strike Durotar's settlements and Orgrimmar. The Kolkar centaurs have divided the invasion plans among three leaders at Kolkar Crag, west of Sen'jin Village.",
  "sections": [
   {
    "title": "A Looming Invasion",
-   "body": "Lar Prowltusk, a troll tracker scouting western Durotar, slipped into Kolkar Crag under cover of night. There he found the Kolkar centaurs planning more than scattered coastal raids. Three centaur leaders had divided the invasion plans among them, with attacks aimed at the Valley of Trials, Sen'jin Village, and the gates of Orgrimmar.",
+   "body": "Lar Prowltusk is a troll tracker scouting western Durotar. Under cover of night, he slipped into Kolkar Crag and found the Kolkar centaurs preparing more than scattered coastal raids. Three leaders hold the invasion plans. Their targets are the Valley of Trials, Sen'jin Village, and the gates of Orgrimmar.",
    "spoiler": 0
   },
   {
    "title": "Striking the Canyons",
-   "body": "You are sent into Kolkar Crag to destroy the three attack scrolls before the centaurs can strike. The dry canyons hold their camps, and each scroll belongs to a different leader. Lar Prowltusk believes the Horde would defeat a full invasion, but burning the plans can spare Durotar's defenders costly fighting while their young nation finds its footing.",
+   "body": "The Kolkar leaders hold three attack scrolls in their camps in the dry canyons of Kolkar Crag. You are sent to destroy the scrolls before the centaurs can strike. Lar Prowltusk believes the Horde could defeat a full invasion, but burning the plans can spare Durotar's defenders costly fighting as their young nation finds its footing.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives quest",
     "lar prowltusk location"
    ],
-   "answer": "Lar Prowltusk, a Darkspear troll scout, offers the work just outside Sen'jin Village along Durotar's southern bluffs."
+   "answer": "Lar Prowltusk, a Darkspear troll scout, offers the work just outside Sen'jin Village, along Durotar's southern bluffs."
   },
   {
    "q": "What targets are the Kolkar centaur planning to attack?",
@@ -65,7 +65,7 @@
     "where are scrolls",
     "centaur leaders"
    ],
-   "answer": "Three separate Kolkar leaders hold the invasion scrolls at campsites throughout the crag."
+   "answer": "Three Kolkar leaders hold the invasion scrolls at campsites throughout the crag."
   },
   {
    "q": "Why do the Kolkar want to invade Durotar?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Stopping the Kolkar offensive spares the young Horde an exhausting, multi-front fight at the threshold of its new home."
+   "text": "Stopping the Kolkar offensive spares the young Horde an exhausting fight on several fronts at the threshold of its new home."
   },
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, you know Sen'jin Village cannot fall to centaur attack after your people lost their ancient island home."
+   "text": "As a Darkspear troll, you know Sen'jin Village cannot fall to a centaur attack after your people lost their ancient island home."
   },
   {
    "target": "race:Orc",
@@ -122,5 +122,5 @@
  "attribution": [
   "Thwarting Kolkar Aggression"
  ],
- "style": 1
+ "style": 2
 }

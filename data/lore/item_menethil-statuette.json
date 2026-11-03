@@ -15,12 +15,12 @@
  "sections": [
   {
    "title": "A Rare Relic of Lordaeron",
-   "body": "King Terenas Menethil II appears in his youth, a long-haired paladin lifting a hammer toward the heavens. He was humble and disliked personal monuments, so few statues or likenesses were made in his honor. The Scourge's fall of Lordaeron destroyed almost all of them. This surviving effigy is extraordinarily valuable to the Alliance.",
+   "body": "King Terenas Menethil II is shown as a young paladin, long-haired, with his hammer raised toward the heavens. Humble in life, he disliked monuments to himself, and few likenesses were made in his honor. When the Scourge brought down Lordaeron, almost all those likenesses were destroyed. This surviving effigy is precious to the Alliance.",
    "spoiler": 0
   },
   {
    "title": "Loss in the Bogs",
-   "body": "The Blind Princess carried the statuette toward the Alliance harbor of Menethil. Bluegill murlocs attacked the merchant vessel off the marshy coast, scattering its cargo. The statuette became trapped in a half-buried barrel on shore. With Dragonmaw orcs and other local threats nearby, defenders hurried to send the recovered icon south to Stormwind City. There, Highlord Bolvar Fordragon entrusted it to the Cathedral of Light.",
+   "body": "The Blind Princess was carrying the statuette toward the Alliance harbor of Menethil when Bluegill murlocs attacked off the marshy coast. The assault scattered the merchant vessel's cargo, and the statuette came to rest in a half-buried barrel on shore.\n\nDragonmaw orcs and other local threats remained nearby, so defenders hurried the recovered icon south to Stormwind City. There, Highlord Bolvar Fordragon entrusted it to the Cathedral of Light.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what does the statuette depict",
     "who is the menethil statuette"
    ],
-   "answer": "The statuette depicts King Terenas Menethil II, former ruler of Lordaeron and architect of the original Alliance. He appears as a young paladin, raising a warhammer."
+   "answer": "The statuette shows King Terenas Menethil II, former ruler of Lordaeron and architect of the original Alliance. He appears as a young paladin raising a warhammer."
   },
   {
    "q": "How was the statuette lost?",
@@ -41,7 +41,7 @@
     "who lost the statuette",
     "shipwreck wetlands statue"
    ],
-   "answer": "The merchant vessel Blind Princess carried it across the Great Sea. Bluegill murlocs attacked the ship in the Wetlands, and its cargo washed ashore and was buried in the mud."
+   "answer": "The Blind Princess carried the statuette across the Great Sea. Bluegill murlocs attacked the ship in the Wetlands, and its cargo washed ashore and was buried in the mud."
   },
   {
    "q": "Why are depictions of King Terenas so rare?",
@@ -49,7 +49,7 @@
     "why are there few statues of terenas",
     "terenas memorials"
    ],
-   "answer": "King Terenas disliked self-aggrandizing memorials, so few statues of him were made. The Scourge's devastation of Lordaeron destroyed almost all the portraits and figures that remained in the north."
+   "answer": "King Terenas disliked memorials that praised himself, so few statues of him were made. The Scourge's devastation of Lordaeron destroyed almost all the portraits and figures that remained in the north."
   },
   {
    "q": "Where does the statuette end up?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you see King Terenas as a young warrior of the Light, raising his hammer. His portrait speaks to holy knights who mourn the fallen kingdom."
+   "text": "As a paladin, you see King Terenas as a young warrior of the Light, his hammer raised. His portrait speaks to holy knights who mourn the fallen kingdom."
   },
   {
    "target": "faction:Alliance",
@@ -96,5 +96,5 @@
   "A Friend of the Family",
   "A Friend of the Family (2)"
  ],
- "style": 1
+ "style": 2
 }

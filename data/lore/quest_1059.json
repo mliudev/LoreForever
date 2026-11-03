@@ -20,16 +20,16 @@
    "Reclaiming the Charred Vale (2)"
   ]
  },
- "summary": "Keeper Albagorm seeks help for the Charred Vale from far to the south. The Bloodfury harpies have been driven back for now, but the wounded land needs more than force to heal.",
+ "summary": "Far to the south, Keeper Albagorm looks for help to restore the Charred Vale. The Bloodfury harpies have been driven back for now, but force alone cannot heal the wounded land.",
  "sections": [
   {
    "title": "The Scars of the Vale",
-   "body": "The Charred Vale lies beneath ash in southern Stonetalon Mountains, scarred by terrible destruction. Alliance forces under Keeper Albagorm have driven the Bloodfury harpies from their nests in the ruins, but their retreat may not last. Albagorm knows that force can only hold the harpies back. The ravaged earth must be healed before they return and take the Vale again.",
+   "body": "Ash covers the Charred Vale in southern Stonetalon Mountains, where terrible destruction has scarred the land. Alliance forces under Keeper Albagorm drove the Bloodfury harpies from their nests in the ruins, but the harpies may return. Force can only hold them back. The ravaged earth must heal before they come back to claim the Vale.",
    "spoiler": 0
   },
   {
    "title": "A Plea to the South",
-   "body": "The grove tenders need help beyond their own means to restore the scorched land. Albagorm sends you south, past the salt flats and canyons of Thousand Needles, to Thalanaar on the border of Feralas. Falfindel Waywarder waits there. The night elf druid is known for a rare gift: calling on ancient forest spirits to bring life back to dead soil.",
+   "body": "The grove tenders cannot restore the scorched land alone. So Keeper Albagorm sends you south, past the salt flats and canyons of Thousand Needles, to Thalanaar on the border of Feralas. Falfindel Waywarder waits there. The night elf druid is known for a rare gift: calling ancient forest spirits to bring life back to dead soil.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who is albagorm",
     "keeper albagorm"
    ],
-   "answer": "Keeper Albagorm is a keeper of the grove at Stonetalon Peak. He oversees Alliance efforts to cleanse and restore the blighted Charred Vale."
+   "answer": "Keeper Albagorm tends the grove at Stonetalon Peak. He oversees Alliance efforts to cleanse and restore the blighted Charred Vale."
   },
   {
    "q": "Where is Falfindel Waywarder located?",
@@ -57,7 +57,7 @@
     "why go to feralas",
     "why falfindel"
    ],
-   "answer": "Keeper Albagorm believes Falfindel can summon ancient forest spirits powerful enough to heal the deep damage in the Charred Vale."
+   "answer": "Keeper Albagorm believes Falfindel can summon ancient forest spirits strong enough to heal the deep damage in the Charred Vale."
   },
   {
    "q": "What threat resides in the Charred Vale?",
@@ -73,7 +73,7 @@
     "is this quest hard",
     "combat in charred vale quest"
    ],
-   "answer": "No combat is required. You carry Albagorm's message across central and southern Kalimdor."
+   "answer": "No combat is required. You carry Keeper Albagorm's message across central and southern Kalimdor."
   },
   {
    "q": "How do you reach Thousand Needles from Stonetalon?",
@@ -81,7 +81,7 @@
     "how to get to thousand needles",
     "travel route to feralas"
    ],
-   "answer": "From Stonetalon Mountains, travel east into the Barrens, then south along the Gold Road. Take the Great Lift down into Thousand Needles and continue west toward Feralas."
+   "answer": "From Stonetalon Mountains, travel east into the Barrens, then south along the Gold Road. Take the Great Lift down into Thousand Needles, then continue west toward Feralas."
   }
  ],
  "angles": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Reclaiming the Charred Vale (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Terrordale"
  },
- "summary": "Terrordale is a ruined, ghost-haunted settlement nestled in the northwestern edge of the Eastern Plaguelands. Bordered by the blighted Plaguewood and the arachnid-infested Terrorweb Tunnel, the ruined town swarms with the Scourge and the restless dead.",
+ "summary": "Terrordale’s streets lie in ruin beneath restless dead, beside Plaguewood and Terrorweb Tunnel. In the northwestern Eastern Plaguelands, Scourge horrors and tormented spirits haunt what remains.",
  "sections": [
   {
    "title": "A Haunted Haven on the Wood's Edge",
-   "body": "Once a quiet settlement in northern Lordaeron, Terrordale fell along with the rest of the kingdom to the Scourge. Today, the village stands in grim ruin near the mouth of the Terrorweb Tunnel. Its streets are choked with restless shades and wandering undead, while the surrounding trees of the Plaguewood encroach on its rotten timber. Amidst the desolation, only a handful of eccentric residents dare remain—such as the peculiar merchant Augustus the Touched and the ghost hunter Egan, who attempts to free the tortured spirits caught between worlds.",
+   "body": "Terrordale fell to the Scourge with the rest of Lordaeron. Near Terrorweb Tunnel’s mouth, restless shades and wandering undead fill the ruined village streets. Plaguewood’s trees press against its rotting timber. A few eccentric residents still dare to stay. Augustus the Touched is a peculiar merchant, while Egan hunts ghosts and seeks to free the tortured spirits caught between worlds.",
    "spoiler": 0
   },
   {
    "title": "Spiritual Disturbance and Exorcism",
-   "body": "The anguish of Terrordale's demise ran so deep that the physical world literally buckles beneath the torment of the spirit realm. Terrordale spirits linger in perpetual agony, bound to the earth by their tragic ends. Because of this concentrated spiritual corruption, seasoned paladins under the guidance of the Silver Hand and Lord Grayson Shadowbreaker are dispatched here to perform rites of judgment and sacrifice, banishing the torment as a sacred trial of holy discipline.",
+   "body": "Terrordale’s spirits remain in agony, bound to the earth by their tragic ends. Their anguish disturbs the spirit realm so deeply that the physical world buckles beneath it. Seasoned paladins come under the guidance of the Silver Hand and Lord Grayson Shadowbreaker. Through rites of judgment and sacrifice, they seek to banish the torment. The work tests their holy discipline.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this town",
     "terrordale lore"
    ],
-   "answer": "Terrordale is an abandoned, ruined hamlet in the northwestern Eastern Plaguelands. Located just west of the Plaguewood and south of the Terrorweb Tunnel, it is thoroughly overrun by Scourge horrors and tormented ghosts."
+   "answer": "Terrordale lies in the northwestern Eastern Plaguelands, a ruined hamlet west of Plaguewood and south of Terrorweb Tunnel. Scourge horrors and tormented ghosts overrun it."
   },
   {
    "q": "Who are the people still in the town?",
@@ -37,7 +37,7 @@
     "who is augustus",
     "living npcs in terrordale"
    ],
-   "answer": "Two eccentric figures linger among the ruins: Egan, an intrepid ghost hunter trying to pacify and free the trapped spirits, and Augustus the Touched, a half-mad undead hermit and merchant obsessed with recovering his old ledgers and possessions."
+   "answer": "Two eccentric figures linger among Terrordale’s ruins. Egan hunts ghosts and tries to pacify and free the trapped spirits. Augustus the Touched is a half-mad undead hermit and merchant, intent on recovering his old ledgers and possessions."
   },
   {
    "q": "What connects this town to the paladin trials?",
@@ -46,17 +46,17 @@
     "exorcising terrordale",
     "lord grayson shadowbreaker"
    ],
-   "answer": "Lord Grayson Shadowbreaker sends paladins seeking to bond with their holy warhorse charger to Terrordale. Paladins must use an exorcism censer to banish the tormented spirits here, demonstrating the spiritual resolve, judgment, and sacrifice required of an elite knight of the Light."
+   "answer": "Lord Grayson Shadowbreaker sends paladins seeking to bond with their holy warhorse charger to Terrordale. They use an exorcism censer to banish the tormented spirits. The trial proves the spiritual resolve, judgment, and sacrifice required of an elite knight of the Light."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Terrordale serves as a crucial trial ground for veteran paladins; Lord Grayson Shadowbreaker requires candidates for the charger steed to venture into the ruined hamlet to exorcise its weeping spirits."
+   "text": "As a paladin, you face a trial in Terrordale. Lord Grayson Shadowbreaker sends candidates for the charger steed into the ruined hamlet to exorcise its weeping spirits."
   },
   {
    "target": "race:Human",
-   "text": "The broken houses of Terrordale offer a sobering reminder of northern Lordaeron's fall, where common citizens' spirits remain trapped in death within their own front yards."
+   "text": "As a human, Terrordale’s broken houses recall the fall of northern Lordaeron. Common citizens’ spirits remain trapped in death in their own front yards."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Terrordale"
- ]
+ ],
+ "style": 2
 }

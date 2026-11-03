@@ -11,16 +11,16 @@
    "quest:269"
   ]
  },
- "summary": "Jitters gives up his completed journal, hoping to clear his name and expose the sinister forces haunting Duskwood. The reclusive man fears Sven Yorgen's vengeance after fleeing the massacre at Sven's farm.",
+ "summary": "In Duskwood, Jitters gives up his completed journal and hopes it will clear his name. He fears Sven Yorgen's vengeance after fleeing the massacre at Sven's farm.",
  "sections": [
   {
    "title": "A Coward's Confession",
-   "body": "Jitters fled Sven's farm when it was attacked, leaving his half-finished diary among the ruins. In the completed journal, he recounts how mysterious dark riders slaughtered Sven's family. For weeks, the pages were his only comfort as he hid in Duskwood. Now he gives the finished volume over willingly, hoping the truth will spare him Sven's furious wrath.",
+   "body": "Jitters fled Sven's farm when the attack began, leaving his half-finished diary in the ruins. In the completed journal, he recounts how mysterious dark riders slaughtered Sven's family. For weeks, its pages were his only comfort while he hid in Duskwood. Now he gives the finished volume willingly, hoping the truth will spare him Sven's fury.",
    "spoiler": 1
   },
   {
    "title": "Unraveling the Darkness",
-   "body": "The journal leads Sven to share what he has seen: black-cloaked riders speaking with the wizard Morbent Fel at the Forlorn Rowe. Sven sends the manuscript north with travelers to the Cathedral of Light in Stormwind. Bishop Farthing reads Jitters' account to learn about the vile taint in Duskwood, then uses its revelations to help craft a holy weapon that can pierce Fel's dark wards.",
+   "body": "The journal leads Sven to speak of black-cloaked riders he saw talking with the wizard Morbent Fel at the Forlorn Rowe. Sven sends the manuscript north with travelers bound for the Cathedral of Light in Stormwind. There, Bishop Farthing reads Jitters' account to learn of Duskwood's vile taint. Its revelations help him craft a holy weapon that can pierce Fel's dark wards.",
    "spoiler": 1
   }
  ],
@@ -65,11 +65,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, bringing the journal to Bishop Farthing at the Cathedral of Light puts you in service to cleanse unholy defilement through holy relics."
+   "text": "As a priest, you bring the journal to Bishop Farthing at the Cathedral of Light and serve the cleansing of unholy defilement through holy relics."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, the journal shows how far Duskwood has fallen into peril while Stormwind's leaders focus elsewhere."
+   "text": "As an Alliance member, you see how far Duskwood has fallen into peril while Stormwind's leaders focus elsewhere."
   }
  ],
  "keywords": [
@@ -98,5 +98,5 @@
   "Return to Sven",
   "Seeking Wisdom"
  ],
- "style": 1
+ "style": 2
 }

@@ -24,11 +24,11 @@
    "Sunken Treasure"
   ]
  },
- "summary": "Fleet Master Seahorn, whose ships cannot sail from Booty Bay until they restock, asks you to carry a secret letter to Shakes O'Breen, busy off the Arathi coast.",
+ "summary": "Fleet Master Seahorn waits in Booty Bay with a letter for Shakes O'Breen off the Arathi coast. His ships cannot sail until they restock.",
  "sections": [
   {
    "title": "A Letter for O'Breen",
-   "body": "Fleet Master Seahorn sizes you up as the adventurous sort. His ships cannot leave Booty Bay until they have restocked, and he says heavy things are brewing both here and abroad. He needs top secret correspondence carried to Shakes O'Breen off the Arathi coast, and he asks whether he can trust you to deliver the message safely and in confidence.",
+   "body": "Fleet Master Seahorn sees an adventurer in you. His ships must restock before they can leave Booty Bay. Heavy things are brewing here and abroad, he says, and he has a secret letter for Shakes O'Breen off the Arathi coast. Can he trust you to deliver it safely and keep it confidential?",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "why can't seahorn leave booty bay",
     "why is fleet master seahorn stuck"
    ],
-   "answer": "His ships cannot sail from Booty Bay until they have restocked."
+   "answer": "His ships cannot sail from Booty Bay until they restock."
   },
   {
    "q": "Where is Shakes O'Breen located?",
@@ -57,7 +57,7 @@
     "shakes obreen location",
     "where is shakes"
    ],
-   "answer": "Off the coast of the Arathi Highlands, where Seahorn says he is busy."
+   "answer": "Shakes O'Breen is busy off the coast of the Arathi Highlands."
   },
   {
    "q": "What came before this delivery?",
@@ -65,7 +65,7 @@
     "sunken treasure chain",
     "what quest comes before sunken treasure 5"
    ],
-   "answer": "It follows the fourth part of Sunken Treasure."
+   "answer": "This delivery follows the fourth part of Sunken Treasure."
   }
  ],
  "angles": [],
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Sunken Treasure (5)"
- ]
+ ],
+ "style": 2
 }

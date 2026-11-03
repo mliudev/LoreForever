@@ -8,7 +8,7 @@
   "wiki": "Kzan Thornslash",
   "refs": 1
  },
- "summary": "In the Valley of Trials, Kzan Thornslash supplies weapons to new Horde recruits. He is an orc merchant in Durotar.",
+ "summary": "In the Valley of Trials, Kzan Thornslash equips new Horde recruits for their first trials. The orc merchant supplies weapons in Durotar.",
  "sections": [
   {
    "title": "Armorer to the Recruits",
@@ -24,7 +24,7 @@
     "who is kzan",
     "valley of trials weapon vendor"
    ],
-   "answer": "Kzan Thornslash is an orc merchant in the Valley of Trials. He supplies new Horde trainees with standard weapons for their first combat trials."
+   "answer": "Kzan Thornslash supplies weapons to new Horde trainees in the Valley of Trials. He is an orc merchant, and his wares prepare recruits for their first combat trials."
   },
   {
    "q": "Where can I find Kzan Thornslash?",
@@ -73,5 +73,5 @@
  "attribution": [
   "Kzan Thornslash"
  ],
- "style": 1
+ "style": 2
 }

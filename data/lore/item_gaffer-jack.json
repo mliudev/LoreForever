@@ -10,16 +10,16 @@
    "quest:1579"
   ]
  },
- "summary": "Off Auberdine, Gaffer Jack parts lie beneath Darkshore's waves. Wizbang Cranktoggle lost a crate of them during his voyage across the sea.",
+ "summary": "Off Auberdine, Gaffer Jack parts lie beneath Darkshore's waves. Wizbang Cranktoggle lost a crate during his voyage across the sea.",
  "sections": [
   {
    "title": "Lost at Sea",
-   "body": "Gnome tinkerer Wizbang Cranktoggle booked passage to Auberdine, seeking quiet away from Ironforge's forge-works and taverns. During the voyage, he drank too much and fumbled an entire container of gaffer jacks over the railing. The small fasteners sank into Darkshore's coastal waters, leaving Wizbang without the parts he needed to tune his stintle pegs.",
+   "body": "Gnome tinkerer Wizbang Cranktoggle booked passage to Auberdine for quiet away from Ironforge's forge-works and taverns. During the voyage, he drank too much and fumbled a whole container of gaffer jacks over the railing. The small fasteners sank into Darkshore's coastal waters. Without them, Wizbang could not tune his stintle pegs.",
    "spoiler": 0
   },
   {
    "title": "Sunken Salvage",
-   "body": "The gaffer jacks sank in the surf along Darkshore's shore, where patient fishermen sometimes snag them on their hooks. Recovering the parts lets Wizbang assemble his strange contraptions. Finding tiny metal hardware in the open sea takes patience and luck.",
+   "body": "Gaffer jacks sank in the surf along Darkshore's shore, where patient fishermen sometimes catch them on their hooks. Recovering the parts lets Wizbang assemble his strange contraptions. Finding tiny metal hardware in the open sea takes patience and luck.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who dropped gaffer jacks",
     "gaffer jack lost"
    ],
-   "answer": "Wizbang Cranktoggle sailed from the Eastern Kingdoms, seeking quiet away from Ironforge. He drank too much during the voyage and accidentally dropped his crate of gaffer jacks overboard into Darkshore's waters."
+   "answer": "Wizbang Cranktoggle sailed from the Eastern Kingdoms seeking quiet away from Ironforge. He drank too much during the voyage and accidentally sent his crate of gaffer jacks overboard into Darkshore's waters."
   },
   {
    "q": "Who wants Gaffer Jacks recovered?",
@@ -58,7 +58,7 @@
     "how to find gaffer jacks",
     "gaffer jack location"
    ],
-   "answer": "Gaffer jacks lie submerged along Darkshore's coast. Anglers sometimes snag them while fishing the coastal surf."
+   "answer": "Gaffer jacks lie submerged along Darkshore's coast. Anglers sometimes catch them while fishing the coastal surf."
   }
  ],
  "angles": [
@@ -94,5 +94,5 @@
   "Gaffer Jack",
   "Gaffer Jacks"
  ],
- "style": 1
+ "style": 2
 }

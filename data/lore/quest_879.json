@@ -17,16 +17,16 @@
   "wiki": "Betrayal from Within (1)",
   "chain": []
  },
- "summary": "At Camp Taurajo, Betrayal from Within begins with Mangletooth's offer of bloody vengeance. Imprisoned in a cage, the quilboar says his kin left him for dead. He offers Horde travelers knowledge of the three Razormane warlords who emerged from Razorfen Kraul to organize assaults across the Barrens.",
+ "summary": "At Camp Taurajo, Mangletooth offers Horde travelers a path to vengeance. His Razormane kin left him for dead, and he names three warlords from Razorfen Kraul who direct attacks across the Barrens.",
  "sections": [
   {
    "title": "A Grudge in a Cage",
-   "body": "At Camp Taurajo, Mangletooth has lost all loyalty to his Razormane kin. They left him behind in defeat, and he faces execution in his cage. Now he wants vengeance against the leaders who abandoned him. He offers Horde travelers knowledge of the true architects behind the ruthless raids across the plains.",
+   "body": "Mangletooth sits in a cage at Camp Taurajo, abandoned by his Razormane kin after their defeat. He has lost all loyalty to them and now faces execution. He offers Horde travelers knowledge of the leaders behind the ruthless raids across the plains, hoping to see those leaders fall before his own end.",
    "spoiler": 0
   },
   {
    "title": "The Warlords of the Kraul",
-   "body": "Razormane attacks keep troubling the Horde, and Thork at the Crossroads struggles to curb them. Mangletooth names three commanders from deep within Razorfen Kraul: Lok Orcbane, a formidable warrior, and his companions Nak, a tracker, and Kuz, a spellcaster. They direct Razormane raiders from encampments far to the south. Mangletooth demands their severed skulls as proof that his betrayers have fallen before his own end arrives.",
+   "body": "Razormane attacks trouble the Horde, while Thork at the Crossroads struggles to curb them. Mangletooth names three commanders from deep within Razorfen Kraul: Lok Orcbane, a formidable warrior, and his companions Nak, a tracker, and Kuz, a spellcaster. They direct raiders from encampments far to the south. Mangletooth demands their severed skulls as proof that his betrayers have fallen before his own end arrives.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "mangletooth motive",
     "why quilboar betraying kin"
    ],
-   "answer": "Mangletooth helps the Horde for revenge, not friendship. His brethren turned their backs on him and left him to die in a cage at Camp Taurajo. Since he believes his own death is inevitable, he wants his betrayers dead first."
+   "answer": "Mangletooth helps the Horde for revenge, not friendship. His brethren left him to die in a cage at Camp Taurajo. Believing his own death inevitable, he wants his betrayers dead first."
   },
   {
    "q": "Who are Nak, Kuz, and Lok Orcbane?",
@@ -47,7 +47,7 @@
     "razormane leaders",
     "lok orcbane lore"
    ],
-   "answer": "Nak, Kuz, and Lok Orcbane are three Razormane leaders who emerged from Razorfen Kraul to organize raids across the Barrens. Lok Orcbane is a vicious warrior, joined by Nak the tracker and Kuz the spellcaster."
+   "answer": "Nak, Kuz, and Lok Orcbane are three Razormane leaders who emerged from Razorfen Kraul to organize raids across the Barrens. Lok Orcbane is a vicious warrior, with Nak the tracker and Kuz the spellcaster at his side."
   },
   {
    "q": "Where are the three targets found?",
@@ -65,7 +65,7 @@
     "what did thork get wrong",
     "thork and mangletooth"
    ],
-   "answer": "Thork manages defenses from the Crossroads and believes he knows who directs the quilboar attacks on Horde supply lines. Mangletooth says Thork is wrong: Lok Orcbane, Nak, and Kuz are behind the attacks."
+   "answer": "Thork manages defenses from the Crossroads and believes he knows who directs the quilboar attacks on Horde supply lines. Mangletooth says Thork is wrong: Lok Orcbane, Nak, and Kuz direct those attacks."
   },
   {
    "q": "Will killing these leaders truly bring peace with the Razormane?",
@@ -83,7 +83,7 @@
     "mangletooth fate",
     "is mangletooth executed"
    ],
-   "answer": "Mangletooth believes his death is inescapable while he is locked in a Horde encampment. He seeks neither escape nor mercy, only the satisfaction of bringing down his treacherous tribe mates before his end."
+   "answer": "Mangletooth believes death is inescapable while he is locked in a Horde encampment. He seeks neither escape nor mercy, only the satisfaction of bringing down his treacherous tribe mates before his end."
   }
  ],
  "angles": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Betrayal from Within (1)"
  ],
- "style": 1
+ "style": 2
 }

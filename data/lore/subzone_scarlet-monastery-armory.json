@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Monastery Armory"
  },
- "summary": "The Armory is the fortified martial wing of the Scarlet Monastery, dedicated to manufacturing weapons and training recruits for the Scarlet Crusade. Behind locked iron gates, ranks of zealous footmen and crusaders drill under the fierce command of Herod, the Scarlet Champion.",
+ "summary": "Behind iron gates, recruits train and weapons are forged for the Scarlet Crusade in Scarlet Monastery Armory. Herod, the Scarlet Champion, commands the wing.",
  "sections": [
   {
    "title": "The Foundry of Zeal",
-   "body": "Once part of a peaceful retreat for Lordaeron's priesthood, the monastery was completely overhauled following the Third War. The Armory now serves as the Crusade's primary forge, weapons depot, and combat proving ground. From the open training grounds to the deep weapon halls, ranks of Scarlet footmen, conjurers, and crusaders prepare relentlessly to purge the Scourge and anyone else they deem tainted. The wing remains locked away from the Grand Vestibule, accessible only to those carrying the Scarlet Key found in the neighboring Library.",
+   "body": "The Scarlet Monastery once sheltered Lordaeron's peaceful priesthood. After the Third War, the Crusade remade the Armory into a forge, a weapons depot, and a proving ground. Scarlet footmen, conjurers, and crusaders train in its open yards and deep halls. They mean to purge the Scourge and all they judge tainted. The wing is sealed from the Grand Vestibule. Only those bearing the Scarlet Key from the neighboring Library may enter.",
    "spoiler": 0
   },
   {
    "title": "The Hall of Champions",
-   "body": "At the heart of the wing lies the Hall of Champions, lined with towering statues dedicated to legendary heroes of the Crusade's past. The hall is overseen by Herod, a brutal warrior whose ferocity and whirlwinds are legendary among the crusaders. Herod trains the next generation of zealots personally; when hard-pressed in battle, his desperate recruits will pour into the chamber to fight and die for their champion.",
+   "body": "Towering statues of the Scarlet Crusade's heroes fill the Hall of Champions. Herod, the Scarlet Champion, oversees the hall. The brutal warrior is famed among the crusaders for his ferocity and whirling attacks, and trains new zealots himself. When battle presses him hard, his recruits rush into the chamber to fight and die for their champion.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "scarlet key armory",
     "open armory door"
    ],
-   "answer": "The Armory door in the Grand Vestibule is securely locked. To open it, you must enter the Library wing and retrieve the Scarlet Key from the chest behind Arcanist Doan in the Athenaeum, or bring a rogue proficient enough in lockpicking."
+   "answer": "The Armory door in the Grand Vestibule is locked. You can retrieve the Scarlet Key from the chest behind Arcanist Doan in the Library's Athenaeum, or bring a rogue skilled enough to pick the lock."
   },
   {
    "q": "Who leads the troops in the Armory?",
@@ -39,7 +39,7 @@
     "who runs the armory",
     "herod armory"
    ],
-   "answer": "The wing is commanded by Herod, known as the Scarlet Champion. Stationed within the Hall of Champions, he drills soldiers and puts incoming recruits through intense combat trials."
+   "answer": "Herod, the Scarlet Champion, commands the wing from the Hall of Champions. There he drills soldiers and puts recruits through fierce combat trials."
   },
   {
    "q": "What is the purpose of this wing for the Scarlet Crusade?",
@@ -48,7 +48,7 @@
     "what do they do here",
     "armory purpose"
    ],
-   "answer": "It serves as the Crusade's main arsenal and training academy. The complex houses extensive weapon forges, armories for footmen and crusaders, and outdoor drilling yards used to condition soldiers before dispatching them across Tirisfal and the Plaguelands."
+   "answer": "The Armory is the Scarlet Crusade's main arsenal and training ground. Its forges and weapon stores supply footmen and crusaders. Its outdoor yards prepare soldiers for dispatch across Tirisfal and the Plaguelands."
   },
   {
    "q": "Whose statues are honored in the Hall of Champions?",
@@ -57,17 +57,17 @@
     "hall of champions statues",
     "statues in herod room"
    ],
-   "answer": "The statues celebrate the order's most praised martyrs and heroes, champions whose memory the crusaders invoke as they drill new recruits for the war against the undead."
+   "answer": "The statues honor the Scarlet Crusade's most praised martyrs and heroes. Crusaders invoke their memory as they drill recruits for war against the undead."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "The Armory is the quintessential proving ground of mortal combat, where Scarlet warriors demonstrate lethal use of stances, disarms, and Herod's renowned whirlwind technique."
+   "text": "As a warrior, you can see the Armory's hard lessons in mortal combat, from stances and disarms to Herod's renowned whirlwind technique."
   },
   {
    "target": "faction:Horde",
-   "text": "With the Scarlet Crusade massing an army directly outside the gates of the Undercity, raiding their armaments and slaughtering their champion is vital for the Forsaken's survival."
+   "text": "As a member of the Horde, you face a Scarlet Crusade army gathering outside the gates of the Undercity. Raiding its weapons and killing its champion is vital to the Forsaken's survival."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Scarlet Monastery Armory"
- ]
+ ],
+ "style": 2
 }

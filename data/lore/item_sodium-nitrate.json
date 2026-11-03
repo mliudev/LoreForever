@@ -10,16 +10,16 @@
    "quest:846"
   ]
  },
- "summary": "At Bael Modan, Sodium Nitrate helps the dwarves blast through the southern Barrens’ stone. Gann Stonespire seeks the chemical for charges against the fortress.",
+ "summary": "At Bael Modan, Sodium Nitrate goes into the charges the dwarves use against the southern Barrens’ stone. Gann Stonespire seeks the chemical for charges against the fortress.",
  "sections": [
   {
    "title": "Industrial Demolition",
-   "body": "Dwarven excavators at Bael Modan use Sodium Nitrate to break through the southern Barrens’ rock. The Bael'dun expedition entered the Stonespire tribe’s ancestral lands with earthmovers and blasting reagents. Riflemen, soldiers, and officers carry the chemical inside the excavation works and nearby fortress.",
+   "body": "At Bael Modan, dwarven excavators use Sodium Nitrate to break through the southern Barrens’ rock. The Bael'dun expedition entered the Stonespire tribe’s ancestral lands with earthmovers and blasting reagents. Riflemen, soldiers, and officers carry the chemical inside the excavation works and nearby fortress.",
    "spoiler": 0
   },
   {
    "title": "Turnabout and Retribution",
-   "body": "Gann Stonespire watched the invaders after they devastated his tribe’s homeland and scavenged their engineering schematics. Unable to breach the defended keep with ordinary attacks, the exiled tauren turns their blasting supplies against them. He mixes looted Sodium Nitrate with nitroglycerin and wood pulp to make charges meant to shake Bael Modan’s foundations.",
+   "body": "Gann Stonespire watched the invaders after they devastated his tribe’s homeland and scavenged their engineering schematics. Ordinary attacks could not breach the defended keep, so the exiled tauren turns the dwarves’ blasting supplies against them. He mixes looted Sodium Nitrate with nitroglycerin and wood pulp to make charges meant to shake Bael Modan’s foundations.",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "sodium nitrate purpose",
     "what does sodium nitrate do"
    ],
-   "answer": "The Ironforge dwarves use Sodium Nitrate in explosives to blast rocky ground at their dig site. Gann Stonespire mixes it with nitroglycerin and wood pulp to make charges against Bael Modan."
+   "answer": "Ironforge dwarves use Sodium Nitrate in explosives to blast rocky ground at their dig site. Gann Stonespire mixes it with nitroglycerin and wood pulp to make charges against Bael Modan."
   },
   {
    "q": "Where does Sodium Nitrate come from?",
@@ -46,7 +46,7 @@
     "why does gann want sodium nitrate",
     "gann stonespire explosives"
    ],
-   "answer": "Gann Stonespire lost his ancestral village to the dwarven excavation. Without heavy siege equipment, he studied their schematics and set out to make charges that could break their fortified positions with their own supplies."
+   "answer": "Gann Stonespire lost his ancestral village to the dwarven excavation. Without heavy siege equipment, he studied their schematics and set out to make charges that could break their fortified positions with the dwarves’ own supplies."
   },
   {
    "q": "Is Sodium Nitrate dangerous on its own?",
@@ -89,5 +89,5 @@
   "Sodium Nitrate",
   "Revenge of Gann"
  ],
- "style": 1
+ "style": 2
 }

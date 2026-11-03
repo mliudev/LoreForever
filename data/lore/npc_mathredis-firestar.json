@@ -8,16 +8,16 @@
   "wiki": "Mathredis Firestar",
   "refs": 2
  },
- "summary": "Mathredis Firestar is an eccentric blood elf mage residing at Flame Crest in the Burning Steppes. He crafts powerful enchantments known as Lesser Arcanums, drawing upon the arcane research of his deceased master. In doing so, he feeds on the residual energies unleashed during the binding process to stave off his magic addiction.",
+ "summary": "At Flame Crest, Mathredis Firestar binds Lesser Arcanums in the Burning Steppes. He relies on his dead mentor’s research and the energy released by each binding.",
  "sections": [
   {
    "title": "A Master's Legacy and Magic Addiction",
-   "body": "Mathredis Firestar learned the craft of making arcanums\u2014concentrated gems of arcane empowerment\u2014from his mentor, Telmius Dreamseeker. Telmius met a grim end within the ancient ruins of Dire Maul while trying to wrest magical secrets from the Shen'dralar. While Telmius invented these magical bindings, Mathredis lacks the mastery to produce the greatest of them. Instead, he specializes in Lesser Arcanums. For Mathredis, this work is far more than an academic exercise: like all blood elves following the fall of the Sunwell, he suffers from a gnawing hunger for arcane power. Binding materials to ancient librams releases violent discharges of magical energy, which Mathredis siphons to sustain himself.",
+   "body": "At Flame Crest in the Burning Steppes, Mathredis Firestar crafts Lesser Arcanums from his mentor Telmius Dreamseeker’s work. Telmius died in Dire Maul’s ancient ruins while seeking magical secrets from the Shen'dralar. He invented the bindings, but Mathredis cannot yet make the greatest arcanums. So he turns to lesser ones.\n\nHis craft is more than study. Like other blood elves since the Sunwell fell, Mathredis hungers for arcane power. Binding materials to ancient librams releases violent magical discharges. He draws on that energy to sustain himself.",
    "spoiler": 0
   },
   {
    "title": "The Art of the Arcanum",
-   "body": "Adventurers who bring Mathredis the proper tomes\u2014such as the Librams of Constitution, Resilience, Rumination, Tenacity, or Voracity\u2014along with rare reagents will find him eager to trade his craft. The process binds volatile magical reagents directly to the text, concentrating their essence into an arcanum that can permanently enchant headwear or leg armor. So long as adventurers supply the components, Mathredis receives both payment and the ambient arcane sustenance he desperately craves.",
+   "body": "Mathredis accepts the proper tomes, including the Librams of Constitution, Resilience, Rumination, Tenacity, or Voracity, along with rare reagents. He binds the volatile reagents to the text and concentrates their essence into an arcanum. The finished arcanum permanently enchants headwear or leg armor.\n\nWhen adventurers bring the components, Mathredis trades his craft for payment and the arcane sustenance he craves.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is mathredis firestar",
     "firestar blood elf"
    ],
-   "answer": "Mathredis Firestar is a blood elf mage stationed at the neutral outpost of Flame Crest in the Burning Steppes. He is an arcanist capable of forging Lesser Arcanums to enchant armor."
+   "answer": "Mathredis Firestar is a blood elf mage at Flame Crest, a neutral outpost in the Burning Steppes. He can forge Lesser Arcanums to enchant armor."
   },
   {
    "q": "Why is Mathredis creating arcanums?",
@@ -38,7 +38,7 @@
     "mathredis motivation",
     "why librams"
    ],
-   "answer": "Following the destruction of the Sunwell, blood elves suffer from a severe magical withdrawal. Mathredis feeds on the raw, residual magical energies released during the creation and binding of arcanums to soothe his racial addiction."
+   "answer": "Since the Sunwell was destroyed, blood elves have suffered severe magical withdrawal. Mathredis draws on the residual energy released as he creates and binds arcanums to ease his addiction."
   },
   {
    "q": "Who was Telmius Dreamseeker?",
@@ -47,7 +47,7 @@
     "mathredis master",
     "who was his master"
    ],
-   "answer": "Telmius Dreamseeker was Mathredis's late master and the original inventor of arcanums. Telmius ventured to the ruins of Dire Maul to glean knowledge from the Shen'dralar, but he was murdered there before he could fully pass on all his expertise."
+   "answer": "Telmius Dreamseeker was Mathredis's late master and the inventor of arcanums. He went to Dire Maul to seek knowledge from the Shen'dralar, but died there before passing on all his expertise."
   },
   {
    "q": "What kinds of arcanums can Mathredis make?",
@@ -56,13 +56,13 @@
     "lesser arcanums",
     "libram list"
    ],
-   "answer": "Mathredis can forge Lesser Arcanums of Constitution, Resilience, Rumination, Tenacity, and Voracity. The most potent arcanums were known only to his master Telmius and remain beyond Mathredis's grasp."
+   "answer": "Mathredis can forge Lesser Arcanums of Constitution, Resilience, Rumination, Tenacity, and Voracity. His master's most potent arcanums remain beyond his grasp."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Mages will recognize Mathredis's arcanum synthesis as a desperate, volatile method of drawing raw magical nourishment from the process of item binding."
+   "text": "As a mage, you can recognize Mathredis's arcanum craft as a desperate, volatile way to draw raw magical nourishment from the binding process."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Mathredis Firestar"
- ]
+ ],
+ "style": 2
 }

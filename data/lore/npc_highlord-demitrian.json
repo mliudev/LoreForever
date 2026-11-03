@@ -8,21 +8,21 @@
   "wiki": "Highlord Demitrian",
   "refs": 4
  },
- "summary": "Highlord Demitrian is a solitary human hermit dwelling amidst the strange crystals of northwestern Silithus. Describing himself as a loyal servant of Prince Thunderaan, he possesses the esoteric knowledge required to wake the slumbering elemental lord. Adventurers bearing ancient elemental bindings seek him out to unlock the power of the Windseeker.",
+ "summary": "Among the strange crystals of northwestern Silithus, Highlord Demitrian waits alone. He calls himself a loyal servant of Prince Thunderaan and knows how to wake the sleeping elemental lord. Those who bring him ancient elemental bindings seek the Windseeker's power.",
  "sections": [
   {
    "title": "Hermit of the Crystal Vale",
-   "body": "Found lingering at an abandoned encampment in the Crystal Vale, Demitrian appears out of place in the desolate wastes of Silithus. Though he is tied to the Twilight's Hammer whose ravaged camp he haunts, Demitrian acts above all as a herald for Prince Thunderaan, the Windseeker. He treats visitors with aloof indifference unless they carry proof of the Windseeker's shattered essence.",
+   "body": "In the Crystal Vale, Demitrian lingers at an abandoned encampment in Silithus's desolate wastes. The ruined camp belongs to the Twilight's Hammer, and the solitary human seems out of place there. Yet Demitrian's chief purpose is to herald Prince Thunderaan, the Windseeker. He gives visitors little notice unless they carry proof of the Windseeker's shattered essence.",
    "spoiler": 0
   },
   {
    "title": "The Vessel of Rebirth",
-   "body": "Demitrian's purpose is tied entirely to Thunderaan's resurrection. Should an adventurer present him with the Bindings of the Windseeker—relics torn from fire elementals within the Molten Core—Demitrian provides the Vessel of Rebirth. He demands rare elemental reagents, including vast quantities of enchanted elementium and the essence of the Firelord, to reconstitute his prince's physical form.",
+   "body": "Demitrian's purpose is to bring about Thunderaan's resurrection. When someone brings him the Bindings of the Windseeker, relics torn from fire elementals within the Molten Core, he gives them the Vessel of Rebirth. To restore his prince's physical form, he demands rare elemental reagents. They include vast quantities of enchanted elementium and the essence of the Firelord.",
    "spoiler": 1
   },
   {
    "title": "Betrayal of the Windseeker",
-   "body": "Demitrian's ritual brings Prince Thunderaan into the Crystal Vale, where adventurers must face the restored Windseeker in battle. Once they vanquish the elemental lord, they recover the Dormant Wind Kissed Blade and bring it to the terrified Demitrian, who awakens Thunderfury in exchange.",
+   "body": "Demitrian's ritual calls Prince Thunderaan into the Crystal Vale, where the restored Windseeker must be faced in battle. Once the elemental lord is vanquished, the Dormant Wind Kissed Blade is recovered and brought to the terrified Demitrian. In exchange, he awakens Thunderfury.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "where is demitrian",
     "demitrian silithus spot"
    ],
-   "answer": "He is located in the far northwestern corner of Silithus, standing near the Ravaged Twilight Camp inside the Crystal Vale."
+   "answer": "Find Demitrian at the Ravaged Twilight Camp in the Crystal Vale, at Silithus's far northwestern corner."
   },
   {
    "q": "Why does Demitrian only give a generic response?",
@@ -43,7 +43,7 @@
     "how to get demitrian quest",
     "demitrian gossip"
    ],
-   "answer": "Demitrian will not offer his legendary quest chain unless you are carrying at least one half of the Bindings of the Windseeker, which are rare treasures held by Baron Geddon and Garr in the Molten Core."
+   "answer": "Demitrian gives no further response unless you carry at least one half of the Bindings of the Windseeker. Baron Geddon and Garr hold these rare treasures within the Molten Core."
   },
   {
    "q": "What is Demitrian's relationship to Prince Thunderaan?",
@@ -52,7 +52,7 @@
     "demitrian thunderaan connection",
     "is demitrian twilight hammer"
    ],
-   "answer": "Demitrian is the sworn mortal servant of Prince Thunderaan. He has dedicated himself to finding the prince's severed bindings and restoring the elemental lord to the physical plane."
+   "answer": "Demitrian is the sworn mortal servant of Prince Thunderaan. He seeks the prince's severed bindings to restore the elemental lord to the physical plane."
   },
   {
    "q": "What happens when you bring him all the materials for the vessel?",
@@ -61,7 +61,7 @@
     "what does demitrian do with the vessel",
     "crystal vale summon"
    ],
-   "answer": "Demitrian conducts a ritual that calls Prince Thunderaan forth into the Crystal Vale, restoring the Windseeker to the physical plane."
+   "answer": "Demitrian performs a ritual that calls Prince Thunderaan into the Crystal Vale and restores the Windseeker to the physical plane."
   },
   {
    "q": "Is Demitrian affiliated with the Twilight's Hammer cult?",
@@ -70,7 +70,7 @@
     "demitrian twilight camp",
     "demitrian faction"
    ],
-   "answer": "He is tied to the Twilight's Hammer and dwells in their ravaged camp, and he speaks of the Old Gods with reverence. Still, his sworn devotion is to his master, Prince Thunderaan."
+   "answer": "Demitrian is tied to the Twilight's Hammer and dwells in their ravaged camp. He speaks of the Old Gods with reverence, yet his sworn devotion is to Prince Thunderaan."
   },
   {
    "q": "How do you get Thunderfury from him?",
@@ -79,21 +79,21 @@
     "thunderfury quest finish",
     "demitrian blade"
    ],
-   "answer": "Bring him both halves of the Bindings of the Windseeker, taken from Baron Geddon and Garr in the Molten Core, then gather the rare materials he demands for the Vessel of Rebirth. What his ritual unleashes, and how the blade is finally awakened, is told in the spoiler sections."
+   "answer": "Bring Demitrian both halves of the Bindings of the Windseeker, taken from Baron Geddon and Garr in the Molten Core. Then gather the rare materials he demands for the Vessel of Rebirth. The ritual's outcome and the blade's awakening are told in the hidden passages."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "Demitrian's demands for Thunderaan's rebirth require extensive blacksmithing mastery to forge Enchanted Elementium Bars from raw ore and fiery essences."
+   "text": "Thunderaan's rebirth calls for extensive blacksmithing skill to forge Enchanted Elementium Bars from raw ore and fiery essences."
   },
   {
    "target": "class:Warrior",
-   "text": "Warriors seeking the legendary blade Thunderfury must seek out Demitrian to initiate the trial of unbinding and awakening the Windseeker."
+   "text": "As a warrior seeking Thunderfury, seek Demitrian to begin the trial of unbinding and awakening the Windseeker."
   },
   {
    "target": "class:Rogue",
-   "text": "Rogues hunting the legendary blade of the Windseeker must bargain with Demitrian in Silithus to restore the shattered prince."
+   "text": "As a rogue hunting the Windseeker's legendary blade, bargain with Demitrian in Silithus to restore the shattered prince."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Highlord Demitrian"
- ]
+ ],
+ "style": 2
 }

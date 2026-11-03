@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (9)",
   "chain": []
  },
- "summary": "Marshal Haggard sends you back to Darkshire with a page he cannot read. Tavernkeep Smitts may know the hand that wrote it.",
+ "summary": "Marshal Haggard sends you to find Tavernkeep Smitts, who may know the hand behind a page from Stalvan's journal.",
  "sections": [
   {
    "title": "A Lead from the Marshal",
-   "body": "Marshal Haggard cannot read the faded writing on the torn journal page you recovered from his chest in Elwynn Forest. His eyesight is failing. The retired commander remembers serving with the Stormwind Guard and spending evenings at the Scarlet Raven Tavern in Darkshire. The trail leads back across the river, so he sends you to Tavernkeep Smitts. Years behind the bar have made Smitts a keeper of local history and rumors.",
+   "body": "Marshal Haggard cannot read the faded writing on the torn journal page you recovered from his chest in Elwynn Forest. His failing eyesight leaves the words beyond him. He recalls serving with the Stormwind Guard and spending evenings at the Scarlet Raven Tavern in Darkshire. So he sends you across the river to Tavernkeep Smitts, whose years behind the bar have made him a keeper of local history and rumors.",
    "spoiler": 0
   },
   {
    "title": "Return to the Scarlet Raven",
-   "body": "You cross Duskwood's gloomy woods and show the faded page to Smitts behind the counter. He warms at the name of his old acquaintance Haggard, though he laments the veteran's fading health. Then Smitts sees the parchment, and alarm replaces his easygoing manner. He knows the distinctive handwriting without doubt, bringing the search closer to the truth of Stalvan's madness.",
+   "body": "You cross Duskwood's gloomy woods and show the faded page to Smitts behind the counter. He is glad to hear of his old acquaintance Haggard, though he grieves for the veteran's failing health. Then Smitts sees the parchment, and alarm overtakes his easy manner. He knows the distinctive handwriting without doubt, bringing the search closer to the truth of Stalvan's madness.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "haggard to darkshire",
     "why smitts"
    ],
-   "answer": "Marshal Haggard is aging and nearly blind, so he cannot examine the recovered journal page. He remembers Tavernkeep Smitts as an expert on local lore when Haggard served with the Stormwind Guard, and sends you to have Smitts identify the script."
+   "answer": "Marshal Haggard is aging and nearly blind, so he cannot examine the recovered journal page. He remembers Tavernkeep Smitts as a keeper of local lore from his Stormwind Guard days, and sends you to ask him about the writing."
   },
   {
    "q": "Where is Tavernkeep Smitts located?",
@@ -64,7 +64,7 @@
     "does smitts know the writing",
     "smitts reaction to journal"
    ],
-   "answer": "Yes. Smitts recognizes the handwriting as soon as he looks at the faded page, and his alarm gives the search for Stalvan its next lead."
+   "answer": "Yes. Smitts recognizes the handwriting as soon as he sees the faded page, and his alarm gives the search for Stalvan its next lead."
   },
   {
    "q": "How does Smitts know Marshal Haggard?",
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance defender, you see bonds between former Stormwind guardsmen and community keepers across the Kingdom of Stormwind."
+   "text": "As an Alliance defender, you see bonds between former Stormwind guardsmen and keepers of local history across the Kingdom of Stormwind."
   },
   {
    "target": "race:Human",
@@ -118,5 +118,5 @@
  "attribution": [
   "The Legend of Stalvan (9)"
  ],
- "style": 1
+ "style": 2
 }

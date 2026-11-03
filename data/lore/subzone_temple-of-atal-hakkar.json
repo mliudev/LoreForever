@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Temple of Atal'Hakkar"
  },
- "summary": "The Temple of Atal'Hakkar, widely known as the Sunken Temple, is a submerged fortress built by exiled troll priests dedicated to the blood god Hakkar. Sunk beneath the marshes by the green dragonflight centuries ago, its drowned halls remain a staging ground for forbidden rituals and dark corruption.",
+ "summary": "The Temple of Atal'Hakkar lies drowned beneath the Swamp of Sorrows, its halls still touched by corruption. Exiled troll priests raised it for Hakkar, and Ysera's green dragons sank it beneath the marsh centuries ago.",
  "sections": [
   {
    "title": "Wrath of the Green Flight",
-   "body": "Over a millennium ago, a catastrophic civil war shattered the Gurubashi Empire when the Atal'ai priesthood attempted to summon Hakkar the Soulflayer. Exiled to the north, the surviving zealots raised a massive stone temple in the Swamp of Sorrows to finish their dark work. Learning of their scheme, the Dragon Aspect Ysera smashed the ziggurat deep into the mire, inundating its chambers beneath the Pool of Tears. Green dragon wardens were left behind to guard the drowned ruins and ensure Hakkar's return was thwarted forever.",
+   "body": "More than a thousand years ago, civil war broke the Gurubashi Empire after the Atal'ai priesthood tried to summon Hakkar the Soulflayer. Exiled north, the surviving priests built a great stone temple in the Swamp of Sorrows to finish their work. Ysera, the Dragon Aspect, learned of their scheme and drove the temple deep into the mire. Its halls flooded beneath the Pool of Tears, while green dragon wardens remained to guard the ruins and keep Hakkar from returning.",
    "spoiler": 0
   },
   {
    "title": "A Slumber Turned Nightmare",
-   "body": "Instead of burying the cult, the temple's submersion provided the Atal'ai isolation to continue their grisly sacrifices unhindered. Over the centuries, corruption began to rot the guardians from within; the dragon sentinels succumb to madness while the Atal'ai, guided by Jammal'an the Prophet, prepare the way for Hakkar's avatar. Now, both the Horde and Alliance keep an anxious eye on the submerged ziggurat as shadowy rumors slip out from the swamp's depths.",
+   "body": "The flooded halls gave the Atal'ai the seclusion to continue their sacrifices. Over the centuries, corruption took hold of the guardians. The green dragon sentinels fell into madness, while the Atal'ai, led by Jammal'an the Prophet, prepare the way for Hakkar's avatar. The Horde and Alliance watch the sunken temple uneasily as rumors rise from the swamp's depths.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who sunk the temple",
     "how did it sink"
    ],
-   "answer": "Ysera, the Aspect of the green dragonflight, personally crushed the temple beneath the waters of the marsh to stop the Atal'ai trolls from summoning the blood god Hakkar into Azeroth."
+   "answer": "Ysera, Aspect of the green dragonflight, sank the temple beneath the marsh waters to stop the Atal'ai trolls from summoning the blood god Hakkar into Azeroth."
   },
   {
    "q": "Who are the Atal'ai?",
@@ -37,7 +37,7 @@
     "who built the sunken temple",
     "atal'ai priests"
    ],
-   "answer": "The Atal'ai are a fanatic sect of troll priests exiled from the southern Gurubashi Empire for practicing blood magic and attempting to summon Hakkar the Soulflayer into the physical realm."
+   "answer": "The Atal'ai are fanatical troll priests exiled from the southern Gurubashi Empire for practicing blood magic and trying to bring Hakkar the Soulflayer into the physical realm."
   },
   {
    "q": "Why are there green dragons here?",
@@ -45,7 +45,7 @@
     "why dragons in swamp",
     "green dragonflight sunken temple"
    ],
-   "answer": "Ysera assigned a flight of green dragons to watch over the sunken ruins and keep trespassers out, ensuring Hakkar could never be summoned. Tragically, many of these guardians have fallen prey to madness and dark corruption."
+   "answer": "Ysera sent green dragons as guardians to watch the sunken ruins, keep trespassers out, and prevent Hakkar's summoning. Many have fallen to madness and dark corruption."
   },
   {
    "q": "How do you get inside the temple?",
@@ -54,17 +54,17 @@
     "sunken temple entrance",
     "getting into atal hakkar"
    ],
-   "answer": "You must swim into the flooded ruins from the Pool of Tears, navigating the submerged passageways of the Broken Hall and ascending through stone corridors like the Hall of Masks."
+   "answer": "Swim into the flooded ruins from the Pool of Tears and pass through the submerged ways of the Broken Hall. Then climb the stone corridors, including the Hall of Masks."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, the ruins are a grim reminder of the blood-soaked madness that ruined the ancient Gurubashi Empire and the eternal danger of Hakkar the Soulflayer."
+   "text": "As a Darkspear troll, you see these ruins as a grim reminder of the blood-soaked madness that ruined the ancient Gurubashi Empire and the lasting danger of Hakkar the Soulflayer."
   },
   {
    "target": "class:Druid",
-   "text": "The corruption of Ysera's green dragon wardens in the temple's depths strikes at the heart of the Emerald Dream, demanding swift investigation."
+   "text": "As a druid, you know corruption among Ysera's green dragon wardens strikes at the heart of the Emerald Dream. The depths demand swift investigation."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Temple of Atal'Hakkar"
- ]
+ ],
+ "style": 2
 }

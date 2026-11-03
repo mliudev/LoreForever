@@ -17,16 +17,16 @@
   "wiki": "Missing In Action",
   "chain": []
  },
- "summary": "In the Redridge Mountains, Corporal Keeshan is missing after his regiment was overrun. Blackrock orcs knocked him unconscious and dragged him into a cave fortress. Now he needs an escort back to Lakeshire, where the garrison can learn what became of the missing men.",
+ "summary": "Corporal Keeshan is missing in the Redridge Mountains after Blackrock orcs overran his regiment. They knocked him unconscious and carried him into a cave fortress. Now he needs an escort to Lakeshire, where the garrison awaits his return.",
  "sections": [
   {
    "title": "A Regiment Overrun",
-   "body": "Blackrock orcs descend from the northern peaks, making the Redridge Mountains more perilous. Town guard patrols often meet ambushes, and Corporal Keeshan's unit suffered the worst of them. The regiment was outnumbered and overwhelmed, and most of its soldiers fell in the attack. Keeshan survived when a crushing blow knocked him unconscious before the orcs could execute him. They dragged him to their cave as a prisoner.",
+   "body": "Blackrock orcs come down from the northern peaks, making the Redridge Mountains more dangerous. Town guard patrols often meet ambushes, and Corporal Keeshan's regiment suffered the worst. Outnumbered and overwhelmed, most of its soldiers fell. Keeshan survived when a crushing blow knocked him unconscious before the orcs could execute him. They dragged him to their cave as a prisoner.",
    "spoiler": 0
   },
   {
    "title": "Escape from the Caves",
-   "body": "Battered and concussed, Keeshan is held deep in enemy territory and cannot make the trek down the mountain alone. You escort him toward Lakeshire, past the orc warbands occupying the ridgelines. Marshal Marris has been trying to learn what happened to the missing regiment while preparing Lakeshire for further attacks. Keeshan's safe return brings him sorely needed relief.",
+   "body": "Battered and concussed, Keeshan is held deep in enemy territory. He cannot make the trek down the mountain alone, so you escort him toward Lakeshire past the orc warbands on the ridgelines. Marshal Marris has been trying to learn what happened to the missing regiment. He is also preparing Lakeshire for further attacks, and Keeshan's safe return brings him sorely needed relief.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is keeshan",
     "keeshan lore"
    ],
-   "answer": "Corporal Keeshan is an Alliance infantryman stationed in the Redridge Mountains. Blackrock orcs overwhelmed his regiment during a patrol in the rocky hills, then dragged him away. He is the only known survivor."
+   "answer": "Corporal Keeshan is an Alliance infantryman stationed in the Redridge Mountains. Blackrock orcs overwhelmed his regiment during a patrol in the rocky hills and dragged him away. He is the only known survivor."
   },
   {
    "q": "Where was Corporal Keeshan captured?",
@@ -65,7 +65,7 @@
     "quest giver",
     "where to pick up missing in action"
    ],
-   "answer": "Corporal Keeshan sends you to free him from his prison cave, where Alliance adventurers discover him."
+   "answer": "Corporal Keeshan sends you to free him from his prison cave. Alliance adventurers discover him there."
   },
   {
    "q": "Where does Keeshan go after being freed?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Missing In Action"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Blackrock Stronghold"
  },
- "summary": "Blackrock Stronghold is a heavily fortified encampment carved into the crags of the northern Burning Steppes, positioned right outside the entrance to Blackrock Mountain. It serves as a major field garrison for the Blackrock orcs and their allies under the Dark Horde banner.",
+ "summary": "Dark Horde orcs hold the approaches to Blackrock Mountain from Blackrock Stronghold. Their fortified camp is a field garrison in the Burning Steppes.",
  "sections": [
   {
    "title": "Garrison of the Dark Horde",
-   "body": "Sprawling across the scorched foothills below Blackrock Mountain, the stronghold functions as the primary ground base for the Blackrock clan in the Burning Steppes. Unlike Thrall's Horde, these orcs cling to their warlike legacy, serving Rend Blackhand and the dragonkin who lurk above in the spire.",
+   "body": "Blackrock Stronghold spreads across the scorched foothills below Blackrock Mountain. The Blackrock clan keeps its main base here in the Burning Steppes. These orcs cling to the old ways of war. They follow Rend Blackhand and the dragonkin lurking above in the spire, not Thrall's Horde.",
    "spoiler": 0
   },
   {
    "title": "Front Line of Blackrock Spire",
-   "body": "The stronghold serves as both an outer defense and a staging ground for attacks into the Redridge Mountains and neighboring human lands. The fortress maintains a constant watch over the southern approaches to the mountain, challenging anyone who dares traverse the blasted wastes.",
+   "body": "Blackrock Stronghold guards the mountain's southern approaches. Its forces gather for attacks into the Redridge Mountains and neighboring human lands. The watch is constant, and anyone crossing the blasted wastes meets its challenge.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "blackrock stronghold burning steppes",
     "what is blackrock stronghold"
    ],
-   "answer": "It is a fortified military base situated in the northern Burning Steppes just outside Blackrock Mountain, serving as an outer garrison for the Blackrock clan of orcs."
+   "answer": "In the northern Burning Steppes, Blackrock Stronghold guards the approaches to Blackrock Mountain. The Blackrock orcs use it as an outer garrison."
   },
   {
    "q": "Are the orcs here friendly to Thrall's Horde?",
@@ -37,17 +37,17 @@
     "are blackrock orcs horde",
     "friendly to horde"
    ],
-   "answer": "No. The orcs of Blackrock Stronghold belong to the Dark Horde, led by Rend Blackhand. They reject Thrall's leadership and are hostile to both the Alliance and the new Horde."
+   "answer": "No. The orcs at Blackrock Stronghold belong to the Dark Horde under Rend Blackhand. They reject Thrall's leadership and are hostile to both the Alliance and Thrall's Horde."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Thrall's Horde, the Blackrock clan represents the shameful legacy of the Old Horde\u2014bloodthirsty, corrupted remnants who refuse honor and peace."
+   "text": "For Thrall's Horde, the Blackrock clan recalls the shame of the Old Horde: bloodthirsty, corrupted remnants who reject honor and peace."
   },
   {
    "target": "faction:Alliance",
-   "text": "The stronghold is a grim reminder of the Second War, situated within striking distance of the Kingdom of Stormwind's northern borders."
+   "text": "The stronghold recalls the Second War. It lies within striking distance of the Kingdom of Stormwind's northern borders."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Blackrock Stronghold"
- ]
+ ],
+ "style": 2
 }

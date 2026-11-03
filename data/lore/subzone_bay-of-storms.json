@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Bay of Storms"
  },
- "summary": "The Bay of Storms is an expansive, tempestuous gulf carving into the rugged eastern cliffs of Azshara. Its churning waters harbor ancient ruins, submerged caverns, and perilous marine beasts that make seafaring along this coast hazardous.",
+ "summary": "Storms churn along Azshara’s eastern cliffs, where sailors face a hazardous coast. Ancient ruins, submerged caverns, and dangerous sea beasts fill the bay.",
  "sections": [
   {
    "title": "A Tempestuous Coast",
-   "body": "Opening out toward the Great Sea, the Bay of Storms defines much of Azshara's dramatic coastal geography. Far from a tranquil harbor, its turbulent waters and rocky outcrops are home to dangerous wildlife and ancient aquatic threats. Within and along its waters lie landmarks like the sunken Temple of Arkkoran, the coral reefs of Hetaera's Clutch, and Scalebeard's Cave, leaving the bay largely avoided by casual sailors and claimed instead by coastal monsters.",
+   "body": "The Bay of Storms opens onto the Great Sea from Azshara’s eastern coast. Turbulent waters and rocky outcrops shelter dangerous wildlife and ancient aquatic threats. The sunken Temple of Arkkoran lies beneath the waves. Hetaera’s Clutch reefs and Scalebeard’s Cave mark the shore. Casual sailors keep away, leaving the coast to its monsters.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is bay of storms",
     "where is the bay"
    ],
-   "answer": "The Bay of Storms sits on the eastern edge of Azshara, opening directly into the Great Sea off the coast of Kalimdor."
+   "answer": "The Bay of Storms opens onto the Great Sea from Azshara’s eastern edge, off Kalimdor’s coast."
   },
   {
    "q": "What notable landmarks lie within the bay?",
@@ -32,7 +32,7 @@
     "what is in bay of storms",
     "bay of storms points of interest"
    ],
-   "answer": "The bay contains several notable coastal features, including the Temple of Arkkoran, the reef known as Hetaera's Clutch, and the hidden retreat of Scalebeard's Cave."
+   "answer": "The Temple of Arkkoran lies in the bay, with Hetaera’s Clutch reef and Scalebeard’s Cave along its shores."
   },
   {
    "q": "Why is the bay dangerous to navigate?",
@@ -41,13 +41,13 @@
     "why dangerous",
     "bay hazards"
    ],
-   "answer": "Violent surf, sharp jagged rocks, and hostile aquatic creatures make the bay treacherous for passing ships, and little coastal civilization exists here to offer rescue."
+   "answer": "Violent surf, jagged rocks, and hostile aquatic creatures make the bay treacherous for ships. Little coastal civilization is nearby to offer rescue."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The turbulent, deep sea waters of the Bay of Storms are famed among coastal fishermen seeking rare and prized deep-water catches off Kalimdor's coast."
+   "text": "Fishermen seeking rare deep-water catches work the Bay of Storms’ turbulent waters off Kalimdor’s coast."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Bay of Storms"
- ]
+ ],
+ "style": 2
 }

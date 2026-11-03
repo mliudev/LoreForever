@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Searing Gorge"
  },
- "summary": "A notice lists two items stolen: a Dark Iron tuyere and a Lookout's Spyglass. The Thorium Brotherhood is certain unscrupulous, jealous Dark Iron dwarves of the Searing Gorge took them, and whoever finds them is to take them to Taskmaster Scrange for payment.",
+ "summary": "In the Searing Gorge, the Thorium Brotherhood seeks two stolen tools: a tuyere and a Lookout's Spyglass. The Brotherhood is certain jealous, unscrupulous Dark Iron dwarves took them, and asks that whoever finds them bring them to Taskmaster Scrange for payment.",
  "sections": [
   {
    "title": "Stolen Goods",
-   "body": "The notice calls the spyglass a fine tool for lookouts and the tuyere a smithing tool that cannot be replaced. All that is known is that Dark Iron dwarves definitely took them. Whoever finds them is to return them to Taskmaster Scrange.",
+   "body": "The Thorium Brotherhood seeks a Lookout's Spyglass and a tuyere, both stolen. The spyglass is a fine tool for lookouts, and the tuyere is a smithing tool that cannot be replaced. The Brotherhood is certain Dark Iron dwarves took them. Whoever finds the tools should bring them to Taskmaster Scrange.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who gave this quest",
     "stolen smithing tuyere quest giver"
    ],
-   "answer": "The notice speaks of the Thorium Brotherhood, who are certain that Dark Iron dwarves took the items."
+   "answer": "The notice speaks for the Thorium Brotherhood, which is certain Dark Iron dwarves took the items."
   },
   {
    "q": "Who stole the tools?",
@@ -43,7 +43,7 @@
     "who stole the spyglass",
     "who has the stolen items"
    ],
-   "answer": "The Thorium Brotherhood is certain it was unscrupulous and jealous Dark Iron dwarves of the Searing Gorge."
+   "answer": "The Thorium Brotherhood is certain unscrupulous, jealous Dark Iron dwarves of the Searing Gorge stole the tools."
   },
   {
    "q": "Who receives the recovered items?",
@@ -52,7 +52,7 @@
     "who is taskmaster scrange",
     "who gets the spyglass"
    ],
-   "answer": "Taskmaster Scrange in the Searing Gorge."
+   "answer": "Taskmaster Scrange receives the recovered items."
   },
   {
    "q": "What are the stolen items for?",
@@ -61,7 +61,7 @@
     "why does the brotherhood want the tuyere",
     "what does the spyglass do"
    ],
-   "answer": "The tuyere is a smithing tool that cannot be replaced, and the spyglass is a valuable monitoring tool for lookouts."
+   "answer": "The tuyere is an irreplaceable smithing tool, and the spyglass helps lookouts keep watch."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "STOLEN: Smithing Tuyere and Lookout's Spyglass"
- ]
+ ],
+ "style": 2
 }

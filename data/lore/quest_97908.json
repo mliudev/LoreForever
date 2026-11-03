@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Thuwd trains skinners in Orgrimmar, making this introduction to wilderness craft uniquely accessible to Horde adventurers operating out of Durotar."
+   "text": "Thuwd trains skinners in Orgrimmar, so Horde adventurers traveling from Durotar can learn this wilderness craft there."
   },
   {
    "target": "profession:Cooking",
-   "text": "A proper campsite demands both seating and heat; novice skinners are encouraged to study cooking basics to learn how to build a basic campfire."
+   "text": "A proper campsite needs both a seat and heat. As a new skinner, you are encouraged to study cooking basics and learn to build a campfire."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "who to speak to in orgrimmar",
     "who is thuwd"
    ],
-   "answer": "The quest directs skinner initiates to speak with Thuwd, a leatherworking and skinning trainer located in the Horde capital of Orgrimmar, once they have demonstrated basic proficiency in their gathering craft.",
+   "answer": "In Orgrimmar, Thuwd teaches skinners how to make camp items. Skinners speak with him after showing basic skill in their craft.",
    "q": "Who teaches skinners how to make camp items?"
   },
   {
@@ -37,7 +37,7 @@
     "skinning camping craft",
     "camp chair skinning"
    ],
-   "answer": "Skinners learn how to fashion a Camp Chair using the hides and pelts harvested from fallen beasts. It provides a comfortable seat to rest and recover while out in the wild.",
+   "answer": "Skinners can make a Camp Chair from the hides and pelts of fallen beasts. It offers a comfortable seat while they rest in the wild.",
    "q": "What camping item can skinners craft?"
   },
   {
@@ -46,7 +46,7 @@
     "camps in city",
     "where to pitch camp"
    ],
-   "answer": "City residents and guards frown upon setting up campsite equipment in the middle of town. Adventurers must venture out into the wilderness beyond settlement gates to pitch a camp and set out their chair.",
+   "answer": "City residents and guards frown on campsite equipment in town. Travel beyond settlement gates into the wilderness to pitch camp and set out your chair.",
    "q": "Can you set up a camp chair inside a city?"
   },
   {
@@ -55,7 +55,7 @@
     "camp prerequisites",
     "how to set up camp"
    ],
-   "answer": "A campsite is incomplete without a fire for warmth, visibility, and cooking. Adventurers are advised to consult a cooking trainer to learn how to build a simple campfire before pitching camp.",
+   "answer": "A proper campsite needs a fire for warmth, visibility, and cooking. Before you pitch camp, ask a cooking trainer how to build a simple campfire.",
    "q": "What else is required to complete a camp?"
   },
   {
@@ -64,7 +64,7 @@
     "why rest in camp chair",
     "camp chair benefits"
    ],
-   "answer": "Taking a moment to rest in a comfortable chair between hunts helps adventurers recover from the road and ensures they stay in peak condition before jumping into their next skirmish.",
+   "answer": "A comfortable chair gives you a place to rest between hunts and recover from the road before your next skirmish.",
    "q": "Why should an adventurer craft a camp chair?"
   },
   {
@@ -73,7 +73,7 @@
     "camping 101 requirements",
     "skinning skill needed"
    ],
-   "answer": "Skinners must prove their basic proficiency in harvesting skins and hides from fallen beasts before Thuwd will share the secrets of crafting wilderness camp furniture.",
+   "answer": "Thuwd shares the Camp Chair pattern after skinners prove basic skill at harvesting skins and hides from fallen beasts.",
    "q": "When does Thuwd teach the Camp Chair pattern?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "Harvesting the pelts and hides of fallen beasts is one of the most practical survival skills an adventurer can cultivate in the wild. While raw leathers usually feed armorcraft, skilled skinners can also turn their harvested pelts into field comforts. In Orgrimmar, instructors direct capable skinners to Thuwd to learn the craft of assembling a sturdy Camp Chair from cured hides.",
+   "body": "In Orgrimmar, Thuwd teaches capable skinners to make a Camp Chair from cured hides. The pelts and hides of fallen beasts can serve beyond armorcraft. A skinner can put them to use in the wild.",
    "spoiler": 0,
    "title": "Comfort in the Wild"
   },
   {
-   "body": "Townsfolk and guards frown upon travelers pitching temporary camps along busy city thoroughfares. As Thuwd reminds new craftsmen, a camp chair is meant for open territory away from settlement walls. Furthermore, no wilderness camp is complete with seating alone; a proper site requires a warm campfire, a basic technique taught by cooks across Kalimdor.",
+   "body": "Thuwd warns that guards and townsfolk frown on camps along busy city streets. A chair belongs in open country, away from settlement walls. A proper campsite needs a warm campfire, too. Cooks across Kalimdor teach the basics of making one.",
    "spoiler": 0,
    "title": "Rules of the Trail"
   }
  ],
- "summary": "Camping 101: Skinning is an introductory wilderness quest directing skinners in Orgrimmar to Thuwd to learn how to craft a Camp Chair. By putting harvested hides to use for field comfort, adventurers can establish proper campsites out in the wilds of Kalimdor.",
+ "summary": "In Orgrimmar, new skinners are sent to Thuwd to learn the craft of camping. You make a Camp Chair from hides and pelts, then carry it beyond the city to open country.",
  "attribution": [
   "In-game quest text: Camping 101: Skinning"
- ]
+ ],
+ "style": 2
 }

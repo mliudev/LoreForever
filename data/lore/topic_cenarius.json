@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Cenarius"
  },
- "summary": "Cenarius, the Lord of the Forest, is the ancient demigod son of Elune and Malorne who taught the night elves the secrets of druidism. For thousands of years he served as the great patron of mortal druids and guardian of the wilderness before falling in battle during the Third War.",
+ "summary": "Across Kalimdor, Cenarius guards the wild places and teaches the night elves druidism. The ancient demigod, son of Elune and Malorne, guided mortal druids for thousands of years before falling in battle during the Third War.",
  "sections": [
   {
    "title": "Son of Heaven and Earth",
-   "body": "Cenarius was born to Elune, the goddess of the moon, and the great white stag demigod Malorne. Because Cenarius was bound to the mortal world, Elune placed him in the care of Malorne, while Ysera the Dreamer embraced him as a foster mother and guided him through the infinite paths of the Emerald Dream. Blessed with powers over living wood and earth, Cenarius fathered the Keepers of the Grove and the dryads, forever tying his bloodline to the wild places of Kalimdor.",
+   "body": "Born to Elune, goddess of the moon, and Malorne, the great white stag demigod, Cenarius was bound to the mortal world and placed in Malorne's care. Ysera the Dreamer took him as a foster son and guided him along the infinite paths of the Emerald Dream. Cenarius held power over living wood and earth. He fathered the Keepers of the Grove and the dryads, binding his bloodline to Kalimdor's wild places.",
    "spoiler": 0
   },
   {
    "title": "The First Druid",
-   "body": "Millennia ago, three youths\u2014Malfurion Stormrage, his twin Illidan, and Tyrande Whisperwind\u2014sought out the demigod of legend. Cenarius recognized Malfurion's exceptional heart and trained him as the first mortal druid. When Queen Azshara and her Highborne unleashed the Burning Legion during the War of the Ancients, Cenarius marshaled Kalimdor's wild demigods to fight alongside mortal defenders.",
+   "body": "Millennia ago, Malfurion Stormrage, his twin Illidan, and Tyrande Whisperwind sought the legendary demigod. Cenarius saw Malfurion's exceptional heart and trained him as the first mortal druid. When Queen Azshara and her Highborne unleashed the Burning Legion in the War of the Ancients, Cenarius gathered Kalimdor's wild demigods to fight beside the mortal defenders.",
    "spoiler": 0
   },
   {
    "title": "The Fall at Ashenvale",
-   "body": "For ten millennia following the Great Sundering, Cenarius watched over Kalimdor and nurtured the Cenarion Circle alongside Malfurion. That vigilant watch ended during the Third War when the Warsong clan began harvesting timber in Ashenvale. Outraged by the destruction of sacred woodlands, Cenarius drove the invaders back until Grom Hellscream and his warriors partook of Mannoroth's demonic blood. Infused with demonic fury, the corrupted orcs overwhelmed the demigod and struck him down, casting a dark pall across nature's defenders.",
+   "body": "For ten thousand years after the Great Sundering, Cenarius watched over Kalimdor and nurtured the Cenarion Circle with Malfurion. During the Third War, the Warsong clan began cutting timber in Ashenvale. Angered by the ruin of sacred woodlands, Cenarius drove the invaders back.\n\nThen Grom Hellscream and his warriors took Mannoroth's demonic blood. Filled with demonic fury, the corrupted orcs overwhelmed Cenarius and struck him down. Nature's defenders were left in deep sorrow.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "cenarius lore",
     "cenarius backstory"
    ],
-   "answer": "Cenarius is an ancient demigod of nature, the patron saint of druids, and the guardian of Azeroth's wilderness. Born of the moon goddess Elune and the demigod Malorne, he was fostered by the Dragon Aspect Ysera and became the supreme champion of the wild lands."
+   "answer": "Cenarius is the ancient demigod who guarded Azeroth's wilderness and guided druids. Elune, goddess of the moon, and Malorne, the demigod, were his parents; Ysera fostered him."
   },
   {
    "q": "Who are Cenarius's children?",
@@ -42,7 +42,7 @@
     "keepers of the grove father",
     "cenarius daughters"
    ],
-   "answer": "His sons are the Keepers of the Grove, such as Keeper Remulos and Ordanus, while his daughters are the fey dryads. The centaur race traces their lineage to his son Zaetar, making Cenarius their grandfather."
+   "answer": "Cenarius fathered the Keepers of the Grove, including Keeper Remulos and Ordanus, and the dryads. The centaur trace their lineage to his son Zaetar, making Cenarius their grandfather."
   },
   {
    "q": "How did Malfurion learn druidism from Cenarius?",
@@ -50,7 +50,7 @@
     "malfurion first druid",
     "how did malfurion learn druidism"
    ],
-   "answer": "Before the War of the Ancients, Malfurion sought out the mythical demigod alongside Illidan and Tyrande. Recognizing Malfurion's rare dedication and balance, Cenarius instructed him in the sacred arts of nature, making him the first mortal druid."
+   "answer": "Before the War of the Ancients, Malfurion sought Cenarius with Illidan and Tyrande. Cenarius recognized Malfurion's rare dedication and balance, then taught him the arts of nature and made him the first mortal druid."
   },
   {
    "q": "What happened to Cenarius in the Third War?",
@@ -59,7 +59,7 @@
     "who killed cenarius",
     "cenarius death"
    ],
-   "answer": "During the Third War, the orcish Warsong clan harvested timber in Ashenvale, provoking Cenarius's wrath. Desperate to overcome the demigod's power, chieftain Grom Hellscream drank from a pool tainted with the blood of Mannoroth, gaining demonic strength to slay Cenarius."
+   "answer": "During the Third War, the Warsong clan cut timber in Ashenvale, drawing Cenarius's wrath. Grom Hellscream drank from a pool tainted by Mannoroth's blood, gained demonic strength, and slew the demigod."
   },
   {
    "q": "What is Cenarius's connection to the tauren?",
@@ -67,7 +67,7 @@
     "tauren cenarius",
     "did cenarius teach tauren"
    ],
-   "answer": "Tauren druids follow the path Cenarius first taught to Malfurion Stormrage, and through Hamuul Runetotem's place in the Cenarion Circle, the tauren now study his ways alongside the night elves."
+   "answer": "Tauren druids follow the path Cenarius taught Malfurion Stormrage. Through Hamuul Runetotem's place in the Cenarion Circle, the tauren study Cenarius's ways alongside the night elves."
   },
   {
    "q": "What is the Cenarion Circle?",
@@ -75,25 +75,25 @@
     "what is cenarion circle",
     "who founded cenarion circle"
    ],
-   "answer": "The Cenarion Circle is the monastic order of druids dedicated to preserving nature's balance, studying the Emerald Dream, and guarding the sacred forests. It was founded in honor of Cenarius by his disciple Malfurion Stormrage."
+   "answer": "The Cenarion Circle is an order of druids devoted to preserving nature's balance, studying the Emerald Dream, and guarding sacred forests. Malfurion Stormrage founded it in Cenarius's honor."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Every druid traces their path directly back to Cenarius, the eternal patron whose lessons to Malfurion established the druidic ways."
+   "text": "As a druid, your path traces back to Cenarius. His lessons to Malfurion established the druidic ways."
   },
   {
    "target": "race:NightElf",
-   "text": "The kaldorei revere Cenarius as a divine guide and ally whose death at the hands of the Warsong orcs remains an unforgiven tragedy."
+   "text": "As a night elf, you revere Cenarius as a divine guide and ally. His death at the hands of the Warsong orcs remains an unforgiven tragedy."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren druids honor Cenarius's teachings, walking his path alongside the night elves of the Cenarion Circle."
+   "text": "As a tauren, you honor Cenarius's teachings and walk his path alongside the night elves of the Cenarion Circle."
   },
   {
    "target": "race:Orc",
-   "text": "The slaying of Cenarius by Grom Hellscream stands as a grim reminder of the blood curse and the destructive costs of demonic servitude."
+   "text": "As an orc, Cenarius's slaying by Grom Hellscream recalls the blood curse and the cost of demonic servitude."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Cenarius"
- ]
+ ],
+ "style": 2
 }

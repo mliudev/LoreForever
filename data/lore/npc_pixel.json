@@ -8,11 +8,11 @@
   "wiki": "Pixel",
   "refs": 2
  },
- "summary": "At Splintertree Post, Pixel carries Warsong goods through dangerous lands for a fee. She keeps the saw blades until she is paid, and looks for other cargo worth carrying.",
+ "summary": "At Splintertree Post, Pixel carries Warsong goods through dangerous Ashenvale for a fee. She keeps the saw blades until paid and seeks other cargo worth carrying.",
  "sections": [
   {
    "title": "Business in the Deep Woods",
-   "body": "Pixel carries freight for the Warsong Clan from Splintertree Post, where the Horde holds a fortified post in Ashenvale. She takes goods through active war zones to support the clan’s logging work, but coin and contracts guide her choices. The saw blades stay with her until she receives payment. For this shipment, she wants a deadly blunderbuss to guard herself on the road. Pixel also pays travelers for satyr horns, which are in high demand in Ratchet.",
+   "body": "From Splintertree Post, where the Horde holds a fortified post in Ashenvale, Pixel carries freight for the Warsong Clan. She takes goods through active war zones to support the clan’s logging work, guided by coin and contracts.\n\nThe saw blades stay with her until she is paid. For this shipment, she wants a deadly blunderbuss to guard herself on the road. She also pays travelers for satyr horns, much sought after in Ratchet.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "pixel lore",
     "splintertree goblin"
    ],
-   "answer": "Pixel is a goblin courier working from Splintertree Post in eastern Ashenvale. She carries cargo through dangerous lands and has a shipment of saw blades for the Warsong logging effort."
+   "answer": "Pixel is a goblin courier working from Splintertree Post in eastern Ashenvale. She carries cargo through dangerous lands, including saw blades for the Warsong logging effort."
   },
   {
    "q": "Why won't Pixel hand over the saw blades immediately?",
@@ -33,7 +33,7 @@
     "warsong saw blades delivery",
     "saw blades quest"
    ],
-   "answer": "Pixel holds on to the saw blades until she receives payment or trade goods to cover her fee. Even with the Horde’s urgent needs in Ashenvale, she sticks to her business terms."
+   "answer": "Pixel keeps the saw blades until she receives payment or trade goods to cover her fee. Even with the Horde’s urgent needs in Ashenvale, she holds to her business terms."
   },
   {
    "q": "Why does she want satyr horns?",
@@ -80,5 +80,5 @@
  "attribution": [
   "Pixel"
  ],
- "style": 1
+ "style": 2
 }

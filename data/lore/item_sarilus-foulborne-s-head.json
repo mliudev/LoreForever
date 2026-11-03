@@ -10,11 +10,11 @@
    "quest:1017"
   ]
  },
- "summary": "Across the border from the Barrens, Sarilus Foulborne's Head reaches Ashenvale as proof of the sorcerer's death. The undead mage defiled Ashenvale's waters, and the Sentinels demanded his head.",
+ "summary": "Across the border from the Barrens, Sarilus Foulborne's Head reaches Ashenvale as proof the sorcerer is dead. He defiled Ashenvale's waters, and the Sentinels demanded his head.",
  "sections": [
   {
    "title": "A Defiler Silenced",
-   "body": "Sarilus Foulborne was a Forsaken spellcaster atop Dreadmist Peak in the northern Barrens. He drew the night elves' anger by corrupting and binding swarms of water elementals. From Silverwind Refuge, Sentinel Velene Starstrike recognized his work and sent champions across the frontier into Horde territory to end his experiments. Starstrike would accept only his severed head as proof that the mocking mage was dead, and that the troubled waters of Ashenvale might know some peace.",
+   "body": "Sarilus Foulborne was a Forsaken spellcaster who established himself atop Dreadmist Peak in the northern Barrens. He angered the night elves by corrupting and binding swarms of water elementals.\n\nFrom Silverwind Refuge, Sentinel Velene Starstrike recognized his work and sent champions across the frontier into Horde territory to end his experiments. Starstrike would accept only his severed head as proof that the mocking mage was dead, and that Ashenvale's troubled waters might know some peace.",
    "spoiler": 1
   }
  ],
@@ -90,5 +90,5 @@
   "Sarilus Foulborne's Head",
   "Mage Summoner"
  ],
- "style": 1
+ "style": 2
 }

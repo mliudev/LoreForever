@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ravaged Twilight Camp"
  },
- "summary": "Tucked away in the secluded Crystal Vale of northwestern Silithus, the Ravaged Twilight Camp sits ruined among towering mineral formations. It serves as an isolated redoubt for the eccentric hermit Highlord Demitrian, a devotee of the Windseeker.",
+ "summary": "In the Crystal Vale of northwestern Silithus, Ravaged Twilight Camp lies broken and quiet. Highlord Demitrian remains there alone, devoted to the Windseeker.",
  "sections": [
   {
    "title": "A Hermit's Ruin in the Vale",
-   "body": "While the Twilight's Hammer maintains numerous active outposts across the sands of Silithus, this broken encampment in the Crystal Vale tells a different story. Nestled far from the primary cult fortresses, the camp lies largely ruined and deserted, save for Highlord Demitrian. A servant of Thunderaan, Demitrian lingers amidst the stones, seemingly abandoned by or detached from the wider Twilight hierarchy while brooding over elemental bindings and the lost power of the Windseeker.",
+   "body": "Twilight's Hammer keeps outposts across Silithus, yet its broken camp in the Crystal Vale is quiet and nearly deserted. Highlord Demitrian remains among the stones. He serves Thunderaan and broods over elemental bindings and the Windseeker's lost power, apart from the wider Twilight hierarchy.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "ruined twilight camp silithus",
     "crystal vale camp"
    ],
-   "answer": "It is a battered, ruined outpost located within the Crystal Vale in northwestern Silithus, notable as the personal dwelling of Highlord Demitrian."
+   "answer": "Ravaged Twilight Camp lies in ruins in the Crystal Vale of northwestern Silithus. Highlord Demitrian makes his home there."
   },
   {
    "q": "Who lives here?",
@@ -32,7 +32,7 @@
     "highlord demitrian location",
     "camp npc"
    ],
-   "answer": "The sole notable resident is Highlord Demitrian, a solitary figure deeply tied to elemental lore and the bindings of Prince Thunderaan."
+   "answer": "Highlord Demitrian is the camp's sole notable resident. He is tied to elemental lore and the bindings of Prince Thunderaan."
   },
   {
    "q": "Why is the camp ruined?",
@@ -41,7 +41,7 @@
     "what destroyed the camp",
     "who attacked the camp"
    ],
-   "answer": "Cult records mention the site's ruined state, but Demitrian remains amidst the wreckage, isolated from the rest of the Twilight's Hammer operating in Silithus."
+   "answer": "Cult records describe the camp as ruined. Highlord Demitrian remains among the wreckage, apart from Twilight's Hammer forces elsewhere in Silithus."
   },
   {
    "q": "Is the Twilight's Hammer hostile here?",
@@ -49,17 +49,17 @@
     "are cultists attacking here",
     "is demitrian hostile"
    ],
-   "answer": "Unlike the bustling Twilight camps across southern and central Silithus, this camp lacks aggressive cult patrols, leaving Demitrian to brood in peace."
+   "answer": "No aggressive Twilight's Hammer patrols are in the camp. Unlike the camps across southern and central Silithus, it leaves Highlord Demitrian to brood in peace."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Any warrior hunting rumors of the legendary blade Thunderfury, Blessed Blade of the Windseeker, will eventually find their path leading straight to Highlord Demitrian in this forsaken camp."
+   "text": "As a warrior seeking rumors of Thunderfury, Blessed Blade of the Windseeker, your path leads to Highlord Demitrian in this forsaken camp."
   },
   {
    "target": "class:Paladin",
-   "text": "Those seeking the legendary elemental armaments of antiquity must seek out Demitrian in the Crystal Vale to unravel the vessel of Prince Thunderaan."
+   "text": "As a paladin seeking the legendary elemental armaments of antiquity, seek Demitrian in the Crystal Vale to unravel the vessel of Prince Thunderaan."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Ravaged Twilight Camp"
- ]
+ ],
+ "style": 2
 }

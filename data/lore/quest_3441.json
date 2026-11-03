@@ -24,16 +24,16 @@
    "Torch of Retribution"
   ]
  },
- "summary": "Kalaran Windblade asks you to hear his tale in Searing Gorge. His father is dead at the hands of what lurks in the cauldron, and the Stormwind magistrate would not listen. Kalaran seeks vengeance and wants an adventurer to act for him.",
+ "summary": "In Searing Gorge, Kalaran Windblade tells you how his father died and why he seeks vengeance. Stormwind would not hear his plea, so he turns to a brave adventurer.",
  "sections": [
   {
    "title": "A Father Slain",
-   "body": "Kalaran says the filth in the cauldron killed his father. He pleaded with the Stormwind magistrate for help, but the pleas fell on deaf ears. Stormwind, he says, would rather not admit this part of the world exists, let alone send soldiers to see justice done here.",
+   "body": "Kalaran says the filth in the cauldron killed his father. He pleaded with the Stormwind magistrate, but no one answered. He says Stormwind would rather deny this part of the world exists than send soldiers to see justice done.",
    "spoiler": 0
   },
   {
    "title": "A Call for Vengeance",
-   "body": "Kalaran wants vengeance, plain and simple. He stands alone apart from a lumbering oaf of a squire, and the Dark Iron dwarves, along with Ragnaros's beasts, would crush him by himself. He trusts that a brave adventurer could handle the denizens of the cauldron, and he promises riches and wealth beyond all dreams to whoever helps.",
+   "body": "Kalaran wants vengeance. Only a lumbering oaf of a squire stands with him, while the Dark Iron dwarves and Ragnaros's beasts could crush him alone. So he trusts a brave adventurer to face the cauldron's denizens. For anyone who helps, he promises riches beyond all dreams.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "kalaran story",
     "kalaran lore"
    ],
-   "answer": "Kalaran Windblade is a man in Searing Gorge whose father was slain, and who seeks vengeance. He has a squire with him."
+   "answer": "Kalaran Windblade is a man in Searing Gorge whose father was slain. His squire stands with him as he seeks vengeance."
   },
   {
    "q": "Why is Kalaran seeking retribution?",
@@ -54,7 +54,7 @@
     "kalaran revenge",
     "what happened to kalaran father"
    ],
-   "answer": "Kalaran blames the filth living in the cauldron for his father's death, and he wants vengeance."
+   "answer": "Kalaran blames the filth in the cauldron for killing his father, and seeks vengeance."
   },
   {
    "q": "Why didn't Stormwind help Kalaran?",
@@ -63,7 +63,7 @@
     "why wont stormwind help",
     "stormwind magistrate"
    ],
-   "answer": "Kalaran says the Stormwind magistrate ignored his pleas. By his account Stormwind does not wish to admit this part of the world exists, much less send soldiers to see justice done."
+   "answer": "Kalaran says the Stormwind magistrate ignored his pleas. He believes Stormwind would rather deny this part of the world exists than send soldiers to see justice done."
   },
   {
    "q": "What threats does Kalaran mention?",
@@ -72,7 +72,7 @@
     "cauldron enemies",
     "kalaran enemies"
    ],
-   "answer": "He names the Dark Iron dwarves and Ragnaros's beasts, and says either would overwhelm him alone."
+   "answer": "Kalaran names the Dark Iron dwarves and Ragnaros's beasts as threats that could overwhelm him alone."
   },
   {
    "q": "What does Kalaran promise in exchange for help?",
@@ -80,7 +80,7 @@
     "kalaran offer",
     "what does kalaran offer"
    ],
-   "answer": "He promises riches and wealth beyond anyone's wildest dreams to a brave adventurer who helps him."
+   "answer": "Kalaran promises riches beyond all dreams to a brave adventurer who helps him."
   }
  ],
  "angles": [],
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "Divine Retribution"
- ]
+ ],
+ "style": 2
 }

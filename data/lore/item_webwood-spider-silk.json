@@ -10,11 +10,11 @@
    "quest:488"
   ]
  },
- "summary": "Webwood Spider Silk is gathered from Webwood Lurkers in the woods of Teldrassil. Crafters use spider silk in many ways, but these swatches draw the interest of suspicious figures among the World Tree’s boughs.",
+ "summary": "Among Teldrassil’s boughs, Webwood Spider Silk draws the interest of suspicious figures. Webwood Lurkers spin it in the woods, and crafters put spider silk to many uses.",
  "sections": [
   {
    "title": "A Dubious Reagent",
-   "body": "Webwood Lurkers around Dolanaar spin a fine, strong thread that is dangerous to gather. Zenn Foulhoof, a satyr along the forest road, asks young adventurers to collect the silk with nightsaber fangs and strigid owl feathers. He says these rare reagents are needed for his forest business, and newcomers gather them without asking about his corrupt nature or true motives.",
+   "body": "Webwood Lurkers near Dolanaar spin a fine, strong thread that is perilous to gather. Zenn Foulhoof, a satyr along the forest road, asks young adventurers for the silk, nightsaber fangs, and strigid owl feathers. He claims these rare reagents serve his forest business. Newcomers gather them without asking about his corrupt nature or true motives.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops webwood spider silk",
     "where to get webwood spider silk"
    ],
-   "answer": "Webwood Spider Silk comes from Webwood Lurkers and related spiders in Teldrassil’s wilds, especially around Dolanaar."
+   "answer": "Webwood Spider Silk comes from Webwood Lurkers and related spiders in Teldrassil’s wilds, especially near Dolanaar."
   },
   {
    "q": "Who wants this silk?",
@@ -35,7 +35,7 @@
     "webwood silk quest giver",
     "zenn foulhoof silk"
    ],
-   "answer": "Zenn Foulhoof wants the silk. The satyr conceals his dealings just north of the path between Shadowglen and Dolanaar, and asks for it alongside owl feathers and predator fangs."
+   "answer": "Zenn Foulhoof wants the silk. The satyr conceals his dealings just north of the path between Shadowglen and Dolanaar, and asks for it with owl feathers and predator fangs."
   },
   {
    "q": "Why does Zenn Foulhoof want Webwood Spider Silk?",
@@ -43,7 +43,7 @@
     "zenn foulhoof motive",
     "why does zenn want silk"
    ],
-   "answer": "Zenn says he needs the silk as a reagent for his forest business, but keeps its details to himself."
+   "answer": "Zenn says he needs the silk as a reagent for his forest business, but keeps the details to himself."
   },
   {
    "q": "Can players use Webwood Spider Silk for tailoring?",
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf leaving Shadowglen, take care with the creatures you hunt, especially when a solitary satyr near your heartland presses you to gather them."
+   "text": "As a young night elf leaving Shadowglen, take care with the creatures you hunt, especially when a solitary satyr near your heartland asks you to gather them."
   },
   {
    "target": "profession:Tailoring",
@@ -87,5 +87,5 @@
   "Webwood Spider Silk",
   "Zenn's Bidding"
  ],
- "style": 1
+ "style": 2
 }

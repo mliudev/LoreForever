@@ -17,21 +17,21 @@
   "wiki": "Deepmoss Spider Eggs",
   "chain": []
  },
- "summary": "Mebok Mizzyrix sees a chance to sell Deepmoss Spider Eggs to Booty Bay. Spider egg omelettes have become a craze there, and he sends travelers into the Stonetalon Mountains to gather fresh clutches for the overseas trade.",
+ "summary": "In Ratchet, Mebok Mizzyrix sees a chance to sell Deepmoss Spider Eggs to Booty Bay. Spider egg omelettes have become a craze there, so he sends travelers into the Stonetalon Mountains to gather fresh clutches for trade across the sea.",
  "sections": [
   {
    "title": "A Taste for Luxury",
-   "body": "Booty Bay’s wealthy patrons and eccentric pirates have taken to spider egg omelettes, driving demand for rare ingredients across the Great Sea. Ratchet merchant Mebok Mizzyrix sees a chance to make a fortune by supplying the southern port. The Eastern Kingdoms have no supply of these spiders, so Mebok looks to Kalimdor’s wilderness for the eggs.",
+   "body": "Wealthy patrons and eccentric pirates in Booty Bay have taken to spider egg omelettes. Their taste has driven demand for rare ingredients across the Great Sea. Ratchet merchant Mebok Mizzyrix sees a chance to make a fortune by supplying the southern port. The Eastern Kingdoms have no spiders that provide these eggs, so Mebok looks to Kalimdor’s wilderness.",
    "spoiler": 0
   },
   {
    "title": "Nests in the Mountains",
-   "body": "Deepmoss spider eggs lie in the Stonetalon Mountains, where the Venture Company has cut timber. You can find clutches beneath the trees still standing at Windshear Crag, or farther into the web covered depths of Sishir Canyon. Gathering them means facing venomous bites and thick infestations. Even seasoned scavengers may find the swarms hard to stomach.",
+   "body": "Deepmoss spider eggs lie in the Stonetalon Mountains, where the Venture Company has cut timber. Find clutches beneath the trees still standing at Windshear Crag, or farther in, among the web-covered depths of Sishir Canyon. Gathering them means facing venomous bites and thick infestations. Even seasoned scavengers may find the swarms hard to stomach.",
    "spoiler": 0
   },
   {
    "title": "The Steamer Clam Express",
-   "body": "Fresh eggs must cross the sea before they spoil or hatch. Mebok works with Ratchet’s Wharfmaster Dizzywig to book freight on goblin merchant ships bound for the docks of Stranglethorn Vale. Once the eggs are packed into crates, Mebok earns a tidy profit from the high seas trade in fine food.",
+   "body": "Fresh eggs must cross the sea before they spoil or hatch. Mebok works with Ratchet’s Wharfmaster Dizzywig to book freight aboard goblin merchant ships bound for the docks of Stranglethorn Vale. Once the eggs are packed into crates, Mebok earns a tidy profit from the high seas trade in fine food.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "mebok spider eggs",
     "what are eggs for"
    ],
-   "answer": "Booty Bay has developed a taste for spider egg omelettes, but lacks a local supply of the eggs. Mebok Mizzyrix sees a chance for Ratchet’s goblin traders to profit by supplying the port."
+   "answer": "Booty Bay has developed a taste for spider egg omelettes, but has no local supply of the eggs. Mebok Mizzyrix sees a chance for Ratchet’s goblin traders to profit by supplying the port."
   },
   {
    "q": "Where can the deepmoss spider eggs be found?",
@@ -60,7 +60,7 @@
     "sishir canyon warning",
     "weak stomach sishir"
    ],
-   "answer": "Sishir Canyon holds massive spider swarms, dense cobwebs, and partially digested prey. Mebok warns that anyone with a weak stomach should gather eggs beneath the trees at Windshear Crag instead."
+   "answer": "Sishir Canyon holds massive spider swarms, dense cobwebs, and partially digested prey. Mebok warns anyone with a weak stomach to gather eggs beneath the trees at Windshear Crag instead."
   },
   {
    "q": "Who ships the eggs once collected?",
@@ -85,7 +85,7 @@
     "is this quest neutral",
     "horde or alliance spider eggs"
    ],
-   "answer": "Yes. Ratchet is an open port run by the Steamwheedle Cartel, and Mebok Mizzyrix offers the work to both Alliance and Horde travelers."
+   "answer": "Yes. Ratchet is an open port run by the Steamwheedle Cartel, and Mebok Mizzyrix offers the work to Alliance and Horde travelers."
   }
  ],
  "angles": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Deepmoss Spider Eggs"
  ],
- "style": 1
+ "style": 2
 }

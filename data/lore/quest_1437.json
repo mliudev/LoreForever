@@ -27,16 +27,16 @@
   ],
   "category": "Desolace"
  },
- "summary": "Vahlarriel Demonslayer has come to Desolace to learn what became of two missing nobles of House Malem, a Darnassian merchant family. Their father fears the worst, and the last word of the pair places them in the Stonetalon Mountains some weeks back. Vahlarriel asks you to find their wagon.",
+ "summary": "In Desolace, Vahlarriel Demonslayer searches for two missing nobles of House Malem. Their father fears the worst, and the siblings were last reported crossing the Stonetalon Mountains some weeks ago. Vahlarriel asks you to find their wagon.",
  "sections": [
   {
    "title": "Two Missing Nobles",
-   "body": "Vahlarriel Demonslayer is looking for Tyranis and Dalinda Malem, whose father fears the worst and has charged Vahlarriel with doing everything possible to find them. The search has barely begun, and Vahlarriel hopes it will not keep them in Desolace long. The pair were last reported crossing the Stonetalon Mountains some weeks ago. Vahlarriel asks you to find their wagon in Desolace and to come at once when you do. Its charred remains lie there, with a chest among them.",
+   "body": "Vahlarriel Demonslayer seeks Tyranis and Dalinda Malem. Their father has charged Vahlarriel with doing everything possible to find them. The search has only begun, and Vahlarriel hopes it will not keep them in Desolace long. The siblings were last reported crossing the Stonetalon Mountains some weeks ago. You are asked to find their wagon in Desolace and return at once. Its charred remains lie there, with a chest among them.",
    "spoiler": 0
   },
   {
    "title": "Among the Wreckage",
-   "body": "Rummaging through the wreck, you can tell the wagon fell to spells and weapons alike. The fight looks to have been brief and lopsided, with no blood and no bodies left behind. Whoever did this was efficient and swift.",
+   "body": "The wreck bears marks left by spells and weapons. The fight seems brief and one-sided, yet no blood or bodies remain. Whoever struck was swift and efficient.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who are the nobles",
     "house malem missing children"
    ],
-   "answer": "Tyranis and Dalinda Malem, two nobles of House Malem, a Darnassian merchant family."
+   "answer": "Vahlarriel seeks Tyranis and Dalinda Malem, two nobles of House Malem, a Darnassian merchant family."
   },
   {
    "q": "Where were the siblings last heard from?",
@@ -57,7 +57,7 @@
     "where did they go",
     "wagon route"
    ],
-   "answer": "They were last reported crossing the Stonetalon Mountains some weeks before Vahlarriel spoke to you."
+   "answer": "Crossing the Stonetalon Mountains, some weeks ago, by the last report."
   },
   {
    "q": "Why is Vahlarriel searching?",
@@ -65,7 +65,7 @@
     "who hired vahlarriel",
     "who wants the siblings found"
    ],
-   "answer": "Their father fears the worst, and Vahlarriel has been charged with doing everything possible to find his missing children."
+   "answer": "Their father fears the worst. He has charged Vahlarriel with doing everything possible to find his missing children."
   },
   {
    "q": "What does Vahlarriel want you to find?",
@@ -73,7 +73,7 @@
     "how does vahlarriel search start",
     "what is the first step"
    ],
-   "answer": "The wagon of Tyranis and Dalinda Malem in Desolace. If you find it, Vahlarriel asks you to come at once."
+   "answer": "Vahlarriel asks you to find Tyranis and Dalinda Malem's wagon in Desolace and return at once if you find it."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Vahlarriel's Search"
- ]
+ ],
+ "style": 2
 }

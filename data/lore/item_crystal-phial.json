@@ -10,11 +10,11 @@
    "quest:921"
   ]
  },
- "summary": "In Shadowglen, Tenaron Stormgrip entrusts young night elves with a Crystal Phial. They carry it to a nearby moonwell to draw sacred water for rites honoring and nourishing Teldrassil.",
+ "summary": "In Shadowglen, Tenaron Stormgrip gives young night elves a Crystal Phial to carry to a nearby moonwell. There they draw sacred water for rites honoring and nourishing Teldrassil.",
  "sections": [
   {
    "title": "A Vessel for Sacred Waters",
-   "body": "Young night elves receive a Crystal Phial atop Aldrassil. Tenaron Stormgrip sends them to the moonwell just north of the bough to gather its glowing waters. The delicate vessel holds water touched by the sacred legacy of the Well of Eternity. Returning with a Filled Crystal Phial begins the Crown of the Earth pilgrimage, teaching the young kaldorei about the balance of magic, history, and nature in their new island home.",
+   "body": "Atop Aldrassil, Tenaron Stormgrip gives young night elves a Crystal Phial. He sends them to the moonwell just north of the bough to gather its glowing waters. The delicate vessel holds water touched by the sacred legacy of the Well of Eternity.\n\nWhen they return with a Filled Crystal Phial, the Crown of the Earth pilgrimage begins. The young kaldorei learn about the balance of magic, history, and nature in their new island home.",
    "spoiler": 0
   }
  ],
@@ -87,5 +87,5 @@
   "Crystal Phial",
   "Crown of the Earth"
  ],
- "style": 1
+ "style": 2
 }

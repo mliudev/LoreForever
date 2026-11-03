@@ -8,21 +8,21 @@
   "wiki": "Thunderaan",
   "refs": 4
  },
- "summary": "Prince Thunderaan is the ancient Prince of Air, a colossal elemental struck down and betrayed during the ancient wars between fire and wind. Consumed in part by Ragnaros the Firelord, his remnant essence was sealed into shattered bindings entrusted to the Firelord's lieutenants. Adventurers who recover these relics can seek out Highlord Demitrian in Silithus to unleash him once more.",
+ "summary": "In Silithus, Thunderaan's scattered bindings may open the way to his return. Ragnaros struck down the Prince of Air and sealed away the essence he could not consume. Highlord Demitrian waits for those who recover both halves.",
  "sections": [
   {
    "title": "The Elemental Sundering",
-   "body": "Long ago, during the Elemental Sundering—a five-thousand-year clash fought between the forces of fire and air deep within Azeroth—Ragnaros sought to destroy and consume Thunderaan. The Prince was ambushed and betrayed by Ragnaros's powerful lieutenants, Baron Geddon and Garr, before being struck down by the Firelord's hammer, Sulfuras. Although defeated, Thunderaan's essence proved too mighty for Ragnaros to fully absorb.",
+   "body": "During the Elemental Sundering, fire and air warred deep within Azeroth for five thousand years. Ragnaros sought Thunderaan's destruction and power. Baron Geddon and Garr, his lieutenants, ambushed and betrayed the Prince. Then Ragnaros struck him down with Sulfuras, the Firelord's hammer. Thunderaan's essence was too mighty for Ragnaros to consume in full.",
    "spoiler": 0
   },
   {
    "title": "The Shattered Talisman",
-   "body": "Unable to entirely devour the Prince of Air, Ragnaros sealed what little remained of Thunderaan's essence inside a talisman of elemental binding. To prevent the Prince from ever reforming, the Firelord shattered the talisman into two flawless halves. He entrusted one piece to Baron Geddon and the other to Garr, hiding both within the volcanic depths of the Molten Core beneath Blackrock Mountain.",
+   "body": "Ragnaros could not devour all of the Prince of Air's essence. He sealed what remained in a talisman of elemental binding, then shattered it into two flawless halves so Thunderaan could not reform. Baron Geddon received one half and Garr the other. Both were hidden in the volcanic depths of the Molten Core beneath Blackrock Mountain.",
    "spoiler": 0
   },
   {
    "title": "Rebirth in Silithus",
-   "body": "Those daring enough to invade the Molten Core can wrench both halves of the binding from Ragnaros's lieutenants. Presenting these fragments to Highlord Demitrian, an eccentric hermit allied with the Twilight's Hammer in the arid dunes of Silithus, initiates a ritual to manifest the Prince of Air. Yet the newborn elemental arises not in gratitude, but in raw, cyclonic fury, forcing summoners to strike him down to claim his legendary blade, Thunderfury, Blessed Blade of the Windseeker.",
+   "body": "Highlord Demitrian, an eccentric hermit allied with the Twilight's Hammer in Silithus's arid dunes, performs a ritual when both binding fragments are brought to him. The ritual manifests Thunderaan, the Prince of Air, and his fury brings the summoners to battle. His legendary blade is Thunderfury, Blessed Blade of the Windseeker.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "prince of air",
     "thunderaan lore"
    ],
-   "answer": "Thunderaan is the Prince of Air, a noble and devastating elemental lord aligned with the wind. Long ago, he was overwhelmed by Ragnaros the Firelord and sealed away in an elemental prison."
+   "answer": "Thunderaan is the Prince of Air, a noble and devastating elemental lord aligned with the wind. Ragnaros overwhelmed him long ago and sealed away the essence that remained."
   },
   {
    "q": "How was Thunderaan defeated originally?",
@@ -43,7 +43,7 @@
     "ragnaros vs thunderaan",
     "elemental sundering"
    ],
-   "answer": "During the Elemental Sundering, Ragnaros conspired with his lieutenants Baron Geddon and Garr to betray the Prince. Thunderaan was crushed by Sulfuras, and while Ragnaros feasted on his essence, he could not digest it entirely, forcing him to lock the remainder inside a split talisman."
+   "answer": "During the Elemental Sundering, Baron Geddon and Garr betrayed Thunderaan alongside Ragnaros. Ragnaros crushed the Prince with Sulfuras and consumed part of his essence, but could not digest it all. He sealed the remainder in a talisman split in two."
   },
   {
    "q": "Where are the pieces of his binding held?",
@@ -52,7 +52,7 @@
     "bindings of thunderaan location",
     "garr and geddon bindings"
    ],
-   "answer": "The two flawless halves of Thunderaan's binding are held by Garr and Baron Geddon, deep inside the Molten Core under Blackrock Mountain."
+   "answer": "Garr and Baron Geddon hold the two flawless halves of Thunderaan's binding deep inside the Molten Core beneath Blackrock Mountain."
   },
   {
    "q": "Why is Highlord Demitrian in Silithus involved?",
@@ -61,7 +61,7 @@
     "highlord demitrian thunderaan",
     "how to summon thunderaan"
    ],
-   "answer": "Highlord Demitrian is a disciple of the Twilight's Hammer residing in Silithus who possesses the arcane and elemental knowledge needed to reconstitute the shattered talisman and summon the Prince of Air into Azeroth."
+   "answer": "Highlord Demitrian, allied with the Twilight's Hammer in Silithus, knows the arts needed to reconstitute the shattered talisman and summon the Prince of Air into Azeroth."
   },
   {
    "q": "What happens when Thunderaan is summoned in Silithus?",
@@ -69,7 +69,7 @@
     "thunderaan fight",
     "what happens after summoning"
    ],
-   "answer": "Demitrian can perform a dangerous ritual using the recovered bindings. What emerges is discovered when the ritual is completed."
+   "answer": "Demitrian performs a dangerous ritual with the recovered bindings. What emerges becomes clear when the ritual is complete."
   },
   {
    "q": "What weapon is tied to Thunderaan?",
@@ -78,21 +78,21 @@
     "windseeker sword",
     "thunderaan sword"
    ],
-   "answer": "Thunderfury, Blessed Blade of the Windseeker, is the legendary sword tied to the Prince of Air. Its fate is uncovered through Demitrian's ritual."
+   "answer": "Thunderfury, Blessed Blade of the Windseeker, is the legendary sword tied to the Prince of Air. Demitrian's ritual reveals its fate."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As spiritual custodians of the elements, shaman recognize Thunderaan as one of the purest and most wrathful embodiments of air and lightning on Azeroth."
+   "text": "As a shaman, you know Thunderaan as a pure and wrathful embodiment of air and lightning, and a spiritual custodian of the elements."
   },
   {
    "target": "class:Warrior",
-   "text": "Warriors seek the legend of Thunderfury, the storm-infused sword associated with the Prince of Air."
+   "text": "As a warrior, you seek the legend of Thunderfury, the storm-infused sword associated with the Prince of Air."
   },
   {
    "target": "class:Rogue",
-   "text": "Rogues with a taste for unmatched speed and lightning-quick combat covet the Prince of Air's fallen essence, bound within the iconic blade Thunderfury."
+   "text": "As a rogue, you covet the Prince of Air's fallen essence, bound within Thunderfury, for its unmatched speed and lightning-quick combat."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Thunderaan"
- ]
+ ],
+ "style": 2
 }

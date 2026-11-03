@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Earth Mother"
  },
- "summary": "The Earth Mother is the supreme, benevolent creator deity worshipped by the tauren, revered as the living embodiment and architect of Azeroth's land and elements. In tauren myth, she shaped the mountains, plains, and seasons and set the sun and moon in the sky as her watchful eyes. Her presence permeates everyday tauren culture, guiding their reverence for nature, duty to the elements, and hopes for the afterlife.",
+ "summary": "Across Azeroth, the Earth Mother’s presence lives in the land and its elements. Tauren say she shaped the world, raised the sun and moon, and guides their lives and hopes for what follows death.",
  "sections": [
   {
    "title": "The Dawn of Creation",
-   "body": "Tauren creation myths tell that before day and night existed, the Earth Mother set about shaping Azeroth as a haven for her coming children. Scraping her nails across newly raised mountains sparked the world's first fires, while her hands carved rivers and ocean beds. Her laughter gave breath to the wind, and by lifting the primordial fogs into the sky, she brought the first rains, which coaxed grass, forests, and grain from the soil.",
+   "body": "Tauren creation myths say the Earth Mother shaped Azeroth before day and night, making it a haven for her coming children. She scraped her nails across the new mountains, and the first fires sparked. Her hands carved rivers and ocean beds, while her laughter gave breath to the wind. Then she lifted the primordial fogs into the sky. The first rains coaxed grass, forests, and grain from the soil.",
    "spoiler": 0
   },
   {
    "title": "Sun, Moon, and the Shu'halo",
-   "body": "Aided by the friendly elements, the Earth Mother brought forth twins: An'she, the sun, and Mu'sha, the moon. To rest while keeping them safe, she placed the radiant twins into her eyes, creating day, night, and the cycle of the seasons as she opened and closed each lid. Later, she pressed her heart against the fertile earth, breathing the song of life into the land to create the shu'halo, the first tauren. She charged the twins and the elements with teaching the young mortals how to hunt, build, dance, and live in harmony with the wilds.",
+   "body": "With help from the friendly elements, the Earth Mother brought forth twins: An'she, the sun, and Mu'sha, the moon. She placed the radiant twins in her eyes, so she could rest while keeping them safe. As she opened and closed each lid, day, night, and the seasons began.\n\nLater, she pressed her heart against the fertile earth and breathed the song of life into the land. There she created the shu'halo, the first tauren. She charged the twins and the elements to teach these young mortals to hunt, build, dance, and live in harmony with the wilds.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Heavens",
-   "body": "In time, the Earth Mother set An'she and Mu'sha in the sky, where the sun and moon keep watch over the land by day and by night. Tauren say that her spirit now dwells in the rivers, trees, plains, and mountains of the world, and that every lesser nature spirit springs from her and returns to her in the end.",
+   "body": "In time, the Earth Mother set An'she and Mu'sha in the sky to watch over the land by day and night. Tauren say her spirit now dwells in the world's rivers, trees, plains, and mountains. Every lesser nature spirit springs from her and returns to her in the end.",
    "spoiler": 0
   },
   {
    "title": "Living Legacy",
-   "body": "Tauren believe her spirit cradles Azeroth still. Her ear is attuned to the winds, hearing the prayers of her children, and her heart beats within the deep stone. Tauren hunters, shamans, and druids direct their thanks to her for every kill and harvest, believing that all life originates from her embrace and that every tauren's spirit returns to her soil upon death.",
+   "body": "Tauren believe the Earth Mother's spirit still cradles Azeroth. Her ear listens to the winds for her children's prayers, and her heart beats within the deep stone. Tauren hunters, shamans, and druids give thanks to her for every kill and harvest. They believe all life begins in her embrace, and every tauren spirit returns to her soil upon death.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "earthmother lore",
     "tauren god"
    ],
-   "answer": "The Earth Mother is the benevolent creator deity at the heart of tauren religion. According to their myths, she crafted the physical landscape of Azeroth, birthed the sun and the moon, and created the tauren race from the soil."
+   "answer": "Tauren worship the Earth Mother as the creator at the heart of their faith. Their myths say she shaped Azeroth's landscape, brought forth the sun and moon, and created the tauren from the soil."
   },
   {
    "q": "What are her eyes in the sky?",
@@ -47,7 +47,7 @@
     "tauren sun and moon",
     "earth mother eyes"
    ],
-   "answer": "Her right eye is An'she, the sun, who brings light and warmth to the world. Her left eye is Mu'sha, the White Lady moon, who brings peace and slumber. Tauren myth states she placed them in the heavens to watch over the land."
+   "answer": "An'she, the sun, is the Earth Mother's right eye and brings light and warmth to the world. Mu'sha, the White Lady moon, is her left eye and brings peace and slumber. Tauren myth says she set them in the heavens to watch over the land."
   },
   {
    "q": "Is the Earth Mother an actual living entity?",
@@ -56,7 +56,7 @@
     "does earth mother exist",
     "who is the earthmother"
    ],
-   "answer": "To the tauren, she is an active, loving spiritual reality whose essence permeates the natural world, stone, and winds. Shamans and druids channel nature and elemental spirits through her blessings, though whether she was a primordial giant, a world-soul, or an allegory remains a matter of faith."
+   "answer": "Tauren believe the Earth Mother is an active, loving spiritual presence throughout the natural world, stone, and winds. Shamans and druids channel nature and elemental spirits through her blessings. Whether she was a primordial giant, a world-soul, or an allegory remains a matter of faith."
   },
   {
    "q": "Do other races worship the Earth Mother?",
@@ -65,7 +65,7 @@
     "who worships earth mother",
     "do trolls believe in earth mother"
    ],
-   "answer": "While the tauren are her primary worshippers, other peoples who commune with the land acknowledge her. Some orc shamans and centaur invoke her name respectfully, and her blessings are frequently exchanged throughout the Horde."
+   "answer": "The tauren are the Earth Mother's primary worshippers, and other peoples who commune with the land acknowledge her. Some orc shamans and centaur invoke her name respectfully, and her blessings are often exchanged throughout the Horde."
   },
   {
    "q": "What do tauren believe happens after death?",
@@ -74,25 +74,25 @@
     "tauren burial beliefs",
     "returning to the earth mother"
    ],
-   "answer": "Tauren believe that because all living things were born from the Earth Mother's loving touch, every soul returns to her upon death. Traditional rites commit the deceased back to the land, trusting their spirits to rest peacefully in her eternal embrace."
+   "answer": "Tauren believe every soul returns to the Earth Mother after death, since all living things were born from her touch. Traditional rites commit the deceased to the land, trusting their spirits to rest in her eternal embrace."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Every aspect of shu'halo society\u2014from the nomad's respect for prey to the council of chieftains\u2014is rooted in the law, sacrifice, and enduring love of the Earth Mother."
+   "text": "As a shu'halo, your society's ways, from respect for prey to the council of chieftains, are rooted in the Earth Mother's law, sacrifice, and enduring love."
   },
   {
    "target": "class:Druid",
-   "text": "Tauren druids view their sacred bond with nature as a direct communion with the Earth Mother's living body, answering her ancient call to preserve the land's balance."
+   "text": "As a tauren druid, your bond with nature is direct communion with the Earth Mother's living body, answering her ancient call to preserve the land's balance."
   },
   {
    "target": "class:Shaman",
-   "text": "Tauren shamans honor the Earth Mother alongside the elemental spirits, remembering that the wind, water, fire, and stone were her first companions."
+   "text": "As a tauren shaman, you honor the Earth Mother alongside the elemental spirits, remembering that wind, water, fire, and stone were her first companions."
   },
   {
    "target": "faction:Horde",
-   "text": "Through their alliance with Mulgore, orcs and jungle trolls have grown familiar with tauren reverence for the Earth Mother, often invoking her name as a respectful blessing."
+   "text": "As an orc or jungle troll in the Horde, you know tauren reverence for the Earth Mother through your alliance with Mulgore. You may invoke her name as a respectful blessing."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Earth Mother"
- ]
+ ],
+ "style": 2
 }

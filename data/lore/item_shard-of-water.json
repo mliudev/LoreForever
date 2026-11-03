@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Token of Elemental Purity",
-   "body": "Shamans must understand balance, life, and preservation to master water. In the Call of Water, they travel to corrupted springs, even crossing the sea to blighted Silverpine Forest. After purifying the tainted waters, a shaman receives the Shard of Water. Returning the crystal token to Islen Waterseer on the rocky Barrens shore proves the initiate's worth and provides the final key to forge a Water Totem.",
+   "body": "To master water, a shaman must understand balance, life, and preservation. During the Call of Water, you travel to corrupted springs, crossing the sea to blighted Silverpine Forest. There, you purify the tainted waters and receive the Shard of Water. Then you return the crystal token to Islen Waterseer on the rocky Barrens shore. It proves your worth and provides the final key to forge a Water Totem.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does shard of water do",
     "why do i have shard of water"
    ],
-   "answer": "You bring the shard to Islen Waterseer on the Barrens' eastern shore as proof of your trial. Presenting it completes your communion with water and earns you a Water Totem."
+   "answer": "You bring the shard to Islen Waterseer on the Barrens' eastern shore as proof of your trial. Present it to complete your communion with water and earn a Water Totem."
   },
   {
    "q": "Who requires this item?",
@@ -35,7 +35,7 @@
     "where to turn in shard of water",
     "islen waterseer shard"
    ],
-   "answer": "Islen Waterseer, a shaman in a hut south of Ratchet along the Merchant Coast, asks for the shard to confirm you purified tainted water."
+   "answer": "Islen Waterseer asks for the shard to confirm you purified tainted water. She is a shaman in a hut south of Ratchet along the Merchant Coast."
   },
   {
    "q": "Why was the trial set as far away as Silverpine?",
@@ -44,7 +44,7 @@
     "why silverpine forest",
     "shaman silverpine"
    ],
-   "answer": "Water means healing and preservation, while corruption halts life. Silverpine's tainted waters test whether you can restore elemental harmony amid deep decay."
+   "answer": "Water means healing and preservation, while corruption halts life. The tainted waters of Silverpine test whether you can restore elemental harmony amid deep decay."
   }
  ],
  "angles": [
@@ -71,5 +71,5 @@
   "Shard of Water",
   "Call of Water (9)"
  ],
- "style": 1
+ "style": 2
 }

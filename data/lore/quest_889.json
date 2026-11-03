@@ -25,16 +25,16 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "At Camp Taurajo, Mangletooth offers travelers a burst of speed drawn from Agamaggan's blood shards. The captive quilboar's ritual helps them cross the Barrens swiftly.",
+ "summary": "At Camp Taurajo, Mangletooth offers travelers a swift crossing of the Barrens through Agamaggan’s blood shards. His ritual lends them the speed to pass through the plains.",
  "sections": [
   {
    "title": "A Gift from Blood Shards",
-   "body": "Crossing the Barrens quickly can help you avoid its beasts and centaur warbands. At Camp Taurajo, the captive quilboar Mangletooth draws on red crystalline blood shards scattered across the region. Give him ten, and he channels their lingering power into a burst of swiftness called the Spirit of the Wind.",
+   "body": "The Barrens are easier to cross quickly, before its beasts and centaur warbands find you. At Camp Taurajo, the captive quilboar Mangletooth draws on red crystalline blood shards scattered across the region. Bring him ten, and he channels their lingering power into a burst of swiftness called the Spirit of the Wind.",
    "spoiler": 0
   },
   {
    "title": "Agamaggan's Ancient Breath",
-   "body": "Quilboar honor Agamaggan, the Great Boar whose blood was spilled across central Kalimdor during the ancient War of the Ancients. Mangletooth knows the rites that channel that spilled blood, even in captivity. The ritual stirs wild vigor, lending a runner speed to match the zhevra herds. Though quilboar are bitter enemies of the Horde, Mangletooth shares Agamaggan's boons with travelers who bring him fresh shards.",
+   "body": "Quilboar honor Agamaggan, the Great Boar whose blood spilled across central Kalimdor during the ancient War of the Ancients. Though held captive, Mangletooth knows the rites that channel that blood. His ritual stirs wild vigor, lending a runner speed to match the zhevra herds. The quilboar are bitter enemies of the Horde, yet Mangletooth shares Agamaggan's boons with travelers who bring him fresh shards.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "spirit of the wind buff",
     "speed buff mangletooth"
    ],
-   "answer": "The Spirit of the Wind is a brief blessing Mangletooth grants at Camp Taurajo. For ten blood shards, he lends travelers speed to cross the Barrens."
+   "answer": "The Spirit of the Wind is a brief blessing Mangletooth grants at Camp Taurajo. Bring him ten blood shards, and he lends you speed to cross the Barrens."
   },
   {
    "q": "Who offers the Spirit of the Wind?",
@@ -55,7 +55,7 @@
     "mangletooth",
     "who turns in blood shards for speed"
    ],
-   "answer": "Mangletooth offers the blessing. He is a quilboar held prisoner by the Horde at Camp Taurajo, and performs the ritual when you earn his cooperation."
+   "answer": "Mangletooth offers the blessing. The Horde holds him prisoner at Camp Taurajo, where he performs the ritual when you earn his cooperation."
   },
   {
    "q": "Why does Mangletooth require blood shards?",
@@ -82,7 +82,7 @@
     "friendly quilboar",
     "why help horde"
    ],
-   "answer": "Mangletooth is captive in Taurajo. He bargains his ancestral knowledge of Agamaggan's magic to secure his survival, dealing with travelers who gather the sacred shards he values."
+   "answer": "Mangletooth is captive at Taurajo. He bargains his ancestral knowledge of Agamaggan's magic for survival, dealing with travelers who gather the sacred shards he values."
   },
   {
    "q": "How long does the blessing last?",
@@ -91,7 +91,7 @@
     "spirit of the wind duration",
     "does speed buff last"
    ],
-   "answer": "The blessing fades before long, but Mangletooth's enchantment lends enough swiftness to ease travel across the Barrens for a time."
+   "answer": "The blessing fades before long. Mangletooth's enchantment lends you enough swiftness to ease your travel across the Barrens for a time."
   }
  ],
  "angles": [
@@ -101,11 +101,11 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you may find the lingering power of the Wild God Agamaggan in these rites a fascinating, raw expression of primeval nature."
+   "text": "As a druid, you may find the lingering power of the Wild God Agamaggan in these rites a raw expression of primeval nature."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you may hear an echo of your traditions in communing with the wind through crystallized divine essence, with its reverence for elemental and ancestral forces."
+   "text": "As a shaman, you may hear an echo of your traditions in communing with the wind through crystallized divine essence. The rites honor elemental and ancestral forces."
   }
  ],
  "keywords": [
@@ -131,5 +131,5 @@
  "attribution": [
   "Spirit of the Wind"
  ],
- "style": 1
+ "style": 2
 }

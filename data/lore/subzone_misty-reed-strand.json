@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Misty Reed Strand"
  },
- "summary": "The Misty Reed Strand is the fog-shrouded, desolate eastern coastline of the Swamp of Sorrows. Lined with jagged rocks, washed-up wreckage, and creeping swamp mist, it is home to aggressive crabs, crocolisks, and coastal murloc tribes. Travelers venturing down to the surf often find themselves contending with the local wildlife for whatever resources wash ashore.",
+ "summary": "At Misty Reed Strand, the Great Sea meets the eastern edge of the Swamp of Sorrows. Crabs, crocolisks, and murlocs contest its foggy shore, where driftwood and wreckage wash ashore.",
  "sections": [
   {
    "title": "A Foggy Shoreline",
-   "body": "Stretching along the entire eastern border of the Swamp of Sorrows, the Misty Reed Strand forms a damp barrier between the deep mire and the Great Sea. Heavy mists constantly roll in off the water, obscuring vision and muffling the cries of native wildlife. The beaches are littered with sea debris, driftwood, and decaying vegetation washed out from the bog inland. Because of its remote position and harsh climate, no formal permanent settlements hold the shoreline, leaving the sands to aggressive crustaceans, stalking crocolisks, and territorial murlocs who violently defend their foraging grounds.",
+   "body": "Fog rolls in from the Great Sea along Misty Reed Strand, the eastern edge of the Swamp of Sorrows. It hides the water and dulls the cries of wildlife. Driftwood, sea debris, and rotting plants from the inland bog litter the beach. No permanent settlement holds this remote shore. Aggressive crabs forage among the debris, crocolisks stalk the water’s edge, and territorial murlocs defend their grounds.",
    "spoiler": 0
   },
   {
    "title": "Contested Waters",
-   "body": "Both Alliance and Horde scouts periodically direct adventurers out to the strands, though neither faction claims the beach as sovereign territory. The Alliance often gathers driftwood and beach salvage here while attempting to thin the skittering crab population. Meanwhile, Horde outposts further inland keep a wary eye on the coastline's murloc encampments, sending seasoned fighters to cull their numbers before the amphibious raiders can push deeper toward Stonard or threaten marsh travel.",
+   "body": "Neither the Alliance nor the Horde claims the beach, though scouts from both send adventurers there. Alliance parties gather driftwood and salvage while thinning the crab population. Farther inland, Horde outposts watch the murloc camps. They send fighters to curb the tribes before raiders push toward Stonard or threaten travel through the marsh.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "misty reed strand location",
     "how to get to misty reed strand"
    ],
-   "answer": "The Misty Reed Strand runs along the far eastern edge of the Swamp of Sorrows, bordering the Great Sea. It can be reached by traveling directly east through the wetlands from either Stonard or the surrounding marsh paths."
+   "answer": "Misty Reed Strand runs along the far eastern edge of the Swamp of Sorrows, beside the Great Sea. You can reach it by traveling east through the wetlands from Stonard or along the marsh paths surrounding it."
   },
   {
    "q": "What creatures inhabit the strand?",
@@ -37,7 +37,7 @@
     "what lives on misty reed strand",
     "misty reed strand enemies"
    ],
-   "answer": "The shoreline is heavily populated by giant coastal crabs, swamp crocolisks, and various tribes of hostile murlocs scavenging the tide lines."
+   "answer": "Giant coastal crabs, swamp crocolisks, and hostile murloc tribes inhabit the shoreline, scavenging along the tide lines."
   },
   {
    "q": "Are there any settlements on the beach?",
@@ -46,7 +46,7 @@
     "misty reed strand base",
     "friendly camps misty reed strand"
    ],
-   "answer": "There are no permanent friendly towns or established military outposts along the beach itself. The nearest settlements are located deeper inland within the Swamp of Sorrows."
+   "answer": "No permanent friendly town or established military outpost stands on the beach. The nearest settlements lie farther inland in the Swamp of Sorrows."
   },
   {
    "q": "Why do the factions send adventurers to the Misty Reed Strand?",
@@ -54,17 +54,17 @@
     "why go to misty reed strand",
     "misty reed strand quests"
    ],
-   "answer": "Both the Alliance and Horde occasionally send mercenaries to the coast. Alliance emissaries often look for salvaged driftwood and coastal materials, while Horde forces dispatch warriors to cull the aggressive murloc tribes living on the surf."
+   "answer": "The Alliance sends parties to gather driftwood and coastal salvage, while Horde outposts send fighters to curb the murloc tribes along the surf."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts traveling south from Nethergarde or traversing the marshlands often scavenge the beach's abundant driftwood and resources while keeping its aggressive wildlife at bay."
+   "text": "Alliance scouts traveling south from Nethergarde or through the marshlands scavenge driftwood and other resources on the beach. They also keep its aggressive wildlife at bay."
   },
   {
    "target": "faction:Horde",
-   "text": "Stonard's defenders view the murloc tribes of the strand as an unmanaged threat, frequently ordering combat patrols to purge their encampments along the surf."
+   "text": "Stonard's defenders see the strand's murloc tribes as an unmanaged threat. They often order combat patrols to clear the encampments along the surf."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Misty Reed Strand"
- ]
+ ],
+ "style": 2
 }

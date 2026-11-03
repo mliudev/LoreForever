@@ -24,16 +24,16 @@
   ],
   "category": "Desolace"
  },
- "summary": "Azore Aldamort has heard that the Burning Blade of Thunder Axe Fortress, to the east, now hold the Sceptre of Light, which word says they obtained from the naga. Legend says it could sink whole cities beneath the great seas, and Azore will not let the Burning Blade keep such power. You are asked to bring it back to Ethel Rethor.",
+ "summary": "At Thunder Axe Fortress, the Burning Blade has the Sceptre of Light, said to have come from the naga. Azore Aldamort fears it can sink whole cities beneath the great seas, so he asks you to bring it to Ethel Rethor.",
  "sections": [
   {
    "title": "A Sceptre of the Naga",
-   "body": "Word has it that the naga's Sceptre of Light has come into the hands of the Burning Blade at Thunder Axe Fortress. Legend says it can sink whole cities beneath the great seas. Azore Aldamort holds that the Burning Blade cannot be allowed such power.",
+   "body": "Word has spread that the Burning Blade at Thunder Axe Fortress holds the naga's Sceptre of Light. Legend says the sceptre can sink whole cities beneath the great seas. Azore Aldamort will not let the Burning Blade keep such power.",
    "spoiler": 0
   },
   {
    "title": "The Seer's Tower",
-   "body": "A Burning Blade seer keeps the sceptre and studies it from the top of one of the fortress watchtowers. Azore wants you to take it from there yourself and carry it back to the tower at Ethel Rethor.",
+   "body": "A Burning Blade seer keeps the sceptre in a watchtower atop the fortress and studies it there. Azore asks you to take the sceptre from the seer and carry it back to the tower at Ethel Rethor.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "sceptre of light lore",
     "how powerful is sceptre of light"
    ],
-   "answer": "Legend says it can sink whole cities beneath the great seas. Word is that it came to the Burning Blade from the naga."
+   "answer": "Legend says the Sceptre of Light can sink whole cities beneath the great seas. Word is that the Burning Blade obtained it from the naga."
   },
   {
    "q": "Who currently holds the Sceptre of Light?",
@@ -54,7 +54,7 @@
     "where is sceptre of light",
     "who drops sceptre of light"
    ],
-   "answer": "A Burning Blade seer, who keeps it in one of the watchtowers of Thunder Axe Fortress and studies it there."
+   "answer": "A Burning Blade seer keeps the Sceptre of Light in a watchtower at Thunder Axe Fortress and studies it there."
   },
   {
    "q": "Who asks for the Sceptre of Light?",
@@ -62,7 +62,7 @@
     "who gives sceptre of light",
     "where to pick up sceptre of light"
    ],
-   "answer": "Azore Aldamort, of the tower at Ethel Rethor."
+   "answer": "Azore Aldamort, who is at the tower at Ethel Rethor, asks for the Sceptre of Light."
   },
   {
    "q": "How did the Burning Blade get the sceptre?",
@@ -70,7 +70,7 @@
     "how did burning blade get the sceptre",
     "burning blade naga connection"
    ],
-   "answer": "Word is that they obtained it from the naga."
+   "answer": "Word is that the Burning Blade obtained the sceptre from the naga."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Sceptre of Light (quest)"
- ]
+ ],
+ "style": 2
 }

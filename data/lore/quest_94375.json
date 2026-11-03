@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Communing with the spirits of the earth and earning an Earth Totem is a foundational rite of passage for every aspiring shaman."
+   "text": "As a shaman, you begin your path by communing with the earth spirits and earning an Earth Totem."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven ties to stone and mountain run deep, and communing directly with earth spirits in Dun Morogh bridges their ancestral stonecraft with the shamanic path."
+   "text": "As a dwarf, you can join your people’s ties to stone and mountain with the shamanic path by communing with earth spirits in Dun Morogh."
   },
   {
    "target": "faction:Alliance",
-   "text": "Shamanic rites taking place around Anvilmar signify the growing presence and guidance of elemental spiritualists within Ironforge lands."
+   "text": "As an Alliance shaman, you find elemental spiritualists offering guidance around Anvilmar, within Ironforge lands."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "what is rough quartz",
     "why do i need rough quartz"
    ],
-   "answer": "The rough quartz is given by an earth elemental spirit as proof of communion. Though it appears to be a modest pebble, it serves as the essential heart for crafting your Earth Totem.",
+   "answer": "An earth spirit gives you rough quartz as proof of communion. Teo Hammerstorm uses it to make your Earth Totem.",
    "q": "What is the Rough Quartz for?"
   },
   {
@@ -41,7 +41,7 @@
     "teo hammerstorm location",
     "where is teo"
    ],
-   "answer": "Teo Hammerstorm is a mentor located in Anvilmar within Dun Morogh. He tests aspiring shaman, requiring proof of elemental communion before fashioning their sacred totems.",
+   "answer": "Teo Hammerstorm is a mentor in Anvilmar, in Dun Morogh. He tests aspiring shaman by asking for proof of communion with the elements before making their totems.",
    "q": "Who is Teo Hammerstorm?"
   },
   {
@@ -50,7 +50,7 @@
     "what is call of earth",
     "earth totem quest"
    ],
-   "answer": "Call of Earth is a sacred trial undertaken by young shaman to seek communion with the earth spirits, demonstrate patience and strength, and earn their first Earth Totem.",
+   "answer": "Through Call of Earth, young shaman seek communion with the earth spirits and earn their first Earth Totem.",
    "q": "What is the Call of Earth?"
   },
   {
@@ -59,7 +59,7 @@
     "what does earth ask",
     "shaman earth philosophy"
    ],
-   "answer": "The earth spirit asks the initiate to remain strong, stay patient, and seek wisdom. It teaches that even the smallest things can outlast others, and that true power comes from mutual respect with the earth.",
+   "answer": "The earth spirit asks you to stay strong and patient as you seek wisdom. It teaches that small things can outlast others, and that true power comes through mutual respect with the earth.",
    "q": "What does the earth spirit ask of the initiate?"
   },
   {
@@ -68,7 +68,7 @@
     "anvilmar lore",
     "where does call of earth take place"
    ],
-   "answer": "Anvilmar is the dwarven settlement nestled in Coldridge Valley within Dun Morogh. It serves as the staging ground where young dwarven initiates train and commune with the surrounding mountains.",
+   "answer": "Anvilmar lies in Coldridge Valley, in Dun Morogh. Young dwarven initiates train there and commune with the surrounding mountains.",
    "q": "Where is Anvilmar located?"
   },
   {
@@ -77,7 +77,7 @@
     "shaman totem lore",
     "what does an earth totem do"
    ],
-   "answer": "A totem acts as a sacred conduit between a shaman and the elemental spirits. The Earth Totem binds the bearer's will to the steadfast power and resilience of the mountains.",
+   "answer": "A totem connects a shaman with the elemental spirits. The Earth Totem binds your will to the mountains’ steadfast strength and resilience.",
    "q": "Why is the Earth Totem important?"
   }
  ],
@@ -98,18 +98,19 @@
  ],
  "sections": [
   {
-   "body": "The Call of Earth marks an initiate's first steps onto the spiritual path of the shaman in Dun Morogh. Deep within the frozen peaks, an aspirant must seek out the spirit of the earth and listen to its teachings. The trial demands humility: the spirit gifts only a rough quartz, a simple pebble intended to become the beating heart of an Earth Totem. It reminds the seeker that true endurance is not measured by sheer scale, but by patience, strength, and unwavering resolve.",
+   "body": "In Dun Morogh, young shaman begin their spiritual path by seeking the earth spirit and listening to its teachings. The spirit gives them rough quartz, a humble stone meant to become the heart of an Earth Totem. The rite calls for humility, patience, strength, and resolve. An initiate learns from the earth and does not measure worth by size.",
    "spoiler": 0,
    "title": "The Whispering Stone"
   },
   {
-   "body": "Upon returning to Anvilmar with the stone in hand, Teo Hammerstorm judges the initiate's worthiness. As a craftsman and guide, Teo requires unmistakable evidence that the mountain spirits have acknowledged the seeker. Without the rough quartz, the initiate is turned away without ceremony; with it, Teo shapes the raw stone into an Earth Totem, binding the young shaman to the timeless strength of the world's roots.",
+   "body": "Teo Hammerstorm waits in Anvilmar for the initiate to bring back the rough quartz. He judges whether the mountain spirits have acknowledged them, and sends away anyone who arrives without the stone. Bring him the quartz, and he shapes it into an Earth Totem. The totem binds the young shaman to the strength of the world's roots.",
    "spoiler": 0,
    "title": "The Mountain's Favor"
   }
  ],
- "summary": "Call of Earth is an elemental rite of passage for young shaman in the snowy reaches of Dun Morogh. By communing with the local earth spirits, initiates receive a rough quartz to bring to Teo Hammerstorm in Anvilmar. This simple stone proves their communion and serves as the core of their Earth Totem.",
+ "summary": "Young shaman in Dun Morogh seek the earth spirits’ favor through Call of Earth. They carry rough quartz to Teo Hammerstorm in Anvilmar, where he shapes it into the heart of an Earth Totem.",
  "attribution": [
   "In-game quest text: Call of Earth"
- ]
+ ],
+ "style": 2
 }

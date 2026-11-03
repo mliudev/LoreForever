@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sundown Marsh"
  },
- "summary": "In the Wetlands' far west, Sundown Marsh holds deep water, stagnant pools, and dangerous wildlife. An eccentric pair keeps a solitary home along its muddy borders.",
+ "summary": "In the Wetlands' far west, deep water and stagnant pools make Sundown Marsh dangerous. An eccentric pair keeps a solitary home along its muddy borders.",
  "sections": [
   {
    "title": "A Wild and Murky Sinkhole",
-   "body": "Sundown Marsh fills the Wetlands' deepest, westernmost reaches, where deep water and thick mud hide a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls move through the mist. Most travelers keep to the main cobblestone road between Menethil Harbor and Ironforge, leaving this corner largely untamed.",
+   "body": "Sundown Marsh spreads through the Wetlands' deepest western reaches. Deep water and thick mud conceal giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls in the mist. Most travelers stay on the cobblestone road between Menethil Harbor and Ironforge, leaving this corner largely untamed.",
    "spoiler": 0
   },
   {
    "title": "Life at the Edge of the Mire",
-   "body": "A lonely stone cottage with a churning windmill stands amid the marsh's hazards. The gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make their living scavenging the bog. They sell curiosities and rare trade recipes recovered from the mire to travelers who brave its aggressive denizens.",
+   "body": "A lonely stone cottage and churning windmill stand among the marsh's hazards. The gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make their living scavenging the bog. They sell travelers curiosities and rare trade recipes recovered from the mire, though reaching them means braving its aggressive denizens.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is sundown marsh",
     "wetlands marsh location"
    ],
-   "answer": "Sundown Marsh lies in the Wetlands' deepest, westernmost reaches, in the northwest and away from the main royal roads."
+   "answer": "Sundown Marsh lies in the Wetlands' deepest western reaches, in the northwest and away from the main royal roads."
   },
   {
    "q": "Who lives in Sundown Marsh?",
@@ -55,13 +55,13 @@
     "reasons to go to sundown marsh",
     "sundown marsh vendors"
    ],
-   "answer": "Travelers visit the windmill cottage to trade with Fradd Swiftgear and Wenna Silkbeard, who offer rare recipes and peculiar curiosities scavenged from the surrounding swamp."
+   "answer": "Travelers visit the windmill cottage to trade with Fradd Swiftgear and Wenna Silkbeard. They offer rare recipes and peculiar curiosities scavenged from the surrounding swamp."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see Fradd Swiftgear and Wenna Silkbeard make a home with their windmill outpost in dangerous mud. Their ingenuity shows how gnomes can make a comfortable home anywhere."
+   "text": "As a gnome, you can see Fradd Swiftgear and Wenna Silkbeard making a home beside their windmill in dangerous mud. Their ingenuity shows how gnomes can make a comfortable home anywhere."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Sundown Marsh"
  ],
- "style": 1
+ "style": 2
 }

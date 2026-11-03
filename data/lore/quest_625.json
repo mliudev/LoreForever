@@ -27,21 +27,21 @@
    "Cortello's Riddle"
   ]
  },
- "summary": "Following the trail begun with a waterlogged parchment found in the Swamp of Sorrows, a second cryptic verse urges travelers to a far-off land in Kalimdor. Deciphering the lines points treasure hunters toward a cave in the southwest of Dustwallow Marsh.",
+ "summary": "Travelers follow Cortello's second verse across the sea to Kalimdor. Its lines point treasure hunters toward a cave in southwestern Dustwallow Marsh.",
  "sections": [
   {
    "title": "A Verse Pointing Across the Sea",
-   "body": "The second verse left by Cortello directs searchers toward the far-off land of Kalimdor. The rhyme describes a perilous and gloomy territory situated east of the Barrens: the sodden, treacherous wetlands of Dustwallow Marsh.",
+   "body": "Cortello's second verse sends searchers toward Kalimdor. It describes Dustwallow Marsh, a gloomy wetland east of the Barrens.",
    "spoiler": 0
   },
   {
    "title": "The Southwest Cavern",
-   "body": "According to the riddle, a clue waits to be found in a cave in the southwest of the marsh.",
+   "body": "The riddle points to a clue in a cave in the southwest of the marsh.",
    "spoiler": 0
   },
   {
    "title": "Where the Verse Leads",
-   "body": "The cave in the southwest of the marsh is Bloodfen Burrow, where a musty scroll waits to be found.",
+   "body": "The verse leads to Bloodfen Burrow, a cave in southwestern Dustwallow Marsh. A musty scroll waits there.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "cortello part 2 location",
     "where is the second riddle clue"
    ],
-   "answer": "The verse sends searchers to Kalimdor, specifically to Dustwallow Marsh, which lies east of the Barrens."
+   "answer": "The verse sends searchers to Kalimdor, to Dustwallow Marsh east of the Barrens."
   },
   {
    "q": "Where in Dustwallow Marsh is the clue hidden?",
@@ -62,7 +62,7 @@
     "dustwallow riddle cave",
     "bloodfen burrow riddle"
    ],
-   "answer": "The verse places the clue in a cave in the southwest of the marsh."
+   "answer": "The clue lies in a cave in southwestern Dustwallow Marsh."
   },
   {
    "q": "What item initiates this step of the trail?",
@@ -70,7 +70,7 @@
     "how does this quest start",
     "what starts cortellos riddle 2"
    ],
-   "answer": "This step begins with a soggy scroll found at the end of the first riddle's trail, in the Swamp of Sorrows."
+   "answer": "This step begins with a soggy scroll found at the end of the first riddle's trail in the Swamp of Sorrows."
   }
  ],
  "angles": [],
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Cortello's Riddle (2)"
- ]
+ ],
+ "style": 2
 }

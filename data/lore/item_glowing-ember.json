@@ -10,16 +10,16 @@
    "quest:1526"
   ]
  },
- "summary": "At the Shrine of Eternal Flame, a Glowing Ember kindles the brazier for a shaman's trial. It comes from a Minor Manifestation of Fire on Durotar's crags.",
+ "summary": "At the Shrine of Eternal Flame, a Glowing Ember awakens the brazier for a shaman’s trial. It comes from a Minor Manifestation of Fire on Durotar’s crags.",
  "sections": [
   {
    "title": "Core of the Flame",
-   "body": "A rising shaman drinks fire sapta to see the fiery spirits on the ridge near Telf Joolam. There, the initiate faces a Minor Manifestation of Fire. When the elemental falls, only a smoldering ember remains of its physical form. Raw elemental heat still pulses within it, carrying the living spark needed to awaken the sacred brazier at the Shrine of Eternal Flame.",
+   "body": "A rising shaman drinks fire sapta to see the fiery spirits on the ridge near Telf Joolam. There, the initiate faces a Minor Manifestation of Fire. When the elemental falls, its physical form leaves only a smoldering ember. Raw elemental heat still pulses within it, carrying the spark needed to awaken the sacred brazier at the Shrine of Eternal Flame.",
    "spoiler": 0
   },
   {
    "title": "Igniting the Torch",
-   "body": "When the Glowing Ember enters the mountain brazier's cool basin, white-hot fire bursts to life. The brazier's flame lets the initiate light the Torch of the Dormant Flame. The torch binds fire's unruly essence in a vessel the initiate can carry down the mountain as proof of mastery over the elements.",
+   "body": "When the Glowing Ember enters the mountain brazier’s cool basin, white-hot fire bursts to life. The brazier’s flame lets the initiate light the Torch of the Dormant Flame. That torch binds fire’s unruly essence in a vessel the initiate can carry down the mountain as proof of mastery over the elements.",
    "spoiler": 1
   }
  ],
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you test your resolve against living fire in this rite of passage before commanding your totem."
+   "text": "As a shaman, you test your resolve against living fire in this rite of passage before you command your totem."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Glowing Ember",
   "Call of Fire (4)"
  ],
- "style": 1
+ "style": 2
 }

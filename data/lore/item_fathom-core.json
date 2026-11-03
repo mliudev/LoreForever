@@ -10,11 +10,11 @@
    "quest:6921"
   ]
  },
- "summary": "Beneath the Moonshrine Ruins, the Fathom Core records the elements at work in Blackfathom Deeps. The Earthen Ring seeks it to learn how the Twilight's Hammer is manipulating those forces.",
+ "summary": "Beneath the Moonshrine Ruins, the Fathom Core records the elements at work in Blackfathom Deeps. The Earthen Ring seeks it to learn how the Twilight's Hammer turns those forces to its own ends.",
  "sections": [
   {
    "title": "Elemental Chronicle",
-   "body": "The Fathom Core rests inside an ancient fathom stone beneath the Moonshrine Ruins. It records shifts, disruptions, and surges in the elements over time. Je'neu Sancrea, an Earthen Ring shaman at Zoram'gar Outpost, seeks the core to understand how the Twilight's Hammer cultists are turning the region's elements to their own ends.",
+   "body": "Inside an ancient fathom stone beneath the Moonshrine Ruins, the Fathom Core records the elements. Its account follows their shifts, disruptions, and surges over time. Je'neu Sancrea is an Earthen Ring shaman at Zoram'gar Outpost. He seeks the core to learn how the Twilight's Hammer cultists turn the region's elements to their own ends.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "fathom core lore",
     "what is it"
    ],
-   "answer": "The Fathom Core records a detailed history of elemental activity nearby. It rests inside an ancient fathom stone in the Moonshrine Ruins."
+   "answer": "The Fathom Core records the history of nearby elemental activity. It rests inside an ancient fathom stone in the Moonshrine Ruins."
   },
   {
    "q": "Where is the Fathom Core located?",
@@ -35,7 +35,7 @@
     "where to find fathom core",
     "fathom stone location"
    ],
-   "answer": "The Fathom Core lies deep in Blackfathom Deeps, beneath the Ashenvale coast. It rests inside a fathom stone under the waters of the Moonshrine Ruins."
+   "answer": "The Fathom Core lies deep in Blackfathom Deeps beneath the Ashenvale coast. It rests inside a fathom stone under the waters of the Moonshrine Ruins."
   },
   {
    "q": "Who wants the Fathom Core and why?",
@@ -44,7 +44,7 @@
     "why does je'neu want fathom core",
     "earthen ring fathom core"
    ],
-   "answer": "Je'neu Sancrea, an Earthen Ring shaman at Zoram'gar Outpost, seeks the Fathom Core. He and his circle hope its record of elemental shifts will help them understand and counter the Twilight's Hammer's activities in the ruins."
+   "answer": "Je'neu Sancrea, an Earthen Ring shaman at Zoram'gar Outpost, seeks the Fathom Core. He and his circle hope its record of elemental shifts will help them understand and counter the Twilight's Hammer's work in the ruins."
   },
   {
    "q": "Why is the Twilight's Hammer interested in Blackfathom Deeps?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can see why the Earthen Ring values the Fathom Core: its record can reveal how others manipulate the elements."
+   "text": "As a shaman, you can see why the Earthen Ring values the Fathom Core. Its record can reveal how others manipulate the elements."
   },
   {
    "target": "faction:Horde",
@@ -89,5 +89,5 @@
   "Fathom Core",
   "Amongst the Ruins (Classic)"
  ],
- "style": 1
+ "style": 2
 }

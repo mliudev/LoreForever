@@ -17,21 +17,21 @@
   "wiki": "Hidden Enemies (5)",
   "chain": []
  },
- "summary": "Neeru Fireblade has earned your trust, and Thrall awaits your report in Orgrimmar. The Warchief needs to know how far the Burning Blade's reach extends across Kalimdor.",
+ "summary": "In Orgrimmar, Thrall awaits your report on the Burning Blade. Neeru Fireblade trusts you, and the Warchief needs to know how far the cult's reach extends across Kalimdor.",
  "sections": [
   {
    "title": "A Cult Unveiled",
-   "body": "You carried a Lieutenant's Insignia from Skull Rock to Neeru Fireblade at Warchief Thrall's request. The warlock lives openly in the Cleft of Shadow. Later, you struck at the Searing Blade's leaders deep within Ragefire Chasm. By posing as a willing recruit and bearing the insignias of fallen cultists, you won Fireblade's trust. He revealed more of the network behind his operations.",
+   "body": "At Warchief Thrall's request, you carried a Lieutenant's Insignia from Skull Rock to Neeru Fireblade. The warlock lives openly in the Cleft of Shadow. Later, you struck at the Searing Blade's leaders deep within Ragefire Chasm.\n\nYou posed as a willing recruit and bore the insignias of fallen cultists. That won Fireblade's trust, and he revealed more of the network behind his operations.",
    "spoiler": 1
   },
   {
    "title": "Whispers of the Shadow Council",
-   "body": "Neeru Fireblade believes you are a loyal lieutenant. He admits that the loss in Ragefire Chasm has set the Searing Blade back, but says the Shadow Council's greater designs remain intact. His masters have active agents in the Barrens and deeper in the forests of Ashenvale. Your report catches Thrall off guard: the demonic conspiracy reaches far beyond the tunnels beneath Orgrimmar.",
+   "body": "Neeru Fireblade believes you are a loyal lieutenant. He admits the loss in Ragefire Chasm has set the Searing Blade back, but the Shadow Council's greater designs remain intact. His masters have active agents in the Barrens and deeper in the forests of Ashenvale.\n\nYour report catches Thrall off guard. The demonic conspiracy reaches far beyond the tunnels beneath Orgrimmar.",
    "spoiler": 2
   },
   {
    "title": "The Warchief's Vigilance",
-   "body": "Thrall chooses caution instead of executing Neeru at once. Keeping the warlock unaware that his cover is compromised lets the Horde monitor his communications and track the cult across Durotar, the Barrens, and Ashenvale. The Warchief prepares scouts and spies to investigate those branches, seeking to root out demonic corruption without reckless haste.",
+   "body": "Thrall chooses caution over executing Neeru at once. If the warlock does not know his cover is compromised, the Horde can monitor his communications and track the cult across Durotar, the Barrens, and Ashenvale.\n\nThe Warchief prepares scouts and spies to investigate those branches. He seeks to root out demonic corruption without reckless haste.",
    "spoiler": 1
   }
  ],
@@ -61,7 +61,7 @@
     "why not kill neeru",
     "why thrall leaves neeru"
    ],
-   "answer": "Thrall can learn more by letting Neeru believe his cover remains intact. The Warchief's scouts can monitor his messages and trace his contacts to larger Shadow Council cells across Kalimdor."
+   "answer": "Thrall can learn more if Neeru believes his cover remains intact. The Warchief's scouts can monitor his messages and trace his contacts to larger Shadow Council cells across Kalimdor."
   },
   {
    "q": "What new information does Thrall learn from this report?",
@@ -70,7 +70,7 @@
     "shadow council ashenvale",
     "neeru secret"
    ],
-   "answer": "Thrall learns that the Shadow Council backs the cult beneath Orgrimmar and has agents plotting operations in the Barrens and the forests of Ashenvale."
+   "answer": "Thrall learns that the Shadow Council backs the cult beneath Orgrimmar. Its agents are plotting operations in the Barrens and the forests of Ashenvale."
   },
   {
    "q": "Is the Burning Blade the same thing as the Searing Blade?",
@@ -79,7 +79,7 @@
     "ragefire chasm cults",
     "cult differences"
    ],
-   "answer": "The Searing Blade is a local sect operating in Ragefire Chasm beneath Orgrimmar. It serves the wider Burning Blade cult, which the demonic Shadow Council directs."
+   "answer": "The Searing Blade is a local sect operating in Ragefire Chasm beneath Orgrimmar. It answers to the wider Burning Blade cult, directed by the demonic Shadow Council."
   },
   {
    "q": "Does this quest chain continue anywhere?",
@@ -130,5 +130,5 @@
  "attribution": [
   "Hidden Enemies (5)"
  ],
- "style": 1
+ "style": 2
 }

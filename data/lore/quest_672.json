@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "This effort demonstrates how the Horde's revived shamanic traditions are applied to heal emotional wounds and listlessness, using animal spirits to rekindle a brother's will to live."
+   "text": "As a shaman, you see the Horde's revived traditions brought to bear against Gor'mul's despondency. Tor'gan calls on animal spirits to rekindle his will to live."
   },
   {
    "target": "race:Orc",
-   "text": "Many veterans like Gor'mul remain burdened by the lethargy and despair following the internment camps and the loss of their former ways, finding it difficult to embrace Thrall's new Horde."
+   "text": "As an orc, you know internment and the loss of old ways have burdened veterans like Gor'mul with despair and lethargy. Some struggle to embrace Thrall's new Horde."
   },
   {
    "target": "faction:Horde",
-   "text": "The quest reflects the compassionate side of Thrall's Horde, where comrades in remote outposts like Hammerfall look out for despondent brothers-in-arms rather than discarding them."
+   "text": "As a member of the Horde, you see comrades at remote outposts like Hammerfall caring for despondent brothers-in-arms."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "torgan hammerfall",
     "quest giver raising spirits"
    ],
-   "answer": "Tor'gan is an orc stationed at the Horde outpost of Hammerfall in the Arathi Highlands. Seeking to help a dispirited companion named Gor'mul, Tor'gan turns to the Horde's newly rediscovered shamanistic magic to craft an amulet capable of restoring his comrade's inner fire.",
+   "answer": "Tor'gan is an orc stationed at Hammerfall in the Arathi Highlands. He hopes to help Gor'mul with an amulet made through the Horde's newly rediscovered shamanic traditions.",
    "q": "Who is Tor'gan?"
   },
   {
@@ -41,7 +41,7 @@
     "why is gormul sad",
     "orc depressed hammerfall"
    ],
-   "answer": "Gor'mul is an orc resident in Hammerfall who is suffering from severe despondency and lethargy. Despite efforts by his fellow orcs to cheer him up with tales of Orgrimmar and Thrall's leadership, nothing has managed to move him or spark his spirits.",
+   "answer": "Gor'mul is an orc at Hammerfall, sunk in despondency and lethargy. Tales of Orgrimmar and Warchief Thrall have not lifted his spirits.",
    "q": "Who is Gor'mul and why does he need cheering up?"
   },
   {
@@ -50,7 +50,7 @@
     "raptor eyes amulet",
     "purpose of raptor eyes"
    ],
-   "answer": "Tor'gan uses the eyes of Highland Striders and Highland Thrashers to create a shamanic amulet. By channeling the spirits of these fierce predators, Tor'gan hopes to impart the raptors' inherent strength and tenacity into Gor'mul to reignite his fighting spirit.",
+   "answer": "Tor'gan uses the eyes of Highland Striders and Highland Thrashers to make a shamanic amulet. He hopes their spirits will lend Gor'mul strength and tenacity, and rekindle his fighting spirit.",
    "q": "Why does Tor'gan need highland raptor eyes?"
   },
   {
@@ -59,7 +59,7 @@
     "hammerfall location",
     "orcs in arathi"
    ],
-   "answer": "Hammerfall is the primary Horde outpost in the Arathi Highlands, named in honor of the former Warchief Orgrim Doomhammer. It serves as a fortified haven for orcs remaining in the Eastern Kingdoms.",
+   "answer": "Hammerfall is the Horde outpost in the Arathi Highlands. It is named for former Warchief Orgrim Doomhammer and is a fortified haven for orcs remaining in the Eastern Kingdoms.",
    "q": "Where does this quest take place?"
   },
   {
@@ -68,7 +68,7 @@
     "orc shamanism new horde",
     "why new shaman magic"
    ],
-   "answer": "During their time under demonic corruption and subsequent internment, orcs lost their spiritual connection to the elements and ancestor spirits. Under Warchief Thrall's leadership, the Horde has reclaimed this ancient shamanistic path, using spiritual harmony rather than fel magic to guide their people.",
+   "answer": "Orcs lost their spiritual bond with the elements and ancestor spirits during demonic corruption and internment. Under Warchief Thrall, the Horde has reclaimed the ancient shamanic path, guided by spiritual harmony rather than fel magic.",
    "q": "What is the newly found shamanistic magic mentioned by Tor'gan?"
   },
   {
@@ -77,7 +77,7 @@
     "what stories did they tell gormul",
     "orgrimmar tales gormul"
    ],
-   "answer": "His companions tried to inspire Gor'mul with grand stories of the new capital city of Orgrimmar across the sea in Kalimdor, as well as the valor of Warchief Thrall wielding the armor and legendary warhammer of Orgrim Doomhammer.",
+   "answer": "Gor'mul's companions told him of Orgrimmar, the new capital across the sea in Kalimdor, and of Warchief Thrall wielding Orgrim Doomhammer's armor and legendary warhammer.",
    "q": "What stories failed to cheer up Gor'mul?"
   }
  ],
@@ -99,18 +99,19 @@
  ],
  "sections": [
   {
-   "body": "At the remote outpost of Hammerfall in the Arathi Highlands, the orcs face enemies from without and quiet battles within. One of their own, Gor'mul, has fallen into a deep, unshakable melancholy. His companions attempted to rally him with proud tales of Kalimdor, the mighty fortress city of Orgrimmar, and the visionary leadership of young Warchief Thrall. Yet none of these grand victories or distant wonders could pierce Gor'mul's gloom or give him reason to hope.",
+   "body": "At Hammerfall in the Arathi Highlands, Gor'mul has fallen into deep melancholy. His companions have told him of Kalimdor, the mighty city of Orgrimmar, and Warchief Thrall's leadership. Yet none of these tales has eased his gloom or given him hope.",
    "spoiler": 0,
    "title": "A Heavy Heart in Hammerfall"
   },
   {
-   "body": "Recognizing that mere words are powerless against Gor'mul's despondency, Tor'gan turns to the Horde's revived spiritual heritage. By gathering the eyes of fierce highland raptors roaming Arathi, Tor'gan crafts an amulet blessed with the predators' spirits. Rather than relying on brute force or fel power, this ritual invokes the restorative strength of newly embraced shamanistic traditions, hoping the beast's vital flame can awaken a brother's dormant will to live.",
+   "body": "Tor'gan turns to the Horde's revived spiritual traditions to help Gor'mul. He gathers the eyes of highland raptors roaming Arathi and makes an amulet blessed with their spirits. Through this rite, he hopes the predators' vital force will awaken Gor'mul's will to live.",
    "spoiler": 0,
    "title": "Spirits of the Wild"
   }
  ],
- "summary": "Raising Spirits is a Horde quest in the Arathi Highlands where Tor'gan seeks to lift the spirits of a despondent orc named Gor'mul. When tales of Orgrimmar and Warchief Thrall fail, Tor'gan turns to newly rediscovered shamanic traditions to craft a revitalizing amulet from highland raptor eyes.",
+ "summary": "Tor'gan seeks a way to lift Gor'mul's spirits at Hammerfall in the Arathi Highlands. Tales of Orgrimmar and Warchief Thrall have brought no comfort, so Tor'gan turns to the Horde's newly rediscovered shamanic traditions.",
  "attribution": [
   "In-game quest text: Raising Spirits"
- ]
+ ],
+ "style": 2
 }

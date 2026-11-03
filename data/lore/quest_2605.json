@@ -27,11 +27,11 @@
   ],
   "category": "Tanaris"
  },
- "summary": "Marin Noggenfogger in Gadgetzan is tormented by thirst. Rumor says the dew collectors of the cactus garden to the southwest store water in special glands, and Marin hopes one of those glands can become a drink that finally quenches it.",
+ "summary": "In Gadgetzan, Marin Noggenfogger longs for a drink that can end his unending thirst. He has heard the dew collectors in the cactus garden southwest of town keep water in special glands, and hopes one will make such a drink possible.",
  "sections": [
   {
    "title": "A Gland Worth Drinking",
-   "body": "Marin has heard of strange creatures called dew collectors, living southwest of Gadgetzan, that keep water in special glands. A laden gland, Marin reckons, could be the start of a drink to end the thirst for good. You are asked to find the cactus garden where they live and bring one back.",
+   "body": "Marin Noggenfogger has heard of dew collectors in the cactus garden southwest of Gadgetzan. They keep water in special glands, and he believes a full gland could start a drink that ends his thirst for good. He asks you to find their garden and bring one back.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who starts thirsty goblin",
     "marin noggenfogger"
    ],
-   "answer": "Marin Noggenfogger, in the town of Gadgetzan, asks you to find a laden dew gland to cure a terrible thirst."
+   "answer": "Marin Noggenfogger in Gadgetzan asks you to find a full dew gland, hoping it will cure his terrible thirst."
   },
   {
    "q": "Where are the dew collectors located?",
@@ -52,7 +52,7 @@
     "where to find dew gland",
     "cactus garden location"
    ],
-   "answer": "They live in the cactus garden of Thistleshrub Valley, southwest of Gadgetzan in Tanaris."
+   "answer": "The dew collectors live in the cactus garden of Thistleshrub Valley, southwest of Gadgetzan in Tanaris."
   },
   {
    "q": "What creature carries the laden dew gland?",
@@ -60,7 +60,7 @@
     "what drops laden dew gland",
     "dew collector mob"
    ],
-   "answer": "The glands come from the Thistleshrub Dew Collectors, creatures said to store water in special glands."
+   "answer": "Thistleshrub Dew Collectors carry the glands, which are said to store water."
   },
   {
    "q": "What comes next in the chain?",
@@ -68,7 +68,7 @@
     "thirsty goblin follow up",
     "next quest after thirsty goblin"
    ],
-   "answer": "The chain carries on with In Good Taste."
+   "answer": "The chain continues with In Good Taste."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "The Thirsty Goblin"
- ]
+ ],
+ "style": 2
 }

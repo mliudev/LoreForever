@@ -17,16 +17,16 @@
   "wiki": "Kaela's Update",
   "chain": []
  },
- "summary": "Gaxim Rustfizzle sends you back to Kaela Shadowspear with letters taken from the Venture Company. Their contents help the Sentinels follow the goblin cartel's work in Stonetalon.",
+ "summary": "Gaxim Rustfizzle sends you back to Kaela Shadowspear with letters taken from the Venture Company. Their contents help the Sentinels track the goblin cartel's work in Stonetalon.",
  "sections": [
   {
    "title": "A Messenger in the Mountains",
-   "body": "Gaxim Rustfizzle sends you back to Kaela Shadowspear with captured letters. After you helped the gnome mage uncover Venture Company movements, he gathered correspondence detailing the cartel's operations. Kaela, a night elf Sentinel coordinator near Windshear Crag, is waiting for the letters. Gaxim also wants you to mention how his magic helped the investigation.",
+   "body": "Gaxim Rustfizzle sends you back to Kaela Shadowspear with captured letters. You helped the gnome mage uncover Venture Company movements, and he gathered correspondence about the cartel's operations. Kaela, a night elf Sentinel coordinator near Windshear Crag, is waiting for the letters. Gaxim also asks you to tell her how his magic helped the investigation.",
    "spoiler": 0
   },
   {
    "title": "Eyes of the Sentinels",
-   "body": "The Sentinels watch Stonetalon's crags with concern. Horde forces contest the lower trails, while the Venture Company cuts trees and mines the land. Its letters give Kaela a look at the cartel's communications and help the Alliance plan its defenses along the ridges.",
+   "body": "The Sentinels watch Stonetalon's crags with concern. Horde forces contest the lower trails, while the Venture Company cuts trees and mines the land. Its letters show Kaela how the cartel communicates, helping the Alliance plan defenses along the ridges.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "what are the letters",
     "letters for kaela"
    ],
-   "answer": "The letters contain Venture Company communications intercepted during operations against its camps. They give Kaela Shadowspear and the Sentinels information about the cartel's local logistics, excavations, and resource stripping."
+   "answer": "The letters contain Venture Company communications intercepted during operations against its camps. They tell Kaela Shadowspear and the Sentinels about the cartel's local logistics, excavations, and resource stripping."
   },
   {
    "q": "Why are the Sentinels concerned about the Venture Company?",
@@ -65,7 +65,7 @@
     "sentinels venture co",
     "venture company stonetalon"
    ],
-   "answer": "The Venture Company cuts sacred forests and mines the earth with heavy machinery. The Sentinels see its industrial work as a threat to nature and the sanctity of Stonetalon."
+   "answer": "The Venture Company cuts sacred forests and mines the earth with heavy machinery. The Sentinels see its industrial work as a threat to nature and Stonetalon's sanctity."
   },
   {
    "q": "Where does this quest start and end?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can take pride in Gaxim Rustfizzle's arcane skill as he makes sure his night elf allies see the value of gnome magic."
+   "text": "As a gnome, you can take pride in Gaxim Rustfizzle's arcane skill. He makes sure his night elf allies see the value of gnome magic."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Kaela's Update"
  ],
- "style": 1
+ "style": 2
 }

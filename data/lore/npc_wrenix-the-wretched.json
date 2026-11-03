@@ -8,16 +8,16 @@
   "wiki": "Wrenix the Wretched",
   "refs": 2
  },
- "summary": "Beside his strange apparatus in Ratchet, Wrenix the Wretched helps crack tough locks. The goblin tinker offers tools to open secure caches.",
+ "summary": "In Ratchet, Wrenix the Wretched works beside his strange apparatus, helping crack tough locks. The goblin tinker offers tools for opening secure caches.",
  "sections": [
   {
    "title": "A Tinker in Ratchet",
-   "body": "Wrenix the Wretched works beside his machinery in Ratchet, the goblin port on the Barrens coast. As a tinker of the Steamwheedle Cartel, he knows mechanisms and contraptions, and how to bypass locks and salvage what lies beyond them. Rogues and scouts working the coast can turn to him for help.",
+   "body": "Wrenix the Wretched works beside his machinery in Ratchet, the goblin port on the Barrens coast. A tinker of the Steamwheedle Cartel, he knows mechanisms and contraptions. He can bypass locks and salvage what lies beyond them. Rogues and scouts working the coast can turn to him for help.",
    "spoiler": 0
   },
   {
    "title": "The Gizmotronic Apparatus",
-   "body": "Wrenix keeps his gizmotronic apparatus close at hand. He uses it and his mechanical skill to supply thieves' tools and lock-picking instruments. Those seeking to recover stolen Southsea pirate contraband along the Merchant Coast can put them to use.",
+   "body": "Wrenix keeps his gizmotronic apparatus close at hand. With it and his mechanical skill, he supplies thieves' tools and lock-picking instruments. Those seeking to recover stolen Southsea pirate contraband along the Merchant Coast can put the tools to use.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is wrenix",
     "wrenix the wretched"
    ],
-   "answer": "Wrenix is a goblin tinker in Ratchet, in the Barrens. He works beside his gizmotronic apparatus and deals in contraptions and lock-picking tools."
+   "answer": "Wrenix is a goblin tinker in Ratchet, in the Barrens. Beside his gizmotronic apparatus, he deals in contraptions and lock-picking tools."
   },
   {
    "q": "Where can Wrenix be found?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Wrenix the Wretched"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Arugal Must Die",
   "chain": []
  },
- "summary": "At the Sepulcher, Dalar Dawnweaver sends champions against Arugal. The rogue archmage holds Shadowfang Keep, and his worgen menace threatens the Forsaken’s hold on Silverpine Forest.",
+ "summary": "At the Sepulcher, Dalar Dawnweaver calls champions to face Arugal. The rogue archmage rules Shadowfang Keep, and his worgen threaten the Forsaken’s hold on Silverpine Forest.",
  "sections": [
   {
    "title": "A Thorn in the Dark Lady's Side",
-   "body": "Shadowfang Keep rises above the woods, where Archmage Arugal commands the worgen. The Forsaken have made the Sepulcher their base, but Silverpine Forest remains dangerous and fiercely contested. Driven mad by guilt and dark sorcery, Arugal unleashed the feral worgen upon Lordaeron. His ravenous beasts roam the forest paths and hinder Lady Sylvanas Windrunner’s efforts to secure the region.",
+   "body": "Shadowfang Keep rises above the woods, and Archmage Arugal commands the worgen within. The Forsaken have made the Sepulcher their base, yet Silverpine Forest remains dangerous and fiercely contested. Guilt and dark sorcery drove Arugal mad. He unleashed the feral worgen upon Lordaeron, and now his ravenous beasts roam the forest paths, hindering Lady Sylvanas Windrunner’s effort to secure the region.",
    "spoiler": 0
   },
   {
    "title": "Striking the Beast at the Neck",
-   "body": "Dalar Dawnweaver knows that hunting worgen across the forest will not end the danger. Their source lies inside Shadowfang Keep. You must breach the old stronghold, fight through Arugal’s worgen brood, and confront the mad wizard in his aerie. His severed head is proof of his death, and his defeat can break his hold over the region.",
+   "body": "Dalar Dawnweaver knows that hunting worgen across the forest will not end the danger. Their source lies within Shadowfang Keep. You must breach the old stronghold, fight through Arugal’s worgen brood, and confront the mad wizard in his aerie. His severed head proves his death, and his defeat can break his hold over the region.",
    "spoiler": 0
   }
  ],
@@ -81,7 +81,7 @@
     "after arugal dies",
     "result of arugal death"
    ],
-   "answer": "Arugal’s death breaks his magical grip over Silverpine, letting the Forsaken extend their hold across western Lordaeron without fear of his coordinated worgen packs."
+   "answer": "Arugal’s death breaks his magical grip over Silverpine. Then the Forsaken can extend their hold across western Lordaeron without fear of his coordinated worgen packs."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Arugal Must Die"
  ],
- "style": 1
+ "style": 2
 }

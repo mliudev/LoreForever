@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Feral Scar Vale"
  },
- "summary": "Feral Scar Vale is a rocky gorge tucked within the High Wilderness of western Feralas. Overrun by territorial Feral Scar yetis, its cavernous tunnels are notoriously perilous to travelers who venture off the overgrown forest trails.",
+ "summary": "In western Feralas, Feral Scar yetis hold a rocky gorge deep in the High Wilderness. Their caves lie beyond the forest trails, where travelers face danger.",
  "sections": [
   {
    "title": "Lair of the Yetis",
-   "body": "Situated amid the thick foliage and sheer cliffs of the High Wilderness, Feral Scar Vale serves as the primary den for the savage Feral Scar yetis. While yetis are common in the snowy peaks of Alterac and Dun Morogh, these primal brutes have adapted completely to the wild, humid climate of Feralas. They fiercely defend the vale's cave network, hoarding bone trophies and aggressively driving off any intruders who wander into their hunting grounds.",
+   "body": "Primal Feral Scar yetis guard the caves of Feral Scar Vale in the High Wilderness. Unlike the yetis of Alterac and Dun Morogh, these brutes have adapted to Feralas's humid wilds. They defend their cave network fiercely and keep bone trophies. Intruders are driven from their hunting grounds.",
    "spoiler": 0
   },
   {
    "title": "Curiosities in the Caves",
-   "body": "Beyond the primal danger of the yetis, the deeper recesses of Feral Scar Vale hide unexpected oddities. Gnomish engineering distress signals have occasionally been tracked into these dark caverns, where lost exploratory devices\u2014such as stranded robotic survey chickens\u2014have ended up trapped by the ferocious beasts, awaiting activation and extraction.",
+   "body": "Gnomish distress signals have sometimes led into the deeper caves of Feral Scar Vale. Lost devices have become trapped there among the yetis, including robotic survey chickens. They wait to be activated and recovered.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is in feral scar vale",
     "vale creatures"
    ],
-   "answer": "The vale is dominated by Feral Scar yetis, massive and territorial apex predators who nest inside the rocky caves and patrol the surrounding forest."
+   "answer": "Feral Scar yetis dominate the vale. These massive, territorial predators live in its rocky caves and patrol the surrounding forest."
   },
   {
    "q": "Where is Feral Scar Vale located?",
@@ -37,7 +37,7 @@
     "where is feral scar vale",
     "how to find feral scar vale"
    ],
-   "answer": "Feral Scar Vale lies in western Feralas, nestled within the region known as the High Wilderness, south of the main road cutting through the rainforest canopy."
+   "answer": "Feral Scar Vale lies in western Feralas, within the High Wilderness and south of the main road through the rainforest canopy."
   },
   {
    "q": "Why are there yetis in a lush rainforest?",
@@ -46,7 +46,7 @@
     "jungle yetis",
     "feralas yeti lore"
    ],
-   "answer": "While yetis are typically associated with snowy mountains, the ancient and untamed wilds of Kalimdor host distinct subspecies, such as the Feral Scar yetis, that have thrived in dense forest valleys for generations."
+   "answer": "Though yetis are usually tied to snowy mountains, Kalimdor's ancient wilds also hold Feral Scar yetis. This distinct kind has thrived in dense forest valleys for generations."
   },
   {
    "q": "What is the mechanical chicken inside the cave?",
@@ -55,17 +55,17 @@
     "robot chicken feralas",
     "homing robot feral scar vale"
    ],
-   "answer": "Deep inside one of the vale's caves lies Homing Robot OOX-22/FE, an autonomous mechanical survey chicken crafted by gnome engineers that crashed and became stranded behind the yeti lines."
+   "answer": "Homing Robot OOX-22/FE is a mechanical survey chicken made by gnome engineers. It crashed in a cave deep in the vale and became stranded behind the yeti lines."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Tucked away in the yeti tunnels is a stranded gnome homing robot, requiring an engineer's touch and an emergency beacon to safely extract it back to civilization."
+   "text": "A stranded gnome homing robot lies in the yeti tunnels. As an engineer, you can use an emergency beacon to bring it safely back to civilization."
   },
   {
    "target": "class:Hunter",
-   "text": "The hulking Feral Scar yetis that stalk these cliffs offer an imposing test of wilderness tracking and big-game hunting amidst the dense canopies of the High Wilderness."
+   "text": "As a hunter, you can track Feral Scar yetis stalking the cliffs and test your skill at big-game hunting beneath the High Wilderness canopy."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Feral Scar Vale"
- ]
+ ],
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Serge Hinott",
   "refs": 2
  },
- "summary": "In Tarren Mill, Serge Hinott brews mixtures for the Forsaken war effort. The Forsaken alchemist works alongside Apothecary Lydon, preparing concoctions, antidotes, and reagents for the Royal Apothecary Society.",
+ "summary": "In Tarren Mill, Serge Hinott brews mixtures for the Forsaken war effort. He works beside Apothecary Lydon, preparing concoctions, antidotes, and reagents for the Royal Apothecary Society.",
  "sections": [
   {
    "title": "Apothecary's Hand in Tarren Mill",
-   "body": "Serge Hinott brews remedies and other mixtures for the Forsaken in Tarren Mill. He works beside Apothecary Lydon, whose work includes chemical development and plague research against nearby human settlements such as Southshore. Hinott handles specialized brewing, including restorative salves and antidotes for field agents and scouts who face poisons or other toxic mishaps.",
+   "body": "In Tarren Mill, Serge Hinott brews remedies and other mixtures for the Forsaken. He works beside Apothecary Lydon, whose duties include chemical development and plague research against nearby human settlements such as Southshore. Hinott specializes in brewing restorative salves and antidotes for field agents and scouts facing poison or other toxic mishaps.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what does hinott do",
     "serge hinott role"
    ],
-   "answer": "Serge Hinott serves the Forsaken as an alchemist in Tarren Mill. He prepares local brews and treatments, and makes specialized mixtures for field operatives and couriers who request them."
+   "answer": "Serge Hinott serves the Forsaken as an alchemist in Tarren Mill. He prepares local brews and treatments, along with specialized mixtures for field operatives and couriers who request them."
   },
   {
    "q": "What is Hinott's connection to Apothecary Lydon?",
@@ -40,13 +40,13 @@
     "hinott and lydon",
     "who does hinott work with"
    ],
-   "answer": "Serge Hinott works beside Apothecary Lydon in Tarren Mill. When visitors interrupt him, Hinott tells them to go bother “Mr. High-And-Mighty” instead."
+   "answer": "Serge Hinott works beside Apothecary Lydon in Tarren Mill. When visitors interrupt him, Hinott tells them to bother “Mr. High-And-Mighty” instead."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you see the practical work of the Royal Apothecary Society in Hillsbrad: chemical mixtures and support for Forsaken forces on the front lines."
+   "text": "As an Undead, you see the Royal Apothecary Society's practical work in Hillsbrad: chemical mixtures and support for Forsaken forces on the front lines."
   },
   {
    "target": "class:Rogue",
@@ -71,5 +71,5 @@
  "attribution": [
   "Serge Hinott"
  ],
- "style": 1
+ "style": 2
 }

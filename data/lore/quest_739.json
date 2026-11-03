@@ -29,16 +29,16 @@
   ],
   "category": "Badlands"
  },
- "summary": "Agmond's battered remains lie in the Badlands, and a name is scrawled in the sandstone beside the dead hand: Murdaloc. Agmond's killer is to be put down, with word carried back to Prospector Ironband in Loch Modan.",
+ "summary": "Agmond lies dead in the Badlands, with Murdaloc scratched into the sandstone beside his hand. Slay his killer and carry word to Prospector Ironband in Loch Modan.",
  "sections": [
   {
    "title": "A Name in the Sandstone",
-   "body": "Agmond's trail comes in from the west, and the blood smeared over stone and sand tells how far the dwarf crawled before dying here. Beside the lifeless hand, scratched into the Badlands sandstone, is a single word: Murdaloc. Agmond's killer is to be slain, along with a number of Stonevault Bonesnappers, and the news taken to Prospector Ironband in Loch Modan.",
+   "body": "Blood marks Agmond's trail from the west, crossing stone and sand. It shows how far the dwarf crawled before he died. Beside his still hand, one word is scratched into the Badlands sandstone: Murdaloc. Slay Agmond's killer and a number of Stonevault Bonesnappers, then carry the news to Prospector Ironband in Loch Modan.",
    "spoiler": 0
   },
   {
    "title": "Ironband's Reply",
-   "body": "Ironband takes the news soberly, remembering Agmond as strong of arm, fierce with a hammer and thick of skull. Ironband says Agmond was killed by cursed troggs, and is sure Agmond took a good number of them down along the way.",
+   "body": "Prospector Ironband receives the news with a sober face. He remembers Agmond as strong of arm, fierce with a hammer, and thick of skull. Ironband says cursed troggs killed Agmond. He believes Agmond took a good number of them down along the way.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who is agmond",
     "agmond lore"
    ],
-   "answer": "Agmond was a dwarf in charge of the excavation sites in the Badlands for Prospector Ironband. Your search for Agmond ended at a skeleton."
+   "answer": "Agmond was a dwarf who oversaw the excavation sites in the Badlands for Prospector Ironband. Your search for him ended at a skeleton."
   },
   {
    "q": "Who is Murdaloc?",
@@ -57,7 +57,7 @@
     "what is murdaloc",
     "murdaloc lore"
    ],
-   "answer": "Murdaloc is the name scrawled in the sandstone beside Agmond's dead hand. You are to slay Agmond's killer, Murdaloc."
+   "answer": "Murdaloc is the name scratched into the sandstone beside Agmond's dead hand. Slay Agmond's killer, Murdaloc."
   },
   {
    "q": "Where does the report need to go?",
@@ -65,7 +65,7 @@
     "who do i tell about murdaloc",
     "where is ironband"
    ],
-   "answer": "To Prospector Ironband in Loch Modan."
+   "answer": "Carry the report to Prospector Ironband in Loch Modan."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Murdaloc (quest)"
- ]
+ ],
+ "style": 2
 }

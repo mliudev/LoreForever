@@ -10,16 +10,16 @@
    "quest:1026"
   ]
  },
- "summary": "In northern Ashenvale, the Wooden Key rests in the hands of maddened ancients near Felwood’s border. It opens a concealed chest with a remnant of Dartol's Rod.",
+ "summary": "North of Raynewood Retreat, the Wooden Key passes through the hands of maddened ancients near Felwood. It opens a hidden chest with a piece of Dartol's Rod.",
  "sections": [
   {
    "title": "A Key in Mad Hands",
-   "body": "Crazed and Withered Ancients carry the Wooden Key along the shaded trails north of Raynewood Retreat. Shael'dryn once knew the local treants, but now says corruption has twisted their nature. One carries the key to a chest holding a piece of Dartol's Rod.",
+   "body": "Crazed and Withered Ancients carry the Wooden Key along shaded trails north of Raynewood Retreat. Shael'dryn once knew the local treants, but now says corruption has twisted them. One of the ancients carries the key to a chest with a piece of Dartol's Rod.",
    "spoiler": 0
   },
   {
    "title": "Unlocking the Rod",
-   "body": "Shael'dryn sends adventurers to retrieve the key and open a hidden, worn chest in a small glade west of the Felwood road. The Iron Shaft lies inside, one of the components needed to rebuild Dartol's Rod and fight the corruption poisoning the sacred forests.",
+   "body": "Shael'dryn sends adventurers to find the key and open a hidden, worn chest in a small glade west of the Felwood road. Inside lies the Iron Shaft, one piece needed to rebuild Dartol's Rod. The rod is needed to fight the corruption poisoning the sacred forests.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "wooden key chest",
     "where to use wooden key"
    ],
-   "answer": "The Wooden Key opens a worn chest in a small glade west of the main road heading north into Felwood. Inside lies the Iron Shaft, a piece needed to rebuild Dartol's Rod."
+   "answer": "The Wooden Key opens a worn chest in a small glade west of the main road heading north into Felwood. Inside lies the Iron Shaft, needed to rebuild Dartol's Rod."
   },
   {
    "q": "Who carries the Wooden Key?",
@@ -56,17 +56,17 @@
     "wooden key questgiver",
     "who wants the wooden key"
    ],
-   "answer": "Shael'dryn, a dryad tending the Moonwell of Purity in Ashenvale, directs adventurers to recover the key as part of the effort to rebuild Dartol's Rod."
+   "answer": "Shael'dryn tends the Moonwell of Purity in Ashenvale. She directs adventurers to recover the key as part of the effort to rebuild Dartol's Rod."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For any child of the stars, seeing Kalimdor's beloved ancients driven mad and clutching lost relics along the Felwood road is sorrowful."
+   "text": "As a child of the stars, you may grieve to see Kalimdor's beloved ancients driven mad, clutching lost relics along the Felwood road."
   },
   {
    "target": "class:Druid",
-   "text": "The twisted ancients holding this key reflect how far the demonic blight has reached into the Cenarion groves between Ashenvale and Felwood."
+   "text": "As a druid, you can see how far the demonic blight has reached into the Cenarion groves between Ashenvale and Felwood."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Wooden Key",
   "Raene's Cleansing (4)"
  ],
- "style": 1
+ "style": 2
 }

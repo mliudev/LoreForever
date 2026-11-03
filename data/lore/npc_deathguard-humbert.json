@@ -8,11 +8,11 @@
   "wiki": "Deathguard Humbert",
   "refs": 1
  },
- "summary": "At Tarren Mill, Deathguard Humbert watches the Alliance presence in Hillsbrad. The Forsaken sentry has lost his military gear to dwarves from Dun Garok.",
+ "summary": "At Tarren Mill, Deathguard Humbert watches the Alliance across Hillsbrad. Dwarves from Dun Garok have taken his military gear.",
  "sections": [
   {
    "title": "A Guard Relieved of His Steel",
-   "body": "Deathguard Humbert watches Dun Garok from a hidden camp for High Executor Darthalia. One morning, he left to gather firewood. Dwarven scouts from Dun Garok took his prized sword and other equipment while he was away. Now he must recover his arms and save his pride before high command learns what happened.",
+   "body": "From a hidden camp, Deathguard Humbert watches Dun Garok for High Executor Darthalia. One morning, he left to gather firewood. While he was away, dwarven scouts from Dun Garok took his prized sword and other equipment. Now he must recover his arms and save his pride before high command learns what happened.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is humbert",
     "humbert tarren mill"
    ],
-   "answer": "Deathguard Humbert guards and scouts from Tarren Mill. He watches Alliance operations across the Hillsbrad Foothills."
+   "answer": "At Tarren Mill, Deathguard Humbert guards and scouts. He watches Alliance operations across the Hillsbrad Foothills."
   },
   {
    "q": "What happened to Humbert's sword and armor?",
@@ -41,7 +41,7 @@
     "why cant humbert fight",
     "humbert dun garok"
    ],
-   "answer": "Dun Garok is heavily fortified, with disciplined dwarven riflemen and mountaineers. A lone scout outside its trenches has little chance, and Humbert cannot easily leave his post without answering for how he lost his kit."
+   "answer": "Dun Garok is heavily fortified, with disciplined dwarven riflemen and mountaineers. A lone scout outside its trenches has little chance. Humbert cannot easily leave his post without answering for how he lost his kit."
   }
  ],
  "angles": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Deathguard Humbert"
  ],
- "style": 1
+ "style": 2
 }

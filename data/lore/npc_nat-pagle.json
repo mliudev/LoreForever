@@ -8,21 +8,21 @@
   "wiki": "Nat Pagle",
   "refs": 3
  },
- "summary": "Nat Pagle is widely hailed as the most renowned angler in all of Azeroth, despite claiming he only fishes as an excuse to drink heavily. He makes his home on a secluded inlet in Dustwallow Marsh, where he trains elite anglers from both the Alliance and the Horde who manage to prove their patience.",
+ "summary": "On a quiet inlet in Dustwallow Marsh, Nat Pagle fishes and teaches anglers who have proved their patience. He calls fishing an excuse to drink, yet anglers across Azeroth know his mastery.",
  "sections": [
   {
    "title": "The Master Angler",
-   "body": "Though his name is synonymous with angling mastery across the known world, Nat Pagle is remarkably casual about his craft. Having cast lines for several decades, he often admits he has no great reverence for the sport itself, famously calling it little more than a convenient excuse to sit back and drink heavily. Despite this gruff nonchalance, Nat understands aquatic life and the art of angling better than anyone alive, even licensing fishing gear sought out by professionals.",
+   "body": "For decades, Nat Pagle has fished the waters of Azeroth. He speaks of the craft without much reverence, calling it a handy excuse to sit back and drink. Yet he knows aquatic life and angling better than anyone alive. He also licenses fishing gear sought by professionals.",
    "spoiler": 0
   },
   {
    "title": "A Marshland Hermit",
-   "body": "Pagle makes his camp on a small spit of land along the eastern coast of Dustwallow Marsh, far from the bustling taverns of the Eastern Kingdoms. He remains fiercely independent and uninterested in the politics of factions, welcoming Alliance travelers sent by trainers like Grimnur Stonebrand as well as Horde aspirants directed to him by Lumak in Orgrimmar. For Nat, anyone willing to scour the corners of the world for rare specimens deserves a lesson in genuine angling.",
+   "body": "Nat Pagle makes camp on a small spit along Dustwallow Marsh’s eastern coast, far from the taverns of the Eastern Kingdoms. He keeps clear of faction politics. Alliance travelers sent by trainers such as Grimnur Stonebrand come to him, and so do Horde anglers directed by Lumak in Orgrimmar. Anyone searching the world for rare specimens can earn a lesson from Nat.",
    "spoiler": 0
   },
   {
    "title": "Old Tales and Sea Monsters",
-   "body": "Pagle has ventured into perilous waters, including an excursion into the ruins of Zul'Gurub where he misplaced his favorite measuring tape and tackle box near the waters prowled by the monstrous hydra Gahz'ranka.",
+   "body": "Nat Pagle once ventured into the ruins of Zul'Gurub. Near waters prowled by the monstrous hydra Gahz'ranka, he misplaced his favorite measuring tape and tackle box.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "nat pagle lore",
     "who is the fishing guy"
    ],
-   "answer": "Nat Pagle is the most famous fisherman in Azeroth. Having angled for decades, he now lives a quiet life along the coast of Dustwallow Marsh, training veteran anglers who have outgrown ordinary trainers."
+   "answer": "Across Azeroth, anglers know Nat Pagle as the most famous fisherman. After decades on the water, he lives on the coast of Dustwallow Marsh and trains experienced anglers who have outgrown ordinary trainers."
   },
   {
    "q": "Where can Nat Pagle be found?",
@@ -43,7 +43,7 @@
     "nat pagle location",
     "find nat pagle"
    ],
-   "answer": "He lives on a small spit of land on the eastern coast of Dustwallow Marsh in Kalimdor, southwest of Theramore Isle."
+   "answer": "Nat Pagle lives on a small spit of land on Dustwallow Marsh’s eastern coast in Kalimdor, southwest of Theramore Isle."
   },
   {
    "q": "Why does Nat Pagle fish if he says he dislikes it?",
@@ -52,7 +52,7 @@
     "why does nat fish",
     "nat pagle drinking"
    ],
-   "answer": "Pagle has candidly confessed that he views fishing primarily as a respectable, undisturbed excuse to sit by the water and drink heavily for hours at a time."
+   "answer": "Nat Pagle says fishing gives him a respectable, quiet excuse to sit by the water and drink for hours."
   },
   {
    "q": "Will Nat Pagle train members of the Horde?",
@@ -61,7 +61,7 @@
     "horde nat pagle",
     "can horde talk to nat"
    ],
-   "answer": "Yes. Nat is entirely neutral toward faction rivalries. Horde anglers who reach the upper limits of ordinary skill are sent directly to him by his friend Lumak in Orgrimmar."
+   "answer": "Yes. Nat Pagle takes no side in faction rivalries. His friend Lumak in Orgrimmar sends Horde anglers who have reached the limits of ordinary training to him."
   },
   {
    "q": "What connection does Nat Pagle have to Zul'Gurub?",
@@ -70,17 +70,17 @@
     "nat pagle tackle box",
     "nat pagle zul gurub"
    ],
-   "answer": "Nat once fished within the ancient troll city of Zul'Gurub, leaving behind his tackle box and prized measuring tape near the waters harboring the great hydra Gahz'ranka."
+   "answer": "Nat Pagle once fished in the ancient troll city of Zul'Gurub. He left his tackle box and favorite measuring tape near waters where the great hydra Gahz'ranka dwells."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Lumak, the fishing trainer in the Valley of Honor in Orgrimmar, counts Nat Pagle as a trusted friend and sends promising Horde fishermen south to train with him."
+   "text": "As a Horde angler, Lumak, the fishing trainer in Orgrimmar’s Valley of Honor, may send you south. He trusts Nat Pagle and sends promising fishermen to train with him."
   },
   {
    "target": "faction:Alliance",
-   "text": "Dwarven master anglers such as Grimnur Stonebrand in Ironforge hold Nat in high esteem, sending experienced Alliance fishermen down to Dustwallow Marsh to learn the craft's final secrets."
+   "text": "As an Alliance angler, a master such as Grimnur Stonebrand in Ironforge may send you to Dustwallow Marsh. Experienced fishermen go to Nat to learn the craft’s final secrets."
   }
  ],
  "keywords": [
@@ -103,5 +103,6 @@
  ],
  "attribution": [
   "Nat Pagle"
- ]
+ ],
+ "style": 2
 }

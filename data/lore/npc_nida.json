@@ -8,11 +8,11 @@
   "wiki": "Nida",
   "refs": 1
  },
- "summary": "At the Lakeshire docks, Hilary cries over the necklace she lost in Lake Everstill.",
+ "summary": "At the Lakeshire docks, Hilary weeps over the necklace she lost in Lake Everstill.",
  "sections": [
   {
    "title": "A Child's Lost Keepsake",
-   "body": "Hilary waits in tears by the Lakeshire pier, afraid her father will be angry. She dropped the necklace he gave her into Lake Everstill, and hopes someone brave will dive in to find it. Gnoll invasions and Blackrock orc warbands press upon Lakeshire, but children there still face troubles of their own.",
+   "body": "Hilary waits by the Lakeshire pier in tears. She fears her father will be angry because she dropped the necklace he gave her into Lake Everstill. Now she hopes someone brave will dive in and find it. Gnoll invasions and Blackrock orc warbands press upon Lakeshire, yet children there have troubles of their own.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "why is nida sad",
     "nida crying sound"
    ],
-   "answer": "Hilary cries because the necklace her father bought for her slipped into Lake Everstill, and she fears his anger when he learns it is missing."
+   "answer": "Hilary cries because the necklace her father bought for her slipped into Lake Everstill. She fears his anger when he learns it is missing."
   },
   {
    "q": "Who is trying to help her find the necklace?",
@@ -42,7 +42,7 @@
     "nida friend",
     "who gives nida quest"
    ],
-   "answer": "Her playmate Shawn sees her distress and asks passing adventurers to dive into Lake Everstill for her necklace."
+   "answer": "Her playmate Shawn sees Hilary's distress and asks passing adventurers to dive into Lake Everstill for her necklace."
   },
   {
    "q": "Where is the lost necklace located?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As the Redridge Mountains face larger troubles, helping Hilary brings a small measure of warmth and innocence to Lakeshire."
+   "text": "As the Redridge Mountains face larger troubles, helping Hilary brings a little warmth and innocence to Lakeshire."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
  "attribution": [
   "Nida"
  ],
- "style": 1
+ "style": 2
 }

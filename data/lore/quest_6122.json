@@ -17,21 +17,21 @@
   "wiki": "The Principal Source (Alliance)",
   "chain": []
  },
- "summary": "At Cliffspring Falls, a sickness among Darkshore's deer draws the Cenarion Circle's attention to the water. Dendrite Starblaze sends young druids from Moonglade to collect a sample for Auberdine naturalist Alanndarian Nightsong.",
+ "summary": "At Cliffspring Falls, sick deer have drawn the Cenarion Circle to the water. Dendrite Starblaze sends young druids from Moonglade to gather a sample for Auberdine naturalist Alanndarian Nightsong.",
  "sections": [
   {
    "title": "A Vital Waterway Corrupted",
-   "body": "Cliffspring Falls feeds northern Darkshore with fresh water. When deer began to sicken with a lingering malady, the Cenarion Circle looked to the river for its cause. Dendrite Starblaze in Moonglade suspects the water source is tainted and sends novice druids to gather a sample at the cavern mouth beneath the falls.",
+   "body": "Cliffspring Falls feeds northern Darkshore with fresh water. When deer began to suffer a lingering sickness, the Cenarion Circle looked to the river for its cause. Dendrite Starblaze in Moonglade suspects the water is tainted. He sends novice druids to gather a sample at the cavern mouth beneath the falls.",
    "spoiler": 0
   },
   {
    "title": "Shadows at the Falls",
-   "body": "Vicious naga dwell inside Cliffspring River Cave, near the falls' headwaters. Their presence threatens anyone trying to investigate the blight. The Cenarion Circle needs a sample from the cave mouth to study what is making the wilderness sick.",
+   "body": "Vicious naga dwell inside Cliffspring River Cave, near the falls' headwaters. Their presence endangers anyone who comes to study the blight. The Cenarion Circle needs a sample from the cave mouth to learn what is making the wilderness sick.",
    "spoiler": 0
   },
   {
    "title": "A Deeper Malady",
-   "body": "In Auberdine, Alanndarian Nightsong finds the water sample confirms the Circle's fears. The corrupted falls are poisoning the riverbanks, but sick deer have also been seen beyond the water's direct path. The sample can help begin an antidote, while Alanndarian suspects a wider corruption is spreading through Darkshore's water table.",
+   "body": "In Auberdine, Alanndarian Nightsong finds that the water sample confirms the Circle's fears. The corrupted falls are poisoning the riverbanks, yet sick deer have also been seen beyond the water's direct path.\n\nThe sample may help begin an antidote. Alanndarian suspects a wider corruption is spreading through Darkshore's water table.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "cliffspring river importance",
     "darkshore water source"
    ],
-   "answer": "Cliffspring Falls supplies fresh water to northern Darkshore. Its headwaters feed local streams and rivers, so contamination there can spread through the surrounding land and wildlife."
+   "answer": "Cliffspring Falls supplies fresh water to northern Darkshore. Its headwaters feed local streams and rivers, so contamination can spread through the surrounding land and wildlife."
   },
   {
    "q": "Why are the deer in Darkshore falling ill?",
@@ -52,7 +52,7 @@
     "darkshore sick deer",
     "what poisoned the deer"
    ],
-   "answer": "The deer drink from Cliffspring Falls and the streams it feeds. The water is tainted at its source, and the pollutant is making the woodland creatures sick."
+   "answer": "The deer drink from Cliffspring Falls and the streams it feeds. The water is tainted at its source, and the pollutant is making woodland creatures sick."
   },
   {
    "q": "Who is Dendrite Starblaze?",
@@ -69,7 +69,7 @@
     "who is alanndarian nightsong",
     "nightsong auberdine"
    ],
-   "answer": "Alanndarian Nightsong is a night elf naturalist in Auberdine. Concerned by the corruption and suffering wildlife in Darkshore, she asked the Cenarion Circle in Moonglade for aid studying the affliction and finding a cure."
+   "answer": "Alanndarian Nightsong is a night elf naturalist in Auberdine. Concerned by the corruption and suffering wildlife in Darkshore, she asked the Cenarion Circle in Moonglade for help studying the affliction and finding a cure."
   },
   {
    "q": "Why are naga at Cliffspring Falls?",
@@ -93,11 +93,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you face the decay at Cliffspring Falls and help prepare remedies. This trial teaches you the knowledge needed to cure poisons in the wild."
+   "text": "As a druid, you face the decay at Cliffspring Falls and help prepare remedies. This trial teaches you how to cure poisons in the wild."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf of Auberdine, you see the corruption of Cliffspring Falls threaten your ancestral forests and the creatures that live there."
+   "text": "As a night elf of Auberdine, you see Cliffspring Falls' corruption threaten your ancestral forests and the creatures that live there."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "The Principal Source (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

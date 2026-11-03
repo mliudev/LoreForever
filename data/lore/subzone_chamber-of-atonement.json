@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Chamber of Atonement"
  },
- "summary": "The Chamber of Atonement is the grim entrance hall to the Graveyard wing within the Scarlet Monastery. Here, beneath stone arches hung with iron chains, the Scarlet Crusade subjects captured undead and other perceived heretics to brutal interrogation and torture before casting their remains into the cloister beyond.",
+ "summary": "Captured undead and accused heretics face interrogation and torture in the Chamber of Atonement. At the entrance to the Scarlet Monastery's Graveyard wing, the hall opens onto the cloister where the Scarlet Crusade casts their remains.",
  "sections": [
   {
    "title": "A Hall of Agony",
-   "body": "Serving as the threshold to the Forlorn Cloister, the Chamber of Atonement is far from a sanctuary of peaceful prayer. Instead, the Scarlet Crusade has converted the grand entryway into a house of pain, outfitted with racks, shackles, and burning braziers. Zealous inquisitors use these instruments to extract confessions and torment captives, viewing excruciating pain as the only fitting penance for unholy beings. The chamber echoes constantly with the cries of the damned, presided over by cruel taskmasters who ensure that those who enter rarely walk out whole.",
+   "body": "The Chamber of Atonement opens onto the Forlorn Cloister, where no peace or prayer waits. The Scarlet Crusade has filled this grand entry hall with racks, shackles, and burning braziers. Zealous inquisitors use them to force confessions and torment captives. They believe unholy beings deserve pain as penance, while cries echo and cruel taskmasters keep watch.",
    "spoiler": 0
   },
   {
    "title": "The Interrogator's Domain",
-   "body": "The chamber is overseen by Interrogator Vishas, one of the Crusade's most sadistic practitioners of coercion. Vishas takes grotesque pride in breaking the resolve of anyone caught crossing the monastery's boundaries. Among his prized victims is the Forsaken captive Vorrel Sengutz, who has endured endless weeks of torment at Vishas's hands. The cruelty practiced within these walls proves to outsiders that the Scarlet Crusade's crusade for purity has twisted into wanton sadism.",
+   "body": "Interrogator Vishas oversees the chamber. He takes pride in breaking anyone caught crossing the monastery's boundaries. The Forsaken captive Vorrel Sengutz has endured weeks of torment at his hands. Here, the Scarlet Crusade's campaign for purity has turned to sadism.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why are there torture devices here",
     "what happens in chamber of atonement"
    ],
-   "answer": "It serves as the interrogation and torture wing for the Scarlet Crusade inside the Graveyard wing of the monastery. Captives, primarily Forsaken and other perceived enemies, are questioned, broken, and tortured here using brutal implements before their bodies are cast out into the graveyard."
+   "answer": "In the monastery's Graveyard wing, the Scarlet Crusade uses the Chamber of Atonement to interrogate and torture captives. Forsaken and others it sees as enemies are questioned and tormented with brutal implements before their bodies are cast into the graveyard."
   },
   {
    "q": "Who controls this chamber?",
@@ -37,7 +37,7 @@
     "chamber of atonement leader",
     "who runs the torture chamber"
    ],
-   "answer": "The room is under the command of Interrogator Vishas, a sadistic torturer of the Scarlet Crusade notorious for deriving pleasure from his victims' suffering."
+   "answer": "Interrogator Vishas commands the chamber. The Scarlet Crusade torturer takes pleasure in his victims' suffering."
   },
   {
    "q": "Where does this room lead?",
@@ -46,7 +46,7 @@
     "where does chamber of atonement go",
     "next area after atonement"
    ],
-   "answer": "It is the outermost hall of the Graveyard wing and leads directly into the Forlorn Cloister, the open-air cemetery grounds where fallen Crusaders and restless dead reside."
+   "answer": "The Chamber of Atonement opens directly into the Forlorn Cloister, at the outermost edge of the Graveyard wing. Fallen Crusaders and restless dead dwell in its open-air cemetery grounds."
   },
   {
    "q": "Who is being held captive here?",
@@ -55,17 +55,17 @@
     "vorrel sengutz",
     "tortured prisoner"
    ],
-   "answer": "A Forsaken captive named Vorrel Sengutz has been imprisoned and tortured in the chamber by Interrogator Vishas for weeks on end."
+   "answer": "Vorrel Sengutz, a Forsaken captive, has been imprisoned and tortured by Interrogator Vishas for weeks."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Chamber of Atonement represents the height of Scarlet cruelty toward your people, serving as the site where captive Forsaken like Vorrel Sengutz are systematically tortured for existing."
+   "text": "For the Forsaken, the Chamber of Atonement shows the Scarlet Crusade's cruelty toward your people. Captive Forsaken like Vorrel Sengutz are tortured here for existing."
   },
   {
    "target": "class:Priest",
-   "text": "The desecration of holy vows is nowhere more evident than here, where Crusade interrogators twist sacred discipline into physical butchery and sadistic torment."
+   "text": "Here, the Scarlet Crusade's interrogators turn sacred discipline into physical torment. The chamber shows how far they have strayed from holy vows."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Chamber of Atonement"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:3088"
   ]
  },
- "summary": "In the Valley of Trials, Encrypted Parchment guides young orc rogues toward the Den. Gornek hands it to recruits who show promise, and its cipher points them to Rwag, the hidden trainer.",
+ "summary": "In the Valley of Trials, Encrypted Parchment calls promising young orc rogues to the Den. Gornek gives it to recruits after their first trials, and its cipher points to Rwag, the hidden trainer.",
  "sections": [
   {
    "title": "A Summons from the Shadows",
-   "body": "Young orcs prove their strength in the Valley of Trials under the open sun. Those who show a gift for stealth, deception, and bladecraft draw different notice. After facing the local wildlife, promising orc rogues receive Encrypted Parchment from Gornek. Its coded words call to those who can read a message meant to stay hidden.",
+   "body": "In the Valley of Trials, young orcs prove their strength beneath the open sun. Those gifted in stealth, deception, and bladecraft draw a different notice. After facing the local wildlife, promising orc rogues receive Encrypted Parchment from Gornek. Its coded words call to those who can read a message meant to stay hidden.",
    "spoiler": 0
   },
   {
    "title": "Ties to the Shattered Hand",
-   "body": "The cipher leads a novice into the Den, past the other clan trainers, to find Rwag. The recruit learns there that the Shattered Hand arranged the summons. The order works within the Horde's covert network, and answering the call begins a rogue's training in espionage and shadowcraft.",
+   "body": "The cipher guides a novice through the Den, past the other clan trainers, to Rwag. There, the recruit learns that the Shattered Hand arranged the summons. The order works within the Horde's covert network. Answering its call begins a rogue's training in espionage and shadowcraft.",
    "spoiler": 0
   }
  ],
@@ -103,5 +103,5 @@
   "Encrypted Parchment",
   "Encrypted Parchment (quest)"
  ],
- "style": 1
+ "style": 2
 }

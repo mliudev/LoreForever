@@ -10,16 +10,16 @@
    "quest:4821"
   ]
  },
- "summary": "The Alien Egg is an unusual and mysterious clutch found guarded by local wind serpents across the canyons of Thousand Needles. Despite its unfamiliar appearance, the native serpents protect the egg fiercely as if it were their own. Its presence has aroused the curiosity and concern of the tauren scouts stationed atop Freewind Post.",
+ "summary": "Wind serpents guard an unfamiliar clutch in Thousand Needles, and tauren scouts at Freewind Post want to know why.",
  "sections": [
   {
    "title": "A Serpent's Brood",
-   "body": "Discovered resting at the base of the towering spires south and northeast of Freewind Post, the Alien Egg stands out dramatically from the typical fauna of the canyon floor. Rather than abandoning or destroying the odd clutch, the native serpents of the needles fiercely guard it alongside their own nests. Hagar Lightninghoof, a tauren brave keeping watch from the heights of Freewind Post, sought to retrieve the specimen to determine whether it represented a threat to the mesa settlements or merely an unusual variation of local reptilian life.",
+   "body": "Alien Egg lies at the base of spires south and northeast of Freewind Post. Native wind serpents guard it beside their own nests, though such a clutch is strange among the life on the canyon floor. Hagar Lightninghoof, a tauren brave watching from Freewind Post, wants to retrieve it. He hopes to learn whether it threatens the mesa settlements or is simply an unusual local reptile.",
    "spoiler": 0
   },
   {
    "title": "The Spawn of Arikara",
-   "body": "When brought to Freewind Post and subjected to closer inspection, the mysterious shell immediately breaks open. It does not contain an extraterrestrial invader: out of it emerges Arikara, the red wind serpent of tauren legend, believed to be a spirit of vengeance. The young serpent swiftly takes flight, and a shaken Hagar declares that vengeance itself has come to Thousand Needles, setting off a chain of events that leads the local defenders to confront her.",
+   "body": "At Freewind Post, Alien Egg opens under closer inspection. Arikara, the red wind serpent of tauren legend, emerges from the shell. The tauren believe Arikara is a spirit of vengeance. The young serpent takes flight, and a shaken Hagar declares that vengeance has come to Thousand Needles. Local defenders set out to confront her.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why alien",
     "is it from space"
    ],
-   "answer": "The term 'alien' is used in the traditional sense of being completely foreign and unfamiliar to the local tauren scouts, rather than implying it came from outer space. Its coloration and markings were entirely unlike ordinary wind serpent clutches found in Thousand Needles."
+   "answer": "The tauren scouts call Alien Egg alien because it is completely foreign and unfamiliar to them. Its colors and markings differ from ordinary wind serpent clutches in Thousand Needles."
   },
   {
    "q": "Where can the Alien Egg be found?",
@@ -40,7 +40,7 @@
     "where is alien egg",
     "find alien egg"
    ],
-   "answer": "The egg rests on the canyon floor near the base of the mesa walls both to the south and northeast of Freewind Post in Thousand Needles. It is invariably surrounded and guarded by hostile wind serpents."
+   "answer": "Alien Egg lies on the canyon floor near mesa walls south and northeast of Freewind Post in Thousand Needles. Hostile wind serpents surround and guard it."
   },
   {
    "q": "Why do the local serpents guard the egg?",
@@ -48,7 +48,7 @@
     "why do serpents protect it",
     "serpents guarding egg"
    ],
-   "answer": "No one knows for certain. The serpents guard the egg as if it were one of their own, and those who report seeing it have failed to even get close enough to examine it."
+   "answer": "No one knows why the local serpents guard Alien Egg. They protect it as if it were their own, and those who have seen it have not come close enough to examine it."
   },
   {
    "q": "What happens when you bring the egg to Hagar Lightninghoof?",
@@ -56,17 +56,17 @@
     "hagar egg turn in",
     "what hatches"
    ],
-   "answer": "Upon delivery to Hagar Lightninghoof at Freewind Post, the egg hatches before his eyes. What flies out of it shakes Hagar so badly that he sends for the counsel of Motega Firemane at once."
+   "answer": "When you bring Alien Egg to Hagar Lightninghoof at Freewind Post, it hatches before his eyes. What emerges shakes Hagar so badly that he immediately seeks counsel from Motega Firemane."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The tauren of Freewind Post keep constant vigil over the canyon below, viewing the appearance of unknown creatures as an omen or a direct threat to their precarious cliffside settlement."
+   "text": "As a tauren, you keep watch over the canyon from Freewind Post. Unknown creatures can seem like an omen or a direct threat to your precarious cliffside home."
   },
   {
    "target": "class:Hunter",
-   "text": "Wind serpents are among the most revered beasts of the Kalimdor barrens, and tracking down one of their rarest and most guarded clutches tests every instinct of the hunt."
+   "text": "As a hunter, you know wind serpents are among the most revered beasts of the Kalimdor barrens. Tracking one of their rarest and most guarded clutches tests your instincts."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Alien Egg",
   "Alien Egg (quest)"
- ]
+ ],
+ "style": 2
 }

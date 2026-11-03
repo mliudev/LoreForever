@@ -24,21 +24,21 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "Having answered an ocean-borne plea, you find Princess Poobah chained as a captive on an isolated island off the Stranglethorn coast. The monstrous ape King Mukla commands the local beasts and keeps her bound, requiring his defeat to secure the key to her shackle.",
+ "summary": "The message in a bottle brings you to an island off the Stranglethorn coast, where Princess Poobah waits in chains. King Mukla commands the island’s beasts and keeps her captive. To free her, you need the key to her shackle.",
  "sections": [
   {
    "title": "A Captive on the Isle",
-   "body": "Following the message in the bottle brings you directly to Princess Poobah, who is held against her will by a heavy chain. The great Skymane gorilla known as King Mukla commands the creatures roaming the island and oversees her imprisonment. Poobah places her faith in you to face this formidable ape and retrieve the key needed to sever her bonds.",
+   "body": "On an island off the Stranglethorn coast, Princess Poobah waits in chains. The message in the bottle has brought you to her. King Mukla is a great Skymane gorilla who commands the creatures roaming the island. He keeps Poobah imprisoned, and she trusts you to face the ape and bring back her shackle key.",
    "spoiler": 0
   },
   {
    "title": "The Beast to the Southeast",
-   "body": "Poobah notes that her captor can often be heard prowling around the southeastern side of the island. Confronting King Mukla is no small feat, but taking him down is the only way to claim the shackle key and secure Poobah's release.",
+   "body": "Princess Poobah says her captor often prowls the island’s southeastern side. King Mukla is a formidable foe. Defeating him is the only way to claim the shackle key and free Poobah.",
    "spoiler": 0
   },
   {
    "title": "Deliverance and Gratitude",
-   "body": "Bringing the shackle key back frees Princess Poobah from captivity and saves her from what she considers a deep dishonor. Though she lacks the power to grant you full induction into her tribe, she offers you a token of thanks for your courage.",
+   "body": "The key frees Princess Poobah from her chains and saves her from what she sees as a deep dishonor. She cannot grant you full induction into her tribe. Instead, she offers a token of thanks for your courage.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "who is poobah",
     "princess poobah lore"
    ],
-   "answer": "Princess Poobah is a tribal captive found chained on an island off the coast of Stranglethorn Vale. After sending out a plea in a bottle, she waits for someone daring enough to overcome her captor and unlock her shackle."
+   "answer": "Princess Poobah is a tribal captive chained on an island off the coast of Stranglethorn Vale. She sent out a plea in a bottle and waits for someone daring enough to overcome her captor and unlock her shackle."
   },
   {
    "q": "Who holds Princess Poobah captive?",
@@ -59,7 +59,7 @@
     "poobah captor",
     "king mukla captive"
    ],
-   "answer": "She is held captive by King Mukla, a massive Skymane gorilla who holds sway over the surrounding beasts on the island."
+   "answer": "King Mukla holds Princess Poobah captive. He is a massive Skymane gorilla who commands the beasts around him on the island."
   },
   {
    "q": "Where is King Mukla found?",
@@ -68,7 +68,7 @@
     "mukla location",
     "find king mukla"
    ],
-   "answer": "Princess Poobah states that King Mukla can frequently be heard wandering across the southeastern side of the island."
+   "answer": "Princess Poobah says King Mukla often prowls the southeastern side of the island."
   },
   {
    "q": "What is needed to free Princess Poobah?",
@@ -77,7 +77,7 @@
     "how to free poobah",
     "key to free princess poobah"
    ],
-   "answer": "You need to defeat King Mukla and find the key to her shackle, then bring it back to unlock the chain binding her."
+   "answer": "To free Princess Poobah, defeat King Mukla and take the key to her shackle. Bring it back to unlock her chain."
   },
   {
    "q": "Where does this step fit in the story?",
@@ -86,7 +86,7 @@
     "message in a bottle part 2",
     "poobah quest line"
    ],
-   "answer": "This follows the original plea found in a bottle, serving as the direct confrontation against King Mukla to deliver Princess Poobah from her chains."
+   "answer": "This follows the plea found in a bottle and brings you face to face with King Mukla. You can then free Princess Poobah from her chains."
   }
  ],
  "angles": [],
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Message in a Bottle (2)"
- ]
+ ],
+ "style": 2
 }
